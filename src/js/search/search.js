@@ -1,5 +1,6 @@
 import { State } from '../core/state.js';
-import { isMd, isCode, isDoc } from '../tree/tree-node.js';
+import { isMd, isPdf, isCode, isDoc, isFileAllowedByFilter } from '../tree/tree-node.js';
+import { PDFViewer } from '../reader/pdf-engine.js';
 
 export const SearchEngine = {
   input: null,
@@ -7,6 +8,11 @@ export const SearchEngine = {
   infoEl: null,
   contentEl: null,
   onTreeUpdate: null,
+  textCache: new Map(),
+
+  clearCache() {
+    this.textCache.clear();
+  },
 
   init(input, contentCheckbox, infoEl, contentEl, onTreeUpdate) {
     this.input = input;
@@ -15,7 +21,7 @@ export const SearchEngine = {
     this.contentEl = contentEl;
     this.onTreeUpdate = onTreeUpdate;
 
-    this.input.addEventListener('input', this.debounce(() => this.run(), 180));
+    this.input.addEventListener('input', this.debounce(() => this.run(), 220));
     this.contentCheckbox.addEventListener('change', () => this.run());
 
     document.addEventListener('keydown', e => {
@@ -46,6 +52,51 @@ export const SearchEngine = {
     };
   },
 
+  async extractPdfText(fh, gen) {
+    if (!window.pdfjsLib) return '';
+    try {
+      const arrayBuffer = await fh.arrayBuffer();
+      if (gen && gen !== State.search.gen) return '';
+      const data = new Uint8Array(arrayBuffer);
+      const loadingTask = window.pdfjsLib.getDocument({ data });
+      const doc = await loadingTask.promise;
+      let fullText = '';
+      for (let i = 1; i <= doc.numPages; i++) {
+        if (gen && gen !== State.search.gen) return '';
+        const page = await doc.getPage(i);
+        const textContent = await page.getTextContent();
+        const pageText = textContent.items.map(item => item.str).join(' ');
+        fullText += pageText + ' ';
+      }
+      return fullText;
+    } catch (e) {
+      return '';
+    }
+  },
+
+  async getFileText(node, gen) {
+    if (!node || node.kind !== 'file') return '';
+    if (this.textCache.has(node.path)) {
+      return this.textCache.get(node.path);
+    }
+
+    try {
+      const fh = await node.handle.getFile();
+      if (isPdf(node.name)) {
+        const txt = await this.extractPdfText(fh, gen);
+        if (txt) this.textCache.set(node.path, txt);
+        return txt;
+      } else if (isMd(node.name) || isCode(node.name)) {
+        const txt = await fh.text();
+        this.textCache.set(node.path, txt);
+        return txt;
+      }
+    } catch (e) {
+      return '';
+    }
+    return '';
+  },
+
   async run() {
     const q = this.input.value.trim();
     State.search.q = q;
@@ -56,6 +107,8 @@ export const SearchEngine = {
       State.search.fileHits = new Set();
       State.search.inDoc = [];
       State.search.idx = -1;
+      State.search.pdfMatchingPages = [];
+      State.search.pdfMatchIdx = -1;
       this.infoEl.hidden = true;
       if (this.onTreeUpdate) this.onTreeUpdate();
       this.clearDocHighlights();
@@ -67,7 +120,7 @@ export const SearchEngine = {
     const nameHits = [];
 
     for (const n of State.flat) {
-      if (n.kind === 'file' && isDoc(n.name) && n.name.toLowerCase().includes(lc)) {
+      if (n.kind === 'file' && isFileAllowedByFilter(n.name, State.filters && State.filters.types) && n.name.toLowerCase().includes(lc)) {
         nameHits.push(n.path);
       }
     }
@@ -78,17 +131,25 @@ export const SearchEngine = {
       this.infoEl.hidden = false;
       this.infoEl.textContent = 'กำลังค้นหาในเนื้อหา…';
       const matched = [];
+      const filesToScan = State.flat.filter(n =>
+        n.kind === 'file' &&
+        isFileAllowedByFilter(n.name, State.filters && State.filters.types) &&
+        (isMd(n.name) || isCode(n.name) || isPdf(n.name))
+      );
 
-      for (const n of State.flat) {
+      let scanned = 0;
+      for (const n of filesToScan) {
         if (gen !== State.search.gen) return;
-        if (n.kind !== 'file' || (!isMd(n.name) && !isCode(n.name))) continue;
+        scanned++;
+        if (filesToScan.length > 5 && scanned % 5 === 0) {
+          this.infoEl.textContent = `กำลังค้นหาในเนื้อหา… (${scanned}/${filesToScan.length})`;
+        }
         let txt = '';
         try {
-          const fh = await n.handle.getFile();
-          txt = await fh.text();
+          txt = await this.getFileText(n, gen);
         } catch (e) { continue; }
         if (gen !== State.search.gen) return;
-        if (txt.toLowerCase().includes(lc)) matched.push(n.path);
+        if (txt && txt.toLowerCase().includes(lc)) matched.push(n.path);
       }
       if (gen !== State.search.gen) return;
       State.search.hits = matched;
@@ -110,46 +171,75 @@ export const SearchEngine = {
     }
     State.search.inDoc = [];
     State.search.idx = -1;
+    State.search.pdfMatchingPages = [];
+    State.search.pdfMatchIdx = -1;
   },
 
-  highlightDoc() {
+  async highlightDoc() {
     this.clearDocHighlights();
     const q = State.search.q;
-    if (!q || !State.current || !isMd(State.current.name) || !State.search.content || !this.contentEl) return;
+    if (!q || !State.current || !State.search.content) return;
 
-    const walker = document.createTreeWalker(this.contentEl, NodeFilter.SHOW_TEXT, {
-      acceptNode(n) {
-        if (!n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
-        const p = n.parentElement;
-        if (p && p.closest('pre, code, .katex')) return NodeFilter.FILTER_REJECT;
-        return n.nodeValue.toLowerCase().includes(q.toLowerCase()) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+    if (isMd(State.current.name) || isCode(State.current.name)) {
+      if (!this.contentEl) return;
+      const walker = document.createTreeWalker(this.contentEl, NodeFilter.SHOW_TEXT, {
+        acceptNode(n) {
+          if (!n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+          const p = n.parentElement;
+          if (p && p.closest('pre, code, .katex')) return NodeFilter.FILTER_REJECT;
+          return n.nodeValue.toLowerCase().includes(q.toLowerCase()) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+        }
+      });
+
+      const targets = [];
+      while (walker.nextNode()) targets.push(walker.currentNode);
+      const hits = [];
+
+      for (const t of targets) {
+        const frag = document.createDocumentFragment();
+        const txt = t.nodeValue, low = txt.toLowerCase(), ql = q.toLowerCase();
+        let i = 0;
+        for (;;) {
+          const j = low.indexOf(ql, i);
+          if (j < 0) { frag.appendChild(document.createTextNode(txt.slice(i))); break; }
+          frag.appendChild(document.createTextNode(txt.slice(i, j)));
+          const m = document.createElement('mark');
+          m.textContent = txt.slice(j, j + q.length);
+          frag.appendChild(m);
+          hits.push(m);
+          i = j + q.length;
+        }
+        t.parentNode.replaceChild(frag, t);
       }
-    });
 
-    const targets = [];
-    while (walker.nextNode()) targets.push(walker.currentNode);
-    const hits = [];
-
-    for (const t of targets) {
-      const frag = document.createDocumentFragment();
-      const txt = t.nodeValue, low = txt.toLowerCase(), ql = q.toLowerCase();
-      let i = 0;
-      for (;;) {
-        const j = low.indexOf(ql, i);
-        if (j < 0) { frag.appendChild(document.createTextNode(txt.slice(i))); break; }
-        frag.appendChild(document.createTextNode(txt.slice(i, j)));
-        const m = document.createElement('mark');
-        m.textContent = txt.slice(j, j + q.length);
-        frag.appendChild(m);
-        hits.push(m);
-        i = j + q.length;
+      State.search.inDoc = hits;
+      if (hits.length) State.search.idx = 0;
+      this.updateNav();
+    } else if (isPdf(State.current.name) && State.pdf.doc) {
+      const doc = State.pdf.doc;
+      const matchingPages = [];
+      const ql = q.toLowerCase();
+      for (let p = 1; p <= doc.numPages; p++) {
+        try {
+          const page = await doc.getPage(p);
+          const textContent = await page.getTextContent();
+          const str = textContent.items.map(item => item.str).join(' ').toLowerCase();
+          if (str.includes(ql)) {
+            matchingPages.push(p);
+          }
+        } catch (e) {}
       }
-      t.parentNode.replaceChild(frag, t);
+      State.search.pdfMatchingPages = matchingPages;
+      State.search.pdfMatchIdx = matchingPages.length > 0 ? 0 : -1;
+      if (matchingPages.length > 0) {
+        PDFViewer.jumpToPage(matchingPages[0]);
+        this.infoEl.hidden = false;
+        this.infoEl.textContent = `ใน PDF นี้: พบ ${matchingPages.length} หน้า (หน้า ${matchingPages.slice(0, 5).join(', ')}${matchingPages.length > 5 ? '...' : ''})`;
+      } else {
+        this.infoEl.hidden = false;
+        this.infoEl.textContent = 'ใน PDF นี้: ไม่พบข้อความ';
+      }
     }
-
-    State.search.inDoc = hits;
-    if (hits.length) State.search.idx = 0;
-    this.updateNav();
   },
 
   updateNav() {
@@ -163,6 +253,15 @@ export const SearchEngine = {
   },
 
   stepInDoc(dir) {
+    if (State.current && isPdf(State.current.name) && State.search.pdfMatchingPages && State.search.pdfMatchingPages.length) {
+      const pages = State.search.pdfMatchingPages;
+      State.search.pdfMatchIdx = (State.search.pdfMatchIdx + dir + pages.length) % pages.length;
+      const pageNum = pages[State.search.pdfMatchIdx];
+      PDFViewer.jumpToPage(pageNum);
+      this.infoEl.hidden = false;
+      this.infoEl.textContent = `ใน PDF นี้: หน้า ${pageNum} (${State.search.pdfMatchIdx + 1}/${pages.length})`;
+      return;
+    }
     if (!State.search.inDoc.length) return;
     State.search.idx = (State.search.idx + dir + State.search.inDoc.length) % State.search.inDoc.length;
     this.updateNav();

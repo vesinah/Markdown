@@ -1,10 +1,11 @@
 import { State } from '../core/state.js';
 import { isPdf, isImg, isCode, isMd, esc } from './tree-node.js';
-import { isNodeVisible } from './tree-exp.js';
+import { isNodeVisible, getFilterVisiblePaths } from './tree-exp.js';
 
 export function renderTree(container) {
   const q = State.search.q.trim();
   const html = [];
+  const filterVisible = getFilterVisiblePaths(State.filters && State.filters.types);
 
   let searchVisiblePaths = null;
   if (q) {
@@ -20,6 +21,7 @@ export function renderTree(container) {
   }
 
   for (const n of State.flat) {
+    if (!filterVisible.has(n.path)) continue;
     if (searchVisiblePaths) {
       if (!searchVisiblePaths.has(n.path)) continue;
     } else {
@@ -58,7 +60,13 @@ export function renderTree(container) {
   if (!State.flat.length) {
     container.innerHTML = '<div style="padding:16px;color:var(--text3);text-align:center;">ยังไม่มีโฟลเดอร์ — กด “+ เพิ่มโฟลเดอร์” ด้านบน</div>';
   } else if (!html.length) {
-    container.innerHTML = `<div style="padding:16px;color:var(--text3);text-align:center;">ไม่พบผลลัพธ์ที่ตรงกับ “${esc(q)}”</div>`;
+    if (q) {
+      container.innerHTML = `<div style="padding:16px;color:var(--text3);text-align:center;">ไม่พบผลลัพธ์ที่ตรงกับ “${esc(q)}”</div>`;
+    } else if (State.filters && State.filters.types && State.filters.types.size === 0) {
+      container.innerHTML = '<div style="padding:16px;color:var(--text3);text-align:center;">ไม่ได้เลือกชนิดไฟล์ — กรุณาเลือกชนิดไฟล์ด้านบน</div>';
+    } else {
+      container.innerHTML = '<div style="padding:16px;color:var(--text3);text-align:center;">ไม่พบไฟล์ที่ตรงกับตัวกรองชนิดไฟล์</div>';
+    }
   } else {
     container.innerHTML = html.join('');
   }

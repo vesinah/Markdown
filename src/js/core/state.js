@@ -6,6 +6,9 @@ export const State = {
   expanded: new Set(),
   collapsed: new Set(),
   blobUrls: new Map(),
+  filters: {
+    types: new Set(['md', 'pdf', 'txt', 'html', 'xml', 'rdf', 'img'])
+  },
   search: {
     q: '',
     content: false,
@@ -22,7 +25,8 @@ export const State = {
     fscale: 1,
     tx: '',
     sbWidth: 320,
-    sbClosed: false
+    sbClosed: false,
+    tocMini: false
   },
   pdf: {
     doc: null,

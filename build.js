@@ -150,14 +150,71 @@ ${combinedCss}
         <img src="${faviconData}" width="22" height="22" alt="มาร์คมาก" style="border-radius:5px;vertical-align:middle;display:inline-block;box-shadow:0 1px 3px rgba(0,0,0,0.12)">
         มาร์คมาก
       </span>
-      <button id="btn-add" class="btn primary small" title="เพิ่มโฟลเดอร์สำหรับอ่าน">+ เพิ่มโฟลเดอร์</button>
+      <button id="btn-add" class="sb-btn-add" title="เพิ่มโฟลเดอร์สำหรับอ่าน" aria-label="เพิ่มโฟลเดอร์">+</button>
     </div>
 
     <div class="sb-search-box">
-      <input type="search" id="search-input" class="sb-search-input" placeholder="ค้นหาชื่อไฟล์ / เนื้อหา..." autocomplete="off">
+      <div class="sb-search-input-wrap">
+        <input type="search" id="search-input" class="sb-search-input" placeholder="ค้นหาชื่อไฟล์ / เนื้อหา..." autocomplete="off">
+        <button type="button" id="btn-filter-toggle" class="sb-filter-toggle-btn" title="ตัวกรองชนิดไฟล์ (Dropdown)" aria-label="ตัวกรองชนิดไฟล์">
+          <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path d="M1.5 1.75a.75.75 0 0 1 .75-.75h11.5a.75.75 0 0 1 .53 1.28L9.5 7.06v5.69a.75.75 0 0 1-.32.62l-2 1.33A.75.75 0 0 1 6 14.08V7.06L1.72 2.28a.75.75 0 0 1-.22-.53Z"/></svg>
+        </button>
+      </div>
+
       <div class="sb-search-opts">
         <label><input type="checkbox" id="search-content"> ในเนื้อหา</label>
         <span id="search-info" class="sb-search-info" hidden></span>
+      </div>
+
+      <!-- Floating Dropdown Checkbox Panel -->
+      <div class="type-filter-dropdown" id="type-filter-dropdown" hidden>
+        <div class="sb-filter-header">
+          <span class="sb-filter-title">
+            <svg class="sb-filter-icon" viewBox="0 0 16 16" width="12" height="12" fill="currentColor"><path d="M1.5 1.75a.75.75 0 0 1 .75-.75h11.5a.75.75 0 0 1 .53 1.28L9.5 7.06v5.69a.75.75 0 0 1-.32.62l-2 1.33A.75.75 0 0 1 6 14.08V7.06L1.72 2.28a.75.75 0 0 1-.22-.53Z"/></svg>
+            ชนิดไฟล์
+          </span>
+          <div class="sb-filter-actions">
+            <button type="button" id="btn-filter-all" class="filter-action-btn" title="เลือกทั้งหมด" aria-label="เลือกทั้งหมด">
+              <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path d="M12.78 4.22a.75.75 0 0 1 0 1.06l-6.5 6.5a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 1 1 1.06-1.06l2.47 2.47 5.97-5.97a.75.75 0 0 1 1.06 0Z"/><path d="M15.78 4.22a.75.75 0 0 1 0 1.06l-6.5 6.5a.75.75 0 0 1-1.06 0l-.5-.5a.75.75 0 1 1 1.06-1.06l.5.5 5.44-5.44a.75.75 0 0 1 1.06 0Z" opacity=".7"/></svg>
+            </button>
+            <button type="button" id="btn-filter-none" class="filter-action-btn" title="ไม่เลือกทั้งหมด" aria-label="ไม่เลือกทั้งหมด">
+              <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path d="M2.5 4A1.5 1.5 0 0 1 4 2.5h8A1.5 1.5 0 0 1 13.5 4v8a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V4Zm1.5 0v8h8V4H4Z"/><path d="M5 8a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 8Z" opacity=".8"/></svg>
+            </button>
+            <button type="button" id="btn-filter-reset" class="filter-action-btn" title="รีเซ็ต" aria-label="รีเซ็ต">
+              <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path fill-rule="evenodd" d="M8 2.5a5.487 5.487 0 0 0-4.131 1.869l-1.2-1.2A.75.75 0 0 0 1.4 3.7v3.55a.75.75 0 0 0 .75.75H5.7a.75.75 0 0 0 .53-1.28l-1.272-1.272A3.987 3.987 0 0 1 8 4a4 4 0 1 1-3.464 6 .75.75 0 0 0-1.3.75A5.5 5.5 0 1 0 8 2.5Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="sb-filter-list" id="filter-type-list">
+          <label class="filter-chip" title="ไฟล์ Markdown (.md)">
+            <input type="checkbox" name="type-filter" value="md" checked>
+            <span class="chip-label">.md</span>
+          </label>
+          <label class="filter-chip" title="ไฟล์ PDF (.pdf)">
+            <input type="checkbox" name="type-filter" value="pdf" checked>
+            <span class="chip-label">.pdf</span>
+          </label>
+          <label class="filter-chip" title="ไฟล์ข้อความ (.txt)">
+            <input type="checkbox" name="type-filter" value="txt" checked>
+            <span class="chip-label">.txt</span>
+          </label>
+          <label class="filter-chip" title="ไฟล์ HTML (.html)">
+            <input type="checkbox" name="type-filter" value="html" checked>
+            <span class="chip-label">.html</span>
+          </label>
+          <label class="filter-chip" title="ไฟล์ XML (.xml)">
+            <input type="checkbox" name="type-filter" value="xml" checked>
+            <span class="chip-label">.xml</span>
+          </label>
+          <label class="filter-chip" title="ไฟล์ RDF (.rdf, .ttl)">
+            <input type="checkbox" name="type-filter" value="rdf" checked>
+            <span class="chip-label">.rdf</span>
+          </label>
+          <label class="filter-chip" title="ไฟล์รูปภาพ (.png, .jpg, .svg, .webp)">
+            <input type="checkbox" name="type-filter" value="img" checked>
+            <span class="chip-label">รูปภาพ</span>
+          </label>
+        </div>
       </div>
     </div>
 
@@ -165,10 +222,14 @@ ${combinedCss}
     <div id="tree" class="sb-tree"></div>
 
     <div class="sb-footer">
-      <span id="stat"></span>
+      <div class="sb-metrics-header">
+        <span id="stat-title" class="stat-title">สัดส่วนเอกสาร</span>
+        <span id="stat-filesize" class="stat-filesize"></span>
+      </div>
+      <div class="sb-progress-bar" id="sb-progress-bar" title="สัดส่วนชนิดไฟล์"></div>
       <div class="sb-footer-actions">
-        <button id="btn-final" class="btn small" title="กางเฉพาะโฟลเดอร์ final และเส้นทางที่เกี่ยวข้อง">เฉพาะ final</button>
-        <button id="btn-collapse-all" class="btn small" title="พับทุกโฟลเดอร์">พับทั้งหมด</button>
+        <button id="btn-final" class="sb-action-btn" title="กางเฉพาะโฟลเดอร์ final และเส้นทางที่เกี่ยวข้อง">เฉพาะ final</button>
+        <button id="btn-collapse-all" class="sb-action-btn" title="พับทุกโฟลเดอร์">พับทั้งหมด</button>
       </div>
     </div>
   </aside>
@@ -179,9 +240,11 @@ ${combinedCss}
   <!-- Main View Area -->
   <main id="main">
     <div class="menubar">
-      <button id="sb-toggle" class="mb-btn" title="ซ่อน/แสดงไซด์บาร์ (Ctrl+B)">
-        <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M1 2.75A1.75 1.75 0 0 1 2.75 1h10.5C14.22 1 15 1.78 15 2.75v10.5A1.75 1.75 0 0 1 13.25 15H2.75A1.75 1.75 0 0 1 1 13.25V2.75ZM5.5 2H2.75a.75.75 0 0 0-.75.75v10.5c0 .41.34.75.75.75H5.5V2Zm1.5 11h6.25a.75.75 0 0 0 .75-.75V2.75a.75.75 0 0 0-.75-.75H7v11Z"/></svg>
-      </button>
+      <div class="mb-sb-slot">
+        <button id="sb-toggle" class="mb-btn" title="ซ่อน/แสดงแถบรายการไฟล์ (Ctrl+B)">
+          <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M1 2.75A1.75 1.75 0 0 1 2.75 1h10.5C14.22 1 15 1.78 15 2.75v10.5A1.75 1.75 0 0 1 13.25 15H2.75A1.75 1.75 0 0 1 1 13.25V2.75ZM5.5 2H2.75a.75.75 0 0 0-.75.75v10.5c0 .41.34.75.75.75H5.5V2Zm1.5 11h6.25a.75.75 0 0 0 .75-.75V2.75a.75.75 0 0 0-.75-.75H7v11Z"/></svg>
+        </button>
+      </div>
 
       <span class="mb-group">
         <span class="mb-label">ธีม</span>
@@ -203,15 +266,66 @@ ${combinedCss}
         <button id="tx-reset" class="mb-btn" title="ใช้สีอักษรตามธีม">รีเซ็ต</button>
       </span>
 
-      <span id="file-crumb" class="file-crumb"></span>
+      <div class="doc-info-wrap" id="doc-info-wrap">
+        <button type="button" id="btn-doc-info" class="doc-info-btn" title="ข้อมูลไฟล์ปัจจุบัน (คลิกเพื่อดูรายละเอียด)" aria-label="ข้อมูลไฟล์" hidden>?</button>
+        <div id="doc-info-popover" class="doc-info-popover" hidden>
+          <div class="doc-info-header">
+            <div class="doc-info-badge" id="doc-info-ext">.md</div>
+            <div class="doc-info-title-wrap">
+              <div class="doc-info-name" id="doc-info-name">-</div>
+              <div class="doc-info-type" id="doc-info-type">เอกสาร</div>
+            </div>
+          </div>
+          <div class="doc-info-section">
+            <div class="doc-info-label">ตำแหน่งไฟล์ (Path)</div>
+            <div class="doc-info-path-box">
+              <span class="doc-info-path" id="doc-info-path">-</span>
+              <button type="button" id="btn-copy-path" class="doc-copy-btn" title="คัดลอก Path" aria-label="คัดลอก Path">
+                <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor">
+                  <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"/>
+                  <path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="doc-info-stats">
+            <div class="doc-stat-box">
+              <div class="doc-stat-label">จำนวนคำ (Words)</div>
+              <div class="doc-stat-val text-accent" id="doc-stat-words">-</div>
+              <div class="doc-stat-sub" id="doc-stat-chars">-</div>
+            </div>
+            <div class="doc-stat-box">
+              <div class="doc-stat-label">ขนาดไฟล์ (Size)</div>
+              <div class="doc-stat-val" id="doc-stat-size">-</div>
+              <div class="doc-stat-sub" id="doc-stat-lines">-</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="reader-viewport">
       <!-- 1. Markdown Viewer with Interactive Ruler -->
       <div id="md-view">
         <div id="toc-panel">
-          <div class="toc-title">สารบัญ</div>
-          <div id="toc-list"></div>
+          <div id="toc-header" title="คลิกเพื่อย่อสารบัญ (Alt+T)">
+            <span class="toc-title">สารบัญ</span>
+            <button id="btn-toc-collapse" class="toc-collapse-btn" title="ย่อสารบัญเป็นแถบแคบ (Alt+T)">
+              <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path fill-rule="evenodd" d="M9.78 12.78a.75.75 0 0 1-1.06 0L4.47 8.53a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 1.06L6.06 8l3.72 3.72a.75.75 0 0 1 0 1.06Z"/></svg>
+            </button>
+          </div>
+          <div id="toc-full-view">
+            <div id="toc-list"></div>
+          </div>
+          <div id="toc-mini-rail">
+            <button id="btn-toc-expand" class="toc-expand-btn" title="ขยายสารบัญเต็ม (Alt+T)">
+              <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path fill-rule="evenodd" d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"/></svg>
+            </button>
+            <div id="toc-rail-list"></div>
+            <div id="toc-rail-logo" class="toc-rail-logo" title="มาร์คมาก — คลิกเพื่อเปิดแถบรายการไฟล์ (Ctrl+B)">
+              <img src="${faviconData}" width="22" height="22" alt="มาร์คมาก">
+            </div>
+          </div>
         </div>
         <div id="md-reader-container" class="md-reader-container">
           <!-- Top Ruler Bar -->
@@ -236,24 +350,9 @@ ${combinedCss}
         </div>
       </div>
 
-      <!-- 2. PDF.js Canvas Viewer -->
+      <!-- 2. Chrome Native PDF Viewer -->
       <div id="pdf-view" hidden>
-        <div class="pdf-toolbar">
-          <div class="pdf-page-nav">
-            <button id="pdf-prev" class="btn-icon" title="หน้าก่อนหน้า">‹</button>
-            <input type="number" id="pdf-page-num" min="1" value="1">
-            <span id="pdf-total-pages">/ 1</span>
-            <button id="pdf-next" class="btn-icon" title="หน้าถัดไป">›</button>
-          </div>
-          <div class="pdf-zoom-nav">
-            <button id="pdf-zoom-out" class="btn-icon" title="ย่อ">-</button>
-            <span id="pdf-zoom-val">120%</span>
-            <button id="pdf-zoom-in" class="btn-icon" title="ขยาย">+</button>
-            <button id="pdf-fit-width" class="mb-btn" title="พอดีความกว้าง">พอดีหน้าจอ</button>
-            <button id="pdf-zoom-reset" class="mb-btn" title="ขนาด 100%">100%</button>
-          </div>
-        </div>
-        <div id="pdf-canvas-container" class="pdf-canvas-container"></div>
+        <iframe id="pdf-frame" class="pdf-frame" src="about:blank" title="PDF Viewer"></iframe>
       </div>
 
       <!-- 3. Image Viewer -->

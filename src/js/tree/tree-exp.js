@@ -1,4 +1,32 @@
 import { State } from '../core/state.js';
+import { isFileAllowedByFilter } from './tree-node.js';
+
+export function getFilterVisiblePaths(activeTypes) {
+  const visible = new Set();
+  const types = activeTypes || (State.filters && State.filters.types);
+  if (!types || types.size === 0) return visible;
+
+  let hasMatchingFile = false;
+  for (const n of State.flat) {
+    if (n.kind === 'file' && isFileAllowedByFilter(n.name, types)) {
+      hasMatchingFile = true;
+      visible.add(n.path);
+      let p = n.parent;
+      while (p) {
+        visible.add(p.path);
+        p = p.parent;
+      }
+    }
+  }
+
+  if (hasMatchingFile && State.roots) {
+    for (const r of State.roots) {
+      visible.add(r.name);
+    }
+  }
+
+  return visible;
+}
 
 export function getFinalExpandedPaths() {
   const expanded = new Set();
