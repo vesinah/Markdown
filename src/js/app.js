@@ -39,13 +39,7 @@ export function switchView(type) {
     if (D.docInfoPopover) D.docInfoPopover.hidden = true;
   }
   if (type === 'md') {
-    setTimeout(() => {
-      if (RulerModule) {
-        RulerModule.syncScrollbar();
-        RulerModule.clampMargins();
-        RulerModule.drawScale();
-      }
-    }, 50);
+    setTimeout(() => RulerModule.drawScale(), 50);
   }
 }
 
@@ -91,11 +85,7 @@ export function toggleTocMini(force) {
   }
   saveUi();
   setTimeout(() => {
-    if (RulerModule) {
-      RulerModule.syncScrollbar();
-      RulerModule.clampMargins();
-      RulerModule.drawScale();
-    }
+    if (RulerModule && RulerModule.drawScale) RulerModule.drawScale();
   }, 200);
 }
 
@@ -374,19 +364,11 @@ export async function openFile(node, opt = {}) {
       fileText = await file.text();
       await renderMarkdownContent(fileText, node, D.mdContent, D.tocPanel, D.tocList);
       SearchEngine.highlightDoc();
-      if (RulerModule) {
-        RulerModule.syncScrollbar();
-        RulerModule.clampMargins();
-      }
     } else {
       switchView('md');
       fileText = await file.text();
       await renderCodeContent(fileText, node, D.mdContent, D.tocPanel, D.tocList);
       SearchEngine.highlightDoc();
-      if (RulerModule) {
-        RulerModule.syncScrollbar();
-        RulerModule.clampMargins();
-      }
     }
 
     updateDocInfo(node, file, fileText);
@@ -650,11 +632,7 @@ if (D.sbToggle) {
     updateSbToggleUI();
     saveUi();
     setTimeout(() => {
-      if (RulerModule) {
-        RulerModule.syncScrollbar();
-        RulerModule.clampMargins();
-        RulerModule.drawScale();
-      }
+      if (RulerModule && RulerModule.drawScale) RulerModule.drawScale();
     }, 200);
   });
 }
@@ -731,11 +709,7 @@ export async function initApp() {
   SearchEngine.init(D.searchInput, D.searchContent, D.searchInfo, D.mdContent, () => renderTree(D.tree));
   setupSidebarResizer(D.sbResizer, D.sidebar, () => {
     saveUi();
-    if (RulerModule) {
-      RulerModule.syncScrollbar();
-      RulerModule.clampMargins();
-      RulerModule.drawScale();
-    }
+    RulerModule.drawScale();
   });
 
   RulerModule.init(

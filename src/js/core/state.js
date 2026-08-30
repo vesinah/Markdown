@@ -26,9 +26,7 @@ export const State = {
     tx: '',
     sbWidth: 320,
     sbClosed: false,
-    tocMini: false,
-    padLeft: 60,
-    padRight: 60
+    tocMini: false
   },
   pdf: {
     doc: null,

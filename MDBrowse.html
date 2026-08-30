@@ -1739,13 +1739,10 @@ body.dragging-ruler .md-ruler-bar {
 
 .ruler-handle.left {
   left: var(--md-pad-left, 60px);
-  transform: translateX(-50%);
 }
 
 .ruler-handle.right {
-  left: auto;
-  right: calc(var(--md-pad-right, 60px) + var(--md-sb-w, 0px));
-  transform: translateX(50%);
+  left: calc(100% - var(--md-pad-right, 60px));
 }
 
 .ruler-bar-handle {
@@ -1762,34 +1759,6 @@ body.dragging-ruler .md-ruler-bar {
   height: 16px;
   background: var(--accent);
   box-shadow: 0 0 0 2px var(--accent2);
-}
-
-/* Live Ruler Tooltip */
-.ruler-tooltip {
-  position: absolute;
-  top: 24px;
-  background: var(--bg);
-  color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 3px 8px;
-  font-size: 11px;
-  font-family: var(--font-ui);
-  font-weight: 500;
-  box-shadow: var(--shadow);
-  pointer-events: none;
-  white-space: nowrap;
-  z-index: 50;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateX(-50%) translateY(-2px);
-  transition: opacity 0.12s ease, transform 0.12s ease;
-}
-
-body.dragging-ruler .ruler-tooltip.active {
-  opacity: 1;
-  visibility: visible;
-  transform: translateX(-50%) translateY(0);
 }
 
 .md-scroll-pane {
@@ -1818,8 +1787,7 @@ body.dragging-ruler .ruler-tooltip.active {
 }
 
 .margin-guide.right {
-  left: auto;
-  right: calc(var(--md-pad-right, 60px) + var(--md-sb-w, 0px));
+  left: calc(100% - var(--md-pad-right, 60px));
 }
 
 /* Show subtle guide on ruler hover, and active guide during dragging */
@@ -3836,9 +3804,7 @@ const State = {
     tx: '',
     sbWidth: 320,
     sbClosed: false,
-    tocMini: false,
-    padLeft: 60,
-    padRight: 60
+    tocMini: false
   },
   pdf: {
     doc: null,
@@ -5121,12 +5087,10 @@ const RulerModule = {
   guideRight: null,
   container: null,
   scrollPane: null,
-  tooltip: null,
   onSaveUi: null,
 
   defaultPadLeft: 60,
   defaultPadRight: 60,
-  minContentWidth: 180,
 
   init(rulerBar, rulerTrack, rulerScale, handleLeft, handleRight, guideLeft, guideRight, container, scrollPane, onSaveUi) {
     this.rulerBar = rulerBar;
@@ -5142,90 +5106,27 @@ const RulerModule = {
 
     if (!this.rulerTrack) return;
 
-    this.ensureTooltip();
     this.setupDrag();
     this.setupDblClick();
-    this.syncScrollbar();
     this.drawScale();
 
-    window.addEventListener('resize', () => {
-      this.syncScrollbar();
-      this.clampMargins();
-      this.drawScale();
-    });
-
-    if (typeof ResizeObserver !== 'undefined' && this.scrollPane) {
-      const ro = new ResizeObserver(() => {
-        this.syncScrollbar();
-        this.clampMargins();
-      });
-      ro.observe(this.scrollPane);
-    }
+    window.addEventListener('resize', () => this.drawScale());
   },
 
-  ensureTooltip() {
-    if (this.tooltip || !this.rulerTrack) return;
-    let tt = document.getElementById('ruler-tooltip');
-    if (!tt) {
-      tt = document.createElement('div');
-      tt.id = 'ruler-tooltip';
-      tt.className = 'ruler-tooltip';
-      this.rulerTrack.appendChild(tt);
-    }
-    this.tooltip = tt;
-  },
-
-  syncScrollbar() {
-    const sbW = this.scrollPane ? Math.max(0, this.scrollPane.offsetWidth - this.scrollPane.clientWidth) : 0;
-    document.documentElement.style.setProperty('--md-sb-w', sbW + 'px');
-    return sbW;
-  },
-
-  getUsableWidth() {
-    if (!this.rulerTrack) return window.innerWidth;
-    const rect = this.rulerTrack.getBoundingClientRect();
-    const sbW = this.syncScrollbar();
-    return Math.max(0, rect.width - sbW);
-  },
-
-  clampMargins() {
-    const usableWidth = this.getUsableWidth();
-    if (usableWidth <= 0) return;
-
-    let curLeft = (typeof State.ui.padLeft === 'number' && !isNaN(State.ui.padLeft)) ? State.ui.padLeft : this.defaultPadLeft;
-    let curRight = (typeof State.ui.padRight === 'number' && !isNaN(State.ui.padRight)) ? State.ui.padRight : this.defaultPadRight;
-
-    if (curLeft + curRight + this.minContentWidth > usableWidth) {
-      const available = Math.max(0, usableWidth - this.minContentWidth);
-      const ratio = (curLeft + curRight > 0) ? (curLeft / (curLeft + curRight)) : 0.5;
-      curLeft = Math.max(16, Math.floor(available * ratio));
-      curRight = Math.max(16, Math.floor(available * (1 - ratio)));
-      this.setMargins(curLeft, curRight, false);
-    }
-  },
-
-  setMargins(padLeft, padRight, persist = true) {
-    const l = (typeof padLeft === 'number' && !isNaN(padLeft)) ? Math.max(16, Math.round(padLeft)) : this.defaultPadLeft;
-    const r = (typeof padRight === 'number' && !isNaN(padRight)) ? Math.max(16, Math.round(padRight)) : this.defaultPadRight;
-    
+  setMargins(padLeft, padRight) {
+    const l = (typeof padLeft === 'number' && !isNaN(padLeft)) ? Math.max(16, padLeft) : this.defaultPadLeft;
+    const r = (typeof padRight === 'number' && !isNaN(padRight)) ? Math.max(16, padRight) : this.defaultPadRight;
     State.ui.padLeft = l;
     State.ui.padRight = r;
 
     document.documentElement.style.setProperty('--md-pad-left', l + 'px');
     document.documentElement.style.setProperty('--md-pad-right', r + 'px');
-    this.syncScrollbar();
-
-    if (persist && this.onSaveUi) {
-      this.onSaveUi();
-    }
   },
 
   drawScale() {
     if (!this.rulerScale || !this.rulerTrack) return;
     const width = this.rulerTrack.clientWidth || window.innerWidth;
     if (width <= 0) return;
-
-    this.syncScrollbar();
 
     let svgHtml = `<svg width="${width}" height="20" xmlns="http://www.w3.org/2000/svg">`;
     svgHtml += `<line x1="0" y1="19" x2="${width}" y2="19" stroke="var(--border2)" stroke-width="1"/>`;
@@ -5250,106 +5151,69 @@ const RulerModule = {
   setupDrag() {
     let activeDrag = null;
 
-    const onPointerDown = (type, e) => {
+    const onMouseDown = (type, e) => {
       e.preventDefault();
       activeDrag = type;
       document.body.classList.add('dragging-ruler');
-      this.ensureTooltip();
-      if (this.tooltip) this.tooltip.classList.add('active');
-
       if (type === 'left' && this.handleLeft) this.handleLeft.classList.add('dragging');
       if (type === 'right' && this.handleRight) this.handleRight.classList.add('dragging');
 
-      window.addEventListener('mousemove', onPointerMove);
-      window.addEventListener('mouseup', onPointerUp);
-      window.addEventListener('pointermove', onPointerMove);
-      window.addEventListener('pointerup', onPointerUp);
-
-      onPointerMove(e);
+      document.addEventListener('mousemove', onMouseMove);
+      document.addEventListener('mouseup', onMouseUp);
     };
 
-    const onPointerMove = e => {
+    const onMouseMove = e => {
       if (!activeDrag || !this.rulerTrack) return;
       const rect = this.rulerTrack.getBoundingClientRect();
       const mouseX = e.clientX - rect.left;
       const trackWidth = rect.width;
-      const sbW = this.syncScrollbar();
-      const usableWidth = Math.max(0, trackWidth - sbW);
+      const minDistance = 180;
 
       if (activeDrag === 'left') {
-        const curRight = (typeof State.ui.padRight === 'number') ? State.ui.padRight : this.defaultPadRight;
-        const maxLeft = Math.max(16, usableWidth - curRight - this.minContentWidth);
+        const curRight = State.ui.padRight || this.defaultPadRight;
+        const maxLeft = trackWidth - curRight - minDistance;
         const newLeft = Math.max(16, Math.min(maxLeft, Math.round(mouseX)));
-        const contentWidth = Math.max(0, usableWidth - newLeft - curRight);
-
-        this.setMargins(newLeft, curRight, false);
-
-        if (this.tooltip) {
-          this.tooltip.style.left = `${newLeft}px`;
-          this.tooltip.innerHTML = `ระยะซ้าย: <b>${newLeft}px</b> · เนื้อหา: <b>${contentWidth}px</b>`;
-        }
+        this.setMargins(newLeft, curRight);
       } else if (activeDrag === 'right') {
-        const curLeft = (typeof State.ui.padLeft === 'number') ? State.ui.padLeft : this.defaultPadLeft;
-        const maxRight = Math.max(16, usableWidth - curLeft - this.minContentWidth);
-        const rightPos = trackWidth - sbW - mouseX;
+        const curLeft = State.ui.padLeft || this.defaultPadLeft;
+        const maxRight = trackWidth - curLeft - minDistance;
+        const rightPos = trackWidth - mouseX;
         const newRight = Math.max(16, Math.min(maxRight, Math.round(rightPos)));
-        const contentWidth = Math.max(0, usableWidth - curLeft - newRight);
-        const markerPos = trackWidth - sbW - newRight;
-
-        this.setMargins(curLeft, newRight, false);
-
-        if (this.tooltip) {
-          this.tooltip.style.left = `${markerPos}px`;
-          this.tooltip.innerHTML = `ระยะขวา: <b>${newRight}px</b> · เนื้อหา: <b>${contentWidth}px</b>`;
-        }
+        this.setMargins(curLeft, newRight);
       }
     };
 
-    const onPointerUp = () => {
+    const onMouseUp = () => {
       if (!activeDrag) return;
       document.body.classList.remove('dragging-ruler');
       if (this.handleLeft) this.handleLeft.classList.remove('dragging');
       if (this.handleRight) this.handleRight.classList.remove('dragging');
-      if (this.tooltip) this.tooltip.classList.remove('active');
       activeDrag = null;
 
-      window.removeEventListener('mousemove', onPointerMove);
-      window.removeEventListener('mouseup', onPointerUp);
-      window.removeEventListener('pointermove', onPointerMove);
-      window.removeEventListener('pointerup', onPointerUp);
+      document.removeEventListener('mousemove', onMouseMove);
+      document.removeEventListener('mouseup', onMouseUp);
 
       if (this.onSaveUi) this.onSaveUi();
     };
 
-    if (this.handleLeft) {
-      this.handleLeft.addEventListener('mousedown', e => onPointerDown('left', e));
-      this.handleLeft.addEventListener('pointerdown', e => onPointerDown('left', e));
-    }
-    if (this.handleRight) {
-      this.handleRight.addEventListener('mousedown', e => onPointerDown('right', e));
-      this.handleRight.addEventListener('pointerdown', e => onPointerDown('right', e));
-    }
+    if (this.handleLeft) this.handleLeft.addEventListener('mousedown', e => onMouseDown('left', e));
+    if (this.handleRight) this.handleRight.addEventListener('mousedown', e => onMouseDown('right', e));
   },
 
   setupDblClick() {
     if (this.handleLeft) {
       this.handleLeft.addEventListener('dblclick', e => {
         e.stopPropagation();
-        this.setMargins(this.defaultPadLeft, State.ui.padRight || this.defaultPadRight, true);
+        this.setMargins(this.defaultPadLeft, State.ui.padRight || this.defaultPadRight);
+        if (this.onSaveUi) this.onSaveUi();
       });
     }
 
     if (this.handleRight) {
       this.handleRight.addEventListener('dblclick', e => {
         e.stopPropagation();
-        this.setMargins(State.ui.padLeft || this.defaultPadLeft, this.defaultPadRight, true);
-      });
-    }
-
-    if (this.rulerBar) {
-      this.rulerBar.addEventListener('dblclick', e => {
-        if (e.target.closest('.ruler-handle')) return;
-        this.setMargins(this.defaultPadLeft, this.defaultPadRight, true);
+        this.setMargins(State.ui.padLeft || this.defaultPadLeft, this.defaultPadRight);
+        if (this.onSaveUi) this.onSaveUi();
       });
     }
   }
@@ -5419,13 +5283,7 @@ function switchView(type) {
     if (D.docInfoPopover) D.docInfoPopover.hidden = true;
   }
   if (type === 'md') {
-    setTimeout(() => {
-      if (RulerModule) {
-        RulerModule.syncScrollbar();
-        RulerModule.clampMargins();
-        RulerModule.drawScale();
-      }
-    }, 50);
+    setTimeout(() => RulerModule.drawScale(), 50);
   }
 }
 
@@ -5471,11 +5329,7 @@ function toggleTocMini(force) {
   }
   saveUi();
   setTimeout(() => {
-    if (RulerModule) {
-      RulerModule.syncScrollbar();
-      RulerModule.clampMargins();
-      RulerModule.drawScale();
-    }
+    if (RulerModule && RulerModule.drawScale) RulerModule.drawScale();
   }, 200);
 }
 
@@ -5754,19 +5608,11 @@ async function openFile(node, opt = {}) {
       fileText = await file.text();
       await renderMarkdownContent(fileText, node, D.mdContent, D.tocPanel, D.tocList);
       SearchEngine.highlightDoc();
-      if (RulerModule) {
-        RulerModule.syncScrollbar();
-        RulerModule.clampMargins();
-      }
     } else {
       switchView('md');
       fileText = await file.text();
       await renderCodeContent(fileText, node, D.mdContent, D.tocPanel, D.tocList);
       SearchEngine.highlightDoc();
-      if (RulerModule) {
-        RulerModule.syncScrollbar();
-        RulerModule.clampMargins();
-      }
     }
 
     updateDocInfo(node, file, fileText);
@@ -6030,11 +5876,7 @@ if (D.sbToggle) {
     updateSbToggleUI();
     saveUi();
     setTimeout(() => {
-      if (RulerModule) {
-        RulerModule.syncScrollbar();
-        RulerModule.clampMargins();
-        RulerModule.drawScale();
-      }
+      if (RulerModule && RulerModule.drawScale) RulerModule.drawScale();
     }, 200);
   });
 }
@@ -6111,11 +5953,7 @@ async function initApp() {
   SearchEngine.init(D.searchInput, D.searchContent, D.searchInfo, D.mdContent, () => renderTree(D.tree));
   setupSidebarResizer(D.sbResizer, D.sidebar, () => {
     saveUi();
-    if (RulerModule) {
-      RulerModule.syncScrollbar();
-      RulerModule.clampMargins();
-      RulerModule.drawScale();
-    }
+    RulerModule.drawScale();
   });
 
   RulerModule.init(
