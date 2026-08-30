@@ -1725,16 +1725,15 @@ body.dragging-ruler .md-ruler-bar {
 /* Thick Solid Line / Bar Marker */
 .ruler-handle {
   position: absolute;
-  top: 1px;
-  bottom: 1px;
-  width: 16px;
+  top: 0;
+  bottom: 0;
+  width: 24px;
   cursor: ew-resize;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 10;
   transform: translateX(-50%);
-  transition: transform 0.15s;
 }
 
 .ruler-handle.left {
@@ -1751,6 +1750,7 @@ body.dragging-ruler .md-ruler-bar {
   background: var(--text3);
   border-radius: 2px;
   transition: width 0.15s, height 0.15s, background-color 0.15s, box-shadow 0.15s;
+  pointer-events: none;
 }
 
 .ruler-handle:hover .ruler-bar-handle,
@@ -5091,6 +5091,7 @@ const RulerModule = {
 
   defaultPadLeft: 60,
   defaultPadRight: 60,
+  minContentWidth: 180,
 
   init(rulerBar, rulerTrack, rulerScale, handleLeft, handleRight, guideLeft, guideRight, container, scrollPane, onSaveUi) {
     this.rulerBar = rulerBar;
@@ -5106,21 +5107,27 @@ const RulerModule = {
 
     if (!this.rulerTrack) return;
 
-    this.setupDrag();
-    this.setupDblClick();
+    this.setupInteractions();
     this.drawScale();
 
-    window.addEventListener('resize', () => this.drawScale());
+    window.addEventListener('resize', () => {
+      this.drawScale();
+    });
   },
 
-  setMargins(padLeft, padRight) {
-    const l = (typeof padLeft === 'number' && !isNaN(padLeft)) ? Math.max(16, padLeft) : this.defaultPadLeft;
-    const r = (typeof padRight === 'number' && !isNaN(padRight)) ? Math.max(16, padRight) : this.defaultPadRight;
+  setMargins(padLeft, padRight, save = true) {
+    const l = (typeof padLeft === 'number' && !isNaN(padLeft)) ? Math.max(16, Math.round(padLeft)) : this.defaultPadLeft;
+    const r = (typeof padRight === 'number' && !isNaN(padRight)) ? Math.max(16, Math.round(padRight)) : this.defaultPadRight;
+    
     State.ui.padLeft = l;
     State.ui.padRight = r;
 
     document.documentElement.style.setProperty('--md-pad-left', l + 'px');
     document.documentElement.style.setProperty('--md-pad-right', r + 'px');
+
+    if (save && this.onSaveUi) {
+      this.onSaveUi();
+    }
   },
 
   drawScale() {
@@ -5148,72 +5155,119 @@ const RulerModule = {
     this.rulerScale.innerHTML = svgHtml;
   },
 
-  setupDrag() {
+  setupInteractions() {
     let activeDrag = null;
 
-    const onMouseDown = (type, e) => {
-      e.preventDefault();
+    const startDrag = (type, e) => {
       activeDrag = type;
       document.body.classList.add('dragging-ruler');
       if (type === 'left' && this.handleLeft) this.handleLeft.classList.add('dragging');
       if (type === 'right' && this.handleRight) this.handleRight.classList.add('dragging');
 
-      document.addEventListener('mousemove', onMouseMove);
-      document.addEventListener('mouseup', onMouseUp);
+      window.addEventListener('mousemove', onMouseMove, { passive: false });
+      window.addEventListener('mouseup', onMouseUp, { once: true });
     };
 
     const onMouseMove = e => {
       if (!activeDrag || !this.rulerTrack) return;
       const rect = this.rulerTrack.getBoundingClientRect();
-      const mouseX = e.clientX - rect.left;
       const trackWidth = rect.width;
-      const minDistance = 180;
+      if (trackWidth <= 0) return;
+
+      const mouseX = e.clientX - rect.left;
 
       if (activeDrag === 'left') {
-        const curRight = State.ui.padRight || this.defaultPadRight;
-        const maxLeft = trackWidth - curRight - minDistance;
+        const curRight = (typeof State.ui.padRight === 'number') ? State.ui.padRight : this.defaultPadRight;
+        const maxLeft = Math.max(16, trackWidth - curRight - this.minContentWidth);
         const newLeft = Math.max(16, Math.min(maxLeft, Math.round(mouseX)));
-        this.setMargins(newLeft, curRight);
+        this.setMargins(newLeft, curRight, false);
       } else if (activeDrag === 'right') {
-        const curLeft = State.ui.padLeft || this.defaultPadLeft;
-        const maxRight = trackWidth - curLeft - minDistance;
+        const curLeft = (typeof State.ui.padLeft === 'number') ? State.ui.padLeft : this.defaultPadLeft;
+        const maxRight = Math.max(16, trackWidth - curLeft - this.minContentWidth);
         const rightPos = trackWidth - mouseX;
         const newRight = Math.max(16, Math.min(maxRight, Math.round(rightPos)));
-        this.setMargins(curLeft, newRight);
+        this.setMargins(curLeft, newRight, false);
       }
     };
 
     const onMouseUp = () => {
-      if (!activeDrag) return;
       document.body.classList.remove('dragging-ruler');
       if (this.handleLeft) this.handleLeft.classList.remove('dragging');
       if (this.handleRight) this.handleRight.classList.remove('dragging');
       activeDrag = null;
 
-      document.removeEventListener('mousemove', onMouseMove);
-      document.removeEventListener('mouseup', onMouseUp);
+      window.removeEventListener('mousemove', onMouseMove);
 
       if (this.onSaveUi) this.onSaveUi();
     };
 
-    if (this.handleLeft) this.handleLeft.addEventListener('mousedown', e => onMouseDown('left', e));
-    if (this.handleRight) this.handleRight.addEventListener('mousedown', e => onMouseDown('right', e));
-  },
+    // 1. Direct handle drag
+    if (this.handleLeft) {
+      this.handleLeft.addEventListener('mousedown', e => {
+        if (e.button !== 0) return;
+        startDrag('left', e);
+      });
+    }
 
-  setupDblClick() {
+    if (this.handleRight) {
+      this.handleRight.addEventListener('mousedown', e => {
+        if (e.button !== 0) return;
+        startDrag('right', e);
+      });
+    }
+
+    // 2. Track click to jump & drag
+    if (this.rulerTrack) {
+      this.rulerTrack.addEventListener('mousedown', e => {
+        if (e.button !== 0) return;
+        if (e.target.closest('.ruler-handle')) return;
+
+        const rect = this.rulerTrack.getBoundingClientRect();
+        const mouseX = e.clientX - rect.left;
+        const trackWidth = rect.width;
+        if (trackWidth <= 0) return;
+
+        const curLeft = (typeof State.ui.padLeft === 'number') ? State.ui.padLeft : this.defaultPadLeft;
+        const curRight = (typeof State.ui.padRight === 'number') ? State.ui.padRight : this.defaultPadRight;
+        const rightPos = trackWidth - curRight;
+
+        const distLeft = Math.abs(mouseX - curLeft);
+        const distRight = Math.abs(mouseX - rightPos);
+
+        if (distLeft <= distRight) {
+          const maxLeft = Math.max(16, trackWidth - curRight - this.minContentWidth);
+          const newLeft = Math.max(16, Math.min(maxLeft, Math.round(mouseX)));
+          this.setMargins(newLeft, curRight, false);
+          startDrag('left', e);
+        } else {
+          const maxRight = Math.max(16, trackWidth - curLeft - this.minContentWidth);
+          const newRightPos = trackWidth - mouseX;
+          const newRight = Math.max(16, Math.min(maxRight, Math.round(newRightPos)));
+          this.setMargins(curLeft, newRight, false);
+          startDrag('right', e);
+        }
+      });
+    }
+
+    // 3. Double click to reset
     if (this.handleLeft) {
       this.handleLeft.addEventListener('dblclick', e => {
         e.stopPropagation();
-        this.setMargins(this.defaultPadLeft, State.ui.padRight || this.defaultPadRight);
-        if (this.onSaveUi) this.onSaveUi();
+        this.setMargins(this.defaultPadLeft, State.ui.padRight || this.defaultPadRight, true);
       });
     }
 
     if (this.handleRight) {
       this.handleRight.addEventListener('dblclick', e => {
         e.stopPropagation();
-        this.setMargins(State.ui.padLeft || this.defaultPadLeft, this.defaultPadRight);
-        if (this.onSaveUi) this.onSaveUi();
+        this.setMargins(State.ui.padLeft || this.defaultPadLeft, this.defaultPadRight, true);
+      });
+    }
+
+    if (this.rulerBar) {
+      this.rulerBar.addEventListener('dblclick', e => {
+        if (e.target.closest('.ruler-handle')) return;
+        this.setMargins(this.defaultPadLeft, this.defaultPadRight, true);
       });
     }
   }
@@ -5976,12 +6030,20 @@ async function initApp() {
     if (ui.theme && THEMES.includes(ui.theme)) State.ui.theme = ui.theme;
     if (ui.fscale) State.ui.fscale = ui.fscale;
     if (typeof ui.tx === 'string') State.ui.tx = ui.tx;
-    if (typeof ui.padLeft === 'number') State.ui.padLeft = ui.padLeft;
-    if (typeof ui.padRight === 'number') State.ui.padRight = ui.padRight;
+    if (typeof ui.padLeft === 'number' && !isNaN(ui.padLeft) && ui.padLeft >= 16 && ui.padLeft <= 400) {
+      State.ui.padLeft = ui.padLeft;
+    } else {
+      State.ui.padLeft = 60;
+    }
+    if (typeof ui.padRight === 'number' && !isNaN(ui.padRight) && ui.padRight >= 16 && ui.padRight <= 400) {
+      State.ui.padRight = ui.padRight;
+    } else {
+      State.ui.padRight = 60;
+    }
     if (typeof ui.tocMini === 'boolean') State.ui.tocMini = ui.tocMini;
   }
   applyTheme(D.txColor);
-  RulerModule.setMargins(State.ui.padLeft, State.ui.padRight);
+  RulerModule.setMargins(State.ui.padLeft, State.ui.padRight, false);
   toggleTocMini(!!State.ui.tocMini);
   updateSbToggleUI();
 

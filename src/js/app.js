@@ -732,12 +732,20 @@ export async function initApp() {
     if (ui.theme && THEMES.includes(ui.theme)) State.ui.theme = ui.theme;
     if (ui.fscale) State.ui.fscale = ui.fscale;
     if (typeof ui.tx === 'string') State.ui.tx = ui.tx;
-    if (typeof ui.padLeft === 'number') State.ui.padLeft = ui.padLeft;
-    if (typeof ui.padRight === 'number') State.ui.padRight = ui.padRight;
+    if (typeof ui.padLeft === 'number' && !isNaN(ui.padLeft) && ui.padLeft >= 16 && ui.padLeft <= 400) {
+      State.ui.padLeft = ui.padLeft;
+    } else {
+      State.ui.padLeft = 60;
+    }
+    if (typeof ui.padRight === 'number' && !isNaN(ui.padRight) && ui.padRight >= 16 && ui.padRight <= 400) {
+      State.ui.padRight = ui.padRight;
+    } else {
+      State.ui.padRight = 60;
+    }
     if (typeof ui.tocMini === 'boolean') State.ui.tocMini = ui.tocMini;
   }
   applyTheme(D.txColor);
-  RulerModule.setMargins(State.ui.padLeft, State.ui.padRight);
+  RulerModule.setMargins(State.ui.padLeft, State.ui.padRight, false);
   toggleTocMini(!!State.ui.tocMini);
   updateSbToggleUI();
 

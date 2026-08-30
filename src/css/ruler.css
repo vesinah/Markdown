@@ -53,16 +53,15 @@ body.dragging-ruler .md-ruler-bar {
 /* Thick Solid Line / Bar Marker */
 .ruler-handle {
   position: absolute;
-  top: 1px;
-  bottom: 1px;
-  width: 16px;
+  top: 0;
+  bottom: 0;
+  width: 24px;
   cursor: ew-resize;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 10;
   transform: translateX(-50%);
-  transition: transform 0.15s;
 }
 
 .ruler-handle.left {
@@ -79,6 +78,7 @@ body.dragging-ruler .md-ruler-bar {
   background: var(--text3);
   border-radius: 2px;
   transition: width 0.15s, height 0.15s, background-color 0.15s, box-shadow 0.15s;
+  pointer-events: none;
 }
 
 .ruler-handle:hover .ruler-bar-handle,
