@@ -305,63 +305,71 @@ body.sb-closed #sb-resizer {
   border-color: var(--border2);
 }
 
-.sb-ws-bar {
-  padding: 6px 12px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  border-bottom: 1px solid var(--border2);
-  max-height: 90px;
-  overflow-y: auto;
+.node-row.node-root {
+  background: rgba(9, 105, 218, 0.05);
+  border: 1px solid rgba(9, 105, 218, 0.28);
+  border-radius: 6px;
+  margin: 3px 6px 4px 6px;
+  padding: 4px 8px;
+  font-weight: 600;
+  color: var(--accent);
 }
-.sb-ws-bar:empty {
-  display: none;
+.node-row.node-root:hover {
+  background: rgba(9, 105, 218, 0.1);
+  border-color: var(--accent);
 }
-
-.ws-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 2px 8px;
-  font-size: 11.5px;
-  max-width: 100%;
-  transition: all .15s ease;
+.node-row.node-root.active {
+  background: var(--accent2);
+  border-color: var(--accent);
+  color: var(--accent-text);
 }
-.ws-chip b {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.node-row.node-root.locked {
+  background: rgba(234, 179, 8, 0.08);
+  border: 1px dashed rgba(234, 179, 8, 0.5);
+  color: var(--text2);
 }
-.ws-chip button {
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
-  color: var(--text3);
-  font-size: 14px;
-  line-height: 1;
-  display: flex;
-}
-.ws-chip button:hover {
-  color: #cf222e;
-}
-.ws-chip.locked {
-  background: rgba(234, 179, 8, 0.12);
-  border-color: rgba(234, 179, 8, 0.45);
-  color: var(--text);
-  cursor: pointer;
-}
-.ws-chip.locked:hover {
-  background: rgba(234, 179, 8, 0.22);
+.node-row.node-root.locked:hover {
+  background: rgba(234, 179, 8, 0.18);
   border-color: #ca8a04;
 }
-.ws-lock-icon {
-  font-size: 11px;
+
+[data-theme="dark"] .node-row.node-root {
+  background: rgba(56, 139, 253, 0.08);
+  border-color: rgba(56, 139, 253, 0.35);
+  color: #58a6ff;
+}
+[data-theme="dark"] .node-row.node-root:hover {
+  background: rgba(56, 139, 253, 0.15);
+  border-color: #58a6ff;
+}
+
+.btn-root-del {
+  margin-left: auto;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text3);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+  flex: none;
+  transition: all .15s ease;
+}
+.btn-root-del:hover {
+  background: rgba(207, 34, 46, 0.15);
+  color: #cf222e;
+  transform: scale(1.1);
+}
+[data-theme="dark"] .btn-root-del:hover {
+  background: rgba(248, 81, 73, 0.2);
+  color: #f85149;
 }
 
 .sb-tree {

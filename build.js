@@ -218,7 +218,6 @@ ${combinedCss}
       </div>
     </div>
 
-    <div id="ws-bar" class="sb-ws-bar"></div>
     <div id="tree" class="sb-tree"></div>
 
     <div class="sb-footer">

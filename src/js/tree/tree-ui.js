@@ -27,8 +27,9 @@ export function renderTree(container) {
     } else {
       if (!isNodeVisible(n)) continue;
     }
-    const dir = n.kind === 'root' || n.kind === 'directory';
-    const isLockedRoot = n.kind === 'root' && !!n.isLocked;
+    const isRoot = n.kind === 'root';
+    const dir = isRoot || n.kind === 'directory';
+    const isLockedRoot = isRoot && !!n.isLocked;
     const open = searchVisiblePaths ? true : State.expanded.has(n.path);
     const active = State.current && State.current.path === n.path;
     const hit = State.search.fileHits.has(n.path);
@@ -62,10 +63,17 @@ export function renderTree(container) {
       ? ' title="โฟลเดอร์นี้ต้องได้รับอนุญาตการเข้าถึงไฟล์ — คลิกเพื่อเชื่อมต่อ"'
       : '';
 
+    const delBtn = isRoot
+      ? `<button type="button" class="btn-root-del" data-root-idx="${n.rootIdx}" title="ปิดโฟลเดอร์ “${esc(n.name)}” ออกจากแอป" aria-label="ปิดโฟลเดอร์">✕</button>`
+      : '';
+
+    const rootClass = isRoot ? 'node-root' : '';
+    const padLeft = isRoot ? 8 : (8 + n.depth * 14);
+
     html.push(
       `<div class="node ${dir ? (open ? 'folder open' : 'folder') : 'file'}" data-path="${esc(n.path)}">` +
-      `<div class="node-row ${active ? 'active' : ''} ${hit ? 'hit' : ''} ${isLockedRoot ? 'locked' : ''}" data-kind="${n.kind}"${rowTitle} style="padding-left:${8 + n.depth * 14}px">` +
-      twisty + iconSvg + nameLabel + `</div></div>`
+      `<div class="node-row ${rootClass} ${active ? 'active' : ''} ${hit ? 'hit' : ''} ${isLockedRoot ? 'locked' : ''}" data-kind="${n.kind}"${rowTitle} style="padding-left:${padLeft}px">` +
+      twisty + iconSvg + nameLabel + delBtn + `</div></div>`
     );
   }
 

@@ -532,63 +532,71 @@ body.sb-closed #sb-resizer {
   border-color: var(--border2);
 }
 
-.sb-ws-bar {
-  padding: 6px 12px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  border-bottom: 1px solid var(--border2);
-  max-height: 90px;
-  overflow-y: auto;
+.node-row.node-root {
+  background: rgba(9, 105, 218, 0.05);
+  border: 1px solid rgba(9, 105, 218, 0.28);
+  border-radius: 6px;
+  margin: 3px 6px 4px 6px;
+  padding: 4px 8px;
+  font-weight: 600;
+  color: var(--accent);
 }
-.sb-ws-bar:empty {
-  display: none;
+.node-row.node-root:hover {
+  background: rgba(9, 105, 218, 0.1);
+  border-color: var(--accent);
 }
-
-.ws-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 2px 8px;
-  font-size: 11.5px;
-  max-width: 100%;
-  transition: all .15s ease;
+.node-row.node-root.active {
+  background: var(--accent2);
+  border-color: var(--accent);
+  color: var(--accent-text);
 }
-.ws-chip b {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.node-row.node-root.locked {
+  background: rgba(234, 179, 8, 0.08);
+  border: 1px dashed rgba(234, 179, 8, 0.5);
+  color: var(--text2);
 }
-.ws-chip button {
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
-  color: var(--text3);
-  font-size: 14px;
-  line-height: 1;
-  display: flex;
-}
-.ws-chip button:hover {
-  color: #cf222e;
-}
-.ws-chip.locked {
-  background: rgba(234, 179, 8, 0.12);
-  border-color: rgba(234, 179, 8, 0.45);
-  color: var(--text);
-  cursor: pointer;
-}
-.ws-chip.locked:hover {
-  background: rgba(234, 179, 8, 0.22);
+.node-row.node-root.locked:hover {
+  background: rgba(234, 179, 8, 0.18);
   border-color: #ca8a04;
 }
-.ws-lock-icon {
-  font-size: 11px;
+
+[data-theme="dark"] .node-row.node-root {
+  background: rgba(56, 139, 253, 0.08);
+  border-color: rgba(56, 139, 253, 0.35);
+  color: #58a6ff;
+}
+[data-theme="dark"] .node-row.node-root:hover {
+  background: rgba(56, 139, 253, 0.15);
+  border-color: #58a6ff;
+}
+
+.btn-root-del {
+  margin-left: auto;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text3);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+  flex: none;
+  transition: all .15s ease;
+}
+.btn-root-del:hover {
+  background: rgba(207, 34, 46, 0.15);
+  color: #cf222e;
+  transform: scale(1.1);
+}
+[data-theme="dark"] .btn-root-del:hover {
+  background: rgba(248, 81, 73, 0.2);
+  color: #f85149;
 }
 
 .sb-tree {
@@ -2168,7 +2176,6 @@ body.dragging-ruler .margin-guide {
       </div>
     </div>
 
-    <div id="ws-bar" class="sb-ws-bar"></div>
     <div id="tree" class="sb-tree"></div>
 
     <div class="sb-footer">
@@ -4106,8 +4113,9 @@ function renderTree(container) {
     } else {
       if (!isNodeVisible(n)) continue;
     }
-    const dir = n.kind === 'root' || n.kind === 'directory';
-    const isLockedRoot = n.kind === 'root' && !!n.isLocked;
+    const isRoot = n.kind === 'root';
+    const dir = isRoot || n.kind === 'directory';
+    const isLockedRoot = isRoot && !!n.isLocked;
     const open = searchVisiblePaths ? true : State.expanded.has(n.path);
     const active = State.current && State.current.path === n.path;
     const hit = State.search.fileHits.has(n.path);
@@ -4141,10 +4149,17 @@ function renderTree(container) {
       ? ' title="โฟลเดอร์นี้ต้องได้รับอนุญาตการเข้าถึงไฟล์ — คลิกเพื่อเชื่อมต่อ"'
       : '';
 
+    const delBtn = isRoot
+      ? `<button type="button" class="btn-root-del" data-root-idx="${n.rootIdx}" title="ปิดโฟลเดอร์ “${esc(n.name)}” ออกจากแอป" aria-label="ปิดโฟลเดอร์">✕</button>`
+      : '';
+
+    const rootClass = isRoot ? 'node-root' : '';
+    const padLeft = isRoot ? 8 : (8 + n.depth * 14);
+
     html.push(
       `<div class="node ${dir ? (open ? 'folder open' : 'folder') : 'file'}" data-path="${esc(n.path)}">` +
-      `<div class="node-row ${active ? 'active' : ''} ${hit ? 'hit' : ''} ${isLockedRoot ? 'locked' : ''}" data-kind="${n.kind}"${rowTitle} style="padding-left:${8 + n.depth * 14}px">` +
-      twisty + iconSvg + nameLabel + `</div></div>`
+      `<div class="node-row ${rootClass} ${active ? 'active' : ''} ${hit ? 'hit' : ''} ${isLockedRoot ? 'locked' : ''}" data-kind="${n.kind}"${rowTitle} style="padding-left:${padLeft}px">` +
+      twisty + iconSvg + nameLabel + delBtn + `</div></div>`
     );
   }
 
@@ -5316,17 +5331,17 @@ function applyTheme(txColorInput) {
 
 
 const D = {};
-['btn-add', 'btn-add2', 'search-input', 'search-content', 'search-info', 'ws-bar', 'tree', 'stat-title', 'stat-filesize', 'sb-progress-bar',
+['btn-add', 'btn-add2', 'search-input', 'search-content', 'search-info', 'tree', 'stat-title', 'stat-filesize', 'sb-progress-bar',
  'btn-filter-toggle', 'type-filter-dropdown',
  'btn-filter-all', 'btn-filter-none', 'btn-filter-reset',
  'btn-final', 'btn-collapse-all',
- 'sb-toggle', 'btn-toc-toggle-menu', 'sb-resizer', 'sidebar', 'reader-viewport', 'md-view',
+ 'sb-toggle', 'sb-resizer', 'sidebar', 'reader-viewport', 'md-view',
  'md-reader-container', 'md-ruler-bar', 'ruler-track', 'ruler-scale', 'ruler-handle-left', 'ruler-handle-right',
  'md-scroll-pane', 'margin-guide-left', 'margin-guide-right', 'md-content',
  'toc-panel', 'toc-header', 'toc-list', 'btn-toc-collapse', 'btn-toc-expand', 'toc-rail-list', 'toc-rail-logo',
  'pdf-view', 'pdf-frame',
  'img-view', 'img-preview-frame', 'img-meta-badge', 'empty-state',
- 'file-crumb', 'fs-dec', 'fs-inc', 'fs-reset', 'tx-color', 'tx-reset',
+ 'fs-dec', 'fs-inc', 'fs-reset', 'tx-color', 'tx-reset',
  'btn-theme-toggle', 'theme-tools-wrap', 'theme-tools-content',
  'btn-doc-info', 'doc-info-popover', 'doc-info-ext', 'doc-info-name', 'doc-info-type',
  'doc-info-path', 'doc-stat-words', 'doc-stat-chars', 'doc-stat-size', 'doc-stat-lines',
@@ -5489,17 +5504,36 @@ function updateStat(currentFile) {
   }
 }
 
-function renderWsBar() {
-  if (!State.roots.length) { D.wsBar.innerHTML = ''; return; }
-  D.wsBar.innerHTML = State.roots.map((r, i) => {
-    const isLocked = !!r.isLocked;
-    const lockBadge = isLocked ? '<span class="ws-lock-icon" title="ต้องอนุญาตการเข้าถึงไฟล์ (คลิกเพื่อเชื่อมต่อ)">🔒</span> ' : '';
-    const title = isLocked ? `${esc(r.name)} — คลิกเพื่ออนุญาตการเข้าถึงไฟล์` : esc(r.name);
-    return `<span class="ws-chip ${isLocked ? 'locked' : ''}" data-i="${i}" title="${title}">` +
-      `${lockBadge}<b>${esc(r.name)}</b>` +
-      `<button data-i="${i}" class="btn-ws-del" title="เอาโฟลเดอร์นี้ออก">×</button>` +
-    `</span>`;
-  }).join('');
+async function removeWorkspaceRoot(rootIdx) {
+  const i = rootIdx;
+  if (i < 0 || i >= State.roots.length) return;
+  State.roots.splice(i, 1);
+  State.flat = State.flat.filter(n => n.rootIdx !== i);
+  for (const n of State.flat) if (n.rootIdx > i) n.rootIdx--;
+  State.byPath = new Map(State.flat.map(n => [n.path, n]));
+  for (const n of State.flat) if (n.kind !== 'root') n.parent = n.path.includes('/') ? State.byPath.get(n.path.slice(0, n.path.lastIndexOf('/'))) : null;
+  for (const n of State.flat) if ((n.kind === 'root' || n.kind === 'directory') && n.kids) n.kids = n.kids.filter(k => k.rootIdx !== i);
+
+  for (const p of State.expanded) {
+    if (!State.byPath.has(p)) State.expanded.delete(p);
+  }
+  for (const p of State.collapsed) {
+    if (!State.byPath.has(p)) State.collapsed.delete(p);
+  }
+
+  if (State.current && (State.current.rootIdx === i || !State.byPath.has(State.current.path))) {
+    State.current = null;
+    switchView('empty');
+    updateDocInfo(null);
+    Store.set('lastFile', '');
+  }
+  SearchEngine.clearCache();
+  if (State.search.q) {
+    SearchEngine.run();
+  }
+  renderTree(D.tree);
+  updateStat();
+  await saveWorkspace();
 }
 
 async function unlockAndReloadWorkspace(rootIdx) {
@@ -5510,7 +5544,6 @@ async function unlockAndReloadWorkspace(rootIdx) {
   }
   await rescanWorkspaces();
   expandOnlyFinal();
-  renderWsBar();
   renderTree(D.tree);
   updateStat();
   await saveWorkspace();
@@ -5527,39 +5560,6 @@ async function unlockAndReloadWorkspace(rootIdx) {
   }
   return true;
 }
-
-D.wsBar.addEventListener('click', async e => {
-  const delBtn = e.target.closest('button[data-i]');
-  if (delBtn) {
-    e.stopPropagation();
-    const i = +delBtn.dataset.i;
-    State.roots.splice(i, 1);
-    State.flat = State.flat.filter(n => n.rootIdx !== i);
-    for (const n of State.flat) if (n.rootIdx > i) n.rootIdx--;
-    State.byPath = new Map(State.flat.map(n => [n.path, n]));
-    for (const n of State.flat) if (n.kind !== 'root') n.parent = n.path.includes('/') ? State.byPath.get(n.path.slice(0, n.path.lastIndexOf('/'))) : null;
-    for (const n of State.flat) if ((n.kind === 'root' || n.kind === 'directory') && n.kids) n.kids = n.kids.filter(k => k.rootIdx !== i);
-    if (State.current && State.current.rootIdx === i) {
-      State.current = null;
-      switchView('empty');
-    }
-    SearchEngine.clearCache();
-    renderWsBar();
-    renderTree(D.tree);
-    updateStat();
-    await saveWorkspace();
-    return;
-  }
-
-  const chip = e.target.closest('.ws-chip');
-  if (chip) {
-    const i = +chip.dataset.i;
-    const r = State.roots[i];
-    if (r && r.isLocked) {
-      await unlockAndReloadWorkspace(i);
-    }
-  }
-});
 
 function countTextStats(text) {
   if (!text) return { words: 0, chars: 0, lines: 0 };
@@ -5698,7 +5698,6 @@ async function addFolder() {
     await rescanWorkspaces();
     SearchEngine.clearCache();
     expandOnlyFinal();
-    renderWsBar();
     renderTree(D.tree);
     updateStat();
 
@@ -5888,6 +5887,14 @@ document.querySelectorAll('input[name="type-filter"]').forEach(cb => {
 });
 
 D.tree.addEventListener('click', async e => {
+  const delBtn = e.target.closest('.btn-root-del');
+  if (delBtn) {
+    e.stopPropagation();
+    const rootIdx = +delBtn.dataset.rootIdx;
+    await removeWorkspaceRoot(rootIdx);
+    return;
+  }
+
   const row = e.target.closest('.node-row');
   if (!row) return;
   const node = State.byPath.get(row.parentElement.dataset.path);
@@ -6100,7 +6107,6 @@ async function initApp() {
       }
     }
     await rescanWorkspaces();
-    renderWsBar();
     updateStat();
 
     if (rec.expanded && rec.expanded.length) {

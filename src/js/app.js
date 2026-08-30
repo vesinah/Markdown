@@ -13,7 +13,7 @@ import { RulerModule } from './ui/ruler.js';
 import { applyTheme, THEMES } from './ui/theme.js';
 
 const D = {};
-['btn-add', 'btn-add2', 'search-input', 'search-content', 'search-info', 'ws-bar', 'tree', 'stat-title', 'stat-filesize', 'sb-progress-bar',
+['btn-add', 'btn-add2', 'search-input', 'search-content', 'search-info', 'tree', 'stat-title', 'stat-filesize', 'sb-progress-bar',
  'btn-filter-toggle', 'type-filter-dropdown',
  'btn-filter-all', 'btn-filter-none', 'btn-filter-reset',
  'btn-final', 'btn-collapse-all',
@@ -186,17 +186,36 @@ function updateStat(currentFile) {
   }
 }
 
-function renderWsBar() {
-  if (!State.roots.length) { D.wsBar.innerHTML = ''; return; }
-  D.wsBar.innerHTML = State.roots.map((r, i) => {
-    const isLocked = !!r.isLocked;
-    const lockBadge = isLocked ? '<span class="ws-lock-icon" title="ต้องอนุญาตการเข้าถึงไฟล์ (คลิกเพื่อเชื่อมต่อ)">🔒</span> ' : '';
-    const title = isLocked ? `${esc(r.name)} — คลิกเพื่ออนุญาตการเข้าถึงไฟล์` : esc(r.name);
-    return `<span class="ws-chip ${isLocked ? 'locked' : ''}" data-i="${i}" title="${title}">` +
-      `${lockBadge}<b>${esc(r.name)}</b>` +
-      `<button data-i="${i}" class="btn-ws-del" title="เอาโฟลเดอร์นี้ออก">×</button>` +
-    `</span>`;
-  }).join('');
+export async function removeWorkspaceRoot(rootIdx) {
+  const i = rootIdx;
+  if (i < 0 || i >= State.roots.length) return;
+  State.roots.splice(i, 1);
+  State.flat = State.flat.filter(n => n.rootIdx !== i);
+  for (const n of State.flat) if (n.rootIdx > i) n.rootIdx--;
+  State.byPath = new Map(State.flat.map(n => [n.path, n]));
+  for (const n of State.flat) if (n.kind !== 'root') n.parent = n.path.includes('/') ? State.byPath.get(n.path.slice(0, n.path.lastIndexOf('/'))) : null;
+  for (const n of State.flat) if ((n.kind === 'root' || n.kind === 'directory') && n.kids) n.kids = n.kids.filter(k => k.rootIdx !== i);
+
+  for (const p of State.expanded) {
+    if (!State.byPath.has(p)) State.expanded.delete(p);
+  }
+  for (const p of State.collapsed) {
+    if (!State.byPath.has(p)) State.collapsed.delete(p);
+  }
+
+  if (State.current && (State.current.rootIdx === i || !State.byPath.has(State.current.path))) {
+    State.current = null;
+    switchView('empty');
+    updateDocInfo(null);
+    Store.set('lastFile', '');
+  }
+  SearchEngine.clearCache();
+  if (State.search.q) {
+    SearchEngine.run();
+  }
+  renderTree(D.tree);
+  updateStat();
+  await saveWorkspace();
 }
 
 export async function unlockAndReloadWorkspace(rootIdx) {
@@ -207,7 +226,6 @@ export async function unlockAndReloadWorkspace(rootIdx) {
   }
   await rescanWorkspaces();
   expandOnlyFinal();
-  renderWsBar();
   renderTree(D.tree);
   updateStat();
   await saveWorkspace();
@@ -224,39 +242,6 @@ export async function unlockAndReloadWorkspace(rootIdx) {
   }
   return true;
 }
-
-D.wsBar.addEventListener('click', async e => {
-  const delBtn = e.target.closest('button[data-i]');
-  if (delBtn) {
-    e.stopPropagation();
-    const i = +delBtn.dataset.i;
-    State.roots.splice(i, 1);
-    State.flat = State.flat.filter(n => n.rootIdx !== i);
-    for (const n of State.flat) if (n.rootIdx > i) n.rootIdx--;
-    State.byPath = new Map(State.flat.map(n => [n.path, n]));
-    for (const n of State.flat) if (n.kind !== 'root') n.parent = n.path.includes('/') ? State.byPath.get(n.path.slice(0, n.path.lastIndexOf('/'))) : null;
-    for (const n of State.flat) if ((n.kind === 'root' || n.kind === 'directory') && n.kids) n.kids = n.kids.filter(k => k.rootIdx !== i);
-    if (State.current && State.current.rootIdx === i) {
-      State.current = null;
-      switchView('empty');
-    }
-    SearchEngine.clearCache();
-    renderWsBar();
-    renderTree(D.tree);
-    updateStat();
-    await saveWorkspace();
-    return;
-  }
-
-  const chip = e.target.closest('.ws-chip');
-  if (chip) {
-    const i = +chip.dataset.i;
-    const r = State.roots[i];
-    if (r && r.isLocked) {
-      await unlockAndReloadWorkspace(i);
-    }
-  }
-});
 
 function countTextStats(text) {
   if (!text) return { words: 0, chars: 0, lines: 0 };
@@ -395,7 +380,6 @@ async function addFolder() {
     await rescanWorkspaces();
     SearchEngine.clearCache();
     expandOnlyFinal();
-    renderWsBar();
     renderTree(D.tree);
     updateStat();
 
@@ -585,6 +569,14 @@ document.querySelectorAll('input[name="type-filter"]').forEach(cb => {
 });
 
 D.tree.addEventListener('click', async e => {
+  const delBtn = e.target.closest('.btn-root-del');
+  if (delBtn) {
+    e.stopPropagation();
+    const rootIdx = +delBtn.dataset.rootIdx;
+    await removeWorkspaceRoot(rootIdx);
+    return;
+  }
+
   const row = e.target.closest('.node-row');
   if (!row) return;
   const node = State.byPath.get(row.parentElement.dataset.path);
@@ -797,7 +789,6 @@ export async function initApp() {
       }
     }
     await rescanWorkspaces();
-    renderWsBar();
     updateStat();
 
     if (rec.expanded && rec.expanded.length) {
