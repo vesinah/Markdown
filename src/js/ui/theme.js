@@ -17,6 +17,17 @@ export function applyTheme(txColorInput) {
     b.classList.toggle('on', b.dataset.theme === State.ui.theme);
   });
 
+  const dot = document.getElementById('theme-active-dot');
+  if (dot) {
+    const themeColors = {
+      light: '#0969da',
+      dark: '#58a6ff',
+      cream: '#a05a1c',
+      deepblue: '#3b82f6'
+    };
+    dot.style.background = themeColors[State.ui.theme] || 'var(--accent)';
+  }
+
   if (txColorInput) {
     txColorInput.value = State.ui.tx || themeDefaultTx(State.ui.theme);
   }

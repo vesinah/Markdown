@@ -57,22 +57,24 @@ html[data-theme="deepblue"] {
 }
 
 .mb-swatch {
-  width: 22px;
-  height: 22px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
   border: 2px solid transparent;
   cursor: pointer;
   padding: 0;
-  transition: transform .15s, border-color .15s;
+  flex-shrink: 0;
+  transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
 }
 .mb-swatch:hover {
-  transform: scale(1.15);
+  transform: scale(1.2);
 }
 .mb-swatch.on {
   border-color: var(--accent);
-  box-shadow: 0 0 0 2px var(--bg), 0 0 0 3px var(--accent);
+  box-shadow: 0 0 0 1.5px var(--bg), 0 0 0 2.5px var(--accent);
 }
 .mb-swatch[data-theme="light"] { background: linear-gradient(135deg, #ffffff 0%, #dce3eb 100%); }
 .mb-swatch[data-theme="dark"] { background: linear-gradient(135deg, #21262d 0%, #0d1117 100%); }
 .mb-swatch[data-theme="cream"] { background: linear-gradient(135deg, #fdf6e5 0%, #e8d9b5 100%); }
 .mb-swatch[data-theme="deepblue"] { background: linear-gradient(135deg, #1d3a5f 0%, #0e1a2b 100%); }
+

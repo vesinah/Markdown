@@ -14,6 +14,7 @@
   flex: none;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
   padding: 0 16px 0 0;
   border-bottom: 1px solid var(--border);
@@ -81,36 +82,186 @@
 #sb-toggle svg {
   pointer-events: none;
 }
-.mb-group {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-.mb-label {
-  font-size: 11.5px;
-  color: var(--text3);
-  font-weight: 500;
-}
-#tx-color {
-  width: 28px;
-  height: 26px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  background: var(--bg);
-  padding: 1px;
-  cursor: pointer;
-}
 
 .file-crumb {
   display: none;
 }
 
+/* ================= Right Tools & Theme Widget (Segmented Badge Island) ================= */
+.mb-right-tools {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: none;
+}
+
+.theme-tools-wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.theme-tools-content {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  max-width: 0;
+  opacity: 0;
+  pointer-events: none;
+  overflow: hidden;
+  margin-right: 0;
+  transform: scaleX(0.96) translateX(10px);
+  transform-origin: right center;
+  transition: max-width 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              margin-right 0.25s ease;
+}
+
+.theme-tools-wrap.open .theme-tools-content {
+  max-width: 500px;
+  opacity: 1;
+  pointer-events: auto;
+  margin-right: 6px;
+  transform: scaleX(1) translateX(0);
+}
+
+/* Segmented Islands */
+.theme-segment {
+  display: inline-flex;
+  align-items: center;
+  height: 28px;
+  padding: 2px 6px;
+  border-radius: 7px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.03);
+}
+
+.theme-swatch-segment {
+  gap: 5px;
+}
+
+.theme-font-segment {
+  gap: 1px;
+  padding: 2px;
+}
+
+.theme-color-segment {
+  gap: 4px;
+}
+
+.theme-seg-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 22px;
+  min-width: 24px;
+  padding: 0 6px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: 11.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .15s ease;
+  user-select: none;
+}
+.theme-seg-btn:hover {
+  background: var(--bg);
+  border-color: var(--border);
+  color: var(--accent);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.theme-seg-btn:active {
+  transform: scale(0.95);
+}
+
+.theme-btn-reset {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text2);
+}
+
+#tx-color {
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--bg);
+  padding: 1px;
+  cursor: pointer;
+  transition: transform .15s, border-color .15s;
+}
+#tx-color:hover {
+  transform: scale(1.08);
+  border-color: var(--accent);
+}
+
+/* Trigger Button (Aa •) */
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 28px;
+  padding: 0 8px;
+  border-radius: 7px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  font-family: var(--font-ui);
+  transition: all .15s ease;
+  user-select: none;
+  flex: none;
+}
+.theme-toggle-btn:hover {
+  background: var(--border2);
+  border-color: var(--text3);
+  color: var(--accent);
+}
+.theme-toggle-btn.active {
+  background: var(--accent2);
+  color: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent2);
+}
+.theme-toggle-text {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+}
+.theme-active-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  display: inline-block;
+  box-shadow: 0 0 0 1.5px var(--bg);
+  transition: background .2s ease;
+}
+
+/* Vertical Divider */
+.mb-divider {
+  width: 1px;
+  height: 18px;
+  background: var(--border);
+  margin: 0 2px;
+  flex: none;
+}
+
 /* ================= File Info Popover & Circular Button ================= */
 .doc-info-wrap {
-  margin-left: auto;
   position: relative;
   display: inline-flex;
   align-items: center;
+  flex: none;
 }
 
 .doc-info-btn {

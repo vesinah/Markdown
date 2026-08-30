@@ -246,29 +246,46 @@ ${combinedCss}
         </button>
       </div>
 
-      <span class="mb-group">
-        <span class="mb-label">ธีม</span>
-        <button class="mb-swatch on" data-theme="light" title="สว่าง"></button>
-        <button class="mb-swatch" data-theme="dark" title="มืด"></button>
-        <button class="mb-swatch" data-theme="cream" title="ถนอมสายตา (Cream)"></button>
-        <button class="mb-swatch" data-theme="deepblue" title="น้ำเงินเข้ม (Deep Blue)"></button>
-      </span>
+      <div class="mb-right-tools">
+        <!-- Segmented Badge Island Theme Tools (Collapsible) -->
+        <div class="theme-tools-wrap" id="theme-tools-wrap">
+          <div class="theme-tools-content" id="theme-tools-content">
+            <!-- Segment 1: Theme Swatches -->
+            <div class="theme-segment theme-swatch-segment" title="เลือกธีมสี">
+              <button class="mb-swatch on" data-theme="light" title="สว่าง"></button>
+              <button class="mb-swatch" data-theme="dark" title="มืด"></button>
+              <button class="mb-swatch" data-theme="cream" title="ถนอมสายตา (Cream)"></button>
+              <button class="mb-swatch" data-theme="deepblue" title="น้ำเงินเข้ม (Deep Blue)"></button>
+            </div>
 
-      <span class="mb-group">
-        <button id="fs-dec" class="mb-btn" title="ลดขนาดอักษร (A-)">A-</button>
-        <button id="fs-reset" class="mb-btn" title="ขนาดอักษรปกติ (A)">A</button>
-        <button id="fs-inc" class="mb-btn" title="เพิ่มขนาดอักษร (A+)">A+</button>
-      </span>
+            <!-- Segment 2: Font Size Controls -->
+            <div class="theme-segment theme-font-segment" title="ปรับขนาดอักษร">
+              <button id="fs-dec" class="theme-seg-btn" title="ลดขนาดอักษร (A-)">A-</button>
+              <button id="fs-reset" class="theme-seg-btn" title="ขนาดอักษรปกติ (A)">A</button>
+              <button id="fs-inc" class="theme-seg-btn" title="เพิ่มขนาดอักษร (A+)">A+</button>
+            </div>
 
-      <span class="mb-group">
-        <label class="mb-label" for="tx-color">สีอักษร</label>
-        <input type="color" id="tx-color" value="#1f2328" title="เปลี่ยนสีอักษรเนื้อหา">
-        <button id="tx-reset" class="mb-btn" title="ใช้สีอักษรตามธีม">รีเซ็ต</button>
-      </span>
+            <!-- Segment 3: Text Color -->
+            <div class="theme-segment theme-color-segment" title="สีอักษรเนื้อหา">
+              <input type="color" id="tx-color" value="#1f2328" title="เปลี่ยนสีอักษรเนื้อหา">
+              <button id="tx-reset" class="theme-seg-btn theme-btn-reset" title="ใช้สีอักษรตามธีม">รีเซ็ต</button>
+            </div>
+          </div>
 
-      <div class="doc-info-wrap" id="doc-info-wrap">
-        <button type="button" id="btn-doc-info" class="doc-info-btn" title="ข้อมูลไฟล์ปัจจุบัน (คลิกเพื่อดูรายละเอียด)" aria-label="ข้อมูลไฟล์" hidden>?</button>
-        <div id="doc-info-popover" class="doc-info-popover" hidden>
+          <!-- Trigger Button (Aa •) -->
+          <button type="button" id="btn-theme-toggle" class="theme-toggle-btn" title="ปรับแต่งธีมและการแสดงผล (คลิกเพื่อขยาย)" aria-label="ปรับแต่งธีม">
+            <span class="theme-toggle-text">Aa</span>
+            <span class="theme-active-dot" id="theme-active-dot"></span>
+          </button>
+        </div>
+
+        <!-- Vertical Divider separating Theme tools from ? -->
+        <div class="mb-divider"></div>
+
+        <!-- File Info Popover & Button (?) -->
+        <div class="doc-info-wrap" id="doc-info-wrap">
+          <button type="button" id="btn-doc-info" class="doc-info-btn" title="ข้อมูลไฟล์ปัจจุบัน (คลิกเพื่อดูรายละเอียด)" aria-label="ข้อมูลไฟล์">?</button>
+          <div id="doc-info-popover" class="doc-info-popover" hidden>
           <div class="doc-info-header">
             <div class="doc-info-badge" id="doc-info-ext">.md</div>
             <div class="doc-info-title-wrap">
@@ -303,6 +320,7 @@ ${combinedCss}
         </div>
       </div>
     </div>
+  </div>
 
     <div id="reader-viewport">
       <!-- 1. Markdown Viewer with Interactive Ruler -->

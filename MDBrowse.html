@@ -202,25 +202,27 @@ html[data-theme="deepblue"] {
 }
 
 .mb-swatch {
-  width: 22px;
-  height: 22px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
   border: 2px solid transparent;
   cursor: pointer;
   padding: 0;
-  transition: transform .15s, border-color .15s;
+  flex-shrink: 0;
+  transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
 }
 .mb-swatch:hover {
-  transform: scale(1.15);
+  transform: scale(1.2);
 }
 .mb-swatch.on {
   border-color: var(--accent);
-  box-shadow: 0 0 0 2px var(--bg), 0 0 0 3px var(--accent);
+  box-shadow: 0 0 0 1.5px var(--bg), 0 0 0 2.5px var(--accent);
 }
 .mb-swatch[data-theme="light"] { background: linear-gradient(135deg, #ffffff 0%, #dce3eb 100%); }
 .mb-swatch[data-theme="dark"] { background: linear-gradient(135deg, #21262d 0%, #0d1117 100%); }
 .mb-swatch[data-theme="cream"] { background: linear-gradient(135deg, #fdf6e5 0%, #e8d9b5 100%); }
 .mb-swatch[data-theme="deepblue"] { background: linear-gradient(135deg, #1d3a5f 0%, #0e1a2b 100%); }
+
 
 
 /* ================= Sidebar Styles ================= */
@@ -737,6 +739,7 @@ body.sb-closed #sb-resizer {
   flex: none;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
   padding: 0 16px 0 0;
   border-bottom: 1px solid var(--border);
@@ -804,36 +807,186 @@ body.sb-closed #sb-resizer {
 #sb-toggle svg {
   pointer-events: none;
 }
-.mb-group {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-.mb-label {
-  font-size: 11.5px;
-  color: var(--text3);
-  font-weight: 500;
-}
-#tx-color {
-  width: 28px;
-  height: 26px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  background: var(--bg);
-  padding: 1px;
-  cursor: pointer;
-}
 
 .file-crumb {
   display: none;
 }
 
+/* ================= Right Tools & Theme Widget (Segmented Badge Island) ================= */
+.mb-right-tools {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: none;
+}
+
+.theme-tools-wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.theme-tools-content {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  max-width: 0;
+  opacity: 0;
+  pointer-events: none;
+  overflow: hidden;
+  margin-right: 0;
+  transform: scaleX(0.96) translateX(10px);
+  transform-origin: right center;
+  transition: max-width 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              margin-right 0.25s ease;
+}
+
+.theme-tools-wrap.open .theme-tools-content {
+  max-width: 500px;
+  opacity: 1;
+  pointer-events: auto;
+  margin-right: 6px;
+  transform: scaleX(1) translateX(0);
+}
+
+/* Segmented Islands */
+.theme-segment {
+  display: inline-flex;
+  align-items: center;
+  height: 28px;
+  padding: 2px 6px;
+  border-radius: 7px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.03);
+}
+
+.theme-swatch-segment {
+  gap: 5px;
+}
+
+.theme-font-segment {
+  gap: 1px;
+  padding: 2px;
+}
+
+.theme-color-segment {
+  gap: 4px;
+}
+
+.theme-seg-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 22px;
+  min-width: 24px;
+  padding: 0 6px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: 11.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .15s ease;
+  user-select: none;
+}
+.theme-seg-btn:hover {
+  background: var(--bg);
+  border-color: var(--border);
+  color: var(--accent);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.theme-seg-btn:active {
+  transform: scale(0.95);
+}
+
+.theme-btn-reset {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text2);
+}
+
+#tx-color {
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--bg);
+  padding: 1px;
+  cursor: pointer;
+  transition: transform .15s, border-color .15s;
+}
+#tx-color:hover {
+  transform: scale(1.08);
+  border-color: var(--accent);
+}
+
+/* Trigger Button (Aa •) */
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 28px;
+  padding: 0 8px;
+  border-radius: 7px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  font-family: var(--font-ui);
+  transition: all .15s ease;
+  user-select: none;
+  flex: none;
+}
+.theme-toggle-btn:hover {
+  background: var(--border2);
+  border-color: var(--text3);
+  color: var(--accent);
+}
+.theme-toggle-btn.active {
+  background: var(--accent2);
+  color: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent2);
+}
+.theme-toggle-text {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+}
+.theme-active-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  display: inline-block;
+  box-shadow: 0 0 0 1.5px var(--bg);
+  transition: background .2s ease;
+}
+
+/* Vertical Divider */
+.mb-divider {
+  width: 1px;
+  height: 18px;
+  background: var(--border);
+  margin: 0 2px;
+  flex: none;
+}
+
 /* ================= File Info Popover & Circular Button ================= */
 .doc-info-wrap {
-  margin-left: auto;
   position: relative;
   display: inline-flex;
   align-items: center;
+  flex: none;
 }
 
 .doc-info-btn {
@@ -2036,29 +2189,46 @@ body.dragging-ruler .margin-guide {
         </button>
       </div>
 
-      <span class="mb-group">
-        <span class="mb-label">ธีม</span>
-        <button class="mb-swatch on" data-theme="light" title="สว่าง"></button>
-        <button class="mb-swatch" data-theme="dark" title="มืด"></button>
-        <button class="mb-swatch" data-theme="cream" title="ถนอมสายตา (Cream)"></button>
-        <button class="mb-swatch" data-theme="deepblue" title="น้ำเงินเข้ม (Deep Blue)"></button>
-      </span>
+      <div class="mb-right-tools">
+        <!-- Segmented Badge Island Theme Tools (Collapsible) -->
+        <div class="theme-tools-wrap" id="theme-tools-wrap">
+          <div class="theme-tools-content" id="theme-tools-content">
+            <!-- Segment 1: Theme Swatches -->
+            <div class="theme-segment theme-swatch-segment" title="เลือกธีมสี">
+              <button class="mb-swatch on" data-theme="light" title="สว่าง"></button>
+              <button class="mb-swatch" data-theme="dark" title="มืด"></button>
+              <button class="mb-swatch" data-theme="cream" title="ถนอมสายตา (Cream)"></button>
+              <button class="mb-swatch" data-theme="deepblue" title="น้ำเงินเข้ม (Deep Blue)"></button>
+            </div>
 
-      <span class="mb-group">
-        <button id="fs-dec" class="mb-btn" title="ลดขนาดอักษร (A-)">A-</button>
-        <button id="fs-reset" class="mb-btn" title="ขนาดอักษรปกติ (A)">A</button>
-        <button id="fs-inc" class="mb-btn" title="เพิ่มขนาดอักษร (A+)">A+</button>
-      </span>
+            <!-- Segment 2: Font Size Controls -->
+            <div class="theme-segment theme-font-segment" title="ปรับขนาดอักษร">
+              <button id="fs-dec" class="theme-seg-btn" title="ลดขนาดอักษร (A-)">A-</button>
+              <button id="fs-reset" class="theme-seg-btn" title="ขนาดอักษรปกติ (A)">A</button>
+              <button id="fs-inc" class="theme-seg-btn" title="เพิ่มขนาดอักษร (A+)">A+</button>
+            </div>
 
-      <span class="mb-group">
-        <label class="mb-label" for="tx-color">สีอักษร</label>
-        <input type="color" id="tx-color" value="#1f2328" title="เปลี่ยนสีอักษรเนื้อหา">
-        <button id="tx-reset" class="mb-btn" title="ใช้สีอักษรตามธีม">รีเซ็ต</button>
-      </span>
+            <!-- Segment 3: Text Color -->
+            <div class="theme-segment theme-color-segment" title="สีอักษรเนื้อหา">
+              <input type="color" id="tx-color" value="#1f2328" title="เปลี่ยนสีอักษรเนื้อหา">
+              <button id="tx-reset" class="theme-seg-btn theme-btn-reset" title="ใช้สีอักษรตามธีม">รีเซ็ต</button>
+            </div>
+          </div>
 
-      <div class="doc-info-wrap" id="doc-info-wrap">
-        <button type="button" id="btn-doc-info" class="doc-info-btn" title="ข้อมูลไฟล์ปัจจุบัน (คลิกเพื่อดูรายละเอียด)" aria-label="ข้อมูลไฟล์" hidden>?</button>
-        <div id="doc-info-popover" class="doc-info-popover" hidden>
+          <!-- Trigger Button (Aa •) -->
+          <button type="button" id="btn-theme-toggle" class="theme-toggle-btn" title="ปรับแต่งธีมและการแสดงผล (คลิกเพื่อขยาย)" aria-label="ปรับแต่งธีม">
+            <span class="theme-toggle-text">Aa</span>
+            <span class="theme-active-dot" id="theme-active-dot"></span>
+          </button>
+        </div>
+
+        <!-- Vertical Divider separating Theme tools from ? -->
+        <div class="mb-divider"></div>
+
+        <!-- File Info Popover & Button (?) -->
+        <div class="doc-info-wrap" id="doc-info-wrap">
+          <button type="button" id="btn-doc-info" class="doc-info-btn" title="ข้อมูลไฟล์ปัจจุบัน (คลิกเพื่อดูรายละเอียด)" aria-label="ข้อมูลไฟล์">?</button>
+          <div id="doc-info-popover" class="doc-info-popover" hidden>
           <div class="doc-info-header">
             <div class="doc-info-badge" id="doc-info-ext">.md</div>
             <div class="doc-info-title-wrap">
@@ -2093,6 +2263,7 @@ body.dragging-ruler .margin-guide {
         </div>
       </div>
     </div>
+  </div>
 
     <div id="reader-viewport">
       <!-- 1. Markdown Viewer with Interactive Ruler -->
@@ -4990,6 +5161,17 @@ function applyTheme(txColorInput) {
     b.classList.toggle('on', b.dataset.theme === State.ui.theme);
   });
 
+  const dot = document.getElementById('theme-active-dot');
+  if (dot) {
+    const themeColors = {
+      light: '#0969da',
+      dark: '#58a6ff',
+      cream: '#a05a1c',
+      deepblue: '#3b82f6'
+    };
+    dot.style.background = themeColors[State.ui.theme] || 'var(--accent)';
+  }
+
   if (txColorInput) {
     txColorInput.value = State.ui.tx || themeDefaultTx(State.ui.theme);
   }
@@ -5009,6 +5191,7 @@ const D = {};
  'pdf-view', 'pdf-frame',
  'img-view', 'img-preview-frame', 'img-meta-badge', 'empty-state',
  'file-crumb', 'fs-dec', 'fs-inc', 'fs-reset', 'tx-color', 'tx-reset',
+ 'btn-theme-toggle', 'theme-tools-wrap', 'theme-tools-content',
  'btn-doc-info', 'doc-info-popover', 'doc-info-ext', 'doc-info-name', 'doc-info-type',
  'doc-info-path', 'doc-stat-words', 'doc-stat-chars', 'doc-stat-size', 'doc-stat-lines',
  'btn-copy-path', 'doc-info-wrap']
@@ -5020,7 +5203,6 @@ function switchView(type) {
   D.imgView.hidden = (type !== 'img');
   D.emptyState.style.display = (type === 'empty') ? 'flex' : 'none';
   if (type === 'empty') {
-    if (D.btnDocInfo) D.btnDocInfo.hidden = true;
     if (D.docInfoPopover) D.docInfoPopover.hidden = true;
   }
   if (type === 'md') {
@@ -5233,12 +5415,18 @@ function countTextStats(text) {
 
 function updateDocInfo(node, file, text) {
   if (!D.btnDocInfo) return;
+  D.btnDocInfo.hidden = false;
   if (!node) {
-    D.btnDocInfo.hidden = true;
-    if (D.docInfoPopover) D.docInfoPopover.hidden = true;
+    if (D.docInfoExt) D.docInfoExt.textContent = '-';
+    if (D.docInfoName) D.docInfoName.textContent = 'ยังไม่ได้เปิดเอกสาร';
+    if (D.docInfoType) D.docInfoType.textContent = 'มาร์คมาก';
+    if (D.docInfoPath) D.docInfoPath.textContent = 'กรุณาเลือกไฟล์เอกสารจากรายการด้านซ้าย';
+    if (D.docStatWords) D.docStatWords.textContent = '-';
+    if (D.docStatChars) D.docStatChars.textContent = '-';
+    if (D.docStatLines) D.docStatLines.textContent = '-';
+    if (D.docStatSize) D.docStatSize.textContent = '-';
     return;
   }
-  D.btnDocInfo.hidden = false;
 
   const ext = node.name.includes('.') ? ('.' + node.name.split('.').pop().toLowerCase()) : '';
   if (D.docInfoExt) D.docInfoExt.textContent = ext || '.file';
@@ -5397,6 +5585,30 @@ if (D.typeFilterDropdown) {
   });
 }
 
+function toggleThemeTools(force) {
+  if (!D.themeToolsWrap) return;
+  const isOpen = D.themeToolsWrap.classList.contains('open');
+  const show = (typeof force === 'boolean') ? force : !isOpen;
+  D.themeToolsWrap.classList.toggle('open', show);
+  if (D.btnThemeToggle) {
+    D.btnThemeToggle.classList.toggle('active', show);
+    D.btnThemeToggle.title = show ? 'พับเก็บชุดเครื่องมือปรับธีม' : 'ปรับแต่งธีมและการแสดงผล (คลิกเพื่อขยาย)';
+  }
+}
+
+if (D.btnThemeToggle) {
+  D.btnThemeToggle.addEventListener('click', e => {
+    e.stopPropagation();
+    toggleThemeTools();
+  });
+}
+
+if (D.themeToolsContent) {
+  D.themeToolsContent.addEventListener('click', e => {
+    e.stopPropagation();
+  });
+}
+
 function toggleDocInfoPopover(force) {
   if (!D.docInfoPopover) return;
   const isHidden = D.docInfoPopover.hidden;
@@ -5446,6 +5658,11 @@ if (D.btnCopyPath) {
 }
 
 document.addEventListener('click', e => {
+  if (D.themeToolsWrap && D.themeToolsWrap.classList.contains('open')) {
+    if (!e.target.closest('#theme-tools-wrap')) {
+      toggleThemeTools(false);
+    }
+  }
   if (D.typeFilterDropdown && !D.typeFilterDropdown.hidden) {
     if (!e.target.closest('#type-filter-dropdown') && !e.target.closest('#btn-filter-toggle')) {
       toggleFilterDropdown(false);
@@ -5460,6 +5677,9 @@ document.addEventListener('click', e => {
 
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
+    if (D.themeToolsWrap && D.themeToolsWrap.classList.contains('open')) {
+      toggleThemeTools(false);
+    }
     if (D.typeFilterDropdown && !D.typeFilterDropdown.hidden) {
       toggleFilterDropdown(false);
     }

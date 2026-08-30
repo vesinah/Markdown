@@ -24,6 +24,7 @@ const D = {};
  'pdf-view', 'pdf-frame',
  'img-view', 'img-preview-frame', 'img-meta-badge', 'empty-state',
  'file-crumb', 'fs-dec', 'fs-inc', 'fs-reset', 'tx-color', 'tx-reset',
+ 'btn-theme-toggle', 'theme-tools-wrap', 'theme-tools-content',
  'btn-doc-info', 'doc-info-popover', 'doc-info-ext', 'doc-info-name', 'doc-info-type',
  'doc-info-path', 'doc-stat-words', 'doc-stat-chars', 'doc-stat-size', 'doc-stat-lines',
  'btn-copy-path', 'doc-info-wrap']
@@ -35,7 +36,6 @@ export function switchView(type) {
   D.imgView.hidden = (type !== 'img');
   D.emptyState.style.display = (type === 'empty') ? 'flex' : 'none';
   if (type === 'empty') {
-    if (D.btnDocInfo) D.btnDocInfo.hidden = true;
     if (D.docInfoPopover) D.docInfoPopover.hidden = true;
   }
   if (type === 'md') {
@@ -248,12 +248,18 @@ function countTextStats(text) {
 
 function updateDocInfo(node, file, text) {
   if (!D.btnDocInfo) return;
+  D.btnDocInfo.hidden = false;
   if (!node) {
-    D.btnDocInfo.hidden = true;
-    if (D.docInfoPopover) D.docInfoPopover.hidden = true;
+    if (D.docInfoExt) D.docInfoExt.textContent = '-';
+    if (D.docInfoName) D.docInfoName.textContent = 'ยังไม่ได้เปิดเอกสาร';
+    if (D.docInfoType) D.docInfoType.textContent = 'มาร์คมาก';
+    if (D.docInfoPath) D.docInfoPath.textContent = 'กรุณาเลือกไฟล์เอกสารจากรายการด้านซ้าย';
+    if (D.docStatWords) D.docStatWords.textContent = '-';
+    if (D.docStatChars) D.docStatChars.textContent = '-';
+    if (D.docStatLines) D.docStatLines.textContent = '-';
+    if (D.docStatSize) D.docStatSize.textContent = '-';
     return;
   }
-  D.btnDocInfo.hidden = false;
 
   const ext = node.name.includes('.') ? ('.' + node.name.split('.').pop().toLowerCase()) : '';
   if (D.docInfoExt) D.docInfoExt.textContent = ext || '.file';
@@ -412,6 +418,30 @@ if (D.typeFilterDropdown) {
   });
 }
 
+function toggleThemeTools(force) {
+  if (!D.themeToolsWrap) return;
+  const isOpen = D.themeToolsWrap.classList.contains('open');
+  const show = (typeof force === 'boolean') ? force : !isOpen;
+  D.themeToolsWrap.classList.toggle('open', show);
+  if (D.btnThemeToggle) {
+    D.btnThemeToggle.classList.toggle('active', show);
+    D.btnThemeToggle.title = show ? 'พับเก็บชุดเครื่องมือปรับธีม' : 'ปรับแต่งธีมและการแสดงผล (คลิกเพื่อขยาย)';
+  }
+}
+
+if (D.btnThemeToggle) {
+  D.btnThemeToggle.addEventListener('click', e => {
+    e.stopPropagation();
+    toggleThemeTools();
+  });
+}
+
+if (D.themeToolsContent) {
+  D.themeToolsContent.addEventListener('click', e => {
+    e.stopPropagation();
+  });
+}
+
 function toggleDocInfoPopover(force) {
   if (!D.docInfoPopover) return;
   const isHidden = D.docInfoPopover.hidden;
@@ -461,6 +491,11 @@ if (D.btnCopyPath) {
 }
 
 document.addEventListener('click', e => {
+  if (D.themeToolsWrap && D.themeToolsWrap.classList.contains('open')) {
+    if (!e.target.closest('#theme-tools-wrap')) {
+      toggleThemeTools(false);
+    }
+  }
   if (D.typeFilterDropdown && !D.typeFilterDropdown.hidden) {
     if (!e.target.closest('#type-filter-dropdown') && !e.target.closest('#btn-filter-toggle')) {
       toggleFilterDropdown(false);
@@ -475,6 +510,9 @@ document.addEventListener('click', e => {
 
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
+    if (D.themeToolsWrap && D.themeToolsWrap.classList.contains('open')) {
+      toggleThemeTools(false);
+    }
     if (D.typeFilterDropdown && !D.typeFilterDropdown.hidden) {
       toggleFilterDropdown(false);
     }
