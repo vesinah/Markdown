@@ -1,6 +1,6 @@
 import { Store } from './core/store.js';
 import { State } from './core/state.js';
-import { rescanWorkspaces, ensurePermission, findFileByPath, resolvePath } from './core/fs.js';
+import { rescanWorkspaces, ensurePermission, findFileByPath, resolvePath, requestRootPermission } from './core/fs.js';
 import { isMd, isPdf, isImg, isTxt, isHtml, isXml, isRdf, isCode, isDoc, ALL_FILTER_TYPES, isFileAllowedByFilter, fmtBytes, esc } from './tree/tree-node.js';
 import { getFinalExpandedPaths, expandOnlyFinal, collapseAllTruly } from './tree/tree-exp.js';
 import { renderTree } from './tree/tree-ui.js';
@@ -50,15 +50,13 @@ export function switchView(type) {
 }
 
 async function saveWorkspace() {
-  const roots = [];
-  for (const r of State.roots) {
-    try {
-      if (await r.handle.queryPermission({ mode: 'read' }) === 'granted') {
-        roots.push({ name: r.name, handle: r.handle });
-      }
-    } catch (e) {}
-  }
-  Store.set('workspace', {
+  // CRITICAL FIX: Save all handles unconditionally so they are never wiped!
+  const roots = State.roots.map(r => ({
+    name: r.name,
+    handle: r.handle,
+    addedAt: r.addedAt || Date.now()
+  }));
+  await Store.set('workspace', {
     roots,
     expanded: [...State.expanded],
     collapsed: [...State.collapsed]
@@ -200,30 +198,74 @@ function updateStat(currentFile) {
 
 function renderWsBar() {
   if (!State.roots.length) { D.wsBar.innerHTML = ''; return; }
-  D.wsBar.innerHTML = State.roots.map((r, i) =>
-    `<span class="ws-chip" title="${esc(r.name)}"><b>${esc(r.name)}</b><button data-i="${i}" title="เอาโฟลเดอร์นี้ออก">×</button></span>`
-  ).join('');
+  D.wsBar.innerHTML = State.roots.map((r, i) => {
+    const isLocked = !!r.isLocked;
+    const lockBadge = isLocked ? '<span class="ws-lock-icon" title="ต้องอนุญาตการเข้าถึงไฟล์ (คลิกเพื่อเชื่อมต่อ)">🔒</span> ' : '';
+    const title = isLocked ? `${esc(r.name)} — คลิกเพื่ออนุญาตการเข้าถึงไฟล์` : esc(r.name);
+    return `<span class="ws-chip ${isLocked ? 'locked' : ''}" data-i="${i}" title="${title}">` +
+      `${lockBadge}<b>${esc(r.name)}</b>` +
+      `<button data-i="${i}" class="btn-ws-del" title="เอาโฟลเดอร์นี้ออก">×</button>` +
+    `</span>`;
+  }).join('');
 }
 
-D.wsBar.addEventListener('click', async e => {
-  const b = e.target.closest('button[data-i]');
-  if (!b) return;
-  const i = +b.dataset.i;
-  State.roots.splice(i, 1);
-  State.flat = State.flat.filter(n => n.rootIdx !== i);
-  for (const n of State.flat) if (n.rootIdx > i) n.rootIdx--;
-  State.byPath = new Map(State.flat.map(n => [n.path, n]));
-  for (const n of State.flat) if (n.kind !== 'root') n.parent = n.path.includes('/') ? State.byPath.get(n.path.slice(0, n.path.lastIndexOf('/'))) : null;
-  for (const n of State.flat) if ((n.kind === 'root' || n.kind === 'directory') && n.kids) n.kids = n.kids.filter(k => k.rootIdx !== i);
-  if (State.current && State.current.rootIdx === i) {
-    State.current = null;
-    switchView('empty');
+export async function unlockAndReloadWorkspace(rootIdx) {
+  const ok = await requestRootPermission(rootIdx);
+  if (!ok) {
+    alert('ไม่ได้รับการอนุญาตเข้าถึงโฟลเดอร์ กรุณากดยินยอมในหน้าต่างแจ้งเตือนของเบราว์เซอร์');
+    return false;
   }
-  SearchEngine.clearCache();
+  await rescanWorkspaces();
+  expandOnlyFinal();
   renderWsBar();
   renderTree(D.tree);
   updateStat();
   await saveWorkspace();
+
+  const lastPath = await Store.get('lastFile');
+  if (lastPath && !State.current) {
+    const n = State.byPath.get(lastPath);
+    if (n && n.kind === 'file') {
+      openFile(n, { silent: true });
+    }
+  } else if (!State.current) {
+    const first = State.flat.find(n => n.kind === 'file' && isDoc(n.name));
+    if (first) openFile(first, { silent: true });
+  }
+  return true;
+}
+
+D.wsBar.addEventListener('click', async e => {
+  const delBtn = e.target.closest('button[data-i]');
+  if (delBtn) {
+    e.stopPropagation();
+    const i = +delBtn.dataset.i;
+    State.roots.splice(i, 1);
+    State.flat = State.flat.filter(n => n.rootIdx !== i);
+    for (const n of State.flat) if (n.rootIdx > i) n.rootIdx--;
+    State.byPath = new Map(State.flat.map(n => [n.path, n]));
+    for (const n of State.flat) if (n.kind !== 'root') n.parent = n.path.includes('/') ? State.byPath.get(n.path.slice(0, n.path.lastIndexOf('/'))) : null;
+    for (const n of State.flat) if ((n.kind === 'root' || n.kind === 'directory') && n.kids) n.kids = n.kids.filter(k => k.rootIdx !== i);
+    if (State.current && State.current.rootIdx === i) {
+      State.current = null;
+      switchView('empty');
+    }
+    SearchEngine.clearCache();
+    renderWsBar();
+    renderTree(D.tree);
+    updateStat();
+    await saveWorkspace();
+    return;
+  }
+
+  const chip = e.target.closest('.ws-chip');
+  if (chip) {
+    const i = +chip.dataset.i;
+    const r = State.roots[i];
+    if (r && r.isLocked) {
+      await unlockAndReloadWorkspace(i);
+    }
+  }
 });
 
 function countTextStats(text) {
@@ -367,7 +409,7 @@ async function addFolder() {
     for (const r of State.roots) {
       try { if (await r.handle.isSameEntry(h)) return; } catch (e) {}
     }
-    State.roots.push({ handle: h, name: h.name });
+    State.roots.push({ handle: h, name: h.name, addedAt: Date.now(), isLocked: false, permission: 'granted' });
     await rescanWorkspaces();
     SearchEngine.clearCache();
     expandOnlyFinal();
@@ -560,13 +602,17 @@ document.querySelectorAll('input[name="type-filter"]').forEach(cb => {
   });
 });
 
-D.tree.addEventListener('click', e => {
+D.tree.addEventListener('click', async e => {
   const row = e.target.closest('.node-row');
   if (!row) return;
   const node = State.byPath.get(row.parentElement.dataset.path);
   if (!node) return;
 
-  if (node.kind === 'root' || node.kind === 'directory') {
+  if (node.kind === 'root') {
+    if (node.isLocked && node.rootIdx !== undefined) {
+      await unlockAndReloadWorkspace(node.rootIdx);
+      return;
+    }
     if (node.kids && node.kids.length) {
       if (State.expanded.has(node.path)) {
         State.expanded.delete(node.path);
@@ -576,7 +622,22 @@ D.tree.addEventListener('click', e => {
         State.collapsed.delete(node.path);
       }
       renderTree(D.tree);
-      saveWorkspace();
+      await saveWorkspace();
+    }
+    return;
+  }
+
+  if (node.kind === 'directory') {
+    if (node.kids && node.kids.length) {
+      if (State.expanded.has(node.path)) {
+        State.expanded.delete(node.path);
+        State.collapsed.add(node.path);
+      } else {
+        State.expanded.add(node.path);
+        State.collapsed.delete(node.path);
+      }
+      renderTree(D.tree);
+      await saveWorkspace();
     }
     return;
   }
@@ -716,7 +777,17 @@ export async function initApp() {
 
   const rec = await Store.get('workspace');
   if (rec && rec.roots && rec.roots.length) {
-    for (const r of rec.roots) State.roots.push({ handle: r.handle, name: r.name });
+    for (const r of rec.roots) {
+      if (r && r.handle) {
+        State.roots.push({
+          handle: r.handle,
+          name: r.name,
+          addedAt: r.addedAt || Date.now(),
+          isLocked: true,
+          permission: 'prompt'
+        });
+      }
+    }
     await rescanWorkspaces();
     renderWsBar();
     updateStat();

@@ -555,6 +555,7 @@ body.sb-closed #sb-resizer {
   padding: 2px 8px;
   font-size: 11.5px;
   max-width: 100%;
+  transition: all .15s ease;
 }
 .ws-chip b {
   overflow: hidden;
@@ -573,6 +574,21 @@ body.sb-closed #sb-resizer {
 }
 .ws-chip button:hover {
   color: #cf222e;
+}
+.ws-chip.locked {
+  background: rgba(234, 179, 8, 0.12);
+  border-color: rgba(234, 179, 8, 0.45);
+  color: var(--text);
+  cursor: pointer;
+}
+.ws-chip.locked:hover {
+  background: rgba(234, 179, 8, 0.22);
+  border-color: #ca8a04;
+}
+.ws-lock-icon {
+  font-size: 11px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .sb-tree {
@@ -606,6 +622,29 @@ body.sb-closed #sb-resizer {
 .node-row.hit {
   color: var(--accent);
   font-weight: 600;
+}
+.node-row.locked {
+  background: rgba(234, 179, 8, 0.08);
+  border: 1px dashed rgba(234, 179, 8, 0.4);
+  color: var(--text2);
+}
+.node-row.locked:hover {
+  background: rgba(234, 179, 8, 0.18);
+  border-color: #ca8a04;
+}
+.lock-tag {
+  font-size: 10.5px;
+  color: #b45309;
+  background: rgba(234, 179, 8, 0.2);
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+  font-weight: normal;
+  display: inline-block;
+}
+[data-theme="dark"] .lock-tag {
+  color: #fde047;
+  background: rgba(234, 179, 8, 0.25);
 }
 .node-row .twisty {
   width: 14px;
@@ -3637,29 +3676,134 @@ return He}()
 
 const Store = {
   db: null,
+
   open() {
     return new Promise(res => {
-      const rq = indexedDB.open('mdbrowse_v2', 1);
-      rq.onupgradeneeded = () => rq.result.createObjectStore('kv');
-      rq.onsuccess = () => { Store.db = rq.result; res(true); };
-      rq.onerror = () => res(false);
+      try {
+        const rq = indexedDB.open('mdbrowse_v2', 1);
+        rq.onupgradeneeded = () => {
+          if (!rq.result.objectStoreNames.contains('kv')) {
+            rq.result.createObjectStore('kv');
+          }
+        };
+        rq.onsuccess = () => {
+          Store.db = rq.result;
+          res(true);
+        };
+        rq.onerror = () => res(false);
+      } catch (e) {
+        res(false);
+      }
     });
   },
+
   get(key) {
     return new Promise(res => {
-      if (!Store.db) return res(undefined);
+      if (!Store.db) {
+        try {
+          const raw = localStorage.getItem('mdbrowse_' + key);
+          return res(raw ? JSON.parse(raw) : undefined);
+        } catch (e) {
+          return res(undefined);
+        }
+      }
       try {
-        const rq = Store.db.transaction('kv').objectStore('kv').get(key);
-        rq.onsuccess = () => res(rq.result);
-        rq.onerror = () => res(undefined);
-      } catch (e) { res(undefined); }
+        const tx = Store.db.transaction('kv', 'readonly');
+        const rq = tx.objectStore('kv').get(key);
+        rq.onsuccess = () => {
+          if (rq.result !== undefined) {
+            res(rq.result);
+          } else {
+            try {
+              const raw = localStorage.getItem('mdbrowse_' + key);
+              res(raw ? JSON.parse(raw) : undefined);
+            } catch (e) {
+              res(undefined);
+            }
+          }
+        };
+        rq.onerror = () => {
+          try {
+            const raw = localStorage.getItem('mdbrowse_' + key);
+            res(raw ? JSON.parse(raw) : undefined);
+          } catch (e) {
+            res(undefined);
+          }
+        };
+      } catch (e) {
+        try {
+          const raw = localStorage.getItem('mdbrowse_' + key);
+          res(raw ? JSON.parse(raw) : undefined);
+        } catch (e2) {
+          res(undefined);
+        }
+      }
     });
   },
+
   set(key, val) {
-    if (!Store.db) return;
+    // Dual-store serializable JSON data into localStorage for resilience & backup
     try {
-      Store.db.transaction('kv', 'readwrite').objectStore('kv').put(val, key);
+      if (key === 'workspace') {
+        if (val && Array.isArray(val.roots)) {
+          const meta = {
+            roots: val.roots.map(r => ({ name: r.name, addedAt: r.addedAt || Date.now() })),
+            expanded: val.expanded || [],
+            collapsed: val.collapsed || [],
+            savedAt: Date.now()
+          };
+          localStorage.setItem('mdbrowse_workspace_meta', JSON.stringify(meta));
+        }
+      } else {
+        localStorage.setItem('mdbrowse_' + key, JSON.stringify(val));
+      }
     } catch (e) {}
+
+    return new Promise(res => {
+      if (!Store.db) return res(false);
+      try {
+        const tx = Store.db.transaction('kv', 'readwrite');
+        const rq = tx.objectStore('kv').put(val, key);
+        rq.onsuccess = () => res(true);
+        rq.onerror = () => res(false);
+      } catch (e) {
+        res(false);
+      }
+    });
+  },
+
+  del(key) {
+    try {
+      localStorage.removeItem('mdbrowse_' + key);
+      if (key === 'workspace') localStorage.removeItem('mdbrowse_workspace_meta');
+    } catch (e) {}
+
+    return new Promise(res => {
+      if (!Store.db) return res(false);
+      try {
+        const tx = Store.db.transaction('kv', 'readwrite');
+        const rq = tx.objectStore('kv').delete(key);
+        rq.onsuccess = () => res(true);
+        rq.onerror = () => res(false);
+      } catch (e) {
+        res(false);
+      }
+    });
+  },
+
+  exportJson() {
+    try {
+      const data = {
+        ui: JSON.parse(localStorage.getItem('mdbrowse_ui') || '{}'),
+        filters: JSON.parse(localStorage.getItem('mdbrowse_filters') || '{}'),
+        workspace: JSON.parse(localStorage.getItem('mdbrowse_workspace_meta') || '{}'),
+        lastFile: JSON.parse(localStorage.getItem('mdbrowse_lastFile') || 'null'),
+        exportedAt: new Date().toISOString()
+      };
+      return JSON.stringify(data, null, 2);
+    } catch (e) {
+      return '{}';
+    }
   }
 };
 
@@ -3783,15 +3927,54 @@ function findFileByPath(path) {
   return null;
 }
 
+async function checkRootPermission(rootObj) {
+  if (!rootObj || !rootObj.handle) return 'denied';
+  try {
+    const perm = await rootObj.handle.queryPermission({ mode: 'read' });
+    rootObj.permission = perm;
+    rootObj.isLocked = (perm !== 'granted');
+    return perm;
+  } catch (e) {
+    rootObj.permission = 'prompt';
+    rootObj.isLocked = true;
+    return 'prompt';
+  }
+}
+
+async function requestRootPermission(rootIdx) {
+  const r = State.roots[rootIdx];
+  if (!r || !r.handle) return false;
+  try {
+    let perm = await r.handle.queryPermission({ mode: 'read' });
+    if (perm !== 'granted') {
+      perm = await r.handle.requestPermission({ mode: 'read' });
+    }
+    const ok = (perm === 'granted');
+    r.permission = perm;
+    r.isLocked = !ok;
+    return ok;
+  } catch (e) {
+    console.warn('requestRootPermission fail', r.name, e);
+    return false;
+  }
+}
+
 async function ensurePermission(node) {
   if (!node) return true;
   if (node.rootIdx !== undefined && State.roots[node.rootIdx]) {
     const r = State.roots[node.rootIdx];
     try {
       let perm = await r.handle.queryPermission({ mode: 'read' });
-      if (perm === 'granted') return true;
+      if (perm === 'granted') {
+        r.isLocked = false;
+        r.permission = 'granted';
+        return true;
+      }
       perm = await r.handle.requestPermission({ mode: 'read' });
-      return perm === 'granted';
+      const granted = (perm === 'granted');
+      r.isLocked = !granted;
+      r.permission = perm;
+      return granted;
     } catch (e) {
       return false;
     }
@@ -3817,13 +4000,29 @@ async function rescanWorkspaces() {
   out.byPath = new Map();
   for (let i = 0; i < State.roots.length; i++) {
     const r = State.roots[i];
-    const rootNode = { kind: 'root', name: r.name, path: r.name, handle: r.handle, depth: 0, kids: null, parent: null, rootIdx: i };
+    await checkRootPermission(r);
+    const rootNode = {
+      kind: 'root',
+      name: r.name,
+      path: r.name,
+      handle: r.handle,
+      depth: 0,
+      kids: null,
+      parent: null,
+      rootIdx: i,
+      isLocked: !!r.isLocked
+    };
     out.push(rootNode);
     out.byPath.set(r.name, rootNode);
-    try {
-      await walkDirectory(r.handle, r.name, 1, out, i);
-    } catch (err) {
-      console.warn('walk fail', r.name, err);
+
+    if (!r.isLocked) {
+      try {
+        await walkDirectory(r.handle, r.name, 1, out, i);
+      } catch (err) {
+        console.warn('walk fail', r.name, err);
+        r.isLocked = true;
+        rootNode.isLocked = true;
+      }
     }
   }
   for (const n of out) {
@@ -3862,9 +4061,11 @@ function getFilterVisiblePaths(activeTypes) {
     }
   }
 
-  if (hasMatchingFile && State.roots) {
+  if (State.roots) {
     for (const r of State.roots) {
-      visible.add(r.name);
+      if (hasMatchingFile || r.isLocked) {
+        visible.add(r.name);
+      }
     }
   }
 
@@ -3940,13 +4141,18 @@ function renderTree(container) {
       if (!isNodeVisible(n)) continue;
     }
     const dir = n.kind === 'root' || n.kind === 'directory';
+    const isLockedRoot = n.kind === 'root' && !!n.isLocked;
     const open = searchVisiblePaths ? true : State.expanded.has(n.path);
     const active = State.current && State.current.path === n.path;
     const hit = State.search.fileHits.has(n.path);
-    const twisty = dir ? `<span class="twisty">${open ? '▾' : '▸'}</span>` : '<span class="twisty"></span>';
+    const twisty = isLockedRoot
+      ? '<span class="twisty" title="ต้องอนุญาตการเข้าถึงไฟล์ (คลิกเพื่อเชื่อมต่อ)">🔒</span>'
+      : (dir ? `<span class="twisty">${open ? '▾' : '▸'}</span>` : '<span class="twisty"></span>');
 
     let iconSvg = '';
-    if (dir) {
+    if (isLockedRoot) {
+      iconSvg = '<svg class="ico" viewBox="0 0 16 16" width="15" height="15"><path fill="#eab308" fill-opacity=".25" stroke="#ca8a04" stroke-opacity=".9" d="M1.75 2.5h3.2c.2 0 .4.08.54.22l1.03 1.03H14.25c.41 0 .75.34.75.75v7.75a1.25 1.25 0 0 1-1.25 1.25H1.75A1.25 1.25 0 0 1 .5 12.25v-8.5a1.25 1.25 0 0 1 1.25-1.25Z"/></svg>';
+    } else if (dir) {
       iconSvg = '<svg class="ico" viewBox="0 0 16 16" width="15" height="15"><path fill="var(--folder-stroke)" fill-opacity=".25" stroke="var(--folder-stroke)" stroke-opacity=".7" d="M1.75 2.5h3.2c.2 0 .4.08.54.22l1.03 1.03H14.25c.41 0 .75.34.75.75v7.75a1.25 1.25 0 0 1-1.25 1.25H1.75A1.25 1.25 0 0 1 .5 12.25v-8.5a1.25 1.25 0 0 1 1.25-1.25Z"/></svg>';
     } else if (isPdf(n.name)) {
       iconSvg = '<svg class="ico" viewBox="0 0 16 16" width="15" height="15"><path fill="#f85149" fill-opacity=".25" stroke="#f85149" stroke-opacity=".9" d="M4 1.75c0-.69.56-1.25 1.25-1.25h4.09c.33 0 .65.13.88.36l2.42 2.42c.23.23.36.55.36.88v9.09c0 .69-.56 1.25-1.25 1.25H5.25c-.69 0-1.25-.56-1.25-1.25V1.75Z"/><text x="4.5" y="11.5" font-size="4.5" font-weight="bold" fill="#f85149">P</text></svg>';
@@ -3962,10 +4168,17 @@ function renderTree(container) {
       iconSvg = '<svg class="ico" viewBox="0 0 16 16" width="15" height="15"><path fill="var(--file-stroke)" fill-opacity=".2" stroke="var(--file-stroke)" stroke-opacity=".8" d="M4 1.75c0-.69.56-1.25 1.25-1.25h4.09c.33 0 .65.13.88.36l2.42 2.42c.23.23.36.55.36.88v9.09c0 .69-.56 1.25-1.25 1.25H5.25c-.69 0-1.25-.56-1.25-1.25V1.75Z"/></svg>';
     }
 
+    const nameLabel = isLockedRoot
+      ? `<span class="nm">${esc(n.name)} <span class="lock-tag" title="คลิกเพื่ออนุญาตการเข้าถึงโฟลเดอร์นี้">คลิกเพื่อเชื่อมต่อ</span></span>`
+      : `<span class="nm">${esc(n.name)}</span>`;
+    const rowTitle = isLockedRoot
+      ? ' title="โฟลเดอร์นี้ต้องได้รับอนุญาตการเข้าถึงไฟล์ — คลิกเพื่อเชื่อมต่อ"'
+      : '';
+
     html.push(
       `<div class="node ${dir ? (open ? 'folder open' : 'folder') : 'file'}" data-path="${esc(n.path)}">` +
-      `<div class="node-row ${active ? 'active' : ''} ${hit ? 'hit' : ''}" data-kind="${n.kind}" style="padding-left:${8 + n.depth * 14}px">` +
-      twisty + iconSvg + `<span class="nm">${esc(n.name)}</span></div></div>`
+      `<div class="node-row ${active ? 'active' : ''} ${hit ? 'hit' : ''} ${isLockedRoot ? 'locked' : ''}" data-kind="${n.kind}"${rowTitle} style="padding-left:${8 + n.depth * 14}px">` +
+      twisty + iconSvg + nameLabel + `</div></div>`
     );
   }
 
@@ -5217,15 +5430,13 @@ function switchView(type) {
 }
 
 async function saveWorkspace() {
-  const roots = [];
-  for (const r of State.roots) {
-    try {
-      if (await r.handle.queryPermission({ mode: 'read' }) === 'granted') {
-        roots.push({ name: r.name, handle: r.handle });
-      }
-    } catch (e) {}
-  }
-  Store.set('workspace', {
+  // CRITICAL FIX: Save all handles unconditionally so they are never wiped!
+  const roots = State.roots.map(r => ({
+    name: r.name,
+    handle: r.handle,
+    addedAt: r.addedAt || Date.now()
+  }));
+  await Store.set('workspace', {
     roots,
     expanded: [...State.expanded],
     collapsed: [...State.collapsed]
@@ -5367,30 +5578,74 @@ function updateStat(currentFile) {
 
 function renderWsBar() {
   if (!State.roots.length) { D.wsBar.innerHTML = ''; return; }
-  D.wsBar.innerHTML = State.roots.map((r, i) =>
-    `<span class="ws-chip" title="${esc(r.name)}"><b>${esc(r.name)}</b><button data-i="${i}" title="เอาโฟลเดอร์นี้ออก">×</button></span>`
-  ).join('');
+  D.wsBar.innerHTML = State.roots.map((r, i) => {
+    const isLocked = !!r.isLocked;
+    const lockBadge = isLocked ? '<span class="ws-lock-icon" title="ต้องอนุญาตการเข้าถึงไฟล์ (คลิกเพื่อเชื่อมต่อ)">🔒</span> ' : '';
+    const title = isLocked ? `${esc(r.name)} — คลิกเพื่ออนุญาตการเข้าถึงไฟล์` : esc(r.name);
+    return `<span class="ws-chip ${isLocked ? 'locked' : ''}" data-i="${i}" title="${title}">` +
+      `${lockBadge}<b>${esc(r.name)}</b>` +
+      `<button data-i="${i}" class="btn-ws-del" title="เอาโฟลเดอร์นี้ออก">×</button>` +
+    `</span>`;
+  }).join('');
 }
 
-D.wsBar.addEventListener('click', async e => {
-  const b = e.target.closest('button[data-i]');
-  if (!b) return;
-  const i = +b.dataset.i;
-  State.roots.splice(i, 1);
-  State.flat = State.flat.filter(n => n.rootIdx !== i);
-  for (const n of State.flat) if (n.rootIdx > i) n.rootIdx--;
-  State.byPath = new Map(State.flat.map(n => [n.path, n]));
-  for (const n of State.flat) if (n.kind !== 'root') n.parent = n.path.includes('/') ? State.byPath.get(n.path.slice(0, n.path.lastIndexOf('/'))) : null;
-  for (const n of State.flat) if ((n.kind === 'root' || n.kind === 'directory') && n.kids) n.kids = n.kids.filter(k => k.rootIdx !== i);
-  if (State.current && State.current.rootIdx === i) {
-    State.current = null;
-    switchView('empty');
+async function unlockAndReloadWorkspace(rootIdx) {
+  const ok = await requestRootPermission(rootIdx);
+  if (!ok) {
+    alert('ไม่ได้รับการอนุญาตเข้าถึงโฟลเดอร์ กรุณากดยินยอมในหน้าต่างแจ้งเตือนของเบราว์เซอร์');
+    return false;
   }
-  SearchEngine.clearCache();
+  await rescanWorkspaces();
+  expandOnlyFinal();
   renderWsBar();
   renderTree(D.tree);
   updateStat();
   await saveWorkspace();
+
+  const lastPath = await Store.get('lastFile');
+  if (lastPath && !State.current) {
+    const n = State.byPath.get(lastPath);
+    if (n && n.kind === 'file') {
+      openFile(n, { silent: true });
+    }
+  } else if (!State.current) {
+    const first = State.flat.find(n => n.kind === 'file' && isDoc(n.name));
+    if (first) openFile(first, { silent: true });
+  }
+  return true;
+}
+
+D.wsBar.addEventListener('click', async e => {
+  const delBtn = e.target.closest('button[data-i]');
+  if (delBtn) {
+    e.stopPropagation();
+    const i = +delBtn.dataset.i;
+    State.roots.splice(i, 1);
+    State.flat = State.flat.filter(n => n.rootIdx !== i);
+    for (const n of State.flat) if (n.rootIdx > i) n.rootIdx--;
+    State.byPath = new Map(State.flat.map(n => [n.path, n]));
+    for (const n of State.flat) if (n.kind !== 'root') n.parent = n.path.includes('/') ? State.byPath.get(n.path.slice(0, n.path.lastIndexOf('/'))) : null;
+    for (const n of State.flat) if ((n.kind === 'root' || n.kind === 'directory') && n.kids) n.kids = n.kids.filter(k => k.rootIdx !== i);
+    if (State.current && State.current.rootIdx === i) {
+      State.current = null;
+      switchView('empty');
+    }
+    SearchEngine.clearCache();
+    renderWsBar();
+    renderTree(D.tree);
+    updateStat();
+    await saveWorkspace();
+    return;
+  }
+
+  const chip = e.target.closest('.ws-chip');
+  if (chip) {
+    const i = +chip.dataset.i;
+    const r = State.roots[i];
+    if (r && r.isLocked) {
+      await unlockAndReloadWorkspace(i);
+    }
+  }
 });
 
 function countTextStats(text) {
@@ -5534,7 +5789,7 @@ async function addFolder() {
     for (const r of State.roots) {
       try { if (await r.handle.isSameEntry(h)) return; } catch (e) {}
     }
-    State.roots.push({ handle: h, name: h.name });
+    State.roots.push({ handle: h, name: h.name, addedAt: Date.now(), isLocked: false, permission: 'granted' });
     await rescanWorkspaces();
     SearchEngine.clearCache();
     expandOnlyFinal();
@@ -5727,13 +5982,17 @@ document.querySelectorAll('input[name="type-filter"]').forEach(cb => {
   });
 });
 
-D.tree.addEventListener('click', e => {
+D.tree.addEventListener('click', async e => {
   const row = e.target.closest('.node-row');
   if (!row) return;
   const node = State.byPath.get(row.parentElement.dataset.path);
   if (!node) return;
 
-  if (node.kind === 'root' || node.kind === 'directory') {
+  if (node.kind === 'root') {
+    if (node.isLocked && node.rootIdx !== undefined) {
+      await unlockAndReloadWorkspace(node.rootIdx);
+      return;
+    }
     if (node.kids && node.kids.length) {
       if (State.expanded.has(node.path)) {
         State.expanded.delete(node.path);
@@ -5743,7 +6002,22 @@ D.tree.addEventListener('click', e => {
         State.collapsed.delete(node.path);
       }
       renderTree(D.tree);
-      saveWorkspace();
+      await saveWorkspace();
+    }
+    return;
+  }
+
+  if (node.kind === 'directory') {
+    if (node.kids && node.kids.length) {
+      if (State.expanded.has(node.path)) {
+        State.expanded.delete(node.path);
+        State.collapsed.add(node.path);
+      } else {
+        State.expanded.add(node.path);
+        State.collapsed.delete(node.path);
+      }
+      renderTree(D.tree);
+      await saveWorkspace();
     }
     return;
   }
@@ -5883,7 +6157,17 @@ async function initApp() {
 
   const rec = await Store.get('workspace');
   if (rec && rec.roots && rec.roots.length) {
-    for (const r of rec.roots) State.roots.push({ handle: r.handle, name: r.name });
+    for (const r of rec.roots) {
+      if (r && r.handle) {
+        State.roots.push({
+          handle: r.handle,
+          name: r.name,
+          addedAt: r.addedAt || Date.now(),
+          isLocked: true,
+          permission: 'prompt'
+        });
+      }
+    }
     await rescanWorkspaces();
     renderWsBar();
     updateStat();

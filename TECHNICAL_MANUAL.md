@@ -53,16 +53,20 @@ graph TD
 
 ### 3.1 Core Subsystem (`src/js/core/`)
 - **`store.js`**:
-  - ครอบ IndexedDB ฐานข้อมูลชื่อ `mdbrowse_v2` อ็อบเจกต์สโตร์ `kv`
+  - **สถาปัตยกรรม Dual-Storage Engine**: ครอบ IndexedDB ฐานข้อมูลชื่อ `mdbrowse_v2` อ็อบเจกต์สโตร์ `kv` ควบคู่กับระบบสำรองข้อมูลอัตโนมัติลงใน **LocalStorage JSON Backup** (`mdbrowse_workspace_meta`, `mdbrowse_ui`, `mdbrowse_filters`, `mdbrowse_lastFile`)
+  - ฟังก์ชันทั้งหมดทำงานแบบ Asynchronous Promise 100%
+  - มีฟังก์ชัน `exportJson()` สำหรับดึงข้อมูลคอนฟิกทั้งหมดออกมาเป็น JSON
   - คีย์หลัก:
-    - `workspace`: เก็บอาเรย์ของ Workspace Handles, รายการโฟลเดอร์ที่ขยาย (`expanded`) และพับ (`collapsed`)
+    - `workspace`: เก็บอาเรย์ของ Workspace Handles ทั้งหมดโดยไม่ตัดทิ้ง (`roots`), รายการโฟลเดอร์ที่ขยาย (`expanded`) และพับ (`collapsed`)
     - `ui`: เก็บสถานะไซด์บาร์ (`sbClosed`, `sbWidth`), ธีม (`theme`), ตัวคูณฟอนต์ (`fscale`), สีตัวอักษร (`tx`), ระยะขอบซ้าย-ขวา (`padLeft`, `padRight`)
     - `lastFile`: เก็บ path ของไฟล์ล่าสุดที่เปิดอ่าน เพื่อกู้คืนสถานะอัตโนมัติเมื่อเปิดโปรแกรมใหม่
 - **`state.js`**:
-  - ตัวแปร State กลาง (Singleton Container) เก็บ `roots`, `flat` (รายการโหนดทั้งหมด), `byPath` (Map ค้นหาโหนดด้วย path), `current` (โหนดปัจจุบัน), `blobUrls` (แคช Object URL เพื่อลด Memory Leak), สถานะการค้นหา, สถานะ PDF และสถานะ UI
+  - ตัวแปร State กลาง (Singleton Container) เก็บ `roots` (พร้อมสถานะ `isLocked`, `permission`), `flat` (รายการโหนดทั้งหมด), `byPath` (Map ค้นหาโหนดด้วย path), `current` (โหนดปัจจุบัน), `blobUrls` (แคช Object URL เพื่อลด Memory Leak), สถานะการค้นหา, สถานะ PDF และสถานะ UI
 - **`fs.js`**:
+  - `checkRootPermission(rootObj)`: ตรวจสอบสถานะสิทธิ์การเข้าถึงของ Root Handle (`granted`, `prompt`, `denied`)
+  - `requestRootPermission(rootIdx)`: ขอสิทธิ์การเข้าถึงโฟลเดอร์จากเบราว์เซอร์ผ่าน User Gesture
   - `walkDirectory(dir, base, depth, out, rootIdx)`: เดินวนสแกนไฟล์และโฟลเดอร์แบบ Recursive (จำกัดความลึกสูงสุด 16 ชั้น)
-  - `rescanWorkspaces()`: สแกนทุก root workspace ใหม่และสร้างความสัมพันธ์ลำดับชั้น `parent` / `kids`
+  - `rescanWorkspaces()`: สแกนทุก root workspace ใหม่และสร้างความสัมพันธ์ลำดับชั้น `parent` / `kids` พร้อมรองรับโหนดที่ติดสถานะ Locked
   - `resolvePath(fromPath, rel)`: แปลง Relative Path ใน Markdown (เช่น `../img/pic.png`) ให้กลายเป็น Canonical Workspace Path ที่ถูกต้อง
   - `ensurePermission(node)`: ตรวจสอบและร้องขอสิทธิ์การอ่านไฟล์ซ้ำกรณี Chrome หมดสิทธิ์ชั่วคราว
 

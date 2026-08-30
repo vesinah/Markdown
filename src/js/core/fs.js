@@ -34,15 +34,54 @@ export function findFileByPath(path) {
   return null;
 }
 
+export async function checkRootPermission(rootObj) {
+  if (!rootObj || !rootObj.handle) return 'denied';
+  try {
+    const perm = await rootObj.handle.queryPermission({ mode: 'read' });
+    rootObj.permission = perm;
+    rootObj.isLocked = (perm !== 'granted');
+    return perm;
+  } catch (e) {
+    rootObj.permission = 'prompt';
+    rootObj.isLocked = true;
+    return 'prompt';
+  }
+}
+
+export async function requestRootPermission(rootIdx) {
+  const r = State.roots[rootIdx];
+  if (!r || !r.handle) return false;
+  try {
+    let perm = await r.handle.queryPermission({ mode: 'read' });
+    if (perm !== 'granted') {
+      perm = await r.handle.requestPermission({ mode: 'read' });
+    }
+    const ok = (perm === 'granted');
+    r.permission = perm;
+    r.isLocked = !ok;
+    return ok;
+  } catch (e) {
+    console.warn('requestRootPermission fail', r.name, e);
+    return false;
+  }
+}
+
 export async function ensurePermission(node) {
   if (!node) return true;
   if (node.rootIdx !== undefined && State.roots[node.rootIdx]) {
     const r = State.roots[node.rootIdx];
     try {
       let perm = await r.handle.queryPermission({ mode: 'read' });
-      if (perm === 'granted') return true;
+      if (perm === 'granted') {
+        r.isLocked = false;
+        r.permission = 'granted';
+        return true;
+      }
       perm = await r.handle.requestPermission({ mode: 'read' });
-      return perm === 'granted';
+      const granted = (perm === 'granted');
+      r.isLocked = !granted;
+      r.permission = perm;
+      return granted;
     } catch (e) {
       return false;
     }
@@ -68,13 +107,29 @@ export async function rescanWorkspaces() {
   out.byPath = new Map();
   for (let i = 0; i < State.roots.length; i++) {
     const r = State.roots[i];
-    const rootNode = { kind: 'root', name: r.name, path: r.name, handle: r.handle, depth: 0, kids: null, parent: null, rootIdx: i };
+    await checkRootPermission(r);
+    const rootNode = {
+      kind: 'root',
+      name: r.name,
+      path: r.name,
+      handle: r.handle,
+      depth: 0,
+      kids: null,
+      parent: null,
+      rootIdx: i,
+      isLocked: !!r.isLocked
+    };
     out.push(rootNode);
     out.byPath.set(r.name, rootNode);
-    try {
-      await walkDirectory(r.handle, r.name, 1, out, i);
-    } catch (err) {
-      console.warn('walk fail', r.name, err);
+
+    if (!r.isLocked) {
+      try {
+        await walkDirectory(r.handle, r.name, 1, out, i);
+      } catch (err) {
+        console.warn('walk fail', r.name, err);
+        r.isLocked = true;
+        rootNode.isLocked = true;
+      }
     }
   }
   for (const n of out) {

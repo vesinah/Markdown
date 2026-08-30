@@ -19,9 +19,11 @@ export function getFilterVisiblePaths(activeTypes) {
     }
   }
 
-  if (hasMatchingFile && State.roots) {
+  if (State.roots) {
     for (const r of State.roots) {
-      visible.add(r.name);
+      if (hasMatchingFile || r.isLocked) {
+        visible.add(r.name);
+      }
     }
   }
 

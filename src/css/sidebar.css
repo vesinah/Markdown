@@ -328,6 +328,7 @@ body.sb-closed #sb-resizer {
   padding: 2px 8px;
   font-size: 11.5px;
   max-width: 100%;
+  transition: all .15s ease;
 }
 .ws-chip b {
   overflow: hidden;
@@ -346,6 +347,21 @@ body.sb-closed #sb-resizer {
 }
 .ws-chip button:hover {
   color: #cf222e;
+}
+.ws-chip.locked {
+  background: rgba(234, 179, 8, 0.12);
+  border-color: rgba(234, 179, 8, 0.45);
+  color: var(--text);
+  cursor: pointer;
+}
+.ws-chip.locked:hover {
+  background: rgba(234, 179, 8, 0.22);
+  border-color: #ca8a04;
+}
+.ws-lock-icon {
+  font-size: 11px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .sb-tree {
@@ -379,6 +395,29 @@ body.sb-closed #sb-resizer {
 .node-row.hit {
   color: var(--accent);
   font-weight: 600;
+}
+.node-row.locked {
+  background: rgba(234, 179, 8, 0.08);
+  border: 1px dashed rgba(234, 179, 8, 0.4);
+  color: var(--text2);
+}
+.node-row.locked:hover {
+  background: rgba(234, 179, 8, 0.18);
+  border-color: #ca8a04;
+}
+.lock-tag {
+  font-size: 10.5px;
+  color: #b45309;
+  background: rgba(234, 179, 8, 0.2);
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+  font-weight: normal;
+  display: inline-block;
+}
+[data-theme="dark"] .lock-tag {
+  color: #fde047;
+  background: rgba(234, 179, 8, 0.25);
 }
 .node-row .twisty {
   width: 14px;
