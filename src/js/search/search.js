@@ -1,5 +1,5 @@
 import { State } from '../core/state.js';
-import { isMd, isDoc } from '../tree/tree-node.js';
+import { isMd, isCode, isDoc } from '../tree/tree-node.js';
 
 export const SearchEngine = {
   input: null,
@@ -81,7 +81,7 @@ export const SearchEngine = {
 
       for (const n of State.flat) {
         if (gen !== State.search.gen) return;
-        if (n.kind !== 'file' || !isMd(n.name)) continue;
+        if (n.kind !== 'file' || (!isMd(n.name) && !isCode(n.name))) continue;
         let txt = '';
         try {
           const fh = await n.handle.getFile();

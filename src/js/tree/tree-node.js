@@ -1,7 +1,8 @@
-export const isMd = n => /\.(md|markdown|mdown|mkdn|txt)$/i.test(n);
+export const isMd = n => /\.(md|markdown|mdown|mkdn)$/i.test(n);
 export const isPdf = n => /\.pdf$/i.test(n);
 export const isImg = n => /\.(png|jpe?g|gif|webp|svg|bmp|ico|avif)$/i.test(n);
-export const isDoc = n => isMd(n) || isPdf(n) || isImg(n);
+export const isCode = n => /\.(html?|xml|json|jsonld|txt|csv|tsv|ya?ml|ttl|rdf|py|js|ts|css|sh|bat|cmd|wikitext|log|ini|conf|toml)$/i.test(n) || (!/\.[a-zA-Z0-9]+$/i.test(n) && !n.startsWith('.'));
+export const isDoc = n => isMd(n) || isPdf(n) || isImg(n) || isCode(n);
 
 export const mimeByExt = { png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', gif: 'image/gif', webp: 'image/webp', svg: 'image/svg+xml', bmp: 'image/bmp', ico: 'image/x-icon', avif: 'image/avif' };
 

@@ -21,6 +21,7 @@
   font-weight: 700;
   line-height: 1.35;
   color: var(--text);
+  scroll-margin-top: 24px;
 }
 .markdown-body h1 { font-size: 2.1em; border-bottom: 1px solid var(--border); padding-bottom: .3em; }
 .markdown-body h2 { font-size: 1.6em; border-bottom: 1px solid var(--border2); padding-bottom: .25em; }
@@ -161,6 +162,11 @@
 .fn-back:hover {
   text-decoration: underline;
 }
+.fn-back-static {
+  font-weight: 700;
+  color: var(--text3);
+  margin-right: 6px;
+}
 .fn-back-arrow {
   color: var(--accent);
   text-decoration: none;
@@ -170,6 +176,25 @@
 }
 .fn-back-arrow:hover {
   transform: scale(1.2);
+}
+.fn-back-multi-wrap {
+  margin-left: 6px;
+  display: inline-block;
+}
+.fn-back-multi {
+  color: var(--accent);
+  text-decoration: none;
+  font-family: var(--font-base);
+  margin-left: 4px;
+  display: inline-block;
+}
+.fn-back-multi sup {
+  font-size: 0.78em;
+  font-weight: 600;
+}
+.fn-back-multi:hover {
+  text-decoration: underline;
+  transform: scale(1.15);
 }
 
 @keyframes fnPulse {

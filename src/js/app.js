@@ -1,10 +1,10 @@
 import { Store } from './core/store.js';
 import { State } from './core/state.js';
 import { rescanWorkspaces, ensurePermission, findFileByPath, resolvePath } from './core/fs.js';
-import { isMd, isPdf, isImg, isDoc, fmtBytes, esc } from './tree/tree-node.js';
+import { isMd, isPdf, isImg, isCode, isDoc, fmtBytes, esc } from './tree/tree-node.js';
 import { getFinalExpandedPaths, expandOnlyFinal, collapseAllTruly } from './tree/tree-exp.js';
 import { renderTree } from './tree/tree-ui.js';
-import { renderMarkdownContent } from './reader/markdown.js';
+import { renderMarkdownContent, renderCodeContent } from './reader/markdown.js';
 import { PDFViewer } from './reader/pdf-engine.js';
 import { ImageViewer } from './reader/img-engine.js';
 import { SearchEngine } from './search/search.js';
@@ -68,9 +68,11 @@ function updateStat(currentFile) {
   const nmd = files.filter(n => isMd(n.name)).length;
   const npdf = files.filter(n => isPdf(n.name)).length;
   const nimg = files.filter(n => isImg(n.name)).length;
+  const ncode = files.filter(n => isCode(n.name)).length;
 
   let info = `${nmd} .md · ${npdf} .pdf`;
   if (nimg) info += ` · ${nimg} รูปภาพ`;
+  if (ncode) info += ` · ${ncode} โค้ด/ข้อมูล`;
   
   if (currentFile) {
     D.stat.textContent = State.roots.length
@@ -130,10 +132,15 @@ export async function openFile(node, opt = {}) {
     } else if (isImg(node.name)) {
       switchView('img');
       ImageViewer.render(file, node);
-    } else {
+    } else if (isMd(node.name)) {
       switchView('md');
       const text = await file.text();
       await renderMarkdownContent(text, node, D.mdContent, D.tocPanel, D.tocList);
+      SearchEngine.highlightDoc();
+    } else {
+      switchView('md');
+      const text = await file.text();
+      await renderCodeContent(text, node, D.mdContent, D.tocPanel, D.tocList);
       SearchEngine.highlightDoc();
     }
 
