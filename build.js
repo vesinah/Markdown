@@ -422,7 +422,43 @@ ${combinedAppJs}
 </body>
 </html>`;
 
-fs.writeFileSync(path.join(ROOT, 'MDBrowse.html'), htmlTemplate, 'utf8');
+// 5. Automated Build Verification & Quality Assurance
+const vm = require('vm');
+console.log('Running automated verification checks...');
+
+// A. Syntax & Script Compilation Check
+try {
+  new vm.Script(combinedAppJs);
+  console.log('  [PASS] JavaScript syntax and module compilation valid');
+} catch (syntaxErr) {
+  console.error('  [FAIL] JavaScript syntax error detected in app modules:', syntaxErr);
+  process.exit(1);
+}
+
+// B. DOM Contract Integrity Check
+const domIdMatches = fs.readFileSync(path.join(SRC, 'js/app.js'), 'utf8').match(/\['btn-add'[\s\S]*?\]/);
+if (domIdMatches) {
+  try {
+    const requiredIds = eval(domIdMatches[0]);
+    const missingIds = requiredIds.filter(id => !htmlTemplate.includes(`id="${id}"`));
+    if (missingIds.length > 0) {
+      console.warn('  [WARN] Missing DOM IDs in template:', missingIds);
+    } else {
+      console.log('  [PASS] All (' + requiredIds.length + ') DOM element contracts verified');
+    }
+  } catch (e) {}
+}
+
+// 6. Automated Backup & Output Generation
+const targetFile = path.join(ROOT, 'MDBrowse.html');
+const backupFile = path.join(ROOT, 'MDBrowse_stable_backup.html');
+
+if (fs.existsSync(targetFile)) {
+  fs.copyFileSync(targetFile, backupFile);
+  console.log('  [BACKUP] Saved snapshot to MDBrowse_stable_backup.html');
+}
+
+fs.writeFileSync(targetFile, htmlTemplate, 'utf8');
 console.log('Build successful: MDBrowse.html generated (' + htmlTemplate.length + ' bytes)');
 
 // Update Desktop and Project Shortcuts

@@ -17,13 +17,13 @@ const D = {};
  'btn-filter-toggle', 'type-filter-dropdown',
  'btn-filter-all', 'btn-filter-none', 'btn-filter-reset',
  'btn-final', 'btn-collapse-all',
- 'sb-toggle', 'btn-toc-toggle-menu', 'sb-resizer', 'sidebar', 'reader-viewport', 'md-view',
+ 'sb-toggle', 'sb-resizer', 'sidebar', 'reader-viewport', 'md-view',
  'md-reader-container', 'md-ruler-bar', 'ruler-track', 'ruler-scale', 'ruler-handle-left', 'ruler-handle-right',
  'md-scroll-pane', 'margin-guide-left', 'margin-guide-right', 'md-content',
  'toc-panel', 'toc-header', 'toc-list', 'btn-toc-collapse', 'btn-toc-expand', 'toc-rail-list', 'toc-rail-logo',
  'pdf-view', 'pdf-frame',
  'img-view', 'img-preview-frame', 'img-meta-badge', 'empty-state',
- 'file-crumb', 'fs-dec', 'fs-inc', 'fs-reset', 'tx-color', 'tx-reset',
+ 'fs-dec', 'fs-inc', 'fs-reset', 'tx-color', 'tx-reset',
  'btn-theme-toggle', 'theme-tools-wrap', 'theme-tools-content',
  'btn-doc-info', 'doc-info-popover', 'doc-info-ext', 'doc-info-name', 'doc-info-type',
  'doc-info-path', 'doc-stat-words', 'doc-stat-chars', 'doc-stat-size', 'doc-stat-lines',
@@ -655,9 +655,29 @@ if (D.tocRailLogo && D.sbToggle) {
   });
 }
 
+export function factoryResetUI() {
+  State.ui.theme = 'light';
+  State.ui.fscale = 1;
+  State.ui.tx = '';
+  State.ui.sbWidth = 320;
+  State.ui.sbClosed = false;
+  State.ui.tocMini = false;
+  State.ui.padLeft = 60;
+  State.ui.padRight = 60;
+
+  document.body.classList.remove('sb-closed');
+  if (D.txColor) D.txColor.value = '#1f2328';
+  applyTheme(D.txColor);
+  RulerModule.setMargins(60, 60, false);
+  toggleTocMini(false);
+  updateSbToggleUI();
+  RulerModule.drawScale();
+  saveUi();
+}
+
 document.addEventListener('keydown', e => {
   // Ctrl + B: Toggle Sidebar
-  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'b') {
+  if ((e.ctrlKey || e.metaKey) && !e.altKey && !e.shiftKey && e.key.toLowerCase() === 'b') {
     e.preventDefault();
     if (D.sbToggle) D.sbToggle.click();
   }
@@ -665,6 +685,12 @@ document.addEventListener('keydown', e => {
   if ((e.altKey && e.key.toLowerCase() === 't') || ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 't')) {
     e.preventDefault();
     toggleTocMini();
+  }
+  // Ctrl + Alt + R (or Ctrl + Shift + Alt + R): Emergency Factory Reset
+  if ((e.ctrlKey || e.metaKey) && e.altKey && e.key.toLowerCase() === 'r') {
+    e.preventDefault();
+    factoryResetUI();
+    alert('รีเซ็ตการแสดงผลและระยะขอบทั้งหมดสู่ค่าเริ่มต้น (Factory Reset) เรียบร้อยแล้ว');
   }
 });
 

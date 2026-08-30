@@ -39,9 +39,14 @@ export const RulerModule = {
   },
 
   setMargins(padLeft, padRight, save = true) {
-    const l = (typeof padLeft === 'number' && !isNaN(padLeft)) ? Math.max(16, Math.round(padLeft)) : this.defaultPadLeft;
-    const r = (typeof padRight === 'number' && !isNaN(padRight)) ? Math.max(16, Math.round(padRight)) : this.defaultPadRight;
+    let l = (typeof padLeft === 'number' && !isNaN(padLeft)) ? Math.max(16, Math.round(padLeft)) : this.defaultPadLeft;
+    let r = (typeof padRight === 'number' && !isNaN(padRight)) ? Math.max(16, Math.round(padRight)) : this.defaultPadRight;
     
+    // Safety Upper Bound Guard: Margin per side shouldn't exceed 450px or 40% of screen
+    const maxMargin = Math.max(120, Math.floor((window.innerWidth || 1200) * 0.4));
+    l = Math.min(l, maxMargin);
+    r = Math.min(r, maxMargin);
+
     State.ui.padLeft = l;
     State.ui.padRight = r;
 
