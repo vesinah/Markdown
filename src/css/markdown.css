@@ -1,0 +1,182 @@
+/* ================= Markdown Typography & Footnotes ================= */
+.markdown-body {
+  font-family: var(--font-serif, "Noto Serif Thai", "Noto Serif", Georgia, serif);
+  font-size: calc(15.5px * var(--fscale, 1));
+  line-height: 1.8;
+  color: inherit;
+  margin: 0;
+  padding-left: var(--md-pad-left, 60px);
+  padding-right: var(--md-pad-right, 60px);
+  padding-top: 36px;
+  padding-bottom: 120px;
+  max-width: 100%;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3,
+.markdown-body h4, .markdown-body h5, .markdown-body h6 {
+  margin-top: 28px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--text);
+}
+.markdown-body h1 { font-size: 2.1em; border-bottom: 1px solid var(--border); padding-bottom: .3em; }
+.markdown-body h2 { font-size: 1.6em; border-bottom: 1px solid var(--border2); padding-bottom: .25em; }
+.markdown-body h3 { font-size: 1.3em; }
+.markdown-body h4 { font-size: 1.1em; }
+
+.markdown-body p { margin-top: 0; margin-bottom: 18px; }
+.markdown-body blockquote {
+  padding: 0.2em 1.2em;
+  color: var(--text2);
+  border-left: .28em solid var(--border);
+  margin: 0 0 18px 0;
+  background: var(--bg2);
+  border-radius: 0 6px 6px 0;
+}
+
+.markdown-body ul, .markdown-body ol {
+  padding-left: 2em;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+.markdown-body li + li { margin-top: .35em; }
+
+.markdown-body code {
+  font-family: var(--font-mono);
+  font-size: 88%;
+  background: var(--bg2);
+  padding: .2em .45em;
+  border-radius: 4px;
+  border: 1px solid var(--border2);
+}
+.markdown-body pre {
+  padding: 14px 18px;
+  overflow: auto;
+  font-size: calc(13.5px * var(--fscale, 1));
+  line-height: 1.5;
+  background: var(--bg2);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  margin-bottom: 18px;
+}
+.markdown-body pre code {
+  padding: 0;
+  background: transparent;
+  border: none;
+  font-size: inherit;
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-bottom: 18px;
+  width: 100%;
+}
+.markdown-body table th, .markdown-body table td {
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+}
+.markdown-body table tr:nth-child(2n) {
+  background: var(--bg2);
+}
+
+.markdown-body img {
+  max-width: 100%;
+  border-radius: 6px;
+  box-shadow: var(--shadow);
+}
+
+.markdown-body a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body mark {
+  background: var(--hl);
+  border-radius: 2px;
+  padding: 0 2px;
+  color: inherit;
+}
+.markdown-body mark.cur {
+  background: var(--hl2);
+  outline: 2px solid #d9a400;
+}
+
+/* Footnotes Styling */
+.fn-ref {
+  font-size: 0.78em;
+  line-height: 0;
+  vertical-align: super;
+  padding: 0 2px;
+}
+.fn-ref a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1px 3px;
+  border-radius: 3px;
+}
+.fn-ref a:hover {
+  background: var(--accent2);
+  text-decoration: underline;
+}
+
+.footnotes {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  font-size: calc(13.8px * var(--fscale, 1));
+  color: var(--text2);
+}
+.footnotes-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+.footnotes-list {
+  padding-left: 20px;
+  margin: 0;
+}
+.fn-item {
+  margin-bottom: 10px;
+  line-height: 1.65;
+  scroll-margin-top: 90px;
+  border-radius: 4px;
+  padding: 3px 6px;
+  transition: background .2s ease;
+}
+.fn-back {
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+  margin-right: 6px;
+}
+.fn-back:hover {
+  text-decoration: underline;
+}
+.fn-back-arrow {
+  color: var(--accent);
+  text-decoration: none;
+  font-family: var(--font-base);
+  margin-left: 6px;
+  display: inline-block;
+}
+.fn-back-arrow:hover {
+  transform: scale(1.2);
+}
+
+@keyframes fnPulse {
+  0% { background: var(--hl2); box-shadow: 0 0 0 4px var(--hl2); }
+  50% { background: var(--hl); box-shadow: 0 0 0 8px var(--hl); }
+  100% { background: transparent; box-shadow: none; }
+}
+.fn-flash {
+  animation: fnPulse 1.8s ease-out forwards;
+}

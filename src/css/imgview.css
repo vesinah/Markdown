@@ -1,0 +1,54 @@
+/* ================= Image Preview Engine ================= */
+#img-view {
+  flex: 1;
+  min-height: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  padding: 24px;
+  background: var(--bg3);
+  user-select: none;
+}
+#img-view[hidden] {
+  display: none !important;
+}
+
+.img-canvas-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  max-width: 100%;
+  overflow: auto;
+}
+
+#img-preview-frame {
+  max-width: 96%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  background: var(--bg);
+  cursor: zoom-in;
+  transition: transform .2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+#img-preview-frame.zoom-full {
+  max-width: none;
+  max-height: none;
+  cursor: zoom-out;
+}
+
+.img-meta-badge {
+  margin-top: 14px;
+  font-size: 12.5px;
+  color: var(--text2);
+  background: var(--bg);
+  padding: 5px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}

@@ -1,0 +1,129 @@
+/* ================= Interactive Ruler & Margin Guides ================= */
+.md-reader-container {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.md-ruler-bar {
+  height: 20px;
+  flex: none;
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border2);
+  position: relative;
+  user-select: none;
+  z-index: 8;
+  overflow: hidden;
+  opacity: 0.18;
+  transition: opacity 0.35s ease, background 0.2s ease;
+}
+
+.md-ruler-bar:hover,
+body.dragging-ruler .md-ruler-bar {
+  opacity: 1;
+}
+
+.ruler-track {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.ruler-scale {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.55;
+}
+
+.ruler-scale svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Thick Solid Line / Bar Marker */
+.ruler-handle {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  width: 16px;
+  cursor: ew-resize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transform: translateX(-50%);
+  transition: transform 0.15s;
+}
+
+.ruler-handle.left {
+  left: var(--md-pad-left, 60px);
+}
+
+.ruler-handle.right {
+  left: calc(100% - var(--md-pad-right, 60px));
+}
+
+.ruler-bar-handle {
+  width: 4px;
+  height: 14px;
+  background: var(--text3);
+  border-radius: 2px;
+  transition: width 0.15s, height 0.15s, background-color 0.15s, box-shadow 0.15s;
+}
+
+.ruler-handle:hover .ruler-bar-handle,
+.ruler-handle.dragging .ruler-bar-handle {
+  width: 6px;
+  height: 16px;
+  background: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent2);
+}
+
+.md-scroll-pane {
+  flex: 1;
+  min-width: 0;
+  overflow-y: auto;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+/* Margin Guide Lines */
+.margin-guide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  pointer-events: none;
+  z-index: 4;
+  opacity: 0;
+  border-left: 1.5px dashed var(--accent);
+  transition: opacity 0.3s ease;
+}
+
+.margin-guide.left {
+  left: var(--md-pad-left, 60px);
+}
+
+.margin-guide.right {
+  left: calc(100% - var(--md-pad-right, 60px));
+}
+
+/* Show subtle guide on ruler hover, and active guide during dragging */
+.md-ruler-bar:hover ~ .md-scroll-pane .margin-guide {
+  opacity: 0.25;
+}
+
+body.dragging-ruler .margin-guide {
+  opacity: 0.85;
+  border-left: 2px solid var(--accent);
+}

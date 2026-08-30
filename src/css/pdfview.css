@@ -1,0 +1,104 @@
+/* ================= PDF.js Canvas Engine & Toolbar ================= */
+#pdf-view {
+  flex: 1;
+  min-height: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg3);
+  overflow: hidden;
+}
+#pdf-view[hidden] {
+  display: none !important;
+}
+
+.pdf-toolbar {
+  height: 40px;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 0 16px;
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+  color: var(--text);
+  user-select: none;
+  z-index: 5;
+}
+
+.pdf-toolbar .btn-icon {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  cursor: pointer;
+  color: var(--text);
+  transition: all .15s;
+}
+.pdf-toolbar .btn-icon:hover {
+  background: var(--border2);
+}
+.pdf-toolbar .btn-icon:disabled {
+  opacity: .4;
+  cursor: not-allowed;
+}
+
+.pdf-page-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+#pdf-page-num {
+  width: 48px;
+  padding: 3px 6px;
+  text-align: center;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 13px;
+}
+
+.pdf-zoom-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+#pdf-zoom-val {
+  min-width: 48px;
+  text-align: center;
+  font-size: 12.5px;
+  color: var(--text2);
+}
+
+.pdf-canvas-container {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 20px;
+  background: var(--bg3);
+}
+
+.pdf-page-wrapper {
+  background: #ffffff;
+  box-shadow: var(--shadow);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 8px;
+  flex: none;
+}
+.pdf-page-wrapper canvas {
+  display: block;
+}
