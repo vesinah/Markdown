@@ -67,10 +67,13 @@ body.dragging-ruler .md-ruler-bar {
 
 .ruler-handle.left {
   left: var(--md-pad-left, 60px);
+  transform: translateX(-50%);
 }
 
 .ruler-handle.right {
-  left: calc(100% - var(--md-pad-right, 60px));
+  left: auto;
+  right: calc(var(--md-pad-right, 60px) + var(--md-sb-w, 0px));
+  transform: translateX(50%);
 }
 
 .ruler-bar-handle {
@@ -87,6 +90,34 @@ body.dragging-ruler .md-ruler-bar {
   height: 16px;
   background: var(--accent);
   box-shadow: 0 0 0 2px var(--accent2);
+}
+
+/* Live Ruler Tooltip */
+.ruler-tooltip {
+  position: absolute;
+  top: 24px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 3px 8px;
+  font-size: 11px;
+  font-family: var(--font-ui);
+  font-weight: 500;
+  box-shadow: var(--shadow);
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 50;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-50%) translateY(-2px);
+  transition: opacity 0.12s ease, transform 0.12s ease;
+}
+
+body.dragging-ruler .ruler-tooltip.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
 }
 
 .md-scroll-pane {
@@ -115,7 +146,8 @@ body.dragging-ruler .md-ruler-bar {
 }
 
 .margin-guide.right {
-  left: calc(100% - var(--md-pad-right, 60px));
+  left: auto;
+  right: calc(var(--md-pad-right, 60px) + var(--md-sb-w, 0px));
 }
 
 /* Show subtle guide on ruler hover, and active guide during dragging */
