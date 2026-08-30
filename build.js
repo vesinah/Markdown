@@ -477,15 +477,14 @@ foreach ($dir in $desktopPaths) {
         $sc1.Save()
         Write-Host "Updated shortcut: $lnk1"
 
-        # Also update 'MDBrowse.lnk' if present
-        $lnk2 = Join-Path $dir 'MDBrowse.lnk'
-        $sc2 = $WshShell.CreateShortcut($lnk2)
-        $sc2.TargetPath = '${chromePath.replace(/\\/g, '\\\\')}'
-        $sc2.Arguments = '--app=${targetHtml}'
-        $sc2.WorkingDirectory = '${ROOT.replace(/\\/g, '\\\\')}'
-        $sc2.IconLocation = '${iconPath.replace(/\\/g, '\\\\')},0'
-        $sc2.Description = 'มาร์คมาก — เครื่องมืออ่านไฟล์มาร์คดาวแบบง่าย ๆ'
-        $sc2.Save()
+        # Remove legacy 'MDBrowse.lnk' if present on desktop
+        if ($dir -ne '${ROOT.replace(/\\/g, '\\\\')}') {
+            $legacy = Join-Path $dir 'MDBrowse.lnk'
+            if (Test-Path $legacy) {
+                Remove-Item -Path $legacy -Force -ErrorAction SilentlyContinue
+                Write-Host "Cleaned legacy shortcut: $legacy"
+            }
+        }
     }
 }
 `;
