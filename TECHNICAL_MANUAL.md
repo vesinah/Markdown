@@ -84,7 +84,7 @@ graph TD
     const finalNodes = State.flat.filter(n => (n.kind === 'directory' || n.kind === 'root') && n.name.toLowerCase() === 'final');
     // เพิ่มเส้นทางของ final และบรรพบุรุษทุกระดับขึ้นไปจนถึง root เข้าสู่ State.expanded
     ```
-  - `collapseAllTruly()`: ล้าง `State.expanded` ทั้งหมด ทำให้ทุกโฟลเดอร์พับเก็บ 100%
+  - `collapseAllTruly()`: พับโฟลเดอร์ย่อยทั้งหมดให้เหลือขยายเฉพาะระดับ Root 1 ระดับ (โฟลเดอร์ย่อยข้างในถูกพับเก็บทั้งหมด)
 - **`tree-ui.js`**:
   - เรนเดอร์ DOM ของ Tree View แสดงไอคอน SVG เฉพาะตัวสำหรับ Markdown, PDF, Image และโฟลเดอร์ พร้อมการเยื้องระดับความลึกตามลำดับชั้น (`depth * 14px`)
 

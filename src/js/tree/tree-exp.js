@@ -57,6 +57,11 @@ export function expandOnlyFinal(saveWsCallback) {
 
 export function collapseAllTruly(saveWsCallback) {
   State.expanded.clear();
+  if (State.roots) {
+    for (const r of State.roots) {
+      State.expanded.add(r.name);
+    }
+  }
   State.collapsed.clear();
   if (saveWsCallback) saveWsCallback();
 }
