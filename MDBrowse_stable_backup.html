@@ -110,7 +110,7 @@ html, body {
   border: 1px solid var(--border);
   background: var(--bg);
   color: var(--text);
-  transition: all .15s ease;
+  transition: background-color .15s ease, border-color .15s ease, color .15s ease;
   user-select: none;
 }
 .btn:hover {
@@ -140,6 +140,23 @@ body.dragging-ruler {
 }
 body.resizing iframe, body.resizing canvas, body.dragging-ruler iframe, body.dragging-ruler canvas {
   pointer-events: none !important;
+}
+
+/* ================= Responsive ================= */
+@media (max-width: 768px) {
+  body:not(.sb-closed) {
+    --sbw: 100vw;
+  }
+  #sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 100;
+  }
+  body.sb-closed #sidebar {
+    pointer-events: none;
+  }
 }
 
 
@@ -239,10 +256,11 @@ html[data-theme="deepblue"] {
   position: relative;
   z-index: 10;
   font-family: var(--font-ui);
-  transition: margin-left .18s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform .18s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body.sb-closed #sidebar {
+  transform: translateX(-100%);
   margin-left: calc(-1 * var(--sbw, 320px));
 }
 
@@ -287,7 +305,7 @@ body.sb-closed #sb-resizer {
   line-height: 1;
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
-  transition: all .15s ease;
+  transition: background-color .15s ease, border-color .15s ease, transform .15s ease;
   user-select: none;
 }
 .sb-btn-add:hover {
@@ -345,7 +363,7 @@ body.sb-closed #sb-resizer {
   align-items: center;
   justify-content: center;
   padding: 0;
-  transition: all .15s ease;
+  transition: background-color .15s ease, color .15s ease;
 }
 .sb-filter-toggle-btn:hover {
   background: var(--border2);
@@ -464,7 +482,7 @@ body.sb-closed #sb-resizer {
   color: var(--text2);
   cursor: pointer;
   padding: 0;
-  transition: all .15s ease;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease, transform .15s ease;
 }
 
 .filter-action-btn:hover {
@@ -502,7 +520,7 @@ body.sb-closed #sb-resizer {
   padding: 3px 7px 3px 5px;
   cursor: pointer;
   user-select: none;
-  transition: all .12s ease;
+  transition: background-color .12s ease, border-color .12s ease;
 }
 
 .filter-chip:hover {
@@ -587,7 +605,7 @@ body.sb-closed #sb-resizer {
   cursor: pointer;
   padding: 0;
   flex: none;
-  transition: all .15s ease;
+  transition: background-color .15s ease, color .15s ease, transform .15s ease;
 }
 .btn-root-del:hover {
   background: rgba(207, 34, 46, 0.15);
@@ -746,7 +764,7 @@ body.sb-closed #sb-resizer {
   cursor: pointer;
   text-align: center;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-  transition: all .15s ease;
+  transition: background-color .15s ease, border-color .15s ease, color .15s ease;
   user-select: none;
 }
 .sb-action-btn:hover {
@@ -819,7 +837,7 @@ body.sb-closed #sb-resizer {
   font-size: 12px;
   font-weight: 500;
   cursor: pointer;
-  transition: all .15s ease;
+  transition: background-color .15s ease;
 }
 .mb-btn:hover {
   background: var(--border2);
@@ -839,7 +857,7 @@ body.sb-closed #sb-resizer {
   color: var(--text);
   cursor: pointer;
   flex: none;
-  transition: all .15s ease;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
 }
 #sb-toggle:hover {
   background: var(--border2);
@@ -941,7 +959,7 @@ body.sb-closed #sb-resizer {
   font-size: 11.5px;
   font-weight: 600;
   cursor: pointer;
-  transition: all .15s ease;
+  transition: background-color .15s ease, border-color .15s ease, color .15s ease, box-shadow .15s ease, transform .15s ease;
   user-select: none;
 }
 .theme-seg-btn:hover {
@@ -989,7 +1007,7 @@ body.sb-closed #sb-resizer {
   color: var(--text);
   cursor: pointer;
   font-family: var(--font-ui);
-  transition: all .15s ease;
+  transition: background-color .15s ease, border-color .15s ease, color .15s ease, box-shadow .15s ease;
   user-select: none;
   flex: none;
 }
@@ -1053,7 +1071,7 @@ body.sb-closed #sb-resizer {
   font-weight: 700;
   cursor: pointer;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-  transition: all .15s ease;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease, transform .15s ease, box-shadow .15s ease;
   user-select: none;
 }
 .doc-info-btn:hover {
@@ -1195,7 +1213,7 @@ body.sb-closed #sb-resizer {
   color: var(--text3);
   opacity: 0.45;
   cursor: pointer;
-  transition: all .15s ease;
+  transition: opacity .15s ease, background-color .15s ease, border-color .15s ease, color .15s ease, box-shadow .15s ease;
 }
 .doc-copy-btn:hover {
   opacity: 1;
@@ -1249,6 +1267,7 @@ body.sb-closed #sb-resizer {
 #reader-viewport {
   flex: 1;
   min-height: 0;
+  min-width: 0;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -1258,6 +1277,7 @@ body.sb-closed #sb-resizer {
   flex: 1;
   display: flex;
   min-height: 0;
+  min-width: 0;
   height: 100%;
 }
 #md-view[hidden] {
@@ -1321,7 +1341,7 @@ body.sb-closed #sb-resizer {
   color: var(--text2);
   cursor: pointer;
   padding: 0;
-  transition: all .15s ease;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
 }
 .toc-collapse-btn:hover {
   background: var(--border2);
@@ -1348,7 +1368,7 @@ body.sb-closed #sb-resizer {
   border-radius: 0 6px 6px 0;
   line-height: 1.45;
   text-wrap: balance;
-  transition: all .1s ease;
+  transition: color .1s ease, background-color .1s ease, border-color .1s ease;
   cursor: pointer;
 }
 #toc-full-view a:hover {
@@ -1408,7 +1428,7 @@ body.sb-closed #sb-resizer {
   padding: 0;
   margin-bottom: 10px;
   flex: none;
-  transition: all .15s ease;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease, transform .15s ease;
 }
 .toc-expand-btn:hover {
   background: var(--border2);
@@ -1478,7 +1498,7 @@ body.sb-closed .toc-rail-logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all .15s ease;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease, transform .15s ease, box-shadow .15s ease;
 }
 
 .rail-btn-h2 {
@@ -1493,7 +1513,7 @@ body.sb-closed .toc-rail-logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all .15s ease;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease, transform .15s ease;
 }
 
 .rail-dot {
@@ -1502,7 +1522,7 @@ body.sb-closed .toc-rail-logo {
   border-radius: 50%;
   background: var(--text3);
   opacity: 0.6;
-  transition: all .15s ease;
+  transition: background-color .15s ease, opacity .15s ease, transform .15s ease, box-shadow .15s ease;
 }
 
 .rail-item:hover .rail-btn-h1,
@@ -3734,7 +3754,7 @@ const Store = {
       } else {
         localStorage.setItem('mdbrowse_' + key, JSON.stringify(val));
       }
-    } catch (e) {}
+    } catch (e) { console.warn('[store] localStorage set failed:', e.message); }
 
     return new Promise(res => {
       if (!Store.db) return res(false);
@@ -3753,7 +3773,7 @@ const Store = {
     try {
       localStorage.removeItem('mdbrowse_' + key);
       if (key === 'workspace') localStorage.removeItem('mdbrowse_workspace_meta');
-    } catch (e) {}
+    } catch (e) { console.warn('[store] localStorage remove failed:', e.message); }
 
     return new Promise(res => {
       if (!Store.db) return res(false);
@@ -3876,7 +3896,7 @@ function joinPath(base, name) {
 }
 
 function resolvePath(fromPath, rel) {
-  try { rel = decodeURIComponent(rel); } catch (e) {}
+  try { rel = decodeURIComponent(rel); } catch (e) { console.warn('[fs] decodeURIComponent failed:', e.message); }
   const i = fromPath.indexOf(sep);
   const rootName = i < 0 ? fromPath : fromPath.slice(0, i);
   let parts;
@@ -4182,6 +4202,23 @@ function renderTree(container) {
 
 
 
+/**
+ * Preprocesses Markdown text to extract and render footnote definitions.
+ * 
+ * Supports multiple footnote syntaxes:
+ * - Standard: `[^id]: text` 
+ * - Bracket-colon: `[id]: text`
+ * - Bracket-space: `[id] text`
+ * - List-prefixed: `- [id]: text` or `1. [id]: text`
+ * - Multiline: indented continuation lines
+ * - Comma-separated refs: `[1, 2, 3]`
+ * 
+ * Also handles fenced code block detection to avoid false positives.
+ * 
+ * @param {string} text - Raw Markdown text to process
+ * @returns {string} Processed text with footnote references converted to HTML 
+ *   superscript links and a footnotes section appended at the end
+ */
 function preprocessFootnotes(text) {
   if (!text) return '';
   // 1. Normalize line endings (CRLF / CR -> LF) to support Windows line breaks
@@ -4345,6 +4382,12 @@ function preprocessFootnotes(text) {
   return processedBody + fnSection;
 }
 
+/**
+ * Enhances footnote interactivity by adding smooth scroll and flash animation
+ * to all footnote reference and back-reference links within the container.
+ * 
+ * @param {HTMLElement} container - DOM element containing rendered footnotes
+ */
 function enhanceFootnotes(container) {
   container.querySelectorAll('.fn-ref a[href^="#"]').forEach(a => {
     a.addEventListener('click', e => {
@@ -4537,15 +4580,20 @@ async function renderMarkdownContent(text, node, contentEl, tocPanel, tocList) {
   if (window.marked) {
     window.marked.setOptions({ gfm: true, breaks: true });
     const html = window.marked.parse(text);
-    const clean = window.DOMPurify ? window.DOMPurify.sanitize(html, { ADD_ATTR: ['target', 'data-fn', 'data-fnref'], FORBID_TAGS: ['style', 'form'] }) : html;
-    contentEl.innerHTML = clean;
+    if (!window.DOMPurify) {
+      contentEl.textContent = text;
+      console.warn('[markdown] DOMPurify not available, rendering as plain text for safety');
+    } else {
+      const clean = window.DOMPurify.sanitize(html, { ADD_ATTR: ['target', 'data-fn', 'data-fnref'], FORBID_TAGS: ['style', 'form'] });
+      contentEl.innerHTML = clean;
+    }
   } else {
     contentEl.textContent = text;
   }
 
   if (window.hljs) {
     contentEl.querySelectorAll('pre code').forEach(el => {
-      try { window.hljs.highlightElement(el); } catch (e) {}
+      try { window.hljs.highlightElement(el); } catch (e) { console.warn('[highlight] Failed:', e.message); }
     });
   }
 
@@ -4591,7 +4639,7 @@ async function renderMarkdownContent(text, node, contentEl, tocPanel, tocList) {
         ],
         throwOnError: false,
       });
-    } catch (e) {}
+    } catch (e) { console.warn('[katex] renderMath failed:', e.message); }
   }
 
   for (const img of contentEl.querySelectorAll('img.img-internal')) {
@@ -4624,47 +4672,40 @@ async function renderCodeContent(text, node, contentEl, tocPanel, tocList) {
   if (text && text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
 
   const ext = node.name.includes('.') ? node.name.split('.').pop().toLowerCase() : '';
-  let lang = 'plaintext';
-  let langLabel = 'Plain Text';
   let displayContent = text;
 
-  if (ext === 'json' || ext === 'jsonld') {
+  const LANG_MAP = new Map([
+    ['json',   { lang: 'json',       label: 'JSON' }],
+    ['jsonld', { lang: 'json',       label: 'JSON' }],
+    ['xml',    { lang: 'xml',        label: 'XML' }],
+    ['rdf',    { lang: 'xml',        label: 'XML' }],
+    ['html',   { lang: 'xml',        label: 'HTML' }],
+    ['htm',    { lang: 'xml',        label: 'HTML' }],
+    ['py',     { lang: 'python',     label: 'Python' }],
+    ['js',     { lang: 'javascript', label: 'JavaScript' }],
+    ['ts',     { lang: 'javascript', label: 'JavaScript' }],
+    ['css',    { lang: 'css',        label: 'CSS' }],
+    ['yaml',   { lang: 'yaml',       label: 'YAML' }],
+    ['yml',    { lang: 'yaml',       label: 'YAML' }],
+    ['ttl',    { lang: 'plaintext',  label: 'Turtle (TTL)' }],
+    ['csv',    { lang: 'plaintext',  label: 'CSV' }],
+    ['tsv',    { lang: 'plaintext',  label: 'TSV' }],
+    ['txt',    { lang: 'plaintext',  label: 'Text' }],
+  ]);
+
+  const langInfo = LANG_MAP.get(ext) || { lang: 'plaintext', label: 'Plain Text' };
+  let lang = langInfo.lang;
+  let langLabel = langInfo.label;
+
+  if ((ext === 'json' || ext === 'jsonld') && text) {
     lang = 'json';
     langLabel = 'JSON';
     try {
       const parsed = JSON.parse(text);
       displayContent = JSON.stringify(parsed, null, 2);
-    } catch (e) {}
-  } else if (ext === 'xml' || ext === 'rdf') {
-    lang = 'xml';
-    langLabel = 'XML';
-  } else if (ext === 'html' || ext === 'htm') {
-    lang = 'xml';
-    langLabel = 'HTML';
-  } else if (ext === 'py') {
-    lang = 'python';
-    langLabel = 'Python';
-  } else if (ext === 'js' || ext === 'ts') {
-    lang = 'javascript';
-    langLabel = 'JavaScript';
-  } else if (ext === 'css') {
-    lang = 'css';
-    langLabel = 'CSS';
-  } else if (ext === 'yaml' || ext === 'yml') {
-    lang = 'yaml';
-    langLabel = 'YAML';
-  } else if (ext === 'ttl') {
-    lang = 'plaintext';
-    langLabel = 'Turtle (TTL)';
-  } else if (ext === 'csv') {
-    lang = 'plaintext';
-    langLabel = 'CSV';
-  } else if (ext === 'tsv') {
-    lang = 'plaintext';
-    langLabel = 'TSV';
-  } else if (ext === 'txt') {
-    lang = 'plaintext';
-    langLabel = 'Text';
+    } catch (e) {
+      console.warn('[code] JSON parse failed:', e.message);
+    }
   }
 
   const linesCount = displayContent.split('\n').length;
@@ -4700,7 +4741,7 @@ async function renderCodeContent(text, node, contentEl, tocPanel, tocList) {
   if (codeEl && window.hljs) {
     try {
       window.hljs.highlightElement(codeEl);
-    } catch (e) {}
+    } catch (e) { console.warn('[highlight] Code highlight failed:', e.message); }
   }
 }
 
@@ -4794,6 +4835,8 @@ const ImageViewer = {
 
 
 
+const MAX_TEXT_CACHE = 200;
+
 const SearchEngine = {
   input: null,
   contentCheckbox: null,
@@ -4804,6 +4847,14 @@ const SearchEngine = {
 
   clearCache() {
     this.textCache.clear();
+  },
+
+  _cacheText(path, txt) {
+    if (this.textCache.size >= MAX_TEXT_CACHE) {
+      const oldest = this.textCache.keys().next().value;
+      this.textCache.delete(oldest);
+    }
+    this.textCache.set(path, txt);
   },
 
   init(input, contentCheckbox, infoEl, contentEl, onTreeUpdate) {
@@ -4876,11 +4927,11 @@ const SearchEngine = {
       const fh = await node.handle.getFile();
       if (isPdf(node.name)) {
         const txt = await this.extractPdfText(fh, gen);
-        if (txt) this.textCache.set(node.path, txt);
+        if (txt) this._cacheText(node.path, txt);
         return txt;
       } else if (isMd(node.name) || isCode(node.name)) {
         const txt = await fh.text();
-        this.textCache.set(node.path, txt);
+        this._cacheText(node.path, txt);
         return txt;
       }
     } catch (e) {
@@ -4890,11 +4941,11 @@ const SearchEngine = {
   },
 
   async run() {
-    const q = this.input.value.trim();
-    State.search.q = q;
+    const query = this.input.value.trim();
+    State.search.q = query;
     State.search.content = this.contentCheckbox.checked;
 
-    if (!q) {
+    if (!query) {
       State.search.hits = [];
       State.search.fileHits = new Set();
       State.search.inDoc = [];
@@ -4908,11 +4959,11 @@ const SearchEngine = {
     }
 
     const gen = ++State.search.gen;
-    const lc = q.toLowerCase();
+    const lowerQuery = query.toLowerCase();
     const nameHits = [];
 
     for (const n of State.flat) {
-      if (n.kind === 'file' && isFileAllowedByFilter(n.name, State.filters && State.filters.types) && n.name.toLowerCase().includes(lc)) {
+      if (n.kind === 'file' && isFileAllowedByFilter(n.name, State.filters && State.filters.types) && n.name.toLowerCase().includes(lowerQuery)) {
         nameHits.push(n.path);
       }
     }
@@ -4941,7 +4992,7 @@ const SearchEngine = {
           txt = await this.getFileText(n, gen);
         } catch (e) { continue; }
         if (gen !== State.search.gen) return;
-        if (txt && txt.toLowerCase().includes(lc)) matched.push(n.path);
+        if (txt && txt.toLowerCase().includes(lowerQuery)) matched.push(n.path);
       }
       if (gen !== State.search.gen) return;
       State.search.hits = matched;
@@ -5019,7 +5070,7 @@ const SearchEngine = {
           if (str.includes(ql)) {
             matchingPages.push(p);
           }
-        } catch (e) {}
+        } catch (e) { console.warn('[search] PDF page text extraction failed:', e.message); }
       }
       State.search.pdfMatchingPages = matchingPages;
       State.search.pdfMatchIdx = matchingPages.length > 0 ? 0 : -1;
@@ -5448,13 +5499,17 @@ function updateStat(currentFile) {
   const allDocFiles = State.flat.filter(n => n.kind === 'file' && isDoc(n.name));
   const filteredFiles = allDocFiles.filter(n => isFileAllowedByFilter(n.name, State.filters && State.filters.types));
   const dirs = State.flat.filter(n => n.kind === 'directory');
-  const nmd = filteredFiles.filter(n => isMd(n.name)).length;
-  const npdf = filteredFiles.filter(n => isPdf(n.name)).length;
-  const nimg = filteredFiles.filter(n => isImg(n.name)).length;
-  const ntxt = filteredFiles.filter(n => isTxt(n.name)).length;
-  const nhtml = filteredFiles.filter(n => isHtml(n.name)).length;
-  const nxml = filteredFiles.filter(n => isXml(n.name)).length;
-  const nrdf = filteredFiles.filter(n => isRdf(n.name)).length;
+  let nmd = 0, npdf = 0, nimg = 0, ntxt = 0, nhtml = 0, nxml = 0, nrdf = 0;
+  for (const n of filteredFiles) {
+    const name = n.name;
+    if (isMd(name)) nmd++;
+    else if (isPdf(name)) npdf++;
+    else if (isImg(name)) nimg++;
+    else if (isTxt(name)) ntxt++;
+    else if (isHtml(name)) nhtml++;
+    else if (isXml(name)) nxml++;
+    else if (isRdf(name)) nrdf++;
+  }
   const total = filteredFiles.length;
 
   const statTitle = document.getElementById('stat-title');
@@ -5694,7 +5749,7 @@ async function addFolder() {
   try {
     const h = await window.showDirectoryPicker({ mode: 'read' });
     for (const r of State.roots) {
-      try { if (await r.handle.isSameEntry(h)) return; } catch (e) {}
+      try { if (await r.handle.isSameEntry(h)) return; } catch (e) { console.warn('[app] isSameEntry check failed:', e.message); }
     }
     State.roots.push({ handle: h, name: h.name, addedAt: Date.now(), isLocked: false, permission: 'granted' });
     await rescanWorkspaces();
@@ -5803,7 +5858,7 @@ if (D.btnCopyPath) {
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(path).catch(() => {});
       }
-    } catch (err) {}
+    } catch (err) { console.warn('[app] Clipboard write failed:', err.message); }
 
     const btn = D.btnCopyPath;
     const origHTML = btn.innerHTML;
@@ -6033,7 +6088,7 @@ D.mdContent.addEventListener('click', async e => {
       const url = URL.createObjectURL(file);
       window.open(url, '_blank');
       setTimeout(() => URL.revokeObjectURL(url), 60000);
-    } catch (err) {}
+    } catch (err) { console.warn('[app] Failed to open file in new tab:', err.message); }
     return;
   }
   alert('หาไฟล์ปลายทางไม่พบ: ' + href);

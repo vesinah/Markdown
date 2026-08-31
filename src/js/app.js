@@ -128,13 +128,17 @@ function updateStat(currentFile) {
   const allDocFiles = State.flat.filter(n => n.kind === 'file' && isDoc(n.name));
   const filteredFiles = allDocFiles.filter(n => isFileAllowedByFilter(n.name, State.filters && State.filters.types));
   const dirs = State.flat.filter(n => n.kind === 'directory');
-  const nmd = filteredFiles.filter(n => isMd(n.name)).length;
-  const npdf = filteredFiles.filter(n => isPdf(n.name)).length;
-  const nimg = filteredFiles.filter(n => isImg(n.name)).length;
-  const ntxt = filteredFiles.filter(n => isTxt(n.name)).length;
-  const nhtml = filteredFiles.filter(n => isHtml(n.name)).length;
-  const nxml = filteredFiles.filter(n => isXml(n.name)).length;
-  const nrdf = filteredFiles.filter(n => isRdf(n.name)).length;
+  let nmd = 0, npdf = 0, nimg = 0, ntxt = 0, nhtml = 0, nxml = 0, nrdf = 0;
+  for (const n of filteredFiles) {
+    const name = n.name;
+    if (isMd(name)) nmd++;
+    else if (isPdf(name)) npdf++;
+    else if (isImg(name)) nimg++;
+    else if (isTxt(name)) ntxt++;
+    else if (isHtml(name)) nhtml++;
+    else if (isXml(name)) nxml++;
+    else if (isRdf(name)) nrdf++;
+  }
   const total = filteredFiles.length;
 
   const statTitle = document.getElementById('stat-title');
@@ -374,7 +378,7 @@ async function addFolder() {
   try {
     const h = await window.showDirectoryPicker({ mode: 'read' });
     for (const r of State.roots) {
-      try { if (await r.handle.isSameEntry(h)) return; } catch (e) {}
+      try { if (await r.handle.isSameEntry(h)) return; } catch (e) { console.warn('[app] isSameEntry check failed:', e.message); }
     }
     State.roots.push({ handle: h, name: h.name, addedAt: Date.now(), isLocked: false, permission: 'granted' });
     await rescanWorkspaces();
@@ -483,7 +487,7 @@ if (D.btnCopyPath) {
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(path).catch(() => {});
       }
-    } catch (err) {}
+    } catch (err) { console.warn('[app] Clipboard write failed:', err.message); }
 
     const btn = D.btnCopyPath;
     const origHTML = btn.innerHTML;
@@ -713,7 +717,7 @@ D.mdContent.addEventListener('click', async e => {
       const url = URL.createObjectURL(file);
       window.open(url, '_blank');
       setTimeout(() => URL.revokeObjectURL(url), 60000);
-    } catch (err) {}
+    } catch (err) { console.warn('[app] Failed to open file in new tab:', err.message); }
     return;
   }
   alert('หาไฟล์ปลายทางไม่พบ: ' + href);

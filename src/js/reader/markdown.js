@@ -13,15 +13,20 @@ export async function renderMarkdownContent(text, node, contentEl, tocPanel, toc
   if (window.marked) {
     window.marked.setOptions({ gfm: true, breaks: true });
     const html = window.marked.parse(text);
-    const clean = window.DOMPurify ? window.DOMPurify.sanitize(html, { ADD_ATTR: ['target', 'data-fn', 'data-fnref'], FORBID_TAGS: ['style', 'form'] }) : html;
-    contentEl.innerHTML = clean;
+    if (!window.DOMPurify) {
+      contentEl.textContent = text;
+      console.warn('[markdown] DOMPurify not available, rendering as plain text for safety');
+    } else {
+      const clean = window.DOMPurify.sanitize(html, { ADD_ATTR: ['target', 'data-fn', 'data-fnref'], FORBID_TAGS: ['style', 'form'] });
+      contentEl.innerHTML = clean;
+    }
   } else {
     contentEl.textContent = text;
   }
 
   if (window.hljs) {
     contentEl.querySelectorAll('pre code').forEach(el => {
-      try { window.hljs.highlightElement(el); } catch (e) {}
+      try { window.hljs.highlightElement(el); } catch (e) { console.warn('[highlight] Failed:', e.message); }
     });
   }
 
@@ -67,7 +72,7 @@ export async function renderMarkdownContent(text, node, contentEl, tocPanel, toc
         ],
         throwOnError: false,
       });
-    } catch (e) {}
+    } catch (e) { console.warn('[katex] renderMath failed:', e.message); }
   }
 
   for (const img of contentEl.querySelectorAll('img.img-internal')) {
@@ -100,47 +105,40 @@ export async function renderCodeContent(text, node, contentEl, tocPanel, tocList
   if (text && text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
 
   const ext = node.name.includes('.') ? node.name.split('.').pop().toLowerCase() : '';
-  let lang = 'plaintext';
-  let langLabel = 'Plain Text';
   let displayContent = text;
 
-  if (ext === 'json' || ext === 'jsonld') {
+  const LANG_MAP = new Map([
+    ['json',   { lang: 'json',       label: 'JSON' }],
+    ['jsonld', { lang: 'json',       label: 'JSON' }],
+    ['xml',    { lang: 'xml',        label: 'XML' }],
+    ['rdf',    { lang: 'xml',        label: 'XML' }],
+    ['html',   { lang: 'xml',        label: 'HTML' }],
+    ['htm',    { lang: 'xml',        label: 'HTML' }],
+    ['py',     { lang: 'python',     label: 'Python' }],
+    ['js',     { lang: 'javascript', label: 'JavaScript' }],
+    ['ts',     { lang: 'javascript', label: 'JavaScript' }],
+    ['css',    { lang: 'css',        label: 'CSS' }],
+    ['yaml',   { lang: 'yaml',       label: 'YAML' }],
+    ['yml',    { lang: 'yaml',       label: 'YAML' }],
+    ['ttl',    { lang: 'plaintext',  label: 'Turtle (TTL)' }],
+    ['csv',    { lang: 'plaintext',  label: 'CSV' }],
+    ['tsv',    { lang: 'plaintext',  label: 'TSV' }],
+    ['txt',    { lang: 'plaintext',  label: 'Text' }],
+  ]);
+
+  const langInfo = LANG_MAP.get(ext) || { lang: 'plaintext', label: 'Plain Text' };
+  let lang = langInfo.lang;
+  let langLabel = langInfo.label;
+
+  if ((ext === 'json' || ext === 'jsonld') && text) {
     lang = 'json';
     langLabel = 'JSON';
     try {
       const parsed = JSON.parse(text);
       displayContent = JSON.stringify(parsed, null, 2);
-    } catch (e) {}
-  } else if (ext === 'xml' || ext === 'rdf') {
-    lang = 'xml';
-    langLabel = 'XML';
-  } else if (ext === 'html' || ext === 'htm') {
-    lang = 'xml';
-    langLabel = 'HTML';
-  } else if (ext === 'py') {
-    lang = 'python';
-    langLabel = 'Python';
-  } else if (ext === 'js' || ext === 'ts') {
-    lang = 'javascript';
-    langLabel = 'JavaScript';
-  } else if (ext === 'css') {
-    lang = 'css';
-    langLabel = 'CSS';
-  } else if (ext === 'yaml' || ext === 'yml') {
-    lang = 'yaml';
-    langLabel = 'YAML';
-  } else if (ext === 'ttl') {
-    lang = 'plaintext';
-    langLabel = 'Turtle (TTL)';
-  } else if (ext === 'csv') {
-    lang = 'plaintext';
-    langLabel = 'CSV';
-  } else if (ext === 'tsv') {
-    lang = 'plaintext';
-    langLabel = 'TSV';
-  } else if (ext === 'txt') {
-    lang = 'plaintext';
-    langLabel = 'Text';
+    } catch (e) {
+      console.warn('[code] JSON parse failed:', e.message);
+    }
   }
 
   const linesCount = displayContent.split('\n').length;
@@ -176,6 +174,6 @@ export async function renderCodeContent(text, node, contentEl, tocPanel, tocList
   if (codeEl && window.hljs) {
     try {
       window.hljs.highlightElement(codeEl);
-    } catch (e) {}
+    } catch (e) { console.warn('[highlight] Code highlight failed:', e.message); }
   }
 }

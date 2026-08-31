@@ -8,7 +8,7 @@ export function joinPath(base, name) {
 }
 
 export function resolvePath(fromPath, rel) {
-  try { rel = decodeURIComponent(rel); } catch (e) {}
+  try { rel = decodeURIComponent(rel); } catch (e) { console.warn('[fs] decodeURIComponent failed:', e.message); }
   const i = fromPath.indexOf(sep);
   const rootName = i < 0 ? fromPath : fromPath.slice(0, i);
   let parts;

@@ -80,7 +80,7 @@ html, body {
   border: 1px solid var(--border);
   background: var(--bg);
   color: var(--text);
-  transition: all .15s ease;
+  transition: background-color .15s ease, border-color .15s ease, color .15s ease;
   user-select: none;
 }
 .btn:hover {
@@ -110,4 +110,21 @@ body.dragging-ruler {
 }
 body.resizing iframe, body.resizing canvas, body.dragging-ruler iframe, body.dragging-ruler canvas {
   pointer-events: none !important;
+}
+
+/* ================= Responsive ================= */
+@media (max-width: 768px) {
+  body:not(.sb-closed) {
+    --sbw: 100vw;
+  }
+  #sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 100;
+  }
+  body.sb-closed #sidebar {
+    pointer-events: none;
+  }
 }

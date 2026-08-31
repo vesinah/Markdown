@@ -81,7 +81,7 @@ export const Store = {
       } else {
         localStorage.setItem('mdbrowse_' + key, JSON.stringify(val));
       }
-    } catch (e) {}
+    } catch (e) { console.warn('[store] localStorage set failed:', e.message); }
 
     return new Promise(res => {
       if (!Store.db) return res(false);
@@ -100,7 +100,7 @@ export const Store = {
     try {
       localStorage.removeItem('mdbrowse_' + key);
       if (key === 'workspace') localStorage.removeItem('mdbrowse_workspace_meta');
-    } catch (e) {}
+    } catch (e) { console.warn('[store] localStorage remove failed:', e.message); }
 
     return new Promise(res => {
       if (!Store.db) return res(false);

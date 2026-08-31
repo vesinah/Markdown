@@ -1,5 +1,22 @@
 import { esc } from '../tree/tree-node.js';
 
+/**
+ * Preprocesses Markdown text to extract and render footnote definitions.
+ * 
+ * Supports multiple footnote syntaxes:
+ * - Standard: `[^id]: text` 
+ * - Bracket-colon: `[id]: text`
+ * - Bracket-space: `[id] text`
+ * - List-prefixed: `- [id]: text` or `1. [id]: text`
+ * - Multiline: indented continuation lines
+ * - Comma-separated refs: `[1, 2, 3]`
+ * 
+ * Also handles fenced code block detection to avoid false positives.
+ * 
+ * @param {string} text - Raw Markdown text to process
+ * @returns {string} Processed text with footnote references converted to HTML 
+ *   superscript links and a footnotes section appended at the end
+ */
 export function preprocessFootnotes(text) {
   if (!text) return '';
   // 1. Normalize line endings (CRLF / CR -> LF) to support Windows line breaks
@@ -163,6 +180,12 @@ export function preprocessFootnotes(text) {
   return processedBody + fnSection;
 }
 
+/**
+ * Enhances footnote interactivity by adding smooth scroll and flash animation
+ * to all footnote reference and back-reference links within the container.
+ * 
+ * @param {HTMLElement} container - DOM element containing rendered footnotes
+ */
 export function enhanceFootnotes(container) {
   container.querySelectorAll('.fn-ref a[href^="#"]').forEach(a => {
     a.addEventListener('click', e => {

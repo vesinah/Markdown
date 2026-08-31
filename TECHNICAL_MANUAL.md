@@ -54,7 +54,7 @@ graph TD
 ### 3.1 Core Subsystem (`src/js/core/`)
 - **`store.js`**:
   - **สถาปัตยกรรม Dual-Storage Engine**: ครอบ IndexedDB ฐานข้อมูลชื่อ `mdbrowse_v2` อ็อบเจกต์สโตร์ `kv` ควบคู่กับระบบสำรองข้อมูลอัตโนมัติลงใน **LocalStorage JSON Backup** (`mdbrowse_workspace_meta`, `mdbrowse_ui`, `mdbrowse_filters`, `mdbrowse_lastFile`)
-  - ฟังก์ชันทั้งหมดทำงานแบบ Asynchronous Promise 100%
+  - ฟังก์ชันทั้งหมดทำงานแบบ Asynchronous Promise 100% พร้อม `console.warn` ในทุก Error Path เพื่อช่วยในการ Debug
   - มีฟังก์ชัน `exportJson()` สำหรับดึงข้อมูลคอนฟิกทั้งหมดออกมาเป็น JSON
   - คีย์หลัก:
     - `workspace`: เก็บอาเรย์ของ Workspace Handles ทั้งหมดโดยไม่ตัดทิ้ง (`roots`), รายการโฟลเดอร์ที่ขยาย (`expanded`) และพับ (`collapsed`)
@@ -96,11 +96,12 @@ graph TD
     1. ตัด Frontmatter (`---`) ออกจากส่วนหัวข้อความ
     2. ประมวลผลเชิงอรรถผ่าน `preprocessFootnotes(text)`
     3. แปลงเป็น HTML ด้วย `marked.js` (เปิดโหมด GFM + breaks)
-    4. ฆ่าเชื้อโค้ดไม่ปลอดภัยด้วย `DOMPurify`
+    4. ฆ่าเชื้อโค้ดไม่ปลอดภัยด้วย `DOMPurify` — **หาก DOMPurify ไม่พร้อมใช้งาน จะ fallback เป็น Plain Text โดยอัตโนมัติเพื่อป้องกัน XSS** (`console.warn` แจ้งเตือน)
     5. ไฮไลต์ไวยากรณ์บล็อกโค้ดด้วย `highlight.js`
     6. คำนวณ Heading IDs และสร้างสารบัญ (`buildToc`)
     7. เรนเดอร์สมการคณิตศาสตร์ด้วย `KaTeX auto-render` (รองรับ `$$`, `$`, `\[`, `\(`)
     8. โหลดรูปภาพ Relative Path ภายในเครื่องอัตโนมัติผ่าน Blob URL แคช
+  - **Code Viewer** (`renderCodeContent`): ตรวจจับภาษาผ่าน `LANG_MAP` (Map lookup) รองรับ 16 นามสกุล (json, xml, html, py, js, ts, css, yaml, ttl, csv, tsv, txt ฯลฯ) พร้อม JSON pretty-print อัตโนมัติ
 - **`footnotes.js`**:
   - รองรับรูปแบบเชิงอรรถทั้ง `[1]`, `[01]`, `[^1]`, `[xx]: ข้อความ` และ `[xx] ข้อความ`
   - แทรก Tag `<sup>` พร้อม ID อ้างอิง `fnref-xx` ในเนื้อหา
@@ -142,10 +143,12 @@ graph TD
 
 ### 3.5 Search Engine Subsystem (`src/js/search/`)
 - **`search.js`**:
-  - ค้นหาแบบ Real-time พร้อมกลไก Debounce 180ms
+  - ค้นหาแบบ Real-time พร้อมกลไก Debounce 220ms
   - โหมด 1 (ค่าเริ่มต้น): ค้นหาเฉพาะชื่อไฟล์ (เร็วมาก ไม่กิน RAM)
-  - โหมด 2 ("ในเนื้อหา"): ค้นหา Full-Text ในเนื้อหาไฟล์ `.md` ทั้งหมดใน Workspace
+  - โหมด 2 ("ในเนื้อหา"): ค้นหา Full-Text ในเนื้อหาไฟล์ `.md`, Code files และ PDF ทั้งหมดใน Workspace
+  - **Text Cache**: แคชเนื้อหาไฟล์ที่เคยอ่านสูงสุด **200 รายการ** พร้อมกลไก FIFO Eviction เพื่อป้องกัน Memory Leak (`MAX_TEXT_CACHE`)
   - ไฮไลต์คำค้นหาในเนื้อหาบทความด้วย `<mark>` และกด `Enter` / `Shift+Enter` เพื่อกระโดดไปยังตำแหน่งถัดไป/ก่อนหน้า
+  - สำหรับ PDF: แสดงรายการหน้าที่พบคำค้นหา และกด `Enter` เพื่อข้ามไปยังหน้าถัดไป
 
 ---
 
@@ -191,3 +194,19 @@ graph LR
 > [!NOTE]
 > **4. การจัดการหน่วยความจำของ Blob URLs**
 > เมื่อมีการสร้าง Object URL (`URL.createObjectURL`) สำหรับรูปภาพหรือไฟล์ ให้เก็บแคชไว้ใน `State.blobUrls` เพื่อป้องกันการสร้าง URL ซ้ำซ้อนซึ่งจะทำให้เกิด Memory Leak
+
+> [!CAUTION]
+> **5. ห้ามกลืน Error โดยไม่บันทึก**
+> ทุก `catch` block ต้องมี `console.warn('[module] context:', e.message)` เสมอ — ห้ามใช้ `catch (e) {}` ว่างเปล่าเด็ดขาด เพราะจะทำให้ Debug ไม่ได้ ให้ระบุ `[module-name]` prefix กำกับเพื่อระบุจุดที่เกิด Error ได้ทันที
+
+> [!IMPORTANT]
+> **6. DOMPurify ต้องพร้อมก่อน Render HTML**
+> การเรนเดอร์ Markdown เป็น HTML ต้องผ่าน DOMPurify เสมอ หาก DOMPurify ไม่พร้อมให้ fallback เป็น `textContent` (Plain Text) เท่านั้น ห้ามใส่ raw HTML ลง `innerHTML` โดยเด็ดขาด
+
+> [!TIP]
+> **7. CSS Transition: ระบุ Property เจาะจง**
+> ห้ามใช้ `transition: all` เพราะเบราว์เซอร์ต้องตรวจสอบทุก property ทุกเฟรม ให้ระบุเฉพาะ property ที่เปลี่ยนจริง เช่น `transition: background-color .15s ease, color .15s ease;` — สำหรับ Animation ที่เกี่ยวกับการเลื่อนตำแหน่ง ใช้ `transform` แทน `margin` หรือ `left`/`top` เพื่อ GPU Acceleration
+
+> [!NOTE]
+> **8. Responsive Design**
+> มี `@media (max-width: 768px)` ใน `base.css` สำหรับจอเล็ก — Sidebar จะกลายเป็น Full-width Overlay โดยอัตโนมัติ หากเพิ่ม UI Element ใหม่ควรตรวจสอบให้แน่ใจว่าแสดงผลถูกต้องในจอแคบด้วย

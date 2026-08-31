@@ -2,6 +2,8 @@ import { State } from '../core/state.js';
 import { isMd, isPdf, isCode, isDoc, isFileAllowedByFilter } from '../tree/tree-node.js';
 import { PDFViewer } from '../reader/pdf-engine.js';
 
+const MAX_TEXT_CACHE = 200;
+
 export const SearchEngine = {
   input: null,
   contentCheckbox: null,
@@ -12,6 +14,14 @@ export const SearchEngine = {
 
   clearCache() {
     this.textCache.clear();
+  },
+
+  _cacheText(path, txt) {
+    if (this.textCache.size >= MAX_TEXT_CACHE) {
+      const oldest = this.textCache.keys().next().value;
+      this.textCache.delete(oldest);
+    }
+    this.textCache.set(path, txt);
   },
 
   init(input, contentCheckbox, infoEl, contentEl, onTreeUpdate) {
@@ -84,11 +94,11 @@ export const SearchEngine = {
       const fh = await node.handle.getFile();
       if (isPdf(node.name)) {
         const txt = await this.extractPdfText(fh, gen);
-        if (txt) this.textCache.set(node.path, txt);
+        if (txt) this._cacheText(node.path, txt);
         return txt;
       } else if (isMd(node.name) || isCode(node.name)) {
         const txt = await fh.text();
-        this.textCache.set(node.path, txt);
+        this._cacheText(node.path, txt);
         return txt;
       }
     } catch (e) {
@@ -98,11 +108,11 @@ export const SearchEngine = {
   },
 
   async run() {
-    const q = this.input.value.trim();
-    State.search.q = q;
+    const query = this.input.value.trim();
+    State.search.q = query;
     State.search.content = this.contentCheckbox.checked;
 
-    if (!q) {
+    if (!query) {
       State.search.hits = [];
       State.search.fileHits = new Set();
       State.search.inDoc = [];
@@ -116,11 +126,11 @@ export const SearchEngine = {
     }
 
     const gen = ++State.search.gen;
-    const lc = q.toLowerCase();
+    const lowerQuery = query.toLowerCase();
     const nameHits = [];
 
     for (const n of State.flat) {
-      if (n.kind === 'file' && isFileAllowedByFilter(n.name, State.filters && State.filters.types) && n.name.toLowerCase().includes(lc)) {
+      if (n.kind === 'file' && isFileAllowedByFilter(n.name, State.filters && State.filters.types) && n.name.toLowerCase().includes(lowerQuery)) {
         nameHits.push(n.path);
       }
     }
@@ -149,7 +159,7 @@ export const SearchEngine = {
           txt = await this.getFileText(n, gen);
         } catch (e) { continue; }
         if (gen !== State.search.gen) return;
-        if (txt && txt.toLowerCase().includes(lc)) matched.push(n.path);
+        if (txt && txt.toLowerCase().includes(lowerQuery)) matched.push(n.path);
       }
       if (gen !== State.search.gen) return;
       State.search.hits = matched;
@@ -227,7 +237,7 @@ export const SearchEngine = {
           if (str.includes(ql)) {
             matchingPages.push(p);
           }
-        } catch (e) {}
+        } catch (e) { console.warn('[search] PDF page text extraction failed:', e.message); }
       }
       State.search.pdfMatchingPages = matchingPages;
       State.search.pdfMatchIdx = matchingPages.length > 0 ? 0 : -1;
