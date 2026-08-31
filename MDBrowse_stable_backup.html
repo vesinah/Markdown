@@ -787,6 +787,115 @@ body.sb-closed #sb-resizer {
   background: var(--accent);
 }
 
+/* ================= Loading Skeleton ================= */
+@keyframes sb-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+@keyframes sb-progress-indeterminate {
+  0% { width: 0%; margin-left: 0%; }
+  50% { width: 60%; margin-left: 20%; }
+  100% { width: 0%; margin-left: 100%; }
+}
+
+.sb-loading {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sb-loading[hidden] {
+  display: none !important;
+}
+
+.sb-loading-progress {
+  height: 3px;
+  background: var(--border2);
+  overflow: hidden;
+  flex: none;
+}
+
+.sb-loading-progress-bar {
+  height: 100%;
+  width: 30%;
+  background: linear-gradient(90deg, var(--accent), #54aeff);
+  border-radius: 0 2px 2px 0;
+  animation: sb-progress-indeterminate 2s ease-in-out infinite;
+}
+
+.sb-loading-body {
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sb-skel-root {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 8px;
+  background: rgba(9, 105, 218, 0.05);
+  border: 1px solid rgba(9, 105, 218, 0.2);
+  border-radius: 6px;
+}
+[data-theme="dark"] .sb-skel-root {
+  background: rgba(56, 139, 253, 0.08);
+  border-color: rgba(56, 139, 253, 0.25);
+}
+
+.sb-skel-children {
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sb-skel-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sb-skel-dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 3px;
+  flex: none;
+  background: linear-gradient(90deg, var(--border) 25%, var(--bg2) 50%, var(--border) 75%);
+  background-size: 200% 100%;
+  animation: sb-shimmer 1.5s ease-in-out infinite;
+}
+
+.sb-skel-bar {
+  flex: 1;
+  height: 10px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--border) 25%, var(--bg2) 50%, var(--border) 75%);
+  background-size: 200% 100%;
+  animation: sb-shimmer 1.5s ease-in-out infinite;
+}
+
+.sb-skel-accent {
+  background: linear-gradient(90deg, rgba(9, 105, 218, 0.15) 25%, rgba(9, 105, 218, 0.06) 50%, rgba(9, 105, 218, 0.15) 75%);
+  background-size: 200% 100%;
+  animation: sb-shimmer 1.5s ease-in-out infinite;
+  height: 11px;
+}
+[data-theme="dark"] .sb-skel-accent {
+  background: linear-gradient(90deg, rgba(56, 139, 253, 0.2) 25%, rgba(56, 139, 253, 0.08) 50%, rgba(56, 139, 253, 0.2) 75%);
+  background-size: 200% 100%;
+}
+
+.sb-loading-text {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 11px;
+  color: var(--text3);
+  font-family: var(--font-ui);
+}
+
 
 /* ================= Reader Layout & Toolbar ================= */
 #main {
@@ -2199,6 +2308,31 @@ body.dragging-ruler .margin-guide {
     </div>
 
     <div id="tree" class="sb-tree"></div>
+
+    <!-- Loading Skeleton -->
+    <div id="sb-loading" class="sb-loading" hidden>
+      <div class="sb-loading-progress"><div class="sb-loading-progress-bar"></div></div>
+      <div class="sb-loading-body">
+        <div class="sb-skel-root">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" style="opacity:.6;flex:none;"><path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+          <div class="sb-skel-bar sb-skel-accent" style="max-width:65%"></div>
+        </div>
+        <div class="sb-skel-children">
+          <div class="sb-skel-row"><div class="sb-skel-dot"></div><div class="sb-skel-bar" style="max-width:60%;animation-delay:.1s"></div></div>
+          <div class="sb-skel-row"><div class="sb-skel-dot"></div><div class="sb-skel-bar" style="max-width:75%;animation-delay:.2s"></div></div>
+          <div class="sb-skel-row"><div class="sb-skel-dot"></div><div class="sb-skel-bar" style="max-width:50%;animation-delay:.3s"></div></div>
+        </div>
+        <div class="sb-skel-root" style="margin-top:6px;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" style="opacity:.6;flex:none;"><path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+          <div class="sb-skel-bar sb-skel-accent" style="max-width:45%;animation-delay:.4s"></div>
+        </div>
+        <div class="sb-skel-children">
+          <div class="sb-skel-row"><div class="sb-skel-dot" style="animation-delay:.5s"></div><div class="sb-skel-bar" style="max-width:55%;animation-delay:.5s"></div></div>
+          <div class="sb-skel-row"><div class="sb-skel-dot" style="animation-delay:.6s"></div><div class="sb-skel-bar" style="max-width:70%;animation-delay:.6s"></div></div>
+        </div>
+        <div class="sb-loading-text" id="sb-loading-text">กำลังสแกนไฟล์...</div>
+      </div>
+    </div>
 
     <div class="sb-footer">
       <div class="sb-metrics-header">
@@ -5398,7 +5532,7 @@ const D = {};
  'btn-theme-toggle', 'theme-tools-wrap', 'theme-tools-content',
  'btn-doc-info', 'doc-info-popover', 'doc-info-ext', 'doc-info-name', 'doc-info-type',
  'doc-info-path', 'doc-stat-words', 'doc-stat-chars', 'doc-stat-size', 'doc-stat-lines',
- 'btn-copy-path', 'doc-info-wrap']
+ 'btn-copy-path', 'doc-info-wrap', 'sb-loading', 'sb-loading-text']
 .forEach(id => D[id.replace(/-(\w)/g, (_, c) => c.toUpperCase())] = document.getElementById(id));
 
 function switchView(type) {
@@ -5412,6 +5546,19 @@ function switchView(type) {
   if (type === 'md') {
     setTimeout(() => RulerModule.drawScale(), 50);
   }
+}
+
+function showLoading(msg) {
+  if (D.sbLoading) {
+    D.sbLoading.hidden = false;
+    if (D.sbLoadingText && msg) D.sbLoadingText.textContent = msg;
+  }
+  if (D.tree) D.tree.style.display = 'none';
+}
+
+function hideLoading() {
+  if (D.sbLoading) D.sbLoading.hidden = true;
+  if (D.tree) D.tree.style.display = '';
 }
 
 async function saveWorkspace() {
@@ -5599,8 +5746,10 @@ async function unlockAndReloadWorkspace(rootIdx) {
     alert('ไม่ได้รับการอนุญาตเข้าถึงโฟลเดอร์ กรุณากดยินยอมในหน้าต่างแจ้งเตือนของเบราว์เซอร์');
     return false;
   }
+  showLoading('กำลังสแกนไฟล์...');
   await rescanWorkspaces();
   expandOnlyFinal();
+  hideLoading();
   renderTree(D.tree);
   updateStat();
   await saveWorkspace();
@@ -5752,9 +5901,11 @@ async function addFolder() {
       try { if (await r.handle.isSameEntry(h)) return; } catch (e) { console.warn('[app] isSameEntry check failed:', e.message); }
     }
     State.roots.push({ handle: h, name: h.name, addedAt: Date.now(), isLocked: false, permission: 'granted' });
+    showLoading('กำลังสแกนไฟล์...');
     await rescanWorkspaces();
     SearchEngine.clearCache();
     expandOnlyFinal();
+    hideLoading();
     renderTree(D.tree);
     updateStat();
 
@@ -6163,6 +6314,7 @@ async function initApp() {
         });
       }
     }
+    showLoading('กำลังสแกนไฟล์...');
     await rescanWorkspaces();
     updateStat();
 
@@ -6172,6 +6324,7 @@ async function initApp() {
     } else {
       State.expanded = getFinalExpandedPaths();
     }
+    hideLoading();
     renderTree(D.tree);
 
     const lastPath = await Store.get('lastFile');

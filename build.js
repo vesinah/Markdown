@@ -220,6 +220,31 @@ ${combinedCss}
 
     <div id="tree" class="sb-tree"></div>
 
+    <!-- Loading Skeleton -->
+    <div id="sb-loading" class="sb-loading" hidden>
+      <div class="sb-loading-progress"><div class="sb-loading-progress-bar"></div></div>
+      <div class="sb-loading-body">
+        <div class="sb-skel-root">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" style="opacity:.6;flex:none;"><path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+          <div class="sb-skel-bar sb-skel-accent" style="max-width:65%"></div>
+        </div>
+        <div class="sb-skel-children">
+          <div class="sb-skel-row"><div class="sb-skel-dot"></div><div class="sb-skel-bar" style="max-width:60%;animation-delay:.1s"></div></div>
+          <div class="sb-skel-row"><div class="sb-skel-dot"></div><div class="sb-skel-bar" style="max-width:75%;animation-delay:.2s"></div></div>
+          <div class="sb-skel-row"><div class="sb-skel-dot"></div><div class="sb-skel-bar" style="max-width:50%;animation-delay:.3s"></div></div>
+        </div>
+        <div class="sb-skel-root" style="margin-top:6px;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" style="opacity:.6;flex:none;"><path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+          <div class="sb-skel-bar sb-skel-accent" style="max-width:45%;animation-delay:.4s"></div>
+        </div>
+        <div class="sb-skel-children">
+          <div class="sb-skel-row"><div class="sb-skel-dot" style="animation-delay:.5s"></div><div class="sb-skel-bar" style="max-width:55%;animation-delay:.5s"></div></div>
+          <div class="sb-skel-row"><div class="sb-skel-dot" style="animation-delay:.6s"></div><div class="sb-skel-bar" style="max-width:70%;animation-delay:.6s"></div></div>
+        </div>
+        <div class="sb-loading-text" id="sb-loading-text">กำลังสแกนไฟล์...</div>
+      </div>
+    </div>
+
     <div class="sb-footer">
       <div class="sb-metrics-header">
         <span id="stat-title" class="stat-title">สัดส่วนเอกสาร</span>
@@ -463,65 +488,76 @@ console.log('Build successful: MDBrowse.html generated (' + htmlTemplate.length 
 // Update Desktop and Project Shortcuts
 try {
   const { execSync } = require('child_process');
-  const chromePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
-  const targetHtml = 'file:///D:/01_APP/Markdown/MDBrowse.html';
-  const markmakPng = path.join(ROOT, 'assets/icon-markmak.png');
-  const iconPath = path.join(ROOT, 'assets/app.ico');
+  const chromePath = 'C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe';
+  const localhostUrl = 'http://localhost:8080/MDBrowse.html';
+  const appIcoPath = path.join(ROOT, 'assets/app_clean.ico');
+  const browserIcoPath = path.join(ROOT, 'assets/browser_clean.ico');
+  try {
+    execSync(`powershell -ExecutionPolicy Bypass -File "${path.join(ROOT, 'scripts/generate_icons.ps1')}"`);
+    execSync(`node "${path.join(ROOT, 'scripts/pack_ico.js')}"`);
+  } catch (err) {
+    console.warn('Icon pack warning:', err.message);
+  }
 
   const psScript = `
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
-# 1. Generate app.ico from icon-markmak.png
-Add-Type -AssemblyName System.Drawing
-$pngPath = '${markmakPng.replace(/\\/g, '\\\\')}'
-$icoPath = '${iconPath.replace(/\\/g, '\\\\')}'
-if (Test-Path $pngPath) {
-    $bmp = [System.Drawing.Bitmap]::FromFile($pngPath)
-    $thumb = New-Object System.Drawing.Bitmap $bmp, 256, 256
-    $hIcon = $thumb.GetHicon()
-    $icon = [System.Drawing.Icon]::FromHandle($hIcon)
-    $fs = New-Object System.IO.FileStream($icoPath, [System.IO.FileMode]::Create)
-    $icon.Save($fs)
-    $fs.Close()
-    $bmp.Dispose()
-    $thumb.Dispose()
-    Write-Host "Generated MarkMak app.ico successfully"
-}
-
-# 2. Create and Update Shortcuts
 $WshShell = New-Object -ComObject WScript.Shell
 $userProfile = [System.Environment]::GetFolderPath('UserProfile')
 $desktopPaths = @(
     [System.Environment]::GetFolderPath('Desktop'),
     (Join-Path $userProfile 'Desktop'),
-    (Join-Path $userProfile 'OneDrive\\เดสก์ท็อป'),
-    (Join-Path $userProfile 'OneDrive\\Desktop'),
+    (Join-Path $userProfile 'OneDrive\\\\เดสก์ท็อป'),
+    (Join-Path $userProfile 'OneDrive\\\\Desktop'),
     '${ROOT.replace(/\\/g, '\\\\')}'
 )
 
 foreach ($dir in $desktopPaths) {
     if (Test-Path $dir) {
-        # Create 'มาร์คมาก.lnk'
-        $lnk1 = Join-Path $dir 'มาร์คมาก.lnk'
-        $sc1 = $WshShell.CreateShortcut($lnk1)
-        $sc1.TargetPath = '${chromePath.replace(/\\/g, '\\\\')}'
-        $sc1.Arguments = '--app=${targetHtml}'
-        $sc1.WorkingDirectory = '${ROOT.replace(/\\/g, '\\\\')}'
-        $sc1.IconLocation = '${iconPath.replace(/\\/g, '\\\\')},0'
-        $sc1.Description = 'มาร์คมาก — เครื่องมืออ่านไฟล์มาร์คดาวแบบง่าย ๆ'
-        $sc1.Save()
-        Write-Host "Updated shortcut: $lnk1"
+        $batApp = Join-Path '${ROOT.replace(/\\/g, '\\\\')}' 'มาร์คมาก (แอป).bat'
+        $batBrowser = Join-Path '${ROOT.replace(/\\/g, '\\\\')}' 'มาร์คมาก (เบราว์เซอร์).bat'
 
-        # Remove legacy 'MDBrowse.lnk' if present on desktop
+        # 1) Standalone App Shortcut ('มาร์คมาก (แอป).lnk')
+        $lnkApp = Join-Path $dir 'มาร์คมาก (แอป).lnk'
+        if (Test-Path $lnkApp) { Remove-Item $lnkApp -Force }
+        $scApp = $WshShell.CreateShortcut($lnkApp)
+        $scApp.TargetPath = $batApp
+        $scApp.WorkingDirectory = '${ROOT.replace(/\\/g, '\\\\')}'
+        $scApp.IconLocation = '${appIcoPath.replace(/\\/g, '\\\\')},0'
+        $scApp.Description = 'มาร์คมาก — แบบแอปสแตนอะโลน (ไม่มีคอมโพเนนต์เบราว์เซอร์)'
+        $scApp.WindowStyle = 7
+        $scApp.Save()
+
+        # 2) Browser Tab Shortcut ('มาร์คมาก (เบราว์เซอร์).lnk')
+        $lnkBrowser = Join-Path $dir 'มาร์คมาก (เบราว์เซอร์).lnk'
+        if (Test-Path $lnkBrowser) { Remove-Item $lnkBrowser -Force }
+        $scBrowser = $WshShell.CreateShortcut($lnkBrowser)
+        $scBrowser.TargetPath = $batBrowser
+        $scBrowser.WorkingDirectory = '${ROOT.replace(/\\/g, '\\\\')}'
+        $scBrowser.IconLocation = '${browserIcoPath.replace(/\\/g, '\\\\')},0'
+        $scBrowser.Description = 'มาร์คมาก — เปิดในแท็บเบราว์เซอร์ปกติ'
+        $scBrowser.WindowStyle = 7
+        $scBrowser.Save()
+
+        Write-Host "Updated shortcuts in: $dir"
+
+        # Remove duplicate/legacy shortcuts on desktop
         if ($dir -ne '${ROOT.replace(/\\/g, '\\\\')}') {
-            $legacy = Join-Path $dir 'MDBrowse.lnk'
-            if (Test-Path $legacy) {
-                Remove-Item -Path $legacy -Force -ErrorAction SilentlyContinue
-                Write-Host "Cleaned legacy shortcut: $legacy"
+            @('MDBrowse.lnk', 'มาร์คมาก.lnk') | ForEach-Object {
+                $legacy = Join-Path $dir $_
+                if (Test-Path $legacy) {
+                    Remove-Item -Path $legacy -Force -ErrorAction SilentlyContinue
+                    Write-Host "Cleaned duplicate shortcut: $legacy"
+                }
             }
         }
     }
 }
+
+try {
+    [System.Runtime.InteropServices.Marshal]::ReleaseComObject($WshShell) | Out-Null
+    ie4uinit.exe -show
+} catch {}
 `;
   const psFile = path.join(ROOT, '_temp_sc.ps1');
   const bom = Buffer.from([0xEF, 0xBB, 0xBF]);
@@ -530,12 +566,19 @@ foreach ($dir in $desktopPaths) {
   console.log(out.trim());
   if (fs.existsSync(psFile)) fs.unlinkSync(psFile);
 
-  // Update MDBrowse.bat as well
-  const batContent = `@echo off\r\nstart "" "${chromePath}" --app=${targetHtml}\r\n`;
-  fs.writeFileSync(path.join(ROOT, 'MDBrowse.bat'), batContent, 'utf8');
-  fs.writeFileSync(path.join(ROOT, 'มาร์คมาก.bat'), batContent, 'utf8');
-  console.log('Updated launchers');
+  // Update .bat launchers
+  // 1) Standalone App Launcher (App Mode - no browser toolbar/tabs/address bar)
+  const batAppContent = `@echo off\r\nnetstat -ano | findstr /R /C:":8080 .*LISTENING" >nul\r\nif errorlevel 1 (\r\n  start /B "" npx serve "${ROOT}" -p 8080 --no-clipboard >nul 2>&1\r\n  timeout /t 2 /nobreak >nul\r\n)\r\nstart "" "${chromePath}" --app=${localhostUrl}\r\n`;
+  fs.writeFileSync(path.join(ROOT, 'มาร์คมาก (แอป).bat'), batAppContent, 'utf8');
+  fs.writeFileSync(path.join(ROOT, 'มาร์คมาก.bat'), batAppContent, 'utf8');
+  fs.writeFileSync(path.join(ROOT, 'MDBrowse.bat'), batAppContent, 'utf8');
+
+  // 2) Browser Tab Launcher (Opens in standard browser tab with full navigation)
+  const batBrowserContent = `@echo off\r\nnetstat -ano | findstr /R /C:":8080 .*LISTENING" >nul\r\nif errorlevel 1 (\r\n  start /B "" npx serve "${ROOT}" -p 8080 --no-clipboard >nul 2>&1\r\n  timeout /t 2 /nobreak >nul\r\n)\r\nstart "" "${chromePath}" "${localhostUrl}"\r\n`;
+  fs.writeFileSync(path.join(ROOT, 'มาร์คมาก (เบราว์เซอร์).bat'), batBrowserContent, 'utf8');
+  fs.writeFileSync(path.join(ROOT, 'MDBrowse_Browser.bat'), batBrowserContent, 'utf8');
+
+  console.log('Updated all launchers and desktop shortcuts');
 } catch (e) {
   console.warn('Shortcut creation warning:', e.message);
 }
-

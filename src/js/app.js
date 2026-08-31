@@ -27,7 +27,7 @@ const D = {};
  'btn-theme-toggle', 'theme-tools-wrap', 'theme-tools-content',
  'btn-doc-info', 'doc-info-popover', 'doc-info-ext', 'doc-info-name', 'doc-info-type',
  'doc-info-path', 'doc-stat-words', 'doc-stat-chars', 'doc-stat-size', 'doc-stat-lines',
- 'btn-copy-path', 'doc-info-wrap']
+ 'btn-copy-path', 'doc-info-wrap', 'sb-loading', 'sb-loading-text']
 .forEach(id => D[id.replace(/-(\w)/g, (_, c) => c.toUpperCase())] = document.getElementById(id));
 
 export function switchView(type) {
@@ -41,6 +41,19 @@ export function switchView(type) {
   if (type === 'md') {
     setTimeout(() => RulerModule.drawScale(), 50);
   }
+}
+
+function showLoading(msg) {
+  if (D.sbLoading) {
+    D.sbLoading.hidden = false;
+    if (D.sbLoadingText && msg) D.sbLoadingText.textContent = msg;
+  }
+  if (D.tree) D.tree.style.display = 'none';
+}
+
+function hideLoading() {
+  if (D.sbLoading) D.sbLoading.hidden = true;
+  if (D.tree) D.tree.style.display = '';
 }
 
 async function saveWorkspace() {
@@ -228,8 +241,10 @@ export async function unlockAndReloadWorkspace(rootIdx) {
     alert('ไม่ได้รับการอนุญาตเข้าถึงโฟลเดอร์ กรุณากดยินยอมในหน้าต่างแจ้งเตือนของเบราว์เซอร์');
     return false;
   }
+  showLoading('กำลังสแกนไฟล์...');
   await rescanWorkspaces();
   expandOnlyFinal();
+  hideLoading();
   renderTree(D.tree);
   updateStat();
   await saveWorkspace();
@@ -381,9 +396,11 @@ async function addFolder() {
       try { if (await r.handle.isSameEntry(h)) return; } catch (e) { console.warn('[app] isSameEntry check failed:', e.message); }
     }
     State.roots.push({ handle: h, name: h.name, addedAt: Date.now(), isLocked: false, permission: 'granted' });
+    showLoading('กำลังสแกนไฟล์...');
     await rescanWorkspaces();
     SearchEngine.clearCache();
     expandOnlyFinal();
+    hideLoading();
     renderTree(D.tree);
     updateStat();
 
@@ -792,6 +809,7 @@ export async function initApp() {
         });
       }
     }
+    showLoading('กำลังสแกนไฟล์...');
     await rescanWorkspaces();
     updateStat();
 
@@ -801,6 +819,7 @@ export async function initApp() {
     } else {
       State.expanded = getFinalExpandedPaths();
     }
+    hideLoading();
     renderTree(D.tree);
 
     const lastPath = await Store.get('lastFile');

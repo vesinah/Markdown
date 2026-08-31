@@ -542,3 +542,112 @@ body.sb-closed #sb-resizer {
 #sb-resizer:hover, #sb-resizer.dragging {
   background: var(--accent);
 }
+
+/* ================= Loading Skeleton ================= */
+@keyframes sb-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+@keyframes sb-progress-indeterminate {
+  0% { width: 0%; margin-left: 0%; }
+  50% { width: 60%; margin-left: 20%; }
+  100% { width: 0%; margin-left: 100%; }
+}
+
+.sb-loading {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sb-loading[hidden] {
+  display: none !important;
+}
+
+.sb-loading-progress {
+  height: 3px;
+  background: var(--border2);
+  overflow: hidden;
+  flex: none;
+}
+
+.sb-loading-progress-bar {
+  height: 100%;
+  width: 30%;
+  background: linear-gradient(90deg, var(--accent), #54aeff);
+  border-radius: 0 2px 2px 0;
+  animation: sb-progress-indeterminate 2s ease-in-out infinite;
+}
+
+.sb-loading-body {
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sb-skel-root {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 8px;
+  background: rgba(9, 105, 218, 0.05);
+  border: 1px solid rgba(9, 105, 218, 0.2);
+  border-radius: 6px;
+}
+[data-theme="dark"] .sb-skel-root {
+  background: rgba(56, 139, 253, 0.08);
+  border-color: rgba(56, 139, 253, 0.25);
+}
+
+.sb-skel-children {
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sb-skel-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sb-skel-dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 3px;
+  flex: none;
+  background: linear-gradient(90deg, var(--border) 25%, var(--bg2) 50%, var(--border) 75%);
+  background-size: 200% 100%;
+  animation: sb-shimmer 1.5s ease-in-out infinite;
+}
+
+.sb-skel-bar {
+  flex: 1;
+  height: 10px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--border) 25%, var(--bg2) 50%, var(--border) 75%);
+  background-size: 200% 100%;
+  animation: sb-shimmer 1.5s ease-in-out infinite;
+}
+
+.sb-skel-accent {
+  background: linear-gradient(90deg, rgba(9, 105, 218, 0.15) 25%, rgba(9, 105, 218, 0.06) 50%, rgba(9, 105, 218, 0.15) 75%);
+  background-size: 200% 100%;
+  animation: sb-shimmer 1.5s ease-in-out infinite;
+  height: 11px;
+}
+[data-theme="dark"] .sb-skel-accent {
+  background: linear-gradient(90deg, rgba(56, 139, 253, 0.2) 25%, rgba(56, 139, 253, 0.08) 50%, rgba(56, 139, 253, 0.2) 75%);
+  background-size: 200% 100%;
+}
+
+.sb-loading-text {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 11px;
+  color: var(--text3);
+  font-family: var(--font-ui);
+}
