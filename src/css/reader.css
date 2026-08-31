@@ -678,9 +678,7 @@
   transform: scale(1.12);
 }
 .toc-rail-logo img {
-  border-radius: 5px;
   display: block;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
 
 body.sb-closed .toc-rail-logo {

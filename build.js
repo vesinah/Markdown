@@ -147,7 +147,7 @@ ${combinedCss}
   <aside id="sidebar">
     <div class="sb-header">
       <span class="brand" title="มาร์คมาก — เครื่องมืออ่านไฟล์มาร์คดาวแบบง่าย ๆ">
-        <img src="${faviconData}" width="22" height="22" alt="มาร์คมาก" style="border-radius:5px;vertical-align:middle;display:inline-block;box-shadow:0 1px 3px rgba(0,0,0,0.12)">
+        <img src="${faviconData}" width="22" height="22" alt="มาร์คมาก" style="vertical-align:middle;display:inline-block">
         มาร์คมาก
       </span>
       <button id="btn-add" class="sb-btn-add" title="เพิ่มโฟลเดอร์สำหรับอ่าน" aria-label="เพิ่มโฟลเดอร์">+</button>
@@ -383,7 +383,7 @@ ${combinedCss}
       <!-- 4. Empty State -->
       <div id="empty-state" class="empty-state">
         <div class="empty-card">
-          <img src="${faviconData}" width="64" height="64" alt="มาร์คมาก" style="border-radius:14px;margin-bottom:14px;box-shadow:0 3px 10px rgba(0,0,0,0.12);display:inline-block">
+          <img src="${faviconData}" width="64" height="64" alt="มาร์คมาก" style="margin-bottom:14px;display:inline-block">
           <h1>มาร์คมาก</h1>
           <p>เครื่องมืออ่านไฟล์มาร์คดาวแบบง่าย ๆ (รองรับ Markdown, PDF และรูปภาพ)</p>
           <button id="btn-add2" class="btn primary">เลือกโฟลเดอร์เพื่อเริ่มอ่าน</button>

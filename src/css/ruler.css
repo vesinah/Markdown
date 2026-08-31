@@ -92,6 +92,7 @@ body.dragging-ruler .md-ruler-bar {
 .md-scroll-pane {
   flex: 1;
   min-width: 0;
+  overflow-x: hidden;
   overflow-y: auto;
   position: relative;
   scroll-behavior: smooth;
