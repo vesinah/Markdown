@@ -118,6 +118,7 @@ const jsModules = [
   'js/pet/pet-dialogues.js',
   'js/pet/pet-environment.js',
   'js/pet/pet-render.js',
+  'js/pet/pet-hygiene.js',
   'js/pet/pet-social.js',
   'js/pet/pet-ui.js',
   'js/pet/pet-manager.js',

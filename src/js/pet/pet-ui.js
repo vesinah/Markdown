@@ -29,7 +29,7 @@ export const PetUI = {
           <div class="pet-modal-title">
             <span class="pet-title-paw">🐾</span>
             <span>บ้านสัตว์เลี้ยงหน้าจอ & คาเฟ่แมว</span>
-            <span class="pet-title-count">(${manager.pets.length} ตัว)</span>
+            <span class="pet-title-count">(${manager.pets.filter(p => !p.hidden).length}/${manager.pets.length} ตัว)</span>
           </div>
           <button class="pet-modal-close" id="btn-pet-modal-close" title="ปิดหน้าต่าง">&times;</button>
         </div>
@@ -107,7 +107,7 @@ export const PetUI = {
           const stats = p.personality || { intelligence: 50, diligence: 50, energy: 50, talkativeness: 50, affection: 50, sociability: 50 };
 
           return `
-            <div class="pet-profile-card" data-id="${p.id}">
+            <div class="pet-profile-card ${p.hidden ? 'is-hidden-pet' : ''}" data-id="${p.id}">
               <div class="pet-card-top">
                 <div class="pet-card-avatar">
                   ${PetRenderer.renderCatSvg(breed, { ...p, state: 'sit' })}
@@ -121,6 +121,15 @@ export const PetUI = {
                   <div class="pet-card-traits">
                     <span>${tail}</span> • <span>${build}</span>
                   </div>
+                </div>
+                <div class="pet-card-toggle-wrap">
+                  <span class="pet-toggle-status ${p.hidden ? 'is-hidden' : 'is-visible'}">
+                    ${p.hidden ? '💤 ซ่อนตัว' : '✨ แสดงบนจอ'}
+                  </span>
+                  <label class="pet-switch" title="${p.hidden ? 'คลิกเพื่อพาออกมาร่วมสนุกบนหน้าจอ' : 'คลิกเพื่อซ่อนน้องแมว (พักผ่อน)'}">
+                    <input type="checkbox" class="pet-visibility-toggle" data-id="${p.id}" ${!p.hidden ? 'checked' : ''}/>
+                    <span class="pet-slider"></span>
+                  </label>
                 </div>
               </div>
 
@@ -416,6 +425,27 @@ export const PetUI = {
     // 1. My Pets Events
     const cardsWrap = overlay.querySelector('.pet-cards-grid');
     if (cardsWrap) {
+      // ดักจับการสลับสวิตช์ เปิด/ปิด น้องแมวบนหน้าจอ
+      cardsWrap.addEventListener('change', (e) => {
+        const toggle = e.target.closest('.pet-visibility-toggle');
+        if (!toggle) return;
+        const petId = toggle.dataset.id;
+        if (!petId) return;
+        manager.setPetVisibility(petId, toggle.checked);
+
+        // รีเฟรชแท็บและตัวนับจำนวนแมว
+        const contentWrap = overlay.querySelector('#pet-modal-tab-content');
+        if (contentWrap) {
+          contentWrap.innerHTML = this.renderTabContent('my_pets', manager);
+          this.bindTabSpecificEvents(overlay, manager);
+        }
+        const countEl = overlay.querySelector('.pet-title-count');
+        if (countEl) {
+          const visible = manager.pets.filter(p => !p.hidden).length;
+          countEl.textContent = `(${visible}/${manager.pets.length} ตัว)`;
+        }
+      });
+
       cardsWrap.addEventListener('click', (e) => {
         const btn = e.target.closest('.pet-card-btn');
         if (!btn) return;
@@ -642,6 +672,9 @@ export const PetUI = {
       <button class="pet-menu-item" data-action="add_pet">➕ รับเลี้ยงแมวเพิ่ม</button>
       <button class="pet-menu-item" data-action="open_manager">🏰 บ้านแมว & คาเฟ่...</button>
       <div class="pet-menu-sep"></div>
+      <button class="pet-menu-item" data-action="toggle_visibility">
+        ${pet.hidden ? '✨ นำออกมาวิ่งเล่นบนจอ' : '💤 ส่งไปพักผ่อน (ซ่อนตัว)'}
+      </button>
       <button class="pet-menu-item danger" data-action="dismiss">🏠 เก็บเข้าบ้าน (ลบตัวนี้)</button>
     `;
 
@@ -657,6 +690,8 @@ export const PetUI = {
         pet.isStaying = !pet.isStaying;
         manager.saveState();
         manager.say(pet, pet.isStaying ? 'รับทราบ! เหมียวจะนอนเฝ้าตรงนี้' : 'เย้! ได้เวลาออกสำรวจแล้ว!', 3000);
+      } else if (act === 'toggle_visibility') {
+        manager.togglePetVisibility(pet.id);
       } else if (act === 'rename') {
         const newName = prompt(`ตั้งชื่อใหม่ให้ ${pet.name}:`, pet.name);
         if (newName && newName.trim()) {
@@ -709,5 +744,74 @@ export const PetUI = {
 
     layerEl.appendChild(fx);
     setTimeout(() => fx.remove(), 1600);
+  },
+
+  // 4. แถบควบคุมบนหน้าจอแบบ Floating Control Bar (Pet Control Bar Dock)
+  renderPetControlBar(manager) {
+    let bar = document.getElementById('pet-control-bar');
+    if (!bar) {
+      bar = document.createElement('div');
+      bar.id = 'pet-control-bar';
+      bar.className = 'pet-control-bar';
+      document.body.appendChild(bar);
+    }
+
+    const propTypes = [
+      { type: 'cat_toy_yarn', label: 'ไหมพรม', icon: '🧶' },
+      { type: 'laser_dot', label: 'เลเซอร์', icon: '🔴' },
+      { type: 'feather_wand', label: 'ไม้ขนนก', icon: '🪶' },
+      { type: 'cat_house', label: 'บ้านแมว', icon: '📦' },
+      { type: 'cat_condo', label: 'คอนโด', icon: '🏰' },
+      { type: 'cat_bed', label: 'ที่นอน', icon: '🛏️' },
+      { type: 'cat_litter_box', label: 'กระบะทราย', icon: '🏖️' }
+    ];
+
+    const isCollapsed = bar.classList.contains('collapsed');
+
+    bar.innerHTML = `
+      <div class="pet-bar-handle" id="pet-bar-toggle-collapse" title="${isCollapsed ? 'ขยายแถบควบคุม' : 'ย่อแถบควบคุม'}">
+        <span class="pet-bar-icon">🐾</span>
+        <span class="pet-bar-title">ของเล่น & เฟอร์นิเจอร์</span>
+        <span class="pet-bar-chevron">${isCollapsed ? '▲' : '▼'}</span>
+      </div>
+      <div class="pet-bar-actions">
+        ${propTypes.map(p => {
+          const item = manager.environment?.items?.find(i => i.type === p.type);
+          const isActive = item && item.enabled;
+          return `
+            <button class="pet-bar-btn ${isActive ? 'active' : ''}" data-prop="${p.type}" title="${p.label} (คลิกเพื่อเสก/เก็บ)">
+              <span class="pet-bar-btn-icon">${p.icon}</span>
+              <span class="pet-bar-btn-lbl">${p.label}</span>
+            </button>
+          `;
+        }).join('')}
+      </div>
+    `;
+
+    // ผูก Event สำหรับย่อ/ขยาย
+    const toggleBtn = bar.querySelector('#pet-bar-toggle-collapse');
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        bar.classList.toggle('collapsed');
+        const chev = bar.querySelector('.pet-bar-chevron');
+        if (chev) {
+          chev.textContent = bar.classList.contains('collapsed') ? '▲' : '▼';
+        }
+      });
+    }
+
+    // ผูก Event สำหรับคลิกเสก/เก็บของเล่นและเฟอร์นิเจอร์ทันที
+    const btns = bar.querySelectorAll('.pet-bar-btn');
+    btns.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const propType = btn.dataset.prop;
+        const newState = manager.environment.toggleItem(propType);
+        btn.classList.toggle('active', !!newState);
+      });
+    });
+
+    return bar;
   }
 };

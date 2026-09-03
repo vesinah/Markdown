@@ -46,7 +46,8 @@ export class PetRenderer {
     const tailType = pet.tailType || breed.defaultTail || 'long';
     const build = pet.build || breed.defaultBuild || 'normal';
 
-    el.className = `desktop-pet pet-breed-${pet.breed} pet-state-${pet.state || 'stand'} facing-${pet.facing || 'right'} ${pet.isDragged ? 'is-dragged' : ''} ${pet.isBlocked ? 'is-blocked' : ''} ${pet.isSpeaking ? 'is-speaking' : ''} ${isFluffy ? 'is-fluffy' : ''} build-${build} tail-${tailType}`;
+    const buildClass = `build-${build} ${build === 'slim' ? 'build-skinny' : ''} ${build === 'skinny' ? 'build-slim' : ''}`.trim();
+    el.className = `desktop-pet pet-breed-${pet.breed} pet-state-${pet.state || 'stand'} facing-${pet.facing || 'right'} ${pet.isDragged ? 'is-dragged' : ''} ${pet.isBlocked ? 'is-blocked' : ''} ${pet.isSpeaking ? 'is-speaking' : ''} ${isFluffy ? 'is-fluffy' : ''} ${buildClass} tail-${tailType}`;
     
     // ปรับ Scale ตัวแมว
     const scale = pet.scale || 1;
@@ -56,6 +57,12 @@ export class PetRenderer {
     if (svgWrap) {
       svgWrap.innerHTML = this.renderCatSvg(breed, pet);
     }
+  }
+
+  // Contract: Returns complete SVG string for a pet
+  static renderPetSvg(pet, options = {}) {
+    const breed = PET_BREEDS[pet.breed] || PET_BREEDS.orange;
+    return this.renderCatSvg(breed, pet);
   }
 
   // สร้างเนื้อหา Vector SVG แยกตามชิ้นส่วนพันธุกรรมและท่าทาง
@@ -70,16 +77,21 @@ export class PetRenderer {
     const isCurl = state === 'sleep_curl';
     const isBelly = state === 'sleep_belly';
     const isSitting = state === 'sit';
-    const isPounce = state === 'pounce';
+    const isTwoLegged = state === 'two_legged' || state === 'begging';
+    const isBattingBall = state === 'batting_ball' || state === 'batting';
+    const isToyPlaying = state === 'play_toy' || isBattingBall;
+    const isScratching = state === 'scratch';
+    const isFetching = state === 'fetch' || state === 'fetching' || state === 'carry_fish';
+    const isCarryFish = state === 'carry_fish' || isFetching;
+    const isPouncePlay = state === 'pounce_play' || state === 'pounce_crouch';
+    const isPounce = state === 'pounce' || isPouncePlay;
+    const isPooping = state === 'pooping' || state === 'poop';
     const isGroom = state === 'groom';
     const isEating = state === 'eating';
-    const isCarryFish = state === 'carry_fish';
     const isDerpyYawn = state === 'derpy_yawn';
     const isDerpyStare = state === 'derpy_stare';
-    const isBegging = state === 'begging';
-    const isScratching = state === 'scratch';
+    const isBegging = isTwoLegged;
     const isStretching = state === 'stretch';
-    const isToyPlaying = state === 'play_toy';
     const isInBox = state === 'in_box';
     const isDragged = pet.isDragged;
 
@@ -100,6 +112,32 @@ export class PetRenderer {
         <!-- Mask and points -->
         <ellipse cx="50" cy="33" rx="14" ry="11" fill="${b.pointColor}" opacity="0.88"/>
       `;
+    } else if (b.pattern === 'tuxedo') {
+      patternOverlay = `
+        <!-- Tuxedo White Shirt Front (Bib) -->
+        <path class="tuxedo-chest-bib" d="M 46 36 C 41 42 40 54 44 63 C 50 65 56 61 55 50 C 54 43 51 37 46 36 Z" fill="#ffffff"/>
+        <!-- White Muzzle & Chin -->
+        <ellipse cx="50" cy="36.5" rx="7.5" ry="5.5" fill="#ffffff"/>
+        <!-- Inverted 'V' Nose Blaze -->
+        <polygon points="50,26 47,35 53,35" fill="#ffffff"/>
+        <!-- White Paws / Mittens -->
+        <ellipse cx="40" cy="64.5" rx="4.5" ry="3.5" fill="#ffffff"/>
+        <ellipse cx="48" cy="64.5" rx="4.5" ry="3.5" fill="#ffffff"/>
+        <!-- White Underbelly -->
+        <ellipse cx="50" cy="54" rx="13" ry="9" fill="#ffffff" opacity="0.95"/>
+      `;
+    } else if (b.pattern === 'white_black_spotted' || b.pattern === 'cow_spotted') {
+      const spotColor = b.patchColor || b.pointColor || '#1e293b';
+      patternOverlay = `
+        <!-- Cow Large Flank Patch -->
+        <path class="cow-flank-patch" d="M 36 42 C 31 46 33 56 42 55 C 47 54 48 44 43 40 C 39 37 36 42 36 42 Z" fill="${spotColor}" opacity="0.95"/>
+        <!-- Cow Back Saddle Patch -->
+        <path class="cow-saddle-patch" d="M 54 38 C 62 36 71 42 69 51 C 67 56 58 56 55 49 C 53 44 51 40 54 38 Z" fill="${spotColor}" opacity="0.95"/>
+        <!-- Cow Hip Spot -->
+        <circle cx="68" cy="56" r="4.8" fill="${spotColor}" opacity="0.92"/>
+        <!-- Pirate Eye Spot on Face -->
+        <ellipse cx="42" cy="30" rx="6.5" ry="5.5" fill="${spotColor}" opacity="0.92"/>
+      `;
     } else if (b.pattern === 'white_brown_ears') {
       // แมวขาวแต้มหูน้ำตาลทั้งสองข้าง
       patternOverlay = `
@@ -110,7 +148,7 @@ export class PetRenderer {
         <ellipse cx="50" cy="22" rx="4" ry="2.5" fill="${b.pointColor}" opacity="0.85"/>
       `;
     } else if (b.pattern === 'white_brown_spotted') {
-      // แมวขาวลายแต้มน้ำตาลเต็มตัว (ลายวัว)
+      // แมวขาวลายแต้มน้ำตาลเต็มตัว (ลายวัวคาราเมล)
       patternOverlay = `
         <!-- Caramel Cow Spots on Body -->
         <path d="M 38 42 Q 44 38 48 44 Q 45 52 39 48 Z" fill="${b.patchColor || b.pointColor}" opacity="0.92"/>
@@ -124,12 +162,12 @@ export class PetRenderer {
       patternOverlay = `
         <!-- Calico Orange & Black Patches -->
         <!-- Orange patch on back -->
-        <path d="M 42 42 Q 52 38 56 46 Q 50 54 40 50 Z" fill="${b.patchColor1}" opacity="0.92"/>
+        <path d="M 42 42 Q 52 38 56 46 Q 50 54 40 50 Z" fill="${b.patchColor1 || '#e76f51'}" opacity="0.92"/>
         <!-- Black/Dark patch on flank -->
-        <path d="M 58 45 Q 68 40 71 49 Q 67 58 59 55 Z" fill="${b.patchColor2}" opacity="0.92"/>
+        <path d="M 58 45 Q 68 40 71 49 Q 67 58 59 55 Z" fill="${b.patchColor2 || '#2b2d42'}" opacity="0.92"/>
         <!-- Head Calico split -->
-        <path d="M 32 23 Q 29 13 40 18 Q 44 26 34 26 Z" fill="${b.patchColor1}"/>
-        <path d="M 68 23 Q 71 13 60 18 Q 56 26 66 26 Z" fill="${b.patchColor2}"/>
+        <path d="M 32 23 Q 29 13 40 18 Q 44 26 34 26 Z" fill="${b.patchColor1 || '#e76f51'}"/>
+        <path d="M 68 23 Q 71 13 60 18 Q 56 26 66 26 Z" fill="${b.patchColor2 || '#2b2d42'}"/>
       `;
     } else if (b.pattern === 'persian_multicolor') {
       // แมวเปอร์เซียหลายสี
@@ -153,11 +191,43 @@ export class PetRenderer {
       `;
     }
 
+    // แต้มพิเศษเพิ่มเติม (Special Markings)
+    if (pet.specialMarking === 'blaze') {
+      patternOverlay += `
+        <!-- Star Blaze on Forehead -->
+        <polygon points="50,20 51.5,24 55,25 51.5,26.5 50,30 48.5,26.5 45,25 48.5,24" fill="#ffffff" opacity="0.95"/>
+      `;
+    } else if (pet.specialMarking === 'eye_patch') {
+      patternOverlay += `
+        <!-- Pirate Eye Patch -->
+        <ellipse cx="43" cy="31" rx="6" ry="6" fill="${b.pointColor || '#1e293b'}" opacity="0.88"/>
+      `;
+    } else if (pet.specialMarking === 'socks') {
+      patternOverlay += `
+        <!-- White Socks / Mittens -->
+        <ellipse cx="40" cy="64.5" rx="4.5" ry="3.5" fill="#ffffff"/>
+        <ellipse cx="48" cy="64.5" rx="4.5" ry="3.5" fill="#ffffff"/>
+        <ellipse cx="59" cy="63.5" rx="4.8" ry="3.5" fill="#ffffff"/>
+        <ellipse cx="66" cy="63.5" rx="4.8" ry="3.5" fill="#ffffff"/>
+      `;
+    } else if (pet.specialMarking === 'heart_butt') {
+      patternOverlay += `
+        <!-- Heart Patch on Hip -->
+        <path d="M 68 47 C 68 44 65 42 63 44 C 61 42 58 44 58 47 C 58 50 63 53 63 53 C 63 53 68 50 68 47 Z" fill="#ff758f" opacity="0.9"/>
+      `;
+    }
+
     // 2. หางแมว (Tail Types: long, short, bobtail, kinked, curved, fluffy_plumage)
     let tailSvg = '';
     const tailColor = b.pointColor || b.bodyColor;
 
-    if (isLoaf || isInBox) {
+    if (isPooping) {
+      // ขณะขับถ่าย: หางยกสูงชี้โด่งขึ้นด้านบนเพื่อหลบสิ่งปฏิกูล
+      tailSvg = `<path class="pet-tail pet-tail-pooping" d="M 71 50 C 76 36, 80 22, 84 12" fill="none" stroke="${tailColor}" stroke-width="6" stroke-linecap="round"/>`;
+    } else if (isTwoLegged) {
+      // ขณะไร้ยืนสองขา: หางโค้งทอดลงแตะพื้นด้านหลังเป็นค้ำยันสมดุล
+      tailSvg = `<path class="pet-tail pet-tail-two-legged" d="M 66 56 C 74 62, 80 66, 86 68" fill="none" stroke="${tailColor}" stroke-width="5.5" stroke-linecap="round"/>`;
+    } else if (isLoaf || isInBox) {
       // นอนเก็บหางแนบชิดลำตัว
       tailSvg = `<path class="pet-tail pet-tail-loaf" d="M 72 58 C 76 60, 68 64, 56 64" fill="none" stroke="${tailColor}" stroke-width="6" stroke-linecap="round"/>`;
     } else if (isBelly) {
@@ -202,7 +272,7 @@ export class PetRenderer {
       } else {
         // หางยาวมาตรฐาน (long)
         tailSvg = `
-          <path class="pet-tail pet-tail-wag" d="M 72 52 C 85 48, 88 34, 82 24" fill="none" stroke="${tailColor}" stroke-width="6" stroke-linecap="round"/>
+          <path class="pet-tail pet-tail-wag pet-tail-long" d="M 72 52 C 85 48, 88 34, 82 24" fill="none" stroke="${tailColor}" stroke-width="6" stroke-linecap="round"/>
         `;
       }
     }
@@ -250,9 +320,51 @@ export class PetRenderer {
       `;
     }
 
+    // สัดส่วนร่างกาย สรีระ 3 รูปแบบ (Body Build: chubby, normal, skinny/slim, chunky_loaf)
+    let bodyRx = 25, bodyRy = 18;
+    let bellyRx = 17, bellyRy = 13;
+    let cheekRx = 8.0, cheekRy = 6.0;
+    let pawRx = 4.5, pawRy = 3.5;
+    let shadowRx = 24, shadowRy = 4.5;
+    let shadowCy = 69;
+
+    if (build === 'chubby') {
+      bodyRx = 28; bodyRy = 21; bellyRx = 20; bellyRy = 16;
+      cheekRx = 9.5; cheekRy = 7.2;
+      pawRx = 5.2; pawRy = 4.0;
+      shadowRx = 28; shadowRy = 5.2;
+    } else if (build === 'chunky_loaf') {
+      bodyRx = 30; bodyRy = 22; bellyRx = 22; bellyRy = 17;
+      cheekRx = 10.0; cheekRy = 7.5;
+      pawRx = 5.5; pawRy = 4.2;
+      shadowRx = 30; shadowRy = 5.5;
+    } else if (build === 'skinny' || build === 'slim') {
+      bodyRx = 21; bodyRy = 15; bellyRx = 13; bellyRy = 10;
+      cheekRx = 6.4; cheekRy = 4.8;
+      pawRx = 3.6; pawRy = 3.0;
+      shadowRx = 20; shadowRy = 3.8;
+    }
+
+    if (isLoaf || isCurl || isBelly) {
+      shadowCy = 67;
+      shadowRx += 3;
+      shadowRy += 1;
+    } else if (isSitting) {
+      shadowCy = 68;
+    } else if (isPooping) {
+      shadowCy = 68;
+      shadowRx += 2;
+    }
+
     // 4. ดวงตาและการแสดงออกทางสีหน้า
     let eyesSvg = '';
-    if (isSleep || isLoaf || isCurl) {
+    if (isPooping) {
+      // หน้าตาเบ่งอึ >.<
+      eyesSvg = `
+        <path d="M 38 30 L 45 34 L 38 36" fill="none" stroke="#222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M 62 30 L 55 34 L 62 36" fill="none" stroke="#222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      `;
+    } else if (isSleep || isLoaf || isCurl) {
       // หลับตาพริ้ม ^.^
       eyesSvg = `
         <path d="M 40 32 Q 44 28 47 32" fill="none" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
@@ -271,6 +383,18 @@ export class PetRenderer {
         <circle cx="43" cy="32" r="1.8" fill="${b.pupilColor}"/>
         <line x1="53" y1="31" x2="61" y2="31" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
         <circle cx="57" cy="32" r="1.8" fill="${b.pupilColor}"/>
+      `;
+    } else if (isTwoLegged) {
+      // ตาสงสัยใคร่รู้ ออดอ้อนเป็นประกาย
+      eyesSvg = `
+        <circle cx="43" cy="30" r="5" fill="${b.eyeColor}"/>
+        <circle cx="43" cy="30" r="3.6" fill="${b.pupilColor}"/>
+        <circle cx="41.5" cy="28.5" r="1.8" fill="#ffffff"/>
+        <circle cx="44.5" cy="31" r="0.9" fill="#ffffff"/>
+        <circle cx="57" cy="30" r="5" fill="${b.eyeColor}"/>
+        <circle cx="57" cy="30" r="3.6" fill="${b.pupilColor}"/>
+        <circle cx="55.5" cy="28.5" r="1.8" fill="#ffffff"/>
+        <circle cx="58.5" cy="31" r="0.9" fill="#ffffff"/>
       `;
     } else if (isPounce || isToyPlaying || isDragged) {
       // ตากลมโตสุดขีด รูม่านตาขยาย
@@ -334,30 +458,65 @@ export class PetRenderer {
     let pawsSvg = '';
     if (isLoaf || isInBox) {
       pawsSvg = ''; // ซ่อนขามิดชิดใต้พุง
-    } else if (isSitting) {
+    } else if (isPooping) {
+      // ขากางออกรับน้ำหนักขณะขับถ่าย
       pawsSvg = `
-        <ellipse cx="66" cy="58" rx="8" ry="6" fill="${b.pointColor || b.bodyColor}"/>
-        <ellipse class="pet-paw-front-l" cx="44" cy="65" rx="4.5" ry="3.5" fill="${b.pointColor || b.bellyColor}"/>
-        <ellipse class="pet-paw-front-r" cx="54" cy="65" rx="4.5" ry="3.5" fill="${b.pointColor || b.bellyColor}"/>
+        <ellipse cx="36" cy="64" rx="${pawRx * 1.1}" ry="${pawRy}" fill="${b.pointColor || b.bellyColor}"/>
+        <ellipse cx="46" cy="64" rx="${pawRx * 1.1}" ry="${pawRy}" fill="${b.pointColor || b.bellyColor}"/>
+        <ellipse cx="60" cy="63" rx="${pawRx * 1.2}" ry="${pawRy}" fill="${b.pointColor || b.bodyColor}"/>
+        <ellipse cx="70" cy="63" rx="${pawRx * 1.2}" ry="${pawRy}" fill="${b.pointColor || b.bodyColor}"/>
       `;
-    } else if (isBegging) {
-      // ท่ายืนสองขาหน้าอ้อน
+    } else if (isTwoLegged) {
+      // ท่ายืนสองขา: สองขาหลังปักหลัก สองขาหน้ายกขึ้นมาระดับอก
       pawsSvg = `
-        <ellipse cx="64" cy="64" rx="7" ry="5" fill="${b.pointColor || b.bodyColor}"/>
-        <!-- Front paws lifted up together -->
-        <g class="pet-begging-paws">
-          <ellipse cx="46" cy="46" rx="3.8" ry="5.5" fill="${b.pointColor || b.bellyColor}" transform="rotate(-15 46 46)"/>
-          <ellipse cx="54" cy="46" rx="3.8" ry="5.5" fill="${b.pointColor || b.bellyColor}" transform="rotate(15 54 46)"/>
+        <!-- Hind feet on ground -->
+        <ellipse cx="40" cy="67" rx="${pawRx + 0.8}" ry="${pawRy}" fill="${b.pointColor || b.bodyColor}"/>
+        <ellipse cx="60" cy="67" rx="${pawRx + 0.8}" ry="${pawRy}" fill="${b.pointColor || b.bodyColor}"/>
+        <!-- Front paws begging together -->
+        <g class="pet-begging-paws-upright">
+          <ellipse cx="44" cy="34" rx="${pawRx * 0.8}" ry="${pawRy * 1.5}" fill="${b.pointColor || b.bellyColor}" transform="rotate(-15 44 34)"/>
+          <ellipse cx="52" cy="34" rx="${pawRx * 0.8}" ry="${pawRy * 1.5}" fill="${b.pointColor || b.bellyColor}" transform="rotate(15 52 34)"/>
+        </g>
+      `;
+    } else if (isBattingBall || isToyPlaying) {
+      // ท่าเล่นลูกบอล / ตบบอล: ขาหน้าข้างหนึ่งยกขึ้นงอศอกตบไปข้างหน้า
+      pawsSvg = `
+        <!-- Supporting paws -->
+        <ellipse cx="62" cy="64" rx="${pawRx * 1.2}" ry="${pawRy}" fill="${b.pointColor || b.bodyColor}"/>
+        <ellipse cx="42" cy="65" rx="${pawRx}" ry="${pawRy}" fill="${b.pointColor || b.bellyColor}"/>
+        <!-- Active Batting Front Paw -->
+        <g class="pet-batting-arm">
+          <path d="M 46 50 Q 34 46 28 40 Q 24 38 27 34 Q 32 34 37 42 Z" fill="${b.pointColor || b.bodyColor}"/>
+          <circle cx="27" cy="36" r="${pawRx}" fill="${b.pointColor || b.bellyColor}"/>
+          <!-- Extended sharp cute claws -->
+          <line x1="24" y1="34" x2="21" y2="31" stroke="#ffffff" stroke-width="1.3" stroke-linecap="round"/>
+          <line x1="25" y1="32" x2="23" y2="29" stroke="#ffffff" stroke-width="1.3" stroke-linecap="round"/>
+          <line x1="28" y1="31" x2="27" y2="28" stroke="#ffffff" stroke-width="1.3" stroke-linecap="round"/>
         </g>
       `;
     } else if (isScratching) {
       // ท่าเอื้อมสองขาหน้าฝนเล็บ
       pawsSvg = `
-        <ellipse cx="64" cy="64" rx="7" ry="5" fill="${b.pointColor || b.bodyColor}"/>
+        <ellipse cx="64" cy="64" rx="${pawRx * 1.3}" ry="${pawRy * 1.2}" fill="${b.pointColor || b.bodyColor}"/>
         <g class="pet-scratch-paws">
-          <ellipse cx="38" cy="42" rx="4" ry="7" fill="${b.pointColor || b.bellyColor}" transform="rotate(-35 38 42)"/>
-          <ellipse cx="46" cy="38" rx="4" ry="7" fill="${b.pointColor || b.bellyColor}" transform="rotate(-25 46 38)"/>
+          <ellipse cx="36" cy="42" rx="${pawRx}" ry="${pawRy * 1.6}" fill="${b.pointColor || b.bellyColor}" transform="rotate(-35 36 42)"/>
+          <ellipse cx="44" cy="38" rx="${pawRx}" ry="${pawRy * 1.6}" fill="${b.pointColor || b.bellyColor}" transform="rotate(-25 44 38)"/>
+          <!-- Claw scratch traces -->
+          <line x1="30" y1="46" x2="33" y2="43" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.8"/>
+          <line x1="32" y1="48" x2="35" y2="45" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.8"/>
         </g>
+      `;
+    } else if (isPouncePlay) {
+      pawsSvg = `
+        <ellipse class="pet-paw-pounce-back" cx="68" cy="62" rx="${pawRx * 1.3}" ry="${pawRy * 1.1}" fill="${b.pointColor || b.bodyColor}"/>
+        <ellipse class="pet-paw-pounce-front" cx="36" cy="56" rx="${pawRx * 1.2}" ry="${pawRy}" transform="rotate(-20 36 56)" fill="${b.pointColor || b.bellyColor}"/>
+        <ellipse cx="46" cy="63" rx="${pawRx}" ry="${pawRy}" fill="${b.pointColor || b.bellyColor}"/>
+      `;
+    } else if (isSitting) {
+      pawsSvg = `
+        <ellipse cx="66" cy="58" rx="${pawRx * 1.7}" ry="${pawRy * 1.7}" fill="${b.pointColor || b.bodyColor}"/>
+        <ellipse class="pet-paw-front-l" cx="44" cy="65" rx="${pawRx}" ry="${pawRy}" fill="${b.pointColor || b.bellyColor}"/>
+        <ellipse class="pet-paw-front-r" cx="54" cy="65" rx="${pawRx}" ry="${pawRy}" fill="${b.pointColor || b.bellyColor}"/>
       `;
     } else if (isDragged) {
       pawsSvg = `
@@ -374,31 +533,43 @@ export class PetRenderer {
       `;
     } else if (isGroom) {
       pawsSvg = `
-        <ellipse cx="44" cy="64" rx="4.5" ry="3.5" fill="${b.pointColor || b.bellyColor}"/>
-        <ellipse class="pet-grooming-paw" cx="53" cy="40" rx="3.5" ry="5.5" fill="${b.pointColor || b.bellyColor}" transform="rotate(-25 53 40)"/>
-        <ellipse cx="64" cy="63" rx="4.5" ry="3.5" fill="${b.pointColor || b.bellyColor}"/>
+        <ellipse cx="44" cy="64" rx="${pawRx}" ry="${pawRy}" fill="${b.pointColor || b.bellyColor}"/>
+        <ellipse class="pet-grooming-paw" cx="53" cy="40" rx="${pawRx * 0.8}" ry="${pawRy * 1.5}" fill="${b.pointColor || b.bellyColor}" transform="rotate(-25 53 40)"/>
+        <ellipse cx="64" cy="63" rx="${pawRx}" ry="${pawRy}" fill="${b.pointColor || b.bellyColor}"/>
       `;
     } else {
       // ท่ายืน/เดินเตาะแตะ
       pawsSvg = `
         <g class="pet-walking-paws">
-          <ellipse class="pet-paw pet-paw-fl" cx="40" cy="64" rx="4" ry="3.5" fill="${b.pointColor || b.bellyColor}"/>
-          <ellipse class="pet-paw pet-paw-fr" cx="48" cy="64" rx="4" ry="3.5" fill="${b.pointColor || b.bellyColor}"/>
-          <ellipse class="pet-paw pet-paw-bl" cx="59" cy="63" rx="4.5" ry="3.5" fill="${b.pointColor || b.bodyColor}"/>
-          <ellipse class="pet-paw pet-paw-br" cx="66" cy="63" rx="4.5" ry="3.5" fill="${b.pointColor || b.bodyColor}"/>
+          <ellipse class="pet-paw pet-paw-fl" cx="40" cy="64" rx="${pawRx}" ry="${pawRy}" fill="${b.pointColor || b.bellyColor}"/>
+          <ellipse class="pet-paw pet-paw-fr" cx="48" cy="64" rx="${pawRx}" ry="${pawRy}" fill="${b.pointColor || b.bellyColor}"/>
+          <ellipse class="pet-paw pet-paw-bl" cx="59" cy="63" rx="${pawRx}" ry="${pawRy}" fill="${b.pointColor || b.bodyColor}"/>
+          <ellipse class="pet-paw pet-paw-br" cx="66" cy="63" rx="${pawRx}" ry="${pawRy}" fill="${b.pointColor || b.bodyColor}"/>
         </g>
       `;
     }
 
-    // 7. ลำตัว (Body Build: chubby, normal, slim, chunky_loaf) และ ปุยขนเปอร์เซีย
-    let bodyRx = 25, bodyRy = 18;
-    let bellyRx = 17, bellyRy = 13;
-    if (build === 'chubby') { bodyRx = 27; bodyRy = 20; bellyRx = 19; bellyRy = 15; }
-    else if (build === 'chunky_loaf') { bodyRx = 29; bodyRy = 21; bellyRx = 21; bellyRy = 16; }
-    else if (build === 'slim') { bodyRx = 22; bodyRy = 16; bellyRx = 14; bellyRy = 11; }
-
+    // 7. ลำตัว (Body)
     let bodySvg = '';
-    if (isBelly) {
+    if (isTwoLegged) {
+      bodySvg = `
+        <ellipse class="pet-body-core pet-body-upright" cx="50" cy="44" rx="20" ry="24" transform="rotate(-6 50 44)" fill="${b.bodyColor}"/>
+        <ellipse cx="50" cy="44" rx="20" ry="24" transform="rotate(-6 50 44)" fill="url(#body-depth-grad-${pet.id})" pointer-events="none"/>
+        <ellipse class="pet-belly-patch" cx="48" cy="46" rx="14" ry="17" transform="rotate(-6 48 46)" fill="${b.bellyColor}"/>
+      `;
+    } else if (isPooping) {
+      bodySvg = `
+        <path class="pet-body-core pet-body-poop" d="M 32 58 C 30 45 42 36 56 36 C 68 36 78 44 76 58 C 65 62 42 62 32 58 Z" fill="${b.bodyColor}"/>
+        <path d="M 32 58 C 30 45 42 36 56 36 C 68 36 78 44 76 58 C 65 62 42 62 32 58 Z" fill="url(#body-depth-grad-${pet.id})" pointer-events="none"/>
+        <ellipse class="pet-belly-patch" cx="52" cy="50" rx="${bellyRx}" ry="${bellyRy}" fill="${b.bellyColor}" opacity="0.85"/>
+      `;
+    } else if (isPouncePlay) {
+      bodySvg = `
+        <ellipse class="pet-body-core pet-body-pounce" cx="55" cy="50" rx="${bodyRx + 2}" ry="${bodyRy - 2}" transform="rotate(7 55 50)" fill="${b.bodyColor}"/>
+        <ellipse cx="55" cy="50" rx="${bodyRx + 2}" ry="${bodyRy - 2}" transform="rotate(7 55 50)" fill="url(#body-depth-grad-${pet.id})" pointer-events="none"/>
+        <ellipse class="pet-belly-patch" cx="52" cy="52" rx="${bellyRx}" ry="${bellyRy - 2}" fill="${b.bellyColor}"/>
+      `;
+    } else if (isBelly) {
       bodySvg = `
         <ellipse cx="50" cy="46" rx="${bodyRx + 1}" ry="${bodyRy}" fill="${b.bodyColor}"/>
         <ellipse cx="50" cy="46" rx="${bodyRx + 1}" ry="${bodyRy}" fill="url(#body-depth-grad-${pet.id})" pointer-events="none"/>
@@ -427,22 +598,6 @@ export class PetRenderer {
           <ellipse cx="50" cy="46" rx="10" ry="7" fill="${b.bellyColor}" opacity="0.8"/>
         </g>
       `;
-    }
-
-    // ขนาดเงาตกกระทบพื้นตามรูปร่างและอิริยาบถ
-    let shadowRx = 24;
-    let shadowRy = 4.5;
-    let shadowCy = 69;
-    if (build === 'chubby') shadowRx = 27;
-    else if (build === 'chunky_loaf') shadowRx = 30;
-    else if (build === 'slim') shadowRx = 21;
-
-    if (isLoaf || isCurl || isBelly) {
-      shadowCy = 67;
-      shadowRx += 3;
-      shadowRy = 5.5;
-    } else if (isSitting) {
-      shadowCy = 68;
     }
 
     return `
@@ -502,9 +657,9 @@ export class PetRenderer {
           <ellipse class="pet-head" cx="50" cy="33" rx="${isFluffy ? 23 : 21}" ry="${isFluffy ? 18 : 16}" fill="${b.bodyColor}"/>
           <ellipse cx="50" cy="33" rx="${isFluffy ? 23 : 21}" ry="${isFluffy ? 18 : 16}" fill="url(#head-depth-grad-${pet.id})" pointer-events="none"/>
           
-          <!-- Cute Cheeks -->
-          <ellipse cx="38" cy="37" rx="8" ry="6" fill="${b.bellyColor}" opacity="0.8"/>
-          <ellipse cx="62" cy="37" rx="8" ry="6" fill="${b.bellyColor}" opacity="0.8"/>
+          <!-- Cute Cheeks (dynamically scaled by build) -->
+          <ellipse cx="38" cy="37" rx="${cheekRx}" ry="${cheekRy}" fill="${b.bellyColor}" opacity="0.8"/>
+          <ellipse cx="62" cy="37" rx="${cheekRx}" ry="${cheekRy}" fill="${b.bellyColor}" opacity="0.8"/>
 
           <!-- Blush Circles -->
           <circle cx="35" cy="37" r="4.5" fill="url(#blush-grad-${pet.id})"/>

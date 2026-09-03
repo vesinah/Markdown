@@ -174,4 +174,89 @@ export class PetPersonality {
     const energy = pet.personality?.energy || 50;
     return energy > 65;
   }
+
+  // คำนวณระยะหน่วงเวลาการตัดสินใจ (Decision Interval) ตาม Energy และ Diligence
+  static getDecisionInterval(pet) {
+    const energy = Math.max(0, Math.min(100, pet?.personality?.energy ?? 50));
+    const diligence = Math.max(0, Math.min(100, pet?.personality?.diligence ?? 50));
+    const base = Math.max(2500, 9000 - 4500 * (energy / 100) - 2000 * (diligence / 100));
+    return base + (Math.random() - 0.5) * 800;
+  }
+
+  // คำนวณความถี่ในการพูด (Speech Interval) ตาม Talkativeness
+  static getSpeechInterval(pet, baseInterval = 40000) {
+    const talk = Math.max(0, Math.min(100, pet?.personality?.talkativeness ?? 50));
+    return Math.max(10000, baseInterval * (1.75 - 1.25 * (talk / 100)));
+  }
+
+  // คำนวณความเร็วการเคลื่อนที่ (Movement Speed) พิกเซล/วินาที
+  static getMovementSpeed(pet, baseSpeed = 55) {
+    const mult = pet?.state === 'run' ? 140 : baseSpeed;
+    return this.calculateWalkSpeed(pet) * mult;
+  }
+
+  // คำนวณรัศมีตรวจจับเพื่อนแมว (Detection Aura) ตาม Sociability
+  static calculateDetectionAura(pet) {
+    const soc = Math.max(0, Math.min(100, pet?.personality?.sociability ?? 50));
+    return Math.max(100, Math.min(300, 110 + 170 * (soc / 100)));
+  }
+
+  // คำนวณความเข้ากันได้ระหว่างแมวสองตัว (Compatibility Score 0 - 100)
+  static calculateCompatibility(petA, petB) {
+    const p1 = petA?.personality || { energy: 50, sociability: 50, affection: 50 };
+    const p2 = petB?.personality || { energy: 50, sociability: 50, affection: 50 };
+    const e1 = p1.energy ?? 50, e2 = p2.energy ?? 50;
+    const s1 = p1.sociability ?? 50, s2 = p2.sociability ?? 50;
+    const a1 = p1.affection ?? 50, a2 = p2.affection ?? 50;
+    const diff = (Math.abs(e1 - e2) + Math.abs(s1 - s2) + Math.abs(a1 - a2)) / 3;
+    return Math.max(0, 100 - diff);
+  }
+
+  // เลือกลำดับท่าทางถัดไปจากน้ำหนักความน่าจะเป็น (Weighted State Lottery) อิง 6 แกน
+  static evaluateNextState(pet, availableStates = null) {
+    const p = pet?.personality || {
+      intelligence: 50, diligence: 50, energy: 50,
+      talkativeness: 50, affection: 50, sociability: 50
+    };
+
+    const intel = p.intelligence ?? 50;
+    const dil = p.diligence ?? 50;
+    const ene = p.energy ?? 50;
+    const aff = p.affection ?? 50;
+    const soc = p.sociability ?? 50;
+
+    // ตารางน้ำหนักคะแนนตามแกนบุคลิกภาพ
+    const weights = {
+      walk: 20 + (ene * 0.3) + (dil * 0.15),
+      sit: 15 + (dil * 0.2),
+      groom: 10 + (intel * 0.15),
+      two_legged: 8 + (aff * 0.25) + (intel * 0.1),
+      batting_ball: 6 + (ene * 0.25),
+      scratch: 7 + ((100 - intel) * 0.15) + (ene * 0.1),
+      pounce_play: 5 + (ene * 0.2) + (soc * 0.15),
+      sleep_loaf: 10 + ((100 - dil) * 0.3) + ((100 - ene) * 0.2),
+      sleep_belly: 6 + ((100 - dil) * 0.25) + (aff * 0.15),
+      derpy_yawn: 6 + ((100 - intel) * 0.2) + ((100 - ene) * 0.15)
+    };
+
+    const states = availableStates || Object.keys(weights);
+    let totalWeight = 0;
+    const pool = [];
+
+    for (const st of states) {
+      const w = Math.max(1, weights[st] || 5);
+      totalWeight += w;
+      pool.push({ state: st, threshold: totalWeight });
+    }
+
+    const roll = Math.random() * totalWeight;
+    for (const item of pool) {
+      if (roll <= item.threshold) {
+        return item.state;
+      }
+    }
+
+    return 'sit';
+  }
 }
+

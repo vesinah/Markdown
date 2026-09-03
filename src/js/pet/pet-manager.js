@@ -8,6 +8,7 @@ import { PetPersonality } from './pet-personality.js';
 import { PET_DIALOGUES, getRandomDialogue, formatDialogue } from './pet-dialogues.js';
 import { PetEnvironment } from './pet-environment.js';
 import { PetRenderer } from './pet-render.js';
+import { PetHygiene } from './pet-hygiene.js';
 import { PetSocial } from './pet-social.js';
 import { PetUI } from './pet-ui.js';
 
@@ -22,6 +23,7 @@ export const PetManager = {
     petScale: 1.0
   },
   environment: PetEnvironment,
+  hygiene: PetHygiene,
   layerEl: null,
   dockBtnEl: null,
   readingStartTime: Date.now(),
@@ -31,6 +33,9 @@ export const PetManager = {
   rafId: null,
   lastRafTime: 0,
   fatigueTriggered: false,
+  keystrokes: [],
+  lastFastTypingReaction: 0,
+  isUserIdle: false,
 
   // 1. การเริ่มต้นระบบ
   async init() {
@@ -41,19 +46,26 @@ export const PetManager = {
       // เริ่มต้นระบบสภาพแวดล้อมและของเล่น
       await this.environment.init(this.layerEl);
 
+      // เริ่มต้นระบบสุขอนามัย (Poop & Fly Swarm)
+      await PetHygiene.init(this.layerEl, Store);
+
       // โหลดข้อมูลแมวและตั้งค่า
       await this.loadState();
 
       // ตรวจจับการขยับเมาส์/แป้นพิมพ์
       const onAct = (e) => {
         this.lastUserActivity = Date.now();
+        if (this.isUserIdle) this.isUserIdle = false;
         if (e && typeof e.clientX === 'number') {
           this.mousePos.x = e.clientX;
           this.mousePos.y = e.clientY;
         }
       };
       window.addEventListener('mousemove', onAct, { passive: true });
-      window.addEventListener('keydown', onAct, { passive: true });
+      window.addEventListener('keydown', (e) => {
+        onAct(e);
+        this.recordUserKeystroke();
+      }, { passive: true });
       window.addEventListener('scroll', onAct, { passive: true });
 
       // ปิด Context Menu เมื่อคลิกที่อื่น
@@ -75,6 +87,11 @@ export const PetManager = {
       // เริ่ม Loop ควบคุม AI และฟิสิกส์
       this.startLoop();
       this.applySpeechFontSize();
+
+      // ลบแถบเครื่องมือลอยเกะกะ คืนพื้นที่การอ่านเอกสารให้โล่งสะอาดตาตามความต้องการของผู้ใช้
+      const existingBar = document.getElementById('pet-control-bar');
+      if (existingBar) existingBar.remove();
+
       console.log(`[PetManager] Initialized with ${this.pets.length} cats and environment props.`);
     } catch (err) {
       console.warn('[PetManager] init error:', err.message);
@@ -124,8 +141,9 @@ export const PetManager = {
   updateDockBadge() {
     const badge = document.getElementById('pet-badge-count');
     if (badge) {
-      badge.textContent = this.pets.length;
-      badge.style.display = this.pets.length > 0 ? 'flex' : 'none';
+      const visibleCount = this.pets.filter(p => !p.hidden).length;
+      badge.textContent = visibleCount;
+      badge.style.display = visibleCount > 0 ? 'flex' : 'none';
     }
   },
 
@@ -194,7 +212,8 @@ export const PetManager = {
         y: Math.round(p.y),
         facing: p.facing,
         scale: p.scale,
-        isStaying: p.isStaying
+        isStaying: p.isStaying,
+        hidden: !!p.hidden
       }));
       await Store.set('pets', petsData);
       await Store.set('pet_settings', this.settings);
@@ -227,6 +246,7 @@ export const PetManager = {
       isDragged: false,
       isBlocked: false,
       isStaying: !!data.isStaying,
+      hidden: !!data.hidden,
       stateTimer: 0,
       speechTimer: 0,
       el: null
@@ -240,6 +260,7 @@ export const PetManager = {
     existing.forEach(el => el.remove());
 
     this.pets.forEach(pet => {
+      if (pet.hidden) return;
       const el = PetRenderer.createPetElement(pet);
       pet.el = el;
       this.bindPetEvents(el, pet);
@@ -387,7 +408,9 @@ export const PetManager = {
     bubbleWrap.title = 'คลิกเพื่อปิดข้อความนี้';
 
     // จัดทิศทางกล่องไม่ให้ล้นออกนอกจอ
-    const petRect = pet.el.getBoundingClientRect();
+    const petRect = (pet.el && typeof pet.el.getBoundingClientRect === 'function') 
+      ? pet.el.getBoundingClientRect() 
+      : { left: pet.x || 100, right: (pet.x || 100) + 80 };
     if (petRect.left < 80) {
       bubbleWrap.style.left = '20px';
       bubbleWrap.style.transform = 'none';
@@ -574,6 +597,54 @@ export const PetManager = {
     }
   },
 
+  // 10.1 ตรวจจับความเร็วการพิมพ์ของผู้ใช้ (Keystroke Velocity Tracker >4 keys/s)
+  recordUserKeystroke() {
+    const now = Date.now();
+    this.lastUserActivity = now;
+    if (this.isUserIdle) {
+      this.isUserIdle = false;
+    }
+    this.keystrokes = (this.keystrokes || []).filter(t => now - t < 1500);
+    this.keystrokes.push(now);
+
+    // คำนวณความเร็วการพิมพ์ (keys / second)
+    if (this.keystrokes.length >= 5) {
+      const duration = (now - this.keystrokes[0]) / 1000;
+      const rate = (this.keystrokes.length - 1) / Math.max(0.1, duration);
+      if (rate > 4.0 && now - (this.lastFastTypingReaction || 0) > 30000 && this.pets.length > 0) {
+        this.lastFastTypingReaction = now;
+        const chosen = this.pets[Math.floor(Math.random() * this.pets.length)];
+        if (!chosen.isSpeaking && !chosen.isDragged) {
+          const lines = PET_DIALOGUES.typingSpeedFast || ['พิมพ์เร็วจังทาส! มือเป็นระวิงเลย!'];
+          const msg = lines[Math.floor(Math.random() * lines.length)];
+          chosen.state = 'two_legged';
+          PetRenderer.updatePetVisuals(chosen.el, chosen);
+          PetUI.spawnFx('star', chosen.x + 35, chosen.y + 10, this.layerEl);
+          this.say(chosen, msg, 4000);
+        }
+      }
+    }
+  },
+
+  // 10.2 ตรวจจับเมื่อผู้ใช้ไม่ได้แตะจอ (User Inactivity Monitor >50s)
+  checkUserInactivity() {
+    const now = Date.now();
+    const idleDuration = now - this.lastUserActivity;
+    if (idleDuration > 50000 && !this.isUserIdle && this.pets.length > 0) {
+      this.isUserIdle = true;
+      const chosen = this.pets[Math.floor(Math.random() * this.pets.length)];
+      if (!chosen.isSpeaking && !chosen.isDragged) {
+        if (Math.random() < 0.6) {
+          chosen.state = 'sleep_loaf';
+          PetRenderer.updatePetVisuals(chosen.el, chosen);
+        }
+        const lines = PET_DIALOGUES.userIdle || ['ทาส... แอบหลับไปแล้วเหรอ? เหมียวสะกิดๆ นะ'];
+        const msg = lines[Math.floor(Math.random() * lines.length)];
+        this.say(chosen, msg, 4500);
+      }
+    }
+  },
+
   // 11. Main Behavior & Physics Loop (60 FPS Smooth Motion + AI Loop)
   startLoop() {
     if (this.loopTimer) clearInterval(this.loopTimer);
@@ -607,7 +678,7 @@ export const PetManager = {
 
   updateMotionPhysics(dt) {
     this.pets.forEach(pet => {
-      if (pet.isDragged) return;
+      if (pet.hidden || pet.isDragged) return;
 
       // สำคัญมาก: ห้ามแมวขยับตำแหน่งเด็ดขาดในขณะที่กำลังพูด เพื่อให้กล่องข้อความนิ่งสนิทอ่านสบายตา
       if (pet.isSpeaking) {
@@ -620,9 +691,8 @@ export const PetManager = {
         const dy = pet.targetY !== null ? pet.targetY - pet.y : 0;
         const dist = Math.hypot(dx, dy);
 
-        // ความเร็วพิกเซลต่อวินาที (Smooth continuous velocity)
-        const speedMultiplier = (pet.state === 'run' ? 140 : 55);
-        const walkSpeed = PetPersonality.calculateWalkSpeed(pet) * speedMultiplier;
+        // ความเร็วพิกเซลต่อวินาที (Smooth continuous velocity via 6-Axis AI Engine)
+        const walkSpeed = PetPersonality.getMovementSpeed(pet, 55);
         const step = walkSpeed * dt;
 
         if (dist > 3) {
@@ -637,7 +707,10 @@ export const PetManager = {
           if (pet.targetY !== null) pet.y = pet.targetY;
           pet.targetX = null;
           pet.targetY = null;
-          if (pet.isBlocked) {
+          if (pet.targetAction) {
+            pet.state = pet.targetAction;
+            pet.targetAction = null;
+          } else if (pet.isBlocked) {
             pet.state = 'sleep_belly';
           } else {
             pet.state = 'sit';
@@ -647,32 +720,94 @@ export const PetManager = {
         }
       }
     });
+
+    // อัปเดตฝูงแมลงวันและระบบสุขอนามัยแบบ 60 FPS
+    PetHygiene.update(dt);
+
+    // อัปเดตฟิสิกส์สภาพแวดล้อมและของเล่นแบบ 60 FPS
+    this.environment.updatePhysics(dt, this.mousePos);
   },
 
   tick() {
     this.checkReadingFatigue();
+    this.checkUserInactivity();
 
     // ประมวลผลสัตว์เลี้ยงทีละตัว
     this.pets.forEach(pet => {
-      if (pet.isDragged) return;
+      if (pet.hidden || pet.isDragged) return;
 
       pet.stateTimer += 200;
       pet.speechTimer += 200;
 
-      // 1. การเปลี่ยนท่าทางอัตโนมัติ (AI State Machine)
-      // ไม่อนุญาตให้เปลี่ยนท่าทางหรือเริ่มเดินถ้ากำลังพูด หรือถูกสั่งให้นอนเฝ้า หรือกำลังเดินอยู่
-      if (!pet.isStaying && !pet.isBlocked && !pet.isSpeaking && pet.targetX === null) {
-        if (pet.stateTimer > 7000 + Math.random() * 9000) {
+      // ตรวจสอบสถานะการขับถ่าย (Pooping State lifecycle)
+      if (pet.state === 'pooping') {
+        pet.poopTimer = (pet.poopTimer || 0) + 200;
+        if (pet.poopTimer >= 3400) {
+          pet.poopTimer = 0;
+
+          // ตรวจสอบว่าขับถ่ายที่กระบะทรายหรือไม่
+          const litterBox = this.environment?.items?.find(i => i.type === 'cat_litter_box' && i.enabled);
+          const isAtLitterBox = litterBox && Math.hypot((litterBox.x + 48) - (pet.x + 35), (litterBox.y + 25) - (pet.y + 35)) < 80;
+
+          let poopX = pet.facing === 'right' ? pet.x + 8 : pet.x + 65;
+          let poopY = pet.y + 40;
+
+          if (isAtLitterBox) {
+            poopX = litterBox.x + 32 + (Math.random() - 0.5) * 16;
+            poopY = litterBox.y + 16 + (Math.random() - 0.5) * 8;
+          }
+
+          PetHygiene.spawnPoop(poopX, poopY, pet.id);
+
+          pet.state = 'scratch';
+          pet.stateTimer = 0;
+          PetRenderer.updatePetVisuals(pet.el, pet);
+          PetUI.spawnFx('star', pet.x + 35, pet.y + 10, this.layerEl);
+
+          if (isAtLitterBox) {
+            this.say(pet, 'โล่งพุงจังเลยเหมียว~ ถ่ายในกระบะทรายเรียบร้อยสะอาดเอี่ยม! 🏖️✨', 3500);
+          } else {
+            this.say(pet, 'โล่งพุงจังเลยเหมียว~ ไม่มีกระบะทราย ขออึเพ่นพ่านตรงนี้ละกัน! 💩', 3500);
+          }
+          return;
+        }
+      }
+
+      // คืนสู่ท่าทางปกติเมื่อเล่นท่าพิเศษครบเวลา
+      if (pet.state === 'two_legged' && pet.stateTimer > 4200) {
+        pet.state = 'sit';
+        pet.stateTimer = 0;
+        PetRenderer.updatePetVisuals(pet.el, pet);
+      } else if (pet.state === 'batting_ball' && pet.stateTimer > 3600) {
+        pet.state = 'sit';
+        pet.stateTimer = 0;
+        PetRenderer.updatePetVisuals(pet.el, pet);
+      } else if (pet.state === 'pounce_play' && pet.stateTimer > 3200) {
+        pet.state = 'groom';
+        pet.stateTimer = 0;
+        PetRenderer.updatePetVisuals(pet.el, pet);
+      } else if (pet.state === 'scratch' && pet.stateTimer > 3000) {
+        pet.state = 'sit';
+        pet.stateTimer = 0;
+        PetRenderer.updatePetVisuals(pet.el, pet);
+      }
+
+      // 1. การเปลี่ยนท่าทางอัตโนมัติ (AI State Machine อิง Decision Interval ตาม Energy & Diligence)
+      // ไม่อนุญาตให้เปลี่ยนท่าทางหรือเริ่มเดินถ้ากำลังพูด หรือถูกสั่งให้นอนเฝ้า หรือกำลังเดินอยู่ หรือกำลังขับถ่าย
+      if (!pet.isStaying && !pet.isBlocked && !pet.isSpeaking && pet.targetX === null && pet.state !== 'pooping') {
+        const decisionInterval = PetPersonality.getDecisionInterval(pet);
+        if (pet.stateTimer > decisionInterval) {
           pet.stateTimer = 0;
           this.decideNextPetAction(pet);
         }
       }
 
-      // 2. การพูดคุยตามความถี่ (ไม่พูดซ้อนถ้ายังพูดไม่จบ)
-      let speechInterval = 40000;
-      if (this.settings.speechFreq === 'often') speechInterval = 22000;
-      else if (this.settings.speechFreq === 'rare') speechInterval = 80000;
+      // 2. การพูดคุยตามความถี่ (อิง Talkativeness Axis และ Global Setting)
+      let baseInterval = 40000;
+      if (this.settings.speechFreq === 'often') baseInterval = 22000;
+      else if (this.settings.speechFreq === 'rare') baseInterval = 80000;
 
+      const speechInterval = PetPersonality.getSpeechInterval(pet, baseInterval);
       if (this.settings.speechFreq !== 'off' && !pet.isSpeaking && pet.speechTimer > speechInterval) {
         pet.speechTimer = 0;
         this.triggerRandomPetSpeech(pet);
@@ -694,50 +829,125 @@ export const PetManager = {
     }
   },
 
+  // นำทางแมวไปยังสิ่งของ/เฟอร์นิเจอร์ พร้อมบันทึก targetAction
+  navigateToItem(pet, itemId, targetAction) {
+    const item = this.environment.items.find(i => i.id === itemId || i.type === itemId);
+    if (!item) return;
+    const def = ENV_ITEM_DEFS[item.type];
+    let destX = item.x;
+    let destY = item.y;
+
+    if (item.type === 'cat_condo') {
+      destX = item.x + (def?.perchX || 42);
+      destY = item.y + (def?.perchY || -35);
+    } else if (item.type === 'cat_house') {
+      destX = item.x + (def?.insideX || 18);
+      destY = item.y + (def?.insideY || -8);
+    } else if (item.type === 'cat_bed') {
+      destX = item.x + (def?.cushionX || 10);
+      destY = item.y + (def?.cushionY || -6);
+    } else if (item.type === 'cat_scratcher') {
+      destX = item.x + (def?.scratchX || 8);
+      destY = item.y + (def?.scratchY || 10);
+    } else if (item.type === 'cat_litter_box') {
+      destX = item.x + (def?.boxX || 20);
+      destY = item.y + (def?.boxY || -8);
+    }
+
+    pet.targetX = destX;
+    pet.targetY = destY;
+    pet.targetAction = targetAction;
+    pet.state = 'walk';
+    PetRenderer.updatePetVisuals(pet.el, pet);
+  },
+
   // ตัดสินใจการกระทำถัดไปของแมว (อิง 6 แกนนิสัย & เฟอร์นิเจอร์)
   decideNextPetAction(pet) {
     if (pet.isSpeaking) return;
     const p = pet.personality || { energy: 50, diligence: 50, affection: 50 };
 
-    // เช็คสภาพแวดล้อมใกล้ตัว (เตียง, กล่อง, คอนโด, ไหมพรม, ที่ฝนเล็บ)
-    const nearestEnv = this.environment.findNearestInteractiveItem(pet, 180);
+    // 1. ตรวจจับของเล่นประเภทเลเซอร์พอยเตอร์ (Laser Dot chasing)
+    const laser = this.environment.items.find(i => i.type === 'laser_dot' && i.enabled);
+    if (laser && (p.energy > 55 || Math.random() < 0.35)) {
+      pet.targetX = laser.x;
+      pet.targetY = laser.y;
+      pet.targetAction = 'batting_ball';
+      pet.state = 'run';
+      PetRenderer.updatePetVisuals(pet.el, pet);
+      return;
+    }
+
+    // 2. ตรวจจับไม้ตกแมวขนนก (Feather Teaser Wand)
+    const wand = this.environment.items.find(i => i.type === 'feather_wand' && i.enabled);
+    if (wand && Math.hypot(wand.x - pet.x, wand.y - pet.y) < 260 && Math.random() < 0.4) {
+      pet.targetX = wand.x + 10;
+      pet.targetY = wand.y + 15;
+      pet.targetAction = 'pounce';
+      pet.state = 'walk';
+      PetRenderer.updatePetVisuals(pet.el, pet);
+      return;
+    }
+
+    // 3. เช็คสภาพแวดล้อมใกล้ตัว (เตียง, กล่อง, คอนโด, ไหมพรม, ที่ฝนเล็บ)
+    const nearestEnv = this.environment.findNearestInteractiveItem(pet, 220);
 
     // แมวง่วง / ขี้เกียจ -> แวะไปนอนที่เบาะ หรือมุดกล่อง
-    if (nearestEnv && PetPersonality.prefersResting(pet) && Math.random() < 0.45) {
+    if (nearestEnv && PetPersonality.prefersResting(pet) && Math.random() < 0.5) {
       if (nearestEnv.item.type === 'cat_bed') {
-        pet.targetX = nearestEnv.item.x + 10;
-        pet.targetY = nearestEnv.item.y - 10;
-        pet.state = 'walk';
-        PetRenderer.updatePetVisuals(pet.el, pet);
+        this.navigateToItem(pet, nearestEnv.item.id, 'sleep_curl');
         return;
       } else if (nearestEnv.item.type === 'cat_house') {
-        pet.targetX = nearestEnv.item.x + 15;
-        pet.targetY = nearestEnv.item.y - 12;
-        pet.state = 'walk';
-        PetRenderer.updatePetVisuals(pet.el, pet);
+        this.navigateToItem(pet, nearestEnv.item.id, 'in_box');
         return;
       } else if (nearestEnv.item.type === 'cat_condo') {
-        pet.targetX = nearestEnv.item.x + 35;
-        pet.targetY = nearestEnv.item.y - 30;
-        pet.state = 'walk';
-        PetRenderer.updatePetVisuals(pet.el, pet);
+        this.navigateToItem(pet, nearestEnv.item.id, Math.random() < 0.5 ? 'on_condo' : 'scratch');
         return;
       }
     }
 
     // แมวซน / พลังงานสูง -> แวะไปเล่นลูกบอลไหมพรม หรือฝนเล็บ
-    if (nearestEnv && PetPersonality.prefersToyPlay(pet) && Math.random() < 0.5) {
+    if (nearestEnv && PetPersonality.prefersToyPlay(pet) && Math.random() < 0.55) {
       if (nearestEnv.item.type === 'cat_toy_yarn') {
-        pet.state = 'play_toy';
+        pet.state = 'batting_ball';
         PetRenderer.updatePetVisuals(pet.el, pet);
         this.environment.rollYarnBall(pet.facing === 'right' ? 6 : -6);
         return;
       } else if (nearestEnv.item.type === 'cat_scratcher') {
-        pet.state = 'scratch';
-        PetRenderer.updatePetVisuals(pet.el, pet);
+        this.navigateToItem(pet, nearestEnv.item.id, 'scratch');
         PetUI.spawnFx('star', pet.x + 35, pet.y + 10, this.layerEl);
         return;
       }
+    }
+
+    // ขับถ่ายตามธรรมชาติ (Pooping State with cooldown)
+    if (Math.random() < 0.04 && (!pet.lastPoopTime || Date.now() - pet.lastPoopTime > 40000)) {
+      pet.lastPoopTime = Date.now();
+      pet.poopTimer = 0;
+
+      // ตรวจสอบว่ามีกระบะทรายแมววางอยู่บนหน้าจอหรือไม่
+      const litterBox = this.environment?.items?.find(i => i.type === 'cat_litter_box' && i.enabled);
+      if (litterBox) {
+        // ถ้ามีกระบะทราย แมวจะเดินไปยังกระบะทรายเพื่อขับถ่ายอย่างเป็นระเบียบ!
+        this.navigateToItem(pet, litterBox.id, 'pooping');
+        return;
+      }
+
+      // ถ้าไม่มีกระบะทราย แมวจะขับถ่ายเพ่นพ่านเรี่ยราดบนหน้าจอ!
+      pet.targetX = null;
+      pet.targetY = null;
+      pet.state = 'pooping';
+      PetRenderer.updatePetVisuals(pet.el, pet);
+      return;
+    }
+
+    // ยืนสองขาอ้อนเมื่อเคอร์เซอร์เมาส์อยู่ใกล้
+    if (this.mousePos.x > 0 && Math.hypot(this.mousePos.x - pet.x, this.mousePos.y - pet.y) < 150 && Math.random() < 0.32) {
+      pet.targetX = null;
+      pet.targetY = null;
+      pet.facing = this.mousePos.x > pet.x ? 'right' : 'left';
+      pet.state = 'two_legged';
+      PetRenderer.updatePetVisuals(pet.el, pet);
+      return;
     }
 
     // ติดตามเคอร์เซอร์เมาส์ถ้าขี้อ้อน
@@ -748,27 +958,13 @@ export const PetManager = {
       return;
     }
 
-    // สุ่มท่าทางทั่วไป
-    const r = Math.random();
-    if (r < 0.3) {
-      // เดินเล่นสุ่มจุด
+    // สุ่มท่าทางและอิริยาบถทั่วไปด้วย 6-Axis Weighted State Lottery
+    const nextState = PetPersonality.evaluateNextState(pet);
+    if (nextState === 'walk') {
       pet.targetX = Math.max(40, Math.min(window.innerWidth - 120, pet.x + (Math.random() - 0.5) * 260));
       pet.state = 'walk';
-    } else if (r < 0.5) {
-      // นั่งมองรอบตัว
-      pet.state = 'sit';
-    } else if (r < 0.65) {
-      // เลียแต่งขน
-      pet.state = 'groom';
-    } else if (r < 0.8) {
-      // นอนก้อนขนมปัง
-      pet.state = 'sleep_loaf';
-    } else if (r < 0.9) {
-      // หาวววว
-      pet.state = 'derpy_yawn';
     } else {
-      // นอนหงายแผ่พุง
-      pet.state = 'sleep_belly';
+      pet.state = nextState;
     }
     PetRenderer.updatePetVisuals(pet.el, pet);
   },
@@ -839,6 +1035,46 @@ export const PetManager = {
     this.saveState();
   },
 
+  // ซ่อน / แสดง น้องแมวบนหน้าจอ โดยยังคงข้อมูลไว้ครบถ้วน
+  setPetVisibility(petId, isVisible) {
+    const pet = this.pets.find(p => p.id === petId);
+    if (!pet) return;
+    pet.hidden = !isVisible;
+
+    if (pet.hidden) {
+      if (pet.el) {
+        pet.el.remove();
+        pet.el = null;
+      }
+      if (pet.bubbleEl) {
+        pet.bubbleEl.remove();
+        pet.bubbleEl = null;
+      }
+      pet.targetX = null;
+      pet.targetY = null;
+      pet.targetAction = null;
+    } else {
+      if (!pet.el && this.layerEl) {
+        const el = PetRenderer.createPetElement(pet);
+        pet.el = el;
+        this.bindPetEvents(el, pet);
+        this.layerEl.appendChild(el);
+        this.updatePetDomPosition(pet);
+        PetUI.spawnFx('star', pet.x + 35, pet.y + 10, this.layerEl);
+        this.say(pet, `กลับมาแล้วเหมียว~! คิดถึงจัง 💖`, 3000);
+      }
+    }
+    this.updateDockBadge();
+    this.saveState();
+  },
+
+  togglePetVisibility(petId) {
+    const pet = this.pets.find(p => p.id === petId);
+    if (!pet) return false;
+    this.setPetVisibility(petId, !!pet.hidden);
+    return !pet.hidden;
+  },
+
   // 13. การเปิดหน้าต่างจัดการและเมนูบริบท
   openManagementModal() {
     PetUI.openManagementModal(this);
@@ -846,5 +1082,25 @@ export const PetManager = {
 
   openContextMenu(x, y, pet) {
     PetUI.openContextMenu(x, y, pet, this);
+  },
+
+  // 14. Helper triggers สำหรับการทดสอบและสั่งงานอิริยาบถพิเศษ
+  triggerPoop(pet = null) {
+    const targetPet = pet || this.pets[0];
+    if (!targetPet) return;
+    targetPet.targetX = null;
+    targetPet.targetY = null;
+    targetPet.poopTimer = 0;
+    targetPet.state = 'pooping';
+    PetRenderer.updatePetVisuals(targetPet.el, targetPet);
+  },
+
+  triggerTwoLegged(pet = null) {
+    const targetPet = pet || this.pets[0];
+    if (!targetPet) return;
+    targetPet.targetX = null;
+    targetPet.targetY = null;
+    targetPet.state = 'two_legged';
+    PetRenderer.updatePetVisuals(targetPet.el, targetPet);
   }
 };

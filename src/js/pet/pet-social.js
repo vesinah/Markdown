@@ -58,6 +58,45 @@ export const PetSocial = {
       return;
     }
 
+    // กรณีหยอกล้อ กระโดดงับคอ (Playful Pounce & Neck-Bite Sequence)
+    if ((p1.energy >= 50 || p2.energy >= 50) && Math.random() < 0.35) {
+      const attacker = (p1.energy >= p2.energy) ? pet1 : pet2;
+      const target = attacker === pet1 ? pet2 : pet1;
+
+      attacker.state = 'pounce_play';
+      attacker.facing = attacker.x < target.x ? 'right' : 'left';
+      target.state = 'sit';
+      target.facing = attacker.facing === 'right' ? 'left' : 'right';
+      PetRenderer.updatePetVisuals(attacker.el, attacker);
+      PetRenderer.updatePetVisuals(target.el, target);
+
+      if (spawnFxCallback) {
+        spawnFxCallback('star', (attacker.x + target.x) / 2 + 35, Math.min(attacker.y, target.y) + 10);
+      }
+
+      const initLines = PET_DIALOGUES.neckBiteInitiator || ['แฮ่! โดดงับคอ {other} ซะเลย! หง่ำๆๆ!'];
+      const initRaw = initLines[Math.floor(Math.random() * initLines.length)];
+      const initMsg = formatDialogue(initRaw, { petName: attacker.name, otherPetName: target.name });
+
+      if (sayCallback) {
+        sayCallback(attacker, initMsg, 3500);
+      }
+
+      setTimeout(() => {
+        if (!target.isDragged && !target.isSpeaking) {
+          const recLines = PET_DIALOGUES.neckBiteReceiver || ['เหวอออ! {name} เล่นอะไรเนี่ย คอเกือบเคล็ดแล้วนะ!'];
+          const recRaw = recLines[Math.floor(Math.random() * recLines.length)];
+          const recMsg = formatDialogue(recRaw, { petName: attacker.name, otherPetName: target.name });
+          target.state = 'groom';
+          PetRenderer.updatePetVisuals(target.el, target);
+          if (sayCallback) {
+            sayCallback(target, recMsg, 3500);
+          }
+        }
+      }, 3800);
+      return;
+    }
+
     // กรณีทั้งคู่พลังงานสูง (Energy > 65) -> ทักทายกันจนจบก่อน ค่อยออกวิ่งไล่จับกัน
     if (p1.energy > 65 && p2.energy > 65 && Math.random() < 0.45) {
       pet1.state = 'sit';
@@ -126,5 +165,10 @@ export const PetSocial = {
     if (sayCallback) {
       sayCallback(pet1, text, 4500);
     }
+  },
+
+  // Facade method matching PROJECT.md interface contract
+  checkMultiPetInteractions(petA, petB, dt, sayCallback, spawnFxCallback) {
+    return this.checkSocialInteraction(petA, petB, sayCallback, spawnFxCallback);
   }
 };

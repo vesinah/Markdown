@@ -13,8 +13,17 @@ export const TAIL_TYPES = {
 export const BODY_BUILDS = {
   chubby: { id: 'chubby', name: 'อ้วนกลมตุ้ยนุ้ย', scaleX: 1.08, scaleY: 1.05, bellyOffset: 2 },
   normal: { id: 'normal', name: 'สมส่วนมาตรฐาน', scaleX: 1.0, scaleY: 1.0, bellyOffset: 0 },
+  skinny: { id: 'skinny', name: 'ผอมเพรียวคล่องแคล่ว', scaleX: 0.94, scaleY: 0.96, bellyOffset: -2 },
   slim: { id: 'slim', name: 'ผอมเพรียวคล่องแคล่ว', scaleX: 0.94, scaleY: 0.96, bellyOffset: -2 },
   chunky_loaf: { id: 'chunky_loaf', name: 'ก้อนขนมปังยักษ์', scaleX: 1.15, scaleY: 1.02, bellyOffset: 4 }
+};
+
+export const SPECIAL_MARKINGS = {
+  none: { id: 'none', name: 'ไม่มีแต้มพิเศษ' },
+  blaze: { id: 'blaze', name: 'แต้มเปลวไฟ/ดาวหน้าผาก' },
+  eye_patch: { id: 'eye_patch', name: 'ปานปิดตาข้างเดียว' },
+  socks: { id: 'socks', name: 'ถุงเท้าขาว 4 ข้าง' },
+  heart_butt: { id: 'heart_butt', name: 'แต้มหัวใจที่สะโพก' }
 };
 
 export const PET_BREEDS = {
@@ -243,6 +252,47 @@ export const PET_BREEDS = {
     noseColor: '#ff758f',
     earType: 'fluffy_tuft',
     pattern: 'persian_white'
+  },
+
+  // 12. แมวทักซิโด้
+  tuxedo: {
+    id: 'tuxedo',
+    name: 'แมวทักซิโด้ (Tuxedo)',
+    shortName: 'ทักซิโด้',
+    desc: 'ใส่สูททักซิโด้สีดำขลับ อกขาว ผูกโบว์ ถุงเท้าขาว 4 ขา ฉลาดและขี้เล่นสง่างาม',
+    furType: 'short',
+    defaultTail: 'long',
+    defaultBuild: 'normal',
+    bodyColor: '#1e293b',
+    bellyColor: '#ffffff',
+    pointColor: '#0f172a',
+    innerEarColor: '#f4acb7',
+    eyeColor: '#52b788',
+    pupilColor: '#0f172a',
+    noseColor: '#ff758f',
+    earType: 'normal',
+    pattern: 'tuxedo'
+  },
+
+  // 13. แมวขาวแต้มดำลายวัว (Cow Print)
+  white_black_spotted: {
+    id: 'white_black_spotted',
+    name: 'แมวขาวแต้มดำลายวัว (Cow Cat)',
+    shortName: 'ลายวัวขาวดำ',
+    desc: 'แมวขาวลายวัว รอยด่างสีดำกระจายทั่วลำตัว น่ารักทะเล้น ปานปิดตาข้างเดียว',
+    furType: 'short',
+    defaultTail: 'curved',
+    defaultBuild: 'chubby',
+    bodyColor: '#faf8f5',
+    bellyColor: '#ffffff',
+    pointColor: '#1e293b',
+    patchColor: '#0f172a',
+    innerEarColor: '#f4acb7',
+    eyeColor: '#4895ef',
+    pupilColor: '#0f172a',
+    noseColor: '#ff758f',
+    earType: 'normal',
+    pattern: 'white_black_spotted'
   }
 };
 
@@ -265,5 +315,10 @@ export function getRandomTailType() {
 
 export function getRandomBodyBuild() {
   const keys = Object.keys(BODY_BUILDS);
+  return keys[Math.floor(Math.random() * keys.length)];
+}
+
+export function getRandomSpecialMarking() {
+  const keys = Object.keys(SPECIAL_MARKINGS);
   return keys[Math.floor(Math.random() * keys.length)];
 }

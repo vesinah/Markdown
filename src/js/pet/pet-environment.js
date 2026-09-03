@@ -53,6 +53,34 @@ export const ENV_ITEM_DEFS = {
     scratchY: 10,
     icon: '🪵'
   },
+  laser_dot: {
+    id: 'laser_dot',
+    name: 'เลเซอร์พอยเตอร์สีแดง',
+    desc: 'จุดเลเซอร์สีแดงเปล่งประกาย ส่องไปมาให้แมววิ่งไล่ตะครุบอย่างเมามัน',
+    width: 32,
+    height: 32,
+    isPhysicsToy: true,
+    icon: '🔴'
+  },
+  feather_wand: {
+    id: 'feather_wand',
+    name: 'ไม้ตกแมวขนนกฟรุ้งฟริ้ง',
+    desc: 'ไม้ขนนกแกว่งไกวไปมาตามแรงโน้มถ่วง ดึงดูดสายตาแมวให้กระโดดตะปบ',
+    width: 60,
+    height: 95,
+    isPhysicsToy: true,
+    icon: '🪶'
+  },
+  cat_litter_box: {
+    id: 'cat_litter_box',
+    name: 'กระบะทรายแมวอนามัย',
+    desc: 'กระบะทรายเม็ดคริสตัลสะอาด แมวจะเดินมาขับถ่ายอย่างเป็นระเบียบ ไม่ถ่ายเรี่ยราดบนหน้าจอ',
+    width: 96,
+    height: 58,
+    boxX: 20,
+    boxY: -8,
+    icon: '🏖️'
+  },
   food_bowl: {
     id: 'food_bowl',
     name: 'ชามอาหารและน้ำอัตโนมัติ',
@@ -138,6 +166,113 @@ export const PetEnvironment = {
       await Store.set('pet_environment_items', cleanData);
     } catch (e) {
       console.warn('[PetEnvironment] saveItems error:', e.message);
+    }
+  },
+
+  // สร้างหรือเสกสิ่งของลงบนหน้าจอ (Spawn Item)
+  spawnItem(type, x = null, y = null) {
+    const def = ENV_ITEM_DEFS[type] || ENV_ITEM_DEFS.cat_toy_yarn;
+    let item = this.items.find(i => i.type === type);
+    const spawnX = x !== null ? x : Math.max(80, Math.min(window.innerWidth - 150, window.innerWidth / 2 + (Math.random() - 0.5) * 200));
+    const spawnY = y !== null ? y : window.innerHeight - (def.height + 25);
+
+    if (!item) {
+      item = {
+        id: 'item_' + type + '_' + Date.now(),
+        type,
+        x: spawnX,
+        y: spawnY,
+        enabled: true
+      };
+      this.items.push(item);
+    } else {
+      item.x = spawnX;
+      item.y = spawnY;
+      item.enabled = true;
+    }
+    this.saveItems();
+    this.renderAll();
+    return item;
+  },
+
+  // นำสิ่งของออกจากหน้าจอ (Remove Item)
+  removeItem(itemId) {
+    const idx = this.items.findIndex(i => i.id === itemId || i.type === itemId);
+    if (idx !== -1) {
+      const removed = this.items.splice(idx, 1)[0];
+      if (removed.el) removed.el.remove();
+      this.saveItems();
+      return true;
+    }
+    return false;
+  },
+
+  // อัปเดตฟิสิกส์ 60 FPS ของสิ่งของและของเล่น (ลูกบอล, เลเซอร์, ไม้ตกแมว)
+  updatePhysics(dt, mousePos = null) {
+    // 1. จำลองฟิสิกส์สำหรับลูกบอลไหมพรม (Rolling Yarn Ball)
+    const yarn = this.items.find(i => i.type === 'cat_toy_yarn' && i.enabled);
+    if (yarn && yarn.vx) {
+      yarn.x += yarn.vx * 60 * dt;
+      yarn.rot = (yarn.rot || 0) + yarn.vx * 7;
+      yarn.vx *= Math.pow(0.92, dt * 60);
+      if (yarn.x < 10) { yarn.x = 10; yarn.vx = -yarn.vx * 0.5; }
+      if (yarn.x > window.innerWidth - 60) { yarn.x = window.innerWidth - 60; yarn.vx = -yarn.vx * 0.5; }
+      if (Math.abs(yarn.vx) < 0.1) yarn.vx = 0;
+      this.updateItemDomPosition(yarn);
+    }
+
+    // 2. จำลองฟิสิกส์จุดเลเซอร์สีแดง (Laser Pointer Dot)
+    const laser = this.items.find(i => i.type === 'laser_dot' && i.enabled);
+    if (laser && !laser.isDragged) {
+      if (mousePos && mousePos.x > 0 && Math.random() < 0.88) {
+        // Spring damping towards cursor
+        const spring = 0.15;
+        laser.vx = (laser.vx || 0) + (mousePos.x - laser.x) * spring;
+        laser.vy = (laser.vy || 0) + (mousePos.y - laser.y) * spring;
+        laser.vx *= 0.75;
+        laser.vy *= 0.75;
+        laser.x += laser.vx * dt * 45;
+        laser.y += laser.vy * dt * 45;
+      } else {
+        // Autonomous erratic darting mode
+        if (!laser.dartTimer || Date.now() - laser.dartTimer > 1200) {
+          laser.dartTimer = Date.now();
+          laser.vx = (Math.random() - 0.5) * 180;
+          laser.vy = (Math.random() - 0.5) * 140;
+        }
+        laser.x += (laser.vx || 0) * dt;
+        laser.y += (laser.vy || 0) * dt;
+        laser.vx = (laser.vx || 0) * 0.95;
+        laser.vy = (laser.vy || 0) * 0.95;
+      }
+      laser.x = Math.max(15, Math.min(window.innerWidth - 45, laser.x));
+      laser.y = Math.max(15, Math.min(window.innerHeight - 45, laser.y));
+      this.updateItemDomPosition(laser);
+    }
+
+    // 3. จำลองฟิสิกส์ลูกตุ้มไม้ตกแมว (Feather Teaser Wand Pendulum Kinematics)
+    const wand = this.items.find(i => i.type === 'feather_wand' && i.enabled);
+    if (wand) {
+      if (wand.angle === undefined) {
+        wand.angle = 0.35;
+        wand.angleVel = 0;
+      }
+      const gravity = 9.8;
+      const length = 1.0;
+      const damping = 0.96;
+      const angleAcc = -(gravity / length) * Math.sin(wand.angle);
+      wand.angleVel = (wand.angleVel + angleAcc * dt) * damping;
+      wand.angle += wand.angleVel * dt;
+      if (Math.abs(wand.angle) < 0.005 && Math.abs(wand.angleVel) < 0.005) {
+        wand.angle = 0;
+        wand.angleVel = 0;
+      }
+      if (wand.el) {
+        const feather = wand.el.querySelector('.wand-feather-swing');
+        if (feather) {
+          feather.style.transform = `rotate(${(wand.angle * 180) / Math.PI}deg)`;
+        }
+      }
     }
   },
 
@@ -470,6 +605,110 @@ export const PetEnvironment = {
           <!-- Cute Feather on Top -->
           <path d="M 35 12 Q 25 -2 22 2 Q 28 6 35 12" fill="#ff70a6"/>
           <path d="M 35 12 Q 45 -4 48 0 Q 42 6 35 12" fill="#ffd166"/>
+        </svg>
+      `;
+    }
+
+    if (type === 'laser_dot') {
+      return `
+        <svg viewBox="0 0 40 40" width="100%" height="100%">
+          <defs>
+            <radialGradient id="laser-glow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#ffffff"/>
+              <stop offset="25%" stop-color="#ff1744"/>
+              <stop offset="60%" stop-color="#d50000" stop-opacity="0.8"/>
+              <stop offset="100%" stop-color="#d50000" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <circle cx="20" cy="20" r="18" fill="url(#laser-glow)" class="laser-pulse-ring"/>
+          <circle cx="20" cy="20" r="5" fill="#ffffff"/>
+          <circle cx="20" cy="20" r="3" fill="#ff1744"/>
+        </svg>
+      `;
+    }
+
+    if (type === 'feather_wand') {
+      return `
+        <svg viewBox="0 0 65 100" width="100%" height="100%">
+          <!-- Handle Stick -->
+          <line x1="12" y1="10" x2="38" y2="45" stroke="#a78bfa" stroke-width="4" stroke-linecap="round"/>
+          <line x1="38" y1="45" x2="42" y2="52" stroke="#7c3aed" stroke-width="3" stroke-linecap="round"/>
+          <!-- Elastic String -->
+          <path d="M 42 52 Q 45 62 42 70" stroke="#cbd5e1" stroke-width="1.5" fill="none"/>
+          <!-- Dangling Feather Bunch with Pendulum Swing Pivot -->
+          <g class="wand-feather-swing" style="transform-origin: 42px 70px;">
+            <path d="M 42 70 Q 30 82 32 94 Q 40 92 42 70" fill="#f43f5e" opacity="0.9"/>
+            <path d="M 42 70 Q 52 82 50 95 Q 44 92 42 70" fill="#fbbf24" opacity="0.9"/>
+            <path d="M 42 70 Q 42 85 43 96 Q 40 94 42 70" fill="#38bdf8" opacity="0.9"/>
+            <!-- Bell / Bead at Joint -->
+            <circle cx="42" cy="70" r="3" fill="#f59e0b"/>
+            <circle cx="41" cy="69" r="1" fill="#ffffff"/>
+          </g>
+        </svg>
+      `;
+    }
+
+    if (type === 'cat_litter_box') {
+      return `
+        <svg viewBox="0 0 100 62" width="100%" height="100%">
+          <defs>
+            <radialGradient id="litter-shadow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#0f172a" stop-opacity="0.32"/>
+              <stop offset="70%" stop-color="#0f172a" stop-opacity="0.08"/>
+              <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+            </radialGradient>
+            <linearGradient id="litter-rim" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#93c5fd"/>
+              <stop offset="50%" stop-color="#60a5fa"/>
+              <stop offset="100%" stop-color="#2563eb"/>
+            </linearGradient>
+            <linearGradient id="litter-inner" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#1d4ed8"/>
+              <stop offset="100%" stop-color="#1e40af"/>
+            </linearGradient>
+            <linearGradient id="litter-sand" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#fef3c7"/>
+              <stop offset="50%" stop-color="#fde68a"/>
+              <stop offset="100%" stop-color="#d97706"/>
+            </linearGradient>
+          </defs>
+          <!-- Ground Contact Ambient Shadow -->
+          <ellipse cx="50" cy="54" rx="46" ry="7" fill="url(#litter-shadow)"/>
+          <!-- Outer Tray Rim 3D Body -->
+          <polygon points="8,38 92,38 84,54 16,54" fill="url(#litter-rim)"/>
+          <!-- Back Wall of Tray -->
+          <polygon points="12,18 88,18 92,38 8,38" fill="#3b82f6"/>
+          <!-- Top Protective Shield Rim -->
+          <path d="M 12 18 Q 50 12 88 18 L 92 24 Q 50 18 8 24 Z" fill="#bfdbfe"/>
+          <!-- Interior Sand Depth Base -->
+          <polygon points="14,26 86,26 82,46 18,46" fill="url(#litter-inner)"/>
+          <!-- Clean Clumping Cat Sand Bed -->
+          <polygon points="16,28 84,28 80,45 20,45" fill="url(#litter-sand)"/>
+          <!-- Sand Texture Specks -->
+          <circle cx="30" cy="34" r="1.2" fill="#b45309" opacity="0.4"/>
+          <circle cx="45" cy="38" r="1.4" fill="#b45309" opacity="0.4"/>
+          <circle cx="60" cy="33" r="1.2" fill="#b45309" opacity="0.4"/>
+          <circle cx="72" cy="37" r="1.3" fill="#b45309" opacity="0.4"/>
+          <circle cx="38" cy="42" r="1.1" fill="#b45309" opacity="0.3"/>
+          <circle cx="55" cy="41" r="1.2" fill="#b45309" opacity="0.3"/>
+          <!-- Front Shield Cutout for Cat Access -->
+          <path d="M 32 38 Q 50 44 68 38 L 66 42 Q 50 47 34 42 Z" fill="#60a5fa"/>
+          <!-- Cute Paw Print Stamp on Front -->
+          <g transform="translate(45, 46) scale(0.4)" opacity="0.85" fill="#ffffff">
+            <ellipse cx="12" cy="15" rx="4" ry="3"/>
+            <circle cx="7" cy="10" r="1.8"/>
+            <circle cx="11" cy="7" r="1.8"/>
+            <circle cx="15" cy="7" r="1.8"/>
+            <circle cx="18" cy="10" r="1.8"/>
+          </g>
+          <!-- Mini Sand Scoop on Side -->
+          <g transform="translate(78, 16) rotate(22)">
+            <rect x="0" y="0" width="3.5" height="18" rx="1.5" fill="#f59e0b"/>
+            <rect x="-3" y="15" width="9.5" height="9" rx="2" fill="#fbbf24"/>
+            <line x1="-1" y1="18" x2="-1" y2="22" stroke="#d97706" stroke-width="0.8"/>
+            <line x1="2" y1="18" x2="2" y2="22" stroke="#d97706" stroke-width="0.8"/>
+            <line x1="5" y1="18" x2="5" y2="22" stroke="#d97706" stroke-width="0.8"/>
+          </g>
         </svg>
       `;
     }
