@@ -1,9 +1,20 @@
 import { State } from '../core/state.js';
 
-export const THEMES = ['light', 'dark', 'cream', 'deepblue'];
+export const THEMES = ['light', 'softcream', 'cream', 'sunflower', 'freshgreen', 'bananaleaf', 'oceangreen', 'rainbow', 'deepblue', 'dark'];
 
 export function themeDefaultTx(theme) {
-  return { light: '#1f2328', dark: '#e6edf3', cream: '#3d3527', deepblue: '#dbe7f7' }[theme] || '#1f2328';
+  return {
+    light: '#1f2328',
+    softcream: '#2d2926',
+    cream: '#3d3527',
+    sunflower: '#33250a',
+    freshgreen: '#14351a',
+    bananaleaf: '#192c15',
+    oceangreen: '#0d2b29',
+    rainbow: '#231834',
+    deepblue: '#dbe7f7',
+    dark: '#e6edf3'
+  }[theme] || '#1f2328';
 }
 
 export function applyTheme(txColorInput) {
@@ -21,9 +32,15 @@ export function applyTheme(txColorInput) {
   if (dot) {
     const themeColors = {
       light: '#0969da',
-      dark: '#58a6ff',
+      softcream: '#a86e49',
       cream: '#a05a1c',
-      deepblue: '#3b82f6'
+      sunflower: '#d97706',
+      freshgreen: '#16a34a',
+      bananaleaf: '#65a30d',
+      oceangreen: '#0d9488',
+      rainbow: 'linear-gradient(135deg, #ec4899, #8b5cf6, #06b6d4)',
+      deepblue: '#3b82f6',
+      dark: '#58a6ff'
     };
     dot.style.background = themeColors[State.ui.theme] || 'var(--accent)';
   }

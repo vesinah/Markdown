@@ -276,10 +276,16 @@ ${combinedCss}
           <div class="theme-tools-content" id="theme-tools-content">
             <!-- Segment 1: Theme Swatches -->
             <div class="theme-segment theme-swatch-segment" title="เลือกธีมสี">
-              <button class="mb-swatch on" data-theme="light" title="สว่าง"></button>
-              <button class="mb-swatch" data-theme="dark" title="มืด"></button>
+              <button class="mb-swatch on" data-theme="light" title="สว่าง (Light)"></button>
+              <button class="mb-swatch" data-theme="softcream" title="ครีมนวล (Soft Cream)"></button>
               <button class="mb-swatch" data-theme="cream" title="ถนอมสายตา (Cream)"></button>
+              <button class="mb-swatch" data-theme="sunflower" title="สดใสทุ่งดอกทานตะวัน (Sunflower)"></button>
+              <button class="mb-swatch" data-theme="freshgreen" title="เขียวสดใส (Fresh Green)"></button>
+              <button class="mb-swatch" data-theme="bananaleaf" title="เขียวใบตองใบไม้ในป่า (Banana Leaf & Forest)"></button>
+              <button class="mb-swatch" data-theme="oceangreen" title="เขียวน้ำทะเล (Ocean Seafoam)"></button>
+              <button class="mb-swatch" data-theme="rainbow" title="สายรุ้ง สนุกสนาน (Rainbow)"></button>
               <button class="mb-swatch" data-theme="deepblue" title="น้ำเงินเข้ม (Deep Blue)"></button>
+              <button class="mb-swatch" data-theme="dark" title="มืด (Dark)"></button>
             </div>
 
             <!-- Segment 2: Font Size Controls -->
