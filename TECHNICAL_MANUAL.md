@@ -152,6 +152,22 @@ graph TD
 
 ---
 
+### 3.6 Desktop Pets Subsystem (`src/js/pet/`)
+- **`pet-render.js`**:
+  - สร้าง Vector SVG Rigging แบบ 100% In-Memory สำหรับ **6 สายพันธุ์แมวอ้วน**: สก๊อตติชบลูพอยต์ (`scottish_bluepoint`), สีสวาด/โคราช (`sisawat`), ลายสลิด (`tabby`), แมวส้ม (`orange`), วิเชียรมาศ (`siamese`), และแมวดำ (`black`)
+  - รองรับมากกว่า 15 ท่าทางและอิริยาบถ: `stand`, `sit`, `walk`, `run`, `sleep_loaf`, `sleep_curl`, `sleep_belly`, `groom`, `pounce`, `eating`, `carry_fish`, `derpy_yawn`, `derpy_stare`, `derpy_wiggle`, `dragged`, `block_screen`
+  - เรนเดอร์ผีเสื้อ (`pet-butterfly`), จิ้งจก (`pet-gecko`), ปลาทู และชามอาหาร
+- **`pet-dialogues.js`**:
+  - คลังบทสนทนาภาษาไทยบริบทอัจฉริยะ **มากกว่า 210 ข้อความ** แบ่งเป็น 9 หมวดหมู่: บริบทชื่อเอกสาร (`{doc}`), เตือนสุขภาพและพักสายตาเมื่ออ่านนาน, ช่วงเวลา (เช้า/บ่าย/เย็น/ดึก), ความคิดแมวกวน ๆ, การเกาคาง/จั๊กจี้, การให้อาหาร, การถูกลาก, การคุยกันระหว่างแมว (`{name}`, `{other}`), และชนิดไฟล์ (.md, .pdf, .img, code)
+- **`pet-manager.js`**:
+  - ตัวควบคุม State Machine หลัก, การจำลองฟิสิกส์การลากวาง (Drag & Drop) แบบลื่นไหล
+  - ระบบตรวจจับระยะห่างเพื่อเล่นกันเองระหว่างแมวหลายตัว (Multi-Pet Social System)
+  - ระบบจับเวลาอ่านต่อเนื่อง (Active Reading Fatigue) เพื่อเดินมานอนทับกลางหน้าจอ
+  - เมนูคลิกขวา (Context Menu) และหน้าต่างจัดการบ้านแมว (Cat Management Modal)
+  - บันทึกสถานะชื่อ, สายพันธุ์, พิกัด และการตั้งค่าลง IndexedDB & LocalStorage ผ่าน `Store.set('pets', ...)`
+
+---
+
 ## 4. ระบบการคอมไพล์ (Build Pipeline - `build.js`)
 
 ไฟล์ `build.js` มีหน้าที่รวมโค้ดทั้งหมดใน `src/` ให้เป็นไฟล์ `MDBrowse.html` ไฟล์เดียว:

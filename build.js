@@ -69,7 +69,8 @@ const cssFiles = [
   'css/ruler.css',
   'css/markdown.css',
   'css/pdfview.css',
-  'css/imgview.css'
+  'css/imgview.css',
+  'css/pet.css'
 ];
 const combinedCss = cssFiles.map(f => fs.existsSync(path.join(SRC, f)) ? fs.readFileSync(path.join(SRC, f), 'utf8') : '').join('\n\n');
 
@@ -87,6 +88,7 @@ function cleanModule(code) {
   return code
     .replace(/^import\s+.*?from\s+['"].*?['"];?\r?\n/gm, '')
     .replace(/^export\s+const\s+/gm, 'const ')
+    .replace(/^export\s+class\s+/gm, 'class ')
     .replace(/^export\s+function\s+/gm, 'function ')
     .replace(/^export\s+async\s+function\s+/gm, 'async function ')
     .replace(/^export\s+let\s+/gm, 'let ')
@@ -109,6 +111,9 @@ const jsModules = [
   'js/ui/resizer.js',
   'js/ui/ruler.js',
   'js/ui/theme.js',
+  'js/pet/pet-dialogues.js',
+  'js/pet/pet-render.js',
+  'js/pet/pet-manager.js',
   'js/app.js'
 ];
 
@@ -312,7 +317,13 @@ ${combinedCss}
           </button>
         </div>
 
-        <!-- Vertical Divider separating Theme tools from ? -->
+        <!-- Vertical Divider separating Theme tools from Pet -->
+        <div class="mb-divider"></div>
+
+        <!-- Desktop Pet Toggle Button -->
+        <button type="button" id="btn-menubar-pet" class="doc-info-btn" title="สัตว์เลี้ยงหน้าจอ (คลิกเพื่อเปิดบ้านแมว)" aria-label="สัตว์เลี้ยงหน้าจอ" style="font-size:14px;">🐾</button>
+
+        <!-- Vertical Divider separating Pet from ? -->
         <div class="mb-divider"></div>
 
         <!-- File Info Popover & Button (?) -->

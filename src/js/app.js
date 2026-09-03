@@ -11,6 +11,7 @@ import { SearchEngine } from './search/search.js';
 import { setupSidebarResizer } from './ui/resizer.js';
 import { RulerModule } from './ui/ruler.js';
 import { applyTheme, THEMES } from './ui/theme.js';
+import { PetManager } from './pet/pet-manager.js';
 
 const D = {};
 ['btn-add', 'btn-add2', 'search-input', 'search-content', 'search-info', 'tree', 'stat-title', 'stat-filesize', 'sb-progress-bar',
@@ -379,6 +380,7 @@ export async function openFile(node, opt = {}) {
     updateStat(file);
     if (!opt.silent && D.mdScrollPane) D.mdScrollPane.scrollTop = 0;
     Store.set('lastFile', node.path);
+    PetManager.onDocumentOpened(node);
   } catch (err) {
     console.error('openFile error:', err);
     alert('เปิดไฟล์ไม่สำเร็จ: ' + (err.message || err));
@@ -787,6 +789,13 @@ export async function initApp() {
   RulerModule.setMargins(State.ui.padLeft, State.ui.padRight, false);
   toggleTocMini(!!State.ui.tocMini);
   updateSbToggleUI();
+
+  // Desktop Pets Integration
+  PetManager.init();
+  const btnMenubarPet = document.getElementById('btn-menubar-pet');
+  if (btnMenubarPet) {
+    btnMenubarPet.addEventListener('click', () => PetManager.openManagementModal());
+  }
 
   const savedFilters = await Store.get('filters');
   if (savedFilters && Array.isArray(savedFilters.types)) {
