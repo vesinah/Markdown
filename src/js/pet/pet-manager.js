@@ -109,33 +109,11 @@ export const PetManager = {
     this.layerEl = layer;
   },
 
-  // สร้างปุ่มอุ้งเท้าขวาล่างสำหรับเปิดจัดการสัตว์เลี้ยง
+  // ลบปุ่มอุ้งเท้าขวาล่างตามความต้องการของผู้ใช้ ให้เหลือเฉพาะปุ่มบนเมนูบาร์
   setupDockButton() {
-    let btn = document.getElementById('btn-pet-dock');
-    if (!btn) {
-      btn = document.createElement('button');
-      btn.id = 'btn-pet-dock';
-      btn.type = 'button';
-      btn.title = 'บ้านสัตว์เลี้ยงหน้าจอ (คลิกเพื่อเปิดศูนย์รวมใจชาวแมว)';
-      btn.setAttribute('aria-label', 'จัดการสัตว์เลี้ยงหน้าจอ');
-      btn.innerHTML = `
-        <svg viewBox="0 0 24 24">
-          <ellipse cx="12" cy="15" rx="5.5" ry="4.5"/>
-          <circle cx="6.5" cy="9.5" r="2.2"/>
-          <circle cx="10" cy="6.5" r="2.2"/>
-          <circle cx="14" cy="6.5" r="2.2"/>
-          <circle cx="17.5" cy="9.5" r="2.2"/>
-        </svg>
-        <span class="pet-badge-count" id="pet-badge-count">0</span>
-      `;
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        this.openManagementModal();
-      });
-      document.body.appendChild(btn);
-    }
-    this.dockBtnEl = btn;
-    this.updateDockBadge();
+    const btn = document.getElementById('btn-pet-dock');
+    if (btn) btn.remove();
+    this.dockBtnEl = null;
   },
 
   updateDockBadge() {

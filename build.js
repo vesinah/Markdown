@@ -81,6 +81,7 @@ const purifyJs = fs.existsSync(path.join(SRC, 'vendor/purify.min.js')) ? fs.read
 const hljsJs = fs.existsSync(path.join(SRC, 'vendor/highlight.min.js')) ? fs.readFileSync(path.join(SRC, 'vendor/highlight.min.js'), 'utf8') : '';
 const katexJs = fs.existsSync(path.join(SRC, 'vendor/katex.min.js')) ? fs.readFileSync(path.join(SRC, 'vendor/katex.min.js'), 'utf8') : '';
 const katexAutoJs = fs.existsSync(path.join(SRC, 'vendor/katex-auto-render.min.js')) ? fs.readFileSync(path.join(SRC, 'vendor/katex-auto-render.min.js'), 'utf8') : '';
+const mermaidJs = fs.existsSync(path.join(SRC, 'vendor/mermaid.min.js')) ? fs.readFileSync(path.join(SRC, 'vendor/mermaid.min.js'), 'utf8') : '';
 const pdfWorkerJs = fs.existsSync(path.join(SRC, 'vendor/pdf.worker.min.js')) ? fs.readFileSync(path.join(SRC, 'vendor/pdf.worker.min.js'), 'utf8') : '';
 const pdfJs = fs.existsSync(path.join(SRC, 'vendor/pdf.min.js')) ? fs.readFileSync(path.join(SRC, 'vendor/pdf.min.js'), 'utf8') : '';
 
@@ -126,6 +127,10 @@ const jsModules = [
   'js/bookmark/bm-anchor.js',
   'js/bookmark/bm-highlight.js',
   'js/bookmark/bm-panel.js',
+  'js/core/router.js',
+  'js/ui/menubar.js',
+  'js/ui/doc-info.js',
+  'js/ui/reading-progress.js',
   'js/app.js'
 ];
 
@@ -146,6 +151,9 @@ const htmlTemplate = `<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>มาร์คมาก — เครื่องมืออ่านไฟล์มาร์คดาวแบบง่าย ๆ</title>
 <meta name="application-name" content="มาร์คมาก">
 <meta name="apple-mobile-web-app-title" content="มาร์คมาก">
@@ -280,6 +288,7 @@ ${combinedCss}
 
   <!-- Main View Area -->
   <main id="main">
+    <div id="reading-progress-bar" class="reading-progress-bar"></div>
     <div class="menubar">
       <div class="mb-sb-slot">
         <button id="sb-toggle" class="mb-btn" title="ซ่อน/แสดงแถบรายการไฟล์ (Ctrl+B)">
@@ -476,6 +485,9 @@ ${katexJs}
 </script>
 <script>
 ${katexAutoJs}
+</script>
+<script>
+${mermaidJs}
 </script>
 <script>
 ${pdfWorkerJs}

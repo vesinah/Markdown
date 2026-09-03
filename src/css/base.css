@@ -23,8 +23,18 @@
   --folder-stroke: #54aeff;
   --file-stroke: #8c959f;
   --hl: #fff8c5;
-  --hl2: #ffdf5d;
   --shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  
+  --callout-note: #0969da;
+  --callout-note-bg: rgba(9, 105, 218, 0.08);
+  --callout-tip: #1a7f37;
+  --callout-tip-bg: rgba(26, 127, 55, 0.08);
+  --callout-important: #8250df;
+  --callout-important-bg: rgba(130, 80, 223, 0.08);
+  --callout-warning: #9a6700;
+  --callout-warning-bg: rgba(154, 103, 0, 0.08);
+  --callout-caution: #cf222e;
+  --callout-caution-bg: rgba(207, 34, 46, 0.08);
 }
 
 *, *::before, *::after {

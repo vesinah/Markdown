@@ -107,6 +107,32 @@ export const SearchEngine = {
     return '';
   },
 
+  extractSnippets(text, query, maxCount = 2) {
+    if (!text || !query) return [];
+    const results = [];
+    const lowerText = text.toLowerCase();
+    const lowerQuery = query.toLowerCase();
+    let startPos = 0;
+
+    while (results.length < maxCount) {
+      const idx = lowerText.indexOf(lowerQuery, startPos);
+      if (idx === -1) break;
+
+      const snippetStart = Math.max(0, idx - 36);
+      const snippetEnd = Math.min(text.length, idx + query.length + 44);
+      let before = text.slice(snippetStart, idx).replace(/[\r\n\t]+/g, ' ');
+      const match = text.slice(idx, idx + query.length);
+      let after = text.slice(idx + query.length, snippetEnd).replace(/[\r\n\t]+/g, ' ');
+
+      if (snippetStart > 0) before = '…' + before;
+      if (snippetEnd < text.length) after = after + '…';
+
+      results.push({ before, match, after });
+      startPos = idx + query.length;
+    }
+    return results;
+  },
+
   async run() {
     const query = this.input.value.trim();
     State.search.q = query;
@@ -115,6 +141,7 @@ export const SearchEngine = {
     if (!query) {
       State.search.hits = [];
       State.search.fileHits = new Set();
+      State.search.snippets = new Map();
       State.search.inDoc = [];
       State.search.idx = -1;
       State.search.pdfMatchingPages = [];
@@ -122,6 +149,7 @@ export const SearchEngine = {
       this.infoEl.hidden = true;
       if (this.onTreeUpdate) this.onTreeUpdate();
       this.clearDocHighlights();
+      State.emit('search:clear');
       return;
     }
 
@@ -135,6 +163,7 @@ export const SearchEngine = {
       }
     }
     State.search.fileHits = new Set(nameHits);
+    State.search.snippets = new Map();
     if (this.onTreeUpdate) this.onTreeUpdate();
 
     if (State.search.content) {
@@ -159,18 +188,27 @@ export const SearchEngine = {
           txt = await this.getFileText(n, gen);
         } catch (e) { continue; }
         if (gen !== State.search.gen) return;
-        if (txt && txt.toLowerCase().includes(lowerQuery)) matched.push(n.path);
+        if (txt && txt.toLowerCase().includes(lowerQuery)) {
+          matched.push(n.path);
+          const snips = this.extractSnippets(txt, query, 2);
+          if (snips.length) {
+            State.search.snippets.set(n.path, snips);
+          }
+        }
       }
       if (gen !== State.search.gen) return;
       State.search.hits = matched;
 
       const total = new Set(nameHits.concat(matched)).size;
       this.infoEl.textContent = total ? `พบในชื่อไฟล์ ${nameHits.length} · พบในเนื้อหา ${matched.length} ไฟล์` : 'ไม่พบผลลัพธ์';
+      if (this.onTreeUpdate) this.onTreeUpdate();
       this.highlightDoc();
+      State.emit('search:update', { query, hits: matched, nameHits });
     } else {
       this.infoEl.hidden = false;
       this.infoEl.textContent = nameHits.length ? `พบ ${nameHits.length} ไฟล์` : 'ไม่พบผลลัพธ์';
       this.clearDocHighlights();
+      State.emit('search:update', { query, hits: [], nameHits });
     }
   },
 

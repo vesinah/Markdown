@@ -15,6 +15,12 @@ import { PetManager } from './pet/pet-manager.js';
 import { BookmarkStore } from './bookmark/bm-store.js';
 import { BookmarkPanel, toggleBookmarkPanel } from './bookmark/bm-panel.js';
 import { initHighlights, restoreHighlights, clearHighlights, setActiveDoc } from './bookmark/bm-highlight.js';
+import { ViewRouter, switchView, openFile } from './core/router.js';
+import { MenubarController } from './ui/menubar.js';
+import { DocInfoController } from './ui/doc-info.js';
+import { ReadingProgress } from './ui/reading-progress.js';
+
+export { switchView, openFile };
 
 const D = {};
 ['btn-add', 'btn-add2', 'search-input', 'search-content', 'search-info', 'tree', 'stat-title', 'stat-filesize', 'sb-progress-bar',
@@ -28,28 +34,11 @@ const D = {};
  'pdf-view', 'pdf-frame',
  'img-view', 'img-preview-frame', 'img-meta-badge', 'empty-state',
  'fs-dec', 'fs-inc', 'fs-reset', 'tx-color', 'tx-reset',
- 'btn-theme-toggle', 'theme-tools-wrap', 'theme-tools-content',
+ 'btn-theme-toggle', 'theme-tools-wrap', 'theme-tools-content', 'btn-menubar-pet',
  'btn-doc-info', 'doc-info-popover', 'doc-info-ext', 'doc-info-name', 'doc-info-type',
  'doc-info-path', 'doc-stat-words', 'doc-stat-chars', 'doc-stat-size', 'doc-stat-lines',
- 'btn-copy-path', 'doc-info-wrap', 'sb-loading', 'sb-loading-text', 'bm-panel', 'btn-bm-toggle']
+ 'btn-copy-path', 'doc-info-wrap', 'sb-loading', 'sb-loading-text', 'bm-panel', 'btn-bm-toggle', 'reading-progress-bar']
 .forEach(id => D[id.replace(/-(\w)/g, (_, c) => c.toUpperCase())] = document.getElementById(id));
-
-export function switchView(type) {
-  D.mdView.hidden = (type !== 'md');
-  D.pdfView.hidden = (type !== 'pdf');
-  D.imgView.hidden = (type !== 'img');
-  D.emptyState.style.display = (type === 'empty') ? 'flex' : 'none';
-  if (type === 'empty') {
-    if (D.docInfoPopover) D.docInfoPopover.hidden = true;
-  }
-  if (type === 'md') {
-    setTimeout(() => RulerModule.drawScale(), 50);
-  }
-}
-
-async function clearHighlightsAsync() {
-  clearHighlights();
-}
 
 function showLoading(msg) {
   if (D.sbLoading) {
@@ -65,7 +54,6 @@ function hideLoading() {
 }
 
 async function saveWorkspace() {
-  // CRITICAL FIX: Save all handles unconditionally so they are never wiped!
   const roots = State.roots.map(r => ({
     name: r.name,
     handle: r.handle,
@@ -90,13 +78,6 @@ function saveUi() {
     tocMini: State.ui.tocMini,
     bmOpen: document.body.classList.contains('bm-open')
   });
-}
-
-function updateSbToggleUI() {
-  if (!D.sbToggle) return;
-  const isClosed = document.body.classList.contains('sb-closed');
-  D.sbToggle.classList.toggle('active', isClosed);
-  D.sbToggle.title = isClosed ? 'แสดงแถบรายการไฟล์ (Ctrl+B)' : 'ซ่อนแถบรายการไฟล์ (Ctrl+B)';
 }
 
 export function toggleTocMini(force) {
@@ -144,12 +125,12 @@ function applyFilterChange() {
   if (State.search.q) {
     SearchEngine.run();
   }
+  State.emit('filter:change', State.filters.types);
 }
 
 function updateStat(currentFile) {
   const allDocFiles = State.flat.filter(n => n.kind === 'file' && isDoc(n.name));
   const filteredFiles = allDocFiles.filter(n => isFileAllowedByFilter(n.name, State.filters && State.filters.types));
-  const dirs = State.flat.filter(n => n.kind === 'directory');
   let nmd = 0, npdf = 0, nimg = 0, ntxt = 0, nhtml = 0, nxml = 0, nrdf = 0;
   for (const n of filteredFiles) {
     const name = n.name;
@@ -230,10 +211,7 @@ export async function removeWorkspaceRoot(rootIdx) {
   }
 
   if (State.current && (State.current.rootIdx === i || !State.byPath.has(State.current.path))) {
-    State.current = null;
-    switchView('empty');
-    updateDocInfo(null);
-    Store.set('lastFile', '');
+    ViewRouter.closeCurrentFile();
   }
   SearchEngine.clearCache();
   if (State.search.q) {
@@ -271,139 +249,6 @@ export async function unlockAndReloadWorkspace(rootIdx) {
   return true;
 }
 
-function countTextStats(text) {
-  if (!text) return { words: 0, chars: 0, lines: 0 };
-  let words = 0;
-  if (typeof Intl !== 'undefined' && Intl.Segmenter) {
-    try {
-      const segmenter = new Intl.Segmenter('th', { granularity: 'word' });
-      for (const seg of segmenter.segment(text)) {
-        if (seg.isWordLike) words++;
-      }
-    } catch (e) {
-      words = text.trim().split(/\s+/).filter(Boolean).length;
-    }
-  } else {
-    words = text.trim().split(/\s+/).filter(Boolean).length;
-  }
-  const chars = text.length;
-  const lines = text.split(/\r\n|\r|\n/).length;
-  return { words, chars, lines };
-}
-
-function updateDocInfo(node, file, text) {
-  if (!D.btnDocInfo) return;
-  D.btnDocInfo.hidden = false;
-  if (!node) {
-    if (D.docInfoExt) D.docInfoExt.textContent = '-';
-    if (D.docInfoName) D.docInfoName.textContent = 'ยังไม่ได้เปิดเอกสาร';
-    if (D.docInfoType) D.docInfoType.textContent = 'มาร์คมาก';
-    if (D.docInfoPath) D.docInfoPath.textContent = 'กรุณาเลือกไฟล์เอกสารจากรายการด้านซ้าย';
-    if (D.docStatWords) D.docStatWords.textContent = '-';
-    if (D.docStatChars) D.docStatChars.textContent = '-';
-    if (D.docStatLines) D.docStatLines.textContent = '-';
-    if (D.docStatSize) D.docStatSize.textContent = '-';
-    return;
-  }
-
-  const ext = node.name.includes('.') ? ('.' + node.name.split('.').pop().toLowerCase()) : '';
-  if (D.docInfoExt) D.docInfoExt.textContent = ext || '.file';
-  if (D.docInfoName) {
-    D.docInfoName.textContent = node.name;
-    D.docInfoName.title = node.name;
-  }
-  if (D.docInfoPath) {
-    D.docInfoPath.textContent = node.path;
-    D.docInfoPath.title = node.path;
-  }
-
-  let typeLabel = 'เอกสาร';
-  if (isMd(node.name)) typeLabel = 'Markdown Document';
-  else if (isPdf(node.name)) typeLabel = 'PDF Document';
-  else if (isImg(node.name)) typeLabel = `รูปภาพ (${ext.replace('.', '').toUpperCase()})`;
-  else if (isTxt(node.name)) typeLabel = 'ข้อความ Text';
-  else if (isHtml(node.name)) typeLabel = 'HTML Document';
-  else if (isXml(node.name)) typeLabel = 'XML Document';
-  else if (isRdf(node.name)) typeLabel = 'RDF / Turtle';
-  else if (isCode(node.name)) typeLabel = 'Source Code';
-  if (D.docInfoType) D.docInfoType.textContent = typeLabel;
-
-  if (D.docStatSize) D.docStatSize.textContent = fmtBytes(file ? file.size : 0);
-
-  if (isMd(node.name) || isTxt(node.name) || isHtml(node.name) || isXml(node.name) || isRdf(node.name) || isCode(node.name)) {
-    const stats = countTextStats(text);
-    if (D.docStatWords) D.docStatWords.textContent = stats.words.toLocaleString('th-TH') + ' คำ';
-    if (D.docStatChars) D.docStatChars.textContent = '~' + stats.chars.toLocaleString('th-TH') + ' ตัวอักษร';
-    if (D.docStatLines) D.docStatLines.textContent = stats.lines.toLocaleString('th-TH') + ' บรรทัด';
-  } else if (isPdf(node.name)) {
-    if (D.docStatWords) D.docStatWords.textContent = 'เอกสาร PDF';
-    if (D.docStatChars) D.docStatChars.textContent = 'PDF File';
-    if (D.docStatLines) D.docStatLines.textContent = '-';
-  } else if (isImg(node.name)) {
-    if (D.docStatWords) D.docStatWords.textContent = 'ไฟล์รูปภาพ';
-    if (D.docStatChars) D.docStatChars.textContent = 'Image File';
-    if (D.docStatLines) D.docStatLines.textContent = '-';
-  } else {
-    if (D.docStatWords) D.docStatWords.textContent = '-';
-    if (D.docStatChars) D.docStatChars.textContent = '-';
-    if (D.docStatLines) D.docStatLines.textContent = '-';
-  }
-}
-
-export async function openFile(node, opt = {}) {
-  if (!node || node.kind !== 'file' || !isDoc(node.name)) return;
-  try {
-    const hasPerm = await ensurePermission(node);
-    if (!hasPerm) {
-      alert('กรุณาอนุญาตการเข้าถึงโฟลเดอร์เพื่อเปิดอ่านไฟล์');
-      return;
-    }
-
-    const file = await node.handle.getFile();
-    State.current = node;
-    renderTree(D.tree);
-    if (D.fileCrumb) D.fileCrumb.textContent = node.path;
-
-    let fileText = '';
-    if (isPdf(node.name)) {
-      switchView('pdf');
-      await PDFViewer.load(file);
-      SearchEngine.highlightDoc();
-      setActiveDoc(null);
-      await clearHighlightsAsync();
-    } else if (isImg(node.name)) {
-      switchView('img');
-      ImageViewer.render(file, node);
-      setActiveDoc(null);
-      await clearHighlightsAsync();
-    } else if (isMd(node.name)) {
-      switchView('md');
-      fileText = await file.text();
-      await renderMarkdownContent(fileText, node, D.mdContent, D.tocPanel, D.tocList);
-      SearchEngine.highlightDoc();
-      setActiveDoc(node, file);
-      await restoreHighlights();
-    } else {
-      switchView('md');
-      fileText = await file.text();
-      await renderCodeContent(fileText, node, D.mdContent, D.tocPanel, D.tocList);
-      SearchEngine.highlightDoc();
-      setActiveDoc(node, file);
-      await restoreHighlights();
-    }
-
-    updateDocInfo(node, file, fileText);
-    updateStat(file);
-    if (!opt.silent && D.mdScrollPane) D.mdScrollPane.scrollTop = 0;
-    Store.set('lastFile', node.path);
-    PetManager.onDocumentOpened(node);
-    if (document.body.classList.contains('bm-open')) BookmarkPanel.refresh();
-  } catch (err) {
-    console.error('openFile error:', err);
-    alert('เปิดไฟล์ไม่สำเร็จ: ' + (err.message || err));
-  }
-}
-
 async function addFolder() {
   if (!State.hasFSA) {
     alert('เบราว์เซอร์นี้ไม่รองรับ File System Access API — กรุณาใช้ Google Chrome');
@@ -431,17 +276,22 @@ async function addFolder() {
   }
 }
 
-[D.btnAdd, D.btnAdd2].forEach(b => b.addEventListener('click', addFolder));
+if (D.btnAdd) D.btnAdd.addEventListener('click', addFolder);
+if (D.btnAdd2) D.btnAdd2.addEventListener('click', addFolder);
 
-D.btnFinal.addEventListener('click', () => {
-  expandOnlyFinal(saveWorkspace);
-  renderTree(D.tree);
-});
+if (D.btnFinal) {
+  D.btnFinal.addEventListener('click', () => {
+    expandOnlyFinal(saveWorkspace);
+    renderTree(D.tree);
+  });
+}
 
-D.btnCollapseAll.addEventListener('click', () => {
-  collapseAllTruly(saveWorkspace);
-  renderTree(D.tree);
-});
+if (D.btnCollapseAll) {
+  D.btnCollapseAll.addEventListener('click', () => {
+    collapseAllTruly(saveWorkspace);
+    renderTree(D.tree);
+  });
+}
 
 function toggleFilterDropdown(force) {
   if (!D.typeFilterDropdown) return;
@@ -466,106 +316,18 @@ if (D.typeFilterDropdown) {
   });
 }
 
-function toggleThemeTools(force) {
-  if (!D.themeToolsWrap) return;
-  const isOpen = D.themeToolsWrap.classList.contains('open');
-  const show = (typeof force === 'boolean') ? force : !isOpen;
-  D.themeToolsWrap.classList.toggle('open', show);
-  if (D.btnThemeToggle) {
-    D.btnThemeToggle.classList.toggle('active', show);
-    D.btnThemeToggle.title = show ? 'พับเก็บชุดเครื่องมือปรับธีม' : 'ปรับแต่งธีมและการแสดงผล (คลิกเพื่อขยาย)';
-  }
-}
-
-if (D.btnThemeToggle) {
-  D.btnThemeToggle.addEventListener('click', e => {
-    e.stopPropagation();
-    toggleThemeTools();
-  });
-}
-
-if (D.themeToolsContent) {
-  D.themeToolsContent.addEventListener('click', e => {
-    e.stopPropagation();
-  });
-}
-
-function toggleDocInfoPopover(force) {
-  if (!D.docInfoPopover) return;
-  const isHidden = D.docInfoPopover.hidden;
-  const show = (typeof force === 'boolean') ? force : isHidden;
-  D.docInfoPopover.hidden = !show;
-  if (D.btnDocInfo) {
-    D.btnDocInfo.classList.toggle('active', show);
-  }
-}
-
-if (D.btnDocInfo) {
-  D.btnDocInfo.addEventListener('click', e => {
-    e.stopPropagation();
-    toggleDocInfoPopover();
-  });
-}
-
-if (D.docInfoPopover) {
-  D.docInfoPopover.addEventListener('click', e => {
-    e.stopPropagation();
-  });
-}
-
-if (D.btnCopyPath) {
-  D.btnCopyPath.addEventListener('click', e => {
-    e.stopPropagation();
-    if (!State.current) return;
-    const path = State.current.path;
-
-    try {
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(path).catch(() => {});
-      }
-    } catch (err) { console.warn('[app] Clipboard write failed:', err.message); }
-
-    const btn = D.btnCopyPath;
-    const origHTML = btn.innerHTML;
-    btn.innerHTML = `<svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg>`;
-    btn.classList.add('copied');
-    btn.title = 'คัดลอก Path แล้ว';
-    setTimeout(() => {
-      btn.innerHTML = origHTML;
-      btn.classList.remove('copied');
-      btn.title = 'คัดลอก Path';
-    }, 1500);
-  });
-}
-
 document.addEventListener('click', e => {
-  if (D.themeToolsWrap && D.themeToolsWrap.classList.contains('open')) {
-    if (!e.target.closest('#theme-tools-wrap')) {
-      toggleThemeTools(false);
-    }
-  }
   if (D.typeFilterDropdown && !D.typeFilterDropdown.hidden) {
     if (!e.target.closest('#type-filter-dropdown') && !e.target.closest('#btn-filter-toggle')) {
       toggleFilterDropdown(false);
-    }
-  }
-  if (D.docInfoPopover && !D.docInfoPopover.hidden) {
-    if (!e.target.closest('#doc-info-wrap')) {
-      toggleDocInfoPopover(false);
     }
   }
 });
 
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
-    if (D.themeToolsWrap && D.themeToolsWrap.classList.contains('open')) {
-      toggleThemeTools(false);
-    }
     if (D.typeFilterDropdown && !D.typeFilterDropdown.hidden) {
       toggleFilterDropdown(false);
-    }
-    if (D.docInfoPopover && !D.docInfoPopover.hidden) {
-      toggleDocInfoPopover(false);
     }
   }
 });
@@ -608,64 +370,55 @@ document.querySelectorAll('input[name="type-filter"]').forEach(cb => {
   });
 });
 
-D.tree.addEventListener('click', async e => {
-  const delBtn = e.target.closest('.btn-root-del');
-  if (delBtn) {
-    e.stopPropagation();
-    const rootIdx = +delBtn.dataset.rootIdx;
-    await removeWorkspaceRoot(rootIdx);
-    return;
-  }
-
-  const row = e.target.closest('.node-row');
-  if (!row) return;
-  const node = State.byPath.get(row.parentElement.dataset.path);
-  if (!node) return;
-
-  if (node.kind === 'root') {
-    if (node.isLocked && node.rootIdx !== undefined) {
-      await unlockAndReloadWorkspace(node.rootIdx);
+if (D.tree) {
+  D.tree.addEventListener('click', async e => {
+    const delBtn = e.target.closest('.btn-root-del');
+    if (delBtn) {
+      e.stopPropagation();
+      const rootIdx = +delBtn.dataset.rootIdx;
+      await removeWorkspaceRoot(rootIdx);
       return;
     }
-    if (node.kids && node.kids.length) {
-      if (State.expanded.has(node.path)) {
-        State.expanded.delete(node.path);
-        State.collapsed.add(node.path);
-      } else {
-        State.expanded.add(node.path);
-        State.collapsed.delete(node.path);
-      }
-      renderTree(D.tree);
-      await saveWorkspace();
-    }
-    return;
-  }
 
-  if (node.kind === 'directory') {
-    if (node.kids && node.kids.length) {
-      if (State.expanded.has(node.path)) {
-        State.expanded.delete(node.path);
-        State.collapsed.add(node.path);
-      } else {
-        State.expanded.add(node.path);
-        State.collapsed.delete(node.path);
-      }
-      renderTree(D.tree);
-      await saveWorkspace();
-    }
-    return;
-  }
-  openFile(node);
-});
+    const row = e.target.closest('.node-row');
+    if (!row) return;
+    const node = State.byPath.get(row.parentElement.dataset.path);
+    if (!node) return;
 
-if (D.sbToggle) {
-  D.sbToggle.addEventListener('click', () => {
-    document.body.classList.toggle('sb-closed');
-    updateSbToggleUI();
-    saveUi();
-    setTimeout(() => {
-      if (RulerModule && RulerModule.drawScale) RulerModule.drawScale();
-    }, 200);
+    if (node.kind === 'root') {
+      if (node.isLocked && node.rootIdx !== undefined) {
+        await unlockAndReloadWorkspace(node.rootIdx);
+        return;
+      }
+      if (node.kids && node.kids.length) {
+        if (State.expanded.has(node.path)) {
+          State.expanded.delete(node.path);
+          State.collapsed.add(node.path);
+        } else {
+          State.expanded.add(node.path);
+          State.collapsed.delete(node.path);
+        }
+        renderTree(D.tree);
+        await saveWorkspace();
+      }
+      return;
+    }
+
+    if (node.kind === 'directory') {
+      if (node.kids && node.kids.length) {
+        if (State.expanded.has(node.path)) {
+          State.expanded.delete(node.path);
+          State.collapsed.add(node.path);
+        } else {
+          State.expanded.add(node.path);
+          State.collapsed.delete(node.path);
+        }
+        renderTree(D.tree);
+        await saveWorkspace();
+      }
+      return;
+    }
+    openFile(node);
   });
 }
 
@@ -702,28 +455,18 @@ export function factoryResetUI() {
   applyTheme(D.txColor);
   RulerModule.setMargins(60, 60, false);
   toggleTocMini(false);
-  updateSbToggleUI();
+  MenubarController.updateSbToggleUI();
   RulerModule.drawScale();
   saveUi();
 }
 
 document.addEventListener('keydown', e => {
-  // Ctrl + B: Toggle Sidebar
-  if ((e.ctrlKey || e.metaKey) && !e.altKey && !e.shiftKey && e.key.toLowerCase() === 'b') {
-    e.preventDefault();
-    if (D.sbToggle) D.sbToggle.click();
-  }
   // Alt + T or Ctrl + Shift + T: Toggle TOC Mini-Rail
   if ((e.altKey && e.key.toLowerCase() === 't') || ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 't')) {
     e.preventDefault();
     toggleTocMini();
   }
-  // Alt + B: Toggle Bookmark Panel
-  if (e.altKey && !e.ctrlKey && !e.metaKey && e.key.toLowerCase() === 'b') {
-    e.preventDefault();
-    toggleBookmarkPanel();
-  }
-  // Ctrl + Alt + R (or Ctrl + Shift + Alt + R): Emergency Factory Reset
+  // Ctrl + Alt + R: Emergency Factory Reset
   if ((e.ctrlKey || e.metaKey) && e.altKey && e.key.toLowerCase() === 'r') {
     e.preventDefault();
     factoryResetUI();
@@ -731,53 +474,58 @@ document.addEventListener('keydown', e => {
   }
 });
 
-document.querySelectorAll('.mb-swatch').forEach(b => b.addEventListener('click', () => {
-  State.ui.theme = b.dataset.theme;
-  applyTheme(D.txColor);
-  saveUi();
-}));
-D.fsInc.addEventListener('click', () => { State.ui.fscale = Math.min(1.8, +(State.ui.fscale + 0.1).toFixed(2)); applyTheme(D.txColor); saveUi(); });
-D.fsDec.addEventListener('click', () => { State.ui.fscale = Math.max(0.7, +(State.ui.fscale - 0.1).toFixed(2)); applyTheme(D.txColor); saveUi(); });
-D.fsReset.addEventListener('click', () => { State.ui.fscale = 1; applyTheme(D.txColor); saveUi(); });
-D.txColor.addEventListener('input', () => { State.ui.tx = D.txColor.value; applyTheme(D.txColor); saveUi(); });
-D.txReset.addEventListener('click', () => { State.ui.tx = ''; applyTheme(D.txColor); saveUi(); });
-
-D.mdContent.addEventListener('click', async e => {
-  const a = e.target.closest('a.internal');
-  if (!a) return;
-  e.preventDefault();
-  const href = a.getAttribute('href');
-  const target = findFileByPath(resolvePath(State.current.path, href));
-  if (target && target.kind === 'file' && isDoc(target.name)) {
-    openFile(target);
-    return;
-  }
-  if (target && target.kind === 'file') {
-    try {
-      const file = await target.handle.getFile();
-      const url = URL.createObjectURL(file);
-      window.open(url, '_blank');
-      setTimeout(() => URL.revokeObjectURL(url), 60000);
-    } catch (err) { console.warn('[app] Failed to open file in new tab:', err.message); }
-    return;
-  }
-  alert('หาไฟล์ปลายทางไม่พบ: ' + href);
-});
+if (D.mdContent) {
+  D.mdContent.addEventListener('click', async e => {
+    const a = e.target.closest('a.internal');
+    if (!a) return;
+    e.preventDefault();
+    const href = a.getAttribute('href');
+    if (!State.current) return;
+    const target = findFileByPath(resolvePath(State.current.path, href));
+    if (target && target.kind === 'file' && isDoc(target.name)) {
+      openFile(target);
+      return;
+    }
+    if (target && target.kind === 'file') {
+      try {
+        const file = await target.handle.getFile();
+        const url = URL.createObjectURL(file);
+        window.open(url, '_blank');
+        setTimeout(() => URL.revokeObjectURL(url), 60000);
+      } catch (err) { console.warn('[app] Failed to open file in new tab:', err.message); }
+      return;
+    }
+    alert('หาไฟล์ปลายทางไม่พบ: ' + href);
+  });
+}
 
 export async function initApp() {
   await Store.open();
   await BookmarkStore.open();
 
+  // Initialize ViewRouter
+  ViewRouter.init(D, {
+    renderTree: () => renderTree(D.tree),
+    updateStat
+  });
+
   // Bookmark & Comment System
   BookmarkPanel.init();
   initHighlights();
-  if (D.btnBmToggle) {
-    D.btnBmToggle.addEventListener('click', () => toggleBookmarkPanel());
-  }
+
+  // Initialize Subsystem Controllers
+  MenubarController.init(D, {
+    saveUi,
+    drawScale: () => RulerModule.drawScale()
+  });
+
+  DocInfoController.init(D);
+  ReadingProgress.init(D.readingProgressBar, D.mdScrollPane);
 
   PDFViewer.init(D.pdfFrame);
   ImageViewer.init(D.imgPreviewFrame, D.imgMetaBadge);
   SearchEngine.init(D.searchInput, D.searchContent, D.searchInfo, D.mdContent, () => renderTree(D.tree));
+
   setupSidebarResizer(D.sbResizer, D.sidebar, () => {
     saveUi();
     RulerModule.drawScale();
@@ -820,14 +568,10 @@ export async function initApp() {
   applyTheme(D.txColor);
   RulerModule.setMargins(State.ui.padLeft, State.ui.padRight, false);
   toggleTocMini(!!State.ui.tocMini);
-  updateSbToggleUI();
+  MenubarController.updateSbToggleUI();
 
   // Desktop Pets Integration
   PetManager.init();
-  const btnMenubarPet = document.getElementById('btn-menubar-pet');
-  if (btnMenubarPet) {
-    btnMenubarPet.addEventListener('click', () => PetManager.openManagementModal());
-  }
 
   const savedFilters = await Store.get('filters');
   if (savedFilters && Array.isArray(savedFilters.types)) {
@@ -876,4 +620,6 @@ export async function initApp() {
   switchView('empty');
 }
 
-initApp();
+if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+  initApp();
+}

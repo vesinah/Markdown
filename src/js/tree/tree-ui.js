@@ -3,6 +3,7 @@ import { isPdf, isImg, isCode, isMd, esc } from './tree-node.js';
 import { isNodeVisible, getFilterVisiblePaths } from './tree-exp.js';
 
 export function renderTree(container) {
+  if (!container) return;
   const q = State.search.q.trim();
   const html = [];
   const filterVisible = getFilterVisiblePaths(State.filters && State.filters.types);
@@ -20,19 +21,16 @@ export function renderTree(container) {
     }
   }
 
-  for (const n of State.flat) {
-    if (!filterVisible.has(n.path)) continue;
-    if (searchVisiblePaths) {
-      if (!searchVisiblePaths.has(n.path)) continue;
-    } else {
-      if (!isNodeVisible(n)) continue;
-    }
+  function renderSingleNode(n) {
+    if (!filterVisible.has(n.path)) return;
+    if (searchVisiblePaths && !searchVisiblePaths.has(n.path)) return;
+
     const isRoot = n.kind === 'root';
     const dir = isRoot || n.kind === 'directory';
     const isLockedRoot = isRoot && !!n.isLocked;
     const open = searchVisiblePaths ? true : State.expanded.has(n.path);
     const active = State.current && State.current.path === n.path;
-    const hit = State.search.fileHits.has(n.path);
+    const hit = State.search.fileHits.has(n.path) || (State.search.hits && State.search.hits.includes(n.path));
     const twisty = isLockedRoot
       ? '<span class="twisty" title="ต้องอนุญาตการเข้าถึงไฟล์ (คลิกเพื่อเชื่อมต่อ)">🔒</span>'
       : (dir ? `<span class="twisty">${open ? '▾' : '▸'}</span>` : '<span class="twisty"></span>');
@@ -70,11 +68,41 @@ export function renderTree(container) {
     const rootClass = isRoot ? 'node-root' : '';
     const padLeft = isRoot ? 8 : (8 + n.depth * 14);
 
+    let snippetHtml = '';
+    if (!dir && State.search.snippets && State.search.snippets.has(n.path)) {
+      const snippets = State.search.snippets.get(n.path);
+      if (snippets && snippets.length > 0) {
+        snippetHtml = `<div class="sb-search-snippets" style="padding-left:${padLeft + 18}px">` +
+          snippets.map(s => `<div class="sb-snippet-item">${esc(s.before)}<mark class="sb-snippet-mark">${esc(s.match)}</mark>${esc(s.after)}</div>`).join('') +
+          `</div>`;
+      }
+    }
+
     html.push(
       `<div class="node ${dir ? (open ? 'folder open' : 'folder') : 'file'}" data-path="${esc(n.path)}">` +
       `<div class="node-row ${rootClass} ${active ? 'active' : ''} ${hit ? 'hit' : ''} ${isLockedRoot ? 'locked' : ''}" data-kind="${n.kind}"${rowTitle} style="padding-left:${padLeft}px">` +
-      twisty + iconSvg + nameLabel + delBtn + `</div></div>`
+      twisty + iconSvg + nameLabel + delBtn + `</div>` + snippetHtml + `</div>`
     );
+
+    if (dir && open && n.kids && n.kids.length) {
+      for (const kid of n.kids) {
+        renderSingleNode(kid);
+      }
+    }
+  }
+
+  if (searchVisiblePaths) {
+    // When searching, render from roots down or matching visible paths
+    const roots = State.flat.filter(n => n.kind === 'root');
+    for (const r of roots) {
+      renderSingleNode(r);
+    }
+  } else {
+    // Hierarchical traversal: Only traverse expanded folders (Massive performance boost)
+    const roots = State.flat.filter(n => n.kind === 'root');
+    for (const r of roots) {
+      renderSingleNode(r);
+    }
   }
 
   if (!State.flat.length) {

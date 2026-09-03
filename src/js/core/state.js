@@ -1,3 +1,5 @@
+const _stateListeners = new Map();
+
 export const State = {
   roots: [],
   flat: [],
@@ -16,6 +18,7 @@ export const State = {
     gen: 0,
     hits: [],
     fileHits: new Set(),
+    snippets: new Map(),
     inDoc: [],
     idx: -1
   },
@@ -34,5 +37,34 @@ export const State = {
     totalPages: 0,
     scale: 1.2
   },
-  hasFSA: 'showDirectoryPicker' in window
+  hasFSA: typeof window !== 'undefined' && 'showDirectoryPicker' in window,
+
+  on(event, handler) {
+    if (typeof handler !== 'function') return () => {};
+    if (!_stateListeners.has(event)) _stateListeners.set(event, new Set());
+    _stateListeners.get(event).add(handler);
+    return () => this.off(event, handler);
+  },
+
+  off(event, handler) {
+    const handlers = _stateListeners.get(event);
+    if (handlers) {
+      handlers.delete(handler);
+      if (handlers.size === 0) _stateListeners.delete(event);
+    }
+  },
+
+  emit(event, data) {
+    const handlers = _stateListeners.get(event);
+    if (handlers && handlers.size > 0) {
+      for (const h of Array.from(handlers)) {
+        try {
+          h(data);
+        } catch (err) {
+          console.warn(`[state] Error in event listener for "${event}":`, err && err.message);
+        }
+      }
+    }
+  }
 };
+

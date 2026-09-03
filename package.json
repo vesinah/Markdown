@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mermaid": "^11.17.2"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.1"
+  }
+}
