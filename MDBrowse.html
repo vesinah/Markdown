@@ -383,6 +383,90 @@ html[data-theme="sunflower"] ::selection {
   color: #713f12;
 }
 
+/* ธีมถ่านชาโคล */
+html[data-theme="charcoal"] {
+  --bg: #131315;
+  --bg2: #1b1b1f;
+  --bg3: #27272e;
+  --border: #363640;
+  --border2: #2a2a33;
+  --text: #e4e4e7;
+  --text2: #9b9ba6;
+  --text3: #6b6b76;
+  --accent: #f59e0b;
+  --accent2: #2d2011;
+  --accent-text: #fbbf24;
+  --folder-stroke: #fbbf24;
+  --file-stroke: #9b9ba6;
+  --hl: #3d2b0f;
+  --hl2: #5c4014;
+  --shadow: 0 4px 18px rgba(0, 0, 0, 0.65);
+}
+html[data-theme="charcoal"] ::selection {
+  background: #451a03;
+  color: #fde68a;
+}
+
+/* ธีมท่ามกลางดวงดาว */
+html[data-theme="starlight"] {
+  --bg: #070913;
+  --bg2: #0e1124;
+  --bg3: #181d3d;
+  --border: #232a56;
+  --border2: #191e40;
+  --text: #e2e8f7;
+  --text2: #8c98be;
+  --text3: #5a6690;
+  --accent: #38bdf8;
+  --accent2: #0c2340;
+  --accent-text: #7dd3fc;
+  --folder-stroke: #38bdf8;
+  --file-stroke: #818cf8;
+  --hl: #0f3057;
+  --hl2: #164e8a;
+  --shadow: 0 4px 22px rgba(7, 9, 19, 0.85);
+}
+html[data-theme="starlight"] ::selection {
+  background: #1e3a8a;
+  color: #bae6fd;
+}
+html[data-theme="starlight"] .brand {
+  background: linear-gradient(135deg, #7dd3fc 0%, #c084fc 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ธีมสนธยาพลบค่ำ */
+html[data-theme="twilight"] {
+  --bg: #140d1b;
+  --bg2: #1e1328;
+  --bg3: #2d1c3d;
+  --border: #442757;
+  --border2: #341e43;
+  --text: #f0e6f6;
+  --text2: #ab93bd;
+  --text3: #79618c;
+  --accent: #e879f9;
+  --accent2: #31143c;
+  --accent-text: #f0abfc;
+  --folder-stroke: #f472b6;
+  --file-stroke: #c084fc;
+  --hl: #481940;
+  --hl2: #6d2260;
+  --shadow: 0 4px 20px rgba(20, 13, 27, 0.75);
+}
+html[data-theme="twilight"] ::selection {
+  background: #581c87;
+  color: #f5d0fe;
+}
+html[data-theme="twilight"] .brand {
+  background: linear-gradient(135deg, #f472b6 0%, #c084fc 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .mb-swatch {
   width: 18px;
   height: 18px;
@@ -429,8 +513,21 @@ html[data-theme="sunflower"] ::selection {
   background: conic-gradient(from 180deg, #ff5e62, #ff9966, #ffdb58, #2ecc71, #3498db, #9b59b6, #ff5e62);
   box-shadow: 0 1px 3px rgba(139, 92, 246, 0.35);
 }
+.mb-swatch[data-theme="twilight"] {
+  background: linear-gradient(135deg, #f472b6 0%, #a855f7 50%, #1e1328 100%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
 .mb-swatch[data-theme="deepblue"] {
   background: linear-gradient(135deg, #1d3a5f 0%, #0e1a2b 100%);
+}
+.mb-swatch[data-theme="starlight"] {
+  background: radial-gradient(circle at 35% 35%, #7dd3fc 0%, #1e1b4b 55%, #070913 100%);
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  box-shadow: 0 1px 4px rgba(56, 189, 248, 0.25);
+}
+.mb-swatch[data-theme="charcoal"] {
+  background: linear-gradient(135deg, #37373f 0%, #131315 100%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 .mb-swatch[data-theme="dark"] {
   background: linear-gradient(135deg, #21262d 0%, #0d1117 100%);
@@ -1221,7 +1318,7 @@ body.sb-closed #sb-resizer {
 }
 
 .theme-tools-wrap.open .theme-tools-content {
-  max-width: 760px;
+  max-width: 860px;
   opacity: 1;
   pointer-events: auto;
   margin-right: 6px;
@@ -2574,7 +2671,10 @@ body.dragging-ruler .margin-guide {
               <button class="mb-swatch" data-theme="bananaleaf" title="เขียวใบตองใบไม้ในป่า (Banana Leaf & Forest)"></button>
               <button class="mb-swatch" data-theme="oceangreen" title="เขียวน้ำทะเล (Ocean Seafoam)"></button>
               <button class="mb-swatch" data-theme="rainbow" title="สายรุ้ง สนุกสนาน (Rainbow)"></button>
+              <button class="mb-swatch" data-theme="twilight" title="สนธยาพลบค่ำ (Twilight Dusk)"></button>
               <button class="mb-swatch" data-theme="deepblue" title="น้ำเงินเข้ม (Deep Blue)"></button>
+              <button class="mb-swatch" data-theme="starlight" title="ท่ามกลางดวงดาว (Starlight Cosmic)"></button>
+              <button class="mb-swatch" data-theme="charcoal" title="ถ่านชาโคล (Charcoal Dark)"></button>
               <button class="mb-swatch" data-theme="dark" title="มืด (Dark)"></button>
             </div>
 
@@ -5694,7 +5794,21 @@ const RulerModule = {
 
 
 
-const THEMES = ['light', 'softcream', 'cream', 'sunflower', 'freshgreen', 'bananaleaf', 'oceangreen', 'rainbow', 'deepblue', 'dark'];
+const THEMES = [
+  'light',
+  'softcream',
+  'cream',
+  'sunflower',
+  'freshgreen',
+  'bananaleaf',
+  'oceangreen',
+  'rainbow',
+  'twilight',
+  'deepblue',
+  'starlight',
+  'charcoal',
+  'dark'
+];
 
 function themeDefaultTx(theme) {
   return {
@@ -5706,7 +5820,10 @@ function themeDefaultTx(theme) {
     bananaleaf: '#192c15',
     oceangreen: '#0d2b29',
     rainbow: '#231834',
+    twilight: '#f0e6f6',
     deepblue: '#dbe7f7',
+    starlight: '#e2e8f7',
+    charcoal: '#e4e4e7',
     dark: '#e6edf3'
   }[theme] || '#1f2328';
 }
@@ -5733,7 +5850,10 @@ function applyTheme(txColorInput) {
       bananaleaf: '#65a30d',
       oceangreen: '#0d9488',
       rainbow: 'linear-gradient(135deg, #ec4899, #8b5cf6, #06b6d4)',
+      twilight: '#e879f9',
       deepblue: '#3b82f6',
+      starlight: '#38bdf8',
+      charcoal: '#f59e0b',
       dark: '#58a6ff'
     };
     dot.style.background = themeColors[State.ui.theme] || 'var(--accent)';

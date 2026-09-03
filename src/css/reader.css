@@ -122,7 +122,7 @@
 }
 
 .theme-tools-wrap.open .theme-tools-content {
-  max-width: 760px;
+  max-width: 860px;
   opacity: 1;
   pointer-events: auto;
   margin-right: 6px;

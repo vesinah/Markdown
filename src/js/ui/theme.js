@@ -1,6 +1,20 @@
 import { State } from '../core/state.js';
 
-export const THEMES = ['light', 'softcream', 'cream', 'sunflower', 'freshgreen', 'bananaleaf', 'oceangreen', 'rainbow', 'deepblue', 'dark'];
+export const THEMES = [
+  'light',
+  'softcream',
+  'cream',
+  'sunflower',
+  'freshgreen',
+  'bananaleaf',
+  'oceangreen',
+  'rainbow',
+  'twilight',
+  'deepblue',
+  'starlight',
+  'charcoal',
+  'dark'
+];
 
 export function themeDefaultTx(theme) {
   return {
@@ -12,7 +26,10 @@ export function themeDefaultTx(theme) {
     bananaleaf: '#192c15',
     oceangreen: '#0d2b29',
     rainbow: '#231834',
+    twilight: '#f0e6f6',
     deepblue: '#dbe7f7',
+    starlight: '#e2e8f7',
+    charcoal: '#e4e4e7',
     dark: '#e6edf3'
   }[theme] || '#1f2328';
 }
@@ -39,7 +56,10 @@ export function applyTheme(txColorInput) {
       bananaleaf: '#65a30d',
       oceangreen: '#0d9488',
       rainbow: 'linear-gradient(135deg, #ec4899, #8b5cf6, #06b6d4)',
+      twilight: '#e879f9',
       deepblue: '#3b82f6',
+      starlight: '#38bdf8',
+      charcoal: '#f59e0b',
       dark: '#58a6ff'
     };
     dot.style.background = themeColors[State.ui.theme] || 'var(--accent)';

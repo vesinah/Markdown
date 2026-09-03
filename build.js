@@ -284,7 +284,10 @@ ${combinedCss}
               <button class="mb-swatch" data-theme="bananaleaf" title="เขียวใบตองใบไม้ในป่า (Banana Leaf & Forest)"></button>
               <button class="mb-swatch" data-theme="oceangreen" title="เขียวน้ำทะเล (Ocean Seafoam)"></button>
               <button class="mb-swatch" data-theme="rainbow" title="สายรุ้ง สนุกสนาน (Rainbow)"></button>
+              <button class="mb-swatch" data-theme="twilight" title="สนธยาพลบค่ำ (Twilight Dusk)"></button>
               <button class="mb-swatch" data-theme="deepblue" title="น้ำเงินเข้ม (Deep Blue)"></button>
+              <button class="mb-swatch" data-theme="starlight" title="ท่ามกลางดวงดาว (Starlight Cosmic)"></button>
+              <button class="mb-swatch" data-theme="charcoal" title="ถ่านชาโคล (Charcoal Dark)"></button>
               <button class="mb-swatch" data-theme="dark" title="มืด (Dark)"></button>
             </div>
 
