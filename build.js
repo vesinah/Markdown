@@ -70,7 +70,8 @@ const cssFiles = [
   'css/markdown.css',
   'css/pdfview.css',
   'css/imgview.css',
-  'css/pet.css'
+  'css/pet.css',
+  'css/bookmark.css'
 ];
 const combinedCss = cssFiles.map(f => fs.existsSync(path.join(SRC, f)) ? fs.readFileSync(path.join(SRC, f), 'utf8') : '').join('\n\n');
 
@@ -114,6 +115,10 @@ const jsModules = [
   'js/pet/pet-dialogues.js',
   'js/pet/pet-render.js',
   'js/pet/pet-manager.js',
+  'js/bookmark/bm-store.js',
+  'js/bookmark/bm-anchor.js',
+  'js/bookmark/bm-highlight.js',
+  'js/bookmark/bm-panel.js',
   'js/app.js'
 ];
 
@@ -363,8 +368,16 @@ ${combinedCss}
           </div>
         </div>
       </div>
+
+        <!-- Vertical Divider separating ? from Bookmark toggle -->
+        <div class="mb-divider"></div>
+
+        <!-- Bookmark Panel Toggle Button -->
+        <button type="button" id="btn-bm-toggle" class="doc-info-btn" title="เปิดแผงบุ๊คมาร์คและคอมเมนต์" aria-label="บุ๊คมาร์คและคอมเมนต์">
+          <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 0 1-1.227.579L8 11.722l-3.773 3.107A.751.751 0 0 1 3 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.91l3.023-2.489a.75.75 0 0 1 .954 0L11.5 12.66V2.75a.25.25 0 0 0-.25-.25Z"/></svg>
+        </button>
+      </div>
     </div>
-  </div>
 
     <div id="reader-viewport">
       <!-- 1. Markdown Viewer with Interactive Ruler -->
@@ -435,6 +448,9 @@ ${combinedCss}
           <p class="hint">รองรับไฟล์ .md, .pdf, รูปภาพ · ขยายเฉพาะโฟลเดอร์ final เป็นค่าเริ่มต้น</p>
         </div>
       </div>
+
+      <!-- 5. Bookmark & Comment Side Panel (Right) -->
+      <aside id="bm-panel" hidden></aside>
     </div>
   </main>
 </div>

@@ -3188,6 +3188,396 @@ body.dragging-ruler .margin-guide {
   font-size: 12.5px;
 }
 
+
+/* ================= Bookmark & Comment System ================= */
+
+/* ---------- Toggle Button (Menubar) ---------- */
+#btn-bm-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  flex: none;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+#btn-bm-toggle:hover {
+  background: var(--border2);
+  color: var(--accent);
+  border-color: var(--text3);
+}
+#btn-bm-toggle.active {
+  background: var(--accent2);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* ---------- Right Panel Layout ---------- */
+#bm-panel {
+  width: 300px;
+  flex: none;
+  display: none;
+  flex-direction: column;
+  height: 100%;
+  background: var(--bg);
+  border-left: 1px solid var(--border2);
+  overflow: hidden;
+  z-index: 8;
+}
+#bm-panel[hidden] { display: none; }
+body.bm-open #bm-panel {
+  display: flex !important;
+}
+
+/* ---------- Header ---------- */
+.bm-header {
+  height: 38px;
+  padding: 0 8px 0 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border2);
+  flex: none;
+  background: var(--bg2);
+}
+.bm-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text2);
+  letter-spacing: .3px;
+}
+.bm-close-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  color: var(--text3);
+  cursor: pointer;
+}
+.bm-close-btn:hover {
+  background: var(--border2);
+  color: var(--text);
+}
+
+/* ---------- Tabs ---------- */
+.bm-tabs {
+  display: flex;
+  flex: none;
+  border-bottom: 1px solid var(--border2);
+  background: var(--bg);
+}
+.bm-tab {
+  flex: 1;
+  padding: 8px 4px;
+  border: none;
+  background: transparent;
+  color: var(--text3);
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color .15s ease, border-color .15s ease;
+}
+.bm-tab:hover { color: var(--text); }
+.bm-tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  font-weight: 600;
+}
+
+/* ---------- Body ---------- */
+.bm-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px;
+  min-height: 0;
+}
+
+.bm-empty {
+  text-align: center;
+  color: var(--text3);
+  font-size: 12px;
+  padding: 32px 12px;
+  line-height: 1.8;
+}
+.bm-empty small { font-size: 11px; opacity: .8; }
+
+/* ---------- Groups (โปรแกรม tab) ---------- */
+.bm-group {
+  margin-bottom: 10px;
+  border: 1px solid var(--border2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.bm-group.missing { opacity: .65; }
+.bm-group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 6px 10px;
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border2);
+}
+.bm-group-name {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bm-group-count {
+  flex: none;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent2);
+  padding: 1px 7px;
+  border-radius: 8px;
+}
+.bm-missing-header {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text3);
+  padding: 10px 4px 6px;
+}
+
+/* ---------- Items ---------- */
+.bm-item {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border2);
+  cursor: pointer;
+  transition: background-color .12s ease;
+  position: relative;
+}
+.bm-item:last-child { border-bottom: none; }
+.bm-item:hover { background: var(--bg2); }
+.bm-item.flash {
+  animation: bmFlash 1.2s ease;
+}
+@keyframes bmFlash {
+  0%, 60% { background: var(--accent2); }
+  100% { background: transparent; }
+}
+
+.bm-item-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+.bm-kind {
+  flex: none;
+  display: inline-flex;
+  margin-top: 2px;
+  color: var(--text3);
+}
+.bm-kind.bookmark { color: var(--accent); }
+.bm-kind.comment { color: #b08800; }
+
+.bm-quote {
+  flex: 1;
+  font-size: 12px;
+  color: var(--text);
+  line-height: 1.55;
+  word-break: break-word;
+}
+.bm-item.orphan .bm-quote {
+  color: var(--text3);
+  text-decoration: line-through;
+  text-decoration-color: var(--text3);
+  text-decoration-thickness: 1px;
+}
+
+.bm-del {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text3);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity .12s ease, background-color .12s ease, color .12s ease;
+}
+.bm-item:hover .bm-del { opacity: 1; }
+.bm-del:hover {
+  background: var(--border2);
+  color: #d73a49;
+}
+
+.bm-comment {
+  margin-top: 6px;
+  margin-left: 19px;
+  font-size: 11.5px;
+  color: var(--text2);
+  background: var(--bg2);
+  border-left: 2px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+  padding: 5px 8px;
+  line-height: 1.55;
+  word-break: break-word;
+}
+
+.bm-orphan-note {
+  margin-top: 4px;
+  font-size: 10px;
+  color: #b08800;
+}
+
+/* ---------- Highlights in content ---------- */
+mark.bm-hl {
+  background: rgba(255, 213, 79, .45);
+  color: inherit;
+  padding: 1px 0;
+  border-radius: 2px;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px rgba(255, 193, 7, .25);
+}
+mark.bm-hl:hover {
+  background: rgba(255, 193, 7, .6);
+}
+mark.bm-hl.flash {
+  animation: bmHlFlash 1.6s ease;
+}
+@keyframes bmHlFlash {
+  0%, 50% { background: rgba(255, 152, 0, .75); }
+  100% { background: rgba(255, 213, 79, .45); }
+}
+
+/* ---------- Selection Popup ---------- */
+#bm-popup {
+  position: fixed;
+  z-index: 9999;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .18);
+}
+#bm-popup[hidden] { display: none; }
+.bm-popup-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text2);
+  cursor: pointer;
+  transition: background-color .12s ease, color .12s ease;
+}
+.bm-popup-btn:hover {
+  background: var(--accent2);
+  color: var(--accent);
+}
+.bm-popup-sep {
+  width: 1px;
+  height: 16px;
+  background: var(--border);
+}
+
+/* ---------- Comment Composer ---------- */
+#bm-composer {
+  position: fixed;
+  z-index: 9999;
+  width: 300px;
+  padding: 10px;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, .22);
+}
+#bm-composer[hidden] { display: none; }
+.bm-composer-quote {
+  font-size: 11px;
+  color: var(--text3);
+  border-left: 2px solid var(--accent);
+  padding: 2px 8px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  max-height: 48px;
+  overflow: hidden;
+  font-style: italic;
+}
+.bm-composer-input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: 12.5px;
+  padding: 7px 9px;
+  resize: vertical;
+  min-height: 60px;
+}
+.bm-composer-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.bm-composer-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+  margin-top: 8px;
+}
+.bm-composer-btn {
+  padding: 5px 14px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: 12px;
+  cursor: pointer;
+}
+.bm-composer-btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.bm-composer-btn.primary:hover { filter: brightness(1.08); }
+.bm-composer-btn.secondary:hover { background: var(--border2); }
+
+/* ---------- Dark theme adjustments ---------- */
+[data-theme="dark"] mark.bm-hl,
+[data-theme="charcoal"] mark.bm-hl {
+  background: rgba(255, 193, 7, .28);
+  color: inherit;
+}
+[data-theme="dark"] mark.bm-hl:hover,
+[data-theme="charcoal"] mark.bm-hl:hover {
+  background: rgba(255, 193, 7, .42);
+}
+[data-theme="dark"] #bm-popup,
+[data-theme="charcoal"] #bm-popup,
+[data-theme="dark"] #bm-composer,
+[data-theme="charcoal"] #bm-composer {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, .5);
+}
+
 </style>
 </head>
 <body>
@@ -3407,8 +3797,16 @@ body.dragging-ruler .margin-guide {
           </div>
         </div>
       </div>
+
+        <!-- Vertical Divider separating ? from Bookmark toggle -->
+        <div class="mb-divider"></div>
+
+        <!-- Bookmark Panel Toggle Button -->
+        <button type="button" id="btn-bm-toggle" class="doc-info-btn" title="เปิดแผงบุ๊คมาร์คและคอมเมนต์" aria-label="บุ๊คมาร์คและคอมเมนต์">
+          <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 0 1-1.227.579L8 11.722l-3.773 3.107A.751.751 0 0 1 3 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.91l3.023-2.489a.75.75 0 0 1 .954 0L11.5 12.66V2.75a.25.25 0 0 0-.25-.25Z"/></svg>
+        </button>
+      </div>
     </div>
-  </div>
 
     <div id="reader-viewport">
       <!-- 1. Markdown Viewer with Interactive Ruler -->
@@ -3479,6 +3877,9 @@ body.dragging-ruler .margin-guide {
           <p class="hint">รองรับไฟล์ .md, .pdf, รูปภาพ · ขยายเฉพาะโฟลเดอร์ final เป็นค่าเริ่มต้น</p>
         </div>
       </div>
+
+      <!-- 5. Bookmark & Comment Side Panel (Right) -->
+      <aside id="bm-panel" hidden></aside>
     </div>
   </main>
 </div>
@@ -4784,14 +5185,25 @@ const Store = {
   db: null,
 
   open() {
+    // เปิดครั้งเดียวเป็น v2 (มี store 'kv' และ 'annotations')
+    if (Store.db) return Promise.resolve(true);
     return new Promise(res => {
       try {
-        const rq = indexedDB.open('mdbrowse_v2', 1);
+        const rq = indexedDB.open('mdbrowse_v2', 2);
         rq.onupgradeneeded = () => {
-          if (!rq.result.objectStoreNames.contains('kv')) {
-            rq.result.createObjectStore('kv');
+          const db = rq.result;
+          if (!db.objectStoreNames.contains('kv')) {
+            db.createObjectStore('kv');
+          }
+          if (!db.objectStoreNames.contains('annotations')) {
+            const os = db.createObjectStore('annotations', { keyPath: 'id' });
+            os.createIndex('fileKey', 'fileKey', { unique: false });
+            os.createIndex('docName', 'docName', { unique: false });
           }
         };
+        // แท็บอื่นเปิด v1 ค้างไว้ → หลังแท็บนั้นปิด จะอัปเกรดได้ แต่เราไม่รอ:
+        // ถ้า blocked ให้ resolve(false) แล้วระบบบุ๊คมาร์คทำงานแบบ degraded (kv ยังใช้ได้)
+        rq.onblocked = () => res(false);
         rq.onsuccess = () => {
           Store.db = rq.result;
           res(true);
@@ -4910,6 +5322,16 @@ const Store = {
     } catch (e) {
       return '{}';
     }
+  },
+
+  async exportAllJson() {
+    const base = JSON.parse(this.exportJson());
+    try {
+      if (typeof BookmarkStore !== 'undefined' && BookmarkStore.db) {
+        base.annotations = await BookmarkStore.getAll();
+      }
+    } catch (e) { /* fallback: export ส่วนอื่นก่อน */ }
+    return JSON.stringify(base, null, 2);
   }
 };
 
@@ -5370,8 +5792,10 @@ function preprocessFootnotes(text) {
     }
 
     // Pattern 2: [id] text or [^id] text or 1. [id] text or - [id] text
-    const mSpace = line.match(/^[ \t]*(?:[-*+]|\d+\.)?[ \t]*\[\^?([a-zA-Z0-9_\u0E00-\u0E7F.-]+)\][ \t]+(\S.*)$/);
-    if (mSpace && !line.match(/^[ \t]*\[[ xX]\]/)) {
+    // NOTE: bare (no colon) form only accepts latin/digit ids — Thai text in brackets
+    // (e.g. "[คำแปล...] (*word*) ...") is prose, not a footnote definition.
+    const mSpace = line.match(/^[ \t]*(?:[-*+]|\d+\.)?[ \t]*\[\^?([a-zA-Z0-9_.-]+)\][ \t]+(\S.*)$/);
+    if (mSpace && !line.match(/^[ \t]*(?:[-*+]|\d+\.)?[ \t]*\[[ xX]\]/)) {
       curId = mSpace[1];
       defs.set(curId, [mSpace[2]]);
       inDef = true;
@@ -8407,6 +8831,829 @@ const PetManager = {
 
 
 
+const STORE = 'annotations';
+
+const BookmarkStore = {
+  // ใช้ connection เดียวกับ Store (เปิดเป็น v2 แล้วที่ store.js)
+  open() {
+    if (Store.db) return Promise.resolve(true);
+    return Store.open();
+  },
+
+  _tx(mode) {
+    if (!Store.db) return null;
+    try {
+      return Store.db.transaction(STORE, mode).objectStore(STORE);
+    } catch (e) {
+      console.warn('[bm-store] tx failed:', e.message);
+      return null;
+    }
+  },
+
+  _req(rq) {
+    return new Promise(res => {
+      if (!rq) return res(null);
+      rq.onsuccess = () => res(rq.result);
+      rq.onerror = () => {
+        console.warn('[bm-store] req failed:', rq.error && rq.error.message);
+        res(null);
+      };
+    });
+  },
+
+  async add(record) {
+    const os = BookmarkStore._tx('readwrite');
+    if (!os) return null;
+    const rec = Object.assign({
+      id: (crypto.randomUUID ? crypto.randomUUID() : 'bm-' + Date.now() + '-' + Math.random().toString(36).slice(2)),
+      fileKey: '',
+      docName: '',
+      docPath: '',
+      rootName: '',
+      kind: 'bookmark',
+      quote: '',
+      prefix: '',
+      suffix: '',
+      sectionId: '',
+      comment: '',
+      createdAt: Date.now(),
+      updatedAt: Date.now()
+    }, record);
+    await BookmarkStore._req(os.put(rec));
+    return rec;
+  },
+
+  async update(id, patch) {
+    const os = BookmarkStore._tx('readwrite');
+    if (!os) return;
+    const existing = await BookmarkStore._req(os.get(id));
+    if (!existing) return;
+    Object.assign(existing, patch, { updatedAt: Date.now() });
+    await BookmarkStore._req(os.put(existing));
+  },
+
+  async del(id) {
+    const os = BookmarkStore._tx('readwrite');
+    if (!os) return;
+    await BookmarkStore._req(os.delete(id));
+  },
+
+  async getByFileKey(fileKey) {
+    const os = BookmarkStore._tx('readonly');
+    if (!os || !fileKey) return [];
+    const idx = os.index('fileKey');
+    const all = await BookmarkStore._req(idx.getAll(fileKey));
+    return (all || []).sort((a, b) => a.createdAt - b.createdAt);
+  },
+
+  async getAll() {
+    const os = BookmarkStore._tx('readonly');
+    if (!os) return [];
+    const all = await BookmarkStore._req(os.getAll());
+    return all || [];
+  },
+
+  async clear() {
+    const os = BookmarkStore._tx('readwrite');
+    if (!os) return;
+    await BookmarkStore._req(os.clear());
+  },
+
+  // fileKey = ชื่อไฟล์ + ขนาดไฟล์ → ตัวตนของเอกสารสำหรับผูก annotation
+  makeFileKey(name, size) {
+    return (name || '') + '|' + (typeof size === 'number' ? size : '?');
+  },
+
+  async fileKeyExistsInWorkspace(fileKey) {
+    if (!fileKey) return false;
+    const name = fileKey.slice(0, fileKey.lastIndexOf('|'));
+    const size = Number(fileKey.slice(fileKey.lastIndexOf('|') + 1));
+    const key = BookmarkStore.makeFileKey(name, size);
+    const docFiles = State.flat.filter(n => n.kind === 'file');
+    for (const n of docFiles) {
+      try {
+        if (n.name !== name) continue;
+        if (!n._bmSizeCache) n._bmSizeCache = {};
+        if (n._bmSizeCache[size] === undefined) {
+          const f = await n.handle.getFile();
+          n._bmSizeCache[size] = f.size === size;
+        }
+        if (n._bmSizeCache[size]) return true;
+      } catch (e) { /* ข้ามไฟล์ที่อ่านไม่ได้ */ }
+    }
+    return false;
+  }
+};
+
+
+// Text Quote Anchor — ค้นหาตำแหน่งข้อความใน DOM ด้วย quote + prefix/suffix
+// แนวทางเดียวกับ W3C Web Annotation / Hypothes.is ทนทานต่อการแก้ไขไฟล์เล็กน้อย
+
+function normalizeText(s) {
+  return String(s || '')
+    .replace(/\u00A0/g, ' ')
+    .replace(/[\r\n\t]+/g, ' ')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
+// สร้าง anchor descriptor จาก DOM Range
+function createAnchorFromRange(range, container) {
+  const root = container || document.getElementById('md-content');
+  if (!root || !range) return null;
+  const full = normalizeText(root.textContent);
+  if (!full) return null;
+
+  const probe = document.createElement('div');
+  probe.appendChild(range.cloneContents());
+  const quote = normalizeText(probe.textContent);
+  if (!quote) return null;
+
+  // หาตำแหน่งของ quote ใน full text ของ root (ค้นหาช่วงที่ prefix/suffix ตรง)
+  const pre = normalizeBefore(root, range);
+  const post = normalizeAfter(root, range);
+
+  const pos = findQuotePosition(full, quote, pre, post);
+  if (pos < 0) {
+    // fallback: หา quote แบบตรง ๆ อย่างเดียว
+    const p = full.indexOf(quote);
+    if (p < 0) return null;
+    return {
+      quote,
+      prefix: full.slice(Math.max(0, p - 32), p),
+      suffix: full.slice(p + quote.length, p + quote.length + 32)
+    };
+  }
+
+  return {
+    quote,
+    prefix: full.slice(Math.max(0, pos - 32), pos),
+    suffix: full.slice(pos + quote.length, pos + quote.length + 32)
+  };
+}
+
+function normalizeBefore(root, range) {
+  try {
+    const r = document.createRange();
+    r.setStart(root, 0);
+    r.setEnd(range.startContainer, range.startOffset);
+    return normalizeText(r.toString());
+  } catch (e) { return ''; }
+}
+
+function normalizeAfter(root, range) {
+  try {
+    const r = document.createRange();
+    r.setStart(range.endContainer, range.endOffset);
+    r.setEnd(root, root.childNodes.length);
+    return normalizeText(r.toString());
+  } catch (e) { return ''; }
+}
+
+function findQuotePosition(full, quote, pre, post) {
+  // หา quote ทุกตำแหน่ง แล้วเลือกตำแหน่งที่ prefix/suffix ตรงกับบริบทจริงมากที่สุด
+  let best = -1, bestScore = -1;
+  let idx = full.indexOf(quote);
+  while (idx >= 0) {
+    let score = 0;
+    const preLen = Math.min(pre.length, idx);
+    if (preLen && pre.slice(pre.length - preLen) === full.slice(idx - preLen, idx)) score++;
+    const postStart = idx + quote.length;
+    const postLen = Math.min(post.length, full.length - postStart);
+    if (postLen && post.slice(0, postLen) === full.slice(postStart, postStart + postLen)) score++;
+    if (score > bestScore) { bestScore = score; best = idx; }
+    idx = full.indexOf(quote, idx + 1);
+  }
+  return best;
+}
+
+// คืน DOM Range จาก anchor descriptor (ค้นใน text nodes)
+function resolveAnchor(root, anchor) {
+  if (!root || !anchor || !anchor.quote) return null;
+  const full = normalizeText(root.textContent);
+  if (!full) return null;
+
+  const pos = findQuotePosition(full, anchor.quote, anchor.prefix || '', anchor.suffix || '');
+  const candidate = pos >= 0 ? pos : full.indexOf(anchor.quote);
+  if (candidate < 0) return null;
+
+  return mapPlainTextOffsetToRange(root, full, candidate, candidate + anchor.quote.length);
+}
+
+// แปลง offset ใน plain text (ที่ normalize แล้ว) → DOM Range จริง
+function mapPlainTextOffsetToRange(root, fullText, start, end) {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode: n => (n.nodeValue && n.nodeValue.trim()) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT
+  });
+
+  const nodes = [];
+  let n;
+  let rawText = '';
+  while ((n = walker.nextNode())) {
+    nodes.push(n);
+    rawText += n.nodeValue;
+  }
+
+  // เทียบ raw text กับ normalized full text เพื่อหาช่วง raw ที่สอดคล้องกับ normalized offset
+  // normalize แบบเดียวกับ normalizeText แต่ทำต่อ node เพื่อ map offset กลับ
+  const map = []; // normalizedIndex -> {node, rawIndex}
+  let normOut = '';
+  for (const node of nodes) {
+    const raw = node.nodeValue;
+    for (let i = 0; i < raw.length; i++) {
+      const ch = raw[i];
+      if (ch === '\u00A0') {
+        normOut += ' ';
+        map.push({ node, rawIndex: i });
+      } else if (/[\r\n\t]/.test(ch)) {
+        normOut += ' ';
+        map.push({ node, rawIndex: i });
+      } else {
+        normOut += ch;
+        map.push({ node, rawIndex: i });
+      }
+      // ยุบช่องว่างซ้ำ: เมื่อ normOut ลงท้ายด้วยช่องว่างซ้อน ให้ drop ตัวเกิน
+    }
+    // separator ระหว่าง block elements — ประมาณด้วยช่องว่างเดียว (rawText รวมกันแล้วไม่มี จึงใช้ raw ต่อกัน)
+  }
+
+  // ยุบช่องว่างซ้ำ + trim แบบ normalizeText แต่เก็บ map ไปด้วย
+  const collapsed = [];
+  let norm2 = '';
+  let lastWasSpace = true; // เริ่มเท่ากับ trim หัว
+  for (let i = 0; i < normOut.length; i++) {
+    const ch = normOut[i];
+    if (ch === ' ') {
+      if (lastWasSpace) continue;
+      lastWasSpace = true;
+    } else {
+      lastWasSpace = false;
+    }
+    norm2 += ch;
+    collapsed.push(map[i]);
+  }
+  // trim ท้าย
+  while (norm2.endsWith(' ')) {
+    norm2 = norm2.slice(0, -1);
+    collapsed.pop();
+  }
+
+  if (start >= collapsed.length) return null;
+  const endClamped = Math.min(end, collapsed.length);
+  if (endClamped <= start) return null;
+
+  const s = collapsed[start];
+  const e = collapsed[endClamped - 1];
+  let eNode = e.node, eOff = e.rawIndex + 1;
+  // ถ้า end offset เลยความยาว node → เลื่อนไป node ถัดไป (สำหรับ range boundary แบบ exclusive ก็ไม่จำเป็นต้องขยับ)
+  if (eOff > e.node.nodeValue.length) { eOff = e.node.nodeValue.length; }
+
+  const range = document.createRange();
+  try {
+    range.setStart(s.node, s.rawIndex);
+    range.setEnd(eNode, eOff);
+    return range;
+  } catch (err) {
+    return null;
+  }
+}
+
+
+
+let popupEl = null;
+let composerEl = null;
+let activeFileKey = '';
+let activeDocName = '';
+let activeDocPath = '';
+let activeSectionId = '';
+let currentRange = null;
+
+const SUPPORTED = name => /\.(md|markdown|mdown|mkdn|txt|log|csv|tsv|html?|xml|rdf|ttl|json|ya?ml|py|js|ts|css)$/i.test(name || '');
+
+function initHighlights(contentEl, scrollPane) {
+  document.addEventListener('mouseup', e => {
+    setTimeout(() => onSelectionSettled(e), 10);
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') hidePopup();
+  });
+}
+
+function inReader(sel) {
+  if (!sel || sel.isCollapsed || sel.rangeCount === 0) return false;
+  const mdContent = document.getElementById('md-content');
+  if (!mdContent) return false;
+  const anchorNode = sel.getRangeAt(0).startContainer;
+  return mdContent.contains(anchorNode.nodeType === 1 ? anchorNode : anchorNode.parentNode);
+}
+
+function onSelectionSettled(evt) {
+  // ถ้าคลิกภายใน popup/composer อย่าทำอะไร
+  if (popupEl && (popupEl.contains(evt.target))) return;
+  if (composerEl && composerEl.contains(evt.target)) return;
+
+  const sel = window.getSelection();
+  if (!inReader(sel)) { hidePopup(); return; }
+
+  const range = sel.getRangeAt(0);
+  const text = normalizeText(range.toString());
+  if (!text || text.length < 2) { hidePopup(); return; }
+
+  currentRange = range.cloneRange();
+  showPopup(range);
+}
+
+function showPopup(range) {
+  if (!popupEl) buildPopup();
+  const rect = range.getBoundingClientRect();
+  popupEl.hidden = false;
+  const pw = popupEl.offsetWidth || 90;
+  const ph = popupEl.offsetHeight || 36;
+  let x = rect.left + rect.width / 2 - pw / 2;
+  let y = rect.top - ph - 8;
+  x = Math.max(8, Math.min(x, window.innerWidth - pw - 8));
+  if (y < 8) y = rect.bottom + 8;
+  popupEl.style.left = x + 'px';
+  popupEl.style.top = y + 'px';
+}
+
+function hidePopup() {
+  if (popupEl) popupEl.hidden = true;
+}
+
+function buildPopup() {
+  popupEl = document.createElement('div');
+  popupEl.id = 'bm-popup';
+  popupEl.hidden = true;
+  popupEl.innerHTML = `
+    <button type="button" class="bm-popup-btn" data-act="bookmark" title="บุ๊คมาร์คข้อความที่ไฮไลต์">
+      <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 0 1-1.227.579L8 11.722l-3.773 3.107A.751.751 0 0 1 3 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.91l3.023-2.489a.75.75 0 0 1 .954 0L11.5 12.66V2.75a.25.25 0 0 0-.25-.25Z"/></svg>
+    </button>
+    <span class="bm-popup-sep"></span>
+    <button type="button" class="bm-popup-btn" data-act="comment" title="คอมเมนต์ข้อความที่ไฮไลต์">
+      <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5C14.216 1 15 1.784 15 2.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg>
+    </button>
+  `;
+  document.body.appendChild(popupEl);
+
+  popupEl.addEventListener('mousedown', e => e.preventDefault());
+  popupEl.addEventListener('click', e => {
+    const btn = e.target.closest('.bm-popup-btn');
+    if (!btn) return;
+    e.stopPropagation();
+    const act = btn.dataset.act;
+    if (act === 'bookmark') {
+      saveAnnotation('bookmark', '');
+      hidePopup();
+    } else if (act === 'comment') {
+      openComposer();
+    }
+  });
+}
+
+function buildComposer() {
+  composerEl = document.createElement('div');
+  composerEl.id = 'bm-composer';
+  composerEl.hidden = true;
+  composerEl.innerHTML = `
+    <div class="bm-composer-quote"></div>
+    <textarea class="bm-composer-input" placeholder="พิมพ์คอมเมนต์..." rows="3"></textarea>
+    <div class="bm-composer-actions">
+      <button type="button" class="bm-composer-btn secondary" data-act="cancel">ยกเลิก</button>
+      <button type="button" class="bm-composer-btn primary" data-act="save">บันทึก</button>
+    </div>
+  `;
+  document.body.appendChild(composerEl);
+
+  composerEl.addEventListener('mousedown', e => e.stopPropagation());
+  composerEl.addEventListener('click', e => {
+    const btn = e.target.closest('.bm-composer-btn');
+    if (!btn) return;
+    e.stopPropagation();
+    if (btn.dataset.act === 'save') {
+      const txt = composerEl.querySelector('.bm-composer-input').value.trim();
+      saveAnnotation('comment', txt);
+      hideComposer();
+    } else {
+      hideComposer();
+    }
+  });
+  composerEl.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+      e.preventDefault();
+      const txt = composerEl.querySelector('.bm-composer-input').value.trim();
+      saveAnnotation('comment', txt);
+      hideComposer();
+    } else if (e.key === 'Escape') {
+      hideComposer();
+    }
+  });
+}
+
+function openComposer() {
+  if (!composerEl) buildComposer();
+  hidePopup();
+  if (!currentRange) return;
+  const q = normalizeText(currentRange.toString());
+  composerEl.querySelector('.bm-composer-quote').textContent = q.length > 120 ? q.slice(0, 120) + '…' : q;
+  composerEl.querySelector('.bm-composer-input').value = '';
+  composerEl.hidden = false;
+  const rect = currentRange.getBoundingClientRect();
+  const cw = composerEl.offsetWidth || 280;
+  let x = rect.left + rect.width / 2 - cw / 2;
+  x = Math.max(8, Math.min(x, window.innerWidth - cw - 8));
+  let y = rect.bottom + 8;
+  if (y + composerEl.offsetHeight > window.innerHeight - 8) y = Math.max(8, rect.top - composerEl.offsetHeight - 8);
+  composerEl.style.left = x + 'px';
+  composerEl.style.top = y + 'px';
+  composerEl.querySelector('.bm-composer-input').focus();
+}
+
+function hideComposer() {
+  if (composerEl) composerEl.hidden = true;
+}
+
+async function saveAnnotation(kind, comment) {
+  if (!currentRange || !activeFileKey) return;
+  const anchor = createAnchorFromRange(currentRange, document.getElementById('md-content'));
+  if (!anchor) return;
+
+  const sel = window.getSelection();
+  if (sel) sel.removeAllRanges();
+
+  const rec = await BookmarkStore.add({
+    fileKey: activeFileKey,
+    docName: activeDocName,
+    docPath: activeDocPath,
+    rootName: activeRootName(),
+    kind,
+    quote: anchor.quote,
+    prefix: anchor.prefix,
+    suffix: anchor.suffix,
+    sectionId: findSectionId(currentRange),
+    comment
+  });
+  currentRange = null;
+  if (rec) {
+    wrapHighlight(rec);
+    BookmarkPanel.refresh();
+  }
+}
+
+function activeRootName() {
+  try { return State.roots[State.current.rootIdx] ? State.roots[State.current.rootIdx].name : ''; } catch (e) { return ''; }
+}
+
+function findSectionId(range) {
+  let node = range.startContainer;
+  while (node && node !== document.body) {
+    if (node.nodeType === 1 && /^H[1-6]$/.test(node.tagName)) return node.id || '';
+    node = node.parentNode;
+  }
+  // หา heading ล่าสุดก่อนหน้า
+  const headings = document.getElementById('md-content').querySelectorAll('h1,h2,h3,h4,h5,h6');
+  let last = '';
+  for (const h of headings) {
+    if (range.comparePoint(h, 0) < 0) last = h.id || '';
+    else break;
+  }
+  try {
+    let lastId = '';
+    for (const h of headings) {
+      if (h.getBoundingClientRect().top <= range.getBoundingClientRect().top) lastId = h.id || lastId;
+    }
+    return lastId;
+  } catch (e) { return last; }
+}
+
+function setActiveDoc(node, file) {
+  if (node && file && SUPPORTED(node.name)) {
+    activeFileKey = BookmarkStore.makeFileKey(node.name, file.size);
+    activeDocName = node.name;
+    activeDocPath = node.path;
+  } else {
+    activeFileKey = '';
+    activeDocName = '';
+    activeDocPath = '';
+  }
+}
+
+// วาด highlight ทั้งหมดของเอกสารปัจจุบัน (เรียกหลัง render markdown เสร็จ)
+async function restoreHighlights() {
+  clearHighlights();
+  if (!activeFileKey) return;
+  const root = document.getElementById('md-content');
+  if (!root) return;
+
+  const items = await BookmarkStore.getByFileKey(activeFileKey);
+  const pending = [];
+  for (const rec of items) {
+    // resolve ใหม่ทุกครั้ง (ข้อความอาจกลับมาเหมือนเดิม)
+    const ok = wrapHighlight(rec);
+    if (!ok) pending.push(rec);
+  }
+  if (pending.length) {
+    BookmarkPanel.setOrphans(pending.map(p => p.id));
+  }
+}
+
+function clearHighlights() {
+  const root = document.getElementById('md-content');
+  if (!root) return;
+  root.querySelectorAll('mark.bm-hl').forEach(m => {
+    const parent = m.parentNode;
+    while (m.firstChild) parent.insertBefore(m.firstChild, m);
+    parent.removeChild(m);
+    parent.normalize();
+  });
+  BookmarkPanel.setOrphans([]);
+}
+
+function wrapHighlight(rec) {
+  const root = document.getElementById('md-content');
+  if (!root) return false;
+  const range = resolveAnchor(root, rec);
+  if (!range) return false;
+
+  const marks = splitAndWrap(range, rec.id);
+  return marks.length > 0;
+}
+
+// คลุม range ด้วย <mark> โดยรองรับกรณีข้ามหลาย text node
+function splitAndWrap(range, id) {
+  const marks = [];
+  try {
+    const textNodes = [];
+    const walker = document.createTreeWalker(
+      range.commonAncestorContainer,
+      NodeFilter.SHOW_TEXT,
+      { acceptNode: n => range.intersectsNode(n) && n.nodeValue.trim() ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT }
+    );
+    let n;
+    while ((n = walker.nextNode())) textNodes.push(n);
+
+    for (const node of textNodes) {
+      let start = 0, end = node.nodeValue.length;
+      if (node === range.startContainer) start = range.startOffset;
+      if (node === range.endContainer) end = range.endOffset;
+      if (start >= end) continue;
+
+      const mid = node.splitText(start);
+      mid.splitText(end - start);
+      const mark = document.createElement('mark');
+      mark.className = 'bm-hl';
+      mark.dataset.id = id;
+      mark.appendChild(document.createTextNode(mid.nodeValue));
+      mid.parentNode.replaceChild(mark, mid);
+      marks.push(mark);
+    }
+  } catch (e) {
+    console.warn('[bm-hl] wrap failed:', e.message);
+  }
+  return marks;
+}
+
+// คลิกที่ mark → ให้ panel เลื่อนไปรายการนั้น
+document.addEventListener('click', e => {
+  const mark = e.target.closest('mark.bm-hl');
+  if (!mark) return;
+  BookmarkPanel.revealItem(mark.dataset.id);
+});
+
+function scrollToHighlight(id) {
+  const mark = document.querySelector(`mark.bm-hl[data-id="${CSS.escape(id)}"]`);
+  if (!mark) return false;
+  const pane = document.getElementById('md-scroll-pane');
+  if (pane) {
+    const top = mark.getBoundingClientRect().top - pane.getBoundingClientRect().top + pane.scrollTop - 60;
+    pane.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+  } else {
+    mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+  mark.classList.add('flash');
+  setTimeout(() => mark.classList.remove('flash'), 1600);
+  return true;
+}
+
+
+
+const PANEL_HTML = `
+  <div class="bm-header">
+    <span class="bm-title">บุ๊คมาร์คและคอมเมนต์</span>
+    <button type="button" id="bm-close" class="bm-close-btn" title="ปิดแผงบุ๊คมาร์ค">
+      <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path fill-rule="evenodd" d="M9.78 12.78a.75.75 0 0 1-1.06 0L4.47 8.53a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 1.06L6.06 8l3.72 3.72a.75.75 0 0 1 0 1.06Z"/></svg>
+    </button>
+  </div>
+  <div class="bm-tabs">
+    <button type="button" class="bm-tab active" data-tab="doc">เอกสารนี้</button>
+    <button type="button" class="bm-tab" data-tab="all">ทั้งโปรแกรม</button>
+  </div>
+  <div class="bm-body" id="bm-body-doc"></div>
+  <div class="bm-body" id="bm-body-all" hidden></div>
+`;
+
+let currentTab = 'doc';
+let orphanIds = new Set();
+
+const BookmarkPanel = {
+  init() {
+    const panel = document.getElementById('bm-panel');
+    if (!panel) return;
+    panel.removeAttribute('hidden');
+    panel.innerHTML = PANEL_HTML;
+
+    panel.addEventListener('click', e => {
+      const tab = e.target.closest('.bm-tab');
+      if (tab) {
+        currentTab = tab.dataset.tab;
+        panel.querySelectorAll('.bm-tab').forEach(t => t.classList.toggle('active', t === tab));
+        document.getElementById('bm-body-doc').hidden = currentTab !== 'doc';
+        document.getElementById('bm-body-all').hidden = currentTab !== 'all';
+        BookmarkPanel.refresh();
+        return;
+      }
+      if (e.target.closest('#bm-close')) {
+        toggleBookmarkPanel(false);
+        return;
+      }
+      const item = e.target.closest('.bm-item');
+      if (item) {
+        const id = item.dataset.id;
+        if (!e.target.closest('.bm-del')) {
+          if (!scrollToHighlight(id)) {
+            item.classList.add('flash');
+            setTimeout(() => item.classList.remove('flash'), 1200);
+          }
+        }
+      }
+    });
+
+    panel.addEventListener('click', async e => {
+      const del = e.target.closest('.bm-del');
+      if (!del) return;
+      e.stopPropagation();
+      const id = del.closest('.bm-item').dataset.id;
+      await BookmarkStore.del(id);
+      orphanIds.delete(id);
+      BookmarkPanel.refresh();
+      restoreHighlights();
+    });
+  },
+
+  setOrphans(ids) {
+    orphanIds = new Set(ids || []);
+  },
+
+  async refresh() {
+    const docBody = document.getElementById('bm-body-doc');
+    const allBody = document.getElementById('bm-body-all');
+    if (!docBody || !allBody) return;
+
+    // Tab 1: เอกสารนี้
+    const cur = State.current;
+    if (!cur) {
+      docBody.innerHTML = '<div class="bm-empty">ยังไม่ได้เปิดเอกสาร</div>';
+    } else {
+      const file = await getFileOf(cur);
+      const fileKey = file ? BookmarkStore.makeFileKey(cur.name, file.size) : BookmarkStore.makeFileKey(cur.name, '?');
+      const items = await BookmarkStore.getByFileKey(fileKey);
+      if (!items.length) {
+        docBody.innerHTML = '<div class="bm-empty">ยังไม่มีบุ๊คมาร์คหรือคอมเมนต์ในเอกสารนี้<br><small>ไฮไลต์ข้อความเพื่อเริ่มใช้งาน</small></div>';
+      } else {
+        docBody.innerHTML = items.map(r => renderItem(r, fileKey)).join('');
+      }
+    }
+
+    // Tab 2: ทั้งโปรแกรม — กลุ่มตามเอกสาร เรียงตามลำดับ tree ฝั่งซ้าย
+    const all = await BookmarkStore.getAll();
+    if (!all.length) {
+      allBody.innerHTML = '<div class="bm-empty">ยังไม่มีรายการในโปรแกรม</div>';
+      return;
+    }
+
+    const groups = new Map();
+    for (const r of all) {
+      if (!groups.has(r.docName)) groups.set(r.docName, []);
+      groups.get(r.docName).push(r);
+    }
+
+    // เรียงลำดับเอกสารตาม State.flat (tree ซ้าย)
+    const docOrder = [];
+    const seen = new Set();
+    for (const n of State.flat) {
+      if (n.kind !== 'file') continue;
+      if (seen.has(n.name)) continue;
+      if (groups.has(n.name)) {
+        docOrder.push(n.name);
+        seen.add(n.name);
+      }
+    }
+    const missing = [...groups.keys()].filter(k => !seen.has(k)).sort((a, b) => a.localeCompare(b, 'th'));
+
+    let html = '';
+    for (const docName of docOrder) {
+      html += renderGroup(docName, groups.get(docName));
+    }
+    if (missing.length) {
+      html += '<div class="bm-missing-header">เอกสารไม่พบในพื้นที่ทำงาน</div>';
+      for (const docName of missing) {
+        html += renderGroup(docName, groups.get(docName), true);
+      }
+    }
+    allBody.innerHTML = html;
+  },
+
+  revealItem(id) {
+    // จากการคลิก mark ในเนื้อหา → เลื่อน panel ไปรายการ
+    switchTabToDoc();
+    const el = document.querySelector(`.bm-item[data-id="${CSS.escape(id)}"]`);
+    if (el) {
+      el.classList.add('flash');
+      el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      setTimeout(() => el.classList.remove('flash'), 1200);
+    }
+  }
+};
+
+function switchTabToDoc() {
+  const panel = document.getElementById('bm-panel');
+  if (!panel) return;
+  const docTab = panel.querySelector('.bm-tab[data-tab="doc"]');
+  if (docTab && !docTab.classList.contains('active')) docTab.click();
+}
+
+function renderItem(r, activeFileKey) {
+  const orphan = orphanIds.has(r.id);
+  const kindIcon = r.kind === 'comment'
+    ? '<svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5C14.216 1 15 1.784 15 2.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg>'
+    : '<svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 0 1-1.227.579L8 11.722l-3.773 3.107A.751.751 0 0 1 3 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.91l3.023-2.489a.75.75 0 0 1 .954 0L11.5 12.66V2.75a.25.25 0 0 0-.25-.25Z"/></svg>';
+  return `
+    <div class="bm-item${orphan ? ' orphan' : ''}" data-id="${esc(r.id)}" title="${orphan ? 'ไม่พบตำแหน่งเดิมในเอกสาร (ข้อความอาจถูกแก้ไข)' : 'คลิกเพื่อไปยังตำแหน่งในเอกสาร'}">
+      <div class="bm-item-head">
+        <span class="bm-kind ${r.kind}">${kindIcon}</span>
+        <span class="bm-quote">${esc(r.quote.length > 90 ? r.quote.slice(0, 90) + '…' : r.quote)}</span>
+        <button type="button" class="bm-del" title="ลบรายการ">
+          <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor"><path d="M11 1.75V3h2.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75ZM4.496 6.675l.66 6.6a.25.25 0 0 0 .249.225h5.19a.25.25 0 0 0 .249-.225l.66-6.6a.75.75 0 0 1 1.492.149l-.66 6.6A1.748 1.748 0 0 1 10.595 15h-5.19a1.75 1.75 0 0 1-1.741-1.575l-.66-6.6a.75.75 0 1 1 1.492-.15ZM6.5 1.75V3h3V1.75a.25.25 0 0 0-.25-.25h-2.5a.25.25 0 0 0-.25.25Z"/></svg>
+        </button>
+      </div>
+      ${r.comment ? `<div class="bm-comment">${esc(r.comment)}</div>` : ''}
+      ${orphan ? '<div class="bm-orphan-note">⚠ ไม่พบตำแหน่งเดิม</div>' : ''}
+    </div>
+  `;
+}
+
+function renderGroup(docName, items, isMissing = false) {
+  return `
+    <div class="bm-group${isMissing ? ' missing' : ''}">
+      <div class="bm-group-header" title="${esc(docName)}">
+        <span class="bm-group-name">${esc(docName)}</span>
+        <span class="bm-group-count">${items.length}</span>
+      </div>
+      ${items.map(r => renderItem(r)).join('')}
+    </div>
+  `;
+}
+
+async function getFileOf(node) {
+  try { return await node.handle.getFile(); } catch (e) { return null; }
+}
+
+async function deleteAnnotation(id) {
+  await BookmarkStore.del(id);
+  orphanIds.delete(id);
+  BookmarkPanel.refresh();
+  restoreHighlights();
+}
+
+// ---------- Panel toggle ----------
+
+function toggleBookmarkPanel(force) {
+  const body = document.body;
+  const isOpen = body.classList.contains('bm-open');
+  const show = (typeof force === 'boolean') ? force : !isOpen;
+  body.classList.toggle('bm-open', show);
+  body.classList.toggle('bm-closed', !show);
+
+  const btn = document.getElementById('btn-bm-toggle');
+  if (btn) {
+    btn.classList.toggle('active', show);
+    btn.title = show ? 'ปิดแผงบุ๊คมาร์ค' : 'เปิดแผงบุ๊คมาร์คและคอมเมนต์';
+  }
+
+  if (show) BookmarkPanel.refresh();
+
+  // แจ้ง ruler ให้วาดใหม่เพราะความกว้าง viewport เปลี่ยน
+  setTimeout(() => {
+    if (window.RulerModule && window.RulerModule.drawScale) window.RulerModule.drawScale();
+  }, 220);
+}
+
+// expose ให้โมดูลอื่นเรียกข้ามได้ (build รวมเป็น single script)
+window.BookmarkPanel = BookmarkPanel;
+window.toggleBookmarkPanel = toggleBookmarkPanel;
+
+
+
 const D = {};
 ['btn-add', 'btn-add2', 'search-input', 'search-content', 'search-info', 'tree', 'stat-title', 'stat-filesize', 'sb-progress-bar',
  'btn-filter-toggle', 'type-filter-dropdown',
@@ -8422,7 +9669,7 @@ const D = {};
  'btn-theme-toggle', 'theme-tools-wrap', 'theme-tools-content',
  'btn-doc-info', 'doc-info-popover', 'doc-info-ext', 'doc-info-name', 'doc-info-type',
  'doc-info-path', 'doc-stat-words', 'doc-stat-chars', 'doc-stat-size', 'doc-stat-lines',
- 'btn-copy-path', 'doc-info-wrap', 'sb-loading', 'sb-loading-text']
+ 'btn-copy-path', 'doc-info-wrap', 'sb-loading', 'sb-loading-text', 'bm-panel', 'btn-bm-toggle']
 .forEach(id => D[id.replace(/-(\w)/g, (_, c) => c.toUpperCase())] = document.getElementById(id));
 
 function switchView(type) {
@@ -8436,6 +9683,10 @@ function switchView(type) {
   if (type === 'md') {
     setTimeout(() => RulerModule.drawScale(), 50);
   }
+}
+
+async function clearHighlightsAsync() {
+  clearHighlights();
 }
 
 function showLoading(msg) {
@@ -8474,7 +9725,8 @@ function saveUi() {
     tx: State.ui.tx,
     padLeft: State.ui.padLeft,
     padRight: State.ui.padRight,
-    tocMini: State.ui.tocMini
+    tocMini: State.ui.tocMini,
+    bmOpen: document.body.classList.contains('bm-open')
   });
 }
 
@@ -8755,19 +10007,27 @@ async function openFile(node, opt = {}) {
       switchView('pdf');
       await PDFViewer.load(file);
       SearchEngine.highlightDoc();
+      setActiveDoc(null);
+      await clearHighlightsAsync();
     } else if (isImg(node.name)) {
       switchView('img');
       ImageViewer.render(file, node);
+      setActiveDoc(null);
+      await clearHighlightsAsync();
     } else if (isMd(node.name)) {
       switchView('md');
       fileText = await file.text();
       await renderMarkdownContent(fileText, node, D.mdContent, D.tocPanel, D.tocList);
       SearchEngine.highlightDoc();
+      setActiveDoc(node, file);
+      await restoreHighlights();
     } else {
       switchView('md');
       fileText = await file.text();
       await renderCodeContent(fileText, node, D.mdContent, D.tocPanel, D.tocList);
       SearchEngine.highlightDoc();
+      setActiveDoc(node, file);
+      await restoreHighlights();
     }
 
     updateDocInfo(node, file, fileText);
@@ -8775,6 +10035,7 @@ async function openFile(node, opt = {}) {
     if (!opt.silent && D.mdScrollPane) D.mdScrollPane.scrollTop = 0;
     Store.set('lastFile', node.path);
     PetManager.onDocumentOpened(node);
+    if (document.body.classList.contains('bm-open')) BookmarkPanel.refresh();
   } catch (err) {
     console.error('openFile error:', err);
     alert('เปิดไฟล์ไม่สำเร็จ: ' + (err.message || err));
@@ -9095,6 +10356,11 @@ document.addEventListener('keydown', e => {
     e.preventDefault();
     toggleTocMini();
   }
+  // Alt + B: Toggle Bookmark Panel
+  if (e.altKey && !e.ctrlKey && !e.metaKey && e.key.toLowerCase() === 'b') {
+    e.preventDefault();
+    toggleBookmarkPanel();
+  }
   // Ctrl + Alt + R (or Ctrl + Shift + Alt + R): Emergency Factory Reset
   if ((e.ctrlKey || e.metaKey) && e.altKey && e.key.toLowerCase() === 'r') {
     e.preventDefault();
@@ -9138,6 +10404,14 @@ D.mdContent.addEventListener('click', async e => {
 
 async function initApp() {
   await Store.open();
+  await BookmarkStore.open();
+
+  // Bookmark & Comment System
+  BookmarkPanel.init();
+  initHighlights();
+  if (D.btnBmToggle) {
+    D.btnBmToggle.addEventListener('click', () => toggleBookmarkPanel());
+  }
 
   PDFViewer.init(D.pdfFrame);
   ImageViewer.init(D.imgPreviewFrame, D.imgMetaBadge);
@@ -9159,6 +10433,7 @@ async function initApp() {
     D.mdScrollPane,
     saveUi
   );
+  window.RulerModule = RulerModule;
 
   const ui = await Store.get('ui');
   if (ui) {
@@ -9178,6 +10453,7 @@ async function initApp() {
       State.ui.padRight = 60;
     }
     if (typeof ui.tocMini === 'boolean') State.ui.tocMini = ui.tocMini;
+    if (typeof ui.bmOpen === 'boolean' && ui.bmOpen) toggleBookmarkPanel(true);
   }
   applyTheme(D.txColor);
   RulerModule.setMargins(State.ui.padLeft, State.ui.padRight, false);

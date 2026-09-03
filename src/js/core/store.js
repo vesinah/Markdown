@@ -2,14 +2,25 @@ export const Store = {
   db: null,
 
   open() {
+    // เปิดครั้งเดียวเป็น v2 (มี store 'kv' และ 'annotations')
+    if (Store.db) return Promise.resolve(true);
     return new Promise(res => {
       try {
-        const rq = indexedDB.open('mdbrowse_v2', 1);
+        const rq = indexedDB.open('mdbrowse_v2', 2);
         rq.onupgradeneeded = () => {
-          if (!rq.result.objectStoreNames.contains('kv')) {
-            rq.result.createObjectStore('kv');
+          const db = rq.result;
+          if (!db.objectStoreNames.contains('kv')) {
+            db.createObjectStore('kv');
+          }
+          if (!db.objectStoreNames.contains('annotations')) {
+            const os = db.createObjectStore('annotations', { keyPath: 'id' });
+            os.createIndex('fileKey', 'fileKey', { unique: false });
+            os.createIndex('docName', 'docName', { unique: false });
           }
         };
+        // แท็บอื่นเปิด v1 ค้างไว้ → หลังแท็บนั้นปิด จะอัปเกรดได้ แต่เราไม่รอ:
+        // ถ้า blocked ให้ resolve(false) แล้วระบบบุ๊คมาร์คทำงานแบบ degraded (kv ยังใช้ได้)
+        rq.onblocked = () => res(false);
         rq.onsuccess = () => {
           Store.db = rq.result;
           res(true);
@@ -128,5 +139,15 @@ export const Store = {
     } catch (e) {
       return '{}';
     }
+  },
+
+  async exportAllJson() {
+    const base = JSON.parse(this.exportJson());
+    try {
+      if (typeof BookmarkStore !== 'undefined' && BookmarkStore.db) {
+        base.annotations = await BookmarkStore.getAll();
+      }
+    } catch (e) { /* fallback: export ส่วนอื่นก่อน */ }
+    return JSON.stringify(base, null, 2);
   }
 };

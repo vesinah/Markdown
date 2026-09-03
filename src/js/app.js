@@ -12,6 +12,9 @@ import { setupSidebarResizer } from './ui/resizer.js';
 import { RulerModule } from './ui/ruler.js';
 import { applyTheme, THEMES } from './ui/theme.js';
 import { PetManager } from './pet/pet-manager.js';
+import { BookmarkStore } from './bookmark/bm-store.js';
+import { BookmarkPanel, toggleBookmarkPanel } from './bookmark/bm-panel.js';
+import { initHighlights, restoreHighlights, clearHighlights, setActiveDoc } from './bookmark/bm-highlight.js';
 
 const D = {};
 ['btn-add', 'btn-add2', 'search-input', 'search-content', 'search-info', 'tree', 'stat-title', 'stat-filesize', 'sb-progress-bar',
@@ -28,7 +31,7 @@ const D = {};
  'btn-theme-toggle', 'theme-tools-wrap', 'theme-tools-content',
  'btn-doc-info', 'doc-info-popover', 'doc-info-ext', 'doc-info-name', 'doc-info-type',
  'doc-info-path', 'doc-stat-words', 'doc-stat-chars', 'doc-stat-size', 'doc-stat-lines',
- 'btn-copy-path', 'doc-info-wrap', 'sb-loading', 'sb-loading-text']
+ 'btn-copy-path', 'doc-info-wrap', 'sb-loading', 'sb-loading-text', 'bm-panel', 'btn-bm-toggle']
 .forEach(id => D[id.replace(/-(\w)/g, (_, c) => c.toUpperCase())] = document.getElementById(id));
 
 export function switchView(type) {
@@ -42,6 +45,10 @@ export function switchView(type) {
   if (type === 'md') {
     setTimeout(() => RulerModule.drawScale(), 50);
   }
+}
+
+async function clearHighlightsAsync() {
+  clearHighlights();
 }
 
 function showLoading(msg) {
@@ -80,7 +87,8 @@ function saveUi() {
     tx: State.ui.tx,
     padLeft: State.ui.padLeft,
     padRight: State.ui.padRight,
-    tocMini: State.ui.tocMini
+    tocMini: State.ui.tocMini,
+    bmOpen: document.body.classList.contains('bm-open')
   });
 }
 
@@ -361,19 +369,27 @@ export async function openFile(node, opt = {}) {
       switchView('pdf');
       await PDFViewer.load(file);
       SearchEngine.highlightDoc();
+      setActiveDoc(null);
+      await clearHighlightsAsync();
     } else if (isImg(node.name)) {
       switchView('img');
       ImageViewer.render(file, node);
+      setActiveDoc(null);
+      await clearHighlightsAsync();
     } else if (isMd(node.name)) {
       switchView('md');
       fileText = await file.text();
       await renderMarkdownContent(fileText, node, D.mdContent, D.tocPanel, D.tocList);
       SearchEngine.highlightDoc();
+      setActiveDoc(node, file);
+      await restoreHighlights();
     } else {
       switchView('md');
       fileText = await file.text();
       await renderCodeContent(fileText, node, D.mdContent, D.tocPanel, D.tocList);
       SearchEngine.highlightDoc();
+      setActiveDoc(node, file);
+      await restoreHighlights();
     }
 
     updateDocInfo(node, file, fileText);
@@ -381,6 +397,7 @@ export async function openFile(node, opt = {}) {
     if (!opt.silent && D.mdScrollPane) D.mdScrollPane.scrollTop = 0;
     Store.set('lastFile', node.path);
     PetManager.onDocumentOpened(node);
+    if (document.body.classList.contains('bm-open')) BookmarkPanel.refresh();
   } catch (err) {
     console.error('openFile error:', err);
     alert('เปิดไฟล์ไม่สำเร็จ: ' + (err.message || err));
@@ -701,6 +718,11 @@ document.addEventListener('keydown', e => {
     e.preventDefault();
     toggleTocMini();
   }
+  // Alt + B: Toggle Bookmark Panel
+  if (e.altKey && !e.ctrlKey && !e.metaKey && e.key.toLowerCase() === 'b') {
+    e.preventDefault();
+    toggleBookmarkPanel();
+  }
   // Ctrl + Alt + R (or Ctrl + Shift + Alt + R): Emergency Factory Reset
   if ((e.ctrlKey || e.metaKey) && e.altKey && e.key.toLowerCase() === 'r') {
     e.preventDefault();
@@ -744,6 +766,14 @@ D.mdContent.addEventListener('click', async e => {
 
 export async function initApp() {
   await Store.open();
+  await BookmarkStore.open();
+
+  // Bookmark & Comment System
+  BookmarkPanel.init();
+  initHighlights();
+  if (D.btnBmToggle) {
+    D.btnBmToggle.addEventListener('click', () => toggleBookmarkPanel());
+  }
 
   PDFViewer.init(D.pdfFrame);
   ImageViewer.init(D.imgPreviewFrame, D.imgMetaBadge);
@@ -765,6 +795,7 @@ export async function initApp() {
     D.mdScrollPane,
     saveUi
   );
+  window.RulerModule = RulerModule;
 
   const ui = await Store.get('ui');
   if (ui) {
@@ -784,6 +815,7 @@ export async function initApp() {
       State.ui.padRight = 60;
     }
     if (typeof ui.tocMini === 'boolean') State.ui.tocMini = ui.tocMini;
+    if (typeof ui.bmOpen === 'boolean' && ui.bmOpen) toggleBookmarkPanel(true);
   }
   applyTheme(D.txColor);
   RulerModule.setMargins(State.ui.padLeft, State.ui.padRight, false);

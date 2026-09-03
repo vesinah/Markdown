@@ -54,8 +54,10 @@ export function preprocessFootnotes(text) {
     }
 
     // Pattern 2: [id] text or [^id] text or 1. [id] text or - [id] text
-    const mSpace = line.match(/^[ \t]*(?:[-*+]|\d+\.)?[ \t]*\[\^?([a-zA-Z0-9_\u0E00-\u0E7F.-]+)\][ \t]+(\S.*)$/);
-    if (mSpace && !line.match(/^[ \t]*\[[ xX]\]/)) {
+    // NOTE: bare (no colon) form only accepts latin/digit ids — Thai text in brackets
+    // (e.g. "[คำแปล...] (*word*) ...") is prose, not a footnote definition.
+    const mSpace = line.match(/^[ \t]*(?:[-*+]|\d+\.)?[ \t]*\[\^?([a-zA-Z0-9_.-]+)\][ \t]+(\S.*)$/);
+    if (mSpace && !line.match(/^[ \t]*(?:[-*+]|\d+\.)?[ \t]*\[[ xX]\]/)) {
       curId = mSpace[1];
       defs.set(curId, [mSpace[2]]);
       inDef = true;

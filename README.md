@@ -19,12 +19,13 @@ D:/01_APP/Markdown/
 ├── TECHNICAL_MANUAL.md        # คู่มือเชิงเทคนิคสำหรับ Developer และ AI Agent
 ├── build.js                   # สคริปต์คอมไพล์ src/ -> MDBrowse.html
 └── src/                       # ซอร์สโค้ดแบบแยกโมดูล
-    ├── css/                   # สไตล์ชีตแบ่งตามหน้าที่ (base, sidebar, reader, markdown, ruler, pdfview, imgview, themes)
+    ├── css/                   # สไตล์ชีตแบ่งตามหน้าที่ (base, sidebar, reader, markdown, ruler, pdfview, imgview, bookmark, themes)
     ├── js/                    # สคริปต์ JavaScript แบบแยกโมดูล
     │   ├── core/              # ระบบฐานข้อมูล IndexedDB, State, File System Access API
     │   ├── tree/              # Data structure ของโครงสร้างไฟล์ และ Tree UI
     │   ├── reader/            # Engine สำหรับ Markdown, PDF.js, รูปภาพ, สารบัญ และเชิงอรรถ
     │   ├── search/            # ระบบค้นหาชื่อไฟล์และค้นหาเต็มข้อความ (Full-Text Search)
+    │   ├── bookmark/          # ระบบบุ๊คมาร์คและคอมเมนต์ (ฐานข้อมูล, Text Quote Anchor, ไฮไลต์, แผงขวา)
     │   ├── ui/                # ตัวจัดการขนาดไซด์บาร์, ไม้บรรทัด, สลับธีม และสีตัวอักษร
     │   └── app.js             # ตัวประสานงานหลักและจุดเริ่มต้นระบบ (Bootstrap Coordinator)
     └── vendor/                # ไลบรารี Third-party ออฟไลน์ (Marked, Purify, HLJS, KaTeX, PDF.js + Worker)
@@ -49,3 +50,4 @@ node build.js
 4. **ฟอนต์ Noto Serif Thai**: ให้อารมณ์อ่านหนังสือ พร้อมปุ่ม `A-`, `A`, `A+` ปรับขนาดแบบเรียลไทม์
 5. **เชิงอรรถสองทิศทาง (Bidirectional Footnotes)**: ลิงก์ `[xx]` / `[^xx]` ไปยังคำอธิบาย และกด `↩` กลับมาที่ข้อความเดิมพร้อมไฟกระพริบ
 6. **ไม้บรรทัดและเส้นขอบเขตเนื้อหา (Interactive Ruler & Margin Guides)**: ลากขยาย-หดขอบกระดาษซ้ายขวาได้อิสระ ดับเบิลคลิกเพื่อรีเซ็ต พร้อมระบบจางลงอัตโนมัติ (Auto-Fading) เมื่อไม่ได้ใช้งาน
+7. **ระบบบุ๊คมาร์คและคอมเมนต์ (Bookmarks & Comments)**: ไฮไลต์ข้อความเพื่อบุ๊คมาร์คหรือเขียนคอมเมนต์ พร้อมแผงขวาแบบ 2 แท็บ (ระดับเอกสาร / ทั้งโปรแกรม) เปิด-ปิดได้ด้วยปุ่มข้างปุ่ม `?` หรือกด `Alt+B` บันทึกลง IndexedDB ผูกกับชื่อไฟล์+ขนาดไฟล์ หากไฟล์หายแล้วนำกลับมา (ชื่อและขนาดตรงกัน) จะกู้คืนไฮไลต์อัตโนมัติ — ใช้เทคนิค Text Quote Anchor ทนต่อการแก้ไขไฟล์เล็กน้อย
