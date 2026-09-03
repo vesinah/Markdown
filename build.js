@@ -93,6 +93,7 @@ function cleanModule(code) {
     .replace(/^export\s+function\s+/gm, 'function ')
     .replace(/^export\s+async\s+function\s+/gm, 'async function ')
     .replace(/^export\s+let\s+/gm, 'let ')
+    .replace(/^export\s*\{[^}]*\}\s*;?\r?\n?/gm, '')
     .replace(/^export\s+default\s+/gm, '');
 }
 
@@ -112,8 +113,13 @@ const jsModules = [
   'js/ui/resizer.js',
   'js/ui/ruler.js',
   'js/ui/theme.js',
+  'js/pet/pet-breeds.js',
+  'js/pet/pet-personality.js',
   'js/pet/pet-dialogues.js',
+  'js/pet/pet-environment.js',
   'js/pet/pet-render.js',
+  'js/pet/pet-social.js',
+  'js/pet/pet-ui.js',
   'js/pet/pet-manager.js',
   'js/bookmark/bm-store.js',
   'js/bookmark/bm-anchor.js',

@@ -2528,7 +2528,7 @@ body.dragging-ruler .margin-guide {
 
 
 /* ==========================================================================
-   Desktop Pets (สัตว์เลี้ยงหน้าจอ) - Styling & 60 FPS Hardware Accelerated Keyframes
+   Desktop Pets (สัตว์เลี้ยงหน้าจอ) - Comprehensive Styling & 60 FPS Hardware Accelerated Keyframes
    ========================================================================== */
 
 /* 1. Global Layer */
@@ -2586,7 +2586,6 @@ body.dragging-ruler .margin-guide {
 .desktop-pet.is-dragged .pet-inner {
   animation: pet-dangle 0.5s infinite alternate ease-in-out;
 }
-
 .desktop-pet.is-dragged .pet-bubble-wrap {
   opacity: 0.9;
 }
@@ -2597,19 +2596,20 @@ body.dragging-ruler .margin-guide {
   bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(20, 24, 30, 0.72);
+  background: rgba(20, 24, 30, 0.76);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   color: #ffffff;
-  font-size: 10px;
-  font-weight: 500;
-  padding: 1px 7px;
+  font-size: 10.5px;
+  font-weight: 600;
+  padding: 1.5px 8px;
   border-radius: 999px;
   white-space: nowrap;
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.2s ease, transform 0.2s ease;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .desktop-pet:hover .pet-name-tag,
@@ -2627,220 +2627,218 @@ body.dragging-ruler .margin-guide {
   min-width: 170px;
   max-width: var(--pet-speech-max-w, 260px);
   pointer-events: none;
-  z-index: 9998;
   opacity: 0;
-  transition: opacity 0.25s ease, transform 0.25s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  visibility: hidden;
+  transition: opacity 0.22s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
+  z-index: 9998;
 }
 
 .pet-bubble-wrap.show {
   opacity: 1;
-  transform: translateX(-50%) translateY(-8px);
+  visibility: visible;
   pointer-events: auto;
+  cursor: pointer;
+  animation: bubble-pop-in 0.28s cubic-bezier(0.18, 0.89, 0.32, 1.28) forwards;
+}
+
+@keyframes bubble-pop-in {
+  0% { opacity: 0; transform: scale(0.8) translateY(12px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
 }
 
 .pet-bubble {
   position: relative;
   background: #ffffff;
-  color: #212529;
-  border: 2px solid #343a40;
-  border-radius: 14px;
-  padding: 8px 12px;
+  color: #1e293b;
+  font-family: inherit;
   font-size: var(--pet-speech-size, 12.5px);
   line-height: 1.45;
-  font-family: inherit;
   font-weight: 500;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
-  text-align: center;
-  word-break: break-word;
+  padding: 9px 13px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px -4px rgba(0, 0, 0, 0.18), 0 4px 6px -2px rgba(0, 0, 0, 0.08);
+  border: 1.5px solid #e2e8f0;
+  word-wrap: break-word;
 }
 
-/* Tail of Speech Bubble */
+/* Speech Bubble Tail */
 .pet-bubble::after {
   content: '';
   position: absolute;
-  bottom: -9px;
+  bottom: -7px;
   left: 50%;
   transform: translateX(-50%);
-  border-width: 9px 8px 0;
+  border-width: 7px 7px 0 7px;
   border-style: solid;
-  border-color: #343a40 transparent;
+  border-color: #ffffff transparent transparent transparent;
   display: block;
   width: 0;
+  filter: drop-shadow(0 2px 1px rgba(0, 0, 0, 0.08));
 }
 
-.pet-bubble::before {
-  content: '';
-  position: absolute;
-  bottom: -6px;
-  left: 50%;
-  transform: translateX(-50%);
-  border-width: 7px 6px 0;
-  border-style: solid;
-  border-color: #ffffff transparent;
-  display: block;
-  width: 0;
-  z-index: 1;
-}
-
-/* 6. Action Animations */
-
-/* Stand & Breathe */
-.desktop-pet.pet-state-stand .pet-body-core {
-  animation: pet-breathe 2.4s infinite ease-in-out;
-}
-.desktop-pet.pet-state-stand .pet-tail-wag {
-  animation: pet-tail-swish 2.2s infinite ease-in-out;
-}
-
-/* Sit */
-.desktop-pet.pet-state-sit .pet-tail-wag {
-  animation: pet-tail-lazy 3s infinite ease-in-out;
-}
-
-/* Walk (Waddle) */
-.desktop-pet.pet-state-walk .pet-inner {
-  animation: pet-waddle 0.5s infinite ease-in-out;
-}
-.desktop-pet.pet-state-walk .pet-paw-fl,
-.desktop-pet.pet-state-walk .pet-paw-br {
-  animation: pet-paw-step-1 0.5s infinite ease-in-out;
-}
-.desktop-pet.pet-state-walk .pet-paw-fr,
-.desktop-pet.pet-state-walk .pet-paw-bl {
-  animation: pet-paw-step-2 0.5s infinite ease-in-out;
-}
-.desktop-pet.pet-state-walk .pet-tail-wag {
-  animation: pet-tail-fast 0.5s infinite ease-in-out;
-}
-
-/* Run (Dash) */
-.desktop-pet.pet-state-run .pet-inner {
-  animation: pet-run-bob 0.28s infinite ease-in-out;
-}
-.desktop-pet.pet-state-run .pet-tail-wag {
-  animation: pet-tail-run 0.28s infinite ease-in-out;
-}
-
-/* Pounce butt-wiggle */
-.desktop-pet.pet-state-pounce .pet-inner {
-  animation: pet-butt-wiggle 0.22s 5 ease-in-out alternate;
-}
-
-/* Grooming */
-.desktop-pet.pet-state-groom .pet-grooming-paw {
-  animation: pet-groom-lick 0.8s infinite ease-in-out;
-}
-
-/* Eating */
-.desktop-pet.pet-state-eating .pet-head-group {
-  animation: pet-chew 0.4s infinite ease-in-out;
-}
-
-/* Sleeping */
-.desktop-pet.pet-state-sleep_loaf,
-.desktop-pet.pet-state-sleep_curl,
-.desktop-pet.pet-state-sleep_belly {
-  filter: brightness(0.96);
-}
-.desktop-pet.pet-state-sleep_loaf .cat-svg,
-.desktop-pet.pet-state-sleep_belly .cat-svg {
-  animation: pet-breathe 3.2s infinite ease-in-out;
-}
-
-/* Screen Blocking Alert Animation */
-.desktop-pet.is-blocked {
-  filter: drop-shadow(0 0 12px rgba(255, 183, 3, 0.6));
-}
-.desktop-pet.is-blocked .pet-inner {
-  animation: pet-attention 1.6s infinite ease-in-out;
-}
-
-/* Ear Twitch (Randomized feeling) */
-.pet-ear {
-  transform-origin: 50% 90%;
-  animation: pet-ear-twitch 4.5s infinite ease-in-out;
-}
-.pet-ear-right {
-  animation-delay: 1.8s;
-}
-
-/* 7. Keyframe Definitions (GPU-accelerated) */
-@keyframes pet-breathe {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.02, 0.98) translateY(-0.5px); }
-}
-
-@keyframes pet-tail-swish {
-  0%, 100% { transform: rotate(0deg); transform-origin: 72px 52px; }
-  50% { transform: rotate(14deg); transform-origin: 72px 52px; }
-}
-
-@keyframes pet-tail-lazy {
-  0%, 100% { transform: rotate(0deg); transform-origin: 72px 52px; }
-  50% { transform: rotate(-10deg); transform-origin: 72px 52px; }
-}
-
-@keyframes pet-tail-fast {
-  0%, 100% { transform: rotate(-8deg); transform-origin: 72px 52px; }
-  50% { transform: rotate(16deg); transform-origin: 72px 52px; }
-}
-
-@keyframes pet-tail-run {
-  0%, 100% { transform: rotate(-18deg); transform-origin: 72px 52px; }
-  50% { transform: rotate(18deg); transform-origin: 72px 52px; }
-}
-
-@keyframes pet-waddle {
-  0%, 100% { transform: translateY(0) rotate(-3deg); }
-  50% { transform: translateY(-3px) rotate(3deg); }
-}
-
-@keyframes pet-run-bob {
-  0%, 100% { transform: translateY(0) rotate(-5deg); }
-  50% { transform: translateY(-5px) rotate(5deg); }
-}
-
-@keyframes pet-paw-step-1 {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-4px); }
-}
-@keyframes pet-paw-step-2 {
-  0%, 100% { transform: translateY(-4px); }
-  50% { transform: translateY(0); }
-}
-
-@keyframes pet-butt-wiggle {
-  0% { transform: rotate(-6deg) translateX(-2px); }
-  100% { transform: rotate(6deg) translateX(2px); }
-}
-
-@keyframes pet-groom-lick {
-  0%, 100% { transform: rotate(-25deg); transform-origin: 53px 40px; }
-  50% { transform: rotate(-48deg); transform-origin: 53px 40px; }
-}
-
-@keyframes pet-chew {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(3px); }
-}
-
+/* 6. Hardware-Accelerated Animations */
 @keyframes pet-dangle {
-  0% { transform: rotate(-7deg) translateY(-2px); }
-  100% { transform: rotate(7deg) translateY(2px); }
+  0% { transform: scale(var(--pet-scale, 1)) rotate(-8deg) translateY(-2px); }
+  100% { transform: scale(var(--pet-scale, 1)) rotate(8deg) translateY(2px); }
 }
 
-@keyframes pet-ear-twitch {
-  0%, 88%, 100% { transform: rotate(0deg); }
-  92% { transform: rotate(-14deg); }
-  96% { transform: rotate(8deg); }
+/* Walking Paws */
+.desktop-pet.pet-state-walk .pet-paw-fl {
+  animation: paw-walk 0.35s infinite alternate ease-in-out;
+}
+.desktop-pet.pet-state-walk .pet-paw-fr {
+  animation: paw-walk 0.35s infinite alternate-reverse ease-in-out;
+}
+.desktop-pet.pet-state-walk .pet-paw-bl {
+  animation: paw-walk 0.35s infinite alternate-reverse ease-in-out;
+}
+.desktop-pet.pet-state-walk .pet-paw-br {
+  animation: paw-walk 0.35s infinite alternate ease-in-out;
 }
 
-@keyframes pet-attention {
-  0%, 100% { transform: scale(var(--pet-scale, 1)); }
-  50% { transform: scale(var(--pet-scale, 1)) scale(1.05); }
+@keyframes paw-walk {
+  0% { transform: translateY(0) translateX(0); }
+  100% { transform: translateY(-4px) translateX(4px); }
 }
 
-/* 8. Particles & Interactive Props */
+/* Running */
+.desktop-pet.pet-state-run .pet-inner {
+  animation: pet-run-bob 0.22s infinite alternate ease-in-out;
+}
+@keyframes pet-run-bob {
+  0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) translateY(-6px); }
+}
+
+/* Breathing while sitting/standing */
+.desktop-pet.pet-state-stand .pet-body-core,
+.desktop-pet.pet-state-sit .pet-body-core {
+  animation: pet-breathe 2.4s infinite alternate ease-in-out;
+  transform-origin: 54px 48px;
+}
+@keyframes pet-breathe {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.025, 0.98); }
+}
+
+/* Tail animations */
+.pet-tail-wag {
+  animation: pet-tail-wagging 0.9s infinite alternate ease-in-out;
+  transform-origin: 72px 52px;
+}
+@keyframes pet-tail-wagging {
+  0% { transform: rotate(-10deg); }
+  100% { transform: rotate(14deg); }
+}
+
+.pet-tail-short {
+  animation: pet-tail-wagging 0.5s infinite alternate ease-in-out;
+  transform-origin: 71px 50px;
+}
+
+.pet-tail-bobtail {
+  animation: pet-bobtail-wiggle 0.35s infinite alternate ease-in-out;
+  transform-origin: 75px 48px;
+}
+@keyframes pet-bobtail-wiggle {
+  0% { transform: translateY(0) rotate(-6deg); }
+  100% { transform: translateY(-2px) rotate(8deg); }
+}
+
+.pet-tail-kinked {
+  animation: pet-tail-wagging 0.8s infinite alternate ease-in-out;
+  transform-origin: 71px 52px;
+}
+
+.pet-tail-curved {
+  animation: pet-tail-wagging 1.1s infinite alternate ease-in-out;
+  transform-origin: 71px 52px;
+}
+
+.pet-tail-fluffy {
+  animation: pet-tail-fluff 1.2s infinite alternate ease-in-out;
+  transform-origin: 70px 52px;
+}
+@keyframes pet-tail-fluff {
+  0% { transform: rotate(-8deg) scaleY(0.96); }
+  100% { transform: rotate(12deg) scaleY(1.04); }
+}
+
+/* Fluffy Persian Ruff subtle breathing */
+.is-fluffy .pet-persian-ruff {
+  animation: pet-ruff-pulse 2.2s infinite alternate ease-in-out;
+  transform-origin: 50px 46px;
+}
+@keyframes pet-ruff-pulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.03); }
+}
+
+/* Sleep Breathing */
+.desktop-pet.pet-state-sleep_loaf .pet-inner,
+.desktop-pet.pet-state-sleep_curl .pet-inner,
+.desktop-pet.pet-state-sleep_belly .pet-inner {
+  animation: pet-sleep-rise 2.8s infinite alternate ease-in-out;
+}
+@keyframes pet-sleep-rise {
+  0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) translateY(2px) scaleY(0.97); }
+}
+
+/* Grooming paw */
+.pet-grooming-paw {
+  animation: pet-groom 0.45s infinite alternate ease-in-out;
+  transform-origin: 53px 40px;
+}
+@keyframes pet-groom {
+  0% { transform: rotate(-35deg) translateY(-2px); }
+  100% { transform: rotate(-10deg) translateY(2px); }
+}
+
+/* Begging */
+.pet-begging-paws {
+  animation: pet-beg 0.4s infinite alternate ease-in-out;
+  transform-origin: 50px 46px;
+}
+@keyframes pet-beg {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-5px); }
+}
+
+/* Scratching */
+.pet-scratch-paws {
+  animation: pet-scratch 0.2s infinite alternate ease-in-out;
+  transform-origin: 42px 40px;
+}
+@keyframes pet-scratch {
+  0% { transform: translateY(-3px) rotate(-5deg); }
+  100% { transform: translateY(3px) rotate(5deg); }
+}
+
+/* 7. Environment Props Layer & Items */
+.pet-env-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: auto;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  will-change: transform;
+  z-index: 9989;
+  transition: filter 0.2s ease;
+}
+.pet-env-item:hover {
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.16));
+}
+.pet-env-item.is-dragged {
+  cursor: grabbing !important;
+  z-index: 9997 !important;
+  filter: drop-shadow(0 14px 20px rgba(0, 0, 0, 0.26)) !important;
+}
+
+/* Butterfly and Gecko */
 .pet-butterfly {
   position: absolute;
   width: 28px;
@@ -2899,41 +2897,38 @@ body.dragging-ruler .margin-guide {
   100% { transform: scale(1); }
 }
 
-/* Floating FX Elements (Hearts, Zzz) */
-.pet-fx-heart, .pet-fx-zzz {
+/* Floating FX Emotes (Heart, Star, Sweat, Zzz, Music) */
+.pet-fx, .pet-fx-heart, .pet-fx-zzz {
   position: absolute;
   pointer-events: none;
   font-weight: 700;
   z-index: 9995;
   animation: fx-rise-fade 1.6s forwards cubic-bezier(0.22, 1, 0.36, 1);
 }
-.pet-fx-heart {
-  color: #ff4d6d;
-  font-size: 18px;
-}
-.pet-fx-zzz {
-  color: #4361ee;
-  font-size: 14px;
-  font-family: monospace;
-}
+.pet-fx-heart { color: #ff4d6d; font-size: 19px; }
+.pet-fx-star { color: #ffb703; font-size: 18px; }
+.pet-fx-sweat { color: #4895ef; font-size: 18px; }
+.pet-fx-zzz { color: #4361ee; font-size: 14px; font-family: monospace; }
+.pet-fx-music { color: #7209b7; font-size: 18px; }
+
 @keyframes fx-rise-fade {
-  0% { transform: translate(0, 0) scale(0.6); opacity: 0; }
-  20% { opacity: 1; transform: translate(4px, -10px) scale(1.1); }
-  100% { transform: translate(-8px, -45px) scale(1); opacity: 0; }
+  0% { transform: translate(0, 0) scale(0.5); opacity: 0; }
+  20% { opacity: 1; transform: translate(4px, -12px) scale(1.15); }
+  100% { transform: translate(-8px, -48px) scale(0.95); opacity: 0; }
 }
 
-/* 9. Context Menu */
+/* 8. Context Menu (Glassmorphism) */
 .pet-context-menu {
   position: fixed;
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
   padding: 6px;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.22), 0 2px 6px rgba(0, 0, 0, 0.06);
   z-index: 10000;
-  min-width: 190px;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  min-width: 205px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   font-family: inherit;
   font-size: 13px;
   animation: menu-pop 0.15s ease-out;
@@ -2941,6 +2936,11 @@ body.dragging-ruler .margin-guide {
 @keyframes menu-pop {
   from { transform: scale(0.92); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
+}
+.pet-menu-header {
+  padding: 6px 10px 8px;
+  border-bottom: 1px solid #f1f3f5;
+  margin-bottom: 4px;
 }
 .pet-menu-item {
   display: flex;
@@ -2956,6 +2956,7 @@ body.dragging-ruler .margin-guide {
   text-align: left;
   font-family: inherit;
   font-size: 12.5px;
+  font-weight: 500;
   transition: background 0.12s ease;
 }
 .pet-menu-item:hover {
@@ -2972,7 +2973,7 @@ body.dragging-ruler .margin-guide {
   margin: 4px 0;
 }
 
-/* 10. Bottom-right Pet Launcher Paw Button */
+/* 9. Bottom-right Paw Dock Button */
 #btn-pet-dock {
   position: fixed;
   bottom: 14px;
@@ -3020,13 +3021,13 @@ body.dragging-ruler .margin-guide {
   justify-content: center;
 }
 
-/* 11. Pet Management Modal */
+/* 10. Management Modal & Tab System (Sanctuary) */
 .pet-modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.45);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  background: rgba(15, 23, 42, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3037,155 +3038,677 @@ body.dragging-ruler .margin-guide {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
 .pet-modal-card {
   background: #ffffff;
-  width: 90%;
-  max-width: 520px;
-  max-height: 85vh;
-  border-radius: 16px;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+  width: 92%;
+  max-width: 660px;
+  max-height: 88vh;
+  border-radius: 20px;
+  box-shadow: 0 24px 50px -12px rgba(0, 0, 0, 0.28), 0 0 0 1px rgba(0, 0, 0, 0.06);
   display: flex;
   flex-direction: column;
   overflow: hidden;
   animation: modal-zoom 0.25s cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 @keyframes modal-zoom {
-  from { transform: scale(0.9); opacity: 0; }
+  from { transform: scale(0.92); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
 }
+
 .pet-modal-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 20px;
-  border-bottom: 1px solid #e9ecef;
-  background: #f8f9fa;
+  padding: 16px 22px;
+  border-bottom: 1px solid #f1f5f9;
+  background: #f8fafc;
 }
 .pet-modal-title {
   font-size: 16px;
   font-weight: 700;
-  color: #212529;
+  color: #0f172a;
   display: flex;
   align-items: center;
   gap: 8px;
 }
+.pet-title-paw { font-size: 18px; }
+.pet-title-count {
+  font-size: 13px;
+  font-weight: 600;
+  color: #64748b;
+}
+
 .pet-modal-close {
   border: none;
   background: transparent;
-  font-size: 20px;
-  color: #868e96;
+  font-size: 22px;
+  color: #94a3b8;
   cursor: pointer;
-  border-radius: 6px;
-  padding: 4px 8px;
-  line-height: 1;
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
 }
 .pet-modal-close:hover {
-  background: #e9ecef;
-  color: #212529;
+  background: #e2e8f0;
+  color: #0f172a;
 }
+
+/* Modal Segmented Tabs */
+.pet-modal-tabs {
+  display: flex;
+  background: #f1f5f9;
+  padding: 5px 8px;
+  border-bottom: 1px solid #e2e8f0;
+  gap: 4px;
+}
+.pet-tab-btn {
+  flex: 1;
+  padding: 8px 10px;
+  border: none;
+  background: transparent;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #64748b;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+}
+.pet-tab-btn:hover {
+  color: #0f172a;
+  background: rgba(255, 255, 255, 0.6);
+}
+.pet-tab-btn.active {
+  background: #ffffff;
+  color: #0f172a;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
 .pet-modal-body {
   padding: 20px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  flex: 1;
 }
-.pet-list-wrap {
+
+/* Tab 1: My Pets Card Layout */
+.pet-cards-grid {
   display: flex;
   flex-direction: column;
+  gap: 14px;
+}
+.pet-profile-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 14px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.pet-profile-card:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.pet-card-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+.pet-card-avatar {
+  width: 60px;
+  height: 50px;
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 2px;
+  border: 1px solid #f1f5f9;
+}
+.pet-card-main-info {
+  flex: 1;
+}
+.pet-card-name-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.pet-card-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f172a;
+}
+.pet-card-badge {
+  background: #eff6ff;
+  color: #2563eb;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 999px;
+  border: 1px solid #dbeafe;
+}
+.pet-card-sub {
+  font-size: 12px;
+  color: #64748b;
+  margin-top: 2px;
+}
+.pet-card-traits {
+  font-size: 11px;
+  color: #94a3b8;
+  margin-top: 1px;
+}
+
+/* 6-Axis Stat Bars */
+.pet-stats-bars {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 14px;
+  background: #f8fafc;
+  padding: 10px 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+.pet-stat-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11.5px;
+}
+.pet-stat-label {
+  width: 58px;
+  color: #475569;
+  font-weight: 500;
+}
+.pet-stat-track {
+  flex: 1;
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 999px;
+  overflow: hidden;
+}
+.pet-stat-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+.stat-intel { background: #4361ee; }
+.stat-dili { background: #f72585; }
+.stat-ener { background: #ffb703; }
+.stat-talk { background: #4895ef; }
+.stat-affe { background: #f28482; }
+.stat-soci { background: #52b788; }
+.pet-stat-val {
+  font-size: 10.5px;
+  color: #64748b;
+  width: 28px;
+  text-align: right;
+  font-family: monospace;
+}
+
+.pet-card-actions {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+.pet-card-btn {
+  border: 1px solid transparent;
+  padding: 5.5px 12px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.18s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  font-family: inherit;
+}
+.pet-card-btn[data-action="tickle"] {
+  background: #fff1f2;
+  color: #e11d48;
+  border-color: #fecdd3;
+}
+.pet-card-btn[data-action="tickle"]:hover {
+  background: #ffe4e6;
+  transform: translateY(-1.5px);
+  box-shadow: 0 4px 10px rgba(225, 29, 72, 0.2);
+}
+.pet-card-btn[data-action="feed"] {
+  background: #ecfeff;
+  color: #0891b2;
+  border-color: #cffafe;
+}
+.pet-card-btn[data-action="feed"]:hover {
+  background: #cffafe;
+  transform: translateY(-1.5px);
+  box-shadow: 0 4px 10px rgba(8, 145, 178, 0.2);
+}
+.pet-card-btn[data-action="toggle_stay"] {
+  background: #fffbeb;
+  color: #b45309;
+  border-color: #fde68a;
+}
+.pet-card-btn[data-action="toggle_stay"]:hover {
+  background: #fef3c7;
+  transform: translateY(-1.5px);
+  box-shadow: 0 4px 10px rgba(180, 83, 9, 0.2);
+}
+.pet-card-btn[data-action="rename"] {
+  background: #f8fafc;
+  color: #475569;
+  border-color: #e2e8f0;
+}
+.pet-card-btn[data-action="rename"]:hover {
+  background: #f1f5f9;
+  color: #0f172a;
+  transform: translateY(-1.5px);
+}
+.pet-card-btn.danger {
+  background: #fef2f2;
+  color: #dc2626;
+  border-color: #fee2e2;
+}
+.pet-card-btn.danger:hover {
+  background: #fee2e2;
+  color: #b91c1c;
+  transform: translateY(-1.5px);
+  box-shadow: 0 4px 10px rgba(220, 38, 38, 0.2);
+}
+
+/* Tab 2: Adoption Form & Live Preview */
+.pet-adopt-container {
+  display: flex;
+  gap: 22px;
+}
+.pet-adopt-preview-wrap {
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pet-adopt-preview-box {
+  width: 100%;
+  height: 160px;
+  background: linear-gradient(135deg, #fffaf5, #fef3c7);
+  border: 1.5px solid #fde68a;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: inset 0 2px 6px rgba(245, 158, 11, 0.08), 0 4px 14px rgba(245, 158, 11, 0.12);
+  transition: transform 0.2s ease;
+}
+.pet-adopt-preview-title {
+  font-size: 12px;
+  color: #78350f;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 1.45;
+  background: #fffbeb;
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid #fef3c7;
+}
+
+.pet-adopt-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.pet-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.pet-form-group label {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #334155;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.pet-form-row {
+  display: flex;
   gap: 10px;
 }
-.pet-item-row {
+.pet-input-dice-row {
   display: flex;
+  gap: 8px;
   align-items: center;
-  justify-content: space-between;
-  padding: 10px 14px;
-  background: #f8f9fa;
-  border-radius: 10px;
-  border: 1px solid #e9ecef;
 }
-.pet-item-info {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-.pet-item-avatar {
-  width: 44px;
+.pet-input-text {
+  flex: 1;
   height: 38px;
+  padding: 0 12px;
+  border-radius: 11px;
+  border: 1.5px solid #cbd5e1;
+  font-family: inherit;
+  font-size: 13px;
+  color: #0f172a;
+  background: #ffffff;
+  transition: all 0.15s ease;
 }
-.pet-item-name {
-  font-size: 14px;
+.pet-input-text:focus {
+  outline: none;
+  border-color: #f97316;
+  box-shadow: 0 0 0 3.5px rgba(249, 115, 22, 0.15);
+}
+
+.pet-btn-dice {
+  height: 38px;
+  padding: 0 14px;
+  border-radius: 11px;
+  background: linear-gradient(135deg, #f5f3ff, #ede9fe);
+  color: #6d28d9;
+  border: 1.5px solid #ddd6fe;
+  font-size: 12.5px;
   font-weight: 600;
-  color: #212529;
-}
-.pet-item-breed {
-  font-size: 11.5px;
-  color: #6c757d;
-}
-.pet-item-actions {
+  cursor: pointer;
   display: flex;
   align-items: center;
   gap: 6px;
+  white-space: nowrap;
+  transition: all 0.18s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  box-shadow: 0 2px 6px rgba(109, 40, 217, 0.1);
+  font-family: inherit;
 }
-.pet-btn-sm {
-  border: 1px solid #ced4da;
-  background: #ffffff;
-  padding: 4px 8px;
-  border-radius: 6px;
-  font-size: 11.5px;
-  cursor: pointer;
-  color: #495057;
-  transition: all 0.15s ease;
+.pet-btn-dice:hover {
+  background: linear-gradient(135deg, #ede9fe, #ddd6fe);
+  transform: translateY(-1.5px);
+  box-shadow: 0 4px 12px rgba(109, 40, 217, 0.22);
 }
-.pet-btn-sm:hover {
-  border-color: #0d6efd;
-  color: #0d6efd;
+.pet-btn-dice:active {
+  transform: translateY(0);
 }
-.pet-btn-sm.danger:hover {
-  border-color: #dc3545;
-  color: #dc3545;
+
+/* Custom Select Dropdowns */
+.pet-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 38px;
+  border-radius: 11px;
+  border: 1.5px solid #cbd5e1;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23ea580c' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center;
+  padding: 0 32px 0 12px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  color: #0f172a;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
-.pet-btn-adopt {
-  background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+.pet-select:hover {
+  border-color: #94a3b8;
+}
+.pet-select:focus {
+  outline: none;
+  border-color: #f97316;
+  box-shadow: 0 0 0 3.5px rgba(249, 115, 22, 0.15);
+}
+
+.pet-btn-adopt-submit {
+  height: 44px;
+  border-radius: 13px;
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
   color: #ffffff;
   border: none;
-  padding: 10px 16px;
-  border-radius: 10px;
-  font-size: 13.5px;
-  font-weight: 600;
+  font-size: 14.5px;
+  font-weight: 700;
   cursor: pointer;
+  margin-top: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 6px 18px rgba(234, 88, 12, 0.4);
+  transition: all 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  font-family: inherit;
 }
-.pet-btn-adopt:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.35);
+.pet-btn-adopt-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(234, 88, 12, 0.55);
+  background: linear-gradient(135deg, #fb923c 0%, #ea580c 100%);
+}
+.pet-btn-adopt-submit:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(234, 88, 12, 0.3);
 }
 
-.pet-settings-group {
-  border-top: 1px solid #e9ecef;
-  padding-top: 14px;
+/* Tab 3: Environment Toggles */
+.pet-env-settings-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.pet-env-desc {
+  font-size: 13px;
+  color: #475569;
+  line-height: 1.5;
+  background: linear-gradient(135deg, #fffbeb, #fef3c7);
+  padding: 11px 15px;
+  border-radius: 12px;
+  border: 1px solid #fde68a;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.pet-env-items-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.pet-setting-row {
+.pet-env-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 13px;
-  color: #343a40;
+  padding: 12px 16px;
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 14px;
+  transition: all 0.15s ease;
 }
-.pet-setting-row select,
-.pet-setting-row input[type="range"] {
-  padding: 4px 8px;
-  border-radius: 6px;
-  border: 1px solid #ced4da;
-  font-family: inherit;
+.pet-env-row:hover {
+  border-color: #f97316;
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.08);
+}
+.pet-env-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.pet-env-icon {
+  font-size: 26px;
+}
+.pet-env-name {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #0f172a;
+}
+.pet-env-sub {
+  font-size: 11.5px;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+/* iOS Style Switch */
+.pet-switch {
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 26px;
+  flex-shrink: 0;
+}
+.pet-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.pet-slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: #cbd5e1;
+  transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 999px;
+}
+.pet-slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.pet-switch input:checked + .pet-slider {
+  background-color: #f97316;
+}
+.pet-switch input:checked + .pet-slider:before {
+  transform: translateX(20px);
+}
+
+/* Tab 4: Settings Grid & Modern Action Buttons */
+.pet-settings-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.pet-setting-card {
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 13px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  justify-content: space-between;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+}
+.pet-setting-card label {
   font-size: 12.5px;
+  font-weight: 600;
+  color: #334155;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Modern Test Buttons (Non-boxy Pill Actions) */
+.pet-test-btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 100%;
+}
+.pet-test-btn-subrow {
+  display: flex;
+  gap: 7px;
+  width: 100%;
+}
+.pet-test-btn {
+  border-radius: 11px;
+  border: 1.5px solid transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  transition: all 0.18s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  padding: 8px 10px;
+}
+.pet-test-blocker {
+  width: 100%;
+  background: linear-gradient(135deg, #fff7ed, #ffedd5);
+  color: #c2410c;
+  border-color: #fed7aa;
+  box-shadow: 0 2px 6px rgba(249, 115, 22, 0.1);
+}
+.pet-test-blocker:hover {
+  background: linear-gradient(135deg, #ffedd5, #fed7aa);
+  transform: translateY(-1.5px);
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.22);
+}
+.pet-test-blocker:active {
+  transform: translateY(0);
+}
+.pet-test-butterfly {
+  flex: 1;
+  background: linear-gradient(135deg, #fff1f2, #ffe4e6);
+  color: #e11d48;
+  border-color: #fecdd3;
+  box-shadow: 0 2px 6px rgba(244, 63, 94, 0.1);
+}
+.pet-test-butterfly:hover {
+  background: linear-gradient(135deg, #ffe4e6, #fecdd3);
+  transform: translateY(-1.5px);
+  box-shadow: 0 4px 12px rgba(244, 63, 94, 0.22);
+}
+.pet-test-butterfly:active {
+  transform: translateY(0);
+}
+.pet-test-gecko {
+  flex: 1;
+  background: linear-gradient(135deg, #f0fdf4, #dcfce7);
+  color: #15803d;
+  border-color: #bbf7d0;
+  box-shadow: 0 2px 6px rgba(34, 197, 94, 0.1);
+}
+.pet-test-gecko:hover {
+  background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+  transform: translateY(-1.5px);
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.22);
+}
+.pet-test-gecko:active {
+  transform: translateY(0);
+}
+
+/* Empty State */
+.pet-empty-state {
+  text-align: center;
+  padding: 36px 20px;
+  background: #f8fafc;
+  border-radius: 16px;
+  border: 2px dashed #cbd5e1;
+}
+.pet-btn-adopt {
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 14px rgba(234, 88, 12, 0.35);
+  transition: all 0.18s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.pet-btn-adopt:hover {
+  transform: translateY(-1.5px);
+  box-shadow: 0 6px 20px rgba(234, 88, 12, 0.5);
 }
 
 
@@ -6957,11 +7480,462 @@ function applyTheme(txColorInput) {
 }
 
 
+// ระบบสายพันธุ์และพันธุกรรมของน้องแมว (Pet Breeds & Genetics)
+// รองรับ 11 สายพันธุ์ (รวม 5 สายพันธุ์ใหม่ตามคำขอ), พันธุกรรมหาง 5+ แบบ, รูปร่าง และรอยด่าง
+
+const TAIL_TYPES = {
+  long: { id: 'long', name: 'หางยาวเรียว', desc: 'หางยาวเรียวกวัดแกว่งสง่างาม' },
+  short: { id: 'short', name: 'หางสั้นดุ๊กดิ๊ก', desc: 'หางสั้นกะทัดรัด ส่ายดุ๊กดิ๊กน่าเอ็นดู' },
+  bobtail: { id: 'bobtail', name: 'หางกุด (ปอมปอม)', desc: 'หางกุดเป็นก้อนกลมฟูน่ารักดั่งกระต่าย' },
+  kinked: { id: 'kinked', name: 'หางคด (แมวไทย)', desc: 'หางหักงอที่ปลาย เอกลักษณ์มงคลของแมวไทย' },
+  curved: { id: 'curved', name: 'หางโค้งเคียว', desc: 'หางโค้งงอนเป็นเคราเสือ งดงามมีเสน่ห์' },
+  fluffy_plumage: { id: 'fluffy_plumage', name: 'หางพวงขนนกยูง', desc: 'หางพวงขนยาวฟูฟ่อง หรูหราปานเจ้าหญิง' }
+};
+
+const BODY_BUILDS = {
+  chubby: { id: 'chubby', name: 'อ้วนกลมตุ้ยนุ้ย', scaleX: 1.08, scaleY: 1.05, bellyOffset: 2 },
+  normal: { id: 'normal', name: 'สมส่วนมาตรฐาน', scaleX: 1.0, scaleY: 1.0, bellyOffset: 0 },
+  slim: { id: 'slim', name: 'ผอมเพรียวคล่องแคล่ว', scaleX: 0.94, scaleY: 0.96, bellyOffset: -2 },
+  chunky_loaf: { id: 'chunky_loaf', name: 'ก้อนขนมปังยักษ์', scaleX: 1.15, scaleY: 1.02, bellyOffset: 4 }
+};
+
+const PET_BREEDS = {
+  // 1. สก๊อตติชบลูพอยต์
+  scottish_bluepoint: {
+    id: 'scottish_bluepoint',
+    name: 'แมวสก๊อตติชบลูพอยต์',
+    shortName: 'สก๊อตติชบลูพอยต์',
+    desc: 'หูพับ หน้าแต้มเทาฟ้า ลำตัวครีมขาว ตาฟ้าใสแป๋ว แก้มป่อง',
+    furType: 'short',
+    defaultTail: 'long',
+    defaultBuild: 'chubby',
+    bodyColor: '#f5f0ea',
+    bellyColor: '#ffffff',
+    pointColor: '#78889b',
+    innerEarColor: '#d6a2b8',
+    eyeColor: '#4895ef',
+    pupilColor: '#1a2530',
+    noseColor: '#6c7a89',
+    earType: 'folded',
+    pattern: 'bluepoint'
+  },
+
+  // 2. สีสวาด (โคราช)
+  sisawat: {
+    id: 'sisawat',
+    name: 'แมวสีสวาด (โคราช)',
+    shortName: 'สีสวาด (โคราช)',
+    desc: 'ขนเทาดอกเลาเหลือบเงิน แก้มอิ่ม ตาสีเขียวมรกตประกาย มงคลแต่โบราณ',
+    furType: 'short',
+    defaultTail: 'kinked',
+    defaultBuild: 'normal',
+    bodyColor: '#79828d',
+    bellyColor: '#8c95a0',
+    pointColor: '#5c646e',
+    innerEarColor: '#c29ba8',
+    eyeColor: '#52b788',
+    pupilColor: '#1d2a22',
+    noseColor: '#525a63',
+    earType: 'normal',
+    pattern: 'solid_silver'
+  },
+
+  // 3. ลายสลิด
+  tabby: {
+    id: 'tabby',
+    name: 'แมวลายสลิด',
+    shortName: 'ลายสลิด',
+    desc: 'ลายเสือสลิด หน้าผากตัว M พุงพลุ้ยน่ารัก จอมซนคล่องแคล่ว',
+    furType: 'short',
+    defaultTail: 'curved',
+    defaultBuild: 'normal',
+    bodyColor: '#a39788',
+    bellyColor: '#e8e2d5',
+    pointColor: '#584c40',
+    innerEarColor: '#d4a5b0',
+    eyeColor: '#95d5b2',
+    pupilColor: '#24332b',
+    noseColor: '#e07a5f',
+    earType: 'normal',
+    pattern: 'tabby'
+  },
+
+  // 4. แมวส้ม
+  orange: {
+    id: 'orange',
+    name: 'แมวส้มชีสจอมป่วน',
+    shortName: 'แมวส้มชีส',
+    desc: 'ริ้วส้มชีส ถุงเท้าขาว พุงย้อยกลมดิก จอมป่วนอันดับหนึ่งของโลก',
+    furType: 'short',
+    defaultTail: 'long',
+    defaultBuild: 'chubby',
+    bodyColor: '#f4a261',
+    bellyColor: '#fff3e8',
+    pointColor: '#e76f51',
+    innerEarColor: '#ffb5a7',
+    eyeColor: '#e9c46a',
+    pupilColor: '#3d2610',
+    noseColor: '#f28482',
+    earType: 'normal',
+    pattern: 'orange_tabby'
+  },
+
+  // 5. วิเชียรมาศ
+  siamese: {
+    id: 'siamese',
+    name: 'แมววิเชียรมาศ',
+    shortName: 'วิเชียรมาศ',
+    desc: 'ตัวครีมนวล แต้มเข้ม 9 จุด ตาฟ้าไพลินประกายเจิดจ้า เฉลียวฉลาด',
+    furType: 'short',
+    defaultTail: 'kinked',
+    defaultBuild: 'slim',
+    bodyColor: '#e8d9cb',
+    bellyColor: '#f7eee4',
+    pointColor: '#4a382a',
+    innerEarColor: '#b5838d',
+    eyeColor: '#0077b6',
+    pupilColor: '#0d1b2a',
+    noseColor: '#36271c',
+    earType: 'normal',
+    pattern: 'siamese'
+  },
+
+  // 6. แมวดำ (ก้อนถ่าน)
+  black: {
+    id: 'black',
+    name: 'แมวดำ (ก้อนถ่านนำโชค)',
+    shortName: 'แมวดำ',
+    desc: 'ดำขลับเงาวาว ตากลมโตสีเหลืองทอง เหมือนก้อนถ่านกลมนุ่มนิ่ม',
+    furType: 'short',
+    defaultTail: 'short',
+    defaultBuild: 'chubby',
+    bodyColor: '#2b2d42',
+    bellyColor: '#222333',
+    pointColor: '#1a1b26',
+    innerEarColor: '#8d6b79',
+    eyeColor: '#ffb703',
+    pupilColor: '#12131a',
+    noseColor: '#ff8fa3',
+    earType: 'normal',
+    pattern: 'black'
+  },
+
+  // === 5 สายพันธุ์ใหม่ตามคำขอ ===
+
+  // 7. แมวขาวแต้มหูน้ำตาล
+  white_brown_ears: {
+    id: 'white_brown_ears',
+    name: 'แมวขาวแต้มหูสีน้ำตาล',
+    shortName: 'ขาวแต้มหูน้ำตาล',
+    desc: 'ตัวขาวปลอดบริสุทธิ์ มีลวดลายแต้มสีน้ำตาลเข้มบริเวณหูทั้งสองข้าง ตาสีทองอำพัน',
+    furType: 'short',
+    defaultTail: 'curved',
+    defaultBuild: 'normal',
+    bodyColor: '#faf8f5',
+    bellyColor: '#ffffff',
+    pointColor: '#8c5836',
+    innerEarColor: '#e8b4b8',
+    eyeColor: '#f4a261',
+    pupilColor: '#2b1a0e',
+    noseColor: '#e76f51',
+    earType: 'normal',
+    pattern: 'white_brown_ears'
+  },
+
+  // 8. แมวขาวแต้มน้ำตาลทั่วตัว (ลายวัวคาราเมล)
+  white_brown_spotted: {
+    id: 'white_brown_spotted',
+    name: 'แมวขาวลายแต้มน้ำตาลเต็มตัว',
+    shortName: 'ขาวแต้มน้ำตาลเต็มตัว',
+    desc: 'พื้นขาวสะอาด มีรอยด่างแต้มสีน้ำตาลคาราเมลกระจายทั่วตัวและหลัง น่ารักไม่ซ้ำใคร',
+    furType: 'short',
+    defaultTail: 'long',
+    defaultBuild: 'chubby',
+    bodyColor: '#faf8f5',
+    bellyColor: '#ffffff',
+    pointColor: '#7f4f24',
+    patchColor: '#936639',
+    innerEarColor: '#f4acb7',
+    eyeColor: '#588157',
+    pupilColor: '#1d2a1d',
+    noseColor: '#d67562',
+    earType: 'normal',
+    pattern: 'white_brown_spotted'
+  },
+
+  // 9. แมวสามสี
+  calico: {
+    id: 'calico',
+    name: 'แมวสามสี (มิเกะนำโชค)',
+    shortName: 'แมวสามสี (มิเกะ)',
+    desc: 'ลวดลาย 3 สีส้ม-ดำ-ขาว แต้มกระจายตามตัวอย่างมีศิลปะ แมวนำโชคแห่งความสุข',
+    furType: 'short',
+    defaultTail: 'bobtail',
+    defaultBuild: 'chubby',
+    bodyColor: '#fefae0',
+    bellyColor: '#ffffff',
+    pointColor: '#2b2d42',
+    patchColor1: '#e76f51', // ส้ม
+    patchColor2: '#2b2d42', // ดำ
+    innerEarColor: '#ffb5a7',
+    eyeColor: '#a7c957',
+    pupilColor: '#1e2916',
+    noseColor: '#f28482',
+    earType: 'normal',
+    pattern: 'calico'
+  },
+
+  // 10. แมวเปอร์เซียขนฟูหลายสี
+  persian_multicolor: {
+    id: 'persian_multicolor',
+    name: 'แมวเปอร์เซียขนฟูหลายสี',
+    shortName: 'เปอร์เซียขนฟูหลายสี',
+    desc: 'ขนยาวปุกปุยฟูฟ่องรอบคอและหาง ลวดลายผสมผสานหลากสี หน้ากลมแป้น หรูหราไฮโซ',
+    furType: 'fluffy_persian',
+    defaultTail: 'fluffy_plumage',
+    defaultBuild: 'chunky_loaf',
+    bodyColor: '#f8edeb',
+    bellyColor: '#ffffff',
+    pointColor: '#6c584c',
+    patchColor1: '#d48c65',
+    patchColor2: '#4a403a',
+    innerEarColor: '#fcd5ce',
+    eyeColor: '#4ea8de',
+    pupilColor: '#12263a',
+    noseColor: '#b56576',
+    earType: 'fluffy_tuft',
+    pattern: 'persian_multicolor'
+  },
+
+  // 11. แมวเปอร์เซียขนฟูสีขาว
+  persian_white: {
+    id: 'persian_white',
+    name: 'แมวเปอร์เซียขนฟูสีขาวปลอด',
+    shortName: 'เปอร์เซียขาวฟู',
+    desc: 'ขาวสะอาดบริสุทธิ์ดั่งปุยเมฆ ขนฟูหนานุ่ม หางพวงใหญ่ ตาโตสีฟ้าประกายดั่งอัญมณี',
+    furType: 'fluffy_persian',
+    defaultTail: 'fluffy_plumage',
+    defaultBuild: 'chunky_loaf',
+    bodyColor: '#ffffff',
+    bellyColor: '#ffffff',
+    pointColor: '#e9ecef',
+    innerEarColor: '#ffccd5',
+    eyeColor: '#00b4d8',
+    pupilColor: '#03045e',
+    noseColor: '#ff758f',
+    earType: 'fluffy_tuft',
+    pattern: 'persian_white'
+  }
+};
+
+// สุ่มชื่อแมวน่ารักภาษาไทย
+const RANDOM_NAMES = [
+  'เจ้าส้ม', 'ถุงทอง', 'กะทิ', 'หมอก', 'ถ่านหิน', 'วิเชียร', 'ตัวอ้วน', 'ชิโร่',
+  'คุโระ', 'ชาไทย', 'คาราเมล', 'มูจิ', 'โมจิ', 'ข้าวเหนียว', 'เฉาก๊วย', 'ปุยฝ้าย',
+  'มะลิ', 'เต้าหู้', 'พุดดิ้ง', 'ซูชิ', 'ลูกชิ้น', 'สำลี', 'มีโชค', 'นำเงิน'
+];
+
+function getRandomBreedId() {
+  const keys = Object.keys(PET_BREEDS);
+  return keys[Math.floor(Math.random() * keys.length)];
+}
+
+function getRandomTailType() {
+  const keys = Object.keys(TAIL_TYPES);
+  return keys[Math.floor(Math.random() * keys.length)];
+}
+
+function getRandomBodyBuild() {
+  const keys = Object.keys(BODY_BUILDS);
+  return keys[Math.floor(Math.random() * keys.length)];
+}
+
+
+// ระบบบุคลิกภาพ 6 แกนและกลไกพฤติกรรม (6-Axis Personality Engine)
+// ฉลาด-เด๋อ, ขยัน-ขี้เกียจ, พลังงาน, ช่างพูด-เงียบ, ขี้อ้อน-หยิ่ง, เข้าสังคม-สันโดษ
+
+const PERSONALITY_AXES = {
+  intelligence: {
+    id: 'intelligence',
+    name: 'สติปัญญา',
+    lowLabel: 'เด๋อด๋า / ใสซื่อ',
+    highLabel: 'ฉลาดเป็นกรด / ปราชญ์',
+    icon: '🧠',
+    color: '#4361ee'
+  },
+  diligence: {
+    id: 'diligence',
+    name: 'ความขยัน',
+    lowLabel: 'ขี้เกียจ / นอนทั้งวัน',
+    highLabel: 'ขยันขันแข็ง / เฝ้างาน',
+    icon: '⭐',
+    color: '#f72585'
+  },
+  energy: {
+    id: 'energy',
+    name: 'พลังงาน',
+    lowLabel: 'สงบนิ่ง / เชื่องช้า',
+    highLabel: 'ไฮเปอร์ / ซนระเบิด',
+    icon: '⚡',
+    color: '#ffb703'
+  },
+  talkativeness: {
+    id: 'talkativeness',
+    name: 'ความช่างคุย',
+    lowLabel: 'เงียบขรึม / สื่อสารด้วยตา',
+    highLabel: 'ช่างจ้อ / ร้องแง้วๆ',
+    icon: '💬',
+    color: '#4895ef'
+  },
+  affection: {
+    id: 'affection',
+    name: 'ความขี้อ้อน',
+    lowLabel: 'หยิ่งเชิด / ซึนเดเระ',
+    highLabel: 'ติดทาสหนึบ / ออดอ้อน',
+    icon: '💖',
+    color: '#f28482'
+  },
+  sociability: {
+    id: 'sociability',
+    name: 'การเข้าสังคม',
+    lowLabel: 'รักสันโดษ / หวงถิ่น',
+    highLabel: 'เฟรนด์ลี่ / ชอบมีเพื่อน',
+    icon: '🐾',
+    color: '#52b788'
+  }
+};
+
+// แบบบุคลิกภาพสำเร็จรูป (Archetypes)
+const PERSONALITY_ARCHETYPES = [
+  {
+    name: 'ท่านปราชญ์แมว',
+    desc: 'ฉลาด สุขุม ช่างสังเกต คอยเตือนเรื่องสาระและสุขภาพ',
+    stats: { intelligence: 92, diligence: 78, energy: 35, talkativeness: 60, affection: 45, sociability: 55 }
+  },
+  {
+    name: 'เจ้าก้อนขี้เซา',
+    desc: 'รักการนอนเป็นชีวิตจิตใจ เดินสองก้าวขอนอนพัก ปล่อยวางทุกสิ่ง',
+    stats: { intelligence: 45, diligence: 12, energy: 18, talkativeness: 25, affection: 70, sociability: 40 }
+  },
+  {
+    name: 'เจ้าตัวซนพลังเทอร์โบ',
+    desc: 'อยู่นิ่งไม่เป็น พร้อมวิ่งไล่ล่าทุกอย่างที่ขยับได้ในหน้าจอ',
+    stats: { intelligence: 60, diligence: 50, energy: 95, talkativeness: 75, affection: 60, sociability: 85 }
+  },
+  {
+    name: 'คุณหนูเอาแต่ใจ (ซึนเดเระ)',
+    desc: 'เชิดใส่ทาส ทำเป็นไม่สนใจ แต่แอบมองและชอบให้ตามใจ',
+    stats: { intelligence: 82, diligence: 30, energy: 40, talkativeness: 45, affection: 20, sociability: 25 }
+  },
+  {
+    name: 'ลูกแมวเด็กอ้อนติดหนึบ',
+    desc: 'เดินตามเมาส์ตลอดเวลา ชอบให้เกาคาง ร้องหาทาสตลอด',
+    stats: { intelligence: 55, diligence: 65, energy: 70, talkativeness: 88, affection: 96, sociability: 90 }
+  },
+  {
+    name: 'แมวเด๋อผู้ไร้เดียงสา',
+    desc: 'น่ารักน่าเอ็นดู ชอบทำอะไรเปิ่นๆ ตกใจสิ่งรอบตัวตลอดเวลา',
+    stats: { intelligence: 18, diligence: 40, energy: 72, talkativeness: 80, affection: 85, sociability: 75 }
+  }
+];
+
+class PetPersonality {
+  // สุ่มค่าสเตตัส 6 แกน (20 - 95 เพื่อความสมดุล)
+  static generateRandomStats() {
+    return {
+      intelligence: Math.floor(20 + Math.random() * 76),
+      diligence: Math.floor(15 + Math.random() * 81),
+      energy: Math.floor(20 + Math.random() * 76),
+      talkativeness: Math.floor(20 + Math.random() * 76),
+      affection: Math.floor(20 + Math.random() * 76),
+      sociability: Math.floor(20 + Math.random() * 76)
+    };
+  }
+
+  // คำนวณฉายาบุคลิกภาพเด่น
+  static getPersonalityTitle(stats) {
+    if (!stats) return 'แมวธรรมดา';
+    const s = stats;
+
+    if (s.intelligence >= 80 && s.diligence >= 70) return 'ผู้ช่วยวิชาการตัวจิ๋ว';
+    if (s.intelligence <= 30 && s.energy >= 70) return 'เจ้าตัวเด๋อจอมซน';
+    if (s.energy >= 85) return 'จรวดมิสไซล์ติดขน';
+    if (s.diligence <= 25 && s.energy <= 35) return 'แชมเปี้ยนการนอนกลางวัน';
+    if (s.affection >= 85) return 'ก้อนน้ำตาลคลั่งรัก';
+    if (s.affection <= 25) return 'จักรพรรดิผู้เย่อหยิ่ง';
+    if (s.sociability >= 85) return 'ทูตสันถวไมตรีสี่ขา';
+    if (s.sociability <= 25) return 'แมวอินโทรเวิร์ตสันโดษ';
+    if (s.talkativeness >= 85) return 'ดีเจเสียงใสชวนคุย';
+    if (s.talkativeness <= 25) return 'นักปราชญ์ผู้เงียบสงบ';
+
+    return 'น้องแมวอารมณ์ดี';
+  }
+
+  // สรุปป้ายแท็กบุคลิก
+  static getPersonalityBadges(stats) {
+    if (!stats) return [];
+    const badges = [];
+
+    if (stats.intelligence >= 70) badges.push({ text: 'ฉลาดปราดเปรื่อง', color: '#4361ee' });
+    else if (stats.intelligence <= 35) badges.push({ text: 'เด๋อด๋าน่ารัก', color: '#7209b7' });
+
+    if (stats.diligence >= 70) badges.push({ text: 'ขยันเฝ้าจอ', color: '#f72585' });
+    else if (stats.diligence <= 35) badges.push({ text: 'สายขี้เกียจ', color: '#9a8c98' });
+
+    if (stats.energy >= 70) badges.push({ text: 'พลังงานล้น', color: '#ffb703' });
+    else if (stats.energy <= 35) badges.push({ text: 'รักความสงบ', color: '#8ecae6' });
+
+    if (stats.affection >= 70) badges.push({ text: 'ขี้อ้อนมาก', color: '#f28482' });
+    else if (stats.affection <= 35) badges.push({ text: 'หยิ่งซึนเดเระ', color: '#6c757d' });
+
+    if (stats.sociability >= 70) badges.push({ text: 'เข้าสังคมเก่ง', color: '#52b788' });
+    else if (stats.sociability <= 35) badges.push({ text: 'รักสันโดษ', color: '#4a4e69' });
+
+    return badges.slice(0, 3);
+  }
+
+  // คำนวณอัตราความเร็วการเดินตามค่าพลังงาน (Energy) และ รูปร่าง
+  static calculateWalkSpeed(pet) {
+    const energy = pet.personality?.energy || 50;
+    const baseSpeed = 1.2 + (energy / 100) * 1.6;
+    if (pet.build === 'chubby' || pet.build === 'chunky_loaf') {
+      return baseSpeed * 0.85; // แมวอ้วนเดินต้วมเตี้ยมน่ารัก
+    }
+    if (pet.build === 'slim') {
+      return baseSpeed * 1.15; // แมวเพรียวเดินปราดเปรียว
+    }
+    return baseSpeed;
+  }
+
+  // คำนวณโอกาสที่แมวจะเดินตามเคอร์เซอร์เมาส์ (Affection + Energy)
+  static shouldFollowCursor(pet) {
+    const aff = pet.personality?.affection || 50;
+    const energy = pet.personality?.energy || 50;
+    const score = (aff * 0.7) + (energy * 0.3);
+    return score > 60 && Math.random() < 0.35;
+  }
+
+  // คำนวณโอกาสแวะไปนอนที่เบาะ หรือมุดกล่อง (Diligence ต่ำ + Energy ต่ำ)
+  static prefersResting(pet) {
+    const dil = pet.personality?.diligence || 50;
+    const energy = pet.personality?.energy || 50;
+    return (dil < 45 || energy < 40);
+  }
+
+  // คำนวณโอกาสแวะเล่นของเล่น (Energy สูง + Intelligence ปานกลาง-สูง)
+  static prefersToyPlay(pet) {
+    const energy = pet.personality?.energy || 50;
+    return energy > 65;
+  }
+}
+
+
 // คลังบทสนทนาภาษาไทยสำหรับน้องแมวสัตว์เลี้ยงหน้าจอ (Desktop Pets)
 // รองรับการแทรกตัวแปร {doc} = ชื่อไฟล์ปัจจุบัน, {name} = ชื่อแมว, {other} = ชื่อแมวอีกตัว
+// เชื่อมโยงกับระบบบุคลิกภาพ 6 แกน (Smart/Derpy, Diligent/Lazy, Energy, Talkative/Quiet, Affection/Aloof, Social/Antisocial)
 
 const PET_DIALOGUES = {
-  // 1. ตรวจจับการอ่านเอกสาร (Document Context) - 30 ข้อความ
+  // 1. ตรวจจับการอ่านเอกสาร (Document Context)
   docContext: [
     'กำลังอ่าน "{doc}" อยู่เหรอ สนุกไหมทาส?',
     'อ่านเรื่อง "{doc}" แล้วได้ความรู้อะไรบ้าง เล่าให้เหมียวฟังหน่อยสิ!',
@@ -6982,20 +7956,10 @@ const PET_DIALOGUES = {
     'แอบดูทาสอ่าน "{doc}" มาสิบนาทีแล้ว ทาสเก่งจังที่อ่านเข้าใจ',
     'เหมียวชอบกลิ่นของเอกสาร "{doc}" จัง (ถึงมันจะเป็นไฟล์ดิจิทัลก็เถอะ)',
     'ทาสกำลังค้นหาอะไรใน "{doc}" เหรอ ให้เหมียวช่วยตะปบหน้าจอหาไหม?',
-    'อ่าน "{doc}" เล่มนี้แล้ว อย่าลืมเอาไปปรับใช้ในชีวิตจริงด้วยนะทาส',
-    'บทความ "{doc}" นี้เขียนดีจัง เหมียวอ่านไม่ออกแต่สัมผัสได้ถึงพลังงาน!',
-    'ถ้าใน "{doc}" มีพูดถึงขนมแมวเลีย ช่วยอ่านออกเสียงดัง ๆ ให้ฟังหน่อยนะ',
-    'อย่าอ่าน "{doc}" เร็วเกินไปนะทาส ค่อย ๆ ซึมซับความรู้ไปทีละย่อหน้า',
-    'เหมียวขอทำนายว่า ในเอกสาร "{doc}" ตอนจบพระเอกกับนางเอกจะได้เลี้ยงแมว!',
-    'เห็นทาสอ่าน "{doc}" ตั้งใจแบบนี้ เหมียวก็อยากแปลงร่างเป็นแว่นตาช่วยอ่านเลย',
-    'อ่าน "{doc}" ถึงหน้าไหนแล้ว ขอเหมียวเอาอุ้งเท้าแปะไว้เป็นที่คั่นหนังสือนะ',
-    'ข้อมูลใน "{doc}" ดูแน่นเอี๊ยด ระวังสมองบวมนะทาส พักสายตาหน่อย',
-    'ทาสกำลังอ่าน "{doc}" เพื่อเตรียมสอบหรือทำงานวิจัยอยู่เหรอ สู้ ๆ นะ!',
-    'เหมียวจะนั่งเป็นกำลังใจข้าง ๆ ตรงนี้ตลอดที่ทาสอ่าน "{doc}" เลย',
-    'อ่าน "{doc}" จบแล้วปิดคอมพ์ไปกอดเหมียวได้เลยนะ สัญญา!'
+    'อ่าน "{doc}" เล่มนี้แล้ว อย่าลืมเอาไปปรับใช้ในชีวิตจริงด้วยนะทาส'
   ],
 
-  // 2. เตือนเมื่ออ่านนาน / สุขภาพ / เดินมานอนทับจอ (Fatigue & Screen Blocker) - 30 ข้อความ
+  // 2. เตือนเมื่ออ่านนาน / สุขภาพ / เดินมานอนทับจอ (Fatigue & Screen Blocker)
   fatigue: [
     'อ่านมาเกิน 40 นาทีแล้วนะทาส! พักสายตามองต้นไม้เขียว ๆ 5 นาทีเดี๋ยวนี้!',
     'เหมียวมานอนทับจอแล้ว! ไม่อนุญาตให้อ่านต่อจนกว่าจะวางมือไปพักผ่อน!',
@@ -7009,177 +7973,184 @@ const PET_DIALOGUES = {
     'นอนทับแป้นพิมพ์เลยดีไหมเนี่ย จะได้หยุดพิมพ์แล้วไปนอนพักสักที!',
     'เหมียวขอนอนขวางบรรทัดนี้ไว้ สั่งให้ทาสลุกไปยืดเส้นยืดสาย 10 นาที!',
     'จ้องหน้าจอนาน ๆ สายตาจะสั้นลงนะ เดี๋ยวจะมองไม่เห็นความน่ารักของเหมียว',
-    'ลุกไปห้องน้ำแล้วล้างหน้าให้สดชื่นหน่อยเร็ว เหมียวคอยเฝ้าหน้าจอให้เอง',
-    'อ่านหนังสือดึกดื่นแบบนี้ ขอบตาดำเป็นหมีแพนด้าไม่รู้ด้วยนะ!',
-    'ถ้าทาสไม่ยอมพัก เหมียวจะเริ่มร้องเหมียว ๆ กวนสมาธิแล้วนะ 1... 2... 3...',
-    'สมองทำงานหนักเกินไปแล้ว ปิดเครื่องชาร์จพลังสักงีบดีกว่าไหม?',
-    'ยืดแขน หมุนข้อมือหน่อย ระวังนิ้วล็อกนะทาส พิมพ์แป๊ก ๆ มาตั้งนาน',
-    'เหมียวบังคับใช้กฎหมายคุ้มครองทาส: สั่งพักงานชั่วคราว 15 นาที!',
-    'ดูหน้าทาสสิ เริ่มเบลอแล้วนะ ไปกินผลไม้เปรี้ยว ๆ ให้ตื่นตาหน่อยเร็ว',
-    'อย่าลืมหายใจเข้าลึก ๆ นะทาส บางทีเครียดจนลืมผ่อนคลายลมหายใจเลย',
-    'พักก่อนเถอะทาส ความสำเร็จไม่ได้สร้างเสร็จในคืนเดียว แต่สุขภาพพังได้นะ!',
-    'เหมียวหิวท้องร้องจ๊อก ๆ แล้ว ทาสไม่อยากลุกไปเปิดตู้เย็นหาของกินเหรอ?',
-    'นั่งนานขนาดนี้ ระวังปวดหลังเรื้อรังนะ ไปนอนยืดตัวบนเตียงสักนิดเร็ว',
-    'พักสายตามองฟ้ามองนกนอกหน้าต่างบ้าง โลกข้างนอกสวยกว่าตัวหนังสือนะ',
-    'หมดเวลาอ่านแล้ว! ตอนนี้เป็นเวลาปรนนิบัติลูบหัวเหมียวเท่านั้น!',
-    'เหมียวนอนแผ่พุงตรงนี้แล้ว อยากอ่านต่อก็ต้องอุ้มเหมียวออกไปให้ได้ก่อน!',
-    'กาแฟหมดแก้วไปกี่แก้วแล้วเนี่ย ระวังใจสั่นนะ ดื่มน้ำเปล่าเยอะ ๆ หน่อย',
-    'งานไม่หนีไปไหนหรอก แต่ความสดชื่นหนีไปแล้ว ไปนอนพักเถอะทาส',
-    'เหมียวส่งพลังใจให้ทาสนะ แต่ขอสั่งให้หยุดอ่านแล้วพักเดี๋ยวนี้!',
-    'ไปพักเถอะนะคนเก่ง พรุ่งนี้ค่อยมาลุยต่อ เหมียวรออยู่ตรงนี้เสมอ'
+    'ลุกไปห้องน้ำแล้วล้างหน้าให้สดชื่นหน่อยเร็ว เหมียวคอยเฝ้าหน้าจอให้เอง'
   ],
 
-  // 3. ช่วงเวลาของวัน (Time of Day Context) - 30 ข้อความ
+  // 3. ช่วงเวลาของวัน (Time of Day Context)
   timeMorning: [
     'อรุณสวัสดิ์ทาส ตื่นมาเปิดแอปอ่านแต่เช้าเลย ขยันสุดยอด!',
     'เช้าแล้ว อากาศกำลังดี อย่าลืมกินมื้อเช้าเพิ่มพลังนะเหมียว',
     'กาแฟหรือปลาทูดีเช้านี้? เหมียวขอเลือกปลาทูสองตัวโต ๆ!',
     'ตื่นเช้าแบบนี้สดชื่นจัง เริ่มต้นวันใหม่ด้วยพลังบวกนะทาส',
-    'แดดยามเช้าอุ่นจัง ขอเหมียวยืดตัวรับวิตามินดีแป๊บหนึ่งนะ ฮึบ!',
-    'เช้านี้มีงานเยอะไหม ค่อย ๆ ทำไปทีละอย่างนะ เหมียวเป็นกำลังใจให้',
-    'แสงแดดส่องเข้าหน้าต่างแล้ว ลืมตาตื่นมารับความน่ารักของเหมียวเร็ว'
+    'แดดยามเช้าอุ่นจัง ขอเหมียวยืดตัวรับวิตามินดีแป๊บหนึ่งนะ ฮึบ!'
   ],
   timeAfternoon: [
     'ช่วงบ่ายหนังตากำลังหย่อน... ขอนอนหลับกลางวันข้าง ๆ นะ ง่ำๆ',
     'บ่ายสองแล้ว ได้เวลาน้ำชายามบ่ายหรือยังทาส?',
     'อากาศตอนบ่ายชวนให้ง่วงนอนจัง ขอนอนเป็นก้อนขนมปังตรงนี้นะ',
     'ถ้าเริ่มง่วง ทาสมาซบพุงนุ่ม ๆ ของเหมียวเรียกความกระปรี้กระเปร่าได้นะ',
-    'บ่าย ๆ แบบนี้ ชงกาแฟแก้วที่สองหรือยัง แต่อย่าดื่มเยอะเกินไปล่ะ',
-    'งั่ม... ฝันถึงภูเขาปลาทูกำลังลอยมา... เอ้า! ตื่นมาเจอหน้าทาสพอดี',
-    'ช่วงบ่ายแดดร่มลมตก เหมาะแก่การอ่านหนังสือยาว ๆ จังเลย',
-    'แอบหาวไปสามรอบแล้วนะทาส ไปล้างหน้าล้างตาหน่อยไหม?'
+    'งั่ม... ฝันถึงภูเขาปลาทูกำลังลอยมา... เอ้า! ตื่นมาเจอหน้าทาสพอดี'
   ],
   timeEvening: [
     'เย็นย่ำแล้วนะทาส เลิกงานหรือยัง อย่าหักโหมจนเกินไปล่ะ',
     'พระอาทิตย์ตกดินแล้ว ท้องฟ้าเปลี่ยนเป็นสีส้มเหมือนขนเหมียวเลย',
     'เย็นนี้กินอะไรดี? ปลาทอด ไก่ย่าง หรือขนมแมวเลียรสปลาแซลมอน?',
     'ทำงานเหนื่อยมาทั้งวันแล้ว เย็นนี้ให้เวลากับตัวเองเยอะ ๆ นะ',
-    'เปิดไฟห้องให้สว่างหน่อยนะทาส แสงเริ่มมืดแล้ว เดี๋ยวสายตาเสีย',
-    'เลิกอ่านแล้วไปวิ่งออกกำลังกาย หรือเดินเล่นรับลมเย็น ๆ กันเถอะ',
     'ได้เวลาอาหารเย็นของเหมียวแล้วนะทาส! เทอาหารเปียกให้ไวเลย!'
   ],
   timeNight: [
-    'ดึกป่านนี้ยังไม่นอนอีกเหรอ! เดี๋ยวพรุ่งนี้ตื่นไปทำงานไม่ไหวนะ',
-    'เที่ยงคืนแล้ว ผีหลอกนะ! รีบปิดไฟแล้วมุดเข้าใต้ผ้าห่มเร็วเข้า',
-    'ตีหนึ่งแล้วนะทาส เหมียวง่วงจนตาแทบจะปิดเป็นเส้นตรงแล้วเนี่ย',
-    'ดึกแล้ว บรรยากาศเงียบสงบจัง เหมาะกับการคิดไอเดียใหม่ ๆ เนอะ',
-    'ตาสว่างเพราะกาแฟหรือเพราะเนื้อหาในหน้านี้มันเข้มข้นกันแน่นะ?',
-    'นอนได้แล้วคนดี เดี๋ยวเหมียวไปนอนขดที่ปลายเท้ากล่อมให้หลับฝันดี',
-    'อย่านอนดึกเกินไปนะ ภูมิคุ้มกันจะลดลง เหมียวเป็นห่วงจริง ๆ นะ',
-    'ราตรีสวัสดิ์ล่วงหน้านะทาส ขอให้คืนนี้ฝันเห็นฝูงปลาทูบินได้'
+    'ดึกแล้วนะทาส ปิดไฟนอนได้แล้ว เดี๋ยวสิวขึ้นไม่รู้ด้วยนะ',
+    'ตีหนึ่งแล้วยังไม่นอนอีกเหรอ? เหมียวจะแปลงร่างเป็นผีแมวมาหลอกนะ!',
+    'กลางคืนเงียบสงบจัง ได้ยินเสียงลมหายใจของทาสด้วย',
+    'สี่ทุ่มกว่าแล้ว ไปนอนกอดหมอนข้างอุ่น ๆ เถอะนะ',
+    'นอนดึกระวังตื่นสายนะ พรุ่งนี้ค่อยมาลุยต่อเถอะทาส'
   ],
 
-  // 4. ความคิดแมวกวน ๆ ขี้เล่น และตรรกะแมว (Idle & Derpy Thoughts) - 45 ข้อความ
-  idleThoughts: [
-    'มองหน้าเหมียวทำไม... อยากบีบพุงล่ะสิ คิดค่าจับ 2 ขนมแมวเลียนะ!',
-    'ถึงตัวจะอ้วนกลม แต่ความว่องไวระดับเสือดาวติดจรวดนะบอกไว้ก่อน!',
-    'หน้าจอนี้อุ่นดีจัง ขอเอาพุงแนบระบายความร้อนหน่อยละกัน ฟินนน~',
-    'แมวไม่ได้อ้วน! แค่ขนฟูและโครงสร้างกระดูกใหญ่ตามสายพันธุ์ต่างหาก!',
-    'กดคลิกอยู่นั่นแหละ แป๊ก ๆๆๆ มาเกาคางให้เหมียวก่อนสิทาส',
-    'ฉันคือกษัตริย์ของจักรวาลนี้ และแกคือทาสผู้ซื่อสัตย์ อย่าลืมหน้าที่ล่ะ!',
-    'มีอะไรติดอยู่ที่ขอบจอน่ะ... ตะปบดูแป๊บ! อ้าว เป็นแค่เคอร์เซอร์เมาส์',
-    'ปลาทูวันนี้เค็มไปหน่อย คราวหน้าขอปลาแซลมอนนอร์เวย์นะทาส',
-    'ถ้าโลกนี้ไม่มีแมว มนุษย์คงเหงาจนต้องร้องไห้วันละแปดรอบแน่ ๆ',
-    'ทาสรู้ไหมว่า แมวใช้เวลานอนวันละ 16 ชั่วโมง? เพราะงั้นขอตัวไปนอนต่อนะ',
-    'เสียงพิมพ์คีย์บอร์ดของทาสเพราะดีนะ ฟังเหมือนเสียงเม็ดฝนตกเลย',
-    'แอบมองเมาส์วิ่งไปวิ่งมาบนจอ อยากกระโดดตะครุบให้เมาส์พังไปเลย!',
-    'เมื่อกี้รู้สึกเหมือนเห็นจิ้งจกเดินผ่านแถวขอบจอแวบ ๆ อยู่ไหนนะ...',
-    'ทำไมมนุษย์ต้องทำงานด้วยนะ เกิดเป็นแมวนี่แหละสบายที่สุดในโลกแล้ว',
-    'ถ้าเหมียวช่วยทาสทำงาน ทาสจะแบ่งเงินเดือนซื้อปลาทูให้เหมียวกี่เปอร์เซ็นต์?',
-    'นั่งเฉย ๆ ก็น่ารัก นี่มันพรสวรรค์ชัด ๆ คนอะไรจะเพอร์เฟกต์ได้ขนาดนี้',
-    'อยากได้กล่องกระดาษจัง ถึงตัวจะใหญ่กว่ากล่อง แต่เหมียวจะยัดตัวลงไปให้ได้!',
-    'อย่าทำหน้าเครียดสิทาส หันมายิ้มหวาน ๆ ให้เหมียวสักทีนึงเร็ว',
-    'เหมียวคือเครื่องกำจัดความเหงาและเครียดแบบพกพา มีประสิทธิภาพ 100%!',
-    'ทำไมมนุษย์ถึงไม่มีหางนะ? แล้วเวลาดีใจส่ายอะไรแทนหางล่ะ?',
-    'อุ้งเท้าของเหมียวนุ่มนิ่มมากนะ อยากจับไหม? ยื่นมือมาสิ... แฮ่ แกล้งขู่!',
-    'บางทีเหมียวก็สงสัยนะว่า เคอร์เซอร์เมาส์มันทำมาจากปลาทูหรือเปล่า?',
-    'ส่ายก้นดุ๊กดิ๊ก ดุ๊กดิ๊ก... กำลังคำนวณวิถีกระโดดข้ามหน้าจออยู่!',
-    'ที่บ้านไม่มีขนมแมวเลียแล้วใช่ไหม? สั่งออนไลน์เดี๋ยวนี้เลยทาส!',
-    'หาวววว~ อ้าปากกว้างจนเห็นลิ้นสีชมพูเลย ง่วงจัง',
-    'เหมียวฉลาดมากนะ อ่านภาษาไทยออกทุกคำ แต่แกล้งทำเป็นไม่เข้าใจเฉย ๆ',
-    'ขอเหมียวยึดครองเก้าอี้ตัวนี้นะ ทาสไปนั่งขัดสมาธิบนพื้นแทนละกัน',
-    'กำลังคิดว่า ถ้าบินได้แบบนก คงขึ้นไปนอนบนโคมไฟเพดานทั้งวันแน่เลย',
-    'อย่าจ้องตาเหมียวนานเกินไปนะ เดี๋ยวจะตกหลุมรักจนถอนตัวไม่ขึ้น',
-    'เสียงฝีเท้าเบา ๆ แบบนินจา เหมียวเดินไปไหนก็ไร้ร่องรอย... ยกเว้นรอยขนแมว',
-    'ขนร่วงนิดหน่อยถือเป็นเครื่องประดับเสื้อผ้าของทาสนะ ภูมิใจไว้เถอะ!',
-    'โลกกลมหรือโลกแบนไม่รู้ รู้แต่พุงเหมียวกลมดิ๊กน่ากอดที่สุด!',
-    'อยากแอบวิ่งไปเคาะแก้วน้ำให้ตกจัง... แต่เห็นแก่ความเหนื่อยของทาส ละเว้นให้ก่อน',
-    'เวลามองทาสตั้งใจทำงาน เหมียวก็แอบรู้สึกภูมิใจที่มีทาสเก่ง ๆ แบบนี้นะ',
-    'กลิ่นอะไรหอม ๆ น่ะ ทาสแอบกินขนมคนเดียวไม่แบ่งเหมียวเหรอ?!',
-    'นอนกลิ้งไปกลิ้งมาบนหน้าต่าง สบายใจเฉิบเฉยจริง ๆ เล้ย',
-    'ชีวิตมันสั้น อย่าลืมกินของอร่อยและนอนกอดแมวนะทาส',
-    'ทำไมทาสไม่งอกหูแมวออกมาบ้างนะ จะได้น่ารักเหมือนเหมียว',
-    'เหมียวจะคอยเป็นบอดี้การ์ดปกป้องหน้าจอนี้จากฝุ่นละอองเอง!',
-    'นอนท่าก้อนขนมปังนี่แหละ อบอุ่นและกักเก็บอุณหภูมิพุงได้ดีที่สุด',
-    'ถ้าเหมียวหายไป ไม่ต้องตกใจนะ แอบไปนอนหลับในตู้เสื้อผ้าเฉย ๆ',
-    'อยากกินกุ้งเผาตัวโต ๆ จัง ทาสพาไปกินหน่อยสิ นะ ๆๆ',
-    'ส่องกระจกทีไรก็ตกใจทุกที... ทำไมแมวตัวนี้ถึงได้หล่อ/สวยขนาดนี้นะ!',
-    'ไม่ว่าจะเกิดอะไรขึ้น จำไว้เสมอนะว่า เหมียวอยู่เคียงข้างทาสตรงนี้เสมอ'
+  // 4. พฤติกรรมตาม 6 แกนนิสัย (Personality-Driven Thoughts)
+  // 4.1 ฉลาด vs เด๋อด๋า
+  smartThoughts: [
+    'เอกสารหน้านี้มีโครงสร้างใจความสำคัญชัดเจนมาก วิเคราะห์ได้เยี่ยม!',
+    'ทาสรู้ไหมว่าการกดปุ่มทางลัดช่วยประหยัดเวลาอ่านได้ถึง 20% เลยนะ',
+    'เหมียวคำนวณแล้ว ถ้าทาสอ่านด้วยความเร็วคงที่นี้ อีก 12 นาทีจะจบบท!',
+    'จากการสังเกต หัวข้อนี้เชื่อมโยงกับบทนำหน้าที่แล้วอย่างมีนัยสำคัญ'
+  ],
+  derpyThoughts: [
+    'เมื่อกี้เหมียววิ่งชนขอบหน้าต่าง... เจ็บจมูกจัง แต่ทำฟอร์มเนียนอยู่',
+    'ตรงนั้นมีเงาดำๆ ดุ๊กดิ๊ก! หรือว่าจะเป็นวิญญาณปลาทูแปลงกายมา?!',
+    'หางของเหมียวมันแอบขยับเองได้ด้วย! อย่าหนีนะเจ้าหาง แง่ม!',
+    'ตัวหนังสือบนหน้าจอมันลอยได้ไหมนะ อยากเอาอุ้งเท้าจับมาเคี้ยวเล่น'
   ],
 
-  // 5. ปฏิกิริยาเมื่อถูกสัมผัส / คลิก / เกาคาง / จั๊กจี้ (Touch & Tickle) - 20 ข้อความ
+  // 4.2 ขยัน vs ขี้เกียจ
+  diligentThoughts: [
+    'เหมียวจะนั่งหลังตรงเฝ้าหน้าจอเป็นเพื่อนทาสเอง สู้เขานะ!',
+    'ตั้งใจอ่านแบบนี้อนาคตสดใสแน่นอน เหมียวให้คะแนนความมุ่งมั่นเต็มร้อย!',
+    'อย่าเพิ่งยอมแพ้กับเนื้อหายากๆ นะ ค่อยๆ แกะไปทีละบรรทัด!',
+    'ตรวจตราความเรียบร้อยรอบหน้าจอ... ปลอดภัย ไม่มีศัตรู อ่านต่อได้!'
+  ],
+  lazyThoughts: [
+    'อ่านทำไมให้เหนื่อย... นอนเกลือกกลิ้งสบายใจกว่าเยอะ คร่อก...',
+    'ขอพักสัก 3 ชั่วโมงนะทาส ปลุกด้วยปลาทูเท่านั้นนะ ห้ามปลุกด้วยอย่างอื่น',
+    'มนุษย์นี่ชอบหาเรื่องทำงานจัง เป็นแมวนอนเฉยๆ ก็มีกินแล้วแท้ๆ',
+    'บิดขี้เกียจรอบที่แปดของวัน... พุงตึงสบายจังเลย งืมมม'
+  ],
+
+  // 4.3 พลังงานสูง vs ต่ำ
+  highEnergyThoughts: [
+    'พลังล้นนน! อยากวิ่งซอยเท้ารอบจอ 50 รอบ! ฟิ้วววว!',
+    'กระโดดขึ้น กระโดดลง! สนุกจังโว้ยยยย!',
+    'มีอะไรให้พุ่งชนบ้างไหม! เล็งเป้าแล้วนะ 3... 2... 1... ชาร์จเจอร์!',
+    'อยากเล่นชักเย่อ! อยากตะปบลูกบอลไหมพรม! ทาสมาเล่นกันเร็ว!'
+  ],
+  lowEnergyThoughts: [
+    'โลกหมุนเร็วไปแล้ว... เหมียวขอใช้ชีวิตแบบสโลว์ไลฟ์นะ',
+    'นั่งนิ่งๆ มองเมฆ มองทาส... มีความสุขจัง',
+    'การไม่ขยับตัวคือศิลปะชั้นสูงสุดของเผ่าพันธุ์แมว',
+    '*กระดิกหางเบาๆ ส่งสัญญาณว่ายังมีชีวิตอยู่*'
+  ],
+
+  // 4.4 พูดเก่ง vs เงียบขรึม
+  talkativeThoughts: [
+    'แล้วทาสรู้ไหม วันก่อนนะเหมียวไปแอบส่องนกกระจอกริมระเบียงมา มันบินมาเกาะแล้วก็...',
+    'เหมียวชอบเสียงพิมพ์คีย์บอร์ดของทาสจัง แป๊กๆๆๆ เหมือนเสียงเคี้ยวของกรอบเลย!',
+    'ทาสว่าสีขนของเหมียววันนี้ดูเงางามเป็นพิเศษไหม? เหมียวเพิ่งเลียแต่งขนมา 40 นาทีแหนะ',
+    'วันนี้มีเรื่องจะคุยเยอะแยะเลย ตั้งใจฟังเหมียวนะ อย่าเพิ่งเบื่อล่ะ!'
+  ],
+  quietThoughts: [
+    '...เหมียว',
+    '*มองตาแป๋ว*',
+    '*กะพริบตาสองข้างช้าๆ อย่างอ่อนโยน*',
+    '*เดินมานั่งแนบชิดเงียบๆ*'
+  ],
+
+  // 4.5 ขี้อ้อน vs หยิ่ง
+  affectionateThoughts: [
+    'รักทาสที่สุดในโลกเล้ยยย! มาให้เหมียวเอาหัวถูแก้มที!',
+    'เคอร์เซอร์เมาส์ของทาสอุ่นจัง ขอเอาคางเกยหน่อยนะ',
+    'อย่าเพิ่งสนใจหน้าจอมากสิ สนใจก้อนขนปุกปุยตรงนี้ก่อนน้าาา ❤️',
+    'ทาสใจดีที่สุด เลี้ยงดูเหมียวอย่างดี คืนนี้จะนอนกรนกล่อมข้างหูนะ'
+  ],
+  aloofThoughts: [
+    'ไม่ได้อยากอยู่ใกล้ทาสหรอกนะ แค่บังเอิญมุมนี้แสงแดดส่องพอดีเฉยๆ',
+    'หึ... ทำเป็นมองหน้า อยากให้ลูบหัวล่ะสิ? ไม่อนุญาตย่ะ!',
+    'อย่ามาแตะตัวนะ เสียทรงขนหมด... (แต่ถ้ามีขนมแมวเลียค่อยว่ากัน)',
+    '*เชิดหน้ามองไปทางอื่นอย่างสง่างาม*'
+  ],
+
+  // 4.6 เข้าสังคม vs รักสันโดษ
+  socialThoughts: [
+    'อยากมีเพื่อนแมวมาวิ่งเล่นด้วยกันเยอะๆ จัง หน้าจอจะได้คึกคัก!',
+    'ทาสเป็นเพื่อนรักต่างสายพันธุ์ที่ดีที่สุดของเหมียวเลยนะ!',
+    'ถ้ามีแมวอีกตัวมาแบ่งปลาทู เหมียวก็ยอมแบ่งให้นะ (นิดนึง)',
+    'อยู่ตัวเดียวมันเหงาจัง ดีนะที่มีทาสอยู่ตรงนี้ด้วย'
+  ],
+  antisocialThoughts: [
+    'พื้นที่ส่วนบุคคล 50 เซนติเมตร กรุณาอย่าย่างกรายเข้ามา',
+    'ความสงบเงียบคือสวรรค์ ขอเหมียวอยู่คนเดียวในโลกส่วนตัวแป๊บ',
+    'ที่ตรงนี้เป็นอาณาเขตของเหมียว ห้ามแมวตัวอื่นมาแย่งเด็ดขาด!',
+    'ชอบความสงัด ไม่มีใครมารบกวน ฟินที่สุด'
+  ],
+
+  // 5. ปฏิสัมพันธ์กับเฟอร์นิเจอร์และของเล่น (Environment Props)
+  environment: {
+    cat_bed: [
+      'เบาะนอนนุ่มฟูอันนี้สบายที่สุดในสามโลก ขอจมลงไปในความนุ่มนะ',
+      'หลับสบายจนไม่อยากลุกเลย เบาะนี้มันดูดวิญญาณชัดๆ คร่อก...',
+      'กลิ่นเบาะอุ่นๆ ชวนให้ฝันหวานถึงภูเขาปลาแซลมอนจัง'
+    ],
+    cat_house: [
+      'มุดเข้ากล่องกระดาษแล้วรู้สึกปลอดภัยเหมือนอยู่ในป้อมปราการ!',
+      'ถ้าเห็นแต่หัวเหมียวโผล่มา ไม่ต้องตกใจนะ กำลังตรวจการจากในกล่อง',
+      'กล่องนี้พอดีตัวเป๊ะ! แมวเป็นของเหลวจริงๆ ด้วย'
+    ],
+    cat_condo: [
+      'มองลงมาจากยอดคอนโดแล้ว ทาสตัวเล็กลงไปเยอะเลยนะ ฮ่าๆๆ',
+      'ข้าคือราชาแห่งคอนโดแมว! อาณาจักรหน้าจอทั้งหมดนี้เป็นของข้า!',
+      'ปีนขึ้นมาชมวิวสูงๆ แบบนี้ อากาศสดชื่นจังเลยเหมียว'
+    ],
+    cat_toy_yarn: [
+      'ไหมพรมกลมๆ สีสดใส! อย่าหนีนะ จะตะปบให้กลิ้งไปสุดขอบจอเลย!',
+      'เตะซ้าย ตะปบขวา! ทักษะการเลี้ยงลูกบอลไหมพรมระดับทีมชาติ!',
+      'เหนื่อยแต่สนุกมากกก! ขอลูกบอลไหมพรมอีกรอบนะทาส!'
+    ],
+    cat_scratcher: [
+      'แคร่กๆๆๆ! ฝนเล็บเสร็จแล้วรู้สึกคมกริบ พร้อมปกป้องทาส!',
+      'การลับเล็บกับเสาเชือกป่านนี่มันฟินข้อต่อสุดๆ ไปเลย',
+      'เล็บคมพร้อมใช้งาน! มีกล่องพัสดุให้ช่วยกรีดเปิดไหมทาส?'
+    ]
+  },
+
+  // 6. การสัมผัส / เกาคาง / จั๊กจี้ (Tickle & Petting)
   touchTickle: [
-    'งือออ... ตรงคางนั่นแหละ เกาตรงนั้นอีกนิด ฟินสุด ๆ ฟี้ๆๆ~',
-    'อย่านะ! จั๊กจี้พุง! ฮ่า ๆๆๆ เดี๋ยวตะปบมือหลุดเลยนี่!',
-    'เกาหลังหูอีกหน่อยสิทาส ตรงนั้นเกาเองไม่ค่อยถึง อูยยย สบายจัง',
-    'ลูบหัวเหมียวแบบนี้ ชักจะเคลิ้มหลับแล้วนะเนี่ย มือนุ่มจัง',
-    'กรนฟี้ ๆๆๆ (Purrrrr...) เสียงนี้แปลว่าเหมียวกำลังมีความสุขมากนะ',
-    'จั๊กจี้อุ้งเท้าทำไมเนี่ย! แบะเล็บขู่เลยนี่ ฟ่อออ~',
-    'ลูบขนตามแนวขนสิทาส อย่าลูบย้อนขน เดี๋ยวทรงผมเหมียวเสียทรง!',
-    'นุ่มมือใช่ไหมล่ะ พุงของเหมียวผ่านการสะสมไขมันคุณภาพสูงมานะ',
-    'โอ๊ยยย เคลิ้มมม... เกาต่อเรื่อย ๆ ห้ามหยุดเด็ดขาดจนกว่าจะสั่ง!',
-    'เกาคางข้างซ้ายเสร็จแล้ว อย่าลืมสลับมาเกาข้างขวาด้วยให้สมดุลนะ',
-    'มือทาสอุ่นดีจัง เอามาแนบแก้มเหมียวไว้ตลอดทั้งวันเลยได้ไหม?',
-    'แฮปปี้ระดับ 100 ดาว! ได้รับการปรนนิบัติอย่างสมเกียรติแมวหลวง',
-    'จิ้มพุงเหมียวบุ๋มเลยนะ! เดี๋ยวพุงก็ไม่เด้งคืนตัวหรอก!',
-    'ง่ำ! แกล้งงับมือนิดนึงเป็นสัญลักษณ์แห่งความรักนะ ไม่ได้เจ็บใช่ไหม?',
-    'ลูบตัวทีไร ขนฟูขึ้นสิบเท่าทุกที กลายเป็นลูกบอลขนแล้วเนี่ย',
-    'อ้อนขนาดนี้แล้ว คืนนี้ต้องมีปลาทูอบกรอบมาเสิร์ฟแล้วนะทาส',
-    'เกาจนตาหยีเป็นสระอิแล้ว สบายตัวจนไม่อยากลุกไปไหนเลย',
-    'ถูกใจสิ่งนี้มาก! ให้คะแนนบริการทาสคนนี้ 5 ดาวเต็มพร้อมทิปปลาทู',
-    'อย่าจิ้มจมูกสีชมพูของเหมียวสิ มันไวต่อความรู้สึกนะ แง้ววว!',
-    'หัวใจฟูฟ่อง~ มีหัวใจสีชมพูลอยฟุ้งรอบตัวเหมียวเลยเห็นไหม?'
+    'ฟินมากกก เกาตรงซอกหูอีกนิดสิทาส ใช่เลยตรงนั้นแหละ!',
+    'เพอร์รรร... เพอร์รรร... สบายจนเคลิ้มเลย หลับตาพริ้มแล้ว',
+    'เกาคางแบบนี้ให้คะแนนเต็มสิบไม่หัก! เลี้ยงดูดีมากเจ้าทาส!',
+    'อุ้ย! โดนจุดจั๊กจี้เข้าแล้ว ขากระดิกดุ๊กดิ๊กเลย ฮ่า ๆๆ',
+    'ลูบพุงนุ่ม ๆ เบามือหน่อยนะ เดี๋ยวความน่ารักกระฉูด!',
+    'มือทาสอุ่นจัง ขอเอาหัวดุน ๆ ถูมือหน่อยนะ ฟินนน',
+    'เกาต่อไปนะ อย่าเพิ่งหยุด! ถ้าหยุดเหมียวจะร้องประท้วงจริง ๆ ด้วย'
   ],
 
-  // 6. การให้อาหาร / ขนมแมวเลีย / กินปลา (Feeding) - 15 ข้อความ
+  // 7. ให้อาหาร (Feeding)
   feeding: [
-    'ง่ำ ๆๆๆๆ อร่อยเหาะ! ปลาทูหวานฉ่ำ ทาสนี่รู้ใจที่สุดในโลก!',
-    'ขนมแมวเลียรสโปรดเลย! เลียจนซองแทบทะลุแล้วนะเนี่ย ง่ำๆ',
-    'กินอิ่มแล้วพลังงานเต็มเปี่ยม พร้อมนอนหลับต่ออีก 8 ชั่วโมงแล้ว!',
-    'ขอบคุณนะทาส แกนี่มันทาสเบอร์หนึ่งในดวงใจจริง ๆ!',
-    'อาหารเปียกชามนี้เด็ดมาก คราวหน้าขอเบิ้ลสองชามเลยนะ!',
-    'เคี้ยวหงับ ๆๆ... ซดน้ำซุปจนเกลี้ยงชาม ไม่เหลือให้มดสักหยด',
-    'กินปลาแล้วสายตาดี เดี๋ยวเหมียวช่วยทาสตรวจคำผิดในเอกสารเอง',
-    'อิ่มท้องแล้วอารมณ์ดี พร้อมเป็นแมวน่ารักให้ทาสกอดทั้งวันแล้ว',
-    'รสชาตินี้มันคือสวรรค์ของแมวชัด ๆ! ทาสไปซื้อมาจากดาวดวงไหนเนี่ย?',
-    'มีปลาแซลมอนอีกไหม? กระเพาะของเหมียวมีช่องว่างสำหรับขนมหวานเสมอ!',
-    'เลียปากแผล็บ ๆ อิ่มแปล้ พุงย้อยติดพื้นแล้วเนี่ย ลุกไม่ขึ้นเลย',
-    'ขอบคุณสำหรับอาหารมื้อโอชะนะทาส แกสอบผ่านการประเมินทาสยอดเยี่ยม!',
-    'อาหารจานนี้ให้ 100 เต็ม 10 เลย! พรุ่งนี้ขอเมนูเดิมอีกรอบนะ',
+    'ง่ำ ๆๆๆ! ปลาทูสดใหม่ อร่อยเหาะจนต้องยกนิ้วโป้งเท้าให้เลย!',
+    'อาหารจานนี้รสชาติดีเลิศ! ให้รางวัลทาสเป็นความน่ารักทั้งวัน!',
     'เคี้ยวกรุบกรอบ มีความสุขที่สุดในสามโลก ง่ำ ๆๆๆ',
     'กินคาวไม่กินหวานสันดานไพร่ ขอขนมแมวเลียตบท้ายอีกซองสิทาส!'
   ],
 
-  // 7. ถูกหิ้ว / ลากด้วยเมาส์ (Dragged / Picked up) - 15 ข้อความ
+  // 8. ถูกหิ้ว / ลากด้วยเมาส์ (Dragged / Picked up)
   dragged: [
     'เหวออออ! ลอยได้! ปล่อยเหมียวลงเบา ๆ นะ เดี๋ยวพุงกระแทกพื้น!',
     'จะพาเหาะไปไหนเนี่ยยย! ขาลอยชี้ฟ้าหมดแล้ววว แง้ววว!',
     'อุ้มแบบนี้พุงย้อยหมดสิทาส! จับให้มันนุ่มนวลสมเกียรติหน่อย!',
     'ว้าววว... มองจากมุมสูงแบบนี้ หน้าจอคอมพ์ดูกว้างใหญ่จัง',
     'อย่ายกสูงมากสิ เหมียวกลัวความสูงนะ วางลงตรงพื้นเร็วเข้า!',
-    'ปล่อยนะ! เหมียวยังไม่ได้เตรียมใจจะบินเป็นนกเพนกวินเลย!',
     'ขากลางอากาศกำลังปั่นจักรยานอยู่เห็นไหม วางลงได้แล้วทาส!',
-    'ถ้าทำเหมียวหล่น จะแอบไปข่วนโซฟาจริง ๆ ด้วยนะบอกไว้ก่อน!',
-    'กำลังย้ายทำเลทองไปนอนที่ใหม่เหรอ? ขอตรงที่มีแดดส่องนะ',
-    'โดนหิ้วคอแบบนี้ เสียภาพพจน์แมวเท่หมดเลย เจ้าทาสบ้า!',
-    'ร่อนลงอย่างนุ่มนวลปานขนนก... ขอบคุณสำหรับเที่ยวบินนะทาส',
-    'หมุนติ้ว ๆ เลย เวียนหัวไปหมดแล้ว วางเหมียวลงเถอะขอร้อง!',
-    'แง้วววว! ลมพัดพุงเย็นเฉียบเลย วางลงบนขอบหน้าต่างที',
-    'คิดจะย้ายเหมียวไปกักบริเวณที่ไหนน่ะ? มีห้องวีไอพีให้ไหม?',
-    'ฮึ่ม! รอดตัวไปนะที่วางลงนุ่มนวล ไม่งั้นมีเคืองแน่นอน!'
+    'ร่อนลงอย่างนุ่มนวลปานขนนก... ขอบคุณสำหรับเที่ยวบินนะทาส'
   ],
 
-  // 8. แมวคุยกันเองเมื่อเปิดหลายตัว (Multi-Pet Social Chat) - 25 ข้อความ
+  // 9. แมวคุยกันเองเมื่อเปิดหลายตัว (Multi-Pet Social Chat)
   multiPet: [
     '{other} อย่ามาเดินเบียดพุงนะ ทางเดินตั้งกว้างขวาง!',
     '{other} มาวิ่งแข่งกันรอบหน้าจอมะ ใครแพ้จ่ายปลาทูหนึ่งตัว!',
@@ -7188,27 +8159,38 @@ const PET_DIALOGUES = {
     'เหมียว! อย่ามาแย่งที่นอนตรงนี้ของฉันนะ {other} ฉันจองก่อน!',
     '{other} วันนี้นายดูอ้วนขึ้นนะเนี่ย พุงจะชนขอบจออยู่แล้ว!',
     'มาช่วยกันส่องดูว่าทาสกำลังอ่านอะไรอยู่เร็วเข้า {other}',
-    '{other} ดูท่านอนนายสิ ทุเรศจัง อายทาสเขาบ้างไหมเนี่ย ฮ่า ๆๆ',
     'ชนจมูกทักทายกันหน่อย {other} ฟุตฟิต ๆ... กลิ่นปลาทูนี่นา!',
     '{other} เมื่อกี้เห็นผีเสื้อบินผ่านไปทางขวาไหม? ไปดักตะครุบกัน!',
     'อยู่นิ่ง ๆ สิ {other} เดี๋ยวช่วยเลียขนหลังคอให้ ขนยุ่งหมดแล้ว',
     '{other} นายว่าทาสคนนี้เลี้ยงดูพวกเราดีไหม? ฉันว่าโอเคเลยนะ',
-    'อย่าแย่งเคอร์เซอร์เมาส์ของฉันนะ {other} ตัวนี้ฉันเล็งไว้ก่อน!',
-    'พวกเราคือแก๊งเหมียวซ่าครองเมือง! {other} พร้อมออกป่วนหรือยัง?',
-    '{other} นอนด้วยกันเป็นกองทัพแมวตรงนี้แหละ บังหน้าจอทาสไปเลย!',
-    'กระซิบเบา ๆ นะ {other} ฉันแอบเห็นทาสซ่อนขนมไว้ในกระเป๋าแหละ',
-    '{other} นายหลับน้ำลายยืดแล้วนะ เช็ดปากก่อนเร็วเข้า',
-    'ตบแปะ ๆ หยอกกันหน่อย {other} อย่านอนขี้เกียจนักเลย!',
-    '{other} เดินตามฉันมา ฉันรู้จักมุมแอบนอนที่สบายที่สุดในแอปนี้',
-    'นายเป็นแมวสายพันธุ์ที่เท่มากเลยนะ {other} แต่ฉันน่ารักกว่านิดนึง!',
-    '{other} มีกลิ่นจิ้งจกอยู่แถวนี้ ช่วยกันดมหาเร็วเข้า!',
-    'ทาสกำลังมองพวกเราอยู่ {other} เก๊กท่าน่ารักเรียกร้องขนมเร็ว!',
-    '{other} อย่าส่งเสียงดังสิ ฉันกำลังเคลิ้มหลับสบายเลย',
-    'พวกเราสองตัวรวมพลังกัน ไม่มีใครหยุดยั้งความซนได้แล้ว {other}!',
     'รักนายนะเพื่อนเหมียว {other} มานอนกอดกันกลม ๆ ตรงนี้เถอะ'
   ],
 
-  // 9. ตรวจจับชนิดไฟล์ (File Type Specific) - 15 ข้อความ
+  // 10. แมวคุยกันอิงตามบุคลิกภาพเฉพาะคู่ (Dynamic Personality Pair Chats)
+  personalityPairChats: {
+    smart_derpy: [
+      '{other} อย่าเพิ่งเอาหัวชนจอแบบนั้นสิ นั่นมันหน้าจอคอมพ์นะ!',
+      'ตั้งใจฟังฉันอธิบายนะ {other} ทาสกำลังทำงานสำคัญอยู่ อย่าเพิ่งไปกวน',
+      '{other} วิ่งสะดุดหางตัวเองอีกแล้วนะ เจ็บไหมเนี่ยเจ้าตัวเด๋อ ฮ่าๆๆ'
+    ],
+    energy_lazy: [
+      'ตื่นเร็วเข้า {other}! ไปวิ่งซอยเท้ารอบจอกัน อย่ามัวแต่นอน!',
+      'ฮ้าววว... {other} นายวิ่งไปตัวเดียวเถอะ ฉันขอจำศีลต่ออีก 2 ชั่วโมง',
+      '{other} นายไม่เหนื่อยบ้างเหรอ วิ่งไปวิ่งมาจนฉันตาลายแล้วนะ'
+    ],
+    affection_aloof: [
+      '{other} ขอซบไหล่หน่อยสิ ขนนายฟูนุ่มจังเลย!',
+      'อย่าเข้ามาใกล้นะ {other}! เสียทรงขนหมด... (แต่แอบอุ่นดีเหมือนกัน)',
+      '{other} เลิกทำหน้าบึ้งได้แล้ว มาอ้อนทาสขอขนมด้วยกันเร็วเข้า!'
+    ],
+    social_antisocial: [
+      '{other} มาเล่นตบแปะด้วยกันเถอะ อย่าไปนั่งคนเดียวมุมจอเลย!',
+      'ฉันชอบความสงบเงียบ {other}... แต่ถ้านายจะนอนข้างๆ ก็ตามใจ',
+      '{other} พวกเราเป็นแก๊งเดียวกันนะ มีอะไรต้องแบ่งปันกันสิ!'
+    ]
+  },
+
+  // 11. ตรวจจับชนิดไฟล์ (File Type Specific)
   fileType: {
     md: [
       'เอกสาร Markdown จัดระเบียบหัวข้อเนียนตาดีจัง อ่านง่ายสบายตา',
@@ -7237,12 +8219,42 @@ const PET_DIALOGUES = {
   }
 };
 
-// รวมข้อความทั้งหมดมากกว่า 210 ข้อความ
+// สุ่มบทสนทนาที่เหมาะสมตามบริบทและบุคลิกภาพ 6 แกน
 function getRandomDialogue(category, meta = {}) {
-  let list = PET_DIALOGUES[category] || PET_DIALOGUES.idleThoughts;
+  let list = PET_DIALOGUES[category] || PET_DIALOGUES.docContext;
+
   if (category === 'fileType' && meta.fileType && PET_DIALOGUES.fileType[meta.fileType]) {
     list = PET_DIALOGUES.fileType[meta.fileType];
+  } else if (category === 'environment' && meta.envType && PET_DIALOGUES.environment[meta.envType]) {
+    list = PET_DIALOGUES.environment[meta.envType];
+  } else if (category === 'personality' && meta.pet && meta.pet.personality) {
+    const p = meta.pet.personality;
+    const candidates = [];
+
+    // ดึงบทสนทนาตามแกนนิสัยที่โดดเด่น
+    if (p.intelligence >= 65) candidates.push(...PET_DIALOGUES.smartThoughts);
+    else if (p.intelligence <= 35) candidates.push(...PET_DIALOGUES.derpyThoughts);
+
+    if (p.diligence >= 65) candidates.push(...PET_DIALOGUES.diligentThoughts);
+    else if (p.diligence <= 35) candidates.push(...PET_DIALOGUES.lazyThoughts);
+
+    if (p.energy >= 65) candidates.push(...PET_DIALOGUES.highEnergyThoughts);
+    else if (p.energy <= 35) candidates.push(...PET_DIALOGUES.lowEnergyThoughts);
+
+    if (p.talkativeness >= 65) candidates.push(...PET_DIALOGUES.talkativeThoughts);
+    else if (p.talkativeness <= 35) candidates.push(...PET_DIALOGUES.quietThoughts);
+
+    if (p.affection >= 65) candidates.push(...PET_DIALOGUES.affectionateThoughts);
+    else if (p.affection <= 35) candidates.push(...PET_DIALOGUES.aloofThoughts);
+
+    if (p.sociability >= 65) candidates.push(...PET_DIALOGUES.socialThoughts);
+    else if (p.sociability <= 35) candidates.push(...PET_DIALOGUES.antisocialThoughts);
+
+    if (candidates.length > 0) {
+      list = candidates;
+    }
   }
+
   const raw = list[Math.floor(Math.random() * list.length)];
   return formatDialogue(raw, meta);
 }
@@ -7258,101 +8270,416 @@ function formatDialogue(text, meta = {}) {
 }
 
 
-// ระบบเรนเดอร์กราฟิก Vector SVG สำหรับน้องแมวสัตว์เลี้ยงหน้าจอ (Desktop Pets)
-// รองรับ 6 สายพันธุ์แมวอ้วน และทุกอิริยาบถเคลื่อนไหวระดับ 60 FPS
+// ระบบสภาพแวดล้อม ของเล่น และเฟอร์นิเจอร์แมว (Cat Environment & Interactive Props)
+// คอนโดแมว, บ้านกล่องกระดาษ, เบาะนอนโดนัท, ลูกบอลไหมพรม, ที่ฝนเล็บ, ชามอาหาร
 
-const PET_BREEDS = {
-  scottish_bluepoint: {
-    id: 'scottish_bluepoint',
-    name: 'แมวสก๊อตติชบลูพอยต์อ้วน ๆ',
-    shortName: 'สก๊อตติชบลูพอยต์',
-    desc: 'หูพับ หน้าแต้มเทาฟ้า ลำตัวครีมขาว ตาฟ้าใสแป๋ว แก้มป่อง',
-    bodyColor: '#f5f0ea',
-    bellyColor: '#ffffff',
-    pointColor: '#78889b',
-    innerEarColor: '#d6a2b8',
-    eyeColor: '#4895ef',
-    pupilColor: '#1a2530',
-    noseColor: '#6c7a89',
-    earType: 'folded',
-    pattern: 'bluepoint'
+
+const ENV_ITEM_DEFS = {
+  cat_condo: {
+    id: 'cat_condo',
+    name: 'คอนโดแมวไม้ 3 ชั้น',
+    desc: 'มีเสาเชือกฝนเล็บและยอดหอคอยชมวิว แมวสามารถกระโดดขึ้นไปนั่งชมวิวได้อย่างสง่างาม',
+    width: 100,
+    height: 125,
+    perchX: 42,
+    perchY: -35, // ตำแหน่งที่แมวนั่งบนยอด
+    icon: '🏰'
   },
-  sisawat: {
-    id: 'sisawat',
-    name: 'แมวสีสวาดอ้วน ๆ (โคราช)',
-    shortName: 'สีสวาด (โคราช)',
-    desc: 'ขนเทาดอกเลาเหลือบเงิน แก้มอิ่ม ตาสีเขียวมรกตประกาย',
-    bodyColor: '#79828d',
-    bellyColor: '#8c95a0',
-    pointColor: '#5c646e',
-    innerEarColor: '#c29ba8',
-    eyeColor: '#52b788',
-    pupilColor: '#1d2a22',
-    noseColor: '#525a63',
-    earType: 'normal',
-    pattern: 'solid_silver'
+  cat_house: {
+    id: 'cat_house',
+    name: 'บ้านกล่องกระดาษยอดฮิต',
+    desc: 'กล่องกระดาษพับสุดโปรดของแมวทุกสายพันธุ์ มุดเข้าไปนอนสบายใจโผล่แต่หัวกลมๆ',
+    width: 95,
+    height: 72,
+    insideX: 18,
+    insideY: -8,
+    icon: '📦'
   },
-  tabby: {
-    id: 'tabby',
-    name: 'แมวลายสลิดอ้วน ๆ',
-    shortName: 'ลายสลิด',
-    desc: 'ลายเสือสลิด หน้าผากตัว M พุงพลุ้ยน่ารัก จอมซน',
-    bodyColor: '#a39788',
-    bellyColor: '#e8e2d5',
-    pointColor: '#584c40',
-    innerEarColor: '#d4a5b0',
-    eyeColor: '#95d5b2',
-    pupilColor: '#24332b',
-    noseColor: '#e07a5f',
-    earType: 'normal',
-    pattern: 'tabby'
+  cat_bed: {
+    id: 'cat_bed',
+    name: 'เบาะนอนโดนัทนุ่มฟู',
+    desc: 'เบาะนอนขนนุ่มอบอุ่น เหมาะสำหรับนอนขดตัวหรือนอนหงายพุงรับความอบอุ่น',
+    width: 90,
+    height: 55,
+    cushionX: 10,
+    cushionY: -6,
+    icon: '🛏️'
   },
-  orange: {
-    id: 'orange',
-    name: 'แมวส้มอ้วน ๆ',
-    shortName: 'แมวส้ม',
-    desc: 'ริ้วส้มชีส ถุงเท้าขาว พุงย้อยกลมดิก จอมป่วนอันดับหนึ่ง',
-    bodyColor: '#f4a261',
-    bellyColor: '#fff3e8',
-    pointColor: '#e76f51',
-    innerEarColor: '#ffb5a7',
-    eyeColor: '#e9c46a',
-    pupilColor: '#3d2610',
-    noseColor: '#f28482',
-    earType: 'normal',
-    pattern: 'orange_tabby'
+  cat_toy_yarn: {
+    id: 'cat_toy_yarn',
+    name: 'ลูกบอลไหมพรมหลากสี',
+    desc: 'ของเล่นสุดโปรด แมวสามารถใช้เท้าตะปบให้กลิ้งไปมาอย่างเพลิดเพลิน',
+    width: 44,
+    height: 44,
+    isPhysicsToy: true,
+    icon: '🧶'
   },
-  siamese: {
-    id: 'siamese',
-    name: 'แมววิเชียรมาศอ้วน ๆ',
-    shortName: 'วิเชียรมาศ',
-    desc: 'ตัวครีมนวล แต้มเข้ม 9 จุด ตาฟ้าไพลินประกายเจิดจ้า',
-    bodyColor: '#e8d9cb',
-    bellyColor: '#f7eee4',
-    pointColor: '#4a382a',
-    innerEarColor: '#b5838d',
-    eyeColor: '#0077b6',
-    pupilColor: '#0d1b2a',
-    noseColor: '#36271c',
-    earType: 'normal',
-    pattern: 'siamese'
+  cat_scratcher: {
+    id: 'cat_scratcher',
+    name: 'เสาลับเล็บเชือกป่าน',
+    desc: 'เสาลับเล็บช่วยผ่อนคลายกล้ามเนื้อ แมวจะเดินมายืดตัวฝนเล็บอย่างสบายอารมณ์',
+    width: 60,
+    height: 85,
+    scratchX: 8,
+    scratchY: 10,
+    icon: '🪵'
   },
-  black: {
-    id: 'black',
-    name: 'แมวดำอ้วน ๆ (ก้อนถ่าน)',
-    shortName: 'แมวดำ (ก้อนถ่าน)',
-    desc: 'ดำขลับเงาวาว ตากลมโตสีเหลืองทอง เหมือนก้อนถ่านกลมฟู',
-    bodyColor: '#2b2d42',
-    bellyColor: '#222333',
-    pointColor: '#1a1b26',
-    innerEarColor: '#8d6b79',
-    eyeColor: '#ffb703',
-    pupilColor: '#12131a',
-    noseColor: '#ff8fa3',
-    earType: 'normal',
-    pattern: 'black'
+  food_bowl: {
+    id: 'food_bowl',
+    name: 'ชามอาหารและน้ำอัตโนมัติ',
+    desc: 'ชามอาหารเปียกและปลาทูสด แวะมากินเมื่อหิว',
+    width: 58,
+    height: 38,
+    icon: '🐟'
   }
 };
+
+const PetEnvironment = {
+  items: [],
+  layerEl: null,
+
+  async init(layerEl) {
+    this.layerEl = layerEl;
+    await this.loadItems();
+    this.renderAll();
+  },
+
+  async loadItems() {
+    try {
+      const saved = await Store.get('pet_environment_items');
+      if (Array.isArray(saved) && saved.length > 0) {
+        this.items = saved;
+      } else {
+        // รายการเริ่มต้น: เบาะนอน และ ลูกบอลไหมพรม
+        this.items = [
+          {
+            id: 'item_bed_' + Date.now(),
+            type: 'cat_bed',
+            x: Math.max(60, window.innerWidth - 320),
+            y: window.innerHeight - 80,
+            enabled: true
+          },
+          {
+            id: 'item_yarn_' + (Date.now() + 1),
+            type: 'cat_toy_yarn',
+            x: Math.max(80, window.innerWidth - 220),
+            y: window.innerHeight - 60,
+            vx: 0,
+            rot: 0,
+            enabled: true
+          },
+          {
+            id: 'item_condo_' + (Date.now() + 2),
+            type: 'cat_condo',
+            x: 80,
+            y: window.innerHeight - 150,
+            enabled: false // ให้เปิดเพิ่มได้จากเมนู
+          },
+          {
+            id: 'item_house_' + (Date.now() + 3),
+            type: 'cat_house',
+            x: 210,
+            y: window.innerHeight - 95,
+            enabled: false
+          },
+          {
+            id: 'item_scratcher_' + (Date.now() + 4),
+            type: 'cat_scratcher',
+            x: Math.max(120, window.innerWidth - 420),
+            y: window.innerHeight - 110,
+            enabled: false
+          }
+        ];
+        this.saveItems();
+      }
+    } catch (e) {
+      console.warn('[PetEnvironment] loadItems error:', e.message);
+    }
+  },
+
+  async saveItems() {
+    try {
+      const cleanData = this.items.map(item => ({
+        id: item.id,
+        type: item.type,
+        x: Math.round(item.x),
+        y: Math.round(item.y),
+        enabled: !!item.enabled
+      }));
+      await Store.set('pet_environment_items', cleanData);
+    } catch (e) {
+      console.warn('[PetEnvironment] saveItems error:', e.message);
+    }
+  },
+
+  toggleItem(type, enable = null) {
+    let item = this.items.find(i => i.type === type);
+    if (!item) {
+      const def = ENV_ITEM_DEFS[type];
+      if (!def) return;
+      item = {
+        id: 'item_' + type + '_' + Date.now(),
+        type,
+        x: Math.max(80, Math.min(window.innerWidth - 150, window.innerWidth / 2 + (Math.random() - 0.5) * 200)),
+        y: window.innerHeight - (def.height + 25),
+        enabled: true
+      };
+      this.items.push(item);
+    } else {
+      item.enabled = enable !== null ? enable : !item.enabled;
+    }
+    this.saveItems();
+    this.renderAll();
+    return item.enabled;
+  },
+
+  renderAll() {
+    if (!this.layerEl) return;
+
+    // นำ Element เดิมออก
+    const existing = this.layerEl.querySelectorAll('.pet-env-item');
+    existing.forEach(el => el.remove());
+
+    this.items.forEach(item => {
+      if (!item.enabled) return;
+      const el = this.createItemDom(item);
+      item.el = el;
+      this.bindDrag(el, item);
+      this.layerEl.appendChild(el);
+      this.updateItemDomPosition(item);
+    });
+  },
+
+  updateItemDomPosition(item) {
+    if (!item.el) return;
+    item.el.style.transform = `translate3d(${item.x}px, ${item.y}px, 0)`;
+  },
+
+  createItemDom(item) {
+    const def = ENV_ITEM_DEFS[item.type] || ENV_ITEM_DEFS.cat_bed;
+    const el = document.createElement('div');
+    el.className = `pet-env-item env-${item.type}`;
+    el.id = `env-${item.id}`;
+    el.style.width = `${def.width}px`;
+    el.style.height = `${def.height}px`;
+    el.title = `${def.name} (ลากเพื่อย้ายที่วางได้)`;
+
+    el.innerHTML = this.renderItemSvg(item.type, def);
+    return el;
+  },
+
+  bindDrag(el, item) {
+    let startX = 0, startY = 0;
+    let initialX = 0, initialY = 0;
+
+    const onPointerDown = (e) => {
+      if (e.button !== 0) return;
+      e.stopPropagation();
+      startX = e.clientX;
+      startY = e.clientY;
+      initialX = item.x;
+      initialY = item.y;
+      el.classList.add('is-dragged');
+
+      const onPointerMove = (moveEvt) => {
+        const dx = moveEvt.clientX - startX;
+        const dy = moveEvt.clientY - startY;
+        item.x = Math.max(10, Math.min(window.innerWidth - 120, initialX + dx));
+        item.y = Math.max(10, Math.min(window.innerHeight - 50, initialY + dy));
+        this.updateItemDomPosition(item);
+      };
+
+      const onPointerUp = () => {
+        window.removeEventListener('pointermove', onPointerMove);
+        window.removeEventListener('pointerup', onPointerUp);
+        el.classList.remove('is-dragged');
+        this.saveItems();
+      };
+
+      window.addEventListener('pointermove', onPointerMove);
+      window.addEventListener('pointerup', onPointerUp);
+    };
+
+    el.addEventListener('pointerdown', onPointerDown);
+  },
+
+  // หาสภาพแวดล้อมใกล้ตัวแมวที่สุด
+  findNearestInteractiveItem(pet, maxDist = 200) {
+    let nearest = null;
+    let minDist = maxDist;
+
+    for (const item of this.items) {
+      if (!item.enabled) continue;
+      const def = ENV_ITEM_DEFS[item.type];
+      const cx = item.x + (def ? def.width / 2 : 30);
+      const cy = item.y + (def ? def.height / 2 : 30);
+      const dist = Math.hypot(pet.x - cx, pet.y - cy);
+
+      if (dist < minDist) {
+        minDist = dist;
+        nearest = { item, dist, def, cx, cy };
+      }
+    }
+    return nearest;
+  },
+
+  // ฟิสิกส์กลิ้งลูกบอลไหมพรม
+  rollYarnBall(dx) {
+    const yarn = this.items.find(i => i.type === 'cat_toy_yarn' && i.enabled);
+    if (!yarn || !yarn.el) return;
+
+    yarn.vx = (yarn.vx || 0) + dx * 1.5;
+    yarn.vx = Math.max(-12, Math.min(12, yarn.vx));
+
+    const anim = () => {
+      if (Math.abs(yarn.vx) < 0.2) {
+        yarn.vx = 0;
+        return;
+      }
+      yarn.x += yarn.vx;
+      yarn.rot = (yarn.rot || 0) + yarn.vx * 7;
+      yarn.vx *= 0.92; // Friction
+
+      // Boundary check
+      if (yarn.x < 10) { yarn.x = 10; yarn.vx = -yarn.vx * 0.5; }
+      if (yarn.x > window.innerWidth - 60) { yarn.x = window.innerWidth - 60; yarn.vx = -yarn.vx * 0.5; }
+
+      yarn.el.style.transform = `translate3d(${yarn.x}px, ${yarn.y}px, 0) rotate(${yarn.rot}deg)`;
+      requestAnimationFrame(anim);
+    };
+    requestAnimationFrame(anim);
+  },
+
+  renderItemSvg(type, def) {
+    if (type === 'cat_bed') {
+      return `
+        <svg viewBox="0 0 100 60" width="100%" height="100%">
+          <!-- Donut Cushion Bottom -->
+          <ellipse cx="50" cy="40" rx="46" ry="18" fill="#e9d8a6" stroke="#ca6702" stroke-width="2"/>
+          <ellipse cx="50" cy="38" rx="42" ry="15" fill="#fefae0"/>
+          <!-- Soft Plump Rim -->
+          <ellipse cx="50" cy="35" rx="34" ry="12" fill="#dda15e" opacity="0.4"/>
+          <!-- Fluffy Center Dip -->
+          <ellipse cx="50" cy="36" rx="26" ry="9" fill="#faedcd"/>
+          <!-- Paw Print on Bed -->
+          <g transform="translate(43, 31) scale(0.6)" opacity="0.35" fill="#ca6702">
+            <ellipse cx="12" cy="15" rx="4" ry="3"/>
+            <circle cx="7" cy="10" r="1.8"/>
+            <circle cx="11" cy="7" r="1.8"/>
+            <circle cx="15" cy="7" r="1.8"/>
+            <circle cx="18" cy="10" r="1.8"/>
+          </g>
+        </svg>
+      `;
+    }
+
+    if (type === 'cat_house') {
+      return `
+        <svg viewBox="0 0 110 85" width="100%" height="100%">
+          <!-- Cardboard Box Body -->
+          <polygon points="10,35 60,18 102,32 52,50" fill="#ddb892"/>
+          <polygon points="10,35 52,50 52,80 10,65" fill="#b08968"/>
+          <polygon points="52,50 102,32 102,62 52,80" fill="#7f5539"/>
+          <!-- Flap Left Open -->
+          <polygon points="10,35 2,24 45,12 55,20" fill="#cca882"/>
+          <!-- Flap Right Open -->
+          <polygon points="55,20 65,12 108,24 100,34" fill="#bb9470"/>
+          <!-- Cute Cat Face Logo on Box -->
+          <ellipse cx="31" cy="62" rx="10" ry="8" fill="#e6ccb2" opacity="0.6"/>
+          <polygon points="23,56 25,50 28,54" fill="#e6ccb2" opacity="0.6"/>
+          <polygon points="39,56 37,50 34,54" fill="#e6ccb2" opacity="0.6"/>
+        </svg>
+      `;
+    }
+
+    if (type === 'cat_condo') {
+      return `
+        <svg viewBox="0 0 110 140" width="100%" height="100%">
+          <!-- Base Board -->
+          <rect x="15" y="125" width="80" height="12" rx="4" fill="#9c6644"/>
+          <!-- Lower Scratching Post -->
+          <rect x="46" y="70" width="18" height="55" rx="3" fill="#ddb892"/>
+          <!-- Sisal Rope Stripes -->
+          <line x1="46" y1="80" x2="64" y2="80" stroke="#7f5539" stroke-width="2"/>
+          <line x1="46" y1="90" x2="64" y2="90" stroke="#7f5539" stroke-width="2"/>
+          <line x1="46" y1="100" x2="64" y2="100" stroke="#7f5539" stroke-width="2"/>
+          <line x1="46" y1="110" x2="64" y2="110" stroke="#7f5539" stroke-width="2"/>
+          <line x1="46" y1="120" x2="64" y2="120" stroke="#7f5539" stroke-width="2"/>
+          <!-- Middle Platform House -->
+          <rect x="25" y="60" width="60" height="12" rx="3" fill="#b08968"/>
+          <!-- Upper Post -->
+          <rect x="48" y="20" width="14" height="40" rx="3" fill="#ddb892"/>
+          <line x1="48" y1="30" x2="62" y2="30" stroke="#7f5539" stroke-width="1.8"/>
+          <line x1="48" y1="40" x2="62" y2="40" stroke="#7f5539" stroke-width="1.8"/>
+          <line x1="48" y1="50" x2="62" y2="50" stroke="#7f5539" stroke-width="1.8"/>
+          <!-- Top Perch Lookout -->
+          <ellipse cx="55" cy="20" rx="32" ry="10" fill="#b08968"/>
+          <ellipse cx="55" cy="18" rx="28" ry="7" fill="#fefae0"/>
+          <!-- Hanging Ball Toy -->
+          <line x1="28" y1="65" x2="28" y2="88" stroke="#cca882" stroke-width="1.5"/>
+          <circle cx="28" cy="92" r="5" fill="#f72585"/>
+        </svg>
+      `;
+    }
+
+    if (type === 'cat_toy_yarn') {
+      return `
+        <svg viewBox="0 0 50 50" width="100%" height="100%">
+          <!-- Shadow -->
+          <ellipse cx="25" cy="45" rx="18" ry="4" fill="rgba(0,0,0,0.2)"/>
+          <!-- Yarn Core -->
+          <circle cx="25" cy="25" r="18" fill="#e63946"/>
+          <!-- Strands of Yarn -->
+          <path d="M 12 18 Q 25 10 38 18" stroke="#ffb703" stroke-width="2.5" fill="none"/>
+          <path d="M 10 28 Q 25 38 40 28" stroke="#ffb703" stroke-width="2.5" fill="none"/>
+          <path d="M 18 12 Q 35 25 18 38" stroke="#f1faee" stroke-width="2.2" fill="none"/>
+          <path d="M 28 10 Q 15 25 32 38" stroke="#457b9d" stroke-width="2.2" fill="none"/>
+          <!-- Loose Tail Strand -->
+          <path d="M 38 32 Q 44 38 48 35 Q 52 32 50 42" stroke="#e63946" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        </svg>
+      `;
+    }
+
+    if (type === 'cat_scratcher') {
+      return `
+        <svg viewBox="0 0 70 95" width="100%" height="100%">
+          <!-- Base -->
+          <ellipse cx="35" cy="85" rx="30" ry="9" fill="#9c6644"/>
+          <!-- Sisal Scratcher Board -->
+          <rect x="25" y="15" width="20" height="70" rx="5" fill="#ddb892" stroke="#7f5539" stroke-width="1.5"/>
+          <!-- Texture Lines -->
+          <line x1="25" y1="25" x2="45" y2="25" stroke="#7f5539" stroke-width="1.5"/>
+          <line x1="25" y1="35" x2="45" y2="35" stroke="#7f5539" stroke-width="1.5"/>
+          <line x1="25" y1="45" x2="45" y2="45" stroke="#7f5539" stroke-width="1.5"/>
+          <line x1="25" y1="55" x2="45" y2="55" stroke="#7f5539" stroke-width="1.5"/>
+          <line x1="25" y1="65" x2="45" y2="65" stroke="#7f5539" stroke-width="1.5"/>
+          <line x1="25" y1="75" x2="45" y2="75" stroke="#7f5539" stroke-width="1.5"/>
+          <!-- Scratcher Post Top Ball -->
+          <ellipse cx="35" cy="14" rx="12" ry="5" fill="#7f5539"/>
+          <!-- Cute Feather on Top -->
+          <path d="M 35 12 Q 25 -2 22 2 Q 28 6 35 12" fill="#ff70a6"/>
+          <path d="M 35 12 Q 45 -4 48 0 Q 42 6 35 12" fill="#ffd166"/>
+        </svg>
+      `;
+    }
+
+    // Default: food_bowl
+    return `
+      <svg viewBox="0 0 70 45" width="100%" height="100%">
+        <ellipse cx="35" cy="35" rx="30" ry="9" fill="#e76f51"/>
+        <ellipse cx="35" cy="30" rx="26" ry="7" fill="#f4a261"/>
+        <ellipse cx="35" cy="27" rx="22" ry="6" fill="#2a9d8f"/>
+        <ellipse cx="32" cy="27" rx="9" ry="3.5" fill="#e9c46a"/>
+        <ellipse cx="40" cy="26" rx="8" ry="3" fill="#f4a261"/>
+      </svg>
+    `;
+  }
+};
+
+
+// ระบบเรนเดอร์กราฟิก Vector SVG ขั้นสูงสำหรับน้องแมวสัตว์เลี้ยงหน้าจอ (Desktop Pet Render Engine)
+// รองรับ 11 สายพันธุ์, พันธุกรรมหาง 5 แบบ, ขนฟูเปอร์เซีย, รูปร่างอ้วน/ผอม, รอยด่าง/แต้มวัว/สามสี, และทุกอิริยาบถ
+
 
 class PetRenderer {
   // สร้าง DOM Element หลักของน้องแมว
@@ -7383,8 +8710,8 @@ class PetRenderer {
 
   // อัปเดตภาพและท่าทางของน้องแมว
   static updatePetVisuals(el, pet) {
+    if (!el) return;
     const breed = PET_BREEDS[pet.breed] || PET_BREEDS.orange;
-    const inner = el.querySelector('.pet-inner');
     const svgWrap = el.querySelector('.pet-svg-container');
     const nameTag = el.querySelector('.pet-name-tag');
 
@@ -7392,43 +8719,56 @@ class PetRenderer {
       nameTag.textContent = pet.name;
     }
 
-    // กำหนด Class สำหรับท่าทางและทิศทาง
-    el.className = `desktop-pet pet-breed-${pet.breed} pet-state-${pet.state} facing-${pet.facing || 'right'} ${pet.isDragged ? 'is-dragged' : ''} ${pet.isBlocked ? 'is-blocked' : ''}`;
+    // กำหนด Class สำหรับสายพันธุ์ ท่าทาง และทิศทาง
+    const isFluffy = breed.furType === 'fluffy_persian';
+    const tailType = pet.tailType || breed.defaultTail || 'long';
+    const build = pet.build || breed.defaultBuild || 'normal';
+
+    el.className = `desktop-pet pet-breed-${pet.breed} pet-state-${pet.state || 'stand'} facing-${pet.facing || 'right'} ${pet.isDragged ? 'is-dragged' : ''} ${pet.isBlocked ? 'is-blocked' : ''} ${isFluffy ? 'is-fluffy' : ''} build-${build} tail-${tailType}`;
     
     // ปรับ Scale ตัวแมว
     const scale = pet.scale || 1;
     el.style.setProperty('--pet-scale', scale);
 
-    // เรนเดอร์ SVG ให้เข้ากับ State ปัจจุบัน
-    svgWrap.innerHTML = this.renderCatSvg(breed, pet);
+    // เรนเดอร์เนื้อหา Vector SVG
+    if (svgWrap) {
+      svgWrap.innerHTML = this.renderCatSvg(breed, pet);
+    }
   }
 
-  // สร้างเนื้อหา Vector SVG
+  // สร้างเนื้อหา Vector SVG แยกตามชิ้นส่วนพันธุกรรมและท่าทาง
   static renderCatSvg(b, pet) {
     const state = pet.state || 'stand';
+    const tailType = pet.tailType || b.defaultTail || 'long';
+    const build = pet.build || b.defaultBuild || 'normal';
+    const isFluffy = b.furType === 'fluffy_persian';
+
     const isSleep = state.startsWith('sleep');
-    const isPounce = state === 'pounce';
-    const isDragged = pet.isDragged;
-    const isSitting = state === 'sit';
     const isLoaf = state === 'sleep_loaf';
+    const isCurl = state === 'sleep_curl';
     const isBelly = state === 'sleep_belly';
+    const isSitting = state === 'sit';
+    const isPounce = state === 'pounce';
     const isGroom = state === 'groom';
     const isEating = state === 'eating';
     const isCarryFish = state === 'carry_fish';
     const isDerpyYawn = state === 'derpy_yawn';
     const isDerpyStare = state === 'derpy_stare';
+    const isBegging = state === 'begging';
+    const isScratching = state === 'scratch';
+    const isStretching = state === 'stretch';
+    const isToyPlaying = state === 'play_toy';
+    const isInBox = state === 'in_box';
+    const isDragged = pet.isDragged;
 
-    // ลวดลายเฉพาะสายพันธุ์
+    // 1. ลวดลาย รอยด่าง และแต้มพิเศษ (Markings & Patches)
     let patternOverlay = '';
     if (b.pattern === 'tabby' || b.pattern === 'orange_tabby') {
       patternOverlay = `
         <!-- Tabby Markings -->
-        <!-- M on forehead -->
         <path d="M 44 23 L 47 28 L 50 25 L 53 28 L 56 23" fill="none" stroke="${b.pointColor}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
-        <!-- Cheek stripes -->
         <path d="M 33 32 L 39 33 M 32 36 L 38 36.5" fill="none" stroke="${b.pointColor}" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
         <path d="M 67 32 L 61 33 M 68 36 L 62 36.5" fill="none" stroke="${b.pointColor}" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
-        <!-- Body stripes -->
         <path d="M 43 45 C 47 47 53 47 57 45" fill="none" stroke="${b.pointColor}" stroke-width="2.2" stroke-linecap="round" opacity="0.75"/>
         <path d="M 40 52 C 46 54 54 54 60 52" fill="none" stroke="${b.pointColor}" stroke-width="2.2" stroke-linecap="round" opacity="0.75"/>
         <path d="M 42 59 C 47 60 53 60 58 59" fill="none" stroke="${b.pointColor}" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
@@ -7438,45 +8778,149 @@ class PetRenderer {
         <!-- Mask and points -->
         <ellipse cx="50" cy="33" rx="14" ry="11" fill="${b.pointColor}" opacity="0.88"/>
       `;
+    } else if (b.pattern === 'white_brown_ears') {
+      // แมวขาวแต้มหูน้ำตาลทั้งสองข้าง
+      patternOverlay = `
+        <!-- Brown patches on both ears and small cap -->
+        <path d="M 32 24 Q 28 14 38 18 Z" fill="${b.pointColor}" opacity="0.95"/>
+        <path d="M 68 24 Q 72 14 62 18 Z" fill="${b.pointColor}" opacity="0.95"/>
+        <!-- Cute forehead spot -->
+        <ellipse cx="50" cy="22" rx="4" ry="2.5" fill="${b.pointColor}" opacity="0.85"/>
+      `;
+    } else if (b.pattern === 'white_brown_spotted') {
+      // แมวขาวลายแต้มน้ำตาลเต็มตัว (ลายวัว)
+      patternOverlay = `
+        <!-- Caramel Cow Spots on Body -->
+        <path d="M 38 42 Q 44 38 48 44 Q 45 52 39 48 Z" fill="${b.patchColor || b.pointColor}" opacity="0.92"/>
+        <path d="M 58 46 Q 66 42 70 48 Q 68 56 60 54 Z" fill="${b.patchColor || b.pointColor}" opacity="0.92"/>
+        <circle cx="48" cy="56" r="4.5" fill="${b.patchColor || b.pointColor}" opacity="0.88"/>
+        <!-- Face spot -->
+        <ellipse cx="40" cy="28" rx="5" ry="4" fill="${b.patchColor || b.pointColor}" opacity="0.9"/>
+      `;
+    } else if (b.pattern === 'calico') {
+      // แมวสามสี (ลายแต้มส้มและดำ/เทา)
+      patternOverlay = `
+        <!-- Calico Orange & Black Patches -->
+        <!-- Orange patch on back -->
+        <path d="M 42 42 Q 52 38 56 46 Q 50 54 40 50 Z" fill="${b.patchColor1}" opacity="0.92"/>
+        <!-- Black/Dark patch on flank -->
+        <path d="M 58 45 Q 68 40 71 49 Q 67 58 59 55 Z" fill="${b.patchColor2}" opacity="0.92"/>
+        <!-- Head Calico split -->
+        <path d="M 32 23 Q 29 13 40 18 Q 44 26 34 26 Z" fill="${b.patchColor1}"/>
+        <path d="M 68 23 Q 71 13 60 18 Q 56 26 66 26 Z" fill="${b.patchColor2}"/>
+      `;
+    } else if (b.pattern === 'persian_multicolor') {
+      // แมวเปอร์เซียหลายสี
+      patternOverlay = `
+        <!-- Multicolor Persian Fur Patches -->
+        <path d="M 42 44 Q 54 40 58 48 Q 52 56 40 52 Z" fill="${b.patchColor1}" opacity="0.85"/>
+        <path d="M 58 47 Q 69 43 72 51 Q 68 58 59 56 Z" fill="${b.patchColor2}" opacity="0.85"/>
+        <!-- Cheek tuft accents -->
+        <circle cx="34" cy="38" r="4" fill="${b.patchColor1}" opacity="0.6"/>
+        <circle cx="66" cy="38" r="4" fill="${b.patchColor2}" opacity="0.6"/>
+      `;
     } else if (b.pattern === 'solid_silver') {
       patternOverlay = `
-        <!-- Silver sheen overlay -->
-        <path d="M 38 25 Q 50 20 62 25 Q 50 28 38 25" fill="#ffffff" opacity="0.25"/>
-        <ellipse cx="50" cy="46" rx="18" ry="8" fill="#ffffff" opacity="0.18"/>
+        <path d="M 38 25 Q 50 20 62 25 Q 50 28 38 25" fill="#ffffff" opacity="0.3"/>
+        <ellipse cx="50" cy="46" rx="18" ry="8" fill="#ffffff" opacity="0.2"/>
       `;
     } else if (b.pattern === 'black') {
       patternOverlay = `
-        <!-- Glossy highlight on black fur -->
         <path d="M 36 24 Q 48 18 60 24" fill="none" stroke="#606680" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
         <ellipse cx="50" cy="47" rx="16" ry="7" fill="#434766" opacity="0.25"/>
       `;
     }
 
-    // หูแมว: หูพับ (Scottish Fold) vs หูตั้งปกติ
+    // 2. หางแมว (Tail Types: long, short, bobtail, kinked, curved, fluffy_plumage)
+    let tailSvg = '';
+    const tailColor = b.pointColor || b.bodyColor;
+
+    if (isLoaf || isInBox) {
+      // นอนเก็บหางแนบชิดลำตัว
+      tailSvg = `<path class="pet-tail pet-tail-loaf" d="M 72 58 C 76 60, 68 64, 56 64" fill="none" stroke="${tailColor}" stroke-width="6" stroke-linecap="round"/>`;
+    } else if (isBelly) {
+      // นอนหงาย หางแกว่งอยู่ด้านล่าง
+      tailSvg = `<path class="pet-tail pet-tail-wag" d="M 50 68 C 65 72, 75 62, 78 50" fill="none" stroke="${tailColor}" stroke-width="6" stroke-linecap="round"/>`;
+    } else {
+      // ตามประเภทพันธุกรรมหาง
+      if (tailType === 'bobtail') {
+        // หางกุด ก้อนกลมปอมปอม
+        tailSvg = `
+          <g class="pet-tail pet-tail-bobtail">
+            <circle cx="75" cy="48" r="6.5" fill="${tailColor}"/>
+            <circle cx="77" cy="47" r="4.5" fill="${tailColor}" opacity="0.9"/>
+          </g>
+        `;
+      } else if (tailType === 'short') {
+        // หางสั้นดุ๊กดิ๊ก
+        tailSvg = `
+          <path class="pet-tail pet-tail-short" d="M 71 50 Q 79 46 80 40" fill="none" stroke="${tailColor}" stroke-width="5.5" stroke-linecap="round"/>
+        `;
+      } else if (tailType === 'kinked') {
+        // หางคด แมวไทยปลายหักงอ
+        tailSvg = `
+          <path class="pet-tail pet-tail-kinked" d="M 71 52 Q 80 44 83 34 L 80 26 L 86 23" fill="none" stroke="${tailColor}" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+        `;
+      } else if (tailType === 'curved') {
+        // หางโค้งเคียว งอนสวยงาม
+        tailSvg = `
+          <path class="pet-tail pet-tail-curved" d="M 71 52 C 86 46, 92 28, 80 20 C 74 16, 70 24, 76 28" fill="none" stroke="${tailColor}" stroke-width="5.5" stroke-linecap="round"/>
+        `;
+      } else if (tailType === 'fluffy_plumage' || isFluffy) {
+        // หางพวงขนนกยูงฟูฟ่อง สำหรับแมวเปอร์เซีย
+        tailSvg = `
+          <g class="pet-tail pet-tail-fluffy">
+            <path d="M 70 52 C 84 46, 95 32, 85 18 C 76 10, 68 22, 75 32" fill="${tailColor}" opacity="0.95"/>
+            <!-- Fluffy Plume Layers -->
+            <ellipse cx="82" cy="28" rx="8" ry="14" fill="${tailColor}" transform="rotate(25 82 28)"/>
+            <ellipse cx="80" cy="24" rx="7" ry="11" fill="${b.bellyColor}" opacity="0.3" transform="rotate(20 80 24)"/>
+            <circle cx="85" cy="18" r="6" fill="${tailColor}"/>
+          </g>
+        `;
+      } else {
+        // หางยาวมาตรฐาน (long)
+        tailSvg = `
+          <path class="pet-tail pet-tail-wag" d="M 72 52 C 85 48, 88 34, 82 24" fill="none" stroke="${tailColor}" stroke-width="6" stroke-linecap="round"/>
+        `;
+      }
+    }
+
+    // 3. หูแมว (หูพับ vs หูตั้ง vs หูฟูเปอร์เซีย)
     let earsSvg = '';
     if (b.earType === 'folded') {
-      // หูพับไปข้างหน้าตุ้ยนุ้ย
+      // หูพับ Scottish Fold
       earsSvg = `
-        <!-- Left Folded Ear -->
         <g class="pet-ear pet-ear-left">
           <path d="M 34 26 C 30 20, 36 15, 42 20 C 40 24, 37 26, 34 26 Z" fill="${b.pointColor || b.bodyColor}"/>
           <path d="M 36 22 C 34 19, 38 17, 40 20" fill="${b.innerEarColor}" opacity="0.6"/>
         </g>
-        <!-- Right Folded Ear -->
         <g class="pet-ear pet-ear-right">
           <path d="M 66 26 C 70 20, 64 15, 58 20 C 60 24, 63 26, 66 26 Z" fill="${b.pointColor || b.bodyColor}"/>
           <path d="M 64 22 C 66 19, 62 17, 60 20" fill="${b.innerEarColor}" opacity="0.6"/>
         </g>
       `;
-    } else {
-      // หูตั้งทรงสามเหลี่ยมน่ารัก
+    } else if (isFluffy || b.earType === 'fluffy_tuft') {
+      // หูฟูมีปุยขน (Persian Tufted Ears)
       earsSvg = `
-        <!-- Left Ear -->
+        <g class="pet-ear pet-ear-left">
+          <path d="M 33 26 Q 28 10 41 17 Z" fill="${b.pointColor || b.bodyColor}"/>
+          <path d="M 34 24 Q 31 14 39 18 Z" fill="${b.innerEarColor}"/>
+          <!-- Fluffy Ear Tufts -->
+          <path d="M 32 23 Q 27 18 36 18 Q 30 22 35 24" fill="#ffffff" opacity="0.8"/>
+        </g>
+        <g class="pet-ear pet-ear-right">
+          <path d="M 67 26 Q 72 10 59 17 Z" fill="${b.pointColor || b.bodyColor}"/>
+          <path d="M 66 24 Q 69 14 61 18 Z" fill="${b.innerEarColor}"/>
+          <path d="M 68 23 Q 73 18 64 18 Q 70 22 65 24" fill="#ffffff" opacity="0.8"/>
+        </g>
+      `;
+    } else {
+      // หูตั้งมาตรฐาน
+      earsSvg = `
         <g class="pet-ear pet-ear-left">
           <path d="M 33 26 Q 28 12 40 18 Z" fill="${b.pointColor || b.bodyColor}"/>
           <path d="M 34 24 Q 31 15 38 19 Z" fill="${b.innerEarColor}"/>
         </g>
-        <!-- Right Ear -->
         <g class="pet-ear pet-ear-right">
           <path d="M 67 26 Q 72 12 60 18 Z" fill="${b.pointColor || b.bodyColor}"/>
           <path d="M 66 24 Q 69 15 62 19 Z" fill="${b.innerEarColor}"/>
@@ -7484,30 +8928,30 @@ class PetRenderer {
       `;
     }
 
-    // ดวงตาและการแสดงออกทางสีหน้า
+    // 4. ดวงตาและการแสดงออกทางสีหน้า
     let eyesSvg = '';
-    if (isSleep || isLoaf) {
+    if (isSleep || isLoaf || isCurl) {
       // หลับตาพริ้ม ^.^
       eyesSvg = `
         <path d="M 40 32 Q 44 28 47 32" fill="none" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
         <path d="M 53 32 Q 56 28 60 32" fill="none" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
       `;
     } else if (isDerpyYawn) {
-      // หลับตาหยีตอนหาว >.<
+      // หาวตาหยี >.<
       eyesSvg = `
         <path d="M 39 29 L 46 33 L 39 35" fill="none" stroke="#222" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
         <path d="M 61 29 L 54 33 L 61 35" fill="none" stroke="#222" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
       `;
     } else if (isDerpyStare) {
-      // ตาหรี่มองตัดสินทาส -_-
+      // ตาหรี่มองจิก -_-
       eyesSvg = `
         <line x1="39" y1="31" x2="47" y2="31" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
         <circle cx="43" cy="32" r="1.8" fill="${b.pupilColor}"/>
         <line x1="53" y1="31" x2="61" y2="31" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
         <circle cx="57" cy="32" r="1.8" fill="${b.pupilColor}"/>
       `;
-    } else if (isPounce || isDragged) {
-      // ตากลมโตสุดขีด (รูม่านตาขยายเต็มที่)
+    } else if (isPounce || isToyPlaying || isDragged) {
+      // ตากลมโตสุดขีด รูม่านตาขยาย
       eyesSvg = `
         <circle cx="43" cy="31" r="5.5" fill="${b.eyeColor}"/>
         <circle cx="43" cy="31" r="4.2" fill="${b.pupilColor}"/>
@@ -7532,24 +8976,21 @@ class PetRenderer {
       `;
     }
 
-    // ปาก จมูก และแก้มป่อง
+    // 5. ปาก จมูก
     let mouthSvg = '';
     if (isDerpyYawn) {
-      // อ้าปากหาวกว้าง มีลิ้นสีชมพูและเขี้ยวจิ๋ว
+      // อ้าปากหาวกว้าง มีฟันเขี้ยวจิ๋ว
       mouthSvg = `
         <polygon points="50,33 48,31 52,31" fill="${b.noseColor}"/>
-        <!-- Big yawn mouth -->
         <ellipse cx="50" cy="39" rx="6.5" ry="7.5" fill="#4a1525"/>
         <ellipse cx="50" cy="42" rx="4.5" ry="3.5" fill="#ff758f"/>
-        <!-- Tiny fangs -->
         <polygon points="46,34 47,37 48,34" fill="#ffffff"/>
         <polygon points="54,34 53,37 52,34" fill="#ffffff"/>
       `;
     } else if (isCarryFish) {
-      // คาบปลาทูตัวโต
+      // คาบปลาทู
       mouthSvg = `
         <polygon points="50,34 48.5,32 51.5,32" fill="${b.noseColor}"/>
-        <!-- Fish in mouth -->
         <g class="pet-carried-fish" transform="translate(32, 32) rotate(-6)">
           <ellipse cx="20" cy="6" rx="14" ry="5.5" fill="#5a86a6"/>
           <ellipse cx="18" cy="7" rx="12" ry="3.5" fill="#e2ecf2"/>
@@ -7557,60 +8998,52 @@ class PetRenderer {
           <polygon points="22,1 25,3 20,3" fill="#486f8a"/>
           <circle cx="10" cy="5" r="1.4" fill="#ffffff"/>
           <circle cx="9.6" cy="5" r="0.8" fill="#000000"/>
-          <!-- Stripes on fish -->
-          <path d="M 16 3 L 18 6 M 21 3 L 23 6 M 26 3 L 28 6" stroke="#37556b" stroke-width="1"/>
         </g>
       `;
     } else {
-      // ปาก :3 สุดน่ารัก
+      // ปาก :3 น่ารัก
       mouthSvg = `
         <polygon points="50,34.5 48.5,33 51.5,33" fill="${b.noseColor}"/>
         <path d="M 47 36 C 48.5 38, 50 37, 50 35.5 C 50 37, 51.5 38, 53 36" fill="none" stroke="#2b2d42" stroke-width="1.6" stroke-linecap="round"/>
       `;
     }
 
-    // หางแมว (มี Animation ส่ายไปมา)
-    let tailSvg = '';
-    if (isLoaf) {
-      // นอนเก็บหางแนบลำตัว
-      tailSvg = `
-        <path class="pet-tail pet-tail-loaf" d="M 72 58 C 76 60, 68 64, 56 64" fill="none" stroke="${b.pointColor || b.bodyColor}" stroke-width="6" stroke-linecap="round"/>
-      `;
-    } else if (isBelly) {
-      // นอนหงาย หางแกว่งอยู่ด้านล่าง
-      tailSvg = `
-        <path class="pet-tail pet-tail-wag" d="M 50 68 C 65 72, 75 62, 78 50" fill="none" stroke="${b.pointColor || b.bodyColor}" stroke-width="6" stroke-linecap="round"/>
-      `;
-    } else {
-      // หางส่ายดุ๊กดิ๊กปกติ
-      tailSvg = `
-        <path class="pet-tail pet-tail-wag" d="M 72 52 C 85 48, 88 34, 82 24" fill="none" stroke="${b.pointColor || b.bodyColor}" stroke-width="6" stroke-linecap="round"/>
-      `;
-    }
-
-    // ส่วนขาและอุ้งเท้า
+    // 6. อุ้งเท้าและขา (Paws)
     let pawsSvg = '';
-    if (isLoaf) {
-      // ก้อนขนมปัง: พับขาเก็บใต้พุงมิดชิด
-      pawsSvg = '';
+    if (isLoaf || isInBox) {
+      pawsSvg = ''; // ซ่อนขามิดชิดใต้พุง
     } else if (isSitting) {
-      // ท่านั่ง: ขาหน้าตั้งตรง ขาหลังพับข้าง
       pawsSvg = `
-        <!-- Back haunches -->
         <ellipse cx="66" cy="58" rx="8" ry="6" fill="${b.pointColor || b.bodyColor}"/>
-        <!-- Front Paws -->
         <ellipse class="pet-paw-front-l" cx="44" cy="65" rx="4.5" ry="3.5" fill="${b.pointColor || b.bellyColor}"/>
         <ellipse class="pet-paw-front-r" cx="54" cy="65" rx="4.5" ry="3.5" fill="${b.pointColor || b.bellyColor}"/>
       `;
+    } else if (isBegging) {
+      // ท่ายืนสองขาหน้าอ้อน
+      pawsSvg = `
+        <ellipse cx="64" cy="64" rx="7" ry="5" fill="${b.pointColor || b.bodyColor}"/>
+        <!-- Front paws lifted up together -->
+        <g class="pet-begging-paws">
+          <ellipse cx="46" cy="46" rx="3.8" ry="5.5" fill="${b.pointColor || b.bellyColor}" transform="rotate(-15 46 46)"/>
+          <ellipse cx="54" cy="46" rx="3.8" ry="5.5" fill="${b.pointColor || b.bellyColor}" transform="rotate(15 54 46)"/>
+        </g>
+      `;
+    } else if (isScratching) {
+      // ท่าเอื้อมสองขาหน้าฝนเล็บ
+      pawsSvg = `
+        <ellipse cx="64" cy="64" rx="7" ry="5" fill="${b.pointColor || b.bodyColor}"/>
+        <g class="pet-scratch-paws">
+          <ellipse cx="38" cy="42" rx="4" ry="7" fill="${b.pointColor || b.bellyColor}" transform="rotate(-35 38 42)"/>
+          <ellipse cx="46" cy="38" rx="4" ry="7" fill="${b.pointColor || b.bellyColor}" transform="rotate(-25 46 38)"/>
+        </g>
+      `;
     } else if (isDragged) {
-      // ถูกหิ้ว: ขาหน้าและหลังแกว่งปั่นกลางอากาศ
       pawsSvg = `
         <g class="pet-drag-legs">
           <ellipse cx="38" cy="68" rx="3.5" ry="6" fill="${b.pointColor || b.bodyColor}" transform="rotate(-15 38 68)"/>
           <ellipse cx="46" cy="69" rx="3.5" ry="6" fill="${b.pointColor || b.bodyColor}" transform="rotate(10 46 69)"/>
           <ellipse cx="58" cy="67" rx="3.5" ry="6" fill="${b.pointColor || b.bodyColor}" transform="rotate(-20 58 67)"/>
           <ellipse cx="66" cy="66" rx="3.5" ry="6" fill="${b.pointColor || b.bodyColor}" transform="rotate(25 66 66)"/>
-          <!-- Pink paw pads -->
           <circle cx="37" cy="72" r="1.5" fill="#ffb4a2"/>
           <circle cx="47" cy="73" r="1.5" fill="#ffb4a2"/>
           <circle cx="57" cy="71" r="1.5" fill="#ffb4a2"/>
@@ -7618,14 +9051,13 @@ class PetRenderer {
         </g>
       `;
     } else if (isGroom) {
-      // เลียอุ้งเท้า: ยกขาหน้าขึ้นมาหนึ่งข้าง
       pawsSvg = `
         <ellipse cx="44" cy="64" rx="4.5" ry="3.5" fill="${b.pointColor || b.bellyColor}"/>
         <ellipse class="pet-grooming-paw" cx="53" cy="40" rx="3.5" ry="5.5" fill="${b.pointColor || b.bellyColor}" transform="rotate(-25 53 40)"/>
         <ellipse cx="64" cy="63" rx="4.5" ry="3.5" fill="${b.pointColor || b.bellyColor}"/>
       `;
     } else {
-      // ท่ายืน/เดิน/วิ่ง: 4 ขาพร้อมเดินเตาะแตะ
+      // ท่ายืน/เดินเตาะแตะ
       pawsSvg = `
         <g class="pet-walking-paws">
           <ellipse class="pet-paw pet-paw-fl" cx="40" cy="64" rx="4" ry="3.5" fill="${b.pointColor || b.bellyColor}"/>
@@ -7636,25 +9068,40 @@ class PetRenderer {
       `;
     }
 
-    // ลำตัวอ้วนกลมและพุงกระเพื่อม
+    // 7. ลำตัว (Body Build: chubby, normal, slim, chunky_loaf) และ ปุยขนเปอร์เซีย
+    let bodyRx = 25, bodyRy = 18;
+    let bellyRx = 17, bellyRy = 13;
+    if (build === 'chubby') { bodyRx = 27; bodyRy = 20; bellyRx = 19; bellyRy = 15; }
+    else if (build === 'chunky_loaf') { bodyRx = 29; bodyRy = 21; bellyRx = 21; bellyRy = 16; }
+    else if (build === 'slim') { bodyRx = 22; bodyRy = 16; bellyRx = 14; bellyRy = 11; }
+
     let bodySvg = '';
     if (isBelly) {
-      // นอนหงายแผ่พุง
       bodySvg = `
-        <!-- Chubby Lying Body -->
-        <ellipse cx="50" cy="46" rx="26" ry="18" fill="${b.bodyColor}"/>
-        <!-- Big exposed belly -->
-        <ellipse cx="50" cy="45" rx="19" ry="13" fill="${b.bellyColor}"/>
-        <!-- Cute belly button dot -->
+        <ellipse cx="50" cy="46" rx="${bodyRx + 1}" ry="${bodyRy}" fill="${b.bodyColor}"/>
+        <ellipse cx="50" cy="45" rx="${bellyRx + 2}" ry="${bellyRy}" fill="${b.bellyColor}"/>
         <circle cx="50" cy="46" r="1" fill="#e07a5f" opacity="0.6"/>
       `;
     } else {
-      // ลำตัวอ้วนกลมปกติ
       bodySvg = `
-        <!-- Chubby Body -->
-        <ellipse class="pet-body-core" cx="54" cy="48" rx="25" ry="18" fill="${b.bodyColor}"/>
-        <!-- Soft Belly Patch -->
-        <ellipse class="pet-belly-patch" cx="50" cy="51" rx="17" ry="13" fill="${b.bellyColor}"/>
+        <ellipse class="pet-body-core" cx="54" cy="48" rx="${bodyRx}" ry="${bodyRy}" fill="${b.bodyColor}"/>
+        <ellipse class="pet-belly-patch" cx="50" cy="51" rx="${bellyRx}" ry="${bellyRy}" fill="${b.bellyColor}"/>
+      `;
+    }
+
+    // ขนฟูเปอร์เซียรอบคอ (Persian Fluffy Ruff)
+    let fluffyRuffSvg = '';
+    if (isFluffy) {
+      fluffyRuffSvg = `
+        <!-- Fluffy Persian Neck Ruff & Cheek Fluff -->
+        <g class="pet-persian-ruff" fill="${b.bodyColor}">
+          <circle cx="34" cy="44" r="8" opacity="0.95"/>
+          <circle cx="44" cy="48" r="9" opacity="0.95"/>
+          <circle cx="56" cy="48" r="9" opacity="0.95"/>
+          <circle cx="66" cy="44" r="8" opacity="0.95"/>
+          <!-- Inner chest fluff highlight -->
+          <ellipse cx="50" cy="46" rx="10" ry="7" fill="${b.bellyColor}" opacity="0.8"/>
+        </g>
       `;
     }
 
@@ -7673,7 +9120,10 @@ class PetRenderer {
         <!-- Body -->
         ${bodySvg}
 
-        <!-- Breed Pattern on Body -->
+        <!-- Fluffy Ruff for Persians -->
+        ${fluffyRuffSvg}
+
+        <!-- Breed Markings / Patches -->
         ${patternOverlay}
 
         <!-- Paws -->
@@ -7684,10 +9134,10 @@ class PetRenderer {
           <!-- Ears -->
           ${earsSvg}
 
-          <!-- Chubby Head -->
-          <ellipse class="pet-head" cx="50" cy="33" rx="21" ry="16" fill="${b.bodyColor}"/>
+          <!-- Head Core -->
+          <ellipse class="pet-head" cx="50" cy="33" rx="${isFluffy ? 23 : 21}" ry="${isFluffy ? 18 : 16}" fill="${b.bodyColor}"/>
           
-          <!-- Cute Chubby Cheeks -->
+          <!-- Cute Cheeks -->
           <ellipse cx="38" cy="37" rx="8" ry="6" fill="${b.bellyColor}" opacity="0.8"/>
           <ellipse cx="62" cy="37" rx="8" ry="6" fill="${b.bellyColor}" opacity="0.8"/>
 
@@ -7708,14 +9158,14 @@ class PetRenderer {
           <!-- Eyes -->
           ${eyesSvg}
 
-          <!-- Mouth / Nose / Fish -->
+          <!-- Mouth / Nose -->
           ${mouthSvg}
         </g>
       </svg>
     `;
   }
 
-  // สร้างผีเสื้อบินลอย
+  // สร้างผีเสื้อบิน
   static createButterflyElement(id, x, y) {
     const el = document.createElement('div');
     el.className = 'pet-butterfly';
@@ -7730,7 +9180,6 @@ class PetRenderer {
           <ellipse class="b-wing b-wing-lb" cx="11" cy="20" rx="6" ry="5" fill="#ffd166" opacity="0.85"/>
           <ellipse class="b-wing b-wing-rb" cx="21" cy="20" rx="6" ry="5" fill="#ffd166" opacity="0.85"/>
           <ellipse cx="16" cy="16" rx="2" ry="9" fill="#264653"/>
-          <!-- Antennae -->
           <path d="M 15 8 Q 12 4 10 5 M 17 8 Q 20 4 22 5" stroke="#264653" stroke-width="1" fill="none"/>
         </g>
       </svg>
@@ -7738,7 +9187,7 @@ class PetRenderer {
     return el;
   }
 
-  // สร้างจิ้งจกวิ่งเกาะขอบจอ
+  // สร้างจิ้งจกวิ่ง
   static createGeckoElement(id, x, y) {
     const el = document.createElement('div');
     el.className = 'pet-gecko';
@@ -7747,18 +9196,13 @@ class PetRenderer {
     el.style.top = `${y}px`;
     el.innerHTML = `
       <svg viewBox="0 0 36 20" width="36" height="20">
-        <!-- Gecko Body and Legs -->
         <g class="gecko-body">
-          <!-- Legs -->
           <path d="M 12 4 Q 10 1 8 3 M 12 16 Q 10 19 8 17" stroke="#8cb369" stroke-width="2" stroke-linecap="round" fill="none"/>
           <path d="M 22 4 Q 24 1 26 3 M 22 16 Q 24 19 26 17" stroke="#8cb369" stroke-width="2" stroke-linecap="round" fill="none"/>
-          <!-- Body and Head -->
           <ellipse cx="17" cy="10" rx="10" ry="4.5" fill="#a4c280"/>
           <ellipse cx="8" cy="10" rx="5" ry="3.5" fill="#90be6d"/>
-          <!-- Eyes -->
           <circle cx="7" cy="8" r="1.2" fill="#222"/>
           <circle cx="7" cy="12" r="1.2" fill="#222"/>
-          <!-- Wavy Tail -->
           <path class="gecko-tail" d="M 27 10 Q 32 6 36 10" stroke="#a4c280" stroke-width="2.5" stroke-linecap="round" fill="none"/>
         </g>
       </svg>
@@ -7766,7 +9210,7 @@ class PetRenderer {
     return el;
   }
 
-  // สร้างอาหารแมว/ชามปลา
+  // สร้างชามอาหาร/ปลาทู
   static createFoodBowlElement(x, y) {
     const el = document.createElement('div');
     el.className = 'pet-prop-food';
@@ -7774,11 +9218,9 @@ class PetRenderer {
     el.style.top = `${y}px`;
     el.innerHTML = `
       <svg viewBox="0 0 36 24" width="36" height="24">
-        <!-- Bowl -->
         <ellipse cx="18" cy="18" rx="16" ry="5" fill="#e76f51"/>
         <path d="M 2 18 Q 18 26 34 18 L 30 10 Q 18 14 6 10 Z" fill="#f4a261"/>
         <ellipse cx="18" cy="10" rx="12" ry="4" fill="#2a9d8f"/>
-        <!-- Fish Treats -->
         <ellipse cx="16" cy="10" rx="5" ry="2" fill="#e9c46a"/>
         <ellipse cx="21" cy="9" rx="4" ry="1.8" fill="#f4a261"/>
       </svg>
@@ -7788,8 +9230,836 @@ class PetRenderer {
 }
 
 
-// ผู้จัดการระบบสัตว์เลี้ยงหน้าจอ (Desktop Pet Manager)
-// ควบคุมวงรอบพฤติกรรม (AI State Machine), การลากวาง, การโต้ตอบหลายตัว, บริบทการอ่าน, และเมนูบริบท
+// ระบบปฏิสัมพันธ์ทางสังคมระหว่างน้องแมว (Multi-Pet Social System)
+// ดมจมูกทักทาย, วิ่งไล่จับ, นอนกอดกัน, แซวกันตาม 6 แกนนิสัย, และการเว้นระยะห่าง
+
+
+const PetSocial = {
+  lastInteractionTime: 0,
+
+  // ตรวจจับการพบกันระหว่างแมว 2 ตัว
+  checkSocialInteraction(pet1, pet2, sayCallback, spawnFxCallback) {
+    if (pet1.isDragged || pet2.isDragged) return;
+
+    const now = Date.now();
+    // คูลดาวน์การมีปฏิสัมพันธ์ระหว่างแมวอย่างน้อย 15 วินาที
+    if (now - this.lastInteractionTime < 15000) return;
+
+    const dist = Math.hypot(pet1.x - pet2.x, pet1.y - pet2.y);
+    if (dist > 95) return;
+
+    // ตรวจสอบบุคลิกภาพของทั้งสองตัว
+    const p1 = pet1.personality || { sociability: 50, affection: 50, energy: 50, intelligence: 50 };
+    const p2 = pet2.personality || { sociability: 50, affection: 50, energy: 50, intelligence: 50 };
+
+    this.lastInteractionTime = now;
+
+    // ทั้งคู่หันหน้าเข้าหากัน
+    pet1.facing = pet1.x < pet2.x ? 'right' : 'left';
+    pet2.facing = pet2.x < pet1.x ? 'right' : 'left';
+    PetRenderer.updatePetVisuals(pet1.el, pet1);
+    PetRenderer.updatePetVisuals(pet2.el, pet2);
+
+    // กรณีมีตัวใดตัวหนึ่งรักสันโดษมาก (Antisocial < 30) และหยิ่ง (Affection < 35)
+    if (p1.sociability < 30 || p2.sociability < 30) {
+      const antisocialPet = p1.sociability < 30 ? pet1 : pet2;
+      const otherPet = antisocialPet === pet1 ? pet2 : pet1;
+
+      antisocialPet.state = 'sit';
+      PetRenderer.updatePetVisuals(antisocialPet.el, antisocialPet);
+      if (spawnFxCallback) spawnFxCallback('sweat', antisocialPet.x + 35, antisocialPet.y + 10);
+
+      const msgs = PET_DIALOGUES.antisocialThoughts;
+      const msg = msgs[Math.floor(Math.random() * msgs.length)];
+      if (sayCallback) sayCallback(antisocialPet, msg, 4000);
+
+      // เดินถอยหนีเล็กน้อย
+      setTimeout(() => {
+        if (!antisocialPet.isDragged) {
+          antisocialPet.targetX = Math.max(50, Math.min(window.innerWidth - 100, antisocialPet.x + (antisocialPet.x < otherPet.x ? -100 : 100)));
+          antisocialPet.state = 'walk';
+          PetRenderer.updatePetVisuals(antisocialPet.el, antisocialPet);
+        }
+      }, 2000);
+      return;
+    }
+
+    // กรณีทั้งคู่พลังงานสูง (Energy > 65) -> วิ่งไล่จับกันรอบจอ!
+    if (p1.energy > 65 && p2.energy > 65 && Math.random() < 0.45) {
+      pet1.state = 'run';
+      pet2.state = 'run';
+      const targetX = Math.max(60, Math.min(window.innerWidth - 160, pet1.x + (pet1.facing === 'right' ? 180 : -180)));
+      pet1.targetX = targetX;
+      pet2.targetX = targetX + (pet1.facing === 'right' ? -50 : 50);
+
+      PetRenderer.updatePetVisuals(pet1.el, pet1);
+      PetRenderer.updatePetVisuals(pet2.el, pet2);
+
+      if (sayCallback) {
+        sayCallback(pet1, `${pet2.name} มาวิ่งแข่งกันรอบหน้าจอมะ ใครแพ้จ่ายปลาทู!`, 3500);
+      }
+      return;
+    }
+
+    // กรณีทั้งคู่ขี้เกียจ/พลังงานต่ำ -> นอนกอดกันกลมๆ (Cuddle loaf)
+    if ((p1.diligence < 40 || p1.energy < 40) && (p2.diligence < 40 || p2.energy < 40) && Math.random() < 0.5) {
+      pet1.state = 'sleep_loaf';
+      pet2.state = 'sleep_loaf';
+      PetRenderer.updatePetVisuals(pet1.el, pet1);
+      PetRenderer.updatePetVisuals(pet2.el, pet2);
+
+      if (spawnFxCallback) {
+        spawnFxCallback('heart', (pet1.x + pet2.x) / 2 + 35, Math.min(pet1.y, pet2.y) + 10);
+      }
+      if (sayCallback) {
+        sayCallback(pet1, `นอนเบียดกันตรงนี้นะ ${pet2.name} ตัวนายอุ่นเหมือนเตาผิงเลย`, 4500);
+      }
+      return;
+    }
+
+    // กรณีสนทนาแลกเปลี่ยนตามบุคลิกภาพ (Dynamic Pair Dialogue)
+    let chosenList = PET_DIALOGUES.multiPet;
+    if (p1.intelligence >= 65 && p2.intelligence <= 35) {
+      chosenList = PET_DIALOGUES.personalityPairChats.smart_derpy;
+    } else if (p1.energy >= 65 && p2.energy <= 35) {
+      chosenList = PET_DIALOGUES.personalityPairChats.energy_lazy;
+    } else if (p1.affection >= 65 && p2.affection <= 35) {
+      chosenList = PET_DIALOGUES.personalityPairChats.affection_aloof;
+    } else if (p1.sociability >= 65 && p2.sociability <= 35) {
+      chosenList = PET_DIALOGUES.personalityPairChats.social_antisocial;
+    }
+
+    const rawMsg = chosenList[Math.floor(Math.random() * chosenList.length)];
+    const text = formatDialogue(rawMsg, { petName: pet1.name, otherPetName: pet2.name });
+
+    pet1.state = 'sit';
+    pet2.state = 'sit';
+    PetRenderer.updatePetVisuals(pet1.el, pet1);
+    PetRenderer.updatePetVisuals(pet2.el, pet2);
+
+    if (spawnFxCallback) {
+      spawnFxCallback('heart', (pet1.x + pet2.x) / 2 + 35, pet1.y + 10);
+    }
+    if (sayCallback) {
+      sayCallback(pet1, text, 4500);
+    }
+  }
+};
+
+
+// ระบบส่วนติดต่อผู้ใช้ (UX / UI System) สำหรับสัตว์เลี้ยงหน้าจอ
+// หน้าต่างบ้านแมว 4 แท็บ, การ์ดแมวพร้อมแถบสถิติ 6 แกน, เมนูบริบท Glassmorphism, และเอฟเฟกต์แอนิเมชัน
+
+
+const PetUI = {
+  activeModal: null,
+  activeContextMenu: null,
+  activeTab: 'my_pets',
+
+  // 1. เปิดโมดอลศูนย์รวมใจชาวแมว (Desktop Pets Sanctuary Modal)
+  openManagementModal(manager) {
+    if (this.activeModal) {
+      this.activeModal.remove();
+      this.activeModal = null;
+    }
+
+    const overlay = document.createElement('div');
+    overlay.className = 'pet-modal-overlay';
+    overlay.id = 'pet-modal-overlay';
+
+    overlay.innerHTML = `
+      <div class="pet-modal-card">
+        <!-- Header -->
+        <div class="pet-modal-header">
+          <div class="pet-modal-title">
+            <span class="pet-title-paw">🐾</span>
+            <span>บ้านสัตว์เลี้ยงหน้าจอ & คาเฟ่แมว</span>
+            <span class="pet-title-count">(${manager.pets.length} ตัว)</span>
+          </div>
+          <button class="pet-modal-close" id="btn-pet-modal-close" title="ปิดหน้าต่าง">&times;</button>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <div class="pet-modal-tabs">
+          <button class="pet-tab-btn ${this.activeTab === 'my_pets' ? 'active' : ''}" data-tab="my_pets">
+            🐱 น้องแมวของฉัน
+          </button>
+          <button class="pet-tab-btn ${this.activeTab === 'adoption' ? 'active' : ''}" data-tab="adoption">
+            ➕ รับเลี้ยงแมวใหม่
+          </button>
+          <button class="pet-tab-btn ${this.activeTab === 'toys_env' ? 'active' : ''}" data-tab="toys_env">
+            🧶 ของเล่น & ที่นอน
+          </button>
+          <button class="pet-tab-btn ${this.activeTab === 'settings' ? 'active' : ''}" data-tab="settings">
+            ⚙️ ตั้งค่าพฤติกรรม
+          </button>
+        </div>
+
+        <!-- Body Content -->
+        <div class="pet-modal-body" id="pet-modal-tab-content">
+          ${this.renderTabContent(this.activeTab, manager)}
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+    this.activeModal = overlay;
+
+    this.bindModalEvents(overlay, manager);
+  },
+
+  closeModal() {
+    if (this.activeModal) {
+      this.activeModal.remove();
+      this.activeModal = null;
+    }
+  },
+
+  // เรนเดอร์เนื้อหาแต่ละแท็บ
+  renderTabContent(tab, manager) {
+    if (tab === 'my_pets') {
+      return this.renderMyPetsTab(manager);
+    } else if (tab === 'adoption') {
+      return this.renderAdoptionTab(manager);
+    } else if (tab === 'toys_env') {
+      return this.renderToysTab(manager);
+    } else if (tab === 'settings') {
+      return this.renderSettingsTab(manager);
+    }
+    return '';
+  },
+
+  // แท็บ 1: รายชื่อน้องแมว
+  renderMyPetsTab(manager) {
+    if (!manager.pets.length) {
+      return `
+        <div class="pet-empty-state">
+          <div style="font-size:48px;margin-bottom:8px;">😿</div>
+          <div style="font-size:15px;font-weight:600;color:#495057;">ยังไม่มีน้องแมวบนหน้าจอ</div>
+          <div style="font-size:13px;color:#868e96;margin:6px 0 16px;">กดแท็บ "รับเลี้ยงแมวใหม่" เพื่อเลือกสายพันธุ์และบุคลิกที่ชื่นชอบ!</div>
+          <button class="pet-btn-adopt" id="btn-goto-adopt">➕ ไปรับเลี้ยงแมวตัวแรก</button>
+        </div>
+      `;
+    }
+
+    return `
+      <div class="pet-cards-grid">
+        ${manager.pets.map(p => {
+          const breed = PET_BREEDS[p.breed] || PET_BREEDS.orange;
+          const title = PetPersonality.getPersonalityTitle(p.personality);
+          const tail = TAIL_TYPES[p.tailType || breed.defaultTail]?.name || 'หางยาว';
+          const build = BODY_BUILDS[p.build || breed.defaultBuild]?.name || 'สมส่วน';
+          const stats = p.personality || { intelligence: 50, diligence: 50, energy: 50, talkativeness: 50, affection: 50, sociability: 50 };
+
+          return `
+            <div class="pet-profile-card" data-id="${p.id}">
+              <div class="pet-card-top">
+                <div class="pet-card-avatar">
+                  ${PetRenderer.renderCatSvg(breed, { ...p, state: 'sit' })}
+                </div>
+                <div class="pet-card-main-info">
+                  <div class="pet-card-name-row">
+                    <span class="pet-card-name">${p.name}</span>
+                    <span class="pet-card-badge">${title}</span>
+                  </div>
+                  <div class="pet-card-sub">${breed.name}</div>
+                  <div class="pet-card-traits">
+                    <span>${tail}</span> • <span>${build}</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 6-Axis Stat Bars -->
+              <div class="pet-stats-bars">
+                <div class="pet-stat-row" title="สติปัญญา: ฉลาด vs เด๋อ">
+                  <span class="pet-stat-label">🧠 ฉลาด:</span>
+                  <div class="pet-stat-track"><div class="pet-stat-fill stat-intel" style="width:${stats.intelligence}%;"></div></div>
+                  <span class="pet-stat-val">${stats.intelligence}%</span>
+                </div>
+                <div class="pet-stat-row" title="ความขยัน: เฝ้างาน vs ขี้เกียจ">
+                  <span class="pet-stat-label">⭐ ขยัน:</span>
+                  <div class="pet-stat-track"><div class="pet-stat-fill stat-dili" style="width:${stats.diligence}%;"></div></div>
+                  <span class="pet-stat-val">${stats.diligence}%</span>
+                </div>
+                <div class="pet-stat-row" title="พลังงาน: ไฮเปอร์ vs สงบ">
+                  <span class="pet-stat-label">⚡ พลัง:</span>
+                  <div class="pet-stat-track"><div class="pet-stat-fill stat-ener" style="width:${stats.energy}%;"></div></div>
+                  <span class="pet-stat-val">${stats.energy}%</span>
+                </div>
+                <div class="pet-stat-row" title="ความช่างคุย: จ้อ vs เงียบ">
+                  <span class="pet-stat-label">💬 พูด:</span>
+                  <div class="pet-stat-track"><div class="pet-stat-fill stat-talk" style="width:${stats.talkativeness}%;"></div></div>
+                  <span class="pet-stat-val">${stats.talkativeness}%</span>
+                </div>
+                <div class="pet-stat-row" title="ความขี้อ้อน: อ้อน vs หยิ่ง">
+                  <span class="pet-stat-label">💖 อ้อน:</span>
+                  <div class="pet-stat-track"><div class="pet-stat-fill stat-affe" style="width:${stats.affection}%;"></div></div>
+                  <span class="pet-stat-val">${stats.affection}%</span>
+                </div>
+                <div class="pet-stat-row" title="การเข้าสังคม: เฟรนด์ลี่ vs สันโดษ">
+                  <span class="pet-stat-label">🐾 สังคม:</span>
+                  <div class="pet-stat-track"><div class="pet-stat-fill stat-soci" style="width:${stats.sociability}%;"></div></div>
+                  <span class="pet-stat-val">${stats.sociability}%</span>
+                </div>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="pet-card-actions">
+                <button class="pet-card-btn" data-action="tickle" title="เกาคางให้รางวัล">🖐️ เกาคาง</button>
+                <button class="pet-card-btn" data-action="feed" title="ให้อาหารปลาทู">🐟 ป้อนปลา</button>
+                <button class="pet-card-btn" data-action="toggle_stay" title="สลับโหมดเดินเล่นหรือนอนนิ่ง">
+                  ${p.isStaying ? '▶️ ปล่อยเดิน' : '⏸️ ให้นอนเฝ้า'}
+                </button>
+                <button class="pet-card-btn" data-action="rename" title="เปลี่ยนชื่อ">✏️ แก้ชื่อ</button>
+                <button class="pet-card-btn danger" data-action="delete" title="ส่งกลับบ้าน">🏠 ลบ</button>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+  },
+
+  // แท็บ 2: ศูนย์รับเลี้ยงแมว (พร้อมพรีวิวสดและ 11 สายพันธุ์)
+  renderAdoptionTab(manager) {
+    const defaultBreed = 'white_brown_ears';
+    const breedKeys = Object.keys(PET_BREEDS);
+    const tailKeys = Object.keys(TAIL_TYPES);
+    const buildKeys = Object.keys(BODY_BUILDS);
+    const defaultName = RANDOM_NAMES[Math.floor(Math.random() * RANDOM_NAMES.length)];
+
+    return `
+      <div class="pet-adopt-container">
+        <!-- Live SVG Preview Card -->
+        <div class="pet-adopt-preview-wrap">
+          <div class="pet-adopt-preview-box" id="adopt-preview-svg">
+            ${PetRenderer.renderCatSvg(PET_BREEDS[defaultBreed], {
+              id: 'preview',
+              name: defaultName,
+              breed: defaultBreed,
+              tailType: 'curved',
+              build: 'normal',
+              state: 'stand',
+              scale: 1.4
+            })}
+          </div>
+          <div class="pet-adopt-preview-title" id="adopt-preview-desc">
+            ${PET_BREEDS[defaultBreed].desc}
+          </div>
+        </div>
+
+        <!-- Customization Form -->
+        <div class="pet-adopt-form">
+          <div class="pet-form-group">
+            <label>🏷️ ชื่อน้องแมว:</label>
+            <div class="pet-input-dice-row">
+              <input type="text" id="adopt-input-name" value="${defaultName}" maxlength="20" class="pet-input-text" placeholder="พิมพ์ชื่อน้องแมว..."/>
+              <button type="button" id="btn-adopt-random-name" class="pet-btn-dice" title="สุ่มชื่อใหม่">
+                <span class="btn-dice-icon">🎲</span>
+                <span>สุ่มชื่อ</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="pet-form-group">
+            <label>🐱 สายพันธุ์แมว (11 สายพันธุ์):</label>
+            <select id="adopt-select-breed" class="pet-select">
+              <optgroup label="✨ สายพันธุ์ใหม่ล่าสุด">
+                <option value="white_brown_ears" selected>แมวขาวแต้มหูน้ำตาล (White Brown Ears)</option>
+                <option value="white_brown_spotted">แมวขาวแต้มน้ำตาลเต็มตัว (Cow/Piebald)</option>
+                <option value="calico">แมวสามสี (Calico / Mi-ke)</option>
+                <option value="persian_multicolor">แมวเปอร์เซียขนฟูหลายสี (Multicolor Persian)</option>
+                <option value="persian_white">แมวเปอร์เซียขนฟูสีขาวปลอด (White Persian)</option>
+              </optgroup>
+              <optgroup label="🐾 สายพันธุ์ยอดนิยมเดิม">
+                <option value="orange">แมวส้มชีส (Orange Tabby)</option>
+                <option value="scottish_bluepoint">แมวสก๊อตติชบลูพอยต์ (Scottish Fold)</option>
+                <option value="sisawat">แมวสีสวาด โคราช (Korat Silver)</option>
+                <option value="tabby">แมวลายสลิด (Tabby)</option>
+                <option value="siamese">แมววิเชียรมาศ (Siamese)</option>
+                <option value="black">แมวดำ ก้อนถ่านนำโชค (Black Cat)</option>
+              </optgroup>
+            </select>
+          </div>
+
+          <div class="pet-form-row">
+            <div class="pet-form-group" style="flex:1;">
+              <label>〰️ ลักษณะหาง:</label>
+              <select id="adopt-select-tail" class="pet-select">
+                ${tailKeys.map(k => `<option value="${k}">${TAIL_TYPES[k].name}</option>`).join('')}
+              </select>
+            </div>
+            <div class="pet-form-group" style="flex:1;">
+              <label>⚖️ รูปร่าง:</label>
+              <select id="adopt-select-build" class="pet-select">
+                ${buildKeys.map(k => `<option value="${k}">${BODY_BUILDS[k].name}</option>`).join('')}
+              </select>
+            </div>
+          </div>
+
+          <div class="pet-form-group">
+            <label>🎭 บุคลิกภาพสำเร็จรูป (6 แกนนิสัย):</label>
+            <select id="adopt-select-archetype" class="pet-select">
+              ${PERSONALITY_ARCHETYPES.map((a, idx) => `<option value="${idx}">${a.name} (${a.desc})</option>`).join('')}
+              <option value="random">🎲 สุ่มค่าพลังเฉพาะตัว</option>
+            </select>
+          </div>
+
+          <button class="pet-btn-adopt-submit" id="btn-submit-adopt">
+            <span class="btn-paw-icon">🐾</span>
+            <span>รับเลี้ยงน้องแมวตัวนี้เข้าสู่หน้าจอ!</span>
+          </button>
+        </div>
+      </div>
+    `;
+  },
+
+  // แท็บ 3: ของเล่น & เฟอร์นิเจอร์
+  renderToysTab(manager) {
+    const items = manager.environment?.items || [];
+
+    return `
+      <div class="pet-env-settings-wrap">
+        <div class="pet-env-desc">
+          จัดวางเฟอร์นิเจอร์และของเล่นสำหรับน้องแมวลงบนหน้าจอ คุณสามารถ<b>คลิกลากย้ายตำแหน่ง</b>ไปวางมุมใดก็ได้!
+        </div>
+
+        <div class="pet-env-items-list">
+          ${Object.keys(ENV_ITEM_DEFS).map(typeKey => {
+            const def = ENV_ITEM_DEFS[typeKey];
+            const activeItem = items.find(i => i.type === typeKey && i.enabled);
+            const isEnabled = !!activeItem;
+
+            return `
+              <div class="pet-env-row">
+                <div class="pet-env-info">
+                  <span class="pet-env-icon">${def.icon}</span>
+                  <div>
+                    <div class="pet-env-name">${def.name}</div>
+                    <div class="pet-env-sub">${def.desc}</div>
+                  </div>
+                </div>
+                <label class="pet-switch">
+                  <input type="checkbox" class="env-toggle-cb" data-type="${typeKey}" ${isEnabled ? 'checked' : ''}/>
+                  <span class="pet-slider"></span>
+                </label>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </div>
+    `;
+  },
+
+  // แท็บ 4: ตั้งค่าพฤติกรรม
+  renderSettingsTab(manager) {
+    const s = manager.settings;
+
+    return `
+      <div class="pet-settings-grid">
+        <div class="pet-setting-card">
+          <label>ความถี่ในการชวนคุย:</label>
+          <select id="set-speech-freq" class="pet-select">
+            <option value="often" ${s.speechFreq === 'often' ? 'selected' : ''}>คุยบ่อยมาก (ทุก ~22 วินาที)</option>
+            <option value="normal" ${s.speechFreq === 'normal' ? 'selected' : ''}>ปานกลาง (ทุก ~40 วินาที)</option>
+            <option value="rare" ${s.speechFreq === 'rare' ? 'selected' : ''}>นาน ๆ ครั้ง (ทุก ~80 วินาที)</option>
+            <option value="off" ${s.speechFreq === 'off' ? 'selected' : ''}>ปิดเสียงกล่องคำพูด</option>
+          </select>
+        </div>
+
+        <div class="pet-setting-card">
+          <label>ระยะเวลาแสดงคำพูดบนจอ:</label>
+          <select id="set-speech-duration" class="pet-select">
+            <option value="normal" ${s.speechDuration === 'normal' ? 'selected' : ''}>นานกำลังดี (8.5 - 14 วินาที)</option>
+            <option value="long" ${s.speechDuration === 'long' ? 'selected' : ''}>นานพิเศษ (12 - 18 วินาที)</option>
+            <option value="extra" ${s.speechDuration === 'extra' ? 'selected' : ''}>นานจุใจ (16 - 25 วินาที)</option>
+          </select>
+        </div>
+
+        <div class="pet-setting-card">
+          <label>ขนาดตัวหนังสือคำพูดแมว:</label>
+          <select id="set-speech-fontsize" class="pet-select">
+            <option value="small" ${s.speechFontSize === 'small' ? 'selected' : ''}>เล็กกะทัดรัด (11px)</option>
+            <option value="normal" ${s.speechFontSize === 'normal' ? 'selected' : ''}>ปกติ (12.5px)</option>
+            <option value="large" ${s.speechFontSize === 'large' ? 'selected' : ''}>ใหญ่อ่านสบาย (14.5px)</option>
+            <option value="xlarge" ${s.speechFontSize === 'xlarge' ? 'selected' : ''}>ใหญ่พิเศษ (17px)</option>
+          </select>
+        </div>
+
+        <div class="pet-setting-card">
+          <label>เตือนพักสายตาเมื่ออ่านนาน:</label>
+          <select id="set-fatigue-time" class="pet-select">
+            <option value="20" ${s.readingReminderMins === 20 ? 'selected' : ''}>20 นาที</option>
+            <option value="30" ${s.readingReminderMins === 30 ? 'selected' : ''}>30 นาที (แนะนำ)</option>
+            <option value="45" ${s.readingReminderMins === 45 ? 'selected' : ''}>45 นาที</option>
+            <option value="60" ${s.readingReminderMins === 60 ? 'selected' : ''}>1 ชั่วโมง</option>
+          </select>
+        </div>
+
+        <div class="pet-setting-card">
+          <label>ขนาดตัวของน้องแมว:</label>
+          <select id="set-pet-scale" class="pet-select">
+            <option value="0.85" ${s.petScale === 0.85 ? 'selected' : ''}>กะทัดรัด (85%)</option>
+            <option value="1.0" ${s.petScale === 1.0 ? 'selected' : ''}>มาตรฐาน (100%)</option>
+            <option value="1.2" ${s.petScale === 1.2 ? 'selected' : ''}>อ้วนตุ้ยนุ้ย (120%)</option>
+            <option value="1.35" ${s.petScale === 1.35 ? 'selected' : ''}>อ้วนพิเศษ (135%)</option>
+          </select>
+        </div>
+
+        <div class="pet-setting-card pet-setting-actions-card">
+          <label>🎮 ทดสอบท่าทาง & ของเล่น:</label>
+          <div class="pet-test-btn-group">
+            <button type="button" class="pet-test-btn pet-test-blocker" id="btn-test-blocker" title="ทดสอบท่าเดินมานอนทับจอเตือนพักสายตา">
+              <span class="test-btn-icon">🐾</span>
+              <span class="test-btn-text">จำลองเดินมานอนทับจอ</span>
+            </button>
+            <div class="pet-test-btn-subrow">
+              <button type="button" class="pet-test-btn pet-test-butterfly" id="btn-test-butterfly" title="ปล่อยผีเสื้อบินรอบจอให้แมวกระโดดตะครุบ">
+                <span class="test-btn-icon">🦋</span>
+                <span class="test-btn-text">ปล่อยผีเสื้อ</span>
+              </button>
+              <button type="button" class="pet-test-btn pet-test-gecko" id="btn-test-gecko" title="ปล่อยจิ้งจกวิ่งเกาะขอบจอให้แมววิ่งไล่">
+                <span class="test-btn-icon">🦎</span>
+                <span class="test-btn-text">ปล่อยจิ้งจก</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  },
+
+  // ผูก Event Listeners ทั้งหมดในหน้าต่างโมดอล
+  bindModalEvents(overlay, manager) {
+    // ปิดเมื่อคลิก Overlay หรือปุ่มปิด
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) this.closeModal();
+    });
+
+    const closeBtn = overlay.querySelector('#btn-pet-modal-close');
+    if (closeBtn) closeBtn.addEventListener('click', () => this.closeModal());
+
+    // สลับแท็บ
+    const tabBtns = overlay.querySelectorAll('.pet-tab-btn');
+    tabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        tabBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        this.activeTab = btn.dataset.tab;
+        const contentWrap = overlay.querySelector('#pet-modal-tab-content');
+        if (contentWrap) {
+          contentWrap.innerHTML = this.renderTabContent(this.activeTab, manager);
+          this.bindTabSpecificEvents(overlay, manager);
+        }
+      });
+    });
+
+    this.bindTabSpecificEvents(overlay, manager);
+  },
+
+  bindTabSpecificEvents(overlay, manager) {
+    // 1. My Pets Events
+    const cardsWrap = overlay.querySelector('.pet-cards-grid');
+    if (cardsWrap) {
+      cardsWrap.addEventListener('click', (e) => {
+        const btn = e.target.closest('.pet-card-btn');
+        if (!btn) return;
+        const card = btn.closest('.pet-profile-card');
+        const petId = card?.dataset.id;
+        const pet = manager.pets.find(p => p.id === petId);
+        if (!pet) return;
+
+        const action = btn.dataset.action;
+        if (action === 'tickle') {
+          manager.ticklePet(pet);
+        } else if (action === 'feed') {
+          manager.feedPet(pet);
+        } else if (action === 'toggle_stay') {
+          pet.isStaying = !pet.isStaying;
+          manager.saveState();
+          overlay.querySelector('#pet-modal-tab-content').innerHTML = this.renderTabContent('my_pets', manager);
+          this.bindTabSpecificEvents(overlay, manager);
+        } else if (action === 'rename') {
+          const newName = prompt(`ตั้งชื่อใหม่ให้ ${pet.name}:`, pet.name);
+          if (newName && newName.trim()) {
+            pet.name = newName.trim();
+            PetRenderer.updatePetVisuals(pet.el, pet);
+            manager.saveState();
+            overlay.querySelector('#pet-modal-tab-content').innerHTML = this.renderTabContent('my_pets', manager);
+            this.bindTabSpecificEvents(overlay, manager);
+          }
+        } else if (action === 'delete') {
+          if (confirm(`ต้องการเก็บ ${pet.name} เข้าบ้านหรือไม่?`)) {
+            manager.removePet(pet.id);
+            overlay.querySelector('#pet-modal-tab-content').innerHTML = this.renderTabContent('my_pets', manager);
+            this.bindTabSpecificEvents(overlay, manager);
+          }
+        }
+      });
+    }
+
+    const gotoAdoptBtn = overlay.querySelector('#btn-goto-adopt');
+    if (gotoAdoptBtn) {
+      gotoAdoptBtn.addEventListener('click', () => {
+        const adoptTabBtn = overlay.querySelector('[data-tab="adoption"]');
+        if (adoptTabBtn) adoptTabBtn.click();
+      });
+    }
+
+    // 2. Adoption Form Events & Live SVG Preview
+    const breedSelect = overlay.querySelector('#adopt-select-breed');
+    const tailSelect = overlay.querySelector('#adopt-select-tail');
+    const buildSelect = overlay.querySelector('#adopt-select-build');
+    const nameInput = overlay.querySelector('#adopt-input-name');
+    const previewSvg = overlay.querySelector('#adopt-preview-svg');
+    const previewDesc = overlay.querySelector('#adopt-preview-desc');
+
+    const updatePreview = () => {
+      if (!previewSvg || !breedSelect) return;
+      const curBreedKey = breedSelect.value;
+      const breed = PET_BREEDS[curBreedKey] || PET_BREEDS.orange;
+      const curTail = tailSelect ? tailSelect.value : breed.defaultTail;
+      const curBuild = buildSelect ? buildSelect.value : breed.defaultBuild;
+      const curName = (nameInput?.value || 'น้องแมว').trim();
+
+      previewSvg.innerHTML = PetRenderer.renderCatSvg(breed, {
+        id: 'preview',
+        name: curName,
+        breed: curBreedKey,
+        tailType: curTail,
+        build: curBuild,
+        state: 'stand',
+        scale: 1.4
+      });
+
+      if (previewDesc) {
+        previewDesc.textContent = breed.desc;
+      }
+    };
+
+    if (breedSelect) {
+      breedSelect.addEventListener('change', () => {
+        const b = PET_BREEDS[breedSelect.value];
+        if (b) {
+          if (tailSelect) tailSelect.value = b.defaultTail || 'long';
+          if (buildSelect) buildSelect.value = b.defaultBuild || 'normal';
+        }
+        updatePreview();
+      });
+    }
+    if (tailSelect) tailSelect.addEventListener('change', updatePreview);
+    if (buildSelect) buildSelect.addEventListener('change', updatePreview);
+    if (nameInput) nameInput.addEventListener('input', updatePreview);
+
+    const randNameBtn = overlay.querySelector('#btn-adopt-random-name');
+    if (randNameBtn && nameInput) {
+      randNameBtn.addEventListener('click', () => {
+        nameInput.value = RANDOM_NAMES[Math.floor(Math.random() * RANDOM_NAMES.length)];
+        updatePreview();
+      });
+    }
+
+    const submitAdoptBtn = overlay.querySelector('#btn-submit-adopt');
+    if (submitAdoptBtn) {
+      submitAdoptBtn.addEventListener('click', () => {
+        const breedKey = breedSelect?.value || 'white_brown_ears';
+        const nameVal = (nameInput?.value || 'น้องแมว').trim();
+        const tailVal = tailSelect?.value || 'long';
+        const buildVal = buildSelect?.value || 'normal';
+        const archVal = overlay.querySelector('#adopt-select-archetype')?.value;
+
+        let stats = null;
+        if (archVal === 'random') {
+          stats = PetPersonality.generateRandomStats();
+        } else {
+          const archIdx = parseInt(archVal, 10);
+          stats = PERSONALITY_ARCHETYPES[archIdx]?.stats || PetPersonality.generateRandomStats();
+        }
+
+        manager.addNewPet({
+          breed: breedKey,
+          name: nameVal,
+          tailType: tailVal,
+          build: buildVal,
+          personality: stats
+        });
+
+        // สลับไปแท็บ My Pets เพื่อโชว์แมวตัวใหม่
+        const myPetsTabBtn = overlay.querySelector('[data-tab="my_pets"]');
+        if (myPetsTabBtn) myPetsTabBtn.click();
+      });
+    }
+
+    // 3. Environment Toggles
+    const envToggles = overlay.querySelectorAll('.env-toggle-cb');
+    envToggles.forEach(cb => {
+      cb.addEventListener('change', () => {
+        const type = cb.dataset.type;
+        if (manager.environment) {
+          manager.environment.toggleItem(type, cb.checked);
+        }
+      });
+    });
+
+    // 4. Settings bindings
+    const freqSel = overlay.querySelector('#set-speech-freq');
+    if (freqSel) freqSel.addEventListener('change', (e) => {
+      manager.settings.speechFreq = e.target.value;
+      manager.saveState();
+    });
+
+    const durSel = overlay.querySelector('#set-speech-duration');
+    if (durSel) durSel.addEventListener('change', (e) => {
+      manager.settings.speechDuration = e.target.value;
+      manager.saveState();
+    });
+
+    const fontSel = overlay.querySelector('#set-speech-fontsize');
+    if (fontSel) fontSel.addEventListener('change', (e) => {
+      manager.settings.speechFontSize = e.target.value;
+      manager.applySpeechFontSize();
+      manager.saveState();
+    });
+
+    const fatSel = overlay.querySelector('#set-fatigue-time');
+    if (fatSel) fatSel.addEventListener('change', (e) => {
+      manager.settings.readingReminderMins = parseInt(e.target.value, 10);
+      manager.saveState();
+    });
+
+    const scaleSel = overlay.querySelector('#set-pet-scale');
+    if (scaleSel) scaleSel.addEventListener('change', (e) => {
+      const sc = parseFloat(e.target.value);
+      manager.settings.petScale = sc;
+      manager.pets.forEach(p => {
+        p.scale = sc;
+        if (p.el) PetRenderer.updatePetVisuals(p.el, p);
+      });
+      manager.saveState();
+    });
+
+    const testBlockBtn = overlay.querySelector('#btn-test-blocker');
+    if (testBlockBtn) testBlockBtn.addEventListener('click', () => {
+      manager.readingStartTime = Date.now() - 3600000;
+      manager.fatigueTriggered = false;
+      manager.checkReadingFatigue();
+      this.closeModal();
+    });
+
+    const testBflyBtn = overlay.querySelector('#btn-test-butterfly');
+    if (testBflyBtn) testBflyBtn.addEventListener('click', () => {
+      if (manager.pets[0]) manager.spawnButterflyNear(manager.pets[0]);
+      this.closeModal();
+    });
+
+    const testGeckoBtn = overlay.querySelector('#btn-test-gecko');
+    if (testGeckoBtn) testGeckoBtn.addEventListener('click', () => {
+      if (manager.pets[0]) manager.spawnGeckoNear(manager.pets[0]);
+      this.closeModal();
+    });
+  },
+
+  // 2. เมนูบริบทคลิกขวา (Context Menu) แบบ Glassmorphism
+  openContextMenu(x, y, pet, manager) {
+    this.closeContextMenu();
+
+    const breed = PET_BREEDS[pet.breed] || PET_BREEDS.orange;
+    const title = PetPersonality.getPersonalityTitle(pet.personality);
+
+    const menu = document.createElement('div');
+    menu.className = 'pet-context-menu';
+    menu.style.left = `${Math.min(x, window.innerWidth - 220)}px`;
+    menu.style.top = `${Math.min(y, window.innerHeight - 380)}px`;
+
+    menu.innerHTML = `
+      <div class="pet-menu-header">
+        <div style="font-weight:700;font-size:13px;color:#212529;">🐾 ${pet.name}</div>
+        <div style="font-size:11px;color:#6c757d;">${breed.shortName} • ${title}</div>
+      </div>
+      <button class="pet-menu-item" data-action="tickle">🖐️ เกาคาง / ลูบพุง</button>
+      <button class="pet-menu-item" data-action="feed">🐟 ให้อาหาร / ปลาทู</button>
+      <button class="pet-menu-item" data-action="toggle_stay">
+        ${pet.isStaying ? '▶️ สั่งให้ออกเดินเล่น' : '⏸️ สั่งให้นอนเฝ้าตรงนี้'}
+      </button>
+      <button class="pet-menu-item" data-action="rename">✏️ เปลี่ยนชื่อ</button>
+      <button class="pet-menu-item" data-action="spawn_prey">🦋 ปล่อยผีเสื้อ / จิ้งจก</button>
+      <div class="pet-menu-sep"></div>
+      <button class="pet-menu-item" data-action="add_pet">➕ รับเลี้ยงแมวเพิ่ม</button>
+      <button class="pet-menu-item" data-action="open_manager">🏰 บ้านแมว & คาเฟ่...</button>
+      <div class="pet-menu-sep"></div>
+      <button class="pet-menu-item danger" data-action="dismiss">🏠 เก็บเข้าบ้าน (ลบตัวนี้)</button>
+    `;
+
+    menu.addEventListener('click', (e) => {
+      const item = e.target.closest('.pet-menu-item');
+      if (!item) return;
+      const act = item.dataset.action;
+      this.closeContextMenu();
+
+      if (act === 'tickle') manager.ticklePet(pet);
+      else if (act === 'feed') manager.feedPet(pet);
+      else if (act === 'toggle_stay') {
+        pet.isStaying = !pet.isStaying;
+        manager.saveState();
+        manager.say(pet, pet.isStaying ? 'รับทราบ! เหมียวจะนอนเฝ้าตรงนี้' : 'เย้! ได้เวลาออกสำรวจแล้ว!', 3000);
+      } else if (act === 'rename') {
+        const newName = prompt(`ตั้งชื่อใหม่ให้ ${pet.name}:`, pet.name);
+        if (newName && newName.trim()) {
+          pet.name = newName.trim();
+          PetRenderer.updatePetVisuals(pet.el, pet);
+          manager.saveState();
+        }
+      } else if (act === 'spawn_prey') {
+        if (Math.random() > 0.5) manager.spawnButterflyNear(pet);
+        else manager.spawnGeckoNear(pet);
+      } else if (act === 'add_pet') {
+        this.openManagementModal(manager);
+        const adoptBtn = this.activeModal?.querySelector('[data-tab="adoption"]');
+        if (adoptBtn) adoptBtn.click();
+      } else if (act === 'open_manager') {
+        this.openManagementModal(manager);
+      } else if (act === 'dismiss') {
+        manager.removePet(pet.id);
+      }
+    });
+
+    document.body.appendChild(menu);
+    this.activeContextMenu = menu;
+  },
+
+  closeContextMenu() {
+    if (this.activeContextMenu) {
+      this.activeContextMenu.remove();
+      this.activeContextMenu = null;
+    }
+  },
+
+  // 3. ปล่อยเอฟเฟกต์แอนิเมชันลอย
+  spawnFx(type, x, y, layerEl) {
+    if (!layerEl) return;
+    const fx = document.createElement('div');
+    fx.className = `pet-fx pet-fx-${type}`;
+    fx.style.left = `${x}px`;
+    fx.style.top = `${y}px`;
+
+    const iconMap = {
+      heart: '❤️',
+      star: '✨',
+      sweat: '💧',
+      zzz: 'Zzz...',
+      music: '🎵',
+      exclamation: '❗'
+    };
+    fx.textContent = iconMap[type] || '❤️';
+
+    layerEl.appendChild(fx);
+    setTimeout(() => fx.remove(), 1600);
+  }
+};
+
+
+// ผู้จัดการระบบสัตว์เลี้ยงหน้าจอ (Desktop Pet Manager - Orchestrator Facade)
+// ประสานงานระหว่าง Engine, Physics, AI Personality, Social Dynamics, Environment, และ UI
 
 
 const PetManager = {
@@ -7797,16 +10067,17 @@ const PetManager = {
   settings: {
     enabled: true,
     speechFreq: 'normal', // 'often', 'normal', 'rare', 'off'
-    speechDuration: 'normal', // 'normal' (8-14s), 'long' (12-18s), 'extra' (16-25s)
-    speechFontSize: 'normal', // 'small' (11px), 'normal' (12.5px), 'large' (14.5px), 'xlarge' (17px)
+    speechDuration: 'normal', // 'normal', 'long', 'extra'
+    speechFontSize: 'normal', // 'small', 'normal', 'large', 'xlarge'
     readingReminderMins: 30,
     petScale: 1.0
   },
+  environment: PetEnvironment,
   layerEl: null,
   dockBtnEl: null,
-  activeContextMenu: null,
   readingStartTime: Date.now(),
   lastUserActivity: Date.now(),
+  mousePos: { x: -999, y: -999 },
   loopTimer: null,
   fatigueTriggered: false,
 
@@ -7815,25 +10086,45 @@ const PetManager = {
     try {
       this.ensureLayer();
       this.setupDockButton();
+
+      // เริ่มต้นระบบสภาพแวดล้อมและของเล่น
+      await this.environment.init(this.layerEl);
+
+      // โหลดข้อมูลแมวและตั้งค่า
       await this.loadState();
 
-      // สังเกตการณ์ขยับเมาส์/แป้นพิมพ์เพื่อตรวจจับการอ่านต่อเนื่อง
-      const onAct = () => { this.lastUserActivity = Date.now(); };
+      // ตรวจจับการขยับเมาส์/แป้นพิมพ์
+      const onAct = (e) => {
+        this.lastUserActivity = Date.now();
+        if (e && typeof e.clientX === 'number') {
+          this.mousePos.x = e.clientX;
+          this.mousePos.y = e.clientY;
+        }
+      };
       window.addEventListener('mousemove', onAct, { passive: true });
       window.addEventListener('keydown', onAct, { passive: true });
       window.addEventListener('scroll', onAct, { passive: true });
 
       // ปิด Context Menu เมื่อคลิกที่อื่น
       window.addEventListener('pointerdown', (e) => {
-        if (this.activeContextMenu && !this.activeContextMenu.contains(e.target)) {
-          this.closeContextMenu();
+        if (PetUI.activeContextMenu && !PetUI.activeContextMenu.contains(e.target)) {
+          PetUI.closeContextMenu();
         }
       });
 
-      // เริ่ม Loop ควบคุมพฤติกรรมและฟิสิกส์
+      // ปรับขนาดหน้าจอเมื่อ resize
+      window.addEventListener('resize', () => {
+        this.pets.forEach(p => {
+          p.x = Math.max(10, Math.min(window.innerWidth - 90, p.x));
+          p.y = Math.max(10, Math.min(window.innerHeight - 80, p.y));
+          this.updatePetDomPosition(p);
+        });
+      });
+
+      // เริ่ม Loop ควบคุม AI และฟิสิกส์
       this.startLoop();
       this.applySpeechFontSize();
-      console.log(`[PetManager] Initialized with ${this.pets.length} desktop cat(s).`);
+      console.log(`[PetManager] Initialized with ${this.pets.length} cats and environment props.`);
     } catch (err) {
       console.warn('[PetManager] init error:', err.message);
     }
@@ -7857,11 +10148,10 @@ const PetManager = {
       btn = document.createElement('button');
       btn.id = 'btn-pet-dock';
       btn.type = 'button';
-      btn.title = 'จัดการสัตว์เลี้ยงหน้าจอ (แมว)';
+      btn.title = 'บ้านสัตว์เลี้ยงหน้าจอ (คลิกเพื่อเปิดศูนย์รวมใจชาวแมว)';
       btn.setAttribute('aria-label', 'จัดการสัตว์เลี้ยงหน้าจอ');
       btn.innerHTML = `
         <svg viewBox="0 0 24 24">
-          <!-- Cute Paw Icon -->
           <ellipse cx="12" cy="15" rx="5.5" ry="4.5"/>
           <circle cx="6.5" cy="9.5" r="2.2"/>
           <circle cx="10" cy="6.5" r="2.2"/>
@@ -7909,11 +10199,21 @@ const PetManager = {
       if (Array.isArray(savedPets) && savedPets.length > 0) {
         this.pets = savedPets.map(p => this.createPetInstance(p));
       } else {
-        // สร้างแมวเริ่มต้น 1 ตัว: เจ้าส้ม
+        // แมวเริ่มต้นตัวแรก: แมวขาวแต้มหูน้ำตาล
         const defaultCat = this.createPetInstance({
           id: 'pet_' + Date.now(),
-          name: 'เจ้าส้ม',
-          breed: 'orange',
+          name: 'เจ้าแต้มหู',
+          breed: 'white_brown_ears',
+          tailType: 'curved',
+          build: 'normal',
+          personality: {
+            intelligence: 75,
+            diligence: 70,
+            energy: 65,
+            talkativeness: 60,
+            affection: 80,
+            sociability: 75
+          },
           x: Math.max(80, window.innerWidth - 180),
           y: Math.max(100, window.innerHeight - 130),
           facing: 'left',
@@ -7936,6 +10236,9 @@ const PetManager = {
         id: p.id,
         name: p.name,
         breed: p.breed,
+        tailType: p.tailType,
+        build: p.build,
+        personality: p.personality,
         x: Math.round(p.x),
         y: Math.round(p.y),
         facing: p.facing,
@@ -7949,12 +10252,18 @@ const PetManager = {
     }
   },
 
-  // สร้าง Object ข้อมูลของแมวแต่ละตัว
+  // สร้าง Object ข้อมูลของแมวแต่ละตัว พร้อมรองรับ Backward Compatibility
   createPetInstance(data) {
+    const breedKey = data.breed || 'white_brown_ears';
+    const breedInfo = PET_BREEDS[breedKey] || PET_BREEDS.white_brown_ears;
+
     return {
       id: data.id || 'pet_' + Math.random().toString(36).substring(2, 9),
       name: data.name || 'น้องแมว',
-      breed: data.breed || 'orange',
+      breed: breedKey,
+      tailType: data.tailType || breedInfo.defaultTail || 'long',
+      build: data.build || breedInfo.defaultBuild || 'normal',
+      personality: data.personality || PetPersonality.generateRandomStats(),
       x: typeof data.x === 'number' ? data.x : Math.random() * (window.innerWidth - 120),
       y: typeof data.y === 'number' ? data.y : window.innerHeight - 130,
       vx: 0,
@@ -7962,7 +10271,7 @@ const PetManager = {
       targetX: null,
       targetY: null,
       facing: data.facing || 'right',
-      state: 'stand', // 'stand', 'sit', 'walk', 'run', 'sleep_loaf', 'sleep_curl', 'sleep_belly', 'groom', 'pounce', 'eating', 'carry_fish', 'derpy_yawn', 'derpy_stare', 'derpy_wiggle', 'hide'
+      state: 'stand', // 'stand', 'walk', 'run', 'sit', 'sleep_loaf', 'sleep_curl', 'sleep_belly', 'groom', 'stretch', 'scratch', 'pounce', 'play_toy', 'in_box', 'on_condo', 'begging', 'eating', 'carry_fish', 'derpy_yawn', 'derpy_stare'
       scale: data.scale || this.settings.petScale || 1,
       isDragged: false,
       isBlocked: false,
@@ -7976,7 +10285,9 @@ const PetManager = {
   // 3. เรนเดอร์แมวลงในหน้าจอ
   renderAllPets() {
     if (!this.layerEl) return;
-    this.layerEl.innerHTML = '';
+    const existing = this.layerEl.querySelectorAll('.desktop-pet');
+    existing.forEach(el => el.remove());
+
     this.pets.forEach(pet => {
       const el = PetRenderer.createPetElement(pet);
       pet.el = el;
@@ -8061,19 +10372,51 @@ const PetManager = {
     });
   },
 
-  // 5. ปฏิสัมพันธ์และการเกาคาง/จั๊กจี้
+  // 5. เกาคาง / ลูบพุง
   ticklePet(pet) {
-    this.spawnFxHeart(pet.x + 35, pet.y + 10);
+    PetUI.spawnFx('heart', pet.x + 35, pet.y + 10, this.layerEl);
     pet.state = 'sit';
     pet.stateTimer = 0;
     PetRenderer.updatePetVisuals(pet.el, pet);
-    const msg = getRandomDialogue('touchTickle', { petName: pet.name });
+
+    // เลือกบทสนทนาอิงความขี้อ้อน
+    const aff = pet.personality?.affection || 50;
+    let msg = '';
+    if (aff <= 30) {
+      msg = 'ไม่ได้อยากให้เกาหรอกนะ... แต่คันตรงนี้พอดีหรอกย่ะ!';
+    } else {
+      msg = getRandomDialogue('touchTickle', { petName: pet.name });
+    }
     this.say(pet, msg, 4000);
   },
 
-  // 6. การพูดคุยและการแสดงกล่องข้อความ
+  // 6. การให้อาหาร
+  feedPet(pet) {
+    const bowlX = pet.facing === 'right' ? pet.x + 75 : pet.x - 40;
+    const bowlY = pet.y + 35;
+    const bowlEl = PetRenderer.createFoodBowlElement(bowlX, bowlY);
+    this.layerEl.appendChild(bowlEl);
+
+    pet.state = 'eating';
+    pet.stateTimer = 0;
+    PetRenderer.updatePetVisuals(pet.el, pet);
+
+    const feedMsg = getRandomDialogue('feeding', { petName: pet.name });
+    this.say(pet, feedMsg, 4500);
+    PetUI.spawnFx('heart', pet.x + 35, pet.y + 15, this.layerEl);
+
+    setTimeout(() => {
+      if (bowlEl.parentNode) bowlEl.remove();
+      if (pet.state === 'eating') {
+        pet.state = 'sit';
+        PetRenderer.updatePetVisuals(pet.el, pet);
+      }
+    }, 4500);
+  },
+
+  // 7. การพูดคุยและการแสดงกล่องคำพูดการ์ตูน
   say(pet, text, duration = null) {
-    if (this.settings.speechFreq === 'off' || !pet || !pet.el) return;
+    if (this.settings.speechFreq === 'off' || !pet || !pet.el || !text) return;
     const bubbleWrap = pet.el.querySelector('.pet-bubble-wrap');
     const bubbleText = pet.el.querySelector('.pet-bubble');
     if (!bubbleWrap || !bubbleText) return;
@@ -8082,7 +10425,21 @@ const PetManager = {
     bubbleWrap.classList.add('show');
     bubbleWrap.title = 'คลิกเพื่อปิดข้อความนี้';
 
-    // ให้ผู้ใช้คลิกที่กล่องข้อความเพื่อปิดได้ทันทีหากอ่านจบแล้ว
+    // จัดทิศทางกล่องไม่ให้ล้นออกนอกจอ
+    const petRect = pet.el.getBoundingClientRect();
+    if (petRect.left < 80) {
+      bubbleWrap.style.left = '20px';
+      bubbleWrap.style.transform = 'none';
+    } else if (petRect.right > window.innerWidth - 120) {
+      bubbleWrap.style.left = 'auto';
+      bubbleWrap.style.right = '10px';
+      bubbleWrap.style.transform = 'none';
+    } else {
+      bubbleWrap.style.left = '50%';
+      bubbleWrap.style.right = 'auto';
+      bubbleWrap.style.transform = 'translateX(-50%)';
+    }
+
     if (!bubbleWrap._boundClick) {
       bubbleWrap._boundClick = true;
       bubbleWrap.addEventListener('click', (e) => {
@@ -8092,10 +10449,9 @@ const PetManager = {
       });
     }
 
-    // คำนวณระยะเวลาแสดงคำพูดให้อ่านทันได้อย่างสบายใจ (พื้นฐาน 8.5-10 วินาที + ตามความยาวข้อความ)
     let actualDuration = duration;
     if (!actualDuration || actualDuration < 8000) {
-      const len = text ? text.length : 20;
+      const len = text.length;
       let baseTime = 8500;
       let multiplier = 160;
       if (this.settings.speechDuration === 'long') {
@@ -8114,50 +10470,7 @@ const PetManager = {
     }, actualDuration);
   },
 
-  // 7. สุ่มสร้างเอฟเฟกต์ (หัวใจ, Zzz, อาหาร, ผีเสื้อ, จิ้งจก)
-  spawnFxHeart(x, y) {
-    const fx = document.createElement('div');
-    fx.className = 'pet-fx-heart';
-    fx.textContent = '❤️';
-    fx.style.left = `${x}px`;
-    fx.style.top = `${y}px`;
-    this.layerEl.appendChild(fx);
-    setTimeout(() => fx.remove(), 1600);
-  },
-
-  spawnFxZzz(x, y) {
-    const fx = document.createElement('div');
-    fx.className = 'pet-fx-zzz';
-    fx.textContent = 'Zzz...';
-    fx.style.left = `${x}px`;
-    fx.style.top = `${y}px`;
-    this.layerEl.appendChild(fx);
-    setTimeout(() => fx.remove(), 1600);
-  },
-
-  feedPet(pet) {
-    const bowlX = pet.facing === 'right' ? pet.x + 75 : pet.x - 40;
-    const bowlY = pet.y + 35;
-    const bowlEl = PetRenderer.createFoodBowlElement(bowlX, bowlY);
-    this.layerEl.appendChild(bowlEl);
-
-    pet.state = 'eating';
-    pet.stateTimer = 0;
-    PetRenderer.updatePetVisuals(pet.el, pet);
-
-    const feedMsg = getRandomDialogue('feeding', { petName: pet.name });
-    this.say(pet, feedMsg, 4500);
-    this.spawnFxHeart(pet.x + 35, pet.y + 15);
-
-    setTimeout(() => {
-      if (bowlEl.parentNode) bowlEl.remove();
-      if (pet.state === 'eating') {
-        pet.state = 'sit';
-        PetRenderer.updatePetVisuals(pet.el, pet);
-      }
-    }, 4500);
-  },
-
+  // 8. ปล่อยผีเสื้อ / จิ้งจก
   spawnButterflyNear(targetPet) {
     const startX = targetPet ? targetPet.x + (Math.random() > 0.5 ? 120 : -120) : window.innerWidth / 2;
     const startY = targetPet ? targetPet.y - 40 : window.innerHeight - 150;
@@ -8165,7 +10478,6 @@ const PetManager = {
     const bEl = PetRenderer.createButterflyElement(bId, startX, startY);
     this.layerEl.appendChild(bEl);
 
-    // แมวสังเกตเห็นแล้วเตรียมตะครุบ
     if (targetPet && !targetPet.isDragged) {
       targetPet.state = 'pounce';
       targetPet.facing = startX > targetPet.x ? 'right' : 'left';
@@ -8219,13 +10531,12 @@ const PetManager = {
     }, 40);
   },
 
-  // 8. การตรวจจับบริบทเอกสารและช่วงเวลา
+  // 9. ตรวจจับการเปิดเอกสาร
   onDocumentOpened(node) {
     if (!node || !this.pets.length) return;
     this.readingStartTime = Date.now();
     this.fatigueTriggered = false;
 
-    // ถอดสถานะบล็อกจอหากมี
     this.pets.forEach(p => {
       if (p.isBlocked) {
         p.isBlocked = false;
@@ -8234,349 +10545,257 @@ const PetManager = {
       }
     });
 
-    const fileType = node.name.endsWith('.md') ? 'md'
-                   : node.name.endsWith('.pdf') ? 'pdf'
-                   : (node.name.endsWith('.png') || node.name.endsWith('.jpg') || node.name.endsWith('.svg')) ? 'img'
-                   : 'code';
+    const chosenPet = this.pets[Math.floor(Math.random() * this.pets.length)];
+    const ext = node.name ? node.name.split('.').pop().toLowerCase() : '';
+    let fileTypeKey = 'md';
+    if (ext === 'pdf') fileTypeKey = 'pdf';
+    else if (['png', 'jpg', 'jpeg', 'gif', 'webp', 'svg'].includes(ext)) fileTypeKey = 'img';
+    else if (['js', 'html', 'css', 'json', 'py', 'ts'].includes(ext)) fileTypeKey = 'code';
 
-    // สุ่มเลือกแมวหนึ่งตัวมาทักทายเกี่ยวกับเอกสารใหม่
-    const speaker = this.pets[Math.floor(Math.random() * this.pets.length)];
     setTimeout(() => {
-      const isDocTopic = Math.random() > 0.4;
-      const text = isDocTopic
-        ? getRandomDialogue('docContext', { docName: node.name, petName: speaker.name })
-        : getRandomDialogue('fileType', { fileType, docName: node.name, petName: speaker.name });
-      this.say(speaker, text, 5000);
-    }, 1500);
+      if (Math.random() < 0.6) {
+        const msg = getRandomDialogue('fileType', {
+          petName: chosenPet.name,
+          docName: node.name,
+          fileType: fileTypeKey
+        });
+        this.say(chosenPet, msg);
+      } else {
+        const msg = getRandomDialogue('docContext', {
+          petName: chosenPet.name,
+          docName: node.name
+        });
+        this.say(chosenPet, msg);
+      }
+    }, 1200);
   },
 
-  // ตรวจจับเมื่อผู้ใช้อ่านหนังสือนานเกินไป (Fatigue & Screen Blocker)
+  // 10. เตือนพักสายตา / นอนทับจอ
   checkReadingFatigue() {
     if (this.fatigueTriggered || !this.pets.length) return;
-    const elapsedMinutes = (Date.now() - this.readingStartTime) / 60000;
-    const threshold = this.settings.readingReminderMins || 30;
+    const elapsedMinutes = (Date.now() - this.readingStartTime) / (1000 * 60);
+    const limit = this.settings.readingReminderMins || 30;
 
-    if (elapsedMinutes >= threshold) {
+    if (elapsedMinutes >= limit) {
       this.fatigueTriggered = true;
-      // ให้แมวเดินเข้ามากลางหน้าจออ่านหนังสือ แล้วนอนทับจอ!
-      const blocker = this.pets[0];
-      if (!blocker) return;
+      const blockerPet = this.pets[0];
 
-      const readerPane = document.getElementById('md-scroll-pane') || document.getElementById('reader-viewport');
+      // เดินมาตรงกลางจอเพื่อบังเตือน
+      const readerEl = document.getElementById('reader');
       let targetX = window.innerWidth / 2;
       let targetY = window.innerHeight / 2;
-
-      if (readerPane) {
-        const rect = readerPane.getBoundingClientRect();
-        targetX = rect.left + rect.width / 2 - 40;
-        targetY = rect.top + rect.height / 2 - 30;
+      if (readerEl) {
+        const rect = readerEl.getBoundingClientRect();
+        targetX = rect.left + rect.width / 2 - 45;
+        targetY = rect.top + rect.height / 2 - 35;
       }
 
-      blocker.targetX = targetX;
-      blocker.targetY = targetY;
-      blocker.state = 'walk';
-      blocker.isBlocked = true;
-      PetRenderer.updatePetVisuals(blocker.el, blocker);
+      blockerPet.targetX = targetX;
+      blockerPet.targetY = targetY;
+      blockerPet.state = 'walk';
+      blockerPet.isBlocked = true;
+      PetRenderer.updatePetVisuals(blockerPet.el, blockerPet);
 
-      this.say(blocker, getRandomDialogue('fatigue', { docName: State.current?.name, petName: blocker.name }), 6500);
+      const msg = getRandomDialogue('fatigue', { petName: blockerPet.name });
+      this.say(blockerPet, msg, 14000);
     }
   },
 
-  // 9. วงรอบหลัก 60-144 FPS Simulation Loop + AI Logic
+  // 11. Main Behavior & Physics Loop
   startLoop() {
-    if (this._rafId) cancelAnimationFrame(this._rafId);
-    if (this._aiTimer) clearInterval(this._aiTimer);
+    if (this.loopTimer) clearInterval(this.loopTimer);
 
-    let lastTime = performance.now();
-
-    const renderLoop = (now) => {
-      const dt = Math.min((now - lastTime) / 1000, 0.1);
-      lastTime = now;
-
-      this.updatePhysics(dt);
-
-      this._rafId = requestAnimationFrame(renderLoop);
-    };
-
-    this._rafId = requestAnimationFrame(renderLoop);
-
-    // AI Logic Loop (ประมวลผลการตัดสินใจทุก 200ms เพื่อประหยัด CPU)
-    this._aiTimer = setInterval(() => {
-      this.tickAI(0.2);
-    }, 200);
+    this.loopTimer = setInterval(() => {
+      this.tick();
+    }, 100);
   },
 
-  updatePhysics(dt) {
-    for (let i = 0; i < this.pets.length; i++) {
-      const pet = this.pets[i];
-      if (pet.isDragged) continue;
+  tick() {
+    const now = Date.now();
+    this.checkReadingFatigue();
 
-      // ตรวจสอบว่ากำลังมีกล่องคำพูดแสดงอยู่หรือไม่
-      const isSpeaking = pet.el && pet.el.querySelector('.pet-bubble-wrap')?.classList.contains('show');
-      if (isSpeaking) {
-        // เมื่อกำลังพูดคุย ให้แมวอยู่นิ่ง ๆ ไม่เดิน เพื่อให้อ่านข้อความง่าย สบายตา ข้อความไม่ขยับ
-        continue;
-      }
+    // ประมวลผลสัตว์เลี้ยงทีละตัว
+    this.pets.forEach(pet => {
+      if (pet.isDragged) return;
 
-      // การเคลื่อนที่ไปยัง Target อย่างนุ่มนวลระดับ 60-144 FPS (Subpixel Float Precision)
+      pet.stateTimer += 100;
+      pet.speechTimer += 100;
+
+      // 1. การเคลื่อนที่ไปยัง Target
       if (pet.targetX !== null) {
         const dx = pet.targetX - pet.x;
-        const dy = (pet.targetY !== null) ? pet.targetY - pet.y : 0;
+        const dy = pet.targetY !== null ? pet.targetY - pet.y : 0;
         const dist = Math.hypot(dx, dy);
 
-        if (dist > 3) {
-          const speed = (pet.state === 'run') ? 140 : 55; // พิกเซลต่อวินาที
-          const step = Math.min(dist, speed * dt);
-          pet.x += (dx / dist) * step;
-          if (pet.targetY !== null) pet.y += (dy / dist) * step;
+        const walkSpeed = PetPersonality.calculateWalkSpeed(pet) * (pet.state === 'run' ? 2.2 : 1.0);
 
-          const newFacing = dx > 0 ? 'right' : 'left';
-          if (pet.facing !== newFacing) {
-            pet.facing = newFacing;
-            PetRenderer.updatePetVisuals(pet.el, pet);
+        if (dist > 5) {
+          pet.facing = dx > 0 ? 'right' : 'left';
+          pet.x += (dx / dist) * walkSpeed * 3;
+          if (pet.targetY !== null) {
+            pet.y += (dy / dist) * walkSpeed * 3;
           }
           this.updatePetDomPosition(pet);
         } else {
           pet.targetX = null;
           pet.targetY = null;
           if (pet.isBlocked) {
-            pet.state = Math.random() > 0.5 ? 'sleep_loaf' : 'sleep_belly';
+            pet.state = 'sleep_belly';
           } else {
             pet.state = 'sit';
           }
           PetRenderer.updatePetVisuals(pet.el, pet);
         }
       }
-    }
-  },
 
-  tickAI(dtSeconds) {
-    this.checkReadingFatigue();
-
-    const now = new Date();
-    const hour = now.getHours();
-
-    // ประมวลผลแมวแต่ละตัว
-    for (let i = 0; i < this.pets.length; i++) {
-      const pet = this.pets[i];
-      if (pet.isDragged) continue;
-
-      pet.stateTimer += dtSeconds;
-      pet.speechTimer += dtSeconds;
-
-      const isSpeaking = pet.el && pet.el.querySelector('.pet-bubble-wrap')?.classList.contains('show');
-
-      // สุ่มเปลี่ยนสถานะท่าทางถ้าไม่ได้กำลังเดินทางหรือถูกสั่งให้นิ่ง และไม่ได้กำลังพูด
-      if (!isSpeaking && !pet.isStaying && !pet.isBlocked && pet.targetX === null && pet.stateTimer > 5 + Math.random() * 8) {
-        pet.stateTimer = 0;
-        this.pickRandomAction(pet);
+      // 2. การเปลี่ยนท่าทางอัตโนมัติ (AI State Machine)
+      if (!pet.isStaying && !pet.isBlocked && pet.targetX === null) {
+        if (pet.stateTimer > 7000 + Math.random() * 9000) {
+          pet.stateTimer = 0;
+          this.decideNextPetAction(pet);
+        }
       }
 
-      // สุ่มชวนคุยตามความถี่ (ไม่แทรกคำพูดหากกล่องคำพูดยังเปิดแสดงอยู่)
-      let speechInterval = 40; // วินาที
-      if (this.settings.speechFreq === 'often') speechInterval = 22;
-      else if (this.settings.speechFreq === 'rare') speechInterval = 80;
+      // 3. การพูดคุยตามความถี่
+      let speechInterval = 40000;
+      if (this.settings.speechFreq === 'often') speechInterval = 22000;
+      else if (this.settings.speechFreq === 'rare') speechInterval = 80000;
 
-      if (!isSpeaking && this.settings.speechFreq !== 'off' && pet.speechTimer > speechInterval + Math.random() * 20) {
+      if (this.settings.speechFreq !== 'off' && pet.speechTimer > speechInterval) {
         pet.speechTimer = 0;
-        this.triggerSpontaneousSpeech(pet, hour);
+        this.triggerRandomPetSpeech(pet);
       }
+    });
 
-      // สุ่มสร้างผีเสื้อหรือจิ้งจกเบา ๆ (โอกาส 1 ใน 400)
-      if (!pet.isBlocked && Math.random() < 0.005) {
-        if (Math.random() > 0.5) this.spawnButterflyNear(pet);
-        else this.spawnGeckoNear(pet);
-      }
-
-      // ปฏิสัมพันธ์กับแมวตัวอื่นในฝูง
-      if (this.pets.length > 1) {
+    // 4. ตรวจจับการพบกันระหว่างแมวหลายตัว
+    if (this.pets.length >= 2) {
+      for (let i = 0; i < this.pets.length; i++) {
         for (let j = i + 1; j < this.pets.length; j++) {
-          const other = this.pets[j];
-          this.checkMultiPetInteraction(pet, other);
+          PetSocial.checkSocialInteraction(
+            this.pets[i],
+            this.pets[j],
+            (p, txt, dur) => this.say(p, txt, dur),
+            (type, x, y) => PetUI.spawnFx(type, x, y, this.layerEl)
+          );
         }
       }
     }
   },
 
-  // สุ่มเปลี่ยนอิริยาบถ
-  pickRandomAction(pet) {
-    const r = Math.random();
-    if (r < 0.35) {
-      // เดินเตาะแตะไปจุดใหม่
-      const groundY = window.innerHeight - 110;
-      const walkTargetX = Math.max(30, Math.min(window.innerWidth - 120, pet.x + (Math.random() - 0.5) * 280));
-      pet.targetX = walkTargetX;
-      // ให้แมวเดินเลาะขอบล่างของหน้าจอเป็นส่วนใหญ่
-      pet.targetY = groundY + (Math.random() - 0.5) * 30;
+  // ตัดสินใจการกระทำถัดไปของแมว (อิง 6 แกนนิสัย & เฟอร์นิเจอร์)
+  decideNextPetAction(pet) {
+    const p = pet.personality || { energy: 50, diligence: 50, affection: 50 };
+
+    // เช็คสภาพแวดล้อมใกล้ตัว (เตียง, กล่อง, คอนโด, ไหมพรม, ที่ฝนเล็บ)
+    const nearestEnv = this.environment.findNearestInteractiveItem(pet, 180);
+
+    // แมวง่วง / ขี้เกียจ -> แวะไปนอนที่เบาะ หรือมุดกล่อง
+    if (nearestEnv && PetPersonality.prefersResting(pet) && Math.random() < 0.45) {
+      if (nearestEnv.item.type === 'cat_bed') {
+        pet.targetX = nearestEnv.item.x + 10;
+        pet.targetY = nearestEnv.item.y - 10;
+        pet.state = 'walk';
+        PetRenderer.updatePetVisuals(pet.el, pet);
+        return;
+      } else if (nearestEnv.item.type === 'cat_house') {
+        pet.targetX = nearestEnv.item.x + 15;
+        pet.targetY = nearestEnv.item.y - 12;
+        pet.state = 'walk';
+        PetRenderer.updatePetVisuals(pet.el, pet);
+        return;
+      } else if (nearestEnv.item.type === 'cat_condo') {
+        pet.targetX = nearestEnv.item.x + 35;
+        pet.targetY = nearestEnv.item.y - 30;
+        pet.state = 'walk';
+        PetRenderer.updatePetVisuals(pet.el, pet);
+        return;
+      }
+    }
+
+    // แมวซน / พลังงานสูง -> แวะไปเล่นลูกบอลไหมพรม หรือฝนเล็บ
+    if (nearestEnv && PetPersonality.prefersToyPlay(pet) && Math.random() < 0.5) {
+      if (nearestEnv.item.type === 'cat_toy_yarn') {
+        pet.state = 'play_toy';
+        PetRenderer.updatePetVisuals(pet.el, pet);
+        this.environment.rollYarnBall(pet.facing === 'right' ? 6 : -6);
+        return;
+      } else if (nearestEnv.item.type === 'cat_scratcher') {
+        pet.state = 'scratch';
+        PetRenderer.updatePetVisuals(pet.el, pet);
+        PetUI.spawnFx('star', pet.x + 35, pet.y + 10, this.layerEl);
+        return;
+      }
+    }
+
+    // ติดตามเคอร์เซอร์เมาส์ถ้าขี้อ้อน
+    if (this.mousePos.x > 0 && PetPersonality.shouldFollowCursor(pet)) {
+      pet.targetX = Math.max(30, Math.min(window.innerWidth - 100, this.mousePos.x + (Math.random() > 0.5 ? 40 : -40)));
       pet.state = 'walk';
-    } else if (r < 0.50) {
+      PetRenderer.updatePetVisuals(pet.el, pet);
+      return;
+    }
+
+    // สุ่มท่าทางทั่วไป
+    const r = Math.random();
+    if (r < 0.3) {
+      // เดินเล่นสุ่มจุด
+      pet.targetX = Math.max(40, Math.min(window.innerWidth - 120, pet.x + (Math.random() - 0.5) * 260));
+      pet.state = 'walk';
+    } else if (r < 0.5) {
+      // นั่งมองรอบตัว
       pet.state = 'sit';
     } else if (r < 0.65) {
-      // สุ่มท่านอน 1 ใน 3 ท่า
-      const sleepPoses = ['sleep_loaf', 'sleep_curl', 'sleep_belly'];
-      pet.state = sleepPoses[Math.floor(Math.random() * sleepPoses.length)];
-      this.spawnFxZzz(pet.x + 35, pet.y - 10);
-    } else if (r < 0.75) {
+      // เลียแต่งขน
       pet.state = 'groom';
-    } else if (r < 0.85) {
-      // ท่ากวน ๆ
-      const derpPoses = ['derpy_yawn', 'derpy_stare', 'derpy_wiggle', 'carry_fish'];
-      pet.state = derpPoses[Math.floor(Math.random() * derpPoses.length)];
+    } else if (r < 0.8) {
+      // นอนก้อนขนมปัง
+      pet.state = 'sleep_loaf';
+    } else if (r < 0.9) {
+      // หาวววว
+      pet.state = 'derpy_yawn';
     } else {
-      pet.state = 'stand';
+      // นอนหงายแผ่พุง
+      pet.state = 'sleep_belly';
     }
     PetRenderer.updatePetVisuals(pet.el, pet);
   },
 
-  // ชวนคุยตามสถานการณ์และเวลา
-  triggerSpontaneousSpeech(pet, hour) {
-    let cat = 'idleThoughts';
-    if (hour >= 6 && hour < 12) cat = Math.random() > 0.5 ? 'timeMorning' : 'idleThoughts';
-    else if (hour >= 12 && hour < 17) cat = Math.random() > 0.5 ? 'timeAfternoon' : 'idleThoughts';
-    else if (hour >= 17 && hour < 21) cat = Math.random() > 0.5 ? 'timeEvening' : 'idleThoughts';
-    else cat = Math.random() > 0.4 ? 'timeNight' : 'idleThoughts';
+  // สุ่มคำพูดอิงตามเวลาและ 6 แกนนิสัย
+  triggerRandomPetSpeech(pet) {
+    const hour = new Date().getHours();
+    let category = 'personality';
 
-    const text = getRandomDialogue(cat, {
+    if (Math.random() < 0.45) {
+      if (hour >= 6 && hour < 12) category = 'timeMorning';
+      else if (hour >= 12 && hour < 17) category = 'timeAfternoon';
+      else if (hour >= 17 && hour < 21) category = 'timeEvening';
+      else category = 'timeNight';
+    }
+
+    const text = getRandomDialogue(category, {
       petName: pet.name,
-      docName: State.current?.name
+      docName: State.current?.name,
+      pet
     });
-    this.say(pet, text, 4500);
+    this.say(pet, text);
   },
 
-  // ตรวจจับเมื่อแมว 2 ตัวเดินมาใกล้กัน -> เล่นกันเอง!
-  checkMultiPetInteraction(pet1, pet2) {
-    if (pet1.isDragged || pet2.isDragged) return;
-    const dist = Math.hypot(pet1.x - pet2.x, pet1.y - pet2.y);
-
-    if (dist < 90 && Math.random() < 0.05) {
-      // หันหน้าเข้าหากัน
-      pet1.facing = pet1.x < pet2.x ? 'right' : 'left';
-      pet2.facing = pet2.x < pet1.x ? 'right' : 'left';
-      PetRenderer.updatePetVisuals(pet1.el, pet1);
-      PetRenderer.updatePetVisuals(pet2.el, pet2);
-
-      const r = Math.random();
-      if (r < 0.4) {
-        // แซวกันเอง
-        const dialogue = getRandomDialogue('multiPet', {
-          petName: pet1.name,
-          otherPetName: pet2.name
-        });
-        this.say(pet1, dialogue, 4000);
-      } else if (r < 0.7) {
-        // วิ่งไล่กัน
-        pet1.state = 'run';
-        pet2.state = 'run';
-        const targetX = Math.max(50, Math.min(window.innerWidth - 150, pet1.x + 160));
-        pet1.targetX = targetX;
-        pet2.targetX = targetX - 40;
-        PetRenderer.updatePetVisuals(pet1.el, pet1);
-        PetRenderer.updatePetVisuals(pet2.el, pet2);
-      } else {
-        // นอนเบียดกัน
-        pet1.state = 'sleep_loaf';
-        pet2.state = 'sleep_loaf';
-        PetRenderer.updatePetVisuals(pet1.el, pet1);
-        PetRenderer.updatePetVisuals(pet2.el, pet2);
-      }
-    }
-  },
-
-  // 10. เมนูบริบทคลิกขวา (Context Menu)
-  openContextMenu(x, y, pet) {
-    this.closeContextMenu();
-
-    const menu = document.createElement('div');
-    menu.className = 'pet-context-menu';
-    menu.style.left = `${Math.min(x, window.innerWidth - 210)}px`;
-    menu.style.top = `${Math.min(y, window.innerHeight - 340)}px`;
-
-    menu.innerHTML = `
-      <div style="font-weight:700;padding:6px 10px;font-size:12px;color:#495057;border-bottom:1px solid #f1f3f5;">
-        🐾 ${pet.name} (${PET_BREEDS[pet.breed]?.shortName || 'แมว'})
-      </div>
-      <button class="pet-menu-item" data-action="tickle">🖐️ เกาคาง / ลูบพุง</button>
-      <button class="pet-menu-item" data-action="feed">🐟 ให้อาหาร / ปลาทู</button>
-      <button class="pet-menu-item" data-action="rename">✏️ เปลี่ยนชื่อ</button>
-      <button class="pet-menu-item" data-action="change_breed">🎨 สลับสายพันธุ์</button>
-      <button class="pet-menu-item" data-action="spawn_prey">🦋 ปล่อยผีเสื้อ / จิ้งจก</button>
-      <button class="pet-menu-item" data-action="toggle_stay">
-        ${pet.isStaying ? '▶️ สั่งให้เดินเล่นอิสระ' : '⏸️ สั่งให้นอนนิ่ง ๆ ตรงนี้'}
-      </button>
-      <div class="pet-menu-sep"></div>
-      <button class="pet-menu-item" data-action="add_pet">➕ รับเลี้ยงแมวเพิ่ม</button>
-      <button class="pet-menu-item" data-action="open_manager">⚙️ บ้านแมว & ตั้งค่า...</button>
-      <div class="pet-menu-sep"></div>
-      <button class="pet-menu-item danger" data-action="dismiss">🏠 เก็บเข้าบ้าน (ลบตัวนี้)</button>
-    `;
-
-    menu.addEventListener('click', (e) => {
-      const item = e.target.closest('.pet-menu-item');
-      if (!item) return;
-      const action = item.dataset.action;
-      this.handleContextAction(action, pet);
-      this.closeContextMenu();
-    });
-
-    document.body.appendChild(menu);
-    this.activeContextMenu = menu;
-  },
-
-  closeContextMenu() {
-    if (this.activeContextMenu) {
-      this.activeContextMenu.remove();
-      this.activeContextMenu = null;
-    }
-  },
-
-  handleContextAction(action, pet) {
-    if (action === 'tickle') {
-      this.ticklePet(pet);
-    } else if (action === 'feed') {
-      this.feedPet(pet);
-    } else if (action === 'rename') {
-      const newName = prompt(`ตั้งชื่อใหม่ให้ ${pet.name}:`, pet.name);
-      if (newName && newName.trim()) {
-        pet.name = newName.trim();
-        PetRenderer.updatePetVisuals(pet.el, pet);
-        this.saveState();
-        this.say(pet, `ต่อไปนี้ฉันชื่อ "${pet.name}" แล้วนะทาส!`, 3500);
-      }
-    } else if (action === 'change_breed') {
-      const breedKeys = Object.keys(PET_BREEDS);
-      const curIdx = breedKeys.indexOf(pet.breed);
-      const nextBreed = breedKeys[(curIdx + 1) % breedKeys.length];
-      pet.breed = nextBreed;
-      PetRenderer.updatePetVisuals(pet.el, pet);
-      this.saveState();
-      this.say(pet, `แปลงร่างเป็น ${PET_BREEDS[nextBreed].name} แล้วนะ! สวยไหม?`, 3500);
-    } else if (action === 'spawn_prey') {
-      if (Math.random() > 0.5) this.spawnButterflyNear(pet);
-      else this.spawnGeckoNear(pet);
-    } else if (action === 'toggle_stay') {
-      pet.isStaying = !pet.isStaying;
-      this.saveState();
-      this.say(pet, pet.isStaying ? 'รับทราบ! เหมียวจะนอนเฝ้าตรงนี้ไม่ไปไหน' : 'เย้! ได้เวลาออกเดินเล่นแล้ว!', 3000);
-    } else if (action === 'add_pet') {
-      this.addNewPet();
-    } else if (action === 'open_manager') {
-      this.openManagementModal();
-    } else if (action === 'dismiss') {
-      this.removePet(pet.id);
-    }
-  },
-
-  // 11. เพิ่มและลบน้องแมว
-  addNewPet(breedChoice = null, nameChoice = null) {
+  // 12. รับเลี้ยงแมวใหม่
+  addNewPet(options = {}) {
     const breedKeys = Object.keys(PET_BREEDS);
-    const breed = breedChoice || breedKeys[Math.floor(Math.random() * breedKeys.length)];
-    const defaultNames = ['ส้มจี๊ด', 'ถุงทอง', 'กะทิ', 'หมอก', 'ถ่านหิน', 'วิเชียร', 'ตัวอ้วน', 'ชิโร่'];
-    const name = nameChoice || defaultNames[Math.floor(Math.random() * defaultNames.length)];
+    const breed = options.breed || breedKeys[Math.floor(Math.random() * breedKeys.length)];
+    const name = options.name || RANDOM_NAMES[Math.floor(Math.random() * RANDOM_NAMES.length)];
+    const tailType = options.tailType || PET_BREEDS[breed]?.defaultTail || 'long';
+    const build = options.build || PET_BREEDS[breed]?.defaultBuild || 'normal';
+    const personality = options.personality || PetPersonality.generateRandomStats();
 
     const newPet = this.createPetInstance({
       id: 'pet_' + Date.now(),
       name,
       breed,
+      tailType,
+      build,
+      personality,
       x: window.innerWidth / 2 + (Math.random() - 0.5) * 160,
       y: window.innerHeight - 130,
       scale: this.settings.petScale || 1
@@ -8591,7 +10810,10 @@ const PetManager = {
 
     this.updateDockBadge();
     this.saveState();
-    this.say(newPet, `สวัสดีทาส! เหมียวชื่อ "${newPet.name}" ขอมาอยู่ด้วยคนนะ!`, 4000);
+
+    PetUI.spawnFx('heart', newPet.x + 35, newPet.y + 10, this.layerEl);
+    this.say(newPet, `สวัสดีทาส! เหมียวชื่อ "${newPet.name}" ขอมาอยู่ด้วยคนนะ!`, 4500);
+    return newPet;
   },
 
   removePet(petId) {
@@ -8604,228 +10826,13 @@ const PetManager = {
     this.saveState();
   },
 
-  // 12. หน้าต่างจัดการบ้านสัตว์เลี้ยง (Cat Management Modal)
+  // 13. การเปิดหน้าต่างจัดการและเมนูบริบท
   openManagementModal() {
-    const existing = document.getElementById('pet-modal-overlay');
-    if (existing) existing.remove();
-
-    const overlay = document.createElement('div');
-    overlay.className = 'pet-modal-overlay';
-    overlay.id = 'pet-modal-overlay';
-
-    overlay.innerHTML = `
-      <div class="pet-modal-card">
-        <div class="pet-modal-header">
-          <div class="pet-modal-title">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-              <ellipse cx="12" cy="15" rx="5.5" ry="4.5"/>
-              <circle cx="6.5" cy="9.5" r="2.2"/><circle cx="10" cy="6.5" r="2.2"/>
-              <circle cx="14" cy="6.5" r="2.2"/><circle cx="17.5" cy="9.5" r="2.2"/>
-            </svg>
-            บ้านสัตว์เลี้ยงหน้าจอ (Desktop Pets)
-          </div>
-          <button class="pet-modal-close" id="btn-pet-modal-close">&times;</button>
-        </div>
-        <div class="pet-modal-body">
-          <div style="display:flex;justify-content:space-between;align-items:center;">
-            <div style="font-size:13px;font-weight:600;color:#495057;">รายชื่อน้องแมวในโปรแกรม (${this.pets.length} ตัว)</div>
-            <button class="pet-btn-adopt" id="btn-modal-adopt">➕ รับเลี้ยงแมวเพิ่ม</button>
-          </div>
-
-          <div class="pet-list-wrap" id="modal-pet-list">
-            ${this.renderModalPetList()}
-          </div>
-
-          <div class="pet-settings-group">
-            <div style="font-size:13px;font-weight:600;color:#495057;">ตั้งค่าพฤติกรรม</div>
-            
-            <div class="pet-setting-row">
-              <span>ความถี่ในการชวนคุย:</span>
-              <select id="set-speech-freq">
-                <option value="often" ${this.settings.speechFreq === 'often' ? 'selected' : ''}>คุยบ่อยมาก (ทุก ~22 วิ)</option>
-                <option value="normal" ${this.settings.speechFreq === 'normal' ? 'selected' : ''}>ปานกลาง (ทุก ~40 วิ)</option>
-                <option value="rare" ${this.settings.speechFreq === 'rare' ? 'selected' : ''}>นาน ๆ ครั้ง (ทุก ~80 วิ)</option>
-                <option value="off" ${this.settings.speechFreq === 'off' ? 'selected' : ''}>ปิดเสียงกล่องคำพูด</option>
-              </select>
-            </div>
-
-            <div class="pet-setting-row">
-              <span>ระยะเวลาแสดงคำพูด:</span>
-              <select id="set-speech-duration">
-                <option value="normal" ${this.settings.speechDuration === 'normal' ? 'selected' : ''}>นานกำลังดี (8.5 - 14 วินาที)</option>
-                <option value="long" ${this.settings.speechDuration === 'long' ? 'selected' : ''}>นานพิเศษ (12 - 18 วินาที)</option>
-                <option value="extra" ${this.settings.speechDuration === 'extra' ? 'selected' : ''}>นานจุใจ (16 - 25 วินาที)</option>
-              </select>
-            </div>
-
-            <div class="pet-setting-row">
-              <span>ขนาดข้อความที่แมวพูด:</span>
-              <select id="set-speech-fontsize">
-                <option value="small" ${this.settings.speechFontSize === 'small' ? 'selected' : ''}>เล็กกะทัดรัด (11px)</option>
-                <option value="normal" ${this.settings.speechFontSize === 'normal' ? 'selected' : ''}>ปกติ (12.5px)</option>
-                <option value="large" ${this.settings.speechFontSize === 'large' ? 'selected' : ''}>ใหญ่อ่านสบาย (14.5px)</option>
-                <option value="xlarge" ${this.settings.speechFontSize === 'xlarge' ? 'selected' : ''}>ใหญ่พิเศษ (17px)</option>
-              </select>
-            </div>
-
-            <div class="pet-setting-row">
-              <span>เตือนพักสายตาเมื่ออ่านนาน:</span>
-              <select id="set-fatigue-time">
-                <option value="20" ${this.settings.readingReminderMins === 20 ? 'selected' : ''}>20 นาที</option>
-                <option value="30" ${this.settings.readingReminderMins === 30 ? 'selected' : ''}>30 นาที (แนะนำ)</option>
-                <option value="45" ${this.settings.readingReminderMins === 45 ? 'selected' : ''}>45 นาที</option>
-                <option value="60" ${this.settings.readingReminderMins === 60 ? 'selected' : ''}>1 ชั่วโมง</option>
-              </select>
-            </div>
-
-            <div class="pet-setting-row">
-              <span>ขนาดความอ้วนของน้องแมว:</span>
-              <select id="set-pet-scale">
-                <option value="0.85" ${this.settings.petScale === 0.85 ? 'selected' : ''}>กะทัดรัด (85%)</option>
-                <option value="1.0" ${this.settings.petScale === 1.0 ? 'selected' : ''}>มาตรฐาน (100%)</option>
-                <option value="1.2" ${this.settings.petScale === 1.2 ? 'selected' : ''}>อ้วนตุ้ยนุ้ย (120%)</option>
-                <option value="1.35" ${this.settings.petScale === 1.35 ? 'selected' : ''}>อ้วนพิเศษ (135%)</option>
-              </select>
-            </div>
-
-            <div style="display:flex;gap:8px;margin-top:4px;">
-              <button class="pet-btn-sm" id="btn-test-blocker" style="flex:1;">🐾 ทดสอบท่าเดินมานอนทับจอ</button>
-              <button class="pet-btn-sm" id="btn-test-butterfly" style="flex:1;">🦋 ปล่อยผีเสื้อ</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    `;
-
-    overlay.addEventListener('click', (e) => {
-      if (e.target === overlay) overlay.remove();
-    });
-
-    const closeBtn = overlay.querySelector('#btn-pet-modal-close');
-    if (closeBtn) closeBtn.addEventListener('click', () => overlay.remove());
-
-    const adoptBtn = overlay.querySelector('#btn-modal-adopt');
-    if (adoptBtn) adoptBtn.addEventListener('click', () => {
-      this.addNewPet();
-      overlay.querySelector('#modal-pet-list').innerHTML = this.renderModalPetList();
-      this.bindModalListEvents(overlay);
-    });
-
-    // Settings binding
-    const freqSel = overlay.querySelector('#set-speech-freq');
-    if (freqSel) freqSel.addEventListener('change', (e) => {
-      this.settings.speechFreq = e.target.value;
-      this.saveState();
-    });
-
-    const durSel = overlay.querySelector('#set-speech-duration');
-    if (durSel) durSel.addEventListener('change', (e) => {
-      this.settings.speechDuration = e.target.value;
-      this.saveState();
-    });
-
-    const fontSizeSel = overlay.querySelector('#set-speech-fontsize');
-    if (fontSizeSel) fontSizeSel.addEventListener('change', (e) => {
-      this.settings.speechFontSize = e.target.value;
-      this.applySpeechFontSize();
-      this.saveState();
-    });
-
-    const fatigueSel = overlay.querySelector('#set-fatigue-time');
-    if (fatigueSel) fatigueSel.addEventListener('change', (e) => {
-      this.settings.readingReminderMins = parseInt(e.target.value, 10);
-      this.saveState();
-    });
-
-    const scaleSel = overlay.querySelector('#set-pet-scale');
-    if (scaleSel) scaleSel.addEventListener('change', (e) => {
-      const sc = parseFloat(e.target.value);
-      this.settings.petScale = sc;
-      this.pets.forEach(p => {
-        p.scale = sc;
-        if (p.el) PetRenderer.updatePetVisuals(p.el, p);
-      });
-      this.saveState();
-    });
-
-    const testBlockBtn = overlay.querySelector('#btn-test-blocker');
-    if (testBlockBtn) testBlockBtn.addEventListener('click', () => {
-      this.readingStartTime = Date.now() - 3600000; // Fake 1 hr
-      this.fatigueTriggered = false;
-      this.checkReadingFatigue();
-      overlay.remove();
-    });
-
-    const testBflyBtn = overlay.querySelector('#btn-test-butterfly');
-    if (testBflyBtn) testBflyBtn.addEventListener('click', () => {
-      this.spawnButterflyNear(this.pets[0]);
-      overlay.remove();
-    });
-
-    this.bindModalListEvents(overlay);
-    document.body.appendChild(overlay);
+    PetUI.openManagementModal(this);
   },
 
-  renderModalPetList() {
-    if (!this.pets.length) {
-      return `<div style="text-align:center;padding:16px;color:#868e96;font-size:13px;">ยังไม่มีน้องแมวในห้อง กดปุ่มรับเลี้ยงเพื่อสร้างแมวตัวแรก!</div>`;
-    }
-    return this.pets.map(p => {
-      const breedInfo = PET_BREEDS[p.breed] || PET_BREEDS.orange;
-      return `
-        <div class="pet-item-row" data-id="${p.id}">
-          <div class="pet-item-info">
-            <div style="font-size:24px;">🐾</div>
-            <div>
-              <div class="pet-item-name">${p.name}</div>
-              <div class="pet-item-breed">${breedInfo.name}</div>
-            </div>
-          </div>
-          <div class="pet-item-actions">
-            <button class="pet-btn-sm" data-action="rename">เปลี่ยนชื่อ</button>
-            <button class="pet-btn-sm" data-action="breed">สายพันธุ์</button>
-            <button class="pet-btn-sm danger" data-action="delete">ลบ</button>
-          </div>
-        </div>
-      `;
-    }).join('');
-  },
-
-  bindModalListEvents(overlay) {
-    const listWrap = overlay.querySelector('#modal-pet-list');
-    if (!listWrap) return;
-
-    listWrap.addEventListener('click', (e) => {
-      const btn = e.target.closest('.pet-btn-sm');
-      if (!btn) return;
-      const row = btn.closest('.pet-item-row');
-      const petId = row?.dataset.id;
-      const pet = this.pets.find(p => p.id === petId);
-      if (!pet) return;
-
-      const act = btn.dataset.action;
-      if (act === 'rename') {
-        const newName = prompt(`ตั้งชื่อใหม่ให้ ${pet.name}:`, pet.name);
-        if (newName && newName.trim()) {
-          pet.name = newName.trim();
-          PetRenderer.updatePetVisuals(pet.el, pet);
-          this.saveState();
-          listWrap.innerHTML = this.renderModalPetList();
-        }
-      } else if (act === 'breed') {
-        const breedKeys = Object.keys(PET_BREEDS);
-        const curIdx = breedKeys.indexOf(pet.breed);
-        pet.breed = breedKeys[(curIdx + 1) % breedKeys.length];
-        PetRenderer.updatePetVisuals(pet.el, pet);
-        this.saveState();
-        listWrap.innerHTML = this.renderModalPetList();
-      } else if (act === 'delete') {
-        if (confirm(`ต้องการเก็บ ${pet.name} เข้าบ้านหรือไม่?`)) {
-          this.removePet(pet.id);
-          listWrap.innerHTML = this.renderModalPetList();
-        }
-      }
-    });
+  openContextMenu(x, y, pet) {
+    PetUI.openContextMenu(x, y, pet, this);
   }
 };
 
