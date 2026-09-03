@@ -105,7 +105,35 @@ export const PetUI = {
       `;
     }
 
+    const activeCount = manager.pets.filter(p => !p.hidden).length;
+    const restingCount = manager.pets.length - activeCount;
+
     return `
+      <!-- Bento Overview Summary Bar -->
+      <div class="pet-bento-summary-bar">
+        <div class="pet-summary-metrics">
+          <div class="pet-summary-item">
+            <span class="pet-summary-icon">🐾</span>
+            <span class="pet-summary-val">${manager.pets.length} ตัว</span>
+            <span class="pet-summary-lbl">น้องแมวในบ้าน</span>
+          </div>
+          <div class="pet-summary-item">
+            <span class="pet-summary-dot active"></span>
+            <span class="pet-summary-val">${activeCount} ตัว</span>
+            <span class="pet-summary-lbl">บนหน้าจอ</span>
+          </div>
+          <div class="pet-summary-item">
+            <span class="pet-summary-dot rest"></span>
+            <span class="pet-summary-val">${restingCount} ตัว</span>
+            <span class="pet-summary-lbl">พักผ่อน</span>
+          </div>
+        </div>
+        <div class="pet-summary-actions">
+          <button type="button" class="pet-btn-quick-toggle primary" id="btn-pet-show-all" title="แสดงน้องแมวทุกตัวบนหน้าจอ">✨ แสดงทั้งหมด</button>
+          <button type="button" class="pet-btn-quick-toggle" id="btn-pet-hide-all" title="ให้น้องแมวทุกตัวพักผ่อน">💤 พักทั้งหมด</button>
+        </div>
+      </div>
+
       <div class="pet-cards-grid">
         ${manager.pets.map(p => {
           const breed = PET_BREEDS[p.breed] || PET_BREEDS.orange;
@@ -137,9 +165,9 @@ export const PetUI = {
                     const bond = typeof PetMemory !== 'undefined' ? PetMemory.getBondProgress(mem) : null;
                     const mood = typeof PetMemory !== 'undefined' ? PetMemory.getMood(p) : null;
                     return `
-                      <div class="pet-card-status-badges" style="display:flex;gap:6px;margin-top:6px;flex-wrap:wrap;">
-                        ${bond ? `<span class="pet-card-bond-pill" style="font-size:11px;padding:2px 7px;border-radius:12px;background:${bond.color}22;color:${bond.color};border:1px solid ${bond.color}55;" title="ระดับความผูกพัน">${bond.icon} ระดับ ${bond.level}</span>` : ''}
-                        ${mood ? `<span class="pet-card-mood-pill" style="font-size:11px;padding:2px 7px;border-radius:12px;background:#e9ecef;color:#495057;" title="อารมณ์: ${mood.label}">${mood.icon} ${mood.label}</span>` : ''}
+                      <div class="pet-card-status-badges">
+                        ${bond ? `<span class="pet-card-bond-pill" style="background:${bond.color}22;color:${bond.color};border:1px solid ${bond.color}55;" title="ระดับความผูกพัน">${bond.icon} ระดับ ${bond.level}</span>` : ''}
+                        ${mood ? `<span class="pet-card-mood-pill" title="อารมณ์: ${mood.label}">${mood.icon} ${mood.label}</span>` : ''}
                       </div>
                     `;
                   })()}
@@ -688,6 +716,39 @@ export const PetUI = {
             overlay.querySelector('#pet-modal-tab-content').innerHTML = this.renderTabContent('my_pets', manager);
             this.bindTabSpecificEvents(overlay, manager);
           }
+        }
+      });
+    }
+
+    // Bento Summary Bar Events (Show All / Hide All)
+    const btnShowAll = overlay.querySelector('#btn-pet-show-all');
+    if (btnShowAll) {
+      btnShowAll.addEventListener('click', () => {
+        manager.pets.forEach(p => manager.setPetVisibility(p.id, true));
+        const contentWrap = overlay.querySelector('#pet-modal-tab-content');
+        if (contentWrap) {
+          contentWrap.innerHTML = this.renderTabContent('my_pets', manager);
+          this.bindTabSpecificEvents(overlay, manager);
+        }
+        const countEl = overlay.querySelector('.pet-title-count');
+        if (countEl) {
+          countEl.textContent = `(${manager.pets.length}/${manager.pets.length} ตัว)`;
+        }
+      });
+    }
+
+    const btnHideAll = overlay.querySelector('#btn-pet-hide-all');
+    if (btnHideAll) {
+      btnHideAll.addEventListener('click', () => {
+        manager.pets.forEach(p => manager.setPetVisibility(p.id, false));
+        const contentWrap = overlay.querySelector('#pet-modal-tab-content');
+        if (contentWrap) {
+          contentWrap.innerHTML = this.renderTabContent('my_pets', manager);
+          this.bindTabSpecificEvents(overlay, manager);
+        }
+        const countEl = overlay.querySelector('.pet-title-count');
+        if (countEl) {
+          countEl.textContent = `(0/${manager.pets.length} ตัว)`;
         }
       });
     }
