@@ -53,24 +53,6 @@ export const ENV_ITEM_DEFS = {
     scratchY: 10,
     icon: '🪵'
   },
-  laser_dot: {
-    id: 'laser_dot',
-    name: 'เลเซอร์พอยเตอร์สีแดง',
-    desc: 'จุดเลเซอร์สีแดงเปล่งประกาย ส่องไปมาให้แมววิ่งไล่ตะครุบอย่างเมามัน',
-    width: 32,
-    height: 32,
-    isPhysicsToy: true,
-    icon: '🔴'
-  },
-  feather_wand: {
-    id: 'feather_wand',
-    name: 'ไม้ตกแมวขนนกฟรุ้งฟริ้ง',
-    desc: 'ไม้ขนนกแกว่งไกวไปมาตามแรงโน้มถ่วง ดึงดูดสายตาแมวให้กระโดดตะปบ',
-    width: 60,
-    height: 95,
-    isPhysicsToy: true,
-    icon: '🪶'
-  },
   cat_litter_box: {
     id: 'cat_litter_box',
     name: 'กระบะทรายแมวอนามัย',
@@ -105,7 +87,7 @@ export const PetEnvironment = {
     try {
       const saved = await Store.get('pet_environment_items');
       if (Array.isArray(saved) && saved.length > 0) {
-        this.items = saved;
+        this.items = saved.filter(i => i.type !== 'laser_dot' && i.type !== 'feather_wand');
       } else {
         // รายการเริ่มต้น: เบาะนอน และ ลูกบอลไหมพรม
         this.items = [
@@ -219,60 +201,6 @@ export const PetEnvironment = {
       if (yarn.x > window.innerWidth - 60) { yarn.x = window.innerWidth - 60; yarn.vx = -yarn.vx * 0.5; }
       if (Math.abs(yarn.vx) < 0.1) yarn.vx = 0;
       this.updateItemDomPosition(yarn);
-    }
-
-    // 2. จำลองฟิสิกส์จุดเลเซอร์สีแดง (Laser Pointer Dot)
-    const laser = this.items.find(i => i.type === 'laser_dot' && i.enabled);
-    if (laser && !laser.isDragged) {
-      if (mousePos && mousePos.x > 0 && Math.random() < 0.88) {
-        // Spring damping towards cursor
-        const spring = 0.15;
-        laser.vx = (laser.vx || 0) + (mousePos.x - laser.x) * spring;
-        laser.vy = (laser.vy || 0) + (mousePos.y - laser.y) * spring;
-        laser.vx *= 0.75;
-        laser.vy *= 0.75;
-        laser.x += laser.vx * dt * 45;
-        laser.y += laser.vy * dt * 45;
-      } else {
-        // Autonomous erratic darting mode
-        if (!laser.dartTimer || Date.now() - laser.dartTimer > 1200) {
-          laser.dartTimer = Date.now();
-          laser.vx = (Math.random() - 0.5) * 180;
-          laser.vy = (Math.random() - 0.5) * 140;
-        }
-        laser.x += (laser.vx || 0) * dt;
-        laser.y += (laser.vy || 0) * dt;
-        laser.vx = (laser.vx || 0) * 0.95;
-        laser.vy = (laser.vy || 0) * 0.95;
-      }
-      laser.x = Math.max(15, Math.min(window.innerWidth - 45, laser.x));
-      laser.y = Math.max(15, Math.min(window.innerHeight - 45, laser.y));
-      this.updateItemDomPosition(laser);
-    }
-
-    // 3. จำลองฟิสิกส์ลูกตุ้มไม้ตกแมว (Feather Teaser Wand Pendulum Kinematics)
-    const wand = this.items.find(i => i.type === 'feather_wand' && i.enabled);
-    if (wand) {
-      if (wand.angle === undefined) {
-        wand.angle = 0.35;
-        wand.angleVel = 0;
-      }
-      const gravity = 9.8;
-      const length = 1.0;
-      const damping = 0.96;
-      const angleAcc = -(gravity / length) * Math.sin(wand.angle);
-      wand.angleVel = (wand.angleVel + angleAcc * dt) * damping;
-      wand.angle += wand.angleVel * dt;
-      if (Math.abs(wand.angle) < 0.005 && Math.abs(wand.angleVel) < 0.005) {
-        wand.angle = 0;
-        wand.angleVel = 0;
-      }
-      if (wand.el) {
-        const feather = wand.el.querySelector('.wand-feather-swing');
-        if (feather) {
-          feather.style.transform = `rotate(${(wand.angle * 180) / Math.PI}deg)`;
-        }
-      }
     }
   },
 
@@ -605,45 +533,6 @@ export const PetEnvironment = {
           <!-- Cute Feather on Top -->
           <path d="M 35 12 Q 25 -2 22 2 Q 28 6 35 12" fill="#ff70a6"/>
           <path d="M 35 12 Q 45 -4 48 0 Q 42 6 35 12" fill="#ffd166"/>
-        </svg>
-      `;
-    }
-
-    if (type === 'laser_dot') {
-      return `
-        <svg viewBox="0 0 40 40" width="100%" height="100%">
-          <defs>
-            <radialGradient id="laser-glow" cx="50%" cy="50%" r="50%">
-              <stop offset="0%" stop-color="#ffffff"/>
-              <stop offset="25%" stop-color="#ff1744"/>
-              <stop offset="60%" stop-color="#d50000" stop-opacity="0.8"/>
-              <stop offset="100%" stop-color="#d50000" stop-opacity="0"/>
-            </radialGradient>
-          </defs>
-          <circle cx="20" cy="20" r="18" fill="url(#laser-glow)" class="laser-pulse-ring"/>
-          <circle cx="20" cy="20" r="5" fill="#ffffff"/>
-          <circle cx="20" cy="20" r="3" fill="#ff1744"/>
-        </svg>
-      `;
-    }
-
-    if (type === 'feather_wand') {
-      return `
-        <svg viewBox="0 0 65 100" width="100%" height="100%">
-          <!-- Handle Stick -->
-          <line x1="12" y1="10" x2="38" y2="45" stroke="#a78bfa" stroke-width="4" stroke-linecap="round"/>
-          <line x1="38" y1="45" x2="42" y2="52" stroke="#7c3aed" stroke-width="3" stroke-linecap="round"/>
-          <!-- Elastic String -->
-          <path d="M 42 52 Q 45 62 42 70" stroke="#cbd5e1" stroke-width="1.5" fill="none"/>
-          <!-- Dangling Feather Bunch with Pendulum Swing Pivot -->
-          <g class="wand-feather-swing" style="transform-origin: 42px 70px;">
-            <path d="M 42 70 Q 30 82 32 94 Q 40 92 42 70" fill="#f43f5e" opacity="0.9"/>
-            <path d="M 42 70 Q 52 82 50 95 Q 44 92 42 70" fill="#fbbf24" opacity="0.9"/>
-            <path d="M 42 70 Q 42 85 43 96 Q 40 94 42 70" fill="#38bdf8" opacity="0.9"/>
-            <!-- Bell / Bead at Joint -->
-            <circle cx="42" cy="70" r="3" fill="#f59e0b"/>
-            <circle cx="41" cy="69" r="1" fill="#ffffff"/>
-          </g>
         </svg>
       `;
     }

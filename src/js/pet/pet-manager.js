@@ -11,6 +11,7 @@ import { PetRenderer } from './pet-render.js';
 import { PetHygiene } from './pet-hygiene.js';
 import { PetSocial } from './pet-social.js';
 import { PetUI } from './pet-ui.js';
+import { PetMemory } from './pet-memory.js';
 
 export const PetManager = {
   pets: [],
@@ -24,6 +25,7 @@ export const PetManager = {
   },
   environment: PetEnvironment,
   hygiene: PetHygiene,
+  memory: typeof PetMemory !== 'undefined' ? PetMemory : null,
   layerEl: null,
   dockBtnEl: null,
   readingStartTime: Date.now(),
@@ -48,6 +50,11 @@ export const PetManager = {
 
       // เริ่มต้นระบบสุขอนามัย (Poop & Fly Swarm)
       await PetHygiene.init(this.layerEl, Store);
+
+      // เริ่มต้นระบบฐานข้อมูลความทรงจำ (Pet Memory & Diary Subsystem)
+      if (typeof PetMemory !== 'undefined') {
+        await PetMemory.init();
+      }
 
       // โหลดข้อมูลแมวและตั้งค่า
       await this.loadState();
@@ -191,6 +198,7 @@ export const PetManager = {
         facing: p.facing,
         scale: p.scale,
         isStaying: p.isStaying,
+        mood: p.mood || 'curious',
         hidden: !!p.hidden
       }));
       await Store.set('pets', petsData);
@@ -204,14 +212,16 @@ export const PetManager = {
   createPetInstance(data) {
     const breedKey = data.breed || 'white_brown_ears';
     const breedInfo = PET_BREEDS[breedKey] || PET_BREEDS.white_brown_ears;
+    const initialMood = data.mood || 'curious';
 
-    return {
+    const pet = {
       id: data.id || 'pet_' + Math.random().toString(36).substring(2, 9),
       name: data.name || 'น้องแมว',
       breed: breedKey,
       tailType: data.tailType || breedInfo.defaultTail || 'long',
       build: data.build || breedInfo.defaultBuild || 'normal',
       personality: data.personality || PetPersonality.generateRandomStats(),
+      mood: initialMood,
       x: typeof data.x === 'number' ? data.x : Math.random() * (window.innerWidth - 120),
       y: typeof data.y === 'number' ? data.y : window.innerHeight - 130,
       vx: 0,
@@ -229,6 +239,16 @@ export const PetManager = {
       speechTimer: 0,
       el: null
     };
+
+    // ซิงค์ข้อมูลอารมณ์จากฐานข้อมูลความทรงจำ (PetMemory)
+    if (typeof PetMemory !== 'undefined' && PetMemory.getMemory) {
+      const mem = PetMemory.getMemory(pet);
+      if (mem && mem.mood) {
+        pet.mood = mem.mood;
+      }
+    }
+
+    return pet;
   },
 
   // 3. เรนเดอร์แมวลงในหน้าจอ
@@ -252,18 +272,17 @@ export const PetManager = {
     pet.el.style.transform = `translate3d(${pet.x}px, ${pet.y}px, 0)`;
   },
 
-  // 4. ผูก Interaction และ Drag & Drop
+  // 4. ผูก Interaction และ Drag & Drop (Single-click = Radial Menu, Double-click = Tickle, Drag = Pick up)
   bindPetEvents(el, pet) {
     let startX = 0, startY = 0;
     let initialPetX = 0, initialPetY = 0;
     let isClick = true;
 
     const onPointerDown = (e) => {
-      // คลิกขวา -> เปิดเมนูบริบท
+      // ยกเลิกเมนูคลิกขวาเดิมตามความต้องการของผู้ใช้
       if (e.button === 2) {
         e.preventDefault();
         e.stopPropagation();
-        this.openContextMenu(e.clientX, e.clientY, pet);
         return;
       }
       if (e.button !== 0) return;
@@ -274,39 +293,62 @@ export const PetManager = {
       initialPetX = pet.x;
       initialPetY = pet.y;
 
-      pet.isDragged = true;
-      pet.vx = 0;
-      pet.vy = 0;
-      pet.targetX = null;
-      PetRenderer.updatePetVisuals(el, pet);
-
-      // ข้อความเมื่อถูกหิ้ว
-      this.say(pet, getRandomDialogue('dragged', { petName: pet.name }), 3000);
-
       const onPointerMove = (moveEvt) => {
         const dx = moveEvt.clientX - startX;
         const dy = moveEvt.clientY - startY;
-        if (Math.abs(dx) > 4 || Math.abs(dy) > 4) {
+        if (Math.abs(dx) > 5 || Math.abs(dy) > 5) {
+          if (!pet.isDragged) {
+            pet.isDragged = true;
+            pet.vx = 0;
+            pet.vy = 0;
+            pet.targetX = null;
+            PetRenderer.updatePetVisuals(el, pet);
+            PetUI.closeRadialMenu();
+            this.say(pet, getRandomDialogue('dragged', { petName: pet.name }), 3000);
+          }
           isClick = false;
         }
-        pet.x = Math.max(10, Math.min(window.innerWidth - 90, initialPetX + dx));
-        pet.y = Math.max(10, Math.min(window.innerHeight - 80, initialPetY + dy));
-        this.updatePetDomPosition(pet);
+
+        if (pet.isDragged) {
+          pet.x = Math.max(10, Math.min(window.innerWidth - 90, initialPetX + dx));
+          pet.y = Math.max(10, Math.min(window.innerHeight - 80, initialPetY + dy));
+          this.updatePetDomPosition(pet);
+        }
       };
 
       const onPointerUp = () => {
         window.removeEventListener('pointermove', onPointerMove);
         window.removeEventListener('pointerup', onPointerUp);
 
-        pet.isDragged = false;
-        pet.state = 'stand';
-        pet.stateTimer = 0;
-        PetRenderer.updatePetVisuals(el, pet);
-        this.saveState();
+        if (pet.isDragged) {
+          pet.isDragged = false;
+          pet.state = 'stand';
+          pet.stateTimer = 0;
+          PetRenderer.updatePetVisuals(el, pet);
+          this.saveState();
+        }
 
-        // หากเป็นการคลิกโดยไม่ลาก -> เกาคาง/จั๊กจี้
+        // หากเป็นการคลิกโดยไม่ลาก
         if (isClick) {
-          this.ticklePet(pet);
+          const now = Date.now();
+          if (pet._lastClickTime && now - pet._lastClickTime < 260) {
+            // ดับเบิ้ลคลิก: เกาคางลูบพุงทันที
+            if (pet._singleClickTimer) {
+              clearTimeout(pet._singleClickTimer);
+              pet._singleClickTimer = null;
+            }
+            pet._lastClickTime = 0;
+            PetUI.closeRadialMenu();
+            this.ticklePet(pet);
+          } else {
+            pet._lastClickTime = now;
+            pet._singleClickTimer = setTimeout(() => {
+              pet._singleClickTimer = null;
+              pet._lastClickTime = 0;
+              // คลิก 1 ครั้ง: สลับเปิด/ปิด เมนูวงกลมรอบตัวแมว (Radial Menu)
+              PetUI.toggleRadialMenu(pet, this);
+            }, 250);
+          }
         }
       };
 
@@ -318,7 +360,7 @@ export const PetManager = {
     el.addEventListener('contextmenu', (e) => {
       e.preventDefault();
       e.stopPropagation();
-      this.openContextMenu(e.clientX, e.clientY, pet);
+      // ยกเลิกเมนูคลิกขวาเดิมอย่างถาวร
     });
   },
 
@@ -327,15 +369,23 @@ export const PetManager = {
     PetUI.spawnFx('heart', pet.x + 35, pet.y + 10, this.layerEl);
     pet.state = 'sit';
     pet.stateTimer = 0;
+
+    // บันทึกลงฐานข้อมูลความทรงจำ (PetMemory)
+    if (typeof PetMemory !== 'undefined') {
+      PetMemory.recordPetting(pet);
+    }
     PetRenderer.updatePetVisuals(pet.el, pet);
 
-    // เลือกบทสนทนาอิงความขี้อ้อน
+    // เลือกบทสนทนาอิงความทรงจำและแกนนิสัย
+    const mem = typeof PetMemory !== 'undefined' ? PetMemory.getMemory(pet) : null;
     const aff = pet.personality?.affection || 50;
     let msg = '';
-    if (aff <= 30) {
+    if (mem && mem.stats && mem.stats.totalPetted > 0 && mem.stats.totalPetted % 15 === 0) {
+      msg = getRandomDialogue('memory', { petName: pet.name, petMemory: mem, pet });
+    } else if (aff <= 30) {
       msg = 'ไม่ได้อยากให้เกาหรอกนะ... แต่คันตรงนี้พอดีหรอกย่ะ!';
     } else {
-      msg = getRandomDialogue('touchTickle', { petName: pet.name });
+      msg = getRandomDialogue('touchTickle', { petName: pet.name, petMemory: mem, pet });
     }
     this.say(pet, msg, 4000);
   },
@@ -349,9 +399,15 @@ export const PetManager = {
 
     pet.state = 'eating';
     pet.stateTimer = 0;
+
+    // บันทึกลงฐานข้อมูลความทรงจำ (PetMemory)
+    if (typeof PetMemory !== 'undefined') {
+      PetMemory.recordFeeding(pet);
+    }
     PetRenderer.updatePetVisuals(pet.el, pet);
 
-    const feedMsg = getRandomDialogue('feeding', { petName: pet.name });
+    const mem = typeof PetMemory !== 'undefined' ? PetMemory.getMemory(pet) : null;
+    const feedMsg = getRandomDialogue('feeding', { petName: pet.name, petMemory: mem, pet });
     this.say(pet, feedMsg, 4500);
     PetUI.spawnFx('heart', pet.x + 35, pet.y + 15, this.layerEl);
 
@@ -385,21 +441,45 @@ export const PetManager = {
     bubbleWrap.classList.add('show');
     bubbleWrap.title = 'คลิกเพื่อปิดข้อความนี้';
 
-    // จัดทิศทางกล่องไม่ให้ล้นออกนอกจอ
-    const petRect = (pet.el && typeof pet.el.getBoundingClientRect === 'function') 
-      ? pet.el.getBoundingClientRect() 
-      : { left: pet.x || 100, right: (pet.x || 100) + 80 };
-    if (petRect.left < 80) {
-      bubbleWrap.style.left = '20px';
-      bubbleWrap.style.transform = 'none';
-    } else if (petRect.right > window.innerWidth - 120) {
-      bubbleWrap.style.left = 'auto';
-      bubbleWrap.style.right = '10px';
-      bubbleWrap.style.transform = 'none';
+    // จัดตำแหน่งกล่องข้อความให้อยู่สูงเหนือศีรษะแมวเสมอ และปรับทิศทางหางอย่างแม่นยำ
+    const petX = Number.isFinite(pet.x) ? pet.x : 100;
+    const petY = Number.isFinite(pet.y) ? pet.y : 100;
+    const catHeadX = petX + 45;
+    const winW = typeof window !== 'undefined' ? window.innerWidth : 1200;
+
+    // ตรวจสอบขอบบนหน้าจอ: ถ้าอยู่ชิดขอบบน (< 100px) ให้แสดงข้างใต้ตัวแมวแทน
+    if (petY < 100) {
+      bubbleWrap.classList.add('bubble-below');
     } else {
+      bubbleWrap.classList.remove('bubble-below');
+    }
+
+    // จัดแนวซ้าย-ขวา ให้อยู่ตรงแนวศีรษะเสมอ และไม่หลุดออกนอกจอ
+    if (catHeadX - 110 < 15) {
+      // ชิดขอบซ้ายจอ: ขยับกล่องหลบขอบซ้าย แต่ยังคงอยู่เหนือศีรษะและหางชี้ตรงศีรษะแมว
+      const offsetRight = Math.round(15 - (catHeadX - 110));
+      bubbleWrap.style.left = '50%';
+      bubbleWrap.style.right = 'auto';
+      bubbleWrap.style.transform = `translateX(calc(-50% + ${offsetRight}px))`;
+      bubbleWrap.style.setProperty('--bubble-tx', `calc(-50% + ${offsetRight}px)`);
+      const tailPct = Math.max(18, Math.min(82, Math.round(50 - (offsetRight / 220) * 100)));
+      bubbleWrap.style.setProperty('--tail-left', `${tailPct}%`);
+    } else if (catHeadX + 110 > winW - 15) {
+      // ชิดขอบขวาจอ: ขยับกล่องหลบขอบขวา แต่ยังคงอยู่เหนือศีรษะและหางชี้ตรงศีรษะแมว
+      const offsetLeft = Math.round((catHeadX + 110) - (winW - 15));
+      bubbleWrap.style.left = '50%';
+      bubbleWrap.style.right = 'auto';
+      bubbleWrap.style.transform = `translateX(calc(-50% - ${offsetLeft}px))`;
+      bubbleWrap.style.setProperty('--bubble-tx', `calc(-50% - ${offsetLeft}px)`);
+      const tailPct = Math.max(18, Math.min(82, Math.round(50 + (offsetLeft / 220) * 100)));
+      bubbleWrap.style.setProperty('--tail-left', `${tailPct}%`);
+    } else {
+      // อยู่ตรงกลางเหนือศีรษะแมวตามปกติ
       bubbleWrap.style.left = '50%';
       bubbleWrap.style.right = 'auto';
       bubbleWrap.style.transform = 'translateX(-50%)';
+      bubbleWrap.style.setProperty('--bubble-tx', '-50%');
+      bubbleWrap.style.setProperty('--tail-left', '50%');
     }
 
     if (!bubbleWrap._boundClick) {
@@ -526,21 +606,45 @@ export const PetManager = {
     else if (['png', 'jpg', 'jpeg', 'gif', 'webp', 'svg'].includes(ext)) fileTypeKey = 'img';
     else if (['js', 'html', 'css', 'json', 'py', 'ts'].includes(ext)) fileTypeKey = 'code';
 
+    // บันทึกลงฐานข้อมูลความทรงจำ (PetMemory)
+    if (typeof PetMemory !== 'undefined') {
+      PetMemory.recordDocumentOpened(chosenPet, node.name);
+    }
+    PetRenderer.updatePetVisuals(chosenPet.el, chosenPet);
+
+    const mem = typeof PetMemory !== 'undefined' ? PetMemory.getMemory(chosenPet) : null;
+    const timeCtx = typeof PetMemory !== 'undefined' ? PetMemory.getRealTimeContext() : null;
+
     setTimeout(() => {
-      if (Math.random() < 0.6) {
-        const msg = getRandomDialogue('fileType', {
+      let msg = '';
+      if (mem && mem.favoriteDoc && mem.favoriteDoc.name === node.name && Math.random() < 0.45) {
+        msg = getRandomDialogue('memory', {
           petName: chosenPet.name,
           docName: node.name,
-          fileType: fileTypeKey
+          petMemory: mem,
+          favoriteDoc: mem.favoriteDoc.name
         });
-        this.say(chosenPet, msg);
-      } else {
-        const msg = getRandomDialogue('docContext', {
+      } else if (timeCtx && timeCtx.isLateNight && Math.random() < 0.45) {
+        msg = getRandomDialogue('realTime', {
           petName: chosenPet.name,
-          docName: node.name
+          docName: node.name,
+          petMemory: mem
         });
-        this.say(chosenPet, msg);
+      } else if (Math.random() < 0.5) {
+        msg = getRandomDialogue('fileType', {
+          petName: chosenPet.name,
+          docName: node.name,
+          fileType: fileTypeKey,
+          petMemory: mem
+        });
+      } else {
+        msg = getRandomDialogue('docContext', {
+          petName: chosenPet.name,
+          docName: node.name,
+          petMemory: mem
+        });
       }
+      this.say(chosenPet, msg);
     }, 1200);
   },
 
@@ -593,11 +697,14 @@ export const PetManager = {
         this.lastFastTypingReaction = now;
         const chosen = this.pets[Math.floor(Math.random() * this.pets.length)];
         if (!chosen.isSpeaking && !chosen.isDragged) {
-          const lines = PET_DIALOGUES.typingSpeedFast || ['พิมพ์เร็วจังทาส! มือเป็นระวิงเลย!'];
-          const msg = lines[Math.floor(Math.random() * lines.length)];
+          if (typeof PetMemory !== 'undefined') {
+            PetMemory.setMood(chosen, 'playful', 'ตื่นเต้นที่เห็นทาสพิมพ์งานไวติดจรวด');
+          }
           chosen.state = 'two_legged';
           PetRenderer.updatePetVisuals(chosen.el, chosen);
           PetUI.spawnFx('star', chosen.x + 35, chosen.y + 10, this.layerEl);
+          const lines = PET_DIALOGUES.typingSpeedFast || ['พิมพ์เร็วจังทาส! มือเป็นระวิงเลย!'];
+          const msg = lines[Math.floor(Math.random() * lines.length)];
           this.say(chosen, msg, 4000);
         }
       }
@@ -612,10 +719,13 @@ export const PetManager = {
       this.isUserIdle = true;
       const chosen = this.pets[Math.floor(Math.random() * this.pets.length)];
       if (!chosen.isSpeaking && !chosen.isDragged) {
+        if (typeof PetMemory !== 'undefined') {
+          PetMemory.setMood(chosen, Math.random() < 0.5 ? 'sleepy' : 'lonely', 'ทาสไม่ได้แตะจอนาน');
+        }
         if (Math.random() < 0.6) {
           chosen.state = 'sleep_loaf';
-          PetRenderer.updatePetVisuals(chosen.el, chosen);
         }
+        PetRenderer.updatePetVisuals(chosen.el, chosen);
         const lines = PET_DIALOGUES.userIdle || ['ทาส... แอบหลับไปแล้วเหรอ? เหมียวสะกิดๆ นะ'];
         const msg = lines[Math.floor(Math.random() * lines.length)];
         this.say(chosen, msg, 4500);
@@ -658,8 +768,8 @@ export const PetManager = {
     this.pets.forEach(pet => {
       if (pet.hidden || pet.isDragged) return;
 
-      // สำคัญมาก: ห้ามแมวขยับตำแหน่งเด็ดขาดในขณะที่กำลังพูด เพื่อให้กล่องข้อความนิ่งสนิทอ่านสบายตา
-      if (pet.isSpeaking) {
+      // สำคัญมาก: ห้ามแมวขยับตำแหน่งเด็ดขาดในขณะที่กำลังพูด หรือเปิดเมนูวงกลมรอบตัวอยู่
+      if (pet.isSpeaking || pet.hasRadialMenuOpen) {
         return;
       }
 
@@ -688,6 +798,19 @@ export const PetManager = {
           if (pet.targetAction) {
             pet.state = pet.targetAction;
             pet.targetAction = null;
+            if (pet.state === 'eating') {
+              if (typeof PetMemory !== 'undefined') {
+                PetMemory.recordFeeding(pet);
+              }
+              PetUI.spawnFx('heart', pet.x + 35, pet.y + 15, this.layerEl);
+              this.say(pet, 'ง่ำๆๆ~ แวะมากินปลาทูในชามอาหาร อิ่มอร่อยพุงกางเลยเหมียว! 🐟😋', 4000);
+              setTimeout(() => {
+                if (pet.state === 'eating') {
+                  pet.state = Math.random() < 0.5 ? 'groom' : 'sit';
+                  PetRenderer.updatePetVisuals(pet.el, pet);
+                }
+              }, 4500);
+            }
           } else if (pet.isBlocked) {
             pet.state = 'sleep_belly';
           } else {
@@ -725,28 +848,31 @@ export const PetManager = {
 
           // ตรวจสอบว่าขับถ่ายที่กระบะทรายหรือไม่
           const litterBox = this.environment?.items?.find(i => i.type === 'cat_litter_box' && i.enabled);
-          const isAtLitterBox = litterBox && Math.hypot((litterBox.x + 48) - (pet.x + 35), (litterBox.y + 25) - (pet.y + 35)) < 80;
-
-          let poopX = pet.facing === 'right' ? pet.x + 8 : pet.x + 65;
-          let poopY = pet.y + 40;
+          const isAtLitterBox = litterBox && Math.hypot((litterBox.x + 48) - (pet.x + 35), (litterBox.y + 25) - (pet.y + 35)) < 85;
 
           if (isAtLitterBox) {
-            poopX = litterBox.x + 32 + (Math.random() - 0.5) * 16;
-            poopY = litterBox.y + 16 + (Math.random() - 0.5) * 8;
+            // เมื่อถ่ายที่กระบะทราย: ทรายจะดูดซับและกลบของเสียเรียบร้อย ไม่สร้างกองขี้ตกค้างบนพื้นหลังกระบะทราย
+            pet.state = 'scratch';
+            pet.stateTimer = 0;
+            PetRenderer.updatePetVisuals(pet.el, pet);
+            PetUI.spawnFx('star', litterBox.x + 48, litterBox.y + 20, this.layerEl);
+            if (typeof PetHygiene !== 'undefined' && PetHygiene.addCleanliness) {
+              PetHygiene.addCleanliness(5);
+            }
+            this.say(pet, 'โล่งพุงจังเลยเหมียว~ กลบกระบะทรายเรียบร้อยสะอาดเอี่ยม ทรายดูดกลิ่นเกลี้ยง! 🏖️✨', 3500);
+            return;
           }
 
+          // กรณีไม่มีกระบะทราย: แมวจะขับถ่ายลงบนพื้น
+          let poopX = pet.facing === 'right' ? pet.x + 8 : pet.x + 65;
+          let poopY = pet.y + 40;
           PetHygiene.spawnPoop(poopX, poopY, pet.id);
 
           pet.state = 'scratch';
           pet.stateTimer = 0;
           PetRenderer.updatePetVisuals(pet.el, pet);
           PetUI.spawnFx('star', pet.x + 35, pet.y + 10, this.layerEl);
-
-          if (isAtLitterBox) {
-            this.say(pet, 'โล่งพุงจังเลยเหมียว~ ถ่ายในกระบะทรายเรียบร้อยสะอาดเอี่ยม! 🏖️✨', 3500);
-          } else {
-            this.say(pet, 'โล่งพุงจังเลยเหมียว~ ไม่มีกระบะทราย ขออึเพ่นพ่านตรงนี้ละกัน! 💩', 3500);
-          }
+          this.say(pet, 'โล่งพุงจังเลยเหมียว~ ไม่มีกระบะทราย ขออึเพ่นพ่านตรงนี้ละกัน! 💩', 3500);
           return;
         }
       }
@@ -770,9 +896,35 @@ export const PetManager = {
         PetRenderer.updatePetVisuals(pet.el, pet);
       }
 
+      // สะสมเวลาอ่านหนังสือกับผู้ใช้ลงฐานข้อมูลความทรงจำทุก 1 นาที
+      pet._readingAccTimer = (pet._readingAccTimer || 0) + 200;
+      if (pet._readingAccTimer >= 60000) {
+        pet._readingAccTimer = 0;
+        if (typeof State !== 'undefined' && State.current && typeof PetMemory !== 'undefined') {
+          PetMemory.addReadingMinutes(pet, 1);
+        }
+      }
+
+      // ปรับเปลี่ยนอารมณ์ตามธรรมชาติและวันเวลาจริง
+      pet._moodCheckTimer = (pet._moodCheckTimer || 0) + 200;
+      if (pet._moodCheckTimer >= 45000) {
+        pet._moodCheckTimer = 0;
+        if (typeof PetMemory !== 'undefined') {
+          const timeCtx = PetMemory.getRealTimeContext();
+          if (timeCtx.isLateNight) {
+            PetMemory.setMood(pet, 'sleepy', 'ดึกมากแล้วตาจะปิด');
+          } else if (pet.state === 'sleep_loaf' || pet.state === 'sleep_curl') {
+            PetMemory.setMood(pet, 'sleepy', 'กำลังนอนหลับฝันดี');
+          } else if (Math.random() < 0.35 && pet.mood === 'sleepy') {
+            PetMemory.setMood(pet, 'curious', 'ตื่นขึ้นมาส่องทาสอ่านหนังสือ');
+          }
+          PetRenderer.updatePetVisuals(pet.el, pet);
+        }
+      }
+
       // 1. การเปลี่ยนท่าทางอัตโนมัติ (AI State Machine อิง Decision Interval ตาม Energy & Diligence)
-      // ไม่อนุญาตให้เปลี่ยนท่าทางหรือเริ่มเดินถ้ากำลังพูด หรือถูกสั่งให้นอนเฝ้า หรือกำลังเดินอยู่ หรือกำลังขับถ่าย
-      if (!pet.isStaying && !pet.isBlocked && !pet.isSpeaking && pet.targetX === null && pet.state !== 'pooping') {
+      // ไม่อนุญาตให้เปลี่ยนท่าทางหรือเริ่มเดินถ้ากำลังพูด หรือถูกสั่งให้นอนเฝ้า หรือกำลังเดินอยู่ หรือกำลังขับถ่าย หรือเปิดเมนูวงกลมอยู่
+      if (!pet.isStaying && !pet.isBlocked && !pet.isSpeaking && !pet.hasRadialMenuOpen && pet.targetX === null && pet.state !== 'pooping') {
         const decisionInterval = PetPersonality.getDecisionInterval(pet);
         if (pet.stateTimer > decisionInterval) {
           pet.stateTimer = 0;
@@ -830,6 +982,9 @@ export const PetManager = {
     } else if (item.type === 'cat_litter_box') {
       destX = item.x + (def?.boxX || 20);
       destY = item.y + (def?.boxY || -8);
+    } else if (item.type === 'food_bowl' || item.type === 'cat_food_bowl') {
+      destX = item.x - 30;
+      destY = item.y - 12;
     }
 
     pet.targetX = destX;
@@ -841,28 +996,17 @@ export const PetManager = {
 
   // ตัดสินใจการกระทำถัดไปของแมว (อิง 6 แกนนิสัย & เฟอร์นิเจอร์)
   decideNextPetAction(pet) {
-    if (pet.isSpeaking) return;
+    if (pet.isSpeaking || pet.hasRadialMenuOpen) return;
     const p = pet.personality || { energy: 50, diligence: 50, affection: 50 };
 
-    // 1. ตรวจจับของเล่นประเภทเลเซอร์พอยเตอร์ (Laser Dot chasing)
-    const laser = this.environment.items.find(i => i.type === 'laser_dot' && i.enabled);
-    if (laser && (p.energy > 55 || Math.random() < 0.35)) {
-      pet.targetX = laser.x;
-      pet.targetY = laser.y;
-      pet.targetAction = 'batting_ball';
-      pet.state = 'run';
-      PetRenderer.updatePetVisuals(pet.el, pet);
-      return;
-    }
-
-    // 2. ตรวจจับไม้ตกแมวขนนก (Feather Teaser Wand)
-    const wand = this.environment.items.find(i => i.type === 'feather_wand' && i.enabled);
-    if (wand && Math.hypot(wand.x - pet.x, wand.y - pet.y) < 260 && Math.random() < 0.4) {
-      pet.targetX = wand.x + 10;
-      pet.targetY = wand.y + 15;
-      pet.targetAction = 'pounce';
-      pet.state = 'walk';
-      PetRenderer.updatePetVisuals(pet.el, pet);
+    // 1. ตรวจจับชามอาหาร (Auto-Feeding when food bowl is placed on screen)
+    const foodBowl = this.environment?.items?.find(i => (i.type === 'food_bowl' || i.type === 'cat_food_bowl') && i.enabled);
+    const now = Date.now();
+    const timeSinceLastMeal = now - (pet.lastMealTime || 0);
+    const isHungry = pet.mood === 'hungry' || timeSinceLastMeal > 55000;
+    if (foodBowl && (isHungry || Math.random() < 0.25) && timeSinceLastMeal > 25000) {
+      pet.lastMealTime = now;
+      this.navigateToItem(pet, foodBowl.id, 'eating');
       return;
     }
 
@@ -887,6 +1031,9 @@ export const PetManager = {
     if (nearestEnv && PetPersonality.prefersToyPlay(pet) && Math.random() < 0.55) {
       if (nearestEnv.item.type === 'cat_toy_yarn') {
         pet.state = 'batting_ball';
+        if (typeof PetMemory !== 'undefined') {
+          PetMemory.recordPlay(pet, 'cat_toy_yarn');
+        }
         PetRenderer.updatePetVisuals(pet.el, pet);
         this.environment.rollYarnBall(pet.facing === 'right' ? 6 : -6);
         return;
@@ -947,22 +1094,41 @@ export const PetManager = {
     PetRenderer.updatePetVisuals(pet.el, pet);
   },
 
-  // สุ่มคำพูดอิงตามเวลาและ 6 แกนนิสัย
+  // สุ่มคำพูดอิงตามวันเวลาจริงจาก PC, ความทรงจำ, อารมณ์ความรู้สึก และ 6 แกนนิสัย
   triggerRandomPetSpeech(pet) {
-    const hour = new Date().getHours();
+    const mem = typeof PetMemory !== 'undefined' ? PetMemory.getMemory(pet) : null;
+    const r = Math.random();
     let category = 'personality';
 
-    if (Math.random() < 0.45) {
-      if (hour >= 6 && hour < 12) category = 'timeMorning';
-      else if (hour >= 12 && hour < 17) category = 'timeAfternoon';
-      else if (hour >= 17 && hour < 21) category = 'timeEvening';
-      else category = 'timeNight';
+    if (r < 0.28) {
+      category = 'realTime';
+    } else if (r < 0.50 && mem) {
+      category = 'memory';
+    } else if (r < 0.68 && pet.mood) {
+      category = 'mood';
+    } else if (r < 0.82) {
+      category = 'deepEmpathy';
+    } else {
+      category = 'personality';
     }
+
+    const timeCtx = typeof PetMemory !== 'undefined' ? PetMemory.getRealTimeContext() : null;
+    const bondInfo = (typeof PetMemory !== 'undefined' && mem) ? PetMemory.getBondProgress(mem) : null;
 
     const text = getRandomDialogue(category, {
       petName: pet.name,
       docName: State.current?.name,
-      pet
+      pet,
+      petMemory: mem,
+      mood: pet.mood,
+      days: (typeof PetMemory !== 'undefined' && mem) ? PetMemory.getDaysTogether(mem) : 1,
+      favoriteDoc: mem?.favoriteDoc?.name,
+      totalPetted: mem?.stats?.totalPetted,
+      bondLevelName: bondInfo?.name,
+      dayName: timeCtx?.dayName,
+      timeString: timeCtx?.timeString,
+      dateString: timeCtx?.dateString,
+      timeSlotName: timeCtx?.timeSlotName
     });
     this.say(pet, text);
   },

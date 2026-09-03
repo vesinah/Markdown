@@ -5,11 +5,14 @@ import { PET_BREEDS, TAIL_TYPES, BODY_BUILDS, RANDOM_NAMES } from './pet-breeds.
 import { PERSONALITY_AXES, PERSONALITY_ARCHETYPES, PetPersonality } from './pet-personality.js';
 import { ENV_ITEM_DEFS } from './pet-environment.js';
 import { PetRenderer } from './pet-render.js';
+import { PetMemory, BOND_LEVELS, PET_MOODS, SOUVENIR_GIFTS } from './pet-memory.js';
+import { getRandomDialogue } from './pet-dialogues.js';
 
 export const PetUI = {
   activeModal: null,
   activeContextMenu: null,
   activeTab: 'my_pets',
+  selectedPetIdForDiary: null,
 
   // 1. เปิดโมดอลศูนย์รวมใจชาวแมว (Desktop Pets Sanctuary Modal)
   openManagementModal(manager) {
@@ -38,6 +41,9 @@ export const PetUI = {
         <div class="pet-modal-tabs">
           <button class="pet-tab-btn ${this.activeTab === 'my_pets' ? 'active' : ''}" data-tab="my_pets">
             🐱 น้องแมวของฉัน
+          </button>
+          <button class="pet-tab-btn ${this.activeTab === 'memory_diary' ? 'active' : ''}" data-tab="memory_diary">
+            📖 สมุดความทรงจำ & ไดอารี่
           </button>
           <button class="pet-tab-btn ${this.activeTab === 'adoption' ? 'active' : ''}" data-tab="adoption">
             ➕ รับเลี้ยงแมวใหม่
@@ -74,6 +80,8 @@ export const PetUI = {
   renderTabContent(tab, manager) {
     if (tab === 'my_pets') {
       return this.renderMyPetsTab(manager);
+    } else if (tab === 'memory_diary') {
+      return this.renderMemoryDiaryTab(manager);
     } else if (tab === 'adoption') {
       return this.renderAdoptionTab(manager);
     } else if (tab === 'toys_env') {
@@ -121,6 +129,17 @@ export const PetUI = {
                   <div class="pet-card-traits">
                     <span>${tail}</span> • <span>${build}</span>
                   </div>
+                  ${(() => {
+                    const mem = typeof PetMemory !== 'undefined' ? PetMemory.getMemory(p) : null;
+                    const bond = typeof PetMemory !== 'undefined' ? PetMemory.getBondProgress(mem) : null;
+                    const mood = typeof PetMemory !== 'undefined' ? PetMemory.getMood(p) : null;
+                    return `
+                      <div class="pet-card-status-badges" style="display:flex;gap:6px;margin-top:6px;flex-wrap:wrap;">
+                        ${bond ? `<span class="pet-card-bond-pill" style="font-size:11px;padding:2px 7px;border-radius:12px;background:${bond.color}22;color:${bond.color};border:1px solid ${bond.color}55;" title="ระดับความผูกพัน">${bond.icon} ระดับ ${bond.level}</span>` : ''}
+                        ${mood ? `<span class="pet-card-mood-pill" style="font-size:11px;padding:2px 7px;border-radius:12px;background:#e9ecef;color:#495057;" title="อารมณ์: ${mood.label}">${mood.icon} ${mood.label}</span>` : ''}
+                      </div>
+                    `;
+                  })()}
                 </div>
                 <div class="pet-card-toggle-wrap">
                   <span class="pet-toggle-status ${p.hidden ? 'is-hidden' : 'is-visible'}">
@@ -169,6 +188,7 @@ export const PetUI = {
 
               <!-- Action Buttons -->
               <div class="pet-card-actions">
+                <button class="pet-card-btn highlight" data-action="open_diary" title="เปิดสมุดความทรงจำและไดอารี่">📖 ไดอารี่</button>
                 <button class="pet-card-btn" data-action="tickle" title="เกาคางให้รางวัล">🖐️ เกาคาง</button>
                 <button class="pet-card-btn" data-action="feed" title="ให้อาหารปลาทู">🐟 ป้อนปลา</button>
                 <button class="pet-card-btn" data-action="toggle_stay" title="สลับโหมดเดินเล่นหรือนอนนิ่ง">
@@ -180,6 +200,171 @@ export const PetUI = {
             </div>
           `;
         }).join('')}
+      </div>
+    `;
+  },
+
+  // แท็บ 1.5: สมุดความทรงจำและไดอารี่ (Memory Journal & Diary)
+  renderMemoryDiaryTab(manager) {
+    if (!manager.pets.length) {
+      return `
+        <div class="pet-empty-state">
+          <div style="font-size:48px;margin-bottom:8px;">📖</div>
+          <div style="font-size:15px;font-weight:600;color:#495057;">ยังไม่มีข้อมูลความทรงจำ</div>
+          <div style="font-size:13px;color:#868e96;margin:6px 0 16px;">รับเลี้ยงน้องแมวตัวแรกเพื่อเริ่มสร้างความทรงจำร่วมกัน!</div>
+          <button class="pet-btn-adopt" id="btn-goto-adopt">➕ ไปรับเลี้ยงแมวตัวแรก</button>
+        </div>
+      `;
+    }
+
+    if (!this.selectedPetIdForDiary || !manager.pets.some(p => p.id === this.selectedPetIdForDiary)) {
+      this.selectedPetIdForDiary = manager.pets[0].id;
+    }
+
+    const pet = manager.pets.find(p => p.id === this.selectedPetIdForDiary) || manager.pets[0];
+    const breed = PET_BREEDS[pet.breed] || PET_BREEDS.orange;
+    const mem = typeof PetMemory !== 'undefined' ? PetMemory.getMemory(pet) : null;
+    const bond = typeof PetMemory !== 'undefined' ? PetMemory.getBondProgress(mem) : { level: 1, name: 'คนแปลกหน้าขี้ระแวง', percent: 20, icon: '🐾', currentExp: 20, neededExp: 100, color: '#adb5bd' };
+    const mood = typeof PetMemory !== 'undefined' ? PetMemory.getMood(pet) : { id: 'curious', label: 'อยากรู้อยากเห็น', icon: '🧐', desc: 'สดใส' };
+    const days = typeof PetMemory !== 'undefined' ? PetMemory.getDaysTogether(mem) : 1;
+    const stats = mem?.stats || { totalPetted: 0, totalFed: 0, totalPlaySessions: 0, totalDocsRead: 0, totalReadingMinutes: 0, nightOwlSessions: 0 };
+    const gifts = (typeof SOUVENIR_GIFTS !== 'undefined') ? SOUVENIR_GIFTS : [];
+    const collectedGifts = mem?.giftsCollected || [];
+    const diaryEntries = mem?.diaryEntries || [];
+
+    return `
+      <div class="pet-diary-container">
+        <!-- Top Pet Switcher & Profile Header -->
+        <div class="pet-diary-header-card">
+          <div class="pet-diary-selector-row">
+            <span class="pet-diary-selector-label">🐱 เลือกน้องแมว:</span>
+            <select class="pet-diary-select" id="memory-diary-pet-select">
+              ${manager.pets.map(p => `
+                <option value="${p.id}" ${p.id === pet.id ? 'selected' : ''}>
+                  ${p.name} (${PET_BREEDS[p.breed]?.name || 'แมว'})
+                </option>
+              `).join('')}
+            </select>
+          </div>
+
+          <div class="pet-diary-profile-row">
+            <div class="pet-diary-avatar">
+              ${PetRenderer.renderCatSvg(breed, { ...pet, state: 'sit' })}
+            </div>
+            <div class="pet-diary-details">
+              <div class="pet-diary-name-wrap">
+                <span class="pet-diary-name">${pet.name}</span>
+                <span class="pet-diary-bond-badge" style="background:${bond.color}22;color:${bond.color};border:1px solid ${bond.color}55;">
+                  ${bond.icon} ระดับ ${bond.level}: ${bond.name}
+                </span>
+                <span class="pet-diary-mood-badge" title="${mood.desc}">
+                  ${mood.icon} ${mood.label}
+                </span>
+              </div>
+
+              <!-- Bond Progress Track -->
+              <div class="pet-diary-exp-section">
+                <div class="pet-diary-exp-label-row">
+                  <span>พลังความผูกพัน (Bond EXP)</span>
+                  <span><strong>${bond.percent}%</strong> (${bond.currentExp} ${bond.neededExp === Infinity ? '' : '/ ' + bond.neededExp} EXP)</span>
+                </div>
+                <div class="pet-diary-exp-track">
+                  <div class="pet-diary-exp-fill" style="width:${bond.percent}%;background:${bond.color};"></div>
+                </div>
+              </div>
+
+              <div class="pet-diary-meta-row">
+                <span>🗓️ อยู่ร่วมกันมาแล้ว: <strong>${days} วัน</strong></span>
+                <span>•</span>
+                <span>🐾 วันแรกที่พบกัน: <strong>${mem?.firstMetDateStr || 'เมื่อไม่นานมานี้'}</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 Stats Counter Grid -->
+        <div class="pet-diary-stats-grid">
+          <div class="pet-stat-box">
+            <div class="pet-stat-box-icon">🖐️</div>
+            <div class="pet-stat-box-val">${stats.totalPetted} ครั้ง</div>
+            <div class="pet-stat-box-lbl">เกาคางลูบพุง</div>
+          </div>
+          <div class="pet-stat-box">
+            <div class="pet-stat-box-icon">🐟</div>
+            <div class="pet-stat-box-val">${stats.totalFed} มื้อ</div>
+            <div class="pet-stat-box-lbl">ป้อนอาหารปลาทู</div>
+          </div>
+          <div class="pet-stat-box">
+            <div class="pet-stat-box-icon">🧶</div>
+            <div class="pet-stat-box-val">${stats.totalPlaySessions} ครั้ง</div>
+            <div class="pet-stat-box-lbl">ชวนเล่นของเล่น</div>
+          </div>
+          <div class="pet-stat-box">
+            <div class="pet-stat-box-icon">📚</div>
+            <div class="pet-stat-box-val">${stats.totalDocsRead} ไฟล์</div>
+            <div class="pet-stat-box-lbl">เอกสารที่ร่วมอ่าน</div>
+          </div>
+          <div class="pet-stat-box">
+            <div class="pet-stat-box-icon">⏳</div>
+            <div class="pet-stat-box-val">${stats.totalReadingMinutes} นาที</div>
+            <div class="pet-stat-box-lbl">เวลาร่วมเดินทาง</div>
+          </div>
+          <div class="pet-stat-box">
+            <div class="pet-stat-box-icon">🌙</div>
+            <div class="pet-stat-box-val">${stats.nightOwlSessions} คืน</div>
+            <div class="pet-stat-box-lbl">ลุยงานดึกด้วยกัน</div>
+          </div>
+        </div>
+
+        ${mem?.favoriteDoc ? `
+          <div class="pet-fav-doc-banner">
+            <span class="fav-doc-star">⭐</span>
+            <span>เอกสารเล่มโปรดของทาสที่เหมียวจำได้แม่นยำ: <strong>"${mem.favoriteDoc.name}"</strong> (เปิดอ่านร่วมกัน ${mem.favoriteDoc.count} ครั้ง)</span>
+          </div>
+        ` : ''}
+
+        <!-- Souvenirs / Gifts Showcase -->
+        <div class="pet-diary-section-title">
+          <span>🎁 ของขวัญนำโชคที่ ${pet.name} มอบให้ทาส</span>
+          <span class="pet-gifts-count">(${collectedGifts.length}/${gifts.length} ชิ้น)</span>
+        </div>
+        <div class="pet-gifts-grid">
+          ${gifts.map(g => {
+            const unlocked = collectedGifts.find(c => c.id === g.id);
+            return `
+              <div class="pet-gift-card ${unlocked ? 'is-unlocked' : 'is-locked'}" title="${unlocked ? g.desc : 'เงื่อนไขปลดล็อก: ' + g.req}">
+                <div class="pet-gift-icon">${unlocked ? g.icon : '🔒'}</div>
+                <div class="pet-gift-info">
+                  <div class="pet-gift-name">${g.name}</div>
+                  <div class="pet-gift-desc">${unlocked ? g.desc : 'เงื่อนไข: ' + g.req}</div>
+                  ${unlocked ? `<div class="pet-gift-date">ได้รับเมื่อ ${unlocked.unlockedDateStr || 'เมื่อไม่นานมานี้'}</div>` : ''}
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+
+        <!-- Pet Diary Journal Timeline -->
+        <div class="pet-diary-section-title">
+          <span>📝 สมุดบันทึกเรื่องราว (Pet Diary Journal)</span>
+          <span class="pet-diary-count">(${diaryEntries.length} บันทึก)</span>
+        </div>
+        <div class="pet-diary-timeline">
+          ${diaryEntries.length === 0 ? `
+            <div class="pet-diary-empty">ยังไม่มีบันทึกเรื่องราว</div>
+          ` : diaryEntries.map(entry => `
+            <div class="pet-diary-entry">
+              <div class="pet-diary-entry-icon">${entry.icon || '🐾'}</div>
+              <div class="pet-diary-entry-content">
+                <div class="pet-diary-entry-header">
+                  <span class="pet-diary-entry-title">${entry.title}</span>
+                  <span class="pet-diary-entry-date">${entry.dateStr || ''} ${entry.timeStr ? '(' + entry.timeStr + ' น.)' : ''}</span>
+                </div>
+                <div class="pet-diary-entry-desc">${entry.desc}</div>
+              </div>
+            </div>
+          `).join('')}
+        </div>
       </div>
     `;
   },
@@ -455,7 +640,12 @@ export const PetUI = {
         if (!pet) return;
 
         const action = btn.dataset.action;
-        if (action === 'tickle') {
+        if (action === 'open_diary') {
+          this.selectedPetIdForDiary = pet.id;
+          const diaryTabBtn = overlay.querySelector('[data-tab="memory_diary"]');
+          if (diaryTabBtn) diaryTabBtn.click();
+          return;
+        } else if (action === 'tickle') {
           manager.ticklePet(pet);
         } else if (action === 'feed') {
           manager.feedPet(pet);
@@ -479,6 +669,19 @@ export const PetUI = {
             overlay.querySelector('#pet-modal-tab-content').innerHTML = this.renderTabContent('my_pets', manager);
             this.bindTabSpecificEvents(overlay, manager);
           }
+        }
+      });
+    }
+
+    // 1.5 Memory Diary Events
+    const diaryPetSelect = overlay.querySelector('#memory-diary-pet-select');
+    if (diaryPetSelect) {
+      diaryPetSelect.addEventListener('change', (e) => {
+        this.selectedPetIdForDiary = e.target.value;
+        const contentWrap = overlay.querySelector('#pet-modal-tab-content');
+        if (contentWrap) {
+          contentWrap.innerHTML = this.renderTabContent('memory_diary', manager);
+          this.bindTabSpecificEvents(overlay, manager);
         }
       });
     }
@@ -650,6 +853,9 @@ export const PetUI = {
 
     const breed = PET_BREEDS[pet.breed] || PET_BREEDS.orange;
     const title = PetPersonality.getPersonalityTitle(pet.personality);
+    const mem = typeof PetMemory !== 'undefined' ? PetMemory.getMemory(pet) : null;
+    const moodInfo = typeof PetMemory !== 'undefined' ? PetMemory.getMood(pet) : { icon: '✨', label: 'สดใส' };
+    const bondInfo = typeof PetMemory !== 'undefined' ? PetMemory.getBondProgress(mem) : null;
 
     const menu = document.createElement('div');
     menu.className = 'pet-context-menu';
@@ -659,10 +865,12 @@ export const PetUI = {
     menu.innerHTML = `
       <div class="pet-menu-header">
         <div style="font-weight:700;font-size:13px;color:#212529;">🐾 ${pet.name}</div>
-        <div style="font-size:11px;color:#6c757d;">${breed.shortName} • ${title}</div>
+        <div style="font-size:11px;color:#6c757d;">${breed.shortName} • ${bondInfo ? bondInfo.name : title}</div>
       </div>
       <button class="pet-menu-item" data-action="tickle">🖐️ เกาคาง / ลูบพุง</button>
       <button class="pet-menu-item" data-action="feed">🐟 ให้อาหาร / ปลาทู</button>
+      <button class="pet-menu-item" data-action="open_diary">📖 สมุดความทรงจำ & ไดอารี่</button>
+      <button class="pet-menu-item" data-action="view_mood">💭 อารมณ์: ${moodInfo.icon} ${moodInfo.label}</button>
       <button class="pet-menu-item" data-action="toggle_stay">
         ${pet.isStaying ? '▶️ สั่งให้ออกเดินเล่น' : '⏸️ สั่งให้นอนเฝ้าตรงนี้'}
       </button>
@@ -686,7 +894,16 @@ export const PetUI = {
 
       if (act === 'tickle') manager.ticklePet(pet);
       else if (act === 'feed') manager.feedPet(pet);
-      else if (act === 'toggle_stay') {
+      else if (act === 'open_diary') {
+        this.selectedPetIdForDiary = pet.id;
+        this.openManagementModal(manager);
+        const diaryBtn = this.activeModal?.querySelector('[data-tab="memory_diary"]');
+        if (diaryBtn) diaryBtn.click();
+      } else if (act === 'view_mood') {
+        const pMem = typeof PetMemory !== 'undefined' ? PetMemory.getMemory(pet) : null;
+        const msg = getRandomDialogue('mood', { petName: pet.name, mood: pet.mood, petMemory: pMem, pet });
+        manager.say(pet, msg, 4500);
+      } else if (act === 'toggle_stay') {
         pet.isStaying = !pet.isStaying;
         manager.saveState();
         manager.say(pet, pet.isStaying ? 'รับทราบ! เหมียวจะนอนเฝ้าตรงนี้' : 'เย้! ได้เวลาออกสำรวจแล้ว!', 3000);
@@ -724,6 +941,147 @@ export const PetUI = {
     }
   },
 
+  // 2.1 เมนูวงกลมรอบตัวแมว (Radial / Circular Menu - Style 2 Kawaii Pastel Paws)
+  activeRadialMenu: null,
+
+  toggleRadialMenu(pet, manager) {
+    if (this.activeRadialMenu && this.activeRadialMenu._petId === pet.id) {
+      this.closeRadialMenu();
+    } else {
+      this.openRadialMenu(pet, manager);
+    }
+  },
+
+  closeRadialMenu() {
+    if (this.activeRadialMenu) {
+      if (this.activeRadialMenu._outsideHandler) {
+        window.removeEventListener('pointerdown', this.activeRadialMenu._outsideHandler);
+      }
+      if (this.activeRadialMenu._pet) {
+        this.activeRadialMenu._pet.hasRadialMenuOpen = false;
+      }
+      this.activeRadialMenu.remove();
+      this.activeRadialMenu = null;
+    }
+  },
+
+  openRadialMenu(pet, manager) {
+    this.closeRadialMenu();
+    this.closeContextMenu();
+
+    // ล็อคให้แมวหยุดนิ่งอยู่กับที่ทันที ไม่ให้เคลื่อนที่หนีเมนูวงกลม
+    pet.hasRadialMenuOpen = true;
+    pet.targetX = null;
+    pet.targetY = null;
+    pet.targetAction = null;
+    pet.vx = 0;
+    pet.vy = 0;
+    if (pet.state === 'walk' || pet.state === 'run') {
+      pet.state = 'sit';
+      PetRenderer.updatePetVisuals(pet.el, pet);
+    }
+
+    const layer = manager.layerEl || document.body;
+    const menu = document.createElement('div');
+    menu.className = 'pet-radial-menu radial-style-kawaii-paw';
+    menu._petId = pet.id;
+    menu._pet = pet;
+
+    // คำนวณจุดกึ่งกลางอิงตามตำแหน่งตัวแมว
+    const centerX = pet.x + 42;
+    const centerY = pet.y + 35;
+    menu.style.left = `${centerX}px`;
+    menu.style.top = `${centerY}px`;
+
+    // 4 คำสั่งหลักรอบตัวแมว (ตัดปุ่มเก็บเข้าบ้านออกเพื่อความปลอดภัย) + 1 ทางลัดเปิดไดอารี่
+    const items = [
+      { id: 'tickle',  icon: '🖐️', label: 'เกา/ลูบ',        angle: -135, cls: 'action-tickle' },
+      { id: 'feed',    icon: '🐟', label: 'ให้อาหาร',       angle: -45,  cls: 'action-feed' },
+      { id: 'stay',    icon: pet.isStaying ? '▶️' : '💤', label: pet.isStaying ? 'ให้เดิน' : 'สั่งนอน', angle: 45, cls: 'action-stay' },
+      { id: 'prey',    icon: '🦋', label: 'ปล่อยผีเสื้อ',   angle: 135,  cls: 'action-prey' }
+    ];
+
+    // ตรวจสอบขอบจอ (Edge Boundary Clamping)
+    let radius = 76;
+    if (centerX < 85 || centerX > window.innerWidth - 85 || centerY < 85 || centerY > window.innerHeight - 85) {
+      radius = 65;
+    }
+
+    let buttonsHtml = '';
+    items.forEach((item, idx) => {
+      const rad = (item.angle * Math.PI) / 180;
+      const x = Math.round(Math.cos(rad) * radius);
+      const y = Math.round(Math.sin(rad) * radius);
+
+      buttonsHtml += `
+        <button class="pet-radial-item ${item.cls}" data-action="${item.id}" style="--rx:${x}px; --ry:${y}px; --anim-delay:${idx * 0.04}s;" title="${item.label}">
+          <span class="radial-paw-bead bead-1"></span>
+          <span class="radial-paw-bead bead-2"></span>
+          <span class="radial-paw-bead bead-3"></span>
+          <span class="radial-icon">${item.icon}</span>
+          <span class="radial-label">${item.label}</span>
+        </button>
+      `;
+    });
+
+    // ปุ่มลัดไดอารี่กึ่งกลางข้างใต้ตัวแมว
+    buttonsHtml += `
+      <button class="pet-radial-diary-pill" data-action="open_diary" title="เปิดสมุดไดอารี่ & ความทรงจำ">
+        <span>📖</span>
+        <span class="radial-diary-text">ไดอารี่</span>
+      </button>
+    `;
+
+    menu.innerHTML = buttonsHtml;
+
+    menu.addEventListener('click', (e) => {
+      const btn = e.target.closest('[data-action]');
+      if (!btn) return;
+      e.stopPropagation();
+      const action = btn.dataset.action;
+      this.closeRadialMenu();
+
+      if (action === 'tickle') {
+        manager.ticklePet(pet);
+      } else if (action === 'feed') {
+        manager.feedPet(pet);
+      } else if (action === 'stay') {
+        pet.isStaying = !pet.isStaying;
+        if (pet.isStaying) {
+          pet.state = 'sleep_loaf';
+          manager.say(pet, 'รับทราบ! เหมียวจะนอนนิ่งพักผ่อนตรงนี้นะ 💤', 3200);
+        } else {
+          pet.state = 'stand';
+          manager.say(pet, 'เย้! ได้เวลาออกเดินสำรวจแล้วเหมียว~ 🐾', 3200);
+        }
+        PetRenderer.updatePetVisuals(pet.el, pet);
+        manager.saveState();
+      } else if (action === 'prey') {
+        if (Math.random() > 0.5) manager.spawnButterflyNear(pet);
+        else manager.spawnGeckoNear(pet);
+      } else if (action === 'open_diary') {
+        this.selectedPetIdForDiary = pet.id;
+        this.openManagementModal(manager);
+        const diaryBtn = this.activeModal?.querySelector('[data-tab="memory_diary"]');
+        if (diaryBtn) diaryBtn.click();
+      }
+    });
+
+    layer.appendChild(menu);
+    this.activeRadialMenu = menu;
+
+    // ปิดเมนูอัตโนมัติเมื่อคลิกนอกพื้นที่
+    const outsideHandler = (e) => {
+      if (!menu.contains(e.target) && !pet.el?.contains(e.target)) {
+        this.closeRadialMenu();
+      }
+    };
+    menu._outsideHandler = outsideHandler;
+    setTimeout(() => {
+      window.addEventListener('pointerdown', outsideHandler);
+    }, 60);
+  },
+
   // 3. ปล่อยเอฟเฟกต์แอนิเมชันลอย
   spawnFx(type, x, y, layerEl) {
     if (!layerEl) return;
@@ -758,8 +1116,6 @@ export const PetUI = {
 
     const propTypes = [
       { type: 'cat_toy_yarn', label: 'ไหมพรม', icon: '🧶' },
-      { type: 'laser_dot', label: 'เลเซอร์', icon: '🔴' },
-      { type: 'feather_wand', label: 'ไม้ขนนก', icon: '🪶' },
       { type: 'cat_house', label: 'บ้านแมว', icon: '📦' },
       { type: 'cat_condo', label: 'คอนโด', icon: '🏰' },
       { type: 'cat_bed', label: 'ที่นอน', icon: '🛏️' },

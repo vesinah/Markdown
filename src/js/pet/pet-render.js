@@ -16,6 +16,7 @@ export class PetRenderer {
 
     el.innerHTML = `
       <div class="pet-name-tag">${pet.name}</div>
+      <div class="pet-mood-badge"></div>
       <div class="pet-bubble-wrap">
         <div class="pet-bubble"></div>
       </div>
@@ -36,18 +37,29 @@ export class PetRenderer {
     const breed = PET_BREEDS[pet.breed] || PET_BREEDS.orange;
     const svgWrap = el.querySelector('.pet-svg-container');
     const nameTag = el.querySelector('.pet-name-tag');
+    const moodBadge = el.querySelector('.pet-mood-badge');
 
     if (nameTag && nameTag.textContent !== pet.name) {
       nameTag.textContent = pet.name;
+    }
+
+    if (moodBadge) {
+      const moodIcons = { blissful: '🥰', loving: '💖', curious: '🧐', playful: '⚡', sleepy: '😴', pouting: '😤', proud: '👑', hungry: '🐟', lonely: '🥺' };
+      const curMood = pet.mood || 'curious';
+      moodBadge.textContent = moodIcons[curMood] || '✨';
+      if (typeof moodBadge.setAttribute === 'function') {
+        moodBadge.setAttribute('data-mood', curMood);
+      }
     }
 
     // กำหนด Class สำหรับสายพันธุ์ ท่าทาง และทิศทาง
     const isFluffy = breed.furType === 'fluffy_persian';
     const tailType = pet.tailType || breed.defaultTail || 'long';
     const build = pet.build || breed.defaultBuild || 'normal';
+    const moodClass = `mood-${pet.mood || 'curious'}`;
 
     const buildClass = `build-${build} ${build === 'slim' ? 'build-skinny' : ''} ${build === 'skinny' ? 'build-slim' : ''}`.trim();
-    el.className = `desktop-pet pet-breed-${pet.breed} pet-state-${pet.state || 'stand'} facing-${pet.facing || 'right'} ${pet.isDragged ? 'is-dragged' : ''} ${pet.isBlocked ? 'is-blocked' : ''} ${pet.isSpeaking ? 'is-speaking' : ''} ${isFluffy ? 'is-fluffy' : ''} ${buildClass} tail-${tailType}`;
+    el.className = `desktop-pet pet-breed-${pet.breed} pet-state-${pet.state || 'stand'} facing-${pet.facing || 'right'} ${pet.isDragged ? 'is-dragged' : ''} ${pet.isBlocked ? 'is-blocked' : ''} ${pet.isSpeaking ? 'is-speaking' : ''} ${isFluffy ? 'is-fluffy' : ''} ${buildClass} tail-${tailType} ${moodClass}`;
     
     // ปรับ Scale ตัวแมว
     const scale = pet.scale || 1;
@@ -407,6 +419,42 @@ export class PetRenderer {
         <circle cx="57" cy="31" r="4.2" fill="${b.pupilColor}"/>
         <circle cx="55.5" cy="29.5" r="1.8" fill="#ffffff"/>
         <circle cx="58.5" cy="32.5" r="0.9" fill="#ffffff"/>
+      `;
+    } else if (pet.mood === 'blissful') {
+      // เคลิ้มฟิน ตายิ้มหยีพระจันทร์เสี้ยวเปี่ยมสุข ^.^
+      eyesSvg = `
+        <path d="M 39 32 Q 43 27 47 32" fill="none" stroke="#222" stroke-width="2.3" stroke-linecap="round"/>
+        <path d="M 53 32 Q 57 27 61 32" fill="none" stroke="#222" stroke-width="2.3" stroke-linecap="round"/>
+      `;
+    } else if (pet.mood === 'loving') {
+      // คลั่งรัก ดวงตามีประกายหัวใจ
+      eyesSvg = `
+        <circle cx="43" cy="30" r="5" fill="${b.eyeColor}"/>
+        <circle cx="43" cy="30" r="3.5" fill="${b.pupilColor}"/>
+        <circle cx="41.5" cy="28.5" r="1.8" fill="#ffffff"/>
+        <path d="M 43 28.5 C 41.5 27 39.5 29 43 32 C 46.5 29 44.5 27 43 28.5 Z" fill="#ff758f" opacity="0.95"/>
+        <circle cx="57" cy="30" r="5" fill="${b.eyeColor}"/>
+        <circle cx="57" cy="30" r="3.5" fill="${b.pupilColor}"/>
+        <circle cx="55.5" cy="28.5" r="1.8" fill="#ffffff"/>
+        <path d="M 57 28.5 C 55.5 27 53.5 29 57 32 C 60.5 29 58.5 27 57 28.5 Z" fill="#ff758f" opacity="0.95"/>
+      `;
+    } else if (pet.mood === 'sleepy') {
+      // ง่วงนอนตาปรือ
+      eyesSvg = `
+        <ellipse cx="43" cy="32" rx="4.5" ry="2.2" fill="${b.eyeColor}"/>
+        <ellipse cx="43.5" cy="32" rx="2.5" ry="1.8" fill="${b.pupilColor}"/>
+        <line x1="38" y1="30" x2="48" y2="31" stroke="#222" stroke-width="2.0" stroke-linecap="round"/>
+        <ellipse cx="57" cy="32" rx="4.5" ry="2.2" fill="${b.eyeColor}"/>
+        <ellipse cx="56.5" cy="32" rx="2.5" ry="1.8" fill="${b.pupilColor}"/>
+        <line x1="52" y1="31" x2="62" y2="30" stroke="#222" stroke-width="2.0" stroke-linecap="round"/>
+      `;
+    } else if (pet.mood === 'pouting') {
+      // งอนตุ๊บป่อง ตาหรี่มองค้อน
+      eyesSvg = `
+        <line x1="39" y1="32" x2="47" y2="30" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+        <circle cx="43" cy="32" r="1.6" fill="${b.pupilColor}"/>
+        <line x1="53" y1="30" x2="61" y2="32" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+        <circle cx="57" cy="32" r="1.6" fill="${b.pupilColor}"/>
       `;
     } else {
       // ตาแป๋วปกติ มีประกายวิบวับ

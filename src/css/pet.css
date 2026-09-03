@@ -104,12 +104,12 @@
   transform: translateX(-50%) translateY(-2px);
 }
 
-/* 5. Comic Speech Bubble */
+/* 5. Comic Speech Bubble (กล่องคำพูดลอยเหนือศีรษะแมว ไม่บังตัวแมว) */
 .pet-bubble-wrap {
   position: absolute;
-  bottom: 82%;
+  bottom: calc(100% + 14px);
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(var(--bubble-tx, -50%));
   min-width: 170px;
   max-width: var(--pet-speech-max-w, 260px);
   pointer-events: none;
@@ -128,38 +128,58 @@
 }
 
 @keyframes bubble-pop-in {
-  0% { opacity: 0; transform: scale(0.8) translateY(12px); }
-  100% { opacity: 1; transform: scale(1) translateY(0); }
+  0% {
+    opacity: 0;
+    transform: translate(var(--bubble-tx, -50%), 10px) scale(0.85);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(var(--bubble-tx, -50%), 0) scale(1);
+  }
 }
 
 .pet-bubble {
   position: relative;
-  background: #ffffff;
-  color: #1e293b;
+  background: var(--bg2, #ffffff);
+  color: var(--text, #1e293b);
   font-family: inherit;
   font-size: var(--pet-speech-size, 12.5px);
   line-height: 1.45;
   font-weight: 500;
   padding: 9px 13px;
   border-radius: 14px;
-  box-shadow: 0 10px 25px -4px rgba(0, 0, 0, 0.18), 0 4px 6px -2px rgba(0, 0, 0, 0.08);
-  border: 1.5px solid #e2e8f0;
+  box-shadow: 0 10px 25px -4px var(--shadow, rgba(0, 0, 0, 0.18)), 0 4px 6px -2px rgba(0, 0, 0, 0.08);
+  border: 1.5px solid var(--border, #e2e8f0);
   word-wrap: break-word;
 }
 
-/* Speech Bubble Tail */
+/* Speech Bubble Tail (หางชี้ลงศีรษะแมว) */
 .pet-bubble::after {
   content: '';
   position: absolute;
-  bottom: -7px;
-  left: 50%;
+  bottom: -8px;
+  left: var(--tail-left, 50%);
   transform: translateX(-50%);
-  border-width: 7px 7px 0 7px;
+  border-width: 8px 7px 0 7px;
   border-style: solid;
-  border-color: #ffffff transparent transparent transparent;
+  border-color: var(--bg2, #ffffff) transparent transparent transparent;
   display: block;
   width: 0;
   filter: drop-shadow(0 2px 1px rgba(0, 0, 0, 0.08));
+  transition: left 0.15s ease;
+}
+
+/* กรณีแมวอยู่ชิดขอบบนหน้าจอ ให้กล่องคำพูดแสดงข้างใต้ตัวแมวแทน */
+.pet-bubble-wrap.bubble-below {
+  bottom: auto;
+  top: calc(100% + 14px);
+}
+
+.pet-bubble-wrap.bubble-below .pet-bubble::after {
+  bottom: auto;
+  top: -8px;
+  border-width: 0 7px 8px 7px;
+  border-color: transparent transparent var(--bg2, #ffffff) transparent;
 }
 
 /* 6. Hardware-Accelerated Animations */
@@ -1583,18 +1603,526 @@
   color: #ffffff;
 }
 
-/* Laser Dot Glowing Pulse Animation */
-.laser-pulse-ring {
-  transform-origin: 20px 20px;
-  animation: laser-glow-pulse 1.1s infinite ease-in-out alternate;
+/* Pet Mood Badge Floating Icon */
+.pet-mood-badge {
+  position: absolute;
+  top: -8px;
+  right: 14px;
+  font-size: 13px;
+  line-height: 1;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 50%;
+  padding: 2px 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  pointer-events: none;
+  animation: mood-float 2.5s infinite ease-in-out alternate;
+  z-index: 5;
 }
-@keyframes laser-glow-pulse {
-  0% { transform: scale(0.9); opacity: 0.75; }
-  100% { transform: scale(1.18); opacity: 0.45; }
+@keyframes mood-float {
+  0% { transform: translateY(0) scale(1); }
+  100% { transform: translateY(-3px) scale(1.08); }
 }
 
-/* Wand Feather Kinematics Swing */
-.wand-feather-swing {
-  will-change: transform;
+.pet-card-btn.highlight {
+  background: linear-gradient(135deg, #4361ee, #3a0ca3);
+  color: #ffffff;
+  border-color: #3a0ca3;
 }
+.pet-card-btn.highlight:hover {
+  background: linear-gradient(135deg, #3a0ca3, #4361ee);
+  color: #ffffff;
+}
+
+/* Memory & Diary Journal Modal Subsystem */
+.pet-diary-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #212529;
+}
+
+.pet-diary-header-card {
+  background: linear-gradient(135deg, #f8f9fa, #ffffff);
+  border: 1px solid #e9ecef;
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.pet-diary-selector-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #edf2f7;
+}
+
+.pet-diary-selector-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #495057;
+}
+
+.pet-diary-select {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 13px;
+  font-weight: 600;
+  background: #ffffff;
+  color: #1e293b;
+  cursor: pointer;
+}
+
+.pet-diary-profile-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.pet-diary-avatar {
+  width: 90px;
+  height: 72px;
+  flex-shrink: 0;
+  background: radial-gradient(circle, #f1f5f9 40%, #e2e8f0 100%);
+  border-radius: 12px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pet-diary-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pet-diary-name-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pet-diary-name {
+  font-size: 17px;
+  font-weight: 800;
+  color: #1e293b;
+}
+
+.pet-diary-bond-badge {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 14px;
+}
+
+.pet-diary-mood-badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 14px;
+  background: #f1f5f9;
+  color: #334155;
+  border: 1px solid #e2e8f0;
+}
+
+.pet-diary-exp-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.pet-diary-exp-label-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11.5px;
+  color: #64748b;
+}
+
+.pet-diary-exp-track {
+  width: 100%;
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.pet-diary-exp-fill {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.4s ease;
+}
+
+.pet-diary-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #64748b;
+}
+
+/* 6 Stats Box Grid */
+.pet-diary-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.pet-stat-box {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 10px 12px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+}
+
+.pet-stat-box-icon {
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.pet-stat-box-val {
+  font-size: 15px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.pet-stat-box-lbl {
+  font-size: 11px;
+  color: #64748b;
+  margin-top: 1px;
+}
+
+.pet-fav-doc-banner {
+  background: linear-gradient(135deg, #eff6ff, #dbeafe);
+  border: 1px solid #bfdbfe;
+  border-radius: 10px;
+  padding: 9px 14px;
+  font-size: 12.5px;
+  color: #1e40af;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.fav-doc-star {
+  font-size: 16px;
+}
+
+.pet-diary-section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-top: 6px;
+}
+
+.pet-gifts-count, .pet-diary-count {
+  font-size: 12px;
+  font-weight: 600;
+  color: #64748b;
+}
+
+/* Gifts Showcase */
+.pet-gifts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.pet-gift-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+.pet-gift-card.is-unlocked {
+  border-color: #cbd5e1;
+  background: linear-gradient(135deg, #ffffff, #fdf8f6);
+}
+
+.pet-gift-card.is-locked {
+  opacity: 0.65;
+  background: #f8fafc;
+}
+
+.pet-gift-icon {
+  font-size: 24px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.pet-gift-info {
+  flex: 1;
+}
+
+.pet-gift-name {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.pet-gift-desc {
+  font-size: 11px;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+.pet-gift-date {
+  font-size: 10px;
+  color: #059669;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+/* Timeline */
+.pet-diary-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 240px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.pet-diary-entry {
+  display: flex;
+  gap: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #f1f5f9;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+}
+
+.pet-diary-entry-icon {
+  font-size: 18px;
+  line-height: 1.2;
+  flex-shrink: 0;
+}
+
+.pet-diary-entry-content {
+  flex: 1;
+}
+
+.pet-diary-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.pet-diary-entry-title {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.pet-diary-entry-date {
+  font-size: 10.5px;
+  color: #94a3b8;
+}
+
+.pet-diary-entry-desc {
+  font-size: 11.5px;
+  color: #475569;
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+.pet-diary-empty {
+  text-align: center;
+  padding: 16px;
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+/* ==========================================================================
+   เมนูวงกลมรอบตัวแมว (Radial / Circular Menu - Style 2 Kawaii Pastel Paws)
+   รองรับการเปลี่ยนสีตามธีมของโปรแกรมอัตโนมัติ (Theme-Adaptive System)
+   ========================================================================== */
+
+.pet-radial-menu {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  z-index: 10005;
+  user-select: none;
+}
+
+.pet-radial-item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 2.5px solid var(--border, #e2e8f0);
+  background: var(--bg2, #ffffff);
+  color: var(--text, #1e293b);
+  box-shadow: 0 4px 14px var(--shadow, rgba(0, 0, 0, 0.12)), 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  pointer-events: auto;
+  transform: translate(calc(var(--rx, 0px) - 50%), calc(var(--ry, 0px) - 50%)) scale(0.3);
+  opacity: 0;
+  animation: pet-radial-pop 0.28s cubic-bezier(0.18, 0.89, 0.32, 1.28) forwards;
+  animation-delay: var(--anim-delay, 0s);
+  transition: transform 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28),
+              border-color 0.2s ease,
+              background 0.2s ease,
+              box-shadow 0.2s ease;
+}
+
+@keyframes pet-radial-pop {
+  0% {
+    opacity: 0;
+    transform: translate(calc(var(--rx, 0px) - 50%), calc(var(--ry, 0px) - 50%)) scale(0.3);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(calc(var(--rx, 0px) - 50%), calc(var(--ry, 0px) - 50%)) scale(1);
+  }
+}
+
+/* เม็ดอุ้งเท้าแมวประดับด้านบน (Kawaii Paw Beads) */
+.radial-paw-bead {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent, #f97316);
+  opacity: 0.35;
+  transition: all 0.2s ease;
+}
+.radial-paw-bead.bead-1 {
+  top: 1px;
+  left: 9px;
+  transform: rotate(-20deg);
+}
+.radial-paw-bead.bead-2 {
+  top: -2px;
+  left: 19px;
+}
+.radial-paw-bead.bead-3 {
+  top: 1px;
+  right: 9px;
+  transform: rotate(20deg);
+}
+
+.pet-radial-item:hover {
+  transform: translate(calc(var(--rx, 0px) - 50%), calc(var(--ry, 0px) - 50%)) scale(1.22);
+  border-color: var(--accent, #f97316);
+  background: var(--bg3, #f8fafc);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22), 0 0 10px var(--accent, rgba(249, 115, 22, 0.35));
+  z-index: 10;
+}
+
+.pet-radial-item:hover .radial-paw-bead {
+  opacity: 0.95;
+  transform: scale(1.2);
+}
+
+/* ไอคอนตรงกลาง */
+.pet-radial-item .radial-icon {
+  font-size: 20px;
+  line-height: 1;
+  pointer-events: none;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+}
+
+/* ป้ายชื่อคำสั่ง (Tooltip Label) */
+.pet-radial-item .radial-label {
+  position: absolute;
+  bottom: -22px;
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  background: var(--bg3, #1e293b);
+  color: var(--text, #ffffff);
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.15));
+  box-shadow: 0 4px 12px var(--shadow, rgba(0, 0, 0, 0.2));
+  font-size: 10px;
+  font-weight: 700;
+  white-space: nowrap;
+  padding: 1.5px 7px;
+  border-radius: 9px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.16s ease;
+}
+
+.pet-radial-item:hover .radial-label {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* ปุ่มอันตราย (เก็บเข้าบ้าน) */
+.pet-radial-item.is-danger:hover {
+  border-color: #ef4444;
+  box-shadow: 0 8px 22px rgba(239, 68, 68, 0.3), 0 0 10px rgba(239, 68, 68, 0.4);
+}
+.pet-radial-item.is-danger:hover .radial-paw-bead {
+  background: #ef4444;
+}
+
+/* ปุ่มลัดสมุดความทรงจำ & ไดอารี่ (Center Bottom Pill) */
+.pet-radial-diary-pill {
+  position: absolute;
+  left: 50%;
+  top: 52px;
+  transform: translateX(-50%) scale(0.6);
+  opacity: 0;
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 11px;
+  border-radius: 14px;
+  background: var(--bg2, #ffffff);
+  border: 1.5px solid var(--border, #cbd5e1);
+  color: var(--text2, #64748b);
+  box-shadow: 0 3px 10px var(--shadow, rgba(0, 0, 0, 0.1));
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  animation: pet-radial-diary-pop 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0.18s forwards;
+  transition: all 0.18s ease;
+}
+
+@keyframes pet-radial-diary-pop {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) scale(0.6);
+  }
+  100% {
+    opacity: 0.95;
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+.pet-radial-diary-pill:hover {
+  opacity: 1;
+  transform: translateX(-50%) scale(1.08);
+  border-color: var(--accent, #f97316);
+  color: var(--accent, #ea580c);
+  background: var(--bg3, #f8fafc);
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.15), 0 0 8px var(--accent, rgba(249, 115, 22, 0.3));
+}
+
 

@@ -193,6 +193,18 @@ export const PetHygiene = {
     }, 360);
   },
 
+  // 4.1 เพิ่มคะแนนความสะอาดเมื่อใช้กระบะทราย
+  addCleanliness(score = 5) {
+    this.cleanlinessScore = Math.max(0, this.cleanlinessScore + score);
+    if (this.store && typeof this.store.set === 'function') {
+      try {
+        this.store.set('pet_cleanliness_score', this.cleanlinessScore);
+      } catch (e) {
+        console.warn('[PetHygiene] Error saving cleanliness score:', e.message);
+      }
+    }
+  },
+
   // 5. แสดงเอฟเฟกต์ข้อความและประกายความสะอาด (+10 สดชื่น ✨)
   spawnCleanSparkle(x, y) {
     if (!this.containerEl) return;

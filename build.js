@@ -116,6 +116,7 @@ const jsModules = [
   'js/ui/theme.js',
   'js/pet/pet-breeds.js',
   'js/pet/pet-personality.js',
+  'js/pet/pet-memory.js',
   'js/pet/pet-dialogues.js',
   'js/pet/pet-environment.js',
   'js/pet/pet-render.js',
