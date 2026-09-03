@@ -26,8 +26,13 @@
   transform-origin: 50% 85%;
   will-change: transform;
   transform: translate3d(0, 0, 0);
-  transition: filter 0.2s ease;
+  filter: drop-shadow(0 4px 8px rgba(15, 23, 42, 0.12));
+  transition: filter 0.25s ease;
   z-index: 9991;
+}
+
+.desktop-pet:hover {
+  filter: drop-shadow(0 8px 16px rgba(15, 23, 42, 0.22));
 }
 
 .desktop-pet:focus {
@@ -48,17 +53,27 @@
   transform: scale(var(--pet-scale, 1)) scaleX(-1);
 }
 
-/* 3. Dragging Physics State */
+/* 3. Dragging Physics State & Elevation */
 .desktop-pet.is-dragged {
   cursor: grabbing !important;
   z-index: 9999 !important;
-  filter: drop-shadow(0 14px 18px rgba(0, 0, 0, 0.28));
+  filter: drop-shadow(0 20px 30px rgba(15, 23, 42, 0.36)) !important;
 }
 .desktop-pet.is-dragged .pet-inner {
   animation: pet-dangle 0.5s infinite alternate ease-in-out;
 }
 .desktop-pet.is-dragged .pet-bubble-wrap {
   opacity: 0.9;
+}
+
+/* มิติความลึกของเงาตกกระทบพื้นเมื่อแมวถูกอุ้มลอยขึ้น */
+.desktop-pet .pet-ground-shadow {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  transform-origin: 52px 69px;
+}
+.desktop-pet.is-dragged .pet-ground-shadow {
+  opacity: 0.18;
+  transform: scale(0.65) translateY(4px);
 }
 
 /* 4. Name Tag */
@@ -328,15 +343,17 @@
   touch-action: none;
   will-change: transform;
   z-index: 9989;
-  transition: filter 0.2s ease;
+  filter: drop-shadow(0 5px 12px rgba(15, 23, 42, 0.16));
+  transition: filter 0.25s ease, transform 0.15s ease;
 }
 .pet-env-item:hover {
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.16));
+  filter: drop-shadow(0 9px 18px rgba(15, 23, 42, 0.26));
 }
 .pet-env-item.is-dragged {
   cursor: grabbing !important;
   z-index: 9997 !important;
-  filter: drop-shadow(0 14px 20px rgba(0, 0, 0, 0.26)) !important;
+  filter: drop-shadow(0 22px 34px rgba(15, 23, 42, 0.38)) !important;
+  transform: scale(1.04);
 }
 
 /* Butterfly and Gecko */

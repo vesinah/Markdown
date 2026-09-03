@@ -401,12 +401,14 @@ export class PetRenderer {
     if (isBelly) {
       bodySvg = `
         <ellipse cx="50" cy="46" rx="${bodyRx + 1}" ry="${bodyRy}" fill="${b.bodyColor}"/>
+        <ellipse cx="50" cy="46" rx="${bodyRx + 1}" ry="${bodyRy}" fill="url(#body-depth-grad-${pet.id})" pointer-events="none"/>
         <ellipse cx="50" cy="45" rx="${bellyRx + 2}" ry="${bellyRy}" fill="${b.bellyColor}"/>
         <circle cx="50" cy="46" r="1" fill="#e07a5f" opacity="0.6"/>
       `;
     } else {
       bodySvg = `
         <ellipse class="pet-body-core" cx="54" cy="48" rx="${bodyRx}" ry="${bodyRy}" fill="${b.bodyColor}"/>
+        <ellipse cx="54" cy="48" rx="${bodyRx}" ry="${bodyRy}" fill="url(#body-depth-grad-${pet.id})" pointer-events="none"/>
         <ellipse class="pet-belly-patch" cx="50" cy="51" rx="${bellyRx}" ry="${bellyRy}" fill="${b.bellyColor}"/>
       `;
     }
@@ -427,14 +429,54 @@ export class PetRenderer {
       `;
     }
 
+    // ขนาดเงาตกกระทบพื้นตามรูปร่างและอิริยาบถ
+    let shadowRx = 24;
+    let shadowRy = 4.5;
+    let shadowCy = 69;
+    if (build === 'chubby') shadowRx = 27;
+    else if (build === 'chunky_loaf') shadowRx = 30;
+    else if (build === 'slim') shadowRx = 21;
+
+    if (isLoaf || isCurl || isBelly) {
+      shadowCy = 67;
+      shadowRx += 3;
+      shadowRy = 5.5;
+    } else if (isSitting) {
+      shadowCy = 68;
+    }
+
     return `
       <svg class="cat-svg state-${state}" viewBox="0 0 100 80" width="100%" height="100%">
         <defs>
+          <!-- เงาตกกระทบพื้นแบบนุ่มนวล (Soft Ambient Contact Shadow) -->
+          <radialGradient id="ground-shadow-grad-${pet.id}" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#0f172a" stop-opacity="0.35"/>
+            <stop offset="60%" stop-color="#0f172a" stop-opacity="0.14"/>
+            <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+          </radialGradient>
+
+          <!-- มิติแสงเงาบนลำตัว (Volumetric Body Gradient) -->
+          <radialGradient id="body-depth-grad-${pet.id}" cx="42%" cy="32%" r="68%">
+            <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+            <stop offset="60%" stop-color="#ffffff" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#0f172a" stop-opacity="0.22"/>
+          </radialGradient>
+
+          <!-- มิติแสงเงาบนหัวแมว (Volumetric Head Gradient) -->
+          <radialGradient id="head-depth-grad-${pet.id}" cx="45%" cy="28%" r="65%">
+            <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+            <stop offset="62%" stop-color="#ffffff" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#0f172a" stop-opacity="0.18"/>
+          </radialGradient>
+
           <radialGradient id="blush-grad-${pet.id}" cx="50%" cy="50%" r="50%">
             <stop offset="0%" stop-color="#ff99a8" stop-opacity="0.6"/>
             <stop offset="100%" stop-color="#ff99a8" stop-opacity="0"/>
           </radialGradient>
         </defs>
+
+        <!-- เงาตกกระทบพื้น (Ground Contact Shadow) สร้างมิติไม่ให้แมวลอย -->
+        <ellipse class="pet-ground-shadow" cx="52" cy="${shadowCy}" rx="${shadowRx}" ry="${shadowRy}" fill="url(#ground-shadow-grad-${pet.id})"/>
 
         <!-- Tail -->
         ${tailSvg}
@@ -456,8 +498,9 @@ export class PetRenderer {
           <!-- Ears -->
           ${earsSvg}
 
-          <!-- Head Core -->
+          <!-- Head Core with 3D Depth Overlay -->
           <ellipse class="pet-head" cx="50" cy="33" rx="${isFluffy ? 23 : 21}" ry="${isFluffy ? 18 : 16}" fill="${b.bodyColor}"/>
+          <ellipse cx="50" cy="33" rx="${isFluffy ? 23 : 21}" ry="${isFluffy ? 18 : 16}" fill="url(#head-depth-grad-${pet.id})" pointer-events="none"/>
           
           <!-- Cute Cheeks -->
           <ellipse cx="38" cy="37" rx="8" ry="6" fill="${b.bellyColor}" opacity="0.8"/>
