@@ -46,7 +46,7 @@ export class PetRenderer {
     const tailType = pet.tailType || breed.defaultTail || 'long';
     const build = pet.build || breed.defaultBuild || 'normal';
 
-    el.className = `desktop-pet pet-breed-${pet.breed} pet-state-${pet.state || 'stand'} facing-${pet.facing || 'right'} ${pet.isDragged ? 'is-dragged' : ''} ${pet.isBlocked ? 'is-blocked' : ''} ${isFluffy ? 'is-fluffy' : ''} build-${build} tail-${tailType}`;
+    el.className = `desktop-pet pet-breed-${pet.breed} pet-state-${pet.state || 'stand'} facing-${pet.facing || 'right'} ${pet.isDragged ? 'is-dragged' : ''} ${pet.isBlocked ? 'is-blocked' : ''} ${pet.isSpeaking ? 'is-speaking' : ''} ${isFluffy ? 'is-fluffy' : ''} build-${build} tail-${tailType}`;
     
     // ปรับ Scale ตัวแมว
     const scale = pet.scale || 1;

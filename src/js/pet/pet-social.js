@@ -9,7 +9,7 @@ export const PetSocial = {
 
   // ตรวจจับการพบกันระหว่างแมว 2 ตัว
   checkSocialInteraction(pet1, pet2, sayCallback, spawnFxCallback) {
-    if (pet1.isDragged || pet2.isDragged) return;
+    if (pet1.isDragged || pet2.isDragged || pet1.isSpeaking || pet2.isSpeaking) return;
 
     const now = Date.now();
     // คูลดาวน์การมีปฏิสัมพันธ์ระหว่างแมวอย่างน้อย 15 วินาที
@@ -24,7 +24,11 @@ export const PetSocial = {
 
     this.lastInteractionTime = now;
 
-    // ทั้งคู่หันหน้าเข้าหากัน
+    // ทั้งคู่หันหน้าเข้าหากันและหยุดอยู่นิ่งๆ เพื่อสนทนา
+    pet1.targetX = null;
+    pet1.targetY = null;
+    pet2.targetX = null;
+    pet2.targetY = null;
     pet1.facing = pet1.x < pet2.x ? 'right' : 'left';
     pet2.facing = pet2.x < pet1.x ? 'right' : 'left';
     PetRenderer.updatePetVisuals(pet1.el, pet1);
@@ -43,31 +47,40 @@ export const PetSocial = {
       const msg = msgs[Math.floor(Math.random() * msgs.length)];
       if (sayCallback) sayCallback(antisocialPet, msg, 4000);
 
-      // เดินถอยหนีเล็กน้อย
+      // เดินถอยหนีหลังจากพูดเสร็จสิ้นเท่านั้น (ไม่ขยับขณะพูด)
       setTimeout(() => {
-        if (!antisocialPet.isDragged) {
+        if (!antisocialPet.isDragged && !antisocialPet.isSpeaking) {
           antisocialPet.targetX = Math.max(50, Math.min(window.innerWidth - 100, antisocialPet.x + (antisocialPet.x < otherPet.x ? -100 : 100)));
           antisocialPet.state = 'walk';
           PetRenderer.updatePetVisuals(antisocialPet.el, antisocialPet);
         }
-      }, 2000);
+      }, 4300);
       return;
     }
 
-    // กรณีทั้งคู่พลังงานสูง (Energy > 65) -> วิ่งไล่จับกันรอบจอ!
+    // กรณีทั้งคู่พลังงานสูง (Energy > 65) -> ทักทายกันจนจบก่อน ค่อยออกวิ่งไล่จับกัน
     if (p1.energy > 65 && p2.energy > 65 && Math.random() < 0.45) {
-      pet1.state = 'run';
-      pet2.state = 'run';
-      const targetX = Math.max(60, Math.min(window.innerWidth - 160, pet1.x + (pet1.facing === 'right' ? 180 : -180)));
-      pet1.targetX = targetX;
-      pet2.targetX = targetX + (pet1.facing === 'right' ? -50 : 50);
-
+      pet1.state = 'sit';
+      pet2.state = 'sit';
       PetRenderer.updatePetVisuals(pet1.el, pet1);
       PetRenderer.updatePetVisuals(pet2.el, pet2);
 
       if (sayCallback) {
         sayCallback(pet1, `${pet2.name} มาวิ่งแข่งกันรอบหน้าจอมะ ใครแพ้จ่ายปลาทู!`, 3500);
       }
+
+      // วิ่งหลังจากข้อความพูดหายไปแล้วเท่านั้น (ไม่ขยับขณะแสดงกล่องข้อความ)
+      setTimeout(() => {
+        if (!pet1.isDragged && !pet2.isDragged && !pet1.isSpeaking && !pet2.isSpeaking) {
+          pet1.state = 'run';
+          pet2.state = 'run';
+          const targetX = Math.max(60, Math.min(window.innerWidth - 160, pet1.x + (pet1.facing === 'right' ? 180 : -180)));
+          pet1.targetX = targetX;
+          pet2.targetX = targetX + (pet1.facing === 'right' ? -50 : 50);
+          PetRenderer.updatePetVisuals(pet1.el, pet1);
+          PetRenderer.updatePetVisuals(pet2.el, pet2);
+        }
+      }, 3800);
       return;
     }
 

@@ -153,32 +153,62 @@
   100% { transform: scale(var(--pet-scale, 1)) rotate(8deg) translateY(2px); }
 }
 
-/* Walking Paws */
-.desktop-pet.pet-state-walk .pet-paw-fl {
-  animation: paw-walk 0.35s infinite alternate ease-in-out;
+/* ล็อคความนิ่งอย่างสมบูรณ์แบบในขณะที่แมวพูด เพื่อให้อ่านข้อความสบายตา ไม่สั่น ไม่กระตุก */
+.desktop-pet.is-speaking,
+.desktop-pet.is-speaking .pet-inner,
+.desktop-pet.is-speaking .pet-body-core,
+.desktop-pet.is-speaking .pet-paw-fl,
+.desktop-pet.is-speaking .pet-paw-fr,
+.desktop-pet.is-speaking .pet-paw-bl,
+.desktop-pet.is-speaking .pet-paw-br {
+  animation: none !important;
 }
-.desktop-pet.pet-state-walk .pet-paw-fr {
-  animation: paw-walk 0.35s infinite alternate-reverse ease-in-out;
+
+/* Walking Motion (Smooth 4-Leg Trot & Gentle Body Bobbing) */
+.desktop-pet.pet-state-walk .pet-inner {
+  animation: pet-walk-bob 0.36s infinite alternate ease-in-out;
 }
-.desktop-pet.pet-state-walk .pet-paw-bl {
-  animation: paw-walk 0.35s infinite alternate-reverse ease-in-out;
+@keyframes pet-walk-bob {
+  0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) translateY(-2px); }
 }
+.desktop-pet.facing-left.pet-state-walk .pet-inner {
+  animation: pet-walk-bob-left 0.36s infinite alternate ease-in-out;
+}
+@keyframes pet-walk-bob-left {
+  0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(-2px); }
+}
+
+.desktop-pet.pet-state-walk .pet-paw-fl,
 .desktop-pet.pet-state-walk .pet-paw-br {
-  animation: paw-walk 0.35s infinite alternate ease-in-out;
+  animation: paw-walk 0.36s infinite ease-in-out;
+}
+.desktop-pet.pet-state-walk .pet-paw-fr,
+.desktop-pet.pet-state-walk .pet-paw-bl {
+  animation: paw-walk 0.36s infinite ease-in-out -0.18s;
 }
 
 @keyframes paw-walk {
-  0% { transform: translateY(0) translateX(0); }
-  100% { transform: translateY(-4px) translateX(4px); }
+  0% { transform: translateY(0) translateX(-1px); }
+  50% { transform: translateY(-3.5px) translateX(2px); }
+  100% { transform: translateY(0) translateX(4px); }
 }
 
-/* Running */
+/* Running Motion */
 .desktop-pet.pet-state-run .pet-inner {
   animation: pet-run-bob 0.22s infinite alternate ease-in-out;
 }
 @keyframes pet-run-bob {
   0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
-  100% { transform: scale(var(--pet-scale, 1)) translateY(-6px); }
+  100% { transform: scale(var(--pet-scale, 1)) translateY(-5px); }
+}
+.desktop-pet.facing-left.pet-state-run .pet-inner {
+  animation: pet-run-bob-left 0.22s infinite alternate ease-in-out;
+}
+@keyframes pet-run-bob-left {
+  0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(-5px); }
 }
 
 /* Breathing while sitting/standing */

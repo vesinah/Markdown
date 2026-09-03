@@ -2682,32 +2682,62 @@ body.dragging-ruler .margin-guide {
   100% { transform: scale(var(--pet-scale, 1)) rotate(8deg) translateY(2px); }
 }
 
-/* Walking Paws */
-.desktop-pet.pet-state-walk .pet-paw-fl {
-  animation: paw-walk 0.35s infinite alternate ease-in-out;
+/* ล็อคความนิ่งอย่างสมบูรณ์แบบในขณะที่แมวพูด เพื่อให้อ่านข้อความสบายตา ไม่สั่น ไม่กระตุก */
+.desktop-pet.is-speaking,
+.desktop-pet.is-speaking .pet-inner,
+.desktop-pet.is-speaking .pet-body-core,
+.desktop-pet.is-speaking .pet-paw-fl,
+.desktop-pet.is-speaking .pet-paw-fr,
+.desktop-pet.is-speaking .pet-paw-bl,
+.desktop-pet.is-speaking .pet-paw-br {
+  animation: none !important;
 }
-.desktop-pet.pet-state-walk .pet-paw-fr {
-  animation: paw-walk 0.35s infinite alternate-reverse ease-in-out;
+
+/* Walking Motion (Smooth 4-Leg Trot & Gentle Body Bobbing) */
+.desktop-pet.pet-state-walk .pet-inner {
+  animation: pet-walk-bob 0.36s infinite alternate ease-in-out;
 }
-.desktop-pet.pet-state-walk .pet-paw-bl {
-  animation: paw-walk 0.35s infinite alternate-reverse ease-in-out;
+@keyframes pet-walk-bob {
+  0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) translateY(-2px); }
 }
+.desktop-pet.facing-left.pet-state-walk .pet-inner {
+  animation: pet-walk-bob-left 0.36s infinite alternate ease-in-out;
+}
+@keyframes pet-walk-bob-left {
+  0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(-2px); }
+}
+
+.desktop-pet.pet-state-walk .pet-paw-fl,
 .desktop-pet.pet-state-walk .pet-paw-br {
-  animation: paw-walk 0.35s infinite alternate ease-in-out;
+  animation: paw-walk 0.36s infinite ease-in-out;
+}
+.desktop-pet.pet-state-walk .pet-paw-fr,
+.desktop-pet.pet-state-walk .pet-paw-bl {
+  animation: paw-walk 0.36s infinite ease-in-out -0.18s;
 }
 
 @keyframes paw-walk {
-  0% { transform: translateY(0) translateX(0); }
-  100% { transform: translateY(-4px) translateX(4px); }
+  0% { transform: translateY(0) translateX(-1px); }
+  50% { transform: translateY(-3.5px) translateX(2px); }
+  100% { transform: translateY(0) translateX(4px); }
 }
 
-/* Running */
+/* Running Motion */
 .desktop-pet.pet-state-run .pet-inner {
   animation: pet-run-bob 0.22s infinite alternate ease-in-out;
 }
 @keyframes pet-run-bob {
   0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
-  100% { transform: scale(var(--pet-scale, 1)) translateY(-6px); }
+  100% { transform: scale(var(--pet-scale, 1)) translateY(-5px); }
+}
+.desktop-pet.facing-left.pet-state-run .pet-inner {
+  animation: pet-run-bob-left 0.22s infinite alternate ease-in-out;
+}
+@keyframes pet-run-bob-left {
+  0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(-5px); }
 }
 
 /* Breathing while sitting/standing */
@@ -8757,7 +8787,7 @@ class PetRenderer {
     const tailType = pet.tailType || breed.defaultTail || 'long';
     const build = pet.build || breed.defaultBuild || 'normal';
 
-    el.className = `desktop-pet pet-breed-${pet.breed} pet-state-${pet.state || 'stand'} facing-${pet.facing || 'right'} ${pet.isDragged ? 'is-dragged' : ''} ${pet.isBlocked ? 'is-blocked' : ''} ${isFluffy ? 'is-fluffy' : ''} build-${build} tail-${tailType}`;
+    el.className = `desktop-pet pet-breed-${pet.breed} pet-state-${pet.state || 'stand'} facing-${pet.facing || 'right'} ${pet.isDragged ? 'is-dragged' : ''} ${pet.isBlocked ? 'is-blocked' : ''} ${pet.isSpeaking ? 'is-speaking' : ''} ${isFluffy ? 'is-fluffy' : ''} build-${build} tail-${tailType}`;
     
     // ปรับ Scale ตัวแมว
     const scale = pet.scale || 1;
@@ -9272,7 +9302,7 @@ const PetSocial = {
 
   // ตรวจจับการพบกันระหว่างแมว 2 ตัว
   checkSocialInteraction(pet1, pet2, sayCallback, spawnFxCallback) {
-    if (pet1.isDragged || pet2.isDragged) return;
+    if (pet1.isDragged || pet2.isDragged || pet1.isSpeaking || pet2.isSpeaking) return;
 
     const now = Date.now();
     // คูลดาวน์การมีปฏิสัมพันธ์ระหว่างแมวอย่างน้อย 15 วินาที
@@ -9287,7 +9317,11 @@ const PetSocial = {
 
     this.lastInteractionTime = now;
 
-    // ทั้งคู่หันหน้าเข้าหากัน
+    // ทั้งคู่หันหน้าเข้าหากันและหยุดอยู่นิ่งๆ เพื่อสนทนา
+    pet1.targetX = null;
+    pet1.targetY = null;
+    pet2.targetX = null;
+    pet2.targetY = null;
     pet1.facing = pet1.x < pet2.x ? 'right' : 'left';
     pet2.facing = pet2.x < pet1.x ? 'right' : 'left';
     PetRenderer.updatePetVisuals(pet1.el, pet1);
@@ -9306,31 +9340,40 @@ const PetSocial = {
       const msg = msgs[Math.floor(Math.random() * msgs.length)];
       if (sayCallback) sayCallback(antisocialPet, msg, 4000);
 
-      // เดินถอยหนีเล็กน้อย
+      // เดินถอยหนีหลังจากพูดเสร็จสิ้นเท่านั้น (ไม่ขยับขณะพูด)
       setTimeout(() => {
-        if (!antisocialPet.isDragged) {
+        if (!antisocialPet.isDragged && !antisocialPet.isSpeaking) {
           antisocialPet.targetX = Math.max(50, Math.min(window.innerWidth - 100, antisocialPet.x + (antisocialPet.x < otherPet.x ? -100 : 100)));
           antisocialPet.state = 'walk';
           PetRenderer.updatePetVisuals(antisocialPet.el, antisocialPet);
         }
-      }, 2000);
+      }, 4300);
       return;
     }
 
-    // กรณีทั้งคู่พลังงานสูง (Energy > 65) -> วิ่งไล่จับกันรอบจอ!
+    // กรณีทั้งคู่พลังงานสูง (Energy > 65) -> ทักทายกันจนจบก่อน ค่อยออกวิ่งไล่จับกัน
     if (p1.energy > 65 && p2.energy > 65 && Math.random() < 0.45) {
-      pet1.state = 'run';
-      pet2.state = 'run';
-      const targetX = Math.max(60, Math.min(window.innerWidth - 160, pet1.x + (pet1.facing === 'right' ? 180 : -180)));
-      pet1.targetX = targetX;
-      pet2.targetX = targetX + (pet1.facing === 'right' ? -50 : 50);
-
+      pet1.state = 'sit';
+      pet2.state = 'sit';
       PetRenderer.updatePetVisuals(pet1.el, pet1);
       PetRenderer.updatePetVisuals(pet2.el, pet2);
 
       if (sayCallback) {
         sayCallback(pet1, `${pet2.name} มาวิ่งแข่งกันรอบหน้าจอมะ ใครแพ้จ่ายปลาทู!`, 3500);
       }
+
+      // วิ่งหลังจากข้อความพูดหายไปแล้วเท่านั้น (ไม่ขยับขณะแสดงกล่องข้อความ)
+      setTimeout(() => {
+        if (!pet1.isDragged && !pet2.isDragged && !pet1.isSpeaking && !pet2.isSpeaking) {
+          pet1.state = 'run';
+          pet2.state = 'run';
+          const targetX = Math.max(60, Math.min(window.innerWidth - 160, pet1.x + (pet1.facing === 'right' ? 180 : -180)));
+          pet1.targetX = targetX;
+          pet2.targetX = targetX + (pet1.facing === 'right' ? -50 : 50);
+          PetRenderer.updatePetVisuals(pet1.el, pet1);
+          PetRenderer.updatePetVisuals(pet2.el, pet2);
+        }
+      }, 3800);
       return;
     }
 
@@ -10112,6 +10155,8 @@ const PetManager = {
   lastUserActivity: Date.now(),
   mousePos: { x: -999, y: -999 },
   loopTimer: null,
+  rafId: null,
+  lastRafTime: 0,
   fatigueTriggered: false,
 
   // 1. การเริ่มต้นระบบ
@@ -10454,6 +10499,16 @@ const PetManager = {
     const bubbleText = pet.el.querySelector('.pet-bubble');
     if (!bubbleWrap || !bubbleText) return;
 
+    // ล็อคให้แมวหยุดนิ่งสนิททันทีเมื่อเริ่มพูด เพื่อไม่ให้กล่องคำพูดสั่นไหวและอ่านสบายตา
+    pet.isSpeaking = true;
+    pet.targetX = null;
+    pet.targetY = null;
+    if (pet.state === 'walk' || pet.state === 'run' || pet.state === 'pounce') {
+      pet.state = 'sit';
+    }
+    PetRenderer.updatePetVisuals(pet.el, pet);
+    this.updatePetDomPosition(pet);
+
     bubbleText.textContent = text;
     bubbleWrap.classList.add('show');
     bubbleWrap.title = 'คลิกเพื่อปิดข้อความนี้';
@@ -10478,6 +10533,8 @@ const PetManager = {
       bubbleWrap.addEventListener('click', (e) => {
         e.stopPropagation();
         bubbleWrap.classList.remove('show');
+        pet.isSpeaking = false;
+        PetRenderer.updatePetVisuals(pet.el, pet);
         if (pet._bubbleHideTimer) clearTimeout(pet._bubbleHideTimer);
       });
     }
@@ -10500,6 +10557,8 @@ const PetManager = {
     if (pet._bubbleHideTimer) clearTimeout(pet._bubbleHideTimer);
     pet._bubbleHideTimer = setTimeout(() => {
       bubbleWrap.classList.remove('show');
+      pet.isSpeaking = false;
+      PetRenderer.updatePetVisuals(pet.el, pet);
     }, actualDuration);
   },
 
@@ -10545,11 +10604,19 @@ const PetManager = {
     this.layerEl.appendChild(gEl);
 
     if (targetPet && !targetPet.isDragged) {
-      targetPet.state = 'run';
-      targetPet.targetX = startX;
       targetPet.facing = startX > targetPet.x ? 'right' : 'left';
+      targetPet.state = 'sit';
       PetRenderer.updatePetVisuals(targetPet.el, targetPet);
       this.say(targetPet, 'จิ้งจกอ้วน! อย่าหนีนะเหมียว!', 3000);
+
+      // เริ่มวิ่งไล่หลังจากพูดจบเรียบร้อยแล้วเท่านั้น เพื่อไม่ให้กล่องคำพูดสั่น
+      setTimeout(() => {
+        if (targetPet && !targetPet.isDragged && !targetPet.isSpeaking) {
+          targetPet.state = 'run';
+          targetPet.targetX = startX;
+          PetRenderer.updatePetVisuals(targetPet.el, targetPet);
+        }
+      }, 3200);
     }
 
     let curX = startX;
@@ -10634,42 +10701,67 @@ const PetManager = {
     }
   },
 
-  // 11. Main Behavior & Physics Loop
+  // 11. Main Behavior & Physics Loop (60 FPS Smooth Motion + AI Loop)
   startLoop() {
     if (this.loopTimer) clearInterval(this.loopTimer);
+    if (this.rafId && typeof cancelAnimationFrame === 'function') {
+      cancelAnimationFrame(this.rafId);
+    }
 
+    // 1. วงรอบฟิสิกส์ 60 FPS ด้วย requestAnimationFrame ให้เดินสมูท ลื่นไหล ไม่กระตุก
+    const updateMotion = (now) => {
+      if (!this.lastRafTime) this.lastRafTime = now;
+      const dt = Math.min(0.08, (now - this.lastRafTime) / 1000);
+      this.lastRafTime = now;
+
+      this.updateMotionPhysics(dt);
+
+      if (typeof requestAnimationFrame === 'function') {
+        this.rafId = requestAnimationFrame(updateMotion);
+      }
+    };
+
+    if (typeof requestAnimationFrame === 'function') {
+      this.lastRafTime = typeof performance !== 'undefined' && performance.now ? performance.now() : Date.now();
+      this.rafId = requestAnimationFrame(updateMotion);
+    }
+
+    // 2. วงรอบ AI State Machine และตัวจับเวลา (200ms)
     this.loopTimer = setInterval(() => {
       this.tick();
-    }, 100);
+    }, 200);
   },
 
-  tick() {
-    const now = Date.now();
-    this.checkReadingFatigue();
-
-    // ประมวลผลสัตว์เลี้ยงทีละตัว
+  updateMotionPhysics(dt) {
     this.pets.forEach(pet => {
       if (pet.isDragged) return;
 
-      pet.stateTimer += 100;
-      pet.speechTimer += 100;
+      // สำคัญมาก: ห้ามแมวขยับตำแหน่งเด็ดขาดในขณะที่กำลังพูด เพื่อให้กล่องข้อความนิ่งสนิทอ่านสบายตา
+      if (pet.isSpeaking) {
+        return;
+      }
 
-      // 1. การเคลื่อนที่ไปยัง Target
+      // การเคลื่อนที่อย่างราบรื่นแบบ 60 FPS
       if (pet.targetX !== null) {
         const dx = pet.targetX - pet.x;
         const dy = pet.targetY !== null ? pet.targetY - pet.y : 0;
         const dist = Math.hypot(dx, dy);
 
-        const walkSpeed = PetPersonality.calculateWalkSpeed(pet) * (pet.state === 'run' ? 2.2 : 1.0);
+        // ความเร็วพิกเซลต่อวินาที (Smooth continuous velocity)
+        const speedMultiplier = (pet.state === 'run' ? 140 : 55);
+        const walkSpeed = PetPersonality.calculateWalkSpeed(pet) * speedMultiplier;
+        const step = walkSpeed * dt;
 
-        if (dist > 5) {
+        if (dist > 3) {
           pet.facing = dx > 0 ? 'right' : 'left';
-          pet.x += (dx / dist) * walkSpeed * 3;
+          pet.x += (dx / dist) * Math.min(dist, step);
           if (pet.targetY !== null) {
-            pet.y += (dy / dist) * walkSpeed * 3;
+            pet.y += (dy / dist) * Math.min(dist, step);
           }
           this.updatePetDomPosition(pet);
         } else {
+          pet.x = pet.targetX;
+          if (pet.targetY !== null) pet.y = pet.targetY;
           pet.targetX = null;
           pet.targetY = null;
           if (pet.isBlocked) {
@@ -10678,29 +10770,43 @@ const PetManager = {
             pet.state = 'sit';
           }
           PetRenderer.updatePetVisuals(pet.el, pet);
+          this.updatePetDomPosition(pet);
         }
       }
+    });
+  },
 
-      // 2. การเปลี่ยนท่าทางอัตโนมัติ (AI State Machine)
-      if (!pet.isStaying && !pet.isBlocked && pet.targetX === null) {
+  tick() {
+    this.checkReadingFatigue();
+
+    // ประมวลผลสัตว์เลี้ยงทีละตัว
+    this.pets.forEach(pet => {
+      if (pet.isDragged) return;
+
+      pet.stateTimer += 200;
+      pet.speechTimer += 200;
+
+      // 1. การเปลี่ยนท่าทางอัตโนมัติ (AI State Machine)
+      // ไม่อนุญาตให้เปลี่ยนท่าทางหรือเริ่มเดินถ้ากำลังพูด หรือถูกสั่งให้นอนเฝ้า หรือกำลังเดินอยู่
+      if (!pet.isStaying && !pet.isBlocked && !pet.isSpeaking && pet.targetX === null) {
         if (pet.stateTimer > 7000 + Math.random() * 9000) {
           pet.stateTimer = 0;
           this.decideNextPetAction(pet);
         }
       }
 
-      // 3. การพูดคุยตามความถี่
+      // 2. การพูดคุยตามความถี่ (ไม่พูดซ้อนถ้ายังพูดไม่จบ)
       let speechInterval = 40000;
       if (this.settings.speechFreq === 'often') speechInterval = 22000;
       else if (this.settings.speechFreq === 'rare') speechInterval = 80000;
 
-      if (this.settings.speechFreq !== 'off' && pet.speechTimer > speechInterval) {
+      if (this.settings.speechFreq !== 'off' && !pet.isSpeaking && pet.speechTimer > speechInterval) {
         pet.speechTimer = 0;
         this.triggerRandomPetSpeech(pet);
       }
     });
 
-    // 4. ตรวจจับการพบกันระหว่างแมวหลายตัว
+    // 3. ตรวจจับการพบกันระหว่างแมวหลายตัว (เฉพาะเมื่อไม่มีตัวใดกำลังพูด)
     if (this.pets.length >= 2) {
       for (let i = 0; i < this.pets.length; i++) {
         for (let j = i + 1; j < this.pets.length; j++) {
@@ -10717,6 +10823,7 @@ const PetManager = {
 
   // ตัดสินใจการกระทำถัดไปของแมว (อิง 6 แกนนิสัย & เฟอร์นิเจอร์)
   decideNextPetAction(pet) {
+    if (pet.isSpeaking) return;
     const p = pet.personality || { energy: 50, diligence: 50, affection: 50 };
 
     // เช็คสภาพแวดล้อมใกล้ตัว (เตียง, กล่อง, คอนโด, ไหมพรม, ที่ฝนเล็บ)

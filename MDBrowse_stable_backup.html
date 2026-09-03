@@ -3041,8 +3041,8 @@ body.dragging-ruler .margin-guide {
 
 .pet-modal-card {
   background: #ffffff;
-  width: 92%;
-  max-width: 660px;
+  width: 94%;
+  max-width: 680px;
   max-height: 88vh;
   border-radius: 20px;
   box-shadow: 0 24px 50px -12px rgba(0, 0, 0, 0.28), 0 0 0 1px rgba(0, 0, 0, 0.06);
@@ -3133,12 +3133,30 @@ body.dragging-ruler .margin-guide {
 }
 
 .pet-modal-body {
-  padding: 20px;
+  padding: 20px 24px 24px;
   overflow-y: auto;
+  overflow-x: hidden !important;
   display: flex;
   flex-direction: column;
   gap: 16px;
   flex: 1;
+  box-sizing: border-box;
+}
+
+/* ป้องกัน scrollbar แนวนอนในโมดอลและปรับแถบเลื่อนแนวตั้งให้เรียบหรู */
+.pet-modal-body::-webkit-scrollbar {
+  width: 6px;
+  height: 0px !important;
+}
+.pet-modal-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+.pet-modal-body::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+.pet-modal-body::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
 }
 
 /* Tab 1: My Pets Card Layout */
@@ -3327,10 +3345,13 @@ body.dragging-ruler .margin-guide {
 /* Tab 2: Adoption Form & Live Preview */
 .pet-adopt-container {
   display: flex;
-  gap: 22px;
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 .pet-adopt-preview-wrap {
-  width: 205px;
+  width: 195px;
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -3347,6 +3368,7 @@ body.dragging-ruler .margin-guide {
   padding: 10px;
   box-shadow: inset 0 2px 6px rgba(245, 158, 11, 0.08), 0 4px 14px rgba(245, 158, 11, 0.12);
   transition: transform 0.2s ease;
+  box-sizing: border-box;
 }
 .pet-adopt-preview-title {
   font-size: 12px;
@@ -3358,18 +3380,23 @@ body.dragging-ruler .margin-guide {
   padding: 8px 12px;
   border-radius: 12px;
   border: 1px solid #fef3c7;
+  box-sizing: border-box;
 }
 
 .pet-adopt-form {
   flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 13px;
+  gap: 12px;
 }
 .pet-form-group {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 .pet-form-group label {
   font-size: 12.5px;
@@ -3382,6 +3409,12 @@ body.dragging-ruler .margin-guide {
 .pet-form-row {
   display: flex;
   gap: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.pet-form-row > .pet-form-group {
+  flex: 1;
+  min-width: 0;
 }
 .pet-input-dice-row {
   display: flex;

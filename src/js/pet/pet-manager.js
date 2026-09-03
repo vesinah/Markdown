@@ -28,6 +28,8 @@ export const PetManager = {
   lastUserActivity: Date.now(),
   mousePos: { x: -999, y: -999 },
   loopTimer: null,
+  rafId: null,
+  lastRafTime: 0,
   fatigueTriggered: false,
 
   // 1. การเริ่มต้นระบบ
@@ -370,6 +372,16 @@ export const PetManager = {
     const bubbleText = pet.el.querySelector('.pet-bubble');
     if (!bubbleWrap || !bubbleText) return;
 
+    // ล็อคให้แมวหยุดนิ่งสนิททันทีเมื่อเริ่มพูด เพื่อไม่ให้กล่องคำพูดสั่นไหวและอ่านสบายตา
+    pet.isSpeaking = true;
+    pet.targetX = null;
+    pet.targetY = null;
+    if (pet.state === 'walk' || pet.state === 'run' || pet.state === 'pounce') {
+      pet.state = 'sit';
+    }
+    PetRenderer.updatePetVisuals(pet.el, pet);
+    this.updatePetDomPosition(pet);
+
     bubbleText.textContent = text;
     bubbleWrap.classList.add('show');
     bubbleWrap.title = 'คลิกเพื่อปิดข้อความนี้';
@@ -394,6 +406,8 @@ export const PetManager = {
       bubbleWrap.addEventListener('click', (e) => {
         e.stopPropagation();
         bubbleWrap.classList.remove('show');
+        pet.isSpeaking = false;
+        PetRenderer.updatePetVisuals(pet.el, pet);
         if (pet._bubbleHideTimer) clearTimeout(pet._bubbleHideTimer);
       });
     }
@@ -416,6 +430,8 @@ export const PetManager = {
     if (pet._bubbleHideTimer) clearTimeout(pet._bubbleHideTimer);
     pet._bubbleHideTimer = setTimeout(() => {
       bubbleWrap.classList.remove('show');
+      pet.isSpeaking = false;
+      PetRenderer.updatePetVisuals(pet.el, pet);
     }, actualDuration);
   },
 
@@ -461,11 +477,19 @@ export const PetManager = {
     this.layerEl.appendChild(gEl);
 
     if (targetPet && !targetPet.isDragged) {
-      targetPet.state = 'run';
-      targetPet.targetX = startX;
       targetPet.facing = startX > targetPet.x ? 'right' : 'left';
+      targetPet.state = 'sit';
       PetRenderer.updatePetVisuals(targetPet.el, targetPet);
       this.say(targetPet, 'จิ้งจกอ้วน! อย่าหนีนะเหมียว!', 3000);
+
+      // เริ่มวิ่งไล่หลังจากพูดจบเรียบร้อยแล้วเท่านั้น เพื่อไม่ให้กล่องคำพูดสั่น
+      setTimeout(() => {
+        if (targetPet && !targetPet.isDragged && !targetPet.isSpeaking) {
+          targetPet.state = 'run';
+          targetPet.targetX = startX;
+          PetRenderer.updatePetVisuals(targetPet.el, targetPet);
+        }
+      }, 3200);
     }
 
     let curX = startX;
@@ -550,42 +574,67 @@ export const PetManager = {
     }
   },
 
-  // 11. Main Behavior & Physics Loop
+  // 11. Main Behavior & Physics Loop (60 FPS Smooth Motion + AI Loop)
   startLoop() {
     if (this.loopTimer) clearInterval(this.loopTimer);
+    if (this.rafId && typeof cancelAnimationFrame === 'function') {
+      cancelAnimationFrame(this.rafId);
+    }
 
+    // 1. วงรอบฟิสิกส์ 60 FPS ด้วย requestAnimationFrame ให้เดินสมูท ลื่นไหล ไม่กระตุก
+    const updateMotion = (now) => {
+      if (!this.lastRafTime) this.lastRafTime = now;
+      const dt = Math.min(0.08, (now - this.lastRafTime) / 1000);
+      this.lastRafTime = now;
+
+      this.updateMotionPhysics(dt);
+
+      if (typeof requestAnimationFrame === 'function') {
+        this.rafId = requestAnimationFrame(updateMotion);
+      }
+    };
+
+    if (typeof requestAnimationFrame === 'function') {
+      this.lastRafTime = typeof performance !== 'undefined' && performance.now ? performance.now() : Date.now();
+      this.rafId = requestAnimationFrame(updateMotion);
+    }
+
+    // 2. วงรอบ AI State Machine และตัวจับเวลา (200ms)
     this.loopTimer = setInterval(() => {
       this.tick();
-    }, 100);
+    }, 200);
   },
 
-  tick() {
-    const now = Date.now();
-    this.checkReadingFatigue();
-
-    // ประมวลผลสัตว์เลี้ยงทีละตัว
+  updateMotionPhysics(dt) {
     this.pets.forEach(pet => {
       if (pet.isDragged) return;
 
-      pet.stateTimer += 100;
-      pet.speechTimer += 100;
+      // สำคัญมาก: ห้ามแมวขยับตำแหน่งเด็ดขาดในขณะที่กำลังพูด เพื่อให้กล่องข้อความนิ่งสนิทอ่านสบายตา
+      if (pet.isSpeaking) {
+        return;
+      }
 
-      // 1. การเคลื่อนที่ไปยัง Target
+      // การเคลื่อนที่อย่างราบรื่นแบบ 60 FPS
       if (pet.targetX !== null) {
         const dx = pet.targetX - pet.x;
         const dy = pet.targetY !== null ? pet.targetY - pet.y : 0;
         const dist = Math.hypot(dx, dy);
 
-        const walkSpeed = PetPersonality.calculateWalkSpeed(pet) * (pet.state === 'run' ? 2.2 : 1.0);
+        // ความเร็วพิกเซลต่อวินาที (Smooth continuous velocity)
+        const speedMultiplier = (pet.state === 'run' ? 140 : 55);
+        const walkSpeed = PetPersonality.calculateWalkSpeed(pet) * speedMultiplier;
+        const step = walkSpeed * dt;
 
-        if (dist > 5) {
+        if (dist > 3) {
           pet.facing = dx > 0 ? 'right' : 'left';
-          pet.x += (dx / dist) * walkSpeed * 3;
+          pet.x += (dx / dist) * Math.min(dist, step);
           if (pet.targetY !== null) {
-            pet.y += (dy / dist) * walkSpeed * 3;
+            pet.y += (dy / dist) * Math.min(dist, step);
           }
           this.updatePetDomPosition(pet);
         } else {
+          pet.x = pet.targetX;
+          if (pet.targetY !== null) pet.y = pet.targetY;
           pet.targetX = null;
           pet.targetY = null;
           if (pet.isBlocked) {
@@ -594,29 +643,43 @@ export const PetManager = {
             pet.state = 'sit';
           }
           PetRenderer.updatePetVisuals(pet.el, pet);
+          this.updatePetDomPosition(pet);
         }
       }
+    });
+  },
 
-      // 2. การเปลี่ยนท่าทางอัตโนมัติ (AI State Machine)
-      if (!pet.isStaying && !pet.isBlocked && pet.targetX === null) {
+  tick() {
+    this.checkReadingFatigue();
+
+    // ประมวลผลสัตว์เลี้ยงทีละตัว
+    this.pets.forEach(pet => {
+      if (pet.isDragged) return;
+
+      pet.stateTimer += 200;
+      pet.speechTimer += 200;
+
+      // 1. การเปลี่ยนท่าทางอัตโนมัติ (AI State Machine)
+      // ไม่อนุญาตให้เปลี่ยนท่าทางหรือเริ่มเดินถ้ากำลังพูด หรือถูกสั่งให้นอนเฝ้า หรือกำลังเดินอยู่
+      if (!pet.isStaying && !pet.isBlocked && !pet.isSpeaking && pet.targetX === null) {
         if (pet.stateTimer > 7000 + Math.random() * 9000) {
           pet.stateTimer = 0;
           this.decideNextPetAction(pet);
         }
       }
 
-      // 3. การพูดคุยตามความถี่
+      // 2. การพูดคุยตามความถี่ (ไม่พูดซ้อนถ้ายังพูดไม่จบ)
       let speechInterval = 40000;
       if (this.settings.speechFreq === 'often') speechInterval = 22000;
       else if (this.settings.speechFreq === 'rare') speechInterval = 80000;
 
-      if (this.settings.speechFreq !== 'off' && pet.speechTimer > speechInterval) {
+      if (this.settings.speechFreq !== 'off' && !pet.isSpeaking && pet.speechTimer > speechInterval) {
         pet.speechTimer = 0;
         this.triggerRandomPetSpeech(pet);
       }
     });
 
-    // 4. ตรวจจับการพบกันระหว่างแมวหลายตัว
+    // 3. ตรวจจับการพบกันระหว่างแมวหลายตัว (เฉพาะเมื่อไม่มีตัวใดกำลังพูด)
     if (this.pets.length >= 2) {
       for (let i = 0; i < this.pets.length; i++) {
         for (let j = i + 1; j < this.pets.length; j++) {
@@ -633,6 +696,7 @@ export const PetManager = {
 
   // ตัดสินใจการกระทำถัดไปของแมว (อิง 6 แกนนิสัย & เฟอร์นิเจอร์)
   decideNextPetAction(pet) {
+    if (pet.isSpeaking) return;
     const p = pet.personality || { energy: 50, diligence: 50, affection: 50 };
 
     // เช็คสภาพแวดล้อมใกล้ตัว (เตียง, กล่อง, คอนโด, ไหมพรม, ที่ฝนเล็บ)
