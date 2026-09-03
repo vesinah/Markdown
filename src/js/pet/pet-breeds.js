@@ -322,3 +322,12 @@ export function getRandomSpecialMarking() {
   const keys = Object.keys(SPECIAL_MARKINGS);
   return keys[Math.floor(Math.random() * keys.length)];
 }
+
+export const PET_GENDERS = {
+  male: { id: 'male', name: 'เพศผู้', symbol: '♂', desc: 'บึกบึน สมส่วน มั่นใจ รักการตรวจตรา' },
+  female: { id: 'female', name: 'เพศเมีย', symbol: '♀', desc: 'เพรียวยาว ปราดเปรียว สง่างาม ช่างสังเกต' }
+};
+
+export function getRandomGender() {
+  return Math.random() < 0.5 ? 'male' : 'female';
+}

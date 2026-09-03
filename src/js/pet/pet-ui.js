@@ -109,7 +109,9 @@ export const PetUI = {
       <div class="pet-cards-grid">
         ${manager.pets.map(p => {
           const breed = PET_BREEDS[p.breed] || PET_BREEDS.orange;
-          const title = PetPersonality.getPersonalityTitle(p.personality);
+          const genderKey = p.gender || 'male';
+          const genderLabel = genderKey === 'female' ? '♀ เพศเมีย' : '♂ เพศผู้';
+          const title = PetPersonality.getPersonalityTitle(p.personality, genderKey);
           const tail = TAIL_TYPES[p.tailType || breed.defaultTail]?.name || 'หางยาว';
           const build = BODY_BUILDS[p.build || breed.defaultBuild]?.name || 'สมส่วน';
           const stats = p.personality || { intelligence: 50, diligence: 50, energy: 50, talkativeness: 50, affection: 50, sociability: 50 };
@@ -123,11 +125,12 @@ export const PetUI = {
                 <div class="pet-card-main-info">
                   <div class="pet-card-name-row">
                     <span class="pet-card-name">${p.name}</span>
+                    <span class="pet-gender-badge gender-${genderKey}">${genderLabel}</span>
                     <span class="pet-card-badge">${title}</span>
                   </div>
                   <div class="pet-card-sub">${breed.name}</div>
                   <div class="pet-card-traits">
-                    <span>${tail}</span> • <span>${build}</span>
+                    <span>${genderLabel}</span> • <span>${tail}</span> • <span>${build}</span>
                   </div>
                   ${(() => {
                     const mem = typeof PetMemory !== 'undefined' ? PetMemory.getMemory(p) : null;
@@ -254,6 +257,7 @@ export const PetUI = {
             <div class="pet-diary-details">
               <div class="pet-diary-name-wrap">
                 <span class="pet-diary-name">${pet.name}</span>
+                <span class="pet-gender-badge gender-${pet.gender || 'male'}">${pet.gender === 'female' ? '♀ เพศเมีย' : '♂ เพศผู้'}</span>
                 <span class="pet-diary-bond-badge" style="background:${bond.color}22;color:${bond.color};border:1px solid ${bond.color}55;">
                   ${bond.icon} ระดับ ${bond.level}: ${bond.name}
                 </span>
@@ -407,6 +411,21 @@ export const PetUI = {
                 <span class="btn-dice-icon">🎲</span>
                 <span>สุ่มชื่อ</span>
               </button>
+            </div>
+          </div>
+
+          <div class="pet-form-group">
+            <label>🚻 เพศของน้องแมว:</label>
+            <div class="pet-gender-btn-group" id="adopt-gender-options">
+              <button type="button" class="pet-gender-btn active" data-gender="male" title="เพศผู้: สัดส่วนสมส่วน มั่นใจ ชอบลาดตระเวน">
+                <span class="gender-btn-symbol male">♂</span>
+                <span class="gender-btn-label">เพศผู้ (สมส่วน มั่นใจ)</span>
+              </button>
+              <button type="button" class="pet-gender-btn" data-gender="female" title="เพศเมีย: สัดส่วนเพรียวยาว สง่างาม รักสะอาด">
+                <span class="gender-btn-symbol female">♀</span>
+                <span class="gender-btn-label">เพศเมีย (เพรียวยาว สง่างาม)</span>
+              </button>
+              <input type="hidden" id="adopt-input-gender" value="male"/>
             </div>
           </div>
 
@@ -699,6 +718,7 @@ export const PetUI = {
     const tailSelect = overlay.querySelector('#adopt-select-tail');
     const buildSelect = overlay.querySelector('#adopt-select-build');
     const nameInput = overlay.querySelector('#adopt-input-name');
+    const genderInput = overlay.querySelector('#adopt-input-gender');
     const previewSvg = overlay.querySelector('#adopt-preview-svg');
     const previewDesc = overlay.querySelector('#adopt-preview-desc');
 
@@ -709,10 +729,12 @@ export const PetUI = {
       const curTail = tailSelect ? tailSelect.value : breed.defaultTail;
       const curBuild = buildSelect ? buildSelect.value : breed.defaultBuild;
       const curName = (nameInput?.value || 'น้องแมว').trim();
+      const curGender = genderInput ? genderInput.value : 'male';
 
       previewSvg.innerHTML = PetRenderer.renderCatSvg(breed, {
         id: 'preview',
         name: curName,
+        gender: curGender,
         breed: curBreedKey,
         tailType: curTail,
         build: curBuild,
@@ -721,9 +743,20 @@ export const PetUI = {
       });
 
       if (previewDesc) {
-        previewDesc.textContent = breed.desc;
+        const genderDesc = curGender === 'female' ? ' [เพศเมีย: รูปร่างสัดส่วนเพรียวยาวกว่า]' : ' [เพศผู้: สัดส่วนสมส่วน มั่นใจ]';
+        previewDesc.textContent = breed.desc + genderDesc;
       }
     };
+
+    const genderBtns = overlay.querySelectorAll('.pet-gender-btn');
+    genderBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        genderBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        if (genderInput) genderInput.value = btn.dataset.gender;
+        updatePreview();
+      });
+    });
 
     if (breedSelect) {
       breedSelect.addEventListener('change', () => {
@@ -752,6 +785,7 @@ export const PetUI = {
       submitAdoptBtn.addEventListener('click', () => {
         const breedKey = breedSelect?.value || 'white_brown_ears';
         const nameVal = (nameInput?.value || 'น้องแมว').trim();
+        const genderVal = overlay.querySelector('#adopt-input-gender')?.value || 'male';
         const tailVal = tailSelect?.value || 'long';
         const buildVal = buildSelect?.value || 'normal';
         const archVal = overlay.querySelector('#adopt-select-archetype')?.value;
@@ -767,6 +801,7 @@ export const PetUI = {
         manager.addNewPet({
           breed: breedKey,
           name: nameVal,
+          gender: genderVal,
           tailType: tailVal,
           build: buildVal,
           personality: stats
@@ -1101,7 +1136,7 @@ export const PetUI = {
     fx.textContent = iconMap[type] || '❤️';
 
     layerEl.appendChild(fx);
-    setTimeout(() => fx.remove(), 1600);
+    setTimeout(() => { if (fx && typeof fx.remove === 'function') fx.remove(); }, 1600);
   },
 
   // 4. แถบควบคุมบนหน้าจอแบบ Floating Control Bar (Pet Control Bar Dock)

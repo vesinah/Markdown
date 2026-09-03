@@ -50,7 +50,11 @@ export const PetSocial = {
       // เดินถอยหนีหลังจากพูดเสร็จสิ้นเท่านั้น (ไม่ขยับขณะพูด)
       setTimeout(() => {
         if (!antisocialPet.isDragged && !antisocialPet.isSpeaking) {
-          antisocialPet.targetX = Math.max(50, Math.min(window.innerWidth - 100, antisocialPet.x + (antisocialPet.x < otherPet.x ? -100 : 100)));
+          const retreatX = Math.max(50, Math.min(window.innerWidth - 100, antisocialPet.x + (antisocialPet.x < otherPet.x ? -100 : 100)));
+          antisocialPet.targetX = retreatX;
+          if (Math.abs(retreatX - antisocialPet.x) > 2) {
+            antisocialPet.facing = retreatX > antisocialPet.x ? 'right' : 'left';
+          }
           antisocialPet.state = 'walk';
           PetRenderer.updatePetVisuals(antisocialPet.el, antisocialPet);
         }
@@ -115,12 +119,30 @@ export const PetSocial = {
           pet2.state = 'run';
           const targetX = Math.max(60, Math.min(window.innerWidth - 160, pet1.x + (pet1.facing === 'right' ? 180 : -180)));
           pet1.targetX = targetX;
-          pet2.targetX = targetX + (pet1.facing === 'right' ? -50 : 50);
+          if (Math.abs(targetX - pet1.x) > 2) {
+            pet1.facing = targetX > pet1.x ? 'right' : 'left';
+          }
+          const target2X = targetX + (pet1.facing === 'right' ? -50 : 50);
+          pet2.targetX = target2X;
+          if (Math.abs(target2X - pet2.x) > 2) {
+            pet2.facing = target2X > pet2.x ? 'right' : 'left';
+          }
           PetRenderer.updatePetVisuals(pet1.el, pet1);
           PetRenderer.updatePetVisuals(pet2.el, pet2);
         }
       }, 3800);
       return;
+    }
+
+    const g1 = pet1.gender || 'male';
+    const g2 = pet2.gender || 'male';
+    let genderPairKey = null;
+    if ((g1 === 'male' && g2 === 'female') || (g1 === 'female' && g2 === 'male')) {
+      genderPairKey = 'male_female';
+    } else if (g1 === 'male' && g2 === 'male') {
+      genderPairKey = 'male_male';
+    } else if (g1 === 'female' && g2 === 'female') {
+      genderPairKey = 'female_female';
     }
 
     // กรณีทั้งคู่ขี้เกียจ/พลังงานต่ำ -> นอนกอดกันกลมๆ (Cuddle loaf)
@@ -134,14 +156,21 @@ export const PetSocial = {
         spawnFxCallback('heart', (pet1.x + pet2.x) / 2 + 35, Math.min(pet1.y, pet2.y) + 10);
       }
       if (sayCallback) {
-        sayCallback(pet1, `นอนเบียดกันตรงนี้นะ ${pet2.name} ตัวนายอุ่นเหมือนเตาผิงเลย`, 4500);
+        const cuddleMsg = (g1 === 'male' && g2 === 'female')
+          ? `นอนเบียดกันตรงนี้นะ ${pet2.name} ตัวเธออุ่นเหมือนเตาผิงเลยฮะ`
+          : (g1 === 'female' && g2 === 'male')
+          ? `นอนกอดกันตรงนี้นะ ${pet2.name} ตัวนายอุ่นจังเลยนะจ๊ะ`
+          : `นอนเบียดกันตรงนี้นะ ${pet2.name} ตัวนายอุ่นเหมือนเตาผิงเลย`;
+        sayCallback(pet1, cuddleMsg, 4500);
       }
       return;
     }
 
-    // กรณีสนทนาแลกเปลี่ยนตามบุคลิกภาพ (Dynamic Pair Dialogue)
+    // กรณีสนทนาแลกเปลี่ยนตามคู่เพศ หรือตามบุคลิกภาพ (Dynamic Gender & Personality Pair Dialogue)
     let chosenList = PET_DIALOGUES.multiPet;
-    if (p1.intelligence >= 65 && p2.intelligence <= 35) {
+    if (genderPairKey && PET_DIALOGUES.genderPairChats && PET_DIALOGUES.genderPairChats[genderPairKey] && Math.random() < 0.6) {
+      chosenList = PET_DIALOGUES.genderPairChats[genderPairKey];
+    } else if (p1.intelligence >= 65 && p2.intelligence <= 35) {
       chosenList = PET_DIALOGUES.personalityPairChats.smart_derpy;
     } else if (p1.energy >= 65 && p2.energy <= 35) {
       chosenList = PET_DIALOGUES.personalityPairChats.energy_lazy;
@@ -152,7 +181,7 @@ export const PetSocial = {
     }
 
     const rawMsg = chosenList[Math.floor(Math.random() * chosenList.length)];
-    const text = formatDialogue(rawMsg, { petName: pet1.name, otherPetName: pet2.name });
+    const text = formatDialogue(rawMsg, { petName: pet1.name, otherPetName: pet2.name, gender: g1, pet: pet1 });
 
     pet1.state = 'sit';
     pet2.state = 'sit';

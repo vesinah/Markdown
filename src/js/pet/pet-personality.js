@@ -99,29 +99,35 @@ export class PetPersonality {
     };
   }
 
-  // คำนวณฉายาบุคลิกภาพเด่น
-  static getPersonalityTitle(stats) {
-    if (!stats) return 'แมวธรรมดา';
+  // คำนวณฉายาบุคลิกภาพเด่น (สัมพันธ์กับเพศและ 6 แกนนิสัย)
+  static getPersonalityTitle(stats, gender = 'male') {
+    if (!stats) return gender === 'female' ? 'น้องแมวสาวแสนน่ารัก' : 'น้องแมวหนุ่มอารมณ์ดี';
     const s = stats;
+    const isFemale = gender === 'female';
 
-    if (s.intelligence >= 80 && s.diligence >= 70) return 'ผู้ช่วยวิชาการตัวจิ๋ว';
-    if (s.intelligence <= 30 && s.energy >= 70) return 'เจ้าตัวเด๋อจอมซน';
-    if (s.energy >= 85) return 'จรวดมิสไซล์ติดขน';
-    if (s.diligence <= 25 && s.energy <= 35) return 'แชมเปี้ยนการนอนกลางวัน';
-    if (s.affection >= 85) return 'ก้อนน้ำตาลคลั่งรัก';
-    if (s.affection <= 25) return 'จักรพรรดิผู้เย่อหยิ่ง';
-    if (s.sociability >= 85) return 'ทูตสันถวไมตรีสี่ขา';
-    if (s.sociability <= 25) return 'แมวอินโทรเวิร์ตสันโดษ';
-    if (s.talkativeness >= 85) return 'ดีเจเสียงใสชวนคุย';
-    if (s.talkativeness <= 25) return 'นักปราชญ์ผู้เงียบสงบ';
+    if (s.intelligence >= 80 && s.diligence >= 70) return isFemale ? 'ผู้ช่วยวิชาการสาวน้อย' : 'ผู้ช่วยวิชาการตัวจิ๋ว';
+    if (s.intelligence <= 30 && s.energy >= 70) return isFemale ? 'สาวน้อยจอมเด๋อสุดซน' : 'เจ้าตัวเด๋อจอมซน';
+    if (s.energy >= 85) return isFemale ? 'สาวน้อยพลังเทอร์โบติดจรวด' : 'จรวดมิสไซล์ติดขน';
+    if (s.diligence <= 25 && s.energy <= 35) return isFemale ? 'เจ้าหญิงขี้เซาแห่งการนอน' : 'แชมเปี้ยนการนอนกลางวัน';
+    if (s.affection >= 85) return isFemale ? 'สาวน้อยคลั่งรักติดทาส' : 'ก้อนน้ำตาลคลั่งรัก';
+    if (s.affection <= 25) return isFemale ? 'องค์ราชินีผู้เย่อหยิ่ง' : 'จักรพรรดิผู้เย่อหยิ่ง';
+    if (s.sociability >= 85) return isFemale ? 'ทูตสันถวไมตรีสาวแสนสวย' : 'ทูตสันถวไมตรีสี่ขา';
+    if (s.sociability <= 25) return isFemale ? 'แม่มดน้อยรักสันโดษ' : 'แมวอินโทรเวิร์ตสันโดษ';
+    if (s.talkativeness >= 85) return isFemale ? 'ดีเจสาวเสียงใสชวนคุย' : 'ดีเจเสียงใสชวนคุย';
+    if (s.talkativeness <= 25) return isFemale ? 'นักปราชญ์สาวผู้เงียบสงบ' : 'นักปราชญ์ผู้เงียบสงบ';
 
-    return 'น้องแมวอารมณ์ดี';
+    return isFemale ? 'น้องแมวสาวแสนน่ารัก' : 'น้องแมวหนุ่มอารมณ์ดี';
   }
 
-  // สรุปป้ายแท็กบุคลิก
-  static getPersonalityBadges(stats) {
+  // สรุปป้ายแท็กบุคลิก (รวมป้ายเพศ)
+  static getPersonalityBadges(stats, gender = null) {
     if (!stats) return [];
     const badges = [];
+    if (gender === 'female') {
+      badges.push({ text: '♀ เพศเมีย', color: '#ff006e' });
+    } else if (gender === 'male') {
+      badges.push({ text: '♂ เพศผู้', color: '#3a86ff' });
+    }
 
     if (stats.intelligence >= 70) badges.push({ text: 'ฉลาดปราดเปรื่อง', color: '#4361ee' });
     else if (stats.intelligence <= 35) badges.push({ text: 'เด๋อด๋าน่ารัก', color: '#7209b7' });
@@ -138,20 +144,24 @@ export class PetPersonality {
     if (stats.sociability >= 70) badges.push({ text: 'เข้าสังคมเก่ง', color: '#52b788' });
     else if (stats.sociability <= 35) badges.push({ text: 'รักสันโดษ', color: '#4a4e69' });
 
-    return badges.slice(0, 3);
+    return badges.slice(0, 4);
   }
 
-  // คำนวณอัตราความเร็วการเดินตามค่าพลังงาน (Energy) และ รูปร่าง
+  // คำนวณอัตราความเร็วการเดินตามค่าพลังงาน (Energy), รูปร่าง และเพศ
   static calculateWalkSpeed(pet) {
-    const energy = pet.personality?.energy || 50;
+    const energy = pet?.personality?.energy || 50;
     const baseSpeed = 1.2 + (energy / 100) * 1.6;
-    if (pet.build === 'chubby' || pet.build === 'chunky_loaf') {
-      return baseSpeed * 0.85; // แมวอ้วนเดินต้วมเตี้ยมน่ารัก
+    let speed = baseSpeed;
+    if (pet?.build === 'chubby' || pet?.build === 'chunky_loaf') {
+      speed *= 0.85; // แมวอ้วนเดินต้วมเตี้ยมน่ารัก
+    } else if (pet?.build === 'slim') {
+      speed *= 1.15; // แมวเพรียวเดินปราดเปรียว
     }
-    if (pet.build === 'slim') {
-      return baseSpeed * 1.15; // แมวเพรียวเดินปราดเปรียว
+    // เพศเมียรูปร่างเพรียวยาว ย่างก้าวเบาและคล่องแคล่ว
+    if (pet?.gender === 'female') {
+      speed *= 1.06;
     }
-    return baseSpeed;
+    return speed;
   }
 
   // คำนวณโอกาสที่แมวจะเดินตามเคอร์เซอร์เมาส์ (Affection + Energy)
@@ -224,16 +234,17 @@ export class PetPersonality {
     const ene = p.energy ?? 50;
     const aff = p.affection ?? 50;
     const soc = p.sociability ?? 50;
+    const isFemale = pet?.gender === 'female';
 
-    // ตารางน้ำหนักคะแนนตามแกนบุคลิกภาพ
+    // ตารางน้ำหนักคะแนนตามแกนบุคลิกภาพ และพฤติกรรมจำเพาะตามเพศ
     const weights = {
-      walk: 20 + (ene * 0.3) + (dil * 0.15),
-      sit: 15 + (dil * 0.2),
-      groom: 10 + (intel * 0.15),
-      two_legged: 8 + (aff * 0.25) + (intel * 0.1),
-      batting_ball: 6 + (ene * 0.25),
-      scratch: 7 + ((100 - intel) * 0.15) + (ene * 0.1),
-      pounce_play: 5 + (ene * 0.2) + (soc * 0.15),
+      walk: 20 + (ene * 0.3) + (dil * 0.15) + (!isFemale ? 14 : -4), // ตัวผู้ชอบเดินตรวจตราลาดตระเวน
+      sit: 15 + (dil * 0.2) + (isFemale ? 5 : 0), // ตัวเมียสงบนิ่งช่างสังเกต
+      groom: 10 + (intel * 0.15) + (isFemale ? 14 : 0), // ตัวเมียรักความสะอาด เลียแต่งขนอย่างประณีต
+      two_legged: 8 + (aff * 0.25) + (intel * 0.1) + (isFemale ? 8 : 0), // ตัวเมียยืนสองขาออดอ้อนน่ารัก
+      batting_ball: 6 + (ene * 0.25) + (!isFemale ? 3 : 0), // ตัวผู้ชอบตบบอล
+      scratch: 7 + ((100 - intel) * 0.15) + (ene * 0.1) + (!isFemale ? 8 : 0), // ตัวผู้ลับเล็บประกาศศักดา
+      pounce_play: 5 + (ene * 0.2) + (soc * 0.15) + (!isFemale ? 5 : 0), // ตัวผู้ชอบกระโจนเล่นซน
       sleep_loaf: 10 + ((100 - dil) * 0.3) + ((100 - ene) * 0.2),
       sleep_belly: 6 + ((100 - dil) * 0.25) + (aff * 0.15),
       derpy_yawn: 6 + ((100 - intel) * 0.2) + ((100 - ene) * 0.15)

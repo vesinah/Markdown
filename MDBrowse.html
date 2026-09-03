@@ -2884,8 +2884,12 @@ body.dragging-ruler .margin-guide {
   will-change: transform;
 }
 
-/* Orientation */
+/* Orientation: Base SVG faces Left (front legs x=40, tail x=75).
+   facing-right uses scaleX(-1) to flip forward facing right. */
 .desktop-pet.facing-left .pet-inner {
+  transform: scale(var(--pet-scale, 1));
+}
+.desktop-pet.facing-right .pet-inner {
   transform: scale(var(--pet-scale, 1)) scaleX(-1);
 }
 
@@ -3036,19 +3040,24 @@ body.dragging-ruler .margin-guide {
 }
 
 /* Walking Motion (Smooth 4-Leg Trot & Gentle Body Bobbing) */
-.desktop-pet.pet-state-walk .pet-inner {
+.desktop-pet.pet-state-walk .pet-inner,
+.desktop-pet.facing-left.pet-state-walk .pet-inner {
   animation: pet-walk-bob 0.36s infinite alternate ease-in-out;
 }
 @keyframes pet-walk-bob {
   0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) translateY(-2px); }
 }
-.desktop-pet.facing-left.pet-state-walk .pet-inner {
-  animation: pet-walk-bob-left 0.36s infinite alternate ease-in-out;
+.desktop-pet.facing-right.pet-state-walk .pet-inner {
+  animation: pet-walk-bob-right 0.36s infinite alternate ease-in-out;
 }
-@keyframes pet-walk-bob-left {
+@keyframes pet-walk-bob-right {
   0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(-2px); }
+}
+@keyframes pet-walk-bob-left {
+  0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) translateY(-2px); }
 }
 
 .desktop-pet.pet-state-walk .pet-paw-fl,
@@ -3061,30 +3070,37 @@ body.dragging-ruler .margin-guide {
 }
 
 @keyframes paw-walk {
-  0% { transform: translateY(0) translateX(-1px); }
-  50% { transform: translateY(-3.5px) translateX(2px); }
-  100% { transform: translateY(0) translateX(4px); }
+  0% { transform: translateY(0) translateX(2px); }
+  50% { transform: translateY(-3.5px) translateX(-3px); }
+  100% { transform: translateY(0) translateX(2px); }
 }
 
 /* Running Motion */
-.desktop-pet.pet-state-run .pet-inner {
+.desktop-pet.pet-state-run .pet-inner,
+.desktop-pet.facing-left.pet-state-run .pet-inner {
   animation: pet-run-bob 0.22s infinite alternate ease-in-out;
 }
 @keyframes pet-run-bob {
   0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) translateY(-5px); }
 }
-.desktop-pet.facing-left.pet-state-run .pet-inner {
-  animation: pet-run-bob-left 0.22s infinite alternate ease-in-out;
+.desktop-pet.facing-right.pet-state-run .pet-inner {
+  animation: pet-run-bob-right 0.22s infinite alternate ease-in-out;
 }
-@keyframes pet-run-bob-left {
+@keyframes pet-run-bob-right {
   0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(-5px); }
+}
+@keyframes pet-run-bob-left {
+  0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) translateY(-5px); }
 }
 
 /* 3 Body Builds & Waddle Walk Cycles */
 .desktop-pet.build-chubby.pet-state-walk .pet-inner,
-.desktop-pet.build-chunky_loaf.pet-state-walk .pet-inner {
+.desktop-pet.build-chunky_loaf.pet-state-walk .pet-inner,
+.desktop-pet.facing-left.build-chubby.pet-state-walk .pet-inner,
+.desktop-pet.facing-left.build-chunky_loaf.pet-state-walk .pet-inner {
   animation: pet-chubby-waddle 0.48s infinite alternate ease-in-out;
   transform-origin: 50% 90%;
 }
@@ -3092,18 +3108,24 @@ body.dragging-ruler .margin-guide {
   0% { transform: scale(var(--pet-scale, 1)) rotate(-4deg) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) rotate(4deg) translateY(-2.5px); }
 }
-.desktop-pet.facing-left.build-chubby.pet-state-walk .pet-inner,
-.desktop-pet.facing-left.build-chunky_loaf.pet-state-walk .pet-inner {
-  animation: pet-chubby-waddle-left 0.48s infinite alternate ease-in-out;
+.desktop-pet.facing-right.build-chubby.pet-state-walk .pet-inner,
+.desktop-pet.facing-right.build-chunky_loaf.pet-state-walk .pet-inner {
+  animation: pet-chubby-waddle-right 0.48s infinite alternate ease-in-out;
   transform-origin: 50% 90%;
 }
-@keyframes pet-chubby-waddle-left {
+@keyframes pet-chubby-waddle-right {
   0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) rotate(-4deg) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) rotate(4deg) translateY(-2.5px); }
 }
+@keyframes pet-chubby-waddle-left {
+  0% { transform: scale(var(--pet-scale, 1)) rotate(-4deg) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) rotate(4deg) translateY(-2.5px); }
+}
 
 .desktop-pet.build-skinny.pet-state-walk .pet-inner,
-.desktop-pet.build-slim.pet-state-walk .pet-inner {
+.desktop-pet.build-slim.pet-state-walk .pet-inner,
+.desktop-pet.facing-left.build-skinny.pet-state-walk .pet-inner,
+.desktop-pet.facing-left.build-slim.pet-state-walk .pet-inner {
   animation: pet-skinny-trot 0.28s infinite alternate ease-in-out;
   transform-origin: 50% 90%;
 }
@@ -3111,14 +3133,18 @@ body.dragging-ruler .margin-guide {
   0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) translateY(-4px); }
 }
-.desktop-pet.facing-left.build-skinny.pet-state-walk .pet-inner,
-.desktop-pet.facing-left.build-slim.pet-state-walk .pet-inner {
-  animation: pet-skinny-trot-left 0.28s infinite alternate ease-in-out;
+.desktop-pet.facing-right.build-skinny.pet-state-walk .pet-inner,
+.desktop-pet.facing-right.build-slim.pet-state-walk .pet-inner {
+  animation: pet-skinny-trot-right 0.28s infinite alternate ease-in-out;
   transform-origin: 50% 90%;
 }
-@keyframes pet-skinny-trot-left {
+@keyframes pet-skinny-trot-right {
   0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(-4px); }
+}
+@keyframes pet-skinny-trot-left {
+  0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) translateY(-4px); }
 }
 
 /* Breathing while sitting/standing */
@@ -3246,12 +3272,21 @@ body.dragging-ruler .margin-guide {
 }
 .desktop-pet.facing-left.pet-state-two_legged .pet-inner,
 .desktop-pet.facing-left.pet-state-begging .pet-inner {
-  animation: pet-stand-sway-left 1.6s infinite alternate ease-in-out;
+  animation: pet-stand-sway 1.6s infinite alternate ease-in-out;
   transform-origin: 50% 90%;
 }
-@keyframes pet-stand-sway-left {
+.desktop-pet.facing-right.pet-state-two_legged .pet-inner,
+.desktop-pet.facing-right.pet-state-begging .pet-inner {
+  animation: pet-stand-sway-right 1.6s infinite alternate ease-in-out;
+  transform-origin: 50% 90%;
+}
+@keyframes pet-stand-sway-right {
   0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) rotate(-3deg); }
   100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) rotate(3deg); }
+}
+@keyframes pet-stand-sway-left {
+  0% { transform: scale(var(--pet-scale, 1)) rotate(-3deg); }
+  100% { transform: scale(var(--pet-scale, 1)) rotate(3deg); }
 }
 .pet-begging-paws-upright, .pet-begging-paws {
   animation: pet-paws-plead 0.32s infinite alternate ease-in-out;
@@ -3317,12 +3352,20 @@ body.dragging-ruler .margin-guide {
   100% { transform: scale(var(--pet-scale, 1)) scale(1.03, 0.95) translateY(2px); }
 }
 .desktop-pet.facing-left.pet-state-pooping .pet-inner {
-  animation: pet-poop-strain-left 0.45s infinite alternate ease-in-out;
+  animation: pet-poop-strain 0.45s infinite alternate ease-in-out;
   transform-origin: 50% 85%;
 }
-@keyframes pet-poop-strain-left {
+.desktop-pet.facing-right.pet-state-pooping .pet-inner {
+  animation: pet-poop-strain-right 0.45s infinite alternate ease-in-out;
+  transform-origin: 50% 85%;
+}
+@keyframes pet-poop-strain-right {
   0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) scale(1.03, 0.95) translateY(2px); }
+}
+@keyframes pet-poop-strain-left {
+  0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) scale(1.03, 0.95) translateY(2px); }
 }
 
 /* ===================================================
@@ -3819,6 +3862,26 @@ body.dragging-ruler .margin-guide {
   border-radius: 999px;
   border: 1px solid #dbeafe;
 }
+.pet-gender-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  line-height: 1;
+}
+.pet-gender-badge.gender-male {
+  background: #eff6ff;
+  color: #2563eb;
+  border: 1px solid #bfdbfe;
+}
+.pet-gender-badge.gender-female {
+  background: #fdf2f8;
+  color: #db2777;
+  border: 1px solid #fbcfe8;
+}
 .pet-card-sub {
   font-size: 12px;
   color: #64748b;
@@ -4070,6 +4133,57 @@ body.dragging-ruler .margin-guide {
 }
 .pet-btn-dice:active {
   transform: translateY(0);
+}
+
+/* Gender Toggle Buttons in Adoption Form */
+.pet-gender-btn-group {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+.pet-gender-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #475569;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+  font-family: inherit;
+}
+.pet-gender-btn:hover {
+  border-color: #cbd5e1;
+  background: #f8fafc;
+  transform: translateY(-1px);
+}
+.pet-gender-btn.active[data-gender="male"] {
+  border-color: #3b82f6;
+  background: #eff6ff;
+  color: #1d4ed8;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.18);
+}
+.pet-gender-btn.active[data-gender="female"] {
+  border-color: #ec4899;
+  background: #fdf2f8;
+  color: #be185d;
+  box-shadow: 0 2px 8px rgba(236, 72, 153, 0.18);
+}
+.gender-btn-symbol {
+  font-size: 14px;
+  font-weight: 800;
+}
+.gender-btn-symbol.male {
+  color: #2563eb;
+}
+.gender-btn-symbol.female {
+  color: #db2777;
 }
 
 /* Custom Select Dropdowns */
@@ -12958,6 +13072,15 @@ function getRandomSpecialMarking() {
   return keys[Math.floor(Math.random() * keys.length)];
 }
 
+const PET_GENDERS = {
+  male: { id: 'male', name: 'เพศผู้', symbol: '♂', desc: 'บึกบึน สมส่วน มั่นใจ รักการตรวจตรา' },
+  female: { id: 'female', name: 'เพศเมีย', symbol: '♀', desc: 'เพรียวยาว ปราดเปรียว สง่างาม ช่างสังเกต' }
+};
+
+function getRandomGender() {
+  return Math.random() < 0.5 ? 'male' : 'female';
+}
+
 
 // ระบบบุคลิกภาพ 6 แกนและกลไกพฤติกรรม (6-Axis Personality Engine)
 // ฉลาด-เด๋อ, ขยัน-ขี้เกียจ, พลังงาน, ช่างพูด-เงียบ, ขี้อ้อน-หยิ่ง, เข้าสังคม-สันโดษ
@@ -13060,29 +13183,35 @@ class PetPersonality {
     };
   }
 
-  // คำนวณฉายาบุคลิกภาพเด่น
-  static getPersonalityTitle(stats) {
-    if (!stats) return 'แมวธรรมดา';
+  // คำนวณฉายาบุคลิกภาพเด่น (สัมพันธ์กับเพศและ 6 แกนนิสัย)
+  static getPersonalityTitle(stats, gender = 'male') {
+    if (!stats) return gender === 'female' ? 'น้องแมวสาวแสนน่ารัก' : 'น้องแมวหนุ่มอารมณ์ดี';
     const s = stats;
+    const isFemale = gender === 'female';
 
-    if (s.intelligence >= 80 && s.diligence >= 70) return 'ผู้ช่วยวิชาการตัวจิ๋ว';
-    if (s.intelligence <= 30 && s.energy >= 70) return 'เจ้าตัวเด๋อจอมซน';
-    if (s.energy >= 85) return 'จรวดมิสไซล์ติดขน';
-    if (s.diligence <= 25 && s.energy <= 35) return 'แชมเปี้ยนการนอนกลางวัน';
-    if (s.affection >= 85) return 'ก้อนน้ำตาลคลั่งรัก';
-    if (s.affection <= 25) return 'จักรพรรดิผู้เย่อหยิ่ง';
-    if (s.sociability >= 85) return 'ทูตสันถวไมตรีสี่ขา';
-    if (s.sociability <= 25) return 'แมวอินโทรเวิร์ตสันโดษ';
-    if (s.talkativeness >= 85) return 'ดีเจเสียงใสชวนคุย';
-    if (s.talkativeness <= 25) return 'นักปราชญ์ผู้เงียบสงบ';
+    if (s.intelligence >= 80 && s.diligence >= 70) return isFemale ? 'ผู้ช่วยวิชาการสาวน้อย' : 'ผู้ช่วยวิชาการตัวจิ๋ว';
+    if (s.intelligence <= 30 && s.energy >= 70) return isFemale ? 'สาวน้อยจอมเด๋อสุดซน' : 'เจ้าตัวเด๋อจอมซน';
+    if (s.energy >= 85) return isFemale ? 'สาวน้อยพลังเทอร์โบติดจรวด' : 'จรวดมิสไซล์ติดขน';
+    if (s.diligence <= 25 && s.energy <= 35) return isFemale ? 'เจ้าหญิงขี้เซาแห่งการนอน' : 'แชมเปี้ยนการนอนกลางวัน';
+    if (s.affection >= 85) return isFemale ? 'สาวน้อยคลั่งรักติดทาส' : 'ก้อนน้ำตาลคลั่งรัก';
+    if (s.affection <= 25) return isFemale ? 'องค์ราชินีผู้เย่อหยิ่ง' : 'จักรพรรดิผู้เย่อหยิ่ง';
+    if (s.sociability >= 85) return isFemale ? 'ทูตสันถวไมตรีสาวแสนสวย' : 'ทูตสันถวไมตรีสี่ขา';
+    if (s.sociability <= 25) return isFemale ? 'แม่มดน้อยรักสันโดษ' : 'แมวอินโทรเวิร์ตสันโดษ';
+    if (s.talkativeness >= 85) return isFemale ? 'ดีเจสาวเสียงใสชวนคุย' : 'ดีเจเสียงใสชวนคุย';
+    if (s.talkativeness <= 25) return isFemale ? 'นักปราชญ์สาวผู้เงียบสงบ' : 'นักปราชญ์ผู้เงียบสงบ';
 
-    return 'น้องแมวอารมณ์ดี';
+    return isFemale ? 'น้องแมวสาวแสนน่ารัก' : 'น้องแมวหนุ่มอารมณ์ดี';
   }
 
-  // สรุปป้ายแท็กบุคลิก
-  static getPersonalityBadges(stats) {
+  // สรุปป้ายแท็กบุคลิก (รวมป้ายเพศ)
+  static getPersonalityBadges(stats, gender = null) {
     if (!stats) return [];
     const badges = [];
+    if (gender === 'female') {
+      badges.push({ text: '♀ เพศเมีย', color: '#ff006e' });
+    } else if (gender === 'male') {
+      badges.push({ text: '♂ เพศผู้', color: '#3a86ff' });
+    }
 
     if (stats.intelligence >= 70) badges.push({ text: 'ฉลาดปราดเปรื่อง', color: '#4361ee' });
     else if (stats.intelligence <= 35) badges.push({ text: 'เด๋อด๋าน่ารัก', color: '#7209b7' });
@@ -13099,20 +13228,24 @@ class PetPersonality {
     if (stats.sociability >= 70) badges.push({ text: 'เข้าสังคมเก่ง', color: '#52b788' });
     else if (stats.sociability <= 35) badges.push({ text: 'รักสันโดษ', color: '#4a4e69' });
 
-    return badges.slice(0, 3);
+    return badges.slice(0, 4);
   }
 
-  // คำนวณอัตราความเร็วการเดินตามค่าพลังงาน (Energy) และ รูปร่าง
+  // คำนวณอัตราความเร็วการเดินตามค่าพลังงาน (Energy), รูปร่าง และเพศ
   static calculateWalkSpeed(pet) {
-    const energy = pet.personality?.energy || 50;
+    const energy = pet?.personality?.energy || 50;
     const baseSpeed = 1.2 + (energy / 100) * 1.6;
-    if (pet.build === 'chubby' || pet.build === 'chunky_loaf') {
-      return baseSpeed * 0.85; // แมวอ้วนเดินต้วมเตี้ยมน่ารัก
+    let speed = baseSpeed;
+    if (pet?.build === 'chubby' || pet?.build === 'chunky_loaf') {
+      speed *= 0.85; // แมวอ้วนเดินต้วมเตี้ยมน่ารัก
+    } else if (pet?.build === 'slim') {
+      speed *= 1.15; // แมวเพรียวเดินปราดเปรียว
     }
-    if (pet.build === 'slim') {
-      return baseSpeed * 1.15; // แมวเพรียวเดินปราดเปรียว
+    // เพศเมียรูปร่างเพรียวยาว ย่างก้าวเบาและคล่องแคล่ว
+    if (pet?.gender === 'female') {
+      speed *= 1.06;
     }
-    return baseSpeed;
+    return speed;
   }
 
   // คำนวณโอกาสที่แมวจะเดินตามเคอร์เซอร์เมาส์ (Affection + Energy)
@@ -13185,16 +13318,17 @@ class PetPersonality {
     const ene = p.energy ?? 50;
     const aff = p.affection ?? 50;
     const soc = p.sociability ?? 50;
+    const isFemale = pet?.gender === 'female';
 
-    // ตารางน้ำหนักคะแนนตามแกนบุคลิกภาพ
+    // ตารางน้ำหนักคะแนนตามแกนบุคลิกภาพ และพฤติกรรมจำเพาะตามเพศ
     const weights = {
-      walk: 20 + (ene * 0.3) + (dil * 0.15),
-      sit: 15 + (dil * 0.2),
-      groom: 10 + (intel * 0.15),
-      two_legged: 8 + (aff * 0.25) + (intel * 0.1),
-      batting_ball: 6 + (ene * 0.25),
-      scratch: 7 + ((100 - intel) * 0.15) + (ene * 0.1),
-      pounce_play: 5 + (ene * 0.2) + (soc * 0.15),
+      walk: 20 + (ene * 0.3) + (dil * 0.15) + (!isFemale ? 14 : -4), // ตัวผู้ชอบเดินตรวจตราลาดตระเวน
+      sit: 15 + (dil * 0.2) + (isFemale ? 5 : 0), // ตัวเมียสงบนิ่งช่างสังเกต
+      groom: 10 + (intel * 0.15) + (isFemale ? 14 : 0), // ตัวเมียรักความสะอาด เลียแต่งขนอย่างประณีต
+      two_legged: 8 + (aff * 0.25) + (intel * 0.1) + (isFemale ? 8 : 0), // ตัวเมียยืนสองขาออดอ้อนน่ารัก
+      batting_ball: 6 + (ene * 0.25) + (!isFemale ? 3 : 0), // ตัวผู้ชอบตบบอล
+      scratch: 7 + ((100 - intel) * 0.15) + (ene * 0.1) + (!isFemale ? 8 : 0), // ตัวผู้ลับเล็บประกาศศักดา
+      pounce_play: 5 + (ene * 0.2) + (soc * 0.15) + (!isFemale ? 5 : 0), // ตัวผู้ชอบกระโจนเล่นซน
       sleep_loaf: 10 + ((100 - dil) * 0.3) + ((100 - ene) * 0.2),
       sleep_belly: 6 + ((100 - dil) * 0.25) + (aff * 0.15),
       derpy_yawn: 6 + ((100 - intel) * 0.2) + ((100 - ene) * 0.15)
@@ -14167,11 +14301,109 @@ const PET_DIALOGUES = {
     'ฝนเล็บแคร่กๆ ให้คมกริบ พร้อมสู้กับทุกอุปสรรค!',
     'การลับเล็บนี่มันฟินข้อต่ออุ้งเท้าที่สุดในโลกเลยเหมียว!',
     'เล็บคมกริบเรียบร้อย! มีอะไรให้เหมียวช่วยตะปบไหมทาส?'
-  ]
+  ],
+
+  // 19. คำพูดเฉพาะเพศ (Gender-Specific Dialogues)
+  gendered: {
+    male: {
+      docContext: [
+        'กำลังอ่าน "{doc}" อยู่เหรอครับทาส สนุกไหมฮะ?',
+        'อ่าน "{doc}" จบหรือยังครับ เดี๋ยวผมช่วยกดเลื่อนหน้าให้ เอาไหมฮะ?',
+        'ในเอกสาร "{doc}" มีรูปปลาให้ผมดูบ้างไหมครับทาส?',
+        'ถ้าอ่าน "{doc}" จบแล้ว ทาสจะให้รางวัลปลาทูผมกี่ตัวครับ?',
+        'ผมแอบดูทาสอ่าน "{doc}" มาตั้งนานแล้ว ทาสเก่งมากเลยครับ!'
+      ],
+      fatigue: [
+        'อ่านเกิน 40 นาทีแล้วนะครับทาส! พักสายตาสัก 5 นาทีเดี๋ยวนี้ครับ!',
+        'ผมนอนขวางแป้นพิมพ์แล้วนะครับ! สั่งให้ทาสลุกไปยืดเส้นยืดสาย 10 นาทีครับ!',
+        'หลังตรงๆ หน่อยครับทาส เดี๋ยวหลังงอนะครับ ผมเป็นห่วง!',
+        'ไปดื่มน้ำล้างหน้าให้สดชื่นก่อนครับทาส เดี๋ยวผมเฝ้าหน้าจอให้เอง!'
+      ],
+      touchTickle: [
+        'ฟินสุดๆ เลยครับทาส! เกาตรงซอกหูอีกนิดนะครับ ใช่ตรงนั้นแหละฮะ!',
+        'เกาคางแบบนี้ ผมให้คะแนนเต็มร้อยเลยครับทาส! สบายจังเลยฮะ 🥰',
+        'มือนุ่มๆ ของทาสนี่วิเศษที่สุดเลยครับ เกาต่ออีกนิดนะครับอย่าเพิ่งหยุดน้า'
+      ],
+      feeding: [
+        'ง่ำๆๆ! ขอบคุณสำหรับอาหารครับทาส อร่อยเหาะจนต้องยกนิ้วเท้าให้เลยครับ!',
+        'ปลาทูจานนี้รสชาติดีเลิศมากครับทาส! ผมมีพลังลุยซนต่อแล้วฮะ 🐟✨',
+        'ขอขนมแมวเลียเพิ่มอีกสักซองได้ไหมครับทาส? อร่อยจนหยุดไม่ได้เลยครับ!'
+      ],
+      mood: [
+        'วันนี้ผมหล่อเท่สมเป็นแมวหนุ่มไหมครับทาส? ขนเงาวับเลยนะฮะ! 👑',
+        'ผมรักทาสที่สุดในโลกเลยครับ! ขอเอาหัวมุดมือหน่อยนะฮะ ❤️',
+        'พลังผมเต็มเปี่ยมแล้วครับทาส! มีอะไรให้ผมพุ่งชนไหมฮะ! ⚡'
+      ]
+    },
+    female: {
+      docContext: [
+        'กำลังอ่าน "{doc}" อยู่เหรอคะทาส สนุกไหมคะ เล่าให้หนูฟังหน่อยสิคะ!',
+        'หน้า "{doc}" มีตัวหนังสือเยอะจังเลยค่ะ ตาลายแทนทาสแล้วนะค้า',
+        'อ่าน "{doc}" จบแล้ว มาเกาคางให้หนูแก้เมื่อยมือนะคะทาส 💖',
+        'หนูว่าเนื้อหาใน "{doc}" ดูลึกซึ้งมากเลยค่ะ ทาสของหนูฉลาดจังเลยค่ะ!',
+        'อ่าน "{doc}" เล่มนี้แล้วอย่าลืมพักผ่อนด้วยนะคะทาสขา'
+      ],
+      fatigue: [
+        'อ่านมานานเกิน 40 นาทีแล้วนะคะทาส! พักสายตามองต้นไม้เขียวๆ หน่อยนะคะ หนูเป็นห่วง',
+        'หนูมานอนทับจอแล้วน้า! ไม่อนุญาตให้อ่านต่อจนกว่าทาสจะวางมือไปพักผ่อนค่ะ!',
+        'ดื่มน้ำบ้างหรือยังคะทาส แก้วน้ำข้างโต๊ะแห้งหมดแล้วน้า เดี๋ยวหนูงอนจริงๆ ด้วยค่ะ',
+        'เมื่อยไหล่ใช่ไหมคะ? บิดขี้เกียจเหมือนหนูสิคะ... สดชื่นขึ้นเยอะเลยค่ะ!'
+      ],
+      touchTickle: [
+        'ฟินที่สุดเลยค่ะ เกาตรงคางให้หนูอีกนิดสิคะทาส ใช่เลยตรงนั้นแหละค่า 🥰',
+        'เพอร์รรร... เพอร์รรร... สบายจนเคลิ้มเลยค่ะ มือทาสอุ่นและใจดีที่สุดเลยค่ะ',
+        'ลูบพุงนุ่มๆ ของหนูเบาๆ นะคะ ฟินจนตัวเหลวเป็นน้ำแล้วค่ะทาสขา'
+      ],
+      feeding: [
+        'ง่ำๆๆ! อาหารมื้อนี้อร่อยถูกใจหนูที่สุดเลยค่ะ ขอบคุณนะคะทาสคนเก่ง!',
+        'ปลาทูสดใหม่หอมกรุ่นจังเลยค่ะ หนูให้คะแนนเต็มสิบไม่หักเลยค่า 🐟💕',
+        'ถ้ามีขนมแมวเลียรสกุ้งตบท้ายอีกซอง หนูจะจุ๊บแก้มทาสหนึ่งทีนะคะ อิอิ'
+      ],
+      mood: [
+        'รักทาสที่สุดในโลกเลยค่าาา! ขอหนูเอาหัวกลมๆ ซบแขนอุ่นๆ หน่อยน้า ❤️',
+        'วันนี้หนูเลียแต่งขนสวยไหมคะทาส? ขนนุ่มฟูสะอาดยังกะเจ้าหญิงเลยค่ะ ✨',
+        'ทาสขา... อย่ามัวแต่มองหน้าจอสิคะ หันมาสนใจความน่ารักของหนูตรงนี้ก่อนน้า 🥺'
+      ]
+    }
+  },
+
+  // 20. บทสนทนาตามคู่เพศเมื่อพบกัน (Gender Pair Chats)
+  genderPairChats: {
+    male_female: [
+      '{other} ขนของเธอวันนี้สวยเงางามจังเลยนะฮะ... ผมมองเพลินเลย',
+      '{other} ปากหวานจังเลยนะ! แต่ขอบคุณนะจ๊ะ อย่ามาทำเนียนเดินเบียดหนูน้า',
+      'เธอตัวหอมกลิ่นขนมแมวเลียจัง {other} แบ่งผมชิมบ้างสิฮะ!',
+      'เป็นแมวหนุ่มต้องสุภาพกับสาวๆ นะ {other} เดินระวังพุงหน่อยสิ!',
+      '{other} วันนี้เรามานั่งเฝ้าทาสข้างๆ กันนะฮะ มีเธออยู่ด้วยแล้วอุ่นใจจัง'
+    ],
+    male_male: [
+      'ไงเพื่อนยาก {other}! มาประลองความไวกันมะ ใครแพ้จ่ายปลาทู!',
+      'นายอย่ามาเนียนแย่งอาณาเขตตรงนี้ของฉันนะ {other}!',
+      '{other} วันนี้นายดูเท่ขึ้นนะ แต่ยังไงฉันก็หล่อกว่าอยู่ดี ฮ่าๆๆ!',
+      'มาชนอกทักทายกันหน่อยคู่หู {other} ปึ้ก!'
+    ],
+    female_female: [
+      '{other} ขนตรงหลังเธอยุ่งนิดหน่อย มาให้ฉันช่วยเลียแต่งขนให้นะ จะได้สวยเป๊ะทั้งคู่!',
+      'พวกเราสองสาวน่ารักที่สุดในบ้านนี้แล้วเนอะ {other} ทาสหลงจนโงหัวไม่ขึ้นแล้ว 💕',
+      '{other} เธอแอบเห็นขนมที่ทาสซ่อนไว้ไหม? เดี๋ยวพวกเราค่อยย่องไปอ้อนขอด้วยกันนะจ๊ะ',
+      'นอนกอดกันกลมๆ ตรงนี้นะ {other} ขนเธอนุ่มฟูเหมือนก้อนเมฆเลยจ้ะ'
+    ]
+  }
 };
 
-// สุ่มบทสนทนาที่เหมาะสมตามบริบท วันเวลาจริงจาก PC ความทรงจำ และอารมณ์ความรู้สึก
+// สุ่มบทสนทนาที่เหมาะสมตามบริบท วันเวลาจริงจาก PC ความทรงจำ อารมณ์ความรู้สึก และเพศ
 function getRandomDialogue(category, meta = {}) {
+  const gender = meta.gender || meta.pet?.gender || 'male';
+
+  // ตรวจสอบว่ามีหมวดหมู่คำพูดเฉพาะเพศหรือไม่
+  if (PET_DIALOGUES.gendered && PET_DIALOGUES.gendered[gender] && PET_DIALOGUES.gendered[gender][category]) {
+    const gList = PET_DIALOGUES.gendered[gender][category];
+    if (Math.random() < 0.7) {
+      const raw = gList[Math.floor(Math.random() * gList.length)];
+      return formatDialogue(raw, meta);
+    }
+  }
+
   let list = PET_DIALOGUES[category] || PET_DIALOGUES.docContext;
 
   // 1. ตรวจจับวันเวลาจริงจาก PC
@@ -14291,6 +14523,10 @@ function formatDialogue(text, meta = {}) {
   const bondVal = safeMeta.bondLevelName || (safeMeta.petMemory?.bondLevelName) || 'เพื่อนคู่ใจ';
   const moodVal = safeMeta.moodLabel || (safeMeta.petMemory?.mood) || 'สดชื่น';
 
+  // ตัวแปรเพศ
+  const gender = safeMeta.gender || safeMeta.pet?.gender || 'male';
+  const isFemale = gender === 'female';
+
   res = res.replace(/\{doc\}/g, docName);
   res = res.replace(/\{name\}/g, safeMeta.petName || 'น้องแมว');
   res = res.replace(/\{petName\}/g, safeMeta.petName || 'น้องแมว');
@@ -14304,6 +14540,12 @@ function formatDialogue(text, meta = {}) {
   res = res.replace(/\{timeString\}/g, timeCtx.timeString);
   res = res.replace(/\{dateString\}/g, timeCtx.dateString);
   res = res.replace(/\{timeSlotName\}/g, timeCtx.timeSlotName);
+  res = res.replace(/\{particle\}/g, isFemale ? 'ค่ะ' : 'ครับ');
+  res = res.replace(/\{particleSoft\}/g, isFemale ? 'นะคะ' : 'ฮะ');
+  res = res.replace(/\{self\}/g, isFemale ? 'หนู' : 'ผม');
+  res = res.replace(/\{title\}/g, isFemale ? 'สาวน้อย' : 'หนุ่มน้อย');
+  res = res.replace(/\{gender\}/g, isFemale ? 'เพศเมีย' : 'เพศผู้');
+  res = res.replace(/\{genderSymbol\}/g, isFemale ? '♀' : '♂');
 
   return res;
 }
@@ -15004,14 +15246,16 @@ class PetRenderer {
       }
     }
 
-    // กำหนด Class สำหรับสายพันธุ์ ท่าทาง และทิศทาง
+    // กำหนด Class สำหรับสายพันธุ์ ท่าทาง เพศ และทิศทาง
     const isFluffy = breed.furType === 'fluffy_persian';
     const tailType = pet.tailType || breed.defaultTail || 'long';
     const build = pet.build || breed.defaultBuild || 'normal';
+    const gender = pet.gender || 'male';
     const moodClass = `mood-${pet.mood || 'curious'}`;
 
     const buildClass = `build-${build} ${build === 'slim' ? 'build-skinny' : ''} ${build === 'skinny' ? 'build-slim' : ''}`.trim();
-    el.className = `desktop-pet pet-breed-${pet.breed} pet-state-${pet.state || 'stand'} facing-${pet.facing || 'right'} ${pet.isDragged ? 'is-dragged' : ''} ${pet.isBlocked ? 'is-blocked' : ''} ${pet.isSpeaking ? 'is-speaking' : ''} ${isFluffy ? 'is-fluffy' : ''} ${buildClass} tail-${tailType} ${moodClass}`;
+    const facing = pet.facing || 'left';
+    el.className = `desktop-pet pet-breed-${pet.breed} gender-${gender} pet-state-${pet.state || 'stand'} facing-${facing} ${pet.isDragged ? 'is-dragged' : ''} ${pet.isBlocked ? 'is-blocked' : ''} ${pet.isSpeaking ? 'is-speaking' : ''} ${isFluffy ? 'is-fluffy' : ''} ${buildClass} tail-${tailType} ${moodClass}`;
     
     // ปรับ Scale ตัวแมว
     const scale = pet.scale || 1;
@@ -15021,6 +15265,14 @@ class PetRenderer {
     if (svgWrap) {
       svgWrap.innerHTML = this.renderCatSvg(breed, pet);
     }
+  }
+
+  // สลับทิศทางการหันหน้าของแมวอย่างรวดเร็วโดยไม่ต้องเรนเดอร์ SVG ใหม่ (60 FPS facing update)
+  static updatePetFacing(el, pet) {
+    if (!el || !pet) return;
+    const facing = pet.facing || 'left';
+    el.classList.remove('facing-left', 'facing-right');
+    el.classList.add(`facing-${facing}`);
   }
 
   // Contract: Returns complete SVG string for a pet
@@ -15284,7 +15536,11 @@ class PetRenderer {
       `;
     }
 
+    const gender = pet.gender || 'male';
+    const isFemale = gender === 'female';
+
     // สัดส่วนร่างกาย สรีระ 3 รูปแบบ (Body Build: chubby, normal, skinny/slim, chunky_loaf)
+    // สัดส่วนมาตรฐานดั้งเดิมถือเป็นสัดส่วนของเพศผู้ (Male Baseline)
     let bodyRx = 25, bodyRy = 18;
     let bellyRx = 17, bellyRy = 13;
     let cheekRx = 8.0, cheekRy = 6.0;
@@ -15307,6 +15563,19 @@ class PetRenderer {
       cheekRx = 6.4; cheekRy = 4.8;
       pawRx = 3.6; pawRy = 3.0;
       shadowRx = 20; shadowRy = 3.8;
+    }
+
+    // แมวเพศเมีย (Female): รูปร่างสัดส่วนเพรียวยาวกว่า (Slender & Elongated Proportion)
+    if (isFemale) {
+      bodyRx = Math.round(bodyRx * 0.88 * 10) / 10;
+      bodyRy = Math.round(bodyRy * 1.04 * 10) / 10;
+      bellyRx = Math.round(bellyRx * 0.82 * 10) / 10;
+      bellyRy = Math.round(bellyRy * 0.90 * 10) / 10;
+      cheekRx = Math.round(cheekRx * 0.82 * 10) / 10;
+      cheekRy = Math.round(cheekRy * 0.88 * 10) / 10;
+      pawRx = Math.round(pawRx * 0.88 * 10) / 10;
+      pawRy = Math.round(pawRy * 0.95 * 10) / 10;
+      shadowRx = Math.round(shadowRx * 0.90 * 10) / 10;
     }
 
     if (isLoaf || isCurl || isBelly) {
@@ -15552,10 +15821,14 @@ class PetRenderer {
     // 7. ลำตัว (Body)
     let bodySvg = '';
     if (isTwoLegged) {
+      const upRx = isFemale ? 17 : 20;
+      const upRy = isFemale ? 25 : 24;
+      const upBellyRx = isFemale ? 11.5 : 14;
+      const upBellyRy = isFemale ? 16 : 17;
       bodySvg = `
-        <ellipse class="pet-body-core pet-body-upright" cx="50" cy="44" rx="20" ry="24" transform="rotate(-6 50 44)" fill="${b.bodyColor}"/>
-        <ellipse cx="50" cy="44" rx="20" ry="24" transform="rotate(-6 50 44)" fill="url(#body-depth-grad-${pet.id})" pointer-events="none"/>
-        <ellipse class="pet-belly-patch" cx="48" cy="46" rx="14" ry="17" transform="rotate(-6 48 46)" fill="${b.bellyColor}"/>
+        <ellipse class="pet-body-core pet-body-upright" cx="50" cy="44" rx="${upRx}" ry="${upRy}" transform="rotate(-6 50 44)" fill="${b.bodyColor}"/>
+        <ellipse cx="50" cy="44" rx="${upRx}" ry="${upRy}" transform="rotate(-6 50 44)" fill="url(#body-depth-grad-${pet.id})" pointer-events="none"/>
+        <ellipse class="pet-belly-patch" cx="48" cy="46" rx="${upBellyRx}" ry="${upBellyRy}" transform="rotate(-6 48 46)" fill="${b.bellyColor}"/>
       `;
     } else if (isPooping) {
       bodySvg = `
@@ -15600,8 +15873,15 @@ class PetRenderer {
       `;
     }
 
+    let headRx = isFluffy ? 23 : 21;
+    let headRy = isFluffy ? 18 : 16;
+    if (isFemale) {
+      headRx = Math.round(headRx * 0.93 * 10) / 10;
+      headRy = Math.round(headRy * 0.94 * 10) / 10;
+    }
+
     return `
-      <svg class="cat-svg state-${state}" viewBox="0 0 100 80" width="100%" height="100%">
+      <svg class="cat-svg state-${state} gender-${gender}" viewBox="0 0 100 80" width="100%" height="100%">
         <defs>
           <!-- เงาตกกระทบพื้นแบบนุ่มนวล (Soft Ambient Contact Shadow) -->
           <radialGradient id="ground-shadow-grad-${pet.id}" cx="50%" cy="50%" r="50%">
@@ -15654,10 +15934,10 @@ class PetRenderer {
           ${earsSvg}
 
           <!-- Head Core with 3D Depth Overlay -->
-          <ellipse class="pet-head" cx="50" cy="33" rx="${isFluffy ? 23 : 21}" ry="${isFluffy ? 18 : 16}" fill="${b.bodyColor}"/>
-          <ellipse cx="50" cy="33" rx="${isFluffy ? 23 : 21}" ry="${isFluffy ? 18 : 16}" fill="url(#head-depth-grad-${pet.id})" pointer-events="none"/>
+          <ellipse class="pet-head" cx="50" cy="33" rx="${headRx}" ry="${headRy}" fill="${b.bodyColor}"/>
+          <ellipse cx="50" cy="33" rx="${headRx}" ry="${headRy}" fill="url(#head-depth-grad-${pet.id})" pointer-events="none"/>
           
-          <!-- Cute Cheeks (dynamically scaled by build) -->
+          <!-- Cute Cheeks (dynamically scaled by build and gender) -->
           <ellipse cx="38" cy="37" rx="${cheekRx}" ry="${cheekRy}" fill="${b.bellyColor}" opacity="0.8"/>
           <ellipse cx="62" cy="37" rx="${cheekRx}" ry="${cheekRy}" fill="${b.bellyColor}" opacity="0.8"/>
 
@@ -16209,7 +16489,11 @@ const PetSocial = {
       // เดินถอยหนีหลังจากพูดเสร็จสิ้นเท่านั้น (ไม่ขยับขณะพูด)
       setTimeout(() => {
         if (!antisocialPet.isDragged && !antisocialPet.isSpeaking) {
-          antisocialPet.targetX = Math.max(50, Math.min(window.innerWidth - 100, antisocialPet.x + (antisocialPet.x < otherPet.x ? -100 : 100)));
+          const retreatX = Math.max(50, Math.min(window.innerWidth - 100, antisocialPet.x + (antisocialPet.x < otherPet.x ? -100 : 100)));
+          antisocialPet.targetX = retreatX;
+          if (Math.abs(retreatX - antisocialPet.x) > 2) {
+            antisocialPet.facing = retreatX > antisocialPet.x ? 'right' : 'left';
+          }
           antisocialPet.state = 'walk';
           PetRenderer.updatePetVisuals(antisocialPet.el, antisocialPet);
         }
@@ -16274,12 +16558,30 @@ const PetSocial = {
           pet2.state = 'run';
           const targetX = Math.max(60, Math.min(window.innerWidth - 160, pet1.x + (pet1.facing === 'right' ? 180 : -180)));
           pet1.targetX = targetX;
-          pet2.targetX = targetX + (pet1.facing === 'right' ? -50 : 50);
+          if (Math.abs(targetX - pet1.x) > 2) {
+            pet1.facing = targetX > pet1.x ? 'right' : 'left';
+          }
+          const target2X = targetX + (pet1.facing === 'right' ? -50 : 50);
+          pet2.targetX = target2X;
+          if (Math.abs(target2X - pet2.x) > 2) {
+            pet2.facing = target2X > pet2.x ? 'right' : 'left';
+          }
           PetRenderer.updatePetVisuals(pet1.el, pet1);
           PetRenderer.updatePetVisuals(pet2.el, pet2);
         }
       }, 3800);
       return;
+    }
+
+    const g1 = pet1.gender || 'male';
+    const g2 = pet2.gender || 'male';
+    let genderPairKey = null;
+    if ((g1 === 'male' && g2 === 'female') || (g1 === 'female' && g2 === 'male')) {
+      genderPairKey = 'male_female';
+    } else if (g1 === 'male' && g2 === 'male') {
+      genderPairKey = 'male_male';
+    } else if (g1 === 'female' && g2 === 'female') {
+      genderPairKey = 'female_female';
     }
 
     // กรณีทั้งคู่ขี้เกียจ/พลังงานต่ำ -> นอนกอดกันกลมๆ (Cuddle loaf)
@@ -16293,14 +16595,21 @@ const PetSocial = {
         spawnFxCallback('heart', (pet1.x + pet2.x) / 2 + 35, Math.min(pet1.y, pet2.y) + 10);
       }
       if (sayCallback) {
-        sayCallback(pet1, `นอนเบียดกันตรงนี้นะ ${pet2.name} ตัวนายอุ่นเหมือนเตาผิงเลย`, 4500);
+        const cuddleMsg = (g1 === 'male' && g2 === 'female')
+          ? `นอนเบียดกันตรงนี้นะ ${pet2.name} ตัวเธออุ่นเหมือนเตาผิงเลยฮะ`
+          : (g1 === 'female' && g2 === 'male')
+          ? `นอนกอดกันตรงนี้นะ ${pet2.name} ตัวนายอุ่นจังเลยนะจ๊ะ`
+          : `นอนเบียดกันตรงนี้นะ ${pet2.name} ตัวนายอุ่นเหมือนเตาผิงเลย`;
+        sayCallback(pet1, cuddleMsg, 4500);
       }
       return;
     }
 
-    // กรณีสนทนาแลกเปลี่ยนตามบุคลิกภาพ (Dynamic Pair Dialogue)
+    // กรณีสนทนาแลกเปลี่ยนตามคู่เพศ หรือตามบุคลิกภาพ (Dynamic Gender & Personality Pair Dialogue)
     let chosenList = PET_DIALOGUES.multiPet;
-    if (p1.intelligence >= 65 && p2.intelligence <= 35) {
+    if (genderPairKey && PET_DIALOGUES.genderPairChats && PET_DIALOGUES.genderPairChats[genderPairKey] && Math.random() < 0.6) {
+      chosenList = PET_DIALOGUES.genderPairChats[genderPairKey];
+    } else if (p1.intelligence >= 65 && p2.intelligence <= 35) {
       chosenList = PET_DIALOGUES.personalityPairChats.smart_derpy;
     } else if (p1.energy >= 65 && p2.energy <= 35) {
       chosenList = PET_DIALOGUES.personalityPairChats.energy_lazy;
@@ -16311,7 +16620,7 @@ const PetSocial = {
     }
 
     const rawMsg = chosenList[Math.floor(Math.random() * chosenList.length)];
-    const text = formatDialogue(rawMsg, { petName: pet1.name, otherPetName: pet2.name });
+    const text = formatDialogue(rawMsg, { petName: pet1.name, otherPetName: pet2.name, gender: g1, pet: pet1 });
 
     pet1.state = 'sit';
     pet2.state = 'sit';
@@ -16438,7 +16747,9 @@ const PetUI = {
       <div class="pet-cards-grid">
         ${manager.pets.map(p => {
           const breed = PET_BREEDS[p.breed] || PET_BREEDS.orange;
-          const title = PetPersonality.getPersonalityTitle(p.personality);
+          const genderKey = p.gender || 'male';
+          const genderLabel = genderKey === 'female' ? '♀ เพศเมีย' : '♂ เพศผู้';
+          const title = PetPersonality.getPersonalityTitle(p.personality, genderKey);
           const tail = TAIL_TYPES[p.tailType || breed.defaultTail]?.name || 'หางยาว';
           const build = BODY_BUILDS[p.build || breed.defaultBuild]?.name || 'สมส่วน';
           const stats = p.personality || { intelligence: 50, diligence: 50, energy: 50, talkativeness: 50, affection: 50, sociability: 50 };
@@ -16452,11 +16763,12 @@ const PetUI = {
                 <div class="pet-card-main-info">
                   <div class="pet-card-name-row">
                     <span class="pet-card-name">${p.name}</span>
+                    <span class="pet-gender-badge gender-${genderKey}">${genderLabel}</span>
                     <span class="pet-card-badge">${title}</span>
                   </div>
                   <div class="pet-card-sub">${breed.name}</div>
                   <div class="pet-card-traits">
-                    <span>${tail}</span> • <span>${build}</span>
+                    <span>${genderLabel}</span> • <span>${tail}</span> • <span>${build}</span>
                   </div>
                   ${(() => {
                     const mem = typeof PetMemory !== 'undefined' ? PetMemory.getMemory(p) : null;
@@ -16583,6 +16895,7 @@ const PetUI = {
             <div class="pet-diary-details">
               <div class="pet-diary-name-wrap">
                 <span class="pet-diary-name">${pet.name}</span>
+                <span class="pet-gender-badge gender-${pet.gender || 'male'}">${pet.gender === 'female' ? '♀ เพศเมีย' : '♂ เพศผู้'}</span>
                 <span class="pet-diary-bond-badge" style="background:${bond.color}22;color:${bond.color};border:1px solid ${bond.color}55;">
                   ${bond.icon} ระดับ ${bond.level}: ${bond.name}
                 </span>
@@ -16736,6 +17049,21 @@ const PetUI = {
                 <span class="btn-dice-icon">🎲</span>
                 <span>สุ่มชื่อ</span>
               </button>
+            </div>
+          </div>
+
+          <div class="pet-form-group">
+            <label>🚻 เพศของน้องแมว:</label>
+            <div class="pet-gender-btn-group" id="adopt-gender-options">
+              <button type="button" class="pet-gender-btn active" data-gender="male" title="เพศผู้: สัดส่วนสมส่วน มั่นใจ ชอบลาดตระเวน">
+                <span class="gender-btn-symbol male">♂</span>
+                <span class="gender-btn-label">เพศผู้ (สมส่วน มั่นใจ)</span>
+              </button>
+              <button type="button" class="pet-gender-btn" data-gender="female" title="เพศเมีย: สัดส่วนเพรียวยาว สง่างาม รักสะอาด">
+                <span class="gender-btn-symbol female">♀</span>
+                <span class="gender-btn-label">เพศเมีย (เพรียวยาว สง่างาม)</span>
+              </button>
+              <input type="hidden" id="adopt-input-gender" value="male"/>
             </div>
           </div>
 
@@ -17028,6 +17356,7 @@ const PetUI = {
     const tailSelect = overlay.querySelector('#adopt-select-tail');
     const buildSelect = overlay.querySelector('#adopt-select-build');
     const nameInput = overlay.querySelector('#adopt-input-name');
+    const genderInput = overlay.querySelector('#adopt-input-gender');
     const previewSvg = overlay.querySelector('#adopt-preview-svg');
     const previewDesc = overlay.querySelector('#adopt-preview-desc');
 
@@ -17038,10 +17367,12 @@ const PetUI = {
       const curTail = tailSelect ? tailSelect.value : breed.defaultTail;
       const curBuild = buildSelect ? buildSelect.value : breed.defaultBuild;
       const curName = (nameInput?.value || 'น้องแมว').trim();
+      const curGender = genderInput ? genderInput.value : 'male';
 
       previewSvg.innerHTML = PetRenderer.renderCatSvg(breed, {
         id: 'preview',
         name: curName,
+        gender: curGender,
         breed: curBreedKey,
         tailType: curTail,
         build: curBuild,
@@ -17050,9 +17381,20 @@ const PetUI = {
       });
 
       if (previewDesc) {
-        previewDesc.textContent = breed.desc;
+        const genderDesc = curGender === 'female' ? ' [เพศเมีย: รูปร่างสัดส่วนเพรียวยาวกว่า]' : ' [เพศผู้: สัดส่วนสมส่วน มั่นใจ]';
+        previewDesc.textContent = breed.desc + genderDesc;
       }
     };
+
+    const genderBtns = overlay.querySelectorAll('.pet-gender-btn');
+    genderBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        genderBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        if (genderInput) genderInput.value = btn.dataset.gender;
+        updatePreview();
+      });
+    });
 
     if (breedSelect) {
       breedSelect.addEventListener('change', () => {
@@ -17081,6 +17423,7 @@ const PetUI = {
       submitAdoptBtn.addEventListener('click', () => {
         const breedKey = breedSelect?.value || 'white_brown_ears';
         const nameVal = (nameInput?.value || 'น้องแมว').trim();
+        const genderVal = overlay.querySelector('#adopt-input-gender')?.value || 'male';
         const tailVal = tailSelect?.value || 'long';
         const buildVal = buildSelect?.value || 'normal';
         const archVal = overlay.querySelector('#adopt-select-archetype')?.value;
@@ -17096,6 +17439,7 @@ const PetUI = {
         manager.addNewPet({
           breed: breedKey,
           name: nameVal,
+          gender: genderVal,
           tailType: tailVal,
           build: buildVal,
           personality: stats
@@ -17430,7 +17774,7 @@ const PetUI = {
     fx.textContent = iconMap[type] || '❤️';
 
     layerEl.appendChild(fx);
-    setTimeout(() => fx.remove(), 1600);
+    setTimeout(() => { if (fx && typeof fx.remove === 'function') fx.remove(); }, 1600);
   },
 
   // 4. แถบควบคุมบนหน้าจอแบบ Floating Control Bar (Pet Control Bar Dock)
@@ -17644,12 +17988,25 @@ const PetManager = {
       }
 
       if (Array.isArray(savedPets) && savedPets.length > 0) {
+        let migrationNeeded = false;
+        savedPets.forEach(p => {
+          // แมวเก่าที่มีอยู่และไม่มีเพศให้เป็นเพศชาย (male) ทั้งหมด
+          if (!p.gender) {
+            p.gender = 'male';
+            migrationNeeded = true;
+          }
+        });
         this.pets = savedPets.map(p => this.createPetInstance(p));
+        if (migrationNeeded) {
+          console.log('[PetManager] Migrated legacy pets without gender to male.');
+          this.saveState();
+        }
       } else {
-        // แมวเริ่มต้นตัวแรก: แมวขาวแต้มหูน้ำตาล
+        // แมวเริ่มต้นตัวแรก: แมวขาวแต้มหูน้ำตาล (เพศผู้)
         const defaultCat = this.createPetInstance({
           id: 'pet_' + Date.now(),
           name: 'เจ้าแต้มหู',
+          gender: 'male',
           breed: 'white_brown_ears',
           tailType: 'curved',
           build: 'normal',
@@ -17682,6 +18039,7 @@ const PetManager = {
       const petsData = this.pets.map(p => ({
         id: p.id,
         name: p.name,
+        gender: p.gender || 'male',
         breed: p.breed,
         tailType: p.tailType,
         build: p.build,
@@ -17710,6 +18068,7 @@ const PetManager = {
     const pet = {
       id: data.id || 'pet_' + Math.random().toString(36).substring(2, 9),
       name: data.name || 'น้องแมว',
+      gender: data.gender || 'male',
       breed: breedKey,
       tailType: data.tailType || breedInfo.defaultTail || 'long',
       build: data.build || breedInfo.defaultBuild || 'normal',
@@ -17722,7 +18081,7 @@ const PetManager = {
       targetX: null,
       targetY: null,
       facing: data.facing || 'right',
-      state: 'stand', // 'stand', 'walk', 'run', 'sit', 'sleep_loaf', 'sleep_curl', 'sleep_belly', 'groom', 'stretch', 'scratch', 'pounce', 'play_toy', 'in_box', 'on_condo', 'begging', 'eating', 'carry_fish', 'derpy_yawn', 'derpy_stare'
+      state: data.state || 'stand', // 'stand', 'walk', 'run', 'sit', 'sleep_loaf', 'sleep_curl', 'sleep_belly', 'groom', 'stretch', 'scratch', 'pounce', 'play_toy', 'in_box', 'on_condo', 'begging', 'eating', 'carry_fish', 'derpy_yawn', 'derpy_stare'
       scale: data.scale || this.settings.petScale || 1,
       isDragged: false,
       isBlocked: false,
@@ -17797,7 +18156,7 @@ const PetManager = {
             pet.targetX = null;
             PetRenderer.updatePetVisuals(el, pet);
             PetUI.closeRadialMenu();
-            this.say(pet, getRandomDialogue('dragged', { petName: pet.name }), 3000);
+            this.say(pet, getRandomDialogue('dragged', { petName: pet.name, gender: pet.gender || 'male', pet }), 3000);
           }
           isClick = false;
         }
@@ -17872,13 +18231,16 @@ const PetManager = {
     // เลือกบทสนทนาอิงความทรงจำและแกนนิสัย
     const mem = typeof PetMemory !== 'undefined' ? PetMemory.getMemory(pet) : null;
     const aff = pet.personality?.affection || 50;
+    const petGender = pet.gender || 'male';
     let msg = '';
     if (mem && mem.stats && mem.stats.totalPetted > 0 && mem.stats.totalPetted % 15 === 0) {
-      msg = getRandomDialogue('memory', { petName: pet.name, petMemory: mem, pet });
+      msg = getRandomDialogue('memory', { petName: pet.name, petMemory: mem, pet, gender: petGender });
     } else if (aff <= 30) {
-      msg = 'ไม่ได้อยากให้เกาหรอกนะ... แต่คันตรงนี้พอดีหรอกย่ะ!';
+      msg = petGender === 'female'
+        ? 'ไม่ได้อยากให้เกาหรอกนะคะ... แต่คันตรงนี้พอดีหรอกย่ะ!'
+        : 'ไม่ได้อยากให้เกาหรอกนะ... แต่คันตรงนี้พอดีหรอกฮะ!';
     } else {
-      msg = getRandomDialogue('touchTickle', { petName: pet.name, petMemory: mem, pet });
+      msg = getRandomDialogue('touchTickle', { petName: pet.name, petMemory: mem, pet, gender: petGender });
     }
     this.say(pet, msg, 4000);
   },
@@ -17900,7 +18262,7 @@ const PetManager = {
     PetRenderer.updatePetVisuals(pet.el, pet);
 
     const mem = typeof PetMemory !== 'undefined' ? PetMemory.getMemory(pet) : null;
-    const feedMsg = getRandomDialogue('feeding', { petName: pet.name, petMemory: mem, pet });
+    const feedMsg = getRandomDialogue('feeding', { petName: pet.name, petMemory: mem, pet, gender: pet.gender || 'male' });
     this.say(pet, feedMsg, 4500);
     PetUI.spawnFx('heart', pet.x + 35, pet.y + 15, this.layerEl);
 
@@ -18061,6 +18423,9 @@ const PetManager = {
         if (targetPet && !targetPet.isDragged && !targetPet.isSpeaking) {
           targetPet.state = 'run';
           targetPet.targetX = startX;
+          if (Math.abs(startX - targetPet.x) > 2) {
+            targetPet.facing = startX > targetPet.x ? 'right' : 'left';
+          }
           PetRenderer.updatePetVisuals(targetPet.el, targetPet);
         }
       }, 3200);
@@ -18277,7 +18642,11 @@ const PetManager = {
         const step = walkSpeed * dt;
 
         if (dist > 3) {
-          pet.facing = dx > 0 ? 'right' : 'left';
+          const newFacing = dx > 0 ? 'right' : 'left';
+          if (newFacing !== pet.facing) {
+            pet.facing = newFacing;
+            PetRenderer.updatePetFacing(pet.el, pet);
+          }
           pet.x += (dx / dist) * Math.min(dist, step);
           if (pet.targetY !== null) {
             pet.y += (dy / dist) * Math.min(dist, step);
@@ -18483,6 +18852,9 @@ const PetManager = {
     pet.targetX = destX;
     pet.targetY = destY;
     pet.targetAction = targetAction;
+    if (Math.abs(destX - pet.x) > 2) {
+      pet.facing = destX > pet.x ? 'right' : 'left';
+    }
     pet.state = 'walk';
     PetRenderer.updatePetVisuals(pet.el, pet);
   },
@@ -18570,7 +18942,11 @@ const PetManager = {
 
     // ติดตามเคอร์เซอร์เมาส์ถ้าขี้อ้อน
     if (this.mousePos.x > 0 && PetPersonality.shouldFollowCursor(pet)) {
-      pet.targetX = Math.max(30, Math.min(window.innerWidth - 100, this.mousePos.x + (Math.random() > 0.5 ? 40 : -40)));
+      const targetX = Math.max(30, Math.min(window.innerWidth - 100, this.mousePos.x + (Math.random() > 0.5 ? 40 : -40)));
+      pet.targetX = targetX;
+      if (Math.abs(targetX - pet.x) > 2) {
+        pet.facing = targetX > pet.x ? 'right' : 'left';
+      }
       pet.state = 'walk';
       PetRenderer.updatePetVisuals(pet.el, pet);
       return;
@@ -18579,7 +18955,11 @@ const PetManager = {
     // สุ่มท่าทางและอิริยาบถทั่วไปด้วย 6-Axis Weighted State Lottery
     const nextState = PetPersonality.evaluateNextState(pet);
     if (nextState === 'walk') {
-      pet.targetX = Math.max(40, Math.min(window.innerWidth - 120, pet.x + (Math.random() - 0.5) * 260));
+      const targetX = Math.max(40, Math.min(window.innerWidth - 120, pet.x + (Math.random() - 0.5) * 260));
+      pet.targetX = targetX;
+      if (Math.abs(targetX - pet.x) > 2) {
+        pet.facing = targetX > pet.x ? 'right' : 'left';
+      }
       pet.state = 'walk';
     } else {
       pet.state = nextState;
@@ -18612,6 +18992,7 @@ const PetManager = {
       petName: pet.name,
       docName: State.current?.name,
       pet,
+      gender: pet.gender || 'male',
       petMemory: mem,
       mood: pet.mood,
       days: (typeof PetMemory !== 'undefined' && mem) ? PetMemory.getDaysTogether(mem) : 1,
@@ -18631,6 +19012,7 @@ const PetManager = {
     const breedKeys = Object.keys(PET_BREEDS);
     const breed = options.breed || breedKeys[Math.floor(Math.random() * breedKeys.length)];
     const name = options.name || RANDOM_NAMES[Math.floor(Math.random() * RANDOM_NAMES.length)];
+    const gender = options.gender || 'male';
     const tailType = options.tailType || PET_BREEDS[breed]?.defaultTail || 'long';
     const build = options.build || PET_BREEDS[breed]?.defaultBuild || 'normal';
     const personality = options.personality || PetPersonality.generateRandomStats();
@@ -18638,6 +19020,7 @@ const PetManager = {
     const newPet = this.createPetInstance({
       id: 'pet_' + Date.now(),
       name,
+      gender,
       breed,
       tailType,
       build,
@@ -18658,7 +19041,10 @@ const PetManager = {
     this.saveState();
 
     PetUI.spawnFx('heart', newPet.x + 35, newPet.y + 10, this.layerEl);
-    this.say(newPet, `สวัสดีทาส! เหมียวชื่อ "${newPet.name}" ขอมาอยู่ด้วยคนนะ!`, 4500);
+    const welcomeMsg = newPet.gender === 'female'
+      ? `สวัสดีค่ะทาส! หนูชื่อ "${newPet.name}" ขอมาอยู่ด้วยคนนะคะ! 💖`
+      : `สวัสดีครับทาส! ผมชื่อ "${newPet.name}" ขอมาอยู่ด้วยคนนะฮะ! ✨`;
+    this.say(newPet, welcomeMsg, 4500);
     return newPet;
   },
 

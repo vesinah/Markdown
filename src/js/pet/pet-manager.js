@@ -151,12 +151,25 @@ export const PetManager = {
       }
 
       if (Array.isArray(savedPets) && savedPets.length > 0) {
+        let migrationNeeded = false;
+        savedPets.forEach(p => {
+          // แมวเก่าที่มีอยู่และไม่มีเพศให้เป็นเพศชาย (male) ทั้งหมด
+          if (!p.gender) {
+            p.gender = 'male';
+            migrationNeeded = true;
+          }
+        });
         this.pets = savedPets.map(p => this.createPetInstance(p));
+        if (migrationNeeded) {
+          console.log('[PetManager] Migrated legacy pets without gender to male.');
+          this.saveState();
+        }
       } else {
-        // แมวเริ่มต้นตัวแรก: แมวขาวแต้มหูน้ำตาล
+        // แมวเริ่มต้นตัวแรก: แมวขาวแต้มหูน้ำตาล (เพศผู้)
         const defaultCat = this.createPetInstance({
           id: 'pet_' + Date.now(),
           name: 'เจ้าแต้มหู',
+          gender: 'male',
           breed: 'white_brown_ears',
           tailType: 'curved',
           build: 'normal',
@@ -189,6 +202,7 @@ export const PetManager = {
       const petsData = this.pets.map(p => ({
         id: p.id,
         name: p.name,
+        gender: p.gender || 'male',
         breed: p.breed,
         tailType: p.tailType,
         build: p.build,
@@ -217,6 +231,7 @@ export const PetManager = {
     const pet = {
       id: data.id || 'pet_' + Math.random().toString(36).substring(2, 9),
       name: data.name || 'น้องแมว',
+      gender: data.gender || 'male',
       breed: breedKey,
       tailType: data.tailType || breedInfo.defaultTail || 'long',
       build: data.build || breedInfo.defaultBuild || 'normal',
@@ -229,7 +244,7 @@ export const PetManager = {
       targetX: null,
       targetY: null,
       facing: data.facing || 'right',
-      state: 'stand', // 'stand', 'walk', 'run', 'sit', 'sleep_loaf', 'sleep_curl', 'sleep_belly', 'groom', 'stretch', 'scratch', 'pounce', 'play_toy', 'in_box', 'on_condo', 'begging', 'eating', 'carry_fish', 'derpy_yawn', 'derpy_stare'
+      state: data.state || 'stand', // 'stand', 'walk', 'run', 'sit', 'sleep_loaf', 'sleep_curl', 'sleep_belly', 'groom', 'stretch', 'scratch', 'pounce', 'play_toy', 'in_box', 'on_condo', 'begging', 'eating', 'carry_fish', 'derpy_yawn', 'derpy_stare'
       scale: data.scale || this.settings.petScale || 1,
       isDragged: false,
       isBlocked: false,
@@ -304,7 +319,7 @@ export const PetManager = {
             pet.targetX = null;
             PetRenderer.updatePetVisuals(el, pet);
             PetUI.closeRadialMenu();
-            this.say(pet, getRandomDialogue('dragged', { petName: pet.name }), 3000);
+            this.say(pet, getRandomDialogue('dragged', { petName: pet.name, gender: pet.gender || 'male', pet }), 3000);
           }
           isClick = false;
         }
@@ -379,13 +394,16 @@ export const PetManager = {
     // เลือกบทสนทนาอิงความทรงจำและแกนนิสัย
     const mem = typeof PetMemory !== 'undefined' ? PetMemory.getMemory(pet) : null;
     const aff = pet.personality?.affection || 50;
+    const petGender = pet.gender || 'male';
     let msg = '';
     if (mem && mem.stats && mem.stats.totalPetted > 0 && mem.stats.totalPetted % 15 === 0) {
-      msg = getRandomDialogue('memory', { petName: pet.name, petMemory: mem, pet });
+      msg = getRandomDialogue('memory', { petName: pet.name, petMemory: mem, pet, gender: petGender });
     } else if (aff <= 30) {
-      msg = 'ไม่ได้อยากให้เกาหรอกนะ... แต่คันตรงนี้พอดีหรอกย่ะ!';
+      msg = petGender === 'female'
+        ? 'ไม่ได้อยากให้เกาหรอกนะคะ... แต่คันตรงนี้พอดีหรอกย่ะ!'
+        : 'ไม่ได้อยากให้เกาหรอกนะ... แต่คันตรงนี้พอดีหรอกฮะ!';
     } else {
-      msg = getRandomDialogue('touchTickle', { petName: pet.name, petMemory: mem, pet });
+      msg = getRandomDialogue('touchTickle', { petName: pet.name, petMemory: mem, pet, gender: petGender });
     }
     this.say(pet, msg, 4000);
   },
@@ -407,7 +425,7 @@ export const PetManager = {
     PetRenderer.updatePetVisuals(pet.el, pet);
 
     const mem = typeof PetMemory !== 'undefined' ? PetMemory.getMemory(pet) : null;
-    const feedMsg = getRandomDialogue('feeding', { petName: pet.name, petMemory: mem, pet });
+    const feedMsg = getRandomDialogue('feeding', { petName: pet.name, petMemory: mem, pet, gender: pet.gender || 'male' });
     this.say(pet, feedMsg, 4500);
     PetUI.spawnFx('heart', pet.x + 35, pet.y + 15, this.layerEl);
 
@@ -568,6 +586,9 @@ export const PetManager = {
         if (targetPet && !targetPet.isDragged && !targetPet.isSpeaking) {
           targetPet.state = 'run';
           targetPet.targetX = startX;
+          if (Math.abs(startX - targetPet.x) > 2) {
+            targetPet.facing = startX > targetPet.x ? 'right' : 'left';
+          }
           PetRenderer.updatePetVisuals(targetPet.el, targetPet);
         }
       }, 3200);
@@ -784,7 +805,11 @@ export const PetManager = {
         const step = walkSpeed * dt;
 
         if (dist > 3) {
-          pet.facing = dx > 0 ? 'right' : 'left';
+          const newFacing = dx > 0 ? 'right' : 'left';
+          if (newFacing !== pet.facing) {
+            pet.facing = newFacing;
+            PetRenderer.updatePetFacing(pet.el, pet);
+          }
           pet.x += (dx / dist) * Math.min(dist, step);
           if (pet.targetY !== null) {
             pet.y += (dy / dist) * Math.min(dist, step);
@@ -990,6 +1015,9 @@ export const PetManager = {
     pet.targetX = destX;
     pet.targetY = destY;
     pet.targetAction = targetAction;
+    if (Math.abs(destX - pet.x) > 2) {
+      pet.facing = destX > pet.x ? 'right' : 'left';
+    }
     pet.state = 'walk';
     PetRenderer.updatePetVisuals(pet.el, pet);
   },
@@ -1077,7 +1105,11 @@ export const PetManager = {
 
     // ติดตามเคอร์เซอร์เมาส์ถ้าขี้อ้อน
     if (this.mousePos.x > 0 && PetPersonality.shouldFollowCursor(pet)) {
-      pet.targetX = Math.max(30, Math.min(window.innerWidth - 100, this.mousePos.x + (Math.random() > 0.5 ? 40 : -40)));
+      const targetX = Math.max(30, Math.min(window.innerWidth - 100, this.mousePos.x + (Math.random() > 0.5 ? 40 : -40)));
+      pet.targetX = targetX;
+      if (Math.abs(targetX - pet.x) > 2) {
+        pet.facing = targetX > pet.x ? 'right' : 'left';
+      }
       pet.state = 'walk';
       PetRenderer.updatePetVisuals(pet.el, pet);
       return;
@@ -1086,7 +1118,11 @@ export const PetManager = {
     // สุ่มท่าทางและอิริยาบถทั่วไปด้วย 6-Axis Weighted State Lottery
     const nextState = PetPersonality.evaluateNextState(pet);
     if (nextState === 'walk') {
-      pet.targetX = Math.max(40, Math.min(window.innerWidth - 120, pet.x + (Math.random() - 0.5) * 260));
+      const targetX = Math.max(40, Math.min(window.innerWidth - 120, pet.x + (Math.random() - 0.5) * 260));
+      pet.targetX = targetX;
+      if (Math.abs(targetX - pet.x) > 2) {
+        pet.facing = targetX > pet.x ? 'right' : 'left';
+      }
       pet.state = 'walk';
     } else {
       pet.state = nextState;
@@ -1119,6 +1155,7 @@ export const PetManager = {
       petName: pet.name,
       docName: State.current?.name,
       pet,
+      gender: pet.gender || 'male',
       petMemory: mem,
       mood: pet.mood,
       days: (typeof PetMemory !== 'undefined' && mem) ? PetMemory.getDaysTogether(mem) : 1,
@@ -1138,6 +1175,7 @@ export const PetManager = {
     const breedKeys = Object.keys(PET_BREEDS);
     const breed = options.breed || breedKeys[Math.floor(Math.random() * breedKeys.length)];
     const name = options.name || RANDOM_NAMES[Math.floor(Math.random() * RANDOM_NAMES.length)];
+    const gender = options.gender || 'male';
     const tailType = options.tailType || PET_BREEDS[breed]?.defaultTail || 'long';
     const build = options.build || PET_BREEDS[breed]?.defaultBuild || 'normal';
     const personality = options.personality || PetPersonality.generateRandomStats();
@@ -1145,6 +1183,7 @@ export const PetManager = {
     const newPet = this.createPetInstance({
       id: 'pet_' + Date.now(),
       name,
+      gender,
       breed,
       tailType,
       build,
@@ -1165,7 +1204,10 @@ export const PetManager = {
     this.saveState();
 
     PetUI.spawnFx('heart', newPet.x + 35, newPet.y + 10, this.layerEl);
-    this.say(newPet, `สวัสดีทาส! เหมียวชื่อ "${newPet.name}" ขอมาอยู่ด้วยคนนะ!`, 4500);
+    const welcomeMsg = newPet.gender === 'female'
+      ? `สวัสดีค่ะทาส! หนูชื่อ "${newPet.name}" ขอมาอยู่ด้วยคนนะคะ! 💖`
+      : `สวัสดีครับทาส! ผมชื่อ "${newPet.name}" ขอมาอยู่ด้วยคนนะฮะ! ✨`;
+    this.say(newPet, welcomeMsg, 4500);
     return newPet;
   },
 

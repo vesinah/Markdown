@@ -48,8 +48,12 @@
   will-change: transform;
 }
 
-/* Orientation */
+/* Orientation: Base SVG faces Left (front legs x=40, tail x=75).
+   facing-right uses scaleX(-1) to flip forward facing right. */
 .desktop-pet.facing-left .pet-inner {
+  transform: scale(var(--pet-scale, 1));
+}
+.desktop-pet.facing-right .pet-inner {
   transform: scale(var(--pet-scale, 1)) scaleX(-1);
 }
 
@@ -200,19 +204,24 @@
 }
 
 /* Walking Motion (Smooth 4-Leg Trot & Gentle Body Bobbing) */
-.desktop-pet.pet-state-walk .pet-inner {
+.desktop-pet.pet-state-walk .pet-inner,
+.desktop-pet.facing-left.pet-state-walk .pet-inner {
   animation: pet-walk-bob 0.36s infinite alternate ease-in-out;
 }
 @keyframes pet-walk-bob {
   0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) translateY(-2px); }
 }
-.desktop-pet.facing-left.pet-state-walk .pet-inner {
-  animation: pet-walk-bob-left 0.36s infinite alternate ease-in-out;
+.desktop-pet.facing-right.pet-state-walk .pet-inner {
+  animation: pet-walk-bob-right 0.36s infinite alternate ease-in-out;
 }
-@keyframes pet-walk-bob-left {
+@keyframes pet-walk-bob-right {
   0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(-2px); }
+}
+@keyframes pet-walk-bob-left {
+  0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) translateY(-2px); }
 }
 
 .desktop-pet.pet-state-walk .pet-paw-fl,
@@ -225,30 +234,37 @@
 }
 
 @keyframes paw-walk {
-  0% { transform: translateY(0) translateX(-1px); }
-  50% { transform: translateY(-3.5px) translateX(2px); }
-  100% { transform: translateY(0) translateX(4px); }
+  0% { transform: translateY(0) translateX(2px); }
+  50% { transform: translateY(-3.5px) translateX(-3px); }
+  100% { transform: translateY(0) translateX(2px); }
 }
 
 /* Running Motion */
-.desktop-pet.pet-state-run .pet-inner {
+.desktop-pet.pet-state-run .pet-inner,
+.desktop-pet.facing-left.pet-state-run .pet-inner {
   animation: pet-run-bob 0.22s infinite alternate ease-in-out;
 }
 @keyframes pet-run-bob {
   0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) translateY(-5px); }
 }
-.desktop-pet.facing-left.pet-state-run .pet-inner {
-  animation: pet-run-bob-left 0.22s infinite alternate ease-in-out;
+.desktop-pet.facing-right.pet-state-run .pet-inner {
+  animation: pet-run-bob-right 0.22s infinite alternate ease-in-out;
 }
-@keyframes pet-run-bob-left {
+@keyframes pet-run-bob-right {
   0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(-5px); }
+}
+@keyframes pet-run-bob-left {
+  0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) translateY(-5px); }
 }
 
 /* 3 Body Builds & Waddle Walk Cycles */
 .desktop-pet.build-chubby.pet-state-walk .pet-inner,
-.desktop-pet.build-chunky_loaf.pet-state-walk .pet-inner {
+.desktop-pet.build-chunky_loaf.pet-state-walk .pet-inner,
+.desktop-pet.facing-left.build-chubby.pet-state-walk .pet-inner,
+.desktop-pet.facing-left.build-chunky_loaf.pet-state-walk .pet-inner {
   animation: pet-chubby-waddle 0.48s infinite alternate ease-in-out;
   transform-origin: 50% 90%;
 }
@@ -256,18 +272,24 @@
   0% { transform: scale(var(--pet-scale, 1)) rotate(-4deg) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) rotate(4deg) translateY(-2.5px); }
 }
-.desktop-pet.facing-left.build-chubby.pet-state-walk .pet-inner,
-.desktop-pet.facing-left.build-chunky_loaf.pet-state-walk .pet-inner {
-  animation: pet-chubby-waddle-left 0.48s infinite alternate ease-in-out;
+.desktop-pet.facing-right.build-chubby.pet-state-walk .pet-inner,
+.desktop-pet.facing-right.build-chunky_loaf.pet-state-walk .pet-inner {
+  animation: pet-chubby-waddle-right 0.48s infinite alternate ease-in-out;
   transform-origin: 50% 90%;
 }
-@keyframes pet-chubby-waddle-left {
+@keyframes pet-chubby-waddle-right {
   0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) rotate(-4deg) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) rotate(4deg) translateY(-2.5px); }
 }
+@keyframes pet-chubby-waddle-left {
+  0% { transform: scale(var(--pet-scale, 1)) rotate(-4deg) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) rotate(4deg) translateY(-2.5px); }
+}
 
 .desktop-pet.build-skinny.pet-state-walk .pet-inner,
-.desktop-pet.build-slim.pet-state-walk .pet-inner {
+.desktop-pet.build-slim.pet-state-walk .pet-inner,
+.desktop-pet.facing-left.build-skinny.pet-state-walk .pet-inner,
+.desktop-pet.facing-left.build-slim.pet-state-walk .pet-inner {
   animation: pet-skinny-trot 0.28s infinite alternate ease-in-out;
   transform-origin: 50% 90%;
 }
@@ -275,14 +297,18 @@
   0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) translateY(-4px); }
 }
-.desktop-pet.facing-left.build-skinny.pet-state-walk .pet-inner,
-.desktop-pet.facing-left.build-slim.pet-state-walk .pet-inner {
-  animation: pet-skinny-trot-left 0.28s infinite alternate ease-in-out;
+.desktop-pet.facing-right.build-skinny.pet-state-walk .pet-inner,
+.desktop-pet.facing-right.build-slim.pet-state-walk .pet-inner {
+  animation: pet-skinny-trot-right 0.28s infinite alternate ease-in-out;
   transform-origin: 50% 90%;
 }
-@keyframes pet-skinny-trot-left {
+@keyframes pet-skinny-trot-right {
   0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(-4px); }
+}
+@keyframes pet-skinny-trot-left {
+  0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) translateY(-4px); }
 }
 
 /* Breathing while sitting/standing */
@@ -410,12 +436,21 @@
 }
 .desktop-pet.facing-left.pet-state-two_legged .pet-inner,
 .desktop-pet.facing-left.pet-state-begging .pet-inner {
-  animation: pet-stand-sway-left 1.6s infinite alternate ease-in-out;
+  animation: pet-stand-sway 1.6s infinite alternate ease-in-out;
   transform-origin: 50% 90%;
 }
-@keyframes pet-stand-sway-left {
+.desktop-pet.facing-right.pet-state-two_legged .pet-inner,
+.desktop-pet.facing-right.pet-state-begging .pet-inner {
+  animation: pet-stand-sway-right 1.6s infinite alternate ease-in-out;
+  transform-origin: 50% 90%;
+}
+@keyframes pet-stand-sway-right {
   0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) rotate(-3deg); }
   100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) rotate(3deg); }
+}
+@keyframes pet-stand-sway-left {
+  0% { transform: scale(var(--pet-scale, 1)) rotate(-3deg); }
+  100% { transform: scale(var(--pet-scale, 1)) rotate(3deg); }
 }
 .pet-begging-paws-upright, .pet-begging-paws {
   animation: pet-paws-plead 0.32s infinite alternate ease-in-out;
@@ -481,12 +516,20 @@
   100% { transform: scale(var(--pet-scale, 1)) scale(1.03, 0.95) translateY(2px); }
 }
 .desktop-pet.facing-left.pet-state-pooping .pet-inner {
-  animation: pet-poop-strain-left 0.45s infinite alternate ease-in-out;
+  animation: pet-poop-strain 0.45s infinite alternate ease-in-out;
   transform-origin: 50% 85%;
 }
-@keyframes pet-poop-strain-left {
+.desktop-pet.facing-right.pet-state-pooping .pet-inner {
+  animation: pet-poop-strain-right 0.45s infinite alternate ease-in-out;
+  transform-origin: 50% 85%;
+}
+@keyframes pet-poop-strain-right {
   0% { transform: scale(var(--pet-scale, 1)) scaleX(-1) translateY(0); }
   100% { transform: scale(var(--pet-scale, 1)) scaleX(-1) scale(1.03, 0.95) translateY(2px); }
+}
+@keyframes pet-poop-strain-left {
+  0% { transform: scale(var(--pet-scale, 1)) translateY(0); }
+  100% { transform: scale(var(--pet-scale, 1)) scale(1.03, 0.95) translateY(2px); }
 }
 
 /* ===================================================
@@ -983,6 +1026,26 @@
   border-radius: 999px;
   border: 1px solid #dbeafe;
 }
+.pet-gender-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  line-height: 1;
+}
+.pet-gender-badge.gender-male {
+  background: #eff6ff;
+  color: #2563eb;
+  border: 1px solid #bfdbfe;
+}
+.pet-gender-badge.gender-female {
+  background: #fdf2f8;
+  color: #db2777;
+  border: 1px solid #fbcfe8;
+}
 .pet-card-sub {
   font-size: 12px;
   color: #64748b;
@@ -1234,6 +1297,57 @@
 }
 .pet-btn-dice:active {
   transform: translateY(0);
+}
+
+/* Gender Toggle Buttons in Adoption Form */
+.pet-gender-btn-group {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+.pet-gender-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #475569;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+  font-family: inherit;
+}
+.pet-gender-btn:hover {
+  border-color: #cbd5e1;
+  background: #f8fafc;
+  transform: translateY(-1px);
+}
+.pet-gender-btn.active[data-gender="male"] {
+  border-color: #3b82f6;
+  background: #eff6ff;
+  color: #1d4ed8;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.18);
+}
+.pet-gender-btn.active[data-gender="female"] {
+  border-color: #ec4899;
+  background: #fdf2f8;
+  color: #be185d;
+  box-shadow: 0 2px 8px rgba(236, 72, 153, 0.18);
+}
+.gender-btn-symbol {
+  font-size: 14px;
+  font-weight: 800;
+}
+.gender-btn-symbol.male {
+  color: #2563eb;
+}
+.gender-btn-symbol.female {
+  color: #db2777;
 }
 
 /* Custom Select Dropdowns */

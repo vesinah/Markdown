@@ -1,7 +1,7 @@
 // ระบบเรนเดอร์กราฟิก Vector SVG ขั้นสูงสำหรับน้องแมวสัตว์เลี้ยงหน้าจอ (Desktop Pet Render Engine)
 // รองรับ 11 สายพันธุ์, พันธุกรรมหาง 5 แบบ, ขนฟูเปอร์เซีย, รูปร่างอ้วน/ผอม, รอยด่าง/แต้มวัว/สามสี, และทุกอิริยาบถ
 
-import { PET_BREEDS, TAIL_TYPES, BODY_BUILDS } from './pet-breeds.js';
+import { PET_BREEDS, TAIL_TYPES, BODY_BUILDS, PET_GENDERS } from './pet-breeds.js';
 
 export class PetRenderer {
   // สร้าง DOM Element หลักของน้องแมว
@@ -52,14 +52,16 @@ export class PetRenderer {
       }
     }
 
-    // กำหนด Class สำหรับสายพันธุ์ ท่าทาง และทิศทาง
+    // กำหนด Class สำหรับสายพันธุ์ ท่าทาง เพศ และทิศทาง
     const isFluffy = breed.furType === 'fluffy_persian';
     const tailType = pet.tailType || breed.defaultTail || 'long';
     const build = pet.build || breed.defaultBuild || 'normal';
+    const gender = pet.gender || 'male';
     const moodClass = `mood-${pet.mood || 'curious'}`;
 
     const buildClass = `build-${build} ${build === 'slim' ? 'build-skinny' : ''} ${build === 'skinny' ? 'build-slim' : ''}`.trim();
-    el.className = `desktop-pet pet-breed-${pet.breed} pet-state-${pet.state || 'stand'} facing-${pet.facing || 'right'} ${pet.isDragged ? 'is-dragged' : ''} ${pet.isBlocked ? 'is-blocked' : ''} ${pet.isSpeaking ? 'is-speaking' : ''} ${isFluffy ? 'is-fluffy' : ''} ${buildClass} tail-${tailType} ${moodClass}`;
+    const facing = pet.facing || 'left';
+    el.className = `desktop-pet pet-breed-${pet.breed} gender-${gender} pet-state-${pet.state || 'stand'} facing-${facing} ${pet.isDragged ? 'is-dragged' : ''} ${pet.isBlocked ? 'is-blocked' : ''} ${pet.isSpeaking ? 'is-speaking' : ''} ${isFluffy ? 'is-fluffy' : ''} ${buildClass} tail-${tailType} ${moodClass}`;
     
     // ปรับ Scale ตัวแมว
     const scale = pet.scale || 1;
@@ -69,6 +71,14 @@ export class PetRenderer {
     if (svgWrap) {
       svgWrap.innerHTML = this.renderCatSvg(breed, pet);
     }
+  }
+
+  // สลับทิศทางการหันหน้าของแมวอย่างรวดเร็วโดยไม่ต้องเรนเดอร์ SVG ใหม่ (60 FPS facing update)
+  static updatePetFacing(el, pet) {
+    if (!el || !pet) return;
+    const facing = pet.facing || 'left';
+    el.classList.remove('facing-left', 'facing-right');
+    el.classList.add(`facing-${facing}`);
   }
 
   // Contract: Returns complete SVG string for a pet
@@ -332,7 +342,11 @@ export class PetRenderer {
       `;
     }
 
+    const gender = pet.gender || 'male';
+    const isFemale = gender === 'female';
+
     // สัดส่วนร่างกาย สรีระ 3 รูปแบบ (Body Build: chubby, normal, skinny/slim, chunky_loaf)
+    // สัดส่วนมาตรฐานดั้งเดิมถือเป็นสัดส่วนของเพศผู้ (Male Baseline)
     let bodyRx = 25, bodyRy = 18;
     let bellyRx = 17, bellyRy = 13;
     let cheekRx = 8.0, cheekRy = 6.0;
@@ -355,6 +369,19 @@ export class PetRenderer {
       cheekRx = 6.4; cheekRy = 4.8;
       pawRx = 3.6; pawRy = 3.0;
       shadowRx = 20; shadowRy = 3.8;
+    }
+
+    // แมวเพศเมีย (Female): รูปร่างสัดส่วนเพรียวยาวกว่า (Slender & Elongated Proportion)
+    if (isFemale) {
+      bodyRx = Math.round(bodyRx * 0.88 * 10) / 10;
+      bodyRy = Math.round(bodyRy * 1.04 * 10) / 10;
+      bellyRx = Math.round(bellyRx * 0.82 * 10) / 10;
+      bellyRy = Math.round(bellyRy * 0.90 * 10) / 10;
+      cheekRx = Math.round(cheekRx * 0.82 * 10) / 10;
+      cheekRy = Math.round(cheekRy * 0.88 * 10) / 10;
+      pawRx = Math.round(pawRx * 0.88 * 10) / 10;
+      pawRy = Math.round(pawRy * 0.95 * 10) / 10;
+      shadowRx = Math.round(shadowRx * 0.90 * 10) / 10;
     }
 
     if (isLoaf || isCurl || isBelly) {
@@ -600,10 +627,14 @@ export class PetRenderer {
     // 7. ลำตัว (Body)
     let bodySvg = '';
     if (isTwoLegged) {
+      const upRx = isFemale ? 17 : 20;
+      const upRy = isFemale ? 25 : 24;
+      const upBellyRx = isFemale ? 11.5 : 14;
+      const upBellyRy = isFemale ? 16 : 17;
       bodySvg = `
-        <ellipse class="pet-body-core pet-body-upright" cx="50" cy="44" rx="20" ry="24" transform="rotate(-6 50 44)" fill="${b.bodyColor}"/>
-        <ellipse cx="50" cy="44" rx="20" ry="24" transform="rotate(-6 50 44)" fill="url(#body-depth-grad-${pet.id})" pointer-events="none"/>
-        <ellipse class="pet-belly-patch" cx="48" cy="46" rx="14" ry="17" transform="rotate(-6 48 46)" fill="${b.bellyColor}"/>
+        <ellipse class="pet-body-core pet-body-upright" cx="50" cy="44" rx="${upRx}" ry="${upRy}" transform="rotate(-6 50 44)" fill="${b.bodyColor}"/>
+        <ellipse cx="50" cy="44" rx="${upRx}" ry="${upRy}" transform="rotate(-6 50 44)" fill="url(#body-depth-grad-${pet.id})" pointer-events="none"/>
+        <ellipse class="pet-belly-patch" cx="48" cy="46" rx="${upBellyRx}" ry="${upBellyRy}" transform="rotate(-6 48 46)" fill="${b.bellyColor}"/>
       `;
     } else if (isPooping) {
       bodySvg = `
@@ -648,8 +679,15 @@ export class PetRenderer {
       `;
     }
 
+    let headRx = isFluffy ? 23 : 21;
+    let headRy = isFluffy ? 18 : 16;
+    if (isFemale) {
+      headRx = Math.round(headRx * 0.93 * 10) / 10;
+      headRy = Math.round(headRy * 0.94 * 10) / 10;
+    }
+
     return `
-      <svg class="cat-svg state-${state}" viewBox="0 0 100 80" width="100%" height="100%">
+      <svg class="cat-svg state-${state} gender-${gender}" viewBox="0 0 100 80" width="100%" height="100%">
         <defs>
           <!-- เงาตกกระทบพื้นแบบนุ่มนวล (Soft Ambient Contact Shadow) -->
           <radialGradient id="ground-shadow-grad-${pet.id}" cx="50%" cy="50%" r="50%">
@@ -702,10 +740,10 @@ export class PetRenderer {
           ${earsSvg}
 
           <!-- Head Core with 3D Depth Overlay -->
-          <ellipse class="pet-head" cx="50" cy="33" rx="${isFluffy ? 23 : 21}" ry="${isFluffy ? 18 : 16}" fill="${b.bodyColor}"/>
-          <ellipse cx="50" cy="33" rx="${isFluffy ? 23 : 21}" ry="${isFluffy ? 18 : 16}" fill="url(#head-depth-grad-${pet.id})" pointer-events="none"/>
+          <ellipse class="pet-head" cx="50" cy="33" rx="${headRx}" ry="${headRy}" fill="${b.bodyColor}"/>
+          <ellipse cx="50" cy="33" rx="${headRx}" ry="${headRy}" fill="url(#head-depth-grad-${pet.id})" pointer-events="none"/>
           
-          <!-- Cute Cheeks (dynamically scaled by build) -->
+          <!-- Cute Cheeks (dynamically scaled by build and gender) -->
           <ellipse cx="38" cy="37" rx="${cheekRx}" ry="${cheekRy}" fill="${b.bellyColor}" opacity="0.8"/>
           <ellipse cx="62" cy="37" rx="${cheekRx}" ry="${cheekRy}" fill="${b.bellyColor}" opacity="0.8"/>
 
