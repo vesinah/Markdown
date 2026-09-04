@@ -90,6 +90,7 @@ export async function ensurePermission(node) {
 }
 
 export async function walkDirectory(dir, base, depth, out, rootIdx) {
+  const dirFiles = [];
   for await (const e of dir.values()) {
     if (e.name.startsWith('.')) continue;
     const path = joinPath(base, e.name);
@@ -97,9 +98,41 @@ export async function walkDirectory(dir, base, depth, out, rootIdx) {
     const node = { kind: e.kind, name: e.name, path, handle: e, depth, kids: null, parent: null, rootIdx, dateFromName, mtime: null };
     out.push(node);
     out.byPath.set(path, node);
-    if (e.kind === 'directory' && depth < 16) {
+    if (e.kind === 'file') {
+      dirFiles.push(node);
+    } else if (e.kind === 'directory' && depth < 16) {
       await walkDirectory(e, path, depth + 1, out, rootIdx);
     }
+  }
+
+  if (dirFiles.length > 0) {
+    await Promise.all(dirFiles.map(async n => {
+      try {
+        const f = await n.handle.getFile();
+        n.mtime = f.lastModified;
+        n.size = f.size;
+      } catch (err) {
+        n.mtime = n.dateFromName || 0;
+      }
+    }));
+  }
+}
+
+export async function ensureFileMtimes(nodes = State.flat) {
+  const missing = nodes.filter(n => n.kind === 'file' && (n.mtime === null || n.mtime === undefined) && n.handle && typeof n.handle.getFile === 'function');
+  if (!missing.length) return;
+  const CHUNK = 50;
+  for (let i = 0; i < missing.length; i += CHUNK) {
+    const slice = missing.slice(i, i + CHUNK);
+    await Promise.all(slice.map(async n => {
+      try {
+        const f = await n.handle.getFile();
+        n.mtime = f.lastModified;
+        n.size = f.size;
+      } catch (err) {
+        n.mtime = n.dateFromName || 0;
+      }
+    }));
   }
 }
 

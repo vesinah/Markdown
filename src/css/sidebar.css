@@ -534,10 +534,69 @@ body.sb-closed #sb-resizer {
   flex: none;
 }
 .node-row .nm {
+  flex: 1;
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+/* ================= Folder Counts Badges (Mini Icons with Counts) ================= */
+.tree-folder-counts {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  padding-left: 6px;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  color: var(--text3);
+  flex: none;
+  user-select: none;
+  line-height: 1;
+}
+
+.tree-folder-counts .count-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 2.5px;
+  cursor: default;
+}
+
+.tree-folder-counts .count-ico {
+  flex: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tree-folder-counts .count-ico.folder {
+  color: #d97706;
+}
+[data-theme="dark"] .tree-folder-counts .count-ico.folder {
+  color: #f59e0b;
+}
+
+.tree-folder-counts .count-ico.file {
+  color: var(--text3);
+}
+
+.tree-folder-counts .count-num {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text3);
+  letter-spacing: -0.01em;
+}
+
+.node-row:hover .tree-folder-counts .count-num {
+  color: var(--text2);
+}
+
+.node-row.active .tree-folder-counts .count-num,
+.node-row.active .tree-folder-counts .count-ico.file {
+  color: var(--accent-text);
+  opacity: 0.85;
+}
+
 
 .sb-footer {
   padding: 10px 12px 10px;

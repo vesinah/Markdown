@@ -249,6 +249,26 @@ test('cmpNodes: Sorts paths and files by date (desc/asc) and name (asc/desc)', (
   assert.strictEqual(cmpNodes(fileNode, n1, 'date', 'desc'), 1);
 });
 
+// 13. Test File Sorting by Actual File Creation/Modification Time (mtime)
+test('cmpNodes: Accurately sorts files by OS lastModified (mtime) date/time', () => {
+  const f1 = { kind: 'file', name: 'doc_alpha.md', mtime: 1756900000000 }; // earlier
+  const f2 = { kind: 'file', name: 'doc_beta.md', mtime: 1756999000000 };  // later
+  const f3 = { kind: 'file', name: 'doc_gamma.md', mtime: 1756950000000 }; // middle
+  const files = [f1, f2, f3];
+
+  // Newest first (Date desc)
+  files.sort((a, b) => cmpNodes(a, b, 'date', 'desc'));
+  assert.strictEqual(files[0].name, 'doc_beta.md');
+  assert.strictEqual(files[1].name, 'doc_gamma.md');
+  assert.strictEqual(files[2].name, 'doc_alpha.md');
+
+  // Oldest first (Date asc)
+  files.sort((a, b) => cmpNodes(a, b, 'date', 'asc'));
+  assert.strictEqual(files[0].name, 'doc_alpha.md');
+  assert.strictEqual(files[1].name, 'doc_gamma.md');
+  assert.strictEqual(files[2].name, 'doc_beta.md');
+});
+
 console.log('==============================================================================');
 console.log(`Execution Summary: ${passed} passed, ${failed} failed`);
 console.log('==============================================================================');

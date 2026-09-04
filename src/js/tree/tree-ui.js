@@ -21,6 +21,36 @@ export function renderTree(container) {
     }
   }
 
+  // Pre-calculate visible descendant counts (recursive) for each directory
+  const nodeCounts = new Map();
+  function computeCounts(n) {
+    let files = 0;
+    let dirs = 0;
+    if (n.kids && n.kids.length) {
+      for (const kid of n.kids) {
+        if (!filterVisible.has(kid.path)) continue;
+        if (searchVisiblePaths && !searchVisiblePaths.has(kid.path)) continue;
+
+        if (kid.kind === 'directory' || kid.kind === 'root') {
+          dirs += 1;
+          const sub = computeCounts(kid);
+          dirs += sub.dirs;
+          files += sub.files;
+        } else if (kid.kind === 'file') {
+          files += 1;
+        }
+      }
+    }
+    const res = { files, dirs };
+    nodeCounts.set(n.path, res);
+    return res;
+  }
+
+  const rootsForCount = State.flat.filter(n => n.kind === 'root');
+  for (const r of rootsForCount) {
+    computeCounts(r);
+  }
+
   function renderSingleNode(n) {
     if (!filterVisible.has(n.path)) return;
     if (searchVisiblePaths && !searchVisiblePaths.has(n.path)) return;
@@ -69,6 +99,23 @@ export function renderTree(container) {
       ? `<button type="button" class="btn-root-del" data-root-idx="${n.rootIdx}" title="ปิดโฟลเดอร์ “${esc(n.name)}” ออกจากแอป" aria-label="ปิดโฟลเดอร์">✕</button>`
       : '';
 
+    // Folder counts badge (Option 3: Mini Icons with Counts)
+    let countsBadge = '';
+    if (dir && !isLockedRoot) {
+      const counts = nodeCounts.get(n.path) || { files: 0, dirs: 0 };
+      const tipParts = [];
+      if (counts.dirs > 0) tipParts.push(`โฟลเดอร์ ${counts.dirs.toLocaleString()} รายการ`);
+      if (counts.files > 0 || counts.dirs === 0) tipParts.push(`เอกสาร ${counts.files.toLocaleString()} รายการ`);
+      const tooltip = tipParts.join(', ');
+
+      const dirHtml = counts.dirs > 0
+        ? `<span class="count-item count-dirs" title="โฟลเดอร์ย่อย"><svg class="count-ico folder" viewBox="0 0 16 16" width="12" height="12"><path fill="#d97706" fill-opacity=".3" stroke="#d97706" stroke-width="1.1" d="M1.75 2.5h3.2c.2 0 .4.08.54.22l1.03 1.03H14.25c.41 0 .75.34.75.75v7.75a1.25 1.25 0 0 1-1.25 1.25H1.75A1.25 1.25 0 0 1 .5 12.25v-8.5a1.25 1.25 0 0 1 1.25-1.25Z"/></svg><span class="count-num">${counts.dirs.toLocaleString()}</span></span>`
+        : '';
+      const fileHtml = `<span class="count-item count-files" title="เอกสาร/ไฟล์"><svg class="count-ico file" viewBox="0 0 16 16" width="11" height="11"><path fill="currentColor" fill-opacity=".2" stroke="currentColor" stroke-width="1.1" d="M3.75 1.5h5.5l3.5 3.5v9.25a1 1 0 0 1-1 1H3.75a1 1 0 0 1-1-1V2.5a1 1 0 0 1 1-1Z"/><path fill="none" stroke="currentColor" stroke-width="1" d="M9.25 1.5v3.5h3.5"/></svg><span class="count-num">${counts.files.toLocaleString()}</span></span>`;
+
+      countsBadge = `<span class="tree-folder-counts" title="${esc(tooltip)}">${dirHtml}${fileHtml}</span>`;
+    }
+
     const rootClass = isRoot ? 'node-root' : '';
     const padLeft = isRoot ? 8 : (8 + n.depth * 14);
 
@@ -85,7 +132,7 @@ export function renderTree(container) {
     html.push(
       `<div class="node ${dir ? (open ? 'folder open' : 'folder') : 'file'}" data-path="${esc(n.path)}">` +
       `<div class="node-row ${rootClass} ${active ? 'active' : ''} ${hit ? 'hit' : ''} ${isLockedRoot ? 'locked' : ''}" data-kind="${n.kind}"${rowTitle} style="padding-left:${padLeft}px">` +
-      twisty + iconSvg + nameLabel + refreshBtn + delBtn + `</div>` + snippetHtml + `</div>`
+      twisty + iconSvg + nameLabel + countsBadge + refreshBtn + delBtn + `</div>` + snippetHtml + `</div>`
     );
 
     if (dir && open && n.kids && n.kids.length) {

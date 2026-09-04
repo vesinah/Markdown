@@ -1,7 +1,7 @@
 import { Store } from './core/store.js';
 import { State } from './core/state.js';
-import { rescanWorkspaces, ensurePermission, findFileByPath, resolvePath, requestRootPermission } from './core/fs.js';
-import { isMd, isPdf, isImg, isTxt, isHtml, isXml, isRdf, isCode, isDoc, ALL_FILTER_TYPES, isFileAllowedByFilter, fmtBytes, esc, cmpNodes } from './tree/tree-node.js';
+import { rescanWorkspaces, ensurePermission, findFileByPath, resolvePath, requestRootPermission, ensureFileMtimes } from './core/fs.js';
+import { isMd, isPdf, isImg, isTxt, isHtml, isXml, isRdf, isCode, isDoc, ALL_FILTER_TYPES, isFileAllowedByFilter, fmtBytes, esc, cmpNodes, getNodeDate } from './tree/tree-node.js';
 import { getFinalExpandedPaths, expandOnlyFinal, collapseAllTruly } from './tree/tree-exp.js';
 import { renderTree } from './tree/tree-ui.js';
 import { renderMarkdownContent, renderCodeContent } from './reader/markdown.js';
@@ -363,35 +363,46 @@ export function updateSortButtonsUI() {
   }
 }
 
-export function setSort(by, order) {
+export async function setSort(by, order) {
   if (!State.sort) State.sort = { by: 'name', order: 'asc' };
   State.sort.by = by;
   State.sort.order = order;
+
+  if (by === 'date') {
+    await ensureFileMtimes(State.flat);
+  }
+
+  // Recalculate and cache dates for all nodes in State.flat bottom-up
+  for (let i = State.flat.length - 1; i >= 0; i--) {
+    State.flat[i]._cachedDate = undefined;
+    getNodeDate(State.flat[i]);
+  }
+
   applySortToAllNodes(by, order);
   updateSortButtonsUI();
   renderTree(D.tree);
-  Store.set('sort', { by, order });
+  await Store.set('sort', { by, order });
   State.emit('sort:change', { by, order });
 }
 
 if (D.btnSortName) {
-  D.btnSortName.addEventListener('click', () => {
+  D.btnSortName.addEventListener('click', async () => {
     if (State.sort && State.sort.by === 'name') {
       const nextOrder = State.sort.order === 'asc' ? 'desc' : 'asc';
-      setSort('name', nextOrder);
+      await setSort('name', nextOrder);
     } else {
-      setSort('name', 'asc');
+      await setSort('name', 'asc');
     }
   });
 }
 
 if (D.btnSortDate) {
-  D.btnSortDate.addEventListener('click', () => {
+  D.btnSortDate.addEventListener('click', async () => {
     if (State.sort && State.sort.by === 'date') {
       const nextOrder = State.sort.order === 'desc' ? 'asc' : 'desc';
-      setSort('date', nextOrder);
+      await setSort('date', nextOrder);
     } else {
-      setSort('date', 'desc');
+      await setSort('date', 'desc');
     }
   });
 }

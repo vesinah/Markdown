@@ -55,19 +55,29 @@ export function extractDateFromName(name) {
 
 export function getNodeDate(node) {
   if (!node) return 0;
-  if (node._cachedDate !== undefined) return node._cachedDate;
+  if (node._cachedDate !== undefined && node._cachedDate !== null) return node._cachedDate;
   let d = null;
-  if (node.dateFromName !== null && node.dateFromName !== undefined) {
-    d = node.dateFromName;
-  } else if (node.mtime) {
-    d = node.mtime;
-  } else if (node.kids && node.kids.length) {
-    let max = 0;
-    for (const kid of node.kids) {
-      const kd = getNodeDate(kid);
-      if (kd > max) max = kd;
+  if (node.kind === 'file') {
+    // For files: actual file creation/modification timestamp from OS is primary
+    if (typeof node.mtime === 'number' && node.mtime > 0) {
+      d = node.mtime;
+    } else if (node.dateFromName) {
+      d = node.dateFromName;
     }
-    if (max > 0) d = max;
+  } else {
+    // For directories/roots: date in folder name is primary, or max date of children
+    if (node.dateFromName) {
+      d = node.dateFromName;
+    } else if (typeof node.mtime === 'number' && node.mtime > 0) {
+      d = node.mtime;
+    } else if (node.kids && node.kids.length) {
+      let max = 0;
+      for (const kid of node.kids) {
+        const kd = getNodeDate(kid);
+        if (kd > max) max = kd;
+      }
+      if (max > 0) d = max;
+    }
   }
   node._cachedDate = d || 0;
   return node._cachedDate;
