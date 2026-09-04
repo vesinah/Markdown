@@ -1,5 +1,5 @@
 import { State } from '../core/state.js';
-import { isPdf, isImg, isCode, isMd, esc } from './tree-node.js';
+import { isPdf, isImg, isCode, isMd, esc, cmpNodes } from './tree-node.js';
 import { isNodeVisible, getFilterVisiblePaths } from './tree-exp.js';
 
 export function renderTree(container) {
@@ -61,6 +61,10 @@ export function renderTree(container) {
       ? ' title="โฟลเดอร์นี้ต้องได้รับอนุญาตการเข้าถึงไฟล์ — คลิกเพื่อเชื่อมต่อ"'
       : '';
 
+    const refreshBtn = isRoot
+      ? `<button type="button" class="btn-root-refresh" data-root-idx="${n.rootIdx}" title="รีเฟรชโฟลเดอร์ “${esc(n.name)}”" aria-label="รีเฟรชโฟลเดอร์"><svg viewBox="0 0 16 16" width="11" height="11" fill="currentColor"><path fill-rule="evenodd" d="M8 2.5a5.487 5.487 0 0 0-4.131 1.869l-1.2-1.2A.75.75 0 0 0 1.4 3.7v3.55a.75.75 0 0 0 .75.75H5.7a.75.75 0 0 0 .53-1.28l-1.272-1.272A3.987 3.987 0 0 1 8 4a4 4 0 1 1-3.464 6 .75.75 0 0 0-1.3.75A5.5 5.5 0 1 0 8 2.5Z"/></svg></button>`
+      : '';
+
     const delBtn = isRoot
       ? `<button type="button" class="btn-root-del" data-root-idx="${n.rootIdx}" title="ปิดโฟลเดอร์ “${esc(n.name)}” ออกจากแอป" aria-label="ปิดโฟลเดอร์">✕</button>`
       : '';
@@ -81,7 +85,7 @@ export function renderTree(container) {
     html.push(
       `<div class="node ${dir ? (open ? 'folder open' : 'folder') : 'file'}" data-path="${esc(n.path)}">` +
       `<div class="node-row ${rootClass} ${active ? 'active' : ''} ${hit ? 'hit' : ''} ${isLockedRoot ? 'locked' : ''}" data-kind="${n.kind}"${rowTitle} style="padding-left:${padLeft}px">` +
-      twisty + iconSvg + nameLabel + delBtn + `</div>` + snippetHtml + `</div>`
+      twisty + iconSvg + nameLabel + refreshBtn + delBtn + `</div>` + snippetHtml + `</div>`
     );
 
     if (dir && open && n.kids && n.kids.length) {
@@ -91,18 +95,13 @@ export function renderTree(container) {
     }
   }
 
-  if (searchVisiblePaths) {
-    // When searching, render from roots down or matching visible paths
-    const roots = State.flat.filter(n => n.kind === 'root');
-    for (const r of roots) {
-      renderSingleNode(r);
-    }
-  } else {
-    // Hierarchical traversal: Only traverse expanded folders (Massive performance boost)
-    const roots = State.flat.filter(n => n.kind === 'root');
-    for (const r of roots) {
-      renderSingleNode(r);
-    }
+  const sortBy = (State.sort && State.sort.by) || 'name';
+  const sortOrder = (State.sort && State.sort.order) || 'asc';
+  const roots = State.flat.filter(n => n.kind === 'root');
+  roots.sort((a, b) => cmpNodes(a, b, sortBy, sortOrder));
+
+  for (const r of roots) {
+    renderSingleNode(r);
   }
 
   if (!State.flat.length) {

@@ -11,6 +11,10 @@ export const State = {
   filters: {
     types: new Set(['md', 'pdf', 'txt', 'html', 'xml', 'rdf', 'img'])
   },
+  sort: {
+    by: 'name',
+    order: 'asc'
+  },
   search: {
     q: '',
     content: false,

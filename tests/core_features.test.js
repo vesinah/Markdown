@@ -168,6 +168,15 @@ test('MDBrowse.html: Generated file contains all new modular components and elem
   assert(html.includes('MenubarController'), 'Contains MenubarController');
   assert(html.includes('DocInfoController'), 'Contains DocInfoController');
   assert(html.includes('ReadingProgress'), 'Contains ReadingProgress controller');
+  assert(html.includes('id="btn-refresh"'), 'Contains btn-refresh DOM element');
+  assert(html.includes('sb-refresh-btn'), 'Contains sb-refresh-btn CSS class');
+  assert(html.includes('btn-root-refresh'), 'Contains btn-root-refresh CSS class');
+  assert(html.includes('refreshWorkspaces'), 'Contains refreshWorkspaces function');
+  assert(html.includes('id="btn-sort-name"'), 'Contains btn-sort-name DOM element');
+  assert(html.includes('id="btn-sort-date"'), 'Contains btn-sort-date DOM element');
+  assert(html.includes('sb-opts-divider'), 'Contains sb-opts-divider CSS class');
+  assert(html.includes('setSort'), 'Contains setSort function');
+  assert(html.includes('applySortToAllNodes'), 'Contains applySortToAllNodes function');
 });
 
 // 10. Callout & Markdown Parser regex verification
@@ -180,6 +189,64 @@ test('Callout regex: Accurately identifies and parses all 5 GitHub callout forma
     assert(m, `Matched [!${t}]`);
     assert.strictEqual(m[1].toUpperCase(), t);
   }
+});
+
+// 11. Test Date Extraction from Name (extractDateFromName)
+const treeNodeFile = fs.readFileSync(path.join(SRC, 'js/tree/tree-node.js'), 'utf8')
+  .replace(/^export\s+function\s+/gm, 'function ')
+  .replace(/^export\s+const\s+/gm, 'const ');
+const treeNodeSandbox = { console, Intl, Date, Math, String, RegExp };
+vm.createContext(treeNodeSandbox);
+vm.runInContext(treeNodeFile + '\nthis.extractDateFromName = extractDateFromName;\nthis.cmpNodes = cmpNodes;\nthis.getNodeDate = getNodeDate;', treeNodeSandbox);
+const { extractDateFromName, cmpNodes, getNodeDate } = treeNodeSandbox;
+
+test('extractDateFromName: Accurately parses ISO, compact, and Thai dates', () => {
+  const iso = extractDateFromName('2026-05-28_งานวิจัยทวีปทอง');
+  assert.strictEqual(new Date(iso).toISOString().slice(0, 10), '2026-05-28');
+
+  const compact = extractDateFromName('20260825_paper.pdf');
+  assert.strictEqual(new Date(compact).toISOString().slice(0, 10), '2026-08-25');
+
+  const thai = extractDateFromName('บันทึก_12-07-2569.md');
+  assert.strictEqual(new Date(thai).toISOString().slice(0, 10), '2026-07-12');
+
+  const none = extractDateFromName('readme_about.txt');
+  assert.strictEqual(none, null);
+});
+
+// 12. Test Node Sorting by Name and Date (cmpNodes)
+test('cmpNodes: Sorts paths and files by date (desc/asc) and name (asc/desc)', () => {
+  const n1 = { kind: 'directory', name: '2026-05-28_research', dateFromName: extractDateFromName('2026-05-28_research') };
+  const n2 = { kind: 'directory', name: '2026-08-25_paper', dateFromName: extractDateFromName('2026-08-25_paper') };
+  const n3 = { kind: 'directory', name: '2026-06-05_data', dateFromName: extractDateFromName('2026-06-05_data') };
+  const dirs = [n1, n2, n3];
+
+  // Date Descending (Newest first)
+  dirs.sort((a, b) => cmpNodes(a, b, 'date', 'desc'));
+  assert.strictEqual(dirs[0].name, '2026-08-25_paper');
+  assert.strictEqual(dirs[1].name, '2026-06-05_data');
+  assert.strictEqual(dirs[2].name, '2026-05-28_research');
+
+  // Date Ascending (Oldest first)
+  dirs.sort((a, b) => cmpNodes(a, b, 'date', 'asc'));
+  assert.strictEqual(dirs[0].name, '2026-05-28_research');
+  assert.strictEqual(dirs[1].name, '2026-06-05_data');
+  assert.strictEqual(dirs[2].name, '2026-08-25_paper');
+
+  // Name Ascending
+  dirs.sort((a, b) => cmpNodes(a, b, 'name', 'asc'));
+  assert.strictEqual(dirs[0].name, '2026-05-28_research');
+  assert.strictEqual(dirs[2].name, '2026-08-25_paper');
+
+  // Name Descending
+  dirs.sort((a, b) => cmpNodes(a, b, 'name', 'desc'));
+  assert.strictEqual(dirs[0].name, '2026-08-25_paper');
+  assert.strictEqual(dirs[2].name, '2026-05-28_research');
+
+  // Directories always stay before files
+  const fileNode = { kind: 'file', name: '2026-01-01_a.md', dateFromName: extractDateFromName('2026-01-01_a.md') };
+  assert.strictEqual(cmpNodes(n1, fileNode, 'date', 'desc'), -1);
+  assert.strictEqual(cmpNodes(fileNode, n1, 'date', 'desc'), 1);
 });
 
 console.log('==============================================================================');

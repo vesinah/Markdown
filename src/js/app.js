@@ -1,7 +1,7 @@
 import { Store } from './core/store.js';
 import { State } from './core/state.js';
 import { rescanWorkspaces, ensurePermission, findFileByPath, resolvePath, requestRootPermission } from './core/fs.js';
-import { isMd, isPdf, isImg, isTxt, isHtml, isXml, isRdf, isCode, isDoc, ALL_FILTER_TYPES, isFileAllowedByFilter, fmtBytes, esc } from './tree/tree-node.js';
+import { isMd, isPdf, isImg, isTxt, isHtml, isXml, isRdf, isCode, isDoc, ALL_FILTER_TYPES, isFileAllowedByFilter, fmtBytes, esc, cmpNodes } from './tree/tree-node.js';
 import { getFinalExpandedPaths, expandOnlyFinal, collapseAllTruly } from './tree/tree-exp.js';
 import { renderTree } from './tree/tree-ui.js';
 import { renderMarkdownContent, renderCodeContent } from './reader/markdown.js';
@@ -23,7 +23,7 @@ import { ReadingProgress } from './ui/reading-progress.js';
 export { switchView, openFile };
 
 const D = {};
-['btn-add', 'btn-add2', 'search-input', 'search-content', 'search-info', 'tree', 'stat-title', 'stat-filesize', 'sb-progress-bar',
+['btn-add', 'btn-add2', 'btn-sort-name', 'btn-sort-date', 'btn-refresh', 'search-input', 'search-content', 'search-info', 'tree', 'stat-title', 'stat-filesize', 'sb-progress-bar',
  'btn-filter-toggle', 'type-filter-dropdown',
  'btn-filter-all', 'btn-filter-none', 'btn-filter-reset',
  'btn-final', 'btn-collapse-all',
@@ -249,6 +249,64 @@ export async function unlockAndReloadWorkspace(rootIdx) {
   return true;
 }
 
+export async function refreshWorkspaces(targetRootIdx = null) {
+  if (!State.roots.length) return;
+
+  if (D.btnRefresh) D.btnRefresh.classList.add('spinning');
+  showLoading('กำลังรีเฟรชรายการไฟล์...');
+
+  try {
+    if (targetRootIdx !== null && State.roots[targetRootIdx]) {
+      const r = State.roots[targetRootIdx];
+      if (r.isLocked) await requestRootPermission(targetRootIdx);
+    } else {
+      for (let i = 0; i < State.roots.length; i++) {
+        const r = State.roots[i];
+        if (r.isLocked) await requestRootPermission(i);
+      }
+    }
+
+    await rescanWorkspaces();
+    SearchEngine.clearCache();
+
+    for (const p of State.expanded) {
+      if (!State.byPath.has(p)) State.expanded.delete(p);
+    }
+    for (const p of State.collapsed) {
+      if (!State.byPath.has(p)) State.collapsed.delete(p);
+    }
+
+    if (State.current) {
+      const updatedNode = State.byPath.get(State.current.path);
+      if (updatedNode && updatedNode.kind === 'file') {
+        State.current = updatedNode;
+        const scrollPos = D.mdScrollPane ? D.mdScrollPane.scrollTop : 0;
+        await openFile(updatedNode, { silent: true });
+        if (D.mdScrollPane) D.mdScrollPane.scrollTop = scrollPos;
+      } else {
+        ViewRouter.closeCurrentFile();
+      }
+    }
+
+    renderTree(D.tree);
+    updateStat(State.current);
+
+    if (State.search.q) {
+      SearchEngine.run();
+    }
+
+    await saveWorkspace();
+    State.emit('workspace:refreshed');
+  } catch (err) {
+    console.error('[app] refreshWorkspaces failed:', err);
+  } finally {
+    hideLoading();
+    if (D.btnRefresh) {
+      setTimeout(() => D.btnRefresh.classList.remove('spinning'), 300);
+    }
+  }
+}
+
 async function addFolder() {
   if (!State.hasFSA) {
     alert('เบราว์เซอร์นี้ไม่รองรับ File System Access API — กรุณาใช้ Google Chrome');
@@ -276,8 +334,71 @@ async function addFolder() {
   }
 }
 
+export function applySortToAllNodes(sortBy, sortOrder) {
+  for (const n of State.flat) {
+    if ((n.kind === 'directory' || n.kind === 'root') && n.kids) {
+      n.kids.sort((a, b) => cmpNodes(a, b, sortBy, sortOrder));
+    }
+  }
+}
+
+export function updateSortButtonsUI() {
+  const by = (State.sort && State.sort.by) || 'name';
+  const order = (State.sort && State.sort.order) || 'asc';
+
+  if (D.btnSortName) {
+    const isName = (by === 'name');
+    D.btnSortName.classList.toggle('active', isName);
+    D.btnSortName.title = isName
+      ? (order === 'asc' ? 'เรียงตามชื่อ: ก-ฮ (คลิกเพื่อเรียง ฮ-ก)' : 'เรียงตามชื่อ: ฮ-ก (คลิกเพื่อเรียง ก-ฮ)')
+      : 'เรียงตามชื่อ (A-Z / Z-A)';
+  }
+
+  if (D.btnSortDate) {
+    const isDate = (by === 'date');
+    D.btnSortDate.classList.toggle('active', isDate);
+    D.btnSortDate.title = isDate
+      ? (order === 'desc' ? 'เรียงตามวันที่: ใหม่-เก่า (คลิกเพื่อเรียง เก่า-ใหม่)' : 'เรียงตามวันที่: เก่า-ใหม่ (คลิกเพื่อเรียง ใหม่-เก่า)')
+      : 'เรียงตามวันที่ (ใหม่-เก่า / เก่า-ใหม่)';
+  }
+}
+
+export function setSort(by, order) {
+  if (!State.sort) State.sort = { by: 'name', order: 'asc' };
+  State.sort.by = by;
+  State.sort.order = order;
+  applySortToAllNodes(by, order);
+  updateSortButtonsUI();
+  renderTree(D.tree);
+  Store.set('sort', { by, order });
+  State.emit('sort:change', { by, order });
+}
+
+if (D.btnSortName) {
+  D.btnSortName.addEventListener('click', () => {
+    if (State.sort && State.sort.by === 'name') {
+      const nextOrder = State.sort.order === 'asc' ? 'desc' : 'asc';
+      setSort('name', nextOrder);
+    } else {
+      setSort('name', 'asc');
+    }
+  });
+}
+
+if (D.btnSortDate) {
+  D.btnSortDate.addEventListener('click', () => {
+    if (State.sort && State.sort.by === 'date') {
+      const nextOrder = State.sort.order === 'desc' ? 'asc' : 'desc';
+      setSort('date', nextOrder);
+    } else {
+      setSort('date', 'desc');
+    }
+  });
+}
+
 if (D.btnAdd) D.btnAdd.addEventListener('click', addFolder);
 if (D.btnAdd2) D.btnAdd2.addEventListener('click', addFolder);
+if (D.btnRefresh) D.btnRefresh.addEventListener('click', () => refreshWorkspaces());
 
 if (D.btnFinal) {
   D.btnFinal.addEventListener('click', () => {
@@ -372,6 +493,16 @@ document.querySelectorAll('input[name="type-filter"]').forEach(cb => {
 
 if (D.tree) {
   D.tree.addEventListener('click', async e => {
+    const refreshBtn = e.target.closest('.btn-root-refresh');
+    if (refreshBtn) {
+      e.stopPropagation();
+      const rootIdx = +refreshBtn.dataset.rootIdx;
+      refreshBtn.classList.add('spinning');
+      await refreshWorkspaces(rootIdx);
+      refreshBtn.classList.remove('spinning');
+      return;
+    }
+
     const delBtn = e.target.closest('.btn-root-del');
     if (delBtn) {
       e.stopPropagation();
@@ -471,6 +602,10 @@ document.addEventListener('keydown', e => {
     e.preventDefault();
     factoryResetUI();
     alert('รีเซ็ตการแสดงผลและระยะขอบทั้งหมดสู่ค่าเริ่มต้น (Factory Reset) เรียบร้อยแล้ว');
+  } else if (e.altKey && !e.ctrlKey && !e.metaKey && e.key.toLowerCase() === 'r') {
+    // Alt + R: Refresh Workspaces
+    e.preventDefault();
+    refreshWorkspaces();
   }
 });
 
@@ -580,6 +715,13 @@ export async function initApp() {
     State.filters.types = new Set(ALL_FILTER_TYPES);
   }
   updateFilterChipsUI();
+
+  const savedSort = await Store.get('sort');
+  if (savedSort && (savedSort.by === 'name' || savedSort.by === 'date')) {
+    State.sort.by = savedSort.by;
+    State.sort.order = (savedSort.order === 'desc') ? 'desc' : 'asc';
+  }
+  updateSortButtonsUI();
 
   const rec = await Store.get('workspace');
   if (rec && rec.roots && rec.roots.length) {

@@ -189,7 +189,19 @@ ${combinedCss}
 
       <div class="sb-search-opts">
         <label><input type="checkbox" id="search-content"> ในเนื้อหา</label>
-        <span id="search-info" class="sb-search-info" hidden></span>
+        <div class="sb-search-opts-right">
+          <span id="search-info" class="sb-search-info" hidden></span>
+          <button type="button" id="btn-sort-name" class="sb-tool-btn active" title="เรียงลำดับตามชื่อ (ก-ฮ / ฮ-ก)" aria-label="เรียงตามชื่อ">
+            <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path d="M1.75 11.5a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-4.5ZM1.75 7.5a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5h-7.5ZM1.75 3.5a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5H1.75Z"/><path d="M12.5 7.75a.75.75 0 0 1 .75.75v3.44l1.22-1.22a.75.75 0 1 1 1.06 1.06l-2.5 2.5a.75.75 0 0 1-1.06 0l-2.5-2.5a.75.75 0 1 1 1.06-1.06l1.22 1.22V8.5a.75.75 0 0 1 .75-.75Z"/></svg>
+          </button>
+          <button type="button" id="btn-sort-date" class="sb-tool-btn" title="เรียงลำดับตามวันที่ (ใหม่-เก่า / เก่า-ใหม่)" aria-label="เรียงตามวันที่">
+            <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path d="M4.75 0a.75.75 0 0 1 .75.75V2h5V.75a.75.75 0 0 1 1.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 0 1 4.75 0ZM2.5 7.5v6.75c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25V7.5H2.5Zm10.75-4H2.75a.25.25 0 0 0-.25.25V6h11V3.75a.25.25 0 0 0-.25-.25Z"/></svg>
+          </button>
+          <span class="sb-opts-divider"></span>
+          <button type="button" id="btn-refresh" class="sb-refresh-btn" title="รีเฟรชรายการไฟล์ (สแกนโฟลเดอร์ใหม่ / Alt+R)" aria-label="รีเฟรชรายการไฟล์">
+            <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path fill-rule="evenodd" d="M8 2.5a5.487 5.487 0 0 0-4.131 1.869l-1.2-1.2A.75.75 0 0 0 1.4 3.7v3.55a.75.75 0 0 0 .75.75H5.7a.75.75 0 0 0 .53-1.28l-1.272-1.272A3.987 3.987 0 0 1 8 4a4 4 0 1 1-3.464 6 .75.75 0 0 0-1.3.75A5.5 5.5 0 1 0 8 2.5Z"/></svg>
+          </button>
+        </div>
       </div>
 
       <!-- Floating Dropdown Checkbox Panel -->

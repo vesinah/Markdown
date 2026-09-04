@@ -35,7 +35,57 @@ export const mimeByExt = { png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpe
 export const fmtBytes = n => n < 1024 ? n + ' B' : n < 1048576 ? (n / 1024).toFixed(1) + ' KB' : (n / 1048576).toFixed(1) + ' MB';
 export const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
-export function cmpNodes(a, b) {
-  if (a.kind !== b.kind) return a.kind === 'directory' || a.kind === 'root' ? -1 : 1;
-  return a.name.localeCompare(b.name, 'th', { numeric: true });
+export function extractDateFromName(name) {
+  if (!name) return null;
+  // 1. YYYY-MM-DD, YYYY_MM_DD, or YYYY.MM.DD
+  let m = name.match(/(?:^|[^0-9])(19\d{2}|20\d{2})[-_.](\d{1,2})[-_.](\d{1,2})(?:[^0-9]|$)/);
+  if (m) return Date.UTC(+m[1], +m[2] - 1, +m[3]);
+  // 2. YYYYMMDD
+  m = name.match(/(?:^|[^0-9])(19\d{2}|20\d{2})(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])(?:[^0-9]|$)/);
+  if (m) return Date.UTC(+m[1], +m[2] - 1, +m[3]);
+  // 3. DD-MM-YYYY or DD_MM_YYYY (Gregorian or Thai BE)
+  m = name.match(/(?:^|[^0-9])(\d{1,2})[-_.](\d{1,2})[-_.](19\d{2}|20\d{2}|25\d{2})(?:[^0-9]|$)/);
+  if (m) {
+    let yr = +m[3];
+    if (yr > 2400) yr -= 543;
+    return Date.UTC(yr, +m[2] - 1, +m[1]);
+  }
+  return null;
+}
+
+export function getNodeDate(node) {
+  if (!node) return 0;
+  if (node._cachedDate !== undefined) return node._cachedDate;
+  let d = null;
+  if (node.dateFromName !== null && node.dateFromName !== undefined) {
+    d = node.dateFromName;
+  } else if (node.mtime) {
+    d = node.mtime;
+  } else if (node.kids && node.kids.length) {
+    let max = 0;
+    for (const kid of node.kids) {
+      const kd = getNodeDate(kid);
+      if (kd > max) max = kd;
+    }
+    if (max > 0) d = max;
+  }
+  node._cachedDate = d || 0;
+  return node._cachedDate;
+}
+
+export function cmpNodes(a, b, sortBy = 'name', sortOrder = 'asc') {
+  if (a.kind !== b.kind) return (a.kind === 'directory' || a.kind === 'root') ? -1 : 1;
+  let res = 0;
+  if (sortBy === 'date') {
+    const da = getNodeDate(a);
+    const db = getNodeDate(b);
+    if (da !== db) {
+      res = (da < db) ? -1 : 1;
+    } else {
+      res = a.name.localeCompare(b.name, 'th', { numeric: true });
+    }
+  } else {
+    res = a.name.localeCompare(b.name, 'th', { numeric: true });
+  }
+  return sortOrder === 'desc' ? -res : res;
 }

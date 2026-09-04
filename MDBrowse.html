@@ -704,12 +704,75 @@ body.sb-closed #sb-resizer {
   justify-content: space-between;
   font-size: 11.5px;
   color: var(--text2);
+  min-height: 24px;
 }
 .sb-search-opts label {
   display: flex;
   align-items: center;
   gap: 4px;
   cursor: pointer;
+  white-space: nowrap;
+}
+
+.sb-search-opts-right {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-left: auto;
+}
+
+.sb-tool-btn,
+.sb-refresh-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text3);
+  cursor: pointer;
+  padding: 0;
+  flex: none;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease, transform .15s ease;
+}
+.sb-tool-btn:hover,
+.sb-refresh-btn:hover {
+  background: var(--border2);
+  color: var(--accent);
+  border-color: var(--border);
+}
+.sb-tool-btn:active,
+.sb-refresh-btn:active {
+  transform: scale(0.92);
+}
+.sb-tool-btn.active {
+  background: var(--accent2);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+[data-theme="dark"] .sb-tool-btn.active {
+  background: rgba(56, 139, 253, 0.2);
+  color: #58a6ff;
+  border-color: rgba(56, 139, 253, 0.4);
+}
+
+.sb-opts-divider {
+  width: 1px;
+  height: 14px;
+  background: var(--border);
+  margin: 0 3px;
+  flex: none;
+}
+
+.sb-refresh-btn.spinning svg,
+.btn-root-refresh.spinning svg {
+  animation: sb-spin 0.7s linear infinite;
+}
+@keyframes sb-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .sb-search-info {
@@ -898,6 +961,32 @@ body.sb-closed #sb-resizer {
   border-color: #58a6ff;
 }
 
+.btn-root-refresh {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text3);
+  cursor: pointer;
+  padding: 0;
+  flex: none;
+  transition: background-color .15s ease, color .15s ease, transform .15s ease;
+}
+.btn-root-refresh:hover {
+  background: var(--border2);
+  color: var(--accent);
+  transform: scale(1.1);
+}
+[data-theme="dark"] .btn-root-refresh:hover {
+  background: var(--border2);
+  color: #58a6ff;
+}
+
 .btn-root-del {
   margin-left: auto;
   display: inline-flex;
@@ -916,6 +1005,9 @@ body.sb-closed #sb-resizer {
   padding: 0;
   flex: none;
   transition: background-color .15s ease, color .15s ease, transform .15s ease;
+}
+.btn-root-refresh + .btn-root-del {
+  margin-left: 2px;
 }
 .btn-root-del:hover {
   background: rgba(207, 34, 46, 0.15);
@@ -5548,7 +5640,19 @@ mark.bm-hl.flash {
 
       <div class="sb-search-opts">
         <label><input type="checkbox" id="search-content"> ในเนื้อหา</label>
-        <span id="search-info" class="sb-search-info" hidden></span>
+        <div class="sb-search-opts-right">
+          <span id="search-info" class="sb-search-info" hidden></span>
+          <button type="button" id="btn-sort-name" class="sb-tool-btn active" title="เรียงลำดับตามชื่อ (ก-ฮ / ฮ-ก)" aria-label="เรียงตามชื่อ">
+            <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path d="M1.75 11.5a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-4.5ZM1.75 7.5a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5h-7.5ZM1.75 3.5a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5H1.75Z"/><path d="M12.5 7.75a.75.75 0 0 1 .75.75v3.44l1.22-1.22a.75.75 0 1 1 1.06 1.06l-2.5 2.5a.75.75 0 0 1-1.06 0l-2.5-2.5a.75.75 0 1 1 1.06-1.06l1.22 1.22V8.5a.75.75 0 0 1 .75-.75Z"/></svg>
+          </button>
+          <button type="button" id="btn-sort-date" class="sb-tool-btn" title="เรียงลำดับตามวันที่ (ใหม่-เก่า / เก่า-ใหม่)" aria-label="เรียงตามวันที่">
+            <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path d="M4.75 0a.75.75 0 0 1 .75.75V2h5V.75a.75.75 0 0 1 1.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 0 1 4.75 0ZM2.5 7.5v6.75c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25V7.5H2.5Zm10.75-4H2.75a.25.25 0 0 0-.25.25V6h11V3.75a.25.25 0 0 0-.25-.25Z"/></svg>
+          </button>
+          <span class="sb-opts-divider"></span>
+          <button type="button" id="btn-refresh" class="sb-refresh-btn" title="รีเฟรชรายการไฟล์ (สแกนโฟลเดอร์ใหม่ / Alt+R)" aria-label="รีเฟรชรายการไฟล์">
+            <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path fill-rule="evenodd" d="M8 2.5a5.487 5.487 0 0 0-4.131 1.869l-1.2-1.2A.75.75 0 0 0 1.4 3.7v3.55a.75.75 0 0 0 .75.75H5.7a.75.75 0 0 0 .53-1.28l-1.272-1.272A3.987 3.987 0 0 1 8 4a4 4 0 1 1-3.464 6 .75.75 0 0 0-1.3.75A5.5 5.5 0 1 0 8 2.5Z"/></svg>
+          </button>
+        </div>
       </div>
 
       <!-- Floating Dropdown Checkbox Panel -->
@@ -10935,6 +11039,10 @@ const State = {
   filters: {
     types: new Set(['md', 'pdf', 'txt', 'html', 'xml', 'rdf', 'img'])
   },
+  sort: {
+    by: 'name',
+    order: 'asc'
+  },
   search: {
     q: '',
     content: false,
@@ -11031,9 +11139,59 @@ const mimeByExt = { png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', gif
 const fmtBytes = n => n < 1024 ? n + ' B' : n < 1048576 ? (n / 1024).toFixed(1) + ' KB' : (n / 1048576).toFixed(1) + ' MB';
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
-function cmpNodes(a, b) {
-  if (a.kind !== b.kind) return a.kind === 'directory' || a.kind === 'root' ? -1 : 1;
-  return a.name.localeCompare(b.name, 'th', { numeric: true });
+function extractDateFromName(name) {
+  if (!name) return null;
+  // 1. YYYY-MM-DD, YYYY_MM_DD, or YYYY.MM.DD
+  let m = name.match(/(?:^|[^0-9])(19\d{2}|20\d{2})[-_.](\d{1,2})[-_.](\d{1,2})(?:[^0-9]|$)/);
+  if (m) return Date.UTC(+m[1], +m[2] - 1, +m[3]);
+  // 2. YYYYMMDD
+  m = name.match(/(?:^|[^0-9])(19\d{2}|20\d{2})(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])(?:[^0-9]|$)/);
+  if (m) return Date.UTC(+m[1], +m[2] - 1, +m[3]);
+  // 3. DD-MM-YYYY or DD_MM_YYYY (Gregorian or Thai BE)
+  m = name.match(/(?:^|[^0-9])(\d{1,2})[-_.](\d{1,2})[-_.](19\d{2}|20\d{2}|25\d{2})(?:[^0-9]|$)/);
+  if (m) {
+    let yr = +m[3];
+    if (yr > 2400) yr -= 543;
+    return Date.UTC(yr, +m[2] - 1, +m[1]);
+  }
+  return null;
+}
+
+function getNodeDate(node) {
+  if (!node) return 0;
+  if (node._cachedDate !== undefined) return node._cachedDate;
+  let d = null;
+  if (node.dateFromName !== null && node.dateFromName !== undefined) {
+    d = node.dateFromName;
+  } else if (node.mtime) {
+    d = node.mtime;
+  } else if (node.kids && node.kids.length) {
+    let max = 0;
+    for (const kid of node.kids) {
+      const kd = getNodeDate(kid);
+      if (kd > max) max = kd;
+    }
+    if (max > 0) d = max;
+  }
+  node._cachedDate = d || 0;
+  return node._cachedDate;
+}
+
+function cmpNodes(a, b, sortBy = 'name', sortOrder = 'asc') {
+  if (a.kind !== b.kind) return (a.kind === 'directory' || a.kind === 'root') ? -1 : 1;
+  let res = 0;
+  if (sortBy === 'date') {
+    const da = getNodeDate(a);
+    const db = getNodeDate(b);
+    if (da !== db) {
+      res = (da < db) ? -1 : 1;
+    } else {
+      res = a.name.localeCompare(b.name, 'th', { numeric: true });
+    }
+  } else {
+    res = a.name.localeCompare(b.name, 'th', { numeric: true });
+  }
+  return sortOrder === 'desc' ? -res : res;
 }
 
 
@@ -11130,7 +11288,8 @@ async function walkDirectory(dir, base, depth, out, rootIdx) {
   for await (const e of dir.values()) {
     if (e.name.startsWith('.')) continue;
     const path = joinPath(base, e.name);
-    const node = { kind: e.kind, name: e.name, path, handle: e, depth, kids: null, parent: null, rootIdx };
+    const dateFromName = extractDateFromName(e.name);
+    const node = { kind: e.kind, name: e.name, path, handle: e, depth, kids: null, parent: null, rootIdx, dateFromName, mtime: null };
     out.push(node);
     out.byPath.set(path, node);
     if (e.kind === 'directory' && depth < 16) {
@@ -11154,7 +11313,9 @@ async function rescanWorkspaces() {
       kids: null,
       parent: null,
       rootIdx: i,
-      isLocked: !!r.isLocked
+      isLocked: !!r.isLocked,
+      dateFromName: extractDateFromName(r.name),
+      mtime: null
     };
     out.push(rootNode);
     out.byPath.set(r.name, rootNode);
@@ -11177,7 +11338,18 @@ async function rescanWorkspaces() {
   for (const n of out) {
     if (n.kind === 'directory' || n.kind === 'root') {
       n.kids = out.filter(x => x.parent === n);
-      n.kids.sort(cmpNodes);
+    }
+  }
+  // Bottom-up pass to resolve and cache dates for directories from their children
+  for (let i = out.length - 1; i >= 0; i--) {
+    out[i]._cachedDate = undefined;
+    getNodeDate(out[i]);
+  }
+  const sortBy = (State.sort && State.sort.by) || 'name';
+  const sortOrder = (State.sort && State.sort.order) || 'asc';
+  for (const n of out) {
+    if ((n.kind === 'directory' || n.kind === 'root') && n.kids) {
+      n.kids.sort((a, b) => cmpNodes(a, b, sortBy, sortOrder));
     }
   }
   State.flat = out;
@@ -11323,6 +11495,10 @@ function renderTree(container) {
       ? ' title="โฟลเดอร์นี้ต้องได้รับอนุญาตการเข้าถึงไฟล์ — คลิกเพื่อเชื่อมต่อ"'
       : '';
 
+    const refreshBtn = isRoot
+      ? `<button type="button" class="btn-root-refresh" data-root-idx="${n.rootIdx}" title="รีเฟรชโฟลเดอร์ “${esc(n.name)}”" aria-label="รีเฟรชโฟลเดอร์"><svg viewBox="0 0 16 16" width="11" height="11" fill="currentColor"><path fill-rule="evenodd" d="M8 2.5a5.487 5.487 0 0 0-4.131 1.869l-1.2-1.2A.75.75 0 0 0 1.4 3.7v3.55a.75.75 0 0 0 .75.75H5.7a.75.75 0 0 0 .53-1.28l-1.272-1.272A3.987 3.987 0 0 1 8 4a4 4 0 1 1-3.464 6 .75.75 0 0 0-1.3.75A5.5 5.5 0 1 0 8 2.5Z"/></svg></button>`
+      : '';
+
     const delBtn = isRoot
       ? `<button type="button" class="btn-root-del" data-root-idx="${n.rootIdx}" title="ปิดโฟลเดอร์ “${esc(n.name)}” ออกจากแอป" aria-label="ปิดโฟลเดอร์">✕</button>`
       : '';
@@ -11343,7 +11519,7 @@ function renderTree(container) {
     html.push(
       `<div class="node ${dir ? (open ? 'folder open' : 'folder') : 'file'}" data-path="${esc(n.path)}">` +
       `<div class="node-row ${rootClass} ${active ? 'active' : ''} ${hit ? 'hit' : ''} ${isLockedRoot ? 'locked' : ''}" data-kind="${n.kind}"${rowTitle} style="padding-left:${padLeft}px">` +
-      twisty + iconSvg + nameLabel + delBtn + `</div>` + snippetHtml + `</div>`
+      twisty + iconSvg + nameLabel + refreshBtn + delBtn + `</div>` + snippetHtml + `</div>`
     );
 
     if (dir && open && n.kids && n.kids.length) {
@@ -11353,18 +11529,13 @@ function renderTree(container) {
     }
   }
 
-  if (searchVisiblePaths) {
-    // When searching, render from roots down or matching visible paths
-    const roots = State.flat.filter(n => n.kind === 'root');
-    for (const r of roots) {
-      renderSingleNode(r);
-    }
-  } else {
-    // Hierarchical traversal: Only traverse expanded folders (Massive performance boost)
-    const roots = State.flat.filter(n => n.kind === 'root');
-    for (const r of roots) {
-      renderSingleNode(r);
-    }
+  const sortBy = (State.sort && State.sort.by) || 'name';
+  const sortOrder = (State.sort && State.sort.order) || 'asc';
+  const roots = State.flat.filter(n => n.kind === 'root');
+  roots.sort((a, b) => cmpNodes(a, b, sortBy, sortOrder));
+
+  for (const r of roots) {
+    renderSingleNode(r);
   }
 
   if (!State.flat.length) {
@@ -20570,7 +20741,7 @@ const ReadingProgress = {
 
 
 const D = {};
-['btn-add', 'btn-add2', 'search-input', 'search-content', 'search-info', 'tree', 'stat-title', 'stat-filesize', 'sb-progress-bar',
+['btn-add', 'btn-add2', 'btn-sort-name', 'btn-sort-date', 'btn-refresh', 'search-input', 'search-content', 'search-info', 'tree', 'stat-title', 'stat-filesize', 'sb-progress-bar',
  'btn-filter-toggle', 'type-filter-dropdown',
  'btn-filter-all', 'btn-filter-none', 'btn-filter-reset',
  'btn-final', 'btn-collapse-all',
@@ -20796,6 +20967,64 @@ async function unlockAndReloadWorkspace(rootIdx) {
   return true;
 }
 
+async function refreshWorkspaces(targetRootIdx = null) {
+  if (!State.roots.length) return;
+
+  if (D.btnRefresh) D.btnRefresh.classList.add('spinning');
+  showLoading('กำลังรีเฟรชรายการไฟล์...');
+
+  try {
+    if (targetRootIdx !== null && State.roots[targetRootIdx]) {
+      const r = State.roots[targetRootIdx];
+      if (r.isLocked) await requestRootPermission(targetRootIdx);
+    } else {
+      for (let i = 0; i < State.roots.length; i++) {
+        const r = State.roots[i];
+        if (r.isLocked) await requestRootPermission(i);
+      }
+    }
+
+    await rescanWorkspaces();
+    SearchEngine.clearCache();
+
+    for (const p of State.expanded) {
+      if (!State.byPath.has(p)) State.expanded.delete(p);
+    }
+    for (const p of State.collapsed) {
+      if (!State.byPath.has(p)) State.collapsed.delete(p);
+    }
+
+    if (State.current) {
+      const updatedNode = State.byPath.get(State.current.path);
+      if (updatedNode && updatedNode.kind === 'file') {
+        State.current = updatedNode;
+        const scrollPos = D.mdScrollPane ? D.mdScrollPane.scrollTop : 0;
+        await openFile(updatedNode, { silent: true });
+        if (D.mdScrollPane) D.mdScrollPane.scrollTop = scrollPos;
+      } else {
+        ViewRouter.closeCurrentFile();
+      }
+    }
+
+    renderTree(D.tree);
+    updateStat(State.current);
+
+    if (State.search.q) {
+      SearchEngine.run();
+    }
+
+    await saveWorkspace();
+    State.emit('workspace:refreshed');
+  } catch (err) {
+    console.error('[app] refreshWorkspaces failed:', err);
+  } finally {
+    hideLoading();
+    if (D.btnRefresh) {
+      setTimeout(() => D.btnRefresh.classList.remove('spinning'), 300);
+    }
+  }
+}
+
 async function addFolder() {
   if (!State.hasFSA) {
     alert('เบราว์เซอร์นี้ไม่รองรับ File System Access API — กรุณาใช้ Google Chrome');
@@ -20823,8 +21052,71 @@ async function addFolder() {
   }
 }
 
+function applySortToAllNodes(sortBy, sortOrder) {
+  for (const n of State.flat) {
+    if ((n.kind === 'directory' || n.kind === 'root') && n.kids) {
+      n.kids.sort((a, b) => cmpNodes(a, b, sortBy, sortOrder));
+    }
+  }
+}
+
+function updateSortButtonsUI() {
+  const by = (State.sort && State.sort.by) || 'name';
+  const order = (State.sort && State.sort.order) || 'asc';
+
+  if (D.btnSortName) {
+    const isName = (by === 'name');
+    D.btnSortName.classList.toggle('active', isName);
+    D.btnSortName.title = isName
+      ? (order === 'asc' ? 'เรียงตามชื่อ: ก-ฮ (คลิกเพื่อเรียง ฮ-ก)' : 'เรียงตามชื่อ: ฮ-ก (คลิกเพื่อเรียง ก-ฮ)')
+      : 'เรียงตามชื่อ (A-Z / Z-A)';
+  }
+
+  if (D.btnSortDate) {
+    const isDate = (by === 'date');
+    D.btnSortDate.classList.toggle('active', isDate);
+    D.btnSortDate.title = isDate
+      ? (order === 'desc' ? 'เรียงตามวันที่: ใหม่-เก่า (คลิกเพื่อเรียง เก่า-ใหม่)' : 'เรียงตามวันที่: เก่า-ใหม่ (คลิกเพื่อเรียง ใหม่-เก่า)')
+      : 'เรียงตามวันที่ (ใหม่-เก่า / เก่า-ใหม่)';
+  }
+}
+
+function setSort(by, order) {
+  if (!State.sort) State.sort = { by: 'name', order: 'asc' };
+  State.sort.by = by;
+  State.sort.order = order;
+  applySortToAllNodes(by, order);
+  updateSortButtonsUI();
+  renderTree(D.tree);
+  Store.set('sort', { by, order });
+  State.emit('sort:change', { by, order });
+}
+
+if (D.btnSortName) {
+  D.btnSortName.addEventListener('click', () => {
+    if (State.sort && State.sort.by === 'name') {
+      const nextOrder = State.sort.order === 'asc' ? 'desc' : 'asc';
+      setSort('name', nextOrder);
+    } else {
+      setSort('name', 'asc');
+    }
+  });
+}
+
+if (D.btnSortDate) {
+  D.btnSortDate.addEventListener('click', () => {
+    if (State.sort && State.sort.by === 'date') {
+      const nextOrder = State.sort.order === 'desc' ? 'asc' : 'desc';
+      setSort('date', nextOrder);
+    } else {
+      setSort('date', 'desc');
+    }
+  });
+}
+
 if (D.btnAdd) D.btnAdd.addEventListener('click', addFolder);
 if (D.btnAdd2) D.btnAdd2.addEventListener('click', addFolder);
+if (D.btnRefresh) D.btnRefresh.addEventListener('click', () => refreshWorkspaces());
 
 if (D.btnFinal) {
   D.btnFinal.addEventListener('click', () => {
@@ -20919,6 +21211,16 @@ document.querySelectorAll('input[name="type-filter"]').forEach(cb => {
 
 if (D.tree) {
   D.tree.addEventListener('click', async e => {
+    const refreshBtn = e.target.closest('.btn-root-refresh');
+    if (refreshBtn) {
+      e.stopPropagation();
+      const rootIdx = +refreshBtn.dataset.rootIdx;
+      refreshBtn.classList.add('spinning');
+      await refreshWorkspaces(rootIdx);
+      refreshBtn.classList.remove('spinning');
+      return;
+    }
+
     const delBtn = e.target.closest('.btn-root-del');
     if (delBtn) {
       e.stopPropagation();
@@ -21018,6 +21320,10 @@ document.addEventListener('keydown', e => {
     e.preventDefault();
     factoryResetUI();
     alert('รีเซ็ตการแสดงผลและระยะขอบทั้งหมดสู่ค่าเริ่มต้น (Factory Reset) เรียบร้อยแล้ว');
+  } else if (e.altKey && !e.ctrlKey && !e.metaKey && e.key.toLowerCase() === 'r') {
+    // Alt + R: Refresh Workspaces
+    e.preventDefault();
+    refreshWorkspaces();
   }
 });
 
@@ -21127,6 +21433,13 @@ async function initApp() {
     State.filters.types = new Set(ALL_FILTER_TYPES);
   }
   updateFilterChipsUI();
+
+  const savedSort = await Store.get('sort');
+  if (savedSort && (savedSort.by === 'name' || savedSort.by === 'date')) {
+    State.sort.by = savedSort.by;
+    State.sort.order = (savedSort.order === 'desc') ? 'desc' : 'asc';
+  }
+  updateSortButtonsUI();
 
   const rec = await Store.get('workspace');
   if (rec && rec.roots && rec.roots.length) {

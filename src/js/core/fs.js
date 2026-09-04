@@ -1,5 +1,5 @@
 import { State } from './state.js';
-import { cmpNodes } from '../tree/tree-node.js';
+import { cmpNodes, extractDateFromName, getNodeDate } from '../tree/tree-node.js';
 
 const sep = '/';
 
@@ -93,7 +93,8 @@ export async function walkDirectory(dir, base, depth, out, rootIdx) {
   for await (const e of dir.values()) {
     if (e.name.startsWith('.')) continue;
     const path = joinPath(base, e.name);
-    const node = { kind: e.kind, name: e.name, path, handle: e, depth, kids: null, parent: null, rootIdx };
+    const dateFromName = extractDateFromName(e.name);
+    const node = { kind: e.kind, name: e.name, path, handle: e, depth, kids: null, parent: null, rootIdx, dateFromName, mtime: null };
     out.push(node);
     out.byPath.set(path, node);
     if (e.kind === 'directory' && depth < 16) {
@@ -117,7 +118,9 @@ export async function rescanWorkspaces() {
       kids: null,
       parent: null,
       rootIdx: i,
-      isLocked: !!r.isLocked
+      isLocked: !!r.isLocked,
+      dateFromName: extractDateFromName(r.name),
+      mtime: null
     };
     out.push(rootNode);
     out.byPath.set(r.name, rootNode);
@@ -140,7 +143,18 @@ export async function rescanWorkspaces() {
   for (const n of out) {
     if (n.kind === 'directory' || n.kind === 'root') {
       n.kids = out.filter(x => x.parent === n);
-      n.kids.sort(cmpNodes);
+    }
+  }
+  // Bottom-up pass to resolve and cache dates for directories from their children
+  for (let i = out.length - 1; i >= 0; i--) {
+    out[i]._cachedDate = undefined;
+    getNodeDate(out[i]);
+  }
+  const sortBy = (State.sort && State.sort.by) || 'name';
+  const sortOrder = (State.sort && State.sort.order) || 'asc';
+  for (const n of out) {
+    if ((n.kind === 'directory' || n.kind === 'root') && n.kids) {
+      n.kids.sort((a, b) => cmpNodes(a, b, sortBy, sortOrder));
     }
   }
   State.flat = out;
