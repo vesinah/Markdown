@@ -56,6 +56,14 @@ The Desktop Pet Subsystem is structured into clean, modular components under src
 | M2 | 6-Axis AI Personality Engine & Autonomous Social Dynamics | Features 12–18: 6-axis engine, speech, dialogues, multi-pet social, user interactions | M1 | COMPLETED |
 | M3 | Interactive Environment, Draggable Props & Pet Control Bar | Features 19–27: Props, physics, Pet Control Bar dock, drag & drop, navigation | M1, M2 | COMPLETED |
 | M4 | Final Milestone: 100% E2E Test Pass & Adversarial Hardening | Features 28–29: Tiers 1-4 test pass, Tier 5 adversarial testing & hardening | E2E, M1, M2, M3 | COMPLETED |
+| M5 | Cloudflare Pages Cloud Deployment & Research Sync | Production live at https://markmakk.pages.dev/, dual-mode remote reader, 1-click sync script | M4 | COMPLETED |
+
+## Live Deployment Status
+- **Production URL:** [https://markmakk.pages.dev/](https://markmakk.pages.dev/)
+- **Hosting Provider:** Cloudflare Pages (Free Tier)
+- **Deployment Pipeline:** GitHub Commit Webhook (`vesinah/Markdown` branch `master`)
+- **Data Source:** Automated incremental sync from `D:\01_APP\Research\output` to `docs/` & `catalog.json`
+- **1-Click Sync Launcher:** `อัปเดตเอกสาร_และขึ้นคลาวด์.bat` / `sync_and_deploy.bat`
 
 ## Interface Contracts
 

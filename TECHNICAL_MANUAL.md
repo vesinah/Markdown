@@ -226,3 +226,20 @@ graph LR
 > [!NOTE]
 > **8. Responsive Design**
 > มี `@media (max-width: 768px)` ใน `base.css` สำหรับจอเล็ก — Sidebar จะกลายเป็น Full-width Overlay โดยอัตโนมัติ หากเพิ่ม UI Element ใหม่ควรตรวจสอบให้แน่ใจว่าแสดงผลถูกต้องในจอแคบด้วย
+
+---
+
+## 6. สถาปัตยกรรมคลาวด์และการนำขึ้น Cloudflare Pages (Cloud Architecture & Live Deployment)
+
+- **URL ใช้งานจริง (Live Production):** [https://markmakk.pages.dev/](https://markmakk.pages.dev/)
+- **แพลตฟอร์มโฮสติ้ง:** Cloudflare Pages (Free Tier)
+- **ไปป์ไลน์การ Deploy:** เชื่อมต่อ GitHub Webhook อัตโนมัติจาก Repository `vesinah/Markdown` (Branch `master`) เมื่อมีการสั่ง `git push` ระบบ Cloudflare จะทำการบิลด์และเผยแพร่อัตโนมัติภายใน 30–45 วินาที
+- **สถาปัตยกรรม Dual-Mode (Online & Offline):**
+  - **Online Cloud Mode:** เมื่อเปิดผ่านเว็บ (หรือตรวจพบ `docs/catalog.json`) ระบบจะแปลงดัชนีเป็น Virtual Tree Nodes ใน `State.roots[0]` ในชื่อ "คลังงานวิจัย (Research Archive)" และดึงเนื้อหาเอกสารผ่าน Remote HTTP `fetch()` พร้อมฟังก์ชันแปลงลิงก์ `file:///d:/01_APP/Research/output/...` ให้คลิกข้ามเอกสารบนเว็บได้ 100%
+  - **Offline Local Mode:** หากเปิดใช้งานบนเครื่องผ่าน `file:///` หรือต้องการเปิดโฟลเดอร์ส่วนตัว ผู้ใช้ยังคงสามารถคลิกปุ่ม `+` ("เพิ่มโฟลเดอร์") เพื่อเปิดโฟลเดอร์ในเครื่องผ่าน File System Access API ได้ตามปกติ
+- **ระบบซิงค์เอกสาร (Incremental Research Sync):**
+  - ไฟล์สคริปต์: `scripts/sync_research.js`
+  - คัดลอกเอกสารใหม่จาก `D:\01_APP\Research\output` มายัง `docs/` เฉพาะไฟล์ Markdown, ข้อความ และรูปภาพ (จำกัดขนาดไม่เกิน 24MB และเว้น PDF ตามข้อกำหนด)
+  - สร้างไฟล์ดัชนีต้นไม้ `docs/catalog.json`
+  - ชอร์ตคัต 1-Click: `อัปเดตเอกสาร_และขึ้นคลาวด์.bat` สำหรับซิงค์และ `git push` ในคลิกเดียว
+

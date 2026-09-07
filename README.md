@@ -1,6 +1,9 @@
-# MDBrowse — Markdown, PDF & Image Reader
+# MDBrowse (มาร์คมาก) — Markdown, PDF & Image Reader
 
-MDBrowse เป็นโปรแกรมอ่านเอกสาร Markdown (.md), PDF (.pdf) และรูปภาพ (.png, .jpg, .webp, ฯลฯ) แบบออฟไลน์ 100% บน Google Chrome โดยใช้สถาปัตยกรรม Modular Source (`src/`) และคอมไพล์เป็น Standalone Single-File (`MDBrowse.html`)
+> 🌐 **สถานะออนไลน์ (Production Live):** [https://markmakk.pages.dev/](https://markmakk.pages.dev/)  
+> ☁️ **ระบบโฮสติ้ง:** Cloudflare Pages (Free Tier) — เชื่อมต่ออัตโนมัติผ่าน GitHub Commit (`vesinah/Markdown`)  
+> 📚 **คลังข้อมูลเชื่อมโยง:** ซิงค์อัตโนมัติจาก `D:\01_APP\Research\output` พร้อมอ่านได้จากทุกอุปกรณ์ทั่วโลก (สมาร์ตโฟน, แท็บเล็ต, คอมพิวเตอร์)  
+> ⚡ **สถาปัตยกรรม:** Dual-Mode รองรับทั้งการเปิดอ่านออนไลน์บน Cloudflare และการเปิดไฟล์ออฟไลน์ในเครื่อง 100%
 
 ---
 
