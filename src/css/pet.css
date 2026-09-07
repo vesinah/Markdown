@@ -2296,4 +2296,112 @@ html[data-theme="deepblue"] .pet-diary-select option {
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.15), 0 0 8px var(--accent, rgba(249, 115, 22, 0.3));
 }
 
+/* ================= Mobile Desktop Pet Sanctuary & Control Bar (<= 768px) ================= */
+@media (max-width: 768px) {
+  .pet-modal-overlay {
+    padding: 0;
+    align-items: flex-end;
+  }
+
+  .pet-modal-card {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: 100dvh !important;
+    min-height: 100dvh !important;
+    border-radius: 0 !important;
+    border: none !important;
+  }
+
+  .pet-modal-header {
+    padding: calc(12px + env(safe-area-inset-top, 0px)) 16px 12px 16px;
+  }
+
+  .pet-modal-close {
+    width: 36px;
+    height: 36px;
+    font-size: 22px;
+    border-radius: 8px;
+  }
+
+  .pet-modal-tabs {
+    padding: 8px 12px;
+    gap: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .pet-tab-btn {
+    padding: 8px 14px;
+    font-size: 13px;
+    border-radius: 10px;
+    touch-action: manipulation;
+  }
+
+  .pet-modal-body {
+    padding: 14px 14px calc(24px + env(safe-area-inset-bottom, 0px));
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .pet-cards-grid,
+  .pet-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Floating Pet Control Bar Dock on Mobile */
+  .pet-control-bar {
+    position: fixed;
+    bottom: calc(58px + env(safe-area-inset-bottom, 0px));
+    left: 10px;
+    right: 10px;
+    width: auto;
+    max-width: calc(100vw - 20px);
+    z-index: 80;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border);
+  }
+
+  .pet-bar-handle {
+    padding: 6px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .pet-bar-actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 6px 8px;
+    gap: 4px;
+  }
+
+  .pet-bar-btn {
+    flex: 1;
+    padding: 6px 4px;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--bg2);
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+
+  .pet-bar-btn.active {
+    background: var(--accent2);
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .pet-control-bar.collapsed .pet-bar-actions {
+    display: none;
+  }
+}
+
 

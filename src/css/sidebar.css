@@ -46,6 +46,12 @@ body.sb-closed #sb-resizer {
   user-select: none;
 }
 
+.sb-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .sb-btn-add {
   display: inline-flex;
   align-items: center;
@@ -63,11 +69,36 @@ body.sb-closed #sb-resizer {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
   transition: background-color .15s ease, border-color .15s ease, transform .15s ease;
   user-select: none;
+  touch-action: manipulation;
 }
 .sb-btn-add:hover {
   background: #0858b9;
   border-color: #0858b9;
   transform: scale(1.05);
+}
+
+.sb-btn-close {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text2);
+  font-size: 19px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+  transition: all .15s ease;
+  user-select: none;
+  touch-action: manipulation;
+}
+.sb-btn-close:hover {
+  background: var(--bg3);
+  color: var(--text);
+  border-color: var(--text3);
 }
 
 .sb-search-box {
@@ -827,4 +858,124 @@ body.sb-closed #sb-resizer {
   font-weight: 600;
   padding: 0 2px;
   border-radius: 2px;
+}
+
+/* ================= Mobile Sidebar Ergonomics (<= 768px) ================= */
+@media (max-width: 768px) {
+  .sb-btn-close {
+    display: inline-flex;
+  }
+
+  .sb-header {
+    height: 50px;
+    padding: 0 14px;
+  }
+
+  .brand {
+    font-size: 15.5px;
+  }
+
+  .sb-btn-add,
+  .sb-btn-close {
+    width: 32px;
+    height: 32px;
+  }
+
+  .sb-search-box {
+    padding: 10px 14px;
+    gap: 8px;
+  }
+
+  /* 16px font-size prevents iOS Safari automatic zoom on focus */
+  .sb-search-input {
+    font-size: 16px;
+    padding: 8px 36px 8px 12px;
+    border-radius: 8px;
+    height: 38px;
+  }
+
+  .sb-filter-toggle-btn {
+    width: 28px;
+    height: 28px;
+    right: 5px;
+  }
+
+  .sb-search-opts {
+    font-size: 13px;
+    min-height: 28px;
+  }
+
+  .sb-tool-btn,
+  .sb-refresh-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+  }
+
+  .filter-chip {
+    padding: 6px 10px;
+    font-size: 12.5px;
+    border-radius: 6px;
+  }
+
+  /* Mobile Tree Navigation - Ergonomic Touch Targets */
+  .sb-tree {
+    padding: 8px 0 calc(24px + env(safe-area-inset-bottom, 0px));
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .node-row {
+    padding: 8px 12px;
+    font-size: 14px;
+    min-height: 38px;
+    gap: 8px;
+    margin: 2px 8px;
+    border-radius: 8px;
+    touch-action: manipulation;
+  }
+
+  .node-row .twisty {
+    width: 22px;
+    height: 22px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+  }
+
+  .node-row .ico {
+    width: 17px;
+    height: 17px;
+    flex: none;
+  }
+
+  .node-row .nm {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .node-row.node-root {
+    padding: 8px 12px;
+    margin: 4px 8px;
+    border-radius: 8px;
+  }
+
+  .btn-root-refresh,
+  .btn-root-del {
+    width: 28px;
+    height: 28px;
+    font-size: 15px;
+  }
+
+  .sb-footer {
+    padding: 10px 14px calc(14px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .sb-action-btn {
+    padding: 8px 12px;
+    font-size: 12.5px;
+    min-height: 36px;
+    border-radius: 7px;
+  }
 }

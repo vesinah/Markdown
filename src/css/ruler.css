@@ -128,3 +128,10 @@ body.dragging-ruler .margin-guide {
   opacity: 0.85;
   border-left: 2px solid var(--accent);
 }
+
+@media (max-width: 768px) {
+  #md-ruler-bar,
+  .margin-guide {
+    display: none !important;
+  }
+}

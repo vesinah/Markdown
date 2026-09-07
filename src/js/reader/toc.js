@@ -140,6 +140,10 @@ export function buildToc(contentEl, tocPanel, tocList) {
       const pane = contentEl.closest('.md-scroll-pane') || document.getElementById('md-scroll-pane') || contentEl;
       const targetTop = h.getBoundingClientRect().top - pane.getBoundingClientRect().top + pane.scrollTop - 20;
       pane.scrollTo({ top: Math.max(0, targetTop), behavior: 'smooth' });
+
+      if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+        document.body.classList.remove('toc-mobile-open');
+      }
     }
   };
 

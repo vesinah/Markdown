@@ -37,7 +37,9 @@ const D = {};
  'btn-theme-toggle', 'theme-tools-wrap', 'theme-tools-content', 'btn-menubar-pet',
  'btn-doc-info', 'doc-info-popover', 'doc-info-ext', 'doc-info-name', 'doc-info-type',
  'doc-info-path', 'doc-stat-words', 'doc-stat-chars', 'doc-stat-size', 'doc-stat-lines',
- 'btn-copy-path', 'doc-info-wrap', 'sb-loading', 'sb-loading-text', 'bm-panel', 'btn-bm-toggle', 'reading-progress-bar']
+ 'btn-copy-path', 'doc-info-wrap', 'sb-loading', 'sb-loading-text', 'bm-panel', 'btn-bm-toggle', 'reading-progress-bar',
+ 'btn-sb-close', 'btn-mobile-toc', 'btn-toc-mobile-close', 'mb-doc-title', 'mobile-backdrop', 'mobile-bottom-bar',
+ 'mbb-files', 'mbb-toc', 'mbb-theme', 'mbb-bm', 'mbb-pet', 'mbb-top']
 .forEach(id => D[id.replace(/-(\w)/g, (_, c) => c.toUpperCase())] = document.getElementById(id));
 
 function showLoading(msg) {
@@ -575,7 +577,160 @@ if (D.tree) {
       return;
     }
     openFile(node);
+    if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+      closeAllMobileDrawers();
+    }
   });
+}
+
+export function updateMobileBottomBarActiveStates() {
+  if (!D.mobileBottomBar) return;
+  const isSbOpen = !document.body.classList.contains('sb-closed');
+  const isTocOpen = document.body.classList.contains('toc-mobile-open');
+  const isBmOpen = document.body.classList.contains('bm-open');
+  const isThemeOpen = D.themeToolsWrap && D.themeToolsWrap.classList.contains('open');
+
+  if (D.mbbFiles) D.mbbFiles.classList.toggle('active', isSbOpen);
+  if (D.mbbToc) D.mbbToc.classList.toggle('active', isTocOpen);
+  if (D.mbbBm) D.mbbBm.classList.toggle('active', isBmOpen);
+  if (D.mbbTheme) D.mbbTheme.classList.toggle('active', isThemeOpen);
+}
+
+export function closeAllMobileDrawers() {
+  document.body.classList.add('sb-closed');
+  document.body.classList.remove('toc-mobile-open');
+  document.body.classList.remove('bm-open');
+  if (D.themeToolsWrap) D.themeToolsWrap.classList.remove('open');
+  if (D.btnThemeToggle) D.btnThemeToggle.classList.remove('active');
+  if (D.docInfoPopover) D.docInfoPopover.hidden = true;
+  MenubarController.updateSbToggleUI();
+  updateMobileBottomBarActiveStates();
+}
+
+export function toggleMobileToc(force) {
+  const isCurrentlyOpen = document.body.classList.contains('toc-mobile-open');
+  const show = (typeof force === 'boolean') ? force : !isCurrentlyOpen;
+  document.body.classList.toggle('toc-mobile-open', show);
+  if (show) {
+    document.body.classList.add('sb-closed');
+    document.body.classList.remove('bm-open');
+    if (D.themeToolsWrap) D.themeToolsWrap.classList.remove('open');
+    if (D.btnThemeToggle) D.btnThemeToggle.classList.remove('active');
+    if (D.docInfoPopover) D.docInfoPopover.hidden = true;
+  }
+  MenubarController.updateSbToggleUI();
+  updateMobileBottomBarActiveStates();
+}
+
+if (D.btnSbClose) {
+  D.btnSbClose.addEventListener('click', () => {
+    document.body.classList.add('sb-closed');
+    MenubarController.updateSbToggleUI();
+    updateMobileBottomBarActiveStates();
+    saveUi();
+  });
+}
+
+if (D.btnMobileToc) {
+  D.btnMobileToc.addEventListener('click', (e) => {
+    e.stopPropagation();
+    toggleMobileToc();
+  });
+}
+
+if (D.btnTocMobileClose) {
+  D.btnTocMobileClose.addEventListener('click', (e) => {
+    e.stopPropagation();
+    toggleMobileToc(false);
+  });
+}
+
+if (D.mobileBackdrop) {
+  D.mobileBackdrop.addEventListener('click', () => {
+    closeAllMobileDrawers();
+    saveUi();
+  });
+}
+
+if (D.mbbFiles) {
+  D.mbbFiles.addEventListener('click', () => {
+    const isClosed = document.body.classList.contains('sb-closed');
+    if (isClosed) {
+      closeAllMobileDrawers();
+      document.body.classList.remove('sb-closed');
+    } else {
+      document.body.classList.add('sb-closed');
+    }
+    MenubarController.updateSbToggleUI();
+    updateMobileBottomBarActiveStates();
+    saveUi();
+  });
+}
+
+if (D.mbbToc) {
+  D.mbbToc.addEventListener('click', () => {
+    toggleMobileToc();
+  });
+}
+
+if (D.mbbTheme) {
+  D.mbbTheme.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isOpen = D.themeToolsWrap && D.themeToolsWrap.classList.contains('open');
+    if (isOpen) {
+      D.themeToolsWrap.classList.remove('open');
+      if (D.btnThemeToggle) D.btnThemeToggle.classList.remove('active');
+    } else {
+      closeAllMobileDrawers();
+      if (D.themeToolsWrap) D.themeToolsWrap.classList.add('open');
+      if (D.btnThemeToggle) D.btnThemeToggle.classList.add('active');
+    }
+    updateMobileBottomBarActiveStates();
+  });
+}
+
+if (D.mbbBm) {
+  D.mbbBm.addEventListener('click', () => {
+    const isOpen = document.body.classList.contains('bm-open');
+    if (isOpen) {
+      toggleBookmarkPanel(false);
+    } else {
+      closeAllMobileDrawers();
+      toggleBookmarkPanel(true);
+    }
+    updateMobileBottomBarActiveStates();
+  });
+}
+
+if (D.mbbPet) {
+  D.mbbPet.addEventListener('click', () => {
+    closeAllMobileDrawers();
+    if (PetManager && PetManager.openManagementModal) {
+      PetManager.openManagementModal();
+    }
+  });
+}
+
+if (D.mbbTop) {
+  D.mbbTop.addEventListener('click', () => {
+    if (D.mdScrollPane) {
+      D.mdScrollPane.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  });
+}
+
+if (D.mdScrollPane) {
+  let lastScrollTop = 0;
+  D.mdScrollPane.addEventListener('scroll', () => {
+    if (typeof window === 'undefined' || window.innerWidth > 768 || !D.mobileBottomBar) return;
+    const st = D.mdScrollPane.scrollTop;
+    if (st > lastScrollTop && st > 60) {
+      D.mobileBottomBar.classList.add('hide-bar');
+    } else {
+      D.mobileBottomBar.classList.remove('hide-bar');
+    }
+    lastScrollTop = st;
+  }, { passive: true });
 }
 
 if (D.tocHeader) {
@@ -724,11 +879,18 @@ export async function initApp() {
     }
     if (typeof ui.tocMini === 'boolean') State.ui.tocMini = ui.tocMini;
     if (typeof ui.bmOpen === 'boolean' && ui.bmOpen) toggleBookmarkPanel(true);
+  } else {
+    // If first visit on mobile, default sidebar to closed so document is immediately visible
+    if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+      document.body.classList.add('sb-closed');
+      State.ui.sbClosed = true;
+    }
   }
   applyTheme(D.txColor);
   RulerModule.setMargins(State.ui.padLeft, State.ui.padRight, false);
   toggleTocMini(!!State.ui.tocMini);
   MenubarController.updateSbToggleUI();
+  updateMobileBottomBarActiveStates();
 
   // Desktop Pets Integration
   PetManager.init();

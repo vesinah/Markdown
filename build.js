@@ -151,7 +151,7 @@ const htmlTemplate = `<!DOCTYPE html>
 <html lang="th" data-theme="light">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
@@ -169,8 +169,12 @@ ${faviconData ? `<link rel="icon" type="image/png" href="${faviconData}">` : ''}
 <style>
 ${combinedCss}
 </style>
-</head>
 <body>
+<script>
+if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+  document.body.classList.add('sb-closed');
+}
+</script>
 <div id="app">
   <!-- Sidebar -->
   <aside id="sidebar">
@@ -179,7 +183,10 @@ ${combinedCss}
         <img src="${faviconData}" width="22" height="22" alt="มาร์คมาก" style="vertical-align:middle;display:inline-block">
         มาร์คมาก
       </span>
-      <button id="btn-add" class="sb-btn-add" title="เพิ่มโฟลเดอร์สำหรับอ่าน" aria-label="เพิ่มโฟลเดอร์">+</button>
+      <div class="sb-header-actions">
+        <button id="btn-add" class="sb-btn-add" title="เพิ่มโฟลเดอร์สำหรับอ่าน" aria-label="เพิ่มโฟลเดอร์">+</button>
+        <button type="button" id="btn-sb-close" class="sb-btn-close" title="ปิดแถบรายการไฟล์" aria-label="ปิดแถบรายการไฟล์">&times;</button>
+      </div>
     </div>
 
     <div class="sb-search-box">
@@ -312,7 +319,15 @@ ${combinedCss}
         </button>
       </div>
 
+      <!-- Mobile Document Title (Compact & Truncated) -->
+      <div class="mb-doc-title-wrap" id="mb-doc-title-wrap">
+        <span class="mb-doc-title" id="mb-doc-title" title="มาร์คมาก">มาร์คมาก</span>
+      </div>
+
       <div class="mb-right-tools">
+        <!-- Mobile Quick TOC Button -->
+        <button type="button" id="btn-mobile-toc" class="doc-info-btn mb-mobile-only" title="สารบัญเนื้อหา (Table of Contents)" aria-label="สารบัญเนื้อหา">📑</button>
+
         <!-- Segmented Badge Island Theme Tools (Collapsible) -->
         <div class="theme-tools-wrap" id="theme-tools-wrap">
           <div class="theme-tools-content" id="theme-tools-content">
@@ -417,9 +432,12 @@ ${combinedCss}
         <div id="toc-panel">
           <div id="toc-header" title="คลิกเพื่อย่อสารบัญ (Alt+T)">
             <span class="toc-title">สารบัญ</span>
-            <button id="btn-toc-collapse" class="toc-collapse-btn" title="ย่อสารบัญเป็นแถบแคบ (Alt+T)">
-              <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path fill-rule="evenodd" d="M9.78 12.78a.75.75 0 0 1-1.06 0L4.47 8.53a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 1.06L6.06 8l3.72 3.72a.75.75 0 0 1 0 1.06Z"/></svg>
-            </button>
+            <div class="toc-header-actions">
+              <button id="btn-toc-collapse" class="toc-collapse-btn" title="ย่อสารบัญเป็นแถบแคบ (Alt+T)">
+                <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path fill-rule="evenodd" d="M9.78 12.78a.75.75 0 0 1-1.06 0L4.47 8.53a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 1.06L6.06 8l3.72 3.72a.75.75 0 0 1 0 1.06Z"/></svg>
+              </button>
+              <button type="button" id="btn-toc-mobile-close" class="toc-mobile-close-btn" title="ปิดสารบัญ" aria-label="ปิดสารบัญ">&times;</button>
+            </div>
           </div>
           <div id="toc-full-view">
             <div id="toc-list"></div>
@@ -485,6 +503,37 @@ ${combinedCss}
       <aside id="bm-panel" hidden></aside>
     </div>
   </main>
+
+  <!-- Mobile Backdrop for overlay drawers (Sidebar, TOC, Bookmarks) -->
+  <div id="mobile-backdrop" class="mobile-backdrop"></div>
+
+  <!-- Mobile Bottom Navigation Bar (Glassmorphism Thumb Zone Dock) -->
+  <nav id="mobile-bottom-bar" class="mobile-bottom-bar">
+    <button type="button" class="mbb-item" id="mbb-files" title="รายการไฟล์" aria-label="รายการไฟล์">
+      <span class="mbb-icon">📁</span>
+      <span class="mbb-label">ไฟล์</span>
+    </button>
+    <button type="button" class="mbb-item" id="mbb-toc" title="สารบัญ" aria-label="สารบัญ">
+      <span class="mbb-icon">📑</span>
+      <span class="mbb-label">สารบัญ</span>
+    </button>
+    <button type="button" class="mbb-item" id="mbb-theme" title="ธีมและตัวอักษร" aria-label="ธีมและตัวอักษร">
+      <span class="mbb-icon">Aa</span>
+      <span class="mbb-label">ธีม/อักษร</span>
+    </button>
+    <button type="button" class="mbb-item" id="mbb-bm" title="บุ๊คมาร์คและโน้ต" aria-label="บุ๊คมาร์คและโน้ต">
+      <span class="mbb-icon">🔖</span>
+      <span class="mbb-label">บุ๊คมาร์ค</span>
+    </button>
+    <button type="button" class="mbb-item" id="mbb-pet" title="สัตว์เลี้ยงหน้าจอ" aria-label="สัตว์เลี้ยงหน้าจอ">
+      <span class="mbb-icon">🐾</span>
+      <span class="mbb-label">บ้านแมว</span>
+    </button>
+    <button type="button" class="mbb-item mbb-top-btn" id="mbb-top" title="เลื่อนขึ้นบนสุด" aria-label="เลื่อนขึ้นบนสุด">
+      <span class="mbb-icon">⬆️</span>
+      <span class="mbb-label">บนสุด</span>
+    </button>
+  </nav>
 </div>
 
 <script>

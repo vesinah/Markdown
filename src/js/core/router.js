@@ -54,6 +54,15 @@ export const ViewRouter = {
       State.current = node;
       renderTreeCallback();
       if (_routerD && _routerD.fileCrumb) _routerD.fileCrumb.textContent = node.path;
+      if (_routerD && _routerD.mbDocTitle) {
+        _routerD.mbDocTitle.textContent = node.name;
+        _routerD.mbDocTitle.title = node.name;
+      }
+      if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+        document.body.classList.add('sb-closed');
+        document.body.classList.remove('toc-mobile-open');
+        document.body.classList.remove('bm-open');
+      }
 
       let fileText = '';
       let fileObj = null;
@@ -141,6 +150,10 @@ export const ViewRouter = {
   closeCurrentFile() {
     State.current = null;
     this.switchView('empty');
+    if (_routerD && _routerD.mbDocTitle) {
+      _routerD.mbDocTitle.textContent = 'มาร์คมาก';
+      _routerD.mbDocTitle.title = 'มาร์คมาก';
+    }
     updateStatCallback(null);
     Store.set('lastFile', '');
     State.emit('file:close');

@@ -386,3 +386,55 @@ mark.bm-hl.flash {
 [data-theme="charcoal"] #bm-composer {
   box-shadow: 0 4px 20px rgba(0, 0, 0, .5);
 }
+
+/* ================= Mobile Bookmark Drawer (<= 768px) ================= */
+@media (max-width: 768px) {
+  #bm-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: min(340px, 88vw) !important;
+    height: 100dvh;
+    z-index: 120;
+    box-shadow: -6px 0 32px rgba(0, 0, 0, 0.28);
+    transform: translateX(100%);
+    transition: transform 0.26s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  body.bm-open #bm-panel {
+    transform: translateX(0);
+    display: flex !important;
+  }
+  .bm-header {
+    height: 50px;
+    padding: 0 14px;
+  }
+  .bm-close-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+  }
+  .bm-tab {
+    padding: 10px 6px;
+    font-size: 13px;
+    min-height: 40px;
+  }
+  .bm-body {
+    padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+    -webkit-overflow-scrolling: touch;
+  }
+  .bm-item {
+    padding: 10px 12px;
+  }
+  #bm-composer {
+    left: 12px !important;
+    right: 12px !important;
+    width: auto !important;
+    max-width: 400px;
+    margin: 0 auto;
+    bottom: calc(64px + env(safe-area-inset-bottom, 0px)) !important;
+    top: auto !important;
+  }
+}

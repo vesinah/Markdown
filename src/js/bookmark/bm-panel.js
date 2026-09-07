@@ -51,6 +51,9 @@ export const BookmarkPanel = {
             item.classList.add('flash');
             setTimeout(() => item.classList.remove('flash'), 1200);
           }
+          if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+            toggleBookmarkPanel(false);
+          }
         }
       }
     });

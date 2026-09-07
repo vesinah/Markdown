@@ -2,7 +2,7 @@
 <html lang="th" data-theme="light">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
@@ -81,19 +81,24 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  height: 100dvh;
   width: 100%;
+  width: 100dvw;
   overflow: hidden;
   font-family: var(--font-base);
   font-size: calc(15px * var(--fscale, 1));
   color: var(--tx, var(--text));
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
 }
 
 #app {
   display: flex;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  height: 100dvh;
+  width: 100%;
+  width: 100dvw;
   overflow: hidden;
   position: relative;
 }
@@ -128,6 +133,7 @@ html, body {
   color: var(--text);
   transition: background-color .15s ease, border-color .15s ease, color .15s ease;
   user-select: none;
+  touch-action: manipulation;
 }
 .btn:hover {
   background: var(--bg2);
@@ -158,20 +164,69 @@ body.resizing iframe, body.resizing canvas, body.dragging-ruler iframe, body.dra
   pointer-events: none !important;
 }
 
-/* ================= Responsive ================= */
+/* Visibility helpers across screen sizes */
+.mb-mobile-only {
+  display: none !important;
+}
+
+.mobile-backdrop {
+  display: none;
+}
+
+/* ================= Responsive Layout (Smartphones & Tablets <= 768px) ================= */
 @media (max-width: 768px) {
-  body:not(.sb-closed) {
-    --sbw: 100vw;
+  :root {
+    --md-pad-left: 16px !important;
+    --md-pad-right: 16px !important;
+    --sbw: min(340px, 86vw) !important;
   }
+
+  .mb-mobile-only {
+    display: inline-flex !important;
+  }
+
+  /* Universal Darkened Backdrop for Mobile Drawers */
+  .mobile-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    z-index: 95;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.26s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  body:not(.sb-closed) .mobile-backdrop,
+  body.toc-mobile-open .mobile-backdrop,
+  body.bm-open .mobile-backdrop {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
   #sidebar {
     position: fixed;
     top: 0;
+    bottom: 0;
     left: 0;
-    height: 100vh;
+    height: 100dvh;
+    width: var(--sbw, min(340px, 86vw));
+    max-width: 88vw;
     z-index: 100;
+    box-shadow: 6px 0 32px rgba(0, 0, 0, 0.28);
   }
+
   body.sb-closed #sidebar {
     pointer-events: none;
+    box-shadow: none;
+  }
+
+  /* Disable sidebar resizer on mobile */
+  #sb-resizer {
+    display: none !important;
+    pointer-events: none !important;
   }
 }
 
@@ -603,6 +658,12 @@ body.sb-closed #sb-resizer {
   user-select: none;
 }
 
+.sb-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .sb-btn-add {
   display: inline-flex;
   align-items: center;
@@ -620,11 +681,36 @@ body.sb-closed #sb-resizer {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
   transition: background-color .15s ease, border-color .15s ease, transform .15s ease;
   user-select: none;
+  touch-action: manipulation;
 }
 .sb-btn-add:hover {
   background: #0858b9;
   border-color: #0858b9;
   transform: scale(1.05);
+}
+
+.sb-btn-close {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text2);
+  font-size: 19px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+  transition: all .15s ease;
+  user-select: none;
+  touch-action: manipulation;
+}
+.sb-btn-close:hover {
+  background: var(--bg3);
+  color: var(--text);
+  border-color: var(--text3);
 }
 
 .sb-search-box {
@@ -1386,6 +1472,126 @@ body.sb-closed #sb-resizer {
   border-radius: 2px;
 }
 
+/* ================= Mobile Sidebar Ergonomics (<= 768px) ================= */
+@media (max-width: 768px) {
+  .sb-btn-close {
+    display: inline-flex;
+  }
+
+  .sb-header {
+    height: 50px;
+    padding: 0 14px;
+  }
+
+  .brand {
+    font-size: 15.5px;
+  }
+
+  .sb-btn-add,
+  .sb-btn-close {
+    width: 32px;
+    height: 32px;
+  }
+
+  .sb-search-box {
+    padding: 10px 14px;
+    gap: 8px;
+  }
+
+  /* 16px font-size prevents iOS Safari automatic zoom on focus */
+  .sb-search-input {
+    font-size: 16px;
+    padding: 8px 36px 8px 12px;
+    border-radius: 8px;
+    height: 38px;
+  }
+
+  .sb-filter-toggle-btn {
+    width: 28px;
+    height: 28px;
+    right: 5px;
+  }
+
+  .sb-search-opts {
+    font-size: 13px;
+    min-height: 28px;
+  }
+
+  .sb-tool-btn,
+  .sb-refresh-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+  }
+
+  .filter-chip {
+    padding: 6px 10px;
+    font-size: 12.5px;
+    border-radius: 6px;
+  }
+
+  /* Mobile Tree Navigation - Ergonomic Touch Targets */
+  .sb-tree {
+    padding: 8px 0 calc(24px + env(safe-area-inset-bottom, 0px));
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .node-row {
+    padding: 8px 12px;
+    font-size: 14px;
+    min-height: 38px;
+    gap: 8px;
+    margin: 2px 8px;
+    border-radius: 8px;
+    touch-action: manipulation;
+  }
+
+  .node-row .twisty {
+    width: 22px;
+    height: 22px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+  }
+
+  .node-row .ico {
+    width: 17px;
+    height: 17px;
+    flex: none;
+  }
+
+  .node-row .nm {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .node-row.node-root {
+    padding: 8px 12px;
+    margin: 4px 8px;
+    border-radius: 8px;
+  }
+
+  .btn-root-refresh,
+  .btn-root-del {
+    width: 28px;
+    height: 28px;
+    font-size: 15px;
+  }
+
+  .sb-footer {
+    padding: 10px 14px calc(14px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .sb-action-btn {
+    padding: 8px 12px;
+    font-size: 12.5px;
+    min-height: 36px;
+    border-radius: 7px;
+  }
+}
+
 
 /* ================= Reader Layout & Toolbar ================= */
 #main {
@@ -1516,6 +1722,24 @@ body.zen-mode #main {
 
 .file-crumb {
   display: none;
+}
+
+.mb-doc-title-wrap {
+  display: none;
+  align-items: center;
+  min-width: 0;
+  flex: 1;
+  margin: 0 6px;
+  overflow: hidden;
+}
+.mb-doc-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
 }
 
 /* ================= Right Tools & Theme Widget (Segmented Badge Island) ================= */
@@ -2337,6 +2561,350 @@ body.sb-closed .toc-rail-logo {
   padding: 0 !important;
 }
 
+/* ================= Mobile Reader, Menubar & Navigation (<= 768px) ================= */
+@media (max-width: 768px) {
+  .menubar {
+    height: calc(48px + env(safe-area-inset-top, 0px));
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-right: 8px;
+    padding-left: 4px;
+    gap: 4px;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background: var(--bg2) !important;
+    z-index: 120 !important;
+  }
+
+  .mb-sb-slot {
+    width: 38px;
+  }
+
+  #sb-toggle {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+  }
+
+  .mb-doc-title-wrap {
+    display: flex;
+  }
+
+  .mb-right-tools {
+    gap: 4px;
+  }
+
+  .doc-info-btn {
+    width: 34px;
+    height: 34px;
+    font-size: 14px;
+  }
+
+  .theme-toggle-btn {
+    height: 34px;
+    padding: 0 10px;
+    border-radius: 8px;
+  }
+
+  /* Theme Tools Modal Bottom Sheet on Mobile */
+  .theme-tools-content {
+    display: none !important;
+  }
+
+  .theme-tools-wrap.open .theme-tools-content {
+    display: flex !important;
+    position: fixed !important;
+    top: auto !important;
+    bottom: calc(58px + env(safe-area-inset-bottom, 0px)) !important;
+    left: 12px !important;
+    right: 12px !important;
+    width: auto !important;
+    max-width: calc(100vw - 24px) !important;
+    box-sizing: border-box !important;
+    white-space: normal !important;
+    background: var(--bg) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 18px !important;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3) !important;
+    padding: 12px !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 10px !important;
+    z-index: 150 !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    transform: none !important;
+    margin-right: 0 !important;
+    transition: none !important;
+    animation: themeSheetUp 0.22s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  }
+
+  @keyframes themeSheetUp {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .theme-segment {
+    display: flex !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    height: auto !important;
+    padding: 8px !important;
+    border-radius: 12px !important;
+    white-space: normal !important;
+  }
+
+  .theme-swatch-segment {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    padding: 8px 4px !important;
+  }
+
+  .mb-swatch {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    flex: none !important;
+  }
+
+  .theme-font-segment {
+    display: flex !important;
+    justify-content: space-between !important;
+    gap: 8px !important;
+    padding: 4px !important;
+    height: 42px !important;
+  }
+
+  .theme-seg-btn {
+    flex: 1 !important;
+    height: 34px !important;
+    font-size: 14px !important;
+    border-radius: 8px !important;
+  }
+
+  .theme-color-segment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 42px;
+    padding: 4px 10px;
+  }
+
+  #tx-color {
+    width: 32px;
+    height: 32px;
+  }
+
+  .theme-btn-reset {
+    height: 32px;
+    padding: 0 14px;
+    font-size: 13px;
+  }
+
+  /* File Info Popover Responsive on Mobile */
+  .doc-info-popover {
+    position: fixed;
+    top: auto;
+    bottom: calc(58px + env(safe-area-inset-bottom, 0px));
+    left: 12px;
+    right: 12px;
+    width: auto;
+    max-width: 440px;
+    margin: 0 auto;
+    border-radius: 18px;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3);
+    z-index: 150;
+    animation: themeSheetUp 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  /* Mobile Table of Contents (TOC) Overlay Drawer */
+  #toc-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    width: min(340px, 86vw) !important;
+    height: 100dvh;
+    z-index: 115;
+    background: var(--bg);
+    border-left: 1px solid var(--border2);
+    border-right: none;
+    transform: translateX(100%);
+    transition: transform 0.26s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: -6px 0 32px rgba(0, 0, 0, 0.25);
+    display: flex !important;
+  }
+
+  body.toc-mobile-open #toc-panel {
+    transform: translateX(0);
+  }
+
+  #toc-header {
+    height: 50px;
+    padding: 0 14px;
+  }
+
+  .toc-title {
+    font-size: 13px;
+    letter-spacing: .04em;
+  }
+
+  .toc-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .toc-collapse-btn {
+    display: none !important;
+  }
+
+  .toc-mobile-close-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text2);
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+
+  #toc-mini-rail {
+    display: none !important;
+  }
+
+  #toc-full-view {
+    display: block !important;
+    padding: 12px 10px calc(48px + env(safe-area-inset-bottom, 0px));
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #toc-full-view a {
+    padding: 10px 12px;
+    font-size: 14px;
+    min-height: 38px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    line-height: 1.4;
+    touch-action: manipulation;
+  }
+
+  /* Reading scroll container padding on mobile */
+  .md-scroll-pane {
+    padding-bottom: calc(56px + env(safe-area-inset-bottom, 0px));
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Empty State Responsive Card */
+  .empty-card {
+    padding: 20px 16px;
+    max-width: 90vw;
+  }
+  .empty-card h1 {
+    font-size: 22px;
+  }
+  .empty-card p {
+    font-size: 14px;
+  }
+  .empty-card .btn.primary {
+    width: 100%;
+    justify-content: center;
+    height: 44px;
+    font-size: 15px;
+  }
+}
+
+/* ================= Mobile Bottom Navigation Bar (Glassmorphism Thumb Dock) ================= */
+.mobile-bottom-bar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-bottom-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(54px + env(safe-area-inset-bottom, 0px));
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    background: color-mix(in srgb, var(--bg2) 88%, transparent);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border-top: 1px solid color-mix(in srgb, var(--border) 65%, transparent);
+    z-index: 85;
+    box-shadow: 0 -2px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.22s ease;
+  }
+
+  .mobile-bottom-bar.hide-bar {
+    transform: translateY(100%);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .mbb-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    height: 100%;
+    border: none;
+    background: transparent;
+    color: var(--text2);
+    font-family: var(--font-ui);
+    font-size: 10.5px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 4px 2px;
+    transition: color .15s ease, transform .12s ease;
+    user-select: none;
+    touch-action: manipulation;
+  }
+
+  .mbb-item:active {
+    transform: scale(0.92);
+    color: var(--accent);
+  }
+
+  .mbb-item.active {
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .mbb-icon {
+    font-size: 18px;
+    line-height: 1.2;
+    display: block;
+  }
+
+  .mbb-label {
+    letter-spacing: -0.2px;
+    white-space: nowrap;
+  }
+}
+
 
 /* ================= Interactive Ruler & Margin Guides ================= */
 .md-reader-container {
@@ -2467,6 +3035,13 @@ body.dragging-ruler .md-ruler-bar {
 body.dragging-ruler .margin-guide {
   opacity: 0.85;
   border-left: 2px solid var(--accent);
+}
+
+@media (max-width: 768px) {
+  #md-ruler-bar,
+  .margin-guide {
+    display: none !important;
+  }
 }
 
 
@@ -2905,6 +3480,94 @@ body.dragging-ruler .margin-guide {
   background: #1a7f37;
   color: #fff;
   border-color: #1a7f37;
+}
+
+/* ================= Mobile Markdown Typography & Tables (<= 768px) ================= */
+@media (max-width: 768px) {
+  .markdown-body {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    padding-top: 18px;
+    padding-bottom: calc(84px + env(safe-area-inset-bottom, 0px));
+    line-height: 1.72;
+    font-size: calc(15px * var(--fscale, 1));
+  }
+
+  .markdown-body h1 {
+    font-size: 1.65em;
+    margin-top: 22px;
+    margin-bottom: 12px;
+    line-height: 1.3;
+  }
+  .markdown-body h2 {
+    font-size: 1.38em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+  .markdown-body h3 {
+    font-size: 1.2em;
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+  .markdown-body h4 {
+    font-size: 1.08em;
+  }
+
+  /* Prevent table overflow blowout on narrow smartphone screens */
+  .markdown-body table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: normal;
+  }
+  .markdown-body table th,
+  .markdown-body table td {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  /* Smooth touch scrolling for code blocks */
+  .markdown-body pre {
+    padding: 12px 14px;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 8px;
+  }
+
+  .code-pre-bar {
+    padding: 6px 10px;
+  }
+  .btn-code-copy {
+    padding: 4px 10px;
+    min-height: 28px;
+    font-size: 12px;
+    touch-action: manipulation;
+  }
+
+  /* Smooth horizontal scroll for long KaTeX math equations */
+  .katex-display {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100%;
+    padding: 4px 0;
+  }
+
+  /* Comfortable touch targets for footnotes */
+  .fn-ref a {
+    display: inline-block;
+    padding: 2px 6px;
+    min-width: 22px;
+    text-align: center;
+    touch-action: manipulation;
+  }
+
+  .markdown-callout {
+    padding: 10px 12px;
+    margin: 14px 0;
+    font-size: 13.5px;
+  }
 }
 
 
@@ -5286,6 +5949,114 @@ html[data-theme="deepblue"] .pet-diary-select option {
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.15), 0 0 8px var(--accent, rgba(249, 115, 22, 0.3));
 }
 
+/* ================= Mobile Desktop Pet Sanctuary & Control Bar (<= 768px) ================= */
+@media (max-width: 768px) {
+  .pet-modal-overlay {
+    padding: 0;
+    align-items: flex-end;
+  }
+
+  .pet-modal-card {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: 100dvh !important;
+    min-height: 100dvh !important;
+    border-radius: 0 !important;
+    border: none !important;
+  }
+
+  .pet-modal-header {
+    padding: calc(12px + env(safe-area-inset-top, 0px)) 16px 12px 16px;
+  }
+
+  .pet-modal-close {
+    width: 36px;
+    height: 36px;
+    font-size: 22px;
+    border-radius: 8px;
+  }
+
+  .pet-modal-tabs {
+    padding: 8px 12px;
+    gap: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .pet-tab-btn {
+    padding: 8px 14px;
+    font-size: 13px;
+    border-radius: 10px;
+    touch-action: manipulation;
+  }
+
+  .pet-modal-body {
+    padding: 14px 14px calc(24px + env(safe-area-inset-bottom, 0px));
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .pet-cards-grid,
+  .pet-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Floating Pet Control Bar Dock on Mobile */
+  .pet-control-bar {
+    position: fixed;
+    bottom: calc(58px + env(safe-area-inset-bottom, 0px));
+    left: 10px;
+    right: 10px;
+    width: auto;
+    max-width: calc(100vw - 20px);
+    z-index: 80;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border);
+  }
+
+  .pet-bar-handle {
+    padding: 6px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .pet-bar-actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 6px 8px;
+    gap: 4px;
+  }
+
+  .pet-bar-btn {
+    flex: 1;
+    padding: 6px 4px;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--bg2);
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+
+  .pet-bar-btn.active {
+    background: var(--accent2);
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .pet-control-bar.collapsed .pet-bar-actions {
+    display: none;
+  }
+}
+
 
 
 
@@ -5678,9 +6449,65 @@ mark.bm-hl.flash {
   box-shadow: 0 4px 20px rgba(0, 0, 0, .5);
 }
 
+/* ================= Mobile Bookmark Drawer (<= 768px) ================= */
+@media (max-width: 768px) {
+  #bm-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: min(340px, 88vw) !important;
+    height: 100dvh;
+    z-index: 120;
+    box-shadow: -6px 0 32px rgba(0, 0, 0, 0.28);
+    transform: translateX(100%);
+    transition: transform 0.26s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  body.bm-open #bm-panel {
+    transform: translateX(0);
+    display: flex !important;
+  }
+  .bm-header {
+    height: 50px;
+    padding: 0 14px;
+  }
+  .bm-close-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+  }
+  .bm-tab {
+    padding: 10px 6px;
+    font-size: 13px;
+    min-height: 40px;
+  }
+  .bm-body {
+    padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+    -webkit-overflow-scrolling: touch;
+  }
+  .bm-item {
+    padding: 10px 12px;
+  }
+  #bm-composer {
+    left: 12px !important;
+    right: 12px !important;
+    width: auto !important;
+    max-width: 400px;
+    margin: 0 auto;
+    bottom: calc(64px + env(safe-area-inset-bottom, 0px)) !important;
+    top: auto !important;
+  }
+}
+
 </style>
-</head>
 <body>
+<script>
+if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+  document.body.classList.add('sb-closed');
+}
+</script>
 <div id="app">
   <!-- Sidebar -->
   <aside id="sidebar">
@@ -5689,7 +6516,10 @@ mark.bm-hl.flash {
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQOSURBVFhH7ZZdbFN1GMZ/7fpBR+kH28Jk6GJ2MYSwkMVMQ5gZOGKiMhWn0QQDySbgRwzRK2dCoheoA2IIiWYJmUAgoNFFJYoyNBEUdEYiU7apTJh00G5tWbt2/Tjteb3o1tFz2jlv8Ga/q5P3PO/Jk/yf9z1/g4gI/yNGbeFWM2dgzoCh0BQM30jRcTrE4GiSVBoq3CZeWOOiqsyslRak15PgWM84gWgagMa7inni7gW5IsnDwPWEPPCORy5cjefUmvYNy2e/jOdoC/Hqx6Oy5ZBXBq4nREmrcmkkKVsOebUyyWugad+wXPEnRUmrcuhsSN7/bkxiSVWUtCr3774qYxNpbUsO31+akOcO+3JqV/z5Degy0OtJUF1uobLEzI5PAoRiaaxmAy9/OIrJaKCl3sHJi1FtWw57T43x5oZSbTkvOgP+SJoVFRYAvhmYYFuDi6frHIRimXOscJkZHFU0XdP0ehJUlZlx2nSfzotO5bIZ6b+eBOCpugVs6vTy0tERqsoypgDSat7cArD/TIiWeqe2XBCdgdrKeVy8lsQXTrG90c1rDy5k8yoHbzxSopXqiCRUAtF0dlK6+2Y+KvIZAGhvLmVTp4/uvijzrUZK7EVaSV4OnwvTXJsZs5Qq7Dk5ppXoyGugutzCB1tvY3BEYecXQRp2ebSSvJz4bYL1K+dnnn+NMhQonJUp8hoAcNqMbGtw0fHMIqrLp8+/ED2X49TdacVkNABw7KdxapZYtTIdBQ1M0XM5ji+c0pZ1dHwbYvOqTPh+9yZZ5DDhKv7Xzxc2cH4ozuPvXaO7L0p78/RMV5WZOfNnnB2fBogrmWkIRCZH1G0C4ODZMK2rHdmeGdFuJhGRH/+KSdO+YRmPF954X/dH5aG9HvGGFNn1ZUBOXoyIiEgsqcqGd4dFRHI236w3IUBbl58jz5Yzz2zgrRNBVr99VSth7dJi9jxZxvNHRjjVH2Pdskz4jl+I8OhKu1ZeEJ2BXk+CNUtt2K1Gdn91g1J7EXbrtOz0HzFaDvhIqUJ1uYWN9zh4uKY4+/6jnyP6P94M6Az4I2nuWJhZJOcG47Tm2WrDYyl2fh4E4LFaOy+udcNk+CpLzMwzZyZhNugMuGxG/g5m5rfCbeJoTxjTTaqhgMLW+5yMxVR6PYnpF5Pha5lt+CbRGai53Up33wSRhEp7cynRhGSnIKUKB8+GWbe8mFfWudl/JpTtiyvCUFCZ1c64GZ0Bk9HAjvUltBzwkVCE1nonyxZbiSvCpk4vG+9dgN1qpMJtIhRTsyN4+IfwfwrfFAWvZOeH4rx+PEg0oWIqMuC0GWmtd2TTDjA4qtDW5SeuCMsXW9ipuQO0dfmz17FUGlYssbC9MZOXKQoauFXojuBWM2dgzsA/flme7eUsPiAAAAAASUVORK5CYII=" width="22" height="22" alt="มาร์คมาก" style="vertical-align:middle;display:inline-block">
         มาร์คมาก
       </span>
-      <button id="btn-add" class="sb-btn-add" title="เพิ่มโฟลเดอร์สำหรับอ่าน" aria-label="เพิ่มโฟลเดอร์">+</button>
+      <div class="sb-header-actions">
+        <button id="btn-add" class="sb-btn-add" title="เพิ่มโฟลเดอร์สำหรับอ่าน" aria-label="เพิ่มโฟลเดอร์">+</button>
+        <button type="button" id="btn-sb-close" class="sb-btn-close" title="ปิดแถบรายการไฟล์" aria-label="ปิดแถบรายการไฟล์">&times;</button>
+      </div>
     </div>
 
     <div class="sb-search-box">
@@ -5822,7 +6652,15 @@ mark.bm-hl.flash {
         </button>
       </div>
 
+      <!-- Mobile Document Title (Compact & Truncated) -->
+      <div class="mb-doc-title-wrap" id="mb-doc-title-wrap">
+        <span class="mb-doc-title" id="mb-doc-title" title="มาร์คมาก">มาร์คมาก</span>
+      </div>
+
       <div class="mb-right-tools">
+        <!-- Mobile Quick TOC Button -->
+        <button type="button" id="btn-mobile-toc" class="doc-info-btn mb-mobile-only" title="สารบัญเนื้อหา (Table of Contents)" aria-label="สารบัญเนื้อหา">📑</button>
+
         <!-- Segmented Badge Island Theme Tools (Collapsible) -->
         <div class="theme-tools-wrap" id="theme-tools-wrap">
           <div class="theme-tools-content" id="theme-tools-content">
@@ -5927,9 +6765,12 @@ mark.bm-hl.flash {
         <div id="toc-panel">
           <div id="toc-header" title="คลิกเพื่อย่อสารบัญ (Alt+T)">
             <span class="toc-title">สารบัญ</span>
-            <button id="btn-toc-collapse" class="toc-collapse-btn" title="ย่อสารบัญเป็นแถบแคบ (Alt+T)">
-              <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path fill-rule="evenodd" d="M9.78 12.78a.75.75 0 0 1-1.06 0L4.47 8.53a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 1.06L6.06 8l3.72 3.72a.75.75 0 0 1 0 1.06Z"/></svg>
-            </button>
+            <div class="toc-header-actions">
+              <button id="btn-toc-collapse" class="toc-collapse-btn" title="ย่อสารบัญเป็นแถบแคบ (Alt+T)">
+                <svg viewBox="0 0 16 16" width="13" height="13" fill="currentColor"><path fill-rule="evenodd" d="M9.78 12.78a.75.75 0 0 1-1.06 0L4.47 8.53a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 1.06L6.06 8l3.72 3.72a.75.75 0 0 1 0 1.06Z"/></svg>
+              </button>
+              <button type="button" id="btn-toc-mobile-close" class="toc-mobile-close-btn" title="ปิดสารบัญ" aria-label="ปิดสารบัญ">&times;</button>
+            </div>
           </div>
           <div id="toc-full-view">
             <div id="toc-list"></div>
@@ -5995,6 +6836,37 @@ mark.bm-hl.flash {
       <aside id="bm-panel" hidden></aside>
     </div>
   </main>
+
+  <!-- Mobile Backdrop for overlay drawers (Sidebar, TOC, Bookmarks) -->
+  <div id="mobile-backdrop" class="mobile-backdrop"></div>
+
+  <!-- Mobile Bottom Navigation Bar (Glassmorphism Thumb Zone Dock) -->
+  <nav id="mobile-bottom-bar" class="mobile-bottom-bar">
+    <button type="button" class="mbb-item" id="mbb-files" title="รายการไฟล์" aria-label="รายการไฟล์">
+      <span class="mbb-icon">📁</span>
+      <span class="mbb-label">ไฟล์</span>
+    </button>
+    <button type="button" class="mbb-item" id="mbb-toc" title="สารบัญ" aria-label="สารบัญ">
+      <span class="mbb-icon">📑</span>
+      <span class="mbb-label">สารบัญ</span>
+    </button>
+    <button type="button" class="mbb-item" id="mbb-theme" title="ธีมและตัวอักษร" aria-label="ธีมและตัวอักษร">
+      <span class="mbb-icon">Aa</span>
+      <span class="mbb-label">ธีม/อักษร</span>
+    </button>
+    <button type="button" class="mbb-item" id="mbb-bm" title="บุ๊คมาร์คและโน้ต" aria-label="บุ๊คมาร์คและโน้ต">
+      <span class="mbb-icon">🔖</span>
+      <span class="mbb-label">บุ๊คมาร์ค</span>
+    </button>
+    <button type="button" class="mbb-item" id="mbb-pet" title="สัตว์เลี้ยงหน้าจอ" aria-label="สัตว์เลี้ยงหน้าจอ">
+      <span class="mbb-icon">🐾</span>
+      <span class="mbb-label">บ้านแมว</span>
+    </button>
+    <button type="button" class="mbb-item mbb-top-btn" id="mbb-top" title="เลื่อนขึ้นบนสุด" aria-label="เลื่อนขึ้นบนสุด">
+      <span class="mbb-icon">⬆️</span>
+      <span class="mbb-label">บนสุด</span>
+    </button>
+  </nav>
 </div>
 
 <script>
@@ -12200,6 +13072,10 @@ function buildToc(contentEl, tocPanel, tocList) {
       const pane = contentEl.closest('.md-scroll-pane') || document.getElementById('md-scroll-pane') || contentEl;
       const targetTop = h.getBoundingClientRect().top - pane.getBoundingClientRect().top + pane.scrollTop - 20;
       pane.scrollTo({ top: Math.max(0, targetTop), behavior: 'smooth' });
+
+      if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+        document.body.classList.remove('toc-mobile-open');
+      }
     }
   };
 
@@ -20377,6 +21253,9 @@ const BookmarkPanel = {
             item.classList.add('flash');
             setTimeout(() => item.classList.remove('flash'), 1200);
           }
+          if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+            toggleBookmarkPanel(false);
+          }
         }
       }
     });
@@ -20590,6 +21469,15 @@ const ViewRouter = {
       State.current = node;
       renderTreeCallback();
       if (_routerD && _routerD.fileCrumb) _routerD.fileCrumb.textContent = node.path;
+      if (_routerD && _routerD.mbDocTitle) {
+        _routerD.mbDocTitle.textContent = node.name;
+        _routerD.mbDocTitle.title = node.name;
+      }
+      if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+        document.body.classList.add('sb-closed');
+        document.body.classList.remove('toc-mobile-open');
+        document.body.classList.remove('bm-open');
+      }
 
       let fileText = '';
       let fileObj = null;
@@ -20677,6 +21565,10 @@ const ViewRouter = {
   closeCurrentFile() {
     State.current = null;
     this.switchView('empty');
+    if (_routerD && _routerD.mbDocTitle) {
+      _routerD.mbDocTitle.textContent = 'มาร์คมาก';
+      _routerD.mbDocTitle.title = 'มาร์คมาก';
+    }
     updateStatCallback(null);
     Store.set('lastFile', '');
     State.emit('file:close');
@@ -20735,6 +21627,10 @@ const MenubarController = {
     const isClosed = document.body.classList.contains('sb-closed');
     const close = (typeof force === 'boolean') ? force : !isClosed;
     document.body.classList.toggle('sb-closed', close);
+    if (!close && typeof window !== 'undefined' && window.innerWidth <= 768) {
+      document.body.classList.remove('toc-mobile-open');
+      document.body.classList.remove('bm-open');
+    }
     this.updateSbToggleUI();
     saveUiFn();
     setTimeout(() => drawScaleFn(), 200);
@@ -20826,6 +21722,12 @@ const MenubarController = {
     const isOpen = _menubarD.themeToolsWrap.classList.contains('open');
     const show = (typeof force === 'boolean') ? force : !isOpen;
     _menubarD.themeToolsWrap.classList.toggle('open', show);
+    if (show && typeof window !== 'undefined' && window.innerWidth <= 768) {
+      document.body.classList.add('sb-closed');
+      document.body.classList.remove('toc-mobile-open');
+      document.body.classList.remove('bm-open');
+      if (_menubarD.docInfoPopover) _menubarD.docInfoPopover.hidden = true;
+    }
     if (_menubarD.btnThemeToggle) {
       _menubarD.btnThemeToggle.classList.toggle('active', show);
       _menubarD.btnThemeToggle.title = show ? 'พับเก็บชุดเครื่องมือปรับธีม' : 'ปรับแต่งธีมและการแสดงผล (คลิกเพื่อขยาย)';
@@ -21101,7 +22003,9 @@ const D = {};
  'btn-theme-toggle', 'theme-tools-wrap', 'theme-tools-content', 'btn-menubar-pet',
  'btn-doc-info', 'doc-info-popover', 'doc-info-ext', 'doc-info-name', 'doc-info-type',
  'doc-info-path', 'doc-stat-words', 'doc-stat-chars', 'doc-stat-size', 'doc-stat-lines',
- 'btn-copy-path', 'doc-info-wrap', 'sb-loading', 'sb-loading-text', 'bm-panel', 'btn-bm-toggle', 'reading-progress-bar']
+ 'btn-copy-path', 'doc-info-wrap', 'sb-loading', 'sb-loading-text', 'bm-panel', 'btn-bm-toggle', 'reading-progress-bar',
+ 'btn-sb-close', 'btn-mobile-toc', 'btn-toc-mobile-close', 'mb-doc-title', 'mobile-backdrop', 'mobile-bottom-bar',
+ 'mbb-files', 'mbb-toc', 'mbb-theme', 'mbb-bm', 'mbb-pet', 'mbb-top']
 .forEach(id => D[id.replace(/-(\w)/g, (_, c) => c.toUpperCase())] = document.getElementById(id));
 
 function showLoading(msg) {
@@ -21639,7 +22543,160 @@ if (D.tree) {
       return;
     }
     openFile(node);
+    if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+      closeAllMobileDrawers();
+    }
   });
+}
+
+function updateMobileBottomBarActiveStates() {
+  if (!D.mobileBottomBar) return;
+  const isSbOpen = !document.body.classList.contains('sb-closed');
+  const isTocOpen = document.body.classList.contains('toc-mobile-open');
+  const isBmOpen = document.body.classList.contains('bm-open');
+  const isThemeOpen = D.themeToolsWrap && D.themeToolsWrap.classList.contains('open');
+
+  if (D.mbbFiles) D.mbbFiles.classList.toggle('active', isSbOpen);
+  if (D.mbbToc) D.mbbToc.classList.toggle('active', isTocOpen);
+  if (D.mbbBm) D.mbbBm.classList.toggle('active', isBmOpen);
+  if (D.mbbTheme) D.mbbTheme.classList.toggle('active', isThemeOpen);
+}
+
+function closeAllMobileDrawers() {
+  document.body.classList.add('sb-closed');
+  document.body.classList.remove('toc-mobile-open');
+  document.body.classList.remove('bm-open');
+  if (D.themeToolsWrap) D.themeToolsWrap.classList.remove('open');
+  if (D.btnThemeToggle) D.btnThemeToggle.classList.remove('active');
+  if (D.docInfoPopover) D.docInfoPopover.hidden = true;
+  MenubarController.updateSbToggleUI();
+  updateMobileBottomBarActiveStates();
+}
+
+function toggleMobileToc(force) {
+  const isCurrentlyOpen = document.body.classList.contains('toc-mobile-open');
+  const show = (typeof force === 'boolean') ? force : !isCurrentlyOpen;
+  document.body.classList.toggle('toc-mobile-open', show);
+  if (show) {
+    document.body.classList.add('sb-closed');
+    document.body.classList.remove('bm-open');
+    if (D.themeToolsWrap) D.themeToolsWrap.classList.remove('open');
+    if (D.btnThemeToggle) D.btnThemeToggle.classList.remove('active');
+    if (D.docInfoPopover) D.docInfoPopover.hidden = true;
+  }
+  MenubarController.updateSbToggleUI();
+  updateMobileBottomBarActiveStates();
+}
+
+if (D.btnSbClose) {
+  D.btnSbClose.addEventListener('click', () => {
+    document.body.classList.add('sb-closed');
+    MenubarController.updateSbToggleUI();
+    updateMobileBottomBarActiveStates();
+    saveUi();
+  });
+}
+
+if (D.btnMobileToc) {
+  D.btnMobileToc.addEventListener('click', (e) => {
+    e.stopPropagation();
+    toggleMobileToc();
+  });
+}
+
+if (D.btnTocMobileClose) {
+  D.btnTocMobileClose.addEventListener('click', (e) => {
+    e.stopPropagation();
+    toggleMobileToc(false);
+  });
+}
+
+if (D.mobileBackdrop) {
+  D.mobileBackdrop.addEventListener('click', () => {
+    closeAllMobileDrawers();
+    saveUi();
+  });
+}
+
+if (D.mbbFiles) {
+  D.mbbFiles.addEventListener('click', () => {
+    const isClosed = document.body.classList.contains('sb-closed');
+    if (isClosed) {
+      closeAllMobileDrawers();
+      document.body.classList.remove('sb-closed');
+    } else {
+      document.body.classList.add('sb-closed');
+    }
+    MenubarController.updateSbToggleUI();
+    updateMobileBottomBarActiveStates();
+    saveUi();
+  });
+}
+
+if (D.mbbToc) {
+  D.mbbToc.addEventListener('click', () => {
+    toggleMobileToc();
+  });
+}
+
+if (D.mbbTheme) {
+  D.mbbTheme.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isOpen = D.themeToolsWrap && D.themeToolsWrap.classList.contains('open');
+    if (isOpen) {
+      D.themeToolsWrap.classList.remove('open');
+      if (D.btnThemeToggle) D.btnThemeToggle.classList.remove('active');
+    } else {
+      closeAllMobileDrawers();
+      if (D.themeToolsWrap) D.themeToolsWrap.classList.add('open');
+      if (D.btnThemeToggle) D.btnThemeToggle.classList.add('active');
+    }
+    updateMobileBottomBarActiveStates();
+  });
+}
+
+if (D.mbbBm) {
+  D.mbbBm.addEventListener('click', () => {
+    const isOpen = document.body.classList.contains('bm-open');
+    if (isOpen) {
+      toggleBookmarkPanel(false);
+    } else {
+      closeAllMobileDrawers();
+      toggleBookmarkPanel(true);
+    }
+    updateMobileBottomBarActiveStates();
+  });
+}
+
+if (D.mbbPet) {
+  D.mbbPet.addEventListener('click', () => {
+    closeAllMobileDrawers();
+    if (PetManager && PetManager.openManagementModal) {
+      PetManager.openManagementModal();
+    }
+  });
+}
+
+if (D.mbbTop) {
+  D.mbbTop.addEventListener('click', () => {
+    if (D.mdScrollPane) {
+      D.mdScrollPane.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  });
+}
+
+if (D.mdScrollPane) {
+  let lastScrollTop = 0;
+  D.mdScrollPane.addEventListener('scroll', () => {
+    if (typeof window === 'undefined' || window.innerWidth > 768 || !D.mobileBottomBar) return;
+    const st = D.mdScrollPane.scrollTop;
+    if (st > lastScrollTop && st > 60) {
+      D.mobileBottomBar.classList.add('hide-bar');
+    } else {
+      D.mobileBottomBar.classList.remove('hide-bar');
+    }
+    lastScrollTop = st;
+  }, { passive: true });
 }
 
 if (D.tocHeader) {
@@ -21788,11 +22845,18 @@ async function initApp() {
     }
     if (typeof ui.tocMini === 'boolean') State.ui.tocMini = ui.tocMini;
     if (typeof ui.bmOpen === 'boolean' && ui.bmOpen) toggleBookmarkPanel(true);
+  } else {
+    // If first visit on mobile, default sidebar to closed so document is immediately visible
+    if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+      document.body.classList.add('sb-closed');
+      State.ui.sbClosed = true;
+    }
   }
   applyTheme(D.txColor);
   RulerModule.setMargins(State.ui.padLeft, State.ui.padRight, false);
   toggleTocMini(!!State.ui.tocMini);
   MenubarController.updateSbToggleUI();
+  updateMobileBottomBarActiveStates();
 
   // Desktop Pets Integration
   PetManager.init();

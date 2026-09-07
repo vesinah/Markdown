@@ -50,6 +50,10 @@ export const MenubarController = {
     const isClosed = document.body.classList.contains('sb-closed');
     const close = (typeof force === 'boolean') ? force : !isClosed;
     document.body.classList.toggle('sb-closed', close);
+    if (!close && typeof window !== 'undefined' && window.innerWidth <= 768) {
+      document.body.classList.remove('toc-mobile-open');
+      document.body.classList.remove('bm-open');
+    }
     this.updateSbToggleUI();
     saveUiFn();
     setTimeout(() => drawScaleFn(), 200);
@@ -141,6 +145,12 @@ export const MenubarController = {
     const isOpen = _menubarD.themeToolsWrap.classList.contains('open');
     const show = (typeof force === 'boolean') ? force : !isOpen;
     _menubarD.themeToolsWrap.classList.toggle('open', show);
+    if (show && typeof window !== 'undefined' && window.innerWidth <= 768) {
+      document.body.classList.add('sb-closed');
+      document.body.classList.remove('toc-mobile-open');
+      document.body.classList.remove('bm-open');
+      if (_menubarD.docInfoPopover) _menubarD.docInfoPopover.hidden = true;
+    }
     if (_menubarD.btnThemeToggle) {
       _menubarD.btnThemeToggle.classList.toggle('active', show);
       _menubarD.btnThemeToggle.title = show ? 'พับเก็บชุดเครื่องมือปรับธีม' : 'ปรับแต่งธีมและการแสดงผล (คลิกเพื่อขยาย)';

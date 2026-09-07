@@ -129,6 +129,24 @@ body.zen-mode #main {
   display: none;
 }
 
+.mb-doc-title-wrap {
+  display: none;
+  align-items: center;
+  min-width: 0;
+  flex: 1;
+  margin: 0 6px;
+  overflow: hidden;
+}
+.mb-doc-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+}
+
 /* ================= Right Tools & Theme Widget (Segmented Badge Island) ================= */
 .mb-right-tools {
   margin-left: auto;
@@ -946,4 +964,348 @@ body.sb-closed .toc-rail-logo {
   background: transparent !important;
   border: none !important;
   padding: 0 !important;
+}
+
+/* ================= Mobile Reader, Menubar & Navigation (<= 768px) ================= */
+@media (max-width: 768px) {
+  .menubar {
+    height: calc(48px + env(safe-area-inset-top, 0px));
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-right: 8px;
+    padding-left: 4px;
+    gap: 4px;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background: var(--bg2) !important;
+    z-index: 120 !important;
+  }
+
+  .mb-sb-slot {
+    width: 38px;
+  }
+
+  #sb-toggle {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+  }
+
+  .mb-doc-title-wrap {
+    display: flex;
+  }
+
+  .mb-right-tools {
+    gap: 4px;
+  }
+
+  .doc-info-btn {
+    width: 34px;
+    height: 34px;
+    font-size: 14px;
+  }
+
+  .theme-toggle-btn {
+    height: 34px;
+    padding: 0 10px;
+    border-radius: 8px;
+  }
+
+  /* Theme Tools Modal Bottom Sheet on Mobile */
+  .theme-tools-content {
+    display: none !important;
+  }
+
+  .theme-tools-wrap.open .theme-tools-content {
+    display: flex !important;
+    position: fixed !important;
+    top: auto !important;
+    bottom: calc(58px + env(safe-area-inset-bottom, 0px)) !important;
+    left: 12px !important;
+    right: 12px !important;
+    width: auto !important;
+    max-width: calc(100vw - 24px) !important;
+    box-sizing: border-box !important;
+    white-space: normal !important;
+    background: var(--bg) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 18px !important;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3) !important;
+    padding: 12px !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 10px !important;
+    z-index: 150 !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    transform: none !important;
+    margin-right: 0 !important;
+    transition: none !important;
+    animation: themeSheetUp 0.22s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  }
+
+  @keyframes themeSheetUp {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .theme-segment {
+    display: flex !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    height: auto !important;
+    padding: 8px !important;
+    border-radius: 12px !important;
+    white-space: normal !important;
+  }
+
+  .theme-swatch-segment {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    padding: 8px 4px !important;
+  }
+
+  .mb-swatch {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    flex: none !important;
+  }
+
+  .theme-font-segment {
+    display: flex !important;
+    justify-content: space-between !important;
+    gap: 8px !important;
+    padding: 4px !important;
+    height: 42px !important;
+  }
+
+  .theme-seg-btn {
+    flex: 1 !important;
+    height: 34px !important;
+    font-size: 14px !important;
+    border-radius: 8px !important;
+  }
+
+  .theme-color-segment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 42px;
+    padding: 4px 10px;
+  }
+
+  #tx-color {
+    width: 32px;
+    height: 32px;
+  }
+
+  .theme-btn-reset {
+    height: 32px;
+    padding: 0 14px;
+    font-size: 13px;
+  }
+
+  /* File Info Popover Responsive on Mobile */
+  .doc-info-popover {
+    position: fixed;
+    top: auto;
+    bottom: calc(58px + env(safe-area-inset-bottom, 0px));
+    left: 12px;
+    right: 12px;
+    width: auto;
+    max-width: 440px;
+    margin: 0 auto;
+    border-radius: 18px;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3);
+    z-index: 150;
+    animation: themeSheetUp 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  /* Mobile Table of Contents (TOC) Overlay Drawer */
+  #toc-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    width: min(340px, 86vw) !important;
+    height: 100dvh;
+    z-index: 115;
+    background: var(--bg);
+    border-left: 1px solid var(--border2);
+    border-right: none;
+    transform: translateX(100%);
+    transition: transform 0.26s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: -6px 0 32px rgba(0, 0, 0, 0.25);
+    display: flex !important;
+  }
+
+  body.toc-mobile-open #toc-panel {
+    transform: translateX(0);
+  }
+
+  #toc-header {
+    height: 50px;
+    padding: 0 14px;
+  }
+
+  .toc-title {
+    font-size: 13px;
+    letter-spacing: .04em;
+  }
+
+  .toc-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .toc-collapse-btn {
+    display: none !important;
+  }
+
+  .toc-mobile-close-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text2);
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+
+  #toc-mini-rail {
+    display: none !important;
+  }
+
+  #toc-full-view {
+    display: block !important;
+    padding: 12px 10px calc(48px + env(safe-area-inset-bottom, 0px));
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #toc-full-view a {
+    padding: 10px 12px;
+    font-size: 14px;
+    min-height: 38px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    line-height: 1.4;
+    touch-action: manipulation;
+  }
+
+  /* Reading scroll container padding on mobile */
+  .md-scroll-pane {
+    padding-bottom: calc(56px + env(safe-area-inset-bottom, 0px));
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Empty State Responsive Card */
+  .empty-card {
+    padding: 20px 16px;
+    max-width: 90vw;
+  }
+  .empty-card h1 {
+    font-size: 22px;
+  }
+  .empty-card p {
+    font-size: 14px;
+  }
+  .empty-card .btn.primary {
+    width: 100%;
+    justify-content: center;
+    height: 44px;
+    font-size: 15px;
+  }
+}
+
+/* ================= Mobile Bottom Navigation Bar (Glassmorphism Thumb Dock) ================= */
+.mobile-bottom-bar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-bottom-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(54px + env(safe-area-inset-bottom, 0px));
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    background: color-mix(in srgb, var(--bg2) 88%, transparent);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border-top: 1px solid color-mix(in srgb, var(--border) 65%, transparent);
+    z-index: 85;
+    box-shadow: 0 -2px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.22s ease;
+  }
+
+  .mobile-bottom-bar.hide-bar {
+    transform: translateY(100%);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .mbb-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    height: 100%;
+    border: none;
+    background: transparent;
+    color: var(--text2);
+    font-family: var(--font-ui);
+    font-size: 10.5px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 4px 2px;
+    transition: color .15s ease, transform .12s ease;
+    user-select: none;
+    touch-action: manipulation;
+  }
+
+  .mbb-item:active {
+    transform: scale(0.92);
+    color: var(--accent);
+  }
+
+  .mbb-item.active {
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .mbb-icon {
+    font-size: 18px;
+    line-height: 1.2;
+    display: block;
+  }
+
+  .mbb-label {
+    letter-spacing: -0.2px;
+    white-space: nowrap;
+  }
 }
