@@ -178,7 +178,7 @@ body.resizing iframe, body.resizing canvas, body.dragging-ruler iframe, body.dra
   :root {
     --md-pad-left: 16px !important;
     --md-pad-right: 16px !important;
-    --sbw: min(320px, 85vw) !important;
+    --sbw: min(350px, 88vw) !important;
   }
 
   html, body {
@@ -234,8 +234,8 @@ body.resizing iframe, body.resizing canvas, body.dragging-ruler iframe, body.dra
     bottom: 0 !important;
     left: 0 !important;
     height: 100dvh !important;
-    width: min(320px, 85vw) !important;
-    max-width: 85vw !important;
+    width: min(350px, 88vw) !important;
+    max-width: 88vw !important;
     margin: 0 !important;
     margin-left: 0 !important;
     transform: translateX(-100%) !important;
@@ -1516,8 +1516,8 @@ body.sb-closed #sb-resizer {
     bottom: 0 !important;
     left: 0 !important;
     height: 100dvh !important;
-    width: min(320px, 85vw) !important;
-    max-width: 85vw !important;
+    width: min(350px, 88vw) !important;
+    max-width: 88vw !important;
     margin: 0 !important;
     margin-left: 0 !important;
     transform: translateX(-100%) !important;
@@ -1602,19 +1602,19 @@ body.sb-closed #sb-resizer {
   }
 
   .node-row {
-    padding: 8px 12px;
-    font-size: 14px;
-    min-height: 38px;
-    gap: 8px;
-    margin: 2px 8px;
+    padding: 7px 10px;
+    font-size: 13.5px;
+    min-height: 36px;
+    gap: 7px;
+    margin: 2px 6px;
     border-radius: 8px;
     touch-action: manipulation;
   }
 
   .node-row .twisty {
-    width: 22px;
-    height: 22px;
-    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -1628,21 +1628,139 @@ body.sb-closed #sb-resizer {
   }
 
   .node-row .nm {
-    font-size: 14px;
-    line-height: 1.4;
+    font-size: 13.5px;
+    line-height: 1.35;
   }
 
+  /* Mobile Research Archive / Workspace Root Card */
   .node-row.node-root {
-    padding: 8px 12px;
-    margin: 4px 8px;
-    border-radius: 8px;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    padding: 10px 12px !important;
+    margin: 6px 8px 8px 8px !important;
+    border-radius: 10px !important;
+    background: var(--bg2) !important;
+    border: 1px solid var(--border) !important;
+    gap: 4px 6px !important;
+    min-height: unset !important;
   }
 
-  .btn-root-refresh,
-  .btn-root-del {
+  .node-row.node-root .twisty {
+    order: 1;
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    flex: none;
+  }
+
+  .node-row.node-root .ico {
+    order: 2;
+    width: 17px;
+    height: 17px;
+    flex: none;
+  }
+
+  .node-row.node-root .nm {
+    order: 3;
+    width: calc(100% - 50px) !important;
+    flex: none !important;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--accent);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.35;
+  }
+
+  .node-row.node-root .tree-folder-counts {
+    order: 4;
+    width: auto !important;
+    margin-left: 0 !important;
+    padding-left: 26px;
+    padding-top: 6px;
+    margin-top: 2px;
+    display: flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    flex: 1 1 auto;
+  }
+
+  .node-row.node-root .tree-folder-counts .count-item {
+    background: var(--bg);
+    padding: 2.5px 7px;
+    border-radius: 6px;
+    border: 1px solid var(--border2);
+    gap: 4px;
+  }
+
+  .node-row.node-root .tree-folder-counts .count-num {
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .node-row.node-root .btn-root-refresh {
+    order: 5;
+    margin-left: auto !important;
+    margin-top: 4px;
     width: 28px;
     height: 28px;
-    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    border-radius: 6px;
+    color: var(--text3);
+    background: var(--bg);
+    border: 1px solid var(--border2);
+  }
+
+  .node-row.node-root .btn-root-del {
+    order: 6;
+    margin-left: 4px !important;
+    margin-top: 4px;
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    border-radius: 6px;
+    font-size: 14px;
+    color: var(--text3);
+    background: var(--bg);
+    border: 1px solid var(--border2);
+  }
+
+  [data-theme="dark"] .node-row.node-root {
+    background: rgba(56, 139, 253, 0.08) !important;
+    border-color: rgba(56, 139, 253, 0.3) !important;
+  }
+
+  [data-theme="dark"] .node-row.node-root .tree-folder-counts .count-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  [data-theme="dark"] .node-row.node-root .btn-root-refresh,
+  [data-theme="dark"] .node-row.node-root .btn-root-del {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--text2);
+  }
+
+  /* Mobile Search Snippets in Tree */
+  .sb-search-snippets {
+    padding-left: 28px !important;
+    padding-right: 10px;
+    gap: 4px;
+  }
+
+  .sb-snippet-item {
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 6px;
   }
 
   .sb-footer {
