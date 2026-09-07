@@ -1,0 +1,306 @@
+﻿{
+    "alternate_locations":  {
+                                "servers":  [
+                                                {
+                                                    "server":  "dn721903.ca.archive.org",
+                                                    "dir":  "/0/items/EfEc_bauddha-laghu-granth-sangraha-edited-by-janardan-pandey-durlabh-bouddh-granth-ma"
+                                                },
+                                                {
+                                                    "server":  "dn760003.eu.archive.org",
+                                                    "dir":  "/0/items/EfEc_bauddha-laghu-granth-sangraha-edited-by-janardan-pandey-durlabh-bouddh-granth-ma"
+                                                }
+                                            ],
+                                "workable":  [
+                                                 {
+                                                     "server":  "dn721903.ca.archive.org",
+                                                     "dir":  "/0/items/EfEc_bauddha-laghu-granth-sangraha-edited-by-janardan-pandey-durlabh-bouddh-granth-ma"
+                                                 },
+                                                 {
+                                                     "server":  "dn760003.eu.archive.org",
+                                                     "dir":  "/0/items/EfEc_bauddha-laghu-granth-sangraha-edited-by-janardan-pandey-durlabh-bouddh-granth-ma"
+                                                 }
+                                             ]
+                            },
+    "created":  1787667403,
+    "d1":  "ia600705.us.archive.org",
+    "d2":  "ia800705.us.archive.org",
+    "dir":  "/11/items/EfEc_bauddha-laghu-granth-sangraha-edited-by-janardan-pandey-durlabh-bouddh-granth-ma",
+    "files":  [
+                  {
+                      "name":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi.pdf",
+                      "source":  "original",
+                      "mtime":  "1686878160",
+                      "size":  "115030747",
+                      "md5":  "a5d3a81e3f461afeb1d2d515196a9af4",
+                      "crc32":  "1b44c5b8",
+                      "sha1":  "7b266473945b0ff41ead47b1b65e08eaeb282de7",
+                      "format":  "Text PDF"
+                  },
+                  {
+                      "name":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_chocr.html.gz",
+                      "source":  "derivative",
+                      "ocr":  "tesseract 5.3.0-3-g9920",
+                      "ocr_parameters":  "lang-nep;lang-kir;lang-hin;lang-mar;lang-mon;lang-que;lang-eng;lang-Devanagari;lang-Latin;lang-Cyrillic;lang-Arabic;two-pass-disabled;pass-dpi-disabled;autonomous-mode-enabled;binarisation-method-otsu",
+                      "ocr_module_version":  "0.0.21",
+                      "ocr_autonomous":  "true",
+                      "ocr_detected_script":  [
+                                                  "Devanagari",
+                                                  "Bengali",
+                                                  "Arabic",
+                                                  "Latin",
+                                                  "Cyrillic"
+                                              ],
+                      "ocr_detected_script_conf":  [
+                                                       "0.9197",
+                                                       "0.0654",
+                                                       "0.0078",
+                                                       "0.0049",
+                                                       "0.0019"
+                                                   ],
+                      "ocr_detected_lang":  "mr",
+                      "ocr_detected_lang_conf":  "1.0000",
+                      "format":  "chOCR",
+                      "original":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_jp2.zip",
+                      "mtime":  "1686889966",
+                      "size":  "2407300",
+                      "md5":  "e575daa84a151c799d4e6981c4c5ec4b",
+                      "crc32":  "6f626e36",
+                      "sha1":  "a6605b86ac05b447b794f97d98a17e10d7ccc693"
+                  },
+                  {
+                      "name":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_djvu.txt",
+                      "source":  "derivative",
+                      "format":  "DjVuTXT",
+                      "original":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_djvu.xml",
+                      "mtime":  "1686890266",
+                      "size":  "326554",
+                      "md5":  "da27324f8e2cd1f97b2193456f011436",
+                      "crc32":  "24fbd639",
+                      "sha1":  "06a9ae0531b2de21664a5f617cac536d40c76ec2"
+                  },
+                  {
+                      "name":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_djvu.xml",
+                      "source":  "derivative",
+                      "format":  "Djvu XML",
+                      "original":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_hocr.html",
+                      "mtime":  "1686890072",
+                      "size":  "2431049",
+                      "md5":  "180b0d475a1e08493c4727d13308450a",
+                      "crc32":  "31b0a805",
+                      "sha1":  "40469b91715898b915ab6e15231d9eeb2a6e43c8"
+                  },
+                  {
+                      "name":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_hocr.html",
+                      "source":  "derivative",
+                      "hocr_char_to_word_module_version":  "1.1.0",
+                      "hocr_char_to_word_hocr_version":  "1.1.15",
+                      "ocr_parameters":  "lang-nep;lang-kir;lang-hin;lang-mar;lang-mon;lang-que;lang-eng;lang-Devanagari;lang-Latin;lang-Cyrillic;lang-Arabic;two-pass-disabled;pass-dpi-disabled;autonomous-mode-enabled;binarisation-method-otsu",
+                      "ocr_module_version":  "0.0.21",
+                      "ocr_autonomous":  "true",
+                      "ocr_detected_script":  [
+                                                  "Devanagari",
+                                                  "Bengali",
+                                                  "Arabic",
+                                                  "Latin",
+                                                  "Cyrillic"
+                                              ],
+                      "ocr_detected_script_conf":  [
+                                                       "0.9197",
+                                                       "0.0654",
+                                                       "0.0078",
+                                                       "0.0049",
+                                                       "0.0019"
+                                                   ],
+                      "ocr_detected_lang":  "mr",
+                      "ocr_detected_lang_conf":  "1.0000",
+                      "format":  "hOCR",
+                      "original":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_chocr.html.gz",
+                      "mtime":  "1686890045",
+                      "size":  "4777591",
+                      "md5":  "7bff6450b32d36e3c80c2afd45aae135",
+                      "crc32":  "e68b37d2",
+                      "sha1":  "b557d2f3d3b27218c12a2e4db3a58caee3387934"
+                  },
+                  {
+                      "name":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_hocr_pageindex.json.gz",
+                      "source":  "derivative",
+                      "hocr_pageindex_module_version":  "1.0.0",
+                      "hocr_pageindex_hocr_version":  "1.1.15",
+                      "format":  "OCR Page Index",
+                      "original":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_hocr.html",
+                      "mtime":  "1686890137",
+                      "size":  "2482",
+                      "md5":  "a8f57d303155dfe591877438899b1de6",
+                      "crc32":  "f612d492",
+                      "sha1":  "3e8cafa629d3f12eb09252d84941ebed827849a9"
+                  },
+                  {
+                      "name":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_hocr_searchtext.txt.gz",
+                      "source":  "derivative",
+                      "hocr_fts_text_module_version":  "1.1.0",
+                      "hocr_fts_text_hocr_version":  "1.1.15",
+                      "word_conf_0_10":  "1376",
+                      "word_conf_11_20":  "1027",
+                      "word_conf_21_30":  "1663",
+                      "word_conf_31_40":  "2192",
+                      "word_conf_41_50":  "2161",
+                      "word_conf_51_60":  "1534",
+                      "word_conf_61_70":  "1137",
+                      "word_conf_71_80":  "1199",
+                      "word_conf_81_90":  "3759",
+                      "word_conf_91_100":  "7933",
+                      "format":  "OCR Search Text",
+                      "original":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_hocr.html",
+                      "mtime":  "1686890196",
+                      "size":  "87814",
+                      "md5":  "b464c85092fdd4e0e39049cd0629fa93",
+                      "crc32":  "4410d0db",
+                      "sha1":  "9db1b74507a9ebbbe71d4135e87da33a6896fa14"
+                  },
+                  {
+                      "name":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_jp2.zip",
+                      "source":  "derivative",
+                      "format":  "Single Page Processed JP2 ZIP",
+                      "original":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi.pdf",
+                      "mtime":  "1686879429",
+                      "size":  "76093386",
+                      "md5":  "0759ae7a0437fe07a888a32debe08c7a",
+                      "crc32":  "10f1ef0f",
+                      "sha1":  "d9d66e408e6bbdfffbc6f2fd1b37393c9b0b89c3",
+                      "filecount":  "222"
+                  },
+                  {
+                      "name":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_page_numbers.json",
+                      "source":  "derivative",
+                      "format":  "Page Numbers JSON",
+                      "original":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_djvu.xml",
+                      "mtime":  "1686890377",
+                      "size":  "31708",
+                      "md5":  "9eb24a7527fcad95d134007880f21f7b",
+                      "crc32":  "3b377c1e",
+                      "sha1":  "5e92d0d0189f396c948a8a34521bfedbb8623f36"
+                  },
+                  {
+                      "name":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_scandata.xml",
+                      "source":  "derivative",
+                      "format":  "Scandata",
+                      "original":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi_djvu.xml",
+                      "mtime":  "1686890365",
+                      "size":  "71450",
+                      "md5":  "40437cbd7d7ef1618d8e54345da143b9",
+                      "crc32":  "c96653d0",
+                      "sha1":  "285d0ce03fe155a37620c436ecf7ba1e787b05ff"
+                  },
+                  {
+                      "name":  "EfEc_bauddha-laghu-granth-sangraha-edited-by-janardan-pandey-durlabh-bouddh-granth-ma_archive.torrent",
+                      "source":  "metadata",
+                      "btih":  "0e95f34266369303efc7540f5736271a3da53dc8",
+                      "mtime":  "1772493966",
+                      "size":  "13031",
+                      "md5":  "7ceb38a6fc2389315c3fddddc3cfe123",
+                      "crc32":  "63398d78",
+                      "sha1":  "dea6e21bb73dfe7fad4d8acf69b6082cd7c20769",
+                      "format":  "Archive BitTorrent"
+                  },
+                  {
+                      "name":  "EfEc_bauddha-laghu-granth-sangraha-edited-by-janardan-pandey-durlabh-bouddh-granth-ma_files.xml",
+                      "source":  "original",
+                      "format":  "Metadata",
+                      "md5":  "76e3e9b64c7722b5ea9a79f4df7253dd",
+                      "summation":  "md5"
+                  },
+                  {
+                      "name":  "EfEc_bauddha-laghu-granth-sangraha-edited-by-janardan-pandey-durlabh-bouddh-granth-ma_meta.sqlite",
+                      "source":  "original",
+                      "mtime":  "1686878346",
+                      "size":  "28672",
+                      "md5":  "67507eb0edc1addcf364471fce1f55d0",
+                      "crc32":  "1fa48b6f",
+                      "sha1":  "0ab6ac0f4916c07c19579dde137446e05d57b947",
+                      "format":  "Metadata"
+                  },
+                  {
+                      "name":  "EfEc_bauddha-laghu-granth-sangraha-edited-by-janardan-pandey-durlabh-bouddh-granth-ma_meta.xml",
+                      "source":  "original",
+                      "mtime":  "1772493962",
+                      "size":  "2672",
+                      "md5":  "2c77279ffada14f917b55dc6cf38ce49",
+                      "crc32":  "1574a8b0",
+                      "sha1":  "716b97f87f124b426b096ca77b19cc85cd6fde76",
+                      "format":  "Metadata"
+                  },
+                  {
+                      "name":  "__ia_thumb.jpg",
+                      "source":  "original",
+                      "mtime":  "1772493964",
+                      "size":  "15562",
+                      "md5":  "942151832ed7d1af361001464109c46b",
+                      "crc32":  "ebb46343",
+                      "sha1":  "f258489d8781fac02c7e19de324332a7ae2ab6fd",
+                      "format":  "Item Tile",
+                      "rotation":  "0"
+                  }
+              ],
+    "files_count":  15,
+    "item_last_updated":  1772493967,
+    "item_size":  201320018,
+    "metadata":  {
+                     "identifier":  "EfEc_bauddha-laghu-granth-sangraha-edited-by-janardan-pandey-durlabh-bouddh-granth-ma",
+                     "mediatype":  "texts",
+                     "collection":  [
+                                        "kashijangamwadimath",
+                                        "booksbylanguage_sanskrit",
+                                        "booksbylanguage"
+                                    ],
+                     "creator":  "eGangotri",
+                     "description":  "Jangamwadi Math Collection, \u0027Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 - Kendriya Uccha Tibbati Shiksha Samstha, Varanasi\u0027",
+                     "licenseurl":  "https://creativecommons.org/publicdomain/zero/1.0/",
+                     "scanner":  "Internet Archive HTML5 Uploader 1.7.0",
+                     "subject":  [
+                                     "eGangotri-37",
+                                     "Jangamwadi Math",
+                                     "Jangamwadi Math Library Collection",
+                                     "जंगमवाड़ी मठ",
+                                     "Jangamwadi Math Printed Books Collection",
+                                     "Jangamwadi Hindi"
+                                 ],
+                     "title":  "Bauddha Laghu Granth Sangraha Edited By Janardan Pandey, Durlabh Bouddh Granth Mala 14 Kendriya Uccha Tibbati Shiksha Samstha, Varanasi",
+                     "uploader":  "granthabhandar37@gmail.com",
+                     "publicdate":  "2023-06-16 01:16:57",
+                     "addeddate":  "2023-06-16 01:16:57",
+                     "curation":  "[curator]validator@archive.org[/curator][date]20230616012057[/date][comment]checked for malware[/comment]",
+                     "identifier-access":  "http://archive.org/details/EfEc_bauddha-laghu-granth-sangraha-edited-by-janardan-pandey-durlabh-bouddh-granth-ma",
+                     "identifier-ark":  "ark:/13960/s23v9nwd120",
+                     "ppi":  "400",
+                     "ocr":  "tesseract 5.3.0-3-g9920",
+                     "ocr_parameters":  "-l nep+kir+hin+mar+mon+que+eng+Devanagari+Latin+Cyrillic+Arabic",
+                     "ocr_module_version":  "0.0.21",
+                     "ocr_autonomous":  "true",
+                     "ocr_detected_script":  [
+                                                 "Devanagari",
+                                                 "Bengali",
+                                                 "Arabic",
+                                                 "Latin",
+                                                 "Cyrillic"
+                                             ],
+                     "ocr_detected_script_conf":  [
+                                                      "0.9197",
+                                                      "0.0654",
+                                                      "0.0078",
+                                                      "0.0049",
+                                                      "0.0019"
+                                                  ],
+                     "ocr_detected_lang":  "mr",
+                     "ocr_detected_lang_conf":  "1.0000",
+                     "collection_added":  [
+                                              "booksbylanguage_sanskrit",
+                                              "booksbylanguage"
+                                          ]
+                 },
+    "server":  "ia800705.us.archive.org",
+    "uniq":  1601736133,
+    "workable_servers":  [
+                             "ia800705.us.archive.org",
+                             "ia600705.us.archive.org"
+                         ]
+}

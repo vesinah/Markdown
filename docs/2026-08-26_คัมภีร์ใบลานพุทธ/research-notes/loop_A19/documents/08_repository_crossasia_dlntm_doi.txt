@@ -1,0 +1,581 @@
+<!DOCTYPE html><html xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions" class="no-js" lang="de">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Digital Library of Northern Thai Manuscripts (Lanna)</title>
+<link rel="stylesheet" href="https://repository.crossasia.org/assets/font-awesome/css/all.min.css">
+<script src="https://repository.crossasia.org/mir-layout/assets/jquery/jquery.min.js"></script><script src="https://repository.crossasia.org/mir-layout/assets/jquery/plugins/jquery-migrate/jquery-migrate.min.js"></script>
+<link href="http://purl.org/dc/elements/1.1/" rel="schema.DC">
+<link href="http://purl.org/dc/terms/" rel="schema.DCTERMS">
+<meta name="DC.title" content="Digital Library of Northern Thai Manuscripts (Lanna)">
+<meta name="DC.creator" content="Buchmann, Andrey">
+<meta name="DC.type" content="research_data">
+<meta name="DC.date" content="2024-03-15">
+<meta name="DC.identifier" content="https://doi.org/10.48796/20240306-000">
+<meta name="DC.identifier" content="https://nbn-resolving.org/urn:nbn:de:0308-20240306-000-0">
+<meta name="DC.description" content="">
+<meta name="DC.rights" content="https://creativecommons.org/licenses/by/4.0/">
+<meta name="DC.rights" content="info:eu-repo/semantics/openAccess">
+<meta name="citation_title" content="Digital Library of Northern Thai Manuscripts (Lanna)">
+<meta name="citation_author" content="Buchmann, Andrey">
+<meta name="citation_publication_date" content="2024/03/15">
+<meta name="citation_doi" content="10.48796/20240306-000">
+<meta name="title" content="Digital Library of Northern Thai Manuscripts (Lanna)">
+<meta name="description" content="">
+<link href="https://repository.crossasia.org/mir-layout/assets/jquery/plugins/shariff/shariff.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://repository.crossasia.org/rsc/sass/mir-layout/scss/flatmir-flatly.min.css">
+<script src="https://repository.crossasia.org/js/project.js"></script><script>var webApplicationBaseURL = 'https://repository.crossasia.org/';var currentLang = 'de';</script><script>
+      window["mycoreUploadSettings"] = {
+      webAppBaseURL:"https://repository.crossasia.org/"
+      }
+    </script><script src="https://repository.crossasia.org/js/mir/session-polling.js"></script><script src="https://repository.crossasia.org/js/mir/sherpa.js"></script><script src="https://repository.crossasia.org/modules/webtools/upload/js/upload-api.js"></script><script src="https://repository.crossasia.org/modules/webtools/upload/js/upload-gui.js"></script>
+<link href="https://repository.crossasia.org/modules/webtools/upload/css/upload-gui.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://crossasia.org/resources/sheader/css/bootstrap-xasia.min.css">
+<link rel="stylesheet" href="https://crossasia.org/resources/sheader/css/style-xabs.css">
+</head>
+<body>
+<div class="xabs">HTML-from-Page-Type-1001</div>
+<script>
+          window["isGuest"] = true;
+           
+          $.ajax({
+             url: 'https://crossasia.org/',
+             data: {
+               type: "1001",
+               source: window.location.href
+             },
+             xhrFields: {
+               withCredentials: true
+             }
+           }).done(function(data,state,request) {
+            // add content to container
+            $(".xabs").html(data);
+            // fix outdated fa icon
+            $(".fa-file-text").addClass("fa-file-alt");
+            $(".fa-file-alt").addClass("fas");
+            $(".fa-file-alt").removeClass("fa");
+            $(".fa-file-alt").removeClass("fa-file-text");
+            let shibbolethID = request.getResponseHeader("x-shibboleth-uid");
+            const userKey = "_check_is_passive_user";
+            const urlKey = "_check_is_passive_location";
+
+            if(shibbolethID == null && sessionStorage){
+              // this should make it possible to login again after logout
+              sessionStorage.removeItem(userKey);
+              sessionStorage.removeItem(urlKey);
+            }
+            if(window["isGuest"] && shibbolethID != undefined && shibbolethID != null) {
+              // run auth
+              if(!sessionStorage) {
+                return;
+              }
+
+              let passiveCheckUser = sessionStorage.getItem(userKey);
+              let passiveCheckUrl = sessionStorage.getItem(urlKey);
+
+              // Check for session cookie that contains the initial location
+             if(passiveCheckUrl != null && passiveCheckUrl != undefined && passiveCheckUser == shibbolethID){
+                  // If we have the opensaml::FatalProfileException GET arguments
+                  // redirect to initial location because isPassive failed
+                  if (
+                      window.location.search.search(/errorType/) >= 0
+                      && window.location.search.search(/RelayState/) >= 0
+                      && window.location.search.search(/requestURL/) >= 0
+                  ) {
+                      window.location = passiveCheckUrl;
+                  }
+              } else {
+                  // Mark browser as being isPassive checked
+                  sessionStorage.setItem(userKey, shibbolethID);
+                  sessionStorage.setItem(urlKey, window.location);
+                  // Redirect to Shibboleth handler
+                  window.location = "/Shibboleth.sso/Login?isPassive=true&target=" + encodeURIComponent(window.location);
+              }
+            }
+          });
+        </script>
+<header>
+<div class="clearfix container" id="header_box">
+<div class="mir-prop-nav" id="options_nav_box">
+<nav class="navbar navbar-expand-lg navbar-dark ml-auto flex-row">
+<button aria-label="Toggle navigation" aria-expanded="false" aria-controls="mir-main-nav-collapse-box" data-target="#mir-main-nav-collapse-box" data-toggle="collapse" type="button" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse mir-main-nav__entries" id="mir-main-nav-collapse-box">
+<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+<li class="nav-item dropdown">
+<a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle" id="N200AF">Suche</a>
+<ul aria-labelledby="N200AF" role="menu" class="dropdown-menu">
+<li class="">
+<a class="dropdown-item" href="https://repository.crossasia.org/content/search/simple.xed;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">einfach</a>
+</li>
+<li class="">
+<a class="dropdown-item" href="https://repository.crossasia.org/content/search/complex.xed;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">komplex</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle" id="N200CF">Bl&auml;ttern</a>
+<ul aria-labelledby="N200CF" role="menu" class="dropdown-menu">
+<li class="">
+<a class="dropdown-item" href="https://repository.crossasia.org/content/browse/institutes.xml;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">nach Forschungseinrichtung</a>
+</li>
+<li class="">
+<a class="dropdown-item" href="https://repository.crossasia.org/content/browse/genres.xml;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">nach Dokumenttyp</a>
+</li>
+<li class="">
+<a class="dropdown-item" href="https://repository.crossasia.org/content/browse/ddc.xml;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">nach DDC</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle" id="N200F8">Publizieren</a>
+<ul aria-labelledby="N200F8" role="menu" class="dropdown-menu">
+<li class="">
+<a class="dropdown-item" href="https://crossasia.org/login/?return_url=https%3A%2F%2Frepository.crossasia.org%2Fcontent%2Findex.xml">Dokument einreichen</a>
+</li>
+<li class="">
+<a class="dropdown-item" href="https://repository.crossasia.org/content/publish/collection_scope.xml;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">Sammelauftrag</a>
+</li>
+<li class="">
+<a class="dropdown-item" href="https://repository.crossasia.org/content/rights/contract.xml;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">Vertragsbedingungen</a>
+</li>
+</ul>
+</li>
+<li id="basket-list-item" class="dropdown">
+<a title="Auf ihrer Merkliste befinden sich keine Dokumente." href="#" data-toggle="dropdown" class="dropdown-toggle nav-link"><i class="fas fa-bookmark"></i><sup>0</sup></a>
+<ul role="menu" class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="https://repository.crossasia.org/servlets/MCRBasketServlet;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA?type=objects&amp;action=show">Merkliste &ouml;ffnen</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown mir-lang">
+<a title="Sprache wechseln" data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">de<span class="caret"></span></a>
+<ul role="menu" class="dropdown-menu language-menu">
+<li>
+<a title="English" class="dropdown-item" href="https://repository.crossasia.org/receive/crossasia_mods_00000347;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA?lang=en">en</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+<div id="project_logo_box">
+<a class="" href="https://repository.crossasia.org/content/index.xml;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA"><span id="logo_modul">CrossAsia</span><span id="logo_slogan">E-Publishing</span></a>
+</div>
+</div>
+<noscript>
+<div style="border-radius: 0;" class="mir-no-script alert alert-warning text-center">Um den vollen Funktionsumfang dieser Webseite zu erfahren, ben&ouml;tigen Sie JavaScript. Hier finden Sie die&nbsp;
+              <a target="_blank" href="http://www.enable-javascript.com/de/">Anleitung wie Sie JavaScript in Ihrem Browser einschalten</a>
+              .
+            </div>
+</noscript>
+</header>
+<section>
+<div id="page" class="container">
+<div id="main_content">
+<script type="application/ld+json">[]</script>
+<div class="row top">
+<div class="col-12 north">
+<ul class="breadcrumb">
+<li class="breadcrumb-item">
+<a href="https://repository.crossasia.org/servlets/solr/find?condQuery=*&amp;fq=category.top:%22mir_genres:research_data%22%20AND%20(state%3Apublished+OR+createdby%3Aguest)" class="navtrail">Forschungsdaten</a>
+</li>
+<li class="breadcrumb-item active">Digital Library of Northern Thai Manuscripts (Lanna)</li>
+</ul>
+</div>
+</div>
+<div class="row middle detail_row">
+<div class="col-12 col-lg-8 main_col west">
+<div id="mir-abstract-badges-div">
+<div id="badges">
+<a href="https://repository.crossasia.org/servlets/solr/find?condQuery=*&amp;fq=category.top:%22mir_genres:research_data%22%20AND%20(state%3Apublished+OR+createdby%3Aguest)" class="mods_genre badge badge-info">Forschungsdaten</a>
+<time title="Publication date" data-toggle="tooltip" datetime="2024-03-15">
+<a href="https://repository.crossasia.org/servlets/solr/find?condQuery=*&amp;fq=mods.dateIssued:2024-03-15&amp;owner=createdby:guest" class="date_published badge badge-primary">Fr., 15. M&auml;rz. 2024</a>
+</time>
+<a href="https://repository.crossasia.org/servlets/solr/find?condQuery=*&amp;fq=link:*cc_by_4.0&amp;owner=createdby:guest" class="access_condition badge badge-success">CC BY 4.0</a>
+<div class="doc_state">
+<span title="Publikationsstatus" class="badge mir-published">Ver&ouml;ffentlicht</span>
+</div>
+</div>
+</div>
+<h1>Digital Library of Northern Thai Manuscripts (Lanna)</h1>
+<div class="detail_block">
+<div id="authors_short">
+<div class="d-none" id="N10055-content">
+<dl>
+<dt>GND</dt>
+<dd>
+<a href="https://d-nb.info/gnd/1381415423">1381415423</a>
+</dd>
+<dt>Zugeh&ouml;rigkeit</dt>
+<dd>Staatsbibliothek zu Berlin</dd>
+</dl>
+</div>
+<a href="https://repository.crossasia.org/servlets/solr/mods_nameIdentifier?q=mods.nameIdentifier%3Agnd%5C%3A1381415423&amp;owner=createdby%3Aguest">Buchmann, Andrey</a><a title="Personendetails" class="personPopover" id="N10055"><span class="fa fa-info-circle"></span></a>
+</div>
+<div id="mir-abstract">
+<div class="ellipsis ellipsis-text">
+<p>
+<span class="ellipsis-description"></span>
+</p>
+</div>
+<div id="mir-abstract-overlay">
+<a title="read less" class="readless d-none" href="#">&laquo; einklappen</a>
+<div class="mir-abstract-overlay-tran readmore d-none"></div>
+<a title="read more" class="readmore d-none" href="#">weiterlesen &raquo;</a>
+</div>
+</div>
+</div>
+<div class="detail_block">
+<div id="record_detail">
+<div class="file_box" id="filescrossasia_derivate_00000292">
+<div class="row header">
+<div class="col-12">
+<div class="headline">
+<div class="title">
+<a aria-controls="collapsecrossasia_derivate_00000292" aria-expanded="false" href="#collapsecrossasia_derivate_00000292" data-toggle="collapse" class="btn btn-primary btn-sm file_toggle dropdown-toggle"><span>Dateien</span></a>
+</div>
+<div class="dropdown float-right options">
+<div class="btn-group">
+<a data-toggle="dropdown" class="btn btn-secondary dropdown-toggle" href="#"><i class="fas fa-cog"></i> Aktionen</a>
+<ul class="dropdown-menu dropdown-menu-right">
+<li>
+<a class="option downloadzip dropdown-item" href="https://repository.crossasia.org/servlets/MCRZipServlet/crossasia_derivate_00000292">als Zip speichern</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+<div data-deletedb="false" data-writedb="false" data-mainDoc="lanna/1.json" data-deriID="crossasia_derivate_00000292" data-objID="crossasia_mods_00000347" class="file_box_files" data-jwt="required">
+<div class="filelist-loading">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+</div>
+<noscript>
+<br>
+<a href="https://repository.crossasia.org/servlets/MCRFileNodeServlet/crossasia_derivate_00000292/">zu den Dateien</a>
+</noscript>
+</div>
+</div>
+</div>
+<div class="mir_metadata">
+<h3>Einordnung</h3>
+<dl>
+<dt>Datum der Erstellung:</dt>
+<dd>20.07.2023</dd>
+<dt>Datum der Ver&ouml;ffentlichung:</dt>
+<dd>
+<meta property="datePublished" content="2024-03-15">15.03.2024</dd>
+<dt>DOI:</dt>
+<dd>
+<a href="https://doi.org/10.48796/20240306-000">10.48796/20240306-000</a>
+</dd>
+<dt>URN:</dt>
+<dd>
+<a href="https://nbn-resolving.org/urn:nbn:de:0308-20240306-000-0">urn:nbn:de:0308-20240306-000-0</a>
+</dd>
+<dt>Sprache:</dt>
+<dd>Englisch<meta property="inLanguage" content="en">
+</dd>
+<dt>Ressourcentyp:</dt>
+<dd>Text</dd>
+<dt>Erscheinungsort:</dt>
+<dd>Berlin</dd>
+<dt>Schlagw&ouml;rter:</dt>
+<dd>Buddhismus<a title="Link zu GND" href="http://d-nb.info/gnd/4008690-2"><sup>GND</sup></a>; Thai<a title="Link zu GND" href="http://d-nb.info/gnd/4058921-3"><sup>GND</sup></a>; Laotisch<a title="Link zu GND" href="http://d-nb.info/gnd/4133638-0"><sup>GND</sup></a>; Birmanisch<a title="Link zu GND" href="http://d-nb.info/gnd/4120159-0"><sup>GND</sup></a>; Pāli<a title="Link zu GND" href="http://d-nb.info/gnd/4044406-5"><sup>GND</sup></a>; Palmblatthandschrift<a title="Link zu GND" href="http://d-nb.info/gnd/4173151-7"><sup>GND</sup></a>
+</dd>
+<dt>Geographie:</dt>
+<dd>Thailand (Nord)<a title="Link zu GND" href="http://d-nb.info/gnd/4059674-6"><sup>GND</sup></a>
+</dd>
+<dt>Link URL:</dt>
+<dd>
+<a href="https://iiif.crossasia.org/s/lanna">https://iiif.crossasia.org/s/lanna</a>
+</dd>
+<dt>Einrichtung:</dt>
+<dd>Staatsbibliothek zu Berlin</dd>
+</dl>
+</div>
+</div>
+<div class="col-12 col-lg-4 east">
+<div id="mir-edit-div">
+<div class="btn-group d-flex">
+<a href="https://repository.crossasia.org/servlets/MCRBasketServlet;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA?type=objects&amp;action=add&amp;redirect=https%3A%2F%2Frepository.crossasia.org%2Freceive%2Fcrossasia_mods_00000347&amp;id=crossasia_mods_00000347&amp;uri=mcrobject:crossasia_mods_00000347" class="btn btn-primary btn-sm w-100"><i class="fas fa-plus"></i> auf die Merkliste</a>
+<div class="btn-group w-100">
+<a data-display="static" data-toggle="dropdown" class="btn btn-secondary btn-sm dropdown-toggle" href="#"><i class="fas fa-cog"></i> Aktionen<span class="caret"></span></a>
+<ul class="dropdown-menu dropdown-menu-right">
+<li>
+<a class="dropdown-item" href="https://repository.crossasia.org/servlets/MCRLoginServlet?action=login">Um das Dokument zu bearbeiten, melden Sie sich bitte an.</a>
+</li>
+</ul>
+</div>
+</div>
+<div data-backdrop="static" role="dialog" tabindex="-1" id="modal-pi" class="modal fade">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 data-i18n="component.pi.register." class="modal-title"></h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="col-md-2">
+<i class="fas fa-question-circle"></i>
+</div>
+<div data-i18n="component.pi.register.modal.text." class="col-md-10"></div>
+</div>
+</div>
+<div class="modal-footer">
+<button data-dismiss="modal" class="btn btn-secondary modal-pi-cancel" type="button">Abbrechen</button><button data-i18n="component.pi.register." id="modal-pi-add" class="btn btn-danger" type="button"></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="card" id="mir-citation-panel">
+<div class="card-header">
+<h3 class="card-title">Zitieren</h3>
+</div>
+<div class="card-body">
+<div data-url="https://doi.org/10.48796/20240306-000" data-services="['mail', 'twitter', 'facebook', 'whatsapp', 'linkedin', 'xing', 'pinterest', 'info']" data-mail-url="mailto:" data-mail-subject="MIR: Digital Library of Northern Thai Manuscripts (Lanna). " data-mail-body="https://doi.org/10.48796/20240306-000" data-orientation="horizontal" data-button-style="icon" data-theme="white" class="shariff"></div>
+<div class="row" id="mir-metric-badges">
+<script src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js" type="text/javascript"></script>
+<div class="col-12">
+<div class="altmetric-embed" data-hide-no-mentions="true" data-doi="10.48796/20240306-000" data-badge-type="donut" data-badge-details="right"></div>
+</div>
+</div>
+<div id="citation-style">
+<span><strong>Zitierform:</strong></span><select data-object-id="crossasia_mods_00000347" data-default-selected="elsevier-harvard" id="mir-csl-cite" class="form-control input-sm"><option value="dependent/asian-anthropology">Asian Anthropology</option><option value="apa">APA (American Psychological Association 7th edition)</option><option value="bibtex">BibTeX generic citation style</option><option value="chicago-author-date">Chicago Manual of Style 17th edition (author-date)</option><option value="chicago-author-date-de">Chicago Manual of Style 16th edition (author-date, Deutsch)</option><option value="elsevier-harvard">Elsevier - Harvard (with titles)</option><option value="springer-basic-author-date">Springer - Basic (author-date)</option><option value="din-1505-2">DIN 1505-2 (author-date, Deutsch) - standard superseded by ISO-690</option></select>
+<div class="d-none" id="citation-text"></div>
+<div class="alert alert-danger d-none" id="citation-alert">Zitierform konnte nicht geladen werden.</div>
+</div>
+<p id="cite_link_box">
+<a href="https://doi.org/10.48796/20240306-000" id="url_site_link">10.48796/20240306-000</a>
+<br>
+<a title="Hier klicken um ggf. weitere Zitierlinks zu sehen." href="#" class="btn btn-info btn-sm" id="copy_cite_link">Zitier-Link kopieren</a>
+</p>
+<div aria-hidden="true" aria-labelledby="modal frame" role="dialog" tabindex="-1" class="modal fade" id="identifierModal">
+<div role="document" class="modal-dialog modal-lg modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h4 id="modalFrame-title" class="modal-title">Zitier-Link kopieren</h4>
+<button aria-label="Close" data-dismiss="modal" class="close modalFrame-cancel" type="button"><i aria-hidden="true" class="fas fa-times"></i></button>
+</div>
+<div class="modal-body">
+<div class="mir_identifier">
+<p>DOI (10.48796/20240306-000)</p>
+<div class="mir_copy_wrapper">
+<pre>
+<a href="https://doi.org/10.48796/20240306-000">https://doi.org/10.48796/20240306-000</a>
+</pre>
+<span data-org-title="Copy Identifier" title="Copy Identifier" aria-hidden="true" data-placement="left" data-toggle="tooltip" class="fas fa-copy mir_copy_identifier"></span>
+</div>
+<input value="https://doi.org/10.48796/20240306-000" class="d-none mir_identifier_hidden_input" type="text">
+</div>
+<div class="mir_identifier">
+<p>URN (urn:nbn:de:0308-20240306-000-0)</p>
+<div class="mir_copy_wrapper">
+<pre>
+<a href="https://nbn-resolving.org/urn:nbn:de:0308-20240306-000-0">https://nbn-resolving.org/urn:nbn:de:0308-20240306-000-0</a>
+</pre>
+<span data-org-title="Copy Identifier" title="Copy Identifier" aria-hidden="true" data-placement="left" data-toggle="tooltip" class="fas fa-copy mir_copy_identifier"></span>
+</div>
+<input value="https://nbn-resolving.org/urn:nbn:de:0308-20240306-000-0" class="d-none mir_identifier_hidden_input" type="text">
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://repository.crossasia.org/js/mir/citation.min.js"></script>
+</div>
+</div>
+<div class="card">
+<div class="card-header d-flex justify-content-between align-items-center">
+<h3 class="card-title">Zugriffsstatistik</h3>
+<img class="mir-epusta-logo" src="https://repository.crossasia.org/images/epusta/epustalogo_small.png"></div>
+<div class="card-body">
+<span><strong>Gesamt:</strong></span>
+<div class="row">
+<div class="col-md-7 col-sm-9 col-6 text-right">Volltextzugriffe:</div>
+<div data-epustacounttype="counter" data-epustaidentifier="crossasia_mods_00000347" data-epustaproviderurl="https://repository.crossasia.org/graphprovider/" data-epustaelementtype="ePuStaInline"></div>
+</div>
+<div class="row">
+<div class="col-md-7 col-sm-9 col-6 text-right">Metadatenansicht:</div>
+<div data-epustacounttype="counter_abstract" data-epustaidentifier="crossasia_mods_00000347" data-epustaproviderurl="https://repository.crossasia.org/graphprovider/" data-epustaelementtype="ePuStaInline"></div>
+</div>
+<span><strong>12 Monate:</strong></span>
+<div class="row">
+<div class="col-md-7 col-sm-9 col-6 text-right">Volltextzugriffe:</div>
+<div data-epustauntil="2026-08-25" data-epustafrom="2025-08-25" data-epustacounttype="counter" data-epustaidentifier="crossasia_mods_00000347" data-epustaproviderurl="https://repository.crossasia.org/graphprovider/" data-epustaelementtype="ePuStaInline"></div>
+</div>
+<div class="row">
+<div class="col-md-7 col-sm-9 col-6 text-right">Metadatenansicht:</div>
+<div data-epustauntil="2026-08-25" data-epustafrom="2025-08-25" data-epustacounttype="counter_abstract" data-epustaidentifier="crossasia_mods_00000347" data-epustaproviderurl="https://repository.crossasia.org/graphprovider/" data-epustaelementtype="ePuStaInline"></div>
+</div>
+<div class="text-right">
+<a data-target="#epustaGraphModal" data-toggle="modal" href="#">Grafik &ouml;ffnen</a>
+</div>
+<div aria-hidden="true" aria-labelledby="epustaGraphTitel" role="dialog" tabindex="-1" id="epustaGraphModal" class="modal fade">
+<div role="document" class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 id="epustaGraphTitel" class="modal-title ">Zugriffsstatistik</h4>
+<button aria-label="Close" data-dismiss="modal" class="close modalFrame-cancel" type="button"><i aria-hidden="true" class="fas fa-times"></i></button>
+</div>
+<div class="modal-body">
+<div data-epustauntil="2026-08-25" data-epustafrom="2025-08-25" data-epustaidentifier="crossasia_mods_00000347" data-epustaproviderurl="https://repository.crossasia.org/graphprovider/" data-epustaelementtype="EPuStaGraph" class="mir-epusta-graph" id="epustaGraph"></div>
+</div>
+<div class="modal-footer">
+<img class="mir-epusta-logo" src="https://repository.crossasia.org/images/epusta/epustalogo.png"></div>
+</div>
+</div>
+</div>
+<script src="https://repository.crossasia.org/graphprovider/includes/raphael-2.1.2/raphael-min.js"></script><script src="https://repository.crossasia.org/graphprovider/includes/morris.js-0.5.1/morris.js"></script><script src="https://repository.crossasia.org/js/epusta.min.js"></script>
+<style type="text/css">
+              @import url("https://repository.crossasia.org/graphprovider/includes/morris.js-0.5.1/morris.css");
+            </style>
+</div>
+</div>
+<div class="card" id="mir-access-rights-panel">
+<div class="card-header">
+<h3 class="card-title">Rechte</h3>
+</div>
+<div class="card-body">
+<p>
+<strong>Nutzung und Vervielf&auml;ltigung:</strong>
+<br>
+<a href="//creativecommons.org/licenses/by/4.0/" rel="license" class="cc-logo"><img src="//licensebuttons.net/l/by/4.0/88x31.png"></a>
+</p>
+</div>
+</div>
+<div class="card" id="mir-export-panel">
+<div class="card-header">
+<h3 class="card-title">Export</h3>
+</div>
+<div class="card-body">
+<a href="https://repository.crossasia.org/receive/crossasia_mods_00000347?XSL.Transformer=bibtex">BibTeX</a><span>, </span><a href="https://repository.crossasia.org/receive/crossasia_mods_00000347?XSL.Transformer=mods">MODS</a><span>, </span><a href="https://repository.crossasia.org/receive/crossasia_mods_00000347?XSL.Transformer=marcxml">MARCXML</a><span>, </span><a href="https://repository.crossasia.org/receive/crossasia_mods_00000347?XSL.Transformer=ris">RIS</a><span>, </span><a href="https://repository.crossasia.org/receive/crossasia_mods_00000347?XSL.Transformer=isi">ISI</a><span>, </span><a href="https://repository.crossasia.org/receive/crossasia_mods_00000347?XSL.Transformer=pica3">PICA</a><span>, </span><a href="https://repository.crossasia.org/receive/crossasia_mods_00000347?XSL.Transformer=mods2csv">CSV</a><span>, </span><a href="https://repository.crossasia.org/receive/crossasia_mods_00000347?XSL.Transformer=mods2dc">DC</a><span>, </span><a href="https://repository.crossasia.org/receive/crossasia_mods_00000347?XSL.Transformer=datacite">DataCite</a>
+</div>
+</div>
+</div>
+</div>
+<div class="row bottom">
+<div class="col-12 south"></div>
+</div>
+<script src="https://repository.crossasia.org/mir-layout/assets/jquery/plugins/shariff/shariff.min.js"></script><script src="https://repository.crossasia.org/assets/moment/min/moment.min.js"></script><script src="https://repository.crossasia.org/assets/handlebars/handlebars.min.js"></script><script src="https://repository.crossasia.org/js/mir/derivate-fileList.min.js"></script>
+<link rel="stylesheet" href="https://repository.crossasia.org/rsc/stat/crossasia_mods_00000347.css">
+</div>
+</div>
+</section>
+<footer class="flatmir-footer">
+<div class="container">
+<div class="row">
+<div class="col-3">
+<h4>&Uuml;ber uns</h4>
+<ul class="internal_links">
+<li class="nav-link">
+<a href="https://repository.crossasia.org/content/about/about_us.xml;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">&Uuml;ber CrossAsia Open Access Repository</a>
+</li>
+<li class="nav-link">
+<a href="https://repository.crossasia.org/content/publish/collection_scope.xml;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">Sammelauftrag</a>
+</li>
+<li class="nav-link">
+<a href="https://repository.crossasia.org/content/about/publishing.xml;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">Publizieren</a>
+</li>
+<li class="nav-link">
+<a href="https://repository.crossasia.org/content/about/contact.xed;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">Kontakt</a>
+</li>
+</ul>
+</div>
+<div class="col-3">
+<h4>Rechtliches</h4>
+<ul class="internal_links">
+<li class="nav-link">
+<a href="https://repository.crossasia.org/content/rights/copyright.xml;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">Urheberrecht</a>
+</li>
+<li class="nav-link">
+<a href="https://repository.crossasia.org/content/rights/disclaimer.xml;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">Haftungshinweise</a>
+</li>
+<li class="nav-link">
+<a href="https://repository.crossasia.org/content/rights/privacy.xml;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">Datenschutz</a>
+</li>
+<li class="nav-link">
+<a href="https://repository.crossasia.org/content/rights/imprint.xml;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">Impressum</a>
+</li>
+<li class="nav-link">
+<a href="https://repository.crossasia.org/content/rights/accessibility.xml;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">Barrierefreiheit</a>
+</li>
+</ul>
+</div>
+<div class="col-3">
+<h4>Technisches</h4>
+<ul class="internal_links">
+<li class="nav-link">
+<a href="https://repository.crossasia.org/content/technical/basics.xml;jsessionid=DF0922EB88A64AF3ACB4FC10B0021ECA">Grundlagen</a>
+</li>
+<li class="nav-link">
+<a href="http://www.gbv.de/">GBV</a>
+</li>
+<li class="nav-link">
+<a href="http://www.mycore.de/">MyCoRe</a>
+</li>
+<li class="nav-link">
+<a href="http://www.dini.de/">DINI</a>
+</li>
+</ul>
+</div>
+<div class="col-3">
+<h4>Ein Dienst der</h4>
+<div class="logo-block-sbb">
+<img mode="footerMenu" alt="" src="https://repository.crossasia.org/mir-layout/images/LogoSBB.png"></div>
+</div>
+</div>
+</div>
+<div id="powered_by">
+<div class="container">
+<div class="row">
+<div title="MyCoRe 2022.06.3-SNAPSHOT 2022.06.x:v2022.06.2-65-g47bda8c" class="col-12 text-right">
+<span>&copy;2026 Copyright CrossAsia</span>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+        var _paq = window._paq = window._paq || [];
+        _paq.push(['disableCookies']);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+        var u="https://webstats.sbb.berlin/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '82']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+      </script>
+</footer>
+<script>
+          
+          if (jQuery.fn.button){jQuery.fn.btn = jQuery.fn.button.noConflict();}
+        </script><script src="https://repository.crossasia.org/assets/bootstrap/js/bootstrap.bundle.min.js"></script><script src="https://repository.crossasia.org/assets/jquery/plugins/jquery-confirm/jquery.confirm.min.js"></script><script src="https://repository.crossasia.org/js/mir/base.min.js"></script><script>
+          $( document ).ready(function() {
+            $('.overtext').tooltip();
+            $.confirm.options = {
+              title: "Bitte bestätigen",
+              confirmButton: "Ja",
+              cancelButton: "Nein",
+              post: false,
+              confirmButtonClass: "btn-danger",
+              cancelButtonClass: "btn-secondary",
+              dialogClass: "modal-dialog modal-lg" // Bootstrap classes for large modal
+            }
+          });
+        </script><script src="https://repository.crossasia.org/assets/jquery/plugins/jquery-placeholder/jquery.placeholder.min.js"></script><script>
+          jQuery("input[placeholder]").placeholder();
+          jQuery("textarea[placeholder]").placeholder();
+        </script>
+</body>
+</html>

@@ -1,0 +1,4016 @@
+[
+  {
+    "id": "https://openalex.org/W3092335675",
+    "doi": "https://doi.org/10.3389/fpsyg.2020.555731",
+    "title": "The Dream of God: How Do Religion and Science See Lucid Dreaming and Other Conscious States During Sleep?",
+    "display_name": "The Dream of God: How Do Religion and Science See Lucid Dreaming and Other Conscious States During Sleep?",
+    "relevance_score": 35.005367,
+    "publication_year": 2020,
+    "publication_date": "2020-10-06",
+    "ids": {
+      "openalex": "https://openalex.org/W3092335675",
+      "doi": "https://doi.org/10.3389/fpsyg.2020.555731",
+      "mag": "3092335675",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/33123040"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3389/fpsyg.2020.555731",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3389/fpsyg.2020.555731",
+      "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.555731/pdf",
+      "source": {
+        "id": "https://openalex.org/S9692511",
+        "display_name": "Frontiers in Psychology",
+        "issn_l": "1664-1078",
+        "issn": [
+          "1664-1078"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320527",
+        "host_organization_name": "Frontiers Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320527"
+        ],
+        "host_organization_lineage_names": [
+          "Frontiers Media"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Frontiers in Psychology",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.555731/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5088468671",
+          "display_name": "Sérgio Mota‐Rolim",
+          "orcid": "https://orcid.org/0000-0003-0196-5421"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I35046152",
+            "display_name": "Universidade Federal do Rio Grande do Norte",
+            "ror": "https://ror.org/04wn09761",
+            "country_code": "BR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I35046152"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210094979",
+            "display_name": "Hospital Universitário Onofre Lopes",
+            "ror": "https://ror.org/00mmnz357",
+            "country_code": "BR",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210094979"
+            ]
+          }
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Sergio A. Mota-Rolim",
+        "raw_affiliation_strings": [
+          "Brain Institute - Federal University of Rio Grande do Norte, Natal, Brazil",
+          "Onofre Lopes University Hospital - Federal University of Rio Grande do Norte, Natal, Brazil",
+          "Physiology and Behavior Department - Federal University of Rio Grande do Norte, Natal, Brazil",
+          "Brain Institute – Federal University of Rio Grande do Norte, Natal, Brazil",
+          "Onofre Lopes University Hospital – Federal University of Rio Grande do Norte, Natal, Brazil",
+          "Physiology and Behavior Department – Federal University of Rio Grande do Norte, Natal, Brazil"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Brain Institute - Federal University of Rio Grande do Norte, Natal, Brazil",
+            "institution_ids": [
+              "https://openalex.org/I35046152"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Onofre Lopes University Hospital - Federal University of Rio Grande do Norte, Natal, Brazil",
+            "institution_ids": [
+              "https://openalex.org/I35046152",
+              "https://openalex.org/I4210094979"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Physiology and Behavior Department - Federal University of Rio Grande do Norte, Natal, Brazil",
+            "institution_ids": [
+              "https://openalex.org/I35046152"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Brain Institute – Federal University of Rio Grande do Norte, Natal, Brazil",
+            "institution_ids": [
+              "https://openalex.org/I35046152"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Onofre Lopes University Hospital – Federal University of Rio Grande do Norte, Natal, Brazil",
+            "institution_ids": [
+              "https://openalex.org/I35046152",
+              "https://openalex.org/I4210094979"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Physiology and Behavior Department – Federal University of Rio Grande do Norte, Natal, Brazil",
+            "institution_ids": [
+              "https://openalex.org/I35046152"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5052751863",
+          "display_name": "Kelly Bulkeley",
+          "orcid": "https://orcid.org/0000-0002-3714-6287"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210124472",
+            "display_name": "Dream Laboratory (United Kingdom)",
+            "ror": "https://ror.org/035wa3p49",
+            "country_code": "GB",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210124472"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kelly Bulkeley",
+        "raw_affiliation_strings": [
+          "The Sleep and Dream Database - Portland, OR, United States",
+          "The Sleep and Dream Database – Portland, OR, United States"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Sleep and Dream Database - Portland, OR, United States",
+            "institution_ids": [
+              "https://openalex.org/I4210124472"
+            ]
+          },
+          {
+            "raw_affiliation_string": "The Sleep and Dream Database – Portland, OR, United States",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5025554597",
+          "display_name": "Stephany Campanelli",
+          "orcid": "https://orcid.org/0000-0003-3195-9663"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I35046152",
+            "display_name": "Universidade Federal do Rio Grande do Norte",
+            "ror": "https://ror.org/04wn09761",
+            "country_code": "BR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I35046152"
+            ]
+          }
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Stephany Campanelli",
+        "raw_affiliation_strings": [
+          "Biophysics and Pharmacology Department, Federal University of Rio Grande do Norte, Natal, Brazil"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Biophysics and Pharmacology Department, Federal University of Rio Grande do Norte, Natal, Brazil",
+            "institution_ids": [
+              "https://openalex.org/I35046152"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5007139726",
+          "display_name": "Bruno Lobão‐Soares",
+          "orcid": "https://orcid.org/0000-0003-4564-2288"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I35046152",
+            "display_name": "Universidade Federal do Rio Grande do Norte",
+            "ror": "https://ror.org/04wn09761",
+            "country_code": "BR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I35046152"
+            ]
+          }
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bruno Lobão-Soares",
+        "raw_affiliation_strings": [
+          "Biophysics and Pharmacology Department, Federal University of Rio Grande do Norte, Natal, Brazil"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Biophysics and Pharmacology Department, Federal University of Rio Grande do Norte, Natal, Brazil",
+            "institution_ids": [
+              "https://openalex.org/I35046152"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5006188744",
+          "display_name": "Dráulio Barros de Araújo",
+          "orcid": "https://orcid.org/0000-0002-6934-2485"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I35046152",
+            "display_name": "Universidade Federal do Rio Grande do Norte",
+            "ror": "https://ror.org/04wn09761",
+            "country_code": "BR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I35046152"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210094979",
+            "display_name": "Hospital Universitário Onofre Lopes",
+            "ror": "https://ror.org/00mmnz357",
+            "country_code": "BR",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210094979"
+            ]
+          }
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Draulio B. de Araujo",
+        "raw_affiliation_strings": [
+          "Brain Institute - Federal University of Rio Grande do Norte, Natal, Brazil",
+          "Onofre Lopes University Hospital - Federal University of Rio Grande do Norte, Natal, Brazil",
+          "Brain Institute – Federal University of Rio Grande do Norte, Natal, Brazil",
+          "Onofre Lopes University Hospital – Federal University of Rio Grande do Norte, Natal, Brazil"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Brain Institute - Federal University of Rio Grande do Norte, Natal, Brazil",
+            "institution_ids": [
+              "https://openalex.org/I35046152"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Onofre Lopes University Hospital - Federal University of Rio Grande do Norte, Natal, Brazil",
+            "institution_ids": [
+              "https://openalex.org/I35046152",
+              "https://openalex.org/I4210094979"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Brain Institute – Federal University of Rio Grande do Norte, Natal, Brazil",
+            "institution_ids": [
+              "https://openalex.org/I35046152"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Onofre Lopes University Hospital – Federal University of Rio Grande do Norte, Natal, Brazil",
+            "institution_ids": [
+              "https://openalex.org/I35046152",
+              "https://openalex.org/I4210094979"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5048426077",
+          "display_name": "Sidarta Ribeiro",
+          "orcid": "https://orcid.org/0000-0001-9325-9545"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I35046152",
+            "display_name": "Universidade Federal do Rio Grande do Norte",
+            "ror": "https://ror.org/04wn09761",
+            "country_code": "BR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I35046152"
+            ]
+          }
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sidarta Ribeiro",
+        "raw_affiliation_strings": [
+          "Brain Institute - Federal University of Rio Grande do Norte, Natal, Brazil",
+          "Brain Institute – Federal University of Rio Grande do Norte, Natal, Brazil"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Brain Institute - Federal University of Rio Grande do Norte, Natal, Brazil",
+            "institution_ids": [
+              "https://openalex.org/I35046152"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Brain Institute – Federal University of Rio Grande do Norte, Natal, Brazil",
+            "institution_ids": [
+              "https://openalex.org/I35046152"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5088468671"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I35046152",
+      "https://openalex.org/I4210094979"
+    ],
+    "apc_list": {
+      "value": 2950,
+      "currency": "USD",
+      "value_usd": 2950
+    },
+    "apc_paid": {
+      "value": 2950,
+      "currency": "USD",
+      "value_usd": 2950
+    },
+    "fwci": 1.3022,
+    "has_fulltext": true,
+    "cited_by_count": 33,
+    "citation_normalized_percentile": {
+      "value": 0.78931007,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "11",
+      "issue": null,
+      "first_page": "555731",
+      "last_page": "555731"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10985",
+      "display_name": "Sleep and Wakefulness Research",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10985",
+        "display_name": "Sleep and Wakefulness Research",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2805",
+          "display_name": "Cognitive Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12448",
+        "display_name": "Paranormal Experiences and Beliefs",
+        "score": 0.9962000250816345,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10316",
+        "display_name": "Sleep and related disorders",
+        "score": 0.9939000010490417,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3205",
+          "display_name": "Experimental and Cognitive Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/meditation",
+        "display_name": "Meditation",
+        "score": 0.7054183483123779
+      },
+      {
+        "id": "https://openalex.org/keywords/mysticism",
+        "display_name": "Mysticism",
+        "score": 0.6879600882530212
+      },
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.679778516292572
+      },
+      {
+        "id": "https://openalex.org/keywords/soul",
+        "display_name": "Soul",
+        "score": 0.6672859191894531
+      },
+      {
+        "id": "https://openalex.org/keywords/lucid-dream",
+        "display_name": "Lucid dream",
+        "score": 0.6435325145721436
+      },
+      {
+        "id": "https://openalex.org/keywords/hinduism",
+        "display_name": "Hinduism",
+        "score": 0.6355843544006348
+      },
+      {
+        "id": "https://openalex.org/keywords/dream",
+        "display_name": "Dream",
+        "score": 0.635482907295227
+      },
+      {
+        "id": "https://openalex.org/keywords/consciousness",
+        "display_name": "Consciousness",
+        "score": 0.6021785736083984
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.5029765963554382
+      },
+      {
+        "id": "https://openalex.org/keywords/spiritual-practice",
+        "display_name": "Spiritual practice",
+        "score": 0.4941387474536896
+      },
+      {
+        "id": "https://openalex.org/keywords/christianity",
+        "display_name": "Christianity",
+        "score": 0.46644943952560425
+      },
+      {
+        "id": "https://openalex.org/keywords/theosophy",
+        "display_name": "Theosophy",
+        "score": 0.4658983647823334
+      },
+      {
+        "id": "https://openalex.org/keywords/islam",
+        "display_name": "Islam",
+        "score": 0.46562454104423523
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-experience",
+        "display_name": "Religious experience",
+        "score": 0.4384646713733673
+      },
+      {
+        "id": "https://openalex.org/keywords/shamanism",
+        "display_name": "Shamanism",
+        "score": 0.4349173307418823
+      },
+      {
+        "id": "https://openalex.org/keywords/psychoanalysis",
+        "display_name": "Psychoanalysis",
+        "score": 0.42317959666252136
+      },
+      {
+        "id": "https://openalex.org/keywords/contemplation",
+        "display_name": "Contemplation",
+        "score": 0.4209528863430023
+      },
+      {
+        "id": "https://openalex.org/keywords/paranormal",
+        "display_name": "Paranormal",
+        "score": 0.4118228554725647
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-studies",
+        "display_name": "Religious studies",
+        "score": 0.3993622660636902
+      },
+      {
+        "id": "https://openalex.org/keywords/spirituality",
+        "display_name": "Spirituality",
+        "score": 0.2885291576385498
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.27585041522979736
+      },
+      {
+        "id": "https://openalex.org/keywords/theology",
+        "display_name": "Theology",
+        "score": 0.21922257542610168
+      },
+      {
+        "id": "https://openalex.org/keywords/psychotherapist",
+        "display_name": "Psychotherapist",
+        "score": 0.1351454257965088
+      },
+      {
+        "id": "https://openalex.org/keywords/traditional-medicine",
+        "display_name": "Traditional medicine",
+        "score": 0.09914827346801758
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C521822307",
+        "wikidata": "https://www.wikidata.org/wiki/Q108458",
+        "display_name": "Meditation",
+        "level": 2,
+        "score": 0.7054183483123779
+      },
+      {
+        "id": "https://openalex.org/C169081014",
+        "wikidata": "https://www.wikidata.org/wiki/Q45996",
+        "display_name": "Mysticism",
+        "level": 2,
+        "score": 0.6879600882530212
+      },
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.679778516292572
+      },
+      {
+        "id": "https://openalex.org/C2780822299",
+        "wikidata": "https://www.wikidata.org/wiki/Q9165",
+        "display_name": "Soul",
+        "level": 2,
+        "score": 0.6672859191894531
+      },
+      {
+        "id": "https://openalex.org/C139058780",
+        "wikidata": "https://www.wikidata.org/wiki/Q181078",
+        "display_name": "Lucid dream",
+        "level": 4,
+        "score": 0.6435325145721436
+      },
+      {
+        "id": "https://openalex.org/C46610780",
+        "wikidata": "https://www.wikidata.org/wiki/Q9089",
+        "display_name": "Hinduism",
+        "level": 2,
+        "score": 0.6355843544006348
+      },
+      {
+        "id": "https://openalex.org/C2781095916",
+        "wikidata": "https://www.wikidata.org/wiki/Q36348",
+        "display_name": "Dream",
+        "level": 2,
+        "score": 0.635482907295227
+      },
+      {
+        "id": "https://openalex.org/C186720457",
+        "wikidata": "https://www.wikidata.org/wiki/Q7087",
+        "display_name": "Consciousness",
+        "level": 2,
+        "score": 0.6021785736083984
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.5029765963554382
+      },
+      {
+        "id": "https://openalex.org/C2776519999",
+        "wikidata": "https://www.wikidata.org/wiki/Q2270606",
+        "display_name": "Spiritual practice",
+        "level": 4,
+        "score": 0.4941387474536896
+      },
+      {
+        "id": "https://openalex.org/C551968917",
+        "wikidata": "https://www.wikidata.org/wiki/Q5043",
+        "display_name": "Christianity",
+        "level": 2,
+        "score": 0.46644943952560425
+      },
+      {
+        "id": "https://openalex.org/C500070807",
+        "wikidata": "https://www.wikidata.org/wiki/Q27657108",
+        "display_name": "Theosophy",
+        "level": 3,
+        "score": 0.4658983647823334
+      },
+      {
+        "id": "https://openalex.org/C4445939",
+        "wikidata": "https://www.wikidata.org/wiki/Q432",
+        "display_name": "Islam",
+        "level": 2,
+        "score": 0.46562454104423523
+      },
+      {
+        "id": "https://openalex.org/C108305163",
+        "wikidata": "https://www.wikidata.org/wiki/Q143210",
+        "display_name": "Religious experience",
+        "level": 2,
+        "score": 0.4384646713733673
+      },
+      {
+        "id": "https://openalex.org/C512209198",
+        "wikidata": "https://www.wikidata.org/wiki/Q42042",
+        "display_name": "Shamanism",
+        "level": 2,
+        "score": 0.4349173307418823
+      },
+      {
+        "id": "https://openalex.org/C11171543",
+        "wikidata": "https://www.wikidata.org/wiki/Q41630",
+        "display_name": "Psychoanalysis",
+        "level": 1,
+        "score": 0.42317959666252136
+      },
+      {
+        "id": "https://openalex.org/C178288346",
+        "wikidata": "https://www.wikidata.org/wiki/Q1123855",
+        "display_name": "Contemplation",
+        "level": 2,
+        "score": 0.4209528863430023
+      },
+      {
+        "id": "https://openalex.org/C546668722",
+        "wikidata": "https://www.wikidata.org/wiki/Q332102",
+        "display_name": "Paranormal",
+        "level": 3,
+        "score": 0.4118228554725647
+      },
+      {
+        "id": "https://openalex.org/C24667770",
+        "wikidata": "https://www.wikidata.org/wiki/Q34187",
+        "display_name": "Religious studies",
+        "level": 1,
+        "score": 0.3993622660636902
+      },
+      {
+        "id": "https://openalex.org/C514793146",
+        "wikidata": "https://www.wikidata.org/wiki/Q168796",
+        "display_name": "Spirituality",
+        "level": 3,
+        "score": 0.2885291576385498
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.27585041522979736
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.21922257542610168
+      },
+      {
+        "id": "https://openalex.org/C542102704",
+        "wikidata": "https://www.wikidata.org/wiki/Q183257",
+        "display_name": "Psychotherapist",
+        "level": 1,
+        "score": 0.1351454257965088
+      },
+      {
+        "id": "https://openalex.org/C556039675",
+        "wikidata": "https://www.wikidata.org/wiki/Q771035",
+        "display_name": "Traditional medicine",
+        "level": 1,
+        "score": 0.09914827346801758
+      },
+      {
+        "id": "https://openalex.org/C2776618520",
+        "wikidata": "https://www.wikidata.org/wiki/Q1799774",
+        "display_name": "Ganoderma",
+        "level": 3,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C169760540",
+        "wikidata": "https://www.wikidata.org/wiki/Q207011",
+        "display_name": "Neuroscience",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C2992468417",
+        "wikidata": "https://www.wikidata.org/wiki/Q271098",
+        "display_name": "Ganoderma lucidum",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C204787440",
+        "wikidata": "https://www.wikidata.org/wiki/Q188504",
+        "display_name": "Alternative medicine",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C142724271",
+        "wikidata": "https://www.wikidata.org/wiki/Q7208",
+        "display_name": "Pathology",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 6,
+    "locations": [
+      {
+        "id": "doi:10.3389/fpsyg.2020.555731",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fpsyg.2020.555731",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.555731/pdf",
+        "source": {
+          "id": "https://openalex.org/S9692511",
+          "display_name": "Frontiers in Psychology",
+          "issn_l": "1664-1078",
+          "issn": [
+            "1664-1078"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Psychology",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:33123040",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/33123040",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in psychology",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:repositorio.ufrn.br:123456789/30279",
+        "is_oa": true,
+        "landing_page_url": "http://doi.org/10.3389/fpsyg.2020.555731.",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402641",
+          "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4383465926",
+          "host_organization_name": "LA Referencia",
+          "host_organization_lineage": [
+            "https://openalex.org/I4383465926"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "instacron:UFRN",
+        "raw_type": "info:eu-repo/semantics/publishedVersion"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:7573223",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7573223",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Front Psychol",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:adc320cf5c644199bb8c59d9d53102ff",
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/adc320cf5c644199bb8c59d9d53102ff",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Frontiers in Psychology, Vol 11 (2020)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:https://repositorio.ufrn.br:123456789/30279",
+        "is_oa": true,
+        "landing_page_url": "https://repositorio.ufrn.br/handle/123456789/30279",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402641",
+          "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4383465926",
+          "host_organization_name": "LA Referencia",
+          "host_organization_lineage": [
+            "https://openalex.org/I4383465926"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "reponame:Repositório Institucional da UFRN",
+        "raw_type": "info:eu-repo/semantics/publishedVersion"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3389/fpsyg.2020.555731",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3389/fpsyg.2020.555731",
+      "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.555731/pdf",
+      "source": {
+        "id": "https://openalex.org/S9692511",
+        "display_name": "Frontiers in Psychology",
+        "issn_l": "1664-1078",
+        "issn": [
+          "1664-1078"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320527",
+        "host_organization_name": "Frontiers Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320527"
+        ],
+        "host_organization_lineage_names": [
+          "Frontiers Media"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Frontiers in Psychology",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G1322486680",
+        "display_name": null,
+        "funder_award_id": "2013-07699-0",
+        "funder_id": "https://openalex.org/F4320320997",
+        "funder_display_name": "Fundação de Amparo à Pesquisa do Estado de São Paulo"
+      },
+      {
+        "id": "https://openalex.org/G1638630307",
+        "display_name": "INCT 2014: Translational Medicine",
+        "funder_award_id": "14/50891-1",
+        "funder_id": "https://openalex.org/F4320320997",
+        "funder_display_name": "Fundação de Amparo à Pesquisa do Estado de São Paulo"
+      },
+      {
+        "id": "https://openalex.org/G1910658442",
+        "display_name": null,
+        "funder_award_id": "2013/07699–0",
+        "funder_id": "https://openalex.org/F4320322025",
+        "funder_display_name": "Conselho Nacional de Desenvolvimento Científico e Tecnológico"
+      },
+      {
+        "id": "https://openalex.org/G2272266935",
+        "display_name": null,
+        "funder_award_id": "2013/07699-0",
+        "funder_id": "https://openalex.org/F4320321091",
+        "funder_display_name": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior"
+      },
+      {
+        "id": "https://openalex.org/G2426446639",
+        "display_name": null,
+        "funder_award_id": "308775/2015­5",
+        "funder_id": "https://openalex.org/F4320322025",
+        "funder_display_name": "Conselho Nacional de Desenvolvimento Científico e Tecnológico"
+      },
+      {
+        "id": "https://openalex.org/G2772168918",
+        "display_name": null,
+        "funder_award_id": "INCT 2014",
+        "funder_id": "https://openalex.org/F4320320997",
+        "funder_display_name": "Fundação de Amparo à Pesquisa do Estado de São Paulo"
+      },
+      {
+        "id": "https://openalex.org/G3080760739",
+        "display_name": null,
+        "funder_award_id": "2013/07699-0",
+        "funder_id": "https://openalex.org/F4320322904",
+        "funder_display_name": "Financiadora de Estudos e Projetos"
+      },
+      {
+        "id": "https://openalex.org/G4692242456",
+        "display_name": null,
+        "funder_award_id": "408145/2016-1",
+        "funder_id": "https://openalex.org/F4320322025",
+        "funder_display_name": "Conselho Nacional de Desenvolvimento Científico e Tecnológico"
+      },
+      {
+        "id": "https://openalex.org/G4716251628",
+        "display_name": null,
+        "funder_award_id": "003/2011",
+        "funder_id": "https://openalex.org/F4320322025",
+        "funder_display_name": "Conselho Nacional de Desenvolvimento Científico e Tecnológico"
+      },
+      {
+        "id": "https://openalex.org/G5046065109",
+        "display_name": null,
+        "funder_award_id": "003/2011",
+        "funder_id": "https://openalex.org/F4320323352",
+        "funder_display_name": "Fundação de Apoio à Pesquisa do Rio Grande do Norte"
+      },
+      {
+        "id": "https://openalex.org/G5370638552",
+        "display_name": null,
+        "funder_award_id": "308775/2015-5",
+        "funder_id": "https://openalex.org/F4320321091",
+        "funder_display_name": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior"
+      },
+      {
+        "id": "https://openalex.org/G5392793445",
+        "display_name": null,
+        "funder_award_id": "408145/2016-1",
+        "funder_id": "https://openalex.org/F4320321091",
+        "funder_display_name": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior"
+      },
+      {
+        "id": "https://openalex.org/G6472399450",
+        "display_name": "Research, Innovation and Dissemination Center for Neuromathematics - NeuroMat",
+        "funder_award_id": "13/07699-0",
+        "funder_id": "https://openalex.org/F4320320997",
+        "funder_display_name": "Fundação de Amparo à Pesquisa do Estado de São Paulo"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320997",
+        "display_name": "Fundação de Amparo à Pesquisa do Estado de São Paulo",
+        "ror": "https://ror.org/02ddkpn78"
+      },
+      {
+        "id": "https://openalex.org/F4320321091",
+        "display_name": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior",
+        "ror": "https://ror.org/00x0ma614"
+      },
+      {
+        "id": "https://openalex.org/F4320322025",
+        "display_name": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+        "ror": "https://ror.org/03swz6y49"
+      },
+      {
+        "id": "https://openalex.org/F4320322904",
+        "display_name": "Financiadora de Estudos e Projetos",
+        "ror": "https://ror.org/030w99567"
+      },
+      {
+        "id": "https://openalex.org/F4320323352",
+        "display_name": "Fundação de Apoio à Pesquisa do Rio Grande do Norte",
+        "ror": "https://ror.org/05c2t0m16"
+      },
+      {
+        "id": "https://openalex.org/F4320324388",
+        "display_name": "Ministério da Ciência e Tecnologia",
+        "ror": "https://ror.org/050zdnc69"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W3092335675.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W3092335675.grobid-xml"
+    },
+    "referenced_works_count": 72,
+    "referenced_works": [
+      "https://openalex.org/W2265745",
+      "https://openalex.org/W58965545",
+      "https://openalex.org/W377095639",
+      "https://openalex.org/W598729574",
+      "https://openalex.org/W619822444",
+      "https://openalex.org/W1693689577",
+      "https://openalex.org/W1717383561",
+      "https://openalex.org/W1850883925",
+      "https://openalex.org/W1854287504",
+      "https://openalex.org/W1960695406",
+      "https://openalex.org/W1979243992",
+      "https://openalex.org/W1997078671",
+      "https://openalex.org/W2001156057",
+      "https://openalex.org/W2010176386",
+      "https://openalex.org/W2012997761",
+      "https://openalex.org/W2016505435",
+      "https://openalex.org/W2026267776",
+      "https://openalex.org/W2044032680",
+      "https://openalex.org/W2048259805",
+      "https://openalex.org/W2050073971",
+      "https://openalex.org/W2056742826",
+      "https://openalex.org/W2076751880",
+      "https://openalex.org/W2079765389",
+      "https://openalex.org/W2089054233",
+      "https://openalex.org/W2097584335",
+      "https://openalex.org/W2099202374",
+      "https://openalex.org/W2101546115",
+      "https://openalex.org/W2111563419",
+      "https://openalex.org/W2127681890",
+      "https://openalex.org/W2160091764",
+      "https://openalex.org/W2170517949",
+      "https://openalex.org/W2171203087",
+      "https://openalex.org/W2184082164",
+      "https://openalex.org/W2264387875",
+      "https://openalex.org/W2286966518",
+      "https://openalex.org/W2314983631",
+      "https://openalex.org/W2336592706",
+      "https://openalex.org/W2337804557",
+      "https://openalex.org/W2484700518",
+      "https://openalex.org/W2491294596",
+      "https://openalex.org/W2500465829",
+      "https://openalex.org/W2505907968",
+      "https://openalex.org/W2513700994",
+      "https://openalex.org/W2522509459",
+      "https://openalex.org/W2532422434",
+      "https://openalex.org/W2586804895",
+      "https://openalex.org/W2607177050",
+      "https://openalex.org/W2620020713",
+      "https://openalex.org/W2620615786",
+      "https://openalex.org/W2704181554",
+      "https://openalex.org/W2810402061",
+      "https://openalex.org/W2922234293",
+      "https://openalex.org/W2990369419",
+      "https://openalex.org/W2999067306",
+      "https://openalex.org/W3004583579",
+      "https://openalex.org/W3016457215",
+      "https://openalex.org/W3037316305",
+      "https://openalex.org/W3109835426",
+      "https://openalex.org/W4206839712",
+      "https://openalex.org/W4230242091",
+      "https://openalex.org/W4250513524",
+      "https://openalex.org/W4312995370",
+      "https://openalex.org/W4399858985",
+      "https://openalex.org/W6600091190",
+      "https://openalex.org/W6608398387",
+      "https://openalex.org/W6641118895",
+      "https://openalex.org/W6657288355",
+      "https://openalex.org/W6686402458",
+      "https://openalex.org/W6693325227",
+      "https://openalex.org/W6703842289",
+      "https://openalex.org/W6738355357",
+      "https://openalex.org/W6787242389"
+    ],
+    "related_works": [
+      "https://openalex.org/W2060556443",
+      "https://openalex.org/W3165091470",
+      "https://openalex.org/W2032002226",
+      "https://openalex.org/W2460365853",
+      "https://openalex.org/W2494948411",
+      "https://openalex.org/W3028501349",
+      "https://openalex.org/W582561984",
+      "https://openalex.org/W2006235274",
+      "https://openalex.org/W2174061811",
+      "https://openalex.org/W3092335675"
+    ],
+    "abstract_inverted_index": {
+      "Lucid": [
+        0
+      ],
+      "dreaming": [
+        1,
+        43
+      ],
+      "(LD)": [
+        2
+      ],
+      "began": [
+        3
+      ],
+      "to": [
+        4,
+        67,
+        103,
+        180,
+        184,
+        209,
+        231
+      ],
+      "be": [
+        5
+      ],
+      "scientifically": [
+        6
+      ],
+      "studied": [
+        7
+      ],
+      "in": [
+        8,
+        21,
+        41,
+        202
+      ],
+      "the": [
+        9,
+        17,
+        50,
+        58,
+        69,
+        78,
+        82,
+        101,
+        123,
+        126,
+        130,
+        133,
+        139,
+        186,
+        190,
+        192,
+        220,
+        233
+      ],
+      "last": [
+        10
+      ],
+      "century,": [
+        11,
+        135
+      ],
+      "but": [
+        12
+      ],
+      "various": [
+        13
+      ],
+      "religions": [
+        14,
+        155,
+        195
+      ],
+      "have": [
+        15,
+        55
+      ],
+      "highlighted": [
+        16
+      ],
+      "importance": [
+        18
+      ],
+      "of": [
+        19,
+        93,
+        111,
+        120,
+        122,
+        138,
+        236
+      ],
+      "LD": [
+        20,
+        86,
+        116,
+        144,
+        158,
+        211,
+        237
+      ],
+      "their": [
+        22
+      ],
+      "doctrines": [
+        23
+      ],
+      "for": [
+        24,
+        37,
+        100,
+        225
+      ],
+      "a": [
+        25,
+        61,
+        90,
+        97,
+        118,
+        178
+      ],
+      "much": [
+        26
+      ],
+      "longer": [
+        27
+      ],
+      "period.": [
+        28
+      ],
+      "Hindus'": [
+        29
+      ],
+      "manuscripts": [
+        30
+      ],
+      "dating": [
+        31
+      ],
+      "back": [
+        32
+      ],
+      "over": [
+        33
+      ],
+      "2,000": [
+        34
+      ],
+      "years": [
+        35
+      ],
+      "ago,": [
+        36
+      ],
+      "example,": [
+        38
+      ],
+      "divide": [
+        39
+      ],
+      "consciousness": [
+        40
+      ],
+      "waking,": [
+        42
+      ],
+      "(including": [
+        44
+      ],
+      "LD),": [
+        45
+      ],
+      "and": [
+        46,
+        76,
+        96,
+        159,
+        173,
+        188,
+        197,
+        212
+      ],
+      "deep": [
+        47
+      ],
+      "sleep.": [
+        48,
+        149,
+        164,
+        214
+      ],
+      "In": [
+        49,
+        81,
+        132
+      ],
+      "Buddhist": [
+        51
+      ],
+      "tradition,": [
+        52
+      ],
+      "Tibetan": [
+        53
+      ],
+      "monks": [
+        54
+      ],
+      "been": [
+        56
+      ],
+      "practicing": [
+        57
+      ],
+      "\"Dream": [
+        59
+      ],
+      "Yoga,\"": [
+        60
+      ],
+      "meditation": [
+        62
+      ],
+      "technique": [
+        63
+      ],
+      "that": [
+        64,
+        143,
+        167
+      ],
+      "instructs": [
+        65
+      ],
+      "dreamers": [
+        66
+      ],
+      "recognize": [
+        68,
+        175
+      ],
+      "dream,": [
+        70
+      ],
+      "overcome": [
+        71
+      ],
+      "all": [
+        72
+      ],
+      "fears": [
+        73
+      ],
+      "when": [
+        74,
+        125
+      ],
+      "lucid,": [
+        75
+      ],
+      "control": [
+        77
+      ],
+      "oneiric": [
+        79
+      ],
+      "content.": [
+        80
+      ],
+      "Islamic": [
+        83
+      ],
+      "sacred": [
+        84
+      ],
+      "scriptures,": [
+        85
+      ],
+      "is": [
+        87
+      ],
+      "regarded": [
+        88
+      ],
+      "as": [
+        89,
+        117,
+        177,
+        239
+      ],
+      "mental": [
+        91
+      ],
+      "state": [
+        92
+      ],
+      "great": [
+        94
+      ],
+      "value,": [
+        95
+      ],
+      "special": [
+        98
+      ],
+      "way": [
+        99,
+        179
+      ],
+      "initiated": [
+        102
+      ],
+      "reach": [
+        104
+      ],
+      "mystical": [
+        105
+      ],
+      "experiences.": [
+        106
+      ],
+      "The": [
+        107
+      ],
+      "Christian": [
+        108
+      ],
+      "theologian": [
+        109
+      ],
+      "Augustine": [
+        110
+      ],
+      "Hippo": [
+        112
+      ],
+      "(354-430": [
+        113
+      ],
+      "AD)": [
+        114
+      ],
+      "mentions": [
+        115
+      ],
+      "kind": [
+        119
+      ],
+      "preview": [
+        121
+      ],
+      "afterlife,": [
+        124
+      ],
+      "soul": [
+        127
+      ],
+      "separates": [
+        128
+      ],
+      "from": [
+        129,
+        216
+      ],
+      "body.": [
+        131
+      ],
+      "nineteenth": [
+        134
+      ],
+      "some": [
+        136
+      ],
+      "branches": [
+        137
+      ],
+      "Spiritism": [
+        140
+      ],
+      "religion": [
+        141
+      ],
+      "argue": [
+        142
+      ],
+      "precedes": [
+        145
+      ],
+      "out-of-body": [
+        146
+      ],
+      "experiences": [
+        147
+      ],
+      "during": [
+        148,
+        163
+      ],
+      "Here": [
+        150
+      ],
+      "we": [
+        151
+      ],
+      "reviewed": [
+        152
+      ],
+      "how": [
+        153
+      ],
+      "these": [
+        154
+      ],
+      "interpret": [
+        156
+      ],
+      "dreams,": [
+        157
+      ],
+      "other": [
+        160
+      ],
+      "conscious": [
+        161
+      ],
+      "states": [
+        162
+      ],
+      "We": [
+        165
+      ],
+      "observed": [
+        166
+      ],
+      "while": [
+        168
+      ],
+      "Abrahamic": [
+        169
+      ],
+      "monotheisms": [
+        170
+      ],
+      "(Judaism,": [
+        171
+      ],
+      "Christianity,": [
+        172
+      ],
+      "Islam)": [
+        174
+      ],
+      "dreams": [
+        176
+      ],
+      "communicate": [
+        181
+      ],
+      "with": [
+        182
+      ],
+      "God": [
+        183
+      ],
+      "understand": [
+        185,
+        232
+      ],
+      "present": [
+        187
+      ],
+      "predict": [
+        189
+      ],
+      "future,": [
+        191
+      ],
+      "traditional": [
+        193
+      ],
+      "Indian": [
+        194
+      ],
+      "(Buddhism": [
+        196
+      ],
+      "Hinduism)": [
+        198
+      ],
+      "are": [
+        199
+      ],
+      "more": [
+        200
+      ],
+      "engaged": [
+        201
+      ],
+      "cultivating": [
+        203
+      ],
+      "self-awareness,": [
+        204
+      ],
+      "thus": [
+        205
+      ],
+      "developed": [
+        206
+      ],
+      "specific": [
+        207
+      ],
+      "techniques": [
+        208
+      ],
+      "induce": [
+        210
+      ],
+      "witnessing": [
+        213
+      ],
+      "Teachings": [
+        215
+      ],
+      "religious": [
+        217
+      ],
+      "traditions": [
+        218
+      ],
+      "around": [
+        219
+      ],
+      "world": [
+        221
+      ],
+      "offer": [
+        222
+      ],
+      "important": [
+        223
+      ],
+      "insights": [
+        224
+      ],
+      "scientific": [
+        226
+      ],
+      "researchers": [
+        227
+      ],
+      "today": [
+        228
+      ],
+      "who": [
+        229
+      ],
+      "want": [
+        230
+      ],
+      "full": [
+        234
+      ],
+      "range": [
+        235
+      ],
+      "phenomenology": [
+        238
+      ],
+      "it": [
+        240
+      ],
+      "has": [
+        241
+      ],
+      "emerged": [
+        242
+      ],
+      "through": [
+        243
+      ],
+      "history.": [
+        244
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-08-28T12:50:07.497085",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W601952983",
+    "doi": "https://doi.org/10.25501/soas.00028988",
+    "title": "The Dasanami-Samnyasis: the integration of ascetic lineages into an order.",
+    "display_name": "The Dasanami-Samnyasis: the integration of ascetic lineages into an order.",
+    "relevance_score": 33.534832,
+    "publication_year": 2004,
+    "publication_date": "2004-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W601952983",
+      "doi": "https://doi.org/10.25501/soas.00028988",
+      "mag": "601952983"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:eprints.soas.ac.uk:28988",
+      "is_oa": true,
+      "landing_page_url": "https://eprints.soas.ac.uk/28988/1/10673232.pdf",
+      "pdf_url": "https://eprints.soas.ac.uk/28988/1/10673232.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402168",
+        "display_name": "SOAS Research Online (SOAS University of London)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I31575130",
+        "host_organization_name": "SOAS University of London",
+        "host_organization_lineage": [
+          "https://openalex.org/I31575130"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Theses"
+    },
+    "type": "dissertation",
+    "indexed_in": [
+      "datacite"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://eprints.soas.ac.uk/28988/1/10673232.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5030384815",
+          "display_name": "Matthew James Clark",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Clark, Matthew James",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5030384815"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": true,
+    "cited_by_count": 21,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11563",
+      "display_name": "Indian and Buddhist Studies",
+      "score": 0.9950000047683716,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.9950000047683716,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13902",
+        "display_name": "Indian History and Philosophy",
+        "score": 0.9588000178337097,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13005",
+        "display_name": "Religious Studies and Spiritual Practices",
+        "score": 0.9417999982833862,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/asceticism",
+        "display_name": "Asceticism",
+        "score": 0.902502179145813
+      },
+      {
+        "id": "https://openalex.org/keywords/sect",
+        "display_name": "Sect",
+        "score": 0.8900930881500244
+      },
+      {
+        "id": "https://openalex.org/keywords/hinduism",
+        "display_name": "Hinduism",
+        "score": 0.8480926752090454
+      },
+      {
+        "id": "https://openalex.org/keywords/order",
+        "display_name": "Order (exchange)",
+        "score": 0.6668335199356079
+      },
+      {
+        "id": "https://openalex.org/keywords/south-asia",
+        "display_name": "South asia",
+        "score": 0.5898271203041077
+      },
+      {
+        "id": "https://openalex.org/keywords/history-of-religions",
+        "display_name": "History of religions",
+        "score": 0.4926801323890686
+      },
+      {
+        "id": "https://openalex.org/keywords/genealogy",
+        "display_name": "Genealogy",
+        "score": 0.437010794878006
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.4226168096065521
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-studies",
+        "display_name": "Religious studies",
+        "score": 0.393716424703598
+      },
+      {
+        "id": "https://openalex.org/keywords/classics",
+        "display_name": "Classics",
+        "score": 0.3595389723777771
+      },
+      {
+        "id": "https://openalex.org/keywords/ancient-history",
+        "display_name": "Ancient history",
+        "score": 0.33267533779144287
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.3051682710647583
+      },
+      {
+        "id": "https://openalex.org/keywords/theology",
+        "display_name": "Theology",
+        "score": 0.22820857167243958
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C556447560",
+        "wikidata": "https://www.wikidata.org/wiki/Q179807",
+        "display_name": "Asceticism",
+        "level": 2,
+        "score": 0.902502179145813
+      },
+      {
+        "id": "https://openalex.org/C2776993492",
+        "wikidata": "https://www.wikidata.org/wiki/Q19097",
+        "display_name": "Sect",
+        "level": 2,
+        "score": 0.8900930881500244
+      },
+      {
+        "id": "https://openalex.org/C46610780",
+        "wikidata": "https://www.wikidata.org/wiki/Q9089",
+        "display_name": "Hinduism",
+        "level": 2,
+        "score": 0.8480926752090454
+      },
+      {
+        "id": "https://openalex.org/C182306322",
+        "wikidata": "https://www.wikidata.org/wiki/Q1779371",
+        "display_name": "Order (exchange)",
+        "level": 2,
+        "score": 0.6668335199356079
+      },
+      {
+        "id": "https://openalex.org/C3019281177",
+        "wikidata": "https://www.wikidata.org/wiki/Q771405",
+        "display_name": "South asia",
+        "level": 2,
+        "score": 0.5898271203041077
+      },
+      {
+        "id": "https://openalex.org/C128536511",
+        "wikidata": "https://www.wikidata.org/wiki/Q846742",
+        "display_name": "History of religions",
+        "level": 2,
+        "score": 0.4926801323890686
+      },
+      {
+        "id": "https://openalex.org/C53553401",
+        "wikidata": "https://www.wikidata.org/wiki/Q47307",
+        "display_name": "Genealogy",
+        "level": 1,
+        "score": 0.437010794878006
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.4226168096065521
+      },
+      {
+        "id": "https://openalex.org/C24667770",
+        "wikidata": "https://www.wikidata.org/wiki/Q34187",
+        "display_name": "Religious studies",
+        "level": 1,
+        "score": 0.393716424703598
+      },
+      {
+        "id": "https://openalex.org/C74916050",
+        "wikidata": "https://www.wikidata.org/wiki/Q841090",
+        "display_name": "Classics",
+        "level": 1,
+        "score": 0.3595389723777771
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.33267533779144287
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.3051682710647583
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.22820857167243958
+      },
+      {
+        "id": "https://openalex.org/C10138342",
+        "wikidata": "https://www.wikidata.org/wiki/Q43015",
+        "display_name": "Finance",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 5,
+    "locations": [
+      {
+        "id": "pmh:oai:eprints.soas.ac.uk:28988",
+        "is_oa": true,
+        "landing_page_url": "https://eprints.soas.ac.uk/28988/1/10673232.pdf",
+        "pdf_url": "https://eprints.soas.ac.uk/28988/1/10673232.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306402168",
+          "display_name": "SOAS Research Online (SOAS University of London)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I31575130",
+          "host_organization_name": "SOAS University of London",
+          "host_organization_lineage": [
+            "https://openalex.org/I31575130"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "Theses"
+      },
+      {
+        "id": "pmh:oai:aleph.bib-bvb.de:BVB01-028519875",
+        "is_oa": false,
+        "landing_page_url": "http://search.ebscohost.com/login.aspx?direct=true&amp;scope=site&amp;db=nlebk&amp;db=nlabk&amp;AN=232525",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "Hochschulschrift"
+      },
+      {
+        "id": "pmh:oai:soas-repository.worktribe.com:408635",
+        "is_oa": true,
+        "landing_page_url": "https://soas-repository.worktribe.com/output/408635",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402168",
+          "display_name": "SOAS Research Online (SOAS University of London)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I31575130",
+          "host_organization_name": "SOAS University of London",
+          "host_organization_lineage": [
+            "https://openalex.org/I31575130"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Thesis"
+      },
+      {
+        "id": "doi:10.25501/soas.00028988",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.25501/soas.00028988",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402168",
+          "display_name": "SOAS Research Online (SOAS University of London)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I31575130",
+          "host_organization_name": "SOAS University of London",
+          "host_organization_lineage": [
+            "https://openalex.org/I31575130"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": "article-journal"
+      },
+      {
+        "id": "mag:601952983",
+        "is_oa": false,
+        "landing_page_url": "https://brill.com/view/title/13041?language=en",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306462964",
+          "display_name": "BRILL eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320561",
+          "host_organization_name": "Brill",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320561"
+          ],
+          "host_organization_lineage_names": [
+            "Brill"
+          ],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": "BRILL eBooks",
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:eprints.soas.ac.uk:28988",
+      "is_oa": true,
+      "landing_page_url": "https://eprints.soas.ac.uk/28988/1/10673232.pdf",
+      "pdf_url": "https://eprints.soas.ac.uk/28988/1/10673232.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402168",
+        "display_name": "SOAS Research Online (SOAS University of London)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I31575130",
+        "host_organization_name": "SOAS University of London",
+        "host_organization_lineage": [
+          "https://openalex.org/I31575130"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Theses"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320273",
+        "display_name": "University of Cambridge",
+        "ror": "https://ror.org/013meh722"
+      },
+      {
+        "id": "https://openalex.org/F4320321479",
+        "display_name": "University of Calcutta",
+        "ror": "https://ror.org/01e7v7w47"
+      },
+      {
+        "id": "https://openalex.org/F4320328621",
+        "display_name": "University of Mysore",
+        "ror": "https://ror.org/012bxv356"
+      },
+      {
+        "id": "https://openalex.org/F4320335758",
+        "display_name": "Indian Council of Historical Research",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W601952983.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W601952983.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W3109772464",
+      "https://openalex.org/W1933230666",
+      "https://openalex.org/W1510324964",
+      "https://openalex.org/W1773593298",
+      "https://openalex.org/W1903288820",
+      "https://openalex.org/W2136918751",
+      "https://openalex.org/W1970348749",
+      "https://openalex.org/W1558821669",
+      "https://openalex.org/W1526437124",
+      "https://openalex.org/W1734853509",
+      "https://openalex.org/W2610513588",
+      "https://openalex.org/W2590103651",
+      "https://openalex.org/W2046706884",
+      "https://openalex.org/W1519344955",
+      "https://openalex.org/W2140783006",
+      "https://openalex.org/W3211367785",
+      "https://openalex.org/W2079579365",
+      "https://openalex.org/W2035345923",
+      "https://openalex.org/W2304733977",
+      "https://openalex.org/W1589222130"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "thesis": [
+        1,
+        233
+      ],
+      "examines": [
+        2
+      ],
+      "the": [
+        3,
+        8,
+        12,
+        23,
+        33,
+        49,
+        52,
+        61,
+        71,
+        90,
+        92,
+        100,
+        112,
+        120,
+        128,
+        157,
+        165,
+        173,
+        177,
+        182,
+        185,
+        188,
+        208,
+        217,
+        223,
+        226,
+        235,
+        243,
+        249,
+        252,
+        262,
+        268
+      ],
+      "history": [
+        4,
+        250
+      ],
+      "and": [
+        5,
+        108,
+        199,
+        265,
+        270
+      ],
+      "practices": [
+        6
+      ],
+      "of": [
+        7,
+        11,
+        15,
+        63,
+        68,
+        111,
+        122,
+        132,
+        139,
+        142,
+        156,
+        191,
+        211,
+        225,
+        231,
+        237,
+        248,
+        251
+      ],
+      "Dasanami-Samnyasis,": [
+        9
+      ],
+      "one": [
+        10,
+        159
+      ],
+      "largest": [
+        13
+      ],
+      "sects": [
+        14
+      ],
+      "Indian": [
+        16,
+        214,
+        280
+      ],
+      "renunciates,": [
+        17
+      ],
+      "founded,": [
+        18
+      ],
+      "according": [
+        19
+      ],
+      "to": [
+        20,
+        148,
+        234,
+        240,
+        258,
+        266,
+        278
+      ],
+      "tradition,": [
+        21,
+        169,
+        264
+      ],
+      "by": [
+        22,
+        176,
+        261
+      ],
+      "famous": [
+        24
+      ],
+      "advaita": [
+        25,
+        168
+      ],
+      "philosopher": [
+        26
+      ],
+      "Sankaracarya,": [
+        27
+      ],
+      "who": [
+        28,
+        193,
+        200
+      ],
+      "may": [
+        29
+      ],
+      "have": [
+        30,
+        194,
+        275
+      ],
+      "lived": [
+        31
+      ],
+      "in": [
+        32,
+        77,
+        99,
+        181,
+        207
+      ],
+      "eighth": [
+        34
+      ],
+      "century": [
+        35
+      ],
+      "CE.": [
+        36
+      ],
+      "It": [
+        37
+      ],
+      "is": [
+        38,
+        42,
+        239,
+        255
+      ],
+      "argued": [
+        39
+      ],
+      "that": [
+        40,
+        45,
+        254,
+        259,
+        273
+      ],
+      "it": [
+        41
+      ],
+      "highly": [
+        43
+      ],
+      "improbable": [
+        44
+      ],
+      "Sankaracarya": [
+        46
+      ],
+      "founded": [
+        47
+      ],
+      "either": [
+        48
+      ],
+      "sect": [
+        50
+      ],
+      "or": [
+        51,
+        103
+      ],
+      "four": [
+        53
+      ],
+      "(or": [
+        54
+      ],
+      "five)": [
+        55
+      ],
+      "main": [
+        56,
+        154
+      ],
+      "Dasanami": [
+        57
+      ],
+      "monasteries,": [
+        58
+      ],
+      "which": [
+        59,
+        84,
+        143
+      ],
+      "are": [
+        60,
+        152
+      ],
+      "seats": [
+        62
+      ],
+      "reigning": [
+        64
+      ],
+      "Sankaracaryas.": [
+        65
+      ],
+      "The": [
+        66,
+        106,
+        130,
+        229
+      ],
+      "locus": [
+        67
+      ],
+      "identity": [
+        69,
+        126,
+        135
+      ],
+      "for": [
+        70,
+        119,
+        127,
+        172,
+        242
+      ],
+      "Dasanamis": [
+        72,
+        93,
+        253
+      ],
+      "(meaning": [
+        73
+      ],
+      "'ten": [
+        74
+      ],
+      "names')": [
+        75
+      ],
+      "lies": [
+        76
+      ],
+      "several": [
+        78,
+        137
+      ],
+      "short": [
+        79
+      ],
+      "texts,": [
+        80
+      ],
+      "known": [
+        81
+      ],
+      "as": [
+        82,
+        96
+      ],
+      "mathamnayas,": [
+        83
+      ],
+      "were": [
+        85,
+        201
+      ],
+      "most": [
+        86
+      ],
+      "probably": [
+        87
+      ],
+      "produced": [
+        88
+      ],
+      "around": [
+        89
+      ],
+      "time": [
+        91,
+        113,
+        175
+      ],
+      "became": [
+        94
+      ],
+      "organised": [
+        95
+      ],
+      "an": [
+        97,
+        115,
+        134,
+        246,
+        256
+      ],
+      "order,": [
+        98
+      ],
+      "late": [
+        101
+      ],
+      "sixteenth": [
+        102
+      ],
+      "seventeenth": [
+        104
+      ],
+      "century.": [
+        105,
+        219
+      ],
+      "political": [
+        107
+      ],
+      "religious": [
+        109,
+        281
+      ],
+      "circumstances": [
+        110
+      ],
+      "provide": [
+        114
+      ],
+      "adequate---though": [
+        116
+      ],
+      "not": [
+        117
+      ],
+      "definitive---context": [
+        118
+      ],
+      "production": [
+        121
+      ],
+      "a": [
+        123,
+        195
+      ],
+      "distinct": [
+        124
+      ],
+      "Hindu": [
+        125
+      ],
+      "sect.": [
+        129
+      ],
+      "process": [
+        131
+      ],
+      "forming": [
+        133
+      ],
+      "integrated": [
+        136
+      ],
+      "lineages": [
+        138
+      ],
+      "ascetics,": [
+        140
+      ],
+      "some": [
+        141
+      ],
+      "had": [
+        144
+      ],
+      "no": [
+        145
+      ],
+      "previous": [
+        146
+      ],
+      "connection": [
+        147
+      ],
+      "each": [
+        149
+      ],
+      "other.": [
+        150
+      ],
+      "There": [
+        151
+      ],
+      "two": [
+        153,
+        227
+      ],
+      "branches": [
+        155
+      ],
+      "order:": [
+        158
+      ],
+      "being": [
+        160,
+        187
+      ],
+      "what": [
+        161
+      ],
+      "might": [
+        162
+      ],
+      "be": [
+        163
+      ],
+      "called": [
+        164
+      ],
+      "Brahmanical": [
+        166
+      ],
+      "monastic": [
+        167
+      ],
+      "extensively": [
+        170
+      ],
+      "promoted": [
+        171
+      ],
+      "first": [
+        174,
+        244
+      ],
+      "early": [
+        178
+      ],
+      "Vijayanagara": [
+        179
+      ],
+      "rulers": [
+        180
+      ],
+      "fourteenth": [
+        183
+      ],
+      "century;": [
+        184
+      ],
+      "other": [
+        186
+      ],
+      "military": [
+        189
+      ],
+      "branch": [
+        190
+      ],
+      "naga-s,": [
+        192
+      ],
+      "non-orthodox,": [
+        196
+      ],
+      "semi-Tantric": [
+        197
+      ],
+      "background,": [
+        198
+      ],
+      "particularly": [
+        202
+      ],
+      "conspicuous": [
+        203
+      ],
+      "when": [
+        204
+      ],
+      "they": [
+        205
+      ],
+      "served": [
+        206
+      ],
+      "standing": [
+        209
+      ],
+      "armies": [
+        210
+      ],
+      "various": [
+        212,
+        269
+      ],
+      "north": [
+        213
+      ],
+      "regents": [
+        215
+      ],
+      "during": [
+        216
+      ],
+      "eighteenth": [
+        218
+      ],
+      "Initiation": [
+        220
+      ],
+      "procedures": [
+        221
+      ],
+      "illustrate": [
+        222,
+        267
+      ],
+      "merging": [
+        224
+      ],
+      "branches.": [
+        228
+      ],
+      "contribution": [
+        230
+      ],
+      "this": [
+        232
+      ],
+      "study": [
+        236
+      ],
+      "religions": [
+        238
+      ],
+      "provide,": [
+        241
+      ],
+      "time,": [
+        245
+      ],
+      "account": [
+        247
+      ],
+      "alternative": [
+        257
+      ],
+      "espoused": [
+        260
+      ],
+      "orthodox": [
+        263
+      ],
+      "complex": [
+        271
+      ],
+      "roles": [
+        272
+      ],
+      "samnyasis": [
+        274
+      ],
+      "played---and": [
+        276
+      ],
+      "continue": [
+        277
+      ],
+      "play---in": [
+        279
+      ],
+      "history.": [
+        282
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2014,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2013,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-08-30T07:30:35.949966",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W2087658109",
+    "doi": "https://doi.org/10.1080/00856401.2014.858659",
+    "title": "Negotiating the Passage beyond a Full Span of Life: Old Age Rituals among the Newars",
+    "display_name": "Negotiating the Passage beyond a Full Span of Life: Old Age Rituals among the Newars",
+    "relevance_score": 31.98567,
+    "publication_year": 2014,
+    "publication_date": "2014-01-02",
+    "ids": {
+      "openalex": "https://openalex.org/W2087658109",
+      "doi": "https://doi.org/10.1080/00856401.2014.858659",
+      "mag": "2087658109"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/00856401.2014.858659",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/00856401.2014.858659",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S120889147",
+        "display_name": "South Asia Journal of South Asian Studies",
+        "issn_l": "0085-6401",
+        "issn": [
+          "0085-6401",
+          "1479-0270"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "South Asia: Journal of South Asian Studies",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://escholarship.org/uc/item/1g33j05v",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5006944879",
+          "display_name": "Alexander von Rospatt",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Alexander Von Rospatt",
+        "raw_affiliation_strings": [
+          "University of California, Berkeley, USA",
+          "University of California‐Berkeley USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of California, Berkeley, USA",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          },
+          {
+            "raw_affiliation_string": "University of California‐Berkeley USA",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5006944879"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I95457486"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.7332,
+    "has_fulltext": true,
+    "cited_by_count": 7,
+    "citation_normalized_percentile": {
+      "value": 0.89457618,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 88,
+      "max": 95
+    },
+    "biblio": {
+      "volume": "37",
+      "issue": "1",
+      "first_page": "104",
+      "last_page": "129"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13002",
+      "display_name": "Southeast Asian Sociopolitical Studies",
+      "score": 0.9926999807357788,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13002",
+        "display_name": "Southeast Asian Sociopolitical Studies",
+        "score": 0.9926999807357788,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10149",
+        "display_name": "Anthropological Studies and Insights",
+        "score": 0.9891999959945679,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13802",
+        "display_name": "Vietnamese History and Culture Studies",
+        "score": 0.9800999760627747,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.89480060338974
+      },
+      {
+        "id": "https://openalex.org/keywords/hinduism",
+        "display_name": "Hinduism",
+        "score": 0.7826476097106934
+      },
+      {
+        "id": "https://openalex.org/keywords/appeasement",
+        "display_name": "Appeasement",
+        "score": 0.6316378116607666
+      },
+      {
+        "id": "https://openalex.org/keywords/negotiation",
+        "display_name": "Negotiation",
+        "score": 0.6118472814559937
+      },
+      {
+        "id": "https://openalex.org/keywords/life-span",
+        "display_name": "Life span",
+        "score": 0.5570467710494995
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.49866223335266113
+      },
+      {
+        "id": "https://openalex.org/keywords/vocabulary",
+        "display_name": "Vocabulary",
+        "score": 0.4335390031337738
+      },
+      {
+        "id": "https://openalex.org/keywords/function",
+        "display_name": "Function (biology)",
+        "score": 0.42336606979370117
+      },
+      {
+        "id": "https://openalex.org/keywords/aesthetics",
+        "display_name": "Aesthetics",
+        "score": 0.41503292322158813
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.3809678852558136
+      },
+      {
+        "id": "https://openalex.org/keywords/gender-studies",
+        "display_name": "Gender studies",
+        "score": 0.34690117835998535
+      },
+      {
+        "id": "https://openalex.org/keywords/ancient-history",
+        "display_name": "Ancient history",
+        "score": 0.328723669052124
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-studies",
+        "display_name": "Religious studies",
+        "score": 0.31741368770599365
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.24179086089134216
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.19882053136825562
+      },
+      {
+        "id": "https://openalex.org/keywords/social-science",
+        "display_name": "Social science",
+        "score": 0.15908187627792358
+      },
+      {
+        "id": "https://openalex.org/keywords/political-science",
+        "display_name": "Political science",
+        "score": 0.14421260356903076
+      },
+      {
+        "id": "https://openalex.org/keywords/law",
+        "display_name": "Law",
+        "score": 0.12566381692886353
+      },
+      {
+        "id": "https://openalex.org/keywords/linguistics",
+        "display_name": "Linguistics",
+        "score": 0.11841502785682678
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.09282433986663818
+      },
+      {
+        "id": "https://openalex.org/keywords/gerontology",
+        "display_name": "Gerontology",
+        "score": 0.08313071727752686
+      },
+      {
+        "id": "https://openalex.org/keywords/medicine",
+        "display_name": "Medicine",
+        "score": 0.06464940309524536
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.89480060338974
+      },
+      {
+        "id": "https://openalex.org/C46610780",
+        "wikidata": "https://www.wikidata.org/wiki/Q9089",
+        "display_name": "Hinduism",
+        "level": 2,
+        "score": 0.7826476097106934
+      },
+      {
+        "id": "https://openalex.org/C75732639",
+        "wikidata": "https://www.wikidata.org/wiki/Q620737",
+        "display_name": "Appeasement",
+        "level": 3,
+        "score": 0.6316378116607666
+      },
+      {
+        "id": "https://openalex.org/C199776023",
+        "wikidata": "https://www.wikidata.org/wiki/Q202875",
+        "display_name": "Negotiation",
+        "level": 2,
+        "score": 0.6118472814559937
+      },
+      {
+        "id": "https://openalex.org/C2988516024",
+        "wikidata": "https://www.wikidata.org/wiki/Q441195",
+        "display_name": "Life span",
+        "level": 2,
+        "score": 0.5570467710494995
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.49866223335266113
+      },
+      {
+        "id": "https://openalex.org/C2777601683",
+        "wikidata": "https://www.wikidata.org/wiki/Q6499736",
+        "display_name": "Vocabulary",
+        "level": 2,
+        "score": 0.4335390031337738
+      },
+      {
+        "id": "https://openalex.org/C14036430",
+        "wikidata": "https://www.wikidata.org/wiki/Q3736076",
+        "display_name": "Function (biology)",
+        "level": 2,
+        "score": 0.42336606979370117
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.41503292322158813
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.3809678852558136
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.34690117835998535
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.328723669052124
+      },
+      {
+        "id": "https://openalex.org/C24667770",
+        "wikidata": "https://www.wikidata.org/wiki/Q34187",
+        "display_name": "Religious studies",
+        "level": 1,
+        "score": 0.31741368770599365
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.24179086089134216
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.19882053136825562
+      },
+      {
+        "id": "https://openalex.org/C36289849",
+        "wikidata": "https://www.wikidata.org/wiki/Q34749",
+        "display_name": "Social science",
+        "level": 1,
+        "score": 0.15908187627792358
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.14421260356903076
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.12566381692886353
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.11841502785682678
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.09282433986663818
+      },
+      {
+        "id": "https://openalex.org/C74909509",
+        "wikidata": "https://www.wikidata.org/wiki/Q10387",
+        "display_name": "Gerontology",
+        "level": 1,
+        "score": 0.08313071727752686
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.06464940309524536
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C78458016",
+        "wikidata": "https://www.wikidata.org/wiki/Q840400",
+        "display_name": "Evolutionary biology",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1080/00856401.2014.858659",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/00856401.2014.858659",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S120889147",
+          "display_name": "South Asia Journal of South Asian Studies",
+          "issn_l": "0085-6401",
+          "issn": [
+            "0085-6401",
+            "1479-0270"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "South Asia: Journal of South Asian Studies",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:escholarship.org:ark:/13030/qt1g33j05v",
+        "is_oa": true,
+        "landing_page_url": "https://escholarship.org/uc/item/1g33j05v",
+        "pdf_url": "https://escholarship.org/uc/item/1g33j05v",
+        "source": {
+          "id": "https://openalex.org/S4306400115",
+          "display_name": "eScholarship (California Digital Library)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I2801248553",
+          "host_organization_name": "California Digital Library",
+          "host_organization_lineage": [
+            "https://openalex.org/I2801248553"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "South Asia Journal of South Asian Studies, vol 37, iss 1",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:escholarship.org:ark:/13030/qt1g33j05v",
+      "is_oa": true,
+      "landing_page_url": "https://escholarship.org/uc/item/1g33j05v",
+      "pdf_url": "https://escholarship.org/uc/item/1g33j05v",
+      "source": {
+        "id": "https://openalex.org/S4306400115",
+        "display_name": "eScholarship (California Digital Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2801248553",
+        "host_organization_name": "California Digital Library",
+        "host_organization_lineage": [
+          "https://openalex.org/I2801248553"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "South Asia Journal of South Asian Studies, vol 37, iss 1",
+      "raw_type": "article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2087658109.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2087658109.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2142028341",
+      "https://openalex.org/W4298171749",
+      "https://openalex.org/W2066270982",
+      "https://openalex.org/W3204372927",
+      "https://openalex.org/W2606261264",
+      "https://openalex.org/W2338431853",
+      "https://openalex.org/W2267203625",
+      "https://openalex.org/W1964512057",
+      "https://openalex.org/W2130357043",
+      "https://openalex.org/W1808766580"
+    ],
+    "abstract_inverted_index": {
+      "Among": [
+        0
+      ],
+      "the": [
+        1,
+        14,
+        17,
+        33,
+        41,
+        63,
+        91,
+        97,
+        102
+      ],
+      "rich": [
+        2
+      ],
+      "heritage": [
+        3
+      ],
+      "of": [
+        4,
+        7,
+        16,
+        24,
+        35,
+        43,
+        50,
+        54,
+        74,
+        107
+      ],
+      "medieval": [
+        5
+      ],
+      "forms": [
+        6
+      ],
+      "Tantric": [
+        8
+      ],
+      "Buddhism": [
+        9
+      ],
+      "and": [
+        10,
+        46,
+        53,
+        61,
+        65,
+        87,
+        104
+      ],
+      "Hinduism": [
+        11
+      ],
+      "surviving": [
+        12
+      ],
+      "among": [
+        13
+      ],
+      "Newars": [
+        15
+      ],
+      "Kathmandu": [
+        18
+      ],
+      "Valley": [
+        19
+      ],
+      "is": [
+        20
+      ],
+      "a": [
+        21,
+        36,
+        71
+      ],
+      "unique": [
+        22
+      ],
+      "series": [
+        23
+      ],
+      "elaborate": [
+        25
+      ],
+      "old": [
+        26
+      ],
+      "age": [
+        27
+      ],
+      "rituals": [
+        28,
+        49,
+        76
+      ],
+      "that": [
+        29,
+        77
+      ],
+      "are": [
+        30
+      ],
+      "performed": [
+        31
+      ],
+      "upon": [
+        32,
+        40
+      ],
+      "attainment": [
+        34
+      ],
+      "particular": [
+        37,
+        94
+      ],
+      "age.": [
+        38
+      ],
+      "Drawing": [
+        39
+      ],
+      "vocabulary": [
+        42
+      ],
+      "planetary": [
+        44
+      ],
+      "appeasement": [
+        45
+      ],
+      "other": [
+        47
+      ],
+      "birthday": [
+        48
+      ],
+      "life-cycle": [
+        51
+      ],
+      "sacraments": [
+        52
+      ],
+      "dhāraṇī": [
+        55
+      ],
+      "practice,": [
+        56
+      ],
+      "they": [
+        57
+      ],
+      "serve": [
+        58
+      ],
+      "to": [
+        59,
+        96,
+        111
+      ],
+      "protect": [
+        60
+      ],
+      "sanctify": [
+        62
+      ],
+      "celebrants": [
+        64
+      ],
+      "prolong": [
+        66
+      ],
+      "their": [
+        67,
+        85
+      ],
+      "life.": [
+        68
+      ],
+      "After": [
+        69
+      ],
+      "offering": [
+        70
+      ],
+      "comprehensive": [
+        72
+      ],
+      "overview": [
+        73
+      ],
+      "these": [
+        75,
+        108
+      ],
+      "registers": [
+        78
+      ],
+      "local": [
+        79
+      ],
+      "variations,": [
+        80
+      ],
+      "this": [
+        81
+      ],
+      "paper": [
+        82
+      ],
+      "probes": [
+        83
+      ],
+      "into": [
+        84
+      ],
+      "origins": [
+        86
+      ],
+      "function": [
+        88
+      ],
+      "and,": [
+        89
+      ],
+      "in": [
+        90,
+        100
+      ],
+      "process,": [
+        92
+      ],
+      "pays": [
+        93
+      ],
+      "attention": [
+        95
+      ],
+      "intricate": [
+        98
+      ],
+      "ways": [
+        99
+      ],
+      "which": [
+        101
+      ],
+      "Buddhist": [
+        103
+      ],
+      "Hindu": [
+        105
+      ],
+      "versions": [
+        106
+      ],
+      "ceremonies": [
+        109
+      ],
+      "relate": [
+        110
+      ],
+      "each": [
+        112
+      ],
+      "other.": [
+        113
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-29T07:29:34.045763",
+    "created_date": "2025-10-10T00:00:00"
+  }
+]

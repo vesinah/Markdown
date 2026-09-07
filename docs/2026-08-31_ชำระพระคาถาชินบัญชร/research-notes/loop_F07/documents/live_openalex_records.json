@@ -1,0 +1,1742 @@
+[
+  {
+    "id": "https://openalex.org/W2941093190",
+    "doi": "https://doi.org/10.1163/15685276-12341533",
+    "title": "The Protective Buddha: On the Cosmological Logic of Paritta",
+    "display_name": "The Protective Buddha: On the Cosmological Logic of Paritta",
+    "relevance_score": 247.33107,
+    "publication_year": 2019,
+    "publication_date": "2019-04-11",
+    "ids": {
+      "openalex": "https://openalex.org/W2941093190",
+      "doi": "https://doi.org/10.1163/15685276-12341533",
+      "mag": "2941093190"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1163/15685276-12341533",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1163/15685276-12341533",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S16595306",
+        "display_name": "Numen",
+        "issn_l": "0029-5973",
+        "issn": [
+          "0029-5973",
+          "1568-5276"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320561",
+        "host_organization_name": "Brill",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320561"
+        ],
+        "host_organization_lineage_names": [
+          "Brill"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Numen",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5001346861",
+          "display_name": "Eviatar Shulman",
+          "orcid": "https://orcid.org/0000-0002-4906-3382"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I121297525",
+            "display_name": "Hebrew College",
+            "ror": "https://ror.org/05y3p3k12",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I121297525"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Eviatar Shulman",
+        "raw_affiliation_strings": [
+          "Hebrew University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Hebrew University",
+            "institution_ids": [
+              "https://openalex.org/I121297525"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5001346861"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I121297525"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 3.1901,
+    "has_fulltext": false,
+    "cited_by_count": 17,
+    "citation_normalized_percentile": {
+      "value": 0.91078624,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "66",
+      "issue": "2-3",
+      "first_page": "207",
+      "last_page": "242"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10708",
+      "display_name": "Mindfulness and Compassion Interventions",
+      "score": 0.9984999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10708",
+        "display_name": "Mindfulness and Compassion Interventions",
+        "score": 0.9984999895095825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3203",
+          "display_name": "Clinical Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.9962999820709229,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10509",
+        "display_name": "Religion, Spirituality, and Psychology",
+        "score": 0.9886000156402588,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3306",
+          "display_name": "Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/gautama-buddha",
+        "display_name": "Gautama Buddha",
+        "score": 0.9894137382507324
+      },
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.8431710004806519
+      },
+      {
+        "id": "https://openalex.org/keywords/metaphysics",
+        "display_name": "Metaphysics",
+        "score": 0.6232107281684875
+      },
+      {
+        "id": "https://openalex.org/keywords/scholarship",
+        "display_name": "Scholarship",
+        "score": 0.6182095408439636
+      },
+      {
+        "id": "https://openalex.org/keywords/epistemology",
+        "display_name": "Epistemology",
+        "score": 0.5600621104240417
+      },
+      {
+        "id": "https://openalex.org/keywords/reading",
+        "display_name": "Reading (process)",
+        "score": 0.5370759963989258
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.5087659955024719
+      },
+      {
+        "id": "https://openalex.org/keywords/function",
+        "display_name": "Function (biology)",
+        "score": 0.49158772826194763
+      },
+      {
+        "id": "https://openalex.org/keywords/order",
+        "display_name": "Order (exchange)",
+        "score": 0.4593120217323303
+      },
+      {
+        "id": "https://openalex.org/keywords/history-of-religions",
+        "display_name": "History of religions",
+        "score": 0.42561712861061096
+      },
+      {
+        "id": "https://openalex.org/keywords/close-reading",
+        "display_name": "Close reading",
+        "score": 0.4105469584465027
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.4017643630504608
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.3500339984893799
+      },
+      {
+        "id": "https://openalex.org/keywords/linguistics",
+        "display_name": "Linguistics",
+        "score": 0.1984080970287323
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-studies",
+        "display_name": "Religious studies",
+        "score": 0.17905622720718384
+      },
+      {
+        "id": "https://openalex.org/keywords/theology",
+        "display_name": "Theology",
+        "score": 0.16167747974395752
+      },
+      {
+        "id": "https://openalex.org/keywords/law",
+        "display_name": "Law",
+        "score": 0.08736112713813782
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.07800933718681335
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C524757792",
+        "wikidata": "https://www.wikidata.org/wiki/Q9441",
+        "display_name": "Gautama Buddha",
+        "level": 3,
+        "score": 0.9894137382507324
+      },
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.8431710004806519
+      },
+      {
+        "id": "https://openalex.org/C182744844",
+        "wikidata": "https://www.wikidata.org/wiki/Q35277",
+        "display_name": "Metaphysics",
+        "level": 2,
+        "score": 0.6232107281684875
+      },
+      {
+        "id": "https://openalex.org/C2778061430",
+        "wikidata": "https://www.wikidata.org/wiki/Q188823",
+        "display_name": "Scholarship",
+        "level": 2,
+        "score": 0.6182095408439636
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.5600621104240417
+      },
+      {
+        "id": "https://openalex.org/C554936623",
+        "wikidata": "https://www.wikidata.org/wiki/Q199657",
+        "display_name": "Reading (process)",
+        "level": 2,
+        "score": 0.5370759963989258
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.5087659955024719
+      },
+      {
+        "id": "https://openalex.org/C14036430",
+        "wikidata": "https://www.wikidata.org/wiki/Q3736076",
+        "display_name": "Function (biology)",
+        "level": 2,
+        "score": 0.49158772826194763
+      },
+      {
+        "id": "https://openalex.org/C182306322",
+        "wikidata": "https://www.wikidata.org/wiki/Q1779371",
+        "display_name": "Order (exchange)",
+        "level": 2,
+        "score": 0.4593120217323303
+      },
+      {
+        "id": "https://openalex.org/C128536511",
+        "wikidata": "https://www.wikidata.org/wiki/Q846742",
+        "display_name": "History of religions",
+        "level": 2,
+        "score": 0.42561712861061096
+      },
+      {
+        "id": "https://openalex.org/C2779234423",
+        "wikidata": "https://www.wikidata.org/wiki/Q1042156",
+        "display_name": "Close reading",
+        "level": 2,
+        "score": 0.4105469584465027
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.4017643630504608
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.3500339984893799
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.1984080970287323
+      },
+      {
+        "id": "https://openalex.org/C24667770",
+        "wikidata": "https://www.wikidata.org/wiki/Q34187",
+        "display_name": "Religious studies",
+        "level": 1,
+        "score": 0.17905622720718384
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.16167747974395752
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.08736112713813782
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.07800933718681335
+      },
+      {
+        "id": "https://openalex.org/C10138342",
+        "wikidata": "https://www.wikidata.org/wiki/Q43015",
+        "display_name": "Finance",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C78458016",
+        "wikidata": "https://www.wikidata.org/wiki/Q840400",
+        "display_name": "Evolutionary biology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1163/15685276-12341533",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1163/15685276-12341533",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S16595306",
+          "display_name": "Numen",
+          "issn_l": "0029-5973",
+          "issn": [
+            "0029-5973",
+            "1568-5276"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320561",
+          "host_organization_name": "Brill",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320561"
+          ],
+          "host_organization_lineage_names": [
+            "Brill"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Numen",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/4",
+        "score": 0.5,
+        "display_name": "Quality Education"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 21,
+    "referenced_works": [
+      "https://openalex.org/W157778116",
+      "https://openalex.org/W1539789717",
+      "https://openalex.org/W1547861657",
+      "https://openalex.org/W1571697151",
+      "https://openalex.org/W1983817197",
+      "https://openalex.org/W1988730563",
+      "https://openalex.org/W2029723878",
+      "https://openalex.org/W2038291345",
+      "https://openalex.org/W2041627862",
+      "https://openalex.org/W2061202186",
+      "https://openalex.org/W2137193116",
+      "https://openalex.org/W2143120400",
+      "https://openalex.org/W2147016883",
+      "https://openalex.org/W2172467650",
+      "https://openalex.org/W2504981566",
+      "https://openalex.org/W2508340576",
+      "https://openalex.org/W2617242690",
+      "https://openalex.org/W2770726189",
+      "https://openalex.org/W2798727599",
+      "https://openalex.org/W2964955785",
+      "https://openalex.org/W4285719527"
+    ],
+    "related_works": [
+      "https://openalex.org/W2488832914",
+      "https://openalex.org/W2139904844",
+      "https://openalex.org/W2485525910",
+      "https://openalex.org/W2619603017",
+      "https://openalex.org/W4237312922",
+      "https://openalex.org/W2769974383",
+      "https://openalex.org/W2926222603",
+      "https://openalex.org/W2486559274",
+      "https://openalex.org/W2947691844",
+      "https://openalex.org/W1570565400"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Paritta": [
+        1
+      ],
+      "—": [
+        2,
+        5
+      ],
+      "ritual": [
+        3,
+        53
+      ],
+      "chanting": [
+        4,
+        54
+      ],
+      "is": [
+        6,
+        42
+      ],
+      "a": [
+        7,
+        28,
+        60,
+        114
+      ],
+      "central": [
+        8,
+        119
+      ],
+      "institution": [
+        9
+      ],
+      "in": [
+        10,
+        16,
+        22,
+        72,
+        95,
+        124
+      ],
+      "Theravāda": [
+        11
+      ],
+      "Buddhism,": [
+        12
+      ],
+      "with": [
+        13
+      ],
+      "deep": [
+        14
+      ],
+      "roots": [
+        15
+      ],
+      "all": [
+        17
+      ],
+      "historical": [
+        18
+      ],
+      "forms": [
+        19
+      ],
+      "of": [
+        20,
+        36,
+        46,
+        52,
+        70,
+        75,
+        117,
+        121,
+        145
+      ],
+      "Buddhism": [
+        21
+      ],
+      "Asia.": [
+        23
+      ],
+      "Nevertheless,": [
+        24
+      ],
+      "no": [
+        25
+      ],
+      "study": [
+        26
+      ],
+      "provides": [
+        27,
+        135
+      ],
+      "convincing": [
+        29
+      ],
+      "framework": [
+        30
+      ],
+      "for": [
+        31,
+        87
+      ],
+      "how": [
+        32
+      ],
+      "the": [
+        33,
+        37,
+        49,
+        68,
+        73,
+        92,
+        96,
+        100,
+        118,
+        122,
+        128,
+        138,
+        146,
+        150
+      ],
+      "protective": [
+        34
+      ],
+      "potency": [
+        35
+      ],
+      "Buddha": [
+        38,
+        101,
+        147
+      ],
+      "and": [
+        39,
+        142
+      ],
+      "his": [
+        40
+      ],
+      "words": [
+        41
+      ],
+      "understood.": [
+        43
+      ],
+      "Earlier": [
+        44
+      ],
+      "strands": [
+        45
+      ],
+      "scholarship": [
+        47
+      ],
+      "highlighted": [
+        48
+      ],
+      "psychological": [
+        50
+      ],
+      "aspects": [
+        51
+      ],
+      "that": [
+        55,
+        85
+      ],
+      "were": [
+        56
+      ],
+      "thought": [
+        57
+      ],
+      "to": [
+        58,
+        91,
+        102,
+        126,
+        149
+      ],
+      "have": [
+        59
+      ],
+      "positive": [
+        61
+      ],
+      "effect": [
+        62
+      ],
+      "on": [
+        63
+      ],
+      "participants.": [
+        64
+      ],
+      "Later": [
+        65
+      ],
+      "scholars": [
+        66
+      ],
+      "emphasized": [
+        67
+      ],
+      "role": [
+        69
+      ],
+      "paritta": [
+        71,
+        83
+      ],
+      "training": [
+        74
+      ],
+      "monks.": [
+        76
+      ],
+      "These": [
+        77
+      ],
+      "studies": [
+        78
+      ],
+      "do": [
+        79
+      ],
+      "not": [
+        80
+      ],
+      "explain": [
+        81
+      ],
+      "“how": [
+        82
+      ],
+      "works,”": [
+        84
+      ],
+      "is,": [
+        86
+      ],
+      "example,": [
+        88
+      ],
+      "why,": [
+        89
+      ],
+      "according": [
+        90,
+        148
+      ],
+      "views": [
+        93
+      ],
+      "encapsulated": [
+        94
+      ],
+      "texts": [
+        97,
+        120
+      ],
+      "themselves,": [
+        98
+      ],
+      "bringing": [
+        99
+      ],
+      "mind": [
+        103
+      ],
+      "can": [
+        104
+      ],
+      "act": [
+        105
+      ],
+      "against": [
+        106
+      ],
+      "demons": [
+        107
+      ],
+      "or": [
+        108
+      ],
+      "change": [
+        109
+      ],
+      "reality.": [
+        110
+      ],
+      "This": [
+        111
+      ],
+      "article": [
+        112
+      ],
+      "offers": [
+        113
+      ],
+      "close": [
+        115
+      ],
+      "reading": [
+        116
+      ],
+      "genre": [
+        123
+      ],
+      "order": [
+        125
+      ],
+      "conceptualize": [
+        127
+      ],
+      "metaphysical": [
+        129
+      ],
+      "understanding": [
+        130
+      ],
+      "they": [
+        131
+      ],
+      "employ.": [
+        132
+      ],
+      "It": [
+        133
+      ],
+      "thus": [
+        134
+      ],
+      "insights": [
+        136
+      ],
+      "regarding": [
+        137
+      ],
+      "unique": [
+        139
+      ],
+      "ontological": [
+        140
+      ],
+      "position": [
+        141
+      ],
+      "cosmological": [
+        143
+      ],
+      "function": [
+        144
+      ],
+      "texts.": [
+        151
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 11
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-05-21T06:26:12.895304",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W2496445766",
+    "doi": "https://doi.org/10.1075/fos.8.13aok",
+    "title": "A Semiotic Approach to the Role of Paritta in the Buddhist Ritual",
+    "display_name": "A Semiotic Approach to the Role of Paritta in the Buddhist Ritual",
+    "relevance_score": 180.10023,
+    "publication_year": 1991,
+    "publication_date": "1991-04-19",
+    "ids": {
+      "openalex": "https://openalex.org/W2496445766",
+      "doi": "https://doi.org/10.1075/fos.8.13aok",
+      "mag": "2496445766"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1075/fos.8.13aok",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1075/fos.8.13aok",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210182115",
+        "display_name": "Foundations of semiotics",
+        "issn_l": "0168-2555",
+        "issn": [
+          "0168-2555"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320402",
+        "host_organization_name": "John Benjamins Publishing Company",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320402"
+        ],
+        "host_organization_lineage_names": [
+          "John Benjamins Publishing Company"
+        ],
+        "type": "book series"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Foundations of Semiotics",
+      "raw_type": "book-chapter"
+    },
+    "type": "book-chapter",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5112089988",
+          "display_name": "Tamotsu Aoki",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Tamotsu Aoki",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5112089988"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.32165833,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 94
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "269",
+      "last_page": "284"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13150",
+      "display_name": "Study and Philosophy of Religion",
+      "score": 0.9700000286102295,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13150",
+        "display_name": "Study and Philosophy of Religion",
+        "score": 0.9700000286102295,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13504",
+        "display_name": "African history and culture analysis",
+        "score": 0.9575999975204468,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10149",
+        "display_name": "Anthropological Studies and Insights",
+        "score": 0.9180999994277954,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/semiotics",
+        "display_name": "Semiotics",
+        "score": 0.8589863777160645
+      },
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.6653105616569519
+      },
+      {
+        "id": "https://openalex.org/keywords/linguistics",
+        "display_name": "Linguistics",
+        "score": 0.39317089319229126
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.3633093237876892
+      },
+      {
+        "id": "https://openalex.org/keywords/theology",
+        "display_name": "Theology",
+        "score": 0.1391403079032898
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C139997677",
+        "wikidata": "https://www.wikidata.org/wiki/Q60195",
+        "display_name": "Semiotics",
+        "level": 2,
+        "score": 0.8589863777160645
+      },
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.6653105616569519
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.39317089319229126
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.3633093237876892
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.1391403079032898
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1075/fos.8.13aok",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1075/fos.8.13aok",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210182115",
+          "display_name": "Foundations of semiotics",
+          "issn_l": "0168-2555",
+          "issn": [
+            "0168-2555"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320402",
+          "host_organization_name": "John Benjamins Publishing Company",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320402"
+          ],
+          "host_organization_lineage_names": [
+            "John Benjamins Publishing Company"
+          ],
+          "type": "book series"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Foundations of Semiotics",
+        "raw_type": "book-chapter"
+      },
+      {
+        "id": "mag:2496445766",
+        "is_oa": false,
+        "landing_page_url": "https://www.jbe-platform.com/content/books/9789027285935-13aok",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2332627628",
+      "https://openalex.org/W1986483152",
+      "https://openalex.org/W2920091588",
+      "https://openalex.org/W1525254247",
+      "https://openalex.org/W2107807300",
+      "https://openalex.org/W2489544843",
+      "https://openalex.org/W3183514257",
+      "https://openalex.org/W196357265",
+      "https://openalex.org/W3125099638",
+      "https://openalex.org/W2499036772",
+      "https://openalex.org/W2331316424",
+      "https://openalex.org/W2890070150",
+      "https://openalex.org/W3100793720",
+      "https://openalex.org/W2767623222",
+      "https://openalex.org/W2328190941",
+      "https://openalex.org/W2277418646",
+      "https://openalex.org/W2338335082",
+      "https://openalex.org/W2554574177",
+      "https://openalex.org/W2048246375",
+      "https://openalex.org/W2324986465"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2012,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-07-15T18:14:33.161393",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W2964955785",
+    "doi": "https://doi.org/10.4324/9781315026022-10",
+    "title": "The Dynamics of Paritta Chanting in Southern Buddhism",
+    "display_name": "The Dynamics of Paritta Chanting in Southern Buddhism",
+    "relevance_score": 118.72616,
+    "publication_year": 2013,
+    "publication_date": "2013-12-16",
+    "ids": {
+      "openalex": "https://openalex.org/W2964955785",
+      "doi": "https://doi.org/10.4324/9781315026022-10",
+      "mag": "2964955785"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "mag:2964955785",
+      "is_oa": false,
+      "landing_page_url": "https://www.taylorfrancis.com/chapters/dynamics-paritta-chanting-southern-buddhism-peter-harvey/e/10.4324/9781315026022-10",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": null
+    },
+    "type": "article",
+    "indexed_in": [],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5012045782",
+          "display_name": "Peter Harvey",
+          "orcid": "https://orcid.org/0000-0002-4696-0379"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Peter Harvey",
+        "raw_affiliation_strings": [],
+        "raw_orcid": "https://orcid.org/0000-0002-4696-0379",
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5012045782"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 12.764,
+    "has_fulltext": false,
+    "cited_by_count": 5,
+    "citation_normalized_percentile": {
+      "value": 0.98363453,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 96
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "71",
+      "last_page": "102"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11563",
+      "display_name": "Indian and Buddhist Studies",
+      "score": 0.9886000156402588,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.9886000156402588,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12956",
+        "display_name": "Asian Geopolitics and Ethnography",
+        "score": 0.9448999762535095,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.8195229768753052
+      },
+      {
+        "id": "https://openalex.org/keywords/prayer",
+        "display_name": "Prayer",
+        "score": 0.7750693559646606
+      },
+      {
+        "id": "https://openalex.org/keywords/dynamics",
+        "display_name": "Dynamics (music)",
+        "score": 0.5272437930107117
+      },
+      {
+        "id": "https://openalex.org/keywords/social-dynamics",
+        "display_name": "Social dynamics",
+        "score": 0.49654775857925415
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.4302710294723511
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-studies",
+        "display_name": "Religious studies",
+        "score": 0.4105430245399475
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.3941866159439087
+      },
+      {
+        "id": "https://openalex.org/keywords/theology",
+        "display_name": "Theology",
+        "score": 0.2254250943660736
+      },
+      {
+        "id": "https://openalex.org/keywords/social-science",
+        "display_name": "Social science",
+        "score": 0.22423654794692993
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.8195229768753052
+      },
+      {
+        "id": "https://openalex.org/C2777477151",
+        "wikidata": "https://www.wikidata.org/wiki/Q40953",
+        "display_name": "Prayer",
+        "level": 2,
+        "score": 0.7750693559646606
+      },
+      {
+        "id": "https://openalex.org/C145912823",
+        "wikidata": "https://www.wikidata.org/wiki/Q113558",
+        "display_name": "Dynamics (music)",
+        "level": 2,
+        "score": 0.5272437930107117
+      },
+      {
+        "id": "https://openalex.org/C67469775",
+        "wikidata": "https://www.wikidata.org/wiki/Q304922",
+        "display_name": "Social dynamics",
+        "level": 2,
+        "score": 0.49654775857925415
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.4302710294723511
+      },
+      {
+        "id": "https://openalex.org/C24667770",
+        "wikidata": "https://www.wikidata.org/wiki/Q34187",
+        "display_name": "Religious studies",
+        "level": 1,
+        "score": 0.4105430245399475
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.3941866159439087
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.2254250943660736
+      },
+      {
+        "id": "https://openalex.org/C36289849",
+        "wikidata": "https://www.wikidata.org/wiki/Q34749",
+        "display_name": "Social science",
+        "level": 1,
+        "score": 0.22423654794692993
+      },
+      {
+        "id": "https://openalex.org/C19417346",
+        "wikidata": "https://www.wikidata.org/wiki/Q7922",
+        "display_name": "Pedagogy",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "mag:2964955785",
+        "is_oa": false,
+        "landing_page_url": "https://www.taylorfrancis.com/chapters/dynamics-paritta-chanting-southern-buddhism-peter-harvey/e/10.4324/9781315026022-10",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2178758995",
+      "https://openalex.org/W2394016914",
+      "https://openalex.org/W3144035464",
+      "https://openalex.org/W1738652424",
+      "https://openalex.org/W3120609855",
+      "https://openalex.org/W3005236276",
+      "https://openalex.org/W824961964",
+      "https://openalex.org/W3035957182",
+      "https://openalex.org/W1540498360",
+      "https://openalex.org/W1128472219",
+      "https://openalex.org/W1602093193",
+      "https://openalex.org/W1978818916",
+      "https://openalex.org/W2002437537",
+      "https://openalex.org/W638601920",
+      "https://openalex.org/W2767979432",
+      "https://openalex.org/W2810711772",
+      "https://openalex.org/W1483540929",
+      "https://openalex.org/W1554573007",
+      "https://openalex.org/W2904557520",
+      "https://openalex.org/W2952310704"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0
+      ],
+      "ritual": [
+        1,
+        30
+      ],
+      "chanting": [
+        2
+      ],
+      "of": [
+        3
+      ],
+      "paritta": [
+        4
+      ],
+      "(Sinhalese": [
+        5
+      ],
+      "pirit)": [
+        6
+      ],
+      "is": [
+        7,
+        36
+      ],
+      "an": [
+        8
+      ],
+      "important": [
+        9
+      ],
+      "part": [
+        10
+      ],
+      "\nof": [
+        11
+      ],
+      "Theravada": [
+        12
+      ],
+      "practice,": [
+        13
+      ],
+      "which,": [
+        14
+      ],
+      "as": [
+        15
+      ],
+      "Lily": [
+        16
+      ],
+      "de": [
+        17
+      ],
+      "Silva": [
+        18
+      ],
+      "says,": [
+        19
+      ],
+      "'satisfies": [
+        20
+      ],
+      "all": [
+        21
+      ],
+      "\nthe": [
+        22
+      ],
+      "psychological": [
+        23
+      ],
+      "and": [
+        24,
+        29
+      ],
+      "social": [
+        25
+      ],
+      "functions": [
+        26
+      ],
+      "that": [
+        27,
+        40
+      ],
+      "prayer": [
+        28
+      ],
+      "\nachieve": [
+        31
+      ],
+      "in": [
+        32,
+        48
+      ],
+      "other": [
+        33
+      ],
+      "religions'.!": [
+        34
+      ],
+      "It": [
+        35
+      ],
+      "for": [
+        37
+      ],
+      "this": [
+        38,
+        46
+      ],
+      "reason": [
+        39
+      ],
+      "it": [
+        41
+      ],
+      "seems": [
+        42
+      ],
+      "\nrelevant": [
+        43
+      ],
+      "to": [
+        44
+      ],
+      "include": [
+        45
+      ],
+      "article": [
+        47
+      ],
+      "a": [
+        49
+      ],
+      "volume": [
+        50
+      ],
+      "on": [
+        51
+      ],
+      "bhakti.": [
+        52
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2013,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-04-28T14:05:53.105641",
+    "created_date": "2025-10-10T00:00:00"
+  }
+]

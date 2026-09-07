@@ -1,0 +1,378 @@
+﻿{
+    "status":  "ok",
+    "message-type":  "work",
+    "message-version":  "1.0.0",
+    "message":  {
+                    "indexed":  {
+                                    "date-parts":  [
+                                                       [
+                                                           2026,
+                                                           7,
+                                                           8
+                                                       ]
+                                                   ],
+                                    "date-time":  "2026-07-08T21:58:04Z",
+                                    "timestamp":  1783547884112,
+                                    "version":  "3.55.0"
+                                },
+                    "reference-count":  0,
+                    "publisher":  "Informa UK Limited",
+                    "issue":  "1",
+                    "content-domain":  {
+                                           "domain":  [
+                                                          "www.tandfonline.com"
+                                                      ],
+                                           "crossmark-restriction":  true
+                                       },
+                    "short-container-title":  [
+                                                  "Journal of the Institute of Conservation"
+                                              ],
+                    "published-print":  {
+                                            "date-parts":  [
+                                                               [
+                                                                   2023,
+                                                                   1,
+                                                                   2
+                                                               ]
+                                                           ]
+                                        },
+                    "DOI":  "10.1080/19455224.2023.2167095",
+                    "type":  "journal-article",
+                    "created":  {
+                                    "date-parts":  [
+                                                       [
+                                                           2023,
+                                                           2,
+                                                           23
+                                                       ]
+                                                   ],
+                                    "date-time":  "2023-02-23T17:23:01Z",
+                                    "timestamp":  1677172981000
+                                },
+                    "page":  "64-91",
+                    "update-policy":  "https://doi.org/10.1080/tandf_crossmark_01",
+                    "source":  "Crossref",
+                    "is-referenced-by-count":  18,
+                    "title":  [
+                                  "A literature review of palm leaf manuscript conservation—Part 2: historic and current conservation treatments, boxing and storage, religious and ethical issues, recommendations for best practice"
+                              ],
+                    "prefix":  "10.1080",
+                    "volume":  "46",
+                    "author":  [
+                                   {
+                                       "ORCID":  "https://orcid.org/0000-0001-9023-7412",
+                                       "authenticated-orcid":  false,
+                                       "given":  "Julia",
+                                       "family":  "Wiland",
+                                       "sequence":  "first",
+                                       "affiliation":  [
+                                                           {
+                                                               "name":  "Conservation Department, British Library, London, UK"
+                                                           }
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Rick",
+                                       "family":  "Brown",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+                                                           {
+                                                               "name":  "Conservation Department, British Library, London, UK"
+                                                           }
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Lizzie",
+                                       "family":  "Fuller",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+                                                           {
+                                                               "name":  "Conservation Department, National Library of Scotland, Edinburgh, UK"
+                                                           }
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Lea",
+                                       "family":  "Havelock",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+                                                           {
+                                                               "name":  "Conservation Department, British Library, London, UK"
+                                                           }
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Jackie",
+                                       "family":  "Johnson",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+                                                           {
+                                                               "name":  "Conservation Department, British Library, London, UK"
+                                                           }
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Dorothy",
+                                       "family":  "Kenn",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+                                                           {
+                                                               "name":  "Conservation Department, British Library, London, UK"
+                                                           }
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "ORCID":  "https://orcid.org/0000-0003-3496-8477",
+                                       "authenticated-orcid":  false,
+                                       "given":  "Paulina",
+                                       "family":  "Kralka",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+                                                           {
+                                                               "name":  "Conservation Department, Mohammed Bin Rashid Library, Dubai, UAE"
+                                                           }
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "ORCID":  "https://orcid.org/0000-0001-5650-2390",
+                                       "authenticated-orcid":  false,
+                                       "given":  "Marya",
+                                       "family":  "Muzart",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+                                                           {
+                                                               "name":  "Conservation Department, British Library, London, UK"
+                                                           }
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Jessica",
+                                       "family":  "Pollard",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+                                                           {
+                                                               "name":  "Conservation Department, Dorset History Centre, Dorchester, UK"
+                                                           }
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Jenny",
+                                       "family":  "Snowdon",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+                                                           {
+                                                               "name":  "Conservation Department, British Library, London, UK"
+                                                           }
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   }
+                               ],
+                    "member":  "301",
+                    "published-online":  {
+                                             "date-parts":  [
+                                                                [
+                                                                    2023,
+                                                                    2,
+                                                                    23
+                                                                ]
+                                                            ]
+                                         },
+                    "container-title":  [
+                                            "Journal of the Institute of Conservation"
+                                        ],
+                    "original-title":  [
+
+                                       ],
+                    "language":  "en",
+                    "link":  [
+                                 {
+                                     "URL":  "https://www.tandfonline.com/doi/pdf/10.1080/19455224.2023.2167095",
+                                     "content-type":  "unspecified",
+                                     "content-version":  "vor",
+                                     "intended-application":  "similarity-checking"
+                                 }
+                             ],
+                    "deposited":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2023,
+                                                             2,
+                                                             23
+                                                         ]
+                                                     ],
+                                      "date-time":  "2023-02-23T17:23:05Z",
+                                      "timestamp":  1677172985000
+                                  },
+                    "score":  1,
+                    "resource":  {
+                                     "primary":  {
+                                                     "URL":  "https://www.tandfonline.com/doi/full/10.1080/19455224.2023.2167095"
+                                                 }
+                                 },
+                    "subtitle":  [
+
+                                 ],
+                    "short-title":  [
+
+                                    ],
+                    "issued":  {
+                                   "date-parts":  [
+                                                      [
+                                                          2023,
+                                                          1,
+                                                          2
+                                                      ]
+                                                  ]
+                               },
+                    "references-count":  0,
+                    "journal-issue":  {
+                                          "issue":  "1",
+                                          "published-print":  {
+                                                                  "date-parts":  [
+                                                                                     [
+                                                                                         2023,
+                                                                                         1,
+                                                                                         2
+                                                                                     ]
+                                                                                 ]
+                                                              }
+                                      },
+                    "alternative-id":  [
+                                           "10.1080/19455224.2023.2167095"
+                                       ],
+                    "URL":  "https://doi.org/10.1080/19455224.2023.2167095",
+                    "relation":  {
+
+                                 },
+                    "ISSN":  [
+                                 "1945-5224",
+                                 "1945-5232"
+                             ],
+                    "issn-type":  [
+                                      {
+                                          "value":  "1945-5224",
+                                          "type":  "print"
+                                      },
+                                      {
+                                          "value":  "1945-5232",
+                                          "type":  "electronic"
+                                      }
+                                  ],
+                    "subject":  [
+
+                                ],
+                    "published":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2023,
+                                                             1,
+                                                             2
+                                                         ]
+                                                     ]
+                                  },
+                    "assertion":  [
+                                      {
+                                          "value":  "The publishing and review policy for this title is described in its Aims \u0026 Scope.",
+                                          "order":  1,
+                                          "name":  "peerreview_statement",
+                                          "label":  "Peer Review Statement"
+                                      },
+                                      {
+                                          "value":  "http://www.tandfonline.com/action/journalInformation?show=aimsScope\u0026journalCode=rcon20",
+                                          "URL":  "http://www.tandfonline.com/action/journalInformation?show=aimsScope\u0026journalCode=rcon20",
+                                          "order":  2,
+                                          "name":  "aims_and_scope_url",
+                                          "label":  "Aim \u0026 Scope"
+                                      },
+                                      {
+                                          "value":  "2022-01-18",
+                                          "order":  0,
+                                          "name":  "received",
+                                          "label":  "Received",
+                                          "group":  {
+                                                        "name":  "publication_history",
+                                                        "label":  "Publication History"
+                                                    }
+                                      },
+                                      {
+                                          "value":  "2023-01-07",
+                                          "order":  2,
+                                          "name":  "accepted",
+                                          "label":  "Accepted",
+                                          "group":  {
+                                                        "name":  "publication_history",
+                                                        "label":  "Publication History"
+                                                    }
+                                      },
+                                      {
+                                          "value":  "2023-02-23",
+                                          "order":  3,
+                                          "name":  "published",
+                                          "label":  "Published",
+                                          "group":  {
+                                                        "name":  "publication_history",
+                                                        "label":  "Publication History"
+                                                    }
+                                      }
+                                  ]
+                }
+}

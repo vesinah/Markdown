@@ -1,0 +1,710 @@
+DOCUMENT ID: S-2008-gomperts-01
+SOURCE FILE: 2008-Gomperts-Stutterheim-s-enigma-The-mystery-of-his-mapping-of-the-Majapahit-kraton-at-Trowu.pdf
+TOTAL PAGES: 20
+
+--- PAGE: 1 ---
+AMRIT GoMpERTS, ARNoUd HAAG ANd pETER CAREy
+Stutterheim’s enigma
+The mystery of his mapping of the 
+Majapahit kraton at Trowulan in 1941
+In welches Dorf habe ich mich verirrt? Ist denn hier ein Schloß?
+Franz Kafka, Das Schloß1
+Introduction
+For over a century archaeologists have been trying to unravel the mystery of 
+the location of the fourteenth-century kraton (palace) of the rulers of the Maja-
+pa hit kingdom which held power in Java from the thirteenth to the sixteenth 
+century. It has been long known that the royal city and its palace was located 
+at Trowulan about 50 kilometres southwest of Surabaya, the present-day capi-
+tal of East Java. Today, unfortunately, all that remains of its former glory are 
+isolated piles of broken bricks and an archaeologically mutilated landscape 
+littered with craters dug by colonial-era asset strippers and treasure hunter s.2 
+Knowledge of its exact position seemed to have vanished. In 1365 AD, how -
+ever, the Javanese author Prapañca, had described the Majapahit capital and 
+its royal palace in an extant Old Javanese text, called the Nāgarakrtāgama or 
+Deśawarnana. Based upon this description, several scholars published recon -
+structions of the lay-out of the kraton of Majapahit, but none of them have 
+been able to offer an identification of its exact location. In 1941, however, the 
+then Head of the Netherlands Indies Archaeological Service (Oudheidkun -
+dige Dienst), W.F. Stutterheim, made a detailed reconstruction of the kraton 
+1 In Kafka’s The Castle (1922), the main character is the land surveyor K. who says: ‘In which 
+village have I got lost? So is there a castle here?’ (translation by present authors).
+2 The present authors estimate that at least five million cubic metres of soils with medieval 
+bricks were removed from the Trowulan site since 1816.
+AMRIT GOMPERTS is product manager with a professional experience in GPS and GIS. He is 
+an independent scholar who publishes on Old Javanese and Javano-Sanskrit texts and Javanese 
+archaeology. Amrit Gomperts may be contacted at: amritgo@planet.nl.
+ARNOUD HAAG is an agricultural engineer who works as a consultant in hydrology and irriga-
+tion in Southeast Asia. He is specifically interested in the hydrological aspects of Southeast Asian 
+archaeology. Arnoud Haag may be contacted at: arnoudhaag@yahoo.com.
+PETER CAREY is Fellow Emeritus of Trinity College, Oxford and currently project director of 
+the Cambodia Trust in Jakarta for the establishment of an Indonesian School of Prosthetics and 
+Orthotics. Peter Carey may be contacted at: petercarey@cambodiatrust.org.uk.
+Bijdragen tot de Taal-, Land- en Volkenkunde (BKI) 164-4 (2008):411-430
+© 2008 Koninklijk Instituut voor Taal-, Land- en Volkenkunde
+
+--- PAGE: 2 ---
+Amrit Gomperts, Arnoud Haag and Peter Carey412
+of Majapahit, which the present authors are convinced correctly identified its 
+precise location. The mystery is that Stutterheim himself did not reveal that 
+location. This article sheds new light on the accuracy of Stutterheim’s recon -
+struction and his seemingly intentional obfuscation of the site identifications 
+in Prapañca’s monumental work.
+An archaeological identification in disguise
+The Dutch archaeologist Willem Frederik Stutterheim (1892-1942) was Head 
+of the Oudheidkundige Dienst between 1936 and 1942. His posthumously 
+published monograph, which describes in detail the lay-out of the kraton of 
+Majapahit, was completed in July 1941 (Stutterheim 1948:118). Stutterheim 
+claimed that he based his reconstruction on his own translation and interpre-
+tation of Prapañca’s description, combined with his knowledge of Javanese 
+and Balinese court architecture. He argued that the lay-out of the Yogyakarta 
+kraton and the nineteenth-century Balinese puri (palace) of Klungkung re -
+sembled that of the Majapahit royal palace. In his monograph, although he 
+provided a detailed plan of the vanished kraton of Majapahit, rather strangely 
+he explicitly stated that he would not discuss its location (Stutterheim 1948:1, 
+note 4). He even warned his reader that Prapañca’s descriptions were not de-
+tailed enough for an archaeological identification: ‘We repeatedly find such 
+imprecisely formulated descriptions; they could easily set us on the wrong 
+track if we were to accept them literally and transfer them onto a map’.3 How-
+ever, detailed cartographical analysis, using software for geographical infor -
+mation systems (GIS), reveals that he did exactly that. He used Prapañca’s 
+‘imprecisely formulated directions’ to draw his own quite detailed plan onto 
+an accurate Dutch topographic map issued in 1941 (see Figures 1 and 2).4 It is 
+clear that Stutterheim had precise locations in mind when he made his plan: it 
+was much more than mere interpretation and guess work based on Prapañca, 
+3 ‘Dergelijke weinig preciese aanduidingen [van de dichter] vinden we herhaaldelijk; zij kun -
+nen ons gemakkelijk op een verkeerd spoor brengen, indien wij ze al te letterlijk nemen en ze op 
+de kaart zouden willen intekenen.’ (Stutterheim 1948:7.)
+4 The original topographic map is available online at the web site of the Koninklijk Instituut 
+voor de Tropen: http://maps.kit.nl/apps/search ‘Trowulan’, map 05120­348­C. It is the third edi­It is the third edi -
+tion of sheet Modjoagoeng, number 53/XLI­D, and scale 1:50,000, 1941. The former colonial survey 
+Topografische Dienst in Nederlandsch-Indië (TDNI) revised the preceding edition of the map, on 
+the basis of field surveys in 1939 (personal communication with Dr F.J. Ormeling 30-05-2008), and 
+published the third edition in 1941. For the georeferencing of the topographic map, we refer the 
+reader to the datum transformation Java 1897 and the TDNI coordinates in ‘quasi­metres’ discussed 
+in Gomperts (2006:216-7). On Stutterheim’s plan, the north arrow and its tip coincide with the TDNI 
+gridlines x (easting) = 817000 and y (northing) = 156000 ‘quasi­metres’ respectively which uniquely 
+appear on the 1941 edition of the topographic map (Gomperts 2006:217, Figure 3 in comparison 
+with Figure 2 here).
+
+--- PAGE: 3 ---
+Stutterheim’s­enigma 413
+the plans of the Klungkung puri and the Yogyakarta kraton.5 Such interpreta-
+tions are, of course, the aim of archaeology, but Stutterheim intentionally re -
+fused to acknowledge the extent to which he used other sources. He also did 
+not reveal his own extensive surveys on site and deliberately twisted his argu-
+ments in order to withhold information about the identifications he made. 
+When we began our research, we visited Trowulan for a few days and 
+field­walked the site with the 1941 Dutch topographic map in hand along 
+with the Old Javanese text Nāgarakrtāgama, Stutterheim’s monograph (1948) 
+and a Global Positioning System (GPS) receiver. Then, after months of 
+detailed cartographic analysis with computers, we were able to assign one 
+pair of geographical coordinates to Stutterheim’s plan in order to situate 
+his entire reconstruction in the context of the built landscape and verify his 
+archaeological identification of the kraton of Majapahit. In the next sections 
+we will assess the accuracy of Stutterheim’s plan. The numbers between angle 
+brackets <...> refer to Figures 1, 2 and 4 and our explanation of Stutterheim’s 
+legend which can be found in the Appendix.
+The royal palace
+In Prapañca’s description (Nāgarakrtāgama 8.2.1-2), the panggung (tower) is sit-
+uated just east of the palace gate. Both are located in the outer northern palace 
+walls. Stutterheim interprets Prapañca’s panggung <6> as the ‘watch­tower’ 
+that King Hayam Wuruk (reigned, AD 1350-1389) ascended to observe court 
+spectacles. An Islamic shrine with tombs now stands on this site. It is built 
+over ancient brick remains and still bears the name ‘Panggung’ <6>. The brick 
+remains are medieval but the Islamic shrine dates from between 1815 and 
+1850 and may have been intentionally put up by local inhabitants to prevent 
+access to the site by local Dutch entrepreneurs interested in securing bricks 
+for the construction of their sugar factories. Between 1925 and 1930 the Dutch 
+and Austrian architects Henri Maclaine Pont (1884-1971) and Bruno Nobile 
+de Vistarini (1891­197?) excavated a 150 metre long segment of the northern 
+palace wall on the east side of the Panggung, sections of the internal walls, 
+and a brick­walled ‘vyver’ or pond (see Figure 3). Stutterheim drew the po -
+sition of the watch-tower <6>, the northern palace wall <1> and parts of the 
+internal palace walls <15, 19, 21, 26> in accordance with Vistarini’s excava -
+tion plan (1931:31), but strangely he does not refer to the Austrian architect’s 
+publication (see Figure 4). At the site a few remains of the northern palace 
+5 Stutterheim 1948:120-3. There have been six published translations of Prapañca’s Old Java -
+nese text — in Dutch, English and Modern Indonesian. However, only Stutterheim’s monograph 
+is more than a translation, providing detailed contextual interpretation of the archaeological re -
+mains and landscape at Trowulan.
+
+--- PAGE: 4 ---
+Figure 1. Stutterheim’s plan (1948:124) of the royal palace and capital of Majapahit, 
+original scale 1:18,350 (1941)
+
+--- PAGE: 5 ---
+Figure 2. Stutterheim’s plan of the royal palace and capital of Majapahit 
+reprojected onto the third edition of the topographic map of the 
+Topografische Dienst in Nederlandsch-Indië, sheet Modjoagoeng, 
+number 53/XLI­D, original scale 1:50,000 (1941)
+The contours of his plan correspond to roads, paths, ditches and enclosures on the 
+topographic map with deviations of 32 metres or less. The added gridlines with 
+numbers appear at intervals of 1000 metres and represent geographical coordinates 
+UTM, zone 49 M, WGS84 (Gomperts 2006). The accuracy of Stutterheim’s mapping is 
+60 metres with respect to the UTM coordinates (number 3 coincides with the current 
+location of the Balai Penyelamatan museum).
+
+--- PAGE: 6 ---
+Figure 3. Vistarini’s excavation plan (1931:31) of the northern section of the 
+Majapahit royal palace, original scale 1:5,900 (1930)
+All archaeological remains to the south of ‘Graf Panggoeng’ (grave of Panggung) have 
+been destroyed. The ‘vyver’ (pond), 80 metres long (north­south) and 50 metres wide, 
+and all internal palace walls have vanished. The soil has been dug out to a depth of 
+2-4 metres.
+
+--- PAGE: 7 ---
+Figure 4. Stutterheim’s plan of the northern section of the Majapahit royal palace 
+projected onto Vistarini’s excavation plan (1931:31), original scale 1:5,900 (1930)
+The added gridlines with numbers appear at intervals of 200 metres and represent 
+geographical coordinates UTM, zone 49 M, WGS84. Our georeferencing reveals that 
+the orientations on Vistarini’s map are slightly distorted in comparison to the actual 
+geometry on site. Therefore, Stutterheim’s plan and the UTM gridlines appear rotated 
+with respect to Vistarini’s plan. The accuracy of Stutterheim’s mapping is 60 metres 
+with respect to Vistarini’s plan. Stutterheim correctly identified ‘Graf Panggoeng’ 
+(grave of Panggung) and ‘Nog bestaand stuk van den stadsmuur’ (section of the city 
+walls still standing) as the panggung watch-tower <6> and the northern palace walls 
+<1> respectively.
+
+--- PAGE: 8 ---
+Amrit Gomperts, Arnoud Haag and Peter Carey418
+walls <1> are still visible where the newly erected Pendopo Agung complex 
+now stands.6 Furthermore, an archaeological map by the Indonesian National 
+Mapping Agency (Bakosurtanal 1983, no. 7), marks the foundations of walls 
+which correspond to the internal western walls within the palace. This wall 
+adjoins the western sides of the inner courtyards, which are indicated as leg -
+end numbers <15, 19, 21> in Stutterheim’s plan (see Figure 4). A few isolated 
+brick remains of the foundations of the walls are still visible, but are now in 
+danger of being completely destroyed.
+Prapañca describes the witāna (pavilion) <23> within the palace where 
+King Hayam Wuruk sat in royal council with his high officials. The topo -
+graphic map shows that Stutterheim must have identified it with the site of 
+Candi Kĕ daton <23>, but again he did not mention this (see Figure 5). It is 
+a brick platform some 13 metres long, 9 metres wide and 1.6 metres high. 
+Oriented north-south, its westward-facing stairs are located on the northeast-
+ern corner of a terrace. The dimensions of the terrace are 70 metres in length 
+on a north-south directional axis, 55 metres wide and 2 metres high. In the 
+nineteenth century, the local population appropriately called the terrace Siti 
+Inggil (The High Ground), which in Modern Javanese is the designation for 
+an elevated structure where the ruler appears in formal public audiences.
+According to Prapañca, the three royal compounds <22, 25, 26> were 
+situated in the southeastern area of the palace. Oral tradition locates the 
+kĕdaton in the hamlet of Kĕ daton, which is the Modern Javanese word for the 
+innermost part of the palace containing the royal family’s private quarters 
+(see Figure 2). Although Stutterheim refers three times to the location of the 
+kĕdaton given by Prapañca and refutes Maclaine Pont’s stubborn refusal to 
+6 In Yingyai Shenglan (1433), the Chinese traveller Ma Huan refers to the measurements of the 
+royal palace’s circumference and height of its walls at the beginning of the fifteenth century. Ms 
+M. de Vries Robbé kindly translated the 1922 Chinese reprint of the Chen Xuru’s (1558­1639) 
+edition of Ma Huan’s text for us (personal communication, 11­10­2006): ‘The king’s palace is sur-
+rounded on all four sides by a brick wall. The brick wall is higher than three zhang. The circum-
+ference is more than 300 li. The walls and buildings are very forbidding. The living quarters are 
+four zhang high’ (Chen Xuru 1922, 8.1­2). However, it remains a question whether Ma Huan ever 
+visited the Majapahit capital (personal communication with Dr J.L. Blussé, 11-03-2008). As Paul 
+Pelliot (1933:364) has it: ‘Ma Houan, qui ne doit parler de Mojopahit que par ouï­dire ...’ [‘Ma 
+Huan, who should only have been able to speak of Majapahit by hearsay ...’]. We consulted five 
+other translations of Ma Huan’s account, including those quoted by Stutterheim (1948:7-12) and 
+Robson (1995:100-1), and fragments from two other Chinese texts borrowing from Ma Huan’s 
+description. All translations agree that the palace walls were 3 zhang or 30 Chinese feet (chi) high 
+which convert into 7-10 metres in height, see also Stutterheim (1948:8). However, the listed Chi -
+nese measures of length or circumference of the palace walls vary widely in conversion between 
+(100 chi) 24-33 metres long and (300 li) 168 kilometres in circumference. Moreover, we cannot 
+confirm Stutterheim’s interpretation (1948:7­8) of W.W. Rockhill’s reading ‘over three or four li 
+square’ as around 6 kilometres in circumference. Pertinently, the circumference of the palace 
+walls <1> measures 3.4 kilometres on Stutterheim’s plan which, according to our current views, 
+seems correct (see Figure 1). Further discussion of Ma Huan’s description, which is the work of 
+sinologists with the relevant expertise, is beyond the scope of the present article.
+
+--- PAGE: 9 ---
+Figure 5. The remains at Can di Kĕdaton
+On Stutterheim’s orders, the prehistorian W.J.A. Willems (1898-1964) excavated the 
+remains at Can di Kĕ daton between May and October 1941. Willems took the pho -
+tograph from the west towards the east. In the witāna <23>, depicted in the corner 
+above left corner, King Hayam Wuruk sat facing west in royal council with his high 
+officials (see Nāgarakrtāgama­9.4.4, 10.1, 10.3). The walls, as seen on the right, have now 
+vanished. (Photograph by courtesy and copyright of Mr Erik Willems, son of the late 
+W.J.A. Willems).
+
+--- PAGE: 10 ---
+Amrit Gomperts, Arnoud Haag and Peter Carey420
+accept such a positioning, he does not acknowledge that he himself locates 
+the royal compounds precisely there (Stutterheim 1948:5, note 14; 16; 105, 
+note 246). Our projection of his plan onto the topographic map shows that 
+he unambiguously accepted Prapañca’s location of the royal compounds <22, 
+25, 26> in the hamlet of Kĕ daton.7 Indeed, we have more evidence corrobo -
+rating Stutterheim’s views on the location and the lay­out of the royal palace 
+which we intend to publish in a future publication. Hence, we entirely agree 
+with Bosch’s comment that Stutterheim’s monograph was ‘a quite acceptable 
+reconstruction of the [Majapahit] kraton of the 14th century’.8
+The rest of the royal city
+At the heart of the royal city was a crossroads and a nearby alun-alun (open 
+field or great square in front of the court). Prapañca refers to the sacred cross-
+roads with the Sanskrit word catuspatha which literally means ‘a place where 
+four roads meet’. In our view, Stutterheim correctly situated the crossroads 
+<8> near the northeastern corner of the palace walls <1>. He argued that he 
+could not determine the positions of the market <7> and crossroads <8> by 
+making comparisons with traditional city planning such as is found in con -
+temporary Javanese and Balinese courts (Stutterheim 1948:27-9, 100-1, 116). 
+Pertinently, none of the four main roads leading to the crossroads appear as 
+roads on existing present-day and historic maps of the area. Stutterheim’s lo-
+cation of the crossroads <8> is in a field where sugar cane is grown nowadays. 
+However, the precise location of the crossroads holds the key to the entire ori-
+7 During our presentation of an outline of this article at the 12th EurASEAA conference in Lei-
+den, 3 September 2008, we learned of the significant recent fieldwork by students of Dr Marijke 
+Klokke of the Department of Archaeology of the University of Leiden who had participated in 
+Indonesian excavations at Trowulan. The present authors are of the opinion that one of the boxes 
+excavated at this time can be positively identified as part of the northwestern side of <25>.
+8 Stutterheim 1956:xv. This is F.D.K. Bosch’s (1886-1967) own translation into English of his 
+original comment in Dutch in 1947: ‘een alleszins aannemelijke reconstructie van den kraton uit 
+de 14e eeuw’ (Bosch 1947:158). Our research shows that Bosch, who was Stutterheim’s predeces-
+sor as Head of the Oudheidkundige Dienst (1916-1936), was the only scholar after the Second 
+World War who was able to judge the full extent and quality of Stutterheim’s monograph. Bosch 
+had also contracted Vistarini for the excavations at Trowulan in 1930 and published the latter’s 
+report (Vistarini 1931). In view of this publication, as well as his knowledge of Verbeek’s article 
+(1890), his own facility with Old Javanese, and the discussions at the Oudheidkundige Dienst 
+on site in Trowulan in the 1930s, Bosch must surely have been aware of the basic soundness of 
+Stutterheim’s plan (Figures 2 and 4). Indeed, a year before the publication of Stutterheim’s mono-
+graph, Bosch had commented on it in glowing terms. Pertinently, Bosch must surely have realized 
+that Stutterheim had intentionally obfuscated some of the site identifications when he read and 
+corrected the proofs of his late colleague’s publication on the Majapahit kraton in 1947-1948. Bosch 
+was certainly fully aware of the importance of these site identifications for the archaeology of 
+Trowulan and Nāgarakrtāgama studies. So the question arises as to why he chose not to highlight 
+such insights when he prepared Stutterheim’s monograph for publication after the war?
+
+--- PAGE: 11 ---
+Stutterheim’s­enigma 421
+entation and lay-out of the vanished capital within the context of the historical 
+landscape. Determining the location of the crossroads is thus crucial for any 
+reconstructive mapping.
+Other evidence might also be deduced from surveys carried out in the 
+early 1980s. A team of scientists explored the area using remote sensing and 
+geophysics techniques. Their conclusions suggest the existence of an exten -
+sive grid of very wide medieval canals in the area of the vanished Majapahit 
+capital. If we compare Stutterheim’s plan with their map, we discover that the 
+four main roads leading to the crossroads <8> coincide exactly with canals 
+marked on the map (Bakosurtanal 1983). All this could, of course, point to 
+conflicting archaeological interpretations. However, taking into consideration 
+Stutterheim’s map, our observations at the site, as well as expert hydrological 
+considerations, it is possible that these canals could have been ditches, val -
+lums or drains a few metres wide running along the four main roads leading 
+to the crossroads, rather than fully engineered broad waterways per se. In our 
+opinion, the Bakosurtanal (1983) canal theory in its present form is inconclu -
+sive and further field research is necessary.9
+On the orders of the British lieutenant-governor of Java, Sir Thomas 
+Stamford Raffles (in office 1811­1816), the former captain in the corps of engi-
+neers of the Dutch colonial army, Johannes Willem Bartolomeus Wardenaar 
+(1785-1869) surveyed the remains of the vanished capital of Majapahit in 
+September and October 1815. Wardenaar’s map was never published and 
+was considered lost. The famous mining engineer and pioneer of modern 
+volcanology, Rogier Verbeek (1845-1926), published the texts contained in 
+the legend list of Wardenaar’s map and a few notes jotted on his draw -
+ings (Verbeek 1890:1-8). However, in our recent research we rediscovered 
+Wardenaar’s unpublished Plan of Majapahit  in the Drake Collection of the 
+British Museum. 10 Wardenaar’s survey is important because he obtained 
+9 Based on soil resistivity measurements and the analyses of layers in a few soil borings, the ge-
+ophysicists concluded that a system of canals 20-25 or 35-45 metres wide and 4 metres deep with 
+a total length of 23 kilometres existed in the area (Simoen 1980; Simoen et al. 1983; Bakosurtanal 
+1983; Arifin 1983:23, 71). The geophysical data fails to convince one of the present authors, Amrit 
+Gomperts, a trained physicist (see also Gaffney and Gater 2006:26-36, 56-60, 112-3). The slightest 
+suggestion that the Majapahit capital might have been designed like Venice with canals and with 
+Javanese pĕrahu (canoes) instead of Venetian gondolas strikes the present authors as being un-
+realistic in view of our own observations of the current topography of Trowulan, in combination 
+with three-dimensional modelling of the landscape based upon present digital elevation models 
+(both STRM90 data and recent Bakosurtanal DEMs). Moreover, the photogrammetrists honestly 
+acknowledge that they could not determine whether the rectilinear patterns on the aerial images 
+represented roads or canals (Darmoyuwono et al. 1981:15, 31, Table 3.7.1).
+10 Wardenaar’s Plan of Majapahit is available online at the website of the British Museum at: http://
+www.britishmuseumshoponline.org/invt/cda00261622 (Registration Number: 1939,0311,0.5.36). 
+It is probably a copy of Wardenaar’s original plan and may have been made in late 1815 or early 
+1816. Moreover, in the scale­bar on the map, there is an error in the unit of length (‘Engl. Roods’). 
+Our georeferencing reveals that Wardenaar’s original map should have read in Dutch: ‘Schaal
+
+--- PAGE: 12 ---
+Amrit Gomperts, Arnoud Haag and Peter Carey422
+information from the local population on the eve of major changes in the 
+landscape and demography of Trowulan. These changes came about with the 
+opening of East Java to intensive sugar-cane cultivation at the end of the Java 
+War (1825­1830). While Stutterheim (1948:1, n. 3, 4) never saw Wardenaar’s 
+plan he surely used Verbeek’s article (1890).
+Our analysis shows that Stutterheim’s plan of the kraton is in agreement 
+with Wardenaar’s map. Stutterheim (1948:16) does not identify the large tank 
+of Sĕgaran in Prapañca’s description which is situated in the northeastern 
+corner of the alun-alun <3> (see Figure 2). The position of the alun-alun <3> 
+corresponds to Wardenaar’s mapping which reveals the sheer quality of 
+Stutterheim’s archaeological observations on site. Spatial analysis of the Old 
+Javanese description confirms that lĕbuh­agĕng or ‘large open space’ must refer 
+to the alun-alun <3>. Prapañca compares the panorama at the field of Bubat, 
+facing east, ‘like the vastly extending lĕbuh­ agĕng’ ( Nāgarakrtāgama 87.1.4). 
+Therefore, we cannot agree with Stutterheim’s view that Bubat is the same as 
+the lĕbuh­agĕng (alun-alun <3>).11
+Finally, Stutterheim’s positioning of the residence of Gajah Mada (in 
+office, AD 1331­1364) is not in agreement with oral tradition. It results from 
+an error in Stutterheim’s translation of Prapañca. The Old Javanese author’s 
+description of the field where the army was annually mustered in fact allows 
+two different translations ( Nāgarakrtāgama 8.2.4). According to Stutterheim’s 
+rendering (1948:20, 97­8), the army mustering field <9> is situated south of the 
+crossroads <8>. However, in our view, the crossroads is situated to the south 
+of the army mustering field. This can be deduced from a close textual analy -
+sis of Prapañca’s description in concordance with two kakawin texts by the 
+van 300, Rijnl. Roeden’. A Rijnlandse Roede or Rhineland Rod corresponds to a length of 3.767 
+metres. The cartographic style of Wardenaar’s map resembles that of contemporary topographic 
+maps (see Knaap et al. 2007:382, 394-5, 406). We will only discuss here those places indicated on 
+Wardenaar’s map which, in the view of the present authors, are referred to in the Nāgarakrtāgama 
+(see also Verbeek 1890:3-7). 
+On Wardenaar’s plan, the eastern side of the hamlet of Kĕd aton coincides with the royal com -
+pound of Hayam Wuruk’s sister and his brother-in-law <25> ( Nāg. 11.1.3-4 śrī nrpati singha-
+warddhana kidul... tiga tang pura... ). The terrace Siti Singgil (letter N) corresponds to grhânopama 
+‘abode beyond compare’ (Nāg. 9.4.3). Candi Kĕdaton is the witāna <23> on the northeastern corner 
+of the terrace ( Nāg. 9.4.4). On Dutch city plans of Java in the VOC period, ‘passe(e)(r)baa(h)n’ is 
+a Dutch corruption of the Javanese word paséban uniquely denoting the alun-alun (see Knaap et 
+al. 2007: 362­4, 377­8, 391­2, 401­2, 407, 410­1, 429). Thus, Wardenaar’s spatial reference to ‘passe-
+erbaan’ (letter P) pinpoints the alun-alun <3> (Nāg. 8.1.2 lĕbuh­agĕng, 8.2.4 pahömaning­bala­samūha, 
+9.2.1 alun-alun, 12.2.1 lĕbuh). The split gate at Jatipasar or Can di Waringinlawang (letter G) was 
+once the entrance to the residence of the patih Gajah Mada (Nāg. 12.4). Moreover, Nāg. 8.1.2 refers 
+to ‘deep encircling water’ (way­edran­adalĕm). However, no stream appears on this map in 1815.
+11 According to the former bupati of Mojokerto, R.A.A. Kromo Djojo Adinegoro (in office, 1894-
+1916), the field of Bubat was located 3 kilometres to the west of the city of Mojokerto, along the 
+southern banks of the now canalized stream Kali Gunting, see N.J. Krom’s note as quoted by 
+Robson (1995:142). In the manuscript of the second version of his monograph kept at the Arsip 
+Nasional in Jakarta (p. 13a), Stutterheim explicitly refutes this siting of Bubat.
+
+--- PAGE: 13 ---
+Stutterheim’s­enigma 423
+Old Javanese poet Tantular. Supomo (1977, I:49-56), for example, accurately 
+observes that Tantular’s Arjunawijaya (circa AD 1379) also refers to the archi -
+tecture and lay-out of the Majapahit capital. According to Arjunawijaya 3.3.1-
+2, the army mustering field (pahĕman­ing­balagana) is situated ‘in front’ (harĕp), 
+that is, to the north of the royal palace. Furthermore, Tantular’s Sutasoma 
+103.10­13 (circa AD 1385), confirms that the crossroads is situated to the east 
+of the watch-tower ( papanggungan) <6> (Santoso 1975:445, 447). Thus, if we 
+rely on Tantular, the crossroads is situated to the south of the army mustering 
+field that actually coincides with the southeastern area of the alun-alun <3>. 
+But the problem here is that acceptance of this siting of the army mustering 
+field would implicitly shift all the other locations <7, 14, 27, 28, 30, 31, 32, 33>. 
+Hence, the identification of the other sites within the royal city will have to 
+remain a challenge for the next generation of archaeologists.
+For those inspired to take on such a challenge, one starting point might 
+be the article on the Majapahit kraton which has appeared in the Dutch 
+cartographic magazine Caert Thresoor (Gomperts et al. 2008). In this article, 
+we publish other key maps of the Trowulan area in full colour and discuss 
+our cartographic analysis in more detail including the complete legend of 
+Wardenaar’s map and the coordinates of georeferenced positions of archaeo-
+logical sites which disappeared at the hands of asset strippers between 1815 
+and 1887.
+Conclusion
+On the basis of the arguments advanced in the present article, we conclude 
+that Stutterheim correctly identified the location of the kraton of Majapahit 
+and went a long way to reconstructing its layout. However, the way in which 
+he presented his monographic evidence leaves us with an unanswered ques -
+tion. Why did such a distinguished archaeologist not want to reveal all these 
+highly important details in July 1941? In the end, Stutterheim has left us with 
+an enigma. We can only conclude by concurring with the words of his fellow 
+archaeologist and successor as Head of the Oudheidkundige Diens t (1947-
+1953), the late A.J. Bernet Kempers (1906­1992), ‘it is not easy to understand 
+fully such a many­faceted and intensely alive man [... and] such a complex 
+character too. It also cannot be expected of us’.12
+12 ‘Het is niet gemakkelijk een zo veelzijdig en fel levend mens als Stutterheim was, een zo 
+gecompliceerd karakter ook, ten volle te begrijpen. Het wordt ook niet van ons verwacht’ (Bernet 
+Kempers 1949:22).
+
+--- PAGE: 14 ---
+Amrit Gomperts, Arnoud Haag and Peter Carey424
+Postscript
+During the final days of the editing of the proofs of this article, our research 
+took another unexpected turn. In the Arsip Nasional in Jakarta, we came across 
+a second version of Stutterheim’s monograph, entitled De pura van Majapahit en 
+de huidige Javaansche kratons (The court of Majapahit and the present-day Java-
+nese kraton). It is dated Batavia, February 1942 (Arsip Nasional, Archives of the 
+Bataviaasch Genootschap, inventory number: KBG Red. 0031). The manuscript 
+contains 114 numbered pages but the texts of the 281 footnotes are lacking. 
+In this version Stutterheim puts forward more plausible arguments than in 
+his published monograph (1948), omitting the misleading sentence which ap-
+peared in his published version of July 1941, in which he had deliberately dis-
+couraged his readers from plotting Prapañca’s description onto a topographi-
+cal map. He rephrases it here as follows: ‘We repeatedly find such imprecisely 
+formulated descriptions; they have nearly always led translators of the [Old 
+Javanese] text to “find themselves lost”’.13 Indeed, at the end of his February 
+1942 manuscript version, Stutterheim makes a rather more modest reflection 
+than in the last paragraph of his published version (see Stutterheim 1948:118):
+Now, I have reached the end of my attempt to identify certain characteristics of 
+contemporary Central Javanese kraton in Prapañca’s description. The reader may 
+judge whether or not I have succeeded. Insofar as this might not have been the case, 
+may this study inspire [others] to proceed in the same direction because it at least 
+has shown that more detailed knowledge about the Javanese kraton and Balinese 
+puri will be important for our reconstruction of the Majapahit pura (palace).14
+Following the landings at Kota Bahru in British Malaya and the raid on Pearl 
+Harbor on 7 December 1941, the Japanese imperial army moved south to at -
+tack the Netherlands East Indies in January 1942. During these desperate 
+weeks, while the Dutch forces on the islands of Sumatra, Borneo, Bali and 
+Lombok were collapsing before the ferocious Japanese onslaught, the Head of 
+the Oudheidkundige Dienst was fighting against time to redraft his unpub -
+lished monograph on the Majapahit kraton. Seven months later, on 12 Sep -
+tember 1942, he died of a brain tumour (see the inscription on his gravestone 
+13 In the second version Stutterheim states: ‘Degelijke weinig preciese aanduidingen vinden wij 
+herhaaldelijk en hebben bijna steeds aanleiding gegeven tot ‘verdwalen’ van de vertalers van den 
+tekst’ (ms. Arsip Nasional, p. 5; compare with Stutterheim 1948:7, lines 4-7).
+14 Stutterheim (ms. Arsip Nasional, p. 113­4): ‘Thans ben ik aan het einde gekomen van mijn 
+poging om in de beschrijving van Prapañca bepaalde kenmerkende onderdeelen der huidige 
+Vorstenlandsche kraton’s te herkennen. Of ik daar in geslaagd ben moge de lezer beoordelen. 
+Voorzoover zulks niet het geval moge zijn, vorme deze studie een aansporing om op den ingesla-
+gen weg voort te gaan, daar deze in ieder geval heeft aangetoond, dat de beschikking over meer 
+gedetailleerde kennis der Javaansche kraton’s en Balische poeri’s voor onze reconstructie van den 
+pura van Majapahit van belang kan zijn.’
+
+--- PAGE: 15 ---
+Stutterheim’s­enigma 425
+at the Taman Prasasti in Jakarta). Despite the doubt expressed in this article 
+regardin g the ethical principles of his scholarship, history will remember Stut-
+terheim as one of the greatest archaeologists of the twentieth century.
+Acknowledgements
+The authors would like to thank the bupati of Sragen, Mr Untung Wiyono, Ms 
+Z. Enis Arifah, Drs Aris Soviyani (Departemen Kebudayaan dan Pariwisata, 
+Trowulan), Mr Arthur de Vries Robbé, Ms Mieke de Vries Robbé, Mr Erik Wil-
+lems, Dr Roy Jordaan, Dr Ferjan Ormeling (University of Utrecht), Dr Leonard 
+Blussé (University of Leiden), Dr John Bastin, Dr Annabel Teh Gallop (British 
+Library), Mr T. Richard Blurton (British Museum), Ir Heru Joko Susilo (GPS), 
+Drs Revi Soekatno and Ms Rens Heringa for their assistance with our research 
+and the writing of this article.
+
+--- PAGE: 16 ---
+Amrit Gomperts, Arnoud Haag and Peter Carey426
+Appendix: Legend of Stutterheim’s plan
+The numbers correspond to Stutterheim’s legend (1948:125). However, we 
+have modified and expanded his brief and incomplete explanations on the ba-
+sis of his monograph and other passages in the Nāgarakrtāgama. We have also 
+divided his legend into explanations and references to the Old Javanese text. In 
+some cases, Stutterheim combined differing or overlapping meanings in Pra-
+pañca’s Old Javanese text to refer to the same locations on his plan. While they 
+are essential to verify his mapping of the description in Prapañca’s text, they 
+can be quite confusing. Therefore, we have identified them with the equal sym-
+bol (=). Although Stutterheim (1948) only translates part of the Nāgarakrtāgama 
+text (cantos 8-12), he also comments on other verses. For the rest of the Old 
+Javanese text, we refer the reader to Pigeaud’s transcription (1960, I:3-76) of the 
+Lombok version and Robson’s more recent translation (1995) which is based on 
+a critical interpretation of the Lombok version ‘MS. C’ in combination with the 
+two now inaccessible Balinese manuscripts ‘MS. A’ and ‘S’. For a few important 
+variant readings, see Robson (1995:12, 104, 120, 122, 125, 129, 134, 136, 137, 143) 
+which should be compared with ‘MS. C’ (Pigeaud 1960, I:3­76).
+Nr. Explanation Nāgarakrtāgama (Pigeaud 1960, I:3-76)
+1 rectangular-shaped palace walls consisting of red 
+bricks
+8.1.1 kutha
+2 western access road with a split gate to 
+the alun-alun <3> 
+8.1.1 pura-waktra, 84.6.3 dwāra
+3 large square alun-alun with surrounding ditches 
+along its sides, non­irrigated field bubat 
+8.1.2 lĕbuh­agĕng = 9.2.1 alun-alun 
+= 84.6.2 lĕbuh = 86.1.2 tĕgal...­bubat, 
+86.2.1, 87.3.1 bubat, 87.1.4 lwir nika 
+sadawatāning­lĕbuh­agöng
+4 row with holy fig trees (Ficus religiosa), along 
+the western access road <2>
+8.1.3 brāhmāsthāna
+5 lockable palace-gate, furnished with iron plates 
+and adorned with ornaments
+8.2.1 gopura = 8.5.1 palawangan
+6 watch-tower with a base furnished with white 
+diamantine plaster
+8.2.1, 8.5.3 panggung... patiga nika 
+binajralepa maputih
+7 (large) market with long sheds 8.2.3 pĕkĕn = 12.3.1 pĕkĕn­agöng; 8.2.3 
+yaśa­wĕkas­ing­apañjang
+8 sacred crossroads and the (northern) royal road 
+leading to it
+8.2.4 catuspatha, 86.2.2 rājamārga
+9 open space where the entire army assembled in 
+the months of March-April
+8.2.4 pahömaning­bala­samūha 
+= 12.2.1 lĕbuh
+
+--- PAGE: 17 ---
+Stutterheim’s­enigma 427
+10 audience yard, a partitioned area of the 
+alun-alun <3>
+8.3.1, 8.5.1, 63.4.2, 83.6.2, 
+84.7.2 wanguntur
+11 external audience pavilion facing west in the 
+audience yard <10>, where King Hayam Wuruk 
+sat on the lion-throne and granted audience 
+8.3.1, 63.1.2, 64.1.2, 66.4.3 witāna
+12 pavilion of officials and scholars north of the 
+audience yard <10>
+8.3.2 weśma­panangkilan
+13 pavilion for resolution of formal disputes by 
+Śiwaite and Buddhist priests east of the 
+audience yard <10>
+8.3.3 nggwan para śaiwa-boddha
+14 walled state temple yard with altars for the 
+Śiwaite, Brahman, Rĕṣi and Buddhist faiths
+8.4.1 pahoman
+15 ‘place where guard duties are performed while 
+seated’, inner courtyard within the palace leading 
+to inner courtyard <19>
+8.5.1 pasewan = 8.5.4 natar
+16 internal palace road from east to west 8.5.2 hawan
+17 tanjung trees (Mimusops elengi) planted along 
+the internal palace road <16>
+8.5.2 tañjung
+18 open pavilion with hanging cages for the royal 
+fighting cocks
+8.5.4 mandapa pasatan
+19 ‘place where guard duties are performed while 
+seated’, inner courtyard within the palace, 
+leading to the second gate <20>
+8.6.1 pasewan
+20 lockable second gate guarded by the [female] 
+royal body guards or Bhayangkarī, which closed 
+off main courtyard <21>. (In the Old Javanese 
+text Pararaton, it is called the Bhayangkara Gate.)
+8.6.1 wijil­kaping­rwa, 9.2.3, 9.4.1 wijil­
+ping kalih = 9.2.4 dwārê­dalĕm
+21 main courtyard, ‘level and wide’ 
+(According to the Old Javanese text Pararaton, 
+the trapped Mongol Chinese soldiers were killed 
+in this yard in 1293)
+9.4.1 natar
+22 ‘abode beyond compare’, the royal compound of 
+King Hayam Wuruk
+9.4.3-4 grhânopama...­nggwan­śrī­nātha 
+= 11.1.4 tiga... pura = 7.3.1, 10.2.1, 12.5.1, 
+17.2.4 purī 
+23 internal audience pavilion where the king met 
+with his most senior officials
+9.4.2, 9.4.4, 10.1.1, 10.3.2, 11.1.1 witāna 
+= 89.4.1­2 uttara-pūrwa­witanna...­
+tri-witāna, 91.5.2 witāna
+24 lockable first gate closing off the three royal com-
+pounds in the east <22, 25, 26> from visitors
+11.1.2 wijil­pisan
+25 royal compound of Singhawarddhana, King of 
+Paguhan, the brother-in-law of the king; and of 
+Warddhanaduhitā, Queen of Pajang, sister of the 
+king
+11.1.3-4 singhawarddhana... tiga... pura 
+= 10.2.1, 12.5.1 purī
+
+--- PAGE: 18 ---
+Amrit Gomperts, Arnoud Haag and Peter Carey428
+26 royal compound of Krtawarddhana, King of 
+Singhasāri, the father of King Hayam Wuruk
+11.1.4 krtawarddhana... tiga... pura 
+= 10.2.1, 12.5.1 purī
+27 quarter with the houses of the Śiwaite priests 
+headed by Reverend Brahmārāja
+12.1.2 śaiwa
+28 quarter with the houses of the Buddhist priests 
+headed by Reverend Rĕngkan Nadī
+12.1.3 boddha
+29 quarters with the houses of the ksatriya (high 
+officials?), mantri (officials?) and punggawa 
+(lower court functionaries?)
+12.1.4 ksatriya mantri punggawa
+= 86.2.4 kuwuning­mantrī
+30 palace of Wĳayarājasa, King of Wĕngkĕr 
+(Ponorogo), and Rājadewī Mahārājasa, 
+Queen of Daha (Kĕdiri)
+12.2.1 pura...wĕngkĕr
+31 residence of Rājasawarddhana, King of 
+Matahun (Ngawi), and Rājasadutitendewī, 
+Queen of Lasĕm, daughter of the above <30>
+12.2.3 matahun...­dalĕm
+32 the residence of Narapati, the Vice-regent of 
+Daha (Kĕdiri)
+12.3.1-4 kuwu... narapati
+33 residence of Gajah Mada, prime minister of 
+Majapahit 
+(Stutterheim does not accurately mark the 
+position of Gajah Mada’s residence which 
+should be positioned further to the north-east 
+in the direction of the arrow in Figures 1-2)
+12.4.1 kuwu... gajah mada
+34 residence of the superintendent of Śiwaite 
+freeholds
+(In the second version of his monograph, 
+Stutterheim positions this residence 300 metres 
+further to the south)
+12.5.1-2 kadharmmādhyaksan...­kaśaiwan
+35 residence of the superintendent of Buddhist 
+freeholds
+(In the second version of his monograph, 
+Stutterheim positions this residence 300 metres 
+further to the south)
+12.5.1-2 kadharmmādhyaksan... kaboddha
+
+--- PAGE: 19 ---
+Stutterheim’s­enigma 429
+References
+Arifin, Karina
+1983 ‘Waduk dan kanal di pusat kerajaan Majapahit Trowulan, Jawa Timur’. 
+    MA thesis. University of Indonesia, Jakarta.
+Bakosurtanal
+1983 Trowulan; Rekonstruksi ibukota kerajaan Majapahit. (Special edition: aerial
+ photograph published as an archaeological map, scale 1:8,800). [Cibi­[Cibi-
+nong:] Bakosurtanal.
+Bernet Kempers, A.J.
+1949 ‘In memoriam Dr. W.F. Stutterheim (27 september 1892­10 september 
+1942)’, Oudheidkundig Verslag van de Oudheidkundige Dienst in Indonesië  
+1941-1947:15-28.
+Bosch, F.D.K.
+1947 ‘Levensbericht van W.F. Stutterheim (27 september 1892­10 september 
+1942)’, Jaarboek van de Koninklijke Nederlandse Akademie van Wetenschap -
+pen 1946-1947:150-8.
+Chen Xuru
+1922 Yingyai Shenglan. Baoyantang Miji Collection. Shanghai: Wenming Shuju.
+Darmoyuwono, Kardono et al.
+1981 Penerapan Teknik Pengindaraan Jauh untuk Inventarisasi dan Pemetaan  
+Pe ninggalan Purbakala Daerah Trowulan, Mojokerto, Jawa Timur. [Cibinong/
+Yog ya karta:] Bakosurtanal/Gajah Mada University, Faculty of Geogra -
+phy.
+Gaffney, C. and J. Gater
+2006 Revealing the buried past; Geophysics for archaeologists. Stroud: Tempus.
+Gomperts, Amrit
+2006 ‘GPS, GIS en topografische kaarten van Java (1900­1946)’, Geo-Info 
+3­5:216­9. [Also available online at: www.geo­info.nl.]
+Gomperts, Amrit, Arnoud Haag and Peter Carey
+2008 ‘De veertiende­eeuwse Javaanse hofstad Majapahit alsnog op de kaart 
+gezet’, Caert Thresoor 27, 3:71-78.
+Knaap, G.R., J.R. van Diessen, W. Leijnse and M.P .B. Ziellemans
+2007   Grote Atlas van de Verenigde Oost-Indische Compagnie/Comprehensive Atlas 
+of the Dutch United East India Company, Volume II: Java en Madoera/Java and 
+Madura. Voorburg: Asia Maior.
+Pelliot, P .
+1933 ‘Les grands voyages maritimes chinois au début du XVe siècle’, T’oung 
+Pao 30:237-452.
+Pigeaud, Th.G.Th.
+1960-63 Java in the 14th century; A study in cultural history . The­Nāgara-Kĕrtāgama­
+by Rakawi Prapañca of Majapahit, 1365 A.D. . Third edition, revised and 
+enlarged by some contemporaneous texts, with notes, translations, com-
+mentaries and a glossary . Illustrated with drawings by Professor Th.P . 
+Galestin. The Hague: Nijhoff. Five vols. [KITLV , Translation Series 4, 1­5.]
+Robson, Stuart
+1995 Deśawarnana­(Nāgarakĕrtāgama)­by­Mpu­Prapañca. Leiden: KITLV Press. 
+[Verhandelingen 169.]
+
+--- PAGE: 20 ---
+Amrit Gomperts, Arnoud Haag and Peter Carey430
+Santoso, Soewito
+1975 Sutasoma; A Study in Javanese Wajrayana . Śatapit aka Series 213. New 
+Delh i: International Academy of Indian Culture.
+Simoen, Soenarso
+1980 Penelitian geolistrik di bekas kerajaan Mojopahit, Trowulan, Jawa Timur .  
+Yog ya  karta: University of Gajah Mada, Faculty of Geography.
+Simoen, Soenarso, Suratman, Sudarmadji, Jomulyo and Sudibyakto
+1983 Penelitian geolistrik detail di sepanjang saluran bekas ibukota kerajaan di Trowu-
+lan, Mojokerto, Jawa Timur. Yogyakarta: Gajah Mada University, Faculty of 
+Geography.
+Stutterheim, W.F.
+1948 De kraton van Majapahit. ’s­Gravenhage: Nijhoff. [KITLV Verhandelingen 
+7.]
+1956  Studies in Indonesian archaeology. The Hague: Nijhoff. [With a biographi­The Hague: Nijhoff. [With a biographi-
+cal note by F.D.K. Bosch.] [KITLV , Translation Series 1.]
+Supomo, S.
+1977 Arjunawijaya: A Kakawin of Mpu Tantular. The Hague: Nijhoff. Two vols. 
+[KITLV , Bibliotheca Indonesica 14.]
+Verbeek, R.D.M.
+1890 ‘De oudheden van Madjapahit in 1815 en 1887’, Tijdschrift voor Indische 
+Taal-, Land- en Volkenkunde (TBG) 33:1-15.
+Vistarini, B.
+1931  ‘Oudheidkundige Vereeniging Majapahit’, Oudheidkundig Verslag van de 
+Oudheidkundige Dienst in Nederlandsch-Indië 1930:29-34.
+

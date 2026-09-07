@@ -1,0 +1,695 @@
+{ 
+  "http://purl.bdrc.io/resource/NT0F975F3BC7C73801" : { 
+    "http://purl.bdrc.io/ontology/core/noteSource" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW26372"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/Note"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/contentLocationStatement" : [ { 
+      "type" : "literal" ,
+      "value" : "p. 2285"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/noteText" : [ { 
+      "type" : "literal" ,
+      "value" : "1216. sa skya'i rje btsun grags pa rgyal mtshan gyis <<bstan rtis>> mdzad cing mi ring bar sku gshegs" ,
+      "lang" : "en"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/P1614" : { 
+    "http://purl.bdrc.io/ontology/core/hasParent" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1616"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1615"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/hasYoungerBrother" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P3640"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/hasNephew" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1056"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/Person"
+    }
+     ] ,
+    "http://www.w3.org/2002/07/owl#sameAs" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.wikidata.org/entity/Q662562"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://viaf.org/viaf/121936995"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://api.treasuryoflives.org/resource/TOLP2915"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/hasBrother" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1618"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P3640"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/hasSibling" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1618"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P3640"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/personGender" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/GenderMale"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/personEvent" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/EV644845E31DEC759E"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/EVA367AF4450ADC1DA"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/EVB72E846B786E4AE5"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/EV7B224762BF361BD9"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/EV262FC92299EE0D4D"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/note" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/NT0F975F3BC7C73801"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/NT73866E0150509E6E"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/NTC72A35971C6C7693"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/NT51ED2DD67950612C"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/NT520BD533518A509D"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/NT0C9290BEA127526D"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "rje btsun grags pa rgyal mtshan/" ,
+      "lang" : "bo-x-ewts"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/associatedTradition" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/TraditionSakya"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/hasFather" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1615"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/hasNibling" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1056"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/tmp/associatedCentury" : [ { 
+      "type" : "literal" ,
+      "value" : "13" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "12" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/hasOlderBrother" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1618"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/hasMother" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1616"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/personName" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/NMB59B75DAAF3DEDFA"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/NMF39C97FB4BCAA03F"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/NMAFD4B5F0A4A5C3F9"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/NM1D4363013BDA1DF1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/NM1246B2AD2A901B76"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/NM91364ED0D64AB77D"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/NMDEBD52105C4DAA18"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/personStudentOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1615"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1618"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1617"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P0RK712"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P0RK251"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P6099"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10185"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P0RK1159"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10184"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P7878"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10172"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P0RK645"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10183"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/personTeacherOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10606"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P7140"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P0RK905"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P2272"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10607"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10604"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10605"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10608"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10609"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P0RK1779"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P0RK102"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P3175"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P0RK368"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10610"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1783"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P0RK406"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1056"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10603"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10611"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10612"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10169"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P10601"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/kinWith" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1616"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1615"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1618"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1056"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P3640"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/tmp/entityScore" : [ { 
+      "type" : "literal" ,
+      "value" : "3529" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/EV644845E31DEC759E" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/PersonLeavesOffice"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/eventWhere" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/G210"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/onYear" : [ { 
+      "type" : "literal" ,
+      "value" : "1215" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#gYear"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/role" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/R3AG23"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/eventWhen" : [ { 
+      "type" : "literal" ,
+      "value" : "1215" ,
+      "datatype" : "http://id.loc.gov/datatypes/edtf/EDTF"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/NT73866E0150509E6E" : { 
+    "http://purl.bdrc.io/ontology/core/noteSource" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW19801"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/Note"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/contentLocationStatement" : [ { 
+      "type" : "literal" ,
+      "value" : "p. 658"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/noteText" : [ { 
+      "type" : "literal" ,
+      "value" : "biodata" ,
+      "lang" : "en"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/NMB59B75DAAF3DEDFA" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/PersonTitle"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "sa skya khri chen 05" ,
+      "lang" : "bo-x-ewts"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/NMF39C97FB4BCAA03F" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/PersonPrimaryTitle"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "rje btsun grags pa rgyal mtshan/" ,
+      "lang" : "bo-x-ewts"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/NMAFD4B5F0A4A5C3F9" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/PersonOfficeTitle"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "sa skya khri 'dzin 05" ,
+      "lang" : "bo-x-ewts"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/EVB72E846B786E4AE5" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/PersonDeath"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/onYear" : [ { 
+      "type" : "literal" ,
+      "value" : "1216" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#gYear"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/eventWhen" : [ { 
+      "type" : "literal" ,
+      "value" : "1216" ,
+      "datatype" : "http://id.loc.gov/datatypes/edtf/EDTF"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/NM1D4363013BDA1DF1" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/PersonTitle"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "sa skya rje btsun grags pa rgyal mtshan/" ,
+      "lang" : "bo-x-ewts"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/NM1246B2AD2A901B76" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/PersonPersonalName"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "blo gros chen po/" ,
+      "lang" : "bo-x-ewts"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/NT520BD533518A509D" : { 
+    "http://purl.bdrc.io/ontology/core/noteSource" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW19854"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/Note"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/contentLocationStatement" : [ { 
+      "type" : "literal" ,
+      "value" : "p. 144"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/noteText" : [ { 
+      "type" : "literal" ,
+      "value" : "dates" ,
+      "lang" : "en"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/NM91364ED0D64AB77D" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/PersonPrimaryName"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "grags pa rgyal mtshan/" ,
+      "lang" : "bo-x-ewts"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/NMDEBD52105C4DAA18" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/PersonTitle"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "sa skya gong ma/" ,
+      "lang" : "bo-x-ewts"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/EV262FC92299EE0D4D" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/PersonAssumesOffice"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/eventWhere" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/G210"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/onYear" : [ { 
+      "type" : "literal" ,
+      "value" : "1172" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#gYear"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/role" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/R3AG23"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/eventWhen" : [ { 
+      "type" : "literal" ,
+      "value" : "1172" ,
+      "datatype" : "http://id.loc.gov/datatypes/edtf/EDTF"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/EVA367AF4450ADC1DA" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/PersonOccupiesSeat"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/eventWhere" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/G210"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/NTC72A35971C6C7693" : { 
+    "http://purl.bdrc.io/ontology/core/noteSource" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW28065"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/Note"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/contentLocationStatement" : [ { 
+      "type" : "literal" ,
+      "value" : "p. 49"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/noteText" : [ { 
+      "type" : "literal" ,
+      "value" : "one of the disciples of sa chen kun dga' snying po; he belonged to the group known as the \"bzod pa thob pa bdun\"\n\nthe third of the five patriarchs of the sa skya tradition (sa skya gong ma rnam lnga)\ngsung 'bum in 4 volumes.\nbuilt the dbu rtse rnying ma gtsug lag khang\ncalligraphed a golden bka' 'gyur\n\nwritings: lam 'bras brgyud pa'i gsol 'debs/ brtag gnyis kyi 'grel pa dag ldan/ rgyud gsum gyi mngon rtogs rin po che'i ljon shing/ rgyud sde'i dum bu brgya bcu gsum pa/ stong thun sa bcad/ rje btsun sa skya pa chen po'i rnam thar/ slob dpon rin po che'i rnam thar tshigs bcad ma/ rje btsun nyid kyi mnal lam gyi rnam thar/ rgyud 'bum gyi dkar chag/ bla chen mal gyi chos skor gyi dkar chag/ kyai rdo rje'i chos skor gyi dkar chag/ tshar gsum khug pa'i man ngag/ kyai rdo rje'i mngon rtogs yan lag drug pa/ ba ri lo tsA ba'i lugs kyi kyai rdor dpa' gcig/ mngon rtogs yan lag drug pa/ dad ston rdo rje grags la gdams pa/ kyai rdor las bzhi'i sbyin sreg gi cho ga/ rdo rje bdag med ma'i mngon rtogs/ lam 'bras brgyud pa'i gsol 'debs chung ba gcig/ kyai rdo rje'i dkyil 'khor bkra shis/ dus tha ma'i cho ga/ kyai rdo rje'i bstod pa daN+Da ka/ bdag med ma'i bstod pa dang de'i sa bcad/mi g.yo sngon po la bstod pa/ rdo rje gur gyi sa bcad/ 'grel pa gur rgyan/gur gyi thig gi gsal byed/ ku ru ku l+le'i sgrub thabs/ dpal he ru ka'i chas drug/ rdor dril gyi mtshan nyid/ de nyid gsum pa/ bla ma lnga bcu pa'i TI ka/ rtsa ltung gi 'grel pa 'khrul pa spong ba/ dpal he ru ka'i byung tshul/ bde mchog lU hi pa'i sgrub thabs/ nag po pa'i dkyil chog gi 'grel pa/ nag po pa'i dkyil chog/ nag po gzhung drug gi sa bcad/ dril bu pa'i lo rgyus dang sgrub thabs/ las bcu'i gdams ngag/ tshogs mchod mdor bsdus/ sman chen po'i bcud len/rdzogs rim rtsa dbu ma'i khrid yig/ rdo rje 'jigs byed kyi bstod pa/ spyod rgyud gzhan phan spyi chings/ kun rig gi cho ga gzhan phan 'od zer/ 'jam dbyangs kyi bstod pa rgyud gsum 'khor lo/ 'jam dpal mtshan brjod 'don thabs/ bsrung pa bri tshul/ phyag na rdo rje'i gzungs kyi man ngag rgyas par bshad pa/ las tshogs nyi shu rtsa gcig gi gzhung gi TI ka/ shAkya'i rgyal po'i gdung rabs/ bod kyi rgyal po'i rgyal rabs mdor bsdus pa/ dus tshod nges par bzung ba'i rtsis sogs mang ngo\n\ndharma activities: dbu rtse rnying mar grags pa'i gtsug lag khang bzhengs/ bla ma dkon mchog rgyal po'i nang rten gser gyi gdung khang/ bla ma sa chen gyi nang rten bkra shis sgo mang/ slob dpon rin po che dang gcung gi nang rten gser sku rnams bzhengs" ,
+      "lang" : "en"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/EV7B224762BF361BD9" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/PersonBirth"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/onYear" : [ { 
+      "type" : "literal" ,
+      "value" : "1147" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#gYear"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/eventWhen" : [ { 
+      "type" : "literal" ,
+      "value" : "1147" ,
+      "datatype" : "http://id.loc.gov/datatypes/edtf/EDTF"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/NT51ED2DD67950612C" : { 
+    "http://purl.bdrc.io/ontology/core/noteSource" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW19835"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/Note"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/contentLocationStatement" : [ { 
+      "type" : "literal" ,
+      "value" : "p. 108"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/noteText" : [ { 
+      "type" : "literal" ,
+      "value" : "bibliography\nmentions his major treatise on medicine" ,
+      "lang" : "en"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/NT0C9290BEA127526D" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/Note"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/noteText" : [ { 
+      "type" : "literal" ,
+      "value" : "teacher/student lineage dpal mgon bran du gtad pa bram ze nag po 'i man ngag gi rjes gnang, Pha bong gsan yig, v. 1, pp..157\nGsung 'bum in 4 volumes.\nBuilt the Dbu-rtse Rnying-pa Gtsug-lag-khang.\nCalligraphed a golden Bka'-'gyur." ,
+      "lang" : "en"
+    }
+     ]
+  }
+}

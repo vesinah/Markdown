@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DILA 鏈結開放資料平台</title>
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- leafletjs 地圖 -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+	integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+	crossorigin=""/>
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+	integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+	crossorigin=""></script>
+	<style>
+	#mapid {
+		height: 320px;
+		clear: both;
+	}	
+	</style> 
+</head>
+<div class="w3-top" style="z-index: 10000;">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="index.php" class="w3-bar-item w3-button w3-wide" style="letter-spacing: 1px; color: #636363;"><img src="img/dila.png" style="height: 1.5em; margin-right:1px;"/>DILA鏈結開放資料平台</a>
+
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">      
+      <a href="sparql-search.php" class="w3-bar-item w3-button">SPARQL</a>
+      <a href="analyze.php" class="w3-bar-item w3-button">ANALYZE</a>
+	  <a href="http://purl.bdrc.io/ontology/core/" target="_blank" class="w3-bar-item w3-button">ONTOLOGY</a>
+      <a href="https://authority.dila.edu.tw/docs/open_content/download.php" target="_blank" class="w3-bar-item w3-button">DOWNLOAD</a>
+	  	<!-- 九宮格 -->
+		<div id="da-container" class="w3-right w3-hide-small" style="margin-right:2em;     margin-top: 8px; margin-left: 0.5em;"></div>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none; z-index:10000;" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+      <a href="sparql-search.php" class="w3-bar-item w3-button">SPARQL</a>
+	  <a href="http://purl.bdrc.io/ontology/core/" target="_blank" class="w3-bar-item w3-button">ONTOLOGY</a>
+      <a href="https://authority.dila.edu.tw/docs/open_content/download.php" target="_blank" class="w3-bar-item w3-button">DOWNLOAD</a>
+	  <a href="https://lic.dila.edu.tw/digital_archives_projects" target="_blank" class="w3-bar-item w3-button">DILA DA PROJECTS </a>     
+</nav>
+<!-- 輸出主要資料版面 -->
+<body>
+<div class="w3-row-padding w3-padding-48 w3-margin-top w3-container w3-border-top" style="padding-top: 60px!important; min-height:540px;">
+<div class="w3-twothird" id="main">
+  <div class="w3-row-padding">
+	  <div class="w3-text-pink bkword" style="display: flow-root;">
+		<span class="w3-xlarge">uri: <a href="http://purl.dila.edu.tw/resource/A000194" target="_blank">http://purl.dila.edu.tw/resource/A000194</a></span>
+			<span style="margin-left: 0.25em;"><i class="fas fa-external-link-alt"></i></span>
+			<div class="w3-text-cyan" style="float:right; margin: 1em 0;">Download: 
+					<form method="POST" action="query_result_export.php" target="_blank" style="display: inline;">
+						<input name="sqlstr" id="sqlstr" value="
+PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX bdo:<http://purl.bdrc.io/ontology/core/> 
+PREFIX owl:<http://www.w3.org/2002/07/owl#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX ref: <http://purl.org/vocab/relationship/>
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dila:<http://purl.dila.edu.tw/resource/> 
+
+select ?prefNm ?altNm ?student ?studentNm ?teacher ?teacherNm ?eventType ?notBefore ?notAfter ?onYear ?onDate ?evNoteNBf ?evNoteNAf ?evNote ?eventPlaceObj ?eventPlaceNm ?noteText ?noteWork ?noteLocation
+where {
+   <http://purl.dila.edu.tw/resource/A000194> a bdo:Person .
+  { <http://purl.dila.edu.tw/resource/A000194> skos:prefLabel ?prefNm . }
+  union
+  { <http://purl.dila.edu.tw/resource/A000194> skos:altLabel ?altNm . }
+ union
+ { <http://purl.dila.edu.tw/resource/A000194> bdo:personTeacherOf ?student .
+	optional { ?student skos:prefLabel ?studentNm .  
+	  FILTER (lang(?studentNm) = 'zh-Hant').
+	}
+  }
+ union
+ { <http://purl.dila.edu.tw/resource/A000194> bdo:personStudentOf ?teacher . 
+	optional { ?teacher skos:prefLabel ?teacherNm . FILTER (lang(?teacherNm) = 'zh-Hant'). }
+  }
+ union
+ { <http://purl.dila.edu.tw/resource/A000194> bdo:personEvent ?ev . 
+ ?ev rdf:type ?evt . 
+  optional { ?evt rdfs:label ?eventType . }
+  optional { ?ev bdo:notBefore ?notBefore .  
+	 ?stmtB a rdf:Statement.
+	  ?stmtB rdf:subject ?ev.  
+	  ?stmtB rdf:object ?notBefore. 
+	  ?stmtB bdo:note ?evnB.   
+	  ?evnB bdo:noteText ?evNote          
+ }
+ optional { ?ev bdo:notAfter ?notAfter . 
+	  ?stmtA a rdf:Statement.
+	  ?stmtA rdf:subject ?ev.  
+	  ?stmtA rdf:object ?notAfter. 
+	  ?stmtA bdo:note ?evnA.   
+	  ?evnA bdo:noteText ?evNote     
+	}
+
+ optional { ?ev bdo:onYear ?onYear . 
+	   ?stmt a rdf:Statement.
+	  ?stmt rdf:subject ?ev.  
+	  ?stmt rdf:object ?onYear. 
+	  ?stmt bdo:note ?evn.   
+	  ?evn bdo:noteText ?evNote         
+	}
+ optional { ?ev bdo:onDate ?onDate . 
+	  ?stmt a rdf:Statement.
+	  ?stmt rdf:subject ?ev.  
+	  ?stmt rdf:object ?onDate. 
+	  ?stmt bdo:note ?evn.   
+	  ?evn bdo:noteText ?evNote      
+	}
+ optional { ?ev bdo:eventWhere ?eventPlaceObj . 
+	?eventPlaceObj  skos:prefLabel  ?eventPlaceNm }
+  }
+ union
+ { <http://purl.dila.edu.tw/resource/A000194> bdo:note ?nt .
+ optional { ?nt bdo:noteText ?noteText . }
+ optional { ?nt bdo:noteWork ?ntWrk . }
+ optional { ?nt bdo:noteLocationStatementCBETA ?noteLocation . } }
+  
+}
+" hidden />
+						<a href="http://purl.dila.edu.tw/resource/A000194.ttl" target="_blank" class="w3-btn w3-border w3-border-cyan w3-round-small w3-tiny" download>RDF</a>
+						<button name="filetype" class="w3-btn w3-border w3-border-cyan w3-round-small w3-tiny" value="json">JSON</button>
+						<button name="filetype" class="w3-btn w3-border w3-border-cyan w3-round-small w3-tiny" value="xml">XML</button>
+						<button name="filetype" class="w3-btn w3-border w3-border-cyan w3-round-small w3-tiny" value="csv">CSV</button>
+						<button name="filetype" class="w3-btn w3-border w3-border-cyan w3-round-small w3-tiny" value="tsv">TSV</button>
+					</form>
+			</div>	  </div>
+	  <p>
+		<label class="w3-text-cyan">資料類型 / <span class="label_font">Type</span></label>
+		<div class="w3-border w3-round w3-padding w3-light-grey result_box"><a href="http://purl.bdrc.io/ontology/core/Person" target="_blank">http://purl.bdrc.io/ontology/core/Person</a> <i class="fas fa-external-link-alt"></i></div></p>
+		<p><label class="w3-text-cyan">常名 / <span class="label_font">Name</span></label>
+		<div class="w3-border w3-round w3-padding w3-light-grey result_box">日稱<span class="lang_label">(zh-Hant)</span>; </div></p><p><label class="w3-text-cyan">別名 / <span class="label_font">Alternative Names</span>
+		</label>
+		<div class="w3-border w3-round w3-padding w3-light-grey result_box">宣梵大師<span class="lang_label">(zh-Hant)</span>; 闡教<span class="lang_label">(zh-Hant)</span>; </div></p><p><label class="w3-text-cyan">出生地 / <span class="label_font">Birthplace</span></label>
+		<div class="w3-border w3-round w3-padding w3-light-grey result_box"><a href="http://purl.dila.edu.tw/resource/PL48208" target="_blank">http://purl.dila.edu.tw/resource/PL48208</a>  <i class="fas fa-external-link-alt"></i></div></p><p><label class="w3-text-cyan">出生地名稱 / <span class="label_font">Birthplace’s Name</span></label>
+		<div class="w3-border w3-round w3-padding w3-light-grey result_box">Madhya-deśa<span class="lang_label">(sa-x-iast)</span> </div></p><p><label class="w3-text-cyan">卒年紀錄 / <span class="label_font">Deathdate</span></label>
+		<div class="w3-border w3-round w3-padding w3-light-grey result_box">1078-08-17 ~ 1078-09-14</div></p><p><label class="w3-text-cyan">卒年註解 / <span class="label_font">Deathdate Reference</span></label>
+		<div class="w3-border w3-round w3-padding w3-light-grey result_box">元豐元年七月逝世（宋僧著：269）</div></p><p><label class="w3-text-cyan">人名註解 / <span class="label_font">Note</span></label>
+		<div class="w3-border w3-round w3-padding w3-light-grey result_box">中天竺僧。於宋仁宗慶曆六年（1046）至汴京，奉敕從事譯經，館於譯經院，賜紫，號宣梵大師。至和年間（1054-1055），與法護、梵才、宣祕等共譯出《大乘集菩薩學論》二十五卷。神宗熙寧五年（1072），日僧成尋來宋，與師親交，翌年三月成尋訪師於太平興國寺傳法院，商議以所譯之新經送進日本，時師年五十七。元豐元年七月逝世，諡闡教。（宋僧著：269；佛光：1456）</div></p><ul class="w3-ul" id="namelist"></ul>  </div>
+</div>
+
+<div class="w3-third">
+		<script>
+		var mymap = L.map('mapid').setView([  0,0 ], 13);
+		L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		maxZoom: 18,
+		id: 'mapbox/streets-v11',
+		tileSize: 512,
+		zoomOffset: -1,
+		accessToken: 'pk.eyJ1IjoiYmVhcjJtYXAiLCJhIjoiY2tnazZ3Ym1zMjJqNzJycGRhaGx6OWo4OSJ9.EtKk2lHzVHIZGnnm5nulTA'}).addTo(mymap);
+		//設定座標圖示
+		var marker = L.marker([ 0,0]).addTo(mymap);
+		//設定圖示說明文字 
+		marker.bindPopup("日稱; ").openPopup();
+		</script>
+	</div>	
+</div>	
+<div class="w3-container w3-light-grey w3-padding-32" style="background: url(img/gray_jean.png);" id="footer">
+    <div class="w3-row-padding">
+      <div class="w3-container w3-twothird">
+        <h5 class="w3-bottombar w3-border-cyan">計畫說明</h5>
+		<div class="w3-row-padding">
+			<div style="text-indent: 1em; letter-spacing: 1px; line-height: 1.75em;">
+			<p class="w3-text-gray" style="text-indent: 1em; letter-spacing: 1px;">本網站為科技部研計畫「漢籍語意鏈結的探討與應用研究－以佛典數位資源為例」(106-2420-H-655 -001 -MY3, 106-2420-H-655 -002 -MY3 ) 之成果。本研究希望以資料鏈結方式來進行現有佛學數位資料的整合，並進一步以資料鏈結的概念，來發展人工智慧時代佛教經典數位研究資源。</p>  	
+
+		    <p class="w3-text-cyan" style="text-indent:0; margin:0;"><i class="fas fa-square"></i>計畫單位：<a href="http://www.dila.edu.tw">法鼓文理學院</a>　<i class="fas fa-users"></i>主持人：釋惠敏、洪振洲、王昱鈞　<i class="fas fa-flushed"></i>專案助理：許佳瑜　<i class="fas fa-code"></i>程式&介面：李志賢、謝承恩</p>		
+			</div>
+		</div>
+
+      </div>
+	  <div class="w3-container w3-third">
+        <h5 class="w3-bottombar w3-border-cyan">網站地圖</h5>
+        <p><i class="fas fa-home"></i> <a href="index.php">首頁 / Home</a></p>
+        <p><i class="fas fa-search"></i> 搜尋 / Search：<span class="w3-tag w3-sand w3-round-large w3-border w3-border-white"><a href="search.php">常名、別名</a></span> ‧ <span class="w3-tag w3-sand w3-round-large w3-border w3-border-white"><a href="sparql-search.php">SPARQL</a></span></p>
+        <p><a href="https://lic.dila.edu.tw/digital_archives_projects"><i class="far fa-address-card"></i> DILA 數位典藏專案 / DILA DA Projects</a></p>
+        <p><i class="far fa-envelope"></i> <a href="mailto:da@dila.edu.tw" class=""> da@dila.edu.tw</a></p>
+      </div>
+    </div>
+</div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-grey w3-center" style="background: url(img/gray_jean.png);">
+    <p class="w3-text-gray w3-small">Powered by <a href="https://www.dila.edu.tw" target="_blank">Digital Archive Section of the Library and Information Center, DILA.</a></p>
+  </footer>
+  
+<script src="scripts/sidebar.js"></script>
+<script src="scripts/dilaDaLinks.js"></script>
+<script>
+ dilaDaLinks.init({containerID:'da-container',anchorHTML:'<i class="fas fa-th"></i>',backgroundColor:''});
+</script>
+<style>
+@media only screen and (max-width: 1024px)  {
+	#main{
+		width: 100%;
+	}
+}
+</style>
+</body>
+
+</html>
+

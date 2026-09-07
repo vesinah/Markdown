@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Adan-Adan (1223 Śaka)</title>
+            	<respStmt>
+            		<resp key="creator">author of digital edition</resp>
+            		<persName ref="part:argr">
+            			<forename>Arlo</forename>
+            			<surname>Griffiths</surname>
+            		</persName>
+            		<persName ref="part:hepr">
+            			<name>Hedwi Prihatmoko</name>
+            		</persName>
+            	</respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Jakarta, Paris</pubPlace>
+            	<idno type="filename">DHARMA_INSIDENKAdanAdan.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                            <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+        <revisionDesc>
+            <change who="part:hepr" when="2026-02-06">addition in translation</change>
+            <change who="part:hepr" when="2026-02-02">revised initial encoding</change>
+            <change who="part:hepr" when="2026-01-30">revised initial encoding</change>
+            <change who="part:hepr" when="2026-01-28">revised initial encoding</change> 
+            <change who="part:hepr" when="2026-01-16">started encoding the inscription</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="kaw-Latn" rendition="class:38769 maturity:83213">
+            <pb n="1r"/><!--Blank outer page.-->
+            <p><pb n="1v"/><fw n="1v" place="right" rend="bt-rotated"><num value="1">1</num></fw>
+               
+<lb n="1v1"/><g ref="sym:doubleBar-ornate" type="punctuation">.</g><g ref="sym:circle-large" type="symbol">*</g><g ref="sym:doubleBar-ornate" type="punctuation">.</g> svasti śaka-varṣātīta, <num value="1223">1223</num>, śr<choice><orig>a</orig><reg>ā</reg></choice>vaṇa-māsa, tithi pañcadaśī kr̥ṣṇa-pakṣa
+<lb n="1v2"/>, <abbr>ha</abbr>, <abbr>U</abbr>, <abbr>śa</abbr>, v<choice><orig>a</orig><reg>ā</reg></choice>ra, maḍaṅkuṅan·, grahacāra bāyabyastha, māgha-nakṣatra, pitr̥-deva§<lb n="1v3" break="no"/>tā, Āgneya-maṇḍala, śiva-yoga, vairāja-muhūrtta, yama-parvveśa, catuspada-kara§<lb n="1v4" break="no"/>ṇa, siṅha-rāśī,</p> <p>Irika divaśany ājñā śrī mahārāja, nar<choice><orig>a</orig><reg>ā</reg></choice>ryya saṅgrāmavijaya, <foreign xml:lang="san-Latn">raṇā§<pb n="2r" break="no"/>
+<lb n="2r1" break="no"/>ṅgātura-para-paraspara-vīroṣadha-mahogravīra</foreign>, <foreign xml:lang="san-Latn">sva-hasta-bala-bhīma-<supplied reason="omitted">sa</supplied>masta-vair<choice><sic>a</sic><corr>i</corr></choice>-va-
+<lb n="2r2"/>ra-vivarṇna-kampita-k<choice><orig>a</orig><reg>ā</reg></choice>raṇa</foreign>, <foreign xml:lang="san-Latn">saṅh<choice><orig>a</orig><reg>ā</reg></choice>ra-kāla-prajvalitānala-sadr̥śa-śrī-jayakatyə:ṁ-rājāti§-
+<lb n="2r3"/>ripu-vijaya</foreign>, <foreign xml:lang="san-Latn">sakala-yava-dvīpa-maṇḍala-samudra-mandārācala-manthāno<supplied reason="omitted">pa</supplied>panna-mahāmr̥ta§-
+<lb n="2r4"/>maya</foreign>, <foreign xml:lang="san-Latn">gaṅgā-pravāhā-samān<choice><orig>a</orig><reg>ā</reg></choice><supplied reason="omitted">na</supplied>varata-ratna-vastra-kanakādi-riktha-dāna-śakta</foreign>, <foreign xml:lang="san-Latn">vyapagata-gha<pb n="2v" break="no"/><fw n="2v" place="right" rend="bt-rotated"><num value="2">2</num></fw>
+<lb n="2v1" break="no"/>na-gagaṇa-tāra-gaṇ<choice><orig>a</orig><reg>ā</reg></choice>kīrṇna-pūrṇna-śa<choice><sic>kā</sic><corr>śā</corr></choice>ṅka-ni<supplied reason="omitted">r</supplied>bhinna-samasta-rāja-śaikhara</foreign>, śrī kr̥tarājasa jaya<lb n="2v2" break="no"/>varddhanānantavikramo<choice><sic>ṅ</sic><corr>t</corr></choice>tuṅgadeva,</p> <p>Athavā, <foreign xml:lang="san-Latn">catusprakāra-rājadevy-ānurūpa</foreign>, sākṣāt ⌈-§-
+<lb n="2v3"/>devadevī śrī mahārāja mvaṁ sira rantən hajinira, rājaputrī paramātiśaya catu<choice><orig>s</orig><reg>ṣ</reg></choice>prakāra, <foreign xml:lang="san-Latn">ba<lb n="2v4" break="no"/>li-malayu-madhura-tañjuṅpura-prabhr̥ti, para-dvīpa-rāja-śiro-ghaṭita-caraṇāravinda-śrī-kr̥§<pb n="3r" break="no"/><lb n="3r1" break="no"/>tanagara-mahāprabhu-sad-duhitā</foreign>, sira ta kapāt· kapva suputrī de bhaṭāra śrīkr̥tanagara,
+<lb n="3r2"/> sira saṁ l<choice><orig>i</orig><reg>ī</reg></choice>na ri śivabuddhālaya, makādi sira saṁ paramasuśīlamahāpatibrata, śrī parameśva
+<lb n="3r3" break="no"/>rī, dyaḥ devī trībhuvaneśvarī, śrī mahādevī, dyaḥ devī narendraduhitā śrījayendra<lb n="3r4" break="no"/>devī, dyaḥ devī pr<choice><orig>ā</orig><reg>a</reg></choice>jñāpārāmit<choice><orig>a</orig><reg>ā</reg></choice>, mvaṁ sira saṁ paramalalitamahārūpin<choice><sic>a</sic><corr>ī</corr></choice>, Atipriya de §
+
+<pb n="3v"/><fw n="3v" place="right" rend="bt-rotated"><num value="3">3</num></fw>
+<lb n="3v1"/> śrī mahārāja, sākṣāt· Arddharājeśvarī, sira mvaṁ saṁ nātha, śrī pāduka rājapatnī, dyaḥ ⌈<lb n="3v2" break="no"/>devī gāyatrī, Athaca, sat-putra-parigat<choice><orig>ā</orig><reg>a</reg></choice>, Iniriṁ ta śrī mahārāja deni sat-putranira sa<lb n="3v3" break="no"/>ṅke śrī parameśvarī, śrī jayanagara dahapurapratiṣṭitāmitabalavīryyasaṁk<choice><orig>i</orig><reg>ī</reg></choice>rṇnasulakṣa<lb n="3v4" break="no"/>ṇataruṇarāja, prabhu taruṇa sulakṣaṇa tan· papramāṇa taṁ balavīryya ri sira, tlas· ta
+
+<pb n="4r"/>	
+<lb n="4r1"/> sira pinratiṣṭa riṁ nagara daha de śrī mahārāja, śrī jayanagaranāmarājābhiṣeka, I§<lb n="4r2" break="no"/>ka tājñā śrī mahārāja, tinaḍaḥ de rakryan· mahāmantrī katrīṇi, rakryan· mantrī hi⌈<lb n="4r3" break="no"/>no, rakryan· mantrī sirikan·, rakryan· mantrī halu, Umiṅsor i para taṇḍa rakryan· riṁ pa§<lb n="4r4" break="no"/>kira-kiran· makabehan· makādi saṁ mantrī mahākuśala, sākṣāt· praṇ<choice><orig>a</orig><reg>ā</reg></choice>lāmratisu<pb n="4v" break="no"/><fw n="4v" place="right" rend="bt-rotated"><num value="4">4</num></fw><lb n="4v1" break="no"/>baddhākən· pagəḥni paṁḍiri śrī mahārāja kāṅkən <choice><orig>i</orig><reg>ī</reg></choice>śvaraprativimba, rakryan apatiḥ, pu vā<lb n="4v2" break="no"/>hana, śīla-guṇācāra-raṅgabalasaṁkīrṇnamaṇḍitamahāmantrīmukhya, rakryan· dmuṁ, pu Elā<lb n="4v3" break="no"/>m·, saṅgrāmāstrahastaripumarddanakaraṇa, rakryan· kanuruhan·, pu ckap·, sakalavairi§
+<lb n="4v4" break="no"/>vīratar<choice><orig>a</orig><reg>ā</reg></choice>laṅghanīya, rakryan· tuməṅguṁ, pu smi, At<choice><orig>i</orig><reg>ī</reg></choice>vamanohararājyābharaṇātmakaśū§<pb n="5r" break="no"/><lb n="5r1" break="no"/>rasiṅharājavatsa, təlas· karuhun· saṁ mantrī vāgmīmaya, mapasaṅgahan· saṁ prāṇarā<lb n="5r2" break="no"/>ja, pu sina, <choice><sic>suśīlendikajña</sic><corr>suśīleṅgitajña-</corr></choice>sarvva-nay<choice><orig>ā</orig><reg>a</reg></choice>nītidakṣa, saṁ rājamantrī, pu baṅo, Aśeṣarā§<lb n="5r3" break="no"/>jakāryya-p<surplus>r</surplus>aramapurass<choice><orig>ā</orig><reg>a</reg></choice>ra, saṁ rājaguṇa, pu kapuk·, jagat·-saṁrakṣaṇa-samasta-nīti<lb n="5r4" break="no"/>vicakṣaṇa, mvaṁ saṅ apañji varṇnajaya, pu kapāt·, samasta-rāja-nandana-kriy<choice><orig>a</orig><reg>ā</reg></choice>-tatpara, sa<pb n="5v" break="no"/><fw n="5v" place="right" rend="bt-rotated"><num value="5">5</num></fw><lb n="5v1" break="no"/>ṅ apañji śūrapati, pu siṅhasahəl·, satatarājanirggamānu<choice><sic>ka</sic><corr>kr̥</corr></choice>tasatyapara, ca muvaḥ, ta§<lb n="5v2" break="no"/>n· kantun· saṁ mantrī keśadharī, saṅ apañji guṇajaya, ḍaṅ ācāryyāgraja, vāhyāvāhya§<lb n="5v3" break="no"/>kriy<choice><orig>a</orig><reg>ā</reg></choice>nipuna, saṅ apañji nāgaraka, ḍaṅ ācāryya vīranātha, rājahitakāryyānekasādha<lb n="5v4" break="no"/>navicakṣaṇa, tan· kavun·tat saṁ prāgvivāka nyāyānyāya-vyāvahāra-vicchedaka, saṁ pa<pb n="6r" break="no"/><lb n="6r1" break="no"/>mgət i tirvan·, ḍaṅ ācāryya s<choice><orig>a</orig><reg>ā</reg></choice>vitra, nyāya-vyākaraṇa-śāstra-parisamāpta, saṁ pamgət i
+<lb n="6r2"/> jamba, ḍaṅ ācāryya rāgavijaya, nyāya-vyākaraṇa-śāstra-parisamāpta, saṁ pamgət i pamvatan·, ḍa<lb n="6r3" break="no"/>ṅ ācāryya smaravijaya, s<choice><orig>a</orig><reg>ā</reg></choice>ṁkhyā-prakaraṇa-śāstra-parisamāpta, mvaṁ saṁ pamgət i kaṇḍaṅan rarai, ḍa<lb n="6r4" break="no"/>ṅ ācāryya giṇāntaka, prakaraṇa-śāstra-parisamāpta, makamukhya saṁ dharmmādhikaraṇa, dharmm<choice><orig>a</orig><reg>ā</reg></choice>dhya<pb n="6v" break="no"/><fw n="6v" place="right" rend="bt-rotated"><num value="6">6</num></fw><lb n="6v1" break="no"/>kṣa riṁ kaśaivan·, saṅ apañji nirasana, ḍaṅ ācāryyāstrarāja, Aneka-prakāra-guṇa-sampa<lb n="6v2" break="no"/>nna-dharmma-parāyana, I piṅsorny ājñā śrī mahārāja, kumonakən irikanaṁ Adan-adan· thāni va<lb n="6v3" break="no"/>tək· luraḥ siṅgahan·, padaməlakna saṁ hyaṅ ājñā haji praśāsti tinaṇḍa kr̥tarājasa-jayavarddhanalā<lb n="6v4" break="no"/>ñchana, sambandha, gati śrī pāduka rājarṣī, valkaladharī suśīlaśuddhācāra satatadharmmacintana
+
+<pb n="7r"/>
+<lb n="7r1"/>, sthiratara ta sira gum<unclear>ə</unclear>gvani kasatyan· patibrat<choice><orig>a</orig><reg>ā</reg></choice>brata, mvaṁ tan alupe k<choice><orig>a</orig><reg>ā</reg></choice>bhyāsaniṁ sarvva⌈<!--taling at the end of line--><lb n="7r2" break="no"/>devārccana, makataṅgvan sadānusmr̥tinire saṁ hyaṁ parameṣṭadevatā, m<choice><orig>a</orig><reg>ā</reg></choice>tāmahī ta sira ⌈<!--taling at the end of line-->
+<lb n="7r3"/> de śrī mahārāja, sira tāminta ri śrī mahārāja ri knohanikaṁ vānva riṅ adanadan·, An susu§<lb n="7r4" break="no"/>kən· sīma de śrī pāduka rājarṣī, makadon· paṁlālananna<surplus>na</surplus> Uṅgvana śrī pāduka rājarṣī
+
+<pb n="7v"/><fw n="7v" place="right" rend="bt-rotated"><num value="7">7</num></fw>
+<lb n="7v1"/> vyavaś<choice><orig>a</orig><reg>ā</reg></choice>yāṁlampahakən· devārccanāmrārthanakna pagəhani paṁḍiri śrī mahārāja riṁ ratna<lb n="7v2" break="no"/>kanakasiṅhāsana, maṅkana Iṣṭaprayojana śrī pāduka rājarṣī, śrī mahārāja pva sira pra<lb n="7v3" break="no"/>bhu dev<choice><orig>a</orig><reg>ā</reg></choice>ṅśa svarggāvatīrṇnaviṣṇvavatāra, sākṣāt· bhaṭāra jan<choice><orig>a</orig><reg>ā</reg></choice>rddhanāmarālayāvatīrṇne§<lb n="7v4" break="no"/>nāṅkan akən· rumakṣaṁ sarvvadharmma, munarjīvaknaṁ jagaddhita, mataṅyan· tan· tinəṅət ikaṁ sa§<pb n="8r" break="no"/><lb n="8r1" break="no"/>kinahyunakən śrī pāduka rājarṣī de śrī mahārāja, Āpan· paramārthadharmmakāryya d<lb n="8r2" break="no"/>onya, yadyan tāsiṁ dharmmakāryya salviranya, tan dadi śrī mahārāja sira tan· mukyadharmmaka<lb n="8r3" break="no"/>rttā, kimuta sira yan· dharmmakāryyaniṁ tuhatuha, nimittanyan kinonakən ikaṁ vānva riṅ a<lb n="8r4" break="no"/>danadan·, padaməlakna saṁ hyaṅ ājñā haji praśāsti tinaṇḍa kr̥tarājasa-jayavarddhana-lāñcha<pb n="8v" break="no"/><fw n="8v" place="right" rend="bt-rotated"><num value="8">8</num></fw><lb n="8v1" break="no"/>na, Umuṅgva ri salaḥ sikiniṅ upālatāmraripta, makarasa ri vnaṅanikanaṁ vānva riṅ adanadan su<lb n="8v2" break="no"/>sukən· sīma de śrī pāduka rājarṣī, saha saṅkeṁ sāmyātagan· vatək· luraḥ siṅgahan·,
+<lb n="8v3"/> makadon sīma śrī pāduka rājarṣī, tumusa tke santāna pratisantāna śrī pāduka rāja§<lb n="8v4" break="no"/>rṣī, yadyan· məne hləm· katka dlāhaniṁ dlāha, kunəṁ parṇnaḥnyan· sīma de śrī pāduka rā§<pb n="9r" break="no"/><lb n="9r1" break="no"/>jarṣī, kevalādəg· riṅgit·, svatantrā tan· katamana deniṁ vinava saṁ m<choice><orig>a</orig><reg>ā</reg></choice>nāk <supplied reason="omitted">k</supplied>atrīṇi, pa<lb n="9r2" break="no"/>ṅkur·, tavan·, tirip·, mvaṁ piṅhai vahuta, saprakāraniṁ maṅilala dr̥vya haji riṁ daṅū, miśra
+<lb n="9r3"/> paramiśra, vulu-vulu prakāra, paṅuraṁ, kriṁ, paḍəm·, manimpiki, paranakan·, limus· ga§<lb n="9r4" break="no"/>luḥ, maṁriñci, maṁhuryyālāla, paraṁ, suṅka, dūra, paṅaruhan·, taji, vatu tajəm·, sukun·,
+
+<pb n="9v"/><fw n="9v" place="right" rend="bt-rotated"><num value="9">9</num></fw>
+<lb n="9v1"/> halu varak·, rakasaṁ, ramanaṁ, piniṅlai, kataṅgaran·, tapa haji, Air haji, malaṇḍaṁ, lca, lə<lb n="9v2" break="no"/>bləb·, pakalaṁkaṁ, pakaliṁkiṁ, kutak·, taṅkil·, tr̥pan·, salyut·, vatu valaṁ, pamaṇi§<lb n="9v3" break="no"/>kan·, paṇiga, sikpan·, rumban·, vilaṁ thāni, viji kavaḥ, tiṅkəs·, Avi, tuha dagaṁ, tu§<lb n="9v4" break="no"/>ha nambi, tuha juḍi, tuhan uñjəman·, juru gosali, juru jalir·, maṁrumbai, maṁguñjai, pabi<pb n="10r" break="no"/><lb n="10r1" break="no"/>sar·, paguluṁ, pavuṁkunuṁ, puluṁ paḍi, miśra hino, miśrāṅinaṅin·, vli hapū, vli vaduṁ
+<lb n="10r2"/> vli tāmbaṁ, vli pañjut·, vli haR̥ṁ, palamāk·, pakaluṁkuṁ, Urutan·, ḍampulan·, tpuṁ ka<lb n="10r3" break="no"/>vuṁ, suṁsuṁ paṅuraṁ, pasuk alas·, patikəl aṅgas·, payuṅan·, sipat· vilut·, jukuṁ, pā<lb n="10r4" break="no"/>ṅinaṅin·, pamavasya, hopan·, panraṅan·, səkar tahun·, pahaliman·, kḍi, valya<pb n="10v" break="no"/><fw n="10v" place="right" rend="bt-rotated"><num value="10">10</num></fw><lb n="10v1" break="no"/>n·, vidu maṅiduṁ, sumbal·, sumbul·, hulun· haji, siṅgaḥ, pabr̥si, vatək iṁ jro, Ityai§<lb n="10v2" break="no"/>vamādi kabeḥ, tan· tam<choice><orig>a</orig><reg>ā</reg></choice> ya Irikaṁ sīma śrī pāduka rājarṣī Iṅ adanadan·, samaṅka§<lb n="10v3" break="no"/>na tekanaṁ sukhaduḥkha magə:ṅ aḍmit·, kadyaṅganiṁ mayaṁ tan· pavvaḥ, valūḥ rumāmbat iṁ nata<lb n="10v4" break="no"/>r·, vipati<surplus>,</surplus> vaṅkai kabunan·, rāḥ kasamburat iṁ natar·, vākcapāla, hastacapāla, duhi§<pb n="11r" break="no"/><lb n="11r1" break="no"/>latən·, hidu kasirat·, Amijilakən· vuryyaniṁ kikir·, mamuk·, mamuṅpaṁ, ludan·
+<lb n="11r2"/>, tūtan, Aṅśa pratyaṅśa, ḍaṇḍa kuḍaṇḍa, maṇḍihalādi, kevala saṁ masīma riṅ adanada<lb n="11r3" break="no"/>n·<surplus>,</surplus> Ataḥ pramāṇa ri sasukhaduḥkhanya kabeḥ, kunəṁ Ikanaṁ miśra mañəmbul·, Añaṁvriṁ§
+<lb n="11r4"/> malaka, mamahaṁ, maṅapus·, maṅapū, maṅubar·, matarub·, maṁgula, maṁdyun·, manula,
+
+<pb n="11v"/><fw n="11v" place="right" rend="bt-rotated"><num value="11">11</num></fw>
+<lb n="11v1"/> vuṁkuḍu, magavai ruṁgi, payuṁ vəlū, mopiḥ, makajaṁ, magavai kisi, mamubut·, maṅanām-a§<lb n="11v2" break="no"/>nām·, manavaṁ, manaṅkəb·, Añjariṁ, mamisaṇḍuṁ manuk·, makala-kalā, sama sānak· ri§<lb n="11v3" break="no"/>ṅ adanadan· Ataḥ pramāṇeriya kabeḥ, kunəṁ parimāṇanika<unclear>ṁ</unclear> lmaḥ riṅ adanadan·, ri§
+<lb n="11v4"/> pūrvva satapəl· vatəs· lāvan i vaḍuṁ, maṅidul dudug· riṅ āgneya, satapəl· va<pb n="12r" break="no"/><lb n="12r1" break="no"/> təs· lāvan· tinavun·, maṅulon· tka riṁ dakṣiṇa, satapəl· vatəs· lāvan· pa§<lb n="12r2" break="no"/>tambaṅan·, maṅulon· dudug· riṁ nairiti, satapəl· vatəs· lāvan· kaveṅan·, 
+<lb n="12r3"/> maṅalor· tka riṁ paścima, satapəl· vatəs· lāvan· Iṁ jajar·, maṅalor· dudug· riṁ bā<lb n="12r4" break="no"/>yabya, satapəl· vatəs· lāvan iṁ tāmbar·, maṅetan· tka riṅ uttara, satapəl· vatə<pb n="12v" break="no"/><fw n="12v" place="right" rend="bt-rotated"><num value="12">12</num></fw><lb n="12v1" break="no"/>s·, lāvan· I paḍasan·, maṅetan· dudug· riṅ aiśānya, satapəl· vatəs· lāva§<lb n="12v2" break="no"/>n· I pun·ten·, maṅidul· tka riṁ pūrvva muvaḥ, samaṅkana parimāṇanikaṁ lmaḥ riṅ ada<lb n="12v3" break="no"/>nadan· sīma śrī pāduka rājarṣī, kunəṁ tiṁkaḥnikaṁ lmaḥ riṁṅ adanadan· de śrī pāduka 
+<lb n="12v4"/> rājarṣī, maṅalap ta sira lmaḥ yathāśakti lam<unclear>u</unclear>n· hana cihnanirān· panusuk irikaṁ vā§<pb n="13r" break="no"/><lb n="13r1"/>nva riṅ adanadan·, Ikaṁ savaḥ, ri kəməṁ, pañjər·, <num value="7">7</num>, I L̥bak·, pañjər·, <num value="4">4</num>, I §
+<lb n="13r2"/> saṇḍa, pañjər·, <num value="1">1</num>, I tāmbak·, pañjər·, <num value="4">4</num>, I barat·, pañjər·, <num value="4">4</num>, piṇḍa sa§<lb n="13r3" break="no"/>vaḥ śrī pāduka rājarṣī, pañjər·, <num value="20">20</num>, mvaṁ kubvan·, Iṁ kubvan agəḍe, paran·, <num value="1">1</num>,
+<lb n="13r4"/> lāvan· pomahan· sapomahan·, samaṅkana lmah inalap· kaputrāṅśana d§<pb n="13v" break="no"/><fw n="13v" place="right" rend="bt-rotated"><num value="13">13</num></fw><lb n="13v1" break="no"/>e śrī pāduka rājarṣī, kunəṅ ikaṁ lmaḥ śeṣa, yatikā kaputrāṅśana ri sama sāna<lb n="13v2" break="no"/>k· mvaṁ pakna devapūjā, kunəṁ lvirniṁ sama sānak· sākṣāt <supplied reason="omitted">t</supplied>umarima saṁ hyaṁ rājapra<lb n="13v3" break="no"/>śāsti, rakryan apatiḥ riṁ mahībit·, pu Ajaran·, mūladharmma, nāma potra, ki §
+<lb n="13v4"/> hadyan avasana, makasikasir·, raṅga lintaṁ samaṁkana pratyekaniṁ sama sānak·
+
+<pb n="14r"/>
+<lb n="14r1"/> riṅ adanadan· de śrī pāduka rājarṣī, kunəṁ kinavənaṅakən· sama sānak· de śrī 
+<lb n="14r2"/> mahārāja, riṁ kevvaniṁ rarai sutakādi, Amaguta pajəṁ pañcavarṇna pinagut·
+<lb n="14r3"/> Acuriṅ<choice><orig>a</orig><reg>ā</reg></choice>laryya-laryyan tan· paṁkaṅṡya, Agilaṁ-gilaṅa hampyal· gaḍiṁ, prās·
+<lb n="14r4"/> vataṁ, prās aṅgī, prās· buntər·, prās siddhayuga, vr̥ttivalī, santi, pahavvan·§
+
+<pb n="14v"/><fw n="14v" place="right" rend="bt-rotated"><num value="14">14</num></fw>
+<lb n="14v1"/> havvan·, pasiliḥ galuḥ, tuvuḥ-tuvuhan·, ci<choice><sic>tra</sic><corr>va</corr></choice>pātra, Aṅaṅgva salvirniṁ vali, §
+<lb n="14v2"/> makādi, nāgapuṣpa, navagraha, Ajənva kanaka, Asəkara bvat· hino, maṁkana
+<lb n="14v3"/> kinavnaṅakən i sama sānak iṅ adan-adan· de śrī mahārāja, tlas labdhāpagəḥ §
+<lb n="14v4"/> tan· hananiṁ vanya muṁkimuṅkila məne hləm·, yadyapin· katka ri dlāhaniṁ dlāha, d<pb n="15r" break="no"/><lb n="15r1" break="no"/>e saṁ prabhumantryanāgata, ṅuniveḥ yan· grāma sāmānya, mvaṁ piṅhe vāhuta §
+<lb n="15r2"/> rāma, kunəṁ ri səḍəṅanyan· hana vanyāṁruddha ri rasa saṁ hyaṅ ājñā haji praśāsti riṅ ada<lb n="15r3" break="no"/>nadan·, salvirniṁ pañcamahāpātaka bhuktinya riṅ ihatra paratra, In<choice><orig>ḍ</orig><reg>d</reg></choice>aḥ ta kita kamu §
+<lb n="15r4"/> hyaṁ haricandana, Agasti mahārṣi, pūrvvadakṣiṇapaścimottaramaddhyorddhādhaḥ, ra<pb n="15v" break="no"/><fw n="15v" place="right" rend="bt-rotated"><num value="15">15</num></fw><lb n="15v1" break="no"/>v<choice><sic>a</sic><corr>i</corr></choice> śa<choice><orig>s</orig><reg>ś</reg></choice>i kṣiti jala pavana hutasāna, yajam<choice><orig>a</orig><reg>ā</reg></choice>nākāśa dharmmāhoratri sandhya<lb n="15v2" break="no"/>dvaya, yakṣa r<choice><orig>a</orig><reg>ā</reg></choice>kṣasa piśāca pret<choice><orig>a</orig><reg>ā</reg></choice>sura garuḍa gandharvva, graha kinnāra mahorāga
+<lb n="15v3"/> caturi lokapāla, yama baruṇa kuvaira bāsava, mvaṁ putra devatā pañcaku§<lb n="15v4" break="no"/>śīkā, nandīśvara mahākāla, ṣadvināya<supplied reason="omitted">ka</supplied> dūrggadevī caturāśra, <choice><sic>Anta</sic><corr>Ananta</corr></choice> surendra, A<pb n="16r" break="no"/><lb n="16r1" break="no"/>na<choice><sic>k</sic><corr>n</corr></choice>ta hyaṁ kālamr̥tyu bhūta gaṇa, sahananta rumakṣaṁ sakalabhūmimaṇḍala, kita §
+<lb n="16r2"/> Umilu manarīra riṁ sarvvabhūta, kita sakalasākṣībhūta tumonaṅ adoh apaR̥ riṁ §
+<lb n="16r3"/> rahineṁ kuL̥m·, At· R̥ṅə: Ikeṁ samaya sapatha sumpaḥ pamaṁmaṁmamīri kita ka<lb n="16r4" break="no"/>mu hyaṁ kabeḥ, yāvat ikaṁ vvaṁ dūrācārāṅulahulaha Ikeṁ sīma riṅ adanadan·,
+
+<pb n="16v"/><fw n="16v" place="right" rend="bt-rotated"><num value="16">16</num></fw>
+<lb n="16v1"/> yadyan· brāhmaṇa kṣatriya vaiśya śūdra, viku, brāhmacāri gr̥hasta vanaprastha bhi§<lb n="16v2" break="no"/>kṣuka, mvaṁ piṅhai v<choice><orig>ā</orig><reg>a</reg></choice>huta rāma, nāyaka parttaya, hatu tali ser·, Asiṅ avakanya
+<lb n="16v3"/>, tasmāt· kabvat·karmmaknanya, patyanan ta ya denta kamu hyaṁ kabeḥ, deya<supplied reason="omitted">n</supplied>tat patī§<lb n="16v4" break="no"/>ya, yan aparanparan, humalintaṁ riṁ tgal·, sahutən deniṅ ulā mandi, yan· pareṅ alas·
+
+<pb n="17r"/>
+<lb n="17r1"/> dəmakən iṁ moṁ, maṁlaṁkahana mi<unclear>ṁ</unclear>maṁ, yan· halivat· riṁ vvaiy agə:ṁ, saṅhapən de§<lb n="17r2" break="no"/>niṁ vuhaya, mumul·, tuviran·, yan· halivat· riṁ havan· gə:ṁ, kasopa vula§<lb n="17r3" break="no"/>ṅun· haliliṅəṅə:na, yan· hudan· sambəR̥n deniṁ glap·, yan· hana riṅ umaḥnya ka§<lb n="17r4" break="no"/>tibāna bajrāgni tan· pavarṣa, liputən· gsəṅana de saṁ hyaṅ āgni vehən· bhaṣmi§<pb n="17v" break="no"/><fw n="17v" place="right" rend="bt-rotated"><num value="17">17</num></fw><lb n="17v1" break="no"/>bhūta saha dr̥v<supplied reason="omitted">y</supplied>anya, tan· panoliha riṁ vuntat·, taruṁ riṅ adgan·, tāmpyal· riṁ kiva<lb n="17v2" break="no"/>n·, Uvahi ri tṅənan·, tutuḥ <choice><sic>tuṇḍanya</sic><corr>uṇḍuhuṇḍutanya</corr></choice>, bəlaḥ kap<choice><orig>a</orig><reg>ā</reg></choice>lanya, səbit· vtəṁnya, tatas ḍaḍa§<lb n="17v3" break="no"/>nya, vtvakən· ḍaL̥manya, paṅan· dagiṁnya, Inum· rāḥnya, Atəhər· pəpədakən· <choice><sic>va§<lb n="17v4" break="no"/>hi</sic><corr>vkas i</corr></choice> prāṇantika, byə:ṅakən riṅ <choice><orig>a</orig><reg>ā</reg></choice>kāśa, tibākən riṁ mahārorava, Astu, Astu, Astu, //
+
+</p>
+
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="2r1">
+                     <lem>-vair<unclear>i</unclear>-</lem>
+                     <rdg source="bib:MachiSuhadi1996_01">-vera-</rdg>
+                     <note>Cf. <ref target="DHARMA_INSIDENKSukhamerta.xml">Sukhamerta</ref> 2r1 <foreign>vivarṇṇa-pariśūnya-samasta-ripu-hetuka</foreign>.</note>
+                  </app>
+                  <app loc="2r4">
+                     <lem>-samān<choice><orig>a</orig><reg>ā</reg></choice><supplied reason="omitted">na</supplied>varata-ratna-</lem>
+                     <note>Cf. <ref target="DHARMA_INSIDENKRameśvarapura.xml">Rāmeśvarapura</ref> 1v6 <foreign>Anavarata-rajata-kanaratna-vastradādāna gaṅgāprajāhasannibhakara</foreign>. However, <foreign>na</foreign> is also omitted in Balawi 1v6. The <foreign>sakalayavadvīpa</foreign> epithet is to be compared with others ending in <foreign>samudramandarācalamanthānamahāmr̥tamaya</foreign>.</note>
+                  </app>
+                  <app loc="2r4-2v1">
+                     <lem>vyapagataghanagagaṇatāragaṇ<choice><orig>a</orig><reg>ā</reg></choice>kīrṇnapūrṇnaśakāṅkanibhinnasamastarājaśaikhara</lem>
+                     <note>The epithet <foreign>vyapagataghaṇagagaṇatārāgaṇasaṁkīrṇapūrṇaśaśāṅkanirbhinnasamastarājaśaikhara</foreign> is paralleled in <ref target="DHARMA_INSukhāmr̥ta">Sukhāmr̥ta</ref> 1b5-6.</note>
+                  </app>
+                  <app loc="5r2">
+                     <lem><choice><sic>suśīlendikajña</sic><corr>suśīleṅgitajña-</corr></choice></lem>
+                     <note>Cf. <ref target="DHARMA_INSPakisWetan.xml">Pakis Wetan</ref> lv9 <foreign>saṁ mantrī nayavid iṅgitajñā</foreign> and <ref target="DHARMA_INSIDENKManahimanuk.xml">Manah i Manuk</ref> 3r1 <foreign>saṁ mantrīṅgitājñāprajālaṅk<choice><orig>a</orig><reg>ā</reg></choice>rā</foreign>.</note>
+                  </app>
+                  <app loc="7r4">
+                     <lem>paṁlālananna<surplus>na</surplus></lem>
+                     <note>The same as <foreign>paṅlīlān-a</foreign>?</note>
+                  </app>
+                  <app loc="7r4">
+                     <lem>Uṅgvana</lem>
+                     <rdg source="bib:MachiSuhadi1996_01">Uṅgvani</rdg>
+                  </app>
+                  <app loc="7v2-7v3">
+                     <lem>prabhudeva-</lem>
+                     <note>Whether the words <foreign>prabhu</foreign> and <foreign>deva</foreign> should be written separately or together is still undecided.</note>
+                  </app>
+                  <app loc="8v2">
+                     <lem>saha saṅkeṁ sāmyātagan· vatək·</lem>
+                     <note>The appearance of <foreign>saṁkeṁ</foreign> makes the translation to be difficult as it stands</note>
+                  </app>
+                  <app loc="14v1">
+                     <lem>ci<choice><sic>tra</sic><corr>va</corr></choice>pātra</lem>
+                     <note>The expect term is <foreign>civapātra</foreign>, but see <ref target="DHARMA_INSKoravāśrama.xml">Koravāśrama</ref> <foreign>vruh macitrapaṭa</foreign>.</note>
+                  </app>
+                  <app loc="14v4">
+                     <lem>vanya</lem>
+                     <rdg source="bib:MachiSuhadi1996_01">vaṁ nya</rdg>
+                  </app>
+                  <app loc="14v4">
+                     <lem>katka</lem>
+                     <rdg source="bib:MachiSuhadi1996_01">ta tka</rdg>
+                     <note>The particle <foreign>ta</foreign> is not expected in a subordinate clause, and the expression <foreign>yadyapin katəka</foreign> is rather common in Old Javanese prose texts with several occurrences in <title>Ādiparva</title>, <title>Agastyaparva</title>, <title>Brahmāṇḍapurāṇa</title>, <title>Udyogaparva</title>, and <title>Uttarakāṇḍa</title>.</note>
+                  </app>
+                  <app loc="15r4">
+                     <lem>Agasti</lem>
+                     <note>understand <foreign>Agastya</foreign>.</note>
+                  </app>
+                  <app loc="15v2-3">
+                     <lem>mahorāga caturi lokapāla</lem>
+                     <note>understand <foreign>mahoraga caturlokapāla</foreign>.</note>
+                  </app>
+                  <app loc="15v4">
+                     <lem><choice><sic>Anta</sic><corr>Ananta</corr></choice></lem>
+                     <note>See <ref target="DHARMA_INSWarunggahan">Warunggahan</ref> 14r1 mentions <foreign>antassurendra</foreign>.</note>
+                  </app>
+                  <app loc="16v2">
+                     <lem>hatu tali ser·</lem>
+                     <note>The reading seems clear enough but it is not clear whether and how this string is to be divided into words. I know only one parallel, in <bibl><ptr target="bib:Brandes1913_01"/></bibl> XLVIII, where we read <foreign>muaṅ piṅhai vahu(ta) rāma nāyaka parttaya hatur ttaliper asiṅ umulahula</foreign>. Maybe <foreign>hatut alis er</foreign> means <q>following the flow of water</q>? This needs to be discussed further in the light of <foreign>atur tali ser</foreign> in <ref target="DHARMA_INSResisasana">Resisasana</ref>, <ref target="DHARMA_INSAnjukLadang">Anjuk Ladang</ref>, <ref target="DHARMA_INSParadahII">Paradah II</ref>, <ref target="DHARMA_INSBimalasrama">Bimalasrama</ref>.</note>
+                  </app>
+                  <app loc="17r1">
+                     <lem>maṁlaṁkahana mi<unclear>ṁ</unclear>maṁ</lem>
+                     <rdg source="bib:MachiSuhadi1996_01">mala kahana mimaṁ</rdg>
+                  </app>
+                  <app loc="17v2">
+                     <lem><choice><sic>tuṇḍanya</sic><corr>uṇḍuhuṇḍutanya</corr></choice></lem>
+                     <note><foreign>uṇḍuhuṇḍutanya</foreign> as in <ref target="DHARMA_INSMadhavapura">Madhavapura</ref>?</note>
+                  </app>
+                  <app loc="17v3-4">
+                     <lem><choice><sic>vahi</sic><corr>vkas i</corr></choice></lem>
+                     <rdg source="bib:MachiSuhadi1996_01">vehi</rdg>
+                  </app>
+
+               </listApp>
+         </div>
+         <div type="translation">
+ 	<p n="1v1-1v4">Hail! Elapsed Śaka year 1223, month of Śrāvaṇa, fifteenth <foreign>tithi</foreign> of the waning fortnight, Haryang, Umanis, Saturday, (<foreign>wuku</foreign>) Maḍaṅkuṅan, the <foreign>grahacāra</foreign> in the north-west, lunar mansion Māgha, deity Pitr̥s, the <foreign>maṇḍala</foreign> is south-east, the Śiva, muhūrta Vairāja, the regent of the astronomical node Yama, the <foreign>karaṇa</foreign> Catuspada, the zodiac sign Leo.</p>
+
+   <p n="1v4-2v2">That was the time of the order of the Great King, Narārya Saṅgrāmavijaya, <q>great and fierce hero who is the medicine for mutually inimical heroes wounded on the battle-field</q>, <q>cause with his own hands of the pallor and the trepidation of the best of fierce-headed enemies</q>, <q>victorious over the extreme enemy Śrī Jayakatyə̄ṅ who is like the fire ignited at the time of destruction</q>, <q>full of the great ambrosia obtained by the churning through Mount Mandara of the ocean which was the entire territory of the island of Java</q>, <q>capable of unending gifts of wealth such as jewels, gold, etc., like the stream of the Ganges</q>, <q>crown of all kings not different from the full moon sprinkled with clusters of stars in the cloudless sky</q>, Śrī Kr̥tarājasa Jayavardhana Anantavikramottuṅgadeva.</p>
+
+   <p n="2v2-3v2">Moreover, <q>the four different queens were like him</q>, like god and goddess were the Great King and his royal sisters, fourfold princesses of great excellence, <q>daughters of the Great King Śrī Kr̥tanagara whose lotus feet were striven after by the heads of kings of the other islands such as Bali, Malayu, Madhura, Tañjuṅpura</q> — all the four of them were the fine daughters of Lord Śrī Kr̥tanagara who is dissolved at Śivabuddhālaya, beginning with the chief queen, of highest propriety and greatly devoted to her husband, Her Royal Highness <supplied reason="explanation">HRH, <foreign>dyaḥ devī</foreign></supplied> Tribhuvaneśvarī; <supplied reason="subaudible">after whom followed</supplied> Śrī Mahādevī, HRH Narendraduhitā; Śrī Jayendradevī, HRH Prajñāpāramitā; and she who is exceedingly voluptuous and of great beauty, utterly beloved of the Great King, like an Ardharājeśvarī, she with her husband, her Majesty the Royal Consort, HRH Gāyatrī.</p>
+
+   <p n="3v2-4r1">Moreover, surrounded by a good son, the Great King was accompanied by his good son by the Chief Queen, <q>a young king established at the victorious city of Dahapura</q> <supplied reason="explanation">or: Śrī Jayanagara, <q>young king established at Dahapura</q></supplied>, of  the limitless force and heroism, covered with auspicious marks, a young king of fine qualities, the force and  heroism in him having no limits; he has been established by the Great King in the country of Daha, Śrījayanagara by his consecration name.</p>
+
+   <p n="4r1-6v4">That was the order of the Great King, received by the Three Lords Great Ministers: the great minister of Hino; the great minister of Sirikan; the great minister of Halu. It came down to all the ranking lords <supplied reason="explanation"><foreign>taṇḍa rakryān</foreign></supplied> in the council, beginning with:
+   <list>
+      <item>the greatly skilled minister, <q>pedestal in bodily form for stabilizing the position of the Great King as an image of Īśvara</q>, the lord Patih <supplied reason="subaudible">named</supplied> Pu Vāhana, <q>the foremost of great ministers adorned with the colors of integrity, virtue, conduct mixed with force</q>;</item>
+      <item>the lord of <foreign>Dmuṅ</foreign> <supplied reason="subaudible">named</supplied> Pu Elām, <q>who caused the ruin of his enemies with the battle weapons that were his arms</q>;</item>
+      <item>the lord of <foreign>Kanuruhan</foreign> <supplied reason="subaudible">named</supplied> Pu Ckap, <q>unsurpassable by the most heroic of all his enemies;</q></item>
+      <item>the lord of <foreign>Tuməṅguṅ</foreign> <supplied reason="subaudible">named</supplied> Pu Smi, <q>child of the heroic lion king characterized by the exceedingly beautiful royal decorations</q>.</item>
+   </list>
+   And first of all:
+   <list>
+      <item>the eloquent minister with the title <foreign>Prāṇarāja</foreign> <supplied reason="subaudible">named</supplied> Pu Sina, <q>knower of signs of high integrity, skilled in all political conduct</q>;</item>
+      <item>the royal minister <supplied reason="subaudible">named</supplied> Pu Baṅo, <q>who was the superior forerunner in every royal undertaking</q>;</item>
+      <item>the <foreign>Rājaguṇa</foreign> <supplied reason="subaudible">named</supplied> Pu Kapuk, <q>wise in all policies for protecting the world</q>;</item>
+   </list>
+   and:
+   <list>
+      <item>the one with the byname <foreign>Varṇajaya</foreign>, <supplied reason="subaudible">named</supplied> Pu Kapāt, <q>who excelled in all acts pleasing to the king</q>;</item>
+      <item>the one with the byname <foreign>Śūrapati</foreign>, <supplied reason="subaudible">named</supplied> Pu Siṅhasahəl, <q>focused on loyalty, participating in every royal undertaking</q>.</item>
+   </list>
+   And also, not left behind were:
+   <list>
+      <item>the minister <foreign>Keśadharī</foreign>, with the byname <foreign>Guṇajaya</foreign>, Master Agraja, <q>adept in the external and internal rituals</q>;</item>
+      <item>the one with the byname <foreign>Nāgaraka</foreign>, Master Vīranātha, <q>clever in the realization of numerous good works for the king</q>.</item>
+   </list>
+   Not left behind were:
+   <list>
+      <item>the judge, <q>who distinguishes between what is right and wrong in disputes</q>, the official of Tirvan, master Savitra, <q>fully accomplished in treatises of Nyāya and grammar</q>;</item>
+      <item>the official at Jamba, master Rāgavijaya, <q>fully accomplished in the treatises of Nyāya and grammar</q>;</item>
+      <item>the official at Pamvatan, master Smaravijaya, <q>fully accomplished in treatises of Sāṁkhya and Prakaraṇa</q>; and</item>
+      <item>the official at Kaṇḍaṅan Rare, master Giṇāntaka, <q>fully accomplished in Prakaraṇa treatises</q>;</item>
+      <item>having as head the surveyor <supplied reason="explanation">or: authority</supplied> of <foreign>Dharma</foreign>, the inspector of religious foundations in Śaiva matters, the one with the byname <foreign>Nirasana</foreign>, master Astrarāja, <q>fully intent on Dharma endowed as he was by numerous types of virtues</q>,</item>
+   </list>
+   at the descent of the command of His Majesty, ordering with regard to Adan-Adan, village of the district of Lurah Siṅgahan, that a holy royal edict should be made, sealed with the emblem of Kr̥tarājasajayavardhana.</p>
+
+   <p n="6v4-7v2">The occasion was the manner in which her Majesty the Royal Recluse wore bark-cloth, maintained integrity and pure conduct, always mindful of Dharma. She very steadfastly maintained fidelity to her vow of being a faithful wife. And she did not forget the practice of worshiping the gods, having as base the continuous calling to mind of her highest chosen deity. She was the maternal grandmother of the Great King. She made a request to the Great King whether it would be suitable for the village Adan-Adan that a <foreign>sīma</foreign> be demarcated by her Majesty the Royal Recluse, with the aim that it be a pleasure grove to be occupied by her Majesty the Royal Recluse, as she makes strenuous efforts to carry out the worship of the gods, in order to pray for the steadfastness of the reign of the Great King on the Bejeweled-Golden Lion Throne. Such was the desire of her Majesty the Royal Recluse.</p>
+
+   <p n="7v2-8r3">In as much as the Great King was <q>an incarnation of Viṣṇu, descended from heaven as a portion of the lord-god</q>, the Lord Janārdana in bodily form, descended from the abode of the immortals, <supplied reason="explanation" cert="low">regarded as</supplied> protecting all foundations, for the purpose of reviving the good in the world — that is why none of the desires of  her Majesty the Royal Recluse were refused by the Great King. Because the purpose of this was to a work of ultimate Dharma. Even if <supplied reason="subaudible">we regard</supplied> all kinds of Dharma work, it does not happen that the Great King is not the foremost Dharma worker. All the more so if it is a Dharma-work of an elder.</p>
+
+   <p n="8r3-8v4">This was the occasion on which it was ordered with regard to the village of Adan-Adan that a holy royal order <supplied reason="subaudible">in the form of an</supplied> edict <supplied reason="explanation"><foreign>saṁ hyaṅ ājñā haji praśāsti</foreign></supplied> should be made, sealed with the emblem of Kr̥tarājasajayavardhana, to remain on one or the other of the <supplied reason="subaudible">possible materials, that is</supplied> stone, copper or palm leaf. Its substance concerned the fact that the village of Adan-Adan was allowed to be demarcated as <foreign>sīma</foreign> by her Majesty the Royal Recluse <supplied reason="explanation" cert="low">along with</supplied> <supplied reason="explanation"><foreign>saha saṅkeṅ</foreign></supplied> the commoners to be conscripted from the district of Lurah Siṅgahan. Its aim was that the <foreign>sīma</foreign> of her Majesty the Royal Recluse would pass down to the descendants and remote descendants of her Majesty the Royal Recluse, now, hereafter down to the future's future.</p>
+
+   <p n="8v4-10v2">As for its status, it is that of <foreign>sīma</foreign> of her Majesty the Royal Recluse was exclusively autonomous <supplied reason="explanation"><foreign>adəg riṅgit</foreign></supplied>: it would be independent <supplied reason="explanation"><foreign>svatrantra</foreign></supplied>, not to be entered by the servants of the three dignitaries <foreign>Paṅkur</foreign>, <foreign>Tawan</foreign>, <foreign>Tirip</foreign> the <foreign>Piṅhai</foreign>, the <foreign>Vahuta</foreign>; all those who previously enjoyed the usufruct of the royal property: <foreign>Miśras</foreign> and minor <foreign>Miśras</foreign>; various <foreign>Vulu</foreign>s; the <foreign>Paṅuraṅ</foreign>, the <foreign>Kriṅ</foreign>, the <foreign>Paḍəm</foreign>, the <foreign>Manimpiki</foreign>, the <foreign>Paranakan</foreign>, the <foreign>Limus Galuh</foreign>, the <foreign>Maṅriñci</foreign>, the <foreign>Maṅhuryālāla</foreign>, the <foreign>Paraṅ</foreign>, the <foreign>Suṅka</foreign>, the <foreign>Dūra</foreign>, the <foreign>Paṅaruhan</foreign>, the <foreign>Taji</foreign>, the <foreign>Vatu Tajəm</foreign>, the <foreign>Sukun</foreign>, the <foreign>Halu Varak</foreign> <supplied reason="explanation">Rhinoceros Club</supplied>, the <foreign>Rakasaṅ</foreign>, the <foreign>Ramanaṅ</foreign>, the <foreign>Piniṅlai</foreign>, the <foreign>Kataṅgaran</foreign>, the <foreign>Tapahaji</foreign>, the <foreign>Airhaji</foreign>, the <foreign>Malaṇḍaṅ</foreign>, the <foreign>Ləca</foreign>, the <foreign>Ləbləb</foreign>, the <foreign>Pakalaṅkaṅ</foreign>, the <foreign>Pakaliṅkiṅ</foreign>, the <foreign>Kutak</foreign>, the <foreign>Taṅkil</foreign>, the <foreign>Tr̥pan</foreign>, the <foreign>Salyut</foreign>, the <foreign>Vatu Valaṅ</foreign>, the <foreign>Pamaṇikan</foreign>, the <foreign>Paṇiga</foreign>, the <foreign>Sikpan</foreign>, the <foreign>Rumban</foreign>, the <foreign>Vilaṅ Thāni</foreign>, the <foreign>Viji Kavah</foreign>, the <foreign>Tiṅkəs</foreign>, the <foreign>Avi</foreign>, the <foreign>Tuha Dagaṁ</foreign>, the <foreign>Tuha Nambi</foreign>, the <foreign>Tuha Juḍi</foreign>, the <foreign>Tuhan Uñjəman</foreign>, the <foreign>Juru Gosali</foreign>, the <foreign>Juru Jalir</foreign>, the <foreign>Maṅrumbai</foreign>, the <foreign>Maṅguñjai</foreign>, the <foreign>Pabisar</foreign>, the <foreign>Paguluṅ</foreign>, the <foreign>Pavuṅkunuṅ</foreign>, the <foreign>Puluṅ Paḍi</foreign>, the <foreign>Miśra Hino</foreign>, the <foreign>Miśra Aṅinaṅin</foreign>, the <foreign>Vli Hapū</foreign>, the <foreign>Vli Vaduṅ</foreign>, the <foreign>Vli Tāmbaṅ</foreign>, the <foreign>Vli Pañjut</foreign>, the <foreign>Vli Harəṅ</foreign>, the <foreign>Palamak</foreign>, the <foreign>Pakaluṅkuṅ</foreign>, the <foreign>Urutan</foreign>, the <foreign>Ḍampulan</foreign>, the <foreign>Tpuṅ Kavuṅ</foreign>, the <foreign>Suṅsuṅ Paṅuraṅ</foreign>, the <foreign>Pasuk Alas</foreign>, the <foreign>Patikəl Aṅgas</foreign>, the <foreign>Payuṅan</foreign>, the <foreign>Sipat Vilut</foreign>, the <foreign>Jukuṅ</foreign>, the <foreign>Pāṅinaṅin</foreign>, the <foreign>Pamavasya</foreign>, the <foreign>Hopan</foreign>, the <foreign>Panraṅan</foreign>, the <foreign>Səkar Tahun</foreign>, the <foreign>Pahaliman</foreign>, the <foreign>Kḍi</foreign>, the <foreign>Valyan</foreign>, the <foreign>Vidu Maṅiduṅ</foreign>, the <foreign>Sumbal</foreign>, the <foreign>Sumbul</foreign>, the <foreign>Hulun Haji</foreign>, the <foreign>Siṅgah</foreign>, the <foreign>Pabr̥si</foreign>, the group inside, and so forth all of them. They shall not enter the <foreign>sīma</foreign> of her Majesty the Royal Recluse at Adan-Adan.</p>
+
+   <p n="10v2-11r3">In the same way the <supplied reason="subaudible">fines to be imposed for</supplied> offenses, great or small: areca-blossom that doesn't produce a nut <supplied reason="explanation"><foreign>mayaṅ tan pavvaḥ</foreign></supplied>, gourd-vine creeping in the yard <supplied reason="explanation"><foreign>valū rumambat iṅ natar</foreign></supplied>, disaster of a corpse exposed to dew <supplied reason="explanation"><foreign>vipati vaṅke kabunan</foreign></supplied>, blood spattered in the yard <supplied reason="explanation"><foreign>rāh kasamburat iṅ natar</foreign></supplied>, abuse <supplied reason="explanation"><foreign>vākcapala</foreign></supplied>, slapping <supplied reason="explanation"><foreign>hastacapala</foreign></supplied>, slander <supplied reason="explanation"><foreign>duhilatən</foreign></supplied>, saliva sprinkled <supplied reason="explanation"><foreign>hidū kasirat</foreign></supplied>, producing the trace of a file <supplied reason="explanation"><foreign>mamijilakən vuryyaniṅ kikir</foreign></supplied>, running amok <supplied reason="explanation"><foreign>mamuk</foreign></supplied>, raping a woman <supplied reason="explanation"><foreign>mamuṅpaṅ</foreign></supplied>, <gap reason="ellipsis"/> <supplied reason="explanation"><foreign>ludan</foreign></supplied>, <gap reason="ellipsis"/> <supplied reason="explanation"><foreign>tūtan</foreign></supplied>, <gap reason="ellipsis"/> <supplied reason="explanation"><foreign>haṅśa pratyaṅśa</foreign></supplied>, battery <supplied reason="explanation"><foreign>ḍəṇḍa kuḍəṇḍa</foreign></supplied>, <gap reason="ellipsis"/> <supplied reason="explanation"><foreign>maṇḍihalādi</foreign></supplied>, etc., all kinds of them. Only the <foreign>sīma</foreign> owners at Adan-Adan are the authority over all of its <supplied reason="subaudible">fines to be imposed</supplied> for offenses.</p>
+
+   <p n="11r3-11v3">As for the <foreign>Miśra Mañəmbul</foreign>, the <foreign>Añaṅvriṅ</foreign>, the <foreign>Malaka</foreign>, the <foreign>Mamahaṅ</foreign>, the <foreign>Maṅapus</foreign>, the <foreign>Maṅapū</foreign>, the <foreign>Maṅubar</foreign>, the <foreign>Matarub</foreign>, the <foreign>Maṅgula</foreign>, the <foreign>Maṅdyun</foreign>, the <foreign>Manula</foreign>, the <foreign>Vuṅkuḍu</foreign>, the <foreign>Magavai Ruṅgi</foreign>, the <foreign>Payuṅ Vəlū</foreign>, the <foreign>Mopih</foreign>, the <foreign>Makajaṅ</foreign>, the <foreign>Magavai Kisi</foreign>, the <foreign>Mamubut</foreign>, the <foreign>Maṅanāmanām</foreign>, the <foreign>Manavaṅ</foreign>, the <foreign>Manaṅkəb</foreign>, the <foreign>Añjariṅ</foreign>, the <foreign>Mamisaṇḍuṅ Manuk</foreign>, the <foreign>Makalakalā</foreign>: only all of the relatives <supplied reason="subaudible">of her Majesty the Royal Recluse</supplied> at Adan-Adan have authority over them.</p>
+
+   <p n="11v3-12v3">As for the perimeter of the lands at Adan-Adan: at the mark East, it shares a border with Vaḍuṅ; moves south up to <supplied reason="explanation"><foreign>dudug ri</foreign></supplied> the mark Southeast, sharing a border with Tinavun; moves south to <supplied reason="explanation"><foreign>tka ri</foreign></supplied> the mark South, sharing a border with Patambaṅan; moves west up to the mark Southwest, sharing a border with Kaveṅan; moves north to the mark West, sharing a border with Jajar; moves north as far as the mark Northwest, sharing a border with Tāmbar; goes east up to the mark North, sharing a border with Paḍasan; goes east as far as the mark Northeast, sharing a border with Punten; goes south back to the mark East. Such is the perimeter of the lands at Adan-Adan which are a <foreign>sīma</foreign> of her Majesty the Royal Recluse.</p>
+
+   <p n="12v3-13v2">As for the arrangement <supplied reason="explanation">or: condition</supplied> of the lands at Adan-Adan <supplied reason="explanation" cert="low">by</supplied> her Majesty the Royal Recluse, they <supplied reason="explanation">the relative</supplied> take as much land as they can, provided that there is a sign that she has demarcated the village Adan-Adan: 7 <supplied reason="explanation" cert="low">rods</supplied> of wet-rice fields in Kəməṅ; 4 <supplied reason="explanation" cert="low">rods</supplied> in Ləbak; 1 <supplied reason="explanation" cert="low">stake</supplied> in Saṇḍa; 3 <supplied reason="explanation" cert="low">rods</supplied> in Tāmbak; 4 <supplied reason="explanation" cert="low">rods</supplied> in Barat. The total of wet-rice fields of her Majesty the Royal Recluse: 20 <supplied reason="explanation" cert="low">rods</supplied>. With a garden at Kubvan Agəḍe, 1 share. With habitation land: one habitation land. That much land was taken by her Majesty the Royal Recluse to become <supplied reason="explanation" cert="low">an inheritance for her offspring</supplied>. And the remaining land was for <supplied reason="explanation" cert="low">all the relatives</supplied>, to become <supplied reason="explanation" cert="low">an inheritance for their offspring</supplied>, and to serve for worship of the gods.</p>
+
+   <p n="13v2-14v3">As for the identify <supplied reason="explanation"><foreign>lvir</foreign></supplied> of the relatives who personally received the holy royal edict:
+   <list>
+      <item>the lord minister of Mahibit <supplied reason="subaudible">called</supplied> Pu Ajaran</item>
+      <item>the <foreign>Mūladharma</foreign>, whose childhood name was Ki Hadyan Avasana, <supplied reason="subaudible">now</supplied> having the name Raṅga Lintaṅ.</item>
+   </list>
+   Thus the specification of the relatives at Adan-Adan of her Majesty the Royal Recluse. And all the relatives were given entitlement by the Great King:
+   <list>
+      <item>to nurture children beginning at birth, etc.;</item>
+      <item>brandish a five-colored <foreign>pinagut</foreign> parasol;</item>
+      <item>play the <foreign>curiṅ</foreign>;</item>
+      <item>stay in a pavilion without playing the <foreign>kaṅsi</foreign>;</item>
+      <item>to have ivory bamboo as bench;</item>
+      <item>make offerings of <supplied reason="subaudible">the type</supplied> <foreign>vataṅ</foreign>, make offerings of <supplied reason="subaudible">the type</supplied> <foreign>aṅgī</foreign>, make offerings of <supplied reason="subaudible">the type</supplied> <foreign>buntər</foreign>, make offerings of <supplied reason="subaudible">the type</supplied> <foreign>siddhayuga</foreign>;</item>
+      <item><gap reason="ellipsis"/> <supplied reason="explanation"><foreign>vṛtttivali</foreign></supplied>, <gap reason="ellipsis"/> <supplied reason="explanation"><foreign>śānti</foreign></supplied>, a powder box, <gap reason="ellipsis"/> <supplied reason="explanation"><foreign>pasilih galuh</foreign></supplied>, <gap reason="ellipsis"/> <supplied reason="explanation"><foreign>tuvuhtuvuhan</foreign></supplied>, <gap reason="ellipsis"/> <supplied reason="explanation"><foreign>citrapattra</foreign></supplied>;</item>
+      <item>to wear any kind of cloth, such as: <foreign>nāgapuṣpa</foreign> and <foreign>navagraha</foreign>;</item>
+      <item>to use gold <foreign>boreh</foreign>;</item>
+      <item>to wear flowers in the <foreign>hino-</foreign>fashion.</item>
+   </list>
+   In this way the relatives at Adan-Adan were given entitlements by the Great King. They were irrevocable.</p>
+
+   <p n="14v4-15r2">Let there be no one who dares to nullify it now and in the future, even down into the future's future, at the hands of future kings and ministers, all the more to common villagers, and the <foreign>Piṅhes</foreign>, <foreign>Vahutas</foreign>, and Elders.</p>
+
+   <p n="15r2-15r3">And whenever there is one who dares to obstruct the substance of the holy royal order <supplied reason="subaudible">in the form of an</supplied> edict on behalf of Adan-Adan, their lot will be <supplied reason="subaudible">the consequences of</supplied> the Five Majors Sins, in this world and the next.</p>
+
+   <p n="15r3-16r1">Pay heed you gods Haricandana, Agastya Maharṣi,
+      <list>
+         <item>East, South, West, North, Center, Zenith, Nadir;</item>
+         <item>Sun, Moon, Earth, Water, Wind, Fire, Yajamāna, Ether;</item>
+         <item>Dharma, Day and Night, Two Junctures;</item>
+         <item>Yakṣas, Rākṣasas, Piśācas, Pretas, Asuras, Garuḍa, Gandharvas, Grahas, Kinnaras and Great Snakes;</item>
+         <item>the four World Guardians: Yama, Varuṇa, Kubera, Vāsava <supplied reason="explanation">Indra</supplied>;</item>
+         <item>and the Sons of the gods: the Five Kuśikas;</item>
+         <item>Nandīśvara, Mahākāla, Six Vināyakas, goddess Durgā, Caturaśra;</item>
+         <item><supplied reason="explanation" cert="low">the Square one, Ananta Surendra, Ananta the god</supplied>, Kāla and Mṛtyu, Bhūtas and Gaṇas.</item>
+      </list></p>
+
+      <p n="16r1-16r4">All those of you who are present protecting the whole orb of the world, you who join in taking bodily shape in all creatures, you who are all witnesses who will see what is near and far, by day and by night, as you listen to this pledge, the curse, the oath, the imprecation of us to all you gods.</p>
+
+      <p n="16r4-16v4">As many as are the ill-behaved people who will disturb this <foreign>sīma</foreign> of Adan-Adan, whether they be Brahmin, <foreign>Kṣatriya</foreign>, <foreign>Vaiśya</foreign>, <foreign>Śūdra</foreign>, hermit, students, householder, forest-dweller, mendicant, including the <foreign>Piṅhais</foreign>, the <foreign>Vahuta</foreign>s, the elders, dependents of chiefs, the <foreign>hatutaliser</foreign>, whatever be their nature. Therefore they will undergo the consequences of their action. Let them be slain by all you gods. In killing, your approach shall be <supplied reason="subaudible">as follows</supplied>.</p>
+
+      <p n="16v4-17v4">If while traveling he passes by a dry field, may he be bitten by a poisonous snake. Going into the forest may he be pounced upon by a tiger. May he step over a <foreign>Waringin</foreign> root. When he passes by a large body of water, may he be caught by a crocodile, a shark <supplied reason="explanation"><foreign>mumul</foreign></supplied>, a sea monster <supplied reason="explanation"><foreign>tuviran</foreign></supplied>. If he is going on a high way, may he be scared stiff, dazed, stunned, drowsy. If it rains, may he be struck by thunderclap. When he is home, may he be struck by lightning without rain. May he be engulfed and burned by God Agni. May he be caused to turn to ash, with his possessions. May he leave without looking back, clashing with the opponent. Slaps his left side, attack anew his right side, cut his snout, split his skull, rip open his belly, draw out his entrails, break open his chest, eat his flesh, drink his blood, without delay finish off what remains of the dead one, throw it into space, cast him into the <foreign>Mahāraurava</foreign>. So be it! So be it! So be it!</p>
+
+         </div>
+         <div type="commentary">
+            <p><bibl><ptr target="bib:MachiSuhadi1996_01"/></bibl> presents face 7r as 7v and vice versa.</p>
+         </div>
+        <div type="bibliography">
+	<!--bibliography encoded as per section §9.4 -->
+           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
+        	<listBibl type="primary">
+				<bibl n="MS"><ptr target="bib:MachiSuhadi1996_01"/></bibl>
+			</listBibl>
+           <listBibl type="secondary">
+              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

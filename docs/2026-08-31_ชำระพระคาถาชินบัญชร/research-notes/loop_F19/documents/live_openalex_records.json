@@ -1,0 +1,2301 @@
+[
+  {
+    "id": "https://openalex.org/W2750977488",
+    "doi": "https://doi.org/10.4259/ibk.64.1_297",
+    "title": "A Study on the Structure of Srad-√dha in the Pali Canon:",
+    "display_name": "A Study on the Structure of Srad-√dha in the Pali Canon:",
+    "relevance_score": 38.41794,
+    "publication_year": 2015,
+    "publication_date": "2015-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2750977488",
+      "doi": "https://doi.org/10.4259/ibk.64.1_297",
+      "mag": "2750977488"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.4259/ibk.64.1_297",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.4259/ibk.64.1_297",
+      "pdf_url": "https://www.jstage.jst.go.jp/article/ibk/64/1/64_KJ00010199588/_pdf",
+      "source": {
+        "id": "https://openalex.org/S2764402342",
+        "display_name": "JOURNAL OF INDIAN AND BUDDHIST STUDIES (INDOGAKU BUKKYOGAKU KENKYU)",
+        "issn_l": "0019-4344",
+        "issn": [
+          "0019-4344",
+          "1884-0051"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4322614523",
+        "host_organization_name": "Japanese Association of Indian and Buddhist Studies",
+        "host_organization_lineage": [
+          "https://openalex.org/P4322614523"
+        ],
+        "host_organization_lineage_names": [
+          "Japanese Association of Indian and Buddhist Studies"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Indian and Buddhist Studies (Indogaku Bukkyogaku Kenkyu)",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://www.jstage.jst.go.jp/article/ibk/64/1/64_KJ00010199588/_pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5062518005",
+          "display_name": "Yōhei Furukawa",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Yohei FURUKAWA",
+        "raw_affiliation_strings": [
+          "日本学術振興会"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "日本学術振興会",
+            "institution_ids": []
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5062518005"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.20059334,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 94
+    },
+    "biblio": {
+      "volume": "64",
+      "issue": "1",
+      "first_page": "297",
+      "last_page": "294"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13175",
+      "display_name": "Historical Astronomy and Related Studies",
+      "score": 0.6894000172615051,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13175",
+        "display_name": "Historical Astronomy and Related Studies",
+        "score": 0.6894000172615051,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12555",
+        "display_name": "Ancient Egypt and Archaeology",
+        "score": 0.6236000061035156,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1204",
+          "display_name": "Archeology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.6126999855041504,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/canon",
+        "display_name": "Canon",
+        "score": 0.7481629848480225
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.24726980924606323
+      },
+      {
+        "id": "https://openalex.org/keywords/aesthetics",
+        "display_name": "Aesthetics",
+        "score": 0.213922917842865
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C103785112",
+        "wikidata": "https://www.wikidata.org/wiki/Q53831",
+        "display_name": "Canon",
+        "level": 2,
+        "score": 0.7481629848480225
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.24726980924606323
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.213922917842865
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.4259/ibk.64.1_297",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.4259/ibk.64.1_297",
+        "pdf_url": "https://www.jstage.jst.go.jp/article/ibk/64/1/64_KJ00010199588/_pdf",
+        "source": {
+          "id": "https://openalex.org/S2764402342",
+          "display_name": "JOURNAL OF INDIAN AND BUDDHIST STUDIES (INDOGAKU BUKKYOGAKU KENKYU)",
+          "issn_l": "0019-4344",
+          "issn": [
+            "0019-4344",
+            "1884-0051"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4322614523",
+          "host_organization_name": "Japanese Association of Indian and Buddhist Studies",
+          "host_organization_lineage": [
+            "https://openalex.org/P4322614523"
+          ],
+          "host_organization_lineage_names": [
+            "Japanese Association of Indian and Buddhist Studies"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Indian and Buddhist Studies (Indogaku Bukkyogaku Kenkyu)",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.4259/ibk.64.1_297",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.4259/ibk.64.1_297",
+      "pdf_url": "https://www.jstage.jst.go.jp/article/ibk/64/1/64_KJ00010199588/_pdf",
+      "source": {
+        "id": "https://openalex.org/S2764402342",
+        "display_name": "JOURNAL OF INDIAN AND BUDDHIST STUDIES (INDOGAKU BUKKYOGAKU KENKYU)",
+        "issn_l": "0019-4344",
+        "issn": [
+          "0019-4344",
+          "1884-0051"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4322614523",
+        "host_organization_name": "Japanese Association of Indian and Buddhist Studies",
+        "host_organization_lineage": [
+          "https://openalex.org/P4322614523"
+        ],
+        "host_organization_lineage_names": [
+          "Japanese Association of Indian and Buddhist Studies"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Indian and Buddhist Studies (Indogaku Bukkyogaku Kenkyu)",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2750977488.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2750977488.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W4237084349",
+      "https://openalex.org/W4214751463",
+      "https://openalex.org/W4232357955",
+      "https://openalex.org/W4238894422",
+      "https://openalex.org/W4239960858",
+      "https://openalex.org/W4237178635",
+      "https://openalex.org/W4231070883",
+      "https://openalex.org/W4244442018",
+      "https://openalex.org/W1550627253",
+      "https://openalex.org/W4243694831"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2022,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-02-25T21:11:00.739837",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W2944154909",
+    "doi": "https://doi.org/10.1163/26659077-00504003",
+    "title": "The Curricular Canon in Northern Thailand and Laos",
+    "display_name": "The Curricular Canon in Northern Thailand and Laos",
+    "relevance_score": 15.847289,
+    "publication_year": 2002,
+    "publication_date": "2002-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2944154909",
+      "doi": "https://doi.org/10.1163/26659077-00504003",
+      "mag": "2944154909"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1163/26659077-00504003",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1163/26659077-00504003",
+      "pdf_url": "https://brill.com/downloadpdf/journals/mnya/5/4/article-p20_3.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210175477",
+        "display_name": "Manusya Journal of Humanities",
+        "issn_l": "0859-9920",
+        "issn": [
+          "0859-9920",
+          "2665-9077"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320561",
+        "host_organization_name": "Brill",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320561"
+        ],
+        "host_organization_lineage_names": [
+          "Brill"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "MANUSYA",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://brill.com/downloadpdf/journals/mnya/5/4/article-p20_3.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5046289700",
+          "display_name": "Justin McDaniel",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I136199984",
+            "display_name": "Harvard University",
+            "ror": "https://ror.org/03vek6s52",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I136199984"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210106879",
+            "display_name": "Ohio University",
+            "ror": "https://ror.org/01jr3y717",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210106879"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Justin McDaniel",
+        "raw_affiliation_strings": [
+          "Doctoral Candidate in the Department of Sanskrit and Indian Studies at Harvard University",
+          "Southeast Asian Studies at Ohio University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Doctoral Candidate in the Department of Sanskrit and Indian Studies at Harvard University",
+            "institution_ids": [
+              "https://openalex.org/I136199984"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Southeast Asian Studies at Ohio University",
+            "institution_ids": [
+              "https://openalex.org/I4210106879"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5046289700"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I136199984",
+      "https://openalex.org/I4210106879"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.5372826,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 94
+    },
+    "biblio": {
+      "volume": "5",
+      "issue": "4",
+      "first_page": "20",
+      "last_page": "59"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12956",
+      "display_name": "Asian Geopolitics and Ethnography",
+      "score": 0.9965000152587891,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12956",
+        "display_name": "Asian Geopolitics and Ethnography",
+        "score": 0.9965000152587891,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.9804999828338623,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13002",
+        "display_name": "Southeast Asian Sociopolitical Studies",
+        "score": 0.9746000170707703,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.9133535623550415
+      },
+      {
+        "id": "https://openalex.org/keywords/vernacular",
+        "display_name": "Vernacular",
+        "score": 0.7311609387397766
+      },
+      {
+        "id": "https://openalex.org/keywords/curriculum",
+        "display_name": "Curriculum",
+        "score": 0.6282187700271606
+      },
+      {
+        "id": "https://openalex.org/keywords/normative",
+        "display_name": "Normative",
+        "score": 0.5812740921974182
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.4567713439464569
+      },
+      {
+        "id": "https://openalex.org/keywords/canon",
+        "display_name": "Canon",
+        "score": 0.45066016912460327
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.4081641137599945
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.35793259739875793
+      },
+      {
+        "id": "https://openalex.org/keywords/epistemology",
+        "display_name": "Epistemology",
+        "score": 0.29520392417907715
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.28566068410873413
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.19856008887290955
+      },
+      {
+        "id": "https://openalex.org/keywords/pedagogy",
+        "display_name": "Pedagogy",
+        "score": 0.19526314735412598
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.07912299036979675
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.9133535623550415
+      },
+      {
+        "id": "https://openalex.org/C2780386941",
+        "wikidata": "https://www.wikidata.org/wiki/Q1036511",
+        "display_name": "Vernacular",
+        "level": 2,
+        "score": 0.7311609387397766
+      },
+      {
+        "id": "https://openalex.org/C47177190",
+        "wikidata": "https://www.wikidata.org/wiki/Q207137",
+        "display_name": "Curriculum",
+        "level": 2,
+        "score": 0.6282187700271606
+      },
+      {
+        "id": "https://openalex.org/C44725695",
+        "wikidata": "https://www.wikidata.org/wiki/Q288156",
+        "display_name": "Normative",
+        "level": 2,
+        "score": 0.5812740921974182
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.4567713439464569
+      },
+      {
+        "id": "https://openalex.org/C103785112",
+        "wikidata": "https://www.wikidata.org/wiki/Q53831",
+        "display_name": "Canon",
+        "level": 2,
+        "score": 0.45066016912460327
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.4081641137599945
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.35793259739875793
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.29520392417907715
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.28566068410873413
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.19856008887290955
+      },
+      {
+        "id": "https://openalex.org/C19417346",
+        "wikidata": "https://www.wikidata.org/wiki/Q7922",
+        "display_name": "Pedagogy",
+        "level": 1,
+        "score": 0.19526314735412598
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.07912299036979675
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1163/26659077-00504003",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1163/26659077-00504003",
+        "pdf_url": "https://brill.com/downloadpdf/journals/mnya/5/4/article-p20_3.pdf",
+        "source": {
+          "id": "https://openalex.org/S4210175477",
+          "display_name": "Manusya Journal of Humanities",
+          "issn_l": "0859-9920",
+          "issn": [
+            "0859-9920",
+            "2665-9077"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320561",
+          "host_organization_name": "Brill",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320561"
+          ],
+          "host_organization_lineage_names": [
+            "Brill"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "MANUSYA",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1163/26659077-00504003",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1163/26659077-00504003",
+      "pdf_url": "https://brill.com/downloadpdf/journals/mnya/5/4/article-p20_3.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210175477",
+        "display_name": "Manusya Journal of Humanities",
+        "issn_l": "0859-9920",
+        "issn": [
+          "0859-9920",
+          "2665-9077"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320561",
+        "host_organization_name": "Brill",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320561"
+        ],
+        "host_organization_lineage_names": [
+          "Brill"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "MANUSYA",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Quality Education",
+        "id": "https://metadata.un.org/sdg/4",
+        "score": 0.8399999737739563
+      }
+    ],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320309292",
+        "display_name": "Princeton University",
+        "ror": "https://ror.org/00hx57361"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2944154909.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2944154909.grobid-xml"
+    },
+    "referenced_works_count": 18,
+    "referenced_works": [
+      "https://openalex.org/W302611995",
+      "https://openalex.org/W618577847",
+      "https://openalex.org/W621098190",
+      "https://openalex.org/W645758659",
+      "https://openalex.org/W1584811892",
+      "https://openalex.org/W1969315596",
+      "https://openalex.org/W2008458436",
+      "https://openalex.org/W2027583914",
+      "https://openalex.org/W2076156747",
+      "https://openalex.org/W2335156563",
+      "https://openalex.org/W2960640207",
+      "https://openalex.org/W4229582084",
+      "https://openalex.org/W4301918934",
+      "https://openalex.org/W6669337441",
+      "https://openalex.org/W6693057363",
+      "https://openalex.org/W6703322357",
+      "https://openalex.org/W6833753782",
+      "https://openalex.org/W7015205478"
+    ],
+    "related_works": [
+      "https://openalex.org/W4246921941",
+      "https://openalex.org/W4237084349",
+      "https://openalex.org/W4214751463",
+      "https://openalex.org/W4232357955",
+      "https://openalex.org/W4238894422",
+      "https://openalex.org/W4239960858",
+      "https://openalex.org/W4246713805",
+      "https://openalex.org/W4237178635",
+      "https://openalex.org/W4231088302",
+      "https://openalex.org/W4231070883"
+    ],
+    "abstract_inverted_index": {
+      "Nissaya": [
+        0
+      ],
+      "texts": [
+        1,
+        90,
+        119
+      ],
+      "are": [
+        2
+      ],
+      "idiosyncratic": [
+        3
+      ],
+      "vernacular": [
+        4
+      ],
+      "notes": [
+        5
+      ],
+      "composed": [
+        6,
+        37
+      ],
+      "and": [
+        7,
+        15,
+        20,
+        66,
+        81,
+        102,
+        123,
+        137,
+        183
+      ],
+      "used": [
+        8,
+        87
+      ],
+      "by": [
+        9,
+        120
+      ],
+      "Buddhist": [
+        10,
+        76,
+        100,
+        139,
+        174
+      ],
+      "monks": [
+        11
+      ],
+      "in": [
+        12,
+        38,
+        78,
+        88,
+        148
+      ],
+      "Northern": [
+        13,
+        135
+      ],
+      "Thailand": [
+        14
+      ],
+      "Laos": [
+        16
+      ],
+      "between": [
+        17
+      ],
+      "the": [
+        18,
+        30,
+        33,
+        56,
+        62,
+        72,
+        79,
+        97,
+        115,
+        124,
+        130,
+        133,
+        144,
+        149,
+        152,
+        155,
+        161,
+        166,
+        172
+      ],
+      "16th": [
+        19
+      ],
+      "early": [
+        21,
+        73
+      ],
+      "20th": [
+        22
+      ],
+      "centuries.": [
+        23
+      ],
+      "They": [
+        24,
+        51
+      ],
+      "evince": [
+        25
+      ],
+      "a": [
+        26,
+        82,
+        93,
+        177
+      ],
+      "particular": [
+        27
+      ],
+      "relationship": [
+        28
+      ],
+      "of": [
+        29,
+        41,
+        55,
+        58,
+        64,
+        75,
+        99,
+        117,
+        132,
+        146,
+        154,
+        168,
+        171,
+        179
+      ],
+      "authors": [
+        31
+      ],
+      "with": [
+        32,
+        47,
+        104,
+        165
+      ],
+      "classical": [
+        34
+      ],
+      "(i.e.,": [
+        35
+      ],
+      "originally": [
+        36
+      ],
+      "Pali)": [
+        39
+      ],
+      "scripture": [
+        40
+      ],
+      "Theravada": [
+        42,
+        173
+      ],
+      "Buddhism": [
+        43
+      ],
+      "as": [
+        44,
+        46
+      ],
+      "well": [
+        45
+      ],
+      "their": [
+        48
+      ],
+      "intended": [
+        49
+      ],
+      "audience.": [
+        50
+      ],
+      "reflect": [
+        52
+      ],
+      "certain": [
+        53
+      ],
+      "understandings": [
+        54
+      ],
+      "notions": [
+        57,
+        170
+      ],
+      "authorship,": [
+        59
+      ],
+      "textual": [
+        60,
+        181
+      ],
+      "authenticity,": [
+        61
+      ],
+      "possibility": [
+        63
+      ],
+      "translation,": [
+        65
+      ],
+      "homiletics.": [
+        67
+      ],
+      "A": [
+        68
+      ],
+      "comprehensive": [
+        69
+      ],
+      "study": [
+        70,
+        84
+      ],
+      "reveals": [
+        71
+      ],
+      "development": [
+        74,
+        145
+      ],
+      "curricula": [
+        77,
+        147
+      ],
+      "region": [
+        80,
+        150,
+        178
+      ],
+      "detailed": [
+        83
+      ],
+      "pedagogical": [
+        85
+      ],
+      "methods": [
+        86
+      ],
+      "these": [
+        89
+      ],
+      "affords": [
+        91
+      ],
+      "us": [
+        92
+      ],
+      "way": [
+        94
+      ],
+      "to": [
+        95,
+        176
+      ],
+      "describe": [
+        96
+      ],
+      "nature": [
+        98
+      ],
+      "belief": [
+        101
+      ],
+      "practice": [
+        103
+      ],
+      "much": [
+        105
+      ],
+      "greater": [
+        106
+      ],
+      "precision.": [
+        107
+      ],
+      "In": [
+        108
+      ],
+      "this": [
+        109
+      ],
+      "paper,": [
+        110
+      ],
+      "I": [
+        111
+      ],
+      "will": [
+        112
+      ],
+      "demonstrate": [
+        113
+      ],
+      "how": [
+        114
+      ],
+      "choice": [
+        116
+      ],
+      "source": [
+        118
+      ],
+      "nissaya": [
+        121
+      ],
+      "translators": [
+        122
+      ],
+      "commentarial": [
+        125
+      ],
+      "services": [
+        126
+      ],
+      "they": [
+        127
+      ],
+      "employ": [
+        128
+      ],
+      "reveal": [
+        129
+      ],
+      "contours": [
+        131
+      ],
+      "pre-modern": [
+        134
+      ],
+      "Thai": [
+        136
+      ],
+      "Lao": [
+        138
+      ],
+      "curricula.": [
+        140
+      ],
+      "By": [
+        141
+      ],
+      "focusing": [
+        142
+      ],
+      "on": [
+        143
+      ],
+      "before": [
+        151
+      ],
+      "middle": [
+        153
+      ],
+      "19th": [
+        156
+      ],
+      "century,": [
+        157
+      ],
+      "we": [
+        158
+      ],
+      "can": [
+        159
+      ],
+      "avoid": [
+        160
+      ],
+      "vagaries": [
+        162
+      ],
+      "that": [
+        163
+      ],
+      "come": [
+        164
+      ],
+      "application": [
+        167
+      ],
+      "normative": [
+        169
+      ],
+      "canon": [
+        175
+      ],
+      "diverse": [
+        180
+      ],
+      "production": [
+        182
+      ],
+      "disparate": [
+        184
+      ],
+      "intellectual": [
+        185
+      ],
+      "expression.": [
+        186
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2012,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-05-21T06:26:12.895304",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W245030149",
+    "doi": null,
+    "title": "The Good Monk and His Money in a Buddhist Monasticism of \"The Mahayana Period.\"",
+    "display_name": "The Good Monk and His Money in a Buddhist Monasticism of \"The Mahayana Period.\"",
+    "relevance_score": 15.722492,
+    "publication_year": 2000,
+    "publication_date": "2000-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W245030149",
+      "mag": "245030149"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:irdb.nii.ac.jp:01050:0006256611",
+      "is_oa": true,
+      "landing_page_url": "https://otani.repo.nii.ac.jp/records/8471",
+      "pdf_url": "https://otani.repo.nii.ac.jp/record/8471/files/EB32-1-06.pdf",
+      "source": {
+        "id": "https://openalex.org/S7407056385",
+        "display_name": "Institutional Repositories DataBase (IRDB)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I184597095",
+        "host_organization_name": "National Institute of Informatics",
+        "host_organization_lineage": [
+          "https://openalex.org/I184597095"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "THE EASTERN BUDDHIST NEW SERIES",
+      "raw_type": "departmental bulletin paper"
+    },
+    "type": "article",
+    "indexed_in": [],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://otani.repo.nii.ac.jp/record/8471/files/EB32-1-06.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5045476641",
+          "display_name": "Gregory Schopen",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Gregory Schopen",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5045476641"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 10,
+    "citation_normalized_percentile": {
+      "value": 0.0576946,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "32",
+      "issue": "1",
+      "first_page": "85",
+      "last_page": "105"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11563",
+      "display_name": "Indian and Buddhist Studies",
+      "score": 0.9894000291824341,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.9894000291824341,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13902",
+        "display_name": "Indian History and Philosophy",
+        "score": 0.9100000262260437,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/monasticism",
+        "display_name": "Monasticism",
+        "score": 0.961461067199707
+      },
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.6947431564331055
+      },
+      {
+        "id": "https://openalex.org/keywords/period",
+        "display_name": "Period (music)",
+        "score": 0.5786053538322449
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.45430052280426025
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.3923850357532501
+      },
+      {
+        "id": "https://openalex.org/keywords/humanities",
+        "display_name": "Humanities",
+        "score": 0.3904874324798584
+      },
+      {
+        "id": "https://openalex.org/keywords/ancient-history",
+        "display_name": "Ancient history",
+        "score": 0.3242703080177307
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.21235209703445435
+      },
+      {
+        "id": "https://openalex.org/keywords/theology",
+        "display_name": "Theology",
+        "score": 0.17606809735298157
+      },
+      {
+        "id": "https://openalex.org/keywords/aesthetics",
+        "display_name": "Aesthetics",
+        "score": 0.028221875429153442
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2776083423",
+        "wikidata": "https://www.wikidata.org/wiki/Q148836",
+        "display_name": "Monasticism",
+        "level": 2,
+        "score": 0.961461067199707
+      },
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.6947431564331055
+      },
+      {
+        "id": "https://openalex.org/C2781291010",
+        "wikidata": "https://www.wikidata.org/wiki/Q178580",
+        "display_name": "Period (music)",
+        "level": 2,
+        "score": 0.5786053538322449
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.45430052280426025
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.3923850357532501
+      },
+      {
+        "id": "https://openalex.org/C15708023",
+        "wikidata": "https://www.wikidata.org/wiki/Q80083",
+        "display_name": "Humanities",
+        "level": 1,
+        "score": 0.3904874324798584
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.3242703080177307
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.21235209703445435
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.17606809735298157
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.028221875429153442
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "pmh:oai:irdb.nii.ac.jp:01050:0006256611",
+        "is_oa": true,
+        "landing_page_url": "https://otani.repo.nii.ac.jp/records/8471",
+        "pdf_url": "https://otani.repo.nii.ac.jp/record/8471/files/EB32-1-06.pdf",
+        "source": {
+          "id": "https://openalex.org/S7407056385",
+          "display_name": "Institutional Repositories DataBase (IRDB)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I184597095",
+          "host_organization_name": "National Institute of Informatics",
+          "host_organization_lineage": [
+            "https://openalex.org/I184597095"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "THE EASTERN BUDDHIST NEW SERIES",
+        "raw_type": "departmental bulletin paper"
+      },
+      {
+        "id": "mag:245030149",
+        "is_oa": false,
+        "landing_page_url": "https://ci.nii.ac.jp/naid/110000001864",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764994964",
+          "display_name": "The eastern buddhist. New series",
+          "issn_l": "0012-8708",
+          "issn": [
+            "0012-8708"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": "The eastern buddhist. New series",
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:irdb.nii.ac.jp:01050:0006256611",
+      "is_oa": true,
+      "landing_page_url": "https://otani.repo.nii.ac.jp/records/8471",
+      "pdf_url": "https://otani.repo.nii.ac.jp/record/8471/files/EB32-1-06.pdf",
+      "source": {
+        "id": "https://openalex.org/S7407056385",
+        "display_name": "Institutional Repositories DataBase (IRDB)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I184597095",
+        "host_organization_name": "National Institute of Informatics",
+        "host_organization_lineage": [
+          "https://openalex.org/I184597095"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "THE EASTERN BUDDHIST NEW SERIES",
+      "raw_type": "departmental bulletin paper"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Decent work and economic growth",
+        "id": "https://metadata.un.org/sdg/8",
+        "score": 0.5600000023841858
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W245030149.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W245030149.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2020265543",
+      "https://openalex.org/W2522899218",
+      "https://openalex.org/W2466268998",
+      "https://openalex.org/W2662662626",
+      "https://openalex.org/W2473981036",
+      "https://openalex.org/W2463343764",
+      "https://openalex.org/W2470577682",
+      "https://openalex.org/W2495222727",
+      "https://openalex.org/W1996246687",
+      "https://openalex.org/W1570670053",
+      "https://openalex.org/W2201290016",
+      "https://openalex.org/W2949077797",
+      "https://openalex.org/W1999006029",
+      "https://openalex.org/W2320330584",
+      "https://openalex.org/W2003255095",
+      "https://openalex.org/W2461936120",
+      "https://openalex.org/W2134587087",
+      "https://openalex.org/W2474422011",
+      "https://openalex.org/W2476609883",
+      "https://openalex.org/W2332846361"
+    ],
+    "abstract_inverted_index": {
+      "IT": [
+        0
+      ],
+      "is": [
+        1,
+        185,
+        198,
+        231
+      ],
+      "probably": [
+        2
+      ],
+      "fair": [
+        3
+      ],
+      "to": [
+        4,
+        28,
+        52,
+        75,
+        142,
+        187,
+        208
+      ],
+      "say": [
+        5,
+        188
+      ],
+      "that,": [
+        6
+      ],
+      "because": [
+        7
+      ],
+      "of": [
+        8,
+        83,
+        104,
+        190,
+        237
+      ],
+      "the": [
+        9,
+        20,
+        76,
+        79,
+        90,
+        102,
+        105,
+        126,
+        130,
+        159,
+        209,
+        234
+      ],
+      "way": [
+        10
+      ],
+      "they": [
+        11,
+        71,
+        97
+      ],
+      "have": [
+        12,
+        25,
+        29,
+        44,
+        85,
+        112,
+        119,
+        165,
+        176,
+        216
+      ],
+      "been": [
+        13,
+        26,
+        87,
+        177
+      ],
+      "studied,": [
+        14
+      ],
+      "neither": [
+        15
+      ],
+      "Indian": [
+        16,
+        210
+      ],
+      "Buddhist": [
+        17,
+        21,
+        108,
+        160,
+        211,
+        238,
+        244
+      ],
+      "monasticism": [
+        18,
+        109
+      ],
+      "nor": [
+        19
+      ],
+      "monastery": [
+        22,
+        212
+      ],
+      "in": [
+        23,
+        205,
+        233,
+        241,
+        250
+      ],
+      "India": [
+        24
+      ],
+      "allowed": [
+        27
+      ],
+      "anything": [
+        30
+      ],
+      "like": [
+        31
+      ],
+      "a": [
+        32
+      ],
+      "real": [
+        33,
+        114,
+        168
+      ],
+      "history.Whether": [
+        34
+      ],
+      "implicitly": [
+        35
+      ],
+      "or": [
+        36,
+        39,
+        49,
+        57
+      ],
+      "explicitly,": [
+        37
+      ],
+      "conscious": [
+        38
+      ],
+      "not,": [
+        40
+      ],
+      "most": [
+        41
+      ],
+      "modem": [
+        42
+      ],
+      "scholars": [
+        43
+      ],
+      "either": [
+        45,
+        264
+      ],
+      "unquestion": [
+        46
+      ],
+      "ingly": [
+        47
+      ],
+      "assumed,": [
+        48
+      ],
+      "worked": [
+        50
+      ],
+      "hard": [
+        51
+      ],
+      "show,": [
+        53
+      ],
+      "that": [
+        54,
+        149,
+        247
+      ],
+      "extant": [
+        55,
+        91,
+        134
+      ],
+      "monastic": [
+        56,
+        239
+      ],
+      "vinaya": [
+        58,
+        92,
+        135
+      ],
+      "sources,": [
+        59
+      ],
+      "for": [
+        60,
+        213
+      ],
+      "example,": [
+        61
+      ],
+      "must": [
+        62,
+        72
+      ],
+      "be": [
+        63
+      ],
+      "early,": [
+        64,
+        95
+      ],
+      "some": [
+        65,
+        217
+      ],
+      "even": [
+        66
+      ],
+      "asserting-or": [
+        67
+      ],
+      "again": [
+        68
+      ],
+      "assum": [
+        69
+      ],
+      "ing-that": [
+        70
+      ],
+      "go": [
+        73,
+        98
+      ],
+      "back": [
+        74,
+        99
+      ],
+      "Buddha": [
+        77
+      ],
+      "himself.But": [
+        78
+      ],
+      "necessary": [
+        80
+      ],
+      "con": [
+        81
+      ],
+      "sequences": [
+        82
+      ],
+      "this": [
+        84
+      ],
+      "rarely": [
+        86
+      ],
+      "examined:": [
+        88
+      ],
+      "if": [
+        89,
+        96
+      ],
+      "sources": [
+        93,
+        136,
+        220
+      ],
+      "are": [
+        94,
+        140,
+        248,
+        256,
+        263
+      ],
+      "anywhere": [
+        100
+      ],
+      "near": [
+        101
+      ],
+      "time": [
+        103
+      ],
+      "Buddha,": [
+        106
+      ],
+      "then": [
+        107
+      ],
+      "could": [
+        110,
+        117,
+        164
+      ],
+      "not": [
+        111,
+        192,
+        225,
+        258
+      ],
+      "any": [
+        113
+      ],
+      "institutional": [
+        115
+      ],
+      "history-it": [
+        116
+      ],
+      "only": [
+        118
+      ],
+      "sprung": [
+        120
+      ],
+      "all": [
+        121,
+        194,
+        228
+      ],
+      "but": [
+        122
+      ],
+      "fully": [
+        123,
+        144
+      ],
+      "formed": [
+        124
+      ],
+      "from": [
+        125,
+        180
+      ],
+      "head": [
+        127
+      ],
+      "o": [
+        128,
+        253
+      ],
+      "f": [
+        129,
+        254
+      ],
+      "Buddha.Moreover,": [
+        131
+      ],
+      "since": [
+        132
+      ],
+      "these": [
+        133,
+        255
+      ],
+      "already": [
+        137
+      ],
+      "know": [
+        138
+      ],
+      "and": [
+        139,
+        157,
+        170,
+        204
+      ],
+      "meant": [
+        141
+      ],
+      "govern": [
+        143
+      ],
+      "developed,": [
+        145
+      ],
+      "well-organized,": [
+        146
+      ],
+      "walled": [
+        147
+      ],
+      "monasteries": [
+        148
+      ],
+      "had": [
+        150,
+        166
+      ],
+      "infirmaries,": [
+        151
+      ],
+      "refectories,": [
+        152
+      ],
+      "bathrooms,": [
+        153
+      ],
+      "steam": [
+        154
+      ],
+      "rooms,": [
+        155
+      ],
+      "locks": [
+        156
+      ],
+      "keys,": [
+        158
+      ],
+      "mona": [
+        161
+      ],
+      "stery": [
+        162
+      ],
+      "too": [
+        163
+      ],
+      "no": [
+        167,
+        172
+      ],
+      "development,": [
+        169
+      ],
+      "consequently": [
+        171
+      ],
+      "actual": [
+        173
+      ],
+      "history.It": [
+        174
+      ],
+      "would": [
+        175
+      ],
+      "architecturally": [
+        178
+      ],
+      "finished": [
+        179
+      ],
+      "its": [
+        181
+      ],
+      "very": [
+        182
+      ],
+      "start.Such": [
+        183
+      ],
+      "pictures-one": [
+        184
+      ],
+      "tempted": [
+        186
+      ],
+      "fantasies-fit,": [
+        189
+      ],
+      "course,": [
+        191
+      ],
+      "at": [
+        193,
+        227,
+        261
+      ],
+      "well": [
+        195
+      ],
+      "with": [
+        196,
+        229
+      ],
+      "what": [
+        197,
+        230
+      ],
+      "known": [
+        199,
+        249
+      ],
+      "about": [
+        200
+      ],
+      "monasticisms": [
+        201
+      ],
+      "elsewhere.More": [
+        202
+      ],
+      "importantly,": [
+        203
+      ],
+      "specific": [
+        206
+      ],
+      "regard": [
+        207
+      ],
+      "which": [
+        214
+      ],
+      "we": [
+        215
+      ],
+      "independent,": [
+        218
+      ],
+      "non-literary": [
+        219
+      ],
+      "as": [
+        221
+      ],
+      "well,": [
+        222
+      ],
+      "it": [
+        223
+      ],
+      "does": [
+        224
+      ],
+      "fit": [
+        226
+      ],
+      "found": [
+        232
+      ],
+      "archaeological": [
+        235
+      ],
+      "record": [
+        236
+      ],
+      "sites": [
+        240
+      ],
+      "India.The": [
+        242
+      ],
+      "earliest": [
+        243
+      ],
+      "\"monasteries": [
+        245,
+        259
+      ],
+      "0": [
+        246,
+        260
+      ],
+      "India-and": [
+        251
+      ],
+      "none": [
+        252
+      ],
+      "pre-A&okan-are": [
+        257
+      ],
+      "all.They": [
+        262
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2014,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2013,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-23T07:36:19.812096",
+    "created_date": "2025-10-10T00:00:00"
+  }
+]

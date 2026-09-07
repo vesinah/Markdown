@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Foundation of Sarungga's Hermitage (N. 351), 823 Śaka</title>
+            <respStmt>
+               <resp key="contributor">EpiDoc Encoding</resp>
+               <persName ref="part:wjsa">
+                  <forename>Wayan Jarrah</forename>
+                  <surname>Sastrawan</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+               <persName ref="part:wjsa">
+                  <forename>Wayan Jarrah</forename>
+                  <surname>Sastrawan</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSIDENK00351.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+      <change who="part:argr" when="2025-12-26" status="draft">changed filename</change>
+      	<change who="part:argr" when="2025-12-26" status="draft">corrected error 923, inserted listApp and added SP II reference</change>
+      	<change who="part:argr" when="2024-09-02" status="draft">changed -nāmā to -nāma || at end</change>
+      	<change who="part:wjsa" when="2023-10-03" status="draft">Confirmed reading of śaruṅga, filled out bibliography, small edits to translation</change>
+      	<change who="part:argr" when="2023-09-30" status="draft">Hyphenated śaka-varṣātīta, removed abbr from śukla, inserted translation</change>
+      	<change who="part:wjsa" when="2023-09-30" status="draft">Created xml file for Sarungga</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+           <body> 
+                   <div type="edition" xml:lang="kaw-Latn" rendition="class:38769 maturity:83213">
+                   <!-- Read by Wayan Jarrah Sastrawan in November 2022 from photos in Nurul Fadilla Budiana’s S1 thesis. Reread by Wayan Jarrah Sastrawan and Arlo Griffiths on 12 March 2023 directly from the stone.
+                    -->
+                          <p><lb n="1"/><g ref="sym:doubleBar" type="punctuation">.</g> svasti śaka-varṣātīta<unclear>,</unclear> <num value="823">823</num> jyeṣṭa-māsa
+                          <lb n="2"/>pañcami śukla, <abbr>ha</abbr> <abbr>va</abbr> <abbr>so</abbr>, kālaniki<unclear>ṁ</unclear> pa<lb break="no" n="3"/>tapān· ri śaruṅga nāma <g ref="sym:doubleBar" type="punctuation">.</g>
+                          </p>   </div>
+                       <div type="apparatus">
+                        <listApp>
+						<app loc="1">
+                            <lem source="bib:NurulFadillaBudiana2021_01 bib:TitiSurtiNastiti+al2024_01">śaka</lem>
+                            <rdg source="bib:GoenawanASambodo+al2019_01">śāka</rdg>
+                        </app>  
+                        <app loc="1">
+                            <lem source="bib:NurulFadillaBudiana2021_01 bib:TitiSurtiNastiti+al2024_01">jyeṣṭa</lem>
+                            <rdg source="bib:GoenawanASambodo+al2019_01">jyaṣṭa</rdg>
+                        </app>
+                        <app loc="1">
+                            <lem source="bib:GoenawanASambodo+al2019_01 bib:TitiSurtiNastiti+al2024_01">māsa</lem>
+                            <rdg source="bib:NurulFadillaBudiana2021_01">masa</rdg>
+                        </app>
+                        <app loc="2">
+                            <lem source="bib:TitiSurtiNastiti+al2024_01">kālaniki<unclear>ṁ</unclear></lem>
+                            <rdg source="bib:GoenawanASambodo+al2019_01 bib:NurulFadillaBudiana2021_01">kālaniki</rdg>
+                        </app>
+                       <app loc="2"> 
+                       <lem source="bib:NurulFadillaBudiana2021_01 bib:TitiSurtiNastiti+al2024_01">pa<lb break="no" n="3"/>tapān· ri śaruṅga</lem>
+                        <rdg source="bib:GoenawanASambodo+al2019_01">paśarūṅga</rdg>
+                        </app>
+                        <app loc="3">
+                           <lem source="bib:GoenawanASambodo+al2019_01 bib:TitiSurtiNastiti+al2024_01">nāma</lem>
+                           <rdg source="bib:NurulFadillaBudiana2021_01">nāmā</rdg>
+                        </app>
+						</listApp>
+                     </div>
+ <div type="translation" resp="part:wjsa part:argr">
+           <p>Hail! Elapsed Śaka year 823, month of Jyeṣṭha, fifth <supplied reason="explanation"><foreign>tithi</foreign></supplied>, waxing <supplied reason="explanation">fortnight</supplied> <supplied reason="explanation">25 May 901</supplied>. <supplied reason="subaudible">It was</supplied> the time of <supplied reason="subaudible">establishment of</supplied> this hermitage for the one named Śaruṅga.</p>
+         </div>
+                   <div type="bibliography">
+<p>First edited by Goenawan Sambodo <foreign>et al.</foreign> (<bibl rend="omitname"><ptr target="bib:GoenawanASambodo+al2019_01"/></bibl>), then by Nurul Fadilla Budiana (<bibl rend="omitname"><ptr target="bib:NurulFadillaBudiana2021_01"/></bibl>) for her undergraduate thesis. Re-edited here (as published in <bibl><ptr target="bib:TitiSurtiNastiti+al2024_01"/></bibl>) by Wayan Jarrah Sastrawan &amp; Arlo Griffiths directly from the stone and from photographs.</p>
+                       <listBibl type="primary">   
+                                   <bibl n="G">
+                                       <ptr target="bib:GoenawanASambodo+al2019_01"/>
+                                      <citedRange unit="page">69</citedRange>                  
+                                   </bibl>
+                                   <bibl n="N">
+                                       <ptr target="bib:NurulFadillaBudiana2021_01"/>
+                                      <citedRange unit="page">47-50</citedRange>                  
+                                   </bibl>
+									<bibl n="S+G">
+										<ptr target="bib:TitiSurtiNastiti+al2024_01"/>
+										<citedRange unit="page">148-149</citedRange>   
+									</bibl>
+                           </listBibl>
+                   </div>
+           </body>
+                     </text>
+</TEI>

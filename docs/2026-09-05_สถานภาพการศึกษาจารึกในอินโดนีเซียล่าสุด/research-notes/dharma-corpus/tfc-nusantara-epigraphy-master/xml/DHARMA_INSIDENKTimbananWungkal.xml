@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:lang="eng" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Timbanan Wungkal (Sañjaya 196, 913-02-11)</title>
+        <respStmt>
+          <resp key="contributor">EpiDoc Encoding</resp>
+          <persName ref="part:tykd">
+            <name>Tyassanti Kusumo Dewanti</name>
+          </persName>
+          <persName ref="part:argr">
+            <forename>Arlo</forename>
+            <surname>Griffiths</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp key="creator">intellectual authorship of edition</resp>
+          <persName ref="part:tykd">
+            <name>Tyassanti Kusumo Dewanti</name>
+          </persName>
+          <persName ref="part:argr">
+            <forename>Arlo</forename>
+            <surname>Griffiths</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+        <pubPlace>Paris, Surakarta, Jakarta</pubPlace>
+        <idno type="filename">DHARMA_INSIDENKTimbanan.xml</idno>
+        <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+        <date from="2019" to="2026">2019-2026</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <summary><!-- //// NOT MANDATORY  ////--></summary>
+            <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p/>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+    <revisionDesc>
+      <change status="draft" when="2024-06-03" who="part:argr part:tykd">started revising the encoding</change>
+      <change status="draft" when="2023-07-01" who="part:mime">import into TEI-XML from googledoc</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      <!--
+Almost a century after Brande established his reading that was published in OJO (see above), Nakada published a new reading of the charter. An Indonesian translation was recently published by Edhie Wurjantoro. For the edition presented here, it is done by Tyassanti Kusumo Dewanti and Arlo Griffiths, initially by consulting the Leiden estampages and the photo by van Kinsbergen. In January 2022, a direct observation to the stone was carried out by Tyassanti Kusumo Dewanti with remote assistance and supervision by Arlo Griffiths in France.
+Nakada 1991: 16–22 (no. XI).
+Edhie Wurjantoro 2018: 133–36.
+-->
+      <div type="edition" xml:lang="kaw-Latn" rendition="class:38769 maturity:83213">
+        <p>
+<lb n="1"/> Om̐ namo rudradurggebhyaḥ sv<unclear>āhā</unclear>
+<lb n="2"/> <g ref="sym:doubleBar-hooked" type="punctuation">.</g> svas<unclear>tha</unclear> sarat· śrī sañjaya-varṣātīta <num value="196">196</num> phalguṇa-māsa tithi dvitī<lb break="no" n="3"/>ya śukla<surplus>,</surplus>-pakṣ<unclear>ā</unclear> paniruAn·, <unclear>gai</unclear>va br̥haspati, vāra, Uttarabhadravā-
+<lb break="no" n="4"/> da-nakṣatra, Āhi<supplied reason="lost">r</supplied><unclear>buddhā-deva</unclear>tā, śobhana-yoga, I<unclear>rikā divasani Ā</unclear><lb break="no" n="5"/>j<unclear>ñ<choice><orig>a</orig><reg>ā</reg></choice></unclear> śrī mahārāja, dakṣottama-bāhubajra-pratipakṣa-kṣaya śrī mahottu<lb break="no" n="6"/>ṅgavijaya, tumurun· I rakryān· mapatiḥ I halu, sirikan·, vka, muAṁ rakryān· gu<lb break="no" n="7"/>run vaṁṅi, muAṁ I <abbr>samgat·</abbr> tiruAn·<supplied reason="subaudible">,</supplied> kumonakan· Ikanaṁ dharmma kabiku<space/>An· I timba<lb break="no" n="8"/>nan· vuṅkal· pahatəguhan· śāsananya, Umuvaha svatantra, svatantra ṅaranya ta<lb break="no" n="9"/>n· pinarabyāpāra, deni saprakāra saṁ maṅilala drabya haji kabeḥ paṅkur· tavān·
+<lb n="10"/> tirip·, maṁhuri, kriṁ, paḍəmm apuy·, maṇiga, lva, malañja<unclear>ṁ</unclear>, makalaṅkaṁ, tapa haji, E<lb break="no" n="11"/>r haji, maṁrumve, tuha gusali, tuha dagaṁ, tuhān· huñjamman·, tuhān· kutak·<supplied reason="lost">, tu</supplied><lb break="no" n="12"/>han· <gap reason="illegible" quantity="2" unit="character" precision="low"/>, Uṇḍahagi, k<unclear>ḍ</unclear>i, paranakan·, tuha paḍahi, vidu maṅiduṁ, varahan· sambal·,
+<lb n="13"/> sumbul·, <unclear>k</unclear>i<unclear>r</unclear>i<unclear>m</unclear>it·, pamr̥ṣi, hulun· haji, piṅhai, vahuta, rāma, Ityevammādi,
+<lb n="14"/> nahan <unclear>pra</unclear>kārani tan· tumamā maminta drabya haji, rikanaṁ kabikuAn· I timbanan· vu<lb break="no" n="15"/> ṅkal·<supplied reason="subaudible">,</supplied> kunaṁ parṇnahani sukha-duḥkhanya, ḍaṇḍa-<unclear>kuḍaṇḍa</unclear> maṇḍihālādīkaṁ la<unclear>ḍaṅi,</unclear>
+<lb n="16"/> bubulan· sa<surplus>ṁ</surplus>masa<supplied reason="omitted">m</supplied>byavahāra I salvāni cchāyani tambak· bhaṭārī I heṁ
+<lb n="17"/> I jro I tp<choice><orig>i</orig><reg>ī</reg></choice> makulīliṅan· mo<supplied reason="omitted">n·</supplied> java paraṣi kammir· mva<supplied reason="omitted">ṁ</supplied> siṁ<supplied reason="lost">hala</supplied> <gap reason="lost" quantity="4" unit="character" precision="low"/>
+<lb n="18"/> Ataḥ pramāṇā Irikā kabaiḥ yāpuAnn ikāṁ nambi mahya<gap reason="lost" quantity="5" unit="character" precision="low"/> <supplied reason="lost">timba</supplied><lb break="no" n="19"/>nnan· vatu mahābhr̥tya Ataḥ parṇnahanya yan uṅguAna ma<gap reason="lost" quantity="8" unit="character" precision="low"/>
+<lb n="20"/><gap reason="illegible" quantity="1" unit="character"/>taka luIranya kunaṁ sukha-du<supplied reason="omitted">ḥ</supplied>khanya Aṅśa-pratyaṅśādi<gap reason="lost" quantity="8" unit="character" precision="low"/>
+<lb n="21"/> hanya bhaṭār<choice><orig>i</orig><reg>ī</reg></choice> parānanya satṅaḥ satuhān· <gap reason="illegible" quantity="3" unit="character"/>ka<gap reason="lost" quantity="6" unit="character" precision="low"/> <supplied reason="lost">vi</supplied><lb break="no" n="22"/> hāra bhaṭārī Ataḥ parānanī <unclear>s</unclear>u<supplied reason="omitted">kha</supplied><unclear>d</unclear>uḥ<unclear>khanya</unclear> kabaiḥ maṅkana A<unclear>nu</unclear><supplied reason="lost">graha śrī mahārā</supplied><lb break="no" n="23"/> ja I rakryān mapatiḥ katag<unclear>u</unclear>ḥhakna saṁ karmmaṇya kabaiḥ <gap reason="lost" quantity="8" unit="character" precision="low"/>
+<lb n="24"/> <gap reason="lost" quantity="4" unit="character"/> <unclear>t</unclear>im<supplied reason="lost">b</supplied>anan· vatu <gap reason="illegible" quantity="3" unit="character"/> <gap reason="lost" quantity="15" unit="character"/>
+</p>
+      </div>
+      <div type="apparatus">
+        <app loc="2">
+          <lem>sarat·</lem>
+          <rdg source="bib:Brandes1913_01">saṃvat·</rdg>
+          <rdg source="bib:Nakada1991_01">saṁvat·</rdg>
+          <note>Our new reading is supported by the occurrence of the word <foreign>sarat </foreign>in the opening of the Sirah Keting inscription from Kediri period which is likewise paired with the word <foreign>svasthā</foreign>: <foreign>Om̐ svasthā dīrghāyur astu // saṁ hyaṁ viṣṇu sirāśarīra sira riṁ bhuvana subhagavastha riṁ prajā, svastha śrī jayavarṣa-digjayaśāstraprabhu saphala sinəmbah iṁ sarāt·</foreign>.</note>
+        </app>
+        <app loc="3">
+          <lem>śukla<surplus>,</surplus>-pakṣ<unclear>ā</unclear></lem>
+          <rdg source="bib:Brandes1913_01">śukla-pakṣā</rdg>
+          <rdg source="bib:Nakada1991_01">śukla,-pakṣa</rdg>
+          <note>At the end of this term we have to decide whether to read a punctuation sign or a <foreign>tarung</foreign>. After inspecting the stone and seeing that the stroke in question rises continuously from the <foreign>pasangan</foreign> <foreign>ṣ</foreign>, we tend to favor the former interpretation, which Brandes had already adopted. He had, by the way, ignored the unwanted punctuation sign found in the middle of this compound term.</note>
+        </app>
+        <app loc="3">
+          <lem><unclear>gai</unclear>va</lem>
+          <rdg source="bib:Brandes1913_01">pon·</rdg>
+          <rdg source="bib:Nakada1991_01">[v]a[g]a[i][...]</rdg>
+          <note>Corr. vagai. The space suffices only for two <foreign>akṣara</foreign>s. The first one has <foreign>taling </foreign>and something on top of it, while the second can be read as <foreign>va</foreign>. We hesitantly decide to read it as (<foreign>gai</foreign>)<foreign>va</foreign>, although <foreign>vagai</foreign> must have been intended<foreign>.</foreign> See the detailed discussion on how to deal with the reading of this <foreign>pañcavāra </foreign>in Damais 1951: 55–6.</note>
+        </app>
+        <app loc="4">
+          <lem source="bib:Nakada1991_01">Āhi<supplied reason="lost">r</supplied><unclear>buddhā-deva</unclear>tā</lem>
+          <rdg source="bib:Brandes1913_01">Ātib(u)ddha devatā</rdg>
+        </app>
+        <app loc="5">
+          <lem>mahottuṅgavijaya</lem>
+          <rdg source="bib:Brandes1913_01">(....)ṅgavijay</rdg>
+          <rdg source="bib:Nakada1991_01">mahotuṅgavijaya</rdg>
+        </app>
+        <app loc="6">
+          <lem>gurun vaṁṅi</lem>
+          <rdg source="bib:Brandes1913_01 bib:Nakada1991_01">gurunvaṅi</rdg>
+        </app>
+        <app loc="7">
+          <lem source="bib:Nakada1991_01">dharmma</lem>
+          <rdg source="bib:Brandes1913_01">ḍarmma</rdg>
+        </app>
+        <app loc="7">
+          <lem source="bib:Nakada1991_01">kabikuAn·</lem>
+          <rdg source="bib:Brandes1913_01">kavikuAn·</rdg>
+        </app>
+        <app loc="10">
+          <lem>lva</lem>
+          <rdg source="bib:Brandes1913_01 bib:Nakada1991_01">lca</rdg>
+        </app>
+        <app loc="11">
+          <lem source="bib:Brandes1913_01">tuhān· kutak·</lem>
+          <rdg source="bib:Nakada1991_01">tuhān· kulak·</rdg>
+        </app>
+        <app loc="11">
+          <lem><supplied reason="lost">tu</supplied>han· <gap reason="illegible" quantity="2" unit="character"/></lem>
+          <rdg source="bib:Brandes1913_01">(....)</rdg>
+          <rdg source="bib:Nakada1991_01">(...)pan (...)</rdg>
+        </app>
+        <app loc="13">
+          <lem><unclear>k</unclear>i<unclear>r</unclear>i<unclear>m</unclear>it·</lem>
+          <rdg source="bib:Brandes1913_01"><gap reason="illegible" quantity="3" unit="character" precision="low"/></rdg>
+          <rdg source="bib:Nakada1991_01">kiriṁpik·</rdg>
+          <note>Normally, what stands between<foreign> sumbul </foreign>and <foreign>pamr̥ṣi </foreign>is <foreign>siṅgaḥ, </foreign>but it is impossible to read that word here. We do not recognize the word that is engraved, but the presence of three <foreign>ulu</foreign>s is rather clear.</note>
+        </app>
+        <app loc="14">
+          <lem>nahan <unclear>pra</unclear>kārani</lem>
+          <rdg source="bib:Brandes1913_01">nahanyakārani</rdg>
+          <rdg source="bib:Nakada1991_01">nahan ya kārani</rdg>
+        </app>
+        <app loc="16">
+          <lem>sa<surplus>ṁ</surplus>masa<supplied reason="omitted">m</supplied>byavahāra</lem>
+          <rdg source="bib:Brandes1913_01">(...) masabyabahāra</rdg>
+          <rdg source="bib:Nakada1991_01">(s)amasabyabahāra</rdg>
+          <note>The choice of reading is particularly complicated here. The two options we have considered are to read it as <foreign>saṁ ma⟨⟨sa⟩⟩byavahāra </foreign>or as <foreign>sa⟨⟨ṁ⟩⟩masa⟨m⟩byabahāra. </foreign>Both options pose different problems. The first option, even though redundant engraving of an <foreign>akṣara sa</foreign> may seem relatively unproblematic, implies that the text was intended to read <foreign>mavyavahāra </foreign>(“to be engaged in a court case”), which seem out of place here. The second option yields the expected meaning, with <foreign>masamvyavahāra</foreign>, but implies the omission of the basic consonant in the ligature <foreign>mbya</foreign>, which is quite problematic. Nevertheless, In the end, the second option seems more satisfactory so we tentatively decide to adopt it here.</note>
+        </app>
+        <app loc="16">
+          <lem>salvāni cchāyani</lem>
+          <rdg source="bib:Brandes1913_01">salvāni cayan</rdg>
+          <rdg source="bib:Nakada1991_01">salvāni (...)āya ni</rdg>
+        </app>
+        <app loc="17">
+          <lem>makulīliṅan·</lem>
+          <rdg source="bib:Brandes1913_01 bib:Nakada1991_01">makuliliṅan·</rdg>
+        </app>
+        <app loc="17">
+          <lem source="bib:Nakada1991_01">I tp<choice><orig>i</orig><reg>ī</reg></choice></lem>
+          <rdg source="bib:Brandes1913_01">tūt pi</rdg>
+        </app>
+        <app loc="17">
+          <lem>mo<supplied reason="omitted">n·</supplied></lem>
+          <rdg source="bib:Brandes1913_01 bib:Nakada1991_01">naya</rdg>
+        </app>
+        <app loc="17">
+          <lem>kammir·</lem>
+          <rdg source="bib:Brandes1913_01 bib:Nakada1991_01">kamlir·</rdg>
+        </app>
+        <app loc="17">
+          <lem>mva<supplied reason="omitted">ṁ</supplied> siṁ<supplied reason="lost">hala</supplied></lem>
+          <rdg source="bib:Brandes1913_01 bib:Nakada1991_01">masi</rdg>
+          <note>The restitution of <foreign>hala </foreign>is based on the array of foreigners mentioned previously.</note>
+        </app>
+        <app loc="18">
+          <lem>nambi</lem>
+          <rdg source="bib:Brandes1913_01 bib:Nakada1991_01">napvi</rdg>
+        </app>
+        <app loc="18">
+          <lem>mahya<gap reason="lost" quantity="5" unit="character" precision="low"/> <supplied reason="lost">timba</supplied>nnan· vatu</lem>
+          <note>Given that <foreign>vatu </foreign>is synonymous with <foreign>vuṅkal</foreign>, and the first word ends with <foreign>nnan·</foreign>, we feel some confidence in supplying the first syllables of the toponym. The same toponym is found in the last line of this inscription.</note>
+        </app>
+        <app loc="19">
+          <lem source="bib:Brandes1913_01">mahābhr̥tya</lem>
+          <rdg source="bib:Nakada1991_01">pama(r)avr̥tya</rdg>
+        </app>
+        <app loc="20">
+          <lem source="bib:Brandes1913_01">sukha-du<supplied reason="omitted">ḥ</supplied>khanya</lem>
+          <rdg source="bib:Nakada1991_01">sukha-dukhanya</rdg>
+        </app>
+        <app loc="20">
+          <lem><gap reason="illegible" quantity="1" unit="character"/>taka luIranya</lem>
+          <rdg source="bib:Brandes1913_01"><gap reason="illegible" quantity="1" unit="character"/>ta kaluIranya</rdg>
+          <rdg source="bib:Nakada1991_01"><gap reason="illegible" quantity="1" unit="character"/>ata kaluIranya</rdg>
+        </app>
+        <app loc="22">
+          <lem>parānanī <unclear>s</unclear>u<supplied reason="omitted">kha</supplied><unclear>d</unclear>uḥ<unclear>khanya</unclear></lem>
+          <rdg source="bib:Brandes1913_01">manā (.....) bubulan·</rdg>
+          <rdg source="bib:Nakada1991_01">manāra(..)ī (.. ..)ula(...)a</rdg>
+        </app>
+        <app loc="22">
+          <lem>A<supplied reason="lost">nugraha śrī mahārā</supplied>ja</lem>
+          <note>To fill the gap, we have considered but rejected <foreign>Ăjñ<choice><orig>a</orig><reg>ā</reg></choice> śrī mahārāja</foreign> (after the model of lines 4–5), and decided to supply <foreign>Anugraha</foreign> instead of <foreign>Ăjñ<choice><orig>a</orig><reg>ā</reg></choice></foreign>, since the words are used interchangeably also elsewhere. Cf. Palebuhan (1r3)<foreign> tumurun anugrahanira I rakryān· mapatiḥ</foreign>, (1v10) …  <foreign>maṅkāna Ājñā śrī mahārāja</foreign>.</note>
+        </app>
+        <app loc="23">
+          <lem>katag<unclear>u</unclear>ḥhakna</lem>
+          <rdg source="bib:Brandes1913_01">katagiḥhakna</rdg>
+          <rdg source="bib:Nakada1991_01">katag(i)ḥhakna</rdg>
+        </app>
+        <app loc="23">
+          <lem source="bib:Nakada1991_01">saṁ karmmaṇya</lem>
+          <rdg source="bib:Brandes1913_01">pakarmmaṇya</rdg>
+        </app>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>(1) <foreign>Om, </foreign>salutation to (the terrifying deities) Rudra and Durgā, (etc.)! Hail!</p>
+        <p>(2–15) May the whole world be happy! Elapsed Śrī Sañjaya year 196, month of Phalguna, second <foreign>tithi</foreign> of the waxing fortnight, Paniruan, Vagai, Thursday, lunar mansion Uttarabhadravāda, the deity Ahirbudhnya, the conjunction Śobhana. That was the time when the decree of the Great King, Dakṣottama-bāhubajra-pratipakṣa-kṣaya Śrī Mahottuṅgavijaya, descended to the Lord Ministers of Halu, of Sirikan and of Vka, and [to] the <foreign>rakryān </foreign>of Gurun Vaṅi, and [to] the official of Tiruan, ordering with regard to the monastery foundation (<foreign>dharma kabikuan</foreign>) at Timbanan Vuṅkal that its charter be made firm so that it become independent again. ‘Independent’ means not intruded upon by all kinds of collectors of royal revenue: the <foreign>paṅkur</foreign>, the <foreign>tavān</foreign>, the <foreign>tirip</foreign>, the <foreign>maṅhuri</foreign>, the <foreign>kriṅ</foreign>, the <foreign>paḍəm apuy</foreign>, the <foreign>maṇiga</foreign>, the <foreign>ləva</foreign>, the <foreign>malañjaṅ</foreign>, the <foreign>makalaṅkaṅ</foreign>, the <foreign>tapa haji</foreign>, the <foreign>er haji</foreign>, the <foreign>maṅrumve</foreign>, the chief of the smiths, the chief of the traders, the chief of the <foreign>huñjəman</foreign>, the chief of the <foreign>kutak</foreign>, ……, the carpenters, the eunuchs, the <foreign>paranakan</foreign>, the chief of the drummers, the singing actor, the <foreign>varahan</foreign>, the <foreign>sambal</foreign>, the <foreign>sumbul</foreign>, …, the <foreign>pamr̥si</foreign>, the royal servants, the <foreign>piṅhai</foreign>, the <foreign>vahuta</foreign>, the headmen, and so forth. Those are the kinds that shall not enter to ask for royal taxes, at the monastery of Timbanan Vuṅkal.</p>
+        <p>(15–17) As for the condition of its ‘pain and relief’, <foreign>ḍaṇḍa-kuḍaṇḍa</foreign>,<foreign> maṇḍihala </foreign>etc.<foreign/>..  All commercial activities together should be opened in the entire breadth of the shadow of the wall(s) of the goddess at the exterior, at the interior, at the edge, at the surrounding, whether (the traders) are Javanese, Persians, Khmers and Sinhalese…</p>
+        <p>(18) Only [that deity] shall have authority over them. When the Nambi..</p>
+        <p>(19) the great servant(s) Timbanan Vatu only. Its condition when it is placed…</p>
+        <p>(20) … their forms. As for, its ‘pain and relief’, starting with ‘apportioning of shares’ ...</p>
+        <p>(21)... the goddess shall be the beneficiary of half thereof, per chief masters…</p>
+        <p>(22–23) the monastery of the goddess shall only be the beneficiary of all its ‘pain and relief’.  The grant of the King to the Lord chief minister is to be adhered to firmly by all sanctuary personnel…</p>
+        <p>(24) …. Timbanan Vatu….</p>
+      </div>
+      <div type="commentary">
+        <p>7. The toponym Timbanan Wungkal does not appear elsewhere except in this charter. It recurs again in line 19 and 24 with its synonymous name, Timbanan Watu.</p>
+        <p>10. The reading of <foreign>malañjaṅ </foreign>among the list of <foreign>maṅilala drabya haji </foreign>in this charter is quite exceptional. Elsewhere in this corpus, it is found under the spelling <foreign>malandaṅ. </foreign>Cf. Tihang (1v6), Sugih Manek (A11), Barahasrama (1v5). In other corpora, however, this spelling is also attested. Cf. Harinjing (B11), Kwak I (1v5), Kinewu (A15–16), Wanua Tengah III (2r18–19), Dalinan (1r9), Hujung Galuh (1r8).</p>
+        <p>10. <foreign>makalaṅkaṅ,</foreign> according to Boechari (2012: 34, 189, 294, 298 n. 20), may refer to someone who takes care of the village barn. Regrettably, he did not mention any source nor provided any further discussion on it.</p>
+        <p>14. The rare phrase <foreign>maminta</foreign> <foreign>dravya haji </foreign>in the sense of <foreign>maṅilala dravya haji</foreign> finds its parallel in Barsahan (1r6) <foreign>tan· tamā ta ya maminta drabya haji vulu-vulu Irikeṁ sīma I barsahan·</foreign> and Adulengen (3r3) t<foreign>ka ri sakveḥ saṁ maminta dravya haji vulu-vulu pravulu</foreign>. The first inscription is dated back between the reign of Balitung and Airlangga, while the last one is from the Airlangga period. More discussion on this expression and the new edition of Adulengen can be found in Titi surti Nastiti, Eko Bastiawan and Arlo Griffiths (forthcoming).</p>
+        <p>17. Here we have a list of foreign traders from Persia, Khmer and Singhala, which uniquely only figures here in this corpus. It clearly gives us another support of the international trade that was present in the tenth century Java. More discussion on international trade and foreign traders can be consulted in Barrett Jones 1984 (pp. 23–57), Wisseman Christie 1998 and 1999.</p>
+      </div>
+      <div type="bibliography">
+        <listBibl type="primary">
+          <bibl n="siglum"/>
+          <bibl n="Br"><ptr target="bib:Brandes1913_01"/><citedRange unit="item">XXXV</citedRange><citedRange unit="page">53-54</citedRange></bibl>
+          <bibl n="Na"><ptr target="bib:Nakada1991_01"/><citedRange unit="item">XI</citedRange><citedRange unit="page">16-22</citedRange></bibl>
+        </listBibl>
+        <listBibl type="secondary">
+          <bibl/>
+          <!-- one <bibl/> per item of secondary bibliography -->
+        </listBibl>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,2320 @@
+[
+  {
+    "id": "https://openalex.org/W2128798044",
+    "doi": "https://doi.org/10.1017/s0041977x02000125",
+    "title": "The Pali Subodhālankāra and Dandin's Kāvyādarśa",
+    "display_name": "The Pali Subodhālankāra and Dandin's Kāvyādarśa",
+    "relevance_score": 79.66999,
+    "publication_year": 2002,
+    "publication_date": "2002-06-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2128798044",
+      "doi": "https://doi.org/10.1017/s0041977x02000125",
+      "mag": "2128798044"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1017/s0041977x02000125",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1017/s0041977x02000125",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210171990",
+        "display_name": "Bulletin of the School of Oriental and African Studies",
+        "issn_l": "0041-977X",
+        "issn": [
+          "0041-977X",
+          "1474-0699"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Bulletin of the School of Oriental and African Studies",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5111956238",
+          "display_name": "J. C. Wright",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "J. C. WRIGHT",
+        "raw_affiliation_strings": [
+          "School of Oriental and African Studies",
+          "School of Oriental & African Studies"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Oriental and African Studies",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "School of Oriental & African Studies",
+            "institution_ids": []
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5111956238"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.30648288,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 94
+    },
+    "biblio": {
+      "volume": "65",
+      "issue": "2",
+      "first_page": "323",
+      "last_page": "341"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11563",
+      "display_name": "Indian and Buddhist Studies",
+      "score": 0.9945999979972839,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.9945999979972839,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13156",
+        "display_name": "Historical Linguistics and Language Studies",
+        "score": 0.9635999798774719,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1203",
+          "display_name": "Language and Linguistics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10893",
+        "display_name": "Chinese history and philosophy",
+        "score": 0.9168999791145325,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/sanskrit",
+        "display_name": "Sanskrit",
+        "score": 0.9506465196609497
+      },
+      {
+        "id": "https://openalex.org/keywords/poetics",
+        "display_name": "Poetics",
+        "score": 0.5873406529426575
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.5701067447662354
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.5271099209785461
+      },
+      {
+        "id": "https://openalex.org/keywords/prosody",
+        "display_name": "Prosody",
+        "score": 0.49352872371673584
+      },
+      {
+        "id": "https://openalex.org/keywords/rhetoric",
+        "display_name": "Rhetoric",
+        "score": 0.43581897020339966
+      },
+      {
+        "id": "https://openalex.org/keywords/linguistics",
+        "display_name": "Linguistics",
+        "score": 0.35888391733169556
+      },
+      {
+        "id": "https://openalex.org/keywords/poetry",
+        "display_name": "Poetry",
+        "score": 0.33198633790016174
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.23037096858024597
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C29912816",
+        "wikidata": "https://www.wikidata.org/wiki/Q11059",
+        "display_name": "Sanskrit",
+        "level": 2,
+        "score": 0.9506465196609497
+      },
+      {
+        "id": "https://openalex.org/C556248259",
+        "wikidata": "https://www.wikidata.org/wiki/Q835023",
+        "display_name": "Poetics",
+        "level": 3,
+        "score": 0.5873406529426575
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.5701067447662354
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.5271099209785461
+      },
+      {
+        "id": "https://openalex.org/C542774811",
+        "wikidata": "https://www.wikidata.org/wiki/Q10880526",
+        "display_name": "Prosody",
+        "level": 2,
+        "score": 0.49352872371673584
+      },
+      {
+        "id": "https://openalex.org/C1370556",
+        "wikidata": "https://www.wikidata.org/wiki/Q81009",
+        "display_name": "Rhetoric",
+        "level": 2,
+        "score": 0.43581897020339966
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.35888391733169556
+      },
+      {
+        "id": "https://openalex.org/C164913051",
+        "wikidata": "https://www.wikidata.org/wiki/Q482",
+        "display_name": "Poetry",
+        "level": 2,
+        "score": 0.33198633790016174
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.23037096858024597
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1017/s0041977x02000125",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1017/s0041977x02000125",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210171990",
+          "display_name": "Bulletin of the School of Oriental and African Studies",
+          "issn_l": "0041-977X",
+          "issn": [
+            "0041-977X",
+            "1474-0699"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Bulletin of the School of Oriental and African Studies",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "display_name": "Quality Education",
+        "id": "https://metadata.un.org/sdg/4",
+        "score": 0.7099999785423279
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W3183948672",
+      "https://openalex.org/W3173606202",
+      "https://openalex.org/W3110381201",
+      "https://openalex.org/W2948807893",
+      "https://openalex.org/W2778153218",
+      "https://openalex.org/W2758277628",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W1531601525",
+      "https://openalex.org/W2375684055",
+      "https://openalex.org/W2121445910"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        61,
+        104,
+        174,
+        188
+      ],
+      "only": [
+        1
+      ],
+      "notable": [
+        2
+      ],
+      "works": [
+        3
+      ],
+      "on": [
+        4,
+        116
+      ],
+      "poetics": [
+        5
+      ],
+      "and": [
+        6,
+        19,
+        21,
+        33,
+        44,
+        123,
+        159,
+        186,
+        199,
+        217
+      ],
+      "prosody": [
+        7,
+        190,
+        210
+      ],
+      "that": [
+        8,
+        110,
+        135,
+        163
+      ],
+      "survive": [
+        9
+      ],
+      "in": [
+        10,
+        16,
+        94,
+        129,
+        143
+      ],
+      "Pali": [
+        11,
+        62,
+        112,
+        138,
+        189
+      ],
+      "are": [
+        12
+      ],
+      "the": [
+        13,
+        28,
+        37,
+        52,
+        68,
+        75,
+        91,
+        97,
+        111,
+        136,
+        144,
+        153,
+        156,
+        164,
+        171,
+        212
+      ],
+      "Subodhālankāra": [
+        14
+      ],
+      "(comprising,": [
+        15
+      ],
+      "effect,": [
+        17
+      ],
+      "Kārikā": [
+        18
+      ],
+      "Vrtti)": [
+        20
+      ],
+      "Vuttodaya.": [
+        22
+      ],
+      "They": [
+        23
+      ],
+      "have": [
+        24,
+        194
+      ],
+      "been": [
+        25,
+        149,
+        167,
+        195
+      ],
+      "ascribed": [
+        26
+      ],
+      "to": [
+        27,
+        108,
+        178,
+        193
+      ],
+      "twelfth-century": [
+        29
+      ],
+      "Sinhalese": [
+        30
+      ],
+      "monk": [
+        31
+      ],
+      "Sangharakkhita": [
+        32
+      ],
+      "described,": [
+        34
+      ],
+      "almost": [
+        35
+      ],
+      "from": [
+        36
+      ],
+      "outset,": [
+        38
+      ],
+      "as": [
+        39,
+        57,
+        141,
+        211
+      ],
+      "‘dependent": [
+        40
+      ],
+      "upon": [
+        41,
+        47,
+        151
+      ],
+      "Sanskrit": [
+        42,
+        48,
+        101,
+        157,
+        172,
+        181
+      ],
+      "models’": [
+        43
+      ],
+      "‘based": [
+        45
+      ],
+      "entirely": [
+        46
+      ],
+      "prosody’": [
+        49
+      ],
+      "respectively.": [
+        50
+      ],
+      "Indeed": [
+        51
+      ],
+      "Vrtti": [
+        53
+      ],
+      "names": [
+        54
+      ],
+      "a": [
+        55
+      ],
+      "‘Dandi’": [
+        56
+      ],
+      "its": [
+        58,
+        202
+      ],
+      "basic": [
+        59,
+        137
+      ],
+      "source.": [
+        60
+      ],
+      "Text": [
+        63
+      ],
+      "Society's": [
+        64
+      ],
+      "2000": [
+        65
+      ],
+      "edition": [
+        66
+      ],
+      "of": [
+        67,
+        74,
+        90,
+        100,
+        121,
+        155,
+        183,
+        208
+      ],
+      "Subodhālankāra,": [
+        69
+      ],
+      "complete": [
+        70
+      ],
+      "with": [
+        71,
+        126,
+        146,
+        205
+      ],
+      "two": [
+        72
+      ],
+      "versions": [
+        73
+      ],
+      "Vrtti,": [
+        76
+      ],
+      "compiled": [
+        77
+      ],
+      "by": [
+        78,
+        86,
+        152,
+        170
+      ],
+      "P.": [
+        79
+      ],
+      "S.": [
+        80
+      ],
+      "Jaini,": [
+        81
+      ],
+      "has": [
+        82,
+        148,
+        166
+      ],
+      "registered": [
+        83
+      ],
+      "many,": [
+        84
+      ],
+      "but": [
+        85
+      ],
+      "no": [
+        87
+      ],
+      "means": [
+        88
+      ],
+      "all": [
+        89
+      ],
+      "parallel": [
+        92
+      ],
+      "passages": [
+        93
+      ],
+      "Dandin's": [
+        95
+      ],
+      "Kāvyādarśa,": [
+        96
+      ],
+      "seminal": [
+        98
+      ],
+      "manual": [
+        99
+      ],
+      "poetic": [
+        102
+      ],
+      "theory.": [
+        103,
+        219
+      ],
+      "present": [
+        105
+      ],
+      "article": [
+        106
+      ],
+      "seeks": [
+        107
+      ],
+      "show": [
+        109
+      ],
+      "texts": [
+        113
+      ],
+      "depend": [
+        114
+      ],
+      "rather": [
+        115
+      ],
+      "earlier": [
+        117
+      ],
+      "Middle": [
+        118
+      ],
+      "Indian": [
+        119
+      ],
+      "traditions": [
+        120
+      ],
+      "rhetoric": [
+        122
+      ],
+      "poetics,": [
+        124
+      ],
+      "coupled": [
+        125
+      ],
+      "theories": [
+        127
+      ],
+      "adumbrated": [
+        128
+      ],
+      "Nātyaśāstra.": [
+        130
+      ],
+      "It": [
+        131
+      ],
+      "is": [
+        132,
+        161
+      ],
+      "reasonably": [
+        133
+      ],
+      "certain": [
+        134
+      ],
+      "material,": [
+        139
+      ],
+      "especially": [
+        140
+      ],
+      "presented": [
+        142
+      ],
+      "version": [
+        145
+      ],
+      "‘Abhinavatīkā’,": [
+        147
+      ],
+      "drawn": [
+        150
+      ],
+      "author": [
+        154
+      ],
+      "Kāvyādarśa;": [
+        158
+      ],
+      "there": [
+        160
+      ],
+      "evidence": [
+        162
+      ],
+      "‘Porānatīkā’": [
+        165
+      ],
+      "superficially": [
+        168
+      ],
+      "influenced": [
+        169
+      ],
+      "text.": [
+        173
+      ],
+      "material": [
+        175
+      ],
+      "goes": [
+        176
+      ],
+      "far": [
+        177
+      ],
+      "explain": [
+        179
+      ],
+      "classical": [
+        180,
+        218
+      ],
+      "notions": [
+        182
+      ],
+      "Alamkāra,": [
+        184
+      ],
+      "Rasa": [
+        185
+      ],
+      "Dhvani.": [
+        187
+      ],
+      "Vuttodaya": [
+        191
+      ],
+      "seems": [
+        192
+      ],
+      "equally": [
+        196
+      ],
+      "baselessly": [
+        197
+      ],
+      "maligned,": [
+        198
+      ],
+      "should": [
+        200
+      ],
+      "take": [
+        201
+      ],
+      "place": [
+        203
+      ],
+      "along": [
+        204
+      ],
+      "surviving": [
+        206
+      ],
+      "vestiges": [
+        207
+      ],
+      "Prakrit": [
+        209
+      ],
+      "fundamental": [
+        213
+      ],
+      "link": [
+        214
+      ],
+      "between": [
+        215
+      ],
+      "Vedic": [
+        216
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W680129",
+    "doi": null,
+    "title": "The Indigenization of Pali Meters in Thai.",
+    "display_name": "The Indigenization of Pali Meters in Thai.",
+    "relevance_score": 55.097954,
+    "publication_year": 1981,
+    "publication_date": "1981-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W680129",
+      "mag": "680129"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:deepblue.lib.umich.edu:2027.42/158465",
+      "is_oa": false,
+      "landing_page_url": "https://hdl.handle.net/2027.42/158465",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400393",
+        "display_name": "Deep Blue (University of Michigan)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I27837315",
+        "host_organization_name": "University of Michigan",
+        "host_organization_lineage": [
+          "https://openalex.org/I27837315"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Thesis"
+    },
+    "type": "dissertation",
+    "indexed_in": [],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5085293947",
+          "display_name": "Thomas John Hudak",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Thomas John Hudak",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5085293947"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": false,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12473",
+      "display_name": "Pacific and Southeast Asian Studies",
+      "score": 0.7922999858856201,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3305",
+        "display_name": "Geography, Planning and Development"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12473",
+        "display_name": "Pacific and Southeast Asian Studies",
+        "score": 0.7922999858856201,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3305",
+          "display_name": "Geography, Planning and Development"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/indigenization",
+        "display_name": "Indigenization",
+        "score": 0.9441893100738525
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.35305172204971313
+      },
+      {
+        "id": "https://openalex.org/keywords/geography",
+        "display_name": "Geography",
+        "score": 0.33176469802856445
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.17874455451965332
+      },
+      {
+        "id": "https://openalex.org/keywords/anthropology",
+        "display_name": "Anthropology",
+        "score": 0.12020188570022583
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C169677936",
+        "wikidata": "https://www.wikidata.org/wiki/Q4200776",
+        "display_name": "Indigenization",
+        "level": 2,
+        "score": 0.9441893100738525
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.35305172204971313
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.33176469802856445
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.17874455451965332
+      },
+      {
+        "id": "https://openalex.org/C19165224",
+        "wikidata": "https://www.wikidata.org/wiki/Q23404",
+        "display_name": "Anthropology",
+        "level": 1,
+        "score": 0.12020188570022583
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "pmh:oai:deepblue.lib.umich.edu:2027.42/158465",
+        "is_oa": false,
+        "landing_page_url": "https://hdl.handle.net/2027.42/158465",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400393",
+          "display_name": "Deep Blue (University of Michigan)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I27837315",
+          "host_organization_name": "University of Michigan",
+          "host_organization_lineage": [
+            "https://openalex.org/I27837315"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Thesis"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.44999998807907104
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2392409155",
+      "https://openalex.org/W2394068506",
+      "https://openalex.org/W1975017742",
+      "https://openalex.org/W2362134634",
+      "https://openalex.org/W2905486763",
+      "https://openalex.org/W2373905491",
+      "https://openalex.org/W2360142529",
+      "https://openalex.org/W2034664834"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0,
+        116,
+        331
+      ],
+      "study": [
+        1
+      ],
+      "is": [
+        2
+      ],
+      "a": [
+        3,
+        121,
+        151,
+        185,
+        276,
+        279
+      ],
+      "structural": [
+        4,
+        58,
+        106,
+        316,
+        342,
+        348
+      ],
+      "analysis": [
+        5,
+        59,
+        143,
+        274,
+        317
+      ],
+      "of": [
+        6,
+        11,
+        39,
+        56,
+        73,
+        91,
+        100,
+        130,
+        144,
+        153,
+        187,
+        193,
+        200,
+        211,
+        218,
+        226,
+        244,
+        252,
+        269,
+        275,
+        278,
+        281,
+        283,
+        314,
+        321,
+        326,
+        340,
+        367
+      ],
+      "the": [
+        7,
+        43,
+        46,
+        51,
+        71,
+        74,
+        92,
+        97,
+        104,
+        131,
+        154,
+        178,
+        191,
+        194,
+        237,
+        241,
+        250,
+        260,
+        267,
+        273,
+        284,
+        291,
+        296,
+        315,
+        319,
+        322,
+        345,
+        351,
+        354,
+        365
+      ],
+      "indigenization": [
+        8
+      ],
+      "in": [
+        9,
+        25,
+        42,
+        70,
+        113,
+        158,
+        190,
+        207,
+        214,
+        230,
+        259
+      ],
+      "Thai": [
+        10,
+        26,
+        63,
+        81,
+        101,
+        114,
+        139,
+        146,
+        179,
+        262,
+        355
+      ],
+      "Pali": [
+        12,
+        47,
+        75,
+        133,
+        195
+      ],
+      "meters": [
+        13,
+        29,
+        44,
+        76,
+        134,
+        156,
+        181,
+        327,
+        336,
+        352
+      ],
+      "based": [
+        14,
+        202
+      ],
+      "upon": [
+        15,
+        203
+      ],
+      "syllables": [
+        16,
+        201,
+        245
+      ],
+      "designated": [
+        17
+      ],
+      "as": [
+        18,
+        23,
+        37
+      ],
+      "light": [
+        19,
+        253
+      ],
+      "and": [
+        20,
+        33,
+        45,
+        66,
+        77,
+        85,
+        111,
+        125,
+        135,
+        149,
+        161,
+        171,
+        182,
+        222,
+        248,
+        254,
+        301,
+        353,
+        357,
+        360
+      ],
+      "heavy.": [
+        21
+      ],
+      "Known": [
+        22
+      ],
+      "chan": [
+        24,
+        155,
+        165,
+        180,
+        263
+      ],
+      "literature,": [
+        27
+      ],
+      "these": [
+        28
+      ],
+      "probably": [
+        30
+      ],
+      "reached": [
+        31
+      ],
+      "Thail": [
+        32
+      ],
+      "through": [
+        34,
+        119
+      ],
+      "such": [
+        35
+      ],
+      "sources": [
+        36
+      ],
+      "recitations": [
+        38
+      ],
+      "poetry": [
+        40
+      ],
+      "written": [
+        41
+      ],
+      "treatise": [
+        48
+      ],
+      "on": [
+        49
+      ],
+      "metrics,": [
+        50
+      ],
+      "Vuttodaya.": [
+        52
+      ],
+      "The": [
+        53,
+        164,
+        311
+      ],
+      "main": [
+        54
+      ],
+      "objective": [
+        55
+      ],
+      "this": [
+        57,
+        86,
+        270
+      ],
+      "was": [
+        60,
+        175,
+        228,
+        236,
+        257,
+        288
+      ],
+      "to": [
+        61
+      ],
+      "investigate": [
+        62
+      ],
+      "linguistic": [
+        64
+      ],
+      "constraints": [
+        65
+      ],
+      "poetic": [
+        67,
+        93,
+        361
+      ],
+      "principles": [
+        68,
+        362
+      ],
+      "instrumental": [
+        69
+      ],
+      "transformation": [
+        72,
+        87
+      ],
+      "stanzas": [
+        78,
+        112,
+        136,
+        183
+      ],
+      "into": [
+        79,
+        329
+      ],
+      "their": [
+        80,
+        138
+      ],
+      "counterparts.": [
+        82
+      ],
+      "To": [
+        83,
+        265
+      ],
+      "underst": [
+        84
+      ],
+      "required": [
+        88,
+        242,
+        272
+      ],
+      "an": [
+        89,
+        142
+      ],
+      "examination": [
+        90,
+        332
+      ],
+      "system": [
+        94,
+        117
+      ],
+      "that": [
+        95,
+        108,
+        177,
+        239,
+        290,
+        304,
+        334
+      ],
+      "underlies": [
+        96
+      ],
+      "entire": [
+        98
+      ],
+      "corpus": [
+        99
+      ],
+      "poetry,": [
+        102
+      ],
+      "extracting": [
+        103
+      ],
+      "common": [
+        105
+      ],
+      "characteristics": [
+        107,
+        320
+      ],
+      "define": [
+        109
+      ],
+      "lines": [
+        110
+      ],
+      "poetry.": [
+        115,
+        231
+      ],
+      "emerged": [
+        118
+      ],
+      "(1)": [
+        120,
+        188,
+        341
+      ],
+      "syllable": [
+        122,
+        124,
+        299
+      ],
+      "by": [
+        123,
+        127
+      ],
+      "line": [
+        126,
+        128
+      ],
+      "comparison": [
+        129,
+        152
+      ],
+      "original": [
+        132,
+        169
+      ],
+      "with": [
+        137
+      ],
+      "counterparts;": [
+        140
+      ],
+      "(2)": [
+        141,
+        197,
+        347
+      ],
+      "other": [
+        145
+      ],
+      "verse": [
+        147
+      ],
+      "forms;": [
+        148
+      ],
+      "(3)": [
+        150,
+        209,
+        358
+      ],
+      "used": [
+        157
+      ],
+      "both": [
+        159
+      ],
+      "old": [
+        160,
+        261,
+        285,
+        292
+      ],
+      "modern": [
+        162
+      ],
+      "compositions.": [
+        163,
+        264,
+        286
+      ],
+      "compositions": [
+        166,
+        293
+      ],
+      "examined": [
+        167,
+        318
+      ],
+      "included": [
+        168
+      ],
+      "manuscripts": [
+        170
+      ],
+      "printed": [
+        172
+      ],
+      "editions.": [
+        173
+      ],
+      "It": [
+        174,
+        287
+      ],
+      "found": [
+        176,
+        289
+      ],
+      "were": [
+        184,
+        337
+      ],
+      "result": [
+        186
+      ],
+      "changes": [
+        189
+      ],
+      "definition": [
+        192
+      ],
+      "syllable;": [
+        196
+      ],
+      "rhythmic": [
+        198
+      ],
+      "groupings": [
+        199
+      ],
+      "natural": [
+        204
+      ],
+      "speech": [
+        205
+      ],
+      "patterns": [
+        206
+      ],
+      "Thai;": [
+        208
+      ],
+      "methods": [
+        210
+      ],
+      "avoiding": [
+        212
+      ],
+      "monotony": [
+        213
+      ],
+      "poetry;": [
+        215
+      ],
+      "(4)": [
+        216
+      ],
+      "application": [
+        217
+      ],
+      "specific": [
+        219,
+        335
+      ],
+      "rhyme": [
+        220
+      ],
+      "schemes;": [
+        221
+      ],
+      "(5)": [
+        223
+      ],
+      "aesthetic": [
+        224,
+        359
+      ],
+      "concepts": [
+        225
+      ],
+      "what": [
+        227
+      ],
+      "good": [
+        229
+      ],
+      "A": [
+        232
+      ],
+      "second": [
+        233
+      ],
+      "area": [
+        234
+      ],
+      "investigated": [
+        235
+      ],
+      "claim": [
+        238,
+        271
+      ],
+      "only": [
+        240
+      ],
+      "number": [
+        243,
+        300
+      ],
+      "per": [
+        246
+      ],
+      "line,": [
+        247
+      ],
+      "not": [
+        249
+      ],
+      "sequence": [
+        251
+      ],
+      "heavy": [
+        255
+      ],
+      "syllables,": [
+        256
+      ],
+      "satisfied": [
+        258
+      ],
+      "determine": [
+        266
+      ],
+      "validity": [
+        268
+      ],
+      "recording": [
+        277
+      ],
+      "recitation": [
+        280
+      ],
+      "one": [
+        282
+      ],
+      "do": [
+        294
+      ],
+      "satisfy": [
+        295
+      ],
+      "requirements": [
+        297
+      ],
+      "for": [
+        298
+      ],
+      "arrangement": [
+        302
+      ],
+      "provided": [
+        303
+      ],
+      "certain": [
+        305
+      ],
+      "conventions": [
+        306
+      ],
+      "are": [
+        307
+      ],
+      "employed": [
+        308
+      ],
+      "while": [
+        309
+      ],
+      "reading.": [
+        310
+      ],
+      "final": [
+        312
+      ],
+      "section": [
+        313
+      ],
+      "two": [
+        323
+      ],
+      "major": [
+        324
+      ],
+      "groups": [
+        325
+      ],
+      "borrowed": [
+        328,
+        338
+      ],
+      "Thai.": [
+        330
+      ],
+      "determined": [
+        333
+      ],
+      "because": [
+        339
+      ],
+      "similarities": [
+        343,
+        349
+      ],
+      "among": [
+        344
+      ],
+      "meters;": [
+        346
+      ],
+      "between": [
+        350
+      ],
+      "language;": [
+        356
+      ],
+      "dominant": [
+        363
+      ],
+      "at": [
+        364
+      ],
+      "time": [
+        366
+      ],
+      "borrowing.": [
+        368
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2019,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-08T07:41:36.138363",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W3118986614",
+    "doi": "https://doi.org/10.1558/bsrv.v6i2.14012",
+    "title": "Sangharakkhita's Vuttodaya: a study of Pali metre. Pali text and translated into English by R. Siddartha. Preface by Professor J. W. de Jong.",
+    "display_name": "Sangharakkhita's Vuttodaya: a study of Pali metre. Pali text and translated into English by R. Siddartha. Preface by Professor J. W. de Jong.",
+    "relevance_score": 39.306408,
+    "publication_year": 1981,
+    "publication_date": "1981-05-31",
+    "ids": {
+      "openalex": "https://openalex.org/W3118986614",
+      "doi": "https://doi.org/10.1558/bsrv.v6i2.14012",
+      "mag": "3118986614"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1558/bsrv.v6i2.14012",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1558/bsrv.v6i2.14012",
+      "pdf_url": "https://journal.equinoxpub.com/BSR/article/download/14012/23056",
+      "source": {
+        "id": "https://openalex.org/S139284966",
+        "display_name": "Buddhist Studies Review",
+        "issn_l": "0265-2897",
+        "issn": [
+          "0265-2897",
+          "1747-9681"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320355",
+        "host_organization_name": "Equinox Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320355"
+        ],
+        "host_organization_lineage_names": [
+          "Equinox Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Buddhist Studies Review",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://journal.equinoxpub.com/BSR/article/download/14012/23056",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5111864257",
+          "display_name": "K. R. Norman",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "K. R. Norman",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5111864257"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.21875,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "6",
+      "issue": "2",
+      "first_page": "123",
+      "last_page": "125"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10181",
+      "display_name": "Natural Language Processing Techniques",
+      "score": 0.9861000180244446,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10181",
+        "display_name": "Natural Language Processing Techniques",
+        "score": 0.9861000180244446,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/new-delhi",
+        "display_name": "New delhi",
+        "score": 0.6866799592971802
+      },
+      {
+        "id": "https://openalex.org/keywords/metre",
+        "display_name": "Metre",
+        "score": 0.5153765082359314
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.463884174823761
+      },
+      {
+        "id": "https://openalex.org/keywords/classics",
+        "display_name": "Classics",
+        "score": 0.3379390835762024
+      },
+      {
+        "id": "https://openalex.org/keywords/linguistics",
+        "display_name": "Linguistics",
+        "score": 0.2521057724952698
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.22903889417648315
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.13686761260032654
+      },
+      {
+        "id": "https://openalex.org/keywords/poetry",
+        "display_name": "Poetry",
+        "score": 0.05661427974700928
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C3020456351",
+        "wikidata": "https://www.wikidata.org/wiki/Q987",
+        "display_name": "New delhi",
+        "level": 3,
+        "score": 0.6866799592971802
+      },
+      {
+        "id": "https://openalex.org/C182181037",
+        "wikidata": "https://www.wikidata.org/wiki/Q192624",
+        "display_name": "Metre",
+        "level": 3,
+        "score": 0.5153765082359314
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.463884174823761
+      },
+      {
+        "id": "https://openalex.org/C74916050",
+        "wikidata": "https://www.wikidata.org/wiki/Q841090",
+        "display_name": "Classics",
+        "level": 1,
+        "score": 0.3379390835762024
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.2521057724952698
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.22903889417648315
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.13686761260032654
+      },
+      {
+        "id": "https://openalex.org/C164913051",
+        "wikidata": "https://www.wikidata.org/wiki/Q482",
+        "display_name": "Poetry",
+        "level": 2,
+        "score": 0.05661427974700928
+      },
+      {
+        "id": "https://openalex.org/C158739034",
+        "wikidata": "https://www.wikidata.org/wiki/Q1907114",
+        "display_name": "Metropolitan area",
+        "level": 2,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1558/bsrv.v6i2.14012",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1558/bsrv.v6i2.14012",
+        "pdf_url": "https://journal.equinoxpub.com/BSR/article/download/14012/23056",
+        "source": {
+          "id": "https://openalex.org/S139284966",
+          "display_name": "Buddhist Studies Review",
+          "issn_l": "0265-2897",
+          "issn": [
+            "0265-2897",
+            "1747-9681"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320355",
+          "host_organization_name": "Equinox Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320355"
+          ],
+          "host_organization_lineage_names": [
+            "Equinox Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Buddhist Studies Review",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1558/bsrv.v6i2.14012",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1558/bsrv.v6i2.14012",
+      "pdf_url": "https://journal.equinoxpub.com/BSR/article/download/14012/23056",
+      "source": {
+        "id": "https://openalex.org/S139284966",
+        "display_name": "Buddhist Studies Review",
+        "issn_l": "0265-2897",
+        "issn": [
+          "0265-2897",
+          "1747-9681"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320355",
+        "host_organization_name": "Equinox Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320355"
+        ],
+        "host_organization_lineage_names": [
+          "Equinox Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Buddhist Studies Review",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Quality Education",
+        "id": "https://metadata.un.org/sdg/4",
+        "score": 0.5299999713897705
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": false
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W3118986614.pdf"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Sangharakkhita's": [
+        0
+      ],
+      "Vuttodaya:": [
+        1
+      ],
+      "a": [
+        2
+      ],
+      "study": [
+        3
+      ],
+      "of": [
+        4
+      ],
+      "Pali": [
+        5,
+        7
+      ],
+      "metre.": [
+        6
+      ],
+      "text": [
+        8
+      ],
+      "and": [
+        9
+      ],
+      "translated": [
+        10
+      ],
+      "into": [
+        11
+      ],
+      "English": [
+        12
+      ],
+      "by": [
+        13,
+        17,
+        29
+      ],
+      "R.": [
+        14
+      ],
+      "Siddhartha.": [
+        15
+      ],
+      "Preface": [
+        16
+      ],
+      "Professor": [
+        18
+      ],
+      "J.": [
+        19
+      ],
+      "W.": [
+        20
+      ],
+      "de": [
+        21
+      ],
+      "Jong.": [
+        22
+      ],
+      "Sri": [
+        23
+      ],
+      "Satguru": [
+        24
+      ],
+      "Publications,": [
+        25
+      ],
+      "India": [
+        26
+      ],
+      "1981.": [
+        27
+      ],
+      "Distributed": [
+        28
+      ],
+      "Indian": [
+        30
+      ],
+      "Books": [
+        31
+      ],
+      "Centre,": [
+        32
+      ],
+      "Delhi.": [
+        33
+      ],
+      "v": [
+        34
+      ],
+      "+": [
+        35
+      ],
+      "54pp.": [
+        36
+      ],
+      "Rs.": [
+        37
+      ],
+      "50": [
+        38
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-05-22T06:13:13.366637",
+    "created_date": "2025-10-10T00:00:00"
+  }
+]

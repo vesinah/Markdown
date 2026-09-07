@@ -1,0 +1,1059 @@
+{
+    "status":  "ok",
+    "message-type":  "work-list",
+    "message-version":  "1.0.0",
+    "message":  {
+                    "facets":  {
+
+                               },
+                    "total-results":  149271,
+                    "items":  [
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             12,
+                                                                             18
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-12-18T19:47:25Z",
+                                                      "timestamp":  1766087245893
+                                                  },
+                                      "edition-number":  "1",
+                                      "reference-count":  0,
+                                      "publisher":  "Verlag der österreichischen Akademie der Wissenschaften",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "DOI":  "10.2307/j.ctt1vw0q4q.8",
+                                      "type":  "book-chapter",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2017,
+                                                                             10,
+                                                                             9
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2017-10-09T20:24:41Z",
+                                                      "timestamp":  1507580681000
+                                                  },
+                                      "page":  "79-136",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  1,
+                                      "title":  [
+                                                    "The Gilgit Manuscripts An Ancient Buddhist Library in Modern Research"
+                                                ],
+                                      "prefix":  "10.2307",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Oskar",
+                                                         "family":  "Von Hinüber",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      "@{role=author; vocabulary=crossref}"
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "1121",
+                                      "container-title":  [
+                                                              "From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               5,
+                                                                               9
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-05-09T13:20:26Z",
+                                                        "timestamp":  1525872026000
+                                                    },
+                                      "score":  50.600945,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://www.jstor.org/stable/10.2307/j.ctt1vw0q4q.8"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            null
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.2307/j.ctt1vw0q4q.8"
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             3,
+                                                                             30
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-03-30T22:36:15Z",
+                                                      "timestamp":  1648679775293
+                                                  },
+                                      "edition-number":  "1",
+                                      "reference-count":  0,
+                                      "publisher":  "Verlag der österreichischen Akademie der Wissenschaften",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "DOI":  "10.2307/j.ctt1vw0q4q.5",
+                                      "type":  "book-chapter",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2017,
+                                                                             10,
+                                                                             9
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2017-10-09T20:24:41Z",
+                                                      "timestamp":  1507580681000
+                                                  },
+                                      "page":  "19-34",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "The Senior Kharoṣṭī Manuscripts"
+                                                ],
+                                      "prefix":  "10.2307",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Mark",
+                                                         "family":  "Allon",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      "@{role=author; vocabulary=crossref}"
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "1121",
+                                      "container-title":  [
+                                                              "From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               5,
+                                                                               9
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-05-09T13:20:24Z",
+                                                        "timestamp":  1525872024000
+                                                    },
+                                      "score":  39.646233,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://www.jstor.org/stable/10.2307/j.ctt1vw0q4q.5"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            null
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.2307/j.ctt1vw0q4q.5"
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             4,
+                                                                             2
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-04-02T12:47:22Z",
+                                                      "timestamp":  1648903642907
+                                                  },
+                                      "edition-number":  "1",
+                                      "reference-count":  0,
+                                      "publisher":  "Verlag der österreichischen Akademie der Wissenschaften",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "DOI":  "10.2307/j.ctt1vw0q4q.12",
+                                      "type":  "book-chapter",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2017,
+                                                                             10,
+                                                                             9
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2017-10-09T16:24:41Z",
+                                                      "timestamp":  1507566281000
+                                                  },
+                                      "page":  "171-186",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "Dating and Localizing Undated Manuscripts"
+                                                ],
+                                      "prefix":  "10.2307",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Lore",
+                                                         "family":  "Sander",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      "@{role=author; vocabulary=crossref}"
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "1121",
+                                      "container-title":  [
+                                                              "From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               5,
+                                                                               9
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-05-09T09:37:46Z",
+                                                        "timestamp":  1525858666000
+                                                    },
+                                      "score":  39.333004,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://www.jstor.org/stable/10.2307/j.ctt1vw0q4q.12"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            null
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.2307/j.ctt1vw0q4q.12"
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             3,
+                                                                             29
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-03-29T19:55:30Z",
+                                                      "timestamp":  1648583730130
+                                                  },
+                                      "edition-number":  "1",
+                                      "reference-count":  0,
+                                      "publisher":  "Verlag der österreichischen Akademie der Wissenschaften",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "DOI":  "10.2307/j.ctt1vw0q4q.26",
+                                      "type":  "book-chapter",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2017,
+                                                                             10,
+                                                                             9
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2017-10-09T20:24:41Z",
+                                                      "timestamp":  1507580681000
+                                                  },
+                                      "page":  "367-404",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "Pali Manuscripts of Sri Lanka"
+                                                ],
+                                      "prefix":  "10.2307",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Bhikkhu",
+                                                         "family":  "ÑĀṆATUSITA",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      "@{role=author; vocabulary=crossref}"
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "1121",
+                                      "container-title":  [
+                                                              "From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               5,
+                                                                               9
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-05-09T13:21:12Z",
+                                                        "timestamp":  1525872072000
+                                                    },
+                                      "score":  39.108875,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://www.jstor.org/stable/10.2307/j.ctt1vw0q4q.26"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            null
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.2307/j.ctt1vw0q4q.26"
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             4,
+                                                                             2
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-04-02T19:02:20Z",
+                                                      "timestamp":  1648926140636
+                                                  },
+                                      "edition-number":  "1",
+                                      "reference-count":  0,
+                                      "publisher":  "Verlag der österreichischen Akademie der Wissenschaften",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "DOI":  "10.2307/j.ctt1vw0q4q.20",
+                                      "type":  "book-chapter",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2017,
+                                                                             10,
+                                                                             9
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2017-10-09T20:24:41Z",
+                                                      "timestamp":  1507580681000
+                                                  },
+                                      "page":  "291-300",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "Indic Buddhist Manuscripts in the People’s Republic of China The Peking University Project"
+                                                ],
+                                      "prefix":  "10.2307",
+                                      "author":  [
+                                                     {
+                                                         "family":  "Saerji",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      "@{role=author; vocabulary=crossref}"
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "1121",
+                                      "container-title":  [
+                                                              "From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               5,
+                                                                               9
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-05-09T13:37:50Z",
+                                                        "timestamp":  1525873070000
+                                                    },
+                                      "score":  38.480152,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://www.jstor.org/stable/10.2307/j.ctt1vw0q4q.20"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            null
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.2307/j.ctt1vw0q4q.20"
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2026,
+                                                                             4,
+                                                                             10
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2026-04-10T08:35:43Z",
+                                                      "timestamp":  1775810143691,
+                                                      "version":  "3.50.1"
+                                                  },
+                                      "edition-number":  "1",
+                                      "reference-count":  0,
+                                      "publisher":  "Verlag der österreichischen Akademie der Wissenschaften",
+                                      "isbn-type":  [
+                                                        {
+                                                            "value":  "9783700177104",
+                                                            "type":  "electronic"
+                                                        },
+                                                        {
+                                                            "value":  "3700177100",
+                                                            "type":  "electronic"
+                                                        },
+                                                        {
+                                                            "value":  "9783700175810",
+                                                            "type":  "print"
+                                                        }
+                                                    ],
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "DOI":  "10.2307/j.ctt1vw0q4q.6",
+                                      "type":  "book-chapter",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2017,
+                                                                             10,
+                                                                             9
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2017-10-09T20:24:41Z",
+                                                      "timestamp":  1507580681000
+                                                  },
+                                      "page":  "35-50",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  2,
+                                      "title":  [
+                                                    "Gāndhārī Kharoṣṭhī Manuscripts:"
+                                                ],
+                                      "prefix":  "10.2307",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Collett",
+                                                         "family":  "Cox",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      "@{role=author; vocabulary=crossref}"
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "1121",
+                                      "container-title":  [
+                                                              "From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               5,
+                                                                               9
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-05-09T13:37:36Z",
+                                                        "timestamp":  1525873056000
+                                                    },
+                                      "score":  38.24241,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://www.jstor.org/stable/10.2307/j.ctt1vw0q4q.6"
+                                                                   }
+                                                   },
+                                      "subtitle":  [
+                                                       "Exegetical Texts"
+                                                   ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            null
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "ISBN":  [
+                                                   "9783700177104",
+                                                   "3700177100",
+                                                   "9783700175810"
+                                               ],
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.2307/j.ctt1vw0q4q.6"
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             4,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-04-01T10:45:36Z",
+                                                      "timestamp":  1648809936621
+                                                  },
+                                      "edition-number":  "1",
+                                      "reference-count":  0,
+                                      "publisher":  "Verlag der österreichischen Akademie der Wissenschaften",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "DOI":  "10.2307/j.ctt1vw0q4q.1",
+                                      "type":  "book-chapter",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2017,
+                                                                             10,
+                                                                             9
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2017-10-09T20:24:41Z",
+                                                      "timestamp":  1507580681000
+                                                  },
+                                      "page":  "i-iv",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "Front Matter"
+                                                ],
+                                      "prefix":  "10.2307",
+                                      "member":  "1121",
+                                      "container-title":  [
+                                                              "From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               5,
+                                                                               9
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-05-09T13:30:31Z",
+                                                        "timestamp":  1525872631000
+                                                    },
+                                      "score":  37.98388,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://www.jstor.org/stable/10.2307/j.ctt1vw0q4q.1"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            null
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.2307/j.ctt1vw0q4q.1"
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2023,
+                                                                             6,
+                                                                             23
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2023-06-23T00:30:22Z",
+                                                      "timestamp":  1687480222397
+                                                  },
+                                      "edition-number":  "1",
+                                      "reference-count":  0,
+                                      "publisher":  "Verlag der österreichischen Akademie der Wissenschaften",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "DOI":  "10.2307/j.ctt1vw0q4q.16",
+                                      "type":  "book-chapter",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2017,
+                                                                             10,
+                                                                             9
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2017-10-09T20:24:41Z",
+                                                      "timestamp":  1507580681000
+                                                  },
+                                      "page":  "247-256",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  1,
+                                      "title":  [
+                                                    "Further Collections of Sanskrit Manuscripts from Central Asia"
+                                                ],
+                                      "prefix":  "10.2307",
+                                      "author":  [
+                                                     {
+                                                         "given":  "JENS-UWE",
+                                                         "family":  "HARTMANN",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      "@{role=author; vocabulary=crossref}"
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "KLAUS",
+                                                         "family":  "WILLE",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      "@{role=author; vocabulary=crossref}"
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "1121",
+                                      "container-title":  [
+                                                              "From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               5,
+                                                                               9
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-05-09T13:37:49Z",
+                                                        "timestamp":  1525873069000
+                                                    },
+                                      "score":  37.628,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://www.jstor.org/stable/10.2307/j.ctt1vw0q4q.16"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            null
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.2307/j.ctt1vw0q4q.16"
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             3,
+                                                                             31
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-03-31T00:36:51Z",
+                                                      "timestamp":  1648687011324
+                                                  },
+                                      "edition-number":  "1",
+                                      "reference-count":  0,
+                                      "publisher":  "Verlag der österreichischen Akademie der Wissenschaften",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "DOI":  "10.2307/j.ctt1vw0q4q.2",
+                                      "type":  "book-chapter",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2017,
+                                                                             10,
+                                                                             9
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2017-10-09T16:24:41Z",
+                                                      "timestamp":  1507566281000
+                                                  },
+                                      "page":  "v-v",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "Table of Contents"
+                                                ],
+                                      "prefix":  "10.2307",
+                                      "member":  "1121",
+                                      "container-title":  [
+                                                              "From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               5,
+                                                                               9
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-05-09T09:58:06Z",
+                                                        "timestamp":  1525859886000
+                                                    },
+                                      "score":  37.604713,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://www.jstor.org/stable/10.2307/j.ctt1vw0q4q.2"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            null
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.2307/j.ctt1vw0q4q.2"
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             4,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-04-01T23:49:05Z",
+                                                      "timestamp":  1648856945451
+                                                  },
+                                      "edition-number":  "1",
+                                      "reference-count":  0,
+                                      "publisher":  "Verlag der österreichischen Akademie der Wissenschaften",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "DOI":  "10.2307/j.ctt1vw0q4q.18",
+                                      "type":  "book-chapter",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2017,
+                                                                             10,
+                                                                             9
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2017-10-09T20:24:41Z",
+                                                      "timestamp":  1507580681000
+                                                  },
+                                      "page":  "269-278",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "Indic and Khotanese Manuscripts:"
+                                                ],
+                                      "prefix":  "10.2307",
+                                      "author":  [
+                                                     {
+                                                         "given":  "DUAN",
+                                                         "family":  "Qing",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      "@{role=author; vocabulary=crossref}"
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "1121",
+                                      "container-title":  [
+                                                              "From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               5,
+                                                                               9
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-05-09T13:37:49Z",
+                                                        "timestamp":  1525873069000
+                                                    },
+                                      "score":  37.57999,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://www.jstor.org/stable/10.2307/j.ctt1vw0q4q.18"
+                                                                   }
+                                                   },
+                                      "subtitle":  [
+                                                       "Some New Finds and Findings from Xinjiang"
+                                                   ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            null
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.2307/j.ctt1vw0q4q.18"
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             4,
+                                                                             5
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-04-05T19:15:57Z",
+                                                      "timestamp":  1649186157281
+                                                  },
+                                      "edition-number":  "1",
+                                      "reference-count":  0,
+                                      "publisher":  "Verlag der österreichischen Akademie der Wissenschaften",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "DOI":  "10.2307/j.ctt1vw0q4q.4",
+                                      "type":  "book-chapter",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2017,
+                                                                             10,
+                                                                             9
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2017-10-09T20:24:41Z",
+                                                      "timestamp":  1507580681000
+                                                  },
+                                      "page":  "1-18",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "Gāndhārī Manuscripts in the British Library, Schøyen and Other Collections"
+                                                ],
+                                      "prefix":  "10.2307",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Richard",
+                                                         "family":  "Salomon",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      "@{role=author; vocabulary=crossref}"
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "1121",
+                                      "container-title":  [
+                                                              "From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               5,
+                                                                               9
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-05-09T13:22:33Z",
+                                                        "timestamp":  1525872153000
+                                                    },
+                                      "score":  37.541733,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://www.jstor.org/stable/10.2307/j.ctt1vw0q4q.4"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            null
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.2307/j.ctt1vw0q4q.4"
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             4,
+                                                                             3
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-04-03T10:35:31Z",
+                                                      "timestamp":  1648982131145
+                                                  },
+                                      "edition-number":  "1",
+                                      "reference-count":  0,
+                                      "publisher":  "Verlag der österreichischen Akademie der Wissenschaften",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "DOI":  "10.2307/j.ctt1vw0q4q.7",
+                                      "type":  "book-chapter",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2017,
+                                                                             10,
+                                                                             9
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2017-10-09T16:24:41Z",
+                                                      "timestamp":  1507566281000
+                                                  },
+                                      "page":  "51-78",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  1,
+                                      "title":  [
+                                                    "The Bajaur and Split Collections of Kharoṣṭhī Manuscripts within the Context of Buddhist Gāndhārī Literature"
+                                                ],
+                                      "prefix":  "10.2307",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Harry",
+                                                         "family":  "Falk",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      "@{role=author; vocabulary=crossref}"
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Ingo",
+                                                         "family":  "Strauch",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      "@{role=author; vocabulary=crossref}"
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "1121",
+                                      "container-title":  [
+                                                              "From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               5,
+                                                                               9
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-05-09T09:21:07Z",
+                                                        "timestamp":  1525857667000
+                                                    },
+                                      "score":  37.324272,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://www.jstor.org/stable/10.2307/j.ctt1vw0q4q.7"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            null
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.2307/j.ctt1vw0q4q.7"
+                                  }
+                              ],
+                    "items-per-page":  12,
+                    "query":  {
+                                  "start-index":  0,
+                                  "search-terms":  "Gilgit manuscripts Buddhist birch bark"
+                              }
+                }
+}

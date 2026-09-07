@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mantyasih II (829 Śaka, 907-04-11)</title>
+            <respStmt>
+               <resp key="contributor">EpiDoc Encoding</resp>
+               <persName ref="part:wjsa">
+                  <forename>Wayan Jarrah</forename>
+                  <surname>Sastrawan</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+               <persName>
+                  <name>HBS</name>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSIDENKMantyasihII.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:wjsa" when="2024-04-24">Fixing up XML</change>
+         <change who="part:axja" when="2022-08-16">Transforming docx into xml</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+           <body> 
+              <div type="edition" xml:lang="kaw-Latn"> 
+<p><milestone type="pagelike" unit="face" n="A"/><label>Front</label><!-- §5.4. -->
+<lb n="A1"/>	|| 0 ||  svasti śaka<unclear>varṣā</unclear>tī<unclear>ta</unclear>              
+<lb n="A2"/>	829	tra	thi
+<lb n="A3"/>	         śī kr̥ṣṇapakṣa, tu. u. śa. vāra pūrbva
+<lb n="A4"/>	         <unclear>na</unclear>kṣatra,       japā       devatā, indrayo
+<lb n="A5"/>	         la ājña haji mahārāja rake vatu kurang dya<unclear>h</unclear>
+<lb n="A6"/>	         śri dharmmodaya mahāśambhū umingsor i
+<lb n="A7"/>	rakarayān mapatiḥ i hino, halu, sirikan,
+<lb n="A8"/>	vka halaran, tiruan, palarhyang, manghuri, va
+<lb n="A9"/>	dihati, makudur, kumonnakannikanang vanua i
+<lb n="A10"/>	mantyasih vini<unclear>h</unclear> ni sava<unclear>h</unclear>nya satū, muang alasnya
+<lb n="A11"/>	i muṇḍ<unclear>u</unclear>an, i kayu paṇḍa10, muang pomahan
+<lb n="A12"/>	ikūni vanua katung<unclear>gu</unclear>an11 pasavaḥhanya ri vunut
+<lb n="A13"/>	kvaiḥ ni viniḥ nya salə       maḍā      tan pa        guḥ ka<lb break="no" n="A14"/>nayakan, muang alasnya i susuṇḍa<unclear>ra</unclear>
+<lb n="A15"/>	kapva vatak patapan susuk sīma ka<lb break="no" n="A16"/>patihan pagantyagantyananikanang patiḥ mantyasiḥ sā<lb break="no" n="A17"/>nak lāvasśānya tla tadan sovang, kvaiḥ nikanang pa
+</p>
+           </div>
+                <div type="textpart">
+                   <head xml:lang="eng">VERSO</head>
+                   <p>
+<lb n="1"/>	kayu paṇḍa, ya
+<lb n="2"/>	          tang,           kholu12 ramani di
+<lb n="3"/>	          dadal13 pu kara             ni
+<lb n="4"/>	          ni buyut14, piṇḍa prāṇa 5
+<lb n="5"/>	         na patiḥ, i<unclear>na</unclear>nugrahān
+<lb n="6"/>	                        mbandhanyan
+<lb n="7"/>	hān sangka yan makvaiḥ vuatthaji ini
+<lb n="8"/>	i śrī mahārāja kāla ni varangan haji
+<lb n="9"/>	kapūjan bhaṭāra i mangkuśeśvara15
+<lb n="10"/>	śva          talang          na i śī         gedeśa         tuṇe
+<lb n="11"/>	ra i pratī	                                                                 ntaraliki
+<lb n="12"/>	ka kutan ikanang banua ika	ni sinarabha
+<lb n="13"/>	             rumakṣā ikanang huvān raha
+<lb n="14"/>	           maśa      an     guhākan ikanang vanva ka
+<lb n="15"/>	liḥ ikanang        kanang      pnahhanya tan
+<lb n="16"/>	katamanna de sang pangkur, tavan, tirip, sa
+<lb n="17"/>	prakara ning mangilala drabya haji, kring, paḍamm apuy, tapa
+<lb n="18"/>	haji ai<unclear>r</unclear> haji, rataji, pakalangkang, mangrumbai, manimpiki.</p></div>
+                       
+                 
+                       <div type="apparatus">
+             
+                       </div>
+                 
+                 <div type="bibliography">
+                    <listBibl type="primary">
+                    <bibl><ptr target="bib:Brandes1913_01"/><citedRange unit="page">35-36</citedRange><citedRange unit="item">XXVII</citedRange></bibl>
+                    </listBibl>
+
+                    <listBibl type="secondary">
+                    <bibl><ptr target="bib:Rouffaer1909_02"/><citedRange unit="page">LXXX</citedRange></bibl>
+                    <bibl><ptr target="bib:Groeneveldt1887_01"/><citedRange unit="page">388</citedRange></bibl>
+                    <bibl><ptr target="bib:Verbeek1891_01"/><citedRange unit="page">8</citedRange></bibl> 
+                    <bibl><ptr target="bib:Stutterheim1927_01"/><citedRange unit="page">172-216</citedRange></bibl>
+                    </listBibl>
+                 </div>
+
+
+<!-- 
+                 <div>
+                    <head>Provenance</head>
+                    <p>Krom in OJO: “afkomstig van een onbekende plaats in Oost-Java (volgens conjectuur van den Heer Rouffaer in Notulen 1909, p. LXXX van Matesih)”. However, the toponym Matesih and its variants are not uncommon in both East and Central Java: </p>
+                    <p>Kec. Matesih, Kab. Karanganyar, Jateng</p>
+                    <p>Desa Metesih, Kec. Jiwan, Kab. Madiun, Jatim</p>
+                    <p>	Desa Meteseh, Kec. Tambalang, Kota Semarang, Jateng</p>
+                    <p>	Desa Meteseh, Kec. Boja, Kab. Kendal, Jateng</p>
+                    <p>	Dusun Meteseh, Kec. Magelang Tengah, Kota Magelang, Jateng</p>
+                    <p>Stutterheim was in favour of a Kedu origin for all the Mantyasih inscriptions, pondering whether “dat het Matesih bij de Lawoe, waar Rouffaer onze oorkonde op wilde laten slaan, evenzeer een „overgeplaatst" Mantyâsih moet heeten als het huidige in Soerakarta centreerende Mataram een „overplaatsing" kan zijn van het oude voorbeeld?” (VBG 1927, p. 187). Given how many Mantyasih toponyms there seem to be, I rather think that it is just a common name, like Karanganyar.</p>
+                </div>
+                <div>
+                    <head>Location</head>
+                    <p>The original stone is currently held at MNI as D. 40.</p>
+                </div>
+                <div>
+                    <head>Reproductions</head>
+                    <p>OB Rubbings nos. 171 and 172.</p>
+                </div>
+                 -->           </body>
+                     </text>
+</TEI>

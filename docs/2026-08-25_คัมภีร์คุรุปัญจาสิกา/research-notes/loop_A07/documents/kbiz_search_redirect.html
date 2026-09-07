@@ -1,0 +1,699 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+    <title>
+        중소기업중앙회 전자도서관 
+    </title>
+    
+
+
+<meta name="author" content="LibTech Co." />
+<meta name="keywords" content="sponge digital library" />
+    <meta name="description" content="sponge digital library by LibTech" />
+
+
+    <!-- 경우 네이버 사이트 검색이 안됩니다.이부분은 모두 허용으로 뺍니다.HE 07.13-->
+    <meta name="robots" content="index, follow" />
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+
+
+
+
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+
+    <meta name="google-site-verification" content="bRJP_nHSi90uA0BsnDChVgr5EXijdvqv_PrOCryTLaQ" />
+
+<!--20250403-->
+
+
+
+
+    <!-- IE6-10 -->
+    <link rel="shortcut icon" href="/Users/kfsb/Images/favicon.ico" />
+    <!-- Everybody else -->
+    <link rel="icon" href="/Users/kfsb/Images/favicon.ico" />
+
+
+<script type="text/javascript" src="/Sponge/Js/jquery-1.11.1.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="/Sponge/Bootstrap3/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/Sponge/Bootstrap3/css/bootstrap.sponge.css" />
+
+
+
+
+
+
+<link rel="stylesheet" href="/SpongeAngular/fontawesome-free-5.6.3-web/css/all.css" type="text/css" />
+
+<link rel="stylesheet" href="/SpongeAngular/css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="/SpongeAngular/css/simple-line-icons.css" type="text/css" />
+
+
+
+<!--fontawesome v5.0.10 버젼추가 20180419-->
+
+
+        <link rel="stylesheet" type="text/css" href="/Sponge/Css/SpongeDeskTop.css" />
+
+<link rel="stylesheet" type="text/css" href="/Sponge/Css/Sponge.Common.css?20260522" />
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/Sponge/Css/Sponge.Common.banner.css" />
+
+
+<link rel="stylesheet" type="text/css" href="/Sponge/Css/Sponge.Common.webchat.css" />
+
+
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="/Sponge/Css/Sponge.Common_ie7.css" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/Sponge/Css/Sponge.Common_ie8.css" />
+<![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/Sponge/Css/Sponge.Common.responsive.css" />
+
+<link href="/Users/kfsb/Environment/Local.css" type="text/css" rel="Stylesheet" />
+
+
+
+<link rel="stylesheet" type="text/css" href="/Sponge/Css/Theme/SpongeThemeDarkpink.css" />
+
+
+
+<link rel="stylesheet" type="text/css" href="/Users/kfsb/Environment/Local.responsive.css" />
+
+<!--[if IE 8]>
+
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" href="/Users/kfsb/Environment/iehacks7.css" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+<link rel="stylesheet" href="/Users/kfsb/Environment/iehacks6.css" type="text/css" />
+<![endif]-->
+
+<!--[if lte IE 8]>
+ <link rel="stylesheet" href="/Users/kfsb/Environment/iehacks8.css" type="text/css" />
+ 
+<![endif]-->
+
+
+
+<script type="text/javascript" src="/Users/Kfsb/Environment/search/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/Users/Kfsb/Environment/search/jquery.selectbox-0.2.js"></script>
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="/Sponge/Js/html5shiv.js"></script>
+  <script type="text/javascript" src="/Sponge/Js/respond.js"></script>
+<![endif]-->
+
+
+
+
+
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (window.addEventListener) { // W3C DOM 지원 브라우저
+                window.addEventListener("load", start(), false);
+            } else if (window.attachEvent) { // W3C DO M 지원 브라우저 외(ex:MSDOM 지원 브라우저 IE)
+                window.attachEvent("onload", start());
+            } else {
+                window.onload = start();
+            }
+        });
+        function start() {
+            var strTitle = "";
+            var MainTitle = document.getElementById("LinkLeftTitle1");
+            var SubMainTitle = document.getElementById("LinkLeftTitle2");
+            var SubMainTitle2 = document.getElementById("LinkLeftTitle3");
+
+            //메뉴 아이디값이 달라서!! 아이디값 체크 합니다.
+            if (MainTitle) {
+
+                MainTitle = document.getElementById("LinkLeftTitle1");
+            }
+            //서브 메뉴 아이디값이 달라서!! 아이디값 체크 합니다.
+            if (SubMainTitle) {
+                SubMainTitle = document.getElementById("LinkLeftTitle2");
+            }
+            if (SubMainTitle2) {
+                SubMainTitle2 = document.getElementById("LinkLeftTitle3");
+            }
+            if (SubMainTitle2 != null) {
+                strTitle = SubMainTitle2.innerHTML + " | ";
+            }
+            if (SubMainTitle != null) {
+                strTitle += SubMainTitle.innerHTML + " | ";
+            }
+            if (MainTitle != null)
+            {
+                strTitle += MainTitle.innerHTML + " | ";
+            }
+
+            strTitle += "중소기업중앙회 전자도서관 ";
+
+            document.title = strTitle;
+        }
+
+
+
+    </script>
+</head>
+<body id="sponge-body">
+    <div class="sponge-layout-sub-background sponge-layout-TwoColumn" id="sponge-body-top">
+        <!-- S K I P M E N U :: Start -->
+        <ul class="skipMenu" title="바로가기 메뉴">
+            <li><a href="#mainWrap">본문 바로가기</a></li>
+            <li><a href="#infoBox">탑 메뉴 바로가기</a></li>
+            <li><a href="#mainMenu">주 메뉴 바로가기</a></li>
+            <li><a href="#footArea">하단 바로가기</a></li>
+        </ul>
+        <!-- S K I P M E N U :: E n d -->
+                        <header id="sponge-header">
+<nav class="navbar sponge-header-nav">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <h1>
+
+                <a class="navbar-brand sponge-navbar-brand" href="/k">
+                    <img src="/Users/Kfsb/Images/main/sponge-logo.png" alt="KBIZ 중소기업중앙회 전자도서관" />
+                </a>
+            </h1>
+        </div>
+        <ul class="nav navbar-nav navbar-right infoBox" id="infoBox">
+            
+                <li>
+                    <h3 class="hide">로그인</h3>
+                    <a href="/Account/LogOn" class="loginIcon">로그인</a>
+                </li>
+            
+            <li><a href="/Search/SearchBookList">최근검색</a></li>
+            <li><a href="http://www.kbiz.or.kr" target="_blank" title="새창"><span>KBIZ</span> 중소기업중앙회</a></li>
+        </ul>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse sponge-navbar-top">
+        <div class="sponge-navbar" id="mainMenu">
+            <div class="menuWrap">
+                <ul id="GNB">
+                    <li class="menusub frist">
+                        <a href="/Search" class="f17">자료검색</a>
+                        <ul class="gnb1">
+                            <li><a href="/Search">통합검색</a></li>
+                            <li><a href="/Common?html=/Users/Kfsb/Docs/kbizSearch.cshtml">중앙회발간자료</a></li>
+                            <li><a href="/Search/New">신착도서</a></li>
+                        </ul>
+                    </li>
+                    
+
+                    <li class="menusub">
+                        <a href="/Board?n=researchservice" class="f17">각종보고서</a>
+                        <ul class="gnb1">
+                        </ul>
+                    </li>
+
+
+                    <li class="menusub">
+                        <a href="/Common?html=/Users/Kfsb/Docs/relation01.cshtml" class="f17">관련사이트</a>
+                        <ul class="gnb1">
+                            <li><a href="/Common?html=/Users/Kfsb/Docs/relation01.cshtml">정부기관</a></li>
+                            <li><a href="/Common?html=/Users/Kfsb/Docs/relation02.cshtml">학술Site</a></li>
+                            <li><a href="/Common?html=/Users/Kfsb/Docs/relation03.cshtml">연구원</a></li>
+                            <li><a href="/Common?html=/Users/Kfsb/Docs/relation04.cshtml">경제단체</a></li>
+                            
+                        </ul>
+                    </li>
+                        <li class="menusub">
+                            <a href="#" class="f17">이용안내</a>
+                            <ul class="gnb1">
+                                <li><a href="/Common?html=/Users/Kfsb/Docs/libraryguide.cshtml">이용안내</a></li>                                
+                            </ul>
+                        </li>
+                    </ul>
+            </div>
+            <div class="menuWrapMobile">
+                <ul class="nav navbar-nav sponge-navbar-nav">
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">자료검색 <i class="fas fa-angle-down"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/Search">통합검색</a></li>
+                            <li><a href="/Common?html=/Users/Kfsb/Docs/kbizSearch.cshtml">중앙회발간자료</a></li>
+                            <li><a href="/Search/New">신착도서</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">관련사이트 <i class="fas fa-angle-down"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/Common?html=/Users/Kfsb/Docs/relation01.cshtml">정부기관</a></li>
+                            <li><a href="/Common?html=/Users/Kfsb/Docs/relation02.cshtml">학술Site</a></li>
+                            <li><a href="/Common?html=/Users/Kfsb/Docs/relation03.cshtml">연구원</a></li>
+                            <li><a href="/Common?html=/Users/Kfsb/Docs/relation04.cshtml">경제단체</a></li>
+                        </ul>
+                    </li>
+                    <li class="menusub">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">각종보고서 <i class="fas fa-angle-down"></i></a>
+                        
+                        <ul class="dropdown-menu" role="menu">
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><!--/.nav-collapse -->
+    <!--/.container-fluid -->
+</nav>
+    <div class="sponge-empty-space-logout"></div>
+
+                        </header>
+
+        <div class="sponge-layout-wrap" id="mainWrap">
+            <div class="sponge-layout-content-sub">
+                <div class="sponge-layout-content-sub-2021">
+                    <div class="sponge-layout-content-container">
+                                                                            <div class="sponge-layout-content-container-leftmenu">
+
+
+
+
+
+<h1 id='leftMenuMainTitle'>자료검색</h1><ul><li ><a href='/Search'>통합검색</a></li><li><a href='/Search/Class'>분류표검색</a></li><li><a href='/Search/New'>신착도서</a></li><li><a href='/Search/BestBook50'>인기도서</a></li><li><a href='/Recommendation'>추천도서</a></li></ul>
+
+
+                                <div class="clear"></div>
+                            </div>
+                        <h2 class="hide">본문</h2>
+                        <div class="sponge-layout-content-container-rightcontent">
+                            
+
+
+
+<script type="text/javascript">
+    function GoToPage() {
+        history.go(-1);
+    }
+</script>
+
+
+
+<div class="panel panel-default panel-sponge-desktop">
+    <div class="panel-heading">
+        <h3 class="panel-title panel-title-desktop-sponge">확인</h3>
+    </div>
+    <div class="panel-body" style="height:300px; vertical-align:middle; text-align:center;">
+        <p style="font-size: 24px;  padding: 50px 0px 30px 0px;"><strong>적어도 한단어 이상의 질의어가 입력이 되어야 합니다</strong></p>
+
+            <div>
+                    <a class="btn btn-default btn-sponge-default" title="이전페이지로 이동" onclick="GoToPage();">이전페이지로 이동</a>
+
+                
+            </div>
+
+
+
+    </div>
+</div>
+
+
+                            
+                        </div>
+                        <div id="sponge-container-full-bottom-center">
+                            
+                        </div>
+                        <div id="sponge-container-mini-center-column" class='sponge-container-mini-center-body'>
+                            
+                        </div>
+                    </div>
+                        <div id="sponge-layout-content-container-quick">
+<div id="quick">
+    <h3 class="hide">
+        QuickMenu
+    </h3>
+    <div id="quickMenu">
+        <a href="#sponge-body-top" title="Up" class="sponge-top-btn"><i class="fas fa-angle-up"><span class="hide">위로가기</span></i></a>
+        <a href="#footArea" title="Down" class="sponge-top-btn"><i class="fas fa-angle-down"><span class="hide">아래로가기</span></i></a>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                    
+            </div>
+        </div>
+        <footer>
+    <div class="sponge-layout-footer-banner mobile-none">
+        <script type="text/javascript">
+    //<![CDATA[
+    var sliderwidth = "1280px"  //스크롤 가로 사이즈
+    var sliderheight = "36px"  //스크롤 세로 사이즈
+    var slidespeed = "0"
+    slidebgcolor = "#fff"  //스크롤 배경 색상
+
+            var leftarrowimage = "/Users/kfsb/Images/main/glay-new-left.png"
+            var rightarrowimage = "/Users/kfsb/Images/main/glay-new-right.png"
+
+    var leftrightslide = new Array()
+    var finalslide = ''
+
+            leftrightslide[0] = '<a href="https://www.kbiz.or.kr/ko/index/index.do" target="_blank" title="새창"><img src="/Users/kfsb/Images/main/banner01.png" alt="중소기업중앙회"></a>'
+            leftrightslide[1] = '<a href="https://www.mss.go.kr/site/smba/main.do" target="_blank" title="새창"><img src="/Users/kfsb/Images/main/banner02.png" alt="중소벤처기업부"></a>'
+    leftrightslide[2] = '<a href="https://kiss.kstudy.com/" target="_blank" title="새창"><img src="/Users/kfsb/Images/main/banner03.png" alt="KISS"></a>'
+    leftrightslide[3] = '<a href="http://www.nanet.go.kr/" target="_blank" title="새창"><img src="/Users/kfsb/Images/main/banner04.png" alt="국회도서관"></a>'
+    leftrightslide[4] = '<a href="http://www.nl.go.kr/nl/" target="_blank" title="새창"><img src="/Users/kfsb/Images/main/banner05.png" alt="국립중앙도서관"></a>'
+    //leftrightslide[5] = '<a href="http://www.dlibrary.go.kr/JavaClient/jsp/ndli/index.jsp?LOGSTATUS=notok&NLSSOTOKEN=" target="_blank" title="새창"><img src="/Users/kfsb/Images/main/banner06.png" alt="국가전자도서관"></a>'
+    //leftrightslide[6] = '<a href="http://lib.motie.go.kr/index.ax" target="_blank" title="새창"><img src="/Users/kfsb/Images/main/banner07.png" alt="산업통상자원부 디지털도서관"></a>'
+    leftrightslide[7] = '<a href="http://www.prism.go.kr/homepage/main/retrieveMain.do" target="_blank" title="새창"><img src="/Users/kfsb/Images/main/banner08.png" alt="PRISM(정부3.0)"></a>'
+    leftrightslide[8] = '<a href="https://library.scourt.go.kr/main.jsp" target="_blank" title="새창"><img src="/Users/kfsb/Images/main/banner09.png" alt="법원도서관"></a>'
+
+    var imagegap = ""
+    var slideshowgap = 0
+    var copyspeed = slidespeed
+    leftrightslide = '<nobr>' + leftrightslide.join(imagegap) + '</nobr>'
+    var iedom = document.all || document.getElementById
+    if (iedom)
+        document.write('<span id="temp" style="visibility:hidden;position:absolute;top:-100px;left:-9000px">' + leftrightslide + '</span>')
+
+    var actualwidth = ''
+    var cross_slide, ns_slide
+    var righttime, lefttime
+
+    function fillup() {
+        if (iedom) {
+            cross_slide = document.getElementById ? document.getElementById("test2") : document.all.test2
+            cross_slide2 = document.getElementById ? document.getElementById("test3") : document.all.test3
+            cross_slide.innerHTML = cross_slide2.innerHTML = leftrightslide
+            actualwidth = document.all ? cross_slide.offsetWidth : document.getElementById("temp").offsetWidth
+            cross_slide2.style.left = actualwidth + slideshowgap + "px"
+        }
+        else if (document.layers) {
+            ns_slide = document.ns_slidemenu.document.ns_slidemenuorange
+            ns_slide2 = document.ns_slidemenu.document.ns_slidemenu3
+            ns_slide.document.write(leftrightslide)
+            ns_slide.document.close()
+            actualwidth = ns_slide.document.width
+            ns_slide2.left = actualwidth + slideshowgap
+            ns_slide2.document.write(leftrightslide)
+            ns_slide2.document.close()
+        }
+        lefttime = setInterval("slideleft()", 30)
+    }
+    window.onload = fillup
+
+    function slideleft() {
+        if (iedom) {
+            if (parseInt(cross_slide.style.left) > (actualwidth * (-1) + 8))
+                cross_slide.style.left = parseInt(cross_slide.style.left) - copyspeed + "px"
+            else
+                cross_slide.style.left = parseInt(cross_slide2.style.left) + actualwidth + slideshowgap + "px"
+            if (parseInt(cross_slide2.style.left) > (actualwidth * (-1) + 8))
+                cross_slide2.style.left = parseInt(cross_slide2.style.left) - copyspeed + "px"
+            else
+                cross_slide2.style.left = parseInt(cross_slide.style.left) + actualwidth + slideshowgap + "px"
+        }
+        else if (document.layers) {
+            if (ns_slide.left > (actualwidth * (-1) + 8))
+                ns_slide.left -= copyspeed
+            else
+                ns_slide.left = ns_slide2.left + actualwidth + slideshowgap
+            if (ns_slide2.left > (actualwidth * (-1) + 8))
+                ns_slide2.left -= copyspeed
+            else
+                ns_slide2.left = ns_slide.left + actualwidth + slideshowgap
+        }
+    }
+
+    function slideright() {
+        if (iedom) {
+            if (parseInt(cross_slide.style.left) < (actualwidth + 8))
+                cross_slide.style.left = parseInt(cross_slide.style.left) + copyspeed + "px"
+            else
+                cross_slide.style.left = parseInt(cross_slide2.style.left) + actualwidth * (-1) + slideshowgap + "px"
+            if (parseInt(cross_slide2.style.left) < (actualwidth + 8))
+                cross_slide2.style.left = parseInt(cross_slide2.style.left) + copyspeed + "px"
+            else
+                cross_slide2.style.left = parseInt(cross_slide.style.left) + actualwidth * (-1) + slideshowgap + "px"
+        }
+        else if (document.layers) {
+            if (ns_slide.left > (actualwidth * (-1) + 8))
+                ns_slide.left -= copyspeed
+            else
+                ns_slide.left = ns_slide2.left + actualwidth + slideshowgap
+            if (ns_slide2.left > (actualwidth * (-1) + 8))
+                ns_slide2.left -= copyspeed
+            else
+                ns_slide2.left = ns_slide.left + actualwidth + slideshowgap
+        }
+    }
+
+    function right() {
+        if (lefttime) {
+            clearInterval(lefttime)
+            clearInterval(righttime)
+            righttime = setInterval("slideright()", 30)
+        }
+    }
+
+    function left() {
+        if (righttime) {
+            clearInterval(lefttime)
+            clearInterval(righttime)
+            lefttime = setInterval("slideleft()", 30)
+        }
+    }
+    document.write('<ul>');
+    document.write('<li style="margin-top:5px;"><img src=' + leftarrowimage + ' onMouseover="left(); copyspeed=2" onMouseout="copyspeed=0" style="cursor:hand" alt="왼쪽으로이동"></li>')
+
+
+    if (iedom || document.layers) {
+        with (document) {
+            document.write('<li>')
+            if (iedom) {
+                write('<div style="position:relative;width:' + sliderwidth + ';height:' + sliderheight + ';overflow:hidden">')
+                write('<div style="position:absolute;width:' + sliderwidth + ';height:' + sliderheight + ';background-color:' + slidebgcolor + '" onMouseover="copyspeed=0" onMouseout="copyspeed=0">')
+                write('<div id="test2" style="position:absolute;left:0px;top:0px"></div>')
+                write('<div id="test3" style="position:absolute;left:-1000px;top:0px"></div>')
+                write('</div></div>')
+            }
+            else if (document.layers) {
+                write('<ilayer width=' + sliderwidth + ' height=' + sliderheight + ' name="ns_slidemenu" bgColor=' + slidebgcolor + '>')
+                write('<layer name="ns_slidemenuorange" left=0 top=0 onMouseover="copyspeed=0" onMouseout="copyspeed=0"></layer>')
+                write('<layer name="ns_slidemenu3" left=0 top=0 onMouseover="copyspeed=0" onMouseout="copyspeed=0"></layer>')
+                write('</ilayer>')
+            }
+            document.write('</li>')
+        }
+    }
+    document.write('<li style="margin-top:5px;"><img src=' + rightarrowimage + ' onMouseover="right();copyspeed=2" onMouseout="copyspeed=0" style="cursor:hand" alt="오른쪽으로이동" /></li></ul>')
+    //]]>
+        </script>
+    </div>
+    <div class="sponge-layout-footer" id="footArea">
+
+        
+        <address>
+            
+            <p class="mobile-none hide">
+                <a href="/Tagword">저작권보호정책</a> &nbsp; | &nbsp;
+                <a href="/MediaSeat">개인정보처리방침</a> &nbsp; | &nbsp;
+                <a href="/Poll">이메일무단수집거부</a>
+            </p>
+            <p>
+                07242 서울시 영등포구 은행로 30 (여의도동) <br class="DeskTop_none" /><strong>중소기업중앙회 전자도서관</strong>  TEL 2124-3153
+            </p>
+            
+            <p class="mobile-none">
+                Copyright (c) 2026 <span style="color:#d90212;">KBIZ</span> 중소기업중앙회 전자도서관
+            </p>
+            
+            
+
+        </address>
+
+    </div>
+       </footer>
+    </div>
+</body>
+
+</html>
+
+
+    <script src="/Sponge/Js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="/Sponge/Bootstrap3/Js/bootstrap.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="/Sponge/Js/Sponge.Common.js"></script>
+
+<script type="text/javascript" src="/Sponge/js/SelectBoxBasic.js"></script>
+
+<script type="text/javascript" src="/Users/kfsb/Environment/Local.js"></script>
+<script type="text/javascript" src="/Users/kfsb/Environment/gnb.js"></script>
+<script type="text/javascript" src="/Scripts/EncodeBase64.js"></script>
+
+
+
+
+
+<div id="libtech-modal-close-reload" class="modal fade" tabindex="-1" role="dialog"
+     aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    ×
+                </button>
+                <h3>
+                    Message from System
+                </h3>
+            </div>
+            <div class="modal-body">
+                <p id="libtech-modal-close-reload-message" class="libtech-modal-message">
+                    One fine body…
+                </p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-sponge-default" data-dismiss="modal">확인</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="libtech-modal-close" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    ×
+                </button>
+                <h3>
+                    Message from System
+                </h3>
+            </div>
+            <div class="modal-body">
+                <p id="libtech-modal-close-message" class="libtech-modal-message" style="color:#5F5C5C;">
+                    One fine body…
+                </p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-sponge-default" data-dismiss="modal">확인</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="libtech-modal-guide-close" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    ×
+                </button>
+                
+                        도움말
+                
+            </div>
+            <div class="modal-body">
+                <p id="libtech-modal-guide-close-message" class="libtech-modal-message">
+                    One fine body…
+                </p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-sponge-default" data-dismiss="modal">확인</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="sponge-modal-delete-confirm" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                확인
+            </div>
+            <div class="modal-body">
+                삭제 할까요?
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="btn btn-danger btn-sponge-default" id="sponge-button-delete">삭제</button>
+                <button type="button" data-dismiss="modal" class="btn btn-default btn-sponge-default">취소</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="sponge-modal-sure-confirm" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+             
+                    확인
+             
+            </div>
+            <div class="modal-body">                
+                진행 할까요?
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="btn btn-sponge-default" id="sponge-button-sure">확인</button>
+                <button type="button" data-dismiss="modal" class="btn btn-default btn-sponge-default">취소</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="deleteAngularConfirmModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    ×
+                </button>
+                
+                    확인
+                
+            </div>
+            <div class="modal-body">
+                삭제 할까요??
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger btn-sponge-default" data-ng-click="doDeleteAction()">삭제</button>
+                <button type="button" class="btn btn-warning btn-sm" data-dismiss="modal">취소</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+</script>
+
+

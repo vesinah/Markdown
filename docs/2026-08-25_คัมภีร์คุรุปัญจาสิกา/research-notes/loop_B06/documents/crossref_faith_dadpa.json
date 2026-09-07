@@ -1,0 +1,524 @@
+﻿{
+    "status":  "ok",
+    "message-type":  "work-list",
+    "message-version":  "1.0.0",
+    "message":  {
+                    "facets":  {
+
+                               },
+                    "total-results":  119931,
+                    "items":  [
+                                  {
+                                      "title":  [
+                                                    "The Wrathful Guru: Exploring the Vajrayana Understanding of Anger"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Lama Rod",
+                                                         "family":  "Owens",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Buddhist-Christian Studies"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2019
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.1353/bcs.2019.0002"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Intervensi bagi Guru untuk Menemukenali Gaya Belajar Siswa"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Farida",
+                                                         "family":  "Aini",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "vocabulary":  "crossref",
+                                                                          "role":  "author"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "family":  "Vinaya",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "vocabulary":  "crossref",
+                                                                          "role":  "author"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Devotion : Jurnal Pengabdian Psikologi"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2026,
+                                                                            5,
+                                                                            31
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.64228/y7je9902"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Devotion and Discipline: Christian Yoga and the Yoga of T. Krishnamacharya"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Stephanie",
+                                                         "family":  "Corigliano",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+                                                                             {
+                                                                                 "name":  "Humboldt State University"
+                                                                             }
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "vocabulary":  "crossref",
+                                                                          "role":  "author"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Journal of Hindu-Christian Studies"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2017,
+                                                                            1,
+                                                                            1
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.7825/2164-6279.1656"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Book Review: Post-Lineage Yoga: From Guru to #MeToo"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Laurah E.",
+                                                         "family":  "Klepinger",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Race and Yoga"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2021,
+                                                                            12,
+                                                                            31
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.5070/r36154587"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Pelatihan Menyusun Program Bimbingan Layanan dan Konseling Berdasarkan Asesmen Kebutuhan Siswa pada Guru BK"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Farida",
+                                                         "family":  "Aini",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Devotion : Jurnal Pengabdian Psikologi"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2022,
+                                                                            11,
+                                                                            30
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.35814/devotion.v1i02.4198"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Pengaruh Prenatal Yoga Terhadap Kecemasan Menjelang Persalinan, Lama Persalinan dan Robekan Perineum"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Roichatul",
+                                                         "family":  "Djannah",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "family":  "Dewi Susanti",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Jurnal Obstretika Scienta"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2024,
+                                                                            6,
+                                                                            15
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.55171/obs.v12i1.1330"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Program Pembekalan Materi Psikologi bagi Guru di Yayasan Transformasi Bagimu Negeri"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Sandra",
+                                                         "family":  "Sutanto",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Edeline",
+                                                         "family":  "Natacia",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Jovanka",
+                                                         "family":  "Untawidjaja",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Devotion : Jurnal Pengabdian Psikologi"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2022,
+                                                                            11,
+                                                                            30
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.35814/devotion.v1i02.3551"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Implementasi Literasi Digital Guru SD Melalui Pendampingan  Pembuatan Digital Material (Sway)"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Kuncahyono",
+                                                         "family":  "Kuncahyono",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Maharani Putri",
+                                                         "family":  "Kumalasani",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "International Journal of Public Devotion"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2020,
+                                                                            11,
+                                                                            30
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.26737/ijpd.v3i1.2044"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Digital Marketing Media Development at Nutrihub Lampung"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Yoga",
+                                                         "family":  "Permana",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Reza",
+                                                         "family":  "Realita",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Rizki Okti",
+                                                         "family":  "Ariani",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Niken",
+                                                         "family":  "Purbasari",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Andreas",
+                                                         "family":  "Pujian S",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Sanjaya",
+                                                         "family":  "Bangun",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Yuniarti",
+                                                         "family":  "Fihartini",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Devotion: Journal Corner of Community Service"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2022,
+                                                                            12,
+                                                                            30
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.54012/devotion.v1i3.114"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Pendampingan Penulisan Penelitian Tindakan Kelas Pada Guru Mi Miftahul Ulum Di Tumpeng Bondowoso"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Delora Jantung",
+                                                         "family":  "Amelia",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Frendy Aru",
+                                                         "family":  "Fantiro",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "International Journal of Public Devotion"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2020,
+                                                                            11,
+                                                                            18
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.26737/ijpd.v3i1.2027"
+                                  }
+                              ],
+                    "items-per-page":  10,
+                    "query":  {
+                                  "start-index":  0,
+                                  "search-terms":  "guru yoga lama devotion vajrayana"
+                              }
+                }
+}

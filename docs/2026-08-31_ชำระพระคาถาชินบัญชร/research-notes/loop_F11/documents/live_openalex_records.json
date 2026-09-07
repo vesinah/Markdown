@@ -1,0 +1,3190 @@
+[
+  {
+    "id": "https://openalex.org/W2163737720",
+    "doi": "https://doi.org/10.20495/seas.1.1_3",
+    "title": "Caring for the Dead Ritually in Cambodia",
+    "display_name": "Caring for the Dead Ritually in Cambodia",
+    "relevance_score": 32.397694,
+    "publication_year": 2012,
+    "publication_date": "2012-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2163737720",
+      "doi": "https://doi.org/10.20495/seas.1.1_3",
+      "mag": "2163737720"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.20495/seas.1.1_3",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.20495/seas.1.1_3",
+      "pdf_url": "https://www.jstage.jst.go.jp/article/seas/1/1/1_KJ00007821139/_pdf",
+      "source": {
+        "id": "https://openalex.org/S2737903008",
+        "display_name": "Southeast Asian Studies",
+        "issn_l": "2186-7275",
+        "issn": [
+          "2186-7275",
+          "2423-8686"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310313424",
+        "host_organization_name": "Kyoto University",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310313424"
+        ],
+        "host_organization_lineage_names": [
+          "Kyoto University"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Southeast Asian Studies",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://www.jstage.jst.go.jp/article/seas/1/1/1_KJ00007821139/_pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5087744036",
+          "display_name": "John Holt",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I135474949",
+            "display_name": "Bowdoin College",
+            "ror": "https://ror.org/03gh96r95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I135474949"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "John Clifford Holt",
+        "raw_affiliation_strings": [
+          "Department of Religion, 7300 College Station, Bowdoin College"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Religion, 7300 College Station, Bowdoin College",
+            "institution_ids": [
+              "https://openalex.org/I135474949"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5087744036"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I135474949"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 6.4252,
+    "has_fulltext": true,
+    "cited_by_count": 39,
+    "citation_normalized_percentile": {
+      "value": 0.96180708,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "1",
+      "issue": "1",
+      "first_page": "3",
+      "last_page": "76"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13525",
+      "display_name": "Cambodian History and Society",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13525",
+        "display_name": "Cambodian History and Society",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13002",
+        "display_name": "Southeast Asian Sociopolitical Studies",
+        "score": 0.9919999837875366,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12956",
+        "display_name": "Asian Geopolitics and Ethnography",
+        "score": 0.9901999831199646,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.72202467918396
+      },
+      {
+        "id": "https://openalex.org/keywords/karma",
+        "display_name": "Karma",
+        "score": 0.6542853713035583
+      },
+      {
+        "id": "https://openalex.org/keywords/politics",
+        "display_name": "Politics",
+        "score": 0.5793917775154114
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.5233525633811951
+      },
+      {
+        "id": "https://openalex.org/keywords/popularity",
+        "display_name": "Popularity",
+        "score": 0.4318177103996277
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.41332799196243286
+      },
+      {
+        "id": "https://openalex.org/keywords/ethnology",
+        "display_name": "Ethnology",
+        "score": 0.353187620639801
+      },
+      {
+        "id": "https://openalex.org/keywords/genealogy",
+        "display_name": "Genealogy",
+        "score": 0.35290446877479553
+      },
+      {
+        "id": "https://openalex.org/keywords/gender-studies",
+        "display_name": "Gender studies",
+        "score": 0.35094866156578064
+      },
+      {
+        "id": "https://openalex.org/keywords/anthropology",
+        "display_name": "Anthropology",
+        "score": 0.3425513803958893
+      },
+      {
+        "id": "https://openalex.org/keywords/political-science",
+        "display_name": "Political science",
+        "score": 0.22165840864181519
+      },
+      {
+        "id": "https://openalex.org/keywords/law",
+        "display_name": "Law",
+        "score": 0.20267054438591003
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.72202467918396
+      },
+      {
+        "id": "https://openalex.org/C547328371",
+        "wikidata": "https://www.wikidata.org/wiki/Q132196",
+        "display_name": "Karma",
+        "level": 3,
+        "score": 0.6542853713035583
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.5793917775154114
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.5233525633811951
+      },
+      {
+        "id": "https://openalex.org/C2780586970",
+        "wikidata": "https://www.wikidata.org/wiki/Q1357284",
+        "display_name": "Popularity",
+        "level": 2,
+        "score": 0.4318177103996277
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.41332799196243286
+      },
+      {
+        "id": "https://openalex.org/C2549261",
+        "wikidata": "https://www.wikidata.org/wiki/Q43455",
+        "display_name": "Ethnology",
+        "level": 1,
+        "score": 0.353187620639801
+      },
+      {
+        "id": "https://openalex.org/C53553401",
+        "wikidata": "https://www.wikidata.org/wiki/Q47307",
+        "display_name": "Genealogy",
+        "level": 1,
+        "score": 0.35290446877479553
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.35094866156578064
+      },
+      {
+        "id": "https://openalex.org/C19165224",
+        "wikidata": "https://www.wikidata.org/wiki/Q23404",
+        "display_name": "Anthropology",
+        "level": 1,
+        "score": 0.3425513803958893
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.22165840864181519
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.20267054438591003
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.20495/seas.1.1_3",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.20495/seas.1.1_3",
+        "pdf_url": "https://www.jstage.jst.go.jp/article/seas/1/1/1_KJ00007821139/_pdf",
+        "source": {
+          "id": "https://openalex.org/S2737903008",
+          "display_name": "Southeast Asian Studies",
+          "issn_l": "2186-7275",
+          "issn": [
+            "2186-7275",
+            "2423-8686"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310313424",
+          "host_organization_name": "Kyoto University",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310313424"
+          ],
+          "host_organization_lineage_names": [
+            "Kyoto University"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Southeast Asian Studies",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:irdb.nii.ac.jp:01221:0000117730",
+        "is_oa": true,
+        "landing_page_url": "http://hdl.handle.net/2433/155199",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407056385",
+          "display_name": "Institutional Repositories DataBase (IRDB)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I184597095",
+          "host_organization_name": "National Institute of Informatics",
+          "host_organization_lineage": [
+            "https://openalex.org/I184597095"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Southeast Asian Studies",
+        "raw_type": "departmental bulletin paper"
+      },
+      {
+        "id": "mag:2163737720",
+        "is_oa": false,
+        "landing_page_url": "http://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/155199/1/sas_1_1_3.pdf",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2737903008",
+          "display_name": "Southeast Asian Studies",
+          "issn_l": "2186-7275",
+          "issn": [
+            "2186-7275",
+            "2423-8686"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310313424",
+          "host_organization_name": "Kyoto University",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310313424"
+          ],
+          "host_organization_lineage_names": [
+            "Kyoto University"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": "Southeast Asian studies",
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.20495/seas.1.1_3",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.20495/seas.1.1_3",
+      "pdf_url": "https://www.jstage.jst.go.jp/article/seas/1/1/1_KJ00007821139/_pdf",
+      "source": {
+        "id": "https://openalex.org/S2737903008",
+        "display_name": "Southeast Asian Studies",
+        "issn_l": "2186-7275",
+        "issn": [
+          "2186-7275",
+          "2423-8686"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310313424",
+        "host_organization_name": "Kyoto University",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310313424"
+        ],
+        "host_organization_lineage_names": [
+          "Kyoto University"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Southeast Asian Studies",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2163737720.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2163737720.grobid-xml"
+    },
+    "referenced_works_count": 29,
+    "referenced_works": [
+      "https://openalex.org/W140871219",
+      "https://openalex.org/W384436472",
+      "https://openalex.org/W572236190",
+      "https://openalex.org/W574410011",
+      "https://openalex.org/W580999686",
+      "https://openalex.org/W1509954138",
+      "https://openalex.org/W1512977560",
+      "https://openalex.org/W1520767586",
+      "https://openalex.org/W1966680305",
+      "https://openalex.org/W1969165791",
+      "https://openalex.org/W1978312831",
+      "https://openalex.org/W2004792922",
+      "https://openalex.org/W2020906856",
+      "https://openalex.org/W2035521300",
+      "https://openalex.org/W2048688734",
+      "https://openalex.org/W2054078326",
+      "https://openalex.org/W2090057626",
+      "https://openalex.org/W2162846153",
+      "https://openalex.org/W2188740029",
+      "https://openalex.org/W2315973869",
+      "https://openalex.org/W2317886448",
+      "https://openalex.org/W2322401637",
+      "https://openalex.org/W2503016769",
+      "https://openalex.org/W2518643436",
+      "https://openalex.org/W2798727599",
+      "https://openalex.org/W3144620025",
+      "https://openalex.org/W3146765782",
+      "https://openalex.org/W3151591131",
+      "https://openalex.org/W3213619926"
+    ],
+    "related_works": [
+      "https://openalex.org/W56115920",
+      "https://openalex.org/W1509954138",
+      "https://openalex.org/W73693738",
+      "https://openalex.org/W3096184286",
+      "https://openalex.org/W2954722783",
+      "https://openalex.org/W2467890197",
+      "https://openalex.org/W1576030164",
+      "https://openalex.org/W2736985116",
+      "https://openalex.org/W1996692085",
+      "https://openalex.org/W2799936844",
+      "https://openalex.org/W823373964",
+      "https://openalex.org/W412558856",
+      "https://openalex.org/W1586287297",
+      "https://openalex.org/W2068353231",
+      "https://openalex.org/W2010669349",
+      "https://openalex.org/W1969859477",
+      "https://openalex.org/W2263604679",
+      "https://openalex.org/W2901582064",
+      "https://openalex.org/W2916757675",
+      "https://openalex.org/W2092089973"
+    ],
+    "abstract_inverted_index": {
+      "Buddhist": [
+        0,
+        31,
+        96
+      ],
+      "conceptions": [
+        1
+      ],
+      "of": [
+        2,
+        16,
+        19,
+        46,
+        66,
+        83,
+        120,
+        128,
+        141,
+        182
+      ],
+      "the": [
+        3,
+        11,
+        62,
+        67,
+        81,
+        84,
+        101,
+        161,
+        170,
+        174,
+        177
+      ],
+      "after-life,": [
+        4
+      ],
+      "and": [
+        5,
+        34,
+        39,
+        64,
+        70,
+        111,
+        154,
+        195
+      ],
+      "prescribed": [
+        6
+      ],
+      "rites": [
+        7,
+        33
+      ],
+      "in": [
+        8,
+        22,
+        41,
+        49,
+        157,
+        167,
+        185,
+        190
+      ],
+      "relation": [
+        9
+      ],
+      "to": [
+        10,
+        57,
+        61,
+        100,
+        131,
+        136,
+        193
+      ],
+      "dead,": [
+        12,
+        102
+      ],
+      "were": [
+        13
+      ],
+      "modified": [
+        14
+      ],
+      "adaptations": [
+        15
+      ],
+      "brahmanical": [
+        17
+      ],
+      "patterns": [
+        18
+      ],
+      "religious": [
+        20,
+        186
+      ],
+      "culture": [
+        21,
+        187
+      ],
+      "ancient": [
+        23
+      ],
+      "India.": [
+        24
+      ],
+      "In": [
+        25
+      ],
+      "this": [
+        26
+      ],
+      "article,": [
+        27
+      ],
+      "I": [
+        28,
+        53
+      ],
+      "demonstrate": [
+        29
+      ],
+      "how": [
+        30
+      ],
+      "conceptions,": [
+        32
+      ],
+      "dispositions": [
+        35
+      ],
+      "have": [
+        36
+      ],
+      "been": [
+        37
+      ],
+      "sustained": [
+        38
+      ],
+      "transformed": [
+        40
+      ],
+      "a": [
+        42,
+        76,
+        125,
+        180
+      ],
+      "contemporary": [
+        43
+      ],
+      "annual": [
+        44
+      ],
+      "ritual": [
+        45,
+        78
+      ],
+      "rising": [
+        47
+      ],
+      "importance": [
+        48
+      ],
+      "Cambodia,": [
+        50
+      ],
+      "pchum": [
+        51,
+        121,
+        147
+      ],
+      "ben.": [
+        52
+      ],
+      "analyze": [
+        54
+      ],
+      "phcum": [
+        55
+      ],
+      "ben": [
+        56,
+        74,
+        122
+      ],
+      "determine": [
+        58
+      ],
+      "its": [
+        59
+      ],
+      "fundamentalimportance": [
+        60
+      ],
+      "sustenance": [
+        63
+      ],
+      "coherence": [
+        65
+      ],
+      "Khmer": [
+        68
+      ],
+      "family": [
+        69
+      ],
+      "national": [
+        71
+      ],
+      "identity.": [
+        72
+      ],
+      "Pchum": [
+        73
+      ],
+      "is": [
+        75,
+        151
+      ],
+      "15-day": [
+        77
+      ],
+      "celebrated": [
+        79
+      ],
+      "toward": [
+        80
+      ],
+      "end": [
+        82
+      ],
+      "three-month": [
+        85
+      ],
+      "monastic": [
+        86
+      ],
+      "rain": [
+        87
+      ],
+      "retreat": [
+        88
+      ],
+      "season": [
+        89
+      ],
+      "each": [
+        90
+      ],
+      "year.": [
+        91
+      ],
+      "During": [
+        92
+      ],
+      "these": [
+        93
+      ],
+      "15": [
+        94
+      ],
+      "days,": [
+        95
+      ],
+      "laity": [
+        97
+      ],
+      "attend": [
+        98
+      ],
+      "ritually": [
+        99
+      ],
+      "providing": [
+        103
+      ],
+      "special": [
+        104
+      ],
+      "care": [
+        105
+      ],
+      "for": [
+        106,
+        146
+      ],
+      "their": [
+        107,
+        139
+      ],
+      "immediately": [
+        108
+      ],
+      "departed": [
+        109
+      ],
+      "kin": [
+        110
+      ],
+      "other": [
+        112
+      ],
+      "more": [
+        113
+      ],
+      "recently": [
+        114
+      ],
+      "deceased": [
+        115
+      ],
+      "ancestors.": [
+        116
+      ],
+      "The": [
+        117,
+        143
+      ],
+      "basic": [
+        118
+      ],
+      "aim": [
+        119
+      ],
+      "involves": [
+        123
+      ],
+      "making": [
+        124
+      ],
+      "successful": [
+        126
+      ],
+      "transaction": [
+        127
+      ],
+      "karma": [
+        129
+      ],
+      "transfer": [
+        130
+      ],
+      "one's": [
+        132
+      ],
+      "dead": [
+        133
+      ],
+      "kin,": [
+        134
+      ],
+      "inorder": [
+        135
+      ],
+      "help": [
+        137
+      ],
+      "assuage": [
+        138
+      ],
+      "experiences": [
+        140
+      ],
+      "suffering.": [
+        142
+      ],
+      "proximate": [
+        144
+      ],
+      "catalyst": [
+        145
+      ],
+      "ben's": [
+        148
+      ],
+      "current": [
+        149
+      ],
+      "popularity": [
+        150
+      ],
+      "recent": [
+        152
+      ],
+      "social": [
+        153,
+        194
+      ],
+      "political": [
+        155,
+        196
+      ],
+      "history": [
+        156
+      ],
+      "Southeast": [
+        158
+      ],
+      "Asia,": [
+        159
+      ],
+      "especially": [
+        160
+      ],
+      "traumatic": [
+        162
+      ],
+      "events": [
+        163
+      ],
+      "that": [
+        164
+      ],
+      "occurred": [
+        165
+      ],
+      "nationally": [
+        166
+      ],
+      "Cambodia": [
+        168
+      ],
+      "during": [
+        169
+      ],
+      "early": [
+        171
+      ],
+      "1970s": [
+        172
+      ],
+      "through": [
+        173
+      ],
+      "1980s": [
+        175
+      ],
+      "when": [
+        176
+      ],
+      "country": [
+        178
+      ],
+      "experienced": [
+        179
+      ],
+      "series": [
+        181
+      ],
+      "convulsions.": [
+        183
+      ],
+      "Transformations": [
+        184
+      ],
+      "often": [
+        188
+      ],
+      "stand": [
+        189
+      ],
+      "reflexive": [
+        191
+      ],
+      "relationship": [
+        192
+      ],
+      "change.": [
+        197
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2024,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2014,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2013,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-08-23T07:36:19.812096",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W2902906571",
+    "doi": "https://doi.org/10.3390/w10121746",
+    "title": "Ancient Water Management and Governance in the Dry Zone of Sri Lanka Until Abandonment, and the Influence of Colonial Politics during Reclamation",
+    "display_name": "Ancient Water Management and Governance in the Dry Zone of Sri Lanka Until Abandonment, and the Influence of Colonial Politics during Reclamation",
+    "relevance_score": 24.22227,
+    "publication_year": 2018,
+    "publication_date": "2018-11-27",
+    "ids": {
+      "openalex": "https://openalex.org/W2902906571",
+      "doi": "https://doi.org/10.3390/w10121746",
+      "mag": "2902906571"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/w10121746",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/w10121746",
+      "pdf_url": "https://www.mdpi.com/2073-4441/10/12/1746/pdf?version=1545356479",
+      "source": {
+        "id": "https://openalex.org/S134216166",
+        "display_name": "Water",
+        "issn_l": "2073-4441",
+        "issn": [
+          "2073-4441"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Water",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "datacite",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2073-4441/10/12/1746/pdf?version=1545356479",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5046243636",
+          "display_name": "Nuwan Abeywardana",
+          "orcid": "https://orcid.org/0000-0002-8741-3857"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I75951250",
+            "display_name": "Freie Universität Berlin",
+            "ror": "https://ror.org/046ak2485",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I75951250"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Nuwan Abeywardana",
+        "raw_affiliation_strings": [
+          "Department of Earth Sciences, Physical Geography, Freie Universität Berlin, Malteserstr. 74-100, 12249 Berlin, Germany"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-8741-3857",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Earth Sciences, Physical Geography, Freie Universität Berlin, Malteserstr. 74-100, 12249 Berlin, Germany",
+            "institution_ids": [
+              "https://openalex.org/I75951250"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5033166576",
+          "display_name": "Wiebke Bebermeier",
+          "orcid": "https://orcid.org/0000-0001-7866-8690"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I75951250",
+            "display_name": "Freie Universität Berlin",
+            "ror": "https://ror.org/046ak2485",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I75951250"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Wiebke Bebermeier",
+        "raw_affiliation_strings": [
+          "Department of Earth Sciences, Physical Geography, Freie Universität Berlin, Malteserstr. 74-100, 12249 Berlin, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Earth Sciences, Physical Geography, Freie Universität Berlin, Malteserstr. 74-100, 12249 Berlin, Germany",
+            "institution_ids": [
+              "https://openalex.org/I75951250"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5015767080",
+          "display_name": "Brigitta Schütt",
+          "orcid": "https://orcid.org/0000-0001-5644-9104"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I75951250",
+            "display_name": "Freie Universität Berlin",
+            "ror": "https://ror.org/046ak2485",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I75951250"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Brigitta Schütt",
+        "raw_affiliation_strings": [
+          "Department of Earth Sciences, Physical Geography, Freie Universität Berlin, Malteserstr. 74-100, 12249 Berlin, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Earth Sciences, Physical Geography, Freie Universität Berlin, Malteserstr. 74-100, 12249 Berlin, Germany",
+            "institution_ids": [
+              "https://openalex.org/I75951250"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5033166576",
+      "https://openalex.org/A5046243636"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I75951250"
+    ],
+    "apc_list": {
+      "value": 2600,
+      "currency": "CHF",
+      "value_usd": 3137
+    },
+    "apc_paid": {
+      "value": 2600,
+      "currency": "CHF",
+      "value_usd": 3137
+    },
+    "fwci": 1.4358,
+    "has_fulltext": true,
+    "cited_by_count": 37,
+    "citation_normalized_percentile": {
+      "value": 0.81261038,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 95,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "10",
+      "issue": "12",
+      "first_page": "1746",
+      "last_page": "1746"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T14323",
+      "display_name": "Agriculture, Water, and Health",
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2312",
+        "display_name": "Water Science and Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T14323",
+        "display_name": "Agriculture, Water, and Health",
+        "score": 0.9990000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2312",
+          "display_name": "Water Science and Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14160",
+        "display_name": "Water management and technologies",
+        "score": 0.9581000208854675,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1105",
+          "display_name": "Ecology, Evolution, Behavior and Systematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12248",
+        "display_name": "Water Governance and Infrastructure",
+        "score": 0.9491999745368958,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/corporate-governance",
+        "display_name": "Corporate governance",
+        "score": 0.7043440341949463
+      },
+      {
+        "id": "https://openalex.org/keywords/dry-zone",
+        "display_name": "Dry zone",
+        "score": 0.6899263858795166
+      },
+      {
+        "id": "https://openalex.org/keywords/colonialism",
+        "display_name": "Colonialism",
+        "score": 0.6631454825401306
+      },
+      {
+        "id": "https://openalex.org/keywords/politics",
+        "display_name": "Politics",
+        "score": 0.6249046325683594
+      },
+      {
+        "id": "https://openalex.org/keywords/sri-lanka",
+        "display_name": "Sri lanka",
+        "score": 0.5845924019813538
+      },
+      {
+        "id": "https://openalex.org/keywords/geography",
+        "display_name": "Geography",
+        "score": 0.5216549038887024
+      },
+      {
+        "id": "https://openalex.org/keywords/government",
+        "display_name": "Government (linguistics)",
+        "score": 0.5034801363945007
+      },
+      {
+        "id": "https://openalex.org/keywords/abandonment",
+        "display_name": "Abandonment (legal)",
+        "score": 0.4147986173629761
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.3576851785182953
+      },
+      {
+        "id": "https://openalex.org/keywords/environmental-planning",
+        "display_name": "Environmental planning",
+        "score": 0.29812169075012207
+      },
+      {
+        "id": "https://openalex.org/keywords/political-science",
+        "display_name": "Political science",
+        "score": 0.2954782247543335
+      },
+      {
+        "id": "https://openalex.org/keywords/business",
+        "display_name": "Business",
+        "score": 0.20214229822158813
+      },
+      {
+        "id": "https://openalex.org/keywords/law",
+        "display_name": "Law",
+        "score": 0.10798564553260803
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C39389867",
+        "wikidata": "https://www.wikidata.org/wiki/Q380767",
+        "display_name": "Corporate governance",
+        "level": 2,
+        "score": 0.7043440341949463
+      },
+      {
+        "id": "https://openalex.org/C2993065325",
+        "wikidata": "https://www.wikidata.org/wiki/Q24887908",
+        "display_name": "Dry zone",
+        "level": 2,
+        "score": 0.6899263858795166
+      },
+      {
+        "id": "https://openalex.org/C531593650",
+        "wikidata": "https://www.wikidata.org/wiki/Q7167",
+        "display_name": "Colonialism",
+        "level": 2,
+        "score": 0.6631454825401306
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.6249046325683594
+      },
+      {
+        "id": "https://openalex.org/C3017649214",
+        "wikidata": "https://www.wikidata.org/wiki/Q854",
+        "display_name": "Sri lanka",
+        "level": 3,
+        "score": 0.5845924019813538
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.5216549038887024
+      },
+      {
+        "id": "https://openalex.org/C2778137410",
+        "wikidata": "https://www.wikidata.org/wiki/Q2732820",
+        "display_name": "Government (linguistics)",
+        "level": 2,
+        "score": 0.5034801363945007
+      },
+      {
+        "id": "https://openalex.org/C2779816988",
+        "wikidata": "https://www.wikidata.org/wiki/Q305418",
+        "display_name": "Abandonment (legal)",
+        "level": 2,
+        "score": 0.4147986173629761
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.3576851785182953
+      },
+      {
+        "id": "https://openalex.org/C91375879",
+        "wikidata": "https://www.wikidata.org/wiki/Q15473274",
+        "display_name": "Environmental planning",
+        "level": 1,
+        "score": 0.29812169075012207
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.2954782247543335
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.20214229822158813
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.10798564553260803
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C10138342",
+        "wikidata": "https://www.wikidata.org/wiki/Q43015",
+        "display_name": "Finance",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C2779357621",
+        "wikidata": "https://www.wikidata.org/wiki/Q655495",
+        "display_name": "Tanzania",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C6557445",
+        "wikidata": "https://www.wikidata.org/wiki/Q173113",
+        "display_name": "Agronomy",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.3390/w10121746",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/w10121746",
+        "pdf_url": "https://www.mdpi.com/2073-4441/10/12/1746/pdf?version=1545356479",
+        "source": {
+          "id": "https://openalex.org/S134216166",
+          "display_name": "Water",
+          "issn_l": "2073-4441",
+          "issn": [
+            "2073-4441"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Water",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:6dad0658187446ab9b2ef4883ae0153e",
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/6dad0658187446ab9b2ef4883ae0153e",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Water, Vol 10, Iss 12, p 1746 (2018)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:refubium.fu-berlin.de:fub188/23627",
+        "is_oa": true,
+        "landing_page_url": "https://refubium.fu-berlin.de/handle/fub188/23627",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402444",
+          "display_name": "Refubium (Universitätsbibliothek der Freien Universität Berlin)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I75951250",
+          "host_organization_name": "Freie Universität Berlin",
+          "host_organization_lineage": [
+            "https://openalex.org/I75951250"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "Wissenschaftlicher Artikel"
+      },
+      {
+        "id": "doi:10.17169/refubium-1412",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.17169/refubium-1412",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407052913",
+          "display_name": "Universitätsbibliothek der FU Berlin Hochschulschriftenstelle u. Dokumentenserver",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/w10121746",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/w10121746",
+      "pdf_url": "https://www.mdpi.com/2073-4441/10/12/1746/pdf?version=1545356479",
+      "source": {
+        "id": "https://openalex.org/S134216166",
+        "display_name": "Water",
+        "issn_l": "2073-4441",
+        "issn": [
+          "2073-4441"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Water",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G4540267379",
+        "display_name": null,
+        "funder_award_id": "88578",
+        "funder_id": "https://openalex.org/F4320320882",
+        "funder_display_name": "Volkswagen Foundation"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320882",
+        "display_name": "Volkswagen Foundation",
+        "ror": "https://ror.org/03bsmfz84"
+      },
+      {
+        "id": "https://openalex.org/F4320324521",
+        "display_name": "Freie Universität Berlin",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320325474",
+        "display_name": "University of Peradeniya",
+        "ror": "https://ror.org/025h79t26"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2902906571.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2902906571.grobid-xml"
+    },
+    "referenced_works_count": 36,
+    "referenced_works": [
+      "https://openalex.org/W651060132",
+      "https://openalex.org/W1584991195",
+      "https://openalex.org/W1867949399",
+      "https://openalex.org/W1907772854",
+      "https://openalex.org/W2013702530",
+      "https://openalex.org/W2024353698",
+      "https://openalex.org/W2051167040",
+      "https://openalex.org/W2060150169",
+      "https://openalex.org/W2063802177",
+      "https://openalex.org/W2069765000",
+      "https://openalex.org/W2080053071",
+      "https://openalex.org/W2101921715",
+      "https://openalex.org/W2104172938",
+      "https://openalex.org/W2107344667",
+      "https://openalex.org/W2143660605",
+      "https://openalex.org/W2164444917",
+      "https://openalex.org/W2179106492",
+      "https://openalex.org/W2208306145",
+      "https://openalex.org/W2247833795",
+      "https://openalex.org/W2602095581",
+      "https://openalex.org/W2604266074",
+      "https://openalex.org/W2910029760",
+      "https://openalex.org/W3016043240",
+      "https://openalex.org/W3121627490",
+      "https://openalex.org/W4247812607",
+      "https://openalex.org/W4249537276",
+      "https://openalex.org/W4312284366",
+      "https://openalex.org/W4392481964",
+      "https://openalex.org/W6625067547",
+      "https://openalex.org/W6681344018",
+      "https://openalex.org/W6683090310",
+      "https://openalex.org/W6690854570",
+      "https://openalex.org/W6691555140",
+      "https://openalex.org/W6701789634",
+      "https://openalex.org/W6804363983",
+      "https://openalex.org/W6892934833"
+    ],
+    "related_works": [
+      "https://openalex.org/W747733175",
+      "https://openalex.org/W3123257400",
+      "https://openalex.org/W2030683009",
+      "https://openalex.org/W2276498377",
+      "https://openalex.org/W2584608257",
+      "https://openalex.org/W2280133833",
+      "https://openalex.org/W3125942659",
+      "https://openalex.org/W2810350757",
+      "https://openalex.org/W2275097347",
+      "https://openalex.org/W2091740148"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        138
+      ],
+      "dry-zone": [
+        1
+      ],
+      "water-harvesting": [
+        2
+      ],
+      "and": [
+        3,
+        29,
+        47,
+        81,
+        101,
+        130,
+        140,
+        146,
+        159,
+        172
+      ],
+      "management": [
+        4,
+        28,
+        80,
+        158,
+        182
+      ],
+      "system": [
+        5,
+        34
+      ],
+      "in": [
+        6,
+        17,
+        39,
+        49,
+        84,
+        162
+      ],
+      "Sri": [
+        7,
+        89,
+        163
+      ],
+      "Lanka": [
+        8,
+        90
+      ],
+      "is": [
+        9
+      ],
+      "one": [
+        10
+      ],
+      "of": [
+        11,
+        23,
+        32,
+        52,
+        88,
+        95,
+        121,
+        143,
+        155,
+        167
+      ],
+      "the": [
+        12,
+        18,
+        27,
+        40,
+        50,
+        53,
+        60,
+        68,
+        77,
+        85,
+        136,
+        144,
+        147,
+        153,
+        156,
+        175,
+        180,
+        188
+      ],
+      "oldest": [
+        13
+      ],
+      "historically": [
+        14
+      ],
+      "recorded": [
+        15
+      ],
+      "systems": [
+        16,
+        161,
+        191
+      ],
+      "world.": [
+        19
+      ],
+      "A": [
+        20
+      ],
+      "substantial": [
+        21
+      ],
+      "number": [
+        22
+      ],
+      "ancient": [
+        24,
+        78,
+        96
+      ],
+      "sources": [
+        25
+      ],
+      "mention": [
+        26
+      ],
+      "governance": [
+        30,
+        82,
+        160
+      ],
+      "structure": [
+        31,
+        83,
+        183
+      ],
+      "this": [
+        33
+      ],
+      "suggesting": [
+        35
+      ],
+      "it": [
+        36,
+        64
+      ],
+      "was": [
+        37,
+        65,
+        110
+      ],
+      "initiated": [
+        38
+      ],
+      "4th": [
+        41
+      ],
+      "century": [
+        42,
+        55,
+        62
+      ],
+      "BCE": [
+        43
+      ],
+      "(Before": [
+        44
+      ],
+      "Common": [
+        45
+      ],
+      "Era)": [
+        46
+      ],
+      "abandoned": [
+        48
+      ],
+      "middle": [
+        51
+      ],
+      "13th": [
+        54
+      ],
+      "CE": [
+        56
+      ],
+      "(Common": [
+        57
+      ],
+      "Era).": [
+        58
+      ],
+      "In": [
+        59
+      ],
+      "19th": [
+        61
+      ],
+      "CE,": [
+        63
+      ],
+      "reused": [
+        66
+      ],
+      "under": [
+        67
+      ],
+      "British": [
+        69
+      ],
+      "colonial": [
+        70,
+        99
+      ],
+      "government.": [
+        71
+      ],
+      "This": [
+        72
+      ],
+      "research": [
+        73
+      ],
+      "aims": [
+        74
+      ],
+      "to": [
+        75,
+        179
+      ],
+      "identify": [
+        76
+      ],
+      "water": [
+        79,
+        157
+      ],
+      "dry": [
+        86
+      ],
+      "zone": [
+        87
+      ],
+      "through": [
+        91
+      ],
+      "a": [
+        92
+      ],
+      "systematic": [
+        93
+      ],
+      "analysis": [
+        94
+      ],
+      "sources.": [
+        97
+      ],
+      "Furthermore,": [
+        98
+      ],
+      "politics": [
+        100
+      ],
+      "interventions": [
+        102
+      ],
+      "during": [
+        103
+      ],
+      "reclamation": [
+        104
+      ],
+      "have": [
+        105,
+        192
+      ],
+      "been": [
+        106
+      ],
+      "critically": [
+        107
+      ],
+      "analyzed.": [
+        108
+      ],
+      "Information": [
+        109
+      ],
+      "captured": [
+        111,
+        126
+      ],
+      "from": [
+        112,
+        127,
+        135
+      ],
+      "222": [
+        113
+      ],
+      "text": [
+        114,
+        123,
+        132
+      ],
+      "passages": [
+        115,
+        124,
+        133
+      ],
+      "containing": [
+        116
+      ],
+      "560": [
+        117
+      ],
+      "different": [
+        118
+      ],
+      "records.": [
+        119
+      ],
+      "201": [
+        120
+      ],
+      "these": [
+        122
+      ],
+      "were": [
+        125,
+        170
+      ],
+      "lithic": [
+        128
+      ],
+      "inscriptions": [
+        129
+      ],
+      "21": [
+        131
+      ],
+      "originate": [
+        134
+      ],
+      "chronicles.": [
+        137
+      ],
+      "spatial": [
+        139
+      ],
+      "temporal": [
+        141
+      ],
+      "distribution": [
+        142
+      ],
+      "records": [
+        145
+      ],
+      "qualitative": [
+        148
+      ],
+      "information": [
+        149
+      ],
+      "they": [
+        150
+      ],
+      "contain": [
+        151
+      ],
+      "reflect": [
+        152
+      ],
+      "evolution": [
+        154
+      ],
+      "Lanka.": [
+        164
+      ],
+      "Vast": [
+        165
+      ],
+      "multitudes": [
+        166
+      ],
+      "small": [
+        168,
+        189
+      ],
+      "tanks": [
+        169
+      ],
+      "developed": [
+        171
+      ],
+      "managed": [
+        173
+      ],
+      "by": [
+        174
+      ],
+      "local": [
+        176
+      ],
+      "communities.": [
+        177
+      ],
+      "Due": [
+        178
+      ],
+      "sustainable": [
+        181
+      ],
+      "set": [
+        184
+      ],
+      "up": [
+        185
+      ],
+      "within": [
+        186
+      ],
+      "society,": [
+        187
+      ],
+      "tank": [
+        190
+      ],
+      "remained": [
+        193
+      ],
+      "intact": [
+        194
+      ],
+      "for": [
+        195
+      ],
+      "more": [
+        196
+      ],
+      "than": [
+        197
+      ],
+      "two": [
+        198
+      ],
+      "millennia.": [
+        199
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 5
+      }
+    ],
+    "updated_date": "2026-08-27T14:10:00.468798",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4393388992",
+    "doi": "https://doi.org/10.1017/s0026749x23000513",
+    "title": "Beyond the masculinity of kingship: The making of a modern queen in early second millennium Sri Lanka",
+    "display_name": "Beyond the masculinity of kingship: The making of a modern queen in early second millennium Sri Lanka",
+    "relevance_score": 12.675303,
+    "publication_year": 2024,
+    "publication_date": "2024-03-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4393388992",
+      "doi": "https://doi.org/10.1017/s0026749x23000513"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1017/s0026749x23000513",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s0026749x23000513",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F92F8EDD9A752F0DB8B4167652FEABAE/S0026749X23000513a.pdf/div-class-title-beyond-the-masculinity-of-kingship-the-making-of-a-modern-queen-in-early-second-millennium-sri-lanka-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S188415705",
+        "display_name": "Modern Asian Studies",
+        "issn_l": "0026-749X",
+        "issn": [
+          "0026-749X",
+          "1469-8099"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Modern Asian Studies",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F92F8EDD9A752F0DB8B4167652FEABAE/S0026749X23000513a.pdf/div-class-title-beyond-the-masculinity-of-kingship-the-making-of-a-modern-queen-in-early-second-millennium-sri-lanka-div.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5089259048",
+          "display_name": "Bruno M. Shirley",
+          "orcid": "https://orcid.org/0000-0003-0400-8619"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I223822909",
+            "display_name": "Heidelberg University",
+            "ror": "https://ror.org/038t36y30",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I223822909"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Bruno M. Shirley",
+        "raw_affiliation_strings": [
+          "Heidelberg Centre for Transcultural Studies, Universität Heidelberg, Heidelberg, Germany"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-0400-8619",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Heidelberg Centre for Transcultural Studies, Universität Heidelberg, Heidelberg, Germany",
+            "institution_ids": [
+              "https://openalex.org/I223822909"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5089259048"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I223822909"
+    ],
+    "apc_list": {
+      "value": 3450,
+      "currency": "USD",
+      "value_usd": 3450
+    },
+    "apc_paid": {
+      "value": 3450,
+      "currency": "USD",
+      "value_usd": 3450
+    },
+    "fwci": 1.6138,
+    "has_fulltext": true,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.85071733,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "58",
+      "issue": "2",
+      "first_page": "485",
+      "last_page": "511"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T14238",
+      "display_name": "Historical Gender and Feminism Studies",
+      "score": 0.979200005531311,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T14238",
+        "display_name": "Historical Gender and Feminism Studies",
+        "score": 0.979200005531311,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11888",
+        "display_name": "Gender Roles and Identity Studies",
+        "score": 0.9599999785423279,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3318",
+          "display_name": "Gender Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10149",
+        "display_name": "Anthropological Studies and Insights",
+        "score": 0.9585000276565552,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/monarchy",
+        "display_name": "Monarchy",
+        "score": 0.8780872821807861
+      },
+      {
+        "id": "https://openalex.org/keywords/sri-lanka",
+        "display_name": "Sri lanka",
+        "score": 0.8741545677185059
+      },
+      {
+        "id": "https://openalex.org/keywords/masculinity",
+        "display_name": "Masculinity",
+        "score": 0.8229209184646606
+      },
+      {
+        "id": "https://openalex.org/keywords/queen",
+        "display_name": "Queen (butterfly)",
+        "score": 0.7864003777503967
+      },
+      {
+        "id": "https://openalex.org/keywords/ancient-history",
+        "display_name": "Ancient history",
+        "score": 0.5459453463554382
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.4348369538784027
+      },
+      {
+        "id": "https://openalex.org/keywords/geography",
+        "display_name": "Geography",
+        "score": 0.364896684885025
+      },
+      {
+        "id": "https://openalex.org/keywords/gender-studies",
+        "display_name": "Gender studies",
+        "score": 0.3347206711769104
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.26622724533081055
+      },
+      {
+        "id": "https://openalex.org/keywords/political-science",
+        "display_name": "Political science",
+        "score": 0.20367193222045898
+      },
+      {
+        "id": "https://openalex.org/keywords/politics",
+        "display_name": "Politics",
+        "score": 0.16301843523979187
+      },
+      {
+        "id": "https://openalex.org/keywords/south-asia",
+        "display_name": "South asia",
+        "score": 0.15537399053573608
+      },
+      {
+        "id": "https://openalex.org/keywords/law",
+        "display_name": "Law",
+        "score": 0.09770378470420837
+      },
+      {
+        "id": "https://openalex.org/keywords/zoology",
+        "display_name": "Zoology",
+        "score": 0.08525538444519043
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.0823226273059845
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C203458295",
+        "wikidata": "https://www.wikidata.org/wiki/Q7269",
+        "display_name": "Monarchy",
+        "level": 3,
+        "score": 0.8780872821807861
+      },
+      {
+        "id": "https://openalex.org/C3017649214",
+        "wikidata": "https://www.wikidata.org/wiki/Q854",
+        "display_name": "Sri lanka",
+        "level": 3,
+        "score": 0.8741545677185059
+      },
+      {
+        "id": "https://openalex.org/C2779103072",
+        "wikidata": "https://www.wikidata.org/wiki/Q1076509",
+        "display_name": "Masculinity",
+        "level": 2,
+        "score": 0.8229209184646606
+      },
+      {
+        "id": "https://openalex.org/C2781321516",
+        "wikidata": "https://www.wikidata.org/wiki/Q310836",
+        "display_name": "Queen (butterfly)",
+        "level": 3,
+        "score": 0.7864003777503967
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.5459453463554382
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.4348369538784027
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.364896684885025
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.3347206711769104
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.26622724533081055
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.20367193222045898
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.16301843523979187
+      },
+      {
+        "id": "https://openalex.org/C3019281177",
+        "wikidata": "https://www.wikidata.org/wiki/Q771405",
+        "display_name": "South asia",
+        "level": 2,
+        "score": 0.15537399053573608
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.09770378470420837
+      },
+      {
+        "id": "https://openalex.org/C90856448",
+        "wikidata": "https://www.wikidata.org/wiki/Q431",
+        "display_name": "Zoology",
+        "level": 1,
+        "score": 0.08525538444519043
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.0823226273059845
+      },
+      {
+        "id": "https://openalex.org/C2780653484",
+        "wikidata": "https://www.wikidata.org/wiki/Q22651",
+        "display_name": "Hymenoptera",
+        "level": 2,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1017/s0026749x23000513",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1017/s0026749x23000513",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F92F8EDD9A752F0DB8B4167652FEABAE/S0026749X23000513a.pdf/div-class-title-beyond-the-masculinity-of-kingship-the-making-of-a-modern-queen-in-early-second-millennium-sri-lanka-div.pdf",
+        "source": {
+          "id": "https://openalex.org/S188415705",
+          "display_name": "Modern Asian Studies",
+          "issn_l": "0026-749X",
+          "issn": [
+            "0026-749X",
+            "1469-8099"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Modern Asian Studies",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1017/s0026749x23000513",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s0026749x23000513",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F92F8EDD9A752F0DB8B4167652FEABAE/S0026749X23000513a.pdf/div-class-title-beyond-the-masculinity-of-kingship-the-making-of-a-modern-queen-in-early-second-millennium-sri-lanka-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S188415705",
+        "display_name": "Modern Asian Studies",
+        "issn_l": "0026-749X",
+        "issn": [
+          "0026-749X",
+          "1469-8099"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Modern Asian Studies",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.699999988079071,
+        "id": "https://metadata.un.org/sdg/5",
+        "display_name": "Gender equality"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4393388992.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4393388992.grobid-xml"
+    },
+    "referenced_works_count": 60,
+    "referenced_works": [
+      "https://openalex.org/W169599935",
+      "https://openalex.org/W353907988",
+      "https://openalex.org/W606684065",
+      "https://openalex.org/W614158399",
+      "https://openalex.org/W632002513",
+      "https://openalex.org/W637004666",
+      "https://openalex.org/W639734510",
+      "https://openalex.org/W1523918744",
+      "https://openalex.org/W1528811709",
+      "https://openalex.org/W1535639441",
+      "https://openalex.org/W1553391585",
+      "https://openalex.org/W1591728055",
+      "https://openalex.org/W1844020637",
+      "https://openalex.org/W1851399941",
+      "https://openalex.org/W2018584981",
+      "https://openalex.org/W2026780907",
+      "https://openalex.org/W2070712686",
+      "https://openalex.org/W2084034336",
+      "https://openalex.org/W2101077936",
+      "https://openalex.org/W2110104578",
+      "https://openalex.org/W2122152129",
+      "https://openalex.org/W2129749811",
+      "https://openalex.org/W2138764571",
+      "https://openalex.org/W2148637862",
+      "https://openalex.org/W2153261424",
+      "https://openalex.org/W2167706247",
+      "https://openalex.org/W2167995400",
+      "https://openalex.org/W2315904056",
+      "https://openalex.org/W2332970434",
+      "https://openalex.org/W2395499421",
+      "https://openalex.org/W2397981226",
+      "https://openalex.org/W2566799982",
+      "https://openalex.org/W2572094896",
+      "https://openalex.org/W2769649116",
+      "https://openalex.org/W2895317099",
+      "https://openalex.org/W2896264690",
+      "https://openalex.org/W2919423902",
+      "https://openalex.org/W3012152192",
+      "https://openalex.org/W3110782141",
+      "https://openalex.org/W3113971798",
+      "https://openalex.org/W3142708876",
+      "https://openalex.org/W3151579866",
+      "https://openalex.org/W4200428102",
+      "https://openalex.org/W4205756177",
+      "https://openalex.org/W4211154260",
+      "https://openalex.org/W4220838954",
+      "https://openalex.org/W4221045917",
+      "https://openalex.org/W4229908550",
+      "https://openalex.org/W4231717146",
+      "https://openalex.org/W4234561786",
+      "https://openalex.org/W4237034985",
+      "https://openalex.org/W4239806006",
+      "https://openalex.org/W4243194923",
+      "https://openalex.org/W4243242860",
+      "https://openalex.org/W4243575065",
+      "https://openalex.org/W4252468632",
+      "https://openalex.org/W4301903745",
+      "https://openalex.org/W4386309477",
+      "https://openalex.org/W6684602648",
+      "https://openalex.org/W6712533344"
+    ],
+    "related_works": [
+      "https://openalex.org/W2015263713",
+      "https://openalex.org/W296600563",
+      "https://openalex.org/W649410576",
+      "https://openalex.org/W4381924898",
+      "https://openalex.org/W2068481528",
+      "https://openalex.org/W2919136798",
+      "https://openalex.org/W4213375827",
+      "https://openalex.org/W2526140940",
+      "https://openalex.org/W2391451588",
+      "https://openalex.org/W1972768158"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Modern": [
+        1
+      ],
+      "historians": [
+        2
+      ],
+      "have": [
+        3
+      ],
+      "repeatedly": [
+        4
+      ],
+      "cast": [
+        5
+      ],
+      "Sri": [
+        6,
+        49
+      ],
+      "Lanka’s": [
+        7,
+        50
+      ],
+      "historical": [
+        8
+      ],
+      "female": [
+        9,
+        51
+      ],
+      "monarchs": [
+        10
+      ],
+      "as": [
+        11
+      ],
+      "‘queens’,": [
+        12
+      ],
+      "without": [
+        13
+      ],
+      "critically": [
+        14
+      ],
+      "reflecting": [
+        15
+      ],
+      "on": [
+        16
+      ],
+      "the": [
+        17,
+        32,
+        42,
+        104,
+        122
+      ],
+      "conceptual": [
+        18
+      ],
+      "limits": [
+        19
+      ],
+      "and": [
+        20,
+        36,
+        59,
+        65,
+        87,
+        114
+      ],
+      "nuances": [
+        21
+      ],
+      "of": [
+        22,
+        29,
+        54,
+        68,
+        80,
+        107,
+        119
+      ],
+      "that": [
+        23,
+        48
+      ],
+      "term.": [
+        24
+      ],
+      "Through": [
+        25
+      ],
+      "a": [
+        26,
+        62,
+        78,
+        117
+      ],
+      "close": [
+        27
+      ],
+      "examination": [
+        28
+      ],
+      "sources": [
+        30
+      ],
+      "from": [
+        31,
+        41
+      ],
+      "early": [
+        33
+      ],
+      "second": [
+        34
+      ],
+      "millennium,": [
+        35
+      ],
+      "their": [
+        37
+      ],
+      "reception": [
+        38
+      ],
+      "by": [
+        39,
+        92,
+        98
+      ],
+      "scholars": [
+        40
+      ],
+      "colonial": [
+        43
+      ],
+      "period": [
+        44
+      ],
+      "onwards,": [
+        45
+      ],
+      "I": [
+        46,
+        76
+      ],
+      "demonstrate": [
+        47
+      ],
+      "monarchs—particularly": [
+        52
+      ],
+      "Līlāvatī": [
+        53
+      ],
+      "Poḷonnaruva": [
+        55
+      ],
+      "(r.": [
+        56
+      ],
+      "1197–1200,": [
+        57
+      ],
+      "1209,": [
+        58
+      ],
+      "1210)—engaged": [
+        60
+      ],
+      "in": [
+        61,
+        85
+      ],
+      "more": [
+        63
+      ],
+      "creative": [
+        64
+      ],
+      "subversive": [
+        66
+      ],
+      "performance": [
+        67
+      ],
+      "gender": [
+        69,
+        120
+      ],
+      "than": [
+        70
+      ],
+      "modern": [
+        71
+      ],
+      "‘queenship’": [
+        72
+      ],
+      "allows.": [
+        73
+      ],
+      "In": [
+        74
+      ],
+      "particular,": [
+        75
+      ],
+      "argue,": [
+        77
+      ],
+      "discourse": [
+        79,
+        113
+      ],
+      "kingship’s": [
+        81
+      ],
+      "inherent": [
+        82
+      ],
+      "masculinity,": [
+        83
+      ],
+      "advanced": [
+        84
+      ],
+      "literary": [
+        86
+      ],
+      "didactic": [
+        88
+      ],
+      "texts": [
+        89
+      ],
+      "written": [
+        90
+      ],
+      "primarily": [
+        91
+      ],
+      "male": [
+        93
+      ],
+      "monastics,": [
+        94
+      ],
+      "was": [
+        95
+      ],
+      "too-willingly": [
+        96
+      ],
+      "accepted": [
+        97
+      ],
+      "colonial-period": [
+        99
+      ],
+      "scholars.": [
+        100
+      ],
+      "Closer": [
+        101
+      ],
+      "attention": [
+        102
+      ],
+      "to": [
+        103
+      ],
+      "material": [
+        105
+      ],
+      "evidence": [
+        106
+      ],
+      "Līlāvatī’s": [
+        108
+      ],
+      "reign,": [
+        109
+      ],
+      "however,": [
+        110
+      ],
+      "challenges": [
+        111
+      ],
+      "this": [
+        112
+      ],
+      "further": [
+        115
+      ],
+      "suggests": [
+        116
+      ],
+      "politics": [
+        118
+      ],
+      "beyond": [
+        121
+      ],
+      "binary.": [
+        123
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-28T12:50:07.497085",
+    "created_date": "2025-10-10T00:00:00"
+  }
+]

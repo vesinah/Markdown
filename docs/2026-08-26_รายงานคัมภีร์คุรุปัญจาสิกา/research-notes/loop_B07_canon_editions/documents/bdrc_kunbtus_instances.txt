@@ -1,0 +1,15 @@
+===== https://ldspdi.bdrc.io/resource/MW1KG1011_EE57C8.jsonld =====
+{"@id": "bdr:TTEF40D7BC3BCD93BF", "rdfs:label": {"@language": "bo-x-ewts", "@value": "bla ma lnga bcu pa/"}, "@type": "Title"}
+{"@id": "bdr:MW1KG1011_EE57C8", "contentLocation": {"@id": "bdr:CLA0D1CA5D796742D9"}, "instanceOf": {"@id": "bdr:WA0XLEE57C8CA491F"}, "skos:prefLabel": {"@language": "bo-x-ewts", "@value": "bla ma lnga bcu pa/"}, "partTreeIndex": "1.1.10", "@type": "Instance", "contentLocationStatement": "ff. 28v-31r (pp. 54-59)"}
+===== https://ldspdi.bdrc.io/resource/W1KG1011.jsonld =====
+===== https://ldspdi.bdrc.io/resource/W1NLM1320.jsonld =====
+===== https://ldspdi.bdrc.io/resource/W1NLM2578.jsonld =====
+===== https://ldspdi.bdrc.io/resource/W1KG13617.jsonld =====
+===== http://rkts.org/rkts1/data/general/collections.json =====
+RAW: [
+    {
+        "file_name": "A_dPe bsdur ma Kanjur.xml",
+        "sigla": "A",
+        "title": "Pedurma Kanjur",
+        "alternative_title": "དཔེ་བསྡུར་མ་བཀའ་འགྱུར།",
+        "abstract": "The Comparative Edition of the Kanjur (104 vols. + 5 vols. dkar chag) is a modern scholarly publication produced by the “Kanjur-Tanjur Comparative Edition Office of the China National Center for Tibetan Studies” (krung go'i bod kyi shes rig shib 'jug lte gnas kyi bka' bstan dpe sdur khang). <br>The foundation of this comparative edition is the Derge Kanjur – chosen for its esteemed reputation for accuracy, superior calligraphy, and widespread acceptance within the Tibetan Buddhist tradition – which served as a base text, or ma yig, and collating textual variations from other significant editions. This base text was then carefully compared against seven other major blockprint editions: the Yongle (Y), Lithang (J), Peking (Q), Narthang (N), Cone (C), Urga (U), and Lhasa (H) editions. These eight versions collectively form the core corpus for the comparative analysis.<br><br>The editorial methodology entailed the systematic documentation of all discrepancies found between the Derge base text and the seven comparison editions. These variations – which include missing, added, different, duplicated, or reordered sections, chapters, and even individual syllables – were recorded in dedicated comparative annotations and a comprehensive comparative results table. A fundamental principle guiding the

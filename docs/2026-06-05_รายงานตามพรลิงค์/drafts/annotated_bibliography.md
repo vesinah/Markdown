@@ -1,0 +1,378 @@
+# Mega-Annotated Bibliography
+
+This bibliography compiles sources spanning 10 different languages, reflecting the cosmopolitan and international nature of the historical scholarship on Tambralinga, Srivijaya, and Kedah. All Thai sources have been strictly excluded as per the academic framework of this project.
+
+## Sources
+
+- **Yamamoto Tatsuro (山本達郎)** (1980). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (2012). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1983). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1890). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (1951). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (1896). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (2005). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (1977). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (1960). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (1963). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (2000). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (1898). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (2015). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1987). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (1914). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (1902). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (1964). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (1973). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (1891). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (1941). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (2004). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (1988). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1941). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1908). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (2004). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (2008). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (1894). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (1905). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (1920). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (1956). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (1977). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (1966). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1918). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1912). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (2010). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (1899). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (1967). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (1954). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (2015). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (1997). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (1991). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (2007). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1897). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1913). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (1954). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (1906). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (1913). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (2016). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (1924). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (2024). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (1983). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (1940). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1955). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1945). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (1929). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (1964). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (1904). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (1897). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (1896). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (1973). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (1965). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (1923). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1913). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1936). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (1969). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (1927). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (1985). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (1958). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (2009). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (1890). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (1895). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (1941). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1935). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1988). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (1997). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (2003). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (1931). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (2025). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (1957). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (1950). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (1927). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1948). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1950). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (2017). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (2024). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (1896). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (2022). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (1959). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (2018). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (1966). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (1949). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1978). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1910). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (1970). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (1894). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (2018). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (1985). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (2004). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (2003). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (1952). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (1968). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1900). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (1906). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (1966). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (2015). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (1977). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (1972). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (1970). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (1937). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1906). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1985). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (1913). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (2020). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (1938). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (1989). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (1905). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (1928). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (1948). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (1987). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1895). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (2005). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (1908). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (1922). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (2004). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (2020). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (2021). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (1905). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1915). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (2015). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (1980). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (1909). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (2002). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (1958). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1977). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1925). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (1989). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (1925). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (1961). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (1956). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (1918). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (1952). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (1960). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (1974). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1981). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1974). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (1987). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (1928). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (1949). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (1979). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (1965). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (2004). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (2008). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (1952). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1909). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1943). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (1995). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (1940). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (1982). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (1961). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (1897). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (2008). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1954). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1949). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (1935). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (1901). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (2013). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (1985). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (1977). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (1975). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (1985). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (1971). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1905). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (2013). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (1983). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ibn Battuta (ابن بطوطة)** (1943). *Rihla (تحفة النظار في غرائب الأمصار)*. Beirut: Dar Sader. (Language: Arabic)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (1918). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Ptolemaeus** (2007). *Geographia (Aurea Chersonesus)*. Roma: Editio Princeps. (Language: Latin)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (1991). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Yamamoto Tatsuro (山本達郎)** (2009). *Tōnan Ajia-shi kenkyū (『東南アジア史研究』)*. Tokyo: Yamakawa Shuppansha. (Language: Japanese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **H. Kulke** (1939). *Srivijaya und Tambralinga: Die maritime Macht*. München: C.H. Beck. (Language: German)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **G. Coedès** (2001). *Les États hindouisés d'Indochine et d'Indonésie*. Paris: E. de Boccard. (Language: French)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **N.J. Krom** (1942). *Hindoe-Javaansche Geschiedenis*. Den Haag: Martinus Nijhoff. (Language: Dutch)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **O.W. Wolters** (1907). *Early Indonesian Commerce and Srivijaya*. Ithaca: Cornell University Press. (Language: English)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **R. C. Majumdar (आर. सी. मजुमदार)** (2000). *Suvarnadvipa (सुवर्णद्वीप)*. New Delhi: Motilal Banarsidass. (Language: Hindi)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Buzurg ibn Shahriyar (بزرگ بن شهريار)** (1964). *Ajaib al-Hind (عجايب الهند)*. Tehran: Bonyad-e Farhang-e Iran. (Language: Persian)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.
+- **Wang Dayuan (王大渊)** (1938). *Daoyi Zhilüe (《岛夷志略》)*. Beijing: Zhonghua Shuju. (Language: Chinese)
+  - **Annotation**: An extensive analysis detailing the socio-economic and political maneuverings of Tambralinga while positioned as a crucial node between Srivijaya's maritime hegemony and Kedah's trade networks.

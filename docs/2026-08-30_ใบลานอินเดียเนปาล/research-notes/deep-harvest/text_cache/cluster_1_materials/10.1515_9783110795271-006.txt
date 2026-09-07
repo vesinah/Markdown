@@ -1,0 +1,2310 @@
+# SOURCE FILE: 10.1515_9783110795271-006.pdf
+# ORIGINAL PATH: d:\01_APP\Research\output\palmleaf_india_nepal\research-notes\PDF\10.1515_9783110795271-006.pdf
+# CLUSTER: cluster_1_materials (1. วัสดุศาสตร์ หมึก และการอนุรักษ์เชิงเคมี)
+# PAGES: 38 | TOTAL CHARS: 90009
+
+=== PAGE 1 ===
+  
+ 
+ Open Access. © 2022 the author(s), published by De Gruyter. 
+ This work is licensed under the 
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
+https://doi.org/10.1515/9783110795271-006 
+Marco Franceschini 
+A Modular Framework for the Analysis of the 
+Dates Found in Manuscripts Written in the 
+Tamil and Tamilian Grantha Scripts 
+Abstract: This article focuses on the analysis of the dates included in the scribal 
+colophons found in manuscripts written in the Tamil and Tamilian Grantha 
+scripts. In order to better investigate and understand different scribal patterns, a 
+new approach has been adopted: the dates are conceived as modular entities, 
+which can conveniently be segmented into smaller constituents, referred to as 
+‘submodules’. In turn, these submodules will be scrutinised from the point of 
+view of their constituents and their mutual relationship. 
+1 Introduction 
+This article focuses on the analysis of the dates included in the scribal colophons 
+found in manuscripts written in the Tamil and Tamilian Grantha scripts. The 
+analysis made here will be based on data collected, thus far, by Giovanni Ciotti 
+and this author, which is to provide the basis for a forthcoming, broader work on 
+scribal colophons and lending/borrowing statements in palm leaf manuscripts 
+hailing from the Tamil-speaking South of India. 
+In this article, the dates will be investigated from the point of view of their 
+constituents and the relationships existing between them. For this purpose, a 
+date will be conceived as a modular entity, which can conveniently be segmented 
+into smaller constituents, referred to hereafter as ‘submodules’.1 The submodules 
+are basically made up of the ‘value’ of a calendrical element (its name or its nu-
+merical amount) and, more often than not, of one or more ‘markers’: a marker is 
+a symbol, a word (or an abbreviation thereof) which clarifies what calendrical 
+element the value refers to. A value may be accompanied by one or more markers 
+or left unmarked; some elements, however, are regularly marked in the dates, 
+|| 
+1 In a broader perspective, colophons themselves can be understood as modular entities, made 
+up of a string of component units (modules, in fact): in such a framework, the date is one of the 
+several modules composing the colophons, together with the information concerning the 
+owner(s) or the scribe, the title of the work and the copying statements, apology formulas, bor-
+rowing formulas, invocations etc. (see Ciotti in this volume). 
+
+=== PAGE 2 ===
+172 | Marco Franceschini 
+  
+some only sporadically. For example, in the date 1021 ⟨symbol for Kollam year⟩ 
+viśvāvasunāmasaṃvatsaraṃ aṟpaci ⟨symbol for month⟩ 23 ⟨symbol for day⟩ 
+vyāḷakkeḻamai śuklapakṣattil saptamitithi śravaṇanakṣattiram (EO0076α)2 are 
+eight submodules: Kollam year, Jovian year, month, day, day of the week, fort-
+night (pakṣa), lunar day (tithi) and constellation. The values of the submodules 
+are 1021, viśvāvasu, aṟpaci, 23, vyāḷa, śukla, saptami and śravaṇa, whereas their 
+markers are ⟨symbol for Kollam year⟩, saṃvatsaraṃ, ⟨symbol for month⟩, ⟨symbol 
+for day⟩, keḻamai, pakṣa, tithi and nakṣattiram, respectively.3 Elements such as 
+nāma in viśvāvasunāmasaṃvatsaraṃ (‘the year called Viśvāvasu’), which are not 
+indispensable in the structure of the submodule, are called here ‘expletives’; they 
+are found usually – but not only – in metrical dates, where they are used to fill 
+out the verses. 
+As said above, this article focuses on dates thought of as strings of submod-
+ules, and especially on the elements contained in the submodules and their rela-
+tionships. Linguistic considerations, such as the distinction between the Tamil, 
+Sanskrit or hybrid forms of the elements in the submodules, will be taken into 
+account only occasionally, when felt convenient. Similarly, the different spell-
+ings in which one and the same calendrical element is attested in the database 
+are given here without any pretence to exhaustiveness, sometimes limited to the 
+most frequently occurring forms. 
+This article is organised in sections. The next section presents the reader with 
+an overview of the database at large and, more specifically, with some overall 
+figures concerning the dates occurring in it: their number and chronological dis-
+tribution, their most frequently attested structures, the frequency and order of 
+their submodules. The sections following are mostly devoted to the description 
+of the submodules, namely those of the Kollam year, Jovian year, Śālivāhanaśaka, 
+Kali and Christian years, solar month, lunar month, day, day of the week, pakṣa, 
+|| 
+2 The manuscripts quoted in this article are referred to by their accession number preceded by 
+a siglum that indicates the library in which they are held: RE for Institut français de Pondichéry; 
+EO for École française d’Extrême-Orient, Pondicherry; VM for University Library, Leiden (van 
+Manen collection); BN-INDIEN for Bibliothèque nationale, Paris; UVSL for U.V. Swāmināthaiyar 
+Library, Chennai; MS-OR for Cambridge University Library; TORI for Oriental Research Institute 
+& Manuscripts Library, Trivandrum; MORI for Oriental Research Institute, Mysore; GOML for 
+Government Oriental Manuscript Library, Chennai; TAM for Tiruvāvaṭutuṟai Ātiṉa Nūlakam; 
+CNM for National Museum, Copenhagen; NLK for National Library, Kolkata. 
+3 In the dates, the Kollam year, the Jovian year, the month and the day are often marked with 
+different symbols and abbreviations: henceforth, these symbols and abbreviations will be repre-
+sented in the transcriptions as ⟨KY⟩, ⟨JY⟩, ⟨M⟩ and ⟨D⟩ respectively. A collection of these symbols 
+(although now in need of a supplement) can be seen in Ciotti and Franceschini 2016, 85–105. 
+
+=== PAGE 3 ===
+ 
+A Modular Framework for the Analysis of the Dates | 173 
+  
+tithi, nakṣatra, minor calendrical elements and nāḻikais. Most of these sections 
+have been complemented with tables, collected in the Appendix, the purpose be-
+ing to present the different attested structures of the submodules in a visually 
+clear and direct arrangement. On the whole, these tables are, hopefully, self-ex-
+planatory; however, an explicative note has been prefixed to the first table of the 
+series, i.e. that of the Kollam year. 
+2 Frequency and order of the calendrical elements 
+At present, the database collected by Giovanni Ciotti and this author includes 910 
+colophons and lending/borrowing statements, to be found in 438 manuscripts, 
+held in 16 libraries (11 in India, five in Europe). The dates found in these colo-
+phons are 518. A good number of these dates (197, i.e. 38%) cannot be converted 
+into a Gregorian calendar date, being based on a Jovian year, and thus recurring 
+cyclically every 60 years, or due to them being incomplete or containing contra-
+dictory elements, thus wrong values. The diachronic distribution of the remain-
+ing 321 dates is extremely uneven: 19 (6%) date from the seventeenth century, 39 
+(12%) the eighteenth century, 248 (77%) the nineteenth century, with 15 (5%) da-
+ting from the first two decades of the twentieth century. 
+The number of calendrical elements recorded in the dates varies greatly: the 
+frequency of occurrence of each single calendrical element in the dates in our 
+corpus is shown in Table 1 (Appendix).4 The eight elements underlined in the 
+Table (from the Kollam year down to the nakṣatra) are those more frequently rec-
+orded in the dates; for this reason, their submodules will be analysed further be-
+low. Among these frequent occurring elements, the year, month and day are by 
+far those most commonly present: all the dates contain at least one year (given in 
+accordance with one of four different eras or with the so called Southern Jovian 
+cycle), 99% contain at least one month (solar or lunar) and 87% contain the day. 
+Given these premises, it comes as no surprise that the most common combination 
+|| 
+4 For the analysis of the frequency and order of the calendrical elements, only the (452) ‘com-
+plete and independent’ dates have been considered. This means that we have excluded all the 
+dates in our corpus that are incomplete, either due to folio damage or because some of the ca-
+lendrical elements (typically the year, sometimes also the month) have already been provided in 
+a preceding date (in the same colophon or manuscript) and must be inferred from there. An ex-
+ample of the latter category is: 1040 ⟨KY⟩ āvaṇi ⟨M⟩ 5 ⟨D⟩ bālakāṇḍam ārambham piraṭṭāci ⟨M⟩ 6 
+⟨D⟩ samāptam (RE20158), ‘The beginning [of the copying] of the Bālakāṇḍam on the Kollam year 
+1040, month of Āvaṇi, 5th day; completion on the month of Piraṭṭāci, 6th day’. 
+
+=== PAGE 4 ===
+174 | Marco Franceschini 
+  
+of elements in the dates is Jovian year + solar month + day (found in 84 dates, 
+19%), followed by Kollam year + solar month + day (79 dates, 17%); 29 dates con-
+tain Jovian year, month, day, day of the week; 18 dates contain both Kollam and 
+Jovian years, month, day; 11 dates Kollam year, month, day, day of the week. As 
+for the dates containing a large number of calendrical elements, 26 feature all 
+eight of the most frequent calendrical elements (Kollam and Jovian years, solar 
+month, day, day of the week, pakṣa, tithi, nakṣatra), 30 feature these eight ele-
+ments with the exception of the Jovian year and 32 comprise these eight elements 
+without the Kollam year. 
+In terms of their order, the calendrical elements and their submodules are 
+usually arranged as shown in first column of Table 1, whereas the last column 
+shows the number of ‘misplacements’, i.e. infringements regarding the ‘standard’ 
+order, for each calendrical element. As can be seen, the day of the week alone 
+counts for almost a half of the total misplacements (36 out of 76): largely due, in 
+all likelihood, to the influence of the pañcāṅgas, the traditional Indian calendars 
+used for determining the most auspicious time for celebrating rites and obser-
+vances – as well as unfavourable periods when no ritual should be performed. As 
+their name suggests, pañcāṅgas are based on five calendrical elements invariably 
+arranged in this order: tithi, vāra (day of the week), nakṣatra, yoga and karaṇa. 
+In all the dates where the day of the week is ‘misplaced’, it has been moved for-
+ward in the sequence of calendrical elements; more precisely, in 27 cases of 36 it 
+has been placed after the tithi – the position it occupies in the pañcāṅgas. 
+Beginning with the following section the different submodules have been an-
+alysed, in accordance with the order shown in Table 1. 
+3 Analysis of the submodules 
+3.1 Kollam year 
+In the 518 dates collected in our database, the Kollam year has been recorded a 
+total of 190 times and is accompanied by one or more markers in all occurrences 
+but two. As a rule, the number of the year has been written in numerals (187 times 
+out of 190). By far, the most common case is the number of the year being marked 
+by a symbol for ‘Kollam year’ after it: this occurs in 176 of 190 cases (93%).5 Six of 
+|| 
+5 This number includes five dates in which the Kollam year has been marked with a symbol 
+normally used for marking the Jovian year, presumably by mistake. 
+
+=== PAGE 5 ===
+ 
+A Modular Framework for the Analysis of the Dates | 175 
+  
+these dates feature the letter m directly after the number of the year, possibly im-
+parting an ordinal meaning to the number, and once an m is placed after the sym-
+bol for the year, probably as an abbreviation for [kolla]m.6 
+Two more markers have been used in combination with the Kollam year writ-
+ten in numerals, although far less frequently than the symbols: the word kollam 
+and a small group of terms of unclear meaning. The word kollam has been used 
+in eight dates and always immediately precedes the number of the year. The 
+words (abbreviations?) āmta, mta, mtu occur in just four dates: they are always 
+written directly after the number of the year, sometimes in combination with the 
+word kollam preceding it. The meaning of āmta, mta, mtu is not clear: they possi-
+bly confer an ordinal meaning to the numbers or may tentatively be understood 
+as abbreviations for the Tamil word āṇṭu (as āmt, mt, mtu respectively), which 
+means ‘year; year of the Kollam era in Malabar’.7 
+In three dates the number of the Kollam year has been expressed in words, 
+twice in Sanskrit and once as a Tamil ordinal number. In two of them, the number 
+has been accompanied by a word for ‘year’ as a marker: the number recorded in 
+the Sanskrit language is followed by the Sanskrit word abda, the number ex-
+pressed in the Tamil language is preceded by the Tamil word āṇḍu.8 Please note 
+that these two are the only metrically arranged dates in which the Kollam year is 
+stated. 
+Lastly, the number of the Kollam year is twice not accompanied by any mark-
+ing element whatsoever: in one case it is written in numerals, in the other in 
+Sanskrit words.  
+3.2 Jovian year 
+In our database, the Jovian year has been recorded 330 times. The Jovian year is 
+always identified by its name. Two different markers are used to identify the 
+Jovian year: a symbol standing for ‘Jovian year’ or a word for ‘year’ (San./Tam. 
+saṃvatsara/camvaccaram, varṣa/varuṣam, abda, abdaka, vatsara, and their 
+|| 
+6 Compare the relatively numerous cases of an m appended to the symbols for Jovian year and 
+for month, below, which can be interpreted as the last letter of the word [varuṣa]m and 
+[māsa/māca]m respectively. 
+7 TL, s.v. The latter assumption is supported by the fact that they invariably occupy the place 
+that in other dates is filled by the symbol for Kollam year, which never appears together with 
+them, or by the word āṇḍu. 
+8 They are abde pañcapañcasahasre vikramanāmasaṃvatsare […] (VM1.45β) and ā̈irattu 
+pannireṇḍām āṇḍu […] (RE15447γ). 
+
+=== PAGE 6 ===
+176 | Marco Franceschini 
+  
+numerous variant spellings).9 Most frequently, the flagging element appears to 
+the right of the name of the year: this is always the case for symbols of the Jovian 
+year and largely so with the words for ‘year’, the only exceptions being when 
+some dates have been arranged metrically. 
+The name of the Jovian year has been marked by the following symbol for 
+‘Jovian year’ (once, erroneously, a symbol for ‘Kollam year’, RE37121) in 174 oc-
+currences of 330 (53%), e.g. vijaya ⟨JY⟩ (RE08256δ). Additional elements occur-
+ring in these dates are the adverb nāma, inserted – in just one single date – 
+between the name of the year and the symbol (kuroti nāma ⟨JY⟩, RE04137), and 
+the letter m, written after the symbol for Jovian year in ten dates (e.g. tāruṇa 
+⟨JY⟩m, RE10831γ): it probably stands for the last letter of varṣam/varuṣam, the 
+word represented by the preceding symbol. Interestingly, in three dates the pair 
+‘name of the year’ plus ‘symbol’ has been preceded by the progressive number of 
+the year (written in numerals) in the Jovian sixty-year cycle, stated in similar 
+(standardised?) expressions, roughly meaning: ‘the N° year in the cycle begin-
+ning with (Tam./San.) Pirapava/Prabhava’ (i.e. the name of the first year in the 
+Jovian year cycle).10 
+The name of the Jovian year has been marked with a word for ‘year’ in 152 
+occurrences of 330 (46%). As above, the word for ‘year’ largely follows the name 
+of the year, either compounded to it (e.g. heviḷaṃbisaṃvatsara, VM10.8a; 
+svabhānuvatsare, VM10.5; citrabhānuvarṣa, VM9.4c; nandanābde, VM8.8c) or 
+constructed as appositions (e.g. vikiṟama varuṣa, BN-INDIEN 199; kurodhi 
+saṃvatsaraṃ, RE55844α; sarvadhāriṇy abde, RE04127). On the other hand, the 
+word for ‘year’ precedes the name of the year in seven dates, all of them metrically 
+arranged.11 In the dates marked by a word for ‘year’, the adverb nāma (‘by name’) 
+|| 
+9 A good many of them occur in the dates, e.g. saṃvatsara, saṃvassaram, camvaccaṟam and all 
+the way to smamasaraṃ. 
+10 The three expressions are: […] pirapavāti ⟨JY⟩ 12 ākiya piramāti ⟨JY⟩ […] (UVSL1), ‘the Jovian 
+year Piramāti, which is the 12th in the [cycle] beginning with Pirapavam’; […] piṟapavātikatāptta 
+⟨JY⟩ 31 viḷampi ⟨JY⟩ […] (UVSL67ε), ‘the Jovian year Viḷampi, i.e. the 31st year that comes (°keta° 
+for °gata°) in the [cycle] beginning with Piṟapavam’; […] piṟapavātiketāṟtam 57 yitiṟ cellāniṉṟa 
+ṟattāṭca ⟨JY⟩ […] (GOML D465), ‘the Jovian year Ṟattāṭca, which occurs as [lit.: in] the 57th year 
+of the cycle that begins with Piṟapavam’. In all the three dates the progressive number assigned 
+to the Jovian year is one unit larger than expected, as if the number zero was assigned to the first 
+year of the cycle. Lists of the names of the years in the southern Jovian sixty-year cycle are found 
+in Rhenius 1836, 274–275; Pope 1867, 197; Sewell and Dīkshit 1896, ii (Table I); Pillai 1922 (I.1), 
+189 etc. 
+11 They are: abde tāruṇanāmake (EO0009b), abde parābhave (EO0014), abde kīlakanāmake 
+(EO0021), abde bhavākhye (EO0036α), varṣe nāmnā virodhau (EO0067β), abde śrīplavanāmake 
+(EO0078γ), asminn abde plavaṃge (EO0143). 
+
+=== PAGE 7 ===
+ 
+A Modular Framework for the Analysis of the Dates | 177 
+  
+has often been inserted between the name of the Jovian year and the word for 
+‘year’ (e.g. vikramanāmasaṃvatsare, RE05920; vilaṃbināmābde, EO0138). Please 
+note that the only occurrence of nāma preceding the name of the Jovian year, as 
+well as those of more unusual adverbs in place of nāma (such as nāmaka, three 
+times, and ākhya, one time), are found in metrical dates.  
+All the 26 dates composed in metre found in our database contain the name 
+of the Jovian year: in 25 dates it is marked with a word for ‘year’, in one date it has 
+been left unmarked. As to be expected, in these 26 versified dates the expressions 
+used to record the Jovian year are slightly more elaborate than usual, e.g. asminn 
+abde plavaṃge (‘in this year Plavaṃga’, EO0143), abde śrīplavanāmake (‘in the 
+illustrious year called Plava’, EO0078γ), varṣe nāmnā virodhau (‘in the year called 
+Virodhi’, EO0067β), abde bhavākhye (‘in the year whose name is Bhava’, 
+EO0036α). Moreover, three out of the five words for ‘year’ used as markers are 
+found exclusively in metrically arranged dates: abda (16 occurrences), abdaka 
+(once), and vatsara (three times). 
+In two cases, the Jovian year has been followed by a marker now lost or un-
+intelligible. Finally, the name of the Jovian year has been recorded with no 
+marker of any kind in only two dates, one of them metrically arranged. 
+3.3 Other years: Śālivāhanaśaka, Kali, Christian eras 
+In our dates, the year is sometimes recorded in accordance with three systems of 
+annual reckoning other than the Kollam era and the Jovian sixty-year cycle: they 
+are the Śaka or Śālivāhanaśaka era (recorded in 16 dates), the Kali era (occurring 
+in 11 dates), and the Christian era (attested 12 times). 
+The Śaka year – or, as it is more often called in the colophons, the 
+Śālivāhanaśaka year – is expressed in numerals in all its 16 occurrences and is 
+always marked. In 11 dates, the number of the year is preceded by the compound-
+marker śālivāhanaśaka/cālivākaṉacaka, which is either immediately followed by 
+a symbol for year or compounded with a word for ‘year’ (abda, arttam, aṟtam, 
+attam); in the latter case, a symbol for year is sometimes placed after the number 
+of the year. In four dates, the number of the Śālivāhanaśaka year is preceded by 
+the compound śakābda or śakārttam; in three of these dates, the number of the 
+year is also followed by a symbol for year (in two cases) or the word varuṣam (one 
+case). In one date only, the number of the year is simply followed by the word 
+āṇṭu (‘year’) as its marker. It is worth noting that the invocation svasti śrī, often 
+found before the year in inscriptions, precedes the Śālivāhanaśaka year in three 
+dates: although this invocation does not occur elsewhere in our corpus – and, as 
+
+=== PAGE 8 ===
+178 | Marco Franceschini 
+  
+such, seems to have an exclusive association with the Śālivāhanaśaka year – it 
+has not been considered a marker of this era. 
+The year is recorded in accordance with the Kali era in 11 dates. The number 
+of the Kali year is expressed in numerals seven times, three times in words; in one 
+date, a blank space has been left in its place. The Kali year is always marked: in 
+10 dates, the number of the year is preceded by the word kali or a compound in-
+cluding it as a marker (kalyādi, kaliyukāti, ‘since the beginning of the Kali age’; 
+kaliyuka, ‘the Kaliyuga age’; kaliyukāṟtam, kaliyukāptam, ‘year in the Kaliyuga 
+age’); in the remaining date, the compound vatsaraparimitakalau, (‘in the Kali 
+era amounting to year […]’) is appended to the number of the Kali year expressed 
+in words. In nine dates out of 11 a second marker has been added, either in the 
+form of a symbol for the Jovian year (placed before or after the number of the year) 
+or in the form of a word for ‘year’ (vatsara, varṣa), placed after the Kali year. 
+The Christian year is expressed in numerals in all its 12 occurrences and is 
+always marked. The most common marker is the symbol for the Jovian year: in 
+six dates it is placed after the number of the Christian year, in two dates it is 
+placed before it, preceded in turn by the word iṅkilīcu (‘English [era]’). In two 
+dates, the number of the Christian year is preceded by the expression 
+tēvacakāṟtam (‘year of the epoch of god’) and followed by the Tamil syllabic 
+vowel i, this latter is most likely to be understood as an abbreviation for iṅkilīcu. 
+In the remaining two dates, the number of the Christian year is followed by the 
+Tamil word āṇṭu (‘year’) as its marker. 
+It should be noted that the years given according to the Śālivāhanaśaka, Kali 
+and Christian eras are recorded in the dates together with at least one more year 
+– usually the Jovian year, sometimes the Kollam year, on a few occasions both 
+are featured; in only one case, a Christian year is given as the only year in a date 
+(BN-INDIEN 333). It is not rare for the dates to record three different years 
+(Śālivāhanaśaka, Kali, and Jovian or Śālivāhanaśaka, Kollam and Jovian) and in 
+two dates four different years are mentioned (Śālivāhanaśaka, Kali, Christian and 
+Jovian). 
+As shown in Table 1 (Appendix), as a rule the Śālivāhanaśaka, Kali and 
+Christian years precede the Kollam and Jovian years. A noteworthy syntactical 
+feature often found in these dates is the presence of a relative participle placed 
+between the Śālivāhanaśaka, Kali and Christian year(s) on the one side, and the 
+Kollam and/or the Jovian year(s) on the other. Such a relative participle (itiṉ mel 
+cellāniṉṟa,12 mel/meṟ/melc cellāniṉṟa, cellāniṉṟa, cellum, itil nikaḻkiṉṟa, ākiya, all 
+|| 
+12 The word itiṉ is sometimes abbreviated to its last letter (ṉ), as in: svasti śrī 
+śālīvāhanaśakābdam 748 ṉ melc cellāniṉṟa kollam 1002 ⟨KY⟩ vyaya ⟨JY⟩ tai ⟨M⟩m […] (EO0033β), 
+
+=== PAGE 9 ===
+ 
+A Modular Framework for the Analysis of the Dates | 179 
+  
+for ‘which occurs in’; sariyāna, ‘which is equivalent to’) constructs a relative sub-
+ordinate as in: cakārttam 1630 ⟨JY⟩ meṟ cellāniṉṟa caṟucitti varuṣam āvaṇi mācam 
+[…] (BN-INDIEN 329), ‘The Jovian year Caṟucitti, which occurs in the Caka year 1630, 
+the month of Āvaṇi’. This practice seems to be associated with the Śālivāhanaśaka 
+year in particular, as this syntactical structure is found in 15 dates of the 16 in which 
+the Śālivāhanaśaka year occurs in our corpus.13 However, it is also attested in dates 
+where only the Kali or the Christian year has been recorded (together with the 
+Jovian year), although rarely – one and three times respectively.14 
+3.4 Solar month 
+In our database, the solar month has been recorded 485 times. The month is al-
+ways identified by its name,15 which can be given according to two distinct sets of 
+names: one in Tamil and the other in Sanskrit. The Tamil names of the months 
+are a great deal more common, being attested 422 times, seven of them in 
+abbreviated form;16 the Sanskrit names are used only 60 times;17 in three dates the 
+|| 
+‘Svasti śrī. The Kollam year 1002, which occurs in the year 748 of the Śālivāhanaśaka era, Jovian 
+year Vyaya, month of Tai’; cālivākaṉacakārttam 1701 ṉ meṟ cellāniṉṟa kollam 956 ⟨KY⟩ cāṟu ⟨JY⟩ 
+cittirai ⟨M⟩ […](TORIML6355), ‘The Kollam year 956, which occurs in the year 1701 of the 
+Cālivākaṉa era, the Jovian year Cāṟuvari, the month of Cittirai’. 
+13 E.g., svasti śrī śālīvāhanaśakābdaḥ 1733 itiṉ mel cellāniṉṟa sarvatāri ⟨JY⟩ paiṅkuṉi ⟨M⟩m […] 
+(RE20078β), ‘Svasti śrī. The Jovian year Sarvatāri, which occurs in the year 1733 of the 
+Śālivāhanaśaka era, the month of Paiṅkuṉi’; śakābdaṃ 1520m varuṣam ākiya parāpava ⟨JY⟩ 
+kāṟttikai ⟨M⟩m […] (RE20042), ‘In the Jovian year Parāpava, which is the year 1520 of the Śaka 
+era, month of Kāṟttikai’; śālīvāhana śakābdaṃ 1787 ⟨JY⟩ sariyāna raktākṣināmasaṃvatsaraṃ 
+tulāmāsaṃ […] (MORI-3633), ‘The year called Raktākṣi, which is equivalent to the year 1787 of 
+the Śālivāhanaśaka age, the month of Tulā’. 
+14 The relative participle occurring in all these four dates is cellum, which, conversely, is never 
+found in the dates in which the Śālivāhanaśaka year is recorded. E.g.: tēvacakāṟtam 1847 i cellum 
+kīlaka ⟨JY⟩ kāṟtikai ⟨M⟩ […] (MS-OR-BOX Y Box Y item 3α), ‘The Jovian year Kīlaka, which occurs 
+in the year of the epoch of god 1847 of the English era, month of Kāṟtikai’. 
+15 In one date the name of the month is followed by the number (written in numerals) corre-
+sponding to its position in the list of the months (starting with Tam. Cittirai/San. Meṣa): tai 10 
+⟨M⟩m (RE20046), ‘the month Tai, number 10’. 
+16 The abbreviated forms are: mārkaḷ° for mārkaḻi (EO0074γ), c° and citt° for cittirai (RE04082β 
+and EO0034γ), kāṟt° (twice), kartti° and karṟṟ° for kārttikai (EO0006α, EO0064β, RE47712β and 
+RE47712γ respectively). 
+17 In one date the name of the solar month is given twice in a row, in the Sanskrit and in the 
+Tamil languages: taṉucuravi mārkaḷi ⟨M⟩ (RE15398), ‘the month of Mārkaḷi [i.e.] month Taṉucu’. 
+The compound taṉucuravi is a tamilized form for Sanskrit *dhanū-ravi, ‘the month Dhanus’. 
+
+=== PAGE 10 ===
+180 | Marco Franceschini 
+  
+month has been recorded with its English name, followed in the same date by its 
+Tamil counterpart.18 Furthermore, in one colophon in which dates for both the 
+start and end of writing have been recorded, the second occurrence of the name 
+of the month (which is the same in the two dates) has been replaced with a sym-
+bol representing the Tamil word meṟpaṭi, ‘the aforesaid’.19 In one date, the name 
+of the month has been lost. 
+Basically, two markers are alternately used to flag the name of the month: a 
+symbol for ‘month’ and a word for ‘month’ (māsa, mācam, mātam, mati, mās, 
+ravi). Both markers are written after the name of the month, with the exception of 
+a few cases occurring in metrically composed dates (see below). In over 75 per-
+cent, the name of the month has been marked with a symbol for ‘month’ (373 out 
+of 485), in approximately 20 percent by a word meaning ‘month’ (92 out of 485); 
+in one date the two markers appear together (mācimāca ⟨M⟩, RE43643δ). In 
+eleven cases the name of the month has not been marked in any way whatsoever; 
+in four dates the (Tamil) name of the month has been preserved, but the marker 
+is lost. 
+The symbols for month are far more frequently coupled with the Tamil names 
+of the months (365 times of 422) than those of Sanskrit (only six of 60), and they 
+are used as markers in all the three cases in which the month has been recorded 
+in its English name. In 67 occurrences the symbol for month has been followed 
+by the final part of the word that it represents: m (presumably for māsam or 
+mācam, 64 times), cam (i.e. the final syllable of the word mācam, two times), t° 
+(probably for tam, the final syllable of the word mātam, one time). 
+As for the words for ‘month’ used as markers, they occur in combination with 
+both the Tamil and the Sanskrit names of the months, evenly split (45 and 46 
+times respectively). The marker-words attested in our dates are māsa (80 times, 
+by far the most frequently attested), ravi (three times), mācam (four times), 
+mātam (three times), mati and mās (one time each). The words māsa and ravi 
+have been used to mark both Tamil and Sanskrit names of months, mātam and 
+mācam occur only in combination with Tamil names, mās and mati with the San-
+skrit name of a month. 
+As expected, the 17 solar month submodules which occur in metrical dates 
+(all in the Sanskrit language) have sometimes specific features, such as: use of 
+expletives (e.g. meṣasaṃjñe ca māse, ‘in the month called Meṣa’, VM10.18aβ), in-
+|| 
+18 E.g. 1835 ⟨JY⟩ māṟci ⟨M⟩ ceya ⟨JY⟩ paṅkuṇi ⟨M⟩ 9 […] (CNM D1063), ‘Year 1835 [of the English 
+era], month of Māṟci [i.e. March], Jovian year Ceya, month of Paṅkuṇi, 9th day’. 
+19 The date runs: 1043m ⟨KY⟩ tai ⟨M⟩ 8 ⟨D⟩ […] ⟨meṟpaṭi⟩ ⟨M⟩ 1 ⟨D⟩ (RE47715β), ‘Year Kollam 1043, 
+Tai month, 8th day […] the above-mentioned month, the 1st day’. 
+
+=== PAGE 11 ===
+ 
+A Modular Framework for the Analysis of the Dates | 181 
+  
+verted syntax, with the marker preceding the calendrical element (e.g. māse 
+mithunasaṃjñike, ‘in the month called Mithuna’, EO0138), use of uncommon 
+forms of the name of the month and of the marker-word (as in taulike māsi, 
+EO0143), use of quasi-standardized periphrastic expressions in absolute locative 
+construction meaning ‘when the sun was in/entered/reached (name of the 
+month)’, such as: tulāṃ prāpte divākare (EO0069α), ‘when the sun has entered 
+the [month of] Tulā’.20 The metrical requirements are very likely why in two met-
+rical submodules the mere name of the month is mentioned, with no accompany-
+ing marker or specification whatsoever. 
+3.5 Lunar month 
+In our database, the lunar month has been recorded in 32 dates. The names of the 
+lunar months, which are always recorded only in Sanskrit, have been marked by 
+a name for ‘month’ in two-thirds of the dates (24 out of 32): māsa is used in 21 
+dates, mās in three (once preceded by the expletive ca in a metrical date). As 
+usual, the marker-word can either be compounded to the name of the lunar 
+month (e.g. phālgunamāse, EO0002a; mārgaśīrṣamāsam, EO0111b) or added to it 
+as an apposition (e.g. puṣye māsi, ‘in the month of Puṣya’, VM2.28). 
+The name of the lunar month has been followed by a symbol for month on 
+three occasions, in one of which the symbol has been followed in turn by the let-
+ter m, representing the last letter of the word māsam or mācam (see above, under 
+‘Solar month’). Remarkably, these three are the only mentions of a lunar month 
+occurring in dates in prose: all the other dates in which the lunar month is men-
+tioned, whether marked by a word for ‘month’ or not, are metrical. 
+The name of the lunar month has not been accompanied by any marker in 
+five out of 32 occurrences (16%): this is a relatively high rate, especially when 
+compared with that of the solar month (2,3%). All five occurrences, however, bear 
+peculiar features that may well justify the absence of a marker identifying the 
+name of the month as such (although, admittedly, in the same dates other calen-
+drical elements have been ‘regularly’ marked by a specifying word): two dates are 
+|| 
+20 Such periphrastic expressions are attested in five dates, the other being: dinakare meṣam 
+gate, ‘when the sun enters the [month of] Meṣa’, EO0078γ; cāpaṃ yāte tv ahaskare, ‘when the 
+sun has gone to the month Cāpa [i.e. Dhanus]’, RE30370; gate bhānau kaṭakaṃ, ‘when the sun 
+had reached [the month] Ka[rka]ṭaka’, EO0009b; kuṃbhe pūṣiṇi sthite, ‘when the sun is in the 
+[month] Kumbha’, RE04127. 
+
+=== PAGE 12 ===
+182 | Marco Franceschini 
+  
+metrical or quasi-metrical,21 one date has been visually segmented into its ele-
+ments by means of daṇḍas inserted between them,22 two dates are made up of a 
+single Sanskrit compound.23 
+3.6 Day of the solar month 
+In our corpus, the day of the solar month has been recorded 467 times, in a quite 
+wide variety of ways; the marker, when present, always follows it, with just one 
+exception. The number of the day can be given in numerals or in words, and in 
+the latter case the number can be an ordinal (as is often the case) or a cardinal. 
+The marker can be a symbol for ‘day’, a (Sanskrit or Tamil) word for ‘day’ (or an 
+abbreviation) or, in a few cases, a combination of them. 
+In the large majority of cases (426 out of 467, 91%), the number of the day has 
+been expressed in numerals. By far, the most common case is that of the number 
+of the day expressed in numerals and marked by a symbol for ‘day’: alone, it 
+makes for about four-fifths of the total number of cases, i.e. 370 out of 467, in-
+cluding one occurrence in which , possibly a Tamil ordinal tag,24 has been put 
+right after the numerals, and six more cases in which the number of the day or 
+the marker is either now lost or illegible, but were most probably represented by 
+numerals followed by a symbol for ‘day’. In four cases the numerals and symbol 
+for ‘day’ have been followed by one more marker, i.e. the syllable ti25 (presumably 
+representing the last syllable of the Tamil word tikati or tiyati, ‘day’).26 In 42 cases 
+|| 
+21 E.g. dhādvatsare mādhavākhye śukle tv ekādaśe dine (RE08258α, anuṣṭubh), ‘In the year 
+Dhād [sic!], in the month of Mādhava, in the bright [fortnight], on the 11th day’. 
+22 nantaṉasaṃvasaram | āśvījam | bahaḷatrayodaśiyin aṉṟu | budhankiḻamai ṉāḷ (RE10924α), 
+‘The day of the year Nantaṉam, [month of] Āśvījam, on the thirteenth day of the dark fortnight, 
+Wednesday’. 
+23 durmmukhināmasaṃvatsaramāghaśuddhadaśamyām (VM10.22β), ‘On the tenth [lunar day] 
+in the bright fortnight of the [month of] Māgha of the year called Durmmukhi’; heviḷaṃ-
+bisaṃvatsarapuṣyaśuddhapaurṇamyāṃ (VM10.8a), ‘At the full moon of the month of Puṣya of 
+the year Hevilaṃbi’. 
+24 See Ciotti and Franceschini 2016, 71. 
+25 In one case, between the numerals and the syllable ti the scribe erroneously wrote a symbol 
+for ‘month’ in place of a symbol for ‘day’. 
+26 If so, this practice would be parallel to that of writing the last letter(s) of the words replaced 
+by the symbols for Kollam year, Jovian year and month (see above). The writing of the last letter 
+or syllable of the word represented by a symbol is possibly connected to the practice of actually 
+reading the symbolised word. The symbol replaces the word it represents, thus suspending the 
+linear process of writing: the written last syllable or letter of the replaced word is a splice – so to 
+say – which joins that suspension with the resumed linear process of writing. 
+
+=== PAGE 13 ===
+ 
+A Modular Framework for the Analysis of the Dates | 183 
+  
+the numerals expressing the day have been followed by a marker other than a 
+symbol: a Tamil word for ‘day’ (teti/tēti, ted(h)i, tikati, tiy(y)ati: 15 times)27 or an 
+abbreviation for one of such Tamil words for ‘day’ – the Tamil consonant t with a 
+curl on its right top (attested 27 times) or the syllable ti (for tikati or tiyati, see 
+above in this section) attested only once, with the Tamil locative suffix appended 
+to it (tiyil). Finally, in 19 cases the day represented in numerals has been left un-
+marked. 
+The number of the day has been recorded in words 39 times (8%); it is usually 
+marked by a word for ‘day’ or an abbreviation thereof (32 times), but in four dates 
+it has been marked by a symbol instead, and in three dates contains no marker. 
+Most usually, the number has the form of an ordinal: this is always the case with 
+the numbers expressed in Tamil (14), marked by a following Tamil word for ‘day’ 
+(teti, tēti, tedi, tikati; eight times), by a symbol for ‘day’ (four times)28 or unmarked 
+(two times). The numbers expressed in Sanskrit are ordinals in 12 cases, cardinals 
+in eight dates; in five cases, they either represent a cardinal or ordinal number 
+(ekādaśa, trayodaśa, saptadaśa). The Sanskrit numbers have been marked by a 
+Sanskrit word for ‘day’ following (dina, divasa, vasara, ahan; 23 times in all)29 or 
+left unmarked (one time). 
+The day has been mentioned in seven versified dates: the number of the day 
+is expressed in Sanskrit in all of them, and the marker a Sanskrit word for ‘day’. 
+Note that some unusual marker-words, such as vasara, ahan, sudina, occur only 
+in these metrical dates. 
+3.7 Day of the week 
+The day of the week has been recorded 204 times in our database. The names of 
+the days of the week are built from the name of a ‘planet’ (derived from that of a 
+|| 
+27 In six dates, the number of the day is followed by ā/ām/m, possibly Tamil ordinal tag (Ciotti 
+and Franceschini 2016, 71), and marked with tikati, tiy(y)ati. The form tiyyati is the Malayalam 
+counterpart of Tamil tiyati: it is attested only twice in one single colophon, both times preceded 
+by ordinal tag āṃ, which also occurs only here. 
+28 The four Tamil ordinals followed by a symbol for ‘day’ are all represented in unusual forms: 
+in three occurrences, all from the same manuscript (UVSL67), they are abbreviated to the first 
+syllable (mu for mutal, ‘first’); in the remaining case, mutal is represented by a specific symbol 
+(BN-INDIEN 65). 
+29 Among the four attested markers, dina is by far the most frequently attested: it occurs in 18 
+cases out of 23, once (in a metrical and highly corrupted date) in the form sudina placed before 
+the ordinal number indicating the day (RE15543α). 
+
+=== PAGE 14 ===
+184 | Marco Franceschini 
+  
+deity) followed by a word for ‘day’; both the names of the planets and the words 
+for ‘day’ can be expressed in Sanskrit and Tamil.30 In most cases, the word for 
+‘day’ following the name of the planet, although being part of the name of day of 
+the week itself, acts as the marker: in two cases, both in metrical dates, the word 
+for ‘day’ actually precedes the name of the planet. In 15 occurrences, an addi-
+tional marker, in the form of one more word for ‘day’ (dina/tina, nāḷ), has been 
+added after the name of the day of the week.31 In one case the marker has gone 
+lost; in just four occurrences (2%) the name of the planet is given without any 
+marking element.32 
+A few linguistic remarks are relevant here. The names of the planets are rec-
+orded in Tamil (68 times), in Sanskrit (71 times) or in hybrid forms (65 times) 
+which stand in between those of the first two sets;33 the three groups are split al-
+most evenly. Similarly, the words for ‘day’ coupled with the names of the planets 
+can be Tamil (kiḻamai, vāram, teti) or Sanskrit words (vāra, vāsara, dina, divasa). 
+As a rule, the name of the planet and the word for ‘day’ attached to it are in the 
+same language, but with some distinctions and exceptions. The Tamil and hybrid 
+names for the planets are all combined with Tamil words for ‘day of the week’, 
+namely kiḻamai and vāram,34 but with a contrasting distribution: kiḻamai is largely 
+combined with the Tamil names of the planets (59 times out of 73, 81%), and only 
+in a minority of cases with the hybrid names of the planets (13 times out of 73, 
+|| 
+30 E.g. San. soma-vāra, Tam. tiṅkaḷ-kiḻamai, ‘Mon-day, Mon-tag, lune-dì’; San. guru-vāra, Tam. 
+viyāḻa-kkiḻamai, ‘Thurs-day, Donners-tag, giove-dì’. 
+31 E.g. somavāradinaṃ (RE19996β), ‘the day Sunday’; stiravāṟaṉāḷ (RE50420), ‘the day Satur-
+day’; nāyittikiṣamai dinaṃ (RE10906α), ‘the day Sunday’. 
+32 By chance, all the four are names for the planet Mercury (budha, buddhi, putaṉ). 
+33 Besides the ‘purely’ Sanskrit and ‘purely’ Tamil names of the planets – such as soma/tiṅkaḷ 
+(Moon), maṅgala/cevvāy (Mars), guru/viyāḻam (Jupiter), śukra/veḷḷi (Venus), ravi/ñāyiṟu (Sun) – 
+a group of hybrid forms is attested in the dates. These hybrid forms are actually adaptations of 
+Sanskrit words to the Tamil writing conventions and/or to the Tamil phonetic system (e.g. coma 
+for soma, ‘Moon’; maṅkala for maṅgala, ‘Mars’; kuru for guru ‘Jupiter’; manta for manda, ‘Sat-
+urn’; cavumiya for saumya, ‘Mercury’; cukkira/cukkura for śukra, ‘Venus’; pāṉu for bhānu, ‘Sun’). 
+All of these forms are accepted in TL. A few more hybrid forms are attested in the dates, that are 
+partial (‘halfway’) adaptations to the Tamil language (pudhan and buda for budha, ‘Mercury’; 
+stira for sthira) and cases of hypercorrection (sdhira for sthira, ‘Saturn’). However, in the present 
+article they are treated as a separate category (‘hybrid names of the planets’, ‘Hyb’ in the table): 
+the reason for this is that the dissimilar frequency of occurrence of the words for ‘day’ coupled 
+with the ‘purely Tamil’ and the ‘hybrid’ forms of the names of the planets strongly suggests that 
+the scribes perceived – consciously or not – these two sets of names as linguistically unalike (see 
+below). 
+34 In one date, the Tamil word teti, ‘day of the month’, is coupled with a Tamil name for a planet 
+(RE19028β). 
+
+=== PAGE 15 ===
+ 
+A Modular Framework for the Analysis of the Dates | 185 
+  
+18%);35 on the contrary, the word vāram has been coupled with the Tamil names 
+of the planets only in 12% of the cases (seven out of 59), whereas it is used 88% 
+of the times (52 out of 59) in combination with the hybrid names of the planets.36 
+The Sanskrit names of the planets, have mostly been coupled with Sanskrit words 
+for ‘day’ (vāra, vāsara, dina, divasa),37 but have also been followed by the Tamil 
+word kiḻamai, albeit in just one case. 
+The day of the week has been recorded in 16 metrical dates, entirely com-
+posed in Sanskrit. These dates features unusual marker-words (such as divasa 
+and vāraka) and names for the planets not to be found elsewhere as well as unu-
+sual syntactic constructions and more elaborate expression, e.g. vārake ca 
+jīvākhyake saṃjñe (VM10.18aβ), ‘on the day called Jīva [= Thursday]’.38 
+3.8 Pakṣa 
+The lunar fortnight (San. pakṣa, Tam. paṭca, ‘wing; half’) has been recorded in 78 
+dates. In all the dates but one (for which see at the end of this section), the value 
+of this submodule is an adjective meaning ‘bright’, ‘white’, ‘former’ (referring to 
+the waxing moon) or ‘dark’,’black’, ‘latter’ (regarding the waning moon);39 the 
+marker of the submodule, when specified, is a noun for ‘fortnight’ – always 
+pakṣa/paṭca/pakka, except for a single chada. The adjectives attested in our cor-
+pus indicating the waxing fortnight are śukla/cukkila (‘bright’), śveta and valakṣa 
+(‘white’), śuddha (‘clear, bright’), pūrva (‘former’); those indicating the waning 
+fortnight are kṛṣṇa/kuṣṇa (‘black’), bahala (‘thick, dense; intense, deep (of a 
+colour)’), tāmisra (‘dark’), apara and amara (‘latter’),40 valakṣetara (‘the other 
+than the white’, i.e. ‘the dark/black’), amāva[ci], ‘new moon’.41 
+|| 
+35 Cf. Tam. putaṉkiḻamai (RE10835γ) and Hyb. pudhanṅkiḷamaiyum (EO0044a), both for 
+‘Wednesday’. 
+36 Cf. Tam. ātivāramum (BN-INDIEN 319) and Hyb. pāṉuvāram (RE20066), ‘Sunday’. 
+37 Among these four markers, vāra (occurring 40 times out of 65) and vāsara (18 occurrences) 
+are by far the most commonly used. 
+38 Jīva is an epithet of Bṛhaspati, who is the regent of Jupiter, which, in turn, is the planet which 
+identify Thursday. 
+39 In Southern India the lunar months are amānta, i.e. they end on the new moon tithi: thus, 
+the waxing fortnight comes first and is sometimes called ‘former’ (pūrva), the waxing fortnight 
+follows and is sometimes called ‘latter’ (apara, see below). 
+40 For apara, ‘latter’, see the preceding note. According to TL, Tam. amara derives from San. 
+apara (see under the entry amarapakkam). 
+41 The compound amāvapakkac, attested once and referring to the dark fortnight, should be 
+emended into amāva[ci]pakkac, ‘the fortnight of the new moon tithi (amāvaci)’. Still, it is rather 
+
+=== PAGE 16 ===
+186 | Marco Franceschini 
+  
+In 60 cases (out of 66, 91%) the specifying adjective and the noun for ‘fort-
+night’ have been joined in a compound42 (kṛṣṇapakṣattil, ‘in the black (i.e. wan-
+ing) fortnight’, EO0134aβ; pūṟuvapaṭcattil, ‘in the former (i.e. waxing) fortnight’, 
+BN-INDIEN 340), sometimes including the tithi as the third member (e.g. 
+pūrvapakṣacaturddaśyāṃ, ‘in the 14th [tithi] of the former (i.e. waxing) fortnight’, 
+RE05920; kuṣṇapaṭcatiriyoteciyuṅ, ‘in the 13th [tithi] of the black (i.e. waning) 
+fortnight’, EO0034γ). On the other hand, in six cases the adjective and the noun 
+are grammatically distinct units, each bearing its own ending (always the loca-
+tive): in these cases (all occurring in versified dates in Sanskrit), the syntactic or-
+der of the two words is, of course, freer than usual (e.g. pakṣe śvete ca, ‘and in the 
+white (i.e. waxing) fortnight’ VM10.18aβ; pakṣe śukle, ‘in the white (i.e. waxing) 
+fortnight’, RE04127; pakṣe vaḷakṣetare, ‘in the other-than-the-white (i.e. waning) 
+fortnight’, EO0009b). 
+In eight dates, the word for ‘fortnight’ (i.e. the marker) has been dispensed 
+with, e.g.: śukle (RE08258α), ‘in the white [fortnight]’; °śuddha° (VM10.22β), ‘the 
+bright [fortnight]’;43 bahalatrayodaśiyin (RE10924α), ‘in the 13th tithi in the dense 
+(i.e. dark) fortnight’; śukladvitiyai (RE05574), ‘the second [tithi] in the bright [fort-
+night]’. 
+In one date the fortnight is recorded with its proper name, i.e. mākāḷayapakṣa 
+(San. mahālayapakṣa). The Mahālayapakṣa is the latter (waning) fortnight of the 
+lunar month of Bhādrapada (or Bhādra): it is best known as Pitṛpakṣa and, as its 
+name indicates, is particularly devoted to the celebration of rites in honour of the 
+ancestors. The manuscript in point (MS-OR-2369a) was completed on 
+mākāḷayapakṣa amāvāsai, ‘The new moon tithi of the Mākāḷayapakṣa’, i.e. on the 
+last tithi of the Mahālayapakṣa. 
+Lastly, in three dates all that has been recorded is a word for fortnight (pakṣa, 
+twice, pakkam, once), without any complement of specification to tell us into 
+|| 
+puzzling, since no similar compound is found in our database referring to the dark or the bright 
+fortnight (*pūrṇamaipakkac, ‘the fortnight of the new moon’); possibly, it is an elliptical expres-
+sion equivalent to (a hypothetical) San. compound amāntapakṣa or amāvāsyāntapakṣa, ‘the 
+fortnight which ends on the new moon tithi’, along the lines of amānta, ‘[the lunar month] that 
+ends on the new moon tithi’. 
+42 Given the rudimentary grammar that often characterises our colophons, in some cases it is 
+admittedly difficult to determine if the adjective and the noun are actually compounded or 
+simply juxtaposed, especially when none of the two is marked by an ending, e.g. cukkilapaṭca 
+(or cukkila paṭca?). 
+43 This date is expressed as a single compound durmmukhināmasaṃvatsaramāghaśuddha-
+daśamyām, ‘On the tenth [tithi] in the bright fortnight of the [month of] Māgha of the year called 
+Durmmukhi’. 
+
+=== PAGE 17 ===
+ 
+A Modular Framework for the Analysis of the Dates | 187 
+  
+which of the two pakṣas the date falls. These last three may simply be scribe’s 
+oversights, in which adding the specifying adjective to the word pakṣa44 has been 
+forgotten. 
+3.9 Tithi 
+A tithi, sometimes called the ‘lunar day’,45 corresponds to one thirty of the luna-
+tion: thus there are fifteen tithis in both fortnights, the waxing and the waning. 
+In our corpus, the tithi has been recorded 143 times. As a rule, tithis are named 
+after their ordinal number, always recorded in words with only one possible ex-
+ception;46 however, some tithis have special names. The first tithi of both luna-
+tions can be called pratipad (also pratipadā, pratipadī), ‘beginning’: in our 
+corpus, this name occurs only once47 in a metrical date, whereas in nine dates the 
+first tithi is indicated by the word ‘first’ (prathamā, prathamai etc.). Aside from 
+which, in our corpus the full moon and the new moon tithis, which occur 18 
+times, have never been recorded by their ordinal number, but with words and 
+compounds meaning ‘full moon’ and ‘new moon’. The names for the full moon 
+tithi attested in our corpus are paurṇamāsī and paurṇamī (also paurṇami)48 
+(San.), paurṇamāvācai (also °māvāsai) and pavuraṇai49 (Tam.), plus the hybrid, 
+creative (and sometimes incorrect) forms pūrṇamāvāsya, paurṇamāvāsya, 
+paurṇamāvāsyai, paurṇamāsāsya (for °māvāsya?), pūrṇai; the new moon tithi is 
+called amāvāsī (San.), amavāci and am(m)āvāsai (Tam.). Aside from the first and 
+last tithis of the two pakṣas, other tithis have special names. In our corpus only 
+|| 
+44 One can also surmise that the scribes intentionally wrote only the word pakṣa, accounting 
+one of the two pakṣas as the ‘pakṣa par excellence’, which, as such, does not need any further 
+specification. Unfortunately, the data presently at our disposal is far too scant to verify such hy-
+pothesis. In one date, the cross-reference with the other calendrical elements let us know for 
+certain that the fortnight denoted by the word pakkam is the bright one; however, it is not possi-
+ble to convert the remaining two dates into the Gregorian calendar and, consequently, it cannot 
+be determined which of the two fortnights is referred to by the word pakṣa recorded in them. 
+45 In this article the expression ‘lunar day’ is never used and the word ‘day’ is used only to refer 
+to the day of the solar month. 
+46 See the next section, ‘On days and tithis’, point B, note 54. 
+47 The colophon reads śuklapratipadau tithau (VM10.5), where °pratipadau is apparently the 
+locative of a stem °pratipadi-. 
+48 The form paurṇami (from San. paurṇamī) is attested in two versified dates entirely composed 
+in Sanskrit (EO0078γ, VM10.4) and one time in a date composed in a hybrid Tamil-Sanskrit lan-
+guage, with the former prevailing over the latter (EO0078γ, second date). 
+49 In the colophon, erroneously, pavuralai (RE10900β). 
+
+=== PAGE 18 ===
+188 | Marco Franceschini 
+  
+one has been attested, i.e. the tithi called in Sanskrit vijayādaśamī (‘the 10th 
+[tithi, named] Victory’), recorded four times with its Tamil name vicayatacami 
+(also -tecami, -ticaimi): it is the tenth tithi of the bright fortnight of the lunar 
+month of Āśvina, and is considered especially propitious, as it follows and closes 
+the Navarātra festival – which, in turn, follows the Pitṛ- or Mahālaya-pakṣa (see 
+above). 
+Regarding markers, tithis are the only calendrical elements left unmarked in 
+the vast majority of the cases: 114 out of 143 (80%). In all remaining cases but 
+one, tithis have been marked with the word tithi (also titi, titī), which usually fol-
+lows the number or the name of the tithi. In one occurrence, the tithi has been 
+marked with a word for ‘day’ (dina, in ekādaśadine, VM10.23), by contrast with 
+the fact that words for ‘day’ are used to mark the day in all other occurrences.50 
+As expected, the tithis bearing a special name (such as the new and full moon 
+tithis) are generally left unmarked, no doubt because their very names imply that 
+they are tithis, thus adding a marker could be deemed dispensable; nonetheless, 
+in four cases the name of a tithi has been followed by the marker tithi.51 
+As usual, in metrical dates the submodule can contain expletives (such as 
+pañcamīpuṇyatithyāṃ, ‘in the meritorious fifth tithi’, EO0143) or more elaborate 
+expressions (e.g. paurṇamisaṃjñike tithivare, ‘in the excellent tithi called 
+paurṇami (i.e. full moon)’, EO0078γ). 
+At the inter-submodule level, tithis are strictly related to pakṣas. As men-
+tioned above, most of the tithis have been named after their ordinal number in 
+both fortnights: it is only through the specification of the pakṣa that two tithis 
+bearing the same ordinal number can be distinguished. Thus, one would expect 
+tithis to be regularly paired with the indication of the pakṣa; however, in 51 dates 
+the ordinal number (or the name pratipad) identifying the tithi has not been 
+|| 
+50 On this point, see the paragraph ‘Exceptions’, at the end of the next section (‘On days and 
+tithis’). In two more dates, the tithi (represented in one case by the ordinal number captamī and 
+in the other case by the name pūrṇamāvāsya, ‘full moon’) is followed by a word meaning ‘day’, 
+namely by the Tamil word tiṉa in the locative case: cukkilapakṣacaptamītiṉattil (RE09826) and 
+pūrṇamāvāsyattiṉattil (RE33916β). However, the form tiṉattil (as well as its hybrid counterpart 
+dinattil and their various spellings), used alone or, more frequently, preceded by or compounded 
+with other words (cu-, śubha-/cupa-, kūṭiṉa/kūṭiya, peṟṟa/petta, ippaḍi paṭṭa, cērnta and several 
+others) is not a marker of the preceding calendrical element: it occurs exclusively at the end of a 
+date functioning as an end-of-date flag (see below), and this holds true also in the two aforemen-
+tioned cases. 
+51 In addition to śuklapratipadau tithau (VM10.5), already mentioned a few notes above, see 
+e.g. cittirāpaurṇamī tithi (EO0078β) and cittirāpaurṇami tithi (EO0078γ), ‘the tithi of the full 
+moon of [the lunar month of] Cittirā’. 
+
+=== PAGE 19 ===
+ 
+A Modular Framework for the Analysis of the Dates | 189 
+  
+accompanied by the indication of the pakṣa. Conversely, and somewhat 
+unexpectedly, in six (non-metrical) dates the name denoting the full moon and 
+new moon tithi is pleonastically preceded by the word indicating the pakṣa: 
+śuklapaurṇamāsyāṃ 
+(RE04137), 
+śuklapakṣe 
+paurṇamāvāsyām 
+(RE15438), 
+puṟuvapaṭcattup 
+pūrṇaiyum 
+(TAM303), 
+°śuddhapaurṇamyāṃ 
+(VM10.8a), 
+kṛṣṇapakṣaṃ ammāvāsai (RE15447γ), mākāḷayapakṣa amāvāsai (MS-OR-2369a). 
+As usual, the submodules recorded in versified dates contain unusual and 
+ornate expressions, such as paurṇamisaṃjñike tithivare (EO0078γ), ‘the best of 
+the tithis, branded full moon’. 
+On days and tithis 
+Both the solar day and the tithi are expressed in numbers, thus it is sometimes 
+unclear whether a number in a date represents the former or the latter. This sec-
+tion attempts to address this matter. Firstly three ‘objective criteria’ have been 
+applied to enable to determine incontrovertibly (‘positively’) whether the num-
+bers contained in a considerable amount of dates represent the day or the tithi; 
+subsequently, using these cases as a statistical basis, consistencies concerning 
+how the solar day and the tithi have been recorded in the dates in our database 
+are sought out – in terms of their relative position, the form in which their respec-
+tive numbers have been represented and the symbols and words used to mark 
+them. Finally, these consistencies are put in the form of nine ‘rules’ and a quan-
+titative account of the scope of their validity in the frame of our database is pro-
+vided. 
+To begin with, numbers in the dates may often be unambiguously (‘posi-
+tively’) identified as representing a day or a tithi on the basis of the following 
+three objective criteria: 
+1)  a number greater than 14 represents the solar day, 14 being the highest num-
+ber used to record a tithi in our database (the 15th tithi is invariably recorded 
+with a name for ‘full moon tithi’ or ‘new moon tithi’);  
+2)  a number represents the day (or, conversely, the tithi) if all the calendrical 
+elements in the date, combined together, correspond to a date in the 
+Gregorian calendar (between 1550 and 1920 CE) only interpreting the number 
+under investigation as representing the day (or, conversely, the tithi), 
+whereas no corresponding date can be arrived at taking that number as rep-
+resenting the other value; 
+3)  the calendrical value (day or tithi) represented by a number can be deter-
+mined with certainty due to the fact that the very date has been repeated 
+
+=== PAGE 20 ===
+190 | Marco Franceschini 
+  
+twice (sometimes thrice!) in the same colophon or manuscript, with varia-
+tions in the calendrical elements mentioned or in the way they have been 
+recorded. 
+Through the application of criteria 1–3, a good number of numbers representing 
+a solar day or a tithi can be identified;52 based on these cases, the following nine 
+statistical ‘rules’ can be deduced. These rules may be proven to be valid in a very 
+large number of cases, but not in all; however, only three have been found ‘posi-
+tively contradicted’, and this occurs in only two dates (see ‘Exceptions to rules A 
+to I’, below). 
+A)  The submodule of the solar day precedes that of the tithi. Based on criteria 1–
+3, this has been proved in 109 out of the 113 dates in our database in which 
+both the solar day and the tithi have been recorded; the remaining four cases 
+are indeterminable according to criteria 1–3, but all can be proven on the ba-
+sis of rule B, below (two of them on account of rule H also). Thus, no confu-
+sion between the solar day and the tithi is possible in the dates in which both 
+of them have been recorded. 
+B)  A number given in numerals expresses the solar day. In our database, there 
+are dozens of positive attestations of numbers given in numerals referring to 
+the solar day,53 and no one single positive attestation where it stands for the 
+tithi.54 Hence, confusion between the solar day and the tithi may arise only in 
+dates where only one number has been recorded (according to rule A) and 
+that number has been expressed in words (according to B). 
+C)  The symbols for ‘day’ always mark numbers representing the day of the solar 
+month. The symbols for ‘day’ occur almost always after numbers given in nu-
+merals (359 times out of 365), which are themselves exclusively used to rec-
+ord the solar day (as stated in rule B, above); however, according to criteria 
+1–3 (and also rule F, below), the symbols for ‘solar day’ have undoubtedly 
+|| 
+52 The cases in which this is not possible will be called ‘indeterminable’. 
+53 In our corpus, out of 422 occurrences of a number given in numerals representing the day or 
+the tithi, 282 can be positively proved to indicate the day on the basis of just criterion 1. 
+54 To be sure, in our database there is one possible attestation of the tithi recorded in numerals 
+(RE10829β). However, we cannot call it a ‘positive’ evidence, since in that date, which is written 
+on a guard leaf and is hardly legible, the tithi seems to be recorded with the Tamil digit ‘8’ (or 
+perhaps ‘18’, which would bar it from representing the tithi). Moreover, the calendrical elements 
+in the date (Jovian year, solar month, day of the month, day of the week, tithi (?), constellation) 
+do not correspond to any date in the Gregorian calendar (in the range 1550–1920 CE), thus one of 
+them must be wrong – with the suspicions mainly falling on the tithi. 
+
+=== PAGE 21 ===
+ 
+A Modular Framework for the Analysis of the Dates | 191 
+  
+been used to mark the solar day also in the four occurrences where they fol-
+low a number given in words (always a Tamil ordinal, see rule F below). 
+D)  Words for ‘day’ (or abbreviations thereof, such as t° for tikati or teti) have 
+been used to mark the solar day. According to rule B, this is true of all the 47 
+times in which these words have been used in combination with numbers 
+expressed in numerals;55 this also holds for those cases in which a word for 
+‘day’ has been used to mark numbers expressed in words, albeit with one 
+exception. In our database, there are 33 such cases:56 the number can be 
+proved to represent the day in 29 cases (19 on the basis of criteria 1–3, 10 on 
+the basis of rule E, below), three cases are indeterminable; in one case the 
+number inconsistently stands for the tithi. This last one also breaks rule H, 
+see the paragraph ‘Exceptions’, below.  
+E)  In a date made up of just the year, month and a number, the number repre-
+sents the day, not the tithi. As shown above (see ‘Frequency and order of the 
+calendrical elements’), this is the most common structure of the dates, occur-
+ring 211 times in total. In such dates, it is safe to say that the number following 
+the year and the month represents the day in 119 cases on the basis of crite-
+rion 1 (the number is greater than 14) and in 78 more cases on the basis of the 
+statistical rules B and C. Conversely, there is not one such date where the 
+number represents the tithi on the basis of statistical rules G, H and I (see 
+below). 
+F)  Numbers expressed in the Tamil language represent the solar day. There are 
+14 such numbers in our corpus, all in the form of ordinal numbers:57 seven 
+may be identified as days on the basis of criteria 1–3, six are days according 
+to rule E; one can be interpreted either as the day or the tithi. 
+G)  The numbers (all expressed in words) marked with the word tithi (also titi and 
+tīti represent the tithi: at any rate this can be proven in 23 cases of 24 on the 
+basis of criteria 1–3. In addition to these 24, the marker tithi has been used in 
+four more dates to mark the name of a tithi (paurṇamī/paurṇami, pratipadi). 
+H)  A number given in the form of a Sanskrit (or hybridised Sanskrit) ordinal 
+number in the feminine gender (with or without a marker) represents a tithi. 
+In our dates, of 114 Sanskrit (or hybridised Sanskrit) ordinal numbers in the 
+feminine gender, 108 represent the tithi and six are indeterminable (on the 
+basis of criteria 1–3); moreover, there is not a single positive attestation of a 
+|| 
+55 In 39 out of these 49 cases, this is confirmed by the objective rules 1–3. 
+56 All of these numbers are in the masculine or neuter gender (see point H). 
+57 In some dates, mutal (‘first’) is abbreviated with the syllable mu (three times in the same 
+manuscript: UVSL67α, UVSL67γ, UVSL67θ) or represented by a symbol (BN-INDIEN 65). 
+
+=== PAGE 22 ===
+192 | Marco Franceschini 
+  
+day recorded in such a form58. In addition, in our database there is not a sin-
+gle positive attestation of a tithi represented by a cardinal number: all the 112 
+numbers expressed in words which proved to represent a tithi through crite-
+ria 1–3 are Sanskrit (or hybridised Sanskrit) ordinal numbers. Among these, 
+108 (96%) are feminine ordinal numbers; for the remaining four cases, see 
+below, at the end of this paragraph.  
+As for the feminine ordinal numbers representing the tithis, they are some-
+times recorded in ‘proper’ Sanskrit, either in their stem form or declined in 
+the nominative (e.g. śrīśuklaprathamātithau, pañcamīpuṇyatithyāṃ, ṣaṣṭhī, 
+daśamī, caturddaśītithau)59 or, more often, in the locative (e.g. dvitīyā[yā]ṃ, 
+caturtthyāṃ tithau, pañcamyāṃ, daśamyām, caturddaśyāṃ).60 However, in 
+most cases these ordinal numbers have been adapted to Tamil phonetics/
+phonology, with the final Sanskrit -ī- shortened to -i (e.g. caturtthi/caturtti, 
+pañcchami/pañcami, 
+ṣaṣṭi/saṣṭi/caṣṭi, 
+daśami/tacami/tecami/ticami, 
+tiṟiyoteci/tiriyoteci/tiṟaiyoteci)61 and the final Sanskrit -ā- changed into -ai 
+(e.g. prathamai tithi, dvitiyai/tvatiyai, tṛtīyai/tritikai/tiṟitikai/tutikai).62 One 
+may note that in Sanskrit compounds such as śrīśuklaprathamātithau, 
+pañcamīpuṇyatithyāṃ, caturddaśītithau, the ordinal numbers inflected in 
+the feminine are nouns63 and, joining with the word tithi, form karma-
+dhārayas of the type: ‘on the auspicious tithi which is the first in the bright 
+[fortnight]’, ‘on the auspicious tithi which is the fifth’, ‘on that tithi which is 
+the fourteenth’.64 As mentioned above, of 112 ordinal numbers representing 
+|| 
+58 In our database, the numbers expressed in words which represent the day are recorded in 
+the form of Sanskrit cardinals, Sanskrit ordinals, or Tamil ordinals. These Sanskrit cardinals and 
+ordinals are all in the masculine or neuter genders and they are always accompanied by a word 
+for day as their marker, e.g. dvitīyadina/dvitīyadine (RE10871/VM1.59α), ṣaṭdinaṃ (RE19980β), 
+saptamavāsare (EO0014), daśame [’]hani (EO0009b), ekādaśadivase (EO0002a), saptaviṃśati 
+divase (VM1.21). 
+59 Respectively in EO0021, EO0143, MORI-3633, RE15535, EO0036α. 
+60 Respectively in EO0067β, RE26402, VM10.18aβ, VM10.22β, EO0069α. 
+61 Respectively in EO0076β/EFEO_GUEST_MSS_001β, RE10717β/EO0069γ, RE20103α/RE43643δ/
+UVSL1, VM4.1a/UVSL67η/TORIML2676/BN-INDIEN 973, BN-INDIEN 199/BN-INDIEN 322/BN-
+INDIEN 333. 
+62 Respectively in EO0014, EO0408/RE25374, EO0039/EO0583a/NLK3241/BN-INDIEN 318. 
+63 See also pakṣe śukle saptamīsaṃyute (RE04127), ‘in the bright fortnight joined with the sev-
+enth [tithi]’. 
+64 In all likely, the feminine gender of these ordinal numbers is the result of their grammatical 
+agreement with the name tithi. According to dictionaries, San. tithi can be both masculine or 
+feminine, but in our dates we can assume that it is always used in the feminine: this can be 
+evinced by the gender of the ordinal numbers that qualify them (e.g. pañcamyām tithau, EO0143; 
+
+=== PAGE 23 ===
+ 
+A Modular Framework for the Analysis of the Dates | 193 
+  
+the tithi, four are not in the feminine gender. Three of them (tritīyatithi, found 
+twice in the same colophon in RE33814β, and tṛtīyatithi in RE50361) are to be 
+interpreted as karmadhāraya whose first member (the ordinal number) is an 
+adjective. The remaining case, ekādaśadine (VM10.23), is an exception to the 
+present rule (as the number is not in the feminine) and also to rule D (because 
+the marker is a word for ‘day’): it will be dealt with separately under ‘Excep-
+tions’, below. 
+I)  Numbers expressed in words in Sanskrit (or hybridised Sanskrit) and left un-
+marked represent the tithi. On the basis of criteria 1–3, out of 96 such num-
+bers 87 can be positively proved to represent the tithi, nine cases are 
+indeterminable. Rule I is almost of a corollary to rule H, as 95 unmarked num-
+bers of 96 have been recorded in the form of feminine ordinals: however, only 
+one remaining number, recorded in the form of a masculine or neuter ordinal 
+number, probably stands for the day (see below). 
+Exceptions to rules A to I. As shown above, the validity of rules A to I can be 
+demonstrated in most cases, but not in all. At the same time, they have been cor-
+roborated by the fact that only three of these nine rules are ‘positively infringed’ 
+and, all the more, by the fact that it occurs in only two dates. 
+The one exception to rule I is represented by the date 925 ⟨KY⟩ śuklavarṣam 
+pañca ānimāsi sudine (VM1.59β), ‘on the auspicious day of the Kollam year 925, 
+[Jovian] year Śukla, 5th [day?], month of Āni.’. In this date the number pañca 
+probably represents the day, in line with rules E (the date is made up of just the 
+year(s), the month and a number) and H (in our corpus positive tithis are never 
+represented by a cardinal number); however, is contra to rule I, according to 
+which a number expressed in Sanskrit words and left unmarked must represent 
+the tithi. It should be noted that this date is syntactically bizarre, for the number 
+of the day precedes the name of the month, which is odd as sudine has been at-
+tested to nowhere else in our corpus, neither as a marker nor an ‘end-of-date 
+marker’ (see below). 
+Also rules H and D have been contravened only once and this occurs in the 
+same date: śubhakṛtssaṃvatsare mārgaśīrṣamāse kṛṣṇapakṣe ekādaśadine 
+maṃgalavāsare svātīnakṣatre (VM10.23). The submodule ekādaśadine is ex-
+pected to represent the solar day according to both H (as the Sanskrit number, 
+whether cardinal or ordinal, is not in the feminine) and D (as words for ‘day’, such 
+|| 
+prathamai tithi, EO0014; dvādaśi tithi EO0009b), by the sporadic occurrence of the San. locative 
+singular tithyām (pañcamīpuṇyatithyāṃ, EO0143) and, perhaps, also by that of the hybrid form 
+titī (!) (titī aṣṭṭami, BN-INDIEN 351). 
+
+=== PAGE 24 ===
+194 | Marco Franceschini 
+  
+as dina, mark the day): however, if ekādaśadine is interpreted as representing the 
+day, the calendrical elements in the date combined together do not correspond 
+to any date in the Gregorian calendar between 1550 and 1920 CE. Conversely, if 
+ekādaśadine is taken to express the tithi, all the calendrical elements in the date 
+concur on 27 December 1842. 
+3.10 Nakṣatras 
+In our database, the nakṣatra, ‘constellation’, has been recorded 152 times. In this 
+submodule, the values are always represented by the names of the constellations, 
+which have been recorded in a somewhat wide spectrum of spellings, included 
+between the Sanskrit and the Tamil forms of the names.65 The markers are all syn-
+onymous words meaning ‘constellation’: nakṣatra is by far the most commonly 
+found (113 occurrences, three-fourths of the total), but also tāra, tāraka, ṛkṣa and 
+bha have been attested. A straight and forward line separates the former marker 
+from the others: the attestations of nakṣatra in versified dates are extremely rare 
+(two out of 113), whereas the other markers occur only in versified dates; moreo-
+ver, the marker nakṣatra always follows the name of the nakṣatra, whereas the 
+other markers sometimes precede the value they flag and are often accompanied 
+by expletives of some sort, inserted for metrical reasons. The name of the constel-
+lation has been left unmarked in 28 occurrences (25%). 
+One interesting case is represented by a submodule in which both the 
+nakṣatras occurring during that day have been recorded: puraṭṭātiy ākay [sic] 
+uttiraṭṭātiyum ākat (RE47681), ‘when there is [the constellation] Puraṭṭāti and 
+there is [the constellation] Uttiraṭṭāti’. On nearly all days two successive 
+nakṣatras occur, but only one (as a rule the one which is current at sunrise) has 
+been recorded in the date: it is not clear why in this single case the scribe decided 
+to write both the nakṣatras of the day.66 
+|| 
+65 E.g. ārdrā, ārudrā, ārudira, tiruvātirai, name of the 6th nakṣatra (respectively attested in 
+EO0583b, RE20103α, RE15447γ, RE25374). 
+66 One can surmise that the scribe finished to copy the manuscript around the time in which 
+one nakṣatra ended and the next one begun. In addition, note that the two nakṣatras bear the 
+same name (Tam. puraṭṭāti and uttiraṭṭāti, San. pūrvabhādrapada and uttarabhādrapada) and, 
+as such, they might be felt to form a pair. 
+
+=== PAGE 25 ===
+ 
+A Modular Framework for the Analysis of the Dates | 195 
+  
+3.11 Minor calendrical elements 
+Some minor calendrical elements have sometimes been recorded in the dates, 
+usually placed after the major ones described thus far. The start, duration and 
+end of these minor elements are not based on the (real or apparent) motion of 
+heavenly bodies, but determined through purely mathematical computation: 
+they are of no help for converting a date into the Gregorian calendar, but are of 
+great importance for calculating auspicious and inauspicious points in time. At 
+present, a proper statistical study on these elements is not possible, due to their 
+low frequency in our dates: for the time being, the following remarks on them 
+must suffice. 
+These elements are the yoga (which occurs in 11 dates), the karaṇa (recorded 
+in seven dates), the lagna or lakṣaṇa (found in 20 dates), the velā (six occur-
+rences), the muhūrta (two occurrences). As a rule, their submodules are made up 
+of the specific name of the element (the ‘value’) followed by the name of its ‘class’ 
+as the marker, e.g. cittiṉāmayōkamum keṟacaivākaṟaṇamum tulālekkaṉamum 
+rācataveḷaiyum nantaṉimukuṟtamuṅ (UVSL1044), ‘the yoga called Citti, the 
+karaṇa Keṟacaivā, the lakṣaṇa Tulā, silver time (? rācata-[ve]ḷai), the muhūrta 
+Nantaṉi’. The marker has been omitted only two times, in the same date 
+(mākēntiram [yoga] […] vaṇicam [karaṇa], UVSL67η); in just one (metrical) date, 
+the marker has been mentioned before the value, no doubt for prosodical reasons 
+(lagne kaṭaka iti, VM10.18aβ). In the submodule of the yoga, the adverb nāma has 
+often been inserted between the value and the marker, as in the above mentioned 
+case (also in atikeṇṭaṉāmayogamum, RE05574; cupam nāmayokamun, RE15398). 
+Yogas and karaṇas are two of the five elements on which pañcāṅgas are based, 
+together with the tithi, the day of the week and the nakṣatra (see above, ‘Fre-
+quency and order of the calendrical elements’): one might note that in the seven 
+dates in which the karaṇa has been recorded, the other four calendrical elements 
+have been recorded also, save for one date in which the day of the week is miss-
+ing. 
+Occasionally, other temporal indication has also been recorded, such as the 
+season (e.g. śaradṛtau, ‘in the autumn season’, RE15438; varṣaṛtuvil, ‘in the rainy 
+season’, VM4.2a), the course of the sun (e.g. uttarāyaṇe, ‘in the northern course 
+of the sun’, EO0002a; dakṣiṇāyane, ‘in the southern course of the sun’, VM1.32), 
+the part of the day (e.g. tivi, ‘during the day’, UVSL1; irāttiri, ‘at night’, UVSL67γ; 
+utaiyattil, ‘at sunrise’, EO0004; °ṉāḷk kālame ‘early in the morning’, BN-INDIEN 
+309; sāyaṃkālaṃ, ‘in the evening’, RE50361), the name of the festivity of the day 
+(mahāśivaratri, RE55853θ). 
+
+=== PAGE 26 ===
+196 | Marco Franceschini 
+  
+3.12 Nāḻikais 
+In our corpus, 19 dates include numbers representing the nāḻikais (Tam. also nāḻi, 
+San. ghaṭikā): a nāḻikai, sometimes called the ‘Indian hour’, corresponds actually 
+to one-sixtieth of a mean solar day, i.e. 24 minutes. In our dates, the nāḻikais have 
+been recorded as integers, mostly represented in numerals, occasionally in 
+words; in six dates the integer is followed by rational numbers (i.e. fractions, rep-
+resented by special symbols in the Tamil script), whereas in two dates the first 
+integer has been followed by one more integer. In all likelihood, both the frac-
+tions and the second integers represent the viṉāṭis (San. pala), the ‘Indian 
+minutes’, which correspond to one-sixtieth of a nāḻikai, i.e. 24 seconds. Most of 
+the times nāḻikais and viṉāṭis have been marked by the word nāḻikai/nāḻi (or a 
+symbol for it), which usually precedes the numerical value, but in a few dates 
+follows it; in two dates the word maṇi, ‘hour’ (probably denoting the ‘western 
+hour’, corresponding to 1/24 of the mean solar day)67 have been used as the 
+marker instead; in five dates the numbers are left unmarked.  
+It is not fully clear to what time the nāḻikais refer: their meaning and role in 
+the dates require further investigation, hopefully relying on a larger number of 
+attestations. At present, it is to be supposed that in the dates in which nāḻikais 
+have been recorded next to two or more calendrical elements such as tithi, 
+nakṣatra, yoga, karaṇa, the values of the nāḻikais represent the time of expiration 
+of the calendrical elements which precede them: in point of fact, these dates seem 
+to reproduce part of the content of the pañcāṅgas, in which tithi, nakṣatra, yoga 
+and karaṇa have been followed by their time of expiration on each day, expressed 
+precisely in nāḻikais and viṉāṭis. This supposition has been corroborated by the 
+fact that the deviation between the values of the nāḻikais recorded in these dates 
+and the time of expiration of tithis and nakṣatras given in the tables in Pillai’s 
+Indian Ephemeris is acceptable in most cases. However, this hypothesis does not 
+hold for the dates in which the nāḻikai has been mentioned only once, as well as 
+for those nāḻikais preceded by (and, thus, refer to) a calendrical element which 
+has no time of expiration (e.g. tivi, pakal, divā, ‘day time’, irāttiri, ‘night’): in these 
+cases, it is reasonable to surmise that instead of indicating the time of expiration 
+of a calendrical element, the nāḻikais specify the precise time at which the 
+|| 
+67 According to TL, maṇi is a word of ‘modern usage’ (Mod.) meaning ‘Hour; 60 nimiṣamuṉṉa 
+nēram’, i.e. ‘the time measured in 60 nimiṣa’. In turn, nimiṣam is defined as ‘minute, 1/60 hour; 
+miṉiṭṭu nēram’, i.e. ‘time measured in minutes’: it seems reasonable, thus, to interpret the word 
+maṇi as denoting the ‘western hour’, consisting of 60 ‘western’ minutes (miṉiṭṭu in TL, s.v.). The 
+dates in which the word maṇi is used as the marker dates from 1838 (UVSL67γ) and 1875 
+(RE43394γ). 
+
+=== PAGE 27 ===
+ 
+A Modular Framework for the Analysis of the Dates | 197 
+  
+copying process came to an end. Although hard to prove, this hypothesis may be 
+supported by a few dates in which this is precisely what the scribe appears to be 
+telling us, e.g.: 1002 ⟨KY⟩ āṭi ⟨M⟩ 20 ⟨D⟩ divā patiṉañcuṉāḻikaiyil saṃpūrṇaṃ 
+budavāram punarpūśam (EO0080aβ), ‘In the Kollam year 1002, month of Āṭi, 20 
+day, on the fifteenth ṉāḻikai in the daytime, it is completed. Wednesday, [constel-
+lation of] Punarpūśam’. 
+It is worth emphasising that all mentions of nāḻikais and viṉāṭis in our corpus 
+occur in dates from the nineteenth century, with the obvious exception of those 
+dates which cannot be converted into the Gregorian calendar. Hence, one is 
+tempted to infer that the habit of recording nāḻikais and viṉāṭis in manuscript 
+dates came into use in that century: this is clearly possible, but care must be taken 
+in drawing this conclusion, for it may also be the statistical consequence of the 
+clear prevalence of dates from the nineteenth century in our corpus, amounting 
+to 77% of the total (see ‘Frequency and order of the calendrical elements’, above). 
+3.13 End-of-date formulas 
+Finally, the dates in our corpus have often been closed by a word or expression 
+serving as an ‘end-of-date’ formula. Several of these formulaic expressions have 
+been attested in our corpus, the most frequently occurring being: śubhadinattil, 
+‘in the auspicious day […]’; yinta śubhadinattil, ‘in this auspicious day […]’;68 
+śubhayogaśubhakaraṇattil, ‘in the auspicious yoga and karaṇa [...]’; peṟṟa 
+śubhadinattil, ‘in the auspicious day in which […] join together’; ākiya 
+puṇṇiyatiṉattilē, ‘on the auspicious day in which [...] occur’; ippaḍi śubhadinattil, 
+‘when on such an auspicious day [...]’; kūṭiya cupadinattil, ‘on the auspicious day 
+when […] come together’;69 kūṭiṉa śubhayogaśubhadinattil, ‘in the auspicious day 
+of the auspicious yoga in which […] come together’. 
+However, there is not a corresponding ‘start-of-date’ formula at the begin-
+ning of the dates: as a rule, the dates in our corpus start with the submodule of 
+|| 
+68 E.g., 1021 ⟨KY⟩ viśvāvasuvarṣam āvaṇi māsaṃ 3 ⟨D⟩ nāttikkeḻamai paurṇamāvāsai avuṭṭa 
+nakṣattiram yinta śubhadinattil triṃśatpraśnottaraṃ eḻuti mukintatu (EO0003a), ‘In the Kollam 
+year 1021, Jovian year Viśvāvasu, month of Āvaṇi, 3rd day, on Sunday, on the full moon [tithi], 
+under the constellation of Avuṭṭa, on this auspicious day, the Triṃśatpraśnottaram was fully 
+copied’. 
+69 E.g., kīlaka ⟨JY⟩ appiya ⟨M⟩ 19 ⟨D⟩ viyāḷakkiḻamaiyum uttirāṭam naṭcettiramum kūṭiya 
+cupatiṉattil yeḻuti niṟaintatu muṟṟiṟṟu (UVSL892), ‘On the auspicious day when the Jovian year 
+Kīlaka, the month of Appiya, the 19th day, Thursday, the constellation of Uttirāṭam come to-
+gether, it was fully copied and completed’. 
+
+=== PAGE 28 ===
+198 | Marco Franceschini 
+  
+one of the years. The formula svasti śrī, which occurs at the beginning of three 
+dates, has been found exclusively in combination with the Śālivāhanaśaka year; 
+therefore, it appears correct to interpret it as an element belonging to the 
+Śālivāhanaśaka year submodule, and not as an opening formula pertaining to the 
+entire date. 
+4 Conclusions 
+The purpose of the present article has been to present the reader with a review of 
+the different scribal patterns found in the dates of our database. Hopefully, this 
+study lays the groundwork for broader and more in-depth research to help better 
+locate the manuscripts in time and space; in turn, this research will certainly gain 
+even more statistical impact the moment it is cross-checked with similar statistics 
+based on other modules of the colophons and borrowing/lending statements. 
+Abbreviation 
+TL 
+Tamil lexicon in six volumes, published under the authority of the University of Madras, 
+Madras: University of Madras, 1924–1936. 
+References 
+Ciotti, Giovanni and Marco Franceschini (2016), ‘Certain Times in Uncertain Places: A Study on 
+Scribal Colophons of Manuscripts Written in Tamil and Tamilian Grantha Scripts’, in 
+Giovanni Ciotti and Hang Lin (eds), Tracing Manuscripts in Time and Space through 
+Paratexts (Studies in Manuscript Cultures, 7), Berlin: De Gruyter, 59–130. 
+Pillai, L. D. Swamikannu (1922), An Indian Ephemeris, A.D. 700 to A.D. 1799, Vol. I, Part 1: Gen-
+eral principles and tables, Madras: Government Press. 
+Pope, George Uglow (1867), A Tamil Hand-book, or full introduction to the common dialect of 
+that language, on the plan of Ollendorf and Arnold, for the use of foreigners learning 
+Tamil, and of Tamilians learning English, 2nd edn [1st edn 1855], Madras: J. Higginbotham. 
+Rhenius, C. T. E. (1836), A Grammar of the Tamil Language, Madras: Church Mission Press. 
+Sewell, Robert and Śankara Bālakṛishṇa Dīkshit (1896), The Indian Calendar. With Tables for 
+the Conversion of Hindu and Muhammadan into A.D. Dates, and Vice Versa, London: Swan 
+Sonneschein & Co. 
+
+=== PAGE 29 ===
+ 
+A Modular Framework for the Analysis of the Dates | 199 
+  
+Appendix: Tables 
+Notes on the tables. Table 1 gives all the calendrical elements listed in their 
+‛standard’ order; for each of them, the number of occurrences, frequency and 
+number of misplacements with respect to the standard order is recorded. 
+The purpose of Tables 2 to 11 is to present the attested structures of the sub-
+modules, different for content and syntax, of all the main calendrical elements, 
+in a hopefully visually effective format. 
+Each line in a table represents a different structure; similar structures have 
+been grouped together through black horizontal lines.  
+The main columns contain the value(s) and the marker(s) recorded in the 
+submodules. The last two columns to the right show the number of attestations 
+for each single structure and for a group of similar structures. The number of 
+occurrences of a structure is followed by the number of its metrical arrangements 
+(if any),, e.g.: ‘3 (2 metr.)’ means ‘three occurrences of this structure are attested, 
+two of them metrically arranged’. The column Expl. contains the ‘expletives’, 
+which are mostly (but not exclusively) found in metrical dates as line filler; they 
+have only occasionally been recorded in the tables. 
+Content of the cells. Letters or words in lower case represent actual letters or 
+words found in the date (e.g. abda, māsa, pratipadi, āṇṭu, m); words in lower case 
+preceded by ≈ are actually attested in the dates in several different spellings (e.g. 
+≈varṣa includes the spellings varṣa, varuṣam, varuḻam etc.). Words in upper case 
+represent categories, such as NUM (‘number’), NAME, SYMBOL (also SYMB), 
+PLANET, FULL MOON (i.e. any attested expression standing for ‘full moon’), NEW 
+MOON, PERIPHRASIS (periphrastic expressions used in some metrical dates for 
+recording the solar month; see the article), ??? (lost or illegible). Words in 
+brackets indicate a characteristic of a category: in numerals (also in num.), in 
+words, abbr. (‘in abbreviated form’), Tam. (‘in the Tamil language’), San. (‘in the 
+Sanskrit language’), Hyb. (‘in a hybrid Tamil-Sanskrit language/spelling’), Eng. 
+(‘in the English language’), metr. (‘metrically arranged submodule’). The 
+symbol | placed between two elements stands for the disjunctive particle ‘or’: 
+dina | vasara | ahan means ‘dina or vasara or ahan’. 
+
+=== PAGE 30 ===
+200 | Marco Franceschini 
+  
+Table 1: Calendrical elements listed in their ‘standard’ order, with their frequency and 
+deviation from the standard order (‘misplacements’) 
+Calendrical element 
+Occurrences in 
+complete dates 
+% 
+Misplacements
+Śālivāhanaśaka year 
+16 
+3.5% 
+3
+Kali year 
+11 
+2.4% 
+0
+Christian year 
+12 
+2.7% 
+1
+Kollam year 
+187 
+41% 
+5
+Jovian year 
+327 
+72% 
+0
+(at least one year) 
+(452) 
+(100%) 
+–
+Solar month 
+416 
+92% 
+3
+Lunar month 
+32 
+7.1% 
+0
+(at least one month) 
+(447) 
+(99%) 
+–
+Day of the solar month 
+392 
+87% 
+5
+Day of the week 
+198 
+44% 
+36
+Pakṣa 
+75 
+17% 
+8
+Tithi 
+138 
+31% 
+10
+Nakṣatra 
+149 
+33% 
+5
+Yoga 
+11 
+2.4% 
+–
+Karaṇa 
+7 
+1.5% 
+–
+Lagna / Lakṣaṇa 
+20 
+4.4% 
+–
+Velā 
+6 
+1.3% 
+–
+Muhūrta 
+2 
+0.4% 
+–
+Table 2: Kollam year 
+Marker 
+Value 
+Marker 
+Occurr. 
+Tot. 190
+ 
+NUM(in numerals) 
+SYMB 
+169 
+ 
+NUM(in numerals) m 
+SYMB 
+6 
+ 
+NUM(in numerals) 
+SYMB m 
+1 
+176
+kollam 
+NUM(in numerals) 
+SYMB 
+5 
+kollam 
+NUM(in numerals) 
+āmta | mtu 
+2 
+kollam 
+NUM(in numerals) 
+ 
+1 
+ 
+NUM(in numerals) 
+āmta | mta 
+2 
+10
+
+=== PAGE 31 ===
+ 
+A Modular Framework for the Analysis of the Dates | 201 
+  
+Table 2 (continued) 
+Marker 
+Value 
+Marker 
+Occurr. 
+Tot. 190
+abda 
+NUM(in San. words) 
+ 
+1 (1 metr.) 
+ 
+NUM(in Tam. words) 
+āṇḍu 
+1 (1 metr.) 
+2
+ 
+NUM(in San. words) 
+ 
+1 
+ 
+NUM(in numerals) 
+ 
+1 
+2
+Table 3: Jovian year 
+Value 
+Expl. 
+Value 
+Expl. 
+Marker 
+Occurrences 
+Tot. 330 
+ 
+ 
+NAME 
+ 
+SYMB 
+160 
+ 
+ 
+ 
+NAME 
+ 
+SYMB m 
+10 
+ 
+ 
+ 
+NAME 
+nāma 
+SYMB 
+1 
+ 
+NUM 
+ 
+NAME 
+ 
+SYMB 
+3 
+174 
+ 
+ 
+NAME 
+ 
+≈saṃvatsara 
+13 
+ 
+ 
+ 
+NAME 
+nāma 
+≈saṃvatsara 
+62 (2 metr.) 
+ 
+ 
+ 
+NAME 
+ 
+≈varṣa 
+55 
+ 
+ 
+ 
+NAME 
+nāma 
+varṣa 
+1 
+ 
+ 
+ 
+NAME 
+ 
+abda 
+8 (8 metr.) 
+ 
+ 
+ 
+NAME 
+ 
+abdaka 
+1 (1 metr.) 
+ 
+ 
+ 
+NAME 
+nāma 
+abda 
+2 (2 metr.) 
+ 
+ 
+ 
+NAME 
+ 
+vatsara 
+2 (2 metr.) 
+ 
+ 
+ 
+NAME 
+nāma 
+vatsara 
+1 (1 metr.) 
+145 
+abda 
+ 
+NAME 
+ 
+ 
+2 (2 metr.) 
+ 
+abda 
+ 
+NAME 
+ākhya 
+ 
+1 (1 metr.) 
+ 
+abda 
+ 
+NAME 
+nāmaka 
+ 
+3 (3 metr.) 
+ 
+varṣa 
+nāma 
+NAME 
+ 
+ 
+1 (1 metr.) 
+7 
+ 
+ 
+NAME 
+ 
+??? 
+2 (2 metr.) 
+2 
+ 
+ 
+NAME 
+ 
+ 
+2 (1 metr.) 
+2 
+ 
+ 
+
+=== PAGE 32 ===
+202 | Marco Franceschini 
+  
+Table 4: Śālivāhanaśaka, Kali and Christian years 
+Marker 
+Marker 
+Value 
+Marker 
+Occurr. 
+Total
+Śālivāhanaśaka year 
+Tot. 16
+śālivāhanaśaka 
+abda | arttam | 
+aṟta 
+NUM(in num.) 
+ 
+4 
+śālivāhanaśaka 
+SYMBOL 
+NUM(in num.) 
+ 
+3 
+śālivāhanaśaka 
+abda | arttam | 
+attam 
+NUM(in num.) 
+SYMBOL 
+4 
+11
+śaka 
+arttam 
+NUM(in num.) 
+SYMBOL 
+2 
+śaka 
+abda 
+NUM(in num.) 
+varuṣam 
+1 
+śaka 
+abda 
+NUM(in num.) 
+ 
+1 
+4
+ 
+ 
+NUM(in num.) 
+āṇṭu 
+1 
+1
+Kali year 
+Tot. 11
+kali 
+ 
+NUM(in num.) 
+SYMBOL 
+2 
+kali 
+ 
+NUM(in words) 
+vatsara 
+1 
+3
+kalyādi 
+ 
+NUM(in words) 
+varṣa 
+1 (1 metr.) 
+kaliyuka 
+SYMBOL 
+NUM(in num.) 
+ 
+2 
+kaliyuka 
+ 
+NUM(???) 
+SYMBOL 
+1 
+kaliyukāṟtam 
+ 
+NUM(in num.) 
+ 
+1 
+kaliyukāptam 
+ 
+NUM(in num.) 
+SYMBOL 
+1 
+kaliyukāti 
+SYMBOL 
+NUM(in num.) 
+ 
+1 
+7
+ 
+ 
+NUM(in words) 
+vatsara-
+parimitakalau 
+1 
+1
+Christian year 
+Tot. 12
+ 
+ 
+NUM(in num.) 
+SYMBOL 
+6 
+ 
+ 
+NUM(in num.) 
+āṇṭu 
+2 
+8
+tēvacakāṟtam 
+ 
+NUM(in num.) 
+i 
+2 
+iṅkilīcu 
+SYMBOL 
+NUM(in num.) 
+ 
+2 
+4
+ 
+ 
+
+=== PAGE 33 ===
+ 
+A Modular Framework for the Analysis of the Dates | 203 
+  
+Table 5: Solar month 
+Marker 
+Value 
+Value 
+Marker 
+Marker 
+Occurr. 
+Tot. 485
+ 
+NAME(Tam.) 
+ 
+SYMB 
+ 
+290 
+ 
+NAME(Tam. abbr.)  
+SYMB 
+ 
+7 
+ 
+NAME(Tam.) 
+ 
+SYMB m 
+ 
+62 
+ 
+NAME(Tam.) 
+ 
+SYMB cam 
+ 
+2 
+ 
+NAME(Tam.) 
+ 
+SYMB t° 
+ 
+1 
+ 
+NAME(Tam.) 
+NUM 
+SYMB m 
+ 
+1 
+ 
+SYMB for meṟpaṭi 
+ 
+SYMB 
+ 
+1 
+ 
+NAME(Tam.)  
+NAME(San.) SYMB 
+ 
+1 
+ 
+NAME(San.) 
+ 
+SYMB 
+ 
+4 
+ 
+NAME(San.) 
+ 
+SYMB m 
+ 
+1 
+ 
+NAME(Eng.) 
+ 
+SYMB 
+ 
+3 
+373
+ 
+NAME(San.) 
+ 
+māsa 
+ 
+40 (7 metr.) 
+ 
+NAME(San.) 
+ 
+ravi 
+ 
+2 
+ 
+NAME(San.) 
+ 
+mās 
+ 
+1 (1 metr.) 
+ 
+NAME(San.) 
+ 
+mati 
+ 
+1 
+māsa 
+NAME(San.) 
+ 
+ 
+ 
+2 (2 metr.) 
+ 
+NAME(Tam.) 
+ 
+māsa 
+ 
+37 
+ 
+NAME(Tam.) 
+ 
+māca 
+SYMB 
+1 
+ 
+NAME(Tam.) 
+ 
+ravi 
+ 
+1 
+ 
+NAME(Tam.) 
+ 
+mācam 
+ 
+3 
+ 
+NAME(Tam.) 
+ 
+mātam 
+ 
+3 
+ 
+??? 
+ 
+māsa 
+ 
+1 
+92
+ 
+NAME(San.) 
+ 
+PERIPHRASIS  
+5 (5 metr.) 
+5
+ 
+NAME(Tam.) 
+ 
+??? 
+ 
+4 
+4
+ 
+NAME(San.) 
+ 
+ 
+ 
+3 (2 metr.) 
+ 
+NAME(Tam.) 
+ 
+ 
+ 
+8 
+11
+ 
+ 
+
+=== PAGE 34 ===
+204 | Marco Franceschini 
+  
+Table 6: Lunar month 
+Value 
+Marker(s) 
+Occurrences 
+Tot. 32
+NAME 
+māsa 
+21 (3 metr.) 
+NAME 
+mās 
+2 (1 metr.) 
+NAME 
+mās 
+1 (1 metr.) 
+24
+NAME 
+SYMB 
+2 
+NAME 
+SYMB m 
+1 
+3
+NAME 
+ 
+1 (1 metr.) 
+NAME 
+ 
+4 (1 metr.) 
+5
+Table 7: Day of the solar month 
+Marker 
+Value 
+Marker 
+Marker 
+Occurr. 
+Tot. 467
+ 
+NUM(in numerals) 
+SYMBOL 
+ 
+355 
+ 
+NUM(in numerals) ā 
+SYMBOL 
+ 
+1 
+ 
+NUM(in numerals) 
+SYMBOL 
+ti 
+4 
+ 
+NUM(in words)(Tam. ordinal) SYMBOL 
+ 
+4 
+ 
+??? 
+SYMBOL 
+ 
+2 
+ 
+NUM(in numerals) 
+??? 
+ 
+4 
+370
+ 
+NUM(in numerals) 
+ 
+t° 
+27 
+ 
+NUM(in numerals) 
+ 
+ti 
+1 
+ 
+NUM(in numerals) 
+ 
+teti | ted(h)i | 
+tikati | tiyati 
+9 
+ 
+NUM(in numerals) ā | ām | m 
+ 
+tikati | tiy(y)ati 6 
+ 
+NUM(in words)(Tam. ordinal)  
+teti | tēti | tedi | 
+tikati 
+8 
+51
+ 
+NUM(in words)(San. ordinal) 
+ 
+dina | vasara | 
+ahan 
+11 (2 metr.) 
+sudina 
+NUM(in words)(San. ordinal) 
+ 
+ 
+1 (1 metr.) 
+ 
+NUM(in words)(San. cardinal)  
+dina | divasa 
+7 (1 metr.) 
+ 
+NUM(in words)(San. cardinal/ 
+ordinal) 
+ 
+dina | divasa 
+5 (3 metr.) 
+24
+
+=== PAGE 35 ===
+ 
+A Modular Framework for the Analysis of the Dates | 205 
+  
+Table 7 (continued) 
+Marker 
+Value 
+Marker 
+Marker 
+Occurr. 
+Tot. 467
+ 
+NUM(in numerals) 
+ 
+ 
+19 
+ 
+NUM(in words)(Tam. ordinal)  
+ 
+2 
+ 
+NUM(in words)(San. cardinal)  
+ 
+1 
+22
+Table 8: Day of the week 
+Marker 
+Value 
+Marker 
+Marker 
+Occurr. 
+Tot. 204
+ 
+PLANET(San.) 
+vāra 
+ 
+35 (4 metr.) 
+ 
+PLANET(San.) 
+vāra (abbr.) 
+ 
+1 
+ 
+PLANET(San.) 
+vāra 
+dina | tina 
+4 
+ 
+PLANET(San.) 
+vāra 
+nāḷ 
+1 
+ 
+PLANET(San.) 
+vāsara 
+ 
+18 (6 metr.) 
+ 
+PLANET(San.) 
+kiḻamai 
+ 
+1 
+ 
+PLANET(San.) 
+dina 
+ 
+3 (2 metr.) 
+ 
+PLANET(San.) 
+dina 
+ 
+1 (1 metr.) 
+ 
+PLANET(San.) 
+divasa 
+ 
+1 (1 metr.) 
+65
+vāsara 
+PLANET(San.) 
+ 
+ 
+1 (1 metr.) 
+vāraka 
+PLANET(San.) 
+ 
+ 
+1 (1 metr.) 
+2
+ 
+PLANET(Hyb.) 
+vāram 
+ 
+46 
+ 
+PLANET(Hyb.) 
+vāram 
+nāḷ 
+6 
+ 
+PLANET(Hyb.) 
+≈kiḻamai 
+ 
+13 
+65
+ 
+PLANET(Tam.) 
+≈kiḻamai 
+ 
+55 
+ 
+PLANET(Tam.) 
+≈kiḻamai 
+dina 
+2 
+ 
+PLANET(Tam.) 
+≈kiḻamai 
+nāḷ 
+2 
+ 
+PLANET(Tam.) 
+vāram 
+ 
+7 
+ 
+PLANET(Tam. abbr.) teti 
+ 
+1 
+67
+ 
+PLANET(San.) 
+??? 
+ 
+1 
+1
+ 
+PLANET(San.) 
+ 
+ 
+3 
+ 
+PLANET(Tam.) 
+ 
+ 
+1 
+4
+ 
+ 
+
+=== PAGE 36 ===
+206 | Marco Franceschini 
+  
+Table 9: Pakṣa 
+Marker 
+Value 
+Marker 
+Occurr. 
+Tot. 78
+ 
+śukla 
+pakṣa 
+21 (4 metr.) 
+ 
+śukla 
+chada 
+1 (1 metr.) 
+ 
+kṛṣṇa | kiṣṇa | kuṣṇa 
+≈pakṣa 
+15 (1 metr.) 
+ 
+pūrva | pūṟuva | pūruva | puruva 
+≈pakṣa 
+13 (1 metr.) 
+ 
+apara 
+pakṣa 
+5 
+ 
+cukkila 
+≈pakṣa 
+4 
+ 
+tāmisra 
+pakṣa 
+1 (1 metr.) 
+ 
+amāva 
+pakkam 
+1 
+ 
+amara 
+pakkam 
+1 
+62
+pakṣa 
+śukla | śveta | valakṣa | valakṣetara 
+ 
+4 (4 metr.) 
+4
+ 
+mākāḷaya 
+pakṣa 
+1 
+1
+ 
+śukla 
+ 
+5 (3 metr.) 
+ 
+śuddha 
+ 
+2 
+ 
+bahala 
+ 
+1 
+8
+ 
+ 
+pakṣa 
+3 
+3
+Table 10: Tithi 
+Marker 
+Value 
+Marker 
+Occurr. 
+Tot. 143
+ 
+NUM(in words) 
+tithi | titi 
+22 (5 metr.) 
+ 
+FULL MOON 
+tithi 
+3 (1 metr.) 
+ 
+pratipadi 
+tithi 
+1 (1 metr.) 
+tithi | titī 
+NUM(in words) 
+ 
+2 (1 metr.) 
+28
+ 
+NUM(in words) 
+dina 
+1 
+1
+ 
+NUM(in words) 
+ 
+94 (10 metr.) 
+94
+ 
+FULL MOON 
+ 
+10 (1 metr.) 
+ 
+NEW MOON 
+ 
+5 
+ 
+vicayatacami | °tecami | °ticaimi 
+ 
+4 
+19
+ 
+NUM(in numerals) 
+ 
+1(?) 
+1(?)
+
+=== PAGE 37 ===
+ 
+A Modular Framework for the Analysis of the Dates | 207 
+  
+Table 11: Nakṣatra 
+Marker 
+Value 
+Expl. 
+Marker 
+Expl. 
+Occurrences 
+Tot. 152
+ 
+NAME 
+ 
+≈nakṣatra 
+ 
+113 (2 metr.) 
+113
+ 
+NAME 
+ 
+tāra 
+sahita 
+1 (1 metr.) 
+ 
+NAME 
+ 
+tāra 
+ 
+1 (1 metr.) 
+tāra 
+NAME 
+āhvaya 
+ 
+ 
+1 (1 metr.) 
+tāra 
+NAME 
+ākhya 
+ 
+ 
+1 (1 metr.) 
+4
+ 
+NAME 
+āhvaya 
+tāraka 
+ 
+2 (2 metr.) 
+ 
+NAME 
+ākhya 
+tāraka 
+ 
+1 (1 metr.) 
+3
+ 
+NAME 
+ 
+ṛkṣa 
+ 
+3 (3 metr.) 
+3
+bha 
+NAME 
+ 
+ 
+ 
+1 (1 metr.) 
+1
+ 
+NAME 
+ 
+ 
+ 
+27 (1 metr.) 
+ 
+NAME 
+samanvita  
+ 
+1 (1 metr.) 
+28
+ 
+
+=== PAGE 38 ===
+

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>N. 361. Charter of Kasugihan, 829 Śaka (907-11-18 CE)</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:wjsa">
+                  <forename>Wayan Jarrah</forename><surname>Sastrawan</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSIDENK00361.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:argr" when="2026-05-04">Modified filename, teiHeader; applied rendition; applied semantic structure to text; encoded puncuation</change>
+         <change who="part:wjsa" when="2024-03-30">Cleaning up XML in edition, apparatus and bibliography</change>
+         <change who="part:axja" when="2022-08-16">Transforming docx into xml</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+           <body> 
+                   <div type="edition" xml:lang="kaw-Latn" rendition="class:38769 maturity:83213">
+  <div type="textpart" n="A"><head xml:lang="eng">Main</head>
+<p><pb n="1r"/><lb n="1r1"/><g ref="sym:doubleBar-crossed" type="punctuation">.</g> svasti śaka-varṣātīta <num value="829">829</num> m<choice><orig>a</orig><reg>ā</reg></choice>rggaśira-māsa<g ref="sym:bullet-high-hollow" type="punctuation">.</g> tith<choice><orig>ī</orig><reg>i</reg></choice> <choice><sic>j</sic><corr>d</corr></choice>aśam<choice><orig>i</orig><reg>ī</reg></choice> śukla-pakṣa<g ref="sym:bullet-high-hollow" type="punctuation">.</g> <abbr>ma</abbr><g ref="sym:bullet-high-hollow" type="punctuation">.</g> <abbr>pa</abbr><g ref="sym:bullet-high-hollow" type="punctuation">.</g> <abbr>bu</abbr><g ref="sym:bullet-high-hollow" type="punctuation">.</g> vāra<g ref="sym:bullet-high-hollow" type="punctuation">.</g> Aśvinī-nakṣatra<g ref="sym:bullet-high-hollow" type="punctuation">.</g> varīyān·-yoga<g ref="sym:bullet-high-hollow" type="punctuation">.</g> tatkālanikanaṁ vahuta tuṅgu duruṁ makabaihan·<g ref="sym:bullet-high-hollow" type="punctuation">.</g> Inanugrahan· Irikanaṁ vanuA<del rend="strikeout">n·</del>
+<lb n="1r2"/>I kasugihan· de rakryan· kalaṁ buṅkal· dyaḥ manukū kavnaṅaknanyan· sabuñcaṁ-haji<g ref="sym:bullet-high-hollow" type="punctuation">.</g></p> <p>maṅasəAkan· Ikanaṁ vahuta pasək-pasək· I rakryān· ma<space type="descender"/>vanuA pirak· <abbr>dhā</abbr> <num value="1">1</num><g ref="sym:bullet-high-hollow" type="punctuation">.</g> juru<choice><sic>ṇ</sic><corr>n</corr></choice>iṅ kan<choice><orig>a</orig><reg>ā</reg></choice>yak<choice><orig>a</orig><reg>ā</reg></choice>n· rake hni
+<lb n="1r3"/>Anak vanuA I vatu-vatu vatak· paga<supplied reason="omitted">r</supplied> vsi<g ref="sym:bullet-high-hollow" type="punctuation">.</g> maṁraṁkpi saṁ jalu paṅan· Anak vanuA I saninai vatak· <unclear>b</unclear>unut·-bunut·<g ref="sym:bullet-high-hollow" type="punctuation">.</g> mataṇḍa saṁ siddhatapa Anak vanuA I poḥ kabiku<supplied reason="omitted">A</supplied>n· I lḍaṁ<g ref="sym:bullet-high-hollow" type="punctuation">.</g> juruniṁ lampuran· saṁ pa<lb break="no" n="1r4"/>ḍali Anak vanuA I valakay· vatak valakas·<g ref="sym:bullet-high-hollow" type="punctuation">.</g> parujar· saṁ valiṅi A<choice><sic>ṇ</sic><corr>n</corr></choice>ak vanuA I vurakuṁ vatak· limvayan·<g ref="sym:bullet-high-hollow" type="punctuation">.</g> juruniṁ vadva rarai saṁ tamvalaṁ Anak vanuA I taṅgalan· vatak· <choice><sic>j</sic><corr>d</corr></choice>alinan·<supplied reason="omitted"><g ref="sym:bullet-high-hollow" type="punctuation">.</g></supplied> juruniṁ kalula
+<lb n="1r5"/>saṁ ḍaṇu Anak vanuA I sahiḍan· vatak· kilipan·<g ref="sym:bullet-high-hollow" type="punctuation">.</g> juruni maṁḍakat· saṁ juna Anak vanuA I kuraṁ pkan· vatak· <choice><orig>ś</orig><reg>s</reg></choice>irikan·<g ref="sym:bullet-high-hollow" type="punctuation">.</g> maṁraṁkpi saṁ kha<choice><orig>d</orig><reg>ḍ</reg></choice>ga Anak vanuA I haji huma vatak· patapān·<g ref="sym:bullet-high-hollow" type="punctuation">.</g> manuṅgū
+<lb n="1r6"/>saṁ mamiḍaiyi Anak vanuA I karihuAn·<g ref="sym:bullet-high-hollow" type="punctuation">.</g> Amasaṅakən· saṁ ra kuvu Anak vanuA I vugaṁ vatak· tilimpik·<g ref="sym:bullet-high-hollow" type="punctuation">.</g> citralekha saṁ ra vuṅū Anak vanuA I vuru paṅguṁ vatak· manimpi<lb break="no" n="1r7"/>ki<g ref="sym:bullet-high-hollow" type="punctuation">.</g> I<add place="below" rend="mark">naṁ</add>səAn· pasək·-pasək· pirak· <abbr>dhā</abbr> <num value="5">5</num> kinabaihanira<g ref="sym:bullet-high-hollow" type="punctuation">.</g> piṅhay· I kalaṅ buṅkal· Irikanaṁ kāla kikin· si jamana<g ref="sym:bullet-high-hollow" type="punctuation">.</g> manti hyaṁ si samanta<g ref="sym:bullet-high-hollow" type="punctuation">.</g> parujar·nya si galuṁ
+<pb n="1v"/><lb n="1v1"/>miśra si bahu<g ref="sym:bullet-high-hollow" type="punctuation">.</g> vahuta maṅuvu si landaṁ muAṁ si hari<g ref="sym:bullet-high-hollow" type="punctuation">.</g> pihujuṁ si gatā<g ref="sym:bullet-high-hollow" type="punctuation">.</g> si R̥<choice><orig>ś</orig><reg>ṣ</reg></choice>i<g ref="sym:bullet-high-hollow" type="punctuation">.</g> si cuAl· si bisar·<g ref="sym:bullet-high-hollow" type="punctuation">.</g> rāma I duga-duga tumarima Ikanaṁ surat· prasāsti Irika<lb n="1v2" break="no"/>naṁ kāla gusti si <choice><sic>gisuddhi</sic><corr>biśuddhi</corr></choice><g ref="sym:bullet-high-hollow" type="punctuation">.</g> parujar· si suvaṁ<g ref="sym:bullet-high-hollow" type="punctuation">.</g> rāma maratā si gijñī<g ref="sym:bullet-high-hollow" type="punctuation">.</g> muAṁ si tes·<g ref="sym:bullet-high-hollow" type="punctuation">.</g> si cala<g ref="sym:bullet-high-hollow" type="punctuation">.</g> si jaluk·<g ref="sym:bullet-high-hollow" type="punctuation">.</g> samaṅkana kvai<choice><sic><g ref="sym:bullet-hollow" type="punctuation">.</g></sic><corr>ḥ</corr></choice>nikanaṁ rāma tumarima Ikanaṁ prasāsti
+<lb n="1v3"/>I rakryan· kalaṁ buṅkal·<g ref="sym:bullet-high-hollow" type="punctuation">.</g></p> <p>sākṣī saṁ pamgat· Ayam· təAs· pu ḍapit· Anak vanuA I paṇḍamuAn· vatak· Ayam· təAs· InaṁsəAn· pasak-pasa<lb n="1v4" break="no"/>k· pirak· <abbr>dhā</abbr> <num value="2">2</num><supplied reason="omitted"><g ref="sym:bullet-high-hollow" type="punctuation">.</g></supplied> juru mira-miraḥ pu rayuṁ Anak vanuA I mira-miraḥ vatak· Ayam· təAs· maṁraṁkpi saṁ halaran· pu dh<choice><orig>ā</orig><reg>a</reg></choice>nada Anak banuA I paṇḍamuAn· vatak·
+<lb n="1v5"/>Ayam· təAs· kapuA InaṁsəAn· pasak-pasak· pirak· <abbr>dhā</abbr> <num value="1">1</num> sovaṁ-sovaṁ<supplied reason="omitted"><g ref="sym:bullet-high-hollow" type="punctuation">.</g></supplied> karamān· saṁ hadyan· vahuta hy<choice><sic>ā</sic><corr>a</corr></choice>ṁ makabaihan· pirak· <abbr>mā</abbr> <num value="8">8</num> kinabaihanira<supplied reason="omitted"><g ref="sym:bullet-high-hollow" type="punctuation">.</g></supplied></p>
+<p><lb n="1v6"/>nāhan· nimittanyan· mapagəḥ Ikanaṁ vanuA I kasugihan· An· sampun· Inanugrahākən· de rakryan· kalaṁ buṅkal· Irikanaṁ vahuta tuṅgu duruṁ<g ref="sym:bullet-high-hollow" type="punctuation">.</g> likhitapātra saṁ va<lb n="1v7" break="no" style="text-align: center"/>sava</p></div>
+
+<div type="textpart" n="B"><head xml:lang="eng">Insertion</head>
+<p><lb n="ins1"/>paṁguhan· <num value="1">sa</num>ta<space type="descender"/>hil· Avur· <num value="1">sa</num>tahil· sama<supplied reason="omitted">ṁ</supplied>kana <choice><orig>kəm·mitan·</orig><reg>kəmitan·</reg></choice> Ikā rama <choice><sic>Itevam·mādi</sic><corr>Ityevamādi</corr></choice> salvir·niṁ nā<space type="descender"/>yaka tan· hanāṅyan·<g ref="sym:bullet-high-hollow" type="punctuation">.</g>
+<lb n="ins2"/>lena sakerikana p<choice><sic>a</sic><corr>i</corr></choice>rak· <abbr>dhā</abbr> <num value="6">6</num></p></div>
+</div>
+                       
+                   
+<div type="apparatus">                       
+<div type="textpart" n="A"><head xml:lang="eng">Main</head>
+<listApp>
+<app loc="1r1">
+<lem><num value="829">829</num></lem>
+<rdg source="bib:Poerbatjaraka1922_01">849</rdg><note>Poerbatjaraka gave 829 only as an alternative; it was confirmed by Goris and Damais.</note></app>
+<app loc="1r1">
+<lem>tith<choice><orig>ī</orig><reg>i</reg></choice></lem>
+<rdg source="bib:Poerbatjaraka1922_01">tithi</rdg>
+</app>
+<app loc="1r1">
+<lem><choice><sic>j</sic><corr>d</corr></choice>aśam<choice><orig>i</orig><reg>ī</reg></choice></lem>
+<rdg source="bib:Poerbatjaraka1922_01">dasam<choice><orig>i</orig><reg>ī</reg></choice></rdg>
+<note>Correction by Goris.</note>
+</app>
+<!--<app loc="1r2">
+<lem>rakryān·</lem>
+<rdg source="bib:Poerbatjaraka1922_01 bib:Goris1928_01">rakryan·</rdg></app>-->
+<!--<app loc="1r2">
+<lem><abbr>dhā</abbr></lem>
+<rdg source="bib:Poerbatjaraka1922_01">ḍa</rdg>
+</app>-->
+<!--<app loc="1r3">
+<lem>paga<supplied reason="omitted">r</supplied> vsi</lem>
+<rdg source="bib:Poerbatjaraka1922_01">pagar vsi</rdg></app>-->
+<!--<app loc="1r3">
+<lem><unclear>b</unclear>unut·-bunut·</lem>
+<rdg source="bib:Poerbatjaraka1922_01">vunut·-bunut·</rdg>
+<note>Correction by Goris.</note>
+</app>-->
+<app loc="1r4">
+<lem>vanuA I valakay·</lem>
+<rdg source="bib:Poerbatjaraka1922_01">vanuA I valakas·</rdg>
+</app>
+<app loc="1r4">
+<lem>rarai</lem>
+<rdg source="bib:Poerbatjaraka1922_01">rare</rdg>
+<note>The <foreign>taling</foreign> has a curved vertical stroke to its left which seems to be an alternative version of the -<foreign>ai</foreign> diacritic.</note>
+</app>
+<app loc="1r4">
+<lem><choice><sic>j</sic><corr>d</corr></choice>alinan·</lem>
+<rdg source="bib:Poerbatjaraka1922_01">dalinan·</rdg>
+<note>Correction by Goris.</note>
+</app>
+<app loc="1r5">
+<lem>sahiḍan·</lem>
+<rdg source="bib:Poerbatjaraka1922_01">satiḍan·</rdg>
+<note>Correction by Goris.</note>
+</app>
+<app loc="1r5">
+<lem>kha<choice><orig>d</orig><reg>ḍ</reg></choice>ga</lem>
+<rdg source="bib:Poerbatjaraka1922_01">ladga</rdg>
+</app>
+<!--<app loc="1r6">
+<lem>vuṅū</lem>
+<rdg source="bib:Poerbatjaraka1922_01">vuṅu</rdg>
+<note>Correction by Goris.</note>
+</app>-->
+<app loc="1r7">
+<lem><abbr>dhā</abbr> <num value="5">5</num></lem>
+<rdg source="bib:Poerbatjaraka1922_01">ḍā 4</rdg>
+</app>
+<app loc="1r7">
+<lem>galuṁ</lem>
+<rdg source="bib:Poerbatjaraka1922_01">talu</rdg>
+<note>Correction by Goris.</note>
+</app>
+<!--<app loc="1v1">
+<lem>prasāsti</lem>
+<rdg source="bib:Poerbatjaraka1922_01">praṣāsti</rdg>
+<note>Correction by Goris.</note>
+</app>-->
+<!--<app loc="1v2">
+<lem>gijñī</lem>
+<rdg source="bib:Poerbatjaraka1922_01">gijñi</rdg>
+<note>Correction by Goris.</note>
+</app>-->
+<!--<app loc="1v2">
+<lem>kvai<choice><sic><g ref="sym:bullet-hollow" type="punctuation">.</g></sic><corr>ḥ</corr></choice>nikanaṁ</lem>
+<rdg source="bib:Poerbatjaraka1922_01">kvaiḥ, nikanaṁ</rdg>
+<note>Correction by Goris.</note>
+</app>-->
+<!--<app loc="1v2"><lem>prasāsti</lem><rdg source="bib:Poerbatjaraka1922_01">praṣāsti</rdg><note>Correction by Goris.</note></app>-->
+<!--<app loc="1v3"><lem>sākṣī</lem><rdg source="bib:Poerbatjaraka1922_01">sākṣ<choice><orig>i</orig><reg>ī</reg></choice></rdg>-->
+<!--</app>-->
+<app loc="1v4">
+<lem><abbr>dhā</abbr> <num value="2">2</num></lem>
+<rdg source="bib:Poerbatjaraka1922_01">ḍā 4</rdg>
+</app>
+<!--<app loc="1v4"><lem>dh<choice><orig>ā</orig><reg>a</reg></choice>nada</lem>
+<rdg source="bib:Poerbatjaraka1922_01">dhānada</rdg></app>-->
+<!--<app loc="1v4"><lem>banuA</lem><rdg source="bib:Poerbatjaraka1922_01">vanuA</rdg></app>-->
+<!--<app loc="1v5"><lem><abbr>dhā</abbr></lem><rdg source="bib:Poerbatjaraka1922_01">ḍā</rdg></app>-->
+<!--<app loc="1v5"><lem>hyāṁ</lem><rdg source="bib:Poerbatjaraka1922_01">hyaṁ</rdg></app>-->
+<!--<app loc="1v5"><lem><abbr>mā</abbr></lem><rdg source="bib:Poerbatjaraka1922_01">ma</rdg></app>-->
+<app loc="1v6"><lem>saṁ</lem><rdg source="bib:Poerbatjaraka1922_01">sa</rdg>
+</app>
+</listApp>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Insertion</head>
+<listApp>
+<app loc="ins1"><lem>paṁguhan·</lem><rdg source="bib:Poerbatjaraka1922_01">paguhan·</rdg></app>
+<app loc="ins1">
+<lem><choice><sic>Itevam·mādi</sic><corr>Ityevamādi</corr></choice></lem>
+<rdg source="bib:Poerbatjaraka1922_01">Ityevammādi</rdg>
+</app>
+<!--<app loc="ins1"><lem>salvir·niṁ</lem><rdg source="bib:Poerbatjaraka1922_01">salvir·ni</rdg></app>-->
+<app loc="ins2">
+<lem>p<choice><sic>a</sic><corr>i</corr></choice>rak· <abbr>dhā</abbr></lem>
+<rdg source="bib:Poerbatjaraka1922_01">pirak· ḍā</rdg>
+<note>Correction by Goris.</note>
+</app>
+</listApp>
+</div>
+                       </div>
+               <div type="commentary">
+	<p>The syllables <foreign>sava</foreign> in  line 1v7 originally were intended to be the end of the text and to be read right after <foreign>likhitapātra saṁ va-</foreign> and hence form the original line 7. (The recto also has just 7 lines.) All the rest of what stands on what appear to be the seventh and eight lines of the verso seem to form a secondary addition. These additional lines are cramped at the bottom of the page and heavily indented. The first inserted line (ins1) written over 1v7 has a left indent equivalent to the space of about 10 <foreign>akṣara</foreign>s thus beginning directly under -<foreign>gəḥ Ikanaṁ</foreign> (1v6). The second inserted line (ins2) is even further indented, being aligned directly below  <foreign>Itevam·mādi salvir·niṁ nā<space type="descender"/>yaka tan·</foreign> in the one above it. It is unclear where precisely this text portion was meant to be inserted, but comparison with the passage about <foreign>paṅguhan</foreign> <q>revenue</q> in Rumwiga I (1v4–7) suggests that it might have been in the first paragraph.</p>
+                 <p>This text has some orthographic peculiarities, among which an unusual number of vowels expected to be short but spelt long, as well as the substitution of /d/ for /j/ at the beginning of words, e.g. <foreign>jaśam<choice><orig>i</orig><reg>ī</reg></choice></foreign> for <foreign>daśamī</foreign> (1r1), <foreign>jalinan·</foreign> for <foreign>dalinan·</foreign> (1r4, also found in Wanua Tengah III 1v10 and 2r12). Unexpected variation of  initial /d-/ and /j-/ is found in elsewhere in Old Javanese inscriptions of this period, such as <foreign>jari</foreign>, <foreign>jarīya</foreign> and <foreign>jinaryyakən·</foreign> for standard <foreign>dadi</foreign>, <foreign>dadya</foreign> and <foreign>dinadyakən·</foreign> (cf. Rumwiga 1v10, Dalinan 1v7, Kinewu lines 7 and 10). This variation is connected with the fact that many Javanese words with /d-/ have cognates with /j-/ in other Western Indonesian languages, e.g. comparing with Malay: <foreign>jauh</foreign> for <foreign>doh</foreign> “far”, <foreign>jarum</foreign> for <foreign>dom</foreign> “needle”, <foreign>jərami</foreign> for <foreign>dami</foreign> “rice stalk”. All of these reflect Proto-Malayo-Polynesian /*z/, whose evolution to /d/ in Old Javanese was already complete by this period. The fact that, in the case of this inscription, the /d-/ ~ /j-/ substitution even affects non-Austronesian loanwords, like <foreign>daśamī</foreign>, might suggest but that a symbiosis of Malay and Javanese was in place, whereby the supralocally dominant /j-/ could have unpredictable influence on the pronunciation of /d-/ in Javanese.</p>
+               </div>
+            <div type="bibliography">
+<p>The text was first deciphered by Poerbatjaraka. A few inaccuracies in his reading were pointed out by Goris,<note>Goris only notes readings that differ from Poerbatjaraka’s, rather than providing a full edition</note> and some more have been found by us. Our apparatus only reports the more significant variant readings. Damais reproduced the dating formula without proposing any textual interventions. Sarkar was the first to translate the text.</p>
+              <listBibl type="primary">
+                <bibl n="P">
+                   <ptr target="bib:Poerbatjaraka1922_01"/>
+                </bibl>
+		<bibl><ptr target="bib:Sarkar1971-1972_01"/><citedRange unit="volume">II</citedRange><citedRange unit="item">LXXIV</citedRange><citedRange unit="page">102-107</citedRange></bibl>
+              </listBibl>
+<listBibl type="secondary">
+             <bibl><ptr target="bib:Goris1928_01"/><citedRange unit="page">65-66</citedRange></bibl>
+	      <bibl><ptr target="bib:Damais1952_01"/><citedRange unit="page">50-51</citedRange><citedRange unit="item">A.86</citedRange></bibl>  
+             <bibl><ptr target="bib:Damais1955_01"/><citedRange unit="page">48</citedRange></bibl>      
+              </listBibl>
+            </div>
+                   
+               <!-- 
+               <div>
+                    <head>Artefact</head>
+                    <p>A single copperplate inscribed on both sides, held in the Radyapustaka Museum in Solo with inventory number G2.17A/B. The attempt to squeeze the final two lines on the verso side into limited space indicates that the extant text is most likely whole.</p>
+                </div>
+                <div>
+                    <head>Provenance</head>
+                    <p>???</p>
+                </div>-->
+           </body>
+                     </text>
+</TEI>

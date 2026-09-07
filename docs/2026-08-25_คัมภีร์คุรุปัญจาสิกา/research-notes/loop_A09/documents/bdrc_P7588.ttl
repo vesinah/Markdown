@@ -1,0 +1,119 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:EVP7588_ATII_0  a  bdo:PersonFlourished ;
+   bdo:eventWhen  "06XX"^^<http://id.loc.gov/datatypes/edtf/EDTF> ;
+   bdo:notAfter  "0699"^^xsd:gYear ;
+   bdo:notBefore  "0600"^^xsd:gYear .
+
+bdr:NM0A8F025B947F907E
+   a             bdo:PersonOtherName ;
+   rdfs:label    "pha khol/"@bo-x-ewts .
+
+bdr:NM1484CF486681EED7
+   a             bdo:PersonOtherName ;
+   rdfs:label    "dkon cog 'bangs/"@bo-x-ewts .
+
+bdr:NM56343FAD7B1046F8
+   a             bdo:PersonOtherName ;
+   rdfs:label    "rab 'byor bskyangs/"@bo-x-ewts .
+
+bdr:NM58B8742D5F0BB61E
+   a             bdo:PersonOtherName ;
+   rdfs:label    "bdud rtsi bum pa/"@bo-x-ewts .
+
+bdr:NM5B31AC24535A6B27
+   a             bdo:PersonOtherName ;
+   rdfs:label    "ma ti tsi tra/"@bo-x-ewts .
+
+bdr:NM9245AD4F743891F9
+   a             bdo:PersonPrimaryName ;
+   rdfs:label    "rta dbyangs/"@bo-x-ewts .
+
+bdr:NM98FDA999C5B2AF85
+   a             bdo:PersonOtherName ;
+   rdfs:label    "dpal chen dge ba/"@bo-x-ewts .
+
+bdr:NMA52E7B5B036423C3
+   a             bdo:PersonOtherName ;
+   rdfs:label    "dga' byed/"@bo-x-ewts .
+
+bdr:NMA6A167CE5AD02183
+   a             bdo:PersonOtherName ;
+   rdfs:label    "ngo bo nyid med pa/"@bo-x-ewts .
+
+bdr:NMAC56F8FF45E84360
+   a             bdo:PersonOtherName ;
+   rdfs:label    "rdo rje'i mtshon cha/"@bo-x-ewts .
+
+bdr:NMB5A4CEEC8C0E9244
+   a             bdo:PersonOtherName ;
+   rdfs:label    "lha gsum pa/"@bo-x-ewts .
+
+bdr:NMF28288A8D7D283DD
+   a             bdo:PersonPrimaryTitle ;
+   rdfs:label    "slob dpon dpa' bo/"@bo-x-ewts .
+
+bdr:NMP7588_ATII_SA0  a  bdo:PersonOtherName ;
+   rdfs:label    "Aśvaghoṣa ?"@sa-x-iast .
+
+bdr:NTC8C1B4529CECA6F3
+   a             bdo:Note ;
+   bdo:noteText  "སློབ་དཔོན་དཔའ་བོར་མཚན་དུ་མ་ཞིག་མཆིས་མོད་ཀྱང་གྲགས་ཆེ་བ་ཉེར་གཅིག་དུ་གྲགས"@bo .
+
+bdr:NTP7588_ATII0  a  bdo:Note ;
+   bdo:noteText  "Information from this record was contributed by the Authors and Translators Identification Initiative (ATII) project in collaboration with the Khyentse Center at Universität Hamburg."@en .
+
+bdr:P7588  a     bdo:Person ;
+   skos:prefLabel  "slob dpon dpa' bo/"@bo-x-ewts , "Āryaśūra?"@sa-x-iast ;
+   bdo:note      bdr:NTC8C1B4529CECA6F3 , bdr:NTP7588_ATII0 ;
+   bdo:personEvent  bdr:EVP7588_ATII_0 ;
+   bdo:personGender  bdr:GenderMale ;
+   bdo:personName  bdr:NM0A8F025B947F907E , bdr:NM1484CF486681EED7 , bdr:NM56343FAD7B1046F8 , bdr:NM58B8742D5F0BB61E , bdr:NM5B31AC24535A6B27 , bdr:NM9245AD4F743891F9 , bdr:NM98FDA999C5B2AF85 , bdr:NMA52E7B5B036423C3 , bdr:NMA6A167CE5AD02183 , bdr:NMAC56F8FF45E84360 , bdr:NMB5A4CEEC8C0E9244 , bdr:NMF28288A8D7D283DD , bdr:NMP7588_ATII_SA0 ;
+   tmp:associatedCentury  7 ;
+   tmp:entityScore  9258 .

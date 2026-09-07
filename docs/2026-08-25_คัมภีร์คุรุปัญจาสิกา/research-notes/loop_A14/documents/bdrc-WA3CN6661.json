@@ -1,0 +1,78 @@
+{ 
+  "http://purl.bdrc.io/resource/WA3CN6661" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "bla ma lnga bcu dang rtsa ltung bcu bzhi'i rnam bshad/" ,
+      "lang" : "bo-x-ewts"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/workGenre" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/T132"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/workIsAbout" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/WA22925"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/Work"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/creator" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/CR48C23BB526D6FB3C"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/catalogInfo" : [ { 
+      "type" : "literal" ,
+      "value" : "Study on the discipline to be observed by the follower of the Vajrayana, with Chinese translation by Sonam Chozom." ,
+      "lang" : "en"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/workHasInstance" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/W3CN6661"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW3CN6661"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/tmp/entityScore" : [ { 
+      "type" : "literal" ,
+      "value" : "2" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/language" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/LangBo"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/LangZh"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/CR48C23BB526D6FB3C" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/AgentAsCreator"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/role" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/R0ER0019"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/agent" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P1614"
+    }
+     ]
+  }
+}

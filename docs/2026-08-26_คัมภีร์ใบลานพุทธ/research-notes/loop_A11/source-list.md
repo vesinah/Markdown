@@ -1,0 +1,27 @@
+# Source List — Loop A11
+Project: palm_leaf_buddhist_manuscripts | Date: 2026-08-26
+Format: ID | Type | Author | Year | Title | Venue | URL | Status
+
+S1 | Blog post (institutional) | San San May | 2017 | Kammavaca: Burmese Buddhist ordination manuscripts | British Library, Asian and African studies blog | https://www.bl.uk/stories/blogs/posts/kammavaca-burmese-buddhist-ordination-manuscripts | HARVESTED
+S2 | Dealer/collector article | Far East Collections (anon.) | 2026 (site) | The loss of the Mandalay Palace Manuscripts in 1885 | fareastcollections.com Articles | https://fareastcollections.com/the-loss-of-the-mandalay-palace-manuscripts-in-1885/ | HARVESTED
+S3 | Museum object page | Musée Guimet | n.d. | Kammavaca, a Burmese manuscript (BG83700) | Musée Guimet — Treasures of the Historic Library | https://www.guimet.fr/en/our-collections/treasures-historic-library/kammavaca-burmese-manuscript | HARVESTED
+S4 | Blog post (BL curator mirror) | Jana Igunma | 2025 | "A bar of pure gold": Shan Buddhist manuscripts | SEACOM southeast asia communication centre (seacomberlin.wordpress.com) | https://seacomberlin.wordpress.com/2025/12/08/a-bar-of-pure-gold-shan-buddhist-manuscripts/ | HARVESTED
+S5 | Encyclopedia entry | Ethan Teekah / Britannica Editors | n.d. (current) | Kuthodaw Pagoda | Encyclopaedia Britannica | https://www.britannica.com/place/Kuthodaw-Pagoda | HARVESTED
+S6 | Institutional project page | Vipassana Research Institute | n.d. (current) | Tipitaka Project | VRI, Dhamma Giri, Igatpuri | https://www.vridhamma.org/Tipitaka-Propject | HARVESTED
+S7 | Digital-archives program page | Francois Tainturier / Inya-Burma Institute (UCLA MEAP) | n.d. (current) | Documenting Colonial Era Monastic Collections in Former Principalities of the Shan State | UCLA Library Modern Endangered Archives Program | https://meap.library.ucla.edu/projects/myanmar/ | HARVESTED
+X1 | Museum object page | Smithsonian NMAA/FSG | n.d. | Kammavācā manuscript S1986.487.1-20 | Smithsonian Institution | https://www.si.edu/object/kammavaca-manuscript:fsg_S1986.487.1-20 | SNIPPET
+X2 | Museum blog | Smithsonian NMAA | 2026 | Ornate and Sacred: Burmese Kammavācā Manuscripts | asia.si.edu | https://asia.si.edu/whats-on/blog/posts/ornate-and-sacred-burmese-kammavaca-manuscripts/ | SNIPPET
+X3 | Collection catalogue entry | Royal Asiatic Society | n.d. | [RAS Burmese 01] Kammavācā | royalasiaticcollections.org | https://royalasiaticcollections.org/ras-burmese-1-kammavaca/ | SNIPPET
+X4 | Museum object page | Victoria & Albert Museum | n.d. | Sadaik O48861 (Konbaung thayo lacquer manuscript chest) | V&A Explore the Collections | https://collections.vam.ac.uk/item/O48861/sadaik/ | SNIPPET
+X5 | Blog post | British Library (San San May) | 2017 | 33 Burmese manuscripts now digitised | blogs.bl.uk Asian and African studies (+ carnetcase mirror) | https://blogs.bl.uk/asian-and-african/2017/05/33-burmese-manuscripts-now-digitised.html | SNIPPET
+X6 | National library record | National Library NZ | 2018 | Burmese Kammavaca Manuscript (text ID: San San May) | natlib.govt.nz | https://natlib.govt.nz/records/40258216 | SNIPPET
+X7 | Tutorial page | Cornell University Library | n.d. | Palm Leaf Manuscripts — Preservation and Conservation Tutorial | chinapreservationtutorial.library.cornell.edu | https://chinapreservationtutorial.library.cornell.edu/content/palm-leaf-manuscripts/ | SNIPPET
+X8 | Travel/field notes | havecamerawilltravel.com | 2026 | Kuthodaw Pagoda: 729 Marble Slabs Form the World's Largest Book | havecamerawilltravel.com | https://havecamerawilltravel.com/field-notes/kuthodaw-pagoda-worlds-largest-book/ | SNIPPET
+X9 | Photo essay | photodharma.net | n.d. | Marble Books at Kuthodaw and Sandamuni, Mandalay | photodharma.net | https://photodharma.net/Myanmar/Kuthodaw-Sandamuni/index.htm | SNIPPET
+P1 | Primary source (scan) | Viggo Fausbøll | 1896/1897 | Catalogue of Pâli and Burmese books and manuscripts belonging to the library of the late King of Burma... Palace at Mandalay 1886 | India Office Library; archive.org scans tdl.49642, dli.csl.3654 | https://archive.org/details/dli.csl.3654 | PHASE B CANDIDATE
+P2 | Journal article (PDF) | (San San May et al., BL) | n.d. | The Making of A Collection: Burmese Manuscripts in The British Library | JSTOR stable/42554272 | https://www.jstor.org/stable/pdf/42554272.pdf | PHASE B CANDIDATE
+P3 | Monograph | San San May & Jana Igunma | 2018 | Buddhism Illuminated: Manuscript Art from South-East Asia | British Library, London | (books.google.com/books/about/Buddhism_Illuminated.html?id=srJmDwAAQBAJ) | PHASE B CANDIDATE
+P4 | Scholarly monograph | U Nyunt Maung | 2000 | Man kyaññ˙ ce. kammavå | (Burmese ms study; cited by S2) | ยังไม่พบข้อมูลยืนยัน (no URL verified this session) | PHASE B CANDIDATE
+P5 | Survey report PDF | Inya-Burma Institute / MEAP0036 | 2022-2023 | Identification Report + Wat Tongsi/Hamsi/Wat Papu catalogues | UCLA MEAP static assets | https://static.library.ucla.edu/craftassetsprod/MEAP/MEAP-documents/MEAP0036_Inya-BurmaInstitute_Appendix1_IdentificationReport.pdf | PHASE B CANDIDATE
+P6 | Digital corpus | kit119 / ngocquynh85 (GitHub) | current | Kuthodaw Inscription Tipitaka Viewer (729 stelae) | github.com/kit119/KIT-729 | https://github.com/kit119/KIT-729 | PHASE B CANDIDATE
+P7 | Digital library | Vipassana Research Institute | current | Chattha Sangayana Tipitaka downloads | tipitaka.org | https://www.tipitaka.org/ | PHASE B CANDIDATE

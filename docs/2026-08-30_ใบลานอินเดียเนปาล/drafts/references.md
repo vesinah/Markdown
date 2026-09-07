@@ -1,0 +1,179 @@
+# บรรณานุกรมรวม (Consolidated References)
+
+**โครงการวิจัย:** สถานภาพการศึกษาคัมภีร์ใบลานและภูรชบัตรในอินเดียและเนปาล (palmleaf_india_nepal)  
+**มาตรฐานการอ้างอิง:** Chicago/Turabian Humanities Citation Style (Notes and Bibliography)
+
+---
+
+## 1. แหล่งข้อมูลปฐมภูมิและจารึก (Primary Sources & Inscriptions)
+
+- **จารึกวัดพระศิวะนาฏราช ณ จิทัมพรัม (Chidambaram Inscriptions):** บันทึกการบูรณะหอสมุด Sarasvatī Library (sarasvati-paṇṭāram) สมัยราชวงศ์โชฬะ ศตวรรษที่ 13, ถอดความและวิเคราะห์โดย Gérard Colas (2023).
+- **จารึกพระเจ้าอโศกมหาราช (Aśokan Edicts):** จารึกอักษรขโรษฐี ณ Brahmagiri, Jatinga-Ramesvara, และ Siddapura ระบุชื่ออาลักษณ์ Capaḍa (capaḍena likhite lipikareṇa).
+- **จารึกอุทิศวัด Ambikā Devī (ค.ศ. 955):** บันทึกสมการบุญ jīrṇoddhāra ว่าด้วยอานิสงส์เท่าเทียมกันระหว่างผู้สร้างดั้งเดิมกับผู้บูรณะซ่อมแซมคัมภีร์.
+- **ม้วนคัมภีร์พุทธคันธาระ คอลเลกชันบริติชไลบรารี (BL Kharoṣṭhī Scrolls):** เปลือกไม้เบิร์ช 29 ม้วน บรรจุในหม้อดินเผานิกายธรรมคุปตกะ (ค.ศ. 10–30), หอสมุดแห่งชาติอังกฤษ.
+- **ม้วนคัมภีร์พุทธคันธาระ คอลเลกชันซีเนียร์ (Senior Manuscripts):** เปลือกไม้เบิร์ช 24 ม้วน คัดลอกโดยอาลักษณ์คนเดียว ระบุปีที่ 12 รัชกาลพระเจ้ากนิษกะ (c. 140 CE).
+- **คัมภีร์ใบลานเนปาล CUL Add.1049.1:** คัมภีร์ใบลานลงปีศักราชเก่าที่สุดในหอสมุดมหาวิทยาลัยเคมบริดจ์ (Śaka 750 = ค.ศ. 828).
+- **คัมภีร์ใบลานเนปาล CUL Add.1702 (Bodhisattvabhūmi):** กำหนดอายุใหม่โดย Harimoto & Rath เป็นกลางศตวรรษที่ 8 (c. 750 CE).
+- **คัมภีร์ใบลานไชนะ Oghaniryukti (ค.ศ. 1060):** ภัณฑารไจซัลเมร์ รัฐราชสถาน, ต้นฉบับใบลานพร้อมปกไม้เขียนสี patli.
+
+## 2. แคตตาล็อกประวัติศาสตร์และคลังสารสนเทศ (Historical Catalogues & Repositories)
+
+- **Śāstrī, Haraprasad.** 1905, 1915. *A Catalogue of Palm-leaf and Selected Paper MSS. Belonging to the Durbar Library, Nepal*. Vols. 1–2. Calcutta: Baptist Mission Press.
+- **Grünendahl, Reinhold.** 1989. *A Concordance of H. P. Śāstrī's Catalogue of the Durbar Library and the Microfilms of the Nepal-German Manuscript Preservation Project*. Verzeichnis der Orientalischen Handschriften in Deutschland (VOHD), Supplementband 31. Stuttgart: Franz Steiner Verlag.
+- **Bendall, Cecil.** 1883. *Catalogue of the Buddhist Sanskrit Manuscripts in the University Library, Cambridge*. Cambridge: Cambridge University Press.
+- **Aufrecht, Theodor.** 1891–1903. *Catalogus Catalogorum: An Alphabetical Register of Sanskrit Works and Authors*. Leipzig: F. A. Brockhaus.
+- **Bühler, Georg.** 1871–1875. *Reports on Sanskrit Manuscripts in the Bombay Presidency*. Bombay: Government Central Book Depot.
+- **NGMCP (Nepal-German Manuscript Cataloguing Project):** Universität Hamburg & National Archives of Nepal (NAK), คลังดิจิทัลไมโครฟิล์มกว่า 180,000 รายการ.
+
+## 3. ตำราวิชาการและบทความวิจัยคัดสรร (Monographs & Peer-Reviewed Articles)
+
+- "A Transcription of the Two Oldest Sanskrit Manuscripts of Daśabhūmikasūtram in Nepal," *Journal of Buddhist Studies* 39 (2014) [S-2014-jbs-109, metadata — DOI 10.21482/jbs.39..201406.7] — เกณฑ์ "สองเก่าสุดรายคัมภีร์"
+- "Analysis of Aspergillus niger isolated from ancient palm leaf manuscripts," *npj HS* (2024) [10.1186/s40494-024-01320-3 — metadata]
+- "Analysis of Aspergillus niger isolated from ancient palm leaf manuscripts," *npj HS* (2024) [พบจาก cited-by Wiland — DOI 10.1186/s40494-024-01320-3]
+- "Analysis of Aspergillus niger isolated from ancient palm leaf manuscripts," *npj Heritage Science* (2024) [fulltext/metadata ในชุด conservation findings] — การระบุเชื้อจากคัมภีร์จริง.
+- "Automatic damage identification of Sanskrit palm leaf manuscripts with SegFormer," *Heritage Science* (2024) [S-546, fulltext PASS] — DOI 10.1186/s40494-023-01125-w
+- "Automatic damage identification of Sanskrit palm leaf manuscripts with SegFormer," *Heritage Science* (2024) [S-546, fulltext — DOI 10.1186/s40494-023-01125-w]
+- "Automatic damage identification of Sanskrit palm leaf manuscripts with SegFormer," *Heritage Science* (2024) [S-546, fulltext]
+- "Automatic damage identification of Sanskrit palm leaf manuscripts with SegFormer," *Heritage Science* (2024) [S-546, fulltext] — การระบุความเสียหายจากภาพอัตโนมัติ.
+- "Automatic damage identification... SegFormer," *Heritage Science* (2024) [S-546, fulltext]
+- "Controlled-release clove oil nanocapsules integrated with cellulose nanowhiskers," *npj HS* (2025) [S-542, fulltext]
+- "Controlled-release clove oil nanocapsules...," *npj HS* (2025) [S-542, fulltext]
+- "Dimensional Stability of Sanskrit Manuscript Supports...," *Restaurator* (2026) [10.1515/res-2025-0020 — metadata]
+- "Evaluate the status and associated factors of Gəʿəz manuscripts heritage preservation," *PLOS One* (2026) [S-547, fulltext 18pp — บทที่ 6 เทียบเคียง]
+- "Evaluate the status and associated factors of Gəʿəz manuscripts heritage preservation," *PLOS One* (2026) [S-547, fulltext] — ใช้เทียบกรอบปัจจัยสังคมและโครงสร้างสนับสนุน ไม่ใช่เทียบค่าทางเทคนิคข้ามวัสดุ.
+- "Revealing the Mechanism of Ink Flaking from Surfaces of Palm Leaves (Corypha umbraculifera)," *Langmuir* (2024) [พบจาก cited-by Wiland — metadata]
+- "Southeast Asian palm leaf manuscript images: HTR line segmentation review" [S-456, fulltext]
+- "Study on the Effects of Temperature and Relative Humidity on the Hygroscopic Properties," *Forests* 15.10:1816 (2024) [พบจาก cited-by Wiland — metadata]
+- "Study on the Effects of Temperature and Relative Humidity...," *Forests* 15.10:1816 (2024) [metadata]
+- "Study on the Material Properties and Deterioration Mechanism of Palm Leaves," *Restaurator* (2024) [พบจาก cited-by Wiland — metadata]
+- "Study on the hygroscopicity and kinetic and thermodynamic properties of ancient Tibetan Palm Leaf Manuscripts," *npj HS* (2025) [S-541, fulltext]
+- "Synergistic ATRP-IL approach for improving the mechanical properties of fragile palm leaf manuscripts," *npj HS* (2025) [S-543, fulltext]
+- "Synergistic ATRP-IL approach...," *npj HS* (2025) [S-543, fulltext]
+- "discoveries at Bamiyan in central Afghanistan have produced around 275 fragments of palm-leaf manuscripts in Kharoṣṭhī script, written by ca. 50 scribes" (ศตวรรษ 1-2) [S-454 — Manuscript Cultures p.184; รวมใน Adversarial B-15 Thesis 1]
+- *China Daily* [S-259, S-260]
+- *Education Materialised* p.216n2 [S-457]
+- *IJCP* 2023 [10.1017/s0940739123000048 — metadata]
+- *Wisdom Frozen in Time* Vol.3, IGNCA (2008) [S-235, คำบรรยายเท่านั้น] — "30,433 palm-leaf manuscripts and 6,426 books"
+- *Wisdom Frozen in Time: In Search of Treasure in Tanjavur and Bhubaneswar (Volume 3)*, IGNCA (2008), Internet Archive dli.Wisdom.Frozen.In.Time [S-235, คำบรรยายเท่านั้น] — Tamil University 8,000; Sarasvati Mahal 30,433 + 6,426 + catalogue Sarfojī 1801 บนใบลาน; Bhubaneswar ~37,000; Kedarnath ~3,000
+- A. Aghaei และคณะ, "Radiocarbon Dating of Manuscripts Kept in the Central Library of the University of Tehran," *Radiocarbon* 65.2 (2023) [S-453, fulltext] — C-14 ยืนยัน colophon + "วิธีอิสระจาก philology"
+- A. Loshali, G. Tripathi, S. Bawa และ V. Aeri, "Betula utilis (Bhojpatra): A potent herb..." *JAPS* 15.5 (2025): 1-13 [S-2025-loshali-30]
+- A.A. Ali, B.R. Goswami, N. Ligira และ R.K. Dutta, "Sāncipāt: a popular manuscript writing base of early Assam," *Current Science* 123.11 (2022): 1359-1364 [S-2022-ali-05]
+- A.F.R. Hoernle, "The Bheṣa Saṃhitā in the Bower Manuscript," *JRAS* [S-1905-hoernle-106, metadata — DOI 10.1017/s0035869x00040107] + "Studies in Ancient Indian Medicine V: The Composition of the Caraka Saṃhitā in the Light of the Bower Manuscript" [S-1906-hoernle-107, metadata — DOI 10.1017/s1356186300081347] — อายุ Bower ยังต้องยืนยันจาก fulltext (ห้ามระบุจนพบ quote)
+- Add.864 Kalāpustaka [S-444 — จาก findings_volumes]
+- Adversarial Pass B-14 [findings_B13_B14.md] — 14C Gilgit ไม่มีเผยแพร่ (ยืนยัน); ใต้ไม่มี "เก่าสุด" ยืนยัน
+- Adversarial Pass B-14 [findings_B13_B14.md] — 14C Gilgit ไม่มีเผยแพร่ (ยืนยัน); ใต้ไม่มี "เก่าสุด" ยืนยัน (survival bias); Jain < ศ.11 ใช้ Balbir quote เดิม
+- Adversarial Pass B-15/16 Thesis 2 [findings_B15_B16.md] — Aghaei Tehran (S-453): 14C ยืนยัน colophon ตรง + อิสระจาก philology; pipeline ผสม
+- Adversarial Pass B-15/16 Thesis 4 [findings_B15_B16.md] — สูตร colophon ถูกคัดลอกได้; ต้อง cross-check
+- Adversarial Pass B-15/16 [findings_B15_B16.md] — Thesis 2: Tehran 14C ยืนยัน colophon + Senior ~140 ค.ศ.; Thesis 4: สูตรถูกคัดลอก + Bakhshālī วัสดุ≠งานเขียน [S-295] + Klebanov NS 633 [S-2021-klebanov-full]; คำตัดสิน: pipeline ผสม
+- Adversarial Pass B-15/16 [findings_B15_B16.md] — ตารางสรุป: Thesis 1 แก้ (เงื่อนไขภูมิอากาศ), Thesis 2 pipeline ผสม, Thesis 3 robustness note, Thesis 4 cross-check
+- Adversarial Pass B-15/16, Thesis 2 [findings_B15_B16.md] — Aghaei Tehran (S-453): 14C ยืนยัน colophon ตรง + อิสระจาก philology; pipeline ผสม palaeography → colophon → 14C
+- Agnieszka Helman-Ważny ชุด Mustang/Mardzong [S-450/S-215 — บทที่ 3/5] — คลังถ้ำที่พบโดยไม่มีผู้คุมต่อเนื่อง
+- Agnès Couvrat Desvergnes, "Guṭakās from North-Western India," ใน *Tied and Bound* (2023) [S-2023-couvrat-75, fulltext]
+- Ali et al. 2022 [S-05, fulltext] — Tutia antifungal + XRD
+- Ali et al. 2022 [S-05, fulltext]; Goswami et al. 2017 [S-70] — การแปรรูป *sāñcipāt* และหมึก *mahī*.
+- Ali et al. 2022 [S-05] — antifungal sāñcipāt
+- Ali et al. 2022 [S-05]; Goswami et al. 2017 [S-70]
+- Ali et al. 2022, p.1360 [S-05]
+- Ali et al. 2022, p.1360 [S-05] — Hengul ขอบ + mahī
+- Ali et al., *Current Science* 123.11 (2022), p.1359 [S-2022-ali-05, fulltext]
+- Aman Sarawgi, Erla Garces Arias & Cristian Zotter, "Digitizing Nepal's Written Heritage: A Comprehensive HTR Pipeline for Old Nepali Manuscripts," *ACL 2026* [S-2026-sarawgi-15, fulltext 27pp] — CER 4.9%
+- Aman Sarawgi, Erla Garces Arias & Cristian Zotter, "Digitizing Nepal's Written Heritage: A Comprehensive HTR Pipeline for Old Nepali Manuscripts," *ACL 2026* [S-250, fulltext 27pp] — CER 4.9%; binarization -1%; data-centric > architecture
+- Aman Sarawgi, Erla Garces Arias & Cristian Zotter, "Digitizing Nepal's Written Heritage: A Comprehensive HTR Pipeline for Old Nepali Manuscripts," *Proceedings of the 64th Annual Meeting of the ACL (Vol. 1: Long Papers)* (2026): 14720-14746 [S-2026-sarawgi-15 = S-250, fulltext 27pp] — abstract: CER 4.9%; p.14721: NGMPP + royal edicts; pp.14721-14722: 155 mss/3,100 lines/105,000 synthetic; p.14727: binarization -1% + long lines + data-centric conclusion + github.com/anjalisarawgi/nepOCR
+- Amato, Elwert & Pons, BuddhistRoad digitization concept [S-292, fulltext]
+- Andrea Schlosser, Stefan Baums, Richard Salomon & Ingo Strauch, *Three Early Mahāyāna Treatises from Gandhāra: Bajaur Kharoṣṭhī Fragments 4, 6, and 11* (Seattle: University of Washington Press, 2022) [S-291, fulltext 26pp] — Ch.1 p.1: "Kharoṣṭhī script datable to the second century, all by the same scribe" + "apparently found" (provenance ไม่ชั่วรอย)
+- Andrea Schlosser, Stefan Baums, Richard Salomon & Ingo Strauch, *Three Early Mahāyāna Treatises from Gandhāra: Bajaur Kharoṣṭhī Fragments 4, 6, and 11* (UW Press, 2022) [S-291, fulltext 26pp] — "apparently found in the late 1990s"; Kharoṣṭhī ศตวรรษที่สอง มือเดียว
+- Andrey Klebanov, "On the Textual History of the Suśrutasaṃhitā (1)," *eJournal of Indian Medicine* 12 (2021) [S-2021-klebanov-11, fulltext 64pp] — colophon NS 633 ของสาย Suśrutasaṃhitā เนปาล
+- Andrey Klebanov, "On the Textual History of the Suśrutasaṃhitā (1)," *eJournal of Indian Medicine* 12 (2021) [S-2021-klebanov-11, fulltext 64pp] — colophon NS 633 บอกยุคข้อความ/สายสำเนา
+- Andrey Klebanov, "On the Textual History of the Suśrutasaṃhitā (1): A Study of Three Nepalese Manuscripts," *eJournal of Indian Medicine* 12 (2021) [S-2021-klebanov-11 = S-2021-klebanov-full, fulltext 64pp] — colophon NS 633 บอกยุคข้อความ/สายสำเนา; และ p.2: สายสำเนา/hyparchetype ของคัมภีร์เนปาล
+- Anjana & Resmi 2022 [S-32] — "cord passed through"
+- Anjana & Resmi 2022, p.59 [S-32]
+- Anjana & Resmi 2022, p.59 [S-32] — "Palm leaf and birch bark cannot be stitched, so a cord is passed through them"
+- Anjana & Resmi 2022, p.59 [S-32] — Tamrapatra ใน Lekhyasamagri
+- Anjana R S และ Resmi B, "A Review on Critical Edition of Ayurveda Manuscripts," *IJAPR* 10.2 (2022): 58-63, p.59 [S-2022-anjana-32, fulltext]
+- Anna Poliakova, Giovanni Ciotti et al., "Phytolith assemblages from palm leaves and palm-leaf manuscripts," *Frontiers in Plant Science* (2025) [S-339, HTML fulltext] — Borassus vs Corypha แยกได้จากคัมภีร์จริง
+- Anna Poliakova, Giovanni Ciotti et al., "Phytolith assemblages from palm leaves and palm-leaf manuscripts: what is the difference and what it could mean," *Frontiers in Plant Science* (2025) [S-339, HTML fulltext] — Borassus flabellifer L. + Corypha umbraculifera L. แยกชนิดด้วย phytolith; samples: CMSC Hamburg/EFEO Puducherry 2024
+- Annabel Teh Gallop, Karin Scheper & Michael Dee, "The Radiocarbon Dating of Early Malay and Javanese Manuscripts Written on Dluwang," *manuscript cultures* 25.1 (2025): 1-26 [S-337, fulltext 27pp] — Tanjung Tanah "proved spectacularly wrong"; invasive; "key piece of evidence in otherwise insoluble debates"
+- Annabel Teh Gallop, Karin Scheper & Michael Dee, "The Radiocarbon Dating of Early Malay and Javanese Manuscripts Written on Dluwang," *manuscript cultures* 25.1 (2025): 1-26 [S-337, fulltext 27pp] — p.2: Tanjung Tanah 14C ปลายศ.14 (พิสูจน์ภาพจำผิด); Arjunawiwāha 1334 PNRI L 641; Sang Hyang Hayu 1435/1493; invasive + "key piece of evidence in otherwise insoluble debates"
+- Anuj Misra, Clemency Montelle & Kim Plofker, "Eclipse Computation Tables in Sanskrit Astronomy: A Critical Edition of the Tables of the Karaṇakesarī of Bhāskara," *HSSA* 4 (2016) [S-520, fulltext 82pp] — p.9: colophon R2 f.8v; pp.32-33: ตารางเป็นหน่วย; p.67: การ customizing
+- Apiradee Techasiriwan, "Locating Tai Lü and Tai Khün Manuscripts in Space and Time through Colophons," ใน *Tracing Manuscripts in Space and Time through Paratexts* (De Gruyter, 2016) [S-174, fulltext 24pp] — p.38: ข้อมูล 8 ประเภท+fn.6: 154 สูตร เหตุผลถวาย; p.40: สูตรวันที่เต็ม; p.41: สูตร Sādhu Merit + ความเร็ว 9/13 วันต่อผูก
+- Apiradee Techasiriwan, "Locating Tai Lü and Tai Khün Manuscripts in Space and Time through Colophons," ใน *Tracing Manuscripts in Time and Space through Paratexts* (De Gruyter, 2016) [S-174, fulltext 24pp] — p.40: สูตรวันที่จุลศักราช 8 องค์ประกอบ
+- Apiradee Techasiriwan, "Locating Tai Lü and Tai Khün Manuscripts in Space and Time through Colophons," ใน *Tracing Manuscripts in Time and Space through Paratexts* (De Gruyter, 2016) [S-174, fulltext 24pp] — p.40: สูตรวันที่จุลศักราช 8 องค์ประกอบ; Peera Panarut, "The Structure, Functions, and Tradition of Siamese Royal Scribal Colophons," ใน *The Syntax of Colophons* (De Gruyter, 2022) [S-175, fulltext 20pp] — p.262: ใบลานสยามเก่าสุดที่ระบุปี 1615
+- Appa Rao Gurav, "The Vedic Schools in Contemporary Maharashtra," ใน *Embodying the Vedas* (De Gruyter, 2017) [S-212, fulltext 66pp] — pāṭhaśālā ร่วมสมัย: การท่องเป็นแกน การเขียนเป็นภาระศิษย์
+- Appa Rao Gurav, *Embodying the Vedas* ch.3 [S-212, fulltext] — pāṭhaśālā ร่วมสมัย; มัตถ์ทมิฬ [S-91]
+- Arokiaswamy et al., "THE SARASVATI MAHAL LIBRARY...," *J. Xidian Univ.* 14.9 (2020), p.1446 [S-155, fulltext] — "During the reign of Nayaks of Thanjavur (1535-1675), the library was formed and developed in the name of Sarasvati Bhandar"
+- Arokiaswamy และคณะ, "The Sarasvati Mahal Library and Contribution of Rajah Serfoji II," *J. Xidian Univ.* 14.9 (2020) [S-155, fulltext] + IGNCA doc S-235: 30,433 palm-leaf + 6,426 books
+- Asha Poliakova, Giovanni Ciotti, Palanichamy Perumal และ Natesan Balachandran, "Plants used for palm-leaf manuscript production and conservation in South and Southeast Asia: a review," *Botany Letters* 173.3 (2026) [S-2026-poliakova-93]; Yan Li และคณะ, "Scientific restoration of engraved palm leaf manuscripts," *npj Heritage Science* 13:380 (2025) [S-2025-li-50]
+- Ashok Uraon & M.K. Sinha, "Unveiling Bihar's Manuscript Legacy: Assessing the Role of the National Mission for Manuscripts," *IJIDT* 14(1) (2024) [S-229, metadata] — DOI 10.5958/2249-5576.2024.00004.9
+- Aufrecht, *Catalogus Catalogorum* Part I (1891) [S-271, scan 820pp] — Preface p.v: รายการ 16 (Report) ประเมิน "whole branches of literature, till then scarcely known, were here brought to light"
+- B-14 gap ยืนยัน: ไม่มีงาน quantitative climate-survival ข้ามภูมิภาค — findings_B13_B14.md
+- B.R. Goswami และคณะ, "Mahi: a unique traditional herbal ink of early Assam," *Current Science* 112.3 (2017): 591-595 [S-70, fulltext] — pH 7.1, Fe-polyphenol
+- Balbir & Ciotti (eds.) 2022 [S-443 เล่มเต็ม]; Vergiani, Cuneo, Formigatti (eds.) 2017 [S-444 เล่มเต็ม]
+- Balbir & Ciotti (eds.) 2022, Introduction [S-443] — scribe→witnesses→beneficiaries formulaic; Kasai (Old Uyghur donor colophons) [S-176]
+- Balbir & Ciotti (eds.), *Syntax of Colophons* (2022) [S-443, เล่มเต็ม fulltext]
+- Balbir & Ciotti (eds.), *The Syntax of Colophons* (De Gruyter, 2022) [S-443, extract colophons_2022.txt] — p.8/2: COMSt-inspired
+- Balbir & Ciotti (eds.), *The Syntax of Colophons* (De Gruyter, 2022) [S-443] — p.8/2: "contributions from all the written cultures of South, South-East and Central Asia that have historically made use of this book form"
+- Balbir 2017 [S-98, fulltext] — การย้ายคัมภีร์เพื่อหลบภัยหลัง Khalji ค.ศ. 1299.
+- Balbir 2017 [S-98] — Khalji 1299
+- Balbir 2017, "The Cambridge Jain Manuscripts," ใน *Indic MC* [S-98, fulltext] — Khalji 1299 safe haven
+- Balbir 2019 [S-97] + Balbir 2022 [S-96] — access จำกัด (Cort 1995)
+- Balbir 2019 [S-97] — "No Jain manuscript... earlier date than the eleventh century"
+- Balbir 2019 [S-97] — 163+1,276 (Shah 1937), 111+433 (Jinavijaya 1943), palm-leaf era 870-1441 CE; access จำกัด (อ้าง Cort 1995)
+- Balbir 2019 [S-97] — bhaṇḍāra เสียหายแมลง
+- Balbir 2019 [S-97] — multiple-text manuscripts และการเปลี่ยนองค์ประกอบของชุดคัมภีร์ไชนะ.
+- Balbir 2019 [S-97] — multiple-text manuscripts ไชนะ
+- Balbir 2019 [S-97] — palm-leaf era 870-1441; paper เริ่ม ~1179
+- Balbir 2019 [S-97] — sapta-kṣetra ช่องที่ 3
+- Balbir 2019 [S-97] — ผ้าห่อ/กระเป๋าผ้า
+- Balbir 2019 [S-97] — ล้าง/แห่คัมภีร์ประจำปี
+- Balbir 2019 [S-97] — ล้าง/แห่ประจำปี
+- Balbir 2019 [S-97] — สาม bhaṇḍāra แกน
+- Balbir 2019 [S-97] — อ้าง Cort 1995: จำกัดเฉพาะศาสนา แต่เปิดภายในกลุ่ม
+- Balbir 2019 [S-97] — อ้าง Shah 1937 (163+1,276)
+- Balbir 2019 [S-97] — แห่/ล้างประจำปี; De Simini [S-445] — พิธีปก liṅga pūjā
+- Balbir 2019/2022 [S-97, S-96] — underground vaults วัดไชนะ Thar
+- Balbir 2019/2022 [S-97, S-96] — vaults + ผู้ดูแลสืบทอด
+- Balbir 2022 [S-190 = S-217] — p.121/3: Shah 1937 163 ใบลาน+1,276 กระดาษ; p.122/4: องค์ประกอบ 9 ส่วน; p.142: saptakṣetra + "ความรู้ต้องอาศัยคัมภีร์"; p.143: พุทธ Metteyya ไม่พบในไชนะ; jñānapañcamī
+- Balbir 2022, "On the Syntax of Colophons in Jain Palm-Leaf and Paper MSS," ใน *Syntax of Colophons* [S-96, fulltext] — granthapraśasti/pustakapraśasti
+- Balbir [S-97] — ห้องใต้ดิน
+- Balbir, "Functions of Multiple-Text Manuscripts," 2019 — sapta-kṣetra; เทียบ Florinda De Simini, *Of Gods and Books* (De Gruyter, 2016), ch.1, ch.3 [S-210/S-211, fulltext]
+- Baums et al. 2014, p.184 [S-454] — "275 fragments of palm-leaf manuscripts in Kharoṣṭhī script, written by ca. 50 scribes"
+- Baums et al. 2014, p.184 [S-454] — Bamiyan 275 fragments 1st-2nd c. CE
+- Baums และคณะ ใน *Manuscript Cultures* (2014), p.184 [S-454] — 275 fragments, ~50 scribes
+- Bendall 1883 [S-272] + Formigatti 2022 [S-195] + Śāstrī v2 [S-430] — N.S. system
+- Butdisuwan & Ramesh Babu 2014 [S-478, fulltext OA]
+- Butdisuwan & Ramesh Babu 2014 [S-478] ร่วมกับระเบียนวัดศรีสะอาดของ ศมส. [S-470] — โมเดลสนับสนุนการสำรวจคลังวัดและบทเรียนความเสี่ยงจากการขนย้าย.
+- Bühler (supdt.), *A Catalogue of Sanskrit Manuscripts contained in the Private Libraries of Gujarat, Kaṭhiāvāḍ, Kachchh, Sindh, and Khāndeś*, Fascicle I (Bombay, 1871) [S-270, image-only 847pp]
+- Bühler, *A Catalogue of Sanskrit Manuscripts contained in the Private Libraries of Gujarat...* (1871) [S-270, image-only 847pp]; Śāstrī Vol II (1915) [S-430, OCR ขยะ ถอดจากภาพ]; Rice 1884 สำเนา DLI ผิดเล่ม [S-277, content-mismatch] — ตรวจตัวไฟล์จริงทั้งหมด
+- C-10 Audit [findings_C10_audit.md] — ligature errors 10/27 ไฟล์ (~37%) — แก้เฉพาะจุด quote ตามกฎ anti-hallucination
+- C-10 Audit [findings_C10_audit.md] — pure non-EN/TH 17/237 = 7.2% (นับกว้าง ~9%); ผู้ใช้ยืนยัน KPI สัดส่วนเป็น "คำแนะนำ" (2026-09-01)
+- Camillo A. Formigatti, "Colophons in Fourteenth-Century Nepalese Manuscripts," ใน *Syntax of Colophons* (2022), pp. 43-118 [S-195, fulltext 76pp]
+- Camillo Alessio Formigatti, "Colophons in Fourteenth-Century Nepalese Manuscripts: Materials for the Study of the Nepalese Renaissance (I)," ใน *The Syntax of Colophons* (De Gruyter, 2022) [S-195, fulltext 76pp] — p.17/3: Jinavijayamuni ประดิษฐ์ศัพท์สองชั้น
+- Cecil Bendall, *Catalogue of the Buddhist Sanskrit Manuscripts in the University Library, Cambridge* (1883) [S-272, scan 316pp] — Preface p.vii: บทวิจารณ์ Hodgson
+- Cecil Bendall, *Catalogue of the Buddhist Sanskrit Manuscripts in the University Library, Cambridge* (1883) [S-272, scan 316pp] — p.vii: Hodgson→Wright→Cambridge (1873-1876)
+- Cecil Bendall, *Catalogue of the Buddhist Sanskrit Manuscripts in the University Library, Cambridge* (Cambridge, 1883) [S-272, scan PASS 316pp] — N.S. era = 880 CE; dated leaves ถึง 857 CE; colophon "vinaśṭarājye" 1199 CE
+- Cecil Bendall, *Catalogue of the Buddhist Sanskrit Manuscripts in the University Library, Cambridge* (Cambridge: University Press, 1883) [S-272, scan PASS 316pp] — Preface p.vii: Wright + Hodgson; p.x: vernacular colophons; p.ix: "first which attempts systematically to discuss the age" + plates N.S. 128 = 1008
+- Cecil Bendall, *Catalogue of the Buddhist Sanskrit Manuscripts in the University Library, Cambridge* (Cambridge: University Press, 1883) [S-272, scan PASS 316pp] — plates N.S. 128 = 1008 ฯลฯ + palaeography/chronology เป็นจุดขายของเล่ม (บทที่ 8.2)
+- Chao Zhang, Wei Wang & Guozhong Zhang, "Construction of a Character Dataset for Historical Uchen Tibetan Documents under Low-Resource Conditions," *Electronics* 11(23):3919 (2022) [S-253, HTML fulltext] — 610 หมวดอักขระ + pipeline annotation/extraction/augmentation
+- Chen Yu et al., "Analysis of Two Different Inks... Non-Invasive Analysis," *Restaurator* (2023) [S-57 — metadata, paywall]
+- Chen et al. [S-544, fulltext] — rapid species identification ของใบลานโบราณทิเบต; ใช้เป็นหลักฐานการจำแนกวัสดุ ไม่ใช่คำสั่งรักษาโดยตรง.
+- Chen et al., "Plant selection in ancient Tibetan palm-leaf manuscripts," *npj HS* (2026) [S-544]
+- Chhetri et al. 2021, p.94 [S-71]
+- China Daily [S-259/260]
+- China Daily [S-259/S-260]
+- China Daily [S-260] — 465 volumes/~30,000 leaves
+- Christopher D. Bahl, "A Prosopography in Circulation: Advertising Scribal Travails in Arabic Manuscripts Across Early Modern South Asia," ใน *Scribal Practice and the Global Cultures of Colophons, 1400-1800* (Palgrave, 2022) [S-166, abstract+footnotes] — "prosopographies in circulation"
+- Chu et al. 2023 [S-135, fulltext 42pp] — 78%/85%/S2/lignin
+- Chu et al. 2023 [S-135, fulltext] — 78%/85% + S2 + polysaccharide/lignin
+- Chu et al. 2023 [S-135]
+- Ciotti 2021 [S-99] — ขาด quantitative analysis
+- Ciotti 2023 [S-74, fulltext] — typology แบ่งตามงาน
+- Ciotti 2023 [S-74] — textile wrap
+- Ciotti, "Strategies for Binding Pothi Manuscripts" (2023) [S-74, fulltext] — typology + ฟังก์ชันปก
+- Ciotti, "Strategies for Binding Pothi Manuscripts," 2023 [S-74, fulltext]
+- Clauson-Macdonell, catalogue Stein/Kashmir 1912 [S-241, IA scan list]
+- Colas 2023 [S-170, fulltext] — *jīrṇṇittavai eḻutavum* และการคัดลอกใบชำรุด.
+- Colas 2023 [S-170, fulltext] — jīrṇoddhāra องค์กร
+- Colas 2023 [S-170, fulltext] — ข้อมูลทั้งหมดจากการถอดจารึกของ Colas
+- Colas 2023 [S-170] + Balbir 2019 [S-97] — การแห่/บูชา/คัดลอกซ้ำ
+- Colas 2023 [S-170] — jīrṇoddhāra ต่อเนื่อง
+- Colas 2023 [S-170] — p.136: อายุใบลาน; p.136: ระบบ scriptorium; p.147-148: จารึกจิทัมพรัม (จ้าง 10-12 คน, jīrṇṇittavai … eḻutavum, ค่าจ้าง kācu); p.149: อ่านออกเสียง+editorial process; p.142: พิธีบูชาห้องคัมภีร์+กองทุน vṛtti ใน śāsana

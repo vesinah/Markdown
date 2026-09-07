@@ -1,0 +1,917 @@
+Source PDF File: d:\01_APP\Research\output\islam_nusantara\research-notes\loop_16\documents\2007-Eprints-Batu_Bersurat_Terenganu_Perspektif_Geometri_Segiti.pdf
+Total Pages: 14
+Statistics: Chars=26367, ThaiWords=5273.4, EnglishWords=4113
+
+--- Page 1 of 14 ---
+Batu Bersurat Terenganu: Perspektif Geometri Segitiga 
+ 
+ 
+1Khairuddin bin Omar 
+2Mohd Sanusi bin Azmi 
+3Mohammad Faidzul bin Nasrudin 
+4Abdul Razak bin Salleh 
+5Azizi bin Abdullah 
+ 
+1,3,5Pusat Teknologi Kecerdasan Buatan 
+Fakulti Teknologi dan Sains Maklumat 
+Universiti Kebangsaan Malaysia, Bangi, Malaysia 
+1ko@ftsm.ukm.my, 3mfn@ftsm.ukm.my,5azizi@ftsm.ukm.my 
+ 
+2Fakulti Teknologi Maklumat dan Komunikasi 
+Universiti Teknikal Malaysia Melaka, Malaysia 
+2sanusi@utem.edu.my 
+ 
+4Pusat Sains Matematik 
+Fakulti Sains Teknologi 
+Universiti Kebangsaan Malaysia, Bangi, Malaysia 
+aras@ukm.my 
+ 
+ 
+ 
+ 
+Abstrak: Batu bersurat yang dijumpai di Nusantara terutamanya B atu Bersurat 
+Terengganu memberikan maklumat yang sangat berguna kepada sejarah Tanah 
+Melayu. Melalui batu tersurat tersebut, banyak maklum at yang tersimpan rapi baik 
+secara tersurat mahupun tersirat . Umum diketahui, t ulisan yang digunakan oleh 
+pemahat Batu Bersurat Terengganu ialah tulisan Jawi. Walau bagaimanapun, pemahat 
+dan juga asal usul pemahat tidak dapat dipastikan memandangkan tiada maklumat 
+yang tertera mengenainya. Untuk mengetahui maklumat mengenai pemahat dan juga 
+asal usulnya, k ajian paleografi digital sangat berguna untuk mengenal pasti jenis 
+tulisan kaligrafi yang digunakan. Satu kaedah untuk menentukan jenis tulisan 
+kaligrafi yang digunakan telah dicadangkan menggunakan kaedah geometri segitiga. 
+Kaedah ini menentukan tiga koordinat penting pada setiap huruf tulisan jawi yang 
+diekstrak dari Batu Bersurat Terengganu. Setiap huruf dipadankan dengan model 
+yang terdapat di dalam Qalam al S ittah dan seterusnya jenis-jenis kaligrafi dapat 
+ditentukan. 
+ 
+Kata kunci: Batu Bersurat Terengganu, Paleografi, dan Geometri Segitiga
+
+--- Page 2 of 14 ---
+2 
+1. Pengenalan 
+ 
+Batu bersurat Terengganu telah dipahat pada 22 Februari 1303 menurut kajian yang 
+dilakukan oleh S yed Muhammad Naquib al Attas (Mohd Yatim dan Nasir 2007) . 
+Bukti wujudnya tulisan jawi pada Batu Bersurat Terengganu menunjukkan Islam 
+telah bertapak di Terengganu pada tarikh tersebut. Tulisan yang dipahat pada batu 
+bersurat tersebut telah menggunakan tulisan Jawi yang berbaha sa Melayu dan 
+Sanskrit (Mohd Yatim dan Nasir 2007). 
+ Tulisan yang terpahat itu menggambarkan masyarakat ketika itu telah 
+menganut agama Islam dan mengamalkan nya di dalam kehidupan seharian mereka. 
+Walau bagaimanapun, asal kedatangan Islam, pemahat batu bersurat, tempat asal 
+tulisan dicipta dan ketika pemerintahan siapa masih menjadi misteri (Mohd Yatim dan 
+Nasir 2007). 
+ Permasalahan-permasalahan yang dinyatakan di atas adalah disebabkan tidak 
+tercatit maklumat lengkap seperti nama pemahat dan juga maklumat yang berkaitan 
+dengan pemahat. Kajian untuk mengetahui asal usul tulisan dan juga pentarikhan 
+manuskrip mahupun batu bersurat dapat dilakukan dengan melakukan kajian 
+paleografi. 
+ Paleografi ditakrifkan sebagai kajian manuskrip tulisan tangan kuno (Yosef et 
+al. 2005) . Bischoff (1990) menakrifkan p aleografi sebagai seni melihat dan 
+memahami. Brown (1994) pula memperincikan kajian tentang sejarah skrip termasuk 
+huruf singkatan dan tanda bacanya serta penafsirannya . Manakala Derolez (2008) 
+mengatakan paleografi adalah kajian m enentutkan tarikh dan tempat asal bagi 
+manuskrip yang tidak diketahui tarikh dan tempat asal . Manakala Sijpesteijn (2008) 
+dipetik dari (Witkam 2009) menyatakan paleografi adalah sains untuk mengenal pasti 
+tarikh dokumen- dokumen lama, begitu juga dengan paleografi arab adalah kajian 
+kepada pembangunan skrip-skrip arab melalui masa dan tempat. Menurut Just (2009), 
+kajian paleografi dunia barat boleh diaplikasikan kepada kajian paleografi arab. 
+ Walaupun takrif yang diberikan di atas berkaitan dengan manuskrip di dalam 
+bentuk kertas, namun kajian paleografi ini melihat kepada analisis perihalan bentuk 
+huruf seperti huruf singkatan, tanda baca dan jenis tulisan kaligrafi yang digunakan 
+untuk menentukan tarikh dan juga tempat asal manuskrip (Moalla et al. 2006), (Yosef 
+et al. 2004), dan (Ciula 2005). 
+ Pada masa kini, terdapat beberapa peny elidik yang telah menjalankan kajian 
+mengenai paleografi berbentuk digital. Kajian tersebut tertumpu kepada domain 
+Roman, Hebrew dan Hindi. Sistem Paleografi digital yang pertama telah dibangunkan 
+pada 1999 oleh penyelidik dari Universiti Pisa yang dinamakan “ System for 
+Paleography Instpector”. Malangnya, sistem ini tidak dapat disiapkan dan juga tidak 
+dapat digunakan oleh Jabatan Sejarah universiti tersebut. Sistem ini menggunakan 
+kaedah sentroid dan juga tangen. Ciri yang digunakan oleh penyelidik ini tid ak 
+mencukupi dan tidak dapat diuji memandangkan sistem tersebut tidak menyokong 
+sistem operasi windows xp, (Ciula 2005). 
+ Pada Tahun 2004, kajian awalan paleografi untuk manuskri p Ibrani dilakukan 
+oleh Yosef et al. ( 2004). Kajian yang dilakukan ini hanya mengambil kira lima huruf 
+Ibrani. Beliau juga tidak menjustifikasikan pemilihan lima huruf tersebut. Teknik 
+yang d igunakan ialah berkisar kepada ruang -ruang yang terdapat pada huruf -huruf 
+terbabit. 
+ Moalla et al . (2006) menggunakan pendekatan global iaitu kaedah statistik 
+dari ciri-ciri Haralick untuk mendapatkan 12 ciri yang digunakan di dalam
+
+--- Page 3 of 14 ---
+3 
+mengenalpasti jenis tulisan Roman. Namun, kaedah ini hanyalah mengumumkan jenis 
+tulisan yang dominan pada manuskrip Roman. 
+ Penyelidik India seperti Padma dan Vijaya (2009) dan juga Joshi, et al. (2007) 
+telah melakukan kajian ke atas jenis tulisan Hindi yang digunakan. Walaupun, mereka 
+tidak me labelkan kajian tersebut sebagai kajian paleografi digital, namun kaedah 
+menentukan jenis tulisan adalah sebahagian dari unsur paleografi. 
+ Padma dan Vijaya (2009) membahagikan imej pada manuskrip kepada 
+bahagian utama selepas melakukan proses pra pemprosessan untuk mendapatkan 
+lapan ciri yang digunakan untuk tujuan pengkategorian dan juga mengenalpasti jenis 
+tulisan. Manakala Joshi, et al. (2007) pula mendapatkan profil tenaga dari imej dan 
+kekuatan relatif pada sudut bersambungan untuk dijadikan sebagai ciri untuk tujuan 
+pengelasan dan juga pengenalan. 
+ Keterbatasan kaedah yang digunakan oleh penyelidik- penyelidik yang 
+disebutkan di atas, menghendaki satu kaedah lain yang boleh mengenalpasti jenis 
+kaligrafi yang digunakan serta asal usul jenis tulisan itu. S atu kaedah yang disebut 
+Model geometri segitiga diperkenalkan. 
+ 
+2. Kaligrafi: Kaitannya Dengan Bentuk Geometri Segitiga 
+ 
+Dalam dunia ketamadunan Islam, bentuk tulisan tangan juga mempunyai kategori 
+yang tersendiri. Terdapat jenis -jenis kaligrafi yang popular seperti Kufi, Riq’ah, 
+Nas’akh, Diwani, Diwani Jali dan Raihani (Sakkal 2003), (Mohd Sanusi 2003) dan 
+(Mohd Sa nusi et al. 2005). Setiap jenis kaligrafi ini diperkenalkan pada masa dan 
+tempat yang berbeza. Kaligrafi kufi dicipta di Kuffah dan mula dijadikan piawai 
+penulisan Al -Quran pada abad ke 8 selama hampir 300 tahun, manakala kaligrafi 
+nasakh pula dibangunkan pada abad ke 10 dan telah diperkemaskan di Turki pada 
+abad ke -16. Kemudiannya, tulisan ini telah dijadikan sebagai tulisan piawai untuk 
+menulis Al-Quran. Kaligrafi jenis Nastaliq ataupun farsi ditemui pada abad ke 14 dan 
+15 di I ran. Uniknya bagi setiap ka ligrafi, ia lahir pada zaman yang berbeza dan juga 
+pada tempat yang berbeza. 
+Di Tanah Melayu, kajian yang d ilakukan oleh Mohd Sanusi (2003) ke atas 
+manuskrip Merong Mahawangsa tel ah membawa kepada penemuan bahawa erotan 
+dan pencongan tulisan jawi mempunyai kaitan kepada jenis tulisan yang digunakan. 
+Malah menurutnya, di dalam manuskrip tulisan jawi tersebut terdapat beberapa jenis 
+tulisan iaitu nasakh, thuluth dan riq’ah. Hasil dapatan beliau mampu memberikan 
+input berguna kepada kajian paleografi tulisan jawi. 
+Di dalam kitab Undang -undang Melayu, menurut Abd. Rahman ( 1994), kitab 
+ini ditulis oleh 3 orang penulis yang berlainan bersandarkan jenis kaligrafi yang 
+berbeza pada halaman 1 -10, 11- 16 dan 17- 32. Menurutnya, pada bahagian pertama 
+iaitu halaman 1-10, tulisan kaligrafi yang digunakan berbeza dengan kaligrafi nasakh 
+atau thuluth yang piawai. Tampaknya, bentuk kaligrafi nya lebih bulat dan pendek 
+seolah-olah ianya tulisan jawa atau pun sanskrit. Pada bahagian kedua, ianya 
+mempunyai elemen kaligrafi thuluth dan pada bahagian ketiga, bentuknya berubah 
+kepada lebih berbentuk empat segi. 
+Dapatan yang d iperoleh dari tarikh dan tempat kaligrafi dibangunkan, diguna 
+secara meluas dan dikembangkan (Sakkal 2003) dan pengaruh tulisan kaligrafi di 
+dalam manuskrip (Mohd Sanusi 2003) dan (Mohd Sanusi 2005) boleh digunakan 
+sebagai petunjuk kepada kajian Paleografi. Malah ciri -ciri teknikal (Kodikologikal) 
+kaligrafi tersebut boleh dijadikan penunjuk penentuan jenis kaligrafi dan usia kaligrafi 
+terbabit, (Witkam 2009).
+
+--- Page 4 of 14 ---
+4 
+ Kajian di dalam bidang pemprosesan imej dan pengelihatan komputer sudah 
+sebati dengan penentuan bentuk atau jenis kaligrafi seperti yang telah dikaji oleh Bilal 
+et al. (2011), dan Sara Izadi ,et al. ( 2006). Satu daripada beberapa cabang bidang ini 
+ialah mencirikan bentuk huruf yang terdapat pada skrip sama ada arab, farsi atau jawi. 
+Satu dar ipada ciri yang digunakan ialah bentuk geometri segitiga seperti yang 
+dipaparkan di dalam Rajah 1. Satu kajian yang menggunakan ciri bentuk ini 
+dilaksanakan oleh Han Junjun (2008) yang menggunakan kaedah keserupaan segitiga 
+untuk menjejak pinggir imej berwarna. 
+ Terdapat empat jenis geometri segitiga iaitu sama sisi , sama kaki , bersudut 
+tepat, dan sisi tak sama kaki dan kesemua jenis ini mempunyai variasi bentuk yang 
+berbeza-beza dari segi saiz sisi dan sudutnya . Dalam hal ini setiap huruf jawi 
+boleh diwakilkan dengan 3 titik koordinat penting yang dimulai dari titik awal 
+huruf hingga ke pangkal huruf. 
+ 
+ 
+Rajah 1: Contoh geometrik segitiga pada huruf Jawi. (a) – (h) berbentuk sisi tak 
+sama kaki dan kesemua jenis ini mempunyai variasi bentuk yang berbeza-beza dari 
+segi saiz sisi dan sudutnya. 
+ 
+Jadual 1 menunjukkan satu contoh bagaim anakah suatu huruf jawi 
+(huruf ra) boleh dimodelkan menjadi blok segitiga. Titik tengah memainkan 
+peranan penting kerana titik tengah diperoleh dengan mendapatkan nilai 
+sentroid piksel hitam yang mewakili huruf terbabit. Selain dari itu struktur huruf 
+yang berbeza, kecondongan dan juga awalan dan akhiran huruf yang boleh 
+berlaku pada bahagian atas mahupun pada bahagian bawah.
+
+--- Page 5 of 14 ---
+5 
+Jadual 1: Contoh Model Segitiga pada Huruf Jawi 
+Maklumat Koordinat dan Model Huruf Model Huruf yang dihasilkan oleh atur 
+cara 
+Titik 1 x : 21 y : 17 
+Titik 2 x : 13 y : 23 
+Titik 3 x : 3 y : 27 
+ 
+ 
+huruf ra 
+ 
+ 
+ 
+Model segitiga yang diwakilkan oleh 
+huruf ra di dalam batu bersurat. 
+ 
+Bentuk model menerangkan bahawa 
+ 
+01234567890123456789012345 
+111111111111111111111111110 
+111111111111111111111111111 
+111111111111111111111111112 
+111111111111111111111111113 
+111111111111111111111111114 
+111111111111111111111111115 
+111111111111111111111111116 
+111111111111111111111111117 
+111111111111111111111111118 
+111111111111111111111111119 
+111111111111111111111111110 
+111111111111111111111111111 
+111111111111111111111111112 
+111111111111111111111111113 
+111111111111111111111111114 
+111111111111111111111111115 
+111111111111111111111111116 
+111111111111111111110011117 
+111111111111111111110011118 
+111111111111111111100011119 
+111111111111111111100111110 
+111111111111111111100111111 
+111111111111111110000111112 
+111111111111111110001111113 
+111111111110110000011111114 
+111111010000000001011111115 
+111100000000000001111111116 
+111010010110110111111111117 
+111111111111111111111111118 
+111111111111111111111111119 
+111111111111111111111111110 
+111111111111111111111111111 
+111111111111111111111111112 
+111111111111111111111111113 
+111111111111111111111111114 
+111111111111111111111111115 
+111111111111111111111111116 
+111111111111111111111111117 
+111111111111111111111111118 
+ 
+ 
+Pernomboran pada bahagian atas dan 
+kanan menunjukkan koordinat piksel. 
+ 
+3. Model Persepsi Untuk Mengenal Pasti Kaligrafi Di Batu Bersurat 
+Terengganu 
+ 
+Metodologi yang digunakan di dalam menentukan jenis kaligrafi yang terdapat di 
+dalam Batu Bersurat Terengganu ialah 
+i. Pengumpulan Data, 
+ii. Pra-pemprosesan, 
+iii. Pengekstrakan Ciri dan teknik cadangan, dan 
+iv. Uji kaji. 
+ 
+Pada bahagian teknik cadangan akan diperincikan kerana teknik ini adalah teknik baru 
+untuk Paleografi Digital Jawi yang sedang dikaji di Fakulti Teknologi dan Sains 
+Maklumat, Universiti Kebangsaan Malaysia, Bangi. 
+ 
+a. Pengumpulan Data 
+ 
+Batu Bersurat Terengganu bertulisan ja wi yang ditulis pada 22 Februari 1303 
+diperoleh dari laman sesawang: 
+ 
+(http://ms.wikipedia.org/wiki/Batu_Bersurat_Terengganu.
+
+--- Page 6 of 14 ---
+6 
+Imej ini diperbandingkan dengan imej di dalam Mohd Yatim & Nasir (2007) 
+untuk memastikan kesahihan tulisan dan bentuknya. Tujuan digunakan imej di dalam 
+laman sesawang kerana imej tersebut mempunyai saiz yang lebih besar yan g sesuai 
+digunakan untuk pemprosesan imej. 
+ 
+b. Prapemprosesan 
+ 
+Imej batu bersurat pada muka satu akan dilakukan pensegmenan secara manual dan 
+dipilih setiap huruf secara rawak sebanyak 40 huruf. Huruf-huruf ini mewakili jenis 
+kewujudannya di dalam tulisan jaw i iaitu secara tunggal, di awal, tengah dan akhir 
+perkataan. Pensegmenan secara manual dilakukan adalah berasaskan kepada teknik 
+yang digunakan oleh penyelidik paleografi Ibrani (Itay Bar Yosef et al. 2004). 
+ Imej yang telah dilakukan penemberengan akan dilakukan pengambangan 
+dengan nilai ambang 127. Terdapat juga imej yang digunakan nilai ambang 180. 
+Proses pengambangan ini akan menjadikan imej dari bentuk RGB ke pada bentuk 
+perduaan. Rajah di bawah menunjukkan imej manuskrip asal, pengambangan nilai 
+127 dan juga 180. Imej yang tidak menghasilkan kualti yang baik pada nilai ambang 
+127 akan dijadikan kepada nilai ambang 180. Manakala imej yang mempunyai kualiti 
+piksel hitam yang baik dikekalkan kepada nilai ambang 127. Jadual 2 di bawah 
+menunjukkan keputusan nilai ambang 127 dan 180. 
+ 
+Jadual 2: Penukaran Format Imej Menggunakan Nilai Ambang 127 dan 180 
+Imej Asal Nilai ambang 127 Imej diwakilkan Nilai ambang 180 Imej diwakilkan 
+ 
+ 
+11111111111111111111111 
+11101111111111111111111 
+11111111111111111111111 
+01101111111111111111111 
+00111111111111111111111 
+00111111111111111111111 
+00111111111111111111111 
+00111111111111111111111 
+00111111111111111111111 
+00111111111111111111111 
+00111111111111111111111 
+00111111111000000111111 
+01111111110000000011111 
+01111111100000000001111 
+11111111000010000001111 
+11111111000111110000111 
+11111110001111110000011 
+11111110001111110000000 
+11111111100001100000000 
+11111111100000000000000 
+11111111101000000001100 
+11111111111110000001110 
+11111111111111000111111 
+11111111111111001111111 
+11111110000000001111111 
+11110000000000001111111 
+11100000000001111111111 
+11111101111101111111111 
+11111111111111111111111 
+11111111111111111111111 
+11111111111111111111111 
+11111111111111111111111 
+11111111111111111111111 
+11111111111111111111111 
+11111111111111111111111 
+11111111111111111111111 
+11111111111111111111111 
+11111111111111111111111 
+ 
+ 
+00111111111111111111111 
+00001111111111111111111 
+00010111111111111111111 
+00001111111111111111111 
+00001111111111111111111 
+00001111111111111111111 
+00001111101111111111111 
+00011111110111111111111 
+00011111110011111111111 
+00001111110000111111111 
+00011111100000000111111 
+00011111000000000011111 
+00001110000000000001111 
+00111110000000000000111 
+00111100000000000000011 
+01111110000000000000001 
+01111100000000000000000 
+01111100000000000000000 
+11111110000000000000000 
+11111110000000000000000 
+11110111000000000000000 
+11111111000000000000000 
+11111111000000000001000 
+11111100000000000011101 
+11110000000000000011111 
+11000000000000000111111 
+10000000000000001111111 
+00000000000000011111111 
+00010000001000111111111 
+00011111111101111111111 
+11111110011001111111111 
+11111110011100011101111 
+11111111111110001001111 
+11111111111111110111111 
+11111111111111111111111 
+11111111111111111111111 
+11111111110111111111111 
+11111111111111111111111 
+ 
+ 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111110111111 
+111111100111111 
+111111100111111 
+111111100111111 
+111111110111111 
+111111100111111 
+111111000111111 
+111111000111111 
+111111000111111 
+111111100111111 
+111111000111111 
+111111011111111 
+111111111111111 
+111111011111111 
+111111011111111 
+111111011111111 
+111110011111111 
+111110011111111 
+111111111111111 
+111110111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+ 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111101111111 
+111111000111111 
+111111000111111 
+111111000111111 
+111111000111111 
+111111000001111 
+111111000011111 
+111111000011111 
+111110000011111 
+111111000011111 
+111110000011111 
+111100000011111 
+111100000011111 
+111110000011111 
+111111000111111 
+111110000111111 
+111110001111111 
+111110000111111 
+111110000111111 
+111100000111111 
+110100001111111 
+110100001111111 
+111000001111111 
+111000011111111 
+111000111111111 
+111011111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111 
+111111111111111
+
+--- Page 7 of 14 ---
+7 
+ Imej yang telah dilakukan pengambangan akan dibersihkan dari piksel -piksel 
+yang tidak berkaitan. Adalah menjadi sat u kebiasaan kepada imej dari ar tifak lama 
+seperti dari batu bersurat dan juga manusk rip mempunyai kualiti imej rendah, beza 
+jelas, keamatan yang kabur dan juga comot akibat penuaan mahupun hakisan angin 
+(Yosef et al. 2004), (Yahya et al. 2009). Setelah penyingkiran piksel-piksel yang tidak 
+berkaitan dilakukan, imej adalah tersedia untuk di ekstrak cirinya menggunakan 
+geometri segitiga. 
+ 
+c. Pengekstrakan Ciri Kaligrafi 
+ 
+Pengektrakan ciri di dalam kajian ini menggunakan kaedah blok segitiga. Proses yang 
+dilalui pada proses ini terbahagi kepada tiga: 
+ 
+i) pemilihan tiga koordinat penting, 
+ii) mengenalpasti jenis blok segitiga, dan 
+iii) mendapatkan ciri berasaskan kepada rumus segitiga tak sama kaki (scalene). 
+ 
+Terdapat 21 ciri berguna diperoleh dari segitiga tak sama kaki yang dapat digunakan 
+dalam mengenalpasti jenis tulisan kaligrafi yang digunakan oleh pemahat Batu 
+Bersurat Terengganu. 
+ 
+i. Pemilihan tiga koordinat penting 
+ 
+Pemilihan koordinat untuk blok segitiga memerlukan imej yang bersih dari hingar 
+yang mungkin membuatkan pemilihan tersebut tidak tepat. Hasilnya pula tidak 
+memberikan ciri sebenar blok segitiga bagi huruf yang diuji. 
+Pemilihan 3 koordinat adalah berasaskan kepada taburan piksel hitam pada 
+huruf yang dipilih. Tiga titik utama dipilih dan dilabelkan seperti pada Jadual 3 
+berikut: 
+ 
+Jadual 3: Lokasi Piksel Hitam Pilihan dan Perwakilan Sudut 
+Titik 
+piksel 
+Lokasi Piksel 
+pilihan 
+Label 
+dalam 
+Segitiga 
+Garis antara 
+titik ke titik 
+berikutnya 
+Sudut 
+Titik 1 Piksel hitam pertama 
+yang dijumpai dari 
+sebelah kanan huruf 
+A b dan c A 
+Titik 2 Piksel hitam pertama 
+yang dijumpai pada 
+sebelah kiri huruf 
+C a dan b C 
+Titik 3 Piksel sentroid huruf 
+yang dipilih 
+B a dan c B 
+ 
+Titik-titik yang dipilih, dilabelkan dan juga garisan yang menghubungkan 
+antara A, B dan C diterangkan pada Jadual 4 di bawah. Jadual ini juga menunjukkan 
+satu imej yang telah diuji untuk mendapatkan tiga koordinat yang mewak ili tiga titik 
+segitiga.
+
+--- Page 8 of 14 ---
+8 
+Jadual 4: Koordinat Tiga Titik Pilihan 
+Segitiga Imej Koordinat 
+ 
+ 
+Titik 1 x : 21 y : 17 
+Titik 2 x : 3 y : 27 
+Titik 3 x : 13 y : 23 
+ 
+ 
+ii. Membentuk model Blok Segitiga 
+ 
+Hasil kajian yang dilakukan ke atas tiga koordinat yang dipilih. Jika A ditetapkan 
+sentiasa berada pada sebelah kanan, C di sebelah kiri dan B di antara A dan B, maka 
+kemungkinan model geometri Segitiga yang dapat dihasilkan ialah enam blok. Rajah 
+2 di bawah menunjukkan geometri segitiga. 
+ 
+(a) 
+ 
+ 
+(b) 
+ 
+(c) 
+ 
+ 
+(d) 
+ 
+(e) 
+ 
+(f) 
+Rajah 2: Model Geometri Segitiga 
+Geometri dihasilkan pada rajah di atas adalah berasaskan kepada k oordinat y 
+bagi titik A, B dan C seperti yang di tunjukkan pada Jadual 5 di bawah: 
+ 
+ 
+Segitiga ini tidak mengambarkan 
+geometri imej yang diwakilkan pada 
+lajur Imej
+
+--- Page 9 of 14 ---
+9 
+Jadual 5: Kedudukan Koordinat y di dalam Model Geometri Segitiga 
+Blok Kedudukan koordinat y 
+A 
+ 
+B 
+ 
+C 
+ 
+D 
+ 
+E 
+ 
+F 
+ 
+ 
+iii. Pengekstrakan Ciri dari segitiga tak sama kaki 
+ 
+Setelah proses pembentukan blok segitiga telah dilaksanakan. Proses berikutnya 
+adalah dengan mengekstrak ciri dari blok-blok segitiga berasaskan kepada koordinat -
+koordinat yang diperoleh dari huruf . Terdapat 21 ciri yang diekstrak dan termasuklah 
+jenis geometri. Jadual 6 di bawah menunjukkan ciri yang diekstrak dari geometri -
+geometri segitiga yang dicadangkan pada Rajah 1 dan Rajah 2. 
+ 
+Jadual 6: Ciri dari Segitiga Tak Sama Kaki 
+Ciri Nama Ciri Keterangan 
+1 Geometri Geometri segitiga yang mewakili tiga koordina 
+2 a Sisi B(x,y) ke C(x,y) 
+3 b Sisi A(x,y) ke C(x,y) 
+4 c Sisi A(x,y) ke B(x,y) 
+5 Nisbah c/a Nisbah panjang sisi c dibandingkan dengan sisi a 
+6 A Sudut A 
+7 B Sudut B 
+8 C Sudut C 
+9 Sudut A ke B Sisi b diperoleh sudut dari garis lurus titik A. 
+Untuk mendapatkan kecondongan titik B 
+10 Area Luas segitiga 
+11 Pembahagi sudut 
+sama a (ta) 
+ 
+12 Pembahagi sudit 
+sama b (tb) 
+13 Pembahagi dua 
+sama sudut c (tc) 
+14 Median sisi ma Garisan yang memotong sama rata sisi a dari titik 
+A 
+15 Median sisi mb Garisan yang memotong sama rata sisi b dari titik 
+B 
+16 Median sisi mc Garisan yang memotong sama rata sisi c dari titik 
+B 
+17 Ketinggian ha Altitud bagi garisan a 
+18 Ketinggian hb Altitud bagi garisan b 
+19 Ketinggian hc Altitud bagi garisan c 
+20 Jejari Bulatan 
+Terhad 
+Jejari Bulatan Triangle 
+21 Jejari bulatan yang 
+diinskripsi 
+Jejari bulatan di dalam segitiga
+
+--- Page 10 of 14 ---
+10 
+4. Contoh Hasil 
+ 
+Pada fasa uji kaji, huruf -huruf yang dipilih dari Batu Bersurat Terengganu akan 
+ditentukan jenis huruf jawi dan juga jenisnya iaitu huruf tunggal, depan, tengah 
+mahupun belakang. 
+Huruf-huruf ini akan dilarikan menggunakan algoritma yang dibina sendiri 
+berasaskan kepada kaedah yang dicadangkan. Seterusnya, keputusan dari dapatan 
+huruf ini akan diperbandingkan denga n keputusan sedia ada iaitu enam jenis tulisan 
+kaligrafi yang diperoleh dari perisian k-Jawi Kementerian Kebudayaan, Kesenian dan 
+Warisan Malaysia (KEKKWA) dan juga dari font Arab yang diperoleh dari Tuan Haji 
+Hamdan Abdul Rahman . Keputusan dari ujikaji tersebut dijadikan sebagai piawai 
+bagi jenis-jenis kaligrafi yang digunakan di dalam manuskrip mahu pun batu bersurat. 
+Keputusan uji kaji akan dibahagikan kepada tiga jadual. Jadual 7 di bawah 
+menunjukkan keputusan uji kaji yang di laksanakan untuk mendapatkan geometri 
+segitiga dan membandingkan dengan geometri yang mewakili kaligrafi Diwani, 
+Farisi, Kufi, Nasakh, Riq’ah dan Thuluth. 
+ 
+Jadual 7: Keputusan Uji kaji 
+Bil. Imej Jawi Huruf Posisi Geometri 
+Segitiga Jenis Kaligrafi 
+1 
+ 
+Rha Tunggal D Diwani, Farisi, Kufi, 
+Nasakh, Thuluth, Riq’ah 
+2 
+ 
+Alif Tunggal F Nasakh, Thuluth 
+3 
+ 
+Alif Tunggal F Nasakh, Thuluth 
+4 
+ Lam Depan D 
+Diwani, Farisi, Kufi, 
+Nasakh, Thuluth, Riq’ah 
+ 
+5 
+ 
+Wau Tunggal D Diwani, Nasakh, Riq’ah 
+6 
+ 
+Rha Tunggal D 
+Diwani, Farisi, Kufi, 
+Nasakh, Thuluth, Riq’ah 
+ 
+7 
+ 
+wau Tunggal D 
+ 
+Diwani, Nasakh, Riq’ah 
+ 
+ 
+8 
+ sin Depan C Tidak tersenarai 
+9 
+ 
+Tidak pasti Tunggal D Tidak Tersenarai 
+10 
+ 
+wau Tungal D Diwani, Nasakh, Riq’ah
+
+--- Page 11 of 14 ---
+11 
+Jadual 7: Keputusan Uji kaji (sambungan) 
+Bil. Imej Jawi Huruf Posisi Geometri 
+Segitiga Jenis Kaligrafi 
+11 
+ 
+Tidak pasti Tunggal F Tidak Tersenarai 
+12 
+ 
+Ha Hujung F Tidak tersenarai 
+13 
+ 
+dal Tunggal D Diwani, Farisi, Nasakh, 
+Thuluth, Riq’ah 
+14 
+ 
+ain Depan D Diwani, Farisi, Nasakh, 
+Thuluth, Riq’ah 
+15 
+ 
+Tidak pasti Depan C Tidak Tersenarai 
+16 
+ 
+Tidak pasti Tunggal B Tidak Tersenarai 
+17 
+ 
+sin Depan C2 Tidak tersenarai 
+18 
+ alif Hujung B 
+Diwani, Farisi, Nasakh, 
+Thuluth, Riq’ah 
+ 
+ 
+19 
+ 
+sin Tengah B Tidak tersenarai 
+20 
+ fa Depan B1 Farisi 
+21 
+ 
+Tidak pasti Hujung A1 Tidak Tersenarai 
+22 
+ 
+alif Tunggal C Kufi, Riq’ah 
+23 
+ 
+dal Tunggal D Diwani, Farisi, Kufi, 
+Nasakh, Thuluth, Riq’ah 
+24 
+ 
+Tidak pasti Depan D Tidak Tersenarai 
+25 
+ 
+Tidak pasti Tengah E Tidak Tersenarai 
+26 
+ 
+Alif Hujung B Tidak Tersenarai 
+27 
+ 
+rha Tunggal D Diwani, Farisi, Kufi, 
+Nasakh, Thuluth, Riq’ah 
+28 
+ alif Tunggal D1 
+Diwani, Farisi, Kufi, 
+Nasakh, Thuluth, Riq’ah 
+ 
+29 
+ 
+kaf Tunggal D Diwani, Nasakh, Thuluth 
+30 
+ 
+ha Depan A Tidak Tersenarai
+
+--- Page 12 of 14 ---
+12 
+Jadual 7: Keputusan Uji kaji (sambungan) 
+Bil. Imej Jawi Huruf Posisi Geometri 
+Segitiga Jenis Kaligrafi 
+31 
+ 
+alif Hujung A Tidak tersenarai 
+32 
+ mim Depan E Tidak Tersenarai 
+33 
+ 
+kaf Tengah D Tidak tersenarai 
+34 
+ 
+kaf Tengah D Tidak Tersenarai 
+35 
+ 
+alif Tunggal D Diwani, Farisi, Kufi, 
+Nasakh, Thuluth, Riq’ah 
+36 
+ 
+Kaf Depan D Diwani, Nasakh 
+37 
+ 
+alif Hujung B Diwani, Farisi, Nasakh, 
+Thuluth, Riq’ah 
+38 
+ sin Depan A1 
+ 
+Tidak tersenarai 
+ 
+39 
+ 
+ 
+fa Depan D Diwani, Nasakh, Riq’ah, 
+Thuluth 
+40 
+ 
+dhad Tunggal D Diwani, Thuluth, Nasakh, 
+Kufi, 
+ 
+ Pada Jadual 8 bilangan Jenis kaligrafi terdapat pada huruf yang diuji. 
+Manakala pada Jadual 9 pula menunjukkan bilangan penampakan geometri segitiga 
+pada huruf yang diuji. 
+ 
+Jadual 8: Bilangan Penampakan 
+Kaligrafi 
+Nama Kaligrafi Bilangan 
+Kaligrafi 
+Diwani 18 
+Farisi 12 
+Kufi 8 
+Nasakh 20 
+Riq’ah 16 
+Thuluth 16 
+Tidak Tersenarai 18 
+Jadual 9: Bilangan penampakan dan 
+Jenis Geometri segitiga 
+Geometri 
+Segitiga 
+Bilangan Geometri 
+Segitiga 
+A 4 
+B 6 
+C 4 
+D 20 
+E 2 
+F 4 
+ 
+Pada Jadual 8 dan Jadual 9 menunjukkan terdapat beberapa huruf yang tidak 
+tersenarai. Ini disebabkan oleh huruf -huruf yang telah dikenalpasti, tidak berpadanan 
+dengan satu pun piawai geometri segitiga yang dipiawaikan dari perisian k-Jawi dan 
+fon Arab. Terdapat juga huruf yang tidak dapat dikenal pasti hurufnya dan penyelidik
+
+--- Page 13 of 14 ---
+13 
+melabelkan huruf tersebut sebagai tidak tersenarai memandangkan tidak dapat dibuat 
+padanan pada huruf yang telah dipiawaikan. 
+Uji kaji dilaksanakan dengan imej dari Batu Bersurat Terengganu yang telah 
+dilakukan penemberen gan kepada huruf -huruf tunggal kerana Model Geometri 
+Segitiga yang dicadangkan menggunakan pendekatan tempatan . Model ini akan 
+menentukan setiap perwakilan jenis kaligrafi pada setiap huruf yang dilakukan uji 
+kaji. 
+ 
+5. Perkembangan dan Perluasan 
+ 
+Kertas semi nar ini, hanya mengkaji kepada m odel geometri segitiga yang telah 
+dimodelkan dan dipadankan dengan geometri yang diperoleh dari huruf -huruf pada 
+batu bersurat yang telah diuji. Walau bagaimanapun, 20 ciri segitiga tak sama kaki 
+tidak digunakan untuk menentukan keseluruhan huruf yang diuji dengan piawai an 
+yang digunakan memandangkan tujuan kertas ini untuk membincangkan model 
+segitiga dan jenis kaligrafi yang diwakili oleh huruf-huruf Batu Bersurat Terengganu. 
+Berdasarkan kepada perwakilan geometri segitiga, ketepatan kepada jenis kaligrafi 
+yang diwakili hanya dapat ditentukan denga n melakukan analisis ciri segitiga tak 
+sama kaki yang telah diekstrak. Kajian ini akan diperluaskan lagi menggunakan 
+Model Persepsi yang boleh mengeksploit geometri segitiga dan di uji pada imej 
+manukrip jawi lain. 
+ 
+6. Penghargaan 
+ 
+Di dalam menjayakan kajian ini, ucapan terima kasih kepada Tuan Haji Hamdan 
+Abdul Rahman, mengenai khidmat beliau menerangkan mengenai bahasa Melayu 
+pada batu bersurat dan juga memberikan kami perisian k -Jawi serta fon t arab yang 
+digunakan sebagai piawai kaligrafi di dalam kajian ini. Ucapan terima kasih juga 
+ditujukan kepada Muzium Terengganu kerana telah menanggung keseluruhan 
+pembiayaian seminar ini. 
+ 
+ 
+Rujukan
+ 
+Abd. Rahman, Mohamad Ja juli. 1994. Teks undang- undang melayu pertengahan 
+abad kelapan belas. 1st ed. Kuala Lumpur: Dewan Bahasa dan Pustaka. 
+Anon. Batu Bersurat Terengganu - Wikipedia Bahasa Melayu, ensiklopedia bebas. 
+http://ms.wikipedia.org/wiki/Batu_Bersurat_Terengganu. (12 Mac 2011) 
+Bilal Bataineh, Siti Norul Huda Sheikh Abdullah, & Khairuddin Omar, 2011. 
+Generating an Arabic Calligraphy Text Blocks for Global Texture Analysis. 
+Proceeding of the International Conference on Advanced Science, 
+Engineering and Information Technol ogy 2011, Hotel Equatorial Bangi -
+Putrajaya, Malaysia, 14 - 15 January 2011, pp. 151- 155. ISBN 978- 98342366-4-9. 
+Bischoff, Bernhard. 1990. Latin Palaeography. Antiquity and the Middle Ages . 
+Cambridge: University Press.
+
+--- Page 14 of 14 ---
+14 
+Brown, Michelle P. 1994. Understanding illuminated manuscripts. A guide to 
+technical terms. Los Angeles: Getty Publications. 
+Ciula, Arianna. 2005. Digital palaeography : using the digital representation of 
+medieval script to support palaeographic analysis . Digital Medievalist 1 
+(Spring 2005): 1-31. ISSN: 1715-0736. 
+Han Junjun; Zhao Jingxiu; Wang Mian, 2008. An Approach of Color Image Edge 
+Detection Based on Triangle Similarity. ISECS International Colloquium on 
+Computing, Communication, Control, and Management, 3- 4 Aug. 2008. 
+CCCM '08. pp. 129 – 132. 
+Joshi, Gopal Datt, Saurabh Garg, & Jayanthi Sivaswamy. 2007. A generalised 
+framework for script identification. Int. J. Doc. Anal. Recognit. 10(2): 55-68. 
+Witkam, J. J . 2009. The didactics of Palaeography. TIMA’s Workshop on 
+Codicology, Cambridge, September 8, 2009. 
+http://www.islamicmanuscripts.info/files/Didactics%20of%20Palaeography.pdf (12 
+Mac 2011) 
+Moalla, I., .M. Alimi, F. Lebourgeois, & H. Emptoz. 2006. Image Analysis for 
+Palaeography Inspection. Second International Conference on Document 
+Image Analysis for Libraries (DIALʼ06) : pp. 303-311. 
+doi:10.1109/DIAL.2006.20. 
+http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1612972. 
+Mohd Sanusi Azmi. 2003. Pereka Yasaan Erotan dan Pencongan Tulisan Jawi 
+Tangan(PEPT) manuskrip Merong Mahawangsa. Tesis Sarjana, Fakulti 
+Teknologi dan Sains Maklumat, Universiti Kebangsaan Malaysia. 
+Mohd Sanusi Azmi, Khairuddin Omar, & Azizi Abdullah. 2005. Perekayasaan 
+Histogram Orientasi Kecerunan Mengesan Erotan dan Pencongan manuskript 
+Merong Mahawangsa. Jurnal Teknologi Maklumat & Multimedia 2: 63-79. 
+Mohd Yatim, Othman, & Abdul Halim Nasir. 2007. Epigrafi Islam Terawal di 
+Nusantara. 2nd ed. Kuala Lumpur: Dewan Bahasa dan Pustaka. 
+Padma, M C, & P A Vijaya. 2009. Identification Of T Elugu, Devanagari & Eng lish 
+Scripts Using Discriminating. Journal of Computer Science, 1(2): 64-78. 
+Sara Izadi , Javad Sadri , Farshid Solimanpour , Ching Y. Suen, 2006. A review on 
+Persian script and recognition techniques. Proceedings of the 2006 conference 
+on Arabic and Chinese handwriting recognition, pp. 22-35. 
+Yahya, Sitti Rachmawati, SNHS Abdullah, K. Omar, M. S. Zakaria, & C. Y. Liong. 
+2009. Review on image enhancement methods of old manuscript with the 
+damaged background. 2009 International Conference on Electrical 
+Engineering and Informatics (August): pp. 62-67. 
+doi:10.1109/ICEEI.2009.5254816. 
+http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5254816. 
+Yosef, I. B., Kedem, K., Dinstein, I. H., Beit -Arie, M. & Engel, E. 2004. 
+Classification of hebrew calligraphic handwriting styles: Preliminary results. 
+Proceedings of the First International Workshop on Document Image Analysis 
+for Libraries (DIAL'04), pp. 299-305.

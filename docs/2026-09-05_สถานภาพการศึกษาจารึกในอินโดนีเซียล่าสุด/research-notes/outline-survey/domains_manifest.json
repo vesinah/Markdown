@@ -1,0 +1,177 @@
+{
+  "domain1_historiography_methodology": {
+    "title": "ประวัติศาสตร์นิพนธ์ ระเบียบวิธีวิจัย การปฏิวัติศักราช และจารึกวิทยาดิจิทัล",
+    "secondary": [
+      "S-1918-coedes-02.md",
+      "S-1931-krom-01.md",
+      "S-1937-majumdar-01.md",
+      "S-1952-damais-01.md",
+      "S-1954-aichele-01.md",
+      "S-1962-damais-01.md",
+      "S-1968-coedes-01.md",
+      "S-1968-damais-01.md",
+      "S-1988-vikor-01.md",
+      "S-1991-kridalaksana-01.md",
+      "S-2012-boechari-01.md",
+      "S-2018-griffiths-01.md",
+      "S-2018-manguin-01.md",
+      "S-2019-acri-01.md",
+      "S-2020-acri-01.md",
+      "S-2020-dharma-01.md",
+      "S-2024-acri-01.md",
+      "S-2025-acri-01.md"
+    ],
+    "dharma": [
+      "DHARMA-DOSS-01-sumatra-srivijaya.md",
+      "DHARMA-DOSS-02-mataram-central-monumental.md"
+    ]
+  },
+  "domain2_early_polities_central_java": {
+    "title": "จารึกยุคแรกและศูนย์กลางอำนาจชวากลาง (กูไต, ตารูมานคร, มะตะรัม-ไศเลนทร์-สัญชัย)",
+    "secondary": [
+      "S-1918-vogel-01.md",
+      "S-1950-casparis-01.md",
+      "S-1956-casparis-01.md",
+      "S-1966-boechari-01.md",
+      "S-1994-kusen-01.md",
+      "S-2011-griffiths-04.md",
+      "S-2012-acri-01.md",
+      "S-2014-acri-01.md",
+      "S-2014-acri-02.md",
+      "S-2021-griffiths-01.md",
+      "S-2021-uny-01.md",
+      "S-2023-brin-01.md",
+      "S-2024-acri-02.md"
+    ],
+    "dharma": [
+      "DHARMA-DOSS-02-mataram-central-monumental.md",
+      "DHARMA-DOSS-06-mataram-copper-silver-plates.md"
+    ]
+  },
+  "domain3_sumatra_srivijaya_riverine": {
+    "title": "สุมาตรา จักรวรรดิทางทะเลศรีวิชัย และจารึกงมจากแม่น้ำ (มูซี, บาตังฮารี, บารุส)",
+    "secondary": [
+      "S-1913-blagden-01.md",
+      "S-1918-coedes-02.md",
+      "S-1930-coedes-01.md",
+      "S-1932-ferrand-01.md",
+      "S-1941-bosch-01.md",
+      "S-1986-boechari-01.md",
+      "S-1987-manguin-01.md",
+      "S-1992-adelaar-01.md",
+      "S-2005-mahdi-01.md",
+      "S-2011-griffiths-01.md",
+      "S-2012-griffiths-01.md",
+      "S-2014-baskoro-01.md",
+      "S-2014-degroot-01.md",
+      "S-2018-degroot-01.md",
+      "S-2019-brin-01.md",
+      "S-2020-griffiths-01.md",
+      "S-2021-soedewo-01.md"
+    ],
+    "dharma": [
+      "DHARMA-DOSS-01-sumatra-srivijaya.md"
+    ]
+  },
+  "domain4_sima_institutions_socioeconomic_law": {
+    "title": "สถาบันกัลปนาสีมา (Sīma Universe) กฎหมาย สังคม เศรษฐกิจ ชลศาสตร์ และภาษีอากร",
+    "secondary": [
+      "S-1950-casparis-01.md",
+      "S-1956-casparis-01.md",
+      "S-1991-kridalaksana-01.md",
+      "S-1994-kusen-01.md",
+      "S-2012-boechari-01.md",
+      "S-2014-acri-01.md",
+      "S-2017-degroot-01.md",
+      "S-2021-uny-01.md",
+      "S-2023-brin-01.md",
+      "S-2026-acri-01.md"
+    ],
+    "dharma": [
+      "DHARMA-DOSS-03-mataram-sima-part1.md",
+      "DHARMA-DOSS-04-mataram-sima-part2.md",
+      "DHARMA-DOSS-05-mataram-sima-part3.md"
+    ]
+  },
+  "domain5_eastern_java_sindok_to_majapahit": {
+    "title": "การเปลี่ยนผ่านสู่ชวาตะวันออก (เอ็มปู สินดก, แอร์ลังกา, กาดีรี, สิงหัดส่าหรี, มัชปาหิต)",
+    "secondary": [
+      "S-1952-damais-01.md",
+      "S-1956-casparis-01.md",
+      "S-2011-griffiths-03.md",
+      "S-2012-boechari-01.md",
+      "S-2012-griffiths-03.md",
+      "S-2013-griffiths-01.md",
+      "S-2014-griffiths-01.md",
+      "S-2014-griffiths-02.md",
+      "S-2015-griffiths-01.md",
+      "S-2016-acri-01.md",
+      "S-2016-acri-02.md",
+      "S-2017-griffiths-01.md",
+      "S-2020-griffiths-02.md"
+    ],
+    "dharma": [
+      "DHARMA-DOSS-07-east-java-sindok-airlangga.md",
+      "DHARMA-DOSS-08-east-java-kadiri-singhasari-majapahit.md"
+    ]
+  },
+  "domain6_sunda_bali_kalimantan": {
+    "title": "จารึกภูมิภาคสุนดา บาหลี และกาลีมันตัน (ตารูมานคร, ปาจาจารัน, บาหลีโบราณ, ซัมบัส)",
+    "secondary": [
+      "S-1918-vogel-01.md",
+      "S-1983-suhadi-01.md",
+      "S-1991-brin-01.md",
+      "S-2011-acri-01.md",
+      "S-2012-acri-01.md",
+      "S-2021-acri-01.md",
+      "S-2021-griffiths-02.md"
+    ],
+    "dharma": [
+      "DHARMA-DOSS-09-sunda-bali-regional.md"
+    ]
+  },
+  "domain7_tantra_saivism_dharani_borobudur": {
+    "title": "พุทธศาสนาตันตระ-วัชรยาน ไศวนิกาย-ปศุปตะ ธารณี และจารึกฐานบุโรพุทโธ",
+    "secondary": [
+      "S-2007-griffiths-01.md",
+      "S-2007-griffiths-02.md",
+      "S-2011-griffiths-02.md",
+      "S-2012-griffiths-02.md",
+      "S-2013-goodall-01.md",
+      "S-2014-griffiths-03.md",
+      "S-2015-acri-01.md",
+      "S-2015-szanto-01.md",
+      "S-2016-acri-05.md",
+      "S-2021-acri-02.md",
+      "S-2021-soedewo-01.md",
+      "S-2022-acri-01.md",
+      "S-2023-acri-01.md",
+      "S-2024-acri-02.md"
+    ],
+    "dharma": [
+      "DHARMA-DOSS-10-sanskrit-dharani-borobudur.md"
+    ]
+  },
+  "domain8_transmaritime_networks_malaysia_siam_philippines": {
+    "title": "เครือข่ายข้ามสมุทร: มาเลเซีย (เคดะฮ์/ตรังกานู) สยามใต้ (เสมาเมือง/ตะกั่วป่า/ไชยา) และฟิลิปปินส์ (ลากูนา)",
+    "secondary": [
+      "S-1918-coedes-02.md",
+      "S-1924-blagden-01.md",
+      "S-1924-ronkel-01.md",
+      "S-1930-coedes-01.md",
+      "S-1992-postma-01.md",
+      "S-1996-santos-01.md",
+      "S-2010-um-01.md",
+      "S-2018-manguin-01.md",
+      "S-2019-acri-01.md",
+      "S-2022-acri-02.md",
+      "S-2022-acri-03.md",
+      "S-2022-griffiths-01.md",
+      "S-2024-acri-01.md",
+      "S-2025-acri-02.md"
+    ],
+    "dharma": [
+      "DHARMA-DOSS-01-sumatra-srivijaya.md"
+    ]
+  }
+}

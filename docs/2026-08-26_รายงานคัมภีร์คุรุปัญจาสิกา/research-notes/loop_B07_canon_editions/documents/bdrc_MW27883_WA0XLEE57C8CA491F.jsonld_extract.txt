@@ -1,0 +1,46 @@
+===== https://ldspdi.bdrc.io/resource/MW27883.jsonld =====
+@id: "bdr:CR4EF2E4C444A3B2C5"
+role: {"@id": "bdr:R0ER0015"}
+agent: {"@id": "bdr:P560"}
+@type: "AgentAsCreator"
+---
+@id: "bdr:NTF705289B634F1985"
+noteText: {"@language": "en", "@value": "-4680"}
+@type: "Note"
+---
+@id: "bdr:EVF2E473A851732309"
+onYear: {"@value": "2004", "@type": "xsd:gYear"}
+eventWhen: {"@value": "2004", "@type": "http://id.loc.gov/datatypes/edtf/EDTF"}
+@type: "PublishedEvent"
+---
+@id: "bdr:TT7FB132CDB9DD3994"
+rdfs:label: {"@language": "bo-x-ewts", "@value": "rgyud sde kun btus/ （glog klad par ma/）"}
+@type: "Title"
+---
+@id: "bdr:MW27883"
+hasPart: [{"@id": "bdr:MW27883_82D662"}, {"@id": "bdr:MW27883_6B266D"}, {"@id": "bdr:MW27883_BB1556"}, {"@id": "bdr:MW27883_9060D8"}, {"@id": "bdr:MW27883_3F2B8F"}, {"@id": "bdr:MW27883_360654"}, {"@id": "bdr:MW27883_6D26DF"}, {"@id": "bdr:MW27883_ACB30F"}, {"@id": "bdr:MW27883_C80604"}, {"@id": "bdr:MW27883_6F3C64"}, {"@id": "bdr:MW27883_B51C91"}, {"@id": "bdr:MW27883_A1932A"}, {"@id": "bdr:MW27883_7FFC27"}, {"@id": "bdr:MW27883_726DA0"}, {"@id": "bdr:MW27883_C25D70"}, {"@id": "bdr:MW27883_E3301C"}, {"@id": "bdr:MW27883_5A0687"}, {"@id": "bdr:MW27883_9FF306"}, {"@id": "bdr:MW27883_E73931"}, {"@id": "b
+instanceOf: {"@id": "bdr:WA21295"}
+note: {"@id": "bdr:NTF705289B634F1985"}
+extentStatement: "32 v."
+creator: {"@id": "bdr:CR4EF2E4C444A3B2C5"}
+instanceHasReproduction: [{"@id": "bdr:IE0OPI45CA9DB4"}, {"@id": "bdr:W27883"}]
+script: {"@id": "bdr:ScriptTibt"}
+publisherLocation: {"@language": "en", "@value": "kathmandu"}
+bf:identifiedBy: [{"@id": "bdr:IDBD2F074C7FFB1838"}, {"@id": "bdr:ID10ACF226FB1CEF7A"}]
+skos:prefLabel: {"@language": "bo-x-ewts", "@value": "rgyud sde kun btus/ （glog klad par ma/）"}
+numberOfVolumes: {"@value": "32", "@type": "xsd:integer"}
+hasTitle: {"@id": "bdr:TT7FB132CDB9DD3994"}
+tmp:thumbnailIIIFService: {"@id": "https://iiif.bdrc.io/bdr:I4649::46490003.tif"}
+instanceEvent: {"@id": "bdr:EVF2E473A851732309"}
+@type: "Instance"
+publisherName: {"@language": "en", "@value": "sachen international, guru lama"}
+hasOutline: {"@id": "bdr:O1GS40148"}
+---
+===== https://ldspdi.bdrc.io/resource/WA0XLEE57C8CA491F.jsonld =====
+@id: "bdr:WA0XLEE57C8CA491F"
+skos:prefLabel: {"@language": "bo-x-ewts", "@value": "bla ma lnga bcu pa/"}
+tmp:entityScore: {"@value": "2", "@type": "xsd:integer"}
+workHasInstance: [{"@id": "bdr:MW1KG1011_EE57C8"}, {"@id": "bdr:MW1NLM1320_C4B2D8"}, {"@id": "bdr:MW1NLM2578_708138"}, {"@id": "bdr:MW27883_AD89CC"}, {"@id": "bdr:MW1KG13617_18DD1F"}]
+language: {"@id": "bdr:LangBo"}
+@type: "Work"
+---

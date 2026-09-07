@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="icon" type="image/x-icon" href="sub/logo.ico">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="sub/style.css"> 
+<style>
+.accordion {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+.accordion2 {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+.active2,  {
+  background-color: #ddd; 
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: left;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+ .topcorner{
+   position:absolute;
+   top:10px;
+   right:10px;
+  }
+
+</style>
+<body>
+
+<div class="toppage"><table><tr><td><a href="index.php" style="text-decoration:none;"><img src="sub/logo.png" width=100></a><td width=50><td>Results for <span style="color:red;"><span style="font-size:40px;">བླ་མ་ལྔ་བཅུ་པ་</span> / bla ma lnga bcu pa </span></table></div>
+<div class="bodypage2" style="font-size:18px;">
+<div class="w3-bar w3-white">
+  <button class="w3-bar-item w3-button" onclick="openCity('Kanjur')" style="background-color:white; color:#08088a;border-style: solid; border-color: #08088a;width: 20%;border-radius: 12px;float: left;">Kanjur / <span style="font-size:30px;">བཀའ་འགྱུར</span></button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Tanjur')" style="background-color:white; color:#08088a;border-style: solid; border-color: #08088a;width: 20%;border-radius: 12px;float: left;">Tanjur / <span style="font-size:30px;">བསྟན་འགྱུར</span></button>
+  <button class="w3-bar-item w3-button" onclick="openCity('OldTantra')" style="background-color:white; color:#08088a;border-style: solid; border-color: #08088a;width: 20%;border-radius: 12px;float: left;">Old Tantra / <span style="font-size:30px;">རྙིང་རྒྱུད</span></button>
+  <button class="w3-bar-item w3-button" onclick="openCity('bon')" style="background-color:white; color:#08088a;border-style: solid; border-color: #08088a;width: 20%;border-radius: 12px;float: left;">Bon Canon / <span style="font-size:30px;">བོན་གྱི་བཀའ་འགྱུར ། བཀའ་བརྟེན</span></button>
+</div>
+
+<div id="Kanjur" class="w3-container city">
+  <h2 style="border: 2px solid #08088a; border-radius: 5px; padding:5px;">Kanjur (exact match)</h2><table>
+
+  </table><h2 style="border: 2px solid #08088a; border-radius: 5px; padding:5px;">Kanjur (approximated match)</h2><table>
+
+
+</table></div>
+
+<div id="Tanjur" class="w3-container city" style="display:none">
+  <h2 style="border: 2px solid #08088a; border-radius: 5px; padding:5px;">Tanjur (exact match)</h2><table>
+
+  </table><h2 style="border: 2px solid #08088a; border-radius: 5px; padding:5px;">Tanjur (approximated match)</h2><table>
+
+<tr><td width=150 valign="top" style="border-bottom: 1px solid;"><a href="cat.php?id=2543&typ=2" style="text-decoration:none;">T2543</a><td valign="top" style="border-bottom: 1px solid;"><a href="cat.php?id=2543&typ=2" style="text-decoration:none;"><span style="font-size:30px;"><span style="color:red;border: 2px solid red; border-radius: 5px;">བླ</span>་མ་<span style="color:red;border: 2px solid red; border-radius: 5px;">ལྔ</span>་<span style="color:red;border: 2px solid red; border-radius: 5px;">བཅུ</span>་པ</span><br><span style="color:red;border: 2px solid red; border-radius: 5px;">bla</span> ma <span style="color:red;border: 2px solid red; border-radius: 5px;">lnga</span> <span style="color:red;border: 2px solid red; border-radius: 5px;">bcu</span> pa</a><br>
+</table></div>
+
+<div id="OldTantra" class="w3-container city" style="display:none">
+  <h2 style="border: 2px solid #08088a; border-radius: 5px; padding:5px;">Old Tantra (exact match)</h2><table>
+
+  </table><h2 style="border: 2px solid #08088a; border-radius: 5px; padding:5px;">Old Tantra (approximated match)</h2><table>
+
+
+</table></div>
+
+
+<div id="bon" class="w3-container city" style="display:none">
+  <h2 style="border: 2px solid #08088a; border-radius: 5px; padding:5px;">Bon Kanjur (exact match)</h2><table>
+
+  </table><h2 style="border: 2px solid #08088a; border-radius: 5px; padding:5px;">Bon Kanjur (approximated match)</h2><table>
+
+
+</table></div>
+
+
+
+
+<script>
+function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(cityName).style.display = "block";  
+}
+</script>
+</div><div class="topcorner">
+<form action="results2.php">
+<input type="text" name="text" placeholder="Quick Search..." size="75">
+<input type="hidden" id="typ" name="typ" value="1"> 
+<input type="hidden" id="typ2" name="typ2" value="1" > 
+<input type="hidden" id="sorte" name="sorte" value="1" > 
+</form>
+</div>
+
+</body>
+</html>

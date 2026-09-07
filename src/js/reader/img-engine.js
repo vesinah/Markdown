@@ -19,9 +19,13 @@ export const ImageViewer = {
   render(file, node) {
     let url = State.blobUrls.get(node.path);
     if (!url) {
-      const ext = node.name.split('.').pop().toLowerCase();
-      url = URL.createObjectURL(new Blob([file], { type: mimeByExt[ext] || file.type || 'image/jpeg' }));
-      State.blobUrls.set(node.path, url);
+      if (node.isRemote || file.isRemote) {
+        url = encodeURI(file.url || node.url || ('docs/' + (node.relPath || node.path)));
+      } else {
+        const ext = node.name.split('.').pop().toLowerCase();
+        url = URL.createObjectURL(new Blob([file], { type: mimeByExt[ext] || file.type || 'image/jpeg' }));
+        State.blobUrls.set(node.path, url);
+      }
     }
 
     this.frame.src = url;

@@ -1,0 +1,121 @@
+﻿{
+    "@graph": [
+        {
+            "@id": "bdr:CL1369D87EA3732A2F",
+            "contentLocationVolume": {
+                "@value": "1",
+                "@type": "xsd:integer"
+            },
+            "contentLocationPage": {
+                "@value": "339",
+                "@type": "xsd:integer"
+            },
+            "contentLocationInstance": {
+                "@id": "bdr:W22109"
+            },
+            "contentLocationEndPage": {
+                "@value": "396",
+                "@type": "xsd:integer"
+            },
+            "@type": "ContentLocation"
+        },
+        {
+            "@id": "bdr:MW22109_9E8194",
+            "contentLocation": {
+                "@id": "bdr:CL1369D87EA3732A2F"
+            },
+            "inRootInstance": {
+                "@id": "bdr:MW22109"
+            },
+            "biblioNote": {
+                "@language": "bo-x-ewts",
+                "@value": "5269"
+            },
+            "partType": {
+                "@id": "bdr:PartTypeText"
+            },
+            "skos:prefLabel": {
+                "@language": "bo-x-ewts",
+                "@value": "bla ma lnga bcu pa'i rnam bshad slob ma'i re ba kun skong /"
+            },
+            "@type": "Instance",
+            "hasTitle": {
+                "@id": "bdr:TTA7549154ADEF3516"
+            },
+            "partIndex": {
+                "@value": "11",
+                "@type": "xsd:integer"
+            },
+            "legacyOutlineNodeRID": "O4CZ191564CZ227645",
+            "colophon": {
+                "@language": "bo-x-ewts",
+                "@value": "ces slob dpon mkhas pa chen po b+ha bi lhas mdzad pa'i bla ma lnga bcu pa rgya gar gyi mkhan po pad+ma ka ra warma dang/ zhu chen gyi lo ts+tsha ba dge slong rin chen bzang pos rgya skad las bod kyi skad du bsgyur zhing tshig dang don la zhu chen byas te nyan bshad kyis gtan la phab pa'i rnam bshad slob ma'i re ba kun skong zhes bya ba 'di ni/ gzhung 'di la rgya gar pa'i 'grel pa mi snang yang 'di gang las gtso cher btus pa'i rgyud dpal gsang ba 'dus pa dang rdo rje phreng ba dang rdo rje snying po rgyan gyi rgyud dang sgyu 'phrul dra ba dang saM bu Ta dang rdo rje gur dang/ rdo rje mkha' 'gro dang dpal mchog dang po la sogs pa rnams dang/ sngags kyi bstan bcos gzhan rnams la'ang brten nas/ bshes gnyen bsten tshul nyams su len par 'dod pa'i don gnyer can mang po dang 'jig rten mgon po chos kyi rje dpal 'bri gung pa zhes yongs su grags pa'i gdung rgyud du 'khrungs nas 'gro ba mtha' yas pa'i 'dren par gyur pa gu shri chen po don grub rgyal po ba dang/ rig pa 'dzin pa'i sde snod la sbyangs pa'i rdo rje 'dzin pa chen po bla ma chos sgo ba bkra shis rin chen pa rnams kyis bskul zhing/ dus phyis mdo sngags kyi bstan pa yongs su rdzogs pa'i gnad rnams mkhyen nas gcig tu bstan pa rin po che la gces spras su mdzad pa'i gnas brtan mkhas pa chen po skyabs mchog dpal bzang po'i gsung gis nye bar bskul ba'i don du/ dge slong rdo rje 'dzin pa blo bzang grags pa'i dpal gyis byang ra sgreng rgyal ba'i dben gnas kyi yang dgon brag seng ge'i zhol du sbyar ba'i yi ge pa ni/ nang rig pa sde snod gsum dang gtan tshigs rig pa'i tshul la spobs pa dge ba can sdom brtson dar ma rin chen no/ /'di la brten nas kyang bstan pa rin po che rgyas par gyur cig"
+            },
+            "partTreeIndex": "01.2.11",
+            "partOf": {
+                "@id": "bdr:MW22109_02EF4E"
+            },
+            "contentLocationStatement": "29 ff.(pp. 319-376)",
+            "instanceOf": {
+                "@id": "bdr:WA0XLB101D9116E75"
+            }
+        },
+        {
+            "@id": "bdr:TTA7549154ADEF3516",
+            "rdfs:label": {
+                "@language": "bo-x-ewts",
+                "@value": "bla ma lnga bcu pa'i rnam bshad slob ma'i re ba kun skong /"
+            },
+            "@type": "Title"
+        }
+    ],
+    "@context": {
+        "aut": "http://purl.bdrc.io/ontology/ext/auth/",
+        "bdan": "http://purl.bdrc.io/annotation/",
+        "bf": "http://id.loc.gov/ontologies/bibframe/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "tbr": "http://purl.bdrc.io/ontology/toberemoved/",
+        "bdou": "http://purl.bdrc.io/ontology/ext/user/",
+        "rsh": "http://purl.bdrc.io/shacl/core/shape/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "bdac": "http://purl.bdrc.io/anncollection/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "wd": "http://www.wikidata.org/entity/",
+        "srcpe": "https://sakyaresearch.org/persons/",
+        "oa": "http://www.w3.org/ns/oa#",
+        "bdgup": "http://purl.bdrc.io/graph-nc/user-private/",
+        "mbbt": "http://mbingenheimer.net/tools/bibls/",
+        "dila": "http://purl.dila.edu.tw/resource/",
+        "sh": "http://www.w3.org/ns/shacl#",
+        "tmp": "http://purl.bdrc.io/ontology/tmp/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "text": "http://jena.apache.org/text#",
+        "bda": "http://purl.bdrc.io/admindata/",
+        "bdgu": "http://purl.bdrc.io/graph-nc/user/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "bdg": "http://purl.bdrc.io/graph/",
+        "ola": "https://openlibrary.org/authors/",
+        "srct": "https://sakyaresearch.org/topics/",
+        "f": "java:io.bdrc.libraries.sparql.functions.",
+        "srcpl": "https://sakyaresearch.org/places/",
+        "adm": "http://purl.bdrc.io/ontology/admin/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "bdo": "http://purl.bdrc.io/ontology/core/",
+        "iiif2": "http://iiif.io/api/presentation/2#",
+        "adr": "http://purl.bdrc.io/resource-nc/auth/",
+        "iiif3": "http://iiif.io/api/presentation/3#",
+        "viaf": "http://viaf.org/viaf/",
+        "bds": "http://purl.bdrc.io/ontology/shapes/core/",
+        "eftr": "http://purl.84000.co/resource/core/",
+        "bdr": "http://purl.bdrc.io/resource/",
+        "as": "http://www.w3.org/ns/activitystreams#",
+        "bdu": "http://purl.bdrc.io/resource-nc/user/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "srcd": "https://sakyaresearch.org/deities/",
+        "ldp": "http://www.w3.org/ns/ldp#",
+        "srcs": "https://sakyaresearch.org/sources/",
+        "srcl": "https://sakyaresearch.org/literary_forms/",
+        "@vocab": "http://purl.bdrc.io/ontology/core/"
+    }
+}

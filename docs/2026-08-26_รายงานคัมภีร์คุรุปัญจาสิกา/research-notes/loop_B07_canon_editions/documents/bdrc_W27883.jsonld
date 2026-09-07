@@ -1,0 +1,189 @@
+{
+    "@id": "bdr:W27883",
+    "instanceHasVolume": [
+        {
+            "@id": "bdr:I4674"
+        },
+        {
+            "@id": "bdr:I4654"
+        },
+        {
+            "@id": "bdr:I4675"
+        },
+        {
+            "@id": "bdr:I4656"
+        },
+        {
+            "@id": "bdr:I4677"
+        },
+        {
+            "@id": "bdr:I4657"
+        },
+        {
+            "@id": "bdr:I4669"
+        },
+        {
+            "@id": "bdr:I4651"
+        },
+        {
+            "@id": "bdr:I4649"
+        },
+        {
+            "@id": "bdr:I4650"
+        },
+        {
+            "@id": "bdr:I4658"
+        },
+        {
+            "@id": "bdr:I4661"
+        },
+        {
+            "@id": "bdr:I4663"
+        },
+        {
+            "@id": "bdr:I4664"
+        },
+        {
+            "@id": "bdr:I4666"
+        },
+        {
+            "@id": "bdr:I4676"
+        },
+        {
+            "@id": "bdr:I4680"
+        },
+        {
+            "@id": "bdr:I4652"
+        },
+        {
+            "@id": "bdr:I4653"
+        },
+        {
+            "@id": "bdr:I4670"
+        },
+        {
+            "@id": "bdr:I4671"
+        },
+        {
+            "@id": "bdr:I4659"
+        },
+        {
+            "@id": "bdr:I4655"
+        },
+        {
+            "@id": "bdr:I4665"
+        },
+        {
+            "@id": "bdr:I4667"
+        },
+        {
+            "@id": "bdr:I4668"
+        },
+        {
+            "@id": "bdr:I4678"
+        },
+        {
+            "@id": "bdr:I4673"
+        },
+        {
+            "@id": "bdr:I4679"
+        },
+        {
+            "@id": "bdr:I4660"
+        },
+        {
+            "@id": "bdr:I4672"
+        },
+        {
+            "@id": "bdr:I4662"
+        }
+    ],
+    "scanInfo": [
+        {
+            "@language": "en",
+            "@value": "India"
+        },
+        {
+            "@language": "en",
+            "@value": "scanned from computer set output"
+        }
+    ],
+    "instanceOf": {
+        "@id": "bdr:WA21295"
+    },
+    "inCollection": [
+        {
+            "@id": "bdr:PR1GS49488"
+        },
+        {
+            "@id": "bdr:PR3KG13"
+        }
+    ],
+    "@type": [
+        "ImageInstance",
+        "Instance",
+        "DigitalInstance"
+    ],
+    "numberOfVolumes": {
+        "@value": "32",
+        "@type": "xsd:integer"
+    },
+    "instanceReproductionOf": {
+        "@id": "bdr:MW27883"
+    },
+    "tmp:thumbnailIIIFService": {
+        "@id": "https://iiif.bdrc.io/bdr:I4649::46490003.tif"
+    },
+    "instanceHasReproduction": {
+        "@id": "bdr:IE0OPI45CA9DB4"
+    },
+    "@context": {
+        "aut": "http://purl.bdrc.io/ontology/ext/auth/",
+        "bdan": "http://purl.bdrc.io/annotation/",
+        "bf": "http://id.loc.gov/ontologies/bibframe/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "tbr": "http://purl.bdrc.io/ontology/toberemoved/",
+        "bdou": "http://purl.bdrc.io/ontology/ext/user/",
+        "rsh": "http://purl.bdrc.io/shacl/core/shape/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "bdac": "http://purl.bdrc.io/anncollection/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "wd": "http://www.wikidata.org/entity/",
+        "srcpe": "https://sakyaresearch.org/persons/",
+        "oa": "http://www.w3.org/ns/oa#",
+        "bdgup": "http://purl.bdrc.io/graph-nc/user-private/",
+        "mbbt": "http://mbingenheimer.net/tools/bibls/",
+        "dila": "http://purl.dila.edu.tw/resource/",
+        "sh": "http://www.w3.org/ns/shacl#",
+        "tmp": "http://purl.bdrc.io/ontology/tmp/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "text": "http://jena.apache.org/text#",
+        "bda": "http://purl.bdrc.io/admindata/",
+        "bdgu": "http://purl.bdrc.io/graph-nc/user/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "bdg": "http://purl.bdrc.io/graph/",
+        "ola": "https://openlibrary.org/authors/",
+        "srct": "https://sakyaresearch.org/topics/",
+        "f": "java:io.bdrc.libraries.sparql.functions.",
+        "srcpl": "https://sakyaresearch.org/places/",
+        "adm": "http://purl.bdrc.io/ontology/admin/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "bdo": "http://purl.bdrc.io/ontology/core/",
+        "iiif2": "http://iiif.io/api/presentation/2#",
+        "adr": "http://purl.bdrc.io/resource-nc/auth/",
+        "iiif3": "http://iiif.io/api/presentation/3#",
+        "viaf": "http://viaf.org/viaf/",
+        "bds": "http://purl.bdrc.io/ontology/shapes/core/",
+        "eftr": "http://purl.84000.co/resource/core/",
+        "bdr": "http://purl.bdrc.io/resource/",
+        "as": "http://www.w3.org/ns/activitystreams#",
+        "bdu": "http://purl.bdrc.io/resource-nc/user/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "srcd": "https://sakyaresearch.org/deities/",
+        "ldp": "http://www.w3.org/ns/ldp#",
+        "srcs": "https://sakyaresearch.org/sources/",
+        "srcl": "https://sakyaresearch.org/literary_forms/",
+        "@vocab": "http://purl.bdrc.io/ontology/core/"
+    }
+}

@@ -1,0 +1,2045 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="ko" class="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title>단락/경판 - 불교학술원 아카이브</title>
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="icon" href="/resources/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/resources/images/apple-icon.png">
+<link rel="apple-touch-icon" href="/resources/images/apple-icon.png"> 
+	
+<script src="/resources/libs/jquery-1.11.3.min.js"></script>
+<script src="/resources/libs/jquery-ui/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="/resources/libs/jquery-ui/jquery-ui.css" type="text/css">
+
+<script src="/resources/libs/backbone/underscore-min.js"></script>
+<script src="/resources/libs/backbone/backbone.js"></script>
+<script src="/resources/libs/core/underscore.string.min.js"></script>
+<script src="/resources/libs/core/string.js"></script>
+
+<link rel="stylesheet" href="/resources/css/base.css?v=20210202" />
+<link rel="stylesheet" href="/resources/css/common.css?v=20210208" />
+<link rel="stylesheet" href="/resources/css/content.css?v=20210208" />
+<link rel="stylesheet" href="/resources/css/xsl_style.css?v=20210203" />
+
+<script src="/resources/js/common.js?v=20210708"></script>
+<script src="/resources/js/search.js?v=20210201"></script>
+
+<script src="/resources/js/analysis.js?v=20230204"></script>
+
+
+ <!-- UA-28923583-4 -->
+<!-- UA-166772332-1  -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BNNKLCQJ98"></script>
+<script>
+var ga_ID = 'G-BNNKLCQJ98';
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+ga_send_pageview();
+</script>
+
+<script src="/resources/libs/jquery.blockUI.js"></script>
+<script>
+	new Image().src="/resources/images/common/busy.gif";
+	$(document).ajaxStop($.unblockUI); 
+	$.blockUI.defaults.css = {}; 
+	$.blockUI.defaults.overlayCSS ={};
+</script>
+
+<script>
+var g_servletPath = s.rtrim("/",'/');
+
+function resizeMainLayout() { 
+	var winH = $(window).height();
+	$(".content--scroll1").css({height:winH-239+"px"});
+	$(".snb--scroll").css({height:winH-235+"px"});
+} 
+
+$(document).ready(function(){
+	// scroll
+	$(window).resize(resizeMainLayout); 
+	resizeMainLayout();	
+
+
+	$(document).on('click','.wrap__page--util .totop', function() { 
+		//scrollToVisibleNode(node, ".wrap__snb .snb--scroll", 0, 10);
+		//$(window).scrollTop(100);
+		$("#content .content--scroll1").scrollTop(0);
+	});
+
+	// snb 영역 토글
+	$(document).on('click','.snb--open .btn__snb--toggle', function() {
+		$('#container').removeClass('snb--open snb--more');
+		$('#container').addClass('snb--close');
+		
+		if(localStorage)
+			localStorage.treeOpenClose = "close";
+
+	});
+	$(document).on('click','.snb--close .btn__snb--toggle', function() { 
+		$('#container').removeClass('snb--close');
+		$('#container').addClass('snb--open');
+		
+		if(localStorage)
+			localStorage.treeOpenClose = "open";
+	});
+
+	$(document).on('click','.snb--open .btn__snb--toggle--more', function() {
+		$('#container').addClass('snb--more');
+		if(localStorage)
+			localStorage.treeOpenClose = "open-more";
+	});
+	$(document).on('click','.snb--open.snb--more .btn__snb--toggle--more', function() {
+		$('#container').removeClass('snb--more');
+		if(localStorage)
+			localStorage.treeOpenClose = "open";
+	});
+	$(document).on('click','.snb--close .btn__snb--toggle--more', function() { 
+		$('#container').removeClass('snb--close');
+		$('#container').addClass('snb--open snb--more');
+		if(localStorage)
+			localStorage.treeOpenClose = "open-more";
+	});
+
+	// snb
+	$(document).on('click','.wrap__snb nav:not(.tree) > ul > li > a',function() {
+		if($(this).hasClass('open')) {
+			$(this).removeClass('open');
+			$(this).next('div').stop(true, false).slideUp();
+		} else {
+			$('.wrap__snb nav:not(.tree) > ul > li > a').removeClass('open');
+			$('.wrap__snb nav:not(.tree) > ul > li > div').slideUp();
+			$(this).addClass('open');
+			$(this).next('div').stop(true, false).slideDown();
+		}
+	});
+	
+
+	// 공통 alert 레이어
+	$('.pop--alert1-open').click(function() {
+		$('.pop--alert1, .pop--overlay').fadeIn('');
+		$('body').css('overflow','hidden')
+	});
+	$('.pop--alert1-close').click(function(){	
+		$('.pop--alert1, .pop--overlay').fadeOut('');
+		$('body').css('overflow','auto')
+	});
+
+}); // <-- ready function
+</script>
+
+
+</head>
+
+<body>
+<div id="wrap">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+    
+});
+</script>
+
+ 
+<link rel="stylesheet" type="text/css" href="/resources/css/suggest.css" />
+<script src="/resources/libs/jquery.autocomplete.js"></script>
+
+<script>
+$(document).ready(function () {
+	//Initialize ajax autocomplete:
+	$('#q_query').autocomplete({
+		paramName: 'q',
+		serviceUrl: '/search/suggest',
+		onSelect: function(suggestion) {
+			//$('#selection_result').html('You selected: ' + suggestion.value + ', ' + suggestion.data);
+			$('#q_query').val(suggestion.value);
+			totalSearch();
+		},
+		onInvalidateSelection: function() {
+			//$('#selection_result').html('You selected: none');
+		},		
+		width:350
+	});
+});
+
+function initCache() {
+	$.get("/etc/clearCache", { }, null, "json")
+	.done(function (result, textStatus, jqXHR) {
+		alert(result.msg);
+	}).fail(function (jqXHR, textStatus, errorThrown) { alert(jqXHR.status + " : " + textStatus + " : " + errorThrown); });
+}
+
+</script>
+
+
+<header id="header">
+	<div class="header__top">
+	
+		<ul class="global">
+			<a onclick="initCache()" style="display:block;position:absolute;width:20px;height:20px;left:-30px;top:5px;" title="캐쉬삭제"></a>
+			<li><a href="http://abchome.dongguk.edu" target="_blank">불교학술원</a></li>
+			<li><a class="selected">불교기록문화유산</a></li>
+			<li><a href="https://buddhaland.dongguk.edu" target="_blank">한국불교문화포털</a></li>
+		</ul>
+
+		<ul class="info">
+			<li><a href="http://abchome.dongguk.edu/sub/contMasterList?clsType=%EC%95%8C%EB%A6%BC%EB%A7%88%EB%8B%B9_%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD&cateType=%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD" target="_blank">공지사항</a></li>
+			
+			<li><a href="/board/errBrdList">오류신고</a></li>
+			<li><a href="/etc/intro?type=01">사업소개</a></li>
+			<li class="lang">
+				<div>
+					<a onclick="changeLocation('lang','ko');" class="selected">한국어</a> <span>|</span>
+					<a onclick="changeLocation('lang','en');" class="">English</a> <span>|</span>
+					<a onclick="changeLocation('lang','zh');" class="">中國語</a> <span>|</span>
+					<a onclick="changeLocation('lang','ja');" class="">日本語</a> 
+				</div>
+			</li>
+			
+		</ul>
+	
+	</div>
+
+	<div class="header">
+	
+	
+	
+		<div class="sta"><a href="/index"><img src="/resources/images/sta_ko.png" alt="불교기록문화유산 아카이브" /></a></div>
+		
+		<nav class="gnb">
+			<ul>
+				<li><a href="/content/list?itemId=ABC_IT" data-item-id='ABC_IT' title='원문과 번역문을 통합해 동시에 살펴볼 수 있는 디지털 대장경'>통합대장경</a></li>
+				<li><a href="/content/list?itemId=ABC_BJ" data-item-id='ABC_BJ' title='한국 불교 사상가의 저술을 집대성한 자료의 보고'>한국불교전서</a></li>
+				<li><a href="/content/list?itemId=ABC_NC" data-item-id='ABC_NC' title='동국대학교 불교학술원이 현장에서 촬영한 불교 문헌의 사진과 서지정보를 체계적으로 소개, 고려대장경과 한국불교전서를 제외한 모든 문헌을 집대성.'>신집성문헌</a></li>
+				<li><a href="/content/list?itemId=ABC_KJ" data-item-id='ABC_KJ' title='고려교장 목록 기반의 동아시아에 현존하는 주석서의 종합 정보 인덱스 '>고려교장</a></li>
+				<li><a href="/content/list?itemId=ABC_SP" data-item-id='ABC_SP' title='불교 경전의 내용이나 교리, 설화를 시각적으로 표현한 그림'>변상도</a></li>
+				<li><a href="/content/list?itemId=ABC_BM" data-item-id='ABC_BM' title='근대 지성인들의 고뇌와 주장 그리고 삶의 진면목을 살펴볼 수 있는 타임캡슐, 근대불교잡지.'>근대불교잡지</a></li>
+				<li><a href="/content/list?itemId=ABC_BC" data-item-id='ABC_BC' title='근대시기 한국불교를 이끌어온 선구자들의 저술과 번역서의 대총서'>근대불교문헌</a></li>
+				<li><a href="/content/list?itemId=BUL_PIC" data-item-id='BUL_PIC' title='사진을 통해 살펴보는 한국 근대불교의 일상과 문화생활의 모든 것'>근대불교사진</a></li>
+				<li><a href="/content/list?itemId=BUL_SJ" data-item-id='BUL_SJ' title='조선시대 사찰에서 간행한 불교문헌의 총목록 DB'>조선사찰본서목</a></li>
+			</ul>
+		</nav>
+	
+	
+		<div class="search">
+			<input type="text" name="query" id="q_query" value="" onkeypress="return enterSearchKeyCheck(event)" />				
+			<a href="javascript:openWebime('q_query');" class="btn--word"></a>
+			<button type="submit" class="btn--search" onclick="totalSearch()">검색</button>
+			<button type="button" class="btn--search--detail" onclick="openDetailSerach()">상세검색</button>
+		</div>
+	</div>	
+</header>
+
+
+
+	
+	<div id="container" class="snb--open">
+		<button type="button" class="btn__snb--toggle"></button>
+		<button type="button" class="btn__snb--toggle--more"></button>
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/resources/libs/vctree/jquery.vctree.js?20230101"></script>
+<link href="/resources/libs/vctree/vctree.css" rel="stylesheet" type="text/css" />
+
+
+<style>
+.vctree .fakeRoot > ul {display:none; margin:0; padding:0}
+.vctree .fakeRoot {min-height:15px;}
+.vctree {overflow: initial;}
+/*
+.vctree li > i.file > span.tic {background:url('images/file.png') no-repeat 0 3px;}
+.vctree li > i.file > span.txt {background:url('images/file.png') no-repeat 0 3px; padding-left:20px}
+*/
+</style>
+
+
+<script>
+var gTreeState = {
+		paramObj:{
+			itemId: '',
+			cate: '',
+			depth: '',
+			upPath: '',
+			dataId: ''
+		},
+		
+		g_getPathId : function(paramObj) {
+			if(!paramObj.upPath) paramObj.upPath = '';
+			
+			var upPath = paramObj.upPath;
+			if(upPath) upPath = upPath+'^'
+			upPath = s.replaceAll(upPath,' ','+');
+			
+			var dataId = paramObj.dataId;
+			dataId = s.replaceAll(dataId,' ','+');
+			
+			return paramObj.itemId+'^'+paramObj.cate+'^'+upPath+dataId;
+		},
+		
+		isGrpNodeIT: function(paramObj) {
+			if(paramObj.itemId != 'ABC_IT')
+				return false;
+			return s.count(paramObj.dataId,':')>0;
+		},
+		toIdGrpNodeIT : function(dataId) {
+			if(!isVolId(dataId))
+				return dataId;
+			
+			var seojiId = toSeojiId(dataId);
+			var volId = parseInt((parseInt(dataId.substr(-3))-1)/50.)*50+1;
+			return seojiId+':'+ s.lpad(volId, 3, '0')+dataId.substring(seojiId.length);
+		},
+		
+		defaultCateParam: function (paramObj) {
+			if(!s.isBlank(paramObj.cate))
+				return;
+			
+			paramObj.cate = 'bookName';
+			if(paramObj.itemId=='ABC_BC') {paramObj.cate = 'upSeoji'};
+			if(paramObj.itemId=='ABC_KJ') {paramObj.cate = 'chongRok'};
+		},	
+		
+		defaultUpPathParam: function (paramObj) {
+			if(!s.isBlank(paramObj.upPath))
+				return;
+
+			if(s.isBlank(paramObj.dataId))
+				return;
+
+			if(paramObj.cate == 'bookName') {paramObj.upPath = 'Z'};
+			if(paramObj.cate == 'upSeoji') {paramObj.upPath = 'A'};
+		}		
+	};
+
+function defaultParamObj(paramObj) {
+	if(s.isBlank(paramObj.itemId)) paramObj.itemId = defaultStr("ABC_IT");
+	
+	if(s.isBlank(paramObj.cate)) paramObj.cate = defaultStr(gTreeState.paramObj.cate, "");
+	if(s.isBlank(paramObj.upPath)) {
+		if(paramObj.itemId == 'ABC_NC' && (paramObj.cate==''||paramObj.cate=='bookName'))
+			paramObj.upPath = defaultStr(gTreeState.paramObj.upPath, gSearchVO.ganada);
+		else
+			paramObj.upPath = defaultStr(gTreeState.paramObj.upPath, "");
+	}
+	if(s.isBlank(paramObj.depth)) paramObj.depth = defaultStr(gTreeState.paramObj.depth, "1");
+	//if(s.isBlank(paramObj.dataId)) paramObj.dataId = defaultStr(gTreeState.paramObj.dataId, "ABC_IT_K1493_T_001");
+	
+	gTreeState.defaultCateParam(paramObj);
+	gTreeState.defaultUpPathParam(paramObj);
+	
+	gTreeState.paramObj = paramObj
+
+	return paramObj;
+}
+
+function toTreeRootCate(paramObj) {
+	var dataCate = paramObj.cate;
+	if(paramObj.itemId=='ABC_BC') {
+		dataCate = "upSeoji";
+	}
+	return dataCate;
+}
+
+function updateTreeTopNavi(pageUrl) {
+	var paramObj = getUrlParam(pageUrl);
+	paramObj = defaultParamObj(paramObj);
+
+	//console.log(paramObj);
+
+	var treeRootCate = toTreeRootCate(paramObj);
+	if(treeRootCate=='')
+		return;
+
+	//console.log(treeRootCate);
+	
+	activeSnbMenu($(".wrap__snb nav.tree > ul > li[data-cate='"+treeRootCate+"'] > a").get(0), true);
+	
+	treeSync(paramObj);
+}
+
+function treeSync(paramObj) {
+	var treeRootCate = toTreeRootCate(paramObj);
+	
+	var treeObj = $(".wrap__snb nav.tree > ul > li[data-cate='"+treeRootCate+"'] .vctree_root").data("treeObj");
+	if(treeObj==null)
+		return;
+	
+	//console.log(treeObj);
+	//alert(JSON.stringify($TREE.option));
+	//alert($("li[data-code='"+paramObj.dataId+"']", TREE).html());
+
+    treeObj.sync_treeNode({
+        matchedComplete: function (node) {
+            //console.log('matchedComplete:' + node);
+        },
+        matchedNode: function (node) {
+    		//var dataId = $(node).attr("data-code");
+    		var dataUrl = $(node).attr("data-url");
+        	//console.log(dataUrl);
+    		if(!dataUrl)
+    			return false;
+        	
+        	var nodeParamObj = getUrlParam(dataUrl);
+			var nodePathId = gTreeState.g_getPathId(nodeParamObj);
+			var gPathId = gTreeState.g_getPathId(paramObj);
+			
+			if(!nodePathId)
+    			return false;
+			
+			if(gTreeState.isGrpNodeIT(nodeParamObj)) { //대반야바라밀다경(大般若波羅蜜多經)
+				var saveId = paramObj.dataId;
+				paramObj.dataId = gTreeState.toIdGrpNodeIT(paramObj.dataId);
+				gPathId = gTreeState.g_getPathId(paramObj);
+				paramObj.dataId = saveId;
+			}
+			//console.log(gPathId+" : "+nodePathId + " : "+s.startsWith(gPathId, nodePathId));
+			if(gPathId == nodePathId)
+				return true;
+			else
+				return s.startsWith(gPathId, nodePathId);
+        },
+        complete: function (node) {
+            //console.log('sync_complete');
+            if(!s.isBlank(paramObj.dataId) && s.count(paramObj.dataId,'^')>0) { 
+            	var nodeParamObj = getUrlParam($(node).attr("data-url"));
+            	if(paramObj.dataId != nodeParamObj.dataId && s.startsWith(paramObj.dataId, nodeParamObj.dataId)) {
+		           	var $findNode = $(node).find('li[data-code="'+paramObj.dataId+'"]');
+		           	if($findNode.length>0) {
+		           		//console.log('complete sub match: ', nodeParamObj.dataId, '>>>', paramObj.dataId);
+		           		treeObj.openTreePath($findNode.get(0), true);
+		           		//scrollToVisibleNode($findNode.get(0), ".wrap__snb .snb--scroll", 0, 10);
+		           		//return;
+		        	}
+            	}
+            }
+
+            scrollToVisibleNode(node, ".wrap__snb .snb--scroll", 0, 10);
+            //$(window).scrollTop(100);
+        }
+    });
+}
+
+function activeSnbMenu(node, active, fakeLoad) {
+	if(active) {
+		$('.wrap__snb nav.tree > ul > li > a').removeClass('open');
+		$('.wrap__snb nav.tree > ul > li > div').hide();
+		//$('.wrap__snb nav.tree > ul > li > div').slideUp();
+		$(node).addClass('open');
+		//$(node).next('div').stop(true, false).slideDown();
+		$(node).next('div').show();
+		//console.log($(node).parent().data('cate'));
+		
+		fakeLoad = fakeLoad || false;
+		if(fakeLoad) {
+			var $treeObj = $(node).next('div').find('.vctree_root');
+			//$treeObj.get(0).openTreePath($treeObj.find('.fakeRoot').get(0), true);
+			var $fakeRoot = $treeObj.find('>.fakeRoot');
+			if($fakeRoot.length>0) {
+				$treeObj.get(0).openNode($treeObj.find('>.fakeRoot').get(0));
+			}
+		}
+	} else {
+		$(node).removeClass('open');
+		//$(node).next('div').stop(true, false).slideUp();
+		$(node).next('div').hide();
+	}
+}
+
+$(document).ready(function(){
+	//snb
+	$(document).on('click','.wrap__snb nav.tree > ul > li > a',function() {
+		if($(this).hasClass('open')) {
+			activeSnbMenu(this, false, true);
+		} else {
+			activeSnbMenu(this, true, true);
+		}
+	});
+	
+	$("nav.gnb a[data-item-id='ABC_IT']").addClass("active");
+	
+	
+	if(localStorage && localStorage.treeOpenClose) {
+		if(localStorage.treeOpenClose=='open-more') {
+			$('#container').addClass('snb--more');
+		} else if(localStorage.treeOpenClose=='close') {
+			$('#container').removeClass('snb--open snb--more');
+			$('#container').addClass('snb--close');
+		}
+	}
+});
+
+
+
+var vacuTrees;
+
+$(document).ready(function(){
+	vacuTrees = $('.vctree').vacuTree({
+	    autoclose: false,
+	    //speed: "fast",
+	    afterClickToggle: true, //"mobile"
+		
+		afterClick:function(node){
+            //alert(node.attr("id"));
+			//alert("text-"+$('span:first',node).text());
+			click_Node(node);
+		},
+		
+		afterDblClick:function(node){
+		    //alert("text-"+$('span:first',node).text());
+		    //log("afterDblClick: " + $('span.txt:first', node).text());			
+		},
+		afterMove:function(destination, source, pos){
+			//alert("destination-"+destination.attr('id')+" source-"+source.attr('id')+" pos-"+pos);
+		},
+		afterAjax:function(node) {
+		    //log("afterAjax" + $('span.txt:first', node).text());
+			//alert('Loaded');
+		},
+		initComplete: function (rObj) {
+            //if(!treeObj)
+		    //   treeObj = rObj; //first tree
+		    //log("initComplete");
+		    //alert('Loaded');
+		}		
+	});
+});
+
+
+function click_Node(node) {
+	var dataUrl = node.attr("data-url");
+	var paramObj = getUrlParam(dataUrl);
+	//console.log(paramObj);
+	
+	switch(paramObj.itemId) {
+	case "ABC_IT": //통합대장경
+		switch(paramObj.cate) {
+		case "bookNum":
+		case "bookNum":
+		case "clsCate":
+		case "subject":
+			if(paramObj.dataId == '') {
+				appRouter.navigate("/content/list"+dataUrl, { trigger: true });
+				return;
+			}
+			break;
+		}
+		break;
+	case "ABC_BJ": //한국불교전서
+		switch(paramObj.cate) {
+		case "bookName":
+			break;
+		case "bookNum":
+			if(paramObj.dataId == '') {
+				appRouter.navigate("/content/list"+dataUrl, { trigger: true });
+				return;
+			}
+			break;
+		case "author":
+			if(paramObj.dataId == '' && s.count(paramObj.upPath,'^')>0) {
+				appRouter.navigate("/content/list"+dataUrl, { trigger: true });
+				return;
+			}
+			break;
+		}
+		break;
+	case "ABC_NC": //신집성문헌
+		if(isBookId(paramObj.dataId)) {
+			appRouter.navigate("/content/seoji"+dataUrl, { trigger: true });
+			return;
+		}
+		if(isSeojiId(paramObj.dataId)) {
+			appRouter.navigate("/content/list"+dataUrl, { trigger: true });
+			return;
+		}
+	
+		switch(paramObj.cate) {
+		case "bookName":
+		case "holder":
+		case "panType":
+		case "subject":
+		case "pubYear":
+		case "pubUser":
+		case "ncCustom":
+			if(paramObj.dataId == '') {
+				appRouter.navigate("/content/list"+dataUrl, { trigger: true });
+				return;
+			}
+		}
+		break;
+	case "ABC_KJ": //교장총록
+		if(isBookId(paramObj.dataId)) {
+			appRouter.navigate("/content/seoji"+dataUrl, { trigger: true });
+			return;
+		}
+	 
+		if(isChongRokId(paramObj.dataId) || isKyJunId(paramObj.dataId) || isJangSo(paramObj.dataId) || isSeojiId(paramObj.dataId)) {
+			appRouter.navigate("/content/list"+dataUrl, { trigger: true });
+			return;
+		}
+	
+		switch(paramObj.cate) {
+		case "chongRok":
+		case "nation":
+		case "chanSul":
+		case "jangJung":
+		case "panType":
+		case "pubYear":
+		case "pubUser":
+		case "holderKJ":
+			if(paramObj.dataId == '') {
+				appRouter.navigate("/content/list"+dataUrl, { trigger: true });
+				return;
+			}
+			break;
+		case "author":
+			if(paramObj.dataId == '' && s.count(paramObj.upPath,'^')>0) {
+				appRouter.navigate("/content/list"+dataUrl, { trigger: true });
+				return;
+			}
+			break;
+		}
+		break;
+	case "ABC_SP": //변상도
+		switch(paramObj.cate) {
+		case "bookName":
+		case "clsCont":
+		case "pubYear":
+		case "pubUser":
+			break;
+		}
+		if(paramObj.dataId == '') {
+			appRouter.navigate("/content/list"+dataUrl, { trigger: true });
+			return;
+		}
+		if(isBookId(paramObj.dataId)) {
+			appRouter.navigate("/content/bsd"+dataUrl, { trigger: true });
+			return;
+		}
+		if(paramObj.dataId!='' && !isBookId(paramObj.dataId)) {
+			var dataId = toRealDataId(paramObj.dataId);
+			var imgId = toDataIdNum(paramObj.dataId);
+			//popWin("/viewer/view?itemId=ABC_SP&dataId="+dataId+"&imgId="+imgId, "_pop_image" , 1200, 900);
+			window.open("/viewer/view?itemId=ABC_SP&dataId="+dataId+"&imgId="+imgId,"_blank");
+			return;
+		}
+		break;
+	case "ABC_BM": //근대불교잡지
+		switch(paramObj.cate) {
+		case "bookName":
+		case "pubYear":
+			break;
+		}
+		if(paramObj.dataId == '' || isSeojiId(paramObj.dataId)) {
+			appRouter.navigate("/content/list"+dataUrl, { trigger: true });
+			return;
+		}
+		break;
+	case "ABC_BC": //근대불교문헌
+		switch(paramObj.cate) {
+		case "upSeoji":
+			if(paramObj.dataId == '') {
+				appRouter.navigate("/content/list"+dataUrl, { trigger: true });
+				return;
+			}
+		}
+		break;
+	case "BUL_PIC": //근대불교사진
+		switch(paramObj.cate) {
+		case "bookName":
+		case "area":
+		case "bunya":
+		case "sidae":
+			if(paramObj.dataId) {
+				popWin("/content/pop_view_bulpic?dataId="+paramObj.dataId,"pop_view_bulpic", 900, 900);
+				return;
+			}
+		}
+	
+		var urlParamObj = getUrlParam(Backbone.history.getFragment());
+		if(urlParamObj.viewType) dataUrl += "&viewType="+urlParamObj.viewType;
+		appRouter.navigate("/content/list"+dataUrl, { trigger: true });
+		return;
+		break;
+	case "BUL_SJ": //조선사찰본서목
+		switch(paramObj.cate) {
+		case "bookName":
+		case "sidae":
+		case "area":
+		case "doc":
+		case "kingYear":
+		case "placeName":
+		case "pubUser":
+			if(paramObj.dataId) {
+				popWin("/content/pop_view_bulsj?dataId="+paramObj.dataId,"pop_view_bulsj", 900, 900);
+				return;
+			}
+			break;
+		}
+		appRouter.navigate("/content/list"+dataUrl, { trigger: true });
+		return;
+		break;
+	}
+	
+	if(paramObj.dataId == '') {
+		if(paramObj.cate == 'bookName')
+			appRouter.navigate("/content/list"+dataUrl, { trigger: true });
+		else if(paramObj.upPath == '' || paramObj.upPath == 'Z')
+			appRouter.navigate("/content/list"+dataUrl, { trigger: true });
+	} else	if(isVolType(paramObj.dataId)) {
+		var trigger = true;
+		var urlParamObj = getUrlParam(window.location.href);
+		if(s.count(paramObj.dataId,'^')>0) {
+			if(toRealDataId(paramObj.dataId) == toRealDataId(urlParamObj.dataId))
+				trigger = false;
+		}
+		if(urlParamObj.pk)
+			dataUrl +="&pk="+urlParamObj.pk;
+		if(urlParamObj.rt)
+			dataUrl +="&rt="+urlParamObj.rt;
+		appRouter.navigate("/content/view"+dataUrl, { trigger: trigger });
+		if(!trigger)
+			moveToTitle(paramObj.dataId);
+	}
+	
+	//appRouter.navigate('/node'+dataUrl, { trigger: true });
+}
+
+function moveToTitle(dataId) {
+	var num = toDataIdNum(dataId);
+	if(num == '') {
+		$("#content .content--scroll1").scrollTop(0);
+		return;
+	}
+	
+	var $titles = null;
+	if((s.startsWith(dataId,"ABC_BJ") || s.startsWith(dataId,"ABC_NC")) && $("div.list__pr.ch").hasClass("hide"))
+		return;
+		
+	//$(".xsl_body div[data-xsl-titnum]").removeClass('focus_tit');
+	$(".xsl_body .focus_tit").removeClass('focus_tit');
+	var $findNode = $(".xsl_body div[data-xsl-titnum='"+num+"']");
+	if($findNode.length>0) {
+		$findNode.addClass('focus_tit');
+		scrollToVisibleNode($findNode.get(0), "#content .content--scroll1", 0, 10);
+	}
+}
+
+function moveToPara(paraNum) {
+	if(paraNum == '') {
+		$("#content .content--scroll1").scrollTop(0);
+		return;
+	}
+	
+	//$(".xsl_body div[data-xsl-paranum]").removeClass('focus_tit');
+	$(".xsl_body .focus_tit").removeClass('focus_tit');
+	var $findNode = $(".xsl_body [data-xsl-paranum='"+paraNum+"']");
+	if($findNode.length>0) {
+		$findNode.addClass('focus_tit');
+		scrollToVisibleNode($findNode.get(0), "#content .content--scroll1", 0, 10);
+		goNextHL(paraNum);
+	}
+}
+
+function goNextHL(paraNum) {
+	paraNum = paraNum||'';
+	var basePath = "#content";
+	if(paraNum)
+		basePath += " .xsl_body [data-xsl-paranum='"+paraNum+"']";
+
+	var $hlmark = $(basePath+" em.hl1");
+	if($hlmark.size()<=0)
+		return;
+	
+	var hlIndex = 0;
+	if($(basePath+" em.hl1.focus").size()>0) {
+		hlIndex = $hlmark.index($(basePath+" em.hl1.focus")[0]) + 1;
+		if(hlIndex>=$hlmark.size())
+			hlIndex = 0;
+		$hlmark.removeClass("focus");
+	}
+	$hlmark.eq(hlIndex).addClass("focus");
+	
+	if($(".content--scroll1").length>0)
+		scrollToVisibleNode($hlmark[hlIndex], ".content--scroll1", 10);
+	else
+		scrollToVisibleNode($hlmark[hlIndex], window, 10);
+}
+
+function goPrevNextView(dire) {
+	var hasUrl = Backbone.history.getFragment();
+	var paramObj = getUrlParam(hasUrl);
+	
+	$.get("/"+paramObj.itemId+"/nextPrevViewAjax", { "dire": dire,"itemId": paramObj.itemId, "dataId": s.strRightBack(paramObj.dataId,'^') }, null, "json")
+	.done(function (result, textStatus, jqXHR) {
+		if(!result['자료ID']) {
+			if(dire=='prev')
+				alert('첫번째 자료입니다.');
+			else
+				alert('마지막 자료입니다.');
+		} else {
+			//var hasUrl = getChangeQueryParam(hasUrl, "dataId", result['자료ID']);
+			//appRouter.navigate('/'+hasUrl, { trigger: true });
+			
+			location.href = "/"+paramObj.itemId+"/view?dataId="+result['자료ID']+"&syncType="+paramObj.syncType;
+		}
+	}).fail(function (jqXHR, textStatus, errorThrown) { alert(jqXHR.status + " : " + textStatus + " : " + errorThrown); });
+}
+
+function changeSolrNaviPos(solrQ) {
+	var hasUrl = Backbone.history.getFragment();
+	$.get("/search/getDataIdBySolrQ", { "solrQ": solrQ }, null, "json")
+	.done(function (result, textStatus, jqXHR) {
+		if(!result['자료ID']) {
+			alert('관련 자료가 존재하지 않습니다.');
+		} else {
+			//hasUrl = getChangeQueryParam(hasUrl, "dataId", result['자료ID']);
+			//hasUrl = getChangeQueryParam(hasUrl, "solrQ", solrQ);
+			//appRouter.navigate('/'+hasUrl, { trigger: true });
+
+			var paramObj = getUrlParam(hasUrl);
+			var idParam = '';
+			if(s.startsWith(result['자료ID'],"ABC_SP"))
+				idParam="itemId=ABC_SP&dataId="+s.replaceAll(result['자료ID'],'ABC_SP','ABC_NC');
+			else
+				idParam="dataId="+result['자료ID'];
+			appRouter.navigate(s.strLeft(hasUrl, '?')+"?"+idParam+"&solrQ="+encodeURIComponent(solrQ), { trigger: true });
+			//location.href = "?dataId="+result['자료ID']+"&solrQ="+solrQ;
+		}
+	}).fail(function (jqXHR, textStatus, errorThrown) { alert(jqXHR.status + " : " + textStatus + " : " + errorThrown); });
+}
+
+function changeSolrNaviVol(volId) {
+	var rt = "";
+	if((s.startsWith(volId, "ABC_BJ") || s.startsWith(volId, "ABC_NC")) && volId.indexOf("_R")>0)
+		rt = "&rt=R";
+	volId = toNaviVolId(volId);
+	appRouter.navigate("/content/view?dataId="+volId+"&solrQ="+encodeURIComponent('')+rt, { trigger: true });
+}
+</script> 
+
+
+
+
+<script>
+var prevRouterURL = decodeURI(window.location.pathname+window.location.search).replace(/\%24/g,'$').replace(/\%3B/g,';');
+var AppRouter = Backbone.Router.extend({
+    routes: {
+        'content/:path?*queryString': "loadPage",
+    },
+    loadPage: function(path, queryString) {
+    	var url = "/content/"+path;
+   		if (typeof queryString != 'undefined')
+    		url += "?"+queryString;
+   		
+   		//var encode_url = encodeURI(url).replace(/\$/g,'%24').replace(/\(/g,'%28').replace(/\)/g,'%29');
+   		//if(getChangeQueryParam(prevRouterURL, "solrQ", "") == getChangeQueryParam(url, "solrQ", "")) {
+
+   		//console.log(prevRouterURL);
+   		//console.log(url);
+   		if(prevRouterURL == url) {
+   			updateTreeTopNavi(encodeURI(url));
+   			return;
+   		}
+   		prevRouterURL = url;
+   		
+        this.loadAjaxData(url);
+    },
+    
+    loadAjaxData: function(pageUrl) {
+    	//console_log("[loadAjaxData] encodeURI before: "+ pageUrl);
+    	pageUrl = encodeURI(pageUrl);
+    	//console_log("[loadAjaxData] encodeURI after: "+ pageUrl);
+    	
+    	$.blockUI({message: '<div class="loading-pane"><img src="/resources/images/common/busy.gif" /></div>'});
+    	$.get(pageUrl+"&ajax=Y")
+    	.done(function (data, textStatus, jqXHR) {
+    		updateTreeTopNavi(pageUrl);
+    		
+    		$.unblockUI();
+    		$("#content").html(data);
+	        //$("#content").append('<div class="debug" style="margin:10px 0; position:fixed; bottom:0; right:10px"><a href="'+pageUrl+'" target="_blank">'+pageUrl+'</a></div>');
+    		hashPageLoaded();
+
+    		try {
+	    		if(ga_send_pageview_ajax) {ga_send_pageview_ajax();} //google analysis
+    		} catch(err) {}
+
+    	}).fail(function (jqXHR, textStatus, errorThrown) { alert(jqXHR.status + " : " + textStatus + " : " + errorThrown); }).always($.unblockUI);
+    }
+});
+
+var appRouter = new AppRouter;
+$(document).ready(function(){
+	Backbone.history.start({ pushState: true, root: '/' });
+	
+	$(document).on('click', 'a.ajax[href]', function(e) {
+		e.preventDefault();
+		var href = $(e.currentTarget).attr('href');
+		//console.log('click ' + href);
+		if(s.startsWith(href,"?")) {
+			//console.log('window.location.pathname ' + window.location.pathname);
+			href = window.location.pathname + href;
+		}
+		Backbone.history.navigate(href, { trigger: true });
+	});		
+});
+
+
+function hashPageLoaded() {
+	resizeMainLayout();
+	
+	$("#layer_kakju_detial").hide();
+	
+	update_i18_viewrIcon();
+	/*
+	var hasUrl = Backbone.history.getFragment();
+	var paramObj = getUrlParam(hasUrl);
+	if(paramObj.wordHL || paramObj.solrQ) {
+		var $hlmark = $("#content em.hl1");
+		if($hlmark.size()>0) {
+			scrollToVisibleNode($hlmark[0], ".content--scroll1", 10);
+		}
+	}
+	*/
+}
+
+function update_i18_viewrIcon() {
+		
+}
+
+function changeLocationHash(paramName, paramVal, triggerYN) {
+	triggerYN = triggerYN || 'Y';
+	
+	var hasUrl = Backbone.history.getFragment();
+	hasUrl = getChangeQueryParam(hasUrl, paramName, paramVal);
+    appRouter.navigate('/'+hasUrl, { trigger: triggerYN=='N'?false:true });
+}
+
+function changeFirstIndexHash(paramName, paramVal) {
+	var hasUrl = Backbone.history.getFragment();
+	hasUrl = getChangeQueryParam(hasUrl, "pageIndex", "1"); //hasUrl = querySt2(hasUrl,"pageIndex", "1");	
+	hasUrl = getChangeQueryParam(hasUrl, paramName, paramVal);
+    appRouter.navigate('/'+hasUrl, { trigger: true });;
+}
+
+function changeLocationMapHash(paramMap) {
+	var hasUrl = Backbone.history.getFragment();
+	
+	_.each(paramMap, function(value,key,list) {
+		hasUrl = getChangeQueryParam(hasUrl, key, value);
+	});
+	
+	appRouter.navigate('/'+hasUrl, { trigger: true });
+}
+
+function navigate(url) {
+	appRouter.navigate('/'+url, { trigger: true });
+}
+
+</script>
+
+<div id="snb">
+
+<div class="wrap__snb">
+	<div class="snb__top"><h2>통합대장경</h2></div>
+	<div class="snb--scroll">
+		<nav class='tree'>
+		<ul>
+		
+		
+		
+			<li data-cate="bookName">
+				<a>경명순</a>
+				<div class="treeWarp">
+					<ul class="vctree V1 V2 V3">
+						<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=Z&dataId='><i title='전체'>전체</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=Z&dataId=}</li></ul>
+</li>
+<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=A&dataId='><i title='가'>가</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=A&dataId=}</li></ul>
+</li>
+<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=B&dataId='><i title='나'>나</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=B&dataId=}</li></ul>
+</li>
+<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=C&dataId='><i title='다'>다</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=C&dataId=}</li></ul>
+</li>
+<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=D&dataId='><i title='라'>라</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=D&dataId=}</li></ul>
+</li>
+<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=E&dataId='><i title='마'>마</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=E&dataId=}</li></ul>
+</li>
+<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=F&dataId='><i title='바'>바</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=F&dataId=}</li></ul>
+</li>
+<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=G&dataId='><i title='사'>사</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=G&dataId=}</li></ul>
+</li>
+<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=H&dataId='><i title='아'>아</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=H&dataId=}</li></ul>
+</li>
+<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=I&dataId='><i title='자'>자</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=I&dataId=}</li></ul>
+</li>
+<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=J&dataId='><i title='차'>차</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=J&dataId=}</li></ul>
+</li>
+<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=K&dataId='><i title='카'>카</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=K&dataId=}</li></ul>
+</li>
+<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=L&dataId='><i title='타'>타</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=L&dataId=}</li></ul>
+</li>
+<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=M&dataId='><i title='파'>파</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=M&dataId=}</li></ul>
+</li>
+<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=N&dataId='><i title='하'>하</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=N&dataId=}</li></ul>
+</li>
+<li data-code='' data-url ='?itemId=ABC_IT&cate=bookName&depth=1&upPath=O&dataId='><i title='기타'>기타</i>
+  <ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookName&depth=1&upPath=O&dataId=}</li></ul>
+</li>
+
+					</ul>
+				</div>
+			</li>
+			<li data-cate="bookNum">
+				<a>경번호순</a>
+				<div class="treeWarp">
+					<ul class="vctree V1 V2 V3 ajax">
+						<li class='fakeRoot' data-code='ABC_IT' data-url='?itemId=ABC_IT&cate=bookNum&depth=0&upPath=&dataId='>
+	<ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=bookNum&depth=0&upPath=&dataId=}</li></ul>
+</li>
+
+					</ul>
+				</div>
+			</li>
+			<li data-cate="clsCate">
+				<a>분류체계별</a>
+				<div class="treeWarp">
+					<ul class="vctree V1 V2 V3">
+						<li class='fakeRoot' data-code='ABC_IT' data-url='?itemId=ABC_IT&cate=clsCate&depth=0&upPath=&dataId='>
+	<ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=clsCate&depth=0&upPath=&dataId=}</li></ul>
+</li>
+
+					</ul>
+				</div>
+			</li>
+			<li data-cate="subject">
+				<a>주제별</a>
+				<div class="treeWarp">
+					<ul class="vctree V1 V2 V3">
+						<li class='fakeRoot' data-code='ABC_IT' data-url='?itemId=ABC_IT&cate=subject&depth=0&upPath=&dataId='>
+	<ul class='ajax'><li>{url:./treeAjax?itemId=ABC_IT&cate=subject&depth=0&upPath=&dataId=}</li></ul>
+</li>
+
+					</ul>
+				</div>
+			</li>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		</ul>
+		</nav>
+	</div>
+</div>
+
+</div>
+
+<script>
+
+var gSearchVO = {
+	rt: '',
+	pk: ''
+};
+
+function goPrint() {
+    var winpop = window.open(location.href+"&templateType=print", "_blank", "resizable=yes,scrollbars=yes,width=900,height=1000");
+    winpop.focus();
+}
+
+$(document).ready(function(){
+	/////////////////////////////////////////////////////////////////////////////////
+	// 신집성문헌 서지보기에서 라인맵 원문,번역문 체크박스 클릭시
+	$(document).on('click','.checkbox__wrap--small.seoji input:checkbox', function(e) {
+		e.preventDefault();
+		
+		var url = "/content/view?dataId="+$(this).data("kwId");
+		if($(this).attr('name')=='rt_T') {
+			url += "&rt=T";
+		} else {
+			url += "&rt=R";
+		}
+		
+		appRouter.navigate(url, { trigger: true })
+	});
+	
+	/////////////////////////////////////////////////////////////////////////////////
+	$(document).on('click','a.navi_prevnext_link[href]', function(e) {
+		e.preventDefault();
+
+		var href = $(e.currentTarget).attr('href');
+		if(href == '')
+			return;
+
+		var dataUrl = "view";
+		var wName = s.strLeft(window.location.href, '?');
+	    if(s.endsWith(wName,'content/seoji'))
+	    	dataUrl = "seoji";
+
+	    dataUrl+="?"+ s.strRight(href, '?');
+		var urlParamObj = getUrlParam(window.location.href);
+		if(urlParamObj.pk)
+			dataUrl +="&pk="+urlParamObj.pk;
+		if(urlParamObj.rt)
+			dataUrl +="&rt="+urlParamObj.rt;
+		appRouter.navigate("/content/"+dataUrl, { trigger: true });
+	});
+
+	/////////////////////////////////////////////////////////////////////////////////
+	$(document).on('click','a.pop_link[href]', function(e) {
+		var href = $(e.currentTarget).attr('href');
+		if(href == '')
+			return;
+
+		var wName = s.strLeft(href, '?');
+	    if(s.endsWith(wName,'viewer/view'))
+	    	return;
+	    wName = s.strRightBack(wName,'/');
+	    //console.log(wName);
+
+	    e.preventDefault();
+
+	    popWin(href, wName, 900, 900);
+	});
+	
+	/////////////////////////////////////////////////////////////////////////////////
+	// 본문에서 통합뷰어 호출
+	$(document).on('click','button[data-xsl-kid]', function(e) {
+		var kid = $(this).data("xslKid");
+		//console.log("kid", kid);
+		if(!kid)
+			return;
+		
+		window.open("/viewer/view?dataId="+gSearchVO.dataId+"&imgId="+kid,"_blank");
+	});
+	
+	update_i18_viewrIcon();
+	
+	/////////////////////////////////////////////////////////////////////////////////
+	/*
+	// tab on/off
+	$('.tab--common_ns li').click(function(){
+		$('.common--tabview').not($('.cont__'+$(this).attr("id"))).hide();
+		$('.cont__'+$(this).attr("id")).fadeIn('fast');
+	
+		$('.tab--common_ns li').not($(this)).removeClass('selected');
+		$(this).addClass('selected');
+	});
+	*/
+
+	/////////////////////////////////////////////////////////////////////////////////
+
+	$(document).on('click','.cont_view_util .checkbox__wrap--small input:checkbox', function(e) {
+		var itemId = $('.common--tabview .list__pr').attr('data-item-id');
+		
+		var $rt_T = $('.checkbox__wrap--small input:checkbox[name="rt_T"]');
+		var $rt_R = $('.checkbox__wrap--small input:checkbox[name="rt_R"]');
+		
+		var rt_T_valid = $rt_T.attr('data-valid-rt') == 'true';
+		var rt_R_valid = $rt_R.attr('data-valid-rt') == 'true';
+		
+		if(!rt_T_valid || !rt_R_valid) {
+			e.preventDefault();
+			return;
+		}
+	
+		var chnageBJ_RT = ''; 
+		if((itemId == 'ABC_BJ' || itemId == 'ABC_NC') && gSearchVO.pk!='K') {
+			if($(this).attr('name')=='rt_T') {
+				if($(this).prop('checked')) {
+					$('.checkbox__wrap--small input:checkbox[name="rt_R"]').prop('checked',false);
+					$(".list__pr.ch").removeClass("hide");
+					$(".list__pr.ko").addClass("hide");
+					
+					$(".jusok__list ol[data-jusok-rt='T']").removeClass("hide");
+					$(".jusok__list ol[data-jusok-rt='R']").addClass("hide");
+					
+					changeLocationHash('rt','T', 'N');
+				} else {
+					e.preventDefault();
+				}
+			} else {
+				if($(this).prop('checked')) {
+					$('.checkbox__wrap--small input:checkbox[name="rt_T"]').prop('checked',false);
+					$(".list__pr.ko").removeClass("hide");
+					$(".list__pr.ch").addClass("hide");
+					
+					$(".jusok__list ol[data-jusok-rt='R']").removeClass("hide");
+					$(".jusok__list ol[data-jusok-rt='T']").addClass("hide");
+					
+					changeLocationHash('rt','R', 'N');
+				} else {
+					e.preventDefault();
+				}
+			}
+		} else {
+			if($(this).attr('name')=='rt_T') {
+				if($(this).prop('checked')) {
+					$(".list__pr dl dt.ch").removeClass("hide");
+					$(".jusok__list ol[data-jusok-rt='T']").removeClass("hide");
+				} else {
+					if(!$rt_R.prop('checked')) {
+						e.preventDefault();
+						return;
+					}
+					$(".list__pr dl dt.ch").addClass("hide");
+					$(".jusok__list ol[data-jusok-rt='T']").addClass("hide");
+				}
+			} else {
+				if($(this).prop('checked')) {
+					$(".list__pr dl dt.ko").removeClass("hide");
+					$(".jusok__list ol[data-jusok-rt='R']").removeClass("hide");
+				} else {
+					if(!$rt_T.prop('checked')) {
+						e.preventDefault();
+						return;
+					}
+					$(".list__pr dl dt.ko").addClass("hide");
+					$(".jusok__list ol[data-jusok-rt='R']").addClass("hide");
+				}
+			}
+		}
+	});
+}); // <-- ready function
+
+
+$(document).ready(function(){
+	/*
+	$('#content,.view_content').on("click", ".dci-pane a[data-dci-copy]", function() {
+		$("#layer_dci_copy .poptit span").text("DCI복사");
+		$("#layer_dci_copy .popcontent_mark textarea").text($(this).data("dciCopy"));
+		$("#layer_dci_copy").css("top", $(this).offset().top + 20);
+		$("#layer_dci_copy").css("left", $(this).offset().left - 350);
+		$("#layer_dci_copy").show();
+	});
+	$('#content,.view_content').on("click", ".dci-pane a[data-url-copy]", function() {
+		$("#layer_dci_copy .poptit span").text("URL복사");
+		
+		var linkUrl = "http://"+location.host;
+		if(g_contextPath)
+			linkUrl += s.rtrim(g_contextPath,'/');
+		
+		if($(this).hasClass("dci-url-type"))
+			linkUrl+="/inLink?DCI=";
+		else
+			linkUrl+="/inLink?dataId=";
+			
+		$("#layer_dci_copy .popcontent_mark textarea").text(linkUrl+$(this).data("urlCopy")); //s.strLeftBack(location.href, '?')+"?dataId="+$(this).data("urlCopy")
+		
+		$("#layer_dci_copy").css("top", $(this).offset().top + 20);
+		$("#layer_dci_copy").css("left", $(this).offset().left - 350);
+		$("#layer_dci_copy").show();
+	});
+
+	$("#layer_dci_copy .closebtn").click(function(){
+		$("#layer_dci_copy").hide();
+	});
+	*/
+	
+	$("#content").on("click", "span[data-jusok-junum]", function(e) {//본문주석클릭
+		$("#content .focus").removeClass("focus");
+	
+    	var $node = $("#content .jusok__list li[data-jusok-desc-junum='"+$(this).data("jusokJunum")+"']");
+		$node.find(".desc").addClass("focus");
+		if($node.size()>0) {
+			if($(".content--scroll1").length>0)
+				scrollToVisibleNode($node[0], ".content--scroll1", 10, 5);
+			else
+				scrollToVisibleNode($node[0], window, 10, 5);
+		}
+	});
+
+	$("#content").on("click", ".jusok__list li[data-jusok-desc-junum]", function(e) {//하단주석설명제목 클릭
+		$("#content .focus").removeClass("focus");
+	
+		var $node = $("#content span[data-jusok-junum='"+$(this).data("jusokDescJunum")+"']");
+		$node.addClass("focus");
+		if($node.size()>0) {
+			if($(".content--scroll1").length>0)
+				scrollToVisibleNode($node[0], ".content--scroll1", 10, 5);
+			else
+				scrollToVisibleNode($node[0], window, 10, 5);
+		}
+	});
+
+	$("#content").on("mouseenter mouseleave", "span[data-jusok-junum], span[data-jusok-type='참조'], span[data-jusok-type='교감주'], span[data-jusok-type='원문주']", function(e) {//본문주석 hover
+	    if (e.type == "mouseenter") {
+			e.preventDefault();
+	    	
+			var juText = '';
+			if($(this).data("jusokType") == '참조' || $(this).data("jusokType") == '교감주' || $(this).data("jusokType") == '원문주')
+				juText = $(this).find(".desc-jusok-ref").html();
+			else
+	    		juText = $("#content .jusok__list li[data-jusok-desc-junum='"+$(this).data("jusokJunum")+"']").html();
+	    	if(!juText)
+	    		return;
+
+			$("#layer_kakju_detial .mark_num").text($(this).data("jusokJunum"));
+			$("#layer_kakju_detial .mark_name").text($(this).data("jusokType")?$(this).data("jusokType"):"주석");
+			$("#layer_kakju_detial .popcontent_mark .cont_txt").html(juText);
+	    	
+	    	var txt_area_width = 298;
+	    	if(juText.length>800) txt_area_width = 600;
+	    	else if(juText.length>450) txt_area_width = 600;
+	    	else if(juText.length>200) txt_area_width = 400;
+
+	    	$("#layer_kakju_detial").css("width", txt_area_width);
+	    	
+			var pageX = e.pageX + 5;
+	    	var pageY = e.pageY + 5;
+	    	//console_log("pageX="+pageX+",layer_kakju_detial="+$("#layer_kakju_detial").width()+",content.offset.x="+$("#content").offset().left+",content.width="+$("#content").width());
+	    	if((pageX+$("#layer_kakju_detial").width())>($("#content").offset().left+$("#content").width()-20))
+				pageX = ($("#content").offset().left+$("#content").width()) - $("#layer_kakju_detial").width()-20;
+	    	if((pageY+$("#layer_kakju_detial").height())>($("#content").offset().top+$("#content").height()-10))
+	    		pageY = ($("#content").offset().top+$("#content").height()) - $("#layer_kakju_detial").height()-10;
+	    		
+	    	//console.log(pageY, pageX);
+			$("#layer_kakju_detial").css("top", pageY);
+			$("#layer_kakju_detial").css("left", pageX);
+			$("#layer_kakju_detial").show();
+	    } else { // mouseleave
+	       	e.preventDefault();
+			$("#layer_kakju_detial").hide();
+	    }
+	});
+});
+</script>
+
+<script src="/resources/libs/clipboard/clipboard.min.js"></script>
+<script>
+var clipboard = new ClipboardJS('.wrap__url button', {
+    text: function() {
+    	var href = window.location.href;
+		var urlParamObj = getUrlParam(href);
+		
+		var ret_url = s.strLeft(href, '?')+"?dataId="+toRealDataId(urlParamObj.dataId);
+		if(urlParamObj.itemId)
+			ret_url+="&itemId="+urlParamObj.itemId;
+		if(urlParamObj.rt)
+			ret_url+="&rt="+urlParamObj.rt;
+		if(urlParamObj.pk)
+			ret_url+="&pk="+urlParamObj.pk;
+
+		alert('URL정보가 클립보드에 복사되었습니다.');
+		return ret_url;
+    }
+});
+</script>
+
+
+
+
+<section id="layer_kakju_detial" class="pop_mark" style="display:none; width:400px">
+	<header class="pophead_mark">
+		<span class="poptit"><strong>+</strong><span class="mark_name">주석</span></span>
+		<div class="mark_num"></div>
+	</header>
+	<div class="popcontent_mark">
+		<div class="cont_txt" style="overflow:auto;max-width:600px; max-height:500px">
+			[내용영역]
+		</div>
+	</div>
+</section>
+
+
+
+		
+		<section id="content">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+@media print { .media_screen {display:none;} }
+
+</style>
+
+<script>
+
+
+gSearchVO.rt = '';
+gSearchVO.pk = 'P';
+gSearchVO.ganada = 'G';
+gSearchVO.dataId = 'ABC_IT_K1493_T_001';
+
+$(document).ready(function(){
+	if(s.count('ABC_IT_K1493_T_001','^')>0) {
+		_.delay(moveToTitle,500,'ABC_IT_K1493_T_001');
+	} else if(''!='') {
+		_.delay(moveToPara,500,'');
+	} else if(false) {
+		_.delay(goNextHL,500);
+	}
+	
+	var itemId = $('.common--tabview .list__pr').attr('data-item-id');
+	if((itemId == 'ABC_BJ'|| itemId == 'ABC_NC') && gSearchVO.pk!='K') {
+		if(gSearchVO.rt=='R') {
+			$(".list__pr.ch").addClass("hide");
+			$(".jusok__list ol[data-jusok-rt='T']").addClass("hide");
+		} else {
+			$(".list__pr.ko").addClass("hide");
+			$(".jusok__list ol[data-jusok-rt='R']").addClass("hide");
+		}
+	}
+	/*
+	else {
+		if(gSearchVO.rt=='R') {
+			$(".list__pr dl dt.ch").addClass("hide");
+			$(".jusok__list ol[data-jusok-rt='T']").addClass("hide");
+		} else {
+			$(".list__pr dl dt.ko").addClass("hide");
+			$(".jusok__list ol[data-jusok-rt='R']").addClass("hide");
+		}
+	}
+	*/
+	
+	if($(".jusok__list ol[data-jusok-rt='R'] li").length<=0) {
+		$(".jusok__list ol[data-jusok-rt='R']").remove();
+	}
+	if($(".jusok__list ol[data-jusok-rt='T'] li").length<=0) {
+		$(".jusok__list ol[data-jusok-rt='T']").remove();
+	}
+	if($(".jusok__list ol[data-jusok-rt] li").length<=0) {
+		$(".jusok__list").remove();
+	}
+});
+
+function addRemoveClass_line() {
+	if(gPersonOpt.viewLine=='Y')	$(".common--tabview").addClass('viewopt_line');
+	else							$(".common--tabview").removeClass('viewopt_line');
+}
+
+function addRemoveClass_pmark() {
+	if(gPersonOpt.viewPmark=='Y')	$(".common--tabview").addClass('viewopt_pmark');
+	else							$(".common--tabview").removeClass('viewopt_pmark');
+}
+
+function addRemoveClass_kakju() {
+	if(gPersonOpt.viewKakju=='Y')	$(".common--tabview").addClass('viewopt_kakju');
+	else							$(".common--tabview").removeClass('viewopt_kakju');
+}
+
+function addRemoveClass_funBtn() {
+	if(gPersonOpt.viewFun=='Y')		$(".common--tabview").addClass('viewopt_funbtn');
+	else							$(".common--tabview").removeClass('viewopt_funbtn');
+}
+
+function getCopySeojiTailTxt() {
+	if(gPersonOpt.copyUse!='Y')
+		return '';
+	
+	var txt = "";
+	switch(gPersonOpt.copyType) {
+	case 'A':
+		txt = '\n『사사법오십송』 1권(ABC, K1493)';
+		break;
+	case 'B':
+		txt = '\n『事師法五十頌』 1권(ABC, K1493)';
+		break;
+	case 'C':
+		txt = '\n『사사법오십송』 1권(K.)';
+		break;
+	case 'D':
+		txt = '\n『事師法五十頌』 1권(K.)';
+		break;
+	}
+	return txt;
+}
+
+var gPersonOpt = {
+		viewLine: 'N',
+		viewPmark: 'Y',
+		viewKakju: 'Y',
+		viewFun: 'Y',
+		copyUse: 'Y',
+		copyType: 'A',
+	};
+
+if(localStorage && localStorage.gPersonOpt) {
+	gPersonOpt = JSON.parse(localStorage.gPersonOpt);
+}
+
+
+function saveStorage() {
+	localStorage.gPersonOpt = JSON.stringify(gPersonOpt);
+}
+
+$(document).ready(function(){
+	$("#content").bind('copy', function(e) {
+		if(gPersonOpt.copyUse!='Y')
+			return;
+		copySelectText(e);
+		e.preventDefault();
+	});
+	
+	$("#viewLine").click(function(e) {
+		gPersonOpt.viewLine = $(this).prop("checked")?'Y':'N';
+		addRemoveClass_line();
+		saveStorage();
+	})
+	$("#viewPmark").click(function(e) {
+		gPersonOpt.viewPmark = $(this).prop("checked")?'Y':'N';
+		addRemoveClass_pmark();
+		saveStorage();
+	})
+	$("#viewKakju").click(function(e) {
+		gPersonOpt.viewKakju = $(this).prop("checked")?'Y':'N';
+		addRemoveClass_kakju();
+		saveStorage();
+	})
+	$("#viewFun").click(function(e) {
+		gPersonOpt.viewFun = $(this).prop("checked")?'Y':'N';
+		addRemoveClass_funBtn();
+		saveStorage();
+	})
+	
+	$("#copyUse").click(function(e) {
+		gPersonOpt.copyUse = $(this).prop("checked")?'Y':'N';
+		saveStorage();
+	})
+	$("input:radio[name='copyType']").click(function(e) {
+		gPersonOpt.copyType = $("input:radio[name='copyType']:checked").val();
+		saveStorage();
+	})
+
+	$("#viewLine").prop("checked", gPersonOpt.viewLine=='Y');
+	$("#viewPmark").prop("checked", gPersonOpt.viewPmark=='Y');
+	$("#viewKakju").prop("checked", gPersonOpt.viewKakju=='Y');
+	$("#viewFun").prop("checked", gPersonOpt.viewFun=='Y');
+	$("#copyUse").prop("checked", gPersonOpt.copyUse=='Y');
+	$("input:radio[name='copyType'][value='"+gPersonOpt.copyType+"']").prop("checked",true);
+
+	addRemoveClass_line();
+	addRemoveClass_pmark();
+	addRemoveClass_kakju();
+	addRemoveClass_funBtn();
+});
+</script>
+
+
+<div class="wrap__page--util cont_view_util">
+	<div class="wrap__page__left">
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	<nav class="disabled">
+		<ul>
+			
+			
+			
+				<li class="first disabled" title="검색결과 중 맨앞으로"><a></a></li>
+			
+			
+			
+			
+			
+				<li class="prev disabled" title="검색결과 중 이전으로"><a></a></li>
+			
+			
+			
+			
+			
+				<li class="next disabled" title="검색결과 중 다음으로"><a></a></li>
+			
+			
+			
+			
+			
+				<li class="last disabled" title="검색결과 중 맨끝으로"><a></a></li>
+			
+			
+			
+			
+			
+			
+				<li class="z1 disabled" title="검색결과로 빨리가기"><a></a></li>
+			
+			
+			
+			<li class="z2 disabled" title="검색결과 목록으로"><a></a></li>
+		</ul>
+	</nav>
+	
+
+	
+
+		<nav class="only--text">
+			<ul>
+				
+
+			
+			
+			
+				<li><a class="pop_link" href="/content/pop_seoji?dataId=ABC_IT_K1493" target="_blank">서지</a></li>
+				<li>
+					
+					
+					<a class="disabled">해제</a>
+					
+				</li>
+			
+			
+
+			
+			</ul>
+		</nav>
+	</div>
+
+	<div class="wrap__page__right">
+		<nav>
+			<ul>
+				<li>
+					
+					 
+					
+					
+					<label class="checkbox__wrap--small ">
+						<input type="checkbox" name='rt_T' checked data-valid-rt="true" /><span class="ico"></span>원문
+					</label>
+				</li>
+				<li>
+					
+					
+					
+					<label class="checkbox__wrap--small ">
+						<input type="checkbox" name='rt_R' checked data-valid-rt="true" /><span class="ico"></span>번역문
+					</label>
+				</li>
+				
+				
+				<li><a class="pop_link" href="/viewer/view?dataId=ABC_IT_K1493_T_001" target="_blank">원문이미지</a></li>
+				
+				
+			</ul>
+		</nav>
+
+		<nav>
+			<ul>
+				<li class="text--zoom--in"><a onclick="fontSize('+')"></a></li>
+				<li class="text--zoom--reset"><a onclick="fontSize('')"></a></li>
+				<li class="text--zoom--out"><a onclick="fontSize('-')"></a></li>
+			</ul>
+		</nav>
+
+		<nav>
+			<ul>
+				<li class="c02">
+					<span class="btngrp c02">
+						<a>개인화</a>
+						<span class="btn_wrap pop_mark2 personal_opt">
+							<ol>
+								<li class="tit">보기</li>
+								<li class="viewOpt">
+									<input type='checkbox' id="viewLine" value='Y'><label for="viewLine"> 라인정보</label>
+									<input type='checkbox' id="viewPmark" value='Y'><label for="viewPmark"> 표점</label>
+									<input type='checkbox' id="viewKakju" value='Y'><label for="viewKakju"> 각주</label>
+									<input type='checkbox' id="viewFun" value='Y'><label for="viewFun"> 기능버튼</label>
+								</li>
+							</ol>
+							<ol>
+								<li class="tit"><input type='checkbox' id="copyUse" value='Y'><label for="copyUse"> 인용표기</label></li>
+								<li>
+									<input type='radio' name="copyType" id="copyType_A" value='A'> <label for="copyType_A">경명+상세정보</label>
+									<span>『불설장아함경』 1권(ABC, K0647 v17, p.815a21-a22)</span>
+								</li>
+								<li>
+									<input type='radio' name="copyType" id="copyType_B" value='B'> <label for="copyType_B">經名+상세정보</label>
+									<span>『佛說長阿含經』 1권(ABC, K0647 v17, p.815a21-a22)</span>
+								</li>
+								<li>
+									<input type='radio' name="copyType" id="copyType_C" value='C'> <label for="copyType_C">경명+간략정보</label>
+									<span>『불설장아함경』 1권(K.17, p815a21-a22)</span>
+								</li>
+								<li>
+									<input type='radio' name="copyType" id="copyType_D" value='D'> <label for="copyType_D">經名+간략정보</label>
+									<span>『佛說長阿含經』 1권(K.17, p815a21-a22)</span>
+								</li>
+							</ol>
+						</span>
+					</span>
+				</li>
+			</ul>
+		</nav>
+		
+		<nav>
+			<ul>
+				<li class="print"><a onclick="goPrint()"></a></li>
+			</ul>
+		</nav>
+
+		<nav>
+			<ul>
+				<li class="c01"><a onclick="popWin('/board/errWrite?openType=pop','_blank', 900, 880)">오류신고</a></li>
+			</ul>
+		</nav>
+
+		<nav>
+			<ul>
+				<li class="totop"><a></a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+
+<div class="tit__section tit__section--small">
+	<h2>事師法五十頌 
+		
+	</h2>
+	
+	
+	<div class="tit__section__option tab--common_ns">
+		<ul>
+			<li id="view1" class="selected"><a onclick="changeLocationHash('pk', 'P')">단락보기</a></li>
+			<li id="view2" class=""><a onclick="changeLocationHash('pk', 'K')">경판보기</a></li>
+		</ul>
+	</div>
+	
+</div>		
+
+<div class="content--scroll1">
+
+	<div class="wrap__url">
+		ABC_IT_K1493_T_001
+		<button type="button">URL복사</button>
+	</div>
+	
+	<div class="common--tabview text-font-change viewopt_pmark viewopt_funbtn viewopt_kakju " data-mode-pk="P" data-mode-rt="">
+		
+		
+		
+			<div class="list__pr ch" data-item-id="ABC_IT">
+				
+				
+					<div data-xsl-modepk="P" data-xsl-tag="원문" class="xsl_body">
+<dl data-xsl-tag="단락묶음">
+<span class="btns"><button data-xsl-kid="041_0612_b" type="button">통합뷰어</button></span>
+<dt data-xsl-paranum="0001R" data-xsl-type="번역문" data-xsl-tag="단락" class="ko">
+<span class="para_line" data-xsl-tag="경판">041_0612_b_01L</span><span data-xsl-lineid="041_0612_b_01L"></span>사사법오십송(事師法五十頌)<br data-xsl-tag="br">
+<br data-xsl-tag="br">
+<br data-xsl-tag="br">마명(馬鳴)보살 모음<br data-xsl-tag="br">일칭(日稱) 등 한역<br data-xsl-tag="br">김진철 번역<br data-xsl-tag="br">
+<br data-xsl-tag="br">
+<br data-xsl-tag="br">모든 경과 율의 비밀한 가르침에 의하여<br data-xsl-tag="br">간략히 스승의 의궤를 받들어 내오니<br data-xsl-tag="br">듣고 나면 좋아하며 맑은 마음 내어서<br data-xsl-tag="br">마땅히 여래의 금강 지혜 얻으리.<br data-xsl-tag="br">
+<br data-xsl-tag="br">만일 관정하시는 스승께<br data-xsl-tag="br">세 때에 받들어 예를 올리면<br data-xsl-tag="br">곧 이미 시방의 모든 여래께<br data-xsl-tag="br">공양하는 것이 되리라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">가장 으뜸가는 공경 일으켜<br data-xsl-tag="br">꽃을 가지고 합장하며<br data-xsl-tag="br">저 만다라에 뿌리고<br data-xsl-tag="br">머리를 발에 대어 예를 올리라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">그 스승이 재가 법사이거나<br data-xsl-tag="br">혹은 구족계(具足戒) 받은지 얼마 안 되어도<br data-xsl-tag="br">경상(經像)을 둔 앞에서는<br data-xsl-tag="br">모든 의심과 비방 그쳐야 하네.<br data-xsl-tag="br">
+<br data-xsl-tag="br">만일 출가한 제자라면<br data-xsl-tag="br">언제나 청정한 마음으로 받들어 섬기며<br data-xsl-tag="br">오직 예를 드릴 때만 제외하고<br data-xsl-tag="br">앉아 있다가도 일어나 맞이하여야 한다.<br data-xsl-tag="br">
+<br data-xsl-tag="br">그 스승과 제자는<br data-xsl-tag="br">서로 그 근기를 살필 것이며<br data-xsl-tag="br">만약 먼저 관찰하지 아니하면<br data-xsl-tag="br">같이 월법죄(越法罪)를 얻게 되리라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">만약 성내고 자비 없거나<br data-xsl-tag="br">탐욕과 애착 많아 산란하면<br data-xsl-tag="br">오만하게 종족을 바꾸어 믿으니<br data-xsl-tag="br">지혜로써 마땅히 간택해야 한다.<br data-xsl-tag="br">
+<br data-xsl-tag="br">계와 인욕과 비지(悲智)를 갖추며 <br data-xsl-tag="br">존중하여 아첨하거나 왜곡됨 없게 하고<br data-xsl-tag="br">비밀의 의범(儀範)을 잘 알면<br data-xsl-tag="br">널리 모든 논의를 쉬리라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">진언상(眞言相)이라든가<br data-xsl-tag="br">만다라[曼挐羅]의 사업을 잘 통달하면 <br data-xsl-tag="br">10진여(眞如)를 계합하여 증득하니<br data-xsl-tag="br">모든 근(根)이 다 청정해지리라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">만약 저 법을 구하는 이가<br data-xsl-tag="br">스승을 가벼이 여기거나 헐뜯으면<br data-xsl-tag="br">곧 모든 여래를 비방함이 되고<br data-xsl-tag="br">언제나 온갖 고뇌를 받으리라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">어리석음의 힘이 늘어남으로 말미암아<br data-xsl-tag="br">현재에 과보를 받고<br data-xsl-tag="br">나쁜 별[惡曜]에 붙들려서[執持] <br data-xsl-tag="br">중병에 서로 얽어 매어지며,<br data-xsl-tag="br">
+<br data-xsl-tag="br">왕법(王法)에 핍박받고 <br data-xsl-tag="br">또 독사에 물려 상처입으며,<br data-xsl-tag="br">원수와 도적, 물과 불의 환난 있고<br data-xsl-tag="br">사람 아닌 것[非人]이 그 편리를 얻으며<br data-xsl-tag="br">
+<br data-xsl-tag="br">저 비나야가(頻那夜迦)가<br data-xsl-tag="br">언제나 모든 장애를 만들며<br data-xsl-tag="br">이로부터 목숨을 마치게 되면<br data-xsl-tag="br">바로 악도에 떨어지리니<br data-xsl-tag="br">
+<br data-xsl-tag="br">아사리[阿闍黎] 조금이라도<br data-xsl-tag="br">번거롭게 괴롭혀서는 안되느니라.<br data-xsl-tag="br">지혜 없는 일 서로 위배되어<br data-xsl-tag="br">반드시 아비지옥에 떨어지리라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">갖가지로 극한 고통 받는 것은<br data-xsl-tag="br">말로 설하기도 매우 두렵네.<br data-xsl-tag="br">아사리 비방함으로 말미암아<br data-xsl-tag="br">지옥에 언제나 머무르게 되리.<br data-xsl-tag="br">
+<br data-xsl-tag="br">저 아사리라고 함은<br data-xsl-tag="br">널리 정법의 창고를 지녔으니<br data-xsl-tag="br">이런 까닭에 마땅히 한 마음으로<br data-xsl-tag="br">가벼이 하거나 헐뜯지 말라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">항상 아사리를<br data-xsl-tag="br">받들어 섬기고 공양하며<br data-xsl-tag="br">존중하는 마음 낸다면<br data-xsl-tag="br">곧바로 장애가 제거되리라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">또 다시 스승 계신 곳에서<br data-xsl-tag="br">즐겨 희사(喜捨)를 행하고<br data-xsl-tag="br">자기 몸을 돌보지 않을진대<br data-xsl-tag="br">하물며 재물이겠는가.<br data-xsl-tag="br">
+<br data-xsl-tag="br">한량없는 억겁(億劫)에<br data-xsl-tag="br">용맹스레 부지런히 닦고 익히어<br data-xsl-tag="br">지금 비로소 보리를 증득하기란<br data-xsl-tag="br">이것이 지극히 희유함이라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">그 깊은 서원을 잘 보호하여<br data-xsl-tag="br">모든 여래를 공양하고<br data-xsl-tag="br">아사리 공경하기를<br data-xsl-tag="br">모든 부처님과 동등하게 하라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">또한 자기가 가진 바<br data-xsl-tag="br">최상의 모든 보배 완구로<br data-xsl-tag="br">끝없는 보리 구하여<br data-xsl-tag="br">성심으로 받들어야 하느니라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">부처님 아사리께 보시하여<br data-xsl-tag="br">생각생각에 항상 늘여 나가면<br data-xsl-tag="br">이것이 가장 훌륭한 복전이라.<br data-xsl-tag="br">속히 보리과를 얻게 되리라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">이와 같이 법 구하는 자는<br data-xsl-tag="br">계와 인욕 갖춘 공덕으로<br data-xsl-tag="br">헛되이 스승 속이지 아니하면<br data-xsl-tag="br">마땅히 금강의 지혜 얻으리.<br data-xsl-tag="br">
+<br data-xsl-tag="br">만약 스승의 그림자를 밟으면<br data-xsl-tag="br">탑을 깨뜨림과 같은 죄 얻으리.<br data-xsl-tag="br">만약 앉은 자리나 생활 도구를<br data-xsl-tag="br">타고 넘으면 죄과가 더하리라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">만약 스승의 가르치심을<br data-xsl-tag="br">기뻐하여 마땅히 듣고 받으며<br data-xsl-tag="br">자기가 혹 능히 알지 못하면<br data-xsl-tag="br">곧 좋은 말로 아뢰어 여쭈어라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">스승을 의지하는 까닭에<br data-xsl-tag="br">하는 일이 다 성취되어<br data-xsl-tag="br">현재 안락하며 천계에 태어나는데<br data-xsl-tag="br">어찌 감히 그 명을 어기랴.<br data-xsl-tag="br">
+<br data-xsl-tag="br">스승의 재물 수호함을<br data-xsl-tag="br">마치 자기의 생명과 같이 여기고<br data-xsl-tag="br">저 옆에서 모시는 이는<br data-xsl-tag="br">어버이같이 항상 공경하여 받들라.<br data-xsl-tag="br">스승 앞에서는<br data-xsl-tag="br">일산을 쓰거나[覆頂] 수레를 타거나<br data-xsl-tag="br">발을 들거나 손을 허리에 얹지 말고<br data-xsl-tag="br">조용히 앉고 누울 것이다.<br data-xsl-tag="br">
+<br data-xsl-tag="br">혹은 사연이 있어 앉게 될 때에는<br data-xsl-tag="br">두 발을 펴지 말 것이요,<br data-xsl-tag="br">항상 모든 위의를 갖추고<br data-xsl-tag="br">스승이 일어나면 속히 일어나야 한다.<br data-xsl-tag="br">
+<br data-xsl-tag="br">만약 경행(經行)하는 곳에서는<br data-xsl-tag="br">마땅히 따라서 걸음을 걷지 아니하고<br data-xsl-tag="br">단정하고 삼가며 곁에 서서는<br data-xsl-tag="br">눈물 흘리거나 침을 뱉지 말라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">또 스승 앞에서는<br data-xsl-tag="br">사사로이 소근대거나<br data-xsl-tag="br">또 인근에서 떠들며 웃거나<br data-xsl-tag="br">노래하고 춤추며 소리치지 말라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">혹은 앉고 일어나는 데에<br data-xsl-tag="br">각각 조용하고 천천히 경례하며<br data-xsl-tag="br">만약 험한 길에서는<br data-xsl-tag="br">앞에서 인도할 것을 알릴지어다.<br data-xsl-tag="br">
+<br data-xsl-tag="br">또 마땅히 스승 앞에서는<br data-xsl-tag="br">몸이 피로한 모습을 드러내지 말며<br data-xsl-tag="br">손가락 마디를 꺾어 소리내거나<br data-xsl-tag="br">기둥이나 담장에 기대지 말아야 한다.<br data-xsl-tag="br">혹은 옷을 빨고 발을 씻으며<br data-xsl-tag="br">또 목욕하는 등의 일에서도<br data-xsl-tag="br">먼저 스승께 아뢰어 알게 하고<br data-xsl-tag="br">하는 것을 보이지 않게 할 것이다.<br data-xsl-tag="br">
+<br data-xsl-tag="br">또 다시 스승의 이름을<br data-xsl-tag="br">항상 불러서는 안되며<br data-xsl-tag="br">만약 굳이 묻는 이가 있으면<br data-xsl-tag="br">마땅히 한 글자씩 말할 것이다.<br data-xsl-tag="br">
+<br data-xsl-tag="br">스승이 혹 일거리를 시킬 일이 있으면<br data-xsl-tag="br">마땅히 그 일을 살펴서<br data-xsl-tag="br">심부름꾼을 보내며<br data-xsl-tag="br">그 하는 일에 대해서 항상 기억하며 잊지 말라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">혹은 웃고 휘파람 불거나 입 벌릴 때에는<br data-xsl-tag="br">곧 손으로 입을 막으며<br data-xsl-tag="br">만약 일이 있어 일깨움 들음에<br data-xsl-tag="br">마땅히 몸을 굽혀 부드럽게 말하라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">만약 세간에 있는 여인이<br data-xsl-tag="br">청정한 마음으로 와서 법을 들으면<br data-xsl-tag="br">합장하여 위의를 갖추고<br data-xsl-tag="br">오로지 스승의 얼굴만 볼 것이며<br data-xsl-tag="br">
+<br data-xsl-tag="br">듣고 나서 마땅히 받들어 지니되<br data-xsl-tag="br">교만을 여의어 버리고<br data-xsl-tag="br">항상 처음 시집갈 때와 같이<br data-xsl-tag="br">부끄러운 모습으로 얼굴을 숙이라.<br data-xsl-tag="br">저 몸을 장엄하는 도구는<br data-xsl-tag="br">다시 좋아하는 마음 내지 않으며<br data-xsl-tag="br">더불어 같이 상응하지 말고<br data-xsl-tag="br">다 멀리 여읠 것을 생각하라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">항상 스승의 덕을 사모하고<br data-xsl-tag="br">조그마한 허물도 엿보아서는 안되며<br data-xsl-tag="br">수순하여 성취를 얻을 것이요<br data-xsl-tag="br">허물을 찾으면 마땅히 스스로 손실된다.<br data-xsl-tag="br">
+<br data-xsl-tag="br">설법하여 제자를 제도함에는<br data-xsl-tag="br">만다라와 호마(護摩)를 하는데<br data-xsl-tag="br">성읍에서 스승과 같이 살며<br data-xsl-tag="br">가르침 없이는 하지 말아라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">혹은 설법하여 얻게 되는<br data-xsl-tag="br">청정한 보시의 모든 재물은<br data-xsl-tag="br">다 그 스승에게 받들어 올리고<br data-xsl-tag="br">그런 다음에야 사용할 수 있느니라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">같이 배우는 이와 법손(法孫)은<br data-xsl-tag="br">제자로 삼아서는 안되며<br data-xsl-tag="br">또 스승 앞에서는<br data-xsl-tag="br">받들어 공경하는 예를 받지 말아라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">만약 물건을 스승께 올리는데<br data-xsl-tag="br">두 손으로 받들어 올리며<br data-xsl-tag="br">스승이 혹 베푸시는 것이 있으면<br data-xsl-tag="br">항상 공경하여 이마까지 올려 받는다.<br data-xsl-tag="br">스스로 오로지 바른 행 닦아<br data-xsl-tag="br">항상 기억하여 잊지 아니하며<br data-xsl-tag="br">다른 이가 혹 율의(律儀)가 아니더라도<br data-xsl-tag="br">좋은 말로 서로 가르쳐 보여라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">만일 스승의 가르침을<br data-xsl-tag="br">혹 병에 연하여 행하지 못하면<br data-xsl-tag="br">마땅히 예를 드리고 아뢰어 올리면<br data-xsl-tag="br">이러한 것은 그 허물이 아니니라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">항상 스승을 기쁘게 하며<br data-xsl-tag="br">모든 번뇌의 일을 여의고<br data-xsl-tag="br">마땅히 부지런히 행하는 것은<br data-xsl-tag="br">번거로울까봐 말하지 않는다.<br data-xsl-tag="br">
+<br data-xsl-tag="br">저 금강여래께서<br data-xsl-tag="br">친히 이같이 말씀하시고<br data-xsl-tag="br">그 밖의 가르침에서도 밝힌 바라<br data-xsl-tag="br">스승에 의하여 성취를 얻느니라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">만약 제자가 청정하게<br data-xsl-tag="br">능히 3보에 귀의하면<br data-xsl-tag="br">설사 장차 명이 다할 때라도<br data-xsl-tag="br">법의 요점을 설해야 하느니라.<br data-xsl-tag="br">
+<br data-xsl-tag="br">또 비밀의 가르침 수여하여<br data-xsl-tag="br">정법의 그릇이 되게 하라.<br data-xsl-tag="br">만약 상(相)을 나타내어 지송한다면<br data-xsl-tag="br">마땅히 근본죄를 얻게 되리라.<br data-xsl-tag="br">만일 능히 스승 따라 행하고 배우면<br data-xsl-tag="br">곧 모든 공덕 이루게 되니<br data-xsl-tag="br">제가 모은 이 선한 인(因)으로<br data-xsl-tag="br">중생과 함께 속히 성불하기 원하옵니다.</dt>
+<dt data-xsl-paranum="0001T" data-xsl-type="원문" data-xsl-tag="단락" class="ch">
+<span class="para_line" data-xsl-tag="line">041_0612_b_01L</span><span data-xsl-lineid="041_0612_b_01L"></span>事師法五十頌<span data-jusok-type="원주" data-xsl-tag="주석">   馬嗚菩薩集</span><span data-xsl-lineid="041_0612_b_02L"></span>西天譯經三藏朝散大夫試鴻臚少卿宣梵大師賜紫沙門臣日稱等奉 詔譯<span data-xsl-lineid="041_0612_b_03L"></span>依諸經律袐密教 略出承事師儀軌<span data-xsl-lineid="041_0612_b_04L"></span>聞已愛樂發淨心 當獲如來金剛智<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_b_05L"></span>若於灌頂師    三時伸禮奉<span data-xsl-lineid="041_0612_b_06L"></span>則爲已供養    十方諸如來<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_b_07L"></span>起最上恭敬    合掌以持花<span data-xsl-lineid="041_0612_b_08L"></span>散彼曼挐羅    頭面接足禮<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_b_09L"></span>彼師或在家    及新受具戒<span data-xsl-lineid="041_0612_b_10L"></span>置經像於前    則息諸疑謗<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_b_11L"></span>若出家弟子    常淨心承事<span data-xsl-lineid="041_0612_b_12L"></span>已坐當起迎    唯除於致禮<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_b_13L"></span>彼師及弟子    當互審其器<span data-xsl-lineid="041_0612_b_14L"></span>若不先觀察    同得越法罪<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_b_15L"></span>若忿恚無慈    貪愛多散亂<span data-xsl-lineid="041_0612_b_16L"></span>傲易恃種族    以惠當揀擇<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_b_17L"></span>具戒忍悲智    尊重無諂曲<span data-xsl-lineid="041_0612_b_18L"></span>了祕密儀範    博閑諸論議<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_b_19L"></span>善達眞言相    曼挐羅事業<span data-xsl-lineid="041_0612_b_20L"></span>契證十眞如    諸根悉淸淨<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_b_21L"></span>若彼求法者    於師生輕毀<span data-xsl-lineid="041_0612_b_22L"></span>則謗諸如來    常得諸苦惱<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_b_23L"></span>由增上愚癡    而獲於現報<span data-xsl-lineid="041_0612_c_02L"></span>爲惡曜執持       重病相纏縛<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_c_03L"></span>王法所逼切       及毒蛇傷螫<span data-xsl-lineid="041_0612_c_04L"></span>冤賊水火難       非人得其便<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_c_05L"></span>彼頻那夜迦       常作諸障礙<span data-xsl-lineid="041_0612_c_06L"></span>從此而命終       卽墮於惡趣<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_c_07L"></span>勿令阿闍梨       少分生煩惱<span data-xsl-lineid="041_0612_c_08L"></span>無智相違背       定入阿鼻獄<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_c_09L"></span>受種種極苦       說之深可怖<span data-xsl-lineid="041_0612_c_10L"></span>由謗阿闍梨       於中常止住<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_c_11L"></span>彼阿闍梨者       弘持正法藏<span data-xsl-lineid="041_0612_c_12L"></span>是故當一心       輒莫生輕毀<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_c_13L"></span>常於阿闍梨       承事而供養<span data-xsl-lineid="041_0612_c_14L"></span>發生尊重心       則蠲除障惱<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_c_15L"></span>又復於師所       樂行於喜捨<span data-xsl-lineid="041_0612_c_16L"></span>不悋於己身       何況於財物<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_c_17L"></span>於無量億劫       勇猛勤修習<span data-xsl-lineid="041_0612_c_18L"></span>今始證菩提       斯極爲希有<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_c_19L"></span>善護其深誓       供養諸如來<span data-xsl-lineid="041_0612_c_20L"></span>恭敬阿闍梨       等同一切佛<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_c_21L"></span>若於己所有       最上諸珍玩<span data-xsl-lineid="041_0612_c_22L"></span>求無盡菩提       誠心而奉獻<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0612_c_23L"></span>施佛阿闍梨       念念常增長<span data-xsl-lineid="041_0612_c_24L"></span>是最勝福田       速得菩提果<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_a_02L"></span>如是求法者       具戒忍功德<span data-xsl-lineid="041_0613_a_03L"></span>不虛誑於師       當獲金剛智<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_a_04L"></span>若足踏師影       獲罪如破塔<span data-xsl-lineid="041_0613_a_05L"></span>於牀坐資具       騎驀罪過是<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_a_06L"></span>若師所教誨       歡喜當聽受<span data-xsl-lineid="041_0613_a_07L"></span>自己或不能       則善言啓白<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_a_08L"></span>由依止師故       所作皆成就<span data-xsl-lineid="041_0613_a_09L"></span>現樂及生天       何敢違其命<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_a_10L"></span>守護師財物       猶若己身命<span data-xsl-lineid="041_0613_a_11L"></span>於彼執侍人       如親常敬奉<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_a_12L"></span>不應於師前       覆頂及乘御<span data-xsl-lineid="041_0613_a_13L"></span>翹足手扠腰       安然而坐臥<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_a_14L"></span>或事緣令坐       勿舒於雙足<span data-xsl-lineid="041_0613_a_15L"></span>常具諸威儀       師起速當起<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_a_16L"></span>若於經行處       不應隨擧步<span data-xsl-lineid="041_0613_a_17L"></span>端謹立於傍       無棄於涕唾<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_a_18L"></span>亦勿於師前       私竊而言說<span data-xsl-lineid="041_0613_a_19L"></span>及鄰近語笑       歌舞作唱等<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_a_20L"></span>或令坐或起       各安徐禮敬<span data-xsl-lineid="041_0613_a_21L"></span>若於險路中       白已作前導<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_a_22L"></span>又不應於前       身現疲勞相<span data-xsl-lineid="041_0613_a_23L"></span>屈指節作聲       倚柱及牆壁<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_a_24L"></span>或浣衣濯足       及澡浴等事<span data-xsl-lineid="041_0613_b_02L"></span>先白師令知       所作無令見<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_b_03L"></span>又復於師名       不應輒稱擧<span data-xsl-lineid="041_0613_b_04L"></span>設有固問者       當示之一字<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_b_05L"></span>師或令幹集       當伺其遣使<span data-xsl-lineid="041_0613_b_06L"></span>於彼所作事       憶持常不忘<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_b_07L"></span>或笑嗽伸㰦       則以手遮口<span data-xsl-lineid="041_0613_b_08L"></span>若有事啓聞       當曲躬軟語<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_b_09L"></span>若在家女人       淨心來聽法<span data-xsl-lineid="041_0613_b_10L"></span>合掌具威儀       專眎於師面<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_b_11L"></span>聞已當奉持       捨離於憍慢<span data-xsl-lineid="041_0613_b_12L"></span>常如初適嫁       低顏其慚𧹞<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_b_13L"></span>於彼嚴身具       無復生愛樂<span data-xsl-lineid="041_0613_b_14L"></span>與善非相應       皆思惟遠離<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_b_15L"></span>常慕於師德       不應窺小過<span data-xsl-lineid="041_0613_b_16L"></span>隨順獲成就       求過當自損<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_b_17L"></span>說法度弟子       曼拏羅護摩<span data-xsl-lineid="041_0613_b_18L"></span>城邑同師居       無旨不應作<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_b_19L"></span>或說法所得       淨施諸財物<span data-xsl-lineid="041_0613_b_20L"></span>悉以奉其師       隨得而可用<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_b_21L"></span>同學及法裔       不應爲弟子<span data-xsl-lineid="041_0613_b_22L"></span>亦不於師前       受承事禮敬<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_b_23L"></span>若以物上師       二手持奉獻<span data-xsl-lineid="041_0613_b_24L"></span>師或有所施       當恭敬頂受<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_c_02L"></span>自專修正行       常憶持不忘<span data-xsl-lineid="041_0613_c_03L"></span>他或非律儀       愛語相教示<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_c_04L"></span>若師所教勅       或病緣不作<span data-xsl-lineid="041_0613_c_05L"></span>當作禮咨陳       斯則無其咎<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_c_06L"></span>常令師歡喜       離諸煩惱事<span data-xsl-lineid="041_0613_c_07L"></span>當勤而行之       恐繁故不述<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_c_08L"></span>彼金剛如來       親如是宣說<span data-xsl-lineid="041_0613_c_09L"></span>及餘教所明       依師獲成就<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_c_10L"></span>若弟子淸淨       能歸依三寶<span data-xsl-lineid="041_0613_c_11L"></span>設使命將終       亦爲宣法要<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_c_12L"></span>及授祕密教       令作正法器<span data-xsl-lineid="041_0613_c_13L"></span>若現相誦持       當獲根本罪<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_c_14L"></span>若能隨順師行學 則成一切諸功德<span data-xsl-lineid="041_0613_c_15L"></span>以我所集斯善因 願與衆生速成佛<span data-xsl-tag="pmark">。</span><span data-xsl-lineid="041_0613_c_16L"></span>事師法五十頌<span data-xsl-lineid="041_0613_c_17L"></span>甲辰歲高麗國大藏都監奉勅彫造</dt>
+</dl>
+</div>
+
+					
+					
+				
+				
+				
+			</div>
+		
+		
+		
+		<div class="jusok__list">
+			<ol data-jusok-rt="R"></ol><ol data-jusok-rt="T"></ol>
+
+			
+			
+			<!--ol>
+				<li><span class="num">1)</span> 각주내용1</li>
+			</ol -->
+		</div>
+		
+	</div>
+	
+	
+	
+
+	
+</div>
+
+		</section>
+	</div>
+	
+	
+</div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+            	<title>Relief label from Borobudur's hidden base, no. 29</title>
+            	<respStmt>
+            		<resp key="creator">author of digital edition</resp>
+            		<persName ref="part:argr">
+            			<forename>Arlo</forename>
+            			<surname>Griffiths</surname>
+            		</persName>
+            		<persName ref="part:hepr">
+            			<name>Hedwi Prihatmoko</name>
+            		</persName>
+            	</respStmt>
+            </titleStmt>
+        	<publicationStmt>
+        		<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+        		<pubPlace>Paris, Jakarta</pubPlace>
+        		<idno type="filename">DHARMA_INSIDENKBorobudurHB029.xml</idno>
+        		<availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                            <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+        <revisionDesc>
+            <change who="part:hepr" when="2025-02-09">adding the bibliography</change>
+        	<change who="part:argr" when="2025-12-05">encoded the inscription</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn" rendition="class:38769 maturity:83213">
+<p><lb n="1"/><gap reason="illegible" extent="unknown" unit="character"/>k<unclear>ā</unclear></p>
+         </div>
+         <div type="apparatus">
+               <!-- none -->
+         </div>
+         <div type="translation" resp="part:argr">
+ 	<p> </p>
+         </div>
+         <div type="commentary">
+            <!-- none -->
+         </div>
+        <div type="bibliography">
+           <p>First published by Kern (<bibl rend="omitname"><ptr target="bib:Kern1896_02"/></bibl>); republished by the same author (<bibl rend="omitname"><ptr target="bib:Kern1917_23"/></bibl>) and subsequently by Krom (<bibl rend="omitname"><ptr target="bib:Krom1927_01"/></bibl>); this digital edition based on the 1927 publication.</p>
+        	<listBibl type="primary">
+				<bibl n="NJK"><ptr target="bib:Krom1927_01"/><citedRange unit="page">51</citedRange></bibl>
+			</listBibl>
+           <listBibl type="secondary">
+              <bibl><ptr target="bib:Casparis1975_01"/><citedRange unit="page">32</citedRange></bibl>
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

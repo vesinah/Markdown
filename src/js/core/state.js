@@ -8,6 +8,7 @@ export const State = {
   expanded: new Set(),
   collapsed: new Set(),
   blobUrls: new Map(),
+  remoteCatalog: null,
   filters: {
     types: new Set(['md', 'pdf', 'txt', 'html', 'xml', 'rdf', 'img'])
   },

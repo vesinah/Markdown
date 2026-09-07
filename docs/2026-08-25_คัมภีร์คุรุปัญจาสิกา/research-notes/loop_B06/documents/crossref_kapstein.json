@@ -1,0 +1,504 @@
+﻿{
+    "status":  "ok",
+    "message-type":  "work-list",
+    "message-version":  "1.0.0",
+    "message":  {
+                    "facets":  {
+
+                               },
+                    "total-results":  51519,
+                    "items":  [
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             8,
+                                                                             3
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-08-03T01:12:45Z",
+                                                      "timestamp":  1659489165098
+                                                  },
+                                      "reference-count":  0,
+                                      "publisher":  "Oxford University Press",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "published-print":  {
+                                                              "date-parts":  [
+                                                                                 [
+                                                                                     1997,
+                                                                                     7,
+                                                                                     24
+                                                                                 ]
+                                                                             ]
+                                                          },
+                                      "DOI":  "10.1093/acprof:oso/9780195113235.003.0007",
+                                      "type":  "book-chapter",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2011,
+                                                                             10,
+                                                                             11
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2011-10-11T20:23:32Z",
+                                                      "timestamp":  1318364612000
+                                                  },
+                                      "page":  "126-143",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "Where Should Primary Care Be Taught—and by Whom?"
+                                                ],
+                                      "prefix":  "10.1093",
+                                      "author":  [
+                                                     {
+                                                         "given":  "ERIC J.",
+                                                         "family":  "CASSELL",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "286",
+                                      "container-title":  [
+                                                              "Doctoring"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2022,
+                                                                               8,
+                                                                               3
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2022-08-03T00:30:19Z",
+                                                        "timestamp":  1659486619000
+                                                    },
+                                      "score":  24.582457,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://academic.oup.com/book/10226/chapter/157910256"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            1997,
+                                                                            7,
+                                                                            24
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.1093/acprof:oso/9780195113235.003.0007",
+                                      "published":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               1997,
+                                                                               7,
+                                                                               24
+                                                                           ]
+                                                                       ]
+                                                    }
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             3,
+                                                                             31
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-03-31T07:55:38Z",
+                                                      "timestamp":  1648713338825
+                                                  },
+                                      "reference-count":  0,
+                                      "publisher":  "Portico",
+                                      "issue":  "6",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "published-print":  {
+                                                              "date-parts":  [
+                                                                                 [
+                                                                                     1981,
+                                                                                     6
+                                                                                 ]
+                                                                             ]
+                                                          },
+                                      "DOI":  "10.1037/020246",
+                                      "type":  "journal-article",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2006,
+                                                                             11,
+                                                                             20
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2006-11-20T21:06:12Z",
+                                                      "timestamp":  1164056772000
+                                                  },
+                                      "page":  "427-427",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "Project Nim: Who taught whom?"
+                                                ],
+                                      "prefix":  "10.3730",
+                                      "volume":  "26",
+                                      "author":  [
+                                                     {
+                                                         "suffix":  "Jr.",
+                                                         "given":  "E. W.",
+                                                         "family":  "Menzel",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "1320",
+                                      "container-title":  [
+                                                              "Contemporary Psychology: A Journal of Reviews"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               4,
+                                                                               18
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-04-18T13:58:58Z",
+                                                        "timestamp":  1524059938000
+                                                    },
+                                      "score":  22.481815,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "http://access.portico.org/stable?au=phzkhhh41"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            1981,
+                                                                            6
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "journal-issue":  {
+                                                            "issue":  "6",
+                                                            "published-print":  {
+                                                                                    "date-parts":  [
+                                                                                                       [
+                                                                                                           1981,
+                                                                                                           6
+                                                                                                       ]
+                                                                                                   ]
+                                                                                }
+                                                        },
+                                      "URL":  "https://doi.org/10.1037/020246",
+                                      "ISSN":  [
+                                                   "0010-7549"
+                                               ],
+                                      "issn-type":  [
+                                                        {
+                                                            "value":  "0010-7549",
+                                                            "type":  "print"
+                                                        }
+                                                    ],
+                                      "published-other":  {
+                                                              "date-parts":  [
+                                                                                 [
+                                                                                     1981,
+                                                                                     6
+                                                                                 ]
+                                                                             ]
+                                                          },
+                                      "published":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               1981,
+                                                                               6
+                                                                           ]
+                                                                       ]
+                                                    }
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2023,
+                                                                             10,
+                                                                             20
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2023-10-20T01:22:30Z",
+                                                      "timestamp":  1697764950410
+                                                  },
+                                      "reference-count":  0,
+                                      "publisher":  "Portico",
+                                      "issue":  "6",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "published-print":  {
+                                                              "date-parts":  [
+                                                                                 [
+                                                                                     1981,
+                                                                                     6
+                                                                                 ]
+                                                                             ]
+                                                          },
+                                      "DOI":  "10.1037/020245",
+                                      "type":  "journal-article",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2006,
+                                                                             11,
+                                                                             20
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2006-11-20T16:06:12Z",
+                                                      "timestamp":  1164038772000
+                                                  },
+                                      "page":  "425-426",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  6,
+                                      "title":  [
+                                                    "Project Nim: Who taught whom?"
+                                                ],
+                                      "prefix":  "10.3730",
+                                      "volume":  "26",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Beatrix T.",
+                                                         "family":  "Gardner",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "1320",
+                                      "container-title":  [
+                                                              "Contemporary Psychology: A Journal of Reviews"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               4,
+                                                                               18
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-04-18T21:47:05Z",
+                                                        "timestamp":  1524088025000
+                                                    },
+                                      "score":  22.393698,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "http://access.portico.org/stable?au=phzkhhngn"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            1981,
+                                                                            6
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "journal-issue":  {
+                                                            "issue":  "6",
+                                                            "published-print":  {
+                                                                                    "date-parts":  [
+                                                                                                       [
+                                                                                                           1981,
+                                                                                                           6
+                                                                                                       ]
+                                                                                                   ]
+                                                                                }
+                                                        },
+                                      "URL":  "https://doi.org/10.1037/020245",
+                                      "ISSN":  [
+                                                   "0010-7549"
+                                               ],
+                                      "issn-type":  [
+                                                        {
+                                                            "value":  "0010-7549",
+                                                            "type":  "print"
+                                                        }
+                                                    ],
+                                      "published-other":  {
+                                                              "date-parts":  [
+                                                                                 [
+                                                                                     1981,
+                                                                                     6
+                                                                                 ]
+                                                                             ]
+                                                          },
+                                      "published":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               1981,
+                                                                               6
+                                                                           ]
+                                                                       ]
+                                                    }
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             7,
+                                                                             9
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-07-09T12:34:53Z",
+                                                      "timestamp":  1657370093653
+                                                  },
+                                      "reference-count":  0,
+                                      "publisher":  "International Association for Statistical Education",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "abstract":  "\u003cjats:p\u003eResearchers quite often need to model and analyse real-world random phenomena using stochastic processes. Learning stochastic processes requires a good knowledge of the probability theory, calculus, matrix algebra and a general level of mathematical maturity. However, not all researchers have a good foundation in probability and mathematics. In this paper, we discuss the different approaches to the teaching of a first course in stochastic processes to researchers. Difficulties in the understanding of stochastic processes and the various mathematical techniques used in stochastic processes are discussed. Proposal for the core topics of such a course and ways of teaching them are put forward.\u003c/jats:p\u003e",
+                                      "DOI":  "10.52041/srap.00106",
+                                      "type":  "proceedings-article",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             6,
+                                                                             29
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-06-29T21:12:59Z",
+                                                      "timestamp":  1656537179000
+                                                  },
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "How much can be taught about stochastic processes and to whom?"
+                                                ],
+                                      "prefix":  "10.52041",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Ann-Lee",
+                                                         "family":  "Wang",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "28999",
+                                      "published-online":  {
+                                                               "date-parts":  [
+                                                                                  [
+                                                                                      2000,
+                                                                                      12,
+                                                                                      30
+                                                                                  ]
+                                                                              ]
+                                                           },
+                                      "event":  {
+                                                    "name":  "Training Researchers in the Use if Statistics"
+                                                },
+                                      "container-title":  [
+                                                              "Training Researchers in the Use of Statistics IASE Roundtable Conference"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2022,
+                                                                               6,
+                                                                               29
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2022-06-29T21:13:02Z",
+                                                        "timestamp":  1656537182000
+                                                    },
+                                      "score":  21.516003,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://iase-web.org/documents/papers/rt2000/073.pdf?1402524985"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2000,
+                                                                            12,
+                                                                            30
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.52041/srap.00106",
+                                      "published":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2000,
+                                                                               12,
+                                                                               30
+                                                                           ]
+                                                                       ]
+                                                    }
+                                  }
+                              ],
+                    "items-per-page":  4,
+                    "query":  {
+                                  "start-index":  0,
+                                  "search-terms":  null
+                              }
+                }
+}

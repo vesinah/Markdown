@@ -1,0 +1,586 @@
+[
+  {
+    "id": "https://openalex.org/W2588766904",
+    "doi": null,
+    "title": "Arahant Mahinda-redactor of the Buddhapujava in Sinhala Buddhism : with Pali text, translation and analysis",
+    "display_name": "Arahant Mahinda-redactor of the Buddhapujava in Sinhala Buddhism : with Pali text, translation and analysis",
+    "relevance_score": 2.2303572,
+    "publication_year": 2012,
+    "publication_date": "2012-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2588766904",
+      "mag": "2588766904"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:localhost:1807/33767",
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/1807/33767",
+      "pdf_url": "http://hdl.handle.net/1807/33767",
+      "source": {
+        "id": "https://openalex.org/S4306400261",
+        "display_name": "TSpace (University of Toronto)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I185261750",
+        "host_organization_name": "University of Toronto",
+        "host_organization_lineage": [
+          "https://openalex.org/I185261750"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Book"
+    },
+    "type": "book",
+    "indexed_in": [],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "http://hdl.handle.net/1807/33767",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5052599930",
+          "display_name": "Suwanda H.J. Sugunasiri",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Suwanda H.J. Sugunasiri",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5052599930"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.23366508,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11563",
+      "display_name": "Indian and Buddhist Studies",
+      "score": 0.9757000207901001,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.9757000207901001,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.9159536361694336
+      },
+      {
+        "id": "https://openalex.org/keywords/sri-lanka",
+        "display_name": "Sri lanka",
+        "score": 0.6124255657196045
+      },
+      {
+        "id": "https://openalex.org/keywords/ancient-history",
+        "display_name": "Ancient history",
+        "score": 0.4690285921096802
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.4209403395652771
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.40711310505867004
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.36811506748199463
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.3403661251068115
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.3144986033439636
+      },
+      {
+        "id": "https://openalex.org/keywords/south-asia",
+        "display_name": "South asia",
+        "score": 0.29782742261886597
+      },
+      {
+        "id": "https://openalex.org/keywords/theology",
+        "display_name": "Theology",
+        "score": 0.28601109981536865
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.9159536361694336
+      },
+      {
+        "id": "https://openalex.org/C3017649214",
+        "wikidata": "https://www.wikidata.org/wiki/Q854",
+        "display_name": "Sri lanka",
+        "level": 3,
+        "score": 0.6124255657196045
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.4690285921096802
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.4209403395652771
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.40711310505867004
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.36811506748199463
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.3403661251068115
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.3144986033439636
+      },
+      {
+        "id": "https://openalex.org/C3019281177",
+        "wikidata": "https://www.wikidata.org/wiki/Q771405",
+        "display_name": "South asia",
+        "level": 2,
+        "score": 0.29782742261886597
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.28601109981536865
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "pmh:oai:localhost:1807/33767",
+        "is_oa": true,
+        "landing_page_url": "http://hdl.handle.net/1807/33767",
+        "pdf_url": "http://hdl.handle.net/1807/33767",
+        "source": {
+          "id": "https://openalex.org/S4306400261",
+          "display_name": "TSpace (University of Toronto)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I185261750",
+          "host_organization_name": "University of Toronto",
+          "host_organization_lineage": [
+            "https://openalex.org/I185261750"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "Book"
+      },
+      {
+        "id": "mag:2588766904",
+        "is_oa": false,
+        "landing_page_url": "https://tspace.library.utoronto.ca/handle/1807/33767",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:localhost:1807/33767",
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/1807/33767",
+      "pdf_url": "http://hdl.handle.net/1807/33767",
+      "source": {
+        "id": "https://openalex.org/S4306400261",
+        "display_name": "TSpace (University of Toronto)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I185261750",
+        "host_organization_name": "University of Toronto",
+        "host_organization_lineage": [
+          "https://openalex.org/I185261750"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Book"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2588766904.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2588766904.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2414291488",
+      "https://openalex.org/W642560639",
+      "https://openalex.org/W1784082217",
+      "https://openalex.org/W2013105864",
+      "https://openalex.org/W2274144555",
+      "https://openalex.org/W2128071805",
+      "https://openalex.org/W3003612696",
+      "https://openalex.org/W2733191098",
+      "https://openalex.org/W3196617267",
+      "https://openalex.org/W565837638",
+      "https://openalex.org/W2080041762",
+      "https://openalex.org/W2755599841",
+      "https://openalex.org/W3026103373",
+      "https://openalex.org/W2283374026",
+      "https://openalex.org/W2507011164",
+      "https://openalex.org/W641106856",
+      "https://openalex.org/W2606362010",
+      "https://openalex.org/W3146227345",
+      "https://openalex.org/W2171802088",
+      "https://openalex.org/W2151751735"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "study": [
+        1
+      ],
+      "seeks": [
+        2
+      ],
+      "to": [
+        3,
+        12,
+        35,
+        47,
+        75
+      ],
+      "establish": [
+        4
+      ],
+      "that": [
+        5,
+        76
+      ],
+      "Arahant": [
+        6
+      ],
+      "Mahinda,": [
+        7
+      ],
+      "who": [
+        8
+      ],
+      "introduced": [
+        9
+      ],
+      "the": [
+        10,
+        16,
+        19,
+        38,
+        49,
+        56
+      ],
+      "Buddhadhamma": [
+        11
+      ],
+      "Sri": [
+        13
+      ],
+      "Lanka,": [
+        14
+      ],
+      "is": [
+        15,
+        32
+      ],
+      "Redactor": [
+        17
+      ],
+      "of": [
+        18,
+        53
+      ],
+      "Buddhapåjàva": [
+        20
+      ],
+      "in": [
+        21,
+        37,
+        55
+      ],
+      "Sinhala": [
+        22
+      ],
+      "Buddhism.": [
+        23
+      ],
+      "The": [
+        24,
+        41
+      ],
+      "Sãla": [
+        25
+      ],
+      "\\nTrio": [
+        26
+      ],
+      "–": [
+        27
+      ],
+      "Pa¤ca-,": [
+        28
+      ],
+      "Aññhangika-": [
+        29
+      ],
+      "and": [
+        30
+      ],
+      "Dasa-Sãla,": [
+        31
+      ],
+      "also": [
+        33
+      ],
+      "found": [
+        34
+      ],
+      "emerge": [
+        36
+      ],
+      "same": [
+        39
+      ],
+      "process.": [
+        40
+      ],
+      "launch": [
+        42
+      ],
+      "date": [
+        43
+      ],
+      "has": [
+        44
+      ],
+      "been": [
+        45
+      ],
+      "determined": [
+        46
+      ],
+      "be": [
+        48
+      ],
+      "full": [
+        50
+      ],
+      "moon": [
+        51
+      ],
+      "day": [
+        52
+      ],
+      "Kattika": [
+        54
+      ],
+      "year": [
+        57
+      ],
+      "247": [
+        58
+      ],
+      "BCE,": [
+        59
+      ],
+      "i.e.,": [
+        60
+      ],
+      "2260": [
+        61
+      ],
+      "years": [
+        62
+      ],
+      "ago(current": [
+        63
+      ],
+      "year:": [
+        64
+      ],
+      "Oct.": [
+        65
+      ],
+      "1,": [
+        66
+      ],
+      "2012),": [
+        67
+      ],
+      "or": [
+        68
+      ],
+      "even": [
+        69
+      ],
+      "more": [
+        70
+      ],
+      "likely,": [
+        71
+      ],
+      "42": [
+        72
+      ],
+      "days": [
+        73
+      ],
+      "prior": [
+        74
+      ],
+      "(parallel:": [
+        77
+      ],
+      "Aug.": [
+        78
+      ],
+      "18,": [
+        79
+      ],
+      "2012).": [
+        80
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-08-26T07:47:46.906454",
+    "created_date": "2025-10-10T00:00:00"
+  }
+]

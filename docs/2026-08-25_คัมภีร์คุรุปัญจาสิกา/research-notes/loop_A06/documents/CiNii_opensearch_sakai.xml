@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:ndl="http://ndl.go.jp/dcndl/terms" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:cir="https://cir.nii.ac.jp/schema/1.0/" xml:lang="ja">
+<channel rdf:about="https://cir.nii.ac.jp/opensearch/all?q=%E9%85%92%E4%BA%95%E7%9C%9F%E5%85%B8&amp;format=rss&amp;count=30">
+<title>CiNii Research all - 酒井真典 rss 30</title>
+<description>CiNii Research all - 酒井真典 rss 30</description>
+<link>https://cir.nii.ac.jp/opensearch/all?q=%E9%85%92%E4%BA%95%E7%9C%9F%E5%85%B8&amp;format=rss&amp;count=30</link>
+<dc:date>2026-08-26T00:03:08.787+09:00</dc:date>
+<opensearch:totalResults>60</opensearch:totalResults>
+<opensearch:startIndex>1</opensearch:startIndex>
+<opensearch:itemsPerPage>30</opensearch:itemsPerPage>
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971149384790963466"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971430859735896904"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970023484867722555"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970304959910458116"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971712334834118441"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1520290882906653824"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1520853834999874304"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970586434811165350"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971149384890864668"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971149384759144118"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/2051151842000383232"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971152505679752072"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970589400307241346"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1040000782411691776"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/2120589364710422656"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970867909834437795"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970304959904361370"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1040000782415411712"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970304959936370876"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1040000782414211456"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970308312567472940"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971430859849582271"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970589709790922042"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971434212474210701"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1040282257360732800"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1040000782382157056"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971430859814880325"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1040282257299827840"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1520572360027910144"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971715687450921862"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971149384790963466">
+<title>後期密教研究</title>
+<link>https://cir.nii.ac.jp/crid/1971149384790963466</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971149384790963466.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>法藏館</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1989</prism:publicationDate>
+<description>酒井眞典著作集 / 酒井眞典著, 第4巻</description>
+<dc:identifier rdf:datatype="cir:NCID">BN04262922</dc:identifier>
+<dc:identifier rdf:datatype="cir:ISBN">4831835048</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BN04262922#entity</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://dl.ndl.go.jp/pid/12261588</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BN04262922#entity"/>
+<dc:source rdf:resource="https://dl.ndl.go.jp/pid/12261588"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971430859735896904">
+<title>大日経広釈全訳</title>
+<link>https://cir.nii.ac.jp/crid/1971430859735896904</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971430859735896904.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>法藏館</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1987</prism:publicationDate>
+<description>酒井眞典著作集 / 酒井眞典著, 第2巻</description>
+<dc:identifier rdf:datatype="cir:NCID">BN01949351</dc:identifier>
+<dc:identifier rdf:datatype="cir:ISBN">4831835021</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BN01949351#entity</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://dl.ndl.go.jp/pid/12261587</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BN01949351#entity"/>
+<dc:source rdf:resource="https://dl.ndl.go.jp/pid/12261587"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970023484867722555">
+<title>大日経研究</title>
+<link>https://cir.nii.ac.jp/crid/1970023484867722555</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970023484867722555.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>法蔵館</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1983</prism:publicationDate>
+<description>酒井眞典著作集 / 酒井眞典著, 第1巻</description>
+<dc:identifier rdf:datatype="cir:NCID">BN10691435</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BN10691435#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BN10691435#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970304959910458116">
+<title>金剛頂経研究</title>
+<link>https://cir.nii.ac.jp/crid/1970304959910458116</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970304959910458116.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>法蔵館</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1985</prism:publicationDate>
+<description>酒井眞典著作集 / 酒井眞典著, 第3巻</description>
+<dc:identifier rdf:datatype="cir:NCID">BN06881040</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BN06881040#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BN06881040#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971712334834118441">
+<title>酒井眞典著作集</title>
+<link>https://cir.nii.ac.jp/crid/1971712334834118441</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971712334834118441.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>法蔵館</dc:publisher>
+<dc:type>Book</dc:type>
+<dc:identifier rdf:datatype="cir:NCID">BN01949420</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BN01949420#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BN01949420#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1520290882906653824">
+<title>Paramarthasevaについて</title>
+<link>https://cir.nii.ac.jp/crid/1520290882906653824</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1520290882906653824.rdf"/>
+<dc:type>Article</dc:type>
+<dc:creator>酒井 真典</dc:creator>
+<dc:publisher>[東京] : 日本印度学仏教学会</dc:publisher>
+<prism:publicationName>印度學佛教學研究</prism:publicationName>
+<prism:issn>00194344</prism:issn>
+<prism:volume>8</prism:volume>
+<prism:number>1</prism:number>
+<prism:startingPage>359</prism:startingPage>
+<prism:endingPage>352</prism:endingPage>
+<prism:publicationDate>1960-01</prism:publicationDate>
+<dc:identifier rdf:datatype="cir:NDL_BIB_ID">621341</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">http://id.ndl.go.jp/bib/621341</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ndlsearch.ndl.go.jp/books/R000000004-I621341</dc:identifier>
+<dc:identifier rdf:datatype="cir:NAID">40000152919</dc:identifier>
+<dc:subject>仏典</dc:subject>
+<dc:source rdf:resource="http://id.ndl.go.jp/bib/621341"/>
+<dc:source rdf:resource="https://ndlsearch.ndl.go.jp/books/R000000004-I621341"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1520853834999874304">
+<title>「金剛頂経研究」酒井真典(酒井真典著作集 3)</title>
+<link>https://cir.nii.ac.jp/crid/1520853834999874304</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1520853834999874304.rdf"/>
+<dc:type>Article</dc:type>
+<dc:creator>高田 順仁</dc:creator>
+<dc:publisher>東京 : 日本密教学会事務局</dc:publisher>
+<prism:publicationName>密教学研究</prism:publicationName>
+<prism:issn>09113487</prism:issn>
+<prism:number>17</prism:number>
+<prism:startingPage>p171</prism:startingPage>
+<prism:endingPage>177</prism:endingPage>
+<prism:publicationDate>1985-03</prism:publicationDate>
+<description>資料形態 : テキストデータ プレーンテキスト</description>
+<dc:identifier rdf:datatype="cir:NDL_BIB_ID">3550386</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">http://id.ndl.go.jp/bib/3550386</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ndlsearch.ndl.go.jp/books/R000000004-I3550386</dc:identifier>
+<dc:identifier rdf:datatype="cir:NAID">40003585145</dc:identifier>
+<dc:source rdf:resource="http://id.ndl.go.jp/bib/3550386"/>
+<dc:source rdf:resource="https://ndlsearch.ndl.go.jp/books/R000000004-I3550386"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970586434811165350">
+<title>喇嘛教の典籍</title>
+<link>https://cir.nii.ac.jp/crid/1970586434811165350</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970586434811165350.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>眞言宗喇嘛教研究所</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1944</prism:publicationDate>
+<description>喇嘛教事情, 第2輯</description>
+<dc:identifier rdf:datatype="cir:NCID">BA36490765</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BA36490765#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BA36490765#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971149384890864668">
+<title>大日経広釈全</title>
+<link>https://cir.nii.ac.jp/crid/1971149384890864668</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971149384890864668.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>法蔵館</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1988</prism:publicationDate>
+<dc:identifier rdf:datatype="cir:NCID">BB14217704</dc:identifier>
+<dc:identifier rdf:datatype="cir:ISBN">4831835056</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BB14217704#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BB14217704#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971149384759144118">
+<title>百光遍照王の解明</title>
+<link>https://cir.nii.ac.jp/crid/1971149384759144118</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971149384759144118.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>高野山遍照光院歴世全書刊行会</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1967</prism:publicationDate>
+<description>遍照光院歴世全書, 第4巻</description>
+<dc:identifier rdf:datatype="cir:NCID">BN15464747</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BN15464747#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BN15464747#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/2051151842000383232">
+<title>酒井真典先生を偲ぶ</title>
+<link>https://cir.nii.ac.jp/crid/2051151842000383232</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/2051151842000383232.rdf"/>
+<dc:type>Article</dc:type>
+<dc:creator>越智,淳仁</dc:creator>
+<prism:publicationName>日本西蔵学会々報</prism:publicationName>
+<prism:volume>(35)</prism:volume>
+<prism:startingPage>30</prism:startingPage>
+<prism:endingPage>31</prism:endingPage>
+<prism:publicationDate>1989-03-31</prism:publicationDate>
+<description>収集根拠 : NII-ELS</description>
+<dc:identifier rdf:datatype="cir:NAID">110006164554</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">http://id.ndl.go.jp/digimeta/10810553</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://dl.ndl.go.jp/pid/10810553</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">http://dl.ndl.go.jp/info:ndljp/pid/10810553</dc:identifier>
+<dc:source rdf:resource="http://id.ndl.go.jp/digimeta/10810553"/>
+<dc:source rdf:resource="https://dl.ndl.go.jp/pid/10810553"/>
+<dc:source rdf:resource="http://dl.ndl.go.jp/info:ndljp/pid/10810553"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971152505679752072">
+<title>成満 : 記録</title>
+<link>https://cir.nii.ac.jp/crid/1971152505679752072</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971152505679752072.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>遍照光院</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1980</prism:publicationDate>
+<description>遍照光院歴世全書, 第9巻</description>
+<dc:identifier rdf:datatype="cir:NCID">BD18658954</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BD18658954#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BD18658954#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970589400307241346">
+<title>Paramārthasevāについて</title>
+<link>https://cir.nii.ac.jp/crid/1970589400307241346</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970589400307241346.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>[日本印度學佛教學會]</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1960</prism:publicationDate>
+<dc:identifier rdf:datatype="cir:NCID">BD18475218</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BD18475218#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BD18475218#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1040000782411691776">
+<title>マンダラの研究</title>
+<link>https://cir.nii.ac.jp/crid/1040000782411691776</link>
+<dc:creator>酒井 真典</dc:creator>
+<dc:type>Project</dc:type>
+<dc:identifier rdf:datatype="cir:KAKEN">X41065------1065</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-X41065------1065/</dc:identifier>
+<dc:source rdf:resource="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-X41065------1065/" dc:title="KAKEN"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/2120589364710422656">
+<title>喇嘛教の典籍 / 酒井眞典著</title>
+<link>https://cir.nii.ac.jp/crid/2120589364710422656</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/2120589364710422656.rdf"/>
+<dc:type>OtherWorks</dc:type>
+<dc:identifier rdf:datatype="cir:HDL">http://hdl.handle.net/10108/78145</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://tufs.repo.nii.ac.jp/records/53229</dc:identifier>
+<dc:subject>ラマ教</dc:subject>
+<dc:source rdf:resource="https://tufs.repo.nii.ac.jp/records/53229"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970867909834437795">
+<title>大日経の成立に関する研究</title>
+<link>https://cir.nii.ac.jp/crid/1970867909834437795</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970867909834437795.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>国書刊行会</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1973</prism:publicationDate>
+<dc:identifier rdf:datatype="cir:NCID">BN10184776</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BN10184776#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BN10184776#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970304959904361370">
+<title>種子集</title>
+<link>https://cir.nii.ac.jp/crid/1970304959904361370</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970304959904361370.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>吉田弥左衛門</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1985</prism:publicationDate>
+<description>田奈部豆本, 第26集</description>
+<dc:identifier rdf:datatype="cir:NCID">BB25465639</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BB25465639#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BB25465639#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1040000782415411712">
+<title>マンダラの研究</title>
+<link>https://cir.nii.ac.jp/crid/1040000782415411712</link>
+<dc:creator>酒井 真典</dc:creator>
+<dc:type>Project</dc:type>
+<dc:identifier rdf:datatype="cir:KAKEN">X43050------1051</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-X43050------1051/</dc:identifier>
+<dc:source rdf:resource="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-X43050------1051/" dc:title="KAKEN"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970304959936370876">
+<title>事師法について</title>
+<link>https://cir.nii.ac.jp/crid/1970304959936370876</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970304959936370876.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>高野山遍照光院歴世全書刊行会</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1972</prism:publicationDate>
+<description>遍照光院歴世全書, 第5巻</description>
+<dc:identifier rdf:datatype="cir:NCID">BA85660497</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BA85660497#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BA85660497#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1040000782414211456">
+<title>チベット密教学の体系的研究</title>
+<link>https://cir.nii.ac.jp/crid/1040000782414211456</link>
+<dc:creator>酒井 真典</dc:creator>
+<dc:type>Project</dc:type>
+<dc:identifier rdf:datatype="cir:KAKEN">X42440-----11167</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-X42440-----11167/</dc:identifier>
+<dc:source rdf:resource="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-X42440-----11167/" dc:title="KAKEN"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970308312567472940">
+<title>大悲(Mahākaruṇā)について</title>
+<link>https://cir.nii.ac.jp/crid/1970308312567472940</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970308312567472940.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>大蔵出版</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1985</prism:publicationDate>
+<dc:identifier rdf:datatype="cir:NCID">BD18987741</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BD18987741#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BD18987741#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971430859849582271">
+<title>チベット密教教理の研究</title>
+<link>https://cir.nii.ac.jp/crid/1971430859849582271</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971430859849582271.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>高野山遍照光院歴世全書刊行会</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1956</prism:publicationDate>
+<description>遍照光院歴世全書, 第1巻</description>
+<dc:identifier rdf:datatype="cir:NCID">BN14837565</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BN14837565#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BN14837565#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970589709790922042">
+<title>入真言門論について</title>
+<link>https://cir.nii.ac.jp/crid/1970589709790922042</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970589709790922042.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>[山喜房佛書林]</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1972</prism:publicationDate>
+<dc:identifier rdf:datatype="cir:NCID">BD18864526</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BD18864526#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BD18864526#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971434212474210701">
+<title>仏智足(Buddhajñānapāda)の我観</title>
+<link>https://cir.nii.ac.jp/crid/1971434212474210701</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971434212474210701.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>[春秋社]</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1981</prism:publicationDate>
+<dc:identifier rdf:datatype="cir:NCID">BD18977985</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BD18977985#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BD18977985#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1040282257360732800">
+<title>アジア諸地域の文化と密教との交渉の研究</title>
+<link>https://cir.nii.ac.jp/crid/1040282257360732800</link>
+<dc:creator>酒井 真典</dc:creator>
+<dc:type>Project</dc:type>
+<dc:identifier rdf:datatype="cir:KAKEN">X00080----045048</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-X00080----045048/</dc:identifier>
+<dc:source rdf:resource="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-X00080----045048/" dc:title="KAKEN"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1040000782382157056">
+<title>日本撰述大日経疏関係諸典籍の研究</title>
+<link>https://cir.nii.ac.jp/crid/1040000782382157056</link>
+<dc:creator>酒井 真典</dc:creator>
+<dc:type>Project</dc:type>
+<dc:identifier rdf:datatype="cir:KAKEN">X00050----531007</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-X00050----531007/</dc:identifier>
+<dc:source rdf:resource="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-X00050----531007/" dc:title="KAKEN"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971430859814880325">
+<title>梵文初会の金剛頂経S本 : 法印昇進記念</title>
+<link>https://cir.nii.ac.jp/crid/1971430859814880325</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971430859814880325.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>高野山遍照光院歴世全書刊行会</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1979</prism:publicationDate>
+<description>遍照光院歴世全書, 第6巻</description>
+<dc:identifier rdf:datatype="cir:NCID">BN09831592</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BN09831592#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BN09831592#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1040282257299827840">
+<title>日本撰述大日経疏関係諸典籍の研究</title>
+<link>https://cir.nii.ac.jp/crid/1040282257299827840</link>
+<dc:creator>酒井 真典</dc:creator>
+<dc:type>Project</dc:type>
+<dc:identifier rdf:datatype="cir:KAKEN">56310007</dc:identifier>
+<dc:identifier rdf:datatype="cir:JGN">JP56310007</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-56310007/</dc:identifier>
+<dc:source rdf:resource="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-56310007/" dc:title="KAKEN"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1520572360027910144">
+<title>曼荼羅の基本的理解--覚密の曼荼羅法略摂</title>
+<link>https://cir.nii.ac.jp/crid/1520572360027910144</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1520572360027910144.rdf"/>
+<dc:type>Article</dc:type>
+<dc:creator>酒井 真典</dc:creator>
+<dc:publisher>東京 : 日本密教学会事務局</dc:publisher>
+<prism:publicationName>密教学研究</prism:publicationName>
+<prism:issn>09113487</prism:issn>
+<prism:number>2</prism:number>
+<prism:startingPage>39</prism:startingPage>
+<prism:endingPage>56</prism:endingPage>
+<prism:publicationDate>1970-03</prism:publicationDate>
+<description>資料形態 : テキストデータ プレーンテキスト</description>
+<dc:identifier rdf:datatype="cir:NDL_BIB_ID">273115</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">http://id.ndl.go.jp/bib/273115</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ndlsearch.ndl.go.jp/books/R000000004-I273115</dc:identifier>
+<dc:identifier rdf:datatype="cir:NAID">110000349324</dc:identifier>
+<dc:source rdf:resource="http://id.ndl.go.jp/bib/273115"/>
+<dc:source rdf:resource="https://ndlsearch.ndl.go.jp/books/R000000004-I273115"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971715687450921862">
+<title>ブツダグフヤ(覚密)の見た大日経</title>
+<link>https://cir.nii.ac.jp/crid/1971715687450921862</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971715687450921862.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>[成田山新勝寺]</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1984</prism:publicationDate>
+<dc:identifier rdf:datatype="cir:NCID">BD1898764X</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BD1898764X#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BD1898764X#entity"/>
+</item>
+</rdf:RDF>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lontar Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow fixed top-0 left-0 right-0 z-50">
+  <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">Lontar Project</h1>
+    <button id="menu-toggle" class="md:hidden text-blue-600 focus:outline-none">
+      <i data-feather="menu"></i>
+    </button>
+      <nav id="menu" class="hidden md:flex md:space-x-6 text-sm">
+
+      <a href="#about" class="hover:text-blue-600 block py-1">About</a>
+      <a href="#research" class="hover:text-blue-600 block py-1">Research</a>
+      <a href="#news" class="hover:text-blue-600 block py-1">News</a>
+      <a href="#teams" class="hover:text-blue-600 block py-1">Teams</a>
+      <a href="#contact" class="hover:text-blue-600 block py-1">Contact</a>
+    </nav>
+  </div>
+</header>
+
+  <div class="pt-24"></div>
+
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center py-32 text-center text-white" style="background-image: url('https://amadi.unpad.ac.id/assets/img/naskah/2_19_22A.png');">
+    <div class="bg-black bg-opacity-50 py-12 px-4">
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-semibold mb-4">Preserving the Wisdom of the Past</h2>
+        <p class="text-lg max-w-2xl mx-auto">This study focuses on document image analysis and text analysis of Indonesian lontar manuscripts. It covers handwriting recognition, transliteration, and translation to make indigenous knowledge digitally accessible for research and education.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Preview -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto px-4 flex flex-col lg:flex-row items-start lg:items-center gap-10">
+      <!-- Text content -->
+      <div class="lg:w-3/4">
+        <h3 class="text-3xl font-bold mb-6">About the Project</h3>
+        <p class="mb-4 text-justify">This project is dedicated to studying and digitizing lontar manuscripts — historical palm-leaf texts that have preserved centuries of Indonesian history, language, and culture. Our work brings together artificial intelligence, paleography, and heritage studies.</p>
+        <p class="mb-4 text-justify">We aim to safeguard this invaluable cultural heritage by developing systems for handwriting recognition, transliteration, translation, and text reconstruction. These tools support historical Indonesian languages such as Old Sundanese, Old Javanese, Old Balinese, and others, helping to create digital archives that are accessible to both scholars and the wider public.</p>
+        
+        <h4 class="text-2xl font-semibold mt-8 mb-4">What is Lontar?</h4>
+        <p class="mb-4 text-justify">Lontar is a particular kind of writing material made of palm leaves used in Bali, Lombok, Java, Madura, and other islands in Indonesia. The leaves are carefully processed to create a surface suitable for writing. The letters were carved onto the surface using a small knife called <i>pangutik</i> or <i> pangrupak</i>. This carving technique creates shallow grooves inscribing the letters. The letters are nearly invisible. To make it more visible, burnt candlenut (<i>kemiri</i>) was applied to the surface, darkening the grooves and making the letters easier to read.</p>
+        <p class="mb-4 text-justify">A manuscript consist of a bundle of palm leaves is also called lontar. Each sheet of lontar (<i>lempiran</i>) is tied together by a piece of cord. If you look closely at a lontar, you will notice a circular hole in the center, also in the right and left side. This hole allows the sheets to be tied together with a cord made from processed lontar fibers or any other materials.</p>
+        <p class="mb-4 text-justify">Another important element is <i>cakep</i>, a protective cover similar to a book cover, sized to match the dimensions of the lontar sheets it protects. This cakep can be made of various materials, such as bamboo and wood. Palm leaves manuscript covered by cakep is also called <i>cakepan</i>. Some manuscripts are kept in wooden boxes called <i>kropak</i>. Sometimes the <i>kropak</i> is also decorated with carvings or paintings. A manuscript kept in a <i>kropak</i> is also called <i>kropak</i> or <i>kropakan</i>.</p>
+        <p class="text-justify">Because lontar manuscripts are centuries old, they require special care to ensure their preservation. Despite efforts like storing them in controlled environments and digitization, deterioration still occurs. Digital reconstruction of damaged manuscripts is an important way to ensure future generations can continue to learn from this heritage.</p>
+      </div>
+
+      <!-- Vertically centered image content -->
+      <div class="lg:w-1/4 self-center flex flex-col gap-6">
+        <img src="imgs/lontar-c.jpg" alt="Lontar Manuscript" alt="Lontar Manuscript 2" class="rounded-lg shadow-md object-contain w-full h-auto">
+        <img src="imgs/lontar-d.jpg" alt="Lontar Manuscript" alt="Lontar Manuscript 2" class="rounded-lg shadow-md object-contain w-full h-auto">
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- Research Highlights -->
+  <section id="research" class="bg-gray-100 py-12">
+    <div class="container mx-auto px-4">
+      <h3 class="text-2xl font-semibold mb-6">Research Highlights</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-4 shadow rounded">
+          <h4 class="font-semibold mb-2">Objectives</h4>
+          <p>To develop tools for handwriting recognition, transliteration, translation, and text reconstruction that support the understanding and dissemination of historical lontar manuscripts.</p>
+        </div>
+        <div class="bg-white p-4 shadow rounded">
+          <h4 class="font-semibold mb-2">Methodology</h4>
+          <p>We use image processing, image analysis, deep learning, and language modeling techniques to analyze both the visual and textual content of palm-leaf manuscripts. As part of our digitization techniques, we apply hyperspectral imaging to enhance the readability and recovery of faded or damaged text</p>
+          
+        </div>
+        <div class="bg-white p-4 shadow rounded">
+          <h4 class="font-semibold mb-2">Publications</h4>
+          <p>
+            Our interdisciplinary research is shared in the fields of AI, linguistics, history, and cultural preservation. 
+            Access our results through open-access platforms and academic journals.
+            <!-- <a href="/publications" class="text-blue-600 hover:underline ml-1">More…</a> -->
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Publication -->  
+  <section id="publications" class="bg-gray-50 py-12">
+  <div class="container mx-auto px-4">
+    <h3 class="text-3xl font-semibold mb-6 text-center">Publications</h3>
+    <p class="max-w-2xl text-center mx-auto text-gray-600 mb-10">
+      Explore our published work across digital heritage, AI, linguistics, and Southeast Asian manuscript studies.
+    </p>
+
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+      <!-- Publication Card 1 -->
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+        <h4 class="text-lg font-semibold text-gray-800 mb-2">
+          <a href="https://www.sciencedirect.com/science/article/pii/S0167865523002271" target="_blank" class="hover:text-blue-600">
+            Text Line Extraction Strategy for Palm Leaf Manuscripts
+
+          </a>
+        </h4>
+        <p class="text-sm text-gray-500 mb-3">Paulus, Erick; Burie, Jean-Christophe; Verbeek, Fons J. &middot; 2023</p>
+        <div class="flex flex-wrap gap-2 text-xs">
+          <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded-full">AI</span>
+          <span class="bg-pink-100 text-pink-700 px-2 py-1 rounded-full">Segmentation</span>
+        </div>
+      </div>
+
+      <!-- Publication Card 2 -->
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+        <h4 class="text-lg font-semibold text-gray-800 mb-2">
+          <a href="https://link.springer.com/chapter/10.1007/978-3-030-86159-9_10" target="_blank" class="hover:text-blue-600">
+            Binarization Strategy Using Multiple Convolutional Autoencoder Network for Old Sundanese Manuscript Images
+          </a>
+        </h4>
+        <p class="text-sm text-gray-500 mb-3">Paulus, Erick; Burie, Jean-Christophe; Verbeek, Fons J. &middot; 2021</p>
+        <div class="flex flex-wrap gap-2 text-xs">
+    
+          <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded-full">AI</span>
+          <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full">Binarization</span>          
+        </div>
+      </div>
+
+      
+
+      <!-- Publication Card 3 -->
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+        <h4 class="text-lg font-semibold text-gray-800 mb-2">
+          <a href="#" target="_blank" class="hover:text-blue-600">
+            Kakawin Arjunawiwāha: Pohon dan Bunga di antara Sang Petapa (Kakawin Arjunawiwāha: Trees and Flowers among the Hermit)
+          </a>
+        </h4>
+        <p class="text-sm text-gray-500 mb-3">Yosephin A. Rahayu &middot; 2019</p>
+        <div class="flex flex-wrap gap-2 text-xs">
+          <span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded-full">Literary</span>
+          <span class="bg-red-100 text-red-700 px-2 py-1 rounded-full">Old Javanese</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- More Publications Link -->
+    <div class="text-center mt-10">
+      <a href="/publications.html" class="inline-block text-blue-600 hover:underline font-medium text-sm">
+        View full list of publications →
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- News Preview -->
+  <section id="news" class="py-12">
+    <div class="container mx-auto px-4">
+      <h3 class="text-2xl font-semibold mb-4">Latest News</h3>
+      <ul class="list-disc ml-6">
+        <<li><strong>May 2025:</strong> Our OCR model achieves 92%, 95%, and 97% accuracy on Old Sundanse, Old Balinese, and Khmer script, respectively. 
+          The code can be accessed in  <a href="https://github.com/erickpaulus/isolated-glyph-recognition" target="_blank" style="color: blue;">here</a>.
+
+        </li>                
+        <!-- <li><strong>March 2017:</strong> Fieldwork trip to Garut completed. Over 1,000 manuscript pages scanned for digital archives.</li> -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Teams Section -->
+  <section id="teams" class="bg-gray-100 py-12">
+  <div class="container mx-auto px-4 text-center">
+    <h3 class="text-2xl font-semibold mb-6">Our Teams</h3>
+    <p class="max-w-xl mx-auto mb-8">
+      We are here for those of you who are interested in combining technology with palm manuscripts from around the world.
+    </p>
+    
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-8 justify-items-center">
+
+      <!-- Fons Verbeek -->
+      <a href="https://www.universiteitleiden.nl/en/staffmembers/fons-verbeek#tab-1" class="text-center">
+        <img src="imgs/fjv.jpg" alt="Fons Verbeek" class="w-24 h-24 object-cover rounded-full mx-auto shadow">
+        <p class="mt-2 text-sm font-medium">Fons J. Verbeek</p>
+        <p class="text-xs text-gray-500">Leiden University</p>
+      </a
+	  
+	  <!-- Erick Paulus -->
+      <a href="https://www.universiteitleiden.nl/en/staffmembers/erick-paulus#tab-1" class="text-center">
+        <img src="imgs/erick.jpg" alt="Erick Paulus" class="w-24 h-24 object-cover rounded-full mx-auto shadow">
+        <p class="mt-2 text-sm font-medium">Erick Paulus</p>
+        <p class="text-xs text-gray-500">Leiden University</p>
+        <p class="text-xs text-gray-500">Universitas Padjadjaran</p>
+      </a>
+
+      <!-- Prof. dr. Willem van der Molen -->
+      <a href="http://www.willemvandermolen.nl/ " class="text-center">
+        <img src="imgs/wm.jpg" alt="Willem van der Molen" class="w-24 h-24 object-cover rounded-full mx-auto shadow">
+        <p class="mt-2 text-sm font-medium">Willem van der Molen</p>
+        <p class="text-xs text-gray-500">Leiden University</p>
+		<p class="text-xs text-gray-500">Universitas Indonesia</p>
+      </a>
+
+      <!-- Yosephin Apriastuti Rahayu -->
+      <a href="https://www.universiteitleiden.nl/en/staffmembers/yosephin-apriastuti-rahayu#tab-1" class="text-center">
+        <img src="imgs/yar.jpeg" alt="Yosephin Apriastuti Rahayu" class="w-24 h-24 object-cover rounded-full mx-auto shadow">
+        <p class="mt-2 text-sm font-medium">Yosephin Apriastuti Rahayu</p>
+        <p class="text-xs text-gray-500">Leiden University</p>
+        <p class="text-xs text-gray-500">Universitas Gadjah Mada</p>
+      </a>
+
+      <!-- Jean-Christophe Burie -->
+      <a href="https://l3i.univ-larochelle.fr/Burie-Jean-Christophe-MCF-HDR" class="text-center">
+        <img src="imgs/jcb.jpg" alt="Jean-Christophe Burie" class="w-24 h-24 object-cover rounded-full mx-auto shadow">
+        <p class="mt-2 text-sm font-medium">Jean-Christophe Burie</p>
+        <p class="text-xs text-gray-500">La Rochelle University</p>
+      </a>
+
+      
+	  <!-- Rahmat Sopian -->
+      <a href="https://scholar.google.com/citations?user=rAf9f5IAAAAJ&hl=en/" class="text-center">
+        <img src="imgs/rs.jpeg" alt="Rahmat Sopian" class="w-24 h-24 object-cover rounded-full mx-auto shadow">
+        <p class="mt-2 text-sm font-medium">Rahmat Sopian</p>
+        <p class="text-xs text-gray-500">Universitas Padjadjaran</p>
+      </a>
+      
+
+      <!-- Dian Nursantika -->
+      <a href="https://www.universiteitleiden.nl/en/staffmembers/dian-nursantika#tab-1" class="text-center">
+        <img src="imgs/dn.jpeg" alt="Dian Nursantika" class="w-24 h-24 object-cover rounded-full mx-auto shadow">
+        <p class="mt-2 text-sm font-medium">Dian Nursantika</p>
+        <p class="text-xs text-gray-500">Leiden University</p>
+        <p class="text-xs text-gray-500">Universitas Terbuka</p>
+      </a>
+
+      <!-- Setiawan Hadi -->
+      <a href="https://informatika.unpad.ac.id/teachers/dr-setiawan-hadi-m-sc-cs/" class="text-center">
+        <img src="imgs/shadi.jpeg" alt="Erick Paulus" class="w-24 h-24 object-cover rounded-full mx-auto shadow">
+        <p class="mt-2 text-sm font-medium">Setiawan Hadi</p>
+        <p class="text-xs text-gray-500">Universitas Padjadjaran</p>
+      </a>
+
+
+    </div>
+  </div>
+</section>
+
+
+  
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-blue-50 py-12">
+    <div class="container mx-auto px-4">
+      <h3 class="text-2xl font-semibold mb-4">Contact Us</h3>
+      <p>Email: <a href="mailto:f.j.verbeek@liacs.leidenuniv.nl" class="text-blue-600 hover:underline">f.j.verbeek {et} liacs.leidenuniv.nl</a></p>
+      <p class="mt-2">We welcome collaborations, inquiries, and feedback. Contact us to explore opportunities in digital humanities, language preservation, or historical document analysis.</p>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="hidden fixed bottom-5 right-5 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 ease-in-out" aria-label="Back to Top">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+    </svg>
+  </button>
+
+  <!-- Footer -->
+  <footer class="bg-white py-6 border-t text-center text-sm text-gray-600">
+    <p>&copy; 2025 Lontar Project. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const backToTop = document.getElementById("backToTop");
+    const menuToggle = document.getElementById("menu-toggle");
+    const menu = document.getElementById("menu");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 200) {
+        backToTop.classList.remove("hidden");
+      } else {
+        backToTop.classList.add("hidden");
+      }
+    });
+
+    backToTop.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    menuToggle.addEventListener("click", () => {
+      if (menu.classList.contains("hidden")) {
+        menu.classList.remove("hidden");
+        menu.classList.add("flex", "flex-col", "absolute", "bg-white", "right-4", "top-16", "shadow", "p-4", "space-y-2");
+      } else {
+        menu.classList.add("hidden");
+        menu.classList.remove("flex", "flex-col", "absolute", "bg-white", "right-4", "top-16", "shadow", "p-4", "space-y-2");
+      }
+    });
+
+
+    feather.replace();
+  </script>
+</body>
+</html>

@@ -1,0 +1,970 @@
+﻿{
+    "indexed":  {
+                    "date-parts":  [
+                                       [
+                                           2026,
+                                           8,
+                                           18
+                                       ]
+                                   ],
+                    "date-time":  "2026-08-18T14:53:25Z",
+                    "timestamp":  1787064805553,
+                    "version":  "build-2736575974"
+                },
+    "reference-count":  79,
+    "publisher":  "Springer Science and Business Media LLC",
+    "issue":  "9",
+    "license":  [
+                    {
+                        "start":  {
+                                      "date-parts":  [
+                                                         "2024 9 1"
+                                                     ],
+                                      "date-time":  "2024-09-01T00:00:00Z",
+                                      "timestamp":  1725148800000
+                                  },
+                        "content-version":  "tdm",
+                        "delay-in-days":  0,
+                        "URL":  "https://creativecommons.org/licenses/by/4.0"
+                    },
+                    {
+                        "start":  {
+                                      "date-parts":  [
+                                                         "2024 10 1"
+                                                     ],
+                                      "date-time":  "2024-10-01T00:00:00Z",
+                                      "timestamp":  1727740800000
+                                  },
+                        "content-version":  "vor",
+                        "delay-in-days":  30,
+                        "URL":  "https://creativecommons.org/licenses/by/4.0"
+                    }
+                ],
+    "funder":  [
+                   {
+                       "DOI":  "10.13039/501100001736",
+                       "name":  "German-Israeli Foundation for Scientific Research and Development",
+                       "doi-asserted-by":  "publisher",
+                       "award":  [
+                                     "I-1480-207.4/2018"
+                                 ],
+                       "award-info":  [
+                                          {
+                                              "award-number":  "I-1480-207.4/2018"
+                                          }
+                                      ],
+                       "id":  [
+                                  {
+                                      "id":  "10.13039/501100001736",
+                                      "id-type":  "DOI",
+                                      "asserted-by":  "publisher"
+                                  }
+                              ]
+                   },
+                   {
+                       "DOI":  "10.13039/501100003483",
+                       "name":  "Hebrew University of Jerusalem",
+                       "doi-asserted-by":  "crossref",
+                       "id":  [
+                                  {
+                                      "id":  "10.13039/501100003483",
+                                      "id-type":  "DOI",
+                                      "asserted-by":  "crossref"
+                                  }
+                              ]
+                   }
+               ],
+    "content-domain":  {
+                           "domain":  [
+                                          "link.springer.com"
+                                      ],
+                           "crossmark-restriction":  false
+                       },
+    "short-container-title":  [
+                                  "Mindfulness"
+                              ],
+    "published-print":  {
+                            "date-parts":  [
+                                               [
+                                                   2024,
+                                                   9
+                                               ]
+                                           ]
+                        },
+    "abstract":  "\u003cjats:title\u003eAbstract\u003c/jats:title\u003e\n                  \u003cjats:p\u003e\n                    Scholarly discussions of mindfulness normally treat the term as reflecting a specific, independent, psychological function. Here, mindfulness is placed  within a broader understanding of the Buddhist cultivation of consciousness, with special attention to the ethical aspects of mindfulness. Focusing on sources from early Buddhism, the article demonstrates how ethics was thought to have a positive, indeed a necessary, effect on a successful practice of mindfulness. The article moves beyond the\n                    \u003cjats:italic\u003eSati-paṭṭhāna-sutta\u003c/jats:italic\u003e\n                    (“The Foundations of Mindfulness”), which has been emphasized in scholarship, to related texts in the Middle Length Discourses (\n                    \u003cjats:italic\u003eMajjhima-Nikāya\u003c/jats:italic\u003e\n                    ) and beyond them to other Pāli sources. Here, we learn that “You should cultivate the four applications of mindfulness based on ethics, established in ethics.” While the emphasis on ethics in these sources reminds us of the conceptual dimensions of mindfulness, it also allows scholars to see both ethics and mindfulness as partaking in the broader attempt to enrich consciousness and make it healthier, softer, and more lucid. Buddhist practice works to change the structures of subjectivity and make them more conducive to liberation, in whatever way it may be defined. Thus, the Buddhist contemplative tradition can be seen to participate in an effort to change the quality of consciousness, rather than being a mere attempt to reach an annihilation of “suffering.” These considerations allow us to see mindfulness as a form of ethical activity in itself.\n                  \u003c/jats:p\u003e",
+    "DOI":  "10.1007/s12671-024-02434-2",
+    "type":  "journal-article",
+    "created":  {
+                    "date-parts":  [
+                                       [
+                                           2024,
+                                           10,
+                                           1
+                                       ]
+                                   ],
+                    "date-time":  "2024-10-01T02:01:43Z",
+                    "timestamp":  1727748103000
+                },
+    "page":  "2415-2427",
+    "update-policy":  "https://doi.org/10.1007/springer_crossmark_policy",
+    "source":  "Crossref",
+    "is-referenced-by-count":  10,
+    "title":  [
+                  "Ethics, Mindfulness, and Consciousness: A Study of Their Relation in Early Buddhism"
+              ],
+    "prefix":  "10.1007",
+    "volume":  "15",
+    "author":  [
+                   {
+                       "ORCID":  "https://orcid.org/0000-0002-4906-3382",
+                       "authenticated-orcid":  false,
+                       "given":  "Eviatar",
+                       "family":  "Shulman",
+                       "sequence":  "first",
+                       "affiliation":  [
+
+                                       ],
+                       "role":  [
+                                    {
+                                        "vocabulary":  "crossref",
+                                        "role":  "author"
+                                    }
+                                ]
+                   }
+               ],
+    "member":  "297",
+    "published-online":  {
+                             "date-parts":  [
+                                                [
+                                                    2024,
+                                                    10,
+                                                    1
+                                                ]
+                                            ]
+                         },
+    "reference":  [
+                      {
+                          "key":  "2434_CR1",
+                          "volume-title":  "Satipaṭṭhāna: The direct path to realization",
+                          "author":  "Bh Anālayo",
+                          "year":  "2003",
+                          "unstructured":  "Anālayo, Bh. (2003). Satipaṭṭhāna: The direct path to realization. Windhorse Publications."
+                      },
+                      {
+                          "issue":  "1",
+                          "key":  "2434_CR2",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "5",
+                          "DOI":  "10.1558/bsrv.v23i1.5",
+                          "volume":  "23",
+                          "author":  "Bh Anālayo",
+                          "year":  "2006",
+                          "unstructured":  "Anālayo, Bh. (2006). The Chinese versions of the Dantabhūmi Sutta. Buddhist Studies Review, 23(1), 5–19. https://doi.org/10.1558/bsrv.v23i1.5",
+                          "journal-title":  "Buddhist Studies Review"
+                      },
+                      {
+                          "key":  "2434_CR3",
+                          "volume-title":  "A comparative study of the Majjhima-nikāya, vol. 1 + 2",
+                          "author":  "Bh Anālayo",
+                          "year":  "2011",
+                          "unstructured":  "Anālayo, Bh. (2011). A comparative study of the Majjhima-nikāya, vol. 1 + 2. Dharma Drum Publishing Corporation."
+                      },
+                      {
+                          "key":  "2434_CR4",
+                          "volume-title":  "Early Buddhist oral tradition: Textual formation and transmission",
+                          "author":  "Bh Anālayo",
+                          "year":  "2022",
+                          "unstructured":  "Anālayo, Bh. (2022). Early Buddhist oral tradition: Textual formation and transmission. Wisdom Publications."
+                      },
+                      {
+                          "key":  "2434_CR5",
+                          "volume-title":  "Jātaka stories in Theravāda Buddhism: Narrating the Bodhisatta path",
+                          "author":  "N Appleton",
+                          "year":  "2010",
+                          "unstructured":  "Appleton, N. (2010). Jātaka stories in Theravāda Buddhism: Narrating the Bodhisatta path. Ashgate."
+                      },
+                      {
+                          "key":  "2434_CR6",
+                          "doi-asserted-by":  "publisher",
+                          "DOI":  "10.4324/9781315676043",
+                          "volume-title":  "Early Buddhist meditation: The four jhānas as the actualization of insight",
+                          "author":  "K Arbel",
+                          "year":  "2017",
+                          "unstructured":  "Arbel, K. (2017). Early Buddhist meditation: The four jhānas as the actualization of insight. Routledge."
+                      },
+                      {
+                          "key":  "2434_CR7",
+                          "doi-asserted-by":  "publisher",
+                          "DOI":  "10.1007/s12671-024-02411-9",
+                          "author":  "A Ben-David",
+                          "year":  "2024",
+                          "unstructured":  "Ben-David, A. (2024). Bridging the gap between sīla and samādhi: The role of mindfulness in pre-meditative practice. Mindfulness. https://doi.org/10.1007/s12671-024-02411-9",
+                          "journal-title":  "Mindfulness"
+                      },
+                      {
+                          "key":  "2434_CR8",
+                          "volume-title":  "The Atman-Brahman in ancient Buddhism",
+                          "author":  "K Bhattacarya",
+                          "year":  "2015",
+                          "unstructured":  "Bhattacarya, K. (2015). The Atman-Brahman in ancient Buddhism. Canon."
+                      },
+                      {
+                          "key":  "2434_CR9",
+                          "unstructured":  "Bodhi, B., (trans.), (2000). A comprehensive manual of Abhidhamma, the Abhidhammattha Sangaha of Ācariya Anuruddha. BPS Pariyatti Editions."
+                      },
+                      {
+                          "issue":  "1",
+                          "key":  "2434_CR10",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "19",
+                          "DOI":  "10.1080/14639947.2011.564813",
+                          "volume":  "12",
+                          "author":  "B Bodhi",
+                          "year":  "2011",
+                          "unstructured":  "Bodhi, B. (2011). What does mindfulness really mean? A canonical perspective. Contemporary Buddhism, 12(1), 19–39. https://doi.org/10.1080/14639947.2011.564813",
+                          "journal-title":  "A Canonical Perspective. Contemporary Buddhism"
+                      },
+                      {
+                          "issue":  "3",
+                          "key":  "2434_CR11",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "230",
+                          "DOI":  "10.1093/clipsy.bph077",
+                          "volume":  "11",
+                          "author":  "SR Bishop",
+                          "year":  "2004",
+                          "unstructured":  "Bishop, S. R., Lau, M., Shapiro, S., Carlson, L., Anderson, N. D., Carmody, J., Segal, Z. V., Abbey, S., Specca, M., Velting, D., \u0026 Devins, G. (2004). Mindfulness: A proposed operational definition. Clinical Psychology: Science and Practice, 11(3), 230–241. https://doi.org/10.1093/clipsy.bph077",
+                          "journal-title":  "Clinical Psychology: Science and Practice"
+                      },
+                      {
+                          "issue":  "2",
+                          "key":  "2434_CR12",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "469",
+                          "DOI":  "10.1525/aa.1998.100.2.469",
+                          "volume":  "100",
+                          "author":  "KA Bowie",
+                          "year":  "1998",
+                          "unstructured":  "Bowie, K. A. (1998). The alchemy of charity: Of class and Buddhism in Northern Thailand. American Anthropologist, 100(2), 469–481. https://doi.org/10.1525/aa.1998.100.2.469",
+                          "journal-title":  "American Anthropologist"
+                      },
+                      {
+                          "key":  "2434_CR13",
+                          "volume-title":  "Of beggars and Buddhas: The politics of humor in the Vessantara Jataka in Thailand",
+                          "author":  "KA Bowie",
+                          "year":  "2017",
+                          "unstructured":  "Bowie, K. A. (2017). Of beggars and Buddhas: The politics of humor in the Vessantara Jataka in Thailand. University of Wisconsin Press."
+                      },
+                      {
+                          "key":  "2434_CR14",
+                          "first-page":  "64",
+                          "volume-title":  "Sacred biography in the Buddhist traditions of South and Southeast Asia",
+                          "author":  "RL Brown",
+                          "year":  "1997",
+                          "unstructured":  "Brown, R. L. (1997). Narrative as icon: The Jātaka stories in ancient Indian and Southeast Asian architecture. In J. Schober (Ed.), Sacred biography in the Buddhist traditions of South and Southeast Asia (pp. 64–103). University of Hawai’i Press."
+                      },
+                      {
+                          "key":  "2434_CR15",
+                          "volume-title":  "Living Buddhism: Mind, self and emotion in a Thai community",
+                          "author":  "J Cassaniti",
+                          "year":  "2015",
+                          "unstructured":  "Cassaniti, J. (2015). Living Buddhism: Mind, self and emotion in a Thai community. Cornell University Press."
+                      },
+                      {
+                          "key":  "2434_CR16",
+                          "doi-asserted-by":  "publisher",
+                          "DOI":  "10.1017/CBO9780511621499",
+                          "volume-title":  "Selfless persons: Imagery and thought in Theravāda Buddhism",
+                          "author":  "S Collins",
+                          "year":  "1982",
+                          "unstructured":  "Collins, S. (1982). Selfless persons: Imagery and thought in Theravāda Buddhism. Cambridge University Press."
+                      },
+                      {
+                          "key":  "2434_CR17",
+                          "volume-title":  "Consciousness explained",
+                          "author":  "DC Dennett",
+                          "year":  "1991",
+                          "unstructured":  "Dennett, D. C. (1991). Consciousness explained. Little Brown."
+                      },
+                      {
+                          "issue":  "1",
+                          "key":  "2434_CR18",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "41",
+                          "DOI":  "10.1080/14639947.2011.564815",
+                          "volume":  "12",
+                          "author":  "G Dreyfus",
+                          "year":  "2011",
+                          "unstructured":  "Dreyfus, G. (2011a). Is mindfulness present-centred and non-judgmental? A discussion of the cognitive dimensions of mindfulness. Contemporary Buddhism, 12(1), 41–54. https://doi.org/10.1080/14639947.2011.564815",
+                          "journal-title":  "Contemporary Buddhism"
+                      },
+                      {
+                          "key":  "2434_CR19",
+                          "first-page":  "114",
+                          "volume-title":  "Self no self? Perspectives from analytical, phenomenological, and Indian traditions",
+                          "author":  "G Dreyfus",
+                          "year":  "2011",
+                          "unstructured":  "Dreyfus, G. (2011b). Self and subjectivity: A middle-way approach. In M. Siderits, E. Thompson, \u0026 D. Zahavi (Eds.), Self no self? Perspectives from analytical, phenomenological, and Indian traditions (pp. 114–156). Oxford University Press."
+                      },
+                      {
+                          "issue":  "1",
+                          "key":  "2434_CR20",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "71",
+                          "DOI":  "10.1080/14639947.2011.564820",
+                          "volume":  "12",
+                          "author":  "J Dunne",
+                          "year":  "2011",
+                          "unstructured":  "Dunne, J. (2011). Toward an understanding of non-dual mindfulness. Contemporary Buddhism, 12(1), 71–88. https://doi.org/10.1080/14639947.2011.564820",
+                          "journal-title":  "Contemporary Buddhism"
+                      },
+                      {
+                          "key":  "2434_CR21",
+                          "doi-asserted-by":  "publisher",
+                          "unstructured":  "Gethin, R. (1986). The five khandhas: Their treatment in the Nikāyas and early Abhidhamma. Journal of Indian Philosophy, 14, 35–53. https://doi.org/10.1007/BF00165825",
+                          "DOI":  "10.1007/BF00165825"
+                      },
+                      {
+                          "key":  "2434_CR22",
+                          "volume-title":  "The Buddhist path to awakening",
+                          "author":  "RML Gethin",
+                          "year":  "2001",
+                          "unstructured":  "Gethin, R. M. L. (2001). The Buddhist path to awakening. Oneworld."
+                      },
+                      {
+                          "issue":  "1",
+                          "key":  "2434_CR23",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "263",
+                          "DOI":  "10.1080/14639947.2011.564843",
+                          "volume":  "12",
+                          "author":  "R Gethin",
+                          "year":  "2011",
+                          "unstructured":  "Gethin, R. (2011). On some definitions of mindfulness. Contemporary Buddhism, 12(1), 263–279. https://doi.org/10.1080/14639947.2011.564843",
+                          "journal-title":  "Contemporary Buddhism"
+                      },
+                      {
+                          "key":  "2434_CR24",
+                          "first-page":  "43",
+                          "volume":  "18",
+                          "author":  "G Giustarini",
+                          "year":  "2017",
+                          "unstructured":  "Giustarini, G. (2017). The interaction of morality (sīla) with cognitive factors in the Pāli Nikāyas. Journal of Indian International Journal of Buddhist Studies, 18, 43–70.",
+                          "journal-title":  "Journal of Indian International Journal of Buddhist Studies"
+                      },
+                      {
+                          "key":  "2434_CR25",
+                          "volume-title":  "How Buddhism began",
+                          "author":  "RF Gombrich",
+                          "year":  "1996",
+                          "unstructured":  "Gombrich, R. F. (1996). How Buddhism began. Athlone."
+                      },
+                      {
+                          "issue":  "1",
+                          "key":  "2434_CR26",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "35",
+                          "DOI":  "10.1016/s0022-3999(03)00573-7",
+                          "volume":  "57",
+                          "author":  "P Grossman",
+                          "year":  "2004",
+                          "unstructured":  "Grossman, P., Niemann, L., Schmidt, S., \u0026 Walach, H. (2004). Mindfulness-based stress reduction and health benefits: A meta-analysis. Journal of Psychosomatic Research, 57(1), 35–43. https://doi.org/10.1016/s0022-3999(03)00573-7",
+                          "journal-title":  "Journal of Psychosomatic Research"
+                      },
+                      {
+                          "key":  "2434_CR27",
+                          "unstructured":  "Hallisey, C. (1988). Devotion in the Buddhist literature of medieval Sri Lanka. (Doctoral Dissertation), University of Chicago. ProQuest Dissertations and Theses."
+                      },
+                      {
+                          "key":  "2434_CR28",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "296",
+                          "DOI":  "10.2307/j.ctvcm4h64.33",
+                          "volume-title":  "Buddhism in practice",
+                          "author":  "Ch Hallisey",
+                          "year":  "2015",
+                          "unstructured":  "Hallisey, C. (2015). Auspicious things. In D. Lopez (Ed.), Buddhism in practice (abridged, pp. 296–310). Princeton University Press.",
+                          "edition":  "abridged"
+                      },
+                      {
+                          "issue":  "2",
+                          "key":  "2434_CR29",
+                          "first-page":  "305",
+                          "volume":  "24",
+                          "author":  "Ch Hallisey",
+                          "year":  "1996",
+                          "unstructured":  "Hallisey, C., \u0026 Hansen, A. (1996). Narrative, sub-ethics, and the moral life: Some evidence from Theravāda Buddhism. The Journal of Religious Ethics, 24(2), 305–325.",
+                          "journal-title":  "The Journal of Religious Ethics"
+                      },
+                      {
+                          "key":  "2434_CR30",
+                          "first-page":  "53",
+                          "volume-title":  "Love divine: Studies in bhakti and devotional mysticism",
+                          "author":  "P Harvey",
+                          "year":  "1993",
+                          "unstructured":  "Harvey, P. (1993). The dynamics of paritta chanting in Southern Buddhism. In W. Karel (Ed.), Love divine: Studies in bhakti and devotional mysticism (pp. 53–84). Curzon Press."
+                      },
+                      {
+                          "key":  "2434_CR31",
+                          "volume-title":  "The selfless mind: Personality, consciousness and nirvana in early Buddhism",
+                          "author":  "P Harvey",
+                          "year":  "1995",
+                          "unstructured":  "Harvey, P. (1995). The selfless mind: Personality, consciousness and nirvana in early Buddhism. Curzon."
+                      },
+                      {
+                          "key":  "2434_CR32",
+                          "doi-asserted-by":  "publisher",
+                          "DOI":  "10.1017/CBO9780511800801",
+                          "volume-title":  "An introduction to Buddhist ethics: Foundations, values and issues",
+                          "author":  "P Harvey",
+                          "year":  "2000",
+                          "unstructured":  "Harvey, P. (2000). An introduction to Buddhist ethics: Foundations, values and issues. Cambridge University Press."
+                      },
+                      {
+                          "key":  "2434_CR33",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "143",
+                          "DOI":  "10.4324/9781351030908-16",
+                          "volume-title":  "The Routledge handbook of Indian Buddhist philosophy",
+                          "author":  "M Heim",
+                          "year":  "2022",
+                          "unstructured":  "Heim, M. (2022). The Dhammasaṅgaṇī and the Vibhaṅga: The perfectly awakened Buddha and the first Abhidhammikas. In W. Edelglass, P. Herter, \u0026 S. McClintock (Eds.), The Routledge handbook of Indian Buddhist philosophy (pp. 143–159). Routledge."
+                      },
+                      {
+                          "key":  "2434_CR34",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Heim, M. (2004). Theories of the gift in South Asia: Hindu, Buddhist, and Jain reflections on Dāna. Routledge.",
+                          "DOI":  "10.4324/9780203502266"
+                      },
+                      {
+                          "issue":  "1",
+                          "key":  "2434_CR35",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "87",
+                          "DOI":  "10.33356/temenos.55371",
+                          "volume":  "52",
+                          "author":  "V Husgafvel",
+                          "year":  "2016",
+                          "unstructured":  "Husgafvel, V. (2016). On the Buddhist roots of contemporary non-religious mindfulness practice: Moving beyond sectarian and essentialist approaches. Temenos, 52(1), 87–126. https://doi.org/10.33356/temenos.55371",
+                          "journal-title":  "Temenos"
+                      },
+                      {
+                          "key":  "2434_CR36",
+                          "volume-title":  "Full catastrophe living: The program of the stress reduction clinic at the university of Massachusetts medical center",
+                          "author":  "J Kabat-Zinn",
+                          "year":  "1990",
+                          "unstructured":  "Kabat-Zinn, J. (1990). Full catastrophe living: The program of the stress reduction clinic at the university of Massachusetts medical center. Dell."
+                      },
+                      {
+                          "issue":  "1",
+                          "key":  "2434_CR37",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "281",
+                          "DOI":  "10.1080/14639947.2011.564844",
+                          "volume":  "12",
+                          "author":  "J Kabat-Zinn",
+                          "year":  "2011",
+                          "unstructured":  "Kabat-Zinn, J. (2011). Some reflections on the origins of MBSR, skillful means, and the trouble with maps. Contemporary Buddhism, 12(1), 281–306. https://doi.org/10.1080/14639947.2011.564844",
+                          "journal-title":  "Contemporary Buddhism"
+                      },
+                      {
+                          "key":  "2434_CR38",
+                          "volume-title":  "Mind and world in Indian Buddhism",
+                          "author":  "S Kachru",
+                          "year":  "2021",
+                          "unstructured":  "Kachru, S. (2021). Mind and world in Indian Buddhism. Columbia University Press."
+                      },
+                      {
+                          "key":  "2434_CR39",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "161",
+                          "DOI":  "10.1007/s12671-010-0018-1",
+                          "volume":  "1",
+                          "author":  "C Kang",
+                          "year":  "2010",
+                          "unstructured":  "Kang, C., \u0026 Whittingham, K. (2010). Mindfulness: A dialogue between Buddhism and clinical psychology. Mindfulness, 1(3), 161–173. https://doi.org/10.1007/s12671-010-0018-1",
+                          "journal-title":  "Mindfulness"
+                      },
+                      {
+                          "key":  "2434_CR40",
+                          "doi-asserted-by":  "publisher",
+                          "DOI":  "10.7551/mitpress/9367.001.0001",
+                          "volume-title":  "Consciousness: Confessions of a romantic reductionist",
+                          "author":  "Ch Koch",
+                          "year":  "2012",
+                          "unstructured":  "Koch, Ch. (2012). Consciousness: Confessions of a romantic reductionist. MIT."
+                      },
+                      {
+                          "key":  "2434_CR41",
+                          "first-page":  "27",
+                          "volume-title":  "Self no self? Perspectives from analytical, phenomenological, and Indian traditions",
+                          "author":  "JW Krueger",
+                          "year":  "2011",
+                          "unstructured":  "Krueger, J. W. (2011). The who and the how of experience. In M. Siderits, E. Thompson, \u0026 D. Zahavi (Eds.), Self no self? Perspectives from analytical, phenomenological, and Indian traditions (pp. 27–55). Oxford University Press."
+                      },
+                      {
+                          "key":  "2434_CR42",
+                          "volume-title":  "Mindfulness in early Buddhism: New approaches through psychology and textual analysis of Pali",
+                          "author":  "T Kuan",
+                          "year":  "2008",
+                          "unstructured":  "Kuan, T. (2008). Mindfulness in early Buddhism: New approaches through psychology and textual analysis of Pali. Routledge."
+                      },
+                      {
+                          "key":  "2434_CR43",
+                          "unstructured":  "Larson, G. (1979). Classical Sāṃkhya: An interpretation of its history and meaning. Motilal Banarsidass."
+                      },
+                      {
+                          "key":  "2434_CR44",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "243",
+                          "DOI":  "10.1007/978-3-319-44019-4_17",
+                          "volume-title":  "Handbook of mindfulness: Culture, context, and social engagement",
+                          "author":  "DJ Lewis",
+                          "year":  "2016",
+                          "unstructured":  "Lewis, D. J., \u0026 Rozelle, D. (2016). Mindfulness-based interventions: Clinical psychology, Buddhadharma, or both? A wisdom perspective. In R. E. Purser, D. Forbes, \u0026 A. Burke (Eds.), Handbook of mindfulness: Culture, context, and social engagement (pp. 243–268). Springer."
+                      },
+                      {
+                          "issue":  "1–2",
+                          "key":  "2434_CR45",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "155",
+                          "DOI":  "10.1080/03033910.2008.10446281",
+                          "volume":  "29",
+                          "author":  "P Malinowski",
+                          "year":  "2008",
+                          "unstructured":  "Malinowski, P. (2008). Mindfulness as psychological dimension: Concepts and applications. The Irish Journal of Psychology, 29(1–2), 155–166. https://doi.org/10.1080/03033910.2008.10446281",
+                          "journal-title":  "The Irish Journal of Psychology"
+                      },
+                      {
+                          "key":  "2434_CR46",
+                          "volume-title":  "The making of Buddhist modernism",
+                          "author":  "DL McMahan",
+                          "year":  "2008",
+                          "unstructured":  "McMahan, D. L. (2008). The making of Buddhist modernism. Oxford University Press."
+                      },
+                      {
+                          "key":  "2434_CR47",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "21",
+                          "DOI":  "10.1093/oso/9780190495794.001.0001",
+                          "volume-title":  "Meditation, Buddhism and science",
+                          "author":  "DL McMahan",
+                          "year":  "2017",
+                          "unstructured":  "McMahan, D. L. (2017). How meditation works: Theorizing the role of cultural context in Buddhist contemplative practices. In D. L. McMahan \u0026 E. Braun (Eds.), Meditation, Buddhism and science (pp. 21–46). Oxford University Press."
+                      },
+                      {
+                          "key":  "2434_CR48",
+                          "doi-asserted-by":  "publisher",
+                          "unstructured":  "Monteiro, L. (2015). Dharma and distress: Buddhist teachings that support the psychological principles in a mindfulness program. In E. Shonin, W. Van Gordon, \u0026 N. Singh (Eds.), Buddhist foundations of mindfulness (pp. 181–215). Springer. https://doi.org/10.1007/978-3-319-18591-0_10",
+                          "DOI":  "10.1007/978-3-319-18591-0_10"
+                      },
+                      {
+                          "key":  "2434_CR49",
+                          "doi-asserted-by":  "publisher",
+                          "unstructured":  "Monteiro, L. M., Compson, J. F., \u0026 Musten, F., (eds.), (2017). Practitioner\u0027s guide to ethics and mindfulness-based interventions. Springer. https://doi.org/10.1007/978-3-319-64924-5",
+                          "DOI":  "10.1007/978-3-319-64924-5"
+                      },
+                      {
+                          "issue":  "2",
+                          "key":  "2434_CR50",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "275",
+                          "DOI":  "10.1080/14639947.2016.1228324",
+                          "volume":  "17",
+                          "author":  "A Murphy",
+                          "year":  "2016",
+                          "unstructured":  "Murphy, A. (2016). Mindfulness-based therapy in modern psychology: Convergence and divergence from early Buddhist thought. Contemporary Buddhism, 17(2), 275–325. https://doi.org/10.1080/14639947.2016.1228324",
+                          "journal-title":  "Contemporary Buddhism"
+                      },
+                      {
+                          "key":  "2434_CR51",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "435",
+                          "DOI":  "10.2307/2183914",
+                          "volume":  "83",
+                          "author":  "Th Nagel",
+                          "year":  "1974",
+                          "unstructured":  "Nagel, T. (1974). What is it like to be a bat? Philosophical Review, 83, 435–450. https://doi.org/10.2307/2183914",
+                          "journal-title":  "Philosophical Review"
+                      },
+                      {
+                          "issue":  "2",
+                          "key":  "2434_CR52",
+                          "first-page":  "219",
+                          "volume":  "120",
+                          "author":  "G Obeyesekere",
+                          "year":  "1991",
+                          "unstructured":  "Obeyesekere, G. (1991). Buddhism and conscience: An exploratory essay. Daedelus, 120(2), 219–239.",
+                          "journal-title":  "Daedelus"
+                      },
+                      {
+                          "key":  "2434_CR53",
+                          "doi-asserted-by":  "publisher",
+                          "unstructured":  "Olendzki, A. (2011). The construction of mindfulness. Contemporary Buddhism, 12(1), 55–70. https://doi.org/10.1080/14639947.2011.564817",
+                          "DOI":  "10.1080/14639947.2011.564817"
+                      },
+                      {
+                          "key":  "2434_CR54",
+                          "doi-asserted-by":  "publisher",
+                          "DOI":  "10.1093/oso/9780195124354.001.0001",
+                          "volume-title":  "The early Upaniṣads: Annotated text and translation",
+                          "author":  "P Olivelle",
+                          "year":  "1998",
+                          "unstructured":  "Olivelle, P. (1998). The early Upaniṣads: Annotated text and translation. Oxford University Press."
+                      },
+                      {
+                          "issue":  "3",
+                          "key":  "2434_CR55",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "734",
+                          "DOI":  "10.1093/jaarel/lft022",
+                          "volume":  "81",
+                          "author":  "AM Pinkney",
+                          "year":  "2013",
+                          "unstructured":  "Pinkney, A. M. (2013). Prasāda, the gracious gift, in contemporary and classical South Asia. Journal of the American Academy of Religion, 81(3), 734–756. https://doi.org/10.1093/jaarel/lft022",
+                          "journal-title":  "Journal of the American Academy of Religion"
+                      },
+                      {
+                          "key":  "2434_CR56",
+                          "volume-title":  "The encyclopedia of philosophies, vol. 3: Advaita Vedānta up to Śaṃkara and his pupils",
+                          "author":  "KH Potter",
+                          "year":  "2014",
+                          "unstructured":  "Potter, K. H. (2014). The encyclopedia of philosophies, vol. 3: Advaita Vedānta up to Śaṃkara and his pupils. Princeton University Press."
+                      },
+                      {
+                          "issue":  "1",
+                          "key":  "2434_CR57",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "3",
+                          "DOI":  "10.1177/1056492614532315",
+                          "volume":  "24",
+                          "author":  "RE Purser",
+                          "year":  "2015",
+                          "unstructured":  "Purser, R. E., \u0026 Milillo, J. (2015). Mindfulness revisited: A Buddhist-based conceptualization. Journal of Management Inquiry, 24(1), 3–24. https://doi.org/10.1177/1056492614532315",
+                          "journal-title":  "Journal of Management Inquiry"
+                      },
+                      {
+                          "key":  "2434_CR58",
+                          "unstructured":  "Ram-Prasad, C. (2013). Divine Self, Human Self: The Philosophy of Being in Two Gita Commentaries. Bloomsbury."
+                      },
+                      {
+                          "key":  "2434_CR59",
+                          "volume-title":  "Thus have I seen: Visualizing faith in early Indian Buddhism",
+                          "author":  "A Rotman",
+                          "year":  "2009",
+                          "unstructured":  "Rotman, A. (2009). Thus have I seen: Visualizing faith in early Indian Buddhism. Oxford University Press."
+                      },
+                      {
+                          "issue":  "2",
+                          "key":  "2434_CR60",
+                          "first-page":  "137",
+                          "volume":  "11",
+                          "author":  "H Saddhātissa",
+                          "year":  "1978",
+                          "unstructured":  "Saddhātissa, H. (1978). The Saddhā concept in Buddhism. The Eastern Buddhist, 11(2), 137–142.",
+                          "journal-title":  "The Eastern Buddhist"
+                      },
+                      {
+                          "issue":  "2",
+                          "key":  "2434_CR61",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "297",
+                          "DOI":  "10.1007/s10781-007-9030-8",
+                          "volume":  "36",
+                          "author":  "E Shulman",
+                          "year":  "2008",
+                          "unstructured":  "Shulman, E. (2008). Early meanings of dependent-origination. Journal of Indian Philosophy, 36(2), 297–317. https://doi.org/10.1007/s10781-007-9030-8",
+                          "journal-title":  "Journal of Indian Philosophy"
+                      },
+                      {
+                          "issue":  "4",
+                          "key":  "2434_CR62",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "393",
+                          "DOI":  "10.1086/649856",
+                          "volume":  "49",
+                          "author":  "E Shulman",
+                          "year":  "2010",
+                          "unstructured":  "Shulman, E. (2010). Mindful wisdom: The Sati-paṭṭhāna-sutta on mindfulness, memory, and liberation. History of Religions, 49(4), 393–420. https://doi.org/10.1086/649856",
+                          "journal-title":  "History of Religions"
+                      },
+                      {
+                          "key":  "2434_CR63",
+                          "doi-asserted-by":  "publisher",
+                          "DOI":  "10.1017/CBO9781107477100",
+                          "volume-title":  "Rethinking the Buddha: Early Buddhist philosophy as meditative perception",
+                          "author":  "E Shulman",
+                          "year":  "2014",
+                          "unstructured":  "Shulman, E. (2014). Rethinking the Buddha: Early Buddhist philosophy as meditative perception. Cambridge University Press."
+                      },
+                      {
+                          "issue":  "1",
+                          "key":  "2434_CR64",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "9",
+                          "DOI":  "10.1558/rosa.37510",
+                          "volume":  "21",
+                          "author":  "E Shulman",
+                          "year":  "2018",
+                          "unstructured":  "Shulman, E. (2018). Contemplating the Buddha in the Jātakas. Religious of South Asia, 21(1), 9–33. https://doi.org/10.1558/rosa.37510",
+                          "journal-title":  "Religious of South Asia"
+                      },
+                      {
+                          "key":  "2434_CR65",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "207",
+                          "DOI":  "10.1163/15685276-12341533",
+                          "volume":  "66",
+                          "author":  "E Shulman",
+                          "year":  "2019",
+                          "unstructured":  "Shulman, E. (2019). The protective Buddha: On the cosmological logic of paritta. Numen, 66, 207–242. https://doi.org/10.1163/15685276-12341533",
+                          "journal-title":  "Numen"
+                      },
+                      {
+                          "key":  "2434_CR66",
+                          "doi-asserted-by":  "publisher",
+                          "DOI":  "10.1093/oso/9780197587867.001.0001",
+                          "volume-title":  "Visions of the Buddha: Creative dimensions of early Buddhist scripture",
+                          "author":  "E Shulman",
+                          "year":  "2021",
+                          "unstructured":  "Shulman, E. (2021). Visions of the Buddha: Creative dimensions of early Buddhist scripture. Oxford University Press."
+                      },
+                      {
+                          "key":  "2434_CR67",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "111",
+                          "DOI":  "10.1163/15685276-20240001",
+                          "volume":  "71",
+                          "author":  "E Shulman",
+                          "year":  "2024",
+                          "unstructured":  "Shulman, E. (2024). Performing Theravāda: Introduction. Numen, 71, 111–140. https://doi.org/10.1163/15685276-20240001",
+                          "journal-title":  "Numen"
+                      },
+                      {
+                          "issue":  "311",
+                          "key":  "2434_CR68",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "278",
+                          "DOI":  "10.2307/537499",
+                          "volume":  "79",
+                          "author":  "RF Spencer",
+                          "year":  "1966",
+                          "unstructured":  "Spencer, R. F. (1966). Ethical expression in Burmese Jātaka. The Journal of American Folklore, 79(311), 278–301.",
+                          "journal-title":  "The Journal of American Folklore"
+                      },
+                      {
+                          "key":  "2434_CR69",
+                          "doi-asserted-by":  "publisher",
+                          "unstructured":  "Stanley, S. (2015). Sīla and sati: An exploration of ethics and mindfulness in Pāli Buddhism and their implications for secular mindfulness-based applications. In E. Shonin, W. Van Gordon, \u0026 N. N. Singh (Eds.), Buddhist foundations of mindfulness (pp. 89–113). Springer International Publishing. https://doi.org/10.1007/978-3-319-18591-0_6",
+                          "DOI":  "10.1007/978-3-319-18591-0_6"
+                      },
+                      {
+                          "key":  "2434_CR70",
+                          "doi-asserted-by":  "publisher",
+                          "unstructured":  "Stanley, S., Purser, R. E., \u0026 Singh, N. N., (eds.), (2018). Handbook of ethical foundations of mindfulness. Springer. https://doi.org/10.1007/978-3-319-76538-9",
+                          "DOI":  "10.1007/978-3-319-76538-9"
+                      },
+                      {
+                          "key":  "2434_CR71",
+                          "first-page":  "277",
+                          "volume-title":  "Mārga: Paths to liberation in South Asian Buddhist traditions",
+                          "author":  "D Stuart",
+                          "year":  "2020",
+                          "unstructured":  "Stuart, D. (2020). Map becomes territory: Knowledge and modes of existence in middle period Buddhist meditation practice. In Ch. Pecchia \u0026 V. Eltschinger (Eds.), Mārga: Paths to liberation in South Asian Buddhist traditions (pp. 277–302). Austrian Academy of Sciences."
+                      },
+                      {
+                          "key":  "2434_CR72",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Thompson, E. (2011). Self-no-self? Memory and reflexive awareness. In M. Siderits, E. Thompson, \u0026 D. Zahavi (Eds.), Self no self? Perspectives from analytical, phenomenological, and Indian traditions (pp. 157–175). Oxford University Press.",
+                          "DOI":  "10.1093/acprof:oso/9780199593804.003.0006"
+                      },
+                      {
+                          "key":  "2434_CR73",
+                          "first-page":  "47",
+                          "volume-title":  "Meditation, Buddhism and science",
+                          "author":  "E Thompson",
+                          "year":  "2017",
+                          "unstructured":  "Thompson, E. (2017). Looping effects and the cognitive science of mindfulness meditation. In D. L. McMahan \u0026 E. Braun (Eds.), Meditation, Buddhism and science (pp. 47–61). Oxford University Press."
+                      },
+                      {
+                          "issue":  "1",
+                          "key":  "2434_CR74",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "157",
+                          "DOI":  "10.1080/14639947.2016.1162425",
+                          "volume":  "17",
+                          "author":  "A Valerio",
+                          "year":  "2016",
+                          "unstructured":  "Valerio, A. (2016). Owning mindfulness: A bibliometric analysis of mindfulness literature trends within and outside of Buddhist contexts. Contemporary Buddhism, 17(1), 157–183. https://doi.org/10.1080/14639947.2016.1162425",
+                          "journal-title":  "Contemporary Buddhism"
+                      },
+                      {
+                          "issue":  "1",
+                          "key":  "2434_CR75",
+                          "doi-asserted-by":  "publisher",
+                          "first-page":  "36",
+                          "DOI":  "10.1177/1745691617709589",
+                          "volume":  "13",
+                          "author":  "NT Van Dam",
+                          "year":  "2018",
+                          "unstructured":  "Van Dam, N. T., Van Vugt, M. K., Vago, D. R., Schmalzl, L., Saron, C. D., Olendzki, A., Meissner, T., Lazar, S. W., Kerr, C. E., Gorchov, J., Fox, K. C. R., Field, B. A., Britton, W. B., Brefczynski-Lewis, J. A., \u0026 Meyer, D. E. (2018). Mind the hype: A critical evaluation and prescriptive agenda for research on mindfulness and meditation. Perspectives on Psychological Science, 13(1), 36–61. https://doi.org/10.1177/1745691617709589",
+                          "journal-title":  "Perspectives on Psychological Science"
+                      },
+                      {
+                          "key":  "2434_CR76",
+                          "first-page":  "84",
+                          "volume-title":  "Meditation, Buddhism and science",
+                          "author":  "WS Waldron",
+                          "year":  "2017",
+                          "unstructured":  "Waldron, W. S. (2017). Reflections on Indian Buddhist thought and the scientific study of meditation, or why scientists should talk more with their Buddhist subjects. In D. L. McMahan \u0026 E. Braun (Eds.), Meditation, Buddhism and science (pp. 84–113). Oxford University Press."
+                      },
+                      {
+                          "key":  "2434_CR77",
+                          "volume-title":  "Summary of the topics of Abhidhamma (Abhidhammatthasaṅgaha) by Anuruddha, and exposition of the topics of Abhidhamma (abhidhammatthavibāvinī) by Suamṅgala, being a commentary on Anuruddha’s summary of the topics of Abhidhamma",
+                          "author":  "RP Wijeratne",
+                          "year":  "2007",
+                          "unstructured":  "Wijeratne, R. P., \u0026 Gethin, R. (2007). Summary of the topics of Abhidhamma (Abhidhammatthasaṅgaha) by Anuruddha, and exposition of the topics of Abhidhamma (abhidhammatthavibāvinī) by Suamṅgala, being a commentary on Anuruddha’s summary of the topics of Abhidhamma. The Pali Text Society."
+                      },
+                      {
+                          "key":  "2434_CR78",
+                          "doi-asserted-by":  "publisher",
+                          "DOI":  "10.1093/acprof:oso/9780199827817.001.0001",
+                          "volume-title":  "Mindful America: Meditation and the mutual transformation of Buddhism and American culture",
+                          "author":  "J Wilson",
+                          "year":  "2014",
+                          "unstructured":  "Wilson, J. (2014). Mindful America: Meditation and the mutual transformation of Buddhism and American culture. Oxford University Press."
+                      },
+                      {
+                          "key":  "2434_CR79",
+                          "first-page":  "56",
+                          "volume-title":  "Self no self? Perspectives from analytical, phenomenological, and Indian traditions",
+                          "author":  "D Zahavi",
+                          "year":  "2011",
+                          "unstructured":  "Zahavi, D. (2011). The experiential self: Objections and clarifications. In M. Siderits, E. Thompson, \u0026 D. Zahavi (Eds.), Self no self? Perspectives from analytical, phenomenological, and Indian traditions (pp. 56–78). Oxford University Press."
+                      }
+                  ],
+    "container-title":  [
+                            "Mindfulness"
+                        ],
+    "original-title":  [
+
+                       ],
+    "language":  "en",
+    "link":  [
+                 {
+                     "URL":  "https://link.springer.com/content/pdf/10.1007/s12671-024-02434-2.pdf",
+                     "content-type":  "application/pdf",
+                     "content-version":  "vor",
+                     "intended-application":  "text-mining"
+                 },
+                 {
+                     "URL":  "https://link.springer.com/article/10.1007/s12671-024-02434-2/fulltext.html",
+                     "content-type":  "text/html",
+                     "content-version":  "vor",
+                     "intended-application":  "text-mining"
+                 },
+                 {
+                     "URL":  "https://link.springer.com/content/pdf/10.1007/s12671-024-02434-2.pdf",
+                     "content-type":  "application/pdf",
+                     "content-version":  "vor",
+                     "intended-application":  "similarity-checking"
+                 }
+             ],
+    "deposited":  {
+                      "date-parts":  [
+                                         [
+                                             2024,
+                                             10,
+                                             8
+                                         ]
+                                     ],
+                      "date-time":  "2024-10-08T02:23:31Z",
+                      "timestamp":  1728354211000
+                  },
+    "score":  1,
+    "resource":  {
+                     "primary":  {
+                                     "URL":  "https://link.springer.com/10.1007/s12671-024-02434-2"
+                                 }
+                 },
+    "subtitle":  [
+
+                 ],
+    "short-title":  [
+
+                    ],
+    "issued":  {
+                   "date-parts":  [
+                                      [
+                                          2024,
+                                          9
+                                      ]
+                                  ]
+               },
+    "references-count":  79,
+    "journal-issue":  {
+                          "issue":  "9",
+                          "published-print":  {
+                                                  "date-parts":  [
+                                                                     [
+                                                                         2024,
+                                                                         9
+                                                                     ]
+                                                                 ]
+                                              }
+                      },
+    "alternative-id":  [
+                           "2434"
+                       ],
+    "URL":  "https://doi.org/10.1007/s12671-024-02434-2",
+    "relation":  {
+
+                 },
+    "ISSN":  [
+                 "1868-8527",
+                 "1868-8535"
+             ],
+    "issn-type":  [
+                      {
+                          "value":  "1868-8527",
+                          "type":  "print"
+                      },
+                      {
+                          "value":  "1868-8535",
+                          "type":  "electronic"
+                      }
+                  ],
+    "subject":  [
+
+                ],
+    "published":  {
+                      "date-parts":  [
+                                         [
+                                             2024,
+                                             9
+                                         ]
+                                     ]
+                  },
+    "assertion":  [
+                      {
+                          "value":  "13 August 2024",
+                          "order":  1,
+                          "name":  "accepted",
+                          "label":  "Accepted",
+                          "group":  {
+                                        "name":  "ArticleHistory",
+                                        "label":  "Article History"
+                                    }
+                      },
+                      {
+                          "value":  "1 October 2024",
+                          "order":  2,
+                          "name":  "first_online",
+                          "label":  "First Online",
+                          "group":  {
+                                        "name":  "ArticleHistory",
+                                        "label":  "Article History"
+                                    }
+                      }
+                  ]
+}

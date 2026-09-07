@@ -1,0 +1,86 @@
+﻿{
+    "objectID":  74905,
+    "isHighlight":  false,
+    "accessionNumber":  "2001.445e",
+    "accessionYear":  "2001",
+    "isPublicDomain":  true,
+    "primaryImage":  "https://images.metmuseum.org/CRDImages/as/original/DP238213.jpg",
+    "primaryImageSmall":  "https://images.metmuseum.org/CRDImages/as/web-large/DP238213.jpg",
+    "additionalImages":  [
+                             "https://images.metmuseum.org/CRDImages/as/original/DP156754.JPG",
+                             "https://images.metmuseum.org/CRDImages/as/original/DP156755.JPG"
+                         ],
+    "constituents":  [
+                         {
+                             "constituentID":  19251,
+                             "role":  "Artist",
+                             "name":  "Mahavihara Master",
+                             "constituentULAN_URL":  "",
+                             "constituentWikidata_URL":  "",
+                             "gender":  ""
+                         }
+                     ],
+    "department":  "Asian Art",
+    "objectName":  "Folio",
+    "title":  "Green Tara, Folio from a dispersed Ashtasahasrika Prajnaparamita (Perfection of Wisdom) Manuscript",
+    "culture":  "India (Bengal) or Bangladesh",
+    "period":  "Pala period",
+    "dynasty":  "",
+    "reign":  "",
+    "portfolio":  "",
+    "artistRole":  "Artist",
+    "artistPrefix":  "",
+    "artistDisplayName":  "Mahavihara Master",
+    "artistDisplayBio":  "",
+    "artistSuffix":  "",
+    "artistAlphaSort":  "Mahavihara Master",
+    "artistNationality":  "",
+    "artistBeginDate":  "",
+    "artistEndDate":  "",
+    "artistGender":  "",
+    "artistWikidata_URL":  "",
+    "artistULAN_URL":  "",
+    "objectDate":  "early 12th century",
+    "objectBeginDate":  1100,
+    "objectEndDate":  1133,
+    "medium":  "Opaque watercolor on palm leaf",
+    "dimensions":  "2 3/4 x 16 1/2 in. (7 x 41.9 cm)",
+    "measurements":  [
+                         {
+                             "elementName":  "Overall",
+                             "elementDescription":  null,
+                             "elementMeasurements":  {
+                                                         "Height":  7,
+                                                         "Width":  41.9
+                                                     }
+                         }
+                     ],
+    "creditLine":  "Purchase, Lila Acheson Wallace Gift, 2001",
+    "geographyType":  "",
+    "city":  "",
+    "state":  "",
+    "county":  "",
+    "country":  "",
+    "region":  "",
+    "subregion":  "",
+    "locale":  "",
+    "locus":  "",
+    "excavation":  "",
+    "river":  "",
+    "classification":  "Paintings",
+    "rightsAndReproduction":  "",
+    "linkResource":  "",
+    "metadataDate":  "2025-03-06T04:54:30Z",
+    "repository":  "Metropolitan Museum of Art, New York, NY",
+    "objectURL":  "https://www.metmuseum.org/art/collection/search/74905",
+    "tags":  [
+                 {
+                     "term":  "Buddhism",
+                     "AAT_URL":  "http://vocab.getty.edu/page/aat/300073738",
+                     "Wikidata_URL":  "https://www.wikidata.org/wiki/Q748"
+                 }
+             ],
+    "objectWikidata_URL":  "https://www.wikidata.org/wiki/Q78702597",
+    "isTimelineWork":  false,
+    "GalleryNumber":  ""
+}

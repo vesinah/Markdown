@@ -1,0 +1,166 @@
+{ 
+  "http://purl.bdrc.io/resource/CR0290D876839B5A64" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/AgentAsCreator"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/role" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/R0ER0019"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/agent" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P64"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/WA20510" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "gsung 'bum/_tsong kha pa/" ,
+      "lang" : "bo-x-ewts"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/workGenre" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/T208"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#altLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "rje tsong kha pa chen po'i gsung 'bum/" ,
+      "lang" : "bo-x-ewts"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/workIsAbout" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/T819"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/Work"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/creator" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/CR0290D876839B5A64"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/catalogInfo" : [ { 
+      "type" : "literal" ,
+      "value" : "Collected Works by Tsongkhapa Lobzang Drakpa (1357-1419), founder of the Geluk order. " ,
+      "lang" : "en"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/workHasInstance" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/W3PD188"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/W22274"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/W22272"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW3KG644"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/W22109"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW22273"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/W4CZ302670"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/W20510"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW29193"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/W3KG644"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW3KG1030"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW635"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW3PD188"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/W29193"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW22109"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/W635"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/W22273"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW20510"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW22272"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW22274"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/W2KG208030"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/W3KG1030"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW2KG208030"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW4CZ302670"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/IE635"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/language" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/LangBo"
+    }
+     ]
+  }
+}

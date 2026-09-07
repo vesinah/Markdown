@@ -1,0 +1,117 @@
+{
+    "@graph": [
+        {
+            "@id": "bdr:CL10854C9F423A89A6",
+            "contentLocationVolume": {
+                "@value": "23",
+                "@type": "xsd:integer"
+            },
+            "contentLocationPage": {
+                "@value": "666",
+                "@type": "xsd:integer"
+            },
+            "contentLocationInstance": {
+                "@id": "bdr:W27883"
+            },
+            "contentLocationEndPage": {
+                "@value": "671",
+                "@type": "xsd:integer"
+            },
+            "@type": "ContentLocation"
+        },
+        {
+            "@id": "bdr:MW27883_AD89CC",
+            "partType": {
+                "@id": "bdr:PartTypeText"
+            },
+            "legacyOutlineNodeRID": "O1GS401481GS41509",
+            "@type": "Instance",
+            "contentLocation": {
+                "@id": "bdr:CL10854C9F423A89A6"
+            },
+            "inRootInstance": {
+                "@id": "bdr:MW27883"
+            },
+            "instanceOf": {
+                "@id": "bdr:WA0XLEE57C8CA491F"
+            },
+            "partIndex": {
+                "@value": "1",
+                "@type": "xsd:integer"
+            },
+            "partOf": {
+                "@id": "bdr:MW27883_102070"
+            },
+            "hasTitle": {
+                "@id": "bdr:TT5D55AC5409F93EAE"
+            },
+            "contentLocationStatement": "ff. 1v-4r",
+            "authorshipStatement": {
+                "@language": "en",
+                "@value": "written by slob dpon b+ha wi lha"
+            },
+            "partTreeIndex": "23.3.1.1.1",
+            "skos:prefLabel": {
+                "@language": "bo-x-ewts",
+                "@value": "bla ma lnga bcu pa/"
+            }
+        },
+        {
+            "@id": "bdr:TT5D55AC5409F93EAE",
+            "rdfs:label": {
+                "@language": "bo-x-ewts",
+                "@value": "bla ma lnga bcu pa/"
+            },
+            "@type": "Title"
+        }
+    ],
+    "@context": {
+        "aut": "http://purl.bdrc.io/ontology/ext/auth/",
+        "bdan": "http://purl.bdrc.io/annotation/",
+        "bf": "http://id.loc.gov/ontologies/bibframe/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "tbr": "http://purl.bdrc.io/ontology/toberemoved/",
+        "bdou": "http://purl.bdrc.io/ontology/ext/user/",
+        "rsh": "http://purl.bdrc.io/shacl/core/shape/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "bdac": "http://purl.bdrc.io/anncollection/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "wd": "http://www.wikidata.org/entity/",
+        "srcpe": "https://sakyaresearch.org/persons/",
+        "oa": "http://www.w3.org/ns/oa#",
+        "bdgup": "http://purl.bdrc.io/graph-nc/user-private/",
+        "mbbt": "http://mbingenheimer.net/tools/bibls/",
+        "dila": "http://purl.dila.edu.tw/resource/",
+        "sh": "http://www.w3.org/ns/shacl#",
+        "tmp": "http://purl.bdrc.io/ontology/tmp/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "text": "http://jena.apache.org/text#",
+        "bda": "http://purl.bdrc.io/admindata/",
+        "bdgu": "http://purl.bdrc.io/graph-nc/user/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "bdg": "http://purl.bdrc.io/graph/",
+        "ola": "https://openlibrary.org/authors/",
+        "srct": "https://sakyaresearch.org/topics/",
+        "f": "java:io.bdrc.libraries.sparql.functions.",
+        "srcpl": "https://sakyaresearch.org/places/",
+        "adm": "http://purl.bdrc.io/ontology/admin/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "bdo": "http://purl.bdrc.io/ontology/core/",
+        "iiif2": "http://iiif.io/api/presentation/2#",
+        "adr": "http://purl.bdrc.io/resource-nc/auth/",
+        "iiif3": "http://iiif.io/api/presentation/3#",
+        "viaf": "http://viaf.org/viaf/",
+        "bds": "http://purl.bdrc.io/ontology/shapes/core/",
+        "eftr": "http://purl.84000.co/resource/core/",
+        "bdr": "http://purl.bdrc.io/resource/",
+        "as": "http://www.w3.org/ns/activitystreams#",
+        "bdu": "http://purl.bdrc.io/resource-nc/user/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "srcd": "https://sakyaresearch.org/deities/",
+        "ldp": "http://www.w3.org/ns/ldp#",
+        "srcs": "https://sakyaresearch.org/sources/",
+        "srcl": "https://sakyaresearch.org/literary_forms/",
+        "@vocab": "http://purl.bdrc.io/ontology/core/"
+    }
+}

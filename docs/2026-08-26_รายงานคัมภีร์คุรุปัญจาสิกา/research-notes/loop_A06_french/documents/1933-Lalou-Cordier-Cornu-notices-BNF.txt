@@ -1,0 +1,49 @@
+NOTICES BNF VÉRIFIÉES (catalogue.bnf.fr, API SRU, consultation du 26/08/2026)
+
+=== 1. Marcelle Lalou, Répertoire du Tanǰur ===
+Notice ark:/12148/cb323409056 (FRBNF32340905)
+Titre : Répertoire du Tanǰur d'après le catalogue de P. Cordier / par Marcelle Lalou ;
+        avec une préface de M. Paul Pelliot
+Publication : Paris, [s.n.], 1933 ; 1 vol. (VIII-239 p.) ; 25 cm
+Notes : Bibliothèque nationale. Département des Manuscrits.
+        « Index des titres et des noms du "Catalogue du fonds tibétain de la Bibliothèque
+        nationale" de P. Cordier, 2e et 3e parties seules parues, 1909-1915. »
+Auteurs : Lalou, Marcelle (1890-1967) ; préfacier : Pelliot, Paul (1878-1945)
+Sujets : Tanjur -- Manuscrits ; Bouddhisme -- Tibet ; Littérature bouddhique tibétaine -- Catalogues
+Numérisation : https://gallica.bnf.fr/ark:/12148/bd6t53797982 (avec mode texte)
+
+POINT DE VÉRIFICATION IMPORTANT : le titre exact est « ...d'après le catalogue de P. CORDIER » (1933),
+et non « d'après le catalogue de Peking » comme on le lit parfois. La confusion vient probablement
+du fait que le répertoire de Lalou renvoie aux numéros du catalogue de Péking (Suzuki) dans les
+travaux ultérieurs ; mais la notice BnF est formelle : il s'agit d'un index du catalogue de Cordier.
+
+PREUVE DE CONTENU : la recherche plein texte Gallica SRU « gallica all "bla-ma lna-bcu" » (26/08/2026)
+renvoie ce volume parmi les tout premiers résultats (translittération de Cordier « lna-bcu » pour lnga-bcu),
+ce qui atteste que l'entrée Bla-ma lña-bcu(-pa) figure bien dans le texte numérisé.
+(Le service .texteBrut de Gallica était bloqué par CAPTCHA au moment de la consultation ; l'extraction
+de l'entrée précise reste à faire sur le scan bd6t53797982.)
+
+Autorité Lalou : ark:/12148/cb12209228w — Tibétologue ; née à Meudon 24-08-1890, morte à Paris 15-12-1967 ;
+« A aussi traduit du tibétain en français ». VIAF 0000000121327801.
+
+=== 2. Palmyr Cordier, Catalogue du fonds tibétain ===
+Notice ark:/12148/cb31968113v (FRBNF31968113)
+Titre : Catalogue du fonds tibétain de la Bibliothèque nationale / par P. Cordier
+Publication : Paris, Impr. nationale, 1909-1915 ; 2 vol. (VII-402, XI-562 p.), in-8
+Contenu : « 2e partie. Index du Bstan-Hgyur (tibétain 108-179) ; 3e partie. Index du Bstan-Hgyur
+           (tibétain 180-332) »
+Numérisations Gallica liées : https://gallica.bnf.fr/ark:/12148/bd6t53706127 (partie 2)
+                              https://gallica.bnf.fr/ark:/12148/bd6t53706305 (partie 3, avec mode texte)
+
+Autorité Cordier : ark:/12148/cb12199048n — « Médecin colonial. Indianiste. Spécialiste de l'histoire de
+la médecine indienne », né à Amancey (Doubs) 18-02-1871, mort à Besançon 05-09-1914. Notices nécrologiques :
+Louis Finot (BEFEO t.14, 1914, p. 99) et Édouard Chavannes (T'oung Pao, 1914). VIAF 0000000042131210.
+Réimpression indienne connue via OpenLibrary : Sharada Rani, Delhi (1959?) sous le même titre.
+
+=== 3. Philippe Cornu, Dictionnaire encyclopédique du bouddhisme ===
+Notices ark:/12148/cb37642881q (1re éd.) et ark:/12148/cb40946454b (nouvelle éd. augmentée)
+1re éd. : Paris, Éd. du Seuil, 2001, 841 p., ISBN 2-02-036234-1
+Nouvelle éd. augmentée : Paris, Éd. du Seuil, DL 2006, 949 p., ISBN 9782020822732
+Auteur : Cornu, Philippe (1957-...)
+Pertinence : ouvrage de référence français standard ; contient des entrées « gourou », « maître spirituel »,
+« lama », « guru yoga » (vérification sur page/exemplaire papier restant à faire).

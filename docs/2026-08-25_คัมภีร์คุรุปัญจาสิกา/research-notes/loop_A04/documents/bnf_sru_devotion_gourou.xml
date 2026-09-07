@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><srw:searchRetrieveResponse xmlns:srw="http://www.loc.gov/zing/srw/" xmlns="http://catalogue.bnf.fr/namespaces/InterXMarc" xmlns:ixm="http://catalogue.bnf.fr/namespaces/InterXMarc" xmlns:mn="http://catalogue.bnf.fr/namespaces/motsnotices" xmlns:sd="http://www.loc.gov/zing/srw/diagnostic/">
+<srw:version>1.2</srw:version>
+<srw:echoedSearchRetrieveRequest>
+<srw:version>1.2</srw:version>
+<srw:query>bib.anywhere all "devotion au gourou"</srw:query>
+</srw:echoedSearchRetrieveRequest>
+<srw:numberOfRecords>3</srw:numberOfRecords>
+<srw:records>
+<srw:record>
+<srw:recordSchema>marcxchange</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<mxc:record xmlns:mxc="info:lc/xmlns/marcxchange-v2" format="UNIMARC" id="ark:/12148/cb421266086" type="Bibliographic">
+<mxc:leader>     cam  22        450 </mxc:leader>
+<mxc:controlfield tag="001">FRBNF421266080000006</mxc:controlfield>
+<mxc:controlfield tag="003">http://catalogue.bnf.fr/ark:/12148/cb421266086</mxc:controlfield>
+<mxc:datafield tag="010" ind1=" " ind2=" ">
+<mxc:subfield code="a">978-2-7328-9457-7</mxc:subfield>
+<mxc:subfield code="b">br.</mxc:subfield>
+<mxc:subfield code="d">12,90 EUR</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="020" ind1=" " ind2=" ">
+<mxc:subfield code="a">FR</mxc:subfield>
+<mxc:subfield code="b">01002932</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="073" ind1=" " ind2="0">
+<mxc:subfield code="a">9782732894577</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="100" ind1=" " ind2=" ">
+<mxc:subfield code="a">20100113d2009    m  y0frey50      ba</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="101" ind1="2" ind2=" ">
+<mxc:subfield code="a">fre</mxc:subfield>
+<mxc:subfield code="c">tib</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="102" ind1=" " ind2=" ">
+<mxc:subfield code="a">FR</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="105" ind1=" " ind2=" ">
+<mxc:subfield code="a">||||z   00|y|</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="106" ind1=" " ind2=" ">
+<mxc:subfield code="a">r</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="181" ind1=" " ind2="0">
+<mxc:subfield code="6">01</mxc:subfield>
+<mxc:subfield code="a">i </mxc:subfield>
+<mxc:subfield code="b">xxxe  </mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="181" ind1=" " ind2=" ">
+<mxc:subfield code="6">02</mxc:subfield>
+<mxc:subfield code="c">txt</mxc:subfield>
+<mxc:subfield code="2">rdacontent</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="182" ind1=" " ind2="0">
+<mxc:subfield code="6">01</mxc:subfield>
+<mxc:subfield code="a">n</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="182" ind1=" " ind2=" ">
+<mxc:subfield code="6">02</mxc:subfield>
+<mxc:subfield code="c">n</mxc:subfield>
+<mxc:subfield code="2">rdamedia</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="200" ind1="1" ind2=" ">
+<mxc:subfield code="a">Le livre des morts tibétain</mxc:subfield>
+<mxc:subfield code="b">Texte imprimé</mxc:subfield>
+<mxc:subfield code="f">[Padmasambhava]</mxc:subfield>
+<mxc:subfield code="g">commentaires de Lionel Dumarcet</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="210" ind1=" " ind2=" ">
+<mxc:subfield code="a">Paris</mxc:subfield>
+<mxc:subfield code="c">De Vecchi</mxc:subfield>
+<mxc:subfield code="d">impr. 2009</mxc:subfield>
+<mxc:subfield code="e">53-Mayenne</mxc:subfield>
+<mxc:subfield code="g">Impr. Floch</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="215" ind1=" " ind2=" ">
+<mxc:subfield code="a">1 vol. (124 p.)</mxc:subfield>
+<mxc:subfield code="c">couv. ill. en coul.</mxc:subfield>
+<mxc:subfield code="d">19 cm</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="225" ind1="|" ind2=" ">
+<mxc:subfield code="a">Les grands textes de l'ésotérisme</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="300" ind1=" " ind2=" ">
+<mxc:subfield code="a">Bibliogr., 2 p. Glossaire</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="410" ind1=" " ind2="0">
+<mxc:subfield code="0">42126206</mxc:subfield>
+<mxc:subfield code="t">Les Grands textes de l'ésotérisme</mxc:subfield>
+<mxc:subfield code="x">2106-4237</mxc:subfield>
+<mxc:subfield code="d">2009</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="500" ind1="1" ind2="1">
+<mxc:subfield code="3">12008989</mxc:subfield>
+<mxc:subfield code="a">Bardo thödol</mxc:subfield>
+<mxc:subfield code="m">français</mxc:subfield>
+<mxc:subfield code="k">2009</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="512" ind1="1" ind2=" ">
+<mxc:subfield code="a">Décoder &amp; comprendre "Le livre des morts tibétain"</mxc:subfield>
+<mxc:subfield code="e">au coeur du "Bardo thödol"</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="517" ind1="1" ind2=" ">
+<mxc:subfield code="a">Décoder et comprendre "Le livre des morts tibétain"</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="517" ind1="1" ind2=" ">
+<mxc:subfield code="a">Décoder et comprendre "Le livre des morts tibétain"</mxc:subfield>
+<mxc:subfield code="e">au coeur du "Bardo thödol"</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="605" ind1=" " ind2=" ">
+<mxc:subfield code="3">12008989</mxc:subfield>
+<mxc:subfield code="a">Bardo thödol</mxc:subfield>
+<mxc:subfield code="2">rameau</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="606" ind1=" " ind2=" ">
+<mxc:subfield code="3">11960468</mxc:subfield>
+<mxc:subfield code="a">Mort (religion)</mxc:subfield>
+<mxc:subfield code="3">11979560</mxc:subfield>
+<mxc:subfield code="x">Bouddhisme tibétain</mxc:subfield>
+<mxc:subfield code="2">rameau</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="608" ind1=" " ind2=" ">
+<mxc:subfield code="3">11975745</mxc:subfield>
+<mxc:subfield code="a">Commentaire de texte</mxc:subfield>
+<mxc:subfield code="2">rameau</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="676" ind1=" " ind2=" ">
+<mxc:subfield code="a">294.342 3</mxc:subfield>
+<mxc:subfield code="v">23</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="686" ind1=" " ind2=" ">
+<mxc:subfield code="a">290</mxc:subfield>
+<mxc:subfield code="2">Cadre de classement de la Bibliographie nationale française</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="702" ind1=" " ind2="|">
+<mxc:subfield code="3">11918374</mxc:subfield>
+<mxc:subfield code="o">ISNI0000000108659238</mxc:subfield>
+<mxc:subfield code="a">Padmasambhava</mxc:subfield>
+<mxc:subfield code="f">0717?-0762?</mxc:subfield>
+<mxc:subfield code="4">330</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="702" ind1=" " ind2="|">
+<mxc:subfield code="3">13182668</mxc:subfield>
+<mxc:subfield code="o">ISNI0000000037158195</mxc:subfield>
+<mxc:subfield code="a">Dumarcet</mxc:subfield>
+<mxc:subfield code="b">Lionel</mxc:subfield>
+<mxc:subfield code="4">212</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="801" ind1=" " ind2="0">
+<mxc:subfield code="a">FR</mxc:subfield>
+<mxc:subfield code="b">FR-751131015</mxc:subfield>
+<mxc:subfield code="c">20100113</mxc:subfield>
+<mxc:subfield code="g">AFNOR</mxc:subfield>
+<mxc:subfield code="h">FRBNF421266080000006</mxc:subfield>
+<mxc:subfield code="2">intermrc</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="930" ind1=" " ind2=" ">
+<mxc:subfield code="5">FR-751131007:42126608001001</mxc:subfield>
+<mxc:subfield code="a">2010-9585</mxc:subfield>
+<mxc:subfield code="b">759999999</mxc:subfield>
+<mxc:subfield code="c">Tolbiac - Rez de Jardin - Philosophie, histoire, sciences de l'homme - Magasin</mxc:subfield>
+<mxc:subfield code="d">O</mxc:subfield>
+</mxc:datafield>
+</mxc:record>      </srw:recordData>
+<srw:recordIdentifier>ark:/12148/cb421266086</srw:recordIdentifier>
+<srw:recordPosition>1</srw:recordPosition>
+<srw:extraRecordData>
+<ixm:attr name="CreationDate">20100113</ixm:attr>
+<ixm:attr name="LastModificationDate">20190923</ixm:attr>
+<mn:score>6.49176</mn:score>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>marcxchange</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<mxc:record xmlns:mxc="info:lc/xmlns/marcxchange-v2" format="UNIMARC" id="ark:/12148/cb34659551f" type="Bibliographic">
+<mxc:leader>     cam  22        450 </mxc:leader>
+<mxc:controlfield tag="001">FRBNF346595510000002</mxc:controlfield>
+<mxc:controlfield tag="003">http://catalogue.bnf.fr/ark:/12148/cb34659551f</mxc:controlfield>
+<mxc:datafield tag="010" ind1=" " ind2=" ">
+<mxc:subfield code="a">2-86473-002-2</mxc:subfield>
+<mxc:subfield code="b">br.</mxc:subfield>
+<mxc:subfield code="d">52 F</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="020" ind1=" " ind2=" ">
+<mxc:subfield code="a">FR</mxc:subfield>
+<mxc:subfield code="b">08116303</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="039" ind1=" " ind2=" ">
+<mxc:subfield code="o">OPL</mxc:subfield>
+<mxc:subfield code="a">001246916</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="100" ind1=" " ind2=" ">
+<mxc:subfield code="a">19810917d1980    m  y0frey50      ba</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="101" ind1="1" ind2=" ">
+<mxc:subfield code="a">fre</mxc:subfield>
+<mxc:subfield code="b">eng</mxc:subfield>
+<mxc:subfield code="c">tib</mxc:subfield>
+<mxc:subfield code="c">san</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="102" ind1=" " ind2=" ">
+<mxc:subfield code="a">FR</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="105" ind1=" " ind2=" ">
+<mxc:subfield code="a">||||z   00|y|</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="106" ind1=" " ind2=" ">
+<mxc:subfield code="a">r</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="181" ind1=" " ind2="0">
+<mxc:subfield code="6">01</mxc:subfield>
+<mxc:subfield code="a">i </mxc:subfield>
+<mxc:subfield code="b">xxxe  </mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="181" ind1=" " ind2=" ">
+<mxc:subfield code="6">02</mxc:subfield>
+<mxc:subfield code="c">txt</mxc:subfield>
+<mxc:subfield code="2">rdacontent</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="182" ind1=" " ind2="0">
+<mxc:subfield code="6">01</mxc:subfield>
+<mxc:subfield code="a">n</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="182" ind1=" " ind2=" ">
+<mxc:subfield code="6">02</mxc:subfield>
+<mxc:subfield code="c">n</mxc:subfield>
+<mxc:subfield code="2">rdamedia</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="200" ind1="1" ind2=" ">
+<mxc:subfield code="a">Le Mahamoudra qui dissipe les ténèbres de l'ignorance</mxc:subfield>
+<mxc:subfield code="b">Texte imprimé</mxc:subfield>
+<mxc:subfield code="f">Ouang Tchoug, dorgje,...</mxc:subfield>
+<mxc:subfield code="g">[commentaire de Béroul Khyentsé]</mxc:subfield>
+<mxc:subfield code="c">(Suivi de) Cinquante stances de dévotion au gourou</mxc:subfield>
+<mxc:subfield code="f">d'Ashvagosha</mxc:subfield>
+<mxc:subfield code="g">[édité par Aryashoura]</mxc:subfield>
+<mxc:subfield code="g">[commentaire de Guésché Ngaouang Dhargyey]</mxc:subfield>
+<mxc:subfield code="g">[traduit... de la version anglaise par J.C. de Verneuil et F. Jacquemart]</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="210" ind1=" " ind2=" ">
+<mxc:subfield code="a">Toulon-sur-Arroux</mxc:subfield>
+<mxc:subfield code="c">Éd. Yiga tcheu dzinn</mxc:subfield>
+<mxc:subfield code="d">1980</mxc:subfield>
+<mxc:subfield code="e">Paris</mxc:subfield>
+<mxc:subfield code="g">Impr. de l'Auxerrois</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="215" ind1=" " ind2=" ">
+<mxc:subfield code="a">IX-208 p.</mxc:subfield>
+<mxc:subfield code="c">couv. ill.</mxc:subfield>
+<mxc:subfield code="d">21 cm</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="454" ind1=" " ind2="1">
+<mxc:subfield code="t">The Mahamudra eliminating the darkness of ignorance</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="454" ind1=" " ind2="1">
+<mxc:subfield code="t">Phyag-chen ma-rig mun-sel</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="686" ind1=" " ind2=" ">
+<mxc:subfield code="a">10 </mxc:subfield>
+<mxc:subfield code="2">Cadre de classement de la Bibliographie nationale française</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="700" ind1=" " ind2="|">
+<mxc:subfield code="3">15018209</mxc:subfield>
+<mxc:subfield code="o">ISNI0000000080853644</mxc:subfield>
+<mxc:subfield code="a">Dbaṅ-phyug-rdo-rje</mxc:subfield>
+<mxc:subfield code="c">karmapa</mxc:subfield>
+<mxc:subfield code="4">070</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="702" ind1=" " ind2="|">
+<mxc:subfield code="3">11928032</mxc:subfield>
+<mxc:subfield code="o">ISNI0000000000013056</mxc:subfield>
+<mxc:subfield code="a">Verneuil</mxc:subfield>
+<mxc:subfield code="b">Jean-Christophe de</mxc:subfield>
+<mxc:subfield code="4">730</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="702" ind1=" " ind2="|">
+<mxc:subfield code="3">11908425</mxc:subfield>
+<mxc:subfield code="o">ISNI0000000120624556</mxc:subfield>
+<mxc:subfield code="a">Jacquemart</mxc:subfield>
+<mxc:subfield code="b">François</mxc:subfield>
+<mxc:subfield code="4">730</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="702" ind1=" " ind2="|">
+<mxc:subfield code="3">11891597</mxc:subfield>
+<mxc:subfield code="o">ISNI0000000005478012</mxc:subfield>
+<mxc:subfield code="a">Beru Khyentze Rinpoché</mxc:subfield>
+<mxc:subfield code="4">212</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="801" ind1=" " ind2="0">
+<mxc:subfield code="a">FR</mxc:subfield>
+<mxc:subfield code="b">FR-751131015</mxc:subfield>
+<mxc:subfield code="c">19810917</mxc:subfield>
+<mxc:subfield code="g">AFNOR</mxc:subfield>
+<mxc:subfield code="h">FRBNF346595510000002</mxc:subfield>
+<mxc:subfield code="2">intermrc</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="930" ind1=" " ind2=" ">
+<mxc:subfield code="5">FR-751131007:34659551001001</mxc:subfield>
+<mxc:subfield code="a">16-R-23649</mxc:subfield>
+<mxc:subfield code="b">759999999</mxc:subfield>
+<mxc:subfield code="c">Tolbiac - Rez de Jardin - Philosophie, histoire, sciences de l'homme - Magasin</mxc:subfield>
+<mxc:subfield code="d">O</mxc:subfield>
+</mxc:datafield>
+</mxc:record>      </srw:recordData>
+<srw:recordIdentifier>ark:/12148/cb34659551f</srw:recordIdentifier>
+<srw:recordPosition>2</srw:recordPosition>
+<srw:extraRecordData>
+<ixm:attr name="CreationDate">19860717</ixm:attr>
+<ixm:attr name="LastModificationDate">19930406</ixm:attr>
+<mn:score>6.215213</mn:score>
+</srw:extraRecordData>
+</srw:record>
+<srw:record>
+<srw:recordSchema>marcxchange</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<mxc:record xmlns:mxc="info:lc/xmlns/marcxchange-v2" format="UNIMARC" id="ark:/12148/cb35538476t" type="Bibliographic">
+<mxc:leader>     nam  22        450 </mxc:leader>
+<mxc:controlfield tag="001">FRBNF355384760000003</mxc:controlfield>
+<mxc:controlfield tag="003">http://catalogue.bnf.fr/ark:/12148/cb35538476t</mxc:controlfield>
+<mxc:datafield tag="010" ind1=" " ind2=" ">
+<mxc:subfield code="a">2-906254-07-X</mxc:subfield>
+<mxc:subfield code="b">br.</mxc:subfield>
+<mxc:subfield code="d">98 F</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="020" ind1=" " ind2=" ">
+<mxc:subfield code="a">FR</mxc:subfield>
+<mxc:subfield code="b">09313592</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="039" ind1=" " ind2=" ">
+<mxc:subfield code="o">OPL</mxc:subfield>
+<mxc:subfield code="a">014677998</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="100" ind1=" " ind2=" ">
+<mxc:subfield code="a">19921127d1992    m  y0frey50      ba</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="101" ind1="1" ind2=" ">
+<mxc:subfield code="a">fre</mxc:subfield>
+<mxc:subfield code="b">eng</mxc:subfield>
+<mxc:subfield code="c">tib</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="102" ind1=" " ind2=" ">
+<mxc:subfield code="a">FR</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="105" ind1=" " ind2=" ">
+<mxc:subfield code="a">a   z   00|||</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="106" ind1=" " ind2=" ">
+<mxc:subfield code="a">r</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="181" ind1=" " ind2="0">
+<mxc:subfield code="6">01</mxc:subfield>
+<mxc:subfield code="a">i </mxc:subfield>
+<mxc:subfield code="b">xxxe  </mxc:subfield>
+<mxc:subfield code="a">b </mxc:subfield>
+<mxc:subfield code="b">xb2e  </mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="181" ind1=" " ind2=" ">
+<mxc:subfield code="6">02</mxc:subfield>
+<mxc:subfield code="c">txt</mxc:subfield>
+<mxc:subfield code="c">sti</mxc:subfield>
+<mxc:subfield code="2">rdacontent</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="182" ind1=" " ind2="0">
+<mxc:subfield code="6">01</mxc:subfield>
+<mxc:subfield code="a">n</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="182" ind1=" " ind2=" ">
+<mxc:subfield code="6">02</mxc:subfield>
+<mxc:subfield code="c">n</mxc:subfield>
+<mxc:subfield code="2">rdamedia</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="200" ind1="1" ind2=" ">
+<mxc:subfield code="a">Le Mahamoudra qui dissipe les ténèbres de l'ignorance</mxc:subfield>
+<mxc:subfield code="b">Texte imprimé</mxc:subfield>
+<mxc:subfield code="f">IXe Karmapa (Ouang Tchouk Dorjé)</mxc:subfield>
+<mxc:subfield code="c">Suivi de Cinquante stances de dévotion au gourou</mxc:subfield>
+<mxc:subfield code="f">d'Ashvagosha...</mxc:subfield>
+<mxc:subfield code="g">[comment. par Bérou Khyentsé Rinpotché et Guéshé Ngaouang Dargyey]</mxc:subfield>
+<mxc:subfield code="g">[introd. par] Alexander Berzin</mxc:subfield>
+<mxc:subfield code="g">[trad. de la version anglaise par J.C. de Verneuil et F. Jacquemart]</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="205" ind1=" " ind2=" ">
+<mxc:subfield code="a">2e éd. rev. et corr.</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="210" ind1=" " ind2=" ">
+<mxc:subfield code="a">La Boulaye</mxc:subfield>
+<mxc:subfield code="c">Éd. Marpa</mxc:subfield>
+<mxc:subfield code="d">1992</mxc:subfield>
+<mxc:subfield code="e">03-Molinet</mxc:subfield>
+<mxc:subfield code="g">Impr. Neuville</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="215" ind1=" " ind2=" ">
+<mxc:subfield code="a">191 p.</mxc:subfield>
+<mxc:subfield code="c">portr., couv. ill. en coul.</mxc:subfield>
+<mxc:subfield code="d">21 cm</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="454" ind1=" " ind2="1">
+<mxc:subfield code="t">The mahamoudra eliminating the darkness of ignorance</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="600" ind1=" " ind2="|">
+<mxc:subfield code="3">15018209</mxc:subfield>
+<mxc:subfield code="a">Dbaṅ-phyug-rdo-rje</mxc:subfield>
+<mxc:subfield code="f">1555-1603</mxc:subfield>
+<mxc:subfield code="c">karmapa</mxc:subfield>
+<mxc:subfield code="3">11934463</mxc:subfield>
+<mxc:subfield code="x">Enseignement</mxc:subfield>
+<mxc:subfield code="2">rameau</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="606" ind1=" " ind2=" ">
+<mxc:subfield code="3">11952507</mxc:subfield>
+<mxc:subfield code="a">Méditations bouddhiques</mxc:subfield>
+<mxc:subfield code="2">rameau</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="606" ind1=" " ind2=" ">
+<mxc:subfield code="3">11977072</mxc:subfield>
+<mxc:subfield code="a">Bouddhisme tantrique</mxc:subfield>
+<mxc:subfield code="2">rameau</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="686" ind1=" " ind2=" ">
+<mxc:subfield code="a">2  </mxc:subfield>
+<mxc:subfield code="2">Cadre de classement de la Bibliographie nationale française</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="700" ind1=" " ind2="|">
+<mxc:subfield code="3">15018209</mxc:subfield>
+<mxc:subfield code="o">ISNI0000000080853644</mxc:subfield>
+<mxc:subfield code="a">Dbaṅ-phyug-rdo-rje</mxc:subfield>
+<mxc:subfield code="f">1555-1603</mxc:subfield>
+<mxc:subfield code="c">karmapa</mxc:subfield>
+<mxc:subfield code="4">070</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="702" ind1=" " ind2="|">
+<mxc:subfield code="3">12303269</mxc:subfield>
+<mxc:subfield code="o">ISNI0000000063062023</mxc:subfield>
+<mxc:subfield code="a">Berzin</mxc:subfield>
+<mxc:subfield code="b">Alexander</mxc:subfield>
+<mxc:subfield code="4">080</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="702" ind1=" " ind2="|">
+<mxc:subfield code="3">11928032</mxc:subfield>
+<mxc:subfield code="o">ISNI0000000000013056</mxc:subfield>
+<mxc:subfield code="a">Verneuil</mxc:subfield>
+<mxc:subfield code="b">Jean-Christophe de</mxc:subfield>
+<mxc:subfield code="4">730</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="702" ind1=" " ind2="|">
+<mxc:subfield code="3">11908425</mxc:subfield>
+<mxc:subfield code="o">ISNI0000000120624556</mxc:subfield>
+<mxc:subfield code="a">Jacquemart</mxc:subfield>
+<mxc:subfield code="b">François</mxc:subfield>
+<mxc:subfield code="f">1949-....</mxc:subfield>
+<mxc:subfield code="4">730</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="702" ind1=" " ind2="|">
+<mxc:subfield code="3">11891597</mxc:subfield>
+<mxc:subfield code="o">ISNI0000000005478012</mxc:subfield>
+<mxc:subfield code="a">Beru Khyentze Rinpoché</mxc:subfield>
+<mxc:subfield code="f">1947-....</mxc:subfield>
+<mxc:subfield code="4">212</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="801" ind1=" " ind2="0">
+<mxc:subfield code="a">FR</mxc:subfield>
+<mxc:subfield code="b">FR-751131015</mxc:subfield>
+<mxc:subfield code="c">19921127</mxc:subfield>
+<mxc:subfield code="g">AFNOR</mxc:subfield>
+<mxc:subfield code="h">FRBNF355384760000003</mxc:subfield>
+<mxc:subfield code="2">intermrc</mxc:subfield>
+</mxc:datafield>
+<mxc:datafield tag="930" ind1=" " ind2=" ">
+<mxc:subfield code="5">FR-751131007:35538476001001</mxc:subfield>
+<mxc:subfield code="a">16-R-34763</mxc:subfield>
+<mxc:subfield code="b">759999999</mxc:subfield>
+<mxc:subfield code="c">Tolbiac - Rez de Jardin - Philosophie, histoire, sciences de l'homme - Magasin</mxc:subfield>
+<mxc:subfield code="d">O</mxc:subfield>
+</mxc:datafield>
+</mxc:record>      </srw:recordData>
+<srw:recordIdentifier>ark:/12148/cb35538476t</srw:recordIdentifier>
+<srw:recordPosition>3</srw:recordPosition>
+<srw:extraRecordData>
+<ixm:attr name="CreationDate">19921127</ixm:attr>
+<ixm:attr name="LastModificationDate">20080716</ixm:attr>
+<mn:score>5.9334903</mn:score>
+</srw:extraRecordData>
+</srw:record>
+</srw:records>
+</srw:searchRetrieveResponse>
+

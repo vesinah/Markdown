@@ -1,0 +1,1251 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="ko" class="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	
+	<title>상세서지 - 불교학술원 아카이브</title>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="icon" href="/resources/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/resources/images/apple-icon.png">
+<link rel="apple-touch-icon" href="/resources/images/apple-icon.png"> 
+	
+<script src="/resources/libs/jquery-1.11.3.min.js"></script>
+<script src="/resources/libs/jquery-ui/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="/resources/libs/jquery-ui/jquery-ui.css" type="text/css">
+
+<script src="/resources/libs/backbone/underscore-min.js"></script>
+<script src="/resources/libs/backbone/backbone.js"></script>
+<script src="/resources/libs/core/underscore.string.min.js"></script>
+<script src="/resources/libs/core/string.js"></script>
+
+<link rel="stylesheet" href="/resources/css/base.css?v=20210202" />
+<link rel="stylesheet" href="/resources/css/common.css?v=20210208" />
+<link rel="stylesheet" href="/resources/css/content.css?v=20210208" />
+<link rel="stylesheet" href="/resources/css/xsl_style.css?v=20210203" />
+
+<script src="/resources/js/common.js?v=20210708"></script>
+<script src="/resources/js/search.js?v=20210201"></script>
+
+<script src="/resources/js/analysis.js?v=20230204"></script>
+
+
+ <!-- UA-28923583-4 -->
+<!-- UA-166772332-1  -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BNNKLCQJ98"></script>
+<script>
+var ga_ID = 'G-BNNKLCQJ98';
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+ga_send_pageview();
+</script>
+
+<script src="/resources/libs/jquery.blockUI.js"></script>
+<script>
+	new Image().src="/resources/images/common/busy.gif";
+	$(document).ajaxStop($.unblockUI); 
+	$.blockUI.defaults.css = {}; 
+	$.blockUI.defaults.overlayCSS ={};
+</script>
+
+<script>
+var g_servletPath = s.rtrim("/",'/');
+
+function resizeMainLayout() { 
+	var winH = $(window).height();
+	$(".content--scroll1").css({height:winH-239+"px"});
+	$(".snb--scroll").css({height:winH-235+"px"});
+} 
+
+$(document).ready(function(){
+	// scroll
+	$(window).resize(resizeMainLayout); 
+	resizeMainLayout();	
+
+
+	$(document).on('click','.wrap__page--util .totop', function() { 
+		//scrollToVisibleNode(node, ".wrap__snb .snb--scroll", 0, 10);
+		//$(window).scrollTop(100);
+		$("#content .content--scroll1").scrollTop(0);
+	});
+
+	// snb 영역 토글
+	$(document).on('click','.snb--open .btn__snb--toggle', function() {
+		$('#container').removeClass('snb--open snb--more');
+		$('#container').addClass('snb--close');
+		
+		if(localStorage)
+			localStorage.treeOpenClose = "close";
+
+	});
+	$(document).on('click','.snb--close .btn__snb--toggle', function() { 
+		$('#container').removeClass('snb--close');
+		$('#container').addClass('snb--open');
+		
+		if(localStorage)
+			localStorage.treeOpenClose = "open";
+	});
+
+	$(document).on('click','.snb--open .btn__snb--toggle--more', function() {
+		$('#container').addClass('snb--more');
+		if(localStorage)
+			localStorage.treeOpenClose = "open-more";
+	});
+	$(document).on('click','.snb--open.snb--more .btn__snb--toggle--more', function() {
+		$('#container').removeClass('snb--more');
+		if(localStorage)
+			localStorage.treeOpenClose = "open";
+	});
+	$(document).on('click','.snb--close .btn__snb--toggle--more', function() { 
+		$('#container').removeClass('snb--close');
+		$('#container').addClass('snb--open snb--more');
+		if(localStorage)
+			localStorage.treeOpenClose = "open-more";
+	});
+
+	// snb
+	$(document).on('click','.wrap__snb nav:not(.tree) > ul > li > a',function() {
+		if($(this).hasClass('open')) {
+			$(this).removeClass('open');
+			$(this).next('div').stop(true, false).slideUp();
+		} else {
+			$('.wrap__snb nav:not(.tree) > ul > li > a').removeClass('open');
+			$('.wrap__snb nav:not(.tree) > ul > li > div').slideUp();
+			$(this).addClass('open');
+			$(this).next('div').stop(true, false).slideDown();
+		}
+	});
+	
+
+	// 공통 alert 레이어
+	$('.pop--alert1-open').click(function() {
+		$('.pop--alert1, .pop--overlay').fadeIn('');
+		$('body').css('overflow','hidden')
+	});
+	$('.pop--alert1-close').click(function(){	
+		$('.pop--alert1, .pop--overlay').fadeOut('');
+		$('body').css('overflow','auto')
+	});
+
+}); // <-- ready function
+</script>
+
+
+</head>
+
+<body>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+/*.tit__pop2:target h2:before {content:'☞ '; color:red; font-weight:bold;}*/
+</style>
+
+<div id="wrap">
+
+	<header class="header__pop">
+		<h1>Bibliography</h1>
+		
+		
+		
+		<a class="btn__pop--close" onclick="window.close()"><img src="/resources/images/btn-viewer-close.png" alt="닫기" /></a>
+	</header>
+
+	<div class="content__pop scroll" data-item-id="ABC_IT">
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<div class="tit__pop2">
+		<h2>사사법오십송(事師法五十頌)</h2>
+	</div>
+	
+
+	<div class="wrap__view--sj text-font-change">
+
+<style>
+/* .wrap__view--sj {font-size:0.95rem} */
+.wrap__view--sj {letter-spacing: 0em;}
+.wrap__view--sj dl.hide, .wrap__view--sj tr.hide {display:none;}
+.wrap__view--sj table th {vertical-align:top;}
+.wrap__view--sj .link__list.c01 {font-weight:normal; vertical-align: middle;} /*color:#0561b1;*/
+.wrap__view--sj .link__list.c01:hover {} /*color:#a04418;*/
+</style>
+
+<script>
+$(document).ready(function(){
+	$(".wrap__view--sj td").each(function(index, item) {
+		if($.trim($(item).text())=='') {
+			$(item).parent().addClass('hide');
+		}
+	});
+	
+	$(".wrap__view--sj dl").each(function(index, item) {
+		if($(item).find("tr").not(".hide").length<=0)
+			$(item).addClass('hide');
+	});
+	
+	var thName = "";
+	$(".wrap__view--sj dl[data-pnode-name='학술정보'] tr > th,.wrap__view--sj dl[data-pnode-name='현존정보'] tr > th,.wrap__view--sj dl[data-pnode-name='연계정보'] tr > th").each(function(index, item) {
+		if($(item).text() ==  thName) {
+			$(item).text('');
+		} else {
+			thName = $(item).text();
+		}
+	});
+});
+</script>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.wrap__view--sj .summary{margin:10px 0; padding:3px 15px; border:1px solid #dfdede; background:#f9f9f9; box-shadow: 2px 2px 3px rgba(200,200,200,.75)}
+.wrap__view--sj .summary .tit {padding:5px 0 8px 0; color:#d86616; font-size:1.2em; font-weight:bold; border-bottom:1px solid #dfdede;}
+.wrap__view--sj .summary ul{padding:5px 5px;}
+.wrap__view--sj .summary ul li{margin:5px 0}
+</style>
+
+	
+
+
+	
+	
+		
+		
+		
+		<dl data-pnode-name="분류정보">
+			<dt><div>Categorization Information</div></dt>
+			<dd>
+			
+			
+			
+			
+				<table>
+					<colgroup><col style="width:150px" /><col/></colgroup>
+					
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>Subject Categorization</th>
+							<td>신행(信行)-기본신행(基本信行)-사사(事師) 예법(禮法)</td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>By Classification System</th>
+							<td>正藏-再雕藏經部-再雕入藏部-惟淨∙法護等譯本</td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+				</table>
+			
+			
+			</dd>
+		</dl>
+		
+
+		
+
+		
+		
+		<dl data-pnode-name="제목정보">
+			<dt><div>Title Information</div></dt>
+			<dd>
+			
+			
+			
+			
+				<table>
+					<colgroup><col style="width:150px" /><col/></colgroup>
+					
+					
+					<tr>
+						
+						
+							<th>Representative Book Title</th>
+							<td>사사법오십송(事師法五十頌)</td>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+							<th>Scripture Name</th>
+							<td>사사법오십송(事師法五十頌)</td>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+							<th>Romanization</th>
+							<td>SHISHIFAWUSHISONG</td>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+							<th>약경명</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+							<th>별명</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+				</table>
+			
+			
+			</dd>
+		</dl>
+		
+
+		
+
+		
+		
+		<dl data-pnode-name="저자정보">
+			<dt><div>Author Information</div></dt>
+			<dd>
+			
+			
+			
+			
+				<table>
+					<colgroup><col style="width:150px" /><col/></colgroup>
+					
+					
+					<tr>
+						
+						
+						
+							<th>Author</th>
+							<td style="line-height:1.5">
+								
+								
+								
+									마명(馬鳴, Aśvaghoṣa)
+								
+								
+							</td>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+				</table>
+			
+			
+			</dd>
+		</dl>
+		
+
+		
+
+		
+		
+		<dl data-pnode-name="형태정보">
+			<dt><div>Shape Information</div></dt>
+			<dd>
+			
+			
+			
+			
+				<table>
+					<colgroup><col style="width:150px" /><col/></colgroup>
+					
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							<th>Fascicle Number</th>
+							<td></td>
+						
+						
+					</tr>
+					
+				</table>
+			
+			
+			</dd>
+		</dl>
+		
+
+		
+
+		
+		
+		<dl data-pnode-name="확장정보">
+			<dt><div>Expansion Information</div></dt>
+			<dd>
+			
+			
+			
+			
+				<table>
+					<colgroup><col style="width:150px" /><col/></colgroup>
+					
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>Goryeo_location</th>
+							<td>41-0612</td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>Goryeo_annotation </th>
+							<td>KBC는 번역시대를 北宋으로, 공동역자를 法護로 표기.</td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>Shinshū_NR</th>
+							<td>T.1687</td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>Shinshū_location</th>
+							<td>32-0775</td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>속장_NR</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>속장_위치</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>만속_위치</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>티벳_NAME</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>티벳_북경_NR</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>티벳_북경_위치</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>티벳_DU_NR</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>티벳_DU_위치</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>티벳_DT_NR</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>티벳_DT_위치</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>티벳_NOTE</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>산스_NAME</th>
+							<td>[범] Gurupañcāśikā</td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>산스_NOTE</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>Qisha_VOL</th>
+							<td>36</td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>Qisha_PAGE</th>
+							<td>382</td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>적사_NOTE</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>불광_VOL</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>불광_PAGE</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>불광_ROW</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>가흥_NR</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>가흥_VOL</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>가흥_PAGE</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>송장_VOL</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>송장_PAGE</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>Zhonghua_NR</th>
+							<td>1642</td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>Zhonghua_VOL</th>
+							<td>069</td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>Zhonghua_PAGE</th>
+							<td>0765</td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+					<tr>
+						
+						
+						
+						
+						
+						
+							<th>중화_NOTE</th>
+							<td></td>
+						
+						
+						
+						
+						
+						
+						
+					</tr>
+					
+				</table>
+			
+			
+			</dd>
+		</dl>
+		
+
+		
+
+		
+	
+	
+	</div>
+
+
+		
+
+		
+		
+		
+		
+
+		
+	</div>
+
+</div>
+
+	
+	
+</body>
+</html>

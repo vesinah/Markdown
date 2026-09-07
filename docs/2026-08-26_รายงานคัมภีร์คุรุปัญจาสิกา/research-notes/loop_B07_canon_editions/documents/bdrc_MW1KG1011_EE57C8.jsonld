@@ -1,0 +1,113 @@
+{
+    "@graph": [
+        {
+            "@id": "bdr:TTEF40D7BC3BCD93BF",
+            "rdfs:label": {
+                "@language": "bo-x-ewts",
+                "@value": "bla ma lnga bcu pa/"
+            },
+            "@type": "Title"
+        },
+        {
+            "@id": "bdr:CLA0D1CA5D796742D9",
+            "contentLocationVolume": {
+                "@value": "1",
+                "@type": "xsd:integer"
+            },
+            "contentLocationPage": {
+                "@value": "58",
+                "@type": "xsd:integer"
+            },
+            "contentLocationInstance": {
+                "@id": "bdr:W1KG1011"
+            },
+            "contentLocationEndPage": {
+                "@value": "63",
+                "@type": "xsd:integer"
+            },
+            "@type": "ContentLocation"
+        },
+        {
+            "@id": "bdr:MW1KG1011_EE57C8",
+            "inRootInstance": {
+                "@id": "bdr:MW1KG1011"
+            },
+            "partType": {
+                "@id": "bdr:PartTypeText"
+            },
+            "contentLocation": {
+                "@id": "bdr:CLA0D1CA5D796742D9"
+            },
+            "instanceOf": {
+                "@id": "bdr:WA0XLEE57C8CA491F"
+            },
+            "partOf": {
+                "@id": "bdr:MW1KG1011_DD0B79"
+            },
+            "partIndex": {
+                "@value": "10",
+                "@type": "xsd:integer"
+            },
+            "skos:prefLabel": {
+                "@language": "bo-x-ewts",
+                "@value": "bla ma lnga bcu pa/"
+            },
+            "partTreeIndex": "1.1.10",
+            "hasTitle": {
+                "@id": "bdr:TTEF40D7BC3BCD93BF"
+            },
+            "@type": "Instance",
+            "legacyOutlineNodeRID": "O1KG10114CZ230761",
+            "contentLocationStatement": "ff. 28v-31r (pp. 54-59)"
+        }
+    ],
+    "@context": {
+        "aut": "http://purl.bdrc.io/ontology/ext/auth/",
+        "bdan": "http://purl.bdrc.io/annotation/",
+        "bf": "http://id.loc.gov/ontologies/bibframe/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "tbr": "http://purl.bdrc.io/ontology/toberemoved/",
+        "bdou": "http://purl.bdrc.io/ontology/ext/user/",
+        "rsh": "http://purl.bdrc.io/shacl/core/shape/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "bdac": "http://purl.bdrc.io/anncollection/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "wd": "http://www.wikidata.org/entity/",
+        "srcpe": "https://sakyaresearch.org/persons/",
+        "oa": "http://www.w3.org/ns/oa#",
+        "bdgup": "http://purl.bdrc.io/graph-nc/user-private/",
+        "mbbt": "http://mbingenheimer.net/tools/bibls/",
+        "dila": "http://purl.dila.edu.tw/resource/",
+        "sh": "http://www.w3.org/ns/shacl#",
+        "tmp": "http://purl.bdrc.io/ontology/tmp/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "text": "http://jena.apache.org/text#",
+        "bda": "http://purl.bdrc.io/admindata/",
+        "bdgu": "http://purl.bdrc.io/graph-nc/user/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "bdg": "http://purl.bdrc.io/graph/",
+        "ola": "https://openlibrary.org/authors/",
+        "srct": "https://sakyaresearch.org/topics/",
+        "f": "java:io.bdrc.libraries.sparql.functions.",
+        "srcpl": "https://sakyaresearch.org/places/",
+        "adm": "http://purl.bdrc.io/ontology/admin/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "bdo": "http://purl.bdrc.io/ontology/core/",
+        "iiif2": "http://iiif.io/api/presentation/2#",
+        "adr": "http://purl.bdrc.io/resource-nc/auth/",
+        "iiif3": "http://iiif.io/api/presentation/3#",
+        "viaf": "http://viaf.org/viaf/",
+        "bds": "http://purl.bdrc.io/ontology/shapes/core/",
+        "eftr": "http://purl.84000.co/resource/core/",
+        "bdr": "http://purl.bdrc.io/resource/",
+        "as": "http://www.w3.org/ns/activitystreams#",
+        "bdu": "http://purl.bdrc.io/resource-nc/user/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "srcd": "https://sakyaresearch.org/deities/",
+        "ldp": "http://www.w3.org/ns/ldp#",
+        "srcs": "https://sakyaresearch.org/sources/",
+        "srcl": "https://sakyaresearch.org/literary_forms/",
+        "@vocab": "http://purl.bdrc.io/ontology/core/"
+    }
+}

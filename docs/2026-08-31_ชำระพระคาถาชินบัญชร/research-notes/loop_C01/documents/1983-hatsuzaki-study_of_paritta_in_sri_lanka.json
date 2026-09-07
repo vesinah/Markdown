@@ -1,0 +1,145 @@
+﻿{
+    "indexed":  {
+                    "date-parts":  [
+                                       [
+                                           2022,
+                                           4,
+                                           2
+                                       ]
+                                   ],
+                    "date-time":  "2022-04-02T20:59:51Z",
+                    "timestamp":  1648933191615
+                },
+    "reference-count":  0,
+    "publisher":  "Japanese Association of Indian and Buddhist Studies",
+    "issue":  "1",
+    "content-domain":  {
+                           "domain":  [
+
+                                      ],
+                           "crossmark-restriction":  false
+                       },
+    "short-container-title":  [
+                                  "jibs"
+                              ],
+    "published-print":  {
+                            "date-parts":  [
+                                               [
+                                                   1983
+                                               ]
+                                           ]
+                        },
+    "DOI":  "10.4259/ibk.32.481",
+    "type":  "journal-article",
+    "created":  {
+                    "date-parts":  [
+                                       [
+                                           2011,
+                                           7,
+                                           13
+                                       ]
+                                   ],
+                    "date-time":  "2011-07-13T10:28:37Z",
+                    "timestamp":  1310552917000
+                },
+    "page":  "481-478",
+    "source":  "Crossref",
+    "is-referenced-by-count":  0,
+    "title":  [
+                  "A Study of paritta in Sri Lanka"
+              ],
+    "prefix":  "10.4259",
+    "volume":  "32",
+    "author":  [
+                   {
+                       "given":  "Shojun",
+                       "family":  "Hatsuzaki",
+                       "sequence":  "first",
+                       "affiliation":  [
+
+                                       ],
+                       "role":  [
+                                    {
+                                        "role":  "author",
+                                        "vocabulary":  "crossref"
+                                    }
+                                ]
+                   }
+               ],
+    "member":  "2782",
+    "container-title":  [
+                            "JOURNAL OF INDIAN AND BUDDHIST STUDIES (INDOGAKU BUKKYOGAKU KENKYU)"
+                        ],
+    "original-title":  [
+
+                       ],
+    "deposited":  {
+                      "date-parts":  [
+                                         [
+                                             2021,
+                                             5,
+                                             19
+                                         ]
+                                     ],
+                      "date-time":  "2021-05-19T13:26:33Z",
+                      "timestamp":  1621430793000
+                  },
+    "score":  1,
+    "resource":  {
+                     "primary":  {
+                                     "URL":  "http://www.jstage.jst.go.jp/article/ibk1952/32/1/32_1_481/_article"
+                                 }
+                 },
+    "subtitle":  [
+
+                 ],
+    "short-title":  [
+
+                    ],
+    "issued":  {
+                   "date-parts":  [
+                                      [
+                                          1983
+                                      ]
+                                  ]
+               },
+    "references-count":  0,
+    "journal-issue":  {
+                          "issue":  "1",
+                          "published-print":  {
+                                                  "date-parts":  [
+                                                                     [
+                                                                         1983
+                                                                     ]
+                                                                 ]
+                                              }
+                      },
+    "URL":  "https://doi.org/10.4259/ibk.32.481",
+    "relation":  {
+
+                 },
+    "ISSN":  [
+                 "1884-0051",
+                 "0019-4344"
+             ],
+    "issn-type":  [
+                      {
+                          "value":  "1884-0051",
+                          "type":  "electronic"
+                      },
+                      {
+                          "value":  "0019-4344",
+                          "type":  "print"
+                      }
+                  ],
+    "subject":  [
+
+                ],
+    "published":  {
+                      "date-parts":  [
+                                         [
+                                             1983
+                                         ]
+                                     ]
+                  }
+}

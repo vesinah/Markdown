@@ -1,0 +1,2117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Charter of Pucangan (1041-11-6)</title>
+                <respStmt>
+                    <resp key="contributor">EpiDoc encoding</resp>
+                    <persName ref="part:argr">
+                        <forename>Arlo</forename>
+                        <surname>Griffiths</surname>
+                    </persName>
+                	<persName ref="part:ekba">
+                		<name>Eko Bastiawan</name>
+                	</persName>
+                </respStmt>
+            	<respStmt>
+            		<resp key="creator">intellectual authorship of edition</resp>
+            		<persName ref="part:csde">
+            			<forename>Csaba</forename>
+            			<surname>Dezsö</surname>
+            		</persName>
+            		<persName ref="part:argr">
+            			<forename>Arlo</forename>
+            			<surname>Griffiths</surname>
+            		</persName>
+            		<persName ref="part:ekba">
+            			<name>Eko Bastiawan</name>
+            		</persName>
+            	</respStmt>
+            </titleStmt>
+        	<publicationStmt>
+        		<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+        		<pubPlace>Jakarta</pubPlace>
+        		<idno type="filename">DHARMA_INSIDENKPucangan.xml</idno>
+        		<availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+        		<date from="2019" to="2026">2019-2026</date>
+        	</publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary/>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+        	<change who="part:argr part:ekba" when="2024-04-22" status="draft">completed first round of cleaning up the file</change>
+             <change who="part:argr part:ekba" when="2024-03-22" status="draft">started cleaning up the file</change>
+            <change who="part:mime" when="2024-03-22" status="draft">conversion from docx</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+		<body>
+    <div type="edition" xml:lang="kaw-Latn" rendition="class:38769 maturity:83213">
+<ab xml:lang="san-Latn"><milestone type="pagelike" unit="face" n="A"/><label xml:lang="eng">Sanskrit Text</label>
+<lb n="A1"/><g ref="sym:doubleBar-ornate" type="punctuation">.</g> <g ref="sym:circle-lined" type="symbol">*</g> <g ref="sym:doubleBar-ornate" type="punctuation">.</g> svasti <g ref="sym:doubleBar-ornate" type="punctuation">.</g></ab>
+            <lg xml:lang="san-Latn" met="āryā" n="1">
+                <l n="ab">tribhir api guṇair upeto nr̥ṇāv vidhāne sthitau tathā pralaye</l>
+                <l n="cd">A-guṇa Iti yaḥ prasiddhas tasmai dhātre namas satatam· ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="āryā" n="2">
+                <l n="ab">A-gaṇita-vikrama-guruṇā praṇamya-māna<lb break="no" n="A2"/>s surādhipena sadā</l>
+                <l n="cd"><supplied reason="lost">A</supplied><unclear>p</unclear><supplied reason="lost">i</supplied> yas trivikrama Iti prathito loke namas tasmai ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="āryā" n="3">
+                <l n="ab">yas sthāṇur apy ati-tarāy ya<choice><sic>v</sic><corr>th</corr></choice>epsitārtha-prado guṇair jagatām·</l>
+                <l n="cd">kalpa-drumam atanum adhaḥ karoti tasmai śivāya <lb n="A3"/> namaḥ ⊙ || ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="śārdūlavikrīḍita" n="4">
+                <l n="a">kīrtyākhaṇḍitayātayā karuṇayā yas strī-paratvan dadhac</l>
+                <l n="b">cāpākarṣaṇataś ca yaḥ praṇihitan tībraṅ kalaṅkaṅ kare</l>
+                <l n="c">yaś cāsac-carite parāṅ-mukhatayā śūro raṇe bhīrutāṁ</l>
+                <l n="d">svair doṣān bhajate gu<lb break="no" n="A4"/>ṇais sa jayatād erlaṅga-nāmā
+                    nr̥paḥ ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="śārdūlavikrīḍita" n="5">
+                <l n="a">Āsīn nirjita-bhūri-bhū-dhara-gaṇo bhū-pāla-cūḍā-maṇiḥ</l>
+                <l n="b">prakhyāto bhuvana-traye ’pi mahatā śauryyeṇa siṁhopamaḥ</l>
+                <l n="c">yenorvī suciran dhr̥tāmita-phalā la<lb break="no" n="A5"/>kṣmīś ca no
+                    gatvarī</l>
+                <l n="d">sa śrī-kīrti-valānvito yava-patiś śrīśāna-tuṅgāhvayaḥ ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="vasantatilakā" n="6">
+                <l n="a">tasyātma-jākaluṣa-mānasa-vāsa-ramyā</l>
+                <l n="b">haṁsī yathā sugata-pakṣa-sadāvavaddhā</l>
+                <l n="c">sā rājahaṁsa-mudam eva vivarddhaya<lb break="no" n="A6"/>ntī</l>
+                <l n="d">śrīśānatuṅga-vijayeti rarāja rājñī ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="vasantatilakā" n="7">
+                <l n="a">mandākinīm iva tadātma-samāṁ samr̥ddhyā</l>
+                <l n="b">kṣīrārṇavaḥ prathita-śuddhi-guṇāntarātmā</l>
+                <l n="c">tāñ cākarot praṇayinīn nayanābhinandī</l>
+                <l n="d">śrī-loka-pāla-nr̥patir nara-nātha-nā<lb break="no" n="A7"/>gaḥ ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="śārdūlavikrīḍita" n="8">
+                <l n="a">tasmāt prādur abhūt prabhāva-vibhavo bhū-bhūṣaṇodbhūtaye</l>
+                <l n="b">bhūtānām bhava-bhāvanodyata-dhiyām bhām bhāvayan bhūtibhiḥ</l>
+                <l n="c">Ābhiś cāpratima-prabhābhir abhayo bhāsvān ivābhyudyataś</l>
+                <l n="d">śatrūṇām ibha-kumbha-kumbha-<lb n="A8"/>dalane putraḥ prabhur bhū-bhujām·
+                    ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="āryā" n="9">
+                <l n="a">śrī-makuṭa-vaṅśa-varddhana Iti pratīto nr̥ṇām anupamendraḥ</l>
+                <l n="b">śrīśāna-vaṅśa-tapanas tatāpa śa<unclear>t</unclear>r<unclear>ū</unclear>n pratāpena ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="vasantatilakā" n="10">
+                <l n="a">tasyādhipasya duhitātimanojña-rupā</l>
+                <l n="b">mūrteva rā<lb break="no" n="A9"/>ja-guṇato yava-rāja-lakṣmīḥ</l>
+                <l n="c">dvīpāntare ’pi subhagena babhūva pitrā</l>
+                <l n="d">nāmnā kr̥tā khalu guṇa-priya-dharmma-patnī ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="vasantatilakā" n="11">
+                <l n="a">Āsīd asāv api viśiṣṭa-viśuddha-janmā</l>
+                <l n="b">rājānvayād udayanaḥ prathitāt prajātaḥ</l>
+                <l n="c">tāṁ śrī<lb break="no" n="A10"/>matīv vidhivad eva mahendra-dattāv</l>
+                <l n="d">vyaktāhvayo nr̥pa-sutām upayacchate sma ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="vasantatilakā" n="12">
+                <l n="a">śreṣṭhaḥ prajāsu sakalāsu kalābhirāmo</l>
+                <l n="b">rāmo yathā daśarathāt svaguṇair garīyān·</l>
+                <l n="c">sambhāvitonnata-gatir ma<lb break="no" n="A11"/>hasā munīndrair</l>
+                <l n="d">erlaṅga-deva Iti divya-sutas tato ’bhūt· ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="vasantatilakā" n="13">
+                <l n="a">śrī-dharmma-vaṁśa Iti pūrva-yavādhipena</l>
+                <l n="b">sambandhinā guṇa-gaṇa-śra<unclear>va</unclear>ṇotsukena</l>
+                <l n="c">Āhūya sādaram asau sva-sutā-vivāhan</l>
+                <l n="d">drāk sarvathā <lb n="A12"/> prathita-kīrttir abhūn mahātmā ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="mañjubhāṣiṇī" n="14">
+                <l n="a">Atha bhasmasād abhavad āśu tat-puram</l>
+                <l n="b">puru-hūta-rāṣṭram iva – dya – ⏑ – </l>
+                <l n="c">kalinā khalena khalu kiṅkarair vinā</l>
+                <l n="d">sa narottamena sahito vanāny agāt· ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="śārdūlavikrīḍita" n="15">
+                <l n="a">śākendre śaśa-lāñchanā<lb break="no" n="A13"/><supplied reason="lost">bdhi</supplied>-vadane yāte
+                    mahā-vatsare</l>
+                <l n="b">māghe māsi sita-trayodaśa-tithau vāre śaśiny utsukaiḥ</l>
+                <l n="c">Āgatya praṇatair janair dvija-varais s<unclear>āśvā</unclear>sam abhyarthitaś</l>
+                <l n="d">śrī-lokeśvara-nīralaṅga-nr̥patiḥ <unclear>pā</unclear><lb break="no" n="A14"/>hīty apātāṅ
+                    kṣitim· ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="vasantatilakā" n="16">
+                <l n="a">samrājya-dīkṣitam iman nr̥patin niśamya</l>
+                <l n="b">śakty<unclear>ā</unclear> jitāri-nikaran nivaho ripūṇām·</l>
+                <l n="c">Adyāpi tad-bhuja-bhujaṅga-talasya śaśvad</l>
+                <l n="d">abhyasyatīha <unclear>capa</unclear>latvam abhūta-pūrvvam· <lb n="A15"/> ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="śārdūlavikrīḍita" n="17">
+                <l n="a">bhūyāṁso yava-bhū-bhujo bubhujire pr̥thvīv vipakṣe ’rthinas</l>
+                <l n="b">sāmarthyān nr̥pa-janmano na bubhujus taj<unclear>jā</unclear> narendrāsane</l>
+                <l n="c">kintu śrī-jalalaṅga-deva-nr̥patir vaṁśyo ’dhirājāgraṇīr</l>
+                <l n="d">bhobhuṅkte sa bhu<lb break="no" n="A16"/><supplied reason="lost">na</supplied>kti kevalam arin dvandvam
+                    bhraman bhūtale ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="śārdūlavikrīḍita" n="18">
+                <l n="a">bhū-bhr̥n-mastaka-digdha-pāda-yugalas siṁhāsane saṁsthito</l>
+                <l n="b">mantrālaucana-tat-parair ahar-ahas sambhāṣito mantribhiḥ</l>
+                <l n="c">bhāsvadbhir lalanānvi<lb break="no" n="A17"/>to niviśate vīraiḥ parīto
+                    bhr̥śaṁ</l>
+                <l n="d">jyotis tasya parājaye vijayavac citrīyate santatam· ⊙</l>
+                <l n="e">— enāsya / — air asya / — bhir yasya</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="śārdūlavikrīḍita" n="19">
+                <l n="a">putrān mām ativatsalo ’pi sahasā tyaktvā madīyaḥ patis</l>
+                <l n="b">svarga-strī-gamano <lb n="A18"/> ⏑ – ⏑ ⏑ ⏑ to h/py ājñā-vidheyas tava</l>
+                <l n="c">khyātas tvam bhuvane dayālu-hr̥daya<unclear>ḥ stai</unclear>nyā pravr̥ttiḥ kathaṁ</l>
+                <l n="d">hā rājan· kva kr̥pety arer vanitayā rājāpy upālabhyate ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="vasantatilakā" n="20">
+                <l n="a">kaś cin mumukṣu-pa <lb n="A19"/> ⏑ – ⏑ ⏑ – ⏑ – –</l>
+                <l n="b">– vāptaye dhana-malāni mahān arātiḥ</l>
+                <l n="c">kaś cit tri-viṣṭapa-mukhān nr̥-varasya mantrān</l>
+                <l n="d">samprāpya śiṣya Iva tena kr̥tas sa Āsīt· ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="śārdūlavikrīḍita" n="21">
+                <l n="a">tuṅgāsau bhuvana-traya<lb break="no" n="A20"/>sya maha – – – ⏑ – – ⏑so</l>
+                <l n="b">kiṁ bandhāna cikīrṣayā kṣa ⏑ ⏑ – ṅ kiṁ tadyutesterasaḥ</l>
+                <l n="c">kiṅ krīḍā-rasa-lipsayā rabhasuyā yasyo<unclear>ddha</unclear>tiḥ kīrttitā</l>
+                <l n="d">kīrttiḥ śuddhi-karīndra<lb break="no" n="A21"/>dā dhavala – – mānyate
+                    ’har-niśam· ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="vasantatilakā" n="22">
+                <l n="a">Indro <supplied reason="lost">na</supplied>reṣu <supplied reason="lost">mati</supplied>-vāk-cariteṣu <supplied reason="lost">dha</supplied>rmmo</l>
+                <l n="b">vaśyeṣu <unclear>pāśa</unclear>bhr̥d asau dhana-do ’rthi-sārthe</l>
+                <l n="c">saṁhr̥tya hanta <supplied reason="lost">nr̥pa</supplied>-r<unclear>ā</unclear>d iti loka-pālān</l>
+                <l n="d">e<lb break="no" n="A22"/>ko bahum pra ⏑ ⏑ – v vriyate sma dhātrā ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="vasantatilakā" n="23">
+                <l n="a">Āsīn <unclear>n</unclear>r̥p<unclear>o</unclear> ⏑ ⏑ purī-pralayaṁ sa – – </l>
+                <l n="b">viṣṇu-prabhāva iti tasya suto mahātmā</l>
+                <l n="c"><unclear>tañ ca</unclear>ndra-bhūta-vadane śaka-rā<lb break="no" n="A23"/>ja-varṣa</l>
+                <l n="d">Ekādaśī ⏑ daka – cu ⏑ phalguṇe <unclear>v</unclear>ā<unclear>n</unclear>· ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="vasantatilakā" n="24">
+                <l n="a">Anyaś ca kaś cid adhamaḥ parudābhidhānas</l>
+                <l n="b">sākṣād daśānana Ivāvyathayaj jaganti</l>
+                <l n="c">– – ⏑ – sya ⏑ ⏑ – ⏑ ⏑ – <lb n="A24"/> narendro</l>
+                <l n="d"><unclear>rā</unclear>mātviramya-ca<unclear>ri</unclear>to nyavadhīt tam āśu ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="pr̥thvī" n="25">
+                <l n="a">tataś ca tad-anantaran nr̥pa-sutañ jigīṣu<unclear>r ga</unclear>tas</l>
+                <l n="b">tad-ālayam aśeṣam eva sahasābhyadhākṣīn nr̥paḥ</l>
+                <l n="c">punaḥ punar athāgni-bhū<lb n="A25"/>ta-vadane śakābde gate</l>
+                <l n="d"><unclear>varo</unclear> nara-patis tadīya-nagarāṇy adandahyata ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="mālinī" n="26">
+                <l n="a">Abhavad api bhuvi strī rākṣasīvogra-vīryyā</l>
+                <l n="b">vyapagata-bhayam asyās saṅkaṭāṅ gām ayāsī<lb break="no" n="A26"/>t·</l>
+                <l n="c">jala-nidhi-śara-randhre śāka-samvatsare ’smin·</l>
+                <l n="d">nr̥patir abhinad e<supplied reason="lost">tān tat-kṣa</supplied>ṇaṅ khyāta-kīrttiḥ ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="mālinī" n="27">
+                <l n="a">jvalana Iva narendro lelihāno dahat tān</l>
+                <l n="b">diśam adhikam a<unclear>ja</unclear>yyān dakṣiṇān da<lb break="no" n="A27"/>kṣiṇatvāt·</l>
+                <l n="c">dhanam atibahu labdhvā tac ca datvātmabhr̥tye</l>
+                <l n="d">dvijapatimunisaṅghe kīrttim evāharat saḥ ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="śārdūlavikrīḍita" n="28">
+                <l n="a">mānitvād atha śailabhūtalapane śākendravarṣe gate</l>
+                <l n="b">bhadre <lb n="A28"/> māsi sitatrayodaśatitho vāre budhe pāvane</l>
+                <l n="c">udyuktair balibhir balair agaṇitair gatvā diśam paścimāṁ</l>
+                <l n="d">rājānav vijayāhvayaṁ samajayad rājā jagatpūjitaḥ ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="mālinī" n="29">
+                <l n="a"><supplied reason="lost">A</supplied>tha mu<unclear>kha</unclear><lb break="no" n="A29"/><unclear>śa</unclear>rarandhre śākavarṣe ṣṭamākhye</l>
+                <l n="b">suragurusitipakṣe kārtike māsi tasmin·</l>
+                <l n="c">nijabalanigr̥hīto vaiṣṇuguptair upāyais</l>
+                <l n="d">sapadi vijayavarm<unclear>m</unclear>ā pārthivo dyām aga<lb break="no" n="A30"/>cchat· ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="mālinī" n="30">
+                <l n="a">m<unclear>ukha</unclear>-śara-vivarākhye śāka-rājasya varṣe</l>
+                <l n="b">hata-śaśi-guru-vāre kārtike pañcadaśyām·</l>
+                <l n="c">ripu-śirasi mahātmā śrī-yava-dvīpa-rājo</l>
+                <l n="d">jayati nihita-pād<lb break="no" n="A31"/>o ratna-siṁhāsana-sthaḥ ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="vasantatilakā" n="31">
+                <l n="a">pūrvvādi-dig-vijayinaṁ hata-sarvva-śatrum</l>
+                <l n="b">ekāta-patram avaner jalalaṅga-devam·</l>
+                <l n="c">nānyan nirīkṣitum alaṁ subhujopapīḍaṅ</l>
+                <l n="d">gāḍham pariṣvajati sa<lb break="no" n="A32"/>mprati rāja-lakṣmīḥ ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="śārdūlavikrīḍita" n="32">
+                <l n="a">
+                    <supplied reason="lost" evidence="previouseditor">nirjityātha ripūn parākrama-dhanāc chau[r]yyair upāyair api</supplied>
+                </l>
+                <l n="b"><supplied reason="lost" evidence="previouseditor">śaktyākhaṇḍita</supplied>yā khalu bratitayā vā devatārādhanaiḥ</l>
+                <l n="c">rantuñ jāta-mahā-<unclear>kra/śra</unclear>mas sa <lb n="A33"/>
+                    <supplied reason="lost" evidence="previouseditor">kurute puṇyāśramaṁ śrīmataḥ</supplied></l>
+                <l n="d"><supplied reason="lost" evidence="previouseditor">pārśve pūgavato girer nara-patiś śrī-nīralaṅgāhvayaḥ</supplied> ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="sragdharā" n="33">
+                <l n="a">śr̥ṇvanto rājakīyāśramam asamam iman nandanodyāna-deśyaṅ</l>
+                <l n="b">gaccha<lb break="no" n="A34"/><supplied reason="lost" evidence="previouseditor">ntas santatan te py ahamahamikayā
+                        vismayālolanetr<choice><sic>ā</sic><corr>aḥ</corr></choice></supplied></l>
+                <l n="c"><supplied reason="lost" evidence="previouseditor">mālābhiprīti-kārās</supplied> stuti-mukharamukhā mukhyam enan nr̥pāṇām</l>
+                <l n="d">mānīnam manyamānā manum iva mahasā <lb n="A35"/> mānanīyav vruvanti ⊙</l>
+            </lg>
+            <lg xml:lang="san-Latn" met="śārdūlavikrīḍita" n="34">
+                <l n="a"><supplied reason="lost" evidence="previouseditor">sādhūnām pathi yātu paura-samitir dharmyā gatir ma</supplied>ntriṇām</l>
+                <l n="b">bhūyād bhūta-hiteṣiṇo muni-janā Itthan na me prārthanā</l>
+                <l n="c">yasmiñ jīvati rājñi ra<lb break="no" n="A36"/><supplied reason="lost" evidence="previouseditor">kṣati bhuvan dharmeṇa
+                        siddhyanti te</supplied></l>
+                <l n="d"><supplied reason="lost" evidence="previouseditor">tasmāc chrī-jala</supplied>laṅga-deva-nr̥-patir dīrghaṁ sa jīvyād iti ⊙ // ⊙</l>
+            </lg>
+        <p><milestone n="B" type="pagelike" unit="face"/><label xml:lang="eng">Old Javanese Text</label>
+            <lb n="B1"/><g ref="sym:doubleBar-ornate" type="punctuation">.</g> <g ref="sym:circle-lined" type="symbol">*</g> <g ref="sym:doubleBar-ornate" type="punctuation">.</g> svasti śaka-varṣātīta <num value="963">963</num> kārtika-māsa, tithi daśamī śukla-pakṣa,
+                <abbr>ha</abbr>, <abbr>va</abbr>, <abbr>śu</abbr>, vāra vayaṁ-vayaṁ, c<choice><orig>a</orig><reg>ā</reg></choice>ra graha bāyabyastha, Uttarabhadravā<supplied reason="omitted">da</supplied>-nakṣatra,
+                Ahirbudhna-devatā, bajrayoga, gara<unclear>ḍ</unclear>i-<supplied reason="lost">ka</supplied><lb break="no" n="B2"/>raṇa, bāruṇya-maṇḍala,</p>
+            <p>Irikā divaśany ājñā śrī mahārāja <abbr>rakai</abbr> halu śrī lokeśvara dharmmavaṅśa
+                Airlaṅgānantavikramottuṅgadeva, tinaḍaḥ rakryān· mahāmantrī I hino śrī samaravijaya
+                    <surplus>dha<lb break="no" n="B3"/>ma</surplus> suparṇa<unclear>vā</unclear>haṇa tguh uttuṅgadeva, <unclear>Um</unclear>iṅ<unclear>so</unclear>r· I
+                rakryān· kanuruhan· pu dharmmamūrtti <unclear>naro</unclear>ttama dānaśūra <unclear>k</unclear>umo<unclear>nak</unclear>ə<unclear>n</unclear> i<unclear>kana</unclear>ṁ
+                ri pucaṅan·, Iṁ barahəm·, Iṁ bapuri, lmaḥniṁ varggāpi<unclear>ṅhe</unclear> <del><gap quantity="8" reason="lost" unit="character"/></del>
+                <lb n="B4"/><del><gap quantity="32" reason="lost" unit="character"/></del>
+                 susukən·, mapaknā pa<unclear>ṅ</unclear>adəganani dharmma karṣyan· śrī
+                mahārāja,</p>
+            <p>sambandha, A<supplied reason="lost">n·</supplied><lb n="B5"/>hana Iṣṭaprārthanā śrī mahārāja ri kālaniṁ
+                pralaya riṁ yavadvīpa, <unclear>I</unclear><supplied reason="lost">r</supplied>i<supplied reason="lost">kā</supplied>ṁ <supplied reason="lost">śaka</supplied>k<supplied reason="lost">āla</supplied> <num value="939">939</num> ri pra<unclear>hāra</unclear> haji vura<unclear>va</unclear>ri
+                An· vijil· saṅke lva rām·, Ek<choice><orig>a</orig><reg>ā</reg></choice>rṇava r<choice><orig>u</orig><reg>ū</reg></choice>panikāṁ sayavadvīpa rikāṁ kā<lb break="no" n="B6"/>la, Akveḥ sira vvaṁ mahāviśeṣa pjaḥ, karuhun· An· samaṅkana divaśa śrī
+                mahārāja devatā pjaḥ lumāḥ ri saṁ hyaṁ dharmma parhyaṅan i vvatan·, riṁ cetra-māsa,
+                śaka-kāla <num value="939">939</num> sḍaṁ vāla<lb break="no" n="B7"/>ka śrī mahārāja Irikāṁ kāla, prasiddha na<supplied reason="lost">m</supplied> blas· <unclear>tah</unclear>un· vayaḥnira, tapvan· dahat· kr̥ta-pariśramanireṁ saṁgrāma,
+                makahet<unclear>u</unclear> rarainira, tapvan enāk· baṅətni denira rumə<lb break="no" n="B8"/>gəp·
+                pasarikəpany āyudhanira, kunaṁ ri sākṣāt<unclear>n</unclear>niran· viṣṇumūrt<unclear>t</unclear>i, rinakṣaniṁ
+                sarbvadevata, Inahākən tan ilva kavaśa deni paṅava<unclear>śaniṁ</unclear> mahāpralaya, maṅantīri
+                himbaṁniṁ vanagiri, ma<lb break="no" n="B9"/>kasambhāsana saṁ tāpaśa suddhācāra,
+                meriṁ lāvan· hulunira saṅ ek<unclear>ā</unclear>ntapratipatti manaḥniran· <unclear>dāśabhū</unclear>ta-tan<choice><orig>u</orig><reg>ū</reg></choice>pacāran· bhaktiprahva ri lbūni
+                pāduka śrī mahārāja, pu narottama, <lb n="B10"/>saṁjñānira, sirādini h<unclear>u</unclear>l<supplied reason="lost" evidence="previouseditor">u</supplied>n· śrī mahārāja Ati<choice><orig>sayeṁ</orig><reg>śayeṅ</reg></choice> dr̥ḍabhakti, tumūt tan sāḥ I saparān· śrī mahārāja, milu
+                valkaladhara pinakarovaṁ śrī mahārāja makāhāra sāhā<lb break="no" n="B11"/>ra saṁ bhikṣuka vanaprastha, tātan· vismr̥<choice><sic>d</sic><corr>t</corr></choice>i śrī mahārāja ri kārādhanan· bhaṭāra riṅ ahorātra, nimittani mahābhāranyāsiḥniṁ sarbvadevata I śrī mahārāja, An· sira pi<lb break="no" n="B12"/>nratyayaniṁ sarbvadevata <unclear>ka</unclear>lpapādapa Umə:bana bhuvana, kumaliliranaṁ kulit kaki, makadrabyaṁ rājalakṣmī, muvahakna sāśvatā<unclear>niṁ</unclear> <hi rend="check"/>rāt·, munarjīvāknaṁ saṁ hyaṁ sarvvadharmma 
+                <lb n="B13"/>humariṣṭākna hanituniṁ bhuvana, maṁkanābhamataniṁ sarbva<unclear>devata</unclear> I śrī mahārāja,</p>
+            <p>huvus ta śrī mahārāja kr̥tasaṁskāra, pratiṣṭa riṁ siṅhāsana, mvaṁ An· kapadasthāniṁ
+                pituṁ śrī ma<lb break="no" n="B14"/>hārāja haji devatā saṁ lumāḥ riṅ īśānabajra Ikanaṁ halu pinaka<unclear>ka</unclear>padasthān· śrī mahārāja, mataṅyan· <abbr>rakai</abbr> halu śrī lokeśvara dharmmavaṅśa Airla<unclear>ṅgā</unclear>nantavikram<lb break="no" n="B15"/>ottuṅgadeva saṁjñā kāstvan· śrī mahārāja, de mpuṅku sogata maheśvara mahābrāhmaṇa Irikāṁ śakakāla <num value="941">941</num> <unclear>tā</unclear>tan· pahī<unclear>ṅan de</unclear> śrī mahārāja <unclear>luma</unclear>risakə<lb break="no" n="B16"/>n· sābhamataniṁ sarbvadevatā I sira, kapva kakal<unclear>imbaṅ ikaṁ</unclear> kriyā vāhyāntara denira, tan· kasalimur i kadamlaniṁ pūjā, <gap quantity="3" reason="lost" unit="character"/> prāyaścitta <gap quantity="6" reason="lost" unit="character"/> <unclear>ma</unclear>hābhā<lb break="no" n="B17"/>raniṁ kasiṅhe<unclear>śva</unclear>ranira, marava<unclear>śā</unclear>k<unclear>ə</unclear>n· sakveḥnik<unclear>āṁ ka</unclear>la<unclear>ṅka</unclear>
+                satumuvuh i <gap quantity="2" reason="lost" unit="character"/> hyaṁ,
+                sap<unclear>i</unclear>nakahani<unclear>t</unclear>uniṁ yavadvīpa, pra<unclear>bheda</unclear> <gap quantity="4" reason="lost" unit="character"/> dru<unclear>ha</unclear> <gap quantity="6" reason="lost" unit="character"/>
+                <lb break="no" n="B18"/>ṅ inaranan· si <unclear>śuvuka</unclear>l·, <unclear>man</unclear>tu <unclear>ha</unclear>j<unclear>ī</unclear>nadgakn <unclear>iṁ</unclear>
+                ka<unclear>ṭ</unclear>ula mvaṁ si la<unclear>ḍ</unclear>iṁ, nirava<unclear>ś</unclear>eṣa I <gap quantity="1" reason="lost" unit="character"/> <unclear>tta</unclear> s<unclear>ama</unclear> <gap quantity="2" reason="lost" unit="character"/> <unclear>n</unclear>ya de śrī mahārāja, ṅuni-ṅuni haji tṅaḥ <gap quantity="7" reason="lost" unit="character"/> sapuluḥ <lb n="B19"/> tahun· An· paṁ<unclear>di</unclear>ri, pinakarovaṁ
+                mad<unclear>v</unclear>andva yuddhaca<unclear>kra</unclear> <gap quantity="10" reason="lost" unit="character"/>
+                <unclear>vv</unclear>at· pinja<unclear>han iṁ</unclear> vaṅuntur· mvaṁ saṅ ibu Irikāṁ śakakāla <num value="951">95<unclear>1</unclear></num> <gap quantity="5" reason="lost" unit="character"/> lumampaḥ <lb n="B20"/> ta śrī mahārāja dumon ikāṁ parad<supplied reason="lost">āra</supplied>putra hyaṁ ma<unclear>ṅ</unclear>ṅadg <unclear>i v</unclear>uru tum<unclear>u</unclear>ṁgal <unclear>i</unclear> maddhyadeśaniṁ vurahan·,
+                Atiśayeṁ mahābalapa<unclear>rākrama</unclear> sumorakən haji vəṅkər· <lb n="B21"/> saṅa ta ha<unclear>jy a</unclear>n·
+                pahaR̥p=haR̥pan· mvaṁ haji vaṅk<unclear>ə</unclear>r·, kavnaṅ ata Ikā <unclear>de</unclear> śrī mahārāja I<unclear>rikāṁ
+                śaka</unclear>kāla <num value="952">952</num> mvaṁ tinuluy <unclear>hani</unclear>hanitu<supplied reason="lost">n</supplied>i <gap quantity="8" reason="lost" unit="character"/> tu<lb break="no" n="B22"/>miṅgalakən karājyanira <unclear>m</unclear>uvah
+                akaḍatvan i L̥ca, tin<unclear>ū</unclear>tnikāṁ deśa galuḥ m<unclear>v</unclear>aṁ deśa barat·, A<unclear>n</unclear>· tinkān·
+                sināhasan irikāṁ śakakāla <num value="953">9<unclear>5</unclear><supplied reason="lost">3</supplied></num> <supplied reason="lost">d</supplied>e <unclear>śrī</unclear> mahārā<lb break="no" n="B23"/>ja, muvaḥ
+                hana ta putra <supplied reason="lost">haji</supplied> vaṅ<supplied reason="lost">ka</supplied>r·<!-- or spell with pepet?--> ma<unclear>ṅ</unclear>adg i vur<unclear>u rt</unclear>u p<unclear>j</unclear>aḥ Ata Ikā de śrī mahārāja
+                Irikāṁ śakakāla <num value="954">954</num> sahanani vargga la<unclear>ṁ</unclear>ḍiṁ rāk·, mvaṁ hiR̥ṁ-hiR̥ṅan<unclear>·</unclear>, <unclear>Iṁ</unclear> <lb n="B24"/> maṁd<unclear>on·,</unclear> lāvan· sahananikāṁ makira-<unclear>k</unclear>i<unclear>rāpā</unclear>yāmutra hyaṅ amana<unclear>ḥnya</unclear>
+                    <gap quantity="8" reason="lost" unit="character"/> d<supplied reason="lost">e</supplied> śrī mahārāja, haji
+                vura<unclear>va</unclear>ri tuvi śrī mahārāja Ata maka<lb break="no" n="B25"/>puruṣa<unclear>kā</unclear>ra
+                kahilaṁnira, <unclear>U</unclear>saṁ<supplied reason="lost">ṅ-u</supplied>saṁ śrī mahārāja mvaṁ rakryān· kanuruhan· pu narottama, rakryān· kuniṅan pu nīti, ri kāla śrī mahārāja hane magəṁ ha <lb n="B26"/>
+                <gap quantity="2" reason="lost" unit="character"/> h<unclear>ī</unclear>ṅa<unclear>nyan·</unclear> śrī mahārāja
+                <supplied reason="lost">sa</supplied><unclear>ṅka</unclear>ni hilaṁniṁ sahanani han<unclear>i</unclear>ihanituniṁ yavadvīpa, kunaṁ kramani kahilaṁ haji vəṅkər· de śrī mahārāja, <supplied reason="lost">mū</supplied>la kaḍatvani<unclear>ra</unclear> ri ka<lb break="no" n="B27"/>paṁ sira naṁ pratiniyata hinārohara deśanirāṅkən· Asujimāsa de śrī mahārāja, muvaḥ Irikāṁ
+                śakakāla <num value="957">95<supplied reason="lost">7</supplied>7</num> <supplied reason="lost" evidence="previouseditor">vvay a</supplied>ta, samaṁkana <unclear>ta</unclear>ta sirar kapa<lb break="no" n="B28"/>rājaya ri kapaṁ de śrī mahārāja, sirāmriḥ manusup amet· deśa durgga, matiṅgal·
+                tanaya dāra t<supplied reason="lost" evidence="previouseditor">ka riṁ rājadrabya rājavāha</supplied>na prakāra, ri kahləma<lb break="no" n="B29"/>nya Irikāṁ śakakāla <num value="959">959</num> vaR̥gg anusup· haji ri kapaṁ mvaṁ balanira
+                samāsiḥ ri sira, kavnaṁ ta sira ri sa<supplied reason="lost" evidence="previouseditor">rasa ratu</supplied> <gap quantity="1" reason="lost" unit="character"/> <supplied reason="lost" evidence="previouseditor"><hi rend="check">vani pa</hi></supplied> <gap quantity="1" reason="lost" unit="character"/> <supplied reason="lost" evidence="previouseditor">paṅan·</supplied>, ha <gap quantity="3" reason="lost" unit="character"/> pinakata<lb break="no" n="B30"/>pakan· <unclear>t</unclear>aṇḍasnira de śrī mahārāja Ar paliṅgiḥ moḍo<unclear>ḍa</unclear>
+                    <supplied reason="lost" evidence="previouseditor">ri siṅhāsa</supplied><unclear>na</unclear>,</p>
+            <p>sampun· saṁkṣipta ta Ikāṁ pralaya <supplied reason="lost" evidence="previouseditor">ri yava</supplied><unclear>dvīpa</unclear><supplied reason="lost" evidence="previouseditor">, mat</supplied>l<supplied reason="lost" evidence="previouseditor">asan ikā</supplied>
+                saṁgrāma, ta<lb n="B31"/>n <unclear>hana</unclear> <supplied reason="lost" evidence="previouseditor">saṅśa</supplied>yani manaḥnikāṁ rāt· An· <unclear>p</unclear>paṅəb·
+                maka<choice><orig>pārāyana</orig><reg>parāyaṇa</reg></choice> <unclear>c</unclear>chā<supplied reason="lost" evidence="previouseditor">yā</supplied>ni pāduka śrī mahārāja, mataṅ yar siddh<supplied reason="lost" evidence="previouseditor">ākən·</supplied>
+                <supplied reason="lost" evidence="previouseditor">pratijñānira,</supplied>
+                <supplied reason="lost" evidence="previouseditor">madaməl</supplied>· yaśa pa<lb break="no" n="B32"/>tap<supplied reason="lost" evidence="previouseditor">ān iṁ</supplied> pucaṅan·
+                Inusa<supplied reason="lost">n·-U</supplied>san· raghu, yāṅkən· mantras<unclear>t</unclear>avanamaskāra śrī mahārāja ri bhaṭāra
+                sāri-sāri, mvaṁ paṁ<supplied reason="lost" evidence="previouseditor">liṅgānanikāṁ</supplied>
+                <supplied reason="lost" evidence="previouseditor">rāt·, karuhun saṅ an</supplied>ā<lb break="no" n="B33"/>gataprabhu hlam i dlāhaniṁ dlāha,
+                ri kramani de śrī mahārāja munarjīvākən· sāśvatāniṁ
+                    <supplied reason="lost" evidence="previouseditor">sa</supplied>ya<supplied reason="lost" evidence="previouseditor">vadv</supplied>ī<supplied reason="lost" evidence="previouseditor">pa,</supplied>
+                <supplied reason="lost" evidence="previouseditor">Āpan· saṅ anādi prabhu sakveḥnira sinivi riṁ</supplied>
+                <lb n="B34"/> yavadvīpa, ka <gap quantity="3" reason="lost" unit="character"/>
+                sa<unclear>dbhāva</unclear> <gap quantity="12" reason="lost" unit="character"/> han denira,
+                t<unclear>kā</unclear>maṅgiḥ hay<supplied reason="lost" evidence="previouseditor">unira</supplied>
+                <supplied reason="lost" evidence="previouseditor">kabeḥ riṅ anādi, tātan· maṅkana śrī mahārāja</supplied> <gap quantity="1" reason="lost" unit="character"/>
+                <lb n="B35"/><unclear>s</unclear>ya<unclear>n</unclear>iṁ <gap quantity="26" reason="lost" unit="character"/>
+                <supplied reason="lost" evidence="previouseditor">nira mvaṁ</supplied>
+                <supplied reason="lost" evidence="previouseditor">abhimata</supplied>
+                <supplied reason="lost" evidence="previouseditor">śrī mahārāja mayva</supplied>
+                <lb n="B36"/> <unclear>th</unclear>ā<unclear>n</unclear>i <supplied reason="lost">vat</supplied>ə<supplied reason="lost">k</supplied>· <gap quantity="7" reason="lost" unit="character"/>
+                <unclear>maṅaran i</unclear> h<unclear>i</unclear>no<unclear>,</unclear> <gap quantity="1" reason="lost" unit="character"/> dr̥bya haji
+                mā su 1 <gap quantity="2" reason="lost" unit="character"/> ni <gap quantity="20" reason="lost" unit="character"/>
+                <supplied reason="lost" evidence="previouseditor">nikāṁ</supplied>
+                <lb n="B37"/>
+                <supplied reason="lost" evidence="previouseditor">yaśa patapān</supplied>· I pucaṅan·, mantən· ta Ikāṁ lmaḥ ri pucaṅan·, I barahə<supplied reason="lost" evidence="previouseditor">m·, I
+                    bapuri</supplied>
+                <gap quantity="26" reason="lost" unit="character"/>
+                <lb n="B38"/> ya <gap quantity="10" reason="lost" unit="character"/>· saṁ hyaṁ yaśa
+                patapān i pucaṅan· <supplied reason="lost" evidence="previouseditor">[tan katamāna deniṁ]</supplied>
+                <supplied reason="lost" evidence="previouseditor">vinava saṁ māna [katrīṇi,]</supplied>
+                <supplied reason="lost" evidence="previouseditor">pa</supplied><lb break="no" n="B39"/><supplied reason="lost" evidence="previouseditor">ṅkur·, tavan·, tiri</supplied>p·, mvaṁ <unclear>saṁ
+                    nāyaka</unclear>pratya<supplied reason="lost" evidence="previouseditor">ya</supplied>, piṅhai vahuta rāma, mvaṁ sakveḥ <supplied reason="lost" evidence="previouseditor">saṁ maṅilala drabya
+                    haji m</supplied>
+                <gap quantity="4" reason="lost" unit="character"/>
+                <supplied reason="lost" evidence="previouseditor">su</supplied><lb break="no" n="B40"/><supplied reason="lost" evidence="previouseditor">khaduḥkha,</supplied>
+                <supplied reason="lost" evidence="previouseditor">sakve</supplied>ḥ lviranya <gap quantity="6" reason="lost" unit="character"/>
+                <supplied reason="lost" evidence="previouseditor">sahīṅani lma</supplied>ḥ saṁ hyaṁ yaśa pa<supplied reason="lost" evidence="previouseditor">tapān i pucaṅan·</supplied>
+                <gap quantity="8" reason="lost" unit="character"/>
+                <lb n="B41"/>
+                <gap extent="unknown" reason="lost" unit="character"/>
+                <supplied reason="lost" evidence="previouseditor">[saṁ maṅilāla] drabya haji vulu-vulu mvaṁ</supplied>
+                <gap extent="unknown" reason="lost" unit="character"/>
+                <lb n="B42"/><supplied reason="lost" evidence="previouseditor">siṅ ata lviranya,</supplied>
+                <supplied reason="lost" evidence="previouseditor">luməbu</supplied><supplied reason="lost">ra</supplied> <gap quantity="2" reason="lost" unit="character"/>
+                <supplied reason="lost" evidence="previouseditor">saṁ hyaṁ yaśa patapān</supplied> i pucaṅan·, <supplied reason="lost" evidence="previouseditor">yan· brāhmaṇa kṣatriya veśya, sudra,
+                    caṇḍāla, nāyaka, partyaya,</supplied>
+                <lb n="B43"/> piṅhai va<supplied reason="lost" evidence="previouseditor">huta rāma</supplied>
+                <gap quantity="14" reason="lost" unit="character"/>
+                <supplied reason="lost" evidence="previouseditor">umulah-u</supplied>laha kaśva<supplied reason="lost" evidence="previouseditor">tantrān· saṁ hyaṁ dharmma patapān i pucaṅan· mvaṁ
+                    sahīṅaniṁ lmaḥni</supplied>
+                <lb n="B44"/>
+                <gap quantity="1" reason="lost" unit="character"/> nanira <supplied reason="lost" evidence="previouseditor">I hino</supplied>
+                <gap quantity="6" reason="lost" unit="character"/>
+                <supplied reason="lost" evidence="previouseditor">saṁ hyaṁ yaśa patapān·, jaḥ tasmāt· kabvatkarmmāknanya, [bhukt]inira
+                    [pañca]mahā</supplied><lb break="no" n="B45"/>pātaka <gap extent="unknown" reason="lost" unit="character"/>
+                <supplied reason="lost" evidence="previouseditor">citralekha I pāduka śrī mahārāja</supplied>
+                <gap extent="unknown" reason="lost" unit="character"/>
+                <supplied reason="lost" evidence="previouseditor">sira</supplied>
+                <gap extent="unknown" reason="lost" unit="character"/>
+                <lb n="B46"/> saṁ hyaṅ ājñā <supplied reason="lost" evidence="previouseditor">haji praśāsti</supplied></p>
+        </div>
+    <div type="apparatus">
+            <listApp>
+                <app loc="A1">
+                <lem>nr̥ṇāv vidhāne</lem>
+                <note>One expects <foreign>nr̥ṇāṁ vidhāne</foreign>. Of this idiosyncratic sandhi, of which several more examples will follow below, we have seen one other instance in the Campā inscription C. 167, st. IV (§1.3). See also Kern's remark (1917:87). ALSO BAN NAXONE LAOS</note>
+                </app>
+                <app loc="A2">
+                <lem><supplied reason="lost">A</supplied><unclear>p</unclear><supplied reason="lost">i</supplied></lem>
+                <!-- <rdg source="bib:DamaisPucangan_01">api</rdg> -->
+                <rdg source="bib:Kern1917_17"><unclear>A</unclear>pi</rdg>
+                <note>In fact only a part of the <foreign>p</foreign> is actually visible, but the shape of the lacuna certainly allows conjecturing <foreign>Api</foreign>.</note>
+                </app>
+                <app loc="A2">
+                <lem>yas sthāṇur</lem><!-- thus also Damais -->
+                <rdg source="bib:Kern1917_17">ya sthāṇur</rdg>
+                </app>
+                <app loc="A2">
+                <lem>atitarāy</lem>
+                <note>Norm. <foreign>atitarāṁ</foreign>. For this idiosyncratic sandhi see our note on <foreign>nr̥ṇāv vidhāne</foreign> in <foreign>pāda</foreign> b of stanza I.</note>
+                </app>
+                <app loc="A2">
+                <lem>ya<choice><sic>v</sic><corr>th</corr></choice>epsitārtha-</lem><!-- thus also Damais -->
+                <rdg source="bib:Kern1917_17">yathepsitārtha-</rdg>
+                <note>The <foreign>akṣara</foreign> in question quite clearly seems to be <foreign>v</foreign> and not <foreign>th</foreign>, but the two <foreign>akṣara</foreign>s are very similar and the latter was almost certainly intended, so we translate <foreign>yathepsita</foreign>-.</note>
+                </app>
+                <app loc="A3">
+                <lem>°tayā</lem> 
+                <!-- <rdg source="bib:DamaisPucangan_01">–yā</rdg> -->
+                <rdg source="bib:Kern1917_17">dhiyā</rdg> 
+                <note>The reading included in Crawfurd 1816 seems to be <foreign>kayā</foreign> at this place.</note>
+                </app>
+                <app loc="A5">
+                <lem>lakṣmīś ca no gatvarī</lem><!-- thus also Damais -->
+                <rdg source="bib:Kern1917_17">lakṣmīn dadhau gatvarī </rdg>
+                <note>We initially read <foreign>dorgatvarī</foreign>, because something that resembles a <foreign>repha/layar</foreign> seems discernible above the <foreign>ga</foreign>, but we are unable to come up with any justification for why the author would have invented a unique expression ‘going from the arms’ or ‘going from arm to arm’ to mean ‘fickle’. It is more likely that he used <foreign>no</foreign>, a metrically conditioned equivalent of the negation <foreign>na</foreign> (cf <foreign>Raghuvaṁśa</foreign> 11.60: <foreign>diśo no babhūvur avalokanakṣamāḥ</foreign>). For <foreign>gatvarī</foreign> as an attribute of <foreign>śrī</foreign> (meaning ‘riches’ in this case), see <foreign>Kirātārjunīya</foreign> 11.21: <foreign>abhidroheṇa bhūtānām arjayan gatvarīḥ śriyaḥ</foreign> ‘The man who amasses transient wealth by injuring creatures…’ (tr. Peterson).</note>
+                </app>
+                <app loc="A5">
+                <lem>sadāvavaddhā</lem><!-- thus also Damais -->
+                <rdg source="bib:Kern1917_17">sahābhavadyā</rdg>
+                </app>
+                <app loc="A5">
+                <lem source="bib:Kern1885_01">mudam</lem> 
+                <!--thus also Kern 1885 (<foreign>sudam</foreign> in Kern 1917
+                    is a misreading of the original Devanāgarī edition) and Damais.-->  
+<note>The reading <foreign>sudam</foreign> in Kern 1917 is a misrepresentation of the original Devanāgarī edition.</note>
+                </app>
+                <app loc="A7">
+                <lem>-vibhavo</lem><!-- thus also Damais --> 
+                <rdg source="bib:Kern1917_17">-vi<unclear>śa</unclear>do</rdg>
+                </app>
+                <app loc="A7">
+                <lem source="bib:DamaisPucangan_01">-dhiyām bhām bhāvayan</lem> 
+                <rdg source="bib:Kern1917_17">-dhiyā kṣmām bhāvayan</rdg>
+                </app>
+                <app loc="A7">
+                <lem source="bib:DamaisPucangan_01">Ābhiś</lem> 
+                <rdg source="bib:Kern1917_17">śauriś</rdg>
+                </app>
+                <app loc="A8">
+                <lem>śa<unclear>t</unclear>r<unclear>ū</unclear>n</lem>
+                <!-- <rdg source="bib:DamaisPucangan_01">śa–ran</rdg> Damais śa–ran (<foreign>śatrūn</foreign> in a footnote)-->
+                <rdg source="bib:Kern1917_17">śubhram</rdg>
+                </app>
+                <app loc="A8">
+                <lem source="bib:DamaisPucangan_01">-rupā</lem> 
+                <rdg source="bib:Kern1917_17">-rūpā</rdg>
+                <note>It seems impossible to read here the metrically required long vowel <foreign>ū</foreign>. See another case of <foreign>rūpa</foreign> spelt <foreign>rupa</foreign> in line 5 of face B.</note>
+                </app>
+                <app loc="A9">
+                <lem>rāja-</lem><!-- thus also Damais --> 
+                <rdg source="bib:Kern1917_17">bhāva (?)</rdg>
+                </app>
+                <!-- <app loc="A9">
+                <lem source="bib:Kern1917_17">-janmā</lem> 
+                <rdg resp="#Damais">-janma</rdg> 
+                </app> -->
+                <app loc="A10">
+                <lem>mahendradattāv</lem>
+                <note>Regarding the idiosyncratic sandhi, see our note on <foreign>nr̥ṇāv vidhāne</foreign> in <foreign>pāda</foreign> b of stanza I.</note>
+                </app>
+                <!-- <app loc="A10">
+                <lem source="bib:Kern1917_17">daśarathāt</lem> 
+                <rdg source="bib:DamaisPucangan_01">d– –vvat</rdg>
+                </app> -->
+                <!-- <app loc="A11">
+                <lem source="bib:Kern1917_17">sarvathā</lem>
+                <rdg source="bib:DamaisPucangan_01">pūrvatā</rdg>
+                </app> -->
+                <app loc="A12">
+                <lem>-rāṣṭram iva – dya – ⏑ –</lem>
+                <!-- <rdg source="bib:DamaisPucangan_01">-rāṣṭram iva mady – ta –</rdg> -->
+                <rdg source="bib:Kern1917_17">-rāṣṭram iva mudyutaṁ ciraṁ (?)</rdg> <!--K 1885--> 
+                <!--(K 1917 reads the last word as <em>śiraṁ,</em> probably a misreading of the Devanāgarī)--> 
+                <rdg source="bib:Poerbatjaraka1941_01">-rāṣṭram avasādya taṁ ciram·</rdg> 
+                <note>We have considered several possibilities to complete this line but none of them seemed satisfactory, e.g. -<foreign>m iva madyavādhitaṁ,</foreign> ‘afflicted by intoxicating drinks’ (for another instance of writing <foreign>v</foreign> instead of <foreign>b</foreign> see stanza V. <foreign>-valānvito,</foreign> and stanza VI. <foreign>sadāvavaddhā</foreign>), <foreign>-m iva māndyasāditaṁ</foreign>, ‘destroyed by indolence’, <foreign>-mavasādya pārthivaḥ,</foreign> ‘having ruined it, the king’, etc. <foreign>Arjunavivāha</foreign> 1.3 might possible be related to this passage: (<foreign>daitya Nivātakavaca</foreign>) <foreign>sumyūhaṅ indrālaya</foreign> ‘(the demon Nivātakavaca) was about to destroy Indra’s abode’.</note>
+                </app>
+                <app loc="A12">
+                <lem>kalinā khalena</lem>
+                <!-- <rdg source="bib:DamaisPucangan_01">talinā khilena</rdg> -->
+                <rdg source="bib:Kern1917_17">talinā ⏑ lena</rdg>  
+                <rdg source="bib:Poerbatjaraka1941_01">kalinā jhalena</rdg> 
+                <note>See Damais (1952: 90–91, n.1): “Nous dirons dans une étude consacrée à la stèle de Pucangan pourquoi il nous est impossible de lire avec Purbatjaraka un <foreign>jha</foreign>”. Alas, Damais never published this study.</note>
+                </app>
+                <app loc="A12">
+                <lem source="bib:Poerbatjaraka1941_01">vinā</lem><!-- thus also Damais --> 
+                <rdg source="bib:Kern1917_17">viś<choice><orig>ā</orig><reg>āṁ</reg></choice></rdg>
+                </app>
+                <app loc="A12">
+                <lem source="bib:Poerbatjaraka1941_01">narottamena sahito</lem><!-- thus also Damais --> 
+                <rdg source="bib:Kern1917_17">narottamair upahito</rdg>
+                </app>
+                <app loc="A13">
+                <lem>śaśalāñchanā<supplied reason="lost">bdhi</supplied>vadane</lem><!-- thus also Damais -->
+                <rdg source="bib:Kern1917_17">tha ⏑ locanāgnivadane</rdg> 
+                <note>The first syllable of line 13 is almost illegible in all sources available to us. For the middle chronogram word, the choice to read <foreign>bdhi</foreign> (4 oceans, <foreign>abdhi</foreign>) instead of <foreign>gni</foreign> (3 fires,<foreign>agni</foreign>) is made on the ground that the specified thirteenth <foreign>tithi</foreign> of the waxing fortnight of Māgha fell on a Monday (<foreign>vāre śaśini</foreign>) in 941 Śaka, while in 931 it did not; moreover, in line 15 on face B, the same episode is dated to 941. See on this verse and Damais' reading of the chronogram n. 4 (p. 66) in Boechari's article on the Mūla-Maluruṅ inscription = Boechari 2012: 430 n.4.</note>
+                </app>
+                <app loc="A14">
+                <lem><unclear>pā</unclear>hīty apātāṅ</lem>
+                <!-- <rdg source="bib:DamaisPucangan_01">– ā – īkṣa tāntāṅ</rdg> -->
+                <rdg source="bib:Kern1917_17">pāhītyutāntāṅ</rdg> 
+                <note>Other possibilities we have taken into consideration include: <foreign>pāhīty anantāṅ / adāntāṅ / aśāntāṅ kṣitim, pāyāt samantāṅ kṣitim, pāhi tvam asmatkṣitim, pāty adya śāntāṅ / dāntāṅ kṣitim</foreign>. None seemed satisfactory.</note>
+                </app>
+                <app loc="A14">
+                <lem>samrājya-</lem> 
+                <note>the intended word is <foreign>sāmrājya</foreign>-. But it is imaginable that for our author, <foreign>samrājya</foreign>- was an acceptable form.</note>
+                </app>
+                <app loc="A14">
+                <lem>śaśvad</lem><!-- thus also Damais --> 
+                <rdg source="bib:Kern1917_17">bibhyad</rdg>
+                </app> 
+                <app loc="A14">
+                <lem source="bib:DamaisPucangan_01">abhyasyatīha</lem><!-- thus also Damais -->
+                <rdg source="bib:Kern1917_17">abhyasyatīva</rdg>
+                </app>
+                <app loc="A14">
+                <lem source="bib:Kern1917_17"><unclear>capa</unclear>latvam</lem> 
+                <rdg source="bib:DamaisPucangan_01">mukhalatvam</rdg> 
+                <note>Other conceivable readings would be <foreign>kuśalatvam, mr̥dulatvam</foreign> and <foreign>musalavam</foreign>. If we read <foreign>capalatvam,</foreign> it might be an allusion to the term <foreign>hastacapala</foreign>, found frequently in OJ inscriptions and sometimes in other textual sources. <hi rend="check">CHECK Boechari</hi>. <foreign>Pāṇicapala</foreign> is also found in <foreign>dharmaśāstra</foreign> texts, e.g. <foreign>Manusmṛti</foreign> 4.177, where it refers to “someone conducting himself in a fickle manner with his hands” (cf. O livelle’s translation p. <hi rend="check">CHECK</hi>). Here in the inscription, however, the meaning of this expression is probably more positive.</note>
+                </app>
+                <app loc="A15">
+                <lem>pr̥thvīv</lem> 
+                <note>Regarding the idiosyncratic sandhi, see our note on <foreign>nr̥ṇāv vidhāne</foreign> in <foreign>pāda</foreign> b of stanza I.</note>
+                </app>
+                <app loc="A15">
+                <lem source="bib:DamaisPucangan_01">na</lem> 
+                <rdg source="bib:Kern1917_17">nu (?)</rdg> 
+                </app>
+                <app loc="A15">
+                <lem>bubhujus</lem>
+                <rdg source="bib:Kern1917_01 bib:DamaisPucangan_01">bubhujas</rdg>
+                <note>Damais writes an <foreign>u</foreign> above the <foreign>a</foreign></note>
+                </app>
+                <app loc="A15">
+                <lem source="bib:Kern1917_17">taj<unclear>jā</unclear></lem>
+                <rdg source="bib:DamaisPucangan_01">ta – r</rdg>
+                <note>This reading is proposed by K in the note to his translation, where he observes that an appropriate reading would be <foreign>tuṣṭiṁ</foreign>, but that it cannot be adopted because no <foreign>u</foreign> is visible. It indeed seems hard to read a <foreign>tu</foreign>; for the following <foreign>akṣara</foreign>, something with <foreign>j</foreign> or <foreign>ṣṭ</foreign> would be possible, but these are not the only possibilities judging by what little remains identifiable of the <foreign>akṣara</foreign>.</note>
+                </app>
+                <app loc="A15">
+                <lem source="bib:DamaisPucangan_01">kintu</lem>
+                <rdg source="bib:Kern1917_17">tiktaṁ</rdg>
+                </app>
+                <app loc="A15">
+                <lem>dhirājāgraṇīr</lem>
+                <rdg source="bib:DamaisPucangan_01">– irājāgraṇīr</rdg>
+                <rdg source="bib:Kern1917_17">dhi<unclear>nāthā</unclear>graṇīr</rdg>
+                </app>
+                <app loc="A15">
+                <lem>bhobhuṅkte</lem>
+                <rdg source="bib:DamaisPucangan_01">bho caṅkte / bhaṅktve</rdg> 
+                <rdg source="bib:Kern1917_17">bho aṅge</rdg>
+                </app>
+                <app loc="16">
+                <lem>-digdha-</lem>
+                <rdg source="bib:DamaisPucangan_01">– kta-</rdg> 
+                <rdg source="bib:Kern1917_17">-<unclear>sa</unclear>kta</rdg>
+                <note>Cf. <hi rend="check">K. 263 C, st. XV = K. 669 A, st. VI</hi>, pāda a: <foreign>āsīd bhūpālamaulisphuritamaṇiśikhārāgadigdhāṅghrijaśrīr</foreign>. For a slightly different expression of the same idea in Old Javanese, see face B lines 29–30.</note>
+                </app>
+                <app loc="A16">
+                <lem>-laucana-</lem>
+                <rdg source="bib:Kern1917_01 bib:DamaisPucangan_01">-locana-</rdg> 
+                <note>The word -<foreign>locana</foreign>- is surely intended, but the stone shows <foreign>lau</foreign> instead of <foreign>lo</foreign>.</note>
+                </app>
+                <app loc="A18">
+                <lem>to hy ājñāvidheyas</lem>
+                <rdg source="bib:DamaisPucangan_01">tāmpyājñavidheyas</rdg> 
+                <rdg source="bib:Kern1917_17">–ājñāvidheyas</rdg>
+                </app>
+                <app loc="A18">
+                <lem>-hr̥daya<unclear>ḥ stai</unclear>nyā</lem> 
+                <rdg source="bib:Kern1917_01 bib:DamaisPucangan_01">-hr̥dayastenyā</rdg>
+                <note>One of the problems with our reading is that this inscription elsewhere prefers the sandhi -<foreign>s st</foreign>-.</note>
+                </app>
+                <app loc="A18">
+                <lem>rājāpy upālabhyate</lem>
+                <rdg source="bib:DamaisPucangan_01">rājampyupālanyate</rdg> 
+                <rdg source="bib:Kern1917_17">– – ⏑ yā lapyate</rdg> 
+                <note>The possibility of reading as we do was proposed to Arlo Griffiths by the late Abhijit Ghosh, when they discussed the stanza in January 2011. The UI estampage <!--(RTI?)--> seems indeed to show these akṣaras.</note>
+                </app>
+                <app loc="A19">
+                <lem source="bib:Kern1917_17">– vāptaye dhanamalāni</lem>
+                <rdg source="bib:DamaisPucangan_01">– – ptapo vanasamāni</rdg>
+                 </app>
+                <app loc="A19">
+                <lem>tuṅgāsau</lem>
+                <rdg source="bib:DamaisPucangan_01">tuṅgāho</rdg> 
+                <rdg source="bib:Kern1917_17">tuṅgā</rdg>
+                </app>
+                <app loc="A20">
+                <lem>sya maha – – – ⏑ – – ⏑so</lem>
+                <note>Maybe it is possible to read <foreign>... jijñā ⏑ so</foreign>?</note>
+                </app>
+                <app loc="A20">
+                <lem>cikīrṣayā kṣa</lem>
+                <note>Maybe it is possible to read <foreign>kṣi</foreign> or <foreign>kr̥</foreign>? Or <foreign>cikīrṣayārkṣi</foreign> ...?</note>
+                </app>
+                <app loc="A20">
+                <lem>rabhasuyā</lem> 
+                <note>K states in a note that the reading is unmistakable to him, but that what is expected is <foreign>rabhasayā</foreign>.</note>
+                </app>
+                <app loc="A21">
+                <lem>śuddhikarīndradā</lem>
+                <rdg source="bib:Kern1917_17">śuddhikarī ⏑ dā</rdg>
+                </app>
+                <app loc="A21">
+                <lem><supplied reason="lost">na</supplied>reṣu</lem>
+                <rdg source="bib:Kern1917_17">mareṣu</rdg>
+                <note>The first syllable of this word is completely illegible on the UI estampage <!--(RTI?)-->.</note>
+                </app>
+                <app loc="A21">
+                <lem><supplied reason="lost">mati</supplied>vāk-</lem> 
+                <note>K states in a note that he guesses the stone has <foreign>pr̥thuvāk</foreign>. Our conjecture is based on the assumption that we must have here an expression of the triple 'thoughts, words and deeds'. An alternative would be to conjecture <foreign><supplied reason="lost">mata</supplied></foreign>.</note>
+                </app>
+                <app loc="A21">
+                <lem><supplied reason="lost">dha</supplied>rmmo</lem>
+                <rdg source="bib:Kern1917_17">dhr̥ṣṭo</rdg>
+                </app>
+                <app loc="A21">
+                <lem><unclear>pāśa</unclear>bhr̥d</lem>
+                <rdg source="bib:Kern1917_17"><unclear>bhā</unclear>gakr̥d</rdg>
+                </app>
+                <app loc="A21">
+                <lem>hanta <supplied reason="lost">nr̥pa</supplied>r<unclear>ā</unclear>d</lem>
+                <rdg source="bib:Kern1917_17">hanta ⏑ rarāḍiti</rdg>
+                <note>Kern notes that the syllable after <foreign>hanta</foreign> clearly bears a <foreign>u</foreign>, but supposes this has been misplaced, and believes the intended reading is <foreign>hantu mararāḍ iti</foreign>. To us, the <foreign>akṣara</foreign> supposedly bearing a <foreign>u</foreign> rather seems to be the one before <foreign>r<unclear>ā</unclear></foreign>. Instead of <foreign>hanta</foreign>, we could also read <foreign>hasta</foreign>. Understand -<foreign>rāḍ</foreign>.</note>
+                </app>
+                <app loc="A22">
+                <lem>nr̥po ⏑ ⏑ purīpralayaṁ sa – –</lem>
+                <rdg source="bib:Kern1917_17">nr̥ – ⏑ ⏑ ⏑ – prala – ⏑ – – </rdg>
+                </app>
+                <app loc="A22">
+                <lem>viṣṇu-</lem>
+                <rdg source="bib:Kern1917_17">bhīṣma-</rdg>
+                </app>
+                <app loc="A23">
+                <lem>tañ candrabhūtavadane śakarājavarṣa</lem>
+                <note>this entire pāda, except the last three syllables, was unreadable for Kern.</note>
+                </app>
+                <app loc="A23">
+                <lem>ekādaśī ⏑ daka – cu ⏑ phalguṇe (v)ā(n)·</lem> 
+                <rdg source="bib:Kern1917_17"> – – ⏑ – ⏑ ⏑ ⏑ – ⏑ ⏑ – ⏑ lokāt</rdg>
+                </app>
+                <app loc="A23">
+                <lem>adhamaḥ parudābh-</lem>
+                <rdg source="bib:Kern1917_17">adhamāpanudābh-</rdg>  
+                <note>Would <foreign>parujābh°</foreign> (including OJ word <foreign>parujar</foreign>) somehow be possible?</note>
+                </app>
+                <app loc="A23">
+                <lem>Ivāvyathayaj jaganti</lem> 
+                <rdg source="bib:Kern1917_17">vādhyadhamāṅgatantiḥ</rdg>
+                </app>
+                <app loc="A24">
+                <lem>narendro</lem>
+                <rdg source="bib:Kern1917_17">nagendre</rdg>
+                </app>
+                <app loc="A24">
+                <lem><unclear>rā</unclear>mātviramyaca<unclear>ri</unclear>to nyavadhīt tam āśu</lem> 
+                <note>K only read from <foreign>nyavadhīt</foreign> onwards. Emend <foreign>rāmāti</foreign>-. Or is it possible that what looks like subscript -<foreign>v</foreign>- is actually an accidental scratch in the stone?</note>
+                </app>
+                <app loc="A24">
+                <lem>jigīṣu<unclear>r ga</unclear>tas</lem>
+                <rdg source="bib:Kern1917_17">jigīṣur bhuvās</rdg>
+                </app>
+                <app loc="A25">
+                <lem><unclear>varo</unclear></lem>
+                <rdg source="bib:Kern1917_17">varo</rdg> 
+                <note>It would also be possible to read <foreign>gate</foreign> or <foreign>gato</foreign>.</note>
+                </app>
+                <app loc="A26">
+                <lem>e<supplied reason="lost">tān tatkṣa</supplied>ṇaṅ</lem>
+                <rdg source="bib:Kern1917_17">etal lakṣaṇaṅ</rdg> 
+                <note>As is clear from the Leiden estampage, Kern's reading must already have been partly conjectural. His interpretation of <foreign>lakṣaṇaṅ</foreign> as meaning ‘prize’ seems impossible, for one would then have expected <foreign>lakṣyaṅ</foreign> or <foreign>lakṣaṅ</foreign>.</note>
+                </app>
+                <app loc="A26">
+                <lem>a<unclear>ja</unclear>yyān</lem>
+                <rdg source="bib:Kern1917_17">anāryyān</rdg> 
+                <note>Neither <foreign>ā</foreign>-mātra on the second syllable nor <foreign>repha</foreign> above <foreign>y</foreign> are discernible.</note>
+                </app>
+                <app loc="A27">
+                <lem>labdhvā</lem>
+                <rdg source="bib:Kern1917_17">luṇṭaṁ</rdg>
+                </app>
+                <app loc="A27">
+                <lem>-saṅghe</lem> 
+                <rdg source="bib:Kern1917_17">-madhye</rdg>
+                </app>
+                <app loc="A27">
+                <lem>bhadre</lem> 
+                <note>Kern notes that <foreign>bhadre</foreign> is to be corrected to <foreign>bhādre</foreign>, but this is probably unnecessary. Damais reads <foreign>caitre</foreign>, but the estampages seem to favor Kern’s reading; neither reading yields a Wednesday.</note>
+                </app>
+                <app loc="A28">
+                <lem>-titho</lem> 
+                <rdg source="bib:Kern1917_17">-tithau</rdg> 
+                <note>Of course one must understand -<foreign>tithau</foreign>.</note>
+                </app>
+                <app loc="A29">
+                <lem><supplied reason="lost">A</supplied>tha mu<unclear>kha</unclear>-</lem>
+                <rdg source="bib:Kern1917_17"><unclear>atha</unclear> muni-</rdg> 
+                <note>What has been read as <foreign>mu</foreign> looks more like <foreign>pr̥</foreign> or possibly <foreign>pu</foreign>. Virtually no trace of the last syllable in this line is actually preserved.</note>
+                </app>
+                <app loc="A29">
+                <lem>vijayavarm<unclear>m</unclear>ā</lem>
+                <rdg source="bib:Kern1917_17">vijayanāmā</rdg>
+                </app>
+                <app loc="A30">
+                <lem>m<unclear>ukha</unclear>-</lem>
+                <rdg source="bib:Kern1917_17">maka-</rdg> 
+                <note>See Kern 1917: 96 n. 4 for details. As Kern observed, the passage in line 29–30 of face B makes clear that the year in question was 959, and hence that the word we are dealing with here had to have the value 9.Judging by the visual material at our disposal, we doubt that the reading <foreign>maka-</foreign> was ever as “perfectly clear (<foreign>volkomen duidelijk</foreign>)” as Kern claimed. We find it likely that the same word with value 9 was used in stanza XXIX and XXX. <!--CHECK RTI--></note>
+                </app>
+                <app loc="A31">
+                <lem>nihitapādo</lem>
+                <note>it seems that the <foreign>e</foreign>-<foreign>mātrā</foreign> of <foreign>do</foreign> stands at the end of line 30, but if this is correct, we probably have to assume that it was repeated by the stone carver, or that some other error was made at the beginning of l. 31, for there are traces of more signs than <foreign>dā</foreign> before <foreign>ratna</foreign>-. The hypothesis of redundant <foreign>e-mātrā</foreign> is to be preferred, for there is an analogous case in face B, lines 14–15.</note>
+                </app>
+                <app loc="A31">
+                <lem>-pīḍaṅ</lem>
+                <note>We cannot distinguish the  <foreign>ḍ</foreign> with certainty from a <foreign>d</foreign>. In all likelihood, the stone carver spelled -<foreign>pīdaṅ</foreign>.</note>
+                </app>
+                <app loc="A32">
+                <lem source="bib:DamaisPucangan_01">bratitayā</lem> 
+                <rdg source="bib:Kern1917_17">vratitayā</rdg>
+                </app>
+                <app loc="A32">
+                <lem>devatārādhanaiḥ rantuñ</lem>
+                <rdg source="bib:DamaisPucangan_01">devatārādhanairantru/añ</rdg> 
+                <rdg source="bib:Kern1917_17">devatā rādhanai rantuñ</rdg> 
+                <note>A <foreign>pausa</foreign> form is expected at the end of pāda b. The Leiden estampage seems to show the expected visarga. <!--CHECK RTI--></note>
+                </app>
+                <app loc="A32">
+                <lem>-mahā<unclear>kra/śra</unclear>mas</lem>
+                <rdg source="bib:DamaisPucangan_01">-mahā<choice><sic>d</sic><corr>t</corr></choice>vam<choice><sic>u</sic><corr>a</corr></choice>s</rdg><!--Dac-->
+                <rdg source="bib:Kern1917_17">-mahānr̥pas</rdg>
+                <note>The second <foreign>ma</foreign> seems relatively clear.</note>
+                </app>
+                <app loc="A34">
+                <lem>-netr<choice><sic>ā</sic><corr>āḥ</corr></choice></lem> 
+                <note>This was no doubt intended by Kern’s <foreign>netrā<unclear>ḥ</unclear></foreign>.</note>
+                </app>
+                <app loc="A34">
+                <lem>mālābhiprītikārās</lem> 
+                <rdg source="bib:DamaisPucangan_01"><gap quantity="6" reason="lost" unit="character"/>rās</rdg>
+                <rdg source="bib:Kern1917_17">mālādiprītikārās</rdg>
+                </app>
+                <app loc="A34">
+                <lem source="bib:DamaisPucangan_01">enan</lem> 
+                <rdg source="bib:Kern1917_17">etan</rdg>
+                </app>
+                <app loc="A35">
+                <lem source="bib:DamaisPucangan_01">na me</lem> 
+                <rdg source="bib:Kern1917_17">nr̥pe</rdg>
+                </app>
+                <app loc="A36">
+                <lem>jīvyād</lem>
+                <note>the supposed <foreign>ī</foreign>-sign is not clearly distinguishable from a short <foreign>i</foreign>.</note>
+                </app>
+                <app loc="B1">
+                <lem source="bib:DamaisPucangan_01">va, śu</lem> 
+                <rdg source="Brandes1913_01 bib:Kern1917_17">pa, bu</rdg> 
+                <rdg source="bib:Poerbatjaraka1941_01">va, śa</rdg>
+                </app>
+                <app loc="B1">
+                <lem>caragraha</lem> 
+                <note>This term is anomalous. Elsewhere, one finds <foreign>grahacāra</foreign>. See Gomperts 2001: 107–110.</note>
+                </app>
+                <app loc="B1">
+                <lem source="bib:DamaisPucangan_01">-Uttarabhadravā<supplied reason="omitted">da</supplied>-nakṣatra</lem>
+                <rdg source="bib:Kern1917_17">-rabhadravānākṣatra</rdg>
+                <rdg source="Brandes1913_01">-ra( )dratanakṣatra</rdg> 
+                <rdg source="bib:Poerbatjaraka1941_01">-rabhadrava(da) nakṣatra</rdg> 
+                </app>
+                <app loc="B1">
+                <lem source="bib:Kern1917_01 bib:DamaisPucangan_01">-budhna-</lem> 
+                <rdg source="bib:Brandes1913_01 bib:Poerbatjaraka1941_01">-budha-</rdg>
+                </app>
+                <app loc="B2">
+                <lem source="bib:DamaisPucangan_01">gara<unclear>ḍ</unclear>i-:</lem>
+                <note>We tentatively follow D’s suggestion for the name of the <foreign>karaṇa</foreign>; <foreign>dadhi-</foreign> P. B and K leave the syllables in question open.</note>
+                </app>
+                <app loc="B2">
+                    <lem source="bib:Poerbatjaraka1941_01 bib:DamaisPucangan_01">rakai</lem>
+                    <rdg source="Brandes1913_01 bib:Kern1917_17"><abbr>rake</abbr></rdg>
+                </app>
+                <app loc="B3">
+                <lem>dhamasuparṇa<unclear>vā</unclear>haṇa tguh uttuṅga-</lem>
+                <rdg source="Brandes1913_01">dhamma suparṇa – hana tahutuṅgadeva</rdg> 
+                <rdg source="bib:Kern1917_17">dhamma suparṇa – haṇata hutuṅgadeva</rdg>
+                <rdg source="bib:Poerbatjaraka1941_01">dharmmasuparṇacaraṇa tguh uttuṅga-</rdg> 
+                <rdg source="bib:DamaisPucangan_01">dh(ā)ma suparṇavāhaṇa tguh uttuṅga-</rdg> 
+                <note>On the reading of the first element of the name, see Damais 1955: 66–7 n. 3. We reject Damais’ conclusion that the reading must be <foreign>dhāma</foreign>, because we see no trace in the RTI of the -<foreign>ā</foreign> suspected by Damais at the end of line 2. Although we thus read <foreign>dhama</foreign> instead of <foreign>dhāma</foreign>, on the grounds that the intended meaning of the name may have been ‘Viṣṇu (<foreign>suparṇavāhana</foreign>) in heaven  (<foreign>dhāma</foreign>)’, we suppose that <foreign>dhāma</foreign> may indeed have been intended. <!--Damais (1955: 184, 1976) read parts of the same name in the Pamotan and Pandaan stelas. It is now also found in the Sīma Aṅlayaṅ inscription: there is no real support for anything between <foreign>samaravijaya</foreign> and
+                <foreign>suparṇa-</foreign>.--></note>
+                </app>
+                <app loc="B3">
+                <lem source="bib:DamaisPucangan_01">dānaśūra</lem> 
+                <rdg source="bib:Poerbatjaraka1941_01">janaśūra</rdg> 
+                <note>B and K leave these syllables blank.</note>
+                </app>
+                <app loc="B3">
+                <lem/>
+                <note>The long lacuna of ca. 8+32 <foreign>akṣara</foreign>s seems to be a case of intentional erasure.</note>
+                </app>
+            	<app loc="B3">
+                <lem>Iṁ barahəm·</lem>
+                <note>After <foreign>dharmmamūrtti</foreign> B leaves the syllables blank until <foreign>niṅ</foreign> <foreign>barahəm·</foreign>. K has <foreign>dharmamūrti <gap quantity="11" reason="lost" unit="character"/> kə <gap quantity="5" reason="lost" unit="character"/> maṅan, iṅ barahəm.</foreign></note>
+                </app>
+                <app loc="B3">
+                <lem source="bib:DamaisPucangan_01">bapuri</lem> 
+                <rdg source="bib:Poerbatjaraka1941_01">śapuri</rdg> 
+                <rdg source="Brandes1913_01 bib:Kern1917_17">basuri</rdg>
+                </app>
+                <app loc="B5">
+                <lem source="bib:Poerbatjaraka1941_01"><num value="939">939</num></lem> 
+                <rdg source="Brandes1913_01">938 (928)</rdg> 
+                <rdg source="bib:Kern1917_17">928</rdg>
+                </app>
+                <app loc="B5">
+                <lem>ri pra<unclear>hāra</unclear></lem>
+                <rdg source="bib:Poerbatjaraka1941_01">ri prahara</rdg> 
+                <rdg source="bib:Kern1917_17">mra?– –</rdg> 
+                <note>B leaves these syllables blank.</note>
+                </app>
+                <app loc="B5">
+                <lem source="Brandes1913_01 bib:Kern1917_17">An· vijil·</lem> 
+                <rdg source="bib:Poerbatjaraka1941_01">masə: mijil</rdg>
+                </app>
+                <app loc="B5">
+                <lem>-r<choice><orig>u</orig><reg>ū</reg></choice>pa-</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17 bib:Poerbatjaraka1941_01">-rūpa-</rdg>
+                </app>
+                <app loc="B7">
+                <lem source="bib:Poerbatjaraka1941_01">vālaka</lem> 
+                <rdg source="Brandes1913_01">vālajaka</rdg> 
+                <rdg source="bib:Kern1917_17">vāla, ka</rdg>
+                </app>
+                <app loc="B7">
+                <lem source="bib:Kern1917_17 bib:Poerbatjaraka1941_01">dahat·</lem> 
+                <rdg source="Brandes1913_01">dahat iṁ</rdg>
+                </app>
+                <app loc="B7">
+                <lem source="Brandes1913_01">enāk</lem>
+                <rdg source="bib:Kern1917_17 bib:Poerbatjaraka1941_01">enak·</rdg> 
+                </app>
+                <app loc="B7">
+                <lem source="bib:Poerbatjaraka1941_01">baṅətni</lem> 
+                <rdg source="Brandes1913_01 bib:Kern1917_17">baṅəṅgi</rdg>
+                </app>
+                <app loc="B7">
+                    <lem source="Brandes1913_01 bib:Kern1917_17 bib:Poerbatjaraka1941_01">rumə<lb break="no" n="B8"/>gəp·</lem>
+                    <note>One detects what seems to be a character to the right of <foreign>mə</foreign>, which could theoretically be a vestige of an <foreign>akṣara</foreign> <foreign>rə</foreign> or <foreign>R̥</foreign>, or else be a space filler such as one often finds in later inscriptions but never in original stone inscriptions from Airlangga’s time. Although a form <foreign>rumərəgəp</foreign> could theoretically be justified, it is unattested. We hence believe that we must be dealing with an accidental scratch.</note>
+                    </app>
+                <app loc="B8">
+                <lem>pasarikəpany</lem>
+                <rdg source="bib:Brandes1913_01 bib:Poerbatjaraka1941_01">pasariṅkəpany</rdg>
+                <rdg source="bib:Kern1917_17">sapariṅkəpany</rdg>
+                </app>
+                <app loc="B8">
+                <lem>sākṣāt<unclear>n</unclear>iran</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">sākṣāt iran</rdg>
+                <rdg source="bib:Poerbatjaraka1941_01">sakṣātiran</rdg>
+                </app>
+                <app loc="B8">
+                <lem source="Brandes1913_01 bib:Kern1917_17">Inahākən</lem> 
+                <rdg source="bib:Poerbatjaraka1941_01">Innahakən</rdg>
+                </app>
+                <app loc="B8">
+                <lem source="bib:Kern1917_17 bib:Poerbatjaraka1941_01">kavaśa</lem> 
+                <rdg source="Brandes1913_01">livaśa</rdg>
+                </app>
+                <app loc="B8">
+                <lem source="bib:Poerbatjaraka1941_01">paṅava<unclear>śaniṁ</unclear></lem> 
+                <rdg source="Brandes1913_01">paṅavananiṁ</rdg> 
+                <rdg source="bib:Kern1917_17">paṅavara niṁ</rdg>
+                </app>
+                <app loc="B8">
+                <lem>maṅantīri</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17 bib:Poerbatjaraka1941_01">maṅanti ri</rdg>
+                </app>
+                <app loc="B8">
+                <lem source="Brandes1913_01">-niṁ vanagiri</lem>
+                <rdg source="bib:Kern1917_17">-ni vanagiri</rdg> 
+                <rdg source="bib:Poerbatjaraka1941_01">-iṅ vanagiri</rdg>
+                </app>
+                <app loc="B9">
+                <lem source="bib:Kern1917_17 bib:Poerbatjaraka1941_01">lāvan·</lem> 
+                <rdg source="Brandes1913_01">lavan</rdg>
+                </app>
+                <app loc="B9">
+                <lem>saṅ e<unclear>kā</unclear>ntapratipatti</lem> 
+                <rdg source="Brandes1913_01"><gap quantity="4" reason="lost" unit="character"/>nta pradipatti</rdg> 
+                <rdg source="bib:Kern1917_17"><gap quantity="4" reason="lost" unit="character"/>nta pratipatti</rdg> 
+                <rdg source="bib:Poerbatjaraka1941_01">samekāntapratipatti</rdg>
+                </app>
+                <app loc="B9">
+                <lem><unclear>dāśabhū</unclear>ta-tan<choice><orig>u</orig><reg>ū</reg></choice>pacāran· bhaktiprahva ri</lem>
+                <rdg source="Brandes1913_01"><gap quantity="3" reason="lost" unit="character"/> tanu – – n – – pra – ri</rdg> 
+                <rdg source="bib:Kern1917_17">– tanu <gap quantity="4" reason="lost" unit="character"/> n – – prahva ri</rdg> 
+                <rdg source="bib:Poerbatjaraka1941_01">Umaṅga tatan upakaran bhakti sraddha ri</rdg>
+                <note><!-- A <foreign>d</foreign> seems faintly discernible where P read <foreign>U</foreign>. But the most likely restitutions seem to be <foreign>kr̥tajña</foreign> ‘skilled’ or <foreign>manojña</foreign> ‘beautiful’; -->For <foreign>-tanupacāran</foreign>, one must either understand <foreign>-tanūpacāran</foreign>, or emend <foreign>-tanupracāran</foreign>. We tentatively opt for the former. The whole passage from <foreign>ekāntapratipatti</foreign> to <foreign>pāduka śrī mahārāja</foreign> is reminiscent of the <ref target="DHARMA_INSIDENKAdulengen">Adulengen charter</ref>, where we read in 2r1–3: <foreign>tan· kapālaṅalaṁ suṣṭubhakti I pāduka śrī mahārāja, lot kahudanan·, kapyayān·, An paṅekānta I pāduka śrī mahārāja</foreign> <q>they were undisturbed in their extreme loyalty to his Majesty the Great King, steadfast [despite being] exposed to rain and sun, as they had but one aim, [namely] his Majesty the Great King</q>.</note>
+                <!-- argr2ekba: please check if we now have occurrences of the same formula in original stone inscriptions -->
+                </app>
+                <app loc="B9">
+                <lem source="bib:Kern1917_17">pu narottama</lem> 
+                <rdg source="Brandes1913_01">saṁ narottama</rdg> 
+                <rdg source="bib:Poerbatjaraka1941_01">mpu narottama</rdg>
+                </app>
+                <app loc="B10">
+                <lem source="bib:Kern1917_17">sirādini</lem> 
+                <rdg source="bib:Brandes1913_01 bib:Poerbatjaraka1941_01">sirādiniṁ</rdg>
+                </app>
+                <app loc="B10">
+                <lem source="bib:Kern1917_17">Ati<choice><orig>sayeṁ</orig><reg>śayeṅ</reg></choice></lem> 
+                <rdg source="bib:Brandes1913_01 bib:Poerbatjaraka1941_01">Atiśayeṁ</rdg>
+                </app>
+                <app loc="B10">
+                <lem source="bib:Poerbatjaraka1941_01">tumūt</lem> 
+                <rdg source="Brandes1913_01">hambak</rdg>
+                <rdg source="bib:Kern1917_17">humbat (?)</rdg>
+                </app>
+                <app loc="B10">
+                <lem>tan sāḥ</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">tansaḥ</rdg> 
+                <rdg source="bib:Poerbatjaraka1941_01">tan sah</rdg>
+                </app>
+                <app loc="B10">
+                <lem>saparān·</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">Ayunan</rdg> 
+                <rdg source="bib:Poerbatjaraka1941_01">saparan</rdg>
+                </app>
+                <app loc="B10">
+                <lem source="bib:Poerbatjaraka1941_01">makāhāra</lem> 
+                <rdg source="Brandes1913_01">I<seg type="aksara"><seg type="component" subtype="body"><gap reason="illegible" unit="component" quantity="1"/></seg>ā</seg> hāra</rdg>
+                <rdg source="bib:Kern1917_17">maṅāhāra</rdg>
+                </app>
+                <app loc="B11">
+                <lem source="bib:Brandes1913_01 bib:Poerbatjaraka1941_01">vanaprastha</lem> 
+                <rdg source="bib:Kern1917_17">vanapraṣṭha</rdg>
+                </app>
+                <app loc="B11">
+                <lem>tātan· vismr̥<choice><sic>d</sic><corr>t</corr></choice>i</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">yataniviṣadi</rdg> 
+                <rdg source="bib:Poerbatjaraka1941_01">tatan vismr̥ti</rdg>
+                </app>
+                <app loc="B11">
+                <lem>ri kārādhanan·</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">rikā bhavanan·</rdg> 
+                <rdg source="bib:Poerbatjaraka1941_01">ri kāradhanan·</rdg>
+                <note>The Sanskrit text on face A also uses the word <foreign>ārādhana</foreign>: see st. XXXII.</note>
+                </app>
+                <app loc="B11">
+                <lem source="bib:Kern1917_17">ahorātra</lem> 
+                <rdg source="bib:Brandes1913_01 bib:Poerbatjaraka1941_01">ahoratra</rdg>
+                </app>
+                <app loc="B12">
+                <lem><unclear>ka</unclear>lpapādapa Umə:bana</lem>
+                <rdg source="Brandes1913_01">Alpapādi padamə:lana</rdg> 
+                <rdg source="bib:Kern1917_17">–lpapādi padamə:lana</rdg> 
+                <rdg source="bib:Poerbatjaraka1941_01">kalpapādapa ṅahə:bana</rdg>
+                </app>
+                <app loc="B12">
+                <lem source="bib:Poerbatjaraka1941_01">kumaliliranaṁ</lem> 
+                <rdg source="Brandes1913_01 bib:Kern1917_17">kumalilirana</rdg>
+                </app>
+                <app loc="B12">
+                <lem source="bib:Poerbatjaraka1941_01">makadrabyaṁ</lem> 
+                <rdg source="Brandes1913_01 bib:Kern1917_17">makadrabya</rdg>
+                </app>
+                <app loc="B12">
+                <lem>muvahakna sāśvatā<unclear>niṁ</unclear></lem>
+                <rdg source="Brandes1913_01">muvaḥakna haṣa nikanaṅ</rdg>
+                <rdg source="bib:Kern1917_17 bib:Poerbatjaraka1941_01">muvahakna harṣanikanaṅ</rdg> 
+                <note>The RTI clearly shows <foreign>sā</foreign> instead of <foreign>ha</foreign>. Cf. the parallel passage in line 33: <foreign>de śrī mahārāja munarjīvākən· sāśvatāniṁ sayavadvīpa</foreign>. The word recorded in OJED as <foreign>śāśvata</foreign> is intended in both passages.</note>
+                </app>
+                <app loc="B12">
+                <lem>munarjīvāknaṁ</lem>
+                <rdg source="bib:Poerbatjaraka1941_01">munarjīvākna</rdg>
+                <rdg source="Brandes1913_01 bib:Kern1917_17"><gap reason="illegible" unit="character" quantity="5"/></rdg>
+                </app>
+                <!-- <app loc="B12">
+                <lem source="bib:Brandes1913_01 bib:Poerbatjaraka1941_01">sarvvadharmma</lem> 
+                <rdg source="bib:Kern1917_17">sarbvadharmma</rdg>
+                </app> -->
+                <app loc="B13">
+                <lem>maṁkanābhamataniṁ</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17 bib:Poerbatjaraka1941_01">maṁkanābhimataniṁ</rdg>
+                <note>The reading of the previous editors suggests that an -<foreign>i</foreign> was visible to them in the reproductions they used. It seems rather that none was ever engraved atop <foreign>bh</foreign>, and that it needs to be inserted by emendation. Another instance of the same scribal error occurs below in l. 16.</note>
+                </app>
+                <app loc="B13">
+                <lem source="bib:Kern1917_17 bib:Poerbatjaraka1941_01">-devata</lem> 
+                <rdg source="Brandes1913_01">-devatā</rdg>
+                </app>
+                <!-- <app loc="B13">
+                <lem source="Brandes1913_01">pratiṣṭa</lem>
+                <rdg source="bib:Kern1917_17 bib:Poerbatjaraka1941_01">pratiṣṭha</rdg> 
+                </app> -->
+                <app loc="B13">
+                <lem>kapadasthāniṁ pituṁ</lem>
+                <rdg source="Brandes1913_01">ka <gap quantity="2" reason="lost" unit="character"/> gə:ṅniṅ pitu</rdg> 
+                <rdg source="bib:Kern1917_17">kapūja(?) <gap quantity="2" reason="lost" unit="character"/> pitu</rdg>
+                <rdg source="bib:Poerbatjaraka1941_01">kapadasthaniṁ pitu</rdg>
+                </app>
+                <app loc="B14">
+                <lem source="bib:Kern1917_17 bib:Poerbatjaraka1941_01">haji devatā</lem> 
+                <rdg source="Brandes1913_01">haridevatā</rdg>
+                </app>
+                <app loc="B14">
+                <lem>lumāḥ</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">lumāh</rdg> 
+                <rdg source="bib:Poerbatjaraka1941_01">lumah</rdg>
+                </app>
+                <app loc="B14">
+                <lem source="bib:Kern1917_17 bib:Poerbatjaraka1941_01">īśānabajra</lem> 
+                <rdg source="Brandes1913_01">iśānabajra</rdg>
+                </app>
+                <app loc="B14">
+                <lem>pinaka<unclear>ka</unclear>padasthān·</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">pinakakapratisthān·</rdg>
+                <rdg source="bib:Poerbatjaraka1941_01">pinakakapratiṣṭhān·</rdg>
+                </app>
+                <app loc="B15">
+                <lem>-vikramottuṅgadeva</lem>
+                <note>the <foreign>e</foreign>-element (<foreign>taling</foreign>) of <foreign>mo</foreign> is written first at the end of line 14, and then redundantly repeated at the beginning of line 15. See identical case on face A, in st. XXX.</note>
+                </app>
+                <app loc="B15">
+                <lem source="Brandes1913_01 bib:Kern1917_17">mahārāja, de</lem> 
+                <rdg source="bib:Poerbatjaraka1941_01">mahārāja de</rdg>
+                </app>
+                <app loc="B15">
+                <lem>Irikāṁ</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17 bib:Poerbatjaraka1941_01">irikaṅ</rdg>
+                </app>
+                <app loc="B15">
+                <lem><unclear>tā</unclear>tan· pahī<unclear>ṅan de</unclear> śrī</lem>
+                <rdg source="bib:Poerbatjaraka1941_01">tatan pahīṅan śrī</rdg>
+                <rdg source="Brandes1913_01">I tan pahiṅan· śrī</rdg>
+                <rdg source="bib:Kern1917_17">– tan pahīṅan· śrī</rdg> 
+                <note>All previous editors ignore the presence of <foreign>de</foreign>.</note>
+                </app>
+                <app loc="B16">
+                <lem><supplied reason="lost">luma</supplied>risakən·</lem> 
+                <rdg source="Brandes1913_01 bib:Kern1917_17"><gap quantity="4" reason="lost" unit="character"/>kən</rdg> 
+                <rdg source="bib:Poerbatjaraka1941_01">manarīrākən</rdg>
+                </app>
+                <app loc="B16">
+                <lem>sābhamataniṁ</lem>
+                <note>K and P have proposed the emendation <foreign>sābhimataniṁ</foreign> which underlies our translation. See the emendation <foreign>maṁkanābhamata</foreign> to <foreign>maṁkanābhimata</foreign> in l. 13. It is very curious that the same error is made twice; normally, this would impose taking the reading seriously as it is, but we see no other way than to assume that the word <foreign>abhimata</foreign> was really intended in both cases.</note>
+                </app>
+                <app loc="B16">
+                <lem>kapva kakal<unclear>imbaṅ ikaṁ</unclear> kriyā vāhyāntara</lem>
+                <rdg source="Brandes1913_01">kapva kalimba – – kri phala – hyantara</rdg> 
+                <rdg source="bib:Kern1917_17">kapva kakal imban (?) iṁ kriyā vāhyāntara</rdg>
+                <rdg source="bib:Poerbatjaraka1941_01">kapva kakalimbaṅ ikaṅ kriya vahyāntara</rdg>
+                <note>Several factors conspire to make the reading rather uncertain here. First, there is interference with the descender (itself rather unclear) of <foreign>ṅku</foreign> in the preceding line; what previous scholars have read, and what we read after them, as <foreign>mb</foreign> could possibly be <foreign>ṅk</foreign> or <foreign>jb</foreign>; the squiggle to its top left, which might be taken as -<foreign>ā</foreign> on <foreign>mb</foreign> pushed to the left by the descender from line 15, seems indeed to be an -<foreign>i</foreign> on the preceding akṣara, as previous editors assumed, and as we find confirmed by an apparently parallel passage in the Kamalagyan inscription, lines 21–22: <foreign>yāvat kavaṅunaniṅ yaśa donanya, an kapva kinalimbaṅ juga denira, sahana saṅ hyaṅ sarvvadharmma kabeḥ</foreign> ‘As many constructions of foundation as were his aim, they were all simply carried out by him, absolutely all holy foundations’. The <foreign>li</foreign> seems to be endowed with descender to make -<foreign>u</foreign> (<foreign>lu</foreign>), but this must be an accidental scratch.</note>
+                </app>
+                <app loc="B16">
+                <lem source="bib:Poerbatjaraka1941_01">denira, tan· kasalimur i kadamlaniṁ pūjā</lem> 
+                <rdg source="Brandes1913_01">denira tan· kapalimura I dharmma dhi – jā</rdg> 
+                <rdg source="bib:Kern1917_17">denira tansalimur i kadharmmaniṁ prajā</rdg>
+                </app>
+                <app loc="B17">
+                <lem><gap quantity="3" reason="lost" unit="character"/> prāyaścitta <gap quantity="6" reason="lost" unit="character"/> <unclear>ma</unclear>hābhāraniṁ kasiṅhe<unclear>śva</unclear>ranira</lem>
+                <rdg source="Brandes1913_01"><gap quantity="9" reason="lost" unit="character"/> jro mrā nikaṅ siṅho <gap quantity="2" reason="lost" unit="character"/>nira</rdg> 
+                <rdg source="bib:Kern1917_17"><gap quantity="2" reason="lost" unit="character"/> mahārāja <gap quantity="1" reason="lost" unit="character"/> nika siṅho <gap quantity="2" reason="lost" unit="character"/> nira</rdg> 
+                <rdg source="bib:Poerbatjaraka1941_01">riṁ bhaṭara, deni kasiṅheśvaranira</rdg>
+                </app>
+                <app loc="B17">
+                <lem source="bib:Poerbatjaraka1941_01">marava<unclear>śā</unclear>k<unclear>ə</unclear>n·</lem> 
+                <rdg source="Brandes1913_01">mara <gap quantity="3" reason="lost" unit="character"/> ni</rdg> 
+                <rdg source="bib:Kern1917_17">mara <gap quantity="5" reason="lost" unit="character"/> ni</rdg>
+                </app>
+                <app loc="B17">
+                <lem>sakveḥnik<unclear>āṁ ka</unclear>la<unclear>ṅka</unclear> satumuvuh i</lem>
+                <rdg source="Brandes1913_01">sakveḥnikāṅ <gap quantity="2" reason="lost" unit="character"/> maṅhyaṅgadrabya</rdg>
+                <rdg source="bib:Kern1917_17">sakveḥ nikāṅ <gap quantity="2" reason="lost" unit="character"/></rdg>
+                <rdg source="bib:Poerbatjaraka1941_01">sakveḥnikaṅ kalaṅka satumuvuh</rdg> 
+                <note>P’s reading breaks off after this point.</note>
+                </app>
+                <app loc="B17">
+                <lem><gap quantity="2" reason="lost" unit="character"/> hyaṁ</lem>
+                <note>for the gap of two <foreign>akṣara</foreign>s, <foreign>satva</foreign> or <foreign>mata</foreign> would seem to be possible readings judging from the UI estampage and the RTI, but the resulting meaning in either case is not sufficiently persuasive to allow us to make a choice.</note>
+                </app>
+                <app loc="B17">
+                <lem>sap<unclear>i</unclear>nakahani<unclear>t</unclear>uniṁ</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">sapinakahanituni</rdg>
+                </app>
+                <app loc="B17">
+                <lem>pra<unclear>bheda</unclear> <gap quantity="4" reason="lost" unit="character"/> dru<unclear>ha</unclear> <gap quantity="6" reason="lost" unit="character"/></lem>
+                <rdg source="Brandes1913_01">prabheda <gap quantity="12" reason="lost" unit="character"/></rdg> 
+                <rdg source="bib:Kern1917_17">prabheda <gap quantity="5" reason="lost" unit="character"/></rdg>
+                </app>
+                <app loc="B18">
+                <lem source="Brandes1913_01">ṅ inaranan·</lem> 
+                <rdg source="bib:Kern1917_17">ṅinarani</rdg>
+                <note>A possible restitution of the illegible <foreign>akṣara</foreign>s at the end of line 17 would be <foreign>salvirani</foreign>, to give the words <foreign>salviraniṅ inaranan</foreign>.</note>
+                </app>
+                <app loc="B18">
+                <lem>si <unclear>śuvuka</unclear>l·, <unclear>man</unclear>tu <unclear>ha</unclear>j<unclear>ī</unclear>nadgakn <unclear>iṁ</unclear> ka<unclear>ṭ</unclear>ula</lem> 
+                <rdg source="Brandes1913_01"><gap quantity="10" reason="lost" unit="character"/> nakekale</rdg>
+                <rdg source="bib:Kern1917_17"><gap quantity="4" reason="lost" unit="character"/> kekale</rdg>
+                </app>
+                <app loc="B18">
+                <lem>si la<supplied reason="lost">ḍ</supplied>iṁ</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">si baḍiṁ</rdg> 
+                <note>Brandes’ note indicates his hesitation between <foreign>sibaḍing</foreign> and <foreign>silaḍing</foreign>.</note>
+                </app>
+                <app loc="B18">
+                <lem source="bib:Kern1917_17">nirava<unclear>ś</unclear>eṣa</lem> 
+                <rdg source="Brandes1913_01">naravaśeṣa</rdg>
+                </app>
+                <app loc="B18">
+                <lem>I <gap quantity="1" reason="lost" unit="character"/> <unclear>tta</unclear> s<unclear>ama</unclear> <gap quantity="2" reason="lost" unit="character"/> <unclear>n</unclear>ya</lem>
+                <rdg source="Brandes1913_01">ikā <gap quantity="6" reason="lost" unit="character"/></rdg> 
+                <rdg source="bib:Kern1917_17">ikā <gap quantity="2" reason="lost" unit="character"/></rdg>
+                </app>
+                <app loc="B18">
+                <lem>de śrī mahārāja, ṅuni-ṅuni haji tṅaḥ <gap quantity="7" reason="lost" unit="character"/> sapuluḥ</lem>
+                <rdg source="Brandes1913_01">de śrī mahā <gap quantity="16" reason="lost" unit="character"/></rdg> 
+                <rdg source="bib:Kern1917_17">de śrī mahārāja ṅuni ṅuni haji <gap quantity="3" reason="lost" unit="character"/></rdg>
+                </app>
+                <app loc="B19">
+                <lem>paṁ<unclear>di</unclear>ri, pinakarovaṁ mad<unclear>v</unclear>andva yuddha ca<unclear>kra</unclear><gap quantity="10" reason="lost" unit="character"/><unclear>vv</unclear>at· pinja<unclear>han iṁ</unclear></lem> 
+                <rdg source="Brandes1913_01"><gap quantity="15" reason="lost" unit="character"/>rika <gap quantity="5" reason="lost" unit="character"/>nasikanaṅ sarat pinjahaniṅ</rdg> 
+                <rdg source="bib:Kern1917_17"><gap quantity="2" reason="lost" unit="character"/>diri (?) <gap quantity="5" reason="lost" unit="character"/>rika <gap quantity="6" reason="lost" unit="character"/> ikanaṅ sarat pinjahan, iṅ</rdg>
+                </app>
+                <app loc="B19">
+                <lem>vaṅuntur· mvaṁ saṅ ibu Irikāṁ</lem>
+                <rdg source="Brandes1913_01"><gap quantity="3" reason="lost" unit="character"/> mvaṅ – – – irikāṅ</rdg> 
+                <rdg source="bib:Kern1917_17"><gap quantity="3" reason="lost" unit="character"/> mvaṅ irikāṅ</rdg>
+                </app>
+                <app loc="B19">
+                <lem><num value="951">95<unclear>1</unclear></num> <gap quantity="5" reason="lost" unit="character"/></lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">951 ri kanaṁ pitu</rdg>
+                <note>Kern translates “in the seventh month”. This corresponds to nothing in stanza XXIII (Phalguṇa is not the 7th month by any reckoning). The <foreign>akṣara</foreign>s in question can but by no means need to be read as B and K did.</note>
+                </app>
+                <app loc="B20">
+                <lem>ikāṁ parad<supplied reason="lost">āra</supplied>putra hyaṁ ma<unclear>ṅ</unclear>adg <unclear>i v</unclear>uru tum<unclear>u</unclear>ṁgal <unclear>i</unclear> maddhyadeśaniṁ</lem>
+                <rdg source="Brandes1913_01">-ikaṅ parada <gap quantity="7" reason="lost" unit="character"/> guru tumaṅgal caddhya deśani</rdg> 
+                <rdg source="bib:Kern1917_17">-ikāṅ para <gap quantity="5" reason="lost" unit="character"/> guru tumaṅgal – ddhya deśa ni</rdg> 
+                <note>We tentatively take <foreign>paradāraputra</foreign> as a tatpuruṣa compound, although a <foreign>dvandva</foreign> or sequence of two coordinated words is also a possibility (cf. <foreign>tanayadāra</foreign> in l. 28). We consider that a toponym is required after <foreign>hyaṁ</foreign>, and since we are reminded of the well-attested Vuru Tuṅgal (Damais 1970: 584–4), we read <foreign><unclear>v</unclear>uru tum<unclear>u</unclear>ṁgal</foreign> where both B and K read <foreign>guru</foreign> <foreign>tumaṅgal</foreign>: the first consonant is extremely damaged, and can easily be read <foreign>v</foreign> or <foreign>g</foreign>; a faint trace of -<foreign>u</foreign> seems visible on the RTI below the <foreign>m</foreign>, but it must be admitted that the prima facie reading is <foreign>tumaṁgal</foreign>.</note>
+                </app>
+                <app loc="B20">
+                <lem>vurahan·</lem>
+                <rdg source="Brandes1913_01">–ratan·</rdg> 
+                <rdg source="bib:Kern1917_17">vu?ratan·</rdg>
+                <note>See <foreign>Dharma Pātañjala</foreign> 314:4 (ed. Acri 2017), for an occurrence of <foreign>vurahan</foreign>, taken as ‘confusion’ by the editor but potentially a toponym, indicating the opposite of a <foreign>deśa rahayu</foreign>.</note>
+                </app>
+                <app loc="B20">
+                <lem>-pa<unclear>rākrama</unclear> sumorakən haji vəṅkər·</lem> 
+                <note>B and K left these syllables blank.</note>
+                </app>
+                <app loc="B21">
+                <lem>saṅa ta ha<unclear>jy a</unclear>n·</lem>
+                <rdg source="Brandes1913_01">sa<gap quantity="4" reason="lost" unit="character"/>n</rdg> 
+                <rdg source="bib:Kern1917_17">samāhvayan</rdg> 
+                <note>A problem with our tentative reading is that we don’t really expect sandhi to be applied to <foreign>haji An</foreign>.</note>
+                </app>
+                <app loc="B21">
+                <lem>vaṅk<unclear>ə</unclear>r·</lem>
+                <rdg source="Brandes1913_01">vaṅkir·</rdg> 
+                <rdg source="bib:Kern1917_17">vəṅkər·</rdg>
+                <note>B’s note “<foreign>vaṅkir-vəṅkər</foreign>” suggests the emendation he had in mind, which was adopted by K into his text as such. It is possible to read <foreign>i</foreign> or <foreign>ə</foreign> on top of the <foreign>ṅk</foreign>, but there really is no vocalization sign on the <foreign>v</foreign>. In a damaged part of line 23, it seems the text may have had the spelling <foreign>vaṅkar</foreign>.</note>
+                </app>
+                <app loc="B21">
+                <lem>kavnaṅ ata</lem>
+                <rdg source="Brandes1913_01">kavada ta</rdg> 
+                <rdg source="bib:Kern1917_17">kavaśa ta</rdg>
+                </app>
+                <app loc="B21">
+                <lem>mvaṁ tinuluy <unclear>hani</unclear>hanitu<supplied reason="lost">n</supplied>i <gap quantity="8" reason="lost" unit="character"/></lem>
+                <rdg source="Brandes1913_01">maṁkinakuyanahani <gap quantity="10" reason="lost" unit="character"/>ḥ</rdg> 
+                <rdg source="bib:Kern1917_17">maṅkin<gap quantity="2" reason="lost" unit="character"/> hanitu <gap quantity="2" reason="lost" unit="character"/>ḥ</rdg>
+                <note>The ostensible conjunct <foreign>yh</foreign> is hard to recognize and perhaps not so likely. If, as seems nevertheless quite likely, the passage is parallel to the one in line 26, we can fill in the first part of the gap with <foreign><unclear>hani</unclear>hanitu<supplied reason="lost">n</supplied>iṁ yadadvīpa</foreign>, leaving about 4 <foreign>akṣara</foreign>s unaccounted for.</note>
+                </app>
+                <app loc="B22">
+                <lem><unclear>m</unclear>uvah akaḍatvan i L̥ca,</lem>
+                <rdg source="Brandes1913_01">ṅu – ha kaḍatvaniL̥va</rdg> 
+                <rdg source="bib:Kern1917_17">mulih<unclear>e</unclear> kaḍatvan i – vā</rdg>
+                </app>
+                <app loc="B22">
+                <lem>tinūtnikāṁ</lem>
+                <rdg source="Brandes1913_01">bunutnikāṁ</rdg> <!--with note “<foreign>bunut-tunuk</foreign>” -->
+                <rdg source="bib:Kern1917_17">tinūt? nikāń</rdg> <!-- (with a question mark presumably because the vocalization, very faint in the RTI, was also faint in the reproduction he had access to).-->
+                </app>
+                <app loc="B22">
+                <lem>sināhasan</lem>
+                <rdg source="Brandes1913_01">sināhsan</rdg> 
+                <rdg source="bib:Kern1917_17">sināhāsan</rdg>
+                </app>
+                <app loc="B23">
+                <lem><supplied reason="lost">d</supplied>e <unclear>śrī</unclear> mahārāja</lem> 
+                <rdg source="Brandes1913_01"><gap quantity="2" reason="lost" unit="character"/> śrī mahārāja</rdg> 
+                <rdg source="bib:Kern1917_17"><gap quantity="3" reason="lost" unit="character"/> mahārāja</rdg>
+                </app>
+                <app loc="B23">
+                <lem>muvaḥ hana ta putra <supplied reason="lost">haji</supplied> vaṅ<supplied reason="lost">ka</supplied>r· maṅadg i vur<unclear>u rt</unclear>u p<unclear>j</unclear>aḥ</lem> 
+                <rdg source="Brandes1913_01"><gap quantity="19" reason="lost" unit="character"/>ḥ</rdg> 
+                <rdg source="bib:Kern1917_17"><gap quantity="4" reason="lost" unit="character"/>ḥ</rdg>
+                </app>
+                <app loc="B23">
+                <lem>vargga la<unclear>ṁ</unclear>ḍiṁ rāk·</lem>
+                <rdg source="Brandes1913_01">va<gap quantity="1" reason="lost" unit="character"/> laṁ<gap quantity="3" reason="lost" unit="character"/></rdg> 
+                <rdg source="bib:Kern1917_17">vargga la<gap quantity="3" reason="lost" unit="character"/></rdg>
+                </app>
+                <app loc="B23">
+                <lem>hiR̥ṁhiR̥ṅan<unclear>·</unclear>, Iṁ</lem>
+                <rdg source="Brandes1913_01">haR̥pi<gap quantity="3" reason="lost" unit="character"/>, bu</rdg> 
+                <rdg source="bib:Kern1917_17">haR̥p<gap quantity="5" reason="lost" unit="character"/>, <gap quantity="1" reason="lost" unit="character"/></rdg>
+                </app>
+                <app loc="B24">
+                <lem>maṁdo<unclear>n</unclear>· lāvan·</lem>
+                <rdg source="Brandes1913_01">b<gap quantity="5" reason="lost" unit="character"/>n·</rdg>
+                <rdg source="bib:Kern1917_17"> – – – – lāvan·</rdg>
+                </app>
+                <app loc="B24">
+                <lem>sahananikāṁ makira<unclear>k</unclear>i<unclear>rāpā</unclear>yāmutra hyaṅ amana<unclear>ḥnya</unclear> <gap quantity="8" reason="lost" unit="character"/></lem>
+                <rdg source="Brandes1913_01">sahananikaṅ – – – – – – – – – – – – – – – – – – – – – – </rdg>
+                <rdg source="bib:Kern1917_17">sahana nikaṅ <gap quantity="8" reason="lost" unit="character"/></rdg> 
+                <note>Two epigraphic passages, both contemporary with our inscription, contain the sequence <foreign>amutra hyaṅ</foreign>. See Turun Hyang, face A, line 6: ... <foreign>nikanaṅ amutra hyaṅ kāvaḥ dūdu kika.... maṅabhayā manambu sarāt nakavāmaṇa rara bilṣani pāduka śrī mahā</foreign> ...; plate MNI E.91, verso, lines 6–7: <foreign>an tan dumaṇāta sira sumaṅgaha ikaṅ vaṅ sahayaniṅ amutra hyaṅ mvaṅ katibān tulis kaṅāśvāsa</foreign>. Alas, the published readings of these two inscriptions are insecure, and we are unable to translate them.</note>
+                </app>
+                <app loc="B25">
+                <lem>makapuruṣa<unclear>kā</unclear>ra</lem>
+                <rdg source="Brandes1913_01">makapuruṣa – –</rdg> 
+                <rdg source="bib:Kern1917_17">mako (?) puruṣa – –</rdg>
+                </app>
+                <app loc="B25">
+                <lem><unclear>U</unclear>saṁ<supplied reason="lost">ṅ-u</supplied>saṁ</lem> 
+                <rdg source="Brandes1913_01"><gap quantity="3" reason="lost" unit="character"/>saṅ</rdg> 
+                <rdg source="bib:Kern1917_17"><gap quantity="3" reason="lost" unit="character"/></rdg> 
+                <note>The initial <foreign>akṣara</foreign> can easily be read as <foreign>U</foreign>, but could also be a vocalization -<foreign>e</foreign>. The entirely lost <foreign>akṣara</foreign>, indicated here as <foreign>ṅu</foreign>, may equally well have been another <foreign>U</foreign>. Whatever its precise spelling, we are unsure that the intended word here was <foreign>usaṅ-usaṅ</foreign> to begin with. If it was, then we guess that it is a so far unattested form of the word recorded as <foreign>usəṅ</foreign> in OJED. See our note on p.XX below.</note>
+                </app>
+                <app loc="B26">
+                <lem>hane magəṁ ha – –</lem>
+                <rdg source="Brandes1913_01">haneṁ matiha – –</rdg> 
+                <rdg source="bib:Kern1917_17">haneṁ magəhan (?) – –</rdg> 
+                <note>The syllables tentatively represented here as <foreign>magəṁ</foreign> seem rather clear, but they are somewhat difficult to make sense of, even if we presume that they are the first element of a toponym.</note>
+                </app>
+                <app loc="B26">
+                <lem>h<unclear>ī</unclear>ṅa<unclear>nyan·</unclear> śrī mahārāja <supplied reason="lost">sa</supplied><unclear>ṅka</unclear>ni</lem>
+                <rdg source="Brandes1913_01">hiṅanya – – mahārāja maṅkana</rdg> 
+                <rdg source="bib:Kern1917_17">hīṅan ya – mahārāja, saṅkani</rdg> 
+                <note>We feel quite uncertain about the readings <foreign>hīṅanyan</foreign>· and <foreign>saṅkani</foreign>, but believe the punctuation sign read by Kern cannot have been present if the text really contained both these words. However, there does seem to be enough space for such a punctuation sign or even for a whole extra <foreign>akṣara</foreign> between the <foreign>ja</foreign> and the <foreign>akṣara</foreign> restored as <foreign>sa</foreign>.</note>
+                </app>
+                <app loc="B26">
+                <lem source="Brandes1913_01">hilaṁniṁ sahanani</lem> 
+                <rdg source="bib:Kern1917_17">hilaṁ sahanani</rdg>
+                </app>
+                <app loc="B26">
+                <lem>han<foreign>i</foreign>hanituniṁ</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">hanihanituni</rdg>
+                </app>
+                <app loc="B26">
+                <lem source="bib:Kern1917_17">kramani kahilaṁ</lem>
+                <rdg source="Brandes1913_01">kramanika hilaṁ</rdg>
+                </app>
+                <app loc="B26">
+                <lem><supplied reason="lost">mū</supplied>la kaḍatvani<unclear>ra</unclear></lem>
+                <rdg source="Brandes1913_01">Iṅakaḍatvanira</rdg> 
+                <rdg source="bib:Kern1917_17">– sva?kaḍatvanira</rdg> 
+                <note>Another possible reconstruction for the first word, whose initial syllable is lost, would be <foreign><supplied reason="lost">kā</supplied>la</foreign>. But since <foreign>kāla</foreign> is not used as conjunction elsewhere in this text, nor even recorded in that function in OJED, we tentatively prefer <foreign>mūla</foreign>.</note>
+                </app>
+                <app loc="B27">
+                <lem>kapaṁ sira naṁ</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">tapa sira</rdg>
+                </app>
+                <app loc="B27">
+                <lem>pratiniyata</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">pratinayaka</rdg>
+                </app>
+                <app loc="B27">
+                <lem source="bib:Kern1917_17">hinārohara deśanirāṅkən·</lem> 
+                <rdg source="Brandes1913_01">hina – ro – – deśani raṅkən</rdg>
+                </app>
+                <app loc="B27">
+                <lem><supplied reason="lost" evidence="previouseditor">vvay a</supplied>ta,</lem>
+                <note>the punctuation sign after <foreign>ta</foreign> was ignored by B and K; in the light of its undeniable presence, and of the likely presence of <foreign>ta</foreign> in the next sentence, B and K’s reading <foreign>vvaya ta</foreign> in an area where the surface of the stone is now obliterated, is very suspicious. For in all occurrences known to us (see OJED s.v. <foreign>wwaya</foreign>), the sequence <foreign>vvaya ta</foreign> stands at the beginning of a sentence. For our tentative interpretation see note 257.</note>
+                </app>
+                <app loc="B28">
+                <lem><unclear>ta</unclear> sirar kaparājaya</lem>
+                <rdg source="Brandes1913_01">ta sira – – rājaya</rdg> 
+                <rdg source="bib:Kern1917_17">ta sira <gap quantity="3" reason="lost" unit="character"/> <unclear>pa</unclear>rājaya</rdg>
+                </app>
+                <app loc="B28">
+                <lem>kapaṁ</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">tapa</rdg>
+                </app>
+                <app loc="B28">
+                <lem source="bib:Kern1917_17">deśa</lem>
+                <rdg source="Brandes1913_01">de–</rdg>
+                </app>
+                <app loc="B28">
+                <lem source="Brandes1913_01">rājavāhana</lem>
+                <rdg source="bib:Kern1917_17">rājavahana</rdg>
+                </app>
+                <app loc="B29">
+                <lem>vaR̥gg anusup·</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">– rəp manusup</rdg>
+                </app>
+                <app loc="B29">
+                <lem source="Brandes1913_01">kavnaṁ ta sira</lem> 
+                <rdg source="bib:Kern1917_17">kavnaṁ sira</rdg>
+                </app>
+                <app loc="B30">
+                <lem>ha – – – pinakatapakan</lem>
+                <rdg source="Brandes1913_01">ha – – s panaka ta pa kan</rdg> 
+                <rdg source="bib:Kern1917_17">– – – pinaka ta pakan</rdg>
+                </app>
+                <app loc="B30">
+                <lem><unclear>t</unclear>aṇḍasnira</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">kaṇḍa sira</rdg>
+                </app>
+                <app loc="B30">
+                <lem>Ar paliṅ<unclear>g</unclear>iḥ</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">Apaliṅgiḥ</rdg> 
+                <note>The <unclear>g</unclear> in <unclear>ṅgi</unclear> has wrongly been carved as a full circle.</note>
+                </app>
+                <app loc="B30">
+                <lem>saṁkṣipta ta Ikāṁ</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">saṁkṣipta Ikāṁ</rdg> 
+                <note>Both previous editors have omitted the particle <foreign>ta</foreign>.</note>
+                </app>
+                <app loc="B31">
+                <lem>tan <unclear>hana</unclear></lem>
+                <rdg source="Brandes1913_01">nhana</rdg> 
+                <rdg source="bib:Kern1917_17"><unclear>ta</unclear>n hana</rdg>
+                </app>
+                <app loc="B31">
+                <lem>rāt· An· <unclear>p</unclear>aṅəb· makapārāyana <unclear>c</unclear>chā<supplied reason="lost" evidence="previouseditor">yā</supplied>ni</lem>
+                <rdg source="Brandes1913_01"><gap quantity="9" reason="lost" unit="character"/> pā – yanacchāyāni</rdg>
+                <rdg source="bib:Kern1917_17"><gap quantity="5" reason="lost" unit="character"/> maka – – yan acchāyā ni</rdg>
+                </app>
+                <app loc="B31">
+                <lem>mataṅ yar siddh<supplied reason="lost" evidence="previouseditor">ākən</supplied><supplied reason="lost" evidence="previouseditor">·</supplied></lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">mataṅya siddhākən</rdg>
+                </app>
+                <app loc="B31">
+                <lem source="bib:Kern1917_17"><supplied reason="lost" evidence="previouseditor">pratijñānira</supplied></lem>
+                <rdg source="Brandes1913_01">prājīnānira</rdg>
+                </app>
+                <app loc="B32">
+                <lem>Inusa<supplied reason="lost">n·-U</supplied>san· raghu, yāṅkən·</lem>
+                <rdg source="Brandes1913_01"><gap quantity="4" reason="lost" unit="character"/>san· rake yāṅkən·</rdg> 
+                <rdg source="bib:Kern1917_17">Ista – – s an· rake yāṅkən·</rdg>
+                <note>Both previous editors ignore the punctuation sign after <foreign>raghu</foreign>, which they misread as <foreign>rake</foreign>. Our restoration <foreign>Inusa<supplied reason="lost">n·-U</supplied>san</foreign> (there seems to be too much space for restorting <foreign>Inusa<supplied reason="lost">n·-U</supplied>san</foreign>) is based on the assumption that we have a typical Old Javanese-Sanskrit dyad and that <foreign>usan-usan</foreign> is a variant spelling for OJED’s <foreign>usən-usən</foreign>.</note>
+                </app>
+                <app loc="B32">
+                <lem source="bib:Kern1917_17">mantras<unclear>t</unclear>avanamaskāra</lem>
+                <rdg source="Brandes1913_01">mantrasta – namastāra</rdg>
+                <note>Brandes’ note “<foreign>( )namastāra-vana sangskāra</foreign>” reveals that he had really not understood the present passage.</note>
+                </app>
+                <app loc="B32">
+                <lem source="Brandes1913_01">śrī mahārāja ri bhaṭāra</lem> 
+                <rdg source="bib:Kern1917_17">śrī bhaṭāra</rdg>
+                </app>
+                <app loc="B32">
+                <lem>sārisāri</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">hari sāri</rdg>
+                </app>
+                <app loc="B32">
+                <lem>paṁ<supplied reason="lost" evidence="previouseditor">liṅgānanikāṁ</supplied></lem>
+                <rdg source="Brandes1913_01">paliṅgānanikāṁ</rdg>
+                <rdg source="bib:Kern1917_17">paliṅgānanikaṁ</rdg>
+                <note>Both previous editors ignored the first <foreign>anusvāra</foreign>, which is crucial to get the correct sense. We are dealing with an irrealis of the word <foreign>paṅliṅgan</foreign>. Cf. Sumanasāntaka 37.3c: <foreign>paṅliṅgāna savaṅsavaṅni hayunīdəmanira səmuniṅ varāpsarī</foreign> ‘This was clear because the young girls, whose beauty was on the point of blossoming, resembled divine nymphs’ (ed. and transl. Worsley et al. 2013).</note>
+                </app>
+                <app loc="B33">
+                <lem source="Brandes1913_01">anāgataprabhu</lem>
+                <rdg source="bib:Kern1917_17">aṅāgataprabhu</rdg>
+                </app>
+                <app loc="B33">
+                <lem>hlam i</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">tkā ri</rdg>
+                </app>
+                <app loc="B33">
+                <lem source="bib:Kern1917_17">kramani de śrī</lem> 
+                <rdg source="Brandes1913_01">kramani – śrī</rdg>
+                </app>
+                <app loc="B33">
+                <lem>munarjīvākən·</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">munajikakən·</rdg> 
+                <note>Cf. line 12.</note>
+                </app>
+                <app loc="B34">
+                <lem>yavadvīpa, ka <gap quantity="3" reason="lost" unit="character"/> sa<unclear>dbhāva</unclear> <gap quantity="13" reason="lost" unit="character"/> han denira</lem>
+                <rdg source="Brandes1913_01">yavadvīpa <gap quantity="23" reason="lost" unit="character"/>nenira</rdg>
+                <rdg source="bib:Kern1917_17">yavadvīpa <gap quantity="8" reason="lost" unit="character"/>nira</rdg>
+                </app>
+                <app loc="B34">
+                <lem source="Brandes1913_01">t<unclear>kā</unclear>maṅgiḥ</lem>
+                <rdg source="bib:Kern1917_17">tkā, maṅgiḥ</rdg>
+                </app>
+                <app loc="B34">
+                <lem>hayunira</lem>
+                <note>B leaves open an amount of space between <foreign>hayu</foreign> and <foreign>nira</foreign>, implying that Brandes thought there were some illegible <foreign>akṣara</foreign>s in the gap. But K indicates no such gap.</note>
+                </app>
+                <app loc="B35">
+                <lem source="Brandes1913_01 bib:Kern1917_17"><supplied reason="lost" evidence="previouseditor">abhimata</supplied></lem>
+                <note>the reading has become unverifiable, because the surface of the stone has been lost since their time. In view of the fact that the text twice showed <foreign>abhamata</foreign> instead of expected <foreign>abhimata</foreign> (lines 13 and 16), one may wonder if that is what was actually engraved here too.</note>
+                </app>
+                <app loc="B36">
+                <lem><unclear>th</unclear>ā<unclear>n</unclear>i <supplied reason="lost">vat</supplied>ə<supplied reason="lost">k</supplied></lem>
+                <rdg source="Brandes1913_01">nāni – ti –</rdg>
+                <rdg source="bib:Kern1917_17">– – ni – – –</rdg> 
+                <note>Our reconstruction is based on the occurrence of the sequence <foreign>thāni vatək</foreign> in other inscriptions of Airlaṅga, e.g. Terep I XX.</note>
+                </app>
+                <app loc="B36">
+                <lem><gap quantity="6" reason="lost" unit="character"/> <unclear>maṅaran i</unclear> h<unclear>i</unclear>no<unclear>,</unclear> – <unclear>dr̥bya</unclear></lem> 
+                <rdg source="Brandes1913_01"><gap quantity="12" reason="lost" unit="character"/>ti hino – madrabya</rdg> 
+                <rdg source="bib:Kern1917_17"><gap quantity="5" reason="lost" unit="character"/> hino madrabya</rdg>
+                </app>
+                <app loc="B36">
+                <lem>ni</lem> 
+                <note>This <foreign>akṣara</foreign>, rather clear in the RTI, was not read by B and K, whose reading resumes with <foreign>nikāṁ</foreign> at the end of the line, where the surface of the stone has by now entirely peeled off.</note>
+                </app>
+                <app loc="B37">
+                <lem source="Brandes1913_01">mantən· ta</lem> 
+                <rdg source="bib:Kern1917_17">mantən· tā</rdg>
+                </app>
+                <app loc="B37">
+                <lem><supplied reason="lost" evidence="previouseditor">bapuri</supplied></lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">basuri</rdg>
+                <note>Even though these <foreign>akṣara</foreign>s have peeled off by now, we emend the reading of our predecessor by comparison with our reading of the same toponym in line 3.</note>
+                </app>
+                <app loc="B38">
+                <lem>ya <gap quantity="10" reason="lost" unit="character"/>· saṁ</lem>
+                <note>B and K were unable to read any <foreign>akṣara</foreign>s in the damaged stretch before <foreign>saṁ</foreign>.</note>
+                </app>
+                <app loc="B38">
+                <lem><supplied reason="lost" evidence="previouseditor">[tan katamāna deniṁ]</supplied></lem> 
+                <note>The restoration was made by Kern (1917: 106: n. 1), while Brandes left open a gap for the illegibly damaged <foreign>akṣara</foreign>s.</note>
+                </app>
+                <app loc="B39">
+                <lem>mvaṁ <unclear>saṁ nāyaka</unclear>pratya<supplied reason="lost" evidence="previouseditor">ya</supplied></lem>
+                <rdg source="Brandes1913_01">mvaṁ – nāyaka, partyaya</rdg> 
+                <rdg source="bib:Kern1917_17">mvaṁ nāyaka, partyaya</rdg> 
+                <note>The two words <foreign>nāyaka</foreign> and <foreign>pratyaya</foreign> are normally not separated by a punctuation sign (although see n. XX below), and are quite often preceded by <foreign>saṁ</foreign>, which we can faintly make out in the gap left open by Brandes that was ignored by Kern.</note>
+                </app>
+                <app loc="B40">
+                <lem>m – – – – <supplied reason="lost" evidence="previouseditor">sukhaduḥkha,</supplied></lem>
+                <rdg source="Brandes1913_01">– khaduḥkha,</rdg>
+                <rdg source="bib:Kern1917_17">sukhaduḥkha,</rdg>
+                <note>In B’s reading, line 39 ends with a substantial lacuna after <foreign>haji m</foreign>, while 40 starts with <foreign>khaduḥkha</foreign>; in K’s, there is a lacuna of five <foreign>akṣara</foreign>s after <foreign>haji m</foreign> at the end of 39, while line 40 starts with <foreign>sukhaduḥkha</foreign>. In cases where it could be verified, we have seen that K’s edition is not very precise in dealing with the distinction between preserved and conjectured text; moreover, the amount of space before the first legible <foreign>akṣara</foreign>s on line 40 suggests that B’s reading of the beginning of this line has a more plausible number of <foreign>akṣara</foreign>s. We therefore conjecture that the necessary <foreign>akṣara su</foreign> stood at the end of line 39. If we may otherwise rely on K’s edition, it means the lacuna between <foreign>m</foreign> and <foreign>su</foreign> extends over four <foreign>akṣara</foreign>s. If this estimation is exaggerated, then we could conjecture a reading like <foreign>haji mvaṁ sukhaduḥkha</foreign>, inspired by OJO XLIX 2b.</note>
+                </app>
+                <app loc="B41">
+                <lem><gap extent="unknown" reason="lost" unit="character"/> <supplied reason="lost" evidence="previouseditor">[saṁ maṅilāla] drabya haji vuluvulu mvaṁ</supplied> <gap extent="unknown" reason="lost" unit="character"/></lem>
+                <rdg source="Brandes1913_01"><gap extent="unknown" reason="lost" unit="character"/> <supplied reason="lost" evidence="previouseditor">drabya haji vuluvulu mvaṁ</supplied></rdg> 
+                <rdg source="bib:Kern1917_17"><gap quantity="8" reason="lost" unit="character"/> <supplied reason="lost" evidence="previouseditor">[saṁ maṅilāla] drabya haji vuluvulu mvaṁ</supplied> <gap quantity="3" reason="lost" unit="character"/></rdg>
+                <note>We are unable to confirm any of the sequences of <foreign>akṣara</foreign>s that our predecessors have discerned on this line. We see a fairly clear <foreign>ṅi</foreign> around the 12th position in the line, but what remains of the surrounding <foreign>akṣara</foreign>s cannot be matched with Kern’s conjecture <foreign>maṅilāla</foreign>; three positions to the left of this <foreign>ṅi</foreign> stands a clear <foreign>na</foreign> which may also have been a <foreign>ne</foreign>. The number of illegible <foreign>akṣara</foreign>s indicated by Kern implies that there were only 25 <foreign>akṣara</foreign>s on this line which must be far off the mark as completely preserved lines higher up show around 55 <foreign>akṣara</foreign>s per line. But we are unable to propose an alternative estimate because we are unable to situate the string of <foreign>akṣara</foreign>s read by B and K anywhere on the line. Note that B’s text suggests <foreign>mvaṁ</foreign> stood at the end of the line, whereas K’s suggests a short lacuna stood between this word and the end of the line.</note>
+                </app>
+                <app loc="B42">
+                <lem><supplied reason="lost" evidence="previouseditor">siṅ ata lviranya</supplied></lem>
+                <rdg source="Brandes1913_01">siṅa – lviranya</rdg>
+                <rdg source="bib:Kern1917_17">siṅa ta lviranya</rdg>
+                <note>K’s translation suggests that he was thinking of a word like <foreign>asiṅ</foreign>, an idea that receives some support from the Cane inscription, faces C and d, line 30: <foreign>kita kamuṅ hyaṅ yāvat ya hana umulahulaḥ ikeṅ sīma ri cane asiṅ lvirani kavvaṅanya jaḥ tasmat kabvat kārmmāknanya</foreign> ... But if this passage is indeed a relevant comparison, it also implies that Kern's word division is unlikely to be correct. This is why we tentatively divide the words as <foreign>asiṅ ata.</foreign></note>
+                </app>
+                <app loc="B42">
+                <lem><supplied reason="lost" evidence="previouseditor">luməbu</supplied><supplied reason="lost">ra</supplied></lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">luməbu</rdg> 
+                <note>It is tempting to conjecture further <foreign>luməburāta</foreign> or <foreign>luməbura ta</foreign>, and to assume no further loss of <foreign>akṣara</foreign>s before <foreign>saṁ hyaṁ</foreign>, but this issue depends on whether K’s estimate of 3 lost <foreign>akṣara</foreign>s between <foreign>luməbu</foreign> and <foreign>saṁ hyaṁ</foreign> is reliable or not.</note>
+                </app>
+                <app loc="B42">
+                <lem source="Brandes1913_01 bib:Kern1917_17"><supplied reason="lost" evidence="previouseditor">nāyaka, partyaya,</supplied></lem> 
+                <note>We are unable to verify any part of this sequence, but expect that the stone rather showed <foreign>pratyaya</foreign> before it got damaged, and that there was no punctuation sign separating this from <foreign>nāyaka</foreign>. See n. XX above.</note>
+                </app>
+                <app loc="B43">
+                <lem>va<supplied reason="lost" evidence="previouseditor">huta rāma</supplied> <gap quantity="14" reason="lost" unit="character"/> <supplied reason="lost" evidence="previouseditor">umulahu</supplied>laha</lem> 
+                <note>Almost all of this line is now lost. While B, as usual, only leaves open a large gap, K estimates the lacuna between <foreign>rāma</foreign> and <foreign>umulahulaha</foreign> to extend over 7 <foreign>akṣara</foreign>s. Taking the expected entire number of <foreign>akṣara</foreign>s for this line into account, and estimating the distance between the <foreign>akṣara</foreign>s that are still preserved today, we estimate that the gap which was already present in our predecessors’ time extended over at least 14 <foreign>akṣara</foreign>s.</note>
+                </app>
+                <app loc="B44"><lem>–nanira</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17"><gap quantity="3" reason="lost" unit="character"/>nira</rdg>
+                <note>It might be possible to read the first <foreign>akṣara</foreign>s as <foreign>sthā</foreign>, conjecturing <foreign>sthānanira</foreign>. But <foreign>ṅhananira</foreign> or <foreign>ṅkānanira</foreign> also seem to be possible readings.</note>
+                </app>
+                <app loc="B45">
+                <lem><supplied reason="lost">bhukt</supplied>inira <supplied reason="lost">pañca</supplied>mahāpātaka</lem>
+                <rdg source="Brandes1913_01 bib:Kern1917_17">caṇḍinira <gap quantity="2" reason="lost" unit="character"/>mahāpātaka</rdg>
+                <note>The word <foreign>caṇḍi</foreign> in our predecessors’ reading is so unlikely that we feel forced to reject it, and the word <foreign>pañca</foreign> cries out so hard to be read before <foreign>mahāpātaka</foreign> that we feel obliged to conjecture it. Although we have found no exact parallel for the wording we propose here, assuming that <foreign>nira</foreign> was correctly read by B and K, our conjecture is based among numerous other comparable passages on Baru (Cd, lines 39–40), Cane (C, 26) and Patakan (C, 26), where we read: <foreign>salvirniṅ pañcamahāpātaka bhuktinya</foreign>.</note>
+                </app>
+                <app loc="B45">
+                <lem source="Brandes1913_01"><supplied reason="lost" evidence="previouseditor">mahārāja</supplied></lem> 
+                <rdg source="bib:Kern1917_17">mahāraja</rdg>
+                </app>
+                <app loc="B45">
+                <lem><gap extent="unknown" reason="lost" unit="character"/> <supplied reason="lost" evidence="previouseditor">citralekha I pāduka śrī mahārāja</supplied> <gap extent="unknown" reason="lost" unit="character"/> <supplied reason="lost" evidence="previouseditor">sira</supplied> <gap extent="unknown" reason="lost" unit="character"/></lem>
+                <note>K estimates a gap of 17 <foreign>akṣara</foreign>s between <foreign>pātaka</foreign> and <foreign>citralekha</foreign>, then gaps of 3 <foreign>akṣara</foreign>s each after <foreign>mahārāja</foreign> and <foreign>sira</foreign>. The total number of <foreign>akṣara</foreign>s on the line would thus be 41 <foreign>akṣara</foreign>s, which is far too few. We are unable to verify any <foreign>akṣara</foreign>s after <foreign>pātaka</foreign>, and so are unable to propose our own estimates for the three gaps.</note>
+                </app>
+            </listApp>
+    </div>
+    <div type="translation" resp="part:csde part:argr">
+            <p n="1" rend="stanza">Eternal homage to the Creator (Brahmā), who, even though he is
+                endowed with the three qualities (of <foreign>rajas, sattva</foreign> and
+                    <foreign>tamas</foreign>) in the creation, maintenance and destruction of men,
+                is famous as being worthless — [or rather] as <foreign>free of
+                    qualities</foreign>!<note>The stanza contains an apparent contradiction
+                        (<foreign>virodhābhāsa</foreign>): two statements appear to contradict each
+                    other, and the contradiction is resolved by understanding one of them as a pun
+                    (cf. Gerow 1971: 268)<foreign>.</foreign></note></p>
+            <p n="2" rend="stanza">Homage to Him (Viṣṇu) who, though famous in the world to have
+                (only) three acts of valour — [or rather,] <foreign>who is known as
+                    Three-Step</foreign>,<note>This stanza, too, contains an apparent contradiction
+                        (<foreign>virodhābhāsa</foreign>). Cf. n. 10.</note> is always bowed down to
+                by the chief of the gods, (i.e. Indra, who is) esteemed because of countless acts of
+                valour!</p>
+            <p n="3" rend="stanza">Homage to that Śiva, who, despite being an (immovable) stump —
+                [or rather,] <foreign>being Sthāṇu, the Stable</foreign>,<note>Another
+                        <foreign>virodhābhāsa.</foreign> Cf. n. 10.</note> with his qualities
+                abundantly gives people whatever they wish for, and [thus] abases the huge
+                    <foreign>(a-tanu)</foreign> wish-yielding tree</p>
+            <p n="4" rend="stanza">He who has an obsession for women — [or rather] <foreign>for
+                    feminine grammatical gender</foreign> by his fame of unimpeded progress [and] by
+                    compassion;<note>The words for fame and compassion are both grammatically
+                    feminine. The at first sight paradoxical meaning of this <foreign>pāda</foreign>
+                    is produced by misleading the reader into understanding <foreign>kīrtyā
+                        khaṇḍitayātayā akaruṇayā</foreign>, ‘with reputation of impeded course and
+                    with lack of compassion’, and thinking that <foreign>strīparatvam</foreign> is a
+                    vice.</note> and who has severe disrepute in the matter of taxation — [or
+                rather] a <foreign>sharp mark</foreign>
+                <foreign>on his hand</foreign> caused by stretching the bow; and who has fearfulness
+                by turning away as a hero in battle — [or rather]
+                    <foreign>apprehensiveness</foreign> by turning away from unbecoming behavior
+                    <foreign>in pleasure</foreign>: he partakes of (apparent) vices by his own good
+                qualities. May that king called Erlaṅga<note>On the name Erlaṅga, see <hi rend="check">Stutterheim 1929 CHECK PAGE</hi></note> be
+                    victorious!<note>The poetic figure here is <foreign>parisaṁkhyā</foreign> or
+                        <foreign>niyamavat śleṣa,</foreign> in which a double-entendre is explicitly
+                    limited to its further or irregular sense (Gerow 1971: 298). The stanza thus
+                    becomes a <foreign>nindāstuti</foreign> or <foreign>vyājastuti</foreign>, praise
+                    which appears to be criticism.</note></p>
+            <p n="5" rend="stanza">There was a crest-jewel among kings, who defeated numerous hordes
+                of (enemy) kings, famous throughout all three worlds, comparable to a lion by his
+                great prowess, who long held the Earth, of unlimited fruits, as well as Lakṣmī
+                (Fortune), not fickle [at all in his case]. He was the king of Yava (i.e. Java),
+                endowed with fortune, fame and power, called Śrī Īśānatuṅga.<note>This is King
+                    Sindok, also called Śrī Īśānavikramadharmottuṅgadeva. His inscriptions are dated
+                    to the first half of the tenth century and come from the lower, middle and upper
+                    Brantas Valley. For a summary of colonial-period research, see Cœdès 1975: 128.
+                    For more up-to-date information, see De Casparis 1988.</note></p>
+            <p n="6" rend="stanza">His daughter was like a she-goose: she was charming with her pure
+                mind and attire <foreign>as a she-goose is charming when she stays at pure Lake
+                    Mānasa;</foreign><note>On <foreign>rājahaṁsa</foreign> see Vogel 1962:10; on
+                        <foreign>mānasa, ibid.</foreign> p. 3.</note> she was always attached to the
+                doctrine of the Buddha, <foreign>as the she-goose is always equipped with
+                    well-moving wings.</foreign> She, increasing only the joy of the king,<note>Her
+                    husband, who is identified in the next stanza.</note> her he-goose, was radiant
+                as queen Śrī Īśānatuṅgavijayā.</p>
+            <p n="7" rend="stanza">And then the king Śrī Lokapāla,<note>We assume, with Krom 1914,
+                    who argued that the Kancana inscription, internally dated to 782 Śaka and issued
+                    by a king called Śrī Mahārāja Śrī Bhūvaṇeśvara Viṣṇusakālātmaka Digvijaya
+                    Par<choice><orig>a</orig><reg>ā</reg></choice>kramotuṁgadeva Lokap<choice><orig>a</orig><reg>ā</reg></choice>lal<choice><orig>a</orig><reg>ā</reg></choice>ñcana, must in fact be dated to 872 Śaka, and that
+                    the king intended in that inscription could thus be the same one as the one
+                    intended here. We would oppose to Damais’ argument (1955: 26) that the dating
+                    elements that he took to confirm the date in 782 Śaka may well have been
+                    calculated a posteriori for that year, once the inversion 872/782 had been made,
+                    intentionally or unintentionally. For details, see Griffiths 2020:
+                    133–135.</note> elephant among kings, who caused pleasure to the eyes, made her
+                his wife: he, a milk-ocean<note>We are not certain why the poet refers here to the
+                    milk-ocean, unless he means the regular ocean by <foreign>kṣīrārṇava.</foreign>
+                    On the other hand, the conventionally white colour of the Gaṅgā matches the
+                    color of the milk-ocean.</note> whose inner self was famous for its quality of
+                purity; she, like the Mandākinī (i.e. the Ganges), equal to himself in
+                prosperity.</p>
+            <p n="8" rend="stanza">In order for an earth-ornament (i.e. a king)<note>For
+                        <foreign>bhūbhūṣaṇa</foreign> referring to kings, cf. e.g. Kṣemendra's
+                        <foreign>Daśāvatāracarita</foreign> 1.48b: <foreign>śauryotsāhamahodayāḥ kva
+                        bata te bhūbhūṣaṇaṁ bhūmipāḥ</foreign> ‘Those kings, the ornaments of the
+                    earth, who had the pre-eminence of valour and energy — alas, where are
+                    they?’.</note> to appear, a son arose from him, whose wealth constituted his
+                majesty and who generated with riches (<foreign>bhūti</foreign>)<note>This might
+                    also allude to the sacred ashes (<foreign>vibhūti</foreign>) used by Śaiva
+                    ascetics.</note> the splendor of those living beings whose minds were
+                disciplined in meditating on Bhava (i.e. Śiva). And by these [riches] of
+                incomparable radiance he had become undauntedly prominent, like the sun
+                    <foreign>having risen benevolently</foreign>, (a king) able
+                    (<foreign>prabhu</foreign>) to shatter the frontal globes of the elephants of
+                enemy kings as if they were pots.<note>The stanza is a virtuosic example of
+                        <foreign>anuprāsa</foreign> (alliteration, see Gerow 1971:
+                102ff).</note></p>
+            <p n="9" rend="stanza">Known as Śrī Makuṭavaṁśavardhana, an incomparable chief
+                    (<foreign>indra</foreign>) of men, sun in the lineage of Śrī Īśāna, he scorched
+                the enemies with his splendor.</p>
+            <p n="10" rend="stanza">The extremely beautiful daughter of that king was, thanks to the
+                king’s virtues, like the embodied royal fortune of Java, even though on another
+                island; she was clearly made by her fortunate (i.e. happily married) father “the
+                lawful wife of the one who is fond of virtues” by her name.<note>This probably means
+                    that her father gave her the name Guṇapriyadharmapatnī, and thus he made her the
+                    person denoted by that name, that is the future wife of a virtuous king, already
+                    when she was born. Other interpretations of this verse are also possible, e.g.
+                    “The extremely beautiful daughter of that king was like the royal fortune of
+                    Yava (i.e. Java) incarnate thanks to her royal virtues, even though her father
+                    was fortunate (i.e. by being happily married) on another island. She was clearly
+                    made by him Guṇapriyadharmapatnī by name.” Guṇapriyadharmapatnī could be
+                    interpreted as “the lawful wife of one who is fond of virtues” or “a lawful wife
+                    who is fond of virtues”, or even “the wife of Dharma, who is fond of virtues”,
+                    Dharma being shorthand for Dharmodayanavarmadeva? Inscriptions of
+                    Guṇapriyadharmapatnī and Dharmodayanavarmadeva are known from Bali from around
+                    the turn of the first millennium (see Damais 1952: 86–7); an inscription of
+                    Dharmmodayana Warmmadeva alone is dated to 1011 CE (cf. Damais 1959: 682, Coedès
+                    1975: 129).</note></p>
+            <p n="11" rend="stanza">There was also that Udayana, of distinguished and pure birth,
+                born from a famous royal lineage. True to his name,<note>Udayana might have been
+                        <foreign>vyaktāhvaya</foreign> because his name was well-known from the
+                        <foreign>Br̥hatkathā</foreign>. Or because <foreign>udayana</foreign> means
+                    ‘rising’, he might have had an ‘explicit name’, a name that corresponded to his
+                    rising in status by marrying the Javanese princess.</note> he married that
+                illustrious princess Mahendradattā (= Guṇapriyadharmapatnī) with proper rites.</p>
+            <p n="12" rend="stanza">From him was born a divine son called Erlaṅgadeva, as Rāma was
+                born from Daśaratha. He was the best among all people, delightful because of the
+                arts [he mastered], even more venerable than him because of his good qualities,
+                whose exalted career was predicted by the best sages because of his
+                    majesty.<note>The poetic figure in this verse is <foreign>antādika
+                        yamaka</foreign> (Gerow 1971: 225): the repeated elements are the last half
+                    of the first pāda and the first half of the second. If we pronounced the name of
+                    the son as Airlaṅga, we would get another <foreign>antādika
+                    yamaka.</foreign></note></p>
+            <p n="13" rend="stanza">When the previous king of Java called Śrī Dharmavaṁśa, his
+                    in-law,<note>If Dharmavaṁśa intended to give his daughter to Erlaṅga in
+                    marriage, the word <foreign>sambandhin</foreign> could be interpreted as “future
+                    in-law”. Another possibility is that Dharmavaṁśa was the husband of another
+                    daughter of Makuṭavaṁśavardhana. Then his daughter was Erlaṅga’s cousin.</note>
+                who delighted in hearing of his many virtues, invited him respectfully to the
+                wedding of his daughter, he quickly became famous in all respects
+                    <foreign>as</foreign>
+                <foreign>Śrī Dharmavaṁśa,</foreign><note>Since Dharmavaṁśa was the name of both
+                    Təguh and Airlaṅga, we have translated <foreign>śrīdharmavaṁśa iti</foreign>
+                    twice. Cf. line 2 in the Old Javanese part of the inscription.</note> a man of
+                noble nature.<note>The verse could be, and indeed has been, interpreted in two
+                    different ways: Dharmavaṁśa invited Erlaṅga to marry his daughter, or he invited
+                    him simply as a guest to the wedding of his daughter marrying someone else. See
+                    discussion in Boechari 1962: 78–79 n. 43 = 2012: 79–80, n. 24. One might think
+                    that the former meaning would have been expressed with a different, clearer
+                    construction, e.g. with an infinitive or an
+                    A<foreign>rtham-</foreign>construction (“to marry his daughter”), and perhaps
+                    our poet would have been capable of finding a less ambiguous solution to express
+                    this. On the other hand this verse might continue the parallelism with Rāma, who
+                    was invited to Sītā’s <foreign>svayaṁvara</foreign> by Janaka.</note></p>
+            <p n="14" rend="stanza">Then his (Dharmavaṁśa Təguh’s) city suddenly turned to ashes, …
+                like the kingdom of Indra. Clearly because of the rogue Kali (Age), he went to the
+                forest without servants, together with Narottama.<note>Airlaṅga went to the forest
+                    just as Rāma did, both with just a few companions: Rāma with Sītā and Lakṣmaṇa,
+                    Airlaṅga with Narottama. Or did Airlaṅga also take his wife with him? Was that
+                    wife the daughter of Dharmavaṁśa? The stanza does not seem to allude to
+                    this.</note></p>
+            <p n="15" rend="stanza">In the elapsed<note><foreign>yāte</foreign> ◇ here translated as
+                    though equivalent to the term <foreign>atīta</foreign> which is a standard
+                    element of Old Javanese dating formulae. See also <foreign>gate</foreign> in
+                    stanzas XXV and XXVIII. Kern in all these instances translates as locative
+                    absolute with the participle indicating little more than ‘in’. This was also how
+                    French scholars interpreted similar dating formulae in Cambodia inscriptions (K.
+                    50/589 ś., <foreign>ISC</foreign>, p. 73; K. 154/656 ś., <foreign>IC</foreign>
+                    II, p. 123).</note> Śaka year 941, in the month of Māgha, on the 13th day of the
+                waxing fortnight, on Monday, having been approached by zealous people who bowed
+                down, Śrī Lokeśvara, king Nīralaṅga was requested by the best of brahmins in a way
+                that inspired confidence: “Protect the unprotected earth.”<note>As de Casparis
+                    pointed out (de Caparis 1992:490, n. 16), the last line of this verse is
+                    reminiscent of verse 4 (line 8) in the Allahabad Pillar Inscription of
+                    Samudragupta (fourth century CE), where Candragupta I addresses Samudragupta
+                    with the words <foreign>nikhilāṁ pāhy evam urvvīm iti.</foreign>
+                    <hi rend="check">CHECK REF</hi> Another parallel, also noticed by de Casparis,
+                    is the case of Harṣavardhana (seventh century CE), who, according to Xuanzang,
+                    was exhorted by the ministers to become king (Great Tang Record, p. 123f.) <hi rend="check">CHECK</hi></note></p>
+            <p n="16" rend="stanza">The multitude of enemies, having heard that this king, after
+                being consecrated to emperorship, had defeated by his power the horde of foes, here
+                even today constantly study the unprecedented swiftness of the palm of his
+                serpent-like arm.</p>
+            <p n="17" rend="stanza">Very many kings of Java enjoyed / ruled the earth while being
+                petitioners / beggars with respect to their opponents / enemies (indebted to their
+                enemies?). By force of their royal birth their sons enjoyed [the earth] in
+                succession (reading <foreign>anububhujus</foreign>) on their thrones. But his
+                Majesty, king Jalalaṅgadeva who was born in a good family and is the foremost of
+                emperors, does very much enjoy [it]. Only that enemy (reading
+                    <foreign>arir</foreign>
+                <foreign>ddvandvam</foreign>) experiences strife / fight wandering on the surface of
+                the earth.</p>
+            <p>OR</p>
+            <p>Their sons did not enjoy [it] by force of their royal birth on the royal throne.</p>
+            <p>OR</p>
+            <p>Very many kings of Java ruled the earth while being supplicants with respect to their
+                opponents, by force of their royal birth. Their sons did not rule on the throne. But
+                his Majesty, king Jalalaṅgadeva, who was born in a good family and is the foremost
+                of emperors, does very much rule. Only that enemy (reading <foreign>arir
+                    ddvandvam</foreign>) experiences fight as he wanders on the surface of the
+                earth.</p>
+            <p>
+                <hi rend="check"><foreign>madvandva yuddha</foreign> occurs in face B, l. 19, in
+                    the meaning ‘meet in battle’</hi>
+            </p>
+            <p n="18" rend="stanza">He is seated on the throne, while his pair of feet are smeared
+                by the heads of kings. Every day he converses with his ministers who are engaged in
+                reflecting upon counsel.<note>Or “in counsel and discussion”.</note> Accompanied by
+                women and surrounded by splendid heros, he often takes a seat. In a defeat just as
+                in victory, his effulgence incessantly causes wonder.</p>
+            <p>
+                <hi rend="check">Bhaṭṭikāvya 17:64</hi>
+            </p>
+            <p>
+                <foreign>
+                    <hi rend="check">tato ’citrīyatāstraughair dhanuś cādhūnayan mahat</hi>
+                </foreign>
+            </p>
+            <p>
+                <foreign>
+                    <hi rend="check">rāmaḥ samīhitaṁ tasya nācetan sve na cāpare</hi>
+                </foreign>
+            </p>
+            <p>
+                <hi rend="check">comm. āścaryībhūtaḥ, citram āścarye</hi>
+            </p>
+            <p n="19" rend="stanza">“My husband, though he is very tender / affectionate, suddenly
+                left our sons [and] me, … going to the women in heaven … obeying your command. You
+                are known in the world to have a compassionate heart, how can you behave like a
+                thief? (read <foreign>dayāluhr̥dayas</foreign>
+                <foreign>stainyapravr̥ttiḥ</foreign>, “practice of theft”; or does he use stenya /
+                stainya as an adjective?) Ah, king, where is [your] mercy?” Thus the enemy’s wife
+                reproaches even the king.</p>
+            <p>COMMENTARY</p>
+            <p><foreign>svargastrīgamana</foreign> suggests death in battle, cf. Harivaṁśa 77:23–24,
+                Raghuvaṁśa 7:51.</p>
+            <p>One would expect <foreign>stainyapravr̥ttiḥ</foreign>, a tatpuruṣa compound, because
+                    <foreign>stainya</foreign> does not seem to be used in an adjectival sense.</p>
+            <p>or <foreign>stainyapravr̥ttiḥ</foreign> is a bahuvr. from karmadhāraya: (you) having
+                the practice which is theft</p>
+            <p>
+                <hi rend="check">stainyā+ sg meaning lowly, vile + vr̥tti in compound</hi>
+            </p>
+            <p>
+                <hi rend="check"><foreign>stainyātmavr̥ttiḥ</foreign> ?</hi>
+            </p>
+            <p>
+                <hi rend="check">D and K read <foreign>dayāluhr̥dayas te nyā pravr̥ttiḥ
+                        kathaṁ</foreign>, how can your behaviour be different?</hi>
+            </p>
+            <p n="20" rend="stanza">One great enemy … striving for liberation …to achieve … the dirt
+                of riches / forest fruits, another one obtained the king’s spells / counsels that
+                face heaven / the chief of which is heaven / beginning with heaven / which are the
+                source of heaven, was made by him a pupil, so to say.</p>
+            <p>Xāvāptaye</p>
+            <p>tadāptaye / tasyāptaye</p>
+            <p>mumukṣur … jahāti mukteḥ / so vāptaye dhanamalāni ? vanaphalāni?</p>
+            <p>from the mouth of the king? which is (like?) heaven?</p>
+            <p n="21" rend="stanza">a, cannot end in o ; jijñāsita, jijñāsaka, jijñāsayā,
+                jijñāsanaṁ, jijñāsavaḥ</p>
+            <p>-sya maharovi X jī(ba/jñā)sa</p>
+            <p>-sya maharo vi – ⏑ jijñāsayā</p>
+            <p>kiṅ — — bhuvanatrayasya mahato viśvasya jijñāsayā</p>
+            <p>b, kiṁ sandhānacikīrṣayā kṣitibhujas tībradyutes tejasaḥ (if it were bandhāna, a
+                nonexistent form anyway, we would expect kim), “why would a king, whose splendour is
+                fierce because of his majesty, wish to make peace / form alliances?” (tīvradyuti
+                also means the sun)</p>
+            <p>c kiṅ krīḍārasalipsayā rabhasayā yasyoddhataiḥ / yasyodyataiḥ kīrtitā</p>
+            <p>d kīrtiḥ śuddhikarīndubhādhavalabhās sammānyate harniśam</p>
+            <p>What is the use of strong desire to obtain the pleasure of play for someone whose</p>
+            <p>purifying fame, which is celebrated by proud people and has a lustre white like
+                moonbeams, is honoured day and night?</p>
+            <p>kiṅ krīḍāraṇa ? kiṅ śrī ?</p>
+            <p n="22" rend="stanza">‘Indra unto men (= <foreign>narendra</foreign>, king),
+                    <foreign>dharma</foreign> unto thoughts, words and acts</p>
+            <p>Varuṇa unto those who are to be subjected, Kubera unto supplicants — having assembled
+                the world guardians, saying “Behold the ruler of kings!”, he was uniquely chosen by
+                the creator to … many.’</p>
+            <p>c, hanta yavarāḍ ? nr̥parāḍ? bhr̥gurāḍ? hasta?</p>
+            <p>d, pra…tuṁ ? inf.</p>
+            <p>cf. RV 2:75cd</p>
+            <p>narapatikulabhūtyai garbham ādhatta rājñī</p>
+            <p>gurubhir abhiniviṣṭaṁ lokapālānubhāvaiḥ |</p>
+            <p>17:76</p>
+            <p>pañcamaṇ lokapālānām</p>
+            <p>17:79</p>
+            <p>indrād vr̥ṣṭir niyamitagadodrekavr̥ttir yamo 'bhūd</p>
+            <p>yādonāthaḥ śivajalapathaḥ karmaṇe naucarāṇām |</p>
+            <p>pūrvāpekṣī tadanu vidadhe kośavr̥ddhiṁ kuveras</p>
+            <p>tasmin daṇḍopanatacaritaṁ bhejire lokapālāḥ ||</p>
+            <p>cf. Manu 7</p>
+            <p>rakṣārtham asya sarvasya rājānam asr̥jat prabhuḥ 3</p>
+            <p>indrānilayamārkāṇām agneś ca varuṇasya ca</p>
+            <p>candravitteśayoś caiva mātrā nirhr̥tya śāśvatīḥ 4</p>
+            <p>yasmād eṣāṁ surendrāṇāṁ mātrābhyo nirmito nr̥paḥ</p>
+            <p>tasmād abhibhavaty eṣa sarvabhūtāni tejasā 5</p>
+            <p n="23" rend="stanza">There was a king … the annihilation of the city … his eminent
+                son was called Viṣṇuprabhāva. Him in the Śaka year 951 … eleventh day … in phālguṇa
+                …</p>
+            <p>% if śuklapakṣa: 16 Feb 1030, Monday; if kr̥ṣṇapakṣa: 3 March 1030, Tuesday</p>
+            <p>% http://www.cc.kyoto-su.ac.jp/~yanom/pancanga/</p>
+            <p>On this stanza, see Boechari 1968: 13: n. 8.</p>
+            <p>ekādaśībadi</p>
+            <p>ekādaśīśudi</p>
+            <p n="24" rend="stanza">Another one, a very vile man called Paruda, tormented the people
+                like an actual Ten-Faced (Rāvaṇa). The king, ..., whose conduct was more pleasurable
+                even than that of Rāma, slew him quickly.</p>
+            <p n="25" rend="stanza">Immediately after that the king, who wished to defeat the king’s
+                son, went from there and at once burnt down his whole residence. Then, again and
+                again, when the Śaka year 953 had elapsed, the excellent king burnt his cities
+                    (<foreign>nagara</foreign>) completely.</p>
+            <p n="26" rend="stanza">There was also on the earth a woman, as terrible in might as a
+                female <foreign>rākṣasa.</foreign> Without fear, he went to her <hi rend="check">narrow / dangerous</hi> territory. In this Śaka year 954 the king, whose fame
+                is well-known, pierced her instantly.</p>
+            <p>
+                <hi rend="check">EAST ?</hi>
+            </p>
+            <p>
+                <hi rend="check">Connection with Calon Araṅ in note of 1917 to transl. Kern.</hi>
+            </p>
+            <p n="27" rend="stanza">Like a constantly licking fire, the king burnt that southern
+                region, which had been utterly unconquerable, because he was able. Having obtained
+                lots of riches and having given them to the community of chief brahmins and sages
+                which was supported by him, he only took fame [for himself].</p>
+            <p>
+                <hi rend="check">SOUTH</hi>
+            </p>
+            <p>
+                <hi rend="check">distributing all the loot: like Raghu</hi>
+            </p>
+            <p>
+                <hi rend="check">Note on strange expression dvijapatimunisaṅgha: is there a
+                    connection with Māheśvaras/Mahābrāhmaṇas mention in l. 15 of the OJ face?</hi>
+            </p>
+            <p n="28" rend="stanza">Then, because he was proud, in the elapsed Śaka year 957, in the
+                month of Bhādra, on the 13th day of the waxing fortnight, on an auspicious
+                Wednesday, the king, who is worshipped by the world, went together with zealous,
+                strong, innumerable forces in the Western direction and defeated the king called
+                Vijaya.</p>
+            <p>% 19 Aug 1035, but this was a Tuesday !!</p>
+            <p>% kr̥ṣṇapakṣa 13 bhadra 957 = 3 Sep 1035, Wed; māsy asita ?</p>
+            <p>% 957 māgha śukla 13 would be 14 Jan 1036 Wed</p>
+            <p>%<hi rend="check">WEST</hi></p>
+            <p n="29" rend="stanza">Then in the Śaka year 959, on the 8th of the waxing fortnight of
+                the month of Kārtika, on Thursday, seized by his own forces by the stratagems of
+                Viṣṇugupta, king Vijayavarman at once went to heaven.</p>
+            <p>% Reading the data as mukhaśararandhra, the date is verifiable: 20 Oct. 1037,
+                Thursday. With Kern's reading muniśararandhra, the weekday is a Sunday.</p>
+            <p>% need note on Viṣṇugupta's = Kauṭalya's stratagems (sāman, dāna, bheda, daṇḍa)</p>
+            <p>AŚ 2.10.47ff.</p>
+            <p>On this stanza, see Boechari 1968: 13: n. 8.</p>
+            <p>
+                <hi rend="check">NORTH ?</hi>
+            </p>
+            <p n="30" rend="stanza">In the Śaka year 959, on the 15th of the waning fortnight of
+                Kārtika, on Thursday, having placed his foot on the head of his enemy, the
+                illustrious king of the island of Java is victorious, sitting on the bejewelled
+                lion-throne.</p>
+            <p>% 10 Nov 1037, Thursday</p>
+            <p n="31" rend="stanza">Royal Majesty is now unable to look at anyone else as, pressing
+                with her fair arms, she tightly embraces Jalalaṅgadeva, who has conquered the
+                directions beginning with the East, who has killed all his enemies, and who is the
+                single parasol-bearer of the earth.</p>
+            <p>
+                <hi rend="check">digvijaya starting in the East: like in the Raghuvaṁśa</hi>
+            </p>
+            <p n="32" rend="stanza">Having defeated his (wordly) enemies by heroic acts and also by
+                stratagems, (flowing forth) from the wealth of his valour, (as well as the spiritual
+                ones) by observance of vows unimpaired thanks to his power or by worshipping
+                        deities,<note><hi rend="check">Cf. st. XVI on śaktipāta.</hi></note> to
+                enjoy himself when a <hi rend="check">great weariness</hi> is born in him, His
+                Majesty, the king called Nīralaṅga, founds a holy hermitage on the flank of the
+                majestic Pūgavat mountain / which has betel-nut trees.</p>
+            <p n="33" rend="stanza">Those who hear about this peerless royal hermitage, which
+                resembles the Nandana grove, they too, going there continuously, vying with each
+                other, their motionless / fixed with wonder, causing joy with garlands, their mouths
+                shouting praises, considering him to be the foremost of kings, the lord of the
+                high-minded / highly esteemed — they say he is to be venerated as Manu because of
+                his majesty.</p>
+            <p n="34" rend="stanza">May the collective of citizens walk on the path of good people,
+                may the course of ministers be dharmic, [may] the sages desire the welfare of beings
+                — I do not pray like this. They succeed as long as that king lives and protects the
+                earth righteously, therefore may the king His Majesty Jalalaṅgadeva live long!</p>
+            <p n="1–2"> Hail! Elapsed Śaka year 963, month of Kārttika, tenth
+                    <foreign>tithi</foreign>, waxing fortnight, (day in the 5-day week being)
+                Hariyaṅ, (in the 6-day week) Vagai, Friday, (the Vuku being) Vayaṅvayaṅ (i.e., the
+                6th of November 1041 CE), the <foreign>caragraha</foreign> residing in the
+                North-West, the lunar mansion Uttarabhadravāda, the deity Ahirbudhna, the
+                conjunction Bajra, the <foreign>karaṇa</foreign> Garaḍi, the
+                    <foreign>maṇḍala</foreign> being western.<note>On the conversion of this date,
+                    see Damais 1955: 66–67 and Eade &amp; Gislén 2000: 75, 146–147. Damais converted
+                    the date to Friday the 6th of November 1041. There is no indication of any
+                    problems under the entry for this inscription itself, but we learn much further
+                    on in his study (1955: 184) that to arrive at his result, he had to assume the
+                    occurrence of intercalation in the Śaka year 963. For reasons about which we are
+                    in the dark, Damais failed to mention this important fact under the inscription
+                    in question. The chart shown by Eade &amp; Gislén shows that all calendrical and
+                    cyclical elements are in place if one assumes intercalation which implies that
+                    the inscription’s ‘Kārttika’ may be equated to ‘Mārgaśīrṣa’ in the Indian
+                        <foreign>pañcāṅga</foreign> ‘calender with five elements’ based on the
+                    Sanskrit astronomical treatise <foreign>Sūryasiddhānta</foreign> (De Casparis
+                    1978: 7, 23, 53).</note></p>
+            <p n="2–4"> That was the time that the decree of the Great King Raka of Halu (named) Śrī
+                Lokeśvara Dharmavaṅśa Airlaṅga Anantavikramottuṅgadeva was received by the lord
+                Great Minister of Hino (named) Śrī Samaravijaya Dhāmasuparṇavāhana Təguh
+                Uttuṅgadeva, coming down to the lord of Kanuruhan (named) <foreign>pu</foreign>
+                Dharmamūrti Narottama Dānaśūra, ordering with regard to Pucaṅan, Barahəm [and]
+                Bapuri, that the lands of the <foreign>varga apiṅhe</foreign><note>The term
+                        <foreign>(a)piṅhe</foreign> is discussed by Boechari 2012: 41–42, who shows
+                    that it is a synonym of <foreign>patih</foreign>; he mentions that the
+                    Kamalagyan inscription (959 Śaka) uses <foreign>varga patih</foreign> where we
+                    have <foreign>varga apiṅhe</foreign>, but does not give any interpretation of
+                    what <foreign>varga apiṅhe/patih</foreign> would mean. <hi rend="check">Boechari refers to Pigeaud, 1960–63, III, p. 149; IV, p. 385; 468).
+                        CHECK.</hi></note> ... be demarcated, for them to be proper to serve as the
+                location of the Great King’s foundation for hermits.</p>
+            <p n="4–13"> The occasion was that the Great King had had a prayer in view of a desire
+                at the time of the disaster on the island of Java in the [year of the] Śaka era 939,
+                due to the attack of the king of Vuravari who came out of Lva Rām. At that time, the
+                whole of Java resembled one great sea. Many distinguished men died. First and
+                foremost did die at that time the late Great King who rests at the holy temple
+                foundation in Vvatan. It was in the month of Caitra of the [year of the] Śaka era
+                939. The Great King was still a child at that time. In fact he was sixteen years of
+                age. He was not very experienced in battle, because he was still young. He was not
+                at ease at quickly grasping the ways of handling his weapons. But because he was
+                manifestly an incarnation of Viṣṇu, he was the protégé of all the gods, destined not
+                to be among those who succumbed to the force of the great disaster, as he stayed on
+                the slope of the Vanagiri, conversing with the ascetics of pure conduct [and] being
+                accompanied by his servant, whose mind had focused dedication as his bodily services
+                were skilled [and] as he was bowed in devotion to the dust on slippers of the Great
+                King. His name was Pu Narottama. He was the foremost of the servants of the Great
+                King extraordinary in the steadfastness of his devotion, who followed inseparably to
+                the Great King’s every destination, wearing bark garments like the Great King, and
+                accompanying him in taking all the types of food<note>Or: ‘taking the same types of
+                    food...’.</note> of monks and forest-dwellers. The Great King was never
+                negligent in the propitiation of the gods by day and by night. It was the reason of
+                the great weight of the love of all the gods for his the Great King, so that he
+                became their confidant [in the form of] a wish tree to give the world shade, to
+                succeed to his paternal lineage (<foreign>kulit kaki</foreign>) in owning Royal
+                Fortune, to refresh the constant well-being (<foreign>sāśvatā</foreign>) of the
+                world, to restore all holy foundations, [and] to destroy the evil powers
+                    (<foreign>hanitu</foreign>) of the world. Such was the intention of all the gods
+                concerning the Great King.</p>
+            <p n="13–15"> The Great King had already undergone due rites, was installed on the lion
+                throne, and, insofar as it was the appanage (<foreign>kapadasthān</foreign>) of the
+                Great King’s great-great-grandfather (<foreign>pituṅ</foreign>), the deified king
+                    (<foreign>haji devatā</foreign>) who rests at Īśānabajra, Halu (also) was the
+                appanage of the Great King,<note>On <foreign>pitu/pituṁ</foreign>, see Boechari
+                    1962: 79, n. 44, and pages 80–82. Like Boechari, <hi rend="check">Kern (VG VII,
+                        p. 114) also suggests connection of the toponym Īśānabajra with Sindok. Kern
+                        already refers to the colophon in Saṅ Hyaṅ Kamahāyānikan lontar, and to
+                        Deśavarṇana 20.1, but it seems he doesn’t discuss the issue that Sindok
+                        seems here to be associated with Halu, whereas elsewhere he is associated
+                        mainly/only with Hino.</hi></note> which was why the title Lord
+                    (<foreign>raka</foreign>) of Halu Śrī Lokeśvara Dharmavaṅśa Airlaṅga
+                Anantavikrama Uttuṅgadeva was accorded to the Great King by the masters of the
+                Buddhists, Śaivas and Mahābrāhmaṇas in [the year of the] Śaka era 941.</p>
+            <p n="15–20"> The way in which the Great King carried out all intentions of all the gods
+                with regard to him knew no limits. All together the external and internal rites were
+                performed by him.<note><hi rend="check">See our lexicographical notes on the base
+                            <foreign>kalimbaṅ</foreign>.</hi></note> His attention was not diverted
+                from the performance of worship, ... expiation ..., the great weight of his
+                Lion-Lordship. He subdued all of the stains that grow on ... of the gods, [and] all
+                of the evil powers that the island of Java has. Division ... foe ... called Śuvukal,
+                the royal son in-law (<foreign>mantu haji</foreign>) established at Kaṭula, and
+                Laḍiṅ ... complete ... by the Great King, all the more so the king(s)
+                    (<foreign>haji</foreign>) of the middle<note>It is tempting to connect these
+                        <foreign>haji <hi rend="bold">tṅaḥ</hi></foreign> ‘kings in the middle’ with the
+                        <foreign>parad[āra]putra hyaṁ ma(ṅ)adg (i v)uru tum(u)ṁgal (i)
+                            <hi rend="bold">maddhya</hi>deśaniṁ vurahan</foreign> who appear in line
+                    20.</note> ... ten years that he reigned, and were his companions (or:
+                opponents) when meeting in battle formations ... killed in the outer courtyard
+                together with his/their mother(s) in [the year of the] Śaka era 951 ... the Great
+                King went to seek out the sons of other wives (<foreign>paradāraputra</foreign>) of
+                the deified one who used to reign at Vuru Tumuṅgal in the middle country of
+                        Vurahan.<note><hi rend="check">Maybe Vurahan = Vuravan (as in the Sima
+                        Anglayang inscr., Mula-Malurung) = Vuravari?</hi></note></p>
+            <p n="20–26"> Exceedingly powerful and brave, he defeated the King of Vəṅkər. Nine were
+                the kings who faced him together with the King of Vəṅkər. Still
+                    (<foreign>ata</foreign>) they were defeated by the Great King in [the year of
+                the] Śaka era 952 and immediately the evil powers of ... left his kingdom and again
+                settled a palace in Ləca,<note>The suspected subject of this sentence is the king of
+                    Vəṅkər.</note> being followed by the country of Galuh and the country of Barat,
+                when they were assailed and attacked in [the year of the] Śaka era 953, by the Great
+                King. And there was a son of the King of Vəṅkər who reigned at Vuru Rətu (?). He
+                died due to the Great King. In [the year of the] Śaka era 954,<note>We presume that
+                    the date 954 goes with what follows, because the Sanskrit text (st. XXVI) dates
+                    to the same year an event involving a woman, who can hardly be identified with
+                    the <foreign>putra</foreign> mentioned in the clause before that which opens
+                    with <foreign>pjaḥ</foreign>.</note> all of the people of Laṅḍiṅ Rāk and of
+                Hirəṅhirəṅan, due to their attacking (? <foreign>iṅ maṅdon</foreign>), along with
+                those who were plotting for death and the next world of the gods<note>On the words
+                    used here, and the problem of what they mean, see n. <hi rend="check">187</hi>.</note> ... hitting with arrows (?) ... by the Great King. The king
+                of Vuravari too, even his demise was orchestrated by the Great King orchestrated.
+                The Great King resisted tenaciously together with the lord of Kanuruhan, Pu
+                Narottama (and with) the lord of Kuniṅan, Pu Nīti, at the time that the Great King
+                was in ... In short, the Great King was the cause of the demise of all the evil
+                powers that Yavadvīpa had.</p>
+            <p n="26–30"> As for the manner in which the King of Vəṅkər perished because of his the
+                Great King, originally his palace was in Kapaṅ. He <foreign>naṅ</foreign>
+                    (?),<note>We don’t understand the word <foreign>naṅ</foreign> unless it can be a
+                    functional equivalent to <foreign>ta</foreign>.</note> his land was consistently
+                    (<foreign>pratiniyata</foreign>) disturbed by the Great King every month of
+                        Asuji.<note><hi rend="check">TRY TO CONFIRM KERN’S CLAIM (V.G. VIII: 109 n.
+                        4) THAT THIS IS AN ALLUSION TO THE DRY SEASON, SUITABLE FOR WARFARE. See
+                        email from Jiri.</hi></note> And in [the year of the] Śaka era 957, he was
+                completely dissolved, when he was defeated at Kapaṅ by the Great King.<note>The
+                    reading and the word division of the sequence vvayata is very uncertain. If
+                    indeed it must be read and divided vvay ata, the basic meaning is ‘just water’,
+                    and we would imagine a connection with the metaphor for destruction implicit in
+                    the word <foreign>pralaya</foreign> used elsewhere in this text for Airlaṅga’s
+                    own troubles.</note> He tried to hide, looking for an unassailable country,
+                abandoning sons, wives, even royal property, royal vehicles and suchlike.
+                Subsequently, in [the year of the] Śaka era 959, the king of Kapaṅ had enough of
+                hiding along with all of the troops loyal to him. He was allowed to ...,<note>We
+                    translate <foreign>kavnaṅ</foreign> here differently from the occurrence in line
+                    21, because in the present situation the subject of the verb form is already
+                        <foreign>kaparājaya</foreign> ‘defeated’ (lines 27–28). The passage that
+                    follows after <foreign>kavnaṅ ta sira</foreign> up to
+                        <foreign>pinakatapakan</foreign> cannot be interpreted, but the fact that
+                    Brandes and Kern read <foreign>ratu</foreign> suggest that the King of Vəṅkər
+                    was given the privilege of becoming Airlaṅga’s vassal king — could an expression
+                    like <foreign>ratu sāmanta</foreign> (= Sanskrit <foreign>sāmantarāja</foreign>
+                    ‘vassal king’, see OJED s.v. <foreign>sāmanta</foreign>) be restored in the
+                    problematic passage?</note> ... His head was the Great King’s footstool
+                    (<foreign>tapakan</foreign>) when he was seated with pendant legs on the Lion
+                Throne.</p>
+            <p n="30–44"> The disaster on the island of Java has been summarized. The war ended.
+                There was no doubt in the minds of the people, as they took shelter, using as refuge
+                the shadow of the sandals of the Great King. This is the reason why he fulfilled his
+                        promise<note><hi rend="check">See comparable passage re.
+                            <foreign>pratijñā</foreign> in the Baru and Terep
+                    inscriptions.</hi></note> by quickly, swiftly carrying out the meritorious work
+                    (<foreign>yaśa</foreign>) [of founding] the hermitage at Pucaṅan. It was like
+                the Great King’s permanent homage with mantras and eulogies to the Lord and was to
+                be evidence for the people, first of all the future kings, thereafter in the
+                future’s future, regarding the specifics (<foreign>krama</foreign>) of the manner of
+                Great King’s reviving the constant well-being of the whole island of Java. For all
+                of the former (<foreign>anādi</foreign>) kings were served on the island of Java ...
+                character ... by them, and they obtained all of their merit
+                (<foreign>hayu</foreign>) from the past. The Great King was not like that at all ...
+                and the Great King’s intention that be beautiful<note>We are unable to verify the
+                    reading <foreign>mayva</foreign> published by Brandes and Kern. Taking this
+                    uncertain reading at face value, we see no other way but to interpret it as a
+                    form derived from <foreign>hayu</foreign>, though it will be surprising if our
+                    text really spells <foreign>maywa</foreign> for what would be
+                        <foreign>mahayva</foreign> in contemporary texts. See the Baru inscription,
+                    face A, line 16: <foreign>yāvat s<choice><orig>a</orig><reg>ā</reg></choice>dhanāniṅ amahayvaṅ bhuvana donanya</foreign>
+                    ‘insofar as the means for realizing the beautification of the world was its
+                    aim’.</note> the villages of the group ... called Hino ... royal property: 1
+                    <foreign>suvarṇa</foreign> of gold. ... of the meritorious work [of founding]
+                the hermitage at Pucaṅan. The lands of Pucaṅan, of Barahəm (and) of Bapuri, cease
+                ... The holy hermitage foundation at Pucaṅan may not be entered by the servants of
+                the three dignitaries — Paṅkur, Tavan, Tirip — nor by the dependents of
+                    chiefs,<note>On the meaning of <foreign>nāyakapratyaya</foreign>, see De
+                    Casparis 1956: 19. Although the Dutch scholar did not interpret it as a
+                    compound, the close conjunction with the term <foreign>hājipratyaya</foreign> in
+                    the Old Malay inscription he was studying suggests that
+                        <foreign>nāyakapratyaya</foreign> could be a compound as well; the fact,
+                    mentioned in our note above (n. <hi rend="check">XX</hi>), that the words are
+                    not normally separated by a punctuation sign points in the same
+                    direction.</note> [such as]: Piṅhais, Vahutas, elders, and any one who enjoys
+                usufruct of royal property ... ... fines on offenses,<note>On the
+                        <foreign>sukhaduḥkha</foreign>, see Boechari 2012: 39–41, esp. p. 40:
+                        “<foreign>sukhaduḥkha</foreign> bukanlah ‘suka dan duka’, melainkan
+                    diterangkan dengan <foreign>hala hayu</foreign>, ialah segala perbuatan yang
+                    buruk dan yang baik yang terjadi dalam masyarakat, atau seperti yang dimaksudkan
+                    di dalam setiap prasasti, yang terjadi dalam lingkungan daerah perdikan. Bahkan
+                    sebenarnya hanya perbuatan yang jahat saja yang dimaksudkan. Dengan perkataan
+                    lain, <foreign>sukhaduḥkha</foreign> ialah segala tindak pidana (yang terjadi di
+                    dalam lingkungan daerah perdikan) yang harus dikenai hukuman denda.” Boechari
+                    seems to allude to a normative text that gave the explanation <foreign>hala
+                        hayu</foreign>, but we haven’t yet been able to identify the text in
+                    question. For translations of the individual terms, see Boechari 2012: 309–310
+                    (Indonesian) and 510 (English).</note> of whatever kind ... up to the limits of
+                the lands of the holy hermitage foundation at Pucaṅan ... those who enjoy the
+                usufruct of royal property: the Vulu-vulus and ... whatever be their kinds. The holy
+                hermitage foundation at Pucaṅan would be wiped out if Brāhmaṇas, Kṣatriyas, Vaiśyas,
+                Śūdras, outcasts, dependents of chiefs, Piṅhais, Vahutas, elders ... would meddle
+                with the independence of the holy hermitage foundation at Pucaṅan along with
+                [everything] up to the limits of the lands of the ... of Hino ... the holy hermitage
+                foundation.</p>
+            <p n="44–46"> So therefore they will undergo the consequences of their action. The
+                (consequences of the) Five Major Sins are their lot. ... calligrapher to his Majesty
+                the Great King ... the holy royal decree (in the form of an) edict.</p>
+        </div>
+        <div type="bibliography">
+<p>...</p>
+          <listBibl type="primary">
+            <bibl n="K">
+                <ptr target="bib:Kern1885_01"/>
+            </bibl>
+            <bibl n="B">
+              <ptr target="bib:Brandes1913_01"/>
+              <citedRange unit="item">62</citedRange>
+              <citedRange unit="page">137-140</citedRange>
+            </bibl>
+            <bibl n="K">
+              <ptr target="bib:Kern1917_17"/>
+              <citedRange unit="page">85-114</citedRange>
+            </bibl>
+            <bibl n="P">
+              <ptr target="bib:Poerbatjaraka1941_01"/>
+              <citedRange unit="page">424-437</citedRange>
+            </bibl>
+<bibl n="K"><ptr target="bib:DamaisPucangan_01"/></bibl>
+          </listBibl>
+          <listBibl type="secondary">
+             <bibl><ptr target="bib:Kern1885_04"/></bibl>
+            <bibl><ptr target="bib:Verbeek1891_01"/><citedRange unit="page">9, 224-225</citedRange><citedRange unit="item">441</citedRange></bibl>
+            <bibl><ptr target="bib:NBG47_1909"/><citedRange unit="page">177, 180-182</citedRange></bibl>
+            <bibl><ptr target="bib:NBG49_1911"/><citedRange unit="page">142</citedRange></bibl>
+            <bibl><ptr target="bib:ROC1911"/><citedRange unit="page">55</citedRange><citedRange unit="item">548</citedRange></bibl>
+            <bibl><ptr target="bib:Krom1911_01"/><citedRange unit="page">249</citedRange></bibl>
+            <bibl><ptr target="bib:Krom1913_01"/><citedRange unit="page">585-591</citedRange></bibl>
+            <bibl><ptr target="bib:Kern1913_03"/></bibl>
+            <bibl><ptr target="bib:OV1913"/><citedRange unit="page">8</citedRange><citedRange unit="item">1514</citedRange></bibl>
+            <bibl><ptr target="bib:ROD1915"/><citedRange unit="page">251–254</citedRange><citedRange unit="item">1834</citedRange></bibl>
+            <bibl><ptr target="bib:OV1918"/><citedRange unit="page">80, 82-83</citedRange></bibl>
+            <bibl><ptr target="bib:KKrom1931_01"/><citedRange unit="page">239, 254, 259, 268-269</citedRange></bibl>
+            <bibl><ptr target="bib:Stutterheim1937_01"/><citedRange unit="page">406-410</citedRange></bibl>
+            <bibl><ptr target="bib:Berg1938_02"/><citedRange unit="page">49-64</citedRange></bibl>
+            <bibl><ptr target="bib:TBG81_1941"/><citedRange unit="page"> 424-437</citedRange></bibl>
+            <bibl><ptr target="bib:Damais1952_01"/><citedRange unit="page">64-65</citedRange><citedRange unit="item">A. 141</citedRange></bibl>
+            <bibl><ptr target="bib:Damais1955_01"/><citedRange unit="page">66-67</citedRange><citedRange unit="item">A. 141</citedRange></bibl>
+            <bibl><ptr target="bib:MuhammadYamin1962_01"/><citedRange unit="page">189-204</citedRange></bibl>
+            <bibl><ptr target="bib:Boechari1968_01"/><citedRange unit="page">7, 10, 12–15</citedRange></bibl>
+            <bibl><ptr target="bib:NurhadiMagetsari+al1979_01"/><citedRange unit="page">213-214</citedRange></bibl>
+            <bibl><ptr target="bib:Boechari1990_01"/><citedRange unit="page">129</citedRange></bibl>
+            <bibl><ptr target="bib:Eade+Gislen2000_01"/><citedRange unit="page">75–36</citedRange></bibl>
+            <bibl><ptr target="bib:BudiSantosaWibowo2001_01"/><citedRange unit="page">4</citedRange></bibl>
+            <bibl><ptr target="bib:NinnySusantiTejowasono2003_01"/><citedRange unit="page">406-418, 445-456</citedRange></bibl>
+          </listBibl>
+    </div>
+</body>
+    </text>
+</TEI>

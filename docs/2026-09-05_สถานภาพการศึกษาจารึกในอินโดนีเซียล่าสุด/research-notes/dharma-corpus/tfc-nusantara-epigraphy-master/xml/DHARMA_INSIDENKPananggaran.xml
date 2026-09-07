@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pananggaran (791 Śaka)</title>
+               <respStmt>
+                <resp key="contributor">EpiDoc Encoding</resp>               
+                    <persName ref="part:argr">
+                       <forename>Arlo</forename>
+                       <surname>Griffiths</surname>
+                    </persName>
+                 </respStmt>
+                 <respStmt>
+                    <resp key="creator">intellectual authorship of edition</resp>
+                    <persName ref="part:argr">
+                       <forename>Arlo</forename>
+                       <surname>Griffiths</surname>
+                    </persName>
+                 </respStmt>
+              </titleStmt>
+              <publicationStmt>
+                 <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                 <pubPlace>Paris</pubPlace>
+                 <idno type="filename">DHARMA_INSIDENKPananggaran.xml</idno>
+                 <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                            <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+        <revisionDesc>
+            <change who="part:argr" when="2024-09-23" status="draft">encoded the inscription</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="kaw-Latn" rendition="class:38769 maturity:83213">
+            <p><lb n="1"/>I panaṅgaran· 
+                <lb n="2"/><g ref="sym:doubleBar" type="punctuation">.</g><!-- double forward slash, the second with long descender --> svasti śaka-var<choice><sic>p</sic><corr>ṣ</corr></choice>ātīta <num value="791">791</num> bhadravāda<lb break="no" n="3"/>-māsa caturthī śukla-pakṣa mavulu pon·
+                <lb n="4"/>soma-vāra</p> <p>tatkāla <abbr>rakyān·</abbr> viku paḍaṁ
+                <lb n="5"/>lvar· pu manoharī Ibu ra<unclear>ke</unclear> pad<choice><sic>ī</sic><corr>ə</corr></choice>laggan·
+                <lb n="6"/>Anak· saṁ devata I taṅar· manusuk· ḍa<lb break="no" n="7"/>vuhan· I panaṅgaran· UAiyaniṁ tgal·ni<lb break="no" n="8"/>kanaṁ parhyaṅan· Iṁ ti<choice><sic>v</sic><corr>g</corr></choice>a haryyan· marhyaṁ Iri<lb break="no" n="9"/>kanaṁ kāla ḍaṁṅ ācāryya vimaleśvara Anak·
+                <lb n="10"/>vanva I muṅgv antan· vatak tira vinaiḥhan· I<lb break="no" n="11"/>kanaṁ vanva I panaṅgaran· vyavastha mas· <abbr>mā</abbr> <num value="4">4</num></p>
+                <p><lb n="12"/>kunaṁ yan· halaṁ-halaṁṅanna Ikanaṁ vuAtta<lb break="no" n="13"/>n· tan· Asiḥnya ryy avak·nya lavan· Ana<lb break="no" n="14"/>k·nya putunya</p> <p>likhita saṁ pucaṁṅan· <g ref="sym:doubleBar" type="punctuation">.</g><!-- two slighly back slanting bars --></p>
+         </div>
+         <div type="apparatus">
+            <!-- 
+2. -varpātīta: -varṣa tīta -varsātīta PAY. Emend -varṣātīta.
+5. lvar· : lpar PAY.
+5. manoharī: manoha riṁ PAY.
+5. padīlaggan·: padəlaggan PAY (silent em.?). Emend padəlaggan· as in Sumuṇḍul.
+7. U(v)veya: veya PAY. Understand /wweya/, irrealis of OJED wwai.
+7–8. tgal·nikanaṁ: tgal ri kanaṁ PAY.
+8. kiva: tiva PAY. Emend tiga as in Sumuṇḍul.
+8–9. Irikanaṁ: i ri kaṁ PAY.
+10–11. Ikanaṁ: I kunaṁ PAY.
+11. vyavas(th)a: vyavatha PAY.
+13. Asiḥnya ryy avak·nya: Asih nyayya vakanya PAY.
+            -->
+            <listApp>
+            <app loc="2">
+                <lem>-var<choice><sic>p</sic><corr>ṣ</corr></choice>ātīta</lem>
+                <rdg source="bib:RiboetDarmosoetopo+TjahjonoPrasodjo2003_01">-varsātīta</rdg>
+                <rdg source="bib:RiboetDarmosoetopo+al2007_01">-varṣa tīta</rdg>
+            </app>
+            <app loc="5">
+                <lem source="bib:RiboetDarmosoetopo+TjahjonoPrasodjo2003_01">lvar·</lem>
+                <rdg source="bib:RiboetDarmosoetopo+al2007_01">lpar·</rdg>
+            </app>
+            <app loc="5">
+                <lem>manoharī</lem>
+                <rdg source="bib:RiboetDarmosoetopo+TjahjonoPrasodjo2003_01 bib:RiboetDarmosoetopo+al2007_01">manoha riṁ</rdg>
+            </app>
+            <app loc="5">
+                <lem>pad<choice><sic>ī</sic><corr>ə</corr></choice>laggan·</lem>
+                <rdg source="bib:RiboetDarmosoetopo+TjahjonoPrasodjo2003_01">padəlaggan·</rdg>
+                <rdg source="bib:RiboetDarmosoetopo+al2007_01">padələggan·</rdg>
+            </app>
+            <app loc="7">
+                <lem>UAiyaniṁ</lem>
+                <rdg source="bib:RiboetDarmosoetopo+TjahjonoPrasodjo2003_01 bib:RiboetDarmosoetopo+al2007_01">veyaniṁ</rdg>
+            </app>
+            <app loc="7">
+                <lem source="bib:RiboetDarmosoetopo+TjahjonoPrasodjo2003_01">tgal·ni<lb break="no" n="8"/>kanaṁ</lem>
+                <rdg source="bib:RiboetDarmosoetopo+al2007_01">tgal· ri<lb break="no" n="8"/>kanaṁ</rdg>
+            </app>
+            <app loc="8">
+                <lem>ti<choice><sic>v</sic><corr>g</corr></choice>a</lem>
+                <rdg source="bib:RiboetDarmosoetopo+TjahjonoPrasodjo2003_01 bib:RiboetDarmosoetopo+al2007_01">tiva</rdg>
+                <note>The correction is required by the parallel passage in <ref target="DHARMA_INSIDENKSumundul">Sumundul</ref> and the synonymy with the eponymous toponyms in <ref target="DHARMA_INSIDENKTigaRon-TeluRon">Tiga/Təlu Ron</ref>.</note>
+            </app>
+            <app loc="8">
+                <lem source="bib:RiboetDarmosoetopo+TjahjonoPrasodjo2003_01">Iri<lb break="no" n="9"/>kanaṁ kāla</lem>
+                <rdg source="bib:RiboetDarmosoetopo+al2007_01">Iri<lb break="no" n="9"/>kaṁ kāla</rdg>
+            </app>
+            <app loc="10">
+                <lem source="bib:RiboetDarmosoetopo+TjahjonoPrasodjo2003_01">I<lb break="no" n="11"/>kanaṁ vanva</lem>
+                <rdg source="bib:RiboetDarmosoetopo+al2007_01">I<lb n="9"/>kunaṁ vanva</rdg>
+            </app>
+            <app loc="11">
+                <lem>vyavastha</lem>
+                <rdg source="bib:RiboetDarmosoetopo+TjahjonoPrasodjo2003_01 bib:RiboetDarmosoetopo+al2007_01">vyavatha</rdg>
+            </app>
+            <app loc="13">
+                <lem>Asiḥnya ryy avak·nya</lem>
+                <rdg source="bib:RiboetDarmosoetopo+TjahjonoPrasodjo2003_01">Asiḥ nyayyavak·nya</rdg>
+                <rdg source="bib:RiboetDarmosoetopo+al2007_01">Asiḥ nyayyavaknya</rdg>
+            </app>
+        </listApp>
+        </div>
+         <div type="translation" resp="part:argr">
+ 	<p n="1">Panaṅgaran</p>
+     <p n="1-4">Hail! Elapsed Śaka year 791, month of Bhadravāda, 
+        fourth <supplied reason="subaudible"><foreign>tithi</foreign></supplied> of the waxing
+        fortnight, Mavulu (of the 6-day cycle), Pon (of the 5-day cycle), Monday
+        <supplied reason="explanation">i.e., on 15 August 869 CE</supplied>.</p>
+        <p n="4-11">That was when the Lady priestess of Paḍaṅ North, <supplied reason="explanation">called</supplied> <foreign>pu</foreign> Manoharī, mother of the Lord of Padələgan, child of the deified ancestor at Taṅar, demarcated the dam of Panaṅgaran, for the watering of the fields of the sanctuary at Triple Leaf. The temple manager at the time, <foreign>ḍaṅ ācārya</foreign> Vimaleśvara, native of Muṅgv Antan, district Tira, was given the village of Panaṅgaran. The arrangement was 4 <foreign>māṣa</foreign>s of gold.<note>Or is the meaning: <q>The temple manager at the time was <foreign>ḍaṅ ācārya</foreign> Vimaleśvara, native of Muṅgv Antan, district Tira. To the village of Panaṅgaran was given as arrangement 4 <foreign>māṣa</foreign>s of gold</q>?</note></p>
+        <p n="12-14">Now should the bridge <supplied reason="explanation">? <foreign>vuattan</foreign></supplied> be obstructed, it is his unkindness to himself and to his children <supplied reason="subaudible">as well as</supplied> grandchildren.</p>
+        <p n="14">Written by <foreign>saṅ</foreign> Pucaṅan.</p>
+         </div>
+        <!-- <div type="commentary">
+            <p n="10"></p>
+            </div> -->
+        <div type="bibliography">
+           <p>First edited in <bibl><ptr target="bib:RiboetDarmosoetopo+TjahjonoPrasodjo2003_01"/></bibl>; edited again, somewhat differently, in <bibl><ptr target="bib:RiboetDarmosoetopo+al2007_01"/></bibl> (whence reproduced in <bibl><ptr target="bib:RiboetDarmosoetopo+al2015_01"/></bibl>). Re-redited here by Arlo Griffiths from direct inspection of the stone and photographs.</p>
+        	<listBibl type="primary">
+                <bibl n="RD+TP"><ptr target="bib:RiboetDarmosoetopo+TjahjonoPrasodjo2003_01"/></bibl>
+                <bibl n="PAY"><ptr target="bib:RiboetDarmosoetopo+al2007_01"/><citedRange unit="page">30-33</citedRange></bibl>
+			</listBibl>
+           <listBibl type="secondary">
+            <bibl><ptr target="bib:RiboetDarmosoetopo+al2015_01"/><citedRange unit="page">30-32</citedRange></bibl>
+            <bibl><ptr target="bib:TitiSurtiNastiti+al2024_01"/><citedRange unit="page">...-...</citedRange><citedRange unit="section">2.2.15</citedRange></bibl>
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
+<!-- 
+
+-->

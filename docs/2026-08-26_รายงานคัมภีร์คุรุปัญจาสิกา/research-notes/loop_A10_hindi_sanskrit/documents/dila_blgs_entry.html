@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta charset="utf-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>DILA Glossaries for Buddhist Studies</title>
+<link rel="stylesheet" href="/assets/application-d68b6a4638e8f391b85015821b812f4bf03b434097c3612ad7caf683dfe0b292.css" media="all" data-turbolinks-track="true" />
+<script src="/assets/application-7562541eccfb4c05a0d663c385c682ceee88638c6e22d4acb20e6b6c2fb8c355.js" data-turbolinks-track="true"></script>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="mfKSXGBGpVGzhfixR0VIOQlNFOqPQIfUA3gGCqbcxu7wmZcHwxcZxUJldWackJMDlNZF4RvBxdmInciVeQ0B_Q" />
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-1P37ZMLJKQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1P37ZMLJKQ');
+</script>
+</head>
+<body>
+<div class="container">
+<!-- Static navbar -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/?locale=en">DILA Glossaries</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/glossaries?locale=en">Download</a></li>
+        <li><a href="/search?locale=en">Search</a></li>
+        <li><a href="/api?locale=en">API</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/faq?locale=en">FAQ</a></li>
+          <li><a href="/search?locale=zh-TW">繁體中文</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container-fluid -->
+</nav>
+<div>
+  <form action="/search?locale=en" accept-charset="UTF-8" method="get">
+    <input type="hidden" name="locale" id="locale" value="en" autocomplete="off" />
+    <input type="text" name="term" id="term" value="BLGS" />
+    <input type="submit" name="commit" value="Search" data-disable-with="Search" />
+    <input type="checkbox" name="search_outside" id="search_outside" style="width: 20px; height: 20px;" />搜尋外部詞典
+</form>  <br/>
+    <ul class='list-group'>
+      <li class='list-group-item'>
+        <p class='glossary_name'>
+            Tibskrit Philology
+        </p>
+        <p class='headword'>BLGS</p>
+        <p>Janardan Pandey (Janārdanapāṇḍeya), ed., Bauddhalaghugranthasaṅgraha (A Collection of Minor Buddhist Texts), Rare Buddhist Texts Research Project, Rare Buddhist Texts Series no. 14, Central Institute of Higher Tibetan Studies (Sarnath 1997).</p>
+      </li>
+    </ul>
+</div>
+</div>
+<footer class="container">
+  <p class="text-center"><a href="http://www.dila.edu.tw" target=_new>DILA</a> 2005-2018</p>
+</footer>
+</body>
+</html>
+<script>
+  function search(href) {
+    console.log('search')
+    var url = href
+    console.log(url)
+    var locale = getQueryVariable('locale')
+    if (locale != '') { 
+      url = url + '&locale=' + locale
+    }
+    window.location = url
+  }
+  $( document ).ready(function() {
+    // 連結到該詞典內的某個詞條
+    $('a.term').click( function(e) {
+      search(e.target.href);
+      return false;
+    });
+  });
+</script>

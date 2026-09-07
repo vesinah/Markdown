@@ -1,0 +1,436 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <!--Enable Responsive-->
+    <link rel="stylesheet" type="text/css" href="/css/uikit.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style-en.css" />
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>-->
+    <!--<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>-->
+    <!--<![endif]-->
+    <!--<script type="text/javascript" src="js/jquery.3.4.1.min.js"></script>-->
+    <script src="/scripts/jquery.3.6.min.js"></script>
+    <script type="text/javascript" src="/scripts/timer_en.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.marquee.min.js"></script>
+    <script type="text/javascript" src="/scripts/uikit.min.js"></script>
+    <script type="text/javascript" src="/scripts/uikit-icons.min.js"></script>
+   <script type="text/javascript" src="/scripts/jwplayer/jwplayer.js"></script>
+	<script type="text/javascript">	    jwplayer.key = "5qMQ1qMprX8KZ79H695ZPnH4X4zDHiI0rCXt1g==";</script>
+	<script>
+	    (function(i, s, o, g, r, a, m) {
+	        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() {
+	            (i[r].q = i[r].q || []).push(arguments)
+	        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+	    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+	    ga('create', 'UA-57954684-1', 'auto');
+	    ga('send', 'pageview');
+
+    </script>
+    <script type="text/javascript">
+        goforit();
+    </script>
+    <script type="text/javascript">
+        function Trim(text) {
+            return text1 = (text || "").replace(/^\s+|\s+$/g, "");
+            //return encodeURI(text1);
+        }
+        function CheckValue(o) {
+            if (Trim(o) == 'Search' || Trim(o) == '') {
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+        (function ($) {
+            $(document).ready(function () {
+                $('#btnSearchDefault').click(function () {
+                    var str = $('#txtSearchDefault').val().ReplaceAll("'", "’");
+                    //var str1 = encodeURI(str);
+                    if (CheckValue(str) == true) {
+                        var l = window.location = '/EN/search.aspx?search='.concat(str);
+                        window.location.href = l;
+                    }
+                });
+                $('#btnSearchDefaultMobile').click(function () {
+                    var str = $('#txtSearchDefaultMobile').val().ReplaceAll("'", "’");;
+                    //var str1 = encodeURI(str);
+                    if (CheckValue(str) == true) {
+                        var l = window.location = '/EN/search.aspx?search='.concat(str);
+                        window.location.href = l;
+                    }
+                });
+
+                $('#txtSearchDefault').keypress(function (event) {
+                    var keycode = (event.keyCode ? event.keyCode : event.which);
+                    if (keycode == '13') {
+                        var str = $('#txtSearchDefault').val().ReplaceAll("'", "’");;
+                        //var str1 = encodeURI(str);
+                        if (CheckValue(str) == true) {
+                            var l = window.location = '/EN/search.aspx?search='.concat(str);
+                            window.location.href = l;
+                        }
+                    }
+
+                });
+            });
+        })(jQuery);
+        String.prototype.ReplaceAll = function (stringToFind, stringToReplace) {
+            var temp = this;
+            var index = temp.indexOf(stringToFind);
+            while (index != -1) {
+                temp = temp.replace(stringToFind, stringToReplace);
+                index = temp.indexOf(stringToFind);
+            }
+            return temp;
+        }
+    </script>
+    
+    <title>Lao Traditional Recitation Goes Online</title>
+    <meta name="Description" content="(KPL) The National Library held a workshop to present the results of Documentation of Lao Traditional Recitation project, which it implemented from June to December with the generous support of the German Embassy, Vientiane. ">
+    <meta property="og:url" content="https://kpl.gov.la/detail.aspx?id=56981" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lao Traditional Recitation Goes Online" />
+    <meta property="og:description" content="(KPL) The National Library held a workshop to present the results of Documentation of Lao Traditional Recitation project, which it implemented from June to December with the generous support of the German Embassy, Vientiane. " />
+    <meta property="og:image" content="https://kpl.gov.la" />
+
+
+</head>
+
+<body>
+
+    <header id="header">
+        <!-- Header -->
+        <section class="uk-visible@s m-banner">
+            <h1 class="uk-hidden">Lao News Agency</h1>
+            <a href="/EN">
+                <img src="/images/banner-en.jpg" class="m-banner" alt="Lao News agency" uk-img></a>
+            <div class="uk-container ">
+                <div class="uk-flex uk-flex-between m-container uk-position-top m-border-bottom">
+                    <ul class="uk-navbar-nav m-padding-first-child-left">
+                        <!--<li><a class="uk-navbar-toggle m-height" href="#nav-offcanvas" uk-toggle="">
+                        <span uk-navbar-toggle-icon></span>
+                    </a></li>-->
+                        <li><a href="/" class="m-height">ພາສາລາວ</a></li>
+                        <li><a href="/En" class="m-height uk-text-warning">English</a></li>
+                        <li><a href="/Fr" class="m-height">Français</a></li>
+                    </ul>
+                    <div class="uk-navbar-nav">
+                        <div class="m-text-white m-clock">
+                            
+                            <span id="clock"></span>
+
+                        </div>
+                        <div class="uk-margin-small">
+                            <div class="uk-search uk-search-default m-search-form">
+                                <a style="cursor: pointer" class="uk-search-icon-flip" uk-search-icon id="btnSearchDefault"></a>
+                                <input class="uk-search-input uk-text-small" type="search" placeholder="Search..." id="txtSearchDefault">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="top-hd" uk-sticky="animation: uk-animation-slide-top; bottom: #footer">
+            <div class="uk-position-relative">
+                <div class="top-hd-left uk-position-left uk-flex uk-flex-middle uk-width-auto">
+                    <a class="uk-navbar-toggle uk-padding-remove-left" href="#nav-offcanvas" uk-toggle="">
+                        <span uk-navbar-toggle-icon></span>
+                    </a>
+                </div>
+                <div class="uk-container">
+                    <nav class="nav-hd uk-visible@m" uk-navbar="">
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="/EN"><span uk-icon="home"></span></a></li>
+                            <li><a href='#' class='uk-text-uppercase'>Politics<span class='m-margin-small-left' uk-icon='icon: chevron-down; ratio: 0.7'></span></a><div class='uk-navbar-dropdown uk-margin-remove-top uk-padding-small'><ul class='uk-nav uk-navbar-dropdown-nav'><li><a href = '/En/Page/Politic/partyx.aspx'>Party Congress X</a></li><li><a href = '/En/Page/Politic/laonationalassemblyVIII.aspx'>Lao National Assembly</a></li><li><a href = '/En/Page/Politic/governmentVIII.aspx'>Government</a></li></ul></div></li><li><a href='#' class='uk-text-uppercase'>News<span class='m-margin-small-left' uk-icon='icon: chevron-down; ratio: 0.7'></span></a><div class='uk-navbar-dropdown uk-margin-remove-top uk-padding-small'><ul class='uk-nav uk-navbar-dropdown-nav'><li><a href = '/En/News.aspx?cat=9'>Politics</a></li><li><a href = '/En/News.aspx?cat=10'>Economics</a></li><li><a href = '/En/News.aspx?cat=11'>Education</a></li><li><a href = '/En/News.aspx?cat=12'>Tourism</a></li><li><a href = '/En/News.aspx?cat=13'>General</a></li><li><a href = '/En/News.aspx?cat=31'>World News</a></li><li><a href = '/En/News.aspx?cat=23'>Sports</a></li><li><a href = '/En/News.aspx?cat=34'>ASEAN</a></li></ul></div></li><li><a href='/En/Newspaper.aspx'>Newspaper</a></li><li><a href='/En/Page/OtherLink/OtherLink.aspx'>Others Link</a></li><li><a href='#' class='uk-text-uppercase'>About Us<span class='m-margin-small-left' uk-icon='icon: chevron-down; ratio: 0.7'></span></a><div class='uk-navbar-dropdown uk-margin-remove-top uk-padding-small'><ul class='uk-nav uk-navbar-dropdown-nav'><li><a href = '/En/Page/AboutUs/AboutUs1.aspx'>Background</a></li><li><a href = '/En/Page/AboutUs/AdministrationStructure.aspx 	'>Administration Structure</a></li></ul></div></li><li><a href='/En/Page/ContactUs/ContactUs.aspx'>Contact Us</a></li>
+                        </ul>
+                    </nav>
+                    <div class="logo-hd-mobile uk-hidden@s">
+                        <a href="/">
+                            <img src="/images/logo.png"></a>
+                    </div>
+                </div>
+                <div class="top-hd-right uk-position-right uk-flex uk-flex-middle uk-width-auto">
+                    <ul class="list-control-hd uk-visible@m">
+                        <li class="uk-margin-small-left"><a href="https://www.facebook.com/LaoNewsAgency/"><span uk-icon="facebook"></span></a></li>
+                        <li class="uk-margin-small-left"><a href="https://www.youtube.com/@laonewsagencykpl4951"><span uk-icon="youtube"></span></a></li>
+                    </ul>
+                    <div class="search-hd uk-inline uk-hidden@s">
+                        <button class="uk-button" type="button">
+                            <span class="icon-search m-text-white" uk-search-icon></span>
+                        </button>
+                        <div uk-drop="mode: click; pos: left-center; animation: uk-animation-slide-right-small;">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-search uk-search-default">
+                                    <a class="uk-search-icon-flip" href="" uk-search-icon="" id="btnSearchDefaultMobile"></a>
+                                    <input class="uk-search-input" type="search" placeholder="ຄົ້ນຫາ" id="txtSearchDefaultMobile">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <!-- End header -->
+
+    <form method="post" action="./Detail.aspx?id=56981" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="o1pg9NJfivZ4MiJEFVCCbtQGd2jGPFPRVxBDV5WRQ097GyQts0hmRUZe310tLmyd1C9Y6e4NugNbULq3M0Q+Jnw//Q+FPbdsFbeYPVUtIT8=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="680E1405" />
+</div>
+        <div class="uk-container m-dynamic-page">
+            
+    <main id="main">
+        <!-- Main -->
+        <article class="uk-container">
+            <section class="row-main">
+                <div class="inner-main">
+                    <div uk-grid="">
+                        <div class="uk-width-expand@m uk-width-1-1">
+                            <article class="content-main">
+                                <section class="row-main">
+                                    <div class="m-breadcrumb-cate">
+                                        <ul class="m-breadcrumb-1">
+                                            <li><a href="/">ຫນ້າທຳອິດ</a></li>
+                                            <i class="bi bi-chevron-right"></i>
+                                            <li><a href="/news.aspx?cat=13">General</a></li>
+                                        </ul>
+                                        
+                                    </div>
+                                    <div class="post-entry">
+                                        <div class="post-top-entry">
+                                            <h1>Lao Traditional Recitation Goes Online</h1>
+                                            <div uk-grid="">
+                                                <div class="uk-width-expand@m uk-width-1-1">
+                                                    <span class="post-time uk-text-muted">28/12/2020 15:07</span>
+                                                </div>
+                                                <div class="uk-width-auto@m uk-width-1-1">
+
+                                                    <span><a href="mailto:domnews@kpl.gov.la" class="uk-text-muted"><i class="bi bi-envelope uk-margin-small-right"></i>Email</a></span>
+                                                    <span><a href="javascript:window.print()" class="uk-text-muted"><i class="bi bi-printer uk-margin-small-right"></i>Print</a></span>
+                                                    <span class="uk-text-muted"><i class="bi bi-eye uk-margin-small-right"></i>1945</span>
+
+                                                    <div class="fb-like uk-float-right" data-href="https://kpl.gov.la/detail.aspx?id=56981"
+                                                        data-width=""
+                                                        data-layout="button"
+                                                        data-action="like"
+                                                        data-size="small"
+                                                        data-share="true">
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="post-mid-entry">
+                                            <div uk-grid="">
+                                                <div class="uk-width-auto uk-visible@s uk-margin-small-right">
+                                                    <div class="post-share">
+                                                        <ul uk-sticky="offset: 200; bottom: #end-post-share" class="kpl-control-post">
+
+                                                            <li><a class="uk-text-muted uk-margin-small-bottom" href="mailto:domnews@kpl.gov.la" target="_self" rel="noopener" uk-tooltip="Email" title="" aria-expanded="false"><i class="bi bi-envelope-fill"></i></a></li>
+                                                            <li><a class="uk-text-muted uk-margin-small-bottom" href="javascript:window.print()" target="_blank" uk-tooltip="Print" title="" aria-expanded="false"><i class="bi bi-printer-fill"></i></a></li>
+                                                            <li>
+                                                                <div class="fb-like" data-href="https://kpl.gov.la/detail.aspx?id=56981"
+                                                                    data-width=""
+                                                                    data-layout="box_count"
+                                                                    data-action="like" data-size="small" data-share="true">
+                                                                </div>
+
+                                                            </li>
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <div class="post-ct-entry">
+                                                        <div class="post-summary">
+                                                            <span>KPL</span>
+                                                            (KPL) The National Library held a workshop to present the results of Documentation of Lao Traditional Recitation project, which it implemented from June to December with the generous support of the German Embassy, Vientiane. 
+                                                        </div>
+                                                        
+                                                        <p><span lang="EN-GB" style="font-size:12.0pt;font-family:'Times New Roman','serif';">(KPL) The National Library held a workshop to present the results of Documentation of Lao Traditional Recitation project, which it implemented from June to December with the generous support of the German Embassy, Vientiane. </span></p><p><span lang="EN-GB" style="font-size:12.0pt;font-family:'Times New Roman','serif';">German support for manuscript preservation work at the National Library of Laos began in 1992 with a nationwide programme which ran for 12 years and culminated in the later Digital Library of Lao Manuscripts (www.laomanuscripts.net), an online repository containing images of over 12,000 manuscript texts from throughout the country. </span></p><p><span lang="EN-GB" style="font-size:12.0pt;font-family:'Times New Roman','serif';">As in other countries, these efforts mainly focused on manuscripts and their preservation as well as the collection of microfilm and digital images. To complement this previous work, the current project made audio and video recordings of traditional Lao recitation, together with interviews of reciters.</span></p><p><span lang="EN-GB" style="font-size:12.0pt;font-family:'Times New Roman','serif';">Over 150 audio and video recordings from Vientiane and Luang Prabang are being made available via the Digital Library of Lao Manuscripts, and via the 'Lao Recitation' YouTube channel. </span></p><p><span lang="EN-GB" style="font-size:12.0pt;font-family:'Times New Roman','serif';">Some of the audio recordings include readings of selected manuscript texts for which images are already in the digital library, allowing users to listen to a recording while viewing digital images. </span></p><p><span lang="EN-GB" style="font-size:12.0pt;font-family:'Times New Roman','serif';">This will greatly assist in the study of the texts and in learning to read the more complex scripts which are restricted to manuscript use and typically unreadable without training.</span></p><p><span lang="EN-GB" style="font-size:12.0pt;font-family:'Times New Roman','serif';">There is much more to do, with other reciters and in other parts of Laos. However, this digital record of the endangered manuscript recitation cultures of Laos will ensure that these examples remain available for future generations and will be a resource for the promotion of these traditional skills.<span>&nbsp;&nbsp; </span></span></p><p><span lang="EN-GB" style="font-size:12.0pt;font-family:'Times New Roman','serif';">The National Library hopes that this online collection will be appreciated by both Lao and foreign listeners.</span></p>
+                                                        <h5 class="uk-float-right">KPL</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="end-post-share"></div>
+                                        <div class="post-related-list">
+                                            <h2 class="news-menu-cate">
+                                                <a href="#">ຂ່າວອື່ນໆ</a>
+                                            </h2>
+                                            <ul class="news-story">
+                                                <ul><li><span class='thumb-img thumb-img-3 uk-inline-clip uk-transition-toggle' tabindex='0'><a href = 'detail.aspx?id=105999'><img class='uk-transition-scale-up uk-transition-opaque' src='https://kpl.gov.la/Media/Upload/News/Small/2026/08/25/malaria.jpeg' alt='MoU Signed to Promote Sustainable Malaria Elimination in Laos'></a></span><a class='news-cate-story' href='/news.aspx?cat='13>General</a><h3><a href = 'detail.aspx?id=105999'>MoU Signed to Promote Sustainable Malaria Elimination in Laos</a></h3><p class='uk-text-small uk-text-muted uk-margin-small'>8/25/2026 7:05:33 PM</p><p class='uk-margin-small'>A Memorandum of Understanding (MoU) was signed in Vientiane on August 25, 2026, between the Department of Communicable Diseases Control (DCDC) under the Ministry of Health and Population Services International (PSI Laos) to implement the project “Promoting Sustainable Malaria Elimination through System Integration in Lao PDR.”</p></li><li><span class='thumb-img thumb-img-3 uk-inline-clip uk-transition-toggle' tabindex='0'><a href = 'detail.aspx?id=105996'><img class='uk-transition-scale-up uk-transition-opaque' src='https://kpl.gov.la/Media/Upload/News/Small/2026/08/25/pig.jpeg' alt='Xayaboury Detects African Swine Fever, Suspends Pork Sales and Consumption'></a></span><a class='news-cate-story' href='/news.aspx?cat='13>General</a><h3><a href = 'detail.aspx?id=105996'>Xayaboury Detects African Swine Fever, Suspends Pork Sales and Consumption</a></h3><p class='uk-text-small uk-text-muted uk-margin-small'>8/25/2026 6:04:04 PM</p><p class='uk-margin-small'>Xayaboury District has temporarily suspended the slaughter, sale and consumption of pork following confirmation of an African Swine Fever (ASF) outbreak.</p></li><li><span class='thumb-img thumb-img-3 uk-inline-clip uk-transition-toggle' tabindex='0'><a href = 'detail.aspx?id=105989'><img class='uk-transition-scale-up uk-transition-opaque' src='/images/avatar.jpg' alt='Laos Records 4,371 Dengue Cases Nationwide'></a></span><a class='news-cate-story' href='/news.aspx?cat='13>General</a><h3><a href = 'detail.aspx?id=105989'>Laos Records 4,371 Dengue Cases Nationwide</a></h3><p class='uk-text-small uk-text-muted uk-margin-small'>8/25/2026 3:29:45 PM</p><p class='uk-margin-small'>Laos has recorded 4,371 cumulative dengue fever cases nationwide as of August 24, 2026, including 42 new cases, with no deaths reported, according to the latest health update.</p></li><li><span class='thumb-img thumb-img-3 uk-inline-clip uk-transition-toggle' tabindex='0'><a href = 'detail.aspx?id=105981'><img class='uk-transition-scale-up uk-transition-opaque' src='https://kpl.gov.la/Media/Upload/News/Small/2026/08/25/Ms Aly.jpeg' alt='China’s Women’s Federation Supports Lao Women’s Vocational Training'></a></span><a class='news-cate-story' href='/news.aspx?cat='13>General</a><h3><a href = 'detail.aspx?id=105981'>China’s Women’s Federation Supports Lao Women’s Vocational Training</a></h3><p class='uk-text-small uk-text-muted uk-margin-small'>8/25/2026 10:19:38 AM</p><p class='uk-margin-small'>The All-China Women’s Federation (ACWF) has provided vocational training equipment worth 800,000 yuan (about 2.72 billion kip) to the Lao Women’s Union (LWU), strengthening skills development for Lao women.</p></li><li><span class='thumb-img thumb-img-3 uk-inline-clip uk-transition-toggle' tabindex='0'><a href = 'detail.aspx?id=105980'><img class='uk-transition-scale-up uk-transition-opaque' src='https://kpl.gov.la/Media/Upload/News/Small/2026/08/25/map.jpeg' alt='Laos Prepares National Agenda on Rural Development and Poverty Eradication'></a></span><a class='news-cate-story' href='/news.aspx?cat='13>General</a><h3><a href = 'detail.aspx?id=105980'>Laos Prepares National Agenda on Rural Development and Poverty Eradication</a></h3><p class='uk-text-small uk-text-muted uk-margin-small'>8/25/2026 10:16:38 AM</p><p class='uk-margin-small'>(KPL) Laos is stepping up preparations to implement the National Agenda on Rural Development and Poverty Eradication, with key programmes and projects expected to begin in 2027.</p></li></ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                            </article>
+                            
+                        </div>
+                        <div class="uk-width-auto@m uk-width-1-1">
+                            <aside class="sidebar-main uk-margin-medium-top">
+                                <article class="row-sidebar">
+                                    <div class="box-widget">
+                                        <h2 class="tt-box tt-box-1 ">ຂ່າວ</h2>
+                                        <ul class="block-news-nb color-links">
+                                            <li><a href = 'detail.aspx?id=106000'>Laos, Vietnam Strengthen Cooperation on Inspection and Anti-Corruption</a><p class='uk-text-small uk-text-muted uk-margin-small'>25/08/2026 20:05</p></li><li><a href = 'detail.aspx?id=105998'>Laos Cabinet Reviews August Performance, Sets September Priorities</a><p class='uk-text-small uk-text-muted uk-margin-small'>25/08/2026 18:47</p></li><li><a href = 'detail.aspx?id=105997'>Laos Confers Friendship Medal on Outgoing UNDP Resident Representative</a><p class='uk-text-small uk-text-muted uk-margin-small'>25/08/2026 18:13</p></li><li><a href = 'detail.aspx?id=105990'>Russia-China freight on Russian Railways network hits record 114 mln tons in 7 months</a><p class='uk-text-small uk-text-muted uk-margin-small'>25/08/2026 15:52</p></li><li><a href = 'detail.aspx?id=105988'>Russia-China freight on Russian Railways network hits record 114 mln tons in 7 months</a><p class='uk-text-small uk-text-muted uk-margin-small'>25/08/2026 15:04</p></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                                <article class="row-sidebar">
+                                    <div class="news-block-sdb">
+                                        <h3><a class="m-text-white" href="/Newspaper.aspx">ຫນ້ັງສືພິມ<span class="m-icon-right"><i class="bi bi-circle-fill"></i></span></a></h3>
+                                        <div class="uk-margin-small-top">
+                                            <a href="https://kpl.gov.la/Media/Upload/Newspaper/en/2018/07/2960/html5">
+                                                <img src="https://kpl.gov.la/Media/Upload/Newspaper/en/2018/07/2960/files/assets/cover/1.jpg" class="uk-margin-auto uk-width-expand" alt="ຫນ້ັງສືພິມ" uk-img></a>
+                                        </div>
+                                    </div>
+                                </article>
+                                
+<article class="row-sidebar">
+    <div class="news-block-sdb">
+        <h3>MOST VIEWED<span class="m-icon-right"><i class="bi bi-circle-fill"></i></span></h3>
+        <ul class="m-sidebar-list color-links">
+            <li><a href='detail.aspx?id=105902' >Lao Embassy Showcases Culture at “Colors of ASEAN Culture 2026” in Hanoi</a></li><li><a href='detail.aspx?id=105903' >Mrs. Sounthone Xayachack Appointed Acting President of Lao National Assembly</a></li><li><a href='detail.aspx?id=105901' >Sekong to Showcase Lao Potential as “City of Charm” at China-ASEAN Expo</a></li><li><a href='detail.aspx?id=105893' >Gov't extends hoarding bans on urea, medical supplies for 2 months</a></li><li><a href='detail.aspx?id=105911' >PM Urges Paktha to Strengthen Security, Poverty Reduction and Local Development</a></li>
+        </ul>
+    </div>
+</article>
+                            </aside>
+                            <div class="fb-page" data-href="https://www.facebook.com/LaoNewsAgency" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/LaoNewsAgency" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/LaoNewsAgency">ຂ່າວ KPL Laos News</a></blockquote></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+    <!-- End main -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="UElLSbMU"></script>
+
+        </div>
+    </form>
+
+
+    <footer id="footer">
+        <!-- Footer -->
+        <section class="row-main uk-visible@m">
+            <div class="uk-container">
+                <marquee onmouseout="this.start();" behavior="scroll" truespeed="truespeed" onmouseover="this.stop();" scrollamount="1" scrolldelay="10" direction="left">
+                    <article class="partner-footer">
+                        <ul>
+                            <li><a href='https://vnanet.vn' target='_blank'><img src='https://kpl.gov.la/Media/Upload/ADV/footer-logo/2022/11/24/vna.jpg' uk-tooltip='Vietnam News Agency'></a></li><li><a href='https://vietnam.vnanet.vn' target='_blank'><img src='https://kpl.gov.la/Media/Upload/ADV/footer-logo/2022/11/24/6.jpg' uk-tooltip='Vietnam.vnanet.vn'></a></li><li><a href='https://vietnam.vnanet.vn' target='_blank'><img src='https://kpl.gov.la/Media/Upload/ADV/footer-logo/2022/11/24/vc.jpg' uk-tooltip='Vietnamplus'></a></li><li><a href='http://www.xinhua.org/' target='_blank'><img src='https://kpl.gov.la/Media/Upload/ADV/footer-logo/2022/11/24/xinhua.jpg' uk-tooltip='XinHua'></a></li><li><a href='http://laos.cri.cn/' target='_blank'><img src='https://kpl.gov.la/Media/Upload/ADV/footer-logo/2022/11/24/cri.jpg' uk-tooltip='CRI'></a></li><li><a href='https://tass.com/' target='_blank'><img src='https://kpl.gov.la/Media/Upload/ADV/footer-logo/2022/11/24/60.jpg' uk-tooltip='Tass'></a></li><li><a href='https://www.prensa-latina.cu/' target='_blank'><img src='https://kpl.gov.la/Media/Upload/ADV/footer-logo/2022/11/24/cb60.jpg' uk-tooltip='https://www.prensa-latina.cu/'></a></li><li><a href='http://www.kcna.kp/kp' target='_blank'><img src='https://kpl.gov.la/Media/Upload/ADV/footer-logo/2022/11/24/krr.jpg' uk-tooltip='https://www.prensa-latina.cu/'></a></li><li><a href='http://www.oananews.org/' target='_blank'><img src='https://kpl.gov.la/Media/Upload/ADV/footer-logo/2022/11/24/oana.jpg' uk-tooltip='http://www.oananews.org/'></a></li><li><a href='http://www.pasaxon.org.la/' target='_blank'><img src='https://kpl.gov.la/Media/Upload/ADV/footer-logo/2022/11/24/pasaxon.jpg' uk-tooltip='http://www.pasaxon.org.la/'></a></li><li><a href='https://www.vientianetimes.org.la/' target='_blank'><img src='https://kpl.gov.la/Media/Upload/ADV/footer-logo/2022/11/24/laopress.jpg' uk-tooltip='https://www.vientianetimes.org.la/'></a></li><li><a href='http://www.vientianemai.net/' target='_blank'><img src='https://kpl.gov.la/Media/Upload/ADV/footer-logo/2022/11/24/11.jpg' uk-tooltip='http://www.vientianemai.net/'></a></li><li><a href='https://lnr.org.la/' target='_blank'><img src='https://kpl.gov.la/Media/Upload/ADV/footer-logo/2022/11/24/08.jpg' uk-tooltip='https://lnr.org.la/'></a></li><li><a href='http://www.kongthap.gov.la/' target='_blank'><img src='https://kpl.gov.la/Media/Upload/ADV/footer-logo/2022/11/24/09.jpg' uk-tooltip='http://www.kongthap.gov.la/'></a></li><li><a href='http://www.mpdf.org/' target='_blank'><img src='https://kpl.gov.la/Media/Upload/ADV/footer-logo/2022/11/24/10.jpg' uk-tooltip='http://www.mpdf.org/'></a></li><li><a href='https://laoschairmanship2024.gov.la/' target='_blank'><img src='https://kpl.gov.la' uk-tooltip='official lao asean 2024'></a></li><li><a href='' target='_blank'><img src='https://kpl.gov.la' uk-tooltip='test'></a></li>
+
+                        </ul>
+                    </article>
+                </marquee>
+
+            </div>
+        </section>
+        <section class="row-main">
+            <div class="m-nav-footer uk-visible@s">
+                <nav class="uk-navbar-container" uk-navbar>
+                    <div class="uk-navbar-center">
+                        <div class="uk-navbar-center">
+                            <ul class="uk-navbar-nav">
+                                <li><a href="/"><span uk-icon="home"></span></a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">General</a></li>
+                                <li><a href="#">Legal Documents</a></li>
+                                <li><a href="#">Leader & Officials</a></li>
+                                <li><a href="#">Culture</a></li>
+                                <li><a href="#">Tourism</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="info-footer">
+                <div class="uk-container uk-margin-auto uk-text-center m-text-white">
+                    <p><b>Copyright &copy 2014 by Lao News Agency</b></p>
+                    <p>Khaosan Pathet Lao (KPL) - 80 Setthathirath rd, Vientiane, Lao PDR -Tel (856-21) 21 5402, 25 1090- fax 21 2446</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- End footer -->
+
+
+    <div id="nav-offcanvas" uk-offcanvas="mode: slide">
+        <!-- This is the off-canvas -->
+
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close uk-text-warning" type="button" uk-close></button>
+            .
+            <div class="uk-flex uk-flex-center uk-margin-small-bottom uk-hidden@s">
+                <a href="/" class="uk-margin-small-right m-text-dark uk-text-small">ພາສາລາວ</a>
+                <a href="/En" class="uk-margin-small-right uk-text-warning uk-text-small">English</a>
+                <a href="/Fr" class="uk-margin-small-right m-text-dark uk-text-small">Français</a>
+            </div>
+            <nav>
+                <ul uk-accordion>
+                    <li>
+                        <a class="uk-accordion-title-canvas" href="/EN">Home</a>
+                        <span class="uk-accordion-title uk-accordion-title-none"></span>
+                    </li>
+                    <li><a class='uk-accordion-title-canvas' href='#'>Politics</a><span class='uk-accordion-title'></span><div class='uk-accordion-content'><ul><li><a href = '/En/Page/Politic/partyx.aspx'>Party Congress X</a></li><li><a href = '/En/Page/Politic/laonationalassemblyVIII.aspx'>Lao National Assembly</a></li><li><a href = '/En/Page/Politic/governmentVIII.aspx'>Government</a></li></ul></div></li><li><a class='uk-accordion-title-canvas' href='/En/News.aspx'>News</a><span class='uk-accordion-title'></span><div class='uk-accordion-content'><ul><li><a href = '/En/News.aspx?cat=9'>Politics</a></li><li><a href = '/En/News.aspx?cat=10'>Economics</a></li><li><a href = '/En/News.aspx?cat=11'>Education</a></li><li><a href = '/En/News.aspx?cat=12'>Tourism</a></li><li><a href = '/En/News.aspx?cat=13'>General</a></li><li><a href = '/En/News.aspx?cat=31'>World News</a></li><li><a href = '/En/News.aspx?cat=23'>Sports</a></li><li><a href = '/En/News.aspx?cat=34'>ASEAN</a></li></ul></div></li><li><a class='uk-accordion-title-canvas' href='/En/Newspaper.aspx'>Newspaper</a><span class='uk-accordion-title uk-accordion-title-none'></span></li><li><a class='uk-accordion-title-canvas' href='/En/Page/OtherLink/OtherLink.aspx'>Others Link</a><span class='uk-accordion-title uk-accordion-title-none'></span></li><li><a class='uk-accordion-title-canvas' href='#'>About Us</a><span class='uk-accordion-title'></span><div class='uk-accordion-content'><ul><li><a href = '/En/Page/AboutUs/AboutUs1.aspx'>Background</a></li><li><a href = '/En/Page/AboutUs/AdministrationStructure.aspx 	'>Administration Structure</a></li></ul></div></li><li><a class='uk-accordion-title-canvas' href='/En/Page/ContactUs/ContactUs.aspx'>Contact Us</a><span class='uk-accordion-title uk-accordion-title-none'></span></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- End off-canvas -->
+
+    <div class="kpl-totop uk-position-fixed uk-position-small uk-position-bottom-right">
+        <a class="scrollup-icon" href="#header" uk-scroll=""><i class="bi bi-arrow-bar-up"></i>
+            <br />
+            <span class="uk-visible@m">Top</span></a>
+    </div>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        // --------------- Top Top --------------- //
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 500) {
+                    $('.scrollup-icon').fadeIn();
+                } else {
+                    $('.scrollup-icon').fadeOut();
+                }
+            });
+        });
+
+        // --------------- Marquee --------------- //
+        $('.slogan-hd').marquee({
+            //speed in milliseconds of the marquee
+            duration: 20000,
+            //gap in pixels between the tickers
+            gap: 30,
+            //time in milliseconds before the marquee will start animating
+            delayBeforeStart: 0,
+            //'left' or 'right'
+            direction: 'left',
+            //true or false - should the marquee be duplicated to show an effect of continues flow
+            duplicated: true
+        });
+    //]]>
+    </script>
+</body>
+</html>

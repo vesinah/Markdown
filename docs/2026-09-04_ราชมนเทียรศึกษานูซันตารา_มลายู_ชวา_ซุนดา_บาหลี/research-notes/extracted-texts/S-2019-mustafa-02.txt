@@ -1,0 +1,817 @@
+--- PAGE: 1 ---
+ 
+ 
+6:2 (2019) 63–71 | ijbes.utm.my | eISSN 2289–8948| 
+ IJBES 
+ 
+ 
+International Journal of Built Environment and Sustainability 
+Published by Penerbit UTM Press, Universiti Teknologi Malaysia 
+IJBES 6(2)/2019, 63-71 
+ 
+BIM Backed Decision Support System in the 
+Management of Heritage Building 
+ 
+Muhammad Hadi Mustafa  
+Department of Quantity Surveying, Kuliyyah of Architecture and Environmental Design, International Islamic University Malaysi a, 53100, 
+Gombak, Selangor  
+Email: hadimustafaphd@gmail.com  
+ 
+Maisarah Ali, Kamsiah Mohd Ismail,  
+Department of Civil Engineering, Kuliyyah of Engineering, International Islamic University Malaysia, 53100, Gombak, Selangor 
+ 
+Khairusy Syakirin Has Yun Hashim & Mohamad Saifulnizam Mohd Suhaimi  
+Department of Quantity Surveying, Kuliyyah of Architecture and Environmental Design, Inter national Islamic University Malaysia, 53100, 
+Gombak, Selangor 
+ 
+ 
+ 
+ABSTRACT  
+ 
+Historical buildings are always at risk to great danger strike by fire, flood and other 
+potential disasters affecting the building conditions.  Thus positive and continuous 
+actions need to be taken to preserve the heritage buildings or else a country might lose 
+its cultural heritage value. In managing historic buildings, managers are often fac ed 
+with complex decision -making process due to limited or unavailability of reliable 
+information. The absence of such information influenced the way decision making and 
+problem-solving made by the managers.  This paper aims to highlight the potentials of 
+Building Information Modelling (BIM) as a decision support system for cultural 
+heritage mana gement. An embedded case study was conducted on Istana Balai Besar 
+Kota Bharu, focusing on the changes of the historical building's layout to demonstrate 
+the ontology.  A measured drawing dated back in 1976 was used together with the 
+terrestrial laser scann ing acti vity performed presently on the physical building in 
+creating a model in BIM environment.  The result  gives an overview about tracking 
+information on changes within a historical building as part of cultural heritage 
+management. This paper finds tha t by mod elling the data captured by the 3D laser 
+scanner and utilizing the existing data, BIM is capable of helping managers to retrieve, 
+analyze and store important information in a more efficient and productive process. 
+This exploration is substantial as  a precu rsor to a much broader study on BIM for 
+cultural heritage in the Malaysian context. As BIM is set to drive the construction 
+industry, the finding made would be a catalyst for creating awareness to support the 
+development of BIM for cultural heritage management in Malaysia. 
+ 
+Article History  
+ 
+Received : 7 November 2018 
+Received in revised form : 24 March 2019 
+Accepted : 17 April 2019 
+Published Online : 30 April 2019 
+ 
+Keywords:  
+ 
+BIM, cultural heritage management, historic 
+building, exploratory resear ch, d ecision 
+support system  
+ 
+Corresponding Author Contact: 
+ 
+hadimustafaphd@gmail.com  
+ 
+DOI:  10.11113/ijbes.v6.n2.357 
+© 2019 Penerbit UTM Press. All rights reserved 
+ 
+ 
+ 
+1.  Introduction  
+ 
+Technological advancement has enabled benefits in the area of 
+decision support system for cultural heritage. Managers will be  
+ 
+able to have faster and efficient process when it comes to making 
+crucial decisions in managing problems. BIM approach, which 
+emphasizes on the digitization of information, is believed to have  
+many unexplored potentials in the area of heritage building 
+
+--- PAGE: 2 ---
+64         Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 6:2 (2019) 63–71 
+ 
+ 
+management. Allen, Cruz and Warburton (2017) believed that 
+highly capable Decision Support System (DSS) which is now 
+mostly computer, internet and cloud -based is underutilized. In 
+Malaysia, the l evel of maturity of DSS such as BIM is considered 
+low and slow (CIDB Report, 2016 and Zahrizan et al. 2013). 
+Thus, investigating the potential of BIM is a contin uous effort in 
+Malaysian construction industry as a n initiative to improvise the 
+industry’s pra ctice. Althou gh there have been a few number of 
+publications on BIM for heritage buildings worldwide, not many 
+have touched on the  Malaysian heritage context. Therefore, this 
+paper which employs exploratory embedded case study 
+methodology aims to highlight  the potentials of BIM as decision 
+support system for cultural heritage management by providing an 
+overview on how to utilize BIM in tracking the changes of a 
+historical building's layout. 
+ 
+Decision Support System 
+ 
+In any process, information plays a major  role. Information value 
+depends on how it is applied and used. Tripathi (2011) suggested 
+that an organization's success depends heavily on the organization's 
+Decision Support System (DSS) adoption. The information 
+generated from DSS will affect the decisi on-making pro cess and 
+the quality of decisions. There are many definitions for DSSs and 
+their functions in decision-making process, such as data modeling, 
+remote access to databases, data conversion, data verification and 
+validation, textual data translatio n int o a mult ilingual system, 
+standardization of data formats and access methods, and 
+integration of database management systems as further suggested 
+by Tripathi (2011). The potential of each functions can be utilized 
+for many purposes. 
+ 
+DSS can be defined  as an application that processes and analyzes 
+data and presents it so that users can make decisions more 
+conveniently. According to Tripathi (2011), among the 
+characteristics of a good DSS is that it can perform ‘what if’ and 
+goal-seeking analysis.  
+ 
+Since construction industry is a data -dependent industry, 
+therefore data must be managed efficiently with the right tool to 
+ensure a project's success (Ismail, Bandi and Maaz, 2018).  
+ 
+BIM presently revolutionizing t he construction industry and 
+becoming the st andard in sev eral countries around the world 
+because of its various advantages (Seghier et al., 2017). Due to the 
+awareness and readiness for Industrial Revolution 4.0, there is an 
+increasing need in adoption of innovative technological processes 
+and development in Malaysia. Although the construction industry 
+in Malaysia plays a crucial role in stimulating the economy, it lags 
+behind other economic sectors. This is probably  because of its 
+unique features such as fragmentation and slow adoption of 
+technology (Bean, Mustapa, and Mustapa, 2018). There have been 
+many studies from many previous researchers highlighting the 
+importance of using technological approach in day - to - day 
+business activities, thus implying the importance  to consider a 
+DSS technology to  ensure bette r productivity and efficiency  for 
+our construction and  specifically, for  heritage sector.  The 
+emergence of more advanced technologies  nowadays have  
+necessitate a much stronger emphasis on job competencies than 
+ever before (Oladotun and Edosa, 2017). 
+ 
+BIM a s a Decision Support System (DSS) in Cultural 
+Heritage Management 
+ 
+Traditionally, historical buildings have subscribed to the belief 
+that it reflect s the identity of a nation and culture. Its existence is 
+a proof for future generations of orig ins, civilization, and level of 
+technology of the ancestors (Sodangi et al., 2014). The buildings 
+such as the Taj Mahal and Hawa Mahal in India, the Colosseum in 
+Italy, The Parthenon in Greece, Sultanahmet Mosque and Hagia 
+Sofia in Turkey, St Basil's Cathe dral in Russia, and The Forbidden 
+Palace in China have proven to convey this message successfully. 
+Throughout the buildings' lifespan, conservation by repairing the 
+physical of the buildings was rampant (Rashid & Ahmad, 2011). 
+However, the rampant changes are g iving se rious effect on the 
+historic buildings’ documentation process. There is an increasing 
+concern that some of the buildings are being disadvantaged by the 
+unavailability of documents, which may  also be exposed to risks 
+such as inadequate and outd ated information (Blinn & Issa, 2017). 
+Historical information and documents are important because it is 
+the primary means (Arayici, 2013) to eventually guide a decision 
+making process by property owners, site managers, public officials 
+and conservators.  In this regard, it is important for owners, 
+managers and custodians, to know how to systematically and 
+effectively evaluate, plan and implement the management 
+program for their h istorical buildings. A well - preserved 
+historical building improves the quality  of l ife for all in the 
+community, helps attract investment to the community (tourism 
+product), contributes to regeneration and provides a source of  
+local pride and sense of place. 
+ 
+Previous studies  have reported that the practice of cultural 
+heritage mana gement should  maintain as much as possible the 
+original building structure and fabric. Base to this principle and 
+aims to maintain the national heritage in "true nature", major 
+challenges and issues, especially in judgment and decision -making, 
+there is imp erative need for decision -making activities to be 
+carefully well-thought-out (Harun, 2011). Thus, the unavailability 
+of historical data will pose more issues and causing more problems 
+which may lead to project failure. 
+ 
+According to Allen, Cruz and Warburt on (2 017), “in recent 
+times, DSS has been redefined as broader initiatives of knowledge 
+transfer that comprise: i) a development process with active 
+stakeholder involvement; and ii) an interactive (often 
+internet/computer based) tool that is easy to use, h as mi nimal 
+data requirements, can be readily updated, and provides 
+information access, model analysis and decision guidance. 
+Decision support system aims to provide multiple benefits 
+including improved communication, collaboration and learning 
+amongst stakeholders and with the development team “. 
+ 
+The BIM technology can be considered as a powerful DSS that acts 
+as a database tool which comprises of information -enriched 3D 
+model. It is a technology that has improved the way buildings are 
+analysed and managed  (Calin et al ., 2015; Baik et al., 2014). 
+Similarly, to automotive and robotic industries which develop 
+
+--- PAGE: 3 ---
+65         Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 6:2 (2019) 63–71 
+ 
+ 
+digital prototypes of vehicles and robots, Architectural, 
+Engineering and Construction (AEC) industry are now able to 
+provide an informative digital rep resentation of a building before 
+the first shovels hit the ground by using BIM. One of the most 
+important feature of BIM is it can store information about the 
+process involving the assembly of building components and spaces 
+into a virtual representation of  the building or facility (Lopez et 
+al., 2018; Arayici, 2013) in the form of geometry (tangible data) 
+and associated information (intangible data). In short, BIM can be 
+used to document and store information efficiently and 
+effectively, including data abou t cul ture, hi storical material and 
+operational information (Carbonari et al., 2015; Nunez et al., 
+2015). By having this feature, the classic problem of having  
+inadequate and outdated documentation for technical references 
+(Ali et al., 2018; Blinn & Issa, 2 017; Volk et al., 2014) can be 
+mitigated. BIM is anticipated to be an essential tool as a central 
+database to support comprehensive data input for activity such as 
+cultural heritage lifecy cle management (Ali et al., 2018 ; Volk et 
+al., 2014). Thus, it is a lso a nticipated that BIM would be 
+beneficial for various efforts such as preservation, adaptive re -use, 
+and reconstruction. 
+ 
+BIM is not just a software, as Hardin (2009) put it, but a process 
+that integrates all the building works and information to create a 
+new way of thinking in the essence of not doing the same old 
+things. The concept of BIM consists of integrating information and 
+all previously dispersed data into the BIM model, which consists 
+of structures and architecture design and other associated 
+information regarding the buildings. BIM's primary objective is to 
+eliminate the future work of recollection or reformatting of 
+information about facilities ; which is wasteful (Eastman et al, 
+2008). Hardin (2009) as cited in Mohamed Salleh et al. (2018) 
+suggests that BIM is a virtual building model that contains smart 
+technology that collects all information on building elements in 
+the same server file that can be shared to increase communication 
+and collaboration among the project team members. 
+ 
+As BIM’s pot ential to mod el existing buildings that have heritage 
+or cultural values to local people are increasingly being recognised 
+(Calin et. Al., 2015; Volk et al., 2014; Baik et. al.,2013), 
+building owners and facility managers have also seen tremendous 
+benefits in handling their building using the approach (Carbonari 
+et al., 2015; Volk et al., 2014; Baik et al., 2014). What is not yet 
+clear is on the process of how BIM can be utilized as DSS in 
+cultural heritage management. Thus, next section will 
+demonstrate the process of data extracting, which the data will be 
+used as information to support historical building managers in 
+their decision-making process.  
+ 
+ 
+2. Methodology 
+ 
+In this paper, a  descriptive embedded case study approach is 
+adopted by comparing the tech niques of get ting building 
+measurement and  utilizing BIM approach in tracking the changes 
+of a historical building's layout.  Descriptive embedded case study 
+is a method of analysing sub-units of the phenomenon to make the 
+descriptions available to others (Bengtsson, 1 999). According to 
+Baxter & Jack (2008), a case study method will be helpful when to 
+study science, develop theories and involvements and when to 
+evaluate programs, when the method is applied correctly.  In 
+order to study the potential of BIM a s DSS  for cul tural heritage 
+management, this paper chose to analyse the changes of layout for 
+Balai Besar Kota Bharu (Kelantan) as the sub-units of analysis.  
+ 
+2.1   Istana Balai Besar (the Grand Palace) 
+ 
+Istana Balai Besar (the Grand Palace) is selected a s the case study 
+based on its cultural heritage significance. The palace was built by 
+Sultan Muhammad II in 1844 and situated near to the Kelantan 
+River. The Istana Balai Besar symbolized sovereignty and was used 
+for official ceremonies such as inauguratio n and  state o fficial 
+awards. The palace is a single -story structure made of Chengal 
+wood and surrounded by palisades  within an area of a 175,000 -
+foot square (Mohd Nor et al., 2017). Istana Balai Besar was 
+previously known as the Istana Kota Lama and used t o be the 
+center for the government of Kelantan in the 18 th century. The 
+building is now much valued for its elegant architectural features 
+as shown in Figure 1.  
+ 
+ 
+ 
+Figure 1 Balai Besar Kota Bharu 
+(https://sejarahkelantan.wordpress.com/tag/istana-balai-
+besar, 2018) 
+ 
+2.2   Descriptive Embedded case study 
+ 
+In the early days, documentation for cultural heritage buildings is 
+driven by the information and sources used to build them an d the 
+real va lue pr oposition of it to analyse data  (Baik et al., 2014).  
+These conventional methods of architectural documentation on 
+existing building are done manually by measured drawing 
+(Gaidyte, 2010). Measured drawings are carried out to retrieve 
+information such as dimension and the form of a building in the 
+architectural study (Harun, 2011). This technique used measuring 
+tools; a measuring tape, adjustable set square rulers, ladder, graph 
+papers, and pens conducted in a large group of 10 -20 people. The 
+measurement recorded will be drawn on butter paper and re -
+drawn for documentation. Nowadays, the conventional method of 
+collecting data has inspired advancement in other technological 
+tool known as Terrestrial Laser Scanner (TLS). TLS is an 
+automatic tool that able to measure the 3D coordinates based on 
+the object in X, Y, and Z-axes. These coordinates are based on the 
+scanned surface that will reflect an encoded angular orientation in 
+the form of point clouds, thus making the object collected into 3D 
+data (Calin et al., 2015; Nunez et al., 2012).  
+ 
+
+--- PAGE: 4 ---
+66         Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 6:2 (2019) 63–71 
+ 
+ 
+Two primary sources of building's data were gathered by 
+comparing the old layout of the building taken in the year 1976 by 
+a group of researcher from Universiti Teknologi Malaysia (UTM) 
+and the latest layout of the building captured using TLS in the year 
+of 2017 by researchers from International Islamic University 
+Malaysia (IIUM). TLS was also used in this research as 
+comparative tool because it allows accurate and faster capture of 
+measurement to be modelled i n the  3D envi ronment (Shukor et 
+al., 2015; Alkan & Karsidag, 2012). This process is then followed 
+by facilitating an iterative process of discussion and mapping of 
+activities. The old layout of Istana Balai Besar was extracted from 
+a measured drawings repo rt dated May 1976 as shown in Figure 
+2, while Figure 3 shows the plan view of the extracted layout after 
+being modelled using BIM platform by tracing method. The BIM 
+platform used for this activity is Autodesk Revit. 
+ 
+ 
+ 
+Figure 2 Istana Balai Besar layout (not to scale) in 1976 as per 
+measured drawing report 
+(Drawing report from UTM) 
+ 
+ 
+ 
+Figure 3 Istana Balai Besar layout (1976) as per BIM model 
+(Authors’ work) 
+ 
+2.3   Process Carried Out For The Case Study  
+ 
+This is the first study on Istana Balai Besar Kot a Bharu using laser 
+scanning activity. In conducting laser scanning activity, a 
+technique known as ‘tie points’ was employed. ‘Tie points' are 
+represented by targets in which the laser scanner identified to 
+minimize the ‘noise’ while capturing point clouds . Point cloud is 
+described as the minimal level of detail based on its abstractions 
+that produce a higher level of details (Alkan & Karsidag, 2012).  
+ 
+The site was explored and the locations for the ‘target’ locations 
+for the scanning process to take place  was identified. Targets’ 
+used for laser scanning is a paper with portions of black and white 
+on it as in Figure 4 to enable the laser scanner to detect the 
+surface of the building effectively. The data collection is 
+conducted outside the building u sing a Leica scan st ation P16 
+(Figure 5) to acquire the point clouds. Figure 6 shows the 
+positioning of TLS around the building during the scanning 
+process. The external building was scanned with a total of 26 total 
+stations in a clockwise direction. After the sc anning proces s was 
+carried out, the data was then transferred into the data processor, 
+and the point cloud cleaning and registration took place using 
+Leica Cyclone 9.1.6 and Autodesk Recap.  
+ 
+ 
+ 
+Figure 4 Example of black and white (B&W) target used with 
+TLS  
+(https://www .point3d.us.com/product-page/tuff-targets-100-
+pack) 
+ 
+ 
+Figure 5 Leica T errestrial Laser Scanner P16 
+(http://surveyequipment.com/leicascanstation-p16-3d-laser-
+scanner/) 
+ 
+Point cloud data must be collected from several scans locations 
+using a laser scanner to ensure full coverage of the studied object 
+as shown in Figure 6. Laser scanners needed millions of accurate 
+3-D points which later underwent cleaning and registration 
+process. Scans are often clouded with measurement noise due to 
+reflection from building surface. Therefore to get a proper mesh, 
+cleaning is necessary (Alkan & Karsidag,  2012). Cleaning of data 
+was carried out to eliminate irrelevant cloud points taken during 
+the scanning process . Mesh is a raw format and is a collection of 
+vertices, edges, and faces that describe the shape of the 3D object 
+(Baik et al., 2014) . Hence, registration process is carried out 
+where the cleaned captured point clouds are converted into usable 
+3D information and formats such as .las, .pts or .rcp. This process 
+is de pendent on the type of TLS tool used during the scanning 
+process since every TLS tool has specialized software to process 
+their data accordingly. Providers  such as Leica and Faro has 
+dedicated software that helps to process, manipulate and ana lyze 
+the enormous amount of point clouds captured. For this activity, 
+
+--- PAGE: 5 ---
+67         Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 6:2 (2019) 63–71 
+ 
+ 
+researchers used P16 Leica scanner and the specialized software is 
+known as Cyclone 9.1.6. 
+ 
+         
+  
+Figure 6 Positioning of Leica T errestrial Laser Scanner P16 
+during scanning (Authors’ work) 
+ 
+The study on the process continues as researchers superimposed 
+the laser scanning data and measured drawings into BIM 
+environment. This was done after the processing of point clouds 
+by cropping some parts of the building such as the roof and wall  
+from plan view so that a clear layout can be seen. The extracted 
+layout is then modelled in a BIM platform for further analysis. 
+Figure 7 shows the building's point clouds after it was cropped 
+using Autodesk Reality Capture, and after the model’s layout h ave 
+been mode lled into BIM environment using Revit  (Figure 8 and 
+9). The layouts from both sources were then compared. Changes 
+were observed on the buildings on its transition from the 1976 
+measured drawing up to the TLC output. It is anticipated that by 
+knowing the changes of layout a nd area, managers can interpret 
+the data and information  into relevant contexts related to 
+decision-making. The process to support the study of DSS for 
+cultural heritage management is discussed in the next section. 
+ 
+ 
+ 
+Figure 7 Building layout converted from point clouds to BIM 
+using Revit (Authors’ work) 
+ 
+ 
+ 
+Figure 8 Building layout converted from point clouds to BIM 
+using Revit in 3D view (Authors’ work) 
+ 
+ 
+ 
+Figure 9 BIM model of Istana Balai Besar (2017) (Authors’ work) 
+ 
+ 
+2.4 Analysis and Discussions 
+ 
+Prior to commencing the analysis of study, the building layouts 
+are extracted and modelled into BIM environment. Following 
+this, the comparison is made through observation and area 
+calculation between them. Figure 10  shows the d ifferences in the 
+building lay out, by comparison for the year 1976 (above) and 
+2017 (below).  It is found that the layout is different from each 
+other, deducing that the building had undergone a renovation in 
+between 1976 to 2017. The front of the building  at the entrance 
+porch is main tained, but the size of the main hall has been made 
+wider. The comparison also shows that there is an increase in 
+space for storage at the rear of the building. This changes in the 
+layout should be acknowledged by preservation ist a s it is an 
+essential event in the building lifecycle. 
+ 
+
+--- PAGE: 6 ---
+68         Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 6:2 (2019) 63–71 
+ 
+ 
+  
+Figure 10 Building’s layout and its transitional changes from 1976 to 2017 
+(Authors’ work) 
+ 
+ 
+Figure 11 Superimposed layout of Balai Besar 
+(Authors’ work) 
+ 
+Figure 11  shows the compariso n of the layouts of Balai Besa r in 
+1976 that have been superimposed onto the Balai Besar in 2017. 
+The inner layout of the year was  extracted from measured 
+drawing, while the outer layout modelled using the data collected 
+using TLS in 2017 were used to calc ulate the difference between 
+the areas of the layout using BIM platform. It showed that an 
+additional 914m2 in size. This result suggests the changes is due to 
+a renovation that was carried out in between 1976 to 2017. 
+Interestingly, the discovery of Istan a Balai Besar has underwent a 
+renovation is fascinating as researchers have managed to prove it 
+scientifically. This information is significant, and this activity 
+shows that such an event can be recorded with the utilization of 
+
+--- PAGE: 7 ---
+69         Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 6:2 (2019) 63–71 
+ 
+ 
+DSS such as BIM. The process  as described can complement th e 
+use of a wider range of more specific strategic planning and 
+methodologies using information stored in the file, for fu ture 
+references (Ali et al. 2018 ; Carbonari et al., 2015; Volk et al., 
+2014).  
+ 
+DSS focuses on outcomes that require an understanding o f how, 
+and under what conditions.  The information produced is 
+interpreted and can be conveniently  used by stakeholders 
+(Matthews et al. 2011). The development and implementation of 
+decision support systems (DSS) require know ledge and 
+understanding of mana gerial decision making, levels of reasoning 
+and problem solving and roles of managers. DSS as a tool can  
+support project teams in the assessment of the facility by making it 
+possible for them to choose the best working appro ach based on 
+their data (Seghier et al., 2017).  The desired long-term outcomes 
+include priorities by providing technical and historical knowledge, 
+demonstrating impacts on social, economic and environmental 
+assets. These priorities are indicators and targe ts that need to be 
+developed in  advance in each outcome to assess the intensity of 
+impacts to refine future planning.  
+ 
+The studies presented thus far provide evidence that primary 
+benefit of the activity is that it helps to give output in a shorter 
+time. The a ctivity only took eight (8 ) hours to capture the raw 
+data for measurement. The scanner also provides reliable 
+measurement output as TLS provides a high level of measurement 
+accuracy (Baik et al., 2014). Moreover, the conventional methods 
+of data collection for buildings are complic ated as it needs a lot of 
+workforces, tedious to process and time -consuming. However, 
+with the development of technology such as Building Information 
+Modelling (BIM) and Terrestrial Laser Scanning (TLS), the 
+process of measur ing the existing building becom es easier, faster 
+and safer  (Ali et al.,2018 ; Alkan & Karsidag, 2012; Gaidyte, 
+2010). With the help of this technological and intelligent 
+modelling approach, it allows easy interpretation of the building 
+and provides up to da te information for documentatio n. In other 
+words, the main strength of this activity is, it can provide recent 
+and reliable information for documentation in a very short time 
+and conveniently compared to the conventional method. 
+ 
+Besides, the activity carr ied o ut for this study promotes  an 
+innovative and advancement of methods in DSS for cultural 
+heritage management by complementing the conventional method 
+and technological advancement. This gives an opportunity for the 
+earlier documentation of the building  to be updated easily because 
+the method was convenient as the scanning activity can be 
+conducted from time -to-time. Thus, data and information of the 
+building can be revised and administered easily to ensure its 
+relevancy throughout its lifespan (Lopez et  al., 2018; Ali et al., 
+2018; and Baik et al., 2014). The problem such as data void can 
+be minimized as BIM has a user -friendly interface to allow 
+practitioners to identify missing information and give a solution 
+for it. This also opens up another opportun ity for new job scope 
+within th e industry (Ali et al., 2018 ; Maina, 2018; Volk et al., 
+2014).  
+ 
+This finding has important implications for developing a 
+systematic process in utilizing DSS such as BIM for cultural 
+heritage management. The historical buildi ngs i n Malaysia are 
+unique and not similar to other countries, thus requiring special 
+attention and in-depth study. A clearer understanding is needed so 
+the heritage of a culture can be appreciated by the people of the 
+nation. The development of ground -breaking technology such as 
+TLS an d the introduction of technological approach work -
+processing such as BIM must be fully -utilized by industry players, 
+hence to produce more efficient results and highly r eliable 
+historical information. 
+ 
+ 
+3. Conclusion and Recommendations  
+ 
+This case study provided an important opportunity to advance the 
+understanding of underutilized technology such as BIM in the 
+context of cultural heritage of a nation.  In this investigation, the 
+aim was to assess the potential of DSS such as BIM f or cultural 
+heritage management. The results of this investigation show that 
+effective management of complex problems needs to be 
+recognized and implemented based on a systematic approach. The 
+documentation process demonstrated is beneficial for prese rving 
+roots and identity purpos e. Despite its exploratory nature, this 
+study offers some insight on the importance of tracking historical 
+data and information in accordance to scientific approach. It also 
+shows how BIM can lead to better stewardship of the  future in 
+term of historic bui ldings. Although this explorative embedded 
+case study only focuses and describes on the changes of layout in a 
+historic building, other area remains crucial to ensuring 
+stakeholders work in a coordinated manner across many 
+management activities to achieve their desired vision for effective 
+historical building management. Finally, researchers highly 
+recommend that further study in the area of cultural heritage 
+management for Malaysia's historical buildings to be conducted 
+extensively in the future as there i s abundant room for further 
+progress in determining other potentials of BIM in this field.   The 
+following are some recommendations  in order to excel the 
+practicing of BIM for heritage works within the industry: 
+ 
+i. Organizing ap propriate and adequate service  training, 
+workshops and seminars by relevant professional bodies 
+and academia to enhance the acquisition of more BIM 
+and technological skills and experience to enhance the 
+ability to perform dut ies related to the use of BIM f or 
+historical buildings. 
+ 
+ii. BIM for historical buildings  practitioners in Malaysia 
+should not just settle with the roles and functions of the 
+profession but should also be familiar with the roles and 
+functions of other professionals in the conservation and 
+preservation field.  
+ 
+iii. BIM for h istorical buildings practitioners should ensure 
+that they possess competencies that include personal 
+qualities, core competencies, and process competencies. 
+The qualities should include independence, adaptability, 
+willingness to le arn, and ability to refle ct on what has 
+been achieved and what has not been achieved. A 
+professional’s core skills should include the ability to 
+present clear and validated information, critical analysis, 
+
+--- PAGE: 8 ---
+70         Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 6:2 (2019) 63–71 
+ 
+ 
+computer literacy, business awareness, priorit ization, 
+negotiation, and managing ambiguities and complexity. 
+ 
+ 
+Acknowledgments 
+ 
+This research was supported by a grant (TRGS16 -03-003-0003) 
+from the Ministry of Higher Education Malaysia (MOHE). This 
+research is also supported by Kuliyyah of Architecture  and 
+Environmental Design (KAE D) and Kuliyyah of Engineering of 
+International Islamic University Malaysia. 
+ 
+ 
+References 
+ 
+Abdul Rashid, R., & Ahmad, A. G. (2011). Overview Of Maintenance 
+Approaches Of Historical Buildings In Kuala Lumpur - A Current 
+Practice. Procedia Engineering . 20: 425–434.  
+https://doi.org/10.1016/j.proeng.2011.11.185 
+ 
+Abdul Shukor, S. A., Wong, R., Rushforth, E., Basah, S. N., & Zakaria, 
+A. (2015). 3D Terrestrial Laser Scanner For Managing Existing Building . 
+Jurnal Teknologi . 76(12): 133–
+139.https://doi.org/10.11113/jt.v76.5895 
+ 
+Allen W, Cruz J, Warburton B (2017) How Decision Support Systems 
+can Benefit From A Theory Of Change Approach. Environmental 
+Management, https://dx.doi.org/10.1007/s00267-017-0839-y 
+ 
+Ali, M., Ismail, K., Suhaimi,  M.S, Hashim, K.S.H.Y, and Mus tafa, 
+M.H., (2018 ), Heritage Building Preservation t hrough Building 
+Information Modelling: R eviving Cultural Values t hrough Level Of 
+Development Exploration.  Journal of the Malaysian Institute of Planners, 
+Volume. 16(2): 62 -72. 
+http://dx.doi.org/10.21837/pmjournal.v16.i6.461 
+ 
+Ali, M., Ismail, K., Hashim, K.S.H.Y, Suhaimi, M.S, and Mustafa, 
+M.H., (2018), Historic Building Information Modelling (HBIM) For 
+Malaysian Construction Industry . Journal of the Malaysian Institute of 
+Planners. 16(3): 332 -343. 
+http://dx.doi.org/10.21837/pmjournal.v16.i7.522 
+ 
+Alkan, R. M., & Karsidag, G. (2012). Analysis of The Accuracy of 
+Terrestrial Laser Scanning Measurements. FIG Working Week 2012 - 
+Knowing to Manage the Territory, Protect the Environment, Evaluate the Cultural 
+Heritage, (May 2012), 16. 
+ 
+Baik, A., Alitany, A., Boehm, J., & Robson, S. (2014). Jeddah Historical 
+Building Information Modelling "JHBIM"; Object Library. ISPRS Annals of 
+Photogrammetry, Remote Sensing, and Spatial Information S ciences, II-5(May), 
+41–47. https://doi.org/10.5194/isprsannals-II-5-41-2014 
+ 
+Baxter, P., & Jack, S. (2008). Qualitative Case Study Methodology: 
+Study Design and Implementation for Novice Researchers . The 
+Qualitative Report . 13(4): 544-559. Retrieved from 
+https://nsuworks.nova.edu/tqr/vol13/iss4/2 
+ 
+Bengtsson P. (1999), Multiple Case Studies - Not Just More Data 
+Points?!. Term Paper In Graduate Cours e in Research Methodology, 
+University of Karlskrona Ronneby. Spring 1999. doi=10.1.1.30.9769 
+ 
+Blinn, N., & Issa , R. R. A. (2017). Utilisation  of Drawing Management 
+Software To Enhance BIM Educational Experiences . BIM Academic 
+Symposium. 0: 1–8. 
+Calin, M., Damian, G., Popescu, T., Manea, R., Erghelegiu, B., & 
+Salagean, T. (2015). 3D Modeling for Digital Preservation  of Romanian 
+Heritage Monuments. Agriculture and Agricultural Science Procedia . 6: 421–
+428. https://doi.org/10.1016/j.aaspro.2015.08.111 
+Carbonari, G., Stravoravdis, S., & Gausden, C. (2015). Building 
+Information Model Implementation For Existing Buildings  For Facilities 
+Management: A Framework And Two Case Studies . 149: 395–406. 
+https://doi.org/10.2495/BIM150331 
+ 
+Cheong, Y. Y., & Nur Emma Mustaffa. (2017). Critical Success Factors 
+for Malaysian Construction Projects: An Investigative Review. 
+International Journal of Built Environment a nd Sustainability . 4(2): 93–104. 
+https://doi.org/10.11113/ijbes.v4.n2.180 
+ 
+Eastman, C. Teicholz, P. Sacks, R., & Liston, K. (2008). BIM Handbook 
+A Guide to Building Information Modeling for Owners, Managers, 
+Designers, Engineers, and Contractors. John Wiley & Sons, Inc. 
+ 
+Eisenhardt, K. M., & Graebner, M. E. (2007). Theory Building From 
+Cases: Opportunities and challenges. The Academy of Management Journal . 
+50(1): 25-32. https://doi.org/10.5465/amj.2007.24160888 
+ 
+Gaidytė, R. (2010). 2D and 3D Modeling Compar ison, 1–38. Retrieved 
+from http://brage.bibsys.no/hig/bitstream/URN:NBN:no-
+bibsys_brage_12669/1/Gaidyte,R..pdf 
+ 
+Hardin, B. (2009), BIM and Construction Management: Proven Tools, 
+Methods and Workflows, Canada:Wiley Publishing Incorporated. 
+ 
+Harun, S. N. (20 11). Heritage Building Conservation In Malaysia: 
+Experience And Challenges . Procedia Engineering . 20: 41–53. 
+https://doi.org/10.1016/j.proeng.2011.11.137 
+ 
+Ismail, S. A., Bandi, S., & Maaz, Z. N. (2018). An Appraisal into the 
+Potential Application of Big Da ta in the Construction Industry. 
+International Journal of Built Environment and Sustainability . 5(2): 145–154. 
+https://doi.org/10.11113/ijbes.v5.n2.274 
+ 
+Jones C, Cowan P, Allen W (2012) Setting Outcomes, And Measuring 
+And Repo rting Performance Of Regional Council Pest And Weed 
+Management Programmes. Landcare Research, Lincoln, New Zealand 
+ 
+Kidder, T. (1982). Soul of a New Machine. New York: Avon. 
+ 
+López, F., Lerones, P., Llamas, J., Gómez -García-Bermejo, J., & 
+Zalama, E. (2018). A Review of Heritage Building Information Modeling 
+(H-BIM). Multimodal Technologies and Interaction . 2(2): 21. 
+https://doi.org/10.3390/mti2020021 
+ 
+K.B. Matthews, M. Rivington, K. Blackstock, G. McCrum, K. Buchan, 
+and D.G. Miller. 2011. Raising the bar? - The Challenges Of Evaluating 
+The Outcomes Of Environmental Modelling And Software . Environ. 
+Model. Softw.  26(3) (March 2011) : 247-257. 
+DOI=http://dx.doi.org/10.1016/j.envsoft.2010.03.031 
+ 
+Maina, J. J. (2018). Barriers to effective use of CAD and BIM in 
+Architecture Education in Nigeria. International Journal of Built Environment 
+and Sustainability . 5(3): 175–186. 
+https://doi.org/10.11113/ijbes.v5.n3.275 
+ 
+Mazzanti, Massimiliano, 2002. "Cultural Heritage As Multi-Dimensional, 
+Multi-Value And Multi -Attribute Economic Good: Toward A New 
+Framework For Economic Analysis And Valuation ," Journal of Behavioral 
+and Experimental Economics (formerly The Journal of Socio-Economics), Elsevier. 
+31(5): 529-558. 
+ 
+
+--- PAGE: 9 ---
+71         Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 6:2 (2019) 63–71 
+ 
+ 
+Mohamed Salleh, R., Mustaffa, N., Abdul Rahiman, N., Tajul Ar iffin, 
+H., & Othman, N. (2019) . The Propensity o f Building Information 
+Modelling and Integrated Project Delivery i n Building Construction 
+Project. International Journal of Built Environment and Sustainability . 6(1-2): 
+83-90. https://doi.org/10.11113/ijbes.v6.n1-2.386 
+ 
+Mohd-Isa, A. F., Zainal-Abidin, Z., & Hashim, A. E. (2011). Built 
+heritage maintenance: A Malaysian perspectives. Procedia Engineering. 20: 
+213–221. https://doi.org/10.1016/j.proeng.2011.11.158 
+ 
+Mohd Noor, N., Kamaruddin, Z., Abdullah, A., Abd ullah, A.A., Eusoff, 
+S.S. and Mustafa, M.H. (2018), “Using  Terrestrial Laser Scanner For 
+Malay Heritage Documentation: Preliminary Approac h to Istana Balai 
+Besar, Kelantan”,  International Journal of Development and Sustainability . 
+7(6): 1886-1897. 
+ 
+Núñez A ndrés, A., Buill Pozuelo, F., Regot Marimón, J., & de Mesa 
+Gisbert, A. (2012). Generation of Virtual Models Of Cultural Heritage . 
+Journal of Cultural Heritage . 13(1): 103–106. 
+https://doi.org/10.1016/j.culher.2011.06.004 
+ 
+Oladotun, A. J., & Edosa, O. M. (2 017). The Need for Professiona lism 
+and Competencies in the Construction Industry. International Journal of 
+Built Environment and Sustainability . 4(1): 10–16. 
+https://doi.org/10.11113/ijbes.v4.n1.154 
+ 
+Seghier, T. E., Lim, Y. W., Ahmad, M. H., & Samuel, W. O . (2017). 
+Building Envelope Th ermal Performance Assessment Using Visual 
+Programming and BIM, based on ETTV requirement of Green Mark and 
+GreenRE. International Journal of Built Environment and Sustainability . 4(3): 
+227–235. https://doi.org/10.11113/ijbes.v4.n3.216 
+ 
+Sodangi, M., Khamdi, M. F., Idrus, A., Hammad, D. B., & Ahmedumar, 
+A. (2014). Best Practice Criteria For Sustainable Maintenance 
+Management Of Heritage Buildings in Malaysia. Procedia Engineering. 77: 
+11–19. https://doi.org/10.1016/j.proeng.2014.07.017 
+ 
+Tripathi, K. P. (2011) . Decision Support System Is a Tool for Making 
+Better Decisions in the Organization. Indian Journal of Computer Science and 
+Engineering. 2(1): 112–117. 
+ 
+Volk, R., Stengel, J., & Schultmann, F. (2014). Building Information 
+Modeling (BIM) For Existing Buildi ngs - Literature Review And Future 
+Needs. Automation In Construction. 38(October 2017) : 109–127. 
+https://doi.org/10.1016/j.autcon.2013.10.023 
+ 
+Yusuf Arayici, (2008) "Towards Building Information Modelling For 
+Existing Structur es". Structural Survey . 26(3): 210-222, 
+https://doi.org/10.1108/02630800810887108 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

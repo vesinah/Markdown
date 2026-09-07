@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Munggut charter (944 Śaka)</title>
+            <respStmt>
+               <resp key="contributor">EpiDoc encoding</resp>
+               <persName ref="part:ekba">
+                  <name>Eko Bastiawan</name>
+               </persName>
+            	<persName ref="part:argr">
+            		<forename>Arlo</forename>
+            		<surname>Griffiths</surname>
+            	</persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            	<persName ref="part:ekba">
+            		<name>Eko Bastiawan</name>
+            	</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Malang</pubPlace>
+            <idno type="filename">DHARMA_INSIDENKMunggut.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:ekba" when="2020-10-09" status="draft">small updates of the encoding</change>
+         <change who="part:ekba" when="2020-06-27" status="draft">encoded  the rest of available faces</change>
+         <change who="part:ekba" when="2020-06-26" status="draft">encoded of Left main part</change>
+         <change who="part:ekba" when="2020-06-25" status="draft">encoded of Right main part</change>
+         <change who="part:ekba" when="2020-06-24" status="draft">encoded of Back main part</change>
+         <change who="part:ekba" when="2020-06-23" status="draft">encoded of Front main part</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+          <div type="edition" xml:lang="kaw-Latn" rendition="class:38769 maturity:83213">
+<p><milestone type="pagelike" unit="face" n="1"/><label xml:lang="eng">Front main part</label>
+<lb n="1.1"/><g ref="sym:bar-crossed" type="punctuation">.</g><g ref="sym:bullet-hollow" type="punctuation">.</g><g ref="sym:bar-crossed" type="punctuation">.</g> svasti śaka-vārṣ<choice><orig>a</orig><reg>ā</reg></choice>tīta <num value="944">944</num> cetrā-masa tithi caturdaśī kr̥<unclear>ṣ</unclear>ṇa<lb n="1.2" break="no"/>-pakṣa, <abbr>vu</abbr>, <abbr>pa</abbr>, <abbr>Aṁ</abbr>, vāra, balamuki, kr̥tikā<surplus>raṇa</surplus>-nakṣatra, dahana-devatā, Āyu<supplied reason="lost">ṣ</supplied>m<supplied reason="lost">ān·</supplied><lb n="1.3" break="no"/>yoga, vanija-kāraṇa,</p> 
+
+<p>Irikā divāsanyājñā śrī mahārāja <abbr>rake</abbr> halu, śrī loke<unclear>ś</unclear>va<supplied reason="lost">ra</supplied>
+<lb n="1.4"/>dharmmavaṅśa Airlaṅg<choice><orig>a</orig><reg>ā</reg></choice>nantavikramottuṅgadeva, tinaḍah rakryān· mahāmantrī hino śrī saṁgrā<lb n="1.5" break="no"/>mavijayaprasādottuṅgadevī, Umiṅsor· I rakryān· paḍaṁ pu dvija, kumonakən ikanaṁ karāmā<lb n="1.6" break="no"/>n· Iṁ muṅgut· sapasuk thāni kab<choice><sic>a</sic><corr>e</corr></choice>ḥ tka ri babadnya,</p> 
+
+<p>maṅaran· Aṇḍu<unclear>k</unclear>·, bara, marma, cucya, <unclear>g</unclear>eḍoḥ,
+<lb n="1.7"/>bə<unclear>c</unclear>əm·, bajəm·, buṅaḥ, dītən·, bijo, kuniṁ, kəmbaṁ, kilano, gajusa, tiṅgal·<unclear>,</unclear> gantar· li<lb n="1.8" break="no"/>ṇḍuṁ, R̥mban·, tuñjuṁ, <gap reason="lost" quantity="5" unit="character"/>do, marum·, beca, vecuṁ, kuruk· lca, bəntəL̥, R̥ntap· ba<lb n="1.9" break="no"/>hum<unclear>a</unclear>n·, robhana, <unclear>Ibuni ran·, ma</unclear>ṅaran· ḍə<unclear>r</unclear>ən·, gosəṁ, plī, kleṁ, bavvat·, godhanā, <unclear>ṅ</unclear>itam·, ba<lb n="1.10" break="no"/>sakaṁ, garuṁ, Aṣṭamī, Adinəm·, śoḍagañciṁ, bamī, Aṣṭi, paraḥ, śrīnam·, Iṅgut·, vatəhər·, ḍintə<unclear>n·</unclear><lb n="1.11" break="no"/> jenī, gr̥<space type="defect"/>ha, <unclear>dhā</unclear>ryya, kesar·, nadī Untal·, <unclear>b</unclear>ənər·, Uṅabakaḍut·, <unclear>lu</unclear>tilaya, sabh<unclear>ā</unclear>mogha, gə<lb n="1.12" break="no"/>ḍe, bayog·, <unclear>ḍaL̥</unclear>man·, maraṇa, daḍatañjamī, surat·, pagəḥ, śr<choice><orig>i</orig><reg>ī</reg></choice>mato, Iyo, tuvuḥ,
+<lb n="1.13"/>kuniṁ, nikiṁ lekəm·, mūlū, sabotī, boḍatəm·, pənəd·, kejī, kedranī, patyən·, bhuvana<lb n="1.14" break="no"/>ṇī, rimpiṁ, godr̥sa, Ajum·, dhəti<unclear>,</unclear> hambəṁ, sadī,</p> 
+
+<p>vulu karaman·, patṅahan· rapiḥ, Akə<lb n="1.15" break="no"/>mbaṁ tr̥piṁ, Abūbū<unclear>ḥ Au</unclear>ḍi, Atahun·, gosatəm·, pañarikan· sudvinəm·<unclear>,</unclear> saṁkuba, landə<lb n="1.16" break="no"/>so<unclear>ḍ</unclear>i, gəvəg·, bhuvaṇa, bata, madoti, <unclear>A</unclear>mpaṁ, galuḥ, baṣūddha, jujul·, sulu<unclear>r</unclear>·, vinkas·
+<lb n="1.17"/>bagnalo, makādi kabayān· kāliḥ maṅaran· japo, vvātan·,</p> 
+
+<p>madamlakna saṁ hyaṅ ā<lb n="1.18" break="no"/>jñā haji prasāsti pa<unclear>gə</unclear>-pagəḥ tinaṇḍa garuḍamukha kmitananya,</p> 
+
+<p>sambandha, Ikanaṁ karāmān· I mu<lb n="1.19" break="no"/>ṅgut· sapasuk thāni kabeḥ, masamāgrī mapuluṁ rahi manambaḥ I taṇḍa rakryān· ri pakira<lb n="1.20" break="no"/>kiran· makabehan·, karuhun· I lbū ri pāduka śrī mahārāja makārasa maṁhyaṅā<lb n="1.21" break="no"/>nugraha I pāduka śrī mahārāja, I knohanya makmitana saṁ hyaṅ ājñā haji tina<milestone type="pagelike" unit="face" n="2" break="no"/><label xml:lang="eng">Back main part</label><lb n="2.1" break="no"/><unclear>ṇḍa ga</unclear><supplied reason="lost">ruḍam</supplied>u<unclear>kha, ma</unclear>karasa, An· su<unclear>m</unclear><choice><orig>i</orig><reg>ī</reg></choice>ma thāninya I muṅgut·, kumabhaktyan<unclear>i</unclear><lb n="2.2" break="no"/>ra buyut· s<unclear>ū</unclear>kṣma <unclear>An</unclear>iddhākna drabya haji paṅaṣṭaṅgī <abbr>mā</abbr> <num value="5">5</num> Aṅkən· katiga māsa, meriṅa sarvvavija lima
+<lb n="2.3"/>sukat· riṁ savulu, kaharan· puṣpapañcopacāra, t<choice><orig>ī</orig><reg>i</reg></choice>la-t<choice><orig>e</orig><reg>ai</reg></choice>la, dh<choice><orig>u</orig><reg>ū</reg></choice>pa, dīpa, gandha, mvaṁ nivedyādi prakāra, pū<lb n="2.4" break="no"/>jāknany<choice><orig>a</orig><reg>ā</reg></choice>ṁkən· katiga māsa,</p> 
+
+<p>mvaṁ tan·tunya I saprakārani<supplied reason="omitted">ṁ maṅilala</supplied> drabya hajī vulu-vulu magəṁ maḍmit· kabeḥ, paṅkur·, tavan·
+<lb n="2.5"/>tirip· ṅuniveḥ sakveḥ saṁ maṅilala vulu-vulu riṁ daṅū, mak<choice><orig>a</orig><reg>ā</reg></choice>diṁ miśra, paramiśra, paṅuraṁ kriṁ, paḍəm· manimpiki pa<lb n="2.6" break="no"/>ranakan·, limus· galuḥ maṁriñca, maṁhuri, paraṁ, suṅka, dhūra, sukun·, sinagiha, kyab· liṅgaṁ, sr̥kan·, halu vara<lb n="2.7" break="no"/>k·, rakadut·, ramanaṅ s<unclear>va</unclear>ra gəṇḍiṁ, piniṁlai, kataṅgaran·, tapa haji, Air haji, malandaṁ, lca, lablab·, pakalaṅkaṁ, kutak·
+<lb n="2.8"/>taṅkil·, tr̥pan·, salyut·, vatu valaṁ, pamanikan·, maniga, sikpan·, rumban·, tirvan·, vilaṁ thāni, viji kavaḥ, tiṅkə<lb n="2.9" break="no"/>s·, māvī, manambaṅi, taṁhiran·, tuha dagaṁ, juru gosalī, maṁrumbai, maṁguñjai, tuh<choice><sic>an</sic><corr>ān n</corr></choice>ambi, juru juḍi, juru jalir·, pabisa<lb n="2.10" break="no"/>r· paguluṁ, pavuṁkunuṁ, vli hapū, vli harR̥ṁ, vli pañjut·, palamak·, Urutan·, dampulan·, tpuṁ kavuṁ, suṁsuṁ paṅuraṁ, pasuk a<lb n="2.11" break="no"/> las·, tikəl· haṅgas·, sipad vilut· jukuṁ, paniṅ-aṅin·, pamavasya, hopan·, panrāṅan·, skār tahun·, paba<unclear>yai</unclear>
+<lb n="2.12"/>paṁ<unclear>rā</unclear>ma, tuluṁ hutaṁ, pobhaya, pacumbi, papr<choice><orig>a</orig><reg>ā</reg></choice>yaścita, kḍi, valyan·, sambal·, sumbul·, hulun· haji,
+<lb n="2.13"/> jəṅgi, siṅgaḥ, pamr̥ṣi, mavuluṁ-vuluṁ, vatək i jro Ityevamādi kabeḥ, tan tamā ta ya Irikanaṁ sīma I
+<lb n="2.14"/> muṅgut· kevalā Ikanaṁ <add place="below">ka</add>rāman· I muṅgut· juga pramāṇa I<supplied reason="omitted">ri</supplied>kā,</p> 
+
+<p>maṅkana Ikanaṁ sukhaduḥkha magə:ṁ maḍmit· ka<lb n="2.15" break="no"/>beḥ, kady aṅgāniṁ mayaṁ tan· pavvaḥ, valū rumambat iṁ natar·, vipati<supplied reason="subaudible">,</supplied> vaṅke kabunan·, rāḥ kasavur iṁ dalan·,
+<lb n="2.16"/>duhilatən·, sāhasa, vākcapala, hastacapala, mamijilakən· vuriniṁ kikir·, mamuk· mamumpaṁ
+<lb n="2.17"/>lūdan·, tūtan·, Aṅśa, pratyaṅśa, ḍəṇḍa kuḍəṇḍa, maṇḍihalādi prakāra, Ann ikanaṁ karāman· I muṅgut· A<lb n="2.18" break="no"/>ta pramāṇā Irikā,</p> 
+
+<p>maṅkana ra<supplied reason="omitted">sa</supplied> <unclear>s</unclear>aṁ hyaṁ ājñā hajī kmitanikanaṁ karāman· I muṅgut·, sapasuk· ṣīma kabeḥ
+<lb n="2.19"/> mvaṁ ri vnaṅanikanaṁ vargga mūla sīma I muṅgut· mapadagaṅa, lvīranya, Atitiḥ rvaṁ siki, Alavay· rvaṁ siki,
+<lb n="2.20"/><unclear>A</unclear>ba<supplied reason="omitted">sa</supplied>na rvaṁ siki, Ac<choice><orig>a</orig><reg>ā</reg></choice>mara rvaṁ siki, Aṅuñjal· rvaṁ siki, Aṅavari rvaṁ siki, Amaṁmaṁ rvaṁ siki, A<unclear>muti-muti</unclear>
+<lb n="2.21"/>rvaṁ siki, paṇḍay· mās· rvaṁ siki, paṇḍay· vsi rvaṁ siki, paṇḍay· tāmra rvaṁ siki, paṇḍay· kaṅśa
+<lb n="2.22"/>rvaṁ siki, Amutər· rvaṁ siki, <unclear>Apa</unclear>rahu rvaṁ siki, Adagaṁ sapi rvaṁ siki, Aṅulaṁ kbo rvaṁ siki, pa<unclear>ram·</unclear><milestone type="pagelike" unit="face" n="3" break="no"/><label xml:lang="eng">Right main part</label><lb n="3.1" break="no"/>ma<unclear>s</unclear>an· rvaṁ siki, mabakulan· rvaṁ
+<lb n="3.2"/>siki, <unclear>ma</unclear>səpahan· rvaṁ siki, ma<lb n="3.3" break="no"/>hī<unclear>ṣṭhva</unclear>n· rvaṁ siki, samaṅkana I<unclear>ka</unclear><lb n="3.4" break="no"/>naṁ karma dagaṁ salviranikanaṁ <unclear>na</unclear>
+<lb n="3.5" break="no"/><gap reason="illegible" quantity="1" unit="character"/>ṁ <unclear>bha</unclear>ṇḍa pamvatanya,</p>
+
+<p>tamola<lb n="3.6" break="no"/>h ata<unclear>ḥ paṅa</unclear>sthāna Irikanaṁ sī<lb n="3.7" break="no"/>ma I muṅgut· <unclear>A</unclear>nn ikanaṁ varga mūla
+<lb n="3.8"/>sīma I muṅgut· Ata<unclear>ḥ v</unclear>āsa-pra<lb n="3.9" break="no"/>māṇa manahi<unclear>la</unclear>na ya drabya haji
+<lb n="3.10"/>tuhun· maveha patūt· pa<lb n="3.11" break="no"/>dulur· juga marayan· mareṁ ⌈<lb n="3.12" break="no"/>deśa salen· mvaṁ yan· pame<lb n="3.13" break="no"/>t· dval·,</p> 
+
+<p>maṅkanātaḥ Ikanaṁ varga
+<lb n="3.14" break="no"/>kilalan·, kliṁ, Ăryya, siṁhala, ⌈<lb n="3.15" break="no"/><unclear>g</unclear>olaviṣaya, coli<add place="below">ka</add>, malyāla, ka<lb n="3.16" break="no"/>rṇn<choice><orig>a</orig><reg>ā</reg></choice>ṭaka, vallahāra, cəmpa, R̥mən·,
+<lb n="3.17"/>havaṁ, mambaṁ, huñjəman·, sen<choice><orig>a</orig><reg>ā</reg></choice>mu<lb n="3.18" break="no"/>kha, varahan·, mapaḍahi, ke<surplus>ñ</surplus>caka<supplied reason="subaudible">,</supplied> 
+<lb n="3.19"/>tarimba, mat<choice><sic>u<unclear>p</unclear>u</sic><corr>apu</corr></choice>kan·, Aba⌈<lb n="3.20" break="no"/>ñol·, salahan· varga kila<lb n="3.21" break="no"/>lan·, Asiṁ samakavarga ya, A<lb n="3.22" break="no"/>siṁ pravr̥tinya, sadeśa-saṁka<unclear>na</unclear><lb n="3.23" break="no"/>nya<unclear>,</unclear> yāvat ya muṅgu Irikeṁ sīma
+<lb n="3.24"/>I muṅgut·, An ikanaṁ varga mūla sī<lb n="3.25" break="no"/>ma I muṅgut· Atikā pramāṇa
+<lb n="3.26"/>I sukhaduḥkhanya magəṁ maḍmit· ka<lb n="3.27" break="no"/>beḥ, tumūtak<unclear>na</unclear> yacānyayan i<lb n="3.28" break="no"/>ka masthānabati ri sājñānya mapa<lb n="3.29" break="no"/>knā tambəhani pamūjanya, buyut·
+<lb n="3.30"/>śūkṣma,</p> 
+
+<p>maṁkana rasany anugraha śrī
+<lb n="3.31"/>mahāraja, Irikanaṁ varga mūla sīma
+<lb n="3.32"/>I muṅgut· sapasuk ṣīma kabeḥ
+<lb n="3.33"/>kapagəhaknanyan· tamolaḥ I
+<lb n="3.34"/>pana<space type="defect"/>taranya sovaṁ-sovaṁ tan·
+<lb n="3.35"/>kolah-ulaha de sa<supplied reason="omitted">ṅ a</supplied>nāgata pra<lb n="3.36" break="no"/>bhu, <unclear>mvaṁ saṅ anāgata vineḥ tiṁha</unclear><milestone type="pagelike" unit="face" n="4" break="no"/><label xml:lang="eng">Left main part</label>
+<lb n="4.1" break="no"/><supplied reason="lost">l· piṁhay</supplied>·, <unclear>ma</unclear>katə<unclear>vəka</unclear>
+<lb n="4.2"/> <supplied reason="lost">śrī ma</supplied><unclear>h</unclear>ārāja ri maṇiratnasi<lb n="4.3" break="no"/><supplied reason="lost">ṅhāsa</supplied>na makaḍatvan· vvatan mās·<supplied reason="subaudible">,</supplied></p>
+
+<p><lb n="4.4" break="no"/>yapvan· hana sira kamatan·
+<lb n="4.5"/> tan· yatnā I sara<supplied reason="omitted">sa</supplied>ny ājñā śr<choice><orig>i</orig><reg>ī</reg></choice> ma<lb n="4.6" break="no"/>hāraja, Umulah-ulaḥ Ikeṁ
+<lb n="4.7"/>sīma I muṅgut·, ya saṅkāna<lb n="4.8" break="no"/>ni pramādanya, salvirani la<unclear>ṅgha</unclear><lb n="4.9" break="no"/><unclear>na</unclear> ri saṁ hyaṅ ājñā haji lviranya
+<lb n="4.10"/> knāna ya <space type="defect"/> nigraha <abbr>mā</abbr> <abbr>kā</abbr> <num value="1">1</num> <abbr>su</abbr>
+<lb n="4.11"/><num value="5">5</num></p> 
+
+<p>Īndaḥ ta kita bhaṭāra <unclear>śrī</unclear>
+<lb n="4.12"/>haricandana, Agasti, mahārṣ<unclear>i</unclear>,
+<lb n="4.13"/>pūrbva, dakṣiṇa, paścima, Uttarā<lb n="4.14" break="no"/>gneya<unclear>,</unclear> neriti, b<choice><orig>a</orig><reg>ā</reg></choice>yabya, Urd<unclear>dhva</unclear>ma<lb n="4.15" break="no"/>dhaḥ raviḥ śaśi kṣiti jala pavana
+<lb n="4.16"/>hutāsana ya<supplied reason="omitted">ja</supplied>māṇākāśa, A<lb n="4.17" break="no"/>hor<choice><orig>a</orig><reg>ā</reg></choice>tra sandhyā, nāgarāja durg<choice><orig>a</orig><reg>ā</reg></choice><lb n="4.18" break="no"/>devī, sahananta hyaṁ kālamr̥tyu
+<lb n="4.19"/>yama baruṇa kuvera bāsava <unclear>ki</unclear><lb n="4.20" break="no"/>ta masuki manar<choice><orig>i</orig><reg>ī</reg></choice>rerika vva<unclear>ṁ</unclear> sa<unclear>r</unclear>va<lb n="4.21" break="no"/>siddha rikiṁ jagat·, yāvat· bhaṅ<unclear>gi</unclear>
+<lb n="4.22"/>gaṇa-gaṇa vna<unclear>ṅa</unclear>, Umulah-ulaḥ I<lb n="4.23" break="no"/>keṁ sīma I muṅgut· patyanantā ya
+<lb n="4.24"/>kamuṁ hyaṁ ś<choice><orig>u</orig><reg>ū</reg></choice>kṣma, deyantat· pa<lb n="4.25" break="no"/>tīya, ta<unclear>t· to</unclear>liha ri vuntat·
+<lb n="4.26"/>ta<choice><orig>t</orig><reg>t t</reg></choice>iṅhala ri likuran·, taruṁ riṅ adga<lb n="4.27" break="no"/>n·, tampyal· <unclear>I</unclear> hiriṅan·, tutu<lb n="4.28" break="no"/>ḥ tuṇḍanya, blaḥ kapālanya, carika<lb n="4.29" break="no"/>kan· vtaṅnya, <unclear>vtvakə</unclear>n daL̥manya, pa<lb n="4.30" break="no"/>ṅan dagiṁnya, Inum· rāḥnya <unclear>vkasakə</unclear><lb n="4.31" break="no"/>n· pranantika, <unclear>yan pare</unclear>ṅ alas·
+<lb n="4.32"/><gap reason="illegible" unit="character" quantity="5"/>paraniṁ moṁ sa<gap reason="ellipsis"/>
+                    
+<milestone type="pagelike" unit="face" n="5"/><label xml:lang="eng">Back: Additional lines at top</label>
+<lb n="5.1"/><gap reason="illegible" quantity="5" unit="character"/>
+<lb n="5.2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">sa</supplied>mb<supplied reason="lost">ə</supplied>R̥n<unclear>i</unclear><supplied reason="lost">ṁ</supplied> glap·, puliraknaniṁ devamanyu<gap reason="ellipsis"/>
+
+<milestone type="pagelike" unit="face" n="6"/><label xml:lang="eng">Right upper part</label>
+<lb n="6.1"/><gap reason="illegible" quantity="4" unit="character"/> (p)ināna <gap reason="illegible" quantity="3" unit="character"/>
+<lb n="6.2"/><gap reason="illegible" quantity="6" unit="character"/> bhraṣṭa lipu<lb n="6.3" break="no"/><gap reason="illegible" quantity="7" unit="character"/> <unclear>tan· sva</unclear> <gap reason="illegible" quantity="2" unit="character"/>
+<lb n="6.4"/><gap reason="illegible" quantity="1" unit="character"/> piṁpitu A<space type="defect"/>ta yan· bimba<lb n="6.5" break="no"/>n· pāpāta sajīvakāla, maṁ<lb n="6.6" break="no"/>kana tmahananikeṁ vvaṁ Anyāya
+<lb n="6.7"/>Um<unclear>u</unclear>lah-ula<unclear>ḥ Ik</unclear>eṁ sīma I mu</p><gap reason="ellipsis"/> 
+
+<p><milestone type="pagelike" unit="face" n="8"/><label xml:lang="eng">Front Additional lines at top</label>
+<lb n="8.1"/>rva<unclear>ṁ</unclear> <num value="977">977</num> kā<unclear>la</unclear>
+<lb n="8.2"/>sa<supplied reason="lost">ṁ</supplied> hadyan· <unclear>j</unclear>ujul· sulur· kabayan·</p>
+            
+<p><milestone type="pagelike" unit="face" n="9"/><label xml:lang="eng">Front Additional line at bottom</label>
+<lb n="9.1"/>guve Ubena giditikəm·, cacəm·, ṅayai</p>
+              </div>
+         <div type="apparatus">
+           <!--apparatus encoded as per EG §9.1, basic elements for apparatus below-->
+               <listApp><!-- one <app> for each apparatus entry -->
+                   <app loc="1.2">
+                       <lem>kr̥tikā<surplus>raṇa</surplus>-nakṣatra</lem>
+                       <rdg source="bib:Damais1955_01 bib:TitiSurtiNastiti+al2012_01">kr̥tikāraṇanakṣatra</rdg>
+                       <rdg source="bib:MachiSuhadi+RichadianaKartakusuma1996_01">kati karaṇa nakṣatra</rdg>
+                       <rdg source="bib:NinnySusantiTejowasono2003_01">katikāraṇa nakṣatra</rdg>
+                       <note>on the eccentric form of the <foreign>nakṣatra</foreign> name engraved here, Damais wrote: “We will study elsewhere the aberrant forms of certain calendrical elements in Airlangga’s charters and comparable to the <foreign>kṛtikāraṇanakṣatra</foreign> of this inscription” (<bibl rend="omitname"><ptr target="bib:Damais1955_01"/><citedRange unit="page">64</citedRange><citedRange unit="note">3</citedRange></bibl>). As far as we are aware, Damais was never able to publish his observations on these aberrant elements. If we are not mistaken, the discussion in Eade &amp; Gislén <bibl rend="omitname"><ptr target="bib:Eade+Gislen2000_01"/><citedRange unit="page">71–72</citedRange></bibl>, which we find difficult to understand, touches upon the fact that the inscription seems to indicate Kr̥ttikā as <foreign>nakṣatra</foreign>, whereas the real <foreign>nakṣatra</foreign> was Revatī; we do not know whether this was the aberration that Damais had in mind, or whether he was rather alluding to the aberrant form of the name itself, which seem to be a contamination before <foreign>nakṣatra</foreign> of <foreign>kr̥t(t)ikā</foreign> with <foreign>karaṇa/kāraṇa</foreign> (on the interchangeability of the spelling, see Damais <bibl rend="omitname"><ptr target="bib:Damais1955_01"/><citedRange unit="page">64</citedRange><citedRange unit="note">4</citedRange></bibl>).</note>
+                   </app>
+                   <app loc="1.5">
+                       <lem source="bib:MachiSuhadi+RichadianaKartakusuma1996_01">kumonakən ikanaṁ</lem>
+                       <rdg source="bib:Damais1955_01 bib:TitiSurtiNastiti+al2012_01">kumonakən nikanaṁ</rdg>
+                       <rdg source="bib:NinnySusantiTejowasono2003_01">kumonakenikaṁ</rdg>
+                   </app>
+                   <app loc="1.6">
+                       <lem source="bib:Damais1955_01 MachiSuhadi+RichadianaKartakusuma1996_01 bib:NinnySusantiTejowasono2003_01 bib:TitiSurtiNastiti+al2012_01">thāni</lem>
+                       <note>Damais’ reading breaks off at this point.</note>
+                   </app>
+                   <app loc="1.6">
+                       <lem source="bib:TitiSurtiNastiti+al2012_01">kab<choice><sic>a</sic><corr>e</corr></choice>ḥ</lem>
+                       <rdg source="bib:MachiSuhadi+RichadianaKartakusuma1996_01">kabaḥ</rdg>
+                       <rdg source="bib:NinnySusantiTejowasono2003_01">kabeḥ</rdg>
+                       <note>Cf. 1.19, Ninny silently corrected the reading</note>
+                   </app>
+                   <app loc="1.6">
+                       <lem source="bib:TitiSurtiNastiti+al2012_01">tka ri babadnya, maṅaran·</lem>
+                       <rdg source="bib:MachiSuhadi+RichadianaKartakusuma1996_01 bib:NinnySusantiTejowasono2003_01">tka ni papadya maṅaran</rdg>
+                       <note>Machi Suhadi &amp; Richadiana Kartakusuma’s reading (reproduced by Ninie Susanti) breaks off at this point. The expression <foreign>tka ri badbadnya</foreign> occurs several times in the <ref target="DHARMA_INSIDENKCane.xml">Cane</ref> inscription (Ab6, 24, 25; Cd9, 11, 22).</note>
+                   </app>
+                   <app loc="1.6">
+                       <lem source="bib:TitiSurtiNastiti+al2012_01">kilano</lem>
+                       <note>The apparent <foreign>anusvāra</foreign> on <foreign>akṣara la</foreign> seems to be due to an irregularity in the stone, so we ignore it.</note>
+                   </app>
+                   <app loc="1.8">
+                       <lem>ba<lb n="1.9" break="no"/>hum<unclear>a</unclear>n·</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01">dahurman·</rdg>
+                       <note>Ee initially interpreted the crescent-shaped mark above the <foreign>ma</foreign> as an <foreign>ulu</foreign>, until we realized that all <foreign>ulu</foreign>s in this inscription are of circular form. We therefore propose to consider it as the beginning of a <foreign>virāma</foreign> sign that the scribe did not continue once he realized he had started engraving the <foreign>virāma</foreign> one <foreign>akṣara</foreign> too early. It seems that the <foreign>ma</foreign> in <foreign><unclear>ḍaL̥</unclear>man·</foreign> in line 12 may show the same phenomenon.</note>
+                   </app>
+                  <app loc="1.12">
+                       <lem><unclear>ḍaL̥</unclear>man·</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01">Abaman·</rdg>
+                       <note>see our note on ba<lb n="1.9" break="no"/>hum<unclear>a</unclear>n· in lines 8–9</note>
+                   </app>
+                   <app loc="1.12">
+                       <lem>daḍatañjamī</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01">ḍetakdamīyurat·</rdg>
+                       <note>perhaps one must read <foreign>ḍetañjamī</foreign>?</note>
+                   </app>
+                   <app loc="1.18">
+                       <lem>pa<unclear>gə</unclear>-pagəḥ</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01">-i pagəh</rdg>
+                       <note>For similar phrase, see <ref target="DHARMA_INSIDENKKusambyan.xml">Kusambyan</ref> A37–38 and <ref target="DHARMA_INSIDENKSimaAnglayang.xml">Sima Angalayang</ref> 13v3.</note>
+                   </app>
+                   <app loc="2.2">
+                       <lem><unclear>An</unclear>iddhākna drabya haji paṅaṣṭaṅgī <abbr>mā</abbr> <num value="5">5</num> Aṅkən· katiga māsa</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01">niddhakna drabya haji paṅaṣṭaṅgī <abbr>mā</abbr> <num value="5">5</num> Aṅkən· katiga māsa</rdg>
+                       <note>Cf. <ref target="DHARMA_INSIDENKTurunHyang.xml">Turun Hyang</ref> A17 <foreign>kramanya maniddhākna drabya haji paṅaṣṭaṅgi mās <supplied reason="omitted">s</supplied>u 2 mijil aṅkən asujimāsa</foreign></note>
+                   </app>
+                   <app loc="2.3">
+                       <lem>t<choice><orig>ī</orig><reg>i</reg></choice>la-t<choice><orig>e</orig><reg>ai</reg></choice>la</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01">tīla, tela</rdg>
+                   </app>
+                   <app loc="2.4">
+                       <lem>saprakārani<supplied reason="omitted">ṁ maṅilala</supplied> drabya hajī vulu-vulu</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01">saprakārani drabya haji vulu vulu</rdg>
+                       <note>The need to supply at least the article <foreign>ṁ</foreign> (if not <foreign>kanaṁ</foreign>) plus <foreign>maṅilala</foreign> is shown by many parallel passages. (See the next footnote for some examples.) The specific word we assume here, with <foreign>saprakāraniṁ maṅilala</foreign>, is not found elsewhere in the Airlangga corpus (where the normal expression is <foreign>saprakāra saṁ maṅilala</foreign>), but we encounter it in several inscriptions of the reigns of Balitung and Sindok.</note>
+                   </app>
+                   <app loc="2.5">
+                       <lem>saṁ maṅilala vulu-vulu ri daṅū</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01">saṁ maṅilala vulu vulu ri daṅu</rdg>
+                       <note>We expect here <foreign>saṁ maṅilala drabya haji vulu-vulu ri daṅū</foreign>. Cf. <ref target="DHARMA_INSIDENKSimaAnglayang.xml">Sima Anglayang</ref> 14r4–5 <foreign>saṁ maṅilala drabya haji vulu-vulu</foreign> and 16v6–7 <foreign>samaṅilala dr̥vya haji vulu-vulu magə:ṁ maḍm<supplied reason="omitted">i</supplied>t·</foreign> as well as <ref target="DHARMA_INSIDENKPadleganI.xml">Padlegan I</ref> (1038 Śaka) <foreign>saṅ maṅilala dravya haji vulu-vulu riṅ daṅū agə:ṅ aḍmit</foreign>. But in the present context, the words <foreign>drabya haji</foreign> were perhaps felt still to be in force from the previous line.</note>
+                   </app>
+                   <app loc="2.7">
+                       <lem>ramanaṅ s<unclear>va</unclear>ra gəṇḍiṁ</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01">ramana<supplied reason="omitted">ṁ</supplied> magəṇḍi</rdg>
+                       <note>The reading is rather uncertain, all the more so as the words <foreign>svara gəṇḍiṁ</foreign> are not found in any of the numerous other instances of this kind of list known to us.</note>
+                   </app>
+                   <app loc="2.9">
+                       <lem>tuh<choice><sic>an</sic><corr>ān n</corr></choice>ambi</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01">tuha nambi</rdg>
+                   </app>
+                   <app loc="2.11">
+                       <lem source="bib:TitiSurtiNastiti+al2012_01">jukuṁ</lem>
+                       <note>Although this word is more often spelled with a nasal on the first syllable (e.g. <ref target="DHARMA_INSIDENKKusambyan.xml">Kusambyan</ref> B13 and <ref target="DHARMA_INSIDENKAnjatan.xml">Anjatan</ref> 3r1 <foreign>juṅkuṁ</foreign>, <ref target="DHARMA_INSIDENKPandaan.xml">Pandaan</ref> C11 <foreign>juṁkuṁ</foreign>), there is also a fair number of occurrences without that nasal (e.g. <ref target="DHARMA_INSIDENKBaru.xml">Baru</ref> Abe24) so we do not supply a <foreign>cecak</foreign>.</note>
+                   </app>
+                   <app loc="2.11">
+                       <lem source="bib:TitiSurtiNastiti+al2012_01">paba<unclear>yai</unclear></lem>
+                       <note>The use of this term with <foreign>skar tahun</foreign> and <foreign>paṅrāma</foreign> around it is quite typical of the inscriptions known or suspected to belong to the Airlangga period. It is pabaye in <ref target="DHARMA_INSIDENKCane.xml">Cane</ref> and <ref target="DHARMA_INSIDENKTurunHyang.xml">Turun Hyang</ref>, pabayai in <ref target="DHARMA_INSIDENKAdulengen.xml">Adulengen</ref>, <ref target="DHARMA_INSIDENKBarsahan.xml">Barsahan</ref> and <ref target="DHARMA_INSIDENKAnjatan.xml">Anjatan</ref> in the same contexts.</note>
+                   </app>
+                   <app loc="2.20">
+                       <lem>A<unclear>muti-muti</unclear></lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01">Amutərmutə<supplied reason="omitted">r</supplied></rdg>
+                       <note>Various alternative readings are imaginable, depending on whether the word ended at the end of line 2.20, or whether anything was engraved before <foreign>rvaṁ</foreign> at the beginning of line 21, and on how the horizontal stroke above the penultimate <foreign>akṣara</foreign>s of line 2.20 is explained. Neither the reading tentatively adopted here, nor any of the alternatives we have considered (<foreign>Amutər-mutəra, Amuti-mutiḥ, Amutirmutəḥ</foreign>), yield a word that is expected in this context.</note>
+                   </app>
+                   <app loc="3.2">
+                       <lem>ma<lb n="3.3" break="no"/>hī<unclear>ṣṭhva</unclear>n·</lem>
+                       <note>The reading <foreign>ṣṭhva</foreign> is purely diagnostic, for we see an <foreign>akṣara</foreign> with two <foreign>pasangan</foreign>s below it, but do not recognize which word is intended here so we offer merely what seems to be a possible reading of the problematic ligature.</note>
+                   </app>
+                   <app loc="3.4">
+                       <lem>salviranikanaṁ <unclear>na</unclear><lb n="3.5"/><gap reason="illegible" quantity="1" unit="character"/>ṁ <unclear>bha</unclear>ṇḍa pamvatanya</lem>
+                       <note>We seem to have here a somehow expanded version of the expression found as <foreign>salvīrani bhaṇḍanya kabeḥ</foreign> in <ref target="DHARMA_INSIDENKCane.xml">Cane</ref> Cd21 and as <foreign>salviraniṅ bhaṇḍanya</foreign> in <ref target="DHARMA_INSIDENKPatakan.xml">Patakan</ref> B22. There seems to be an intrusive <foreign>pasangan</foreign> or full interlinear <foreign>akṣara</foreign> below the <foreign>sa</foreign> of <foreign>salviranikanaṁ</foreign> as well as an intrusive <foreign>ṅa</foreign> or <foreign>U</foreign> engraved below the <foreign>pa</foreign> of <foreign>pamvatanya</foreign>.</note>
+                   </app>
+                   <app loc="3.5">
+                       <lem>tamola<lb n="3.6"/>h ata<unclear>ḥ paṅa</unclear>sthāna </lem>
+                       <note>The reading is rather uncertain, but <foreign>paṅasthāna</foreign> occurs in a similar context in <ref target="DHARMA_INSIDENKSimaAnglayang.xml">Sima Anglayang</ref> 4v4–5.</note>
+                   </app>
+                   <app loc="3.7">
+                       <lem><unclear>A</unclear>nn ikanaṁ</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01">sannikanaṁ</rdg>
+                       <note>Instead of <foreign>A</foreign>, it would be easier to read <foreign>sa</foreign>, but this is hard to accept in the context. The turn of phrase <foreign>ann ikanaṅ</foreign> was also found above in 2.17.</note>
+                   </app>
+                   <app loc="3.19">
+                       <lem>mat<choice><sic>u<unclear>p</unclear>u</sic><corr>apu</corr></choice>kan·</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01">matuvuṅan·</rdg>
+                       </app>
+                   <app loc="3.27">
+                       <lem>tumūtak<unclear>na</unclear> yacānyayan i<lb n="3.28" break="no"/>ka masthānabati ri sājñānya</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01">tumutaku yavanya ya ni<supplied reason="omitted">ṁ</supplied> kamaśthanaṁ kaki ri sājmanya</rdg>
+                       <note>We are unable to understand thi sequence, and therefore uncertain about some of the readings as well as the word divisions. We suspect <foreign>yacānyayan</foreign> may be a scribal error for <foreign>yathānyayan</foreign> or <foreign>yavānya</foreign> yan, but in neither case do we obtain an understandable text. More substantial emendation seems to be necessary.</note>
+                   </app>
+                  <app loc="3.34">
+                       <lem>pana<space type="defect"/>taranya sovaṁ-sovaṁ tan· <lb n="3.35"/>kolah-ulaha de sa<supplied reason="omitted">ṅ a</supplied>nāgata pra<lb n="3.36" break="no"/>bhu, <unclear>mvaṁ saṅ anāgata vineḥ tiṁha</unclear><milestone type="pagelike" unit="face" n="4" break="no"/><label xml:lang="eng">Left main part</label> <lb n="4.1" break="no"/><supplied reason="lost">l· piṁhay</supplied>·, <unclear>ma</unclear>katə<unclear>vəka</unclear> <lb n="4.2"/> <supplied reason="lost">śrī ma</supplied><unclear>h</unclear>ārāja ri maṇiratnasi</lem>
+                       <note>This reconstruction is inspired by <ref target="DHARMA_INSIDENKCane.xml">Cane</ref> Cd24–25: <foreign>tan· kolah-ulaha de saṁ Anāgata-prabhu ṅuniveḥ saṁ Anāgata vineḥ tiṅhal· piṁhai makatəvəka paṁḍiri śrī mahārāja ri maṇiratnasiṅhāsana makaḍatvan· ri vvatan mās</foreign>. Nevertheless it is quite hypothetical, among other reasons because (1) the number of <foreign>akṣaras</foreign> on line 4.1 resulting from the reconstruction is 9, while the following lines have more; (2) the precise spelling <foreign>piṁhay·</foreign>, known in other periods, is never found in other Airlangga inscriptions.</note>
+                   </app>
+                   <app loc="4.4">
+                       <lem>yapvan· hana sira kamatan· <lb n="4.5"/> tan· yatnā I sara<supplied reason="omitted">sa</supplied>ny ājñā śr<choice><orig>i</orig><reg>ī</reg></choice> ma<lb n="4.6" break="no"/>hāraja, Umulah-ulaḥ Ikeṁ<lb n="4.7"/>sīma I muṅgut·, ya saṅkāna<lb n="4.8" break="no"/>ni pramādanya, salvirani la<unclear>ṅgha</unclear><lb n="4.9" break="no"/><unclear>na</unclear> ri saṁ hyaṅ ājñā haji lviranya<lb n="4.10"/> knāna ya <space type="defect"/> nigraha <abbr>mā</abbr> <abbr>kā</abbr> <num value="1">1</num> <abbr>su</abbr><lb n="4.11"/><num value="5">5</num></lem>
+                       <note>Cf. <ref target="DHARMA_INSIDENKBaru.xml">Baru</ref> Cf8–10 <foreign>kapvātikā tan· bari-barin denira, yathānya tan· pamuhara pramāda riṁ sira yāpvan hana sira kamatan· tan· yatna I sarasa (saṁ) hyaṅ ajñā haji tāmraprasāsti kmitanikanaṁ karāman· riṁ baru sapaśuk thāni matuha manvam· kabeḥ, ya saṅkānani pramādanya salvirniṁ laṅghana saṁ hyaṅ ājñā haji lviranya knāna nigraha kā 2 mās ⟨s⟩u 10</foreign> and <ref target="DHARMA_INSIDENKSimaAnglayang.xml">Sima Anglayang</ref> 4v3–5 <foreign>yāpvan hana baṇigrāma mvaṁṅ ikaṁ s<choice><orig>i</orig><reg>ī</reg></choice>māṅlayaṁ kamatān· kentasa tan pasuṁ ri kapālihani dr̥ byanika(ṁ) madaga(ṁ) pjaḥ An<choice><orig>a</orig><reg>ā</reg></choice>patya, yāvat tamolaḥ I saṁ hyaṁ sarvvadharmma, mvaṁ paṅasthāna ri jātakanira, ya saṁkanāni pramādanya, salvirniṁ laṅghana I saṁ hyaṁṅ ājñā haji lvirānya, knāna ya nigraha, mā (k)ā 1, su 5 //</foreign>. There is also a damaged parallel passage in <ref target="DHARMA_INSIDENKPandaan.xml">Pandaan</ref> B17–18 <foreign>yāpvan hana sira kamatan ta[n yatna I] saraśa saṁ hyaṅ ājñā haji, ya saṁkanani pramādanya, salvīrnīṁ laṅghana [I] saṁ hyaṅ ājṅā haji lvīranya, knāna ya nigraha mā kā [1 su] 5</foreign>.</note>
+                   </app>
+                   <app loc="4.5">
+                       <lem>sara<supplied reason="omitted">sa</supplied>ny</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01">sarany</rdg>
+                       <note>cf. <ref target="DHARMA_INSIDENKBaru.xml">Baru</ref> Cdef lines 8 and 39, and <ref target="DHARMA_INSIDENKGandhakuti.xml">Gandhakuti</ref> 4v5.</note>
+                   </app>
+                   <app loc="4.25">
+                       <lem>ta<unclear>t· to</unclear>liha</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01"><supplied reason="lost">tat tano</supplied>liha</rdg>
+                       <note>The presence of a large irregularity in the surface of the stone and the descending parts of the word s<choice><orig>u</orig><reg>ū</reg></choice>kṣma in line 24 make it hard to recognize the segment <foreign>t· to</foreign> that is expected on the basis of <ref target="DHARMA_INSIDENKTerepII.xml">Terep II</ref>Terep II 8r1 and <ref target="DHARMA_INSIDENKPandaan.xml">Pandaan</ref> B26.</note>
+                   </app>
+                  <app loc="4.26">
+                       <lem>ta<choice><orig>t</orig><reg>t t</reg></choice>iṅhala</lem>
+                       <rdg source="bib:TitiSurtiNastiti+al2012_01"><unclear>tat</unclear>tiṅhala</rdg>
+                       <note>Cf. <ref target="DHARMA_INSIDENKBimalasrama.xml">Bimalasrama</ref> 12r7 and <ref target="DHARMA_INSIDENKTerepII.xml">Terep II</ref> 8r1.</note>
+                   </app>
+                   <app loc="4.31">
+                       <lem><unclear>yan pare</unclear>ṅ alas· <lb n="4.32"/><gap reason="illegible" unit="character" quantity="5"/>paraniṁ moṁ</lem>
+                       <note>It seems that there may be about five <foreign>akṣara</foreign>s engraved on the left half of line 4.32, but if indeed any were engraved here they must have been wholly or partially superfluous, as there are numerous parallels for the phrase <foreign>yan pareṅ alas paṅananiṁ moṁ</foreign> or <foreign>yan pareṅ alas dmakniṁ moṁ</foreign>, where nothing ever intervenes between alas and the passive irrealis form of <foreign>paṅan</foreign> or <foreign>dmak</foreign>. Based on the parallels, it also seems that paraniṁ is an error for <foreign>paṅananiṁ</foreign>.</note>
+                   </app>
+                   <app loc="6.4">
+                       <lem>A<space type="defect"/>ta yan· bimba<lb n="6.5" break="no"/>n· pāpāta sajīvakāla</lem>
+                       <note>There are no exact parallels for this passage in the Airlangga corpus, but there is a partial one in Kusambyan d33–34, while more extensive ones are found in the inscriptions of the time of Sindok. After <foreign>piṁpitu</foreign>, we normally find the words <foreign>ata yan bimbān pāpa ata ya saṁsāra sajīvakāla</foreign> (<ref target="DHARMA_INSIDENKLinggasuntan.xml">Linggasuntan</ref> C42; <ref target="DHARMA_INSIDENKParadahII.xml">Paradah II</ref> 2B15; <ref target="DHARMA_INSIDENKAlasantan.xml">Alasantan</ref> 4r9) or <foreign>ata yan bimban pāpa ata ya kadi lavas saṅ hyaṅ candrāditya</foreign> (<ref target="DHARMA_INSIDENKAnjukLadang.xml">Anjuk Ladang</ref> C21). Although the entire passage is badly weathered, the proposed reading seems possible, but we cannot find any trace of <foreign>ya saṁsāra</foreign>.</note>
+                   </app>
+                   <app loc="9.1">
+                       <lem>guve Ubena giditikəm·, cacəm·, ṅayai</lem>
+                       <note>The reading of this line is extremely uncertain. Seemingly it consists only in proper names, none of which are recognizable with certainty</note>
+                   </app>
+               </listApp>
+         </div>
+         <div type="translation" resp="part:argr">
+<p n="1.1-1.3">Hail! Elapsed Śaka year 944, month of Caitra, fourteenth <foreign>tithi</foreign>, waning fortnight, Vurukuṅ, Pahiṅ, Tuesday, <supplied reason="subaudible">the Vuku being</supplied> Balamuki, lunar mansion Kr̥ttikā, the deity Dahana <supplied reason="explanation">i.e., Agni</supplied>,<note>On the use of synonyms for deity names, see Gomper (<bibl rend="omitname"><ptr target="bib:Gomperts2001_01"/><citedRange unit="page">101–103</citedRange><citedRange unit="note">10</citedRange></bibl>).</note> the conjunction Āyuṣmān, the <foreign>karaṇa</foreign> Vaṇija.</p>
+
+<p n="1.3–1.6">That was the time when the decree of the Great King, the Lord of <supplied reason="explanation"><foreign>rakai</foreign>, i.e. <foreign>rakryān i</foreign></supplied> Halu, Śrī Lokeśvara Dharmavaṅśa Airlaṅga Anantavikramottuṅgadeva, was received by the Lady <supplied reason="explanation"><foreign>rakryān</foreign></supplied> the Great Minister of Hino <supplied reason="explanation">named</supplied> Śrī Saṅgrāmavijayaprasādottuṅgadevī. It came down to the Lord of Paḍaṅ <supplied reason="explanation">named</supplied> <foreign>pu</foreign> Dvija. It gave an order with regard to the community in Muṅgut including all its <supplied reason="explanation">constituent</supplied> villages <supplied reason="explanation"><foreign>sapasuk thāni</foreign></supplied> up to its <supplied reason="explanation">forest</supplied> clearings.<note>The expression <foreign>sapasuk thāni</foreign> (which might also be translated ‘including all its village
+inhabitants’) occurs again in 1.19, but is then changed to <foreign>sapasuk sīma</foreign> in 2.18 and 3.32. Evidently, the change in terminology from <foreign>thāni</foreign> to <foreign>sīma</foreign> is a direct consequence of the grant recorded in lines 1.18 to 2.4.</note></p>
+
+<p n="1.6–1.14"><supplied reason="subaudible">The inhabitants</supplied> were named: Aṇḍuk, Bara, Marma, Cucya, Geḍoh, Bəcəm, Bajəm, Buṅah, Dītən, Bijo, Kuniṅ, Kəmboṅ, Kilano, Gajusa, Tiṅgal, Gantar, Liṇḍuṅ, Rəmban, Tuñjuṅ, ... do, Marum, Beca, Vecuṅ, Kuruk Ləca, Bəntələ, Rəntap Bahuman, Robhana, the mother of Ran named Ḍərən, Gosəṅ, Pəlī, Kəleṅ, Bavvat, Godhanā, Ṅitam, Basakaṅ, Garuṅ, Aṣṭamī, Adinəm, Śoḍagañciṅ, Bamī, Aṣṭi, Parah, Śrīnam, Iṅgut, Vatəhər, Ḍintən Jenī,<note>The name Dintən stands so close to the right end of the front face that even its final consonant and virāma cannot be read with confidence. It is imaginable that the scribe, had space been sufficient, would have inserted a comma between this name and Jenī at the beginning of the next line — in other words, that we are dealing with two names and not one.</note> Gr̥ha, Dhārya, Kesar, Nadī, Untal, Bənər, Uṅabakaḍut, Lutilaya, Sabhāmogha, Gəḍe, Bayog, Ḍaləman, Maraṇa, Daḍatañjamī, Surat, Pagəh,<note>It is tempting to see in the words <foreign>surat pagəḥ</foreign> some kind of expression introducing a short list of names, but the punctuation of the text rather suggests that the words are themselves also names rather than common nouns in this context.</note> Śrīmato, Iyo, Tuvuh, Kuniṅ, Niki, Gokəm, Mūlū, Sabotī, Boḍatəm, Pənəd, Kejī, Kedranī, Patyən, Bhuvanaṇī, Rimpiṅ, Godrəsa, Ajum, Dhəti, Hambəṅ, Sadī.</p>
+
+<p n="1.14–1.17">The community occupational groups <supplied reason="explanation"><foreign>*vulu</foreign></supplied>:
+<list><item><foreign>patṅahan</foreign>s:106 Rapih,AkəmbaṅTrəpiṅ,AbūbuhAuḍi,Atahun,Gorsatəm.</item> 
+<item>scribes <supplied reason="explanation"><foreign>pañarikan</foreign></supplied>: Sudvinəm,Saṅkuba, Landəsoḍi, Gəvəg, Bhuvaṇa,
+Bata, Madoti, Ampaṅ, Galuh, Baṣūddha, Jujul, Sulur.</item>
+<item><foreign>vinəkas</foreign>: Bagnalo.</item>
+<item>in the first place the two chiefs <supplied reason="explanation"><foreign>kabayan</foreign></supplied> named Japo <supplied reason="subaudible">and</supplied> Vvātan.</item></list></p>
+
+<p n="1.17–1.18"><supplied reason="subaudible">The order was</supplied> that they should make the holy royal decree in the form of an edict as confirmatory document sealed with the Garuḍa-face, to be kept in custody.</p>
+
+<p n="1.18–2.4">The occasion: the community in Muṅgut including all its constituent villages, all together took counsel with and paid homage to all high functionaries of the council <supplied reason="explanation"><foreign>taṇḍa rakryān ri pakira-kirān</foreign></supplied>,<note>Boechari (<bibl rend="omitname"><ptr target="bib:Boechari1962_01"/><citedRange unit="page">57</citedRange></bibl>; <bibl rend="omitname"><ptr target="bib:Boechari1963_01"/><citedRange unit="page">126</citedRange></bibl>; <bibl rend="omitname"><ptr target="bib:Boechari2012_06"/><citedRange unit="page">75, 109</citedRange></bibl>) has suggested that the <foreign>taṇḍa rakryān pakira-kirān</foreign> are first mentioned in the Kediri period, but he seems to have overlooked the occurrence in the <ref target="DHARMA_INSIDENKAdulengen.xml">Adulengen</ref> inscription which was known to him as Kakurugan. They also occur in <ref target="DHARMA_INSIDENKSimaAnglayang.xml">Sima Anglayang</ref> 4v7 and 13r4.</note> [but] in the first place to His Majesty the Great King, having as purpose to beg His Majesty the Great King for the grant that it would be proper<note>The phrase <foreign>maṅhyaṅ ri knohanya</foreign> occurs also in <ref target="DHARMA_INSIDENKCane.xml">Cane</ref> Ab.24–26: <foreign>maṁhyaṁ ri knohanya sumīma thāninya I cane, sīma karāmān·, phalānyan· prasiddha sāra, pinakapanpi kulvan·, maṅkana rasani panambaḥ, nikanaṁ karāmān· I cane sapaśuk thāni tka ri babadnya, kunaṁ saṅkā ri gə:ṁnyānumoda śrī mahārāja ri sapaṁhyaṁnikanaṅ karāmān· I cane</foreign>. Related passages with the keyword <foreign>knoh</foreign> are also found in <ref target="DHARMA_INSIDENKTurunHyang.xml">Turun Hyang</ref> A4 and <ref target="DHARMA_INSIDENKBularut.xml">Bularut</ref> C14.</note> for them to keep in custody a holy royal decree sealed with the Garuḍa-face, having as substance to make the village of Muṅgut into a <foreign>sīma</foreign>, worshiping the invisible ancestors <supplied reason="explanation"><foreign>*buyut sūkṣma</foreign></supplied><note>We have difficulty understanding the syntax of the words <foreign>kumabhaktyanira buyut sūkṣma</foreign> (and the reading is also slightly uncertain for the first word), so our translation is only approximative.</note> <supplied reason="subaudible">and</supplied> yielding royal revenue <supplied reason="subaudible">in the form of</supplied> paṅaṣṭaṅgi <supplied reason="explanation">tax</supplied> worth 5 <foreign>māṣa</foreign> every third month, to be accompanied with five <foreign>sukat</foreign> of all grain-crops <supplied reason="explanation"><foreign>sarvavīja</foreign></supplied><note>See <ref target="DHARMA_INSIDENKSukhamerta.xml">Sukhamerta</ref> 10v6 <foreign>mvaṁ sarvvav<choice><orig>i</orig><reg>ī</reg></choice>ja, śveta rakta pīta kr̥ṣṇa, sukat·, 5, sovaṁ, Aṅkən tahun</foreign>. Cf. also, within the corpus of Airlangga inscriptions, the expression <foreign>sarvvaphala mūlaphala</foreign> found in <ref target="DHARMA_INSIDENKBaru.xml">Baru</ref> Cf8; <ref target="DHARMA_INSIDENKKusambyan.xml">Kusambyan</ref> B31–32; and <ref target="DHARMA_INSIDENKSimaAnglayang.xml">Sima Anglayang</ref> 17r4.</note> from every occupational group, as though they were a fivefold service with flowers — oil of sesame seed, incense, lamp, fragrance, and also diverse food offering — to be used by it <supplied reason="explanation">i.e., by the village</supplied> for worship every third month.<note>This is a very interesting passage, which rather beautifully compares the five <foreign>sukat</foreign> of <foreign>sarvavīja</foreign> to be collected from the <foreign>vulu</foreign>s to the five constituents (<foreign>tīlatela, dhūpa, dīpa, gandha, nivedya</foreign>) of a so called <foreign>pañcopacārapūjā</foreign> ‘worship in five services’. The presence of the element <foreign>puṣpa</foreign> is a bit difficult. The same expression occurs in <ref target="DHARMA_INSIDENKKusambyan.xml">Kusambyan</ref> A28, but there without metaphorical meaning. Note also the offerings made in the <ref target="DHARMA_INSIDENKBimalasrama.xml">Bimalasrama</ref> charter (3.1–2, emended <foreign>kaharan· mantranamaskārā parṇnaḥ dhūpadīpagandhākṣatā pamūjā mpuṅku muntun· ri bhaṭār<choice><orig>i</orig><reg>ī</reg></choice> prajñāpāraramitā</foreign>) and in the <ref target="DHARMA_INSIDENKBaharasrama.xml">Baharasrama</ref> charter of the time of Daksa (1v11–12 <foreign>vras· caturvvarṇna kukusan· 1 Iṁ savulu-savulu, piṇḍa kukusan· 4 vavānya matə<supplied reason="lost">hər·</supplied></foreign> <gap reason="lost" quantity="16" unit="character"/> <foreign><supplied reason="lost">sarbvaphalapha</supplied>li bras· caturvvarṇna vavānya</foreign>).</note></p>
+
+<p n="2.4–2.14">And the fixed rule <supplied reason="explanation"><foreign>tantu</foreign></supplied> regarding all kinds of people who collect <supplied reason="explanation"><foreign>maṅilala</foreign></supplied><note>That the term <foreign>maṅilala</foreign> is to be understood more or less in this sense is shown by the use of the word <foreign>maminta</foreign> in the parallel passage of  <ref target="DHARMA_INSIDENKAdulengen.xml">Adulengen</ref> (3r3). This use of <foreign>maminta</foreign>, instead of the ubiquitous <foreign>maṅilala</foreign>, has no precise parallel anywhere in the Airlangga corpus, but may be compared with the sentence <foreign>An· tan deyən ata kāminta tinuṇḍa</foreign> right after the list of <foreign>maṅilala dravya haji</foreign> in <ref target="DHARMA_INSIDENKSima Anglayang.xml">Sima Anglayang</ref> 17v5. And we find the precise phrase <foreign>maminta drabya haji</foreign> in the <ref target="DHARMA_INSIDENKBarsahan.xml">Barsahan</ref> plate (r6), which we are inclined to date to the period between the reigns of Balitung and Airlangga: <foreign>tan· tamā ta ya maminta drabya haji vulu-vulu Irikeṁ sīma I barsahan·</foreign>. The same phraseology was already in use under King Daksa, as appears from <ref target="DHARMA_INSIDENKTimbananWungkal.xml">Timbanan Wungkal</ref> (14) <foreign>nahan (pra)kārani tan tumamā maminta drabya haji</foreign>. See also <foreign>pinta-pintan</foreign> in <ref target="DHARMA_INSIDENKKubukubu.xml">Kubu-kubu</ref> (4v1) and <ref target="DHARMA_INSIDENKHantang.xml">Hantang</ref> (A20).</note> royal revenue from the occupational groups, big or small — the Paṅkur, the Tavan, the Tirip —, particularly all those who previously had a claim on the occupational groups, beginning with the various Miśras, the Paṅuraṅ, the Kriṅ, the Paḍəm, the Manimpiki, the Paranakan, the Limus Galuh, the Maṅriñca, the Maṅhuri, the Paraṅ, the Suṅka, the Dhūra, the Sukun, the Sinagiha, the Kyab, the Liṅgaṅ, the Sr̥kan, the Halu Varak, the Rakadut, the Ramanaṅ, the Svara Gəṇḍiṅ, the Piniṅlai, the Kataṅgaran, the Tapa Haji, the Air Haji, the Malandaṅ, the Lca, the Lablab, the Pakalaṅkaṅ, the Kutak, the Taṅkil, the Trəpan, the Salyut, the Vatu Valaṅ, the Pamanikan, the Maniga, the Sikpan, the Rumban, the Tirvan, the Vilaṅ Thāni, the Viji Kavah, the Tiṅkəs, the Māvī, the Manambaṅi, the Taṅhiran, the Tuha Dagaṅ, the Juru Gosalī, the Maṅrumbai, the Maṅguñjai, the overseer of the Nambi, the overseer of gambling, the overseer of prostitutes, the Pabisar, the Paguluṅ, the Pavuṅkunuṅ, the Vli Hapū, the Vli Harəṅ, the Vli Pañjut, the Palamak, the Urutan, the Dampulan, the Tpuṅ Kavuṅ, the Suṅsuṅ Paṅuraṅ, the Pasuk Alas, the Tikəl Haṅgas,<note>Cf. the <foreign>patikəl (h)aṅgas</foreign> whom we find mentioned in the <ref target="DHARMA_INSIDENKBalambangan.xml">Balambangan</ref>, <ref target="DHARMA_INSIDENKGaraman.xml">Garaman</ref>, <ref target="DHARMA_INSIDENKKudadu.xml">Kudadu</ref> and <ref target="DHARMA_INSIDENKBalawi.xml">Balawi</ref> inscriptions.</note> the Sipad Vilut, the Jukuṅ, the Paniṅaṅin, the Pamavasya, the Hopan, the Panrāṅan, the Skar Tahun, the Pabayai, the Paṅrāma, the Tuluṅ Hutaṅ, the Pobhaya, the Pacumbi, the Paprāyaścitta, the eunuch, the healer, the Sambal, the Sumbul, the royal servants, the Jəṅgi,<note>On the term <foreign>jəṅgi</foreign>, see <bibl><ptr target="bib:Jakl2017_02"/></bibl>.</note> the Siṅgah, the Pamr̥ṣi, the Mavuluṅ-vuluṅ, all of the courtiers, and so forth — <supplied reason="subaudible">is that</supplied> they shall not enter the <foreign>sīma</foreign> at Muṅgut. It is only the community in Muṅgut that has the exclusive authority over it.</p>
+
+<p n="2.14–2.18">Likewise are all the <supplied reason="subaudible">fines to be imposed for</supplied> ‘pain and relief ’ <supplied reason="explanation"><foreign>sukha-duḥkha</foreign></supplied>,<note>On the <foreign>sukha-duḥkha</foreign>, see Boechari <bibl rend="omitname"><ptr target="bib:Boechari1977_01"/><citedRange unit="page">14–15</citedRange></bibl>
+(<bibl rend="omitname"><ptr target="bib:Boechari2012_03"/><citedRange unit="page">39–41, esp. p. 40</citedRange></bibl>): “<foreign>sukhaduḥkha</foreign> bukanlah ‘suka dan duka’, melainkan diterangkan dengan <foreign>hala hayu</foreign>, ialah segala perbuatan yang buruk dan yang baik yang terjadi dalam masyarakat, atau seperti yang dimaksudkan di dalam setiap prasasti, yang terjadi dalam lingkungan daerah perdikan. Bahkan sebenarnya hanya perbuatan yang jahat saja yang dimaksudkan. Dengan perkataan lain, <foreign>sukhaduḥkha</foreign> ialah segala tindak pidana (yang terjadi di dalam lingkungan daerah perdikan) yang harus dikenai hukuman denda.” Boechari seems to allude to a normative text that gave the explanation <foreign>hala hayu</foreign>, but we have not yet been able to identify the text in question. For translations of the individual terms, see Boechari 1986: 161–162 / 2012: 309–310; see also Boechari 2012: 510 for an English translation of a <foreign>sukha-duḥkha</foreign> passage. We adopt the interpretation of the term <foreign>sukha-duḥkha</foreign> itself, and of the meanings of the items in the following list, from work in progress by Timothy Lubin.</note> great or small — ‘areca-blossom without betelnut’ <supplied reason="explanation"><foreign>mayaṅ tan pavvaḥ</foreign></supplied>, ‘gourd vines that grow in the courtyard’ <supplied reason="explanation"><foreign>valū rumambat iṅ natar</foreign></supplied>, ‘disaster’ <supplied reason="explanation"><foreign>vipati</foreign></supplied>, ‘a corpse covered with dew’ <supplied reason="explanation"><foreign>vaṅke kabunan</foreign></supplied>, ‘blood spattered on the road’ <supplied reason="explanation"><foreign>rāh kasavur iṅ dalan</foreign></supplied>, ‘slander’ <supplied reason="explanation"><foreign>duhilatən</foreign></supplied>, ‘violence’ <supplied reason="explanation"><foreign>sāhasa</foreign></supplied>, ‘rash speech’ <supplied reason="explanation"><foreign>vākcapala</foreign></supplied>, ‘rash acts with the hand’ <supplied reason="explanation"><foreign>hastacapala</foreign></supplied>, ‘producing the dust of a file’ <supplied reason="explanation"><foreign>mamijilakən vuriniṅ kikir</foreign></supplied>, ‘attacking in fury’ <supplied reason="explanation"><foreign>mamuk</foreign></supplied>, ‘rape’ <supplied reason="explanation"><foreign>mamuṅpaṅ</foreign></supplied>, ‘repeated attack’ <supplied reason="explanation"><foreign>ludan</foreign></supplied>, ‘following’ <supplied reason="explanation"><foreign>tūtan</foreign></supplied>, ‘apportioning of shares’ <supplied reason="explanation"><foreign>haṅśa pratyaṅśa</foreign></supplied>, ‘punishment and wrongful punishment’ <supplied reason="explanation"><foreign>ḍəṇḍa kuḍəṇḍa</foreign></supplied>, ‘poisons of all sorts’ <supplied reason="explanation"><foreign>maṇḍihala</foreign></supplied> and such like — namely that only the community in Muṅgut has the authority over all of them.</p>
+
+<p n="2.18–3.5">Such was the substance of the holy decree of the king kept in custody by the community in Muṅgut including all its <supplied reason="explanation">subsidiary</supplied> <foreign>sīma</foreign>s. And as for the entitlements of the inhabitants of the original <foreign>sīma</foreign> at Muṅgut<note>Or do the words <foreign>sapasuk· ṣīma kabeḥ mvaṁ ri vnaṅanikanaṁ vargga mūla sīma I muṅgut·</foreign> rather mean ‘including all its <foreign>sīma</foreign> inhabitants. And as for the entitlements of the original inhabitants of the <foreign>sīma</foreign> at Muṅgut’? Several occurrences of the parallel phrase <foreign>vargga mūla sīma I kusambyan·</foreign> are found in the <ref target="DHARMA_INSIDENKKusambyan.xml">Kusambyan</ref> charter, to which we turn below. We find it perhaps slightly more likely that <foreign>mūla</foreign> goes with <foreign>sīma</foreign> than with <foreign>vargga</foreign>, in view of combinations like <foreign>mūla savah</foreign>, <foreign>mūla təgal</foreign>, <foreign>mūla kaḍatvan</foreign> in OJ literature, although the notion of ‘original inhabitant’ (<foreign>varga mūla</foreign>) also seems very plausible, and can be compared to the arguments advanced by protagonist Dhanadī in the <ref target="DHARMA_INSIDENKWuruduKidul.xml">Wurudu Kidul</ref> inscription (844 Śaka) that she was a true local and not a Khmer, hence not an descendant of ‘unfree’ or ‘taxable’ inhabitants.</note> to have shops, <supplied reason="subaudible">these include</supplied> for instance: two vendors of <foreign>titih</foreign>, two vendors of yarn, two vendors of cloth, two vendors of fly-whisks <supplied reason="explanation"><foreign>cāmara</foreign></supplied>, two porters, two <foreign>awar-awar</foreign> preparers, two conjurors <supplied reason="explanation">? <foreign>amaṅmaṅ</foreign></supplied>, two <foreign>amuti-muti</foreign> <supplied reason="explanation">?</supplied>, two goldsmiths, two ironsmiths, two bronze smiths, two coppersmiths, two <foreign>amutər</foreign> <supplied reason="explanation">churners? potters?</supplied>, two boatmen, two cow traders, two buffalo buyers, two <foreign>parəmasan</foreign>, two retailers, two *<foreign>pasəpahan</foreign>, two <foreign>mahīṣṭhvan</foreign>. Such were the ... of the traders ... all of the varieties of ... of the goods that they transport <supplied reason="explanation">*<foreign>pamvatan</foreign></supplied>.</p>
+
+<p n="3.5–3.13">Unceasing, indeed, is <supplied reason="subaudible">their</supplied> residence <supplied reason="explanation">*<foreign>paṅasthāna</foreign></supplied> in the <foreign>sīma</foreign> at Muṅgut, insofar as inhabitants of the original <foreign>sīma</foreign> at Muṅgut alone have power and authority <supplied reason="explanation">*<foreign>vaśa-pramāṇa</foreign></supplied> to weigh the royal revenues, although they shall still allow <supplied reason="explanation">others? the revenue collectors?</supplied> to maintain harmony side by side <supplied reason="explanation">*<foreign>patūt padulur</foreign></supplied>, so that <supplied reason="explanation">they</supplied> go to other regions <supplied reason="explanation"><foreign>deśa</foreign> *<foreign>salen</foreign></supplied> and so that they seek wares.</p>
+
+<p n="13.14–3.30">Only the following are the inhabitants from whom revenue may be collected: the South Indians <supplied reason="explanation"><foreign>kliṅ</foreign></supplied>, the North Indians <supplied reason="explanation"><foreign>ārya</foreign></supplied>, the Singhalese, those from the Gauḍa-territory <supplied reason="explanation">*<foreign>gola-viṣaya</foreign></supplied>, those from the Cola country <supplied reason="explanation">*<foreign>colika</foreign></supplied>, those from Kerala <supplied reason="explanation"><foreign>malyāla</foreign></supplied>, those from Karṇāṭaka, from the Rāṣṭrakūṭa-territory <supplied reason="explanation">*<foreign>vallahāra</foreign></supplied>,<note>The term Vallahāra, along with several other of the terms for foreigners figuring here, is also found in the (post-Airlangga) <ref target="DHARMA_INSIDENKSumengka.xml">Sumengka</ref> charter of 981 Śaka. For discussion, see §7. Through which networks the term became known in Java is a fascinating question for further research.</note> those from Campā, the Mons <supplied reason="explanation"><foreign>rəmən</foreign></supplied>, the Havaṅs, the Mambaṅs, the Huñjəmans, the Senāmukhas, the Varahans, the drummers <supplied reason="explanation"><foreign>mapaḍahi</foreign></supplied>, the Kecakas, the dancers <supplied reason="explanation"><foreign>tarimba</foreign></supplied>, the Tapuk performers, the comedians <supplied reason="explanation"><foreign>abañol</foreign></supplied>, the *Salahans. <supplied reason="subaudible">They are</supplied> the inhabitants from whom revenue may be collected, to whatever group they belong, whatever be their activity, whatever be their country of origin, as long as they reside in that <foreign>sīma</foreign> at Muṅgut, whereas <supplied reason="explanation"><foreign>an</foreign></supplied> the inhabitants of the original <foreign>sīma</foreign> at Muṅgut alone <supplied reason="explanation"><foreign>atikā</foreign></supplied> have the authority over all of its <supplied reason="subaudible">payments for</supplied> ‘pain and relief’, great or small, following ... <supplied reason="explanation">? <foreign>yacānyayan ika masthānabati</foreign></supplied> its entire decree, intended to further its worship of the invisible ancestors <supplied reason="explanation"><foreign>buyut sūkṣma</foreign></supplied>.</p>
+
+<p n="3.30–4.3">Such was the substance of the grant of the Great King, to the inhabitants of the original <foreign>sīma</foreign> at Muṅgut including all its <supplied reason="explanation">subsidiary</supplied> <foreign>sīmas</foreign>. It is to be considered by them as irrevocable, as <supplied reason="subaudible">long as</supplied> <supplied reason="explanation"><foreign>an</foreign></supplied> they remain in their respective domains <supplied reason="explanation"><foreign>panataran</foreign>, *<foreign>natar</foreign></supplied>.<note>The sentence is not explicit as to who or what remains (<foreign>tamolah</foreign>). The very close parallel passages in <ref target="DHARMA_INSIDENKCane.xml">Cane</ref> Cd23–24 (quoted in our lexicographic notes under panataran) and <ref target="DHARMA_INSIDENKKusambyan.xml">Kusambyan</ref></note> It is not to be disturbed by future kings or by those who in the future will be granted <supplied reason="subaudible"><foreign>the status of</foreign></supplied> Tiṅhal Piṅhai, beginning with the Great King on the Gem-Jewel Lion-throne who has Vvatan Mās as royal residence <supplied reason="explanation">i.e., Airlangga</supplied>.</p>
+
+<p n="4.4–4.11">If there are ones seen not to be diligent with regard to the whole of the intent of the Great King’s decree, disturbing the <foreign>sīma</foreign> at Muṅgut, it will become the cause of their <supplied reason="subaudible">guilt of</supplied> negligence.<note>The phrase <foreign>ya saṅkānani pramādanya</foreign> is a formulaic expression occurring also in several other inscriptions of this period. See the parallels cited in our n. 96 above, as well as <ref target="DHARMA_INSIDENKAnjatan.xml">Anjatan</ref> 4r9 <foreign>yathānya tan pamuhara pramāda magə:ṁ I sira</foreign>.</note> All forms of transgression of the holy royal decree, whatever kind, will be subjected to a fine in gold of 1 <foreign>kāṭi</foreign> and 5 <foreign>suvarṇa</foreign>.</p>
+
+<p n="4.11–6.7">Pay heed, you Lord Śrī Haricandana, Great Sage Agasti; <supplied reason="explanation">gods of the directions</supplied> East, South, West, North, Southeast, Southwest, Northwest,<note>The Northeast has been omitted in the text.</note> Zenith, Nadir; (the eight forms of Śiva, which are) Sun, Moon, Earth, Water, Wind, Fire, Sacrificer, Ether; day and night, transitional times <supplied reason="explanation"><foreign>sandhyā</foreign></supplied>; the king of the Nāgas; the goddess Durgā; all of you gods of Time and Death, Yama, Varuṇa, Kubera, Vāsava <supplied reason="explanation">i.e., Indra</supplied>, you who penetrate <supplied reason="subaudible">and</supplied> take bodily form in all people who have supernatural powers in the world: if arrogantly <supplied reason="explanation"><foreign>bhaṅgi</foreign></supplied>, wildly <supplied reason="explanation"><foreign>gaṇa-gaṇa</foreign></supplied> they will be able to disturb the <foreign>sīma</foreign> at Muṅgut, let them be killed by you, the invisible gods <supplied reason="explanation">*<foreign>buyut sūkṣma</foreign></supplied>. In killing, your approach shall be that you do not look to the rear, do not look to the side, while clashing with the opponent. Slap <supplied reason="subaudible">his</supplied> side, cut his snout, split his skull, rip open his belly, draw out his entrails, eat his flesh, drink his blood, leave the dead one behind. When going to the forest, may he be eaten by a tiger, ... . let him be struck by thunderclap, whirled around by the anger of the gods ... ruined ... no less than seven times. When he is given shape, it will only be a bad one as long as he lives! Such will be the consequence for the delinquent man who disturbs the <foreign>sīma</foreign> at Mu<supplied reason="lost">ṅgut</supplied>...</p>
+
+<p n="8.1–2">977 was the time the honorable <supplied reason="explanation"><foreign>saṅ hadyan</foreign></supplied> Jujul <supplied reason="subaudible">and</supplied> Sulur were chiefs <supplied reason="explanation"><foreign>kabayan</foreign></supplied>.<note>This seems to be additional information about two persons mentioned in 1.16.</note></p>
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+             <p>The left upper part is engraved with 9 lines of <foreign>akṣara</foreign>s. The first line is a bit better preserved than the following eight lines, but still nothing can be read with certainty on the 9 top lines. Some <foreign>akṣara</foreign>s can be discerned a bit more clearly on lines 10–12, but there too the absence of any certainty about context has persuaded us not to make any attempt at deciphering the short segments of <foreign>akṣara</foreign>s that might be legible.</p>
+             <p>The reader should consult our lexicographic notes notes in <bibl><ptr target="bib:TitiSurtiNastiti+al2022_01"/><citedRange unit="page">180–194</citedRange></bibl> for discussion of any * signs indicated in the text</p>
+         </div>
+        <div type="bibliography">
+	<!--bibliography encoded as per section §9.4 -->
+            <p/>
+             <listBibl type="primary">
+	<bibl n="D"><ptr target="bib:Damais1955_01"/><citedRange unit="page">64</citedRange><citedRange unit="item">A. 136</citedRange></bibl>
+	<bibl n="MS+RK"><ptr target="bib:MachiSuhadi+RichadianaKartakusuma1996_01"/><citedRange unit="page">45</citedRange></bibl>
+	<bibl n="NST"><ptr target="bib:NinnySusantiTejowasono2003_01"/><citedRange unit="page">357</citedRange><citedRange unit="item">3</citedRange></bibl>
+   <bibl n="TSN"><ptr target="bib:TitiSurtiNastiti+al2012_01"/><citedRange unit="page">33–44</citedRange></bibl>
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

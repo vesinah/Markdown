@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:ndl="http://ndl.go.jp/dcndl/terms" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:cir="https://cir.nii.ac.jp/schema/1.0/" xml:lang="ja">
+<channel rdf:about="https://cir.nii.ac.jp/opensearch/all?q=%E3%82%B0%E3%83%AB%E3%83%91%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B7%E3%82%AB%E3%83%BC&amp;format=rss">
+<title>CiNii Research all - グルパンチャーシカー rss</title>
+<description>CiNii Research all - グルパンチャーシカー rss</description>
+<link>https://cir.nii.ac.jp/opensearch/all?q=%E3%82%B0%E3%83%AB%E3%83%91%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B7%E3%82%AB%E3%83%BC&amp;format=rss</link>
+<dc:date>2026-08-25T23:19:08.928+09:00</dc:date>
+<opensearch:totalResults>0</opensearch:totalResults>
+<opensearch:startIndex>1</opensearch:startIndex>
+<opensearch:itemsPerPage>0</opensearch:itemsPerPage>
+<items>
+<rdf:Seq>
+</rdf:Seq>
+</items>
+</channel>
+</rdf:RDF>

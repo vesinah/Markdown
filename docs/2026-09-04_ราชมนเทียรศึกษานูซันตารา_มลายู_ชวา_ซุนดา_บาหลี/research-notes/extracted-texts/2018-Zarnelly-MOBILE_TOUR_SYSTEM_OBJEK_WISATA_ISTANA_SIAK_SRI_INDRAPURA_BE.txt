@@ -1,0 +1,442 @@
+--- PAGE: 1 ---
+Jurnal Ilmiah Rekayasa dan Manajemen Sistem Informasi, Vol. 4, No. 2, Agustus 2018, Hal. 172-178 
+e-ISSN 2502-8995, p-ISSN 2460-8181 
+172 
+MOBILE TOUR SYSTEM OBJEK WISATA ISTANA SIAK SRI 
+INDRAPURA BERBASIS ANDROID 
+ 
+ 
+1Zarnelly, 2Deswanto 
+1,2Program Studi Sistem Informasi, Fakultas Sains dan Teknologi, UIN SUSKA Riau,  
+Jl. HR Soebrantas, KM. 18.5, No. 155, Simpang Baru, Pekanbaru, Indonesia, 28293. 
+Email: 1zarnelly@uin-suska.ac.id, 2deswanto99@gmail.com. 
+ 
+ 
+ABSTRAK 
+Istana Siak adalah salah satu objek wisata di Kabupaten Siak yang memiliki potensi wisata sejarah 
+sangat besar karena merupakan peninggalan kerajaan melayu pada tahun 1723 M. Informasi tentang objek 
+wisata Istana Siak pada saat ini belum terkelola secara m aksimal. Saat ini informasi yang tersedia masih 
+menggunakan website, brosur, event wisata dan pramuwisata. Jumlah pramuwisata di Istana Siak berjumlah 13 
+orang yang bertugas untuk memandu wisatawan yang sedang berkunjung. Jumlah tersebut masih kurang jika 
+pengunjung Istana Siak sedang ramai sehingga membuat wisatawan  berkeliling tanpa ditemani pramuwista. 
+Penelitian ini bertujuan untuk membangun mobile tour sys tem yang memudahkan wisatawan dalam 
+mendapatkan informasi ketika berkunjung ke I stana Siak secara cepat . Metode pengembangan sistem 
+menggunakan object oriented anaysis and design (OOAD). Sistem dibuat menjadi 2 bagian yakni sistem back 
+end berbasis web untuk pengelola Istana Siak ; dan sistem front end berbasis Android untuk wisatawan. Hasil 
+dari pengujian blackbox dapat disimpulkan bahwa sistem mampu berjalan dengan sangat baik dengan tingkat 
+keberhasilan 100%.  Hasil dari user acceptance test  menunjukkan tingkat penerimaan pengguna adalah baik, 
+yaitu sebesar 70%. 
+Kata Kunci: Android, istana siak, mobile tour system, wisata sejarah 
+ 
+ 
+A. PENDAHULUAN 
+Kabupaten Siak dikenal dengan kerjaan 
+melayu terbesar yakni Kerajaan Siak yang 
+berkembang pesat pada tahun 1723 M. Hal ini 
+dapat dibuktikan dengan masih banyak situs -situs 
+sejarah peninggalan Kerajaan Siak yang terdapat di 
+Kabupaten Siak yang salah satunya  adalah Istana 
+Asserayah Al-Hasyimiah atau lebih dikenal dengan 
+nama Istana Siak dengan sebutan Istana Matahari 
+Timur yang dibangun pada tahun 1889. 
+Berdasarkan Keputusan Menteri Kebudayaan dan 
+Pariwisata nomor: KM.13/PW/PW.007/ MKP/2004 
+telah menetapkan I stana Siak sebagai benda cagar 
+budaya, situs atau kawasan yang dilindungi 
+Undang-Undang Republik Indonesia Nomor 5 
+Tahun 1992. Potensi sektor pariwisata menjadi 
+salah satu aset besar bagi Kabupaten Siak untuk 
+mengembangkan kepariwisataan Siak. Potensi 
+pariwisata Kabupaten siak ini  dapat dijadikan 
+sebagai salah satu penghasil devisa bagi pemerintah 
+maupun masyarakat setempat. Namun diantara 
+berbagai potensi wisata yang ada, potensi wisata 
+yang paling banyak dikunjungi atau di gemari 
+wisatawan adalah Istana Siak [1]. 
+Bagi pemerintah daerah ini merupakan salah 
+satu aspek untuk meningkatkan pendapatan daerah. 
+Salah satu kendala yang dihadapi oleh pemerintah 
+daerah dalam hal pemasaran objek wisata Istana 
+Siak adalah tidak adanya penyampaian informasi 
+yang efektif dan efisien untuk para wisatawan. 
+Dalam penyampaian informasinya, memang Dinas 
+Pariwisata memiliki website akan tetapi kurang 
+memadai dalam memberikan informasi tentang 
+objek wisata Istana Siak, selain itu dinas pariwisata 
+masih menempuh cara konvensional, seperti 
+pemberian brosur, leaflet dan booklet. 
+Selain media tersebut dalam memberikan 
+penjelasan kepada wistawan yang berkunjung 
+masih menggunakan media berupa kuningan  yang 
+tercetak disetiap objek. Hal tersebut kuranglah 
+efektif, walaupun banyak teknologi canggih yang 
+sudah tersedia, akan tetapi tetapi belum 
+dimanfaatkan secara maksimal dan wisatawan 
+masih sering mengalami kesulitan dalam 
+mendapatkan informasi sejarah, peninggalan atau 
+yang berkaitan dengan istana siak lainnya. 
+Saat ini pramuwisata yang terdapat di Istana 
+Siak yaitu terdapat 13 pramuwisata di mana 
+keseluruhan jumlah pramuwisata tersebut bisa 
+dikatakan tidak terlalu memadai dalam melakukan 
+pelayanan terhadap pengunjung yang ramai 
+terutama pada hari libur dan pramuwisata yang ada 
+tidak memiliki lisensi sebagai pramuwisata 
+profesional yang terdaftar secara sah yang 
+diterbitkan oleh Himpunan Pramuwisata Indonesia 
+(HPI), di mana sebagian yang menjadi pramuwisata 
+yang ada merupakan orang yang telah lama berada 
+di Siak, secara keseluruhan pramuwisata yang ada 
+merupakan pekerja Honorer dulunya dan sekarang 
+sebagian telah menjadi PNS, bahkan sebagiannya 
+bisa dikatakan merupakan orang yang tidak 
+mempunyai basic pendidikan pramuwisata [2]. 
+Untuk mengatasi permasalahan -permasalahan 
+tersebut diperlukan adanya upaya yang 
+
+--- PAGE: 2 ---
+Jurnal Ilmiah Rekayasa dan Manajemen Sistem Informasi, Vol. 4, No. 2, Agustus 2018, Hal. 172-178 
+e-ISSN 2502-8995, p-ISSN 2460-8181 
+173 
+memudahkan untuk memberikan informasi tentang 
+objek wisata Istana  Siak kepada wisatawa n yang 
+berkunjung, yakni dengan menyatukan/ 
+mengintegrasikan perkembangan teknologi saat ini.  
+Quick response (QR Code) merupakan evolusi 
+teknologi yang dapat menjawab permasalahan di 
+atas. Quick response (QR Code) merupakan sebuah 
+kode batang dalam dua dimensi yang memiliki 
+kemampuan menyimpan data atau informasi lebih 
+banyak jika dibandingkan dengan kode batang satu 
+dimensi.  
+Pemanfaatan teknologi QR Code  dibuat 
+dengan tujuan untuk menyimpan berbagai macam 
+informasi yang ada didalam Istana Siak sehingga 
+penggunaan QR Code dalam memudahkan 
+mamandu wisatawan ketika berkunjung tanpa 
+menggunakan pramuwisata, wisatawan cukup 
+melakukan scan QR Code yang terdapat disetiap 
+objek didalam Istana Siak. 
+ 
+B.  METODOLOGI PENELITIAN 
+B.1. Tahap Pengumpulan Data 
+Tahap ini merupakan tahap dalam 
+mendapatkan sumber data yang berkaitan dengan 
+masalah yang diangkat. Tahapan ini meliputi 
+Observasi, Wawancara dan Studi Pustaka. 
+ 
+B.2. Tahap Analisa dan Perancangan 
+Tahap selanjutnya dalam metodologi 
+penelitian ini adalah tahap analisa yang terdiri dari:  
+analisa sistem berjalan, analisa sistem usulan, 
+analisa kebutuhan, pembuatan arsitektur sistem, 
+pembuatan model dengan UML , pembuatan desain 
+struktur menu dan pembuatan desain interface. 
+ 
+B.3. Tahap Implementasi dan Pengujian 
+Tahap implementasi merupakan tahap yang 
+dilakukan setelah membuat rancangan sistem. 
+Kegiatana yang di lakukan adalah pembuatan 
+coding program dan pengujian black box dan UAT. 
+ 
+C. HASIL DAN PEMBAHASAN 
+C.1. Sistem Yang Berjalan 
+Ilustrasi sistem yang sedang berjalan dapat 
+dilihat pada Gambar 1. Pada proses memberikan 
+informasi objek wisata Istana  Siak kepada 
+wisatawan yang telah dilakukan oleh Dinas 
+Pariwisata Kabupaten Siak sebagai berikut: 
+(1) Periklanan ( Advertising) yang meliputi 
+penyampaian informasi melalui media cetak, 
+media elektronik dan media website. 
+(2) Promosi penjulan ( Sales Promotion ) yang 
+meliputi brosur -brosur, leaflet, booklet,  
+pameran, shopping bag, stiker dan pin. 
+(3) Penjualan Peseorangan ( Personal Selling ) 
+meliputi kejelasam dalam menyampaikan 
+informasi, kemampuan berkomunikasi dan 
+terbuka dalam memberikan pelayanan. 
+(4) Hubungan Masyarakat (Public Relation) yang 
+meliputi kerjasama dengan hotel, kerjasama 
+dengan objek wisata, kerjasama dengan 
+pemerintah dan kerjasama dengan masyarakat 
+ 
+ 
+Gambar 1. Ilustrasi sistem yang sedang berjalan  
+ 
+C.2. Sistem Usulan 
+Aplikasi Mobile Tour System  untuk 
+memberikan informasi tentang objek wisata istana 
+siak yang rancanag menggunakan aplikasi 
+berbasiskan android mobile application  dengan 
+memanfaatkan teknlogi QR Code. Pada dasarnya 
+aplikasi ini memudahkan user ketika ingin 
+mendapatkan informasi tenta ng objek wisata istana 
+siak secara cepat. 
+ 
+1. Advertising 
+2. Sale Promotion 
+3. Personal Selling 
+4. Public Relation 
+ 
+  
+Mengunjungi 
+objek wisata 
+istana siak 
+  
+Pramuwisata 
+menjelaskan tentang 
+objek wisata istana 
+siak 
+Wisatawan 
+mendapatkan 
+informasi lengkap 
+tantang istana siak 
+
+--- PAGE: 3 ---
+Jurnal Ilmiah Rekayasa dan Manajemen Sistem Informasi, Vol. 4, No. 2, Agustus 2018, Hal. 172-178 
+e-ISSN 2502-8995, p-ISSN 2460-8181 
+174 
+Aplikasi yang dikembangkan mampu 
+melakukan scan terhadap objek -objek yang ada 
+dalam istana siak, pengunjung cukup melakukan 
+scan pada QR Code  objek maka Aplikasi akan 
+langsung memberikan penjelasan informasi tantang 
+objek tersebut tanpa meminta penjelasan dari 
+pramuwisata yang ada dalam isata siak. 
+ 
+C.3. Analisis Kebutuhan Fungsional Sistem 
+Kebutuhan fungsional sistem dibagi menjadi 
+dua, yaitu kebutuhan fungsional untuk sistem back 
+end dan kebutuhan fungsional untuk sistem front 
+end. Kebutuhan fungsional sistem back end  dapat 
+dilihat pada Gambar 2 sedangkan kebutuhan 
+fungsional untuk sistem front end  dapat dilihat 
+pada Gambar 3. 
+C.4. Class Diagram 
+Class Diagram merupakan diagram yang 
+menunjukan class yang ada di sistem dan 
+hubungannya secara logic. Class diagram yang 
+dibuat pada tahap design ini, merupakan deskripsi 
+lengkap dari class-class yang ditangani oleh sistem, 
+dimana masing -masing class telah dilengkapi 
+dengan atribut dan operasi -operasi yang 
+diperlukan. Berikut adalah Gambar 4. 
+ 
+C.5. Arsitektur Jaringan 
+Arsitektur sistem dapat dilihat pada Gambar 
+5. Arsitektur sistem yang dibangun adalah 
+menggunkan client-server, pada arsitektur aplikasi 
+tersebut adalah: 
+(1) Admin melakukan input semu data dalam 
+aplikasi melalui sistem frontend kemudian 
+disimpan kedalam server. 
+(2) Wisatawan membuka aplikasi menggunakan 
+koneksi internet, maka aplikasi akan 
+mmanggil data yang tersimpan kedalam  
+server. 
+(3) Aplikasi menggunakan teknologi  QR Code 
+dan Direction maps. 
+ 
+ 
+Gambar 2. Use case diagram back end 
+ 
+
+
+--- PAGE: 4 ---
+Jurnal Ilmiah Rekayasa dan Manajemen Sistem Informasi, Vol. 4, No. 2, Agustus 2018, Hal. 172-178 
+e-ISSN 2502-8995, p-ISSN 2460-8181 
+175 
+ 
+Gambar 3. Use case untuk front end 
+ 
+ 
+Gambar 4. Class diagram 
+ 
+C.6. Implementasi 
+Implementasi merupakan penulisan kode 
+program kelanjutan dari proses perancangan yang 
+diimplementasikan ke situasi nyata, sehingga 
+sistem dapat memenuhi kebutuhan user. Batasan 
+implementasi adalah sebagai berikut: 
+(1) Sistem yang dibagun menggunakan flatform 
+berbasis android 5.0 lolipop. 
+
+
+--- PAGE: 5 ---
+Jurnal Ilmiah Rekayasa dan Manajemen Sistem Informasi, Vol. 4, No. 2, Agustus 2018, Hal. 172-178 
+e-ISSN 2502-8995, p-ISSN 2460-8181 
+176 
+(2) Sistem memiliki sistem backend yakni 
+pengelola Istana Siak sedangkan sistem 
+frontend yakni wistawan ataupun masayarakat 
+umum. 
+(3) Aplikasi yang digunakan dalam membangun 
+dan mengembangkan a plikasi mobile tour 
+system adalah Android Studio 2.3.3 
+(4) Sistem back end  menggunakan bahasa 
+pemrograman PHP dan menggunanakan basis 
+data MySQL 
+(5) Dalam memandu wisatawan aplikasi dapat 
+memindai QR Code dalam 
+mengidentifikasikan setiap objek yang ada 
+dalam istana siak. 
+ 
+|Interface waktu kunjungan dapat dilihat pada 
+Gambar 6. Interface menu data komplek dapat 
+dilihat pada Gambar 7. Interface menu harga tiket 
+dapat dilihat pada Gambar 8 .
+ 
+Wisatawan WisatawanWisatawanWisatawanWisatawan
+Smartphone Android
+Jaringan
+Server Aplikasi
+Internet
+Mengirim Data
+Komputer Admin
+Memasukkan Data
+Data Aplikasi Dalam Server
+ 
+Gambar 5. Arsitektur sistem 
+ 
+ 
+Gambar 6. Data waktu kunjungan 
+ 
+
+
+--- PAGE: 6 ---
+Jurnal Ilmiah Rekayasa dan Manajemen Sistem Informasi, Vol. 4, No. 2, Agustus 2018, Hal. 172-178 
+e-ISSN 2502-8995, p-ISSN 2460-8181 
+177 
+ 
+Gambar 7. Menu data komplek 
+ 
+ 
+Gambar 8. Menu harga tiket 
+ 
+C.7. Pengujian Sistem 
+Hasil pengujian blackbox pada sistem back 
+end dapat dilihat pada Tabel 1. Hasil pengujian 
+blackbox pada aplikasi front end dapat dilihat pada 
+Tabel 2. 
+ 
+Tabel 1. Hasil pengujian blackbox sistem back end 
+Penguji 
+Modul Sistem Persentase 
+Keberhasilan Modul 
+Eror 
+Modul 
+Berhasil 
+1 0 10 100% 
+2 0 10 100% 
+3 0 10 100% 
+4 0 10 100% 
+5 0 10 100% 
+Rata-rata keberhasilan 100% 
+ 
+ 
+ 
+Tabel 2 . Hasil pengujian blackbox aplikasi front 
+end 
+Penguji Smartphone Sistem 
+Operasi Keberhasilan 
+1 Oppo F1 Android 5.1 100% 
+2 Asus Z007 Android 4.4.2 100% 
+3 Zefone 2 Laser Android 5.0.2 100% 
+4 Oppo Neo 7, Android 5.1 100% 
+5 Oppo A57 Android 6.0.1 100% 
+Rata-rata keberhasilan 100% 
+ 
+Berdasarkan hasil Pengujuan UAT yang 
+dilakukan pada sistem back end  (web) dengan 
+menyebarkan angket UAT kepada 10 responden 
+diperoleh hasil tingkat penerimaan sistem 53,75%. 
+Sedangkan sistem berdasarkan hasil pengujian 
+UAT pada aplikasi front end , didapat tingkat 
+penerimaan pengguna aplikasi sangat baik, yaitu 
+70%. 
+
+
+--- PAGE: 7 ---
+Jurnal Ilmiah Rekayasa dan Manajemen Sistem Informasi, Vol. 4, No. 2, Agustus 2018, Hal. 172-178 
+e-ISSN 2502-8995, p-ISSN 2460-8181 
+178 
+ 
+Gambar 9. Menu Utama 
+ 
+D.   KESIMPULAN 
+Berdasarkan hasil analisa perancangan dan 
+implementasi aplikasi mobile tour system  objek 
+wisata istana siak berbasis android dapat diambil 
+kesimpulan sebagai berikut:. 
+(1) Wisatawan mampu mengakses informasi 
+lokasi, sejarah serta koleksi peninggalan 
+kerajaan siak menggunakan smartphone tanpa 
+menggunakan pramuwisata yang ada karena 
+aplikasi mampu berfungsi sebagai 
+pramuwisata mobile. 
+(2) Dengan mengimplementasikan aplikasi 
+mobile tour system  ini mampu untuk 
+memperkenalkan sejarah kerjaan siak kepada 
+masyarakat luar agar sejarah yang ada dapat 
+terjaga kelestarianya. 
+(3) Menerapkan aplikasi mobile tour system  ini 
+dapat mempermudah promosi objek wisata 
+istana siak serta mampu mendukung p rogram 
+pemarintah dalam mengimplementasikan 
+smart city di kabupaten siak 
+ 
+Untuk pengembangan kedepannya aplikasi 
+yang dibuat perlu ditambah teknologi ugmented 
+reality dan audio dalam memandu wistawan. 
+ 
+REFRENSI 
+[1] Aminah, S. (2015). Pelaksanaan Promosi Objek 
+Istana Siak Provinsi Riau. Jurnal JOM FISIP 
+Universitas Riau, Vol.2. 
+[2] Daulay, S. S. (2015). Hubungan antara QR Code 
+dan Dunia Industri dan Perdagangan. Jakarta: 
+Widyaiswara Pusdiklat Industri. 
+[3] Istiyanto, J. E. (2013). Pemrograman Smartphone 
+Menggunakan SDK Android dan Hacking Android. 
+Yogyakarta: Graha Ilmu. 
+[4] Mustaqbal, S., Firdaus, R. F., & Rahmadi, H. 
+(2015). Pengujian Aplikasi Menggunakan Black 
+Box Testing Boundary Value Analysis. Jurnal 
+Ilmiah Teknologi Informasi Terapan Vol 1, ISSN : 
+2407 - 3911. 
+[5] Musthofa, N. A., Mutrofin, S., & Murtadho, A. M. 
+(2016). Implementasi Quick Response (QR) Code 
+Pada Aplikasi Validasi Dokumen Menggunakan 
+Perancangan Unified Modelling Language. Jurnal 
+Antivirus, Vol. 10 Universitas Pesantren Tinggi 
+Darul ‘Ulum, ISSN: 1978-5232. 
+[6] Nugraha, P., & Munir, R. (2011). Pengembangan 
+Aplikasi QR Code Generator dan QR Code Reader 
+dari Data Berbentuk Image. Jurnal Konferensi 
+Nasional Informatika, ISSN: 2087 - 3328. 
+[7] Prakarsa, A. D., & Wibisono, W. (2013). Rancang 
+Bangun Aplikasi Museum Tour Guide berbasis QR 
+Code dan Ontology pada Mobile Phone. JURNAL 
+TEKNIK POMITS Vol. 2, ISSN: 2337-3539. 
+[8] Rangsang, P. (2010). Mari Mengenal J2ME Java 2 
+Micro Edition. Jakarta: Prestasi Pustaka. 
+[9] Rizal, U., Susanty, W., & Sutrisno. (2013). The 
+Analysis Of History Collection System Based On 
+Android martphone With QR Code Using QR 
+Code. International Conference on Engineering 
+and Technology Development Universitas Bandar 
+Lampung, ISSN 2301-6590. 
+[10] Rosa, & M.Shalahuddin. (2011). Rekayasa 
+Perangkat Lunak. Bandung: Informatika. 
+[11] Tanjung, S. (2015). Analisis Kualitas Pelayanan 
+Pramuwisata Di Istana Asserayah Hasyimiah Siak 
+Sri Indrapura. Jurnal JOM FISIP Universitas Riau, 
+Vol.7. 
+[12] Telaumbanua, K., & Zai, A. (2013). Rancang 
+Bangun Aplikasi Mobile Tour System (MTS) 
+Berbasis Smartphone Android Untuk Pemandu 
+Pariwisata Kota Medan. JSM STMIK 
+MICROSKILL Vol 14, ISSN 1412-0100. 
+ 
+

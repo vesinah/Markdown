@@ -1,0 +1,2442 @@
+# SOURCE FILE: li2026_dimensional_stability_restaurator.pdf
+# ORIGINAL PATH: d:\01_APP\Research\output\palmleaf_india_nepal\research-notes\loop_B02\documents\li2026_dimensional_stability_restaurator.pdf
+# CLUSTER: cluster_1_materials (1. วัสดุศาสตร์ หมึก และการอนุรักษ์เชิงเคมี)
+# PAGES: 30 | TOTAL CHARS: 66074
+
+=== PAGE 1 ===
+Bing Li, Chen Yu*, Meifang Zhang and Danrui Cao
+Dimensional Stability of Sanskrit Manuscript 
+Supports Exposed to Environmental 
+Humidity: Tibetan Paper, Palm Leaf, and 
+Birch Bark
+Vergleich der Dimensionsstabilität von 
+Trägermaterialien für Sanskrit-Manuskripte: 
+Tibetanisches Papier, Palmblatt und Birkenrinde
+https://doi.org/10.1515/res-2025-0020
+Received June 18, 2025; accepted March 12, 2026; published online April 24, 2026
+Abstract: Environmental humidity can induce irreversible deformation of manu-
+script supports (expansion, contraction, bending), threatening long-term preserva-
+tion. Using a controlled-variable design, we exposed Tibetan paper, palm leaf, and 
+birch bark supports to ﬁve constant relative humidities (30.0 %, 55.3 %, 76.2 %, 86.0 %, 
+and 95.0 %) and monitored moisture content, dimensional change, and deformation 
+for 145 days. Structural and compositional diﬀerences were considered to compare 
+underlying deformation mechanisms. Deformation in all supports increased 
+signiﬁcantly with humidity, and the magnitude, rate, and patterns matched their 
+hygroscopic/desorption behaviour. Palm leaves showed the largest expansion– 
+contraction, followed by birch bark, while Tibetan paper exhibited the best dimen-
+sional and planar stability. Palm-leaf deformation is attributed to highly hygroscopic 
+constituents, a loose microstructure and oriented vascular bundles. Birch-bark 
+lateral curling is governed by structural anisotropy and contrasting hydrophilicity 
+between inner and outer surfaces. Tibetan paper remains stable due to its dense ﬁbre 
+network and traditional manufacturing. Based on the results, ca. 55 % RH is identi-
+ﬁed as an optimal general storage humidity for all three supports, where projection 
+and expansion ratios fall within relatively stable ranges. These ﬁndings establish a
+*Corresponding author: Chen Yu, Wuhan University, School of Information Management, 430072 
+Wuhan, Hubei Province, China, E-mail: penguin1918@qq.com
+Bing Li and Meifang Zhang, Renmin University of China, School of Information Resources Management 
+of Renmin University of China, No. 59, Zhongguancun Street, Haidian Dist, 100872 Beijing, China 
+Danrui Cao, University of Shanghai for Science and Technology, Shanghai, Shanghai, China
+J. Preserv. Libr. Arch. Mater. 2026; 47(1): 29–58
+Open Access. © 2026 the author(s), published by De Gruyter. 
+This work is licensed under the
+Creative Commons Attribution 4.0 International License.
+
+=== PAGE 2 ===
+uniﬁed humidity benchmark for mixed-support collections and support targeted 
+preservation strategies.
+Keywords: Sanskrit manuscript; dimensional stability; Tibetan paper; palm leaf; 
+birch bark
+Zusammenfassung: Umgebungsfeuchte kann irreversible Verformungen der Trä- 
+germaterialien für Sanskrit-Manuskripte (Expansion, Kontraktion, Biegung) verur-
+sachen und gefährdet damit deren Langzeiterhaltung. In einer Versuchsreihe 
+wurden Tibetanisches Papier, Palmblatt und Birkenrinde fünf konstanten relativen 
+Luftfeuchten (30.0 %, 55.3 %, 76.2 %, 86.0 % und 95.0 %) ausgesetzt; Feuchtegehalt, 
+Dimensionsveränderung und Verformung wurden über 145 Tage dokumentiert. 
+Strukturelle und chemische Unterschiede der Materialien wurden zur Erklärung der 
+zugrundeliegenden Verformungsmechanismen berücksichtigt. Die Verformung 
+aller drei Träger nahm signiﬁkant mit der Luftfeuchte zu, wobei Ausmaß, Rate und 
+Muster dem jeweiligen hygroskopischen Verhalten und der Desorptionskapazität 
+entsprachen. Palmblatt zeigte die größte Expansions- und Kontraktionsamplitude, 
+gefolgt von Birkenrinde, während Tibetanisches Papier die beste Dimensions- und 
+Planstabilität aufwies. Die Verformung von Palmblatt wird auf stark hygroskopische 
+Bestandteile, eine lockere Mikrostruktur und gerichtet angeordnete Leitbündel 
+zurückgeführt. Das seitliche Aufrollen von Birkenrinde wird durch strukturelle 
+Anisotropie und unterschiedliche Hydrophilie von Innen- und Außenﬂäche 
+bestimmt. Tibetanisches Papier bleibt aufgrund seines dichten Fasernetzwerks und 
+der traditionellen Herstellungsweise stabil. Auf Grundlage der Ergebnisse wird eine 
+relative Luftfeuchte von ca. 55 % rF als optimale gemeinsame Lagerungsfeuchte für 
+alle drei Träger identiﬁziert, bei der Projektions- und Expansionsverhältnisse im 
+stabilen Bereich liegen und keine erkennbaren Schäden auftreten. Die Befunde 
+liefern einen einheitlichen Richtwert für das Klima in Sammlungen mit gemischten 
+Trägermaterialien und unterstützen gezielte Erhaltungsstrategien.
+Schlüsselwörter: Sanskrit manuskripte; Dimensionsstabilität; tibetanisches Papier; 
+Palmblatt; Birkenrinde
+1 Introduction
+Sanskrit and historical Tibetan manuscripts form an important part of many col-
+lections and possess immense cultural heritage and research value. The religious, 
+scientiﬁc, and cultural knowledge recorded in these manuscripts constitutes an 
+irreplaceable primary source for the study of historical societies and traditions. 
+These manuscripts are found on three principal support materials: Tibetan paper,
+30 
+B. Li et al.
+
+=== PAGE 3 ===
+palm leaf, and birch bark. Like all organic materials, these manuscripts are 
+vulnerable to deterioration from environmental factors such as micro-organisms, 
+moisture, light, and airborne particulates, as well as from handling and trans-
+portation (Zhang 2021; ICCROM 2018). Of these factors, humidity is particularly 
+critical: the hygroscopic and desorption behaviour of cellulose ﬁbres governs the 
+expansion, contraction, and deformation of the support materials, potentially 
+resulting in irreversible damage such as shrinkage, warping, embrittlement, and 
+delamination (Li 2001). Survey data indicate that approximately 30 % of palm leaf 
+manuscripts in China have suﬀered signiﬁcant deformation due to inadequate hu-
+midity control (Song 2023); birch bark manuscripts have undergone irreversible 
+bending as a result of long-term humidity ﬂuctuations, and Tibetan paper manu-
+scripts have been subject to mould growth or embrittlement under extreme hu-
+midity conditions. The three supports diﬀer markedly in structure and chemical 
+composition, resulting in distinct responses to humidity: Tibetan paper forms a 
+dense ﬁbre network through traditional stone-mortar beating and cooking process 
+(Wei 2021); palm leaf has an epidermis–mesophyll–epidermis sandwich structure; 
+and birch bark is characterised by structural asymmetry between the cork layer and 
+the phloem. These structural characteristics directly determine how each support 
+responds to humidity. Regional climate conditions add further complexity: the 
+tropical humidity of Southeast Asia with an annual average relative humidity (RH) of 
+75–85 % promotes mould growth on palm leaf (Yani et al. 2025); the arid conditions 
+favour embrittlement of birch bark (Korosteleva and Sizova 2024); and the temperate 
+continental climate experienced in many Tibetan paper collection sites (RH 40–70 %) 
+causes the material to expand or contract. While a body of research exists on the 
+humidity response and deformation behaviour of each of these supports individu-
+ally, systematic comparative studies remain lacking, making it diﬃcult to establish 
+the performance diﬀerences and interrelationships of the three materials across 
+varying humidity conditions.
+Research on palm leaf as a manuscript support has advanced considerably. Yi 
+et al. (2024) identiﬁed lignin and hemicellulose content and crystallinity as key 
+determinants of deformation sensitivity, noting that thickness diﬀerences between 
+mesophyll tissue and epidermis generate uneven stress during moisture ﬂuctuation. 
+Sharma et al. (2018) characterised the structure of 18th-century Indian palm leaf 
+manuscripts, demonstrating that ﬁbre orientation and cell wall thickness distribu-
+tion govern the dominant direction of bending deformation, further reinforced by 
+vascular bundles aligned along the long axis. Yu et al. (2024) found that traditional 
+steaming techniques reduce hemicellulose content and thereby limit expansion 
+under high humidity, while Zhang et al. (2024) conﬁrmed experimentally that 
+bending strength decreases signiﬁcantly with increasing humidity, identifying 50 % 
+RH as optimal for mechanical stability. More recent studies have broadened the
+Humidity Eﬀects on Sanskrit Manuscript Supports 
+31
+
+=== PAGE 4 ===
+scope of investigation: Sathiyamani et al. (2024) showed that ink composition may 
+accelerate localised ﬁbre degradation, indirectly increasing deformation in-
+homogeneity; Chu et al. (2023) identiﬁed mould growth and hemicellulose degra-
+dation as the principal coupled factors driving deformation under high humidity; 
+and Wiland et al. (2022), in a systematic review, conﬁrmed humidity control and raw 
+material characterisation as the central research priorities for palm leaf manuscript 
+preservation.
+Research on birch bark has focused primarily on the inﬂuence of structural 
+asymmetry on humidity response. Orsini et al. (2015) demonstrated that in humid 
+conditions, lignin hydrolysis leads to microstructural degradation and weakening of 
+inter-ﬁbre bonding. Klügl and Di Pietro (2021) measured adsorption isotherms of 
+historic and modern birch bark, ﬁnding that water vapour plasticises the material 
+and induces outward bending, with diﬀerential moisture expansion rates in longi-
+tudinal and transverse ﬁbres governing bending direction; this anisotropy was 
+attributed to structural diﬀerences between the phloem and sclerenchyma layers. 
+The same authors also compiled an archaeological micro-degradation map of birch 
+bark, establishing correlations between macroscopic damage and microstructural 
+features. Birch bark is inherently fragile, particularly once its layered structure has 
+been compromised, making it susceptible to bending, folding or fracture under 
+mechanical stress or improper handling. The birch bark artefacts recovered from 
+Han dynasty tombs, for instance, were already deformed upon excavation and 
+required ﬂattening and conservation treatment to restore their original form, 
+illustrating the capacity of long-term burial conditions and environmental stress to 
+induce macroscopic deformation (Beekman 2020).
+Research on the humidity response and dimensional stability of Tibetan paper is 
+relatively well developed. Yi et al. (2020) employed accelerated heat-humidity ageing 
+and found that wet-heat treatment signiﬁcantly reduces dimensional stability, with 
+shrinkage ratio ﬂuctuation decreasing by 30 % after 145 days of ageing. Liu et al. 
+(2022) conﬁrmed that the traditional stone-mortar pulping process fully ﬁbrillates 
+the ﬁbres, enhancing inter-ﬁbre bonding and reducing hygroscopicity. Huang (1992) 
+clariﬁed that subsequent boiling and drying processes further balance ﬁbre prop-
+erties, resulting in low hygroscopic characteristics. Zhang et al. (2022), in a study of 
+Tibetan paper manuscripts from the Potala Palace, demonstrated that starch sizing 
+further reduces hygroscopicity, maintaining equilibrium moisture content at 5–7 %, 
+and proposed a storage humidity range of 45–60 % RH.
+Despite this body of research, signiﬁcant gaps remain. Most studies address a 
+single support material, and systematic comparative analyses – particularly quan-
+titative assessments of the relationships between macroscopic properties under 
+varying humidity conditions – are lacking. The diﬀerential hygroscopic behaviour of 
+the three supports under equivalent environmental conditions, for instance, has not
+32 
+B. Li et al.
+
+=== PAGE 5 ===
+been adequately characterised. The present study therefore undertakes a systematic 
+investigation of the humidity response and deformation mechanisms of all three 
+supports, with the aim of reﬁning preservation strategies and establishing evidence-
+based environmental guidelines applicable to mixed-support collections.
+2 Materials and Methods
+2.1 Experimental Materials
+2.1.1 Materials
+Three types of support materials were selected, with ﬁve samples prepared for each 
+type. All samples were uniformly cut into rectangles of 10 × 4 cm to ensure consis-
+tency in initial dimensions. The sample pretreatment strictly followed the experi-
+mental speciﬁcations for cultural heritage protection. To reduce errors, a vernier 
+calliper was used for accurate dimension measurement in subsequent steps.
+Tibetan paper:
+– Date of production unknown.
+– Manufactured using traditional Tibetan techniques (raw material preparation, 
+soaking, stone-mortar beating, sheet formation and drying).
+– Fibres derived from Thymelaeaceae plants (Daphne tangutica).
+– Thickness approximately 0.18 mm.
+Palm leaves:
+– Collected from Xishuangbanna, Yunnan, in 2021.
+– Processed through traditional techniques (cutting, cooking, cleaning, and 
+drying).
+– Raw material: Corypha umbraculifera, with a thickness of approximately 
+0.35 mm.
+Birch bark:
+– Purchased in 2021.
+– Prepared by removal of the outer bark, cutting and drying.
+– Inner ﬁbre layer and outer waxy layer retained; thickness approximately 
+0.28 mm.
+Humidity Eﬀects on Sanskrit Manuscript Supports 
+33
+
+=== PAGE 6 ===
+2.2 Experimental Design
+2.2.1 Moisture Content
+Regular measurements of the moisture content of samples are conducted using a 
+paper moisture meter. Moisture content is a key indicator reﬂecting the humidity 
+response characteristics of the supports, while ambient relative humidity is a critical 
+factor aﬀecting the stability of materials such as archival paper, palm leaves, and 
+birch bark, directly determining the expansion and deformation patterns of these 
+three supports. Measuring moisture content enables quantitative analysis of the 
+response of the three supports under varying humidity conditions, clariﬁes the 
+relationship between environmental humidity and support deformation, and 
+further elucidates the hygroscopic and desorption behaviour of cellulose ﬁbres as 
+governed by their diﬀering structural and chemical characteristics. This clariﬁes the 
+macroscopic deformation behaviour of the three supports under varying RH con-
+ditions (including shrinkage, curling, and bending), providing quantitative data to 
+support investigation of deformation mechanisms and the optimisation of storage 
+humidity recommendations. In this study, the change in moisture content (observed 
+value minus initial value) is introduced to eliminate individual diﬀerences in the 
+initial moisture content of the samples. A positive value indicates hygroscopicity by 
+the sample, whereas a negative value indicates desorption. Moisture content of the 
+three supports was measured at regular intervals using a paper moisture meter 
+(SH-01, Shenzhen Aigerui Instrument Co., Ltd., Shenzhen, China), operating on a 
+high-frequency wave principle; values are expressed as percentages.
+2.2.2 Expansion Length and Width
+Prior to testing, all three supports were cut to rectangular samples and their initial 
+length and width measured using vernier callipers (Mitutoyo 500-196-30, accuracy 
+0.01 mm). Samples were then placed in the humidity environments speciﬁed for each 
+experimental condition. Following exposure, the supports exhibited varying degrees 
+and types of deformation, including edge warping and wrinkling. Samples were 
+removed and gently ﬂattened on a horizontal surface before length and width were 
+measured. The expansion ratio (deﬁned below) was used to characterise the 
+expansion and contraction behaviour of each material.
+Expansion ratio = Expansion length × Expansion width 
+Initial length × Initial width
+(1)
+34 
+B. Li et al.
+
+=== PAGE 7 ===
+The expansion ratio is deﬁned as the ratio of the sample area after exposure to its 
+initial area. A value >1 indicates expansion, a value <1 indicates contraction, and a 
+value approaching 1 indicates dimensional stability.
+2.2.3 Projected Length and Width
+The projected length and width of each sample were measured using vernier calipers 
+prior to humidity exposure. As buckling or bending increases, projected dimensions 
+decrease relative to the ﬂattened dimensions, providing a measure of deformation 
+severity. The projection ratio is deﬁned as follows:
+Projection ratio = Projection length × Projection width 
+Stretch length × stretch width
+(2)
+The projection ratio is deﬁned as the ratio of the area projected by the sample onto a 
+horizontal plane to its ﬂattened area. The projection ratio is always ≤1; lower values 
+indicate greater deformation.
+2.2.4 Bending Angle
+Rectangular samples subject to deformation frequently exhibited U-shaped bending 
+in longitudinal section, with upward curling along both long edges. In such cases, the 
+bending angle on each side was measured. Where deformation did not conform to a 
+U-shaped proﬁle, the deformation pattern was recorded descriptively without 
+assignment of an angle value. Photographic documentation was made of all samples 
+to facilitate visual assessment of deformation characteristics.
+2.3 Experimental Steps
+(1) Sample preparation and humidity environments: samples were cut at room 
+temperature (23 °C); ﬁve desiccators were conditioned using aqueous CaCl 2 
+solutions of diﬀerent concentrations (w/w) to establish constant humidity en-
+vironments of 30.0 %, 55.3 %, 76.2 %, 86.0 %, and 95.0 % RH. Anhydrous CaCl 2 
+was dissolved in deionized water to prepare the required CaCl 2 –H 2 O solutions, 
+and the RH in each desiccator was allowed to equilibrate and then veriﬁed 
+using a calibrated hygrometer.
+(2) Initial measurements: moisture content, length, width, and projected di-
+mensions were recorded for each sample prior to exposure.
+(3) Sample placement: one sample each of Tibetan paper, palm leaf and birch bark 
+was placed in each desiccator, which was then sealed and maintained at a
+Humidity Eﬀects on Sanskrit Manuscript Supports 
+35
+
+=== PAGE 8 ===
+constant temperature of 23 °C. All other variables (light, air ﬂow) were kept 
+consistent to minimise additional interference.
+(4) Periodic measurements: samples were removed brieﬂy on days 6, 12, 18, 32, 53, 
+74, 88, and 145 for measurement of moisture content, projected dimensions, 
+ﬂattened dimensions and bending angle, and photographed.
+(5) Data processing: expansion ratio and projection ratio were calculated and 
+statistical analysis performed.
+3 Results and Discussion
+3.1 Impact of Diﬀerent Humidity on Support Moisture Content
+Tables 1, 2, and 3 present the moisture content of Tibetan paper, palm leaf, and birch 
+bark respectively under each humidity condition. As initial moisture content varied 
+slightly between samples.
+Figures 1, 2, and 3 plot the change in moisture content over time (days) rather 
+than absolute values, in order to more accurately reﬂect material behaviour. The 
+change in moisture content is deﬁned as the value recorded on each observation day 
+minus the value at day 0; positive values indicate moisture absorption and negative 
+values indicate desorption relative to the initial state.
+3.1.1 Variation of Moisture Content with Time
+All three supports lost water in the 30 % RH environment: from the start of the 
+experiment, their moisture content kept decreasing steadily and gradually reached a
+Table : Moisture content of Tibetan paper over time under diﬀerent humidity conditions.
+Time (day)\humidity
+ %
+. %
+. %
+ %
+ %
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+36 
+B. Li et al.
+
+=== PAGE 9 ===
+balanced value. After 145 days of storage under 30 % RH, Tibetan paper lost 2.35 % of 
+its water, palm leaf lost 4.15 %, and birch bark lost 2.35 %. This shows that the 
+moisture inside the samples had basically achieved adsorption and desorption bal-
+ance with the environmental humidity. In high humidity environments (76.2 %, 86 %, 
+and 95 % RH), all three supports absorbed water. Their moisture content continued to 
+rise and eventually stabilised, but there were obvious diﬀerences in hygroscopicity 
+rate and extent. Palm leaf had the fastest absorption rate and the largest increase (its 
+moisture content rose by 5.25 % after 145 days under 95 % RH), followed by birch bark 
+(3.20 %), and Tibetan paper had the smallest increase (1.55 %). This is mainly due to 
+the diﬀerent water vapour adsorption capacities of the three materials, which are 
+caused by diﬀerences in the hydrophilicity of their chemical components and their 
+micro-pore structures (Burkhardt et al. 2012).
+3.1.2 Comparison of Hygroscopicity and Desorption Capacities and Cause 
+Analysis
+The chemical composition, microstructure, and traditional preparation techniques 
+of the three manuscript materials all contribute to their diﬀering moisture content 
+change behaviours. Regarding diﬀerences in the hydrophilicity of chemical com-
+ponents, palm leaves contain a higher proportion of hydrophilic components such as 
+hemicellulose and pectin. Their molecular structure is rich in polar groups like 
+hydroxyl and carboxyl, which can form strong hydrogen bonds with water mole-
+cules. Although traditional steaming processes can reduce hemicellulose content to 
+some extent, they cannot fundamentally alter the high moisture sensitivity caused by 
+its highly hydrophilic components and loose structure. Consequently, palm leaves
+Table : Moisture content of palm leaves over time under diﬀerent humidity conditions.
+Time (day) \humidity
+ %
+. %
+. %
+ %
+ %
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+Humidity Eﬀects on Sanskrit Manuscript Supports
+37
+
+=== PAGE 10 ===
+Table : Moisture content of birch bark over time under diﬀerent humidity conditions.
+Time (day) \humidity
+ %
+. %
+. %
+ %
+ %
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+Figure 1: Changes in moisture content of Tibetan paper under diﬀerent humidity conditions as a 
+function of time.
+Figure 2: Change in moisture content of palm leaves under diﬀerent humidity conditions as a function 
+of time.
+38 
+B. Li et al.
+
+=== PAGE 11 ===
+readily absorb moisture under high humidity and rapidly lose moisture under low 
+humidity (Chen et al. 2025).
+Birch bark has a higher lignin content along with a certain amount of hydro-
+philic polysaccharides. It undergoes only simple debarking and drying, preserving its 
+structure and components intact, and its moisture absorption capacity lies between 
+the other two materials (Orsini et al. 2015). The moisture absorption properties of 
+Tibetan paper are determined by its ﬁbrous raw materials and pore structure. Made 
+from ﬁbres of the Thymelaeaceae plant, Tibetan paper features high cellulose 
+crystallinity and low hemicellulose content, which limits its hydrophilicity and 
+moisture absorption (Cai & Zhang 2018).
+The microstructure of the three supports diﬀers:
+(1) Palm leaves possess an epidermis-mesophyll-epidermis sandwich structure, 
+with loose, highly porous mesophyll tissue internally, oﬀering a large speciﬁc 
+surface area that provides numerous adsorption sites for water vapour while 
+accelerating moisture ingress and egress.
+(2) Birch bark contains cork layer cavities and a layered structure. Although it has 
+some water storage capacity, its outer waxy layer slows moisture migration, 
+resulting in slower absorption rates and lower amplitudes compared to palm 
+leaves.
+(3) In terms of papermaking techniques, the distinctive processes used for Tibetan 
+paper such as beating, steaming, sun-drying, and sizing (e.g., with starch) along 
+with the formation of a densely interwoven ﬁbre network through stone-
+mortar beating, further reduce its porosity and pore size. This increases 
+resistance to water molecule diﬀusion, thereby limiting the moisture absorp-
+tion capacity of the ﬁbres to a certain extent (Suolang & Qimei 1996; Chen et al. 
+2024).
+Figure 3: Changes in moisture content of birch bark under diﬀerent humidity conditions as a function 
+of time.
+Humidity Eﬀects on Sanskrit Manuscript Supports 
+39
+
+=== PAGE 12 ===
+3.2 The Eﬀect of Humidity on the Dimensional Stability and 
+Deformation of the Supports
+3.2.1 Expansion and Deformation of Tibetan Paper
+The ﬂattened width and expansion ratio of Tibetan paper under each humidity 
+condition are recorded in Table 4; projected width and projection ratio in Table 5; 
+and U-shaped bending angles in Table 6, where 0° indicates negligible deformation 
+and non-U-shaped deformation is recorded descriptively. Figures 4 and 5 present the
+Table : Changes of the extension length, width, and expansion ratio of Tibetan paper over time under 
+diﬀerent humidity conditions.
+Time (day)\humidity
+ %
+. %
+. %
+ %
+ %
+ 
+Extension (initial) length/mm 
+.
+.
+.
+.
+.
+Initial width/mm
+.
+.
+.
+.
+.
+Extension (initial) ratio 
+.
+.
+.
+.
+.
+Extension length/mm
+.
+.
+.
+.
+.
+ 
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio
+.
+.
+.
+.
+.
+(Due to the small magnitude of the change, this table retains  decimal places to better show the change).
+40 
+B. Li et al.
+
+=== PAGE 13 ===
+expansion ratio and projection ratio respectively as a function of observation time 
+(days).
+The expansion behaviour of Tibetan paper correlates with its hygroscopic and 
+desorption activity. Although microscopic deformation mechanisms introduce some 
+variability, the overall trends in expansion ratio and moisture content change 
+(Figure 4) are consistent. With increasing RH, the dimensional response shifts from 
+contraction to expansion, with higher humidity producing greater ﬁnal expansion 
+ratios. At 30 % RH, the paper undergoes notable contraction, with a maximum 
+shrinkage ratio of approximately 2 %; at RH exceeding 70 %, expansion becomes 
+apparent, with a maximum expansion ratio of approximately 1 % (Table 7). The
+Table : The projection length and width and projection ratio of Tibetan paper under diﬀerent humidity 
+conditions with time.
+Time (day)\humidity
+ %
+. %
+. %
+ %
+ %
+ 
+Projection length/mm 
+.
+.
+.
+.
+.
+Projection width/mm 
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+ 
+Projection length/mm 
+.
+.
+.
+.
+.
+Projection width/mm 
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection length/mm 
+.
+.
+.
+.
+.
+Projection width/mm 
+.
+.
+.
+.
+.
+Projection ratio 
+.
+.
+.
+.
+.
+
+Projection length/mm 
+.
+.
+.
+.
+.
+Projection width/mm 
+.
+.
+.
+.
+.
+Projection ratio 
+.
+.
+.
+.
+.
+
+Projection length/mm 
+.
+.
+.
+.
+.
+Projection width/mm 
+.
+.
+.
+.
+.
+Projection ratio 
+.
+.
+.
+.
+.
+
+Projection length/mm 
+.
+.
+.
+.
+.
+Projection width/mm 
+.
+.
+.
+.
+.
+Projection ratio 
+.
+.
+.
+.
+.
+
+Projection length/mm 
+.
+.
+.
+.
+.
+Projection width/mm 
+.
+.
+.
+.
+.
+Projection ratio 
+.
+.
+.
+.
+.
+
+Projection length/mm 
+.
+.
+.
+.
+.
+Projection width/mm 
+.
+.
+.
+.
+.
+Projection ratio 
+.
+.
+.
+.
+.
+
+Projection length/mm 
+.
+.
+.
+.
+.
+Projection width/mm 
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+Humidity Eﬀects on Sanskrit Manuscript Supports 
+41
+
+=== PAGE 14 ===
+Table : Change of the bending angle of Tibetan paper with time under diﬀerent humidity conditions.
+Time
+(day)\humidity
+ %
+ 
+. %
+ 
+. %
+ 
+ %
+ 
+ %
+ 
+Angle /° 
+ 
+ 
+ 
+ 
+
+Angle /° 
+ 
+ 
+ 
+ 
+
+ 
+Angle /° 
+ 
+ 
+ 
+ 
+
+Angle /° 
+ 
+ 
+ 
+ 
+
+ 
+Angle /° 
+ 
+ 
+ 
+ 
+
+Angle /° 
+ 
+ 
+ 
+ 
+
+ 
+Angle /° 
+ 
+ 
+ 
+ 
+
+Angle /° 
+ 
+ 
+ 
+ 
+
+ 
+Angle /° 
+ 
+ 
+Basically ﬂat, and a corner is slightly turned up 
+ 
+
+Angle /° 
+ 
+ 
+ 
+
+ 
+Angle /° 
+ 
+ 
+Basically ﬂat, and a corner is slightly turned up 
+ 
+Four corners up 
+Angle /° 
+ 
+ 
+
+ 
+Angle /° 
+ 
+ 
+Basically ﬂat, and a corner is slightly turned up 
+Basically ﬂat, the four corners slightly warped 
+Four corners up 
+Angle /° 
+ 
+
+ 
+Angle /° 
+ 
+ 
+Basically ﬂat, with the triangle slightly up 
+Basically ﬂat, the four corners slightly warped 
+Four corners up 
+Angle /° 
+ 
+
+ 
+Angle /° 
+ 
+ 
+Basically ﬂat, with the triangle slightly up 
+Basically ﬂat, the four corners slightly warped 
+Four corners up 
+Angle /° 
+ 
+
+42 
+B. Li et al.
+
+=== PAGE 15 ===
+relatively limited range of dimensional change indicates good stability of Tibetan 
+paper as a writing support.
+In terms of deformation, low humidity (30 % RH) induces the most severe 
+response: high desorption causes U-shaped bending with upward angles of 
+approximately 25° on both sides and a projection ratio approaching (Table 6). At 
+55.3 % RH, deformation decreases markedly, with bending angles of approximately 
+19° and a projection ratio near 0.97. At 76.2 % and 86 % RH, the paper remains 
+essentially ﬂat with only slight edge curling. At 95 % RH, Tibetan paper becomes 
+susceptible to mould growth. Representative photographs are shown in Figure 6. In
+Table : Changes of extension width and extension ratio of palm leaves over time under diﬀerent 
+humidity conditions.
+Time (day)\humidity
+ %
+. %
+. %
+ %
+ %
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Stretch length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Projection ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio
+.
+.
+.
+.
+.
+(The table expansion ratio retains  decimals).
+Humidity Eﬀects on Sanskrit Manuscript Supports 
+43
+
+=== PAGE 16 ===
+all cases, U-shaped deformation manifested as upward bending along the long edges 
+of the rectangular samples.
+3.2.2 Expansion and Deformation of Palm Leaves
+The relationship between palm leaf expansion and RH broadly follows the same 
+pattern as Tibetan paper, with the exception of 95 % RH, where severe mould growth 
+introduces inconsistencies in the data (Figures 7 and 8). The maximum expansion 
+ratio ranges from 5–6 %, and the maximum contraction ratio is approximately 1 %. 
+Deformation is most severe at 30 % RH, with upward bending angles of
+Table : The length and width and projection ratio of palm leaves over time under diﬀerent humidity 
+conditions.
+Time (day)\humidity
+ %
+. %
+. %
+ %
+ %
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+44 
+B. Li et al.
+
+=== PAGE 17 ===
+approximately 27° and a projection ratio approaching 0.85. At 86 % RH, deformation 
+decreases somewhat, with bending angles of approximately 17° and a projection ratio 
+of approximately 0.91 (Table 8). At 76.2 % and 55.3 % RH, deformation is compara-
+tively limited. At 95 % RH, extensive mould growth is observed despite relatively low 
+deformation. U-shaped deformation in palm leaf typically involves upward bending
+Table : Bending angles of palm leaves over time under diﬀerent humidity conditions.
+Time
+(day)\humidity
+ %
+. %
+. %
+ %
+ %
+
+Angle /°
+
+
+
+ 
+
+Angle /°
+
+
+
+ 
+
+
+Angle /°
+
+
+
+
+
+Angle /°
+
+
+
+
+
+
+Angle /°
+
+
+
+
+
+Angle /°
+
+
+
+
+
+
+Angle /°
+
+
+
+
+
+Angle /°
+
+
+
+
+
+
+Angle /°
+
+
+
+
+
+Angle /°
+
+
+
+
+
+
+Angle /°
+
+
+
+
+Four corners up 
+Angle /°
+
+
+
+
+
+Angle /°
+
+
+
+
+Four corners up 
+Angle /°
+
+
+
+
+
+Angle /°
+
+
+
+
+Four corners up 
+Angle /°
+
+
+
+
+
+Angle /°
+
+
+
+
+Four corners up
+Angle /°
+
+
+
+
+Figure 4: The expansion ratio of Tibetan paper changes over time under diﬀerent humidity conditions.
+Humidity Eﬀects on Sanskrit Manuscript Supports 
+45
+
+=== PAGE 18 ===
+Figure 5: The projection ratio of Tibetan paper changes over time under diﬀerent humidity conditions.
+Figure 6: Deformation characteristics of Tibetan paper on day 74 (the humidity increases successively 
+from left to right).
+Figure 7: Extension ratio of palm leaves over time under diﬀerent humidity conditions.
+Figure 8: Projection ratios of palm leaves over time under diﬀerent humidity conditions.
+46 
+B. Li et al.
+
+=== PAGE 19 ===
+along the long edges (Figures 9 and 10), with the exception of 86 % RH, where bending 
+occurred along the short edges (Table 9).
+3.2.3 Expansion and Deformation of Birch Bark
+The dimensional behaviour of birch bark follows the same general pattern: higher 
+RH produces greater expansion, while lower RH produces contraction (Figures 11 
+and 12). Notably, mould growth at 95 % RH appears less severe than at 86 % RH. The 
+maximum expansion ratio is approximately 2 %, while the maximum shrinkage ratio 
+at 30 % RH approaches 0 % (Table 10), indicating that birch bark shows little tendency 
+to contract. In terms of deformation, birch bark displays a relatively consistent 
+deformation mode, typically U-shaped bending with upward curling along the short 
+edges (Figures 13 and 14). Deformation increases with moisture uptake, indicating 
+comparatively poor dimensional stability.
+3.2.4 Comparison of Deformation Behaviour and Underlying Mechanisms
+A comparative analysis of the expansion and deformation characteristics of the three 
+supports yields the following ﬁndings:
+3.2.4.1 Expansion Ratio: Trends and Mechanisms
+The expansion ratio of all three supports is signiﬁcantly and positively correlated 
+with RH; the magnitude and rate of dimensional change are closely related to hy-
+groscopic and desorption capacity. Overall, palm leaf exhibits the greatest expansion 
+and contraction, followed by birch bark, while Tibetan paper shows the best 
+dimensional stability.
+Figure 9: Deformation characteristics of palm leaves on day 32 (humidity increases from left to right).
+Figure 10: deformation characteristics of palm leaves on day 88 (humidity increases from left to right).
+Humidity Eﬀects on Sanskrit Manuscript Supports 
+47
+
+=== PAGE 20 ===
+At 30 % RH, all three supports shrink due to desorption of water molecules from 
+the ﬁbre structure. Intermolecular hydrogen bonds reform and tighten, causing ﬁbre 
+segments to contract and resulting in macroscopic dimensional reduction. The palm 
+leaf shrank by approximately 1.3 % at maximum: its high content of hydrophilic 
+components such as hemicellulose and pectin results in fewer and weaker inter-
+molecular hydrogen bonds, which tighten markedly upon desorption and produce 
+pronounced ﬁbre displacement. Birch bark shows an expansion ratio of 1.05: its cork 
+waxy layer retards desorption, and its high lignin content increases ﬁbre rigidity, 
+partially inhibiting shrinkage deformation (Patera et al. 2016, 259–283; Reina et al. 
+2001, 372–378). Tibetan paper shows the smallest expansion ratio at 0.980,
+Table : Changes in the extension length, width and expansion ratio of birch bark over time under 
+diﬀerent humidity conditions.
+Time (day)\humidity
+ %
+. %
+. %
+ %
+ %
+ 
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio
+.
+.
+.
+.
+.
+ 
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio 
+.
+.
+.
+.
+.
+
+Extension length/mm 
+.
+.
+.
+.
+.
+Extension width/mm 
+.
+.
+.
+.
+.
+Extension ratio
+.
+.
+.
+.
+.
+(The table expansion ratio retains  decimal places to agree with Table ).
+48 
+B. Li et al.
+
+=== PAGE 21 ===
+attributable to its dense ﬁbre network: at 30 % RH, the water evaporation from 
+Tibetan paper ﬁbres causes contraction of the cell wall volume, leading to overall 
+deformation of the paper. However, the stone-mortar beating process employed in 
+Tibetan paper production results in suﬃcient ﬁbrillation and tight interweaving of 
+ﬁbres, with relatively strong intermolecular hydrogen bonds. Consequently, the 
+shrinkage space of ﬁbre segments is limited after water loss, and the paper basically 
+reaches equilibrium at 88 days.
+As RH increases from 55.3 % to 95 %, all three supports shift from contraction to 
+expansion, with deformation amplitude increasing progressively with humidity. At 
+95 % RH, the expansion ratio variation of palm leaves is 3.7 %, that of birch bark is
+Table : The projection length and width and projection ratio of birch bark over time under diﬀerent 
+humidity conditions.
+Time (day)\humidity
+ %
+. %
+. %
+ %
+ %
+ 
+Projection ratio 
+.
+.
+.
+.
+.
+Projection length/mm 
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+ 
+Projection ratio 
+.
+.
+.
+.
+.
+Projection length/mm 
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+
+Projection ratio
+.
+.
+.
+.
+.
+Projection length/mm
+.
+.
+.
+.
+.
+Projection ratio
+.
+.
+.
+.
+.
+Humidity Eﬀects on Sanskrit Manuscript Supports 
+49
+
+=== PAGE 22 ===
+1.7 %, and that of Tibetan paper is only 1 %. Under high humidity, water molecules 
+penetrate the ﬁbre structure, disrupting intermolecular hydrogen bonds and 
+embedding in the amorphous regions of cellulose, causing ﬁbre segments to swell 
+and producing macroscopic dimensional increase (Yin et al. 2023; Holmberg et al. 
+2015). The loose mesophyll tissue and well-developed pore structure of palm leaf
+Table : The bending angle of birch bark over time under diﬀerent humidity conditions.
+Time (day)\humidity
+ %
+. %
+. %
+ %
+ %
+
+Angle /°
+
+
+
+
+
+Angle /°
+
+
+
+
+
+
+Angle /°
+
+
+
+
+
+Angle /°
+
+
+
+
+
+
+Angle /°
+
+
+
+
+
+Angle /°
+
+
+
+
+
+
+Angle /°
+
+
+.
+
+
+Angle /°
+
+
+
+
+
+
+Angle /°
+
+
+
+
+
+Angle /°
+
+
+
+
+
+
+Angle /°
+.
+
+
+
+
+Angle /°
+
+
+
+
+
+
+Angle /°
+
+
+
+
+
+Angle /°
+
+.
+
+
+
+
+Angle /°
+
+
+
+
+
+Angle /°
+
+
+
+
+
+
+Angle /°
+
+
+
+
+
+Angle /°
+
+
+
+
+
+Figure 11: Change of birch bark extension ratio over time under diﬀerent humidity conditions.
+50 
+B. Li et al.
+
+=== PAGE 23 ===
+facilitate rapid water molecule penetration and uptake by hydrophilic components, 
+resulting in rapid and extensive ﬁbre swelling and the greatest expansion defor-
+mation of the three supports. In birch bark, diﬀerential moisture absorption and 
+expansion rates between the cork layer and phloem produce a synchronous inter-
+layer ﬁbre displacement, amplifying macroscopic deformation to some degree; its 
+expansion ratio therefore falls between those of palm leaf and Tibetan paper. Ti-
+betan paper, by contrast, is characterised by high cellulose crystallinity, low hemi-
+cellulose content and a small amorphous fraction, and its dense ﬁbre network 
+imposes strong spatial constraints that increase resistance to water molecule diﬀu-
+sion and signiﬁcantly inhibit ﬁbre swelling. Even at 95 % RH, dimensional change 
+remains limited – a property that accounts for the long-term preservation of Tibetan
+Figure 12: Projection ratio of birch bark over time under diﬀerent humidity conditions.
+Figure 13: Deformation characteristics of birch bark on day 32 (humidity increases from left to right).
+Figure 14: Deformation characteristics of birch bark on day 88 (humidity increases from left to right).
+Humidity Eﬀects on Sanskrit Manuscript Supports 
+51
+
+=== PAGE 24 ===
+paper manuscripts in the alternating arid and humid conditions of the Qinghai-Tibet 
+Plateau without signiﬁcant dimensional distortion.
+Analysis of deformation rates reveals that the expansion ratio of palm leaf 
+increases most rapidly in the 55.3–76.2 % RH range, consistent with the observed 
+rapid increase in moisture content over the same range, identifying this as the 
+critical humidity interval for ﬁbre swelling and contraction in palm leaf. Tibetan 
+paper, by contrast, shows a consistently gradual rate of dimensional change across 
+all humidity ranges, with the smallest ﬂuctuation in expansion ratio (approximately 
+1 %) occurring in the 55.3 % RH range, conﬁrming that this interval eﬀectively 
+maintains the stability of intermolecular forces within the ﬁbre network and min-
+imises dimensional deformation.
+3.2.4.2 Projection Ratio: Trends and Mechanisms
+The projection ratio provides a direct measure of non-uniform deformation such as 
+warping and curling; a larger ﬂuctuation range indicates poorer planar stability and 
+greater susceptibility to damage that may aﬀect manuscript readability. The pro-
+jection ratios of all three supports show trends broadly consistent with their 
+expansion ratios, but the underlying mechanisms relate more speciﬁcally to struc-
+tural asymmetry and uneven moisture migration.
+Palm leaf shows the largest ﬂuctuation range in projection ratio (0.85–0.99) and 
+the greatest tendency towards warping. Its upper and lower epidermis are dense and 
+high in wax content, while the mesophyll tissue is loose and rich in hydrophilic 
+components. During moisture uptake and release, the hygroscopic and desorption 
+rates of the mesophyll tissue substantially exceed those of the epidermis, generating 
+a pronounced moisture gradient across the thickness of the leaf and a directional 
+warping moment that causes the material to curl towards the epidermis side 
+(Thommes et al. 2015). Additionally, the vascular bundles of palm leaf are oriented 
+along the long axis (Zhang et al. 2024, 2025), producing anisotropic expansion and 
+contraction that further intensiﬁes warping deformation. Traditional cooking 
+treatment partially damages the wax layer of the epidermis, exacerbating uneven 
+moisture migration and increasing the amplitude of projection ratio ﬂuctuation 
+(Huang et al. 2025; Zhang et al. 2022).
+Birch bark shows the second largest ﬂuctuation range in projection ratio (0.87– 
+0.99) (Table 11), primarily manifesting as lateral curling. This behaviour derives from 
+the structural asymmetry and contrasting hydrophilicity of the cork layer and 
+phloem: the outer cork layer is rich in wax and strongly hydrophobic, with slow 
+water penetration, while the inner phloem is rich in hydrophilic polysaccharides and 
+absorbs moisture rapidly (Klügl & Di Pietro 2021, 45). This diﬀerential moisture 
+uptake and expansion across the two layers causes birch bark to curl consistently 
+towards the outer (cork) side, with curling becoming more pronounced at higher
+52 
+B. Li et al.
+
+=== PAGE 25 ===
+humidity. At 95 % RH, the curling radius reaches 2.3 cm, signiﬁcantly compromising 
+planar integrity. The weak inter-layer bonding of the layered structure further 
+promotes micro-displacement between layers under moisture stress, amplifying 
+projection ratio ﬂuctuation.
+The projection ratio of Tibetan paper remains consistently close to 1.00 (ﬂuc-
+tuation range 0.90–1.00), indicating markedly superior planar stability. This is 
+attributable to the structural homogeneity of the material: stone-mortar beating fully 
+ﬁbrillates the ﬁbres, producing a uniformly interwoven network with no prefer-
+ential ﬁbre orientation and a fully symmetrical cross-sectional structure (Jia et al. 
+2021). Moisture migration is therefore uniform, generating no signiﬁcant moisture 
+gradient or diﬀerential internal stress across the thickness. Starch sizing further ﬁlls 
+inter-ﬁbre voids and reduces variability in water penetration (Janssen 2025), 
+ensuring that expansion and contraction on both faces remain essentially equivalent 
+across humidity conditions (Vibert et al. 2023) and that internal stresses cancel rather 
+than accumulate. As a result, Tibetan paper resists warping and curling and main-
+tains planar integrity across a wide range of humidity environments.
+From a preservation perspective, the greater the deviation in projection ratio, 
+the more blurred the manuscript handwriting and the more severe the page adhe-
+sion will be, which increases the diﬃculty of restoration (Zou 2024; Zhang & Song 
+2024, Lyu & Zhang 2020). At 55.3 % RH, the projection ratios of both Tibetan paper and 
+palm leaves fall within the optimal stable range (Tibetan paper: 0.99–1.00; palm 
+leaves: 1.00–1.01), with no obvious warping or curling deformation. Although birch 
+bark shows a relatively large variation in projection ratio (0.87–1.00) at 55.3 % RH, its 
+bending angle becomes moderate. This further veriﬁes that 55 % RH is an appro-
+priate storage humidity for all three support types and provides an empirical basis 
+for the planar stability of manuscript supports across diverse regional contexts.
+The three supports also diﬀer in bending direction. Tibetan paper and palm leaf 
+both exhibit upward bending along the long edges, while birch bark bends upward 
+along the short edges under all humidity conditions. In Tibetan paper, long-edge 
+bending is a localised phenomenon occurring only at low humidity, attributed to 
+slightly higher ﬁbre density along the long axis resulting from water ﬂow direction 
+during sheet formation, which produces greater stress accumulation in this direction 
+upon desorption (Bergander & Salmén 2002). In palm leaf, long-edge bending is an 
+inherent deformation characteristic, driven by the directional arrangement of 
+vascular bundles along the long axis; their lower expansion-contraction rate relative 
+to the surrounding parenchyma cells generates a continuous upward bending 
+moment along the long edge during humidity change (Yu et al. 2024; Yu et al. 2024). 
+Short-edge bending in birch bark directly reﬂects structural anisotropy: the short 
+edges are parallel to the transverse ﬁbres, which absorb moisture and expand at a 
+substantially higher rate than longitudinal ﬁbres; combined with diﬀerential
+Humidity Eﬀects on Sanskrit Manuscript Supports 
+53
+
+=== PAGE 26 ===
+expansion resistance arising from contrasting lignin content between the inner and 
+outer layers, this produces consistent U-shaped bending along the short edges across 
+all humidity conditions.
+In summary, the humidity-induced deformation of all three supports results 
+from the interaction of environmental humidity and the intrinsic material proper-
+ties of each support. Tibetan paper achieves superior humidity stability through the 
+dual optimisation of structure and chemical composition aﬀorded by traditional 
+manufacturing processes. Deformation in palm leaf is governed primarily by 
+structural ﬁbre orientation, and in birch bark by structural anisotropy. These ﬁnd-
+ings provide the experimental and mechanistic basis for the targeted formulation of 
+preservation strategies for individual supports and mixed-support collections.
+4 Conclusions
+This study monitored three manuscript supports – Tibetan paper, palm leaf, and 
+birch bark – under controlled humidity conditions over 145 days, systematically 
+analysing changes in moisture content, dimensional behaviour, and deformation 
+characteristics. The humidity response patterns and deformation mechanisms of 
+each support were compared and interpreted, and targeted preservation strategies 
+were formulated based on the ﬁndings. The principal conclusions are as follows:
+Tibetan paper exhibits the greatest dimensional stability of the three supports, 
+characterised by low hygroscopicity and limited expansion and contraction. Mois-
+ture content ranges from 3.5 % to 7.2 % across the humidity conditions tested. Below 
+55 % RH, upward bending along the long edges occurs; the recommended storage 
+humidity is 55–60 % RH. The stability of Tibetan paper derives from the synergistic 
+eﬀects of traditional manufacturing processes: stone-mortar beating fully ﬁbrillates 
+the ﬁbres to form a dense network; cooking reduces hemicellulose content and 
+thereby lowers hygroscopicity; and starch sizing combined with calcium carbonate 
+ﬁlling produces a uniform ﬁbre structure with low chemical hydrophilicity. Under 
+humidity ﬂuctuation, stress is distributed evenly in all directions, with no pro-
+nounced tendency towards directional deformation.
+Palm leaf exhibits the greatest hygroscopicity and desorption capacity of the 
+three supports, with moisture content ranging from 4.5 % to 14.2 % across the hu-
+midity conditions tested, and the largest expansion and contraction amplitude, 
+making it particularly sensitive to low humidity. Signiﬁcant upward bending along 
+the long edges occurs at RH below 55 %. The recommended storage humidity is 50– 
+70 % RH, with an optimal range of 50–55 % RH. Directional deformation in palm leaf 
+is governed by the combined eﬀects of structural heterogeneity and chemical hy-
+drophilicity: the epidermis–mesophyll–epidermis sandwich structure produces
+54 
+B. Li et al.
+
+=== PAGE 27 ===
+uneven expansion and contraction across layers during humidity change; the 
+directional arrangement of vascular bundles along the long axis generates a 
+continuous bending moment; and high hemicellulose and pectin content increases 
+hygroscopicity, amplifying deformation. Diﬀerential ﬁbre expansion and contrac-
+tion between ink and uninscribed areas may further exacerbate localised 
+deformation.
+Birch bark exhibits U-shaped bending along the short edges under all humidity 
+conditions tested, with bending angles ranging from 3° to 32° (Table 12), making it the 
+less dimensionally stable of the three supports. Moisture content ranges from 5.2 % to 
+10.8 % across the humidity conditions tested. The recommended storage humidity is 
+50–60 % RH. Directional deformation in birch bark is primarily governed by struc-
+tural anisotropy: diﬀerential moisture absorption and expansion rates between 
+longitudinal and transverse ﬁbres produce greater dimensional change along the 
+short axis; the contrast between the loose inner ﬁbre layers and the wax-rich outer 
+layer generates an outward bending moment; moisture adsorption within the cavity 
+structure of the cork layer further ampliﬁes deformation; and lignin hydrolysis 
+under humid conditions progressively loosens the ﬁbre structure, increasing 
+deformation over time.
+Both excessively high and low moisture content are detrimental to manuscript 
+preservation. High moisture content promotes mould growth and associated support 
+degradation, while low moisture content causes embrittlement and deformation, 
+particularly in palm leaf and birch bark, which are poorly suited to prolonged 
+storage in dry conditions (Sah 2002). Based on the experimental results, an RH of 
+approximately 55 % is considered compatible with all three supports and is proposed 
+as a uniﬁed humidity benchmark for mixed-support manuscript collections. Com-
+bined with a constant temperature of 18–20 °C and humidity ﬂuctuation control 
+within ±5 %, deformation risk across all three supports can be minimised. Custom-
+ised physical support measures tailored to the deformation characteristics of each 
+material can further enhance preservation outcomes: Tibetan paper requires no 
+additional support; palm leaf beneﬁts from a lightweight ﬁbre mat providing support 
+along the long edges; and birch bark should be housed in a U-shaped frame to limit 
+short-edge bending. Together, these measures provide a framework for the evidence-
+based preservation of mixed-support manuscript collections.
+This study addresses a gap in the comparative analysis of the macroscopic 
+properties of three principal manuscript support materials, establishing a frame-
+work linking environmental humidity, macroscopic deformation and underlying 
+material mechanisms, and oﬀering new insights for humidity management and 
+preservation of cellulose-based cultural heritage. Future research directions include 
+investigation of the eﬀects of ﬂuctuating temperature and humidity and extended 
+ageing (beyond 500 days) on deformation behaviour, with a view to optimising
+Humidity Eﬀects on Sanskrit Manuscript Supports 
+55
+
+=== PAGE 28 ===
+combined humidity regulation and physical support strategies. Field validation of 
+laboratory ﬁndings in actual regional storage environments would further support 
+the development of geographically adaptable preservation guidelines. Additional 
+priorities include the development of compatible, environmentally sustainable 
+support materials with expansion and contraction properties matched to those of the 
+manuscript supports, and expanded investigation of the interaction between 
+inscription layers (inks and pigments) and hygroscopic deformation, together 
+providing a more comprehensive technical foundation for the long-term preserva-
+tion of manuscript collections.
+References
+Beekman, B. 2020. “The Conservation of 38 Mesolithic Birch Bark Rolls from Star Carr.” Studies in 
+Archaeological Conservation: 191–7. https://doi.org/10.4324/9780429342257-25.
+Bergander, A., and L. Salmén. 2002. “Cell Wall Properties and Their Eﬀects on the Mechanical Properties of 
+Fibers.” Journal of Materials Science 37 (1): 151–6.
+Burkhardt, J., S. Basi, S. Pariyar, and M. Hunsche. 2012. “Stomatal Penetration by Aqueous Solutions – An 
+Update Involving Leaf Surface Particles.” New Phytologist 196 (3): 774–87.
+Cai, M. L., and M. F. Zhang. 2018. “Properties of Tibetan Paper Commonly Used in the Restoration of 
+Tibetan Archives.” Archives Science Bulletin (4): 103–7. https://doi.org/10.16113/j.cnki.daxtx.2018.04. 
+023.
+Chen, Q. L., S. Wang, and H. E. Jiang. 2025. “Investigation on Traditional Crafts of Palm Leaf Manuscripts in 
+Xishuangbanna and Northern Thailand.” Journal of Engineering Studies: 1–11. https://doi.org/10.3724/ 
+j.issn.1674-4969.20250035.
+Chen, Y. Z., N. Yao, J. L. Shi, and S. Wang. 2024. “Investigation and Research on the Manufacturing Process 
+of Tibetan Paper in Bomi.” Paper and Paper Making 43 (4): 18–23.
+Chu, S., L. Lin, and X. Tian. 2023. “Evaluation of the Deterioration State of Historical Palm Leaf Manuscripts 
+from Burma.” Forests 14 (9): 1775.
+Holmberg, A., L. Wadsö, and S. Stenström. 2015. “Water Vapor Sorption and Diﬀusivity in Bark.” Drying 
+Technology 34 (2): 150–60.
+Huang, X. W. 1992. Control of Hygroscopicityof Paper, 6–10. Shanghai Paper Making (4).
+Huang, Y., X. H. Yi, M. F. Zhang, O. L. Yang, and Z. H. Lin. 2025. “Overview of Preparation, Material 
+Properties and Conservation Research of Palm-Leaf Manuscripts.” Journal of Fudan University (Natural 
+Science) (Online) 1–8.
+ICCROM. 2018. Conservation of Palm Leaf Manuscripts: Technical Guidelines. Rome: ICCROM, 45–52.
+Janssen, H. 2025. “Discussion of ‘Hygrothermal Properties of Tibetan Paper: The Eﬀects of Air Pressure and 
+Printed Scriptures.” Building and Environment 284: 113445.
+Jia, M. H., X. X. Huang, M. L. Cai, M. F. Zhang, Z. Da, and G. Hu. 2021. “Fibers and Papermaking Techniques 
+of Tibetan Paper Commonly Used in Tibetan Archives.” Archives Science Study (4): 116–22, https://doi. 
+org/10.16065/j.cnki.issn1002-1620.2021.04.016.
+Klügl, J., and G. Di Pietro. 2021. “The Interaction of Water with Archaeological and Ethnographic Birch Bark 
+and Its Eﬀects on Swelling, Shrinkage and Deformations.” Heritage Science 9 (1): 45.
+56 
+B. Li et al.
+
+=== PAGE 29 ===
+Klügl, J., and G. Di Pietro. 2021. “Atlas of Micromorphological Degradation of Archaeological Birch Bark.” 
+Applied Sciences 11 (19): 8721.
+Korosteleva, K., and A. Sizova. 2024. “Tibetan Birchbark Manuscripts in the Serindian Collection of the IOM, 
+RAS: Restoration and Identiﬁcation.” Written Monuments of the Orient 10 (1): 29–61.
+Li, B. Q. 2001. “Inﬂuence and Elimination of Hygroscopicityand Expansion of Paper in Color Newspaper 
+Printing.” Printing Field (1): 39–40.
+Liu, Y. X., X. C. Li, and S. Wang. 2022. “Research Progress on Raw Materials, Manufacture and Restoration 
+of Tibetan Paper.” China Pulp and Paper 41 (4): 126–32.
+Lyu, X., and M. Zhang. 2020. “An Overview of Conservation and Restoration of Palm Leaf Manuscripts.” 
+Journal of National Museum of China (8): 147–60.
+Orsini, S., E. Ribechini, F. Modugno, J. Klügl, G. Di Pietro, and M. P. Colombini. 2015. “Micromorphological 
+and Chemical Elucidation of the Degradation Mechanisms of Birch Bark Archaeological Artefacts.” 
+Heritage Science 3 (1): 1–12.
+Patera, A., H. Derluyn, D. Derome, and J. Carmeliet. 2016. “Inﬂuence of Sorption Hysteresis on Moisture 
+Transport in Wood.” Wood Science and Technology 50 (2): 259–83.
+Reina, J. J., E. Domínguez, and A. Heredia. 2001. “Water Sorption–Desorption in Conifer Cuticles: The Role 
+of Lignin.” Physiologia Plantarum 112 (3): 372–8.
+Sah, A. 2002. “Palm Leaf Manuscripts of the World: Material, Technology and Conservation.” Studies in 
+Conservation 47 (Suppl. 1): 15–24.
+Sathiyamani, S., S. Ngiam, O. Bonnerot, S. Jaengsawang, P. Panarut, A. Helman-Wazny, et al. 2024. 
+“Material Characterisation of 19–20th Century Manuscripts from Northern Thailand.” Restaurator 45 
+(2–3): 117–40.
+Sharma, D., M. Singh, G. Krist, and N. M. Velayudhan. 2018. “Structural Characterisation of 18th Century 
+Indian Palm Leaf Manuscripts of India.” International Journal of Conservation Science 9 (2): 257–64.
+Song, X. 2023. The Mode of Rescue Preservation of Palm Leaf Manuscripts and Its Implementation Path. Thesis. 
+Renmin University of China.
+Suolang, R. Q., and D. J. Qimei. 1996. “A Brief Analysis of the Traditional Production Technology and 
+Development Prospect of Tibetan Paper.” Journal of Xizang University (Chinese Edition) 1: 22–5.
+Thommes, M., K. Kaneko, A. V. Neimark, J. P. Olivier, F. Rodriguez-Reinoso, J. Rouquerol, et al. 2015. 
+“Physisorption of Gases, with Special Reference to the Evaluation of Surface Area and Pore Size 
+Distribution (IUPAC Technical Report).” Pure and Applied Chemistry 87 (9–10): 1051–69.
+Vibert, C., B. Fayolle, D. Ricard, and A. L. Dupont. 2023. “Decoupling Hydrolysis and Oxidation of Cellulose 
+in Permanent Paper Aged Under Atmospheric Conditions.” Carbohydrate Polymers 310: 120727.
+Wei, J. P. 2021. Preliminary Studies on Tibetan Papermaking Technology and Tibetan Paper Properties. Thesis. 
+University of Science and Technology of China.
+Wiland, J., R. Brown, L. Fuller, L. Havelock, J. Johnson, D. Kenn, et al. 2022. “A Literature Review of Palm Leaf 
+Manuscript Conservation—Part 1: a Historic Overview, Leaf Preparation, Materials and Media, Palm 
+Leaf Manuscripts at the British Library and the Common Types of Damage.” Journal of the Institute of 
+Conservation 45 (3): 236–59.
+Yani, Z., N. N. Alaini, A. Heryana, K. Fuad, R. Rohim, and L. M. Ariadi. 2025. “Traditional Ways of Caring for 
+Historical Manuscripts in Lombok (Indonesia).” Restaurator 46 (2): 171–83.
+Yi, X. H., Z. P. Yan, K. Long, and T. T. Tian. 2020. “Research on the Stretch Reduction of Paper for Ancient 
+Book Restoration by Hygrothermally Accelerated Aging.” Sciences of Conservation and Archaeology 32 
+(5): 126–34.
+Yin, F. Y., B. Ouyang, J. L. Jiang, Z. Li, and J. X. Lyu. 2023. “Research Progress on Swelling and Shrinkage of 
+Wood Multi-scale Structure.” Scientia Silvae Sinicae 59 (7): 145–54.
+Humidity Eﬀects on Sanskrit Manuscript Supports 
+57
+
+=== PAGE 30 ===
+Yu, D., X. Li, S. Sun, H. Guo, H. Luo, J. Zhu, et al. 2024. “The Eﬀect of Traditional Processing Craft on the 
+Hygroscopicity of Palm Leaf Manuscripts.” Heritage Science 12: 280.
+Yu, R., Z. W. Shen, W. Q. Xing, and P. Liu. 2024. “Investigation of a Method to Test the Dimensional 
+Instability of Restoration Papers for Ancient Books.” Sciences of Conservation and Archaeology 36 (2): 
+148–56.
+Zhang, M. F. 2021. “A Comparative Research on Preservation Models of Palm Leaf Manuscripts Among 
+China, Thailand and Nepal.” Archives Science Study (5): 90–5. https://doi.org/10.16065/j.cnki.issn1002-
+1620.2021.05.014.
+Zhang, M. F., and X. Song. 2024. “A Comparative Study on the Preservation Characteristics of Three Types 
+of Media in Sanskrit Documents.” Archives Science Study (2): 134–40. https://doi.org/10.16065/j.cnki. 
+issn1002-1620.2024.02.016.
+Zhang, M. F., X. Song, X. F. Lyu, J. Q. Wang, and Z. Da. 2022a. “Diagnosis of Main Deterioration of the Palm 
+Leaf Manuscripts in Tibet and Analysis of the Key Techniques for Restoration.” China Tibetology 4: 
+165–78.
+Zhang, M. F., X. Song, J. Wang, and X. Lyu. 2022b. “Preservation Characteristics and Restoration Core 
+Technology of Tibetan Paper Manuscripts in the Potala Palace.” Archival Science 22 (4): 501–19.
+Zhang, W., S. Wang, and H. Guo. 2024. “Inﬂuence of Relative Humidity on the Mechanical Properties of 
+Palm Leaf Manuscripts: Short-Term Eﬀects and Long-Term Aging.” Molecules 29 (23): 5644.
+Zhang, W., S. Wang, and H. Guo. 2025. “Eﬀects of Environmental Factors on the Mechanical Properties of 
+Palm Leaf Manuscripts: Natural Aging, Temperature, Relative Humidity, and Light Radiation.” 
+Polymers 17 (23): 3229.
+Zou, M. L .. 2024. Study on Paper-making Technology and Its Relationship with the Environment in the Ethnic 
+Areas of Southwest China in the Ming and Qing Dynasties. Thesis. Southwest University.
+Supplementary Material: This article contains supplementary material (https://doi.org/10.1515/res-
+2025-0020).
+58 
+B. Li et al.
+

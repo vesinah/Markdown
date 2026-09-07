@@ -1,0 +1,501 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html class="no-js" lang="en"><head>
+<meta charset="UTF-8">
+
+<meta name="author" content="IndiaPRIDE.COM">
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width">
+
+<title>DHIH: Journal Of Rare Buddhist Texts Research Project, Vol. 13, Ed. By S. Rinpoche Et Al |  | 30677</title>
+<meta name="description" content="30677,DHIH: Journal Of Rare Buddhist Texts Research Project, Vol. 13, Ed. By S. Rinpoche Et Al,,,,1992,Central University Of Tibetan Studies,,,,2.15-Buddhism: Manuscript,,">
+<meta name="keywords" content=",30677,DHIH: Journal Of Rare Buddhist Texts Research Project, Vol. 13, Ed. By S. Rinpoche Et Al">
+
+
+
+
+<!-- Foundation Framework -->
+	<link rel="stylesheet" href="foundation642/css/foundation.css">
+	<link rel="stylesheet" href="foundation642/foundation-icons.css">
+<!--end-->
+
+<!-- LayerSlider stylesheet -->
+	<link rel="stylesheet" href="slider/css/layerslider.css">
+<!--end-->
+
+
+<!-- IndiaPRIDE Framework -->
+	<!-- IndiaPRIDE Foundations StylesSheets -->
+
+<link rel="stylesheet" href="/lib/css/foundation-customapp.css">
+<link rel="stylesheet" href="/lib/css/fontsizes.css">
+<link rel="stylesheet" href="/lib/css/colors.css">
+<link rel="stylesheet" href="/lib/css/iconstyles.css">
+<link rel="stylesheet" href="/lib/css/topbar.css">
+<link rel="stylesheet" href="/lib/css/buttons.css">
+<link rel="stylesheet" href="/lib/css/hovers.css">
+<link rel="stylesheet" href="/lib/css/slider.css">
+<link rel="stylesheet" href="/lib/css/form.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Katibeh|Poppins|Dosis|Pacifico">
+
+<!--end--><!--end-->
+
+<!-- LayerSlider script files -->
+<script src="slider/js/jquery.js" type="text/javascript"></script>
+<script src="slider/js/greensock.js" type="text/javascript"></script>
+<script src="slider/js/layerslider.transitions.js" type="text/javascript"></script>
+<script src="slider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+<!--end-->
+
+</script>
+
+ 
+
+
+ 
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+<script LANGUAGE="Javascript">
+
+function update(url) {
+
+	document['PageImage'].src=url;
+
+	return;
+
+}
+
+
+
+function noRightClick() {
+
+	if (event.button==4) {
+
+		alert('You may not right mouse click this page.')
+
+	}	
+
+}
+
+
+
+document.onmousedown=noRightClick
+
+
+
+function validatesrchform() { 
+
+
+
+	var srchstring=document.mysrchform.String.value
+
+
+
+	if (srchstring.length<3) { 
+
+		alert("Please type atleast 3 characters in search box");
+
+		document.mysrchform.String.focus();
+
+  		return (false);	
+
+	} else {
+
+		return (true);
+
+	}
+
+} 
+
+</script>
+
+
+
+ 
+
+
+
+ 
+
+
+<script language="JavaScript" type="text/JavaScript">
+
+function validateaskthequestion() { 
+
+	var email=document.askform.b_email.value 	
+	var name=document.askform.name.value	
+	var phone=document.askform.phone.value
+	var remarks=document.askform.remarks.value
+	var captcha=document.askform.b_captcha.value
+
+	for (var i=0; i<email.length; i++) {
+		if (email.charAt(i) == " ") {
+			alert("E-Mail Address should not contain spaces");
+			document.askform.b_email.focus();
+			return (false);
+		} else if (email.charAt(i) == "#") {
+			alert("E-Mail Address should not contain symbol like # etc.");
+			document.askform.b_email.focus();
+			return (false);
+		} else if (email.charAt(i) == "%") {
+			alert("E-Mail Address should not contain symbol like % etc.");
+			document.askform.b_email.focus();
+			return (false);
+		} else if (email.charAt(i) == "&") {
+			alert("E-Mail Address should not contain symbol like & etc.");
+			document.askform.b_email.focus();
+			return (false);
+		} else if (email.charAt(i) == "*") {
+			alert("E-Mail Address should not contain symbol like * etc.");
+			document.askform.b_email.focus();
+			return (false);
+		} else if (email.charAt(i) == "$") {
+			alert("E-Mail Address should not contain symbol like $ etc.");
+			document.askform.b_email.focus();
+			return (false);
+		} else if (email.charAt(i) == "!") {
+			alert("E-Mail Address should not contain symbol like ! etc.");
+			document.askform.b_email.focus();
+			return (false);
+		}
+	}
+
+	// @ and . is required
+
+	chkattherate=0;
+	chkatdot=0;
+	for (var i=0; i<email.length; i++) {
+		if (email.charAt(i) == "@") {
+			chkattherate++;
+		} else if (email.charAt(i) == ".") {
+			chkatdot++;
+		}
+	}
+
+	if(chkattherate==1 && chkatdot>0){
+
+	}else{
+		alert("Invalid E-Mail Address");
+		document.askform.b_email.focus();
+		return (false);
+	}
+
+	if(name=="" || name.length>60) { 
+		alert("Name length should be <=60");
+		document.askform.name.focus();
+  		return (false);
+	} else if (phone=="" || phone.length>15) { 
+		alert("Phone No cannot be blank and length should be <=15");
+		document.askform.phone.focus();
+  		return (false);
+	} else if(remarks=="" || remarks.length<10 || remarks.length>400) { 
+		alert("Your Query text should be in between 10 to 400 characters.");
+		document.askform.remarks.focus();
+  		return (false);
+	}else if(captcha.length<1) { 
+		alert("Enter the code shown in graphic");
+		document.askform.b_captcha.focus()
+		return (false);	
+	} else {
+		return (true);
+	}
+} 
+</script>
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+ 
+</head>
+<body>
+<div class="grid-container full">
+	<div class="grid-x background-color-lightgainsboro grid-padding-x">
+		<div class="cell auto">
+			<div class="grid-container full">
+				<div class="grid-x">
+					<div class="small-12 medium-12 large-12 cell text-right">
+						<div id="welcomemesg"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="grid-container full">
+
+	<div data-sticky-container>
+		<div data-sticky data-options="marginTop:0;" style="width:100%" >
+			<div class="title-bar" data-responsive-toggle="header-menu" data-hide-for="medium">
+				<button class="menu-icon" type="button" data-toggle="header-menu"></button>
+				<div class="logo-small float-center"><img src="images/bibliaimpex.png" alt="books on buddhism | Biblia Impex | Indology Publishers" /></div>
+			</div>
+			<div class="top-bar foundation-6-top-bar" id="header-menu" >
+				<div class="logo-medium float-left hide-for-small-only"><a href="index.php"><img src="images/bibliaimpex.png" alt="buy books on indian architecture | Biblia Impex  | Books from India" /></a></div>
+				<div class="top-bar-right">
+					<ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
+							<li class="align-self-middle"><a href="index.php?p=sr&startrow=0&format=searchpage&String=indian-n-tibetan&Field=category&Display=Indian%20and%20Tibetan%20Studies%20Series">Indian &amp; Tibetan Studies Series</a></li>
+	<li class="align-self-middle"><a href="index.php?p=sr&startrow=0&format=searchpage&String=newreleases&Field=category&Display=New Releases">New Releases</a></li>
+	<li class="align-self-middle"><a href="index.php?p=sr&startrow=0&format=searchpage&String=pubdist&Field=category&Display=Own Publications">Own Publications</a></li>
+	<li class="align-self-middle"><a data-toggle="offCanvas">Browse Subjects</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="grid-container full">
+				<div class="grid-x background-color-lightgainsboro">
+					<div class="cell  searchbox">
+						<div class="grid-container fluid">
+							<div class="grid-x">
+								<div class="small-12 medium-12 large-8 cell large-text-left medium-text-center text-center">
+									
+<form method="GET" name="mysrchform" action="index.php" onSubmit="return validatesrchform()"  class="nomargin">
+<input type="hidden" name="p" value="sr">
+<input type="hidden" name="startrow" value=0>
+<input type="hidden" name="format" value="listpage">
+<div class="grid-x">
+	<div class="small-12 medium-7 large-8 cell">
+		<div class="input-group">
+			<span class="input-group-label">Search</span>
+		<input name="String" type="text" placeholder="Type search string" class="input-group-field" value="">
+		</div>
+	</div>
+	<div class="small-12 medium-5 large-4 cell">
+		<div class="input-group">
+		<span class="input-group-label"> in </span>
+			<select class="input-group-field" name="Field" size="1">
+				<option value="title" >Title</option>
+				<option value="author" >Author</option>
+				<option value="keywords" selected>Keywords / ISBN</option>
+			</select>
+			<div class="input-group-button">
+				<input type="submit" class="button" value="Find">
+			</div>
+		</div>
+	</div>	
+</div>
+</form>								</div>
+								<div class="small-12 medium-12 large-4 cell large-text-right medium-text-center text-center">
+									<div id="top-after-menu"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	<header id="header" class="topbar-sticky-shrink-header"></header>
+
+	</div>
+</div>
+
+			
+<div class="grid-container fluid"><div class="grid-x"><div class="cell auto">    <div class="grid-container"><div class="grid-x grid-padding-x grid-padding-y"><div class="small-12 medium-4 large-4 cell"><div class="grid-x"><img class='thumbnail' src='/books/pics/blank.jpg' name='PageImage'  alt='DHIH: Journal of Rare Buddhist Texts Research Project, Vol. 13, ed. by S. Rinpoche et al' ></div></div><div class="small-12 medium-8 large-8 cell"><h1>DHIH: Journal of Rare Buddhist Texts Research Project, Vol. 13, ed. by S. Rinpoche et al</h1><p class="subheader text-left">Publisher: <strong>Central University of Tibetan Studies</strong></p><p class="h5 text-left"><strong><span class="orange size-20">USD 31.50</span></strong></p><p><form method="POST" name="myfc" class="formaddcart" action="index.php" onSubmit="return additem(this)"><input type="hidden" name="p" value="cart/cart"><input type="hidden" name="cartcode" value="30677"><input type="hidden" name="cartdesc" value="DHIH: Journal of Rare Buddhist Texts Research Project, Vol. 13, ed. by S. Rinpoche et al"><input type="hidden" name="cartcntry" value=" (Paperback)"><input type="hidden" name="cartrate" value="31.5"><input type="hidden" name="cartqty" value="1"><input type="hidden" name="action" value="add"> <input align="top" name="imageField" type="image" src="../images/add2cart.png" border="0"></form></p><p class='h3 text-left'>Note: Forwarding by air/ courier inclusive in price.</p><div class="grid-x grid-padding-x grid-padding-y"><div class="cell auto"><ul class="tabs" data-responsive-accordion-tabs="small-accordion medium-tabs large-tabs" data-active-collapse="true" data-multi-expand="true" data-allow-all-closed="false" 0 id="book-details"><li class="tabs-title is-active"><a href="#panel1d" aria-selected="true"><span class='size-16 blue'>Book Details</span></a></li></ul><div class="tabs-content" data-tabs-content="book-details"><div class="tabs-panel is-active" id="panel1d"><p class="subheader text-left">Title: <strong>DHIH: Journal of Rare Buddhist Texts Research Project, Vol. 13, ed. by S. Rinpoche et al</strong></p><p class="subheader text-left">Year: <strong>1992</strong></p><p class="subheader text-left">Pages etc.: <strong>various pagings, 24cm.</strong></p><p class="subheader text-left">Binding: <strong>Paperback</strong></p><p class="subheader text-left">Place of publication: <strong>Sarnath</strong></p><p class="subheader text-left">Publisher: <strong>Central University of Tibetan Studies</strong></p> </div></div></div></div></div></div></div></div></div></div><div class="grid-container full">
+	<div class="grid-x background-color-orange">
+		<div class="cell auto">
+			<div class="grid-container ">
+				<div class="grid-x">
+					<div class="cell medium-10 large-10 align-self-middle">
+			<span class="size-28 text-left white">Join our Mailing List!</span>&nbsp; <span class="size-16 white">Receive email updates on New Releases and  Special List.</span>
+					</div>
+					<div class="cell medium-2 large-2 large-text-right text-center"><br /><a href="index.php?p=pages/mailinglist" class="button alert black align-self-middle">Subscribe Now</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="grid-container full">
+	<div class="grid-x background-color-lightwhite grid-padding-x grid-padding-y">
+		<div class="cell auto">
+			<div class="grid-container">
+				<div class="grid-x grid-padding-x grid-padding-y">
+
+					<div class="small-12 medium-5 large-5 cell text-justify align-self-middle">
+						<p class="size-16 darkblue">WHO WE ARE</p>
+						<p class="size-14 blackcharcoal">Biblia Impex Pvt. Ltd. was started in 1963 to export Indian books and publications to all over the world. We cater to demand for publications from not only India, but also Nepal, Sri Lanka, Bhutan, Pakistan and Bangladesh. <a href="index.php?p=pages/aboutus" class="size-11">Read More</a>...</p>
+					</div>
+					
+					
+					<div class="small-12 medium-2 large-2 cell align-self-middle text-center">
+						<a href="index.php?p=pages/trackorder" class="button primary black align-self-middle">&nbsp;&nbsp;Track Order&nbsp;&nbsp;</a><br />
+						<a href="index.php?p=pages/makepayment" class="button primary black align-self-middle">Make Payment</a>
+					</div>
+
+					<div class="small-12 medium-5 large-5 cell align-self-middle">
+						<p class="size-16 darkblue">CONTACT INFO</p>
+						<p class="size-14 blackcharcoal">
+							<i class='fi-mail size-20 blackcharcoal'></i>&nbsp; contact@bibliaimpex.com<br>
+							<i class='fi-map size-20 blackcharcoal'></i>&nbsp; 2/18 Ansari Road, NEW DELHI - 110002 (India)<br>
+							<i class='fi-web size-20 blackcharcoal'></i>&nbsp; www.bibliaimpex.com<br>
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="grid-container full">
+	<div class="grid-x background-color-white grid-padding-x grid-padding-y">
+		<div class="cell auto">
+			<div class="grid-container">
+				<div class="grid-x grid-padding-x grid-padding-y">
+					<div class="small-12 medium-12 large-12 cell text-center align-self-middle">
+						<img src="images/secureonlinecc.jpg" alt="Buddhist Art Books | Indian Literature | Hindu Philosophy">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="grid-container full">
+	<div class="grid-x background-color-blackcharcoal grid-padding-x grid-padding-y">
+		<div class="cell auto">
+			<div class="grid-container">
+				<div class="grid-x grid-padding-x grid-padding-y">
+					<div class="small-12 medium-12 large-12 cell align-self-middle text-center size-14 white">
+						<br><a href="index.php?p=pages/aboutus" class="white">About Us</a> | 
+						<a href="index.php?p=pages/forauthors" class="white">For Authors</a> |
+						<a href="index.php?p=pages/contactus" class="white">Contact Us</a> | 
+						<a href="index.php?p=pages/makepayment" class="white">Make Payment</a> | 
+						<a href="index.php?p=pages/mailinglist" class="white">Join Mailing List</a> | 
+						<a href="index.php?p=pages/deliverypolicy" class="white">Delivery/Return/Refund Policy</a> | 
+						<a href="index.php?p=pages/privacypolicy" class="white">Privacy Policy</a> | 
+						<a href="index.php?p=pages/terms" class="white">Terms & Conditions</a> | 
+						<a href="index.php?p=pages/disclaimer" class="white">Disclaimer</a>
+						<p class="text-center size-12">
+								www.bibliaimpex.com is not be responsible for typing or photographical mistake if any. Prices are subject to change without notice. <br />
+						</p>
+					</div>
+				</div>
+				<div class="grid-x grid-padding-x grid-padding-y">				
+					<div class="small-12 medium-12 large-12 cell align-self-middle text-justify size-12 grey">
+						<a href="index.php?p=sr&Field=keywords&String=Buddhism" class="grey">Buddhism</a>
+ | <a href="index.php?p=sr&Field=keywords&String=Hindu+Art" class="grey">Hindu Art</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=Indian+architecture" class="grey">Indian architecture</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=Tibetan+books" class="grey">Tibetan books</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=French+institute" class="grey">French institute</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=Buddhist+art+books" class="grey">Buddhist art books</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=Nepal+architecture" class="grey">Nepal architecture</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=Bengali+books" class="grey">Bengali books</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=Urdu+books" class="grey">Urdu books</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=Jainism+books" class="grey">Jainism books</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=pali+books" class="grey">pali books</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=jain+art" class="grey">jain art</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=Sanskrit+literature" class="grey">Sanskrit literature</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=dalit+tudies" class="grey">dalit studies</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=women+studies" class="grey">women studies</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=tribal+studies" class="grey">tribal studies</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=south+asian+politics" class="grey">south Asian politics</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=Indian+literature" class="grey">Indian literature</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=Hindi+novels" class="grey">Hindi novels</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=language+studies" class="grey">language studies</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=classical Indian" class="grey">classical Indian</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=yoga+philosophy" class="grey">yoga philosophy</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=Hindu+philosophy" class="grey">Hindu philosophy</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=Buddhist+philosophy" class="grey">Buddhist philosophy</a class="grey">
+ | <a href="index.php?p=sr&Field=keywords&String=jaina+philosophy" class="grey">jaina philosophy</a class="grey">
+
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="grid-container full">
+	<div class="grid-x background-color-grey grid-padding-x">
+
+		<div class="cell small-12 medium-8 large-10 white size-14 text-justify align-self-middle">
+			&copy; 2003-2026 BIBLIA IMPEX PRIVATE LIMITED. All Rights Reserved. 
+		</div>
+		<div class="cell small-12 medium-4 large-2 white size-12 text-right align-self-middle">
+			Designed by <a href="http://www.indiapride.com/?bibliaimpex.com" class="lightgrey">IndiaPRIDE.com</a>
+		</div>
+	</div>
+</div>
+<script language="JavaScript" type="text/JavaScript">
+
+	document.getElementById("welcomemesg").innerHTML = "<span class='h8 text-right'> Hello Guest | <a href='/index.php' >Home</a> | <a href='/index.php?p=pages/aboutus'>About</a> | <a href='/index.php?p=pages/contactus'>Contact</a></span>";
+
+</script>
+
+<script language="JavaScript" type="text/JavaScript">
+
+	document.getElementById("top-after-menu").innerHTML = "<a href='/index.php?p=cart/cart' class='button warning'><i class='fi-shopping-cart size-18 white'></i><span class='size-18 white'> View Cart</span></a>&nbsp;&nbsp;<a href='/index.php?p=member/signin'  class='button primary'><i class='fi-torso size-18 white'></i> <span class='size-18 white'>Sign In</span></a>";
+
+</script>
+<!-- Foundation Framework -->
+<script src="foundation642/js/vendor/jquery.js"></script>
+<script src="foundation642/js/vendor/what-input.js"></script>
+<script src="foundation642/js/vendor/foundation.js"></script>
+<script src="foundation642/js/app.js"></script>
+<script src="datepicker/js/foundation-datepicker.min.js"></script>
+<!-- end -->
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ 
+
+  ga('create', 'UA-3503182-1', 'auto');
+
+  ga('send', 'pageview');
+
+ 
+
+</script>
+</body></html>

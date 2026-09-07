@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:ndl="http://ndl.go.jp/dcndl/terms" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:cir="https://cir.nii.ac.jp/schema/1.0/" xml:lang="ja">
+<channel rdf:about="https://cir.nii.ac.jp/opensearch/all?q=%E4%BA%8B%E5%B8%AB%E6%B3%95%E4%BA%94%E5%8D%81%E9%A0%8C&amp;format=rss">
+<title>CiNii Research all - 事師法五十頌 rss</title>
+<description>CiNii Research all - 事師法五十頌 rss</description>
+<link>https://cir.nii.ac.jp/opensearch/all?q=%E4%BA%8B%E5%B8%AB%E6%B3%95%E4%BA%94%E5%8D%81%E9%A0%8C&amp;format=rss</link>
+<dc:date>2026-08-25T23:18:03.768+09:00</dc:date>
+<opensearch:totalResults>7</opensearch:totalResults>
+<opensearch:startIndex>1</opensearch:startIndex>
+<opensearch:itemsPerPage>7</opensearch:itemsPerPage>
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1460846755835102592"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1390282680354132992"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970304959936370876"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971712334785221155"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970023484985492374"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970304959942055212"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970023484984750242"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://cir.nii.ac.jp/crid/1460846755835102592">
+<title>事師法五十頌</title>
+<link>https://cir.nii.ac.jp/crid/1460846755835102592</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1460846755835102592.rdf"/>
+<dc:creator>日称</dc:creator>
+<dc:type>Dataset</dc:type>
+<dc:identifier rdf:datatype="cir:DOI">10.20730/100221737</dc:identifier>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1390282680354132992">
+<title>伝馬鳴作「事師法五十頌 (Gurupañcasika)」をあぐつて</title>
+<link>https://cir.nii.ac.jp/crid/1390282680354132992</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1390282680354132992.rdf"/>
+<dc:type>Article</dc:type>
+<dc:creator>頼富 本宏</dc:creator>
+<dc:publisher>日本印度学仏教学会</dc:publisher>
+<prism:publicationName>印度學佛教學研究</prism:publicationName>
+<prism:issn>00194344</prism:issn>
+<prism:volume>21</prism:volume>
+<prism:number>2</prism:number>
+<prism:startingPage>947</prism:startingPage>
+<prism:endingPage>945</prism:endingPage>
+<prism:publicationDate>1973</prism:publicationDate>
+<dc:identifier rdf:datatype="cir:DOI">10.4259/ibk.21.947</dc:identifier>
+<dc:identifier rdf:datatype="cir:NDL_BIB_ID">380152</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">http://id.ndl.go.jp/bib/380152</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ndlsearch.ndl.go.jp/books/R000000004-I380152</dc:identifier>
+<dc:identifier rdf:datatype="cir:NAID">130004023401</dc:identifier>
+<dc:source rdf:resource="http://id.ndl.go.jp/bib/380152"/>
+<dc:source rdf:resource="https://ndlsearch.ndl.go.jp/books/R000000004-I380152"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970304959936370876">
+<title>事師法について</title>
+<link>https://cir.nii.ac.jp/crid/1970304959936370876</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970304959936370876.rdf"/>
+<dc:creator>酒井, 真典</dc:creator>
+<dc:publisher>高野山遍照光院歴世全書刊行会</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1972</prism:publicationDate>
+<description>遍照光院歴世全書, 第5巻</description>
+<dc:identifier rdf:datatype="cir:NCID">BA85660497</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BA85660497#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BA85660497#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971712334785221155">
+<title>聖觀自在菩薩功徳讃 . 讃觀世音菩薩頌 . 佛説聖觀自在菩薩梵讃 . 聖多羅菩薩梵讃 . 事師法五十頌 . 犍椎梵讃</title>
+<link>https://cir.nii.ac.jp/crid/1971712334785221155</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971712334785221155.rdf"/>
+<dc:publisher>[文物出版社]</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1989</prism:publicationDate>
+<description>[乾隆版大藏经], 2847</description>
+<dc:identifier rdf:datatype="cir:NCID">BD08977526</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BD08977526#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BD08977526#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970023484985492374">
+<title>七佛讃唄伽陀 . 佛三身讃 . 佛一百八名讃經 . 聖救度佛母二十一種禮讃經 . 佛説一切如來頂輪王一百八名讃 ; 讃法界頌 : 八十七頌 . 八大靈塔梵讃 ; 三身梵讃 . 佛説文殊師利一百八名梵讃 . 曼殊室利菩薩吉祥伽陀 ; 聖金剛手菩薩一百八名梵讃 . 聖觀自在菩薩功徳讃 . 讃觀世音菩薩頌 . 佛説聖觀自在菩薩梵讃 . 聖多羅菩薩梵讃 . 事師法五十頌 . 犍椎梵讃</title>
+<link>https://cir.nii.ac.jp/crid/1970023484985492374</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970023484985492374.rdf"/>
+<dc:creator>法天</dc:creator>
+<dc:creator>法賢</dc:creator>
+<dc:creator>安藏</dc:creator>
+<dc:creator>Dānapāla, 10th cent</dc:creator>
+<dc:creator>慧智</dc:creator>
+<dc:creator>日稱</dc:creator>
+<dc:creator>鉄眼道光</dc:creator>
+<dc:publisher>[黄檗山寶藏院]</dc:publisher>
+<dc:type>Book</dc:type>
+<dc:identifier rdf:datatype="cir:NCID">BB19200822</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BB19200822#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BB19200822#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970304959942055212">
+<title>佛説持明藏瑜伽大教尊那菩薩大明成就儀軌經 . 佛説金剛香菩薩大明成就儀軌經 . 金剛薩埵説頻那夜迦天成就儀軌經 . 佛説大悲空智金剛大教王儀軌經 . 佛説幻化網大瑜伽教十忿怒明王大明觀想儀軌經 ; 佛説妙吉祥瑜伽大教金剛陪囉嚩輪觀想成就儀軌經 . 底哩三昧耶不動尊威怒王使者念誦法 ; 聖迦抳忿怒金剛童子菩薩成就儀軌經 . 七佛讚唄伽他 . 佛三身讚 . 佛一百八名讚 . 聖救度佛母二十一種禮讚經 . 犍椎梵讚</title>
+<link>https://cir.nii.ac.jp/crid/1970304959942055212</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970304959942055212.rdf"/>
+<dc:creator>Nāgārjuna, 2nd cent.</dc:creator>
+<dc:creator>法賢</dc:creator>
+<dc:creator>Dānapāla, 10th cent</dc:creator>
+<dc:creator>法護</dc:creator>
+<dc:creator>不空</dc:creator>
+<dc:creator>法天</dc:creator>
+<dc:creator>安藏</dc:creator>
+<dc:creator>慧智</dc:creator>
+<dc:creator>Aśvaghoṣa</dc:creator>
+<dc:creator>日稱</dc:creator>
+<dc:publisher>濵田篤三郎</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1903</prism:publicationDate>
+<description>大藏經 : 日本校訂, 第16套</description>
+<dc:identifier rdf:datatype="cir:NCID">BA33649298</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BA33649298#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BA33649298#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970023484984750242">
+<title>七佛讃唄伽陀</title>
+<link>https://cir.nii.ac.jp/crid/1970023484984750242</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970023484984750242.rdf"/>
+<dc:creator>法天</dc:creator>
+<dc:creator>法賢</dc:creator>
+<dc:creator>安蔵</dc:creator>
+<dc:creator>慧智</dc:creator>
+<dc:creator>施護</dc:creator>
+<dc:publisher>[書写者不明]</dc:publisher>
+<dc:type>Book</dc:type>
+<description>佛三身讃, (宋)法賢譯, ブツサンシン サン</description>
+<dc:identifier rdf:datatype="cir:NCID">BB16712067</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BB16712067#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BB16712067#entity"/>
+</item>
+</rdf:RDF>

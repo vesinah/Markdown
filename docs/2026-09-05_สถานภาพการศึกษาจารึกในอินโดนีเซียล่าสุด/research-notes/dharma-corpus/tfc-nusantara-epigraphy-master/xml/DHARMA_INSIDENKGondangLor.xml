@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Akṣobhya Statue from Gondang Lor (11th or 12th c. CE)</title>
+                <respStmt>
+                    <resp key="contributor">EpiDoc Encoding</resp>               
+                        <persName ref="part:argr">
+                           <forename>Arlo</forename>
+                           <surname>Griffiths</surname>
+                        </persName>
+                     </respStmt>
+                     <respStmt>
+                        <resp key="creator">intellectual authorship of edition</resp>
+                        <persName ref="part:argr">
+                           <forename>Arlo</forename>
+                           <surname>Griffiths</surname>
+                        </persName>
+                     </respStmt>
+                  </titleStmt>
+                  <publicationStmt>
+                     <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                     <pubPlace>Paris</pubPlace>
+                     <idno type="filename">DHARMA_INSIDENKSriManggalaII.xml</idno>
+                     <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                            <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+        <revisionDesc>
+            <change who="part:argr" when="2024-10-18" status="draft">encoded the inscription</change>
+         </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn" rendition="class:38769 maturity:83213">
+            <lg met="śārdūlavikrīḍita" n="1">
+            <l n="a"><lb n="1"/><g ref="sym:doubleBar-crossed" type="punctuation">.</g> <g ref="sym:circle-lined" type="symbol">*</g> <g ref="sym:doubleBar-crossed" type="punctuation">.</g> śrīmad-dhīmad-amāna-dīdhitir adhiṣ<choice><orig>ṭ</orig><reg>ṭh</reg></choice>ātāva<supplied reason="lost">ga</supplied>c<choice><orig>c</orig><reg>ch</reg></choice>eta saḥ <g ref="sym:bullet-middle-hollow" type="symbol">*</g></l>
+            <l n="b">bhūmnābhūri-vibhūtimantam anagham kurvan· kr̥pāyās sadā,</l>
+            <l n="c">tr<choice><orig>e</orig><reg>ai</reg></choice>lokyodara-vartinam· hitasukhādhīnañ ca yo janminam·,</l>
+            <l n="d">maṇḍ<unclear>u</unclear>ṁkul·-kathito namāmi satatan tam· sadguṇam· śrīghanam· <g ref="sym:doubleBar-crossed" type="punctuation">.</g> </l>
+        </lg>
+            <lg met="vasantatilakā" n="2">
+	<l n="a">tāthāgatī pratikr̥<space type="defect"/>tiḥ paripūrṇa-gātrā,</l>
+	<l n="b">yat kāritākuśali<choice><sic>m</sic><corr>n</corr></choice>ā<lb n="2" break="no"/>pi mayā mahīyaḥ,</l>
+	<l n="c">tenājarāmaraṇa-j<choice><orig>e</orig><reg>ai</reg></choice>na<space type="descender"/>-pade bha<space type="descender"/>vāmi,</l>
+	<l n="d">śrī-dharmavaṅśa-kula-varddhana-nāmadheyaḥ <g ref="sym:doubleBar-crossed" type="punctuation">.</g> <g ref="sym:circle-lined" type="symbol">*</g> <g ref="sym:doubleBar-crossed" type="punctuation">.</g> </l>
+</lg>
+
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem>kr̥pāyās sadā</lem>
+                     <rdg source="bib:Bosch1919-1921_02">kr̥pāyā <unclear>ya</unclear>dā</rdg>
+                  </app>
+                  <app loc="1">
+                    <lem>hitasukhādhīnañ</lem>
+                    <rdg source="bib:Bosch1919-1921_02">hitasukhādīnañ</rdg>
+                 </app>
+                  <app loc="1">
+                    <lem>maṇḍ<unclear>u</unclear>ṁkul·-</lem>
+                    <rdg source="bib:Bosch1919-1921_02">maṇḍaṁkul·-</rdg>
+                 </app>
+                 <app loc="1">
+                    <lem>yat kāritākuśali<choice><sic>m</sic><corr>n</corr></choice>ā<lb n="2" break="no"/>pi</lem>
+                    <rdg source="bib:Bosch1919-1921_02">yatkāritā kuśali māli</rdg>
+                    <note>The reading <foreign>li</foreign> after <foreign>mā</foreign> seems possible on the estampages, but the stone only allows reading <foreign>pi</foreign>. I propose to emend the engraved text to <foreign>akuśalināpi</foreign>. The combination <foreign>akuśalinā api mayā</foreign> evokes such a famous literary phrase as <foreign>etasmān <hi rend="bold">māṁ kuśalinam</hi> abhijñānadānād viditvā mā kaulīnād asitanayane mayy aviśvāsinī bhūḥ</foreign> (Kālidāsa, <title>Meghadūta</title> 109).<!--
+                        dānena cakravartiśrīḥ sā sudarśanajanmani /
+                        bhuktā mayā mahīyasī bodhir nādhigatā tu sā // Kṣemendra, Avadānakalpalatā 17.29--></note>
+                 </app>
+                 <app loc="2">
+                    <lem>-j<choice><orig>e</orig><reg>ai</reg></choice>na<space type="descender"/>-pade</lem>
+                    <rdg source="bib:Bosch1919-1921_02">-jena pade</rdg>
+                 </app>
+                 <app loc="2">
+                    <lem>-dharmavaṅśa-kula-</lem>
+                    <rdg source="bib:Bosch1919-1921_02">-dharmavaṅśa-kr̥ta-</rdg>
+                    <note>The reading is unclear on the estampages but absolutely clear from the stone and the orthophotos. The same reading with <foreign>-kula-</foreign> is also mentioned by Boechari (<bibl rend="omitname"><ptr target="bib:Boechari1990_01"/></bibl> and 
+                        <bibl rend="omitname"><ptr target="bib:Boechari2012_30"/></bibl>), without indication that it is a novelty.</note>
+                 </app>
+               </listApp>
+         </div>
+         <div type="translation" resp="part:argr">
+ 	<p rend="stanza" n="1">Out of compassion, may that Empowerer who is illustrious <supplied reason="explanation"><foreign>śrīmat</foreign></supplied>, intelligent <supplied reason="explanation"><foreign>dhīmat</foreign></supplied> and whose splendor <supplied reason="explanation"><foreign>dīdhiti</foreign></supplied> is immeasurable <supplied reason="explanation"><foreign>amāna</foreign></supplied>, who never does any evil, assent to <supplied reason="subaudible">me</supplied> who am abundantly <supplied reason="explanation"><foreign>bhūmnā</foreign></supplied> lacking in might <supplied reason="explanation"><foreign>abhūri-vibhūtimantam</foreign></supplied>, who revolve in the bowels of the Triple World,<note>Cf. <title>Sādhanamālā</title>, ed. <bibl><ptr target="bib:Bhattacharya1925_01"/><citedRange unit="page">55</citedRange></bibl>, (<title>Śrī-Khasarpaṇalokeśvarasādhana</title>): <foreign>saṁbuddhapratyekaśrāvakabuddhānāṁ tatsutānām api bodhisattvānāṁ sattvānām api <hi rend="bold">trailokyodaravarttināṁ</hi> yad eva kuśalaṁ tat sarvam anumodayāmīti | tadanu ratnatrayaśaraṇagamanam |</foreign>.</note> an incarnated being subservient to convenience and pleasure, called Maṇḍuṅkul <supplied reason="explanation"><q>Hornless</q> or <q>Spiteful</q>?</supplied>,<note>The form <foreign>maṇḍuṅkul</foreign> does not seem to be attested in Old Javanese, but in some varieties of Malay there is <foreign>mendongkol</foreign> which seems to mean <q>to feel spite</q>, from base <foreign>dongkol</foreign> which is also able to express the same meaning as <foreign>dungkul</foreign>, namely <q>hornless</q>. In the <ref target="DHARMA_INSIDENKRameswarapura.xml">Rameswarapura charter</ref> (1197 Śaka) we read the following sentence: <foreign>juru ri suka lagu kbo ḍuṅkul sinuṅan pirak, ku 2, vḍihan, 1</foreign> <q>The headman at Suka Lagu <supplied reason="subaudible">named</supplied> Kbo Ḍuṅkul <supplied reason="explanation">literally Hornless Buffalo</supplied> was given 2 <foreign>kupaṅ</foreign> of silver <supplied reason="subaudible">and</supplied> 1 <foreign>vḍihan</foreign></q>. This suggests that the person who claims to be bowing here bore a personal name of the same type.</note> who perennially bow to that Śrīghana <supplied reason="explanation">i.e., Buddha</supplied>, of excellent qualities!</p>
+     <p rend="stanza" n="2">By virtue of the great <supplied reason="subaudible">merit</supplied> that <supplied reason="subaudible">this</supplied> Buddha image, with limbs complete, has been commissioned by one as unmeritorious as me, I, <supplied reason="subaudible">also</supplied> having the epithet Śrī Dharmavaṅśakulavardhana <supplied reason="explanation"><q>Supporter of the illustrious family of Dharmavaṅśa</q>, <q>Family supporter of the illustrious lineage of the law</q></supplied>, am reborn in the state of a Jina, without old age and death.</p>
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+         </div>
+        <div type="bibliography">
+           <p>First published by F. D. K. Bosch (<bibl rend="omitname"><ptr target="bib:Bosch1919-1921_02"/></bibl>). This digital edition by Arlo Griffiths from estampages and orthophotos.</p>
+        	<listBibl type="primary">
+				<bibl n="B"><ptr target="bib:Bosch1919-1921_02"/></bibl>
+			</listBibl>
+           <listBibl type="secondary">
+              <bibl><ptr target="bib:Knebel1910_03"/><citedRange unit="page">201-202</citedRange></bibl>
+              <bibl><ptr target="bib:OV1916"/><citedRange unit="page">47</citedRange></bibl>
+              <bibl><ptr target="bib:Stutterheim1929_02"/><citedRange unit="page">496-500</citedRange></bibl>
+              <bibl><ptr target="bib:Boechari1990_01"/><citedRange unit="page">126</citedRange></bibl>
+              <bibl><ptr target="bib:Boechari2012_30"/><citedRange unit="page">438</citedRange></bibl>
+           </listBibl>
+           <!-- Knebel (1910: 201–202); OV (1916: 47); Bosch (1919–1921); Stutterheim (1929: 496–500); Boechari (1990: 126; 2012: 438) -->
+        </div>
+      </body>
+  </text>
+</TEI>

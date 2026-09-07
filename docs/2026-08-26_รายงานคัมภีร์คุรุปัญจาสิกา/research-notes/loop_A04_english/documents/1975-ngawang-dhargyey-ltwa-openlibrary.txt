@@ -1,0 +1,50 @@
+SOURCE: Open Library / Internet Archive - work OL319109W + editions
+URLs: https://openlibrary.org/works/OL319109W.json ; https://openlibrary.org/works/OL319109W/editions.json
+RETRIEVED: 2026-08-26
+
+--- WORK RECORD ---
+title: "Fifty stanzas on the spiritual teacher ="
+authors: Asvaghosa (/authors/OL2909A)
+first_publish_date: 1992 (reprint; original ed. 1975)
+lc_classifications: BQ7699.G87 A88 1992 ; BQ5030.G87 A8813 1975
+dewey_number: 294.3/61
+subjects: Buddhism ; Guru worship (Rite)
+
+--- EDITIONS ---
+
+(1) 1975 first edition:
+title: Fifty verses of guru-devotion ("Gurupancasika", "La-ma nga-chu-pa")
+by_statement: by Asvaghosa ; prepared by the Translation Bureau of the Library of Tibetan Works and Archives, Geshe Ngawang Dhargyey ...[et al.].
+publisher: Library of Tibetan Works and Archives, Dharamsala, India
+publish_date: 1975
+pagination: 32 p.
+notes: "Translated from original Tibetan sources."
+lccn: 77901795
+oclc_numbers: 5771931
+lc_classifications: BQ5030.G87 A8813 1975
+dewey_decimal_class: 294.3/61
+subjects: Guru worship (Rite) -- Buddhism
+source MARC: marc_records_scriblio_net part10 ; marc_loc_2016 ; marc_harvard_bibliographic_metadata
+key: /books/OL4701844M
+
+(2) 1976 1st revised edition:
+same publisher/place, 32 p., lc PL3771.E3 A7 / PL3771E3 A7 1976
+by_statement identical (Translation Bureau, Geshe Ngawang Dhargyey et al.)
+key: /books/OL19395778M
+
+(3) 1992 2nd revised edition:
+title: Fifty stanzas on the spiritual teacher = Gurupanchashika = Bla-ma lnga-bcu-pa
+by_statement: by Aryashura [sic! catalog error - should be Asvaghosa]; commentary by Geshe Ngawang Dhargyey, prepared by the Translation Bureau of the LTWA, Geshe Ngawang Dhargyey ... [et al.]
+publish_date: 1992
+pagination: 38 p.
+isbn_10: 8185102872
+isbn_13 (work-level search): 9788185102870
+lccn: 94901117
+oclc_numbers: 30776245
+lc_classifications: BQ7699.G87 A88 1992
+contributions: Ngawang Dhargyey, 1925- ; Library of Tibetan Works & Archives
+key: /books/OL1251539M
+
+--- NOTES FOR REPORT ---
+- Confirms LTWA 1975 (32 pp.) and 1992 2nd rev. ed. (38 pp.) with Geshe Ngawang Dhargyey commentary
+- The 1992 record's "Aryashura" attribution is a cataloguing artifact worth flagging

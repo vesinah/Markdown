@@ -1,0 +1,1100 @@
+[
+  {
+    "id": "https://openalex.org/W2985617867",
+    "doi": null,
+    "title": "When Kōlam Rebecomes: A Performative Exploration of Form, Philosophy and Contemporary Relevance of a Sinhalese Traditional Performance Practice",
+    "display_name": "When Kōlam Rebecomes: A Performative Exploration of Form, Philosophy and Contemporary Relevance of a Sinhalese Traditional Performance Practice",
+    "relevance_score": 1.7691834,
+    "publication_year": 2018,
+    "publication_date": "2018-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2985617867",
+      "mag": "2985617867"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:eprints.vu.edu.au:39514",
+      "is_oa": false,
+      "landing_page_url": "https://vuir.vu.edu.au/39514/",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400215",
+        "display_name": "Victoria University Research Repository (Victoria University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I41156924",
+        "host_organization_name": "Victoria University of Wellington",
+        "host_organization_lineage": [
+          "https://openalex.org/I41156924"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Thesis"
+    },
+    "type": "dissertation",
+    "indexed_in": [],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5078530996",
+          "display_name": "Subasinghe Arachchige Anasuya Subasinghe",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Subasinghe Arachchige Anasuya Subasinghe",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5078530996"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11391",
+      "display_name": "Theatre and Performance Studies",
+      "score": 0.9923999905586243,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1213",
+        "display_name": "Visual Arts and Performing Arts"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11391",
+        "display_name": "Theatre and Performance Studies",
+        "score": 0.9923999905586243,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1213",
+          "display_name": "Visual Arts and Performing Arts"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13002",
+        "display_name": "Southeast Asian Sociopolitical Studies",
+        "score": 0.9843000173568726,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12956",
+        "display_name": "Asian Geopolitics and Ethnography",
+        "score": 0.9603000283241272,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/performative-utterance",
+        "display_name": "Performative utterance",
+        "score": 0.8367688059806824
+      },
+      {
+        "id": "https://openalex.org/keywords/commodification",
+        "display_name": "Commodification",
+        "score": 0.6942145824432373
+      },
+      {
+        "id": "https://openalex.org/keywords/aesthetics",
+        "display_name": "Aesthetics",
+        "score": 0.5629197359085083
+      },
+      {
+        "id": "https://openalex.org/keywords/context",
+        "display_name": "Context (archaeology)",
+        "score": 0.5208457112312317
+      },
+      {
+        "id": "https://openalex.org/keywords/politics",
+        "display_name": "Politics",
+        "score": 0.5066989064216614
+      },
+      {
+        "id": "https://openalex.org/keywords/ideology",
+        "display_name": "Ideology",
+        "score": 0.5054521560668945
+      },
+      {
+        "id": "https://openalex.org/keywords/repertoire",
+        "display_name": "Repertoire",
+        "score": 0.449371874332428
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.44464200735092163
+      },
+      {
+        "id": "https://openalex.org/keywords/narrative",
+        "display_name": "Narrative",
+        "score": 0.4107041358947754
+      },
+      {
+        "id": "https://openalex.org/keywords/epistemology",
+        "display_name": "Epistemology",
+        "score": 0.37666767835617065
+      },
+      {
+        "id": "https://openalex.org/keywords/environmental-ethics",
+        "display_name": "Environmental ethics",
+        "score": 0.3216647505760193
+      },
+      {
+        "id": "https://openalex.org/keywords/political-science",
+        "display_name": "Political science",
+        "score": 0.24907782673835754
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.24855202436447144
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.21422436833381653
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.2126106321811676
+      },
+      {
+        "id": "https://openalex.org/keywords/law",
+        "display_name": "Law",
+        "score": 0.12367904186248779
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.09825891256332397
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C134141054",
+        "wikidata": "https://www.wikidata.org/wiki/Q965415",
+        "display_name": "Performative utterance",
+        "level": 2,
+        "score": 0.8367688059806824
+      },
+      {
+        "id": "https://openalex.org/C57481673",
+        "wikidata": "https://www.wikidata.org/wiki/Q1780322",
+        "display_name": "Commodification",
+        "level": 2,
+        "score": 0.6942145824432373
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.5629197359085083
+      },
+      {
+        "id": "https://openalex.org/C2779343474",
+        "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+        "display_name": "Context (archaeology)",
+        "level": 2,
+        "score": 0.5208457112312317
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.5066989064216614
+      },
+      {
+        "id": "https://openalex.org/C158071213",
+        "wikidata": "https://www.wikidata.org/wiki/Q7257",
+        "display_name": "Ideology",
+        "level": 3,
+        "score": 0.5054521560668945
+      },
+      {
+        "id": "https://openalex.org/C2778473898",
+        "wikidata": "https://www.wikidata.org/wiki/Q2145110",
+        "display_name": "Repertoire",
+        "level": 2,
+        "score": 0.449371874332428
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.44464200735092163
+      },
+      {
+        "id": "https://openalex.org/C199033989",
+        "wikidata": "https://www.wikidata.org/wiki/Q1318295",
+        "display_name": "Narrative",
+        "level": 2,
+        "score": 0.4107041358947754
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.37666767835617065
+      },
+      {
+        "id": "https://openalex.org/C95124753",
+        "wikidata": "https://www.wikidata.org/wiki/Q875686",
+        "display_name": "Environmental ethics",
+        "level": 1,
+        "score": 0.3216647505760193
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.24907782673835754
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.24855202436447144
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.21422436833381653
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.2126106321811676
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.12367904186248779
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.09825891256332397
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C34447519",
+        "wikidata": "https://www.wikidata.org/wiki/Q179522",
+        "display_name": "Market economy",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "pmh:oai:eprints.vu.edu.au:39514",
+        "is_oa": false,
+        "landing_page_url": "https://vuir.vu.edu.au/39514/",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400215",
+          "display_name": "Victoria University Research Repository (Victoria University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I41156924",
+          "host_organization_name": "Victoria University of Wellington",
+          "host_organization_lineage": [
+            "https://openalex.org/I41156924"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Thesis"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "display_name": "Sustainable cities and communities",
+        "score": 0.75,
+        "id": "https://metadata.un.org/sdg/11"
+      }
+    ],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320976",
+        "display_name": "Victoria University",
+        "ror": "https://ror.org/04j757h98"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2509119267",
+      "https://openalex.org/W2946203014",
+      "https://openalex.org/W3089528849",
+      "https://openalex.org/W2947273645",
+      "https://openalex.org/W47531858",
+      "https://openalex.org/W2777954324",
+      "https://openalex.org/W1506320468",
+      "https://openalex.org/W2972844016",
+      "https://openalex.org/W2263336752",
+      "https://openalex.org/W2307754917",
+      "https://openalex.org/W3025727791",
+      "https://openalex.org/W2072092640",
+      "https://openalex.org/W1914740841",
+      "https://openalex.org/W2184431875",
+      "https://openalex.org/W136574893",
+      "https://openalex.org/W2915010238",
+      "https://openalex.org/W2263936727",
+      "https://openalex.org/W1573488077",
+      "https://openalex.org/W39035515",
+      "https://openalex.org/W2126119126"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0,
+        113,
+        217
+      ],
+      "research": [
+        1,
+        218
+      ],
+      "aims": [
+        2
+      ],
+      "to": [
+        3,
+        17,
+        65,
+        121,
+        163,
+        207
+      ],
+      "explore": [
+        4
+      ],
+      "the": [
+        5,
+        9,
+        22,
+        28,
+        34,
+        47,
+        55,
+        60,
+        67,
+        87,
+        93,
+        107,
+        111,
+        122,
+        143,
+        154,
+        166,
+        172,
+        178,
+        183,
+        196,
+        211,
+        230,
+        252,
+        255,
+        264,
+        275,
+        288
+      ],
+      "performative": [
+        6
+      ],
+      "potential": [
+        7
+      ],
+      "of": [
+        8,
+        30,
+        74,
+        92,
+        145,
+        174,
+        185,
+        198,
+        222,
+        232,
+        251,
+        261,
+        269
+      ],
+      "Sinhalese": [
+        10
+      ],
+      "Kōlam": [
+        11,
+        36,
+        79,
+        146,
+        186,
+        199
+      ],
+      "tradition": [
+        12
+      ],
+      "beyond": [
+        13
+      ],
+      "its": [
+        14,
+        44,
+        51,
+        101,
+        118,
+        136,
+        160
+      ],
+      "‘fixed’": [
+        15,
+        133
+      ],
+      "repertoire,": [
+        16
+      ],
+      "have": [
+        18
+      ],
+      "contemporary": [
+        19,
+        212
+      ],
+      "relevance": [
+        20
+      ],
+      "in": [
+        21,
+        43,
+        54,
+        97,
+        100,
+        147,
+        171,
+        187,
+        195,
+        210,
+        229,
+        280
+      ],
+      "present": [
+        23
+      ],
+      "socio-political": [
+        24,
+        213
+      ],
+      "context.": [
+        25,
+        216
+      ],
+      "In": [
+        26
+      ],
+      "recognising": [
+        27
+      ],
+      "ideologies": [
+        29
+      ],
+      "preservation": [
+        31
+      ],
+      "that": [
+        32,
+        78,
+        96,
+        152,
+        157
+      ],
+      "define": [
+        33
+      ],
+      "current": [
+        35
+      ],
+      "practice": [
+        37,
+        156,
+        205
+      ],
+      "as": [
+        38,
+        131,
+        140,
+        200
+      ],
+      "traditional": [
+        39,
+        155,
+        164,
+        272
+      ],
+      "knowledge,": [
+        40
+      ],
+      "which": [
+        41
+      ],
+      "manifests": [
+        42
+      ],
+      "rarity": [
+        45
+      ],
+      "on": [
+        46,
+        59
+      ],
+      "one": [
+        48
+      ],
+      "hand,": [
+        49
+      ],
+      "and": [
+        50,
+        89,
+        103,
+        125,
+        182,
+        214,
+        226,
+        235,
+        242,
+        254,
+        267,
+        286
+      ],
+      "common": [
+        52
+      ],
+      "usages": [
+        53
+      ],
+      "urban": [
+        56
+      ],
+      "economic": [
+        57,
+        215
+      ],
+      "context": [
+        58
+      ],
+      "other,": [
+        61
+      ],
+      "this": [
+        62,
+        224
+      ],
+      "exploration": [
+        63
+      ],
+      "attempts": [
+        64
+      ],
+      "contextualise": [
+        66
+      ],
+      "performance": [
+        68,
+        83,
+        94,
+        204,
+        236,
+        273,
+        279,
+        289
+      ],
+      "genre": [
+        69
+      ],
+      "from": [
+        70
+      ],
+      "a": [
+        71,
+        81,
+        132,
+        193,
+        201,
+        259,
+        271,
+        281
+      ],
+      "different": [
+        72
+      ],
+      "point": [
+        73
+      ],
+      "entry.": [
+        75
+      ],
+      "The": [
+        76,
+        246
+      ],
+      "perception": [
+        77
+      ],
+      "is": [
+        80,
+        106,
+        128,
+        150,
+        227
+      ],
+      "comprehensive": [
+        82
+      ],
+      "system,": [
+        84,
+        274
+      ],
+      "informed": [
+        85
+      ],
+      "by": [
+        86,
+        117
+      ],
+      "ontological": [
+        88
+      ],
+      "epistemological": [
+        90
+      ],
+      "sensibilities": [
+        91
+      ],
+      "maker,": [
+        95
+      ],
+      "turn": [
+        98
+      ],
+      "manifest": [
+        99
+      ],
+      "aesthetic": [
+        102
+      ],
+      "narrative": [
+        104
+      ],
+      "expression,": [
+        105
+      ],
+      "key": [
+        108
+      ],
+      "driver": [
+        109
+      ],
+      "behind": [
+        110
+      ],
+      "research.": [
+        112
+      ],
+      "premodern": [
+        114
+      ],
+      "practice,": [
+        115
+      ],
+      "characterised": [
+        116
+      ],
+      "parallel": [
+        119
+      ],
+      "evolution": [
+        120
+      ],
+      "changing": [
+        123
+      ],
+      "social": [
+        124
+      ],
+      "political": [
+        126
+      ],
+      "framework,": [
+        127
+      ],
+      "performed": [
+        129
+      ],
+      "today": [
+        130
+      ],
+      "repertoire": [
+        134
+      ],
+      "with": [
+        135
+      ],
+      "fundamental": [
+        137
+      ],
+      "purpose": [
+        138
+      ],
+      "defined": [
+        139
+      ],
+      "preservation.": [
+        141
+      ],
+      "Today,": [
+        142
+      ],
+      "presence": [
+        144,
+        184
+      ],
+      "Sri": [
+        148
+      ],
+      "Lanka": [
+        149
+      ],
+      "three-fold:": [
+        151
+      ],
+      "is,": [
+        153
+      ],
+      "continues": [
+        158
+      ],
+      "along": [
+        159
+      ],
+      "ancestral": [
+        161
+      ],
+      "ownership": [
+        162,
+        169
+      ],
+      "knowledge;": [
+        165
+      ],
+      "generic": [
+        167
+      ],
+      "cultural": [
+        168,
+        188
+      ],
+      "manifested": [
+        170
+      ],
+      "work": [
+        173
+      ],
+      "scholars,": [
+        175
+      ],
+      "theatre": [
+        176
+      ],
+      "practitioners,": [
+        177
+      ],
+      "performing": [
+        179
+      ],
+      "arts": [
+        180
+      ],
+      "pedagogy": [
+        181
+      ],
+      "commodification.": [
+        189
+      ],
+      "However,": [
+        190
+      ],
+      "there": [
+        191
+      ],
+      "remains": [
+        192
+      ],
+      "gap": [
+        194,
+        225
+      ],
+      "interpretation": [
+        197
+      ],
+      "‘living’": [
+        202
+      ],
+      "evolving": [
+        203
+      ],
+      "striving": [
+        206
+      ],
+      "be": [
+        208
+      ],
+      "relevant": [
+        209
+      ],
+      "looks": [
+        219
+      ],
+      "for": [
+        220
+      ],
+      "ways": [
+        221
+      ],
+      "addressing": [
+        223
+      ],
+      "presented": [
+        228
+      ],
+      "form": [
+        231
+      ],
+      "dramatic": [
+        233
+      ],
+      "text": [
+        234
+      ],
+      "titled": [
+        237
+      ],
+      "My": [
+        238
+      ],
+      "Sweet": [
+        239
+      ],
+      "Rotten": [
+        240
+      ],
+      "Heritance,": [
+        241
+      ],
+      "an": [
+        243
+      ],
+      "exegetical": [
+        244
+      ],
+      "component.": [
+        245
+      ],
+      "creative": [
+        247
+      ],
+      "element": [
+        248
+      ],
+      "comprises": [
+        249
+      ],
+      "60%": [
+        250
+      ],
+      "thesis": [
+        253
+      ],
+      "exegesis,": [
+        256
+      ],
+      "40%.": [
+        257
+      ],
+      "As": [
+        258
+      ],
+      "way": [
+        260
+      ],
+      "critically": [
+        262
+      ],
+      "evaluating": [
+        263
+      ],
+      "ethical": [
+        265
+      ],
+      "responsibilities": [
+        266
+      ],
+      "limitations": [
+        268
+      ],
+      "exploring": [
+        270
+      ],
+      "researcher": [
+        276
+      ],
+      "positions": [
+        277
+      ],
+      "her": [
+        278
+      ],
+      "para-traditional": [
+        282
+      ],
+      "premise,": [
+        283
+      ],
+      "both": [
+        284
+      ],
+      "facilitating": [
+        285
+      ],
+      "problematising": [
+        287
+      ],
+      "process.": [
+        290
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-08-18T07:49:30.821534",
+    "created_date": "2025-10-10T00:00:00"
+  }
+]

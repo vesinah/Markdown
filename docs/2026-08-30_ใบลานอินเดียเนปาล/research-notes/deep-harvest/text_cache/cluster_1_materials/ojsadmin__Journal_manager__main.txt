@@ -1,0 +1,816 @@
+# SOURCE FILE: ojsadmin,+Journal+manager,+main.pdf
+# ORIGINAL PATH: d:\01_APP\Research\output\palmleaf_india_nepal\research-notes\PDF\ojsadmin,+Journal+manager,+main.pdf
+# CLUSTER: cluster_1_materials (1. วัสดุศาสตร์ หมึก และการอนุรักษ์เชิงเคมี)
+# PAGES: 20 | TOTAL CHARS: 42031
+
+=== PAGE 1 ===
+History of Science in South Asia
+A journal for the history of all forms of scientific thought and action, ancient and modern, in all regions of South Asia
+The Bakhshālī Manuscript: A Response to the
+Bodleian Library’s Radiocarbon Dating
+Kim Plofker, Agathe Keller, Takao Hayashi,
+Clemency Montelle and Dominik Wujastyk
+Union College, CNRS & Université Denis-Diderot, Doshisha University,
+University of Canterbury and University of Alberta
+MLA style citation form: Kim Plofker, Agathe Keller, Takao Hayashi,
+Clemency Montelle and Dominik Wujastyk. “The Bakhshālī Manuscript: A Response to the Bodleian Lib-
+rary’s Radiocarbon Dating.” History of Science in South Asia, 5.1 (2017): 134–150. doi: 10.18732/H2XT07.
+Online version available at: http://hssa-journal.org
+
+=== PAGE 2 ===
+HISTORY OF SCIENCE IN SOUTH ASIA
+A journal for the history of all forms of scientific thought and action, ancient and modern, in all
+regions of South Asia, published online at http://hssa-journal.org
+ISSN 2369-775X
+Editorial Board:
+• Dominik Wujastyk, University of Alberta, Edmonton, Canada
+• Kim Plofker, Union College, Schenectady, United States
+• Dhruv Raina, Jawaharlal Nehru University, New Delhi, India
+• Sreeramula Rajeswara Sarma, formerly Aligarh Muslim University, Düsseldorf, Germany
+• Fabrizio Speziale, Université Sorbonne Nouvelle – CNRS, Paris, France
+• Michio Yano, Kyoto Sangyo University, Kyoto, Japan
+Publisher:
+History of Science in South Asia
+Principal Contact:
+Dominik Wujastyk, Editor, University of Alberta
+Email: ⟨wujastyk@ualberta.ca⟩
+Mailing Address:
+History of Science in South Asia,
+Department of History and Classics,
+2–81 HM Tory Building,
+University of Alberta,
+Edmonton, AB, T6G 2H4
+Canada
+This journal provides immediate open access to its content on the principle that making research
+freely available to the public supports a greater global exchange of knowledge.
+Copyrights of all the articles rest with the respective authors and published under the provisions
+of Creative Commons Attribution-ShareAlike 4.0 License.
+The electronic versions were generated from sources marked up in LATEX in a computer running
+gnu/linux operating system. pdf was typeset using XƎTEX from TEXLive. The base font used for
+Latin script and oldstyle numerals was TEX Gyre Pagella developed by gust, the Polish TEX Users
+Group.
+
+=== PAGE 3 ===
+The Bakhshālī Manuscript: A Response to the
+Bodleian Library’s Radiocarbon Dating
+Kim Plofker, Agathe Keller, Takao Hayashi,
+Clemency Montelle and Dominik Wujastyk
+Union College, CNRS & Université Denis-Diderot, Doshisha University,
+University of Canterbury and University of Alberta
+1. INTRODUCTION
+P
+opular attention has recently been captured by the results of the Bodleian
+Library’s 2017 project of radiocarbon dating portions of the birch-bark frag-
+ments constituting what is known as the Bakhshālī Manuscript.1 As the Gov-
+ernment Palaeographer of India, A. F. R. Hoernle, reported in 1882, this artefact
+was
+… found in a ruined enclosure, near Bakhshálí, a village of the
+Yusufzai District, in the Panjáb, by a man who was digging for stones
+… unfortunately, by far the largest portion of the MS. was destroyed
+when the finder took it up; and even the small portion that now
+remains is in a very mutilated state.2
+Hoernle studied the manuscript in detail, and later passed it to the Bodleian
+Library, where it arrived in 1902. Due to the subsequent deterioration of the
+manuscript, the modern study of its surviving content is primarily based on the
+facsimiles published by G. R. Kaye with his edition of the text in 1927.3
+This content consists of a Hybrid Sanskrit compendium in 70 folios of math-
+ematical formulas and examples, in the form of verse rules or sūtras and sample
+problems mixed with a prose commentary. The manuscript’s colophon states
+that it was written (whether compiled, copied or both is not certain) by an oth-
+erwise unknown brāhmaṇa identified as the “son of Chajaka” for the use of one
+1 Bodleian Library 2017; Devlin 2017; How-
+ell, du Sautoy, and Formigatti 2017.
+2 Hoernle 1882: 108.
+3 Kaye 1927.
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 4 ===
+Plofker, Keller, Hayashi, Montelle and Wujastyk
+135
+equally unknown “Hasika son of Vasiṣṭha” and his descendants, in a locality
+probably called Mārtikāvatī in the Gandhāra region of northwest South Asia.
+The definitive study on this artefact is the edition, translation and commentary
+published by Takao Hayashi as The Bakhshālī Manuscript: An Ancient Indian Math-
+ematical Treatise (Groningen, 1995) based on his 1985 doctoral dissertation in the
+History of Mathematics Department at Brown University.4
+In his study, Professor Hayashi examined various earlier hypotheses about
+the date of the Bakhshālī Manuscript.5 In 1888, Hoernle himself originally sug-
+gested the third or fourth century of the Common Era, based on the assumption
+that the “North-Western Prâkṛit” language of the text preceded the use of Clas-
+sical Sanskrit “in secular composition”.6 This assumption has not been borne
+out by subsequent scholarship. In a 1912 article and in his 1927 edition, Kaye
+argued for a date around the twelfth century, based on comparisons of the man-
+uscript’s distinctive script (a north-western descendant of Gupta script known
+as Śāradā) with epigraphic evidence.7 Kaye was partly influenced by a presup-
+position that the mathematical content of the work was ultimately derived from
+Greek sources, a view that is now recognized to be untenable.8
+Hayashi considered these hypotheses along with various intermediate dates
+proposed by later researchers, in the light of paleographic evidence and more
+recent information about other works in the Sanskrit genre of arithmetic calcu-
+lation (pāṭī-gaṇita). As a consequence, he tentatively assigned the date of the
+commentary’s composition to the seventh century, and of the manuscript itself
+to somewhere between the eighth and the twelfth centuries.9 The verses may
+be somewhat older than the date assigned to the commentary, and many of the
+rules, technical terminology, and metrology they contain are older still, as at-
+tested by numerous extant earlier Sanskrit texts.10 Note that although the vast
+majority of surviving Indic manuscripts were written comparatively recently,
+the texts they contain are in many cases much older, preserved in an unbroken
+chain of scribal copying extending over centuries or millennia.11
+The Bodleian’s radiocarbon dating project took three samples of bark, avoid-
+ing areas containing ink, from fragments identified as belonging to folios 16, 17
+and 33 of the Bakhshālī Manuscript. The date ranges found for these samples are
+224–383, 680–779, and 885–993 respectively (all Common Era). These findings
+were reported by the Bodleian in a research statement internally dated 3 July
+4 Hayashi 1995.
+5 Hayashi 1995: 4–5.
+6 Hoernle 1888.
+7 Kaye 1912, 1927.
+8 Kaye’s views on the Bakhshālī Manu-
+script were decisively refuted by Datta
+(1929) and by Clark (1929).
+9 Hayashi 1995: 148–149.
+10 Hayashi 1995: § I.6, I.12, I.13.
+11 Plofker
+2009: 304–7;
+Wujastyk
+2014: 161 f.
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 5 ===
+136
+The Bakhshālī Manuscript: A Response
+2017 and distributed in an electronic document with filename dated 13 Septem-
+ber 2017; in an article by the Guardian’s science correspondent Hannah Devlin
+that appeared on 14 September (BST); and in a YouTube video released by Oxford
+University at the same time.12 These reports discuss the findings on the assump-
+tion that the proposed date ranges pertain to the actual writing of the manuscript
+sections sampled, even though no tests were performed on the written (inked)
+portions of the leaves.
+The level of popular interest and excitement provoked by these discover-
+ies and speculations reflects a thoroughly understandable, and in our view en-
+tirely commendable, fascination with the history of mathematics and the many
+remarkable discoveries made by ancient Indian mathematicians. Regrettably,
+however, the popular reports have somewhat garbled or obscured several im-
+portant facts about the Bakhshālī Manuscript and about Indian mathematics in
+general.
+2. MISCONCEPTIONS ABOUT THE MANUSCRIPT
+A
+lthough we are not qualified to challenge the assigned radiocarbon dates
+on technical grounds, we think it important to point out several ways in
+which the inferences drawn from these results seem implausible to us in light of
+the features of the manuscript.
+general palaeographic consistency
+The script, handwriting and layout format seen on all the leaves of the Bakhshālī
+Manuscript show far more uniformity than we would expect to find in manu-
+scripts differing in date by hundreds of years. The manuscript’s consistency of
+appearance has produced the generally accepted (though not entirely definitive)
+conclusion that it is a single work written by the same hand in most parts, with
+a second hand seen in one portion.13 It must be strongly emphasized that an-
+cient and medieval Indic cultures, despite some popular preconceptions to the
+contrary, were not intrinsically any more “timeless” or “stagnant” than other
+contemporaneous societies. Any researcher wishing to maintain that all these
+sampled portions of the Bakhshālī Manuscript were actually written separately
+at intervals of several centuries will have to supply a plausible explanation of
+why this script remained so remarkably unchanged, in defiance of all that we
+12 Howell, du Sautoy, and Formigatti 2017;
+Devlin 2017; University of Oxford 2017.
+13 The second hand appears in the part
+designated by Hayashi section X, nearly
+the same as Kaye’s section M. See Hayashi
+1995: 8–10, 23–25, 85.
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 6 ===
+Plofker, Keller, Hayashi, Montelle and Wujastyk
+137
+Figure 1: Folios 16v and 17r of the Bakhshālī MS. from Hayashi 1995: 555–556, reproducing Kaye’s
+original facsimiles.
+currently know about the palaeographic evolution of Indic scripts, or else why
+its later writers chose to simulate so faithfully the writing of a long-dead prede-
+cessor.
+continuity of content between samples
+As Professor Hayashi has pointed out in a personal communication of 15 Septem-
+ber 2017, “there is no evidence at all to show that the scribe of fol. 17 is different
+from that of fol. 16,” and furthermore, “the content of the reverse of fol. 16 (Ex-
+ample 1 for Sutra 27) continues on the obverse of fol. 17”.14 These two written
+14 Hayashi 2017a. See Hayashi 1995: 203,
+310–311,
+and 555–556 for transcription,
+translation
+and
+facsimile
+respectively.
+These leaves are reproduced here in Fig. 1.
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 7 ===
+138
+The Bakhshālī Manuscript: A Response
+leaves are reproduced in Fig. 1. The Bodleian researchers claim that they are sep-
+arated by at least three and possibly as much as five and a half centuries, but
+the leaves treat exactly the same problem on the topic of “mixture,” specifically
+a mixture of gold alloys of different impurities, in what appears to be a continu-
+ous and logically consistent expository stream of sūtra, example problem, and
+displayed calculations. For example, the figures “30” and “10” of the worked
+example are clearly visible on both pages. Whatever may be the age difference
+between the physical birch bark supports constituting leaves 16 and 17, the trans-
+ition in handwriting and textual content from the former to the latter appears to
+be seamless.
+The combination of palaeographic consistency and continuity of content sug-
+gests that the manuscript was written out as a single unified work. In that case,
+it follows that the date of the written zeros is the date of the scribe, which is the
+date of the latest of the folia, not the earliest.
+longevity of a working document
+There exist many examples of carefully preserved (often interred) written birch-
+bark fragments from Central Asia and northern South Asia dated as far back as
+the early Common Era.15 But manuscripts in active use tend to have much shorter
+life expectancies.16 If the proposed dating is to be maintained, it will require a
+plausible explanation of how the different parts of this instructional text were
+maintained in comparable states of preservation over such widely varying time-
+spans up to the point of their common burial some time in or after the ninth
+century.
+physical characteristics of birch bark as a writing medium
+Although we do not know what techniques were used by the ancient artisan(s) in
+the original preparation of the Bakhshālī Manuscript’s birch bark for scribal use,
+it seems possible the resulting leaves may be quite different in chemical compos-
+ition from the natural bark. B. N. Goswamy describes the traditional production
+of such leaves as follows:
+… after being peeled off the tree, the bark was dried; oil was then
+applied over it and it was polished; layers were joined together by
+a natural gum; and finally it was cut to appropriate size and kept
+between wooden covers.17
+15 Sathaye 2017: 56 f.
+16 Walser 2014: n. 19.
+17 Goswamy and Bhattacharya 2007: 20.
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 8 ===
+Plofker, Keller, Hayashi, Montelle and Wujastyk
+139
+The Bodleian researchers say nothing about their assumptions concerning the
+physical makeup of the samples they took from the leaves, except to note that
+the samples
+… were treated with a mild chemical pretreatment, which included
+washes using organic solvents to remove any oils or grease on the
+manuscript and a sequential acid-base-acid wash to remove any po-
+tential carbonates or humics.18
+We cannot tell from this description whether the pretreatment would have been
+sufficient to remove all possible organic contaminants that may have been in-
+troduced during the initial production of the leaves, as opposed to oils and dirt
+that may have accumulated on them later. If not, then the question of sample
+contamination will have to be reconsidered.
+In this context it is noteworthy that at least one other experiment in carbon-
+dating Asian manuscripts has also produced results that are “at variance with the
+codicological, art historical and historical contexts as hitherto understood”.19 In
+this experiment, two Tibetan manuscript folia are unified by style and content,
+but the C-14 dating separates them by six hundred years.20 Citing the opinion of
+Prof. Richard Ernst, Nobel Prize for Chemistry in 1991 and a specialist in Tibetan
+art and pigment analysis, the study concluded:
+The discrepancy between the two sets of radiocarbon results
+remains unresolved.
+It is possible that there was an external
+contamination….21
+This apparently anomalous result points to the desirability of re-examining the
+Bodleian’s own carbon-dating procedures to see if they may hold a clue to the
+similarly puzzling discrepancies in the results for the Bakhshālī Manuscript.
+3. MISCONCEPTIONS ABOUT THE MATHEMATICAL CONTENT
+AND CONTEXT
+T
+he initial speculations about the mathematical content of the manuscript have
+included some statements that need to be clarified or corrected.
+18 Howell,
+du
+Sautoy,
+and
+Formigatti
+2017: 2.
+19 Heller 2016: 129.
+20 The manuscript folios are MS Rome
+IsIAO
+1329 E
+and
+MS
+Los
+Angeles
+LACMA M 81.90.13.
+On the unification
+of these folia, see Harrison 2007.
+On the
+present location of the IsIAO folio, see
+Barrera 2016.
+21 Heller 2016: 129. We are grateful to Mat-
+thew Kapstein for this reference.
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 9 ===
+140
+The Bakhshālī Manuscript: A Response
+“number in its own right”
+The central point of the Bodleian Library’s announcement is its claim that the
+Bakhshālī Manuscript contains
+one of the earliest uses of zero … as a placeholder, i.e. the use of zero
+to indicate orders of magnitude in a number system.22
+Later in the same document Professor du Sautoy asserts that “The zero used
+in the Bakhshali Manuscript is not yet a number in its own right. It is a place
+holder,” and suggests in a general way that the “real” zero was a later Indian
+development.23
+By “number in its own right,” a qualification that may not be entirely clear
+to a general audience, he is referring to the distinction between zero as a place-
+holder and zero as an arithmetical operator.24 In the first case, the zero functions
+as a simple “empty” marker in written numerals; in the second case, the zero is
+treated as a number in arithmetical operations just like the other nine digits (al-
+though obeying certain special rules). Place-holder zeros appeared in sexages-
+imal and vigesimal place-value number systems in Mesopotamian, Greek and
+Mayan texts, some dating from before the Common Era.25 The Bakhshālī zero,
+in Prof. du Sautay’s account, is not functionally different from any of these.
+But if we consider the manuscript as a unified work compiled by a single
+commentator—and so far we have seen no persuasive reason not to do so,
+whatever the age variations in its constituent bark pieces may be—then dis-
+tinguishing within it between uses of zero as a mere “place-holder” and as a
+“number” becomes more difficult. To what extent do techniques for carrying
+out arithmetic operations on decimal place-value numbers intrinsically imply
+some concept of zero as a “number in its own right”?26
+For example, instances of arithmetic operations prescribed for very large
+decimal integers strongly suggest, although they do not conclusively demon-
+strate, the existence of some sort of long-multiplication method performed digit
+by digit, which requires arithmetic operations with zero. One such instance is
+22 Howell,
+du
+Sautoy,
+and
+Formigatti
+2017: 1.
+23 Howell,
+du
+Sautoy,
+and
+Formig-
+atti 2017: 5 and in the YouTube video
+announcement (University of Oxford 2017).
+24 This distinction is well explained in
+Gupta 1995: 45–47. This topic was raised in
+relation to the Bakhshālī zero over a century
+ago by Hoernle (1888: 38).
+25 Gupta 1995; Pingree 2003: 137–58.
+26 Note that the Bakhshālī Manuscript also
+employs the zero-dot as a place-holder in a
+different sense, i.e., as an algebra-like sym-
+bol standing for an unknown quantity.
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 10 ===
+Plofker, Keller, Hayashi, Montelle and Wujastyk
+141
+Figure 2: Folio 47r, large integer multiplication.
+described in the following worked sample problem appearing on f. 47r, shown
+in Fig. 2.27 The fraction
+108625
+65600
+is multiplied by
+59425
+49200
+to produce
+6455040625
+3227520000
+This long-multiplication procedure that includes zeros is hard to conceive of
+without the inclusion of those zeros in the arithmetic operations.
+Furthermore, another procedure in the Bakhshālī Manuscript apparently
+combines the arithmetic use of zero as a number with the above-mentioned
+“algebra-like” practice of using the zero-dot as a symbol for an unknown quant-
+ity.28 That is, in a problem solution on folio 22v,29 a zero-dot standing for the
+unknown quantity is replaced by the nonzero number 1. This quasi-algebraic
+Figure 3: Folio 22v, text of the substitution/addition rule śūnyam ekayutaṃkṛtvā.
+27 Hayashi 1995: 329: problem § VII 8, ex-
+ample 3 for sūtra N18.
+28 See footnote 26 above.
+29 Hayashi 1995: §IV 4, pp. 210, 315.
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 11 ===
+142
+The Bakhshālī Manuscript: A Response
+substitution for a zero symbol is indicated by quoting a rule referencing the
+arithmetic operation of addition to the number zero: namely, “having added
+unity to zero” (śūnyam ekayutaṃkṛtvā; see Figure 3). In other words, the author
+of the commentary seems to understand quite well that replacing a zero-dot by
+some number is equivalent to adding zero to that number.30
+the antiquity of the indian decimal place-value zero
+Based on the proposed C-14 dating, Professor du Sautoy claims that “we now
+know that it was mathematicians in India in 200–400 CE who planted the seed
+of the idea” of the modern zero. This reflects a widespread misconception about
+the historical information already available concerning the Indian “seed of the
+idea” of zero. It is often supposed that the decimal place-value zero dates back
+only as far as the earliest surviving physical example of it in epigraphical sources
+from the second half of the first millennium CE. Sometimes the “invention” of
+the zero is linked instead to the algebra rules whose first surviving formulation
+(which, pace Professor du Sautoy,31 may be much later than their initial discovery)
+appears in the work of Brahmagupta in the early seventh century.32 But in fact,
+it has long been known from textual rather than physical evidence that ideas of
+zero in South Asia stretch back at least to the early centuries of the Common Era.
+For example, a symbol (or blank) called śūnya, a word meaning “empty, void”
+and later established as one of the standard technical terms for zero, served some
+notational purpose(s) in Sanskrit combinatorial calculations in prosody, a sub-
+ject whose founding text by Piṅgala was written before the Common Era. It is
+also known to historians that several early Common Era Indic texts contain ex-
+plicit statements describing a decimal place-value system using counting rods
+or tokens, with locations for units, tens, hundreds, and thousands, that demon-
+strate a clear understanding of how the same digit may have a quite different
+function and value according to its position.33
+30 The false-position technique employ-
+ing such substitutions is treated also in,
+e.g., the Gaṇitasārasaṅgraha of Mahāvīra
+(ca. 850 CE) (Raṅgācārya 1912: 40, 62; #107–
+108) and the Līlāvatī of Bhāskara (1149/1150)
+(Colebrooke 1817: 23; #50–51).
+We thank
+Hayashi (2017b) for these references and
+for his guidance concerning the functional
+equivalence of śūnyam ekayutaṃkṛtvā (“hav-
+ing added unity to zero,” Bakhshālī sūtra
+N8) and śūnyasthāne rūpaṃdattvā (“having
+put unity in the place of zero,” Bakhshālī sū-
+tra N12) in this context.
+31 Howell,
+du
+Sautoy,
+and
+Formigatti
+2017: 5.
+32 Plofker 2009: 140 ff.
+33 Ruegg 1978: 173–4; Gupta 1995: 58; Bag
+and Sarma 2003; Staal 2010: 42.
+Recent
+discoveries on the transmission history of
+these accounts are described in Wujastyk
+2017: 19–20.
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 12 ===
+Plofker, Keller, Hayashi, Montelle and Wujastyk
+143
+Exactly when a fully arithmetic system of decimal place-value digits includ-
+ing zero as a numerical operand came into being is hard to pinpoint.34 The
+earliest definite evidence for such a complete system now apparently dates from
+around 550 CE, in an astronomical work (described by its author as a synopsis of
+several earlier treatises) that defines a particular constant as “sixty minus zero,”
+i.e., just sixty.35 But as the foregoing remarks make clear, the decimal place value
+notation was probably in use in South Asia centuries earlier. Consequently, even
+if part of the Bakhshālī Manuscript text does turn out—against all expectation—
+to be as old as the third or fourth century, its evidence for the use of zero in South
+Asia at that time will indeed be interesting, but as a confirmation rather than a
+revelation or refutation.
+relation of the proposed dating to the language(s) of the
+manuscript
+Dr. Formigatti speculates that various linguistic irregularities in the Sanskrit text,
+which Hayashi noted bear some resemblance to features of “a dialect or dialects”
+including Buddhist Hybrid Sanskrit, Prakrit and Apabhraṃśa, and Old Kāsh-
+mīrī,36 “can be explained by the fact that the manuscript in its present state is
+composed of at least three different manuscripts with different dates.” That is,
+he suggests that the three date ranges found for the samples “correspond to dif-
+ferent stages of linguistic development”.37 This suggestion seems very difficult
+to test, given that so many of the features pointed out by Hayashi overlap in
+some or all of these languages. Moreover, there appears to be no distinct pattern
+in the linguistic identity of the irregularities found in folios 16, 17 and 33.38 In
+fact, all of them appear to be indicated in various places as exhibiting various
+characteristics associated with every one of the languages in question.39
+In our view, nothing currently known about the manuscript suggests dif-
+ferent stages of linguistic development in its different parts, especially not in
+contiguous individual folia presenting a continuous discussion of a particular
+problem. Rather, the work as a whole appears to exhibit throughout a form of
+language that shares features with many other Indian dialects of the time.
+34 This is especially true since previous in-
+ferences of a definite terminus ante quem in
+269/270 CE were recently revealed to be er-
+roneous; see Mak 2013.
+35 Hayashi 2003: 368.
+36 Hayashi 1995: 27.
+37 Howell,
+du
+Sautoy,
+and
+Formigatti
+2017: 6.
+38 These folios are assigned in Hayashi’s
+Revised
+Order
+to
+sections
+§ III.31–32,
+III.33–34, and X.7–8 respectively (Hayashi
+1995: 11–14).
+39 Hayashi 1995: § I.4.
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 13 ===
+144
+The Bakhshālī Manuscript: A Response
+buddhist merchants?
+Dr. Formigatti also states:
+The content of the Bakhshali manuscript is similar to the type of
+texts that Buddhist merchants [in the Gandhāra region] would
+have needed to study (and possibly use as reference) for their daily
+trading activities.40
+And this point was given emphasis in the accompanying YouTube video.41 Yet
+the category of technical works that Dr. Formigatti suggests that the ancient
+“Buddhist merchants would have needed to study” is not known from historical
+studies of Buddhist merchant culture in the Gandhāra region.42 Furthermore,
+the author of the colophon of the manuscript identifies himself as a brāhmaṇa: he
+is neither a merchant nor a Buddhist.43
+Despite the charm of the “Buddhist merchant” scenario, we have no war-
+rant for drawing any definite conclusions about the social milieu in which the
+Bakhshālī Manuscript was produced or used, beyond the bare fact that the colo-
+phon author intended the work for the family of one Vasiṣṭha. Its mathemat-
+ical content foreshadows some rules and problems found in later compositions
+dealing with arithmetic (pāṭīgaṇita), a technical genre characterized by signific-
+ant variety in the religious communities and social contexts of its authors. For
+example, some of these treatises were composed by brāhmaṇas and others by Jain
+scholars.44 What few clues we have about the text of the Bakhshālī Manuscript
+point to an origin in a brahmanic environment.45
+40 Howell,
+du Sautoy,
+and Formigatti
+2017: 5–6.
+41 University of Oxford 2017: 0:10-0:17.
+42 For example, the study by Neelis (2011)
+refers to many manuscripts that were car-
+ried by Buddhist merchants, but all are reli-
+gious texts, and arithmetical handbooks do
+not figure amongst them.
+43 Hayashi 1995: 271, 360. In pre-modern
+South Asia, an author identifying as a brāh-
+maṇa was typically a scholar or priest within
+the socioreligious traditions associated with
+the worship of Indic deities such as Śiva and
+Viṣṇu.
+These traditions, consciously dif-
+ferentiated from Buddhist beliefs and prac-
+tices, gave rise to the modern religious iden-
+tities now designated “Hindu.”
+44 See,
+e.g.,
+SaKHYa 2009: xx ff.
+The
+eleventh-century Gaṇitatilaka by the Śaiva
+author Śrīpati was the subject of a com-
+mentary in the thirteenth century by the
+Jain author Siṃhatila Sūri (Kāpadīā 1937).
+The
+similarities
+between
+the
+Bakhshālī
+Manuscript’s arithmetical problems and
+procedures and others known elsewhere in
+Indian mathematical literature are certainly
+worthy of further research. The circulation
+of such problems is discussed by,
+for
+example, Dold-Samplonius et al. (2002) and
+Høyrup (2004).
+45 For instance, the brāhmaṇa writer of the
+manuscript colophon describes mathemat-
+ics as generated by Śiva (or Brahmā) follow-
+ing the universal creation (sṛṣṭi). Other ref-
+erences to brāhmaṇas can be found in the
+text, along with story problems about events
+from Sanskrit epics and the mythology of
+Indic deities.
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 14 ===
+Plofker, Keller, Hayashi, Montelle and Wujastyk
+145
+4. CONCLUSIONS
+O
+ur main views may be summarized in the following statements:
+• The proposed division of the Bakhshālī Manuscript text into three chro-
+nologically distinct sections corresponding to the three radiocarbon date
+ranges is contradicted by the unified appearance of its content and writing.
+If its birch-bark leaves do indeed differ widely in age, the date of the young-
+est folio is logically the (approximate) date of the scribal activity. This fits
+well with past estimates of the date of the Bakhshālī Manuscript based on
+historical, philological and palaeographic arguments.
+• Bakhshālī Manuscript, considered as the carrier of a unified text, includes
+a concept of written zeros that function as arithmetical operators, i.e., as
+numbers in their own right, and not merely as place-holder digits. This too
+fits well with the manuscript’s generally-accepted dating to the second half
+of the first millennium CE.
+• Attempting to trace the historical development of mathematical concepts
+such as the zero and decimal place value solely or primarily through an-
+cient physical evidence is a fundamentally unreliable enterprise. The his-
+torical significance of the Bakhshālī Manuscript and its mathematical con-
+tent cannot be understood by isolated speculative inferences based on the
+apparent physical age(s) of the bark it was written on: it requires careful
+comparison with related ideas in a long sequence of other Indic texts treat-
+ing various concepts associated with calculation (gaṇita).
+While investigating another very famous mathematical artefact,
+the
+cuneiform tablet known as Plimpton 322, the Assyriologist Eleanor Robson
+formulated six criteria against which interpretations of its content should be
+tested: namely, historical sensitivity, cultural consistency, calculational plausib-
+ility, physical reality, textual completeness, and tabular order.46 These criteria
+have since provided useful benchmarks for historians of mathematics when
+proposing interpretations of mathematical documents. As Robson noted, the
+criterion of physical reality concerning the material characteristics of artefacts
+has indeed been too often neglected in favor of discussing their disembodied
+“text.” Technological advances such as the C-14 analysis used by the Bodleian
+researchers are potentially of great value in remedying this imbalance. How-
+ever, the conclusions drawn from physical testing do not automatically override
+46 Robson 2001: 174–176.
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 15 ===
+146
+The Bakhshālī Manuscript: A Response
+the requirements of other criteria such as historical sensitivity and cultural
+consistency. A plausible historical hypothesis needs to account successfully for
+all the known data about a given phenomenon or artefact, rather than selectively
+disregarding the data that contradict it.
+With regard to the physical testing procedures, we would greatly appreciate
+some supplementary explanations suitable for the nonspecialist reader concern-
+ing the following issues:
+• The possibility and desirability of cross-checking the findings by testing
+more than one sample from each sampled folios.
+• The possibility and desirability of sampling the actual written characters
+rather than un-inked portions of the birch bark leaves, since the former
+would directly attest to the actual writing of the text.
+More consideration should also be given to the historical techniques of birch-bark
+manufacture, storage and use, and to the dating of other early manuscript folios,
+to assess the possible scenarios in which a scribe might use leaves of different
+dates to write out a text.
+We express regret that the Bodleian Library kept their carbon-dating find-
+ings embargoed for many months, and then chose a newspaper press-release
+and YouTube as media for a first communication of these technical and histor-
+ical matters. The Library thus bypassed standard academic channels that would
+have permitted serious collegial discussion and peer review prior to public an-
+nouncements. While the excitement inspired by intriguing discoveries benefits
+our field and scholarly research in general, the confusion generated by broad-
+casting over-eager and carelessly inferred conclusions, with their inevitable af-
+termath of caveats and disputes,47 does not.
+Without wishing to dampen the laudable ardor shown in this project for sci-
+entifically investigating the material characteristics of ancient documents, we
+urge the investigators to consider the importance of reconciling their findings
+with historical knowledge and inferences obtained by other means. It should not
+be hastily assumed that the apparent implications of results from physical tests
+must be valid even if the conclusions they suggest appear historically absurd.
+REFERENCES
+Bag, A. K. and Sreeramula Rajeswara Sarma (2003). The Concept of Śūnya. Ed. by
+A. K. Bag and Sreeramula Rajeswara Sarma. Delhi: Indian National Science
+Academy. isbn: 9788173052408.
+47 Formigatti et al. 2017.
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 16 ===
+Plofker, Keller, Hayashi, Montelle and Wujastyk
+147
+Barrera, Giulia (2016). “The Unhappy End of the Italian Institute for Africa and
+the Orient (IsIAO) and the Uncertain Future of its Holdings”. In: Critical In-
+terventions 10.1, pp. 71–80. doi: 10.1080/19301944.2016.1180932.
+Bodleian Library (2017). Carbon Dating Finds Bakhshali Manuscript Contains Oldest
+Recorded Origins of the Symbol ’zero’. Ancient Indian mathematical text at Oxford’s
+Bodleian Libraries revealed to be centuries older than previously thought. url: http:
+//www.bodleian.ox.ac.uk/news/2017/sep-14 (visited on 09/18/2017).
+Clark, Walter Euigene (1929). “Hindu-Arabic Numerals”. In: Indian Sutdies in
+Honor of Charles Rockwell Lanman. Cambridge, Mass: Harvard University
+Press, pp. 217–36.
+Colebrooke, Henry Thomas (1817). Algebra with Arithmetic and Mensura-
+tion from the Sanskrit of Brahmegupta and Bhascara. London: Murray. url:
+https://archive.org/details/algebrawitharith00brahuoft (visited on
+09/24/2017).
+Datta, B. (1929). “The Bakhshālı̄ Manuscript”. In: Bulletin of the Calcutta Mathem-
+atical Society 21, pp. 1–60.
+Devlin, Hannah (2017). Much Ado about Nothing: Ancient Indian Text Contains
+Earliest Zero Symbol. The Guardian. url: https://www.theguardian.com/
+science/2017/sep/14/much-ado-about-nothing-ancient-indian-text-
+contains-earliest-zero-symbol (visited on 09/18/2017).
+Dold-Samplonius, Yvonne et al., eds. (2002). From China to Paris: 2000 Years Trans-
+mission of Mathematical Ideas. Vol. 46. Franz Steiner Verlag.
+Formigatti, Camillo et al. (2017). [INDOLOGY] Once again on the origin of zero: the
+date of the Bakhshali manuscript (or manuscripts?) url: http://list.indology.
+info / pipermail / indology _ list . indology . info / 2017 - September /
+046711 . html (visited on 09/18/2017). Discussion by Andrea Acri, Walter
+Slaje, Christophe Vielle, Alakendu Das, George L. Hart, Jan E. M. Houben,
+and Matthew Kapstein.
+Goswamy, Brijinder Nath and Dhritabrata Bhattacharya, eds. (2007). The Word Is
+Sacred, Sacred Is the Word. the Indian Manuscript Tradition. New Delhi: Niyogi
+Books.
+Gupta, R. C. (1995). “Who Invented the Zero?” In: Gaṇita Bhāratī 17.1–4, pp. 45–
+61. Reprinted in Ramasubramanian 2015: 70–83.
+Harrison, Paul (2007). “Notes on Some West Tibetan Manuscript Folios in the Los
+Angeles County Museum of Art”. In: Pramāṇakīrtiḥ. Papers dedicated to Ernst
+Steinkellner on the occasion of his 70th birthday. Part I. Ed. by Birgit Kellner et al.
+Vienna: University of Vienna, pp. 229–45. isbn: 9783902501097.
+Hayashi, Takao (1995). The Bakhshālī Manuscript: an Ancient Indian Mathem-
+atical Treatise. Groningen Oriental Studies 11. Groningen: Forsten. isbn:
+906980087X.
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 17 ===
+148
+The Bakhshālī Manuscript: A Response
+Hayashi, Takao (2003). “Indian Mathematics”. In: The Blackwell Companion to
+Hinduism. Ed. by Gavin Flood. Oxford: Blackwell. Chap. 17, pp. 360–75. isbn:
+0-631-21535-2.
+— (2017a). “Email of 15 September 2017 to Agathe Keller and Dominik Wu-
+jastyk”.
+— (2017b). “Email of 22 September 2017 to Dominik Wujastyk, Clemency Mon-
+telle, Agathe Keller and Kim Plofker”.
+Heller, Amy (2016). “Three Ancient Manuscripts from Tholing in the Tucci Col-
+lection, IsIAO, Roma: Part I: Manuscript 1329 E.” In: Studies in Honour of Lu-
+ciano Petech. A Commemoration Volume, 1914–2014, Pisa, Roma: Fabrizio Serra,
+pp. 125–131. Supplement volume of the journal Rivista degli studi orientali.
+Hoernle, A. F. R. (1882). “On a Birchbark Manuscript”. In: Proceedings of the Asi-
+atic Society of Bengal January to December 1882, pp. 108–111. url: https://
+archive.org/stream/proceedingsofasi1882asia#page/108/mode/2up
+(visited on 09/19/2017).
+— (1888). “The Bakshâli Manuscript”. In: Indian Antiquary 17, pp. 33–48. url:
+https : / / archive . org / stream / in . ernet . dli . 2015 . 530439 / 2015 .
+530439.indian-antiquary#page/n43/mode/1up (visited on 09/18/2017).
+Howell, David, Marcus du Sautoy, and Camillo Formigatti (2017). “Carbon Dat-
+ing Reveals Bakhshali Manuscript Is Centuries Older Than Scholars Believed
+and Is Formed of Multiple Leaves Nearly 500 Years Different in Age”. Avail-
+able on request from communications@bodleian.ox.ac.uk. Document in-
+ternally dated 3 July 2017, distributed with filestamp 13 September 2017. Fi-
+lename: Bakhshali Research Statement_13 9 17_FINAL.pdf.
+Høyrup, Jens (2004). “Mahavıra’s Geometrical Problems: Traces of Unknown
+Links between Jaina and Mediterranean Mathematics in the Classical Ages”.
+In: History of the Mathematical Sciences. New Delhi: Hindustan Book Agency,
+pp. 83–95. url: https://rucforsk.ruc.dk/ws/files/4340116/2004_
+Mahaviras_geometrical_problems_ms.pdf (visited on 09/26/2017).
+Kāpadīā, H. R., ed. (1937). Gaṇitatilaka by Śrīpati With the Commentary of Siṁhat-
+ilaka Sūri Critically Edited with Introduction and Appendices. Gaekwad Oriental
+Series 78. Baroda: Oriental Institute. url: https://archive.org/details/
+Ganitatilaka (visited on 09/30/2017).
+Kaye, George Rusby (1912). “The Bakhshāli Manuscript”. In: Journal of the Asiatic
+Society of Bengal N.S. 8, pp. 349–61. url: https://archive.org/stream/
+mobot31753002183835#page/349/mode/2up (visited on 09/18/2017).
+— (1927). The Bakhshālī Manuscript. a Study in Mediæval Mathematics. New Im-
+perial series / Archaeological Survey of India 43. Calcutta: Government of
+India, Central Publication Branch. url: https://archive.org/details/in.
+ernet.dli.2015.23309 (visited on 09/17/2017).
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 18 ===
+Plofker, Keller, Hayashi, Montelle and Wujastyk
+149
+Mak, Bill M. (2013). “The Transmission of Greek Astral Science into India Recon-
+sidered. Critical Remarks on the Contents and the Newly Discovered Man-
+uscript of the Yavanajātaka”. In: History of Science in South Asia 1. doi: 10.
+18732/H2RP4T.
+Neelis, Jason (2011). Early Buddhist Transmission and Trade Networks. Mobility and
+Exchange Within and Beyond the Northwestern Borderlands of South Asia. Dy-
+namics in the History of Religion 2. Leiden: Brill. isbn: 9789004194588. url:
+http://www.doabooks.org/doab?func=fulltext&rid=21663 (visited on
+09/21/2017).
+Pingree, David E. (2003). “Zero and the Symbol for Zero in Early Sexagesimal
+and Decimal Place-Value Systems”. In: The Concept of Śūnya. Ed. by A. K. Bag
+and Sreeramula Rajeswara Sarma. Delhi: Indian National Science Academy,
+pp. 137–41. isbn: 9788173052408.
+Plofker, Kim (2009). Mathematics in India. Princeton and Oxford: Princeton Uni-
+versity Press. isbn: 9780691120676.
+Ramasubramanian, K., ed. (2015). Gaṇitānanda. Selected Works of Radha Charan
+Gupta on History of Mathematics. New Delhi: Indian Society for History of
+Mathematics.
+Raṅgācārya, M., ed. (1912). The Gaṇita-sāra-sangraha of Mahāvīrācārya with English
+Translation and Notes. Madras: Madras Govt. Press. url: https://archive.
+org/details/RangacaryaTheGanitaSaraSangrahaOfMahavira1912.
+Robson, Eleanor (2001). “Neither Sherlock Holmes nor Babylon: A Reassessment
+of Plimpton 322”. In: Historia Mathematica 28.3, pp. 167–206. doi: 10.1006/
+hmat.2001.2317.
+Ruegg, D. Seyfort (1978). “Mathematical and Linguistic Models in Indian
+Thought: The Case of Zero and Śūnyatā”. In: Wiener Zeitschrift für die Kunde
+Südasiens 12, pp. 171–181.
+SaKHYa, ed. (2009). Gaṇitasārakaumudī = The Moonlight of the Essence of
+Mathematics by Ṭhakkura Pherū. Edited with Introduction, Translation and
+Mathematical Commentary. New Delhi: Manohar Publishers & Distributors.
+isbn: 9788173048098.
+Sathaye, Adheesh (2017). “The Public Life of Sanskrit Manuscripts”. In: Traces of
+Words. Art and Calligraphy from Asia. Ed. by Fuyubi Nakamura. Vancouver:
+Museum of Anthropology, pp. 52–65, 153–160. isbn: 978-1-927958-90-2.
+Staal, Frits (2010). “On the Origins of Zero”. In: Studies in the History of Indian
+Mathematics. Ed. by C. S. Seshadri. New Delhi: Hindustan Book Agency,
+pp. 39–53. doi: 10.1007/978-93-86279-49-1_4.
+University of Oxford (2017). A Big Zero: Research Uncovers the Date of the Bakhshali
+Manuscript. url: https://youtu.be/pV_gXGTuWxY. YouTube Video.
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 19 ===
+150
+The Bakhshālī Manuscript: A Response
+Walser, Joseph (2014). “Nagarjuna: The Great Philosopher”. In: Buddhists. Un-
+derstanding Buddhism through the Lives of Believers. Ed. by Todd Lewis. Lived
+Religions. Chicester: Wiley. Chap. 4, pp. 39–51. isbn: 9780470658185.
+Wujastyk, Dominik (2014). “Indian Manuscripts”. In: Manuscript Cultures: Map-
+ping the Field. Ed. by Jörg Quenzer, Dmitry Bondarev, and Jan-Ulrich Sobisch.
+Vol. 1. Studies in Manuscript Cultures. Berlin: De Gruyter, pp. 135–57. isbn:
+978-3-11-022562-4. doi: 10.1515/9783110225631.159.
+— (2017). “Some Problematic Yoga Sutras and their Buddhist Background
+[Preprint]”. In: url: https://www.academia.edu/25517181/ (visited on
+09/22/2017).
+history of science in south asia 5.1 (2017) 134–150
+
+=== PAGE 20 ===
+Please write to ⟨wujastyk@ualberta.ca⟩to file bugs/problem reports, feature requests and to get involved.
+The History of Science in South Asia • Department of History and Classics, 2–81 HM Tory Building, University
+of Alberta, Edmonton, AB, T6G 2H4, Canada.
+

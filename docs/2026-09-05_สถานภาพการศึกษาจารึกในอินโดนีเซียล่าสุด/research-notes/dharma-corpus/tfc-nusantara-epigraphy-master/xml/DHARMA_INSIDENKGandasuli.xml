@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gandasuli (early 8th century CE)</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Paris, Jakarta</pubPlace>
+            <idno type="filename">DHARMA_INSIDENKGandasuli.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p/><!-- two shapes of lā, with curl above or below akṣara -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+      	 <change who="part:argr" when="2025-12-01">finished encoding the edition</change>
+         <change who="part:argr" when="2025-11-03">started encoding the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+           <body> 
+                   <div type="edition" xml:lang="omy-Latn" rendition="class:38769 maturity:83213">
+<p>
+<lb n="1"/><g ref="sym:doubleBar-crossed" type="punctuation">.</g> namaś śivāya, Au mahājana ḍi sahiṅ ālas· partapān· tuha ṅuḍa laki vini maṇḍaṅar· vuAt·tānta parāvis·, <choice><sic>dhimi</sic><corr>dharma</corr></choice>
+<lb n="2"/>gatiṇḍa ḍaṁ karayān· partapān· ratnamaheśvara siḍa busu maun· namāṇḍa ḍaṁ karayān lāki busu Iti namāṇḍa ḍaṁ karayān· vini<unclear><g ref="sym:bullet-middle" type="punctuation">.</g></unclear>
+<lb n="3"/>Atya<unclear>nta</unclear> dharmiṣṭha siḍa ḍuA<g ref="sym:bullet-middle" type="punctuation">.</g> Ayāṇḍa 
+<supplied reason="omitted">ḍa</supplied>ṁ karayān· lāki parpuAntaṅ a<unclear>na</unclear>kabbi namaṇḍa, Ayāṇḍa ḍaṁ karayān· vini parpuAntaṁ panuA<hi rend="check">ḥha</hi>n· nama<lb n="4" break="no"/>ṇḍa<g ref="sym:bullet-middle" type="punctuation">.</g> siḍa Inan ḍuA Atibhāgya siḍa varanak· puruṣaratna varanak· strīratna<g ref="sym:bullet-middle" type="punctuation">.</g> Aḍiṇḍa ḍaṁ karayān· lāki busu ta<unclear>mva</unclear> namaṇḍa, Iparḍa ḍaṁ karayā<lb break="no" n="5"/>n parttapān· busu ba<unclear>jra</unclear> busūttara ḍaṅaṇḍa sānak· busu tara<unclear>l·</unclear> busu U<unclear>vḍ</unclear>ai, ḍa<unclear>ṅa</unclear>ṇḍa sapopo busu h<unclear>uv</unclear>uriya n<unclear>āma</unclear> pamāṇḍa viṣṇuratha nam<unclear>ā</unclear>ṇḍa sarabhāra ḍi
+<lb n="6"/>nāyaka vatak<!-- vatuk? batuk? --> bunut· tathāpi ḍaṅaṇḍa sapopo busu padaruṁṅa nāmāṇḍa sā<unclear>rabhāra</unclear> ḍi nāyaka vatak ka<unclear>yu</unclear> hāsam· tathāpi va<space type="defect"/>ranak· siḍa busu putiḥ paṅin· tujuḥ
+<lb n="7"/>pahi<choice><unclear>k</unclear><unclear>t</unclear></choice>· svast<unclear>i</unclear> pagar vvassi Āvat· I<hi rend="check">ṇḍu</hi> Anakḍa kulaputrī Inan parāvis· tathāpi pagar vvatu pagar duri si buha samvu<gap reason="illegible" unit="character" quantity="1"/><unclear reason="eccentric_ductus">ḥ</unclear> <hi rend="check">vitaka dadaṁ vihāra nagarī Inanta</hi> baña<!--	
+	19)	Misschien pahit, wat betere zin geeft. De laatste consonant lijkt echter eerder ka dan ta + patèn.
+	21)	I.p.v. awat wellicht awak te lezen. De gehele regel behoort tot het moeilijkst leesbare gedeelte van de oorkonde.
+	samvuhan·: sampuh ... C.
+	dadaṁ: 23)	Ook hier is moeilijk te bepalen of er misschien niet udang of uda staat i.p.v. dadang of dada. Het gehele gedeelte blijft duister.
+	vihāra nagarī: viṇaraḥ[24] rari C. 
+		vidhāraverī? vidhāra Udharī?
+--><lb n="8" break="no"/>kña Anakḍa ḍaṁ karayān· partapān· puṇyaprabhāvāṇḍa ḍaṁ karayān· partapān· kathamapi sukha subhikṣa, ya rājya ḍirakṣa Iya sabañakña yaṁ deśa Itas-ta<unclear>taḥ</unclear>
+<lb n="9"/>pūrvva dakṣiṇa paścima Uttara Itas-tataḥ Iya maṁstuti guṇāṇḍa ḍaṁ karayān· partapān·, tathāpi Āḍa Ācāryyāṇḍa gālava nāmaṇḍa sthāpaka siḍa tathāpi
+<lb n="10"/>bapuhmuṇḍa ḍaṁ karayān· śivārjita nāmaṇḍa nāyaka ḍi pra<unclear>ṁ</unclear> kapulaṁ siḍa Inan parāvis· siḍa ta sahāyāṇḍa ḍi dharma puṇya kuśala, Iya makajāḍi pra<lb n="11" break="no"/>tiṣṭa di hyaṁ hāji tarkalaut <hi rend="check">saṁ hyaṁ</hi> vintaṁ prasāda suprayukta-kṣai<supplied reason="omitted">tra</supplied>-sahita Iyaṁ mātraña viniḥnya kṣetra ḍi taraḥ buṅa, tlu bariḥ pragāluḥ Ampa lattir·
+<lb n="12"/>pamaṇḍyan· tlu lattir· kinaĀyvan· Ampa lattir· vunu tlu lattir· pavijaḥhan· ḍuA lattir· kayvara maṇḍar· ḍuA lattir· va<space type="descender"/>ṅun· baharu salattir· muṇḍu
+<lb n="13"/>ḍuA lattir· kakalyan· salattir· tarukān· salattir· mātrāña viniḥ ḍi taraḥ buṅa parāvis· Ampa poluḥ salattir· parttakan· ḍi <hi rend="check">valunu<unclear>,</unclear> papos<unclear>p</unclear>uḥ</hi>
+<lb n="14"/>ḍi pragāluḥ parpuAnta varpattiḥ m<unclear>ā</unclear>nalu nāmāṇḍa naiyaka ḍi kyu buṁṅan· sah<choice><orig>a</orig><reg>ā</reg></choice>yāṇḍa varpatiḥ puliṁ hasin nāmāṇḍa nāyaka ḍi māntyasiḥ
+<lb n="15"/>ḍ<choice><sic>u</sic><corr>a</corr></choice> punta ma<unclear>rhyaṁ</unclear> jñānatatva nāmāṇḍa
+</p>
+</div>
+<div type="apparatus">
+<!-- line 1	
+	ḍi: di C.
+	dhimi: dharma-[9] C. -->
+<listApp>
+<app loc="1">
+<lem>Au-</lem>
+<rdg source="bib:Casparis1950_01">Oṁ</rdg>
+<note>Damais (1968: 322, 339) noted that the text shows <foreign>Au</foreign> and not <foreign>O</foreign>, but did not object to De Casparis' idea that a <foreign>cecak</foreign> is to be supplied. It seems quite uncertain to us that the Sanskrit sacred syllable <foreign>om</foreign> is intended here.</note>
+</app>
+<app loc="1">
+<lem>tuhaṅ uḍa</lem>
+<rdg source="bib:Casparis1950_01">tuha ṅuda</rdg>
+<note>Unless we are dealing with a scribal error for  <foreign>muda</foreign>, it is unclear whether the <foreign>ṅ</foreign> is a prefix or an enclitic. If the latter, we seem to observe the same usage of <foreign>ṅ</foreign> in <foreign>partuanta-ṅ</foreign> that occurs twice in line 3. But <foreign>ṅuda</foreign> exists in Balinese.<!-- KBW IV, 1092 --></note>
+</app>
+<!-- line 2	
+	namāṇḍa: namaṇḍa C.
+	namāṇḍa: namaṇḍa C. -->
+<app loc="2">
+<lem>maun·</lem>
+<rdg source="bib:Casparis1950_01">plār·</rdg>
+<note>The vowel is clearly the same as in <foreign>tarkalaut</foreign> in line 11.</note>
+</app>
+<!-- line 3	
+	ḍuA: duA C.
+	lāki: laki C. -->
+<app loc="3">
+<lem>dharmiṣṭha</lem>
+<rdg source="bib:Casparis1950_01">dharma<unclear>stha</unclear></rdg>
+</app>
+<app loc="3">
+<lem>parpuAntaṅ a<unclear>na</unclear>kabbi</lem>
+<rdg source="bib:Casparis1950_01">parpuAnta jantakabbi</rdg>
+<!-- Damais (1968: 336 n. 1) Nous ne sommes pas sûr personnellement de la lecture jantakabbi, ni de l'autre possibilité que suggère De C. p. 62, remarque 10, janmakabbi (seul kabbi est certain), mais ce détail importe peu ici. -->
+</app>
+<app loc="3">
+<lem>parpuAntaṁ</lem>
+<rdg source="bib:Casparis1950_01">parpuAnta</rdg>
+</app>
+<!-- line 4	ḍuA: duA C.
+	puruṣaratna: pu<unclear>tra</unclear> maratna C, but the reading we accept is proposed in n. 12.
+	lāki: laki C.
+	ta<unclear>mva</unclear>: tarbba C.
+-->
+<app loc="4">
+<lem>Atibhāgya</lem>
+<rdg source="bib:Casparis1950_01">Adhi<unclear>rā</unclear>kṣa</rdg>
+</app>
+<app loc="4">
+<lem>puruṣaratna</lem>
+<rdg source="bib:Casparis1950_01">pu<unclear>tra</unclear> maratna</rdg>
+<note>The correct reading was actually proposed by De Casparis himself in his note 12.</note>
+</app>
+<app loc="4">
+<lem>ta<unclear>mva</unclear></lem>
+<rdg source="bib:Casparis1950_01">tarbba</rdg>
+</app>
+<app loc="5">
+<lem>ḍaṅaṇḍa</lem>
+<rdg source="bib:Casparis1950_01">Udaṇḍa</rdg>
+</app>
+<app loc="5">
+<lem>tara<unclear>l·</unclear></lem>
+<rdg source="bib:Casparis1950_01">taray·</rdg>
+</app>
+<app loc="5">
+<lem>U<unclear>vḍ</unclear>ai,</lem>
+<rdg source="bib:Casparis1950_01">daṇḍai</rdg><!-- Utpai? Uspai? Ubhdai? Ugdai? -->
+</app>
+<app loc="5">
+<lem>ḍaṅaṇḍa</lem>
+<rdg source="bib:Casparis1950_01">Udaṇḍa</rdg>
+</app>
+<app loc="5">
+<lem>h<unclear>uv</unclear>uriya  n<unclear>āma</unclear></lem>
+<rdg source="bib:Casparis1950_01">huvuriyan</rdg>
+</app>
+<app loc="5">
+<lem>viṣṇuratha</lem>
+<rdg source="bib:Casparis1950_01">viṣṇurata</rdg>
+</app>
+<!-- line 5	ba<unclear>jra</unclear>: could be bandha
+	ḍaṅaṇḍa: Udaṇḍa C. [14] De lezing udaṇḍa is hier zowel als in de volgende regel niet absoluut zeker. Op al deze plaatsen zou dadaṇḍa palaeografisch even goed mogelijk zijn. Zoals uit reg. 9 blijkt, worden begin-u en da vrijwel volkomen gelijk geschreven.
+	sānak·: sanak· C.	
+	pamāṇḍa: pamaṇḍa C.
+	nam<unclear>ā</unclear>ṇḍa: namaṇḍa C.
+	ḍi: di C.-->
+<app loc="6">
+<lem>ḍaṅaṇḍa</lem>
+<rdg source="bib:Casparis1950_01">Udaṇḍa</rdg>
+</app>
+<app loc="6">
+<lem>padaruṁṅa</lem>
+<rdg source="bib:Casparis1950_01">padaraṅan</rdg><!-- Or paṅaruṁṅa? -->
+</app>
+<app loc="6">
+<lem>sā<unclear>rabhāra</unclear></lem>
+<rdg source="bib:Casparis1950_01">sarabhāra</rdg>
+<note>Actually it looks more like <foreign>sānakana</foreign>.</note>
+</app>
+<app loc="6">
+<lem>ka<unclear>yu</unclear> hāsam</lem>
+<rdg source="bib:Casparis1950_01">kahuluAn</rdg>
+</app>
+<app loc="6">
+<lem>paṅir· tujuḥ</lem>
+<rdg source="bib:Casparis1950_01"> padi, taijaḥ</rdg><!-- Or read tuvuḥ instead of tujuḥ? And/or paṅin· instead of paṅir·? -->
+</app>
+<!--line 6	ḍi: di C. -->
+<app loc="7">
+<lem>Āvat·</lem>
+<rdg source="bib:Casparis1950_01">Avat·</rdg></app>
+<app loc="7"><lem>samvu<gap reason="illegible" unit="character" quantity="1"/><unclear reason="eccentric_ductus">ḥ</unclear></lem><rdg source="bib:Casparis1950_01">sampu<unclear>h</unclear> <gap reason="undefined" quantity="1" unit="character"/></rdg></app>
+<app loc="7">
+<lem>Inanta baña<lb n="8" break="no"/>kña</lem>
+<rdg source="bib:Casparis1950_01">Inan sabaña<lb n="8" break="no"/>kaña</rdg>
+</app>
+<app loc="8">
+<lem>ya</lem><rdg source="bib:Casparis1950_01">yaṁ</rdg>
+</app>
+<!-- line 8 ḍirakṣa: dirakṣa C.-->
+<app loc="9">
+<lem>gālava</lem>
+<rdg source="bib:Casparis1950_01">dhalava</rdg>
+<note>Cf. <ref target="DHARMA_INSIDENKSamalagi.xml">Samalagi</ref> (1v10) <foreign>dalinan· pu gālava</foreign>. According to Sanskrit dictiomaries, <foreign>gālava</foreign> is the name of an old sage and preceptor.</note>
+</app>
+<app loc="9">
+<lem>nāmaṇḍa</lem><rdg source="bib:Casparis1950_01">namaṇḍa</rdg>
+</app>
+<!-- line 9 
+	Āḍa: Āda C.
+	nāmaṇḍa: namaṇḍa C.
+	siḍa: sida C.-->
+<!-- line 10
+	32)In verband met het overigens niet voorkomende ta is echter voorzichtigheid geboden.
+	nāmaṇḍa: nāmāṇḍa C.
+	ḍi dharma: di dharmma C.
+	makajāḍi: makajādi C.-->
+<app loc="11">
+<lem>hāji</lem><rdg source="bib:Casparis1950_01">haji</rdg>
+</app>
+<app loc="11">
+<lem>-kṣai<supplied reason="omitted">tra</supplied>-</lem>
+<rdg source="bib:Casparis1950_01">-kṣair</rdg>
+<note>De Casparis has mistaken the <foreign>suku</foreign> from line 10 <foreign>pulaṁ</foreign> as <foreign>layar</foreign>. Nevertheless he did see (note 36) that a syllabe <foreign>tra</foreign> has been omitted here.</note>
+</app>
+<app loc="11">
+<lem>taraḥ buṅa</lem>
+<note>De Casparis refers to line 13, where he reads <foreign>tanaḥ buṅa</foreign> and suggests that <foreign>taraḥ</foreign> might be an error here for <foreign>tanaḥ</foreign>. But the reading is <foreign>taraḥ</foreign> in both cases.</note>
+</app>
+<!-- line 11
+	-tiṣṭa: or -tiṣṭe?
+	di: here we seem to have di instead of ḍ.
+	tarkalaut saṁ: 35) De ligatuur tsa is duidelijk. Despite De Casparis' claim, it is hard to read tsa here.
+-->
+<app loc="12">
+<lem>kinaĀyvan·</lem><rdg source="bib:Casparis1950_01">tina Ayun·</rdg>
+<note>De Casparis (note 39) suspected that <foreign>tiru ayun</foreign> might be intended.</note>
+</app>
+<app loc="12">
+<lem>maṇḍar·</lem><rdg source="bib:Casparis1950_01">mandir·</rdg>
+</app>
+<app loc="12">
+<lem>va<space type="descender"/>ṅun· baharu</lem><rdg source="bib:Casparis1950_01">vaṅur·</rdg>
+</app>
+<app loc="13">
+<lem>mātrāña</lem><rdg source="bib:Casparis1950_01">mātraña</rdg>
+</app>
+<app loc="13">
+<lem>taraḥ buṅa</lem><rdg source="bib:Casparis1950_01">tanaḥ buṅa</rdg>
+</app>
+<app loc="13">
+<lem>poluḥ</lem><rdg source="bib:Casparis1950_01">puluḥ</rdg>
+<note>De Casparis (n. 43) explicitly denies that <foreign>po</foreign> is engraved, but he is mistaken.</note>
+</app>
+<app loc="13">
+<lem>valunu<unclear>,</unclear> papos<unclear>p</unclear>uḥ</lem><rdg source="bib:Casparis1950_01">valunuḥ pu posuḥ</rdg>
+<!-- vilu nupa posuḥ? vila rupa posuḥ? -->
+</app>
+<app loc="14">
+<lem>varpattiḥ m<unclear>ā</unclear>nalu</lem><rdg source="bib:Casparis1950_01">varpatiḥ manulu</rdg>
+</app>
+<app loc="14">
+<lem>puliṁ hasin</lem><rdg source="bib:Casparis1950_01">pulī hasin</rdg>
+</app>
+<app loc="14">
+<lem>māntyasiḥ</lem><rdg source="bib:Casparis1950_01">mantyāsiḥ</rdg>
+</app>
+<!-- line 14
+	nāmāṇḍa: namaṇḍa C.
+	sah<choice><orig>a</orig><reg>ā</reg></choice>yāṇḍa: sahāyāṇḍa C.
+	pulī hasin C. 48)	Vermoedelijk staat boven de lī nog een anusvāra, zodat līng hasin te lezen is. "Zilte Woorden" lijkt echter een vreemde naam.
+	nāmāṇḍa: namaṇḍa C. 
+-->
+<app loc="15">
+<lem>jñānatatva nāmāṇḍa</lem>
+<note>At the end of the text, De Casparis (n. 52) describes a clearl;y visible closing symbpl, consisting of two oblique strokes with a circle in between them<!--‘een duidelijk sluitingsteken, bestaande uit tweemaal twee schuin-staande streepjes met daartussen een cirkeltje’ -->, but none of this is actually visible on the stone.</note>
+</app>
+<!--	line 15
+	nāmāṇḍa: namaṇḍa C.
+	-->
+</listApp>                     
+</div>
+              <div type="translation">
+<p>Homage to Śiva! The chiefs around the boundaries <supplied reason="explanation"><foreign>sahiṅ</foreign></supplied><note>De Casparis understands <foreign>sahiṅa-alas</foreign>.</note> of the hermitage forest, old and young, men and women, may <supplied reason="explanation">? <foreign>au</foreign></supplied><note>We speculate that <foreign>au</foreign> had a grammatical function like <foreign>semoga</foreign> in Modern Malay and <foreign>muah</foreign> in other Old Malay texts.</note> listen to all your works. Virtuous was the action of the lord and lady of the hermitage <supplied reason="explanation">named</supplied> Ratnamaheśvara. The lord was called Busu Mauṅ, the lady was called Iti.<note>On this passage, see the comments in Damais 1968: 335–336.</note> The both of them were exceedingly virtuous. The mother <supplied reason="explanation"><foreign>aya</foreign></supplied><note>That <foreign>aya</foreign> means mother was assumed by De Casparis on weak grounds (see the criticism in Damais 1968: 337), but has subsequently been confirmed by the usage in the <hi rend="check">Sojomerto and Sungai Musi inscriptions</hi>.</note> of the lord was called <foreign>parpuantaṅ anakəbi</foreign>;<note>The word <foreign>anakəbi</foreign> means <q>woman, wife, girl</q> in Old Javanese.</note> the mother of the lady was called <foreign>parpuantaṅ panuahan</foreign>. These were both very fortunate to conceive <supplied reason="explanation">respectively</supplied> of a jewel of a man and a jewel of a woman. The younger sibling of the lord was called Busu Tamva; the (siblings) in-law of the lord and lady of the hermitage were
+</p>
+</div>
+              <div type="commentary"/>
+              <div type="bibliography">
+                 <p>Two provisional readings by J. L. A. Brandes (<bibl rend="omitname"><ptr target="bib:Brandes1913_01"/></bibl>); edited again by J. G. de Casparis (<bibl rend="omitname"><ptr target="bib:Casparis1950_01"/></bibl>).<note>As pointed out by Damais (1960, 1968), De Casparis misread many cases of <foreign>ḍ</foreign> as <foreign>d</foreign>. There are many inconsistencies between statements in De Casparis’ notes (whose placement is also often somewhat distant from the characters concerned) and readings adopted in his edition. There are also numerous small typographic errors (e.g., with regard to vowel length) in De Casparis' edition. Such relatively insignificant variant  readings are not recorded in our apparatus.</note> Re-edited here by Arlo Griffiths from photogrammetry.</p>
+                 <listBibl type="primary">
+                    <bibl n="B">
+                       <ptr target="bib:Brandes1913_01"/>
+                       <citedRange unit="page">???-???</citedRange>
+                       <citedRange unit="item">CV</citedRange>
+                    </bibl>
+                    <bibl n="C">
+                       <ptr target="bib:Casparis1950_01"/>
+		<citedRange unit="item">IV</citedRange>
+                       	<citedRange unit="page">50-73</citedRange>
+
+                    </bibl>
+                 </listBibl>
+                 <listBibl type="secondary">
+                    <bibl><ptr target="bib:Verbeek1891_01"/>
+                       	<citedRange unit="page">139-140</citedRange>
+		<citedRange unit="item">249</citedRange>
+                    </bibl>
+<!--
+	Hoepermans
+	NBG: see refs in Puhawang Glis
+	<bibl><ptr target="bib:Krom1931_01"/><citedRange unit="page">???</citedRange></bibl>
+                    <bibl>
+                       <ptr target="bib:Damais1952_01"/>
+                       <citedRange unit="page">???</citedRange>
+                       <citedRange unit="item">A. 11???</citedRange>
+                    </bibl>
+                    <bibl>
+                       <ptr target="bib:Sarkar1971-1972_01"/>
+	     <citedRange unit="volume">I</citedRange>
+                       <citedRange unit="page">74(ii)-75(ii)</citedRange>
+                       <citedRange unit="item">XI</citedRange>
+                    </bibl>
+	<bibl><ptr target="bib:Nakada1982_01"/><citedRange unit="part">I</citedRange><citedRange unit="item">15</citedRange><citedRange unit="page">76-77</citedRange></bibl>-->
+<bibl><ptr target="bib:Weatherbee2000_01"/></bibl>
+                 </listBibl>
+              </div>	
+           </body>
+   </text>
+</TEI>

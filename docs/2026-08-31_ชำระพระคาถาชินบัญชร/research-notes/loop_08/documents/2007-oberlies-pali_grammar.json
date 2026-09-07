@@ -1,0 +1,152 @@
+﻿{
+    "indexed":  {
+                    "date-parts":  [
+                                       [
+                                           2022,
+                                           3,
+                                           29
+                                       ]
+                                   ],
+                    "date-time":  "2022-03-29T05:21:16Z",
+                    "timestamp":  1648531276377
+                },
+    "reference-count":  0,
+    "publisher":  "Equinox Publishing",
+    "issue":  "1",
+    "content-domain":  {
+                           "domain":  [
+
+                                      ],
+                           "crossmark-restriction":  false
+                       },
+    "short-container-title":  [
+                                  "BSRV"
+                              ],
+    "abstract":  "\u003cjats:p\u003e.\u003c/jats:p\u003e",
+    "DOI":  "10.1558/bsrv.18498",
+    "type":  "journal-article",
+    "created":  {
+                    "date-parts":  [
+                                       [
+                                           2020,
+                                           12,
+                                           1
+                                       ]
+                                   ],
+                    "date-time":  "2020-12-01T03:01:18Z",
+                    "timestamp":  1606791678000
+                },
+    "source":  "Crossref",
+    "is-referenced-by-count":  0,
+    "title":  [
+                  "Pali Grammar: The Language of the Canonical Texts of Theravada Buddhism (Volume I), by Thomas Oberlies"
+              ],
+    "prefix":  "10.1558",
+    "volume":  "37",
+    "author":  [
+                   {
+                       "given":  "Matthew",
+                       "family":  "Spencer",
+                       "sequence":  "first",
+                       "affiliation":  [
+
+                                       ],
+                       "role":  [
+                                    {
+                                        "role":  "author",
+                                        "vocabulary":  "crossref"
+                                    }
+                                ]
+                   }
+               ],
+    "member":  "426",
+    "published-online":  {
+                             "date-parts":  [
+                                                [
+                                                    2020,
+                                                    11,
+                                                    30
+                                                ]
+                                            ]
+                         },
+    "container-title":  [
+                            "Buddhist Studies Review"
+                        ],
+    "link":  [
+                 {
+                     "URL":  "https://journal.equinoxpub.com/BSR/article/download/18498/20853",
+                     "content-type":  "application/pdf",
+                     "content-version":  "vor",
+                     "intended-application":  "text-mining"
+                 },
+                 {
+                     "URL":  "https://journal.equinoxpub.com/BSR/article/download/18498/20853",
+                     "content-type":  "unspecified",
+                     "content-version":  "vor",
+                     "intended-application":  "similarity-checking"
+                 }
+             ],
+    "deposited":  {
+                      "date-parts":  [
+                                         [
+                                             2020,
+                                             12,
+                                             2
+                                         ]
+                                     ],
+                      "date-time":  "2020-12-02T04:14:15Z",
+                      "timestamp":  1606882455000
+                  },
+    "score":  39.708435,
+    "resource":  {
+                     "primary":  {
+                                     "URL":  "https://journal.equinoxpub.com/BSR/article/view/18498"
+                                 }
+                 },
+    "issued":  {
+                   "date-parts":  [
+                                      [
+                                          2020,
+                                          11,
+                                          30
+                                      ]
+                                  ]
+               },
+    "references-count":  0,
+    "journal-issue":  {
+                          "issue":  "1",
+                          "published-online":  {
+                                                   "date-parts":  [
+                                                                      [
+                                                                          2020,
+                                                                          11,
+                                                                          30
+                                                                      ]
+                                                                  ]
+                                               }
+                      },
+    "URL":  "https://doi.org/10.1558/bsrv.18498",
+    "ISSN":  [
+                 "1747-9681",
+                 "0265-2897"
+             ],
+    "issn-type":  [
+                      {
+                          "value":  "1747-9681",
+                          "type":  "electronic"
+                      },
+                      {
+                          "value":  "0265-2897",
+                          "type":  "print"
+                      }
+                  ],
+    "published":  {
+                      "date-parts":  [
+                                         [
+                                             2020,
+                                             11,
+                                             30
+                                         ]
+                                     ]
+                  }
+}

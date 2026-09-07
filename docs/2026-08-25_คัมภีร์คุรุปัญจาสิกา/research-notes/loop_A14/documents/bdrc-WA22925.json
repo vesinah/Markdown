@@ -1,0 +1,112 @@
+{ 
+  "http://purl.bdrc.io/resource/NTWA22925_ATII0" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/Note"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/noteText" : [ { 
+      "type" : "literal" ,
+      "value" : "Attribution information contributed by the Authors and Translators Identification Initiative (ATII) project in collaboration with the Khyentse Center at Universität Hamburg." ,
+      "lang" : "en"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/NT8CA64DB71B6E08C5" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/Note"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/noteText" : [ { 
+      "type" : "literal" ,
+      "value" : "toh 3721\nin the translation of padmakaravarma and rin chen bzang po." ,
+      "lang" : "en"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/WA22925" : { 
+    "http://purl.bdrc.io/ontology/core/note" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/NTWA22925_ATII0"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/NT8CA64DB71B6E08C5"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "gurupañcāśikā" ,
+      "lang" : "sa-x-iast"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/workHasParallelsIn" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/WA0TTET1687"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/WA0RT2543"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/isRoot" : [ { 
+      "type" : "literal" ,
+      "value" : "true" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#altLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Gurupañcāśikā" ,
+      "lang" : "sa-x-iast"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/creator" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/CRWA22925_ATII0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/Work"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/tmp/entityScore" : [ { 
+      "type" : "literal" ,
+      "value" : "260" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/workHasInstance" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/IE0GR0265"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/language" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/LangInc"
+    }
+     ]
+  }
+   ,
+  "http://purl.bdrc.io/resource/CRWA22925_ATII0" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/AgentAsCreator"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/role" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/R0ER0019"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/agent" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/P7588"
+    }
+     ]
+  }
+}

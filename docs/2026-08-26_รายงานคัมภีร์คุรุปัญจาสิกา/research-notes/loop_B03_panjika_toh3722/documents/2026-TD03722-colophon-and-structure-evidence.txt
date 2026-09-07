@@ -1,0 +1,89 @@
+TD03722 (Toh 3722) Gurvaradhanapanjika — colophon + structure evidence
+Extracted from: C:\Users\Vesin\AppData\Local\Temp\opencode\TENGYUR.zip
+Zip entry: Tengyur/02 RGYUD_Diamond Way (Vajrayana)/VOL 78 (TSU)/TD03722_BLA MA'I BSNYEN BKUR GYI DKA' 'GREL (Gurv?r?dhana Pa?jik?).txt [91.2 KB]
+Full eText saved as: TD03722-bla-mai-bsnyen-bkur-gyi-dka-grel-Gurvaradhana-Panjika.txt
+Source: Asian Legacy Library, http://all-library-docs.s3.us-west-2.amazonaws.com/TENGYUR.zip (re-downloaded 2026-08-26)
+
+=== 1. TITLE LINES (opening) ===
+
+@12A #, ,RGYA GAR SKAD DU, GU RV'A R'A DHA NA
+PANYTZI KA ,BOD SKAD DU, BLA MA'I BSNYEN BKUR GYI DKA' 'GREL,
+'JAM PA'I RDO RJE LA PHYAG 'TSAL LO,
+
+(Sanskrit: *Gurv-aradhana-pancika*; homage to Manjuvajra)
+
+=== 2. TRANSLATOR COLOPHON (end of text, verbatim Wylie/ACIP) ===
+
+@36A *, ,BAR SHOG ,BLA MA LNGA BCU PA'I DKA' 'GREL 'DI NI RDZOGS
+SO,, ,,RGYA GAR SHAR PHYOGS KYI MKHAS PA CHEN PO DPAL NAGS KYI
+RIN CHEN GYI BKA' DRIN LAS LEGS PAR SBYAR BA'I SKAD KYI CHA SHAS
+RIG PA GZHON NU DPAL GYIS DPAL LDAN BLA MA DAM PA'I DBEN
+GNAS LHA KHANG STENG DU BSGYUR BA'O,,
+
+English: "Here ends the dka' 'grel of the bla ma lnga bcu pa. Through the kindness
+of the great pandita dpal nags kyi rin chen (Sri Vanaratna) of Eastern India,
+the language-portions properly composed/arranged were translated by rig pa
+gzhon nu dpal at the upper temple (lha khang steng) of the hermitage of the
+glorious supreme guru."
+
+NOTE: The colophon gives NO author name for the commentary itself ("otherwise
+anonymous" per Szanto 2013 fn982). It names only the pandita-instructor
+(Vanaratna) and the translator (gzhon nu dpal). No clan/place epithet is given,
+so identification with 'Gos gzhon nu dpal rests on external evidence.
+
+NOTE 2: Szanto's quoted closing sentence "gzhung 'di la rgya gar pa'i 'grel pa
+mi snang yang ..." does NOT occur anywhere in this Derge eText (checked:
+"MI SNANG", "RGYA GAR PA", "GZHUNG 'DI" all absent). Per Szanto's own sentence
+structure it comes from Tsong kha pa's Bla ma lnga bcu pa'i rnam bshad
+(slob ma'i re ba kun skong), not from Toh 3722.
+
+=== 3. STRUCTURE / VERSE-CITATION METHOD ===
+
+Extent: folio markers @12A through @36A = ca. 24.5 folios (Derge vol. TSU).
+The panjika proceeds sequentially through the namaskara + all ~50 root verses.
+Citation style: it quotes ONLY THE OPENING WORDS of each root verse followed by
+the formula "zhes bya ba la sogs pa gsungs te" ("...and so on"), then comments.
+
+Formula counts in full text (whitespace-normalized):
+  "ZHES BYA BA LA SOGS PA" : 44
+  "CES BYA BA LA SOGS PA"  : 7   (= 51 verse-introductions, covering namo + 50 verses)
+  "LA SOGS PA'O"           : 12
+  "ZHE NA"                 : 40
+  "GSUNGS TE"              : 75
+  "ZHES BYA BA'I DON TO"   : 35
+
+Verbatim cross-match against root text TD3721 (50 probe phrases, one per verse,
+whitespace-normalized): only 2/50 matched:
+  - v3 opening "KHYIM PA'AM NI GSAR BU LA" x1 (quoted with added 'ANG:
+    "KHYIM PA'AM NI GSAR BU LA'ANG")
+  - v48/closing dedication "BSAM PA DAG PA'I SLOB MA NI" x2
+=> The panjikakara paraphrases rather than reproduces full root verses; only
+   rare near-verbatim citations.
+
+Sample fragment-quote introductions (verbatim):
+  v1: "DPAL LDAN RDO RJE SEMS DPA'I ZHES BYA BA LA SOGS PA GSUNGS TE"
+  v4: "DAM CHOS ZHES BYA BA LA SOGS PA GSUNGS TE"
+  v14ff: "RJES MTHUN ZHES BYA BA LA SOGS PA GSUNGS TE"
+
+External quotation found inside the panjika (Vinaya/Pratimoksa-style, on ochre robes):
+  "DE LA NGUR SMRIG MI LDAN TE, ,BDEN DANG DUL DANG MI LDAN PA, ,DE NI MCHOD 'OS NGUR SMRIG MIN, ,ZHES SO"
+
+Panjika's own closing dedication verse (before translator colophon):
+  "BLA MA'I BSNYEN BKUR RNAM PAR 'GREL PA NI, ,BYAS LAS BDAG LA BSOD NAMS GANG SKYES PA, ,DES NI 'GRO BAS BLA MA'I ZHABS BSTEN CING, ,DE BZHIN GSHEGS PA NYID DU 'GYUR"
+
+=== 4. CROSS-REFERENCES ===
+
+- Cordier 1914 entry (see 1914-Cordier-entry-excerpt.txt): A. Non mentionne;
+  T. Lo. Gson-nu dpal [Kumarasri], sous les auspices de M.ch. Dpal Nags-kyi
+  rin-chen [M.p. Sri Vanaratna], de l'Inde orientale.
+- Cordier djvu (same catalogue): elsewhere equates "Lo. Gshon-nuhi zhabs
+  [kumarapada] (c.-a-d. Gshon nu dpal [kumaracri], de Hgos (1392-1481 A.D.))",
+  i.e. Cordier identifies Kumaraśrī-gZhon nu dpal with the 'Gos translator,
+  dates 1392-1481; but Cordier ALSO records a second contemporary translator
+  "Gshon-nu dpal ... de Htses than (le Lo de Rtse-than)" active under the same
+  Vanaratna. Colophon alone cannot disambiguate.
+- Szanto 2013 fn982: "The *Gurvaradhanapanjika survives only in translation
+  (Toh. 3722) by Gzhon nu dpal, who mentions in the colophon Vanaratna
+  (1384-1468) as his master in Sanskrit."
+- 84000 overview page exists: https://84000.co/translation/toh3722
+  "A Commentary on the Difficult Points of Devotion to a Guru" (no translation yet).

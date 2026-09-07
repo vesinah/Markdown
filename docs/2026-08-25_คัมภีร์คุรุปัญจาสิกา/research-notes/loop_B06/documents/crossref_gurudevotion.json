@@ -1,0 +1,566 @@
+﻿{
+    "status":  "ok",
+    "message-type":  "work-list",
+    "message-version":  "1.0.0",
+    "message":  {
+                    "facets":  {
+
+                               },
+                    "total-results":  122411,
+                    "items":  [
+                                  {
+                                      "title":  [
+                                                    "A Message from Tibetan Buddhism"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "The Dalai",
+                                                         "family":  "Lama",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Journal of Moral Theology"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2025,
+                                                                            6,
+                                                                            30
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.55476/001c.141271"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Binding the Deities: Tibetan Buddhism, Reincarnation and the Chinese Communist Party"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "ORCID":  "https://orcid.org/0000-0003-2009-8386",
+                                                         "authenticated-orcid":  false,
+                                                         "given":  "Jigme Yeshe",
+                                                         "family":  "Lama",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+                                                                             {
+                                                                                 "name":  "Department of Political Science, University of Calcutta, West Bengal, India."
+                                                                             }
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "vocabulary":  "crossref",
+                                                                          "role":  "author"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "China Report"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2024,
+                                                                            11
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.1177/00094455241287888"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Intervensi bagi Guru untuk Menemukenali Gaya Belajar Siswa"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Farida",
+                                                         "family":  "Aini",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "vocabulary":  "crossref",
+                                                                          "role":  "author"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "family":  "Vinaya",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "vocabulary":  "crossref",
+                                                                          "role":  "author"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Devotion : Jurnal Pengabdian Psikologi"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2026,
+                                                                            5,
+                                                                            31
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.64228/y7je9902"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "To Hell with Devotion: Buddhism in Senjafuda"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "ORCID":  "https://orcid.org/0000-0002-2006-7304",
+                                                         "authenticated-orcid":  false,
+                                                         "given":  "Glynne",
+                                                         "family":  "Walley",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+                                                                             {
+                                                                                 "name":  "Department of East Asian Languages and Literatures, University of Oregon, Eugene, OR 97403, USA"
+                                                                             }
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Arts"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2025,
+                                                                            10,
+                                                                            31
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.3390/arts14060132"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "When One Meets the Perfect Guru”: The Guru–Disciple Relationship in the Indian Bhakti Tradition"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "family":  "Dr. Medha",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+                                                                             {
+                                                                                 "name":  "Assistant Professor, Department of Hindi, Satyawati College (Evening), University of Delhi"
+                                                                             }
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "vocabulary":  "crossref",
+                                                                          "role":  "author"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Knowledgeable Research A Multidisciplinary Journal"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2024,
+                                                                            9,
+                                                                            30
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.57067/kr.vol.3.i02/991"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Palmo\u0027s \"I Am Who I Am,\" Translated by Lama Jabb"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "family":  "Palmo",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Lama",
+                                                         "family":  "Jabb",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Journal of Tibetan Literature"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2022,
+                                                                            11,
+                                                                            15
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.58371/jtl.2022.22"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Pelatihan Menyusun Program Bimbingan Layanan dan Konseling Berdasarkan Asesmen Kebutuhan Siswa pada Guru BK"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Farida",
+                                                         "family":  "Aini",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Devotion : Jurnal Pengabdian Psikologi"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2022,
+                                                                            11,
+                                                                            30
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.35814/devotion.v1i02.4198"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Guru Sex: Charisma, Proxemic Desire, and the Haptic Logics of the Guru-Disciple Relationship"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Amanda",
+                                                         "family":  "Lucia",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+                                                                             {
+                                                                                 "name":  "Department of Religious Studies, University of California-Riverside, CHASS INTN 2034, Riverside, CA, USA"
+                                                                             }
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Journal of the American Academy of Religion"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2018,
+                                                                            7,
+                                                                            13
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.1093/jaarel/lfy025"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "The Dalai Lama — A Lay Ruler or a Religious Hierarch? Political Aspects of the Tibetan Buddhism"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Irina",
+                                                         "family":  "R. Garri",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "State Religion and Church in Russia and Worldwide"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2022
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.22394/2073-7203-2022-40-2-41-62"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Program Pembekalan Materi Psikologi bagi Guru di Yayasan Transformasi Bagimu Negeri"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Sandra",
+                                                         "family":  "Sutanto",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Edeline",
+                                                         "family":  "Natacia",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Jovanka",
+                                                         "family":  "Untawidjaja",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Devotion : Jurnal Pengabdian Psikologi"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2022,
+                                                                            11,
+                                                                            30
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.35814/devotion.v1i02.3551"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "The Changing Teacher-Disciple (Guru-Shishya) Equation in Modern Times"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Sunanda",
+                                                         "family":  "Das",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2017
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.7860/jcdr/2017/13051.10797"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "The Spiritual Corridor of Mustang: Exploring Chhuksang and Muktinath through Guru Padmasambhava’s Perspective"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Nir Bahadur",
+                                                         "family":  "Gurung",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Dhammacakka Journal of Buddhism and Applied Buddhism"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2025,
+                                                                            12,
+                                                                            19
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.3126/djbab.v1i2.87326"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Implementasi Literasi Digital Guru SD Melalui Pendampingan  Pembuatan Digital Material (Sway)"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Kuncahyono",
+                                                         "family":  "Kuncahyono",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Maharani Putri",
+                                                         "family":  "Kumalasani",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "International Journal of Public Devotion"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2020,
+                                                                            11,
+                                                                            30
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.26737/ijpd.v3i1.2044"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Tibetan Buddhism, Wetland Transformation, and Environmentalism in Tibetan Pastoral Areas of Western China"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Kabzung",
+                                                         "family":  "Gaerrang",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "vocabulary":  "crossref",
+                                                                          "role":  "author"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Conservation and Society"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2017
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.4103/0972-4923.201390"
+                                  }
+                              ],
+                    "items-per-page":  14,
+                    "query":  {
+                                  "start-index":  0,
+                                  "search-terms":  "guru devotion lama disciple tibetan buddhism"
+                              }
+                }
+}

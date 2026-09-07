@@ -1,0 +1,2844 @@
+[
+  {
+    "id": "https://openalex.org/W3088762198",
+    "doi": "https://doi.org/10.7817/jameroriesoci.140.3.0675",
+    "title": "Indic-Vernacular Bitexts from Thailand",
+    "display_name": "Indic-Vernacular Bitexts from Thailand",
+    "relevance_score": 81.25237,
+    "publication_year": 2020,
+    "publication_date": "2020-09-25",
+    "ids": {
+      "openalex": "https://openalex.org/W3088762198",
+      "doi": "https://doi.org/10.7817/jameroriesoci.140.3.0675",
+      "mag": "3088762198"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.7817/jameroriesoci.140.3.0675",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.7817/jameroriesoci.140.3.0675",
+      "pdf_url": "https://lockwoodonlinejournals.com/index.php/jaos/article/download/679/532",
+      "source": {
+        "id": "https://openalex.org/S146822473",
+        "display_name": "Journal of the American Oriental Society",
+        "issn_l": "0003-0279",
+        "issn": [
+          "0003-0279",
+          "2169-2289"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310315906",
+        "host_organization_name": "American Oriental Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315906"
+        ],
+        "host_organization_lineage_names": [
+          "American Oriental Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of the American Oriental Society",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://lockwoodonlinejournals.com/index.php/jaos/article/download/679/532",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5004324027",
+          "display_name": "Trent Walker",
+          "orcid": "https://orcid.org/0000-0002-2285-1979"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Trent Walker",
+        "raw_affiliation_strings": [
+          "Stanford University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stanford University",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5004324027"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I97018004"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 3.3129,
+    "has_fulltext": true,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.93758644,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 96
+    },
+    "biblio": {
+      "volume": "140",
+      "issue": "3",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12872",
+      "display_name": "Philippine History and Culture",
+      "score": 0.9469000101089478,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3314",
+        "display_name": "Anthropology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12872",
+        "display_name": "Philippine History and Culture",
+        "score": 0.9469000101089478,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/vernacular",
+        "display_name": "Vernacular",
+        "score": 0.9823229312896729
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.6383065581321716
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.5239691138267517
+      },
+      {
+        "id": "https://openalex.org/keywords/mainland",
+        "display_name": "Mainland",
+        "score": 0.5049672722816467
+      },
+      {
+        "id": "https://openalex.org/keywords/style",
+        "display_name": "Style (visual arts)",
+        "score": 0.4962976574897766
+      },
+      {
+        "id": "https://openalex.org/keywords/ancient-history",
+        "display_name": "Ancient history",
+        "score": 0.3623890280723572
+      },
+      {
+        "id": "https://openalex.org/keywords/geography",
+        "display_name": "Geography",
+        "score": 0.34489428997039795
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.3185230493545532
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.21954268217086792
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2780386941",
+        "wikidata": "https://www.wikidata.org/wiki/Q1036511",
+        "display_name": "Vernacular",
+        "level": 2,
+        "score": 0.9823229312896729
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.6383065581321716
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.5239691138267517
+      },
+      {
+        "id": "https://openalex.org/C2781300146",
+        "wikidata": "https://www.wikidata.org/wiki/Q1140140",
+        "display_name": "Mainland",
+        "level": 2,
+        "score": 0.5049672722816467
+      },
+      {
+        "id": "https://openalex.org/C2776445246",
+        "wikidata": "https://www.wikidata.org/wiki/Q1792644",
+        "display_name": "Style (visual arts)",
+        "level": 2,
+        "score": 0.4962976574897766
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.3623890280723572
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.34489428997039795
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.3185230493545532
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.21954268217086792
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.7817/jameroriesoci.140.3.0675",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.7817/jameroriesoci.140.3.0675",
+        "pdf_url": "https://lockwoodonlinejournals.com/index.php/jaos/article/download/679/532",
+        "source": {
+          "id": "https://openalex.org/S146822473",
+          "display_name": "Journal of the American Oriental Society",
+          "issn_l": "0003-0279",
+          "issn": [
+            "0003-0279",
+            "2169-2289"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310315906",
+          "host_organization_name": "American Oriental Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315906"
+          ],
+          "host_organization_lineage_names": [
+            "American Oriental Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of the American Oriental Society",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.7817/jameroriesoci.140.3.0675",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.7817/jameroriesoci.140.3.0675",
+      "pdf_url": "https://lockwoodonlinejournals.com/index.php/jaos/article/download/679/532",
+      "source": {
+        "id": "https://openalex.org/S146822473",
+        "display_name": "Journal of the American Oriental Society",
+        "issn_l": "0003-0279",
+        "issn": [
+          "0003-0279",
+          "2169-2289"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310315906",
+        "host_organization_name": "American Oriental Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315906"
+        ],
+        "host_organization_lineage_names": [
+          "American Oriental Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of the American Oriental Society",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/4",
+        "display_name": "Quality Education",
+        "score": 0.8899999856948853
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W3088762198.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W3088762198.grobid-xml"
+    },
+    "referenced_works_count": 2,
+    "referenced_works": [
+      "https://openalex.org/W599836131",
+      "https://openalex.org/W2910925603"
+    ],
+    "related_works": [
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2378393180",
+      "https://openalex.org/W2372400693",
+      "https://openalex.org/W2360140359",
+      "https://openalex.org/W3112958917",
+      "https://openalex.org/W2378683691",
+      "https://openalex.org/W2369717475",
+      "https://openalex.org/W2352942320",
+      "https://openalex.org/W584221347"
+    ],
+    "abstract_inverted_index": {
+      "In": [
+        0
+      ],
+      "the": [
+        1,
+        57,
+        91,
+        100,
+        110,
+        119,
+        124,
+        138,
+        142,
+        146,
+        161,
+        190,
+        203,
+        224
+      ],
+      "late": [
+        2
+      ],
+      "first": [
+        3
+      ],
+      "and": [
+        4,
+        16,
+        31,
+        47,
+        53,
+        67,
+        76,
+        170,
+        202,
+        223,
+        235
+      ],
+      "early": [
+        5,
+        125
+      ],
+      "second": [
+        6
+      ],
+      "millennia,": [
+        7
+      ],
+      "mainland": [
+        8,
+        230
+      ],
+      "Southeast": [
+        9,
+        82,
+        134,
+        231
+      ],
+      "Asians": [
+        10
+      ],
+      "created": [
+        11
+      ],
+      "sophisticated": [
+        12
+      ],
+      "techniques": [
+        13,
+        34,
+        111
+      ],
+      "to": [
+        14,
+        39,
+        56,
+        85,
+        185,
+        210
+      ],
+      "accurately": [
+        15
+      ],
+      "efficiently": [
+        17
+      ],
+      "render": [
+        18
+      ],
+      "Pali": [
+        19,
+        66,
+        95
+      ],
+      "into": [
+        20
+      ],
+      "local": [
+        21
+      ],
+      "vernaculars,": [
+        22
+      ],
+      "including": [
+        23
+      ],
+      "Burmese,": [
+        24
+      ],
+      "Khmer,": [
+        25
+      ],
+      "Khün,": [
+        26
+      ],
+      "Lanna,": [
+        27
+      ],
+      "Lao,": [
+        28
+      ],
+      "Lü,": [
+        29
+      ],
+      "Mon,": [
+        30
+      ],
+      "Siamese.": [
+        32
+      ],
+      "These": [
+        33,
+        174,
+        215
+      ],
+      "for": [
+        35,
+        41,
+        102,
+        121,
+        137,
+        220
+      ],
+      "vernacular": [
+        36,
+        68,
+        88,
+        113,
+        143,
+        221,
+        227
+      ],
+      "reading,": [
+        37,
+        114
+      ],
+      "parallel": [
+        38
+      ],
+      "approaches": [
+        40
+      ],
+      "reading": [
+        42,
+        222
+      ],
+      "Latin": [
+        43
+      ],
+      "in": [
+        44,
+        50,
+        73,
+        133,
+        166,
+        183,
+        195,
+        213,
+        229,
+        233,
+        237
+      ],
+      "medieval": [
+        45
+      ],
+      "Europe": [
+        46
+      ],
+      "Literary": [
+        48
+      ],
+      "Sinitic": [
+        49
+      ],
+      "Japan,": [
+        51
+      ],
+      "Korea,": [
+        52
+      ],
+      "Vietnam,": [
+        54
+      ],
+      "led": [
+        55
+      ],
+      "development": [
+        58
+      ],
+      "of": [
+        59,
+        65,
+        94,
+        112,
+        130,
+        141,
+        149,
+        160,
+        164,
+        180,
+        189,
+        226
+      ],
+      "bitexts": [
+        60,
+        132,
+        165,
+        216
+      ],
+      "that": [
+        61,
+        107,
+        117
+      ],
+      "contained": [
+        62
+      ],
+      "a": [
+        63,
+        87,
+        103,
+        115,
+        176
+      ],
+      "mix": [
+        64
+      ],
+      "material.": [
+        69
+      ],
+      "Such": [
+        70
+      ],
+      "bitexts,": [
+        71
+      ],
+      "arranged": [
+        72
+      ],
+      "both": [
+        74
+      ],
+      "interlinear": [
+        75
+      ],
+      "interphrasal": [
+        77
+      ],
+      "formats,": [
+        78
+      ],
+      "gradually": [
+        79
+      ],
+      "allowed": [
+        80,
+        136
+      ],
+      "second-millennium": [
+        81
+      ],
+      "Asian": [
+        83,
+        232
+      ],
+      "writers": [
+        84
+      ],
+      "sprout": [
+        86
+      ],
+      "literature": [
+        89,
+        228
+      ],
+      "from": [
+        90,
+        109,
+        199
+      ],
+      "established": [
+        92
+      ],
+      "branches": [
+        93
+      ],
+      "genres.": [
+        96
+      ],
+      "Bitexts": [
+        97
+      ],
+      "themselves": [
+        98
+      ],
+      "formed": [
+        99
+      ],
+      "basis": [
+        101
+      ],
+      "new": [
+        104
+      ],
+      "literary": [
+        105,
+        139,
+        207
+      ],
+      "style": [
+        106,
+        116
+      ],
+      "stemmed": [
+        108
+      ],
+      "set": [
+        118
+      ],
+      "standard": [
+        120
+      ],
+      "belles-lettres": [
+        122
+      ],
+      "until": [
+        123
+      ],
+      "twentieth": [
+        126
+      ],
+      "century.": [
+        127
+      ],
+      "The": [
+        128
+      ],
+      "spread": [
+        129
+      ],
+      "Pali-vernacular": [
+        131
+      ],
+      "Asia": [
+        135
+      ],
+      "elevation": [
+        140
+      ],
+      "without": [
+        144
+      ],
+      "renouncing": [
+        145
+      ],
+      "cosmopolitan": [
+        147
+      ],
+      "idiom": [
+        148
+      ],
+      "Pali.": [
+        150
+      ],
+      "To": [
+        151
+      ],
+      "support": [
+        152
+      ],
+      "these": [
+        153
+      ],
+      "arguments,": [
+        154
+      ],
+      "this": [
+        155
+      ],
+      "article": [
+        156
+      ],
+      "draws": [
+        157
+      ],
+      "on": [
+        158
+      ],
+      "some": [
+        159
+      ],
+      "earliest": [
+        162
+      ],
+      "examples": [
+        163
+      ],
+      "Central": [
+        167
+      ],
+      "Thailand": [
+        168,
+        172,
+        236
+      ],
+      "(Siam)": [
+        169
+      ],
+      "Northern": [
+        171
+      ],
+      "(Lanna).": [
+        173
+      ],
+      "include": [
+        175
+      ],
+      "hitherto": [
+        177
+      ],
+      "undeciphered": [
+        178
+      ],
+      "form": [
+        179
+      ],
+      "manuscript": [
+        181
+      ],
+      "annotation": [
+        182
+      ],
+      "seventeenth-": [
+        184
+      ],
+      "nineteenth-century": [
+        186
+      ],
+      "Siam;": [
+        187
+      ],
+      "two": [
+        188
+      ],
+      "oldest": [
+        191,
+        204
+      ],
+      "palm-leaf": [
+        192
+      ],
+      "documents": [
+        193
+      ],
+      "surviving": [
+        194
+      ],
+      "any": [
+        196
+      ],
+      "Tai": [
+        197
+      ],
+      "language,": [
+        198
+      ],
+      "sixteenth-century": [
+        200
+      ],
+      "Lanna;": [
+        201
+      ],
+      "known": [
+        205
+      ],
+      "Pali-Siamese": [
+        206
+      ],
+      "work,": [
+        208
+      ],
+      "thought": [
+        209
+      ],
+      "be": [
+        211
+      ],
+      "composed": [
+        212
+      ],
+      "1482.": [
+        214
+      ],
+      "provide": [
+        217
+      ],
+      "detailed": [
+        218
+      ],
+      "evidence": [
+        219
+      ],
+      "emergence": [
+        225
+      ],
+      "general": [
+        234
+      ],
+      "particular.": [
+        238
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W1851209409",
+    "doi": null,
+    "title": "Rebuilding Lanna: Constructing And Consuming The Past In Urban Northern Thailand",
+    "display_name": "Rebuilding Lanna: Constructing And Consuming The Past In Urban Northern Thailand",
+    "relevance_score": 36.504505,
+    "publication_year": 2010,
+    "publication_date": "2010-08-05",
+    "ids": {
+      "openalex": "https://openalex.org/W1851209409",
+      "mag": "1851209409"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:ecommons.cornell.edu:1813/17194",
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/1813/17194",
+      "pdf_url": "https://ecommons.cornell.edu/bitstreams/59193b8f-962e-437a-9712-2177d92b2c35/download",
+      "source": {
+        "id": "https://openalex.org/S4306400757",
+        "display_name": "eCommons (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "dissertation or thesis"
+    },
+    "type": "dissertation",
+    "indexed_in": [],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://ecommons.cornell.edu/bitstreams/59193b8f-962e-437a-9712-2177d92b2c35/download",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5018757844",
+          "display_name": "Andrew Johnson",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Andrew Johnson",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5018757844"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": true,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13002",
+      "display_name": "Southeast Asian Sociopolitical Studies",
+      "score": 0.9282000064849854,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13002",
+        "display_name": "Southeast Asian Sociopolitical Studies",
+        "score": 0.9282000064849854,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/geography",
+        "display_name": "Geography",
+        "score": 0.40670090913772583
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.3363647162914276
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.40670090913772583
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.3363647162914276
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "pmh:oai:ecommons.cornell.edu:1813/17194",
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/1813/17194",
+        "pdf_url": "https://ecommons.cornell.edu/bitstreams/59193b8f-962e-437a-9712-2177d92b2c35/download",
+        "source": {
+          "id": "https://openalex.org/S4306400757",
+          "display_name": "eCommons (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "dissertation or thesis"
+      },
+      {
+        "id": "mag:1851209409",
+        "is_oa": false,
+        "landing_page_url": "http://ecommons.cornell.edu/bitstream/1813/17194/1/Johnson%2c%20Andrew.pdf",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:ecommons.cornell.edu:1813/17194",
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/1813/17194",
+      "pdf_url": "https://ecommons.cornell.edu/bitstreams/59193b8f-962e-437a-9712-2177d92b2c35/download",
+      "source": {
+        "id": "https://openalex.org/S4306400757",
+        "display_name": "eCommons (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "dissertation or thesis"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/11",
+        "display_name": "Sustainable cities and communities",
+        "score": 0.8500000238418579
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W1851209409.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W1851209409.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W3024333014"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "dissertation": [
+        1
+      ],
+      "is": [
+        2
+      ],
+      "an": [
+        3,
+        183,
+        283
+      ],
+      "ethnographic": [
+        4
+      ],
+      "study": [
+        5
+      ],
+      "of": [
+        6,
+        11,
+        35,
+        38,
+        44,
+        48,
+        53,
+        72,
+        110,
+        121,
+        137,
+        153,
+        162,
+        169,
+        178,
+        207,
+        209,
+        220,
+        229,
+        239,
+        244,
+        297,
+        308,
+        313,
+        327
+      ],
+      "the": [
+        7,
+        12,
+        25,
+        31,
+        36,
+        42,
+        45,
+        69,
+        73,
+        82,
+        93,
+        102,
+        115,
+        119,
+        133,
+        145,
+        150,
+        154,
+        159,
+        167,
+        176,
+        191,
+        195,
+        221,
+        230,
+        234,
+        245,
+        258,
+        268,
+        294,
+        311,
+        325,
+        328
+      ],
+      "perspective": [
+        8
+      ],
+      "and": [
+        9,
+        29,
+        60,
+        203,
+        211,
+        218,
+        225,
+        287,
+        289,
+        303,
+        323
+      ],
+      "treatment": [
+        10
+      ],
+      "city": [
+        13,
+        26,
+        37,
+        58,
+        83,
+        155
+      ],
+      "as": [
+        14,
+        147,
+        149,
+        265,
+        267
+      ],
+      "a": [
+        15,
+        51,
+        78,
+        188,
+        273,
+        298
+      ],
+      "space": [
+        16,
+        107
+      ],
+      "imbued": [
+        17
+      ],
+      "with": [
+        18,
+        84,
+        157,
+        227
+      ],
+      "charismatic": [
+        19
+      ],
+      "power": [
+        20
+      ],
+      "in": [
+        21,
+        41,
+        166,
+        251,
+        260,
+        270,
+        276,
+        305,
+        330
+      ],
+      "Northern": [
+        22
+      ],
+      "Thailand.": [
+        23
+      ],
+      "Reviving": [
+        24
+      ],
+      "through": [
+        27,
+        76,
+        131
+      ],
+      "channeling": [
+        28
+      ],
+      "re-imagining": [
+        30
+      ],
+      "perceived": [
+        32,
+        274
+      ],
+      "past": [
+        33,
+        91,
+        222,
+        329
+      ],
+      "prosperity": [
+        34
+      ],
+      "Chiang": [
+        39,
+        88,
+        252
+      ],
+      "Mai": [
+        40
+      ],
+      "wake": [
+        43
+      ],
+      "economic": [
+        46,
+        74
+      ],
+      "crash": [
+        47
+      ],
+      "1997": [
+        49
+      ],
+      "became": [
+        50,
+        205
+      ],
+      "matter": [
+        52
+      ],
+      "concern": [
+        54
+      ],
+      "for": [
+        55
+      ],
+      "architects,": [
+        56
+      ],
+      "activists,": [
+        57
+      ],
+      "planners,": [
+        59
+      ],
+      "spirit": [
+        61,
+        122
+      ],
+      "mediums:": [
+        62
+      ],
+      "each": [
+        63
+      ],
+      "group": [
+        64
+      ],
+      "respectively": [
+        65
+      ],
+      "sought": [
+        66,
+        126
+      ],
+      "to": [
+        67,
+        87,
+        104,
+        118,
+        127,
+        262,
+        282,
+        320
+      ],
+      "control": [
+        68
+      ],
+      "negative": [
+        70
+      ],
+      "effects": [
+        71
+      ],
+      "downturn": [
+        75
+      ],
+      "reconstructing": [
+        77
+      ],
+      "latent": [
+        79
+      ],
+      "potential": [
+        80
+      ],
+      "within": [
+        81
+      ],
+      "explicit": [
+        85
+      ],
+      "reference": [
+        86
+      ],
+      "Mai's": [
+        89
+      ],
+      "\"Lanna\"": [
+        90
+      ],
+      "(approximately": [
+        92
+      ],
+      "13th-19th": [
+        94
+      ],
+      "centuries": [
+        95
+      ],
+      "CE).": [
+        96
+      ],
+      "The": [
+        97
+      ],
+      "various": [
+        98
+      ],
+      "methods": [
+        99
+      ],
+      "ranged": [
+        100
+      ],
+      "from": [
+        101,
+        114
+      ],
+      "attempts": [
+        103,
+        141,
+        261
+      ],
+      "redesign": [
+        105
+      ],
+      "public": [
+        106
+      ],
+      "using": [
+        108
+      ],
+      "models": [
+        109
+      ],
+      "urban": [
+        111,
+        249,
+        277,
+        285,
+        332
+      ],
+      "design": [
+        112
+      ],
+      "adapted": [
+        113
+      ],
+      "Lanna": [
+        116,
+        299
+      ],
+      "period": [
+        117
+      ],
+      "efforts": [
+        120
+      ],
+      "medium": [
+        123
+      ],
+      "devotees,": [
+        124
+      ],
+      "who": [
+        125
+      ],
+      "stave": [
+        128
+      ],
+      "off": [
+        129
+      ],
+      "misfortune": [
+        130,
+        163
+      ],
+      "reviving": [
+        132
+      ],
+      "literal": [
+        134
+      ],
+      "guardian": [
+        135
+      ],
+      "spirits": [
+        136
+      ],
+      "Lanna.": [
+        138
+      ],
+      "However,": [
+        139
+      ],
+      "such": [
+        140
+      ],
+      "at": [
+        142,
+        233
+      ],
+      "rebuilding": [
+        143
+      ],
+      "both": [
+        144,
+        200
+      ],
+      "physical": [
+        146
+      ],
+      "well": [
+        148,
+        266
+      ],
+      "spiritual": [
+        151
+      ],
+      "integrity": [
+        152
+      ],
+      "carried": [
+        156
+      ],
+      "them": [
+        158
+      ],
+      "uncanny": [
+        160
+      ],
+      "trace": [
+        161
+      ],
+      "made": [
+        164
+      ],
+      "manifest": [
+        165
+      ],
+      "ruins": [
+        168,
+        173,
+        217
+      ],
+      "pre-1997": [
+        170
+      ],
+      "buildings.": [
+        171,
+        197
+      ],
+      "These": [
+        172
+      ],
+      "stood": [
+        174
+      ],
+      "alongside": [
+        175,
+        318
+      ],
+      "shells": [
+        177,
+        312
+      ],
+      "new": [
+        179,
+        196,
+        314
+      ],
+      "highrise": [
+        180
+      ],
+      "construction,": [
+        181
+      ],
+      "providing": [
+        182
+      ],
+      "unwelcome": [
+        184
+      ],
+      "resemblance": [
+        185
+      ],
+      "that": [
+        186,
+        247,
+        257
+      ],
+      "put": [
+        187
+      ],
+      "pall": [
+        189
+      ],
+      "on": [
+        190,
+        194
+      ],
+      "hope": [
+        192
+      ],
+      "placed": [
+        193
+      ],
+      "Both": [
+        198
+      ],
+      "sites,": [
+        199
+      ],
+      "newly": [
+        201
+      ],
+      "constructed": [
+        202
+      ],
+      "abandoned,": [
+        204
+      ],
+      "sources": [
+        206
+      ],
+      "stories": [
+        208,
+        307
+      ],
+      "ghosts": [
+        210,
+        309
+      ],
+      "violent": [
+        212
+      ],
+      "crime.": [
+        213
+      ],
+      "I": [
+        214,
+        255
+      ],
+      "explore": [
+        215
+      ],
+      "how": [
+        216
+      ],
+      "failures": [
+        219
+      ],
+      "constantly": [
+        223
+      ],
+      "stain": [
+        224
+      ],
+      "conflict": [
+        226
+      ],
+      "visions": [
+        228
+      ],
+      "future,": [
+        231
+      ],
+      "while": [
+        232
+      ],
+      "same": [
+        235
+      ],
+      "time": [
+        236
+      ],
+      "this": [
+        237
+      ],
+      "sense": [
+        238
+      ],
+      "\"pastness\"": [
+        240
+      ],
+      "animates": [
+        241
+      ],
+      "present-day": [
+        242
+      ],
+      "images": [
+        243
+      ],
+      "auspicious": [
+        246
+      ],
+      "drives": [
+        248
+      ],
+      "planning": [
+        250
+      ],
+      "Mai.": [
+        253
+      ],
+      "Ultimately,": [
+        254
+      ],
+      "argue": [
+        256
+      ],
+      "increase": [
+        259,
+        269
+      ],
+      "\"rebuild": [
+        263
+      ],
+      "Lanna\"": [
+        264
+      ],
+      "anxiety": [
+        271
+      ],
+      "about": [
+        272
+      ],
+      "decline": [
+        275
+      ],
+      "charisma": [
+        278
+      ],
+      "can": [
+        279
+      ],
+      "be": [
+        280
+      ],
+      "traced": [
+        281
+      ],
+      "atomized": [
+        284
+      ],
+      "population": [
+        286
+      ],
+      "economically": [
+        288
+      ],
+      "politically": [
+        290
+      ],
+      "uncertain": [
+        291
+      ],
+      "times.": [
+        292
+      ],
+      "As": [
+        293
+      ],
+      "future": [
+        295
+      ],
+      "blossoming": [
+        296
+      ],
+      "renaissance": [
+        300
+      ],
+      "grows": [
+        301
+      ],
+      "more": [
+        302,
+        304
+      ],
+      "doubt,": [
+        306
+      ],
+      "inhabiting": [
+        310
+      ],
+      "high-rise": [
+        315
+      ],
+      "construction": [
+        316
+      ],
+      "grow": [
+        317
+      ],
+      "calls": [
+        319
+      ],
+      "define,": [
+        321
+      ],
+      "edit,": [
+        322
+      ],
+      "revitalize": [
+        324
+      ],
+      "image": [
+        326
+      ],
+      "Thailand's": [
+        331
+      ],
+      "north.": [
+        333
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2012,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-22T07:34:49.880490",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W2060662092",
+    "doi": "https://doi.org/10.3406/asean.1998.1595",
+    "title": "Une interprétation bouddhique des rites funéraires du Lanna et du Laos : le sutta apocryphe de Mahā Kāla",
+    "display_name": "Une interprétation bouddhique des rites funéraires du Lanna et du Laos : le sutta apocryphe de Mahā Kāla",
+    "relevance_score": 34.675037,
+    "publication_year": 1998,
+    "publication_date": "1998-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2060662092",
+      "doi": "https://doi.org/10.3406/asean.1998.1595",
+      "mag": "2060662092"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3406/asean.1998.1595",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3406/asean.1998.1595",
+      "pdf_url": "https://www.persee.fr/docAsPDF/asean_0859-9009_1998_num_2_1_1595.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210225334",
+        "display_name": "Aséanie",
+        "issn_l": "0859-9009",
+        "issn": [
+          "0859-9009"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310311131",
+        "host_organization_name": "École française d'Extrême-Orient",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311131"
+        ],
+        "host_organization_lineage_names": [
+          "École française d'Extrême-Orient"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Aséanie",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://www.persee.fr/docAsPDF/asean_0859-9009_1998_num_2_1_1595.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5052861646",
+          "display_name": "François Lagirarde",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "François Lagirarde",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5052861646"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.28160965,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 94
+    },
+    "biblio": {
+      "volume": "2",
+      "issue": "1",
+      "first_page": "47",
+      "last_page": "77"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13002",
+      "display_name": "Southeast Asian Sociopolitical Studies",
+      "score": 0.9983000159263611,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13002",
+        "display_name": "Southeast Asian Sociopolitical Studies",
+        "score": 0.9983000159263611,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13802",
+        "display_name": "Vietnamese History and Culture Studies",
+        "score": 0.9864000082015991,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.9853000044822693,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.8869438767433167
+      },
+      {
+        "id": "https://openalex.org/keywords/reincarnation",
+        "display_name": "Reincarnation",
+        "score": 0.5787488222122192
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.5380854606628418
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.49343767762184143
+      },
+      {
+        "id": "https://openalex.org/keywords/meditation",
+        "display_name": "Meditation",
+        "score": 0.49294018745422363
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.4745270311832428
+      },
+      {
+        "id": "https://openalex.org/keywords/section",
+        "display_name": "Section (typography)",
+        "score": 0.44730091094970703
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.2686389088630676
+      },
+      {
+        "id": "https://openalex.org/keywords/theology",
+        "display_name": "Theology",
+        "score": 0.1223142147064209
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.08397692441940308
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.8869438767433167
+      },
+      {
+        "id": "https://openalex.org/C2776445417",
+        "wikidata": "https://www.wikidata.org/wiki/Q128593",
+        "display_name": "Reincarnation",
+        "level": 2,
+        "score": 0.5787488222122192
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.5380854606628418
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.49343767762184143
+      },
+      {
+        "id": "https://openalex.org/C521822307",
+        "wikidata": "https://www.wikidata.org/wiki/Q108458",
+        "display_name": "Meditation",
+        "level": 2,
+        "score": 0.49294018745422363
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.4745270311832428
+      },
+      {
+        "id": "https://openalex.org/C2780129039",
+        "wikidata": "https://www.wikidata.org/wiki/Q1931107",
+        "display_name": "Section (typography)",
+        "level": 2,
+        "score": 0.44730091094970703
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.2686389088630676
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.1223142147064209
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.08397692441940308
+      },
+      {
+        "id": "https://openalex.org/C112698675",
+        "wikidata": "https://www.wikidata.org/wiki/Q37038",
+        "display_name": "Advertising",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.3406/asean.1998.1595",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3406/asean.1998.1595",
+        "pdf_url": "https://www.persee.fr/docAsPDF/asean_0859-9009_1998_num_2_1_1595.pdf",
+        "source": {
+          "id": "https://openalex.org/S4210225334",
+          "display_name": "Aséanie",
+          "issn_l": "0859-9009",
+          "issn": [
+            "0859-9009"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310311131",
+          "host_organization_name": "École française d'Extrême-Orient",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311131"
+          ],
+          "host_organization_lineage_names": [
+            "École française d'Extrême-Orient"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Aséanie",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:HAL:halshs-02543734v1",
+        "is_oa": true,
+        "landing_page_url": "https://shs.hal.science/halshs-02543734",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402512",
+          "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1294671590",
+          "host_organization_name": "Centre National de la Recherche Scientifique",
+          "host_organization_lineage": [
+            "https://openalex.org/I1294671590"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Aséanie, Sciences humaines en Asie du Sud-Est, 1998, 2, pp.47-77. &#x27E8;10.3406/asean.1998.1595&#x27E9;",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      {
+        "id": "pmh:oai:HAL:halshs-02545569v1",
+        "is_oa": true,
+        "landing_page_url": "https://shs.hal.science/halshs-02545569",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402512",
+          "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1294671590",
+          "host_organization_name": "Centre National de la Recherche Scientifique",
+          "host_organization_lineage": [
+            "https://openalex.org/I1294671590"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Aséanie, Sciences humaines en Asie du Sud-Est, 1998, 2 (1), pp.47-77. &#x27E8;10.3406/asean.1998.1595&#x27E9;",
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3406/asean.1998.1595",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3406/asean.1998.1595",
+      "pdf_url": "https://www.persee.fr/docAsPDF/asean_0859-9009_1998_num_2_1_1595.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210225334",
+        "display_name": "Aséanie",
+        "issn_l": "0859-9009",
+        "issn": [
+          "0859-9009"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310311131",
+        "host_organization_name": "École française d'Extrême-Orient",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311131"
+        ],
+        "host_organization_lineage_names": [
+          "École française d'Extrême-Orient"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Aséanie",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/5",
+        "display_name": "Gender equality",
+        "score": 0.4300000071525574
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2060662092.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2060662092.grobid-xml"
+    },
+    "referenced_works_count": 1,
+    "referenced_works": [
+      "https://openalex.org/W4240498790"
+    ],
+    "related_works": [
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W4250663267",
+      "https://openalex.org/W3186590183",
+      "https://openalex.org/W2140237371",
+      "https://openalex.org/W3163878316",
+      "https://openalex.org/W2099182419",
+      "https://openalex.org/W2380331047",
+      "https://openalex.org/W2607558565",
+      "https://openalex.org/W3166072407"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        26,
+        88
+      ],
+      "Pavarabandha": [
+        1
+      ],
+      "(Pvb)": [
+        2
+      ],
+      "is": [
+        3,
+        28,
+        42,
+        147,
+        159
+      ],
+      "a": [
+        4,
+        43,
+        46,
+        72,
+        85
+      ],
+      "Buddhist": [
+        5,
+        140,
+        180
+      ],
+      "text": [
+        6
+      ],
+      "written": [
+        7
+      ],
+      "in": [
+        8,
+        12,
+        23,
+        71,
+        137,
+        150,
+        155,
+        164,
+        170,
+        175
+      ],
+      "Northern": [
+        9
+      ],
+      "Thai": [
+        10
+      ],
+      "and": [
+        11,
+        38,
+        45,
+        92,
+        168,
+        181
+      ],
+      "Lao": [
+        13
+      ],
+      "that": [
+        14,
+        173
+      ],
+      "can": [
+        15
+      ],
+      "be": [
+        16,
+        161
+      ],
+      "found": [
+        17,
+        162
+      ],
+      "on": [
+        18,
+        91
+      ],
+      "palm": [
+        19
+      ],
+      "leaf": [
+        20
+      ],
+      "manuscripts": [
+        21
+      ],
+      "kept": [
+        22
+      ],
+      "wat": [
+        24
+      ],
+      "libraries.": [
+        25
+      ],
+      "Pvb": [
+        27,
+        111
+      ],
+      "made": [
+        29
+      ],
+      "of": [
+        30,
+        48,
+        52,
+        60,
+        84,
+        109,
+        143
+      ],
+      "three": [
+        31
+      ],
+      "sections": [
+        32
+      ],
+      "dealing": [
+        33
+      ],
+      "with": [
+        34,
+        113
+      ],
+      "death,": [
+        35
+      ],
+      "funerals,": [
+        36
+      ],
+      "reincarnation": [
+        37
+      ],
+      "meditation.": [
+        39
+      ],
+      "This": [
+        40,
+        55,
+        131
+      ],
+      "article": [
+        41
+      ],
+      "presentation": [
+        44
+      ],
+      "translation": [
+        47
+      ],
+      "the": [
+        49,
+        53,
+        58,
+        77,
+        82,
+        104,
+        110,
+        114,
+        138,
+        144
+      ],
+      "first": [
+        50
+      ],
+      "part": [
+        51,
+        56
+      ],
+      "Pvb.": [
+        54,
+        145
+      ],
+      "tells": [
+        57
+      ],
+      "story": [
+        59
+      ],
+      "Mahā": [
+        61
+      ],
+      "Kalā": [
+        62
+      ],
+      "Thera,": [
+        63
+      ],
+      "an": [
+        64
+      ],
+      "old": [
+        65
+      ],
+      "bhikkhu": [
+        66
+      ],
+      "who": [
+        67
+      ],
+      "decided": [
+        68
+      ],
+      "to": [
+        69,
+        124,
+        160
+      ],
+      "meditate": [
+        70
+      ],
+      "cemetery.": [
+        73
+      ],
+      "There": [
+        74
+      ],
+      "he": [
+        75
+      ],
+      "directed": [
+        76
+      ],
+      "funerary": [
+        78
+      ],
+      "rites": [
+        79
+      ],
+      "performed": [
+        80
+      ],
+      "before": [
+        81
+      ],
+      "cremation": [
+        83
+      ],
+      "young": [
+        86
+      ],
+      "woman.": [
+        87
+      ],
+      "monk": [
+        89
+      ],
+      "commented": [
+        90
+      ],
+      "explained": [
+        93
+      ],
+      "these": [
+        94
+      ],
+      "rites,": [
+        95
+      ],
+      "which": [
+        96
+      ],
+      "had": [
+        97
+      ],
+      "apparently": [
+        98
+      ],
+      "not": [
+        99
+      ],
+      "been": [
+        100
+      ],
+      "fully": [
+        101
+      ],
+      "appreciated": [
+        102
+      ],
+      "by": [
+        103
+      ],
+      "people.": [
+        105
+      ],
+      "Since": [
+        106
+      ],
+      "this": [
+        107
+      ],
+      "section": [
+        108
+      ],
+      "starts": [
+        112
+      ],
+      "well": [
+        115
+      ],
+      "know": [
+        116
+      ],
+      "evam": [
+        117
+      ],
+      "me": [
+        118
+      ],
+      "suttam": [
+        119
+      ],
+      "Pali": [
+        120
+      ],
+      "formula": [
+        121
+      ],
+      "we": [
+        122
+      ],
+      "refer": [
+        123
+      ],
+      "it": [
+        125
+      ],
+      "as": [
+        126
+      ],
+      "Mahâ": [
+        127
+      ],
+      "Kalà's": [
+        128
+      ],
+      "apocryphal": [
+        129
+      ],
+      "Sutta.": [
+        130
+      ],
+      "\"Sutta\"": [
+        132
+      ],
+      "appears": [
+        133
+      ],
+      "under": [
+        134
+      ],
+      "different": [
+        135
+      ],
+      "names": [
+        136
+      ],
+      "Thai-Lao": [
+        139
+      ],
+      "literature,": [
+        141
+      ],
+      "independently": [
+        142
+      ],
+      "It": [
+        146
+      ],
+      "also": [
+        148
+      ],
+      "known": [
+        149
+      ],
+      "Khmer": [
+        151
+      ],
+      "and,": [
+        152
+      ],
+      "very": [
+        153
+      ],
+      "significantly,": [
+        154
+      ],
+      "Mon.": [
+        156
+      ],
+      "Its": [
+        157
+      ],
+      "origin": [
+        158
+      ],
+      "partly": [
+        163,
+        169
+      ],
+      "ancient": [
+        165
+      ],
+      "canonical": [
+        166
+      ],
+      "texts": [
+        167
+      ],
+      "death": [
+        171
+      ],
+      "rituals": [
+        172
+      ],
+      "developed": [
+        174
+      ],
+      "Peninsular": [
+        176
+      ],
+      "Southeast": [
+        177
+      ],
+      "Asia": [
+        178
+      ],
+      "from": [
+        179
+      ],
+      "non-Buddhist": [
+        182
+      ],
+      "beliefs.": [
+        183
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2012,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-26T07:47:46.906454",
+    "created_date": "2025-10-10T00:00:00"
+  }
+]

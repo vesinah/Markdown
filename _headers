@@ -1,0 +1,23 @@
+/*
+  X-Content-Type-Options: nosniff
+  Access-Control-Allow-Origin: *
+
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+  Content-Type: text/html; charset=utf-8
+
+/MDBrowse.html
+  Cache-Control: public, max-age=0, must-revalidate
+  Content-Type: text/html; charset=utf-8
+
+/catalog.json
+  Cache-Control: public, max-age=0, must-revalidate
+  Content-Type: application/json; charset=utf-8
+
+/docs/catalog.json
+  Cache-Control: public, max-age=0, must-revalidate
+  Content-Type: application/json; charset=utf-8
+
+/docs/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Content-Type: text/markdown; charset=utf-8

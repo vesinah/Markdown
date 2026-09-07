@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:ndl="http://ndl.go.jp/dcndl/terms" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:cir="https://cir.nii.ac.jp/schema/1.0/" xml:lang="ja">
+<channel rdf:about="https://cir.nii.ac.jp/opensearch/all?q=%E6%97%A5%E7%A7%B0%20%E8%A8%B3&amp;format=rss&amp;count=30">
+<title>CiNii Research all - 日称 訳 rss 30</title>
+<description>CiNii Research all - 日称 訳 rss 30</description>
+<link>https://cir.nii.ac.jp/opensearch/all?q=%E6%97%A5%E7%A7%B0%20%E8%A8%B3&amp;format=rss&amp;count=30</link>
+<dc:date>2026-08-25T23:20:14.406+09:00</dc:date>
+<opensearch:totalResults>18</opensearch:totalResults>
+<opensearch:startIndex>1</opensearch:startIndex>
+<opensearch:itemsPerPage>18</opensearch:itemsPerPage>
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970023484874806447"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970867909766659502"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971993809795295259"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970023484875437577"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970586434795005630"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971993809726785040"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970867909905550598"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971430859772619713"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970023484986177041"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970867909795900304"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970023484888315171"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971149384797047300"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971712334751833625"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1390001205814390400"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1971712334785221155"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970023484985492374"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970304959942055212"/>
+<rdf:li rdf:resource="https://cir.nii.ac.jp/crid/1970023484984750242"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970023484874806447">
+<title>父子合集經</title>
+<link>https://cir.nii.ac.jp/crid/1970023484874806447</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970023484874806447.rdf"/>
+<dc:creator>日稱</dc:creator>
+<dc:publisher>[三時學會]</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1935</prism:publicationDate>
+<description>影印宋藏遺珍, [上集第2函]</description>
+<dc:identifier rdf:datatype="cir:NCID">BB05693062</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BB05693062#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BB05693062#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970867909766659502">
+<title>諸法集要經</title>
+<link>https://cir.nii.ac.jp/crid/1970867909766659502</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970867909766659502.rdf"/>
+<dc:creator>日稱</dc:creator>
+<dc:publisher>[三時學會]</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1935</prism:publicationDate>
+<description>影印宋藏遺珍, [上集第2函]</description>
+<dc:identifier rdf:datatype="cir:NCID">BB05692376</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BB05692376#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BB05692376#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971993809795295259">
+<title>諸法集要經楞伽經補遺合刊</title>
+<link>https://cir.nii.ac.jp/crid/1971993809795295259</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971993809795295259.rdf"/>
+<dc:creator>日稱</dc:creator>
+<dc:creator>徳清</dc:creator>
+<dc:publisher>新文豐出版</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1977</prism:publicationDate>
+<dc:identifier rdf:datatype="cir:NCID">BA8867505X</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BA8867505X#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BA8867505X#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970023484875437577">
+<title>父子合集經 . 須摩提經 . 阿彌陀佛説呪 . 佛説佛名經</title>
+<link>https://cir.nii.ac.jp/crid/1970023484875437577</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970023484875437577.rdf"/>
+<dc:creator>日称</dc:creator>
+<dc:creator>Bodhiruci</dc:creator>
+<dc:publisher>[濵田篤三郎]</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1905</prism:publicationDate>
+<description>大日本續藏經 : 靖國紀念 / 前田慧雲編, 第1輯第1套第1冊 ; 印度撰述 經部</description>
+<dc:identifier rdf:datatype="cir:NCID">BA34084195</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BA34084195#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BA34084195#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970586434795005630">
+<title>福蓋正行所集經 . 釋摩訶衍論 . 十二禮</title>
+<link>https://cir.nii.ac.jp/crid/1970586434795005630</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970586434795005630.rdf"/>
+<dc:creator>Nāgārjuna, 2nd cent.</dc:creator>
+<dc:creator>日称</dc:creator>
+<dc:creator>Vṛddhimata</dc:creator>
+<dc:creator>Jñānagupta</dc:creator>
+<dc:publisher>涵芬樓</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1923</prism:publicationDate>
+<description>續藏經 / [(日本)前田慧雲編], 第1輯第2套第2冊</description>
+<dc:identifier rdf:datatype="cir:NCID">BB21649651</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BB21649651#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BB21649651#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971993809726785040">
+<title>父子合集經 . 須摩提經 . 阿彌陀佛説呪 . 佛説佛名經</title>
+<link>https://cir.nii.ac.jp/crid/1971993809726785040</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971993809726785040.rdf"/>
+<dc:creator>日称</dc:creator>
+<dc:publisher>涵芬樓</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1923</prism:publicationDate>
+<description>續藏經 / [(日本)前田慧雲編], 第1輯第1套第1冊</description>
+<dc:identifier rdf:datatype="cir:NCID">BB2164734X</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BB2164734X#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BB2164734X#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970867909905550598">
+<title>福蓋正行所集經 . 釋摩訶衍論 . 十二禮</title>
+<link>https://cir.nii.ac.jp/crid/1970867909905550598</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970867909905550598.rdf"/>
+<dc:creator>Nāgārjuna, 2nd cent.</dc:creator>
+<dc:creator>日称</dc:creator>
+<dc:creator>Vṛddhimata</dc:creator>
+<dc:creator>Jñānagupta</dc:creator>
+<dc:publisher>[濵田篤三郎]</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1905</prism:publicationDate>
+<description>大日本續藏經 : 靖國紀念 / 前田慧雲編, 第1輯第2套第2冊 ; 印度撰述 論集部</description>
+<dc:identifier rdf:datatype="cir:NCID">BA34092229</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BA34092229#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BA34092229#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971430859772619713">
+<title>大乘集菩薩學論 25巻</title>
+<link>https://cir.nii.ac.jp/crid/1971430859772619713</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971430859772619713.rdf"/>
+<dc:creator>法護</dc:creator>
+<dc:creator>日稱</dc:creator>
+<dc:creator>鉄眼道光</dc:creator>
+<dc:publisher>[黄檗山寶藏院]</dc:publisher>
+<dc:type>Book</dc:type>
+<dc:identifier rdf:datatype="cir:NCID">BB19297416</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BB19297416#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BB19297416#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970023484986177041">
+<title>根本説一切有部毗奈耶出家事 ; 根本説一切有部毗奈耶安居事 ; 根本説一切有部毗奈耶隨意事 ; 根本説一切有部毗奈耶皮革事 ; 根本説一切有部毗奈耶羯耻那衣事 . 六趣輪迴經 ; 尼乾子問無我義經 . 諸法集要經 . 福蓋正行所集經</title>
+<link>https://cir.nii.ac.jp/crid/1970023484986177041</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970023484986177041.rdf"/>
+<dc:creator>義浄</dc:creator>
+<dc:creator>Aśvaghoṣa</dc:creator>
+<dc:creator>日称</dc:creator>
+<dc:creator>無畏</dc:creator>
+<dc:creator>Nāgārjuna, 2nd cent.</dc:creator>
+<dc:publisher>涵芬樓</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1923</prism:publicationDate>
+<description>續藏經 / [(日本)前田慧雲編], 第1輯第2套第1冊</description>
+<dc:identifier rdf:datatype="cir:NCID">BB21649491</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BB21649491#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BB21649491#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970867909795900304">
+<title>根本説一切有部毗奈耶出家事 ; 根本説一切有部毗奈耶安居事 ; 根本説一切有部毗奈耶隨意事 ; 根本説一切有部毗奈耶皮革事 ; 根本説一切有部毗奈耶羯耻那衣事 . 六趣輪迴經 ; 尼乾子問無我義經 . 諸法集要經 . 福蓋正行所集經</title>
+<link>https://cir.nii.ac.jp/crid/1970867909795900304</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970867909795900304.rdf"/>
+<dc:creator>義浄</dc:creator>
+<dc:creator>Aśvaghoṣa</dc:creator>
+<dc:creator>日称</dc:creator>
+<dc:creator>無畏</dc:creator>
+<dc:creator>Nāgārjuna, 2nd cent.</dc:creator>
+<dc:publisher>[濵田篤三郎]</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1905</prism:publicationDate>
+<description>大日本續藏經 : 靖國紀念 / 前田慧雲編, 第1輯第2套第1冊 ; 印度撰述 律部, 論集部</description>
+<dc:identifier rdf:datatype="cir:NCID">BA34089734</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BA34089734#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BA34089734#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970023484888315171">
+<title>迦丁比丘説當來變經 1巻坿音釋 . 雜譬喩經 1巻坿音釋 . 思惟要略法 . 十二遊經 . 賢聖集迦陀一百頌 . 廣大發願頌 . 無能勝大明陀羅尼經 ; 無能勝大明心陀羅尼經 . 十不善業道經 1巻坿音釋</title>
+<link>https://cir.nii.ac.jp/crid/1970023484888315171</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970023484888315171.rdf"/>
+<dc:creator>Lokakṣema</dc:creator>
+<dc:creator>Kumārajīva, d. 412?</dc:creator>
+<dc:creator>kālodaka</dc:creator>
+<dc:creator>天息災</dc:creator>
+<dc:creator>Nāgārjuna, 2nd cent.</dc:creator>
+<dc:creator>Dānapāla, 10th cent</dc:creator>
+<dc:creator>Dharmadeva</dc:creator>
+<dc:creator>Aśvaghoṣa</dc:creator>
+<dc:creator>日稱</dc:creator>
+<dc:publisher>[黄檗山寶藏院]</dc:publisher>
+<dc:type>Book</dc:type>
+<dc:identifier rdf:datatype="cir:NCID">BB16997331</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BB16997331#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BB16997331#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971149384797047300">
+<title>迦丁比丘説當來變經 . 雜譬喩經 . 思惟要略法 . 十二遊經 . 賢聖集伽陀一百頌 . 廣大發願頌 . 無能勝大明陀羅尼經 ; 無能勝大明心陀羅尼經 . 十不善業道經</title>
+<link>https://cir.nii.ac.jp/crid/1971149384797047300</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971149384797047300.rdf"/>
+<dc:creator>Lokakṣema</dc:creator>
+<dc:creator>Kumārajīva, d. 412?</dc:creator>
+<dc:creator>迦留陀伽</dc:creator>
+<dc:creator>天息災</dc:creator>
+<dc:creator>Dānapāla, 10th cent</dc:creator>
+<dc:creator>法天</dc:creator>
+<dc:creator>日稱</dc:creator>
+<dc:creator>鉄眼道光</dc:creator>
+<dc:publisher>[黄檗山寶藏院]</dc:publisher>
+<dc:type>Book</dc:type>
+<dc:identifier rdf:datatype="cir:NCID">BB23205025</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BB23205025#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BB23205025#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971712334751833625">
+<title>那先比丘經 . 舊雜譬喩經 . 百喩經 . 法句經 . 雜譬喩經 . 阿育王息壞目因縁經 . 雜譬喩經 . 無明羅刹集 . 文殊所説最勝名義經 . 迦丁比丘説當來變經 . 雜譬喩經 . 廣大發願頌 . 無能勝大明陀羅尼經 ; 無能勝大明心陀羅尼經 . 十不善業道經</title>
+<link>https://cir.nii.ac.jp/crid/1971712334751833625</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971712334751833625.rdf"/>
+<dc:creator>康僧會</dc:creator>
+<dc:creator>安, 世高</dc:creator>
+<dc:creator>Saṅghasena</dc:creator>
+<dc:creator>Gunavrddhi.</dc:creator>
+<dc:creator>Dharmatrāta</dc:creator>
+<dc:creator>維祇難</dc:creator>
+<dc:creator>Vighna</dc:creator>
+<dc:creator>道略</dc:creator>
+<dc:creator>Dharmanandi</dc:creator>
+<dc:creator>金總持</dc:creator>
+<dc:creator>Lokakṣema</dc:creator>
+<dc:creator>天息災</dc:creator>
+<dc:creator>Nāgārjuna, 2nd cent.</dc:creator>
+<dc:creator>Dānapāla, 10th cent</dc:creator>
+<dc:creator>法天</dc:creator>
+<dc:creator>Aśvaghoṣa</dc:creator>
+<dc:creator>日稱</dc:creator>
+<dc:publisher>[濵田篤三郎]</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1904</prism:publicationDate>
+<description>大藏經 : 日本校訂, 第26套</description>
+<dc:identifier rdf:datatype="cir:NCID">BA33823544</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BA33823544#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BA33823544#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1390001205814390400">
+<title>宋代日称等の仏典翻訳に於ける一特色</title>
+<link>https://cir.nii.ac.jp/crid/1390001205814390400</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1390001205814390400.rdf"/>
+<dc:type>Article</dc:type>
+<dc:creator>森口 光俊</dc:creator>
+<dc:publisher>智山勧学会</dc:publisher>
+<prism:publicationName>智山学報</prism:publicationName>
+<prism:issn>02865661</prism:issn>
+<prism:volume>27</prism:volume>
+<prism:number>0</prism:number>
+<prism:startingPage>A1</prism:startingPage>
+<prism:endingPage>A17</prism:endingPage>
+<prism:publicationDate>1978</prism:publicationDate>
+<description>資料形態 : テキストデータ プレーンテキスト</description>
+<dc:identifier rdf:datatype="cir:DOI">10.18963/chisangakuho.27.0_a1</dc:identifier>
+<dc:identifier rdf:datatype="cir:NDL_BIB_ID">1875014</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">http://id.ndl.go.jp/bib/1875014</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ndlsearch.ndl.go.jp/books/R000000004-I1875014</dc:identifier>
+<dc:identifier rdf:datatype="cir:NAID">110009846322</dc:identifier>
+<dc:source rdf:resource="http://id.ndl.go.jp/bib/1875014"/>
+<dc:source rdf:resource="https://ndlsearch.ndl.go.jp/books/R000000004-I1875014"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1971712334785221155">
+<title>聖觀自在菩薩功徳讃 . 讃觀世音菩薩頌 . 佛説聖觀自在菩薩梵讃 . 聖多羅菩薩梵讃 . 事師法五十頌 . 犍椎梵讃</title>
+<link>https://cir.nii.ac.jp/crid/1971712334785221155</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1971712334785221155.rdf"/>
+<dc:publisher>[文物出版社]</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1989</prism:publicationDate>
+<description>[乾隆版大藏经], 2847</description>
+<dc:identifier rdf:datatype="cir:NCID">BD08977526</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BD08977526#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BD08977526#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970023484985492374">
+<title>七佛讃唄伽陀 . 佛三身讃 . 佛一百八名讃經 . 聖救度佛母二十一種禮讃經 . 佛説一切如來頂輪王一百八名讃 ; 讃法界頌 : 八十七頌 . 八大靈塔梵讃 ; 三身梵讃 . 佛説文殊師利一百八名梵讃 . 曼殊室利菩薩吉祥伽陀 ; 聖金剛手菩薩一百八名梵讃 . 聖觀自在菩薩功徳讃 . 讃觀世音菩薩頌 . 佛説聖觀自在菩薩梵讃 . 聖多羅菩薩梵讃 . 事師法五十頌 . 犍椎梵讃</title>
+<link>https://cir.nii.ac.jp/crid/1970023484985492374</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970023484985492374.rdf"/>
+<dc:creator>法天</dc:creator>
+<dc:creator>法賢</dc:creator>
+<dc:creator>安藏</dc:creator>
+<dc:creator>Dānapāla, 10th cent</dc:creator>
+<dc:creator>慧智</dc:creator>
+<dc:creator>日稱</dc:creator>
+<dc:creator>鉄眼道光</dc:creator>
+<dc:publisher>[黄檗山寶藏院]</dc:publisher>
+<dc:type>Book</dc:type>
+<dc:identifier rdf:datatype="cir:NCID">BB19200822</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BB19200822#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BB19200822#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970304959942055212">
+<title>佛説持明藏瑜伽大教尊那菩薩大明成就儀軌經 . 佛説金剛香菩薩大明成就儀軌經 . 金剛薩埵説頻那夜迦天成就儀軌經 . 佛説大悲空智金剛大教王儀軌經 . 佛説幻化網大瑜伽教十忿怒明王大明觀想儀軌經 ; 佛説妙吉祥瑜伽大教金剛陪囉嚩輪觀想成就儀軌經 . 底哩三昧耶不動尊威怒王使者念誦法 ; 聖迦抳忿怒金剛童子菩薩成就儀軌經 . 七佛讚唄伽他 . 佛三身讚 . 佛一百八名讚 . 聖救度佛母二十一種禮讚經 . 犍椎梵讚</title>
+<link>https://cir.nii.ac.jp/crid/1970304959942055212</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970304959942055212.rdf"/>
+<dc:creator>Nāgārjuna, 2nd cent.</dc:creator>
+<dc:creator>法賢</dc:creator>
+<dc:creator>Dānapāla, 10th cent</dc:creator>
+<dc:creator>法護</dc:creator>
+<dc:creator>不空</dc:creator>
+<dc:creator>法天</dc:creator>
+<dc:creator>安藏</dc:creator>
+<dc:creator>慧智</dc:creator>
+<dc:creator>Aśvaghoṣa</dc:creator>
+<dc:creator>日稱</dc:creator>
+<dc:publisher>濵田篤三郎</dc:publisher>
+<dc:type>Book</dc:type>
+<prism:publicationDate>1903</prism:publicationDate>
+<description>大藏經 : 日本校訂, 第16套</description>
+<dc:identifier rdf:datatype="cir:NCID">BA33649298</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BA33649298#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BA33649298#entity"/>
+</item>
+<item rdf:about="https://cir.nii.ac.jp/crid/1970023484984750242">
+<title>七佛讃唄伽陀</title>
+<link>https://cir.nii.ac.jp/crid/1970023484984750242</link>
+<rdfs:seeAlso rdf:resource="https://cir.nii.ac.jp/crid/1970023484984750242.rdf"/>
+<dc:creator>法天</dc:creator>
+<dc:creator>法賢</dc:creator>
+<dc:creator>安蔵</dc:creator>
+<dc:creator>慧智</dc:creator>
+<dc:creator>施護</dc:creator>
+<dc:publisher>[書写者不明]</dc:publisher>
+<dc:type>Book</dc:type>
+<description>佛三身讃, (宋)法賢譯, ブツサンシン サン</description>
+<dc:identifier rdf:datatype="cir:NCID">BB16712067</dc:identifier>
+<dc:identifier rdf:datatype="cir:URI">https://ci.nii.ac.jp/ncid/BB16712067#entity</dc:identifier>
+<dc:source rdf:resource="https://ci.nii.ac.jp/ncid/BB16712067#entity"/>
+</item>
+</rdf:RDF>

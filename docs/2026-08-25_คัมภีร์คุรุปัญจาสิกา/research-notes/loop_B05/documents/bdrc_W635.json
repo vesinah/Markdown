@@ -1,0 +1,134 @@
+{ 
+  "http://purl.bdrc.io/resource/W635" : { 
+    "http://purl.bdrc.io/ontology/core/inCollection" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/PR3KG13"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/PR01JW33478"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/PR00DCN61"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/PR3JW7543"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/instanceReproductionOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/MW635"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/instanceHasVolume" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1078"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1067"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1066"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1077"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1069"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1068"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1079"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1074"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1073"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1076"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1065"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1075"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1081"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1070"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1080"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1072"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1082"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/I1KG1071"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/Instance"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/DigitalInstance"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/ontology/core/ImageInstance"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/tmp/thumbnailIIIFService" : [ { 
+      "type" : "uri" ,
+      "value" : "https://iiif.bdrc.io/bdr:I1KG1065::I1KG10650003.tif"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/scanInfo" : [ { 
+      "type" : "literal" ,
+      "value" : "Scanned at Tibetan Buddhist Resource Center, 150 West 17th St, New York City, NY 10011, US. Comments: 2008" ,
+      "lang" : "en"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://purl.bdrc.io/resource/WA20510"
+    }
+     ] ,
+    "http://purl.bdrc.io/ontology/core/numberOfVolumes" : [ { 
+      "type" : "literal" ,
+      "value" : "18" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+     ]
+  }
+}

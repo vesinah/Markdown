@@ -1,0 +1,200 @@
+Title: plm2017_scopingworkshopreport_0.pdf
+
+URL Source: https://www.ifla.org/wp-content/uploads/files/assets/hq/plm2017_scopingworkshopreport_0.pdf
+
+Published Time: Thu, 26 Aug 2021 12:28:46 GMT
+
+Number of Pages: 9
+
+Markdown Content:
+1
+
+# THE SCOPING IFLA WORKSHOP ON PALM LEAF MANUSCRIPTS 
+
+# PRESERVING 
+
+# CULTURAL HERITAGE 
+
+# 22 November 2017 2
+
+# PREFACE 
+
+This is the final report on the findings of the workshop held to scope the problems of metadata and digitisation standards for palm leaf manuscripts (PLMs) encountered by librar-ies and holders of PLM collections throughout the South Asia and South-East Asia region. The workshop brought together experts from libraries hosting PLM collections in the region as well as some international experts. The workshop was facilitated by two experts on PLM metadata development from Thailand, who also wrote the background paper used as the basis of the discussion. 
+
+People present: 
+
+The following were present at the workshop and contributed to the discussions: 
+
+1. Maja Zumer (IFLA Representative) 
+
+2. Assoc. Prof. Dr.Lampang Manmart (Facilitator From Khon Kaen University, Thailand) 
+
+3. Dr.Nisachol Chamnongsri (Facilitator From Suranaree University of Technol-ogy, Thailand) 
+
+4. Prof. Dr. Robert Fuchs (Technical University of Cologne, Germany) 
+
+5. Dr. Ramesh C. Gaur (Jawaharlal Nehru University) 
+
+6. David Wharton (National Library of Laos, Laos) 
+
+7. Dr. Rujaya Abhakorn (SEAMEO SPAFA) 
+
+8. Aditia Gunawan (National Library of Indonesia) 
+
+9. Prof.Dr. WA Weerasooriya (University Kelaniya, Sri Lanka) 
+
+10. Sunil Walimunige (National Library of Sri Lanka) 
+
+11. Udaya Cabral (National Library of Sri Lanka) 
+
+12. Premila Gamage (IPSIFCA/AO, Sri Lanka) 
+
+13. G.D. Amarasiri (Observer, National Library of Sri Lanka) 
+
+14. Asst.Prof.Dr.Vispat Chaichuay (Observer, Khon Kaen University, Thailand) 
+
+15. Dr. Suprave Oonjan (Observer, Uttaradit Rajabhat University, Thailand) 3
+
+# CONTENTS 
+
+1 Introduction ................................................................................................ 4 
+
+I Background ......................................................................................................................................... 4 
+
+II  Brief description of the background paper  ............................................................................. 4 
+
+III  Aims and objectives of the workshop ................................................................................... 6 
+
+IV  Workshop Day 1- .......................................................................................................................... 6 
+
+IV  Workshop Day 2- .......................................................................................................................... 7 
+
+2 Preserving Palm Leaf Manauscripts ............................................................. 8 
+
+I Conclusion ........................................................................................................................................... 8 
+
+II  Key initial recommendations ....................................................................................................... 9 4
+
+# 1 Introduction 
+
+# I Background 
+
+Based on input from IFLA members in the South and South-East Asia region, IFLA decided to address the problems encountered by libraries and holders of PLMs collections throughout the region. Metadata and digitisation standards for PLMs are a problem faced by many librar-ies in the region. 
+
+PLMs are the ancient document form that account for a significant part of the documentary heritage of the people in these areas. These manuscripts contain a vast amount of knowledge on subjects such as Buddhism, Tradition and Beliefs, Customary Law, Traditional Medicine, Astrology, History, Folktales, etc. PLMs vary in size and styles, and each country has their unique characteristics. Currently, many PLMs preservation projects in South Asia and South-East Asia have attempted to collect PLMs which are scattered in many monasteries and have attempted to digitize those in their collections to make it easier for users to access and use them, and for project staff to translate and preserve the original PLMs. However, digitization and the subsequent organization of digitized PLMs have often been carried out using different standards or even with no standard at all, particularly with respect to the metadata that is fundamental in the management of digital collections. 
+
+A two-day workshop with 15 participants started with the background paper, using this as a basis to discuss the problems of preservation and accessibility encountered by the lack of a unified metadata standard to describe PLMs. The workshop concluded with recommenda-tions of how to approach the problems encountered in a practical and sustainable way. 
+
+# II Brief description of the background paper 
+
+1. The current situation – what metadata standards are used? Are there any standards which are already used more frequently than others? 
+
+A literature review and survey in April 2017 investigated the current metadata or description schemas that PLMs preservation projects use to describe PLMs in their collection. 16 projects were identified, and are included in this study. According to the 16 projects, we found that there is no standard used more frequently than others. However, there are 5 schemas found in this study; 
+
+1) The National Library of Thailand schema, used only in the projects of National Li-brary of Thailand. 
+
+2) The National Library of Laos schema; use by National Library of Laos; Lanna (North-ern Thailand) PLMs preservation project, Chiang Mai University and Isan (Northeastern Thai-land) PLMs preservation project, Mahasarakham University. 
+
+3) NMM metadata schema, used in their own projects. 
+
+4) KKUPLMMs, develop by Khon Kaen University. The development of KKUPLMMs based on the study of requirement from PLMs users, PLMs preservation projects in Thailand, and the characteristics of PLMs in Thailand. Then, applying IFLA FRBR model to extract PLMs metadata elements. After a few years’ implementation, it was revised in 2012 and 2015. 5
+
+5) MARC21, a library standard, found only Northern Illinois University (NIU) Library use it to describe PLMs. 
+
+There are 52 elements found from 16 projects, these can be separated into three groups; (1) physical characteristic is the biggest group with 20 elements, (2) bibliographic in-formation with 19 elements indicating the content, and (3) administrative information with 13 elements. The highest number of elements in one project is 30 elements, the second is 25 elements, and the third one is 19 elements. The smallest number is 7 elements. The biggest group is 16-19 elements, there are 8 projects in this group and all of them are the active projects, have been working on PLMs conservation for 10 years. When looking at the ele-ments, we found that most of them applied from the National Library of Laos schema and KKUPLMMs. 
+
+2. What are the restrictions with current metadata standards? 
+
+1) Each project has developed its own metadata based on missions of the projects and characteristics of the PLMs in its collection, leading to difference in element sets and meaning. 
+
+2) The existing description schemas are not suitable to describe the PLMs which can be complicated in both physical and content. 
+
+3) As most PLMprojects are conservation projects, they pay attention to physical char-acteristics and physical condition rather than content description. It creates problems for the users searching for the desired content recorded in the PLMs. 
+
+4) The PLMs were recorded in archaic scripts and languages of each area, and PLMs in each country have their specific characteristics, describing them is time consuming and need experts to consult. Besides, the value ranges and meaning should be defined for the uni-formity and understanding. 
+
+3. What are the restrictions in the region to create a joint metadata framework for palm leaf manuscripts to ensure access? 
+
+1) There are no PLM centres or formal networks in each country to coordinate work and develop a PLM description schema. If we can set up the network, we can share experi-ences and develop a PLM metadata standard and other related standards. 
+
+2) The different purposes of the different projects; to collect, to translate into modern language, to conserve as an antique rather than the information resource, to disseminate etc. are also associated with different metadata requirements. 
+
+3) There is a small number of experts in archaic languages, while there is a large num-ber of PLMs scattered across the world to register. As a result, it is difficult to get complete metadata. 
+
+4) A lack of experts in metadata development to consult, means that the resulting metadata schema is less useful, and more insufficient, with it being difficult to understand the meaning, and difficult to use. 
+
+4. How can all challenges and restrictions be overcome? 
+
+1) PLMs preservation projects in the region should arrange meetings, workshops, or seminars to discuss and develop a metadata schema and other standards for the PLMs (both 6
+
+original and reproductions), and to define the core elements to describe the PLMs (content, context, and physical characteristics). 
+
+2) Do research based on the research framework from this workshop or the element set that we are going to set up. Then establish a PLM metadata application profile and PLM metadata registry. Therefore, we can share and reuse PLM information based on the same standard. 
+
+3) Furthermore, enhance regional cooperation between organizations working with PLMs in the area and form a stronger and more resilient network across the region. 
+
+4) Promote the developed PLMs metadata schema to describe PLMs. This way, PLMs can be accessed across the region and can be shared and reused both all metadata, content, and full PLMs. Then, researchers, students and people who are interested in PLMs in the re-gion and from other parts of the world can access, use, and share their memories, knowledge, and cultures; and to preserve the PLMs for the future. 
+
+5. What problems are created by the lack of a unified metadata standard? 
+
+Without any standard, the bibliographic information or descriptive metadata provided by dif-ferent projects may embed differences in semantics that make two records incompatible. Creating PLMs metadata standard is good for information sharing or interoperability. Besides, other forms of metadata, including structural and administrative metadata, also play im-portant roles in the management of digital collections but are often not considered. 
+
+# III Aims and objectives of the workshop 
+
+1. To enhance regional cooperation between libraries and librarians working with PLMs in the area and form a stronger and a more resilient network across the region. 
+
+2. To scope the problems of Metadata and digitisation standards for PLMs encountered by libraries and holders of palm leaf manuscript collections throughout the region. 
+
+# IV Workshop Day 1-
+
+All participants agreed that creating a PLMs metadata standard is good for information shar-ing or interoperability, although most of the participants said that their metadata schema is suitable to describe their collection and their users are happy to search the existed online PLMs databases. However, moving large amounts of PLM records to the new system is not easy, and it is time consuming. Conversely, participants from new projects and upcoming pro-jects would prefer to use the standard. 
+
+For the current use of PLMs metadata schemas in the region, the participants were requested to confirm the information in background paper and gave more detail about their project. 
+
+The participants from India said that their project have tried to collect the PLMs and then conserve the physical condition of the PLMs before microfilming for conservation purpose. To support user access, they digitize the PLMs and use open soft software, DSpace (the infor-mation repository software) as an online database. National library of Laos also has a huge PLMs collection. They microfilm PLMs in their collection and then digitize the microfilm and develop an online database to allow easy access from anywhere and at any time. In Indonesia, 7
+
+the National library of Indonesia has assigned many places in Indonesia to hold the collection. However, PLMs are a small collection, therefore, the national library of Indonesia put the PLMs metadata in Library OPAC. In Sri Lanka, the national library has a PLMs conservation and digitization project, but currently they have not set up any standard for the PLMs. In Thailand, there are two main groups working on PLMs preservation: universities and national libraries, where PLMS are both digitized and microfilmed. However, there are only 2 projects that de-velop online databases and open to public access. 
+
+About PLMs metadata, the participants from India said that their project applies the National Mission for Manuscripts metadata schema to describe PLM in their collection. The National library of Thailand applies the PLM description schema from AACR2. The National library of Laos and two projects in the North of Thailand apply metadata schema from each other, while the National Library of Indonesia uses the library system, MARC 21 to describe the PLMs. They treat PLMs as an information resource. 
+
+# IV Workshop Day 2-
+
+As a result of day 1, the participants agreed to work towards metadata standard for PLMs management. They also approved that the developing framework of metadata schema pre-sented in the background paper is a good and efficient method. User study would also be very important. However, it probably takes very long time to collect data from the ground. 
+
+At the early stage, the group has decided to set the core elements for a metadata standard by extracting the core elements from 16 projects, and then analysing and synthesising metadata elements. These elements are currently used in the world today, as shown in table 2 in the background paper. They suggested that basically, the PLM metadata standard should be able to support PLMs management in terms of PLM access and preservation. The group had a long discussion, and finally, they were able to make a draft of elements and its ’ defini-tion as an initial metadata framework for PLMs management (as shown in appendix). The core elements contains 39 elements divided into 3 groups by functions; 15 elements for sup-porting PLMs access; 15 elements for management; and 9 elements for supporting collection administration. It is not a complete scheme, but it is the beginning for continuing develop-ment. 8
+
+# 2 Preserving Palm Leaf 
+
+# Manauscripts 
+
+# I Conclusion 
+
+This workshop presents the overview of current situation of PLMs management in each coun-try in South and South-East Asia region, since the participants have discussed and exchanged the information, it may be concluded that PLMs are essential manuscripts in Asian countries .
+
+Nowadays, this kind of manuscript is managed and preserved as cultural heritage. 
+
+However, the data from participants’ discussions and contributions shows that in each coun-try, PLM types and characteristics are slightly different, particularly, script and forms. From a PLM management perspective, it was found that even the PLMs storage place, i.e., temple, national libraries, local museum, are similar in each country, whereas the method and the way of management is quite different. These manuscripts have been preserved in microfilm and some of them are digitized to be preserved in digital files. 
+
+They developed their own metadata to manage the PLM collection. Mostly the developed metadata schemes were applied or modified from international standard to make it suitable for managing palm leaf manuscript and its content in their contexts. These initiated metadata induced various problems when they were used, such as one element has more than one meaning and also has more than one terms. And because of the complicated of the PLMs in both physical and content. One PLMs could be included more than one stories, and one story could be recorded in more than one fascicles. Moreover, one PLM could have more than one version and format. Therefore, the old catalogue or registration system which describe re-source in a level of item is not suitable for the PLMs digital collection 
+
+From the discussion of the participants, it was strongly agreed to jointly develop draft metadata standard for PLMs management. At the beginning, the participants suggested cre-ating core metadata elements framework which can support two main functions of PLMs management: preservation and access. However, the important data for setting metadata requirement should come from the involved people’s behaviour; these people include PLMs users such as historian, researchers in various fields, academics, graduate student and people who work with PLMs collection such as librarians, information scientists, curators and experts in ancient languages, etc. 
+
+In order to initiate metadata standard by creating the metadata information framework, the participants decided to use metadata elements which were analysed from the elements used in 16 projects (as shown in the background paper), as a guideline for selecting the core ele-ments of metadata for PLM management. The principle of selecting metadata elements based on PLM management functions are: preservation and access. 9
+
+After discussion and consideration, the participation group created the first draft of metadata core elements which contains 39 elements divided into 3 groups by functions; 15 elements for supporting PLMs access; 15 elements for management; and 9 elements for supporting collection administration. The 39 elements provide definitions and explanation. 
+
+# II Key initial recommendations 
+
+During the workshop the participants of the workshop have recommended IFLA as follows: 
+
+1. IFLA should kindly be cooperating organizations to develop metadata standards for PLM Management by playing an active role the regional working group, which takes action in form of PLMs preservation project. 
+
+2. PLMs preservation projects in the region should arrange meetings, workshops, or seminars to discuss and develop metadata schema and other standards for the PLMs, both the original and reproduced versions by defining metadata standard continuing from the ini-tiated metadata framework from the workshop. The standard should describe the PLMs in content, context, and physical characteristics. 
+
+3. The experts from each country should reconsider and try to implement the setting metadata core elements in their own PLM management context, and consequently, making feedback problems and suggestion to the group. This information will be very useful for de-veloping the metadata standard for PLMs management which is flexible for application in each country. 
+
+4. The PLMs user’s behavior in each country should be investigated to obtain the data for setting basic requirements of PLMs metadata. 
+
+5. Research should be conducted based on the research framework from this work-shop or the element set we are going to set up, before a PLMs metadata application profile and PLMs metadata registry are established. Therefore, we can share and reuse PLMs infor-mation based on the same standard. 
+
+6. Next, development of a PLMs metadata schema should be promoted to describe the PLMs. Therefore, PLMs can be accessed across the region and can be shared and reused including: all metadata, content, and full PLMs. Then, researchers, students and people who are interested in PLMs in the region and from other parts of the world can access, use, and share their memories, knowledge, and cultures; and to preserve the PLMs for the future.

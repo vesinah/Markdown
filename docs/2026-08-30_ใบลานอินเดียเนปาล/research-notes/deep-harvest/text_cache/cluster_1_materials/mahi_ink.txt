@@ -1,0 +1,444 @@
+# SOURCE FILE: mahi_ink.pdf
+# ORIGINAL PATH: d:\01_APP\Research\output\palmleaf_india_nepal\research-notes\loop_A05\documents\mahi_ink.pdf
+# CLUSTER: cluster_1_materials (1. วัสดุศาสตร์ หมึก และการอนุรักษ์เชิงเคมี)
+# PAGES: 5 | TOTAL CHARS: 19967
+
+=== PAGE 1 ===
+RESEARCH COMMUNICATIONS 
+ 
+CURRENT SCIENCE, VOL. 112, NO. 3, 10 FEBRUARY 2017 
+591
+*For correspondence. (e-mail: robind@tezu.ernet.in) 
+both the kaTapayAdi and ArybhaTa’s systems. This pro-
+tocol is reliable and free from any kind of defect. It will 
+go a long way in helping researchers in the field of  
+history of Indian mathematics and astronomy, who con-
+stantly deal with such decryption processes. The auto-
+mated process would not only render correctly decoded 
+numbers, but will also speed-up the research work.  
+ 
+ 
+1. Kim, P., Indian mathematics in the West. In Mathematics in India, 
+Princeton University Press, New Jersey, USA, 2009, p. 205. 
+2. LabVIEW User Manual, National Instruments Corporation, USA, 
+2009. 
+3. Ramasubramanian, K. and Sriram, M. S., Tantrasa~Ngraha of 
+NılakaNTha SomayAjI Translated with Mathematical Notes, HBA, 
+Delhi and Springer, London, 2011. 
+4. Sriram, M. S. and Venketeswara Pai, R., Use of continued fractions 
+in karaNapaddhati. Ganita Bharati, 2012, 34(1–2), 137–160. 
+5. Yadav, B. S., Ancient Indian Leaps into Mathematics, Springer, 
+2010, p. 88. 
+6. Krishnaswami Ayyangar, A. A., The mathematics of Aryabhata. Q. 
+J. Mythic Soc., 1926, 16, 158. 
+ 
+ 
+ACKNOWLEDGEMENTS. We thank SASTRA University, Thanja-
+vur for infrastructure, particularly for the purchase of LabVIEW soft-
+ware used in this work.  
+ 
+ 
+Received 22 October 2015; revised accepted 16 August 2016 
+ 
+ 
+doi: 10.18520/cs/v112/i03/588-591 
+ 
+ 
+ 
+ 
+ 
+Mahi: a unique traditional herbal ink  
+of early Assam 
+ 
+Barsha R. Goswami1, Monoj K. Das2,  
+Pranjal P. Das2, Tapas Medhi2, Anand Ramteke2  
+Simanta Hazarika3 and Robin K. Dutta1,* 
+1Department of Chemical Sciences and 
+2Department of Molecular Biology and Biotechnology,  
+Tezpur University, Tezpur 784 028, India 
+3Department of Physics, Gauhati University, Guwahati 781 014, India 
+ 
+Mahi, a unique herbal ink prepared with cow urine as 
+extractant, was used for manuscript writing in early 
+Assam. The ink had a deep and fast colour and was 
+persistent on Sancipat manuscripts due to its re-
+sistance to aerial oxidation and fungi. It was also non-
+corrosive unlike the corrosive acidic iron gall ink of 
+contemporary Europe. The present study was aimed 
+at analysing the physico-chemical properties of Mahi, 
+including its special properties. The study includes 
+phytochemical analysis, antimicrobial assay, UV–
+visible with fluorescence analysis, iron and copper  
+estimation and identification of some polyphenols by 
+HPLC-UV. 
+ 
+Keywords: Ancient 
+manuscripts, 
+physico-chemical 
+properties, spectroscopic analysis, traditional herbal ink. 
+ 
+STUDY of ancient ink and paint may help retrieve useful 
+information regarding traditional practices in addition  
+to unfolding historical mysteries1–3. Modern ink is a com-
+plex mixture of pigments, dyes, solvents, resins, lubri-
+cants, 
+solubilizers, 
+surfactants, 
+particulate 
+matter, 
+fluorescents and other materials4. The primitive Egyptian 
+ink and Chinese ink were carbon-based with the carbona-
+ceous materials obtained from wood tar, burnt bone, lamp 
+shoots, pitch or charcoal. A carbon-based ink, Mashi, was 
+popular in ancient India, except in the eastern part, espe-
+cially Assam, where an herbal counterpart, called Mahi, 
+was popular till early 20th century AD5. An herbal ink, 
+known as gallotannate and iron gall ink (IGI), was widely 
+used in Europe since ancient times till the late 20th  
+century AD6. The major ingredients of IGI were tree galls, 
+green vitriol or copperas, gum arabic and water; wine, 
+beer, vinegar and boric acid were also used6. A very low 
+pH and excess iron of IGI degraded manuscripts written 
+on paper through acid hydrolysis of the glycosidic bond 
+and through hydroxyl radicals4,6. On the other hand, the 
+nondestructive nature of Mahi is proven by tens of thou-
+sands of centuries old Sancipat7 (a cellulosic folios made 
+of bark of sanci tree, Aquilaria agallocha) manuscripts, a 
+testimony of the rich literary and socio-cultural heritage, 
+still existing in Assam without losing the glaze of the ink 
+(Figure 1 and Figure S1 (see Supplementary Information 
+online))8. For preparation of Mahi, fruit-pulp of hilikha 
+(Terminalia chebula), amlakhi (Emblica officinalis) and 
+bhomora (Terminalia belerica), the bark of hilikha, bho-
+mora, mango (Magnifera indica), jamuk (Eugenia jambo-
+lana), bahat (monkey jack, Artocarpus lakoocha); and the 
+whole herb of keharaj (Eclipta alba), Bar manimuni 
+(Centella asiatica) and sharu manimuni (Hydrocoryl  
+rotundifolia) were mashed together and soaked in cow 
+urine in a new earthen pot during the foggy winter season 
+and kept away from direct sunlight7,9,10. The raw materi-
+als varied depending upon availability10. Red hot iron 
+tool was dipped into the mixture. Rust of iron nail or 
+blood of kuchiya (Monopterus cuchia, a kind of eel) or 
+hirakoch (Pangasius sutchi, a kind of cat fish) was also 
+added. Drops of clear Mahi percolate through the bottom 
+of the earthen pot in 9–10 days. There is hardly any sci-
+entific report available in the literature on the preparation 
+and properties of Mahi and its possible contribution to the 
+survival of Sancipat manuscripts for centuries in the hot 
+and humid climate of Assam10. It was therefore thought 
+worthwhile to carry out a scientific study of the composi-
+tion and physico-chemical behaviour of Mahi to explore 
+the associated traditional knowledge. 
+
+=== PAGE 2 ===
+RESEARCH COMMUNICATIONS 
+ 
+CURRENT SCIENCE, VOL. 112, NO. 3, 10 FEBRUARY 2017 
+592
+ 
+ 
+Figure 1. The top page of folio No. 172 from Adi Dashama copied with Mahi on Sancipat in AD 1799 preserved at Bengena Ati Satra in 
+Majuli Island of the Brahmaputra. For details see Figure S1 (Supplementary Information online). 
+ 
+ 
+ The study was carried out using a sample of Mahi (M1) 
+obtained from a practitioner11 of the manuscript-writing 
+tradition on Sancipat and a fresh model sample of Mahi 
+(M2) prepared under supervision of the practitioner. pH 
+of the Mahi samples after ten times dilution with distilled 
+water was found to be 7.1. The neutral pH of Mahi can be 
+attributed to the absence of any acidic ingredient in its 
+preparation unlike IGI. Due to the neutral pH, Mahi does 
+not corrode the cellulosic Sancipat unlike the corrosion of 
+cellulosic paper by acidic IGI. The phenolic acids of  
+Mahi are also likely to be neutralized by ammonia formed 
+from urea of cow urine12. M1 showed a partial inhibition 
+against F. oxysporum (MTCC-0284) after incubation at 
+24C for 48 h and 72 h, where 1 mg/ml of the liquid Mahi 
+sample was used, but did not show any inhibition against 
+C. albicans (MTCC-0227) (see Supplementary Informa-
+tion, Figure S2 online). The antifungal activity of Mahi is  
+expected from those of its raw materials, including cow 
+urine and may have a protective effect on cellulosic San-
+cipat against fungi abundant in hot and humid climate of  
+Assam13. 
+ The sample M2 was prepared following the traditional 
+recipe7,9,10 with pulp of hilikha and amlakhi; the whole 
+herb of keharaj and bark of mango tree in equal propor-
+tions by weight as herbal ingredients during foggy winter 
+at Tezpur. The ingredients were mashed together and put 
+in a new earthen pot. Then cow urine was added to com-
+pletely cover the herbal ingredients and a few rusted iron 
+nails were also added to the mixture. The colour of the 
+mixture turned intense blue–black after addition of the 
+nails, which may be attributed to the formation of iron–
+polyphenol complex. Drops of Mahi percolating down 
+from the pot were collected and preserved in plastic  
+bottles. A part of M2 was centrifuged and dried to  
+powder form in a lyophilizer. 
+ Reaction of Fe(II) with molecular oxygen is considered 
+to cause oxidative decomposition of cellulose by means 
+of highly reactive hydroxyl and hydroperoxide free radi-
+cals4. Hence, the iron content of M1 was determined  
+using atomic absorption spectroscopy as 5.4 mg/g of the 
+solid sample of Mahi, which is much less than 31.9 mg/g 
+reported for IGI14. A low iron content of Mahi is expected 
+as only a few rusted iron nails were used for its prepara-
+tion, unlike IGI where up to 15–20% green vitriol 
+(FeSO4  7H2O) was used. The small amount of iron in 
+Mahi remains complexed with polyphenols and may be 
+unavailable for reaction with molecular oxygen4. It may 
+be mentioned here that Cu ions from vitriol in IGI are  
+reported to have greater destructive effect on manuscripts 
+than those of iron15. M1 showed the presence of only 
+0.2 mg/g of Cu against 4.1 mg/g reported for IGI14. The 
+trace amount of Cu in Mahi, possibly of cow urine or 
+herbal origin, may also remain complexed with poly-
+phenols and hence cannot degrade the manuscript. 
+ The qualitative phytochemical analysis of the aqueous 
+extracts of powdered M2 showed the presence of flavon- 
+oids, tannins, fatty acids and resins as major components; 
+saponins, carbohydrates and steroids as minor compo-
+nents and absence of terpenoids16 (see Supplementary  
+Information, Figure S3 online). The sample gave a feel-
+ing of soapiness with formation of foam when water was 
+added to it and shaken. The observed surface-active na-
+ture of Mahi can be attributed to glycosidic biosurfac-
+tants, viz. saponins, which act as solubilizer, stabilizer 
+and binder in Mahi like the gum arabic or animal glue 
+counterparts in other contemporary inks4,6. The total phe-
+nolic content in the water extract of lyophilized M2 was 
+found to be 179.8  2.5 g gallic acid equivalents per 
+gram of lyophilized sample (g GAE/g) from Folin–
+Ciocalteau method using gallic acid as the standard17. The 
+total flavonoid content in the water extract of lyophilized 
+M2 was found to be 579.0  16.4 g epigallocatechin gal-
+late equivalents per gram of lyophilized sample (g 
+EGE/g) from aluminum chloride colorimetric method17. 
+An HPLC analysis of M2 showed the presence of gallic 
+acid (GA), epigallocatecin gallate (EG) and quercetin 
+
+=== PAGE 3 ===
+RESEARCH COMMUNICATIONS 
+ 
+CURRENT SCIENCE, VOL. 112, NO. 3, 10 FEBRUARY 2017 
+593
+ 
+ 
+Figure 2. HPLC of (a) gallic acid (GA), (b) epigallocatechin gallate (EG) and (c) quercetin (QC) recorded 
+at 275, 280 and 374 nm respectively; and of M2 recorded for detection of (d) GA, (e) EG and ( f ) QC at 
+275, 280 and 374 nm respectively. 
+ 
+ 
+ 
+ 
+Figure 3. UV–vis spectra of (a) GA, EG and QC, (b) their iron complexes and (c) M2. (Inset) (b, c) Expanded visible spectra of the complexes 
+and M2 respectively. 
+ 
+ 
+(QC) (Figure 2). Separation of the compounds was done 
+at the rate of 0.8 l/min, in isocratic elution mode, using 
+0.1% acetic acid in 69.9 : 30 water : methanol solvent. 
+Quantitative estimation showed the presence of small 
+amounts of GA compared to EG, with QC showing max-
+imum value. 
+ Figure 3 shows the UV–visible spectra of M2 along 
+with those spectra of its constituent polyphenols and their 
+complexes with iron6. A flat absorbance of M2 in the vis-
+ible region can be observed as expected from the black 
+colour of the ink. A broad shoulder from 420 to 750 nm, 
+which gradually decreases with increasing wavelength 
+can be attributted to the iron complexes of the poly-
+phenols, including GA, EG and QC6. It is interesting to 
+note the use of rusted iron or blood of some fishes as the 
+source of iron ions to intensify the colour of Mahi. 
+Though the ink is intense black, it turns reddish-brown in 
+very dilute aqueous solution (see Supplementary Infor-
+mation, Figure S4 online). The appearance of reddish-
+brown colour in highly diluted Mahi may be attributed to 
+
+=== PAGE 4 ===
+RESEARCH COMMUNICATIONS 
+ 
+CURRENT SCIENCE, VOL. 112, NO. 3, 10 FEBRUARY 2017 
+594
+ 
+ 
+Figure 4. Fluorescence spectra of GA, EG, QC and M2 recorded with excitation at 350, 400, 450 and 500 nm. 
+ 
+ 
+the gradually decreasing absorbance of the ink with in-
+creasing wavelength. 
+ Mahi shows fluorescence activity on irradiation of UV 
+light as well as visible light up to 500 nm (Figure 4), as 
+expected from the reported fluorescence activity of its 
+polyphenolic components, e.g. GA, EG and QC. Figure 4 
+shows the fluorescence spectra of these polyphenols 
+along with those of M2 recorded after excitation at 350, 
+400, 450 and 500 nm. We did not observe any fluores-
+cence of the ink when excited above 500 nm, which can 
+be attributed to the decrease in fluorescence activity upon 
+complexation18. The observed reddish-brown colour of 
+very dilute Mahi may also be attributted to fluoroscence 
+intensity of Mahi, which increases gradually with  
+decreasing wavelength. 
+ This study on Mahi provides insight regarding its com-
+position, and physico-chemical and biochemical proper-
+ties. The major phytochemical constituents in Mahi have 
+been identified as phenolic acids, flavonoids and tannins. 
+It has been observed that a small amount of iron sourced 
+from rusted iron nails intensifies the colour of the ink by 
+forming iron–polyphenol complex, thus imparting intense 
+black colour to Mahi. The Sancipat manuscripts written 
+with Mahi are free from destructive effects of acid  
+hydrolysis, oxidative decomposition by Fe or Cu, and 
+fungus, enabling them to survive for centuries in harsh 
+climate, unlike paper manuscripts written with IGI. Fluo-
+rescence of the uncomplexed polyphenols also contrib-
+utes to the glaze. Glycosidic biosurfactants of herbal 
+origin act as solubilizer, stabilizer and binder in Mahi, 
+like gum arabic or animal glue counterparts in other  
+contemporary inks. An observed, partial antifungal acti-
+vity of Mahi may have a protective effect on Sancipat 
+manuscripts. Thus, the present study has shown some  
+interesting facts about the composition, lusture, longivity, 
+antimicrobial activity and non-corrosiveness of Mahi. 
+Further work is in progress on upscaling the preparation 
+of Mahi, quantitative estimation of its chromogenic and 
+bioactive compounds, and detailed spectroscopic analysis. 
+ 
+ 
+1. Liu, Y., Zhang, C. and Zhou, L., Adoption of Chinese ink painting 
+elements in modern poster design inspired by innovation research 
+on physical and chemical reactions. Curr. Sci., 2015, 108, 2017–
+2022. 
+2. Haber, A., Blumich, B., Souvorova, D. and Federico, E. D.,  
+Ancient Roman wall paintings mapped nondestructively by porta-
+ble NMR. Anal. Bioanal. Chem., 2011, 401, 1441–1452. 
+3. Monico, L. et al., Evidence for degradation of chrome yellows in 
+Van Gogh’s Sunflowers. Angew. Chem. Int. Ed. Engl., 2015, 54, 
+13923–13927. 
+4. Matrin-Gil, J. and Ramos-Sabchez, M. G. F. J., Chemical compo-
+sition of a fountain pen ink. J. Chem. Educ., 2006, 83, 1476– 
+1478. 
+
+=== PAGE 5 ===
+RESEARCH COMMUNICATIONS 
+ 
+CURRENT SCIENCE, VOL. 112, NO. 3, 10 FEBRUARY 2017 
+595
+*For correspondence. (e-mail: nautiyalnbri@lycos.com) 
+5. Bhuyan, S. K., A note on Assamese manuscripts, In Descriptive 
+Catalogue of Assamese Manuscripts (ed. Goswami, H. C.), Cal-
+cutta University, Calcutta, 1930, pp. i–v. 
+6. Jancovicova, V., Ceppan, M., Havlinova, B., Rehacova, M. and 
+Jakubkova, Z., Interactions in iron gall inks. Chem. Pap., 2007, 
+61, 391–397. 
+7. Gait, E. A., A History of Assam, Thacker, Spink & Co, Calcutta, 
+1906. 
+8. National Mission for Manuscripts, National survey; http://www. 
+namami.org/nationalsurvey.htm (accessed on 20 February 2016). 
+9. Goswami, B., Traditional method of Sancipat making and prepara-
+tion of ink in ancient Assam, In Indigeneous Methods and Manu-
+script Preservation (ed. Sah, A.), DK Printworld, New Delhi, 
+2006, pp. 73–82. 
+10. Dutta, R. K., The science in the traditional manuscript-writing aids 
+of Assam: Sancipat, Mahi and Hengul-Haital. In Religious Tradi-
+tions and Social Practices in Assam (ed. Nath, D.), DVS Publish-
+ers, Guwahati, 2015, pp. 239–261. 
+11. As informed by M. M. Bora of Dhing, Assam, a practitioner of the 
+Sancipat manuscript tradition. He was also involved in a pro-
+gramme for the preservation of manuscripts. 
+12. Whitehead, D. C. and Raistrick, N., The volatilization of ammonia 
+from cattle urine applied to soil as influenced by soil properties. 
+Plant Soil, 1993, 148, 43–51. 
+13. Ray, P. G. and Majumdar, S. K., Antimicrobial activity of some 
+Indian plants. Econ. Bot., 1976, 30, 317–320. 
+14. Budnar, M., Simcic, J., Rupnik, Z., Ursic, M., Pelicon, P., Kolar, 
+J. and Strlic, M., In-air PIXE set-up for automatic analysis of  
+historical document inks. Nucl. Instrum. Methods B, 2006, 219–
+220, 41–47. 
+15. Kolar, J., Strlic, M., Budnar, M., Malesic, J., Selih, V. S. and 
+Simic, J., Stabilization of corrosive iron gall inks. Acta Chim. 
+Slov., 2003, 50, 763–770. 
+16. Harborne, A. J., Phytochemical Methods: A Guide to Modern 
+Techniques of Plant Analysis, Springer, The Netherlands, 1998, 
+pp. 40–159. 
+17. Lin, J. Y. and Tang, C. Y., Determination of total phenolic and 
+ﬂavonoid contents in selected fruits and vegetables, as well as 
+their stimulatory effects on mouse splenocyte proliferation. Food 
+Chem., 2007, 101, 140–147. 
+18. Dutta, A., Boruah, B., Saikia, P. M. and Dutta, R. K., Stabilization 
+of diketo tautomer of curcumin by premicellar cationic surfac-
+tants: UV–vis, fluorescence, tensiometric and TD-DFT evidences. 
+Spectrochim. Acta A, 2013, 104, 150–157. 
+ 
+ 
+ACKNOWLEDGEMENTS. R.K.D. thanks M. M. Bora, R. D. Gos-
+wami (Tezpur University) and D. Nath (Dibrugarh University) for help 
+and useful discussions. B.R.G. thanks Tezpur University for fellow-
+ship. 
+ 
+ 
+Received 19 April 2016; revised accepted 30 August 2016 
+ 
+ 
+doi: 10.18520/cs/v112/i03/591-595 
+ 
+Climate change-driven shifts in  
+elevation and ecophysiological traits of  
+Himalayan plants during the past  
+century 
+ 
+Priyanka Agnihotri1, Tariq Husain1,  
+Pramod Arvind Shirke2, Om Prakash Sidhu3,  
+Harsh Singh1, Veena Dixit1,  
+Anzar Ahmad Khuroo4,  
+Devindra Vijay Amla5 and  
+Chandra Shekhar Nautiyal6,* 
+1Plant Diversity, Systematics and Herbarium Division,  
+2Plant Physiology Department, and 
+3Phytochemistry Department, CSIR-National Botanical Research  
+Institute, Lucknow 226 001, India 
+4Centre for Biodiversity and Taxonomy, Department of Botany,  
+University of Kashmir, Srinagar 190 006, India 
+5CSIR-National Botanical Research Institute, Lucknow 226 001, India 
+6Division of Plant Microbial Interactions, CSIR-National Botanical  
+Research Institute, Lucknow 226 001, India 
+ 
+As broad-scale distributions of plants are shaped by 
+climatic conditions, changes of climate necessarily re-
+sult in shifts of distributional limits. These shifts are 
+closely coupled with changes in plant ecophysiology, 
+growth and productivity. Among environments sub-
+jected to the highest increase in temperature in the 
+last decade and the greatest expected warming pre-
+dicted for the future, high-mountain biomes belong to 
+the most frequently considered. Evidence for distribu-
+tional shifts has been mostly documented in European 
+and American mountains, while the largest and high-
+est mountainous areas are located in Asia. The present 
+study aims to detect climate change-driven shifts in el-
+evation and ecophysiological traits of endemic herb 
+species of Himalaya with the help of herbarium  
+specimens as potential tool. We observed significant 
+rapid upward elevational shift of 55.2 m/decade com-
+pared to average global shifting of 6.1 m/decade and 
+impulsive variations in secondary metabolite concen-
+tration. Significant negative relationship was found 
+for stomatal density,  13C with the lapse of years. 
+Analysis of instrumental temperature data reveals an 
+increase of 0.31C in mean maximum and 0.79C in 
+mean minimum temperature during the last century. 
+ 
+Keywords: Climate change, distributional shift,  13C, 
+Himalayan plants, metabolites, stomatal density. 
+ 
+LONG-TERM observations, experiments and modelling 
+studies have demonstrated significant changes in patterns 
+of global biodiversity in response to climate change1–4. In 
+particular, mountainous regions are predicted to be more 
+vulnerable for biodiversity loss due to fragmented eco-
+systems5. Recently, upward shifting of vegetation zones, 
+

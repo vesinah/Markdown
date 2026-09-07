@@ -68,6 +68,8 @@ export function renderTree(container) {
     let iconSvg = '';
     if (isLockedRoot) {
       iconSvg = '<svg class="ico" viewBox="0 0 16 16" width="15" height="15"><path fill="#eab308" fill-opacity=".25" stroke="#ca8a04" stroke-opacity=".9" d="M1.75 2.5h3.2c.2 0 .4.08.54.22l1.03 1.03H14.25c.41 0 .75.34.75.75v7.75a1.25 1.25 0 0 1-1.25 1.25H1.75A1.25 1.25 0 0 1 .5 12.25v-8.5a1.25 1.25 0 0 1 1.25-1.25Z"/></svg>';
+    } else if (isRoot && n.isRemote) {
+      iconSvg = '<svg class="ico" viewBox="0 0 16 16" width="15" height="15"><path fill="#0969da" fill-opacity=".22" stroke="#0969da" stroke-opacity=".9" d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.244a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.244a2.25 2.25 0 0 0-1.756.843l-.25.3a.75.75 0 0 1-1.012 0l-.25-.3A2.25 2.25 0 0 0 5.003 13H.75a.75.75 0 0 1-.75-.75V1.75Z"/></svg>';
     } else if (dir) {
       iconSvg = '<svg class="ico" viewBox="0 0 16 16" width="15" height="15"><path fill="var(--folder-stroke)" fill-opacity=".25" stroke="var(--folder-stroke)" stroke-opacity=".7" d="M1.75 2.5h3.2c.2 0 .4.08.54.22l1.03 1.03H14.25c.41 0 .75.34.75.75v7.75a1.25 1.25 0 0 1-1.25 1.25H1.75A1.25 1.25 0 0 1 .5 12.25v-8.5a1.25 1.25 0 0 1 1.25-1.25Z"/></svg>';
     } else if (isPdf(n.name)) {
@@ -96,7 +98,7 @@ export function renderTree(container) {
       : '';
 
     const delBtn = isRoot
-      ? `<button type="button" class="btn-root-del" data-root-idx="${n.rootIdx}" title="ปิดโฟลเดอร์ “${esc(n.name)}” ออกจากแอป" aria-label="ปิดโฟลเดอร์">✕</button>`
+      ? `<button type="button" class="btn-root-del" data-root-idx="${n.rootIdx}" title="${n.isRemote ? 'ปิดคลังงานวิจัย' : `ปิดโฟลเดอร์ “${esc(n.name)}” ออกจากแอป`}" aria-label="ปิดโฟลเดอร์">✕</button>`
       : '';
 
     // Folder counts badge (Option 3: Mini Icons with Counts)

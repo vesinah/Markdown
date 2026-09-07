@@ -1,0 +1,529 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Search ThaiLIS Digital Collection 2019 x</title>
+<script type="text/javascript" src="ajax/ajax.js"></script>
+<style type="text/css">
+
+#popitmenu{
+position: absolute;
+background-color: white;
+border:1px solid black;
+font-family: 'Sarabun', sans-serif;
+line-height: 18px;
+z-index: 100;
+visibility: hidden;
+}
+
+#popitmenu a{
+text-decoration: none;
+padding-left: 16px;
+color: black;
+display: block;
+}
+
+#popitmenu a:hover{ /*hover background color*/
+background-color: #CCFF9D;
+}
+
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Pop-it menu- ฉ Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+var defaultMenuWidth="400px" //set default menu width.
+
+
+//SPECIFY MENU SETS AND THEIR LINKS. FOLLOW SYNTAX LAID OUT
+
+
+////No need to edit beyond here
+
+var ie5=document.all && !window.opera
+var ns6=document.getElementById
+
+if (ie5||ns6)
+document.write('<div id="popitmenu" onMouseover="clearhidemenu();" onMouseout="dynamichide(event)"></div>')
+
+function iecompattest(){
+return (document.compatMode && document.compatMode.indexOf("CSS")!=-1)? document.documentElement : document.body
+}
+
+function showmenu(e, which, optWidth){
+if (!document.all&&!document.getElementById)
+return
+clearhidemenu()
+menuobj=ie5? document.all.popitmenu : document.getElementById("popitmenu")
+menuobj.innerHTML=which
+menuobj.style.width=(typeof optWidth!="undefined")? optWidth : defaultMenuWidth
+menuobj.contentwidth=menuobj.offsetWidth
+menuobj.contentheight=menuobj.offsetHeight
+eventX=ie5? event.clientX : e.clientX
+eventY=ie5? event.clientY : e.clientY
+//Find out how close the mouse is to the corner of the window
+var rightedge=ie5? iecompattest().clientWidth-eventX : window.innerWidth-eventX
+var bottomedge=ie5? iecompattest().clientHeight-eventY : window.innerHeight-eventY
+//if the horizontal distance isn't enough to accomodate the width of the context menu
+if (rightedge<menuobj.contentwidth)
+//move the horizontal position of the menu to the left by it's width
+menuobj.style.left=ie5? iecompattest().scrollLeft+eventX-menuobj.contentwidth+"px" : window.pageXOffset+eventX-menuobj.contentwidth+"px"
+else
+//position the horizontal position of the menu where the mouse was clicked
+menuobj.style.left=ie5? iecompattest().scrollLeft+eventX+"px" : window.pageXOffset+eventX+"px"
+//same concept with the vertical position
+if (bottomedge<menuobj.contentheight)
+menuobj.style.top=ie5? iecompattest().scrollTop+eventY-menuobj.contentheight+"px" : window.pageYOffset+eventY-menuobj.contentheight+"px"
+else
+menuobj.style.top=ie5? iecompattest().scrollTop+event.clientY+"px" : window.pageYOffset+eventY+"px"
+menuobj.style.visibility="visible"
+return false
+}
+
+function contains_ns6(a, b) {
+//Determines if 1 element in contained in another- by Brainjar.com
+while (b.parentNode)
+if ((b = b.parentNode) == a)
+return true;
+return false;
+}
+
+function hidemenu(){
+if (window.menuobj)
+menuobj.style.visibility="hidden"
+}
+
+function dynamichide(e){
+if (ie5&&!menuobj.contains(e.toElement))
+hidemenu()
+else if (ns6&&e.currentTarget!= e.relatedTarget&& !contains_ns6(e.currentTarget, e.relatedTarget))
+hidemenu()
+}
+
+function delayhidemenu(){
+delayhide=setTimeout("hidemenu()",500)
+}
+
+function clearhidemenu(){
+if (window.delayhide)
+clearTimeout(delayhide)
+}
+
+if (ie5||ns6)
+document.onclick=hidemenu
+
+</script>
+ <script type="text/javascript">
+  function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+	function insertAtCursor(myField, myValue) {
+		if (document.selection) {
+			// IE support
+			myField.focus();
+			sel = document.selection.createRange();
+			sel.text = myValue;
+		} else if (myField.selectionStart || myField.selectionStart == '0') {
+			// MOZILLA/NETSCAPE support
+			var startPos = myField.selectionStart;
+			var endPos = myField.selectionEnd;
+			myField.value = myField.value.substring(0, startPos)
+				+ myValue
+				+ myField.value.substring(endPos, myField.value.length);
+		} else {
+			myField.value += myValue;
+		}
+	}
+function incress_start(x)
+{ var xx = x.value;
+document.browse_form.date_start.value = parseInt(xx)+1;
+if (document.browse_form.date_start.value > document.browse_form.date_end.value)
+{
+  document.browse_form.date_end.value = parseInt(xx)+1;
+
+}
+}
+function decress_start(x)
+{ var xx = x.value;
+document.browse_form.date_start.value = parseInt(xx)-1;
+}
+function incress_end(x)
+{ var xx = x.value;
+document.browse_form.date_end.value = parseInt(xx)+1;
+
+}
+function decress_end(x)
+{ var xx = x.value;
+document.browse_form.date_end.value = parseInt(xx)-1;
+if (document.browse_form.date_end.value < document.browse_form.date_start.value)
+{
+document.browse_form.date_start.value = parseInt(xx)-1;
+
+}
+}
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-874" />
+<META NAME="Author" CONTENT="จีะพล  คุ่มเคี่ยม,jeerapol  kumkeam">
+<META NAME="Keywords" CONTENT="วิทยานิพนธ์,thesis,รายงานการวิจัย,research report,บทความวิชาการ,article">
+<META NAME="Description" CONTENT="ฐานข้อมูลเอกสารฉบับเต็มในรูปอิเล็กทรอนิกส์ ของ วิทยานิพนธ์ รายงานการวิจัย บทความวิชาการ และ อื่น ๆ ">
+
+<!--
+*	DO NOT REMOVE THE FOLLOWING - FAILURE TO COMPLY IS A DIRECT VIOLATION
+*	OF THE GNU GENERAL PUBLIC LICENSE - http://www.gnu.org/copyleft/gpl.html
+-->
+<meta name="Generator" content="ThaiLIS.  All rights reserved." />
+<!--
+*	END OF COPYRIGHT
+-->
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <style>
+
+       body {
+            font-family: 'Sarabun', sans-serif;
+        }
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    .frame {
+            height: 100vh;
+            overflow-y: auto;
+            padding: 20px;
+        }
+        .left-frame {
+            background-color: #f0f0f0;
+        }
+        .right-frame {
+            background-color: #e0e0e0;
+        }
+  </style>
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css">
+  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
+</head>
+<body>
+ <nav class="navbar navbar-inverse  navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button> 
+      <a class="navbar-brand" href="/">TDC</a> 
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav">
+        <li ><a href="index.php"> <span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li ><a href="basic.php"> <span class="glyphicon glyphicon-search"></span> Basic Search</a></li>
+        <li ><a href="advance.php"><span class="glyphicon glyphicon-check"></span> Advance Search</a></li>
+
+       		<li class="dropdown active">		      <a href="#"  data-toggle="dropdown">
+  <span class="glyphicon glyphicon-list-alt"></span>
+  Browse <span class="caret"></span></a>
+  <ul class="dropdown-menu">
+    <li><a href="browse.php"><span class="glyphicon glyphicon-list-alt"></span> Browse</a></li>
+   <li><a href="BrowseDataTable.php?DocType=0"><span class="glyphicon glyphicon-list-alt"></span> Browse By Document type </a></li>
+     <li><a href="BrowseByInstituteDataTable.php?InstituteCode=0&xsid=7ln2bvqu2gb7mjgpfkrcu296r6"><span class="glyphicon glyphicon-list-alt"></span> Browse By Institute</a></li>
+	  <li><a href="BrowseCreatorDataTable.php?InstituteCode=0&xsid=7ln2bvqu2gb7mjgpfkrcu296r6"><span class="glyphicon glyphicon-list-alt"></span> Browse By Creator</a></li>
+	   <li><a href="BrowseContributorDataTable.php?InstituteCode=0&xsid=7ln2bvqu2gb7mjgpfkrcu296r6"><span class="glyphicon glyphicon-list-alt"></span> Browse By Contributor</a></li>
+	     <li><a href="BrowseSubjectDataTable.php?InstituteCode=0&xsid=7ln2bvqu2gb7mjgpfkrcu296r6"><span class="glyphicon glyphicon-list-alt"></span> Browse By Subject</a></li>
+		  <li><a href="BrowseThesisDesciplineDataTable.php?InstituteCode=0&xsid=7ln2bvqu2gb7mjgpfkrcu296r6"><span class="glyphicon glyphicon-list-alt"></span> Browse Thesis Descipline</a></li>
+  </ul>
+		
+		</li>
+
+		<li ><a href="help_index.php?xsid=7ln2bvqu2gb7mjgpfkrcu296r6"> <span class="glyphicon glyphicon-info-sign"></span> Help</a></li>
+		<li ><a href="faq.php"><span class="glyphicon glyphicon-question-sign"></span> Faq</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+	    
+        <li><a href="register_form.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		<li class="dropdown">
+ </li>
+
+<!-- Modal -->
+<div id="myUserChangePasswordModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Change Password</h4>
+      </div>
+      <div class="modal-body">
+        <form action="UserChangePassword.php" method="POST">
+ 
+  <div class="form-group">
+    <label for="opwd">Old Password:</label>
+    <input type="password" class="form-control" id="opwd" name="opwd">
+  </div>
+    <div class="form-group">
+    <label for="npwd">New Password:</label>
+    <input type="password" class="form-control" id="npwd" name="npwd">
+  </div>
+    <div class="form-group">
+    <label for="cpwd">Confirm Password:</label>
+    <input type="password" class="form-control" id="cpwd" name="cpwd">
+  </div>
+
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+        			<li><a href="#" data-toggle="modal" data-target="#myLoginModal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	
+
+		      </ul>
+    </div>
+  </div>
+</nav> 
+<br>
+<br><br><ul class="breadcrumb">
+  <li><a href="index.php?Secret=7ln2bvqu2gb7mjgpfkrcu296r6">Home</a></li>
+ 
+  <li> Not ThaiLIS Member</li>
+  </ul>
+<!-- Modal -->
+<div id="myLoginModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">TDC Login</h4>
+      </div>
+      <div class="modal-body">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+				<p>ยินดีต้อนรับสู่ระบบเอกสารฉบับเต็มในรูปอิเล็กทรอนิกส์ </p>
+				<p>กรุณาป้อนชื่อสำหรับการเข้าสู่ระบบ(e-mail)และรหัสผ่านเพื่อเข้าสู่ระบบ</p>
+				<form action="checkpermission.php" method="POST"  class="form-inline"
+					name="loginForm" id="loginForm">
+					<INPUT TYPE="hidden" name="Int_code" value="">
+					<INPUT TYPE="hidden" name="RecId" value="">
+					<INPUT TYPE="hidden" name="obj_id" value="">
+					<div class="form-block">
+	        			<div class="inputlabel">ชื่อสำหรับการเข้าสู่ระบบ (e-mail)</div>
+		    			<div><input name="login" type="text" class="form-control" size="15" /></div>
+	        			<div class="inputlabel">รหัสผ่าน(ได้รับจากระบบ หรือหมายเลขประจำตัวประชาชน)</div>
+		    			<div>
+						<input name="passwd" type="password" class="form-control" size="15" />
+						</div>
+	        			<div class="inputlabel">
+						<input name="chk" type="checkbox" id="chk" value="on" / > จดจำผู้ใช้และรหัสผ่าน  : </div>
+					    <div align="left">
+							<input type="hidden" name="program" value="/tdc/browse.php?option=show&browse_type=title&title_param=%E0%B9%83%E0%B8%9A%E0%B8%A5%E0%B8%B2%E0%B8%99">
+							<input type="submit" name="submit" class="btn btn-success" value="Login" />&nbsp;&nbsp;&nbsp;<A class="btn btn-info" HREF="help_index.php?xsid=7ln2bvqu2gb7mjgpfkrcu296r6" TARGET="help">ลืมรหัสผ่าน</A>
+						</div>
+        			</div>
+					<input type="hidden" name="xsid" value="7ln2bvqu2gb7mjgpfkrcu296r6">
+					<input type="hidden" name="return" value="/tdc/browse.php?option=show&browse_type=title&title_param=%E0%B9%83%E0%B8%9A%E0%B8%A5%E0%B8%B2%E0%B8%99">
+			</form>
+
+	</div>
+    <div class="panel-body">
+		   <label>หมายเหตุ</label> <p>การเลือกจดจำผู้ใช้และรหัสผ่านจะทำให้การเข้าใช้ระบบครั้งต่อไปไม่ต้องป้อนชื่อผู้ใช้และรหัสผ่าน การเลือกใช้ทางเลือกนี้ต้องทำกับคอมพิวเตอร์ส่วนบุคคลเท่านั้น เนื่องจากระบบจะเก็บข้อมูลลงในคอมพิวเตอร์ที่กำลังใช้งานอยู่ และจะเรียกใช้อัตโนมัติเมื่อเข้าสู่เวปไซต์นี้
+		<p>ระบบจะบันทึกข้อมูลเกี่ยวกับรหัสประจำตัวของท่านลงในคอมพิวเตอร์เครื่องนี้ เป็นระยะเวลา 1 ชั่วโมง หรือ จนกว่าท่านจะ logout หากท่านใช้งานจากเครื่องคอมพิวเตอร์สาธารณะกรุณา logout ทุกครั้งที่ใช้งานเสร็จ 
+	</div>
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div align="center">
+ <div class="panel panel-info">
+     <div class="panel-body">
+<script language="javascript" type="text/javascript">
+function showBox1 (it, box) {
+  var vis = (box.checked) ? "visible" : "hidden";
+  document.getElementById(it).style.visibility = vis;
+}
+</script>
+
+<div class="well well-sm">
+ <div class="row">
+    <div class="col-sm-2">
+ 
+<button type="button" class="btn btn-default btn-sm" onclick="window.open('sendmail.php?option=mail&institute_code=0&bib=0',
+'mambo_help_win',
+'status=no,toolbar=no,scrollbars=no,titlebar=no,menubar=no,resizable=no,width=640,height=580,directories=no,location=no');">
+
+<span class="glyphicon glyphicon-envelope"></span>
+</button>
+<a class="btn btn-info" href="#"onclick="window.open('print.php?option=print&institute_code=0&bib=0',
+'mambo_help_win',
+'status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=580,directories=no,location=no');"
+<span class="glyphicon glyphicon-print"></span>
+</a><a class="btn btn-info" href="#"onclick="window.open('save2disk.php?option=mail&institute_code=0&bib=0',
+'mambo_help_win',
+'status=no,toolbar=no,scrollbars=no,titlebar=no,menubar=no,resizable=no,width=640,height=280,directories=no,location=no');"
+<span class="glyphicon glyphicon-floppy-save"></span>
+</a>
+</div>
+  <div class="col-sm-4">
+  <input class="btn btn-default" type="button" value="แสดงรายการ fulltext" onclick="show_list_object('0','0')"> 
+  
+  <input class="btn btn-default" type="button" value="ปิดรายการ fulltext" onclick="show_list_object('','')"><input name="chk1" type="checkbox" id="chk1" onclick="showBox1('citation', this)">
+  </div>
+  <div class="col-sm-6">
+  <div id="save2mylist"></div><div id="txt_nav">
+</div>
+<b></b>
+แจ้งเอกสารไม่ครบถ้วน, ไม่ตรงกับชื่อเรื่อง หรือมีข้อผิดพลาดเกี่ยวกับเอกสาร ติดต่อที่นี่ ==><BR>
+หากไม่มีอีเมลผู้รับให้กรอก thailis-noc@uni.net.th</TD><TD>
+<a class="toolbar" href="#"onclick="window.open('sendmail.php?option=mail&institute_code=0&bib=0&email=',
+'mambo_help_win',
+'status=no,toolbar=no,scrollbars=no,titlebar=no,menubar=no,resizable=yes,width=640,height=580,directories=no,location=no');"onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('staff_mail','','images/help2_f2.png',1);">
+<img src="images/help2.png" alt="ติดต่อเจ้าหน้าที่เจ้าของเอกสาร กรณีเอกสารไม่ครบหรือไม่ตรง" title="ติดต่อเจ้าหน้าที่เจ้าของเอกสาร กรณีเอกสารไม่ครบหรือไม่ตรง" align="middle" name="staff_mail" border="0" >
+</a>
+</div>
+</div>
+</div><div class="row">
+  <div class="col-sm-8"><script type="text/javascript">
+var linkset=new Array()
+var linkset1=new Array()
+var linkset2=new Array()
+var linkset3=new Array()
+var linkset4=new Array()
+
+function f_accept(f)
+        {
+		//	var a=f.accept.value
+  //   if (f.accept.value.length<>0)
+//	   {
+	 //    alert("จะต้องยอมรับเงื่อนไขก่อน ");
+//	    } else
+   {
+	f.submit();
+	   }
+        }
+</script>
+Table 'tdc.tbl_dc_meta_control_0' doesn't exist<span id="txt_list_object"></span><span id="citation" style="visibility:hidden;">
+</span>
+<p>
+ 
+  <div class="row text-left">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-10">  </div>
+   </div>
+    <div class="row text-left">
+    <div class="col-sm-2"> ใช้เวลา </div>
+    <div class="col-sm-10"> 0.00849 วินาที</div>
+ </div>
+</p> 
+
+</div>
+  <div class="col-sm-4">
+  
+ 
+  </div>
+</div>
+
+
+ 
+   </td>
+	</tr>
+	</table>
+
+ </td>
+	</tr>
+	</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('a[data-toggle="tab"]').on('show.affectedDiv.tab', function(e) {
+        localStorage.setItem('activeTab', $(e.target).attr('href'));
+    });
+    var activeTab = localStorage.getItem('activeTab');
+    if(activeTab){
+        $('#myTab a[href="' + activeTab + '"]').tab('show');
+    }
+});
+</script>
+<div class="panel panel-default">
+    <div class="panel-heading">
+	<div class="row">
+    <div class="col-sm-12">
+	
+ You can access to TDC Database at URL  <a 
+href="http://www.thailis.or.th/tdc/">http://www.thailis.or.th/tdc/</a> or <a           
+href="http://dcms.thailis.or.th/tdc/">http://dcms.thailis.or.th/tdc/</a> or <a 
+href="http://tdc.thailis.or.th/tdc/">http://tdc.thailis.or.th/tdc/</a>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+	
+<div align="center">Copyright 2000 - 2026 ThaiLIS 
+<A HREF="http://dcms.thailis.or.th">Digital Collection Working Group</A>. All rights reserved.</div>
+<div align="center"><a href="http://www.thailis.or.th">ThaiLIS</a> is
+Thailand Library Integrated System <br>สนับสนุนโดย <a href="https://www.uni.net.th">สำนักงานบริหารเทคโนโลยีสารสนเทศเพื่อพัฒนาการศึกษา</a>
+ <br><a href="https://www.mhesi.go.th/">กระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม</a><br> 328 ถ.ศรีอยุธยา แขวง ทุ่งพญาไท เขต ราชเทวี กรุงเทพ 10400 โทร. โทร. 02-232-4000
+</div>
+</div></div>
+<div class="row">
+<div class="col-sm-4">
+กำลัง ออน์ไลน์ <BR>ภายในเครือข่าย ThaiLIS จำนวน 16 <BR>ภายนอกเครือข่าย ThaiLIS จำนวน 5,586 <BR>รวม 5,602 คน <br> <br>
+<a href="num_online_by_institute.php">More info..</a> 
+
+</div><div class="col-sm-4">
+ นอก ThaiLIS = 278,946 ครั้ง<br> มหาวิทยาลัยสังกัดทบวงเดิม = 2,556 ครั้ง<br> มหาวิทยาลัยราชภัฏ = 781 ครั้ง<br> มหาวิทยาลัยเทคโนโลยีราชมงคล = 136 ครั้ง<br> มหาวิทยาลัยเอกชน = 119 ครั้ง<br> สถาบันพระบรมราชชนก = 35 ครั้ง<br> หน่วยงานอื่น = 22 ครั้ง<br> มหาวิทยาลัยสงฆ์ = 7 ครั้ง<br> สถาบันเทคโนโลยีปทุมวัน = 1 ครั้ง<br> มหาวิทยาลัยการกีฬาแห่งชาติ = 1 ครั้ง<br>รวม 282,604 ครั้ง<br></div><div class="col-sm-4">Database
+server : <BR><a href="version_note/index.php">Version 2.5 </a>Last update 1-06-2018<BR>Power By SUSE PHP MySQL IndexData Mambo Bootstrap<BR>
+มีปัญหาในการใช้งานติดต่อผ่านระบบ <A HREF="help_index.php">UniNetHelp</A> <BR>
+<!-- หรือติดต่อ : 0-2354-5678 ต่อ 3006, 3005, 3002 เวลาราชการ --><BR>
+<!-- นอกเวลาราชการ โปรดติดต่อ<A HREF="help_index.php">ผ่านระบบ</A> --><BR>
+<FORM METHOD="POST" ACTION="help_index.php">
+	<INPUT TYPE="submit" NAME="reqProb" VALUE="แจ้งปัญหาผ่านเว็บ">
+</FORM>
+
+Server : 8.199.132<br>Client :  Not ThaiLIS Member<br>From IP : 27.130.230.189</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+

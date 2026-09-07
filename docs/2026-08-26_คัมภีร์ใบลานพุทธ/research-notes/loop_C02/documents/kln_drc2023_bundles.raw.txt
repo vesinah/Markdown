@@ -1,0 +1,128 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "8ec48f9d-4d20-40af-8f55-6976df6708d0",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/8ec48f9d-4d20-40af-8f55-6976df6708d0/item"
+        },
+        "bitstreams" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/8ec48f9d-4d20-40af-8f55-6976df6708d0/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/8ec48f9d-4d20-40af-8f55-6976df6708d0/primaryBitstream"
+        },
+        "self" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/8ec48f9d-4d20-40af-8f55-6976df6708d0"
+        }
+      }
+    }, {
+      "uuid" : "f6a8d23a-64e3-4a25-a7b4-447f99921405",
+      "name" : "LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/f6a8d23a-64e3-4a25-a7b4-447f99921405/item"
+        },
+        "bitstreams" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/f6a8d23a-64e3-4a25-a7b4-447f99921405/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/f6a8d23a-64e3-4a25-a7b4-447f99921405/primaryBitstream"
+        },
+        "self" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/f6a8d23a-64e3-4a25-a7b4-447f99921405"
+        }
+      }
+    }, {
+      "uuid" : "9a1a200b-6b8b-43e1-8a9d-753fb2e20693",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/9a1a200b-6b8b-43e1-8a9d-753fb2e20693/item"
+        },
+        "bitstreams" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/9a1a200b-6b8b-43e1-8a9d-753fb2e20693/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/9a1a200b-6b8b-43e1-8a9d-753fb2e20693/primaryBitstream"
+        },
+        "self" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/9a1a200b-6b8b-43e1-8a9d-753fb2e20693"
+        }
+      }
+    }, {
+      "uuid" : "fdeed781-276e-4008-b8a6-32cb471e05c0",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/fdeed781-276e-4008-b8a6-32cb471e05c0/item"
+        },
+        "bitstreams" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/fdeed781-276e-4008-b8a6-32cb471e05c0/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/fdeed781-276e-4008-b8a6-32cb471e05c0/primaryBitstream"
+        },
+        "self" : {
+          "href" : "http://repository.kln.ac.lk/server/api/core/bundles/fdeed781-276e-4008-b8a6-32cb471e05c0"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://repository.kln.ac.lk/server/api/core/items/bf03b4d6-edac-4915-841e-3b0c3f06625c/bundles"
+    }
+  }
+}

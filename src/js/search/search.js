@@ -91,6 +91,18 @@ export const SearchEngine = {
     }
 
     try {
+      if (node.isRemote) {
+        if (isMd(node.name) || isCode(node.name)) {
+          const resp = await fetch(encodeURI(node.url || ('docs/' + (node.relPath || node.path))));
+          if (resp.ok) {
+            const txt = await resp.text();
+            this._cacheText(node.path, txt);
+            return txt;
+          }
+        }
+        return '';
+      }
+
       const fh = await node.handle.getFile();
       if (isPdf(node.name)) {
         const txt = await this.extractPdfText(fh, gen);

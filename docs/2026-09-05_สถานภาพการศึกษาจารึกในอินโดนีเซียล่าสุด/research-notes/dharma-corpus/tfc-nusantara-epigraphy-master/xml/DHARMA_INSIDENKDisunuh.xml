@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Disunuh (709 Śaka)</title>
+            	<respStmt>
+            		<resp key="contributor">EpiDoc Encoding</resp>
+            		<persName ref="part:argr">
+            			<forename>Arlo</forename>
+            			<surname>Griffiths</surname>
+            		</persName>
+            	</respStmt>
+            	<respStmt>
+            		<resp key="creator">intellectual authorship of edition</resp>
+            		<persName ref="part:argr">
+            			<forename>Arlo</forename>
+            			<surname>Griffiths</surname>
+            		</persName>
+            	</respStmt>
+            	
+            </titleStmt>
+        	<publicationStmt>
+        		<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+        		<pubPlace>Jakarta</pubPlace>
+        		<idno type="filename">DHARMA_INSIDENKDisunuh.xml</idno>
+        		<availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p>Script characteristic of the 8th century CE, with superposed <foreign>virāma</foreign> signs.</p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+        <revisionDesc>
+        	<change who="part:argr" when="2025-09-02" status="draft">revisions while preparing wacana article</change>
+            	<change who="part:argr" when="2024-09-05" status="draft">revisions, chiefly in bibliography and apparatus</change>
+        	<change who="part:argr" when="2023-04-06" status="draft">finished encoding the inscription</change>
+        	<change who="part:argr" when="2023-03-01" status="draft">first commit of draft encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="kaw-Latn" rendition="class:38769 maturity:83213">
+<p>
+<lb n="3"/><g ref="sym:doubleBar" type="punctuation">.</g> svasti śaka-varṣātīta
+<lb n="4"/><num value="709">709</num> caitra-māsa ṣaṣṭi kr̥ṣṇa-pakṣa
+<lb n="5"/>śukra-vāra vurukuṁ pon· tatkāla ḍaṁ karayān·
+<lb n="6"/><gap reason="lost" quantity="2" unit="character"/>śr̥<unclear>ī</unclear> senāpati, mamulaṁṅa<unclear>ka</unclear>n sīma ḍi vanva I
+<lb n="7"/>ḍisunuḥ ḍaṁ karayān· humaṇḍiṁ ḍa punta tīs· mahāla<gap reason="illegible" unit="character" quantity="1"/> ḍisu<lb n="8" break="no"/>nuḥ ḍaṁ karayān· vakka saṁ ḍa nuI, ḍisunuḥ ḍa punta maṁṅuhu<supplied reason="lost">r</supplied>i
+<lb n="9"/>ḍa punta tīra, ḍisunuḥ ḍaṁ tiruAn· <unclear>saṁ</unclear> galaha, saṁ
+<lb n="10"/>ḍisunuḥ ḍa punta rāja<space type="descender"/>siṁh<choice><orig>i</orig><reg>ī</reg></choice><unclear>ś</unclear>varaḥ
+<lb n="11"/>saṁ vayur· saṁ pravalā nāma,
+<lb n="12"/>manurat·
+<lb n="1"/>bhagavān tat<unclear>ā</unclear><gap reason="illegible" quantity="1" unit="character"/> <unclear reason="eccentric_ductus">ḍa</unclear><supplied reason="lost">ṁ</supplied>
+<lb n="2"/><unclear>ka</unclear>rayān· <unclear>sva</unclear><space type="ascender" quantity="2" unit="character"/><unclear>sthā</unclear> n<choice><orig>a</orig><reg>ā</reg></choice>ma
+</p>
+         </div>
+        <div type="apparatus">
+               <listApp>
+                  <app loc="6">
+                     <lem source="bib:TitiSurtiNastiti+al2024_01">śr̥<unclear>ī</unclear> senāpati</lem>
+                     <rdg source="bib:GoenawanASambodo2018_02">śr̥ī rānāpati</rdg>
+                    <note>For other examples, from South and Southeast Asia, of the redundant spelling <foreign>r̥ī</foreign> for <foreign>rī</foreign>, see <bibl><ptr target="bib:Griffiths+al2017_01"/><citedRange unit="page">78</citedRange><citedRange unit="note">83</citedRange></bibl>.</note>
+                  </app>
+	<app loc="6">
+	<lem source="bib:TitiSurtiNastiti+al2024_01">vanva</lem>
+	<rdg source="bib:GoenawanASambodo2018_02">vunva</rdg>
+	<note>Below the consonant <foreign>v</foreign> one at first sight seems to find an unexpected <foreign>suku</foreign>, but on closer inspection it turns out to be an accidental scratch.</note>
+	</app>
+	<app loc="7">
+	<lem source="bib:TitiSurtiNastiti+al2024_01">ḍisunuḥ</lem>
+	<rdg source="bib:GoenawanASambodo2018_02">ḍisuruḥ</rdg>
+	<note>Throughout the text, Goenawan Sambodo reads the toponym <foreign>ḍisunuḥ</foreign> as <foreign>ḍisuruḥ</foreign>.</note>
+	</app>
+	<app loc="7">
+	<lem source="bib:TitiSurtiNastiti+al2024_01">humaṇḍiṁ</lem>
+	<rdg source="bib:GoenawanASambodo2018_02">hamaḍraṁ</rdg>
+	<note>Below the cluster <foreign>ṇḍ</foreign> one at first sight seems to find an unexpected <foreign>cakra</foreign>, but on closer inspection it turns out to be an accidental scratch.</note>
+	</app>
+	<app loc="7">
+	<lem>ḍa nuI, ḍisunuḥ</lem>
+	<rdg source="bib:TitiSurtiNastiti+al2024_01">ḍanu<choice><sic> I,</sic><corr>, I</corr></choice> ḍisunuḥ</rdg>
+	<rdg source="bib:GoenawanASambodo2018_02">ḍa nuI, ḍisuruḥ</rdg>
+<note>In SP, our emendation of <foreign>ḍa nuI,</foreign> to <foreign>ḍanu⟨, I⟩</foreign> was based on the belief that <foreign>I</foreign> had to be a preposition and that the punctuation sign had to come before it. We now understand that we have the element <foreign>ḍa nuI</foreign> as equivalent for what is spelt <foreign>ra nuI</foreign> in other inscriptions (<bibl><ptr target="bib:Damais1970_01"/><citedRange unit="page">169</citedRange></bibl>), and hence withdraw the emendation.</note>
+	</app>
+	<app loc="7">
+	<lem>mahāla<gap reason="illegible" unit="character" quantity="1"/></lem>
+	<rdg source="bib:TitiSurtiNastiti+al2024_01">mahāla<unclear>kṣma</unclear></rdg>
+	<rdg source="bib:GoenawanASambodo2018_02">mahālaka</rdg>
+	</app>
+	<app loc="10">
+	<lem>rāja<space type="descender"/>siṁh<choice><orig>i</orig><reg>ī</reg></choice><unclear>ś</unclear>varaḥ</lem>
+	<rdg source="bib:TitiSurtiNastiti+al2024_01">rāja<space type="descender"/>siṁh<unclear>eś</unclear>varaḥ</rdg>
+	<rdg source="bib:GoenawanASambodo2018_02">rāja laṁligvaraḥ</rdg>
+	<note>Although from the Sanskrit point of view, one would expect the name to end in -<foreign>siṁheśvaraḥ</foreign>, what is engraved is clearly vowel <foreign>i</foreign> and not <foreign>e</foreign>. <!--In South Indian epigraphy, one rather commonly finds analogous cases of  <foreign>īśvara</foreign> for expected <foreign>eśvara</foreign>, like Coḷīśvara instead of Coḷeśvara.--> In South Indian epigraphy, one rather commonly finds analogous cases of <foreign>īśvara</foreign> for expected <foreign>eśvara</foreign>. For instance, the famous temple founded at the beginning of the 11th century by Rājarāja I Cōḻa in Tanjore is regularly named Rājarājīśvara, not Rājarājeśvara, in its epigraphical corpus (<bibl><ptr target="bib:Hultzsch1891_01"/></bibl>).</note></app>
+               </listApp>
+         </div>
+         <div type="translation" resp="part:argr">
+<p>Hail! Elapsed Śaka year 709, month of Caitra, sixth <supplied reason="explanation"><foreign>tithi</foreign></supplied> of the waning fortnight, Friday, Vurukuṅ, Pon. That was when the lord <supplied reason="explanation"><foreign>ḍaṅ karayān</foreign></supplied> <gap reason="lost" quantity="2" unit="character"/>śrī, the army commander <supplied reason="explanation"><foreign>senāpati</foreign></supplied>, restored <foreign>sīma</foreign> <supplied reason="explanation">status</supplied> to the village of Ḍisunuh for the lord of Humaṇḍiṅ, <supplied reason="explanation">namely</supplied> <foreign>ḍa punta</foreign> Tīs. Those who <foreign>mahāla</foreign><gap reason="illegible" quantity="1" unit="character"/> were called:
+<list>
+<item><supplied reason="subaudible">at</supplied> Ḍisunuh, the lord of Vəka <supplied reason="explanation">called</supplied> <foreign>saṅ ḍa</foreign> Nui</item>
+<item><supplied reason="subaudible">at</supplied> Ḍisunuh, <foreign>ḍa punta</foreign> Maṅuhuri <supplied reason="subaudible">and</supplied> <foreign>ḍa punta</foreign> Tīra</item>
+<item><supplied reason="subaudible">at</supplied> Ḍisunuh, <foreign>ḍa</foreign> Tiruan <supplied reason="explanation">called</supplied>  <foreign>saṅ</foreign> Galaha</item>
+<item>the Ḍisunuh <supplied reason="explanation">called</supplied> <foreign>ḍa punta</foreign> Rājasiṅhīśvarah</item>
+<item><foreign>saṅ</foreign> Vayur <supplied reason="subaudible">and</supplied> <foreign>saṅ</foreign> Pravalā </item></list>
+The ones who wrote were called: <foreign>bhagavān</foreign> Tatā<gap reason="lost"/> <supplied reason="subaudible">and</supplied> lord Svasthā.</p>
+ <!-- old version	
+<p>Hail! Elapsed Śaka year 709, month of Caitra, sixth <supplied reason="explanation"><foreign>tithi</foreign></supplied> of the waning fortnight, Friday, Vurukuṅ, Pon. That was when the Lord <gap reason="lost"/>śrī was army commander <supplied reason="explanation"><foreign>senāpati</foreign></supplied>.</p> 
+<p>Those who restored the <foreign>sīma</foreign> <supplied reason="explanation">status</supplied> to the village of Ḍisunuh were called:
+<list>
+<item>the lord of Humaṇḍiṅ <supplied reason="explanation">called</supplied> <foreign>ḍa punta</foreign> Tīs, <foreign>mahālakṣma</foreign> (?) of Ḍisunuh</item>
+<item>the lord of Vəka <supplied reason="explanation">called</supplied> <foreign>saṅ</foreign> Ḍanu</item>
+<item><supplied reason="subaudible">the lord</supplied> of Ḍisunuh <supplied reason="explanation">called</supplied> <foreign>ḍa punta</foreign> Maṅuhuri </item>
+<item><foreign>ḍa punta</foreign> Tīra of Ḍisunuh</item> 
+<item>the Tiruan <supplied reason="explanation">called</supplied> <foreign>saṅ</foreign> Galaha</item>
+<item>the Ḍisunuh <supplied reason="explanation">called</supplied> <foreign>ḍa punta</foreign> Rājasiṅheśvarah</item>
+<item><foreign>saṅ</foreign> Vayur</item>
+<item><foreign>saṅ</foreign> Pravalā </item>
+</list></p>
+<p>The ones who wrote were called: <foreign>bhagavān</foreign> Tatā<gap reason="illegible"/> <supplied reason="subaudible">and</supplied> Lord Svasthā.</p>-->
+         </div>
+         <div type="commentary">
+            <p>Lines 1 and 2 were clearly not planned initially to be placed where they are, as intrusion from the ascenders of <foreign>varṣātīta</foreign> proves. They need to be read after line 12. The engraver moved back to the top when he ran out of space at the bottom of the stone. The text therefore begins on line 3 and ends on line 2. The misreading of the segment <foreign>śr̥<unclear>ī</unclear> senāpati</foreign> in line 6 in the initial reading by Goenawan Sambodo has led to the inscription becoming known under the name Sri Ranapati.</p>
+         </div>
+        <div type="bibliography">
+	<p>First edited and informally published by Goenawan Sambodo. The text, re-edited here by Arlo Griffiths from photogrammetry made in 2023 by Adeline Levivier, was initially published with Indonesian translation in <bibl><ptr target="bib:TitiSurtiNastiti+al2024_01"/></bibl>, upon which publication we are now (2025) able to make some corrections.</p>
+        	<listBibl type="primary">
+	<bibl n="GS"><ptr target="bib:GoenawanASambodo2018_02"/></bibl>
+    <bibl n="SP"><ptr target="bib:TitiSurtiNastiti+al2024_01"/><citedRange unit="section">2.3.10</citedRange><citedRange unit="page">73-75</citedRange></bibl>    
+	</listBibl>
+           <!-- 
+            <listBibl type="secondary">
+            <bibl/>
+              </listBibl> 
+            -->
+        </div>
+      </body>
+  </text>
+</TEI>

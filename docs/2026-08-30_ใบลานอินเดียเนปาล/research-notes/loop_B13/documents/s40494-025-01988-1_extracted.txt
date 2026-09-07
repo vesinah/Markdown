@@ -1,0 +1,1740 @@
+--- PAGE 1 ---
+npj | heritage science
+Article
+https://doi.org/10.1038/s40494-025-01988-1
+Study on the hygroscopicity and kinetic
+and thermodynamic properties of ancient
+Tibetan Palm Leaf Manuscripts
+Check for updates
+Wenjie Zhang1, Shan Wang2, Liuyang Han1 & Hong Guo1
+This study examines how natural aging affects the hygroscopic, kinetic, and thermodynamic
+properties of ancient Tibetan Palm Leaf Manuscripts. The results show aging increases equilibrium
+moisture content and hygroscopicity, with a noticeable hysteresis effect, suggesting enhanced
+moisture stability at low to moderate humidity. The GAB and H-H models indicate aging accelerates
+cellulose degradation, adds adsorption sites, and promotes physical adsorption. Kinetic studies
+reveal a faster moisture absorption and release rate with aging, especially under varying humidity.
+Thermodynamic analysis shows that as moisture content rises, the adsorption and desorption
+processes become more spontaneous. Infrared spectral analysis conﬁrms signiﬁcant degradation of
+cellulose and hemicellulose, increasing hydroxyl groups and hygroscopicity. The study suggests that
+these manuscripts are best preserved in a controlled environment with moderate humidity (50-60%
+RH) and cooler temperatures to maintain moisture stability and ﬂexibility while preventing damage
+from excessive ﬂuctuations.
+Prior to the widespread use of paper, Palm Leaf Manuscripts were a
+dominant medium for literary works in South and Southeast Asia1. These
+manuscripts not only preserve invaluable knowledge in various ﬁelds such
+as history, literature, philosophy, art, and science, but also hold profound
+cultural signiﬁcance, particularly within Buddhist traditions, playing a key
+role in the dissemination of the religion2. Tibet boasts the largest and most
+diverse collection of Palm Leaf Manuscripts in the world, withnearly 30,000
+ancient manuscripts preserved in its temples, museums, and libraries.
+Research conﬁrms that these manuscripts primarily originate from ancient
+India,withthemajoritydatingbacktothe11thto14thcenturies,whileafew
+manuscripts can be traced to before the 11th century3.
+Signiﬁcant progress has been made in understanding the types of
+materials used in the production of ancient Palm Leaf Manuscripts, such as
+raw materials, pigments, and inks4–6, as well as the processes and principals
+involved in their preparation, including boiling and drying techniques3,7,8.
+Extensive research has also been conducted on the degradation of these
+manuscripts and their primary diseases9,10, as well as the underlying
+mechanisms contributing to their deterioration, such as inappropriate
+storage conditions and improper handling and transportation11–13. Addi-
+tionally,researchershaveimplemented severalconservationandrestoration
+efforts for severely damaged manuscripts, including cleaning, reinforce-
+ment, and anti-mold and anti-insect treatments7,14, yielding encouraging
+results. Collectively, these studies offer valuable insights that advance
+scientiﬁc knowledge and enhance conservation strategies for ancient Palm
+Leaf Manuscripts, making crucial contributions to their long-term pre-
+servation and proper care.
+Similar to other cellulose-based materials, such as paper and wood,
+Palm Leaf Manuscripts are highly sensitive to ﬂuctuations in humidity,
+which can induce signiﬁcant physical and chemical changes. Previous
+studies have shown that frequent humidity ﬂuctuations, as well as
+exposure to excessively high (≥70%RH) or low (≤30%RH) humidity
+levels, can lead to a decline in the mechanical properties of healthy Palm
+Leaf Manuscripts15. High humidity (≥70%RH) also facilitates the growth
+of microorganisms, which accelerates the degradation of primary che-
+mical components such as cellulose and hemicellulose in the healthy
+manuscript, with hemicellulose degrading more rapidly and to a greater
+extent12,13. Similar ﬁndings have been reported for other cellulose-based
+materials, conﬁrming that humidity signiﬁcantly affects the properties of
+paper and wood16,17. These observations highlight that improper envir-
+onmental humidity can alter the properties of Palm Leaf Manuscripts,
+accelerating their deterioration and posing a threat to their long-term
+preservation. Consequently, investigating the hygroscopic properties of
+Palm Leaf Manuscripts is essential for understanding their inherent
+characteristics and degradation mechanisms, particularly in the context
+of developing effective conservation strategies for valuable cultural
+heritage, such as the ancient Tibetan Palm Leaf Manuscripts.
+1Key Laboratory of Archaeomaterials and Conservation, Ministry of Education, Institute of Cultural Heritage and History of Science & Technology, University of
+Science and Technology Beijing, Beijing, 100083, China. 2Chinese Academy of Cultural Heritage, Beijing, 100029, China.
+e-mail: guohong@ustb.edu.cn
+npj Heritage Science | (2025) 13:412 
+1
+1234567890():,;
+1234567890():,;
+
+--- PAGE 2 ---
+Dynamic Vapor Sorption (DVS) is a non-destructive technique
+employed to investigate the hygroscopic properties of materials and has
+proven to be highly effective in assessing the moisture absorption char-
+acteristicsof culturalartifactssuchaspaperandwood18–20.Previousresearch
+utilizing this method has explored the impact of traditional palm leaf
+manuscript production techniques on the moisture absorption of the leaves,
+revealing that these techniques signiﬁcantly reduce the hygroscopic prop-
+erties of the manuscripts, thus enhancing their long-term preservation21.
+Other studies have integrated DVS with simulated aging experiments,
+showing that high-temperature environments reduce the moisture
+absorption of Palm Leaf Manuscripts, whereas humid conditions notably
+increase their hygroscopicity11. These studies have provided valuable
+insights into the degradation mechanisms of Palm Leaf Manuscripts and
+further corroborate the feasibility and effectiveness of using DVS to assess
+their hygroscopic properties. Classical adsorption models such as the GAB
+and H-H models can further explain DVS data to gain deeper insights into
+the hygroscopic properties of materials. Although some scholars argue that
+these models have certain limitations when studying wood and other lig-
+nocellulosic materials22, it is important to emphasize that the GAB and H-H
+models remain the most widely used and suitable adsorption models for
+studying the hygroscopicity of lignocellulosic materials at this stage. In
+particular, they provide valuable physical insights while explaining the
+hygroscopic behavior of materials. Moreover, DVS has been widely applied
+in other ﬁelds for evaluating moisture absorption23–25. Researchers have not
+only focused on the hygroscopic properties of materials but have also
+employed kineticand thermodynamicapproachesto assessthe rate of water
+adsorption26,27, the spontaneity of adsorption, and the energy required for
+adsorption under various environmental conditions28,29. These studies
+contribute to a comprehensive understanding of a material’s moisture
+absorption characteristics and offer important insights for regulating
+environmental conditions during the production, use, and preservation of
+materials. However, previous studies have yet to systematically examine the
+differences in moisture absorption between ancient Tibetan Palm Leaf
+Manuscripts and modern, well-preserved manuscripts. Additionally, there
+has been no comprehensive use of kinetic and thermodynamic methods to
+assess the hygroscopic properties of these manuscripts.
+This study focuses on ancient Tibetan Palm Leaf Manuscripts and
+modern, well-preserved manuscripts as its primary research subjects. Using
+Dynamic Vapor Sorption (DVS), the study aims to assess the differences in
+hygroscopic properties between the two types of manuscripts under varying
+temperature and relative humidity conditions. Additionally, it seeks to
+investigate the impact of long-term natural aging on the moisture absorp-
+tion characteristics of these manuscripts. The study further incorporates
+kinetic and thermodynamic methods to comprehensively evaluate the
+kinetic and thermodynamic properties associated with the hygroscopic
+behavior of ancient Tibetan Palm Leaf Manuscripts. The primary objective
+of this research is to elucidate the hygroscopicity and its kinetic and ther-
+modynamic properties in ancient Tibetan Palm Leaf Manuscripts, with the
+goal of providing insights into the degradation mechanisms of this
+invaluable cultural heritage and offering guidance for developing preventive
+conservation strategies.
+Methods
+Experimental materials
+Theancientsamples (APLM) inthisstudyconsistof fragments of PalmLeaf
+Manuscripts preserved in Tibet, China, dating back to approximately the
+12th to 14th centuries. Due to the cold, dry climate and insufﬁcient pre-
+servation conditions in Tibet, these manuscripts have undergone signiﬁcant
+deterioration, with severe cases exhibiting breakage and ﬁber loss. To
+minimize the inﬂuence of ink and adhesives on the hygroscopicity results,
+portions of the manuscripts without ink were selected for testing.
+The control samples (HPLM) in this study are unprocessed Palm Leaf
+Manuscripts from Yunnan Province, China. These samples were produced
+using traditional Palm Leaf Manuscript-making techniques, which have
+been recognized as a National Intangible Cultural Heritage of China. The
+leaves of the talipot palm (Corypha umbraculifera L.) underwent processes
+such as boiling, washing, drying, trimming, and ﬂattening7, resulting in the
+healthy Palm Leaf Manuscripts used in this study. To avoid the inﬂuence of
+pigments and binding materials on the results, no additional treatments,
+such as writing or coloring, were applied to the control samples.
+For each sample type, ﬁve non-continuous replicate samples
+(approximately 10 mm × 10 mm in size and weighing about 30 mg each)
+were selected for subsequent experiments, as shown in Fig. 1.
+Simultaneous DVS
+A high-throughput dynamic vapor sorption analyzer (SPSx-1μ, ProUmid,
+Germany) was utilized to measure the maximum moisture content of the
+samples under constant temperature and varying relative humidity condi-
+tions. This device was also used to obtain the isothermal moisture adsorp-
+tion and desorption curves within the tested humidity range. The test range
+for relative humidity (RH) spanned from 0% to 90%, with humidity control
+gradients set at 10% RH increments from 0% to 90%. The desorption phase
+followed the same gradient as the adsorption phase. The temperature was
+maintained at 15 °C, 25 °C, and 35 °C, respectively. Equilibrium conditions
+were deﬁned as a change in sample weight of no more than 0.1% within
+10 minutes, or a maximum measurement duration of 720 minutes per
+gradient.
+By measuring the equilibrium moisture content of the samples during
+both the adsorption and desorption phases, the desorption hysteresis curve
+of the sample can be further derived through data processing. Desorption
+hysteresis refers to the lag phenomenon that occurs when the adsorption
+and desorption processes of a substance on a material do not fully coincide.
+This phenomenonis quantiﬁed bythe hysteresisvalue, which represents the
+difference in equilibrium moisture content between the adsorption and
+desorption processes at the same humidity level.
+Adsorption models
+The hygroscopicity test results were ﬁtted using two classic models, and the
+model parameters were calculated using software (SPSS Statistics 22, IBM,
+USA) to further elucidate the hygroscopic characteristics of the samples.
+The Guggenheim-Anderson-de Boer (GAB) model equation is as
+follows:
+EMC ¼
+Mm  CGAB  KGAB  RH
+ð1  KGAB  RHÞ  ð1  KGAB  RH þ CGAB  KGAB  RHÞ
+ð1Þ
+Where EMC (%) is the equilibrium moisture content; RH (%) is the RH;
+Mm is the monolayer capacity; CGAB (%) is an equilibrium constant related
+to monolayer sorption; and KGAB (%) is an equilibrium constant related to
+multilayer sorption29.
+Fig. 1 | Photograph of the samples.
+https://doi.org/10.1038/s40494-025-01988-1
+Article
+npj Heritage Science | (2025) 13:412 
+2
+
+--- PAGE 3 ---
+The Hailwood-Horrobin (H-H) model equation is as follows:
+EMC ¼ Mh þ Ms ¼ 1800
+w
+
+k1  k2  RH
+100 þ k1  k2  RH þ 1800
+w
+
+k2  RH
+100  k2  RH
+ð2Þ
+Where Mh is the monolayer moisture content (%); Ms is the multilayer
+moisture content (%); w is the molecular weight of the wood at every
+adsorption site; and k1 and k2 are equilibrium constants in the sorption
+process20.
+Dynamic model
+The hygroscopic test results over time for the samples were ﬁtted using the
+Pagemodel,andthemodelparameterswerecalculatedusingsoftware(SPSS
+Statistics 22, IBM, USA) to further elucidate the hygroscopic kinetics of the
+samples.
+The Page model equation is as follows26:
+MR ¼ expðktnÞ
+ð3Þ
+Where MR represents is the moisture content variation at different time
+points; k is the adsorption or desorption rate constant used to describe the
+average adsorption or desorption rate of the sample under a given relative
+humidity condition; and n is the exponent parameter used to describe the
+nonlinear characteristicsof the adsorption or desorption rate over time. The
+value of MR is calculated using the following equation:
+MR ¼ Mt  EMC
+M0  EMC
+ð4Þ
+Where Mt (%)is the moisture content of the sample at time t; M0 (%) is the
+initial moisture content of the sample.
+Thermodynamic characteristics
+Thenetisostericsorptionheat(Qst)representstheminimumenergyrequired
+toeitherabsorborremovemoisture fromamaterialduringtheadsorptionor
+desorption process30. It is determined usingthe Clausius-Clapeyron equation
+by plotting ln aw
+
+
+against (1/T), with the assumptions that the system
+maintains a constant equilibrium moisture content, and temperature does
+not affect the heat of pure water vaporization or excess sorption heat27,31. The
+net isosteric sorption heat is calculated using the following equation:
+dðlnawÞ
+dð1
+TÞ
+¼  Qst
+R
+ð5Þ
+Where aw is the water activity; T (in Kelvin) is the temperature; Qst (kJ/mol)
+is the net isosteric sorption heat; and R is the ideal gas constant with
+8.314×10−3kJ/(mol·K) value.
+The sorption entropy (Sd) reﬂects the interactions between water
+moleculesandmaterialscomponentsandaidsinunderstandingthechanges
+in materials during the adsorption and desorption processes27,28. The
+sorption entropy is calculated using the following equation:
+ln aw
+
+
+¼  Qst
+RT þ Sd
+R
+ð6Þ
+Where Sd (kJ/(mol·K)) is the sorption entropy.
+Furthermore, Gibbs free energy (ΔG) offers insight into whether
+moisture adsorption or desorption occurs as a spontaneous process (indi-
+cated by ΔG) or requires energy input (indicated by þΔG)32. The Gibbs
+free energy is calculated using the following equation:
+ΔG ¼ Qst  SdT
+ð7Þ
+Where ΔG (kJ/mol) is the Gibbs free energy.
+Infrared spectrum testing
+The samples were ﬁnely ground and passed through a 200-mesh sieve. They
+were then mixed with KBr (spectrally pure, Macklin, Shanghai, China) at a
+mass ratio of 1:100 and pressed into pellets. The chemical structure of the
+samples was characterized using Fourier transform infrared spectroscopy
+(Nicolet™iS™5, Thermo Scientiﬁc, Waltham, MA, USA), to compare the
+differences in the characteristic functional groups before and after aging.
+Inordertofurthercharacterizethechangesto thechemicalstructureof
+the samples, the infrared spectra of the samples were analyzed semi-
+quantitatively, using the peak intensity method. The absorption peaks at
+1730 cm−1 (stretching vibration by the carbonyl group on hemicellulose)
+and 1460 cm−1 (stretching vibration by the methylene group on hemi-
+cellulose) were selected as the characteristic peaks of hemicellulose, and the
+absorption peak at 1505 cm−1 (backbone vibration of butyl propane in butyl
+lignin) was chosen to represent lignin, and the absorption peaks at
+1370 cm−1 (bending vibration by the methyl group on cellulose) and
+1050 cm−1 (bending vibration by the glycosidic bond on cellulose) were
+chosen to represent cellulose33–35. Additionally, the absorption peak at
+3300 cm⁻¹ (stretching vibration by the hydroxyl groups on cellulose and
+intermolecular hydrogen bonds) is used to represent the hydroxyl groups in
+the samples. The intensity values of the infrared spectral peaks were mea-
+sured after baseline correction using software (OMNIC 9.2, Thermo
+Scientiﬁc, USA).
+Results
+Hygroscopicity of the samples
+The relationship between the equilibrium moisture content (EMC) of the
+samples and the relative humidity (RH) of the environment is represented
+by the isothermal adsorption curves36. The isothermal moisture adsorption
+curves of the samples at different temperatures (15 °C, 25 °C, and 35 °C) are
+shown in Fig. 2a–c. The isothermal adsorption curves of the samples follow
+the Type II adsorption isotherm, as classiﬁed by IUPAC37, which is char-
+acteristic of the hygroscopic behavior of cellulose-based materials.
+At lower relative humidity levels, the equilibrium moisture content of
+the two sample types is similar. However, as humidity increases, the equi-
+librium moisture content of the ancient Tibetan Palm Leaf Manuscripts
+(APLM) becomes signiﬁcantly higher than that of the healthy Palm Leaf
+Manuscripts (HPLM). For example, at a temperature of 25 °C and 60% RH,
+the equilibrium moisture contents for APLM and HPLM are 9.42% and
+8.91%, respectively, while at 90% RH, they are 23.76% and 18.85%,
+respectively (Fig. 2b). This trend is consistent at other temperatures, such as
+15 °C, where the equilibrium moisture contents at 90% RH for APLM and
+HPLM are 25.20% and 20.14%, respectively (Fig. 2a), and at 35 °C, where
+they are 21.82% and 16.81%, respectively (Fig. 2c). These results indicate
+thatthe hygroscopicity of palm leaves signiﬁcantly increases afterprolonged
+natural aging.
+Additionally, at the same relative humidity, the equilibrium moisture
+content of the samples decreases with increasing temperature and increases
+as the temperature decreases. For example, under 90% RH conditions, the
+equilibrium moisture contents for APLM are 25.20% at 15 °C, 23.76% at
+25 °C, and 21.82% at 35 °C. For HPLM, the corresponding values are
+20.14%, 18.85%, and 16.81%. This behavior occurs because higher tem-
+peratures increase molecular activity, which weakens the intermolecular
+forces that hold water molecules at the adsorption sites within the material,
+leading to a reduction in equilibrium moisture content38.
+The hysteresis curves of the samples at different temperatures (15 °C,
+25 °C, and 35 °C) are shown in Fig. 2d–f.
+Forallsamples,thehysteresisvaluesinitiallyincreaseandthendecrease
+with rising humidity, which is characteristic of cellulose-based materials.
+The key distinction lies in the peak hysteresis values: HPLM generally
+reaches its peak within the 70% to 80% RH range (Fig. 2d, e), while APLM
+peaks between 50% and 60% RH. Larger hysteresis values indicate slower
+absorption or release of moisture during humidity ﬂuctuations, signifying
+more stable moisture retention39. This suggests that HPLM exhibits better
+hygroscopic stability in high-humidity environments (≥70% RH), whereas
+https://doi.org/10.1038/s40494-025-01988-1
+Article
+npj Heritage Science | (2025) 13:412 
+3
+
+--- PAGE 4 ---
+APLM demonstrates greater stability in medium humidity environ-
+ments (50%RH ~ 60% RH). Notably, in medium to low humidity con-
+ditions, APLM’s hysteresis values are equal to or even exceed those of
+HPLM (Fig. 2d, e). This indicates that while long-term natural aging has
+increased the hygroscopicity of the palm leaves, it has also enhanced
+their moisture adsorption stability in medium to low humidity envir-
+onments. Additionally, although HPLM exhibits better hysteresis values
+in high-humidity environments (≥70% RH), other studies have con-
+ﬁrmed that such high humidity conditions can lead to mold growth,
+chemical composition degradation, and a decline in mechanical prop-
+erties of the materials12,13,15. Therefore, storing the samples in medium to
+low humidity environments (≤60% RH) remains the better choice for
+their preservation.
+As the temperature increases, particularly at 35 °C (Fig. 2f), the hys-
+teresis values of the samples decrease signiﬁcantly. For example, the peak
+hysteresis values for HPLM at 15 °C, 25 °C, and 35 °C are 3.03%, 3.07%, and
+1.98%, respectively, while APLM’s peak values are 3.01%, 2.69%, and 1.81%.
+This phenomenon can be explained by the effect of temperature on
+enhancing molecular motion, which weakens the intermolecular forces that
+hold water molecules at adsorption sites within the material. As a result,
+moisture is more easily released, leading to a reduction in hysteresis values.
+Additionally, the increase in temperature causes APLM’s peak hysteresis
+value to shift towards lower humidity ranges, while the range for HPLM
+remains unaffected.
+The hygroscopic and hysteresis results suggest that Tibetan Palm Leaf
+Manuscripts, after prolonged natural aging, are best preserved in an
+environment with 50% to 60% RH. This range helps maintain a stable
+moisture content and ﬂexibility, while minimizing further damage from
+humidity ﬂuctuations.
+Adsorption models of the samples
+To further investigate the adsorption behavior of palm leaves, the
+isothermal adsorption curves of the samples were ﬁtted using the GAB
+model and the H-H model. Table 1 and Table 2 provide detailed list-
+ings of the model parameters calculated the samples, with high coef-
+ﬁcients of determination (R² > 0.99) conﬁrming the validity of these
+models.
+GAB model of the samples
+At15 °C,25 °C,and 35 °C,the monolayercapacity(Mm) forHPLMis4.638,
+4.336, and 4.183, respectively, while APLM’s monolayer capacities are
+consistently higher at 5.154, 4.882, and 4.523 (Table 1). These data indicate
+that aged palm leaves possess more monolayer adsorption sites than heal-
+thier palm leaves. Studies on the hygroscopicity of cellulose-based materials
+have conﬁrmed that a higher Mm typically corresponds to lower cellulose
+crystallinity40. This suggests that prolonged natural aging has led to cellulose
+degradation in the samples, causing a transition from crystalline to amor-
+phous regions41. This transition reducesthe crystallinity of cellulose,thereby
+exposing more adsorption sites.
+Furthermore, the Mm values for both HPLM and APLM decrease as
+the temperature rises. This can be attributed to increased molecular activity
+at higher temperatures, which weakens the intermolecular forces holding
+water molecules at the adsorption sites, preventing water molecules from
+fully occupying these sites. Consequently, Mm decreases at elevated tem-
+peratures. Previous research has indicated that high temperatures can
+promote the transition of cellulose from amorphous to crystalline regions42,
+thereby increasing cellulose crystallinity and reducing Mm. However, the
+maximum temperature applied in this study was only 35 °C for a short
+duration, which is insufﬁcient to rapidly increase cellulose crystallinity.
+Therefore, the decline in Mm is primarily due to heightened molecular
+activity and the escape of moisture induced by the increased temperature.
+H-H model of the samples
+In the H-H model, P represents the number of adsorption sites within the
+material. At 15 °C, 25 °C, and 35 °C, the P values for HPLM are 2.451, 2.409,
+and 2.317, respectively, whereas for APLM, they are 2.863, 2.826, and 2.679
+(Table 2), consistently higher than those for HPLM. This suggests that
+prolonged natural aging has increased the number of adsorption sites in the
+samples. As the temperature increases, the number of effective adsorption
+sites—those actually occupied by water molecules—gradually decreases,
+which is consistent with the analysis from the GAB model.
+According to the H-H model, the overall isothermal adsorption
+moisture content of a material can be divided into monolayer adsorption
+moisture content (Mh) and multilayer adsorption moisture content (Ms)43.
+TheMh and Ms valuesobtained fromthe H-H modelduringthe adsorption
+Fig. 2 | The isothermal moisture adsorption curves and desorption hysteresis
+curves of the samples. a Isothermal moisture adsorption curves at 15 °C.
+b Isothermal moisture adsorption curves at 25 °C. c Isothermal moisture adsorption
+curves at 35 °C. d Desorption hysteresis curves at 15 °C. e Desorption hysteresis
+curves at 25 °C. f Desorption hysteresis curves at 35 °C.
+https://doi.org/10.1038/s40494-025-01988-1
+Article
+npj Heritage Science | (2025) 13:412 
+4
+
+--- PAGE 5 ---
+and desorption processes at different temperatures are shown in Fig. 3. It is
+generally accepted that in low humidity environments (0% to 40% RH), the
+adsorption of moisture by cellulose-based materials is primarily driven by
+monolayer adsorption21,44. As relative humidity increases and monolayer
+adsorption sites become occupied, the inﬂuence of monolayer adsorption
+gradually stabilizes, and multilayer adsorption begins to play a more sig-
+niﬁcantroleinthemoistureadsorptionprocess.Thispatternisobservablein
+allsamplesandalsoexplainswhytheisothermalmoistureadsorptioncurves
+of the samples follow a Type II isotherm, characterized by a ‘rapid-slow-
+rapid’ increase in equilibrium moisture content.
+During the adsorption process, Mh values for APLM consistently
+exceed those of HPLM. However, as temperature rises, Mh for APLM
+gradually decreases, while Mh for HPLM remains relatively stable
+(Fig.3a–c).Forexample,at15 °C,25 °C,and35 °C,themaximumMh values
+for APLM are 4.60%, 4.25%, and 4.21%, respectively, compared to 4.05%,
+3.98%, and 4.00% for HPLM. This suggests that prolonged natural aging
+increases the number of monolayer adsorption sites in the palm leaves,
+thereby enhancing Mh. However, as temperature and molecular activity
+increase, these additionaladsorptionsites are not fully occupied, resulting in
+a decrease in Mh. Ms typically reﬂects a material’s capacity for physical
+adsorption and capillary action in higher humidity environments, primarily
+associated with multilayer adsorption in microporous structures. During
+the adsorption process, Ms for APLM also remains higher than for HPLM,
+and both values decrease as temperature rises (Fig. 3d–f). For APLM, the
+maximum Ms values at 15 °C, 25 °C, and 35 °C are 20.63%, 19.95%, and
+17.49%,respectively,whileforHPLM,theyare15.75%,15.13%,and12.63%.
+Thissuggeststhatprolongednaturalagingenhancesthephysicaladsorption
+and capillary action of palm leaves, thereby increasing Ms. However, higher
+environmental temperatures weaken these properties, as reﬂected by the
+decrease in Ms with rising temperature.
+Duringdesorption,bothAPLMandHPLMexhibitsigniﬁcantlyhigher
+Mh values compared to the adsorption process. However, as temperature
+increases, APLM’sMh decreases morenotably, whileHPLM’sMh decreases
+less signiﬁcantly. This is evident from APLM consistently having higher Mh
+than HPLM at 15 °C and 25 °C (Fig. 3a, b), whereas at 35 °C and higher
+humidity, HPLM’s Mh surpasses APLM’s (Fig. 3c). Speciﬁcally, during
+desorption, the maximum Mh values for APLM at 15 °C, 25 °C, and 35 °C
+are 6.76%, 5.91%, and 5.37%, respectively, while for HPLM, they are 6.50%,
+5.81%, and 5.71%. The change in Ms during desorption, compared to
+adsorption, is less pronounced. In some cases, Ms decreases at 15 °C and
+Table 1 | GAB model ﬁtting parameters for the samples
+Samples
+Process
+GAB Model
+Mm
+CGAB
+KGAB
+R2
+HPLM-15 °C
+ad
+4.638 ± 0.328
+13.635 ± 0.431
+0.0085 ± 0.0001
+0.998
+de
+7.797 ± 0.569
+8.938 ± 0.159
+0.0073 ± 0.0001
+0.999
+HPLM-25 °C
+ad
+4.336 ± 0.113
+15.717 ± 0.725
+0.0087 ± 0.0002
+0.999
+de
+6.746 ± 0.249
+11.007 ± 0.691
+0.0077 ± 0.0001
+0.999
+HPLM-35 °C
+ad
+4.183 ± 0.086
+12.480 ± 0.694
+0.0082 ± 0.0001
+0.998
+de
+6.819 ± 0.124
+9.374 ± 0.277
+0.0068 ± 0.0001
+1.000
+APLM-15 °C
+ad
+5.154 ± 0.246
+11.327 ± 1.013
+0.0088 ± 0.0001
+1.000
+de
+7.706 ± 0.437
+11.156 ± 1.215
+0.0078 ± 0.0002
+1.000
+APLM-25 °C
+ad
+4.822 ± 0.095
+20.408 ± 0.987
+0.0091 ± 0.0001
+0.999
+de
+6.385 ± 0.481
+17.077 ± 1.587
+0.0084 ± 0.0002
+0.999
+APLM-35 °C
+ad
+4.523 ± 0.264
+10.185 ± 0.693
+0.0087 ± 0.0001
+0.999
+de
+5.800 ± 0.450
+18.114 ± 1.942
+0.0082 ± 0.0002
+0.999
+In the table, ad represents the adsorption process, de represents the desorption process, Mm represents the monolayer capacity, CGAB (%) is the equilibrium constant related to monolayer adsorption, and
+KGAB (%) is the equilibrium constant related to multilayer adsorption.
+Table 2 | H-H model ﬁtting parameters for the samples
+Samples
+Process
+H–H Model
+w
+k1
+k2
+P
+R2
+HPLM-15 °C
+ad
+408.035 ± 25.916
+14.44 ± 1.093
+0.868 ± 0.007
+2.451 ± 0.146
+0.996
+de
+230.844 ± 17.216
+7.938 ± 0.165
+0.704 ± 0.009
+/
+0.999
+HPLM-25 °C
+ad
+415.087 ± 11.216
+14.717 ± 0.729
+0.869 ± 0.007
+2.409 ± 0.067
+1.000
+de
+243.135 ± 10.878
+5.338 ± 0.776
+0.757 ± 0.014
+/
+0.998
+HPLM-35 °C
+ad
+431.510 ± 6.901
+11.480 ± 0.601
+0.820 ± 0.005
+2.317 ± 0.036
+0.998
+de
+263.956 ± 4.245
+8.374 ± 0.239
+0.686 ± 0.006
+/
+1.000
+APLM-15 °C
+ad
+349.252 ± 18.314
+10.327 ± 1.899
+0.889 ± 0.007
+2.863 ± 0.142
+1.000
+de
+233.598 ± 12.883
+10.156 ± 1.326
+0.783 ± 0.013
+/
+1.000
+APLM-25 °C
+ad
+353.850 ± 24.545
+16.507 ± 1.519
+0.904 ± 0.024
+2.826 ± 0.118
+0.999
+de
+281.890 ± 15.223
+15.970 ± 1.524
+0.844 ± 0.021
+/
+0.999
+APLM-35 °C
+ad
+373.295 ± 14.669
+9.185 ± 0.603
+0.871 ± 0.013
+2.679 ± 0.101
+0.999
+de
+310.356 ± 21.797
+17.114 ± 2.943
+0.820 ± 0.020
+/
+0.999
+In the table, ad represents the adsorption process, de represents the desorption process, and w is the molecular weight of the wood at each adsorption site. k1 and k2 are the equilibrium constants related to
+monolayer and multilayer adsorption, respectively. P indicates the number of adsorption sites in the material, primarily associated with hydrophilic groups (-OH and C = O).
+https://doi.org/10.1038/s40494-025-01988-1
+Article
+npj Heritage Science | (2025) 13:412 
+5
+
+--- PAGE 6 ---
+35 °C (Fig. 3d, f). This suggests that the desorption hysteresis of palm leaves
+is primarily determined by the substantial increase inmonolayer adsorption
+moisture content. This observation further explains why APLM exhibits
+stronger desorption hysteresis in medium to low humidity environments
+(≤60% RH), while HPLM shows greater desorption hysteresis in high-
+humidity environments (≥70% RH).
+Kinetic characteristics of the samples
+To investigate the kinetic characteristics of the samples’ hygroscopic
+properties, dynamic equilibrium curves for adsorption and desorption at
+differenttemperaturesandrelativehumiditylevelswereplotted,asshownin
+Figs. 4 and 5. The initial slope of the curve indicates the sample’s initial
+adsorption or desorption rate in response to humidity changes, while the
+endpoint of the curve reﬂects the change in equilibrium moisture content
+and the time required to reach equilibrium within that gradient. For
+example, the adsorption curve at 90% RH represents the sample’s dynamic
+equilibrium moisture adsorption from 80% RH to 90% RH, whereas the
+desorption curve at 0% RH depicts the sample’s dynamic equilibrium
+moisture desorption from 10% RH to 0% RH.
+During the adsorption process, the initial adsorption rates of HPLM at
+different relative humidities are generally consistent. However, the time
+required to reach equilibrium decreases initially and then increases as
+relative humidity rises (Fig. 4a–c). This trend is primarily determined by the
+increase in moisture content at the given relative humidity, with more
+moisturerequiringalongertimetoreachequilibrium.Forinstance,at25 °C,
+the moisture content increases by 1.85%, 1.06%, and 5.14% at 10% RH, 30%
+RH, and 90% RH, respectively, with equilibrium times of 3.25 hours,
+2.50 hours, and 6.25 hours. This behavior is explained by the H-H model,
+which suggests that as humidity increases, moisture adsorption transitions
+from being primarily driven by monolayer adsorption to multilayer
+adsorption (Fig. 3).
+APLM also shows a similar trend of decreasing and then increasing
+equilibrium times with rising relative humidity. The difference lies in the
+signiﬁcantly higher initial adsorption rate of APLM at both low and high
+humidities compared to moderate humidity (Fig. 4d–f). This is con-
+sistent with the ﬁndings on the sample’s hysteresis, which show that
+APLM absorbs or releases moisture more slowly and maintains moisture
+more stably at moderate humidity (Fig. 2d–f). Additionally, although
+APLM adsorbs more moisture than HPLM at the same relative
+humidity, it requires less time to reach equilibrium. For example, at
+25 °C, the moisture content increases by 5.14% for HPLM and 7.24% for
+APLM at 90% RH, with equilibrium times of 6.25 hours and 4.25 hours,
+respectively. This suggests that, after prolonged natural aging, palm
+leaves not only have an improved capacity to adsorb moisture but also
+exhibit a signiﬁcantly increased adsorption rate.
+During the desorption process, the trend in equilibrium time is similar
+to that observed during the adsorption phase. The more moisture is
+removed ata givenrelativehumidity,thelongerittakestoreachequilibrium
+(Fig. 5). However, the time required to reach equilibrium during desorption
+is generally longer than during adsorption. This is primarily because des-
+orbed water molecules must overcome intermolecular forces, such as
+hydrogenbondsandvanderWaalsforces,aswellastheadsorptionsitesand
+capillary forces on the material’s surface38. These forces impede the deso-
+rption process, leading to a longer time to reach equilibrium, which is a
+signiﬁcant manifestation of the sample’s desorption hysteresis.
+Additionally, as temperature increases, the initial adsorption or deso-
+rptionrates of thesamples signiﬁcantlyrise,whilethe time requiredto reach
+equilibriumdecreasesmarkedly.Forexample,at15 °C,25 °C,and35 °C,the
+equilibrium times for HPLM at 90% RH are 9.00 hours, 6.25 hours, and
+3.25 hours, respectively (Fig. 5a–c), while for APLM, they are 5.75 hours,
+4.25 hours, and 3.00 hours, respectively (Fig. 5d–f).
+The underlying causes for this phenomenon are twofold: ﬁrst, the
+increase in temperature promotes molecular motion, which enhances the
+rate at which the sample adsorbs or desorbs moisture; second, higher
+temperatureslowerthesample’sequilibriummoisturecontent,reducingthe
+change in moisture content during humidity ﬂuctuations. This allows the
+sample to reach equilibrium more quickly.
+To further investigate the kinetic characteristics of the samples’
+hygroscopic properties, the dynamic equilibrium curves for adsorption and
+desorption were ﬁtted using the Page model. Tables 3–5 provide detailed
+listings of the calculated model parameters for the samples. The high
+coefﬁcients of determination (with most R² values exceeding 0.99 and a few
+exceeding 0.98) conﬁrm the validity of these models.
+Figure 6 shows the adsorption and desorption rate constants (k) for the
+samples at different temperatures and relative humidities, as determined by
+the Page model. To better illustrate the trends of k as a function of tem-
+perature and relative humidity, the values have been converted to loga-
+rithmic values with base 10.
+Fig. 3 | The Mh and Ms of the samples. a Mh at 15 °C. b Mh at 25 °C. c Mh at 35 °C. d Ms at 15 °C. e Ms at 25 °C. f Ms at 35 °C.
+https://doi.org/10.1038/s40494-025-01988-1
+Article
+npj Heritage Science | (2025) 13:412 
+6
+
+--- PAGE 7 ---
+During the adsorption phase, the trend of k for APLM and HPLM
+varies with relative humidity. As relative humidity increases, APLM’s k
+initially decreases and then increases, reaching a minimum at 60% RH,
+where its adsorption rate is the lowest (Fig. 6a–c). For example, at 25 °C,
+APLM’s k values at 10% RH, 60% RH, and 90% RH are 3.836, 1.752, and
+2.384, respectively.Thissuggeststhat APLM adsorbsmoisturefasterinboth
+high and low humidity environments but more slowly in moderate
+humidity, which aligns with the hysteresis ﬁndings. In contrast, HPLM’s k
+increases initially and then decreases with increasing relative humidity,
+exhibiting faster moisture adsorption at moderate humidity and slower
+adsorption at both high and low humidity. For instance, at 25 °C, HPLM’s k
+values at 10% RH, 60% RH, and 90% RH are 0.778, 1.354, and 0.854,
+respectively.
+Moreover, under all temperature and relative humidity conditions,
+APLM’s k is consistently higher than HPLM’s. This further indicates that,
+after prolonged natural aging, palm leaves not only have an improved
+capacity to adsorb moisture but also exhibit a signiﬁcantly increased
+adsorption rate. This trend supports the conclusion that aging enhances the
+hygroscopic properties of the palm leaves, enabling them to respond more
+quickly to changes in humidity.
+Duringthe desorption phase, the trend of k for APLM and HPLM with
+respect to relative humidity is generally similar. The k values are quite close
+Fig. 4 | Dynamic equilibrium moisture adsorption curves of samples. a HPLMat15°C.bHPLMat25°C.cHPLMat35°C.dAPLMat15°C.eAPLMat25°C.fAPLMat35°C.
+Fig. 5 | Dynamic equilibrium moisture desorption curves of the samples. a HPLM at 15 °C. b HPLM at 25 °C. c HPLM at 35 °C. d APLM at 15 °C. e APLM at 25 °C. f APLM
+at 35 °C.
+https://doi.org/10.1038/s40494-025-01988-1
+Article
+npj Heritage Science | (2025) 13:412 
+7
+
+--- PAGE 8 ---
+in moderate to high humidity, but at low humidity, especially from 10%
+RH to 0% RH, the desorption rate is slower (Fig. 6d–f). This may be due
+to the fact that, at lower humidities, the material requires more energy to
+overcome hydrogen bonds, van der Waals forces, and other interactions
+to fully release moisture, resulting in a longer equilibrium time. Addi-
+tionally, under all temperature and relative humidity conditions,
+APLM’s k is consistently higher than HPLM’s, which is consistent with
+the adsorption phase. This suggests that, after prolonged natural aging,
+palm leaves exhibit signiﬁcantly increased rates of both moisture
+adsorption and desorption. The enhanced desorption rate of APLM
+further supports the conclusion that the aging process improves the
+palm leaves’ ability to quickly adjust to changes in humidity, allowing
+them to more effectively release moisture in both low and high humidity
+environments.
+As the temperature increases, both APLM and HPLM exhibit a sig-
+niﬁcant increase in k during both the adsorption and desorption phases. For
+example, at 15 °C, 25 °C, and 35 °C, APLM’s adsorption k at 90% RH are
+1.913, 2.384, and 3.667, respectively, while HPLM’s adsorption k are 0.498,
+Table 3 | Page model ﬁtting parameters for the samples at different RH in 15 °C
+RH(%)
+Process
+HPLM
+APLM
+k
+n
+R2
+k
+n
+R2
+0
+de
+0.518 ± 0.041
+0.900 ± 0.095
+0.998
+0.801 ± 0.021
+0.703 ± 0.071
+0.995
+10
+ad
+0.636 ± 0.018
+0.947 ± 0.084
+0.999
+3.526 ± 0.130
+0.724 ± 0.068
+0.999
+de
+1.269 ± 0.029
+0.800 ± 0.076
+0.996
+1.798 ± 0.024
+0.504 ± 0.059
+0.999
+20
+ad
+0.881 ± 0.036
+0.990 ± 0.093
+0.999
+4.869 ± 0.133
+0.748 ± 0.082
+0.996
+de
+1.335 ± 0.026
+0.737 ± 0.082
+0.993
+1.742 ± 0.009
+0.492 ± 0.059
+0.992
+30
+ad
+1.159 ± 0.064
+0.840 ± 0.088
+0.996
+2.486 ± 0.062
+0.576 ± 0.055
+0.991
+de
+1.419 ± 0.017
+0.705 ± 0.056
+0.996
+1.727 ± 0.022
+0.747 ± 0.075
+0.991
+40
+ad
+1.204 ± 0.060
+0.78 ± 0.077
+0.997
+2.231 ± 0.092
+0.662 ± 0.046
+0.994
+de
+1.419 ± 0.037
+0.705 ± 0.058
+0.996
+2.190 ± 0.028
+0.415 ± 0.036
+0.996
+50
+ad
+1.214 ± 0.011
+0.775 ± 0.068
+0.991
+1.968 ± 0.052
+0.752 ± 0.068
+0.998
+de
+1.335 ± 0.022
+1.071 ± 0.084
+0.992
+2.163 ± 0.036
+0.548 ± 0.045
+0.989
+60
+ad
+1.459 ± 0.024
+0.832 ± 0.045
+0.996
+1.521 ± 0.061
+0.691 ± 0.065
+0.992
+de
+1.311 ± 0.008
+0.692 ± 0.059
+0.996
+2.255 ± 0.025
+0.500 ± 0.045
+0.990
+70
+ad
+1.055 ± 0.040
+0.957 ± 0.077
+0.998
+1.542 ± 0.063
+0.765 ± 0.074
+0.999
+de
+1.425 ± 0.013
+0.711 ± 0.036
+0.998
+2.311 ± 0.013
+0.568 ± 0.033
+0.991
+80
+ad
+1.066 ± 0.042
+0.831 ± 0.056
+0.999
+1.873 ± 0.056
+0.888 ± 0.072
+0.999
+de
+1.459 ± 0.082
+0.729 ± 0.067
+0.998
+2.343 ± 0.013
+0.542 ± 0.045
+0.998
+90
+ad
+0.498 ± 0.069
+0.964 ± 0.082
+0.999
+1.213 ± 0.048
+0.955 ± 0.099
+0.993
+Table 4 | Page model ﬁtting parameters for the samples at different RH in 25 °C
+RH(%)
+Process
+HPLM
+APLM
+k
+n
+R2
+k
+n
+R2
+0
+de
+0.631 ± 0.029
+0.996 ± 0.089
+0.997
+1.332 ± 0.148
+0.817 ± 0.079
+0.992
+10
+ad
+0.778 ± 0.050
+0.893 ± 0.067
+0.995
+3.836 ± 0.171
+0.583 ± 0.048
+0.997
+de
+1.259 ± 0.099
+0.824 ± 0.054
+0.996
+3.303 ± 0.373
+0.716 ± 0.059
+0.993
+20
+ad
+0.900 ± 0.059
+0.946 ± 0.095
+0.994
+6.671 ± 0.711
+1.026 ± 0.102
+0.999
+de
+1.343 ± 0.041
+0.638 ± 0.049
+0.991
+3.607 ± 0.199
+0.579 ± 0.043
+0.993
+30
+ad
+1.123 ± 0.079
+0.927 ± 0.085
+0.995
+5.899 ± 0.469
+0.794 ± 0.065
+0.984
+de
+1.423 ± 0.112
+0.607 ± 0.079
+0.991
+4.174 ± 0.146
+0.749 ± 0.079
+0.994
+40
+ad
+1.249 ± 0.041
+0.953 ± 0.089
+0.995
+5.154 ± 0.433
+1.018 ± 0.088
+0.999
+de
+1.465 ± 0.089
+0.694 ± 0.077
+0.995
+4.088 ± 0.107
+0.495 ± 0.069
+0.997
+50
+ad
+1.260 ± 0.041
+0.848 ± 0.084
+0.999
+2.486 ± 0.339
+0.587 ± 0.033
+0.997
+de
+1.469 ± 0.016
+0.699 ± 0.079
+0.996
+3.636 ± 0.132
+0.511 ± 0.045
+0.997
+60
+ad
+1.354 ± 0.037
+0.790 ± 0.049
+0.993
+1.752 ± 0.123
+0.556 ± 0.041
+0.993
+de
+1.449 ± 0.088
+0.693 ± 0.033
+0.999
+2.733 ± 0.086
+0.405 ± 0.025
+0.988
+70
+ad
+1.378 ± 0.059
+0.774 ± 0.069
+0.997
+1.850 ± 0.260
+0.748 ± 0.082
+0.994
+de
+1.458 ± 0.046
+0.794 ± 0.058
+0.998
+3.767 ± 0.173
+0.555 ± 0.076
+0.999
+80
+ad
+1.066 ± 0.101
+0.831 ± 0.044
+0.999
+2.311 ± 0.245
+0.833 ± 0.054
+0.997
+de
+1.439 ± 0.048
+0.758 ± 0.039
+0.999
+3.298 ± 0.143
+0.402 ± 0.029
+0.997
+90
+ad
+0.845 ± 0.050
+0.969 ± 0.089
+0.999
+2.384 ± 0.235
+1.098 ± 0.099
+0.998
+https://doi.org/10.1038/s40494-025-01988-1
+Article
+npj Heritage Science | (2025) 13:412 
+8
+
+--- PAGE 9 ---
+0.845, and 1.556 (Fig. 6a–c). Similarly, at 15 °C, 25 °C, and 35 °C, APLM’s
+desorption k at 0% RH are 0.801, 1.332, and 1.731, respectively, while
+HPLM’s desorption k are 0.518, 0.631, and 1.229 (Fig. 6d–f). This increase is
+primarily due to the fact that higher temperatures intensify the molecular
+motion of water molecules, providing them with the necessary energy to
+more rapidly occupy or detach from the adsorption sites on the material’s
+surface. As a result, the rate of moisture adsorption or release is accelerated,
+leading to higher k values. The enhanced kinetic behavior at higher tem-
+peratures further illustrates the material’s increased responsiveness to
+humidity changes, improving both the adsorption and desorption
+processes.
+The kinetic characteristics of the samples’ hygroscopic properties
+further indicate that Tibetan Palm Leaf Manuscripts, after prolonged nat-
+ural aging, are best preserved in an environment with moderate humidity
+Table 5 | Page model ﬁtting parameters for the samples at different RH in 35 °C
+RH(%)
+Process
+HPLM
+APLM
+k
+n
+R2
+k
+n
+R2
+0
+de
+1.229 ± 0.073
+0.897 ± 0.048
+0.996
+1.731 ± 0.096
+0.687 ± 0.041
+0.993
+10
+ad
+2.281 ± 0.098
+1.081 ± 0.098
+0.999
+4.092 ± 0.183
+0.908 ± 0.058
+0.999
+de
+2.878 ± 0.081
+0.863 ± 0.076
+0.998
+4.706 ± 0.227
+0.745 ± 0.032
+0.993
+20
+ad
+2.757 ± 0.198
+1.060 ± 0.094
+0.993
+4.656 ± 0.125
+0.525 ± 0.044
+0.995
+de
+2.776 ± 0.050
+0.633 ± 0.035
+0.987
+3.899 ± 0.111
+0.363 ± 0.045
+0.992
+30
+ad
+3.045 ± 0.123
+0.737 ± 0.038
+0.993
+3.104 ± 0.164
+0.638 ± 0.064
+0.994
+de
+2.623 ± 0.113
+0.637 ± 0.047
+0.993
+3.372 ± 0.217
+0.521 ± 0.035
+0.986
+40
+ad
+2.976 ± 0.086
+0.764 ± 0.062
+0.993
+2.859 ± 0.131
+0.674 ± 0.048
+0.994
+de
+2.456 ± 0.062
+0.517 ± 0.033
+0.989
+3.189 ± 0.288
+0.632 ± 0.067
+0.986
+50
+ad
+2.509 ± 0.213
+0.731 ± 0.078
+0.994
+2.813 ± 0.072
+0.667 ± 0.033
+0.993
+de
+2.226 ± 0.073
+0.564 ± 0.044
+0.993
+3.139 ± 0.163
+0.678 ± 0.042
+0.990
+60
+ad
+2.409 ± 0.259
+0.739 ± 0.095
+0.992
+2.742 ± 0.134
+0.588 ± 0.038
+0.994
+de
+2.183 ± 0.091
+0.619 ± 0.067
+0.989
+2.714 ± 0.089
+0.466 ± 0.057
+0.993
+70
+ad
+2.255 ± 0.151
+0.819 ± 0.078
+0.995
+3.150 ± 0.110
+0.700 ± 0.077
+0.991
+de
+2.334 ± 0.246
+0.618 ± 0.042
+0.996
+2.967 ± 0.100
+0.324 ± 0.026
+0.995
+80
+ad
+2.041 ± 0.165
+0.906 ± 0.091
+0.997
+3.657 ± 0.095
+1.100 ± 0.092
+0.999
+de
+3.433 ± 0.191
+0.867 ± 0.085
+0.993
+4.984 ± 0.077
+0.487 ± 0.033
+0.998
+90
+ad
+1.556 ± 0.137
+1.038 ± 0.099
+0.999
+3.667 ± 0.132
+0.547 ± 0.047
+0.997
+In the tables, the k is the adsorption or desorption rate constant used to describe the average adsorption or desorption rate of the sample under a given relative humidity condition; and n is the exponent
+parameter used to describe the nonlinear characteristics of the adsorption or desorption rate over time.
+Fig. 6 | The adsorption rate constants and desorption rate constants of the samples (converted to logarithmic values with base 10). a ad rate constants at 15 °C. b ad rate
+constants at 25 °C. c ad rate constants at 35 °C. d de rate constants at 15 °C. e de rate constants at 25 °C. f de rate constants at 35 °C.
+https://doi.org/10.1038/s40494-025-01988-1
+Article
+npj Heritage Science | (2025) 13:412 
+9
+
+--- PAGE 10 ---
+(50% to 60% RH) and relatively low temperatures. This environment allows
+the manuscripts to maintain a certain moisture content and ﬂexibility while
+avoiding excessive internal moisture ﬂuctuations. Such ﬂuctuations, which
+could occur with more extreme humidity or temperature changes, have the
+potential to lead to further damage, compromising the integrity of the
+manuscripts. Therefore, controlling both humidity and temperature within
+this optimal range helps minimize the risks associated with environmental
+changes, ensuring better preservation of the manuscripts over time.
+Thermodynamic characteristics of the samples
+To investigate the thermodynamic characteristics of the samples’ hygro-
+scopic properties, the net isosteric sorption heat (Qst) and sorption entropy
+(Sd) at different temperatures and equilibrium moisture contents were
+calculated using the GAB model (with R² > 0.99) and the Clausius-
+Clapeyron equation. The results are shown in Fig. 7.
+The Qst reﬂects the interaction strength between water molecules and
+the material’s adsorption sites. During the adsorption phase, the Qst values
+for APLM and HPLM range from 1.068 to 10.076 kJ/mol and 1.653 to
+6.025 kJ/mol,respectively(Fig.7a). Inthedesorptionphase,Qst ranges from
+1.642 to 14.791 kJ/mol for APLM and from 4.591 to 11.616 kJ/mol for
+HPLM (Fig. 7c). In both phases, Qst decreases progressively with increasing
+equilibrium moisture content. At low moisture content, the material pri-
+marily undergoes monolayer adsorption (Fig. 3), where the direct interac-
+tion between water molecules and the adsorption sites on the material
+surface results in stronger binding energy and, consequently, higher Qst
+values45. As the equilibrium moisture content increases, the adsorption
+mechanism transitions from monolayer to multilayer adsorption, with
+additionalmoistureprimarilyarisingfromintermolecularinteractions.This
+weakens the interaction between the material surface and the water mole-
+cules, thereby reducing Qst. Furthermore, at lower equilibrium moisture
+content (≤10%), Qst for APLM is higher than that for HPLM; however, as
+the equilibrium moisture content increases, Qst for APLM becomes lower
+than that for HPLM. This suggests that APLM exhibits stronger moisture
+adsorption at low-to-moderate humidity, but its adsorption capacity
+diminishesathigherhumiditylevels,makingitmoresusceptibletomoisture
+absorption or release compared to HPLM. These ﬁndings are consistent
+with the observed hysteresis (Fig. 2d–f). Moreover, Qst during the
+desorption phase is higher than during the adsorption phase at the same
+equilibrium moisture content, indicating that more energy is required for
+moisture release, which further reﬂects the desorption hysteresis of the
+samples.
+The Sd represents the degree of disorder in the adsorption or deso-
+rption process of water molecules on the material’s surface. Calculations
+show that the Sd values for APLM and HPLM during the adsorption phase
+range from 2.843 to 12.022 J/(mol·K) and from 3.666 to 6.102 J/(mol·K),
+respectively (Fig. 7b). During the desorption phase, Sd ranges from 4.735 to
+36.274 J/(mol·K) for APLM and from 15.420 to 29.274 J/(mol·K) for HPLM
+(Fig. 7d). The variation in Sd follows a trend similar to that of Sd, with both
+decreasing gradually as the equilibrium moisture content increases. At low
+moisturecontent,moreadsorptionsitesonthematerialsurfaceareavailable
+forwatermoleculebinding,allowingthewatermoleculestoberelativelyfree
+in their arrangement, which results in a higher degree of disorder. As the
+equilibrium moisture content increases and the adsorption sites become
+saturated, interactions such as hydrogen bonds and van der Waals forces
+between the water molecules and the material surface leaded to a more
+ordered and less mobile distribution of the water molecules, causing Sd to
+decrease.Additionally,Sd duringthedesorptionphaseissigniﬁcantlyhigher
+than during the adsorption phase at the same equilibrium moisture content,
+indicating that water molecules exhibit greater mobility during desorption
+than during adsorption29,46.
+Furthermore, Gibbs free energy (ΔG) offers insight into whether
+moisture adsorption or desorption occurs as a spontaneous process (indi-
+cated by ΔG) or requires energy input (indicated by þ ΔG)33. The Gibbs
+free energy (ΔG) of the samples at different temperatures and equilibrium
+moisture contents is shown in Fig. 8.
+TheresultsindicatethattheΔG valuesforallsamplesaregreaterthan0
+and exhibit a decreasing trend as the equilibrium moisture content
+increases. For instance, at 25 °C, ΔG for APLM during the adsorption
+process decreases from 6.494 kJ/mol to 0.221 kJ/mol with increasing equi-
+librium moisture content (Fig. 8b), while during the desorption process, ΔG
+decreases from 3.981 kJ/mol to 0.230 kJ/mol (Fig. 8e). Similarly, for HPLM,
+ΔG during the adsorption process decreases from 4.206 kJ/mol to 0.560 kJ/
+mol, and during the desorption process, it decreases from 2.892 kJ/mol to
+0.014 kJ/mol. These ﬁndings suggest that both adsorption and desorption
+Fig. 7 | The Qst and Sd of the samples. a Qst during
+the adsorption phase. b Sd during the adsorption
+phase. c Qst during the desorption phase. d Sd during
+the desorption phase.
+https://doi.org/10.1038/s40494-025-01988-1
+Article
+npj Heritage Science | (2025) 13:412 
+10
+
+--- PAGE 11 ---
+processes for APLM and HPLM are non-spontaneous and require external
+energy input. However, as the equilibrium moisture content increases, these
+processes gradually tend toward spontaneity. This trend aligns with similar
+observations in other materials28,29,45–47. Consequently, Palm Leaf Manu-
+scripts should not be stored in excessively humid environments, as higher
+moisture content and the associated reduction in Gibbs free energy may
+facilitate increased moisture adsorption and desorption, contributing to
+further damage.
+During the initial phase of adsorption, APLM exhibits a higher ΔG
+than HPLM. However, as equilibrium moisture content increases, APLM’s
+ΔG becomeslower than thatof HPLM (Fig. 8a–c).Thisfurther suggeststhat
+APLM retains moisture more effectively in low-to-moderate humidity
+conditions. As environmental humidity rises, APLM’s ΔG for moisture
+adsorption decreases, making the process more spontaneous and allowing
+APLM to absorb moisture more easily than HPLM. In contrast, during the
+desorption phase, APLM’s ΔG consistently remains higher than HPLM’s
+(Fig. 8d–f), indicating that APLM requires more energy to release moisture
+atthesameequilibriummoisturecontent.This ﬁndingisconsistentwiththe
+hysteresis results (Fig. 2d–f).
+Moreover, as temperature increases, the ΔG for both adsorption and
+desorption processes decreases, indicating that the added thermal energy
+facilitates the adsorption and desorption of moisture, thus promoting these
+reactions48,49.
+Infrared spectrum of the samples
+The infrared spectra of the samples and the relative intensity ratios of the
+selected characteristic peaks are shown in Fig. 9. The functional groups and
+theirassignmentscorrespondingtothecharacteristicpeaksandbandsinthe
+infrared spectra of the samples are detailed in Table 6.
+Compared to HPLM, the infrared spectrum of APLM shows a general
+decrease in absorption intensity, especially at the characteristic absorption
+peaks of hemicellulose around 1730 cm−1 and 1460 cm−1, and cellulose
+around 1370 cm−1 and 1060 cm−1, where the absorption intensity is sig-
+niﬁcantly weakened or even nearly completely disappeared (Fig. 9a). This
+indicates that, compared to healthy samples, the primary chemical com-
+ponents of the ancient Palm Leaf Manuscripts have undergone signiﬁcant
+degradation due to prolonged natural aging. This degradation could result
+from the natural aging of cellulose and hemicellulose, or from external
+factors such as acidic environments and microorganisms’ growth.
+To further elucidate the changes in chemical structure and primary
+components, a semi-quantitative analysis of the infrared spectra was con-
+ducted (Fig. 9b). The results indicate that the relative intensity of the
+Fig. 8 | The ΔG of the samples. a Adsorption ΔG at 15 °C. b Adsorption ΔG at 25 °C. c Adsorption ΔG at 35 °C. d Desorption ΔG at 15 °C. e Desorption ΔG at 25 °C.
+f Desorption ΔG at 35 °C.
+Fig. 9 | The infrared spectra of the samples.
+a Infrared spectra. b The relative intensity ratios of
+the characteristic peaks.
+https://doi.org/10.1038/s40494-025-01988-1
+Article
+npj Heritage Science | (2025) 13:412 
+11
+
+--- PAGE 12 ---
+characteristic peaks of cellulose and hemicellulose in APLM has decreased
+to varying extents compared to HPLM, with the relative intensity of the four
+characteristic peaks (I1730/I1505, I1460/I1505, I1370/I1505 and I1060/I1505)
+decreased by 77.38%, 58.33%, 28.89%, and 44.31%, respectively. This also
+indicates that, compared to healthy samples, the primary chemical com-
+ponents of the ancient Palm Leaf Manuscripts have undergone signiﬁcant
+degradation due to prolonged natural aging, with hemicellulose showing
+more severe degradation than cellulose, which is consistent with previous
+research ﬁndings12,13. Additionally, the I3300/I1505 in APLM increased by
+31.80% compared to HPLM, and indicates that the degradation of cellulose
+and hemicellulose has exposed more hydroxyl groups, which increases the
+moisture adsorption sites in APLM, thereby signiﬁcantly enhancing its
+hygroscopicity.
+Discussion
+The results of the hygroscopicity study indicate that the equilibrium
+moisture content of ancient Tibetan Palm Leaf Manuscripts and
+healthy Palm Leaf Manuscripts is similar under low environmental
+relative humidity. However, as the humidity increases, the equilibrium
+moisture content of the ancient Tibetan Palm Leaf Manuscripts
+becomes signiﬁcantly higher than that of the healthy Palm Leaf
+Manuscripts. This suggests that prolonged natural aging has sig-
+niﬁcantly enhanced the hygroscopicity of the palm leaves. Addition-
+ally, both ancient Tibetan Palm Leaf Manuscripts and healthy Palm
+Leaf Manuscripts exhibit a hysteresis trend, which initially increases
+and then decreases with rising humidity. The key difference lies in the
+hysteresis values: ancient Tibetan Palm Leaf Manuscripts show higher
+hysteresis values in medium humidity environments (50%RH ~ 60%
+RH), whereas healthy Palm Leaf Manuscripts exhibit higher hysteresis
+values in high-humidity environments (≥70% RH). These ﬁndings
+imply that while prolonged natural aging has increased the hygro-
+scopicity of the ancient manuscripts, it has also enhanced their stability
+in moisture absorption under low-to-moderate humidity conditions.
+Additionally, although HPLM exhibits better hysteresis values in high-
+humidity environments (≥70% RH), other studies have conﬁrmed that
+such high humidity conditions can lead to mold growth, chemical
+composition degradation, and a decline in mechanical properties of the
+materials. Therefore, storing the samples in medium to low humidity
+environments (≤60% RH) remains the better choice for their
+preservation.
+To further investigate the hygroscopic properties of the samples, the
+GAB and H-H models were applied to ﬁt the hygroscopic data. The results
+from the GAB model reveal that ancient Tibetan Palm Leaf Manuscripts
+possess more adsorption sites and a higher monolayer capacity (Mm)
+compared to healthy Palm Leaf Manuscripts. This suggests that prolonged
+naturalaginghascausedthedegradationofcelluloseandthetransitionfrom
+crystalline to amorphous regions, thereby reducing the crystallinity of the
+cellulose and exposing more adsorption sites. The results from the H-H
+model further support these ﬁndings, indicating that prolonged natural
+aging not only increases the number of monolayer adsorption sites but also
+signiﬁcantly enhances the physical adsorption and capillary action of the
+palm leaves. Additionally, the H-H model conﬁrms that the desorption
+hysteresisofthepalmleavesisprimarilydrivenbythesubstantialincreasein
+the monolayer adsorption moisture content.
+The hygroscopic properties of the samples also exhibit a signiﬁcant
+correlation with environmental temperature. Under the same relative
+humidity conditions, the equilibrium moisture content of the samples
+decreasesasthetemperatureincreases.Thisisduetotheincreasedactivityof
+water molecules with rising temperature, which causes the water molecules
+to detach from the adsorption sites on the palm leaf. The intermolecular
+forces between the water molecules and the material weaken, leading to a
+reduction in equilibrium moisture content. The GAB and H-H models
+further support this observation, showing that higher temperatures prevent
+water molecules from fully occupying the adsorption sites on the palm leaf.
+This diminishes the material’s physical adsorption and capillary action,
+thereby reducing its hygroscopicity.
+The kinetic characteristics of the samples’ hygroscopic properties
+reveal that ancient Tibetan Palm Leaf Manuscripts exhibit higher
+adsorption and desorption rates than healthy Palm Leaf Manuscripts
+under all temperature and relative humidity conditions. This suggests
+that, as a result of prolonged natural aging, not only has the moisture
+absorption capacity of the palm leaves increased, but the rate of
+moisture absorption has also signiﬁcantly accelerated. Moreover,
+ancient Tibetan Palm Leaf Manuscripts absorb moisture more rapidly
+in both high and low humidity environments, while their moisture
+absorption rate is slower in moderate humidity conditions, consistent
+with the hysteresis ﬁndings. Additionally, the increase in temperature
+accelerates both the adsorption and desorption processes, leading to a
+decrease in equilibrium moisture content and allowing the samples to
+reach equilibrium more quickly during ﬂuctuations in humidity.
+The thermodynamic analysis of the samples’ hygroscopic prop-
+erties reveals that Qst, Sd, and ΔG all decrease gradually with increasing
+equilibrium moisture content. This indicates that as moisture content
+increases, the interaction between the material surface and water
+molecules weakens, the mobility of water molecules decreases, and the
+processes of moisture adsorption and desorption gradually tend toward
+spontaneity. Furthermore, the Qst, Sd, and ΔG values for ancient
+Tibetan Palm Leaf Manuscripts are higher than those of healthy Palm
+Leaf Manuscripts at lower equilibrium moisture content (≤10%), but
+become lower as the equilibrium moisture content increases. This
+suggests that ancient Tibetan Palm Leaf Manuscripts exhibit stronger
+moisture adsorption under low-to-moderate humidity conditions, but
+Table 6 | Characteristic peaks in the infrared spectrum of the samples and corresponding functional group ascriptions13
+Wave number (cm−1)
+Functional groups ascriptions
+3600 ~ 3000
+Stretching vibration by the hydroxyl on cellulose and the intermolecular hydrogen bonds
+3000 ~ 2800
+Stretching vibration by the methyl, methylene and methylene groups on cellulose, hemicellulose and lignin
+1730
+Stretching vibration by the carbonyl group on hemicellulose
+1660
+Stretching vibration by the carbonyl group on deconjugated carbonyl ketone in lignin
+1550 ~ 1500
+Backbone vibration of butyl propane in butyl lignin
+1460
+Stretching vibration by the methylene group on hemicellulose
+1450
+Bending vibration by the methylene group in lignin and hydroxyl group in cellulose
+1370
+Bending vibration by the methyl group on cellulose
+1330
+Bending vibration by the methyl group on methoxy in amorphous cellulose
+1315
+Bending vibration by the methylene group on crystalline cellulose
+1160
+Bending vibration by the glycosidic bond on glucopyranose, carbohydrate and crystalline cellulose
+1060
+Bending vibration by the glycosidic bond on cellulose
+https://doi.org/10.1038/s40494-025-01988-1
+Article
+npj Heritage Science | (2025) 13:412 
+12
+
+--- PAGE 13 ---
+their adsorption capacity weakens under higher humidity, making them
+more prone to absorbing or releasing moisture than healthy Palm Leaf
+Manuscripts—consistent with the observed hysteresis behavior.
+Furthermore, the infrared spectral analysis also conﬁrms that the
+primary chemical components such as cellulose and hemicellulose in the
+ancient Tibetan Palm Leaf Manuscripts have undergone signiﬁcant degra-
+dation, exposing more hydroxyl groups and other adsorption sites, thereby
+signiﬁcantly enhancing their hygroscopicity.
+The study of the hygroscopic properties, including both the kinetic and
+thermodynamic characteristics, of ancient Tibetan Palm Leaf Manuscripts
+indicates that after prolonged natural aging, these manuscripts are best
+preservedinanenvironmentwithmoderatehumidity(50%to60%RH)and
+relatively low temperatures. This preservation environment helps maintain
+a stable moisture content and ﬂexibility, while avoiding excessive internal
+moisture ﬂuctuations during environmental changes, thus preventing fur-
+ther damage.
+This research explores the changes in the hygroscopic properties
+of ancient Tibetan Palm Leaf Manuscripts after prolonged natural
+aging, helping to provide a more comprehensive and in-depth
+understanding of the manuscript’s characteristics, which is crucial
+for developing more effective preventive conservation strategies. The
+results conﬁrm that hygroscopicity can not only effectively reﬂect the
+degradation level of the manuscripts but also signiﬁcantly inﬂuence
+their preservation. The study’s kinetic and thermodynamic analysis
+further clariﬁes the variation patterns of hygroscopicity under different
+temperature and relative humidity conditions, providing valuable
+guidance for the proper storage environment for these manuscripts. It
+is important to note that this study excluded the inﬂuence of ink,
+pigments, and other writing materials on the results. However, the
+impact of writing materials on the overall hygroscopicity of Palm Leaf
+Manuscripts and their changes under environmental factors remains
+an area for future research. Furthermore, the inﬂuence of more com-
+plex environmental factors on the hygroscopicity of the manuscripts is
+a direction that warrants further investigation. In conclusion, this
+study provides valuable data support for the long-term preservation
+and preventive conservation of these precious manuscripts, serving as a
+reference for future research.
+Data availability
+Theauthorconﬁrmsthatalldatageneratedoranalysedduringthisstudyare
+included in this published article. The datasets generated and analyzed
+during the current study are available from the corresponding author upon
+reasonable request.
+Code availability
+Notapplicable(thismanuscriptdoesnotreportdatagenerationoranalysis).
+Received: 27 May 2025; Accepted: 7 August 2025;
+References
+1.
+Kumar, D. U., Sreekumar, G. & Athvankar, U. Traditional writing
+system in southern India—Palm leaf manuscripts. Des. Thoughts 7,
+2–7 (2009).
+2.
+Panigrahi, A. K. & Litt, D. Odia Script in Palm-Leaf Manuscripts. J.
+Humanit. Soc. Sci. 23, 13–19 (2018).
+3.
+Yu, C. et al. Unraveling the ink composition of ancient palm leaf
+manuscript from Tibet: A multi-analytical study. npj Herit. Sci. 13, 73
+(2025).
+4.
+Sharma, D., Singh, M., Krist, G. & Velayudhan, N. M. Structural
+characterisation of 18th century Indian Palm leaf manuscripts of India.
+Int. J. Conserv. Sci. 9, 257–264 (2018).
+5.
+Sharma, D., Singh, M. R. & Dighe, B. Chromatographic Study on
+Traditional Natural Preservatives Used for Palm Leaf Manuscripts in
+India. Restaurator 39, 249–264 (2018).
+6.
+Singh, M. R. & Sharma, D. Investigation of Pigments on an Indian Palm
+Leaf Manuscript (18th–19th century) by SEM-EDX and other
+Techniques. Restaurator 41, 49–65 (2020).
+7.
+Agrawal, O. P. Conservation of Manuscripts and Paintings of South-
+East Asia; Butterworth-Heinemann: London, UK, 1984.
+8.
+Sah, A. Palm Leaf Manuscripts of the World: Material, Technology and
+Conservation. Stud. Conserv. 47, 15–24 (2002).
+9.
+Chu, S., Lin, L. & Tian, X. Evaluation of the Deterioration State of
+Historical Palm Leaf Manuscripts from Burma. Forests 14, 1775
+(2023).
+10. Zhang, M., Song, X., Wang, J. & Lyu, X. Preservation characteristics
+and restoration core technology of palm leaf manuscripts in Potala
+Palace. Arch. Sci. 22, 501–519 (2022).
+11. Zhang, W., Wang, S. & Guo, H. Study on the Effects of Temperature
+and Relative Humidity on the Hygroscopic Properties of Palm Leaf
+Manuscripts. Forests 15, 1816 (2024).
+12. Chu, S., Lin, L. & Tian, X. Analysis of Aspergillus niger isolated from
+ancient palm leaf manuscripts and its deterioration mechanisms. Herit
+Sci 12, 199 (2024).
+13. Zhang, W., Wang, S. & Guo, H. Study on the Aging Effects of Relative
+Humidity on the Primary Chemical Components of Palm Leaf
+Manuscripts. Polymers 17, 83 (2025).
+14. Joshi Y., editor. Modern techniques of preservation and conservation
+of palm leaf manuscripts. Proceeding of Conference on Palm Leaf and
+Other Manuscripts in Indian Languages. Institute of Asian Studies,
+Madras, 1995.
+15. Zhang, W., Wang, S. & Guo, H. Inﬂuence of Relative Humidity on the
+Mechanical Properties of Palm Leaf Manuscripts: Short-Term Effects
+and Long-Term Aging. Molecules 29, 5644 (2024).
+16. Bylund Melin, C., Hagentoft, C.-E., Holl, K., Nik, V. M. & Kilian, R.
+Simulations of Moisture Gradients in Wood Subjected to Changes in
+Relative Humidity and Temperature Due to Climate Change.
+Geosciences 8, 378 (2018).
+17. Kim, M.-J., Choi, Y.-S., Oh, J.-J. & Kim, G.-H. Experimental
+investigation of the humidity effect on wood discoloration by se-
+lected mold and stain fungi for a proper conservation of wooden
+cultural heritages. J. Wood Sci. 66, 31 (2020).
+18. Ziegler, J. Testing Aquazol®. An Evaluation of its Suitability for the
+Conservation of Works on Paper. J. Pap. Conserv. 23, 48–58 (2022).
+19. Liu, X. et al. Consolidation and Dehydration of Waterlogged
+Archaeological Wood from Site Huaguangjiao No.1. Forests 13, 1919
+(2022).
+20. Han, L. et al. Size Effect on Hygroscopicity of Waterlogged
+Archaeological Wood by Sim-ultaneous Dynamic Vapour Sorption.
+Forests 14, 519 (2023).
+21. Yu, D. et al. The effect of traditional processing craft on the
+hygroscopicity of palm leaf manuscripts. Herit. Sci. 12, 280 (2024).
+22. Thybring, E. E., Boardman, C. R., Zelinka, S. L. & Glass, S. V. Common
+sorption isotherm models are not physically valid for water in wood.
+Colloids Surf. A Physicochem. Eng. Asp. 627, 127214 (2021).
+23. Liu, C., Li, X., Song, H. & Li, X. Moisture Sorption Isotherms of
+Polydextrose and Its Gelling Efﬁciency in Inhibiting the Retrogradation
+of Rice Starch. Gels 10, 529 (2024).
+24. Duan, S., Geng,L., Li, G. & Ling, X. Water vapour adsorption isotherms
+of shales: Thermodynamic properties and microstructure. Fluid Phase
+Equilibria 563, 113583 (2023).
+25. Song, X., Chen, C., Zhou, H., Shang, J. & Ren, T. Effect of high-
+temperature treatment on water vapour sorption of montmorillonite.
+Geoderma 436, 116563 (2023).
+26. Efendi, M. Analysis of Courie-GAB-Peleg Models and Neural
+Networks in Jelly Candy by Corn Starch: Drying Kinetic and Moisture
+Sorption Isotherms. Food Biophysics 19, 1134–1146 (2024).
+27. Lehmad, M. et al. Comprehensive Analysis of Adsorption–Desorption
+Isotherms, Drying Kinetics, and Nutritional Quality of Black Soldier Fly
+(Hermetia illucens) Larvae. Food Biophysics 19, 938–954 (2024).
+https://doi.org/10.1038/s40494-025-01988-1
+Article
+npj Heritage Science | (2025) 13:412 
+13
+
+--- PAGE 14 ---
+28. Mutlu, C. Bee bread: sorption isotherms, thermodynamic
+characteristics of moisture adsorption and evaluation of adsorbed
+water. Heat Mass Transfer 60, 1745–1753 (2024).
+29. Fikry, M. et al. Sorption Isotherms and Thermodynamic
+Characteristics of Gelatin Powder Extracted from Whiteﬁsh Skin:
+Mathematical Modeling Approach. Foods 13, 92 (2024).
+30. Aksil, T., Abbas, M., Trari, M. & Benamara, S. Water adsorption on
+lyophilized Arbutus unedo L. fruit powder: Determination of
+thermodynamic parameters. Microchem. J. 145, 35–41 (2019).
+31. Penteado Rosa, D., Rodrigues Evangelista, R., Borges Machado, A. L.,
+Ribeiro Sanches, M. A. & Telis-Romero, J. Water sorption properties of
+papaya seeds (Carica papaya L.)formosavariety:Anassessment under
+storage and drying conditions. LWT 138, 110458 (2021).
+32. Bakhattar, I. et al. Thermodynamic analysis of batch adsorption
+isotherms of different types of olive pomace. Heat Mass Transfer 58,
+613–630 (2022).
+33. Schwanninger, M., Rodrigues, J. C., Pereira, H. & Hinterstoisser, B.
+Effects of short-time vibratory ball milling on the shape of FT-IR
+spectra of wood and cellulose. Vib. Spectrosc. 36, 23–40 (2004).
+34. Marchessault, R. H. Application of infra-red spectroscopy to cellulose
+and wood polysaccharides. Pure Appl. Chem. 5, 107–130 (1962).
+35. Pandey, K. K. & Pitman, A. J. FTIR studies of the changes in wood
+chemistry following decay by brown-rot and white-rot fungi. Int.
+Biodeterior. Biodegrad. 52, 151–160 (2003).
+36. Jamali, A. et al. Sorption isotherms of Chenopodium ambrosioides
+leaves at three temperatures. J. Food Eng. 72, 77–84 (2006).
+37. Thommes, M. et al. Physisorption of gases, with special reference to
+the evaluation of surface area and pore size distribution (IUPAC
+Technical Report). Pure Appl. Chem. 87, 1051–1069 (2015).
+38. Moraes, M. A., Rosa, G. S. & Pinto, L. A. A. Moisture sorption
+isotherms and thermodynamic properties of apple Fuji and garlic.
+Free. Int. J. Food Sci. Technol. 43, 1824–1831 (2008).
+39. Esteban, L. G. et al. Sorption and thermodynamic properties of
+juvenile Pinus sylvestris L. wood after 103 years of submersion.
+Holzforschung 62, 745–751 (2008).
+40. Fernández, F. G. et al. Sorption and thermodynamic properties of
+Terminalia superba Engl. & Diels and Triplochiton scleroxylon K.
+Schum.through the 15, 35 and 50 °C sorption isotherms. Eur. J. Wood
+Wood Prod. 72, 99–106 (2014).
+41. Han, L. et al. Even Samples from the Same Waterlogged Wood Are
+Hygroscopically and Chemically Different by Simultaneous DVS and
+2D COS-IR Spectroscopy. Forests 14, 15 (2023).
+42. Han, L. et al. Inﬂuence of Natural Aging on the Moisture Sorption
+Behaviour of Wooden Structural Components. Molecules 28, 1946
+(2023).
+43. Chen, Q. et al. The effect of graded ﬁbrous structure of bamboo
+(Phyllostachys edulis) on its water vapor sorption isotherms. Ind.
+Crops Prod. 151, 112467 (2020).
+44. Moussaoui, H., Bahammou, Y., Idlimam, A., Lamharrar, A. &
+Abdenouri, N. Investigation of hygroscopic equilibrium and modeling
+sorption isotherms of the argan products: A comparative study of
+leaves, pulps, and fruits. Food Bioprod. Process. 114, 12–22 (2019).
+45. Ramadwa, T. E., Dzoyem, J. P., Adebayo, S. A. & Eloff, J. N.
+Ptaeroxylon obliquum leaf extracts, fractions and isolated
+compounds as potential inhibitors of 15-lipoxygenase and
+lipopolysaccharide-induced nitric oxide production in RAW 264.7
+macrophage cells. South Afr. J. Bot. 147, 192–196 (2022).
+46. Ouaabou, R. et al. Hygroscopic properties of sweet cherry powder:
+thermodynamic properties and microstructural changes. J. Food
+Qual. 3925572. https://doi.org/10.1155/2021/3925572 2021.
+47. Arslan-Tontul, S. Moisture sorption isotherm and thermodynamic
+analysis of quinoa grains. Heat Mass Transf 57, 543–550 (2021).
+48. Hassan, B., Mustapha, A. T., Al-Awaadh, A. M. & Ahmed, K. A. M.
+Physical and moisture sorption thermodynamic properties of Sukkari
+date (Phoenix dactylifera L.) powder. CyTA - J. Food 18, 264–273
+(2020).
+49. De Araújo, A. L. & da Silva Pena, R. Moisture desorption behavior and
+thermodynamic properties of pulp and seed of jambolan (Syzygium
+cumini). Heliyon 8, e09443 (2022).
+Acknowledgements
+TheauthorswouldliketothankLiusanLiandLiLifromtheChineseAcademy
+of Cultural Heritage for the support. This research was funded by the
+National Key R&D Program of China, grant number 2022YFF0903905.
+Author contributions
+Conceptualization: W.Z. and H.G.; Methodology: W.Z., S.W., L.H. and H.G.;
+Software: W.Z.; Investigation: W.Z.; Experiment: W.Z.; Formal analysis:
+W.Z.; Resources: H.G.; Writing—original draft preparation: W.Z.; Writing—
+review and editing: L.H. and H.G.; Visualization: L.H.; Project administration:
+S.W. and H.G.; Funding acquisition: H.G. All authors read and approved the
+ﬁnal manuscript.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Correspondence and requests for materials should be addressed to
+Hong Guo.
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral withregardtojurisdictional
+claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License,
+which permits any non-commercial use, sharing, distribution and
+reproduction in any medium or format, as long as you give appropriate
+credit to the original author(s) and the source, provide a link to the Creative
+Commons licence, and indicate if you modiﬁed the licensed material. You
+do not have permission under this licence to share adapted material
+derived from this article or parts of it. The images or other third party
+material in this article are included in the article’s Creative Commons
+licence, unless indicated otherwise in a credit line to the material. If material
+isnot includedin thearticle’s CreativeCommons licenceandyour intended
+use is not permitted by statutory regulation or exceeds the permitted use,
+you will need to obtain permission directly from the copyright holder. To
+view a copy of this licence, visit http://creativecommons.org/licenses/by-
+nc-nd/4.0/.
+© The Author(s) 2025
+https://doi.org/10.1038/s40494-025-01988-1
+Article
+npj Heritage Science | (2025) 13:412 
+14
+

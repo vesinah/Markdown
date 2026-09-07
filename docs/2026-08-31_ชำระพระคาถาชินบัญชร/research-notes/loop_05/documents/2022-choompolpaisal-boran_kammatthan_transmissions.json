@@ -1,0 +1,168 @@
+﻿{
+    "indexed":  {
+                    "date-parts":  [
+                                       [
+                                           2025,
+                                           11,
+                                           10
+                                       ]
+                                   ],
+                    "date-time":  "2025-11-10T13:51:16Z",
+                    "timestamp":  1762782676918
+                },
+    "reference-count":  0,
+    "publisher":  "Equinox Publishing",
+    "issue":  "2",
+    "content-domain":  {
+                           "domain":  [
+
+                                      ],
+                           "crossmark-restriction":  false
+                       },
+    "short-container-title":  [
+                                  "BSRV"
+                              ],
+    "abstract":  "\u003cjats:p\u003eThis article investigates three distinct lineages of the transmission of the ancient Theravada meditation, boran kammatthan (Thai, Khmer; Pali, purana kammatthana), in Siam from the late Ayutthaya to the Thonburi and Rattanakosin periods, as well as the survival of two of them as living practices. It traces the Ayutthaya lineage of the Supreme Patriarch Suk Kaitheun (1733–1822) back from Wat Ratchasittharam (Thonburi) in the present to Wat Pa Kaew (Ayutthaya) in the sixteenth century. It also looks at the transmission of boran kammatthan from Wat Choengtha and other temples in Ayutthaya via Wat Hongrattanaram (Thonburi) to Wat Intharam (Thonburi) by King Taksin (r.1767–1782) and the Supreme Patriarchs of Thonburi under his support in the eighteenth century. It finally looks at the continuing transmission at Wat Pradusongtham (Ayutthaya) from the 1750s to the present. Key meditation teachers, covered in this article, include the Supreme Patriarchs of Thonburi and early Bangkok periods, as well as King Taksin. Overall, by documenting more than one transmission from a historical point of view, I argue in this article that there could be various meditation lineages that transmitted diverse practices within the broad framework of boran kammatthan.\u003c/jats:p\u003e",
+    "DOI":  "10.1558/bsrv.21196",
+    "type":  "journal-article",
+    "created":  {
+                    "date-parts":  [
+                                       [
+                                           2021,
+                                           11,
+                                           26
+                                       ]
+                                   ],
+                    "date-time":  "2021-11-26T03:01:59Z",
+                    "timestamp":  1637895719000
+                },
+    "page":  "225-252",
+    "source":  "Crossref",
+    "is-referenced-by-count":  2,
+    "title":  [
+                  "Boran Kammatthan (Ancient Theravada) Meditation Transmissions in Siam from late Ayutthaya to Rattanakosin periods"
+              ],
+    "prefix":  "10.1558",
+    "volume":  "38",
+    "author":  [
+                   {
+                       "given":  "Phibul",
+                       "family":  "Choompolpaisal",
+                       "sequence":  "first",
+                       "affiliation":  [
+
+                                       ],
+                       "role":  [
+                                    {
+                                        "role":  "author",
+                                        "vocabulary":  "crossref"
+                                    }
+                                ]
+                   }
+               ],
+    "member":  "426",
+    "published-online":  {
+                             "date-parts":  [
+                                                [
+                                                    2021,
+                                                    11,
+                                                    25
+                                                ]
+                                            ]
+                         },
+    "container-title":  [
+                            "Buddhist Studies Review"
+                        ],
+    "original-title":  [
+
+                       ],
+    "link":  [
+                 {
+                     "URL":  "https://journal.equinoxpub.com/BSR/article/download/21196/23432",
+                     "content-type":  "application/pdf",
+                     "content-version":  "vor",
+                     "intended-application":  "text-mining"
+                 },
+                 {
+                     "URL":  "https://journal.equinoxpub.com/BSR/article/download/21196/23432",
+                     "content-type":  "unspecified",
+                     "content-version":  "vor",
+                     "intended-application":  "similarity-checking"
+                 }
+             ],
+    "deposited":  {
+                      "date-parts":  [
+                                         [
+                                             2021,
+                                             11,
+                                             26
+                                         ]
+                                     ],
+                      "date-time":  "2021-11-26T04:41:37Z",
+                      "timestamp":  1637901697000
+                  },
+    "score":  1,
+    "resource":  {
+                     "primary":  {
+                                     "URL":  "https://journal.equinoxpub.com/BSR/article/view/21196"
+                                 }
+                 },
+    "subtitle":  [
+
+                 ],
+    "short-title":  [
+
+                    ],
+    "issued":  {
+                   "date-parts":  [
+                                      [
+                                          2021,
+                                          11,
+                                          25
+                                      ]
+                                  ]
+               },
+    "references-count":  0,
+    "journal-issue":  {
+                          "issue":  "2",
+                          "published-online":  {
+                                                   "date-parts":  [
+                                                                      [
+                                                                          2021,
+                                                                          11,
+                                                                          25
+                                                                      ]
+                                                                  ]
+                                               }
+                      },
+    "URL":  "https://doi.org/10.1558/bsrv.21196",
+    "relation":  {
+
+                 },
+    "ISSN":  [
+                 "1747-9681",
+                 "0265-2897"
+             ],
+    "issn-type":  [
+                      {
+                          "value":  "1747-9681",
+                          "type":  "electronic"
+                      },
+                      {
+                          "value":  "0265-2897",
+                          "type":  "print"
+                      }
+                  ],
+    "subject":  [
+
+                ],
+    "published":  {
+                      "date-parts":  [
+                                         [
+                                             2021,
+                                             11,
+                                             25
+                                         ]
+                                     ]
+                  }
+}

@@ -1,0 +1,149 @@
+﻿{
+    "indexed":  {
+                    "date-parts":  [
+                                       [
+                                           2023,
+                                           3,
+                                           25
+                                       ]
+                                   ],
+                    "date-time":  "2023-03-25T04:32:50Z",
+                    "timestamp":  1679718770837
+                },
+    "reference-count":  0,
+    "publisher":  "The Association of Eastern-Asia Buddhism and Culture",
+    "content-domain":  {
+                           "domain":  [
+
+                                      ],
+                           "crossmark-restriction":  false
+                       },
+    "short-container-title":  [
+                                  "EABC"
+                              ],
+    "published-print":  {
+                            "date-parts":  [
+                                               [
+                                                   2022,
+                                                   6,
+                                                   30
+                                               ]
+                                           ]
+                        },
+    "DOI":  "10.21718/eabc.2022.51.08",
+    "type":  "journal-article",
+    "created":  {
+                    "date-parts":  [
+                                       [
+                                           2022,
+                                           7,
+                                           15
+                                       ]
+                                   ],
+                    "date-time":  "2022-07-15T02:35:24Z",
+                    "timestamp":  1657852524000
+                },
+    "page":  "217-244",
+    "source":  "Crossref",
+    "is-referenced-by-count":  0,
+    "title":  [
+                  "Paritta Chanting as faith of Sutta: Focused on Paritta Chanting of the Theravāda Buddhism"
+              ],
+    "prefix":  "10.21718",
+    "volume":  "51",
+    "author":  [
+                   {
+                       "given":  "InYoung(Hyun-am)",
+                       "family":  "Lim",
+                       "sequence":  "first",
+                       "affiliation":  [
+
+                                       ],
+                       "role":  [
+                                    {
+                                        "role":  "author",
+                                        "vocabulary":  "crossref"
+                                    }
+                                ]
+                   }
+               ],
+    "member":  "9184",
+    "published-online":  {
+                             "date-parts":  [
+                                                [
+                                                    2022,
+                                                    6,
+                                                    30
+                                                ]
+                                            ]
+                         },
+    "container-title":  [
+                            "Journal of Eastern-Asia Buddhism and Culture"
+                        ],
+    "original-title":  [
+                           "경전신앙으로서 보호경 독송- 상좌부불교 빠릿따(Paritta)를 중심으로 -"
+                       ],
+    "deposited":  {
+                      "date-parts":  [
+                                         [
+                                             2023,
+                                             3,
+                                             24
+                                         ]
+                                     ],
+                      "date-time":  "2023-03-24T11:35:05Z",
+                      "timestamp":  1679657705000
+                  },
+    "score":  1,
+    "resource":  {
+                     "primary":  {
+                                     "URL":  "https://kiss.kstudy.com/Detail/Ar?key=3954373"
+                                 }
+                 },
+    "subtitle":  [
+
+                 ],
+    "short-title":  [
+
+                    ],
+    "issued":  {
+                   "date-parts":  [
+                                      [
+                                          2022,
+                                          6,
+                                          30
+                                      ]
+                                  ]
+               },
+    "references-count":  0,
+    "URL":  "https://doi.org/10.21718/eabc.2022.51.08",
+    "relation":  {
+
+                 },
+    "ISSN":  [
+                 "2714-0938",
+                 "2714-0946"
+             ],
+    "issn-type":  [
+                      {
+                          "value":  "2714-0938",
+                          "type":  "print"
+                      },
+                      {
+                          "value":  "2714-0946",
+                          "type":  "electronic"
+                      }
+                  ],
+    "subject":  [
+
+                ],
+    "published":  {
+                      "date-parts":  [
+                                         [
+                                             2022,
+                                             6,
+                                             30
+                                         ]
+                                     ]
+                  }
+}

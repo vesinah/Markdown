@@ -1,0 +1,193 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>INBUDS DB</title><style>
+h2 {
+margin:10px;
+font-size:15px;
+}
+ body{padding:10px}
+</style>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<link type="text/css" rel="stylesheet" href="../SAT/yui/build/treeview/assets/skins/sam/treeview.css">
+<link rel="stylesheet" type="text/css" href="../SAT/yui/build/fonts/fonts-min.css" />
+<link rel="stylesheet" type="text/css" href="../SAT/yui/build/container/assets/skins/sam/container.css" />
+<!-- Dependency source files -->
+<script type="text/javascript" src="./jquery-ui-1.10.4/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="./jquery-ui-1.10.4/ui/jquery-ui.js"></script>
+<script type="text/javascript" src="./jquery-ui-1.10.4/jquery.caretpos.js"></script>
+
+<link rel="stylesheet" href="jquery-ui-1.10.4/themes/base/jquery-ui.css"/>
+</head><body class="yui-skin-sam">
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".cpIBID").click(function(){
+   $(".cpIBID").each(function(){
+    $(this).css({'background-color':'white'});
+   });
+   var cptext = $(this).text();
+   execCopy(cptext);
+   console.log(cptext);
+   $(this).css({'background-color':'yellow'});
+  });
+
+ $("#diacw").dialog({
+   close: function(){
+     },
+       autoOpen: false,
+       width: 330,
+       height: 300,
+       position: {my: "left top+15",
+	 of: "#ekey"
+	 }
+
+ });
+ $("span.dia").mouseover(function(){
+     $(this).css({"cursor": "pointer","color":"red","font-weight":'bold'});
+ });
+ $("span.dia").mouseout(function(){
+     $(this).css({"cursor": "default","color":"black",'font-weight':'normal'});
+ });
+ $(".showdia").click(function(ev){
+     $("#diacw").dialog('open')
+ });
+ // $("body").delegate(":text, textarea",'click',function(){
+ //     var aa = $(this).attr("name");//
+ //     $("#objis").val(aa);
+     //       alert(aa);
+ // });
+$("body").delegate(":text, textarea",'click',function(ev){
+    // $(":text").click(function(){
+    var aa = $(this).attr("name");//
+    $("#objis").val(aa);
+    if($("#diacw").dialog('isOpen') == true){
+      $("#diacw").dialog({
+        position: {my: "left top+15",
+	  of: ev
+        }
+      });
+    }
+ });
+ $("span.dia").click(function(){
+      var diac = $(this).text();
+      if( $("#objis").val() == ''){ alert("Select a textarea !!"); }
+      else{
+	var obji =  $("#objis").val();
+	var uobji = obji.replace(/^u/, '');
+	var jobji = '#'+uobji;
+	var ttype = $(jobji).attr('type');// text or undef
+	var target = document.getElementById(uobji);
+	var poss = getAreaRange(target);
+	var val = target.value;
+	var range = val.slice(poss.start, poss.end);
+	var pos2 = poss.start + 1;//textareaの場合に一つキャレットをずらす
+	var beforeNode = val.slice(0, poss.start);
+	var afterNode  = val.slice(poss.end);
+	var insertNode;
+	if (range || poss.start != poss.end) {
+	  insertNode = diac;
+	  target.value = beforeNode + insertNode + afterNode;
+	  // if(ttype = 'text'){
+	  $(jobji).caretPos(pos2);
+	  // };
+	}
+	else if (poss.start == poss.end) {
+	  insertNode = diac;
+	  target.value = beforeNode + insertNode + afterNode;
+	  $(jobji).caretPos(pos2);
+	}
+      }
+   });
+});
+
+ function getAreaRange(objj) {
+   var poss = new Object();
+   if (isIE) {
+     //       alert('aa');
+     ///////a text in only textarea must be selected in variable "range";
+     objj.focus();
+     var range = document.selection.createRange();
+     var clone = range.duplicate();
+     clone.moveEnd("textedit");
+     poss.start = objj.value.length - clone.text.length;
+     poss.end   = poss.start + range.text.length;
+   }
+   else if(window.getSelection()) {
+     poss.start = objj.selectionStart;
+     poss.end   = objj.selectionEnd;
+   }
+   return poss;
+   //alert(poss.start + "," + poss.end);
+   var isIE = (navigator.appName.toLowerCase().indexOf('internet explorer')+1?1:0);
+ }
+function execCopy(string){
+  var tmp = document.createElement("div");
+  var pre = document.createElement('pre');
+  pre.style.webkitUserSelect = 'auto';
+  pre.style.userSelect = 'auto';
+  tmp.appendChild(pre).textContent = string;
+  var s = tmp.style;
+  s.position = 'fixed';
+  s.right = '200%';
+  document.body.appendChild(tmp);
+  document.getSelection().selectAllChildren(tmp);
+  var result = document.execCommand("copy");
+  document.body.removeChild(tmp);
+  return result;
+}
+
+
+</script>
+<input type="hidden" name="objis" id="objis" value="ekey">
+<form action="/INBUDS/search.php"><div style="margin:10px;padding:20px;background-color:#66CC33"><a href="http://www.inbuds.net/"><span style="color:white;font-weight:bolder;font-size:20pt;font-family:serif">INBUDS</span></a><input type="hidden" name="m" value="sch"><input type="hidden" name="a" value="">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:white"> 検索語入力欄：</span><input type="text" name="uekey" size="50" id="ekey" value="事師法五十頌"><span class="showdia" style="cursor:pointer">[D]</span><div id="diacw" title="入力したい文字をクリックしてください"><div id="diacwc"><span class="dia" value="ā">ā</span>&nbsp;&nbsp; <span class="dia" value="ī">ī</span>&nbsp;&nbsp; <span class="dia" value="ū">ū</span>&nbsp;&nbsp; <span class="dia" value="ṛ">ṛ</span>&nbsp;&nbsp; <span class="dia" value="ḷ">ḷ</span>&nbsp;&nbsp; <span class="dia" value="ṅ">ṅ</span>&nbsp;&nbsp; <span class="dia" value="ṭ">ṭ</span>&nbsp;&nbsp; <span class="dia" value="ḍ">ḍ</span>&nbsp;&nbsp; <span class="dia" value="ṇ">ṇ</span>&nbsp;&nbsp; <span class="dia" value="ñ">ñ</span>&nbsp;&nbsp; <span class="dia" value="ś">ś</span>&nbsp;&nbsp; <span class="dia" value="ṣ">ṣ</span>&nbsp;&nbsp; <span class="dia" value="ḥ">ḥ</span>&nbsp;&nbsp; <span class="dia" value="ṃ">ṃ</span>&nbsp;&nbsp; <span class="dia" value=""></span>&nbsp;&nbsp; <span class="dia" value=""></span>&nbsp;&nbsp; <span class="dia" value=""></span>&nbsp;&nbsp; <span class="dia" value=""></span>&nbsp;&nbsp; <span class="dia" value=""></span>&nbsp;&nbsp; <span class="dia" value=""></span>&nbsp;&nbsp; <span class="dia" value=""></span>&nbsp;&nbsp; <span class="dia" value=""></span>&nbsp;&nbsp; <span class="dia" value=""></span>&nbsp;&nbsp; <span class="dia" value=""></span>&nbsp;&nbsp; <hr/><span class="dia" value="ā">ā</span>&nbsp;&nbsp; <span class="dia" value="Ā">Ā</span>&nbsp;&nbsp; <span class="dia" value="á">á</span>&nbsp;&nbsp; <span class="dia" value="Á">Á</span>&nbsp;&nbsp; <span class="dia" value="à">à</span>&nbsp;&nbsp; <span class="dia" value="À">À</span>&nbsp;&nbsp; <span class="dia" value="ă">ă</span>&nbsp;&nbsp; <span class="dia" value="Ă">Ă</span>&nbsp;&nbsp; <span class="dia" value="ǎ">ǎ</span>&nbsp;&nbsp; <span class="dia" value="Ǎ">Ǎ</span>&nbsp;&nbsp; <span class="dia" value="â">â</span>&nbsp;&nbsp; <span class="dia" value="Â">Â</span>&nbsp;&nbsp; <span class="dia" value="ä">ä</span>&nbsp;&nbsp; <span class="dia" value="Ä">Ä</span>&nbsp;&nbsp; <span class="dia" value="ā̆">ā̆</span>&nbsp;&nbsp; <span class="dia" value="Ā̆">Ā̆</span>&nbsp;&nbsp; <span class="dia" value="æ">æ</span>&nbsp;&nbsp; <span class="dia" value="Æ">Æ</span>&nbsp;&nbsp; <span class="dia" value="ç">ç</span>&nbsp;&nbsp; <span class="dia" value="Ç">Ç</span>&nbsp;&nbsp; <span class="dia" value="č">č</span>&nbsp;&nbsp; <span class="dia" value="Č">Č</span>&nbsp;&nbsp; <span class="dia" value="ḍ">ḍ</span>&nbsp;&nbsp; <span class="dia" value="Ḍ">Ḍ</span>&nbsp;&nbsp; <span class="dia" value="ē">ē</span>&nbsp;&nbsp; <span class="dia" value="Ē">Ē</span>&nbsp;&nbsp; <span class="dia" value="é">é</span>&nbsp;&nbsp; <span class="dia" value="É">É</span>&nbsp;&nbsp; <span class="dia" value="è">è</span>&nbsp;&nbsp; <span class="dia" value="È">È</span>&nbsp;&nbsp; <span class="dia" value="ê">ê</span>&nbsp;&nbsp; <span class="dia" value="Ê">Ê</span>&nbsp;&nbsp; <span class="dia" value="ě">ě</span>&nbsp;&nbsp; <span class="dia" value="Ě">Ě</span>&nbsp;&nbsp; <span class="dia" value="ĕ">ĕ</span>&nbsp;&nbsp; <span class="dia" value="Ĕ">Ĕ</span>&nbsp;&nbsp; <span class="dia" value="ḥ">ḥ</span>&nbsp;&nbsp; <span class="dia" value="Ḥ">Ḥ</span>&nbsp;&nbsp; <span class="dia" value="ḣ">ḣ</span>&nbsp;&nbsp; <span class="dia" value="Ḣ">Ḣ</span>&nbsp;&nbsp; <span class="dia" value="h́">h́</span>&nbsp;&nbsp; <span class="dia" value="H́">H́</span>&nbsp;&nbsp; <span class="dia" value="ī">ī</span>&nbsp;&nbsp; <span class="dia" value="Ī">Ī</span>&nbsp;&nbsp; <span class="dia" value="í">í</span>&nbsp;&nbsp; <span class="dia" value="Í">Í</span>&nbsp;&nbsp; <span class="dia" value="ì">ì</span>&nbsp;&nbsp; <span class="dia" value="Ì">Ì</span>&nbsp;&nbsp; <span class="dia" value="î">î</span>&nbsp;&nbsp; <span class="dia" value="Î">Î</span>&nbsp;&nbsp; <span class="dia" value="ï">ï</span>&nbsp;&nbsp; <span class="dia" value="Ï">Ï</span>&nbsp;&nbsp; <span class="dia" value="ĭ">ĭ</span>&nbsp;&nbsp; <span class="dia" value="Ĭ">Ĭ</span>&nbsp;&nbsp; <span class="dia" value="ī̆">ī̆</span>&nbsp;&nbsp; <span class="dia" value="Ī̆">Ī̆</span>&nbsp;&nbsp; <span class="dia" value="ĩ">ĩ</span>&nbsp;&nbsp; <span class="dia" value="Ĩ">Ĩ</span>&nbsp;&nbsp; <span class="dia" value="ḷ">ḷ</span>&nbsp;&nbsp; <span class="dia" value="Ḷ">Ḷ</span>&nbsp;&nbsp; <span class="dia" value="ṃ">ṃ</span>&nbsp;&nbsp; <span class="dia" value="Ṃ">Ṃ</span>&nbsp;&nbsp; <span class="dia" value="ṁ">ṁ</span>&nbsp;&nbsp; <span class="dia" value="Ṁ">Ṁ</span>&nbsp;&nbsp; <span class="dia" value="m̆">m̆</span>&nbsp;&nbsp; <span class="dia" value="M̆">M̆</span>&nbsp;&nbsp; <span class="dia" value="Ń">Ń</span>&nbsp;&nbsp; <span class="dia" value="ń">ń</span>&nbsp;&nbsp; <span class="dia" value="ṅ">ṅ</span>&nbsp;&nbsp; <span class="dia" value="Ṅ">Ṅ</span>&nbsp;&nbsp; <span class="dia" value="ṇ">ṇ</span>&nbsp;&nbsp; <span class="dia" value="Ṇ">Ṇ</span>&nbsp;&nbsp; <span class="dia" value="ṇ̄">ṇ̄</span>&nbsp;&nbsp; <span class="dia" value="Ṇ̄">Ṇ̄</span>&nbsp;&nbsp; <span class="dia" value="ñ">ñ</span>&nbsp;&nbsp; <span class="dia" value="Ñ">Ñ</span>&nbsp;&nbsp; <span class="dia" value="ō">ō</span>&nbsp;&nbsp; <span class="dia" value="Ō">Ō</span>&nbsp;&nbsp; <span class="dia" value="ó">ó</span>&nbsp;&nbsp; <span class="dia" value="Ó">Ó</span>&nbsp;&nbsp; <span class="dia" value="ò">ò</span>&nbsp;&nbsp; <span class="dia" value="Ò">Ò</span>&nbsp;&nbsp; <span class="dia" value="ô">ô</span>&nbsp;&nbsp; <span class="dia" value="Ô">Ô</span>&nbsp;&nbsp; <span class="dia" value="ǒ">ǒ</span>&nbsp;&nbsp; <span class="dia" value="Ǒ">Ǒ</span>&nbsp;&nbsp; <span class="dia" value="ŏ">ŏ</span>&nbsp;&nbsp; <span class="dia" value="Ŏ">Ŏ</span>&nbsp;&nbsp; <span class="dia" value="ö">ö</span>&nbsp;&nbsp; <span class="dia" value="Ö">Ö</span>&nbsp;&nbsp; <span class="dia" value="ø">ø</span>&nbsp;&nbsp; <span class="dia" value="Ø">Ø</span>&nbsp;&nbsp; <span class="dia" value="œ">œ</span>&nbsp;&nbsp; <span class="dia" value="Œ">Œ</span>&nbsp;&nbsp; <span class="dia" value="⊕">⊕</span>&nbsp;&nbsp; <span class="dia" value="ṛ">ṛ</span>&nbsp;&nbsp; <span class="dia" value="Ṛ">Ṛ</span>&nbsp;&nbsp; <span class="dia" value="ṝ">ṝ</span>&nbsp;&nbsp; <span class="dia" value="Ṝ">Ṝ</span>&nbsp;&nbsp; <span class="dia" value="ś">ś</span>&nbsp;&nbsp; <span class="dia" value="Ś">Ś</span>&nbsp;&nbsp; <span class="dia" value="ṣ">ṣ</span>&nbsp;&nbsp; <span class="dia" value="Ṣ">Ṣ</span>&nbsp;&nbsp; <span class="dia" value="ṡ">ṡ</span>&nbsp;&nbsp; <span class="dia" value="Ṡ">Ṡ</span>&nbsp;&nbsp; <span class="dia" value="š">š</span>&nbsp;&nbsp; <span class="dia" value="Š">Š</span>&nbsp;&nbsp; <span class="dia" value="ß">ß</span>&nbsp;&nbsp; <span class="dia" value="ṭ">ṭ</span>&nbsp;&nbsp; <span class="dia" value="Ṭ">Ṭ</span>&nbsp;&nbsp; <span class="dia" value="ṫ">ṫ</span>&nbsp;&nbsp; <span class="dia" value="Ṫ">Ṫ</span>&nbsp;&nbsp; <span class="dia" value="ū">ū</span>&nbsp;&nbsp; <span class="dia" value="Ū">Ū</span>&nbsp;&nbsp; <span class="dia" value="ú">ú</span>&nbsp;&nbsp; <span class="dia" value="Ú">Ú</span>&nbsp;&nbsp; <span class="dia" value="ù">ù</span>&nbsp;&nbsp; <span class="dia" value="Ù">Ù</span>&nbsp;&nbsp; <span class="dia" value="ŭ">ŭ</span>&nbsp;&nbsp; <span class="dia" value="Ŭ">Ŭ</span>&nbsp;&nbsp; <span class="dia" value="ǔ">ǔ</span>&nbsp;&nbsp; <span class="dia" value="Ǔ">Ǔ</span>&nbsp;&nbsp; <span class="dia" value="û">û</span>&nbsp;&nbsp; <span class="dia" value="Û">Û</span>&nbsp;&nbsp; <span class="dia" value="ü">ü</span>&nbsp;&nbsp; <span class="dia" value="Ü">Ü</span>&nbsp;&nbsp; <span class="dia" value="ū̆">ū̆</span>&nbsp;&nbsp; <span class="dia" value="Ū̆">Ū̆</span>&nbsp;&nbsp; <span class="dia" value="ỵ">ỵ</span>&nbsp;&nbsp; <span class="dia" value="Ỵ">Ỵ</span>&nbsp;&nbsp; <span class="dia" value="ź">ź</span>&nbsp;&nbsp; <span class="dia" value="Ź">Ź</span>&nbsp;&nbsp; <span class="dia" value=""></span>&nbsp;&nbsp; <span class="dia" value=""></span>&nbsp;&nbsp; </div>
+</div><select name="ekey1"><option value="title">タイトル<option value="author">著者名<option value="journal">雑誌名<option value="keywordsstr">キーワード<option value="schall">すべて</select><select name="lim"><option value="20">20件ずつ<option value="50">50件ずつ<option value="100">100件ずつ<option value="200">200件ずつ</select><input type="submit" value="検索"></form></div><h2>検索キーワード： 事師法五十頌 [<a href="http://21dzk.l.u-tokyo.ac.jp/SAT2018/key:事師法五十頌" target="_blank" >SAT</a>]  事師法五十頌  [  <a href="http://buddhism-dict.net/cgi-bin/xpr-ddb.pl?4e.xml+id('b4e8b-5e2b-6cd5-4e94-5341-980c')">DDB </a> ]  亊師法五十頌  </h2><h2>検索対象： タイトル </h2><script type="text/javascript">
+$().ready(function(){
+  $("span.crk").each(function(){
+    var rkey = $(this).attr("ky");
+    var rUrl = '/INBUDS/search.php?m=sch&ekey1=&ekey2=cc&nohd=1&uekey='+rkey;
+    var tthis = $(this); 
+    $.ajax({
+      url: rUrl,
+      cache: false,
+      success: function(num){
+        $(tthis).text(num);
+      }
+    });
+  });
+});
+
+
+</script><div style="margin:15px"> -- 1 件ヒット</div><div>関連キーワード（共起数上位10件・括弧内数字は共起数／キーワード登場数。なお、このリストには検索語も含む）:<br/> <a href="/INBUDS/search.php?m=sch&od=&uekey=A%C5%9Bvagho%E1%B9%A3a&ekey1=keywordsstr&lim=20&">Aśvaghoṣa (1 / 35)</a>&nbsp;&nbsp;<a href="/INBUDS/search.php?m=sch&od=&uekey=Gurupa%C3%B1c%C4%81%C5%9Bik%C4%81&ekey1=keywordsstr&lim=20&">Gurupañcāśikā (1 / 3)</a>&nbsp;&nbsp;<a href="/INBUDS/search.php?m=sch&od=&uekey=%E3%82%A4%E3%83%B3%E3%83%89&ekey1=keywordsstr&lim=20&">インド (1 / 21888)</a>&nbsp;&nbsp;<a href="/INBUDS/search.php?m=sch&od=&uekey=%E3%82%A4%E3%83%B3%E3%83%89%E4%BB%8F%E6%95%99&ekey1=keywordsstr&lim=20&">インド仏教 (1 / 8316)</a>&nbsp;&nbsp;<a href="/INBUDS/search.php?m=sch&od=&uekey=%E4%BA%8B%E5%B8%AB%E6%B3%95%E4%BA%94%E5%8D%81%E9%A0%8C&ekey1=keywordsstr&lim=20&">事師法五十頌 (1 / 3)</a>&nbsp;&nbsp;<a href="/INBUDS/search.php?m=sch&od=&uekey=%E9%A6%AC%E9%B3%B4&ekey1=keywordsstr&lim=20&">馬鳴 (1 / 139)</a>&nbsp;&nbsp;[<span class="opmore30" style="cursor:pointer">30件まで表示</span>] <div class="more30" style="display:none"><br></div><div style="margin:15px"> <span style="color:red">1</span> </div><table border cellpadding="3" widh="80%"><tr><td>氏名 <a href="/INBUDS/search.php?od=4&m=sch&a=&uekey=事師法五十頌&uekey1=all&ekey=事師法五十頌&ekey1=title&lim=20">↓</a><a href="/INBUDS/search.php?od=5&m=sch&a=&uekey=事師法五十頌&uekey1=all&ekey=事師法五十頌&ekey1=title&lim=20">↑</a></td><!--<td></td>--><td>タイトル <a href="/INBUDS/search.php?od=6&m=sch&a=&uekey=事師法五十頌&uekey1=all&ekey=事師法五十頌&ekey1=title&lim=20">↓</a><a href="/INBUDS/search.php?od=7&m=sch&a=&uekey=事師法五十頌&uekey1=all&ekey=事師法五十頌&ekey1=title&lim=20">↑</a></td><td>媒体名 <a href="/INBUDS/search.php?od=2&m=sch&a=&uekey=事師法五十頌&uekey1=all&ekey=事師法五十頌&ekey1=title&lim=20">↓</a><a href="/INBUDS/search.php?od=3&m=sch&a=&uekey=事師法五十頌&uekey1=all&ekey=事師法五十頌&ekey1=title&lim=20">↑
+</a></td><td>発行日 <a href="/INBUDS/search.php?od=8&m=sch&a=&uekey=事師法五十頌&uekey1=all&ekey=事師法五十頌&ekey1=title&lim=20">↓</a><a href="/INBUDS/search.php?od=9&m=sch&a=&uekey=事師法五十頌&uekey1=all&ekey=事師法五十頌&ekey1=title&lim=20
+">↑</a></td><td>掲載頁</td><td>詳細</td><td>本文</td><td>INBUDS ID</td><td>CI</td></tr><tr><td class="lauthor" nm="%E9%A0%BC%E5%AF%8C%E6%9C%AC%E5%AE%8F">頼富本宏</td><td class="ltitle">伝馬鳴作「事師法五十頌（Gurupañcāśikā）をめぐって</td><td class="ltit"><a href="/INBUDS/search.php?m=mdd&enm=0-00001&a=" class="mtit">印度學佛敎學硏究</a>  通号 <a href="/INBUDS/search.php?m=trd&usid=42&a=">42</a></td><td> 1973-03-31 </td><td>116-118(L)</td><td><a href="/INBUDS/search.php?m=trdd&usid=209892&a=">詳細</a></td><td><span class="gcinii" jsid="209892" lauthor="%E9%A0%BC%E5%AF%8C%E6%9C%AC%E5%AE%8F" mtit="印度學佛敎學硏究" ltitle="伝馬鳴作「事師法五十頌（Gurupañcāśikā）をめぐって"></span></td><td><span class="cpIBID">IB00003608A</span></td><td></td></tr></table><div style="margin:15px"> <span style="color:red">1</span> </div>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".opmore30").click(function(){
+    if($(this).text() == '30件まで表示'){
+     $(".more30").show();
+     $(this).text("10件まで表示");
+    }
+    else{
+     $(".more30").hide();
+     $(this).text("30件まで表示");
+   }
+  });
+
+  $("span.gcinii").each(function(){
+      var ltit = $(this).attr("ltitle");
+      ltit = encodeURIComponent(ltit);   
+      var lauthor = $(this).attr("lauthor");
+      var mtit = $(this).attr("mtit");
+      var jsid = $(this).attr("jsid");
+      if(mtit == '印度学仏教学研究'){mtitv = 1;} 
+      else{mtitv = 0;}
+      var lurl =  '/INBUDS/reqcinii.php?title='+ltit+'&author='+lauthor+'&mtit='+mtitv+'&jsid='+jsid;
+      $(this).text('wait...');
+      console.log(lurl);//test2020
+      $(this).load(lurl);
+  });
+  $("select[name='lim']").val('20');
+  $("select[name='ekey1']").val('title');
+
+});
+</script>
+</div></div><div><a href="https://tripitaka.l.u-tokyo.ac.jp/INBUDS/inbuds_graph.html">キーワード統計</a></div><div style="margin-top:10px">表示情報提供元（PDF論文所在情報）：<img src="https://ci.nii.ac.jp/images/cinii_articles_ci_home_j.gif" alt="CiNii" height="25"/> & <a href="https://www.jstage.jst.go.jp/browse/-char/ja" border="0"><img src="jstage_ban.gif" alt="J-Stage"/></a></div></body></html>

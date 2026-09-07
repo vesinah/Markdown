@@ -1,0 +1,119 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:EV24E53146C2EF0801
+   a             bdo:PersonDeath ;
+   bdo:eventWhen  "1055"^^<http://id.loc.gov/datatypes/edtf/EDTF> ;
+   bdo:onYear    "1055"^^xsd:gYear .
+
+bdr:EVFA68D3260DB248AA
+   a             bdo:PersonBirth ;
+   bdo:eventWhen  "0958"^^<http://id.loc.gov/datatypes/edtf/EDTF> ;
+   bdo:onYear    "0958"^^xsd:gYear .
+
+bdr:NM46EC897CB287EF4C
+   a             bdo:PersonPersonalName ;
+   rdfs:label    "rin chen dbang phyug"@bo-x-ewts .
+
+bdr:NMB40DD09EB6C02A46
+   a             bdo:PersonPrimaryTitle ;
+   rdfs:label    "lo chen rin chen bzang po/"@bo-x-ewts .
+
+bdr:NMCCD46D6CC65437D2
+   a             bdo:PersonPrimaryName ;
+   rdfs:label    "rin chen bzang po/"@bo-x-ewts .
+
+bdr:NMD73BE0A53E251882
+   a             bdo:PersonPersonalName ;
+   rdfs:label    "bya'i gdong pa can/"@bo-x-ewts .
+
+bdr:NT937D79D411D10491
+   a             bdo:Note ;
+   bdo:contentLocationStatement  "128" ;
+   bdo:noteSource  bdr:MW27401 .
+
+bdr:NTB6272F8F201BFFF2
+   a             bdo:Note ;
+   bdo:contentLocationStatement  "v. 2, pp. 1-2" ;
+   bdo:noteSource  bdr:MW25268 ;
+   bdo:noteText  "biography\ndates: 958-1055"@en .
+
+bdr:NTD0954CF77D88BE35
+   a             bdo:Note ;
+   bdo:contentLocationStatement  "p. 1670" ;
+   bdo:noteSource  bdr:MW19801 ;
+   bdo:noteText  "bio"@en .
+
+bdr:NTDE450CDF199C99E8
+   a             bdo:Note ;
+   bdo:contentLocationStatement  "p. 264" ;
+   bdo:noteSource  bdr:MW19835 ;
+   bdo:noteText  "bio"@en .
+
+bdr:NTF2E6F3915AF187BB
+   a             bdo:Note ;
+   bdo:contentLocationStatement  "p. 155" ;
+   bdo:noteSource  bdr:MW19854 .
+
+bdr:NTP753_ATII0  a  bdo:Note ;
+   bdo:noteText  "Information from this record was contributed by the Authors and Translators Identification Initiative (ATII) project in collaboration with the Khyentse Center at Universität Hamburg."@en .
+
+bdr:P753  a      bdo:Person ;
+   skos:prefLabel  "lo chen rin chen bzang po/"@bo-x-ewts ;
+   bdo:associatedTradition  bdr:TraditionKadam ;
+   bdo:hasIncarnation  bdr:P1KG4221 ;
+   bdo:hasIncarnationGeneral  bdr:P1KG4221 ;
+   bdo:note      bdr:NT937D79D411D10491 , bdr:NTB6272F8F201BFFF2 , bdr:NTD0954CF77D88BE35 , bdr:NTDE450CDF199C99E8 , bdr:NTF2E6F3915AF187BB , bdr:NTP753_ATII0 ;
+   bdo:personEvent  bdr:EV24E53146C2EF0801 , bdr:EVFA68D3260DB248AA ;
+   bdo:personGender  bdr:GenderMale ;
+   bdo:personName  bdr:NM46EC897CB287EF4C , bdr:NMB40DD09EB6C02A46 , bdr:NMCCD46D6CC65437D2 , bdr:NMD73BE0A53E251882 ;
+   bdo:personStudentOf  bdr:P0RK6 , bdr:P3085 , bdr:P3378 , bdr:P3379 , bdr:P3388 , bdr:P3403 , bdr:P4CZ10517 , bdr:P4CZ15153 , bdr:P4CZ15254 , bdr:P4CZ15282 , bdr:P4CZ15458 , bdr:P4CZ15568 , bdr:P4CZ16821 , bdr:P8194 ;
+   bdo:personTeacherOf  bdr:P0RK1518 , bdr:P0RK1610 , bdr:P0RK343 , bdr:P0RK977 , bdr:P1242 , bdr:P2551 , bdr:P3381 , bdr:P3411 , bdr:P3KG117 , bdr:P4266 , bdr:P4CZ1548 , bdr:P8LS13952 ;
+   tmp:associatedCentury  10 , 11 ;
+   tmp:entityScore  19203 ;
+   owl:sameAs    <http://api.treasuryoflives.org/resource/TOLP10199> , viaf:25401314 , wd:Q967864 .

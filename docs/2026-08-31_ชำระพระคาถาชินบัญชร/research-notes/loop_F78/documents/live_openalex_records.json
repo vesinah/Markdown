@@ -1,0 +1,2834 @@
+[
+  {
+    "id": "https://openalex.org/W2748224562",
+    "doi": "https://doi.org/10.3390/rel8080153",
+    "title": "Somatic Energies and Emotional Traumas: A Qualitative Study of Practice-Related Challenges Reported by Vajrayāna Buddhists",
+    "display_name": "Somatic Energies and Emotional Traumas: A Qualitative Study of Practice-Related Challenges Reported by Vajrayāna Buddhists",
+    "relevance_score": 63.912796,
+    "publication_year": 2017,
+    "publication_date": "2017-08-18",
+    "ids": {
+      "openalex": "https://openalex.org/W2748224562",
+      "doi": "https://doi.org/10.3390/rel8080153",
+      "mag": "2748224562"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/rel8080153",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/rel8080153",
+      "pdf_url": "https://www.mdpi.com/2077-1444/8/8/153/pdf?version=1503053534",
+      "source": {
+        "id": "https://openalex.org/S4210184657",
+        "display_name": "Religions",
+        "issn_l": "2077-1444",
+        "issn": [
+          "2077-1444"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Religions",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2077-1444/8/8/153/pdf?version=1503053534",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5051043875",
+          "display_name": "Jared R. Lindahl",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I27804330",
+            "display_name": "Brown University",
+            "ror": "https://ror.org/05gq02987",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I27804330"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jared Lindahl",
+        "raw_affiliation_strings": [
+          "Cogut Center for the Humanities, Brown University, 172 Meeting St, Providence, RI 02912, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Cogut Center for the Humanities, Brown University, 172 Meeting St, Providence, RI 02912, USA",
+            "institution_ids": [
+              "https://openalex.org/I27804330"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5051043875"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I27804330"
+    ],
+    "apc_list": {
+      "value": 1800,
+      "currency": "CHF",
+      "value_usd": 2172
+    },
+    "apc_paid": {
+      "value": 1800,
+      "currency": "CHF",
+      "value_usd": 2172
+    },
+    "fwci": 1.0089,
+    "has_fulltext": true,
+    "cited_by_count": 26,
+    "citation_normalized_percentile": {
+      "value": 0.75643849,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "8",
+      "issue": "8",
+      "first_page": "153",
+      "last_page": "153"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11334",
+      "display_name": "Psychosomatic Disorders and Their Treatments",
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11334",
+        "display_name": "Psychosomatic Disorders and Their Treatments",
+        "score": 0.9991999864578247,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2738",
+          "display_name": "Psychiatry and Mental health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10708",
+        "display_name": "Mindfulness and Compassion Interventions",
+        "score": 0.9976000189781189,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3203",
+          "display_name": "Clinical Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11327",
+        "display_name": "Acupuncture Treatment Research Studies",
+        "score": 0.9954000115394592,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2707",
+          "display_name": "Complementary and alternative medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/meditation",
+        "display_name": "Meditation",
+        "score": 0.6690983772277832
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.5482878088951111
+      },
+      {
+        "id": "https://openalex.org/keywords/qualitative-research",
+        "display_name": "Qualitative research",
+        "score": 0.48655572533607483
+      },
+      {
+        "id": "https://openalex.org/keywords/feeling",
+        "display_name": "Feeling",
+        "score": 0.46168914437294006
+      },
+      {
+        "id": "https://openalex.org/keywords/energy",
+        "display_name": "Energy (signal processing)",
+        "score": 0.4194742441177368
+      },
+      {
+        "id": "https://openalex.org/keywords/normative",
+        "display_name": "Normative",
+        "score": 0.41061410307884216
+      },
+      {
+        "id": "https://openalex.org/keywords/psychotherapist",
+        "display_name": "Psychotherapist",
+        "score": 0.39113861322402954
+      },
+      {
+        "id": "https://openalex.org/keywords/clinical-psychology",
+        "display_name": "Clinical psychology",
+        "score": 0.355044960975647
+      },
+      {
+        "id": "https://openalex.org/keywords/social-psychology",
+        "display_name": "Social psychology",
+        "score": 0.23397597670555115
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C521822307",
+        "wikidata": "https://www.wikidata.org/wiki/Q108458",
+        "display_name": "Meditation",
+        "level": 2,
+        "score": 0.6690983772277832
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.5482878088951111
+      },
+      {
+        "id": "https://openalex.org/C190248442",
+        "wikidata": "https://www.wikidata.org/wiki/Q839486",
+        "display_name": "Qualitative research",
+        "level": 2,
+        "score": 0.48655572533607483
+      },
+      {
+        "id": "https://openalex.org/C122980154",
+        "wikidata": "https://www.wikidata.org/wiki/Q205555",
+        "display_name": "Feeling",
+        "level": 2,
+        "score": 0.46168914437294006
+      },
+      {
+        "id": "https://openalex.org/C186370098",
+        "wikidata": "https://www.wikidata.org/wiki/Q442787",
+        "display_name": "Energy (signal processing)",
+        "level": 2,
+        "score": 0.4194742441177368
+      },
+      {
+        "id": "https://openalex.org/C44725695",
+        "wikidata": "https://www.wikidata.org/wiki/Q288156",
+        "display_name": "Normative",
+        "level": 2,
+        "score": 0.41061410307884216
+      },
+      {
+        "id": "https://openalex.org/C542102704",
+        "wikidata": "https://www.wikidata.org/wiki/Q183257",
+        "display_name": "Psychotherapist",
+        "level": 1,
+        "score": 0.39113861322402954
+      },
+      {
+        "id": "https://openalex.org/C70410870",
+        "wikidata": "https://www.wikidata.org/wiki/Q199906",
+        "display_name": "Clinical psychology",
+        "level": 1,
+        "score": 0.355044960975647
+      },
+      {
+        "id": "https://openalex.org/C77805123",
+        "wikidata": "https://www.wikidata.org/wiki/Q161272",
+        "display_name": "Social psychology",
+        "level": 1,
+        "score": 0.23397597670555115
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C36289849",
+        "wikidata": "https://www.wikidata.org/wiki/Q34749",
+        "display_name": "Social science",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.3390/rel8080153",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rel8080153",
+        "pdf_url": "https://www.mdpi.com/2077-1444/8/8/153/pdf?version=1503053534",
+        "source": {
+          "id": "https://openalex.org/S4210184657",
+          "display_name": "Religions",
+          "issn_l": "2077-1444",
+          "issn": [
+            "2077-1444"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Religions",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:63a3d6a79cf7429c85f040b44168e9ba",
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/63a3d6a79cf7429c85f040b44168e9ba",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Religions, Vol 8, Iss 8, p 153 (2017)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/rel8080153",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/rel8080153",
+      "pdf_url": "https://www.mdpi.com/2077-1444/8/8/153/pdf?version=1503053534",
+      "source": {
+        "id": "https://openalex.org/S4210184657",
+        "display_name": "Religions",
+        "issn_l": "2077-1444",
+        "issn": [
+          "2077-1444"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Religions",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G3116458164",
+        "display_name": null,
+        "funder_award_id": "256/12",
+        "funder_id": "https://openalex.org/F4320323074",
+        "funder_display_name": "Fundação Bial"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320309070",
+        "display_name": "Brown University",
+        "ror": "https://ror.org/05gq02987"
+      },
+      {
+        "id": "https://openalex.org/F4320312876",
+        "display_name": "Mind and Life Institute",
+        "ror": "https://ror.org/0243m8266"
+      },
+      {
+        "id": "https://openalex.org/F4320323074",
+        "display_name": "Fundação Bial",
+        "ror": "https://ror.org/02htdjb57"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2748224562.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2748224562.grobid-xml"
+    },
+    "referenced_works_count": 30,
+    "referenced_works": [
+      "https://openalex.org/W124264209",
+      "https://openalex.org/W178652596",
+      "https://openalex.org/W250278877",
+      "https://openalex.org/W571657762",
+      "https://openalex.org/W1502794076",
+      "https://openalex.org/W1507311529",
+      "https://openalex.org/W1558683065",
+      "https://openalex.org/W1570693508",
+      "https://openalex.org/W1968653761",
+      "https://openalex.org/W1970722016",
+      "https://openalex.org/W1978177535",
+      "https://openalex.org/W2084818646",
+      "https://openalex.org/W2086095111",
+      "https://openalex.org/W2110975004",
+      "https://openalex.org/W2120747285",
+      "https://openalex.org/W2127046953",
+      "https://openalex.org/W2149524557",
+      "https://openalex.org/W2149676074",
+      "https://openalex.org/W2264924360",
+      "https://openalex.org/W2399418896",
+      "https://openalex.org/W2413009866",
+      "https://openalex.org/W2620252718",
+      "https://openalex.org/W3128592129",
+      "https://openalex.org/W3200759375",
+      "https://openalex.org/W3213649769",
+      "https://openalex.org/W4240515351",
+      "https://openalex.org/W4245157957",
+      "https://openalex.org/W4394890173",
+      "https://openalex.org/W6630162664",
+      "https://openalex.org/W6715732697"
+    ],
+    "related_works": [
+      "https://openalex.org/W2239057824",
+      "https://openalex.org/W4281971433",
+      "https://openalex.org/W4236263371",
+      "https://openalex.org/W1985314655",
+      "https://openalex.org/W600497861",
+      "https://openalex.org/W2520193207",
+      "https://openalex.org/W2730024498",
+      "https://openalex.org/W4384283201",
+      "https://openalex.org/W2599107457",
+      "https://openalex.org/W1964437745"
+    ],
+    "abstract_inverted_index": {
+      "A": [
+        0
+      ],
+      "qualitative": [
+        1
+      ],
+      "study": [
+        2
+      ],
+      "of": [
+        3,
+        6,
+        22,
+        37,
+        68,
+        72,
+        86,
+        121
+      ],
+      "Western": [
+        4
+      ],
+      "practitioners": [
+        5,
+        24,
+        61,
+        110,
+        125,
+        142
+      ],
+      "Buddhist": [
+        7
+      ],
+      "meditation": [
+        8
+      ],
+      "investigated": [
+        9
+      ],
+      "unexpected,": [
+        10
+      ],
+      "challenging,": [
+        11
+      ],
+      "difficult,": [
+        12
+      ],
+      "and": [
+        13,
+        57,
+        133,
+        165,
+        173,
+        191
+      ],
+      "distressing": [
+        14
+      ],
+      "experiences.": [
+        15
+      ],
+      "This": [
+        16
+      ],
+      "paper": [
+        17
+      ],
+      "reports": [
+        18
+      ],
+      "on": [
+        19
+      ],
+      "a": [
+        20,
+        64,
+        117,
+        127,
+        138
+      ],
+      "subset": [
+        21
+      ],
+      "12": [
+        23
+      ],
+      "within": [
+        25
+      ],
+      "Tibetan": [
+        26,
+        65
+      ],
+      "Vajrayāna": [
+        27,
+        103,
+        184
+      ],
+      "lineages": [
+        28
+      ],
+      "who": [
+        29
+      ],
+      "described": [
+        30
+      ],
+      "energy": [
+        31
+      ],
+      "flowing": [
+        32
+      ],
+      "through": [
+        33
+      ],
+      "their": [
+        34,
+        157
+      ],
+      "body,": [
+        35
+      ],
+      "knots": [
+        36
+      ],
+      "pain,": [
+        38
+      ],
+      "pressure": [
+        39
+      ],
+      "or": [
+        40,
+        77,
+        151
+      ],
+      "tension,": [
+        41
+      ],
+      "and/or": [
+        42
+      ],
+      "concurrent": [
+        43
+      ],
+      "emotional": [
+        44,
+        92
+      ],
+      "changes.": [
+        45
+      ],
+      "In": [
+        46
+      ],
+      "some": [
+        47,
+        109
+      ],
+      "cases,": [
+        48
+      ],
+      "somatic": [
+        49,
+        164
+      ],
+      "changes": [
+        50
+      ],
+      "were": [
+        51,
+        62,
+        143
+      ],
+      "appraised": [
+        52
+      ],
+      "as": [
+        53,
+        98,
+        100,
+        106
+      ],
+      "practice-related": [
+        54,
+        158
+      ],
+      "transient": [
+        55
+      ],
+      "states,": [
+        56
+      ],
+      "in": [
+        58,
+        74,
+        114,
+        162,
+        182
+      ],
+      "other": [
+        59,
+        102
+      ],
+      "cases": [
+        60
+      ],
+      "given": [
+        63
+      ],
+      "medical": [
+        66,
+        152
+      ],
+      "diagnosis": [
+        67
+      ],
+      "rlung": [
+        69
+      ],
+      "disorder.": [
+        70
+      ],
+      "Releases": [
+        71
+      ],
+      "tension": [
+        73
+      ],
+      "the": [
+        75,
+        177,
+        183
+      ],
+      "body": [
+        76,
+        79,
+        96
+      ],
+      "subtle": [
+        78,
+        95
+      ],
+      "also": [
+        80,
+        144
+      ],
+      "sometimes": [
+        81
+      ],
+      "coincided": [
+        82
+      ],
+      "with": [
+        83,
+        126
+      ],
+      "an": [
+        84
+      ],
+      "upwelling": [
+        85,
+        93
+      ],
+      "emotionally": [
+        87
+      ],
+      "charged": [
+        88
+      ],
+      "content.": [
+        89
+      ],
+      "Practitioners": [
+        90
+      ],
+      "reported": [
+        91,
+        130
+      ],
+      "during": [
+        94,
+        101
+      ],
+      "practices": [
+        97
+      ],
+      "well": [
+        99
+      ],
+      "practices,": [
+        104
+      ],
+      "such": [
+        105
+      ],
+      "visualizations.": [
+        107
+      ],
+      "While": [
+        108
+      ],
+      "viewed": [
+        111
+      ],
+      "these": [
+        112
+      ],
+      "experiences": [
+        113,
+        167
+      ],
+      "relation": [
+        115
+      ],
+      "to": [
+        116,
+        136,
+        147,
+        154,
+        180
+      ],
+      "normative": [
+        118
+      ],
+      "Tantric": [
+        119
+      ],
+      "soteriology": [
+        120
+      ],
+      "purification,": [
+        122
+      ],
+      "almost": [
+        123
+      ],
+      "all": [
+        124
+      ],
+      "trauma": [
+        128
+      ],
+      "history": [
+        129
+      ],
+      "traumatic": [
+        131
+      ],
+      "re-experiencing": [
+        132
+      ],
+      "tended": [
+        134
+      ],
+      "not": [
+        135
+      ],
+      "adopt": [
+        137
+      ],
+      "purification": [
+        139
+      ],
+      "framework.": [
+        140
+      ],
+      "These": [
+        141
+      ],
+      "more": [
+        145
+      ],
+      "likely": [
+        146
+      ],
+      "seek": [
+        148
+      ],
+      "additional": [
+        149
+      ],
+      "psychotherapeutic": [
+        150
+      ],
+      "treatment": [
+        153
+      ],
+      "help": [
+        155
+      ],
+      "resolve": [
+        156
+      ],
+      "challenges.": [
+        159
+      ],
+      "The": [
+        160
+      ],
+      "manner": [
+        161
+      ],
+      "which": [
+        163
+      ],
+      "affective": [
+        166
+      ],
+      "manifest,": [
+        168
+      ],
+      "how": [
+        169,
+        174
+      ],
+      "they": [
+        170,
+        175
+      ],
+      "are": [
+        171
+      ],
+      "appraised,": [
+        172
+      ],
+      "affect": [
+        176
+      ],
+      "practitioner’s": [
+        178
+      ],
+      "ability": [
+        179
+      ],
+      "engage": [
+        181
+      ],
+      "path": [
+        185
+      ],
+      "depends": [
+        186
+      ],
+      "upon": [
+        187
+      ],
+      "many": [
+        188
+      ],
+      "individual,": [
+        189
+      ],
+      "interpersonal,": [
+        190
+      ],
+      "cultural": [
+        192
+      ],
+      "factors.": [
+        193
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2026-08-27T14:10:00.468798",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W2591612883",
+    "doi": "https://doi.org/10.24204/ejpr.v4i3.277",
+    "title": "Awe and Humility in the Face of Things: Somatic Practice in East-Asian Philosophies",
+    "display_name": "Awe and Humility in the Face of Things: Somatic Practice in East-Asian Philosophies",
+    "relevance_score": 47.33574,
+    "publication_year": 2012,
+    "publication_date": "2012-09-23",
+    "ids": {
+      "openalex": "https://openalex.org/W2591612883",
+      "doi": "https://doi.org/10.24204/ejpr.v4i3.277",
+      "mag": "2591612883"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.24204/ejpr.v4i3.277",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.24204/ejpr.v4i3.277",
+      "pdf_url": "https://webapp.uibk.ac.at/ojs2/index.php/EJPR/article/download/277/248",
+      "source": {
+        "id": "https://openalex.org/S4210174618",
+        "display_name": "European Journal for Philosophy of Religion",
+        "issn_l": "1689-8311",
+        "issn": [
+          "1689-8311"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "European Journal for Philosophy of Religion",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://webapp.uibk.ac.at/ojs2/index.php/EJPR/article/download/277/248",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5083961218",
+          "display_name": "Graham Parkes",
+          "orcid": "https://orcid.org/0000-0003-3927-9814"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I27577105",
+            "display_name": "University College Cork",
+            "ror": "https://ror.org/03265fv13",
+            "country_code": "IE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I27577105"
+            ]
+          }
+        ],
+        "countries": [
+          "IE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Graham Parkes",
+        "raw_affiliation_strings": [
+          "University College Cork"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University College Cork",
+            "institution_ids": [
+              "https://openalex.org/I27577105"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5083961218"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I27577105"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 2.7373,
+    "has_fulltext": true,
+    "cited_by_count": 10,
+    "citation_normalized_percentile": {
+      "value": 0.92572348,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "4",
+      "issue": "3",
+      "first_page": "69",
+      "last_page": "88"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10893",
+      "display_name": "Chinese history and philosophy",
+      "score": 0.9929999709129333,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10893",
+        "display_name": "Chinese history and philosophy",
+        "score": 0.9929999709129333,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12366",
+        "display_name": "Philosophy, Ethics, and Existentialism",
+        "score": 0.9036999940872192,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/humility",
+        "display_name": "Humility",
+        "score": 0.9025824069976807
+      },
+      {
+        "id": "https://openalex.org/keywords/face",
+        "display_name": "Face (sociological concept)",
+        "score": 0.6887804269790649
+      },
+      {
+        "id": "https://openalex.org/keywords/action",
+        "display_name": "Action (physics)",
+        "score": 0.5682932138442993
+      },
+      {
+        "id": "https://openalex.org/keywords/egocentrism",
+        "display_name": "Egocentrism",
+        "score": 0.5680674314498901
+      },
+      {
+        "id": "https://openalex.org/keywords/china",
+        "display_name": "China",
+        "score": 0.5237262845039368
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.46020644903182983
+      },
+      {
+        "id": "https://openalex.org/keywords/epistemology",
+        "display_name": "Epistemology",
+        "score": 0.4549108147621155
+      },
+      {
+        "id": "https://openalex.org/keywords/somatic-cell",
+        "display_name": "Somatic cell",
+        "score": 0.42564278841018677
+      },
+      {
+        "id": "https://openalex.org/keywords/east-asia",
+        "display_name": "East Asia",
+        "score": 0.4206800162792206
+      },
+      {
+        "id": "https://openalex.org/keywords/multiculturalism",
+        "display_name": "Multiculturalism",
+        "score": 0.4177968204021454
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.3342065215110779
+      },
+      {
+        "id": "https://openalex.org/keywords/social-psychology",
+        "display_name": "Social psychology",
+        "score": 0.31809115409851074
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.22422179579734802
+      },
+      {
+        "id": "https://openalex.org/keywords/social-science",
+        "display_name": "Social science",
+        "score": 0.18530982732772827
+      },
+      {
+        "id": "https://openalex.org/keywords/political-science",
+        "display_name": "Political science",
+        "score": 0.17232125997543335
+      },
+      {
+        "id": "https://openalex.org/keywords/law",
+        "display_name": "Law",
+        "score": 0.14584335684776306
+      },
+      {
+        "id": "https://openalex.org/keywords/pedagogy",
+        "display_name": "Pedagogy",
+        "score": 0.13896870613098145
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.07232847809791565
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2778456462",
+        "wikidata": "https://www.wikidata.org/wiki/Q1186677",
+        "display_name": "Humility",
+        "level": 2,
+        "score": 0.9025824069976807
+      },
+      {
+        "id": "https://openalex.org/C2779304628",
+        "wikidata": "https://www.wikidata.org/wiki/Q3503480",
+        "display_name": "Face (sociological concept)",
+        "level": 2,
+        "score": 0.6887804269790649
+      },
+      {
+        "id": "https://openalex.org/C2780791683",
+        "wikidata": "https://www.wikidata.org/wiki/Q846785",
+        "display_name": "Action (physics)",
+        "level": 2,
+        "score": 0.5682932138442993
+      },
+      {
+        "id": "https://openalex.org/C159336430",
+        "wikidata": "https://www.wikidata.org/wiki/Q463910",
+        "display_name": "Egocentrism",
+        "level": 2,
+        "score": 0.5680674314498901
+      },
+      {
+        "id": "https://openalex.org/C191935318",
+        "wikidata": "https://www.wikidata.org/wiki/Q148",
+        "display_name": "China",
+        "level": 2,
+        "score": 0.5237262845039368
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.46020644903182983
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.4549108147621155
+      },
+      {
+        "id": "https://openalex.org/C134305767",
+        "wikidata": "https://www.wikidata.org/wiki/Q725508",
+        "display_name": "Somatic cell",
+        "level": 3,
+        "score": 0.42564278841018677
+      },
+      {
+        "id": "https://openalex.org/C76775654",
+        "wikidata": "https://www.wikidata.org/wiki/Q27231",
+        "display_name": "East Asia",
+        "level": 3,
+        "score": 0.4206800162792206
+      },
+      {
+        "id": "https://openalex.org/C542530943",
+        "wikidata": "https://www.wikidata.org/wiki/Q190656",
+        "display_name": "Multiculturalism",
+        "level": 2,
+        "score": 0.4177968204021454
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.3342065215110779
+      },
+      {
+        "id": "https://openalex.org/C77805123",
+        "wikidata": "https://www.wikidata.org/wiki/Q161272",
+        "display_name": "Social psychology",
+        "level": 1,
+        "score": 0.31809115409851074
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.22422179579734802
+      },
+      {
+        "id": "https://openalex.org/C36289849",
+        "wikidata": "https://www.wikidata.org/wiki/Q34749",
+        "display_name": "Social science",
+        "level": 1,
+        "score": 0.18530982732772827
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.17232125997543335
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.14584335684776306
+      },
+      {
+        "id": "https://openalex.org/C19417346",
+        "wikidata": "https://www.wikidata.org/wiki/Q7922",
+        "display_name": "Pedagogy",
+        "level": 1,
+        "score": 0.13896870613098145
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.07232847809791565
+      },
+      {
+        "id": "https://openalex.org/C55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.24204/ejpr.v4i3.277",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.24204/ejpr.v4i3.277",
+        "pdf_url": "https://webapp.uibk.ac.at/ojs2/index.php/EJPR/article/download/277/248",
+        "source": {
+          "id": "https://openalex.org/S4210174618",
+          "display_name": "European Journal for Philosophy of Religion",
+          "issn_l": "1689-8311",
+          "issn": [
+            "1689-8311"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "European Journal for Philosophy of Religion",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:philpapers.org/rec/PARAAH",
+        "is_oa": true,
+        "landing_page_url": "https://philpapers.org/rec/PARAAH",
+        "pdf_url": "https://philpapers.org/archive/PARAAH.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306402130",
+          "display_name": "PhilPapers (PhilPapers Foundation)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      {
+        "id": "pmh:oai:philarchive.org/rec/PARAAH",
+        "is_oa": false,
+        "landing_page_url": "https://philarchive.org/rec/PARAAH",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402130",
+          "display_name": "PhilPapers (PhilPapers Foundation)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.24204/ejpr.v4i3.277",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.24204/ejpr.v4i3.277",
+      "pdf_url": "https://webapp.uibk.ac.at/ojs2/index.php/EJPR/article/download/277/248",
+      "source": {
+        "id": "https://openalex.org/S4210174618",
+        "display_name": "European Journal for Philosophy of Religion",
+        "issn_l": "1689-8311",
+        "issn": [
+          "1689-8311"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "European Journal for Philosophy of Religion",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2591612883.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2591612883.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2042322704",
+      "https://openalex.org/W2044705531",
+      "https://openalex.org/W2021422459",
+      "https://openalex.org/W2048854893",
+      "https://openalex.org/W2320230442",
+      "https://openalex.org/W2011529874",
+      "https://openalex.org/W1669044802",
+      "https://openalex.org/W2039361828",
+      "https://openalex.org/W2591612883"
+    ],
+    "abstract_inverted_index": {
+      "Whereas": [
+        0
+      ],
+      "the": [
+        1,
+        6,
+        28,
+        70,
+        75,
+        83,
+        97,
+        100,
+        114
+      ],
+      "Platonic-Christian": [
+        2
+      ],
+      "philosophical": [
+        3
+      ],
+      "tradition": [
+        4
+      ],
+      "in": [
+        5,
+        22,
+        34,
+        40,
+        106
+      ],
+      "West": [
+        7
+      ],
+      "favours": [
+        8
+      ],
+      "an": [
+        9
+      ],
+      "‘ascent": [
+        10
+      ],
+      "to": [
+        11,
+        19
+      ],
+      "theory’": [
+        12
+      ],
+      "and": [
+        13,
+        32,
+        36,
+        38,
+        54,
+        91,
+        118,
+        120,
+        123
+      ],
+      "abstract": [
+        14
+      ],
+      "reasoning,": [
+        15
+      ],
+      "east-Asian": [
+        16
+      ],
+      "philosophies": [
+        17,
+        29,
+        104
+      ],
+      "tend": [
+        18
+      ],
+      "be": [
+        20
+      ],
+      "rooted": [
+        21
+      ],
+      "somatic,": [
+        23
+      ],
+      "or": [
+        24,
+        72,
+        82
+      ],
+      "bodily,": [
+        25
+      ],
+      "practice.": [
+        26
+      ],
+      "In": [
+        27
+      ],
+      "of": [
+        30,
+        48,
+        85,
+        103
+      ],
+      "Confucius": [
+        31
+      ],
+      "Zhuangzi": [
+        33
+      ],
+      "China,": [
+        35
+      ],
+      "Kūkai": [
+        37
+      ],
+      "Dōgen": [
+        39
+      ],
+      "Japan,": [
+        41
+      ],
+      "we": [
+        42,
+        79
+      ],
+      "can": [
+        43
+      ],
+      "distinguish": [
+        44
+      ],
+      "two": [
+        45
+      ],
+      "different": [
+        46
+      ],
+      "forms": [
+        47
+      ],
+      "somatic": [
+        49,
+        107
+      ],
+      "practice:": [
+        50
+      ],
+      "developing": [
+        51
+      ],
+      "physical": [
+        52
+      ],
+      "skills,": [
+        53
+      ],
+      "what": [
+        55
+      ],
+      "one": [
+        56
+      ],
+      "might": [
+        57
+      ],
+      "call": [
+        58
+      ],
+      "‘realising": [
+        59
+      ],
+      "relationships’.": [
+        60
+      ],
+      "These": [
+        61
+      ],
+      "practices": [
+        62
+      ],
+      "improve": [
+        63
+      ],
+      "our": [
+        64,
+        73
+      ],
+      "relations": [
+        65
+      ],
+      "with": [
+        66,
+        77
+      ],
+      "others": [
+        67
+      ],
+      "–": [
+        68,
+        87
+      ],
+      "whether": [
+        69
+      ],
+      "ancestors": [
+        71
+      ],
+      "contemporaries,": [
+        74
+      ],
+      "things": [
+        76
+      ],
+      "which": [
+        78
+      ],
+      "surround": [
+        80
+      ],
+      "ourselves": [
+        81
+      ],
+      "phenomena": [
+        84
+      ],
+      "nature": [
+        86
+      ],
+      "by": [
+        88
+      ],
+      "reducing": [
+        89
+      ],
+      "egocentrism": [
+        90
+      ],
+      "increasing": [
+        92
+      ],
+      "humility.": [
+        93
+      ],
+      "Because": [
+        94
+      ],
+      "they": [
+        95,
+        111
+      ],
+      "transform": [
+        96
+      ],
+      "practitioner’s": [
+        98
+      ],
+      "experience,": [
+        99
+      ],
+      "major": [
+        101
+      ],
+      "benefit": [
+        102
+      ],
+      "grounded": [
+        105
+      ],
+      "practice": [
+        108
+      ],
+      "is": [
+        109
+      ],
+      "that": [
+        110
+      ],
+      "help": [
+        112
+      ],
+      "close": [
+        113
+      ],
+      "gap": [
+        115
+      ],
+      "between": [
+        116,
+        121
+      ],
+      "beliefs": [
+        117
+      ],
+      "behaviour,": [
+        119
+      ],
+      "ideas": [
+        122
+      ],
+      "action.": [
+        124
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2014,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2013,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-26T07:47:46.906454",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W2907000736",
+    "doi": "https://doi.org/10.15212/caet/2017/3/2",
+    "title": "The ‘Green’ Mandala: Where Eastern Wisdom meets Ecopsychology",
+    "display_name": "The ‘Green’ Mandala: Where Eastern Wisdom meets Ecopsychology",
+    "relevance_score": 43.484936,
+    "publication_year": 2018,
+    "publication_date": "2018-09-20",
+    "ids": {
+      "openalex": "https://openalex.org/W2907000736",
+      "doi": "https://doi.org/10.15212/caet/2017/3/2",
+      "mag": "2907000736"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.15212/caet/2017/3/2",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.15212/caet/2017/3/2",
+      "pdf_url": "http://caet.inspirees.com/caetojsjournals/index.php/caet/article/download/47/89",
+      "source": {
+        "id": "https://openalex.org/S4210173752",
+        "display_name": "Creative Arts in Education and Therapy",
+        "issn_l": "2451-876X",
+        "issn": [
+          "2451-876X",
+          "2468-2306"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Creative Arts in Education and Therapy",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "http://caet.inspirees.com/caetojsjournals/index.php/caet/article/download/47/89",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5071016698",
+          "display_name": "Alexander Kopytin",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210110371",
+            "display_name": "Russian Academy of Education",
+            "ror": "https://ror.org/026s4j722",
+            "country_code": "RU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210110371"
+            ]
+          }
+        ],
+        "countries": [
+          "RU"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Alexander Kopytin",
+        "raw_affiliation_strings": [
+          "St.-Petersburg Academy of Post-Graduate Pedagogical Training, Russia"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "St.-Petersburg Academy of Post-Graduate Pedagogical Training, Russia",
+            "institution_ids": [
+              "https://openalex.org/I4210110371"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5071016698"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210110371"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.19649085,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 96
+    },
+    "biblio": {
+      "volume": "3",
+      "issue": "2",
+      "first_page": "1",
+      "last_page": "14"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12448",
+      "display_name": "Paranormal Experiences and Beliefs",
+      "score": 0.9150999784469604,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12448",
+        "display_name": "Paranormal Experiences and Beliefs",
+        "score": 0.9150999784469604,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/mandala",
+        "display_name": "Mandala",
+        "score": 0.9972029328346252
+      },
+      {
+        "id": "https://openalex.org/keywords/the-arts",
+        "display_name": "The arts",
+        "score": 0.6504954099655151
+      },
+      {
+        "id": "https://openalex.org/keywords/unconscious-mind",
+        "display_name": "Unconscious mind",
+        "score": 0.5880664587020874
+      },
+      {
+        "id": "https://openalex.org/keywords/psyche",
+        "display_name": "Psyche",
+        "score": 0.5676136016845703
+      },
+      {
+        "id": "https://openalex.org/keywords/transpersonal",
+        "display_name": "Transpersonal",
+        "score": 0.5656061768531799
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.4075733423233032
+      },
+      {
+        "id": "https://openalex.org/keywords/aesthetics",
+        "display_name": "Aesthetics",
+        "score": 0.3963271379470825
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.3418452739715576
+      },
+      {
+        "id": "https://openalex.org/keywords/psychoanalysis",
+        "display_name": "Psychoanalysis",
+        "score": 0.2952668070793152
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.2798442840576172
+      },
+      {
+        "id": "https://openalex.org/keywords/visual-arts",
+        "display_name": "Visual arts",
+        "score": 0.2635040879249573
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.18814823031425476
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.12977612018585205
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2779302622",
+        "wikidata": "https://www.wikidata.org/wiki/Q191431",
+        "display_name": "Mandala",
+        "level": 2,
+        "score": 0.9972029328346252
+      },
+      {
+        "id": "https://openalex.org/C70789860",
+        "wikidata": "https://www.wikidata.org/wiki/Q2018526",
+        "display_name": "The arts",
+        "level": 2,
+        "score": 0.6504954099655151
+      },
+      {
+        "id": "https://openalex.org/C115786838",
+        "wikidata": "https://www.wikidata.org/wiki/Q192105",
+        "display_name": "Unconscious mind",
+        "level": 2,
+        "score": 0.5880664587020874
+      },
+      {
+        "id": "https://openalex.org/C73440236",
+        "wikidata": "https://www.wikidata.org/wiki/Q194034",
+        "display_name": "Psyche",
+        "level": 2,
+        "score": 0.5676136016845703
+      },
+      {
+        "id": "https://openalex.org/C161221015",
+        "wikidata": "https://www.wikidata.org/wiki/Q4462024",
+        "display_name": "Transpersonal",
+        "level": 2,
+        "score": 0.5656061768531799
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.4075733423233032
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.3963271379470825
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.3418452739715576
+      },
+      {
+        "id": "https://openalex.org/C11171543",
+        "wikidata": "https://www.wikidata.org/wiki/Q41630",
+        "display_name": "Psychoanalysis",
+        "level": 1,
+        "score": 0.2952668070793152
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.2798442840576172
+      },
+      {
+        "id": "https://openalex.org/C153349607",
+        "wikidata": "https://www.wikidata.org/wiki/Q36649",
+        "display_name": "Visual arts",
+        "level": 1,
+        "score": 0.2635040879249573
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.18814823031425476
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.12977612018585205
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.15212/caet/2017/3/2",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.15212/caet/2017/3/2",
+        "pdf_url": "http://caet.inspirees.com/caetojsjournals/index.php/caet/article/download/47/89",
+        "source": {
+          "id": "https://openalex.org/S4210173752",
+          "display_name": "Creative Arts in Education and Therapy",
+          "issn_l": "2451-876X",
+          "issn": [
+            "2451-876X",
+            "2468-2306"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Creative Arts in Education and Therapy",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:219eac8275c54e778e560010c6f441ac",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/219eac8275c54e778e560010c6f441ac",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Creative Arts in Education and Therapy, Vol 3, Iss 2, Pp 3-16 (2017)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.15212/caet/2017/3/2",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.15212/caet/2017/3/2",
+      "pdf_url": "http://caet.inspirees.com/caetojsjournals/index.php/caet/article/download/47/89",
+      "source": {
+        "id": "https://openalex.org/S4210173752",
+        "display_name": "Creative Arts in Education and Therapy",
+        "issn_l": "2451-876X",
+        "issn": [
+          "2451-876X",
+          "2468-2306"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Creative Arts in Education and Therapy",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2907000736.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2907000736.grobid-xml"
+    },
+    "referenced_works_count": 7,
+    "referenced_works": [
+      "https://openalex.org/W2083283058",
+      "https://openalex.org/W2904234857",
+      "https://openalex.org/W4256656300",
+      "https://openalex.org/W6754664165",
+      "https://openalex.org/W6756985749",
+      "https://openalex.org/W6808165004",
+      "https://openalex.org/W6827342882"
+    ],
+    "related_works": [
+      "https://openalex.org/W2350457086",
+      "https://openalex.org/W3104785299",
+      "https://openalex.org/W628604961",
+      "https://openalex.org/W2365854150",
+      "https://openalex.org/W1568396216",
+      "https://openalex.org/W2470779153",
+      "https://openalex.org/W2561120376",
+      "https://openalex.org/W4366547976",
+      "https://openalex.org/W3204038221",
+      "https://openalex.org/W2550346585"
+    ],
+    "abstract_inverted_index": {
+      "Creative": [
+        0
+      ],
+      "Arts": [
+        1
+      ],
+      "Educ": [
+        2
+      ],
+      "Ther": [
+        3
+      ],
+      "(2017)": [
+        4
+      ],
+      "3(2):3–16DOI:": [
+        5
+      ],
+      "10.15212/CAET/2017/3/2": [
+        6
+      ],
+      "The": [
+        7
+      ],
+      "‘Green’": [
+        8
+      ],
+      "Mandala:": [
+        9
+      ],
+      "Where": [
+        10
+      ],
+      "Eastern": [
+        11
+      ],
+      "Wisdom": [
+        12
+      ],
+      "meets": [
+        13
+      ],
+      "Ecopsychology": [
+        14
+      ],
+      "“绿色”曼陀罗：东方智慧遇到生态心理学": [
+        15
+      ],
+      "Alexander": [
+        16
+      ],
+      "Kopytin": [
+        17
+      ],
+      "St.-Petersburg": [
+        18
+      ],
+      "Academy": [
+        19
+      ],
+      "of": [
+        20,
+        42,
+        52,
+        68,
+        75,
+        80,
+        93,
+        108
+      ],
+      "Post-Graduate": [
+        21
+      ],
+      "Pedagogical": [
+        22
+      ],
+      "Training,": [
+        23
+      ],
+      "Russia": [
+        24
+      ],
+      "Abstract": [
+        25
+      ],
+      "Mandalas": [
+        26
+      ],
+      "are": [
+        27
+      ],
+      "circular": [
+        28
+      ],
+      "images": [
+        29
+      ],
+      "often": [
+        30
+      ],
+      "created": [
+        31,
+        66
+      ],
+      "in": [
+        32
+      ],
+      "various": [
+        33
+      ],
+      "religious": [
+        34
+      ],
+      "and": [
+        35,
+        45,
+        49,
+        60,
+        82,
+        88,
+        91,
+        99,
+        105,
+        121,
+        124,
+        131,
+        137,
+        155
+      ],
+      "indigenous": [
+        36
+      ],
+      "traditions.": [
+        37
+      ],
+      "Due": [
+        38
+      ],
+      "to": [
+        39,
+        117,
+        141
+      ],
+      "the": [
+        40,
+        53,
+        72,
+        76,
+        109,
+        119,
+        142
+      ],
+      "development": [
+        41
+      ],
+      "Jungian": [
+        43
+      ],
+      "analysis": [
+        44
+      ],
+      "transpersonal": [
+        46
+      ],
+      "studies": [
+        47
+      ],
+      "diagnostic": [
+        48
+      ],
+      "therapeutic": [
+        50,
+        106,
+        153
+      ],
+      "potential": [
+        51
+      ],
+      "mandala": [
+        54,
+        110
+      ],
+      "was": [
+        55
+      ],
+      "extensively": [
+        56
+      ],
+      "explored.": [
+        57
+      ],
+      "Analytical": [
+        58
+      ],
+      "psychologists": [
+        59
+      ],
+      "art": [
+        61
+      ],
+      "therapists": [
+        62
+      ],
+      "understand": [
+        63
+      ],
+      "visualized": [
+        64
+      ],
+      "or": [
+        65,
+        145
+      ],
+      "mandalas": [
+        67
+      ],
+      "their": [
+        69,
+        152
+      ],
+      "clients": [
+        70
+      ],
+      "as": [
+        71,
+        111
+      ],
+      "symbolic": [
+        73
+      ],
+      "mirror": [
+        74
+      ],
+      "psyche,": [
+        77
+      ],
+      "a": [
+        78
+      ],
+      "means": [
+        79
+      ],
+      "containing": [
+        81
+      ],
+      "integrating": [
+        83
+      ],
+      "its": [
+        84
+      ],
+      "energies,": [
+        85
+      ],
+      "both": [
+        86,
+        128
+      ],
+      "conscious": [
+        87
+      ],
+      "unconscious": [
+        89
+      ],
+      "dynamics": [
+        90
+      ],
+      "states": [
+        92
+      ],
+      "mind.": [
+        94
+      ],
+      "This": [
+        95
+      ],
+      "paper": [
+        96
+      ],
+      "presents": [
+        97
+      ],
+      "ecological": [
+        98
+      ],
+      "environmental": [
+        100
+      ],
+      "perspectives": [
+        101
+      ],
+      "on": [
+        102
+      ],
+      "our": [
+        103
+      ],
+      "understanding": [
+        104
+      ],
+      "application": [
+        107,
+        154
+      ],
+      "an": [
+        112
+      ],
+      "expressive/creative": [
+        113
+      ],
+      "tool": [
+        114
+      ],
+      "that": [
+        115
+      ],
+      "helps": [
+        116
+      ],
+      "bring": [
+        118
+      ],
+      "arts": [
+        120
+      ],
+      "nature": [
+        122
+      ],
+      "together": [
+        123,
+        147
+      ],
+      "provide": [
+        125
+      ],
+      "beneficial": [
+        126
+      ],
+      "effects": [
+        127
+      ],
+      "for": [
+        129
+      ],
+      "human": [
+        130
+      ],
+      "nonhuman": [
+        132
+      ],
+      "worlds.": [
+        133
+      ],
+      "Basic": [
+        134
+      ],
+      "theoretical,": [
+        135
+      ],
+      "ethical": [
+        136
+      ],
+      "instrumental": [
+        138
+      ],
+      "ingredients": [
+        139
+      ],
+      "related": [
+        140
+      ],
+      "‘green’": [
+        143
+      ],
+      "mandala,": [
+        144
+      ],
+      "eco-mandala,": [
+        146
+      ],
+      "with": [
+        148
+      ],
+      "case": [
+        149
+      ],
+      "vignettes": [
+        150
+      ],
+      "illustrating": [
+        151
+      ],
+      "functions": [
+        156
+      ],
+      "will": [
+        157
+      ],
+      "be": [
+        158
+      ],
+      "presented.": [
+        159
+      ],
+      "摘要": [
+        160
+      ],
+      "曼陀罗是通常在各种宗教和土著传统中创建的圆形图像。由于荣格分析和超个人研究的发展，对曼陀罗的诊断和治疗潜力进行了广泛的探索。分析心理学家和艺术治疗师将他们客户的可视化或创造的曼陀罗理解为心灵的象征性反映，这是一种遏制和整合其能量的手段，既有意识的也有无意识的动态和精神状态。": [
+        161
+      ],
+      "本文将我们对曼陀罗的理解和治疗应用的生态和环境视角作为一种表现力/创造性工具，帮助将艺术和自然融合在一起，并为人类和非人类世界提供有益的影响。本文还将介绍与“绿色”曼陀罗或生态曼陀罗相关的基本理论、道德和机制成分，以及说明其治疗应用和功能的案例简介。": [
+        162
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2025-10-10T00:00:00"
+  }
+]

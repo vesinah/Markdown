@@ -86,12 +86,16 @@ export async function renderMarkdownContent(text, node, contentEl, tocPanel, toc
       continue;
     }
     try {
-      const file = await f.handle.getFile();
       let url = State.blobUrls.get(f.path);
       if (!url) {
-        const ext = f.name.split('.').pop().toLowerCase();
-        url = URL.createObjectURL(new Blob([file], { type: mimeByExt[ext] || 'application/octet-stream' }));
-        State.blobUrls.set(f.path, url);
+        if (f.isRemote) {
+          url = encodeURI(f.url || ('docs/' + (f.relPath || f.path)));
+        } else {
+          const file = await f.handle.getFile();
+          const ext = f.name.split('.').pop().toLowerCase();
+          url = URL.createObjectURL(new Blob([file], { type: mimeByExt[ext] || 'application/octet-stream' }));
+          State.blobUrls.set(f.path, url);
+        }
       }
       img.src = url;
       img.classList.remove('img-internal');

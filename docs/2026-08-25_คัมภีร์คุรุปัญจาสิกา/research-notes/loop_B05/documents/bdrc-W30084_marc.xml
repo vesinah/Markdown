@@ -1,0 +1,105 @@
+<record xmlns="http://www.loc.gov/MARC21/slim">
+    <leader>     nam a22     5i 4500</leader>
+    <controlfield tag="001">W30084</controlfield>
+    <controlfield tag="008">^^^^^^s1999^^^^cc^^^^^^^^^^^|||||||tib^d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+        <subfield code="z">7542106376</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+        <subfield code="a">MaCbTBRC</subfield>
+        <subfield code="c">MaCbTBRC</subfield>
+    </datafield>
+    <datafield tag="050" ind1=" " ind2="4">
+        <subfield code="a">BQ6135</subfield>
+        <subfield code="b">.T76 1999</subfield>
+    </datafield>
+    <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="6">880-01</subfield>
+        <subfield code="a">rje yab sras kyi gsung rtsom nyer mkho phyogs bsgrigs/</subfield>
+        <subfield code="h">[electronic resource].</subfield>
+    </datafield>
+    <datafield tag="246" ind1="1" ind2="3">
+        <subfield code="a">sdom pa gsum gyi rnam par bzhag pa mdor bsdus te gtan la dbab pa'i rab tu byed pa thub bstan rin po che'i byi dor/</subfield>
+    </datafield>
+    <datafield tag="246" ind1="1" ind2="3">
+        <subfield code="a">宗喀巴师徒文集</subfield>
+    </datafield>
+    <datafield tag="246" ind1="1" ind2="3">
+        <subfield code="a">zong ka ba shi tu wen ji</subfield>
+    </datafield>
+    <datafield tag="880" ind1="0" ind2="0">
+        <subfield code="6">245-01</subfield>
+        <subfield code="a">རྗེ་ཡབ་སྲས་ཀྱི་གསུང་རྩོམ་ཉེར་མཁོ་ཕྱོགས་བསྒྲིགས།</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+        <subfield code="a">par gzhi 1.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+        <subfield code="a">Lan kru'u :</subfield>
+        <subfield code="b">Kan su'u mi rigs dpe skrun khang ,</subfield>
+        <subfield code="c">1999</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+        <subfield code="a">1, 546 p</subfield>
+    </datafield>
+    <datafield tag="490" ind1="0" ind2=" ">
+        <subfield code="a">gna' dpe gces bsdus dpe tshogs</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+        <subfield code="a">Printed from computerized input.</subfield>
+    </datafield>
+    <datafield tag="505" ind1="0" ind2=" ">
+        <subfield code="a">dkar chag--bla ma lnga bcu ba'i rnam bshad slob ma'i re ba kun skong--dge tshul gyi bslab bya gnam rtsed ldeng ma--dge slong gi bslab bya gnam rtsed ldeng mar grags pa--sdom pa gsum gyi rnam par bzhag pa mdor bsdus te gtan la dbab pa'i rab tu byed pa thub bstan rin po che'i byi dor</subfield>
+    </datafield>
+    <datafield tag="506" ind1=" " ind2=" ">
+        <subfield code="a">Open Access.</subfield>
+    </datafield>
+    <datafield tag="542" ind1="1" ind2=" ">
+        <subfield code="d">Buddhist Digital Resource Center</subfield>
+        <subfield code="f">CC-BY</subfield>
+    </datafield>
+    <datafield tag="520" ind1=" " ind2=" ">
+        <subfield code="a">Selected writings by the three heart sons of Tsongkhapa.</subfield>
+    </datafield>
+    <datafield tag="533" ind1=" " ind2=" ">
+        <subfield code="a">Electronic reproduction.</subfield>
+        <subfield code="b">Cambridge, Mass. :</subfield>
+        <subfield code="c">Buddhist Digital Resource Center.</subfield>
+    </datafield>
+    <datafield tag="546" ind1=" " ind2=" ">
+        <subfield code="a">In Tibetan</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+        <subfield code="a">nang bstan/</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+        <subfield code="a">dge lugs pa/</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+        <subfield code="a">phyogs bsgrigs//</subfield>
+    </datafield>
+    <datafield tag="720" ind1="1" ind2=" ">
+        <subfield code="a">blo bzang grags pa/  tsong kha pa blo bzang grags pa, 1357-1419</subfield>
+        <subfield code="e">author</subfield>
+    </datafield>
+    <datafield tag="720" ind1="1" ind2=" ">
+        <subfield code="a">dge legs dpal bzang /  mkhas grub rje dge legs dpal bzang, 1385-1438</subfield>
+        <subfield code="e">contributor</subfield>
+    </datafield>
+    <datafield tag="773" ind1="0" ind2=" ">
+        <subfield code="t">TBRC Core Text Collection.</subfield>
+        <subfield code="g">14</subfield>
+    </datafield>
+    <datafield tag="776" ind1="0" ind2=" ">
+        <subfield code="c">Original</subfield>
+        <subfield code="w">(DLC)   99949076</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="0">
+        <subfield code="u">http://www.tbrc.org/link?RID=W30084</subfield>
+        <subfield code="z">Available from TBRC</subfield>
+    </datafield>
+    <datafield tag="955" ind1=" " ind2=" ">
+        <subfield code="a">W30084-5798</subfield>
+        <subfield code="c">v.1</subfield>
+    </datafield>
+</record>

@@ -1,0 +1,416 @@
+[
+  {
+    "verse": 1,
+    "sanskrit": "<html> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title> Bodhipathapradipa </title> <style> body { background-color: #FFFFFF; font-family: Arial Unicode Ms, Arial Unicode Ms Standard } .large { font-size: 18px; } .red { color: #FF0000; } .blue { color: #0000FF; } td { font-family: 'Arial Unicode MS', 'Arial Unicode MS Standard', 'Gentium', 'Gandhari Unicode', 'Lucida Grande', 'CyberBit', 'Bitstream CyberBase', 'Bitstream CyberCJK', 'Code2000', 'Courier New', 'Doulos SIL', 'Fixedsys Excelsio', 'Free Monospaced', 'Free Serif', 'Everson Mono Unicode', 'Arial', 'CN-Arial', 'CN-Times'; } hr { width: 50%; height: 1px; margin-left: 0; margin-right: auto; } </style> </head> <body> Bodhipathapradipa Based on the ed. by Shastri, Losang Norbu: Bodhipathpradipa of Atisha. Sarnath: Central Institute of Higher Tibetan Studies, 1984, 1-70. Restored Sanskrit text Input by members of the Sanskrit Buddhist Input Project. With kind permission of the Digital Sanskrit Buddhist Canon Project of Nagarjuna Institute, Nepal and University of the West, Rosemead, California, USA (www.uwest.edu/sanskritcanon) <hr> <br> THIS <a href=\"http://gretil.sub.uni-goettingen.de/gretil.htm\" target=\"_blank\">GRETIL</a> TEXT FILE IS FOR REFERENCE PURPOSES ONLY!<br> COPYRIGHT AND TERMS OF USAGE AS FOR SOURCE FILE.<br> <br> Text converted to Unicode (UTF-8).<br> (This file is to be used with a UTF-8 font and your browser's VIEW configuration<br> set to UTF-8.) <br> <br> <table style=\"width: 50%\"> <tr><td>description:</td><td style=\"text-align: center\">multibyte sequence:</td></tr> <tr><td>long a</td><td style=\"text-align: center\"> ā </td></tr> <tr><td>long A</td><td style=\"text-align: center\"> Ā </td></tr> <tr><td>long i</td><td style=\"text-align: center\"> ī </td></tr> <tr><td>long I</td><td style=\"text-align: center\"> Ī </td></tr> <tr><td>long u</td><td style=\"text-align: center\"> ū </td></tr> <tr><td>long U</td><td style=\"text-align: center\"> Ū </td></tr> <tr><td>vocalic r</td><td style=\"text-align: center\"> ṛ </td></tr> <tr><td>vocalic R</td><td style=\"text-align: center\"> Ṛ </td></tr> <tr><td>long vocalic r</td><td style=\"text-align: center\"> ṝ </td></tr> <tr><td>vocalic l</td><td style=\"text-align: center\"> ḷ </td></tr> <tr><td>vocalic L</td><td style=\"text-align: center\"> Ḷ </td></tr> <tr><td>long vocalic l</td><td style=\"text-align: center\"> ḹ </td></tr> <tr><td>velar n</td><td style=\"text-align: center\"> ṅ </td></tr> <tr><td>velar N</td><td style=\"text-align: center\"> Ṅ </td></tr> <tr><td>palatal n</td><td style=\"text-align: center\"> ñ </td></tr> <tr><td>palatal N</td><td style=\"text-align: center\"> Ñ </td></tr> <tr><td>retroflex t</td><td style=\"text-align: center\"> ṭ </td></tr> <tr><td>retroflex T</td><td style=\"text-align: center\"> Ṭ </td></tr> <tr><td>retroflex d</td><td style=\"text-align: center\"> ḍ </td></tr> <tr><td>retroflex D</td><td style=\"text-align: center\"> Ḍ </td></tr> <tr><td>retroflex n</td><td style=\"text-align: center\"> ṇ </td></tr> <tr><td>retroflex N</td><td style=\"text-align: center\"> Ṇ </td></tr> <tr><td>palatal s</td><td style=\"text-align: center\"> ś </td></tr> <tr><td>palatal S</td><td style=\"text-align: center\"> Ś </td></tr> <tr><td>retroflex s</td><td style=\"text-align: center\"> ṣ </td></tr> <tr><td>retroflex S</td><td style=\"text-align: center\"> Ṣ </td></tr> <tr><td>anusvara</td><td style=\"text-align: center\"> ṃ </td></tr> <tr><td>visarga</td><td style=\"text-align: center\"> ḥ </td></tr> <tr><td>long e</td><td style=\"text-align: center\"> ē </td></tr> <tr><td>long o</td><td style=\"text-align: center\"> ō </td></tr> <tr><td>l underbar</td><td style=\"text-align: center\"> ḻ </td></tr> <tr><td>r underbar</td><td style=\"text-align: center\"> ṟ </td></tr> <tr><td>n underbar</td><td style=\"text-align: center\"> ṉ </td></tr> <tr><td>k underbar</td><td style=\"text-align: center\"> ḵ </td></tr> <tr><td>t underbar</td><td style=\"text-align: center\"> ṯ </td></tr> </table> <br> <p> Unless indicated otherwise, accents have been dropped in order <br> to facilitate word search.<br> <br> For a comprehensive list of GRETIL encodings and formats see:<br> http://gretil.sub.uni-goettingen.de/gretil/gretdiac.pdf<br> and<br> http://gretil.sub.uni-goettingen.de/gretil/gretdias.pdf<br> <br> For further information see:<br> http://gretil.sub.uni-goettingen.de/gretil.htm</p> <br> <hr> namo bodhisattvāya mañjuśriye kumārabhūtāya / kālatrayākhilajināṃśca tadīyadharmān saṅghān mahādaratayā praṇipatya cāpi / bodhiprabheṇa kathito viśadīkaromi śiṣyottamena khalu bodhipathapradipam",
+    "tibetan": "དུས་གསུམ་རྒྱལ་བ་ཐམས་ཅད་དག་དང་དེའི་ཆོས་དང་། ། དགེ་འདུན་རྣམས་ལ་གུས་པ་ཆེན་པོས་ཕྱག་བྱས་ཏེ། ། སློབ་མ་བཟང་པོ་བྱང་ཆུབ་འོད་ཀྱིས་བསྐུལ་གྱུར་པས། ། བྱང་ཆུབ་ལམ་གྱི་སྒྲོན་མ་རབ་ཏུ་གསལ་བར་བྱ། །",
+    "chinese": "禮敬三世一切佛 及彼正法與眾僧 應賢弟子菩提光 勸請善顯覺道燈"
+  },
+  {
+    "verse": 2,
+    "sanskrit": "puruṣāstrividhā jñeyā uttamādhamamadhmāḥ / likhyate lakṣaṇaṃ teṣāṃ sphuṭaṃ pratyekabhedataḥ",
+    "tibetan": "ཆུང་ངུ་འབྲིང་དང་མཆོག་གྱུར་པས། ། སྐྱེས་བུ་གསུམ་དུ་ཤེས་པར་བྱ། ། དེ་དག་མཚན་ཉིད་རབ་གསལ་བ། ། སོ་སོའི་དབྱེ་བ་བྲི་བར་བྱ། །",
+    "chinese": "由下中及上 應知有三士 當書彼等相 各各之差別"
+  },
+  {
+    "verse": 3,
+    "sanskrit": "upāyena tu kenāpi kevalaṃ saṃsṛteḥ sukham / svasyaivārthe ya īheta jñeyaḥ so puruṣo 'dhamaḥ",
+    "tibetan": "གང་ཞིག་ཐབས་ནི་གང་དག་གིས། ། འཁོར་བའི་བདེ་བ་ཙམ་དག་ལ། ། རང་ཉིད་དོན་དུ་གཉེར་བྱེད་པ་། ། དེ་ནི་སྐྱེས་བུ་ཐ་མར་ཤེས། །",
+    "chinese": "若以何方便 唯於生死樂 但求自利益 知為下士夫"
+  },
+  {
+    "verse": 4,
+    "sanskrit": "pāpakarmanivṛttātmā bhavasukhāt parāṅmukhaḥ / ātmanirvāṇamātrārthī yo naro madhyamastu saḥ",
+    "tibetan": "སྲིད་པའི་བདེ་ལ་རྒྱབ་ཕྱོགས་ཤིང་། ། སྡིག་པའི་ལས་ལས་ལྡོག་བདག་ཉིད། ། གང་ཞིག་རང་ཞི་ཙམ་དོན་གཉེར། ། སྐྱེས་བུ་དེ་ནི་འབྲིང་ཞེས་བྱ། །",
+    "chinese": "背棄三有樂 遮止諸惡業 但求自寂滅 彼名為中士"
+  },
+  {
+    "verse": 5,
+    "sanskrit": "svasantānagatairduḥkhairduḥkhasyānyasya sarvathā / sarvasya yaḥ kṣayaṃ kāṅkṣeduttamaḥ puruṣastu saḥ",
+    "tibetan": "རང་རྒྱུད་གཏོགས་པའི་སྡུག་བསྔལ་གྱིས། ། གང་ཞིག་གཞན་གྱི་སྡུག་བསྔལ་ཀུན། ། ཡང་དག་ཟད་པར་ཀུན་ནས་འདོད། ། སྐྱེས་བུ་དེ་ནི་མཆོག་ཡིན་ནོ། །",
+    "chinese": "若以自身苦 比他一切苦 欲求永盡者 彼是上士夫"
+  },
+  {
+    "verse": 6,
+    "sanskrit": "kāṅkṣanto hi varāṃ bodhiṃ sattvānāmuttamāstathā / darśitān gurubhistebhyaḥ sadupāyāṃ pracakṣmahe",
+    "tibetan": "སེམས་ཅན་དམ་པ་བྱང་ཆུབ་མཆོག ། འདོད་པར་གྱུར་པ་དེ་དག་ལ། ། བླ་མ་རྣམས་ཀྱིས་བསྟན་པ་ཡི། ། ཡང་དག་ཐབས་ནི་བཤད་པར་བྱ། །",
+    "chinese": "為諸勝有情 求大菩提者 當說諸師長 所示正方便"
+  },
+  {
+    "verse": 7,
+    "sanskrit": "sambuddhacitramūrtyādistūpasaddharmasammukhaḥ / puṣpaidhupaiḥ padārthaiśca yathāprāptaiḥ supūjayet",
+    "tibetan": "རྫོགས་སངས་བྲིས་སྐུ་ལ་སོགས་དང་། ། མཆོད་རྟེན་དམ་པ་མངོན་ཕྱོགས་ནས། ། མེ་ཏོག་བདུག་སྤོས་དངོས་པོ་དག ། ཅི་འབྱོར་པ་ཡི་མཆོད་པ་བྱ། །",
+    "chinese": "對佛畫像等 及諸靈塔前 以花香等物 盡所有供養"
+  },
+  {
+    "verse": 8,
+    "sanskrit": "samantabhadracaryoktā pūjā saptavidhāpi ca / bodhisārasya paryantam avaivartikacittataḥ",
+    "tibetan": "ཀུན་བཟང་སྤྱོད་ལས་གསུངས་པ་ཡི། ། མཆོད་པ་རྣམ་པ་བདུན་དག་ཀྱང་། ། བྱང་ཆུབ་སྙིང་པོའི་མཐར་ཐུག་པར། ། མི་ལྡོག་པ་ཡི་སེམས་དག་གིས། །",
+    "chinese": "亦以普賢行 所說七支供 以至菩提藏 不退轉之心"
+  },
+  {
+    "verse": 9,
+    "sanskrit": "suśraddhayā triratneyaḥ bhumau saṃsthāpya jānunī / bhūtvā kṛtāñjaliścāpi triścādau śaraṇaṃ vrajet",
+    "tibetan": "དཀོན་མཆོག་གསུམ་ལ་རབ་དད་ཅིང་། ། པུས་མོ་ལྷ་ང་སར་བཙུགས་ནས། ། ཐལ་མོ་སྦྱར་བ་བྱས་ནས་ནི། ། དང་པོར་སྐྱབས་འགྲོ་ལན་གསུམ་བྱ། །",
+    "chinese": "信仰三寶尊 雙膝著於地 恭敬合掌已 先三遍皈依"
+  },
+  {
+    "verse": 10,
+    "sanskrit": "tataḥ samastasattveṣu maitrīcitta puraskṛtaḥ / durgatitrayājanmādisaṅkrāntimaraṇādibhiḥ",
+    "tibetan": "དེ་ནས་སེམས་ཅན་ཐམས་ཅད་ལ། ། བྱམས་པའི་སེམས་ནི་སྔོན་འགྲོ་བས། ། ངན་སོང་གསུམ་དུ་སྐྱེ་སོགས་དང་། ། འཆི་འཕོ་སོགས་ཀྱིས་སྡུག་བསྔལ་བའི། ། འགྲོ་བ་མ་ལུས་ལ་བལྟས་ཏེ། །",
+    "chinese": "次一切有情 以慈心為先 觀惡趣生等 及死歿等苦"
+  },
+  {
+    "verse": 11,
+    "sanskrit": "dṛṣṭvāśeṣaṃ jagaddukhaṃ duḥkhena dukhitāyāśca / duḥkhahetostathā duḥkhāt jagatāṃ muktikāṅkṣayā",
+    "tibetan": "སྡུག་བསྔལ་གྱིས་ནི་སྡུག་བསྔལ་བ། ། སྡུག་བསྔལ་སྡུག་བསྔལ་རྒྱུ་མཚན་ལས། ། འགྲོ་བ་ཐར་བར་འདོད་པ་ཡིས། ། ལྡོག་པ་མེད་པར་དམ་འཆའ་བའི། ། བྱང་ཆུབ་སེམས་ནི་བསྐྱེད་པར་བྱ། །",
+    "chinese": "無餘諸眾生 為苦所苦惱 從苦及苦因 欲度脫眾生"
+  },
+  {
+    "verse": 12,
+    "sanskrit": "bodhicittaṃ samutpādyamanāpāyipratijñayā / evaṃ praṇidhicittānām utpādetu guṇāśca ye",
+    "tibetan": "དེ་ལྟར་སྨོན་པའི་སེམས་དག་ནི། ། བསྐྱེད་པའི་ཡོན་ཏན་གང་ཡིན་པ། ། དེ་ནི་སྡོང་པོ་བཀོད་པ་ཡི། ། མདོ་ལས་བྱམས་པས་རབ་ཏུ་བཤད། །",
+    "chinese": "力誓永不退 常發菩提心 如是發願心 所生諸功德 如華嚴經中 彌勒所宣說"
+  },
+  {
+    "verse": 13,
+    "sanskrit": "te gaṇḍavyūhasūtreṣu maitreyeṇa prabhāṣitāḥ / sūtrasya tasya paṭhanācchravaṇād gurorvā sambodhicittaguṇakāni nirantakāni",
+    "tibetan": "དེ་ཡི་མདོ་ཀློག་པའམ་བླ་མ་ལ་མཉན་ཏེ། ། རྫོགས་པའི་བྱང་ཆུབ་སེམས་ཀྱི་ཡོན་ཏན་མཐའ་མེད་པ། ། རྣམ་པར་ཤེས་པར་བྱས་ལ་དེ་ནས་རྒྱུ་མཚན་དུ། ། དེ་ལྟར་ཡང་དང་ཡང་དུ་སེམས་ནི་བསྐྱེད་པར་བྱ། །",
+    "chinese": "或讀彼經或師聞 了知正等菩提心 無邊功德為因緣 如是數數發其心"
+  },
+  {
+    "verse": 14,
+    "sanskrit": "vijñāya tasya khalu saṃsthitārarṇāna / cittaṃ tathā samudayeta muhurmuhaśca / vīradattaparīpṛcchāsūtre puṇyaṃ pradarśitam",
+    "tibetan": "དཔའ་སྦྱིན་གྱིས་ཞུས་མདོ་དག་ལས། ། འདི་ཡི་བསོད་ནམས་རབ་བསྟན་པ། ། གང་དེ་ཚིགས་བཅད་གསུམ་ཙམ་དུ། ། མདོར་བསྡུས་འདིར་ནི་བྲི་བར་བྱ། །",
+    "chinese": "勇施請問經 亦廣說此福 彼略攝三頌 今此當摘錄"
+  },
+  {
+    "verse": 15,
+    "sanskrit": "yattacślokatrayeṇaiva samāsenātralikhyate / bodhicittāddhi yatpuṇyaṃ tacca rupi bhavedyadi",
+    "tibetan": "བྱང་ཆུབ་སེམས་ཀྱི་བསོད་ནམས་གང་། ། དེ་ལ་གལ་ཏེ་གཟུགས་མཆིས་ན། ། ནམ་མཁའི་ཁམས་ནི་ཀུན་གང་སྟེ། ། དེ་ནི་དེ་བས་ལྷག་པར་འགྱུར། །",
+    "chinese": "菩提心福德 假使有色者 充滿虛空界 其福猶有餘"
+  },
+  {
+    "verse": 16,
+    "sanskrit": "ākāśadhātuṃ sampūrya bhuyaścottari tadbhavet / gaṅgāvālikasaṅkhyāni buddhakṣetrāṇi yo naraḥ",
+    "tibetan": "གངྒཱའི་བྱེ་བ་གྲངས་སྙེད་ཀྱི། ། སངས་རྒྱས་ཞིང་རྣམས་མི་གང་གིས། ། རིན་ཆེན་དག་གིས་ཀུན་བཀང་སྟེ། ། འཇིག་རྟེན་མགོན་ལ་ཕུལ་བ་བས། །",
+    "chinese": "若人以珍寶 遍滿恆沙數 一切佛世界 供獻於諸佛"
+  },
+  {
+    "verse": 17,
+    "sanskrit": "dadyātsadratna pūrṇāni lokanāthebhya eva hi / yaścaikaḥ prāñjalirbhūtvā cittaṃ bodhāya nāmayet",
+    "tibetan": "གང་གིས་ཐལ་མོ་སྦྱར་བགྱིས་ཏེ། ། བྱང་ཆུབ་ཏུ་ནི་སེམས་བཏུད་ན། ། མཆོད་པ་འདི་ནི་ཁྱད་པར་འཕགས། ། དེ་ལ་མཐའ་ནི་མ་མཆིས་སོ། །",
+    "chinese": "若有人合掌 心敬大菩提 此供最殊勝 其福無邊際"
+  },
+  {
+    "verse": 18,
+    "sanskrit": "iyaṃ viśeṣyate pūjā yasyānto 'pi na vidyate / utpādyabodhipraṇidhānacittaṃ naikaprayatnaiḥ parivardhitavyam",
+    "tibetan": "བྱང་ཆུབ་སྨོན་པའི་སེམས་དག་བསྐྱེད་ནས་ནི། ། འབད་པ་མང་པོས་ཀུན་ཏུ་སྤེལ་བྱ་ཞིང་། ། འདི་ནི་སྐྱེ་བ་གཞན་དུ་འང་དྲན་དོན་དུ། ། ཇི་སྐད་བཤད་པའི་བསླབ་པའང་ཡོངས་སུ་བསྲུང་། །",
+    "chinese": "既發菩提願心已 應多勵力遍增長 此為餘生常憶念 如說學處當遍護"
+  },
+  {
+    "verse": 19,
+    "sanskrit": "janmāntare 'pi smaraṇārthamasya śikṣā yathoktā paripālanīyā / prasthānacitte svayamātiriktaṃ samyagbhavenna praṇidhānavṛddhiḥ",
+    "tibetan": "འཇུག་སེམས་བདག་ཉིད་སྡོམ་པ་མ་གཏོགས་པར། ། ཡང་དག་སྨོན་པ་འཕེལ་བར་འགྱུར་མ་ཡིན། ། རྫོགས་པའི་བྱང་ཆུབ་སྨོན་པ་འཕེལ་འདོད་པས། ། དེ་ཕྱིར་འབད་པས་འདི་ནི་ངེས་པར་བླང་། །",
+    "chinese": "除行心體諸律儀 非能增長正願心 由欲增長菩提願 故當勵力受此律"
+  },
+  {
+    "verse": 20,
+    "sanskrit": "sambodhisaṃvāra vivṛddhikāmaḥ tasmād dhruvaṃ cainamavāpnuyāta / saptadhāprātimokṣaiśca sadānyasaṃvarānvitaḥ",
+    "tibetan": "སོ་སོར་ཐར་པ་རིགས་བདུན་གྱི། ། རྟག་ཏུ་སྡོམ་གཞན་ལྡན་པ་དང་། ། བྱང་ཆུབ་སེམས་དཔའི་སྡོམ་པ་ཡི། ། སྐལ་བ་ཡོད་ཀྱི་གཞན་དུ་མིན། །",
+    "chinese": "若常具餘七 別解脫律儀 乃有菩薩律 善根余非有"
+  },
+  {
+    "verse": 21,
+    "sanskrit": "bhāgyaṃ bodhisattvānāṃ saṃvarasya na cānyathā / saptadhā prātimokṣeṣu bhāṣiteṣu tathāgataiḥ",
+    "tibetan": "སོ་སོར་ཐར་པ་རིས་བདུན་དང་། ། དེ་བཞིན་གཤེགས་པས་བཤད་པ་ལ། ། ཚངས་སྤྱོད་དཔལ་ནི་མཆོག་ཡིན་ཏེ། ། དགེ་སློང་སྡོམ་པ་དག་ཏུ་བཞེས། །",
+    "chinese": "七眾別解脫 如來所宣說 梵行為最勝 是比丘律儀"
+  },
+  {
+    "verse": 22,
+    "sanskrit": "brahmacaryaśriyaḥ śreṣṭhāḥ bhikṣusaṃvara iṣyate / śīlādhyāyoktavidhinā bodhisattvasya bhumiṣu",
+    "tibetan": "བྱང་ཆུབ་སེམས་དཔའི་ས་དག་གི ། ཚུལ་ཁྲིམས་ལེགས་གསུངས་ཆོ་ག་ཡིས། ། ཡང་དག་མཚན་ཉིད་ལྡན་པ་ཡི། ། བླ་མ་བཟང་ལས་སྡོམ་པ་བླང་། །",
+    "chinese": "當以菩薩地 戒品所說軌 從具德相師 受持彼律儀"
+  },
+  {
+    "verse": 23,
+    "sanskrit": "saṃvaraḥ sadgurorgrāhyaḥ samyaglakṣaṇayuktataḥ / yaḥ saṃvaravidhau dakṣaḥ svayaṃ ca saṃvare sthitaḥ",
+    "tibetan": "སྡོམ་པའི་ཆོ་ག་ལ་མཁས་དང་། ། བདག་ཉིད་གང་ཞིག་སྡོམ་ལ་གནས། ། སྡོམ་པ་འབོགས་བཟོད་སྙིང་རྗེར་ལྡན། ། བླ་མ་བཟང་པོར་ཤེས་པར་བྱ། །",
+    "chinese": "善巧律儀軌 自安住律儀 堪傳律具悲 當知是良師"
+  },
+  {
+    "verse": 24,
+    "sanskrit": "kṛpāluḥ saṃvare śaktaḥ jñātavyaḥ sadgurustu saḥ / tatra yatnena na prāpto guruścaitādṛśo yadi",
+    "tibetan": "དེ་ལ་འབད་པས་འདི་འདྲ་བའི། ། གལ་ཏེ་བླ་མ་མ་རྙེད་ན། ། དེ་ལས་གཞན་སྡོམ་ནོད་པ་ཡི། ། ཆོ་ག་ཡང་དག་བཤད་པར་བྱ། །",
+    "chinese": "若努力尋求 不得如是師 當宣說其餘 受律儀軌則"
+  },
+  {
+    "verse": 25,
+    "sanskrit": "saṃvaragrahaṇasyānyo vidhiḥ tasmāt samuyacte / ambararājabhutena pūrvaṃ mañjuśriyā yathā",
+    "tibetan": "དེ་ལ་སྔོན་ཚེ་འཇམ་པའི་དཔལ། ། ཨ་བ་རཱ་ཛར་གྱུར་པ་ཡིས། ། ཇི་ལྟར་བྱང་ཆུབ་ཐུགས་བསྐྱེད་པ། །",
+    "chinese": "如昔妙吉祥 為虛空王時 所發菩提心 如文殊莊嚴"
+  },
+  {
+    "verse": 26,
+    "sanskrit": "bodhicittaṃ samutpādi suspaṣṭaṃ cātra likhyate / mañjuśribuddhakṣetrālaṅkārasūtroktivat tathā",
+    "tibetan": "འཇམ་དཔལ་གྱི་ནི་སངས་རྒྱས་ཞིང་། ། རྒྱན་གྱི་མདོ་ལས་བཤད་པ་ལྟར། ། དེ་བཞིན་འདིར་ནི་རབ་གསལ་བྲི། །",
+    "chinese": "佛土經所說 如是此當書 於諸依怙前 發大菩提心"
+  },
+  {
+    "verse": 27,
+    "sanskrit": "utpādayāmi sambodhau cittaṃ nāthasya sammukham / nimantraye jagatsarvaṃ dāridyānmocitāsmi tat",
+    "tibetan": "མགོན་པོ་རྣམས་ཀྱི་སྤྱན་སྔ་རུ། ། རྫོགས་པའི་བྱང་ཆུབ་སེམས་བསྐྱེད་ཅིང་། ། འགྲོ་བ་ཐམས་ཅད་མགྲོན་དུ་གཉེར། ། དེ་དག་འཁོར་བ་ལས་བསྒྲལ་ལོ། །",
+    "chinese": "請一切眾生 度彼出生死 損害心忿心 慳吝與嫉妒"
+  },
+  {
+    "verse": 28,
+    "sanskrit": "vyāpādakhilacittaṃ vā īrṣyāmātsaryameva va / adhyāgre na kariṣyāmi bodhiṃ prāpsyāmi yāvatā",
+    "tibetan": "གནོད་སེམས་ཁྲོ་བའི་སེམས་ཉིད་དང་། ། སེར་སྣ་དང་ནི་ཕྲག་དོག་ཉིད། ། དེང་ནས་བཟུང་ནས་བྱང་ཆུབ་མཆོག ། ཐོབ་ཀྱི་བར་དུ་མི་བྱ་འོ། །",
+    "chinese": "從今至證道 此等終不起 當修行梵行 當斷罪及欲"
+  },
+  {
+    "verse": 29,
+    "sanskrit": "brahmacaryaṃ cariṣyāmi kāmāṃstyakṣyāmi pāpakān / buddhānāmānuśikṣiṣye śīlasaṃvara saṃyame",
+    "tibetan": "ཚངས་པར་སྤྱོད་པ་སྤྱད་བྱ་ཞིང་། ། སྡིག་དང་འདོད་པ་སྤང་བར་བྱ། ། ཚུལ་ཁྲིམས་སྡོམ་པ་ལ་དགའ་བས། ། སངས་རྒྱས་རྗེས་སུ་བསླབ་པར་བྱ། །",
+    "chinese": "愛樂戒律儀 當隨諸佛學 不樂為自己 速得大菩提"
+  },
+  {
+    "verse": 30,
+    "sanskrit": "nāhaṃ tvaritarupeṇa bodhiṃ prāptumihotsahe / parāntakoṭiṃ sthāsyāmi sattvasyaikasya kāraṇāt",
+    "tibetan": "བདག་ཉིད་མྱུར་བའི་ཚུལ་གྱིས་ནི། ། བྱང་ཆུབ་ཐོབ་པར་མི་སྤྲོ་ཞིང་། ། སེམས་ཅན་གཅིག་གི་རྒྱུ་ཡིས་ནི། ། ཕྱི་མའི་མུ་མཐར་གནས་པར་བགྱི། །",
+    "chinese": "為一有情因 住到最後際 當嚴淨無量 不思議佛土"
+  },
+  {
+    "verse": 31,
+    "sanskrit": "kṣetraṃ viśodhiṣyāmi aprameyamacintim / nāmadheyaṃ kariṣyāmi daśadikṣu ca viśrutam",
+    "tibetan": "ཚད་མེད་བསམ་གྱིས་མི་ཁྱབ་པའི། ། ཞིང་དག་རྣམ་པར་སྦྱང་བར་བྱ། ། མིང་ནས་གཟུང་བ་བྱས་པ་དང་། ། ཕྱོགས་བཅུ་དག་ཏུ་རྣམ་པར་གནས། །",
+    "chinese": "受持於名號 及住十方界 我之身語業 一切使清淨 意業亦清淨 不作不善業"
+  },
+  {
+    "verse": 32,
+    "sanskrit": "kāyavākkarmaṇī cāhaṃ śodhayiṣyāmi sarvaśaḥ / śodhayiṣye manaskarma kartāsmi nāśabham",
+    "tibetan": "བདག་གི་ལུས་དང་ངག་གི་ལས། ། ཐམས་ཅད་དུ་ནི་དག་པར་བྱས། ། ཡིད་ཀྱི་ལས་ཀྱང་དག་བྱ་སྟེ། ། མི་དགེའི་ལས་རྣམས་མི་བྱའོ། །",
+    "chinese": "自身語意清淨因 謂住行心體律儀 由善學習三戒學 於三戒學起敬重"
+  },
+  {
+    "verse": 33,
+    "sanskrit": "svakāyavākacittaviśuddhihetu, prasthānacittātmayamasthitena / triśīlaśikṣāpariśiyeta cet, triśīlaśikṣāsu mahādarasyāt",
+    "tibetan": "རང་གི་ལུས་ངག་སེམས་ནི་རྣམ་དག་རྒྱུ། ། འཇུག་པའི་སེམས་ཀྱི་བདག་ཉིད་སྡོམ་གནས་པ། ། ཚུལ་ཁྲིམས་བསླབ་པ་གསུམ་ལ་ལེགས་བསླབས་པས། ། ཚུལ་ཁྲིམས་བསླབ་པ་གསུམ་ལ་གུས་ཆེར་འགྱུར། །",
+    "chinese": "如是勤清淨 菩薩諸律儀 便當能圓滿 大菩提資糧"
+  },
+  {
+    "verse": 34,
+    "sanskrit": "śuddhasambodhisattvānāṃ tasmāt saṃvarasaṃvṛtau / yatnāt sambodhisambhāraḥ paripūrṇo bhaviṣyati",
+    "tibetan": "དེ་བས་རྣམ་དག་རྫོགས་བྱང་ཆུབ། ། སེམས་དཔའི་སྡོམ་པའི་སྡོམ་དག་ནི། ། འབད་པར་བྱས་པས་རྫོགས་བྱང་ཆུབ། ། ཚོགས་ནི་ཡོངས་སུ་རྫོགས་པར་འགྱུར། །",
+    "chinese": "福智為自性 資糧圓滿因 一切佛共許 為引發神通"
+  },
+  {
+    "verse": 35,
+    "sanskrit": "puṇyajñānasvabhāvasya sambhārasya tu pūrtaye / sarvabuddhamatoheturabhijñotpāda eva hi",
+    "tibetan": "བསོད་ནམས་ཡེ་ཤེས་རང་བཞིན་གྱི། ། ཚོགས་ནི་ཡོངས་སུ་རྫོགས་པ་ཡི། ། རྒྱུ་ནི་སངས་རྒྱས་ཐམས་ཅད་དག ། མངོན་ཤེས་སྐྱེད་པ་ཉིད་དུ་བཞེད། །",
+    "chinese": "如鳥未生翼 不能騰虛空 若離神通力 不能利有情"
+  },
+  {
+    "verse": 36,
+    "sanskrit": "pakṣavṛddhiṃ vinā pakṣī khe noḍaḍetuṃ yathā kṣamaḥ / tathābhijñābalairhīnaḥ sattvārthakaraṇe 'kṣamaḥ",
+    "tibetan": "ཇི་ལྟར་འདབ་གཤོག་མ་སྐྱེས་པའི། ། བྱ་ནི་མཁའ་ལ་འཕུར་མི་ནུས། ། དེ་བཞིན་མངོན་ཤེས་སྟོབས་བྲལ་བས། ། སེམས་ཅན་དོན་བྱེད་ནུས་པ་མིན། །",
+    "chinese": "具通者日夜 所修諸福德 諸離神通者 百生不能集"
+  },
+  {
+    "verse": 37,
+    "sanskrit": "abhijñasya divārātrau yāni puṇyāni santi vai / abhijñāyāśca rāhitye naiva janmaśateṣu ca",
+    "tibetan": "མངོན་ཤེས་ལྡན་པའི་ཉིན་མཚན་གྱི། ། བསོད་ནམས་དག་ནི་གང་ཡིན་ཏེ། ། མངོན་ཤེས་དག་དང་བྲལ་གྱུར་ལ། ། སྐྱེ་བ་བརྒྱར་ཡང་ཡོད་མ་ཡིན། །",
+    "chinese": "若欲速圓滿 大菩提資糧 要勤修神通 方成非懈怠"
+  },
+  {
+    "verse": 38,
+    "sanskrit": "śīghraṃ sambodhisambhāraṃ sampūrayitumicchati / nirālasyena yatnenābhijñāṃ saṃsādhayettu saṃ",
+    "tibetan": "མྱུར་དུ་རྫོགས་པའི་བྱང་ཆུབ་ཚོགས། ། ཡོངས་སུ་རྫོགས་པར་འདོད་གྱུར་པ། ། དེས་ནི་འབད་བྱས་མངོན་ཤེས་དག ། འགྲུབ་པར་འགྱུར་གྱི་ལེ་ལོས་མིན། །",
+    "chinese": "若未成就止 不能起神通 為修成止故 應數數策勵"
+  },
+  {
+    "verse": 39,
+    "sanskrit": "śamathasiddhayabhāve 'bhijñānaṃ na jāyate / ataḥ śamathasiddhayarthaṃ yatitavyaṃ punaḥ punaḥ",
+    "tibetan": "ཞི་གནས་གྲུབ་པ་མ་ཡིན་པས། ། མངོན་ཤེས་འབྱུང་བར་མི་འགྱུར་བས། ། དེ་ཕྱིར་ཞི་གནས་བསྒྲུབ་པའི་ཕྱིར། ། ཡང་དང་ཡང་དུ་འབད་པར་བྱ། །",
+    "chinese": "止支若失壞 即使勤修習 縱然經千載 亦不能得定"
+  },
+  {
+    "verse": 40,
+    "sanskrit": "śamathaṅgaprahīṇatve tadyatnairbhāvite 'pi ca / saṃvatsarasahasraiśca samādhirnaiva setsyati",
+    "tibetan": "ཞི་གནས་ཡན་ལག་རྣམ་ཉམས་པས། ། རབ་ཏུ་འབད་དེ་བསྒོམས་བྱས་ཀྱང་། ། ལོ་ན་སྟོང་ཕྲག་དག་གིས་ཀྱང་། ། ཏིང་འཛིན་འགྲུབ་པར་མི་འགྱུར་རོ། །",
+    "chinese": "故當善安住 定資糧品中 所說諸支分 於隨一所緣"
+  },
+  {
+    "verse": 41,
+    "sanskrit": "ataḥ samādhisambhārādhyāyoktāṅgasamāśritaḥ / kasmiṃścit alambane 'pi puṇye saṃsthāpayenmanaḥ",
+    "tibetan": "དེ་ཕྱིར་ཏིང་འཛིན་ཚོགས་ལེའུ་ལས། ། གསུངས་པའི་ཡན་ལག་ལ་ལེགས་གནས། ། དམིགས་པ་གང་རུང་གཅིག་ལ་ཡང་། ། ཡིད་ནི་དགེ་ལ་གཞག་པར་བྱ། །",
+    "chinese": "意安住於善 瑜珈若成止 神通亦當成 離慧度瑜珈"
+  },
+  {
+    "verse": 42,
+    "sanskrit": "yoginaḥ śamathe siddhe 'bhijñānaṃ cāpi setsyati / prajñāpāramitāyogaṃ vinā nāvaraṇakṣayaḥ",
+    "tibetan": "རྣལ་འབྱོར་ཞི་གནས་གྲུབ་གྱུར་ན། ། མངོན་ཤེས་དག་ཀྱང་འགྲུབ་པར་འགྱུར། ། ཤེས་རབ་ཕ་རོལ་ཕྱིན་སྦྱོར་དང་། ། བྲལ་བས་སྒྲིབ་པ་ཟད་མི་འགྱུར། །",
+    "chinese": "不能盡諸障 為無餘斷除 煩惱所知障 故應具方便"
+  },
+  {
+    "verse": 43,
+    "sanskrit": "kleśajñeyāvṛtestasmāt prahāṇārthamaśeṣataḥ / prajñāpāramitāṃ yogī sopāyaṃ bhāvayet sadā",
+    "tibetan": "དེ་ཕྱིར་ཉོན་མོངས་ཤེས་བྱ་ཡི། ། སྒྲིབ་པ་མ་ལུས་སྤང་བའི་ཕྱིར། ། ཤེས་རབ་ཕ་རོལ་ཕྱིན་རྣལ་འབྱོར། ། རྟག་ཏུ་ཐབས་བཅས་བསྒོམ་པར་བྱ། །",
+    "chinese": "修慧度瑜珈 般若離方便 方便離般若 俱說為系縛"
+  },
+  {
+    "verse": 44,
+    "sanskrit": "upāyarahitā prajñāpyupāyaḥ prajñayā vinā / yato bandha iti proktau praheyaṃ nobhayaṃ tataḥ",
+    "tibetan": "ཐབས་དང་བྲལ་བའི་ཤེས་རབ་དང་། ། ཤེས་རབ་བྲལ་བའི་ཐབས་དག་ཀྱང་། ། གང་ཕྱིར་འཆིང་བ་ཞེས་གསུངས་པ། ། དེ་ཕྱིར་གཉིས་ཀ་སྤང་མི་བྱ། །",
+    "chinese": "故二不應離 何慧何方便 為除諸疑故 當明諸方便"
+  },
+  {
+    "verse": 45,
+    "sanskrit": "kā prajñā ka upāyaśca śaṅkāmiti nirāsitum / upāyasya ca prajñāyāḥ bhedaḥ samyak prakāśyate",
+    "tibetan": "ཤེས་རབ་གང་དང་ཐབས་གང་ཞེས། ། ཐེ་ཚོམ་དག་ནི་སྤང་བྱའི་ཕྱིར། ། ཐབས་རྣམས་དང་ནི་ཤེས་རབ་ཀྱི། ། ཡང་དག་དབྱེ་བ་གསལ་བར་བྱ། །",
+    "chinese": "與般若差別 除般若度外 施般羅蜜等 一切善資糧"
+  },
+  {
+    "verse": 46,
+    "sanskrit": "prajñāpāramitāṃ tyaktvā dānapāramitādayaḥ / sarve hi kuśalāḥ dharmāḥ upāyāḥ jinabhāṣitāḥ",
+    "tibetan": "ཤེས་རབ་ཕ་རོལ་ཕྱིན་སྤངས་པའི། ། སྦྱིན་པའི་ཕ་རོལ་ཕྱིན་ལ་སོགས། ། དགེ་བའི་ཚོགས་རྣམས་ཐམས་ཅད་དག ། རྒྱལ་བ་རྣམས་ཀྱི་ཐབས་སུ་བཤད། །",
+    "chinese": "佛說為方便 苦修方便力 自善修般若 彼速證菩提"
+  },
+  {
+    "verse": 47,
+    "sanskrit": "upāyābhyāsavaśyātmā yo hi prajñāṃ vibhāvayet / śīghraṃ sa labhate bodhiṃ na nairātmyaikabhāvanāt",
+    "tibetan": "ཐབས་བསྒོམས་དབང་གིས་བདག་ཉིད་ཀྱིས། ། གང་ཞིག་ཤེས་རབ་རྣམ་བསྒོམ་པ། ། དེ་ནི་བྱང་ཆུབ་མྱུར་དུ་ཐོབ། ། བདག་མེད་གཅིག་པུ་བསྒོམས་པས་མིན། །",
+    "chinese": "非單修無我 遍達蘊處界 皆悉無有生 了知自性空"
+  },
+  {
+    "verse": 48,
+    "sanskrit": "skandhāyatanadhātūnāmanutpādāvabodhinām / svabhāvaśūnyatājñānaṃ prajñeti parikīrtitā",
+    "tibetan": "ཕུང་པོ་ཁམས་དང་སྐྱེ་མཆེད་རྣམས། ། སྐྱེ་བ་མེད་པར་རྟོགས་གྱུར་པའི། ། རང་བཞིན་སྟོང་ཉིད་ཤེས་པ་ནི། ། ཤེས་རབ་ཅེས་ནི་ཡོངས་སུ་བཤད། །",
+    "chinese": "說名為般若 有則生非理 無亦如空花 俱則犯俱過"
+  },
+  {
+    "verse": 49,
+    "sanskrit": "sadutpattirayuktāsti asaccāpi khapuṣpavat / dvayordoṣaprasaṅgatvāt udbhāvo na dvayorapi",
+    "tibetan": "ཡོད་པ་སྐྱེ་བ་རིགས་མིན་ཏེ། ། མེད་པའང་ནམ་མཁའི་མེ་ཏོག་བཞིན། ། ཉེས་པ་གཉིས་ཀར་ཐལ་འགྱུར་ཕྱིར། ། གཉིས་ཀ་དག་ཀྱང་འབྱུང་བ་མིན། །",
+    "chinese": "故俱亦不生 諸法不自生 亦非他及共 亦非無因生"
+  },
+  {
+    "verse": 50,
+    "sanskrit": "anutpannaḥ svato bhāvo parato nobhayorapi / ahetuteśca no tasmāt niḥsvabhāvaḥ svarupataḥ",
+    "tibetan": "དངོས་པོ་རང་ལས་མི་སྐྱེ་ཞིང་། ། གཞན་དང་གཉིས་ཀ་ལས་ཀྱང་མིན། ། རྒྱུ་མེད་ལས་མིན་དེ་ཡི་ཕྱིར། ། ངོ་བོ་ཉིད་ཀྱིས་རང་བཞིན་མེད། །",
+    "chinese": "故無體自性 又一切諸法 用一異觀察 自性不可得"
+  },
+  {
+    "verse": 51,
+    "sanskrit": "athavā sarvadharmāṇāṃ caikānekavicāraṇe / svarupāprāpyamāṇatvāt niḥsvabhāvatvaniścayaḥ",
+    "tibetan": "ཡང་ན་ཆོས་རྣམས་ཐམས་ཅད་དག ། གཅིག་དང་དུ་མས་རྣམ་དཔྱད་ན། ། ངོ་བོ་ཉིད་ནི་མི་དམིགས་པས། ། རང་བཞིན་མེད་པ་ཉིད་དུ་ངེས། །",
+    "chinese": "定知無自性 七十空性理 及本中論等 亦成立諸法"
+  },
+  {
+    "verse": 52,
+    "sanskrit": "śunyatāsaptau yuktau mūlamadhyamakādiṣu / siddho bhāvasvabhāvastu śunyatāyāṃ bhāṣitaḥ",
+    "tibetan": "སྟོང་ཉིད་བདུན་ཅུའི་རིགས་པ་དང་། ། དབུ་མ་རྩ་བ་སོགས་ལས་ཀྱང་། ། དངོས་པོ་རྣམས་ཀྱི་རང་བཞིན་གྱི། ། སྟོང་པ་ཉིད་ནི་གྲུབ་བཤད་པ། །",
+    "chinese": "自性之空性 由恐文太繁 故此不廣說 僅就已成宗"
+  },
+  {
+    "verse": 53,
+    "sanskrit": "granthasya gauravo yasmāt atra tasmānna vistaraḥ / siddhasiddhāntamātraikaṃ bhāvanārthaṃ prabhāṣitam",
+    "tibetan": "གང་ཕྱིར་གཞུང་ནི་མངས་འགྱུར་བས། ། དེ་ཕྱིར་འདིར་ནི་མ་སྤྲོས་ལ། ། གྲུབ་པའི་གྲུབ་མཐའ་ཙམ་ཞིག་ཏུ། ། བསྒོམ་པའི་ཕྱིར་ནི་རབ་ཏུ་བཤད། །",
+    "chinese": "為修故而說 故無餘諸法 自性不可得 所有修無我"
+  },
+  {
+    "verse": 54,
+    "sanskrit": "tasmādaśeṣadharmāṇāṃ svabhāvanāmalābhataḥ / nairātmyabhāvanā yā hi sā prajñāyāstu bhāvanā",
+    "tibetan": "དེ་བས་ཆོས་རྣམས་མ་ལུས་པའི། ། རང་བཞིན་དག་ནི་མི་དམིགས་པས། ། བདག་མེད་པར་ནི་བསྒོམ་གང་ཡིན། ། དེ་ཉིད་ཤེས་རབ་བསྒོམ་པ་ཡིན། །",
+    "chinese": "即是修般若 以慧觀諸法 都不見自性 亦了彼慧性"
+  },
+  {
+    "verse": 55,
+    "sanskrit": "prajñayā sarvadharmaṇāṃ yatsvabhāvo na dṛṣṭavat / yuktayā parīkṣya tāṃ prajñāṃ so 'vikalpena bhāvayet",
+    "tibetan": "ཤེས་རབ་ཀྱིས་ནི་ཆོས་རྣམས་ཀུན། ། གང་གི་རང་བཞིན་མ་མཐོང་ཞིང་། ། ཤེས་རབ་དེ་ཉིད་རིག་བཤད་པ། ། རྣམ་རྟོག་མེད་པར་དེ་བསྒོམ་བྱ། །",
+    "chinese": "無分別修彼 三有分別生 分別為體性 故斷諸分別"
+  },
+  {
+    "verse": 56,
+    "sanskrit": "bhavo vikalpobhūto 'yaṃ tadvikalpātmakastataḥ / sarvakalpaparityāgaḥ nivārṇaḥ paramo 'sti hi",
+    "tibetan": "རྣམ་རྟོག་ལས་བྱུང་སྲིད་པ་འདི། ། རྣམ་པར་རྟོག་པའི་བདག་ཉིད་དེ། ། དེ་ཕྱིར་མ་ལུས་རྟོགས་སྤངས་པ། ། མྱ་ངན་འདས་པ་མཆོག་ཡིན་ནོ། །",
+    "chinese": "是最勝涅槃 如世尊曾說 分別大無明 能墮生死海"
+  },
+  {
+    "verse": 57,
+    "sanskrit": "evamapyuktaṃ bhagavatā - - mahāvidyā vikalpo hi saṃsārārṇavapātakaḥ / nirvikalpasamādhisthe 'vikalpo bhāsate khavat",
+    "tibetan": "དེ་ལྟར་ཡང་བཅོམ་ལྡན་འདས་ཀྱིས། ། རྣམ་རྟོག་མ་རིག་ཆེན་པོ་སྟེ། ། འཁོར་བའི་རྒྱ་མཚོར་ལྟུང་བར་བྱེད། ། རྟོག་མེད་ཏིང་འཛིན་ལ་གནས་པ། ། ནམ་མཁའ་བཞིན་དུ་རྟོག་མེད་གསལ། །ཞེས་གསུངས་སོ། །",
+    "chinese": "住無分別定 無分別如空 如入無分別 陀羅尼亦云"
+  },
+  {
+    "verse": 58,
+    "sanskrit": "avikalpapraveśadhāraṇyāmapi uktam - - cintitenirvikalpe 'smin saddharme jinaputrakaiḥ / vikalpaṃ durgamaṃ tīrtvāvikalpo prāpsyate kramāt",
+    "tibetan": "རྣམ་པར་མི་རྟོག་པ་ལ་འཇུག་པའི་གཟུངས་ལས་ཀྱང་། ། དམ་ཆོས་འདི་ལ་རྒྱལ་བའི་སྲས། ། རྣམ་པར་མི་རྟོག་བསམས་གྱུར་ན། ། རྣམ་རྟོག་བགྲོད་དཀའ་རྣམས་འདས་ཏེ། ། རིམ་གྱིས་མི་རྟོག་ཐོབ་པར་འགྱུར། །ཞེས་གསུངས་སོ། །",
+    "chinese": "佛子於此法 若思無分別 越分別險阻 漸得無分別"
+  },
+  {
+    "verse": 59,
+    "sanskrit": "niścayīyāgamayuktibhyāṃ svabhāva rahitān tathā / sarvān dharmānutpannānavikalpaṃ bhāvayet",
+    "tibetan": "ལུང་དང་རིགས་པ་དག་གིས་ནི། ། ཆོས་རྣམས་ཐམས་ཅད་སྐྱེ་མེད་པའི། ། རང་བཞིན་མེད་པ་ངེས་བྱས་ནས། ། རྣམ་པར་རྟོག་མེད་བསྒོམས་པར་བྱ། །",
+    "chinese": "由聖教正理 定解一切法 無生無自性 當修無分別"
+  },
+  {
+    "verse": 60,
+    "sanskrit": "bhāvayannidamevetthaṃ prāpyoṣṇatvādikaṃ kramāt / labhate pramuditvādiṃ buddhabodhirna lambitā",
+    "tibetan": "དེ་ལྟར་དེ་ཉིད་བསྒོམ་བྱས་ནས། ། རིམ་གྱིས་དྲོད་སོགས་ཐོབ་བྱས་ནས། ། རབ་དགའ་ལ་སོགས་ཐོབ་འགྱུར་ཏེ། ། སངས་རྒྱས་བྱང་ཆུབ་ཡུན་མི་རིང་། །",
+    "chinese": "如是修真性 漸得暖等已 當得極喜等 佛菩提非遙"
+  },
+  {
+    "verse": 61,
+    "sanskrit": "sādhitairmantraśaktayā hi śāntivistarakarmabhiḥ / bhadrakumbhādisiddhāṣṭamahāsiddhibalena ca",
+    "tibetan": "སྔགས་མཐུ་ཉིད་ལས་གྲུབ་པ་ཡི། ། ཞི་དང་རྒྱས་སོགས་ལས་རྣམས་ཀྱིས། ། བུམ་པ་བཟང་གྲུབ་ལ་སོགས་པ། ། གྲུབ་ཆེན་བརྒྱད་སོགས་སྟོབས་ཀྱིས་ཀྱང་། །",
+    "chinese": "由咒力成就 靜增等事業 及修寶瓶等 八大悉地力"
+  },
+  {
+    "verse": 62,
+    "sanskrit": "abhīṣṭā bodhisambhāraparipūrtiḥ sukhena cet / kriyācaryādi tantrokam guhyācaraṇabhiṣyate",
+    "tibetan": "བདེ་བ་ཡིས་ནི་བྱང་ཆུབ་ཚོགས། ། ཡོངས་སུ་རྫོགས་པར་འདོད་པ་དང་། ། བྱ་བ་སྤྱོད་སོགས་རྒྱུད་གསུངས་པའི། ། གལ་ཏེ་གསང་སྔགས་སྤྱོད་འདོད་ན། །",
+    "chinese": "欲安樂圓滿 大菩提資糧 須修事行等 續部諸密咒"
+  },
+  {
+    "verse": 63,
+    "sanskrit": "tadācāryabhiṣekārthaṃ mahāratnādidānataḥ / sadguruṃ prīṇayed bhaktayā sarvāñjñādipālanaiḥ",
+    "tibetan": "དེ་ཚེ་སློབ་དཔོན་དབང་བསྐུར་ཕྱིར། ། བསྙེན་བཀུར་རིན་ཆེན་སོགས་སྦྱིན་དང་། ། དཀའ་སྒྲུབ་ལ་སོགས་ཐམས་ཅད་ཀྱིས། ། བླ་མ་དམ་པ་མཉེས་པར་བྱ། །",
+    "chinese": "為求師長灌頂故 當以承事寶等施 依教行等一切事 使良師長心歡喜"
+  },
+  {
+    "verse": 64,
+    "sanskrit": "prasanne ca gurau bhūte pūrṇācāryābhiṣekataḥ / sarvapāpaviśuddhātmā siddhibhāgī bhaviṣyati",
+    "tibetan": "བླ་མ་མཉེས་པར་གྱུར་པ་ཡིས། ། ཡོངས་རྫོགས་སློབ་དཔོན་དབང་བསྐུར་བས། ། སྡིག་ཀུན་རྣམ་དག་བདག་ཉིད་ནི། ། དངོས་གྲུབ་སྒྲུབ་པའི་སྐལ་ལྡན་འགྱུར། །",
+    "chinese": "由於師長心喜故 圓滿傳授師灌頂 清淨諸罪為體性 是修悉地善根者"
+  },
+  {
+    "verse": 65,
+    "sanskrit": "ādibuddhamahātantre prayatnena niṣedhataḥ / guhyaprajñābhiṣekastu na grahyā brahmacārariṇā",
+    "tibetan": "དང་པོ་སངས་རྒྱས་རྒྱུད་ཆེན་ལས། ། རབ་ཏུ་འབད་པས་བཀག་པའི་ཕྱིར། ། གསང་བ་ཤེས་རབ་དབང་བསྐུར་ནི། ། ཚངས་པར་སྤྱོད་པས་བླང་མི་བྱ། །",
+    "chinese": "初佛大續中 極力遮止故 密與慧灌頂 梵行者勿受"
+  },
+  {
+    "verse": 66,
+    "sanskrit": "so 'bhiṣeko gṛhītaścet brahyacaryatapaḥ sthitaiḥ / niṣiddhācaraṇatvāt tattapaḥ samvarakṣayaḥ",
+    "tibetan": "གལ་ཏེ་དབང་བསྐུར་དེ་འཛིན་ན། ། ཚངས་སྤྱོད་དཀའ་ཐུབ་ལ་གནས་པས། ། བཀག་པ་སྤྱད་པར་འགྱུར་བའི་ཕྱིར། ། དཀའ་ཐུབ་སྡོམ་པ་དེ་ཉམས་ཏེ། །",
+    "chinese": "倘持彼灌頂 安住梵行者 違犯所遮故 失壞彼律儀"
+  },
+  {
+    "verse": 67,
+    "sanskrit": "jāyante vratinastasya pārājikavipattayaḥ / saḥ pateddurgatau nūnaṃ siddhirnaiva kadācana",
+    "tibetan": "བརྟུལ་ཞུགས་ཅན་དེ་ཕམ་པ་ཡི། ། ལྟུང་བ་དག་ནི་འབྱུང་འགྱུར་ཞིང་། ། དེ་ནི་ངན་སོང་ངེས་ལྷུང་བས། ། གྲུབ་པ་ཡང་ནི་ཡོད་མ་ཡིན། །",
+    "chinese": "其持禁行者 則犯他勝罪 定當墮惡趣 亦無所成就"
+  },
+  {
+    "verse": 68,
+    "sanskrit": "sarvatantraśrutau bhāṣye homayajñādikarmāsu / labdhācāryābhiṣekaśca tattvavida naiva duṣyati",
+    "tibetan": "རྒྱུད་ཀུན་ཉན་དང་འཆད་པ་དང་། ། སྦྱིན་སྲེག་མཆོད་སྦྱིན་སོགས་བྱེད་པ། ། སློབ་དཔོན་དབང་བསྐུར་རྙེད་འགྱུར་ཞིང་། ། དེ་ཉིད་རིག་ལ་ཉེས་པ་མེད། །",
+    "chinese": "若聽講諸續 護摩祠祀等 得師灌頂者 知真實無過"
+  },
+  {
+    "verse": 69,
+    "sanskrit": "dīpaṅkaraśriyā bodhipathaḥ proktaḥ samāsataḥ / dṛaṣṭvā sūtrādidharmoktiṃ bodhiprabhanivedanāt",
+    "tibetan": "གནས་བརྟན་མར་མེ་མཛད་དཔལ་གྱིས། ། མདོ་སོགས་ཆོས་ལས་བཤད་མཐོང་བ། ། བྱང་ཆུབ་འོད་ཀྱིས་གསོལ་བཏབ་ནས། ། བྱང་ཆུབ་ལམ་བཤད་མདོར་བསྡུས་བྱས། །",
+    "chinese": "燃燈智上座 見經法等說 由菩提光請 略說菩提道"
+  }
+]

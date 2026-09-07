@@ -1,0 +1,266 @@
+﻿==================================================
+รายงานการตรวจสอบความถูกต้องเชิงวิชาการ (Validation Report)
+โครงการ: palm_leaf_buddhist_manuscripts
+เวลาตรวจสอบ: 2026-08-26 16:21:39
+==================================================
+
+ไฟล์: 01-บทนำ-ประวัติศาสตร์นิพนธ์.md
+  - สถิติ: คำ = 10738.6, อักขระ = 53693, เชิงอรรถ = 78, ลิงก์ทั้งหมด = 55, ลิงก์ผ่านการตรวจสอบ = 41
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.4324/9780203884812 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/asian-and-african/2014/11/the-beauty-of-palm-leaf-manuscripts-1-central-thailand.html (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://repository.kln.ac.lk/handle/123456789/27420 (The request was aborted: Could not create SSL/TLS secure channel.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://narchives.gov.np/MicroFilm.aspx (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://staatsbibliothek-berlin.de/en/about-the-library/departments/orient/translate-to-english-sammlungen/translate-to-english-handschriften (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.bdrc.io/blog/2018/02/12/the-gilt-manuscripts-of-the-fragile-palm-leaves-collection/ (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://bdrc.io/about-us/ (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://khyentsefoundation.org/kf-projects/buddhist-digital-resource-center-bdrc/ (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://bl.iro.bl.uk/collections/728aaf50-dab0-4613-a116-3221c34231cd?locale=en (The request was aborted: Could not create SSL/TLS secure channel.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.ifla.org/wp-content/uploads/files/assets/hq/plm2017_scopingworkshopreport_0.pdf (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.taylorfrancis.com/books/edit/10.4324/9780203884812/buddhist-manuscript-cultures-stephen-berkwitz-juliane-schober-claudia-brown (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.tandfonline.com/doi/full/10.1080/19455224.2022.2115093 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.tandfonline.com/doi/full/10.1080/19455224.2023.2167095 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.tandfonline.com/doi/full/10.1080/23818107.2026.2634848 (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 02-พฤกษศาสตร์และวัสดุศาสตร์ของใบลาน.md
+  - สถิติ: คำ = 8812, อักขระ = 44060, เชิงอรรถ = 46, ลิงก์ทั้งหมด = 48, ลิงก์ผ่านการตรวจสอบ = 35
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/19455224.2022.2115093 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/23818107.2026.2634848 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.33422/icfss.v2i1.1108 (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/13614568.2024.2345182 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.ihchina.cn/project_details/14582/ (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://magazines.odisha.gov.in/Orissareview/2009/Jan/engpdf/43-46.pdf (The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://odisha.gov.in/en/odisha-tourism/palm-leaf-painting (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/asian-and-african/2014/11/the-beauty-of-palm-leaf-manuscripts-1-central-thailand.html (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.3390/polym17010083 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.ifla.org/traditional-paper-and-manuscript-preservation/ (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1093/acrefore/9780199340378.013.588 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/asian-and-african/2017/02/kammavaca-burmese-buddhist-ordination-manuscripts.html (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/asian-and-african/2017/05/33-burmese-manuscripts-now-digitised.html (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 03-เทคนิคการจารและการเขียน.md
+  - สถิติ: คำ = 6577.8, อักขระ = 32889, เชิงอรรถ = 36, ลิงก์ทั้งหมด = 37, ลิงก์ผ่านการตรวจสอบ = 27
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/asian-and-african/2014/11/the-beauty-of-palm-leaf-manuscripts-1-central-thailand.html (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.natlib.lk/NLDSB/conservation-and-preservation/ (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/19455224.2022.2115093 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://repository.kln.ac.lk/handle/123456789/27420 (The request was aborted: Could not create SSL/TLS secure channel.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.readhibiscus.com/balinese-lontar-the-making-of-sacred-manuscripts (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1038/s41597-022-01867-5 (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://magazines.odisha.gov.in/Orissareview/2009/Jan/engpdf/43-46.pdf (The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.sciencedirect.com/science/article/pii/S0924203121000278 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.metmuseum.org/art/collection/search/905605 (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.bonhams.com/auction/25327/lot/36/a-palm-leaf-manuscript-page-probably-nepal-15th-century (The remote server returned an error: (308) Permanent Redirect.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 04-องค์ประกอบของหน้าและรูปเล่มโปถี.md
+  - สถิติ: คำ = 9377.2, อักขระ = 46886, เชิงอรรถ = 37, ลิงก์ทั้งหมด = 29, ลิงก์ผ่านการตรวจสอบ = 21
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/asian-and-african/2017/02/kammavaca-burmese-buddhist-ordination-manuscripts.html (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://colenda.library.upenn.edu/items/ark:/81431/p31n7xx2r (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/asian-and-african/2014/11/the-beauty-of-palm-leaf-manuscripts-1-central-thailand.html (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.slam.org/collection/objects/646 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/asian-and-african/2015/01/the-beauty-of-palm-leaf-manuscripts-2-northern-thai-lao-and-shan-traditions.html (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://unifont.org/hariphunchai/th/node/7 (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/asian-and-african/2015/02/the-beauty-of-palm-leaf-manuscripts-3-storage-and-preservation.html (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.3406/arasi.2014.1863 (The operation has timed out.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 05-ตระกูลอักษรพราหมีและอักษรศาสตร์เปรียบเทียบ.md
+  - สถิติ: คำ = 8802.6, อักขระ = 44013, เชิงอรรถ = 64, ลิงก์ทั้งหมด = 59, ลิงก์ผ่านการตรวจสอบ = 45
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.readhibiscus.com/balinese-lontar-the-making-of-sacred-manuscripts (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://rylandscollections.com/2020/08/03/the-john-rylands-pali-collection/ (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://island.lk/palm-leaf-manuscripts-of-sri-lanka-1/ (The remote server returned an error: (307) Temporary Redirect.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://hisoma.huma-num.fr/exist/apps/pyu/works/PYU007.xml?odd=teipublisher.odd (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.britannica.com/topic/Mon-language (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.4259/ibk.66.3_1038 (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://dpul.princeton.edu/global-book-forms/feature/the-pothi-tradition (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/13614568.2024.2345182 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/aufgaben-profil/veroeffentlichungen/berlin-turfan-collection/ (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://adw-goe.de/en/research/completed-research-projects/academies-programme/kohd/publication-series/catalogues/1-10 (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.5334/srah.8 (The remote server returned an error: (308) Permanent Redirect.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://idp.bl.uk/blog/shaping-the-stein-collections-dunhuang-corpus-2-the-items-from-cave-17s-miscellaneous-bundles/ (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1558/bsrv.36761 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.33077/uw.25448730.zbkh (The operation has timed out.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 06-ภาษาของคัมภีร์.md
+  - สถิติ: คำ = 7750.6, อักขระ = 38753, เชิงอรรถ = 31, ลิงก์ทั้งหมด = 22, ลิงก์ผ่านการตรวจสอบ = 19
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1093/acrefore/9780199340378.013.588 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://hisoma.huma-num.fr/exist/apps/pyu/works/PYU007.xml?odd=teipublisher.odd (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1016/0024-3841(65 (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 07-วัฒนธรรมการจาร.md
+  - สถิติ: คำ = 8681.2, อักขระ = 43406, เชิงอรรถ = 33, ลิงก์ทั้งหมด = 27, ลิงก์ผ่านการตรวจสอบ = 21
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://uplopen.com/en/chapters/e/10.1515/9783110795271-008 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://iris.unive.it/retrieve/47e86e77-50db-4613-8f01-60874dab7b10/Manuscripts%20at%20Funerals.pdf (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://brill.com/view/journals/mnya/26/1/article-p1_1.xml (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://repository.kln.ac.lk/handle/123456789/27420 (The request was aborted: Could not create SSL/TLS secure channel.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://repository.kln.ac.lk/handle/123456789/30998 (The request was aborted: Could not create SSL/TLS secure channel.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.seameo-spafa.org/mon-palm-leaf-manuscripts/ (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 08-อินเดียและคันธาระ.md
+  - สถิติ: คำ = 9709.8, อักขระ = 48549, เชิงอรรถ = 45, ลิงก์ทั้งหมด = 42, ลิงก์ผ่านการตรวจสอบ = 32
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://idp.bl.uk/blog/shaping-the-stein-collections-dunhuang-corpus-2-the-items-from-cave-17s-miscellaneous-bundles/ (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.schoyencollection.com/22-buddhism-collection/22-1-agama-sutras/mahaparinivanasutra-ms-2179-44 (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1558/bsrv.36761 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://journal.equinoxpub.com/BSR/article/view/9128 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://museum.asiasociety.org/collection/explore/1987-001-five-of-the-leaves-from-an-ashtasahasrika-prajnaparamita-manuscript/search/search:leaves-from-the-perfection-of-wisdom (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.metmuseum.org/art/collection/search/74906 (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.metmuseum.org/art/collection/search/37977 (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://heritage.bnf.fr/france-southasia/en/printing-in-india-article (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.metmuseum.org/met-publications/wonder-of-the-age-master-painters-of-india-1100-1900 (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1093/acrefore/9780199340378.013.582 (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 09-เนปาล.md
+  - สถิติ: คำ = 9212.4, อักขระ = 46062, เชิงอรรถ = 37, ลิงก์ทั้งหมด = 32, ลิงก์ผ่านการตรวจสอบ = 28
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.bonhams.com/auction/25327/lot/36/a-palm-leaf-manuscript-page-probably-nepal-15th-century (The remote server returned an error: (308) Permanent Redirect.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://heritage.bnf.fr/france-southasia/en/printing-in-india-article (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://collectionapi.metmuseum.org/public/collection/v1/objects/905605 (The remote server returned an error: (405) Method Not Allowed.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.metmuseum.org/art/collection/search/905605 (The remote server returned an error: (429) Too Many Requests.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 10-ศรีลังกา.md
+  - สถิติ: คำ = 7391.8, อักขระ = 36959, เชิงอรรถ = 29, ลิงก์ทั้งหมด = 29, ลิงก์ผ่านการตรวจสอบ = 20
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.33422/icfss.v2i1.1108 (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/23818107.2026.2634848 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://repository.kln.ac.lk/handle/123456789/27420 (The request was aborted: Could not create SSL/TLS secure channel.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://island.lk/palm-leaf-manuscripts-of-sri-lanka-1/ (The remote server returned an error: (307) Temporary Redirect.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.4324/9780203884812 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.natlib.lk/NLDSB/conservation-and-preservation/ (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.ifla.org/pac-sri-lanka/ (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.ifla.org/traditional-paper-and-manuscript-preservation/ (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/19455224.2022.2115093 (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 11-เมียนมา.md
+  - สถิติ: คำ = 7688.4, อักขระ = 38442, เชิงอรรถ = 27, ลิงก์ทั้งหมด = 27, ลิงก์ผ่านการตรวจสอบ = 21
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/23818107.2026.2634848 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.britannica.com/place/Kuthodaw-Pagoda (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.britannica.com/topic/Mon-language (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://hisoma.huma-num.fr/exist/apps/pyu/works/PYU007.xml?odd=teipublisher.odd (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1016/0024-3841(65 (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/asian-and-african/2017/05/33-burmese-manuscripts-now-digitised.html (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 12-ไทย.md
+  - สถิติ: คำ = 10336.6, อักขระ = 51683, เชิงอรรถ = 43, ลิงก์ทั้งหมด = 51, ลิงก์ผ่านการตรวจสอบ = 42
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.buddhistdoor.net/features/bringing-ancient-thai-buddhist-manuscripts-to-the-world (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://dissertationreviews.org/the-national-library-of-thailand-manuscript-collection/ (The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/asian-and-african/2014/11/the-beauty-of-palm-leaf-manuscripts-1-central-thailand.html (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://iris.unive.it/retrieve/47e86e77-50db-4613-8f01-60874dab7b10/Manuscripts%20at%20Funerals.pdf (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://unifont.org/hariphunchai/th/node/7 (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://sea.lib.niu.edu/islandora/object/SEAImages%3AKKManuscripts (The remote server returned an error: (405) Method Not Allowed.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.gotoknow.org/posts/218940 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.academia.edu/33361204/Les_Ho_Tham_du_Lanna (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://media.unesco.org/sites/default/files/webform/mow001/56_143%2B.pdf (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 13-ลาว.md
+  - สถิติ: คำ = 8445, อักขระ = 42225, เชิงอรรถ = 18, ลิงก์ทั้งหมด = 18, ลิงก์ผ่านการตรวจสอบ = 16
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.persee.fr/doc/asean_0859-9009_2014_num_33_1_2319 (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://core.unesco.org/en/project/3240113471 (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 14-กัมพูชาและเขมรครม.md
+  - สถิติ: คำ = 8600, อักขระ = 43000, เชิงอรรถ = 38, ลิงก์ทั้งหมด = 39, ลิงก์ผ่านการตรวจสอบ = 34
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/.m/asian-and-african/cambodia/ (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://archive.org/download/TipitakaTranslationConference/7%20Pali%20Tipitaka%20Translation%20in%20Khmer%20%28Ven.%20Prof.%20Dr.%20Ky%20Sovanratana%29.pdf (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.thefreelibrary.com/Govt+to+re-establish+Tripitaka+Commission+formed+in+1930.-a0831106663 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://sea.lib.niu.edu/islandora/object/seadl:cambodia (The remote server returned an error: (405) Method Not Allowed.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1145/3151509.3151510 (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 15-โลกไทและยูนนาน.md
+  - สถิติ: คำ = 6282.4, อักขระ = 31412, เชิงอรรถ = 19, ลิงก์ทั้งหมด = 23, ลิงก์ผ่านการตรวจสอบ = 17
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/14639940902968954 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.3406/asean.2014.2319 (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.ihchina.cn/project_details/14582.html (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.ihchina.cn/project_details/10740.html (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://english.xtbg.cas.cn/en/EEducation/ps/201004/t20100428_53504.html (The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.3390/polym17010083 (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 16-อินโดนีเซีย.md
+  - สถิติ: คำ = 10333.8, อักขระ = 51669, เชิงอรรถ = 47, ลิงก์ทั้งหมด = 60, ลิงก์ผ่านการตรวจสอบ = 48
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://budayabali.com/lontar-palm-leaf-manuscripts-balis-globally-renowned-traditional-art-treasure (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.readhibiscus.com/balinese-lontar-the-making-of-sacred-manuscripts (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/13614568.2024.2345182 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.museumnasional.or.id/4008/ (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://lontar.ui.ac.id/detail?id=20187062 (The underlying connection was closed: An unexpected error occurred on a receive.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://lontar.ui.ac.id/detail?id=20187061 (The underlying connection was closed: An unexpected error occurred on a receive.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://archive.org/details/sanghyang-tantu-pagelaran (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.researchgate.net/publication/336767526_Lontar_digitalization_on_lontar_study_center_Udayana_University_Denpasar (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.mdpi.com/2571-9408/8/8/337 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.detik.com/bali/berita/d-8499269/tak-cuma-disakralkan-ratusan-lontar-kuno-badung-kini-go-digital (The underlying connection was closed: An unexpected error occurred on a receive.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.iias.asia/the-newsletter/article/indonesian-collection-leiden-university-library (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.researchgate.net/publication/327886585_Sinkretisme_Siwa_Budha_dalam_Lontar_Candra_Bhairawa (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 17-เอเชียกลางและโลกตะวันออกไกล.md
+  - สถิติ: คำ = 8588.4, อักขระ = 42942, เชิงอรรถ = 30, ลิงก์ทั้งหมด = 29, ลิงก์ผ่านการตรวจสอบ = 24
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/aufgaben-profil/veroeffentlichungen/berlin-turfan-collection/ (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://idp.bl.uk/discover/learning/dunhuang/dunhuang-articles/cave-17-the-library-cave/what-was-stored-in-cave-17/ (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://adw-goe.de/en/research/completed-research-projects/academies-programme/kohd/publication-series/catalogues/1-10 (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://idp.bl.uk/blog/shaping-the-stein-collections-dunhuang-corpus-2-the-items-from-cave-17s-miscellaneous-bundles/ (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.britannica.com/biography/Xuanzang (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 18-การอนุรักษ์และการจัดการความเสี่ยง.md
+  - สถิติ: คำ = 10104.6, อักขระ = 50523, เชิงอรรถ = 42, ลิงก์ทั้งหมด = 45, ลิงก์ผ่านการตรวจสอบ = 27
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/19455224.2022.2115093 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://list.indology.info/pipermail/indology/attachments/20230619/a867d80b/attachment.pdf (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.academia.edu/36286634/ (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doaj.org/article/ff7805da6c0748bb92b5bd29525544d7 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.mdpi.com/2073-4360/17/1/83 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://magazines.odisha.gov.in/Orissareview/2009/Jan/engpdf/43-46.pdf (The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/23818107.2026.2634848 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.33422/icfss.v2i1.1108 (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/asian-and-african/2014/11/the-beauty-of-palm-leaf-manuscripts-1-central-thailand.html (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/asian-and-african/2017/02/kammavaca-burmese-buddhist-ordination-manuscripts.html (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/asian-and-african/2015/01/the-beauty-of-palm-leaf-manuscripts-2-northern-thai-lao-and-shan-traditions.html (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://blogs.bl.uk/asian-and-african/2015/02/the-beauty-of-palm-leaf-manuscripts-3-storage-and-preservation.html (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.natlib.lk/NLDSB/conservation-and-preservation/ (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.ifla.org/news/pac-sri-lanka-publishes-a-new-report-on-best-practices-for-the-conservation-of-palm-leaf-manuscripts/ (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://island.lk/palm-leaf-manuscripts-of-sri-lanka-part-iii/ (The remote server returned an error: (307) Temporary Redirect.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/19455224.2023.2167095 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://mobilenews24x7.com/2024/culture/rare-palm-leaf-and-handwritten-manuscripts-seized-by-bhubaneswar-customs-handed-over-to-asi/ (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.nedcc.org/preservation101/session-3/3exhibits (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 19-ดิจิทัลและเทคโนโลยี.md
+  - สถิติ: คำ = 16512.2, อักขระ = 82561, เชิงอรรถ = 68, ลิงก์ทั้งหมด = 59, ลิงก์ผ่านการตรวจสอบ = 48
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://bdrc.io/about-us/ (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://staatsbibliothek-berlin.de/en/about-the-library/departments/orient/...handschriften (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://narchives.gov.np/MicroFilm.aspx (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.bdrc.io/buda-archive/ (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://sea.lib.niu.edu/islandora/object/seadl:cambodia (The remote server returned an error: (405) Method Not Allowed.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://bl.iro.bl.uk/collections/728aaf50-dab0-4613-a116-3221c34231cd (The request was aborted: Could not create SSL/TLS secure channel.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://aisls.org/british-library-endangered-archives-programme-eap/ (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.ifla.org/wp-content/uploads/files/assets/hq/plm2017_scopingworkshopreport_0.pdf (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://dl.acm.org/doi/10.1145/3151509.3151510 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.mdpi.com/2313-433X/4/2/43 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://github.com/back-kh/PALM-LAY" (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 20-สถานภาพความรู้และวาระวิจัย.md
+  - สถิติ: คำ = 7862.2, อักขระ = 39311, เชิงอรรถ = 34, ลิงก์ทั้งหมด = 40, ลิงก์ผ่านการตรวจสอบ = 31
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.britannica.com/place/Kuthodaw-Pagoda (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/10344233.2018.1522779 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.island.lk/palm-leaf-manuscripts-of-sri-lanka-part-v/ (The remote server returned an error: (307) Temporary Redirect.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://unesdoc.unesco.org/ark:/48223/pf0000383305.locale=en (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/23818107.2026.2634848 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/19455224.2022.2115093 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/19455224.2023.2167095 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.ifla.org/wp-content/uploads/files/assets/hq/plm2017_scopingworkshopreport_0.pdf (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.nedcc.org/preservation101/session-3/3exhibits (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+--------------------------------------------------
+สรุปผลการตรวจสอบรวมโครงการ:
+  - จำนวนคำรวมสะสม: 181807.6 คำ
+  - จำนวนเชิงอรรถทั้งหมด: 802 รายการ
+  - จำนวนลิงก์อ้างอิงทั้งหมด: 771 รายการ
+  - จำนวนลิงก์ที่เข้าถึงได้จริง: 597 รายการ

@@ -1,0 +1,722 @@
+﻿{
+    "status":  "ok",
+    "message-type":  "work-list",
+    "message-version":  "1.0.0",
+    "message":  {
+                    "facets":  {
+
+                               },
+                    "total-results":  218913,
+                    "items":  [
+                                  {
+                                      "title":  [
+                                                    "Spiritual places: Spatial recognition of Tibetan Buddhist spiritual perception"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "ORCID":  "https://orcid.org/0009-0005-4630-4370",
+                                                         "authenticated-orcid":  true,
+                                                         "given":  "Dongzhu",
+                                                         "family":  "Gadan",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Zaisheng",
+                                                         "family":  "Zhang",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "PLOS ONE"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2024,
+                                                                            5,
+                                                                            23
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.1371/journal.pone.0301087"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Longing to Awaken: Buddhist Devotion in Tibetan Poetry and Song"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Kati",
+                                                         "family":  "Fitzgerald",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+                                                                             {
+                                                                                 "name":  "Wittenberg University"
+                                                                             }
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "The Journal of Asian Studies"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2025,
+                                                                            8,
+                                                                            1
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.1215/00219118-11765696"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Javanese in Buddhist Devotion: Linguistic Identity and Spiritual Depth in Puja Bhakti"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Adinda Eka",
+                                                         "family":  "Sukma",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Sugiharto",
+                                                         "family":  "Sugiharto",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Sudhammacari",
+                                                         "family":  "Sudhammacari",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Subhasita: Journal of Buddhist and Religious Studies"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2025,
+                                                                            4,
+                                                                            23
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.53417/subhasita.94"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Masks and Mantras: The COVID-19 Pandemic and Spiritual Reterritorialization Among Tibetan Buddhist Communities in Taiwan"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "ORCID":  "https://orcid.org/0009-0009-3891-2746",
+                                                         "authenticated-orcid":  false,
+                                                         "given":  "Eben",
+                                                         "family":  "Yonnetti",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Journal of Global Buddhism"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2024,
+                                                                            6,
+                                                                            18
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.26034/lu.jgb.2024.3958"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Corporate Religion and Spiritual Tourism at a Luxury Tibetan Buddhist Resort"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Stephen",
+                                                         "family":  "Christopher",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+                                                                             {
+                                                                                 "name":  "International Research Center for Japanese Studies (Nichibunken)",
+                                                                                 "place":  "Kyoto, Japan"
+                                                                             }
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "vocabulary":  "crossref",
+                                                                          "role":  "author"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Hoang",
+                                                         "family":  "Ngoc An",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+                                                                             {
+                                                                                 "name":  "Columbia University",
+                                                                                 "place":  "New York, USA"
+                                                                             }
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "vocabulary":  "crossref",
+                                                                          "role":  "author"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Contemporary Buddhism"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2024,
+                                                                            5,
+                                                                            15
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.1080/14639947.2024.2341445"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Ritual and Faith: Constructing the Spiritual World of Tibetan Buddhist Pilgrims through the Film: Paths of the Soul (Mount Kailash)"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Qinpei",
+                                                         "family":  "Fan",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "OALib"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2026
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.4236/oalib.1114902"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Teacher-Student Relations in Two Tibetan Buddhist Groups in Helsinki"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Maria",
+                                                         "family":  "Sharapan",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+                                                                             {
+                                                                                 "name":  "Department of Languages and Communication, University of Jyväskylä, Jyväskylä, Finland"
+                                                                             }
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Mitra",
+                                                         "family":  "Härkönen",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+                                                                             {
+                                                                                 "name":  "Study of Religions, University of Helsinki, Helsinki, Finland"
+                                                                             }
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Contemporary Buddhism"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2017,
+                                                                            7,
+                                                                            3
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.1080/14639947.2017.1373436"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "The Manuscript of the Buryat Emchi-Lama D. Endonov from the Mongolian Collection of the COMX of the IMBTS, Siberian Branch of the RAN"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "name":  "Institute for Mongolian, Buddhist and Tibetan Studies, Siberian Branch, Russian Academy of Sciences, Ulan-Ude, Russian Federation",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Tsymzhit P.",
+                                                         "family":  "Vanchikova",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Yumzhana Zh.",
+                                                         "family":  "Zhabon",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "name":  "Institute for Mongolian, Buddhist and Tibetan Studies, Siberian Branch, Russian Academy of Sciences, Ulan-Ude, Russian Federation",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Oyuna S.",
+                                                         "family":  "Rinchinova",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "name":  "Institute for Mongolian, Buddhist and Tibetan Studies, Siberian Branch, Russian Academy of Sciences, Ulan-Ude, Russian Federation",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Nomin D.",
+                                                         "family":  "Tsyrenova",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "name":  "Institute for Mongolian, Buddhist and Tibetan Studies, Siberian Branch, Russian Academy of Sciences, Ulan-Ude, Russian Federation",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Subadi B.",
+                                                         "family":  "Dashieva",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "name":  "Institute for Mongolian, Buddhist and Tibetan Studies, Siberian Branch, Russian Academy of Sciences, Ulan-Ude, Russian Federation",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Herald of an archivist"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2020
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.28995/2073-0101-2020-4-1255-1266"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "\u0026lt;i\u0026gt;The Dalai Lama and the Emperor of China: A Political History of the Tibetan Institution of Reincarnation\u0026lt;/i\u0026gt; by Peter Schwieger"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Lucia",
+                                                         "family":  "Galli",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Buddhist Studies Review"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2017,
+                                                                            9,
+                                                                            11
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.1558/bsrv.33782"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Spiritual Identity Formation and Learning in Tibetan Buddhist Communities: A Qualitative Study on Group Rituals in the Nyingma Tradition"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "given":  "Nina",
+                                                         "family":  "Yang",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Prathabjai",
+                                                         "family":  "Suwanthada",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Journal of Education and Learning"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2025,
+                                                                            11,
+                                                                            27
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.5539/jel.v15n2p152"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Palmo\u0027s \"I Am Who I Am,\" Translated by Lama Jabb"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "family":  "Palmo",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "Lama",
+                                                         "family":  "Jabb",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Journal of Tibetan Literature"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2022,
+                                                                            11,
+                                                                            15
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.58371/jtl.2022.22"
+                                  },
+                                  {
+                                      "title":  [
+                                                    "Meeting of Sociologists and Political Scientists on Baikal"
+                                                ],
+                                      "author":  [
+                                                     {
+                                                         "name":  "Institute for Mongolian, Buddhist and Tibetan Studies, Siberian Branch of RAS",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "D.",
+                                                         "family":  "Badaraev",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "A.",
+                                                         "family":  "Gombozhapov",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "name":  "Institute for Mongolian, Buddhist and Tibetan Studies, Siberian Branch of RAS",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "given":  "V.",
+                                                         "family":  "Zhalsanova",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     },
+                                                     {
+                                                         "name":  "Institute for Mongolian, Buddhist and Tibetan Studies, Siberian Branch of RAS",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "container-title":  [
+                                                              "Социологические исследования"
+                                                          ],
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2018,
+                                                                            12
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "DOI":  "10.31857/s013216250003178-8"
+                                  }
+                              ],
+                    "items-per-page":  12,
+                    "query":  {
+                                  "start-index":  0,
+                                  "search-terms":  "devotion lama spiritual teacher tibetan buddhist"
+                              }
+                }
+}

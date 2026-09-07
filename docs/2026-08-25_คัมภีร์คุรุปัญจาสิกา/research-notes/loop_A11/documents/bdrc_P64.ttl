@@ -1,0 +1,166 @@
+﻿@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:EV3706F737C61F9BC2
+   a             bdo:PersonBirth ;
+   bdo:eventWhen  "1357"^^<http://id.loc.gov/datatypes/edtf/EDTF> ;
+   bdo:eventWhere  bdr:G2354 ;
+   bdo:onYear    "1357"^^xsd:gYear .
+
+bdr:EV6D2763C1343FBCDE
+   a             bdo:PersonFinalOrdination ;
+   bdo:eventWhen  "1381"^^<http://id.loc.gov/datatypes/edtf/EDTF> ;
+   bdo:eventWhere  bdr:G1956 ;
+   bdo:onYear    "1381"^^xsd:gYear .
+
+bdr:EV9A0AAADB6AB3EB25
+   a             bdo:PersonDeath ;
+   bdo:eventWhen  "1419"^^<http://id.loc.gov/datatypes/edtf/EDTF> ;
+   bdo:onYear    "1419"^^xsd:gYear .
+
+bdr:EVACBBBAF63606E153
+   a             bdo:PersonLeavesOffice ;
+   bdo:eventWhen  "1419"^^<http://id.loc.gov/datatypes/edtf/EDTF> ;
+   bdo:eventWhere  bdr:G337 ;
+   bdo:onYear    "1419"^^xsd:gYear ;
+   bdo:role      bdr:R35 .
+
+bdr:EVB9A491730E7B8CF2
+   a             bdo:PersonAssumesOffice ;
+   bdo:eventWhen  "1409"^^<http://id.loc.gov/datatypes/edtf/EDTF> ;
+   bdo:eventWhere  bdr:G337 ;
+   bdo:onYear    "1409"^^xsd:gYear ;
+   bdo:role      bdr:R35 .
+
+bdr:EVEA201780AFFC4A6B
+   a             bdo:PersonOccupiesSeat ;
+   bdo:eventWhere  bdr:G337 .
+
+bdr:NM0FB66BF93B5ED0B7
+   a             bdo:PersonOtherName ;
+   rdfs:label    "su ma ti kIr rti/"@bo-x-ewts .
+
+bdr:NM27D77E8B6205D5C5
+   a             bdo:PersonFirstOrdinationName ;
+   rdfs:label    "blo bzang grags pa/"@bo-x-ewts .
+
+bdr:NM28E771404FE40D0F
+   a             bdo:PersonOtherName ;
+   rdfs:label    "宗喀巴"@zh-Hans .
+
+bdr:NM3E14811F732BDC3A
+   a             bdo:PersonTitle ;
+   rdfs:label    "rje rin po che blo bzang grags pa/"@bo-x-ewts .
+
+bdr:NM4079D370D63C7C0B
+   a             bdo:PersonOfficeTitle ;
+   rdfs:label    "dga' ldan khri pa 01"@bo-x-ewts .
+
+bdr:NM44A95DB082D54055
+   a             bdo:PersonPrimaryTitle ;
+   rdfs:label    "tsong kha pa blo bzang grags pa/"@bo-x-ewts .
+
+bdr:NM45D902DC509719DA
+   a             bdo:PersonPersonalName ;
+   rdfs:label    "kun dga' snying po/"@bo-x-ewts .
+
+bdr:NM934E25DEBF4C3570
+   a             bdo:PersonTitle ;
+   rdfs:label    "khri 01 blo bzang grags pa/"@bo-x-ewts .
+
+bdr:NMD4186E2E1F64522B
+   a             bdo:PersonSecretInitiatoryName ;
+   rdfs:label    "don yod rdo rje/"@bo-x-ewts .
+
+bdr:NMF06D92774B9201F7
+   a             bdo:PersonPrimaryName ;
+   rdfs:label    "blo bzang grags pa/"@bo-x-ewts .
+
+bdr:NT80383D8C4B0C5575
+   a             bdo:Note ;
+   bdo:contentLocationStatement  "v. 1, p. 50" ;
+   bdo:noteSource  bdr:MW174 ;
+   bdo:noteText  "master in the transmission lineage of the rngog lugs of the prajnaparamita"@en .
+
+bdr:NT866185774FACA970
+   a             bdo:Note ;
+   bdo:contentLocationStatement  "p. 87" ;
+   bdo:noteSource  bdr:MW19855 ;
+   bdo:noteText  "catalog of the writings"@en .
+
+bdr:NT91C18DF476B49FC8
+   a             bdo:Note ;
+   bdo:contentLocationStatement  "p. 1" ;
+   bdo:noteSource  bdr:MW19836 ;
+   bdo:noteText  "biobibliography"@en .
+
+bdr:NT929E1C212368FA68
+   a             bdo:Note ;
+   bdo:contentLocationStatement  "p. 483" ;
+   bdo:noteSource  bdr:MW20115 ;
+   bdo:noteText  "1381. tsong kha pa takes final ordination at yar klung rnam rgyal dgon according to the transmission established by kha che paN chen\n1417. establishes at dga' ldan the yangs pa can gyi rten rnams"@en .
+
+bdr:NTE870934427DD7E2F
+   a             bdo:Note ;
+   bdo:contentLocationStatement  "p. 58" ;
+   bdo:noteSource  bdr:MW20212 ;
+   bdo:noteText  "founder of the dge lugs pa tradition and the founder of dga' ldan.\non see of dga' ldan: 1409-1419."@en .
+
+bdr:P64  a       bdo:Person ;
+   skos:prefLabel  "tsong kha pa blo bzang grags pa/"@bo-x-ewts , "宗喀巴"@zh-Hans ;
+   bdo:associatedTradition  bdr:TraditionGeluk ;
+   bdo:note      bdr:NT80383D8C4B0C5575 , bdr:NT866185774FACA970 , bdr:NT91C18DF476B49FC8 , bdr:NT929E1C212368FA68 , bdr:NTE870934427DD7E2F ;
+   bdo:personEvent  bdr:EV3706F737C61F9BC2 , bdr:EV6D2763C1343FBCDE , bdr:EV9A0AAADB6AB3EB25 , bdr:EVACBBBAF63606E153 , bdr:EVB9A491730E7B8CF2 , bdr:EVEA201780AFFC4A6B ;
+   bdo:personGender  bdr:GenderMale ;
+   bdo:personName  bdr:NM0FB66BF93B5ED0B7 , bdr:NM27D77E8B6205D5C5 , bdr:NM28E771404FE40D0F , bdr:NM3E14811F732BDC3A , bdr:NM4079D370D63C7C0B , bdr:NM44A95DB082D54055 , bdr:NM45D902DC509719DA , bdr:NM934E25DEBF4C3570 , bdr:NMD4186E2E1F64522B , bdr:NMF06D92774B9201F7 ;
+   bdo:personStudentOf  bdr:P1226 , bdr:P1297 , bdr:P1317 , bdr:P1456 , bdr:P1485 , bdr:P152 , bdr:P154 , bdr:P1557 , bdr:P1558 , bdr:P1969 , bdr:P2010 , bdr:P3079 , bdr:P3241 , bdr:P3284 , bdr:P3303 , bdr:P3357 , bdr:P3JT4936 , bdr:P60 , bdr:P7750 , bdr:P8805 ;
+   bdo:personTeacherOf  bdr:P10225 , bdr:P10299 , bdr:P10300 , bdr:P10315 , bdr:P10316 , bdr:P1317 , bdr:P1589 , bdr:P1591 , bdr:P1AG39 , bdr:P1KG10638 , bdr:P2077 , bdr:P2093 , bdr:P2287 , bdr:P2317 , bdr:P2923 , bdr:P2CZ9156 , bdr:P2GS1295 , bdr:P2GS1301 , bdr:P3100 , bdr:P3114 , bdr:P318 , bdr:P3450 , bdr:P3477 , bdr:P3478 , bdr:P3479 , bdr:P3480 , bdr:P3481 , bdr:P3482 , bdr:P3483 , bdr:P3495 , bdr:P35 , bdr:P3600 , bdr:P4174 , bdr:P432 , bdr:P4340 , bdr:P4341 , bdr:P4636 , bdr:P4762 , bdr:P483 , bdr:P4933 , bdr:P5285 , bdr:P55 , bdr:P56 , bdr:P58 , bdr:P65 , bdr:P7758 , bdr:P80 , bdr:P8LS12001 , bdr:P9235 , bdr:P9727 , bdr:P993 ;
+   tmp:associatedCentury  14 , 15 ;
+   tmp:entityScore  10702 ;
+   owl:sameAs    <http://api.treasuryoflives.org/resource/TOLP8986> , viaf:1193151247978844270006 , viaf:65296968 , wd:Q323439 .
+

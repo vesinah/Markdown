@@ -1,0 +1,649 @@
+--- Page 1 ---
+5202
+nuJ
+52
+]VC.sc[
+1v62302.6052:viXra
+From Codicology to Code: A Comparative Study of
+Transformer and YOLO-based Detectors for Layout Analysis in
+Historical Documents
+Sergio Torres Aguilar
+University of Luxembourg
+Abstract
+Robust Document Layout Analysis (DLA) is critical for the automated processing and
+understanding of historical documents with complex page organizations. This paper bench-
+marks five state-of-the-art object detection architectures on three annotated datasets repre-
+senting a spectrum of codicological complexity: The e-NDP, a corpus of Parisian medieval
+registers (1326-1504); CATMuS, a diverse multiclass dataset derived from various medieval
+and modern sources (ca.12th-17th centuries) and HORAE, a corpus of decorated books
+of hours (ca.13th-16th centuries). We evaluate two Transformer-based models (Co-DETR,
+Grounding DINO) against three YOLO variants (AABB, OBB, and YOLO-World). Our
+findings reveal significant performance variations dependent on model architecture, data
+set characteristics, and bounding box representation. In the e-NDP dataset, Co-DETR
+achieves state-of-the-art results (0.752 mAP@.50:.95), closely followed by YOLOv11X-OBB
+(0.721). Conversely, on the more complex CATMuS and HORAE datasets, the CNN-based
+YOLOv11x-OBB significantly outperforms all other models (0.564 and 0.568, respectively).
+This study unequivocally demonstrates that using Oriented Bounding Boxes (OBB) is not a
+minor refinement but a fundamental requirement for accurately modeling the non-Cartesian
+nature of historical manuscripts. We conclude that a key trade-off exists between the global
+context awareness of Transformers, ideal for structured layouts, and the superior generaliza-
+tion of CNN-OBB models for visually diverse and complex documents.
+1 Introduction
+Historical documents are invaluable repositories of human history and knowledge. Unlocking
+theircontentsatscalerequiressophisticatedautomatedmethods,amongwhichDocumentLayout
+Analysis(DLA)playsapivotalrole[1]. DLAinvolvesidentifyingandlocalizingdistinctstructural
+regions within a document page, such as text blocks, marginalia, page numbers, decorations, and
+signatures. This task is particularly challenging for manuscripts due to their inherent variability
+in script, layout conventions, page degradation, variable, and evolutive formats [13] as well as
+in early prints which normally follow manuscript layouts and graphic styles. Accurate DLA is a
+prerequisite for subsequent tasks such as optical character recognition (OCR), handwritten text
+recognition (HTR), and content-based information retrieval in order to well establish different
+page units and transcribe and interpret content following their internal logic.
+AlthoughtraditionalDLAmethodsreliedonrule-basedsystemsorclassicalimageprocessing,
+deep learning has become the dominant paradigm. Object detection techniques, initially devel-
+oped for natural or medical images, have been successfully adapted for DLA. Early deep learning
+approaches often employed two-stage detectors like Faster R-CNN [20]. More recently, efficient
+single-stage detectors, particularly the You Only Look Once (YOLO) family, whose 11 version
+is used in this paper, [19], have gained prominence because of their speed-accuracy trade-off.
+Transformer architectures are increasingly applied to vision tasks. End-to-end detectors like
+DINO [25] and Co-DETR [29] eliminate the need for hand-crafted components such as Non-
+Maximum Suppression (NMS) and offer strong performance, leading the board on mAP for
+1
+
+--- Page 2 ---
+vast datasets like COCO [11] and Objects365 [21]. Moreover, Vision-Language Models (VLMs)
+trained on large-scale image-text pairs have opened new possibilities. Grounding DINO [12]
+and hybrid methods like YOLO-World [4] integrate language understanding for open-vocabulary
+detection, enabling object specification via text prompts.
+Given this diverse landscape of high-performance models, selecting the optimal architecture
+for DLA for specific historical document types remains an open question. This paper aims to
+bridge this gap through a rigorous comparison of five representative modern object detection
+models fine-tuned on three distinct historical manuscript datasets. We evaluate:
+• GroundingDINO(GD):AnVLMwithstronggroundingcapabilities(openvocabulary).
+• Co-DETR: Advanced end-to-end Transformer detector.
+• YOLOv11x (AABB): Efficient CNN detectors with axis-aligned outputs.
+• YOLOv11x (OBB): Efficient CNN detectors adapted for oriented outputs, which are
+hypothesized to be beneficial for skewed document elements.
+• YOLO-Worldx8x(YOLOW):Hybridarchitecturesaimedatreal-time(openvocabulary
+detection).
+We analyze their performance on the relatively homogeneous e-NDP dataset and the more
+diverse CATMuS and HORAE datasets. Our contributions include: (1) benchmarking SOTA
+models on specific historical DLA tasks, (2) quantifying the impact of using Oriented Bounding
+Boxes(OBB)forYOLOmodelsinthisdomain,(3)designingandvalidatingadataharmonization
+methodology based on a hierarchical, codicologically-informed ontology, and using it to train a
+robust foundational model (‘YOLO-gen‘), and (4) discussing the strengths and weaknesses of
+differentarchitecturalparadigmsbasedonempiricalresultsacrossdatasetsofvaryingcomplexity.
+2 Related Work
+Document Layout Analysis has been a long-standing challenge in document image processing.
+Early methods relied on rule-based systems [16] or projection profiles [17], often effective for
+structured documents but brittle for historical manuscripts. Machine learning approaches using
+hand-crafted features and decision trees followed [8].
+Deep learning revolutionized DLA. Convolutional neural networks (CNNs) have formed the
+backbone of many successful models. Two-stage detectors such as Faster R-CNN [20], sometimes
+adapted specifically for documents [14], provide robust baseline performance. Single-stage detec-
+tors, particularly YOLO variants [19], offer faster alternatives, crucial for large-scale processing,
+although sometimes at the cost of accuracy on complex layouts [7].
+The advent of Transformers led to end-to-end object detectors such as DETR [3], which
+eliminated the need for anchors and NMS. Subsequent improvements like Deformable DETR
+[28], DINO [25], and Co-DETR [29] further enhanced performance and efficiency. Co-DETR,
+specifically, introduces cooperative training between the detection head and auxiliary heads to
+improve feature learning. These models have shown promise for DLA tasks that require an
+understanding of the global context [9].
+Simultaneously, Vision-Language Models (VLMs) pre-trained on large image-text corpora
+emerged. Models like CLIP [18] provided powerful image representations aligned with text.
+Subsequent works such as GLIP [10] and Grounding DINO [12] extended this to open-set ob-
+ject detection, allowing detection based on free-text prompts. Their ability to leverage semantic
+understanding makes them attractive for DLA where elements are often defined semantically.
+YOLO-World [4] attempts to merge the efficiency of YOLO with these open-vocabulary capabil-
+ities. Florence-2[24]representsanotherpowerfulVLMdesignedformulti-taskvisioncapabilities
+via sequence-to-sequence learning using specific task prompts and quantized location tokens.
+2
+
+--- Page 3 ---
+A specific challenge in DLA, particularly for historical documents and text detection, is
+handling non-axis-aligned elements. This has led to the development of orientation bounding
+box (OBB) detection methods [23]. Frameworks like MMRotate [27] provide tools and models
+specifically for this purpose, adapting architectures like Faster R-CNN and RetinaNet. YOLO
+modelshavealsoseenOBBadaptations[22],astestedinthiswork. RecentworkslikeDocLayout-
+YOLO [26] also highlight optimizations for DLA within the YOLO paradigm.
+Our work contributes by directly comparing leading fine-tunable models from these differ-
+ent paradigms (CNN-AABB, CNN-OBB, Transformer-DETR, Transformer-VLM, Hybrid-VL-
+YOLO) on the specific domain of medieval and modern manuscript DLA across three datasets,
+providing valuable empirical benchmarks for practitioners.
+3 Datasets and Experimental Setup
+3.1 Datasets
+We utilized three distinct datasets for fine-tuning and evaluation:
+3.1.1 e-NDP Dataset
+DerivedfromtheElectronicNotre-DamedeParisproject[5], thisdatasetconsistsofimagesfrom
+26 medieval registers of the Parisian Chapter’s deliberations (1326-1504). The layout exhibits a
+relatively structured evolution over time. There are five different annotated key semantic classes
+without overlapping. These classes were identified as relevant in previous work [5]:
+• Page Number: Roman or Arabic numerals, typically in corners.
+• Columnar Name List: Vertical names lists of meeting assistants.
+• Primary Text Region: Blocks of main text (meeting conclusions).
+• Marginal Index Notes: Notes/entries in margins related to the main text.
+• Date Line: Lines containing the date, often preceding the main text.
+Original annotations were polygon-based PAGE XML. These were converted into COCO AABB
+and YOLO OBB formats. The data set was divided 90% / 10% for the trainval / test, resulting
+in a test set of 37 images with 275 instances. See Table 2
+3.1.2 CATMuS Dataset
+Sourced from the Hugging Face dataset ‘CATMuS/medieval-segmentation‘ [6], which contains
+diverse annotations from various medieval manuscripts (administrative, literary, early printed).
+To create a data set focused on region-level detection, we applied the following pre-processing:
+1. Line-level annotations were excluded.
+2. Only categories that appeared 1 or more times on the test split were retained.
+3. This filtering resulted in the following 9 valid region categories used in this study:
+• DropCapitalZone: Zone containing a large ornamental initial letter.
+• GraphicZone: Zone with non-textual elements (images, drawings, decorations).
+• MainZone: The main textual body zone of a page.
+• MarginTextZone: Text zone in the margin (annotations, commentary, etc.).
+• NumberingZone: Zone containing page, folio, or other numbering.
+• QuireMarksZone: Zone containing quire or gathering marks.
+3
+
+--- Page 4 ---
+Figure 1: Three annotated pages from the HORAE (pray book), e-NDP (registers) and CATmUS
+(litterature) datasets respectively.
+• RunningTitleZone: Zone containing a running title (typically top of the page).
+• StampZone: Zone containing a stamp (library, ownership, etc.).
+• RunningTitleZone: Running title at the top of the page.
+4. The raw category names (e.g., ‘DropCapitalZone‘) were mapped to descriptive phrases
+(e.g., "ornate drop capital letter zone") for use in VLM training configurations and output
+metadata, controlled by a script flag.
+3.1.3 HORAE Dataset
+This dataset was created as part of the HORAE project [2]. It is composed of pages from
+Books of Hours, best-selling personal prayer books in the late Middle Ages, known for their
+lavish illustrations. They represent a significant DLA challenge due to complex layouts featuring
+intricate borders, miniatures, and a wide variety of initials. We focus on 8 distinct layout classes
+that include decorative and structural elements.
+• Decorated Border: Margins filled with ornamental vine work or geometric patterns.
+• Illustrated Border: Margins containing identifiable figures, scenes, or objects.
+• Miniature: A full-page or large-scale illustration depicting a narrative scene.
+• Decorated Initial: An enlarged initial letter with non-figurative ornamentation.
+• Historiated Initial: An enlarged initial letter containing an identifiable scene or figure.
+• Line Filler: A decorative element filling the end of a line of text.
+• Simple Initial: A simple colored or larger initial letter without significant decoration.
+• Border Text: Text written within the marginal space, often as captions or glosses.
+3.2 Experimental Setups
+For this comparative study the data sets were processed into standard COCO AABB format for
+models requiring axis-aligned bounding boxes and the YOLO OBB format (using minimum area
+rectangles derived from source polygons) for the oriented bounding box detector. A 90%/10%
+split was used to create trainval/test sets. The key characteristics are summarized in Table 1.
+4
+
+--- Page 5 ---
+Table 1: Summary of the Datasets Used for Fine-tuning and Evaluation.
+Feature e-NDP CATMuS HORAE
+Original Source ‘e-NDP‘ (Zenodo) ‘CATMuS‘ (HF) ‘HORAE‘ (Github)
+Document Types Administrative Registers Diverse (Admin., Lit., Prints) Books of Hours (Devotional)
+Layout Type Relatively Homogeneous Moderately Diverse Visually Rich & Complex
+Annotation Source PAGE XML Polygons COCO format PAGE XML Polygons
+Preprocessing 5 types to Classes Classes from test set Classes with instances
+Classes Used 5 9 8
+Trainval Images 327 1525 418
+Test Images 37 158 45
+Test Instances 275 733 558
+Output Formats COCOAABB,YOLOOBB COCOAABB,YOLOOBB COCOAABB,YOLOOBB
+The specific layout categories targeted in each dataset differ due to their origins and the
+absence of a community-defined ontology. However, despite different naming conventions, sev-
+eral classes represent similar layout concepts (e.g., main text block, page number, capitals and
+marginalia) as they are in general inspired on the codicological vocabulary from Muzerelle [15].
+Table 2: Class instance counts in the test sets for the e-NDP, CATMuS, and HORAE datasets.
+e-NDP (Total: 275) CATMuS (Total: 733) HORAE (Total: 558)
+Class Count Class Count Class Count
+Primary Text Region 91 MainZone 275 Decorated Initial 282
+Page Number 57 MarginTextZone 199 Line Filler 112
+Date Line 54 DropCapitalZone 124 Decorated Border 77
+Columnar Name List 48 NumberingZone 94 Simple Initial 57
+Marginal Index Notes 25 RunningTitleZone 18 Miniature 15
+GraphicZone 10 Illustrated Border 10
+QuireMarksZone 8 Border Text 4
+StampZone 4 Historiated Initial 1
+TitlePageZone 1
+3.3 Models Compared
+We evaluated five distinct model families, selecting representative variants and using publicly
+available pre-trained weights where possible. A summary is provided in Table 3.
+Table 3: Summary of Compared Object Detection Models
+Full Name Architecture Key Components Pre-training Input Par (M)
+Grounding DINO VLM-Transformer Swin-T + BERT Obj365/GoldG AABB 172
+YOLOv11x CNN (1-Stage) CNN + C3k2/C2PSA COCO AABB 57
+YOLOv11x-obb CNN (1-Stage) YOLO + OBB Head COCO OBB 57
+YOLOv8x-world VL-YOLO YOLO + CLIP Obj365/GoldG AABB 110
+Co-DETR DETR-Variant CNN + Swin-L COCO/Obj365 AABB 218
+5
+
+--- Page 6 ---
+3.4 Cross-Corpus Training: The YOLO-gen Foundational Model
+To move beyond single-corpus benchmarks, our final experiment addresses a core challenge in
+applying machine learning to historical documents: the lack of standardized annotation ontolo-
+gies. Datasets like e-NDP, CATMuS, and HORAE, while invaluable, use particularized class
+schemes that are not directly interoperable. This experiment, therefore, tests a methodology for
+harmonizing these disparate datasets by creating a unified, hierarchical model.
+The cornerstone of this approach is a codicologically-informed reclassification of the three
+source ontologies. While the specific tags in each corpus are distinct, they often refer to com-
+mon, fundamental codicological elements. We created a unified ontology to capture this shared
+vocabulary, establishing high-level parent categories from scholarly concepts (Text, Paratext,
+Initials, etc.) and mapping original tags as subclasses within this structure. This provides a
+coherent framework for low-conflict training.
+The resulting ontology, visualized in Figure 2, was built upon three key principles:
+1. Hierarchical Structure: Insteadofaflatlistofclasses,wedefinedamulti-levelhierarchy
+with parent, intermediate, and subclass categories to represent the relationships between
+layout elements.
+2. Multi-Label Training: Each annotated object was assigned multiple labels correspond-
+ing to its full path in the hierarchy. For instance, a simple initial from the HORAE dataset
+was tagged as Initial (Level 1 parent), Initial_Manuscript (Level 2 intermediate par-
+ent), and Initial_Ms_Simple (Level 3 subclass). This provides a richer training signal.
+3. Semantic and Visual Coherence: The ontology was iteratively refined to balance func-
+tional groupings (e.g., creating a Paratext class for non-primary text) with visual distinc-
+tions (e.g., separating Initial_Manuscript from Initial_Printed) to aid the model’s
+learning process.
+The best model trained on this dataset, which we term YOLO-gen, was hypothesized to
+develop a robust comprehension of the abstract parent categories, even if its performance on
+specific subclasses might not surpass that of the specialized models. This would validate YOLO-
+gen as a strong baseline for future research projects requiring codicological segmentation.
+The performance of this unified model is compared against the specialist models in the
+following sections. Table 4 shows the performance of our YOLO-gen model on the abstract
+parent classes, a task that the specialist models cannot perform.
+Table4: PerformanceoftheYOLO-gen11x-OBBmodelontheabstractparentandintermediate
+classes, evaluated on the combined test set.
+Parent/Intermediate Class mAP@.50:.95 mAP@.50 Precision Recall
+Text 0.675 0.861 0.749 0.861
+Decoration 0.629 0.839 0.712 0.902
+Initial (Universal) 0.662 0.880 0.748 0.878
+Marks 0.665 0.821 0.643 0.900
+Numbering 0.422 0.776 0.611 0.820
+Paratext (Intermediate) 0.461 0.674 0.643 0.658
+Initial_Manuscript (Inter.) 0.416 0.519 0.801 0.225
+Initial_Printed (Inter.) 0.477 0.720 0.755 0.597
+Average 0.551 0.761 0.701 0.730
+6
+
+--- Page 7 ---
+Figure 2: Hierarchical structure for YOLO-gen merging the three corpus annotations. The
+coloredinitialsindicatetheoriginalcorpusforeachclass: (e-NDP), (CATMuS), (HORAE).
+E C H
+Damage_Scan C
+Damage
+Damage_Generic C
+Marks_Seal C
+Marks Marks_Stamp C
+Marks_Quire C
+,
+Numbering Numbering_Page E C
+Initial_Printed Initial_P_DropCapital C
+Unified Initial Initial_Ms_Historiated H
+Ontology
+Initial_Manuscript Initial_Ms_Decorated H
+Deco_LineFiller Initial_Ms_Simple H
+H
+Deco_Graphic C
+Decoration
+Deco_Miniature H
+Paratext_DateLine E
+Deco_Border H
+Paratext_List E
+Paratext
+Text Paratext_Header C
+Text_Main
+, ,
+, Paratext_Marginal E C H
+E C
+3.5 Fine-tuning and Evaluation
+Each model was independently fine-tuned on the ’trainval’ split of each data set for each corpus
+typology (AABB or OBB) and evaluated on the corresponding ’test’ split. We report the re-
+sults from the checkpoint that yielded the best mAP@.5:.95 on the test set. MMDetection and
+Ultralyticsframeworkswereused,enablingstandardhyperarameters. Theevaluationstrictlyfol-
+lowed the standard COCO bounding box evaluation protocol using mAP@0.50:0.95 (mAP) and
+mAP@0.50 (mAP50), calculated overall and per class. All models were trained for a minimum
+of 100 epochs with a consistent image size of 640x640 using a Cosine scheduler.
+4 Results
+4.1 Results on e-NDP Dataset (5 Classes)
+Table 5 summarizes the overall performance metrics for all five models in the e-NDP test set.
+Tables 6 and 7 provide the breakdown per category.
+In the relatively homogeneous e-NDP dataset, the Transformer-based data set Co-DETR
+stands out, achieving the highest overall mAP50:95 (0.752) and mAP50 (0.979), as well as the
+bestAP75(0.838). Italsoleadsinperformancefornearlyallindividualcategories. YOLOv11l-
+OBB and Grounding DINO closely follow with high mAP scores (0.721 and 0.718 respec-
+tively), significantly outperforming YOLOv11l-AABB (0.633) and YOLO-World (0.576). This
+highlightstheeffectivenessofbothadvancedTransformerarchitecturesandOBB-enhancedCNNs
+for this specific structured layout task. YOLOv11l-OBB notably achieves the highest Recall.
+7
+
+--- Page 8 ---
+Table 5: Overall Performance Comparison on e-NDP Dataset (5 Classes)
+Model / mAP mAP Recall Precision Speed
+Epochs @.50:.95 (↑) @.50 (↑) (AR/R) (↑) (P) (↑) (im/
+ms
+)† (↓)
+Grounding DINO (ep22) 0.718 0.954 0.812 (AR) N/A ≈102.14
+YOLOv11x-AABB (ep67) 0.633 0.893 0.836 (R) 0.861 ≈7.4
+YOLOv11x-OBB (ep88) 0.721 0.941 0.892 (R) 0.902 ≈11.1
+YOLO-World x (ep70) 0.576 0.880 0.805 (R) 0.830 ≈12.6
+Co-DETR (ep14) 0.752 0.979 0.810 (AR) N/A ≈140.0
+YOLO-gen 11x-OBB (ep88) 0.673 0.892 0.836 (Avg) 0.863 (Avg) ≈14.4
+†InferencetimesestimatedonNVIDIAA6000(BatchSize=1). AR/RindicatesAverageRecall(MMDet)orRecall
+(Ultralytics).
+Table 6: Per-Class mAP@0.50:0.95 Comparison on e-NDP Dataset (5 Classes)
+Models / Grounding YOLO YOLO YOLO Co-DINO YOLO-gen
+Category DINO 11x-AABB 11x-OBB Worldx (v2) (co-DETR) 11x-OBB
+Page Number 0.469 0.390 0.605 0.377 0.537 0.530
+Col. Name List 0.827 0.774 0.828 0.751 0.850 0.828
+Primary Text 0.850 0.724 0.749 0.695 0.862 0.719
+Marginal Notes 0.722 0.643 0.732 0.544 0.762 0.647
+Date Line 0.724 0.632 0.689 0.511 0.749 0.642
+Table 7: Per-Class mAP@0.50 Comparison on e-NDP Dataset (5 Classes)
+Models / Grounding YOLO YOLO YOLO Co-DINO YOLO-gen
+Category DINO 11x-AABB 11x-OBB Worldx (v2) (co-DETR) 11x-OBB
+Page Number 0.946 0.849 0.925 0.815 0.959 0.855
+Col. Name List 0.998 0.941 0.967 0.946 0.998 0.937
+Primary Text 0.957 0.890 0.935 0.884 0.966 0.908
+Marginal Notes 0.885 0.866 0.943 0.820 0.988 0.849
+Date Line 0.983 0.920 0.936 0.934 0.985 0.912
+4.2 Results on CATMuS Dataset (Filtered - 9 Classes)
+Performance in the more diverse, filtered CATMuS dataset is summarized in Table 8. The
+per-class results for the common categories evaluated are in Tables 9 and 10.
+On the more challenging and diverse CATMuS dataset, the ranking changes. YOLOv11x-
+OBB (0.564 mAP) emerges as the clear leader, significantly outperforming other models in
+the primary mAP metric and also achieving the highest mAP50:95. Co-DETR (0.492) secures
+the second position, demonstrating strong localization with the best AP75 (0.451). Grounding
+DINO (0.452) and YOLO-World (0.425) show a considerable drop compared to the e-NDP
+dataset and rank third and fourth, respectively. YOLOv11x-AABB (0.360) remains the least
+effective. Per-classresultsconfirmYOLO-OBB’sbroadereffectiveness, leadingin5outof9com-
+mon categories, particularly those benefiting from orientation modeling like DropCapitalZone,
+NumberingZone, and QuireMarksZone. Co-DETR excels at MainZone and TitlePageZone, while
+Grounding DINO leads in GraphicZone and StampZone.
+8
+
+--- Page 9 ---
+Table 8: Overall Performance Comparison on CATMuS Dataset (Filtered - 9 Classes)
+Model / mAP mAP Recall Precision Speed
+Epochs @.50:.95 (↑) @.50 (↑) (AR/R) (↑) (P) (↑) (im/
+ms
+) (↓)
+Grounding DINO (ep30) 0.452 0.706 0.622 (AR) N/A ≈111.2
+YOLOv11x-AABB (ep76) 0.425 0.631 0.544 (R) 0.607 ≈7.5
+YOLOv11x-OBB (ep91) 0.564 0.740 0.663 (R) 0.718 ≈11.2
+YOLO-World x (ep67) 0.425 0.682 0.631 (R) 0.619 ≈12.6
+Co-DETR (ep16) 0.492 0.737 0.643 (AR) N/A ≈147.1
+YOLO-gen 11x-OBB (ep88) 0.560 0.735 0.698 (R) 0.640 ≈13.8
+Table 9: Per-Class mAP@0.50:0.95 Comparison on CATMuS Dataset (Common 9 Classes)
+Models / Grounding YOLO YOLO YOLO Co-DINO YOLO-gen
+Category DINO 11x-AABB 11x-OBB Worldx (v2) (co-DETR) 11x-OBB
+DropCapitalZone 0.339 0.291 0.494 0.340 0.348 0.485
+GraphicZone 0.750 0.547 0.709 0.739 0.695 0.622
+MainZone 0.861 0.846 0.861 0.859 0.868 0.840
+MarginTextZone 0.304 0.163 0.313 0.231 0.260 0.338
+NumberingZone 0.145 0.102 0.349 0.121 0.158 0.215
+QuireMarksZone 0.483 0.394 0.709 0.348 0.501 0.752
+RunningTitleZone 0.129 0.089 0.175 0.067 0.120 0.115
+StampZone 0.606 0.499 0.573 0.424 0.575 0.864
+TitlePageZone 0.400 0.895 0.895 0.697 0.900 0.810
+Table 10: Per-Class mAP@0.50 Comparison on CATMuS Dataset (Common 9 Classes)
+Models / Grounding YOLO YOLO YOLO Co-DINO YOLO-gen
+Category DINO 11x-AABB 11x-OBB Worldx (v2) (co-DETR) 11x-OBB
+DropCapitalZone 0.617 0.556 0.693 0.682 0.645 0.730
+GraphicZone 0.815 0.694 0.803 0.803 0.769 0.677
+MainZone 0.953 0.951 0.949 0.951 0.953 0.931
+MarginTextZone 0.637 0.351 0.544 0.500 0.573 0.576
+NumberingZone 0.500 0.339 0.733 0.394 0.551 0.503
+QuireMarksZone 0.945 0.731 0.955 0.895 0.950 0.971
+RunningTitleZone 0.339 0.272 0.287 0.220 0.301 0.249
+StampZone 0.851 0.787 0.702 0.702 0.894 0.995
+TitlePageZone 0.500 0.995 0.995 0.995 1.000 1.000
+4.3 Results on HORAE Dataset (8 Classes)
+OnthevisuallycomplexHORAEdataset(Table11),thetrendobservedinCATMuSisconfirmed
+andamplifiedonthemAP50:95metric. YOLOv11x-OBB (0.568)isagainthetop-performing
+model. Co-DETR (0.523) and Grounding DINO (0.511 ) follow at a distance, while
+YOLOv11x-AABB (0.458) is less effective. Per-class results (Tables 12 and 13) show YOLO-
+OBB’s strength in detecting distinct decorative elements like miniatures and initials.
+9
+
+--- Page 10 ---
+Table 11: Overall Performance Comparison on HORAE Dataset (8 Classes)
+Model / mAP mAP Recall Precision Speed
+Epochs @.50:.95 (↑) @.50 (↑) (AR/R) (↑) (P) (↑) (im/
+ms
+) (↓)
+Grounding DINO (ep11) 0.511 0.703 0.615 (AR) N/A ≈115.0
+YOLOv11x-AABB (epXX) 0.458 0.665 0.600 (R) 0.646 ≈6.9
+YOLOv11x-OBB (epXX) 0.568 0.737 0.597 (R) 0.736 ≈11.5
+YOLO-World x (epXX)∗ 0.415 0.655 0.610 (R) 0.602 ≈12.9
+Co-DETR (ep11) 0.523 0.735 0.640 (AR) N/A ≈150.0
+YOLO-gen 11x-OBB (ep88) 0.505 0.650 0.666 (R) 0.706 ≈12.8
+†Inference times (ms/im) on NVIDIA A6000.
+Table 12: Per-Class mAP@.50:.95 Comparison on HORAE Dataset
+Models / Grounding YOLO YOLO YOLO Co-DINO YOLO-gen
+Category DINO 11x-AABB 11x-OBB Worldx (v2) (co-DETR) 11x-OBB
+Decorated Border 0.589 0.481 0.596 0.420 0.556 0.550
+Illustrated Border 0.201 0.106 0.244 0.150 0.127 0.168
+Miniature 0.932 0.797 0.920 0.750 0.839 0.840
+Decorated Initial 0.552 0.556 0.755 0.450 0.520 0.514
+Historiated Initial 0.900 0.895 0.900 0.850 0.895 0.895
+Line Filler 0.580 0.522 0.666 0.480 0.566 0.593
+Simple Initial 0.331 0.286 0.429 0.310 0.354 0.268
+Border Text 0.001 0.017 0.206 0.100 0.151 0.214
+Table 13: Per-Class mAP@.50 Comparison on HORAE Dataset
+Models / Grounding YOLO YOLO YOLO Co-DINO YOLO-gen
+Category DINO 11x-AABB 11x-OBB Worldx (v2) (co-DETR) 11x-OBB
+Decorated Border 0.750 0.644 0.817 0.650 0.721 0.755
+Illustrated Border 0.359 0.240 0.428 0.280 0.307 0.251
+Miniature 1.000 0.953 0.965 0.910 0.958 0.878
+Decorated Initial 0.904 0.937 0.967 0.700 0.890 0.728
+Historiated Initial 1.000 0.995 1.000 0.990 0.995 0.995
+Line Filler 0.980 0.965 0.949 0.720 0.964 0.888
+Simple Initial 0.629 0.543 0.629 0.550 0.659 0.410
+Border Text 0.003 0.042 0.257 0.150 0.263 0.291
+5 Discussion
+The empirical results reveal a complex interplay between model architecture, dataset character-
+istics, and the underlying nature of the historical documents. Our findings indicate that model
+performance is highly contingent on the codicological complexity of the source material (See
+figure 3), moving the discussion beyond simple metrics towards an evaluation of architectural
+suitability for specific historical contexts.
+Dataset-Contingent Performance and Architectural Strengths: The performance
+hierarchy of the tested models shifted significantly across the three corpora, demonstrating a
+clear sensitivity to data characteristics.
+10
+
+--- Page 11 ---
+• On the e-NDP dataset, characterized by its functional, evolutive but highly structured
+mise-en-page, Transformer-based models excelled. Co-DETR achieved the highest mAP
+(0.752), likely because its global attention mechanism is adept at learning the stable, long-
+range spatial relationships inherent in these administrative registers.
+• Conversely, on the more diverse CATMuS and the visually complex HORAE datasets,
+the advantage shifted to YOLOv11x-OBB. As intra-class visual variance and layout
+complexityincreased,thestronginductivebiasofYOLO’sconvolutionallayers,whichexcel
+atidentifyinglocalfeatures,provedmoreresilientthantheglobalapproachofTransformers.
+This suggests that while Transformers may be superior for learning predictable structures,
+robust CNNs are better at generalizing across the high artistic and scribal variance found
+in more heterogeneous or ornate manuscript collections.
+The Codicological Imperative for Oriented Bounding Boxes (OBB): The experi-
+ments unequivocally demonstrate that using Oriented Bounding Boxes is not a minor refinement
+but a fundamental necessity for accurate DLA in this domain. Across datasets, the OBB variant
+of YOLO vastly outperformed its axis-aligned counterpart (e.g., a 0.564 mAP for YOLOv11x-
+OBB versus 0.360 for YOLOv11x-AABB on CATMuS). This technical superiority is a direct
+consequence of the physical and diplomatic reality of manuscripts. An AABB imposes a mod-
+ern, Cartesian logic onto a non-Cartesian object, failing to account for:
+1. Material Reality: Parchment warps and cockles over time, and bindings introduce page
+curvature, meaning even intentionally straight lines are rarely perfectly axis-aligned.
+2. Diplomatic Reality: Scribes wrote at a natural angle, and decorative elements like vine-
+stem borders were designed with organic curves.
+An AABB, by definition, must encompass the outermost points of a skewed or curved element,
+thereby including large areas of background or overlapping with adjacent,unrelated elements.
+This introduces significant label noise during training and severe localization errors during in-
+ference. The OBB approach provides a far more faithful geometric representation, leading to
+superior localization and classification accuracy.
+Architectural Trade-offs and Research Implications: The choice of architecture has
+practical implications that transcend mAP scores.
+• Transformers (Co-DETR, Grounding DINO): These models offer a more holistic
+page understanding, making them suitable for tasks where global context is key. However,
+their data hungriness and slower inference make them a costly choice for massive-scale pro-
+cessing. Their performance degradation on complex datasets suggests a trade-off between
+contextual understanding and generalization robustness.
+• Vision-Language Models (Grounding DINO, YOLO-World): While their fine-
+tuningperformancewasmoderate,theirprimaryvalueliesinthepotentialforfew-shotand
+open-vocabulary detection. This enables a researcher to query for arbitrary, semantically-
+defined elements (e.g., ’manicules’ or specific iconographic motifs) without model retrain-
+ing, a paradigm-shifting capability for exploratory analysis. Their weaker performance
+in this closed-set benchmark suggests a trade-off : the generalized semantic knowledge
+struggles when forced to discriminate between visually similar, pre-defined classes (e.g.,
+‘Decorated Initial‘ vs. ‘Historiated Initial‘), where purely visual models excel.
+• CNN-OBB (YOLOv11x-OBB): This architecture represents the most pragmatic tool
+for our specific task of high-accuracy, closed-set detection at scale. It is fast, robust, and
+its architectural priors (local convolutions + oriented detection head) are well-suited to the
+visual reality of manuscripts. Its main limitation is its semantic ignorance; it is a powerful
+pattern-matcher that requires a complete, new training cycle for any new set of layout
+classes.
+11
+
+--- Page 12 ---
+Figure 3: Visual complexity profile based on Aspect Ratio (longer side / shorter side) on a logarithmic
+scale. Each class is represented by its mean, and its 25th/75th percentiles. The spread between points
+indicates the shape variability, confirming the higher heterogeneity of HORAE and CATMuS classes.
+• The Foundational Model (YOLO-gen): Our final unified model represents a new
+paradigm. By training on a harmonized, hierarchical dataset, it trades peak specialization
+for cross-domain versatility. While it may not achieve the absolute highest mAP on every
+specific subclass, its performance is highly competitive across all corpora. Crucially, its
+unique ability to detect abstract parent classes (Table 4) with high Precision and Recall
+(>70%) validates it as a powerful foundational tool, ideal as a starting point for new DLA
+projects.
+Limitations and Future Directions: This study has limitations that open avenues for
+future work. Our experiments used specific model variants; larger backbones or more exhaustive
+hyperparameter tuning, or different historical corpora might alter the results.
+A crucial issue, evident in Table 2, is the severe class imbalance inherent in all corpora.
+Every dataset contains “majority” classes (e.g., ‘MainZone‘) and “long-tail” classes with very
+few instances (e.g., ‘TitlePageZone‘ ‘Historiated Initial‘). This biases models towards common
+classes and can lead to poor performance on rare categories that are often of great scholarly
+interest. Future work should explore methods to mitigate this, such as cost-sensitive learning,
+data augmentation strategies for rare classes, or few-shot learning approaches.
+Furthermore, our evaluation relied on bounding box metrics (Box mAP); extending the anal-
+ysistosegmentationquality(MaskmAP)wouldprovidedeeperinsights,especiallyforirregularly
+shaped decorative elements and for comparing against instance segmentation models like Mask
+R-CNN or multi-modal systems like Florence-2.
+6 Conclusion
+Our benchmark of state-of-the-art object detectors across three distinct manuscript corpora
+confirmsthattheoptimalarchitectureishighlycontingentonthecodicologicalcomplexityofthe
+source material. While Transformer-based models like Co-DETR excel on structured layouts,
+12
+
+--- Page 13 ---
+specialized CNNs with Oriented Bounding Boxes, particularly YOLOv11x-OBB, are superior
+for visually diverse, single-domain datasets. This work also validates that modeling on Oriented
+Bounding Boxes (OBB) is a fundamental requirement for accurate layout analysis in historical
+documents, consistently outperforming axis-aligned methods by faithfully representing the non-
+Cartesian and artistic nature of manuscripts.
+Building upon these findings, one primary contribution of this research is the demonstration
+that data harmonization through a codicologically-informed, hierarchical ontology can produce
+a single, generalist model—YOLO-gen—with performance nearly on par with domain-specific
+specialists. This result challenges the prevailing notion that high performance requires nar-
+row specialization. It proves that it is possible to overcome the challenge of disparate, non-
+interoperable datasets, validating a methodology that creates robust, foundational models for
+codicological analysis.
+This study highlights a critical trade-off for practitioners: while emerging Vision-Language
+Modelsofferexcitingpossibilitiesforzero-shotquerying,theirperformanceiscurrentlysurpassed
+by specialized architectures. For large-scale, the combination of a fast CNN backbone and an
+OBBdetectionheadoffersthemosteffectiveandreliablesolutionatpresent. Futureworkshould
+focus on bridging this gap by integrating orientation-aware heads into VLMs and developing
+robuststrategiesforhandlinglong-tailclassdistributions. Thiswillprovideamoreholisticguide
+for scholars selecting computational tools to unlock the rich contents of our written heritage.
+7 Models and Datasets
+The datasets supporting this work are freely available on open repositories:
+e-NDP: https://doi.org/10.5281/zenodo.7575693
+CATMuS: https://huggingface.co/datasets/CATMuS/medieval-segmentation
+HORAE: https://github.com/oriflamms/HORAE
+YOLO-historical: https://huggingface.co/datasets/magistermilitum/YOLO_historical
+YOLO models:
+YOLO-gen : https://huggingface.co/magistermilitum/YOLO_manuscripts
+References
+[1] Ghayda M. Binmakhashen and Sabri A. Mahmoud. A survey of document layout analysis.
+In Journal of King Saud University - Computer and Information Sciences, volume 34, pages
+9337–9354, 2022.
+[2] Mélodie Boillet, M.Laurence Bonhomme, Dominique Stutzmann, and Christopher Kermor-
+vant. Horae: anannotateddatasetofbooksofhours. InProceedings of the 5th International
+Workshop on Historical Document Imaging and Processing (HIP ’19), pages 7–12, 2019.
+[3] NicolasCarion,FranciscoMassa,GabrielSynnaeve,NicolasUsunier,AlexanderKirillov,and
+Sergey Zagoruyko. End-to-end object detection with transformers. In European conference
+on computer vision, pages 213–229, 2020.
+[4] Tianheng Cheng, Lin Song, Yixiao Ge, Wenyu Liu, Xinggang Wang, and Ying Shan. Yolo-
+world: Real-time open-vocabulary object detection. In Proceedings of the IEEE/CVF Con-
+ference on Computer Vision and Pattern Recognition, pages 16901–16911, 2024.
+13
+
+--- Page 14 ---
+[5] JulieClaustre, DarwinSmith, SergioTorresAguilar, etal. Thee-ndpproject: collaborative
+digital edition of the chapter registers of notre-dame of paris (1326-1504). ground-truth for
+handwriting text recognition (htr) on late medieval manuscripts., February 2023.
+[6] Thibault Clérice, Ariane Pinche, Malamatenia Vlachou-Efstathiou, Alix Chagué, et al. Cat-
+mus medieval: A multilingual large-scale cross-century dataset in latin script for handwrit-
+ten text recognition and beyond. In International Conference on Document Analysis and
+Recognition, pages 174–194. Springer, 2024.
+[7] Tausif Diwan, G Anirudh, and Jitendra V Tembhurne. Object detection using yolo: Chal-
+lenges, architectural successors, datasets and applications. multimedia Tools and Applica-
+tions, 82(6):9243–9275, 2023.
+[8] JunghoImandJohnRJensen. Achangedetectionmodelbasedonneighborhoodcorrelation
+image analysis and decision tree classification. Remote Sensing of Environment, 99(3):326–
+340, 2005.
+[9] Junlong Li, Yiheng Xu, Tengchao Lv, Lei Cui, Cha Zhang, and Furu Wei. Dit: Self-
+supervised pre-training for document image transformer. In Proceedings of the 30th ACM
+international conference on multimedia, pages 3530–3539, 2022.
+[10] Liunian Harold Li, Pengchuan Zhang, Haotian Zhang, Jianwei Yang, Chunyuan Li, Yiwu
+Zhong, et al. Grounded language-image pre-training. In Proceedings of the IEEE/CVF
+conference on computer vision and pattern recognition, pages 10965–10975, 2022.
+[11] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan,
+Piotr Dollár, and C. Lawrence Zitnick. Microsoft coco: Common objects in context. In
+Computer vision–ECCV 2014: 13th European conference, zurich, Switzerland, September
+6-12, 2014, proceedings, part v 13, pages 740–755, 2014.
+[12] Shilong Liu, Zhaoyang Zeng, Tianhe Ren, Feng Li, Hao Zhang, Jie Yang, Qing Jiang,
+Chunyuan Li, Jianwei Yang, Hang Su, et al. Grounding dino: Marrying dino with grounded
+pre-training for open-set object detection. In European Conference on Computer Vision,
+pages 38–55. Springer, 2024.
+[13] Francesco Lombardi and Simone Marinai. Deep learning for historical document analysis
+and recognition—a survey. Journal of Imaging, 6(10):110, 2020.
+[14] Maad M Mijwil, Karan Aggarwal, Ruchi Doshi, Kamal Kant Hiran, and Murat Gök. The
+distinctionbetweenr-cnnandfastrcnninimageanalysis: aperformancecomparison. Asian
+Journal of Applied Sciences, 10(5), 2022.
+[15] Denis Muzerelle. Vocabulaire codicologique : répertoire méthodique des termes français re-
+latifs aux manuscrits. CEMI, 1985.
+[16] George Nagy. State of the art in pattern recognition. Proceedings of the IEEE, 56(5):836–
+863, 2005.
+[17] Lawrence O’Gorman and Rangachar Kasturi. Document image analysis, volume 39. IEEE
+Computer Society Press Los Alamitos, 1995.
+[18] Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, et al. Learning
+transferable visual models from natural language supervision. In Proceedings of the 38th
+International Conference on Machine Learning, pages 8748–8763, 2021.
+14
+
+--- Page 15 ---
+[19] Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi. You only look once:
+Unified, real-time object detection. In 2016 IEEE Conference on Computer Vision and
+Pattern Recognition (CVPR), pages 779–788, 2016.
+[20] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. Faster r-cnn: Towards real-
+time object detection with region proposal networks. In Advances in Neural Information
+Processing Systems 28 (NIPS 2015), pages 91–99, 2015.
+[21] ShuaiShao,ZemingLi,TianyuanZhang,ChaoPeng,GangYu,XiangyuZhang,JingLi,and
+JianSun.Objects365: Alarge-scale,high-qualitydatasetforobjectdetection.InProceedings
+of the IEEE/CVF international conference on computer vision, pages 8430–8439, 2019.
+[22] ZhongzhenSun,XiangguangLeng,YuLei,BoliXiong,KefengJi,andGangyaoKuang. Bifa-
+yolo: A novel yolo-based method for arbitrary-oriented ship detection in high-resolution sar
+images. Remote Sensing, 13(21):4209, 2021.
+[23] Long Wen, Yu Cheng, Yi Fang, and Xinyu Li. A comprehensive survey of oriented object
+detection in remote sensing images. Expert Systems with Applications, 224:119960, 2023.
+[24] Bin Xiao, Haiping Wu, Weijian Deng, Jianwei Yang, Zhe Chen, Can Cui, et al. Florence-
+2: Advancing a unified representation for a variety of vision tasks. In Proceedings of the
+IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4818–4829,
+2024.
+[25] HaoZhang,FengLi,ShilongLiu,LeiZhang,HangSu,JunZhu,RossGirshick,andKaiming
+He. Dino: Detr with improved denoising anchor boxes for end-to-end object detection. In
+arXiv preprint arXiv:2203.03605, 2022.
+[26] Zhiyuan Zhao, Yifei Chen, Yelin Li, Zhipeng Wang, Yuhang Zang, Jiaqiang Liu, and Sen
+Li. Doclayout-yolo: Enhancing document layout analysis through diverse synthetic data
+and global-to-local adaptive perception. arXiv preprint arXiv:2405.08018, 2024.
+[27] Yue Zhou, Xue Yang, Gefan Zhang, Jiabao Wang, Yanyi Liu, Liping Hou, et al. Mmrotate:
+A rotated object detection benchmark using pytorch. In Proceedings of the 30th ACM
+International Conference on Multimedia, pages 7420–7424, 2022.
+[28] XizhouZhu, WeijieSu, LeweiLu, BinLi, Xiaogang Wang, andJifengDai. Deformabledetr:
+Deformable transformers for end-to-end object detection. arXiv preprint arXiv:2010.04159,
+2021.
+[29] Zhuofan Zong, Guanglu Song, and Yu Liu. Detrs with collaborative hybrid assignments
+training. In Proceedings of the IEEE/CVF international conference on computer vision,
+pages 6748–6758, 2023.
+15

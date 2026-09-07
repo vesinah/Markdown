@@ -43,46 +43,87 @@ export const ViewRouter = {
   async openFile(node, opt = {}) {
     if (!node || node.kind !== 'file' || !isDoc(node.name)) return;
     try {
-      const hasPerm = await ensurePermission(node);
-      if (!hasPerm) {
-        alert('กรุณาอนุญาตการเข้าถึงโฟลเดอร์เพื่อเปิดอ่านไฟล์');
-        return;
+      if (!node.isRemote) {
+        const hasPerm = await ensurePermission(node);
+        if (!hasPerm) {
+          alert('กรุณาอนุญาตการเข้าถึงโฟลเดอร์เพื่อเปิดอ่านไฟล์');
+          return;
+        }
       }
 
-      const file = await node.handle.getFile();
       State.current = node;
       renderTreeCallback();
       if (_routerD && _routerD.fileCrumb) _routerD.fileCrumb.textContent = node.path;
 
       let fileText = '';
-      if (isPdf(node.name)) {
-        this.switchView('pdf');
-        await PDFViewer.load(file);
-        if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
-        setActiveDoc(null);
-        clearHighlights();
-      } else if (isImg(node.name)) {
-        this.switchView('img');
-        ImageViewer.render(file, node);
-        setActiveDoc(null);
-        clearHighlights();
-      } else if (isMd(node.name)) {
-        this.switchView('md');
-        fileText = await file.text();
-        await renderMarkdownContent(fileText, node, _routerD.mdContent, _routerD.tocPanel, _routerD.tocList);
-        if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
-        setActiveDoc(node, file);
-        await restoreHighlights();
+      let fileObj = null;
+
+      if (node.isRemote) {
+        const fetchUrl = encodeURI(node.url || ('docs/' + (node.relPath || node.path)));
+        fileObj = { name: node.name, size: node.size || 0, lastModified: node.mtime || Date.now() };
+
+        if (isPdf(node.name)) {
+          this.switchView('pdf');
+          await PDFViewer.load(fetchUrl);
+          if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
+          setActiveDoc(null);
+          clearHighlights();
+        } else if (isImg(node.name)) {
+          this.switchView('img');
+          ImageViewer.render({ name: node.name, size: node.size, isRemote: true, url: fetchUrl }, node);
+          setActiveDoc(null);
+          clearHighlights();
+        } else if (isMd(node.name)) {
+          this.switchView('md');
+          const resp = await fetch(fetchUrl);
+          if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${resp.statusText}`);
+          fileText = await resp.text();
+          await renderMarkdownContent(fileText, node, _routerD.mdContent, _routerD.tocPanel, _routerD.tocList);
+          if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
+          setActiveDoc(node, fileObj);
+          await restoreHighlights();
+        } else {
+          this.switchView('md');
+          const resp = await fetch(fetchUrl);
+          if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${resp.statusText}`);
+          fileText = await resp.text();
+          await renderCodeContent(fileText, node, _routerD.mdContent, _routerD.tocPanel, _routerD.tocList);
+          if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
+          setActiveDoc(node, fileObj);
+          await restoreHighlights();
+        }
       } else {
-        this.switchView('md');
-        fileText = await file.text();
-        await renderCodeContent(fileText, node, _routerD.mdContent, _routerD.tocPanel, _routerD.tocList);
-        if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
-        setActiveDoc(node, file);
-        await restoreHighlights();
+        const file = await node.handle.getFile();
+        fileObj = file;
+        if (isPdf(node.name)) {
+          this.switchView('pdf');
+          await PDFViewer.load(file);
+          if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
+          setActiveDoc(null);
+          clearHighlights();
+        } else if (isImg(node.name)) {
+          this.switchView('img');
+          ImageViewer.render(file, node);
+          setActiveDoc(null);
+          clearHighlights();
+        } else if (isMd(node.name)) {
+          this.switchView('md');
+          fileText = await file.text();
+          await renderMarkdownContent(fileText, node, _routerD.mdContent, _routerD.tocPanel, _routerD.tocList);
+          if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
+          setActiveDoc(node, file);
+          await restoreHighlights();
+        } else {
+          this.switchView('md');
+          fileText = await file.text();
+          await renderCodeContent(fileText, node, _routerD.mdContent, _routerD.tocPanel, _routerD.tocList);
+          if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
+          setActiveDoc(node, file);
+          await restoreHighlights();
+        }
       }
 
-      updateStatCallback(file);
+      updateStatCallback(fileObj);
       if (!opt.silent && _routerD && _routerD.mdScrollPane) _routerD.mdScrollPane.scrollTop = 0;
       await Store.set('lastFile', node.path);
       if (PetManager && PetManager.onDocumentOpened) PetManager.onDocumentOpened(node);
@@ -90,7 +131,7 @@ export const ViewRouter = {
         BookmarkPanel.refresh();
       }
 
-      State.emit('file:open', { node, file, fileText });
+      State.emit('file:open', { node, file: fileObj, fileText });
     } catch (err) {
       console.error('[router] openFile error:', err);
       alert('เปิดไฟล์ไม่สำเร็จ: ' + (err.message || err));

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jragung</title>
+                <respStmt>
+                    <resp key="contributor">EpiDoc Encoding</resp>
+                    <persName ref="part:argr">
+                      <forename>Arlo</forename>
+                      <surname>Griffiths</surname>
+                    </persName>
+                  </respStmt>
+                  <respStmt>
+                    <resp key="creator">intellectual authorship of edition</resp>
+                    <persName ref="part:argr">
+                      <forename>Arlo</forename>
+                      <surname>Griffiths</surname>
+                    </persName>
+                  </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                  <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                  <pubPlace>Jakarta</pubPlace>
+                  <idno type="filename">DHARMA_INSIDENKJragung.xml</idno>
+                  <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                            <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+        <revisionDesc>
+            <change status="draft" when="2024-09-08" who="part:argr">encoded the inscription</change>
+            </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn" rendition="class:38769 maturity:83213">
+            <p><lb n="1"/><unclear><g ref="sym:doubleBar" type="punctuation">.</g></unclear> O<unclear>m̐</unclear> vajr<unclear>ā</unclear>nala hana daha paca ma<unclear>tha</unclear> bhañja raṇa hūm̐ <unclear>phaṭ·</unclear>
+                vajra<unclear>n</unclear>e<unclear>tri bandha</unclear> 
+                <lb n="2"/>sarvvavighnān· svāhā<g ref="sym:bullet-middle" type="punctuation">.</g> Om̐ hulu hulu hūm̐ phaṭ·<g ref="sym:bullet-middle" type="punctuation">.</g> Om̐ druṁ vandha ham̐ hva<unclear cert="low">na</unclear>ḥ 
+                <lb n="3"/>bajrapāśe hum̐<g ref="sym:bullet-middle" type="punctuation">.</g> 
+                Om̐ vajrayaksạ hūm̐<g ref="sym:bullet-middle" type="punctuation">.</g> 
+                Om̐ vajraśi<unclear>kha</unclear>re ruṭ· <unclear>ma</unclear>ṭ·<g ref="sym:bullet-middle" type="punctuation">.</g> 
+                <lb n="4"/><unclear>h</unclear>ū<unclear>m̐</unclear> bajra<unclear>ka</unclear>rmma hūm̐<unclear><g ref="sym:bullet-middle" type="punctuation">.</g></unclear></p>
+                <p>Om̐ bajrakīla kīlaya huṁ phaṭ·<g ref="sym:bullet-middle" type="punctuation">.</g> huṁ huṁ huṁ huṁ huṁ huṁ huṁ 
+                <lb n="5"/>huṁ huṁ huṁ<g ref="sym:bullet-middle" type="punctuation">.</g> Oṁ gha gha ghātaya ghātaya sarvvaduṣṭān· phaṭ· kīlaya 
+                <lb n="6"/>kīlaya sarvvapāpān· phaṭ·<g ref="sym:bullet-middle" type="punctuation">.</g> huṁ huṁ huṁ bajra<space type="descender"/>kīla bajradha<lb break="no" n="7"/>ro jñāpayati<g ref="sym:bullet-middle" type="punctuation">.</g> sarvvaduṣṭān· kāya-vāk·-cittam· <unclear>ba</unclear>jra<lb break="no" n="8"/>m· kīlaya hūṁ pha<space type="descender"/>ṭ·<g ref="sym:bullet-middle" type="punctuation">.</g> <g ref="sym:doubleBar-crossed" type="punctuation">.</g></p>
+         </div>
+         <div type="apparatus">
+            <listApp>
+                <app loc="2">
+                    <lem>hva<unclear cert="low">na</unclear>ḥ <lb n="3"/>bajrapāśe hum̐</lem>
+                    <note>One might perhaps expect <foreign>hrīḥ vajrapāśe hūm̐</foreign> in view of the parallel adduced in <bibl><ptr target="bib:Griffiths2014_02"/></bibl> has <foreign>hūṁ vajrapāśe hrīḥ</foreign>. Indeed, the presence of the syllable <foreign>na</foreign> tentatively read here is very doubtful, and it is imaginable that <foreign>hv</foreign> is an error for <foreign>hr</foreign> while an <foreign>ī</foreign> marker may have become illegible in the space above it and the descender from the line above may explain the space between this <foreign>akṣara</foreign> and the <foreign>visarga</foreign>. Perhaps a very faint trace of the expected <foreign>ī</foreign> can be made out in the photogrammetry. In that case we could read <foreign>h<choice><sic>v</sic><corr>r</corr></choice><unclear cert="low">ī</unclear><space type="descender"/>ḥ</foreign>.</note>
+                </app>
+                <app loc="6">
+                    <lem>bajradha<lb break="no" n="7"/>ro jñāpayati</lem>
+                    <note>The parallel texts identified in <bibl><ptr target="bib:Griffiths2014_02"/></bibl>   have <foreign>ājñāpayati</foreign>, but the photogrammetry makes clear that this cannot be read in the stone.</note>
+                </app>
+            </listApp>
+            </div>
+         <!-- <div type="translation"/> -->
+ 	<!--translation encoded as per EGD §9.2 -->
+         <div type="commentary">
+            <p>For a translation of these mantras, along with extensive commentary, see <bibl><ptr target="bib:Griffiths2014_02"/><citedRange unit="page">179-180</citedRange></bibl>.</p>
+         </div>
+        <div type="bibliography">
+           <p>Provisionally deciphered by Rita Margaretha Setianingsih in <bibl><ptr target="bib:RiboetDarmosoetopo+al2007_01"/></bibl>. More reliably edited in <bibl><ptr target="bib:Griffiths2014_02"/></bibl>, based on OD photos 21151–21160. The reading in the present digital edition has been slightly revised on the basis of a photogrammetry made by Andri Restyadi in 2023.</p>
+        	<listBibl type="primary">
+                <bibl><ptr target="bib:RiboetDarmosoetopo+al2007_01"/><citedRange unit="page">56-57</citedRange></bibl>
+				<bibl><ptr target="bib:Griffiths2014_02"/><citedRange unit="page">169</citedRange></bibl>
+			</listBibl>
+           <listBibl type="secondary">
+            <bibl><ptr target="bib:TitiSurtiNastiti+al2024_01"/><citedRange unit="section">2.4.3</citedRange><citedRange unit="page"><hi rend="check">???-???</hi></citedRange></bibl>    
+		
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

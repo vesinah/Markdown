@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sQvRi223n5J6PqUWMiCQ2287pWE</id>
+  <title>arXiv Query: search_query=all:"palm leaf manuscript"&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-08-25T18:53:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22palm+leaf+manuscript%22&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1708.03276v1</id>
+    <title>Document Image Binarization with Fully Convolutional Neural Networks</title>
+    <updated>2017-08-10T16:00:35Z</updated>
+    <link href="https://arxiv.org/abs/1708.03276v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.03276v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Binarization of degraded historical manuscript images is an important pre-processing step for many document processing tasks. We formulate binarization as a pixel classification learning task and apply a novel Fully Convolutional Network (FCN) architecture that operates at multiple image scales, including full resolution. The FCN is trained to optimize a continuous version of the Pseudo F-measure metric and an ensemble of FCNs outperform the competition winners on 4 of 7 DIBCO competitions. This same binarization technique can also be applied to different domains such as Palm Leaf Manuscripts with good performance. We analyze the performance of the proposed model w.r.t. the architectural hyperparameters, size and diversity of training data, and the input features chosen.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-10T16:00:35Z</published>
+    <arxiv:comment>ICDAR 2017 (oral)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chris Tensmeyer</name>
+    </author>
+    <author>
+      <name>Tony Martinez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.09436v1</id>
+    <title>Palmira: A Deep Deformable Network for Instance Segmentation of Dense and Uneven Layouts in Handwritten Manuscripts</title>
+    <updated>2021-08-21T04:41:46Z</updated>
+    <link href="https://arxiv.org/abs/2108.09436v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.09436v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Handwritten documents are often characterized by dense and uneven layout. Despite advances, standard deep network based approaches for semantic layout segmentation are not robust to complex deformations seen across semantic regions. This phenomenon is especially pronounced for the low-resource Indic palm-leaf manuscript domain. To address the issue, we first introduce Indiscapes2, a new large-scale diverse dataset of Indic manuscripts with semantic layout annotations. Indiscapes2 contains documents from four different historical collections and is 150% larger than its predecessor, Indiscapes. We also propose a novel deep network Palmira for robust, deformation-aware instance segmentation of regions in handwritten manuscripts. We also report Hausdorff distance and its variants as a boundary-aware performance measure. Our experiments demonstrate that Palmira provides robust layouts, outperforms strong baseline approaches and ablative variants. We also include qualitative results on Arabic, South-East Asian and Hebrew historical manuscripts to showcase the generalization capability of Palmira.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-21T04:41:46Z</published>
+    <arxiv:comment>Accepted at ICDAR-21. Watch teaser video https://www.youtube.com/watch?v=V4XWngkrtxQ , code and pretrained models https://github.com/ihdia/Palmira , project page https://ihdia.iiit.ac.in/Palmira</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Prema Satish Sharan</name>
+    </author>
+    <author>
+      <name>Sowmya Aitha</name>
+    </author>
+    <author>
+      <name>Amandeep Kumar</name>
+    </author>
+    <author>
+      <name>Abhishek Trivedi</name>
+    </author>
+    <author>
+      <name>Aaron Augustine</name>
+    </author>
+    <author>
+      <name>Ravi Kiran Sarvadevabhatla</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.07025v1</id>
+    <title>Indiscapes: Instance Segmentation Networks for Layout Parsing of Historical Indic Manuscripts</title>
+    <updated>2019-12-15T11:42:27Z</updated>
+    <link href="https://arxiv.org/abs/1912.07025v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.07025v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Historical palm-leaf manuscript and early paper documents from Indian subcontinent form an important part of the world's literary and cultural heritage. Despite their importance, large-scale annotated Indic manuscript image datasets do not exist. To address this deficiency, we introduce Indiscapes, the first ever dataset with multi-regional layout annotations for historical Indic manuscripts. To address the challenge of large diversity in scripts and presence of dense, irregular layout elements (e.g. text lines, pictures, multiple documents per image), we adapt a Fully Convolutional Deep Neural Network architecture for fully automatic, instance-level spatial layout parsing of manuscript images. We demonstrate the effectiveness of proposed architecture on images from the Indiscapes dataset. For annotation flexibility and keeping the non-technical nature of domain experts in mind, we also contribute a custom, web-based GUI annotation tool and a dashboard-style analytics portal. Overall, our contributions set the stage for enabling downstream applications such as OCR and word-spotting in historical Indic manuscripts at scale.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-15T11:42:27Z</published>
+    <arxiv:comment>Oral presentation at International Conference on Document Analysis and Recognition (ICDAR) - 2019. For dataset, pre-trained networks and additional details, visit project page at http://ihdia.iiit.ac.in/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Abhishek Prusty</name>
+    </author>
+    <author>
+      <name>Sowmya Aitha</name>
+    </author>
+    <author>
+      <name>Abhishek Trivedi</name>
+    </author>
+    <author>
+      <name>Ravi Kiran Sarvadevabhatla</name>
+    </author>
+  </entry>
+</feed>

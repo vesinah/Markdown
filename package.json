@@ -1,4 +1,12 @@
 {
+  "name": "markmak-mdbrowse",
+  "version": "2.0.0",
+  "scripts": {
+    "build": "node build.js",
+    "sync": "node scripts/sync_research.js",
+    "sync:deploy": "node scripts/sync_research.js && node build.js",
+    "serve": "npx serve . -p 8080"
+  },
   "dependencies": {
     "mermaid": "^11.17.2"
   },

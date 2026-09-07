@@ -1,0 +1,86 @@
+﻿{
+    "objectID":  74902,
+    "isHighlight":  false,
+    "accessionNumber":  "2001.445b",
+    "accessionYear":  "2001",
+    "isPublicDomain":  true,
+    "primaryImage":  "https://images.metmuseum.org/CRDImages/as/original/DP238210.jpg",
+    "primaryImageSmall":  "https://images.metmuseum.org/CRDImages/as/web-large/DP238210.jpg",
+    "additionalImages":  [
+                             "https://images.metmuseum.org/CRDImages/as/original/DP156395.jpg",
+                             "https://images.metmuseum.org/CRDImages/as/original/DP156396.JPG"
+                         ],
+    "constituents":  [
+                         {
+                             "constituentID":  19251,
+                             "role":  "Artist",
+                             "name":  "Mahavihara Master",
+                             "constituentULAN_URL":  "",
+                             "constituentWikidata_URL":  "",
+                             "gender":  ""
+                         }
+                     ],
+    "department":  "Asian Art",
+    "objectName":  "Folio",
+    "title":  "Leaves from an Ashtasahasrika Prajnaparamita Sutra",
+    "culture":  "India, Bengal or Bangladesh",
+    "period":  "Pala period",
+    "dynasty":  "",
+    "reign":  "",
+    "portfolio":  "",
+    "artistRole":  "Artist",
+    "artistPrefix":  "",
+    "artistDisplayName":  "Mahavihara Master",
+    "artistDisplayBio":  "",
+    "artistSuffix":  "",
+    "artistAlphaSort":  "Mahavihara Master",
+    "artistNationality":  "",
+    "artistBeginDate":  "",
+    "artistEndDate":  "",
+    "artistGender":  "",
+    "artistWikidata_URL":  "",
+    "artistULAN_URL":  "",
+    "objectDate":  "early 12th century",
+    "objectBeginDate":  1100,
+    "objectEndDate":  1133,
+    "medium":  "Opaque watercolor, black carbon-based ink, and mineral- and vegetable-based pigments on palm leaf",
+    "dimensions":  "2 3/4 x 16 1/2 in. (7 x 41.9 cm)",
+    "measurements":  [
+                         {
+                             "elementName":  "Overall",
+                             "elementDescription":  null,
+                             "elementMeasurements":  {
+                                                         "Height":  7,
+                                                         "Width":  41.9
+                                                     }
+                         }
+                     ],
+    "creditLine":  "Purchase, Lila Acheson Wallace Gift, 2001",
+    "geographyType":  "",
+    "city":  "",
+    "state":  "",
+    "county":  "",
+    "country":  "",
+    "region":  "",
+    "subregion":  "",
+    "locale":  "",
+    "locus":  "",
+    "excavation":  "",
+    "river":  "",
+    "classification":  "Paintings",
+    "rightsAndReproduction":  "",
+    "linkResource":  "",
+    "metadataDate":  "2026-03-02T04:55:04.403Z",
+    "repository":  "Metropolitan Museum of Art, New York, NY",
+    "objectURL":  "https://www.metmuseum.org/art/collection/search/74902",
+    "tags":  [
+                 {
+                     "term":  "Goddess",
+                     "AAT_URL":  "http://vocab.getty.edu/page/aat/300343852",
+                     "Wikidata_URL":  "https://www.wikidata.org/wiki/Q205985"
+                 }
+             ],
+    "objectWikidata_URL":  "https://www.wikidata.org/wiki/Q78702730",
+    "isTimelineWork":  false,
+    "GalleryNumber":  ""
+}

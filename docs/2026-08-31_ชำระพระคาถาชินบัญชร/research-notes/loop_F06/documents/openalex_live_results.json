@@ -1,0 +1,5570 @@
+[
+  {
+    "id": "https://openalex.org/W2131585293",
+    "doi": "https://doi.org/10.4324/9780203010570",
+    "title": "The Philosophy of Desire in the Buddhist Pali Canon",
+    "display_name": "The Philosophy of Desire in the Buddhist Pali Canon",
+    "relevance_score": 107.11365,
+    "publication_year": 2004,
+    "publication_date": "2004-12-31",
+    "ids": {
+      "openalex": "https://openalex.org/W2131585293",
+      "doi": "https://doi.org/10.4324/9780203010570",
+      "mag": "2131585293"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.4324/9780203010570",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.4324/9780203010570",
+      "pdf_url": "https://api.taylorfrancis.com/content/books/oa-mono/download?identifierName=doi&identifierValue=10.4324/9780203010570&type=webpdf",
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "monograph"
+    },
+    "type": "book",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://api.taylorfrancis.com/content/books/oa-mono/download?identifierName=doi&identifierValue=10.4324/9780203010570&type=webpdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5008863683",
+          "display_name": "David Webster",
+          "orcid": "https://orcid.org/0000-0001-9291-8537"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I114203471",
+            "display_name": "University of Gloucestershire",
+            "ror": "https://ror.org/00wygct11",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I114203471"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "David Webster",
+        "raw_affiliation_strings": [
+          "University of Gloucestershire, UK"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Gloucestershire, UK",
+            "institution_ids": [
+              "https://openalex.org/I114203471"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5008863683"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I114203471"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.2916,
+    "has_fulltext": true,
+    "cited_by_count": 30,
+    "citation_normalized_percentile": {
+      "value": 0.86416382,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 99
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11563",
+      "display_name": "Indian and Buddhist Studies",
+      "score": 0.9983000159263611,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.9983000159263611,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10297",
+        "display_name": "Philosophical Ethics and Theory",
+        "score": 0.9951000213623047,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13144",
+        "display_name": "Theology and Philosophy of Evil",
+        "score": 0.9937000274658203,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.8597829341888428
+      },
+      {
+        "id": "https://openalex.org/keywords/hinduism",
+        "display_name": "Hinduism",
+        "score": 0.6086581349372864
+      },
+      {
+        "id": "https://openalex.org/keywords/aesthetics",
+        "display_name": "Aesthetics",
+        "score": 0.5889354944229126
+      },
+      {
+        "id": "https://openalex.org/keywords/canon",
+        "display_name": "Canon",
+        "score": 0.5209075808525085
+      },
+      {
+        "id": "https://openalex.org/keywords/value",
+        "display_name": "Value (mathematics)",
+        "score": 0.5204442143440247
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.4006151556968689
+      },
+      {
+        "id": "https://openalex.org/keywords/epistemology",
+        "display_name": "Epistemology",
+        "score": 0.3873385787010193
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.3793175518512726
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.3700979948043823
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.3330361843109131
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-studies",
+        "display_name": "Religious studies",
+        "score": 0.2971423864364624
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.2206297516822815
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.0765911340713501
+      },
+      {
+        "id": "https://openalex.org/keywords/theology",
+        "display_name": "Theology",
+        "score": 0.0718410313129425
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.8597829341888428
+      },
+      {
+        "id": "https://openalex.org/C46610780",
+        "wikidata": "https://www.wikidata.org/wiki/Q9089",
+        "display_name": "Hinduism",
+        "level": 2,
+        "score": 0.6086581349372864
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.5889354944229126
+      },
+      {
+        "id": "https://openalex.org/C103785112",
+        "wikidata": "https://www.wikidata.org/wiki/Q53831",
+        "display_name": "Canon",
+        "level": 2,
+        "score": 0.5209075808525085
+      },
+      {
+        "id": "https://openalex.org/C2776291640",
+        "wikidata": "https://www.wikidata.org/wiki/Q2912517",
+        "display_name": "Value (mathematics)",
+        "level": 2,
+        "score": 0.5204442143440247
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.4006151556968689
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.3873385787010193
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.3793175518512726
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.3700979948043823
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.3330361843109131
+      },
+      {
+        "id": "https://openalex.org/C24667770",
+        "wikidata": "https://www.wikidata.org/wiki/Q34187",
+        "display_name": "Religious studies",
+        "level": 1,
+        "score": 0.2971423864364624
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.2206297516822815
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.0765911340713501
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.0718410313129425
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 12,
+    "locations": [
+      {
+        "id": "doi:10.4324/9780203010570",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.4324/9780203010570",
+        "pdf_url": "https://api.taylorfrancis.com/content/books/oa-mono/download?identifierName=doi&identifierValue=10.4324/9780203010570&type=webpdf",
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": null,
+        "raw_type": "monograph"
+      },
+      {
+        "id": "pmh:oai:aleph.bib-bvb.de:BVB01-015057958",
+        "is_oa": false,
+        "landing_page_url": "http://www.loc.gov/catdir/toc/ecip0418/2004013405.html",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "text"
+      },
+      {
+        "id": "pmh:oai:aleph.bib-bvb.de:BVB01-032338403",
+        "is_oa": false,
+        "landing_page_url": "https://www.doabooks.org/doab?func=search&query=rid:38618",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "pmh:oai:biblioboard.com:8c9d5fa3-8709-453e-9ace-7d52d9af3838",
+        "is_oa": false,
+        "landing_page_url": "https://openresearchlibrary.org/viewer/8c9d5fa3-8709-453e-9ace-7d52d9af3838",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401131",
+          "display_name": "BiblioBoard Library Catalog (Open Research Library)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "MODID-943f4d11b5b:Taylor &amp; Francis",
+        "raw_type": "BOOK"
+      },
+      {
+        "id": "pmh:oai:directory.doabooks.org:20.500.12854/160722",
+        "is_oa": true,
+        "landing_page_url": "https://directory.doabooks.org/handle/20.500.12854/160722",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400539",
+          "display_name": "Directory of Open access Books (OAPEN Foundation)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4387153118",
+          "host_organization_name": "OAPEN Foundation",
+          "host_organization_lineage": [
+            "https://openalex.org/I4387153118"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:directory.doabooks.org:20.500.12854/34350",
+        "is_oa": true,
+        "landing_page_url": "http://library.oapen.org/handle/20.500.12657/24088",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400539",
+          "display_name": "Directory of Open access Books (OAPEN Foundation)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4387153118",
+          "host_organization_name": "OAPEN Foundation",
+          "host_organization_lineage": [
+            "https://openalex.org/I4387153118"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:doab-books:38618",
+        "is_oa": false,
+        "landing_page_url": "https://www.doabooks.org/doab?func=search&amp;query=rid:38618",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400539",
+          "display_name": "Directory of Open access Books (OAPEN Foundation)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4387153118",
+          "host_organization_name": "OAPEN Foundation",
+          "host_organization_lineage": [
+            "https://openalex.org/I4387153118"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "book"
+      },
+      {
+        "id": "pmh:oai:eprints.glos.ac.uk:903",
+        "is_oa": false,
+        "landing_page_url": "https://eprints.glos.ac.uk/903/",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400522",
+          "display_name": "Research Repository (University of Gloucestershire)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I114203471",
+          "host_organization_name": "University of Gloucestershire",
+          "host_organization_lineage": [
+            "https://openalex.org/I114203471"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Book"
+      },
+      {
+        "id": "pmh:oai:eprints.soas.ac.uk:32355",
+        "is_oa": false,
+        "landing_page_url": "https://eprints.soas.ac.uk/32355/",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402168",
+          "display_name": "SOAS Research Online (SOAS University of London)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I31575130",
+          "host_organization_name": "SOAS University of London",
+          "host_organization_lineage": [
+            "https://openalex.org/I31575130"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "Authored Books"
+      },
+      {
+        "id": "pmh:oai:library.oapen.org:20.500.12657/102940",
+        "is_oa": true,
+        "landing_page_url": "https://www.taylorfrancis.com/books/9780203010570",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402535",
+          "display_name": "OAPEN (The OAPEN Foundation)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4387153118",
+          "host_organization_name": "OAPEN Foundation",
+          "host_organization_lineage": [
+            "https://openalex.org/I4387153118"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "9781134279418.pdf",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:oapen:1006043",
+        "is_oa": true,
+        "landing_page_url": "http://www.oapen.org/search?identifier=1006043",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402535",
+          "display_name": "OAPEN (The OAPEN Foundation)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4387153118",
+          "host_organization_name": "OAPEN Foundation",
+          "host_organization_lineage": [
+            "https://openalex.org/I4387153118"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "book"
+      },
+      {
+        "id": "mag:2131585293",
+        "is_oa": false,
+        "landing_page_url": "https://library.oapen.org/bitstream/20.500.12657/24088/1/1006043.pdf",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.4324/9780203010570",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.4324/9780203010570",
+      "pdf_url": "https://api.taylorfrancis.com/content/books/oa-mono/download?identifierName=doi&identifierValue=10.4324/9780203010570&type=webpdf",
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "monograph"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2131585293.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2131585293.grobid-xml"
+    },
+    "referenced_works_count": 33,
+    "referenced_works": [
+      "https://openalex.org/W18786440",
+      "https://openalex.org/W233405009",
+      "https://openalex.org/W573013629",
+      "https://openalex.org/W593764096",
+      "https://openalex.org/W595400011",
+      "https://openalex.org/W616686763",
+      "https://openalex.org/W627851955",
+      "https://openalex.org/W633041860",
+      "https://openalex.org/W1484854072",
+      "https://openalex.org/W1547795094",
+      "https://openalex.org/W1580043207",
+      "https://openalex.org/W1591422284",
+      "https://openalex.org/W1608063061",
+      "https://openalex.org/W1972460232",
+      "https://openalex.org/W1972508051",
+      "https://openalex.org/W1974677971",
+      "https://openalex.org/W2004481065",
+      "https://openalex.org/W2018217289",
+      "https://openalex.org/W2031814102",
+      "https://openalex.org/W2036949266",
+      "https://openalex.org/W2042386005",
+      "https://openalex.org/W2049857762",
+      "https://openalex.org/W2058695564",
+      "https://openalex.org/W2127188200",
+      "https://openalex.org/W2317466472",
+      "https://openalex.org/W2321071532",
+      "https://openalex.org/W2323480280",
+      "https://openalex.org/W2496137290",
+      "https://openalex.org/W2798818052",
+      "https://openalex.org/W2894668688",
+      "https://openalex.org/W3157424383",
+      "https://openalex.org/W3159895304",
+      "https://openalex.org/W3177355515"
+    ],
+    "related_works": [
+      "https://openalex.org/W588568970",
+      "https://openalex.org/W2060695399",
+      "https://openalex.org/W2274347910",
+      "https://openalex.org/W2392138831",
+      "https://openalex.org/W3084865837",
+      "https://openalex.org/W2003954012",
+      "https://openalex.org/W2376059937",
+      "https://openalex.org/W2181921369",
+      "https://openalex.org/W2115435620",
+      "https://openalex.org/W1570870615",
+      "https://openalex.org/W2253785488",
+      "https://openalex.org/W2992175790",
+      "https://openalex.org/W3110058049",
+      "https://openalex.org/W2965852943",
+      "https://openalex.org/W1991216288",
+      "https://openalex.org/W2079290051",
+      "https://openalex.org/W2392600411",
+      "https://openalex.org/W2948535906",
+      "https://openalex.org/W2013219086",
+      "https://openalex.org/W424698224"
+    ],
+    "abstract_inverted_index": {
+      "David": [
+        0
+      ],
+      "Webster": [
+        1
+      ],
+      "explores": [
+        2
+      ],
+      "the": [
+        3,
+        10,
+        17,
+        31,
+        39,
+        67,
+        77,
+        89,
+        97,
+        100,
+        116,
+        120
+      ],
+      "notion": [
+        4
+      ],
+      "of": [
+        5,
+        19,
+        22,
+        33,
+        46,
+        48,
+        66,
+        69,
+        91,
+        102,
+        115
+      ],
+      "desire": [
+        6,
+        27,
+        34
+      ],
+      "as": [
+        7,
+        50,
+        57,
+        59,
+        86
+      ],
+      "found": [
+        8,
+        51
+      ],
+      "in": [
+        9,
+        38,
+        52,
+        79
+      ],
+      "Buddhist": [
+        11
+      ],
+      "Pali": [
+        12,
+        40,
+        103
+      ],
+      "Canon.": [
+        13
+      ],
+      "Beginning": [
+        14
+      ],
+      "by": [
+        15
+      ],
+      "addressing": [
+        16
+      ],
+      "idea": [
+        18
+      ],
+      "a": [
+        20
+      ],
+      "'paradox": [
+        21
+      ],
+      "desire',": [
+        23
+      ],
+      "whereby": [
+        24
+      ],
+      "we": [
+        25
+      ],
+      "must": [
+        26
+      ],
+      "to": [
+        28,
+        88
+      ],
+      "end": [
+        29
+      ],
+      "desire,": [
+        30,
+        49,
+        106
+      ],
+      "varieties": [
+        32
+      ],
+      "that": [
+        35
+      ],
+      "are": [
+        36,
+        42,
+        55
+      ],
+      "articulated": [
+        37
+      ],
+      "texts": [
+        41
+      ],
+      "examined.": [
+        43
+      ],
+      "A": [
+        44,
+        112
+      ],
+      "range": [
+        45,
+        101
+      ],
+      "views": [
+        47
+      ],
+      "Western": [
+        53
+      ],
+      "thought,": [
+        54
+      ],
+      "presented": [
+        56
+      ],
+      "well": [
+        58
+      ],
+      "Hindu": [
+        60
+      ],
+      "and": [
+        61,
+        107
+      ],
+      "Jain": [
+        62
+      ],
+      "approaches.": [
+        63
+      ],
+      "An": [
+        64
+      ],
+      "exploration": [
+        65,
+        114
+      ],
+      "concept": [
+        68
+      ],
+      "ditthi(view": [
+        70
+      ],
+      "or": [
+        71
+      ],
+      "opinion)": [
+        72
+      ],
+      "is": [
+        73
+      ],
+      "also": [
+        74
+      ],
+      "provided,": [
+        75
+      ],
+      "exploring": [
+        76
+      ],
+      "way": [
+        78
+      ],
+      "which": [
+        80
+      ],
+      "'holding": [
+        81
+      ],
+      "views'": [
+        82
+      ],
+      "can": [
+        83
+      ],
+      "be": [
+        84
+      ],
+      "seen": [
+        85
+      ],
+      "analogous": [
+        87
+      ],
+      "process": [
+        90
+      ],
+      "desiring.": [
+        92
+      ],
+      "Other": [
+        93
+      ],
+      "subjects": [
+        94
+      ],
+      "investigated": [
+        95
+      ],
+      "include": [
+        96
+      ],
+      "mind-body": [
+        98
+      ],
+      "relationship,": [
+        99
+      ],
+      "terms": [
+        104
+      ],
+      "for": [
+        105
+      ],
+      "desire's": [
+        108
+      ],
+      "positive": [
+        109
+      ],
+      "spiritual": [
+        110
+      ],
+      "value.": [
+        111
+      ],
+      "comparative": [
+        113
+      ],
+      "various": [
+        117
+      ],
+      "approaches": [
+        118
+      ],
+      "completes": [
+        119
+      ],
+      "work.": [
+        121
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2021,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2014,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2013,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-08-26T07:47:46.906454",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4248985022",
+    "doi": "https://doi.org/10.4324/9780203936146",
+    "title": "Mindfulness in Early Buddhism",
+    "display_name": "Mindfulness in Early Buddhism",
+    "relevance_score": 83.651474,
+    "publication_year": 2007,
+    "publication_date": "2007-12-18",
+    "ids": {
+      "openalex": "https://openalex.org/W4248985022",
+      "doi": "https://doi.org/10.4324/9780203936146"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.4324/9780203936146",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.4324/9780203936146",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "monograph"
+    },
+    "type": "book",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5058167970",
+          "display_name": "Tse-fu Kuan",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Tse-fu Kuan",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5058167970"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 29,
+    "citation_normalized_percentile": {
+      "value": 0.52665877,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 98
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11563",
+      "display_name": "Indian and Buddhist Studies",
+      "score": 0.980400025844574,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.980400025844574,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12511",
+        "display_name": "Medieval and Classical Philosophy",
+        "score": 0.9681000113487244,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.9098415970802307
+      },
+      {
+        "id": "https://openalex.org/keywords/mindfulness",
+        "display_name": "Mindfulness",
+        "score": 0.7966539263725281
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.5718233585357666
+      },
+      {
+        "id": "https://openalex.org/keywords/psychotherapist",
+        "display_name": "Psychotherapist",
+        "score": 0.5264309644699097
+      },
+      {
+        "id": "https://openalex.org/keywords/meditation",
+        "display_name": "Meditation",
+        "score": 0.4587358236312866
+      },
+      {
+        "id": "https://openalex.org/keywords/psychoanalysis",
+        "display_name": "Psychoanalysis",
+        "score": 0.34194380044937134
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.26336562633514404
+      },
+      {
+        "id": "https://openalex.org/keywords/theology",
+        "display_name": "Theology",
+        "score": 0.05854755640029907
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.9098415970802307
+      },
+      {
+        "id": "https://openalex.org/C2780444219",
+        "wikidata": "https://www.wikidata.org/wiki/Q341045",
+        "display_name": "Mindfulness",
+        "level": 2,
+        "score": 0.7966539263725281
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.5718233585357666
+      },
+      {
+        "id": "https://openalex.org/C542102704",
+        "wikidata": "https://www.wikidata.org/wiki/Q183257",
+        "display_name": "Psychotherapist",
+        "level": 1,
+        "score": 0.5264309644699097
+      },
+      {
+        "id": "https://openalex.org/C521822307",
+        "wikidata": "https://www.wikidata.org/wiki/Q108458",
+        "display_name": "Meditation",
+        "level": 2,
+        "score": 0.4587358236312866
+      },
+      {
+        "id": "https://openalex.org/C11171543",
+        "wikidata": "https://www.wikidata.org/wiki/Q41630",
+        "display_name": "Psychoanalysis",
+        "level": 1,
+        "score": 0.34194380044937134
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.26336562633514404
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.05854755640029907
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.4324/9780203936146",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.4324/9780203936146",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": null,
+        "raw_type": "monograph"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W3001234570",
+      "https://openalex.org/W2108860473",
+      "https://openalex.org/W2973620876",
+      "https://openalex.org/W2141001007",
+      "https://openalex.org/W2806167028",
+      "https://openalex.org/W2741711812",
+      "https://openalex.org/W2093197092",
+      "https://openalex.org/W2726859002",
+      "https://openalex.org/W2565782380",
+      "https://openalex.org/W2005955201"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "book": [
+        1,
+        131
+      ],
+      "identifies": [
+        2
+      ],
+      "what": [
+        3
+      ],
+      "is": [
+        4,
+        79,
+        87,
+        135,
+        216
+      ],
+      "meant": [
+        5
+      ],
+      "by": [
+        6,
+        65,
+        82,
+        151,
+        255
+      ],
+      "sati": [
+        7,
+        263
+      ],
+      "(smrti),": [
+        8
+      ],
+      "usually": [
+        9
+      ],
+      "translated": [
+        10
+      ],
+      "as": [
+        11,
+        142,
+        149,
+        219,
+        242,
+        250
+      ],
+      "‘mindfulness’,": [
+        12
+      ],
+      "in": [
+        13,
+        25,
+        51,
+        69,
+        117,
+        162,
+        171
+      ],
+      "early": [
+        14,
+        27,
+        90,
+        123
+      ],
+      "Buddhism,": [
+        15,
+        74
+      ],
+      "and": [
+        16,
+        21,
+        30,
+        35,
+        54,
+        104,
+        119,
+        191,
+        194,
+        237,
+        264
+      ],
+      "examines": [
+        17
+      ],
+      "its": [
+        18,
+        22
+      ],
+      "soteriological": [
+        19
+      ],
+      "functions": [
+        20,
+        170
+      ],
+      "central": [
+        23
+      ],
+      "role": [
+        24,
+        141,
+        161
+      ],
+      "the": [
+        26,
+        42,
+        62,
+        67,
+        75,
+        83,
+        88,
+        105,
+        113,
+        140,
+        172,
+        200,
+        205,
+        209,
+        225,
+        240,
+        253,
+        256,
+        265,
+        274
+      ],
+      "Buddhist": [
+        28,
+        49,
+        91
+      ],
+      "practice": [
+        29,
+        76
+      ],
+      "philosophy.": [
+        31
+      ],
+      "Using": [
+        32
+      ],
+      "textual": [
+        33
+      ],
+      "analysis": [
+        34,
+        99,
+        259
+      ],
+      "criticism,": [
+        36
+      ],
+      "it": [
+        37,
+        156,
+        183
+      ],
+      "takes": [
+        38
+      ],
+      "new": [
+        39,
+        59
+      ],
+      "approaches": [
+        40
+      ],
+      "to": [
+        41,
+        112,
+        121,
+        139,
+        174,
+        185,
+        198,
+        235,
+        239,
+        279
+      ],
+      "subject": [
+        43
+      ],
+      "through": [
+        44
+      ],
+      "a": [
+        45,
+        143,
+        159,
+        177,
+        232
+      ],
+      "comparative": [
+        46
+      ],
+      "study": [
+        47
+      ],
+      "of": [
+        48,
+        77,
+        100,
+        145,
+        212,
+        229,
+        252,
+        272,
+        282,
+        284
+      ],
+      "texts": [
+        50
+      ],
+      "Pali,": [
+        52
+      ],
+      "Chinese": [
+        53,
+        107
+      ],
+      "Sanskrit.": [
+        55
+      ],
+      "It": [
+        56,
+        166
+      ],
+      "also": [
+        57,
+        157
+      ],
+      "furnishes": [
+        58
+      ],
+      "perspectives": [
+        60
+      ],
+      "on": [
+        61,
+        276
+      ],
+      "ancient": [
+        63
+      ],
+      "teaching": [
+        64,
+        275
+      ],
+      "applying": [
+        66
+      ],
+      "findings": [
+        68
+      ],
+      "modern": [
+        70
+      ],
+      "psychology.": [
+        71
+      ],
+      "In": [
+        72
+      ],
+      "contemporary": [
+        73
+      ],
+      "mindfulness": [
+        78,
+        134,
+        169,
+        277
+      ],
+      "zealously": [
+        80
+      ],
+      "advocated": [
+        81
+      ],
+      "Theravada": [
+        84,
+        153
+      ],
+      "tradition,": [
+        85
+      ],
+      "which": [
+        86,
+        110,
+        215,
+        245
+      ],
+      "only": [
+        89,
+        137,
+        221
+      ],
+      "school": [
+        92
+      ],
+      "that": [
+        93,
+        125,
+        133,
+        180,
+        208,
+        224,
+        261
+      ],
+      "still": [
+        94
+      ],
+      "exists": [
+        95
+      ],
+      "today.": [
+        96
+      ],
+      "Through": [
+        97
+      ],
+      "detailed": [
+        98
+      ],
+      "Theravada's": [
+        101
+      ],
+      "Pali": [
+        102,
+        118
+      ],
+      "Canon": [
+        103
+      ],
+      "four": [
+        106,
+        114,
+        226,
+        266
+      ],
+      "Agamas": [
+        108
+      ],
+      "-": [
+        109,
+        129
+      ],
+      "correspond": [
+        111
+      ],
+      "main": [
+        115
+      ],
+      "Nikayas": [
+        116
+      ],
+      "belong": [
+        120
+      ],
+      "some": [
+        122
+      ],
+      "schools": [
+        124
+      ],
+      "no": [
+        126
+      ],
+      "longer": [
+        127
+      ],
+      "exist": [
+        128
+      ],
+      "this": [
+        130
+      ],
+      "shows": [
+        132,
+        260
+      ],
+      "not": [
+        136
+      ],
+      "limited": [
+        138
+      ],
+      "method": [
+        144
+      ],
+      "insight": [
+        146
+      ],
+      "(vipassana)": [
+        147
+      ],
+      "meditation,": [
+        148
+      ],
+      "presented": [
+        150
+      ],
+      "many": [
+        152
+      ],
+      "advocates,": [
+        154
+      ],
+      "but": [
+        155
+      ],
+      "has": [
+        158,
+        246
+      ],
+      "key": [
+        160
+      ],
+      "serenity": [
+        163
+      ],
+      "(samatha)": [
+        164
+      ],
+      "meditation.": [
+        165
+      ],
+      "elucidates": [
+        167
+      ],
+      "how": [
+        168,
+        182
+      ],
+      "path": [
+        173,
+        234
+      ],
+      "liberation": [
+        175
+      ],
+      "from": [
+        176
+      ],
+      "psychological": [
+        178
+      ],
+      "perspective,": [
+        179
+      ],
+      "is,": [
+        181
+      ],
+      "helps": [
+        184
+      ],
+      "achieve": [
+        186
+      ],
+      "an": [
+        187
+      ],
+      "optimal": [
+        188
+      ],
+      "cognitive": [
+        189
+      ],
+      "capability": [
+        190
+      ],
+      "emotional": [
+        192
+      ],
+      "state,": [
+        193
+      ],
+      "thereby": [
+        195
+      ],
+      "enables": [
+        196
+      ],
+      "one": [
+        197
+      ],
+      "attain": [
+        199
+      ],
+      "ultimate": [
+        201
+      ],
+      "religious": [
+        202
+      ],
+      "goal.": [
+        203
+      ],
+      "Furthermore,": [
+        204
+      ],
+      "author": [
+        206
+      ],
+      "argues": [
+        207
+      ],
+      "well-known": [
+        210
+      ],
+      "formula": [
+        211
+      ],
+      "ekaayano": [
+        213
+      ],
+      "maggo,": [
+        214
+      ],
+      "often": [
+        217
+      ],
+      "interpreted": [
+        218
+      ],
+      "‘the": [
+        220
+      ],
+      "way’,": [
+        222
+      ],
+      "implies": [
+        223
+      ],
+      "satipa.t.thaanas": [
+        227,
+        267
+      ],
+      "(establishments": [
+        228
+      ],
+      "mindfulness)": [
+        230
+      ],
+      "constitute": [
+        231
+      ],
+      "comprehensive": [
+        233
+      ],
+      "liberation,": [
+        236
+      ],
+      "refer": [
+        238
+      ],
+      "same": [
+        241
+      ],
+      "kaayagataa": [
+        243,
+        262
+      ],
+      "sati,": [
+        244
+      ],
+      "long": [
+        247
+      ],
+      "been": [
+        248
+      ],
+      "understood": [
+        249
+      ],
+      "‘mindfulness": [
+        251
+      ],
+      "body’": [
+        254
+      ],
+      "tradition.": [
+        257
+      ],
+      "The": [
+        258
+      ],
+      "are": [
+        268
+      ],
+      "two": [
+        269
+      ],
+      "different": [
+        270,
+        280
+      ],
+      "ways": [
+        271
+      ],
+      "formulating": [
+        273
+      ],
+      "according": [
+        278
+      ],
+      "schemes": [
+        281
+      ],
+      "classification": [
+        283
+      ],
+      "phenomena.": [
+        285
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2013,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W87984088",
+    "doi": null,
+    "title": "Buddhism and written law: Dhammasattha manuscripts and texts in premodern Burma",
+    "display_name": "Buddhism and written law: Dhammasattha manuscripts and texts in premodern Burma",
+    "relevance_score": 54.663498,
+    "publication_year": 2010,
+    "publication_date": "2010-08-05",
+    "ids": {
+      "openalex": "https://openalex.org/W87984088",
+      "mag": "87984088"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:ecommons.cornell.edu:1813/17126",
+      "is_oa": false,
+      "landing_page_url": "https://hdl.handle.net/1813/17126",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400757",
+        "display_name": "eCommons (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "dissertation or thesis"
+    },
+    "type": "dissertation",
+    "indexed_in": [],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5063225862",
+          "display_name": "D. Christian Lammerts",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "D. Christian Lammerts",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5063225862"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": false,
+    "cited_by_count": 7,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12956",
+      "display_name": "Asian Geopolitics and Ethnography",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12956",
+        "display_name": "Asian Geopolitics and Ethnography",
+        "score": 0.9994000196456909,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11256",
+        "display_name": "Asian Studies and History",
+        "score": 0.9850999712944031,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13002",
+        "display_name": "Southeast Asian Sociopolitical Studies",
+        "score": 0.9368000030517578,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.8903970718383789
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.4034968614578247
+      },
+      {
+        "id": "https://openalex.org/keywords/law",
+        "display_name": "Law",
+        "score": 0.4023873209953308
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.3755190372467041
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.3013518154621124
+      },
+      {
+        "id": "https://openalex.org/keywords/political-science",
+        "display_name": "Political science",
+        "score": 0.21190199255943298
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.14036455750465393
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.8903970718383789
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.4034968614578247
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.4023873209953308
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.3755190372467041
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.3013518154621124
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.21190199255943298
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.14036455750465393
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "pmh:oai:ecommons.cornell.edu:1813/17126",
+        "is_oa": false,
+        "landing_page_url": "https://hdl.handle.net/1813/17126",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400757",
+          "display_name": "eCommons (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "dissertation or thesis"
+      },
+      {
+        "id": "mag:87984088",
+        "is_oa": false,
+        "landing_page_url": "http://ecommons.cornell.edu/bitstream/1813/17126/1/Lammerts%2c%20Dietrich.pdf",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.5299999713897705,
+        "display_name": "Gender equality",
+        "id": "https://metadata.un.org/sdg/5"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2902706225",
+      "https://openalex.org/W1561855741",
+      "https://openalex.org/W2309546330",
+      "https://openalex.org/W839257912",
+      "https://openalex.org/W782832554",
+      "https://openalex.org/W2968812713",
+      "https://openalex.org/W2924344400",
+      "https://openalex.org/W2515980903",
+      "https://openalex.org/W1552084514",
+      "https://openalex.org/W1788349839",
+      "https://openalex.org/W1986661891",
+      "https://openalex.org/W2016955022",
+      "https://openalex.org/W3135555533",
+      "https://openalex.org/W2996733061",
+      "https://openalex.org/W2292068819",
+      "https://openalex.org/W2131764975",
+      "https://openalex.org/W2980516910",
+      "https://openalex.org/W968504718",
+      "https://openalex.org/W1520184458",
+      "https://openalex.org/W2944297983"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "dissertation": [
+        1
+      ],
+      "examines": [
+        2,
+        198
+      ],
+      "the": [
+        3,
+        10,
+        30,
+        35,
+        59,
+        83,
+        93,
+        104,
+        109,
+        137,
+        192,
+        199,
+        205,
+        220,
+        251,
+        255,
+        265,
+        282,
+        320,
+        346
+      ],
+      "regional": [
+        4,
+        84
+      ],
+      "and": [
+        5,
+        14,
+        25,
+        39,
+        54,
+        63,
+        77,
+        82,
+        89,
+        98,
+        111,
+        118,
+        127,
+        129,
+        133,
+        142,
+        172,
+        175,
+        188,
+        202,
+        216,
+        223,
+        257,
+        261,
+        264,
+        269,
+        276,
+        298,
+        328,
+        331,
+        367,
+        371
+      ],
+      "local": [
+        6,
+        96,
+        221
+      ],
+      "histories": [
+        7
+      ],
+      "of": [
+        8,
+        17,
+        34,
+        41,
+        50,
+        67,
+        92,
+        95,
+        106,
+        153,
+        156,
+        204,
+        225,
+        233,
+        243,
+        249,
+        253,
+        259,
+        291,
+        297,
+        309,
+        319,
+        334,
+        345,
+        348,
+        353
+      ],
+      "dhammasattha,": [
+        9
+      ],
+      "preeminent": [
+        11
+      ],
+      "Pali,": [
+        12
+      ],
+      "bilingual,": [
+        13
+      ],
+      "vernacular": [
+        15,
+        262,
+        377
+      ],
+      "genre": [
+        16,
+        155
+      ],
+      "Buddhist": [
+        18,
+        62,
+        144,
+        171,
+        292,
+        358
+      ],
+      "legal": [
+        19,
+        97,
+        179,
+        275,
+        359
+      ],
+      "literature": [
+        20,
+        373
+      ],
+      "transmitted": [
+        21
+      ],
+      "in": [
+        22,
+        169,
+        182,
+        236,
+        337,
+        364
+      ],
+      "premodern": [
+        23,
+        338
+      ],
+      "Burma": [
+        24,
+        128,
+        187
+      ],
+      "Southeast": [
+        26,
+        64
+      ],
+      "Asia.": [
+        27
+      ],
+      "It": [
+        28,
+        57,
+        146,
+        228,
+        294,
+        340
+      ],
+      "provides": [
+        29
+      ],
+      "first": [
+        31,
+        110
+      ],
+      "critical": [
+        32
+      ],
+      "analysis": [
+        33,
+        318,
+        344
+      ],
+      "dating,": [
+        36
+      ],
+      "content,": [
+        37
+      ],
+      "form,": [
+        38
+      ],
+      "function": [
+        40,
+        258
+      ],
+      "surviving": [
+        42,
+        207
+      ],
+      "dhammasattha": [
+        43,
+        107,
+        209,
+        301,
+        330,
+        354
+      ],
+      "texts": [
+        44,
+        120
+      ],
+      "based": [
+        45
+      ],
+      "on": [
+        46
+      ],
+      "a": [
+        47,
+        304,
+        316
+      ],
+      "careful": [
+        48,
+        69
+      ],
+      "study": [
+        49
+      ],
+      "hitherto": [
+        51
+      ],
+      "unexamined": [
+        52
+      ],
+      "Burmese": [
+        53,
+        208
+      ],
+      "Pali": [
+        55,
+        143,
+        260,
+        372
+      ],
+      "manuscripts.": [
+        56
+      ],
+      "underscores": [
+        58
+      ],
+      "importance": [
+        60
+      ],
+      "for": [
+        61,
+        300,
+        327
+      ],
+      "Asian": [
+        65,
+        86
+      ],
+      "Studies": [
+        66
+      ],
+      "paying": [
+        68
+      ],
+      "attention": [
+        70
+      ],
+      "to": [
+        71,
+        160,
+        211,
+        241,
+        288,
+        325,
+        351,
+        369
+      ],
+      "complex": [
+        72
+      ],
+      "manuscript": [
+        73,
+        244
+      ],
+      "traditions,": [
+        74
+      ],
+      "multilingual": [
+        75
+      ],
+      "post-": [
+        76
+      ],
+      "paracanonical": [
+        78
+      ],
+      "literatures,": [
+        79
+      ],
+      "commentarial": [
+        80
+      ],
+      "strategies,": [
+        81
+      ],
+      "South-Southeast": [
+        85
+      ],
+      "literary,": [
+        87
+      ],
+      "historical,": [
+        88
+      ],
+      "religious": [
+        90
+      ],
+      "context": [
+        91
+      ],
+      "development": [
+        94
+      ],
+      "textual": [
+        99,
+        215,
+        277,
+        365
+      ],
+      "practices.": [
+        100
+      ],
+      "Part": [
+        101,
+        196,
+        271
+      ],
+      "One": [
+        102
+      ],
+      "traces": [
+        103
+      ],
+      "genesis": [
+        105
+      ],
+      "during": [
+        108,
+        149
+      ],
+      "early": [
+        112,
+        193
+      ],
+      "second": [
+        113
+      ],
+      "millennia": [
+        114
+      ],
+      "C.E.": [
+        115
+      ],
+      "through": [
+        116
+      ],
+      "inscriptions": [
+        117
+      ],
+      "literary": [
+        119,
+        217
+      ],
+      "from": [
+        121
+      ],
+      "India,": [
+        122
+      ],
+      "Cambodia,": [
+        123
+      ],
+      "Campa,": [
+        124
+      ],
+      "Java,": [
+        125
+      ],
+      "Lanka,": [
+        126
+      ],
+      "investigates": [
+        130
+      ],
+      "its": [
+        131
+      ],
+      "historical": [
+        132
+      ],
+      "legal-theoretical": [
+        134
+      ],
+      "relationships": [
+        135
+      ],
+      "with": [
+        136,
+        342
+      ],
+      "Sanskrit": [
+        138,
+        370
+      ],
+      "Brahmanical": [
+        139,
+        173,
+        335
+      ],
+      "dharmasastra": [
+        140
+      ],
+      "tradition": [
+        141
+      ],
+      "literature.": [
+        145,
+        293
+      ],
+      "argues": [
+        147
+      ],
+      "that": [
+        148,
+        176,
+        230,
+        357
+      ],
+      "this": [
+        150,
+        154,
+        177
+      ],
+      "period": [
+        151
+      ],
+      "aspects": [
+        152,
+        352
+      ],
+      "written": [
+        157,
+        226,
+        234
+      ],
+      "law,": [
+        158
+      ],
+      "akin": [
+        159
+      ],
+      "other": [
+        161,
+        289,
+        332
+      ],
+      "disciplines": [
+        162
+      ],
+      "such": [
+        163,
+        185
+      ],
+      "as": [
+        164,
+        186,
+        302,
+        374,
+        376
+      ],
+      "alchemy": [
+        165
+      ],
+      "or": [
+        166,
+        306
+      ],
+      "medicine,": [
+        167
+      ],
+      "functioned": [
+        168
+      ],
+      "both": [
+        170
+      ],
+      "contexts,": [
+        174
+      ],
+      "ecumenical": [
+        178
+      ],
+      "culture": [
+        180
+      ],
+      "persisted": [
+        181
+      ],
+      "certain": [
+        183
+      ],
+      "areas": [
+        184
+      ],
+      "Java": [
+        189
+      ],
+      "well": [
+        190,
+        375
+      ],
+      "into": [
+        191
+      ],
+      "modern": [
+        194
+      ],
+      "period.": [
+        195
+      ],
+      "Two": [
+        197
+      ],
+      "distinctive": [
+        200
+      ],
+      "styles": [
+        201
+      ],
+      "formats": [
+        203
+      ],
+      "earliest": [
+        206
+      ],
+      "manuscripts": [
+        210
+      ],
+      "discuss": [
+        212
+      ],
+      "how": [
+        213,
+        274
+      ],
+      "their": [
+        214
+      ],
+      "features": [
+        218,
+        242
+      ],
+      "reflect": [
+        219
+      ],
+      "circulation": [
+        222
+      ],
+      "reception": [
+        224
+      ],
+      "law.": [
+        227
+      ],
+      "contends": [
+        229
+      ],
+      "an": [
+        231,
+        343
+      ],
+      "investigation": [
+        232
+      ],
+      "law": [
+        235
+      ],
+      "practice": [
+        237
+      ],
+      "must": [
+        238
+      ],
+      "be": [
+        239
+      ],
+      "attentive": [
+        240
+      ],
+      "culture,": [
+        245
+      ],
+      "including": [
+        246
+      ],
+      "aural/oral": [
+        247
+      ],
+      "modes": [
+        248
+      ],
+      "reading,": [
+        250
+      ],
+      "role": [
+        252
+      ],
+      "versification,": [
+        254
+      ],
+      "status": [
+        256
+      ],
+      "languages,": [
+        263
+      ],
+      "relationship": [
+        266
+      ],
+      "between": [
+        267
+      ],
+      "source-text": [
+        268
+      ],
+      "commentary.": [
+        270
+      ],
+      "Three": [
+        272
+      ],
+      "analyzes": [
+        273
+      ],
+      "authority": [
+        278
+      ],
+      "is": [
+        279
+      ],
+      "imagined": [
+        280
+      ],
+      "by": [
+        281
+      ],
+      "Manusaradhammasattha": [
+        283
+      ],
+      "(redacted": [
+        284
+      ],
+      "1651": [
+        285
+      ],
+      "C.E.)": [
+        286
+      ],
+      "relative": [
+        287
+      ],
+      "genres": [
+        290
+      ],
+      "considers": [
+        295
+      ],
+      "criticisms": [
+        296
+      ],
+      "apologies": [
+        299
+      ],
+      "either": [
+        303
+      ],
+      "\"Vedic\"": [
+        305
+      ],
+      "\"Buddhist\"": [
+        307
+      ],
+      "corpus": [
+        308
+      ],
+      "texts.": [
+        310
+      ],
+      "In": [
+        311
+      ],
+      "so": [
+        312
+      ],
+      "doing": [
+        313
+      ],
+      "it": [
+        314
+      ],
+      "presents": [
+        315
+      ],
+      "detailed": [
+        317
+      ],
+      "specific": [
+        321
+      ],
+      "hermeneutic": [
+        322
+      ],
+      "arguments": [
+        323
+      ],
+      "marshaled": [
+        324
+      ],
+      "account": [
+        326
+      ],
+      "accommodate": [
+        329
+      ],
+      "varieties": [
+        333
+      ],
+      "learning": [
+        336
+      ],
+      "Burma.": [
+        339
+      ],
+      "concludes": [
+        341
+      ],
+      "centrality": [
+        347
+      ],
+      "moral": [
+        349
+      ],
+      "conceptions": [
+        350
+      ],
+      "jurisprudence,": [
+        355
+      ],
+      "arguing": [
+        356
+      ],
+      "ethics": [
+        360
+      ],
+      "was": [
+        361
+      ],
+      "highly": [
+        362
+      ],
+      "composite": [
+        363
+      ],
+      "terms": [
+        366
+      ],
+      "related": [
+        368
+      ],
+      "normative": [
+        378
+      ],
+      "ideals.": [
+        379
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2012,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-08-18T07:49:30.821534",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W2170759063",
+    "doi": "https://doi.org/10.1177/1363461514557561",
+    "title": "Is mindfulness Buddhist? (and why it matters)",
+    "display_name": "Is mindfulness Buddhist? (and why it matters)",
+    "relevance_score": 52.78166,
+    "publication_year": 2014,
+    "publication_date": "2014-10-31",
+    "ids": {
+      "openalex": "https://openalex.org/W2170759063",
+      "doi": "https://doi.org/10.1177/1363461514557561",
+      "mag": "2170759063",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/25361692"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1177/1363461514557561",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1177/1363461514557561",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S15609493",
+        "display_name": "Transcultural Psychiatry",
+        "issn_l": "1363-4615",
+        "issn": [
+          "1363-4615",
+          "1461-7471"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Transcultural Psychiatry",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://escholarship.org/content/qt7264r9wq/qt7264r9wq.pdf?t=qa7uov",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5047955377",
+          "display_name": "Robert H. Sharf",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Robert H. Sharf",
+        "raw_affiliation_strings": [
+          "University of California, Berkeley"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of California, Berkeley",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5047955377"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I95457486"
+    ],
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": null,
+    "fwci": 154.951,
+    "has_fulltext": true,
+    "cited_by_count": 190,
+    "citation_normalized_percentile": {
+      "value": 0.99978019,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "52",
+      "issue": "4",
+      "first_page": "470",
+      "last_page": "484"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11563",
+      "display_name": "Indian and Buddhist Studies",
+      "score": 0.9973000288009644,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.9973000288009644,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10708",
+        "display_name": "Mindfulness and Compassion Interventions",
+        "score": 0.9937999844551086,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3203",
+          "display_name": "Clinical Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10893",
+        "display_name": "Chinese history and philosophy",
+        "score": 0.9853000044822693,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.9620314836502075
+      },
+      {
+        "id": "https://openalex.org/keywords/meditation",
+        "display_name": "Meditation",
+        "score": 0.8527076244354248
+      },
+      {
+        "id": "https://openalex.org/keywords/mindfulness",
+        "display_name": "Mindfulness",
+        "score": 0.8148162364959717
+      },
+      {
+        "id": "https://openalex.org/keywords/doctrine",
+        "display_name": "Doctrine",
+        "score": 0.699392557144165
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.5091235041618347
+      },
+      {
+        "id": "https://openalex.org/keywords/buddhist-philosophy",
+        "display_name": "Buddhist philosophy",
+        "score": 0.49799609184265137
+      },
+      {
+        "id": "https://openalex.org/keywords/criticism",
+        "display_name": "Criticism",
+        "score": 0.4406932592391968
+      },
+      {
+        "id": "https://openalex.org/keywords/aesthetics",
+        "display_name": "Aesthetics",
+        "score": 0.41694432497024536
+      },
+      {
+        "id": "https://openalex.org/keywords/epistemology",
+        "display_name": "Epistemology",
+        "score": 0.3891529142856598
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.3867684304714203
+      },
+      {
+        "id": "https://openalex.org/keywords/psychotherapist",
+        "display_name": "Psychotherapist",
+        "score": 0.3144574761390686
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.27429139614105225
+      },
+      {
+        "id": "https://openalex.org/keywords/law",
+        "display_name": "Law",
+        "score": 0.20608648657798767
+      },
+      {
+        "id": "https://openalex.org/keywords/political-science",
+        "display_name": "Political science",
+        "score": 0.12842488288879395
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.9620314836502075
+      },
+      {
+        "id": "https://openalex.org/C521822307",
+        "wikidata": "https://www.wikidata.org/wiki/Q108458",
+        "display_name": "Meditation",
+        "level": 2,
+        "score": 0.8527076244354248
+      },
+      {
+        "id": "https://openalex.org/C2780444219",
+        "wikidata": "https://www.wikidata.org/wiki/Q341045",
+        "display_name": "Mindfulness",
+        "level": 2,
+        "score": 0.8148162364959717
+      },
+      {
+        "id": "https://openalex.org/C2776211767",
+        "wikidata": "https://www.wikidata.org/wiki/Q117850",
+        "display_name": "Doctrine",
+        "level": 2,
+        "score": 0.699392557144165
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.5091235041618347
+      },
+      {
+        "id": "https://openalex.org/C500621485",
+        "wikidata": "https://www.wikidata.org/wiki/Q1001079",
+        "display_name": "Buddhist philosophy",
+        "level": 3,
+        "score": 0.49799609184265137
+      },
+      {
+        "id": "https://openalex.org/C7991579",
+        "wikidata": "https://www.wikidata.org/wiki/Q17955",
+        "display_name": "Criticism",
+        "level": 2,
+        "score": 0.4406932592391968
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.41694432497024536
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.3891529142856598
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.3867684304714203
+      },
+      {
+        "id": "https://openalex.org/C542102704",
+        "wikidata": "https://www.wikidata.org/wiki/Q183257",
+        "display_name": "Psychotherapist",
+        "level": 1,
+        "score": 0.3144574761390686
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.27429139614105225
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.20608648657798767
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.12842488288879395
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D001288",
+        "descriptor_name": "Attention",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001288",
+        "descriptor_name": "Attention",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001288",
+        "descriptor_name": "Attention",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001364",
+        "descriptor_name": "Awareness",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001364",
+        "descriptor_name": "Awareness",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001364",
+        "descriptor_name": "Awareness",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D002016",
+        "descriptor_name": "Buddhism",
+        "qualifier_ui": "Q000266",
+        "qualifier_name": "history",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D002016",
+        "descriptor_name": "Buddhism",
+        "qualifier_ui": "Q000266",
+        "qualifier_name": "history",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D002016",
+        "descriptor_name": "Buddhism",
+        "qualifier_ui": "Q000266",
+        "qualifier_name": "history",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012069",
+        "descriptor_name": "Religion and Psychology",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D012069",
+        "descriptor_name": "Religion and Psychology",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D012069",
+        "descriptor_name": "Religion and Psychology",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D019122",
+        "descriptor_name": "Meditation",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D019122",
+        "descriptor_name": "Meditation",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D019122",
+        "descriptor_name": "Meditation",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D049672",
+        "descriptor_name": "History, 19th Century",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D049672",
+        "descriptor_name": "History, 19th Century",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D049672",
+        "descriptor_name": "History, 19th Century",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D049673",
+        "descriptor_name": "History, 20th Century",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D049673",
+        "descriptor_name": "History, 20th Century",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D049673",
+        "descriptor_name": "History, 20th Century",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D049690",
+        "descriptor_name": "History, Ancient",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D049690",
+        "descriptor_name": "History, Ancient",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D049690",
+        "descriptor_name": "History, Ancient",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D064866",
+        "descriptor_name": "Mindfulness",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D064866",
+        "descriptor_name": "Mindfulness",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D064866",
+        "descriptor_name": "Mindfulness",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      }
+    ],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.1177/1363461514557561",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1177/1363461514557561",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S15609493",
+          "display_name": "Transcultural Psychiatry",
+          "issn_l": "1363-4615",
+          "issn": [
+            "1363-4615",
+            "1461-7471"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320017",
+          "host_organization_name": "SAGE Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320017"
+          ],
+          "host_organization_lineage_names": [
+            "SAGE Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Transcultural Psychiatry",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:25361692",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/25361692",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Transcultural psychiatry",
+        "raw_type": "Historical Article"
+      },
+      {
+        "id": "pmh:oai:escholarship.org/ark:/13030/qt7264r9wq",
+        "is_oa": true,
+        "landing_page_url": "https://escholarship.org/uc/item/7264r9wq",
+        "pdf_url": "https://escholarship.org/content/qt7264r9wq/qt7264r9wq.pdf?t=qa7uov",
+        "source": {
+          "id": "https://openalex.org/S4306400115",
+          "display_name": "eScholarship (California Digital Library)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I2801248553",
+          "host_organization_name": "California Digital Library",
+          "host_organization_lineage": [
+            "https://openalex.org/I2801248553"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "chapter"
+      },
+      {
+        "id": "pmh:oai:escholarship.org/ark:/13030/qt8gm9g5ss",
+        "is_oa": true,
+        "landing_page_url": "https://escholarship.org/uc/item/8gm9g5ss",
+        "pdf_url": "https://escholarship.org/content/qt8gm9g5ss/qt8gm9g5ss.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306400115",
+          "display_name": "eScholarship (California Digital Library)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I2801248553",
+          "host_organization_name": "California Digital Library",
+          "host_organization_lineage": [
+            "https://openalex.org/I2801248553"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Transcultural psychiatry, vol 52, iss 4",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:escholarship.org/ark:/13030/qt7264r9wq",
+      "is_oa": true,
+      "landing_page_url": "https://escholarship.org/uc/item/7264r9wq",
+      "pdf_url": "https://escholarship.org/content/qt7264r9wq/qt7264r9wq.pdf?t=qa7uov",
+      "source": {
+        "id": "https://openalex.org/S4306400115",
+        "display_name": "eScholarship (California Digital Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2801248553",
+        "host_organization_name": "California Digital Library",
+        "host_organization_lineage": [
+          "https://openalex.org/I2801248553"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "chapter"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320310638",
+        "display_name": "McGill University",
+        "ror": "https://ror.org/01pxwe438"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2170759063.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2170759063.grobid-xml"
+    },
+    "referenced_works_count": 56,
+    "referenced_works": [
+      "https://openalex.org/W250278877",
+      "https://openalex.org/W408810602",
+      "https://openalex.org/W431619919",
+      "https://openalex.org/W560824470",
+      "https://openalex.org/W571870364",
+      "https://openalex.org/W612069332",
+      "https://openalex.org/W615379448",
+      "https://openalex.org/W622980696",
+      "https://openalex.org/W624864001",
+      "https://openalex.org/W627378735",
+      "https://openalex.org/W628411824",
+      "https://openalex.org/W641386841",
+      "https://openalex.org/W652098329",
+      "https://openalex.org/W1488691828",
+      "https://openalex.org/W1503651125",
+      "https://openalex.org/W1513928423",
+      "https://openalex.org/W1578135778",
+      "https://openalex.org/W1584816110",
+      "https://openalex.org/W1590914033",
+      "https://openalex.org/W1963487354",
+      "https://openalex.org/W1981022144",
+      "https://openalex.org/W1986931053",
+      "https://openalex.org/W1997669063",
+      "https://openalex.org/W2040235568",
+      "https://openalex.org/W2044384749",
+      "https://openalex.org/W2048701323",
+      "https://openalex.org/W2052517527",
+      "https://openalex.org/W2066441916",
+      "https://openalex.org/W2089340445",
+      "https://openalex.org/W2119316345",
+      "https://openalex.org/W2122898463",
+      "https://openalex.org/W2124700380",
+      "https://openalex.org/W2127998748",
+      "https://openalex.org/W2136155911",
+      "https://openalex.org/W2315904056",
+      "https://openalex.org/W2496725014",
+      "https://openalex.org/W2504228008",
+      "https://openalex.org/W2509229747",
+      "https://openalex.org/W2898196819",
+      "https://openalex.org/W3028731399",
+      "https://openalex.org/W3136381751",
+      "https://openalex.org/W4206052142",
+      "https://openalex.org/W4211047306",
+      "https://openalex.org/W4231563569",
+      "https://openalex.org/W4234570246",
+      "https://openalex.org/W4235588569",
+      "https://openalex.org/W4241685240",
+      "https://openalex.org/W4242274191",
+      "https://openalex.org/W4247700842",
+      "https://openalex.org/W4248484946",
+      "https://openalex.org/W4251188928",
+      "https://openalex.org/W4300062422",
+      "https://openalex.org/W4301027774",
+      "https://openalex.org/W4381892220",
+      "https://openalex.org/W4388436377",
+      "https://openalex.org/W4388436680"
+    ],
+    "related_works": [
+      "https://openalex.org/W2256151435",
+      "https://openalex.org/W3186590183",
+      "https://openalex.org/W2140237371",
+      "https://openalex.org/W2969637828",
+      "https://openalex.org/W2130860408",
+      "https://openalex.org/W4318703233",
+      "https://openalex.org/W2276149848",
+      "https://openalex.org/W1689906582",
+      "https://openalex.org/W2575886751",
+      "https://openalex.org/W4245382750"
+    ],
+    "abstract_inverted_index": {
+      "Modern": [
+        0
+      ],
+      "exponents": [
+        1
+      ],
+      "of": [
+        2,
+        9,
+        13,
+        21,
+        36,
+        40,
+        61,
+        149,
+        158,
+        165
+      ],
+      "mindfulness": [
+        3,
+        150
+      ],
+      "meditation": [
+        4,
+        27
+      ],
+      "promote": [
+        5
+      ],
+      "the": [
+        6,
+        18,
+        37,
+        41,
+        59,
+        92,
+        129,
+        146,
+        159,
+        163,
+        166
+      ],
+      "therapeutic": [
+        7,
+        147
+      ],
+      "effects": [
+        8,
+        148
+      ],
+      "\"bare": [
+        10
+      ],
+      "attention\"--a": [
+        11
+      ],
+      "sort": [
+        12
+      ],
+      "non-judgmental,": [
+        14
+      ],
+      "non-discursive": [
+        15
+      ],
+      "attending": [
+        16
+      ],
+      "to": [
+        17,
+        25,
+        31,
+        98,
+        105,
+        113
+      ],
+      "moment-to-moment": [
+        19
+      ],
+      "flow": [
+        20
+      ],
+      "consciousness.": [
+        22
+      ],
+      "This": [
+        23
+      ],
+      "approach": [
+        24
+      ],
+      "Buddhist": [
+        26,
+        33,
+        53,
+        69,
+        100,
+        109,
+        141,
+        173
+      ],
+      "can": [
+        28
+      ],
+      "be": [
+        29
+      ],
+      "traced": [
+        30
+      ],
+      "Burmese": [
+        32
+      ],
+      "reform": [
+        34
+      ],
+      "movements": [
+        35,
+        83,
+        121
+      ],
+      "first": [
+        38
+      ],
+      "half": [
+        39
+      ],
+      "20th": [
+        42
+      ],
+      "century,": [
+        43
+      ],
+      "and": [
+        44,
+        55,
+        79,
+        102,
+        137,
+        151
+      ],
+      "is": [
+        45,
+        64
+      ],
+      "arguably": [
+        46
+      ],
+      "at": [
+        47
+      ],
+      "odds": [
+        48
+      ],
+      "with": [
+        49,
+        108,
+        135
+      ],
+      "more": [
+        50
+      ],
+      "traditional": [
+        51,
+        140
+      ],
+      "Theravāda": [
+        52
+      ],
+      "doctrine": [
+        54
+      ],
+      "meditative": [
+        56
+      ],
+      "practices.": [
+        57
+      ],
+      "But": [
+        58
+      ],
+      "cultivation": [
+        60
+      ],
+      "present-centered": [
+        62
+      ],
+      "awareness": [
+        63
+      ],
+      "not": [
+        65,
+        156
+      ],
+      "without": [
+        66
+      ],
+      "precedent": [
+        67
+      ],
+      "in": [
+        68,
+        74,
+        87,
+        95,
+        131,
+        145,
+        171
+      ],
+      "history;": [
+        70
+      ],
+      "similar": [
+        71
+      ],
+      "innovations": [
+        72,
+        130
+      ],
+      "arose": [
+        73
+      ],
+      "medieval": [
+        75
+      ],
+      "Chinese": [
+        76
+      ],
+      "Zen": [
+        77
+      ],
+      "(Chan)": [
+        78
+      ],
+      "Tibetan": [
+        80
+      ],
+      "Dzogchen.": [
+        81
+      ],
+      "These": [
+        82
+      ],
+      "have": [
+        84
+      ],
+      "several": [
+        85
+      ],
+      "things": [
+        86
+      ],
+      "common.": [
+        88
+      ],
+      "In": [
+        89,
+        118
+      ],
+      "each": [
+        90
+      ],
+      "case": [
+        91
+      ],
+      "reforms": [
+        93
+      ],
+      "were,": [
+        94
+      ],
+      "part,": [
+        96
+      ],
+      "attempts": [
+        97
+      ],
+      "render": [
+        99
+      ],
+      "practice": [
+        101,
+        132
+      ],
+      "insight": [
+        103
+      ],
+      "accessible": [
+        104
+      ],
+      "laypersons": [
+        106
+      ],
+      "unfamiliar": [
+        107
+      ],
+      "philosophy": [
+        110
+      ],
+      "and/or": [
+        111
+      ],
+      "unwilling": [
+        112
+      ],
+      "adopt": [
+        114
+      ],
+      "a": [
+        115
+      ],
+      "renunciatory": [
+        116
+      ],
+      "lifestyle.": [
+        117
+      ],
+      "addition,": [
+        119
+      ],
+      "these": [
+        120,
+        169
+      ],
+      "all": [
+        122
+      ],
+      "promised": [
+        123
+      ],
+      "astonishingly": [
+        124
+      ],
+      "quick": [
+        125
+      ],
+      "results.": [
+        126
+      ],
+      "And": [
+        127
+      ],
+      "finally,": [
+        128
+      ],
+      "were": [
+        133
+      ],
+      "met": [
+        134
+      ],
+      "suspicion": [
+        136
+      ],
+      "criticism": [
+        138
+      ],
+      "from": [
+        139
+      ],
+      "quarters.": [
+        142
+      ],
+      "Those": [
+        143
+      ],
+      "interested": [
+        144
+      ],
+      "bare": [
+        152
+      ],
+      "attention": [
+        153
+      ],
+      "are": [
+        154
+      ],
+      "often": [
+        155
+      ],
+      "aware": [
+        157
+      ],
+      "existence,": [
+        160
+      ],
+      "much": [
+        161
+      ],
+      "less": [
+        162
+      ],
+      "content,": [
+        164
+      ],
+      "controversies": [
+        167
+      ],
+      "surrounding": [
+        168
+      ],
+      "practices": [
+        170
+      ],
+      "Asian": [
+        172
+      ],
+      "history.": [
+        174
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 15
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 21
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 26
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 15
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 19
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2014,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-27T14:10:00.468798",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4387116765",
+    "doi": "https://doi.org/10.55908/sdgs.v11i7.1019",
+    "title": "Significance of Trees: Ecocriticism in Select Sanskrit and Pali Text",
+    "display_name": "Significance of Trees: Ecocriticism in Select Sanskrit and Pali Text",
+    "relevance_score": 46.982056,
+    "publication_year": 2023,
+    "publication_date": "2023-09-27",
+    "ids": {
+      "openalex": "https://openalex.org/W4387116765",
+      "doi": "https://doi.org/10.55908/sdgs.v11i7.1019"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.55908/sdgs.v11i7.1019",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.55908/sdgs.v11i7.1019",
+      "pdf_url": "https://ojs.journalsdg.org/jlss/article/download/1019/599",
+      "source": {
+        "id": "https://openalex.org/S4387283902",
+        "display_name": "Journal of Law and Sustainable Development",
+        "issn_l": "2764-4170",
+        "issn": [
+          "2764-4170"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Law and Sustainable Development",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://ojs.journalsdg.org/jlss/article/download/1019/599",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5045492074",
+          "display_name": "K. Shanmugapriya",
+          "orcid": "https://orcid.org/0000-0001-9133-8530"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210140927",
+            "display_name": "Ecologic Institute",
+            "ror": "https://ror.org/04ejkkg63",
+            "country_code": "DE",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I4210140927"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I876193797",
+            "display_name": "Vellore Institute of Technology University",
+            "ror": "https://ror.org/00qzypv28",
+            "country_code": "IN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I876193797"
+            ]
+          }
+        ],
+        "countries": [
+          "DE",
+          "IN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shanmugapriya Kumaravelu",
+        "raw_affiliation_strings": [
+          "SSL, Vellore Institute of Technology, Vellore, India,",
+          "Vellore Institute of Technology, Vellore, India,",
+          "ecológicos"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-9133-8530",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "SSL, Vellore Institute of Technology, Vellore, India,",
+            "institution_ids": [
+              "https://openalex.org/I876193797"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Vellore Institute of Technology, Vellore, India,",
+            "institution_ids": [
+              "https://openalex.org/I876193797"
+            ]
+          },
+          {
+            "raw_affiliation_string": "ecológicos",
+            "institution_ids": [
+              "https://openalex.org/I4210140927"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5108306141",
+          "display_name": "Christopher Gnanadurai",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210140927",
+            "display_name": "Ecologic Institute",
+            "ror": "https://ror.org/04ejkkg63",
+            "country_code": "DE",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I4210140927"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I876193797",
+            "display_name": "Vellore Institute of Technology University",
+            "ror": "https://ror.org/00qzypv28",
+            "country_code": "IN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I876193797"
+            ]
+          }
+        ],
+        "countries": [
+          "DE",
+          "IN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Christopher Gnanadurai",
+        "raw_affiliation_strings": [
+          "SSL, Vellore Institute of Technology, Vellore, India,",
+          "Vellore Institute of Technology, Vellore, India,",
+          "ecológicos"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-8536-2574",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "SSL, Vellore Institute of Technology, Vellore, India,",
+            "institution_ids": [
+              "https://openalex.org/I876193797"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Vellore Institute of Technology, Vellore, India,",
+            "institution_ids": [
+              "https://openalex.org/I876193797"
+            ]
+          },
+          {
+            "raw_affiliation_string": "ecológicos",
+            "institution_ids": [
+              "https://openalex.org/I4210140927"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.8985,
+    "has_fulltext": true,
+    "cited_by_count": 4,
+    "citation_normalized_percentile": {
+      "value": 0.8844238,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "11",
+      "issue": "7",
+      "first_page": "e1019",
+      "last_page": "e1019"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11755",
+      "display_name": "Transboundary Water Resource Management",
+      "score": 0.9660999774932861,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11755",
+        "display_name": "Transboundary Water Resource Management",
+        "score": 0.9660999774932861,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/ecocriticism",
+        "display_name": "Ecocriticism",
+        "score": 0.9448299407958984
+      },
+      {
+        "id": "https://openalex.org/keywords/harmony",
+        "display_name": "Harmony (color)",
+        "score": 0.7864546775817871
+      },
+      {
+        "id": "https://openalex.org/keywords/subject",
+        "display_name": "Subject (documents)",
+        "score": 0.6059832572937012
+      },
+      {
+        "id": "https://openalex.org/keywords/sanskrit",
+        "display_name": "Sanskrit",
+        "score": 0.5843008160591125
+      },
+      {
+        "id": "https://openalex.org/keywords/consciousness",
+        "display_name": "Consciousness",
+        "score": 0.5796967148780823
+      },
+      {
+        "id": "https://openalex.org/keywords/ecological-crisis",
+        "display_name": "Ecological crisis",
+        "score": 0.4688602089881897
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.41334232687950134
+      },
+      {
+        "id": "https://openalex.org/keywords/environmental-ethics",
+        "display_name": "Environmental ethics",
+        "score": 0.4130629897117615
+      },
+      {
+        "id": "https://openalex.org/keywords/ecology",
+        "display_name": "Ecology",
+        "score": 0.4014052450656891
+      },
+      {
+        "id": "https://openalex.org/keywords/aesthetics",
+        "display_name": "Aesthetics",
+        "score": 0.3927452564239502
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.3627637028694153
+      },
+      {
+        "id": "https://openalex.org/keywords/epistemology",
+        "display_name": "Epistemology",
+        "score": 0.33693355321884155
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.3346555233001709
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.3200782537460327
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.20350757241249084
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.12930092215538025
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.11104831099510193
+      },
+      {
+        "id": "https://openalex.org/keywords/visual-arts",
+        "display_name": "Visual arts",
+        "score": 0.08098062872886658
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C91802169",
+        "wikidata": "https://www.wikidata.org/wiki/Q603739",
+        "display_name": "Ecocriticism",
+        "level": 2,
+        "score": 0.9448299407958984
+      },
+      {
+        "id": "https://openalex.org/C2776453491",
+        "wikidata": "https://www.wikidata.org/wiki/Q5659234",
+        "display_name": "Harmony (color)",
+        "level": 2,
+        "score": 0.7864546775817871
+      },
+      {
+        "id": "https://openalex.org/C2777855551",
+        "wikidata": "https://www.wikidata.org/wiki/Q12310021",
+        "display_name": "Subject (documents)",
+        "level": 2,
+        "score": 0.6059832572937012
+      },
+      {
+        "id": "https://openalex.org/C29912816",
+        "wikidata": "https://www.wikidata.org/wiki/Q11059",
+        "display_name": "Sanskrit",
+        "level": 2,
+        "score": 0.5843008160591125
+      },
+      {
+        "id": "https://openalex.org/C186720457",
+        "wikidata": "https://www.wikidata.org/wiki/Q7087",
+        "display_name": "Consciousness",
+        "level": 2,
+        "score": 0.5796967148780823
+      },
+      {
+        "id": "https://openalex.org/C2778054127",
+        "wikidata": "https://www.wikidata.org/wiki/Q2382319",
+        "display_name": "Ecological crisis",
+        "level": 2,
+        "score": 0.4688602089881897
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.41334232687950134
+      },
+      {
+        "id": "https://openalex.org/C95124753",
+        "wikidata": "https://www.wikidata.org/wiki/Q875686",
+        "display_name": "Environmental ethics",
+        "level": 1,
+        "score": 0.4130629897117615
+      },
+      {
+        "id": "https://openalex.org/C18903297",
+        "wikidata": "https://www.wikidata.org/wiki/Q7150",
+        "display_name": "Ecology",
+        "level": 1,
+        "score": 0.4014052450656891
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.3927452564239502
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.3627637028694153
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.33693355321884155
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.3346555233001709
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.3200782537460327
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.20350757241249084
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.12930092215538025
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.11104831099510193
+      },
+      {
+        "id": "https://openalex.org/C153349607",
+        "wikidata": "https://www.wikidata.org/wiki/Q36649",
+        "display_name": "Visual arts",
+        "level": 1,
+        "score": 0.08098062872886658
+      },
+      {
+        "id": "https://openalex.org/C161191863",
+        "wikidata": "https://www.wikidata.org/wiki/Q199655",
+        "display_name": "Library science",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.55908/sdgs.v11i7.1019",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.55908/sdgs.v11i7.1019",
+        "pdf_url": "https://ojs.journalsdg.org/jlss/article/download/1019/599",
+        "source": {
+          "id": "https://openalex.org/S4387283902",
+          "display_name": "Journal of Law and Sustainable Development",
+          "issn_l": "2764-4170",
+          "issn": [
+            "2764-4170"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Law and Sustainable Development",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.55908/sdgs.v11i7.1019",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.55908/sdgs.v11i7.1019",
+      "pdf_url": "https://ojs.journalsdg.org/jlss/article/download/1019/599",
+      "source": {
+        "id": "https://openalex.org/S4387283902",
+        "display_name": "Journal of Law and Sustainable Development",
+        "issn_l": "2764-4170",
+        "issn": [
+          "2764-4170"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Law and Sustainable Development",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.5199999809265137,
+        "display_name": "Life in Land",
+        "id": "https://metadata.un.org/sdg/15"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4387116765.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4387116765.grobid-xml"
+    },
+    "referenced_works_count": 20,
+    "referenced_works": [
+      "https://openalex.org/W83134840",
+      "https://openalex.org/W1968983388",
+      "https://openalex.org/W1992421359",
+      "https://openalex.org/W2009410292",
+      "https://openalex.org/W2171189837",
+      "https://openalex.org/W2333967089",
+      "https://openalex.org/W2471341585",
+      "https://openalex.org/W2623509129",
+      "https://openalex.org/W2941826711",
+      "https://openalex.org/W2996411428",
+      "https://openalex.org/W3208846245",
+      "https://openalex.org/W3209469627",
+      "https://openalex.org/W4205192458",
+      "https://openalex.org/W4251049881",
+      "https://openalex.org/W4255581960",
+      "https://openalex.org/W4368276073",
+      "https://openalex.org/W4382874630",
+      "https://openalex.org/W4383225113",
+      "https://openalex.org/W6633121636",
+      "https://openalex.org/W6748426536"
+    ],
+    "related_works": [
+      "https://openalex.org/W4224119289",
+      "https://openalex.org/W1986306106",
+      "https://openalex.org/W2371710917",
+      "https://openalex.org/W2354049315",
+      "https://openalex.org/W2904932293",
+      "https://openalex.org/W2369923793",
+      "https://openalex.org/W4387867931",
+      "https://openalex.org/W3126206490",
+      "https://openalex.org/W2991509379",
+      "https://openalex.org/W2376780717"
+    ],
+    "abstract_inverted_index": {
+      "Objective:": [
+        0
+      ],
+      "The": [
+        1,
+        74,
+        172
+      ],
+      "following": [
+        2
+      ],
+      "study,": [
+        3
+      ],
+      "which": [
+        4,
+        87,
+        165
+      ],
+      "is": [
+        5,
+        122,
+        126,
+        166,
+        176
+      ],
+      "grounded": [
+        6
+      ],
+      "on": [
+        7
+      ],
+      "ecocriticism,": [
+        8
+      ],
+      "uses": [
+        9
+      ],
+      "text": [
+        10
+      ],
+      "analysis": [
+        11
+      ],
+      "to": [
+        12,
+        33,
+        71,
+        98,
+        140,
+        155,
+        185
+      ],
+      "identify": [
+        13
+      ],
+      "the": [
+        14,
+        34,
+        56,
+        63,
+        84,
+        120,
+        135,
+        147,
+        156,
+        163,
+        180,
+        194
+      ],
+      "significance": [
+        15
+      ],
+      "of": [
+        16,
+        58
+      ],
+      "trees": [
+        17,
+        100
+      ],
+      "in": [
+        18,
+        144,
+        170
+      ],
+      "ancient": [
+        19
+      ],
+      "religious": [
+        20
+      ],
+      "texts": [
+        21,
+        27
+      ],
+      "(Pali's": [
+        22
+      ],
+      "Jataka": [
+        23
+      ],
+      "Tale)": [
+        24
+      ],
+      "and": [
+        25,
+        50,
+        65,
+        77,
+        80,
+        101,
+        158,
+        162,
+        178,
+        192
+      ],
+      "nonreligious": [
+        26
+      ],
+      "(Sanskrit's": [
+        28
+      ],
+      "Panchatantra": [
+        29
+      ],
+      "Tales).": [
+        30
+      ],
+      "Method:": [
+        31
+      ],
+      "According": [
+        32
+      ],
+      "ecocritical": [
+        35,
+        174
+      ],
+      "theory,": [
+        36
+      ],
+      "it": [
+        37,
+        81
+      ],
+      "provides": [
+        38
+      ],
+      "new": [
+        39
+      ],
+      "insights": [
+        40
+      ],
+      "into": [
+        41
+      ],
+      "how": [
+        42,
+        139
+      ],
+      "people": [
+        43
+      ],
+      "think": [
+        44
+      ],
+      "about": [
+        45
+      ],
+      "non-humans": [
+        46
+      ],
+      "like": [
+        47
+      ],
+      "Plants,": [
+        48
+      ],
+      "fairly": [
+        49
+      ],
+      "legitimizes": [
+        51
+      ],
+      "their": [
+        52
+      ],
+      "subject": [
+        53,
+        169
+      ],
+      "positions": [
+        54
+      ],
+      "within": [
+        55
+      ],
+      "lens": [
+        57
+      ],
+      "eco-critical": [
+        59
+      ],
+      "concerns": [
+        60
+      ],
+      "for": [
+        61,
+        67
+      ],
+      "improving": [
+        62
+      ],
+      "environment": [
+        64,
+        85
+      ],
+      "requirements": [
+        66
+      ],
+      "evolution": [
+        68
+      ],
+      "from": [
+        69,
+        134
+      ],
+      "“eco-awareness": [
+        70
+      ],
+      "eco-consciousness.”": [
+        72
+      ],
+      "Result:": [
+        73
+      ],
+      "tree": [
+        75
+      ],
+      "nourishes": [
+        76
+      ],
+      "protects": [
+        78
+      ],
+      "us": [
+        79,
+        89,
+        138
+      ],
+      "also": [
+        82
+      ],
+      "keeps": [
+        83
+      ],
+      "green": [
+        86
+      ],
+      "gives": [
+        88
+      ],
+      "many": [
+        90
+      ],
+      "aesthetic": [
+        91
+      ],
+      "values.": [
+        92
+      ],
+      "Therefore,": [
+        93
+      ],
+      "we": [
+        94
+      ],
+      "must": [
+        95
+      ],
+      "do": [
+        96
+      ],
+      "everything": [
+        97
+      ],
+      "protect": [
+        99
+      ],
+      "save": [
+        102
+      ],
+      "them": [
+        103
+      ],
+      "before": [
+        104
+      ],
+      "they": [
+        105
+      ],
+      "disappear": [
+        106
+      ],
+      "completely,": [
+        107
+      ],
+      "additionally,": [
+        108
+      ],
+      "scholars": [
+        109
+      ],
+      "Tisnawijaya": [
+        110
+      ],
+      "&": [
+        111
+      ],
+      "Kurniati": [
+        112
+      ],
+      "claimed": [
+        113
+      ],
+      "that": [
+        114,
+        123
+      ],
+      "“Trees": [
+        115
+      ],
+      "are": [
+        116
+      ],
+      "Mother": [
+        117,
+        124
+      ],
+      "Earth.”": [
+        118
+      ],
+      "However,": [
+        119
+      ],
+      "reality": [
+        121
+      ],
+      "Earth": [
+        125
+      ],
+      "currently": [
+        127
+      ],
+      "facing": [
+        128
+      ],
+      "various": [
+        129
+      ],
+      "ecological": [
+        130
+      ],
+      "problems.": [
+        131
+      ],
+      "Conclusions:": [
+        132
+      ],
+      "Literature": [
+        133
+      ],
+      "past": [
+        136
+      ],
+      "teaches": [
+        137
+      ],
+      "have": [
+        141
+      ],
+      "happy": [
+        142
+      ],
+      "lives": [
+        143
+      ],
+      "harmony": [
+        145,
+        189
+      ],
+      "with": [
+        146,
+        190
+      ],
+      "natural": [
+        148
+      ],
+      "world.": [
+        149
+      ],
+      "These": [
+        150
+      ],
+      "eco-literary": [
+        151
+      ],
+      "masterpieces": [
+        152
+      ],
+      "speak": [
+        153
+      ],
+      "eloquently": [
+        154
+      ],
+      "interplay": [
+        157
+      ],
+      "interdependence": [
+        159
+      ],
+      "between": [
+        160
+      ],
+      "humans": [
+        161
+      ],
+      "environment,": [
+        164
+      ],
+      "a": [
+        167
+      ],
+      "central": [
+        168
+      ],
+      "eco-literature.": [
+        171
+      ],
+      "more": [
+        173,
+        181
+      ],
+      "literature": [
+        175
+      ],
+      "read": [
+        177
+      ],
+      "discussed,": [
+        179
+      ],
+      "man": [
+        182
+      ],
+      "will": [
+        183
+      ],
+      "come": [
+        184
+      ],
+      "understand": [
+        186
+      ],
+      "how-to": [
+        187
+      ],
+      "live-in": [
+        188
+      ],
+      "nature": [
+        191
+      ],
+      "address": [
+        193
+      ],
+      "current": [
+        195
+      ],
+      "global": [
+        196
+      ],
+      "environmental": [
+        197
+      ],
+      "crisis.": [
+        198
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2025-10-10T00:00:00"
+  }
+]

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Amiri&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="mirador/css/mirador-combined.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<script
+	  src="https://code.jquery.com/jquery-3.4.1.min.js"
+	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  crossorigin="anonymous"></script>
+
+    <title>DREAMSEA Catalog - Manuscript Details</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+
+  </head>
+  <body class="d-flex flex-column h-100">
+
+  <style>
+/* Show it is fixed to the top */
+body {
+	  /*min-height: 95rem;*/
+	  padding-top: 3rem;
+	  line-height:1;
+	}
+nav {
+	font-family:'Amiri', serif;
+}
+</style>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="background-color: #1F232B!important;">
+<div class="container">
+    <a class="navbar-brand" href="index.php">DREAMSEA Repository</a>
+    <div class="my-2 my-md-0">
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+		   <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarCollapse">
+		<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+		  <li class="nav-item">
+			<a class="nav-link" href="manuscripts.php" style="color:white;font-size:20px;">Manuscripts</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="about.php" style="color:white;font-size:20px;">About</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="contact.php" style="color:white;font-size:20px;">Contact</a>
+		  </li>
+		</ul>
+	  </div>
+	</div>
+	</div>
+</nav>
+
+  <div class="container"><br>
+
+
+<div class="row pt-1">
+    <div class="col-7"><h1 style="font-family:'Amiri', serif;">Manuscript Details</h1></div>
+    <div class="col-5 text-right"><a class="btn btn-outline-dark mt-1" href="manuscripts.php" role="button">New Search</a>&nbsp;<button class="btn btn-primary mt-1" onclick="window.history.back();"><i class="fas fa-reply"></i> Results</button></div>
+</div>
+<hr>
+
+			<div class="row">
+				<div class="col-12" style="width:100%;height:671px;"><div id="viewer" oncontextmenu="return false;" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></div></div>
+			</div>
+			<!--div id="viewer"></div-->
+
+			<script src="mirador/mirador.js"></script>
+			<script type="text/javascript">
+			 $(function() {
+			   myMiradorInstance = Mirador({
+				 "id": "viewer",
+				 "buildPath": "mirador/",
+				 "data": [
+				   { "manifestUri": "https://www.vhmml.org/image/manifest/628353", "location": "HMML"},
+				   { "manifestUri": "https://www.vhmml.org/image/manifest/510575", "location": "HMML"},
+				   { "manifestUri": "https://www.vhmml.org/image/manifest/510571", "location": "HMML"}
+				 ],
+				 "windowObjects": [{
+				   loadedManifest: "https://www.vhmml.org/image/manifest/628353",
+				   viewType: "ImageView"
+				 }],
+				 "annotationEndpoint": { "name":"Local Storage", "module": "LocalStorageEndpoint" },
+				 "windowSettings": {
+				   "canvasControls": { // The types of controls available to be displayed on a canvas
+					 "imageManipulation" : {
+					   "manipulationLayer" : true,
+					   "controls" : {
+						 "mirror" : true
+					   }
+					 }
+				   }
+				 }
+			   });
+			 });
+    		</script>
+
+		<dl class='row py-5'><dt class='col-sm-3'>DREAMSEA Project No.:</dt><dd class='col-sm-9'>DS 0075 00006</dd><dt class='col-sm-3'>Institution:</dt><dd class='col-sm-9'>HMML; DREAMSEA</dd><dt class='col-sm-3'>Surrogate Format:</dt><dd class='col-sm-9'>Digital</dd><dt class='col-sm-3'>IIIF Manifest:</dt><dd class='col-sm-9'>https://www.vhmml.org/image/manifest/628353</dd><dt class='col-sm-3'>Country:</dt><dd class='col-sm-9'>Laos</dd><dt class='col-sm-3'>City (Province):</dt><dd class='col-sm-9'>Luang Prabang</dd><dt class='col-sm-3'>Name of collection:</dt><dd class='col-sm-9'>Private Collection of Francis Engelmann</dd><dt class='col-sm-3'>Right to Left?:</dt><dd class='col-sm-9'>No</dd><dt class='col-sm-3'>Current Status:</dt><dd class='col-sm-9'>In situ</dd><dt class='col-sm-3'>Sponsor:</dt><dd class='col-sm-9'>Anonymous</dd><dt class='col-sm-3'>Subject matter:</dt><dd class='col-sm-9'>Linguistics</dd><dt class='col-sm-3'>Copyist:</dt><dd class='col-sm-9'>Anonymous</dd><dt class='col-sm-3'>Place of copying:</dt><dd class='col-sm-9'>Vientiane capital</dd><dt class='col-sm-3'>Script:</dt><dd class='col-sm-9'>Tham Lao</dd><dt class='col-sm-3'>Writing support:</dt><dd class='col-sm-9'>Palm-leaf</dd><dt class='col-sm-3'>Watermark?:</dt><dd class='col-sm-9'>No</dd><dt class='col-sm-3'>Countermark?:</dt><dd class='col-sm-9'>No</dd><dt class='col-sm-3'>Manuscript cover?:</dt><dd class='col-sm-9'>Yes</dd><dt class='col-sm-3'>Binding?:</dt><dd class='col-sm-9'>No</dd><dt class='col-sm-3'>Manuscript cover dimension:</dt><dd class='col-sm-9'>57.9 x 4.8 cm</dd><dt class='col-sm-3'>Manuscript paper dimension:</dt><dd class='col-sm-9'>57.9 x 4.8 cm</dd><dt class='col-sm-3'>Text block dimension:</dt><dd class='col-sm-9'>49.6 x 3.5 cm</dd><dt class='col-sm-3'>Number of pages:</dt><dd class='col-sm-9'>38 pages</dd><dt class='col-sm-3'>Number of blank pages:</dt><dd class='col-sm-9'>2 pages</dd><dt class='col-sm-3'>Rubrication?:</dt><dd class='col-sm-9'>No</dd><dt class='col-sm-3'>Illumination?:</dt><dd class='col-sm-9'>No</dd><dt class='col-sm-3'>Illustration?:</dt><dd class='col-sm-9'>No</dd><dt class='col-sm-3'>Manuscript condition:</dt><dd class='col-sm-9'>Good</dd><dt class='col-sm-3'>Description of manuscript content:</dt><dd class='col-sm-9'>The text is used for studying Pali language. It was written in Nissaya style, which is Pali word first and followed by Lao word as translation word by word. This study was running at the monastic schools and later in the Pali schools in Laos during the 20th century. Nowaday, it is taught in Buddhist schools and universities.</dd><dt class='col-sm-12'><hr></dt><dt class='col-sm-12'>Item 1 - Title in Native script:</dt><dd class='col-sm-12'>ສັບສົນ (ຜູກ 5)</dd><dt class='col-sm-12'>Item 1 - Title in Roman script:</dt><dd class='col-sm-12'>Sab son (phuk 5)</dd><dt class='col-sm-12'>Item 1 - Title in English script:</dt><dd class='col-sm-12'>Sop son (fascicle 5)</dd><dt class='col-sm-12'>Item 1 - Author:</dt><dd class='col-sm-12'>Anonymous</dd><dt class='col-sm-12'>Item 1 - Language:</dt><dd class='col-sm-12'>Lao; Pali</dd></dl>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </div>
+
+  <a href="#0" class="cd-top js-cd-top">Top</a>
+  <script src="js/main.js"></script> <!-- Resource JavaScript Back to top -->
+
+  <br>
+<script src="https://cdn.usefathom.com/script.js" data-site="CFOFRONF" defer></script><footer class="footer mt-auto py-3" style="background-color: #1F232B!important;">
+	  <div class="container">
+      <div class="row align-items-center justify-content-center">
+		<div class="col-lg-3 text-center" style="padding:40px;">
+            <a href="http://hmml.org/" target="_blank"><img height="60px" src="img/HMML_Logo_REV.png" alt="HMML Logo"></a>
+        </div>
+		<div class="col-lg-2 text-center" style="padding:20px;">
+            <a href="https://dreamsea.co/" target="_blank"><img height="110px" src="img/DREAMSEA_White_Black_Form.png" alt="DREAMSEA Logo"></a>
+        </div>
+		<div class="col-lg-2 text-center" style="padding:20px;">
+            <a href="https://ppim.uinjkt.ac.id/" target="_blank"><img height="60px" src="img/Logo_PPIM.png" alt="PPIM Logo"></a>
+        </div>
+		<div class="col-lg-3 text-center" style="padding:20px;">
+            <a href="https://www.uni-hamburg.de/" target="_blank"><img height="60px" src="img/Logo_Hamburg_University.png" alt="Hamburg University Logo"></a>
+        </div>
+		<div class="col-lg-2 text-center" style="padding:20px;">
+            <a href="https://www.arcadiafund.org.uk/" target="_blank"><img src="img/arcadia-new-logo.png" alt="Arcadia Logo"></a>
+        </div>
+    </div>
+	</div>
+</footer>
+
+  </body>
+</html>

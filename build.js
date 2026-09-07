@@ -161,6 +161,9 @@ const htmlTemplate = `<!DOCTYPE html>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <link rel="manifest" href="manifest.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@400;600;700&display=swap" rel="stylesheet">
 ${faviconData ? `<link rel="icon" type="image/png" href="${faviconData}">` : ''}
 <link rel="apple-touch-icon" href="assets/icon-markmak.png">
 <style>
@@ -543,6 +546,7 @@ if (domIdMatches) {
 
 // 6. Automated Backup & Output Generation
 const targetFile = path.join(ROOT, 'MDBrowse.html');
+const indexFile = path.join(ROOT, 'index.html');
 const backupFile = path.join(ROOT, 'MDBrowse_stable_backup.html');
 
 if (fs.existsSync(targetFile)) {
@@ -551,7 +555,8 @@ if (fs.existsSync(targetFile)) {
 }
 
 fs.writeFileSync(targetFile, htmlTemplate, 'utf8');
-console.log('Build successful: MDBrowse.html generated (' + htmlTemplate.length + ' bytes)');
+fs.writeFileSync(indexFile, htmlTemplate, 'utf8');
+console.log('Build successful: MDBrowse.html & index.html generated (' + htmlTemplate.length + ' bytes)');
 
 // Update Desktop and Project Shortcuts
 try {

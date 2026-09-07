@@ -1,0 +1,2691 @@
+[
+  {
+    "id": "https://openalex.org/W4396684145",
+    "doi": "https://doi.org/10.69486/112.1.2024.6",
+    "title": "The “Kammatthan Buddhist Tradition” of Mainland Southeast Asia: Where Do We Stand?",
+    "display_name": "The “Kammatthan Buddhist Tradition” of Mainland Southeast Asia: Where Do We Stand?",
+    "relevance_score": 15.657184,
+    "publication_year": 2024,
+    "publication_date": "2024-05-06",
+    "ids": {
+      "openalex": "https://openalex.org/W4396684145",
+      "doi": "https://doi.org/10.69486/112.1.2024.6"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.69486/112.1.2024.6",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.69486/112.1.2024.6",
+      "pdf_url": "https://so06.tci-thaijo.org/index.php/pub_jss/article/download/274807/183278",
+      "source": {
+        "id": "https://openalex.org/S4404675123",
+        "display_name": "Journal of the Siam Society",
+        "issn_l": "0304-226X",
+        "issn": [
+          "0304-226X",
+          "2651-1851"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of the Siam Society",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://so06.tci-thaijo.org/index.php/pub_jss/article/download/274807/183278",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "École française d’Extrême-Orient",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "École française d’Extrême-Orient",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": null,
+          "display_name": "Gregory Kourilsky",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210092825",
+            "display_name": "École Française d'Extrême-Orient",
+            "ror": "https://ror.org/00fmnpw63",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210092825"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Gregory Kourilsky",
+        "raw_affiliation_strings": [
+          "École française d’Extrême-Orient"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "École française d’Extrême-Orient",
+            "institution_ids": [
+              "https://openalex.org/I4210092825"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.07778991,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "112",
+      "issue": "1",
+      "first_page": "85",
+      "last_page": "130"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11563",
+      "display_name": "Indian and Buddhist Studies",
+      "score": 0.9948999881744385,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.9948999881744385,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12956",
+        "display_name": "Asian Geopolitics and Ethnography",
+        "score": 0.9811000227928162,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13002",
+        "display_name": "Southeast Asian Sociopolitical Studies",
+        "score": 0.9740999937057495,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.9149787425994873
+      },
+      {
+        "id": "https://openalex.org/keywords/meditation",
+        "display_name": "Meditation",
+        "score": 0.8554661273956299
+      },
+      {
+        "id": "https://openalex.org/keywords/vernacular",
+        "display_name": "Vernacular",
+        "score": 0.834678053855896
+      },
+      {
+        "id": "https://openalex.org/keywords/southeast-asia",
+        "display_name": "Southeast asia",
+        "score": 0.6863176822662354
+      },
+      {
+        "id": "https://openalex.org/keywords/mainland",
+        "display_name": "Mainland",
+        "score": 0.663460910320282
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.5168376564979553
+      },
+      {
+        "id": "https://openalex.org/keywords/south-asia",
+        "display_name": "South asia",
+        "score": 0.44479554891586304
+      },
+      {
+        "id": "https://openalex.org/keywords/asian-studies",
+        "display_name": "Asian studies",
+        "score": 0.43078097701072693
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.3784793019294739
+      },
+      {
+        "id": "https://openalex.org/keywords/anthropology",
+        "display_name": "Anthropology",
+        "score": 0.3371295928955078
+      },
+      {
+        "id": "https://openalex.org/keywords/geography",
+        "display_name": "Geography",
+        "score": 0.3249010741710663
+      },
+      {
+        "id": "https://openalex.org/keywords/ancient-history",
+        "display_name": "Ancient history",
+        "score": 0.30788713693618774
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.2327776849269867
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.21736818552017212
+      },
+      {
+        "id": "https://openalex.org/keywords/china",
+        "display_name": "China",
+        "score": 0.12264403700828552
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.11214357614517212
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.9149787425994873
+      },
+      {
+        "id": "https://openalex.org/C521822307",
+        "wikidata": "https://www.wikidata.org/wiki/Q108458",
+        "display_name": "Meditation",
+        "level": 2,
+        "score": 0.8554661273956299
+      },
+      {
+        "id": "https://openalex.org/C2780386941",
+        "wikidata": "https://www.wikidata.org/wiki/Q1036511",
+        "display_name": "Vernacular",
+        "level": 2,
+        "score": 0.834678053855896
+      },
+      {
+        "id": "https://openalex.org/C3019398675",
+        "wikidata": "https://www.wikidata.org/wiki/Q11708",
+        "display_name": "Southeast asia",
+        "level": 2,
+        "score": 0.6863176822662354
+      },
+      {
+        "id": "https://openalex.org/C2781300146",
+        "wikidata": "https://www.wikidata.org/wiki/Q1140140",
+        "display_name": "Mainland",
+        "level": 2,
+        "score": 0.663460910320282
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.5168376564979553
+      },
+      {
+        "id": "https://openalex.org/C3019281177",
+        "wikidata": "https://www.wikidata.org/wiki/Q771405",
+        "display_name": "South asia",
+        "level": 2,
+        "score": 0.44479554891586304
+      },
+      {
+        "id": "https://openalex.org/C206440729",
+        "wikidata": "https://www.wikidata.org/wiki/Q4806809",
+        "display_name": "Asian studies",
+        "level": 3,
+        "score": 0.43078097701072693
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.3784793019294739
+      },
+      {
+        "id": "https://openalex.org/C19165224",
+        "wikidata": "https://www.wikidata.org/wiki/Q23404",
+        "display_name": "Anthropology",
+        "level": 1,
+        "score": 0.3371295928955078
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.3249010741710663
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.30788713693618774
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.2327776849269867
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.21736818552017212
+      },
+      {
+        "id": "https://openalex.org/C191935318",
+        "wikidata": "https://www.wikidata.org/wiki/Q148",
+        "display_name": "China",
+        "level": 2,
+        "score": 0.12264403700828552
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.11214357614517212
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.69486/112.1.2024.6",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.69486/112.1.2024.6",
+        "pdf_url": "https://so06.tci-thaijo.org/index.php/pub_jss/article/download/274807/183278",
+        "source": {
+          "id": "https://openalex.org/S4404675123",
+          "display_name": "Journal of the Siam Society",
+          "issn_l": "0304-226X",
+          "issn": [
+            "0304-226X",
+            "2651-1851"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of the Siam Society",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.69486/112.1.2024.6",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.69486/112.1.2024.6",
+      "pdf_url": "https://so06.tci-thaijo.org/index.php/pub_jss/article/download/274807/183278",
+      "source": {
+        "id": "https://openalex.org/S4404675123",
+        "display_name": "Journal of the Siam Society",
+        "issn_l": "0304-226X",
+        "issn": [
+          "0304-226X",
+          "2651-1851"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of the Siam Society",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/4",
+        "score": 0.4399999976158142,
+        "display_name": "Quality Education"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4396684145.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4396684145.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2386036654",
+      "https://openalex.org/W2977612880",
+      "https://openalex.org/W2239057824",
+      "https://openalex.org/W4281971433",
+      "https://openalex.org/W2367198328",
+      "https://openalex.org/W4229081716",
+      "https://openalex.org/W4236263371",
+      "https://openalex.org/W1985314655",
+      "https://openalex.org/W2486783344",
+      "https://openalex.org/W600497861"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "review": [
+        1
+      ],
+      "article": [
+        2
+      ],
+      "explores": [
+        3
+      ],
+      "the": [
+        4,
+        26,
+        65
+      ],
+      "distinctive": [
+        5
+      ],
+      "Tai–Khmer": [
+        6
+      ],
+      "Buddhist": [
+        7,
+        96
+      ],
+      "tradition": [
+        8,
+        15
+      ],
+      "of": [
+        9,
+        64,
+        69
+      ],
+      "meditation,": [
+        10
+      ],
+      "so-called": [
+        11
+      ],
+      "kammaṭṭhān(a)": [
+        12
+      ],
+      "or": [
+        13
+      ],
+      "yogāvacar(a)": [
+        14
+      ],
+      "in": [
+        16,
+        25,
+        53,
+        76
+      ],
+      "recent": [
+        17,
+        58
+      ],
+      "literature,": [
+        18
+      ],
+      "initially": [
+        19
+      ],
+      "identified": [
+        20
+      ],
+      "by": [
+        21
+      ],
+      "T.W.": [
+        22
+      ],
+      "Rhys": [
+        23
+      ],
+      "Davids": [
+        24
+      ],
+      "late": [
+        27
+      ],
+      "19th": [
+        28
+      ],
+      "century.": [
+        29
+      ],
+      "French": [
+        30
+      ],
+      "scholars": [
+        31
+      ],
+      "like": [
+        32
+      ],
+      "F.": [
+        33
+      ],
+      "Bizot": [
+        34
+      ],
+      "and": [
+        35,
+        50,
+        88
+      ],
+      "British": [
+        36
+      ],
+      "scholar": [
+        37
+      ],
+      "K.": [
+        38
+      ],
+      "Crosby": [
+        39
+      ],
+      "have": [
+        40
+      ],
+      "continued": [
+        41
+      ],
+      "to": [
+        42,
+        91
+      ],
+      "study": [
+        43
+      ],
+      "this": [
+        44,
+        77
+      ],
+      "tradition,": [
+        45
+      ],
+      "revealing": [
+        46
+      ],
+      "its": [
+        47
+      ],
+      "unique": [
+        48
+      ],
+      "practices": [
+        49
+      ],
+      "vernacular": [
+        51
+      ],
+      "literature": [
+        52
+      ],
+      "mainland": [
+        54
+      ],
+      "Southeast": [
+        55,
+        70
+      ],
+      "Asia.": [
+        56
+      ],
+      "Crosby’s": [
+        57
+      ],
+      "work,": [
+        59
+      ],
+      "Esoteric": [
+        60
+      ],
+      "Theravada:": [
+        61
+      ],
+      "The": [
+        62,
+        79
+      ],
+      "Story": [
+        63
+      ],
+      "Forgotten": [
+        66
+      ],
+      "Meditation": [
+        67
+      ],
+      "Tradition": [
+        68
+      ],
+      "Asia": [
+        71
+      ],
+      "(2020),": [
+        72
+      ],
+      "is": [
+        73
+      ],
+      "critically": [
+        74
+      ],
+      "examined": [
+        75
+      ],
+      "study.": [
+        78
+      ],
+      "analysis": [
+        80
+      ],
+      "assesses": [
+        81
+      ],
+      "her": [
+        82,
+        86
+      ],
+      "new": [
+        83
+      ],
+      "findings,": [
+        84
+      ],
+      "discusses": [
+        85
+      ],
+      "sources,": [
+        87
+      ],
+      "offers": [
+        89
+      ],
+      "reflections": [
+        90
+      ],
+      "enhance": [
+        92
+      ],
+      "understanding": [
+        93
+      ],
+      "within": [
+        94
+      ],
+      "contemporary": [
+        95
+      ],
+      "studies.": [
+        97
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-08-23T07:36:19.812096",
+    "created_date": "2024-05-07T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W2960791305",
+    "doi": null,
+    "title": "The Dhammakāyānussati-kathā: A Trace of “Siam's Borān Buddhism” from the Reign of Rāmā I (1782-1809 CE.)",
+    "display_name": "The Dhammakāyānussati-kathā: A Trace of “Siam's Borān Buddhism” from the Reign of Rāmā I (1782-1809 CE.)",
+    "relevance_score": 9.618548,
+    "publication_year": 2019,
+    "publication_date": "2019-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2960791305",
+      "mag": "2960791305"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:alma.64OTAGO_INST:11396522080001891",
+      "is_oa": true,
+      "landing_page_url": "https://ourarchive.otago.ac.nz/esploro/outputs/graduate/The-Dhammakāyānussati-kathā-A-Trace-of-Siams/9926478512601891",
+      "pdf_url": "https://ourarchive.otago.ac.nz/view/delivery/64OTAGO_INST/12396522070001891/13397057890001891",
+      "source": {
+        "id": "https://openalex.org/S4306402094",
+        "display_name": "Otago University Research Archive (University of Otago)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I80281795",
+        "host_organization_name": "University of Otago",
+        "host_organization_lineage": [
+          "https://openalex.org/I80281795"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Masters Thesis"
+    },
+    "type": "dissertation",
+    "indexed_in": [],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://ourarchive.otago.ac.nz/view/delivery/64OTAGO_INST/12396522070001891/13397057890001891",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5025077689",
+          "display_name": "Woramat Malasart",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Woramat Malasart",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5025077689"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": true,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13002",
+      "display_name": "Southeast Asian Sociopolitical Studies",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13002",
+        "display_name": "Southeast Asian Sociopolitical Studies",
+        "score": 0.9995999932289124,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12956",
+        "display_name": "Asian Geopolitics and Ethnography",
+        "score": 0.9983000159263611,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13525",
+        "display_name": "Cambodian History and Society",
+        "score": 0.9750999808311462,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/reign",
+        "display_name": "Reign",
+        "score": 0.9251963496208191
+      },
+      {
+        "id": "https://openalex.org/keywords/trace",
+        "display_name": "TRACE (psycholinguistics)",
+        "score": 0.6967151165008545
+      },
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.6608477234840393
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.5401811003684998
+      },
+      {
+        "id": "https://openalex.org/keywords/theology",
+        "display_name": "Theology",
+        "score": 0.3923807144165039
+      },
+      {
+        "id": "https://openalex.org/keywords/ancient-history",
+        "display_name": "Ancient history",
+        "score": 0.33607590198516846
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.2902117669582367
+      },
+      {
+        "id": "https://openalex.org/keywords/political-science",
+        "display_name": "Political science",
+        "score": 0.10923412442207336
+      },
+      {
+        "id": "https://openalex.org/keywords/law",
+        "display_name": "Law",
+        "score": 0.05692267417907715
+      },
+      {
+        "id": "https://openalex.org/keywords/linguistics",
+        "display_name": "Linguistics",
+        "score": 0.04982396960258484
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2777228553",
+        "wikidata": "https://www.wikidata.org/wiki/Q7310094",
+        "display_name": "Reign",
+        "level": 3,
+        "score": 0.9251963496208191
+      },
+      {
+        "id": "https://openalex.org/C75291252",
+        "wikidata": "https://www.wikidata.org/wiki/Q1315756",
+        "display_name": "TRACE (psycholinguistics)",
+        "level": 2,
+        "score": 0.6967151165008545
+      },
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.6608477234840393
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.5401811003684998
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.3923807144165039
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.33607590198516846
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.2902117669582367
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.10923412442207336
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.05692267417907715
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.04982396960258484
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "pmh:oai:alma.64OTAGO_INST:11396522080001891",
+        "is_oa": true,
+        "landing_page_url": "https://ourarchive.otago.ac.nz/esploro/outputs/graduate/The-Dhammakāyānussati-kathā-A-Trace-of-Siams/9926478512601891",
+        "pdf_url": "https://ourarchive.otago.ac.nz/view/delivery/64OTAGO_INST/12396522070001891/13397057890001891",
+        "source": {
+          "id": "https://openalex.org/S4306402094",
+          "display_name": "Otago University Research Archive (University of Otago)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I80281795",
+          "host_organization_name": "University of Otago",
+          "host_organization_lineage": [
+            "https://openalex.org/I80281795"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Masters Thesis"
+      },
+      {
+        "id": "pmh:oai:ourarchive.otago.ac.nz:10523/9503",
+        "is_oa": true,
+        "landing_page_url": "http://hdl.handle.net/10523/9503",
+        "pdf_url": "http://hdl.handle.net/10523/9503",
+        "source": {
+          "id": "https://openalex.org/S4306402094",
+          "display_name": "Otago University Research Archive (University of Otago)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I80281795",
+          "host_organization_name": "University of Otago",
+          "host_organization_lineage": [
+            "https://openalex.org/I80281795"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "Thesis or Dissertation"
+      },
+      {
+        "id": "mag:2960791305",
+        "is_oa": false,
+        "landing_page_url": "https://ourarchive.otago.ac.nz/handle/10523/9503",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:alma.64OTAGO_INST:11396522080001891",
+      "is_oa": true,
+      "landing_page_url": "https://ourarchive.otago.ac.nz/esploro/outputs/graduate/The-Dhammakāyānussati-kathā-A-Trace-of-Siams/9926478512601891",
+      "pdf_url": "https://ourarchive.otago.ac.nz/view/delivery/64OTAGO_INST/12396522070001891/13397057890001891",
+      "source": {
+        "id": "https://openalex.org/S4306402094",
+        "display_name": "Otago University Research Archive (University of Otago)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I80281795",
+        "host_organization_name": "University of Otago",
+        "host_organization_lineage": [
+          "https://openalex.org/I80281795"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Masters Thesis"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320308380",
+        "display_name": "Yale University",
+        "ror": "https://ror.org/03v76x132"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2960791305.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2960791305.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2794752984",
+      "https://openalex.org/W568279890",
+      "https://openalex.org/W618292160",
+      "https://openalex.org/W1707420065",
+      "https://openalex.org/W2795291988"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        84,
+        104,
+        133,
+        204
+      ],
+      "Dhammakāya": [
+        1,
+        118,
+        213
+      ],
+      "text": [
+        2,
+        119,
+        158,
+        214
+      ],
+      "genre": [
+        3,
+        23,
+        215
+      ],
+      "appears": [
+        4
+      ],
+      "in": [
+        5,
+        12,
+        90,
+        151,
+        173,
+        183,
+        233,
+        244,
+        267
+      ],
+      "manuscripts,": [
+        6
+      ],
+      "inscriptions,": [
+        7
+      ],
+      "and": [
+        8,
+        17,
+        30,
+        44,
+        186,
+        190,
+        202,
+        235,
+        274
+      ],
+      "printed": [
+        9
+      ],
+      "texts": [
+        10,
+        179,
+        209
+      ],
+      "found": [
+        11,
+        150
+      ],
+      "Central": [
+        13,
+        174
+      ],
+      "Thailand,": [
+        14,
+        16,
+        175
+      ],
+      "Northern": [
+        15,
+        184
+      ],
+      "Cambodia.": [
+        18
+      ],
+      "Texts": [
+        19
+      ],
+      "belonging": [
+        20,
+        210
+      ],
+      "to": [
+        21,
+        33,
+        81,
+        163,
+        211,
+        269
+      ],
+      "this": [
+        22,
+        38
+      ],
+      "share": [
+        24,
+        111
+      ],
+      "the": [
+        25,
+        34,
+        46,
+        50,
+        53,
+        61,
+        73,
+        82,
+        94,
+        109,
+        112,
+        117,
+        122,
+        127,
+        137,
+        152,
+        164,
+        168,
+        191,
+        195,
+        212,
+        218,
+        223,
+        241,
+        249,
+        252,
+        257,
+        264
+      ],
+      "same": [
+        26
+      ],
+      "core": [
+        27,
+        113
+      ],
+      "Pāli": [
+        28,
+        91,
+        114,
+        134
+      ],
+      "verses,": [
+        29
+      ],
+      "date": [
+        31
+      ],
+      "back": [
+        32
+      ],
+      "Ayutthaya": [
+        35
+      ],
+      "period.": [
+        36
+      ],
+      "In": [
+        37
+      ],
+      "thesis,": [
+        39
+      ],
+      "I": [
+        40,
+        246
+      ],
+      "transliterate,": [
+        41
+      ],
+      "translate,": [
+        42
+      ],
+      "contextualise": [
+        43
+      ],
+      "analyse": [
+        45
+      ],
+      "Dhammakāyānussati-kathā,": [
+        47
+      ],
+      "“Words": [
+        48
+      ],
+      "on": [
+        49
+      ],
+      "Recollection": [
+        51
+      ],
+      "of": [
+        52,
+        55,
+        60,
+        67,
+        87,
+        108,
+        116,
+        193,
+        251,
+        259
+      ],
+      "Body": [
+        54
+      ],
+      "Dhammas,”": [
+        56
+      ],
+      "which": [
+        57,
+        125
+      ],
+      "was": [
+        58,
+        227,
+        238
+      ],
+      "part": [
+        59
+      ],
+      "Suat": [
+        62
+      ],
+      "Mon": [
+        63
+      ],
+      "Plae,": [
+        64
+      ],
+      "a": [
+        65,
+        78,
+        98,
+        157,
+        199
+      ],
+      "collection": [
+        66
+      ],
+      "Buddhist": [
+        68
+      ],
+      "chanting": [
+        69,
+        225
+      ],
+      "rituals": [
+        70
+      ],
+      "compiled": [
+        71
+      ],
+      "during": [
+        72,
+        188,
+        217,
+        240,
+        263
+      ],
+      "1st": [
+        74,
+        165
+      ],
+      "reign": [
+        75,
+        220,
+        266
+      ],
+      "(1782-1809),": [
+        76
+      ],
+      "using": [
+        77,
+        97
+      ],
+      "historical-critical": [
+        79
+      ],
+      "approach": [
+        80
+      ],
+      "text.": [
+        83
+      ],
+      "Dhammakāyānussati-kathā": [
+        85,
+        110,
+        169,
+        205,
+        253
+      ],
+      "consists": [
+        86
+      ],
+      "verses": [
+        88,
+        115,
+        146
+      ],
+      "composed": [
+        89
+      ],
+      "followed": [
+        92
+      ],
+      "by": [
+        93
+      ],
+      "Thai": [
+        95
+      ],
+      "translation,": [
+        96
+      ],
+      "traditional": [
+        99
+      ],
+      "method": [
+        100
+      ],
+      "called": [
+        101
+      ],
+      "yok": [
+        102
+      ],
+      "sab.": [
+        103
+      ],
+      "first": [
+        105
+      ],
+      "three": [
+        106
+      ],
+      "parts": [
+        107
+      ],
+      "genre,": [
+        120
+      ],
+      "but": [
+        121,
+        176
+      ],
+      "final": [
+        123
+      ],
+      "section,": [
+        124
+      ],
+      "praises": [
+        126
+      ],
+      "Buddha’s": [
+        128,
+        138,
+        196
+      ],
+      "physical": [
+        129
+      ],
+      "body,": [
+        130
+      ],
+      "is": [
+        131,
+        170,
+        254
+      ],
+      "different.": [
+        132
+      ],
+      "vers-es": [
+        135
+      ],
+      "describe": [
+        136
+      ],
+      "auspicious": [
+        139
+      ],
+      "marks": [
+        140
+      ],
+      "including": [
+        141
+      ],
+      "radiance,": [
+        142
+      ],
+      "hair,": [
+        143
+      ],
+      "height,": [
+        144
+      ],
+      "etc.,": [
+        145
+      ],
+      "that": [
+        147,
+        159,
+        248
+      ],
+      "are": [
+        148,
+        180
+      ],
+      "also": [
+        149
+      ],
+      "Golden": [
+        153
+      ],
+      "Manuscript": [
+        154
+      ],
+      "Braḥ": [
+        155
+      ],
+      "Dhammakāya,": [
+        156
+      ],
+      "can": [
+        160
+      ],
+      "be": [
+        161
+      ],
+      "dated": [
+        162
+      ],
+      "reign.": [
+        166
+      ],
+      "Today,": [
+        167
+      ],
+      "not": [
+        171
+      ],
+      "well-known": [
+        172
+      ],
+      "its": [
+        177
+      ],
+      "similar": [
+        178
+      ],
+      "still": [
+        181
+      ],
+      "used": [
+        182
+      ],
+      "Thailand": [
+        185
+      ],
+      "Cambodia": [
+        187
+      ],
+      "buddhābhiṣeka": [
+        189
+      ],
+      "ritual": [
+        192
+      ],
+      "installing": [
+        194
+      ],
+      "heart": [
+        197
+      ],
+      "into": [
+        198
+      ],
+      "Buddha": [
+        200
+      ],
+      "statute": [
+        201
+      ],
+      "chedī.": [
+        203
+      ],
+      "along": [
+        206
+      ],
+      "with": [
+        207
+      ],
+      "other": [
+        208
+      ],
+      "disappeared": [
+        216
+      ],
+      "5th": [
+        219,
+        265
+      ],
+      "(1868-1910),": [
+        221
+      ],
+      "when": [
+        222
+      ],
+      "royal": [
+        224
+      ],
+      "curriculum": [
+        226
+      ],
+      "reformed": [
+        228
+      ],
+      "under": [
+        229
+      ],
+      "Supreme": [
+        230
+      ],
+      "Patriarch": [
+        231
+      ],
+      "Sā": [
+        232
+      ],
+      "1880,": [
+        234
+      ],
+      "Siam’s": [
+        236,
+        260
+      ],
+      "Tipiṭaka": [
+        237
+      ],
+      "revised": [
+        239
+      ],
+      "10th": [
+        242
+      ],
+      "Saṇgāyanā": [
+        243
+      ],
+      "1893.": [
+        245
+      ],
+      "conclude": [
+        247
+      ],
+      "disappearance": [
+        250
+      ],
+      "evidence": [
+        255
+      ],
+      "for": [
+        256
+      ],
+      "suppression": [
+        258
+      ],
+      "“Borān”": [
+        261
+      ],
+      "Buddhism": [
+        262
+      ],
+      "response": [
+        268
+      ],
+      "modernist": [
+        270
+      ],
+      "concerns": [
+        271
+      ],
+      "about": [
+        272
+      ],
+      "canonicity": [
+        273
+      ],
+      "textual": [
+        275
+      ],
+      "authenticity.": [
+        276
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2021,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-28T12:50:07.497085",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4416093984",
+    "doi": "https://doi.org/10.3390/rel16111433",
+    "title": "Phra Lakkhaṇa Dhamma: A Unique Siamese Meditation Text of the Late 18th Century",
+    "display_name": "Phra Lakkhaṇa Dhamma: A Unique Siamese Meditation Text of the Late 18th Century",
+    "relevance_score": 5.8262815,
+    "publication_year": 2025,
+    "publication_date": "2025-11-09",
+    "ids": {
+      "openalex": "https://openalex.org/W4416093984",
+      "doi": "https://doi.org/10.3390/rel16111433"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/rel16111433",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/rel16111433",
+      "pdf_url": "https://www.mdpi.com/2077-1444/16/11/1433/pdf?version=1762682722",
+      "source": {
+        "id": "https://openalex.org/S4210184657",
+        "display_name": "Religions",
+        "issn_l": "2077-1444",
+        "issn": [
+          "2077-1444"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Religions",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2077-1444/16/11/1433/pdf?version=1762682722",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5034880928",
+          "display_name": "Phibul Choompolpaisal",
+          "orcid": "https://orcid.org/0009-0005-0844-2772"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I25399158",
+            "display_name": "Mahidol University",
+            "ror": "https://ror.org/01znkr924",
+            "country_code": "TH",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I25399158"
+            ]
+          }
+        ],
+        "countries": [
+          "TH"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Phibul Choompolpaisal",
+        "raw_affiliation_strings": [
+          "College of Religious Studies, Mahidol University, Bangkok 10400, Thailand"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0005-0844-2772",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Religious Studies, Mahidol University, Bangkok 10400, Thailand",
+            "institution_ids": [
+              "https://openalex.org/I25399158"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5076594117",
+          "display_name": "Andrew Skilton",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I40120149",
+            "display_name": "University of Oxford",
+            "ror": "https://ror.org/052gg0110",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I40120149"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Andrew Skilton",
+        "raw_affiliation_strings": [
+          "Faculty of Asian and Middle Eastern Studies, University of Oxford, Oxford OX1 2LE, UK"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Asian and Middle Eastern Studies, University of Oxford, Oxford OX1 2LE, UK",
+            "institution_ids": [
+              "https://openalex.org/I40120149"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5076594117"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I40120149"
+    ],
+    "apc_list": {
+      "value": 1800,
+      "currency": "CHF",
+      "value_usd": 2172
+    },
+    "apc_paid": {
+      "value": 1800,
+      "currency": "CHF",
+      "value_usd": 2172
+    },
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.22532163,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "16",
+      "issue": "11",
+      "first_page": "1433",
+      "last_page": "1433"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11563",
+      "display_name": "Indian and Buddhist Studies",
+      "score": 0.9258999824523926,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.9258999824523926,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10708",
+        "display_name": "Mindfulness and Compassion Interventions",
+        "score": 0.012400000356137753,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3203",
+          "display_name": "Clinical Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12956",
+        "display_name": "Asian Geopolitics and Ethnography",
+        "score": 0.012400000356137753,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/meditation",
+        "display_name": "Meditation",
+        "score": 0.9168000221252441
+      },
+      {
+        "id": "https://openalex.org/keywords/reign",
+        "display_name": "Reign",
+        "score": 0.769599974155426
+      },
+      {
+        "id": "https://openalex.org/keywords/subject",
+        "display_name": "Subject (documents)",
+        "score": 0.5800999999046326
+      },
+      {
+        "id": "https://openalex.org/keywords/product",
+        "display_name": "Product (mathematics)",
+        "score": 0.3659999966621399
+      },
+      {
+        "id": "https://openalex.org/keywords/lament",
+        "display_name": "Lament",
+        "score": 0.29739999771118164
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C521822307",
+        "wikidata": "https://www.wikidata.org/wiki/Q108458",
+        "display_name": "Meditation",
+        "level": 2,
+        "score": 0.9168000221252441
+      },
+      {
+        "id": "https://openalex.org/C2777228553",
+        "wikidata": "https://www.wikidata.org/wiki/Q7310094",
+        "display_name": "Reign",
+        "level": 3,
+        "score": 0.769599974155426
+      },
+      {
+        "id": "https://openalex.org/C2777855551",
+        "wikidata": "https://www.wikidata.org/wiki/Q12310021",
+        "display_name": "Subject (documents)",
+        "level": 2,
+        "score": 0.5800999999046326
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.47040000557899475
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.42989999055862427
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.38100001215934753
+      },
+      {
+        "id": "https://openalex.org/C90673727",
+        "wikidata": "https://www.wikidata.org/wiki/Q901718",
+        "display_name": "Product (mathematics)",
+        "level": 2,
+        "score": 0.3659999966621399
+      },
+      {
+        "id": "https://openalex.org/C74916050",
+        "wikidata": "https://www.wikidata.org/wiki/Q841090",
+        "display_name": "Classics",
+        "level": 1,
+        "score": 0.3043000102043152
+      },
+      {
+        "id": "https://openalex.org/C2779421831",
+        "wikidata": "https://www.wikidata.org/wiki/Q1471717",
+        "display_name": "Lament",
+        "level": 2,
+        "score": 0.29739999771118164
+      },
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.2906999886035919
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.2621000111103058
+      },
+      {
+        "id": "https://openalex.org/C52119013",
+        "wikidata": "https://www.wikidata.org/wiki/Q50637",
+        "display_name": "Art history",
+        "level": 1,
+        "score": 0.25940001010894775
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.3390/rel16111433",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rel16111433",
+        "pdf_url": "https://www.mdpi.com/2077-1444/16/11/1433/pdf?version=1762682722",
+        "source": {
+          "id": "https://openalex.org/S4210184657",
+          "display_name": "Religions",
+          "issn_l": "2077-1444",
+          "issn": [
+            "2077-1444"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Religions",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:d80bbe1547744650b196176fe2083054",
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/d80bbe1547744650b196176fe2083054",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Religions, Vol 16, Iss 11, p 1433 (2025)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:ora.ox.ac.uk:uuid:f6ff08a4-1828-40bb-9a89-c4530d59c828",
+        "is_oa": false,
+        "landing_page_url": null,
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402636",
+          "display_name": "Oxford University Research Archive (ORA) (University of Oxford)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I40120149",
+          "host_organization_name": "University of Oxford",
+          "host_organization_lineage": [
+            "https://openalex.org/I40120149"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Jisc Publications Router",
+        "raw_type": "http://purl.org/coar/resource_type/c_dcae04bc"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/rel16111433",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/rel16111433",
+      "pdf_url": "https://www.mdpi.com/2077-1444/16/11/1433/pdf?version=1762682722",
+      "source": {
+        "id": "https://openalex.org/S4210184657",
+        "display_name": "Religions",
+        "issn_l": "2077-1444",
+        "issn": [
+          "2077-1444"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Religions",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4416093984.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4416093984.grobid-xml"
+    },
+    "referenced_works_count": 6,
+    "referenced_works": [
+      "https://openalex.org/W2079252221",
+      "https://openalex.org/W2355590181",
+      "https://openalex.org/W2912636765",
+      "https://openalex.org/W2981431960",
+      "https://openalex.org/W2982124512",
+      "https://openalex.org/W3215886904"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        57,
+        85
+      ],
+      "present": [
+        1,
+        11,
+        143
+      ],
+      "article": [
+        2
+      ],
+      "is": [
+        3,
+        152
+      ],
+      "the": [
+        4,
+        10,
+        25,
+        30,
+        35,
+        45,
+        51,
+        70,
+        116,
+        136,
+        142,
+        150
+      ],
+      "product": [
+        5
+      ],
+      "of": [
+        6,
+        33,
+        47,
+        53,
+        69,
+        138
+      ],
+      "ongoing": [
+        7
+      ],
+      "research": [
+        8,
+        140
+      ],
+      "by": [
+        9,
+        141
+      ],
+      "authors": [
+        12,
+        113,
+        144
+      ],
+      "into": [
+        13
+      ],
+      "pre-reform": [
+        14
+      ],
+      "meditation": [
+        15,
+        36
+      ],
+      "traditions": [
+        16
+      ],
+      "in": [
+        17,
+        82,
+        89,
+        93,
+        130
+      ],
+      "Siam.": [
+        18,
+        56
+      ],
+      "Historical": [
+        19
+      ],
+      "and": [
+        20,
+        133,
+        145,
+        156,
+        158
+      ],
+      "textual": [
+        21
+      ],
+      "circumstances": [
+        22
+      ],
+      "indicate": [
+        23
+      ],
+      "that": [
+        24,
+        128
+      ],
+      "Phra": [
+        26
+      ],
+      "Lakkhaṇa": [
+        27
+      ],
+      "Dhamma": [
+        28
+      ],
+      "(lit.,": [
+        29
+      ],
+      "honorable": [
+        31
+      ],
+      "characteristics": [
+        32
+      ],
+      "Dhamma)": [
+        34
+      ],
+      "manuscript": [
+        37,
+        58,
+        91,
+        151
+      ],
+      "under": [
+        38
+      ],
+      "our": [
+        39
+      ],
+      "study": [
+        40
+      ],
+      "here,": [
+        41
+      ],
+      "was": [
+        42
+      ],
+      "copied": [
+        43
+      ],
+      "during": [
+        44,
+        74
+      ],
+      "reign": [
+        46
+      ],
+      "King": [
+        48
+      ],
+      "Taksin": [
+        49
+      ],
+      "(r.1767–1782),": [
+        50
+      ],
+      "founder": [
+        52
+      ],
+      "Thonburi,": [
+        54,
+        94
+      ],
+      "post-Ayutthaya": [
+        55
+      ],
+      "has,": [
+        59
+      ],
+      "until": [
+        60
+      ],
+      "now,": [
+        61
+      ],
+      "been": [
+        62,
+        107,
+        135
+      ],
+      "kept": [
+        63
+      ],
+      "unstudied": [
+        64
+      ],
+      "at": [
+        65
+      ],
+      "Wat": [
+        66
+      ],
+      "Hongrattanaram,": [
+        67
+      ],
+      "one": [
+        68
+      ],
+      "most": [
+        71
+      ],
+      "important": [
+        72,
+        98
+      ],
+      "temples": [
+        73
+      ],
+      "Taksin’s": [
+        75
+      ],
+      "reign,": [
+        76
+      ],
+      "located": [
+        77
+      ],
+      "adjacent": [
+        78
+      ],
+      "to": [
+        79,
+        105
+      ],
+      "this": [
+        80,
+        97,
+        104,
+        148
+      ],
+      "palace": [
+        81
+      ],
+      "Thonburi": [
+        83
+      ],
+      "city.": [
+        84
+      ],
+      "authors,": [
+        86
+      ],
+      "while": [
+        87
+      ],
+      "engaged": [
+        88
+      ],
+      "researching": [
+        90
+      ],
+      "collections": [
+        92
+      ],
+      "were": [
+        95
+      ],
+      "shown": [
+        96
+      ],
+      "manuscript.": [
+        99
+      ],
+      "Its": [
+        100
+      ],
+      "contents": [
+        101,
+        161
+      ],
+      "clearly": [
+        102
+      ],
+      "show": [
+        103
+      ],
+      "have": [
+        106,
+        114
+      ],
+      "aligned": [
+        108
+      ],
+      "with": [
+        109
+      ],
+      "what": [
+        110
+      ],
+      "some": [
+        111
+      ],
+      "contemporary": [
+        112
+      ],
+      "designated": [
+        115
+      ],
+      "boran": [
+        117
+      ],
+      "kammatthan": [
+        118
+      ],
+      "(“old-”": [
+        119
+      ],
+      "or": [
+        120,
+        123
+      ],
+      "“traditional": [
+        121
+      ],
+      "meditation”)": [
+        122
+      ],
+      "yogāvacara": [
+        124
+      ],
+      "(“meditation": [
+        125
+      ],
+      "practitioner”)": [
+        126
+      ],
+      "tradition": [
+        127
+      ],
+      "flourished": [
+        129
+      ],
+      "pre-modern": [
+        131
+      ],
+      "Siam": [
+        132
+      ],
+      "has": [
+        134
+      ],
+      "subject": [
+        137
+      ],
+      "recent": [
+        139
+      ],
+      "others.": [
+        146
+      ],
+      "In": [
+        147
+      ],
+      "article,": [
+        149
+      ],
+      "described,": [
+        153
+      ],
+      "summarily": [
+        154
+      ],
+      "translated,": [
+        155
+      ],
+      "contextualised,": [
+        157
+      ],
+      "its": [
+        159
+      ],
+      "meditational": [
+        160
+      ],
+      "are": [
+        162
+      ],
+      "analysed.": [
+        163
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-08-26T07:47:46.906454",
+    "created_date": "2025-11-10T00:00:00"
+  }
+]

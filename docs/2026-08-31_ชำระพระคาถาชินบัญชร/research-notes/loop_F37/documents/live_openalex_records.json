@@ -1,0 +1,2027 @@
+[
+  {
+    "id": "https://openalex.org/W7144035958",
+    "doi": "https://doi.org/10.69200/0002001302",
+    "title": "Jinakalamali における竄入文について",
+    "display_name": "Jinakalamali における竄入文について",
+    "relevance_score": 10.048281,
+    "publication_year": 2023,
+    "publication_date": "2023-10-01",
+    "ids": {
+      "openalex": "https://openalex.org/W7144035958",
+      "doi": "https://doi.org/10.69200/0002001302"
+    },
+    "language": "ja",
+    "primary_location": {
+      "id": "pmh:oai:irdb.nii.ac.jp:01247:0006568603",
+      "is_oa": true,
+      "landing_page_url": "https://komazawa-u.repo.nii.ac.jp/records/2001302",
+      "pdf_url": "https://komazawa-u.repo.nii.ac.jp/record/2001302/files/00675576.pdf",
+      "source": {
+        "id": "https://openalex.org/S7407056385",
+        "display_name": "Institutional Repositories DataBase (IRDB)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I184597095",
+        "host_organization_name": "National Institute of Informatics",
+        "host_organization_lineage": [
+          "https://openalex.org/I184597095"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "駒澤大学佛教学部論集",
+      "raw_type": "departmental bulletin paper"
+    },
+    "type": "article",
+    "indexed_in": [],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://komazawa-u.repo.nii.ac.jp/record/2001302/files/00675576.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5023415774",
+          "display_name": "健一 古山",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "古山, 健一",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5023415774"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.74195534,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "54",
+      "issue": null,
+      "first_page": "342[119]",
+      "last_page": "322[139]"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11198",
+      "display_name": "Japanese History and Culture",
+      "score": 0.1818999946117401,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11198",
+        "display_name": "Japanese History and Culture",
+        "score": 0.1818999946117401,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3316",
+          "display_name": "Cultural Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13854",
+        "display_name": "Historical Geography and Cartography",
+        "score": 0.017400000244379044,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3305",
+          "display_name": "Geography, Planning and Development"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13970",
+        "display_name": "Pharmacy and Medical Practices",
+        "score": 0.01549999974668026,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3004",
+          "display_name": "Pharmacology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/30",
+          "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/process",
+        "display_name": "Process (computing)",
+        "score": 0.19869999587535858
+      },
+      {
+        "id": "https://openalex.org/keywords/identification",
+        "display_name": "Identification (biology)",
+        "score": 0.19499999284744263
+      },
+      {
+        "id": "https://openalex.org/keywords/product",
+        "display_name": "Product (mathematics)",
+        "score": 0.1860000044107437
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C98045186",
+        "wikidata": "https://www.wikidata.org/wiki/Q205663",
+        "display_name": "Process (computing)",
+        "level": 2,
+        "score": 0.19869999587535858
+      },
+      {
+        "id": "https://openalex.org/C116834253",
+        "wikidata": "https://www.wikidata.org/wiki/Q2039217",
+        "display_name": "Identification (biology)",
+        "level": 2,
+        "score": 0.19499999284744263
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.1906999945640564
+      },
+      {
+        "id": "https://openalex.org/C90673727",
+        "wikidata": "https://www.wikidata.org/wiki/Q901718",
+        "display_name": "Product (mathematics)",
+        "level": 2,
+        "score": 0.1860000044107437
+      },
+      {
+        "id": "https://openalex.org/C18762648",
+        "wikidata": "https://www.wikidata.org/wiki/Q42213",
+        "display_name": "Work (physics)",
+        "level": 2,
+        "score": 0.18389999866485596
+      },
+      {
+        "id": "https://openalex.org/C2779343474",
+        "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+        "display_name": "Context (archaeology)",
+        "level": 2,
+        "score": 0.16850000619888306
+      },
+      {
+        "id": "https://openalex.org/C177264268",
+        "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+        "display_name": "Set (abstract data type)",
+        "level": 2,
+        "score": 0.16580000519752502
+      },
+      {
+        "id": "https://openalex.org/C61797465",
+        "wikidata": "https://www.wikidata.org/wiki/Q1188986",
+        "display_name": "Term (time)",
+        "level": 2,
+        "score": 0.16410000622272491
+      },
+      {
+        "id": "https://openalex.org/C2776608160",
+        "wikidata": "https://www.wikidata.org/wiki/Q4785462",
+        "display_name": "Natural (archaeology)",
+        "level": 2,
+        "score": 0.16120000183582306
+      },
+      {
+        "id": "https://openalex.org/C81917197",
+        "wikidata": "https://www.wikidata.org/wiki/Q628760",
+        "display_name": "Selection (genetic algorithm)",
+        "level": 2,
+        "score": 0.15870000422000885
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "pmh:oai:irdb.nii.ac.jp:01247:0006568603",
+        "is_oa": true,
+        "landing_page_url": "https://komazawa-u.repo.nii.ac.jp/records/2001302",
+        "pdf_url": "https://komazawa-u.repo.nii.ac.jp/record/2001302/files/00675576.pdf",
+        "source": {
+          "id": "https://openalex.org/S7407056385",
+          "display_name": "Institutional Repositories DataBase (IRDB)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I184597095",
+          "host_organization_name": "National Institute of Informatics",
+          "host_organization_lineage": [
+            "https://openalex.org/I184597095"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "駒澤大学佛教学部論集",
+        "raw_type": "departmental bulletin paper"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:irdb.nii.ac.jp:01247:0006568603",
+      "is_oa": true,
+      "landing_page_url": "https://komazawa-u.repo.nii.ac.jp/records/2001302",
+      "pdf_url": "https://komazawa-u.repo.nii.ac.jp/record/2001302/files/00675576.pdf",
+      "source": {
+        "id": "https://openalex.org/S7407056385",
+        "display_name": "Institutional Repositories DataBase (IRDB)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I184597095",
+        "host_organization_name": "National Institute of Informatics",
+        "host_organization_lineage": [
+          "https://openalex.org/I184597095"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "駒澤大学佛教学部論集",
+      "raw_type": "departmental bulletin paper"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7144035958.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7144035958.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "1)": [
+        0
+      ],
+      "は、A.D.15c": [
+        1
+      ],
+      "前半にラーン・ナー王国において新たに出現し": [
+        2
+      ],
+      "た僧派であるが、同派の歴史を編述したパーリ語文献Jinakqlamql](A.D.1527年完": [
+        3
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-08-26T07:47:46.906454",
+    "created_date": "2026-04-01T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W2990467747",
+    "doi": null,
+    "title": "State, Community, and Ethnicity in Early Modern Thailand, 1351-1767",
+    "display_name": "State, Community, and Ethnicity in Early Modern Thailand, 1351-1767",
+    "relevance_score": 6.220175,
+    "publication_year": 2019,
+    "publication_date": "2019-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2990467747",
+      "mag": "2990467747"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:deepblue.lib.umich.edu:2027.42/151629",
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/2027.42/151629",
+      "pdf_url": "https://hdl.handle.net/2027.42/151629",
+      "source": {
+        "id": "https://openalex.org/S4306400393",
+        "display_name": "Deep Blue (University of Michigan)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I27837315",
+        "host_organization_name": "University of Michigan",
+        "host_organization_lineage": [
+          "https://openalex.org/I27837315"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Thesis"
+    },
+    "type": "dissertation",
+    "indexed_in": [],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://hdl.handle.net/2027.42/151629",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5103121693",
+          "display_name": "John Smith",
+          "orcid": "https://orcid.org/0000-0002-3335-9488"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "John Smith",
+        "raw_affiliation_strings": [],
+        "raw_orcid": "https://orcid.org/0000-0002-3335-9488",
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5103121693"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": true,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13002",
+      "display_name": "Southeast Asian Sociopolitical Studies",
+      "score": 0.996999979019165,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13002",
+        "display_name": "Southeast Asian Sociopolitical Studies",
+        "score": 0.996999979019165,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11256",
+        "display_name": "Asian Studies and History",
+        "score": 0.9829000234603882,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13802",
+        "display_name": "Vietnamese History and Culture Studies",
+        "score": 0.9265999794006348,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/ethnic-group",
+        "display_name": "Ethnic group",
+        "score": 0.783718466758728
+      },
+      {
+        "id": "https://openalex.org/keywords/state",
+        "display_name": "State (computer science)",
+        "score": 0.6676303148269653
+      },
+      {
+        "id": "https://openalex.org/keywords/ethnic-community",
+        "display_name": "Ethnic community",
+        "score": 0.4556361734867096
+      },
+      {
+        "id": "https://openalex.org/keywords/political-science",
+        "display_name": "Political science",
+        "score": 0.40975305438041687
+      },
+      {
+        "id": "https://openalex.org/keywords/law",
+        "display_name": "Law",
+        "score": 0.11641088128089905
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.10097596049308777
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C137403100",
+        "wikidata": "https://www.wikidata.org/wiki/Q41710",
+        "display_name": "Ethnic group",
+        "level": 2,
+        "score": 0.783718466758728
+      },
+      {
+        "id": "https://openalex.org/C48103436",
+        "wikidata": "https://www.wikidata.org/wiki/Q599031",
+        "display_name": "State (computer science)",
+        "level": 2,
+        "score": 0.6676303148269653
+      },
+      {
+        "id": "https://openalex.org/C2992758321",
+        "wikidata": "https://www.wikidata.org/wiki/Q41710",
+        "display_name": "Ethnic community",
+        "level": 3,
+        "score": 0.4556361734867096
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.40975305438041687
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.11641088128089905
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.10097596049308777
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "pmh:oai:deepblue.lib.umich.edu:2027.42/151629",
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/2027.42/151629",
+        "pdf_url": "https://hdl.handle.net/2027.42/151629",
+        "source": {
+          "id": "https://openalex.org/S4306400393",
+          "display_name": "Deep Blue (University of Michigan)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I27837315",
+          "host_organization_name": "University of Michigan",
+          "host_organization_lineage": [
+            "https://openalex.org/I27837315"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Thesis"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:deepblue.lib.umich.edu:2027.42/151629",
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/2027.42/151629",
+      "pdf_url": "https://hdl.handle.net/2027.42/151629",
+      "source": {
+        "id": "https://openalex.org/S4306400393",
+        "display_name": "Deep Blue (University of Michigan)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I27837315",
+        "host_organization_name": "University of Michigan",
+        "host_organization_lineage": [
+          "https://openalex.org/I27837315"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Thesis"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2990467747.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2990467747.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2741509770",
+      "https://openalex.org/W2323497913",
+      "https://openalex.org/W2350266556",
+      "https://openalex.org/W2380163258",
+      "https://openalex.org/W2350763311",
+      "https://openalex.org/W2353736919",
+      "https://openalex.org/W2366310867",
+      "https://openalex.org/W2391489298",
+      "https://openalex.org/W2369569424",
+      "https://openalex.org/W2181597535"
+    ],
+    "abstract_inverted_index": {
+      "Ayutthaya": [
+        0,
+        37,
+        100,
+        142
+      ],
+      "(1351-1767)": [
+        1
+      ],
+      "stands": [
+        2
+      ],
+      "apart": [
+        3
+      ],
+      "from": [
+        4
+      ],
+      "other": [
+        5
+      ],
+      "Tai-speaking": [
+        6
+      ],
+      "kingdoms": [
+        7
+      ],
+      "in": [
+        8,
+        61,
+        150,
+        169
+      ],
+      "its": [
+        9,
+        11,
+        15,
+        95
+      ],
+      "longevity,": [
+        10
+      ],
+      "administrative": [
+        12
+      ],
+      "complexity,": [
+        13
+      ],
+      "and": [
+        14,
+        33,
+        58,
+        119,
+        165,
+        172
+      ],
+      "cosmopolitanism.": [
+        16
+      ],
+      "It": [
+        17
+      ],
+      "is": [
+        18
+      ],
+      "also": [
+        19
+      ],
+      "historically": [
+        20
+      ],
+      "significant": [
+        21
+      ],
+      "as": [
+        22,
+        101
+      ],
+      "a": [
+        23,
+        80,
+        102,
+        145
+      ],
+      "direct": [
+        24
+      ],
+      "predecessor": [
+        25
+      ],
+      "of": [
+        26,
+        36,
+        47,
+        55,
+        72,
+        74,
+        82,
+        88,
+        94,
+        99,
+        124,
+        135,
+        161,
+        175
+      ],
+      "the": [
+        27,
+        39,
+        45,
+        53,
+        67,
+        78,
+        86,
+        89,
+        97,
+        109,
+        112,
+        120,
+        128,
+        133,
+        139,
+        162,
+        170,
+        176
+      ],
+      "modern": [
+        28,
+        83
+      ],
+      "Thai": [
+        29,
+        62,
+        84,
+        103,
+        129,
+        136,
+        146
+      ],
+      "nation-state.": [
+        30
+      ],
+      "The": [
+        31
+      ],
+      "cultural": [
+        32
+      ],
+      "political": [
+        34,
+        171
+      ],
+      "history": [
+        35
+      ],
+      "holds": [
+        38
+      ],
+      "potential": [
+        40
+      ],
+      "to": [
+        41,
+        51,
+        66
+      ],
+      "not": [
+        42,
+        106
+      ],
+      "only": [
+        43
+      ],
+      "illustrate": [
+        44
+      ],
+      "nature": [
+        46,
+        134
+      ],
+      "Ayutthayan": [
+        48,
+        90
+      ],
+      "society,": [
+        49
+      ],
+      "but": [
+        50,
+        148
+      ],
+      "reveal": [
+        52
+      ],
+      "origins": [
+        54
+      ],
+      "regional": [
+        56
+      ],
+      "differences": [
+        57
+      ],
+      "communal": [
+        59
+      ],
+      "identities": [
+        60
+      ],
+      "society": [
+        63
+      ],
+      "that": [
+        64,
+        77
+      ],
+      "persist": [
+        65
+      ],
+      "present": [
+        68
+      ],
+      "day.": [
+        69
+      ],
+      "An": [
+        70
+      ],
+      "examination": [
+        71
+      ],
+      "notions": [
+        73
+      ],
+      "ethnicity": [
+        75
+      ],
+      "shows": [
+        76
+      ],
+      "while": [
+        79
+      ],
+      "form": [
+        81
+      ],
+      "was": [
+        85
+      ],
+      "language": [
+        87
+      ],
+      "state": [
+        91,
+        104
+      ],
+      "for": [
+        92
+      ],
+      "all": [
+        93
+      ],
+      "history,": [
+        96
+      ],
+      "concept": [
+        98
+      ],
+      "did": [
+        105
+      ],
+      "emerge": [
+        107
+      ],
+      "until": [
+        108
+      ],
+      "sixteenth": [
+        110
+      ],
+      "or": [
+        111,
+        154
+      ],
+      "seventeenth": [
+        113
+      ],
+      "century.": [
+        114
+      ],
+      "In": [
+        115
+      ],
+      "addition,": [
+        116
+      ],
+      "ethnic": [
+        117,
+        130,
+        157
+      ],
+      "diversity": [
+        118
+      ],
+      "slow,": [
+        121
+      ],
+      "inter-generational": [
+        122
+      ],
+      "integration": [
+        123
+      ],
+      "minority": [
+        125
+      ],
+      "communities": [
+        126
+      ],
+      "into": [
+        127
+      ],
+      "majority": [
+        131
+      ],
+      "changed": [
+        132
+      ],
+      "ethnicity.": [
+        137
+      ],
+      "By": [
+        138
+      ],
+      "mid-eighteenth": [
+        140
+      ],
+      "century,": [
+        141
+      ],
+      "had": [
+        143
+      ],
+      "become": [
+        144
+      ],
+      "state,": [
+        147
+      ],
+      "one": [
+        149
+      ],
+      "which": [
+        151
+      ],
+      "numerous": [
+        152
+      ],
+      "non-Thai,": [
+        153,
+        156
+      ],
+      "formerly": [
+        155
+      ],
+      "groups": [
+        158
+      ],
+      "were": [
+        159
+      ],
+      "fixtures": [
+        160
+      ],
+      "social": [
+        163
+      ],
+      "landscape": [
+        164
+      ],
+      "played": [
+        166
+      ],
+      "integral": [
+        167
+      ],
+      "roles": [
+        168
+      ],
+      "economic": [
+        173
+      ],
+      "life": [
+        174
+      ],
+      "state.": [
+        177
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2022,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2026-08-30T07:30:35.949966",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W2944154909",
+    "doi": "https://doi.org/10.1163/26659077-00504003",
+    "title": "The Curricular Canon in Northern Thailand and Laos",
+    "display_name": "The Curricular Canon in Northern Thailand and Laos",
+    "relevance_score": 6.024934,
+    "publication_year": 2002,
+    "publication_date": "2002-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2944154909",
+      "doi": "https://doi.org/10.1163/26659077-00504003",
+      "mag": "2944154909"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1163/26659077-00504003",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1163/26659077-00504003",
+      "pdf_url": "https://brill.com/downloadpdf/journals/mnya/5/4/article-p20_3.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210175477",
+        "display_name": "Manusya Journal of Humanities",
+        "issn_l": "0859-9920",
+        "issn": [
+          "0859-9920",
+          "2665-9077"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320561",
+        "host_organization_name": "Brill",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320561"
+        ],
+        "host_organization_lineage_names": [
+          "Brill"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "MANUSYA",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://brill.com/downloadpdf/journals/mnya/5/4/article-p20_3.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5046289700",
+          "display_name": "Justin McDaniel",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I136199984",
+            "display_name": "Harvard University",
+            "ror": "https://ror.org/03vek6s52",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I136199984"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210106879",
+            "display_name": "Ohio University",
+            "ror": "https://ror.org/01jr3y717",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210106879"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Justin McDaniel",
+        "raw_affiliation_strings": [
+          "Doctoral Candidate in the Department of Sanskrit and Indian Studies at Harvard University",
+          "Southeast Asian Studies at Ohio University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Doctoral Candidate in the Department of Sanskrit and Indian Studies at Harvard University",
+            "institution_ids": [
+              "https://openalex.org/I136199984"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Southeast Asian Studies at Ohio University",
+            "institution_ids": [
+              "https://openalex.org/I4210106879"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5046289700"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I136199984",
+      "https://openalex.org/I4210106879"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.5372826,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 94
+    },
+    "biblio": {
+      "volume": "5",
+      "issue": "4",
+      "first_page": "20",
+      "last_page": "59"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12956",
+      "display_name": "Asian Geopolitics and Ethnography",
+      "score": 0.9965000152587891,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12956",
+        "display_name": "Asian Geopolitics and Ethnography",
+        "score": 0.9965000152587891,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.9804999828338623,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13002",
+        "display_name": "Southeast Asian Sociopolitical Studies",
+        "score": 0.9746000170707703,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.9133535623550415
+      },
+      {
+        "id": "https://openalex.org/keywords/vernacular",
+        "display_name": "Vernacular",
+        "score": 0.7311609387397766
+      },
+      {
+        "id": "https://openalex.org/keywords/curriculum",
+        "display_name": "Curriculum",
+        "score": 0.6282187700271606
+      },
+      {
+        "id": "https://openalex.org/keywords/normative",
+        "display_name": "Normative",
+        "score": 0.5812740921974182
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.4567713439464569
+      },
+      {
+        "id": "https://openalex.org/keywords/canon",
+        "display_name": "Canon",
+        "score": 0.45066016912460327
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.4081641137599945
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.35793259739875793
+      },
+      {
+        "id": "https://openalex.org/keywords/epistemology",
+        "display_name": "Epistemology",
+        "score": 0.29520392417907715
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.28566068410873413
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.19856008887290955
+      },
+      {
+        "id": "https://openalex.org/keywords/pedagogy",
+        "display_name": "Pedagogy",
+        "score": 0.19526314735412598
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.07912299036979675
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.9133535623550415
+      },
+      {
+        "id": "https://openalex.org/C2780386941",
+        "wikidata": "https://www.wikidata.org/wiki/Q1036511",
+        "display_name": "Vernacular",
+        "level": 2,
+        "score": 0.7311609387397766
+      },
+      {
+        "id": "https://openalex.org/C47177190",
+        "wikidata": "https://www.wikidata.org/wiki/Q207137",
+        "display_name": "Curriculum",
+        "level": 2,
+        "score": 0.6282187700271606
+      },
+      {
+        "id": "https://openalex.org/C44725695",
+        "wikidata": "https://www.wikidata.org/wiki/Q288156",
+        "display_name": "Normative",
+        "level": 2,
+        "score": 0.5812740921974182
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.4567713439464569
+      },
+      {
+        "id": "https://openalex.org/C103785112",
+        "wikidata": "https://www.wikidata.org/wiki/Q53831",
+        "display_name": "Canon",
+        "level": 2,
+        "score": 0.45066016912460327
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.4081641137599945
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.35793259739875793
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.29520392417907715
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.28566068410873413
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.19856008887290955
+      },
+      {
+        "id": "https://openalex.org/C19417346",
+        "wikidata": "https://www.wikidata.org/wiki/Q7922",
+        "display_name": "Pedagogy",
+        "level": 1,
+        "score": 0.19526314735412598
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.07912299036979675
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1163/26659077-00504003",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1163/26659077-00504003",
+        "pdf_url": "https://brill.com/downloadpdf/journals/mnya/5/4/article-p20_3.pdf",
+        "source": {
+          "id": "https://openalex.org/S4210175477",
+          "display_name": "Manusya Journal of Humanities",
+          "issn_l": "0859-9920",
+          "issn": [
+            "0859-9920",
+            "2665-9077"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320561",
+          "host_organization_name": "Brill",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320561"
+          ],
+          "host_organization_lineage_names": [
+            "Brill"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "MANUSYA",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1163/26659077-00504003",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1163/26659077-00504003",
+      "pdf_url": "https://brill.com/downloadpdf/journals/mnya/5/4/article-p20_3.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210175477",
+        "display_name": "Manusya Journal of Humanities",
+        "issn_l": "0859-9920",
+        "issn": [
+          "0859-9920",
+          "2665-9077"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320561",
+        "host_organization_name": "Brill",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320561"
+        ],
+        "host_organization_lineage_names": [
+          "Brill"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "MANUSYA",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/4",
+        "score": 0.8399999737739563,
+        "display_name": "Quality Education"
+      }
+    ],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320309292",
+        "display_name": "Princeton University",
+        "ror": "https://ror.org/00hx57361"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2944154909.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2944154909.grobid-xml"
+    },
+    "referenced_works_count": 18,
+    "referenced_works": [
+      "https://openalex.org/W302611995",
+      "https://openalex.org/W618577847",
+      "https://openalex.org/W621098190",
+      "https://openalex.org/W645758659",
+      "https://openalex.org/W1584811892",
+      "https://openalex.org/W1969315596",
+      "https://openalex.org/W2008458436",
+      "https://openalex.org/W2027583914",
+      "https://openalex.org/W2076156747",
+      "https://openalex.org/W2335156563",
+      "https://openalex.org/W2960640207",
+      "https://openalex.org/W4229582084",
+      "https://openalex.org/W4301918934",
+      "https://openalex.org/W6669337441",
+      "https://openalex.org/W6693057363",
+      "https://openalex.org/W6703322357",
+      "https://openalex.org/W6833753782",
+      "https://openalex.org/W7015205478"
+    ],
+    "related_works": [
+      "https://openalex.org/W4246921941",
+      "https://openalex.org/W4237084349",
+      "https://openalex.org/W4214751463",
+      "https://openalex.org/W4232357955",
+      "https://openalex.org/W4238894422",
+      "https://openalex.org/W4239960858",
+      "https://openalex.org/W4246713805",
+      "https://openalex.org/W4237178635",
+      "https://openalex.org/W4231088302",
+      "https://openalex.org/W4231070883"
+    ],
+    "abstract_inverted_index": {
+      "Nissaya": [
+        0
+      ],
+      "texts": [
+        1,
+        90,
+        119
+      ],
+      "are": [
+        2
+      ],
+      "idiosyncratic": [
+        3
+      ],
+      "vernacular": [
+        4
+      ],
+      "notes": [
+        5
+      ],
+      "composed": [
+        6,
+        37
+      ],
+      "and": [
+        7,
+        15,
+        20,
+        66,
+        81,
+        102,
+        123,
+        137,
+        183
+      ],
+      "used": [
+        8,
+        87
+      ],
+      "by": [
+        9,
+        120
+      ],
+      "Buddhist": [
+        10,
+        76,
+        100,
+        139,
+        174
+      ],
+      "monks": [
+        11
+      ],
+      "in": [
+        12,
+        38,
+        78,
+        88,
+        148
+      ],
+      "Northern": [
+        13,
+        135
+      ],
+      "Thailand": [
+        14
+      ],
+      "Laos": [
+        16
+      ],
+      "between": [
+        17
+      ],
+      "the": [
+        18,
+        30,
+        33,
+        56,
+        62,
+        72,
+        79,
+        97,
+        115,
+        124,
+        130,
+        133,
+        144,
+        149,
+        152,
+        155,
+        161,
+        166,
+        172
+      ],
+      "16th": [
+        19
+      ],
+      "early": [
+        21,
+        73
+      ],
+      "20th": [
+        22
+      ],
+      "centuries.": [
+        23
+      ],
+      "They": [
+        24,
+        51
+      ],
+      "evince": [
+        25
+      ],
+      "a": [
+        26,
+        82,
+        93,
+        177
+      ],
+      "particular": [
+        27
+      ],
+      "relationship": [
+        28
+      ],
+      "of": [
+        29,
+        41,
+        55,
+        58,
+        64,
+        75,
+        99,
+        117,
+        132,
+        146,
+        154,
+        168,
+        171,
+        179
+      ],
+      "authors": [
+        31
+      ],
+      "with": [
+        32,
+        47,
+        104,
+        165
+      ],
+      "classical": [
+        34
+      ],
+      "(i.e.,": [
+        35
+      ],
+      "originally": [
+        36
+      ],
+      "Pali)": [
+        39
+      ],
+      "scripture": [
+        40
+      ],
+      "Theravada": [
+        42,
+        173
+      ],
+      "Buddhism": [
+        43
+      ],
+      "as": [
+        44,
+        46
+      ],
+      "well": [
+        45
+      ],
+      "their": [
+        48
+      ],
+      "intended": [
+        49
+      ],
+      "audience.": [
+        50
+      ],
+      "reflect": [
+        52
+      ],
+      "certain": [
+        53
+      ],
+      "understandings": [
+        54
+      ],
+      "notions": [
+        57,
+        170
+      ],
+      "authorship,": [
+        59
+      ],
+      "textual": [
+        60,
+        181
+      ],
+      "authenticity,": [
+        61
+      ],
+      "possibility": [
+        63
+      ],
+      "translation,": [
+        65
+      ],
+      "homiletics.": [
+        67
+      ],
+      "A": [
+        68
+      ],
+      "comprehensive": [
+        69
+      ],
+      "study": [
+        70,
+        84
+      ],
+      "reveals": [
+        71
+      ],
+      "development": [
+        74,
+        145
+      ],
+      "curricula": [
+        77,
+        147
+      ],
+      "region": [
+        80,
+        150,
+        178
+      ],
+      "detailed": [
+        83
+      ],
+      "pedagogical": [
+        85
+      ],
+      "methods": [
+        86
+      ],
+      "these": [
+        89
+      ],
+      "affords": [
+        91
+      ],
+      "us": [
+        92
+      ],
+      "way": [
+        94
+      ],
+      "to": [
+        95,
+        176
+      ],
+      "describe": [
+        96
+      ],
+      "nature": [
+        98
+      ],
+      "belief": [
+        101
+      ],
+      "practice": [
+        103
+      ],
+      "much": [
+        105
+      ],
+      "greater": [
+        106
+      ],
+      "precision.": [
+        107
+      ],
+      "In": [
+        108
+      ],
+      "this": [
+        109
+      ],
+      "paper,": [
+        110
+      ],
+      "I": [
+        111
+      ],
+      "will": [
+        112
+      ],
+      "demonstrate": [
+        113
+      ],
+      "how": [
+        114
+      ],
+      "choice": [
+        116
+      ],
+      "source": [
+        118
+      ],
+      "nissaya": [
+        121
+      ],
+      "translators": [
+        122
+      ],
+      "commentarial": [
+        125
+      ],
+      "services": [
+        126
+      ],
+      "they": [
+        127
+      ],
+      "employ": [
+        128
+      ],
+      "reveal": [
+        129
+      ],
+      "contours": [
+        131
+      ],
+      "pre-modern": [
+        134
+      ],
+      "Thai": [
+        136
+      ],
+      "Lao": [
+        138
+      ],
+      "curricula.": [
+        140
+      ],
+      "By": [
+        141
+      ],
+      "focusing": [
+        142
+      ],
+      "on": [
+        143
+      ],
+      "before": [
+        151
+      ],
+      "middle": [
+        153
+      ],
+      "19th": [
+        156
+      ],
+      "century,": [
+        157
+      ],
+      "we": [
+        158
+      ],
+      "can": [
+        159
+      ],
+      "avoid": [
+        160
+      ],
+      "vagaries": [
+        162
+      ],
+      "that": [
+        163
+      ],
+      "come": [
+        164
+      ],
+      "application": [
+        167
+      ],
+      "normative": [
+        169
+      ],
+      "canon": [
+        175
+      ],
+      "diverse": [
+        180
+      ],
+      "production": [
+        182
+      ],
+      "disparate": [
+        184
+      ],
+      "intellectual": [
+        185
+      ],
+      "expression.": [
+        186
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2012,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-05-21T06:26:12.895304",
+    "created_date": "2025-10-10T00:00:00"
+  }
+]

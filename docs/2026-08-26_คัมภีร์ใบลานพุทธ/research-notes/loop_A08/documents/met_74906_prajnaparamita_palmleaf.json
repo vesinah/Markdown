@@ -1,0 +1,104 @@
+﻿{
+    "objectID":  74906,
+    "isHighlight":  true,
+    "accessionNumber":  "2001.445f",
+    "accessionYear":  "2001",
+    "isPublicDomain":  true,
+    "primaryImage":  "https://images.metmuseum.org/CRDImages/as/original/DP238214.jpg",
+    "primaryImageSmall":  "https://images.metmuseum.org/CRDImages/as/web-large/DP238214.jpg",
+    "additionalImages":  [
+                             "https://images.metmuseum.org/CRDImages/as/original/DP156403.JPG",
+                             "https://images.metmuseum.org/CRDImages/as/original/DP156404.JPG"
+                         ],
+    "constituents":  [
+                         {
+                             "constituentID":  19251,
+                             "role":  "Artist",
+                             "name":  "Mahavihara Master",
+                             "constituentULAN_URL":  "",
+                             "constituentWikidata_URL":  "",
+                             "gender":  ""
+                         }
+                     ],
+    "department":  "Asian Art",
+    "objectName":  "Folio",
+    "title":  "The Bodhisattva Avalokitesvara Expounding the Dharma to a Devotee: Folio from a Ashtasahasrika Prajnaparamita Sutra Manuscript",
+    "culture":  "India, West Bengal or Bangladesh",
+    "period":  "Pala period",
+    "dynasty":  "",
+    "reign":  "",
+    "portfolio":  "",
+    "artistRole":  "Artist",
+    "artistPrefix":  "",
+    "artistDisplayName":  "Mahavihara Master",
+    "artistDisplayBio":  "",
+    "artistSuffix":  "",
+    "artistAlphaSort":  "Mahavihara Master",
+    "artistNationality":  "",
+    "artistBeginDate":  "",
+    "artistEndDate":  "",
+    "artistGender":  "",
+    "artistWikidata_URL":  "",
+    "artistULAN_URL":  "",
+    "objectDate":  "early 12th century",
+    "objectBeginDate":  1100,
+    "objectEndDate":  1133,
+    "medium":  "Opaque watercolor on palm leaf",
+    "dimensions":  "Page: 2 3/4 x 16 7/16 in. (7 x 41.8 cm)\r\nImage: 2 1/2 x 1 15/16 in. (6.4 x 4.9 cm)",
+    "measurements":  [
+                         {
+                             "elementName":  "Sheet",
+                             "elementDescription":  null,
+                             "elementMeasurements":  {
+                                                         "Height":  6.985014,
+                                                         "Width":  41.751335
+                                                     }
+                         },
+                         {
+                             "elementName":  "Image",
+                             "elementDescription":  null,
+                             "elementMeasurements":  {
+                                                         "Height":  6.350013,
+                                                         "Width":  4.92126
+                                                     }
+                         }
+                     ],
+    "creditLine":  "Purchase, Lila Acheson Wallace Gift, 2001",
+    "geographyType":  "",
+    "city":  "",
+    "state":  "",
+    "county":  "",
+    "country":  "",
+    "region":  "",
+    "subregion":  "",
+    "locale":  "",
+    "locus":  "",
+    "excavation":  "",
+    "river":  "",
+    "classification":  "Paintings",
+    "rightsAndReproduction":  "",
+    "linkResource":  "",
+    "metadataDate":  "2025-12-23T04:54:48.75Z",
+    "repository":  "Metropolitan Museum of Art, New York, NY",
+    "objectURL":  "https://www.metmuseum.org/art/collection/search/74906",
+    "tags":  [
+                 {
+                     "term":  "Buddhism",
+                     "AAT_URL":  "http://vocab.getty.edu/page/aat/300073738",
+                     "Wikidata_URL":  "https://www.wikidata.org/wiki/Q748"
+                 },
+                 {
+                     "term":  "Avalokiteshvara",
+                     "AAT_URL":  "http://vocab.getty.edu/page/ia/901000085",
+                     "Wikidata_URL":  "https://www.wikidata.org/wiki/Q193849"
+                 },
+                 {
+                     "term":  "Bodhisattvas",
+                     "AAT_URL":  "http://vocab.getty.edu/page/aat/300264360",
+                     "Wikidata_URL":  "https://www.wikidata.org/wiki/Q178149"
+                 }
+             ],
+    "objectWikidata_URL":  "https://www.wikidata.org/wiki/Q78702566",
+    "isTimelineWork":  false,
+    "GalleryNumber":  ""
+}

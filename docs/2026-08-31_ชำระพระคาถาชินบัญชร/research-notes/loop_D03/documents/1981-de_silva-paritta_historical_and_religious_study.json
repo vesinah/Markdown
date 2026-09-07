@@ -1,0 +1,562 @@
+﻿{
+    "meta":  {
+                 "count":  1,
+                 "db_response_time_ms":  18,
+                 "page":  1,
+                 "per_page":  25,
+                 "groups_count":  null,
+                 "x_query":  {
+                                 "oql":  "works where DOI is (https://doi.org/10.5281/zenodo.801447)",
+                                 "oqo":  {
+                                             "get_rows":  "works",
+                                             "filter_rows":  [
+                                                                 "@{column_id=doi; value=https://doi.org/10.5281/zenodo.801447}"
+                                                             ]
+                                         },
+                                 "url":  "/works?filter=doi:https:%2F%2Fdoi.org%2F10.5281%2Fzenodo.801447"
+                             },
+                 "cost_usd":  0.0001
+             },
+    "results":  [
+                    {
+                        "id":  "https://openalex.org/W2410737335",
+                        "doi":  "https://doi.org/10.5281/zenodo.801447",
+                        "title":  "Paritta: A Historical and Religious Study of the Buddhist Ceremony for Peace and Prosperity in Sri Lanka",
+                        "display_name":  "Paritta: A Historical and Religious Study of the Buddhist Ceremony for Peace and Prosperity in Sri Lanka",
+                        "publication_year":  1981,
+                        "publication_date":  "1981-05-30",
+                        "ids":  {
+                                    "openalex":  "https://openalex.org/W2410737335",
+                                    "doi":  "https://doi.org/10.5281/zenodo.801447",
+                                    "mag":  "2410737335"
+                                },
+                        "language":  "en",
+                        "primary_location":  {
+                                                 "id":  "doi:10.5281/zenodo.801447",
+                                                 "is_oa":  true,
+                                                 "landing_page_url":  "https://doi.org/10.5281/zenodo.801447",
+                                                 "pdf_url":  null,
+                                                 "source":  {
+                                                                "id":  "https://openalex.org/S4306400562",
+                                                                "display_name":  "Zenodo (CERN European Organization for Nuclear Research)",
+                                                                "issn_l":  null,
+                                                                "issn":  null,
+                                                                "is_oa":  true,
+                                                                "is_in_doaj":  false,
+                                                                "is_core":  false,
+                                                                "host_organization":  "https://openalex.org/I67311998",
+                                                                "host_organization_name":  "European Organization for Nuclear Research",
+                                                                "host_organization_lineage":  "https://openalex.org/I67311998",
+                                                                "host_organization_lineage_names":  "",
+                                                                "type":  "repository"
+                                                            },
+                                                 "license":  "cc-by",
+                                                 "license_id":  "https://openalex.org/licenses/cc-by",
+                                                 "version":  null,
+                                                 "is_accepted":  false,
+                                                 "is_published":  false,
+                                                 "raw_source_name":  null,
+                                                 "raw_type":  "JournalArticle"
+                                             },
+                        "type":  "article",
+                        "indexed_in":  [
+                                           "datacite"
+                                       ],
+                        "open_access":  {
+                                            "is_oa":  true,
+                                            "oa_status":  "green",
+                                            "oa_url":  "https://doi.org/10.5281/zenodo.801447",
+                                            "any_repository_has_fulltext":  true
+                                        },
+                        "authorships":  [
+                                            {
+                                                "author_position":  "first",
+                                                "author":  "@{id=https://openalex.org/A5079638353; display_name=Lily De Silva; orcid=}",
+                                                "institutions":  "",
+                                                "countries":  "",
+                                                "is_corresponding":  true,
+                                                "raw_author_name":  "de Silva, Lily",
+                                                "raw_affiliation_strings":  "",
+                                                "raw_orcid":  null,
+                                                "affiliations":  ""
+                                            }
+                                        ],
+                        "institutions":  [
+
+                                         ],
+                        "countries_distinct_count":  0,
+                        "institutions_distinct_count":  0,
+                        "corresponding_author_ids":  [
+                                                         "https://openalex.org/A5079638353"
+                                                     ],
+                        "corresponding_institution_ids":  [
+
+                                                          ],
+                        "apc_list":  null,
+                        "apc_paid":  null,
+                        "fwci":  0.0,
+                        "has_fulltext":  false,
+                        "cited_by_count":  3,
+                        "citation_normalized_percentile":  {
+                                                               "value":  0.46230932,
+                                                               "is_in_top_1_percent":  false,
+                                                               "is_in_top_10_percent":  false
+                                                           },
+                        "cited_by_percentile_year":  {
+                                                         "min":  89,
+                                                         "max":  94
+                                                     },
+                        "biblio":  {
+                                       "volume":  null,
+                                       "issue":  null,
+                                       "first_page":  null,
+                                       "last_page":  null
+                                   },
+                        "is_retracted":  false,
+                        "is_paratext":  false,
+                        "is_xpac":  false,
+                        "primary_topic":  {
+                                              "id":  "https://openalex.org/T14506",
+                                              "display_name":  "Historical and Architectural Studies",
+                                              "score":  0.12759999930858612,
+                                              "subfield":  {
+                                                               "id":  "https://openalex.org/subfields/1204",
+                                                               "display_name":  "Archeology"
+                                                           },
+                                              "field":  {
+                                                            "id":  "https://openalex.org/fields/12",
+                                                            "display_name":  "Arts and Humanities"
+                                                        },
+                                              "domain":  {
+                                                             "id":  "https://openalex.org/domains/2",
+                                                             "display_name":  "Social Sciences"
+                                                         }
+                                          },
+                        "topics":  [
+                                       {
+                                           "id":  "https://openalex.org/T14506",
+                                           "display_name":  "Historical and Architectural Studies",
+                                           "score":  0.12759999930858612,
+                                           "subfield":  "@{id=https://openalex.org/subfields/1204; display_name=Archeology}",
+                                           "field":  "@{id=https://openalex.org/fields/12; display_name=Arts and Humanities}",
+                                           "domain":  "@{id=https://openalex.org/domains/2; display_name=Social Sciences}"
+                                       },
+                                       {
+                                           "id":  "https://openalex.org/T11563",
+                                           "display_name":  "Indian and Buddhist Studies",
+                                           "score":  0.1145000010728836,
+                                           "subfield":  "@{id=https://openalex.org/subfields/1212; display_name=Religious studies}",
+                                           "field":  "@{id=https://openalex.org/fields/12; display_name=Arts and Humanities}",
+                                           "domain":  "@{id=https://openalex.org/domains/2; display_name=Social Sciences}"
+                                       },
+                                       {
+                                           "id":  "https://openalex.org/T10149",
+                                           "display_name":  "Anthropological Studies and Insights",
+                                           "score":  0.061799999326467514,
+                                           "subfield":  "@{id=https://openalex.org/subfields/3314; display_name=Anthropology}",
+                                           "field":  "@{id=https://openalex.org/fields/33; display_name=Social Sciences}",
+                                           "domain":  "@{id=https://openalex.org/domains/2; display_name=Social Sciences}"
+                                       }
+                                   ],
+                        "keywords":  [
+                                         {
+                                             "id":  "https://openalex.org/keywords/prosperity",
+                                             "display_name":  "Prosperity",
+                                             "score":  0.9532477855682373
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/keywords/buddhism",
+                                             "display_name":  "Buddhism",
+                                             "score":  0.8766278028488159
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/keywords/ceremony",
+                                             "display_name":  "Ceremony",
+                                             "score":  0.8321504592895508
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/keywords/sri-lanka",
+                                             "display_name":  "Sri lanka",
+                                             "score":  0.7943441867828369
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/keywords/political-science",
+                                             "display_name":  "Political science",
+                                             "score":  0.446475625038147
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/keywords/ancient-history",
+                                             "display_name":  "Ancient history",
+                                             "score":  0.4432697296142578
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/keywords/religious-studies",
+                                             "display_name":  "Religious studies",
+                                             "score":  0.4175674319267273
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/keywords/development-economics",
+                                             "display_name":  "Development economics",
+                                             "score":  0.39127057790756226
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/keywords/history",
+                                             "display_name":  "History",
+                                             "score":  0.3812510669231415
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/keywords/sociology",
+                                             "display_name":  "Sociology",
+                                             "score":  0.33577802777290344
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/keywords/philosophy",
+                                             "display_name":  "Philosophy",
+                                             "score":  0.25853997468948364
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/keywords/theology",
+                                             "display_name":  "Theology",
+                                             "score":  0.21272751688957214
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/keywords/south-asia",
+                                             "display_name":  "South asia",
+                                             "score":  0.16596239805221558
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/keywords/economics",
+                                             "display_name":  "Economics",
+                                             "score":  0.15019112825393677
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/keywords/law",
+                                             "display_name":  "Law",
+                                             "score":  0.1408122181892395
+                                         }
+                                     ],
+                        "concepts":  [
+                                         {
+                                             "id":  "https://openalex.org/C2776554220",
+                                             "wikidata":  "https://www.wikidata.org/wiki/Q1760011",
+                                             "display_name":  "Prosperity",
+                                             "level":  2,
+                                             "score":  0.9532477855682373
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/C75699723",
+                                             "wikidata":  "https://www.wikidata.org/wiki/Q748",
+                                             "display_name":  "Buddhism",
+                                             "level":  2,
+                                             "score":  0.8766278028488159
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/C2775843773",
+                                             "wikidata":  "https://www.wikidata.org/wiki/Q2627975",
+                                             "display_name":  "Ceremony",
+                                             "level":  2,
+                                             "score":  0.8321504592895508
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/C3017649214",
+                                             "wikidata":  "https://www.wikidata.org/wiki/Q854",
+                                             "display_name":  "Sri lanka",
+                                             "level":  3,
+                                             "score":  0.7943441867828369
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/C17744445",
+                                             "wikidata":  "https://www.wikidata.org/wiki/Q36442",
+                                             "display_name":  "Political science",
+                                             "level":  0,
+                                             "score":  0.446475625038147
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/C195244886",
+                                             "wikidata":  "https://www.wikidata.org/wiki/Q41493",
+                                             "display_name":  "Ancient history",
+                                             "level":  1,
+                                             "score":  0.4432697296142578
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/C24667770",
+                                             "wikidata":  "https://www.wikidata.org/wiki/Q34187",
+                                             "display_name":  "Religious studies",
+                                             "level":  1,
+                                             "score":  0.4175674319267273
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/C47768531",
+                                             "wikidata":  "https://www.wikidata.org/wiki/Q1127188",
+                                             "display_name":  "Development economics",
+                                             "level":  1,
+                                             "score":  0.39127057790756226
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/C95457728",
+                                             "wikidata":  "https://www.wikidata.org/wiki/Q309",
+                                             "display_name":  "History",
+                                             "level":  0,
+                                             "score":  0.3812510669231415
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/C144024400",
+                                             "wikidata":  "https://www.wikidata.org/wiki/Q21201",
+                                             "display_name":  "Sociology",
+                                             "level":  0,
+                                             "score":  0.33577802777290344
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/C138885662",
+                                             "wikidata":  "https://www.wikidata.org/wiki/Q5891",
+                                             "display_name":  "Philosophy",
+                                             "level":  0,
+                                             "score":  0.25853997468948364
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/C27206212",
+                                             "wikidata":  "https://www.wikidata.org/wiki/Q34178",
+                                             "display_name":  "Theology",
+                                             "level":  1,
+                                             "score":  0.21272751688957214
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/C3019281177",
+                                             "wikidata":  "https://www.wikidata.org/wiki/Q771405",
+                                             "display_name":  "South asia",
+                                             "level":  2,
+                                             "score":  0.16596239805221558
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/C162324750",
+                                             "wikidata":  "https://www.wikidata.org/wiki/Q8134",
+                                             "display_name":  "Economics",
+                                             "level":  0,
+                                             "score":  0.15019112825393677
+                                         },
+                                         {
+                                             "id":  "https://openalex.org/C199539241",
+                                             "wikidata":  "https://www.wikidata.org/wiki/Q7748",
+                                             "display_name":  "Law",
+                                             "level":  1,
+                                             "score":  0.1408122181892395
+                                         }
+                                     ],
+                        "mesh":  [
+
+                                 ],
+                        "locations_count":  2,
+                        "locations":  [
+                                          {
+                                              "id":  "doi:10.5281/zenodo.801447",
+                                              "is_oa":  true,
+                                              "landing_page_url":  "https://doi.org/10.5281/zenodo.801447",
+                                              "pdf_url":  null,
+                                              "source":  "@{id=https://openalex.org/S4306400562; display_name=Zenodo (CERN European Organization for Nuclear Research); issn_l=; issn=; is_oa=True; is_in_doaj=False; is_core=False; host_organization=https://openalex.org/I67311998; host_organization_name=European Organization for Nuclear Research; host_organization_lineage=System.Object[]; host_organization_lineage_names=System.Object[]; type=repository}",
+                                              "license":  "cc-by",
+                                              "license_id":  "https://openalex.org/licenses/cc-by",
+                                              "version":  null,
+                                              "is_accepted":  false,
+                                              "is_published":  null,
+                                              "raw_source_name":  null,
+                                              "raw_type":  "JournalArticle"
+                                          },
+                                          {
+                                              "id":  "doi:10.5281/zenodo.801448",
+                                              "is_oa":  true,
+                                              "landing_page_url":  "https://doi.org/10.5281/zenodo.801448",
+                                              "pdf_url":  null,
+                                              "source":  "@{id=https://openalex.org/S4306400562; display_name=Zenodo (CERN European Organization for Nuclear Research); issn_l=; issn=; is_oa=True; is_in_doaj=False; is_core=False; host_organization=https://openalex.org/I67311998; host_organization_name=European Organization for Nuclear Research; host_organization_lineage=System.Object[]; host_organization_lineage_names=System.Object[]; type=repository}",
+                                              "license":  "cc-by",
+                                              "license_id":  "https://openalex.org/licenses/cc-by",
+                                              "version":  null,
+                                              "is_accepted":  false,
+                                              "is_published":  null,
+                                              "raw_source_name":  null,
+                                              "raw_type":  "JournalArticle"
+                                          }
+                                      ],
+                        "best_oa_location":  {
+                                                 "id":  "doi:10.5281/zenodo.801447",
+                                                 "is_oa":  true,
+                                                 "landing_page_url":  "https://doi.org/10.5281/zenodo.801447",
+                                                 "pdf_url":  null,
+                                                 "source":  {
+                                                                "id":  "https://openalex.org/S4306400562",
+                                                                "display_name":  "Zenodo (CERN European Organization for Nuclear Research)",
+                                                                "issn_l":  null,
+                                                                "issn":  null,
+                                                                "is_oa":  true,
+                                                                "is_in_doaj":  false,
+                                                                "is_core":  false,
+                                                                "host_organization":  "https://openalex.org/I67311998",
+                                                                "host_organization_name":  "European Organization for Nuclear Research",
+                                                                "host_organization_lineage":  "https://openalex.org/I67311998",
+                                                                "host_organization_lineage_names":  "",
+                                                                "type":  "repository"
+                                                            },
+                                                 "license":  "cc-by",
+                                                 "license_id":  "https://openalex.org/licenses/cc-by",
+                                                 "version":  null,
+                                                 "is_accepted":  false,
+                                                 "is_published":  false,
+                                                 "raw_source_name":  null,
+                                                 "raw_type":  "JournalArticle"
+                                             },
+                        "sustainable_development_goals":  [
+
+                                                          ],
+                        "awards":  [
+                                       {
+                                           "id":  "https://openalex.org/G8295406406",
+                                           "display_name":  null,
+                                           "funder_award_id":  "609823",
+                                           "funder_id":  "https://openalex.org/F4320320300",
+                                           "funder_display_name":  "European Commission"
+                                       }
+                                   ],
+                        "funders":  [
+                                        {
+                                            "id":  "https://openalex.org/F4320320300",
+                                            "display_name":  "European Commission",
+                                            "ror":  "https://ror.org/00k4n6c32"
+                                        }
+                                    ],
+                        "has_content":  {
+                                            "grobid_xml":  false,
+                                            "pdf":  false
+                                        },
+                        "content_urls":  null,
+                        "referenced_works_count":  0,
+                        "referenced_works":  [
+
+                                             ],
+                        "related_works":  [
+                                              "https://openalex.org/W3174364569",
+                                              "https://openalex.org/W2200643564",
+                                              "https://openalex.org/W2259406579",
+                                              "https://openalex.org/W2606140500",
+                                              "https://openalex.org/W2953311693",
+                                              "https://openalex.org/W1986515816",
+                                              "https://openalex.org/W2512892626",
+                                              "https://openalex.org/W3094557094",
+                                              "https://openalex.org/W2202234494",
+                                              "https://openalex.org/W3178573886",
+                                              "https://openalex.org/W1530047126",
+                                              "https://openalex.org/W3174330035",
+                                              "https://openalex.org/W2555262118",
+                                              "https://openalex.org/W2579728866",
+                                              "https://openalex.org/W2062338847",
+                                              "https://openalex.org/W2161966823",
+                                              "https://openalex.org/W3097078729",
+                                              "https://openalex.org/W2479077884",
+                                              "https://openalex.org/W3199977609",
+                                              "https://openalex.org/W1995372565"
+                                          ],
+                        "abstract_inverted_index":  {
+                                                        "De":  [
+                                                                   0
+                                                               ],
+                                                        "Silva,":  [
+                                                                       1
+                                                                   ],
+                                                        "Lily.":  [
+                                                                      2
+                                                                  ],
+                                                        "\"Paritta:":  [
+                                                                           3
+                                                                       ],
+                                                        "A":  [
+                                                                  4
+                                                              ],
+                                                        "Historical":  [
+                                                                           5
+                                                                       ],
+                                                        "and":  [
+                                                                    6,
+                                                                    15
+                                                                ],
+                                                        "Religious":  [
+                                                                          7
+                                                                      ],
+                                                        "Study":  [
+                                                                      8
+                                                                  ],
+                                                        "of":  [
+                                                                   9,
+                                                                   27
+                                                               ],
+                                                        "the":  [
+                                                                    10
+                                                                ],
+                                                        "Buddhist":  [
+                                                                         11
+                                                                     ],
+                                                        "Ceremony":  [
+                                                                         12
+                                                                     ],
+                                                        "for":  [
+                                                                    13
+                                                                ],
+                                                        "Peace":  [
+                                                                      14
+                                                                  ],
+                                                        "Prosperity":  [
+                                                                           16
+                                                                       ],
+                                                        "in":  [
+                                                                   17
+                                                               ],
+                                                        "Sri":  [
+                                                                    18,
+                                                                    28
+                                                                ],
+                                                        "Lanka\".":  [
+                                                                         19
+                                                                     ],
+                                                        "Spolia":  [
+                                                                       20
+                                                                   ],
+                                                        "Zeylanica":  [
+                                                                          21
+                                                                      ],
+                                                        "36,":  [
+                                                                    22
+                                                                ],
+                                                        "1":  [
+                                                                  23
+                                                              ],
+                                                        "(Colombo:":  [
+                                                                          24
+                                                                      ],
+                                                        "National":  [
+                                                                         25
+                                                                     ],
+                                                        "Museums":  [
+                                                                        26
+                                                                    ],
+                                                        "Lanka,":  [
+                                                                       29
+                                                                   ],
+                                                        "1981).":  [
+                                                                       30
+                                                                   ]
+                                                    },
+                        "counts_by_year":  [
+                                               {
+                                                   "year":  2019,
+                                                   "cited_by_count":  1
+                                               },
+                                               {
+                                                   "year":  2012,
+                                                   "cited_by_count":  1
+                                               }
+                                           ],
+                        "updated_date":  "2026-08-21T09:56:20.448147",
+                        "created_date":  "2016-06-24T00:00:00"
+                    }
+                ],
+    "group_by":  [
+
+                 ]
+}

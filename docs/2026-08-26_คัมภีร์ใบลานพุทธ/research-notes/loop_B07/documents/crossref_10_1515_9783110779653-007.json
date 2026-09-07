@@ -1,0 +1,172 @@
+﻿{
+    "status":  "ok",
+    "message-type":  "work",
+    "message-version":  "1.0.0",
+    "message":  {
+                    "indexed":  {
+                                    "date-parts":  [
+                                                       [
+                                                           2025,
+                                                           12,
+                                                           18
+                                                       ]
+                                                   ],
+                                    "date-time":  "2025-12-18T20:00:33Z",
+                                    "timestamp":  1766088033065,
+                                    "version":  "3.40.3"
+                                },
+                    "reference-count":  0,
+                    "publisher":  "De Gruyter",
+                    "isbn-type":  [
+                                      {
+                                          "type":  "electronic",
+                                          "value":  "9783110779653"
+                                      }
+                                  ],
+                    "license":  [
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         "2023 2 6"
+                                                                     ],
+                                                      "date-time":  "2023-02-06T00:00:00Z",
+                                                      "timestamp":  1675641600000
+                                                  },
+                                        "content-version":  "unspecified",
+                                        "delay-in-days":  0,
+                                        "URL":  "http://creativecommons.org/licenses/by-nc-nd/4.0"
+                                    }
+                                ],
+                    "content-domain":  {
+                                           "domain":  [
+
+                                                      ],
+                                           "crossmark-restriction":  false
+                                       },
+                    "short-container-title":  [
+
+                                              ],
+                    "published-print":  {
+                                            "date-parts":  [
+                                                               [
+                                                                   2023,
+                                                                   2,
+                                                                   6
+                                                               ]
+                                                           ]
+                                        },
+                    "DOI":  "10.1515/9783110779653-007",
+                    "type":  "book-chapter",
+                    "created":  {
+                                    "date-parts":  [
+                                                       [
+                                                           2023,
+                                                           2,
+                                                           7
+                                                       ]
+                                                   ],
+                                    "date-time":  "2023-02-07T19:32:11Z",
+                                    "timestamp":  1675798331000
+                                },
+                    "page":  "135-158",
+                    "source":  "Crossref",
+                    "is-referenced-by-count":  2,
+                    "title":  [
+                                  "Palm-leaf Manuscript Libraries in Southern India Around the Thirteenth Century: The Sarasvatī Library in Chidambaram"
+                              ],
+                    "prefix":  "10.1515",
+                    "author":  [
+                                   {
+                                       "given":  "Gérard",
+                                       "family":  "Colas",
+                                       "sequence":  "first",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "role":  "author",
+                                                        "vocabulary":  "crossref"
+                                                    }
+                                                ]
+                                   }
+                               ],
+                    "member":  "374",
+                    "container-title":  [
+                                            "Libraries in the Manuscript Age"
+                                        ],
+                    "original-title":  [
+
+                                       ],
+                    "link":  [
+                                 {
+                                     "URL":  "https://www.degruyter.com/document/doi/10.1515/9783110779653-007/xml",
+                                     "content-type":  "application/xml",
+                                     "content-version":  "vor",
+                                     "intended-application":  "text-mining"
+                                 },
+                                 {
+                                     "URL":  "https://www.degruyter.com/document/doi/10.1515/9783110779653-007/pdf",
+                                     "content-type":  "unspecified",
+                                     "content-version":  "vor",
+                                     "intended-application":  "similarity-checking"
+                                 }
+                             ],
+                    "deposited":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2025,
+                                                             3,
+                                                             7
+                                                         ]
+                                                     ],
+                                      "date-time":  "2025-03-07T12:28:11Z",
+                                      "timestamp":  1741350491000
+                                  },
+                    "score":  1,
+                    "resource":  {
+                                     "primary":  {
+                                                     "URL":  "https://www.degruyter.com/document/doi/10.1515/9783110779653-007/html"
+                                                 }
+                                 },
+                    "subtitle":  [
+
+                                 ],
+                    "short-title":  [
+
+                                    ],
+                    "issued":  {
+                                   "date-parts":  [
+                                                      [
+                                                          2023,
+                                                          2,
+                                                          6
+                                                      ]
+                                                  ]
+                               },
+                    "ISBN":  [
+                                 "9783110779653"
+                             ],
+                    "references-count":  0,
+                    "alternative-id":  [
+                                           "10.1515/9783110779653-007",
+                                           "10.1515/9783110779653"
+                                       ],
+                    "URL":  "https://doi.org/10.1515/9783110779653-007",
+                    "relation":  {
+
+                                 },
+                    "subject":  [
+
+                                ],
+                    "published":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2023,
+                                                             2,
+                                                             6
+                                                         ]
+                                                     ]
+                                  }
+                }
+}

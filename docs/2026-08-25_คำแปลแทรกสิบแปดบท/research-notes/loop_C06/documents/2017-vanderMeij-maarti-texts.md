@@ -1,0 +1,43 @@
+# Document Record
+
+- Work identified: Th. C. (= Dick) van der Meij, "Indonesian Manuscripts from the Islands of Java, Madura, Bali and Lombok", Leiden/Boston: Brill, 2017, Handbook of Oriental Studies / Handbuch der Orientalistik, Section 3 Southeast Asia, Volume 24 (the "Handbuch der Orientalistik 3-24" of Kamiishi's Wacana bibliography). xliv + 575 pp., richly illustrated.
+- ISBN: 978-90-04-34762-5 (hardback); 978-90-04-34811-0 (e-book PDF). DOI (book): 10.1163/9789004348110
+- Publisher page: https://brill.com/abstract/title/34999 (display: https://brill.com/display/title/34999)
+- Full text used this loop: archive.org item https://archive.org/details/indonesian-manuscripts-dick-van-der-meij (uploaded 2022; OCR text file downloaded and mined). Page/figure numbers below follow the book's own pagination as recoverable from the OCR.
+- Reviews noting its status: T.E. Behrend in BEFEO 104 (2018) ("a masterpiece of codicology"); E.P. Wieringa in BKI 174 (2018).
+
+## The "Maarti Texts" section
+
+"Maarti Texts" is a dedicated section of Chapter 3 ("Lontar and Gěbang (Nipah) Manuscripts"), pp. 188-203, between "Text in Lontar" (p. 185) and "Sloppy and Neat Stitchings" (p. 203). Key statements:
+
+1. Definition: "In Bali many manuscripts of kakawin poems written in Old Javanese have been provided with Balinese explanatory glosses (maarti) that are usually, but not always, linked to the text they explain by lines of small dots ... Sometimes all the glosses in the entire manuscript are related to the text they explain by these dotted lines; sometimes there are no dots at all; and sometimes parts of the text have been provided with dots and other parts not."
+2. Layout fact for our physical-constraint argument: the norm of four written lines per lontar side is explicitly relaxed "also in maarti texts"; the Sutasoma maarti illustrated shows "Old Javanese (in the center) with accompanying Balinese glosses".
+3. Prior scholarship pinned: footnote 30 - "For more on these texts with glosses see Hinzler 2009: 238-239." Body: "Hinzler discussed these maarti texts in 2009. Usually it is not the entire kakawin that is copied with glosses in a single manuscript but only certain cantos or sarga (in the case of the Ramayana) probably because they were brought to mabasan sessions in which they were read aloud and explained." (So the standard list of glossed titles descends from Hinzler 2009.)
+4. Texts with maarti copies per Hinzler's list plus van der Meij's additions: Bhomantaka, Ramayana, Bharatayuddha, Arjunawiwaha, Smaradahana, Sutasoma "and so forth", plus later kakawin composed in Bali. Additions with shelfmarks: Kakawin Parthayajna (private collection); Kakawin Kalpasan (Leiden UBL Cod.Or. 23.058); an embat-embatan Dharmasrama (University of Indonesia Library LT 209 - not recognised as maarti in Behrend-Pudjiastuti 1997); Kakawin Bhargawasiksa alias Kakawin Kalisangara (Leiden UBL Cod.Or. 16.256, 21.687, 21.711 AND Gedong Kirtya 1118/1374/39); Kakawin Kanga (Leiden Cod.Or. 23.907). Middle Javanese items also glossed: Kidung Tantri, Kidung Malat maarti, Sri Tanjung (Hinzler 2009: 238-239).
+5. Research-gap statement quotable verbatim: "The relationship between the Old Javanese and the Balinese glosses in these manuscripts has received little scholarly attention and whether or not changes can be detected over time in these glosses that may point to changes in the knowledge of Old Javanese of the writers of the manuscripts that contain maarti texts has not been explored."
+6. Negative-space claim (from the commentary chapter): although OJ texts with Balinese translations exist on lontar (maarti), "no lontar have ever come to my attention that explain the main text in other ways" - i.e. translation-glossing is the ONLY explanatory tradition physically attested on lontar; scholia-style commentary had no lontar medium.
+
+## Maarti witnesses with institutional shelfmarks (illustration captions)
+
+- Ill. 7 (General Introduction): Kakawin Ramayana maarti, Old Javanese and Balinese, Bali, dated around 1930 (example of a maarti on paper).
+- Ill. 170 and Ill. 171 (p. 188): Kakawin Sutasoma maarti, Old Javanese (center) with accompanying Balinese glosses, Bali, undated. Collection Gedong Kirtya, Singaraja 1118/974/28 (OCR also reads 111B/974/28), 3.7 x 51 cm., 68 leaves. THIS CLOSES THE SUTASOMA MAARTI GAP: a Sutasoma kakawin WITH maarti glossing exists, held at Gedong Kirtya.
+- Ill. 193 (p. 204): Kakawin Bharatayuddha maarti, Old Javanese and Balinese, Bali, dated Saka 1814 = AD 1892. Collection Balai Bahasa Provinsi Bali, Denpasar 018/BPB/Vb/91, 3.3 x 52 cm., 326 inscribed leaves. Caption context adds codicological colour: "The following stitches look rather clumsy ... The manuscript dates from 1892."
+- Ill. 216 (p. 216): Kakawin Ramayana maarti, Old Javanese and Balinese, Bali, dated Saka 1716 = AD 1794.
+- Ch. 5 illustration list: Kakawin Parthayajna maarti, Old Javanese and Balinese, Bali, dated Saka 1864 = AD 1942 (p. 334).
+- Ill. 320 area: complete Balinese translation of the Kakawin Wrttasaricaya written on embat-embatan leaves (UBL Cod.Or. 5427).
+
+## Corroboration value against the Wikisource finding aid
+
+The Wikisource/WikiLontar record for Kekawin Bharatayuda Maarti claims: colophon saka 1814 = 1892; holding institution Balai Bahasa Provinsi Bali; 327 + 96 leaves. van der Meij 2017 independently confirms the date (Saka 1814 = AD 1892), the institution (Balai Bahasa Provinsi Bali, Denpasar), supplies the shelfmark (018/BPB/Vb/91), and counts "326 inscribed leaves" - within one leaf of the Wikisource figure 327 (the "+96" presumably covers blank/reinforcement leaves or a second text in the same cakep; unexplained in either source). This satisfies the Wikimedia-institutional-verification obligation for DATE, PLACE and SIZE. Still unverified outside Wikimedia finding aids: the scribe's name "Nengah Serangan" - all "Nengah" hits in the book refer to I Nengah Tinggen (author of Dasar-Dasar Pelajaran Kekawin, Denpasar: Kayumas Agung, 1988, 3rd ed. 2004, also van der Meij's meter source in Appendix 7). (ยังไม่พบข้อมูลยืนยัน)
+
+## Context: how the book was made (relevant to source criticism)
+
+Acknowledgements: photographs of Balai Bahasa Provinsi Bali manuscripts were taken through "my old friend and expert in palm-leaf manuscripts I Nyoman Argawa", who also guided visits to Pusat Dokumentasi Kebudayaan Provinsi Bali (Pusdok), Universitas Hindu Indonesia, IHDN and the Pusat Kajian Lontar library of Udayana University, and to Gedong Kirtya in Singaraja. Several captions credit "PHOTOGRAPH BY I NYOMAN ARGAWA"; oral information from Argawa is cited (October 2015). Ill. 106 shows the author with Argawa in the Pusdok library examining Kidung Dampati Lalangon (dated by OCR 12 July 2011). Footnotes 38-39 cite two archive.org Pusdok scans BY URL (archive.org/stream/cacaron-lindu-dewasa-paweton/... and /cuntaka-graha-mwah-mantra/...) accessed 23 November 2016 - i.e., van der Meij mined the SAME public Pusdok scan corpus on archive.org that loop B08 documented, and he attributes four stitched manuscripts (Cacaron Lindu Dewasa Paweton; Cuntaka Graha mwah Mantra dated 1898 and 1903; UBL Cod.Or. 23.012 Sastra Yamapurwatatwa 1898; PNRI Wirataparwa 1877 family) to the former collection of I Gusti Putu Jlantik of Singaraja - matching the recurring "Gst. Pt. Djelantik, Singaraja" provenance on the Pusdok catalog cards harvested in B08. Appendix 6 prints "Verse Schemes of the Most Encountered Verse Meters in Bali According to I Gusti Putu Jlantik".
+Balai Bahasa Provinsi Bali shelfmarks quoted elsewhere in the book: Candakarana 023/BBD/Vb/91 (ill. 136); Putusin Kamoksan 109/BPB/11a/91 (ill. 165); Kakawin Letusan Gunung Tolangkir 070/BPB/111b/91 (ills. 286-287); Ramayana 112/BPB/Vb/91 (ills. 191, 211); Kakawin Sutasoma kropak 072/BPB/Vb/91 (ill. 212 - a PLAIN Sutasoma, distinct from the Gedong Kirtya maarti); Usana Bali Mayantaka Carita 159/BPB/111b/91 (ill. 182); Ratnawijaya 114/BPB/Vb/91 (ill. 181). Kamiishi's Arjunawiwaha 007/BPB/Vb/91 fits the same numbering series.
+
+## Notes for the draft
+
+- Cite van der Meij 2017: 188-203 as the definitive published codicological treatment of maarti; use his research-gap sentence to justify our chapter.
+- The Sutasoma maarti (GK 1118/974/28, 68 leaves) should replace "Sutasoma maarti not located" wherever B08 said so; note it is UNDATED and short (68 leaves vs 300+ for some other maarti), consistent with Hinzler/van der Meij's observation that often only portions are glossed.
+- If quoting leaf counts numerically, eyeball ill. 193 in the PDF before print (OCR-derived captions here).
+- Obtain Hinzler 2009: 238-239 (the antecedent discussion of glossed texts) - next reading target.

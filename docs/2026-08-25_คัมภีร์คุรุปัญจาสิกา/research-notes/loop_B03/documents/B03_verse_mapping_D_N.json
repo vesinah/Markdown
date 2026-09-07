@@ -1,0 +1,1321 @@
+[
+ {
+  "no": 1,
+  "skt_incipit": "Asvaghosa: Gurupancasika body { background-color: #FFFFFF; font-family: Arial Unicode Ms, Arial Unic",
+  "D_incipit_wylie": "dpal ldan rdo rje sems dpa'i gnas thob rgyur gyur pa",
+  "N_incipit_wylie": "dpal ldan rdo rje sems dpa' i gnas thob rgyur gyur pa",
+  "D_padas_wylie": [
+   "dpal ldan rdo rje sems dpa'i gnas thob rgyur gyur pa",
+   "bla ma'i zhabs kyi pad+mar ji bzhin btud byas te",
+   "de bstan pa ni dri med rgyud mang las gsungs pa",
+   "mdor bsdus bshad pa 'di ni gus pas mnyan par gyis"
+  ],
+  "N_padas_wylie": [
+   "dpal ldan rdo rje sems dpa' i gnas thob rgyur gyur pa",
+   "bla ma'i zhabs kyi pad+ma ji bzhin btung byas te",
+   "de bsten pa ni dri med rgyud mang las gsungs pa",
+   "mdor bsdus bshad pa 'di ni gus pas nyan par gyis"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 1,
+    "D": "dpa'i",
+    "N": "dpa' i"
+   },
+   {
+    "pada": 2,
+    "D": "pad+mar",
+    "N": "pad+ma"
+   },
+   {
+    "pada": 2,
+    "D": "btud",
+    "N": "btung"
+   },
+   {
+    "pada": 3,
+    "D": "bstan",
+    "N": "bsten"
+   },
+   {
+    "pada": 4,
+    "D": "mnyan",
+    "N": "nyan"
+   }
+  ]
+ },
+ {
+  "no": 2,
+  "skt_incipit": "abhiṣekāgralabdho hi vajrācāryastathāgataiḥ / daśadiglokadhātusthaistrikālametya vandyate",
+  "D_incipit_wylie": "dbang bskur mchog thob rdo rje yi",
+  "N_incipit_wylie": "dbang bskur mchog thob rdo rje yi",
+  "D_padas_wylie": [
+   "dbang bskur mchog thob rdo rje yi",
+   "slob dpon la ni de bzhin gshegs",
+   "phyogs bcu'i 'jig rten khams bzhugs pas",
+   "dus gsum du ni mngon phyag 'tshal"
+  ],
+  "N_padas_wylie": [
+   "dbang bskur mchog thob rdo rje yi",
+   "slob dpon la ni de bzhin gshegs",
+   "phyogs bcu'i 'jig rten khams bzhugs pas",
+   "dus gsum du ni mngon phyag 'tshal"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 3,
+  "skt_incipit": "trikālaṃ parayā bhaktyā sapuṣpāñjalimaṇḍalaiḥ / paryupāsyo guruḥ śāstā śirasā pādavandanāt",
+  "D_incipit_wylie": "mchog tu dad pas dus gsum du",
+  "N_incipit_wylie": "mchog tu dad pas dus gsum du",
+  "D_padas_wylie": [
+   "mchog tu dad pas dus gsum du",
+   "dkyil 'khor me tog bcas thal mos",
+   "ston pa bla ma bsnyen bkur zhing",
+   "zhabs la spyi bos phyag bya'o"
+  ],
+  "N_padas_wylie": [
+   "mchog tu dad pas dus gsum du",
+   "dkyil 'khor me tog bcas thal mos",
+   "ston pa bla ma bsnyen bkur zhing",
+   "zhabs la spyi bos phyag bya'o"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 4,
+  "skt_incipit": "saddharmādīn puraskṛtya gṛhī vā navako 'pi vā / vandyo vratadharairbuddhyā lokāvadyāvahānaye",
+  "D_incipit_wylie": "khyim pa'am ni gsar bu la",
+  "N_incipit_wylie": "khyim pa 'am ni gsar pu la",
+  "D_padas_wylie": [
+   "khyim pa'am ni gsar bu la",
+   "'jig rten smod pa spang ba'i phyir",
+   "dam chos la sogs mdun bdar te",
+   "brtul zhugs 'dzin pas blos phyag bya"
+  ],
+  "N_padas_wylie": [
+   "khyim pa 'am ni gsar pu la",
+   "'jig rten snod pa spang pa'i phyir",
+   "dam tshig la sogs mdun bdan te",
+   "brtul zhugs 'dzin pas blos phyag bya"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 1,
+    "D": "pa'am",
+    "N": "pa 'am"
+   },
+   {
+    "pada": 1,
+    "D": "bu",
+    "N": "pu"
+   },
+   {
+    "pada": 2,
+    "D": "smod",
+    "N": "snod"
+   },
+   {
+    "pada": 2,
+    "D": "ba'i",
+    "N": "pa'i"
+   },
+   {
+    "pada": 3,
+    "D": "chos",
+    "N": "tshig"
+   },
+   {
+    "pada": 3,
+    "D": "bdar",
+    "N": "bdan"
+   }
+  ]
+ },
+ {
+  "no": 5,
+  "skt_incipit": "sukhāsanaṃ samutthānamarthakriyādigauravam / sarvameva vratī kuryāt tyaktvā cārcanavandanam",
+  "D_incipit_wylie": "gdan bstabs pa dang ldang ba dang",
+  "N_incipit_wylie": "gdan bslab pa dang ldang ba dang",
+  "D_padas_wylie": [
+   "gdan bstabs pa dang ldang ba dang",
+   "don gyi bya ba sogs bsnyen bkur",
+   "brtul zhugs can gyis kun bya ste",
+   "phyag bya dam pa min las spang"
+  ],
+  "N_padas_wylie": [
+   "gdan bslab pa dang ldang ba dang",
+   "don gyi bya ba sogs bsnyen bkur",
+   "brtul zhugs can gyis kun bya ste",
+   "phyag byad dam pa yin las spang"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 1,
+    "D": "bstabs",
+    "N": "bslab"
+   },
+   {
+    "pada": 4,
+    "D": "bya",
+    "N": "byad"
+   },
+   {
+    "pada": 4,
+    "D": "min",
+    "N": "yin"
+   }
+  ]
+ },
+ {
+  "no": 6,
+  "skt_incipit": "prāk śiṣyācāryasaṃbandhaḥ kāryaḥ parīkṣya sūribhiḥ / samānasamayabhraṃśo doṣo hi guruśiṣyayoḥ",
+  "D_incipit_wylie": "bla ma dang ni slob ma dag",
+  "N_incipit_wylie": "bla ma dang ni slob ma dag",
+  "D_padas_wylie": [
+   "bla ma dang ni slob ma dag",
+   "mtshungs par dam tshig nyams 'gyur bas",
+   "dpa' bos dang por slob dpon dang",
+   "slob ma'i 'brel pa brtag par bya"
+  ],
+  "N_padas_wylie": [
+   "bla ma dang ni slob ma dag",
+   "mtshungs par dam tshig nyams 'gyur bas",
+   "dpa' bos dang? por slob dpon dang",
+   "slob ma'i 'brel ba brtags par bya"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 3,
+    "D": "dang",
+    "N": "dang?"
+   },
+   {
+    "pada": 4,
+    "D": "pa brtag",
+    "N": "ba brtags"
+   }
+  ]
+ },
+ {
+  "no": 7,
+  "skt_incipit": "niṣkṛpaṃ krodhanaṃ krūraṃ stabdhaṃ laghumasaṃyatam / svotkarṣakaṃ ca no kuryād guruṃ śiṣyaṃ ca buddh",
+  "D_incipit_wylie": "blo ldan slob mas bla mar ni",
+  "N_incipit_wylie": "blo ldan slob mas bla mar ni",
+  "D_padas_wylie": [
+   "blo ldan slob mas bla mar ni",
+   "snying rje med cing khro la gdug",
+   "khengs shing chags la ma bsdams dang",
+   "spyoms dang bcas par mi bya'o"
+  ],
+  "N_padas_wylie": [
+   "blo ldan slob mas bla mar ni",
+   "snying rje med cing khro la gdug khangs",
+   "shing chags gam? gdams dang sbyoms?",
+   "dang bcas par mi bya'o"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 2,
+    "D": "∅",
+    "N": "khangs"
+   },
+   {
+    "pada": 3,
+    "D": "khengs",
+    "N": "∅"
+   },
+   {
+    "pada": 3,
+    "D": "la ma bsdams",
+    "N": "gam? gdams"
+   },
+   {
+    "pada": 3,
+    "D": "∅",
+    "N": "sbyoms?"
+   },
+   {
+    "pada": 4,
+    "D": "spyoms",
+    "N": "∅"
+   }
+  ]
+ },
+ {
+  "no": 8,
+  "skt_incipit": "dhīro vinīto matimān kṣamāvānārjavo 'śaṭhaḥ / mantratantraprayogajñaḥ kṛpāluḥ śāstrakovidaḥ",
+  "D_incipit_wylie": "brtan zhing dul la blo gros ldan",
+  "N_incipit_wylie": "brtan zhing du la blo gros ldan",
+  "D_padas_wylie": [
+   "brtan zhing dul la blo gros ldan",
+   "bzod ldan drang la g.yo sgyu med",
+   "sngags dang rgyud kyi sbyor ba shes",
+   "snying brtser ldan zhing bstan bcos mkhas"
+  ],
+  "N_padas_wylie": [
+   "brtan zhing du la blo gros ldan",
+   "bzod ldan dang la g.yo sgyu med",
+   "sngags dang rgyud kyi sbyor ba shes",
+   "snying brtser ldan zhing bstan bcos mkhas"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 1,
+    "D": "dul",
+    "N": "du"
+   },
+   {
+    "pada": 2,
+    "D": "drang",
+    "N": "dang"
+   }
+  ]
+ },
+ {
+  "no": 9,
+  "skt_incipit": "daśatattvaparijñātā maṇḍalālekhyakarmavit / mantravyākhyākṛdācāryaḥ prasannaḥ syājjitendriyaḥ",
+  "D_incipit_wylie": "de nyid bcu ni yongs su shes",
+  "N_incipit_wylie": "de nyid bcu ni yongs su shes",
+  "D_padas_wylie": [
+   "de nyid bcu ni yongs su shes",
+   "dkyil 'khor 'dri ba'i las la mkhas",
+   "sngags bshad pa yi sbyor ba shes",
+   "rab tu zhi zhing dbang po dul"
+  ],
+  "N_padas_wylie": [
+   "de nyid bcu ni yongs su shes",
+   "dkyil 'khor 'dri pa'i las la mkhas",
+   "sngags bshad pa yi sbyor ba shes",
+   "rab tu zhi zhing dbang po du la"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 2,
+    "D": "ba'i",
+    "N": "pa'i"
+   },
+   {
+    "pada": 4,
+    "D": "dul",
+    "N": "du la"
+   }
+  ]
+ },
+ {
+  "no": 10,
+  "skt_incipit": "taṃ nāthaṃ yo 'vamanyeta śiṣyo bhūtvā sacetanaḥ / sarvabuddhāpamānena sa nityaṃ duḥkhamāpnuyāt",
+  "D_incipit_wylie": "de 'dra'i mgon la bsams byas nas",
+  "N_incipit_wylie": "de 'dra'i mgon la bsams byas nas",
+  "D_padas_wylie": [
+   "de 'dra'i mgon la bsams byas nas",
+   "slob mar gyur nas brnyas na ni",
+   "sangs rgyas thams cad brnyas pas na",
+   "des ni rtag tu sdug bsngal 'thob"
+  ],
+  "N_padas_wylie": [
+   "de 'dra'i mgon la bsams byas nas",
+   "slob mar gyur nas brnyas na ni",
+   "sangs rgyas thams cad brnyas pas na",
+   "des ni rtag tu sdug bsngal 'thob"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 11,
+  "skt_incipit": "ītyupadravacauraiśca grahajvaraviṣādibhiḥ / mriyate 'sau mahāmūḍho gurupādābhinindakaḥ",
+  "D_incipit_wylie": "slob dpon la ni smod pa de",
+  "N_incipit_wylie": "slob dpon la ni smod pa de",
+  "D_padas_wylie": [
+   "slob dpon la ni smod pa de",
+   "yams dang 'tshe ba'i nad rnams dang",
+   "gdon dang rims dang dug rnams kyis",
+   "rmongs chen de ni 'chi bar 'gyur"
+  ],
+  "N_padas_wylie": [
+   "slob dpon la ni smod pa de",
+   "yams dang 'tshe ba'i nad rnams dang",
+   "gdon dang rims dang dug rnams kyis",
+   "rmongs chen de ni 'chi bar 'gyur"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 12,
+  "skt_incipit": "rājavātānalavyālairḍākinījalataskaraiḥ / vighnairvināyakaiścāpi mārito narakaṃ vrajet",
+  "D_incipit_wylie": "rgyal po me dang sbrul gdug dang",
+  "N_incipit_wylie": "rgyal po me dang sbrul gdug dang",
+  "D_padas_wylie": [
+   "rgyal po me dang sbrul gdug dang",
+   "chu dang mkha' 'gro rkun po dang",
+   "gdon dang log 'dren rnams kyis kyang",
+   "bsad nas sems can dmyal bar 'gro"
+  ],
+  "N_padas_wylie": [
+   "rgyal po me dang sbrul gdug dang",
+   "chu dang mkha' 'gro kun po dang",
+   "gdon dang log 'dren rnams kyis kyang",
+   "bsad nas sems can dmyal bar 'gro"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 2,
+    "D": "rkun",
+    "N": "kun"
+   }
+  ]
+ },
+ {
+  "no": 13,
+  "skt_incipit": "na kuryāccittasaṃkṣobhamācāryasya kadācana / yadā karoti duṣprajño narake pacyate dhruvam",
+  "D_incipit_wylie": "nam yang slob dpon dag gi ni",
+  "N_incipit_wylie": "nam yang slob dpon dag gi ni",
+  "D_padas_wylie": [
+   "nam yang slob dpon dag gi ni",
+   "kun du sems dkrugs mi bya ste",
+   "gal te rmongs pas byas gyur na",
+   "dmyal bar nges par 'tshed par 'gyur"
+  ],
+  "N_padas_wylie": [
+   "nam yang slob dpon dag gi ni",
+   "kun tu sems dkrugs mi bya ste",
+   "gal te rmongs pas byas gyur na",
+   "dmyal bar nges par 'tshed par 'gyur"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 2,
+    "D": "du",
+    "N": "tu"
+   }
+  ]
+ },
+ {
+  "no": 14,
+  "skt_incipit": "narakā ye samākhyātā avīcyādyā bhayānakāḥ / tatra vāsaḥ samākhyāta ācāryasya hi nindanāt",
+  "D_incipit_wylie": "mnar med la sogs 'jigs rung ba'i",
+  "N_incipit_wylie": "mnar med la sogs 'jigs rung ba'i",
+  "D_padas_wylie": [
+   "mnar med la sogs 'jigs rung ba'i",
+   "dmyal ba bstan pa gang yin pa",
+   "slob dpon la ni smod pa rnams",
+   "der ni gnas par yang dag bshad"
+  ],
+  "N_padas_wylie": [
+   "mnar med la sogs 'jigs rung ba'i",
+   "dmyal ba bstan pa gang yin pa",
+   "slob dpon la ni smod pa rnams",
+   "der ni gnas par yang dag bshad"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 15,
+  "skt_incipit": "tasmāt sarvaprayatnena vajrācāryaṃ mahāgurum / pracchannavarakalyāṇaṃ nāvamanyet kadācana",
+  "D_incipit_wylie": "de bas 'bad pa thams cad kyis",
+  "N_incipit_wylie": "de bas 'bad pa thams cad kyis",
+  "D_padas_wylie": [
+   "de bas 'bad pa thams cad kyis",
+   "rdo rje slob dpon blo gros che",
+   "dge ba rab tu mi spyoms pa",
+   "nam yang smad par mi bya'o"
+  ],
+  "N_padas_wylie": [
+   "de bas 'bad pa thams cad kyis",
+   "rdo rje slob dpon blo gros che",
+   "dge ba rab tu mi spyoms pa",
+   "nam yang dmad par mi bya'o"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 4,
+    "D": "smad",
+    "N": "dmad"
+   }
+  ]
+ },
+ {
+  "no": 16,
+  "skt_incipit": "yatheṣṭadakṣiṇādānād gurubhaktaṃ sagauravam / uktā jvarādayastāpā na bhūyaḥ prabhavanti hi",
+  "D_incipit_wylie": "bla ma la ni gus bcas yon",
+  "N_incipit_wylie": "bla ma la ni gus bcas yon",
+  "D_padas_wylie": [
+   "bla ma la ni gus bcas yon",
+   "rjes su mthun par sbyin par bya",
+   "des ni rims sogs gnod pa rnams",
+   "phyir zhing 'byung bar mi 'gyur ro"
+  ],
+  "N_padas_wylie": [
+   "bla ma la ni gus bcas yon",
+   "rjes su mthun par sbyin par bya",
+   "des ni rims sogs gnod pa rnams",
+   "phyir zhing 'byung bar mi 'gyur ro"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 17,
+  "skt_incipit": "adeyaiḥ putradārādyairasubhirvā nijairapi / sevyaḥ svasaṃvarācārya kiṃ punarvibhavaiścalaiḥ",
+  "D_incipit_wylie": "rang gi dam tshig slob dpon ni",
+  "N_incipit_wylie": "rang gi dam tshig slob dpon ni",
+  "D_padas_wylie": [
+   "rang gi dam tshig slob dpon ni",
+   "sbyin min bu dang chung ma dang",
+   "rang srog gis kyang brten bya na",
+   "longs spyod g.yo ba smos ci dgos"
+  ],
+  "N_padas_wylie": [
+   "rang gi dam tshig slob dpon ni",
+   "sbyin min bu dang chung ma dang",
+   "rang srog gis kyang bsten bya na",
+   "longs spyod g.yo ba smos ci dgos"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 3,
+    "D": "brten",
+    "N": "bsten"
+   }
+  ]
+ },
+ {
+  "no": 18,
+  "skt_incipit": "yataḥ sudurlabhaṃ vastu kalpāsaṃkhyeyakoṭibhiḥ / buddhatvamudyogavate dadātīhaiva janmani",
+  "D_incipit_wylie": "gang phyir bskal pa bye ba ni",
+  "N_incipit_wylie": "gang phyir bskal pa bye ba ni",
+  "D_padas_wylie": [
+   "gang phyir bskal pa bye ba ni",
+   "grangs med par yang rnyed dka' ba'i",
+   "sangs rgyas nyid kyang brtson ldan la",
+   "tshe 'di nyid la ster bar byed"
+  ],
+  "N_padas_wylie": [
+   "gang phyir bskal pa bye ba ni",
+   "grangs med par yang rnyed dka' ba'i",
+   "sangs rgyas nyid kyang brtson ldan la",
+   "tshe 'di nyid la ster bar byed"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 19,
+  "skt_incipit": "nityaṃ svasamayaḥ sādhyo nityaṃ pūjyāstathāgatāḥ / nityaṃ ca gurave deyaṃ sarvabuddhasamo hyasau",
+  "D_incipit_wylie": "rtag tu rang gi dam tshig bsrung",
+  "N_incipit_wylie": "rtag tu rang gi dam tshig bsrung",
+  "D_padas_wylie": [
+   "rtag tu rang gi dam tshig bsrung",
+   "rtag tu de bzhin gshegs pa mchod",
+   "rtag tu bla ma la yang 'bul",
+   "'di ni sangs rgyas kun dang 'dra"
+  ],
+  "N_padas_wylie": [
+   "rtag tu rang gi dam tshig bsrung",
+   "rtag tu de bzhin gshegs pa mchod",
+   "rtag tu bla ma la yang 'bul",
+   "'di ni sangs rgyas kun dang 'dra"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 20,
+  "skt_incipit": "yadyadiṣṭataraṃ loke viśiṣṭarameva vā / tattaddhi gurave deyaṃ sadaivākṣayamicchatā",
+  "D_incipit_wylie": "mi zad de ni 'dod pa yis",
+  "N_incipit_wylie": "mi zad de ni 'dod pa yis",
+  "D_padas_wylie": [
+   "mi zad de ni 'dod pa yis",
+   "cung zad yid 'ong gang dang gang",
+   "shin tu khyad par gyur pa nyid",
+   "de dang de ni bla mar sbyin"
+  ],
+  "N_padas_wylie": [
+   "mi zad de ni 'dod pa yis",
+   "cung zad yid 'ong gang dang gang",
+   "shin tu khyad par gyur pa nyid",
+   "de dang de ni bla mar sbyin"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 21,
+  "skt_incipit": "datte 'smai sarvabuddhebhyo dattaṃ bhavati śāśvatam / tasmācca puṇyasaṃbhāraḥ saṃbhārād bodhiruttamā",
+  "D_incipit_wylie": "de byin sangs rgyas thams cad la",
+  "N_incipit_wylie": "de byin sangs rgyas thams cad la",
+  "D_padas_wylie": [
+   "de byin sangs rgyas thams cad la",
+   "rtag tu byin pa nyid du 'gyur",
+   "de byin bsod nams tshogs yin te",
+   "tshogs las dngos grub mchog tu 'gyur"
+  ],
+  "N_padas_wylie": [
+   "de byin sangs rgyas thams cad la",
+   "rtag tu byin pa nyid du 'gyur",
+   "de byin bsod nams tshogs yin te",
+   "tshogs las dngos grub mchog tu 'gyur"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 22,
+  "skt_incipit": "te śiṣyāḥ karuṇotsargaśīlakṣāntiguṇānvitāḥ / ye nānyatvaṃ kalpayanti gurorvajradharasya ca",
+  "D_incipit_wylie": "de bas slob ma snying rje gtong",
+  "N_incipit_wylie": "de bas slob ma snying rje gtong",
+  "D_padas_wylie": [
+   "de bas slob ma snying rje gtong",
+   "tshul khrims bzod pa'i yon tan ldan",
+   "slob dpon dang ni rdo rje 'dzin",
+   "tha dad par ni mi brtag go"
+  ],
+  "N_padas_wylie": [
+   "de bas slob ma snying rje gtong",
+   "tshul khrims bzod pa'i yon tan ldan",
+   "slob dpon dang ni rdo rje 'dzin",
+   "tha dad par ni mi rtag go"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 4,
+    "D": "brtag",
+    "N": "rtag"
+   }
+  ]
+ },
+ {
+  "no": 23,
+  "skt_incipit": "caityabhaṅgādibhītyāpi gurośchāyāṃ na laṅghayet / pādukāsanayānāderlaṅghanasya tu kā kathā",
+  "D_incipit_wylie": "mchod rten bshigs 'dra'i sdig 'jigs pas",
+  "N_incipit_wylie": "mchod rten bshig 'dra'i sdig 'jigs bas",
+  "D_padas_wylie": [
+   "mchod rten bshigs 'dra'i sdig 'jigs pas",
+   "grib ma'ang bgom par mi bya na",
+   "lham dang stan dang bzhon pa sogs",
+   "bgom mi bya ba smos ci dgos"
+  ],
+  "N_padas_wylie": [
+   "mchod rten bshig 'dra'i sdig 'jigs bas",
+   "grib ma 'ang bgom par mi bya na lha ma",
+   "dang stan dang bzhon pa sogs",
+   "bgom mi bya ba smos ci dgos"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 1,
+    "D": "bshigs",
+    "N": "bshig"
+   },
+   {
+    "pada": 1,
+    "D": "pas",
+    "N": "bas"
+   },
+   {
+    "pada": 2,
+    "D": "ma'ang",
+    "N": "ma 'ang"
+   },
+   {
+    "pada": 2,
+    "D": "∅",
+    "N": "lha ma"
+   },
+   {
+    "pada": 3,
+    "D": "lham",
+    "N": "∅"
+   }
+  ]
+ },
+ {
+  "no": 24,
+  "skt_incipit": "śrūyād yatnād gurorājñāṃ hṛṣṭacitto mahāmatiḥ / aśaktaḥ śrāvayet tasmā upapattyā tvaśaktitām",
+  "D_incipit_wylie": "blo gros chen po dga' sems kyis",
+  "N_incipit_wylie": "blo gros chen po dga' sems kyis",
+  "D_padas_wylie": [
+   "blo gros chen po dga' sems kyis",
+   "bla ma'i bka' ni 'bad de mnyan",
+   "rigs pa yis ni mi nus pa",
+   "mi nus de la tshig gis sbyang"
+  ],
+  "N_padas_wylie": [
+   "blo gros chen po dga' sems kyis",
+   "bla ma'i bka' ni 'bad de mnyan",
+   "rigs pa yis ni mi nus pa",
+   "mi nus de la tshig gis sbyang"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 25,
+  "skt_incipit": "guroḥ siddhiṃ samāpnoti guroḥ svargaṃ guroḥ sukham / tasmāt sarvaprayatnena gurorājñāṃ na laṅghayet",
+  "D_incipit_wylie": "bla ma las ni dngos grub dang",
+  "N_incipit_wylie": "bla ma las ni dngos grub dang",
+  "D_padas_wylie": [
+   "bla ma las ni dngos grub dang",
+   "mtho ris dang ni bde ba 'thob",
+   "de bas 'bad pa thams cad kyis",
+   "bla ma'i bka' las 'da' mi bya"
+  ],
+  "N_padas_wylie": [
+   "bla ma las ni dngos grub dang",
+   "mtho ris dang ni bde ba 'thob",
+   "de bas 'bad pa thams cad kyis",
+   "bla ma'i bka' las 'da' mi bya"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 26,
+  "skt_incipit": "svātmavacca gurordravyaṃ guruvacca tadaṅganām / svajanāniva tallokān paśyennityaṃ samāhitaḥ",
+  "D_incipit_wylie": "bla ma'i rdzas ni srog ji bzhin",
+  "N_incipit_wylie": "bla ma'i rdzas ni srog ji bzhin",
+  "D_padas_wylie": [
+   "bla ma'i rdzas ni srog ji bzhin",
+   "bla ma'i sdug pa'ang bla ma bzhin",
+   "de yi 'khor ni gnyen bzhin du",
+   "mnyam par gzhag pas rtag tu bsam"
+  ],
+  "N_padas_wylie": [
+   "bla ma'i rdzas ni srog ji bzhin",
+   "bla ma'i sdug pa'ang bla ma bzhin",
+   "de yi 'khor ni gnyen bzhin du",
+   "mnyam par bzhag pas rtag tu bsams"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 4,
+    "D": "gzhag",
+    "N": "bzhag"
+   },
+   {
+    "pada": 4,
+    "D": "bsam",
+    "N": "bsams"
+   }
+  ]
+ },
+ {
+  "no": 27,
+  "skt_incipit": "śayyārohamagrayānamuṣṇīṣādyupabandhanam / na kuryādāsane pādaṃ kaṭihastaṃ ca sannidhau",
+  "D_incipit_wylie": "mal stan 'dug dang sngon 'gro dang",
+  "N_incipit_wylie": "mal stan 'dug dang sngon 'gro dang",
+  "D_padas_wylie": [
+   "mal stan 'dug dang sngon 'gro dang",
+   "gtsug tor dag dang dpyangs pa dang",
+   "stan la rkang 'jog rked par ni",
+   "lag gzhag snye bar mi bya'o"
+  ],
+  "N_padas_wylie": [
+   "mal stan 'dug dang sngon 'gro dang",
+   "gtsug tor dag dang bcas pa dang",
+   "stan la rkang 'jog rkad par ni",
+   "lag gzhag mnye bar mi bya'o"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 2,
+    "D": "dpyangs",
+    "N": "bcas"
+   },
+   {
+    "pada": 3,
+    "D": "rked",
+    "N": "rkad"
+   },
+   {
+    "pada": 4,
+    "D": "snye",
+    "N": "mnye"
+   }
+  ]
+ },
+ {
+  "no": 28,
+  "skt_incipit": "suptena vā niṣaṇṇena na stheyamutthite gurau / dakṣaścotsāhasampannastatkāryeṣu sadā bhavet",
+  "D_incipit_wylie": "bla ma dag ni langs pa na",
+  "N_incipit_wylie": "bla ma dag ni langs pa na",
+  "D_padas_wylie": [
+   "bla ma dag ni langs pa na",
+   "nyal dang 'dug par mi bya'o",
+   "rtag tu de yi bya ba la",
+   "ldang mkhas phun sum tshogs par bya"
+  ],
+  "N_padas_wylie": [
+   "bla ma dag ni langs pa na",
+   "nyal dang 'dug par mi bya'o",
+   "rtag tu de yi bya ba la",
+   "ldang mkhas phun sum tshogs par bya"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 29,
+  "skt_incipit": "śleṣmādīnāṃ parityāgaḥ pādaprasāraṇaṃ tathā / caṅkramaṇaṃ vivādaṃ ca na kuryāt purato guroḥ",
+  "D_incipit_wylie": "mchil ma la sogs 'dor ba dang",
+  "N_incipit_wylie": "mchil ma la sags 'dor ba dang",
+  "D_padas_wylie": [
+   "mchil ma la sogs 'dor ba dang",
+   "stan la rkang 'jog rkyong ba ni",
+   "'chag dang rtsod par smra ba dag",
+   "bla ma'i mdun du mi bya'o"
+  ],
+  "N_padas_wylie": [
+   "mchil ma la sags 'dor ba dang",
+   "stan la rkang 'jog rkyong ba dang",
+   "'chag dang rtsod par smra ba dag",
+   "bla ma'i mdun du mi bya'o"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 1,
+    "D": "sogs",
+    "N": "sags"
+   },
+   {
+    "pada": 2,
+    "D": "ni",
+    "N": "dang"
+   }
+  ]
+ },
+ {
+  "no": 30,
+  "skt_incipit": "saṃvāhanaṃ nartanaṃ ca na gānaṃ na ca bādanam / bahu saṃlapanaṃ cāpi na kuryāt purato guroḥ",
+  "D_incipit_wylie": "yan lag mnye dang gar dag dang",
+  "N_incipit_wylie": "yan lag mnye dang gar dag dang",
+  "D_padas_wylie": [
+   "yan lag mnye dang gar dag dang",
+   "glu dang rol mo mi bya zhing",
+   "gtam gyi sbyor ba mang po rnams",
+   "thos pa'i nye 'khor du mi bya"
+  ],
+  "N_padas_wylie": [
+   "yan lag mnye dang gar dag dang",
+   "glu dang rol mo mi bya zhing",
+   "gtam gyi sbyor ba mang po rnams",
+   "thos pa'i nye 'khor du mi bya gtud"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 4,
+    "D": "∅",
+    "N": "gtud"
+   }
+  ]
+ },
+ {
+  "no": 31,
+  "skt_incipit": "natvāsanāt samuttheyaṃ niṣattavyaṃ ca bhaktitaḥ / niśyapsu sabhaye mārge prārthyāgre gamanaṃ caret",
+  "D_incipit_wylie": "btud de stan las ldang ba dang",
+  "N_incipit_wylie": "de stan las ldang ba dang",
+  "D_padas_wylie": [
+   "btud de stan las ldang ba dang",
+   "gus pa yis ni 'dug par bya",
+   "mtshan chu 'jigs bcas lam du ni",
+   "bsgo ba thob na mdun 'gro bya"
+  ],
+  "N_padas_wylie": [
+   "de stan las ldang ba dang",
+   "gus pa yis ni 'dug par bya",
+   "mtshan chu 'jigs bcas lam du ni",
+   "bsgo ba thob na mdun 'gro bya"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 1,
+    "D": "btud",
+    "N": "∅"
+   }
+  ]
+ },
+ {
+  "no": 32,
+  "skt_incipit": "nāṅgāni cālayed dhīmān na jṛmbhādi samāśrayet / nāṅgulisphoṭanaṃ kuryāt puraḥ paśyati śāstari",
+  "D_incipit_wylie": "slob dpon gyis ni mthong mdun du",
+  "N_incipit_wylie": "slob dpon gyis ni mthong mdun du",
+  "D_padas_wylie": [
+   "slob dpon gyis ni mthong mdun du",
+   "blo dang ldan pas lus gcu dang",
+   "ka ba la sogs brten mi bya",
+   "sor mo'i tshigs ni drang mi bya"
+  ],
+  "N_padas_wylie": [
+   "slob dpon gyis ni mthong mdun du",
+   "blo dang ldan pas lus bcu dang",
+   "ka ba la sogs brten mi bya",
+   "sor mo'i tshigs ni drang mi bya"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 2,
+    "D": "gcu",
+    "N": "bcu"
+   }
+  ]
+ },
+ {
+  "no": 33,
+  "skt_incipit": "pādayoḥ kṣālanaṃ cāṅgaproñchābhyañjanamardanam / pūrvaṃ praṇamya kartavyaṃ tataḥ kuryād yadādiśet",
+  "D_incipit_wylie": "rkang pa bkru dang lus bkru dang",
+  "N_incipit_wylie": "rkang pa bkru dang lus bkru dang",
+  "D_padas_wylie": [
+   "rkang pa bkru dang lus bkru dang",
+   "dril dang mnye ba la sogs pa",
+   "phyag ni sngon du 'gro bas bya",
+   "de bzhin mthar ni ci bder bya"
+  ],
+  "N_padas_wylie": [
+   "rkang pa bkru dang lus bkru dang",
+   "dril dang mnye ba la sogs pa",
+   "phyag ni sngon du 'gro bas bya",
+   "de bzhin mthar ni ci bder bya"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 34,
+  "skt_incipit": "[āvhānādau gurornāmni pūjyapādādi yojayet / anyadā śraddhayā brūyāt sādaraistu viśeṣaṇaiḥ",
+  "D_incipit_wylie": "de yi mtshan smos brjod na ni",
+  "N_incipit_wylie": "de yis mtshan smos brjod na ni",
+  "D_padas_wylie": [
+   "de yi mtshan smos brjod na ni",
+   "ming mthar zhal sngar ldan pas bya",
+   "gzhan dag gus par bya ba'i phyir",
+   "khyad par gyi ni tshig kyang brjod"
+  ],
+  "N_padas_wylie": [
+   "de yis mtshan smos brjod na ni",
+   "ming mthar zhal sngar ldan pas bya",
+   "gzhan dag gus par bya ba'i phyir",
+   "khyad par gyi ni tshig kyang brjod"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 1,
+    "D": "yi",
+    "N": "yis"
+   }
+  ]
+ },
+ {
+  "no": 35,
+  "skt_incipit": "ādiśyatām, kariṣyāmi, pravadet sāñjalirgurum / śrutvādeśaṃ cāvicālya yathādiṣṭaṃ tathā caret",
+  "D_incipit_wylie": "bla ma la ni bka' stsal zhu",
+  "N_incipit_wylie": "bla ma la ni bka' stsal zhu",
+  "D_padas_wylie": [
+   "bla ma la ni bka' stsal zhu",
+   "bka' bzhin bgyid ces brjod byas la",
+   "thal mo sbyar zhing ma yengs par",
+   "bla mas bsgo ba mnyan par bya"
+  ],
+  "N_padas_wylie": [
+   "bla ma la ni bka' stsal zhu",
+   "bka' bzhin bgyid ces brjod byas la",
+   "thal mo sbyar zhing ma yengs bar",
+   "bla mas bsgo ba mnyan par bya rgod"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 3,
+    "D": "par",
+    "N": "bar"
+   },
+   {
+    "pada": 4,
+    "D": "∅",
+    "N": "rgod"
+   }
+  ]
+ },
+ {
+  "no": 36,
+  "skt_incipit": "hāse kāse samutpanne kareṇācchādayenmukham / tadante mṛdubhirvarṇaiḥ svābhiprāyaṃ nivedayet",
+  "D_incipit_wylie": "dgod dang lud pa la sogs pa",
+  "N_incipit_wylie": "dang lud ba la sogs pa",
+  "D_padas_wylie": [
+   "dgod dang lud pa la sogs pa",
+   "lag pas kha ni dgab par bya",
+   "bya ba zin nas 'jam pa yi",
+   "tshig dag gis ni bzlas par bya"
+  ],
+  "N_padas_wylie": [
+   "dang lud ba la sogs pa",
+   "lag pas kha ni dgab par bya",
+   "bya ba zin nas 'jam pa yi",
+   "tshig dag gis ni brdas par bya"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 1,
+    "D": "dgod",
+    "N": "∅"
+   },
+   {
+    "pada": 1,
+    "D": "pa",
+    "N": "ba"
+   },
+   {
+    "pada": 4,
+    "D": "bzlas",
+    "N": "brdas"
+   }
+  ]
+ },
+ {
+  "no": 37,
+  "skt_incipit": "vinītaḥ purato bhūyāt sajjo vastrādibandhanaiḥ / bhūjānuḥ sāñjaliḥ śrotuṃ yācayet tu trivārakam",
+  "D_incipit_wylie": "mdun du dul bar 'dug pa dang",
+  "N_incipit_wylie": "mdun du dul bar 'dug pa dang",
+  "D_padas_wylie": [
+   "mdun du dul bar 'dug pa dang",
+   "gos sogs tshul bzhin bsdams pa dang",
+   "pus btsugs thal mo sbyar ba yis",
+   "mnyan sogs 'dod la gsol gsum gdab"
+  ],
+  "N_padas_wylie": [
+   "mdun du dul bar 'dug pa dang",
+   "gos sogs tshul bzhin gdams pa dang",
+   "pus btsugs thal mo sbyor ba yis",
+   "mnyan sogs 'dod la gsol gsum gdab"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 2,
+    "D": "bsdams",
+    "N": "gdams"
+   },
+   {
+    "pada": 3,
+    "D": "sbyar",
+    "N": "sbyor"
+   }
+  ]
+ },
+ {
+  "no": 38,
+  "skt_incipit": "satkāryaṃ sarvadā kuryānnirahaṅkāracetasā / trapayā pāpabhītyā saṃvṛto navavadhūriva",
+  "D_incipit_wylie": "bsnyen bkur spyod pa thams cad la",
+  "N_incipit_wylie": "bsnyen bkur spyod pa thams cad la",
+  "D_padas_wylie": [
+   "bsnyen bkur spyod pa thams cad la",
+   "yid ni nga rgyal med par bya",
+   "ngo tsha 'jigs shing bsdams pa yis",
+   "bag ma gsar pa'i tshul gnas bya"
+  ],
+  "N_padas_wylie": [
+   "bsnyen bkur spyod pa thams cad la",
+   "yid ni nga rgyal med par bya",
+   "ngo tsha 'jigs shing bsdams ba yis",
+   "bag ma gsar ba'i tshul gnas bya"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 3,
+    "D": "pa",
+    "N": "ba"
+   },
+   {
+    "pada": 4,
+    "D": "pa'i",
+    "N": "ba'i"
+   }
+  ]
+ },
+ {
+  "no": 39,
+  "skt_incipit": "na vilāsamayīṃ ceṣṭāṃ kuryāt śāstari saṃmukhe / anyaccaivaṃvidhaṃ karma suparīkṣya tyajed bhṛśam",
+  "D_incipit_wylie": "sgeg pa la sogs bya ba kun",
+  "N_incipit_wylie": "sgeg pa la sogs bya ba kun",
+  "D_padas_wylie": [
+   "sgeg pa la sogs bya ba kun",
+   "ston pa'i mdun du spang bar bya",
+   "gzhan yang de 'dra'i bya ba ni",
+   "rang gis brtags la dor bar bya"
+  ],
+  "N_padas_wylie": [
+   "sgeg pa la sogs bya ba kun",
+   "ston pa'i mdun du spang bar bya",
+   "gzhan yang de 'dra'i bya ba ni",
+   "rang gis brtags la dor bar bya rang"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 4,
+    "D": "∅",
+    "N": "rang"
+   }
+  ]
+ },
+ {
+  "no": 40,
+  "skt_incipit": "pratiṣṭhāyāṃ maṇḍale ca home vā śiṣyasaṃgrahe / ākhyānādau gurorvāse nityaṃ kuryācca sannidhim",
+  "D_incipit_wylie": "rab gnas dkyil 'khor sbyin sreg dang",
+  "N_incipit_wylie": "gnas dkyil 'khor sbyin sreg dang",
+  "D_padas_wylie": [
+   "rab gnas dkyil 'khor sbyin sreg dang",
+   "slob ma sdud dang 'chad pa rnams",
+   "yul der bla ma gnas pa na",
+   "rjes ma gnang bar mi bya'o"
+  ],
+  "N_padas_wylie": [
+   "gnas dkyil 'khor sbyin sreg dang",
+   "slob ma sdud dang 'chad pa rnams",
+   "yul der bla ma gnas pa na",
+   "rjes ma gnang bar mi bya'o"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 1,
+    "D": "rab",
+    "N": "∅"
+   }
+  ]
+ },
+ {
+  "no": 41,
+  "skt_incipit": "pratiṣṭhādau labhyate yat tatsarvaṃ gurave 'rpayet / tena dattaṃ ca gṛṇhīyāt svayaṃ cānyāṃśca toṣaye",
+  "D_incipit_wylie": "spyan 'bye sogs las ci thob pa",
+  "N_incipit_wylie": "spyan dbye sogs las ci thob pa",
+  "D_padas_wylie": [
+   "spyan 'bye sogs las ci thob pa",
+   "de kun bla ma rnams la dbul",
+   "de yis bstabs pa blangs nas ni",
+   "gzhan dag la ni ci bder bya"
+  ],
+  "N_padas_wylie": [
+   "spyan dbye sogs las ci thob pa",
+   "de kun bla ma rnams la dbul",
+   "de yis bstabs pa blangs nas ni",
+   "gzhan dag la ni ci bder bya"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 1,
+    "D": "'bye",
+    "N": "dbye"
+   }
+  ]
+ },
+ {
+  "no": 42,
+  "skt_incipit": "guruśiṣye svaśiṣyatvaṃ na vidadhyāt kadācan / svaśiṣyaṃ vyāvṛtaṃ kuryāt satkārāderguroḥ puraḥ",
+  "D_incipit_wylie": "bla ma'i slob ma slob mar min",
+  "N_incipit_wylie": "bla ma'i slob ma slob mar min",
+  "D_padas_wylie": [
+   "bla ma'i slob ma slob mar min",
+   "slob ma'ang bla ma'i mdun du min",
+   "bsnyen bkur dag dang ldang ba dang",
+   "phyag sogs byed pa bzlog par bya"
+  ],
+  "N_padas_wylie": [
+   "bla ma'i slob ma slob mar min",
+   "slob ma'ang bla ma'i mdun du min",
+   "bsnyen bkur dag dang ldang ba dang",
+   "phyag sogs byed pa bzlog par bya"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 43,
+  "skt_incipit": "ācāryo yatsvayaṃ dadyād gururvā yat pradāpayet / praṇamya dhīmatā grāhyaṃ baddhāñjalipuṭena tat",
+  "D_incipit_wylie": "slob dpon la ni gang 'bul dang",
+  "N_incipit_wylie": "slob dpon la ni gang 'bul dang",
+  "D_padas_wylie": [
+   "slob dpon la ni gang 'bul dang",
+   "bla mas kyang ni gang stsal pa",
+   "de la btud de lag gnyis kyis",
+   "blo dang ldan pas blang bar bya"
+  ],
+  "N_padas_wylie": [
+   "slob dpon la ni gang 'bul dang",
+   "bla mas kyang ni gang stsal ba",
+   "de la btud de lag gnyis kyis",
+   "blo dang ldan pas bslang bar bya"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 2,
+    "D": "pa",
+    "N": "ba"
+   },
+   {
+    "pada": 4,
+    "D": "blang",
+    "N": "bslang"
+   }
+  ]
+ },
+ {
+  "no": 44,
+  "skt_incipit": "avismṛtaḥ sarvacaryāṃ yatnāt kurvan svabāndhavān / avismṛternirākuryāt premṇā hṛṣṭena cetasā",
+  "D_incipit_wylie": "dran pa brjed med gyur pa dang",
+  "N_incipit_wylie": "dran pa rjed mad gyur pa dang",
+  "D_padas_wylie": [
+   "dran pa brjed med gyur pa dang",
+   "rang gi kun spyod la brtson pas",
+   "spun gyi rang spyod las 'das pa",
+   "dga' bas phan tshun bzlog par bya"
+  ],
+  "N_padas_wylie": [
+   "dran pa rjed mad gyur pa dang",
+   "rang gi kun spyod la brtson pas",
+   "spun gyi rang spyod las 'das pa",
+   "dga' bas phan tshun bzlog par bya"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 1,
+    "D": "brjed med",
+    "N": "rjed mad"
+   }
+  ]
+ },
+ {
+  "no": 45,
+  "skt_incipit": "anujñāto guroḥ kāryaṃ śraddhālurnācared yadi / rugṇastu kuśale citte naivaṃ bhavati pāpabhāk",
+  "D_incipit_wylie": "na bas bla ma'i bya ba la",
+  "N_incipit_wylie": "na bas bla ma'i bya ba la",
+  "D_padas_wylie": [
+   "na bas bla ma'i bya ba la",
+   "btud de rjes ma gnang bar yang",
+   "bkag pa rnams ni spyad byas kyang",
+   "dge sems ldan la sdig mi 'gyur"
+  ],
+  "N_padas_wylie": [
+   "na bas bla ma'i bya ba la",
+   "btud de rjes ma snang bar yang",
+   "bkag pa rnams ni spyad byas kyang",
+   "dge sems ldan la sdig mi 'gyur"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 2,
+    "D": "gnang",
+    "N": "snang"
+   }
+  ]
+ },
+ {
+  "no": 46,
+  "skt_incipit": "kimanyad, gurutoṣāya yacchakyaṃ tatsamācaret / caryā kāryā prayatnena na kadāpyavahelayet",
+  "D_incipit_wylie": "'dir mang smra ba ci zhig dgos",
+  "N_incipit_wylie": "'dir yang smra ba ci zhig dgos",
+  "D_padas_wylie": [
+   "'dir mang smra ba ci zhig dgos",
+   "bla ma dgyes byed gang yin bya",
+   "mi mnyes byed kun spang bar ni",
+   "de dang de la 'bad de spyad"
+  ],
+  "N_padas_wylie": [
+   "'dir yang smra ba ci zhig dgos",
+   "bla ma dgyes byed gang yin bya",
+   "mi mnyes byed kun spang bar ni",
+   "de dang de la 'bad de spyad"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 1,
+    "D": "mang",
+    "N": "yang"
+   }
+  ]
+ },
+ {
+  "no": 47,
+  "skt_incipit": "sarvathā sarvadā siddhirācārya yānugāminī / gururvajradharasyokterārādhyaḥ sarvavastubhiḥ",
+  "D_incipit_wylie": "dngos grub slob dpon rjes 'brang zhes",
+  "N_incipit_wylie": "dngos grub slob dpon rjes 'brang zhes",
+  "D_padas_wylie": [
+   "dngos grub slob dpon rjes 'brang zhes",
+   "rdo rje 'dzin pa nyid gsung bar",
+   "shes nas dngos po thams cad kyis",
+   "bla ma yongs su mnyes par bya"
+  ],
+  "N_padas_wylie": [
+   "dngos grub slob dpon rjes 'brang zhes",
+   "rdo rje 'dzin pa nyid gsung bar",
+   "shes nas dngos po thams cad kyis",
+   "bla ma yongs su mnyes par bya"
+  ],
+  "variants_D_vs_N": []
+ },
+ {
+  "no": 48,
+  "skt_incipit": "śiṣyaḥ śuddhāśayo bhūtvā triratnaṃ śaraṇaṃ vrajet / guroradhītyānupaṭhet kuryādutsargameva ca",
+  "D_incipit_wylie": "bsam pa dag pa'i slob ma ni",
+  "N_incipit_wylie": "bsam pa dag pa'i slob ma ni",
+  "D_padas_wylie": [
+   "bsam pa dag pa'i slob ma ni",
+   "dkon mchog gsum la skyabs song la",
+   "bla ma'i rjes su 'jug pa ni",
+   "kha ton bya bar sbyin par bya"
+  ],
+  "N_padas_wylie": [
+   "bsam pa dag pa'i slob ma ni",
+   "dkon mchog gsum la skyabs song la",
+   "bla ma'i rjes su 'jug pa ni",
+   "kha thon bya bar sbyin par bya"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 4,
+    "D": "ton",
+    "N": "thon"
+   }
+  ]
+ },
+ {
+  "no": 49,
+  "skt_incipit": "tato mantrādidānena kṛtvā saddharmapātrakam / paṭhecca dhārayeccāpi mūlāpattīścaturdaśa",
+  "D_incipit_wylie": "de nas sngags sogs sbyin pa yis",
+  "N_incipit_wylie": "de nas sngags sogs sbyin pa yis",
+  "D_padas_wylie": [
+   "de nas sngags sogs sbyin pa yis",
+   "dam chos snod du byas nas su",
+   "rtsa ba'i ltung ba bcu bzhi ni",
+   "klag dang 'dzin pa nyid du bya"
+  ],
+  "N_padas_wylie": [
+   "de nas sngags sogs sbyin pa yis",
+   "dam chos snod du byas nas su",
+   "rtsa ba'i ltung ba bcu bzhi ni bklag",
+   "dang 'dzin pa nyid du bya"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 3,
+    "D": "∅",
+    "N": "bklag"
+   },
+   {
+    "pada": 4,
+    "D": "klag",
+    "N": "∅"
+   }
+  ]
+ },
+ {
+  "no": 50,
+  "skt_incipit": "gurumanugataśiṣyasyānavadyasya kṛtvā sakalasuhitavṛddhiṃ saṃcitaṃ yanmayedam / kuśalapadamanantaṃ te",
+  "D_incipit_wylie": "de ltar bla ma'i rjes 'jug slob ma ni",
+  "N_incipit_wylie": "de ltar bla ma'i rjes 'jug slob ma ni",
+  "D_padas_wylie": [
+   "de ltar bla ma'i rjes 'jug slob ma ni",
+   "ma lus phan bskyed skyon med 'di byas pa'i",
+   "dge ba mtha' yas bdag gis ci bsags pa",
+   "des ni 'gro kun myur du rgyal gyur cig"
+  ],
+  "N_padas_wylie": [
+   "de ltar bla ma'i rjes 'jug slob ma ni",
+   "ma lus phan bskyed skyon med 'di byas pa'i",
+   "dge ba mdza' yas bdag gis ci bsags pa",
+   "des ni 'gro kun myur du rgyal gyur cig"
+  ],
+  "variants_D_vs_N": [
+   {
+    "pada": 3,
+    "D": "mtha'",
+    "N": "mdza'"
+   }
+  ]
+ }
+]

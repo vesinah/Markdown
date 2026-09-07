@@ -12,6 +12,9 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <link rel="manifest" href="manifest.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQOSURBVFhH7ZZdbFN1GMZ/7fpBR+kH28Jk6GJ2MYSwkMVMQ5gZOGKiMhWn0QQDySbgRwzRK2dCoheoA2IIiWYJmUAgoNFFJYoyNBEUdEYiU7apTJh00G5tWbt2/Tjteb3o1tFz2jlv8Ga/q5P3PO/Jk/yf9z1/g4gI/yNGbeFWM2dgzoCh0BQM30jRcTrE4GiSVBoq3CZeWOOiqsyslRak15PgWM84gWgagMa7inni7gW5IsnDwPWEPPCORy5cjefUmvYNy2e/jOdoC/Hqx6Oy5ZBXBq4nREmrcmkkKVsOebUyyWugad+wXPEnRUmrcuhsSN7/bkxiSVWUtCr3774qYxNpbUsO31+akOcO+3JqV/z5Degy0OtJUF1uobLEzI5PAoRiaaxmAy9/OIrJaKCl3sHJi1FtWw57T43x5oZSbTkvOgP+SJoVFRYAvhmYYFuDi6frHIRimXOscJkZHFU0XdP0ehJUlZlx2nSfzotO5bIZ6b+eBOCpugVs6vTy0tERqsoypgDSat7cArD/TIiWeqe2XBCdgdrKeVy8lsQXTrG90c1rDy5k8yoHbzxSopXqiCRUAtF0dlK6+2Y+KvIZAGhvLmVTp4/uvijzrUZK7EVaSV4OnwvTXJsZs5Qq7Dk5ppXoyGugutzCB1tvY3BEYecXQRp2ebSSvJz4bYL1K+dnnn+NMhQonJUp8hoAcNqMbGtw0fHMIqrLp8+/ED2X49TdacVkNABw7KdxapZYtTIdBQ1M0XM5ji+c0pZ1dHwbYvOqTPh+9yZZ5DDhKv7Xzxc2cH4ozuPvXaO7L0p78/RMV5WZOfNnnB2fBogrmWkIRCZH1G0C4ODZMK2rHdmeGdFuJhGRH/+KSdO+YRmPF954X/dH5aG9HvGGFNn1ZUBOXoyIiEgsqcqGd4dFRHI236w3IUBbl58jz5Yzz2zgrRNBVr99VSth7dJi9jxZxvNHRjjVH2Pdskz4jl+I8OhKu1ZeEJ2BXk+CNUtt2K1Gdn91g1J7EXbrtOz0HzFaDvhIqUJ1uYWN9zh4uKY4+/6jnyP6P94M6Az4I2nuWJhZJOcG47Tm2WrDYyl2fh4E4LFaOy+udcNk+CpLzMwzZyZhNugMuGxG/g5m5rfCbeJoTxjTTaqhgMLW+5yMxVR6PYnpF5Pha5lt+CbRGai53Up33wSRhEp7cynRhGSnIKUKB8+GWbe8mFfWudl/JpTtiyvCUFCZ1c64GZ0Bk9HAjvUltBzwkVCE1nonyxZbiSvCpk4vG+9dgN1qpMJtIhRTsyN4+IfwfwrfFAWvZOeH4rx+PEg0oWIqMuC0GWmtd2TTDjA4qtDW5SeuCMsXW9ipuQO0dfmz17FUGlYssbC9MZOXKQoauFXojuBWM2dgzsA/flme7eUsPiAAAAAASUVORK5CYII=">
 <link rel="apple-touch-icon" href="assets/icon-markmak.png">
 <style>
@@ -11095,6 +11098,7 @@ const State = {
   expanded: new Set(),
   collapsed: new Set(),
   blobUrls: new Map(),
+  remoteCatalog: null,
   filters: {
     types: new Set(['md', 'pdf', 'txt', 'html', 'xml', 'rdf', 'img'])
   },
@@ -11275,6 +11279,12 @@ function resolvePath(fromPath, rel) {
   try { rel = decodeURIComponent(rel); } catch (e) { console.warn('[fs] decodeURIComponent failed:', e.message); }
   const i = fromPath.indexOf(sep);
   const rootName = i < 0 ? fromPath : fromPath.slice(0, i);
+
+  // Normalize absolute file:/// links (e.g. from research markdown files)
+  rel = rel.replace(/^file:\/\/\/?(?:[a-zA-Z]:[\\/])?(?:01_APP[\\/])?(?:Research[\\/])?output[\\/]?/i, '');
+  rel = rel.replace(/^output[\\/]/i, '');
+  rel = rel.replace(/^file:\/\/\/?/, '');
+
   let parts;
   if (/^[A-Za-z]:[\\/]/.test(rel)) parts = [rootName].concat(rel.replace(/^[A-Za-z]:[\\/]/, '').split(/[\\/]/));
   else if (rel.startsWith('/')) parts = [rootName].concat(rel.slice(1).split('/'));
@@ -11291,9 +11301,23 @@ function resolvePath(fromPath, rel) {
 function findFileByPath(path) {
   let n = State.byPath.get(path);
   if (n && n.kind === 'file') return n;
+  if (n && (n.kind === 'directory' || n.kind === 'root')) {
+    if (n.kids && n.kids.length) {
+      const plan = n.kids.find(k => k.kind === 'file' && (k.name === 'project-plan.md' || k.name === 'README.md' || k.name.endsWith('.md')));
+      if (plan) return plan;
+    }
+  }
   const low = path.toLowerCase();
   for (const [k, v] of State.byPath) {
     if (k.toLowerCase() === low && v.kind === 'file') return v;
+  }
+  if (!path.endsWith('.md')) {
+    const withMd = State.byPath.get(path + '.md');
+    if (withMd && withMd.kind === 'file') return withMd;
+    const lowMd = low + '.md';
+    for (const [k, v] of State.byPath) {
+      if (k.toLowerCase() === lowMd && v.kind === 'file') return v;
+    }
   }
   return null;
 }
@@ -11331,9 +11355,10 @@ async function requestRootPermission(rootIdx) {
 }
 
 async function ensurePermission(node) {
-  if (!node) return true;
+  if (!node || node.isRemote) return true;
   if (node.rootIdx !== undefined && State.roots[node.rootIdx]) {
     const r = State.roots[node.rootIdx];
+    if (r.isRemote) return true;
     try {
       let perm = await r.handle.queryPermission({ mode: 'read' });
       if (perm === 'granted') {
@@ -11351,6 +11376,97 @@ async function ensurePermission(node) {
     }
   }
   return true;
+}
+
+function buildNodesFromCatalog(catalog, rootIdx = 0) {
+  const rootName = catalog.name || 'คลังงานวิจัย (Research Archive)';
+  const baseUrl = catalog.baseUrl || 'docs/';
+  const files = catalog.files || [];
+
+  const out = [];
+  out.byPath = new Map();
+
+  const rootNode = {
+    kind: 'root',
+    name: rootName,
+    path: rootName,
+    handle: null,
+    depth: 0,
+    kids: [],
+    parent: null,
+    rootIdx,
+    isLocked: false,
+    isRemote: true,
+    baseUrl,
+    dateFromName: extractDateFromName(rootName),
+    mtime: catalog.updatedAt ? new Date(catalog.updatedAt).getTime() : Date.now(),
+    size: catalog.totalBytes || 0
+  };
+  out.push(rootNode);
+  out.byPath.set(rootName, rootNode);
+
+  function ensureDir(dirPath, depth) {
+    if (out.byPath.has(dirPath)) return out.byPath.get(dirPath);
+    const i = dirPath.lastIndexOf(sep);
+    const parentPath = i >= 0 ? dirPath.slice(0, i) : rootName;
+    const dirName = i >= 0 ? dirPath.slice(i + 1) : dirPath;
+    const parentNode = ensureDir(parentPath, depth - 1);
+
+    const dirNode = {
+      kind: 'directory',
+      name: dirName,
+      path: dirPath,
+      handle: null,
+      depth,
+      kids: [],
+      parent: parentNode,
+      rootIdx,
+      isRemote: true,
+      baseUrl,
+      dateFromName: extractDateFromName(dirName),
+      mtime: null,
+      size: 0
+    };
+    out.push(dirNode);
+    out.byPath.set(dirPath, dirNode);
+    if (parentNode && !parentNode.kids.includes(dirNode)) {
+      parentNode.kids.push(dirNode);
+    }
+    return dirNode;
+  }
+
+  for (const f of files) {
+    const rel = f.path.replace(/\\/g, '/');
+    const parts = rel.split('/');
+    const fileName = parts.pop();
+    const dirParts = parts;
+    const dirPath = dirParts.length ? `${rootName}/${dirParts.join('/')}` : rootName;
+    const parentDir = ensureDir(dirPath, dirParts.length);
+
+    const fullPath = `${rootName}/${rel}`;
+    const fileNode = {
+      kind: 'file',
+      name: fileName,
+      path: fullPath,
+      relPath: rel,
+      url: `${baseUrl}${rel}`,
+      handle: null,
+      depth: dirParts.length + 1,
+      kids: null,
+      parent: parentDir,
+      rootIdx,
+      isRemote: true,
+      baseUrl,
+      dateFromName: extractDateFromName(fileName),
+      mtime: f.mtime || null,
+      size: f.size || 0
+    };
+    out.push(fileNode);
+    out.byPath.set(fullPath, fileNode);
+    parentDir.kids.push(fileNode);
+  }
+
+  return out;
 }
 
 async function walkDirectory(dir, base, depth, out, rootIdx) {
@@ -11403,9 +11519,26 @@ async function ensureFileMtimes(nodes = State.flat) {
 async function rescanWorkspaces() {
   const out = [];
   out.byPath = new Map();
+
+  // If remote catalog is loaded, build its nodes first
+  let nextRootIdx = 0;
+  if (State.remoteCatalog) {
+    const remoteNodes = buildNodesFromCatalog(State.remoteCatalog, nextRootIdx);
+    for (const n of remoteNodes) {
+      out.push(n);
+      out.byPath.set(n.path, n);
+    }
+    nextRootIdx++;
+  }
+
   for (let i = 0; i < State.roots.length; i++) {
     const r = State.roots[i];
+    if (r.isRemote) continue; // Remote catalog already handled above
+
     await checkRootPermission(r);
+    const rootIdx = nextRootIdx++;
+    r.rootIdx = rootIdx;
+
     const rootNode = {
       kind: 'root',
       name: r.name,
@@ -11414,7 +11547,7 @@ async function rescanWorkspaces() {
       depth: 0,
       kids: null,
       parent: null,
-      rootIdx: i,
+      rootIdx,
       isLocked: !!r.isLocked,
       dateFromName: extractDateFromName(r.name),
       mtime: null
@@ -11424,7 +11557,7 @@ async function rescanWorkspaces() {
 
     if (!r.isLocked) {
       try {
-        await walkDirectory(r.handle, r.name, 1, out, i);
+        await walkDirectory(r.handle, r.name, 1, out, rootIdx);
       } catch (err) {
         console.warn('walk fail', r.name, err);
         r.isLocked = true;
@@ -11432,13 +11565,14 @@ async function rescanWorkspaces() {
       }
     }
   }
+
   for (const n of out) {
-    if (n.kind !== 'root') {
+    if (n.kind !== 'root' && !n.parent) {
       n.parent = n.path.includes(sep) ? out.byPath.get(n.path.slice(0, n.path.lastIndexOf(sep))) : null;
     }
   }
   for (const n of out) {
-    if (n.kind === 'directory' || n.kind === 'root') {
+    if ((n.kind === 'directory' || n.kind === 'root') && !n.kids) {
       n.kids = out.filter(x => x.parent === n);
     }
   }
@@ -11604,6 +11738,8 @@ function renderTree(container) {
     let iconSvg = '';
     if (isLockedRoot) {
       iconSvg = '<svg class="ico" viewBox="0 0 16 16" width="15" height="15"><path fill="#eab308" fill-opacity=".25" stroke="#ca8a04" stroke-opacity=".9" d="M1.75 2.5h3.2c.2 0 .4.08.54.22l1.03 1.03H14.25c.41 0 .75.34.75.75v7.75a1.25 1.25 0 0 1-1.25 1.25H1.75A1.25 1.25 0 0 1 .5 12.25v-8.5a1.25 1.25 0 0 1 1.25-1.25Z"/></svg>';
+    } else if (isRoot && n.isRemote) {
+      iconSvg = '<svg class="ico" viewBox="0 0 16 16" width="15" height="15"><path fill="#0969da" fill-opacity=".22" stroke="#0969da" stroke-opacity=".9" d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.244a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.244a2.25 2.25 0 0 0-1.756.843l-.25.3a.75.75 0 0 1-1.012 0l-.25-.3A2.25 2.25 0 0 0 5.003 13H.75a.75.75 0 0 1-.75-.75V1.75Z"/></svg>';
     } else if (dir) {
       iconSvg = '<svg class="ico" viewBox="0 0 16 16" width="15" height="15"><path fill="var(--folder-stroke)" fill-opacity=".25" stroke="var(--folder-stroke)" stroke-opacity=".7" d="M1.75 2.5h3.2c.2 0 .4.08.54.22l1.03 1.03H14.25c.41 0 .75.34.75.75v7.75a1.25 1.25 0 0 1-1.25 1.25H1.75A1.25 1.25 0 0 1 .5 12.25v-8.5a1.25 1.25 0 0 1 1.25-1.25Z"/></svg>';
     } else if (isPdf(n.name)) {
@@ -11632,7 +11768,7 @@ function renderTree(container) {
       : '';
 
     const delBtn = isRoot
-      ? `<button type="button" class="btn-root-del" data-root-idx="${n.rootIdx}" title="ปิดโฟลเดอร์ “${esc(n.name)}” ออกจากแอป" aria-label="ปิดโฟลเดอร์">✕</button>`
+      ? `<button type="button" class="btn-root-del" data-root-idx="${n.rootIdx}" title="${n.isRemote ? 'ปิดคลังงานวิจัย' : `ปิดโฟลเดอร์ “${esc(n.name)}” ออกจากแอป`}" aria-label="ปิดโฟลเดอร์">✕</button>`
       : '';
 
     // Folder counts badge (Option 3: Mini Icons with Counts)
@@ -12157,12 +12293,16 @@ async function renderMarkdownContent(text, node, contentEl, tocPanel, tocList) {
       continue;
     }
     try {
-      const file = await f.handle.getFile();
       let url = State.blobUrls.get(f.path);
       if (!url) {
-        const ext = f.name.split('.').pop().toLowerCase();
-        url = URL.createObjectURL(new Blob([file], { type: mimeByExt[ext] || 'application/octet-stream' }));
-        State.blobUrls.set(f.path, url);
+        if (f.isRemote) {
+          url = encodeURI(f.url || ('docs/' + (f.relPath || f.path)));
+        } else {
+          const file = await f.handle.getFile();
+          const ext = f.name.split('.').pop().toLowerCase();
+          url = URL.createObjectURL(new Blob([file], { type: mimeByExt[ext] || 'application/octet-stream' }));
+          State.blobUrls.set(f.path, url);
+        }
       }
       img.src = url;
       img.classList.remove('img-internal');
@@ -12476,9 +12616,13 @@ const ImageViewer = {
   render(file, node) {
     let url = State.blobUrls.get(node.path);
     if (!url) {
-      const ext = node.name.split('.').pop().toLowerCase();
-      url = URL.createObjectURL(new Blob([file], { type: mimeByExt[ext] || file.type || 'image/jpeg' }));
-      State.blobUrls.set(node.path, url);
+      if (node.isRemote || file.isRemote) {
+        url = encodeURI(file.url || node.url || ('docs/' + (node.relPath || node.path)));
+      } else {
+        const ext = node.name.split('.').pop().toLowerCase();
+        url = URL.createObjectURL(new Blob([file], { type: mimeByExt[ext] || file.type || 'image/jpeg' }));
+        State.blobUrls.set(node.path, url);
+      }
     }
 
     this.frame.src = url;
@@ -12591,6 +12735,18 @@ const SearchEngine = {
     }
 
     try {
+      if (node.isRemote) {
+        if (isMd(node.name) || isCode(node.name)) {
+          const resp = await fetch(encodeURI(node.url || ('docs/' + (node.relPath || node.path))));
+          if (resp.ok) {
+            const txt = await resp.text();
+            this._cacheText(node.path, txt);
+            return txt;
+          }
+        }
+        return '';
+      }
+
       const fh = await node.handle.getFile();
       if (isPdf(node.name)) {
         const txt = await this.extractPdfText(fh, gen);
@@ -20423,46 +20579,87 @@ const ViewRouter = {
   async openFile(node, opt = {}) {
     if (!node || node.kind !== 'file' || !isDoc(node.name)) return;
     try {
-      const hasPerm = await ensurePermission(node);
-      if (!hasPerm) {
-        alert('กรุณาอนุญาตการเข้าถึงโฟลเดอร์เพื่อเปิดอ่านไฟล์');
-        return;
+      if (!node.isRemote) {
+        const hasPerm = await ensurePermission(node);
+        if (!hasPerm) {
+          alert('กรุณาอนุญาตการเข้าถึงโฟลเดอร์เพื่อเปิดอ่านไฟล์');
+          return;
+        }
       }
 
-      const file = await node.handle.getFile();
       State.current = node;
       renderTreeCallback();
       if (_routerD && _routerD.fileCrumb) _routerD.fileCrumb.textContent = node.path;
 
       let fileText = '';
-      if (isPdf(node.name)) {
-        this.switchView('pdf');
-        await PDFViewer.load(file);
-        if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
-        setActiveDoc(null);
-        clearHighlights();
-      } else if (isImg(node.name)) {
-        this.switchView('img');
-        ImageViewer.render(file, node);
-        setActiveDoc(null);
-        clearHighlights();
-      } else if (isMd(node.name)) {
-        this.switchView('md');
-        fileText = await file.text();
-        await renderMarkdownContent(fileText, node, _routerD.mdContent, _routerD.tocPanel, _routerD.tocList);
-        if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
-        setActiveDoc(node, file);
-        await restoreHighlights();
+      let fileObj = null;
+
+      if (node.isRemote) {
+        const fetchUrl = encodeURI(node.url || ('docs/' + (node.relPath || node.path)));
+        fileObj = { name: node.name, size: node.size || 0, lastModified: node.mtime || Date.now() };
+
+        if (isPdf(node.name)) {
+          this.switchView('pdf');
+          await PDFViewer.load(fetchUrl);
+          if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
+          setActiveDoc(null);
+          clearHighlights();
+        } else if (isImg(node.name)) {
+          this.switchView('img');
+          ImageViewer.render({ name: node.name, size: node.size, isRemote: true, url: fetchUrl }, node);
+          setActiveDoc(null);
+          clearHighlights();
+        } else if (isMd(node.name)) {
+          this.switchView('md');
+          const resp = await fetch(fetchUrl);
+          if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${resp.statusText}`);
+          fileText = await resp.text();
+          await renderMarkdownContent(fileText, node, _routerD.mdContent, _routerD.tocPanel, _routerD.tocList);
+          if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
+          setActiveDoc(node, fileObj);
+          await restoreHighlights();
+        } else {
+          this.switchView('md');
+          const resp = await fetch(fetchUrl);
+          if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${resp.statusText}`);
+          fileText = await resp.text();
+          await renderCodeContent(fileText, node, _routerD.mdContent, _routerD.tocPanel, _routerD.tocList);
+          if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
+          setActiveDoc(node, fileObj);
+          await restoreHighlights();
+        }
       } else {
-        this.switchView('md');
-        fileText = await file.text();
-        await renderCodeContent(fileText, node, _routerD.mdContent, _routerD.tocPanel, _routerD.tocList);
-        if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
-        setActiveDoc(node, file);
-        await restoreHighlights();
+        const file = await node.handle.getFile();
+        fileObj = file;
+        if (isPdf(node.name)) {
+          this.switchView('pdf');
+          await PDFViewer.load(file);
+          if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
+          setActiveDoc(null);
+          clearHighlights();
+        } else if (isImg(node.name)) {
+          this.switchView('img');
+          ImageViewer.render(file, node);
+          setActiveDoc(null);
+          clearHighlights();
+        } else if (isMd(node.name)) {
+          this.switchView('md');
+          fileText = await file.text();
+          await renderMarkdownContent(fileText, node, _routerD.mdContent, _routerD.tocPanel, _routerD.tocList);
+          if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
+          setActiveDoc(node, file);
+          await restoreHighlights();
+        } else {
+          this.switchView('md');
+          fileText = await file.text();
+          await renderCodeContent(fileText, node, _routerD.mdContent, _routerD.tocPanel, _routerD.tocList);
+          if (SearchEngine && SearchEngine.highlightDoc) SearchEngine.highlightDoc();
+          setActiveDoc(node, file);
+          await restoreHighlights();
+        }
       }
 
-      updateStatCallback(file);
+      updateStatCallback(fileObj);
       if (!opt.silent && _routerD && _routerD.mdScrollPane) _routerD.mdScrollPane.scrollTop = 0;
       await Store.set('lastFile', node.path);
       if (PetManager && PetManager.onDocumentOpened) PetManager.onDocumentOpened(node);
@@ -20470,7 +20667,7 @@ const ViewRouter = {
         BookmarkPanel.refresh();
       }
 
-      State.emit('file:open', { node, file, fileText });
+      State.emit('file:open', { node, file: fileObj, fileText });
     } catch (err) {
       console.error('[router] openFile error:', err);
       alert('เปิดไฟล์ไม่สำเร็จ: ' + (err.message || err));
@@ -20921,7 +21118,7 @@ function hideLoading() {
 }
 
 async function saveWorkspace() {
-  const roots = State.roots.map(r => ({
+  const roots = State.roots.filter(r => !r.isRemote).map(r => ({
     name: r.name,
     handle: r.handle,
     addedAt: r.addedAt || Date.now()
@@ -21062,20 +21259,16 @@ function updateStat(currentFile) {
 
 async function removeWorkspaceRoot(rootIdx) {
   const i = rootIdx;
-  if (i < 0 || i >= State.roots.length) return;
-  State.roots.splice(i, 1);
-  State.flat = State.flat.filter(n => n.rootIdx !== i);
-  for (const n of State.flat) if (n.rootIdx > i) n.rootIdx--;
-  State.byPath = new Map(State.flat.map(n => [n.path, n]));
-  for (const n of State.flat) if (n.kind !== 'root') n.parent = n.path.includes('/') ? State.byPath.get(n.path.slice(0, n.path.lastIndexOf('/'))) : null;
-  for (const n of State.flat) if ((n.kind === 'root' || n.kind === 'directory') && n.kids) n.kids = n.kids.filter(k => k.rootIdx !== i);
+  if (i < 0) return;
+  const rootNode = State.flat.find(n => n.kind === 'root' && n.rootIdx === i);
+  if (rootNode && rootNode.isRemote) {
+    State.remoteCatalog = null;
+  }
+  if (i < State.roots.length) {
+    State.roots.splice(i, 1);
+  }
 
-  for (const p of State.expanded) {
-    if (!State.byPath.has(p)) State.expanded.delete(p);
-  }
-  for (const p of State.collapsed) {
-    if (!State.byPath.has(p)) State.collapsed.delete(p);
-  }
+  await rescanWorkspaces();
 
   if (State.current && (State.current.rootIdx === i || !State.byPath.has(State.current.path))) {
     ViewRouter.closeCurrentFile();
@@ -21090,6 +21283,9 @@ async function removeWorkspaceRoot(rootIdx) {
 }
 
 async function unlockAndReloadWorkspace(rootIdx) {
+  const rootNode = State.flat.find(n => n.kind === 'root' && n.rootIdx === rootIdx);
+  if (rootNode && rootNode.isRemote) return true;
+
   const ok = await requestRootPermission(rootIdx);
   if (!ok) {
     alert('ไม่ได้รับการอนุญาตเข้าถึงโฟลเดอร์ กรุณากดยินยอมในหน้าต่างแจ้งเตือนของเบราว์เซอร์');
@@ -21117,19 +21313,34 @@ async function unlockAndReloadWorkspace(rootIdx) {
 }
 
 async function refreshWorkspaces(targetRootIdx = null) {
-  if (!State.roots.length) return;
+  if (!State.remoteCatalog && !State.roots.length) return;
 
   if (D.btnRefresh) D.btnRefresh.classList.add('spinning');
   showLoading('กำลังรีเฟรชรายการไฟล์...');
 
   try {
+    if (State.remoteCatalog) {
+      try {
+        let resp = await fetch('docs/catalog.json?t=' + Date.now());
+        if (!resp.ok) resp = await fetch('catalog.json?t=' + Date.now());
+        if (resp.ok) {
+          const freshData = await resp.json();
+          if (freshData && Array.isArray(freshData.files)) {
+            State.remoteCatalog = freshData;
+          }
+        }
+      } catch (e) {
+        console.warn('[refresh] Remote catalog reload failed:', e.message);
+      }
+    }
+
     if (targetRootIdx !== null && State.roots[targetRootIdx]) {
       const r = State.roots[targetRootIdx];
-      if (r.isLocked) await requestRootPermission(targetRootIdx);
+      if (!r.isRemote && r.isLocked) await requestRootPermission(targetRootIdx);
     } else {
       for (let i = 0; i < State.roots.length; i++) {
         const r = State.roots[i];
-        if (r.isLocked) await requestRootPermission(i);
+        if (!r.isRemote && r.isLocked) await requestRootPermission(i);
       }
     }
 
@@ -21601,6 +21812,21 @@ async function initApp() {
   }
   updateSortButtonsUI();
 
+  // 1. Try loading remote catalog first (for Cloudflare Pages / Web mode)
+  try {
+    let catalogResp = await fetch('docs/catalog.json');
+    if (!catalogResp.ok) catalogResp = await fetch('catalog.json');
+    if (catalogResp.ok) {
+      const catalogData = await catalogResp.json();
+      if (catalogData && Array.isArray(catalogData.files)) {
+        State.remoteCatalog = catalogData;
+      }
+    }
+  } catch (err) {
+    console.log('[app] Remote catalog not available, running in local mode');
+  }
+
+  // 2. Next, check saved local workspaces in IndexedDB
   const rec = await Store.get('workspace');
   if (rec && rec.roots && rec.roots.length) {
     for (const r of rec.roots) {
@@ -21614,11 +21840,15 @@ async function initApp() {
         });
       }
     }
-    showLoading('กำลังสแกนไฟล์...');
+  }
+
+  // 3. Rescan workspaces if we have remote catalog OR local roots
+  if (State.remoteCatalog || State.roots.length > 0) {
+    showLoading('กำลังจัดเตรียมเอกสาร...');
     await rescanWorkspaces();
     updateStat();
 
-    if (rec.expanded && rec.expanded.length) {
+    if (rec && rec.expanded && rec.expanded.length) {
       State.expanded = new Set(rec.expanded.filter(p => State.byPath.has(p)));
       State.collapsed = new Set((rec.collapsed || []).filter(p => State.byPath.has(p)));
     } else {
@@ -21627,6 +21857,7 @@ async function initApp() {
     hideLoading();
     renderTree(D.tree);
 
+    // Reopen last read file on this device
     const lastPath = await Store.get('lastFile');
     if (lastPath) {
       const n = State.byPath.get(lastPath);
@@ -21634,6 +21865,18 @@ async function initApp() {
         openFile(n, { silent: true });
         return;
       }
+    }
+
+    // Default to 00_MASTER_RESEARCH_DIRECTORY.md or first available document
+    const masterDoc = State.flat.find(n => n.kind === 'file' && n.name.includes('00_MASTER_RESEARCH_DIRECTORY'));
+    if (masterDoc) {
+      openFile(masterDoc, { silent: true });
+      return;
+    }
+    const first = State.flat.find(n => n.kind === 'file' && isDoc(n.name));
+    if (first) {
+      openFile(first, { silent: true });
+      return;
     }
   }
 

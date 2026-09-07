@@ -1,0 +1,1302 @@
+# SOURCE FILE: lokta_surface_treatment.pdf
+# ORIGINAL PATH: d:\01_APP\Research\output\palmleaf_india_nepal\research-notes\loop_A05\documents\lokta_surface_treatment.pdf
+# CLUSTER: cluster_1_materials (1. วัสดุศาสตร์ หมึก และการอนุรักษ์เชิงเคมี)
+# PAGES: 11 | TOTAL CHARS: 29180
+
+=== PAGE 1 ===
+ 
+Journal of Technological and Space Plasmas, Vol. 2, Issue 1 (2021) 
+Vol. 2, Issue 1 - 93 
+ 
+© by the author(s) 2021, Layout by G-Labs 
+ 
+Surface Treatment of Handmade Lokta Paper by 50 Hz Dielectric Barrier 
+Discharge Generated in Air at Atmospheric Pressure for Improvement of 
+Hydrophilicity 
+G. K. Chhetri1*, R. P. Guragain1*, U. M. Joshi1, and D. P. Subedi1 
+1Department of Physics, School of Science, Kathmandu University, Dhulikhel, Nepal 
+(Received: 04. Aug. 2021, Accepted: 27. Sep. 2021, Published online: 28. Sep. 2021) 
+ 
+The purpose of the current study is to characterize 50 Hz dielectric barrier discharge generated in 
+the air at atmospheric pressure using a sinusoidal voltage of 12.8 kV (rms) by performing 
+electrical and optical diagnostics and to investigate its effects on the improvement of 
+hydrophilicity and weight loss (%) of handmade Lokta paper. The energy dissipated per cycle, and 
+the average power dissipated was determined from Lissajous figures. The estimated value of 
+electron density and electron temperature in the discharge were 8.47×108 cm-3 and 1.29 eV. 50 
+Hz air DBD can be used for long-term operations and continuous treatment of Lokta paper. The 
+effects of the discharge on the hydrophilicity and weight loss (%) of Lokta paper were studied 
+respectively by the wicking test and gravimetric method. The results showed a significant 
+improvement in the hydrophilicity and considerable weight loss (%) in Lokta paper after the 
+plasma treatment. The increase in hydrophilicity of Lokta paper gives an enormous possibility for 
+the quality and colorful designs of the Handmade Lokta paper and widens the area of its uses. 
+(DOI: 10.31281/jtsp.v2i1.19) 
+ 
+*ganes.kc7@gmail.com, *rayessprakash@gmail.com 
+ 
+ 
+I. 
+Introduction 
+The real start of the knowledge era in human 
+history is regarded to have been possible only 
+after the invention of paper. People had reflected 
+their talent and imaginative power by drawing 
+different images on the cave walls, rocks, and dry 
+leaves even before the paper was invented. The 
+invention of paper made it possible to write 
+books, 
+keep 
+printed 
+records 
+of 
+various 
+documents and even print the most convenient 
+form of money. The invention of paper is believed 
+to have taken place first in China around 2000 
+years before. 
+Handmade Lokta paper was first produced in 
+Nepal in the 12th century AD [1] and it has 
+continuously been produced in Nepal since then. 
+The plant, which grows as a wild shrub in the high 
+Himalayan forests with an altitude of “1,600 m to 
+4,000 m” [2,3], is locally known as Lokta (Daphne 
+papyracea and Daphne bholua). This plant is the 
+source of Lokta paper (Nepali Kagaj). The Lokta 
+plant is not cultivated as it occurs naturally in the 
+forests.  
+In modern times, almost all the printers and 
+publishers 
+have 
+been 
+using 
+machine-made 
+papers; however, the use of handmade Lokta 
+paper is still wide in the form of art paper, 
+attractive stationery, and handicrafts. Moreover, 
+the handmade Lokta paper is commonly used for 
+producing birth certificates, land ownership 
+papers, and all forms of judicial documents. Lokta 
+paper equally carries the religious value as it was 
+used in the Buddhist monasteries to write, print, 
+and draw the teachings of Lord Buddha. In 
+addition to these, there are various other 
+
+=== PAGE 2 ===
+Chhetri et al. 
+J. Technol. Space Plasmas, Vol. 2, Issue 1 (2021) 
+Vol. 2, Issue 1 - 94 
+ 
+© by the author(s) 2021, Layout by G-Labs 
+fashionable products made from Lokta paper 
+such as diaries, notebooks, lampshades, writing 
+sets, photo albums and frames, gift boxes, 
+greeting cards, wrapping papers, wallpaper, and 
+many more decorative items. 
+Lokta paper is known for its durability and 
+natural resistance to insects. The Lokta fiber is   
+possibly longest and strongest fibers in Nepal. 
+Handmade Lokta paper, therefore, is a very 
+strong 
+paper 
+to 
+make 
+long-lasting 
+paper 
+products. This paper gets a distinct texture 
+because of the uneven distribution and length of 
+Lokta fibers. The processes of manufacturing 
+Lokta paper such as cutting technique, pasting, 
+and binding have been improving every new day. 
+The production of a larger variety of color papers 
+has increased due to the modern technique 
+known as ‘dip dying’. In the same way, the 
+calendaring process has assisted to prepare a 
+smoother surface of Lokta paper for writing and 
+printing work  [4]. Besides, the production of the 
+best quality of handmade Lokta paper requires 
+some more technological innovations. 
+Several researchers have been working on the 
+plasma treatment of paper. Plasma applications 
+have been made for many years in the paper and 
+packaging 
+industries. 
+Different 
+plasma 
+techniques have been tested to alter the surface 
+energy of paper, functionalize surfaces, and 
+improve their adhesion to various polymeric 
+substrates. Deslandes et al.  [5] used low-
+pressure radio-frequency nitrogen plasma to 
+modify the surface of pure cellulose paper. They 
+found measurable chemical changes in the 
+surface 
+composition 
+and 
+increased 
+hydrophobicity of Whatman filter paper even 
+after the very brief plasma exposure. Vohrer et 
+al. [6] treated naturally aged ground wood paper 
+using hydrogen after-glow plasma. They found a 
+positive effect on the paper stability and 
+measured reduction in microorganisms after the 
+plasma treatment. Laguardia  [7] focused their 
+research work on the influences of plasma 
+treatments on deteriorated ancient papers. They 
+achieved a reduction of microbial contamination 
+using plasma treatments. They showed that the 
+use of the O2/H2 mixture increases the paper 
+stability. Pykönen [8] studied the influence of 
+plasma modification on surface properties and 
+offset printability of coated paper. The author 
+used DBD-based laboratory-scale and pilot-scale 
+plasma activation equipment to modify the 
+coated paper surface. He found plasma surface 
+modification as an effective way to influence the 
+paper surface energy and chemical composition. 
+His results showed that plasma activation 
+increased the surface energy and hydrophilicity 
+of paper but decayed with time. He also found 
+that 
+hydrocarbon-, 
+organosilicon- 
+and 
+fluorocarbon-plasma 
+coatings 
+provide 
+hydrophobic character to the pigment-coated 
+paper and the hydrophobic coatings were 
+relatively stable with time. Galmiz et al. [9] 
+studied the effects of surface dielectric barrier 
+discharge on the surface properties of clay-
+coated paper. Their results showed considerable 
+changes 
+in 
+wettability 
+without 
+significant 
+modification of the morphology and surface 
+structure of the paper after the plasma treatment 
+in nitrogen as well as in ambient air.  
+In the present work, dielectric barrier discharge 
+generated in the air at atmospheric pressure 
+using 50 Hz line frequency is used for surface 
+treatment 
+of 
+Lokta 
+paper. 
+It 
+provides 
+a 
+convenient, cost-effective, and reliable technology 
+to create non equilibrium plasma conditions in 
+atmospheric pressure gases [10]. It has been 
+used in several industrial applications for surface 
+modification, including the textile, paper and 
+packaging 
+industries [11]. 
+Plasma 
+treatment 
+affects the surface physically and chemically 
+without changing its bulk properties [12–14]. The 
+DBD reactor used here does not require any 
+vacuum pump as in low-pressure plasma. That is 
+why it can be easily scaled up for continuous 
+treatment of paper for long-term operations and 
+large-scale production. This study is mainly 
+focused on wicking properties and weight loss (%) 
+of Lokta paper. In 50 Hz DBD plasma treatment, 
+the effect of treatment time on Lokta paper has 
+been 
+investigated. 
+The 
+wicking 
+has 
+been 
+characterized 
+by 
+a 
+vertical 
+wicking 
+test. 
+Improvement on hydrophilicity and considerable 
+weight loss (%) in Lokta paper gives an enormous 
+possibility for the quality and colorful designs of 
+the Lokta paper as well as its uses in other areas 
+such 
+as 
+for 
+paper 
+towels, 
+facial 
+tissues, 
+hydrophilic membrane, and hydrophilic filters in 
+the liquid filtration process. 
+
+=== PAGE 3 ===
+Chhetri et al. 
+J. Technol. Space Plasmas, Vol. 2, Issue 1 (2021) 
+Vol. 2, Issue 1 - 95 
+ 
+© by the author(s) 2021, Layout by G-Labs 
+II. 
+Experimental 
+ 
+II.a) 
+Handmade Lokta Paper 
+In this study, the Lokta paper with thickness 0.204 
+mm and surface density 7.49 mg/cm2 (Fig. 1) was 
+obtained from the local market of Banepa, 
+Baghmati Province, Nepal. All the samples were 
+placed at ambient environment conditions before 
+use. 
+ 
+Figure 1: Photograph of Handmade Lokta Paper 
+II.b) 
+Atmospheric Pressure DBD 
+Plasma Treatment 
+ 
+The Lokta paper was treated with atmospheric 
+pressure DBD air plasma. Fig. 2 depicts a 
+schematic 
+figure 
+of 
+the 
+experimental 
+arrangement. 
+Fig. 3 shows a photograph of the DBD reactor. 
+The DBD electrode configuration was positioned 
+inside the transparent polycarbonate chamber 
+(35.7 cm × 20.0 cm × 15.0 cm). The AC high 
+voltage of 12.8 kV and frequency 50 HZ was 
+applied 
+across 
+electrodes. 
+The 
+separation 
+between the upper electrode (7.53 cm × 4.97 cm 
+× 0.47 cm) and the grounded electrode (7.54 cm × 
+4.99 cm × 0.48 cm) is 0.35 cm. The dielectric 
+barrier is polycarbonate plate (13.0 cm × 10.0 cm 
+× 0.197 cm). The discharge was generated 
+between two rectangular parallel electrodes. The 
+experiment 
+was 
+carried 
+out 
+at 
+ambient 
+conditions.  
+ 
+50 Hz, 
+220 V 
+   Ballast Resistor 
+   Shunt Resistor 
+HV 
+Probe 
+Oscilloscope 
+ Probe 
+Electrode 
+Electrode 
+Dielectric 
+Discharge 
+OES 
+Computer 
+Oscilloscope 
+Transformer 
+Figure 2: Schematic diagram of the experimental arrangement 
+
+=== PAGE 4 ===
+Chhetri et al. 
+J. Technol. Space Plasmas, Vol. 2, Issue 1 (2021) 
+Vol. 2, Issue 1 - 96 
+ 
+© G-Labs 2021 
+ 
+Figure 3: Photograph of DBD reactor 
+ 
+Fig. 4 shows the image of the discharge. A digital 
+oscilloscope (TDS 2002, Tektronix), a high voltage 
+probe (PINTEK HVP-28HF), and an oscilloscope 
+probe are used to record the applied voltage and 
+discharge 
+current. 
+An 
+optical 
+emission 
+spectrometer [Ocean optics (USB+2000)] were 
+used to record the emission spectra. A Nikon 
+Digital Camera D3300 was used to get the image 
+of the discharge. 
+ 
+Figure 4: Image of the discharge 
+ 
+II.c) 
+Wicking Test 
+The paper specimens of size 10 cm × 1.5 cm were 
+prepared from Lokta paper. A 2B pencil was used 
+to mark the scales of 9 cm in the specimen. The 
+specimen was held vertically, and the lower edge 
+was immersed in triple Deionized water (specific 
+conductivity ˂ 1) with 1cm of the sample below 
+the water. The time when the water reached each 
+graduated scale through the phenomenon of 
+capillarity was recorded. The wicking test was 
+performed 
+under 
+ambient 
+environment 
+conditions (Humidity: 51%; Temperature: 260C; 
+Dew Point: 140C; Pressure: 10009 m Bar; UV 
+Index: Very High, 9; Visibility 13 km) within 10 
+minutes after the plasma treatment. Four wicking 
+test measurements were performed per sample 
+per plasma treatment. 
+Fig. 5 depicts the experimental system for the 
+measurement of vertical wicking.  
+Capillary penetration in the paper voids is the 
+most important wetting mechanism [15]. This 
+phenomenon  can be illustrated by the Lucas-
+Washburn equation [16]: 
+ 
+ 
+2
+2
+cos
+ 
+4
+E
+r
+P r
+l
+t
+
+
+
+
+
+ 
+(1) 
+
+=== PAGE 5 ===
+Chhetri et al. 
+J. Technol. Space Plasmas, Vol. 2, Issue 1 (2021) 
+Vol. 2, Issue 1 - 97 
+ 
+© G-Labs 2021 
+ 
+Figure 5: Water wicking in a typical vertical wicking test 
+ 
+ 
+where l is the length of penetration, PE is the 
+external pressure on the paper, r is the pore size 
+of the paper, θ is the water contact angle of the 
+paper, γ is the surface tension of the water, η is 
+the viscosity of the water, and t is the time of 
+penetration.  
+Equation (1) can be written as: 
+ 
+
+
+sqrt
+R
+C
+t
+W
+l
+
+ 
+(2) 
+where 
+sqrt
+t
+t
+
+, 
+1
+R
+C
+C
+W
+W
+
+, 
+and 
+2
+2
+cos
+ 
+4
+E
+c
+r
+P r
+W
+
+
+
+
+
+is the wicking coefficient. 
+The higher the Wc, the better is the water 
+absorption ability [17]. 
+ 
+II.d) 
+Weight Loss (%) 
+The paper specimen of size 7.0 cm × 5.0 cm is 
+prepared. An electronic precision balance (Bell 
+Engineering, Model: MG124Ai) was used to 
+measure the weight of paper specimens before 
+and after the plasma treatment. The weight loss 
+(%) of the plasma-treated paper was calculated by 
+equation [18]  
+ 
+1
+2
+1
+Weight Loss (%) =
+100 %
+W
+W
+W
+
+
+ 
+(3) 
+where W1 and W2 are the weights of the paper 
+before and after plasma treatment respectively. 
+The weight loss is due to the prompt deduction of 
+contamination from the upper surface of the 
+paper. This is because of the energetic interaction 
+of ions on the upper surface of the paper. The 
+weight loss (%) in the treated paper is calculated 
+by performing four experimental measurements 
+per sample per plasma treatment time. 
+ 
+III. 
+Results and Discussion: 
+ 
+III.a) 
+Electrical Characterization: 
+Fig. 6 shows the typically applied voltage and 
+discharge current waveforms in parallel-plate 
+DBD. The electrical breakdown of the air gap in a 
+DBD begins almost at the same time at numerous 
+points of the surface and keeps on through the 
+development of micro discharges. The existence 
+of micro-discharge is a characteristics aspect of 
+parallel plate DBD produced in the air at 
+atmospheric pressure [19].  
+
+=== PAGE 6 ===
+Chhetri et al. 
+J. Technol. Space Plasmas, Vol. 2, Issue 1 (2021) 
+Vol. 2, Issue 1 - 98 
+ 
+© G-Labs 2021 
+ 
+Figure 6: Typical current and voltage waveforms for the 
+discharge 
+Fig. 7 depicts a typical charge (Q) – applied 
+voltage (V) plot, in the course of one period of 
+applied voltage, known as the Lissajous figure. 
+The capacitance of the solid dielectric barrier, the 
+equivalent capacitances between the electrodes, 
+the energy deposited into the discharge during 
+one cycle of applied voltage, and the average 
+power deposited can be calculated employing 
+Lissajous figures [20].  
+ 
+Figure 7:  A characteristic Lissajous figure for the DBD in 
+the air with applied voltage (V) = 12.8 kV (rms) 
+and frequency (f) = 50 Hz. 
+The equivalent capacitance between the parallel 
+electrodes for volume discharge, C is calculated 
+by  [21]: 
+ 
+1
+1
+1
+air
+die
+C
+C
+C
+
+
+ 
+(4) 
+Where, Cair is the capacitance of the air gap and 
+Cdie 
+is 
+the 
+capacitance 
+of 
+dielectric.The 
+capacitance of the dielectric (Cdie) is 23.4 pF. The 
+equivalent capacitance between the electrodes 
+(C) is 8.3 pF. The capacitance of the air gap (Cair) is 
+12.9 pF. 
+The energy deposited into the discharge through 
+one cycle of the applied voltage E is calculated 
+by [22]: 
+ 
+min
+max
+min
+1
+4
+V
+(V
+V
+)
+1
+die
+air
+die
+E
+C
+C
+C
+
+
+
+ (5) 
+and mean power is calculated [23] : 
+ 
+min
+max
+min
+1
+4
+V
+(V
+V
+)
+1
+die
+air
+die
+P
+fC
+C
+C
+
+
+
+ (6) 
+where Vmin is the lowest value of applied voltage 
+necessary to ignite the discharge, Vmax is the 
+highest value of applied voltage and f is the 
+frequency 
+of 
+applied 
+voltage. 
+The 
+energy 
+deposited into the discharge through one cycle of 
+applied voltage is 3.54 mJ and the mean power is 
+177 mW. The electron density (ne) can be 
+calculated by an equation [24]: 
+ 
+e
+cond
+J
+E
+e
+e
+n e
+
+ 
+(7) 
+Where 
+e
+av
+J
+ is the average current density, e is the 
+electronic charge, µe is the electron mobility and E 
+is the electric field in the discharge region.In this 
+work, the average current density is 1.08×10-3 
+A/cm2, the electric field strength across the 
+discharge gap (E) is 1.72 x 104 V/cm, electron 
+mobility (µe) estimated from BOLSIG + software is 
+462 cm2/Vs and the electronic charge (e) is 1.6 x 
+10-19 C. Using all these values in Eq. (7), the 
+electron density (ne) is found to be 8.47×108cm-3. 
+ 
+III.b) 
+Optical Characterization  
+ 
+Figure 8: Optical emission spectra of APDBD in air 
+
+=== PAGE 7 ===
+Chhetri et al. 
+J. Technol. Space Plasmas, Vol. 2, Issue 1 (2021) 
+Vol. 2, Issue 1 - 99 
+ 
+© G-Labs 2021 
+Fig. 8 shows the optical emission spectra (OES) 
+from the 50 Hz atmospheric pressure DBD 
+generated in air at atmospheric pressure.  
+The line intensity ratio method was used for the 
+measurement 
+of 
+the 
+electron 
+temperature [25,26]: 
+ 
+ 
+1
+1
+2
+2
+3
+4
+exp
+pq
+p
+xy
+p
+r
+x
+u
+rs
+uv
+u
+rs
+r
+pq
+xy
+x
+uv
+e
+A
+g
+E
+E
+E
+E
+A
+g
+R
+I
+I
+R
+I
+I
+A
+g
+A
+g
+kT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+(8) 
+ 
+where R is the ratio of the intensity of two lines, I 
+is the intensity of the spectral line, Aij is the 
+transition probability of the transition i  j, gi is 
+the statistical weight of the upper level, λ is the 
+wavelength of the line radiation, Ei is the energy 
+of the upper level, k is the Boltzmann constant 
+and Te is the electron temperature. 
+Two NI lines (493.51 nm, 410.99nm) and two N II 
+lines (478.81nm, 343.71nm) were chosen from 
+the discharge spectra. The corresponding values 
+of Aji, gi, λ and Ei were taken from the National 
+Institute of Standards and Technology (NIST) 
+Atomic Spectra Database Lines Data [27], and the 
+values of λ and I are obtained from the discharge 
+spectra to measure the electron temperature Te. 
+Tab. 1 presents the ratios of spectral lines (R1/R2) 
+for different electron temperatures Te. 
+Electron 
+Temperature (Te) 
+Ratio of Spectral lines 
+(R1/R2) 
+0.8 
+2.08 
+0.9 
+1.65 
+1.0 
+1.38 
+1.1 
+1.19 
+1.2 
+1.05 
+1.3 
+0.94 
+1.4 
+0.86 
+1.5 
+0.79 
+1.6 
+0.74 
+1.7 
+0.70 
+1.8 
+0.66 
+1.9 
+0.63 
+2.0 
+0.61 
+Table 1: Ratios of spectral lines for different electron 
+temperatures. 
+ 
+Figure 9: Plot of R1/R2 as a function of Te 
+From Fig. 9, the electron temperature (
+eT ) is 
+estimated to be 1.29 eV. 
+ 
+3.3 Wicking Performance of Lokta Paper 
+Fig. 10 shows the wicking rate of untreated, and 
+plasma treated Lokta paper. The wicking time 
+versus wicking height for different treatment time 
+is plotted to illustrate the comparison [28–30]. It 
+is observed that the wicking time to reach 7 cm 
+height for untreated paper is 786 s and it is 
+reduced to 486 s when the plasma treatment is 
+carried for about 2 minutes. It is observed from 
+the graph that all plasma treated paper has 
+considerable enhancement in wicking rate when 
+compared with untreated paper. There is not 
+much change in the wicking time between 2 and 
+10-minutes plasma-treated samples. 
+
+=== PAGE 8 ===
+Chhetri et al. 
+J. Technol. Space Plasmas, Vol. 2, Issue 1 (2021) 
+Vol. 2, Issue 1 - 100 
+ 
+© G-Labs 2021 
+ 
+Figure 10: Wicking time of untreated and plasma 
+treated Lokta paper at constant voltage 12.8 
+kV (rms) with different treatment time 
+Fig. 11 shows the square root of time of 
+penetration (tsqrt) versus length of penetration (l) 
+plot for different exposure time. The wicking 
+coefficient (WC) for untreated sample was 0.246. 
+The wicking coefficient (WC) for 1 minute, 2 
+minutes and 10 minutes plasma-treated samples 
+were respectively 0.276, 0.316, and 0.339. The 
+wicking coefficients of 2 minutes and 10 minutes 
+plasma treated sample were respectively 1.28 
+times and 1.37 times greater than the wicking 
+coefficient of the untreated sample. It is found 
+that all plasma-treated paper has a significant 
+increment in water absorption ability compared 
+with the untreated sample. The results have 
+indicated that 2 minutes of treatment time is 
+sufficient to increase the absorption ability of 
+paper significantly. 
+ 
+Figure 11: Wicking coefficient of untreated and plasma 
+treated Lokta paper at constant voltage 12.8 
+kV (rms) at different exposure time 
+ 
+III.c) 
+Weight Loss (%): 
+Fig. 12 shows the weight loss (%) of Lokta paper 
+after the plasma treatment at different treatment 
+time. It has been observed that the weight loss 
+(%) is slightly increased with the treatment time 
+from 1 minute to 3 minutes, and then remains 
+nearly constant. The weight loss might be due to 
+the cleaning effect and etching effect of cold 
+plasma on the upper surface layer of the paper. 
+ 
+Figure 12: Weight Loss (%) at different treatment time 
+ 
+IV. 
+Conclusions: 
+Atmospheric 
+pressure 
+50 
+Hz 
+DBD 
+system 
+successfully 
+generated 
+at 
+Plasma 
+Physics 
+laboratory, Kathmandu University, Nepal was 
+used for the surface treatment of Handmade 
+Lokta paper to improve the hydrophilicity. The 
+equivalent capacitance between the electrodes, 
+the energy dissipated per cycle, and electron 
+density in the plasma were measured by 
+electrical methods and were found to be 8.3 pF, 
+3.54 mJ, and 8.47×108 cm-3 respectively. The 
+electron temperature in the plasma was found to 
+be 
+1.29 
+eV. 
+The 
+results 
+of 
+wicking 
+rate 
+measurements confirmed that the exposure of 
+plasma remarkably improved the hydrophilicity 
+of the Lokta paper. The gravimetric analysis 
+confirmed that there was a considerable weight 
+loss (%) in the paper after the plasma treatment. 
+These results concluded that 50 Hz atmospheric 
+pressure DBD produced in air provide a simple, 
+cost-effective, and reliable technology for the 
+surface treatment of handmade Lokta paper. It 
+
+=== PAGE 9 ===
+Chhetri et al. 
+J. Technol. Space Plasmas, Vol. 2, Issue 1 (2021) 
+Vol. 2, Issue 1 - 101 
+ 
+© G-Labs 2021 
+can be used for long-term operations and 
+continuous treatment of paper.  
+V. 
+Data Availability 
+The authors can provide the data, figures, and 
+articles that support the finding upon request.  
+VI. 
+Conflicts of Interest 
+The authors declare no conflicts of interest. 
+VII. 
+Acknowledgments 
+The authors would like to acknowledge the 
+assistance provided by the Technical Training 
+Centre (TTC) and Department of Electrical and 
+Electronics Engineering of Kathmandu University. 
+The authors would also like to acknowledge Prof. 
+Rameshwor Adhikari, Tribhuvan University, all the 
+faculties of the Department of Physics and all the 
+researchers of the Plasma Physics Laboratory, 
+Kathmandu 
+University 
+for 
+their 
+invaluable 
+suggestions and assistance for the completion of 
+the work. 
+VIII. 
+Author Contributions 
+G.K.C. and R.P.G. designed the experimental 
+setup; G.K.C., R.P.G., and D.P.S. performed the 
+experiments; G.K.C., and R.P.G. analyzed the data; 
+G.K.C. prepared the draft of the manuscript; 
+R.P.G., U.M.J., and D.P.S. helped revise the 
+manuscript. 
+IX. 
+References 
+[1] 
+S. 
+Biggs, 
+D. 
+Messerschmidt, 
+"Social 
+Responsibility in the Growing Handmade 
+Paper Industry in Nepal", Elsevier, World 
+Dev. 
+33, 
+1821 
+(2005). 
+https://doi.org/10.1016/j.worlddev.2005.0
+6.002 
+[2] 
+A. S. Poudyal, "Sustainability of Local 
+Hand-Made 
+Paper 
+(Nepali 
+Kagat) 
+Enterprises: A Case Study of Dolakha 
+District", J. For. Livelihood 4, 64 (2004). 
+[3] 
+N. Khadgi, B. B. Shrestha, and M. Siwakoti, 
+"Resource 
+Assessment 
+and 
+Habitat 
+Analysis of Daphne Bholua in Bhujung of 
+Annapurna Conservation Area, Central 
+Nepal", Res. J. Agric. For. Sci. 1, 1 (2013). 
+[4] 
+G. Banjara, "Handmade Paper in Nepal 
+Upgrading with Value Chain Approach", 
+2007. 
+[5] 
+Y. 
+Deslandes 
+et 
+al. 
+"The 
+Surface 
+Modification of Pure Cellulose Paper 
+Induced 
+by 
+Low-Pressure 
+Nitrogen 
+Plasma Treatment", Plasmas Polym. 3, 61 
+(1998). 
+https://doi.org/10.1023/B:PAPO.00000059
+39.84830.44 
+[6] 
+U. Vohrer, I. Trick, J. Bernhardt, C. Oehr, 
+and H. Brunner, "Plasma Treatment - an 
+Increasing 
+Technology 
+for 
+Paper 
+Restoration?", Surf. Coatings Technol. 
+1069 
+(2001). 
+https://doi.org/10.1016/S0257-
+8972(01)01280-4 
+[7] 
+L. Laguardia et al. "Investigation of the 
+Effects 
+of 
+Plasma 
+Treatments 
+on 
+Biodeteriorated Ancient Paper", Appl. 
+Surf. 
+Sci. 
+252, 
+1159 
+(2005). 
+https://doi.org/10.1016/j.apsusc.2005.02.0
+45 
+[8] 
+M. 
+Pykönen, 
+Influence 
+of 
+plasma 
+modification on surface properties and 
+offset printability of coated paper", PhD 
+Thesis, Åbo Akademi University, 2010. 
+[9] 
+O. Galmiz et al. "Effect of Atmospheric 
+Pressure Plasma on Surface Modification 
+of Paper", AIP Adv. 9, 105013 (2019). 
+https://doi.org/10.1063/1.5124149 
+[10] 
+U. 
+Kogelschatz, 
+"Filamentary,Patterned 
+and Diffuse Barrier Discharge", IEEE 
+Trans. Plasma Sci. 30, 1400 (2002). 
+10.1109/TPS.2002.804201 
+[11] 
+U. 
+Kogelschatz, 
+"Dielectric-Barrier 
+Discharges: 
+Their 
+History, 
+Discharge 
+Physics, 
+and 
+Industrial 
+Applications", 
+Plasma Chem. Plasma Process. 23, 1 
+(2003). 
+https://doi.org/10.1023/A:1022470901385 
+[12] 
+C. Feng, et al. "The Effect of 
+APGD Plasma Treatment on Silk Fabric", 
+Surf. 
+Eng. 
+36, 
+485 
+(2020). 
+  
+https://doi.org/10.1080/02670844.2019.16
+09716 
+
+=== PAGE 10 ===
+Chhetri et al. 
+J. Technol. Space Plasmas, Vol. 2, Issue 1 (2021) 
+Vol. 2, Issue 1 - 102 
+ 
+© G-Labs 2021 
+[13] 
+A. Kuzminova et al. "Study of the Effect of 
+Atmospheric 
+Pressure 
+Air 
+Dielectric 
+Barrier Discharge on Nylon", Polym. 
+Degrad. 
+Stab. 
+110, 
+378 
+(2014). 
+https://doi.org/10.1016/j.polymdegradsta
+b.2014.10.001 
+[14] 
+R. P. Guragain et al. "Improvement of 
+Hydrophilicity of Polypropylene Film by 
+Dielectirc Barrier Discharge Generated in 
+Air at Atmospheric Pressure", Rev. Adhes. 
+Adhes. 
+9, 
+153 
+(2021). 
+https://doi.org/10.7569/RAA.2021.097303 
+[15] 
+L. Xu, J. Meyers, and P. W. Hart, "Impact of 
+Fiber Structure on Edge-Wicking of Highly-
+Sized Paperboard", Tappi J. 17, 437 (2018). 
+[16] 
+H. Tufvesson, "The Mechanisms of Edge 
+Wicking 
+in 
+Retortable 
+Paperboard", 
+Thesis, KTH Royal Institute of Technology, 
+2006. 
+[17] 
+C.-W. Kan and W.-S. Man, "Parametric 
+Study of Effects of Atmospheric Pressure 
+Plasma Treatment on the Wettability of 
+Cotton Fabric", Polymers (Basel). 10, 1 
+(2018). 
+https://doi.org/10.3390/polym10030233 
+[18] 
+B. Paosawatyanyong, K. Kamlangkla, and 
+S. 
+K. 
+Hodak, 
+"Hydrophobic 
+and 
+Hydrophilic Surface Nano-Modification of 
+PET Fabric by Plasma Process", J. Nanosci. 
+Nanotechnol. 10, 7050 (2010). 
+[19] 
+C. Wang and X. He, "Polypropylene 
+Surface 
+Modification 
+Model 
+in 
+Atmospheric Pressure Dielectric Barrier 
+Discharge", Surf. Coat. Technol. 201, 3377 
+(2006). 
+https://doi.org/10.1016/j.surfcoat.2006.07
+.205 
+[20] 
+G. 
+Nersisyan 
+and 
+W. 
+G. 
+Graham, 
+"Characterization of a Dielectric Barrier 
+Discharge Operating in an Open Reactor 
+with Flowing Helium", Plasma Sources Sci. 
+Technol. 
+13, 
+582 
+(2004). 
+https://doi.org/10.1088/0963-
+0252/13/4/005 
+[21] 
+T. C. Manley, "The electric characteristics 
+of 
+the 
+ozonator 
+discharge", 
+Trans. 
+Electrochem. 
+Soc. 
+84, 
+83 
+(1943). 
+https://doi.org/10.1149/1.3071556 
+[22] 
+H.-E. Wagnera, R. Brandenburga, K. V. 
+Kozlovb, A. Sonnenfeldc, and P. Michela, 
+"The Barrier Discharge: Basic Properties 
+and Applications to Surface Treatment", 
+Vacuum 
+71, 
+417 
+(2003). 
+https://doi.org/10.1016/S0042-
+207X(02)00765-0 
+[23] 
+J. Kriegseis, B. Moller, S. Grundmann, and 
+C. 
+Tropea, 
+"Capacitance 
+and 
+Power 
+Consumption Quantification of Dielctric 
+Barrier 
+Discharge 
+(DBD) 
+Plasma 
+Actuators", J. Electrostat. 69, 302 (2011). 
+https://doi.org/10.1016/j.elstat.2011.04.00
+7 
+[24] 
+J. Hun Kim, Y. Ho Choi, and Y. S. Hwang, 
+"Electron 
+Density 
+and 
+Temperature 
+Measurement Method by Using Emission 
+Spectroscopy in Atmospheric Pressure 
+Nonequilibrium Nitrogen Plasmas", Phys. 
+Plasmas 
+13, 
+093501 
+(2006). 
+https://doi.org/10.1063/1.2338282 
+[25] 
+N. Balcon, A. Aanesland, and R. Boswell, 
+"Pulsed 
+RF 
+Discharges, 
+Glow 
+and 
+Filamentary 
+Mode 
+at 
+Atmospheric 
+Pressure in Argon", Plasma Sources Sci. 
+Technol. 
+16, 
+217 
+(2007). 
+https://doi.org/10.1088/0963-
+0252/16/2/002 
+[26] 
+R. P. Guragain et al. "Characterization of 
+Dielectric 
+Barrier 
+Discharge 
+(DBD) 
+Produced in Air At Atmospheric Pressure 
+And 
+Its 
+Application 
+In 
+Surface 
+Modification of High-Density Polyethylene 
+(HDPE)", J. Technol. Space Plasmas 1, 27 
+(2020). 
+https://doi.org/10.31281/jtsp.v1i1.11  
+[27] 
+A. Kramida, Y. Ralchenko, J. Reader, and 
+NIST ASD Team, "NIST Atomic Spectra 
+Database (ver. 5.7. 1), 2019." (2020). 
+[28] 
+K. V. Rani et al. "Optimization and Surface 
+Modification of Silk Fabric Using DBD Air 
+Plasma for Improving Wicking Properties", 
+J. 
+Text. 
+Inst. 
+109, 
+368 
+(2018). 
+https://doi.org/10.1080/00405000.2017.1
+347230 
+[29] 
+M. D. Teli, K. Samanta Kartick, P. Pandit, S. 
+
+=== PAGE 11 ===
+Chhetri et al. 
+J. Technol. Space Plasmas, Vol. 2, Issue 1 (2021) 
+Vol. 2, Issue 1 - 103 
+ 
+© G-Labs 2021 
+Basak, and S. K. Chattopadhyay, "Low-
+Temperature Dyeing of Silk Fabric Using 
+Atmospheric Pressure Helium/Nitrogen 
+Plasma", Fibers Polym. 16, 2375 (2015). 
+https://doi.org/10.1007/s12221-015-5166-4 
+[30] 
+J. Verschuren, P. Herzele, P. van Clerck, K. 
+de Kiekens, "Influence of Fiber Surface 
+Purity on Wicking Properties of Needle-
+Punched Nonwoven after Oxygen Plasma 
+Treatment", Text. Res. J. 75, 437 (2005). 
+https://doi.org/10.1177/00405175050541
+70 
+ 
+ 
+Open Access. This article is licensed under a Creative 
+Commons Attribution 4.0 International License, which 
+permits use, sharing, adaptation, distribution and 
+reproduction in any medium or format, as long as you 
+give appropriate credit to the original author(s) and the 
+source, provide a link to the Creative Commons license, 
+and indicate if changes were made. The images or other 
+third party material in this article are included in the 
+article s Creative Commons license, unless indicated 
+otherwise in a credit line to the material. If material is 
+not included in the article’s Creative Commons license 
+and your intended use is not permitted by statutory 
+regulation or exceeds the permitted use, you will need 
+to obtain permission directly from the copyright holder. 
+To 
+view 
+a 
+copy 
+of 
+this 
+license, 
+visit: 
+http://creativecommons.org/licenses/by/4.0/. 
+ 
+

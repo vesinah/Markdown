@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palm Leaf Manuscript Recognition</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter & Lora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Custom styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+        h1, h2, h3 {
+            font-family: 'Lora', serif;
+        }
+        .section-icon {
+            font-size: 1.75rem;
+            color: #a16207; /* yellow-700 */
+        }
+        .publication-link {
+            @apply text-yellow-700 hover:underline font-semibold;
+        }
+    </style>
+</head>
+<body class="text-slate-700">
+
+    <!-- Header Section -->
+    <header class="bg-yellow-50 pt-24 pb-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-800">Ancient Text Recognition of Multi-Low-Resource Palm Leaf Scripts</h1>
+            <p class="mt-4 text-xl text-slate-600">Advanced Techniques for the Preservation and Analysis of Southeast Asian Historical Scripts</p>
+            <div class="mt-8 text-slate-700">
+                <p class="font-semibold">
+                    <a href="#" class="hover:text-yellow-700">Nimol Thuon*</a>,
+                    <a href="#" class="hover:text-yellow-700">Jun Du</a>,
+                    <a href="#" class="hover:text-yellow-700">Jianshu Zhang</a>,
+                    <a href="#" class="hover:text-yellow-700">Sada Thuon</a>
+                </p>
+                <div class="text-sm text-slate-600 mt-2 space-y-1">
+                    <p>1. National Engineering Laboratory for Speech and Language Information Processing (NEL-SLIP), USTC, China</p>
+                    <p>2. iFLYTEK Research, Hefei, Anhui, China</p>
+                    <p>3. One to Many Cambodia, Cambodia</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="space-y-16">
+
+            <!-- Quick Links Section -->
+            <section id="quick-links">
+                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                    <a href="https://ieeexplore.ieee.org/document/9980217" class="bg-white p-4 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                        <img src="https://img.freepik.com/premium-vector/pdf-file-icon-flat-design-graphic-illustration-vector-pdf-icon_676691-2007.jpg?w=2000" onerror="this.onerror=null;this.src='https://img.freepik.com/premium-vector/pdf-file-icon-flat-design-graphic-illustration-vector-pdf-icon_676691-2007.jpg?w=2000';" alt="KH-SADA Paper" class="mx-auto h-20 w-auto">
+                        <h5 class="mt-2 font-semibold text-sm text-slate-700">KH-SADA</h5>
+                    </a>
+                    <a href="https://doi.org/10.1016/j.patrec.2025.04.031" class="bg-white p-4 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                        <img src="https://img.freepik.com/premium-vector/pdf-file-icon-flat-design-graphic-illustration-vector-pdf-icon_676691-2007.jpg?w=2000" onerror="this.onerror=null;this.src='https://placehold.co/200x150/fefce8/a16207?text=Image';" alt="PALM-SADA Paper" class="mx-auto h-20 w-auto">
+                        <h5 class="mt-2 font-semibold text-sm text-slate-700">PALM-SADA</h5>
+                    </a>
+                                        <a href="https://ieeexplore.ieee.org/document/10849201/" class="bg-white p-4 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                        <img src="https://img.freepik.com/premium-vector/pdf-file-icon-flat-design-graphic-illustration-vector-pdf-icon_676691-2007.jpg?w=2000" onerror="this.onerror=null;this.src='https://placehold.co/200x150/fefce8/a16207?text=Image';" alt="PALM-SADA Paper" class="mx-auto h-20 w-auto">
+                        <h5 class="mt-2 font-semibold text-sm text-slate-700">KhmerFormer</h5>
+                    </a>
+                     <a href="https://github.com/back-kh/SADA" class="bg-white p-3 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                        <img src="https://tse4.mm.bing.net/th/id/OIP.ex75g4-5QfD5ES2M34-MnwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" onerror="this.onerror=null;this.src='https://tse4.mm.bing.net/th/id/OIP.ex75g4-5QfD5ES2M34-MnwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3';" alt="KH-SADA Code" class="mx-auto h-20 w-auto">
+                        <h5 class="mt-2 font-semibold text-sm text-slate-700">Github</h5>
+                    </a>
+                </div>
+            </section>
+            
+            <!-- Introduction Section -->
+            <section id="introduction">
+                <div class="text-center mb-12">
+                     <i class="fas fa-book-open section-icon"></i>
+                    <h2 class="text-3xl font-bold text-slate-800 mt-4">Project Description</h2>
+                </div>
+                <div class="max-w-4xl mx-auto text-slate-600 leading-relaxed space-y-4 text-justify">
+                    <p>This project focuses on the study and analysis of ancient low-resource languages—specifically Balinese, Khmer, and Sundanese using advanced text recognition methods and benchmarking strategies. We address the inherent challenges of these complex, multi-script languages by proposing effective solutions tailored to their unique characteristics. Although data augmentation is widely used to mitigate data scarcity, issues such as grammatical inconsistencies and limited annotated samples often impede model accuracy. Two core challenges are the intricacies of grammar and the high degree of word similarity. To overcome these obstacles, we introduce the Syllable Analysis Data Augmentation (SADA) technique, designed to improve the accuracy of text recognition systems for Southeast Asian historical manuscripts. Our approach involves two key steps. First, we implement KH-SADA, which leverages DenseNet with GRU-based attention mechanisms for syllable-level analysis. Second, we present a multimodal framework, PALM-SADA, for multi-script recognition. This framework integrates all target scripts by constructing enhanced grammar structures and utilizing multiple transformer-based models to automatically correct grammatical errors. We evaluate our approach on diverse datasets, including public benchmarks from the ICFHR 2018 competition and newly augmented collections, with the aim of demonstrating and advancing the accuracy of historical text recognition systems.</p>
+                </div>
+            </section>
+
+            <!-- Framework Section -->
+            <section id="framework">
+                 <div class="text-center mb-12">
+                     <i class="fas fa-sitemap section-icon"></i>
+                    <h2 class="text-3xl font-bold text-slate-800 mt-4">Overall Objective Framework & Challenges</h2>
+                </div>
+                 <div class="md:flex md:space-x-8 items-center">
+                    <div class="md:w-3/5 text-slate-600 leading-relaxed space-y-4 text-justify">
+                        <p><strong>Challenges:</strong> Ancient languages like Khmer, Balinese, and Sundanese feature complex writing systems with unique glyphs, subscripts, and diacritical marks. Their writing structures are characterized by intricate syllable clustering and multi-level word structures (upper, main, and bottom levels). The grouping of glyphs to form words, governed by complex grammatical rules, adds to the difficulty. Understanding the order and positioning of each glyph type is crucial for accurate recognition. This project's framework is designed to deconstruct and model these complexities.</p>
+                    </div>
+                    <div class="md:w-2/5 mt-6 md:mt-0">
+                        <img src="r5.jpg" onerror="this.onerror=null;this.src='r5.jpg" class="rounded-lg shadow-sm">
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Visual Examples -->
+            <section id="examples">
+                 <div class="text-center mb-12">
+                     <i class="fas fa-eye section-icon"></i>
+                    <h2 class="text-3xl font-bold text-slate-800 mt-4">Visual Examples of Script Complexity</h2>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white p-4 rounded-lg shadow-sm">
+                        <h3 class="font-semibold text-center mb-2">Example of Word Level Structure</h3>
+                        <img src="r7.jpg" onerror="this.onerror=null;this.src='r7.JPG';" alt="Word Level Example" class="rounded-md">
+                        <p class="text-xs text-slate-500 mt-2 text-justify"><strong>Details:</strong> a) Upper level for vowel and individual subscript; b) Main level for central consonant; c) Bottom level for subscript and particular vowel.</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-sm">
+                        <h3 class="font-semibold text-center mb-2">Glyph and Writing Order</h3>
+                        <img src="r8.jpg" onerror="this.onerror=null;this.src='r8.JPG';" alt="Glyph Order Example" class="rounded-md">
+                        <p class="text-xs text-slate-500 mt-2 text-justify"><strong>Details:</strong> a) Two input images represent vowel “ee” and consonant “Kha”; b) For glyphs order: some vowels can be in front of consonants; c) For writing order: consonants always stay in front of vowels.</p>
+                    </div>
+                    
+                </div>
+                <div class="grid md:grid-cols-2 gap-8">
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <h3 class="font-semibold text-center mb-2">Example of Data Augmentation</h3>
+                            <img src="r6.jpg" onerror="this.onerror=null;this.src='r6.jpg';" alt="Word Level Example" class="rounded-md">
+                            <p class="text-xs text-slate-500 mt-2 text-justify">
+                                <strong>Details:</strong> New samples are generated using syllable-level data augmentation techniques to enrich the dataset.
+                            </p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <h3 class="font-semibold text-center mb-2">Error Analysis</h3>
+                            <img src="r9.jpg" onerror="this.onerror=null;this.src='r9.jpg';" alt="Glyph Order Example" class="rounded-md">
+                            <p class="text-xs text-slate-500 mt-2 text-justify">
+                                <strong>Details:</strong> Visualization of error patterns using SADA models.
+                            </p>
+                        </div>
+
+            </section>
+
+            <!-- Publications Section -->
+            <section id="publications">
+                <div class="text-center mb-12">
+                     <i class="fas fa-book-open section-icon"></i>
+                    <h2 class="text-3xl font-bold text-slate-800 mt-4">Research & Publications</h2>
+                </div>
+                <div class="space-y-10">
+                
+                    <!-- Publication 1: SADA -->
+                    <div class="bg-white p-6 md:p-8 rounded-xl shadow-md border border-slate-100">
+                        <div class="md:flex md:space-x-8">
+                            <div class="md:w-2/3">
+                                <h3 class="text-xl font-bold text-slate-800">Syllable Analysis Data Augmentation for Khmer Ancient Palm leaf Recognition</h3>
+                                <p class="text-sm text-slate-500 mt-1">N. Thuon, J. Du, J. Zhang. <em>APSIPA ASC 2022</em>.</p>
+                                <div class="mt-4 text-sm text-slate-600 space-y-2 text-justify">
+                                    <p><strong>Summary:</strong> This paper tackles two critical challenges in recognizing text from ancient Khmer manuscripts: grammar complexity and high visual similarity between words. We introduce the <strong>Syllable Analysis Data Augmentation (SADA)</strong> technique, a novel pre-processing strategy to significantly expand limited datasets. SADA works by first creating a structured collection of syllables and glyph patterns based on linguistic rules. It then generates new, diverse training images through flexible geometric transformations, creating realistic variations of words and text lines. This approach effectively enriches the training data, allowing recognition models like DenseNet-GRU to achieve higher accuracy, especially for low-resource scripts.</p>
+                                </div>
+                            </div>
+                            <div class="md:w-1/3 mt-6 md:mt-0">
+                                <img src="r1.JPG" onerror="this.onerror=null;this.src='r1.JPG';" alt="SADA Framework" class="rounded-lg shadow-sm" style="height: 160px;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Publication 2: KhmerFormer -->
+                    <div class="bg-white p-6 md:p-8 rounded-xl shadow-md border border-slate-100">
+                        <div class="md:flex md:space-x-8">
+                             <div class="md:w-1/3 mt-6 md:mt-0 md:order-1">
+                                <img src="r2.jpg" onerror="this.onerror=null;this.src='r2.jpg';" alt="KhmerFormer Architecture" class="rounded-lg shadow-sm" style="height: 160px">
+                            </div>
+                            <div class="md:w-2/3 md:order-2">
+                                <h3 class="text-xl font-bold text-slate-800">KhmerFormer: Multi-Scale CNNs-Transformer with External Attention for Ancient Khmer Isolated Glyph Classification</h3>
+                                <p class="text-sm text-slate-500 mt-1">N. Thuon, J. Du, J. Zhang. <em> APSIPA ASC 2024</em>.</p>
+                                <div class="mt-4 text-sm text-slate-600 space-y-2 text-justify">
+                                    <p><strong>Summary:</strong> The classification of isolated glyphs is a fundamental step in manuscript analysis, but it is hindered by intra-class variations and inter-class similarities. This paper introduces <strong>KhmerFormer</strong>, a novel hybrid architecture that combines Convolutional Neural Networks (CNNs) and a Transformer encoder. The model uses multi-scale CNNs to extract robust local features and an external attention mechanism within the Transformer to capture long-range dependencies and global features effectively. This dual approach allows KhmerFormer to learn more discriminative representations, leading to state-of-the-art performance in classifying ancient Khmer glyphs and demonstrating its potential for other complex scripts.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Publication 3: Multi-low resource -->
+                    <div class="bg-white p-6 md:p-8 rounded-xl shadow-md border border-slate-100">
+                        <div class="md:flex md:space-x-8">
+                            <div class="md:w-2/3">
+                                <h3 class="text-xl font-bold text-slate-800">Multi-low resource languages in palm leaf manuscript recognition: Syllable-based augmentation and error analysis</h3>
+                                <p class="text-sm text-slate-500 mt-1">N. Thuon, J. Du, J. Zhang. <em>Pattern Recognition Letters, 2025</em>.</p>
+                                <div class="mt-4 text-sm text-slate-600 space-y-2 text-justify">
+                                    <p><strong>Summary:</strong> This work extends our syllable-based augmentation strategy to a multi-language context, simultaneously addressing Khmer, Balinese, and Sundanese scripts. It presents a unified framework for recognition across these low-resource languages, which often share historical roots but have distinct visual and grammatical rules. A key contribution of this paper is a detailed <strong>error analysis</strong> that identifies common points of failure in multi-script OCR systems, such as confusion between visually similar glyphs from different languages. The findings provide a roadmap for developing more robust, generalized recognition models for the diverse manuscript traditions of Southeast Asia.</p>
+                                </div>
+                            </div>
+                            <div class="md:w-1/3 mt-6 md:mt-0">
+                                <img src="r3.jpg" onerror="this.onerror=null;this.src='r3.jpg';" alt="Multi-Script Analysis" class="rounded-lg shadow-sm" style="height: 160px">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+                      <!-- Citation Section -->
+            <section id="citation">
+                <div class="text-center mb-12">
+                     <i class="fas fa-quote-right section-icon"></i>
+                    <h2 class="text-3xl font-bold text-slate-800 mt-4">How to Cite</h2>
+                </div>
+                <div class="space-y-8">
+                    <!-- SADA Citation -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                        <h3 class="font-semibold text-slate-800 mb-2">Syllable Analysis Data Augmentation for Khmer Ancient Palm leaf Recognition</h3>
+                        <pre class="bg-slate-100 p-4 rounded-lg text-sm text-slate-800 overflow-x-auto"><code>@inproceedings{thuon2022syllablekhmer,
+  title={Syllable analysis data augmentation for khmer ancient palm leaf recognition},
+  author={Thuon, Nimol and Du, Jun and Zhang, Jianshu},
+  booktitle={2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)},
+  pages={1855--1862},
+  year={2022},
+  organization={IEEE}
+}</code></pre>
+                    </div>
+                    <!-- KhmerFormer Citation -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                        <h3 class="font-semibold text-slate-800 mb-2">KhmerFormer: Multi-Scale CNNs-Transformer with External Attention for Ancient Khmer Isolated Glyph Classification</h3>
+                        <pre class="bg-slate-100 p-4 rounded-lg text-sm text-slate-800 overflow-x-auto"><code>@INPROCEEDINGS{thuon2024khmerformer,
+  author={Thuon, Nimol and Du, Jun},
+  booktitle={2024 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)}, 
+  title={KhmerFormer: Multi-Scale CNNs-Transformer with External Attention for Ancient Khmer Palm Leaf Isolated Glyph Classification}, 
+  year={2024},
+  pages={1-6},}</code></pre>
+                    </div>
+                    <!-- Multi-low resource Citation -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                        <h3 class="font-semibold text-slate-800 mb-2">Multi-low resource languages in palm leaf manuscript recognition: Syllable-based augmentation and error analysis</h3>
+                        <pre class="bg-slate-100 p-4 rounded-lg text-sm text-slate-800 overflow-x-auto"><code>@article{THUON20258,
+title = {Multi-low resource languages in palm leaf manuscript recognition: Syllable-based augmentation and error analysis},
+journal = {Pattern Recognition Letters},
+volume = {195},
+pages = {8-15},
+year = {2025},
+issn = {0167-8655},
+author = {Nimol Thuon and Jun Du and Panhapin Theang and Ranysakol Thuon},
+}</code></pre>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="bg-slate-800 text-center py-8 mt-16">
+        <p class="text-sm text-slate-300">&copy; 2024 Palm Leaf Manuscript Recognition Research. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

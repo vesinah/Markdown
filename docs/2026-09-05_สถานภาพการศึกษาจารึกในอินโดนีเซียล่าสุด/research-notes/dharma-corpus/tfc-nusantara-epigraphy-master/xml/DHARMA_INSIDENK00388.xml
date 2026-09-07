@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Silver vase of the deity at Dieng, early 10th c. CE</title>
+                <respStmt>
+                    <resp key="contributor">EpiDoc encoding</resp>
+                    <persName ref="part:argr">
+                        <forename>Arlo</forename>
+                        <surname>Griffiths</surname>
+                    </persName>
+                </respStmt>
+            	<respStmt>
+            		<resp key="creator">intellectual authorship of edition</resp>
+            		<persName ref="part:argr">
+            			<forename>Arlo</forename>
+            			<surname>Griffiths</surname>
+            		</persName>
+            	</respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Jakarta</pubPlace>
+                <idno type="filename">DHARMA_INSIDENK00388.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p>Characters typical of the early 10th c. CE.<!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                            <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+        <revisionDesc>
+            <change who="part:argr" when="2025-02-24" status="draft">encoding of the inscription</change>
+            </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="kaw-Latn" rendition="class:38769 maturity:83213">
+            <p>
+                <lb n="1"/><g ref="sym:doubleBar" type="punctuation">.</g><g ref="sym:bullet-middle-hollow" type="symbol">*</g><g ref="sym:doubleBar" type="punctuation">.</g> gavayan· bhaṭāra I ḍi<unclear>hya</unclear><supplied reason="lost" evidence="previouseditor">ṁ dyun pirak· brat·</supplied> 
+<abbr><supplied reason="lost" evidence="previouseditor">k</supplied>ā</abbr> <num value="4">4</num> rambutnya lpas· <g ref="sym:doubleBar-hooked" type="punctuation">.</g><g ref="sym:bullet-middle-hollow" type="symbol">*</g><g ref="sym:doubleBar-hooked" type="punctuation">.</g></p>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem>ḍi<unclear>hya</unclear><supplied reason="lost" evidence="previouseditor">ṁ</supplied></lem>
+                     <note>The correct reading of the toponym is found only in <bibl><ptr target="bib:TBG64_1924"/><citedRange unit="mixed">657</citedRange></bibl>.</note>
+                  </app>
+               </listApp>
+         </div>
+         <div type="translation" resp="part:argr">
+ 	<p>Work belonging to the deity <supplied reason="explanation"><foreign>bhaṭāra</foreign></supplied> of Dieng: silver vase weighing 4 <foreign>kāṭi</foreign>. Its hairs are separate.</p>
+         </div>
+         <div type="commentary">
+<p>It is reported in <bibl><ptr target="bib:TBG64_1924"/><citedRange unit="page">657</citedRange></bibl>, that the artefact (registered under acc. no. 5824) is an urn found positioned over a statue of a four-armed standing deity (acc. no. 5823), and that the artefact was hit by a spade at the time of discovery, damaging its lower part, which is indeed lost in the available photographs. The report clarifies that it is the neck of the vase on which we find the inscription engraved.</p>
+<p>The collocation <foreign>gavayan bhaṭāra</foreign> is found also in <title>Kakavin Rāmāyaṇa</title> 8.54: <foreign>i samīpaniṅ kanaka-kalpataru, hana maṇḍapādbuta ya ratnamaya, patiganya markata-maṇik makiris, gavayan bhaṭāra ya isinya kabeh</foreign> <q>Beside the golden wishing-trees, there was an amazing hall, made of jewels; its floor was of smooth emerald, and all its contents were the work of deities </q> (translation <bibl><ptr target="bib:Robson2015_01"/></bibl>). It seems likely that <foreign>gavayan bhaṭāra</foreign> in our context expresses possession rather than manufacture by the deity.</p>
+<p>Perhaps the deity referred to in the text is the one represented in the statue, but this is a matter of speculation. Since the possessive suffix <foreign>-nya</foreign> cannot refer to the deity, it is assumed here to refer back to the <q>work</q> (<foreign>gavayan</foreign>). As for <foreign>rambut</foreign>, various interpretations have been proposed, the most thorough discussion being that of Stutterheim (<bibl rend="omitname"><ptr target="bib:Stutterheim1925_02"/></bibl>). Since the word <foreign>rinambutan</foreign> seems to mean <q>furnished with feathers</q> in <title>Kakavin Rāmāyaṇa</title> 7.15b <foreign>ndan rinambutan əmās panahnira</foreign> <q>and has put golden feathers on his shaft</q> (translation Robson, with comment <bibl rend="omitname"><ptr target="bib:Robson2015_01"/><citedRange>187</citedRange></bibl>), and since this same passage reveals that figurative <foreign>rambut</foreign> could be made of precious metal, we imagine that the <foreign>gavayan bhaṭāra</foreign> was furnished with detachable fringes designated as <q>hairs</q> or served as container for the detachable hairs of a statue. See also the expression <foreign>rambutnya Udi</foreign> in the <ref target="DHARMA_INSIDENKSalingsinganII.xml">Salingsingan II</ref> charter (1r2).</p>
+            <!-- 
+Zilveren dj o e n (urn); bij de vondst werd de bodem
+door de patjol geraakt en in stukken gebroken; het bovengedeelte, op een breuk aan den hals na, gaaf. Aan
+den hals een inscriptie in oud-Midden-Javaansch letterschrift luidend: ||ol| gawayan bhatâra i Dihyang dyun
+pirak brat kâ 4 rambutnya lpas ||o|| (Zie T. K. B. G. LXIV p. 334, waar men eenige drukfouten verbetere).
+Aangetroffen in den grond als No. 5823. Not. als boven. Doorsn. buik 32; doorsn. hals 20, vermoedelijke totale
+hoogte 30 C.M.
+
+Cf.  Prasasti Salingsingan, Ia1-3 (PKMN p. 34):
+	tatkāla saŋ paṅaruhan pu ca(2)tra mamuat gawai waran baŋ mas tuṅgal brat sāṅgappan kati. rambutnya udi. payuŋ pirak mawaṅku madanda mapuñcak mas tuṅgal brat sā(3)ṅgappan kati masnya udi tigaŋ kati
+ -->
+         </div>
+        <div type="bibliography">
+           <p>Essentially the same decipherment was published by F. D K. Bosch on three occasions, the first (<bibl><ptr target="bib:TBG64_1924"/><citedRange unit="page">334</citedRange><citedRange unit="section">2</citedRange></bibl>) and the second (<bibl><ptr target="bib:Bosch1924_01"/></bibl>) both marred by some typographical errors. The edition of reference is the third, that was included further in <bibl><ptr target="bib:TBG64_1924"/><citedRange unit="page">657</citedRange><citedRange unit="item">5824</citedRange></bibl>. Re-edited here by Arlo Griffiths from photographs, revealing a part of the inscribed part of the artefact to have been lost since it was read by Bosch.</p>
+        	<listBibl type="primary">
+	<bibl n="B"><ptr target="bib:TBG64_1924"/><citedRange unit="mixed">Pages 334 (§2), 657 (no. 5824)</citedRange></bibl>
+ <!-- 
+2. Voorts brengt Dr. Bosch ter tafel een merkwaardige vondst.
+	Gouden beeldje en zilveren urn, den 2den Nov. door een kind bij het patjoelen van een tegelan in het blok Bantjet ten Z. van desa Kepakisan, d.i. ongeveer 2 1/2 K.M. ten W. van het Dieng-plateau (distr. Batoer, afd. Bandjarnegara) gevonden. In het zeer nauwkeurig proces-verbaal van de vondst wordt vermeld, dat de zilveren djoen onderst boven, dus met de opening naar onderen en onder die stolp het gouden beeldje recht onvereind staande, werd aangetroffen. Deze bijzonderheden zijn van belang omdat er uit blijkt, dat de waardevolle voorwerpen niet toevalligerwijs onder den grond bedolven zijn geraakt, maar opzettelijk in deze positie zijn begraven. Het beeldje stelt Çiva voor in vierarmige gedaante of, zooals blijkt uit de inscriptie, die straks ter sprake zal komen, de Bhatāra i Dihyang d.i. Diëng. Het is van zwaar bladgoud met een kern van gala2; de bewerking vooral van het gelaat en de handen, is zeer fijn.
+	De zilveren urn draagt een inscriptie aan den hals luidend: gawayan bhatāra i Dhyang dyun pirak brat 4 ka rambut nya lĕpas, d.i. vervaardigd een beeld van den bhatāra van den Diëng en een zilveren djoen, zwaar 4 kati. Wat het laatste zinnetje betreft: rambut is ongetwijfeld de variant van rabut: beide vormen komen naast elkaar voor in raboet sedana, of ramboet sedana , d.i. de heilige beeldjes van kèpèng-munten in de Balische tempels bewaard. In den Pararaton is Rabut een gewoon bestanddeel van namen van heiligdommen bv. Rabut Jalu, R. Katu, R. Kedung Panitikan enz. We mogen dus aannemen dat Rambut-Rabut z.v. beteekent als „voorwerp van vereering, heilige plek" lĕpas is het gewone woord gebezigd voor vrijgebieden bv. „(dharma) sima lpas". Rambut nya lĕpas is dus: deze heilige plek is een vrijgebied.
+	Zoowel uit een artistiek als een archeol. oogpunt zijn de voorwerpen alleszins waard voor de collectie aangekocht te worden.
+	Voorgesteld wordt de voorwerpen voor f 485,— aan te koopen en bij de uitbetaling eenige waarborg te eischen dat het vindersloon ook werkelijk in het bezit van den vinder komt.
+ -->
+			</listBibl>
+           <listBibl type="secondary">
+	<bibl><ptr target="bib:Bosch1924_01"/><citedRange unit="page">105</citedRange></bibl>
+ <!-- 
+De vondst van een gouden beeld van den ,,bhatara i Diyang" met een zilveren djoen met inscriptie, in het blok Bantjet, ten Z. van desa Kapakisan (distr. Batoer, afd. Bandjardgara) is vermeld in de Notulen van 24 Maart 1924 (TKBG. LXIV, afl. 1 en 2, p. 334). De transcriptie van het inschrift, waarin t.a.p. enkele - diacritische teekens zijn weggevallen, luidt : gawayan bhaṭāra i Diyang dyun pirak brat kā 4 rambut nya lpas.
+ -->
+<bibl><ptr target="bib:Stutterheim1925_02"/><citedRange unit="page">228-230</citedRange><citedRange unit="note"/></bibl>
+              <bibl><ptr target="bib:Poerbatjaraka1926_01"/><citedRange unit="page">47-48</citedRange><citedRange unit="note">3</citedRange></bibl>
+<!-- not included in Damais 1971 -->
+<!-- Pauline Lunsingh Scheurleer: Het verband met het gouden beeld is in het museum al lang geleden verloren gegaan, zoals blijkt uit de catalogi,  Fontein, J., & R. Soekmono & Satyawati Suleiman (1971), Ancient Indonesia Art of the Central and Eastern Javanese periods. New York: The Asia Society. no. 98 en Treasures of Ancient Indonesian Kingdoms, Tokyo National Museum, 1997, no. 47. -->
+<bibl><ptr target="bib:LunsinghScheurleer2008_05"/><citedRange unit="page">50</citedRange></bibl>
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

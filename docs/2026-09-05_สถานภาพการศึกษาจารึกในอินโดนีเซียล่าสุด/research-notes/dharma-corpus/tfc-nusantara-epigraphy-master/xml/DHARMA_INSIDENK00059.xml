@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gunung Tua Lokanātha Statue</title>
+                <respStmt>
+                    <resp key="contributor">EpiDoc encoding</resp>
+                    <persName ref="part:argr">
+                        <forename>Arlo</forename>
+                        <surname>Griffiths</surname>
+                    </persName>
+                </respStmt>
+            	<respStmt>
+            		<resp key="creator">intellectual authorship of edition</resp>
+            		<persName ref="part:argr">
+            			<forename>Arlo</forename>
+            			<surname>Griffiths</surname>
+            		</persName>
+            	</respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Jakarta</pubPlace>
+                <idno type="filename">DHARMA_INSIDENK00059.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                            <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+        <revisionDesc>
+            <change who="part:argr" when="2025-02-27" status="draft">revised edition based on new photos</change> 
+            <change who="part:argr" when="2025-01-13" status="draft">finished encoding the inscription</change> 
+            <change who="part:argr" when="2025-01-07" status="draft">started encoding the inscription</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="omy-Latn" rendition="class:38769 maturity:83213">
+<p><lb n="1"/><g ref="sym:bullet-middle-hollow" type="symbol">*</g> svasti śaka-varṣātīta <num value="961">961</num> caitra-māsa, tithi tritiya sukla, śukra-vāra, tatkāla juru pā⌈<lb n="2" break="no"/>ṇḍai suryya barbvat· bhaṭāra lokanātha <g ref="sym:bullet-middle-hollow" type="punctuation">.</g></p>
+<p xml:lang="san-Latn">Imāni kuśala-<choice><sic>mulāṇi</sic><corr>mūlāni</corr></choice> sarbvasatva-sā<space type="defect"/>dh<choice><sic>a</sic><corr>ā</corr></choice>r<choice><sic>ā</sic><corr>a</corr></choice>ṇaṁ kr̥<lb n="3" break="no"/>tvā Anuttarāyāṁ samyaksambodhau pari<choice><sic>n</sic><corr>ṇ</corr></choice>āma<space type="defect"/>y<choice><sic>a</sic><corr>ā</corr></choice>mi <unclear><g ref="sym:bullet-middle-hollow" type="punctuation">.</g></unclear></p>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem><g ref="sym:bullet-middle-hollow" type="symbol">*</g></lem>
+                     <note>There is a liminal sign at the opening of the text, apparently in the form of a small circle. Previous scholars have ignored it. It occurs again, less clearly, in the middle of line 2 and at the end of the text in line 3.</note>
+                  </app>
+                  <app loc="1">
+                  <lem source="bib:Damais1955_01"><num value="961">961</num></lem>                  
+                  <note>Read <foreign>946</foreign> by Brandes and Kern. See <bibl><ptr target="bib:Damais1955_01"/><citedRange unit="page">207-208</citedRange><citedRange unit="note">2</citedRange></bibl>: <q>Brandes et Kern lisaient 946 et le fac-similé des <foreign>КVG</foreign> justifie quelque peu cette interprétation. Mais les chiffres de l'inscription elle-même que nous avons pu examiner en 1946-1947 en diffèrent totalement (cf. notre <hi rend="italic">Tableau comparatif</hi>). Par ailleurs l'étiquette du Musée de Djakarta porte 761 śaka. C'est ici le chiffre des centaines qui est mal interprété.</q></note>
+                  </app>
+                 <!--  <app loc="2">
+                  <lem>-<choice><sic>mulāṇi</sic><corr>mūlāni</corr></choice></lem>
+                  <rdg source="Brandes">-malāṇi</rdg>
+                  </app> -->
+                  <app loc="2">
+                  <lem>-sā<space type="defect"/>dh<choice><sic>a</sic><corr>ā</corr></choice>r<choice><sic>ā</sic><corr>a</corr></choice>ṇaṁ kr̥<lb n="3" break="no"/>tvā</lem>
+                  <note>Kern needlessly ‘corrected’ this to -<foreign>sādhāraṇīkr̥tvā</foreign>. See the Buddhist scriptural evidence cited in <bibl><ptr target="bib:Griffiths2014_01"/><citedRange unit="page">218</citedRange></bibl>.</note>
+                  </app>
+                  <app loc="3">
+                  <lem>pari<choice><sic>n</sic><corr>ṇ</corr></choice>āma<space type="defect"/><choice><sic>a</sic><corr>ā</corr></choice>mi</lem>
+                  <note>Kern edited <foreign>pariṇāmaṁyāmi</foreign>, apparently intending <foreign>pariṇāmaṁ yāmi</foreign>.</note>
+                  </app>
+               </listApp>
+         </div>
+         <div type="translation" resp="part:argr">
+ 	<p>Prosperity! Elapsed Śaka year 961, third <foreign>tithi</foreign> of the waxing <supplied reason="subaudible">fortnight</supplied> of the month of Caitra, a Friday. At that time the master smith Sūrya manufactured Lord (<foreign>bhaṭāra</foreign>) Lokanātha. <supplied reason="explanation">He expressed his intention by citing scripture:</supplied> <q>These roots of what is good do I share with all beings and turn over to the unsurpassed, perfect enlightenment!</q>.</p>
+         </div>
+         <div type="commentary">
+            <p>The presence of the spaces in lines 2 and 3 seems to have a technical reason, for they correspond to vertical bands on the bronze perhaps representing traces of welding.</p>
+            <p>In normalized form, the Sanskrit would run: <foreign>imāni kuśalamūlāni sarvasattvasādhāraṇaṁ kr̥tvā anuttarāyāṁ samyaksambodhau pariṇāmayāmi</foreign>.</p>
+         </div>
+        <div type="bibliography">
+           <p>First read, translated and discussed by Brandes (1887); reading of the Sanskrit portion completed by Brandes (1888); Sanskrit part corrected and elucidated by Kern (1889, 1890); Kern’s contributions reprinted with added notes and a tracing (1917); Old Malay part read anew and dating formula analyzed by Damais (1955: 207–208); re-edited and translated by Griffiths (2014). This digital edition by Arlo Griffiths (2025), using new photographs.</p>
+        	<listBibl type="primary">
+                <bibl n="B"><ptr target="bib:NBG25_1887"/><citedRange unit="page">176-178</citedRange></bibl>
+                <bibl n="B"><ptr target="bib:NBG26_1888"/><citedRange unit="page">130-131</citedRange></bibl>
+                <bibl n="K"><ptr target="bib:NBG27_1889"/><citedRange unit="page">15-16</citedRange></bibl>
+                <bibl n="K"><ptr target="bib:NBG28_1890"/><citedRange unit="page">16</citedRange></bibl>
+                <bibl n="K"><ptr target="bib:Kern1917_22"/></bibl>
+				<bibl n="D"><ptr target="bib:Damais1955_01"/><citedRange unit="page">207-208</citedRange></bibl>
+                <bibl n="G"><ptr target="bib:Griffiths2014_01"/><citedRange unit="page">217-219</citedRange></bibl>
+			</listBibl>
+           <listBibl type="secondary">
+            <bibl><ptr target="bib:Brandes1913_01"/><citedRange unit="page">265</citedRange><citedRange unit="item">CLII</citedRange></bibl>
+            <bibl><ptr target="bib:Krom1914_05"/><citedRange unit="page">112-113</citedRange><citedRange unit="item">84</citedRange></bibl>
+            <bibl><ptr target="bib:Damais1952_01"/><citedRange unit="page">100-101</citedRange><citedRange unit="item">E.6</citedRange></bibl>
+           </listBibl>
+           <!-- first read, translated and discussed by Brandes (NBG 25 [1887], 176–178); 
+           provenance clarified (NBG 26 [1888], 60); 
+           reading of the Sanskrit portion completed by Brandes (NBG 26 [1888], 130–131);19 Sanskrit part corrected and elucidated by Kern (NBG 27 [1889], 15–16; 28 [1890], 16); previous sec. lit. listed by Krom (1914: 112–113); Kern’s contributions
+reprinted with added notes and a tracing in VG 7 (1917), 142–144; Old Malay portion read anew and dating formula analyzed by Damais (1955: 207–208); previous publications summarized by Perret et al. 2007: 53; inventoried PPS-SBU 04, p. 92.-->
+        </div>
+      </body>
+  </text>
+</TEI>

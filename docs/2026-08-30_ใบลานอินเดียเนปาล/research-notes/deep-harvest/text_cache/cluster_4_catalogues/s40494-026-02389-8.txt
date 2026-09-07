@@ -1,0 +1,866 @@
+# SOURCE FILE: s40494-026-02389-8.pdf
+# ORIGINAL PATH: d:\01_APP\Research\output\palmleaf_india_nepal\research-notes\loop_B13\documents\s40494-026-02389-8.pdf
+# CLUSTER: cluster_4_catalogues (4. บัญชี แคตตาล็อกประวัติศาสตร์ NGMCP และเทคโนโลยี HTR)
+# PAGES: 11 | TOTAL CHARS: 40129
+
+=== PAGE 1 ===
+npj | heritage science
+Article
+https://doi.org/10.1038/s40494-026-02389-8
+Plant selection in ancient Tibetan palm-
+leaf manuscripts: a novel approach to
+rapid species identiﬁcation
+Check for updates
+Qingle Chen1,2, Yunjun Bai3, Jing Tang4, Huijuan Mai5, Shan Wang6 & Hongen Jiang2
+Palm-leaf manuscripts, which served as a key writing medium in early South Asia, contain extensive
+content such as religious texts and calendars, offering valuable material for historical and cultural
+research. The leaves commonly used belong to three Arecaceae species: Borassus ﬂabellifer, Corypha
+umbraculifera, and C. utan. Regional preferences in material selection mean that identifying the
+botanical species of manuscripts can offer clues to their geographical origin, shedding light on
+historical dissemination and cultural exchange. This study applied micro-computed tomography
+(micro-CT) and epidermal observation to analyze leaf anatomy, combined with UPGMA clustering. The
+three modern species were clearly distinguished, and two ancient Tibetan manuscript fragments were
+identiﬁed as C. umbraculifera. This work represents the ﬁrst use of high-resolution micro-CT with
+statistical analysis to achieve species-level identiﬁcation of palm-leaf manuscripts, providing a
+methodological basis for tracing their origins and demonstrating the potential of non-destructive
+techniques in heritage studies.
+Palm-leaf manuscripts originated in ancient India and served as one of the
+main written media in the ancient world. These manuscripts encompass a
+diverse range of content, including astronomical records, calendrical
+systems1, and notably, Buddhist scriptures. As Buddhism spread across
+Asia, such manuscripts were disseminated to regions including China,
+Myanmar, Sri Lanka, and Thailand. Due to the distinctive climatic condi-
+tions of the Qinghai-Tibet Plateau, substantial collections of ancient palm-
+leaf manuscripts have been preserved in Tibet, China, thus providing
+valuable resources for historical and cultural research.
+The substrate of palm-leaf manuscripts, as the name implies, is derived
+primarily from palm leaves, with key species belonging to the genera Cor-
+ypha and Borassus. Historically, the material sources have remained notably
+consistent. It is likely that plants of the genus Corypha correspond to the
+historically documented Beiduo, while Borassus matches the plant referred
+to as Duoluo in classical texts2. Within the genus Corypha, two species have
+been widely used: the talipot palm (Corypha umbraculifera) and the gebang
+palm (Corypha utan)3. Corypha taliera has also been recorded in some
+sources4, though it is now considered nearly extinct.
+People in different regions have different preferences in terms of leaf
+selection strategies. C. umbraculifera is extensively used across many South
+and Southeast Asian regions, including Thailand, India, Sri Lanka, Cam-
+bodia, Myanmar, Malaysia, and Indonesia4–8. While C. taliera was endemic
+to a very limited area in Bangladesh9–11. In comparison, the use of leaves
+from the palmyra palm (Borassus ﬂabellifer) appears to have been more
+geographically restricted, with documented evidence from India, Nepal4,12,
+Bali in Indonesia8, and Myanmar13. These regional patterns in species
+selection suggest that identifying the plant species of a manuscript can offer
+valuable clues regarding its geographical origin, thereby contributing to
+tracing possible dissemination routes.
+Distinguishing between the genera Corypha and Borassus is relatively
+straightforward due to clear anatomical differences in their venation pat-
+terns and leaf symmetry. Corypha species exhibit continuously distributed
+transverse veins and abundant minor veins within the mesophyll, which
+provide structural support to their large leaves14. In contrast, leaves of B.
+ﬂabellifer are generally thickerand display a rectangular, brick-like venation
+pattern. A further key distinction lies in leaf symmetry: Corypha leaves are
+dorsiventral, whereas those of Borassus are typically isolateral, with only
+occasional dorsiventral exceptions15. These diagnostic features are also
+observable in historical specimens. For example, anatomical analysis of a
+palm-leaf manuscript from India clearly identiﬁed it as belonging to the
+1Key Laboratory of Vertebrate Evolution and Human Origins of Chinese Academy of Sciences, Institute of Vertebrate Paleontology and Paleoanthropology,
+Chinese Academy of Sciences, Beijing, China. 2Department of Archaeology and Anthropology, University of Chinese Academy of Sciences, Beijing, China. 3State
+Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, National Resource Center for Chinese Materia Medica, China Academy of Chinese
+Medical Sciences, Beijing, China. 4Henan Provincial Institute of Cultural Relics and Archaeology, Zhengzhou, China. 5Yunnan Key Laboratory for Palaeobiology,
+Yunnan University, Yunnan, China. 6China Academy of Cultural Heritage, Beijing, China.
+e-mail: jianghongen@ucas.ac.cn
+npj Heritage Science | (2026) 14:116 
+1
+1234567890():,;
+1234567890():,;
+
+=== PAGE 2 ===
+genus Corypha7, demonstrating the applicability of these morphological
+criteria to ancient materials.
+However, further identiﬁcation within the genus Corypha remains
+challenging. Species such as C. umbraculifera, C. utan, and C. taliera exhibit
+highly similar venation patterns6. Beyond venation, leaf structure and epi-
+dermal characteristics provide critical diagnostic criteria, which can vary
+signiﬁcantly among taxonomic groups16. To date, research has primarily
+focused on the leaf structure of C. umbraculifera17,18, while studies on other
+species and their associated traits within the genus Corypha remain notably
+limited.
+Micro-computed tomography (micro-CT) is a noninvasive imaging
+technique that visualizes the internal three-dimensional structure of sam-
+ples through X-ray scanning. By acquiring sequential cross-sectional ima-
+ges,itachieveshigh-resolutioncharacterizationatmicronorevennanoscale
+levels19. This technology has been widely applied in archeology and cultural
+heritage studies, like parchment, pottery, plant remains20–23, demonstrating
+signiﬁcant potential across multiple research ﬁelds.
+In plant sciences, micro-CT has established a solid methodological
+foundation for studying tissue morphology. The technique has been
+extensively used to examine plant organs—including caryopses, seeds,
+leaves, stems, and petioles, as well as various tissues such as leaf venation,
+xylem, aerenchyma, cell boundaries, and cell walls19. These studies con-
+sistently demonstrate that micro-CT enables detailed, three-dimensional
+structural analysis that is often unattainable through conventional methods.
+This study applies micro-CT to characterize the leaf structures of C.
+umbraculifera, C. utan, B. ﬂabellifer, and ancient palm-leaf manuscripts.
+Complemented by epidermal morphological observation and cluster ana-
+lysis, it aims to identify the botanical species of historical Tibetan palm-leaf
+manuscripts. Our objectives are to improve the accuracy of species identi-
+ﬁcation for these cultural artifacts and to evaluate the application of non-
+destructive micro-CT technology in heritage science. This work provides a
+methodological reference for future research in this ﬁeld.
+Methods
+Experimental materials
+This study utilized modern leaf specimens from three representative palm
+species: B. ﬂabellifer, C. umbraculifera, and C. utan. The leaves were col-
+lected from the Xishuangbanna Tropical Botanical Garden (21°55'12” N,
+101°16'48” E), Chinese Academy of Sciences, in Xishuangbanna Dai
+Autonomous Prefecture, Yunnan Province, China.
+Traditional practices for producing palm-leaf manuscripts specify the
+use of broad and tender leaves. Following this criterion, we selected robust,
+mature plants and collected relatively tender, broad, and light-colored
+leaves. After collection, the midribs were removed, and the leaves were air-
+dried under shade. The widest section of each leaf was used for subsequent
+analysis.
+Currently preserved palm-leaf manuscripts in the Tibet Region are
+largely concentrated in the 10–13th centuries. During this period, a sig-
+niﬁcant number of manuscripts were brought from India, Nepal, and the
+Kashmir Region24. Ancient palm-leaf manuscripts in Tibet are mainly
+preserved in monasteries, museums, and libraries. These facilities house a
+signiﬁcant number of ancient Buddhist palm-leaf manuscripts, including
+many rare and well-preserved Sanskrit texts that are no longer available in
+other regions. For this study, two sets of ancient Sanskrit palm-leaf manu-
+scripts were randomly selected from a monastery. Damaged fragments
+within the storage boxes were chosen as the subjects of analysis (Fig. 1).
+Epidermal observation
+Fragments were sectioned into approximately 0.5 × 0.5 cm2 pieces. Fol-
+lowing Franklin’s method25, the segments were immersed in a 1:1 acetic
+acid–hydrogen peroxide solution and heated at 60 °C for about 24 h until
+the tissues became transparent and began to separate. The macerated
+samples were carefully peeled to obtain the epidermis, which was then
+stained with 5% safranin solution. After sufﬁcient staining, the epidermal
+strips were mounted on glass slides for microscopic observation.
+Epidermal morphological features were examined using a Leica DM4P
+optical microscope. Characteristic structures were documented, and
+quantitativemeasurementswereperformedwithImageJsoftware(v.1.51n).
+For each sample, the following parameters were recorded: the length of the
+long axis of 50 stomatal complexes on both the adaxial and abaxial surfaces,
+thewidthof20stomatalbands,andthestomatalindexfromthreerandomly
+selected ﬁelds of view. Mean values were calculated for each parameter.
+Micro-computed tomography (micro-CT) scanning
+All micro-CT scans were conducted using a Zeiss Xradia 520 Versa X-ray
+microscope (Carl Zeiss AG) at the Institute of Paleontology, Yunnan Uni-
+versity. The scanning parameters were as follows: detector mode 4X, vol-
+tage/power 40 kV/3 W, exposure time 1.5–3 s per projection, total
+projections1601,andreconstructedslices993–996.Theresultingvoxelsizes
+were 1.13 μm for modern C. umbraculifera, 1.82 μm for B. ﬂabellifer,
+1.46 μm for C. utan, 1.62 μm for the ancient manuscript M1, and
+1.46 μm for M2.
+The acquired TIFF-format image stacks were processed using ORS
+Visual software (v.1.8.0.1913) for three-dimensional reconstruction and
+visualization. Scanning was conducted in three orthogonal planes: trans-
+verse (XZ), longitudinal (YZ), and horizontal (XY) (Fig. 2). Morphometric
+analysis was carried out with ImageJ, including measurements of leaf
+thickness (three ﬁelds of view), diameter of 20 longitudinal veins, spacing of
+20 longitudinal veins, spacing of 20 abaxial ﬁber bundles, and the distance
+ratio from 10 transverse veins to the adaxial and abaxial epidermis. Mean
+values were calculated for each parameter. Terminology for anatomical
+structures follows refs. 14,26–28.
+Statistical analysis
+The Unweighted Pair Group Method with Arithmetic Mean (UPGMA)
+clustering was performed using Origin 2021. This method is widely applied
+inecologyand systematics29,asitavoidsallowingextreme values(minimum
+or
+maximum)
+between
+genotypes to
+disproportionately
+inﬂuence
+the measure of dissimilarity. In UPGMA, the distance between two clusters
+is calculated as the unweighted average of pairwise distances among
+all accessions from each cluster. The two closest clusters are merged itera-
+tively at each step. Cluster distances were computed using the Euclidean
+method.
+A total of 11 morphological indicators from the epidermis and ana-
+tomical structure were selected for cluster analysis. Samples included C.
+utan, C. umbraculifera, and two ancient palm-leaf manuscript fragments.
+To mitigate the impact of data scale on results, all measurement data were
+standardized before the analysis by using the Z-score method.
+Fig. 1 | Fragments of ancient palm-leaf manuscripts (bar = 1 cm).
+https://doi.org/10.1038/s40494-026-02389-8
+Article
+npj Heritage Science | (2026) 14:116 
+2
+
+=== PAGE 3 ===
+Results
+Epidermal morphology of three modern palm leaves
+Key epidermal morphology characteristics, including stomata type, anti-
+clinal wall types, stomata band width and their coefﬁcient of variation (CV),
+stomatal index, were listed in Table 1 for better review and comparison.
+The leaves of B. ﬂabellifer exhibit similar epidermal morphology on
+bothadaxialand abaxialsurfaces,each bearing stomata covered bya distinct
+cuticular layer. The stomata feature reniform (kidney-shaped) guard cells,
+each ﬂanked by two subsidiary cells positioned at the poles of the long axis.
+Stomatal length averages 61.15 µm (range: 52.94–73.19 µm). These stomata
+are arranged linearly within the intercostal regions, forming bands 2 to 4
+rows wide. Epidermal cells are elongated and rectangular, with straight
+anticlinal walls (Fig. 3).
+Stomata on the adaxial and abaxial leaf surfaces of C. umbraculifera are
+similarinsize and type(Fig.4),with an average long-axislength of 29.12 µm
+(range: 25.10–35.63 µm). They conform to the tetracytic type, characterized
+by two reniform guard cells surrounded by four subsidiary cells. Differences
+between surfaces were noted, however, in stomatal band morphology and
+epidermal cell features.
+Stomatal bands on the adaxial surface are broader and more widely
+spaced than those on the abaxial surface. Adaxially, stomata are densely
+arranged in the intercostal zones into bands composed of 2 to 5 rows, with
+an average width of 111.09 µm (range: 69.11–160.39 µm; CV = 0.27). In
+contrast, abaxial stomatal bands are notably narrower, averaging 68.66 µm
+in width (range: 48.38–114.15 µm; CV = 0.25).
+Epidermal cell morphology also differs between surfaces, parti-
+cularly in anticlinal wall patterns. Adaxial epidermal cells are elongated-
+rectangular with straight to undulate walls, whereas abaxial cells,
+though polygonal, display exclusively straight anticlinal walls. Addi-
+tionally, the abaxial surface shows a higher stomatal density, as reﬂected
+in the stomatal index (adaxial: 13.58%; abaxial: 16.48%). This increase
+likely results from the narrower spacing between stomatal bands on the
+abaxial side.
+In C. utan, stomatal type and size are consistent between adaxial and
+abaxial surfaces. The tetracytic stomata consist of two reniform guard cells
+surrounded by four subsidiary cells, with an average long-axis length of
+27.42 µm (range: 21.23–32.80 µm). As in C. umbraculifera, distinct differ-
+ences were observed between surfaces in stomatal band dimensions and
+epidermal cell traits.
+On the adaxial surface, stomata cluster in intercostal regions to form
+bands of 1 to 4 rows, averaging 46.37 µm in width (range: 18.20–75.01 µm;
+CV = 0.36). Abaxially, stomatal bands are typically single-rowed (occa-
+sionally double-rowed), with an average width of 35.65 µm (range:
+28.31–48.82 µm; CV = 0.14). These ﬁndings indicate generally narrower
+stomatal bands on the abaxial surface. The stomatal index further differs
+between surfaces (adaxial: 9.48%; abaxial: 16.96%), indicating a higher
+proportional representation of stomata on the abaxial epidermis. The larger
+coefﬁcient of variation on the adaxial side also pointsto greater variability in
+stomatal band width.
+Anticlinal wall morphology likewise varied between surfaces. While
+epidermal cells were polygonal on both sides, adaxial cells displayed both
+straight and undulate anticlinal walls, whereas abaxial cells showed only
+straight walls—a pattern highly consistent with that observed in C.
+umbraculifera (Fig. 5).
+Anatomical structure of leaves of three modern palm leaves
+Micro-CT imaging clearly revealed the venation patterns and the char-
+acteristics and distribution of various cell types, allowing for a comparative
+analysis of the three palm species. Key venation features are summarized in
+Table 2. The detailed observations for each species are shown as follows.
+The venation characteristic can be observed as a reticulate (brick-like)
+pattern. The transverse veins run nearly perpendicular to the longitudinal
+veins. They originate from one longitudinal vein, cross several others, and
+terminate at an adjacent longitudinal vein.
+In addition to the veins pattern, various types of cells and their dis-
+tribution can also be recognized in leaf CT cross-sectional view. In
+Fig. 2 | Schematic diagram of micro-CT scanning in
+three orthogonal planes.
+Table 1 | Epidermal morphology details of 3 modern palm leaves
+Species
+Stomata type
+Stomata length (μm)
+Anticlinal
+wall types
+Stomata band width (μm)
+Coefﬁcient of
+variation (CV)
+Stomatal index
+Adaxial
+Abaxial
+Adaxial
+Abaxial
+Adaxial
+Abaxial
+Adaxial
+Abaxial
+Adaxial
+Abaxial
+B. ﬂabellifer
+Kidney-shaped, with
+two reniform guard
+cells surrounded by
+two subsidiary cells
+61.15
+(52.94–73.19)
+/
+Straight
+Straight
+/
+/
+/
+/
+/
+/
+C.
+Umbraculifera
+Tetracytic type, with
+two reniform guard
+cells surrounded by
+four subsidiary cells
+29.12
+(25.10–35.63)
+24.88(20.40–29.14)
+Straight
+or
+undulate
+walls
+Straight
+111.09
+(69.11–160.39)
+68.66
+(48.38–114.15)
+0.27
+0.25
+13.58%
+16.48%
+C. Utan
+Id.
+27.42
+(21.23–32.80)
+24.45(19.04–30.14)
+Id.
+Id.
+46.37
+(18.20–75.01 μm)
+35.65
+(28.31–48.82 μm)
+0.36
+0.14
+9.48%
+16.96%
+https://doi.org/10.1038/s40494-026-02389-8
+Article
+npj Heritage Science | (2026) 14:116 
+3
+
+=== PAGE 4 ===
+transverse section, the mesophyll cells are relatively uniform in size and
+shape,consistent with isolateral leaf anatomy. The longitudinal veins, which
+averaging
+81.76 μm
+(range:
+35.38–183.59 μm)
+enclosed
+with
+par-
+enchymatous sheath. These veins are basically situated in the median region
+of the lamina and are surrounded by ﬁbrous sclerotic sheaths. These sheaths
+distributed at both ends of the longitudinal veins, with the adaxial sheath
+connecting to the hypodermis. Additionally, numerous sclerenchymatous
+cells are irregularly distributed among the veins (Fig. 6). Scans in the YZ
+plane show that the transverse veins course along the abaxial side of the
+lamina, with their ﬁbrous sheaths connecting to the adaxial and abaxial
+hypodermal layers, respectively. Beyond the ﬁbrous sheaths enclosing the
+vascular bundles, numerous smaller nonvascular ﬁber bundles are present
+in the intercostal regions, particularly adjacent to the hypodermal layer.
+Comparing with the venation pattern of B. ﬂabellifer, C. umbraculifera
+shows entirely different. The transverse veins cross multiple longitudinal
+veins, a feature especially evident in longitudinal sections where they run
+beneath the longitudinal veins. These transverse veins are oriented at con-
+sistent angles, nearly perpendicular to the longitudinal veins. Unlike the
+Fig. 3 | Epidermal characteristics of leaf lamina
+from B. ﬂabellifer. a Adaxial epidermis, b details of
+adaxial epidermis, c abaxial epidermis, d details of
+abaxial epidermis. White arrowheads = subsidiary
+cells (bar = 50 μm).
+Fig. 4 | Epidermal characteristics of leaf from C.
+umbraculifera. a Adaxial epidermis, b details of
+adaxial epidermis, c abaxial epidermis, d details of
+abaxial epidermis. White arrowheads = light wavy
+anticlinal cell walls (bar = 50 μm).
+https://doi.org/10.1038/s40494-026-02389-8
+Article
+npj Heritage Science | (2026) 14:116 
+4
+
+=== PAGE 5 ===
+Fig. 5 | Epidermal characteristics of leaf from C.
+utan. a Adaxial epidermis, b details of adaxial epi-
+dermis, c abaxial epidermis, d details of abaxial
+epidermis. White arrowheads = light wavy anticlinal
+cell walls (bar = 50 μm).
+Table 2 | Qualitative anatomical characteristics in 3 palm species
+Species
+Venation pattern
+Parenchymatous sheath
+Sclerotic sheath
+Nonvascular ﬁber
+Sclerenchymatous cell
+B. ﬂabellifer
+Reticulate
+Obvious
+At both ends of the
+longitudinal veins
+Higher density near the
+abaxial side
+Irregularly distributed among
+the veins
+C. umbraculifera
+Slightly curved,
+longer
+Obvious
+At one side of the
+longitudinal veins
+Id.
+NA
+C. utan
+Id.
+Not obvious
+Id.
+Id.
+NA
+Fig. 6 | Results of micro-CT scans of leaf sample from B. ﬂabellifer. a Plane ﬁgure
+(XY plane), b transverse section (XZ plane), c longitudinal section (YZ plane). cc
+cuticle, ep epidermis, hp hypodermis, lv longitudinal costal vein, ph phloem, ps
+parenchymatous sheath, sc sclerenchymatous cell, ss sclerotic sheath, tv transverse
+costal veins, xy xylem, black star: non-vascular ﬁbers, bar = 200 μm.
+https://doi.org/10.1038/s40494-026-02389-8
+Article
+npj Heritage Science | (2026) 14:116 
+5
+
+=== PAGE 6 ===
+straight and regular transverse veins of B. ﬂabellifer, those of C. umbracu-
+lifera are slightly curved, longer, and span more longitudinal veins.
+Besides the vascular tissue, distribution of different cells types in C.
+umbraculifera also display distinction with B. ﬂabellifer. A parenchymatous
+sheath is clearly visible around both longitudinal and transverse veins.
+Unlike in the B. ﬂabellifer, sclerotic sheaths are present only on the adaxial
+side of the longitudinal veins, extending upward to connect with the
+hypodermis, while a higher density of nonvascular ﬁbers is observed near
+the abaxial surface (Fig. 7).
+The venation pattern of C. utan resembles that of C. umbraculifera,
+though no distinct parenchymatous sheath was observed surrounding the
+vascular bundles. Micro-CT reveals variation in the diameter of the long-
+itudinal veins. Sclerotic sheaths are mainly distributed on the adaxial side of
+the veins and connect to the hypodermis, whereas a greater abundance of
+subepidermal ﬁbers lies adjacent to the abaxial side (Fig. 8).
+A preliminary comparison between C. utan and C. umbraculifera
+suggests that the transverse veins in C. utan are positioned closer to the mid-
+plane of the lamina, while in C. umbraculifera they appear nearer to the
+abaxial surface. To determine whether this trend is consistent, further
+quantitative analysis was performed using statistical methods.
+Leaf anatomy of ancient palm-leaf manuscripts
+After being preserved for a long time, the epidermal morphological char-
+acteristics remained clearly identiﬁable, providing us with signiﬁcant
+assistancein identifying ancient palm leaf manuscripts. Anatomicalanalysis
+of fragments M1and M2 revealed distinct differences between their two
+Fig. 7 | Results of micro-CT scans of leaf sample
+from C. umbraculifera. a Plane ﬁgure (XY plane),
+b transverse section (XZ plane), c longitudinal sec-
+tion (YZ plane), d different scanning plane of
+longitudinal section (YZ plane). hp hypodermis, lv
+longitudinal costal vein, ps parenchymatous sheath,
+ss sclerotic sheath, tv transverse costal veins, black
+star: nonvascular ﬁbers, bar = 200 μm.
+https://doi.org/10.1038/s40494-026-02389-8
+Article
+npj Heritage Science | (2026) 14:116 
+6
+
+=== PAGE 7 ===
+epidermal surfaces. The original adaxial and abaxial surfaces could not be
+directly determined through an individual fragment sample. The surfaces
+were therefore tentatively labeled as Side A and Side B.
+The epidermal characteristics of samples M1 and M2 are largely
+comparable. In the result of two samples, both surfaces exhibited tetracytic
+stomata type with similar guard cell dimensions, and the stomatal index on
+the two sides shows a difference. Epidermal cells on both surfaces were
+polygonal in shape. Side A exhibited both straight and undulate anticlinal
+walls, whereas Side B showed exclusively straight anticlinal walls.
+Micro-CT scans of two ancient manuscript fragments in the XY plane
+(Fig. 9) revealed a distinct parenchymatous sheath surrounding some vas-
+cular bundles. The transverse veins traversed the longitudinal veins at
+consistent angles, forming a continuous network. Longitudinal sections
+clearly showed the transverse veins passing beneath the longitudinal veins.
+Though the midline of the veins was shifted slightly to the left (Fig. 9b),
+which is possibly due to long-term compression of the fragment, basic
+features can still be observed. Images of transverse sections display that the
+diameters of longitudinal veins vary greatly, with sclerotic sheaths pre-
+senting only on the adaxial side. Furthermore, nonvascular ﬁbers are dis-
+tributed more abundantly in the abaxial surface.
+Based on the results of epidermal observation and micro-CT,
+characteristics of ancient samples closely resemble Corypha species and
+differ markedly from B. ﬂabellifer. It can be preliminarily concluded
+that the ancient manuscript belongs to the genus Corypha, and Side A
+corresponds to the adaxial surface and Side B to the abaxial surface
+(Fig. 10).
+Cluster analysis of modern Corypha species and ancient palm-
+leaf manuscripts
+Cluster analysis was performed using 11 quantitative anatomical traits from
+modern C. umbraculifera, C. utan, and two ancient palm-leaf manuscript
+fragments (Tables 3 and 4). Cophenetic correlation coefﬁcient (CCC) is
+0.89, reﬂecting a good match between the original matrix and the cluster
+matrix. This result shows a good reliability of the tree diagram.
+Samples can be separated into 3 groups: C. umbraculifera, C. utan,
+ancient group. C. umbraculifera and C. utan were divided into 2 groups at a
+coefﬁcient value of 5.06. The ancient groups and C. umbraculifera merged
+when the coefﬁcient value is 4.54. Two fragment samples merged when the
+coefﬁcient value is 3.68 (Fig. 11). Comparing to the C. utan, ancient samples
+have higher similarity to C. umbraculifera and show a closer species origin.
+Fig. 8 | Results of micro-CT scans of leaf sample
+from C. utan. a Plane ﬁgure (XY plane), b transverse
+section (XZ plane), c longitudinal section (YZ
+plane). hp hypodermis, lv longitudinal costal vein, ss
+sclerotic sheath, tv transverse costal veins, black star:
+nonvascular ﬁbers, bar = 200 μm.
+https://doi.org/10.1038/s40494-026-02389-8
+Article
+npj Heritage Science | (2026) 14:116 
+7
+
+=== PAGE 8 ===
+Fig. 9 | Results of micro-CT scans of two fragments of ancient palm-leaf
+manuscripts, sample M1. a Plane ﬁgure (XY plane), b transverse section (XZ plane),
+c longitudinal section (YZ plane), d different scanning plane of longitudinal section
+(YZ plane). Sample M2: e plane ﬁgure (XY plane), f transverse section (XZ plane),
+g longitudinal section (YZ plane). hp hypodermis, lv longitudinal costal vein, ss
+sclerotic sheath, tv transverse costal veins, black star: non-vascular ﬁbers,
+bar = 200 μm.
+Fig. 10 | Epidermal characteristics of ancient
+palm-leaf manuscripts. a Adaxial epidermis of M1,
+b abaxial epidermis of M1, c adaxial epidermis of
+M2; d abaxial epidermis of M2. White arrow-
+heads = light wavy anticlinal cell walls; bar = 50 μm.
+https://doi.org/10.1038/s40494-026-02389-8
+Article
+npj Heritage Science | (2026) 14:116 
+8
+
+=== PAGE 9 ===
+This result is consistent with preliminary observations from anatomical
+comparison.
+Discussion
+The anatomical morphology of leaves from B. ﬂabellifer and Corypha spe-
+cies exhibits clear distinctions, particularly in stomatal size, and type; epi-
+dermal cells morphology; the distribution pattern of the sclerotic sheath and
+venation architecture. These characteristics allow rapid differentiation
+between the two taxa based on morphological observation.
+The stomata of B. ﬂabellifer are signiﬁcantly larger than those of Cor-
+ypha species. The epidermal cell features of the adaxial and abaxial surfaces
+are markedly different in Corypha species, whereas they are consistent in B.
+ﬂabellifer. Within the genus Corypha, subtle differences exist in anticlinal
+cell wall patterns: the adaxial surface displays both straight and undulate
+types, while the abaxial surface exhibits only straight walls. In contrast, both
+epidermal surfaces of B. ﬂabellifer show exclusively the straight type.
+Additionally, the abaxial epidermis of Corypha leaves generally bears a
+higher stomatal density than the adaxial one, which is a common trait
+among many plant species30. Considerable differences are also observed in
+stomatal band width between the two epidermal surfaces in Corypha,
+whereas B. ﬂabellifer shows relatively uniform stomatal band dimensions
+across both surfaces.
+Stomatal distribution is inﬂuenced by environmental factors such as
+temperature and light intensity16. The stomatal patterning in Corypha and
+Borassus may reﬂect adaptations to their distinct leaf orientations and
+physiological traits. These intrinsic morphological and ecological differ-
+ences providea practicalbasisforidentifyingthebotanicaloriginsof ancient
+palm-leaf manuscripts.
+The venation pattern of B. ﬂabellifer and Corypha species exhibits
+distinct characteristics. The transverse veins of B. ﬂabellifer form a regular
+grid-like (or brick-like) pattern. In contrast, the transverse veins of Corypha
+speciesrunacrossthelongitudinalveinsinarelativelylooseandoverlapping
+arrangement. This distinction can even be discerned with the naked eye.
+Leaf structure of two species is quite differential. Corypha displays a
+typical dorsiventral type, whereas those of B. ﬂabellifer are predominantly
+isolateral31. This phenomenon could be associated with their different
+growth characteristic. Generally, the isolateral leaves of many Arecaceae
+species grow approximately perpendicular to the ground, which results in a
+symmetrical structure throughout the leaf. In contrast, dorsiventral leaves
+Table 3 | Indicators used for cluster analysis and their
+corresponding numbers
+Type
+Indicators
+Unit
+No.
+Epidermal characteristics
+Stomata size (ad)
+μm
+1
+Stomatal band width (ad)
+μm
+2
+Stomatal band width CV (ad)
+NA
+3
+Stomata size (ab)
+μm
+4
+Stomatal band width (ab)
+μm
+5
+Stomatal band width CV (ab)
+NA
+6
+Anatomical characteristics
+Lamina thickness
+μm
+7
+Subepidermal ﬁbers spacing
+μm
+8
+Longitudinal vein size CV
+NA
+9
+Transverse vein
+distance ratio*
+NA
+10
+Longitudinal vein spacing
+μm
+11
+ad adaxial side, ab abaxial side.
+*Ratio of distance from the center point of the transverse vein to the adaxial and abaxial surfaces.
+Table 4 | Values of 11 indicators
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+C. umbraculifera
+29.12 (25.10–35.63)
+111.09 (69.11–160.39)
+0.27
+24.88 (20.40–29.14)
+68.66 (48.38–114.15)
+0.25
+175.66
+39.5
+0.35
+1.81
+110.48
+C. utan
+27.42 (21.23–32.80)
+46.37 (18.20–75.01)
+0.36
+24.45 (19.04–30.14)
+35.65 (28.31–48.82)
+0.14
+248.65
+33.84
+0.18
+1.34
+85.3
+M1
+26.51 (22.62–32.80)
+117.62 (76.48–191.22)
+0.27
+23.90 (20.34–27.58)
+57.35 (44.63–85.85)
+0.2
+175.67
+36.47
+0.34
+2.63
+65.33
+M2
+25.97 (21.53–32.20)
+103.63 (82.40–133.85)
+0.14
+24.29 (20.49–28.55)
+56.92 (38.45–72.43)
+0.16
+186.28
+51.23
+0.2
+1.63
+68.95
+The content in parentheses indicates the range of maximum and minimum values.
+Fig. 11 | Results of the cluster analysis of ancient
+palm-leaf manuscripts and two modern palm leaves.
+https://doi.org/10.1038/s40494-026-02389-8
+Article
+npj Heritage Science | (2026) 14:116 
+9
+
+=== PAGE 10 ===
+typically grow parallel to the ground, with the adaxial surface generally
+receiving more direct sunlight31.
+The differences between Corypha and B. ﬂabellifer are consistent with
+previous studies6,7,15. Due to the signiﬁcant differences in growth patterns
+and characteristics between the plants of the two different genera, the dif-
+ferences in their leaf structures are quite obvious. It is relatively easy to
+distinguish the leaves of the two species. By comparing venation and epi-
+dermal morphology, the genus-level origin of ancient palm-leaf manu-
+scripts can be rapidly identiﬁed non-destructively. However, further
+differentiation among species within the genus Corypha remains
+challenging.
+To address this, cluster analysis based on quantitative anatomical traits
+proved highly effective. The application of multivariate statistical analysis to
+quantitative anatomical traits allows for reliable taxonomic identiﬁcation of
+ancient palm-leaf manuscripts, reducing the potential bias introduced by
+degraded preservation, obscured imaging, or incomplete morphological
+visibility.
+In thiscase,micro-CTscanningdemonstrates signiﬁcant advantages
+in this study. Compared to traditional free-hand section techniques,
+micro-CT scanning eliminates complex operational procedures and
+enables rapid, non-destructive analysis of ancient specimens. Moreover,
+the high-precision analytical capability signiﬁcantly enhances the
+understanding of leaf anatomical structures, substantially improving the
+accuracy of species identiﬁcation for palm-leaf manuscripts. In principle,
+the contrast in X-ray images depends on the density, thickness, and
+atomic composition of the sample32. However, this method performs
+poorly in visualizing stomata and epidermal cells, with low contrast at
+their edges. Therefore, obtaining epidermal features still requires tradi-
+tional methods such as the Franklin technique, followed by observation
+under an optical microscope. Future research should focus on improving
+resolution and enhancing the imaging performance of micro-CT scan-
+ning for palm-leaf manuscripts.
+This study employed epidermal observation and non-destructive
+micro-CT scanning to compare the epidermal and anatomical features of
+leaves from three modern palm species and ancient Tibetan palm-leaf
+manuscripts. Combined with cluster analysis, it successfully distinguished
+the three modern palm species and identiﬁed the botanical source of the
+ancient Tibetan manuscripts as C. umbraculifera (talipot palm). This
+research represents the ﬁrst application of this technology to species iden-
+tiﬁcation in ancient palm-leaf manuscripts, offering a novel approach that
+integrates non-destructive techniques with taxonomic analysis. The ﬁnd-
+ings provide a valuable reference for future studies in this ﬁeld.
+Data availability
+The datasets used in this study are available from the corresponding author
+upon reasonable request.
+Received: 14 October 2025; Accepted: 13 February 2026;
+References
+1.
+Sah, A. Palm Leaf manuscripts of the world: material, technology and
+conservation. Stud. Conserv. 47, 15–24 (2002).
+2.
+Jiang, H., Wang, S. & Chen, Q. The record, discovery, and
+preservation of palm leaf manuscripts in China. J. Univ. Chin. Acad.
+Sci. https://doi.org/10.7523/j.ucas.2025.011 (2025).
+3.
+Chen, Q., Wang, S. & Jiang, H. Investigation and research on
+traditional techniques of palm leaf manuscripts in Xishuangbanna and
+northern Thailand. J. Eng. Stud. 1–11 (2025).
+4.
+Agrawal, O. Conservation of manuscripts and paintings of South-east
+Asia (Butterworth, 1984).
+5.
+Igunma. The beautiful art of thai palm leaf. Southeast Asia Libr. Group
+Newsl. 46, 35–50 (2014).
+6.
+Freeman, R. Turning over old leaves: palm leaves used in South Asian
+manuscripts. Book Pap. Group Annu. 24, 99–102 (2005).
+7.
+Sharma, D., Singh, M., Krist, G. & Velayudhan, N. Structural
+characterization of 18th century Indian palm leaf manuscripts of India.
+Int. J. Conserv. Sci. 9, 257–264 (2018).
+8.
+Hinzler, H. Balinese palm-leaf manuscipts. Bijdr. Taal Land Volkenkd.
+149, 438–473 (1993).
+9.
+Zhang, J. Advances in palm leaf manuscripts from a biological
+perpective. J. Fudan Univ. (Nat. Sci.) 63, 658–666 (2024).
+10. Gérard, C. La feuille de palmier, support d’écrit dans l’Inde ancienne.
+In (ed Laroque, C.) Proc. Papiers et Protopapiers : Les Supports de
+l’écrit ou de la Peinture (HiCSA, 2017).
+11. Riberaigua, C. & Messager, M. Codicology and conservation issues of
+the Asian palm-leaf. In Proc. 17th International Seminar on Care and
+Conservation of manuscripts (University of Copenhagen, 2018).
+12. Hoernle, A. An epigraphical note on palm-leaf, paper and birch-bark.
+J. Asiat. Soc. Bengal 69, 93–134 (1900).
+13. Singer, N. Palm leaf manuscripts of Myanmar (Burma). Arts Asia 21,
+133–140 (1991).
+14. Horn, J., Fisher, J., Tomlinson, P., Lewis, C. & Laubengayer, K.
+Evolution of lamina anatomy in the palm family (Arecaceae). Am. J.
+Bot. 96, 1462–1486 (2009).
+15. Tomlinson,P., Horn, J.& Fisher,J. The Anatomy of Palms:Arecaceae-
+Palmae (Oxford University Press, 2011).
+16. Rudall, P., Hilton, J. & Bateman, R. Several developmental and
+morphogenetic factors govern the evolution of stomatal patterning in
+land plants. N. Phytol. 200, 598–614 (2013).
+17. Lian, X. et al. Revealing the mechanism of ink ﬂaking from surfaces of
+palm leaves(Coryphaumbraculifera). Langmuir40,6375–6383(2024).
+18. Chu, S., Lin, L. & Tian, X. Evaluation of the deterioration state of
+historical palm leaf manuscripts from Burma. Forests 14, 1775 (2023).
+19. Karahara, I., Yamauchi, D., Uesugi, K. & Mineyuki, Y. Three-
+dimensional visualization of plant tissues and organs by X-ray
+micro–computed tomography. Microscopy 72, 310–325 (2023).
+20. Bernardini, F. et al. Neolithic pottery from the Trieste Karst
+(northeastern Italy): a multi-analytical study. Microchem. J. 124,
+600–607 (2016).
+21. Sanger, M. Investigating pottery vessel manufacturing techniques
+using radiographic imaging and computed tomography: studies from
+the Late Archaic American Southeast. J. Archaeol. Sci. Rep. 9,
+586–598 (2016).
+22. Bernardini, F. et al. Evidence of open-air late prehistoric occupation in
+the Trieste area (north-eastern Italy): dating, 3D clay plaster
+characterization and obsidian provenancing. Archaeol. Anthropol.
+Sci. 10, 1933–1943 (2018).
+23. Seales, W. et al. From damage to discovery via virtual unwrapping:
+reading the scroll from En-Gedi. Sci. Adv. 2, e1601247 (2016).
+24. Yu, C., Zhang, M., Li, B. & Lian, X. Unraveling the ink composition of
+ancient palm leaf manuscript from Tibet: a multi-analytical study.
+Herit. Sci. 13, 73 (2025).
+25. Johansen, D. Plant Microtechnique (McGraw-Hill Book, 1940).
+26. Pinedo, A., Martins, R., de Oliveira, R. & Gomes, S. Leaf anatomy in
+Allagoptera (Arecaceae). Bot. J. Linn. Soc. 182, 361–375 (2016).
+27. Dilcher, D. Approaches to the identiﬁcation of angiosperm leaf
+remains. Bot. Rev. 40, 1–157 (1974).
+28. Prabhakar, M. Structure, delimitation, nomenclature and
+classiﬁcation of stomata. J. Integr. Plant Biol. 46, 242 (2004).
+29. James, F. & McCulloch, C. Multivariate analysis in ecology and
+systematics: Panacea or Pandora’s box? Annu. Rev. Ecol. Syst. 21,
+129–166 (1990).
+30. Yamaguchi, T., Nukazuka, A. & Tsukaya, H. Leaf adaxial–abaxial
+polarity speciﬁcation and lamina outgrowth: evolution and
+development. Plant Cell Physiol. 53, 1180–1194 (2012).
+31. Tomlinson, P. The uniqueness of palms. Bot. J. Linn. Soc. 151, 5–14
+(2006).
+32. Lusic, H. & Grinstaff, M. X-ray-computed tomography contrast
+agents. Chem. Rev. 113, 1641–1666 (2013).
+https://doi.org/10.1038/s40494-026-02389-8
+Article
+npj Heritage Science | (2026) 14:116 
+10
+
+=== PAGE 11 ===
+Acknowledgements
+This study was ﬁnancially supported by the National Key Research and
+Development Program of China (Grant No. 2022YFF0903901). We extend
+our sincere gratitude to the Xishuangbanna Tropical Botanical Garden,
+Chinese Academy of Sciences, for generously providing the fresh palm leaf
+samples for this study.
+Author contributions
+Conceptualization: Q.C., H.J.; Methodology: Y.B., H.M., Q.C.; Formal
+analysis, Writing-original draft: Q.C.; Writing—review and editing: H.J., J.T.,
+S.W.; Project administration, Supervision: H.J.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Correspondence and requests for materials should be addressed to
+Hongen Jiang.
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral withregardtojurisdictional
+claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License,
+which permits any non-commercial use, sharing, distribution and
+reproduction in any medium or format, as long as you give appropriate
+credit to the original author(s) and the source, provide a link to the Creative
+Commons licence, and indicate if you modiﬁed the licensed material. You
+do not have permission under this licence to share adapted material
+derived from this article or parts of it. The images or other third party
+material in this article are included in the article’s Creative Commons
+licence, unless indicated otherwise in a credit line to the material. If material
+isnot includedin thearticle’s CreativeCommons licenceandyour intended
+use is not permitted by statutory regulation or exceeds the permitted use,
+you will need to obtain permission directly from the copyright holder. To
+view a copy of this licence, visit http://creativecommons.org/licenses/by-
+nc-nd/4.0/.
+© The Author(s) 2026
+https://doi.org/10.1038/s40494-026-02389-8
+Article
+npj Heritage Science | (2026) 14:116 
+11
+

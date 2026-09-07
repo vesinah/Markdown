@@ -1,0 +1,685 @@
+# SOURCE FILE: chemosensors-13-00196-v2.pdf
+# ORIGINAL PATH: d:\01_APP\Research\output\palmleaf_india_nepal\research-notes\PDF\chemosensors-13-00196-v2.pdf
+# CLUSTER: cluster_1_materials (1. วัสดุศาสตร์ หมึก และการอนุรักษ์เชิงเคมี)
+# PAGES: 12 | TOTAL CHARS: 37475
+
+=== PAGE 1 ===
+Received: 11 April 2025
+Revised: 15 May 2025
+Accepted: 24 May 2025
+Published: 27 May 2025
+Citation:
+Voges, L.F.; Horn, N.;
+Ciotti, G.; Seifert, S. Differentiation of
+Species and Provenance of Palm-Leaf
+Manuscripts Using Fourier Transform
+Infrared Spectroscopy and
+Chemometrics. Chemosensors 2025, 13,
+196. https://doi.org/10.3390/
+chemosensors13060196
+Copyright: © 2025 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license
+(https://creativecommons.org/
+licenses/by/4.0/).
+Article
+Differentiation of Species and Provenance of Palm-Leaf
+Manuscripts Using Fourier Transform Infrared Spectroscopy
+and Chemometrics
+Lucas F. Voges 1,2
+, Nils Horn 2
+, Giovanni Ciotti 1,3
+and Stephan Seifert 1,2,*
+1
+Centre for the Study of Manuscript Cultures (CSMC), Universität Hamburg, Warburgstraße 26,
+20354 Hamburg, Germany
+2
+Department of Chemistry, Hamburg School of Food Science, Universität Hamburg, Grindelallee 117,
+20146 Hamburg, Germany
+3
+Department of History and Cultures, University of Bologna, Via Zamboni 33, 40126 Bologna, Italy
+*
+Correspondence: stephan.seifert@uni-hamburg.de; Tel.: +49-40-428-38-8818
+Abstract: For authentication and interpretation of palm-leaf manuscripts, material analyses
+are required that enable identification of specific characteristics of written artefacts. In
+this study, we apply infrared spectroscopy (DRIFTS) in combination with principal com-
+ponent analysis (PCA) as a fingerprinting technique for the analysis of eleven palm-leaf
+manuscripts. We demonstrate that manuscript-specific information is obtained and that a
+differentiation regarding the taxonomic species of palm leaves used for production and
+of their geographical origin in South and Southeast Asia is possible. The results show the
+potential of infrared spectroscopy for fingerprinting and authentication of written artefacts.
+Keywords: infrared spectroscopy; chemometrics; codicology; palm-leaf manuscript;
+non-invasive analysis
+1. Introduction
+Palm-leaf manuscripts are among the oldest and most important written artefacts
+of South, Southeast, and Central Asia, with dated evidence of their use from at least the
+2nd/3rd centuries CE until today. They were used for dissemination and preservation of
+all kinds of texts (religious, belletristic, technical, legal, etc.), as well as for accounting and
+correspondence. Although palm-leaf manuscripts were largely replaced by handwritten
+paper, and later printed paper, by the late 19th century at the latest, they are still sporadically
+produced in the traditional way, mainly for sale to tourists in Bali or for religious purposes
+in a few Buddhist circles in Sri Lanka and mainland Southeast Asia [1].
+Historically, leaves of the palm species Borassus flabellifer (palmyra palm), Corypha
+umbraculifera (talipot palm), and Corypha utan were mainly used to produce manuscripts.
+Other species, such as Corypha taliera, are sometimes also mentioned, but it is not entirely
+clear whether these were actually used [2,3]. For production of manuscripts, young palm
+leaves were harvested and cut to appropriate size. The leaves were then subjected to
+processing steps, which could vary greatly depending on regional customs, but often
+included boiling in water or other liquids, drying, e.g., in sunlight, grinding the surface
+and treating them with oils. They were then placed between covers, which were typically
+made of wood (sometimes richly decorated) and possibly wrapped in cloth for storage.
+In South India and Southeast Asia writing on palm leaves consisted of notching the writing
+into the leaf surface with a metallic stylus. Lampblack or charcoal powder mixed with oil
+was then rubbed into the indentations to make the writing more visible [2].
+Chemosensors 2025, 13, 196
+https://doi.org/10.3390/chemosensors13060196
+
+=== PAGE 2 ===
+Chemosensors 2025, 13, 196
+2 of 12
+As palm-leaf manuscripts are made of organic materials, they are subject to natural
+decay processes. Fluctuations in relative humidity and temperature, exposure to light,
+insect and/or rodent infestation, unfavourable storage, and constant handling can lead
+to their rapid decay. For this reason, various conservation measures have been applied to
+increase the shelf life of palm-leaf manuscripts. These measures include treating leaves
+with spices such as turmeric and calamus to keep insects away, applying organic oils such
+as lemongrass oil to preserve flexibility of the leaves and repel pests, and fumigating with
+thymol vapours to limit fungal growth [4].
+For scholars in the humanities to be able to analyse and interpret the manuscripts,
+it is necessary to include all available information. This concerns not only content of the
+manuscripts but also material properties and, of course, their origin. It is currently quite
+difficult to say anything about the latter, unless it is explicitly stated in the manuscript
+itself (which is extremely rare). Therefore, simple methods are needed to analyse these
+manuscript properties.
+When studying objects of cultural heritage, it is of absolute importance to prevent
+or minimise the contact and risk of damage to artefacts. Approaches based on Fourier
+Transform Infrared Spectroscopy (FTIR), especially Attenuated Total Reflectance (ATR)
+and Diffuse Reflectance Infrared Fourier Transform Spectroscopy (DRIFTS), are powerful
+analytical techniques used for the analysis of various materials. These non-destructive
+methods are particularly valuable for analysing historical and archaeological objects, as they
+require minimal sample preparation and preserve integrity of the artefacts. Unlike ATR,
+DRIFTS analyses a comparatively large sample area, making it particularly well-suited to
+fingerprinting. This is particularly useful when examining materials with an inhomoge-
+neous macrostructure, such as palm-leaf manuscripts. Although a stable and direct contact
+with the analysed object is necessary, this non-invasive method has proven to be a valuable
+tool in archaeometry [5] and the analysis of organic material e.g., herbarium specimens [6],
+cellulosic and textile fibres [7,8], painting canvases [9], colourants [10,11], and palm-leaf
+manuscripts [4,12]. Most research on palm-leaf manuscripts, however, focused primarily
+on processing, writing methods or ink analysis [12], while a comprehensive analysis of
+FTIR spectra of these manuscripts as analytical fingerprints has not yet been performed.
+In order to utilise analytical fingerprints of biological samples, i.e., to uncover differ-
+ences and similarities, analytical data are usually analysed using multivariate chemometric
+methods. Principal Component Analysis (PCA) is a quite common approach that utilises an
+orthogonal transformation to convert a set of observations of possibly correlated variables
+into a set of linearly uncorrelated variables called principal components. This unsupervised
+technique is widely used in machine learning to simplify complex datasets by reducing the
+number of variables, while retaining the essential information, i.e., the main differences,
+contained in the dataset. This method is usually applied to identify patterns and facilitates
+data visualisation by reducing dimensionality. In addition to PCA, also supervised meth-
+ods like Linear Discriminant Analysis (LDA), Partial Least Squares-Discriminate Analysis
+(PLS-DA), Support-Vector Machine (SVM), and Soft Independent Modelling of Class Anal-
+ogy (SIMCA) are applied in chemometrics; however, by their nature, they require large
+datasets [13–16].
+In this study, we analyse for the first time whether DRIFTS in combination with
+chemometrics is suitable for obtaining characteristic fingerprints of palm-leaf manuscripts,
+which can be used to classify them regarding provenance and taxonomic identity. This
+approach was chosen for its ability to provide mobile, non-destructive analysis, making it
+ideal for fingerprinting cultural heritage objects.
+
+=== PAGE 3 ===
+Chemosensors 2025, 13, 196
+3 of 12
+2. Materials and Methods
+2.1. Manuscript Samples
+Eleven palm-leaf manuscripts, all belonging to the collection of the Centre for the
+Study of Manuscript Cultures (CSMC, University of Hamburg), were used in this study
+as it was possible to determine their origin. They differ regarding their place of origin,
+material, number of pages, and age (probably all 19th/20th century). All manuscripts were
+assigned by experts through direct inspection to the species Borassus flabellifer or Corypha
+umbraculifera and origin of the countries India, Indonesia, Myanmar, and Sri Lanka (e.g.,
+by description, annotation, or language). The complete list of manuscripts used in this
+study is presented in Table 1 with corresponding meta data. Figure 1 shows an image of a
+manuscript page together with approximate measuring points at which DRIFTS spectra
+were recorded.
+Table 1. Overview of manuscripts analysed in this study. Assigned species and country/region
+of origin are presented as well as the number of DRIFTS measurements and the number of sam-
+pled pages per manuscript. Manuscript MS V was measured twice at different dates to enable
+technical replication.
+Manuscript
+Object No.
+Species
+Country
+Region
+Meas. (No. Pages)
+MS I
+CSMC, 1/2014
+Borassus flabellifer
+Indonesia
+Bali
+16 (4)
+MS II
+CSMC, 1/2017
+Corypha umbraculifera
+Sri Lanka
+unknown
+18 (5)
+MS III
+CSMC, 1/2018
+Corypha umbraculifera
+India
+Kerala
+22 (5)
+MS IV
+Private Collection, MS Tamil 1
+Borassus flabellifer
+India
+Tamil Nadu
+19 (5)
+MS V
+CSMC, T 12/2021
+Borassus flabellifer
+India
+Odisha
+10 (1) ×2
+MS VI
+CSMC, T 29/2021
+Borassus flabellifer
+Indonesia
+Bali
+15 (3)
+MS VII
+CSMC, T 32/2021
+Borassus flabellifer
+Indonesia
+Bali
+25 (5)
+MS VIII
+CSMC, T 33/2021
+Corypha umbraculifera
+Sri Lanka
+unknown
+25 (5)
+MS IX
+CSMC, T 34-1/2021
+Corypha umbraculifera
+Myanmar
+unknown
+25 (5)
+MS X
+CSMC, T 34-2/2021
+Corypha umbraculifera
+Myanmar
+unknown
+15 (3)
+MS XI
+CSMC, T add. 6/2021
+Borassus flabellifer
+Indonesia
+Bali
+25 (5)
+Figure 1. A photograph of Manuscript MS VII with approximated measuring points for DRIFTS.
+Adapted from: CSMC, Universität Hamburg.
+2.2. Preparation of Oil-Treated Palm-Leaf Samples
+To measure the effects of freshly applied oil, which is a typical treatment of palm-leaf
+conservation and production, lemongrass oil was acquired from PhytoChemia (LOT No:
+LG190422BLK5040). The certificate of analysis from the supplier states that nearly 70% of
+the oils content are the two isomers geranial and neral (3,7-dimethylocta-2,6-dienal). All
+other volatile constituents are listed with a maximum of 3%. The oil was measured directly
+on aluminium foil as well as applied to authentic palm-leaf material prepared as writing
+support. The samples were dried for 5 days before measurement.
+2.3. DRIFTS Analysis
+To obtain DRIFTS spectra, a portable 4100 Exoscan FTIR spectrometer (Agilent Tech-
+nologies (Santa Clara, CA, USA)) was used in Diffuse Reflectance mode. The spectrometer
+is equipped with a ZnSe beam splitter, a Michelson interferometer and a thermoelectrically
+
+=== PAGE 4 ===
+Chemosensors 2025, 13, 196
+4 of 12
+cooled dTGS detector. It has a spectral range of 4000–650 cm−1 and a spectral resolution
+of 4 cm−1. A gold reference cap was used for background calibration. 256 scans were
+collected in one measurement. Measurements were taken on unwritten and written parts
+of the manuscripts.
+2.4. Chemometric Analysis
+Chemometric analysis was performed using R Statistical Software 4.2.2 [17] with
+extensive use of the package hyperSpec 0.200.9000 [18]. The preprocessing of spectra in-
+cluded reducing the spectral range to 800 to 1900 and 2400 to 3840 cm−1. Hence, the area
+from 1900 to 2400 cm−1, which can show peaks from carbon dioxide of ambient air, was
+removed for chemometric analysis. This reduced the number of analysed data points per
+spectrum to 1356. Furthermore, preprocessing included smoothing with a Savitzky–Golay
+filter (window size: 11; polynomial order: 2) and forming the first derivative using the
+prospectr 0.2.6 package [19]. This package was also applied for normalisation and scatter
+correction using Standard Normal Variate (SNV) transformation. Principal component
+analysis (PCA) was carried out with the prcomp() function (non-scaled, centred). For statis-
+tical testing, two-tailed, two-sample t-tests (function: t.test()with equal variances) were
+applied to the scores of the respective component of a PCA. Although we assessed all result-
+ing principal components from PCA analysis, those with less than five percent of variance
+were not reported (which usually concerned the fifth and higher principal components).
+3. Results and Discussion
+3.1. DRIFTS Spectra
+The spectra of eleven manuscripts were preprocessed as described and the mean
+spectrum of each manuscript is shown in Figure 2 for comparison. The spectra of the
+different manuscripts show variable absorption intensities, especially in the “fingerprint”
+area between 800–1900 cm−1. Nevertheless, they show a typical and recurring pattern that
+is expected from biological samples and Table 2 shows tentative assignments of main bands
+in the obtained spectra. They can mainly be assigned to polysaccharides like cellulose,
+hemicellulose, and lignin [4,20–22]. The observed differences in band intensities in the
+spectra could be due to different ageing of cellulose-containing manuscripts, as evidenced
+by a decrease in cellulose bands and an oxidation-related increase in bands assigned to
+lignin, carboxyl, or ester groups [23,24].
+Figure 2. Mean spectra of the eleven manuscripts after preprocessing. For better visibility, the spec-
+trum of MS I is highlighted. Positions of tentative assigned peaks (see Table 2) are indicated.
+
+=== PAGE 5 ===
+Chemosensors 2025, 13, 196
+5 of 12
+Table 2. Infrared bands of the measured palm-leaf manuscripts with tentative assignments to
+vibrations of biomolecules. The assignment is made on the basis of the references given, which use
+one of the following methods: FTIR—FTIR in Transmission, ATR—Attenuated Total Reflectance
+Spectroscopy, DRIFTS—Diffuse Reflectance Infrared Fourier Transform Spectroscopy.
+Wavenumber (cm−1)
+Tentative Assignment; Wavenumber, Reference (cm−1)
+Method
+∼3400
+ν(OH) cellulosic fibres; 3335 [7]
+ATR
+ν(OH) cellulose; 3348 [25]
+DRIFTS
+ν(OH) acid/methanol; 3600–3000 [21]
+FTIR
+∼2930–2850
+ν(CH2), ν(CHx) cellulosic fibres; 2850, 2900 [7]
+ATR
+ν(CHn) alkyl, aliphatic, aromatic; 2860–2970 [21]
+FTIR
+ν(CH2) asymmetric, symmetric methylene groups in fats and waxes; 2927, 2855 [24]
+ATR
+ν(CH) cellulose, 2902 [25]
+DRIFTS
+∼1736
+ν(C=O) ester cellulosic fibres; 1735 [7]
+ATR
+pectin/hemicellulose; 1735 [24]
+ATR
+ν(C=O) hemicellulose/lignin/ferulate; 1738 [23]
+ATR
+∼1660–1592
+δ(O-H) adsorbed water/hydrogen bond hemicellulose-lignin; 1635–1621 [23]
+ATR
+ν(C=C) aromatic/cellulosic fibres; 1595 [7]
+ATR
+adsorbed water; 1635 [7]
+ATR
+conjugated carbonyl group of lignin; 1650 [24]
+ATR
+∼1515
+ν(C=C) aromatic/cellulosic fibres; 1505 [7]
+ATR
+aromatic skeletal vibration/lignin; 1509 [26]
+FTIR
+∼1464, 1427
+δ(CH) cellulose; 1430 [25]
+DRIFTS
+ν(O-CH3) Methoxyl-O-CH3; 1470–1430 [21]
+FTIR
+δ(C-H) cellulosic fibres; 1420, 1455 [7]
+ATR
+δ(C-OH) alcohol/cellulosic fibres; 1455 [7]
+ATR
+δ(C-H2) scissoring/cellulosic fibres; 1475 [7]
+ATR
+∼1379–1365
+δ(CH) cellulose; 1372 [25]
+DRIFTS
+δ(C-H) cellulosic fibres; 1365 [7]
+ATR
+∼1175–1160
+ν(C-O-C) cellulose/hemicellulose; 1161 [26]
+FTIR
+ν(C-O-C) cellulose; 1163 [25]
+DRIFTS
+ν(C-O-C) pyranose ring; 1170, 1082 [21]
+FTIR
+ν(C-O-C) glycosidic/cellulosic fibres; 1105 [7]
+ATR
+ν(C-C) ring breathing/cellulosic fibres; 1155 [7]
+ATR
+ν(C-O) triglycerides; 1237 [24]
+ATR
+∼1077–1035
+ν(C-OH) alcohol/cellulosic fibres; 1050, 1025 [7]
+ATR
+ν(C-O) cellulose; 1059, 1033 [25]
+DRIFTS
+ν,δ(C-O) C-OH; 1060 [21]
+FTIR
+ν(C-O) glycosidic bond of polysaccharides; 1031 [4]
+ATR
+ν(C-O) triglycerides; 1086 [24]
+ATR
+∼899
+δ(CH), ν(glucose ring) cellulose; 897 [25]
+DRIFTS
+3.2. Evaluation of DRIFTS as Fingerprinting Method for Palm-Leaf Manuscripts
+In order to assess the suitability of DRIFTS for classifying different manuscripts, it
+is first necessary to determine whether a reproducible measurement of manuscripts is
+possible, to what extent obtained fingerprints differ in positions with and without text,
+and whether the oil applied for conservation affects them.
+3.2.1. Reproducibility of Manuscript Analysis
+To evaluate DRIFTS as a fingerprinting technique for palm-leaf manuscripts, various
+spectra were measured on different pages of each manuscript. To determine whether
+manuscript-specific information is obtained, spectra of technical replicates of the same
+manuscript obtained on different days were analysed and compared with spectra from
+different manuscripts. Figure 3 shows scores of PCAs conducted on spectra of the same
+manuscript (A) and two different manuscripts (B). While spectra of different manuscripts
+are clearly grouped, this is not the case for the technical replicates.
+In order to quantify this objective assessment, the obtained scores were also analysed
+using t-tests. In both cases, the first four components of the PCA explain around 80%
+of the total variance. For scores of the first four components of the PCA applied to the
+spectra of the technical replicates and different manuscripts, the lowest p-value obtained
+was >0.5 and <0.0001, respectively (see Table S1). This means that there are statistically
+significant differences for different manuscripts, while the technical replicates show no
+
+=== PAGE 6 ===
+Chemosensors 2025, 13, 196
+6 of 12
+significant differences. This confirms the conclusions made from Figure 3 showing that
+reproducible analytical fingerprints of palm-leaf manuscripts are obtained.
+Figure 3. Scores of the first two principal components of the PCA conducted on DRIFTS spectra of
+(A) a technical replicate (MS V (1) and MS V (2)) and (B) two different manuscripts from the same
+country of origin and same species (MS V and MS IV).
+3.2.2. Analysis of Different Locations on the Manuscript
+An obvious difference within the manuscripts lies in distinct locations where text is
+or is not present. Comparing manuscripts based on their DRIFTS fingerprints would be
+much easier if there were no significant differences between these locations, meaning that
+spectra are mainly influenced by the palm material rather than the engraving and presence
+of carbon-based ink, especially since some of the manuscripts are almost completely
+inscribed. Hence, several measurements were carried out on written and blank areas
+of the manuscripts MS VI, VII, X, and XI and the obtained spectra were analysed with PCA.
+The results are shown in Figures S1–S4 in the Supplementary Materials. No clear grouping
+can be observed. However, the results of the t-tests (see Table S1), which was applied on the
+scores of the respective first four principal components, showed p-values below 0.05 for the
+first principal component of MS VII and the second principal component of MS XI. Hence,
+there could be an influence of engraving and presence of carbon-based ink to the spectra.
+However, the fact that significant p-values are obtained for only two of sixteen analysed
+principal components, which could also be explained by multiple testing, suggests that this
+influence is negligible.
+3.2.3. Influence of Oil
+The application of oils is a typical repeated treatment for the preservation of palm-
+leaf manuscripts. To investigate whether and to which extent oiling affects the obtained
+fingerprint spectra, lemongrass oil was applied to three dried leaf samples and spectra
+were obtained both before and after application of the oil. In addition, the pure oil was
+analysed. The results are shown in Figure 4 for pure oil and one of the palm leaves and
+in Figure S5 for the other two leaf samples. The spectrum of pure lemongrass oil shows
+prominent bands at 2969, 2924, 2863, 1674, 1447, 1380, 1192, and 1130 cm−1, which can
+be assigned to citral [27] (mixture of isomers geranial and neral), the main constituents of
+the oil used. These bands are not visible when looking at the spectrum of the palm leaf
+after oil treatment (Figure 4) but can be seen to some extent when a differential spectrum
+is built from spectra before and after oil treatment. From this very simplified imitation of
+the conservation process, it can be concluded that treatment with oil does not significantly
+alter the spectrum of palm-leaf manuscripts, which greatly simplifies the application of
+DRIFTS as a fingerprinting approach for these manuscripts in practice.
+
+=== PAGE 7 ===
+Chemosensors 2025, 13, 196
+7 of 12
+Figure 4. DRIFTS spectra of dried lemongrass oil, a dried palm leaf with and without lemongrass oil,
+and a difference spectrum calculated from the latter two.
+3.3. Analysis of Species and Provenance
+In order to analyse whether DRIFTS in combination with PCA can be utilised to
+group manuscripts according to specific properties, the differentiation regarding taxonomic
+species and geographical origin was investigated. Figure 5A shows scores of the first and
+second principal component coloured according to species of the palm used for manuscript
+production and using different shapes for different manuscripts. The first observation that
+can be made is that spectra of different manuscripts cluster closely together. This shows the
+reproducibility of the approach and the applicability of DRIFTS as fingerprinting technique
+for individual palm-leaf manuscripts confirming the conclusions of the previous section,
+especially with regard to the rather small influence of different measurement positions.
+It is clear that the species of palm leaves used has a major influence on the variance of
+spectra, which is particularly evident in the scores of the first principal component, as spec-
+tra of Corypha umbraculifera show mostly positive values, whereas spectra of Borassus flabel-
+lifer show rather negative values. The p-values obtained for the first two components are
+<0.0001 (see Table S1), indicating that there are significant differences for the spectra of the
+two species. To identify the parts of the spectra which are important for species differences,
+the loadings were evaluated. They are shown in Figure 5B. It is recognisable that bands
+at around 2930–2850 cm−1, 1736 cm−1, 1515 cm−1, 1175–1160 cm−1, and 1077–1035 cm−1,
+which could be assigned to CH2 and CH, C=0, aromatic C=C, and C-O-C, C-C, and C-O vi-
+brations of cellulose compounds are important for both principal components (see Table 2).
+This could indicate a different composition of the palm species with regard to cellulose
+components, which is also relevant for differentiation of soft and hard wood [25] and
+different fibre types [25].
+
+=== PAGE 8 ===
+Chemosensors 2025, 13, 196
+8 of 12
+The differentiation between the spectra of manuscripts from different species is even
+more apparent when scaling is applied in the PCA (Figure S6 in the Supplementary Materials).
+However, this normalisation makes it difficult to interpret the loadings.
+Figure 5. Results of the PCA of all spectra. Scores of the first two principal components coloured
+according to the species of the palm leaf with 95% confidence ellipses (A) and the corresponding
+loadings (B) are shown.
+In order to investigate the spectral variances within the two species in more detail
+and analyse whether manuscripts can be separated according to geographical origin,
+the respective spectra were analysed individually. The relevant scores of both PCAs are
+depicted in Figure 6. For the spectra of Borassus flabellifer (Figure 6A), the separation of
+manuscripts from India and Indonesia is partially possible using the scores of principal
+components three (p-value < 0.001) and especially four (p-value < 0.0001, see Table S1).
+However, there is some overlap between these groups, which could be attributed to
+similarity of individual manuscripts regarding other, unknown characteristics such as
+storage conditions, handling, and age of the manuscripts. Notably, the first two components,
+which account for the greatest variance, are also influenced by unknown characteristics
+of the manuscripts unrelated to their geographical origin. For the spectra of Corypha
+umbraculifera (Figure 6B), the manuscripts from Sri Lanka and Myanmar can be separated
+by the scores of the first principal component, as the spectra of the Sri Lankan manuscripts
+show negative values, while the spectra of the manuscripts from Myanmar show positive
+values (p-value < 0.0001, see Table S1). The spectra of Indian manuscripts show positive
+values for the second principal component, which distinguishes them from the spectra
+of manuscripts of other origins (p-values < 0.0001, see Table S1). However, the spectra
+of Indian and Sri Lankan manuscripts overlap, suggesting that they may share similar
+characteristics in terms of the aforementioned unknown properties.
+
+=== PAGE 9 ===
+Chemosensors 2025, 13, 196
+9 of 12
+Figure 6. Scores of the PCAs conducted on the spectra of the species Borassus flabellifer (A) and
+Corypha umbraculifera (B) separately. The colouring indicates the country of origin and 95% confidence
+ellipses are drawn.
+In Figure 7, the loadings of the respective principal components are shown. Also,
+for the PCAs of spectra of individual species, relevant principal components, namely
+the fourth for the PCA of Borassus flabellifer and the first two for the PCA of the Corypha
+umbraculifera spectra, are mainly influenced by differences in bands at 2930–2850 cm−1,
+1736 cm−1, 1660–1592 cm−1 (only Borassus), 1175–1160 cm−1, and 1077–1035 cm−1 which
+can be attributed to differences in cellulose composition as described above. The reason
+for these differences could be due to different ageing, but also different treatment or
+degradation states of manuscripts.
+Figure 7. Loadings of the PCAs conducted on the spectra of the species Borassus flabellifer (A) and
+Corypha umbraculifera (B).
+
+=== PAGE 10 ===
+Chemosensors 2025, 13, 196
+10 of 12
+The results of this study demonstrate that manuscript-specific information from palm-
+leaf manuscripts can be obtained with DRIFTS. Furthermore, the chemometric analysis
+of the manuscript spectra proved that inherent spectral differences could be observed for
+the taxonomic species of the used palm and the geographical origin, although a complete
+separation of the analysed groups is not always possible. This clear separation could be
+achieved by focusing the evaluation on specific differences using supervised chemometric
+methods, such as PLS-DA [13], which were not applied here due to the small number of
+analysed manuscripts. However, meta information of the samples could be inaccurate or
+even incorrect, as there is no record of the exact course of the manuscript creation and
+whereabouts. The inclusion of modern samples, where this information is known for
+certain, would be promising to understand the obtained spectra of palm-leaf manuscripts.
+It should go without saying that the provenance is to be considered as a derived
+property, e.g., of environmental conditions or production methods. As these influences on
+this parameter are likely to be complex and diverse, it is not unexpected that the separation
+is not as straightforward for the provenance as for the taxonomic species. In general, we
+cannot rule out the possibility of seeing a separation in spectra that is due to some other,
+as yet unknown, influence that correlates with geographical origin.
+Although the variance found in the PCA can be attributed to species and geographical
+origin of the palm-leaf manuscript, there is additional variance in the spectra that cannot be
+explained by these characteristics and some effects may not be anticipated as there is little
+scientific knowledge in the field of palm-leaf material analysis. However, further variance
+is expected as there are various differences in the composition of manuscripts, for example
+due to different environmental/storage conditions, production processes, or the age of the
+manuscripts, which affect the spectra obtained.
+For other biological samples, it has been shown that different materials can be dis-
+tinguished on the basis of peak ratios in DRIFTS spectra [7]. Due to the complexity of
+the spectra, this is not possible for palm-leaf manuscripts and an analysis of the entire
+spectral fingerprint is necessary for classification. Future research is needed to validate
+this conclusion and confirm the results obtained here, as well as comparing or combining
+DRIFTS with other analytical methods for classification.
+4. Conclusions and Outlook
+In this study, we have shown that infrared spectroscopy (DRIFTS) combined with
+principal component analysis is indeed a promising approach for profiling palm-leaf
+manuscripts, as the obtained spectra contain manuscript-specific information. This makes
+it possible to distinguish the manuscripts according to the palm species used in their pro-
+duction and their geographical origin. It is likely that supervised chemometric approaches
+can make this distinction even clearer, which should be tested in a next step with spectra
+from a larger number of manuscripts. Thus, the work presented here lays the foundation
+for a new approach in codicology to classify palm-leaf manuscripts according to specific
+material properties, which could also be applied in a similar way to manuscripts made of
+other materials.
+Supplementary Materials: The following supporting information can be downloaded at: https:
+//www.mdpi.com/article/10.3390/chemosensors13060196/s1, Table S1: p-values of statistical t-tests;
+Figures S1–S4: Scores of the first four principal components of the PCA conducted on DRIFTS spectra
+of MS VI, MS VII, MS X, and MS XI; Figure S5: Two of three replicates of the DRIFTS spectra of dried
+lemongrass oil; Figure S6: Results of the PCA of all spectra.
+Author Contributions: L.F.V., S.S. and G.C. conceived and designed the experiments; N.H. and
+L.F.V. performed the experiments; L.F.V. and N.H. analysed the data; G.C. contributed expertise
+
+=== PAGE 11 ===
+Chemosensors 2025, 13, 196
+11 of 12
+and reviewed the paper; L.F.V. wrote the paper, S.S. supervised the project, acquired resources,
+and reviewed the paper. All authors have read and agreed to the published version of the manuscript.
+Funding: This research was funded by the Deutsche Forschungsgemeinschaft (DFG, German Re-
+search Foundation) under Germany‘s Excellence Strategy—EXC 2176 ‘Understanding Written Arte-
+facts: Material, Interaction and Transmission in Manuscript Cultures’, project no. 390893796. The re-
+search was conducted within the scope of the Centre for the Study of Manuscript Cultures (CSMC) at
+Universität Hamburg.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Data are available from the Research Data Repository, Universität
+Hamburg: https://doi.org/10.25592/uhhfdm.14421 (accessed on 23 May 2025) licensed under CC
+BY 4.0 (https://creativecommons.org/licenses/by/4.0/), (accessed on 23 May 2025).
+Acknowledgments: We would like to thank the CSMC Laboratory and especially Claudia Colini for
+providing expertise and additional DRIFTS spectra.
+Conflicts of Interest: The authors declare that they have no known competing financial interests or
+personal relationships that could have appeared to influence the work reported in this paper.
+Abbreviations
+The following abbreviations are used in this manuscript:
+ATR
+Attenuated Total Reflectance Spectroscopy
+CE
+Common Era
+CSMC
+Centre for the Study of Manuscript Cultures
+DRIFTS
+Diffuse Reflectance Infrared Fourier Transform Spectroscopy
+FTIR
+Fourier Transform Infrared Spectroscopy
+MS
+Manuscript
+PCA
+Principal Component Analysis
+SNV
+Standard Normal Variate
+References
+1.
+Ciotti, G. Notes for an Ontological Approach within Manuscript Studies: Object Oriented Ontology and the Pothi Manuscript
+Culture. In Exploring Written Artefacts: Objects, Methods, and Concepts; De Gruyter: Berlin, Germany; Boston, MA, USA, 2021;
+pp. 865–888. [CrossRef]
+2.
+Agrawal, O.P. Conservation of Manuscripts and Paintings of South-East Asia; Butterworths Series in Conservation and Museology;
+Butterworths: London, UK; Boston, MA, USA, 1984.
+3.
+Freeman, R. Turning Over Old Leaves: Palm Leaves Used in South Asian Manuscripts. Book Pap. Group Annu. 2005, 24, 99–102.
+4.
+Sharma, D.; Singh, M.R.; Dighe, B. Chromatographic Study on Traditional Natural Preservatives Used for Palm Leaf Manuscripts
+in India. Restaurator. Int. J. Preserv. Library Arch. Mater. 2018, 39, 249–264. [CrossRef]
+5.
+Liu, G.L.; Kazarian, S.G. Recent Advances and Applications to Cultural Heritage Using ATR-FTIR Spectroscopy and ATR-FTIR
+Spectroscopic Imaging. Analyst 2022, 147, 1777–1797. [CrossRef] [PubMed]
+6.
+Barnes, M.; Sulé-Suso, J.; Millett, J.; Roach, P. Fourier Transform Infrared Spectroscopy as a Non-Destructive Method for Analysing
+Herbarium Specimens. Biol. Lett. 2023, 19, 20220546. [CrossRef] [PubMed]
+7.
+Garside, P.; Wyeth, P. Identification of Cellulosic Fibres by FTIR Spectroscopy-Thread and Single Fibre Analysis by Attenuated
+Total Reflectance. Stud. Conserv. 2003, 48, 269–275. [CrossRef]
+8.
+Peets, P.; Kaupmees, K.; Vahur, S.; Leito, I. Reflectance FT-IR Spectroscopy as a Viable Option for Textile Fiber Identification.
+Herit. Sci. 2019, 7, 93. [CrossRef]
+9.
+Manfredi, M.; Barberis, E.; Rava, A.; Robotti, E.; Gosetti, F.; Marengo, E. Portable Diffuse Reflectance Infrared Fourier Transform
+(DRIFT) Technique for the Non-Invasive Identification of Canvas Ground: IR Spectra Reference Collection. Anal. Methods 2015,
+7, 2313–2322. [CrossRef]
+
+=== PAGE 12 ===
+Chemosensors 2025, 13, 196
+12 of 12
+10.
+Manfredi, M.; Barberis, E.; Aceto, M.; Marengo, E. Non-Invasive Characterization of Colorants by Portable Diffuse Reflectance
+Infrared Fourier Transform (DRIFT) Spectroscopy and Chemometrics. Spectrochim. Acta Part A Mol. Biomol. 2017, 181, 171–179.
+[CrossRef]
+11.
+Grzelec, M. Application of Attenuated Total Reflectance—Fourier Transform Infrared Spectroscopy—(ATR-FTIR) and Principal
+Component Analysis (PCA) in Identification of Copying Pencils on Different Paper Substrates. Herit. Sci. 2024, 12, 269. [CrossRef]
+12.
+Yu, C.; Zhang, M.; Song, X. Analysis of Two Different Inks and Application Techniques on Palm Leaf Manuscripts Through
+Non-Invasive Analysis. Restaurator. Int. J. Preserv. Libr. Arch. Mater. 2024, 45, 237–256. [CrossRef]
+13.
+Morais, C.L.M.; Lima, K.M.G.; Singh, M.; Martin, F.L. Tutorial: Multivariate Classification for Vibrational Spectroscopy in
+Biological Samples. Nat. Protoc. 2020, 15, 2143–2162. [CrossRef] [PubMed]
+14.
+Kokot, S.; Gilbert, C. Application of Drift Spectroscopy and Chemometrics to the Discrimination of Dye Mixtures Extracted from
+Fibres from Worn Clothing. Analyst 1994, 119, 671–676. [CrossRef]
+15.
+Workman, J. A Review of the Latest Research Applications Using FT-IR Spectroscopy. Adv. Infrared Spectrosc. Today’s Spectrosc.
+2024, 39, 22–28. [CrossRef]
+16.
+Xu, W.; Xia, J.; Min, S.; Xiong, Y. Fourier Transform Infrared Spectroscopy and Chemometrics for the Discrimination of Animal
+Fur Types. Spectrochim. Acta Part A Mol. Biomol. 2022, 274, 121034. [CrossRef]
+17.
+R-Core-Team.
+R: A Language and Environment for Statistical Computing;
+R Foundation for Statistical Computing: Vienna,
+Austria, 2022.
+18.
+Beleites, C.; Bonifacio, A.; Dahms, M.; Egert, B.; Fuller, S.; Gegzna, V.; Guliev, R.; Hanson, B.A.; Hermes, M.; Kammer, M.; et al.
+hyperSpec: A Package to Handle Hyperspectral Data Sets in R. 2024. Available online: https://r-hyperspec.github.io/hyperSpec
+(accessed on 23 May 2025) .
+19.
+Stevens, A.; Ramirez-Lopez, L. An Introduction to the Prospectr Package; R package Vignette. 2024. Available online: https:
+//antoinestevens.github.io/prospectr/ (accessed on 23 May 2025) .
+20.
+Reddy, K.O.; Guduri, B.R.; Rajulu, A.V. Structural Characterization and Tensile Properties of Borassus Fruit Fibers. J. Appl. Polym.
+Sci. 2009, 114, 603–611. [CrossRef]
+21.
+Yang, H.; Yan, R.; Chen, H.; Lee, D.H.; Zheng, C. Characteristics of Hemicellulose, Cellulose and Lignin Pyrolysis. Fuel 2007,
+86, 1781–1788. [CrossRef]
+22.
+Zhang, T.; Guo, M.; Cheng, L.; Li, X. Investigations on the Structure and Properties of Palm Leaf Sheath Fiber. Cellulose 2015,
+22, 1039–1051. [CrossRef]
+23.
+Bouramdane, Y.; Fellak, S.; El Mansouri, F.; Boukir, A. Impact of Natural Degradation on the Aged Lignocellulose Fibers of
+Moroccan Cedar Softwood: Structural Elucidation by Infrared Spectroscopy (ATR-FTIR) and X-ray Diffraction (XRD). Fermentation
+2022, 8, 698. [CrossRef]
+24.
+Chu, S.; Lin, L.; Tian, X. Evaluation of the Deterioration State of Historical Palm Leaf Manuscripts from Burma. Forests 2023,
+14, 1775. [CrossRef]
+25.
+Pandey, K.K. A Study of Chemical Structure of Soft and Hardwood and Wood Polymers by FTIR Spectroscopy. J. Appl. Polym.
+Sci. 1999, 71, 1969–1975. [CrossRef]
+26.
+Reddy, K.O.; Shukla, M.; Uma Maheswari, C.; Varada Rajulu, A. Mechanical and Physical Characterization of Sodium Hydroxide
+Treated Borassus Fruit Fibers. J. For. Res. 2012, 23, 667–674. [CrossRef]
+27.
+Spectral Database for Organic Compounds (SDBS). IR Spectrum.
+SDBS No.: 6790, RN 5392-40-5. Available online: https:
+//sdbs.db.aist.go.jp/CompoundLanding.aspx?sdbsno=6790 (accessed on 11 March 2025).
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+

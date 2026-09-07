@@ -1,0 +1,2756 @@
+[
+  {
+    "id": "https://openalex.org/W2616176538",
+    "doi": null,
+    "title": "Empowered Writing: Exorcistic and Apotropaic Rituals in Medieval China",
+    "display_name": "Empowered Writing: Exorcistic and Apotropaic Rituals in Medieval China",
+    "relevance_score": 178.73619,
+    "publication_year": 2014,
+    "publication_date": "2014-02-28",
+    "ids": {
+      "openalex": "https://openalex.org/W2616176538",
+      "mag": "2616176538"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:boris.unibe.ch:15681",
+      "is_oa": false,
+      "landing_page_url": "https://boris.unibe.ch/15681/",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401086",
+        "display_name": "Bern Open Repository and Information System (University of Bern)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I118564535",
+        "host_organization_name": "University of Bern",
+        "host_organization_lineage": [
+          "https://openalex.org/I118564535"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "Bumbacher, Stephan Peter (2012). Empowered Writing. Exorcistic and Apotropaic Rituals in Medieval China. St. Petersburg, FL, USA: Three Pines Press",
+      "raw_type": "info:eu-repo/semantics/book"
+    },
+    "type": "book",
+    "indexed_in": [],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5033630685",
+          "display_name": "Stephan Peter Bumbacher",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Stephan Peter Bumbacher",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5033630685"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 3.5202,
+    "has_fulltext": false,
+    "cited_by_count": 23,
+    "citation_normalized_percentile": {
+      "value": 0.94115187,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 98
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10893",
+      "display_name": "Chinese history and philosophy",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10893",
+        "display_name": "Chinese history and philosophy",
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11198",
+        "display_name": "Japanese History and Culture",
+        "score": 0.9797999858856201,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3316",
+          "display_name": "Cultural Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12785",
+        "display_name": "Hong Kong and Taiwan Politics",
+        "score": 0.9057000279426575,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.7679383754730225
+      },
+      {
+        "id": "https://openalex.org/keywords/china",
+        "display_name": "China",
+        "score": 0.7124574780464172
+      },
+      {
+        "id": "https://openalex.org/keywords/interpretation",
+        "display_name": "Interpretation (philosophy)",
+        "score": 0.7113022804260254
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.5420899987220764
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.5081024169921875
+      },
+      {
+        "id": "https://openalex.org/keywords/period",
+        "display_name": "Period (music)",
+        "score": 0.45756393671035767
+      },
+      {
+        "id": "https://openalex.org/keywords/ancient-history",
+        "display_name": "Ancient history",
+        "score": 0.3417699933052063
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.2921220064163208
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.22649997472763062
+      },
+      {
+        "id": "https://openalex.org/keywords/aesthetics",
+        "display_name": "Aesthetics",
+        "score": 0.14764168858528137
+      },
+      {
+        "id": "https://openalex.org/keywords/linguistics",
+        "display_name": "Linguistics",
+        "score": 0.12644779682159424
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.08678677678108215
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.7679383754730225
+      },
+      {
+        "id": "https://openalex.org/C191935318",
+        "wikidata": "https://www.wikidata.org/wiki/Q148",
+        "display_name": "China",
+        "level": 2,
+        "score": 0.7124574780464172
+      },
+      {
+        "id": "https://openalex.org/C527412718",
+        "wikidata": "https://www.wikidata.org/wiki/Q855395",
+        "display_name": "Interpretation (philosophy)",
+        "level": 2,
+        "score": 0.7113022804260254
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.5420899987220764
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.5081024169921875
+      },
+      {
+        "id": "https://openalex.org/C2781291010",
+        "wikidata": "https://www.wikidata.org/wiki/Q178580",
+        "display_name": "Period (music)",
+        "level": 2,
+        "score": 0.45756393671035767
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.3417699933052063
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.2921220064163208
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.22649997472763062
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.14764168858528137
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.12644779682159424
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.08678677678108215
+      }
+    ],
+    "mesh": [],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "pmh:oai:boris.unibe.ch:15681",
+        "is_oa": false,
+        "landing_page_url": "https://boris.unibe.ch/15681/",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401086",
+          "display_name": "Bern Open Repository and Information System (University of Bern)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I118564535",
+          "host_organization_name": "University of Bern",
+          "host_organization_lineage": [
+            "https://openalex.org/I118564535"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": "Bumbacher, Stephan Peter (2012). Empowered Writing. Exorcistic and Apotropaic Rituals in Medieval China. St. Petersburg, FL, USA: Three Pines Press",
+        "raw_type": "info:eu-repo/semantics/book"
+      },
+      {
+        "id": "pmh:oai:www.zora.uzh.ch:69799",
+        "is_oa": false,
+        "landing_page_url": "https://www.zora.uzh.ch/69799",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401281",
+          "display_name": "Zurich Open Repository and Archive (University of Zurich)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I202697423",
+          "host_organization_name": "University of Zurich",
+          "host_organization_lineage": [
+            "https://openalex.org/I202697423"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": "Bumbacher, Stephan Peter (2012). Empowered writing : exorcistic and apotropaic rituals in medieval China. St. Petersburg: Three Pines Press.",
+        "raw_type": "Monograph"
+      },
+      {
+        "id": "pmh:oai:aleph.bib-bvb.de:BVB01-028186841",
+        "is_oa": false,
+        "landing_page_url": "http://bvbr.bib-bvb.de:8991/F?func=service&amp;doc_library=BVB01&amp;local_base=BVB01&amp;doc_number=028186841&amp;sequence=000002&amp;line_number=0001&amp;func_code=DB_RECORDS&amp;service_type=MEDIA",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "text"
+      },
+      {
+        "id": "mag:2616176538",
+        "is_oa": false,
+        "landing_page_url": "https://bibliographie.uni-tuebingen.de/xmlui/handle/10900/104759",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.6200000047683716,
+        "id": "https://metadata.un.org/sdg/4",
+        "display_name": "Quality Education"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W1545504535",
+      "https://openalex.org/W413817332",
+      "https://openalex.org/W881378407",
+      "https://openalex.org/W818235713",
+      "https://openalex.org/W2252778735",
+      "https://openalex.org/W758626769",
+      "https://openalex.org/W654926195",
+      "https://openalex.org/W3083349543",
+      "https://openalex.org/W1583825036",
+      "https://openalex.org/W602169610",
+      "https://openalex.org/W837134675",
+      "https://openalex.org/W877738527",
+      "https://openalex.org/W2019051445",
+      "https://openalex.org/W2362915005",
+      "https://openalex.org/W574812515",
+      "https://openalex.org/W615390762",
+      "https://openalex.org/W2166697107",
+      "https://openalex.org/W2209359373",
+      "https://openalex.org/W3037233819",
+      "https://openalex.org/W2267110784"
+    ],
+    "abstract_inverted_index": {
+      "'Empowered": [
+        0
+      ],
+      "Writing'": [
+        1
+      ],
+      "explores": [
+        2
+      ],
+      "the": [
+        3,
+        31,
+        34,
+        42,
+        47,
+        52
+      ],
+      "inherent": [
+        4
+      ],
+      "powers": [
+        5
+      ],
+      "of": [
+        6,
+        18,
+        28,
+        38,
+        55
+      ],
+      "Chinese": [
+        7
+      ],
+      "talismans,": [
+        8
+      ],
+      "petitions,": [
+        9
+      ],
+      "registers,": [
+        10
+      ],
+      "and": [
+        11,
+        21,
+        36,
+        59,
+        70
+      ],
+      "holy": [
+        12
+      ],
+      "scriptures,": [
+        13
+      ],
+      "presenting": [
+        14
+      ],
+      "a": [
+        15,
+        25
+      ],
+      "systematic": [
+        16
+      ],
+      "study": [
+        17
+      ],
+      "their": [
+        19,
+        57
+      ],
+      "exorcistic": [
+        20
+      ],
+      "apotropaic": [
+        22
+      ],
+      "properties.": [
+        23
+      ],
+      "Using": [
+        24
+      ],
+      "vast": [
+        26
+      ],
+      "arsenal": [
+        27
+      ],
+      "original": [
+        29
+      ],
+      "sources,": [
+        30
+      ],
+      "book": [
+        32
+      ],
+      "traces": [
+        33
+      ],
+      "unfolding": [
+        35
+      ],
+      "transformation": [
+        37
+      ],
+      "empowered": [
+        39
+      ],
+      "writing": [
+        40
+      ],
+      "from": [
+        41
+      ],
+      "Warring": [
+        43
+      ],
+      "States": [
+        44
+      ],
+      "period": [
+        45
+      ],
+      "through": [
+        46
+      ],
+      "Six": [
+        48
+      ],
+      "Dynasties,": [
+        49
+      ],
+      "closely": [
+        50
+      ],
+      "examining": [
+        51
+      ],
+      "different": [
+        53
+      ],
+      "kinds": [
+        54
+      ],
+      "writing,": [
+        56
+      ],
+      "uses,": [
+        58
+      ],
+      "interpretation": [
+        60
+      ],
+      "as": [
+        61,
+        63
+      ],
+      "well": [
+        62
+      ],
+      "relating": [
+        64
+      ],
+      "uniquely": [
+        65
+      ],
+      "Daoist": [
+        66
+      ],
+      "features": [
+        67
+      ],
+      "to": [
+        68
+      ],
+      "imperial": [
+        69
+      ],
+      "Buddhist": [
+        71
+      ],
+      "usages.": [
+        72
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2014,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2013,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-26T07:47:46.906454",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W654926195",
+    "doi": null,
+    "title": "Living images : Japanese Buddhist icons in context",
+    "display_name": "Living images : Japanese Buddhist icons in context",
+    "relevance_score": 118.32476,
+    "publication_year": 2001,
+    "publication_date": "2001-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W654926195",
+      "mag": "654926195"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "mag:654926195",
+      "is_oa": false,
+      "landing_page_url": "https://ci.nii.ac.jp/ncid/BA55705621",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306463952",
+        "display_name": "Stanford University Press eBooks",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "ebook platform"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Stanford University Press eBooks",
+      "raw_type": null
+    },
+    "type": "book",
+    "indexed_in": [],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5047955377",
+          "display_name": "Robert H. Sharf",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Robert H. Sharf",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5088717591",
+          "display_name": "Elizabeth Horton Sharf",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Elizabeth Horton Sharf",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 11,
+    "citation_normalized_percentile": {
+      "value": 0.32171315,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 94
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11198",
+      "display_name": "Japanese History and Culture",
+      "score": 0.982699990272522,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11198",
+        "display_name": "Japanese History and Culture",
+        "score": 0.982699990272522,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3316",
+          "display_name": "Cultural Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10893",
+        "display_name": "Chinese history and philosophy",
+        "score": 0.9760000109672546,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.9225274324417114
+      },
+      {
+        "id": "https://openalex.org/keywords/piety",
+        "display_name": "Piety",
+        "score": 0.70011967420578
+      },
+      {
+        "id": "https://openalex.org/keywords/gautama-buddha",
+        "display_name": "Gautama Buddha",
+        "score": 0.6953111290931702
+      },
+      {
+        "id": "https://openalex.org/keywords/pure-land",
+        "display_name": "Pure land",
+        "score": 0.6730403900146484
+      },
+      {
+        "id": "https://openalex.org/keywords/context",
+        "display_name": "Context (archaeology)",
+        "score": 0.6387529373168945
+      },
+      {
+        "id": "https://openalex.org/keywords/sculpture",
+        "display_name": "Sculpture",
+        "score": 0.5475141406059265
+      },
+      {
+        "id": "https://openalex.org/keywords/worship",
+        "display_name": "Worship",
+        "score": 0.5429361462593079
+      },
+      {
+        "id": "https://openalex.org/keywords/painting",
+        "display_name": "Painting",
+        "score": 0.49514761567115784
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.46896401047706604
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.4409589171409607
+      },
+      {
+        "id": "https://openalex.org/keywords/spiritual-practice",
+        "display_name": "Spiritual practice",
+        "score": 0.43348607420921326
+      },
+      {
+        "id": "https://openalex.org/keywords/aesthetics",
+        "display_name": "Aesthetics",
+        "score": 0.42101752758026123
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.3793894052505493
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-studies",
+        "display_name": "Religious studies",
+        "score": 0.32880425453186035
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.2744264006614685
+      },
+      {
+        "id": "https://openalex.org/keywords/art-history",
+        "display_name": "Art history",
+        "score": 0.2579638361930847
+      },
+      {
+        "id": "https://openalex.org/keywords/spirituality",
+        "display_name": "Spirituality",
+        "score": 0.18226683139801025
+      },
+      {
+        "id": "https://openalex.org/keywords/theology",
+        "display_name": "Theology",
+        "score": 0.1202540397644043
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.10312241315841675
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.9225274324417114
+      },
+      {
+        "id": "https://openalex.org/C2778897741",
+        "wikidata": "https://www.wikidata.org/wiki/Q1411871",
+        "display_name": "Piety",
+        "level": 2,
+        "score": 0.70011967420578
+      },
+      {
+        "id": "https://openalex.org/C524757792",
+        "wikidata": "https://www.wikidata.org/wiki/Q9441",
+        "display_name": "Gautama Buddha",
+        "level": 3,
+        "score": 0.6953111290931702
+      },
+      {
+        "id": "https://openalex.org/C2778521100",
+        "wikidata": "https://www.wikidata.org/wiki/Q732344",
+        "display_name": "Pure land",
+        "level": 3,
+        "score": 0.6730403900146484
+      },
+      {
+        "id": "https://openalex.org/C2779343474",
+        "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+        "display_name": "Context (archaeology)",
+        "level": 2,
+        "score": 0.6387529373168945
+      },
+      {
+        "id": "https://openalex.org/C67805463",
+        "wikidata": "https://www.wikidata.org/wiki/Q11634",
+        "display_name": "Sculpture",
+        "level": 2,
+        "score": 0.5475141406059265
+      },
+      {
+        "id": "https://openalex.org/C2777222677",
+        "wikidata": "https://www.wikidata.org/wiki/Q2514663",
+        "display_name": "Worship",
+        "level": 2,
+        "score": 0.5429361462593079
+      },
+      {
+        "id": "https://openalex.org/C205783811",
+        "wikidata": "https://www.wikidata.org/wiki/Q11629",
+        "display_name": "Painting",
+        "level": 2,
+        "score": 0.49514761567115784
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.46896401047706604
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.4409589171409607
+      },
+      {
+        "id": "https://openalex.org/C2776519999",
+        "wikidata": "https://www.wikidata.org/wiki/Q2270606",
+        "display_name": "Spiritual practice",
+        "level": 4,
+        "score": 0.43348607420921326
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.42101752758026123
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.3793894052505493
+      },
+      {
+        "id": "https://openalex.org/C24667770",
+        "wikidata": "https://www.wikidata.org/wiki/Q34187",
+        "display_name": "Religious studies",
+        "level": 1,
+        "score": 0.32880425453186035
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.2744264006614685
+      },
+      {
+        "id": "https://openalex.org/C52119013",
+        "wikidata": "https://www.wikidata.org/wiki/Q50637",
+        "display_name": "Art history",
+        "level": 1,
+        "score": 0.2579638361930847
+      },
+      {
+        "id": "https://openalex.org/C514793146",
+        "wikidata": "https://www.wikidata.org/wiki/Q168796",
+        "display_name": "Spirituality",
+        "level": 3,
+        "score": 0.18226683139801025
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.1202540397644043
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.10312241315841675
+      },
+      {
+        "id": "https://openalex.org/C142724271",
+        "wikidata": "https://www.wikidata.org/wiki/Q7208",
+        "display_name": "Pathology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C204787440",
+        "wikidata": "https://www.wikidata.org/wiki/Q188504",
+        "display_name": "Alternative medicine",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "mag:654926195",
+        "is_oa": false,
+        "landing_page_url": "https://ci.nii.ac.jp/ncid/BA55705621",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306463952",
+          "display_name": "Stanford University Press eBooks",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "ebook platform"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": "Stanford University Press eBooks",
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.41999998688697815,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, Justice and strong institutions"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2166697107",
+      "https://openalex.org/W1602151047",
+      "https://openalex.org/W1557634773",
+      "https://openalex.org/W594208370",
+      "https://openalex.org/W3037233819",
+      "https://openalex.org/W563428907",
+      "https://openalex.org/W3168039454",
+      "https://openalex.org/W2267879336",
+      "https://openalex.org/W634296924",
+      "https://openalex.org/W2099792814",
+      "https://openalex.org/W811039692",
+      "https://openalex.org/W2341119660",
+      "https://openalex.org/W574812515",
+      "https://openalex.org/W1607438244",
+      "https://openalex.org/W2377749362",
+      "https://openalex.org/W3191407914",
+      "https://openalex.org/W627414905",
+      "https://openalex.org/W2293901023",
+      "https://openalex.org/W140576541",
+      "https://openalex.org/W2948396121"
+    ],
+    "abstract_inverted_index": {
+      "Buddhist": [
+        0,
+        16,
+        25,
+        107,
+        133,
+        286
+      ],
+      "images": [
+        1,
+        26,
+        55,
+        81,
+        130,
+        166,
+        210,
+        264
+      ],
+      "are": [
+        2,
+        8
+      ],
+      "ubiquitous": [
+        3
+      ],
+      "in": [
+        4,
+        13,
+        85,
+        91,
+        147,
+        168
+      ],
+      "Japan,": [
+        5
+      ],
+      "yet": [
+        6
+      ],
+      "they": [
+        7
+      ],
+      "rarely": [
+        9
+      ],
+      "accorded": [
+        10
+      ],
+      "much": [
+        11,
+        205
+      ],
+      "attention": [
+        12
+      ],
+      "studies": [
+        14
+      ],
+      "of": [
+        15,
+        20,
+        32,
+        36,
+        48,
+        58,
+        68,
+        71,
+        80,
+        102,
+        105,
+        129,
+        143,
+        171,
+        185,
+        188,
+        192,
+        224,
+        253,
+        296
+      ],
+      "monastic": [
+        17,
+        87,
+        287
+      ],
+      "traditions.": [
+        18
+      ],
+      "Scholars": [
+        19
+      ],
+      "religion": [
+        21
+      ],
+      "tend": [
+        22
+      ],
+      "to": [
+        23,
+        42,
+        230,
+        240
+      ],
+      "regard": [
+        24
+      ],
+      "as": [
+        27,
+        56,
+        204,
+        211,
+        238,
+        245,
+        274
+      ],
+      "mere": [
+        28
+      ],
+      "symbols": [
+        29
+      ],
+      "or": [
+        30,
+        45
+      ],
+      "representations": [
+        31,
+        184
+      ],
+      "religious": [
+        33
+      ],
+      "ideals,": [
+        34
+      ],
+      "commemorations": [
+        35
+      ],
+      "saints": [
+        37
+      ],
+      "and": [
+        38,
+        63,
+        78,
+        82,
+        99,
+        111,
+        135,
+        155,
+        159,
+        177,
+        196,
+        208,
+        270,
+        280,
+        283,
+        294
+      ],
+      "patriarchs,": [
+        39
+      ],
+      "ancillary": [
+        40
+      ],
+      "aids": [
+        41,
+        239
+      ],
+      "meditative": [
+        43
+      ],
+      "practice,": [
+        44
+      ],
+      "the": [
+        46,
+        76,
+        96,
+        124,
+        127,
+        140,
+        161,
+        169,
+        189,
+        213,
+        222,
+        251,
+        254,
+        259,
+        263,
+        292
+      ],
+      "focus": [
+        47,
+        94
+      ],
+      "lay": [
+        49
+      ],
+      "piety.": [
+        50
+      ],
+      "Art": [
+        51
+      ],
+      "historians": [
+        52
+      ],
+      "approach": [
+        53
+      ],
+      "these": [
+        54,
+        69,
+        297
+      ],
+      "works": [
+        57
+      ],
+      "art": [
+        59
+      ],
+      "suitable": [
+        60
+      ],
+      "for": [
+        61,
+        126
+      ],
+      "stylistic": [
+        62
+      ],
+      "iconographic": [
+        64
+      ],
+      "analysis.": [
+        65
+      ],
+      "Yet": [
+        66
+      ],
+      "neither": [
+        67
+      ],
+      "groups": [
+        70
+      ],
+      "scholars": [
+        72,
+        137
+      ],
+      "has": [
+        73
+      ],
+      "adequately": [
+        74
+      ],
+      "appreciated": [
+        75
+      ],
+      "centrality": [
+        77
+      ],
+      "significance": [
+        79
+      ],
+      "image": [
+        83
+      ],
+      "worship": [
+        84
+      ],
+      "Japanese": [
+        86,
+        106,
+        285
+      ],
+      "practice.": [
+        88
+      ],
+      "The": [
+        89,
+        150
+      ],
+      "essays": [
+        90,
+        151
+      ],
+      "this": [
+        92
+      ],
+      "volume": [
+        93
+      ],
+      "on": [
+        95,
+        206,
+        212,
+        221
+      ],
+      "historical,": [
+        97
+      ],
+      "institutional,": [
+        98
+      ],
+      "ritual": [
+        100,
+        241
+      ],
+      "context": [
+        101
+      ],
+      "a": [
+        103
+      ],
+      "number": [
+        104
+      ],
+      "paintings,": [
+        108
+      ],
+      "sculptures,": [
+        109
+      ],
+      "calligraphies,": [
+        110
+      ],
+      "relics": [
+        112
+      ],
+      "-": [
+        113
+      ],
+      "some": [
+        114
+      ],
+      "celebrated,": [
+        115
+      ],
+      "others": [
+        116
+      ],
+      "long": [
+        117
+      ],
+      "overlooked.": [
+        118
+      ],
+      "Robert": [
+        119,
+        217
+      ],
+      "H.": [
+        120,
+        218
+      ],
+      "Sharf's": [
+        121,
+        219
+      ],
+      "introduction": [
+        122
+      ],
+      "examines": [
+        123
+      ],
+      "reasons": [
+        125
+      ],
+      "marginalization": [
+        128
+      ],
+      "by": [
+        131,
+        152,
+        267
+      ],
+      "modern": [
+        132
+      ],
+      "apologists": [
+        134
+      ],
+      "Western": [
+        136
+      ],
+      "alike,": [
+        138,
+        273
+      ],
+      "tackling": [
+        139
+      ],
+      "thorny": [
+        141
+      ],
+      "question": [
+        142
+      ],
+      "whether": [
+        144
+      ],
+      "Buddhists": [
+        145
+      ],
+      "were": [
+        146,
+        235,
+        265
+      ],
+      "fact": [
+        148
+      ],
+      "idolators.": [
+        149
+      ],
+      "Paul": [
+        153
+      ],
+      "Groner": [
+        154
+      ],
+      "Karen": [
+        156
+      ],
+      "Brock": [
+        157
+      ],
+      "document": [
+        158
+      ],
+      "explicate": [
+        160
+      ],
+      "crucial": [
+        162
+      ],
+      "role": [
+        163
+      ],
+      "that": [
+        164,
+        198,
+        262,
+        284
+      ],
+      "sacred": [
+        165
+      ],
+      "played": [
+        167
+      ],
+      "lives": [
+        170
+      ],
+      "two": [
+        172
+      ],
+      "eminent": [
+        173
+      ],
+      "medieval": [
+        174
+      ],
+      "clerics,": [
+        175
+      ],
+      "Eison": [
+        176
+      ],
+      "Myoe.": [
+        178
+      ],
+      "James": [
+        179
+      ],
+      "Dobbins": [
+        180
+      ],
+      "looks": [
+        181
+      ],
+      "at": [
+        182
+      ],
+      "Shin": [
+        183,
+        190,
+        200
+      ],
+      "Shinran,": [
+        186
+      ],
+      "founder": [
+        187
+      ],
+      "school": [
+        191
+      ],
+      "Pure": [
+        193
+      ],
+      "Land": [
+        194
+      ],
+      "Buddhism,": [
+        195
+      ],
+      "finds": [
+        197
+      ],
+      "early": [
+        199
+      ],
+      "piety": [
+        201
+      ],
+      "was": [
+        202,
+        289
+      ],
+      "centered": [
+        203,
+        290
+      ],
+      "Shinran": [
+        207
+      ],
+      "his": [
+        209
+      ],
+      "Buddha": [
+        214
+      ],
+      "Amida": [
+        215
+      ],
+      "himself.": [
+        216
+      ],
+      "essay": [
+        220
+      ],
+      "use": [
+        223
+      ],
+      "Tantric": [
+        225
+      ],
+      "mandalas": [
+        226,
+        234
+      ],
+      "reveals": [
+        227
+      ],
+      "that,": [
+        228
+      ],
+      "contrary": [
+        229
+      ],
+      "received": [
+        231
+      ],
+      "opinion,": [
+        232
+      ],
+      "such": [
+        233
+      ],
+      "not": [
+        236
+      ],
+      "used": [
+        237
+      ],
+      "visualization": [
+        242
+      ],
+      "but": [
+        243
+      ],
+      "rather": [
+        244
+      ],
+      "vivified": [
+        246
+      ],
+      "entities": [
+        247
+      ],
+      "whose": [
+        248
+      ],
+      "presence": [
+        249
+      ],
+      "ensured": [
+        250
+      ],
+      "efficacy": [
+        252
+      ],
+      "rite.": [
+        255
+      ],
+      "In": [
+        256
+      ],
+      "each": [
+        257
+      ],
+      "case,": [
+        258
+      ],
+      "authors": [
+        260
+      ],
+      "find": [
+        261
+      ],
+      "treated,": [
+        266
+      ],
+      "elite": [
+        268
+      ],
+      "monks": [
+        269
+      ],
+      "unlettered": [
+        271
+      ],
+      "laypersons": [
+        272
+      ],
+      "living": [
+        275
+      ],
+      "presences": [
+        276
+      ],
+      "with": [
+        277
+      ],
+      "considerable": [
+        278
+      ],
+      "apotropaic": [
+        279
+      ],
+      "salvific": [
+        281
+      ],
+      "power,": [
+        282
+      ],
+      "life": [
+        288
+      ],
+      "around": [
+        291
+      ],
+      "management": [
+        293
+      ],
+      "veneration": [
+        295
+      ],
+      "numinous": [
+        298
+      ],
+      "beings.": [
+        299
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2019,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2014,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2012,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-06-11T09:08:48.828518",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W2969928794",
+    "doi": "https://doi.org/10.5281/zenodo.3238213",
+    "title": "The Aura of Buddhist Material Objects in the Age of Mass-Production",
+    "display_name": "The Aura of Buddhist Material Objects in the Age of Mass-Production",
+    "relevance_score": 102.53963,
+    "publication_year": 2019,
+    "publication_date": "2019-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2969928794",
+      "doi": "https://doi.org/10.5281/zenodo.3238213",
+      "mag": "2969928794"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "pmh:oai:pure.atira.dk:openaire_cris_publications/42971f7b-ba7a-4e95-90d2-75c9fde30d26",
+      "is_oa": true,
+      "landing_page_url": "https://curis.ku.dk/portal/da/publications/the-aura-of-buddhist-material-objects-in-the-age-of-massproduction(42971f7b-ba7a-4e95-90d2-75c9fde30d26).html",
+      "pdf_url": "https://curis.ku.dk/ws/files/225996522/Brox_2019_Aura_Buddhist_material_objects_mass_production.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401983",
+        "display_name": "Research at the University of Copenhagen (University of Copenhagen)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I124055696",
+        "host_organization_name": "University of Copenhagen",
+        "host_organization_lineage": [
+          "https://openalex.org/I124055696"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Brox , T 2019 , ' The Aura of Buddhist Material Objects in the Age of Mass-production ' , Journal of Global Buddhism , vol. 20 , pp. 105-125 . https://doi.org/10.5281/zenodo.3238213",
+      "raw_type": "article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "datacite",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://curis.ku.dk/ws/files/225996522/Brox_2019_Aura_Buddhist_material_objects_mass_production.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5032814153",
+          "display_name": "Trine Brox",
+          "orcid": "https://orcid.org/0000-0002-1158-7826"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I3131845690",
+            "display_name": "University of Cross River State",
+            "ror": "https://ror.org/012w5e784",
+            "country_code": "NG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I3131845690"
+            ]
+          }
+        ],
+        "countries": [
+          "NG"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Brox, Trine",
+        "raw_affiliation_strings": [
+          "Københavns Universitet, Faculty of Humanities, Department of Cross-Cultural and Regional Studies, DK"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Københavns Universitet, Faculty of Humanities, Department of Cross-Cultural and Regional Studies, DK",
+            "institution_ids": [
+              "https://openalex.org/I3131845690"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5032814153"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I3131845690"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 3.4802,
+    "has_fulltext": true,
+    "cited_by_count": 24,
+    "citation_normalized_percentile": {
+      "value": 0.93386335,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 99
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10893",
+      "display_name": "Chinese history and philosophy",
+      "score": 0.9714000225067139,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10893",
+        "display_name": "Chinese history and philosophy",
+        "score": 0.9714000225067139,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11846",
+        "display_name": "Cultural Heritage Management and Preservation",
+        "score": 0.9700000286102295,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1204",
+          "display_name": "Archeology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12890",
+        "display_name": "Eurasian Exchange Networks",
+        "score": 0.9695000052452087,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/aura",
+        "display_name": "Aura",
+        "score": 0.727584719657898
+      },
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.7156023979187012
+      },
+      {
+        "id": "https://openalex.org/keywords/production",
+        "display_name": "Production (economics)",
+        "score": 0.503424346446991
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.43565109372138977
+      },
+      {
+        "id": "https://openalex.org/keywords/geography",
+        "display_name": "Geography",
+        "score": 0.24597397446632385
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.1587214171886444
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.15660998225212097
+      },
+      {
+        "id": "https://openalex.org/keywords/economics",
+        "display_name": "Economics",
+        "score": 0.053344905376434326
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2777350023",
+        "wikidata": "https://www.wikidata.org/wiki/Q1154226",
+        "display_name": "Aura",
+        "level": 3,
+        "score": 0.727584719657898
+      },
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.7156023979187012
+      },
+      {
+        "id": "https://openalex.org/C2778348673",
+        "wikidata": "https://www.wikidata.org/wiki/Q739302",
+        "display_name": "Production (economics)",
+        "level": 2,
+        "score": 0.503424346446991
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.43565109372138977
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.24597397446632385
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.1587214171886444
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.15660998225212097
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.053344905376434326
+      },
+      {
+        "id": "https://openalex.org/C2778541695",
+        "wikidata": "https://www.wikidata.org/wiki/Q133823",
+        "display_name": "Migraine",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C139719470",
+        "wikidata": "https://www.wikidata.org/wiki/Q39680",
+        "display_name": "Macroeconomics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C118552586",
+        "wikidata": "https://www.wikidata.org/wiki/Q7867",
+        "display_name": "Psychiatry",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 5,
+    "locations": [
+      {
+        "id": "pmh:oai:pure.atira.dk:openaire_cris_publications/42971f7b-ba7a-4e95-90d2-75c9fde30d26",
+        "is_oa": true,
+        "landing_page_url": "https://curis.ku.dk/portal/da/publications/the-aura-of-buddhist-material-objects-in-the-age-of-massproduction(42971f7b-ba7a-4e95-90d2-75c9fde30d26).html",
+        "pdf_url": "https://curis.ku.dk/ws/files/225996522/Brox_2019_Aura_Buddhist_material_objects_mass_production.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306401983",
+          "display_name": "Research at the University of Copenhagen (University of Copenhagen)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I124055696",
+          "host_organization_name": "University of Copenhagen",
+          "host_organization_lineage": [
+            "https://openalex.org/I124055696"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Brox , T 2019 , ' The Aura of Buddhist Material Objects in the Age of Mass-production ' , Journal of Global Buddhism , vol. 20 , pp. 105-125 . https://doi.org/10.5281/zenodo.3238213",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:doi:10.5281/zenodo.3238212",
+        "is_oa": true,
+        "landing_page_url": "http://www.wikidata.org/entity/Q107249559",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4406922384",
+          "display_name": "Open MIND",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "JournalArticle"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:f067849bf74141a08c3532881c392b1f",
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/f067849bf74141a08c3532881c392b1f",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Journal of Global Buddhism, Vol 20 (2019)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:pure.atira.dk:publications/42971f7b-ba7a-4e95-90d2-75c9fde30d26",
+        "is_oa": true,
+        "landing_page_url": "https://researchprofiles.ku.dk/da/publications/42971f7b-ba7a-4e95-90d2-75c9fde30d26",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401983",
+          "display_name": "Research at the University of Copenhagen (University of Copenhagen)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I124055696",
+          "host_organization_name": "University of Copenhagen",
+          "host_organization_lineage": [
+            "https://openalex.org/I124055696"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Brox , T 2019 , ' The Aura of Buddhist Material Objects in the Age of Mass-production ' , Journal of Global Buddhism , vol. 20 , pp. 105-125 . https://doi.org/10.5281/zenodo.3238213",
+        "raw_type": "article"
+      },
+      {
+        "id": "doi:10.5281/zenodo.3238213",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5281/zenodo.3238213",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400562",
+          "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": "JournalArticle"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:pure.atira.dk:openaire_cris_publications/42971f7b-ba7a-4e95-90d2-75c9fde30d26",
+      "is_oa": true,
+      "landing_page_url": "https://curis.ku.dk/portal/da/publications/the-aura-of-buddhist-material-objects-in-the-age-of-massproduction(42971f7b-ba7a-4e95-90d2-75c9fde30d26).html",
+      "pdf_url": "https://curis.ku.dk/ws/files/225996522/Brox_2019_Aura_Buddhist_material_objects_mass_production.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401983",
+        "display_name": "Research at the University of Copenhagen (University of Copenhagen)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I124055696",
+        "host_organization_name": "University of Copenhagen",
+        "host_organization_lineage": [
+          "https://openalex.org/I124055696"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Brox , T 2019 , ' The Aura of Buddhist Material Objects in the Age of Mass-production ' , Journal of Global Buddhism , vol. 20 , pp. 105-125 . https://doi.org/10.5281/zenodo.3238213",
+      "raw_type": "article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.6800000071525574,
+        "id": "https://metadata.un.org/sdg/11",
+        "display_name": "Sustainable cities and communities"
+      }
+    ],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320322928",
+        "display_name": "Danmarks Frie Forskningsfond",
+        "ror": "https://ror.org/02sptwz63"
+      },
+      {
+        "id": "https://openalex.org/F4320323939",
+        "display_name": "Copenhagen Graduate School for Nanoscience and Nanotechnology",
+        "ror": "https://ror.org/035b05819"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2969928794.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2969928794.grobid-xml"
+    },
+    "referenced_works_count": 10,
+    "referenced_works": [
+      "https://openalex.org/W395942341",
+      "https://openalex.org/W636857955",
+      "https://openalex.org/W652343362",
+      "https://openalex.org/W1987204482",
+      "https://openalex.org/W1996751506",
+      "https://openalex.org/W2009400506",
+      "https://openalex.org/W2084391185",
+      "https://openalex.org/W2338938580",
+      "https://openalex.org/W2618094167",
+      "https://openalex.org/W2797870159"
+    ],
+    "related_works": [
+      "https://openalex.org/W4387497383",
+      "https://openalex.org/W3183948672",
+      "https://openalex.org/W3173606202",
+      "https://openalex.org/W3110381201",
+      "https://openalex.org/W2948807893",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2778153218",
+      "https://openalex.org/W2758277628",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W1531601525"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        17
+      ],
+      "article": [
+        1,
+        90
+      ],
+      "discusses": [
+        2
+      ],
+      "material": [
+        3,
+        59
+      ],
+      "religion": [
+        4
+      ],
+      "in": [
+        5,
+        21,
+        53,
+        71,
+        86,
+        96,
+        114
+      ],
+      "a": [
+        6,
+        82
+      ],
+      "commercial": [
+        7
+      ],
+      "setting": [
+        8
+      ],
+      "and": [
+        9,
+        40,
+        73,
+        117
+      ],
+      "sets": [
+        10
+      ],
+      "off": [
+        11
+      ],
+      "this": [
+        12
+      ],
+      "discussion": [
+        13
+      ],
+      "with": [
+        14
+      ],
+      "Walter": [
+        15
+      ],
+      "Benjamin's": [
+        16
+      ],
+      "Work": [
+        18
+      ],
+      "of": [
+        19,
+        24,
+        35,
+        44,
+        56,
+        121
+      ],
+      "Art": [
+        20
+      ],
+      "the": [
+        22,
+        42,
+        54,
+        89,
+        109
+      ],
+      "Age": [
+        23
+      ],
+      "Mechanical": [
+        25
+      ],
+      "Reproduction": [
+        26
+      ],
+      "(1936).": [
+        27
+      ],
+      "Benjamin": [
+        28
+      ],
+      "argues": [
+        29,
+        91
+      ],
+      "that": [
+        30,
+        92
+      ],
+      "mechanical": [
+        31
+      ],
+      "reproduction": [
+        32
+      ],
+      "emancipated": [
+        33
+      ],
+      "works": [
+        34
+      ],
+      "art": [
+        36
+      ],
+      "from": [
+        37
+      ],
+      "religious": [
+        38
+      ],
+      "rituals": [
+        39
+      ],
+      "evaporated": [
+        41
+      ],
+      "aura": [
+        43,
+        110
+      ],
+      "art.": [
+        45
+      ],
+      "This": [
+        46
+      ],
+      "has": [
+        47
+      ],
+      "resonance": [
+        48
+      ],
+      "among": [
+        49
+      ],
+      "some": [
+        50
+      ],
+      "Tibetan": [
+        51,
+        83
+      ],
+      "Buddhists": [
+        52
+      ],
+      "context": [
+        55
+      ],
+      "mass-produced": [
+        57
+      ],
+      "Buddhist": [
+        58,
+        84,
+        107
+      ],
+      "objects.": [
+        60
+      ],
+      "Are": [
+        61
+      ],
+      "such": [
+        62
+      ],
+      "objects": [
+        63,
+        94
+      ],
+      "fit": [
+        64
+      ],
+      "to": [
+        65,
+        106
+      ],
+      "be": [
+        66,
+        112
+      ],
+      "given": [
+        67
+      ],
+      "as": [
+        68
+      ],
+      "gifts,": [
+        69
+      ],
+      "implemented": [
+        70
+      ],
+      "rituals,": [
+        72
+      ],
+      "worshipped": [
+        74
+      ],
+      "on": [
+        75
+      ],
+      "altars?": [
+        76
+      ],
+      "Based": [
+        77
+      ],
+      "upon": [
+        78
+      ],
+      "ethnographic": [
+        79
+      ],
+      "work": [
+        80
+      ],
+      "at": [
+        81,
+        118
+      ],
+      "market": [
+        85
+      ],
+      "urban": [
+        87
+      ],
+      "China,": [
+        88
+      ],
+      "although": [
+        93
+      ],
+      "manufactured": [
+        95
+      ],
+      "factories": [
+        97
+      ],
+      "for": [
+        98
+      ],
+      "profit": [
+        99
+      ],
+      "are": [
+        100
+      ],
+      "not": [
+        101
+      ],
+      "made": [
+        102
+      ],
+      "or": [
+        103
+      ],
+      "handled": [
+        104
+      ],
+      "according": [
+        105
+      ],
+      "tradition,": [
+        108
+      ],
+      "can": [
+        111
+      ],
+      "produced": [
+        113
+      ],
+      "different": [
+        115,
+        119
+      ],
+      "ways": [
+        116
+      ],
+      "points": [
+        120
+      ],
+      "an": [
+        122
+      ],
+      "object's": [
+        123
+      ],
+      "life.": [
+        124
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-30T07:30:35.949966",
+    "created_date": "2025-10-10T00:00:00"
+  }
+]

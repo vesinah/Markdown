@@ -1,0 +1,64 @@
+﻿@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CRA8773EAC37E11787
+   a             bdo:AgentAsCreator ;
+   bdo:agent     bdr:P3CN26610 ;
+   bdo:role      bdr:R0ER0016 .
+
+bdr:WA3CN26522  a  bdo:Work ;
+   skos:altLabel  "bla ma bsten tshul tshigs su bcad pa lnga bcu pa'i rnam bshad dang rdo rje theg pa'i rtsa ltung bcu bzhi pa'i 'grel pa/ dam pa'i chos dgongs pa gcig pa'i rtsa gzhung gi mchan 'grel bcas/"@bo-x-ewts ;
+   skos:prefLabel  "bla ma lnga bcu pa'i rnam bshad dang rtsa ltung bcu bzhi pa'i 'grel pa sogs/"@bo-x-ewts ;
+   bdo:catalogInfo  "A detailed commentary on the gurupancashika, explaining the relationship between the guru and the disciple; also included commentary on Drikong Gongjik."@en ;
+   bdo:creator   bdr:CRA8773EAC37E11787 ;
+   bdo:language  bdr:LangBo ;
+   bdo:workGenre  bdr:T61 ;
+   bdo:workHasInstance  bdr:MW3CN26522 , bdr:W3CN26522 ;
+   bdo:workIsAbout  bdr:WA22925 ;
+   tmp:entityScore  2 .
+

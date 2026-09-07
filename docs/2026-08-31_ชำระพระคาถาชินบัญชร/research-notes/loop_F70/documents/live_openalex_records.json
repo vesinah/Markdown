@@ -1,0 +1,2173 @@
+[
+  {
+    "id": "https://openalex.org/W2925282756",
+    "doi": "https://doi.org/10.1556/062.2019.72.1.1",
+    "title": "Some Reflections on Translating the Pali Texts: Literary Conventions, Buddhist Thought, Cultural Background and Textual History",
+    "display_name": "Some Reflections on Translating the Pali Texts: Literary Conventions, Buddhist Thought, Cultural Background and Textual History",
+    "relevance_score": 37.34143,
+    "publication_year": 2019,
+    "publication_date": "2019-03-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2925282756",
+      "doi": "https://doi.org/10.1556/062.2019.72.1.1",
+      "mag": "2925282756"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1556/062.2019.72.1.1",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1556/062.2019.72.1.1",
+      "pdf_url": "https://akjournals.com/downloadpdf/journals/062/72/1/article-p1.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210229259",
+        "display_name": "Acta Orientalia",
+        "issn_l": "0001-6446",
+        "issn": [
+          "0001-6446",
+          "1588-2667"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320364",
+        "host_organization_name": "Akadémiai Kiadó",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320364",
+          "https://openalex.org/P4310318547"
+        ],
+        "host_organization_lineage_names": [
+          "Akadémiai Kiadó",
+          "Wolters Kluwer"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Acta Orientalia Academiae Scientiarum Hungaricae",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://akjournals.com/downloadpdf/journals/062/72/1/article-p1.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5058167970",
+          "display_name": "Tse-fu Kuan",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I99908691",
+            "display_name": "Yuan Ze University",
+            "ror": "https://ror.org/01fv1ds98",
+            "country_code": "TW",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I99908691"
+            ]
+          }
+        ],
+        "countries": [
+          "TW"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Tse-fu Kuan",
+        "raw_affiliation_strings": [
+          "College of General Studies, Yuan Ze University135 Yuan-Tung Road, Chung-Li, Taoyuan, Taiwan"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of General Studies, Yuan Ze University135 Yuan-Tung Road, Chung-Li, Taoyuan, Taiwan",
+            "institution_ids": [
+              "https://openalex.org/I99908691"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5058167970"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I99908691"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.0439837,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "72",
+      "issue": "1",
+      "first_page": "1",
+      "last_page": "23"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10893",
+      "display_name": "Chinese history and philosophy",
+      "score": 0.9951000213623047,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10893",
+        "display_name": "Chinese history and philosophy",
+        "score": 0.9951000213623047,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.9940000176429749,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13073",
+        "display_name": "China's Ethnic Minorities and Relations",
+        "score": 0.9894999861717224,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.8778330683708191
+      },
+      {
+        "id": "https://openalex.org/keywords/philology",
+        "display_name": "Philology",
+        "score": 0.6784908771514893
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.649046778678894
+      },
+      {
+        "id": "https://openalex.org/keywords/relation",
+        "display_name": "Relation (database)",
+        "score": 0.6259154081344604
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.570871114730835
+      },
+      {
+        "id": "https://openalex.org/keywords/style",
+        "display_name": "Style (visual arts)",
+        "score": 0.5487537980079651
+      },
+      {
+        "id": "https://openalex.org/keywords/linguistics",
+        "display_name": "Linguistics",
+        "score": 0.4781932830810547
+      },
+      {
+        "id": "https://openalex.org/keywords/history-of-literature",
+        "display_name": "History of literature",
+        "score": 0.41527605056762695
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.34608596563339233
+      },
+      {
+        "id": "https://openalex.org/keywords/sociology",
+        "display_name": "Sociology",
+        "score": 0.2029440701007843
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.17714789509773254
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.14237689971923828
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.08913424611091614
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.8778330683708191
+      },
+      {
+        "id": "https://openalex.org/C23987474",
+        "wikidata": "https://www.wikidata.org/wiki/Q40634",
+        "display_name": "Philology",
+        "level": 3,
+        "score": 0.6784908771514893
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.649046778678894
+      },
+      {
+        "id": "https://openalex.org/C25343380",
+        "wikidata": "https://www.wikidata.org/wiki/Q277521",
+        "display_name": "Relation (database)",
+        "level": 2,
+        "score": 0.6259154081344604
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.570871114730835
+      },
+      {
+        "id": "https://openalex.org/C2776445246",
+        "wikidata": "https://www.wikidata.org/wiki/Q1792644",
+        "display_name": "Style (visual arts)",
+        "level": 2,
+        "score": 0.5487537980079651
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.4781932830810547
+      },
+      {
+        "id": "https://openalex.org/C171533372",
+        "wikidata": "https://www.wikidata.org/wiki/Q6497044",
+        "display_name": "History of literature",
+        "level": 2,
+        "score": 0.41527605056762695
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.34608596563339233
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.2029440701007843
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.17714789509773254
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.14237689971923828
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.08913424611091614
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C77088390",
+        "wikidata": "https://www.wikidata.org/wiki/Q8513",
+        "display_name": "Database",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C2777688943",
+        "wikidata": "https://www.wikidata.org/wiki/Q3092681",
+        "display_name": "Feminism",
+        "level": 2,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1556/062.2019.72.1.1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1556/062.2019.72.1.1",
+        "pdf_url": "https://akjournals.com/downloadpdf/journals/062/72/1/article-p1.pdf",
+        "source": {
+          "id": "https://openalex.org/S4210229259",
+          "display_name": "Acta Orientalia",
+          "issn_l": "0001-6446",
+          "issn": [
+            "0001-6446",
+            "1588-2667"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320364",
+          "host_organization_name": "Akadémiai Kiadó",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320364",
+            "https://openalex.org/P4310318547"
+          ],
+          "host_organization_lineage_names": [
+            "Akadémiai Kiadó",
+            "Wolters Kluwer"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Acta Orientalia Academiae Scientiarum Hungaricae",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:real.mtak.hu:94470",
+        "is_oa": false,
+        "landing_page_url": "http://real.mtak.hu/94470/1/062.2019.72.1.1.pdf",
+        "pdf_url": "http://real.mtak.hu/94470/1/062.2019.72.1.1.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306400081",
+          "display_name": "Repository of the Academy's Library (Library of the Hungarian Academy of Sciences)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4210140733",
+          "host_organization_name": "Library and Information Centre of the Hungarian Academy of Sciences",
+          "host_organization_lineage": [
+            "https://openalex.org/I4210140733"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1556/062.2019.72.1.1",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1556/062.2019.72.1.1",
+      "pdf_url": "https://akjournals.com/downloadpdf/journals/062/72/1/article-p1.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210229259",
+        "display_name": "Acta Orientalia",
+        "issn_l": "0001-6446",
+        "issn": [
+          "0001-6446",
+          "1588-2667"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320364",
+        "host_organization_name": "Akadémiai Kiadó",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320364",
+          "https://openalex.org/P4310318547"
+        ],
+        "host_organization_lineage_names": [
+          "Akadémiai Kiadó",
+          "Wolters Kluwer"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Acta Orientalia Academiae Scientiarum Hungaricae",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/4",
+        "score": 0.7599999904632568,
+        "display_name": "Quality Education"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2925282756.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2925282756.grobid-xml"
+    },
+    "referenced_works_count": 34,
+    "referenced_works": [
+      "https://openalex.org/W565024911",
+      "https://openalex.org/W636189156",
+      "https://openalex.org/W1487422533",
+      "https://openalex.org/W1510590049",
+      "https://openalex.org/W1512966171",
+      "https://openalex.org/W1533907017",
+      "https://openalex.org/W1539247954",
+      "https://openalex.org/W1549145840",
+      "https://openalex.org/W1594948703",
+      "https://openalex.org/W1973264916",
+      "https://openalex.org/W1998228795",
+      "https://openalex.org/W2025791124",
+      "https://openalex.org/W2045177841",
+      "https://openalex.org/W2099239499",
+      "https://openalex.org/W2126083326",
+      "https://openalex.org/W2163310872",
+      "https://openalex.org/W2177870530",
+      "https://openalex.org/W2317642480",
+      "https://openalex.org/W2323323467",
+      "https://openalex.org/W2411781020",
+      "https://openalex.org/W2592924331",
+      "https://openalex.org/W2617242690",
+      "https://openalex.org/W2798811602",
+      "https://openalex.org/W2894558485",
+      "https://openalex.org/W2913311757",
+      "https://openalex.org/W2916511269",
+      "https://openalex.org/W3201594258",
+      "https://openalex.org/W4210700018",
+      "https://openalex.org/W4238913164",
+      "https://openalex.org/W4251049881",
+      "https://openalex.org/W4285719527",
+      "https://openalex.org/W4296022863",
+      "https://openalex.org/W6604080892",
+      "https://openalex.org/W6691583807"
+    ],
+    "related_works": [
+      "https://openalex.org/W3091243805",
+      "https://openalex.org/W2385082606",
+      "https://openalex.org/W3098347898",
+      "https://openalex.org/W2394419880",
+      "https://openalex.org/W2393259408",
+      "https://openalex.org/W2351789338",
+      "https://openalex.org/W2391783754",
+      "https://openalex.org/W1531629596",
+      "https://openalex.org/W2366757496",
+      "https://openalex.org/W3197822606"
+    ],
+    "abstract_inverted_index": {
+      "For": [
+        0
+      ],
+      "over": [
+        1
+      ],
+      "a": [
+        2
+      ],
+      "century": [
+        3
+      ],
+      "many": [
+        4
+      ],
+      "Buddhist": [
+        5,
+        90
+      ],
+      "texts": [
+        6
+      ],
+      "in": [
+        7,
+        26,
+        47
+      ],
+      "Pali": [
+        8,
+        32,
+        49,
+        82
+      ],
+      "have": [
+        9,
+        23
+      ],
+      "been": [
+        10,
+        24
+      ],
+      "translated": [
+        11
+      ],
+      "into": [
+        12
+      ],
+      "English,": [
+        13
+      ],
+      "the": [
+        14,
+        42,
+        58,
+        81
+      ],
+      "four": [
+        15,
+        55
+      ],
+      "main": [
+        16
+      ],
+      "Nikāyas": [
+        17
+      ],
+      "at": [
+        18
+      ],
+      "least": [
+        19
+      ],
+      "twice.": [
+        20
+      ],
+      "Significant": [
+        21
+      ],
+      "improvements": [
+        22
+      ],
+      "made": [
+        25
+      ],
+      "regard": [
+        27
+      ],
+      "to": [
+        28,
+        72,
+        75,
+        79
+      ],
+      "English": [
+        29
+      ],
+      "translations": [
+        30
+      ],
+      "of": [
+        31,
+        57
+      ],
+      "texts.": [
+        33,
+        50
+      ],
+      "This": [
+        34
+      ],
+      "paper": [
+        35
+      ],
+      "provides": [
+        36
+      ],
+      "five": [
+        37
+      ],
+      "case": [
+        38
+      ],
+      "studies": [
+        39
+      ],
+      "that": [
+        40
+      ],
+      "illustrate": [
+        41
+      ],
+      "problems": [
+        43,
+        77
+      ],
+      "and": [
+        44,
+        67,
+        92
+      ],
+      "complexities": [
+        45
+      ],
+      "involved": [
+        46
+      ],
+      "translating": [
+        48,
+        80
+      ],
+      "Examples": [
+        51
+      ],
+      "are": [
+        52,
+        63
+      ],
+      "taken": [
+        53
+      ],
+      "from": [
+        54
+      ],
+      "suttas": [
+        56
+      ],
+      "Aṅguttara": [
+        59
+      ],
+      "Nikāya.": [
+        60
+      ],
+      "Various": [
+        61
+      ],
+      "issues": [
+        62
+      ],
+      "addressed": [
+        64
+      ],
+      "using": [
+        65
+      ],
+      "textual": [
+        66
+      ],
+      "contextualised": [
+        68
+      ],
+      "analyses.": [
+        69
+      ],
+      "I": [
+        70
+      ],
+      "attempt": [
+        71
+      ],
+      "offer": [
+        73
+      ],
+      "solutions": [
+        74
+      ],
+      "some": [
+        76
+      ],
+      "related": [
+        78
+      ],
+      "through": [
+        83
+      ],
+      "different": [
+        84
+      ],
+      "approaches,": [
+        85
+      ],
+      "including": [
+        86
+      ],
+      "style,": [
+        87
+      ],
+      "philology,": [
+        88
+      ],
+      "history,": [
+        89
+      ],
+      "thought": [
+        91
+      ],
+      "inter-religious": [
+        93
+      ],
+      "relation.": [
+        94
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4301057535",
+    "doi": "https://doi.org/10.1558/bsrv.v22i2.14020",
+    "title": "Some Pali Discourses in the Light of Their Chinese Parallels Part Two",
+    "display_name": "Some Pali Discourses in the Light of Their Chinese Parallels Part Two",
+    "relevance_score": 30.81646,
+    "publication_year": 2005,
+    "publication_date": "2005-05-21",
+    "ids": {
+      "openalex": "https://openalex.org/W4301057535",
+      "doi": "https://doi.org/10.1558/bsrv.v22i2.14020"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1558/bsrv.v22i2.14020",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1558/bsrv.v22i2.14020",
+      "pdf_url": "https://journal.equinoxpub.com/BSR/article/download/14020/16248",
+      "source": {
+        "id": "https://openalex.org/S139284966",
+        "display_name": "Buddhist Studies Review",
+        "issn_l": "0265-2897",
+        "issn": [
+          "0265-2897",
+          "1747-9681"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320355",
+        "host_organization_name": "Equinox Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320355"
+        ],
+        "host_organization_lineage_names": [
+          "Equinox Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Buddhist Studies Review",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://journal.equinoxpub.com/BSR/article/download/14020/16248",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5018904820",
+          "display_name": "Anālayo",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Anālayo",
+        "raw_affiliation_strings": [
+          "Bodhi Monastery"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Bodhi Monastery",
+            "institution_ids": []
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5018904820"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.73371712,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 94
+    },
+    "biblio": {
+      "volume": "22",
+      "issue": "2",
+      "first_page": "93",
+      "last_page": "105"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13122",
+      "display_name": "Linguistics and Cultural Studies",
+      "score": 0.9783999919891357,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1203",
+        "display_name": "Language and Linguistics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13122",
+        "display_name": "Linguistics and Cultural Studies",
+        "score": 0.9783999919891357,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1203",
+          "display_name": "Language and Linguistics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12768",
+        "display_name": "Linguistics and language evolution",
+        "score": 0.9369000196456909,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1203",
+          "display_name": "Language and Linguistics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10893",
+        "display_name": "Chinese history and philosophy",
+        "score": 0.9010999798774719,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/parallels",
+        "display_name": "Parallels",
+        "score": 0.9722208976745605
+      },
+      {
+        "id": "https://openalex.org/keywords/literature",
+        "display_name": "Literature",
+        "score": 0.40703484416007996
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.3892987072467804
+      },
+      {
+        "id": "https://openalex.org/keywords/art",
+        "display_name": "Art",
+        "score": 0.16760656237602234
+      },
+      {
+        "id": "https://openalex.org/keywords/economics",
+        "display_name": "Economics",
+        "score": 0.0876757800579071
+      },
+      {
+        "id": "https://openalex.org/keywords/operations-management",
+        "display_name": "Operations management",
+        "score": 0.04456806182861328
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2775922551",
+        "wikidata": "https://www.wikidata.org/wiki/Q7135033",
+        "display_name": "Parallels",
+        "level": 2,
+        "score": 0.9722208976745605
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.40703484416007996
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.3892987072467804
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.16760656237602234
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.0876757800579071
+      },
+      {
+        "id": "https://openalex.org/C21547014",
+        "wikidata": "https://www.wikidata.org/wiki/Q1423657",
+        "display_name": "Operations management",
+        "level": 1,
+        "score": 0.04456806182861328
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1558/bsrv.v22i2.14020",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1558/bsrv.v22i2.14020",
+        "pdf_url": "https://journal.equinoxpub.com/BSR/article/download/14020/16248",
+        "source": {
+          "id": "https://openalex.org/S139284966",
+          "display_name": "Buddhist Studies Review",
+          "issn_l": "0265-2897",
+          "issn": [
+            "0265-2897",
+            "1747-9681"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320355",
+          "host_organization_name": "Equinox Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320355"
+          ],
+          "host_organization_lineage_names": [
+            "Equinox Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Buddhist Studies Review",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1558/bsrv.v22i2.14020",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1558/bsrv.v22i2.14020",
+      "pdf_url": "https://journal.equinoxpub.com/BSR/article/download/14020/16248",
+      "source": {
+        "id": "https://openalex.org/S139284966",
+        "display_name": "Buddhist Studies Review",
+        "issn_l": "0265-2897",
+        "issn": [
+          "0265-2897",
+          "1747-9681"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320355",
+        "host_organization_name": "Equinox Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320355"
+        ],
+        "host_organization_lineage_names": [
+          "Equinox Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Buddhist Studies Review",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4301057535.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4301057535.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2277794996",
+      "https://openalex.org/W1964879957",
+      "https://openalex.org/W2504593154",
+      "https://openalex.org/W2005046750",
+      "https://openalex.org/W2808752767",
+      "https://openalex.org/W2807806191",
+      "https://openalex.org/W4210798000",
+      "https://openalex.org/W2483115497",
+      "https://openalex.org/W2972509380"
+    ],
+    "abstract_inverted_index": {
+      ".": [
+        0
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2014,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-05-21T06:26:12.895304",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4214876201",
+    "doi": "https://doi.org/10.1163/ej.9789004181595.i-372",
+    "title": "Early Buddhist Transmission and Trade Networks",
+    "display_name": "Early Buddhist Transmission and Trade Networks",
+    "relevance_score": 24.982622,
+    "publication_year": 2011,
+    "publication_date": "2011-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4214876201",
+      "doi": "https://doi.org/10.1163/ej.9789004181595.i-372"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1163/ej.9789004181595.i-372",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1163/ej.9789004181595.i-372",
+      "pdf_url": "https://brill.com/downloadpdf/title/18172.pdf",
+      "source": null,
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "monograph"
+    },
+    "type": "book",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://brill.com/downloadpdf/title/18172.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5077783606",
+          "display_name": "Jason Neelis",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Jason Neelis",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5077783606"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 11.2808,
+    "has_fulltext": true,
+    "cited_by_count": 136,
+    "citation_normalized_percentile": {
+      "value": 0.98464164,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 100
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11563",
+      "display_name": "Indian and Buddhist Studies",
+      "score": 0.9958000183105469,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11563",
+        "display_name": "Indian and Buddhist Studies",
+        "score": 0.9958000183105469,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12890",
+        "display_name": "Eurasian Exchange Networks",
+        "score": 0.9957000017166138,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10893",
+        "display_name": "Chinese history and philosophy",
+        "score": 0.9937000274658203,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/buddhism",
+        "display_name": "Buddhism",
+        "score": 0.9564254283905029
+      },
+      {
+        "id": "https://openalex.org/keywords/indus",
+        "display_name": "Indus",
+        "score": 0.7594976425170898
+      },
+      {
+        "id": "https://openalex.org/keywords/tarim-basin",
+        "display_name": "Tarim basin",
+        "score": 0.5904257297515869
+      },
+      {
+        "id": "https://openalex.org/keywords/south-asia",
+        "display_name": "South asia",
+        "score": 0.5622511506080627
+      },
+      {
+        "id": "https://openalex.org/keywords/ancient-history",
+        "display_name": "Ancient history",
+        "score": 0.5322204828262329
+      },
+      {
+        "id": "https://openalex.org/keywords/cultural-transmission-in-animals",
+        "display_name": "Cultural transmission in animals",
+        "score": 0.5010619163513184
+      },
+      {
+        "id": "https://openalex.org/keywords/transmission",
+        "display_name": "Transmission (telecommunications)",
+        "score": 0.4530276656150818
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.4445299208164215
+      },
+      {
+        "id": "https://openalex.org/keywords/geography",
+        "display_name": "Geography",
+        "score": 0.42781662940979004
+      },
+      {
+        "id": "https://openalex.org/keywords/structural-basin",
+        "display_name": "Structural basin",
+        "score": 0.34392207860946655
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.2529619336128235
+      },
+      {
+        "id": "https://openalex.org/keywords/geology",
+        "display_name": "Geology",
+        "score": 0.22180962562561035
+      },
+      {
+        "id": "https://openalex.org/keywords/engineering",
+        "display_name": "Engineering",
+        "score": 0.1380297839641571
+      },
+      {
+        "id": "https://openalex.org/keywords/paleontology",
+        "display_name": "Paleontology",
+        "score": 0.12672734260559082
+      },
+      {
+        "id": "https://openalex.org/keywords/telecommunications",
+        "display_name": "Telecommunications",
+        "score": 0.09925311803817749
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C75699723",
+        "wikidata": "https://www.wikidata.org/wiki/Q748",
+        "display_name": "Buddhism",
+        "level": 2,
+        "score": 0.9564254283905029
+      },
+      {
+        "id": "https://openalex.org/C9836676",
+        "wikidata": "https://www.wikidata.org/wiki/Q10450",
+        "display_name": "Indus",
+        "level": 3,
+        "score": 0.7594976425170898
+      },
+      {
+        "id": "https://openalex.org/C2994520453",
+        "wikidata": "https://www.wikidata.org/wiki/Q216622",
+        "display_name": "Tarim basin",
+        "level": 2,
+        "score": 0.5904257297515869
+      },
+      {
+        "id": "https://openalex.org/C3019281177",
+        "wikidata": "https://www.wikidata.org/wiki/Q771405",
+        "display_name": "South asia",
+        "level": 2,
+        "score": 0.5622511506080627
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.5322204828262329
+      },
+      {
+        "id": "https://openalex.org/C32433346",
+        "wikidata": "https://www.wikidata.org/wiki/Q3007160",
+        "display_name": "Cultural transmission in animals",
+        "level": 2,
+        "score": 0.5010619163513184
+      },
+      {
+        "id": "https://openalex.org/C761482",
+        "wikidata": "https://www.wikidata.org/wiki/Q118093",
+        "display_name": "Transmission (telecommunications)",
+        "level": 2,
+        "score": 0.4530276656150818
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.4445299208164215
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.42781662940979004
+      },
+      {
+        "id": "https://openalex.org/C109007969",
+        "wikidata": "https://www.wikidata.org/wiki/Q749565",
+        "display_name": "Structural basin",
+        "level": 2,
+        "score": 0.34392207860946655
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.2529619336128235
+      },
+      {
+        "id": "https://openalex.org/C127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "level": 0,
+        "score": 0.22180962562561035
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.1380297839641571
+      },
+      {
+        "id": "https://openalex.org/C151730666",
+        "wikidata": "https://www.wikidata.org/wiki/Q7205",
+        "display_name": "Paleontology",
+        "level": 1,
+        "score": 0.12672734260559082
+      },
+      {
+        "id": "https://openalex.org/C76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "level": 1,
+        "score": 0.09925311803817749
+      },
+      {
+        "id": "https://openalex.org/C54355233",
+        "wikidata": "https://www.wikidata.org/wiki/Q7162",
+        "display_name": "Genetics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1163/ej.9789004181595.i-372",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1163/ej.9789004181595.i-372",
+        "pdf_url": "https://brill.com/downloadpdf/title/18172.pdf",
+        "source": null,
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": null,
+        "raw_type": "monograph"
+      },
+      {
+        "id": "pmh:oai:directory.doabooks.org:20.500.12854/28969",
+        "is_oa": true,
+        "landing_page_url": "https://library.oapen.org/handle/20.500.12657/38155",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400539",
+          "display_name": "Directory of Open access Books (OAPEN Foundation)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4387153118",
+          "host_organization_name": "OAPEN Foundation",
+          "host_organization_lineage": [
+            "https://openalex.org/I4387153118"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:doab-books:21663",
+        "is_oa": true,
+        "landing_page_url": "https://www.doabooks.org/doab?func=search&query=rid:21663",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400539",
+          "display_name": "Directory of Open access Books (OAPEN Foundation)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4387153118",
+          "host_organization_name": "OAPEN Foundation",
+          "host_organization_lineage": [
+            "https://openalex.org/I4387153118"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "book"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1163/ej.9789004181595.i-372",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1163/ej.9789004181595.i-372",
+      "pdf_url": "https://brill.com/downloadpdf/title/18172.pdf",
+      "source": null,
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "monograph"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320310009",
+        "display_name": "University of Florida",
+        "ror": "https://ror.org/02y3ad647"
+      },
+      {
+        "id": "https://openalex.org/F4320310094",
+        "display_name": "University of Washington",
+        "ror": "https://ror.org/00cvxb145"
+      },
+      {
+        "id": "https://openalex.org/F4320320273",
+        "display_name": "University of Cambridge",
+        "ror": "https://ror.org/013meh722"
+      },
+      {
+        "id": "https://openalex.org/F4320320279",
+        "display_name": "University of Warwick",
+        "ror": "https://ror.org/01a77tt86"
+      },
+      {
+        "id": "https://openalex.org/F4320320290",
+        "display_name": "University of Oxford",
+        "ror": "https://ror.org/052gg0110"
+      },
+      {
+        "id": "https://openalex.org/F4320320933",
+        "display_name": "Rijksuniversiteit Groningen",
+        "ror": "https://ror.org/012p63287"
+      },
+      {
+        "id": "https://openalex.org/F4320328288",
+        "display_name": "École française d'Extrême-Orient",
+        "ror": "https://ror.org/00fmnpw63"
+      },
+      {
+        "id": "https://openalex.org/F4320334646",
+        "display_name": "School of Oriental and African Studies, University of London",
+        "ror": "https://ror.org/04vrxay34"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4214876201.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4214876201.grobid-xml"
+    },
+    "referenced_works_count": 272,
+    "referenced_works": [
+      "https://openalex.org/W16058559",
+      "https://openalex.org/W34718554",
+      "https://openalex.org/W192313724",
+      "https://openalex.org/W244013304",
+      "https://openalex.org/W264237419",
+      "https://openalex.org/W264593844",
+      "https://openalex.org/W353376688",
+      "https://openalex.org/W355475011",
+      "https://openalex.org/W365854977",
+      "https://openalex.org/W375562241",
+      "https://openalex.org/W384672423",
+      "https://openalex.org/W402222590",
+      "https://openalex.org/W417637024",
+      "https://openalex.org/W417813770",
+      "https://openalex.org/W424891924",
+      "https://openalex.org/W563057827",
+      "https://openalex.org/W564216880",
+      "https://openalex.org/W564544115",
+      "https://openalex.org/W568573742",
+      "https://openalex.org/W572168573",
+      "https://openalex.org/W572759656",
+      "https://openalex.org/W573211547",
+      "https://openalex.org/W575365774",
+      "https://openalex.org/W577105878",
+      "https://openalex.org/W578213663",
+      "https://openalex.org/W592021308",
+      "https://openalex.org/W593480521",
+      "https://openalex.org/W594551431",
+      "https://openalex.org/W597375656",
+      "https://openalex.org/W598735679",
+      "https://openalex.org/W610279761",
+      "https://openalex.org/W610869636",
+      "https://openalex.org/W611289548",
+      "https://openalex.org/W614989820",
+      "https://openalex.org/W616247390",
+      "https://openalex.org/W620619929",
+      "https://openalex.org/W624924832",
+      "https://openalex.org/W625712576",
+      "https://openalex.org/W628556446",
+      "https://openalex.org/W628774144",
+      "https://openalex.org/W629089708",
+      "https://openalex.org/W629276415",
+      "https://openalex.org/W629833885",
+      "https://openalex.org/W631381071",
+      "https://openalex.org/W633085968",
+      "https://openalex.org/W633789543",
+      "https://openalex.org/W636010071",
+      "https://openalex.org/W636676054",
+      "https://openalex.org/W638808177",
+      "https://openalex.org/W641413738",
+      "https://openalex.org/W642705808",
+      "https://openalex.org/W645523018",
+      "https://openalex.org/W646162083",
+      "https://openalex.org/W648543649",
+      "https://openalex.org/W649127541",
+      "https://openalex.org/W650445453",
+      "https://openalex.org/W650476983",
+      "https://openalex.org/W652252999",
+      "https://openalex.org/W655039458",
+      "https://openalex.org/W655250964",
+      "https://openalex.org/W656226481",
+      "https://openalex.org/W833711962",
+      "https://openalex.org/W923942343",
+      "https://openalex.org/W1486564020",
+      "https://openalex.org/W1501674867",
+      "https://openalex.org/W1507636162",
+      "https://openalex.org/W1510308034",
+      "https://openalex.org/W1520501027",
+      "https://openalex.org/W1522486268",
+      "https://openalex.org/W1529273212",
+      "https://openalex.org/W1534854237",
+      "https://openalex.org/W1542825453",
+      "https://openalex.org/W1545075532",
+      "https://openalex.org/W1546266133",
+      "https://openalex.org/W1549680647",
+      "https://openalex.org/W1557108586",
+      "https://openalex.org/W1558492104",
+      "https://openalex.org/W1562036088",
+      "https://openalex.org/W1563343321",
+      "https://openalex.org/W1564685458",
+      "https://openalex.org/W1565609513",
+      "https://openalex.org/W1568391256",
+      "https://openalex.org/W1569139564",
+      "https://openalex.org/W1570889756",
+      "https://openalex.org/W1571697151",
+      "https://openalex.org/W1580065788",
+      "https://openalex.org/W1585666857",
+      "https://openalex.org/W1586905824",
+      "https://openalex.org/W1589120521",
+      "https://openalex.org/W1598027694",
+      "https://openalex.org/W1606242329",
+      "https://openalex.org/W1607196316",
+      "https://openalex.org/W1608447152",
+      "https://openalex.org/W1844020637",
+      "https://openalex.org/W1964665421",
+      "https://openalex.org/W1968698340",
+      "https://openalex.org/W1970060284",
+      "https://openalex.org/W1970716774",
+      "https://openalex.org/W1972280444",
+      "https://openalex.org/W1976429785",
+      "https://openalex.org/W1978420075",
+      "https://openalex.org/W1979112630",
+      "https://openalex.org/W1990360121",
+      "https://openalex.org/W2002230250",
+      "https://openalex.org/W2005221488",
+      "https://openalex.org/W2005333345",
+      "https://openalex.org/W2020554187",
+      "https://openalex.org/W2020565677",
+      "https://openalex.org/W2025979215",
+      "https://openalex.org/W2030566000",
+      "https://openalex.org/W2035155598",
+      "https://openalex.org/W2039023096",
+      "https://openalex.org/W2039394383",
+      "https://openalex.org/W2053322655",
+      "https://openalex.org/W2054019352",
+      "https://openalex.org/W2060895773",
+      "https://openalex.org/W2061531706",
+      "https://openalex.org/W2062148781",
+      "https://openalex.org/W2062702981",
+      "https://openalex.org/W2064132205",
+      "https://openalex.org/W2065425060",
+      "https://openalex.org/W2066497416",
+      "https://openalex.org/W2068909750",
+      "https://openalex.org/W2069651682",
+      "https://openalex.org/W2070772123",
+      "https://openalex.org/W2071305392",
+      "https://openalex.org/W2071423365",
+      "https://openalex.org/W2071639065",
+      "https://openalex.org/W2078872442",
+      "https://openalex.org/W2080100237",
+      "https://openalex.org/W2080416264",
+      "https://openalex.org/W2084391185",
+      "https://openalex.org/W2085519161",
+      "https://openalex.org/W2091931732",
+      "https://openalex.org/W2094382040",
+      "https://openalex.org/W2096139573",
+      "https://openalex.org/W2099599054",
+      "https://openalex.org/W2109340231",
+      "https://openalex.org/W2116016199",
+      "https://openalex.org/W2123594125",
+      "https://openalex.org/W2123616808",
+      "https://openalex.org/W2124987283",
+      "https://openalex.org/W2126254120",
+      "https://openalex.org/W2130148830",
+      "https://openalex.org/W2134580597",
+      "https://openalex.org/W2150092164",
+      "https://openalex.org/W2153466114",
+      "https://openalex.org/W2155504899",
+      "https://openalex.org/W2168456364",
+      "https://openalex.org/W2242315574",
+      "https://openalex.org/W2291371911",
+      "https://openalex.org/W2304216130",
+      "https://openalex.org/W2315042320",
+      "https://openalex.org/W2315118535",
+      "https://openalex.org/W2315904056",
+      "https://openalex.org/W2316825733",
+      "https://openalex.org/W2319444988",
+      "https://openalex.org/W2321313015",
+      "https://openalex.org/W2323629597",
+      "https://openalex.org/W2323986523",
+      "https://openalex.org/W2325464122",
+      "https://openalex.org/W2326995734",
+      "https://openalex.org/W2327184089",
+      "https://openalex.org/W2329003026",
+      "https://openalex.org/W2329574694",
+      "https://openalex.org/W2330131976",
+      "https://openalex.org/W2331797854",
+      "https://openalex.org/W2332261824",
+      "https://openalex.org/W2334088101",
+      "https://openalex.org/W2346295315",
+      "https://openalex.org/W2403069434",
+      "https://openalex.org/W2407851081",
+      "https://openalex.org/W2467303533",
+      "https://openalex.org/W2467932082",
+      "https://openalex.org/W2473389993",
+      "https://openalex.org/W2474695666",
+      "https://openalex.org/W2497669535",
+      "https://openalex.org/W2500921076",
+      "https://openalex.org/W2502595336",
+      "https://openalex.org/W2521999324",
+      "https://openalex.org/W2522926689",
+      "https://openalex.org/W2599406940",
+      "https://openalex.org/W2602056722",
+      "https://openalex.org/W2607065671",
+      "https://openalex.org/W2729752455",
+      "https://openalex.org/W2748301177",
+      "https://openalex.org/W2764408819",
+      "https://openalex.org/W2764678302",
+      "https://openalex.org/W2766150092",
+      "https://openalex.org/W2788026501",
+      "https://openalex.org/W2789507049",
+      "https://openalex.org/W2790850032",
+      "https://openalex.org/W2791002384",
+      "https://openalex.org/W2796324596",
+      "https://openalex.org/W2797508585",
+      "https://openalex.org/W2896695354",
+      "https://openalex.org/W2970494787",
+      "https://openalex.org/W2971741774",
+      "https://openalex.org/W3006604838",
+      "https://openalex.org/W3023581023",
+      "https://openalex.org/W3081366475",
+      "https://openalex.org/W3124016464",
+      "https://openalex.org/W3135218506",
+      "https://openalex.org/W3147205149",
+      "https://openalex.org/W3148418848",
+      "https://openalex.org/W3150997267",
+      "https://openalex.org/W3195087537",
+      "https://openalex.org/W4211234963",
+      "https://openalex.org/W4230525517",
+      "https://openalex.org/W4230631973",
+      "https://openalex.org/W4230898137",
+      "https://openalex.org/W4231374999",
+      "https://openalex.org/W4234756908",
+      "https://openalex.org/W4235588569",
+      "https://openalex.org/W4236764710",
+      "https://openalex.org/W4238825128",
+      "https://openalex.org/W4240971584",
+      "https://openalex.org/W4241900814",
+      "https://openalex.org/W4243575065",
+      "https://openalex.org/W4245715871",
+      "https://openalex.org/W4248181793",
+      "https://openalex.org/W4252484481",
+      "https://openalex.org/W4254443230",
+      "https://openalex.org/W4255545774",
+      "https://openalex.org/W4256594260",
+      "https://openalex.org/W4299739388",
+      "https://openalex.org/W4300008643",
+      "https://openalex.org/W4300879980",
+      "https://openalex.org/W4301354831",
+      "https://openalex.org/W4301944321",
+      "https://openalex.org/W4385181068",
+      "https://openalex.org/W4385865124",
+      "https://openalex.org/W4396885071",
+      "https://openalex.org/W6600137497",
+      "https://openalex.org/W6603884271",
+      "https://openalex.org/W6605776923",
+      "https://openalex.org/W6608232388",
+      "https://openalex.org/W6609695149",
+      "https://openalex.org/W6610521760",
+      "https://openalex.org/W6621658513",
+      "https://openalex.org/W6629130659",
+      "https://openalex.org/W6631350437",
+      "https://openalex.org/W6631849087",
+      "https://openalex.org/W6635268280",
+      "https://openalex.org/W6635370177",
+      "https://openalex.org/W6644353411",
+      "https://openalex.org/W6650185964",
+      "https://openalex.org/W6701045136",
+      "https://openalex.org/W6728075743",
+      "https://openalex.org/W6743386622",
+      "https://openalex.org/W6743547281",
+      "https://openalex.org/W6766242777",
+      "https://openalex.org/W6788575290",
+      "https://openalex.org/W6793372837",
+      "https://openalex.org/W6813934098",
+      "https://openalex.org/W6817463676",
+      "https://openalex.org/W6817654380",
+      "https://openalex.org/W6837458493",
+      "https://openalex.org/W6845745914",
+      "https://openalex.org/W6872766819",
+      "https://openalex.org/W6926118122",
+      "https://openalex.org/W6959410152",
+      "https://openalex.org/W6979793784",
+      "https://openalex.org/W7006260816",
+      "https://openalex.org/W7010725558",
+      "https://openalex.org/W7014825550",
+      "https://openalex.org/W7017946111",
+      "https://openalex.org/W7023780641",
+      "https://openalex.org/W7042972643",
+      "https://openalex.org/W7061462097",
+      "https://openalex.org/W7075279198",
+      "https://openalex.org/W7075304063"
+    ],
+    "related_works": [
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2343844329",
+      "https://openalex.org/W2177103305",
+      "https://openalex.org/W1985366797",
+      "https://openalex.org/W2562970871",
+      "https://openalex.org/W2484117595",
+      "https://openalex.org/W2020384055",
+      "https://openalex.org/W2480528885",
+      "https://openalex.org/W2492439520",
+      "https://openalex.org/W4214876201"
+    ],
+    "abstract_inverted_index": {
+      "In": [
+        0
+      ],
+      "his": [
+        1
+      ],
+      "earlier": [
+        2
+      ],
+      "article,": [
+        3
+      ],
+      "Heitzman": [
+        4
+      ],
+      "defines": [
+        5
+      ],
+      "an": [
+        6
+      ],
+      "early": [
+        7
+      ],
+      "Buddhist": [
+        8,
+        24
+      ],
+      "monastic": [
+        9
+      ],
+      "site": [
+        10
+      ],
+      "as": [
+        11
+      ],
+      "a": [
+        12
+      ],
+      "place": [
+        13
+      ],
+      "with": [
+        14
+      ],
+      "structural": [
+        15
+      ],
+      "remains": [
+        16,
+        44
+      ],
+      "of": [
+        17,
+        32,
+        39,
+        45
+      ],
+      "stpas,": [
+        18
+      ],
+      "caityas,": [
+        19
+      ],
+      "monasteries,": [
+        20
+      ],
+      "or": [
+        21
+      ],
+      "temples": [
+        22
+      ],
+      "for": [
+        23
+      ],
+      "images": [
+        25
+      ],
+      "(122),": [
+        26
+      ],
+      "but": [
+        27
+      ],
+      "the": [
+        28,
+        37,
+        51
+      ],
+      "architecture": [
+        29
+      ],
+      "and": [
+        30,
+        41
+      ],
+      "layout": [
+        31
+      ],
+      "monasteries": [
+        33
+      ],
+      "only": [
+        34
+      ],
+      "developed": [
+        35
+      ],
+      "after": [
+        36
+      ],
+      "period": [
+        38
+      ],
+      "Aoka,": [
+        40
+      ],
+      "most": [
+        42
+      ],
+      "archaeological": [
+        43
+      ],
+      "vihras": [
+        46
+      ],
+      "do": [
+        47
+      ],
+      "not": [
+        48
+      ],
+      "date": [
+        49
+      ],
+      "before": [
+        50
+      ],
+      "first": [
+        52
+      ],
+      "cen-": [
+        53
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 28
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 38
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2014,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2013,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2012,
+        "cited_by_count": 4
+      }
+    ],
+    "updated_date": "2026-08-25T07:29:55.448023",
+    "created_date": "2022-03-05T00:00:00"
+  }
+]

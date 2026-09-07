@@ -1,0 +1,250 @@
+{
+    "@graph": [
+        {
+            "@id": "bdr:CR4EF2E4C444A3B2C5",
+            "role": {
+                "@id": "bdr:R0ER0015"
+            },
+            "agent": {
+                "@id": "bdr:P560"
+            },
+            "@type": "AgentAsCreator"
+        },
+        {
+            "@id": "bdr:NTF705289B634F1985",
+            "noteText": {
+                "@language": "en",
+                "@value": "-4680"
+            },
+            "@type": "Note"
+        },
+        {
+            "@id": "bdr:EVF2E473A851732309",
+            "onYear": {
+                "@value": "2004",
+                "@type": "xsd:gYear"
+            },
+            "eventWhen": {
+                "@value": "2004",
+                "@type": "http://id.loc.gov/datatypes/edtf/EDTF"
+            },
+            "@type": "PublishedEvent"
+        },
+        {
+            "@id": "bdr:TT7FB132CDB9DD3994",
+            "rdfs:label": {
+                "@language": "bo-x-ewts",
+                "@value": "rgyud sde kun btus/ （glog klad par ma/）"
+            },
+            "@type": "Title"
+        },
+        {
+            "@id": "bdr:MW27883",
+            "hasPart": [
+                {
+                    "@id": "bdr:MW27883_82D662"
+                },
+                {
+                    "@id": "bdr:MW27883_6B266D"
+                },
+                {
+                    "@id": "bdr:MW27883_BB1556"
+                },
+                {
+                    "@id": "bdr:MW27883_9060D8"
+                },
+                {
+                    "@id": "bdr:MW27883_3F2B8F"
+                },
+                {
+                    "@id": "bdr:MW27883_360654"
+                },
+                {
+                    "@id": "bdr:MW27883_6D26DF"
+                },
+                {
+                    "@id": "bdr:MW27883_ACB30F"
+                },
+                {
+                    "@id": "bdr:MW27883_C80604"
+                },
+                {
+                    "@id": "bdr:MW27883_6F3C64"
+                },
+                {
+                    "@id": "bdr:MW27883_B51C91"
+                },
+                {
+                    "@id": "bdr:MW27883_A1932A"
+                },
+                {
+                    "@id": "bdr:MW27883_7FFC27"
+                },
+                {
+                    "@id": "bdr:MW27883_726DA0"
+                },
+                {
+                    "@id": "bdr:MW27883_C25D70"
+                },
+                {
+                    "@id": "bdr:MW27883_E3301C"
+                },
+                {
+                    "@id": "bdr:MW27883_5A0687"
+                },
+                {
+                    "@id": "bdr:MW27883_9FF306"
+                },
+                {
+                    "@id": "bdr:MW27883_E73931"
+                },
+                {
+                    "@id": "bdr:MW27883_7FE991"
+                },
+                {
+                    "@id": "bdr:MW27883_1DA14C"
+                },
+                {
+                    "@id": "bdr:MW27883_FEB0F4"
+                },
+                {
+                    "@id": "bdr:MW27883_CA61FB"
+                },
+                {
+                    "@id": "bdr:MW27883_CCF51E"
+                },
+                {
+                    "@id": "bdr:MW27883_A58017"
+                },
+                {
+                    "@id": "bdr:MW27883_A41D07"
+                },
+                {
+                    "@id": "bdr:MW27883_CD8E5C"
+                },
+                {
+                    "@id": "bdr:MW27883_914A46"
+                },
+                {
+                    "@id": "bdr:MW27883_C56DD3"
+                },
+                {
+                    "@id": "bdr:MW27883_130A13"
+                },
+                {
+                    "@id": "bdr:MW27883_06BB34"
+                },
+                {
+                    "@id": "bdr:MW27883_2B962A"
+                }
+            ],
+            "instanceOf": {
+                "@id": "bdr:WA21295"
+            },
+            "note": {
+                "@id": "bdr:NTF705289B634F1985"
+            },
+            "extentStatement": "32 v.",
+            "creator": {
+                "@id": "bdr:CR4EF2E4C444A3B2C5"
+            },
+            "instanceHasReproduction": [
+                {
+                    "@id": "bdr:IE0OPI45CA9DB4"
+                },
+                {
+                    "@id": "bdr:W27883"
+                }
+            ],
+            "script": {
+                "@id": "bdr:ScriptTibt"
+            },
+            "publisherLocation": {
+                "@language": "en",
+                "@value": "kathmandu"
+            },
+            "bf:identifiedBy": [
+                {
+                    "@id": "bdr:IDBD2F074C7FFB1838"
+                },
+                {
+                    "@id": "bdr:ID10ACF226FB1CEF7A"
+                }
+            ],
+            "skos:prefLabel": {
+                "@language": "bo-x-ewts",
+                "@value": "rgyud sde kun btus/ （glog klad par ma/）"
+            },
+            "numberOfVolumes": {
+                "@value": "32",
+                "@type": "xsd:integer"
+            },
+            "hasTitle": {
+                "@id": "bdr:TT7FB132CDB9DD3994"
+            },
+            "tmp:thumbnailIIIFService": {
+                "@id": "https://iiif.bdrc.io/bdr:I4649::46490003.tif"
+            },
+            "instanceEvent": {
+                "@id": "bdr:EVF2E473A851732309"
+            },
+            "@type": "Instance",
+            "publisherName": {
+                "@language": "en",
+                "@value": "sachen international, guru lama"
+            },
+            "hasOutline": {
+                "@id": "bdr:O1GS40148"
+            }
+        }
+    ],
+    "@context": {
+        "aut": "http://purl.bdrc.io/ontology/ext/auth/",
+        "bdan": "http://purl.bdrc.io/annotation/",
+        "bf": "http://id.loc.gov/ontologies/bibframe/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "tbr": "http://purl.bdrc.io/ontology/toberemoved/",
+        "bdou": "http://purl.bdrc.io/ontology/ext/user/",
+        "rsh": "http://purl.bdrc.io/shacl/core/shape/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "bdac": "http://purl.bdrc.io/anncollection/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "wd": "http://www.wikidata.org/entity/",
+        "srcpe": "https://sakyaresearch.org/persons/",
+        "oa": "http://www.w3.org/ns/oa#",
+        "bdgup": "http://purl.bdrc.io/graph-nc/user-private/",
+        "mbbt": "http://mbingenheimer.net/tools/bibls/",
+        "dila": "http://purl.dila.edu.tw/resource/",
+        "sh": "http://www.w3.org/ns/shacl#",
+        "tmp": "http://purl.bdrc.io/ontology/tmp/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "text": "http://jena.apache.org/text#",
+        "bda": "http://purl.bdrc.io/admindata/",
+        "bdgu": "http://purl.bdrc.io/graph-nc/user/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "bdg": "http://purl.bdrc.io/graph/",
+        "ola": "https://openlibrary.org/authors/",
+        "srct": "https://sakyaresearch.org/topics/",
+        "f": "java:io.bdrc.libraries.sparql.functions.",
+        "srcpl": "https://sakyaresearch.org/places/",
+        "adm": "http://purl.bdrc.io/ontology/admin/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "bdo": "http://purl.bdrc.io/ontology/core/",
+        "iiif2": "http://iiif.io/api/presentation/2#",
+        "adr": "http://purl.bdrc.io/resource-nc/auth/",
+        "iiif3": "http://iiif.io/api/presentation/3#",
+        "viaf": "http://viaf.org/viaf/",
+        "bds": "http://purl.bdrc.io/ontology/shapes/core/",
+        "eftr": "http://purl.84000.co/resource/core/",
+        "bdr": "http://purl.bdrc.io/resource/",
+        "as": "http://www.w3.org/ns/activitystreams#",
+        "bdu": "http://purl.bdrc.io/resource-nc/user/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "srcd": "https://sakyaresearch.org/deities/",
+        "ldp": "http://www.w3.org/ns/ldp#",
+        "srcs": "https://sakyaresearch.org/sources/",
+        "srcl": "https://sakyaresearch.org/literary_forms/",
+        "@vocab": "http://purl.bdrc.io/ontology/core/"
+    }
+}

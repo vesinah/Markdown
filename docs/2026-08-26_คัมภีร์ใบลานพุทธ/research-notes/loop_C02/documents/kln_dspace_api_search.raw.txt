@@ -1,0 +1,440 @@
+{
+  "id" : null,
+  "scope" : null,
+  "query" : "division of labour palm leaf",
+  "appliedFilters" : null,
+  "sort" : null,
+  "configuration" : null,
+  "type" : "discover",
+  "_links" : {
+    "self" : {
+      "href" : "http://repository.kln.ac.lk/server/api/discover/search/objects?query=division%2520of%2520labour%2520palm%2520leaf"
+    }
+  },
+  "_embedded" : {
+    "searchResult" : {
+      "_embedded" : {
+        "objects" : [ {
+          "hitHighlights" : {
+            "dc.description.abstract" : [ " documentation and discussion regarding the various art, tools, technological aspects, and <em>labour</em> involvement of the <em>palm-leaf</em> manuscript creation process. More specifically, the preparation of the manuscripts, the decorative aspects, the finishing touches", " of skilled craftsmen such as ironsmiths, blacksmiths and carpenters. <em>Palm-leaf</em> manuscript must be consisted of four components: wooden boards (pot kambā), written <em>palm</em> leaves (pat iruwa), string (huya) and the ornament attached to the string (sakiyā" ],
+            "dc.title" : [ "The <em>division</em> of <em>labour</em> involvement is an ultimate result of the production of <em>palm</em> <em>leaf</em> manuscripts? In relation to the Sri Lankan <em>palm</em> <em>leaf</em> manuscripts" ]
+          },
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "http://repository.kln.ac.lk/server/api/core/items/bf03b4d6-edac-4915-841e-3b0c3f06625c"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "bf03b4d6-edac-4915-841e-3b0c3f06625c",
+              "uuid" : "bf03b4d6-edac-4915-841e-3b0c3f06625c",
+              "name" : "The division of labour involvement is an ultimate result of the production of palm leaf manuscripts? In relation to the Sri Lankan palm leaf manuscripts",
+              "handle" : "123456789/27420",
+              "metadata" : {
+                "dc.contributor.author" : [ {
+                  "value" : "Alahakoon, Champa N. K.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.accessioned" : [ {
+                  "value" : "2024-01-19T07:26:03Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.available" : [ {
+                  "value" : "2024-01-19T07:26:03Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2023",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.description.abstract" : [ {
+                  "value" : "The traditions of writing on palm-leaves in Ceylon began in the 1st century AD, making a highly successful period. However, these materials couldn’t be used in their natural state for writing and required preparation involving the collaboration of skilled craftsmen such as ironsmiths, blacksmiths and carpenters. Palm-leaf manuscript must be consisted of four components: wooden boards (pot kambā), written palm leaves (pat iruwa), string (huya) and the ornament attached to the string (sakiyā). In order to complete these four components, the support of many people is needed. Creating palm-leaf manuscript was a complex skill to master, unlike modern printing of exercise books. This study aimed to explore the Production of Palm-Leaf manuscripts and the intricate labour Division process. The desk research method was utilised with existing documents and previous research over a particular topic. Through this study, it was tried to collect the information from the beginning of preparation of palmleaves and the internal labour contribution until the completion of manuscripts by considering the labour force, equipment, arts and skills that were used to preparing the palm-leaves for writing purposes. According to the published literature, attention has primarily given to the preservation of palm-leaf, the act of writing, their characteristics, available collections, catalogues of palm-leaf manuscripts, and the temples and locations where these manuscripts are stored. However, there is a dearth of writing documentation and discussion regarding the various art, tools, technological aspects, and labour involvement of the palm-leaf manuscript creation process. More specifically, the preparation of the manuscripts, the decorative aspects, the finishing touches, and the diverse roles of artisans and labourers in the production process also have been highlighted as areas that lacked sufficient documentation and discussion. Through this research, a more comprehensive understanding of the rich tradition of palmleaf manuscript production in the country was pursued.",
+                  "language" : "en_US",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.citation" : [ {
+                  "value" : "Alahakoon Champa N. K. (2023), The division of labour involvement is an ultimate result of the production of palm leaf manuscripts? In relation to the Sri Lankan palm leaf manuscripts, Proceeding of the first Desk Research Conference of the Library of the University of Kelaniya (DRC 2023), Department of Industrial Management, The Library, University of Kelaniya, Sri Lanka",
+                  "language" : "en_US",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://repository.kln.ac.lk/handle/123456789/27420",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.publisher" : [ {
+                  "value" : "The Library, University of Kelaniya, Sri Lanka",
+                  "language" : "en_US",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.subject" : [ {
+                  "value" : "Palm-leaf Manuscripts, Division of Labour, Creative Process of Palm-leaves, Skills, Technical Process",
+                  "language" : "en_US",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "The division of labour involvement is an ultimate result of the production of palm leaf manuscripts? In relation to the Sri Lankan palm leaf manuscripts",
+                  "language" : "en_US",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2025-07-14T15:12:54.828+00:00",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/bf03b4d6-edac-4915-841e-3b0c3f06625c/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/bf03b4d6-edac-4915-841e-3b0c3f06625c/bundles"
+                },
+                "identifiers" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/bf03b4d6-edac-4915-841e-3b0c3f06625c/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/bf03b4d6-edac-4915-841e-3b0c3f06625c/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/bf03b4d6-edac-4915-841e-3b0c3f06625c/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/bf03b4d6-edac-4915-841e-3b0c3f06625c/relationships"
+                },
+                "version" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/bf03b4d6-edac-4915-841e-3b0c3f06625c/version"
+                },
+                "templateItemOf" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/bf03b4d6-edac-4915-841e-3b0c3f06625c/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/bf03b4d6-edac-4915-841e-3b0c3f06625c/thumbnail"
+                },
+                "self" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/bf03b4d6-edac-4915-841e-3b0c3f06625c"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : {
+            "dc.description.abstract" : [ " conditions, root causes, and interrelationships among those issues of WHHs in rural areas. The empirical research was conducted in five Grama Niladari <em>Divisions</em> of Galgamuwa divisional secretariat <em>division</em> which conveyed a marked increase of WHHs in Sri Lanka" ]
+          },
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "http://repository.kln.ac.lk/server/api/core/items/f9d7442d-6be7-4cb5-b964-3b06952536df"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "f9d7442d-6be7-4cb5-b964-3b06952536df",
+              "uuid" : "f9d7442d-6be7-4cb5-b964-3b06952536df",
+              "name" : "A Study of Social and Health Conditions related to Women-Headed Households in Rural Areas in Sri Lanka",
+              "handle" : "123456789/22376",
+              "metadata" : {
+                "dc.contributor.author" : [ {
+                  "value" : "Panampitiya, W.M.G.N.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.accessioned" : [ {
+                  "value" : "2021-05-20T10:22:25Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.available" : [ {
+                  "value" : "2021-05-20T10:22:25Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2019",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.description.abstract" : [ {
+                  "value" : "In every human society, the household is one of the most significant social institution. Although household has been considered as a universal social institution, it can be identified that modern household has undergone significant transformations in its structure. Women-Headed Households (WHHs) is a new structural form of household and this new structural form of household has become a significant phenomenon in both global and national level. Although WHHs have occupied a prominent place in development discourse globally, very limited researches had been conducted regarding social and health conditions related to WHHs in Sri Lanka. Accordingly, the main objective of this study was to identify the background and issues related to social and health conditions, root causes, and interrelationships among those issues of WHHs in rural areas. The empirical research was conducted in five Grama Niladari Divisions of Galgamuwa divisional secretariat division which conveyed a marked increase of WHHs in Sri Lanka. Data were collected from hundred WHHs through purposive sampling method. Questionnaires and semistructured interviews were used as primary data collection techniques based on the survey method. The study revealed that the inadequate education and vocational qualifications, low level of tendency to enter to formal employment sector, unsustainability of livelihood activities, low conditions of houses and related facilities, some legal issues related to residence, inadequate social supportive mechanisms in the community, lack of leadership and empowerment were prominent among social conditions and related issues. Unavailability of toilet facilities (19%), unavailability of drinking water in the own household (45%), prevalence of long-term affected health issue (49%) were the key issues of health and sanitary facilities related to WHHs in the sample. Based on these findings it has provided suggestions to improve social well-being and to improve health sanitary and infrastructure facilities, to reduce prevalence of non-communicable and communicable diseases as well as health risk and to improve quality of life and mental well-being among WHHs.",
+                  "language" : "en_US",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.citation" : [ {
+                  "value" : "Panampitiya, W.M.G.N. (2019). A Study of Social and Health Conditions related to Women-Headed Households in Rural Areas in Sri Lanka, Conference Proceedings: 5th National Research Conference on Applied Social Statistics, Volume 02,  December 2019.pp.57",
+                  "language" : "en_US",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://repository.kln.ac.lk/handle/123456789/22376",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.publisher" : [ {
+                  "value" : "Department of Social Statisctics, University of Kelaniya, Sri Lanka",
+                  "language" : "en_US",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.subject" : [ {
+                  "value" : "Women-Headed Households (WHHs), Social Conditions, Health Sanitary and Infrastructure Facilities, Leadership, Empowerment.",
+                  "language" : "en_US",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "A Study of Social and Health Conditions related to Women-Headed Households in Rural Areas in Sri Lanka",
+                  "language" : "en_US",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2025-07-14T15:31:51.860+00:00",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/f9d7442d-6be7-4cb5-b964-3b06952536df/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/f9d7442d-6be7-4cb5-b964-3b06952536df/bundles"
+                },
+                "identifiers" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/f9d7442d-6be7-4cb5-b964-3b06952536df/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/f9d7442d-6be7-4cb5-b964-3b06952536df/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/f9d7442d-6be7-4cb5-b964-3b06952536df/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/f9d7442d-6be7-4cb5-b964-3b06952536df/relationships"
+                },
+                "version" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/f9d7442d-6be7-4cb5-b964-3b06952536df/version"
+                },
+                "templateItemOf" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/f9d7442d-6be7-4cb5-b964-3b06952536df/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/f9d7442d-6be7-4cb5-b964-3b06952536df/thumbnail"
+                },
+                "self" : {
+                  "href" : "http://repository.kln.ac.lk/server/api/core/items/f9d7442d-6be7-4cb5-b964-3b06952536df"
+                }
+              }
+            }
+          }
+        } ]
+      },
+      "page" : {
+        "number" : 0,
+        "size" : 5,
+        "totalPages" : 1,
+        "totalElements" : 2
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://repository.kln.ac.lk/server/api/discover/search/objects?query=division%20of%20labour%20palm%20leaf&size=5"
+        }
+      }
+    },
+    "facets" : [ {
+      "name" : "author",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "minValue" : "'t Hart, L.M.",
+      "maxValue" : "හේරත්, ඒ. එච්. එම්. මල්මි කවින්ද්‍යා",
+      "page" : {
+        "number" : 0,
+        "size" : 5
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://repository.kln.ac.lk/server/api/discover/facets/author?query=division%20of%20labour%20palm%20leaf&size=5"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "Alahakoon, Champa N. K.",
+          "count" : 1,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "http://repository.kln.ac.lk/server/api/discover/search/objects?query=division%2520of%2520labour%2520palm%2520leaf&f.author=Alahakoon,%20Champa%20N.%20K.,equals"
+            }
+          }
+        }, {
+          "label" : "Panampitiya, W.M.G.N.",
+          "count" : 1,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "http://repository.kln.ac.lk/server/api/discover/search/objects?query=division%2520of%2520labour%2520palm%2520leaf&f.author=Panampitiya,%20W.M.G.N.,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "subject",
+      "facetType" : "hierarchical",
+      "facetLimit" : 5,
+      "page" : {
+        "number" : 0,
+        "size" : 5
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://repository.kln.ac.lk/server/api/discover/facets/subject?query=division%20of%20labour%20palm%20leaf&size=5"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "Palm-leaf Manuscripts, Division of Labour, Creative Process of Palm-leaves, Skills, Technical Process",
+          "count" : 1,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "http://repository.kln.ac.lk/server/api/discover/search/objects?query=division%2520of%2520labour%2520palm%2520leaf&f.subject=Palm-leaf%20Manuscripts,%20Division%20of%20Labour,%20Creative%20Process%20of%20Palm-leaves,%20Skills,%20Technical%20Process,equals"
+            }
+          }
+        }, {
+          "label" : "Women-Headed Households (WHHs), Social Conditions, Health Sanitary and Infrastructure Facilities, Leadership, Empowerment.",
+          "count" : 1,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "http://repository.kln.ac.lk/server/api/discover/search/objects?query=division%2520of%2520labour%2520palm%2520leaf&f.subject=Women-Headed%20Households%20(WHHs),%20Social%20Conditions,%20Health%20Sanitary%20and%20Infrastructure%20Facilities,%20Leadership,%20Empowerment.,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "dateIssued",
+      "facetType" : "date",
+      "facetLimit" : 5,
+      "minValue" : "0000",
+      "maxValue" : "2026-12",
+      "page" : {
+        "number" : 0,
+        "size" : 5
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://repository.kln.ac.lk/server/api/discover/facets/dateIssued?query=division%20of%20labour%20palm%20leaf&size=5"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "2000 - 2019",
+          "count" : 1,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "http://repository.kln.ac.lk/server/api/discover/search/objects?query=division%2520of%2520labour%2520palm%2520leaf&f.dateIssued=%5B2000%20TO%202019%5D,equals"
+            }
+          }
+        }, {
+          "label" : "2020 - 2026",
+          "count" : 1,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "http://repository.kln.ac.lk/server/api/discover/search/objects?query=division%2520of%2520labour%2520palm%2520leaf&f.dateIssued=%5B2020%20TO%202026%5D,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "has_content_in_original_bundle",
+      "facetType" : "standard",
+      "facetLimit" : 2,
+      "page" : {
+        "number" : 0,
+        "size" : 2
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://repository.kln.ac.lk/server/api/discover/facets/has_content_in_original_bundle?query=division%20of%20labour%20palm%20leaf&size=2"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "true",
+          "count" : 2,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "http://repository.kln.ac.lk/server/api/discover/search/objects?query=division%2520of%2520labour%2520palm%2520leaf&f.has_content_in_original_bundle=true,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "entityType",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "_links" : {
+        "self" : {
+          "href" : "http://repository.kln.ac.lk/server/api/discover/facets/entityType?query=division%20of%20labour%20palm%20leaf"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    } ]
+  }
+}

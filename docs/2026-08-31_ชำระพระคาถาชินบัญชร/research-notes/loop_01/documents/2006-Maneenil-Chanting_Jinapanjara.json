@@ -1,0 +1,141 @@
+﻿{
+    "status":  "ok",
+    "message-type":  "work",
+    "message-version":  "1.0.0",
+    "message":  {
+                    "institution":  [
+                                        {
+                                            "name":  "Chulalongkorn University",
+                                            "acronym":  [
+                                                            "CU"
+                                                        ],
+                                            "place":  [
+                                                          "Bangkok, Thailand"
+                                                      ],
+                                            "department":  [
+                                                               "Thai Studies"
+                                                           ]
+                                        }
+                                    ],
+                    "indexed":  {
+                                    "date-parts":  [
+                                                       [
+                                                           2025,
+                                                           3,
+                                                           21
+                                                       ]
+                                                   ],
+                                    "date-time":  "2025-03-21T04:18:17Z",
+                                    "timestamp":  1742530697685,
+                                    "version":  "3.40.1"
+                                },
+                    "reference-count":  0,
+                    "publisher":  "Office of Academic Resources, Chulalongkorn University",
+                    "content-domain":  {
+                                           "domain":  [
+
+                                                      ],
+                                           "crossmark-restriction":  false
+                                       },
+                    "short-container-title":  [
+
+                                              ],
+                    "abstract":  "\u003cjats:p\u003eChanting Jinapanjara is a notable new phenomenon of Buddhist chanting in Thai society. It encompasses outstanding characters which have had an effect on Thai chanting tradition. After disappearing from Thai society for almost 100 years, it has become widely known again. Based on research, it is clear that the Jinapanjara chanting phenomenon is not necessarily a new tradition in Thai society, since it is considered as one of the Paritta, the chants for protection which have existed among Buddhist traditional chanting. In addition, Jinapanjara has been know and applied in some particular rituals in Lanna Kingdom, which today comprises the Northern part of Thailand, from 500 years ago, although today, it is not well known among people in general there. In this regard, it is not clear whether the origin of this gatha is from Sri Lankan belief or was composed in the Lanna Kingdom. The Jinapanjara has become popular because of its unique contents which contain references to most of the supreme Buddhist holy figures. More importantly, it is belived to be associated with one of the most highly respected Buddhist monks in Thailand\u0027s history, \"Somdej Pra Buddhaiarn (Toh Brahamarangsi) or Somdej Toh\". This phenomenon demonstrates a circumstance where faith is more important than wisdom. It seems to reflect certain insecure conditions in Thai society, particulary those felt by middle class people, who prefer \u0027the ends\u0027 to \u0027the means\u0027 and prefer \u0027an activity which is easy to do but highly effective in their view\u0027 to \u0027the one that is difficult to do but more sustainable.\u0027 This thesis also demonstrates that the Jinapanjara phenomenon has had and effect on thai tradition chanting because all chanting items now have become marketable products. Moreover, it has changed the image of chanting from a traditional ritual to a contemporary activitty, evidenced by the fact that it is found among the young generation and teenagers who have adopted Jinapanjara as their instant wishful mantra. Although Jinapaniara plays a vital role in motivating young people to be interested in chanting much more than in the past, it has also been accepted by some intellectual persons. In contrast, it is not popular among those Dhamma practitioners who aim for Nirvana. This highlights the difference between these two groups of Buddhists who aim for different achivement. However, the belief in magical power and superstition still continues firmly in Thai society. Significanty, this concern has been linked with science and health by intellectualy chanters. Thus, it means more than chanting for spiritual interest but also is also is related to practical benefits in demand by people in contemporary society.\u003c/jats:p\u003e",
+                    "DOI":  "10.58837/chula.the.2006.2028",
+                    "type":  "dissertation",
+                    "created":  {
+                                    "date-parts":  [
+                                                       [
+                                                           2025,
+                                                           3,
+                                                           21
+                                                       ]
+                                                   ],
+                                    "date-time":  "2025-03-21T03:54:18Z",
+                                    "timestamp":  1742529258000
+                                },
+                    "approved":  {
+                                     "date-parts":  [
+                                                        [
+                                                            2006
+                                                        ]
+                                                    ]
+                                 },
+                    "source":  "Crossref",
+                    "is-referenced-by-count":  0,
+                    "title":  [
+                                  "Chanting Jinapanjara : a new phenomenon of Buddhist chanting in Thailand"
+                              ],
+                    "prefix":  "10.58837",
+                    "author":  [
+                                   {
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    "@{role=author; vocabulary=crossref}"
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Rassamee",
+                                       "family":  "Maneenil",
+                                       "sequence":  "first",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    "@{role=author; vocabulary=crossref}"
+                                                ]
+                                   }
+                               ],
+                    "member":  "37481",
+                    "container-title":  [
+
+                                        ],
+                    "original-title":  [
+
+                                       ],
+                    "deposited":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2025,
+                                                             3,
+                                                             21
+                                                         ]
+                                                     ],
+                                      "date-time":  "2025-03-21T03:54:19Z",
+                                      "timestamp":  1742529259000
+                                  },
+                    "score":  1,
+                    "degree":  [
+                                   "Master of Arts"
+                               ],
+                    "resource":  {
+                                     "primary":  {
+                                                     "URL":  "https://digiverse.chula.ac.th/Info/item/dc:56423"
+                                                 }
+                                 },
+                    "subtitle":  [
+
+                                 ],
+                    "short-title":  [
+
+                                    ],
+                    "issued":  {
+                                   "date-parts":  [
+                                                      [
+                                                          null
+                                                      ]
+                                                  ]
+                               },
+                    "references-count":  0,
+                    "URL":  "https://doi.org/10.58837/chula.the.2006.2028",
+                    "relation":  {
+
+                                 },
+                    "subject":  [
+
+                                ]
+                }
+}

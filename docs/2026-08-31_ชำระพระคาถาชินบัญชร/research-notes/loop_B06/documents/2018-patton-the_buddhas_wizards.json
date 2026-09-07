@@ -1,0 +1,143 @@
+﻿{
+    "indexed":  {
+                    "date-parts":  [
+                                       [
+                                           2022,
+                                           9,
+                                           2
+                                       ]
+                                   ],
+                    "date-time":  "2022-09-02T15:49:11Z",
+                    "timestamp":  1662133751320
+                },
+    "reference-count":  0,
+    "publisher":  "Columbia University Press",
+    "isbn-type":  [
+                      {
+                          "value":  "9780231547376",
+                          "type":  "electronic"
+                      }
+                  ],
+    "content-domain":  {
+                           "domain":  [
+
+                                      ],
+                           "crossmark-restriction":  false
+                       },
+    "short-container-title":  [
+
+                              ],
+    "published-print":  {
+                            "date-parts":  [
+                                               [
+                                                   2018,
+                                                   12,
+                                                   31
+                                               ]
+                                           ]
+                        },
+    "DOI":  "10.7312/patt18760",
+    "type":  "book",
+    "created":  {
+                    "date-parts":  [
+                                       [
+                                           2018,
+                                           12,
+                                           21
+                                       ]
+                                   ],
+                    "date-time":  "2018-12-21T09:01:52Z",
+                    "timestamp":  1545382912000
+                },
+    "source":  "Crossref",
+    "is-referenced-by-count":  4,
+    "title":  [
+                  "The Buddha\u0027s Wizards"
+              ],
+    "prefix":  "10.7312",
+    "member":  "4359",
+    "published-online":  {
+                             "date-parts":  [
+                                                [
+                                                    2018,
+                                                    12,
+                                                    18
+                                                ]
+                                            ]
+                         },
+    "container-title":  [
+
+                        ],
+    "original-title":  [
+
+                       ],
+    "link":  [
+                 {
+                     "URL":  "https://columbia.degruyter.com/view/title/551458",
+                     "content-type":  "text/html",
+                     "content-version":  "vor",
+                     "intended-application":  "text-mining"
+                 },
+                 {
+                     "URL":  "https://www.degruyter.com/document/doi/10.7312/patt18760/pdf",
+                     "content-type":  "unspecified",
+                     "content-version":  "vor",
+                     "intended-application":  "similarity-checking"
+                 }
+             ],
+    "deposited":  {
+                      "date-parts":  [
+                                         [
+                                             2021,
+                                             5,
+                                             9
+                                         ]
+                                     ],
+                      "date-time":  "2021-05-09T00:45:10Z",
+                      "timestamp":  1620521110000
+                  },
+    "score":  1,
+    "resource":  {
+                     "primary":  {
+                                     "URL":  "https://www.degruyter.com/document/doi/10.7312/patt18760/html"
+                                 }
+                 },
+    "subtitle":  [
+                     "Magic, Protection, and Healing in Burmese Buddhism"
+                 ],
+    "short-title":  [
+
+                    ],
+    "issued":  {
+                   "date-parts":  [
+                                      [
+                                          2018,
+                                          12,
+                                          18
+                                      ]
+                                  ]
+               },
+    "ISBN":  [
+                 "9780231547376"
+             ],
+    "references-count":  0,
+    "alternative-id":  [
+                           "10.7312/patt18760"
+                       ],
+    "URL":  "https://doi.org/10.7312/patt18760",
+    "relation":  {
+
+                 },
+    "subject":  [
+
+                ],
+    "published":  {
+                      "date-parts":  [
+                                         [
+                                             2018,
+                                             12,
+                                             18
+                                         ]
+                                     ]
+                  }
+}

@@ -1,0 +1,887 @@
+--- PAGE: 1 ---
+ 
+7:2 (2020) 79–89 | ijbes.utm.my | eISSN 2289–8948| 
+ IJBES 
+ 
+International Journal of Built Environment and Sustainability 
+Published by Penerbit UTM Press, Universiti Teknologi Malaysia 
+IJBES 7(2)/2020, 79-89 
+ 
+Recreating Historical Malay Architecture with BIM 
+Process 
+ 
+Muhammad Hadi Mustafa  
+Department of Quantity Surveying, Kuliyyah of Architecture and Envi ronmental Design, International Islamic University Malaysia, 53100, 
+Gombak, Selangor  
+ 
+Maisarah Ali 
+Department of Civil Engineering, Kuliyyah of Engineering, International Islamic University Malaysia, 53100, Gombak, Selangor 
+ 
+Khairusy Syakirin Has Yun Hashim and Mohamad Saifulnizam Mohd Suhaimi  
+Department of Quantity Surveying, Kuliyyah of Architecture and Environmental Design, International Islamic University Malaysi a, 53100, 
+Gombak, Selangor 
+ 
+ 
+ 
+ABSTRACT  
+ 
+In South -East Asia, the Malay architecture is among the popular subject of research 
+because of its historical importance within the region, apart from many others. To 
+some researchers, the Malay architecture is unique because of its intangible meaning 
+and historically rich design characters. It is difficult to be reproduced, and only limited 
+numbers of people are acknowledged as experts. With the introduction of technology 
+such as BIM, it is hypothesized that the gap ca n be minimized. The idea of this paper is 
+to outline the process of recreating cultural architectural design using a modern 
+process such as Building Information Modelling (BIM) platform in specific, from data 
+collection using Terrestrial Laser Scanning (TL S) and digitalization process in Revit 
+software. This paper employs observation approach using data from laser scanner 
+collected from case study and content analysis technique. While normally most of the 
+cultural architecture is undocumented, the findings of this activity are aimed to provide 
+guideline to develop geometrical information for heritage-enthusiast in practicing their 
+undertakings.  It is hoped that more historical and cultural architecture can be 
+recreated and appreciated for the use and inspiration of current construction industry. 
+ 
+ 
+Article History  
+ 
+Received : 29 November 2019 
+Received in revised form : 4 February 2020 
+Accepted : 7 March 2020 
+Published Online : 30 April 2020 
+ 
+Keywords:  
+ 
+HBIM, malay architecture, terrestrial laser 
+scanning, case study, process 
+ 
+Corresponding Author Contact: 
+ 
+maisarah@iium.edu.my 
+ 
+DOI:  10.11113/ ijbes.v7.n2.504 
+© 2020Penerbit UTM Press. All rights reserved 
+ 
+ 
+1.  Introduction  
+ 
+Across the world, the rate of decline and disap pearance of 
+historical buildings such as wooden traditional Malay houses in the 
+Malay archipelago, churches in the European countries,  castles in 
+Japan and China or even mosques in the Middle East is 
+accelerating. Designs on historical building are often intricate and 
+difficult to reproduce, even by experts. Up until recent years, the 
+re-production of as -built drawing for historic buildings are often 
+being done by hand measuring, which is very tedio us and time -
+consuming (Foxe,2010 ). At the end of the acti vity, most people 
+are left with inaccurate and incomplete data because of 
+unavoidable factors such as financial and time constraints. With 
+the introduction of laser scanner, a highly accurate three - 
+dimensional model of the complete interior and exterior o f any 
+building can be created in a shorter time (Pesci et al., 2012) Using 
+the data, it is possible then to use any BIM software such as 
+Autodesk Revit to reproduce the plans, elevations and sections of 
+the designs and buildings. These documents can then b e used as 
+references for recreating the architectural design. Therefore, this 
+paper intends to outline the process of recreating cultural 
+architectural design using a modern process such as Building 
+Information Modelling platform in specific, from data col lection 
+
+--- PAGE: 2 ---
+80        Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 7:2 (2020) 79–89 
+ 
+ 
+using Terrestrial Laser Scanning (TLS) and digitalizati on process 
+in Revit software. 
+ 
+1.1  Historical Buildings and Styles of Malay 
+architecture in Peninsular Malaysia  
+ 
+The Ministry of Cultural , Art and Heritage defined historical 
+buildings as tang ible heritage under the static category, which 
+consists of monuments and buildings such as palaces, fortress, 
+tombs, and towers. Any building which is more than 50 years of 
+age and gazetted by the Department of National Heritage can be 
+considered as herita ge building whereas non -gazetted building is 
+considered historical building. Fielden (2003)  defined a historic 
+building as any building that could give an impression and make a 
+person curious about the race and culture that built them. He also 
+said all bui ldings over 100 years old should be deemed historic 
+buildings. In brief, a historic building can be described as a 
+building that can depict particular values such as its history, 
+architecture, symbolism, and feelings to local individuals.  
+ 
+The styles of M alay architecture in Peninsular Malaysia  were 
+comprised of many typologies such as buildings for 
+administration, institutions, religious buildings, homes, and many 
+more. Most of the buildings are beautifully decorated and have 
+distinctive designs that are not found in most present buildings.  
+Among historical buildings that exist i n Peninsular Malaysia are 
+shown in Table 1. These historic cultural buildings should be 
+properly conserved and preserved as these national treasures are 
+irreplaceable to our natio n. Failure to manage and preserve these 
+historic buildings can have a detrimental impact on our nation. 
+This is because owing to any poor decisions or actions, a century 
+of wealthy history that could be translated from a building can be 
+destroyed by a split second. It can be seen nowadays that historical 
+buildings such as shophouses, townhouses, and traditional Malay 
+houses are now fighting for survival owing to factors such as 
+demolition, neglect, and lack of effort to preserve them. 
+According to Akadiri et al. (2012), damages that occur to building 
+indirectly will affect their structural integrity and its fabric. It will 
+also affect the façade, which gives negative impacts for tourism 
+sectors, and it will eventually also give negative impression 
+towards th e conservation industry in Malaysia ( Harun,2011). 
+Historical buildings are prone to damages owing to many factors, 
+and the damage must be correctly resolved according to 
+conservation principles, philosophy, and ethics. All historic 
+buildings must be continually preserved, not only when damage is 
+noticeable. Regular check-ups should be performed, and adequate 
+monitoring through technology such as BIM can be helpful. 
+ 
+ 
+ 
+ 
+ 
+1.2  Digitalization Using Laser Scanner: Scan-to BIM 
+ 
+Global trends are making AEC proj ects more complex, while 
+advances in technology are helping industry professionals work 
+more efficiently and effectively.  The power of BIM is how it 
+allows architects, engineers, and contractors to collaborate on 
+coordinated models, giving everyone better insight into how their 
+work fits into the overall project, ultimately helping them to 
+work mo re efficiently. Traditionally, buildings have been 
+documented by sending a team out into the field where the teams 
+take measurement to their nearest centimetres or  inch and 
+produce hand -drawn drawings, which can take a long time to 
+produce. Instead, a site can be scanned in a matter of hours or 
+days and plans can be studied from those scans (Ali et al., 2018).  
+ 
+The BIM is increasingly being accepted and practiced i n most part 
+of the world; whether to assist in designing a project or to 
+develop an operating system in constructing a building efficiently. 
+Other countries, including Finland, Singapore, Denmark and 
+Norway, have also adopted BIM (Ali et al ., 2018). However, in 
+the Malaysian industry, Zahrizan et al. (2013) found that the 
+adoption of BIM in Malaysia needs  attention. They highlighted 
+that “Due to the lack of knowledge of BIM and the low level of 
+BIM uptake by the Malaysian construction players, the 
+implementation of BIM in the Malaysian construction industry 
+thus lies between BIM level 0 and BIM level 1. This statement is 
+later supported by CIDB BIM Report  2016. It was mentioned that 
+the adoption is still low because the Malaysian cons truction 
+industry has ve ry slo w development in using the application  of 
+Information Communication Technology (ICT). The challenges 
+are the unavailability of sufficient experts within the country, 
+relevant equipment for practicing are scarce, limited availability of 
+trainers, and financial-related challenges ( Del Giudice & Osello, 
+2013; Ha run, 2011 ; Zahrizan  et al.,  2013; Abbasnejad & Moud 
+2013). These challenges, however, sh ould not prevent, or even 
+discourage construction players from taking advantage of this 
+technological advancement in different ways. 
+ 
+The low adoption in implementing BIM has caused losses to the 
+current industry in Malaysia as the benefit of BIM does not only 
+improve the technology itself; it also changes the process of design 
+and builds ( Kymmel, 2008 ; Maina , 2 018). Through the 
+implementation of BIM, any vital information like the design 
+information can be prepared and evaluate at a much faster time; 
+enabling any decision-making process related to the project can be 
+done in a much easier and efficient way ( Mustafa et al. , 2018 ; 
+Maina, 2018). Moreover, BIM also conveniences to the project  
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE: 3 ---
+81        Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 7:2 (2020) 79–89 
+ 
+ 
+Table 1  The example of different typologies of historical buildings that exist in Peninsular Malaysia 
+Sources: 1- Ministry of Agriculture and Agro‑based Industry ,  
+2- https://www .maisinggah.com/bangunan-bersejarah-di-malaysia/ 
+3-https://www .orangnogori.com 
+ 
+Name of 
+state 
+Building typology 
+Palaces Aristocrats’ house Commoners’ house 
+Perlis 
+ 
+Istana Arau Rumah Tetamu Kangar 
+ 
+Rumah Bumbung Panjang 
+Perlis 
+Kedah 
+ 
+Istana Balai Besar Seri Mentaloon, Alor Star 
+ 
+Rumah Peladang Kedah 
+Kelantan 
+Istana Balai Besar Rumah Menteri Besar 
+ 
+Rumah Kelantan 
+Terengga
+nu 
+ 
+Istana Tengku Long Rumah Dato Biji Sura Rumah Limas Bungkus 
+Johor 
+Istana Besar Johor 
+  
+Rumah Menteri Besar Rumah Johor Atap Limas 
+Perak 
+Istana Kenangan, 
+ Baiturrahmah Rumah Kutai 
+
+
+--- PAGE: 4 ---
+82        Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 7:2 (2020) 79–89 
+ 
+ 
+Selangor 
+Istana Bandar Carcosa Seri Negara Rumah Pak Ali 
+Pahang 
+Istana Leban Tunggal Rumah Penghulu Hj Ismail bin 
+Khatib Bakar 
+Rumah Serambi Pahang 
+Negeri 
+Sembilan 
+Istana Seri Menanti Rumah Dato Kelana Syed Abdul 
+Rahman 
+Rumah Negeri Sembilan 
+Melaka 
+Replika Istana Melaka 
+Rumah Penghulu Ghani Rumah Melaka 
+Penang 
+Seri Mutiara 
+Rumah Tuan Guru Haji Othman, 
+Bukit Mertajam 
+Rumah Serambi Gajah 
+Menyusu 
+ 
+
+
+--- PAGE: 5 ---
+83        Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 7:2 (2020) 79–89 
+ 
+ 
+team to make any variation or changes to the project at any time 
+along with the phase of work due to its parametric mod elling 
+capability (Autodesk, 2019). All the data needs to be formatted in 
+the right way and available at the right time is not act ing as 
+barriers to its full adoption. BIM software makes up about one -
+half of the components in the whole process.  
+ 
+BIM, however, has not been extensively applied to all aspects of a 
+construction project (Mustafa et al., 2018; Seghier, Lim, Ahmad 
+and Samu el, 2017 ). According to Kymmel (2008), the clearest 
+benefit from BIM is that a 3D model improves the presentation 
+ability in visualizing (understand) the model better. Many persons 
+have difficulty understanding 2D drawing, and according to Maina 
+(2018), th ere is  an inadequate supply of qualified staff to meet 
+specialised skills . While ac cording to Eastman et al. (2008) and 
+Rozana et al. (2018) , the 3D model made by the BIM software is 
+designed rather than generated from multiple 2D views. It is used 
+to visualize the layout at any stage of the process expecting it will 
+be consistent in every view. 
+ 
+Through virtual design and construction, BIM can provide an 
+advantage to the Malaysian heritage industry by enhancing the 
+cooperative level among various stakeholders. In the inspiration of 
+‘renaissance’ which means the revival of o r renewed interest in 
+something, clients will be able to have a wider range of design 
+choices that reflec ts their cultural architecture (Autodesk, 2019; 
+Ali et al., 2018 ). To achieve this , there is a need for a library of 
+collected data on Malay architectural design to be made available, 
+hence increasing the production efficiency and reduce the cost. 
+Among data collection approach is by using a 3D laser scanner. 
+ 
+1.3  Dimensional Laser Scanner 
+ 
+The idea behind 3D laser scanning is LIDAR ( light detection and 
+ranging ) and remote sensing. LiDAR is a remote sensing method 
+that uses a laser to measure elevation  and laser scanner works on 
+the same principle (Quattrini et al. ,2015). Essentially , LIDAR is 
+a beam of light that analyses the reflective light. The scanner then 
+registers how long it takes for light to make its return, and using a 
+set of an internal mirror and establishes horizontal and vertical 
+angle by collecting point with correct x  y and z coordinates. The 
+collection of points taken by a single scan will be reco rded as 
+point clouds (Baik, 2017).  
+ 
+ 
+2. Methodology 
+ 
+This paper employs observation approach using data from laser 
+scanner collected from case study and content analysis. To achieve 
+this, the research conducted an action -based research using a real 
+case study and employs a qualitative approach in describing the 
+findings. Observation has been used as a method for collecting 
+data about people, processes, or even cultures (Kawulich, 2012).  
+ 
+ 
+ 
+ 
+ 
+2.1   Selection of Case Study: Istana Balai Besar 
+Alor Setar 
+ 
+Digitalizing historic Malay building is different from other 
+buildings because of its unique characters . Its architecture has a 
+blend of influences which has created its unique  building forms 
+(Endut, 1993). In this paper, a more complex building such as the 
+'Istana' (palace) will be studied as compared to traditional  Malay 
+house because it can provide more data as compared to the latter 
+which is too simple . This is also because  Istana also carries more 
+significance as compared to the normal cultural house because 
+more historic events take place there.  
+ 
+According to a report from  Kedah's state Archive retrieved by 
+researchers on July 2018, The Grand Palace (Istana Balai Besar) is  
+a unique hall which was built in 1735 by order of Sultan 
+Muhammad Jiwa Zainal Adilin Muazzam Shah, the 19 th Sultan of 
+Kedah (1710 - 1778). Its original function was to act as "Balai 
+Penghadapan" for the king's official activities. The components 
+were orig inally constructed from timbers, and after some 
+incidents due to attacks from the Siamese (1821) and Bugis 
+(1770), some part of the components were changed to steel and 
+concrete. The building was re -constructed displaying the 
+astonishing Malay's woodcarvin g at that time, and until now, its 
+uniqueness still inspires many architect and tourists. This palace is 
+among the oldest and the finest traditional Malay palaces which 
+remains intact until today. However, it is subjected to the threats 
+of natural decay, major flood and was once destroyed by fire, thus 
+preserving its architectural and historical significance has become 
+of paramount importance for posterity.  
+ 
+The process of reproducing the documentation comprises of two 
+(2) main stages. The first stage is d ata collection on -site, where 
+measurements need to be taken by the use of laser scanning 
+technology. Laser scanning was selected as the technique of data 
+collection because it is among the latest available measurement 
+technology. The output from the laser scanner can be integrated 
+with another technology such as BIM. In this research, 29 stations 
+sites were used to capture data around the building, as shown in 
+Figure 2. The second stage is the reconstruction of the building in 
+the BIM platform, such as Auto desk Revit using the data collected 
+from the laser scanning activity. In this study, Autodesk Revit was 
+used because of the software's interface, which is user-friendly and 
+easy to learn.  
+ 
+The scanner used is a TopCon GLS -2000. The specifications of 
+the scanner are presented in Table 2.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE: 6 ---
+84        Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 7:2 (2020) 79–89 
+ 
+ 
+Table 2   The specification of the scanner used for the 
+scanning activity 
+ 
+SCANNER/ 
+CHARACTERISTIC 
+Topcon GLS-2000 
+Laser Class 3R and 1R 
+Scanning method Time of Flight 
+Vertical field of view (º) 270º 
+Horizontal field of view (º) 360º 
+Range (m) and reflectivity Up to 350m; 90 % reflectivity 
+(minimum range 0.4m) 
+Scan Speed (pts/sec) 120,000 points per/second 
+3D scanning accuracy 3.5 mm at 150m 
+Camera(single image pixel 
+  resolution) 
+5 megapixels  
+ 
+Processing software JRC 3D RECONSTRUCTOR  
+Tilting Sensor Dual-axis compensator 
+ 
+2.2   The Point Cloud Workflow On The Project 
+ 
+Commissioning a point cloud is similar to a traditional 2D survey. 
+It is only the deliverable that is different. The scan itself will 
+render with intensity. Although point cloud is just discrete points, 
+the density actually causes them to mimic a solid surface. 
+However, because the laser only uses visible light, rather than 
+infrared, it only records the surface it hits, rather than what i s 
+hidden behind the structure. Thus, it is important to acknowledge 
+that laser scanning is a line -of-sight technology. Hence, because it 
+only records whatever it hits, the users actually need to reposition 
+the scanner around the site in order to capture th e object all 
+around (Quattrini et al.,2015). In this research, 29 stations sites 
+were used to capture data around the building, as shown in Figure 
+1. However, most importantly, there must be an area of overlap 
+between all of the sites. This can be done by using targets.  
+ 
+In order to create a complete point cloud, the scanner needs to be 
+moved around both the inside and the outside of the building that 
+is being scanned to fill in the missing areas. Befo re capturing the 
+next scan, targets are placed in the d irection where the scanner is 
+moving. The main usage of the targets is to tie a scan location to 
+the next. These targets will be used to automatically combine the 
+multiple scans into a single data set of the complete as the as -built 
+condition. Finally, onc e all the data was collected, they will be 
+joined using ScanMaster software and forms a comp lete building 
+as point clouds.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1:  29 scan stations are used during the data collection 
+process (Authors, 2019) 
+ 
+ 
+ 
+ 
+Figure 2:  Istana Balai Besar frontage in point clouds  (Authors, 
+2019) 
+ 
+ 
+After all of the scans have been registered using the targets in the 
+field, the complete point cloud can be seen, as shown in Figure 2. 
+Next, the point cloud can be exported to an application used i n 
+design such as Autodesk Reality Capture or also known as 
+Autodesk Recap. Recap is a high -performance point cloud 
+visualization engine that can be used to view and navigate the 
+point cloud by cutting sections of the data. By having point 
+clouds, it is pos sible to view the model in ways that would 
+otherwise be difficult if using data collected with traditional means 
+of as-built surveying and measuring (Quattrini et al., 2015).  
+ 
+In Recap, it is possible to look at the scan in a planar view by 
+taking the sphere of data, unrolls it to look at the entire scan  and 
+manipulate the data. From this view , as shown in Figure 3 , direct 
+measurements can be taken by measuring from the layout, and the 
+dimension is broken out to provide true m easurement as our 
+primary data. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE: 7 ---
+85        Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 7:2 (2020) 79–89 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 3:  Measuring the dimension of building components 
+can be carried out in the Recap platform (Authors, 2019) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 4:  Cross-section of the building in point cloud 
+ (Authors, 2019)   
+ 
+ 
+In Figure 4 , a cross -section of the building is made in order to 
+view the floor to floor relationships and to determine the distance 
+between the floors. By doing this, understanding of spaces within 
+the building can be achieved (Abidin,1981) before modelling it in 
+Revit. Measure ment of the building also can be computed by 
+point-to-point distance. For laser scanner TOPCON GLS -2000, 
+the precision of measurement is up to 3.5mm. 
+ 
+Next, the point cloud is transferred into Autodesk Revit, where 
+the point cloud is attached to a project as a link. After importing 
+the point cloud, the plan section is cut all the way to the floor 
+level so the floors' area can be clearly seen. From the floor plan, 
+materials and finishes are recorded, and the building is modelled. 
+As more information is neede d for the modelling of the building, 
+data from the point cloud in Recap is referred. The result in the 
+form of as-built drawing is produced and presented. 
+ 
+ 
+ 
+ 
+ 
+Figure 5: Point cloud in Revit (Authors, 2019) 
+ 
+ 
+ 
+Figure 6: Layout floor plan of building  (without roof)  in Revit  
+(Authors, 2019) 
+ 
+ 
+ 
+Figure 7: Positioning of Leica T errestrial Laser Scanner P16 
+during scanning (Authors, 2019) 
+ 
+ 
+
+
+--- PAGE: 8 ---
+86        Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 7:2 (2020) 79–89 
+ 
+ 
+ 
+Figure 8: Building layout converted fr om point clouds to BIM 
+using Revit (Authors, 2019) 
+ 
+ 
+ 
+Figure 9: Building layout converted from point clouds to BIM 
+using Revit in 3D view (Authors, 2019) 
+ 
+ 
+  Figure 10: BIM model of Istana Balai Besar (Authors, 2019) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                  
+Figure 11 : The process flow of digitalization using point clouds 
+for Autodesk Revit(Authors’ work) 
+ 
+ 
+3.0   Digitalization Result and Analysis of Istana 
+Balai Besar from Point Cloud Data 
+ 
+One of  the most useful aspects of BIM is that it can extract 
+attributes data indicating, for example, the floor area of existing 
+construction, or the variation of building components used for the 
+building. Figures 5,6,7, 8,9 and 10  are the results from the effort  
+of modelling in BIM platform using the point clouds collec ted by 
+laser scanning exercise meanwhile Figure 11 highlights the flow of 
+digitalization using point clouds using  Autodesk Revit . The as -
+built drawings of a traditional Malay building which has exi sted 
+since 1735 have been successfully reproduced, with a variation of 
+3.5mm accuracy. The point cloud is invaluable for this case study 
+because there is no ambiguity at all. This effort has simultaneously 
+produced 2D drawings and 3D models successfully in  a single 
+work. By having data from laser scanning, it eliminates the need 
+to have a frequent site visit, and the details of the building can be 
+further explored from our workstation.  
+
+
+--- PAGE: 9 ---
+87        Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 7:2 (2020) 79–89 
+ 
+ 
+The result of this digitalization process has contributed to the 
+know-how and know-what, especially in the management of point 
+clouds for the documentation of historic building. The case study 
+consists of a symmetrical design with two floors. During the 
+modelling process, it was found that the building has used variant 
+types of component. For example, the variations of the column 
+found are five (5) and are shown in Figure 12. 
+ 
+ 
+ 
+Figure 12:  The numbers of column ’s variant found using point  
+clouds for Istana Balai Besar (Author’s work) 
+ 
+ 
+This case is considered to be another parameter to understand the 
+advantage of technologies via action -based research. As another 
+contribution from this action based -research activity, it can be 
+extracted that the ground floor area of the building is 
+approximately 2341 m2 and the first -floor area is 1341m2 as 
+shown in Figure 13 and Figure 14 . The information can serve as 
+the basis for further research to understand the profitability and 
+benefits involved in using TLS for historic buildings in all regards. 
+ 
+ 
+Figure 13: The extraction of Balai Besar Alor Setar’s ground-
+floor layout area using BIM tool (Authors, 2019) 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 14: The extraction of Balai Besar Alor Setar’s   first-
+floor layout area using BIM tool (Authors, 2019) 
+ 
+ 
+This research has provided a process flow on data collection using 
+laser scanner and managing the data for the purpose of 
+documenting the details of historic building.  It is also found that 
+there is still room for improvisation on this approach; for 
+example, the automation from laser scanning into the BIM model. 
+Terrestrial laser scanner also has diffi culty in capturing high rise 
+building, but this is not a major problem since the point cloud can 
+be obtained with the help of laser scanning using an Unmanned 
+Aerial Vehicle (UAV) such as the drones. At the current state of 
+development, it is not possible to directly convert point clouds 
+into a BIM model as it only acts as references. It is anticipated 
+future development might focus on producing the BIM model 
+straight away from their main references without the need to 
+remodel them again manually in other software. 
+ 
+ 
+4.0  Conclusion and Recommendations  
+ 
+BIM has become an integral part of the way for new businesses, 
+and it can be seen that greater client engagement is possible with 
+the use of these technologies. The ability to have visual access to 
+information through 3D illustrations without having to be on the 
+site is deemed to be a ground-breaking process in AEC. Point 
+cloud surveying is although a rapid process but the programming 
+of the modelling need to be understood, managed and discussed 
+with other parties who will rely on the information. The ability to 
+produce accurate building information now forms a core part of 
+our construction industry. From this research, it can be con cluded 
+that laser scanning is an effective approach to producing plans  and 
+elevations for any buildings, especially for historic buildings  due 
+to the reduced time on -site as compared with the conventional 
+approach. Embracing BIM is not anymore about adapting to 
+the local government’s vision and mandate, i t is more about 
+recognizing the potential to become more efficient and effective 
+in the operation and to  compete effectively on the international 
+level. Lastly, this research would like to suggest for heritage -
+enthusiast in practicing their undertakings by:  
+ 
+i. Organizing appropriate and adequate training service on 
+modelling of historical buildings, as simple methods 
+
+
+--- PAGE: 10 ---
+88        Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 7:2 (2020) 79–89 
+ 
+ 
+need to be developed to obtain BIM models that 
+guarantee accuracy, accuracy and quality at the same 
+time. 
+ 
+ii. Integrating BIM with current historical buildings 
+database within the conservation practice, which still is 
+documented in a conventional approach. 
+ 
+iii. Encouraging young employees to  possess competencies 
+and qualities in utilizing technologies to increase the 
+productivity and efficiency of their practice. 
+ 
+ 
+Acknowledgements 
+ 
+This rese arch was supported by a grant 
+(TRGS/1/2016/UIAM/01/5/3) from the Ministry of Higher 
+Education Malaysia (MOHE). This research is also supported by 
+Kuliyyah of Architecture and Environmental Design (KAED) and 
+Kuliyyah of Engineering of International Islamic University 
+Malaysia. 
+ 
+References 
+ 
+Abbasnejad, B., & Moud, H. I. (2013). BIM and Basic Challenges 
+Associated With Its Definitions, Interpretations, And Expectations . 
+International Journal of Engineering Research and Application. 3(2): 287-294. 
+ 
+Abidin, W.B.b.W. (1981). The Malay House: Rationale and Change 
+(Master Thesis). M.I.T., Massachusetts. Cambridge. 
+ 
+Akadiri, P. O., Chinyio, E. A., & Olomolaiye, P. O. (2012). Design of A 
+Sustainable Building: A Conceptual Framework for Implementing Sustainability in 
+the Building Sector . 126–152. 
+https://doi.org/10.3390/buildings2020126 
+ 
+Ali, M., Ismail, K., Suhaimi, M.S, Hashim, K.S.H.Y, and Mustafa, 
+M.H., (2018), Heritage Building Preservation through Building 
+Information Modelling: Reviving Cultural Values th rough Level Of 
+Development Exploration. Journal of the Malaysian Institute of Planners . 
+16(2): 62 -72,  http://dx.doi.org/10.21837/pmjournal.v16.i6.461  
+ 
+Ali, M., Ismail, K., Hashim, K.S.H.Y, Suhaimi, M.S, and Mustafa, 
+M.H., (2018), Historic Building Infor mation Modelling (HBIM) For 
+Malaysian Construction Industry, Journal of the Malaysian Institute of 
+Planners. 16(3): 332-343. 
+http://dx.doi.org/10.21837/pmjournal.v16.i7.522 
+ 
+Autodesk. (2019). Autodesk Knowledge Network. Accessed 
+18.08.2019, from https://knowledge.autodesk.com: 
+https://knowledge.autodesk.com/support/revit-products/getting-
+started/caas/CloudHelp/cloudhelp/2019/ENU/Revit-
+GetStarted/files/GUID-03565843-BB48-4707-B54C-39D6E8E51880-
+htm.html 
+ 
+Baik, A., Alitany, A., Boehm, J., & Robson, S. (2014). Jeddah Historical 
+Building Information Modelling "JHBIM"; Object Library. ISPRS Annals of 
+Photogrammetry, Remote Sensing, and Spatial Information Sciences . II-5(May): 
+41–47. https://doi.org/10.5194/isprsannals-II-5-41-2014 
+ 
+Baik, A. (2017). From point cloud to Jeddah Heritage BIM Nasif 
+Historical House – case study. Digital Applications in Archaeology and 
+Cultural Heritage . 4(January 2016) : 1–18. 
+https://doi.org/10.1016/j.daach.2017.02.001 
+Del Giudice, M., &  Osello, A. (2013, September). BIM for Cultural 
+Heritage. XXIV International CIPA Symposium. September 2 -6, 2013, 
+Strasbourg, France. 
+ 
+Bicara Seni Visual. (2014). Seni Bina Melayu Tradisional. Accessed 
+18.4.2020, from bicarasenivisual.blogsp ot.com: 
+http://bicarasenivisual.blogspot.com/2014/09/seni-bina-rumah-
+melayu-tradisional.html 
+ 
+Eastman, C. Teicholz, P. Sacks, R., & Liston, K. (2008). BIM Handbook 
+A Guide to Building Information Modeling for Owners , Managers, 
+Designers, Engineers, and Contractors. John Wiley & Sons, Inc. 
+ 
+Endut, E. H. (1993). Traditional Malaysian Built Forms: A Study of the 
+Origins, Main Building Types, Development of Building Forms, Design Principles 
+and the Application of Traditi onal Concepts in Modern Buildings . University of 
+Sheffield. 
+ 
+Foxe D.M. (2010). Building Information Modeling for Constructing the 
+past and its Future. A pt Bulletin: Jou rnal Of Preservation Technology. 
+41(4): 39-45 
+ 
+Fielden, B. M. (2003). Conservation Of Hi storic Buildings . 3rd ed. 
+Oxford: Elsevier.  
+ 
+Harun, S. N. (2011). Heritage Building Conservation In Malaysia: 
+Experience And Challeng es. Procedia Engineering . 20: 41–53. 
+https://doi.org/10.1016/j.proeng.2011.11.137 
+ 
+Taman Botani Negara Shah Alam. (2019). Kampung Idaman. Accessed 
+18.08.2019, from www.tbnsa.gov.my: 
+http://www.tbnsa.gov.my/web/guest/kampung-idaman 
+ 
+MaiSinggah. (2018). 49 Bangunan Bersejarah Di Malaysia Yang Menarik | 
+Jom Pulang Ke Masa Lampau. Accessed 18.08.2019, from 
+www.maisinggah.com: https://www.maisinggah.com/bangunan-
+bersejarah-di-malaysia/ 
+ 
+Kawulich B. (2012): Doing Social Research: A Global Context Chapter: 
+Collecting Data Through Observation Publisher. McGraw HillEditors: C. 
+Wagner, B. Kawulich, M. Garner 
+ 
+Ismail, S. A., Bandi, S., & Maaz, Z. N. (2018). An Appraisal into the 
+Potential Application of Big Data in the  Construction Industry. 
+International Journal of Built Environment and Sustainability . 5(2): 145–154. 
+https://doi.org/10.11113/ijbes.v5.n2.274 
+ 
+Rahman, M. F. (2003). Laluan Tempt Bersejarah di Bandar Alor Setar: 
+Bangunan-Bangunan Bersejarah. Alor Setar: Arkib Negara Malaysia 
+Cawangan Kedah.Retrieved July 2018 
+ 
+Malaysia Building Information Modelling Report (2016), CIDB Technical 
+report Publication No 1217, Lem baga Pembangunan Industri Pembina an 
+Malaysia, Kuala Lumpur. 2017 
+ 
+Maina, J. J. (2018). Barriers To Effective Use Of CAD And BIM In 
+Architecture Education In Nigeria. International Journal of Built Environment 
+
+--- PAGE: 11 ---
+89        Muhammad Hadi Mustafa et al. - International Journal of Built Environment and Sustainability 7:2 (2020) 79–89 
+ 
+ 
+and Sustainability . 5(3): 175–186. 
+https://doi.org/10.11113/ijbes.v5.n3.275 
+ 
+Mustafa, M.H., Ali, M., Ismail, K., Hashim, K.S.H.Y, and Suhaimi, 
+M.S. (2019). BIM Backed Decision Support System in the Management 
+of Heritage Building. International Journal of Built Environment and 
+Sustainability. 6(2): 63–71. https://doi.org/10.11113/ijbes.v6.n2.357 
+ 
+Jabatan Warisan Negara, 2016, National Heritage Act 645, accessed 
+online (Accessed  
+18.08.2019) http://www.heritage.gov.my/index.php/ms/2016-06-14-
+02-33-04 
+ 
+Pesci, A., Bonali, E., Galli, C., & Boschi, E. (2012). Laser scanning and 
+digital imaging for the investigation of an ancient building: Palazzo 
+d’Accursio study case (Bologna, Italy). Journal of Cultural Heritage . 13(2): 
+215–220. https://doi.org/10.1016/j.culher.2011.09.004 
+ 
+Quattrini, R., Malinverni, E. S., Clini, P., Nespeca, R., & Orlietti, E. 
+(2015). From TLS to HBIM. High -quality semantically -aware 3d 
+modelling of complex architecture. International Archives of the 
+Photogrammetry, Remote Sensing and Spatial Infor mation Sciences - ISPRS 
+Archive., 40(5W4): 367–374. https://doi.org/10.5194/isprsarchives-
+XL-5-W4-367-2015 
+ 
+Rozana Mohamed Salleh, N. E. M., Nafisah Abdul Rahiman, H., & 
+Liyana Tajul Ariffin, N. O. (2019). The Propensity Of Building 
+Information Modelling And Integrated Project Delivery In Building 
+Construction Project . International Journal of Built Environment & 
+Sustainability. 6(1-2): 83–90. https://doi.org/10.11113/ ijbes.v6.n1 -
+2.386  
+ 
+Seghier, T. E., Lim, Y. W., Ahmad, M. H., & Samuel, W. O. (2017). 
+Building Envelope Thermal Performance Assessment Using Visual 
+Programming and BIM, based on ETTV requirement of Green Mark and 
+GreenRE. International Journal of Built Environment and Sustainability . 4(3), 
+227–235. https://doi.org/10.11113/ijbes.v4.n3.216 
+ 
+W. Kymmel  (2008), Building Information Modeling. Planning and 
+managing construction projects with 4D CAD and simulations, McGraw -
+Hill. 
+ 
+Zahrizan, Z., Ali, N. M., Haron, A. T., Marshall -Ponting, A., & Hamid, 
+Z. A. (2013). Exploring The Barriers And Driving Factors I n 
+Implementing Building Information Modelling ( BIM) In The Malaysian 
+Construction Industry: A Preliminary Study . Journal - The Institution of 
+Engineers, Malaysia. 75(1):1- 10. 
+ 
+ 
+ 

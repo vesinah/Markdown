@@ -1,0 +1,18 @@
+﻿TARGET D - APPIAH "THICK TRANSLATION" APPLIED TO SACRED/SCRIPTURAL TEXTS
+
+PRIMARY SOURCE:
+Kwame Anthony Appiah, "Thick Translation," Callaloo 16(4) (1993): 801-819. JSTOR stable URL: https://www.jstor.org/stable/2932211 ; DOI per T&F reprint in Venuti, The Translation Studies Reader (4th ed. 2021, ch.33). Definition quoted in secondary literature: "the placement of a text in a rich cultural and linguistic context through annotation and accompanying notes" (Appiah 1993: 817). Case = Twi proverbs (African oral literature); goal = "genuinely informed respect for others"; indeterminacy resolved in academic/pedagogical institutions; political pedagogy served by annotations and glosses. Concept derived from Geertz's thick description.
+
+KEY THEORETICAL EXTENSION:
+Theo Hermans, "Cross-cultural translation studies as thick translation," Bulletin of the School of Oriental and African Studies 66(3) (2003): 380-389 - breaks illusion of transparency/neutrality; ties thick translation to translator subjectivity.
+
+APPLICATIONS TO SACRED/SCRIPTURAL TEXTS FOUND (with status):
+1. Martha P.Y. Cheung (ed.), An Anthology of Chinese Discourse on Translation, Volume 1: From earliest times to the Buddhist project (Manchester: St Jerome, 2006, ISBN 1-900650-92-4) - EXPLICITLY adopts and develops thick translation as its methodology (documented by Fan Min review, inTRAlinea 12 (2010)); subject matter = Buddhist sutra translation discourse in China (5th c. BCE-12th c. CE). STRONGEST scriptural-domain application found. Companion Chinese volume: Chu Chi Yu & Zhu Xiaonong eds., An Anthology of Essays on Buddhist Sutra Translation in China with Annotations and Commentaries (Tsinghua UP) - annotation/commentary apparatus itself exemplifies thick-translation practice (review Bai Liping, Perspectives 19:2 (2011):177-180, DOI 10.1080/0907676X.2011.558413).
+2. "Thick translation and modern representation of Chan: An analysis of three English translations of the Platform Sutra based on Dunhuang [manuscripts]" - conference talk by Yanfei [surname not captured] (video listing found). Direct application to a Buddhist scripture. Status: located as video listing only; full citation pending.
+3. "Echoing Forward, Echoing Back: Thick Translation, the [Song of Songs]" in Expanding Approaches to Bible Translation (open-access PubPub volume, posted 2025-03-26, https://expandingapproachesbt.pubpub.org/pub/97ggm7qt) - creates "a thick performance of Song of Songs" treating translation as mourning ritual/Latin lesson/personal history. Direct Hebrew Bible application. Page blocked bots (403) on fetch attempt; metadata from search index.
+4. Jiang C.X., "Textual interpretation and cultural transmission in Paul Unschuld's thick translation of Huangdi Neijing," Chinese Translators Journal 40(5) (2019):112-120+190 - canonical medical classic (semi-sacred), explicit thick-translation frame.
+5. HillPublisher (2025-09-30) "Thick Translation and Cultural Resistance: Annotating Culture..." - frames thick translation as ethical imperative against ethnocentric homogenization (general, not scriptural).
+
+CAUTION FLAG: The Study Quran (Nasr et al., HarperOne 2015) and Steinsaltz/Schottenstein Talmud editions are structurally thick translations (extensive commentary apparatus synthesizing classical exegesis) but NO source found yet that explicitly analyzes them under Appiah's label => treat as analogues, not documented applications.
+
+VERDICT: Explicit thick-translation scholarship ON scripture exists but is scattered (Buddhist Chinese tradition strongest via Cheung school; single Bible-literature chapter; no dedicated monograph connecting thick translation with hieroglossia/diglossia). Open niche confirmed.

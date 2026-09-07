@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>N. 348. Gaṇeśa statue from Ketanen (826 Śaka)</title>
+         	<respStmt>
+         		<resp key="creator">author of digital edition</resp>
+         		<persName ref="part:argr">
+         			<forename>Arlo</forename>
+         			<surname>Griffiths</surname>
+         		</persName>
+         		<persName ref="part:wjsa">
+         			<forename>Wayan Jarrah</forename>
+         			<surname>Sastrawan</surname>
+         		</persName>
+         	</respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Paris</pubPlace>
+            <idno type="filename">DHARMA_INSIDENK00348.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p/>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+      	<change who="part:argr" when="2026-06-06">Resolved validation problems, changes file name</change>
+         <change who="part:axja" when="2022-08-16">Transforming docx into xml</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+           <body>
+                   <div type="edition">
+<p><lb n="1"/> svastī <unclear>śaka-varṣā</unclear>tīta 82<unclear>6</unclear> – ji – i ja –r) I rakryān·
+<lb n="2"/> lañja ri ina nahan· rakva rakryān· paṇamva pavana - - raṅ
+<lb n="3"/> ḍivadda - - ma jñaye Ikaṁ kabikuAn· I simājaran·
+<lb n="4"/>māryya ya umasō saṅhayaṅ davahhan i pamvatan parnahan tu 
+<lb n="5"/> - - ma Irikaṅ <unclear>dha</unclear>rmma haji parhyaṅan· I R̥mbai saṁ vyakāraṇa
+<lb n="6"/> gaṅgu<surplus>1</surplus>nikanaṁ simā_jaran· tan· hana vehan· tumamā Iriya <choice><unclear>ga</unclear><unclear>śa</unclear></choice> 
+<lb n="7"/>-gyya Ataḥ pramā<choice><sic>n</sic><corr>ṇ</corr></choice>ā pamasaṅananya mataṅya deyanika
+<lb n="8"/> rāma kanityaknanya hananike<unclear>ṁ</unclear> surat· yathānya tan· A-
+<lb n="9"/>puharā pramajatta n<unclear>i</unclear>mitanya lvir·ni sukha-du<supplied reason="omitted">ḥ</supplied>kha ma-	
+<lb n="10"/>ti tan· papalar· Inalapi gallap· mati katibā mati ma-
+<lb n="11"/>kaṇḍat· mati kalvu sinahut· riṅ ulā – tat vitrāsa si –
+<lb n="12"/> no maṅkana makə - maṅgappi iṅ rahi ta rikeṅ - katamana
+<lb n="13"/> –e sar –i ri vavulatan ri vahdajahi lañjadayjaṅ
+<lb n="14"/> - kvehniṅ maṅilala kriṅ paḍamm apvay pinilay / vayan
+<lb n="15"/> mahijo juru jagal juru gañjar haluvarak ṅuniveh ka
+<lb n="16"/>laṅka tan <unclear>ta</unclear>mā / cittralekha pu prajña kinon mājra i ra-
+<lb n="17"/>kryān bavaṅ mvaṅ mvaṅ ri pamgat paṅkaja kara uva mvaṅ vu buka du
+<lb n="18"/> – ma sibattan i kayyan yan ta kinonakan de kaya
+<lb n="19"/> –y) tika – karabavakan - - -n) – yya - - 
+<lb n="20"/> – daśa</p>                      
+                   </div>
+                       <div type="apparatus">
+                         <listApp>
+			     <app loc="1"><lem>rakryān·</lem><rdg source="bib:EdiSedyawati1994_02">rakryan·</rdg></app>
+                          <app loc="2"><lem>rakryān pu</lem><rdg source="bib:EdiSedyawati1994_02">rakryān paṇamva</rdg></app>
+                          <app loc="3"><lem>Ikaṁ kabikuAn·</lem><rdg source="bib:EdiSedyawati1994_02">Ikānaṁ kabikuAn·</rdg></app>
+                          <app loc="5"><lem>Irikaṁ</lem><rdg source="bib:EdiSedyawati1994_02">Irikanaṁ</rdg></app>
+                          <app loc="5"><lem>parhyaṅan I R̥mbai saṁ</lem><rdg source="bib:EdiSedyawati1994_02">2+ ṅgaraṅ muAṁ</rdg></app>
+                          <app loc="6"><lem>tan· hana</lem><rdg source="bib:EdiSedyawati1994_02">ta hana</rdg></app>
+                          <app loc="6"><lem>Iriya</lem><rdg source="bib:EdiSedyawati1994_02">Irīya</rdg></app>
+                          <app loc="7"><lem>pamasaṅananya</lem><rdg source="bib:EdiSedyawati1994_02">papaśana dadya</rdg></app>
+                          <app loc="8"><lem>surat·</lem><rdg source="bib:EdiSedyawati1994_02">sarat·</rdg></app>
+                          <app loc="8-9"><lem>Apuharā</lem><rdg source="bib:EdiSedyawati1994_02">mamuharā</rdg></app>
+                          <app loc="11"><lem>riṅ ulā</lem><rdg source="bib:EdiSedyawati1994_02">miṅ ulā</rdg></app>
+			   </listApp>
+                       </div>
+              <div type="commentary">
+                 <p>Majakerta Museum, inventory number 63. </p>
+                <p>Edi Sedyawati 1994, Appendix: “The transcription of this inscription has never been published as a whole. Only the first two lines have been published by Damais (1955: 242). Damais (1952:66-7) mentions this inscription in his list of dated inscriptions. This inscription consists of twenty lines.” </p>
+              </div>
+             <div type="bibliography">
+                <p>Transcribed by Edi Sedyawati; supervised by J.G. de Casparis (July 1982). Read from photo O.D. 1225; paper print number 222-252. EFEO estampage for this inscription: n. 2301.</p>
+                    <p>Read in December 2021 and May 2022 by Wayan Jarrah Sastrawan and Arlo Griffiths from EFEO rubbing n. 2301 and OD photo 1225, using Edi Sedyawati’s edition as base text.</p>
+             <listBibl type="primary">
+                <bibl n="E"><ptr target="bib:EdiSedyawati1994_02"/></bibl>
+             </listBibl>
+             <listBibl type="secondary">
+                <bibl>
+                   <ptr target="bib:Damais1955_01"/>
+                   <citedRange>242</citedRange>
+                </bibl>
+             </listBibl>
+		</div> 
+           </body>
+   </text>
+</TEI>

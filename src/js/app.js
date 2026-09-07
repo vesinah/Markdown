@@ -54,7 +54,7 @@ function hideLoading() {
 }
 
 async function saveWorkspace() {
-  const roots = State.roots.map(r => ({
+  const roots = State.roots.filter(r => !r.isRemote).map(r => ({
     name: r.name,
     handle: r.handle,
     addedAt: r.addedAt || Date.now()
@@ -195,20 +195,16 @@ function updateStat(currentFile) {
 
 export async function removeWorkspaceRoot(rootIdx) {
   const i = rootIdx;
-  if (i < 0 || i >= State.roots.length) return;
-  State.roots.splice(i, 1);
-  State.flat = State.flat.filter(n => n.rootIdx !== i);
-  for (const n of State.flat) if (n.rootIdx > i) n.rootIdx--;
-  State.byPath = new Map(State.flat.map(n => [n.path, n]));
-  for (const n of State.flat) if (n.kind !== 'root') n.parent = n.path.includes('/') ? State.byPath.get(n.path.slice(0, n.path.lastIndexOf('/'))) : null;
-  for (const n of State.flat) if ((n.kind === 'root' || n.kind === 'directory') && n.kids) n.kids = n.kids.filter(k => k.rootIdx !== i);
+  if (i < 0) return;
+  const rootNode = State.flat.find(n => n.kind === 'root' && n.rootIdx === i);
+  if (rootNode && rootNode.isRemote) {
+    State.remoteCatalog = null;
+  }
+  if (i < State.roots.length) {
+    State.roots.splice(i, 1);
+  }
 
-  for (const p of State.expanded) {
-    if (!State.byPath.has(p)) State.expanded.delete(p);
-  }
-  for (const p of State.collapsed) {
-    if (!State.byPath.has(p)) State.collapsed.delete(p);
-  }
+  await rescanWorkspaces();
 
   if (State.current && (State.current.rootIdx === i || !State.byPath.has(State.current.path))) {
     ViewRouter.closeCurrentFile();
@@ -223,6 +219,9 @@ export async function removeWorkspaceRoot(rootIdx) {
 }
 
 export async function unlockAndReloadWorkspace(rootIdx) {
+  const rootNode = State.flat.find(n => n.kind === 'root' && n.rootIdx === rootIdx);
+  if (rootNode && rootNode.isRemote) return true;
+
   const ok = await requestRootPermission(rootIdx);
   if (!ok) {
     alert('ไม่ได้รับการอนุญาตเข้าถึงโฟลเดอร์ กรุณากดยินยอมในหน้าต่างแจ้งเตือนของเบราว์เซอร์');
@@ -250,19 +249,34 @@ export async function unlockAndReloadWorkspace(rootIdx) {
 }
 
 export async function refreshWorkspaces(targetRootIdx = null) {
-  if (!State.roots.length) return;
+  if (!State.remoteCatalog && !State.roots.length) return;
 
   if (D.btnRefresh) D.btnRefresh.classList.add('spinning');
   showLoading('กำลังรีเฟรชรายการไฟล์...');
 
   try {
+    if (State.remoteCatalog) {
+      try {
+        let resp = await fetch('docs/catalog.json?t=' + Date.now());
+        if (!resp.ok) resp = await fetch('catalog.json?t=' + Date.now());
+        if (resp.ok) {
+          const freshData = await resp.json();
+          if (freshData && Array.isArray(freshData.files)) {
+            State.remoteCatalog = freshData;
+          }
+        }
+      } catch (e) {
+        console.warn('[refresh] Remote catalog reload failed:', e.message);
+      }
+    }
+
     if (targetRootIdx !== null && State.roots[targetRootIdx]) {
       const r = State.roots[targetRootIdx];
-      if (r.isLocked) await requestRootPermission(targetRootIdx);
+      if (!r.isRemote && r.isLocked) await requestRootPermission(targetRootIdx);
     } else {
       for (let i = 0; i < State.roots.length; i++) {
         const r = State.roots[i];
-        if (r.isLocked) await requestRootPermission(i);
+        if (!r.isRemote && r.isLocked) await requestRootPermission(i);
       }
     }
 
@@ -734,6 +748,21 @@ export async function initApp() {
   }
   updateSortButtonsUI();
 
+  // 1. Try loading remote catalog first (for Cloudflare Pages / Web mode)
+  try {
+    let catalogResp = await fetch('docs/catalog.json');
+    if (!catalogResp.ok) catalogResp = await fetch('catalog.json');
+    if (catalogResp.ok) {
+      const catalogData = await catalogResp.json();
+      if (catalogData && Array.isArray(catalogData.files)) {
+        State.remoteCatalog = catalogData;
+      }
+    }
+  } catch (err) {
+    console.log('[app] Remote catalog not available, running in local mode');
+  }
+
+  // 2. Next, check saved local workspaces in IndexedDB
   const rec = await Store.get('workspace');
   if (rec && rec.roots && rec.roots.length) {
     for (const r of rec.roots) {
@@ -747,11 +776,15 @@ export async function initApp() {
         });
       }
     }
-    showLoading('กำลังสแกนไฟล์...');
+  }
+
+  // 3. Rescan workspaces if we have remote catalog OR local roots
+  if (State.remoteCatalog || State.roots.length > 0) {
+    showLoading('กำลังจัดเตรียมเอกสาร...');
     await rescanWorkspaces();
     updateStat();
 
-    if (rec.expanded && rec.expanded.length) {
+    if (rec && rec.expanded && rec.expanded.length) {
       State.expanded = new Set(rec.expanded.filter(p => State.byPath.has(p)));
       State.collapsed = new Set((rec.collapsed || []).filter(p => State.byPath.has(p)));
     } else {
@@ -760,6 +793,7 @@ export async function initApp() {
     hideLoading();
     renderTree(D.tree);
 
+    // Reopen last read file on this device
     const lastPath = await Store.get('lastFile');
     if (lastPath) {
       const n = State.byPath.get(lastPath);
@@ -767,6 +801,18 @@ export async function initApp() {
         openFile(n, { silent: true });
         return;
       }
+    }
+
+    // Default to 00_MASTER_RESEARCH_DIRECTORY.md or first available document
+    const masterDoc = State.flat.find(n => n.kind === 'file' && n.name.includes('00_MASTER_RESEARCH_DIRECTORY'));
+    if (masterDoc) {
+      openFile(masterDoc, { silent: true });
+      return;
+    }
+    const first = State.flat.find(n => n.kind === 'file' && isDoc(n.name));
+    if (first) {
+      openFile(first, { silent: true });
+      return;
     }
   }
 

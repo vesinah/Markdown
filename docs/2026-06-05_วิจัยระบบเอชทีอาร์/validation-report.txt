@@ -1,0 +1,603 @@
+﻿==================================================
+รายงานการตรวจสอบความถูกต้องเชิงวิชาการ (Validation Report)
+โครงการ: HTR_Research_Upgrade
+เวลาตรวจสอบ: 2026-06-05 11:42:22
+==================================================
+
+ไฟล์: 00_สารบัญแกนกลาง_Master_Index.md
+  - สถิติ: คำ = 874, อักขระ = 11022, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 10, ลิงก์ผ่านการตรวจสอบ = 5
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5190984 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://github.com/jbcamps/abbreviated-medieval-htr (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://huggingface.co/datasets/balinese-lontar-amadi (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://lannadigital.library.cmu.ac.th/ (The remote name could not be resolved: 'lannadigital.library.cmu.ac.th')
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1145/3151509.3151515 (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 1.1_ภาพรวมระบบนิเวศHTRและเป้าหมายโครงการ.md
+  - สถิติ: คำ = 1138, อักขระ = 20127, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 0, ลิงก์ผ่านการตรวจสอบ = 0
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 1.2_เปรียบเทียบเครื่องมือHTRทั่วโลกและทำไมต้องKraken.md
+  - สถิติ: คำ = 1216, อักขระ = 17705, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 3, ลิงก์ผ่านการตรวจสอบ = 2
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://lannadigital.library.cmu.ac.th (The remote name could not be resolved: 'lannadigital.library.cmu.ac.th')
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 1.3_ขอบเขตและเป้าหมายของระบบHTRภาษาขอมไทยและภาษาธรรมล้านนา.md
+  - สถิติ: คำ = 859, อักขระ = 13838, เชิงอรรถ = 11, ลิงก์ทั้งหมด = 0, ลิงก์ผ่านการตรวจสอบ = 0
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 1.4_ความเป็นมาและสถานะการวิจัยHTRในประเทศไทย.md
+  - สถิติ: คำ = 613, อักขระ = 12202, เชิงอรรถ = 10, ลิงก์ทั้งหมด = 3, ลิงก์ผ่านการตรวจสอบ = 2
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://huggingface.co/datasets/balinese-lontar-amadi (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 2.1_ทฤษฎีการอ่านข้อความด้วยAIและกลไกCTC.md
+  - สถิติ: คำ = 1268, อักขระ = 19996, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 5, ลิงก์ผ่านการตรวจสอบ = 2
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 2.2_มาตรฐานPAGE_XMLและALTO_XMLเชิงเปรียบเทียบ.md
+  - สถิติ: คำ = 1410, อักขระ = 17504, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 8, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15` (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4#" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4# (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/v4/alto-4-4.xsd" (The remote server returned an error: (429) Too Many Requests.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 2.3_ความแตกต่างทางเทคนิคและสัญวิทยาของอักขรวิธีโบราณ.md
+  - สถิติ: คำ = 639, อักขระ = 10960, เชิงอรรถ = 9, ลิงก์ทั้งหมด = 0, ลิงก์ผ่านการตรวจสอบ = 0
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 3.1_คู่มือการถ่ายภาพและสแกนใบลานกับสมุดพับ.md
+  - สถิติ: คำ = 1089, อักขระ = 14754, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 0, ลิงก์ผ่านการตรวจสอบ = 0
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 3.2_การประมวลผลภาพขั้นต้นเพื่อกำจัดคราบราและสัญญาณรบกวน.md
+  - สถิติ: คำ = 651, อักขระ = 10042, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 0, ลิงก์ผ่านการตรวจสอบ = 0
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 4.1_การใช้โปรแกรมเหมรังษีในการCropและกำหนดเส้นพื้นฐาน.md
+  - สถิติ: คำ = 688, อักขระ = 10866, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 0, ลิงก์ผ่านการตรวจสอบ = 0
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 4.2_การติดตั้งและตั้งค่าeScriptoriumผ่านDocker.md
+  - สถิติ: คำ = 1062, อักขระ = 14902, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 12, ลิงก์ผ่านการตรวจสอบ = 6
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://#deb (Cannot bind parameter 'Uri'. Cannot convert value "https://#deb" to type "System.Uri". Error: "Invalid URI: The hostname could not be parsed.")
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://#g' (Cannot bind parameter 'Uri'. Cannot convert value "https://#g'" to type "System.Uri". Error: "Invalid URI: The hostname could not be parsed.")
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://gitlab.com/scripta/escriptorium-docker.git (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://localhost:8080,http://127.0.0.1:8080,http://192.168.1.100:8080 (Cannot bind parameter 'Uri'. Cannot convert value "http://localhost:8080,http://127.0.0.1:8080,http://192.168.1.100:8080" to type "System.Uri". Error: "Invalid URI: Invalid port specified.")
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://localhost:8080 (The operation has timed out.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://localhost:8085` (Cannot bind parameter 'Uri'. Cannot convert value "http://localhost:8085`" to type "System.Uri". Error: "Invalid URI: Invalid port specified.")
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 4.3_การทำAnnotationบนeScriptoriumและการตรวจแก้Baseline.md
+  - สถิติ: คำ = 1085, อักขระ = 15863, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 0, ลิงก์ผ่านการตรวจสอบ = 0
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 4.4_การสกัดและแปลงฐานข้อมูลเหมรังษีเป็นPAGE_XML.md
+  - สถิติ: คำ = 222, อักขระ = 3031, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 4, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 5.1_กฎการปริวรรตอักษรขอมโบราณและการใช้Unicode_Virama.md
+  - สถิติ: คำ = 700, อักขระ = 8717, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 0, ลิงก์ผ่านการตรวจสอบ = 0
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 5.2_แนวปฏิบัติในการควบคุมคุณภาพข้อมูลและการประเมินความสอดคล้องระหว่างผู้พิมพ์.md
+  - สถิติ: คำ = 880, อักขระ = 13236, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 0, ลิงก์ผ่านการตรวจสอบ = 0
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 6.1_การติดตั้งKrakenแบบLocalและผ่านCLI.md
+  - สถิติ: คำ = 1010, อักขระ = 12093, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 6, ลิงก์ผ่านการตรวจสอบ = 6
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 6.2_คู่มือการเทรนโมเดลKrakenและการจูนพารามิเตอร์อย่างละเอียด.md
+  - สถิติ: คำ = 1113, อักขระ = 16556, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 0, ลิงก์ผ่านการตรวจสอบ = 0
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 7.1_การประเมินความแม่นยำของโมเดลด้วยค่าCERและWER.md
+  - สถิติ: คำ = 1435, อักขระ = 16726, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 0, ลิงก์ผ่านการตรวจสอบ = 0
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 7.2_การเพิ่มความแม่นยำด้วยโมเดลภาษาและการทำPost_Correction.md
+  - สถิติ: คำ = 966, อักขระ = 14889, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 1, ลิงก์ผ่านการตรวจสอบ = 1
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 7.3_การเตรียมและจัดระเบียบข้อมูลจารึกใบลานเพื่อเทรนโมเดลHTR.md
+  - สถิติ: คำ = 537, อักขระ = 9158, เชิงอรรถ = 8, ลิงก์ทั้งหมด = 0, ลิงก์ผ่านการตรวจสอบ = 0
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 7.4_การเพิ่มความหลากหลายของข้อมูลลายมือเขียนและการลดโอเวอร์ฟิตติ้ง.md
+  - สถิติ: คำ = 580, อักขระ = 8926, เชิงอรรถ = 9, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://huggingface.co/datasets/balinese-lontar-amadi (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 8.1_กรณีศึกษาการทำHTRเอกสารโบราณในภูมิภาคเอเชียและยุโรป.md
+  - สถิติ: คำ = 2442, อักขระ = 30592, เชิงอรรถ = 12, ลิงก์ทั้งหมด = 15, ลิงก์ผ่านการตรวจสอบ = 7
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4#" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.tei-c.org/ns/1.0" (The remote server returned an error: (300) Multiple Choices Redirect.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1145/3151509.3151515 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://lannadigital.library.cmu.ac.th/ (The remote name could not be resolved: 'lannadigital.library.cmu.ac.th')
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://huggingface.co/datasets/balinese-lontar-amadi (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://github.com/jbcamps/abbreviated-medieval-htr (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5190984 (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: GLOSSARY.md
+  - สถิติ: คำ = 1725, อักขระ = 16966, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 10, ลิงก์ผ่านการตรวจสอบ = 9
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.xxxx/xxxxx` (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: _MASTER_LIST.md
+  - สถิติ: คำ = 659, อักขระ = 4863, เชิงอรรถ = 0, ลิงก์ทั้งหมด = 17, ลิงก์ผ่านการตรวจสอบ = 16
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://codh.rois.ac.jp/kuzushiji/ (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: AS01_Palm_Leaf_South_Asia.md
+  - สถิติ: คำ = 649, อักขระ = 7882, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.3233/JIFS-234567 (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: AS02_NusaAksara_Balinese_Javanese.md
+  - สถิติ: คำ = 648, อักขระ = 6722, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 2
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: AS03_Sanskrit_Devanagari.md
+  - สถิติ: คำ = 633, อักขระ = 7235, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 3, ลิงก์ผ่านการตรวจสอบ = 3
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: AS04_Tibetan_Manuscripts.md
+  - สถิติ: คำ = 583, อักขระ = 6559, เชิงอรรถ = 3, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.oeaw.ac.at/ikga/research/tibschol (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: AS05_Chinese_Historical.md
+  - สถิติ: คำ = 641, อักขระ = 6858, เชิงอรรถ = 3, ลิงก์ทั้งหมด = 4, ลิงก์ผ่านการตรวจสอบ = 3
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1145/3456789 (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: AS06_Japanese_Kuzushiji.md
+  - สถิติ: คำ = 526, อักขระ = 5697, เชิงอรรถ = 3, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://codh.rois.ac.jp/kuzushiji/ (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: AS07_Myanmar_Burmese.md
+  - สถิติ: คำ = 538, อักขระ = 6062, เชิงอรรถ = 3, ลิงก์ทั้งหมด = 3, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.25046/aj100215 (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://github.com/another-yekyawthu/myMNIST (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: AS08_Sinhala_Palm_Leaves.md
+  - สถิติ: คำ = 548, อักขระ = 5934, เชิงอรรถ = 3, ลิงก์ทั้งหมด = 1, ลิงก์ผ่านการตรวจสอบ = 1
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: AS09_Universal_Khmer_Text_Recognition.md
+  - สถิติ: คำ = 507, อักขระ = 5114, เชิงอรรถ = 3, ลิงก์ทั้งหมด = 3, ลิงก์ผ่านการตรวจสอบ = 2
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.efeo.fr/sleukrith (The operation has timed out.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: AS10_ThaiOCRBench.md
+  - สถิติ: คำ = 667, อักขระ = 6535, เชิงอรรถ = 3, ลิงก์ทั้งหมด = 3, ลิงก์ผ่านการตรวจสอบ = 3
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: EU01_Transformer_Historical_Manuscripts.md
+  - สถิติ: คำ = 523, อักขระ = 5179, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://github.com/erezmeoded/trocr-historical (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: EU08_HTR_LLM_Workflow_Latin.md
+  - สถิติ: คำ = 595, อักขระ = 5674, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 1, ลิงก์ผ่านการตรวจสอบ = 1
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: EU10_TRIDIS_Medieval_Corpus.md
+  - สถิติ: คำ = 529, อักขระ = 5440, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 1, ลิงก์ผ่านการตรวจสอบ = 1
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: XC01_HTR_Survey_2025.md
+  - สถิติ: คำ = 561, อักขระ = 6173, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 1, ลิงก์ผ่านการตรวจสอบ = 1
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: XC02_Data_Augmentation_Review_2025.md
+  - สถิติ: คำ = 561, อักขระ = 5918, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 1, ลิงก์ผ่านการตรวจสอบ = 1
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: XC04_Best_Practices_HTR_2024.md
+  - สถิติ: คำ = 648, อักขระ = 7257, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 3, ลิงก์ผ่านการตรวจสอบ = 3
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_001_manuscripts_test.md
+  - สถิติ: คำ = 689, อักขระ = 10857, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 5, ลิงก์ผ่านการตรวจสอบ = 3
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/elizamei/e109bdc3-89da-4b27-bd8c-01f8267ccf92.jpg" (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/elizamei/d4b8a2b4-d6d7-4ec3-bcd4-270beba4f2f3.png" (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_002_ancient_mnist.md
+  - สถิติ: คำ = 665, อักขระ = 9578, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 3, ลิงก์ผ่านการตรวจสอบ = 2
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://huggingface.co/SummerSigh` (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_003_ancient_coins.md
+  - สถิติ: คำ = 556, อักขระ = 8803, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 3, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://huggingface.co/Aff4n20` (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://huggingface.co/models/Aff4n20/sd-ancient-coins (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_004_ancient_doc.md
+  - สถิติ: คำ = 531, อักขระ = 8637, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 5, ลิงก์ผ่านการตรวจสอบ = 5
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_005_cot_ancient_past.md
+  - สถิติ: คำ = 554, อักขระ = 9699, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 1, ลิงก์ผ่านการตรวจสอบ = 1
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_006_ancient3.md
+  - สถิติ: คำ = 619, อักขระ = 9177, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://en.wikipedia.org/wiki/Ancient_Carthage" (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_007_ancient_law.md
+  - สถิติ: คำ = 597, อักขระ = 10130, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 1, ลิงก์ผ่านการตรวจสอบ = 1
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_008_seacrowd.md
+  - สถิติ: คำ = 626, อักขระ = 10806, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 4, ลิงก์ผ่านการตรวจสอบ = 4
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_009_sleukrith_ocr.md
+  - สถิติ: คำ = 838, อักขระ = 13830, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 3, ลิงก์ผ่านการตรวจสอบ = 2
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1145/3151509.3151515 (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_010_tamily_1.md
+  - สถิติ: คำ = 595, อักขระ = 10688, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 1, ลิงก์ผ่านการตรวจสอบ = 1
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_011_ancient_transcription_paradigm.md
+  - สถิติ: คำ = 548, อักขระ = 8491, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 1, ลิงก์ผ่านการตรวจสอบ = 0
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.21105/joss.01617 (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_012_tridis_trocr.md
+  - สถิติ: คำ = 876, อักขระ = 12359, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 1, ลิงก์ผ่านการตรวจสอบ = 1
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_013_cremma_medieval.md
+  - สถิติ: คำ = 815, อักขระ = 11589, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 6, ลิงก์ผ่านการตรวจสอบ = 2
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4#" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4# (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/v4/alto-4-2.xsd" (The remote server returned an error: (429) Too Many Requests.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_014_old_norse_bifrost.md
+  - สถิติ: คำ = 796, อักขระ = 11653, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 2
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_015_distinguo_segmonto.md
+  - สถิติ: คำ = 780, อักขระ = 11696, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 7, ลิงก์ผ่านการตรวจสอบ = 2
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://github.com/distinguo-project/sermon-segmonto (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15' (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_016_medieval_abbreviations.md
+  - สถิติ: คำ = 780, อักขระ = 11628, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 4, ลิงก์ผ่านการตรวจสอบ = 0
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://github.com/jbcamps/abbreviated-medieval-htr (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.tei-c.org/ns/1.0" (The remote server returned an error: (300) Multiple Choices Redirect.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1145/3476887.3476902 (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://github.com/CATMuS/medieval (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_017_muharaf_arabic.md
+  - สถิติ: คำ = 693, อักขระ = 10387, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 8, ลิงก์ผ่านการตรวจสอบ = 4
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15'} (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_018_hatformer_transformer.md
+  - สถิติ: คำ = 981, อักขระ = 13403, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://github.com/aamijar/HATFormer (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_019_cross_arabic_htr.md
+  - สถิติ: คำ = 978, อักขระ = 13064, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 2
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_020_ottoman_riqa.md
+  - สถิติ: คำ = 678, อักขระ = 9971, เชิงอรรถ = 2, ลิงก์ทั้งหมด = 3, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://ieeexplore.ieee.org/abstract/document/11208325/ (The remote server returned an error: (418) Unknown Code.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://dergipark.org.tr/tr/pub/dergipark (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_021_ajami_manuscripts.md
+  - สถิติ: คำ = 879, อักขระ = 12153, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 6, ลิงก์ผ่านการตรวจสอบ = 2
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4#" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4# (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/v4/alto-4-2.xsd" (The remote server returned an error: (429) Too Many Requests.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_022_lanna_palmleaf.md
+  - สถิติ: คำ = 1296, อักขระ = 16697, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 4, ลิงก์ผ่านการตรวจสอบ = 0
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://lannadigital.library.cmu.ac.th/ (The remote name could not be resolved: 'lannadigital.library.cmu.ac.th')
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15'} (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://lannadigital.library.cmu.ac.th (The remote name could not be resolved: 'lannadigital.library.cmu.ac.th')
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_023_tamil_vit_htr.md
+  - สถิติ: คำ = 1428, อักขระ = 16556, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 0
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://ieeexplore.ieee.org/abstract/document/11350246/ (The remote server returned an error: (418) Unknown Code.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1109/IEEEXplore.11350246 (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_024_platter_indic.md
+  - สถิติ: คำ = 1358, อักขระ = 17303, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 1, ลิงก์ผ่านการตรวจสอบ = 1
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_025_khmer_palmleaf_lm.md
+  - สถิติ: คำ = 1153, อักขระ = 15600, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 0
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://ieeexplore.ieee.org/abstract/document/10029532/ (The remote server returned an error: (418) Unknown Code.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1109/IEEEXplore.10029532 (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_026_balinese_amadi.md
+  - สถิติ: คำ = 1383, อักขระ = 17342, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 1, ลิงก์ผ่านการตรวจสอบ = 0
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://huggingface.co/datasets/balinese-lontar-amadi (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_027_anandasky_vlm.md
+  - สถิติ: คำ = 472, อักขระ = 6986, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 2
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_028_dunhuang_chinese_htr.md
+  - สถิติ: คำ = 429, อักขระ = 6912, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 7, ลิงก์ผ่านการตรวจสอบ = 3
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4#" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4# (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/v4/alto-4-2.xsd" (The remote server returned an error: (429) Too Many Requests.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_029_kuzushiji_furigana.md
+  - สถิติ: คำ = 408, อักขระ = 6454, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 6, ลิงก์ผ่านการตรวจสอบ = 3
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_030_tibschol_tibetan_htr.md
+  - สถิติ: คำ = 445, อักขระ = 6961, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 1, ลิงก์ผ่านการตรวจสอบ = 1
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_031_joseon_dynasty_htr.md
+  - สถิติ: คำ = 445, อักขระ = 7051, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 3, ลิงก์ผ่านการตรวจสอบ = 2
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://sillok.history.go.kr/ (The underlying connection was closed: An unexpected error occurred on a receive.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_032_got_ocr.md
+  - สถิติ: คำ = 725, อักขระ = 9445, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 2
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_033_colpali_vlm.md
+  - สถิติ: คำ = 743, อักขระ = 9958, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 2
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_034_broadwell_arabic.md
+  - สถิติ: คำ = 700, อักขระ = 9915, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 0
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5190984 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://ssrn.com/abstract=5190984 (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_035_russian_manuscripts.md
+  - สถิติ: คำ = 635, อักขระ = 9617, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 1, ลิงก์ผ่านการตรวจสอบ = 1
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_036_llm_benchmarking.md
+  - สถิติ: คำ = 737, อักขระ = 10156, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 0
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.tandfonline.com/doi/abs/10.1080/01615440.2025.2500309 (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://doi.org/10.1080/01615440.2025.2500309 (The remote server returned an error: (403) Forbidden.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_037_deeplontar_balinese.md
+  - สถิติ: คำ = 669, อักขระ = 9485, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://huggingface.co/datasets/balinese-lontar-amadi (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_038_dharma_project.md
+  - สถิติ: คำ = 679, อักขระ = 9173, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 7, ลิงก์ผ่านการตรวจสอบ = 4
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.tei-c.org/ns/1.0" (The remote server returned an error: (300) Multiple Choices Redirect.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://creativecommons.org/licenses/by/4.0/" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.tei-c.org/ns/1.0'} (The remote server returned an error: (300) Multiple Choices Redirect.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_039_dasi_south_india.md
+  - สถิติ: คำ = 664, อักขระ = 8903, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 2
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_040_kawi_script_htr.md
+  - สถิติ: คำ = 634, อักขระ = 8915, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 2, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://aksaranusantara.co/ (The remote name could not be resolved: 'aksaranusantara.co')
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: Report_041_efeo_khmer_epigraphy.md
+  - สถิติ: คำ = 683, อักขระ = 9106, เชิงอรรถ = 1, ลิงก์ทั้งหมด = 3, ลิงก์ผ่านการตรวจสอบ = 3
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 01_พื้นฐาน_XML_สำหรับ_OCR_HTR.md
+  - สถิติ: คำ = 3389, อักขระ = 43715, เชิงอรรถ = 4, ลิงก์ทั้งหมด = 20, ลิงก์ผ่านการตรวจสอบ = 12
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4#" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/v4/alto-4-4.xsd (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.loc.gov/standards/alto/ (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://transkribus.org/ (The remote server returned an error: (308) Permanent Redirect.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.example.org/ocr/ns" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.example.org/ocr/ns (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 02_ALTO_XML_ประวัติ_โครงสร้าง_Schema.md
+  - สถิติ: คำ = 1723, อักขระ = 21553, เชิงอรรถ = 4, ลิงก์ทั้งหมด = 9, ลิงก์ผ่านการตรวจสอบ = 2
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4#" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4# (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/v4/alto-4-4.xsd" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/v4/alto-4-4.xsd (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.loc.gov/standards/alto/ (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://en.wikipedia.org/wiki/ALTO_(XML (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 03_PAGE_XML_ประวัติ_โครงสร้าง_Schema.md
+  - สถิติ: คำ = 1191, อักขระ = 14410, เชิงอรรถ = 4, ลิงก์ทั้งหมด = 10, ลิงก์ผ่านการตรวจสอบ = 4
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2024-07-15"` (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2024-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2024-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://en.wikipedia.org/wiki/PAGE_(XML (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15` (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 04_ตารางเปรียบเทียบ_Tag_ฉบับสมบูรณ์.md
+  - สถิติ: คำ = 2175, อักขระ = 23202, เชิงอรรถ = 4, ลิงก์ทั้งหมด = 16, ลิงก์ผ่านการตรวจสอบ = 5
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/v4/alto-4-4.xsd" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/v4/alto-4-4.xsd (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2024-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2024-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://en.wikipedia.org/wiki/PAGE_(XML (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://en.wikipedia.org/wiki/ALTO_(XML (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/1999/XSL/Transform" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4#" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 05_วิเคราะห์_ข้อดี_ข้อเสีย_เชิงลึก.md
+  - สถิติ: คำ = 2227, อักขระ = 23607, เชิงอรรถ = 4, ลิงก์ทั้งหมด = 6, ลิงก์ผ่านการตรวจสอบ = 3
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://ocr-d.de/" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://htr-united.github.io/" (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 06_Kraken_และ_เทคโนโลยี_HTR.md
+  - สถิติ: คำ = 1642, อักขระ = 16627, เชิงอรรถ = 4, ลิงก์ทั้งหมด = 15, ลิงก์ผ่านการตรวจสอบ = 6
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4#" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/1999/xlink" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4# (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/v4/alto-4-4.xsd" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.tei-c.org/ns/1.0" (The remote server returned an error: (300) Multiple Choices Redirect.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://transkribus.org/ (The remote server returned an error: (308) Permanent Redirect.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 07_เครื่องมือแปลงรูปแบบ_และ_Interoperability.md
+  - สถิติ: คำ = 1831, อักขระ = 27582, เชิงอรรถ = 4, ลิงก์ทั้งหมด = 12, ลิงก์ผ่านการตรวจสอบ = 7
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/1999/XSL/Transform" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4#" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 08_แนวโน้มอนาคต_และ_คำแนะนำ.md
+  - สถิติ: คำ = 2239, อักขระ = 27085, เชิงอรรถ = 4, ลิงก์ทั้งหมด = 10, ลิงก์ผ่านการตรวจสอบ = 5
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/METS/" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/1999/xlink" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://github.com/org/french-medieval-registers" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.wikidata.org/wiki/Q61" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.loc.gov/standards/alto/ (The remote server returned an error: (429) Too Many Requests.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 09_METS_XML_โครงสร้างระดับเอกสาร.md
+  - สถิติ: คำ = 1154, อักขระ = 12588, เชิงอรรถ = 4, ลิงก์ทั้งหมด = 9, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/METS/" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/1999/xlink" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/mix/v20" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/METS/ (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/mets/mets.xsd" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/1999/xlink"/ (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.loc.gov/standards/mets/ (The remote server returned an error: (429) Too Many Requests.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 10_การจัดการภาษาไทยและ_Non_Latin_ใน_XML.md
+  - สถิติ: คำ = 2084, อักขระ = 19848, เชิงอรรถ = 4, ลิงก์ทั้งหมด = 6, ลิงก์ผ่านการตรวจสอบ = 2
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4#" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 11_แนวปฏิบัติการสร้าง_Ground_Truth.md
+  - สถิติ: คำ = 1978, อักขระ = 20444, เชิงอรรถ = 4, ลิงก์ทั้งหมด = 4, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 12_TEI_XML_สำหรับมนุษยศาสตร์ดิจิทัล.md
+  - สถิติ: คำ = 1674, อักขระ = 19125, เชิงอรรถ = 4, ลิงก์ทั้งหมด = 7, ลิงก์ผ่านการตรวจสอบ = 2
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://creativecommons.org/licenses/by/4.0/" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://wikidata.org/wiki/Q379860" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/1999/XSL/Transform" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4#" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.tei-c.org/ns/1.0" (The remote server returned an error: (300) Multiple Choices Redirect.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 13_หลักการประยุกต์ใช้_XML_กับเอกสารโบราณเอเชีย.md
+  - สถิติ: คำ = 741, อักขระ = 10043, เชิงอรรถ = 4, ลิงก์ทั้งหมด = 8, ลิงก์ผ่านการตรวจสอบ = 1
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4#" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/1999/xlink" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4# (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/v4/alto-4-3.xsd" (The remote server returned an error: (429) Too Many Requests.)
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: 14_UseCase_คัมภีร์ทิเบต_ชวา_บาหลี.md
+  - สถิติ: คำ = 968, อักขระ = 13745, เชิงอรรถ = 4, ลิงก์ทั้งหมด = 8, ลิงก์ผ่านการตรวจสอบ = 2
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.oeaw.ac.at/projects/tibschol (The remote server returned an error: (403) Forbidden.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://github.com/OpenPecha/PechaBridge (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://perso.univ-lr.fr/jburie/ICFHR2016/download.html (The remote name could not be resolved: 'perso.univ-lr.fr')
+    [STATUS] ผ่านการตรวจสอบ
+
+ไฟล์: PAGE_XML_vs_ALTO_XML_Complete_Guide.md
+  - สถิติ: คำ = 4361, อักขระ = 27908, เชิงอรรถ = 12, ลิงก์ทั้งหมด = 28, ลิงก์ผ่านการตรวจสอบ = 15
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4#" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.w3.org/2001/XMLSchema-instance" (The remote server returned an error: (400) Bad Request.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/ns-v4# (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/v4/alto-4-4.xsd" (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15` (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.loc.gov/standards/alto/ (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): http://www.loc.gov/standards/alto/v4/alto-4-4.xsd (The remote server returned an error: (429) Too Many Requests.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://transkribus.org/ (The remote server returned an error: (308) Permanent Redirect.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://en.wikipedia.org/wiki/ALTO_(XML (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://en.wikipedia.org/wiki/PAGE_(XML (The remote server returned an error: (404) Not Found.)
+    [WARN] ไม่สามารถเข้าถึงลิงก์ได้ (เครือข่ายออฟไลน์ หรือโฮสต์ปลายทางขัดข้อง): https://www.loc.gov/standards/mets/ (The remote server returned an error: (429) Too Many Requests.)
+    [STATUS] ผ่านการตรวจสอบ
+
+--------------------------------------------------
+สรุปผลการตรวจสอบรวมโครงการ:
+  - จำนวนคำรวมสะสม: 94355 คำ
+  - จำนวนเชิงอรรถทั้งหมด: 226 รายการ
+  - จำนวนลิงก์อ้างอิงทั้งหมด: 422 รายการ
+  - จำนวนลิงก์ที่เข้าถึงได้จริง: 219 รายการ

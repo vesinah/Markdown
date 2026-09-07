@@ -1,0 +1,778 @@
+[
+  {
+    "id": "https://openalex.org/W2334856676",
+    "doi": "https://doi.org/10.4259/ibk.55.982",
+    "title": "The Chinese translator of the Fobenxing jing (_??__??__??__??_) and Sitianwang jing (_??__??__??__??_)",
+    "display_name": "The Chinese translator of the Fobenxing jing (_??__??__??__??_) and Sitianwang jing (_??__??__??__??_)",
+    "relevance_score": 1.8643501,
+    "publication_year": 2007,
+    "publication_date": "2007-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2334856676",
+      "doi": "https://doi.org/10.4259/ibk.55.982",
+      "mag": "2334856676"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.4259/ibk.55.982",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.4259/ibk.55.982",
+      "pdf_url": "https://www.jstage.jst.go.jp/article/ibk1952/55/2/55_2_982/_pdf",
+      "source": {
+        "id": "https://openalex.org/S2764402342",
+        "display_name": "JOURNAL OF INDIAN AND BUDDHIST STUDIES (INDOGAKU BUKKYOGAKU KENKYU)",
+        "issn_l": "0019-4344",
+        "issn": [
+          "0019-4344",
+          "1884-0051"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4322614523",
+        "host_organization_name": "Japanese Association of Indian and Buddhist Studies",
+        "host_organization_lineage": [
+          "https://openalex.org/P4322614523"
+        ],
+        "host_organization_lineage_names": [
+          "Japanese Association of Indian and Buddhist Studies"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "JOURNAL OF INDIAN AND BUDDHIST STUDIES (INDOGAKU BUKKYOGAKU KENKYU)",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://www.jstage.jst.go.jp/article/ibk1952/55/2/55_2_982/_pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5078079691",
+          "display_name": "Gijo Goto",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Gijo GOTO",
+        "raw_affiliation_strings": [
+          "広島真栄学"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "広島真栄学",
+            "institution_ids": []
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5078079691"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.26129116,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "55",
+      "issue": "2",
+      "first_page": "982",
+      "last_page": "978,1284"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13444",
+      "display_name": "Medical Research and Treatments",
+      "score": 0.9606999754905701,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2707",
+        "display_name": "Complementary and alternative medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13444",
+        "display_name": "Medical Research and Treatments",
+        "score": 0.9606999754905701,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2707",
+          "display_name": "Complementary and alternative medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/bigram",
+        "display_name": "Bigram",
+        "score": 0.7934908270835876
+      },
+      {
+        "id": "https://openalex.org/keywords/character",
+        "display_name": "Character (mathematics)",
+        "score": 0.7049757838249207
+      },
+      {
+        "id": "https://openalex.org/keywords/point",
+        "display_name": "Point (geometry)",
+        "score": 0.5923359394073486
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5112793445587158
+      },
+      {
+        "id": "https://openalex.org/keywords/linguistics",
+        "display_name": "Linguistics",
+        "score": 0.4901648461818695
+      },
+      {
+        "id": "https://openalex.org/keywords/basis",
+        "display_name": "Basis (linear algebra)",
+        "score": 0.4638168215751648
+      },
+      {
+        "id": "https://openalex.org/keywords/translation",
+        "display_name": "Translation (biology)",
+        "score": 0.4277433454990387
+      },
+      {
+        "id": "https://openalex.org/keywords/natural-language-processing",
+        "display_name": "Natural language processing",
+        "score": 0.3639077842235565
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.35017549991607666
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.17370915412902832
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C108757681",
+        "wikidata": "https://www.wikidata.org/wiki/Q2773912",
+        "display_name": "Bigram",
+        "level": 3,
+        "score": 0.7934908270835876
+      },
+      {
+        "id": "https://openalex.org/C2780861071",
+        "wikidata": "https://www.wikidata.org/wiki/Q1062934",
+        "display_name": "Character (mathematics)",
+        "level": 2,
+        "score": 0.7049757838249207
+      },
+      {
+        "id": "https://openalex.org/C28719098",
+        "wikidata": "https://www.wikidata.org/wiki/Q44946",
+        "display_name": "Point (geometry)",
+        "level": 2,
+        "score": 0.5923359394073486
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5112793445587158
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.4901648461818695
+      },
+      {
+        "id": "https://openalex.org/C12426560",
+        "wikidata": "https://www.wikidata.org/wiki/Q189569",
+        "display_name": "Basis (linear algebra)",
+        "level": 2,
+        "score": 0.4638168215751648
+      },
+      {
+        "id": "https://openalex.org/C149364088",
+        "wikidata": "https://www.wikidata.org/wiki/Q185917",
+        "display_name": "Translation (biology)",
+        "level": 4,
+        "score": 0.4277433454990387
+      },
+      {
+        "id": "https://openalex.org/C204321447",
+        "wikidata": "https://www.wikidata.org/wiki/Q30642",
+        "display_name": "Natural language processing",
+        "level": 1,
+        "score": 0.3639077842235565
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.35017549991607666
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.17370915412902832
+      },
+      {
+        "id": "https://openalex.org/C137546455",
+        "wikidata": "https://www.wikidata.org/wiki/Q3213474",
+        "display_name": "Trigram",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C2524010",
+        "wikidata": "https://www.wikidata.org/wiki/Q8087",
+        "display_name": "Geometry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C105580179",
+        "wikidata": "https://www.wikidata.org/wiki/Q188928",
+        "display_name": "Messenger RNA",
+        "level": 3,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.4259/ibk.55.982",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.4259/ibk.55.982",
+        "pdf_url": "https://www.jstage.jst.go.jp/article/ibk1952/55/2/55_2_982/_pdf",
+        "source": {
+          "id": "https://openalex.org/S2764402342",
+          "display_name": "JOURNAL OF INDIAN AND BUDDHIST STUDIES (INDOGAKU BUKKYOGAKU KENKYU)",
+          "issn_l": "0019-4344",
+          "issn": [
+            "0019-4344",
+            "1884-0051"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4322614523",
+          "host_organization_name": "Japanese Association of Indian and Buddhist Studies",
+          "host_organization_lineage": [
+            "https://openalex.org/P4322614523"
+          ],
+          "host_organization_lineage_names": [
+            "Japanese Association of Indian and Buddhist Studies"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "JOURNAL OF INDIAN AND BUDDHIST STUDIES (INDOGAKU BUKKYOGAKU KENKYU)",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.4259/ibk.55.982",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.4259/ibk.55.982",
+      "pdf_url": "https://www.jstage.jst.go.jp/article/ibk1952/55/2/55_2_982/_pdf",
+      "source": {
+        "id": "https://openalex.org/S2764402342",
+        "display_name": "JOURNAL OF INDIAN AND BUDDHIST STUDIES (INDOGAKU BUKKYOGAKU KENKYU)",
+        "issn_l": "0019-4344",
+        "issn": [
+          "0019-4344",
+          "1884-0051"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4322614523",
+        "host_organization_name": "Japanese Association of Indian and Buddhist Studies",
+        "host_organization_lineage": [
+          "https://openalex.org/P4322614523"
+        ],
+        "host_organization_lineage_names": [
+          "Japanese Association of Indian and Buddhist Studies"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "JOURNAL OF INDIAN AND BUDDHIST STUDIES (INDOGAKU BUKKYOGAKU KENKYU)",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2334856676.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2334856676.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W3173084154",
+      "https://openalex.org/W2982021180",
+      "https://openalex.org/W2251497876",
+      "https://openalex.org/W2241081188",
+      "https://openalex.org/W2128567707",
+      "https://openalex.org/W2011383762",
+      "https://openalex.org/W2035962958",
+      "https://openalex.org/W2146546639",
+      "https://openalex.org/W4327499987",
+      "https://openalex.org/W2353404991"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "paper": [
+        1,
+        72
+      ],
+      "is": [
+        2,
+        38,
+        135
+      ],
+      "part": [
+        3
+      ],
+      "of": [
+        4,
+        12,
+        33,
+        46,
+        57,
+        68,
+        76,
+        84,
+        87,
+        99,
+        108,
+        119,
+        139
+      ],
+      "my": [
+        5
+      ],
+      "overall": [
+        6
+      ],
+      "research": [
+        7
+      ],
+      "into": [
+        8,
+        36
+      ],
+      "the": [
+        9,
+        13,
+        19,
+        24,
+        44,
+        49,
+        85,
+        97,
+        106,
+        114,
+        117,
+        151,
+        159
+      ],
+      "Chinese": [
+        10,
+        37
+      ],
+      "translator": [
+        11
+      ],
+      "Wuliangshou": [
+        14,
+        34
+      ],
+      "jing": [
+        15,
+        26,
+        30,
+        35,
+        153
+      ],
+      "(_??__??__??__??_).": [
+        16
+      ],
+      "According": [
+        17
+      ],
+      "to": [
+        18,
+        40,
+        95,
+        125,
+        143
+      ],
+      "Sutra": [
+        20,
+        121
+      ],
+      "catalogue,": [
+        21
+      ],
+      "Bao-Yun": [
+        22
+      ],
+      "translated": [
+        23,
+        150,
+        158
+      ],
+      "Sitianwang": [
+        25,
+        152
+      ],
+      "(_??__??__??__??_)": [
+        27
+      ],
+      "and": [
+        28,
+        103,
+        154
+      ],
+      "Fobenxing": [
+        29,
+        160
+      ],
+      "(_??__??__??__??_).The": [
+        31
+      ],
+      "translation": [
+        32
+      ],
+      "ascribed": [
+        39
+      ],
+      "Baoyun": [
+        41
+      ],
+      "(_??__??_)": [
+        42
+      ],
+      "on": [
+        43
+      ],
+      "basis": [
+        45
+      ],
+      "resemblances": [
+        47
+      ],
+      "in": [
+        48,
+        113
+      ],
+      "terms": [
+        50,
+        88
+      ],
+      "with": [
+        51,
+        116
+      ],
+      "these": [
+        52,
+        58,
+        140
+      ],
+      "two": [
+        53
+      ],
+      "texts.": [
+        54
+      ],
+      "However,": [
+        55
+      ],
+      "both": [
+        56,
+        138
+      ],
+      "texts": [
+        59,
+        115
+      ],
+      "exhibit": [
+        60
+      ],
+      "too": [
+        61
+      ],
+      "great": [
+        62
+      ],
+      "a": [
+        63,
+        74,
+        81,
+        100,
+        144
+      ],
+      "difference": [
+        64
+      ],
+      "from": [
+        65
+      ],
+      "other": [
+        66
+      ],
+      "translations": [
+        67
+      ],
+      "Baoyun.": [
+        69
+      ],
+      "Therefore,": [
+        70
+      ],
+      "this": [
+        71,
+        77,
+        130
+      ],
+      "provides": [
+        73
+      ],
+      "reinvestigation": [
+        75
+      ],
+      "issue": [
+        78
+      ],
+      "by:(i)": [
+        79
+      ],
+      "Undertaking": [
+        80
+      ],
+      "comparative": [
+        82
+      ],
+      "analysis": [
+        83
+      ],
+      "frequency": [
+        86
+      ],
+      "used": [
+        89
+      ],
+      "within": [
+        90
+      ],
+      "each": [
+        91
+      ],
+      "text": [
+        92
+      ],
+      "so": [
+        93,
+        123
+      ],
+      "as": [
+        94,
+        124
+      ],
+      "determine": [
+        96,
+        126
+      ],
+      "probability": [
+        98
+      ],
+      "specific": [
+        101
+      ],
+      "translator;": [
+        102
+      ],
+      "(ii)": [
+        104
+      ],
+      "Cross-referencing": [
+        105
+      ],
+      "occurrence": [
+        107
+      ],
+      "bi-grams": [
+        109
+      ],
+      "(two": [
+        110
+      ],
+      "character": [
+        111
+      ],
+      "co-locations)": [
+        112
+      ],
+      "works": [
+        118
+      ],
+      "known": [
+        120
+      ],
+      "translators,": [
+        122
+      ],
+      "whose": [
+        127
+      ],
+      "bigram": [
+        128
+      ],
+      "usage": [
+        129
+      ],
+      "may": [
+        131
+      ],
+      "most": [
+        132
+      ],
+      "closely": [
+        133
+      ],
+      "approximate.It": [
+        134
+      ],
+      "argued": [
+        136
+      ],
+      "that": [
+        137
+      ],
+      "approaches": [
+        141
+      ],
+      "point": [
+        142
+      ],
+      "single": [
+        145
+      ],
+      "conclusion:": [
+        146
+      ],
+      "Kang": [
+        147
+      ],
+      "Senghui": [
+        148
+      ],
+      "(_??__??__??_)": [
+        149,
+        157
+      ],
+      "Zhu": [
+        155
+      ],
+      "Fahu": [
+        156
+      ],
+      "jing.": [
+        161
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-08-05T07:39:15.569665",
+    "created_date": "2025-10-10T00:00:00"
+  }
+]

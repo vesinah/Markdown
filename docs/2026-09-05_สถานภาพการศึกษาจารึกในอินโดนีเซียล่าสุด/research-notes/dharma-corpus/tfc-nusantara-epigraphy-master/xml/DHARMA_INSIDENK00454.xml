@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+         	<title>N. 454. Instruction to tax collectors at Wuang Got, ca. 875 CE</title>
+            <respStmt>
+               <resp key="creator">author of digital edition</resp>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>   
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Siem Reap</pubPlace>
+            <idno type="filename">DHARMA_INSIDENK00454.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                  	<p>Script very similar to that seen in Bulai and Marsemu.</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+      	 <change who="part:argr" when="2026-04-15" status="draft">revised encoding of punctuation, added rendition</change>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:axja" when="2020-03-27" status="draft">adding the handDesc template</change>
+         <change who="part:argr" when="2020-01-29" status="draft">initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="kaw-Latn" rendition="class:38769 maturity:83213">
+<pb n="1r"/><!--Blank outer page.-->
+<p part="I"><pb n="1v"/>
+	<lb n="1v1"/><g ref="sym:doubleBar-hooked" type="punctuation">.</g> pavaraḥ I soĀra saṁ maṅilala dravya haji kabaiḥ 
+kriṁ<g ref="sym:bullet-hollow" type="punctuation">.</g> 
+paḍam·<g ref="sym:bullet-hollow" type="punctuation">.</g> 
+pinilai<g ref="sym:bullet-hollow" type="punctuation">.</g> 
+kataṅgaran·<g ref="sym:bullet-hollow" type="punctuation">.</g> 
+halu varak·<g ref="sym:bullet-hollow" type="punctuation">.</g> 
+maṁrumvai<g ref="sym:bullet-hollow" type="punctuation">.</g> 
+	<lb n="1v2"/>paranakan·<g ref="sym:bullet-hollow" type="punctuation">.</g> 
+paravat·<g ref="sym:bullet-hollow" type="punctuation">.</g> 
+mahaliman·<g ref="sym:bullet-hollow" type="punctuation">.</g> 
+I<space type="descender"/>tyaivammādi saprakāra saṁ maṅilala dravya ha<space type="descender"/>ji kabaiḥ Ujar saṁ pamgat·
+	<lb n="1v3"/>makudur· majara sira I hananikana varahan· <space type="binding-hole"/> saṁ hyaṁ kudur· I vuAṁ got· vatag valā Ikana kunaṁ daiya saṁ maṅila<space type="descender"/>la
+	<lb n="1v4"/>dravya haji ka<space type="descender"/>baiḥ tar tamatāta<!-- tar tamata ata "not by any means"? Or vārtamavā ta? Or tar kamatā<na> ta? --> sira Aṅkāna<g ref="sym:bullet-hollow" type="punctuation">.</g>
+<!-- aṅkāna = ṅkāna, see Dalinan: ājñā haji kinonakan ikanaṅ masamvyavahāra *aṅkāna hīṅ-hīṅṅana kvaih(1v4)hanya paṇḍai mas -->
+ muAṁ saprakārani gavainya kabaiḥ 
+madagaṁ<g ref="sym:bullet-hollow" type="punctuation">.</g> 
+maṅulaṁ<g ref="sym:bullet-hollow" type="punctuation">.</g> 
+paṇḍai<g ref="sym:bullet-hollow" type="punctuation">.</g> 
+mañamvul·</p><!-- Arlo: is the text complete or not? If complete, remove part="I" from the opening <p> -->
+         </div>
+         <div type="apparatus">
+           <!--apparatus encoded as per EG §9.1, basic elements for apparatus below-->
+         </div>
+         <div type="translation" resp="part:argr">
+ 	<p>As for the duty of all collectors of royal revenue: they should by no means be present here.<note>We tentatively analyze <foreign>tartamatāta</foreign> as a double negation <foreign>tar tamata ata</foreign> <q>no, not at all</q>. The word <foreign>aṅkāna</foreign> is a spelling variant of <foreign>ṅkāna</foreign>. See the Dalinan charter (<ref target="DHARMA_INSIDENK00391.xml">N. 391</ref>), 1v3–3: <foreign>ājñā haji kinonakan ikanaṅ masamvyavahāra *aṅkāna hīṅ-hīṅṅana kvaihanya</foreign>.</note> And all of their occupations: selling, buying, forging, painting black <gap reason="lost"/></p>
+<!-- -->
+         </div>
+         <div type="commentary">
+            <p>The inscription is similar in physical appearance and in content to the <ref target="DHARMA_INSIDENKMarsemu.xml">Marsemu</ref> charter.</p>
+         </div>
+        <div type="bibliography">
+	<!--bibliography encoded as per section §9.4 -->
+	<p>Recently emerged on the antiquities market, the inscription is edited here for the first time from photographs of the plate.</p>
+            <!-- <listBibl type="secondary">  </listBibl>  -->
+        </div>
+      </body>
+  </text>
+</TEI>

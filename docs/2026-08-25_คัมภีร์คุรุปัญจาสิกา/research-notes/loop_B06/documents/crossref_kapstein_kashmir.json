@@ -1,0 +1,966 @@
+﻿{
+    "status":  "ok",
+    "message-type":  "work-list",
+    "message-version":  "1.0.0",
+    "message":  {
+                    "facets":  {
+
+                               },
+                    "total-results":  51145,
+                    "items":  [
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             8,
+                                                                             3
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-08-03T01:12:45Z",
+                                                      "timestamp":  1659489165098
+                                                  },
+                                      "reference-count":  0,
+                                      "publisher":  "Oxford University Press",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "published-print":  {
+                                                              "date-parts":  [
+                                                                                 [
+                                                                                     1997,
+                                                                                     7,
+                                                                                     24
+                                                                                 ]
+                                                                             ]
+                                                          },
+                                      "DOI":  "10.1093/acprof:oso/9780195113235.003.0007",
+                                      "type":  "book-chapter",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2011,
+                                                                             10,
+                                                                             11
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2011-10-11T20:23:32Z",
+                                                      "timestamp":  1318364612000
+                                                  },
+                                      "page":  "126-143",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "Where Should Primary Care Be Taught—and by Whom?"
+                                                ],
+                                      "prefix":  "10.1093",
+                                      "author":  [
+                                                     {
+                                                         "given":  "ERIC J.",
+                                                         "family":  "CASSELL",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "286",
+                                      "container-title":  [
+                                                              "Doctoring"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2022,
+                                                                               8,
+                                                                               3
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2022-08-03T00:30:19Z",
+                                                        "timestamp":  1659486619000
+                                                    },
+                                      "score":  24.595049,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://academic.oup.com/book/10226/chapter/157910256"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            1997,
+                                                                            7,
+                                                                            24
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.1093/acprof:oso/9780195113235.003.0007",
+                                      "published":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               1997,
+                                                                               7,
+                                                                               24
+                                                                           ]
+                                                                       ]
+                                                    }
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             3,
+                                                                             31
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-03-31T07:55:38Z",
+                                                      "timestamp":  1648713338825
+                                                  },
+                                      "reference-count":  0,
+                                      "publisher":  "Portico",
+                                      "issue":  "6",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "published-print":  {
+                                                              "date-parts":  [
+                                                                                 [
+                                                                                     1981,
+                                                                                     6
+                                                                                 ]
+                                                                             ]
+                                                          },
+                                      "DOI":  "10.1037/020246",
+                                      "type":  "journal-article",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2006,
+                                                                             11,
+                                                                             20
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2006-11-20T21:06:12Z",
+                                                      "timestamp":  1164056772000
+                                                  },
+                                      "page":  "427-427",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "Project Nim: Who taught whom?"
+                                                ],
+                                      "prefix":  "10.3730",
+                                      "volume":  "26",
+                                      "author":  [
+                                                     {
+                                                         "suffix":  "Jr.",
+                                                         "given":  "E. W.",
+                                                         "family":  "Menzel",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "1320",
+                                      "container-title":  [
+                                                              "Contemporary Psychology: A Journal of Reviews"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               4,
+                                                                               18
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-04-18T13:58:58Z",
+                                                        "timestamp":  1524059938000
+                                                    },
+                                      "score":  22.484015,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "http://access.portico.org/stable?au=phzkhhh41"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            1981,
+                                                                            6
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "journal-issue":  {
+                                                            "issue":  "6",
+                                                            "published-print":  {
+                                                                                    "date-parts":  [
+                                                                                                       [
+                                                                                                           1981,
+                                                                                                           6
+                                                                                                       ]
+                                                                                                   ]
+                                                                                }
+                                                        },
+                                      "URL":  "https://doi.org/10.1037/020246",
+                                      "ISSN":  [
+                                                   "0010-7549"
+                                               ],
+                                      "issn-type":  [
+                                                        {
+                                                            "value":  "0010-7549",
+                                                            "type":  "print"
+                                                        }
+                                                    ],
+                                      "published-other":  {
+                                                              "date-parts":  [
+                                                                                 [
+                                                                                     1981,
+                                                                                     6
+                                                                                 ]
+                                                                             ]
+                                                          },
+                                      "published":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               1981,
+                                                                               6
+                                                                           ]
+                                                                       ]
+                                                    }
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2023,
+                                                                             10,
+                                                                             20
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2023-10-20T01:22:30Z",
+                                                      "timestamp":  1697764950410
+                                                  },
+                                      "reference-count":  0,
+                                      "publisher":  "Portico",
+                                      "issue":  "6",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "published-print":  {
+                                                              "date-parts":  [
+                                                                                 [
+                                                                                     1981,
+                                                                                     6
+                                                                                 ]
+                                                                             ]
+                                                          },
+                                      "DOI":  "10.1037/020245",
+                                      "type":  "journal-article",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2006,
+                                                                             11,
+                                                                             20
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2006-11-20T16:06:12Z",
+                                                      "timestamp":  1164038772000
+                                                  },
+                                      "page":  "425-426",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  6,
+                                      "title":  [
+                                                    "Project Nim: Who taught whom?"
+                                                ],
+                                      "prefix":  "10.3730",
+                                      "volume":  "26",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Beatrix T.",
+                                                         "family":  "Gardner",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "1320",
+                                      "container-title":  [
+                                                              "Contemporary Psychology: A Journal of Reviews"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2018,
+                                                                               4,
+                                                                               18
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2018-04-18T21:47:05Z",
+                                                        "timestamp":  1524088025000
+                                                    },
+                                      "score":  22.393755,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "http://access.portico.org/stable?au=phzkhhngn"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            1981,
+                                                                            6
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "journal-issue":  {
+                                                            "issue":  "6",
+                                                            "published-print":  {
+                                                                                    "date-parts":  [
+                                                                                                       [
+                                                                                                           1981,
+                                                                                                           6
+                                                                                                       ]
+                                                                                                   ]
+                                                                                }
+                                                        },
+                                      "URL":  "https://doi.org/10.1037/020245",
+                                      "ISSN":  [
+                                                   "0010-7549"
+                                               ],
+                                      "issn-type":  [
+                                                        {
+                                                            "value":  "0010-7549",
+                                                            "type":  "print"
+                                                        }
+                                                    ],
+                                      "published-other":  {
+                                                              "date-parts":  [
+                                                                                 [
+                                                                                     1981,
+                                                                                     6
+                                                                                 ]
+                                                                             ]
+                                                          },
+                                      "published":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               1981,
+                                                                               6
+                                                                           ]
+                                                                       ]
+                                                    }
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             7,
+                                                                             9
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-07-09T12:34:53Z",
+                                                      "timestamp":  1657370093653
+                                                  },
+                                      "reference-count":  0,
+                                      "publisher":  "International Association for Statistical Education",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "abstract":  "\u003cjats:p\u003eResearchers quite often need to model and analyse real-world random phenomena using stochastic processes. Learning stochastic processes requires a good knowledge of the probability theory, calculus, matrix algebra and a general level of mathematical maturity. However, not all researchers have a good foundation in probability and mathematics. In this paper, we discuss the different approaches to the teaching of a first course in stochastic processes to researchers. Difficulties in the understanding of stochastic processes and the various mathematical techniques used in stochastic processes are discussed. Proposal for the core topics of such a course and ways of teaching them are put forward.\u003c/jats:p\u003e",
+                                      "DOI":  "10.52041/srap.00106",
+                                      "type":  "proceedings-article",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             6,
+                                                                             29
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-06-29T21:12:59Z",
+                                                      "timestamp":  1656537179000
+                                                  },
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "How much can be taught about stochastic processes and to whom?"
+                                                ],
+                                      "prefix":  "10.52041",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Ann-Lee",
+                                                         "family":  "Wang",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "28999",
+                                      "published-online":  {
+                                                               "date-parts":  [
+                                                                                  [
+                                                                                      2000,
+                                                                                      12,
+                                                                                      30
+                                                                                  ]
+                                                                              ]
+                                                           },
+                                      "event":  {
+                                                    "name":  "Training Researchers in the Use if Statistics"
+                                                },
+                                      "container-title":  [
+                                                              "Training Researchers in the Use of Statistics IASE Roundtable Conference"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2022,
+                                                                               6,
+                                                                               29
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2022-06-29T21:13:02Z",
+                                                        "timestamp":  1656537182000
+                                                    },
+                                      "score":  21.516064,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://iase-web.org/documents/papers/rt2000/073.pdf?1402524985"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2000,
+                                                                            12,
+                                                                            30
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.52041/srap.00106",
+                                      "published":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2000,
+                                                                               12,
+                                                                               30
+                                                                           ]
+                                                                       ]
+                                                    }
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2024,
+                                                                             9,
+                                                                             7
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2024-09-07T02:43:30Z",
+                                                      "timestamp":  1725677010482
+                                                  },
+                                      "reference-count":  35,
+                                      "publisher":  "Informa UK Limited",
+                                      "issue":  "1",
+                                      "license":  [
+                                                      {
+                                                          "start":  {
+                                                                        "date-parts":  [
+                                                                                           "1993 3 1"
+                                                                                       ],
+                                                                        "date-time":  "1993-03-01T00:00:00Z",
+                                                                        "timestamp":  730944000000
+                                                                    },
+                                                          "content-version":  "tdm",
+                                                          "delay-in-days":  0,
+                                                          "URL":  "http://doi.wiley.com/10.1002/tdm_license_1.1"
+                                                      },
+                                                      {
+                                                          "start":  {
+                                                                        "date-parts":  [
+                                                                                           "2011 3 9"
+                                                                                       ],
+                                                                        "date-time":  "2011-03-09T00:00:00Z",
+                                                                        "timestamp":  1299628800000
+                                                                    },
+                                                          "content-version":  "vor",
+                                                          "delay-in-days":  6582,
+                                                          "URL":  "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+                                                      }
+                                                  ],
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "short-container-title":  [
+                                                                    "Australian Psychologist"
+                                                                ],
+                                      "published-print":  {
+                                                              "date-parts":  [
+                                                                                 [
+                                                                                     1993,
+                                                                                     3,
+                                                                                     1
+                                                                                 ]
+                                                                             ]
+                                                          },
+                                      "DOI":  "10.1080/00050069308258867",
+                                      "type":  "journal-article",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2007,
+                                                                             9,
+                                                                             28
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2007-09-28T21:39:25Z",
+                                                      "timestamp":  1191015565000
+                                                  },
+                                      "page":  "51-54",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  7,
+                                      "title":  [
+                                                    "To whom should cognitive-behaviour therapies be taught?"
+                                                ],
+                                      "prefix":  "10.1080",
+                                      "volume":  "28",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Andrew C.",
+                                                         "family":  "Page",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+                                                                             {
+                                                                                 "name":  "Clinical Research Unit for Anxiety Disorders University of New South Wales at St. Vincent\u0027s Hospital"
+                                                                             }
+                                                                         ],
+                                                         "role":  [
+                                                                      {
+                                                                          "role":  "author",
+                                                                          "vocabulary":  "crossref"
+                                                                      }
+                                                                  ]
+                                                     }
+                                                 ],
+                                      "member":  "301",
+                                      "published-online":  {
+                                                               "date-parts":  [
+                                                                                  [
+                                                                                      2007,
+                                                                                      9,
+                                                                                      28
+                                                                                  ]
+                                                                              ]
+                                                           },
+                                      "reference":  [
+                                                        {
+                                                            "key":  "CIT0001",
+                                                            "doi-asserted-by":  "crossref",
+                                                            "first-page":  "379",
+                                                            "DOI":  "10.1097/00001504-199106000-00004",
+                                                            "volume":  "4",
+                                                            "author":  "Andrews G.",
+                                                            "year":  "1991",
+                                                            "journal-title":  "Current Opinion of Psychiatry"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0002",
+                                                            "doi-asserted-by":  "crossref",
+                                                            "first-page":  "845",
+                                                            "DOI":  "10.5694/j.1326-5377.1991.tb94061.x",
+                                                            "volume":  "155",
+                                                            "author":  "Andrews G.",
+                                                            "year":  "1991",
+                                                            "journal-title":  "The Medical Journal of Australia"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0003",
+                                                            "doi-asserted-by":  "crossref",
+                                                            "first-page":  "153",
+                                                            "DOI":  "10.3109/00048678809158955",
+                                                            "volume":  "22",
+                                                            "author":  "Andrews G.",
+                                                            "year":  "1988",
+                                                            "journal-title":  "Australian and New Zealand Journal of Psychiatry"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0004",
+                                                            "volume-title":  "The scientist-practitioner: Research and accountability in clinical and educational settings.",
+                                                            "author":  "Barlow D. H.",
+                                                            "year":  "1984"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0005",
+                                                            "volume-title":  "Cognitive therapy of depression.",
+                                                            "author":  "Beck A. T.",
+                                                            "year":  "1979"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0006",
+                                                            "doi-asserted-by":  "crossref",
+                                                            "first-page":  "101",
+                                                            "DOI":  "10.1016/0005-7967(83)90153-5",
+                                                            "volume":  "21",
+                                                            "author":  "Bellack A. S.",
+                                                            "year":  "1983",
+                                                            "journal-title":  "Behaviour Research and Therapy"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0007",
+                                                            "doi-asserted-by":  "crossref",
+                                                            "first-page":  "181",
+                                                            "DOI":  "10.1192/bjp.139.3.181",
+                                                            "volume":  "139",
+                                                            "author":  "Blackburn M.",
+                                                            "year":  "1981",
+                                                            "journal-title":  "British Journal of Psychiatry"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0008",
+                                                            "volume-title":  "Cognitive-behaviour therapy: Report to the WHO scientific group on treatment of psychiatric disorders",
+                                                            "author":  "Cottraux J."
+                                                        },
+                                                        {
+                                                            "key":  "CIT0009",
+                                                            "doi-asserted-by":  "crossref",
+                                                            "first-page":  "23",
+                                                            "DOI":  "10.1097/00001504-199102000-00006",
+                                                            "volume":  "4",
+                                                            "author":  "Flaherty J. A.",
+                                                            "year":  "1991",
+                                                            "journal-title":  "Current Opinion in Psychiatry"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0010",
+                                                            "volume-title":  "Cognitive-behaviour therapies for psychiatric problems: A practical guide.",
+                                                            "author":  "Hawton K.",
+                                                            "year":  "1989"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0011",
+                                                            "volume-title":  "Problem drinking.",
+                                                            "author":  "Heather N.",
+                                                            "year":  "1989"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0012",
+                                                            "volume-title":  "Fighting with food: Overcoming bulimia nervosa.",
+                                                            "author":  "Huon G. F.",
+                                                            "year":  "1989"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0013",
+                                                            "volume-title":  "Marital therapy: Strategies based on social learning and behavior exchange principles.",
+                                                            "author":  "Jacobson N. S.",
+                                                            "year":  "1979"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0014",
+                                                            "volume-title":  "The principles of psychology.",
+                                                            "author":  "James W.",
+                                                            "year":  "1890"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0015",
+                                                            "volume-title":  "Control your depression.",
+                                                            "author":  "Lewinsohn P. M.",
+                                                            "year":  "1986"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0016",
+                                                            "volume-title":  "Psychiatric rehabilitation of chronic mental patients.",
+                                                            "author":  "Lieberman R. P.",
+                                                            "year":  "1988"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0017",
+                                                            "doi-asserted-by":  "crossref",
+                                                            "first-page":  "321",
+                                                            "DOI":  "10.1111/j.2044-8260.1982.tb00570.x",
+                                                            "volume":  "21",
+                                                            "author":  "Linton S. J.",
+                                                            "year":  "1982",
+                                                            "journal-title":  "British Journal of Clinical Psychology"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0018",
+                                                            "doi-asserted-by":  "crossref",
+                                                            "first-page":  "843",
+                                                            "DOI":  "10.5694/j.1326-5377.1991.tb94060.x",
+                                                            "volume":  "155",
+                                                            "author":  "Lonie I.",
+                                                            "year":  "1991",
+                                                            "journal-title":  "Medical Journal of Australia"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0019",
+                                                            "volume-title":  "Living with fear.",
+                                                            "author":  "Marks I. M.",
+                                                            "year":  "1978"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0020",
+                                                            "volume-title":  "Fears, phobias and rituals.",
+                                                            "author":  "Marks I. M.",
+                                                            "year":  "1987"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0021",
+                                                            "doi-asserted-by":  "crossref",
+                                                            "first-page":  "84",
+                                                            "DOI":  "10.1037/0033-2909.98.1.84",
+                                                            "volume":  "98",
+                                                            "author":  "Miller W. R.",
+                                                            "year":  "1985",
+                                                            "journal-title":  "Psychological Bulletin"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0022",
+                                                            "volume-title":  "How to control your drinking.",
+                                                            "author":  "Miller W. R.",
+                                                            "year":  "1976"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0023",
+                                                            "doi-asserted-by":  "crossref",
+                                                            "first-page":  "153",
+                                                            "DOI":  "10.3109/00048678209159972",
+                                                            "volume":  "16",
+                                                            "year":  "1982",
+                                                            "journal-title":  "Australian and New Zealand Journal of Psychiatry"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0024",
+                                                            "doi-asserted-by":  "publisher",
+                                                            "DOI":  "10.3109/00048678209159467"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0025",
+                                                            "doi-asserted-by":  "publisher",
+                                                            "DOI":  "10.3109/00048678309159997"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0026",
+                                                            "doi-asserted-by":  "publisher",
+                                                            "DOI":  "10.3109/00048678409161034"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0027",
+                                                            "first-page":  "138",
+                                                            "volume":  "19",
+                                                            "year":  "1985",
+                                                            "journal-title":  "Australian and New Zealand Journal of Psychiatry"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0028",
+                                                            "doi-asserted-by":  "publisher",
+                                                            "DOI":  "10.3109/00048678509158829"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0029",
+                                                            "first-page":  "397",
+                                                            "volume":  "19",
+                                                            "year":  "1986",
+                                                            "journal-title":  "Australian and New Zealand Journal of Psychiatry"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0030",
+                                                            "doi-asserted-by":  "crossref",
+                                                            "first-page":  "331",
+                                                            "DOI":  "10.3109/00048679009077700",
+                                                            "volume":  "24",
+                                                            "year":  "1990",
+                                                            "journal-title":  "Australian and New Zealand Journal of Psychiatry"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0031",
+                                                            "doi-asserted-by":  "publisher",
+                                                            "DOI":  "10.3109/00048679109062642"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0032",
+                                                            "doi-asserted-by":  "crossref",
+                                                            "first-page":  "390",
+                                                            "DOI":  "10.1037/0022-006X.52.3.390",
+                                                            "volume":  "52",
+                                                            "author":  "Sanchez-Craig M.",
+                                                            "year":  "1984",
+                                                            "journal-title":  "Journal of Consulting and Clinical Psychology"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0033",
+                                                            "doi-asserted-by":  "crossref",
+                                                            "first-page":  "505",
+                                                            "DOI":  "10.1111/j.1360-0443.1986.tb00362.x",
+                                                            "volume":  "81",
+                                                            "author":  "Sanchez-Craig M.",
+                                                            "year":  "1986",
+                                                            "journal-title":  "British Journal of Addiction"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0034",
+                                                            "first-page":  "502",
+                                                            "volume-title":  "Clinical handbook of psychological disorders: A step-by-step treatment manual",
+                                                            "author":  "Turkat I. D.",
+                                                            "year":  "1985"
+                                                        },
+                                                        {
+                                                            "key":  "CIT0035",
+                                                            "doi-asserted-by":  "crossref",
+                                                            "first-page":  "473",
+                                                            "DOI":  "10.1097/00005053-199108000-00004",
+                                                            "volume":  "179",
+                                                            "author":  "Welkowitz L. A.",
+                                                            "year":  "1991",
+                                                            "journal-title":  "The Journal of Nervous and Mental Disease"
+                                                        }
+                                                    ],
+                                      "container-title":  [
+                                                              "Australian Psychologist"
+                                                          ],
+                                      "language":  "en",
+                                      "link":  [
+                                                   {
+                                                       "URL":  "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1080%2F00050069308258867",
+                                                       "content-type":  "unspecified",
+                                                       "content-version":  "vor",
+                                                       "intended-application":  "text-mining"
+                                                   },
+                                                   {
+                                                       "URL":  "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1080%2F00050069308258867",
+                                                       "content-type":  "application/pdf",
+                                                       "content-version":  "vor",
+                                                       "intended-application":  "text-mining"
+                                                   },
+                                                   {
+                                                       "URL":  "https://www.tandfonline.com/doi/pdf/10.1080/00050069308258867",
+                                                       "content-type":  "unspecified",
+                                                       "content-version":  "vor",
+                                                       "intended-application":  "similarity-checking"
+                                                   }
+                                               ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2021,
+                                                                               7,
+                                                                               20
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2021-07-20T08:54:50Z",
+                                                        "timestamp":  1626771290000
+                                                    },
+                                      "score":  21.468925,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://www.tandfonline.com/doi/full/10.1080/00050069308258867"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            1993,
+                                                                            3,
+                                                                            1
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  35,
+                                      "journal-issue":  {
+                                                            "issue":  "1",
+                                                            "published-print":  {
+                                                                                    "date-parts":  [
+                                                                                                       [
+                                                                                                           1993,
+                                                                                                           3,
+                                                                                                           1
+                                                                                                       ]
+                                                                                                   ]
+                                                                                }
+                                                        },
+                                      "alternative-id":  [
+                                                             "10.1080/00050069308258867"
+                                                         ],
+                                      "URL":  "https://doi.org/10.1080/00050069308258867",
+                                      "ISSN":  [
+                                                   "0005-0067",
+                                                   "1742-9544"
+                                               ],
+                                      "issn-type":  [
+                                                        {
+                                                            "value":  "0005-0067",
+                                                            "type":  "print"
+                                                        },
+                                                        {
+                                                            "value":  "1742-9544",
+                                                            "type":  "electronic"
+                                                        }
+                                                    ],
+                                      "published":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               1993,
+                                                                               3,
+                                                                               1
+                                                                           ]
+                                                                       ]
+                                                    }
+                                  }
+                              ],
+                    "items-per-page":  5,
+                    "query":  {
+                                  "start-index":  0,
+                                  "search-terms":  null
+                              }
+                }
+}

@@ -1,0 +1,80 @@
+﻿{
+    "responseHeader":  {
+                           "status":  0,
+                           "QTime":  49,
+                           "params":  {
+                                          "query":  "text:nissaya OR text:nissaya OR text__reviews:nissaya",
+                                          "qin":  "nissaya",
+                                          "fields":  "identifier,title,creator,year",
+                                          "wt":  "json",
+                                          "rows":  15,
+                                          "start":  0
+                                      }
+                       },
+    "response":  {
+                     "numFound":  678,
+                     "start":  0,
+                     "docs":  [
+                                  {
+                                      "identifier":  "bdrc-W1FPL7406",
+                                      "title":  "bdrc-W1FPL7406"
+                                  },
+                                  {
+                                      "identifier":  "bdrc-W1FPL8083",
+                                      "title":  "bdrc-W1FPL8083"
+                                  },
+                                  {
+                                      "identifier":  "bdrc-W1FPL8450",
+                                      "title":  "Sāratthadīpanī ṭīkā pāṭh"
+                                  },
+                                  {
+                                      "identifier":  "bdrc-W1FPL8453",
+                                      "title":  "Sussīlakkhan pāḷi-tō nisya"
+                                  },
+                                  {
+                                      "identifier":  "bdrc-W1FPL8165",
+                                      "title":  "bdrc-W1FPL8165"
+                                  },
+                                  {
+                                      "identifier":  "bdrc-W1FPL8601",
+                                      "title":  "Parivā nissyya"
+                                  },
+                                  {
+                                      "identifier":  "bdrc-W1FPL1806",
+                                      "title":  "dhammasaṅgaṇī pāḷi-tō nissaya--bhikkhukaṅkhā pāṭh"
+                                  },
+                                  {
+                                      "identifier":  "bdrc-W1FPL1812",
+                                      "title":  "cũḷavā nissya / ratanamañjũsa lak paṃ kyam--abhidhammatthasaṅgruih nissaya"
+                                  },
+                                  {
+                                      "identifier":  "bdrc-W1FPL2687",
+                                      "title":  "Saddanīti nissaya"
+                                  },
+                                  {
+                                      "identifier":  "bdrc-W1FPL2700",
+                                      "title":  "Ṭīkā-kyō nissya"
+                                  },
+                                  {
+                                      "identifier":  "bdrc-W1FPL3064",
+                                      "title":  "Vinañ: saṅgruih nissyya"
+                                  },
+                                  {
+                                      "identifier":  "bdrc-W1FPL3232",
+                                      "title":  "Abhidhān nissya"
+                                  },
+                                  {
+                                      "identifier":  "bdrc-W1FPL3260",
+                                      "title":  "Kaṅkhā nissya"
+                                  },
+                                  {
+                                      "identifier":  "bdrc-W1FPL3541",
+                                      "title":  "Parivā nisya"
+                                  },
+                                  {
+                                      "identifier":  "bdrc-W1FPL3267",
+                                      "title":  "Dhammapada aṭṭhakathā naṃ"
+                                  }
+                              ]
+                 }
+}

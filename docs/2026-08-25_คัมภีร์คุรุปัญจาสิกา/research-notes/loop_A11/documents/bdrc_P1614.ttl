@@ -1,0 +1,161 @@
+﻿@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:EV262FC92299EE0D4D
+   a             bdo:PersonAssumesOffice ;
+   bdo:eventWhen  "1172"^^<http://id.loc.gov/datatypes/edtf/EDTF> ;
+   bdo:eventWhere  bdr:G210 ;
+   bdo:onYear    "1172"^^xsd:gYear ;
+   bdo:role      bdr:R3AG23 .
+
+bdr:EV644845E31DEC759E
+   a             bdo:PersonLeavesOffice ;
+   bdo:eventWhen  "1215"^^<http://id.loc.gov/datatypes/edtf/EDTF> ;
+   bdo:eventWhere  bdr:G210 ;
+   bdo:onYear    "1215"^^xsd:gYear ;
+   bdo:role      bdr:R3AG23 .
+
+bdr:EV7B224762BF361BD9
+   a             bdo:PersonBirth ;
+   bdo:eventWhen  "1147"^^<http://id.loc.gov/datatypes/edtf/EDTF> ;
+   bdo:onYear    "1147"^^xsd:gYear .
+
+bdr:EVA367AF4450ADC1DA
+   a             bdo:PersonOccupiesSeat ;
+   bdo:eventWhere  bdr:G210 .
+
+bdr:EVB72E846B786E4AE5
+   a             bdo:PersonDeath ;
+   bdo:eventWhen  "1216"^^<http://id.loc.gov/datatypes/edtf/EDTF> ;
+   bdo:onYear    "1216"^^xsd:gYear .
+
+bdr:NM1246B2AD2A901B76
+   a             bdo:PersonPersonalName ;
+   rdfs:label    "blo gros chen po/"@bo-x-ewts .
+
+bdr:NM1D4363013BDA1DF1
+   a             bdo:PersonTitle ;
+   rdfs:label    "sa skya rje btsun grags pa rgyal mtshan/"@bo-x-ewts .
+
+bdr:NM91364ED0D64AB77D
+   a             bdo:PersonPrimaryName ;
+   rdfs:label    "grags pa rgyal mtshan/"@bo-x-ewts .
+
+bdr:NMAFD4B5F0A4A5C3F9
+   a             bdo:PersonOfficeTitle ;
+   rdfs:label    "sa skya khri 'dzin 05"@bo-x-ewts .
+
+bdr:NMB59B75DAAF3DEDFA
+   a             bdo:PersonTitle ;
+   rdfs:label    "sa skya khri chen 05"@bo-x-ewts .
+
+bdr:NMDEBD52105C4DAA18
+   a             bdo:PersonTitle ;
+   rdfs:label    "sa skya gong ma/"@bo-x-ewts .
+
+bdr:NMF39C97FB4BCAA03F
+   a             bdo:PersonPrimaryTitle ;
+   rdfs:label    "rje btsun grags pa rgyal mtshan/"@bo-x-ewts .
+
+bdr:NT0C9290BEA127526D
+   a             bdo:Note ;
+   bdo:noteText  "teacher/student lineage dpal mgon bran du gtad pa bram ze nag po 'i man ngag gi rjes gnang, Pha bong gsan yig, v. 1, pp..157\nGsung 'bum in 4 volumes.\nBuilt the Dbu-rtse Rnying-pa Gtsug-lag-khang.\nCalligraphed a golden Bka'-'gyur."@en .
+
+bdr:NT0F975F3BC7C73801
+   a             bdo:Note ;
+   bdo:contentLocationStatement  "p. 2285" ;
+   bdo:noteSource  bdr:MW26372 ;
+   bdo:noteText  "1216. sa skya'i rje btsun grags pa rgyal mtshan gyis <<bstan rtis>> mdzad cing mi ring bar sku gshegs"@en .
+
+bdr:NT51ED2DD67950612C
+   a             bdo:Note ;
+   bdo:contentLocationStatement  "p. 108" ;
+   bdo:noteSource  bdr:MW19835 ;
+   bdo:noteText  "bibliography\nmentions his major treatise on medicine"@en .
+
+bdr:NT520BD533518A509D
+   a             bdo:Note ;
+   bdo:contentLocationStatement  "p. 144" ;
+   bdo:noteSource  bdr:MW19854 ;
+   bdo:noteText  "dates"@en .
+
+bdr:NT73866E0150509E6E
+   a             bdo:Note ;
+   bdo:contentLocationStatement  "p. 658" ;
+   bdo:noteSource  bdr:MW19801 ;
+   bdo:noteText  "biodata"@en .
+
+bdr:NTC72A35971C6C7693
+   a             bdo:Note ;
+   bdo:contentLocationStatement  "p. 49" ;
+   bdo:noteSource  bdr:MW28065 ;
+   bdo:noteText  "one of the disciples of sa chen kun dga' snying po; he belonged to the group known as the \"bzod pa thob pa bdun\"\n\nthe third of the five patriarchs of the sa skya tradition (sa skya gong ma rnam lnga)\ngsung 'bum in 4 volumes.\nbuilt the dbu rtse rnying ma gtsug lag khang\ncalligraphed a golden bka' 'gyur\n\nwritings: lam 'bras brgyud pa'i gsol 'debs/ brtag gnyis kyi 'grel pa dag ldan/ rgyud gsum gyi mngon rtogs rin po che'i ljon shing/ rgyud sde'i dum bu brgya bcu gsum pa/ stong thun sa bcad/ rje btsun sa skya pa chen po'i rnam thar/ slob dpon rin po che'i rnam thar tshigs bcad ma/ rje btsun nyid kyi mnal lam gyi rnam thar/ rgyud 'bum gyi dkar chag/ bla chen mal gyi chos skor gyi dkar chag/ kyai rdo rje'i chos skor gyi dkar chag/ tshar gsum khug pa'i man ngag/ kyai rdo rje'i mngon rtogs yan lag drug pa/ ba ri lo tsA ba'i lugs kyi kyai rdor dpa' gcig/ mngon rtogs yan lag drug pa/ dad ston rdo rje grags la gdams pa/ kyai rdor las bzhi'i sbyin sreg gi cho ga/ rdo rje bdag med ma'i mngon rtogs/ lam 'bras brgyud pa'i gsol 'debs chung ba gcig/ kyai rdo rje'i dkyil 'khor bkra shis/ dus tha ma'i cho ga/ kyai rdo rje'i bstod pa daN+Da ka/ bdag med ma'i bstod pa dang de'i sa bcad/mi g.yo sngon po la bstod pa/ rdo rje gur gyi sa bcad/ 'grel pa gur rgyan/gur gyi thig gi gsal byed/ ku ru ku l+le'i sgrub thabs/ dpal he ru ka'i chas drug/ rdor dril gyi mtshan nyid/ de nyid gsum pa/ bla ma lnga bcu pa'i TI ka/ rtsa ltung gi 'grel pa 'khrul pa spong ba/ dpal he ru ka'i byung tshul/ bde mchog lU hi pa'i sgrub thabs/ nag po pa'i dkyil chog gi 'grel pa/ nag po pa'i dkyil chog/ nag po gzhung drug gi sa bcad/ dril bu pa'i lo rgyus dang sgrub thabs/ las bcu'i gdams ngag/ tshogs mchod mdor bsdus/ sman chen po'i bcud len/rdzogs rim rtsa dbu ma'i khrid yig/ rdo rje 'jigs byed kyi bstod pa/ spyod rgyud gzhan phan spyi chings/ kun rig gi cho ga gzhan phan 'od zer/ 'jam dbyangs kyi bstod pa rgyud gsum 'khor lo/ 'jam dpal mtshan brjod 'don thabs/ bsrung pa bri tshul/ phyag na rdo rje'i gzungs kyi man ngag rgyas par bshad pa/ las tshogs nyi shu rtsa gcig gi gzhung gi TI ka/ shAkya'i rgyal po'i gdung rabs/ bod kyi rgyal po'i rgyal rabs mdor bsdus pa/ dus tshod nges par bzung ba'i rtsis sogs mang ngo\n\ndharma activities: dbu rtse rnying mar grags pa'i gtsug lag khang bzhengs/ bla ma dkon mchog rgyal po'i nang rten gser gyi gdung khang/ bla ma sa chen gyi nang rten bkra shis sgo mang/ slob dpon rin po che dang gcung gi nang rten gser sku rnams bzhengs"@en .
+
+bdr:P1614  a     bdo:Person ;
+   skos:prefLabel  "rje btsun grags pa rgyal mtshan/"@bo-x-ewts ;
+   bdo:associatedTradition  bdr:TraditionSakya ;
+   bdo:hasBrother  bdr:P1618 , bdr:P3640 ;
+   bdo:hasFather  bdr:P1615 ;
+   bdo:hasMother  bdr:P1616 ;
+   bdo:hasNephew  bdr:P1056 ;
+   bdo:hasNibling  bdr:P1056 ;
+   bdo:hasOlderBrother  bdr:P1618 ;
+   bdo:hasParent  bdr:P1615 , bdr:P1616 ;
+   bdo:hasSibling  bdr:P1618 , bdr:P3640 ;
+   bdo:hasYoungerBrother  bdr:P3640 ;
+   bdo:kinWith   bdr:P1056 , bdr:P1615 , bdr:P1616 , bdr:P1618 , bdr:P3640 ;
+   bdo:note      bdr:NT0C9290BEA127526D , bdr:NT0F975F3BC7C73801 , bdr:NT51ED2DD67950612C , bdr:NT520BD533518A509D , bdr:NT73866E0150509E6E , bdr:NTC72A35971C6C7693 ;
+   bdo:personEvent  bdr:EV262FC92299EE0D4D , bdr:EV644845E31DEC759E , bdr:EV7B224762BF361BD9 , bdr:EVA367AF4450ADC1DA , bdr:EVB72E846B786E4AE5 ;
+   bdo:personGender  bdr:GenderMale ;
+   bdo:personName  bdr:NM1246B2AD2A901B76 , bdr:NM1D4363013BDA1DF1 , bdr:NM91364ED0D64AB77D , bdr:NMAFD4B5F0A4A5C3F9 , bdr:NMB59B75DAAF3DEDFA , bdr:NMDEBD52105C4DAA18 , bdr:NMF39C97FB4BCAA03F ;
+   bdo:personStudentOf  bdr:P0RK1159 , bdr:P0RK251 , bdr:P0RK645 , bdr:P0RK712 , bdr:P10172 , bdr:P10183 , bdr:P10184 , bdr:P10185 , bdr:P1615 , bdr:P1617 , bdr:P1618 , bdr:P6099 , bdr:P7878 ;
+   bdo:personTeacherOf  bdr:P0RK102 , bdr:P0RK1779 , bdr:P0RK368 , bdr:P0RK406 , bdr:P0RK905 , bdr:P10169 , bdr:P1056 , bdr:P10601 , bdr:P10603 , bdr:P10604 , bdr:P10605 , bdr:P10606 , bdr:P10607 , bdr:P10608 , bdr:P10609 , bdr:P10610 , bdr:P10611 , bdr:P10612 , bdr:P1783 , bdr:P2272 , bdr:P3175 , bdr:P7140 ;
+   tmp:associatedCentury  12 , 13 ;
+   tmp:entityScore  3529 ;
+   owl:sameAs    <http://api.treasuryoflives.org/resource/TOLP2915> , viaf:121936995 , wd:Q662562 .
+

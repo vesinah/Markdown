@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stone from Pasrujambe (no. 2)</title>
+            <respStmt>
+               <resp key="creator">EpiDoc encoding</resp>
+               <persName ref="part:mano">
+                  <forename>Muhamad</forename>
+                  <surname>Alnoza</surname>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+         	</respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Jakarta</pubPlace>
+            <idno type="filename">DHARMA_INSIDENKPasrujambe02.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Javanese script typical of 15th-century stone inscription from mountainous areas in Central and East Java. Broad simplified characters shallowly engraved.</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:mano part:argr" when="2026-06-22">revised the encoding</change>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:masc" when="2020-11-02" status="draft">initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="kaw-Latn" rendition="class:38769 maturity:83213">
+<ab>
+  <lb n="1"/>I saka
+  <lb n="2"/><num value="1381">1381</num>
+</ab>
+         </div>
+         <div type="apparatus">
+         </div>
+         <div type="translation" resp="part:argr part:masc">
+   <!--translation encoded as per EGD §9.2 -->
+ <p>In 1381 Śaka.</p>
+        </div>
+         <div type="commentary">
+           <p/>
+         </div>
+        <div type="bibliography">
+              <p>This stone was probably among the group of sixteen inscribed stones at Pasru Jambe reported by Soekmono (<bibl rend="omitname"><ptr target="bib:Soekmono1962_01"/></bibl>). It seems that no attempt was made to decipher their contents until the first readings published by Sukarto Atmodjo (<bibl rend="omitname"><ptr target="bib:SukartoAtmodjo1986_01"/></bibl>). This author identified three inscriptions bearing the date 1381 Śaka. This inscription is probably the one he examined at the University of Jember, as it fits precisely the dimensions that he gives. These inscriptions were republished in a later survey by a team from the Pusat Penelitian Arkeologi Nasional as mentioned in Titi Surti Nastiti et al. (<bibl rend="omitname"><ptr target="bib:TitiSurtiNastiti+al1994-1995_01"/></bibl>). Re-edited here by Muhamad Alnoza &amp; Arlo Griffiths from photographs (2011).</p>
+              <listBibl type="primary">
+              <bibl n="S">
+                        <ptr target="bib:SukartoAtmodjo1986_01"/>
+                        <citedRange unit="page">41-42</citedRange>
+                      </bibl>
+                      <bibl n="BPA">
+                                <ptr target="bib:TitiSurtiNastiti+al1994-1995_01"/>
+                                <citedRange unit="page">6-7</citedRange>
+                              </bibl>
+                    </listBibl>
+                    <listBibl type="secondary">
+         	<bibl><ptr target="bib:Soekmono1962_01"/><citedRange unit="page">12</citedRange></bibl>
+        </listBibl>
+        <listBibl type="surrogates">
+<bibl>Photograph Hadi Sidomulyo HS1212_LMJ</bibl>
+</listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
+<!--
+Photo Nigel Bullough RIMG2430
+-->

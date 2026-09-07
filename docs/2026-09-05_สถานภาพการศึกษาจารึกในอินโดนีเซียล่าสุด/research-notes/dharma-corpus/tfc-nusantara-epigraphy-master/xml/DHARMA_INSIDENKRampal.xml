@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rampal (ca. 875 CE)</title>
+            <respStmt>
+               <resp key="contributor">EpiDoc encoding</resp>
+               <persName ref="part:ekba">
+                  <name>Eko Bastiawan</name>
+               </persName>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="creator">intellectual authorship of edition</resp>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+               <persName ref="part:ekba">
+                  <name>Eko Bastiawan</name>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Malang</pubPlace>
+            <idno type="filename">DHARMA_INSIDENKRampal.xml</idno>
+            <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Script typical of the 9th centruy CE. The text shows repeated eccentric spellings with unexpected consonant gemination and intrusive <foreign>A</foreign> (<foreign>vanvaA</foreign>, <foreign>pamvaAtan</foreign>, <foreign>vannvaA</foreign>, <foreign>paṅadvaAn</foreign>). <foreign>Pepet</foreign> is not or not visibly differentiated from long <foreign>ī</foreign> and occasionally not from short <foreign>i</foreign>, so we tend to take the vowel marker that is expected in the context. Vertical strokes, here represented by <g ref="sym:bar" type="punctuation">.</g>, mark the transition from one line to another.                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:argr" when="2024-10-30" status="draft">revision of the encoding</change>
+         <change who="part:ekba" when="2021-04-22" status="draft">initial encoding of the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="kaw-Latn" rendition="class:38769 maturity:83213">
+<ab>
+<lb n="01"/><g ref="sym:doubleBar-crossed" type="punctuation">.</g> svasti
+</ab>
+<p>
+ <lb n="1"/><supplied reason="lost">śaka-</supplied><unclear>varṣa A</unclear>t<choice><orig>i</orig><reg>ī</reg></choice>ta <num atLeast="790" atMost="799">7<unclear>9</unclear><gap reason="illegible" unit="character" quantity="1"/></num> <gap reason="illegible" unit="character" quantity="2"/> <supplied reason="lost">mā</supplied>sa <unclear>sa</unclear>ptami śukla-pakṣa, <abbr>ma</abbr>, <abbr>va</abbr>,<abbr> so</abbr>, vāra satabhīśa-nākṣatra ta<unclear>tkāla ḍa</unclear>
+ <!-- argr to resume here -->
+<lb n="2"/> puc<unclear>ch</unclear>a Aṅg<choice><orig>a</orig><reg>ā</reg></choice>ra saṁ dahak· saṁ pikat·, <unclear>saṁ</unclear> gr̥ṁ<unclear>ge</unclear> saṁ gotra saṁ ghabhala saṁ palāgī saṁ <unclear>tuga</unclear>lya saṁ vli sum<choice><orig>i</orig><reg>ī</reg></choice>ma Ikanaṁ Alas· Iṁ rampal· saṅu su<lb n="3" break="no"/> <unclear>m</unclear>imākan· Ikāṅ alas· <unclear>ka</unclear>la<unclear>ṁ</unclear> matuha sa<unclear>ṁ</unclear>ṅ abihāra saṁ r<unclear>ə</unclear>mvaṁ sa<unclear>ṁ</unclear> candra saṁ piṇḍahan· saṁ sirikan· saṁ kapiṁṅan· <unclear>rā</unclear>ma I kata<unclear>ṇḍā</unclear>n· saṁ pajuAn· kaki halaṁ saṁ hali ka<lb n="4" break="no"/>ki vavuṁṅaḥ saṁ kuḍuk· saṁ tin· <surplus>saṁ tin·</surplus> saṁ vulu saṁ kavḍūt· saṁ parmata saṁ vaddaṁ <unclear>nā</unclear>han· kvaiḥnira rā<unclear>ma milu</unclear> sumīma<supplied reason="lost">ma</supplied><unclear>kan</unclear>·n ikāṅ alas· <unclear>ḍuA r</unclear>i ma<unclear>ṅgu</unclear>s· mas· <abbr>ka</abbr> <num value="1">1</num> <abbr>su</abbr> <num value="1">1</num>, manahurniṁ hutaṁ<lb n="5" break="no"/>niṁ vanuA hul<unclear>u</unclear>nnyan· kavuntu riṁ partaya haji rikaṁ kā<unclear>la</unclear> sa<unclear>ṁ</unclear> kulumpaṁ vanvaA ri skar· rava pili<supplied reason="omitted">ḥ</supplied> mas· ḍapunta siddha m<unclear>ihitika</unclear> laṅṅ umi kalimusan· saṁ gurun· nāhan· sira sākṣiniṁ man<choice><orig>i</orig><reg>ī</reg></choice>mākan· dadi saṁ man<choice><orig>i</orig><reg>ī</reg></choice>mā<unclear>mo</unclear>t· pajuru<lb n="6" break="no"/>Annanira I kuhuy· s<choice><orig>i</orig><reg>ī</reg></choice>ma pa<unclear>d</unclear>ahan· paməgat· pamvaAtan· rikaṁ kāla dyaḥ maṁhalaṁṅi tali saṁ giliran· vineḥ mas· <abbr>su</abbr> <num>1</num> <abbr>mā</abbr> <num>4</num> vḍihan· <abbr>yu</abbr> <num value="1">1</num> ken· vlaḥ <num value="1">1</num> pinakapasak· I<surplus>r</surplus>sira An· paṅasə I kuhu<unclear>y</unclear>· Anuṁ papasaṅṅa Inimpə<lb n="7" break="no"/>nnakan· saṁ tali I tkaniṁ vulan· hapit· <abbr>mā</abbr> <num value="1">1</num> <abbr>ku</abbr> <num value="2">2</num> sampunnikaṁ vimagga gahan· kilalān· saṁ tali Ina<unclear>s</unclear>əAn· saṁ partaya haji pasək·-pasək· mas· <abbr>su</abbr> <num value="1">1</num> <abbr>mā</abbr> <num value="4">4</num> vḍihan· <abbr>yu </abbr><num value="1">1</num> ken· vlaḥ <num value="1">1</num>  c<unclear>i</unclear>tralekha vineḥ <abbr>mā</abbr> <num value="1">1</num> maveḥha saṁ manīma manaḍaha 
+<lb n="8"/>I saṁ vahuta patiḥ mva<supplied reason="omitted">ṁ</supplied> rāmanta sa<supplied reason="omitted">ṁ</supplied> mas<unclear>k</unclear>ar· vannvaA kalimusan·, turun· vineḥ <abbr>māsu</abbr> <num value="1">1</num> <abbr>mā</abbr> <num value="4">4</num> vḍihan· <abbr>yu</abbr> <num value="1">1</num> ken· vləḥ <supplied reason="omitted">1</supplied>  kalimusan· lampuran· saṁ dakṣā saṁ <unclear>laḥ</unclear> vi<unclear>neḥ</unclear> <abbr><unclear>mā</unclear></abbr> <num value="4"><unclear>4</unclear></num> vḍihan· <abbr>yu</abbr> <num value="1">1</num> sovaṁ-sovaṁ maṁhiliri saṁ pa<unclear>bḍan</unclear>· vineḥ <abbr>māsu</abbr> <num value="1">1</num> <abbr>ma</abbr> <num value="4">4</num> vḍihan· <abbr>yu</abbr> <num value="1">1</num> ken· vləḥ <num value="1">1</num> 
+<lb n="9"/>maṁhiliri lampuran· saṁ lekan· saṁ halaran· vineḥ <abbr>mā</abbr> <num value="1">1</num> vḍihan· <abbr>yu</abbr> <num value="1">1</num> sovaṁ-sovaṁ  citagakarājaṅga saṁ manimākan· pasak·-pasak· saṁṅ abihāra mas· <num value="1">1</num> vḍihan· <abbr>yu </abbr><num value="1">1</num> saṁ candra <abbr>mā</abbr> <num value="4"><unclear>4</unclear></num> vḍihan· <abbr>yu</abbr> <num value="1"><unclear>1</unclear></num>  saṁ piḍahan· <abbr>mā</abbr> <num value="1">1</num> vḍihan· <abbr>yu</abbr> <num value="1">1</num> saṁ pañceṅan· <abbr>mā</abbr> <num value="1">1</num> vḍihan· <abbr>yu</abbr> <num value="1">1</num> saṁ R̥mvaṁ 
+<lb n="10"/><abbr>mā</abbr> <num value="1">1</num> vḍīhan· <abbr>yu</abbr> <num value="1">1</num>  kalaṁ saṁ sirikan· <abbr>mā</abbr> <num value="4">4</num> vḍihan· <abbr>yu </abbr><num value="1">1</num>  vinəkas· saṁ kaR̥ṅan· <abbr>mā</abbr> <num value="4">4</num> vḍīhan· <abbr>yu</abbr> <num value="1">1</num>  gusti kaki malaṁ kalima saṁ paṅadvaAn· saṁ <unclear>va</unclear>hud· kaki vavuṅaḥ hulu <unclear>pa</unclear>kān· saṁ <unclear>t</unclear>ali vineḥ <abbr><unclear>m</unclear>ā</abbr> <num value="1">1</num>
+</p>
+         </div>
+         <!--<div type="apparatus">
+           <!-\-apparatus encoded as per EG §9.1, basic elements for apparatus below-\->
+               <listApp><!-\- one <app> for each apparatus entry -\->
+                  <app loc="1">
+                      </app>
+               </listApp>         
+         </div>-->
+         <div type="translation" resp="part:argr">
+ 	<!--translation encoded as per EG §9.2 -->
+             <p/>
+         </div>
+         <div type="commentary">
+            <!--commentary encoded as per section §9.3 -->
+     <p/>
+         </div>
+        <div type="bibliography">
+	<!--bibliography encoded as per section §9.4 -->
+            <p/>
+             <listBibl type="secondary">
+             <bibl/>
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

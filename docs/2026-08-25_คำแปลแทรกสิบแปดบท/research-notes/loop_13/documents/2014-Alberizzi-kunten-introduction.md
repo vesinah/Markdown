@@ -1,0 +1,39 @@
+# An Introduction to Kunten Glossed Texts and Their Study in Japan
+
+## Metadata
+
+| Field | Value |
+|---|---|
+| Author | Valerio Luigi Alberizzi (Waseda University) |
+| Title | An introduction to kunten glossed texts and their study in Japan |
+| Venue | Les dossiers de HEL, n. 7 (supplement to Histoire Epistemologie Langage), SHESL, Paris, 2014; dossier "Lecture vernaculaire de textes classiques chinois / Reading Chinese Classical Texts in the Vernacular", ed. John Whitman and Franck Cinato |
+| URL | https://shesl.org/dossier7-lecture-vernaculaire/intro-kunten-gloss/ |
+| Full text PDF | http://shesl.org/wp-content/uploads/2021/04/alberizzi2014.pdf |
+| Access date | 2026-08-25 (full PDF downloaded and text-extracted) |
+| Language | English |
+| Relevance | Loop 13 primary entry point: definition of kunten components, history, schools, research status |
+
+## Content notes (verified from full text)
+
+- Japan has the best-established tradition among East Asian cultures of interpreting written Chinese via a non-Sinitic vernacular (kanbun kundoku 漢文訓読). Japanese scholars reject construing kundoku as translation: it produces no parallel target-language text; the Chinese original remains actively present as a "visual" outline (Alberizzi citing Ishizuka Harumichi, Kuntengo jiten, 2001, pp. 2-3).
+- Kunten 訓点 = dots, keys and other paragraphematic marks inserted on the lower side of a character indicating the syntactic reordering from SVO (Chinese) to SOV (Japanese); small phonograms (kana 仮名) added right/left of the lemma supply Japanese readings and inflectional endings.
+- Example line from Hizo hoyaku 秘藏寶鑰 (University of Tokyo ms., dated Nin'an 2 = 1168), p. 1 recto l. 6: 三界ノ狂人ハ狂（ト）イフコトヲ知〔不〕ス "Sankai no kyōjin wa kuruu (to) iu koto wo shirazu" — displays compound marks (on/kun gofu 音訓合符), phonogram glosses (kanaten 仮名点), tone glosses (shōten 声点), inversion glosses (kaeriten 返点), punctuation marks (kutōten 句読点) all in one line.
+- Continental background: glossing/punctuating Chinese texts common in China from 6th-7th c. CE; poyin 破音 red-dot practice marking alternate readings/tone; Beishi 北史 passage on Gao Chang (Turfan): Maoshi, Lunyu, Xiaojing taught but read "in their own words" (i.e., not in Chinese). Evidence from Dunhuang tablets shows glossing practice at least a century before first Japanese kundoku occurrence in second half of 8th c.
+- Korea: Samguk sagi attributes Korean vernacular reading to Seol Chong 薛聰 (660-730), who "read the nine Classics using the language of Silla"; similar notice in Samguk yusa. In Old Uighur and late Koryo Korean only syntactic order was modified while lexemes were read Sinoxenically; in Silla-early Koryo Korean characters were read as vernacular lexical items (kun 訓). Traces of kundoku-like practice claimed for Vietnamese documents (citing Wezler/Hammerschmidt proceedings pp. 649-650). Success varied: Japan = official method; Korea gradually abandoned; Uighur narrower.
+- History of the discipline: modern kunten studies begin 1903 with Kokugo chōsa iinkai 国語調査委員会; O ya Tōru 大矢透 (1850-1928) examined Shoso-in manuscripts to collect kana examples.
+- Oldest extant glossed manuscript in Japan: Zokukegonkyō ryakuso kanjōki 続華厳経略疏刊定記 (commentary on the Avatamsaka sutra), transcribed by layman Chikyō 智鏡; colophon records collation with orthodox Silla/Tang texts at Tōdaiji in Enryaku 2 and Enryaku 7 (783 and 788). Glosses in white and vermillion pigment; white marks = punctuation only, vermilion = syntactic reordering — evidence of an early stage of the practice (dating debate still open; cf. Tsukimoto Masayuki 2000).
+- Media taxonomy: hakutenbon 白点本 (white-glossed), shutenbon 朱点本 (vermilion), bokutenbon 墨点本 (black ink), kakuhitsutenbon 角筆点本 (stylus-inscribed); chronologies: white 9th-10th c.; light vermilion 9th-10th; deep vermilion 10th-12th; black ink from 10th c.; stylus 9th-13th c.
+- Wokototen ヲコト点: marks placed around perimeter or within a character's area indicating postpositions/function words; never found previously on the Asian continent, hence considered a uniquely Japanese invention — until July 2000, when a Korean-Japanese joint research group found a very similar organized set of glosses in eleventh-century Korean documents.
+- The name: reading clockwise, the two points at the top-right corner of the tsubo 壺・坪 ("jar" = square box around a character) yield the reading wo-koto: wo = accusative particle, koto = bound noun forming subordinate clauses. This canonical scheme is identified only after the 11th century, by which time most of the 200+ morphosyntactic gloss schemes in use in the 9th-10th c. had disappeared.
+- Classification: eight main groups based on corner positions of te (verbal gerund -te), ni (dative/locative), wo (accusative), wa (topic), ordered oldest to newest; groups 1-4 appear in 9th-c. documents, groups 5-8 from the 10th c.; by the 11th c. only about a dozen schemes remained. Unitary theory of origin of okototen (all schemes descend from one source) associated with Nakada Norio 中田祝夫, Kotenbon no kokugogakuteki kenkyū, sōron hen (1954). Terms: seiten 星点 "star marks" (single points), senten 線点 "line marks".
+- Complexity: Nishi hakaten 西墓点, one of the oldest systems, uses 31 boxes and 230 morphosyntactic glosses.
+- School origins: sacred texts testifying to birth/development of sophisticated notation are mostly Kegon 華厳宗-related or linked to the "Six Buddhist Schools of Nara" studied at Tōdaiji; hypothesis: notation born among Kegon literati monks, diffused religious-to-lay through new 9th-c. schools like Tendai 天台宗. Esoteric-character theories of kundoku rejected (public lectures; ongoing inter-group relations; notation ancillary to reading). Heian-period studies reveal cultural exchange between Tendai and Shingon centered at Ishiyamadera 石山寺 on the Enryakuji 延暦寺-Ninnaji 仁和寺 axis; transmission to lay scholars incl. Emperor Uda 宇多天皇 (867-931).
+- Phonogram glosses: O kutsu marakyō 央掘魔羅経 uses Chinese characters as phonograms without standardization; early 9th-c. katakana glosses functioned as personal/small-group symbols with continuously changing orthography; 9th-c. texts use two or more graphic variants per syllable; 10th-c. group of texts matches graphemes for the forty-eight sounds of Japanese across different glossators/schools (teacher-student transmission within school); rise of social value of katakana within Buddhist clerical study; by 11th c. single variant used everywhere.
+- Quantitative panorama (Tsukishima Hiroshi 築島裕 1925-2011, nationwide survey 1945-1995; Heian jidai kuntenbon ronkō kenkyūhen 1996, p. 26): distribution of kunten materials 8th-13th c.: 783-900: 180 mss (14 with colophon / 166 without); 901-1000: 189 (40/149); 1001-1100: 582 (364/218); 1101-1200: 2404 (1546/858); total 3355. Only about one hundred manuscripts have been thoroughly studied.
+- Practical obstacles: sources held by temples/museums/private bodies; access requires introductions; photographic editions mostly black-and-white so colored pigments indistinguishable; transcription results vary by scholar. External impediment: literary scholars relegate kundoku to didactic status. Caveats for linguistic use: glosses often provisional jottings, tied to writer's learning level, errors common.
+- Terminology reference: Whitman, John; Oh, Miyoung; Park, Jinho; Alberizzi, Valerio Luigi; Tsukimoto, Masayuki; Kosukegawa, Teiji; Takada, Tomokazu, "Toward an International Vocabulary for Research on Vernacular Readings of Chinese Texts", Scripta 2, 2010.
+
+## Quotable phrases
+
+- "Japan has the best established tradition among all the East Asian cultures which developed strategies to interpret written Chinese based on their non-Sinitic vernaculars."
+- On wokototen uniqueness until 2000: "The okototen ヲコト点 system, never discovered previously in manuscripts from the Asian continent, was thus considered a unique and original contribution of Japanese glossators..."

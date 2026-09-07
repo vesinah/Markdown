@@ -1,0 +1,16 @@
+# Document: Javanese word-for-word kitab reading practice (item G) - terminology survey
+
+## Terms found in citable sources (beyond van Bruinessen)
+
+- "Ngabsahi kitab" - Indonesian Wikipedia article (id.wikipedia.org/wiki/Ngabsahi_kitab): "Istilah ini merujuk pada kegiatan memberikan makna atau terjemahan kata demi kata pada teks berbahasa Arab menggunakan bahasa daerah, seperti bahasa Jawa, Sunda, atau Madura" (term for giving word-for-word meaning/translation to Arabic text using regional languages). Non-scholarly source, used here only as terminological witness.
+- Darul Ma'arif pesantren blog (darulmaarif.net, 29 Nov 2022): "Memaknai kitab kuning (baca: maknani, ngabsahi, ngesahi)" - santri write pegon-script interlinear meanings while kiai reads; describes i'rab position codes (mahallul-i'rob abbreviations) written above/below/beside words.
+- Ponpes Jabal Rahmah page: process described as "ngabsah" or "memberi makna gandul".
+- Nurtawab et al. (EAI/eudl.eu PDF, 14 Oct 2020 conference paper on Suluk Tuhfah, ms Or. 5690): "The process of giving interlinear translation to the Arabic text, which is called 'bandongan' or 'weton', is the main feature of study process in pesantren tradition"; also distinguishes interlinear style vs sentence-by-sentence style (Kiai Sholeh Darat d. 1903); cites Jan Just Witkam re Cod.Or. 5690 contents.
+- Johanna Pink, "The kyai's voice and the Arabic Qur'an; Translation, orality, and print in modern Java", Wacana 21(3) (2020), scholarhub.ui.ac.id PDF: "The gandul system as it is employed in Javanese pesantren, like most forms of interlinear translation, does not deliver a coherent and grammatically correct..." (documents gandul = interlinear system in Javanese Qur'an printing/translation).
+- Nurtawab, Ervan (2019), "The decline of traditional learning methods in changing Indonesia: Trends of bandongan-kitab readings in pesantrens", Studia Islamika 26(3): 511-541.
+- Multiple Indonesian education journals document bandongan (kyai reads Arabic, translates word-for-word into Javanese while santri note meanings below lines), sorogan (individual), wetonan (= bandongan variant), pasaran; santri notation practice includes sah-sahan literal meaning and i'rob symbols (ejournal.unuja.ac.id ICESH paper citing Adib 2021; Santri Journal paper on Kitab Kuning and Javanese language maintenance; acopen.umsida.ac.id 13165 mentions bandongan/sorogan with "gandul or pegon style of meaning").
+- Abdul Munip (2016), "Tracing the History of the Arabic-Javanese Language Translation Books in Nusantara Islamic Education", Jurnal Pendidikan Islam 5(1): 43-67, DOI 10.14421/jpi.2016.51.43-67: printed Arabic-Javanese kitab translations mostly applied word-by-word translation common in pesantren, plus free translation (murad) as complement.
+
+## On the specific term "ngawul"
+
+- Direct searches for "ngawul" (with kitab/pesantren context) returned NO scholarly documentation. Closest attested forms are ngabsah/ngabsahi/ngesahi/maknani (writing interlinear meanings) and gandul/gandhul (the interlinear meaning itself/system). Hypothesis for future verification: "ngawul" may be a regional/dialectal variant (possibly related to Javanese root wul/wulul 'to recite aloud'?) but this remains UNSOURCED; do not cite without further field or lexicographic evidence.

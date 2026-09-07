@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Charter of Tiga Ron also called Təlu Ron (822 Śaka – 900-03-30)</title>
+				<respStmt>
+					<resp key="contributor">EpiDoc Encoding</resp>
+					<persName ref="part:argr">
+						<forename>Arlo</forename><surname>Griffiths</surname>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp key="creator">intellectual authorship of edition</resp>
+					<persName ref="part:argr">
+						<forename>Arlo</forename>
+						<surname>Griffiths</surname>
+					</persName>
+					<persName ref="part:wjsa">
+						<forename>Wayan Jarrah</forename>
+						<surname>Sastrawan</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris</pubPlace>
+				<idno type="filename">DHARMA_INSIDENKTigaRon-TluRon.xml</idno>
+				<availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary/>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+		<revisionDesc>
+			<change who="part:argr" when="2023-12-16">revised edition and encoding</change>
+			<change who="part:axja" when="2022-08-16">Transforming docx into xml</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve"> 
+           <body> 
+	<div type="edition" xml:lang="kaw-Latn">
+                    <p xml:lang="san-Latn"><lb n="1"/><milestone unit="fragment" n="1"/><g ref="sym:doubleBar-hooked" type="punctuation">.</g> Avighnam astu <g ref="sym:doubleBar-hooked" type="punctuation">.</g></p>
+ <lg n="1" met="śārdūlavikrīḍita" xml:lang="san-Latn">
+                      <l n="a">svasti śrīr vijayo ’stu vaḥ śaka-pa<milestone unit="fragment" n="2"/><supplied reason="lost">ter va</supplied>rṣe dvi-dasra-dvipe <unclear><g ref="sym:bullet-hollow" type="symbol">*</g></unclear></l>
+                      <l n="b">dvādaśyām madhu-māsa<unclear>j</unclear>āsita-tithau śītetara-jyotiṣi <g ref="sym:bullet-hollow" type="symbol">*</g></l>
+                      <l n="c">R̥kṣe bhadra<lb n="2" break="no"/><milestone unit="fragment" n="1" break="no"/>padottare sati śubhe yoge <unclear reason="eccentric_ductus">ca</unclear> caṇḍārcciṣ<unclear>au</unclear> <milestone unit="fragment" n="2"/> <supplied reason="lost"><g ref="sym:bullet-hollow" type="symbol">*</g></supplied></l>
+                      <l n="d">kṣetreṣu tridaleśvarasya racitaḥ kulyā-vidhir bhūbhujā <g ref="sym:doubleBar-hooked" type="punctuation">.</g></l>
+</lg>
+                      <p>tatkālaniṁ ḍavuhan· vuA<lb n="3" break="no"/><milestone unit="fragment" n="1" break="no"/>tann i savaḥ bhaṭāra I tiga ron· saṁkā Iṁ luAḥ I <milestone unit="fragment" n="2"/>panaṅgaran·<g ref="sym:bullet-hollow" type="punctuation">.</g> suprayukta ḍataṁ vvainya I lmaḥ bhaṭāra<g ref="sym:bullet-hollow" type="punctuation">.</g></p>
+<p>sambandha<g ref="sym:bullet-hollow" type="punctuation">.</g> śrī mahārāja śrī bāhu-vikra<lb n="4" break="no"/><milestone unit="fragment" n="1" break="no"/>ma-bajra-deva mapikat· kitiran· vetanniṁ parhya<milestone unit="fragment" n="2"/><unclear>ṅa</unclear>n· haji I tlu ron·<g ref="sym:bullet-hollow" type="punctuation">.</g> I huvus·nira mapikat· madyus sira I pañcuran·<g ref="sym:bullet-hollow" type="punctuation">.</g> muliḥ sira Iṁ ka<lb n="5" break="no"/><milestone unit="fragment" n="1" break="no"/>ḍatvan· mataña sira I saṁ pamgat· tiruAn· pu śivā<unclear>stra</unclear> <supplied reason="lost"><g ref="sym:bullet-hollow" type="symbol">*</g></supplied><milestone unit="fragment" n="2"/> Apa kari prastāvanika<unclear>naṁ</unclear> parhyaṅan· haji I tlu ron· muAṁ pañcuran· masa<unclear>mū</unclear>n·<g ref="sym:bullet-hollow" type="punctuation">.</g> ta<lb n="6" break="no"/><milestone unit="fragment" n="1" break="no"/>karin· hana mas· Akṣayiṇi kāna<g ref="sym:bullet-hollow" type="punctuation">.</g> hana kari sa<unclear>va</unclear><supplied reason="lost">ḥ</supplied><milestone unit="fragment" n="2"/> bhaṭāra<g ref="sym:bullet-hollow" type="punctuation">.</g> maṅkana līṁ śrī mahārāja<g ref="sym:bullet-hollow" type="punctuation">.</g></p>
+<p>sumahur· saṁ pamgat· tiruAn·<g ref="sym:bullet-hollow" type="punctuation">.</g> vuAra mas· <abbr>su</abbr> <num value="10">10</num> <lb n="7"/><milestone unit="fragment" n="1"/>Akṣayiṇi kmitanni rāma I vuru tuṅgal· parbhaktya<milestone unit="fragment" n="2"/><supplied reason="lost">nya</supplied> <unclear>pā</unclear>damūla<g ref="sym:bullet-hollow" type="punctuation">.</g> hana ta <unclear>t</unclear>gal· lmaḥ bhaṭāra<g ref="sym:bullet-hollow" type="punctuation">.</g> ṅaranya Iṁ <unclear>ka</unclear>li-kalihan·<g ref="sym:bullet-hollow" type="punctuation">.</g> magaṇa-gaṇā lima ta<lb n="8" break="no"/><milestone unit="fragment" n="1" break="no"/>mpaḥ sampun· ya pinagavayakan· vluran· de saṁ lu<space type="descender"/><unclear>m</unclear><supplied reason="lost">āḥ</supplied><milestone unit="fragment" n="2"/> <unclear>Iṁ</unclear> <unclear>ta</unclear>ṅar·<g ref="sym:bullet-hollow" type="punctuation">.</g> tan tulus· saṁ<space type="descender"/>kā yan· kavnaṅan· Antara ya<g ref="sym:bullet-hollow" type="punctuation">.</g> vkasan· ginavai ya de <abbr>rakai</abbr> 
+<lb n="9"/><milestone unit="fragment" n="1" break="no"/> paḍa<unclear>ṁ</unclear> pu manoharī<g ref="sym:bullet-hollow" type="punctuation">.</g> tan· tulus ataḥ<g ref="sym:bullet-hollow" type="punctuation">.</g> muvaḥ ginavai ya <unclear>d</unclear>e <milestone unit="fragment" n="2"/> <supplied reason="lost">ra</supplied>kai hino pu Aku<g ref="sym:bullet-hollow" type="punctuation">.</g> tan tulus ataḥ<g ref="sym:bullet-hollow" type="punctuation">.</g> hana hrūnikanaṁ vluran· Adyāpi tka maṅke<g ref="sym:bullet-hollow" type="punctuation">.</g> maṅka<lb n="10" break="no"/><milestone unit="fragment" n="1" break="no"/>na līṁ saṁ pamgat· tiruAn·<g ref="sym:bullet-hollow" type="punctuation">.</g></p> <p>sumahur· śrī mahārāja<g ref="sym:bullet-hollow" type="punctuation">.</g> ha<milestone unit="fragment" n="2"/><supplied reason="lost">na</supplied> pva mas· bhaṭāra<g ref="sym:bullet-hollow" type="punctuation">.</g> ya veḥ vyayāniṁ magavai ḍavuhan· yathānyan dadya savaḥ Ikanaṁ tgal· 
+<lb n="11"/><milestone unit="fragment" n="1"/>bhaṭāra<g ref="sym:bullet-hollow" type="punctuation">.</g> yāpuAn· vtu vuṅani bhūn· dlāha<g ref="sym:bullet-hollow" type="punctuation">.</g> ya paṁhlya rikanaṁ mas<unclear>·</unclear> <milestone unit="fragment" n="2"/> Akṣayiṇi<g ref="sym:bullet-hollow" type="punctuation">.</g> samantara kira-kirān· Āyatana bhaṭāra <unclear>sa</unclear>hayān· Irika<unclear>na</unclear>ṁ savaḥ Ataḥ 
+<lb n="12"/><milestone unit="fragment" n="1"/>maṅkana līṁ śrī mahārāja<g ref="sym:bullet-hollow" type="punctuation">.</g></p><p>dadi binabak· Ikanaṁ mas· kmitanniṁ rāma <milestone unit="fragment" n="2"/> <unclear>I</unclear> vuru tuṅgal·<g ref="sym:bullet-hollow" type="punctuation">.</g> pinintonakan· I śrī mahārāja lavan· I rakryān mapatiḥ I hino<g ref="sym:bullet-hollow" type="punctuation">.</g> I vatu 
+<lb n="13"/><milestone unit="fragment" n="1"/>tihaṁ I śirikan· kinonya makudur· saṁ relam· tumulusakna <unclear>I</unclear><milestone unit="fragment" n="2"/><supplied reason="lost">ka</supplied>naṁ vluran· gavai saṁ lumāḥ Iṁ taṅar·<g ref="sym:bullet-hollow" type="punctuation">.</g> satahun· lavasnyan· ginavai sumaṅka Ikanaṁṅ vai 
+<lb n="14"/><milestone unit="fragment" n="1"/>tka ya Irikanaṁ tgal· Iṁ kali-kalihan· suprayukta paripūrṇa <milestone unit="fragment" n="2"/> <supplied reason="lost">pi</supplied>nājarakan· ya I śrī mahārāja śrī dharmmodaya-ma<space type="descender"/>hāśambhu muAṁ I rakryān mapa<lb n="15" break="no"/><milestone unit="fragment" n="1" break="no"/>tiḥ I hino bāhubajrapratipakṣakṣaya<g ref="sym:bullet-hollow" type="punctuation">.</g></p><p>kinonakan· Ika<unclear>na</unclear><milestone unit="fragment" n="2"/><unclear>ṁ</unclear> patiḥ muAṁ vahuta I vuru tuṅgal· muAṁ Anak vanuA pina<space type="descender"/>kahavān· lmaḥnya de<lb n="16" break="no"/><milestone unit="fragment" n="1" break="no"/>nikanaṁ vluran·<g ref="sym:bullet-hollow" type="punctuation">.</g> kapva petan· maluṅgu-luṅguha I tlu ron· mamaṅguha <milestone unit="fragment" n="2"/> vvai matīs·<g ref="sym:bullet-hollow" type="punctuation">.</g> mālap·kn<unclear>ā</unclear> muAṁ Ikanaṁ pādamūla I tlu ron·<g ref="sym:bullet-hollow" type="punctuation">.</g> Ajaran· tan· durācā<lb n="17" break="no"/><milestone unit="fragment" n="1" break="no"/>rā tan· Uparodhā I vluranni savaḥ bhaṭāra<g ref="sym:bullet-hollow" type="punctuation">.</g> Ubhaya<space type="descender"/>dhārmma Ataḥ Amvaka<unclear>n</unclear><milestone unit="fragment" n="2"/><unclear>ya</unclear><unclear><g ref="sym:bullet-hollow" type="symbol">*</g></unclear> maṅkana liṁ rakryān mapatiḥ I saṁ pamgat· tiruAn·<g ref="sym:bullet-hollow" type="punctuation">.</g></p><p>ya mataṅyan inasə: Ikanaṁ patiḥ 
+<lb n="18"/><milestone unit="fragment" n="1"/>I panaṅgaran· si ṇdol· vineḥ mas· <abbr>mā</abbr> <num value="6">6</num> parujarnya si nohan· vineḥ <unclear>ma</unclear><milestone unit="fragment" n="2"/>s· <abbr>mā</abbr> <num value="4">4</num> gusti si butuḥ variga si nek· vinkas· si saran· mas· <abbr>mā</abbr> <num value="4">4</num> kinabaihanya <g ref="sym:doubleBar" type="punctuation">.</g> 
+<lb n="19"/><milestone unit="fragment" n="1"/>I sumuṇḍul· gusti si piṅul·<g ref="sym:bullet-hollow" type="punctuation">.</g> variga si cama<g ref="sym:bullet-hollow" type="punctuation">.</g> vinkas· si piṅul· <milestone unit="fragment" n="2"/><unclear>hu</unclear>ler· si jambhala mas· <abbr>mā</abbr> <num value="4">4</num> kinabaihanya <g ref="sym:doubleBar-hooked" type="punctuation">.</g> I skar ava kalaṁ si vara<g ref="sym:bullet-hollow" type="punctuation">.</g> gusti si 
+<lb n="20"/><milestone unit="fragment" n="1"/>taṅat·<g ref="sym:bullet-hollow" type="punctuation">.</g> variga si kidaṁ<g ref="sym:bullet-hollow" type="punctuation">.</g> vinkas· si puṇḍut·<g ref="sym:bullet-hollow" type="punctuation">.</g> parujar· si svastha<g ref="sym:bullet-hollow" type="punctuation">.</g> mas· m<milestone unit="fragment" n="2"/>ā <num value="4">4</num> kinab<unclear>ai</unclear>hanya <g ref="sym:doubleBar-hooked" type="punctuation">.</g> I kasugihan· kalaṁ si maddha<g ref="sym:bullet-hollow" type="punctuation">.</g> gusti si sali<g ref="sym:bullet-hollow" type="punctuation">.</g> variga si vudə<lb n="21" break="no"/><milestone unit="fragment" n="1" break="no"/>l·<g ref="sym:bullet-hollow" type="punctuation">.</g> vinkas· si ḍuḍa<g ref="sym:bullet-hollow" type="punctuation">.</g> mas· <abbr>mā</abbr> <num value="4">4</num> kinabaihanya<choice><sic><g ref="sym:bullet-hollow" type="punctuation">.</g></sic><corr><g ref="sym:doubleBar-hooked" type="punctuation">.</g></corr></choice> I parhyaṅan· kalaṁ si k<choice><unclear>e</unclear><unclear>o</unclear></choice><milestone unit="fragment" n="2"/>s·<g ref="sym:bullet-hollow" type="punctuation">.</g> gusti si dulaṁ<g ref="sym:bullet-hollow" type="punctuation">.</g> vinkas· si kalula<g ref="sym:bullet-hollow" type="punctuation">.</g> variga si bhoga<g ref="sym:bullet-hollow" type="punctuation">.</g> mas· <abbr>mā</abbr> <num value="4">4</num> kinabaihanya <g ref="sym:doubleBar" type="punctuation">.</g> 
+<lb n="22"/><milestone unit="fragment" n="1"/>I kilis<unclear>·</unclear> kalaṁ si plakan·<g ref="sym:bullet-hollow" type="punctuation">.</g> gusti si Uṇḍal·<g ref="sym:bullet-hollow" type="punctuation">.</g> vinkas· si hurip·<g ref="sym:bullet-hollow" type="punctuation">.</g> variga si hiḍuṁ<g ref="sym:bullet-hollow" type="punctuation">.</g> <milestone unit="fragment" n="2"/> mas· <abbr>mā</abbr> <num value="4">4</num> kinabaihanya <g ref="sym:doubleBar-hooked" type="punctuation">.</g> I pamratan· patiḥ si banyāga mas· <abbr>m<choice><sic>a</sic><corr>ā</corr></choice></abbr> <num value="6">6</num> parujarnya<g ref="sym:bullet-hollow" type="punctuation">.</g> 
+<lb n="23"/><milestone unit="fragment" n="1"/>si buAtoḥ mas· <abbr>mā</abbr> <num value="2">2</num> gusti si gupai<g ref="sym:bullet-hollow" type="punctuation">.</g> vinkas· si sāgara<g ref="sym:bullet-hollow" type="punctuation">.</g> mas· <abbr>mā</abbr> <num value="4">4</num> kinabai<milestone unit="fragment" n="2"/>hanya<g ref="sym:bullet-hollow" type="punctuation">.</g> vahuta I vuru tuṅgal· rumakat· si dharmma mas· <abbr>mā</abbr> <num value="6">6</num> pituṁtuṁnya mas· 
+<lb n="24"/><milestone unit="fragment" n="1"/><abbr>mā</abbr> <num value="2">2</num></p><p>kunaṁ yan· hana maṁhala-hala<g ref="sym:bullet-hollow" type="punctuation">.</g> Umulah-ulaha Ikanaṁ vluran· knāna ya <unclear>ni</unclear><milestone unit="fragment" n="2" break="no"/>graha mas· satahi<supplied reason="omitted">l</supplied> limaṁ tahil·<g ref="sym:bullet-hollow" type="punctuation">.</g> marhyaṁ rikanaṁ kāla ḍa punta maṅhutāṅi<g ref="sym:bullet-hollow" type="punctuation">.</g> 
+<lb n="25"/><milestone unit="fragment" n="1"/>likhita śilālekha saṁ hadyan· sumuḍan· ḍa punta vidyānidhi<g ref="sym:bullet-hollow" type="punctuation">.</g> <g ref="sym:doubleBar-hooked" type="punctuation">.</g> <g ref="sym:spiral-left" type="symbol">*</g> <g ref="sym:doubleBar-hooked" type="punctuation">.</g> siddhir astu <milestone unit="fragment" n="2"/> <unclear>sv</unclear>āhā <g ref="sym:doubleBar-hooked" type="punctuation">.</g> <g ref="sym:spiral-left" type="symbol">*</g> <g ref="sym:doubleBar-hooked" type="punctuation">.</g></p>    
+                   </div>
+                       <div type="apparatus">
+<app loc="2">
+<lem><unclear reason="eccentric_ductus">ca</unclear> caṇḍārcciṣ<unclear>au</unclear></lem><note>Or read <foreign>bha caṇḍārcciṣo</foreign>? But the <foreign>akṣara</foreign> does not look exactly like <foreign>bha</foreign>s in the same stanzas, and <foreign>ca</foreign> is expected in this context. The curved stroke above the <foreign>ṣ</foreign> makes it clear the vowel is <foreign>au</foreign> not <foreign>o</foreign>, though the <foreign>tarung</foreign> is lost.</note></app>
+		<app loc="2">
+		<lem>sati śubhe</lem>
+		<rdg source="bib:TjahjonoPrasodjo+SusetyaEdyYuwono2019_01"><unclear>A</unclear>tiśubhe</rdg>
+		</app>
+<app loc="3"><lem>ḍataṁ</lem><rdg source="bib:TjahjonoPrasodjo+SusetyaEdyYuwono2019_01">phala</rdg></app>
+<app loc="3"><lem>lmaḥ bhaṭāra</lem><rdg source="bib:TjahjonoPrasodjo+SusetyaEdyYuwono2019_01">lmaḥ</rdg><note>TP &amp; SEY omit the word <foreign>bhaṭāra</foreign>.</note></app>
+                          <app loc="5"><lem>śivāstra</lem><rdg source="bib:TjahjonoPrasodjo+SusetyaEdyYuwono2019_01">śivās<gap reason="illegible" quantity="1" unit="character"/></rdg><note>The name is a bit hard to recognize on the stone, but our reading is supported by numerous passages where Śivāstra figures as <foreign>paməgat</foreign> Tiruan.</note></app>
+                          <app loc="5"><lem>masa<unclear>mū</unclear>n·</lem><rdg source="bib:TjahjonoPrasodjo+SusetyaEdyYuwono2019_01">masamun·</rdg><note>The lower part of the <foreign>akṣara</foreign> is rather unclear, but we seem to see an appendix to the left that would agree better with <foreign>-ū</foreign> than with the expected <foreign>-u</foreign>.</note></app>
+<app loc="8"><lem>Antara ya</lem><rdg source="bib:TjahjonoPrasodjo+SusetyaEdyYuwono2019_01">An kabhaya</rdg></app>
+<!-- resume from here -->
+                          <app loc="X"><lem>parbhaktyanya</lem><note>the reading is at first unclear, but supported by Pintang Mas, l. 3.</note></app>
+                          <app loc="X"><lem>kinonya</lem><note>we presume this is an error for kinon· or (less likely) kinon ta.</note>
+</app>
+                          <app loc="X"><lem>amvakanya</lem><note>understand ambəkanya.</note></app>
+                       </div>
+  <div type="translation" resp="part:argr part:wjsa">
+                <!--translation still to be encoded -->
+            </div>
+               <div type="bibliography">
+                  <p>Shortly after the discovery of the inscription, a preliminary draft edition was established by Arlo Griffiths directly from the stone and from photos. This work, begun in 2015, was brought to a preliminary conclusion in July 2017. At that time, it was planned to make the publication of the inscription a collaboration with UGM students Nurmalia Habibah Zakariya Pamuji Aminullah, so that Griffiths' draft that was circulated to some colleagues also bore those students' names, even though they had not made any concrete contribution then. The planned collaboration was abandoned when a reading of the inscription, making some use of the ciculated draft, was published shortly thereafter (<bibl><ptr target="bib:TjahjonoPrasodjo+SusetyaEdyYuwono2019_01"/></bibl>). The reading offered here is a significant improvement upon the 2015–2017 draft thanks to renewed direct inspection of the stone in March 2023 and the photogrammetry created by Adeline Levivier at that time. We record only significant variant readings from the edition published by Tjahjono Prasodjo and Susetya Edy Yuwono (which in most of these reading agrees with Griffiths' earlier draft).</p>
+ <listBibl type="primary">
+               <bibl n="TP+SEY">
+                      <ptr target="bib:TjahjonoPrasodjo+SusetyaEdyYuwono2019_01"/>
+                     </bibl>
+</listBibl>
+               </div>
+           </body>
+                     </text>
+</TEI>

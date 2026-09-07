@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns="https://cir.nii.ac.jp/schema/1.0/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/"
+         xmlns:datacite="https://schema.datacite.org/meta/kernel-4/"
+         xmlns:ndl="http://ndl.go.jp/dcndl/terms/"
+         xmlns:cinii="http://ci.nii.ac.jp/ns/1.0/"
+         xmlns:jpcoar="https://github.com/JPCOAR/schema/blob/master/2.0/">
+    <Dataset rdf:about="https://cir.nii.ac.jp/crid/1460846755835102592.rdf">
+    <productIdentifier rdf:parseType="Resource">
+        <identifier rdf:datatype="https://cir.nii.ac.jp/schema/1.0/DOI">10.20730/100221737</identifier>
+    </productIdentifier>
+    <dc:title xml:lang="ja">事師法五十頌</dc:title>
+    <creator>
+        <Researcher rdf:about="https://cir.nii.ac.jp/crid/1410846755835102592">
+            <foaf:name xml:lang="ja">日称</foaf:name>
+        </Researcher>
+    </creator>
+    <publication rdf:parseType="Resource">
+        <dc:publisher xml:lang="ja">[出版者なし]</dc:publisher>
+    </publication>
+    <dataSourceIdentifier rdf:datatype="https://cir.nii.ac.jp/schema/1.0/JALC">oai:japanlinkcenter.org:2002138733</dataSourceIdentifier>
+    </Dataset>
+</rdf:RDF>
+

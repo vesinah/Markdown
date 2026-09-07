@@ -1,0 +1,1599 @@
+
+===== PAGE 1 =====
+ 
+ 
+CLIPP 
+Christiani Lehmanni inedita, publicanda, publicata  
+ 
+ 
+ 
+ 
+ 
+titulus  
+ Interlinear morphemic glossing 
+huius textus situs retis mundialis  
+ https://www.christianlehmann.eu/publ/lehmann_img.pdf  
+dies manuscripti postremum modificati  
+ 03.08.2015 
+occasio orationis habitae  
+ – 
+volumen publicationem continens  
+ Booij, Geert & Lehmann, Christian & Mugdan, Joachi m & 
+Skopeteas, Stavros (eds.), Morphologie. Ein internationales 
+Handbuch zur Flexion und Wortbildung. 2. Halbband . 
+Berlin: W. de Gruyter (Handbücher der Sprach- und 
+Kommunikationswissenschaft, 17.2) 
+annus publicationis  
+ 2004 
+paginae  
+ 1834-1857 
+ 
+===== PAGE 2 =====
+Interlinear morphemic glossing 
+ 
+ 
+1. Basic concepts 
+2. Prerequisites of morphological analysis 
+3. Principles of interlinear glossing 
+4. Boundary symbols 
+5. Typographic conventions 
+6. Summary 
+7. References 
+ 
+1.  Basic concepts 
+ 
+1.1.  Purpose 
+ 
+Given an object language L1 and a metalanguage L2, then an interlinear morphemic gloss 
+(IMG) is a representation of a text in L1 by a string of elements taken from L2, where, ideally, 
+each morph of the L1 text is rendered by a morpheme  of L2 or a configuration of symbols 
+representing its meaning, and where the sequence of  the units of the gloss corresponds to the 
+sequence of the morphs which they render. Its prima ry aim is to make the reader understand 
+the grammatical structure of the L1 text by identif ying aspects of the free translation with 
+meaningful elements of the L1 text. The ultimate purpose may be to aid the reader in grasping 
+the spirit of the language, to control the linguist ic argument the author is making by means of 
+the L1 example or to scan a corpus for a certain gloss in order to find relevant examples. 
+ 
+(1) Latin 
+exeg-i   monumentum  
+implement\
+PRF -1. SG  monument. N:ACC .SG  
+aer-e  perennius 
+ore. 
+F-ABL .SG  lasting: CMPR :ACC .SG .N 
+'I have executed a monument more durable than ore' 
+ 
+(1) illustrates the typical use of an IMG. The firs t line of (1) contains the L1 text line; the 
+second line contains the IMG, and the third line contains an idiomatic translation into L2. 
+Interlinear morphemic glossing is at the intersecti on of different communicative 
+purposes. On the one hand, it is a kind of translat ion that accompanies the original. In this 
+sense, it is comparable to the arrangement that one  finds in synoptic editions of original and 
+translation. On the other, it is a kind of linguist ic analysis. In this sense, it competes with a 
+fragment of a grammar. Its hybrid character leads t o a number of problems and to different 
+styles in interlinear morphemic glossing. 
+The aim of the following treatment is a standardiza tion of an aspect of linguistic 
+methodology on the basis of widespread usage as dev eloped in the 20 
+th  century. To the extent 
+that linguistics is a science, its methods are susc eptible and in need of standardization. 
+Interlinear morphemic glossing has to do with the r epresentation of linguistic data, 
+===== PAGE 3 =====
+Lehmann, Interlinear morphemic glossing  2 
+comparable in this with a phonetic transcription. J ust as the latter has been successfully 
+standardized by the IPA, so interlinear morphemic glossing should be standardized. 
+This will be done in the present article in the for m of a set of rules, which are listed in 
+section 6.1. Such a standardization only concerns l inguistic science. Linguistic data are often 
+presented to a lay public, with the purpose of educ ation, entertainment or divulgation of the 
+achievements of our science. Here some kind of inte rlinear glossing may be necessary, too. 
+However, scientific formalism tends to damage rathe r than serve the good cause. An example 
+how interlinear glossing has been handled in a book  directed to a non-specialist public is 
+quoted in the next section (Finck 1909). The presen t article is biased in favor of a more 
+formalized treatment, on the assumption that it wil l be easier to derive a less formal 
+representation from the proposals made here than th e other way round. The treatment is, 
+however, not fully formal, since it focuses on inte rlinear glossing in printed texts. In the 
+annotation of texts by markup languages for automat ic retrieval, the same conceptual 
+problems, but very different technical problems arise which will not be dealt with here. 
+Data are commonly quoted from sources in which they  are already provided by an 
+analysis. In linguistic publications, it has been w ide-spread usage to quote data together with 
+their IMG and their translation, even if their form  or language is different from the one used 
+in the quoting context. That is, such composite dat a representations have been treated as 
+indecomposable blocks. Such scruples do not seem to  be warranted. Primary data may be 
+quoted and provided with the quoting author's analy sis and translation (cf. Bickel et al. 
+2004:1). 
+ 
+1.2.  Precursors 
+ 
+Interlinear glossing has precursors in the descript ive tradition which link it up not with some 
+kind of morphological representation, but with effo rts to bring out the spirit of the language. 
+The point there is not to provide a formal represen tation of a piece of linguistic data, but to 
+render the language-specific construal of the world intelligible. To this end, literal translations 
+were provided. For instance, G. Gabelentz (1901:460 ), in a passage arguing that the personal 
+verb suffixes in Semitic languages are possessive p ronouns, gives the following Arabic 
+example: “ ya-kf 
+ī-ka-hùm  er genügt dir gegen sie (eig. er-genügt-dein-ihr)”. 
+The IMG is a late-comer in linguistics. Early gramm ars were intended as primers, the 
+user was expected to work through them and learn th e morphemes; so no glossing was 
+necessary. Many scientific grammars, e.g. of Latin,  Greek, Arabic etc., were meant for the 
+initiated who needed no glossing either (not seldom  even the free translations were spared). 
+Even comparative studies, historical or typological , left the analysis of the examples of 
+diverse languages to the reader. H. C. Gabelentz, i n the middle of a discussion of Lule, Osage 
+and other languages, presents the following passage: 
+ 
+"Im Dakota (meine Grammatik der Dakota-Sprache § 34 ) dient die 3 Pers. Plur. 
+Act. dazu, das Passivum auszudrücken, sogar wenn ei n Actor im Singularis 
+hinzuzudenken ist, z.B. Jesus Jan eñ hi q ix Jordan watpa ohna baptizapi , Jesus 
+kam zu Johannes und sie tauften ihn (st. er wurde g etauft) im Jordanfluss." (H. 
+C. Gabelentz 1861:465) 
+ 
+Here the reader who does not have the grammar mentioned on his desk is given no chance. 
+===== PAGE 4 =====
+Lehmann, Interlinear morphemic glossing  3 
+Pace Gabelentz, IMGs are needed when two conditions  coincide: the level of analysis 
+is above morphology, and the reader is not expected  to be familiar with the languages under 
+discussion (which is generally the case in typology , but not in descriptive or historical-
+comparative linguistics). W.v. Humboldt (1836[1963] :534) invented his own device to help 
+the reader identify L2 meaningful elements with L1 morphemes. He gives the following 
+example from Classical Nahuatl: 
+ 
+1 2 3 4 5 6 7 8 9 
+ 1 3 2 4 5 6 7 8 9 
+ni- c- chihui  -lia  in  no- piltzin  ce  calli   ich  mache  es  für  der  mein  Sohn  ein  Haus  
+ 
+While dispensing with the IMG proper, this method f ails for L1 elements which cannot be 
+rendered by L2 words. 
+Beside the literal translation illustrated above, G . Gabelentz (1901) uses a variety of 
+techniques. He also has interlinear glosses, as whe n he says: ‘Der Satz “Ich bin Dein Sohn” 
+heißt im Maya: 
+ 
+a – me 
+χen – en. 
+Dein Sohn  ich,’ (Gabelentz 1901:383) 
+ 
+and occasionally (e.g. Gabelentz 1901:400) he uses Latin as L2 in IMGs. 
+Finck (1909) is one of the first linguistic publica tions that illustrate the working of a 
+language with a sizable text provided with a free t ranslation and an IMG. The following 
+sentence from his Turkish text (Finck 1909:83) illustrates his glossing style: 
+ 
+xodža-da  esb 
+āb-ın  dzümle-si-ni  
+Meister=auch Kleider=(der) Gesamtheit=ihre=die 
+ateš-e vur-up  yak-ar  
+Feuer=zu  werf=enderweise  verbrenn=end  
+Der Meister warf nun 
+sämtliche Kleider ins Feuer 
+und verbrannte sie. 
+ 
+As may be seen, these forerunners have no grammatic al category labels yet. Finck glosses 
+Turkish –ın  ' 
+GEN ' by Germ. der  because this word displays a morphological trace o f the 
+genitive. Similarly, Turkish –up  ' GER ' is glossed by –enderweise , maybe the closest to a 
+gerund that German can muster. This procedure is a tribute to the non-specialist readership 
+that the booklet aims at, but necessarily falsifies  the working of the language by attributing 
+lexical meanings to its grammatical morphemes. 
+It took a long time until interlinear morphemic glo ssing became firmly established. In 
+Bloomfield’s Language , of 1933, examples abound, but they are presented like this: 
+“Some languages have here one word, regardless of g ender, as Tagalog 
+[kapa’tid]; our brother  corresponds to a Tagalog phrase [kapa’tid na la’la :ki], 
+where the last word means ‘male’, and our sister  to [kapa’tid na ba’ba:ji], with 
+the attribute ‘female’” (Bloomfield 1933:278). 
+IMGs that fulfill most of the requirements set out below appear first in the sixties of 
+the 20 
+th  century. From the eighties on, they become standar d in publications dealing with 
+languages whose knowledge is not presupposed. Edito rs and publishers increasingly require 
+them even for languages like Latin, French and Germ an that used to be well-known to 
+linguists. The development is towards (not only pro viding translations for, but even) glossing 
+every language except English. This is apparently a  symptom of a global development in 
+===== PAGE 5 =====
+Lehmann, Interlinear morphemic glossing  4 
+which every language except English becomes exotic. 
+Good IMGs are relatively costly, both for the scien tist and for the typesetter. Authors 
+and publishers are therefore not too eager to produ ce them (well). There is at least one 
+software on the market that aids the linguist in ge nerating systematic IMGs for his texts, the 
+interlinearizer that comes with the program Shoebox , from the Summer Institute of 
+Linguistics (cf. Simons & Versaw 1988; Art. 168). 
+Since IMGs are fairly recent in linguistics, they have seldom been treated by linguistic 
+methodology. The first treatise of the present subj ect is Lehmann (1982). Subsequent work 
+includes Simons & Versaw (1988), Lehmann et al. ( 21994), Lieb & Drude (2000), Bickel et 
+al. (2004). They have been freely made use of in the present treatment. 
+ 
+1.3.  Levels of representation 
+ 
+Interlinear morphemic glossing must be seen in the larger context of representation of 
+linguistic data and, even more comprehensive, of the documentation of a language (cf. Lieb & 
+Drude 2000). On such a background, an isolated exam ple given in a descriptive context is a 
+particularly constrained case of the edition and an notation (also called ‘markup’ for technical 
+purposes) of a piece of primary linguistic data for  posterity. In other words, a general-purpose 
+edition of a linguistic corpus is a kind of maximum  model, subject to the full set of rules for 
+explicitness, detail and elaboration, from which th e quotation of an isolated example in the 
+context of some grammatical discussion represents a  subset delimited by considerations of 
+feasibility, usefulness and the like. 
+Every linguistic representation of some piece of ra w data, even if it limits itself to a 
+phonetic transcription, involves some linguistic an alysis (Lehmann 2004). Insofar, no sharp 
+boundary is to be drawn between the sheer represent ation of data and their analysis. Bearing 
+this in mind, we can speak of various levels at whi ch linguistic data may be represented. 
+Presupposing spoken language data, at least the following are relevant: 
+ 
+(a) raw data recording (video or audio tape), 
+(b) phonetic transcription of the utterance, 
+(c) orthographic representation of the utterance, 
+(d) morph(ophon)emic representation of the utteranc e, 
+(e) IMG of the utterance, 
+(f) free translation of the utterance into the back ground language, 
+(g) descriptive and explanatory comment on pragmati c or cultural aspects of the utterance. 
+ 
+This set may be supplemented by even more represent ations (cf. Lieb & Drude 2000). There 
+may be a phonological representation distinct from both levels (b) and (d). There may be a 
+syntactic representation, e.g. in the form of a labeled bracketing. And there may be a semantic 
+representation instead of, or in addition to, repre sentation (f). In such representations, the 
+portion of linguistic analysis is probably even stronger than in the seven levels enumerated. 
+The raw data have a temporal structure which is projected onto a spatial line in written 
+representations. These representations are synchron ized more or less closely. For instance, 
+representation (f) generally matches L1 sentences, units of level (g) may be associated with 
+L1 units of any size, and representation (e) may ma tch representation (d) morpheme by 
+morpheme. This has different consequences for the t ypographic layout. For instance, units of 
+===== PAGE 6 =====
+Lehmann, Interlinear morphemic glossing  5 
+level (g) may be associated with the running text b y making full use of a multidimensional 
+display, while representation (f) may be in a later al column at the same height as its original, 
+as is usual in synoptic editions and also practiced  in the example from Finck (1909) given in 
+section 1.2. Other representations should be arrang ed in lines one of which is beneath the 
+other and runs in parallel with it. 
+For the purposes of descriptive and typological gra mmatical analysis and 
+exemplification, the seven-level set is generally reduced to only three. What may be called the 
+‘canonical trilinear representation’  of linguistic examples involves: 
+- a representation of L1 at one of the levels (b), (c) or (d), 
+- an IMG in L2 (level e), 
+- an idiomatic translation into L2 (level f). 
+An IMG will seldom be paired with a phonetic repres entation, because this serves 
+phonetics, while an IMG serves grammar. They theref ore form an unequal pair. If both are 
+required, they will generally be mediated by anothe r representation, a morphophonemic or 
+orthographic one. 
+It makes a difference for the glossing whether L1 i s rendered in a morphophonemic 
+representation or in conventional orthography. In t he former case, the rules of orthography do 
+not apply, and the linguist may dress up the repres entation in such a way that a biunique 
+mapping onto the IMG is facilitated. In the latter case, morpheme boundaries may be 
+obscured by the orthography, and there will be deli miters such as blanks, hyphens and 
+punctuation marks which do not necessarily represen t grammatical boundaries and may 
+interfere with the glossing. However, the choice be tween an orthographic and a scientific 
+representation of a text is generally a higher-orde r choice which cannot depend on glossing 
+requirements. In particular, an example may be quot ed unchanged from a primary source 
+(think of Sanscrit examples). It may then not be po ssible to insert boundary symbols and the 
+like in the L1 text. Glossing conventions therefore  have to be adjusted to use with 
+orthographic representations. 
+If the first line representing the L1 text differs too much from a morphophonemic 
+representation, then it is advisable to expand the canonical trilinear representation by an 
+additional morphophonemic representation. It will then be this line that the IMG refers to. 
+The two languages involved will be called L1 and L2  throughout. However, it should 
+be clear that the relationship between them is asym metric: L1 is the object language, L2 is the 
+metalanguage. The symbols occurring in an IMG have a different status from the elements of 
+the text line that they gloss: For present purposes , the L1 text line consists of morphs, while 
+the IMG consists of names of L2 morphemes and of gr ammatical categories (cf. section 3.2). 
+There can, thus, be no question of “mirroring” the structure of the L1 expression by the 
+sequence of the L2 elements. Instead, an element in  an IMG serves as a kind of mnemonic 
+hint to the meaning or function of its corresponding L1 element. 
+ 
+1.4.  Delimitation 
+ 
+The complete set of representations rendering an L1  text may be sufficient to derive a 
+grammatical description from it (as postulated in L ieb & Drude 2000, §1.1). However, given 
+its inherent restrictions, an IMG cannot by itself compensate for a grammar (or just a 
+morphology). Apart from the form of presentation, t he most important substantive difference 
+between a grammatical description and an IMG lies i n the fact that the grammar treats of 
+===== PAGE 7 =====
+Lehmann, Interlinear morphemic glossing  6 
+categories in the sense of classes, while the IMG i dentifies individual morphemes. For 
+instance, a grammar treats of the verbal category o f aspect. An IMG contains a gloss for an 
+individual aspect morpheme, e.g. PERF , neglecting the question of whether this is actual ly an 
+aspect morpheme or rather a tense morpheme, and als o leaving unanswered questions 
+concerning other members of the paradigm, let alone  the construction and use of the PERF  
+morpheme. Some of these kinds of information may be  given in other representations, e.g. a 
+syntactic representation. 
+By the same token, the IMG does not indicate the sy ntactic category of a word form. 
+For instance, the IMG of Germ. laufend  is ‘run: PART .PRS ’, showing that the form contains a 
+morpheme whose function it is to mark a present par ticiple. The gloss is not ‘run(part.prs)’ or 
+anything of the sort, meaning that laufend  is a present participle. While the latter is true,  it is 
+not the task of an IMG to give this information. 
+Moreover, the type of morphological unit is not an object of an IMG. Thus, concepts 
+like ‘stem’, ‘root’, ‘prefix’ do not appear in IMGs. Such information may, to a large extent, be 
+inferred from a proper IMG, since the gloss of a ro ot differs typographically from the gloss of 
+a grammatical formative. 
+Similarly, an IMG cannot replace a lexicon. Here ag ain, elements appearing in an 
+IMG are but names of elements appearing in the L1 l ine. They are not meant to exhaust the 
+meaning of such an element. 
+Finally, an IMG is not meant to replace an idiomati c translation. Thus, it cannot and 
+should not render closely the sense of an L1 item i n the given context. An IMG is regularly 
+accompanied by a free translation which fulfills precisely this purpose. 
+ 
+2.  Prerequisites of morphological analysis 
+ 
+Interlinear glossing might appear to be just an ele mentary form of representing data. As a 
+matter of fact, it presupposes a morphological anal ysis. The following analytic problems are 
+directly reflected by the glosses. 
+ 
+2.1.  Unmarkedness and zero morphemes 
+ 
+Where the L1 text contains a morph, the IMG contain s an element rendering it. Where the L1 
+text contains nothing, the issue of rendering it is  complicated by markedness theory. Germ. 
+Herr  may be glossed by ‘master’ or by ‘master( 
+NOM .SG )’. Latin mone-t may be glossed by 
+‘warn-3. SG ’ or by ‘warn(IND .ACT )-3. SG ’ (according to R16). Moreover, one may believe tha t 
+such forms contain zero morphemes and put thus: Herr-Ø ‘master-NOM .SG ’, mone-Ø-Ø-t 
+‘warn-IND -ACT -3. SG ’. All of these IMGs are formally correct. The choice among them is not a 
+matter of appropriate glossing, but of morphologica l theory. For interlinear glossing, only the 
+general rule R1 is relevant. 
+ 
+2.2.  Allomorphy 
+ 
+If the L1 representation to be glossed corresponds to standard orthography, the analyst has no 
+decisions to make in its regard. Otherwise, a good option for the representation (as well as for 
+===== PAGE 8 =====
+Lehmann, Interlinear morphemic glossing  7 
+any writing system) is a morphophonemic representat ion which steers a middle course as far 
+as allomorphy is concerned: Phonologically conditio ned allomorphy is resolved (ignored), 
+morphologically conditioned allomorphy is not resolved (is rendered). 
+The IMG, on the other hand, shows morphemes, not al lomorphs. In order to 
+understand what this implies, consider three exampl es. Modern Yucatec Maya expresses 
+completive and incompletive aspect by suffixes on t ransitive and (one conjugation class of) 
+intransitive verbs as follows: 
+ 
+aspect 
+ 
+valence 
+completive incompletive 
+transitive -ah -ik 
+intransitive -Ø -Vl 
+Tab. 169.1: Aspectual suffixes in Yucatec Maya 
+ 
+For instance, t-u hats’-ah  ‘ PAST -SBJ .3  beat-CMPL  (he beat it)’. One might think that the table 
+contains four morphemes. Actually, however, transit ivity is inherent in the verb stem and 
+conditions allomorphy in the aspect suffix. The con ditioning factor should not make part of 
+the gloss. That is, the correct gloss for -ah  is not ‘ TR .CMPL ’, but simply ‘ CMPL ’. See also 4.5. 
+Yucatec Maya also has personal clitics that precede  nouns as possessive cross-
+reference markers and verbs as subject cross-reference markers. If the noun or verb starts with 
+a vowel, a glide is inserted in its front. The choi ce between the two glides w and y is morpho-
+logically conditioned: If the pronoun is of first p erson singular or of second person, it is w; if 
+the pronoun is of third person, the glide is y. For instance, in watan  ‘ POSS .1. SG  Ø:wife (my 
+wife)’, u yatan  ‘ POSS .3. SG  Ø:wife (his wife)’. It is also possible to regard the noun forms 
+modified by the initial glide as stem allomorphs, i n which case the glide would not even 
+receive the gloss by ‘Ø’. However, in the third per son, a pronominal clitic followed by the 
+glide can be omitted. Thus, yatan  by itself means ‘his wife’. (Historically, the glide is indeed 
+a reflex of an older cross-reference marker). We th erefore have u y-atan  ‘ POSS .3 Ø-wife’ ~ y-
+atan  ‘ POSS .3-wife’, and we face the problem that the same element is not even a morph in one 
+context, but a full-fledged morpheme in another. Wh atever the correct morphological analysis 
+may be, the IMG presupposes it and brings it out. 
+Last, consider gender marking in a language such as  Latin (cf. Art. 48). Puellae bonae  
+means ‘good girls’, pueri boni  ‘good boys’. Apart from motion, gender is inherent  in a noun 
+stem. It is, however, recognizable by the declensio n suffixes. Nevertheless, the gloss of the 
+morph in question does not contain the conditioning category. The noun forms will be glossed 
+‘girl. F:NOM .PL ’, ‘boy.M:NOM .PL ’, implying that gender is a category of the stem, not of the 
+suffix. What about the adjectives? Gender is not in herent in an adjective stem. We may 
+therefore gloss them by ‘good: NOM .PL .F’ and ‘good: NOM .PL .M’. Then one and the same 
+element would be a morpheme on adjectives, but a co nditioned allomorph on nouns, and 
+therefore it would get two different glosses. Since  two different glosses for the same element 
+are not admissible in interlinear glossing (R4), th is would entail that there are two 
+homonymous declension suffixes -ae  in Latin, which is obviously undesirable. We may s top 
+this consideration here, since the problem is obvio usly not one of glossing, but one of 
+morphological analysis. R2 codifies the convention that IMG expressions represent 
+morphemes, not allomorphs. 
+ 
+===== PAGE 9 =====
+Lehmann, Interlinear morphemic glossing  8 
+3.  Principles of interlinear glossing 
+ 
+3.1.  General 
+ 
+In the canonical trilinear representation, one L1 t ext line is matched by two L2 lines, the IMG 
+and the free translation. This entails a division o f labor between the two L2 representations. 
+The free translation is the idiomatic semantic equi valent of the L1 line, the IMG is a 
+representation of its morphological structure. There is consequently no need for the translation 
+to be particularly literal, just as there is no nee d for the IMG to repeat the morphemes that 
+appear in the translation. For instance, a polysemo us L1 item will be rendered by its 
+contextual sense in the free translation, but by it s basic meaning in the IMG (R8). 
+Unnecessary parallelism between the two L2 lines is  redundant; the trilinear canonical 
+representation offers an occasion to provide additional information. 
+In principle, the degree of detail displayed in an IMG depends on the purpose the 
+example with its gloss is meant to serve. However, the author cannot foresee the purposes to 
+which others will want to use his examples. A morph ological detail that is not at stake in the 
+current discussion may be essential for the argumen t another linguist may wish to base on the 
+example. For this reason, the principle is to allow  for as much precision and detail as seems 
+tolerable (R3). The following rules specify the pro perties of a complete IMG . They do not 
+exclude less detailed IMGs where they suffice. Cf. R13 and R23 for possibilities of under-
+specifying morphological structure. 
+The IMG of a morpheme is some sort of name for it, a name that alludes to its 
+meaning or function and is insofar mnemonic or, at least, more helpful to the non-specialist 
+than the L1 morph itself. It must therefore have a certain recognition value. R4, which 
+actually is a tightening of R1, therefore requires that given a particular L1 morpheme, its gloss 
+will be the same in all contexts; and apart from fu ll synonymy, no two morphemes of L1 will 
+have the same gloss. These points will be elaborated in the following subsections. 
+ 
+3.2.  Glossing vocabulary 
+ 
+Glosses are taken from a language L2 that serves as  a metalanguage of L1. L2 is based on a 
+natural language – in this article, English –, but with far-reaching deviations from natural 
+language use. The glossing vocabulary consists of the following kinds of symbols: 
+- vocables: 
+• L2 morphemes and stems 
+• grammatical category labels 
+- boundary symbols. 
+The difference between the two kinds of vocables is  the following: Morphemes and stems are 
+taken from natural L2 vocabulary and are meant to b e translation equivalents (in a sense to be 
+made precise below) of L1 items. For instance, the notation “Germ. Schreib-tisch  ‘write-table 
+(desk)’” is to be interpreted thus: The German word  form Schreibtisch  ‘desk’ consists of two 
+morphs, of which schreib- means ‘write’ and tisch  means ‘table’. Grammatical category 
+labels, on the other hand, are taken from scientifi c terminology and are meant to categorize 
+the function of L1 items. For instance, “Germ. schreib-en  ‘write-
+INF  (write (inf.))’” is to be 
+interpreted thus: The German word form schreiben  ‘write (inf.)’ consists of two morphs, of 
+===== PAGE 10 =====
+Lehmann, Interlinear morphemic glossing  9 
+which schreib- means ‘write’, while –en  is an infinitive marker (that is, -en  does not mean 
+‘infinitive’; it is the German word Infinitiv  which means ‘infinitive’). To bring out this 
+essential difference between the two kinds of IMG v ocables, L2 morphemes and stems are 
+written in straight orthography, while grammatical category labels are written in (small) 
+capitals (R29). 
+A grammatical category label represents (i.e. is th e name of) the value of a 
+grammatical category (the latter being taken, techn ically, as a parameter or attribute). For 
+instance, the label ‘ ACC ’ is the name of the value ‘accusative’ of the morp hological category 
+‘case’. Just as a grammatical category label is a n ame of a value of a grammatical category, 
+what is called ‘L2 morphemes and stems’ are actually names of L2 morphemes and stems. In 
+the following, we will abide by the simpler way of speaking. The choice and use of vocables 
+are treated in the following subsections; boundary symbols are treated in section 4. 
+ 
+3.3.  Lexemes 
+ 
+An L1 lexeme is, in principle, glossed by an L2 lexeme (R5(a)). Sometimes more than one L2 
+word is necessary, for instance in Germ. fabulieren  ‘invent.stories’. However, profusion is to 
+be avoided. Adjectives that do not require a copula  in predicative function are often glossed 
+by adding a copula, e.g. West Greenlandic anurli  ‘windy’ is glossed as ‘be.windy’ in 
+Fortescue (1984:65). This is only correct if a word  of this class requires an attributor in 
+attributive function. Otherwise it wrongly implies that there is no difference between 
+adjectives and verbs, and it tends to obscure the f act that the language does not use a copula 
+with adjectival predicates. 
+L1 cardinal numerals are glossed by Arabic numbers.  An issue arises for proper 
+names, which are often not glossed at all. However,  there is no room here for an exception to 
+the general rule: a proper name is rendered by its counterpart in L2. Some proper names have 
+conventional counterparts that are specific to L2; Engl. John  corresponds to Germ. Hans , and 
+Engl. Munich  corresponds to Germ. München . These then appear in the IMG. Whenever there 
+is no such language-specific convention, the counte rpart of an L1 name is usually the same 
+word in L2. 
+If L2 is English, no problem arises for the form in  which L2 lexemes are quoted in the 
+IMG. In other languages, lexemes have a citation fo rm in conformity with L2 conventions. If 
+this is an inflected form, like the nominative for nouns or the infinitive for verbs, then it is 
+excluded from an IMG by 
+R5(b), and instead the bare stem must be used. The re ason is that 
+such a gloss would seem to imply that there is a no minative, or an infinitive, in the L1 line 
+where actually just a stem is being glossed. 
+ 
+3.4.  Grammatical formatives 
+ 
+L1 morphs are, in principle, glossed by citation forms of L2 morphemes. However, interlinear 
+morphemic glossing crucially revolves around grammatical properties of L1 items. These will 
+differ between L1 and L2. Even if, in a number of c ases, the L2 stem appearing in a gloss has 
+the same grammatical properties as the L1 morph tha t it represents, this cannot be expected 
+and therefore not be relied upon. For instance, Lat in eum  could be glossed by Engl. him , and 
+at the typological level, they do share a number of  features. However, eum  is accusative and 
+===== PAGE 11 =====
+Lehmann, Interlinear morphemic glossing  10  
+can thus not be indirect object, while him  is the form for direct and indirect object. Theref ore, 
+grammatical items of L1 are generally not glossed b y grammatical items of L2, but by a 
+configuration of symbols taken from the scientific metalanguage and representing their 
+grammatical features, i.e. by grammatical category labels (R6). Thus, Latin eum  may be 
+glossed by ‘ ANA :ACC .SG .M’. 
+No bound grammatical or derivational morphemes shou ld appear in IMGs. Free 
+grammatical morphemes may be used to render free gr ammatical morphemes. However, use 
+of those in the second column of Tab. 169.2 is discouraged unless L1 happens to exhibit the 
+same ambiguity as English: 
+ 
+word class instead of use 
+copulas, 
+auxiliaries 
+be 
+have  (except to mean ‘possess, own’) 
+COP , PASS , PROG ... 
+PF , OBLG ... 
+prepositions by 
+with 
+for 
+as 
+from 
+to 
+of  
+AG , ERG ... 
+INST , COM , ASSOC ... 
+BEN , DEST ... 
+EQT , ESS ... 
+ABL , DEL ... 
+DAT , ALL , DEST , TERM , INF ... 
+GEN , ASSOC ... 
+subordinators that 
+if  
+COMP , SR (,  D 3) 
+INT , COND .SR  
+relativizers that 
+who 
+which  
+REL  
+REL .HUM .NOM ... 
+REL .NHUM .NOM ... 
+Tab. 169.2: Free grammatical morphemes 
+ 
+Some morphemes are extremely deeply entrenched in t he semantic or pragmatic 
+system of the language and simply have no translati on equivalent in L2. Two common ways 
+out are a) to repeat the significans of the item in  the gloss, and b) to indicate the class of the 
+item instead of its meaning. Thus, we find the Germ an modal particle eben  glossed either as 
+‘
+EBEN ’ or as ‘ PTL ’. Both glosses are inadequate. If there is no translation equivalent in natural 
+L2, then the linguist has a specialized metalanguag e to describe such functions. For the sake 
+of an IMG that is not devoted to modal particles in  particular, a gloss like ‘ REAFF ’ 
+(reaffirmed) will be fully sufficient and more helpful than either of the aforementioned. 
+A gloss is a proper name of an L1 morpheme. It does  not give information on the 
+grammatical class of the morpheme in question other  than what is implied by the name itself. 
+If a gloss is ‘ ACC ’, one assumes that the morpheme belongs to the gra mmatical class of the 
+case morphemes. It is the task of the grammar to cl arify whether or not this implication is 
+correct in a particular case. The gloss will not be  ‘ CASE .ACC ’ or anything of this sort. For the 
+same reason, the gloss of the perfective aspect is simply ‘ PFV ’ and not ‘ PFV .ASP’, and so on. 
+From this it follows that the gloss will not be ‘ ASP ’ either. In the literature, one 
+frequently encounters glosses such as ‘ PTCL ’ (particle), ‘ AGR ’ (agreement), ‘ ART ’ (article). If 
+L1 possesses only one particle, agreement morpheme (hardly imaginable) or article (this is 
+possible), then these glosses are sufficient. In al l other cases, this kind of gloss is not helpful 
+because it does not give the information on the mea ning or function of the morpheme that a 
+===== PAGE 12 =====
+Lehmann, Interlinear morphemic glossing  11  
+gloss is supposed to give. Moreover, the whole glos sing becomes inconsistent, as some 
+glosses name particular morphemes, while others nam e the class a morpheme belongs to. 
+More on this in section 3.9.1. 
+ 
+3.5.  Ambiguity 
+ 
+Each morpheme of L1 should be recognizable by its gloss. The reader is supported in this task 
+if glosses are consistent within one publication. I t will rather confuse him if Yucatec Maya 
+k’ìin  is once glossed ‘sun’ and the next time ‘day’. Polysemy  is resolved in the idiomatic 
+translation. The gloss renders neither the contextu al sense nor the full meaning range of an 
+item. Naturally, this does not apply to homonymy . Homonymous L1 morphs represent 
+different morphemes and therefore receive different  glosses. This is stipulated by R7, which 
+follows from R4. 
+If the senses of an item are reducible to a Gesamtbedeutung , then this should be used 
+in the gloss (R8). For instance, the Turkish dative /allative suffix –a is glossed by ‘ 
+DAT ’. The 
+Gesamtbedeutung rather than the Grundbedeutung shou ld appear in the gloss, because it has 
+better chances to fit all the diverse contexts in w hich the item occurs. Sometimes, there is 
+either no Gesamtbedeutung, or if there is, L2 does not have a term for it. In cases like Yucatec 
+Maya k’ìin  ‘sun, day’, there are various alternatives. First,  the Grundbedeutung may be used 
+as the gloss; thus Yucatec Maya k’ìin  ‘sun’. However, if all the occurrences of a polysemous 
+morpheme in a particular publication reflect the sa me (derived) reading, then generally no 
+useful purpose is served if it is consistently glos sed by its basic meaning. For instance, all the 
+occurrences of Yucatec Maya k’ìin  in a particular text might mean ‘day’. Then this w ould be 
+the appropriate gloss. Finally, any kind of reducti on may seem misleading. Then two or even 
+more senses may be indicated in the gloss, separate d by a slash, e.g. Yucatec Maya k’ìin  
+‘sun/day’. (2) illustrates the same convention. 
+ 
+(2) Korean 
+Toli-n
+n kae-hako cal  non-ta. 
+Toli-TOP  dog- ADD  often/well play: PRS -DECL  
+‘Toli likes to play with the dog.’ 
+ 
+Syncretism often involves extensive polysemy and/or homonymy. If it were to be made 
+explicit in an IMG, then e.g. the gloss for Lat. ancillae  would have to be 
+‘maid. 
+F:GEN .SG /DAT .SG /NOM .PL ’. This may be appropriate if the discussion in the  context 
+deals with syncretism. Otherwise, only the category  actually required by the context may be 
+shown, e.g.: 
+ 
+(3) Latin 
+ancillae  orant 
+maid. 
+F:NOM .PL   pray:3. PL  
+‘the maids pray’ 
+ 
+In other words, in cases of syncretism the last two bullet points of R8 must be resorted to. 
+A whole paradigm of markers may be used in two clea rly distinct functions. For 
+instance, a set of cross-reference markers may comb ine with a verb to reference its subject, 
+===== PAGE 13 =====
+Lehmann, Interlinear morphemic glossing  12  
+and with a noun to reference its possessor. Here ag ain, the two alternatives mentioned are 
+open: either gloss the verb markers by ‘ SBJ ’ and the noun markers by ‘ POSS ’, or gloss them by 
+‘SBJ /POSS ’ in both positions (which is, actually, never done ). A third alternative – one that is 
+actually resorted to in Mayan linguistics; cf. Art.  170, section 6.1.2 – is to coin a concept and 
+a term for a paradigm that is used in these two functions and use this in the IMG. 
+ 
+3.6.  Features and functions 
+ 
+As remarked in section 1.4, an IMG cannot fill the place of a grammar. In particular, the 
+grammatical category label that represents a morpheme in the gloss cannot poss ibly 
+represent the full functionality of that morpheme. It can only serve as a mnemonic identifier 
+for the reader. We just saw that the full polysemy of an item cannot be accounted for in a 
+gloss. The same goes for functional information ass ociated with a morphological position. If 
+the slot filler is a verb agreement affix or cross- reference marker, then its meaning is in the 
+sphere of person, number and gender. Consider conju gation endings as in Germ. lieb-e ‘love-
+SBJ .1. SG ’, lieb-st  ‘love-SBJ .2. SG ’, lieb-t ‘love-SBJ .3. SG ’. The information that these suffixes 
+cross-reference the subject is functional information associated with the morphological slot. It 
+must be given in the grammar; the IMG may simply read lieb-e ‘love-1. SG ’ etc. 
+The same would apply, in principle, if the verb cro ss-references more than one of its 
+dependents. Here, however, it has become customary to distinguish the references of the 
+cross-reference markers by indicating their syntactic function, as in (4). 
+ 
+(4) Swahili 
+ni-li-mw-ona   m-toto 
+SBJ .1. SG -PST -OBJ .CL .1-see CL .1-child 
+‘I saw the/a child’ 
+ 
+The information that the initial prefix references the subject, while the one following the tense 
+prefix references the direct object must be contain ed in the grammar. The task of the gloss is 
+to identify the particular element, not to specify the rules of its use. Insofar, adding functional 
+information concerning the morphological slot itsel f – ‘ 
+SBJ ’ and ‘ OBJ ’ in (4) – is a service to 
+the reader that may be useful, but that also clutters up the gloss (cf. R3). 
+The distinction between morphological categories an d syntactic or semantic functions 
+is also relevant in the domain of case and valence.  The frequent confusion among syntactic/ 
+semantic functions, cases and valence-derivational functions also manifests itself in glossing 
+habits. One frequently encounters glosses such as T urkish ate ş-in  ‘fire-POSS ’ instead of ‘fire-
+GEN ’, ate ş-e ‘fire-IO ’ instead of ‘fire-DAT ’ or ‘...-send-DAT ...’ instead of (5). The quality of the 
+glossing reflects the quality of the morphological analysis. 
+ 
+(5) Swahili 
+Musa a-li-ni-andik-ia   barua 
+Musa 
+SBJ .CL .1-PST -OBJ .1. SG -send-APPL  letter 
+‘Musa sent me a letter’ 
+ 
+===== PAGE 14 =====
+Lehmann, Interlinear morphemic glossing  13  
+3.7.  Derived stems 
+ 
+The morpho-semantic structure of a derived stem may  be completely regular and transparent, 
+as in Germ. wolk-ig  ‘cloud-
+ADJVR  (cloudy)’, or it may be opaque, as in Germ. heil-ig  
+‘salvation-ADJVR  (holy)’. If the discussion focuses on word-formati on, then both of these 
+words will be glossed as indicated. If the internal  structure of stems is of no relevance, then it 
+will not be shown in the L1 text line, and conseque ntly the glosses can reduce to ‘cloudy’ and 
+‘holy’, respectively. 
+For opaque complex stems, morphological segmentatio n plus corresponding gloss 
+often amounts more to etymology than to morphologic al analysis. It also unnecessarily 
+obscures the correspondence of the gloss to the idi omatic translation. This should be borne in 
+mind before one carries it through as a general principle in text editions. 
+In an ideal methodological situation, an IMG is tak en from a lexicon, where the gloss 
+constitutes one of the fields in the microstructure  of each lexical entry. The German lexicon 
+may contain, e.g., the three entries Huf  'hoof', Eisen  'iron' and Hufeisen  'horse-shoe'. If the 
+latter occurs in an L1 text, then it may either be analyzed or not. In the former case Huf  and 
+Eisen  will be looked up in the lexicon and will be match ed by their glosses, while in the latter 
+case Hufeisen  will be looked up and be glossed accordingly. 
+ 
+3.8.  Submorphemic units 
+ 
+There are two kinds of submorphemic units: parts of morphemes with a sound-symbolic value 
+and strings of phonemes inserted between morphemes for euphonic or similar reasons. The 
+former kind is not generally subjected to morphemic  analysis and may therefore be left out of 
+consideration here. The latter kind may be illustra ted by the second element in forms such as 
+French a-t-il  ‘has he’ and Germ. Weihnacht-s-gans  ‘Christmas goose’. If the submorphemic 
+unit is not at stake in the context, then the first  choice is to abstain from an analysis by 
+regarding the submorphemic unit as part of a stem a lternant: Weihnachts-gans  ‘Christmas-
+goose’. The second choice is to render the submorph emic unit by Ø, e.g. a-t-il  ‘has-Ø-he’. A 
+euphonic submorphemic unit may be glossed by ‘ 
+EU ’ instead of ‘Ø’. 
+ 
+3.9.  Grammatical category labels 
+ 
+3.9.1.  General 
+ 
+As was said in 3.4, the gloss for a grammatical item is generally not a grammatical item of L2, 
+but a grammatical category label (R6). For instance  Yucatec Maya yàan  is not rendered by 
+‘be’, but by ‘ 
+EXIST ’, one of the reasons being that L2 ‘be’ is a copul a, while Yucatec Maya 
+yàan  is not. While this poses few problems for such cat egories for which the European 
+grammaticographic tradition possesses terms, it doe s pose a problem for certain classes of 
+semi-grammaticalized items such as function verbs and coverbs. Coverbs are words which are 
+grammaticalized from verbs to minor parts of speech , mostly adpositions. If they function as 
+the latter, they may express a semantic role. In Ma ndarin, for instance, yòng  has the lexical 
+meaning ‘use’ and the grammatical meaning ‘ INSTR ’, as in (6). 
+ 
+===== PAGE 15 =====
+Lehmann, Interlinear morphemic glossing  14  
+(6) Chinese 
+Ta  yòng  sh ŏu z ŏu lù. 
+he use/INSTR hand walk road 
+‘He walks on his hands.’ 
+ 
+This kind of problem is not solved by putting the l exical meaning in upper case (‘ 
+USE ’), since 
+‘use’ is neither a grammatical concept in L2 nor a term of the grammatical metalanguage. 
+Applying R8 in such cases would imply opting in fav or of the Gesamtbedeutung of the item, 
+which in such cases is the grammatical meaning. The  gloss would then be ‘ INSTR ’ (or some 
+more language-specific grammatical category which m ay better suit this particular function). 
+The problem remains, however, that the same word can occur as the sole predicate of a clause, 
+in the meaning ‘use’ (e.g. tā yòng sh ŏu ‘he uses his hand’). An IMG ‘ INSTR ’ would be hardly 
+intelligible there. The alternative of only using t he Grundbedeutung – ‘use’ in (6) and 
+throughout – would be in conflict with the principl e that morphological analysis must be kept 
+distinct from etymology. Here the third alternative  offered by rule R8 may be resorted to, viz. 
+providing both meanings in the gloss of each occurrence of the item, thus: yòng  ‘use/ INSTR ’. 
+An IMG identifies an L1 morpheme. It names a value,  not a parameter. Mentioning 
+the name of the generic category in the gloss inste ad of the specific value is nevertheless 
+widespread usage. One finds both Japanese yom-i and yon-de  glossed by ‘read- CONV ’ 
+(converb), which hinders the reader in his attempt to keep the converb forms apart. One finds 
+Onondaga wa ha-ye kwa-hní:-nu  ‘he bought tobacco’ glossed as ‘ TNS :he/it-
+tobacco:buy-ASP ’ (Woodbury 1975:10), which is of no use for somebo dy studying the 
+interdependence of incorporation with tense and aspect. 
+IMGs not seldom contain labels that do not correspo nd to the principles introduced so 
+far. Sometimes, elements without morphological status are separated and glossed. Sometimes, 
+the parameter instead of the particular value of a grammatical category is identified. 
+Sometimes, syntactic or semantic instead of morphol ogical information is given. Here is an 
+incomplete list of labels that have repeatedly been  found in glosses but which should be 
+avoided. 
+ 
+label intended meaning comment 
+A transitive subject in morphemic glosses, the abbre viation is ERG 
+ADV  adverb specify meaning 
+AGR  agreement specify agreement categories 
+AGT  agent this is not a value of a morphological categ ory 
+ART  article only if it has no determinative properties  
+ASP  aspect specify particular aspect 
+AUX  auxiliary only if there is only one auxiliary morp heme in the language 
+CARD  cardinal only if it is a morpheme or grammatical f eature 
+CLF  classifier this is a word class 
+CLT  clitic this is neither a morphological category no r a value of one 
+EP  epenthetic has no morphological status, should not  be separated in the first 
+place 
+EVID  evidential specify particular evidential 
+PAT  patient this is not a value of a morphological cat egory 
+PREP  preposition this is a word class 
+PTL  particle this is (at best) a word class 
+===== PAGE 16 =====
+Lehmann, Interlinear morphemic glossing  15  
+TNS  tense specify particular tense 
+Tab. 169.3: Labels to be avoided 
+ 
+3.9.2.  List of grammatical categories and their glossing labels 
+ 
+No list of grammatical category labels can be complete. The list following in 
+Tab. 169.4  (which 
+incorporates the list in Lehmann et al. 21994) only contains the most widespread categories.  
+When more than one abbreviation is mentioned, they are given in the order of preference. To 
+the extent that these abbreviations are or become w ide-spread, they get the status of linguistic 
+abbreviations like ‘NP’, which need not be defined when used. If a publication uses labels not 
+contained in the following list, it must explain them in an individual list of abbreviations. 
+Grammatical category labels are subject to two conf licting requirements: they must be 
+both distinct and short. The former requirement tak es precedence. It is, for instance, not 
+possible to use ‘ COMP ’ in one and the same publication to mean both ‘com pletive’ and 
+‘complementizer’. The list in Tab. 169.4 avoids such clashes. However, in an individual 
+publication that has nothing to do with complementa tion, the aspect may, of course, be 
+abbreviated by ‘ COMP ’ (instead of ‘ CMP (L)’, as in the list). Parenthesized parts of an 
+abbreviation are only necessary if a distinctness conflict arises. 
+Tab. 169.4  contains only such terms which may appear in an IMG. In other publications, 
+similar lists of terms for syntactic categories and  functions and for semantic and pragmatic 
+functions may be found. 
+‘Cross-reference position’ means a morphological slot, usually on a verb, occupied by 
+pronominal elements that agree with or refer to a d ependent in a specific syntactic function. 
+‘Case’ means a case relator that may take the form of a case affix or an adposition. Verb 
+derivational morphemes get these glosses only if th ey are homonymous with nominal case 
+relators. 
+ 
+value abbrev. category comment 
+1
+st  person 1  person  
+2nd  person 2 person  
+3rd  person 3 person  
+abessive ( PRV ) 
+(A VERS ) 
+ use ‘privative’ and ‘aversive’ 
+ablative ABL  local case ‘from’ (= separative) 
+absolute ABSL  nominal free non-incorporated form of noun 
+absolutive ABS  grammatical case or cross-
+reference position 
+in ergative system 
+abstract ABSTR  nominal  
+accusative ACC  grammatical case  
+action nominalizer ACNNR  deverbal nominal derivation  
+active ACT  voice; case or cross-reference 
+position 
+in active system 
+actor ACR  grammatical case or cross-refer-
+ence position 
+ 
+actor topic A voice  
+additive ADD  case  
+addressee-honorific 2 HON  honorification  
+addressee-humble 2 HML  honorification  
+adelative ADEL  local case  
+adessive  ADESS  local case  
+===== PAGE 17 =====
+Lehmann, Interlinear morphemic glossing  16  
+adhortative ( HORT )  use ‘hortative’ 
+aditive ( ALL )  use ‘allative’ 
+adjectiv(al)izer ADJR  derivational or syntactic  
+admonitive ADM  mood  
+adverbializer ADVR  derivational or syntactic  
+adversative ADRVS  interpropositional relation ‘whereas’ 
+affirmative AFFMT  opposite to negative normally unmarked 
+agent nominalizer AGNR  deverbal nominal derivation  
+agentive AG    
+alienable AL  possessive attribution morpheme  
+allative ALL  local case ‘to’ 
+allocutive ALLOC  honorification kind of addressee-honorific 
+anaphoric ANA  pronominal  
+andative AND  deictic  
+animate AN    
+anterior ANT  tense relative tense 
+anticausative ACAUS  deverbal verb derivation = deagentive, blocking of  actor 
+argument 
+antipassive APASS  voice  
+aorist AOR   tense-aspect perfective past (as opposed to imper -
+fect) 
+applicative APPL  deverbal verbal derivation subtypes may be disting uished by 
+APPL .REC , APPL .INST  etc. 
+apprehensional APPR  interpropositional relation ‘lest’ 
+assertive ASRT  modality subtype of declarative: high degree of 
+commitment 
+associative ASS (OC ) adnominal case ‘with, à’ 
+assumed ASSUM  evidential  
+attenuative ATTEN  deverbal verb derivation  
+attributor A T  nominal links an attribute to the head 
+auditory AUD  evidential  
+augmentative AUG  denominal nominal derivation  
+auxiliary AUX   if it is the only auxiliary root 
+benefactive BEN  case ‘for’ 
+cardinal CARD  numeral if marked grammatically 
+caritive ( PRV )  use ‘privative’ 
+causative CAUS  deverbal verb derivation  
+circumstantial CIRC  interpropositional relation ‘in, by’ 
+clamative ( EXCL )  use ‘exclamative’ 
+classifier CLF  nominal followed by class identifier, e.g. HUM  
+cohortative ( HORT )  use ‘hortative’ 
+collective COLL    
+comitative COMIT  case ‘with, in the company of’ 
+common COMM  gender either masc. or fem.; cf. ‘human’ and 
+‘animate’ 
+comparative CMPR  degree of comparison  
+complementizer COMP  subordinator = SR  
+completive CMPL , 
+CMP  
+aspect normally = perfective 
+conative CNTV  mood  
+concessive CONC  interpropositional relation ‘although’ 
+conditional COND  interpropositional relation; 
+mood 
+‘if’; 
+ 
+‘would’ 
+conjectural 
+CONJC  evidential  
+conjunctive CONJ  interpropositional relation of non-finite predicat e 
+===== PAGE 18 =====
+Lehmann, Interlinear morphemic glossing  17  
+connector, -ive CONN   if there is only one 
+consecutive CONSEC  interpropositional relation ‘so that’ 
+construct CONST  nominal construct state 
+converb ( GER )  use ‘gerund’ 
+continuous CONT  aspect/aktionsart  
+copula COP   if there is only one 
+crastinal CRAS  tense tomorrow 
+dative DAT  grammatical case  
+deagentive ( ACAUS )  use ‘anticausative’ 
+debitive ( OBLG )  use ‘obligative’ 
+declarative DECL  sentence-type normally unmarked 
+deferential DEFR  honorification ~ speaker-humble 
+definite DEF  determination  
+deictic of 12 person D12 determination  
+deictic of 1 st  person D1 determination  
+deictic of 2 nd  person D2 determination  
+deictic of 3 rd  person D3 determination  
+delative DEL  local case ‘down from’ 
+demonstrative DEM  determination  
+dependent verb form ( SUBJ )  use ‘subjunctive’ 
+desiderative DES  deverbal verb derivation  
+destinative DEST  local case; 
+also on non-finite verb forms (= 
+supine) 
+‘to’; 
+if typically for human destinations, use 
+‘benefactive’ 
+determiner 
+DET  pronominal will normally be DEF , INDEF , GNR , 
+SPEC , NSPEC  
+detransitivizer DETR  deverbal verb derivation see also ‘anticausative’ and ‘intro-
+versive’ 
+different subject DS    
+diminutive DIM  denominal noun derivation  
+direct DR  voice vs. inverse 
+direct evidential DIREV  evidential  
+direct object DO  cross-reference position  
+directional DIR  case or verb derivation ‘towards’; use AND  and VEN  for deictic 
+directionals 
+distal DIST  determination remote from deictic center 
+distributive DISTR  nominal or verbal  
+donative DON   auxiliary of benefactive construction 
+dual DU , DL  number  
+dual exclusive DE  number  
+dual inclusive DI  number  
+dubitative DUB  mood  
+durative DUR  aktionsart  
+dynamic DYN  aktionsart vs. stative 
+egressive EGR  aktionsart  
+elative ELAT  local case ‘out of’ 
+emphasizer/emphatic EMPH  funct. sentence perspective e.g., class of pronoun  
+equative EQT  1. case; 
+2. predicative 
+‘as’; 
+feature/marker of adjective in nominal 
+clause 
+ergative 
+ERG  grammatical case or cross-
+reference position 
+in ergative system 
+essive ESS  case ‘as’; see also ‘transformative’ 
+evidential EVID  verbal  
+exclamative EXCL  mood  
+exclusive   use ‘dual exclusive’, ‘plural exclusive ’ 
+===== PAGE 19 =====
+Lehmann, Interlinear morphemic glossing  18  
+exist(ential) EXIST  grammatical verb  
+experiential EXPER  aspect  
+extrafocal EXFOC  verbal status of subordinate clause of cleft-
+sentence 
+extraversive EXTRV  deverbal verb derivation transitivization by addit ion of 
+undergoer 
+factitive FACT  denominal/deadjectival verb 
+derivation 
+A-FACT  NP ‘make NP A’ 
+familiar FAM  pronominal  
+feminine F gender  
+finite FIN  verbal  
+first person dual inclu-
+sive 
+12  if treated as a quasi-singular; otherwise 
+‘dual inclusive’ 
+focus 
+FOC  funct. sentence perspective  
+formal FRM  mood  
+frequentative FREQ  aktionsart multiple times on several occasions 
+future FUT  tense  
+generic GNR  determination  
+genitive GEN  grammatical case  
+gerund GER  verbal verbal adverb or converb 
+gerundive ( OBLG )  use ‘obligative’ 
+habitual HABIT  aktionsart ~ customary 
+habitual-generic   use ‘habitual’, ‘generic’ 
+habitual-past   use ‘habitual’, ‘past’ 
+hesitative 
+HESIT  funct. sentence perspective  
+hesternal HEST  tense yesterday’s past 
+hodiernal future HODFUT  tense today’s future 
+hodiernal past HODPST  tense today’s past 
+honorific HON  honorification  
+hortative HORT  mood 1 st  person imperative 
+human HUM    
+humble HML  honorification comprises ‘speaker-humble, addresse e-
+humble, referent-humble’ 
+hypocoristic HCR  affect  
+hypothetical HYP  mood  
+illative ILL  local case ‘into’ 
+immediate IMM  tense specifier of other tenses 
+immediate/imminent 
+future 
+IMMFUT  tense  
+immediate past ( RECPST )  use ‘recent past’ 
+imperative IMP  mood  
+imperfect IMPF  tense-aspect imperfective past; vs. aorist 
+imperfective IPFV  aspect  
+impersonal IMPR   only if formally distinct from the spe-
+cific persons 
+impersonal passive IPS  voice passive without promotion to subject 
+inactive INACT  grammatical case or cross-
+reference position 
+in active system 
+inalienable INAL  nominal possessive attribution morpheme or 
+feature 
+inanimate INAN    
+inceptive ( INGR )  use ‘ingressive’ 
+inchoative INCH  denominal verbal derivation N/A- INCH  ‘become N/A’ 
+inclusive   use ‘dual inclusive’, ‘plural inclusive ’ 
+incompletive, 
+noncompletive 
+INCMP (L) aspect normally = imperfective 
+===== PAGE 20 =====
+Lehmann, Interlinear morphemic glossing  19  
+inconsequential INCONS  interpropositional relation  
+indefinite INDEF  determination  
+independent INDEP  mood only if distinct from indicative 
+indicative IND  mood  
+indirect object IO  cross-reference position  
+inessive INESS  local case ‘inside’ 
+inferential INFR  mood or evidential  
+infinitive INF  verbal  
+ingressive INGR  aktionsart  
+injunctive INJ  mood  
+instructive ( MAN )  use ‘manner’ 
+instrument nominalizer INSTNR  deverbal nominal derivation  
+instrumental INST (R) case  
+intensive INTS  verbal often aktionsart 
+interrogative INT  sentence type particle or morphological category 
+intransitive INTR  verbal morpheme or grammatical category 
+intransitive subject S cross-reference position only if opposed to both A and P; use SBJ  
+otherwise 
+introversive INTRV  deverbal verb derivation blocking of undergoer arg ument 
+inverse INV  usually verbal vs. direct 
+invisible INVS  determination  
+irrealis IRR  mood  
+iterative ITER  aktionsart several times on one occasion 
+jussive JUSS  mood 3 rd  ps. imperative or dependent mood 
+lative LAT  local case ‘to ~ from ~ via’ 
+ligature LIG  nominal  
+linker LNK  nominal links subconstituents of a phrase, typi-
+cally an NP; properly includes 
+‘attributor’ 
+locative 
+LOC  local case  
+locative topic LT  voice  
+logophoric LOG  pronominal or verbal  
+malefactive MAL  deverbal verb derivation  
+manner MAN  case also on non-finite verbs 
+manner nominalizer MANNR  deverbal nominal derivation  
+masculine M gender  
+masculine personal MHUM  gender  
+medial MED  determination medial distance from deictic center 
+medial MEDV  verbal verb form in a chain 
+mediative MEDT  case ‘between, among; by means of’ 
+mediopassive MEDP  voice  
+middle MID  voice excludes passive 
+motivative MTV  case ‘by’; sometimes called ‘causal’ 
+narrative NARR  tense  
+near future NRFUT  tense after ‘immediate future’ 
+negative NEG    
+neuter N gender  
+nominalizer NR  deverbal nominal derivation or 
+syntactic subordination 
+see also the more specific ones 
+nominative NOM  grammatical case  
+non- N  e.g. NPST  
+non-finite NFIN  verbal   
+non-future NFUT  tense  
+non-human NHUM  gender  
+non-masculine personal  NM  gender  
+non-past NPST  tense  
+===== PAGE 21 =====
+Lehmann, Interlinear morphemic glossing  20  
+non-plural NPL  number < 3 
+non-singular NSG  number > 1; only if there is a plural for > 2 
+non-specific NSPEC  determination  
+non-visual NVIS  evidential non-eye-witness 
+non-volitional NVOL  verbal  
+noun class n CL n  where n is a number or a feature 
+object OBJ  cross-reference position  
+obligative OBLG  mood  
+oblique OBL  case  
+obviative  OBV  person vs. proximate 
+optative  OPT  mood  
+ordinal ORD  numeral  
+participle (marker) PART  verbal  
+partitive PRTV  case  
+passive PASS  voice  
+past PST  tense  
+patient nominalizer PATNR  deverbal nominal derivation  
+patient topic PT   voice  
+paucal PAU  number  
+pejorative PEJ  affect  
+perfect P(R)F tense-aspect  
+perfective PFV  aspect  
+pergressive ( PERL )  use ‘perlative’ 
+perlative PERL  local case ‘through’ 
+place nominalizer LOCNR  deverbal nominal derivation  
+pluperfect PLUP  tense past or perfect of a past 
+plural  PL  number  
+plural exclusive PE  number  
+plural inclusive PI  number  
+pluritive ( PL )  plural of a singulative; use ‘plural’ 
+polite ( FRM )  use ‘formal’ 
+positional POSIT  verbal  
+positive ( AFFM )  use ‘affirmative’ 
+possessive POSS  possessive adjective, pronoun and 
+cross-reference position 
+not for an adnominal case relation; 
+that is 
+GEN  or AT  
+postcrastinal POCRAS  tense future after tomorrow 
+postelative POSTEL local case ‘from behind’ 
+posterior POST  relative tense  
+postessive POSTESS  local case ‘behind’ 
+post-hodiernal POHOD  tense future after today 
+potential POT  mood  
+precative PREC  mood for requesting 
+predicative PRED  nominal predicative form 
+present PRS  tense  
+preterite ( PST )  use ‘past’ 
+pre-hesternal PRHEST  tense past before yesterday 
+primary object PO  cross-reference position  
+privative  PR (I)V case ‘without’ 
+processive, -ual PROC  denominal verb derivation  
+progressive PROG  aspect  
+prohibitive PROH  mood negative imperative 
+prolative PROLAT  local case ‘along, by (way of)’ 
+proprietive PROPR  case or derivational category ‘having, provided wi th’ 
+prospective PROSP  tense-aspect ‘going to’; opposite of perfect 
+proximal PROX  determination near the deictic center 
+proximate PRX  person vs. obviative 
+===== PAGE 22 =====
+Lehmann, Interlinear morphemic glossing  21  
+punctual PNCT  aspect or aktionsart  
+purposive ( DEST )  use ‘destinative’ 
+quality nominalizer QUALNR  deverbal nominal derivation  
+quotative QUOT  marking indirect speech  
+realis RLS  mood vs. irrealis 
+recent past RECPST  tense = immediate past 
+reciprocal REC (P) voice or pronominal  
+reduplicative   gloss by function 
+referent-honorific 3
+HON  honorification  
+referent-humble 3 HML  honorification  
+referentive RFR  case ‘about’ 
+reflexive R(E)FL  voice or pronominal  
+reinforcement ( INTNS )  use ‘intensive’ 
+relational(izer) RELL  nominal  
+relative REL  subordinative and/or pronominal in relative clause  
+relative ( RFR )  use ‘referentive’ 
+remote ( DIST )  use ‘distal’ 
+remote past REMPST  tense  
+repetitive REP  aktionsart only if distinct from iterative 
+reportative RPRT  evidential  
+resultative RES  aspect or aktionsart  
+reversive RVRS  aktionsart  
+same subject SS    
+secondary object SO  cross-reference position  
+semelfactive SMLF  aktionsart  
+sensory SENS  evidential  
+separative ( ABL )  use ‘ablative’ 
+sequential SEQ  interpropositional relation vs. simultaneous 
+simultaneous SIM  interpropositional relation vs. sequential 
+singular SG  number restricted 
+singulative SGT  nominal vs. collective 
+sociative SOC  verbal ‘together’ 
+speaker-honorific 1 HON  honorification  
+speaker-humble 1 HML  honorification  
+specific SPEC  determination  
+speculative SPECL  evidential  
+stative STAT  aktionsart  
+subelative SUBEL  local case ‘from under’ 
+subessive SUBESS  local case ‘under’ 
+subject SBJ  cross-reference position  
+subjunctive  SUBJ  mood  
+sublative SUBL  local case ‘to under’ 
+subordinator SR  interpropositional relation only for the single un iversal 
+subordinator (‘that’) 
+superdirective ( SUPL )  use super-lative 
+superelative SUPEL  local case ‘from above’ 
+superessive SUPESS  local case ‘above’ 
+superlative SUP  degree of comparison  
+super-lative SUPL  local case ‘to above’ 
+terminative TERM  local case or aktionsart ‘up to’ 
+topic TOP  funct. sentence perspective  
+transformative TRNSF  case ‘becoming’; dynamic counterpart of 
+essive 
+transitive TR  verbal morpheme or grammatical category 
+transitive patient P cross-reference position only if opposed to both S and A; use OBJ  
+otherwise 
+===== PAGE 23 =====
+Lehmann, Interlinear morphemic glossing  22  
+transitive subject A cross-reference position only if opposed to both S and P; use 
+ERG  otherwise 
+transitivizer TRR  deverbal verb derivation  
+translative TRNSL  local case ‘across’ 
+trial TRL  number only if distinct from paucal 
+undergoer UGR  cross-reference position  
+unrestricted ( PL )  use ‘plural’ 
+unspecified UNSPEC  person unspecified argument of relational base 
+validator   use ‘assertive’, ‘declarative’ 
+venitive VEN  deictic  
+verbalizer VR , VBZ  verbal derivation  
+visible VS  determination  
+visual VIS  evidential eyewitness 
+vocative VOC  case  
+volitional, volitive VOL  verbal  
+zero ∅   making no contribution to sentence 
+meaning 
+ 
+Tab. 169.4: Grammatical category labels 
+ 
+4.  Boundary symbols 
+ 
+4.1.  Basic rules 
+ 
+Rules R1 and R4 guarantee correspondence between units in the L1 text and in the IMG. They 
+do not, however, insure that the vertical alignment  works in a mechanical way. This is 
+desirable in certain contexts such as automatic par sing. It can be guaranteed in a fully 
+formalized representation, which would then take th e form of a table (s. Lieb & Drude 2000). 
+In less formal situations, it cannot be fully guara nteed because there may be good reasons not 
+to insert morpheme boundaries in the L1 text while still representing each morph by a 
+separate gloss (cf. R13). Correspondence of boundar y symbols in the L1 and the IMG lines is 
+therefore not generally an equivalence, but only an  implication: boundary symbols in the L1 
+line are matched by corresponding boundary symbols in the IMG (R9). We will review the 
+kinds of boundaries and their delimiters in turn. 
+The word boundary  is shown by a blank in L1. This is repeated in the  IMG, and 
+conversely there is a blank in an IMG only if there  is a corresponding blank in the L1 line. 
+This particular rule (R10) is therefore stricter th an R9. R10 
+ prohibits two situations: a word 
+being rendered by a sequence of two words; and a se quence of two words being rendered by 
+one word. The first situation will be discussed in section 4.5. Sometimes a sequence of two L1 
+units (words or morphemes) corresponds to one L2 un it. In principle, this situation should not 
+arise in the IMG because each of the L1 units shoul d have its own gloss. However, it is 
+possible that either the L1 units have no meaning i n isolation or else mean something totally 
+different than their combination, the latter being idiomaticized. In such cases, glossing them 
+separately might give a misleading impression of th e workings of the grammar. When the 
+bisected L1 unit forms an orthographic unit (e.g. a  compound), one may simply dispense with 
+the analysis (cf. section 3.7). For instance, inste ad of Germ. be-komm-en  ‘ APPL -come-INF ’, 
+one can write bekomm-en  ‘get-INF ’. If the orthography requires a boundary, as in Yu catec 
+===== PAGE 24 =====
+Lehmann, Interlinear morphemic glossing  23  
+Maya le kah  ‘when’, the first choice is to gloss the items separately (in this case, ‘DEF SR ’) and 
+to leave the semantic interpretation to the idiomat ic translation. The second choice is to 
+indicate the semantic unity of the two L1 items typ ographically by replacing the blank by a 
+boundary symbol that does not interfere with the or thography, e.g. by an underscore: le_kah  
+‘when’ (R11). If L1 orthography links the two items  by another symbol that is also an IMG 
+boundary symbol, as in Engl. vis-à-vis  ‘facing’, no satisfactory solution is known. 
+Apart from special cases to be noted, the morpheme boundary is shown by a hyphen 
+in L1 (R12). This is repeated in the IMG; and here again the converse applies, too. Apart from 
+the vis-à-vis  type exception, this does not pose any problems. I t does, however, happen that 
+the L1 text contains a combination of two morphemes , but no boundary is shown between 
+them. Various motivations for this are conceivable,  be it that two morphemes are fused in a 
+portmanteau morph, be it that the position of the b oundary is not clear or irrelevant, be it that 
+the analyst does not want to disfigure L1 orthography with boundary symbols. In such cases, a 
+colon in the IMG is a hint at a morpheme boundary e xisting, but not shown in the L1 line 
+(R13). The purpose of R13 is to allow the analyst t o forgo a segmentation while still saving 
+R1 and insuring biuniqueness of the other boundary symbols. Several examples may be seen 
+in (1). The colon is also used to render a portmant eau morph, e.g. French au  ‘ DAT :DEF ’. More 
+on this in section 4.5. 
+Special symbols may be introduced to distinguish ki nds of morpheme boundaries. For 
+instance, the use of the plus sign to signal a boun dary in compounding , as in German 
+Weihnachts+gans  ‘Christmas+goose’ is rather widespread; and occasi onally it is also found 
+in derivation, as in German wolk+ig ‘cloud+ ADJVR  (cloudy)’ (R14). 
+No orthography distinguishes clitic boundaries from word and morpheme boundaries. 
+If L1 is represented in conventional orthography, t hen the simplest solution for an IMG is not 
+to distinguish them either. Thus French je le sais  ‘I know it’ will be glossed as ‘ SBJ .1. SG 
+DO .3. SG .M know. SG ’, while Latin itaque  ‘and so’ will be glossed by ‘so:and’. If clisis is  
+important or the L1 representation is non-orthographic, then the clitic boundary will be shown 
+by an equal sign both in the L1 text and in the IMG, thus: ita=que  ‘so=and’ (R15). 
+If a zero morph or morpheme is represented in L1 by Ø (cf. section 2.1), no spe cial 
+measures need be taken. If it is not there represen ted, then its gloss is enclosed in parentheses 
+(R16), like this: Lat. timor  ‘fear. M(NOM .SG )’. In this example, a stem is accompanied by two 
+(complexes of) grammatical category labels, ‘ M’ and ‘ NOM .SG ’. The first is separated by a 
+period because it corresponds to an inherent featur e of the stem. The second is enclosed in 
+parentheses because it corresponds to a separate morpheme. 
+ 
+4.2.  Discontinuity 
+ 
+Discontinuous units – words or morphemes – are like  bisected units in that one semantic unit 
+is represented by two expression units. However, th ey present the added difficulty that their 
+parts are not adjacent, so the IMG has to make it e xplicit what belongs together. For a 
+discontinuous stem  or affix , diverse solutions have been proposed in the liter ature. Among 
+them is the proposal (Bickel et al. 2004) to repeat  the same gloss under each part of the 
+discontinuous item. However, this seems misleading,  as the syntagmatic cooccurrence of 
+synonymous L1 items is not at all rare – e.g. in hy percharacterization – and must be 
+distinguished from discontinuity. An unambiguous so lution for a circumfix  is to set it off by 
+angled brackets, like this: Germ. ge>lauf<en  ‘< 
+PART .PRF >run’ (run (part.prf.))’ (R17). 
+===== PAGE 25 =====
+Lehmann, Interlinear morphemic glossing  24  
+Discontinuous words are rare. The first choice is t o try and gloss each part independently, as 
+done for the German circumposition um … willen  ‘for’ in (7). 
+ 
+(7) German 
+um unser-es Heil-es   willen 
+for our-
+GEN .SG  salvation- GEN .SG  sake 
+‘for (the sake of) our salvation’ 
+ 
+The second choice is to treat them by the same form alism as for circumfixes. Consider the 
+case of preverbs. In several Indo-European language s, they may be distantiated from their 
+host verb to yield a discontinuous verb stem. There  are two options for glossing such 
+discontinuous compounds: If the compounding is rela tively transparent, one may prefer to 
+provide the preverb and the base each with its glos s. If the compound is completely 
+lexicalized, this might be misleading, and so it ma y be preferable to treat it as a discontinuous 
+morpheme in the gloss, as in (8). 
+ 
+(8) German 
+es hör>-t  jetzt <auf 
+it <stop>-3. 
+SG  now 
+‘it stops now’ 
+ 
+Infixes , too, require a special boundary symbol in order t o insure that the root bisected by 
+them is perceived as a unit. This is achieved enclo sing them in angled brackets as shown in 
+(9)-(10) (R18). 
+ 
+(9) Latin 
+vi<n>c-o 
+conquer< 
+PRS >-1. SG  
+‘I conquer’ 
+ 
+(10) Indonesian 
+t<el>unjuk 
+<
+AGNR >point 
+‘forefinger’ 
+ 
+The gloss of a left-peripheral infix precedes the gloss of its host, the gloss of a right-peripheral 
+infix follows it (Bickel et al. 2004). 
+ 
+4.3.  Reduplication 
+ 
+Reduplicative segments may have the same kinds of g rammatical functions as affixes, and 
+sometimes they are formally not easily distinguishe d from affixes. Therefore they must be 
+glossed just like affixes, but at the same time the y must be formally distinguished from 
+affixes. This is achieved by providing the same kin d of gloss for them as for grammatical 
+formatives, but separating them by a tilde (R19); Bickel et al. 2004), as in (11)-(12). 
+ 
+===== PAGE 26 =====
+Lehmann, Interlinear morphemic glossing  25  
+(11) Ancient Greek 
+gé~graph-a 
+PRF ~write-1. SG  
+‘I have written’ 
+ 
+(12) Yucatec Maya 
+k’áa~k’as 
+INTNS ~bad 
+‘wicked’ 
+ 
+4.4.  Other morphological processes 
+ 
+Morphological processes not covered by the above co nventions comprise transfixation, 
+internal modification, metathesis, subtraction and suprasegmental processes (cf. ch. VIII). 
+These are like infixation in not being peripheral t o the base, but they differ from it in that the 
+grammatical meaning in question is not associated w ith a single string of segments which, if 
+subtracted, leaves the base. The notation recommended here distinguishes them from the other 
+morphological processes, but not from each other. Such a morpheme can hardly be signaled in 
+the L1 representation. In the IMG, its gloss follow s the gloss of the base, separated by a 
+backslash (R20). An example of transfixation is the  Arabic broken plural, as in buj 
+ūt 
+‘house\PL  (houses)’. Apophony, metaphony, e.g. German säng-e ‘sing\IRR -1/3. SG  (I/he would 
+sing)’, and tone shift, as in Yucatec Maya. hàats’  ‘beat\INTROV  (beat (unspec. object))’ are 
+treated in the same way. 
+ 
+4.5.  Semantic and grammatical features 
+ 
+The gloss of a grammatical morph often consists of a set of symbols. They are separated by a 
+period, as in Germ. Tisch-es  ‘table-
+GEN .SG ’ (R21). The same rule applies in the situation 
+mentioned in section 3.3, where an L1 lexeme is glo ssed by more than one L2 words. These, 
+too, are separated by a period, as in Germ. fabulier-en  ‘invent.stories-INF ’. 
+Lexical stems fall into grammatical classes. Noun s tems, for instance, have gender; 
+verb stems have valence. If such grammatical catego ries are covert, this information is not 
+deducible from (the gloss of) the lexical meaning. It therefore makes sense to represent it in 
+the gloss of the stem. The Latin example puellae  ‘girl. F:NOM .PL ’ of section 2.1 shows how 
+this may be done for gender. The same would be poss ible with transitivity. Instead of Yucatec 
+Maya hats’-ah  ‘beat-CMPL ’ as shown in section 2.2, we might put ‘beat.TR -CMPL ’. It does not 
+seem necessary to have a rule here beyond R3 and R21. 
+The period between values of different morphologica l categories cumulated in one 
+morpheme is dispensable between person, gender and number, provided the resulting letter 
+sequence is unambiguous. Thus, Latin lauda-mus  may be glossed as ‘praise(PRS .IND )-1. PL ’ or 
+‘praise( PRS .IND )-1PL ’. 
+Sometimes the period is used as a general-purpose s ymbol to hide the lack of an 
+analysis, including the function of the colon as re gulated by R13. This is not recommendable 
+if – as is usually the case – the period is also us ed in the function regulated by R21. Given 
+R21, the notation Lat. orant  ‘pray.3. PL ’ would imply that orant  consists of a single morph. An 
+===== PAGE 27 =====
+Lehmann, Interlinear morphemic glossing  26  
+IMG should at least make the distinction between a morph and a grammatical feature of a 
+morph. In other words, if the author knows the numb er and order of morphs in an L1 form, 
+then he should indicate them. If the author does no t even know so much, he probably ought 
+not to use the example. Still, in emergency situati ons, R23 may be viable, which allows for 
+linking IMG elements by an underscore without any i mplications for L1 morphological 
+structure. This would allow for putting orant  ‘they_pray’. 
+ 
+4.6.  Composite categories 
+ 
+Two cross-reference categories may share a morphological slot, as in (13). 
+ 
+(13) Mayali 
+Kamak  kan-bolk-bukka-n   ke . 
+good  
+SBJ .2& OBJ .1-country-show-NPST   your 
+‘It is good that you will show me your country.’ (Evans 1997:400) 
+ 
+In principle, the case is analogous to one declensi on suffix showing both number and case. 
+However, when actor and undergoer cross-reference i s cumulated in one morpheme, sticking 
+to R21 would lead to obscurity. Instead, informatio n on the two dependents should be 
+separated by '&' or by '>' (R22). The ‘greater than ’ sign has two advantages here: it is iconic, 
+and it dispenses with the use of function labels su ch as ‘ 
+SBJ , OBJ , ACR , UGR ’ (simply ‘2>1’ in 
+(13)). It has the disadvantage that the same symbol  is used for discontinuous and infixed 
+material, which may lead to conflicts. 
+This case must be kept distinct from a portmanteau morph, viz. when two cross-
+reference categories that generally each have their  own morphological slot fuse in one morph 
+occasionally. There R13 applies. 
+ 
+4.7.  Constituency 
+ 
+The IMG abides at the level of morphology. The text  may be represented at other levels in 
+addition, if that is desired. Still, IMGs are used most frequently in publications on syntax, 
+where not only morphological, but also syntactic properties of the examples are at stake. Very 
+often it suffices to identify one constituent in th e example, for instance the prepositional 
+phrase or the relative clause that is the subject o f analysis. Then no harm is done, but on the 
+contrary the reader is helped in scanning the examp le, if constituency is shown by brackets. 
+Thus in (14), the relative clause is identified by the bracketing. 
+ 
+(14) Yucatec Maya 
+le máak  chowak u ho'l-e' 
+DEF person  [long  
+POSS .3  head]-D3 
+‘the person who has long hair’ 
+ 
+In principle, this may be done either in the L1 lin e or in the IMG (it need not be repeated in 
+both). However, since the IMG line is the one that contains the grammatical analysis, the 
+bracketing seems more natural there (R24). In princ iple, an IMG may even be combined with 
+===== PAGE 28 =====
+Lehmann, Interlinear morphemic glossing  27  
+a labeled bracketing; but above some rudimentary level, this will soon lead to illegibility. 
+ 
+5.  Typographic conventions 
+ 
+IMGs obey a number of typographic conventions all o f which aim at facilitating the reader’s 
+task. First, if there are more lines of linguistic representation (cf. section 1.3), for instance one 
+of syntactic constituency or lines that show syntac tic, semantic or pragmatic functions of the 
+construction, then these follow the IMG, as stipula ted in R25. Second, words (neither larger 
+nor smaller units) of L1 are left-aligned with thei r glosses (R27). Further, since IMGs are 
+generally longer than the L1 text they render, they  are printed in a smaller type-face (R28), 
+and grammatical category labels are abbreviated (R29). 
+For comparison, here is an example of a publication  which does not observe these 
+rules (Monod-Becquelin 1976:138 on Trumai): 
+ 
+šyšyk letsi k’ate šy hai-ts šyšy-ka-ke 
+“avec du piment, je rends le poisson piquant (regarde)” 
+// piment / avec / poisson / actualis . / 1ère pers. erg . / piquant- causatif-marque 
+d’adjectivisation // 
+ 
+Furthermore, since IMG lines are not sentences, the  relevant orthographic rules of 
+punctuation, initial capitalization and syllabification do not apply (R30 – R32). 
+ 
+6.  Summary 
+ 
+Instead of a prose summary, a list of the rules and symbols proposed follows: 
+ 
+6.1.  Rules 
+ 
+6.1.1.  Glossing principles 
+ 
+R1. With the exceptions specified below, there is a  symbol or a configuration of symbols 
+in the IMG if and only if there is a morph in the L1 text that it corresponds to. 
+R2. The IMG represents morphemes, not allomorphs. T herefore, the gloss of a 
+grammatically conditioned allomorph does not contai n the grammatical category that 
+conditions it. 
+R3. An IMG should be as precise and detailed as tol erable. The limits of precision and 
+detail are defined by practical considerations of complexity and intelligibility. 
+R4. There is a biunique mapping of individual L1 mo rphemes onto glosses. 
+R5. (a) An L1 lexeme is glossed by L2 lexemes. 
+(b) L1 stems are glossed by L2 stems. 
+R6. The gloss of a grammatical morph is a configura tion of grammatical category labels 
+each of which represents the value of a grammatical  category. A grammatical morph 
+should not be glossed by an L2 bound morpheme. It m ay be glossed by an L2 word if 
+===== PAGE 29 =====
+Lehmann, Interlinear morphemic glossing  28  
+that has the same function as the L1 morph. 
+R7. Homonymy is resolved in the IMG, polysemy is pr eferably not. 
+R8. The gloss of a polysemous L1 item should repres ent, in the order of decreasing 
+preference, 
+- its Gesamtbedeutung, 
+- its Grundbedeutung, 
+- the set of its senses, 
+- its contextual sense. 
+ 
+6.1.2.  Boundary symbols 
+ 
+R9. Apart from R30, there is a boundary symbol of a  certain type in the IMG if there is a 
+corresponding boundary symbol in the L1 text. More strictly, there is a blank, hyphen, 
+plus, equal sign, angled bracket and tilde in an IM G if and only if there is an identical 
+symbol in the L1 text corresponding to it. 
+R10. A word boundary is shown by a blank ( ). 
+R11. Two successive orthographic L1 words which mus t be glossed by one L2 word are 
+linked by an underscore (_). 
+R12. A morpheme boundary is shown by a hyphen (-). 
+R13. A morpheme boundary not shown in the L1 text i s indicated by a colon (:) in the IMG. 
+This applies also to portmanteau morphs. 
+R14. A boundary in a compound stem, and possibly al so in a derived stem, may be shown 
+by a plus sign (+). 
+R15. A clitic boundary may be shown by an equal sig n (=). 
+R16. A gloss of a zero morpheme or allomorph is enc losed in round parentheses (()). 
+R17. The string enclosed in a discontinuous L1 item  P1 ... P2 is enclosed in inverted angled 
+brackets (P1> ... <P2). In the IMG, P1 receives a gloss enclosed in angled brackets; P2 
+is not glossed. 
+R18. An infix is enclosed in angled brackets both i n the L1 text and in the IMG. The gloss 
+of a left-peripheral infix precedes the gloss of it s host, the gloss of a right-peripheral 
+infix follows it. 
+R19. A reduplicative segment is glossed like an aff ix (i.e. by a configuration of grammatical 
+category labels) and separated from its source by a tilde (~). 
+R20. A grammatical meaning expressed by a non-segme ntable morphological process 
+(transfixation, internal modification, metathesis, subtraction, suprasegmental process) 
+is not signaled in the L1 representation. Its gloss  follows the gloss of the base, 
+separated by a backslash (\). 
+R21. Elements of an IMG that represent components o f one L1 morph are separated by a 
+period (.). 
+R22. As a special case of R21, components of one L1  cross-reference morph that have 
+distinct reference are separated by the ampersand (‘&’) or, where no conflict with R17 
+and R18 arises, by the greater-than sign (‘>’) for actor and undergoer cross-reference. 
+R23. An L1 word form whose morphological structure is not represented in the IMG may 
+be represented by a set of symbols whose status as representing morphs or features is 
+ignored and whose sequence has no implications as t o L1. Such symbols that jointly 
+correspond to an L1 word form are joined by an underscore (_). 
+R24. If constituent structure is to be displayed, s quare brackets ([]) can be inserted in the 
+===== PAGE 30 =====
+Lehmann, Interlinear morphemic glossing  29  
+IMG . 
+ 
+6.1.3.  Typographic conventions 
+ 
+R25. The IMG is in the line immediately below the c orresponding L1 text line. 
+R26. The distance between an L1 text line and the l ine immediately preceding it is greater 
+than that between it and the IMG line belonging to it. 
+R27. Each L1 word form is left-flush with the L2 wo rd or complex of symbols rendering it. 
+If such an arrangement is impossible, the following is a minimum requirement: If there 
+is, in an IMG , an equivalent to an element of an L1 text line, it is contained in the line 
+immediately below that line. 
+R28. The IMG is printed in a smaller type-face than  the L1 text. If this is impossible, then at 
+least grammatical category labels are in small capitals. 
+R29. Grammatical terms appearing in IMGs are abbrev iated, without a period at the end, and 
+set in (small) capitals. 
+R30. There is no punctuation in an IMG. Parentheses  including optional material in the L1 
+line are not repeated in the IMG , either (cf. R16). 
+R31. There is no sentence-initial uppercase in an I MG. 
+R32. There is no syllabication either in the L1 lin e or in the IMG. 
+ 
+6.2.  Symbols 
+ 
+L1 IMG meaning 
+x y x y word boundary between x and y 
+x_y z x and y are two orthographic words, but one lexic al word 
+z x_y x and y jointly render z without morphological analysis 
+x-y x-y morpheme boundary between x and y 
+x+y x+y x and y form a compound or a derivative stem 
+x=y x=y x and y are joined by clisis 
+z x/y x and y are alternative meanings of ambiguous z  
+xy x:y morpheme boundary between x and y not shown in the L1 text 
+ (x) x does not have a significans in the L1 text 
+a<x>b ab<x> x is an infix in ab 
+x>a<y <xy>a xy is a circumfix around a 
+z x\y y is a non-segmentable morphological process on  lexeme x  
+z x.y x and y are semantic or grammatical components of z 
+z x&y 
+(x>y) 
+x and y are grammatical components of z cross-refer encing two 
+different dependents 
+x [x] x is a syntactic constituent 
+x [x] 
+Y x is a syntactic constituent of category Y 
+===== PAGE 31 =====
+Lehmann, Interlinear morphemic glossing  30  
+7.  References 
+ 
+7.1.  Specialized literature 
+ 
+Bickel, Balthasar & Comrie, Bernard & Haspelmath, M artin 2004, The Leipzig Glossing Rules. 
+Conventions for Interlinear Morpheme by Morpheme Gl osses.  Leipzig: Max-Planck-Institut für 
+Evolutionäre Anthropologie 
+Lehmann, Christian 1982, "Directions for Interlinea r Morphemic Translations". Folia Linguistica  16, 
+199-224 
+Lehmann, Christian 2004, “Data in Linguistics”. Linguistic Review  21.2, 000-000 
+Lehmann, Christian & Bakker, Dik & Dahl, Östen & Si ewierska, Anna 21994, EUROTYP Guidelines.  
+Strasbourg: Fondation Européenne de la Science (EUROTYP Working Papers) 
+Lieb, Hans-Heinrich & Drude, Sebastian 2000, Advanced Glossing: A Language Documentation 
+Format.  Berlin: Freie Universität (Working Paper). http:// dobes.mpi.nl/documents/Advanced-
+Glossing1.pdf. 
+Simons, Gary F. & Versaw, Larry 1988, How to use  IT. A Guide to Interlinear Text Processing.  
+Dallas, Tx.: Summer Institute of Linguistics (Revised edition, Version 1.1) 
+ 
+7.2.  Sources of examples 
+ 
+Bloomfield, Leonard 1933, Language.  New York etc.: Holt, Rinehart & Winston 
+Evans, Nicholas 1997, “Role or Cast? Noun Incorporation and Complex Predicates in Mayali”. Alsina, 
+Alex & Bresnan, Joan & Sells, Peter (eds.), Complex Predicates . Stanford: CSLI Publications, 
+379–430 
+Finck, Franz Nikolaus 1909, Die Haupttypen des Sprachbaus.  Leipzig: B. G. Teubner [Nachdr. d. 3., 
+unveränd. Aufl.: Darmstadt: Wiss. Buchgesellschaft, 1965] 
+Fortescue, Michael 1984, West Greenlandic.  London etc.: Croom Helm (Croom Helm Descriptive 
+Grammars) 
+Gabelentz, Hans Conon von der 1861, "Über das Passi vum. Eine sprachvergleichende Abhandlung". 
+Abhandlungen der philologisch-historischen Classe d er Königlich-Sächsischen Gesellschaft der 
+Wissenschaften  8, 449-546 
+Monod-Becquelin, Aurore 1976, "Classes verbales et construction ergative en trumai". Amérindia  1, 
+117-143 
+Woodbury, Hanni 1975, “Onondaga Noun Incorporation:  Some Notes on the Interdependence of 
+Syntax and Semantics”. International Journal of American Linguistics  41, 10-20 
+ 
+Christian Lehmann, Erfurt (Germany) 
+ 

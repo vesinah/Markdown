@@ -1,0 +1,930 @@
+METADATA_FILE: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+TOTAL_PAGES: 23
+
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 1
+==================================================
+
+*Corresponding author ( Muhammad Hadi Mustafa). Tel/F ax: +6 03-6196 4000 Ext.4564 . E-mail 
+addresses: hadimustafaphd@gmail.com .   
+ 
+ 1 
+ 
+  
+ 
+ 
+4th International Conference -Workshop on Sustainable 
+Architecture and Urban Design  
+ICWSAUD2019  
+ 
+ 
+ 
+ 
+SPATIAL ANALYSIS ON MALAY BUILDINGS FOR 
+CATEGORIZATION OF MALAY HISTORIC BIM LIBRARY   
+ 
+Muhammad Hadi Mustafaa*, Maisarah Alib, Kamsiah Mohd Ismailb Khairusy Syakirin 
+Has Yun Hashima Mohamad  Saifulnizam Suhaimia 
+a Department of Quantity Surveying,  Kuliyyah  of Architecture and Enviromental Design , International 
+Islamic University (IIUM), MALAYSIA  
+b Department of Civil Engineering Kuliyyah  of Engineering, IIUM. MALAYSIA  
+ 
+ 
+A R T I C L E I N F O   
+A B S T RA C T  (Max imum  200 words)  
+Article history : 
+Received 23 November  2018  
+Received in revised form  
+20 December  2018   
+Accepted 26 January 2019   
+Available online  
+26 July 2019  
+Keywords :  
+Historic  Building 
+Information Modelling, 
+Malay architecture,  
+cultural heritage,  
+BIM library categorization, 
+spatial analysis,  
+Malay H istoric BIM  
+ Problem statement /Literature Review : In Malaysia, Malay 
+cultural architecture is becoming a popular topic since Malay 
+architecture is believed to have unique characteristics, which 
+would be beneficial if translated into BIM environment. 
+However, a BIM library needs a localized system and 
+categorization for its interface since a cultural heritage library 
+should reflect their own original identity of architecture.  From 
+literature, it was found that the traditional design form in Malay 
+architecture can be identified through several aspects that a re 
+inherent p hysical elements in the design which can be sorted into 
+five distinct categories which are (i) Structural members (ii) 
+Non-structural members (iii) Aesthetic and decorative elements 
+(iv) Spatial composition and organization and (v) Material an d 
+construction technology.   Methodology : In order to develop a 
+BIM library with cultural identity, this paper further the study on 
+the characters of Malay architecture based on the spatial 
+composition and organization aspect  with respect to the theory 
+of space and taxonomy . Results  & Analysis : A spatial analysis 
+on the layout of multiple historic Malay buildings  consisting of 
+commoners’ house  and palaces were conducted  where the 
+naming of areas within the building zones was identified and 
+presented to propo se a novel categorization structure for Malay 
+Historic BIM library . Conclusion:  This study proposed an 
+approach on how to  address the issue of developing a BIM 
+library bas ed on the cultural architecture  characters.  
+ ICWSAUD2019
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 2
+==================================================
+
+2 Muhammad Hadi Mustafa,Maisarah Ali, Kamsiah Mohd Ismail, Khairusy Syakirin Has Yun Hashim 
+and Mohamad Saifulnizam Suhaimi  
+ 
+ 1 Introduction   
+Investment in technology has always been to improve effectiveness and increase 
+performance in the design and build process to yield a higher return of investment at the end of 
+the day (Mohd -Nor and Grant, 2014). Due to the benefits of Building Information Modelling 
+(BIM) and its huge potential of improving the Architecture, Engineering and Construction 
+(AEC) industry, governments around the world have started to mandate the use of BIM in their 
+own country as part of their initiatives to achieve Sustainable Development Goals (SDG) and 
+embracing the Industrial Revolution 4. BIM is a process for creating and managing information 
+on a construction project across the project lifecycle (National Building Specification, 2016). 
+Among the main objectives of BIM is to  support decision -making process in a project, offers 
+improved quality assurance and data exchange in the process. It is also meant to increase the 
+effectiveness and efficiency of any design work because designing tasks are time -consuming.  
+Using BIM, arch itects are able to virtually construct the building before physical construction 
+begins on site. To increase design efficiency, among the approach that BIM offers to speed up 
+the design task is with the creation of BIM library. By having a BIM database or library, it 
+eliminates the redundancy of creating similar elements, thus reducing unnecessary workload 
+for designers. BIM models are capable of embedding key building information into the model 
+including materials with their physical properties.  
+ 
+BIM libr aries are performing as online sources for building product models. It is important 
+to have proper organisation and categorization within the database in order to effectively use it. 
+With BIM has managed to establish itself in the designing, planning and e xecution stages of 
+projects, many BIM practitioners and BIM providers embark on sharing their work on various 
+platforms. Among platforms that are popular for these practitioners to share are RevitCity, 
+BIMObjects, NBS National BIM Library, MYBIM library, A rcat, Smart BIM library and 
+BIMsmith. The contents are mostly generic BIM model which focuses on simple and 
+contemporary design.  Most designs are found to be contemporary because BIM approach is 
+originally intended for the design process of new projects. However, according to Afsari and 
+Eastman (2014), there are no standard or guideline in organizing the objects systematically 
+within the database. Apart from that, none of the libraries has a specific -theme library based on 
+cultural architecture or designs from over the world.
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 3
+==================================================
+
+*Corresponding author ( Muhammad Hadi Mustafa). Tel/F ax: +6 03-6196 4000 Ext.4564 . E-mail 
+addresses: hadimustafaphd@gmail.com .   
+ 
+ 3 
+ 
+ While cultural architecture carries its own diversely unique identity and characters, it is 
+always essential to appreciate diversity. Therefore, it is imperative in order to create a BIM 
+library based on cultural architecture, and B IM practitioners should establish the library based 
+on the culture's character and identity instead of having a generic BIM library categorization.  
+ 
+Among unique cultural architecture available worldwide is the Malay architecture. 
+According to Merriam -Webs ter dictionary, Malay is a member of a people of the Malay 
+Peninsula, eastern Sumatra, parts of Borneo, and some adjacent islands. The characters of 
+Malay architecture is unique because its characters are believed to be inherited from their legacy 
+of an ir replaceable source of Malay lifestyle, history, and inspiration (Sim, 2010). The authors 
+such as Said (2007) and Sim (2010) complemented that the Malay has invented one of the most 
+sophisticated and amazing houses, kenned as traditional Malay houses. There  are also 
+researches mentioning that the Malay have high skills in woodcarving and their beautiful 
+artworks are represented in their houses and buildings (Ismail, Haron, Ramli and Manan, 2015).  
+  
+This paper objective is to analyze  the spatial arrangement from historical Malay buildings 
+in order to propose the categorization in Malay historic Building Information Modelling 
+(MHBIM) library.  In identifying and studying the main characters of the Malay architecture, 
+this study reviews  and analyses on spatial arrangement because space can be considered as the 
+basic language in architecture. Finally, the findings will act as the basis in organizing the 
+database, to facilitate the use of the library. The main aim of this study is to addre ss the issue 
+of developing a BIM library based on the Malay cultural architectural characters.  
+2 Theory of Space in Architecture  
+  
+Space is an important aspect of architecture.  Space creates a special relationship between 
+function and social meanings in buil ding (Hillier and Hanson, 1984). According to them, the 
+order of space in buildings is really about the order of relations between people.  
+ “Architecture is not a 'social art' simply because buildings are important visual symbols 
+of society, but also becau se, through the ways in which buildings, individually and collectively, 
+create and order space, we are able to recognise society: that it exists and has a certain form. ”  
+(Quoted from The Social Logic of Space, Page 2.)
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 4
+==================================================
+
+4 Muhammad Hadi Mustafa,Maisarah Ali, Kamsiah Mohd Ismail, Khairusy Syakirin Has Yun Hashim 
+and Mohamad Saifulnizam Suhaimi  
+ 
+ The theory of space in architecture proposed by Rudolph Micheal Schindler in the 
+eighteenth century mentioned  that architecture is an art that had evolved to a more sublime and 
+abstract level by relinquishing its symbolic capacity to speak (Park, 2015) . He argues that the 
+notion of space in architecture dealt with mental processes as space was being conceived. 
+Therefore, the form creation in architecture referred not only to the act of physical fabrication 
+but also to the entire men tal process that led from inception to completion. The theory also 
+argues that ‘human beings could not conceive space’ but instead always conceived rooms. 
+However,  Yuan (1987) claims that Malay architecture is unique because most of the Malay 
+accommodation  is divided into areas, rather than rooms, for various social and household 
+activities. Abidin (1981 as cited in Hoseini et al., 2014) divided the areas into four zones, the 
+Front Zone, Main (Middle) House Zone, Kitchen Zone and Rear Zone .  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.1 Malay Architecture  
+In Malaysia, it is difficult to define Malay architecture due to the term “Malay” itself, which 
+is not clear (Moqbel, 2014). According to the Malaysian constitution, Malay is defined as "a 
+person who professes the Muslim religion, speaks the Malay language , and conforms to Malay 
+customs”. In the meantime, the definition of Malay cannot be limited to Malaysian only if the 
+physical attributes of humankind are considered. Malay architecture, is a subset of South East 
+Asian architecture, and being rooted in the  Malay archipelago, its geographical reality of widely 
+dispersed lands has made the Malay cultural region, a wide, regionally and cultural diverse 
+Figure 1: Typical Traditional Malay house layout  
+(Hoseini, 2014)
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 5
+==================================================
+
+*Corresponding author ( Muhammad Hadi Mustafa). Tel/F ax: +6 03-6196 4000 Ext.4564 . E-mail 
+addresses: hadimustafaphd@gmail.com .   
+ 
+ 5 
+ 
+ entity and this diversity is also rich  in terms of both physical expression and verbal expressions 
+of its lo cal architecture. The similarities in colour of the skins, historical background such as 
+their previous common kingdom, civilization, religions, beliefs and DNA of the people living 
+in the Malay Archipelago might play an important factor as observed by Alf red Wallace (cited 
+in Van Whye, 2015):  
+ 
+“Two very strongly contrasted races inhabit the Archipelago —the Malays, occupying almost 
+exclusively the larger western half of it, and the Papuans, whose headquarters are New Guinea 
+and several of the adjacent islan ds.” 
+ 
+The architecture that reflects regional influence is known as ‘vernacular’. The term 
+‘vernacular’ is derived from the Latin ‘vernaculus’, meaning native, and is most widely used to 
+denote indigenous, tribal, folk, peasant and traditional architecture . According to Chen (1998), 
+vernacular house forms evolved according to different cultural settings and are the results of 
+long-term modification, adaptations, shared experiences and innovations. The terms 
+‘vernacular’, ‘traditional’, ‘indigenous’, and ‘re gional’ are often used interchangeably (Sim, 
+2010). Due to the richness of cultures of the Malay within the Malay Archipelago, it is difficult 
+to define Malay architecture unless a well -justified scope can be established. Anis et al. (2017) 
+attempted to de fine the scope based on cultural influence with historical Malay palaces in 
+Malaysia and found that there are eight influences affecting Malay architecture that can be 
+grouped together. The influences identified are labelled as ‘Region 1 –Langkasuka Herita ge, 
+Region 2 -North Straits of Malacca, Region 3 - ‘The Perak,Selangor, Deli, Siak, Kampar and 
+Langkat” region, Region 4 -Minangkabau Diaspora, Region 5 - Riau Palembang diaspora, 
+Region 6 - ‘The Johor,Riau and Lingga”, Region 7 - East Malaysia and West Borneo, and Region 
+8- “Makassar,Palembang, Maluku, Bulungan and Buton’ grouping (Anis et al. , 2017). 
+Mohidiin et al. (2012) argue that the architecture of administrative buildings in Malaysia can 
+be grouped into six (6) influences or styles namely ‘1.Traditional vernacular style 2.Dutch 
+colonial style 3.Neo baroque style 4.Anglo -India style 5. Modern expressionism style 6. Post -
+modern revivalism style’. This search for identity shows that there are various traditional and 
+hybrid Malay house forms can be identified  within the region (Yuan, 1987).
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 6
+==================================================
+
+6 Muhammad Hadi Mustafa,Maisarah Ali, Kamsiah Mohd Ismail, Khairusy Syakirin Has Yun Hashim 
+and Mohamad Saifulnizam Suhaimi  
+ 
+ 2.1.1  Characteristics of Malay architecture and their Categorization of 
+components  
+ 
+The authors such as Said (2007) and Sim (2010) complemented that the Malay has invented 
+one of the most sophisticated and amazing houses, kenne d as traditional Malay houses. The 
+house is believed to be inherited from their legacy of an irreplaceable source of Malay lifestyle, 
+history, and inspiration. Undeniably, the architectural design of a traditional Malay house is 
+unique on its own. Its uniq ueness in the design has reflected the identity of the owner, 
+socioeconomic, culture and history of the past. However, the design may look similar in nature 
+(kindred), but the styles of Malay houses differ from state to state in Malaysia. In other word, 
+the houses are identically in function but diverse in design. The houses generally accommodated 
+Malaysia's tropical climate, with flexibility in the design and utilization of space.  
+According to Md. Nor and Isa (2015), the traditional design form in Malay ar chitecture can 
+be identified through several aspects that are inherent physical elements in the design. These 
+elements can be sorted into five distinct  categories.  
+1. Structural members.  
+2. Non-structural members  
+3. Aesthetic and decorative elements.  
+4. Spatial composition and organization  
+5. Material and construction technology  
+2.1.2  Structural, non -structural, aesthetic and decorative elements, material and 
+construction technology . 
+ 
+Structural members of a building are the components such as beam and column s which 
+primarily carry the load of the building. Non -structural components include doors, windows, 
+railing, decorations and roof.  According to Yaaman & Azrin (2013), Roszalan (2014) and 
+Raktim (2016), a typical traditional Malay house consists of plinth,  column and beam as their 
+structural members; roof, wall, floor and openings such as door and windows as non -structural 
+members, and decorations of motifs as their aesthetic elements.  The traditional Malay houses 
+are a functional product of human -made arc hitecture (Yuan, 1987), for a total consideration of 
+design values, which is embedded many conceptions, notion, and ideology in one unit which 
+the experience of the entire house is achieved through the sensory factors.  The materials used
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 7
+==================================================
+
+*Corresponding author ( Muhammad Hadi Mustafa). Tel/F ax: +6 03-6196 4000 Ext.4564 . E-mail 
+addresses: hadimustafaphd@gmail.com .   
+ 
+ 7 
+ 
+ are normally from high strength grade timber such as Cengal for the structural members while 
+a softer grade timber such as Meranti, Jati or Merbau are used for the non -structural and 
+decorative components. Among the characters of Malay house is because of the ‘tanggam’ or 
+mortice and tenon technique used, where the house was constructed without using nails. The 
+technology used is environmental -friendly and considered as unique workmanship in the 
+construction field.  
+2.1.3  Spatial composition and organization  
+ 
+Among other character s of Malay buildings' architecture is the spatial composition and 
+organization. The architecture from the Malay race is unique because most of the Malay 
+dwellings is divided into areas, rather than rooms, for various social and household activities 
+(Moqbel , 2014). The typical plan layout of a Malay house is normally discussed according to 
+zones, the inhabitants' interactions through daily activities (functional components), domains 
+that are gender -related, age -related and guest -related. Abidin (1981 cited i n Ghaffarian Hoseini 
+et al., 2014) divided the zones into four, the Front Zone, Main (Middle) House Zone, Kitchen 
+Zone and Rear Zone. Many other works of literature, on the other hand, zoned the interior 
+spaces into public and private spaces or in accordan ce with functional elements. In Malay 
+history, the palaces and aristocratic houses are exaggerated or scaled up according to certain 
+proportion from houses due to its main construction arising from timber (Wong, 2011; Anis et 
+al., 2017). Therefore, it is b elieved that there must be standard conventions that link smaller 
+scale typologies such as houses with complex typologies such as palaces. Anis et al. (2017) 
+stated the ‘rumah ibu' could be referred to the main lobby of a palace. The main lobby is 
+assumed to have a ‘ tiang seri’ which normally is positioned in the centre of ‘ rumah ibu’. Rumah 
+ibu, as the core space of the house, which may refer to two things: the volume of the main house 
+and the space inside to serve as living room in the daytime and bedroom  at night. Chen, Ariffin 
+and Wang (2008) suggested that the main area of Malay building is quite distinctive for having 
+the largest volume and the highest roof. They claimed that there are three main spaces that form 
+a quite rigid layout relationship in Ma lay house which are the Serambi, rumah ibu and kitchen.  
+Serambi functions as the reception area, dining room or bedroom for the guests, and the floor 
+can be sat or slept on. Kitchen basically is the space for cooking and eating (Chen, 1998). This 
+similarit y of components application within the spatial organizations give Malay architecture a
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 8
+==================================================
+
+8 Muhammad Hadi Mustafa,Maisarah Ali, Kamsiah Mohd Ismail, Khairusy Syakirin Has Yun Hashim 
+and Mohamad Saifulnizam Suhaimi  
+ 
+ sense of their own cultural character.  In addition, Lim (1987) also observed that the main 
+building of a Malay house can be considered the prototype for all of its assoc iated buildings, 
+and can be considered as the pivot from which various ways of expansion are developed into 
+different house types in different areas in terms of spatial organization and construction method.  
+He claimed that there would be more diversified spatial and formal transformations through the 
+input of some foreign construction language such as verandah  or balcony, which refers to the 
+front area of the building, similar to serambi . 
+2.2 BIM library  
+ 
+A BIM library is a database consisting of BIM objects where the contents can be 
+downloaded, edited and utilized for the benefits of design utilization. BIM libraries simplify the 
+process of finding appropriate objects for a design  (NBS, 2018). The objective of creating a 
+BIM library is to capture information that will be beneficial to solve the customers' issues, pains, 
+and goals. Ultimately, the library becomes the foundation for building decision -making tools 
+that are capable of measuring cost reductions, cost avoidances and values added. Building a 
+high-quality value inventory or database takes time and effort, but the payback comes tenfold. 
+The main aim of having a database is to improve the sharing of information between different 
+professionals within a project, to solve the interferences between them, avo iding the creation 
+of mistakes, decreasing costs, obtaining good results Among the main benefits of having a BIM 
+library are:  
+1- It enhanced collaboration and transparency  
+Using BIM library, it helps to enhance the collaboration between project stakeholders 
+where the information is embedded inside the BIM objects. It has standardized 
+information which referred as a one -stop centre for information resource. By having 
+standardized information embedded which can be easily accessed, it increases working 
+transparen cy and reduces the risk of ambiguity in executing construction project. With 
+BIM, all parties are encouraged to work collaboratively and share information with each 
+other, where the library provides act as a better platform to share information efficiently . 
+2- Knowledge is easily transferred
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 9
+==================================================
+
+*Corresponding author ( Muhammad Hadi Mustafa). Tel/F ax: +6 03-6196 4000 Ext.4564 . E-mail 
+addresses: hadimustafaphd@gmail.com .   
+ 
+ 9 
+ 
+ With all stakeholders referring to and using the same model, significant time is saved, 
+and the transfer of knowledge within teams and between different parties is streamlined. 
+Automation and customisation features can als o help in reducing the time spent 
+communicating and adding new information. Through the library, it provides a reliable 
+and sustainable way to transfer information about data such as measurements, materials, 
+description and maintenance instructions.  
+3- The BI M model is available from anywhere, at any time  
+Most of the BIM library are cloud -based web services, which means the objects and 
+data are accessible with the connection of the internet.  
+4- BIM library as decision support system for cultural heritage manageme nt 
+By having BIM library, it enables a more efficient way of working, with a consequent 
+time and cost saving (Giudice and Osello,2013). The availability of BIM objects which 
+suitable for industrial elements and modern architecture can be usefully applied t o 
+heritage documentation and management of the data on conservation practices. The 
+availability of BIM library can help in supporting preventive conservation, information 
+sharing and knowledge dissemination of heritage, for professionals, public institutio ns 
+and experts  involved in any decision making process.  
+3 Methodology  
+ 
+In studying the architecture of the Malay, there are many  buildings typologies such as  the 
+palaces, aristocrats’ house, commoners’ house, mosques and administration buildings. For this 
+paper, researchers will study on the commoners' house and Malay palaces only because it is 
+believed that palaces are the exaggeration of scales from commoners houses ( Wong, 2011 and 
+Tengku Anis et al. 2017) . Multiple case studies technique is applied where six (6)  Malay palaces 
+and two (2) commoners house in Peninsular Malaysia are selected, and their building layouts 
+are retrieved. The buildings are Istana Balai Besar Alor Setar (Kedah), Istana Balai Besar Kota 
+Bharu (Kelantan), Istana Seri Menanti (Negeri Sembilan), Istana Tengku Long (Terengganu), 
+Istana Gahara (Perak), Istana Leban Tunggal (Pahang), Rumah Pak Ali (Selangor) and Rumah
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 10
+==================================================
+
+10 Muhammad Hadi Mustafa,Maisarah Ali, Kamsiah Mohd Ismail, Khairusy Syakirin Has Yun Hashim 
+and Mohamad Saifulnizam Suhaimi  
+ 
+ Haji Akil (Johor). This study uses historical research strategies as its methodology due to its 
+focus on ‘a setting or circ umstances from the past' in attempts to provide the meaning of human 
+actions conducted from encounters with the subject of investigation or derived from ‘textual -
+archival or artefactual sources' and fieldwork (Groat & Wang, 2013). Historical research 
+depen ds on a constructed logic of interpretation, but that interpretation is based on documents 
+and artefactual evidence, and typically entails a narrative structure. Therefore, data are collected 
+through literature review and variety sources of Malay buildings  documentation such as 
+measured drawing reports and CAD documentation to explore the enquiry of this paper.   
+4 Analysis  
+4.1 Taxonomical ca tegorization of areas in Malay buildings  
+ 
+Based on the buildings' layout, researchers study their spatial arrangement by identifying 
+the zoning within the layout and extracted the naming of areas given in the layouts. Buildings' 
+layout was collected from International Islamic University Malaysia's  Kuliyyah of Architecture 
+and Environmental Design Heritage Laboratory and Universiti Teknologi Mara (UTM) Center 
+for the Study of Built Environment in the Malay World (KALAM) . The marking for boundaries 
+of the zoning starts from the front entrance and the  ending boundaries for the zoning is 
+considered when there is a change of function within areas (Gullberg, 2016). For example, the 
+front zone ends when the area of rumah ibu  starts. The analysis is shown in Figure 2,3 and 4 , 
+whereas the outputs are tabulat ed in T able 1  and 2 .  
+ 
+Figure 2 : Spatial analysis of commoners’ house  layout  Source: KAED HERITAGE LAB (2017)  Source: KALAM (2017)
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 11
+==================================================
+
+*Corresponding author ( Muhammad Hadi Mustafa). Tel/F ax: +6 03-6196 4000 Ext.4564 . E-mail 
+addresses: hadimustafaphd@gmail.com .   
+ 
+ 11 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Source: KALAM  (2017)  Source: KAED HERITAGE LAB (2017)  
+Source: KALAM  (2017)  
+Figure 3: Spatial analysis of Malay palaces' layout
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 12
+==================================================
+
+12 Muhammad Hadi Mustafa,Maisarah Ali, Kamsiah Mohd Ismail, Khairusy Syakirin Has Yun Hashim 
+and Mohamad Saifulnizam Suhaimi  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Figure 3 : Spatial analysis of Malay palaces' layout  
+Figure 4 : Spatial analysis of Malay palaces' layout  Source: KALAM (2017)  Source: KAED HERITAGE LAB  (2017)  
+Source: KAED HERITAGE LAB  (2017)
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 13
+==================================================
+
+*Corresponding author ( Muhammad Hadi Mustafa). Tel/F ax: +6 03-6196 4000 Ext.4564 . E-mail 
+addresses: hadimustafaphd@gmail.com .   
+ 
+ 13 
+ 
+ 4.1.1  Traditional Malay house  
+Table 1: Areas found in commoner's house layout  
+No Rumah Pak Ali  
+Source:  Rumah Haji Akil  
+Source: KALAM  
+1 Rumah Tengah  Serambi  
+2 Ruang Makan  Pelantar  
+3 Rumah dapur  Rumah dapur  
+4 Selang  Rumah Ibu  
+5 Rumah Masuk  Rumah Depan  
+6 Bilik tidur  Bilik  
+7 Bilik Setor  Para-para (anjung)  
+8 Serambi  Jambatan (Selang)  
+Source: Author s’ work  
+4.1.2  Malay Royal Palaces  
+Table 2: Areas found in Malay palaces layout  
+No Istana Tengku Long  
+Source: KALAM  Istana Balai Besar Kota 
+Bharu  Istana Seri Menanti  
+1 Surung  Surung hadapan  Serambi Pangkal  
+2 Balai  Surung tengah  Serambi Hujung  
+3 Dapur  Surung  Serambi Tengah  
+4 Rumah padi (storage)  Balai Bujur  Ruang santapan  
+5 Pelantar  Pejabat  Ruang menanti  
+6 Serambi  Rumah ibu kelong  Kelek anak  
+7 Ruang Mengadap  Balai pacaparsida  Bilik Peraduan  
+8 Bilik santapan  Balai perasapan  Lompang  
+9 Ruang tengah  Dapur  Langkan  
+10 Ruang khas  Bilik Mesyuarat  Ruang Keluarga diraja  
+11 Bilik peraduan  Setor   
+12 Bilik Bersiram    
+No Istana Balai Besar 
+Alor Setar  Istana Leban Tunggal  Istana Gahara  
+1 Grand Staircase (Porch)  Porch  Verandah (serambi)  
+2 Dewan Balai Lepau  Guest living room  Office  
+3 Serambi Kanan  Office  Living area  
+4 Serambi kiri  Dining area  Entrance hall  
+5 Singgahsana  Master bedroom  Dining area  
+6 Bilik Siak  Toilet  Bedroom  
+7 North Wing  Passage (selang)  bathroom  
+8 South Wing  Storage  Kitchen  
+9  Kitchen  Servant’s room  
+10  Family area  Hallway (Selang)  
+11  Verandah  Family area  
+Source: Author s’ work
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 14
+==================================================
+
+14 Muhammad Hadi Mustafa,Maisarah Ali, Kamsiah Mohd Ismail, Khairusy Syakirin Has Yun Hashim 
+and Mohamad Saifulnizam Suhaimi  
+ 
+ 5 Result and Discussion  
+ 
+The output confirms that the layouts of Malay historic buildings can be categorized into 
+the Front Zone, Main (Middle) House Zone, Kitchen Zone and Rear Zone  as according to 
+zonings proposed by Abidin (1981). This also confirms the claim by Wong (2011) and  Tengku 
+Anis et al. (2017) that the palaces and aristocratic houses in Malay history are an exaggeration 
+from houses.  It can be deduced that the conceptually, the space between the typical house, 
+palaces and aristocrat house have a similar ‘social logic of  space". It is observed that the number 
+of areas within the zone increases as the typology of the buildings changes from houses to 
+palaces. The increase in number of areas is due to the needs for space's function. A normal 
+house not necessarily has to acco mmodate visitors as often as , and the royalty might have to. 
+According to Sim (2010), areas in Malay house normally started with ‘rumah ibu’ and will be 
+expanded to other areas to accommodate the owner’s roles in society.  
+ 
+One of the famous mantras in ar chitecture is "form follows function" as famously said by 
+Louis Sullivan (Guimera and Pardo, 2018), which Sullivan credited the rule was actually 
+originated from the ancient Roman architecture. From the analysis, it can be deduced that Malay 
+architecture a lso adhered to the rule. As space plays an important role in society, the Malay 
+community is observed to be adaptive in nature since they practice the concept of incremental 
+housing. Incremental housing is an addition system of a building which grows with the needs 
+and means of the owner (Yuan, 1987). The system being practice requires only a small initial 
+capital investment and grows when the owner has the reason to expand their building. Normally, 
+the incremental housing concept for traditional Malay hous e starts with rumah ibu  and will be 
+followed by other areas. This also can be deduced that among unique characters of Malay 
+buildings is that they are flexible to changes. This is mostly possible since the materials are 
+mainly made from timber. Figure 5 shows the common addition sequence as previously 
+suggested by Yuan  (1987) .
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 15
+==================================================
+
+*Corresponding author ( Muhammad Hadi Mustafa). Tel/F ax: +6 03-6196 4000 Ext.4564 . E-mail 
+addresses: hadimustafaphd@gmail.com .   
+ 
+ 15 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+From this study's analysis and Yuan's observation, it is observed that in Malay cultural 
+architecture, the owner's status is among the determining factor on how their buildings layout 
+will look. In short, as their status and ranking in society increases, they also change the type of 
+house they reside in. It is also a show of power within the s ociety. Due to this societal behavior, 
+researchers are aware that the list of areas identified within the zones might be innumerable as 
+they may grow through evolution. In order to establish a universal categorization system for 
+Malay historic BIM, it is i mportant to identify the areas that should be considered according to 
+the zonings system discussed. From observation on the case studies conducted, the summary of 
+the result is tabulated.  
+ 
+5.1 Summary of areas in the zonings  
+ 
+Based on the literature review and  analysis carried out, a system for categorization of 
+Malay Historic BIM library is proposed . It is found that the basic character of Malay 
+architecture in terms of spatial composition and organization (Md. Nor and Isa, 2015) consists 
+of  private and publi c space, which can be further broken down as front zone, main zone, rear 
+zone and kitchen zone (Abidin,1981) whereas the categorization for Malay building 
+components can be categorised as 1) non -structural (architectural) 2) structural and 3) 
+decorations ( Md. Nor and Isa, 2015). In furthering the study on  the zonings, the naming of areas 
+are also identified and presented in Table 3.  
+ 
+Figure 5 : Common addition sequences as suggested by Yuan (1987)
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 16
+==================================================
+
+16 Muhammad Hadi Mustafa,Maisarah Ali, Kamsiah Mohd Ismail, Khairusy Syakirin Has Yun Hashim 
+and Mohamad Saifulnizam Suhaimi  
+ 
+ Table 3: Areas according to zones   
+No Front zone  Main Zone  Rear zone  Kitchen zone  
+1 Serambi  Rumah Ibu  Rumah Tengah  Rumah Dapur  
+2 Anjung  Bilik 
+Utama/Tidur/Bilik 
+Peraduan  Selang/Jambatan/Hallway  Pelantar  
+3 Porch  Rumah Tengah  Ruang Makan  Storage/Rumah 
+Padi 
+4 Verandah  Balai Rong Seri  Rumah Depan  Bilik Bersiram  
+5 Ruang 
+Menghadap  Surung  Bedroom  Bilik Persediaan  
+6 Ruang 
+Menanti  Office  Servant’s Room  Servant Room  
+7 Foyer  Living Area  Balai Pacaparsada  Washing Area  
+8  Bilik 
+Santapan/Ruang 
+Santapan Diraja  Balai Perasapan  Bilik Siak  
+9  Balai  Kelek Anak   
+10  Galeri  Yard   
+11  Dewan  Bilik Mandi   
+12   Serambi   
+13   Ruang Rehat   
+Source: Author s’ work  
+There is an on -going debate on the use of terms for certain areas in Malay building since 
+the analysis shows the same issue. The ‘Serambi’ is widely translated as ‘verandah’ (Zin, 
+Ibrahim, Zain and Jamil, 2012), however accord ing to Shireen et al. (2018), ‘serambi' denotes 
+more of an outdoor room, a completely public area where people can congregate yet they are 
+unable to enter beyond a certain boundary in the Malay house. This is a semantic issue, where 
+certain meaning cannot be adequately captured if they are directly translated. However, for the 
+purpose of this paper, the authors agreed that the usage of terms is beyond the current scope 
+and the issue needs to be properly discussed by language experts. As for now, the system 
+proposed for MHBIM will use the current term found in case studies.  
+ 
+The structure of the system starts with the selection of public or private functions before 
+moving on to the selection of zones. Inside the selected zones, there will be areas that common ly 
+can be found within the selected zone. The areas within the zoning method can be expanded if 
+there are more areas found to be relevant to the zones. Next, once an area is selected, the 
+breakdown of components which can be normally found in the area is p resented. From the 
+categories, there will be various selections of BIM elements and components from the specified
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 17
+==================================================
+
+*Corresponding author ( Muhammad Hadi Mustafa). Tel/F ax: +6 03-6196 4000 Ext.4564 . E-mail 
+addresses: hadimustafaphd@gmail.com .   
+ 
+ 17 
+ 
+ area for users to choose. The system for the Malay BIM library is expected to help designers in 
+their design and BIM practitioners  with their practice. The flowchart in Figure 6 explains the 
+process of how to use the system proposed, whereas Figure 7 shows the work breakdown system 
+for the proposed library categorization.  
+ 
+Figure 6: Process of using the proposed library   
+Source: Author s’ work
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 18
+==================================================
+
+18 Muhammad Hadi Mustafa,Maisarah Ali, Kamsiah Mohd Ismail, Khairusy Syakirin Has Yun Hashim 
+and Mohamad Saifulnizam Suhaimi  
+ 
+  
+Figure 7 : Breakdown of the categorization proces s for Malay Historic BIM library   
+Source: Author s’ work  
+Apart from that, since Malay buildings are rich with unique components such as ‘Tiang 
+seri’ which normally located at ‘Rumah Ibu’ area within the Main Zone. Therefore, a coding 
+scheme in locating the components within a Malay building is proposed to enrich the semantic 
+of this cultural heritage BIM library. The main purpose of this enrichment is to set a guidance 
+rule for designers  so that the correct components can be placed at the correct location within a 
+building. Hopefully, with this enrichment, ‘Tiang S eri’ column whi ch normally found at ‘rumah 
+ibu’ area will not be located at other areas such as the kitchen area or ‘serambi'. This is important 
+to protect the authenticity of the architectural character of the specific culture. Figure 8 shows 
+the diagram of the proposed  coding scheme.
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 19
+==================================================
+
+*Corresponding author ( Muhammad Hadi Mustafa). Tel/F ax: +6 03-6196 4000 Ext.4564 . E-mail 
+addresses: hadimustafaphd@gmail.com .   
+ 
+ 19 
+ 
+  
+ 
+Figure 8 : Proposed coding scheme to enrich the cultural heritage BIM library’s semantic  
+Source: Author s’ work  
+6 Conclusion  
+ 
+Malay society is rich in values and practice moderation within their lifestyle. Their 
+architecture symbolizes harmony in the design and their logic of space as they only expand their 
+houses when there is a need. In embracing Industrial Revolution 4.0, the utilization of tools 
+such as BIM is encouraged by the government of Malaysia when they mandated that starting 
+2020, construction projects must be BIM -operated. Therefore, it is important to create a system 
+which is universal and expandable that reflects th e character of Malay building, to ensure the 
+continuous relevance of the proposed BIM library. By having this kind of library, it will 
+increase the productivity of the industry and prepare the players to be more competitive in a 
+good way. The library will provide access to industry players to consider components with 
+Malay identity in their design. Apart from that, by utilizing BIM approach, the government’s 
+aspiration to contribute to the world’s sustainable goal development also can be addressed.  
+7 Acknowl edgements  
+ 
+This research was supported by a grant (TRGS16 -03-003-0003) from the Ministry of 
+Higher Education Malaysia (MOHE). This research is also supported by Kuliyyah of 
+Architecture and Environmental Design (KAED) and Kuliyyah of Engineering of Interna tional 
+Islamic University Malaysia.
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 20
+==================================================
+
+20 Muhammad Hadi Mustafa,Maisarah Ali, Kamsiah Mohd Ismail, Khairusy Syakirin Has Yun Hashim 
+and Mohamad Saifulnizam Suhaimi  
+ 
+ 8 References  
+ 
+Abidin, W.B.b.W. (1981). The Malay House: Rationale and Change (Master Thesis). M.I.T., 
+Massachusetts. Cambridge.  
+Abbaszadeh, S., &  Rabori, A. A. (2015). Study of Physical Elements Affecting Spatial Hierarchy in 
+the Residential Complex, to Enhance Residents ' Satisfaction, Increase Sense of Privacy and Social 
+Interaction, 4(1), 50 –62. 
+Akgunduz, G., & Akkurt, H. B. (2012). The Reconstitution of Vernacular Architectural Patterns: 
+The Interpretations of the Vernacular Housing Architecture of Bodrum. Paper presented at the 6th 
+International Seminar on Vernacular Settlements, Famagusta, North Cyprus.  
+Anis, T., Raja, Q., Kadir, A., S hireen, P., Kassim, J., Syala, N.  Majid, A. (2018). Identifying Malay 
+Regional Character Through Aristocratic Architectural, (September).  
+Chen, Voon Fee “Architecture” The Encyclopaedia of Malaysia (Singapore: Archipelago Press, 
+1998)  
+Foster, S. M. (1989) . Analysis of spatial patterns in buildings (access analysis) as an insight into social 
+structure: Examples from the Scottish Atlantic Iron Age. Antiquity , 63(238), 40 –50. 
+https://doi.org/10.1017/S0003598X00075566  
+Ghaffarian Hoseini, A., Berardi, U., and D ahland, N. D.. (2014). the Essence of Malay Vernacular 
+Houses : Analysis of the Socio -Cultural, (January).  
+Groat, Linda & Wang, David (2013). Architectural Research Methods (2nd Edition). USA: John 
+Wiley & Sons.  
+Gullberg, J. (2016). Voids and bodies: Augus t Schmarsow, Bruno Zevi and space as a 
+historiographical theme. Journal of Art Historiography Number , (14).  
+Hadi, Idham & Isa, Siti. (2015). PRELIMINARY STUDY OF MALAY TRADITIONAL DESIGN 
+AUTHENTICITY IN MALAYSIAN TOURIST ACCOMMODATION FACILITIES.   
+ 
+Herrman n, W. Gottfried Semper: In Search of Architecture , Cambridge: The MIT Press, 1989.  
+ 
+Hillier, B., & Hanson, J. (1984).  The Social  Logic  of Space . Cambridge: Cambridge University 
+Press. doi:10.1017/CBO9780511597237  
+ 
+Hosseini, E., Mursib, G., Nafida, R., & Sh ahedi, B. (2016). Malay Vernacular Architecture: Mirror 
+Of The Past, Lessons For The Future MALAY VERNACULAR ARCHITECTURE: MIRROR OF THE 
+PAST, LESSONS FOR THE FUTURE, (November), 1 –6. 
+ 
+John Thomas (2000): The meaning of 'style' in traditional architecture:  the case of Gothic, The 
+Journal of Architecture, 5:3, 293 -306 
+ 
+Kamal, K. S., Ab Wahab, L., & Che Ahmad, A. (2004). Climatic design of the traditional Malay 
+house to meet the requirements of modern living. The Malaysian Surveyor , (40), 43 –48. Retrieved from 
+http://buildingconservation.blogspot.my/2007/03/adaptation -design -of-traditional -malay.html
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 21
+==================================================
+
+*Corresponding author ( Muhammad Hadi Mustafa). Tel/F ax: +6 03-6196 4000 Ext.4564 . E-mail 
+addresses: hadimustafaphd@gmail.com .   
+ 
+ 21 
+ 
+ Krygiel, E., Nies, N., and McDowell, S. 2008. Green BIM: Successful Sustainable Design with 
+Building Information Modeling. Wiley Publishing, Indianapolis, USA .   
+Mohd -Nor, M. F. I., & Grant, M. P. (2014). Building Information Modelling (BIM) in the Malaysian 
+Architecture Industry, (January 2014), WSEAS_Journal_2014, page264 -273. 
+Mohidin, H. A. B., Ismail, A. S., & Abdullah, A. M. (2012). A STUDY OF STYLES 
+CLASS IFICATION AND INFLUENCES ON ADMINISTRATION BUILDING IN MALAYSIA ( 
+15 th – 21 st century ). Seminar of International Convention : Bridging Between Old & New , 1–18. 
+Montaser, A., & Moselhi, O. (2015). Methodology for Automated Generation of 4D Bim. 5th 
+Inter national/11th Construction Specialty Conference , 1–10. 
+Nor Hayati Hussain & Veronica Ng (2011). Historical Development on Modem Architecture in 
+Malaysia. World Architecture, 11/2011, 16 -21. 
+Park, J. (2015). " House Growing out of Site ": The Case of Rudolph M. Schindler. Jaabe , 14(3), 513 –
+520. https://doi.org/10.3130/jaabe.14.513  
+Raktim Debnath, “Malay House, Vernacular Architecture of South -East Asia,” The Issuu 
+Publisher, accessed March 16,  2017,  
+Saatci, M., & Onder, D. E. (2015). Spatial hierarchy on vernacular houses in the Eastern Black 
+Sea Region, Turkey. SSS 2015 - 10th International Space Syntax Symposium , 1–17. Retrieved from 
+https://www.scopus.com/inward/record.uri?eid=2 -s2.0  
+Said, S. (2007). The Grammar of Traditional Malay Long -Roof Type Houses  
+ 
+Schumacher P. (2008), http://www.patrikschumacher.com/Texts/Space.htm  
+ 
+Shahmie Roszalan, (2014). Case study Malay traditi onal house accessed from 
+https://issuu.com/shazmie/docs/case_study_malay_traditional_house on 24th April 2017  
+ 
+Shireen P.  J. K., Ali M., Zainal Abidin N., Mustafa M.H., Abdullah A. (2018),  Compositional -
+cultural evolutions as  variations of Malay archite ctural and constructional vocabulary - a review, 18th 
+International Conference on Language, Culture and Society 2018, ISTAC Kuala Lumpur  
+ 
+Sim, S. (2010). Redefining the Vernacular in the Hybrid Architecture of Malaysia. Victoria 
+University of Wellington  
+ 
+Soltanzadeh, H. (1992), The entrance space of the old houses in Tehran, published by the Cultural 
+Research Office in cooperation with the Municipality of Tehran, First printing  
+ 
+The Races of Man in the Malay Archipelago. (2015). In Van Wyhe J. (Ed.),  The A nnotated Malay 
+Archipelago by Alfred Russel Wallace  (pp. 743 -762). SINGAPORE: NUS Press. Retrieved from 
+http://www.jstor.org/stable/j.ctv1xz0nk.50  
+Wong -Wai-sung, B. A. E. D. B. A. (Hons) (Tasmania) . (1995). Timber Structures in Malaysian 
+Architecture and Buildings. Thesis , (March), 1 –281. 
+Yaaman, N. Y., & Muhamad Azrin, R. (2013). Elemen -elemen Binaan Rumah Melayu Tradisional;
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 22
+==================================================
+
+22 Muhammad Hadi Mustafa,Maisarah Ali, Kamsiah Mohd Ismail, Khairusy Syakirin Has Yun Hashim 
+and Mohamad Saifulnizam Suhaimi  
+ 
+ Implementasi Dalam Bentuk Kontemporari.  
+ 
+ 
+Yuan, L. J. (1987). The Malay House Pinang: Institute Masyarakat
+
+==================================================
+DOCUMENT: 2019-Mustafa_IIUM-Spatial_Analysis_Malay_Royal_Buildings_Categorization.pdf
+PAGE: 23
+==================================================
+
+*Corresponding author ( Muhammad Hadi Mustafa). Tel/F ax: +6 03-6196 4000 Ext.4564 . E-mail 
+addresses: hadimustafaphd@gmail.com .   
+ 
+ 23 
+ 
+ Declaration of Own Work  
+This submission paper is my own work. Any quotation, table, photo, picture, drawing from, 
+or description of, the work of others is acknowledged therein by reference to the sources, 
+whether published or unpublished.  
+ 
+ Muhammad Hadi Mustafa  is currently a PhD candidate at Kuliyyah of Architecture and Environmental 
+Design, International Islamic University Malaysia with his research interest on Building Information 
+Modelling (BIM) . He did his Master's degree in Construction Project Management from the University 
+of Manchester, United Kingdom after completing his first degree in Bachelor of Quantity Surveying at 
+IIUM. His research areas of interest also include the application and practicality of BIM for the heritage 
+sector.  
+ Dr. Maisarah Ali  is a Professor in the Department of Civil Engineering in Kulliyyah of Engineering, 
+International Islamic University Malaysia, Kuala Lumpur. Her specialist research field is in the area of 
+Rehabilitation and Maintenance Structures, Bridge Inspection, Facil ities Maintenance, Sustainable 
+Building, Concrete, Traffic and Highway Planning, Renewal Energy, Water Environmental Planning, 
+Occupational, Safety and Health in the construction  and engineering sectors. She had  involved with many 
+international collaborati ve works with academics and industrialists in Malaysia  and overseas in research 
+and in the delivery of undergraduate and postgraduate courses. She is currently the Head of Department 
+of Civil Engineering, IIUM.  
+ 
+ 
+ Dr Kamsiah Mohd Ismail is  a senior lect urer and was the Head of the Department of Civil Engineering 
+in Kulliyyah of Engineering, International Islamic University Malaysia, Kuala Lumpur.  She pursued her 
+PhD in Engineering Education at Universiti Teknologi Malaysia. Her areas of specialization in clude 
+Engineering Education, Engineering and Technology  and Civil Engineering. Her research areas of 
+interest also include in the study using technology on the structural aspects of heritage buildings.  
+ 
+ 
+Dr. Khairusy Syakirin Has -Yun Hashim was born in Kangar, Perlis. He pursued his M aster degree in 
+Facilities Management and Asset Maintenance at Heriot -Watt University, Scotland, and his PhD in 
+Facilities Management at Universiti Teknologi Malaysia. Currently, he is in the Departme nt of Quantity 
+Surveying, Kulliyyah of Architecture and Environmental Design (KAED). Since 2013, he has been 
+seconded to the International Institute for Halal Research and Training (INHART), IIUM, and se rved as 
+the Head of Consultancy . He and his team have  innovated, copyrighted and commercialized the Muslim 
+Friendly Hotel Rating System (MFHRS), and to date has certified six hotels in Malaysia, Korea and 
+Taiwan.  
+ 
+Dr Mohamad Saifulnizam Suhaimi  was the  Head of the Department of Quantity Surveying, KAED. He 
+graduated with PhD in Construction Management from Queensland University of Technology (QUT), his 
+thesis focusses on Value  Management (VM) in the design planning of an airport construction project. An 
+expansion of his thesis  has brought him to currently e xplore the relationship between VM, construction 
+procurement and building  information modelling (BIM) that influenced construction performance . An 
+alumnus of IIUM himself, he has been teaching Value Engineeri ng, Contract administration and building 
+measure ment ever since he joined IIUM. A nominee for IIUM Best Teacher Award for 2016. He  possesses 
+several years of experience working as Quantity Surveyor locally and internationally on civil  engineering, 
+hospital and high -rise construction projects where he sp ecialised on Value Engineering study  and cost 
+control.

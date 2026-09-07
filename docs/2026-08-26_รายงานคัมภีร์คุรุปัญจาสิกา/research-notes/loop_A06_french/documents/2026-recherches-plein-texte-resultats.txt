@@ -1,0 +1,50 @@
+RÉSULTATS DE RECHERCHES PLEIN TEXTE (consultés le 26/08/2026)
+
+=== A. Persée (portail des revues françaises en SHS) ===
+URL testée : https://www.persee.fr/search?q=Gurupancasika
+Résultat : « Pas de résultats. »
+=> Aucun article d'une revue française indexée dans Persée ne mentionne « Gurupancasika ».
+
+=== B. Gallica (BnF), API SRU plein texte ===
+1) Requête : gallica all "Gurupancasika"
+   Résultat : numberOfRecords = 1
+   Seul document de tout Gallica contenant la forme « Gurupancasika » :
+   - Cordier, Palmyr (1871-1914), Catalogue du fonds tibétain de la Bibliothèque nationale.
+     3e partie. Index du Bstan-Hgyur (tibétain 180-332) / par P. Cordier, Paris, Impr. nationale,
+     1909-1915, 2 vol. (VII-402, XI-562 p.). ark:/12148/bd6t53706305
+   => Dans le corpus français numérisé par la BnF, le catalogue de Cordier est l'unique source citant ce texte.
+
+2) Requête : gallica all "bla-ma lna-bcu" (translittération de Cordier pour bla ma lnga bcu)
+   Résultat : numberOfRecords = 329 (bruit OCR inclus), dont documents pertinents en tête :
+   - Lalou, Marcelle, Répertoire du Tanǰur d'après le catalogue de P. Cordier, Paris, 1933,
+     préf. Paul Pelliot. ark:/12148/bd6t53797982  [atteste la présence de l'entrée dans le volume]
+   - Cordier 3e partie (bd6t53706305) [attendu]
+   Le reste des résultats = faux positifs OCR (presse, littérature générale).
+
+=== C. SUDOC (catalogue collectif français) ===
+Endpoint SRU http://www.sudoc.abes.fr testé pour « Gurupancasika », « Fifty verses of guru-devotion »,
+même « guru-devotion » : réponses <psi:records> systématiquement vides, y compris pour un titre
+certainement présent dans SUDOC => endpoint non fonctionnel via cet accès automatisé.
+AUCUNE conclusion négative ne doit être tirée du SUDOC ici (faux négatif technique).
+
+=== D. Moteurs web généralistes ===
+Google/Bing/DuckDuckGo/Mojeek/Brave : bloqués (CAPTCHA/HTTP 429) pendant la session.
+La recherche web intégrée (outil) a fonctionné en début de session uniquement :
+- « Gurupañcāśikā traduction française Aśvaghoṣa » : aucun hit de traduction française dédié ;
+  hits pertinents = GRETIL (texte sanskrit), HathiTrust (édition anglaise LTWA 1976), Lexilogos.
+- « Cinquante stances sur le maître spirituel » : aucun hit correspondant à ce titre ;
+  hit principal = article français Study Buddhism (Berzin) sur la relation maître-disciple.
+
+=== E. OpenLibrary ===
+https://openlibrary.org/search.json?q=Repertoire+du+Tanjur+Lalou
+- work OL10738872W : Lalou, Répertoire du Tanjur d'après le catalogue de P. Cordier (1933)
+- work OL11223618W / OL17874836W : Catalogue du fonds tibétain de la Bibliothèque nationale (1909-),
+  éditeurs : Imprimerie nationale, P. Geuthner, Ernest Leroux, Sharada Rani (réimpr. Delhi).
+
+=== F. Sites de centres bouddhistes francophones (accès direct) ===
+- dhagpo.org (Dhagpo Kagyu Ling) : site joignable (HTTP 200) ; OPAC bibliothèque non accessible.
+- kagyu-dzong.fr : joignable (HTTP 200) ; pas de traduction du Gurupañcāśikā repérable sans moteur de recherche.
+- rigpafrance.org : réponse minimale (114 octets).
+- padmakara.com/fr/ : 404 à cette URL exacte.
+=> Aucune traduction française du texte repérable par ces canaux ; absence NON définitive
+   (moteurs indisponibles), à refaire quand la recherche web sera disponible.

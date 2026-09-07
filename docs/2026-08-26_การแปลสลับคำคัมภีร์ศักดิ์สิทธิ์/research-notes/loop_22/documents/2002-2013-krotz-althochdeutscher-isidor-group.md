@@ -1,0 +1,30 @@
+# Isidor group / Krotz 2002 + Krotz 2013 — resolution of "three preserved OHG renderings"
+
+- Loop: 22 (sacred_text_gloss), target B
+- Date captured: 2026-08-25
+- Status: METADATA FULL-FETCHED from multiple citable pages (Uni Vienna publication page, Uni Vienna project page, Handschriftencensus manuscript records, BStK Online, ZfdA contents page); book itself NOT open access.
+
+## Krotz 2002 — VERIFIED
+
+Elke Krotz, Auf den Spuren des althochdeutschen Isidor. Studien zur Pariser Handschrift, den Monseer Fragmenten und zum Codex Junius 25. Mit einer Neuedition des Glossars Jc, Beiträge zur älteren Literaturgeschichte, Heidelberg: Universitätsverlag Winter, 2002. ISBN 9783825313630 (= 3-8253-1363-8). Zugleich Dissertation LMU München 1998.
+- Sources: https://www.germ.univie.ac.at/publikation/auf-den-spuren-des-althochdeutschen-isidor/ (full abstract, fetched verbatim below); publisher link winter-verlag.de; Deutsche Digitale Bibliothek item 4NK57GUOS7B4FC6JYNHAW57KTHZBYKGJ; Open Library OL21508565M; Sudoc 07075215X; review notice Wich-Reif, ZfdA 134 (2005), S. 81-87 (zfda.de contents).
+- Abstract (Uni Wien page): "Zur ältesten deutschen Überlieferung vom Ende des 8. Jahrhunderts gehört die althochdeutsche Übersetzung von Isidors Traktat De fide catholica in einer Pariser und mit weiteren Texten in den Fragmenten einer Monseer Handschrift. Diese Textgruppe soll Reflexe auf den Bestand des lateinisch-althochdeutschen Glossars Je in einer Murbacher Handschrift ausgeübt haben. Die Studie prüft anhand einer Neuedition von Je die Stichhaltigkeit dieser Vermutung im Rahmen der Glossographie der Zeit und liefert in einer genauen Inhaltsbeschreibung der Handschrift einen Beitrag zur frühen Bibliotheksgeschichte Murbachs. Für die Monseer Fragmente wird vor allem die Struktur des Codex rekonstruiert, für die Pariser Isidor-Handschrift die Herkunft der lateinischen Nebentexte ermittelt."
+- JSTOR-hosted review (stable/pdfplus/23319343.pdf, bot-blocked this session) quotes p. 19: "Die ursprüngliche Zielsetzung der ganzen Untersuchung galt der Beantwortung der Frage, ob sich wirklich in einzelnen Glossen des Glossars Je Reflexe aus Texten der Isidor-Gruppe zeigen."
+
+## Krotz 2013 — IDENTIFIED
+
+Elke Krotz, "Isidor von Sevilla, 'De fide catholica', Althochdeutsche Übersetzung und 'Mon(d)seer Fragmente'", in: Rolf Bergmann (ed.), Althochdeutsche und altsächsische Literatur, Berlin/Boston: De Gruyter 2013 (De Gruyter Lexikon), S. 204-213. Same volume also contains Krotz's articles Ja/Jb/Jc (S. 213-217). Source: Krotz's own publication list at germ.univie.ac.at/elke-krotz (fetched) and cross-confirmed by Handschriftencensus literature lists.
+- Related later items on same page: Krotz/Katharina Kaska, "Ein neues Monseer Fragment", ZfdA 145 (2016), S. 82-88 (a NEW Monsee fragment find); Krotz (ed.), Die Monseer Fragmente. Edition, Übersetzung, Wörterbuch und Kommentar listed as "erscheint bei De Gruyter" (forthcoming as of her page); DFG project 68994184 "Die Monseer Fragmente" ran 2008-2012 (Uni Vienna project page fetched).
+
+## The manuscript units (from Handschriftencensus records, fetched)
+
+1. Paris ms = handschriftencensus.de/15941: Paris, Bibl. Nationale, Ms. lat. 2326, 88 leaves, ca. 800, austrasian origin, Schreibsprache westliches Rheinfränkisch/am ehesten Lothringisch (Haubrichs) per Bischoff S. 131. Contents: ff. 1r-79r Isidor von Sevilla, 'De fide catholica'; ff. 1r-22r carry the OHG translation ('Althochdeutscher Isidor') which breaks off at f. 22r; LAYOUT: two columns separated only by a vertical line, left column Latin text, right column OHG text ("Textgestaltung: in der linken Spalte jeweils der lat., in der rechten der ahd. Text"); plus Affatim-Glossar (79v-86r), Sententiae sanctorum patrum. Full facsimile on Gallica; Hench 1893 full facsimile edition.
+2. Monseer Fragmente = handschriftencensus.de/11565 ("Monsee-Wiener Fragmente", so only VL): discissus across [a] Wien ÖNB Cod. 3093* (remains of at least 47 leaves), [b] Hannover Landesbibl. Ms. I 20b (2 leaves), [c] Wien Cod. 2997 pastedown. Per the Uni Vienna project description: remains of "der einzigen erhaltenen lateinisch-deutschen Sammelhandschrift des Frühmittelalters", with OHG translations of the MATTHÄUSEVANGELIUM, several PREDIGTEN, and Isidor's tract DE FIDE CATHOLICA.
+3. Codex Junius 25 (Oxford, Bodleian) = third unit studied by Krotz 2002; connected via glossary tradition: Krotz's Neuedition des Glossars Jc belongs to it (per title); cf. also her Handbuch chapter "Die Glossare Ja, Jb, Jc" (Bergmann/Stricker eds., Die althochdeutsche und altsächsische Glossographie, Berlin 2009, S. 780-828).
+
+## Verdict on the earlier wiki-derived claim ("three preserved OHG renderings")
+
+PARTIALLY RESOLVED / NEEDS REPHRASING. What the fetched sources support:
+- The OHG TRANSLATION OF ONE treatise, Isidor's De fide catholica, is preserved in TWO transmission branches: the Paris codex and the Monsee fragments (Eggers' ATB 63 title says exactly this: "Der althochdeutsche Isidor. Nach der Pariser Handschrift und den Monseer Fragmenten", Tübingen 1964). So "three renderings of De fide catholica" would be WRONG.
+- A THREE-PART configuration is real but refers to MANUSCRIPT UNITS of the "Isidor group"/"Isidor-Sippe": Paris handschrift + Monseer Fragmente + Codex Junius 25 — exactly the three objects named in Krotz's subtitle; Matzel 1970 likewise studies "die althochdeutschen Übersetzungen der Isidor-Sippe" (plural translations, Rheinisches Archiv 75, Bonn 1970).
+- If the wiki claim meant "three preserved OHG renderings [of Isidorean material within the group]", it is defensible ONLY if counting distinct vernacularized texts across the group (De fide catholica in the Paris branch, De fide catholica + Matthew/homilies in the Monsee branch, plus glossary material in Junius 25) — but no fetched source states a count of "three renderings". Recommendation: replace the claim with the precise formulations above; cite Krotz 2002 (subtitle + abstract) and Bergmann 2013 lexicon entry pp. 204-213.

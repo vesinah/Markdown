@@ -1,0 +1,75 @@
+{
+  "source_id": "S-2018-kieffer-pulz-01",
+  "title": "Extra-canonical Parittas: The Jinapañjara, Jayapañjara, Mahājinapañjara or Ratanapañjara",
+  "author": "Petra Kieffer-Pülz",
+  "publication_year": 2018,
+  "book_title": "Saddharmāmṛtaṃ: Festschrift für Jens-Uwe Hartmann zum 65. Geburtstag",
+  "editors": [
+    "Oliver von Criegern",
+    "Gudrun Melzer",
+    "Johannes Schneider"
+  ],
+  "series": "Wiener Studien zur Tibetologie und Buddhismuskunde (WSTB)",
+  "volume": 93,
+  "pages": "231-250",
+  "publisher": "Arbeitskreis für tibetische und buddhistische Studien, Universität Wien",
+  "place": "Wien (Vienna), Austria",
+  "isbn": "978-3-902501-31-8",
+  "language": "English / Pali",
+  "peer_reviewed": true,
+  "document_type": "Festschrift Chapter / Critical Text Edition",
+  "abstract": "The Jinapañjara is a non-canonical protective text (paritta) handed down in slightly deviating versions in Thailand, Burma, and Sri Lanka. The place and date of origin are unknown. In the Thai recension, this text is known as Jayapañjara (or Phra gatha chinabanchon) and contains fifteen stanzas. In Burma, it is known as Ratanapañjara (Burmese: Ratanā rwhe khyuiṅ) or Mahājinapañjara. In Sri Lanka, it contains twenty-two stanzas incorporated in the Mahā Pirit Potha (Catubhāṇavārapāḷi). The core of the text comprises fourteen stanzas in the Anuṣṭubh metre. From stanza 15 onwards, the recensions diverge significantly in metrical structure and concluding protective benedictions.",
+  "core_findings": {
+    "textual_recensions": {
+      "thai_lanna": {
+        "name": "Jayapañjara / Phra Gatha Chinnabanchorn (ไชยเบงชร / พระคาถาชินบัญชร)",
+        "stanza_count": 15,
+        "metre": "Stanzas 1-14 in Anuṣṭubh (Śloka); Stanza 15 in deficient Triṣṭubh (11 syllables)",
+        "historical_attribution": "Attributed to Mahāthera Jayamaṅgala of Haripuñjaya/Chiang Mai (15th century) and revitalized by Somdet Phra Buddhacārya (To Brahmaramsi) of Wat Rakhang"
+      },
+      "sri_lanka": {
+        "name": "Jinapañjara (ජිනපඤ්ජරය)",
+        "stanza_count": 22,
+        "metre": "Stanzas 1-14 in Anuṣṭubh; Stanza 15 in Upajāti; Stanzas 16-22 in mixed classical metres (Indravajrā, Vaṃśastha, Vasantatilakā, Sragdharā)",
+        "historical_attribution": "Integrated into the Catubhāṇavārapāḷi / Mahā Pirit Potha tradition"
+      },
+      "burma": {
+        "name": "Ratanapañjara / Mahājinapañjara (Burmese: Ratanā rwhe khyuiṅ / ရတနာရွှεခိုင်)",
+        "stanza_count": 14,
+        "metre": "Stanzas 1-14 in Anuṣṭubh (Śloka)",
+        "historical_attribution": "Transmitted in the Weikza esoteric lineage and traditional monastic paritta collections"
+      }
+    },
+    "metrical_analysis": {
+      "core_metre": "Anuṣṭubh (8 syllables per pāda, 32 per stanza, Pathyā cadence)",
+      "divergent_metres": {
+        "thai_stanza_15": "Deficient Triṣṭubh (11 syllables)",
+        "sinhala_stanza_15": "Upajāti (Indravajrā / Upendravajrā)",
+        "sinhala_stanzas_16_22": [
+          "Indravajrā (11)",
+          "Vaṃśastha (12)",
+          "Vasantatilakā (14: ta-bha-ja-ja-ga-ga)",
+          "Sragdharā (21: ma-ra-bha-na-ya-ya-ya)"
+        ]
+      }
+    },
+    "pathavidhana_variants": [
+      {
+        "category": "Title Variants",
+        "thai": "Jayapañjara / Chinnabanchorn",
+        "sinhala": "Jinapañjara",
+        "burmese": "Ratanapañjara / Mahājinapañjara"
+      },
+      {
+        "category": "Pronoun & Syntax",
+        "thai_lanna": "siramhi / sirasā me / sirasā patiṭṭhito",
+        "sinhala": "sirasmiṃ patiṭṭhito / mayhaṃ matthake",
+        "burmese": "sirasmi patiṭṭhita"
+      },
+      {
+        "category": "Arahant Disposition",
+        "details": "Distribution of the 80 Great Disciples (Asītimahāsāvakā) across bodily anatomical positions reflects local mandala mapping."
+      }
+    ]
+  }
+}

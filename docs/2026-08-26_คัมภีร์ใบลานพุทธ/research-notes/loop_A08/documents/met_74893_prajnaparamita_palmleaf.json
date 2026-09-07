@@ -1,0 +1,82 @@
+﻿{
+    "objectID":  74893,
+    "isHighlight":  false,
+    "accessionNumber":  "1985.400.6",
+    "accessionYear":  "1985",
+    "isPublicDomain":  true,
+    "primaryImage":  "https://images.metmuseum.org/CRDImages/as/original/1985_400_6_d1.JPG",
+    "primaryImageSmall":  "https://images.metmuseum.org/CRDImages/as/web-large/1985_400_6_d1.JPG",
+    "additionalImages":  [
+                             "https://images.metmuseum.org/CRDImages/as/original/DP156364.jpg",
+                             "https://images.metmuseum.org/CRDImages/as/original/DP156363.jpg"
+                         ],
+    "constituents":  null,
+    "department":  "Asian Art",
+    "objectName":  "Folio",
+    "title":  "Folio from a Manuscript of the Ashtasahasrika Prajnaparamita (Perfection of Wisdom)",
+    "culture":  "India (Bihar or West Bengal)",
+    "period":  "Pala period",
+    "dynasty":  "",
+    "reign":  "",
+    "portfolio":  "",
+    "artistRole":  "",
+    "artistPrefix":  "",
+    "artistDisplayName":  "",
+    "artistDisplayBio":  "",
+    "artistSuffix":  "",
+    "artistAlphaSort":  "",
+    "artistNationality":  "",
+    "artistBeginDate":  "",
+    "artistEndDate":  "",
+    "artistGender":  "",
+    "artistWikidata_URL":  "",
+    "artistULAN_URL":  "",
+    "objectDate":  "12th century",
+    "objectBeginDate":  1100,
+    "objectEndDate":  1199,
+    "medium":  "Ink and color on palm leaf",
+    "dimensions":  "Image (approx.): 2 Ã 21 3/4 in. (5.1 Ã 55.2 cm)",
+    "measurements":  [
+                         {
+                             "elementName":  "Image",
+                             "elementDescription":  null,
+                             "elementMeasurements":  {
+                                                         "Height":  5.08001,
+                                                         "Width":  55.24511
+                                                     }
+                         }
+                     ],
+    "creditLine":  "Anonymous Gift, 1985",
+    "geographyType":  "",
+    "city":  "",
+    "state":  "",
+    "county":  "",
+    "country":  "",
+    "region":  "",
+    "subregion":  "",
+    "locale":  "",
+    "locus":  "",
+    "excavation":  "",
+    "river":  "",
+    "classification":  "Paintings",
+    "rightsAndReproduction":  "",
+    "linkResource":  "",
+    "metadataDate":  "2025-03-06T04:54:30Z",
+    "repository":  "Metropolitan Museum of Art, New York, NY",
+    "objectURL":  "https://www.metmuseum.org/art/collection/search/74893",
+    "tags":  [
+                 {
+                     "term":  "Buddhism",
+                     "AAT_URL":  "http://vocab.getty.edu/page/aat/300073738",
+                     "Wikidata_URL":  "https://www.wikidata.org/wiki/Q748"
+                 },
+                 {
+                     "term":  "Stupas",
+                     "AAT_URL":  "http://vocab.getty.edu/page/aat/300007576",
+                     "Wikidata_URL":  "https://www.wikidata.org/wiki/Q180987"
+                 }
+             ],
+    "objectWikidata_URL":  "https://www.wikidata.org/wiki/Q78703141",
+    "isTimelineWork":  false,
+    "GalleryNumber":  ""
+}

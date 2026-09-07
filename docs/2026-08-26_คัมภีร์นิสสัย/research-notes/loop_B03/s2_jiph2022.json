@@ -1,0 +1,41 @@
+{
+    "paperId":  "ad1e7ef477f51a2be36d6103188aea5b61e5f7d3",
+    "title":  "Liquid Language: The Art of Bitextual Sermons in Middle Cambodia",
+    "openAccessPdf":  {
+                          "url":  "",
+                          "status":  null,
+                          "license":  null,
+                          "disclaimer":  "Notice: The following paper fields have been elided by the publisher: {\u0027abstract\u0027}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10781-022-09516-2?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1007/s10781-022-09516-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                      },
+    "authors":  [
+                    {
+                        "authorId":  "25569756",
+                        "name":  "Trent Walker"
+                    }
+                ],
+    "citations":  [
+                      {
+                          "paperId":  "a5858e45f4b09756478fe71d1637ac2bcf99d05a",
+                          "title":  "Performing Therav?da: Introduction",
+                          "year":  2024,
+                          "authors":  [
+                                          {
+                                              "authorId":  "100620453",
+                                              "name":  "E. Shulman"
+                                          }
+                                      ]
+                      },
+                      {
+                          "paperId":  "653ee7bafb4a7ed16d22ab586cd9b4c671489795",
+                          "title":  "Living Phonologies: Khmer Pronunciations of Pali at the Nexus of Writing and Orality",
+                          "year":  2024,
+                          "authors":  [
+                                          {
+                                              "authorId":  "25569756",
+                                              "name":  "Trent Walker"
+                                          }
+                                      ]
+                      }
+                  ],
+    "abstract":  null
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+            	<title>Karang Lo (1019 Śaka)</title>
+            	<respStmt>
+            		<resp key="creator">author of digital edition</resp>
+            		<persName ref="part:argr">
+            			<forename>Arlo</forename>
+            			<surname>Griffiths</surname>
+            		</persName>
+            	</respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Jakarta</pubPlace>
+                <idno type="filename">DHARMA_INSIDENKKarangloMojokerto.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EGD 11.2. --></p>
+                            <!-- If you need to identify individual hands (EGD §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+						<summary><p><p/></summary>
+						<handNote xml:id="Pallava00001_hand1"></handNote>
+						<handNote xml:id="Pallava00001_hand2"></handNote>
+					 -->
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+    	<revisionDesc>
+    		<change who="part:argr" when="2026-01-23">finished encoding the inscription</change>
+    		<change who="part:argr" when="2026-01-09">started encoding the inscription</change>
+    	</revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="kaw-Latn" rendition="class:38769 maturity:83213">
+<p>
+<lb n="1"/> <g ref="sym:circleFloret"/> <g ref="sym:bar" type="punctuation">.</g> <g ref="sym:circleFloret"/> Iti sakāka<lb n="2" break="no"/>lā saṁ hyaṁ maṇḍālā<lb n="3" break="no"/>ṅaliḥ <!--ka<choice><sic>geten</sic><corr>teg</corr></choice>an·--><sic>kagetenan·</sic>
+<lb n="4"/> <g ref="sym:diamond"/> leṁ tuṅgal·
+<lb n="5"/>murttaniṁ vvaṁ <g ref="sym:circleFloret"/> <g ref="sym:bar" type="punctuation">.</g>  <g ref="sym:circleFloret"/>
+
+</p>
+<!-- 
+Brandes
+Het opschrift van Karanglo is in relief-letters, die gewoonlijk veel moeite geven om ze te lezen. Het luidt || 0 || iti sakakala sang hyang maṇḍalangaliḥ kagelem || leng tunggal
+murtta (?) ning wwang || 0 ||. De laatste woorden bevatten een jaartal in candrasengkala, waarvan de waarde naar waarschlijnlijkheid 1319 is, doch de lezing murtta is niet geheel zeker, evenmin als de beteekenis van dat woord.
+
+GR 1901 murta : KW. zva. ilang, verdwenen Wk., BS. 29 (Skr. mûrta, geronnen, ook verdoofd).
+
+KAN interprets as 1019, but that seems palaeographically implausible.
+
+muurti (f. « ») : 3
+Rice, MISRK ; Sircar, IE.
+
+ -->
+         </div>
+         <div type="apparatus">
+ <!--	
+1-2. sakākalā: sakakala Brandes.
+	2-3. maṇḍālāṅaliḥ: maṇḍalaṅalih Brandes.
+	3. kagetenan· K
+	4. leṁ: leng Brandes.
+-->
+               <listApp><!-- one <app> for each apparatus entry -->
+                  <app loc="3">
+                     <!--<lem>ka<choice><sic>geten</sic><corr>teg</corr></choice>an·</lem>-->
+					<lem source="bib:KromodjojoAdiNegoro1922_02"><sic>kagetenan·</sic></lem>
+                     <rdg source="bib:Brandes1888_02"><unclear>kagetem·</unclear></rdg>
+					<!--<rdg source="bib:KromodjojoAdiNegoro1922_02"><unclear>kagetenan·</unclear></rdg>-->
+					<note>The word is not susceptible to interpretation as it stands, despite Kromodjojo Adi Negoro's attempt reflected in his translations <p><foreign>sahestu</foreign> / <foreign>inderdaad</foreign></p>. A drastic emendation is required. In Old Javanese literature, <foreign>kategan/katyāgan</foreign> and <foreign>maṇḍala</foreign> figure together in the same contexts. Hence we are inclined to propose the conjecture <foreign>kategan</foreign>, and it is this which underlies our translation.</note>
+                  </app>
+               </listApp>
+         </div>
+         <div type="translation" resp="part:argr">
+ 	<p>Thus the chronogram of the holy community converting into a hermitage <supplied reason="explanation"><foreign>kategan</foreign></supplied>: <q>the cavity, one, is the disappearance of man</q> (i.e., 1019 Śaka).</p>
+         </div>
+         <div type="commentary">
+            <p>Brandes supposed that the chronogram corresponds to 1319, which implies a value <q>3</q> for <foreign>murtta</foreign> (presumably Brandes imagined <foreign>murtta</foreign> to be an error for <foreign>mūrti</foreign>, as in <foreign>trimūrti</foreign>); assuming a value <q>0</q>, Kromodjojo Adi Negoro interpreted the chronogram as corresponding to 1019. The latter is implausible from a palaeographic point of view, but has solid support in usage as recorded in 19th-century literary Javanese usage (<bibl><ptr target="bib:Gericke+Roorda1901_01"/></bibl>, s.v. <foreign>murta</foreign>) and may be explained in connection both with Sanskrit <foreign>mr̥ta</foreign> <q>deceased</q> and with Old Javanese <foreign>mūr</foreign> <q>to disappear</q>. For this reason, we consider Kromodjojo Adi Negoro's interpretation to be correct, and infer that the text is a Majapahit-period commemmoration of an event of the late 11th century CE.</p>
+<!-- 
+Kromodjojo's list, p. 14
+
+GR murta : KW. zva. ilang, verdwenen Wk., BS. 29 (Skr. mûrta, geronnen, ook verdoofd). Sumber: Javaansch-Nederlandsch Handwoordenboek, Gericke en Roorda, 1901, #918.
+
+BS 
+29 awit sasaosanira, dhadhaharan sang sudewi, yen ing ratri asring murta, alapak kadi binukti, miwah kang sarwa sari, tanapi wowohanipun, tanәmanira sang dyah, kathah ingkang ical sami, keksi labәtira kangkәn pinәthikan.
+
+400 rәng lairira, supe yen surәm sotyane, pasthi yayi mas angluh, lamun ical sotyaning murit, pasthi yayi mas seda, makatәn jәng ibu, ing nguni wәwәlingira, mәne sotyaning sәsra murta sumarmi, kawula kawiyogan.
+
+-->
+         </div>
+        <div type="bibliography">
+           <p>Tentatively transcribed, without indication of line breaks, by Brandes (<bibl rend="omitname"><ptr target="bib:Brandes1888_02"/></bibl>); edited properly, in Javanese script, by Kromodjojo Adi Negoro (<bibl rend="omitname"><ptr target="bib:KromodjojoAdiNegoro1922_02"/></bibl>). Re-edited here by Arlo Griffiths (2026) from available visual documentation.</p>
+        	<listBibl type="primary">
+				<bibl n="B"><ptr target="bib:Brandes1888_02"/><citedRange unit="page">XIX</citedRange><citedRange unit="item">e</citedRange></bibl>
+				<bibl n="K"><ptr target="bib:KromodjojoAdiNegoro1922_02"/><citedRange unit="page">23-24</citedRange></bibl>
+			</listBibl>
+           <listBibl type="secondary">
+<bibl><ptr target="bib:Knebel1909_01"/><citedRange unit="page">78</citedRange></bibl>
+		<bibl><ptr target="bib:Bosch1915_01"/><citedRange unit="page">216-217</citedRange><citedRange unit="item">1730</citedRange></bibl>
+              <bibl><ptr target="bib:AndiMuhammadSaid+al2018_01"/><citedRange unit="page">79</citedRange><citedRange unit="entry">71</citedRange></bibl>
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

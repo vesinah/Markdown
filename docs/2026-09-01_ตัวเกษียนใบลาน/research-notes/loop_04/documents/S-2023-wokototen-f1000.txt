@@ -1,0 +1,637 @@
+--- Page 1 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+RESEARCH ARTICLE
+Measuring linguistics of the wokototen chart made
+inductively by deciphering kunten materials
+[version 1; peer review: 4 approved]
+Tomoaki Tsutsumi 1, Koji Tajima2, Teiji Kosukegawa3, Tomokazu Takada4
+1Faculty of Humanities and Social Sciences, University of Tsukuba, Tsukuba, Ibaraki, 305-8577, Japan
+2Department of Electrical and Computer Engineering, National Institude of Technology(KOSEN), Gifu College, Motosu, Gifu, 501-
+0495, Japan
+3School of Humanities, University of Toyama, Toyama, Toyama, 930-8555, Japan
+4National Institute for Japanese Language and Linguistics, Tachikawa, Tokyo, 190-0014, Japan
+v1 First published: 16 May 2023, 12:506 Open Peer Review
+https://doi.org/10.12688/f1000research.131244.1
+Latest published: 16 May 2023, 12:506
+https://doi.org/10.12688/f1000research.131244.1
+Approval Status
+1 2 3 4
+Abstract
+In this paper, we focus on wokototen markings, which are a system of
+version 1
+kunten annotations used to facilitate the reading of classical Chinese 16 May 2023 view view view view
+documents by Japanese readers. Using digitized data, we performed
+basic measurements of wokototen by using a chart that summarizes
+1. Brian Steininger , Princeton University,
+the wokototen markings of actual kunten materials described by
+Hiroshi Tsukishima, and we quantitatively clarified their Princeton, USA
+characteristics. Kunten materials are classical Chinese books with
+2. Pádraic Moran , University of Galway,
+annotations, called kunten, on the Chinese text. The wokototen is a
+type of kunten. In ancient East Asian countries, kunten systems were Galway, Ireland
+developed as a way of directly annotating Chinese documents so that
+they could be read and understood by non-native readers. For this 3. Kiyonari Nagasaki, The University of Tokyo,
+reason, kunten materials and kunten are treated as historical sources Tokyo, Japan
+for linguistic and historical research. The shape and position of a
+wokototen marking determines what kind of reading it indicates. The 4. Kristina Hmeljak Sangawa , University of
+results of our basic survey quantitatively show that almost all the
+Ljubljana, Ljubljana, Slovenia
+wokototen charts in actual kunten materials contain particles
+represented by “te”, “ni”, and “wo”, the most common shapes of Any reports and responses or comments on the
+wokototen are dots and shapes that can be written with a single
+article can be found at the end of the article.
+stroke, such as ｜, ─, and ＼, and that the most common places to find
+these markings are to the right of characters in the horizontal direction
+and below characters in the vertical direction.
+Keywords
+Kunten, Reading Classical Chinese in Japanese, Text Mining, Digital
+Humanities
+This article is included in the Japan Institutional
+Gateway gateway.
+Page 1 of 17
+
+--- Page 2 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+Corresponding author: Tomoaki Tsutsumi (tsutsumi.tomoaki.gn@u.tsukuba.ac.jp)
+Author roles: Tsutsumi T: Conceptualization, Data Curation, Formal Analysis, Investigation, Methodology, Software, Validation,
+Visualization, Writing – Original Draft Preparation; Tajima K: Conceptualization, Data Curation, Formal Analysis, Funding Acquisition,
+Investigation, Methodology, Software, Supervision, Validation, Visualization, Writing – Review & Editing; Kosukegawa T: Data Curation,
+Formal Analysis, Investigation, Methodology, Writing – Original Draft Preparation; Takada T: Funding Acquisition, Project
+Administration, Supervision, Writing – Review & Editing
+Competing interests: No competing interests were disclosed.
+Grant information: This work was supported by JSPS KAKENHI Grant Number JP20K00654, project of National Institutes for the
+Humanities [Ibunya ugo niyoru sougoushomotsugaku (異分野融合による総合書物学)], And project of National Institute for Japanese
+Language and Linguistics [Hyokijoho to shoshikeitaijoho wo kuwaeta nihongorekisi corpus no seichika (表記情報と書誌形態情報を加えた
+⽇本語歴史コーパスの精緻化)]. The project leader is Tomokazu Takada.
+The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+Copyright: © 2023 Tsutsumi T et al. This is an open access article distributed under the terms of the Creative Commons Attribution
+License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+How to cite this article: Tsutsumi T, Tajima K, Kosukegawa T and Takada T. Measuring linguistics of the wokototen chart made
+inductively by deciphering kunten materials [version 1; peer review: 4 approved] F1000Research 2023, 12:506
+https://doi.org/10.12688/f1000research.131244.1
+First published: 16 May 2023, 12:506 https://doi.org/10.12688/f1000research.131244.1
+Page 2 of 17
+
+--- Page 3 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+Introduction
+KuntenisaJapanesesystemoftextmarkingsusedtoclarifythesyntaxandmeaningofChinesetextsforJapanesereaders.
+Previousresearch1–3investigatedhowthesemarkscanbehandledonacomputer.Inthispaper,wefocusonakunten
+systemcalledwokototenthatisusedtoannotateclassicalChinesetexts(kanbun),andweperformbasicmeasurementsby
+digitizingwokototencharts(wokototen-zu)thatinductivelysummarizethemarkingsaddedtoactualdocuments.
+ThetextswearestudyingconsistofclassicalChinesetextsannotatedwithkuntenmarkings.Thesewereoncewidely
+used,aroundfromtheHeianperiodtotheEdoperiodinJapan,topromulgatesocial,cultural,andacademicideasinEast
+Asiancountries,wherekuntensystemsweredevelopedasawayofdirectlyannotatingthesedocumentssothattheycould
+bereadandunderstoodbynon-nativereaders.
+WokototenisonesuchsystemthatwasdevelopedinJapan.ItconsistsofmarksplacedinsideoraroundtheChinese
+characterstoindicatefeaturessuchasgrammaticalparticles,auxiliaryverbs,andthereadingsofkanjicharacters.There
+arevariousflavorsofwokototenassociatedwithdifferentschoolsanddifferentannotators,andwokototenchartsareused
+asmeansofinductivelycompilingtheannotationmarksusedbydifferentschoolsofwokototenorindifferentkunten
+documents.
+DocumentsannotatedinthiswayhaveexistedfromtheHeianperiodtothepresentday,andwokototenismostlyfoundin
+Chineseclassics,Buddhistscriptures,andJapanesebooksoftheHeianandKamakuraperiods.Sincethematerialsthat
+arethesubjectofourresearchcontaincomplexinformation,thisinformationmustbepreservedintactwhentheyare
+digitizedforanalysispurposes.Wethereforedigitizedthedatabyusingadedicatedstructureddescriptionmethod.For
+thispaper,particularlywithregardtothisdigitizeddata,weperformedbasicmeasurementsofwokototenbyusingachart
+that summarizes the wokototen markings of actual kunten materials described by Hiroshi Tsukishima,4 and we
+quantitativelyclarifiedtheircharacteristics.
+Targetofresearch
+Overviewofwokototen
+WokototenmarkingsareoftenfoundinkuntendocumentsfromtheHeianandKamakuraperiods,wheretheyareusedto
+indicatefeaturessuchasgrammaticalparticles,auxiliaryverbs,andconjugatedendingsbymeansofvariouslyshaped
+symbolssuchasdots(・),lines(j),andhooks(└).Thesesymbolscanbeplacedatthefourcorners,inside,oraroundthe
+strokesofaChinesecharacter,andtheirreadingsdifferdependingontheirpositionandshape.Forexample,adottothe
+upperrightofakanjihasadifferentmeaningthanalineinthesameposition,oradottothelowerrightofthecharacter.To
+uniquelyidentifythemeaningofawokototenmarkings,weneedtoknowbothitspositionanditsshape.
+Therearevarioustypesofwokototenassociatedwithdifferenterasanddifferentschools.Forexample,inoneschool,a
+dotattheupperrightcornerofaChinesecharacterisreadaswo,butinanotherschool,itisreadaskoto.
+Wokototenchartsandthestudyofkunten
+The decipherment and classification of wokototen has been the subject of several previous studies by researchers
+includingYoshinoriYoshizawa,5–7NorioNakata,8HeijiOtsubo,9HiroshiTsukishima,4,10YoshinoriKobayashi,11,12
+andMasajiKasuga.13Inparticular,NorioNakata8compiledasetof26wokototenchartsasmaterialsfordeciphering
+kuntenmaterials.
+Eventoday,researchersspecializinginwokototenareworkingtodecipherkuntenmaterialsandstudytheirhistorical
+background.Theirgeneralresearchmethodinvolvesvisuallydecipheringthewokototenandkanaannotationsinkunten
+materialstocreateJapanesetranscriptionsfromwhichthecontentsofthematerialscanbeunderstood.Asaby-productof
+thisprocess,awokototenchartisgeneratedasakeytothemarkingsusedinthesourcematerial.Awokototenchartnot
+only summarizes the wokototen markings in the actual kunten materials, but also includes information on how the
+researchersunderstoodthesematerials.
+AsshowninFigure1,awokototenchartindicatesthereadingofeachmarkingaccordingtoitsshapeandpositionina
+squareframe(calledatsubo)correspondingtothelocationofaChinesecharacter.Awokototencharttypicallyconsistsof
+multipletsubo,witheachtsubocontainingmultiplewokototen.Acollectionofthesewokototenchartsiscalledatenzushuˉ
+(点図集).
+Wokototen charts can be classified into two types according to the process by which they were created. One is a
+comprehensivechart,whichisacollectionofthewokototenmarkingsusedbyeachschool.Theotherisaninductive
+chart,whichisacollectionofthewokototenmarkingsusedinaparticularbodyofkuntenmaterial.Themeasurementsin
+Page 3 of 17
+
+--- Page 4 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+Figure1.ExampleofawokototenchartforKobunshōsho(古文尚書),animportantculturalpropertyheldatthe
+ToyoBunkoMuseuminTokyomadebyTeijiKosukegawa.
+thisstudyweremadeusingthelattertypeofchart.Forthispaper,weperformedbasicmeasurementson199typesofpoint
+chartscontained inactualkuntenmaterials assummarized byHiroshiTsukishima.4Bywayofcomparison,wealso
+presenttheresultsofmeasurementsmadeusingtheformertypeofpointchartasdescribedbyTomoakiTsutsumi.1
+Methods
+Digitizationofwokototenchartdata
+The data used in this study was based on wokototen charts data created from kunten materials created by Hiroshi
+Tsukishima,whichwereregisteredasofJune2022intheWokototenchartsDatabaseprovidedbytheNationalInstitute
+forJapaneseLanguageandLinguistics(NINJAL).FurtherinformationonthedatabasecanbefoundontheNINJAL
+websiteandinreference[3].
+Asmentionedabove,wokototenmarkingsareusedtoannotateChinesecharacters.Themeaningofeachmarkingis
+determinedbyitsposition,shape,andreading.InthedataofNINJAL,the'reading'ofthewokototenhasbeenenteredin
+Japanesetext.The‘shape’ofthewokototenhasbeenenteredbyreplacingitwiththesimilarcharacterinUnicode.The
+124characterssubstitutedinthisdatabaseisshowninTable1.Thepositionofawokototenisrepresentedusinga7(cid:2)7
+squaregridofcellswithitsoriginatthecenterofatsuboandtheupperleftandlowerrightcornersatthecoordinates
+Page 4 of 17
+
+--- Page 5 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+Table1.Listofshapesusedfordigitisation.
+Shape
+・ ┼ 七 / 丁 ⠑ ア ᓓ カ ހ ┼又は┤
+｜ ： レ ╰ 〝 ム 4 ॥ マ い ဂ
+— 〢 ナ —↑ ク リ 丿 ⨽ ∧ 下 凵
+＼ 〇 ノ ᄓ ⠔ ┤ つ … ٦ ᨀ ⍭
+└ 乙 ◠ ⧷ ﾌ ∴ ∠ y ⎞ 山 N
+／ ├ ル イ ス コ ⍀ 匚 ◠↓ ⦧ 亽
+┐ ＝ ┴ (cid:2) ヒ ＞ ┌ 上 ৲ - 冖↓
+フ ┬ ⧹ ⊂ —↓ へ ヌ 〃 C 丶 ち
+人 ⊃ ∨ ⌵ ┘ 口 ∪ ⦣ 寸 牛 ケ人よこ
+‥ ◡ ソ < ⦦ ╲ 〵 ⁐ ᓗ↑ ᚇ く
+⌰ ∅ ⎱ L ﬧ 匕 ヤ う ⎵ ∵ 又ハ┤
+ヘ ～
+((cid:3)3,(cid:3)3)and(3,3).Sincewokototenmarkingsaresometimesslightlyseparatefromthekanjicharacter,thecenter5(cid:2)5
+squarecorrespondstotheareaoccupiedbythecharacter,andcoordinatesinthisregioncorrespondtomarkingsthat
+overlapwiththecharacter.Theoutermostcellsareusedforpositionsthatareseparatefromthekanjicharacter.This
+digitizationmethodofthereadings,positionsandshapesofthewokototenaredescribedindetailinreference[1].
+ThismethodofexpressingthepositionoftheKuntenincoordinateshasalsobeenusedinKoreanstudiesofgugyeol,14–18
+whereacoordinatesystemof5(cid:2)5squaresisdefinedaroundeachcharacter.ThesemethodsoftheKoreanstudiesandthe
+currentonehasthesameconceptbutarenotdatacompatible.
+Basicmeasurementsforwokototencharts
+In this study, we performed measurements on 199 types of point charts (contained in actual kunten materials as
+summarizedbyHiroshiTsukishima4),relatingtothereading,position,andshapeofwokototen.Theprogrammewritten
+inC#wasusedforthemeasurements.19Excel365andVisualStudioCode(version1.67)wereusedtoviewandcompare
+thedatafromthedatabasewiththereference[4]andtocorrectthedata.VisualStudioCommunity(version17)wasused
+tocreatetheprogramme.
+Thisprogramreadscomma-delimiteddata,oneperline,onthewokototentobemeasured.Itisasimpleprogramthat
+outputsthecountof“reading,”“position,”and“shape”ofthewokototen.Alineofreaddatashouldbeproducedinthe
+followingformat.
+MaterialTitle,TsuboNo,Reading,Sharp,PositionofX,PositionofY
+Ex.華厳経探玄記一巻,1,レ,・,-3,-3
+WecreatedthisformofdatabycomparingdatatakenfromtheWokototenzudatabasewiththepreviousresearch.4Insome
+cases,thereweremultiplereadingsgivenforasinglesymbolinthewokototenchart.Examplesareshowninthe'カ/ナ'in
+thetopleft-handcorner(-2,-2)ofthefifthtsuboinFigure1.Inthiscase,wehavedividedthesymbolintotwoseparate
+totals.Theoneofwokototenoftheshape‘L’reading‘カ’andtheotherofwokototenoftheshape'L'reading'ナ.Inthe
+datacreatedbyaddingtheseprocesses,thetotalnumberoftargetwokototenwas6411.
+Results
+Resultsforreadingofwokototen
+Thereadingsofwokototen,suchas“wo”and“koto,”wereexaminedtodeterminehowmanywerefoundinthetarget
+wokototenchart.Asaresult,therewere303typesofreadings.Next,thenumberofthese303typesofreadingsonthe
+wokototenchartweremeasured,andthetop10typesareshowninTable2.Thisdoesnotinclude885pointsforwhichno
+readingwasnoted.
+Page 5 of 17
+
+--- Page 6 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+Table2.The10mostcommonwokototenreadings.
+reading Occurrences reading Occurrences
+Te(テ) 203 Ha(ハ) 181
+Wo(ヲ) 199 Su(ス) 166
+Ni(ニ) 199 Koto(コト) 159
+To(ト) 191 Ru(ル) 155
+No(ノ) 190 Nari(ナリ) 149
+Table3.The10mostcommonwokototenmarkings.
+Shape Occurrences Shape Occurrences
+・ 2199 / 377
+| 770 ┐ 264
+— 525 フ 130
+\ 520 人 119
+└ 397 ‥ 107
+Table4.Numberofshapesusedtorepresentthereadings“te”,“ni”,and“wo”.
+Shape Te(テ) Ni(ニ) Wo(ヲ)
+・ 195 191 179
+\ 5 3 5
+/ 1 1 0
+| 1 0 0
+— 1 4 2
+◡ 0 0 12
+: 0 0 1
+Resultsforshapesofwokototen
+Weexaminedtheshapesofwokototenmarkingssuchas・andjtodeterminehowmanyofeachtherewereinthetarget
+wokototenchart.Asaresult,wefound124differentshapes.Wethencountedtheoccurrencesofeachoftheseshapesin
+thewokototenchart,andthetop10shapesareshowninTable3.Sincethewokototenchartsusedinthisstudywerehand-
+drawn,therewereseveralshapesthatwerepartiallysimilarbutwithslightdifferences.Insuchcases,wecountedthe
+shapesasbeingofasingletype.Forexample,theshapes人and入weregroupedtogetheras人andcountedasthesame
+shape.
+Next,weexaminedtheshapesusedtoindicatethethreemostfrequentreadings,whichwere“te”,“ni”,and“wo”.As
+showninTable4,wefoundthatthesereadingswererepresentedbysevenshapes:・,\, /,|,─,◡,and:.The・shapewas
+themostcommon.
+Resultforpositionsofwokototen
+Theresults of measuring the locations of wokototen markings are shown inTable 5 and aredepicted graphically in
+Figure2.InTable5,theareawiththeredbackgroundshowsthepositionofthesquarecellsrepresentingthelocationof
+thekanjicharacter.
+Discussion
+Reading
+AsTable2shows,therearemanyparticlesandauxiliaryverbssuchas“te”,“ni”,“wo”,and“ha”.Themostcommon
+readingwas“te”,whichhadmoreappearancesthanthenumberofwokototencharts(199)becauseitsometimesappeared
+Page 6 of 17
+
+--- Page 7 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+Figure2.Numberofwokototenbylocation(graph).
+Table5.Numberofwokototenbylocation.
+Y/X -3 -2 -1 0 1 2 3
+-3 1 2 0 43 3 2 129
+-2 0 580 6 488 19 656 39
+-1 0 10 69 49 78 12 1
+0 3 428 33 489 17 542 169
+1 0 4 84 48 80 15 6
+2 0 673 34 605 35 709 25
+3 2 2 0 97 4 10 110
+morethanonceinthesamechart,andbecausetherewereonlyeightchartsinwhichthisreadingwasnotmentioned.These
+werechartswithanextremelysmallnumberofwokototenpoints.OneexampleisScroll1oftheBiographyofYangXiong
+Zhuan(漢書楊雄傳;yellowmarkings,5thlevel),whichhasonlyonewokototenmarking,Scroll3oftheMoheZhiguan
+(魔訶止觀; green markings), which has eight, and Scroll 1 of Huiguo Heshang Zhi Bei (惠果和上之碑文; black
+markings),whichhastwo.Incaseswherethemarkingsappearindifferentcolors,suchasred/vermillion(shuten),black
+(bokuten),andwhite(hakuten),thesymbol“te”wasmarkedinadifferentcolor.Thesameistruefor“wo”and“ni”,which
+explainswhy“te”,“wo”,and“ni”inparticulararefoundinalmostallwokototencharts.
+Acomparisonwiththeresultsofasurvey1of26majorwokototenchartscompiledbyNakata8andTsukishima4foreach
+schoolshowsthattherearedifferencesinthetypesofreadingsthatoccurfrequently.Themostcommonreadingsinthe
+majorwokototenchartsare“su”,“naru”,“nari”,and“tari”,buttheseoccurlessfrequentlyinwokototenchartsbasedon
+kuntenmaterials.Ofthesereadings,themostcommonwas“su”with166occurrences,followedby“nari”with149.The
+otherreadings“tari”and“naru”werethe22ndand24thmostfrequent,with80and77occurrences,respectively.
+Shapes
+Table3showsthattheoverwhelmingmajorityofwokototenmarkingsaredots(・).Thereweresixwokototenchartthat
+didnotcontaindots.Thesewerechartscontainingalmostnowokototen,asintheBiographyofYangXiongZhuan,and
+chartswherethe\shapewasusedforthefirsttsuboinsteadofadot,asinScroll1ofTōdaijiFujumonkō(東大寺諷誦文
+稿)andScroll8ofMyōhōRengekyō(妙法蓮華経;theLotusSutra).
+Page 7 of 17
+
+--- Page 8 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+Includingthedotmarking(・),whichappearedmostfrequently,thewokototenshapes・,|,─,and\thatappearedmore
+than500timesareshapesthatcanbewrittenwithasinglestroke.Morecomplexshapesappearedlessoften,andthesame
+trendwasobservedinthemeasurementresultsofthe26mainwokototencharts.
+TheresultsinTable4alsoshowthatreadingswiththehighestnumberofappearancesareoftendenotedbyasingledot.
+Althoughothershapesaresometimesused,itissafetosaythatthesereadingsarealmostalwaysdenotedbyadotinall
+schools.ThisisthoughttobebecauseparticlesthatareimportantinreadingChinesetextsasJapaneseareoftenexpressed
+inthesimplestway,whichmeansusingasingledot,becauseofthelargenumberoftimestheyareadded.Insomecases,
+“wo” is represented using the ◡ shape, and these were the wokototen charts belonging to the fourth group in the
+classificationaccordingtoTsukishima.4
+Position
+FromTable5,itcanbeseenthatwokototenareoftendrawnatthefourcornersandthecenterofacharacter.Themost
+commonlocationwasthelowerrightcorner(2,2),where709wokototenwerefound.Inthefourcornersofcharacters,
+wherewokototenmarkingsareoftenplaced,markingsweremorecommonlyfoundinthelowercornersinthevertical
+direction,andontherightsideinthehorizontaldirection.
+Next,weexaminedthewokototenmarkingsplacedaroundtheoutsideofthecharacters.Moremarkingswerefoundon
+therightsidethanontheleftside.Forexample,therewere129markingsintheupperrightexternalposition(3,(cid:3)3),but
+onlyoneintheupperleftexternalposition((cid:3)3,(cid:3)3).Themostcommonpositionsofwokototenmarkingsaroundthe
+outsideofacharacterwerethetop,middleandbottomontheouterrightside,withthelargestnumber(169)appearingin
+themiddleatcoordinates(3,0).Theseresultsshowthatwokototen,likefurigana,tendtobewrittentotherightsideof
+eachcharacter.
+Theabovetrendssuggestedbyourmeasurementsdifferfromtheresultsobtainedfromthe26mainwokototencharts,
+wheretherewasnodifferenceintheplacementofmarkingsbetweentheleft,right,upperandlowerpositions.Inaddition,
+measurementsofthe26mainwokototenchartsshowedthatfewofthesemarkingsareplacedoutsidethecharacters,while
+intheactualmaterials itcanbeseenthatmanywokototenmarkingsareplacedtotherightofeachcharacter.These
+differencesmayrepresentatrendcausedbytheactualadditionofmarkingstokuntenmaterials.
+Conclusion
+WehaveconductedbasicmeasurementsofwokototenmarkingsasdescribedbyHiroshiTsukishima,4whocompileda
+chart summarizing the wokototen markings applied to actual kunten materials. As a result, we have quantitatively
+demonstratedthatalmostallwokototenchartsinactualkuntenmaterialscontainparticlesrepresentedby“te”,“ni”,and
+“wo”.Ourresultsalsoshowthatthemostcommonshapeusedforwokototenis・,andthatmarkingswithshapesof
+greatercomplexityareusedinfewerdocuments.Wefoundthatwokototenaremostoftenplacedatthebottomandrightof
+characters,andthatwhentheyareplacedoutsidethecharacters,theyappearmostlytotherightsideofthem,showingthe
+sametendencyasthatofJapaneseannotationssuchasfurigana.
+InthepresentanalysisofthetrendsintheWokotenzucharts,ithasbeenpossibletoidentifyanoveralltrend.However,it
+cannotbedeterminedwhetherallindividualKuntenmaterialsshowasimilartrend.Furtherresearchintothecontentof
+individualKuntenMaterialwillberequiredinthefuture.
+Inthefuture,weplantousetheinformationrevealedbythesebasicmeasurementstodevelopasystemthatwillhelp
+researchers to guess and present the locations of wokototen markings when deciphering kunten materials, and to
+automaticallygeneratewrittentranscriptionstohelpreadersunderstandthesematerials.Anotherfuturetaskwillbeto
+extractthecharacteristicsofwokototenbyusinglargeamountsofdata,whichhavebeendifficulttocompareandstudy
+usingconventionalmanualresearchmethods.
+Dataavailability
+ThedataforthisstudyisownedbytheNationalInstituteforJapaneseLanguageandLinguistics.Thedataofwokototen
+chartswereusedthisstudyandcanbeobtainedandsearchhere:https://cid.ninjal.ac.jp/wokototendb/.
+ThedataisavailableinaccordancewiththepolicyoftheNationalInstituteforJapaneseLanguageandLinguistics.The
+policyishere:https://www.ninjal.ac.jp/english/utility/policy/.
+Page 8 of 17
+
+--- Page 9 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+Extendeddata
+Analysiscodeavailablefrom:
+https://github.com/TTMTMAK/CountProg_for_Wokoto/releases.
+https://github.com/TTMTMAK/CountProg_for_Wokoto/tree/master.
+Archivedanalysiscodeattimeofpublication:https://doi.org/10.5281/zenodo.7801472.19
+License:ApacheLicense,Version2.0
+References
+1. TsutsumiT,TajimaK,KosukegawaT,etal.:Computerized 11. KobayashiY:AHistoricalStudyoftheReadingofChineseClassicsinthe
+MethodofKUNTENandQuantitativeAnalysisofKUNTEN HeianandKamakuraPeriods(平安鎌倉時代に於ける漢籍訓読の国語
+UsingComputer.J.Inf.Process.2018;59(2):278–287. 史的研究).PublishingDepartmentofTheUniversityofTokyo;1967.
+2. TajimaK,TsutsumiT,TakadaT:QuantitativeAnalysisofKunten 12. KobayashiY:AJapaneseLinguisticStudyofKakuhitsu
+MaterialsforInterpretedTextGeneration.J.Inf.Process.2020;61 Documents(角筆文献の国語学的研究),yukoshoin.1987.
+(2):162–170. 13. KasugaM:Kokuntennokenkyu(古訓点の研究).Kazamashobo;1956.
+3. TsutsumiT,TajimaK,KosukegawaT,etal.:AutomaticRecognition 14. JinhoP:ShuhonKegonkyoudai36tenkuketsunokaidoku(周本華
+ofWokototenTableusingKuntenDatabase.J.Inf.Process.2022; 厳経巻第36点吐口訣の解読)，Nikkankanjikanbunjuyouni
+63(2):283–292. kansurukokusaigakujutsuronbunshu(日韓漢字・漢文受容に関す
+4. TsukishimaH:HeianjidaiKuntenbonRonko(平安時代訓点本論考), る国際学術会議論文集).2003;pp.127–158.
+Kyukoshoin.1986. 15. ChangK:SomeCaracteristicsofPoint-attachedKugyolon
+5. YoshizawaY:KokugoKokubunnoKenkyu(国語国文の研究).Iwanami Yuquishidilun(瑜伽師地論)，Nikkankanjikanbunjuyouni
+Shoten,Publishers;1927. kansurukokusaigakujutsuronbunshu(日韓漢字・漢文受容に関す
+6. YoshizawaY:catalogueofTenpon(点本書目),Iwanamikouza る国際学術会議論文集).2003;pp.159–177.
+Nihonbungaku(岩波講座日本文学).IwanamiShoten,Publishers; 16. ZaiLC:KyotoKokuritsuHakubutsukanzouKegonkyomakidai
+1931. 17noKunten(京都国立博物館蔵『華厳経』巻第十七の訓点)，
+7. YoshizawaY:KokugoSetsurei(国語説鈴).PublishingDepartmentof Diacriticallanguageanddiacriticalmaterials，Kuntengo
+RitsumeikanUniversity;1931.
+gakkai.2005;pp.251–283.
+8. NakataN:TheTranslationPartofThePhilologicalStudyofKotenbon 17. PakuJ: MojiSeikatsushinoKantenkaraMitaKuketsu(文字生活
+(古点本の国語学的研究(総論編・訳文編)).KodanshaLtd;1954. 史の観点から見た口訣).Bungaku.2011;Vol.12(No.3):pp.169–181.
+9. OhtshboH:Astudyofthekuntenlanguage(訓点語の研究). 18. MiyoungO:KankokunoKuketsuShirooyobiKuketsuKenkyunoGenjoni
+Kazamashobo;1961.
+tsuite(韓国の口訣資料および口訣研究の現況について)，Nikkan
+KanbunkundokuKenkyu(日韓漢文訓読研究).BenseiPublishingInc.;
+10. TsukishimaH:AStudyontheReadingofChineseWordsintheHeian 2014;289–332.
+Period(平安時代の漢文訓読語につきての研究).Publishing
+DepartmentofTheUniversityofTokyo;1963. 19. TomoakiT:TTMTMAK/CountProg_for_Wokoto:
+WokotoCount1.0.0.[Software].Zenodo. 2023
+Page 9 of 17
+
+--- Page 10 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+Open Peer Review
+Current Peer Review Status:
+Version 1
+Reviewer Report 21 August 2023
+https://doi.org/10.5256/f1000research.144061.r186342
+© 2023 Hmeljak Sangawa K. This is an open access peer review report distributed under the terms of the
+Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any
+medium, provided the original work is properly cited.
+Kristina Hmeljak Sangawa
+University of Ljubljana, Ljubljana, Slovenia
+The article describes a system for digitising vernacular reading glosses of the wokototen type in
+classical Chinese texts, presents the results of quantitative measurements of the readings, shapes
+and positions of such glosses in summaries (compiled by H. Tsukishima) of wokototen markings
+used in actual kunten materials, and compares these findings with data from 26 wokototen
+'comprehensive' charts of different schools compiled by Nakata and Tsukishima.
+Not surprisingly, the results show that simple shapes (dots or lines that can be written with one
+stroke) are the most common markings, with dots ('ten' in 'wokototen' literally means 'dot') being
+by far the most common; that the most frequent readings are marked by dots, and that most
+markings appear at the centre or at the four corners overlapping the character they mark. It was
+also found that markings not overlapping characters are most commonly found on the right of the
+character, as is still the case for phonetic guides (furigana) in contemporary Japanese.
+Some differences were found between the summaries of wokototen glosses in kunten materials
+and the 26 wokototen charts, with regard to the most frequent readings and the most frequent
+position of markings.
+The quantitative findings are not surprising, but do empirically confirm common observations. As
+the authors note in their conclusion, the most important contribution of this research is the
+coding and processing method used to digitise wokototen markings, described in detail and
+complete with code that can be used in the future to extend the digitisation and semi-automatic
+analysis to other material.
+One further important aspect of this article is that it is written in English. The majority of published
+research on Japanese vernacular readings of classical Chinese texts is written in Japanese, and is
+therefore not accessible to scholars from other areas of research such as the history of writing,
+language contact etc., who may not be versed in Japanese. This is also reflected in the list of
+references of this article, which only includes sources in Japanese (the first three in the list –
+previous papers by the same authors – are quoted with their English titles, but are actually papers
+Page 10 of 17
+
+--- Page 11 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+published in Japanese with only an English title and abstract). Given the usefulness of the
+proposed method for digitisation and processing of text with complex markings and glosses, the
+fact that it is written in English makes it accessible to a wider audience and thus more likely to be
+used and built upon.
+The terminology used follows the tradition of Japanese research on this topic and mostly consists
+of Japanese terms in romanised form. This is somewhat surprising, considering that two of the
+authors are also co-authors of a thoroughly explained proposal for English terminology to be used
+in research on vernacular readings of classical Chinese texts (Whitman et al. 2010,
+http://conf.ling.cornell.edu/whitman/WhitmanAlberizziTsukimotoKosukegawa2010Toward.pdf),
+where they propose using self-explanatory English translations instead of romanised renditions of
+Japanese terms, such as "vernacular reading" instead of kundoku or "gloss" instead of kunten. All
+terms in this article are, however, clearly explained and thus accessible also to readers who may
+not be familiar with the Japanese terminology.
+I have a few minor formal suggestions for a possible revised version of the article.
+Japanese long vowels could be romanised more consistently: in the list of references, the long
+vowel ō is sometimes spelled 'ou' following kana orthography (e.g. 14. Kegonkyou, 15. juyou, 16.
+Hakubutsukanzou), once 'oh' (Ohtsubo, but misspelled Ohtshbo), and sometimes not marked as
+long (Kazamashobo, Kegonkyo, Shiryo - misspelled as Shiro). The long vowel ū is not marked as
+such (kenkyu, ronbunshu etc.).
+The reference list would be more reader-friendly in a more consistent and complete format, e.g.
+following the Generic style rules for linguistics [www.eva.mpg.de/linguistics/past-research-
+resources/resources/generic-style-rules/]. Specifically, author names would be more easily
+searchable and less ambiguous if given in both romanized form and Japanese script, and titles
+more accessible if quoted consistently with both the romanised form and the original Japanese
+script, followed by an English translation. In the present version of the article, works with English
+alternative titles (1, 2, 3) are cited only in English, some (6, 8, 10, 11, 12, 15, which originally have
+no English title) are cited in Japanese script and with an English translation of the title probably
+provided by the authors, without a romanised transcription of the Japanese title, while other titles
+(4, 5, 7, 13, 14, 16, 17, 18) are given in romanised form and Japanese script, but without an English
+translation of the title. For example, the following citation:
+Ohtshbo H: A study of the kunten language (訓点語の研究). Kazamashobo; 1961
+would be more informative and accurate in this form:
+Ōtsubo H (⼤坪併治): Kuntengo no kenkyū (訓点語の研究) [A study of the kunten language].
+Kazamashobō; 1961
+A few typos should be corrected:
+p. 3 (Target of research) the meaning of a wokototen markings -> marking
+p. 8 (Conclusion) Kunten -> kunten
+Kunten Material -> kunten material
+Page 11 of 17
+
+--- Page 12 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+(Data availability) can be obtained and search -> searched
+p. 9 (References)
+6. catalogue -> Catalogue
+9. Ohtshbo -> Ōtsubo /or/ Ootsubo
+12. yukoshoin -> Kyūkoshoin
+18. Shiro -> Shiryou
+Notwithstanding these suggestions for very minor corrections, the article is an important
+contribution to the study of Japanese vernacular readings of classic Chinese texts, and a welcome
+introduction of the proposed digitisation method to an international audience.
+Is the work clearly and accurately presented and does it cite the current literature?
+Yes
+Is the study design appropriate and is the work technically sound?
+Yes
+Are sufficient details of methods and analysis provided to allow replication by others?
+Yes
+If applicable, is the statistical analysis and its interpretation appropriate?
+Yes
+Are all the source data underlying the results available to ensure full reproducibility?
+Yes
+Are the conclusions drawn adequately supported by the results?
+Yes
+Competing Interests: No competing interests were disclosed.
+Reviewer Expertise: History of Japanese writing
+I confirm that I have read this submission and believe that I have an appropriate level of
+expertise to confirm that it is of an acceptable scientific standard.
+Reviewer Report 10 August 2023
+https://doi.org/10.5256/f1000research.144061.r174044
+© 2023 Nagasaki K. This is an open access peer review report distributed under the terms of the Creative
+Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium,
+provided the original work is properly cited.
+Kiyonari Nagasaki
+Page 12 of 17
+
+--- Page 13 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+International Institute for Digital Humanities, The University of Tokyo, Tokyo, Japan
+I acknowledge the potential significance of the research presented in this paper, which offers an
+insightful foundation for discussing matters related to pre-modern international exchange and
+translation. The findings are compelling, contingent upon further corroboration through
+subsequent research.
+However, having perused the manuscript in detail, I wish to raise two points for your kind
+consideration and, if possible, rectification.
+Firstly, our attention was drawn to the sequence of "te", "wo", and "ni". As per the frequency order
+established in your study, they should be listed as "te", "wo", and "ni". However, we have observed
+instances where the sequence appears as "te", "ni", and "wo". Unless there is a specific reason for
+this inconsistency, we recommend standardizing the order for improved coherence.
+Secondly, I noticed that the analysis carried out in this study could arguably be conducted without
+the use of digital technology. In order to enhance the position of your paper within the landscape
+of existing research and amplify its overall value, it would be beneficial to offer a clearer context.
+Specifically, it would be helpful if you could clarify whether no such analysis existed prior to the
+advent of digital technology, or if there was any similar analysis previously. If the latter is not the
+case, kindly offer a rationale for the absence of such analyses in the past. This contextual detail will
+further enrich the relevance of your work within the wider field of study.
+I request your thoughtful consideration of these points.
+Is the work clearly and accurately presented and does it cite the current literature?
+Yes
+Is the study design appropriate and is the work technically sound?
+Yes
+Are sufficient details of methods and analysis provided to allow replication by others?
+Yes
+If applicable, is the statistical analysis and its interpretation appropriate?
+Yes
+Are all the source data underlying the results available to ensure full reproducibility?
+Yes
+Are the conclusions drawn adequately supported by the results?
+Yes
+Competing Interests: No competing interests were disclosed.
+Reviewer Expertise: Digital Humanities and Buddhist studies
+Page 13 of 17
+
+--- Page 14 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+I confirm that I have read this submission and believe that I have an appropriate level of
+expertise to confirm that it is of an acceptable scientific standard.
+Reviewer Report 10 August 2023
+https://doi.org/10.5256/f1000research.144061.r186365
+© 2023 Moran P. This is an open access peer review report distributed under the terms of the Creative Commons
+Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the
+original work is properly cited.
+Pádraic Moran
+Department of Classics (School of Languages, Literatures and Cultures), University of Galway,
+Galway, County Galway, Ireland
+This article is a valuable study of wokotoken annotations, part of the Japanese kunten system of
+annotating Chinese/Sinitic texts. Its value lies in its computational approach. By counting the large
+number of complex wokotoken systems collected in Tsukishima 1986, the authors demonstrate
+very clear distribution patterns, which present new insights into Japanese annotation practices.
+The information is clearly and carefully presented, and the implications for future research
+(presented the Conclusion section) are very significant. This article will be of interest to specialists
+in kunten. It should also interest researchers on glossing more generally, since the computational
+approach adopted here could be a model for specialists in other traditions to follow.
+1) I saw just one significant error:
+p. 5: ‘Examples are shown in the 'カ/ナ' in the top left-hand corner (-2, -2) of the fifth tsubo in
+Figure 1.’ This appears to be the third tsubo (middle left), not the fifth. (Also ‘カ/ナ’in the text is
+confusing, since the figure has the reverse: ナ/カ. Recommend to change the text accordingly.)
+2) I have two recommendations:
+p. 5, table 1: Several shapes are followed by a sign ↑or ↓. These seem to require explanation.
+p. 7, figure 2: Although the figure is extremely helpful, it is a little hard to read. The Y-axis runs
+from +3 on top to -3 on the bottom. However, the corresponding table 5 has -3 on top and +3 on
+the bottom. This is more intuitive, since -3 represents the top of a character. Recommend to
+reverse the Y-axis in figure 2.
+3) The following minor errors should be corrected:
+p. 3:
+‘around from the Heian period…’—sense of ‘around from’ is not clear; recommend to delete
+‘around’
+‘charts are used as means’
+‘wokototen is mostly found’ > ‘wokototen are mostly found’
+Page 14 of 17
+
+--- Page 15 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+p. 4:
+‘replacing it with the similar character in Unicode’—‘the’ > ‘a’
+‘The 124 characters… is shown’—‘is’ > ‘are’
+p. 5:
+‘This digitization method… are described in’—‘are’ > ‘is’
+‘These methods of the Korean studies’—‘These’ > ‘The’
+‘… has the same concept’—‘has’ > ‘have’
+‘The programme was written in C#’—‘The’ > ‘A’
+‘Sharp’ > ‘Shape’
+‘Examples are shown’ > ‘An example is shown’
+‘into two separate totals. The one of wokototen of the shape ‘L’ reading ‘カ’ and the other of
+wokototen of the shape 'L' reading 'ナ.’ > ‘into two separate items, one for the wokototen shape ‘L’
+reading ‘カ’ and the other for the wokototen shape 'L' reading 'ナ’.’
+p. 7:
+‘six wokototen chart’—‘chart’ > ‘charts’
+p. 8:
+‘who compiled a chart’ > ‘who compiled charts’
+Is the work clearly and accurately presented and does it cite the current literature?
+Yes
+Is the study design appropriate and is the work technically sound?
+Yes
+Are sufficient details of methods and analysis provided to allow replication by others?
+Yes
+If applicable, is the statistical analysis and its interpretation appropriate?
+Yes
+Are all the source data underlying the results available to ensure full reproducibility?
+Yes
+Are the conclusions drawn adequately supported by the results?
+Yes
+Competing Interests: No competing interests were disclosed.
+Reviewer Expertise: Comparative glossing (annotation) practices generally, specialising in the
+European Latin tradition, but with an interest in Japanese glossing. Digital Humanities and
+computational analysis of texts.
+I confirm that I have read this submission and believe that I have an appropriate level of
+Page 15 of 17
+
+--- Page 16 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+expertise to confirm that it is of an acceptable scientific standard.
+Reviewer Report 17 July 2023
+https://doi.org/10.5256/f1000research.144061.r186344
+© 2023 Steininger B. This is an open access peer review report distributed under the terms of the Creative
+Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium,
+provided the original work is properly cited.
+Brian Steininger
+Department of East Asian Studies, Princeton University, Princeton, New Jersey, USA
+The article presents a format for digitizing data on vernacular reading glosses in the okototen
+format, applied to classical Chinese texts in premodern Japan. Using this methodology, the
+authors compare data from "comprehensive charts" (prescriptive instructions for producing
+glosses kept by a particular school) and "inductive charts" (diagrams of actual glosses found in
+primary sources made by contemporary researchers--in this case, the work of Tsukishima Hiroshi).
+This is an important distinction. The statistical results of the survey contain few major surprises,
+though there is a somewhat interesting discrepancy in regard to the use of the space to the right
+of the character. As indicated in the conclusion, the major importance of this research is as
+foundational work building towards essential new tools for digitization and semi-automated
+analysis of kunten materials.
+Is the work clearly and accurately presented and does it cite the current literature?
+Yes
+Is the study design appropriate and is the work technically sound?
+Yes
+Are sufficient details of methods and analysis provided to allow replication by others?
+Yes
+If applicable, is the statistical analysis and its interpretation appropriate?
+Yes
+Are all the source data underlying the results available to ensure full reproducibility?
+Yes
+Are the conclusions drawn adequately supported by the results?
+Yes
+Competing Interests: No competing interests were disclosed.
+Reviewer Expertise: Reception of Chinese literature in early and medieval Japan
+Page 16 of 17
+
+--- Page 17 ---
+F1000Research 2023, 12:506 Last updated: 04 AUG 2026
+I confirm that I have read this submission and believe that I have an appropriate level of
+expertise to confirm that it is of an acceptable scientific standard.
+The benefits of publishing with F1000Research:
+• Your article is published within days, with no editorial bias
+• You can publish traditional articles, null/negative results, case reports, data notes and more
+• The peer review process is transparent and collaborative
+• Your article is indexed in PubMed after passing peer review
+• Dedicated customer support at every stage
+For pre-submission enquiries, contact research@f1000.com
+Page 17 of 17

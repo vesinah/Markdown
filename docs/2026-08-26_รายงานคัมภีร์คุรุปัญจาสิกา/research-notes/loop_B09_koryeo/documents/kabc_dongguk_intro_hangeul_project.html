@@ -1,0 +1,557 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="ko" class="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title>사업소개 - 불교학술원 아카이브</title>
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="icon" href="/resources/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/resources/images/apple-icon.png">
+<link rel="apple-touch-icon" href="/resources/images/apple-icon.png"> 
+	
+<script src="/resources/libs/jquery-1.11.3.min.js"></script>
+<script src="/resources/libs/jquery-ui/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="/resources/libs/jquery-ui/jquery-ui.css" type="text/css">
+
+<script src="/resources/libs/backbone/underscore-min.js"></script>
+<script src="/resources/libs/backbone/backbone.js"></script>
+<script src="/resources/libs/core/underscore.string.min.js"></script>
+<script src="/resources/libs/core/string.js"></script>
+
+<link rel="stylesheet" href="/resources/css/base.css?v=20210202" />
+<link rel="stylesheet" href="/resources/css/common.css?v=20210208" />
+<link rel="stylesheet" href="/resources/css/content.css?v=20210208" />
+<link rel="stylesheet" href="/resources/css/xsl_style.css?v=20210203" />
+
+<script src="/resources/js/common.js?v=20210708"></script>
+<script src="/resources/js/search.js?v=20210201"></script>
+
+<script src="/resources/js/analysis.js?v=20230204"></script>
+
+
+ <!-- UA-28923583-4 -->
+<!-- UA-166772332-1  -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BNNKLCQJ98"></script>
+<script>
+var ga_ID = 'G-BNNKLCQJ98';
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+ga_send_pageview();
+</script>
+
+<script src="/resources/libs/jquery.blockUI.js"></script>
+<script>
+	new Image().src="/resources/images/common/busy.gif";
+	$(document).ajaxStop($.unblockUI); 
+	$.blockUI.defaults.css = {}; 
+	$.blockUI.defaults.overlayCSS ={};
+</script>
+
+<script>
+var g_servletPath = s.rtrim("/",'/');
+
+function resizeMainLayout() { 
+	var winH = $(window).height();
+	$(".content--scroll1").css({height:winH-239+"px"});
+	$(".snb--scroll").css({height:winH-235+"px"});
+} 
+
+$(document).ready(function(){
+	// scroll
+	$(window).resize(resizeMainLayout); 
+	resizeMainLayout();	
+
+
+	$(document).on('click','.wrap__page--util .totop', function() { 
+		//scrollToVisibleNode(node, ".wrap__snb .snb--scroll", 0, 10);
+		//$(window).scrollTop(100);
+		$("#content .content--scroll1").scrollTop(0);
+	});
+
+	// snb 영역 토글
+	$(document).on('click','.snb--open .btn__snb--toggle', function() {
+		$('#container').removeClass('snb--open snb--more');
+		$('#container').addClass('snb--close');
+		
+		if(localStorage)
+			localStorage.treeOpenClose = "close";
+
+	});
+	$(document).on('click','.snb--close .btn__snb--toggle', function() { 
+		$('#container').removeClass('snb--close');
+		$('#container').addClass('snb--open');
+		
+		if(localStorage)
+			localStorage.treeOpenClose = "open";
+	});
+
+	$(document).on('click','.snb--open .btn__snb--toggle--more', function() {
+		$('#container').addClass('snb--more');
+		if(localStorage)
+			localStorage.treeOpenClose = "open-more";
+	});
+	$(document).on('click','.snb--open.snb--more .btn__snb--toggle--more', function() {
+		$('#container').removeClass('snb--more');
+		if(localStorage)
+			localStorage.treeOpenClose = "open";
+	});
+	$(document).on('click','.snb--close .btn__snb--toggle--more', function() { 
+		$('#container').removeClass('snb--close');
+		$('#container').addClass('snb--open snb--more');
+		if(localStorage)
+			localStorage.treeOpenClose = "open-more";
+	});
+
+	// snb
+	$(document).on('click','.wrap__snb nav:not(.tree) > ul > li > a',function() {
+		if($(this).hasClass('open')) {
+			$(this).removeClass('open');
+			$(this).next('div').stop(true, false).slideUp();
+		} else {
+			$('.wrap__snb nav:not(.tree) > ul > li > a').removeClass('open');
+			$('.wrap__snb nav:not(.tree) > ul > li > div').slideUp();
+			$(this).addClass('open');
+			$(this).next('div').stop(true, false).slideDown();
+		}
+	});
+	
+
+	// 공통 alert 레이어
+	$('.pop--alert1-open').click(function() {
+		$('.pop--alert1, .pop--overlay').fadeIn('');
+		$('body').css('overflow','hidden')
+	});
+	$('.pop--alert1-close').click(function(){	
+		$('.pop--alert1, .pop--overlay').fadeOut('');
+		$('body').css('overflow','auto')
+	});
+
+}); // <-- ready function
+</script>
+
+
+</head>
+
+<body>
+<div id="wrap">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+    
+});
+</script>
+
+ 
+<link rel="stylesheet" type="text/css" href="/resources/css/suggest.css" />
+<script src="/resources/libs/jquery.autocomplete.js"></script>
+
+<script>
+$(document).ready(function () {
+	//Initialize ajax autocomplete:
+	$('#q_query').autocomplete({
+		paramName: 'q',
+		serviceUrl: '/search/suggest',
+		onSelect: function(suggestion) {
+			//$('#selection_result').html('You selected: ' + suggestion.value + ', ' + suggestion.data);
+			$('#q_query').val(suggestion.value);
+			totalSearch();
+		},
+		onInvalidateSelection: function() {
+			//$('#selection_result').html('You selected: none');
+		},		
+		width:350
+	});
+});
+
+function initCache() {
+	$.get("/etc/clearCache", { }, null, "json")
+	.done(function (result, textStatus, jqXHR) {
+		alert(result.msg);
+	}).fail(function (jqXHR, textStatus, errorThrown) { alert(jqXHR.status + " : " + textStatus + " : " + errorThrown); });
+}
+
+</script>
+
+
+<header id="header">
+	<div class="header__top">
+	
+		<ul class="global">
+			<a onclick="initCache()" style="display:block;position:absolute;width:20px;height:20px;left:-30px;top:5px;" title="캐쉬삭제"></a>
+			<li><a href="http://abchome.dongguk.edu" target="_blank">불교학술원</a></li>
+			<li><a class="selected">불교기록문화유산</a></li>
+			<li><a href="https://buddhaland.dongguk.edu" target="_blank">한국불교문화포털</a></li>
+		</ul>
+
+		<ul class="info">
+			<li><a href="http://abchome.dongguk.edu/sub/contMasterList?clsType=%EC%95%8C%EB%A6%BC%EB%A7%88%EB%8B%B9_%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD&cateType=%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD" target="_blank">공지사항</a></li>
+			
+			<li><a href="/board/errBrdList">오류신고</a></li>
+			<li><a href="/etc/intro?type=01">사업소개</a></li>
+			<li class="lang">
+				<div>
+					<a onclick="changeLocation('lang','ko');" class="selected">한국어</a> <span>|</span>
+					<a onclick="changeLocation('lang','en');" class="">English</a> <span>|</span>
+					<a onclick="changeLocation('lang','zh');" class="">中國語</a> <span>|</span>
+					<a onclick="changeLocation('lang','ja');" class="">日本語</a> 
+				</div>
+			</li>
+			
+		</ul>
+	
+	</div>
+
+	<div class="header">
+	
+	
+	
+		<div class="sta"><a href="/index"><img src="/resources/images/sta_ko.png" alt="불교기록문화유산 아카이브" /></a></div>
+		
+		<nav class="gnb">
+			<ul>
+				<li><a href="/content/list?itemId=ABC_IT" data-item-id='ABC_IT' title='원문과 번역문을 통합해 동시에 살펴볼 수 있는 디지털 대장경'>통합대장경</a></li>
+				<li><a href="/content/list?itemId=ABC_BJ" data-item-id='ABC_BJ' title='한국 불교 사상가의 저술을 집대성한 자료의 보고'>한국불교전서</a></li>
+				<li><a href="/content/list?itemId=ABC_NC" data-item-id='ABC_NC' title='동국대학교 불교학술원이 현장에서 촬영한 불교 문헌의 사진과 서지정보를 체계적으로 소개, 고려대장경과 한국불교전서를 제외한 모든 문헌을 집대성.'>신집성문헌</a></li>
+				<li><a href="/content/list?itemId=ABC_KJ" data-item-id='ABC_KJ' title='고려교장 목록 기반의 동아시아에 현존하는 주석서의 종합 정보 인덱스 '>고려교장</a></li>
+				<li><a href="/content/list?itemId=ABC_SP" data-item-id='ABC_SP' title='불교 경전의 내용이나 교리, 설화를 시각적으로 표현한 그림'>변상도</a></li>
+				<li><a href="/content/list?itemId=ABC_BM" data-item-id='ABC_BM' title='근대 지성인들의 고뇌와 주장 그리고 삶의 진면목을 살펴볼 수 있는 타임캡슐, 근대불교잡지.'>근대불교잡지</a></li>
+				<li><a href="/content/list?itemId=ABC_BC" data-item-id='ABC_BC' title='근대시기 한국불교를 이끌어온 선구자들의 저술과 번역서의 대총서'>근대불교문헌</a></li>
+				<li><a href="/content/list?itemId=BUL_PIC" data-item-id='BUL_PIC' title='사진을 통해 살펴보는 한국 근대불교의 일상과 문화생활의 모든 것'>근대불교사진</a></li>
+				<li><a href="/content/list?itemId=BUL_SJ" data-item-id='BUL_SJ' title='조선시대 사찰에서 간행한 불교문헌의 총목록 DB'>조선사찰본서목</a></li>
+			</ul>
+		</nav>
+	
+	
+		<div class="search">
+			<input type="text" name="query" id="q_query" value="" onkeypress="return enterSearchKeyCheck(event)" />				
+			<a href="javascript:openWebime('q_query');" class="btn--word"></a>
+			<button type="submit" class="btn--search" onclick="totalSearch()">검색</button>
+			<button type="button" class="btn--search--detail" onclick="openDetailSerach()">상세검색</button>
+		</div>
+	</div>	
+</header>
+
+
+
+	
+	<div id="container" class="snb--open">
+		<button type="button" class="btn__snb--toggle"></button>
+		<button type="button" class="btn__snb--toggle--more"></button>
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="snb">
+
+<div class="wrap__snb">
+	<div class="snb__top"><h2>사업소개</h2></div>
+	<div class="snb--scroll">
+		<nav>
+			<ul>
+				<li><a href="/etc/intro?type=01" class="">불교기록문화유산 아카이브</a></li>
+				<li><a href="/etc/intro?type=02" class="open">통합대장경</a></li>
+				<li><a href="/etc/intro?type=03" class="">한국불교전서</a></li>
+				<li><a href="/etc/intro?type=04" class="">신집성문헌</a></li>
+				<li><a href="/etc/intro?type=05" class="">변상도</a></li>
+				<li><a href="/etc/intro?type=06" class="">근대불교잡지</a></li>
+				<li><a href="/etc/intro?type=07" class="">근대불교문헌</a></li>
+				<li><a href="/etc/intro?type=08" class="">고려교장</a></li>
+				<li><a href="/etc/intro?type=09" class="">근대불교사진</a></li>
+				<li><a href="/etc/intro?type=10" class="">조선사찰본서목</a></li>
+				<li><a href="/etc/intro?type=11" class="">ABC사업단</a></li>
+			</ul>
+		</nav>	
+	</div>
+</div>
+
+</div>
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="content">
+<div class="wrap__page--util">
+	<div class="wrap__page__left">
+	</div>
+
+	<div class="wrap__page__right">
+		<nav>
+			<ul>
+				<li class="totop"><a></a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<style>
+.pr__pop--copy {font-size:18px}
+.para_wrap { margin: 30px 10px 30px 0; font-size: 18px; line-height: 1.6; text-align: justify;}
+.para { text-indent:10px; margin: 10px 0;}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="tit__section">
+		<h2>통합대장경 소개</h2>
+	</div>		
+	
+	<div class="content--scroll1">
+	
+		<div class="pr__pop--copy">
+			통합대장경은 붓다의 모든 가르침을 <br>
+			원문과 번역문으로 동시에 열람하고 검색할 수 있는 디지털 대장경이다.<br> 
+			내용을 중심으로 고려대장경과 한글대장경을 함께 열람할 수 있는 시스템이다. 
+		</div>
+		
+		<div class="para_wrap">
+			<div class="para">통합대장경은 다양한 계통과 언어 및 판본으로 전승되어 온 대장경을 동시에 열람하고 검색할 수 있는 디지털 대장경이다. 이는 현존하는 한역 대장경 가운데 가장 우수한 것으로 평가받는 고려대장경과 고려대장경을 우리말로 번역한 한글대장경을 동시에 열람하고 검색할 수 있도록 통합한 대장경이다.</div>
+			<div class="para">대장경은 경(經)ㆍ율(律)ㆍ논(論) 삼장과 고승(高僧)들의 저술 등 불교연구에 관한 기록을 모아 만든 총서이다. 고려대장경은 경판이 가장 오래되었으면서도 정각(精刻)의 원형을 가장 완벽하게 유지하고 있다. 몽고의 침입으로 현종 때의 초조대장경판이 불타버려서 다시 새긴 것이 지금의 재조대장경판, 즉 팔만대장경판이다. 유네스코는 2007년 해인사 고려대장경판과 제경판의 가치를 인정하여 이들을 세계기록유산으로 지정하였다.</div> 
+			<div class="para">(사)고려대장경연구소에서는 1996년 고려대장경의 전산화를 시작하였고, 2006~2008년에는 고려대장경 지식베이스를 구축하였다.</div>
+			<div class="para">동국역경원은 1964년에 고려대장경 역경사업을 위하여 설립되었다. 동국역경원에서는 1965년에 『장아함경(長阿含經)』을 한글로 번역하기 시작하였고, 2001년에 한글대장경을 318권으로 완간하였다.</div> 
+			<div class="para">2001년부터 ‘한글대장경 개역 전산화 사업’을 수행하였다. 이 사업은 현대 시대를 살고있는 대중들에게 우리말과 우리글로 된 한글대장경을 누구나 접근하기 편리하도록 인터넷 매체를 통해서 제공하는 작업이다. 이 사업은 동국역경원과 전자불전문화콘텐츠연구소가 참여하였다. 동국역경원은 고려대장경을 우리시대의 말과 글로 개역하는 작업을 수행하였다. 전자불전문화콘텐츠연구소는 한글대장경을 인터넷을 통해 누구든지 쉽게 접할 수 있도록 전산화하여 서비스하였다. 나아가 동국대학교와 고려대장경연구소는 ‘한글대장경 개역 전산화사업’과 (사)고려대장경연구소의 ‘고려대장경 지식베이스 구축 사업’을 발전적으로 계승하고, 통합대장경을 구축하기 위하여 불교학술원의 설립을 추진하였다.</div> 
+			<div class="para">통합대장경은 대장경이 지니는 불교기록유산의 원전적 가치를 확립하고 대장경을 해석하는 과정에서 불교 지식 생산의 원동력을 심화시킨다는 점에서 중요하다. 나아가 많은 사람들이 아카이브 서비스를 통해서 대장경에 담겨진 다양한 가치와 소통하여 문화창조의 미래를 열어갈 수 있다는 점에서 통합대장경은 의미를 지닌다.</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+	</div>
+	
+	
+</div>
+</body>
+</html>

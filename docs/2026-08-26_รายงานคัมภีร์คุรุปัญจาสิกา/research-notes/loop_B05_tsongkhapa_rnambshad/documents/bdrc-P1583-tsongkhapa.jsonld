@@ -1,0 +1,492 @@
+﻿{
+    "@graph": [
+        {
+            "@id": "bdr:NTDAA95D67ECFAB1A7",
+            "noteSource": {
+                "@id": "bdr:MW19801"
+            },
+            "contentLocationStatement": "p. 77",
+            "@type": "Note"
+        },
+        {
+            "@id": "bdr:NTF24F5C4DD8140821",
+            "noteText": {
+                "@language": "en",
+                "@value": "L. v.d. Kuijp has verified that the date of death of the subject was January, 1364. Also the unrecorded teacher Ston tshul may have been Btsun pa Ston tshul, Sa-skya scholar and author of at least two works on Tshad ma."
+            },
+            "@type": "Note"
+        },
+        {
+            "@id": "bdr:EV00B857229AAA1BF0",
+            "onYear": {
+                "@value": "1364",
+                "@type": "xsd:gYear"
+            },
+            "eventWhen": {
+                "@value": "1364",
+                "@type": "http://id.loc.gov/datatypes/edtf/EDTF"
+            },
+            "@type": "PersonDeath"
+        },
+        {
+            "@id": "bdr:NMBC6B2B658373DD69",
+            "rdfs:label": {
+                "@language": "bo-x-ewts",
+                "@value": "bsam yas lung mang ba/"
+            },
+            "@type": "PersonTitle"
+        },
+        {
+            "@id": "bdr:P1583",
+            "personStudentOf": [
+                {
+                    "@id": "bdr:P403"
+                },
+                {
+                    "@id": "bdr:P2JM190"
+                },
+                {
+                    "@id": "bdr:P1588"
+                },
+                {
+                    "@id": "bdr:P2JM186"
+                },
+                {
+                    "@id": "bdr:P2JM187"
+                },
+                {
+                    "@id": "bdr:P144"
+                },
+                {
+                    "@id": "bdr:P1584"
+                },
+                {
+                    "@id": "bdr:P4312"
+                },
+                {
+                    "@id": "bdr:P1226"
+                },
+                {
+                    "@id": "bdr:P2JM183"
+                },
+                {
+                    "@id": "bdr:P2JM191"
+                },
+                {
+                    "@id": "bdr:P2085"
+                },
+                {
+                    "@id": "bdr:P4860"
+                },
+                {
+                    "@id": "bdr:P2JM188"
+                },
+                {
+                    "@id": "bdr:P2JM189"
+                },
+                {
+                    "@id": "bdr:P1586"
+                },
+                {
+                    "@id": "bdr:P66"
+                },
+                {
+                    "@id": "bdr:P2JM184"
+                },
+                {
+                    "@id": "bdr:P1587"
+                },
+                {
+                    "@id": "bdr:P2349"
+                },
+                {
+                    "@id": "bdr:P2JM185"
+                }
+            ],
+            "personName": [
+                {
+                    "@id": "bdr:NM6E5B539FC14B81F1"
+                },
+                {
+                    "@id": "bdr:NMP15830MDOTYM4"
+                },
+                {
+                    "@id": "bdr:NM9C8DEB6FF7CEC129"
+                },
+                {
+                    "@id": "bdr:NMBC6B2B658373DD69"
+                },
+                {
+                    "@id": "bdr:NME2F236C649A1C622"
+                },
+                {
+                    "@id": "bdr:NMF942A81B0A73E4AA"
+                },
+                {
+                    "@id": "bdr:NMFB54273C9888828B"
+                },
+                {
+                    "@id": "bdr:NMED06EB68CC7F2B88"
+                },
+                {
+                    "@id": "bdr:NM27A9E6B52AE2AFD6"
+                },
+                {
+                    "@id": "bdr:NMP1583GRDFHZ9W"
+                }
+            ],
+            "note": [
+                {
+                    "@id": "bdr:NTABB307C08F280C09"
+                },
+                {
+                    "@id": "bdr:NTE1C8F77F6AFC308F"
+                },
+                {
+                    "@id": "bdr:NTDAA95D67ECFAB1A7"
+                },
+                {
+                    "@id": "bdr:NTB25CDA7F05164BEA"
+                },
+                {
+                    "@id": "bdr:NT93D338F6A346B51D"
+                },
+                {
+                    "@id": "bdr:NTF24F5C4DD8140821"
+                }
+            ],
+            "@type": "Person",
+            "personTeacherOf": [
+                {
+                    "@id": "bdr:P2JM192"
+                },
+                {
+                    "@id": "bdr:P2JM199"
+                },
+                {
+                    "@id": "bdr:P8764"
+                },
+                {
+                    "@id": "bdr:P2JM197"
+                },
+                {
+                    "@id": "bdr:P7091"
+                },
+                {
+                    "@id": "bdr:P2JM207"
+                },
+                {
+                    "@id": "bdr:P6861"
+                },
+                {
+                    "@id": "bdr:P2JM205"
+                },
+                {
+                    "@id": "bdr:P2JM202"
+                },
+                {
+                    "@id": "bdr:P8528"
+                },
+                {
+                    "@id": "bdr:P2JM193"
+                },
+                {
+                    "@id": "bdr:P2JM200"
+                },
+                {
+                    "@id": "bdr:P2JM194"
+                },
+                {
+                    "@id": "bdr:P314"
+                },
+                {
+                    "@id": "bdr:P2JM203"
+                },
+                {
+                    "@id": "bdr:P2JM204"
+                },
+                {
+                    "@id": "bdr:P8784"
+                },
+                {
+                    "@id": "bdr:P2JM201"
+                },
+                {
+                    "@id": "bdr:P2JM198"
+                },
+                {
+                    "@id": "bdr:P5911"
+                },
+                {
+                    "@id": "bdr:P2JM196"
+                },
+                {
+                    "@id": "bdr:P8527"
+                },
+                {
+                    "@id": "bdr:P2JM195"
+                },
+                {
+                    "@id": "bdr:P9KT1"
+                },
+                {
+                    "@id": "bdr:P2JM206"
+                }
+            ],
+            "kinWith": [
+                {
+                    "@id": "bdr:P1584"
+                },
+                {
+                    "@id": "bdr:P1585"
+                }
+            ],
+            "owl:sameAs": [
+                {
+                    "@id": "viaf:29615126"
+                },
+                {
+                    "@id": "wd:Q1708503"
+                },
+                {
+                    "@id": "viaf:5817155566441013380003"
+                },
+                {
+                    "@id": "http://api.treasuryoflives.org/resource/TOLP2882"
+                }
+            ],
+            "personEvent": [
+                {
+                    "@id": "bdr:EVDD9AB2BD104D0A7D"
+                },
+                {
+                    "@id": "bdr:EV00B857229AAA1BF0"
+                },
+                {
+                    "@id": "bdr:EV81A442B676BCDB2A"
+                }
+            ],
+            "hasFather": {
+                "@id": "bdr:P1584"
+            },
+            "skos:prefLabel": [
+                {
+                    "@language": "zh-hans",
+                    "@value": "隆钦热降巴·赤墨俄色"
+                },
+                {
+                    "@language": "bo-x-ewts",
+                    "@value": "klong chen rab 'byams pa dri med 'od zer/"
+                }
+            ],
+            "hasParent": [
+                {
+                    "@id": "bdr:P1584"
+                },
+                {
+                    "@id": "bdr:P1585"
+                }
+            ],
+            "tmp:associatedCentury": {
+                "@value": "14",
+                "@type": "xsd:integer"
+            },
+            "associatedTradition": {
+                "@id": "bdr:TraditionNyingma"
+            },
+            "hasMother": {
+                "@id": "bdr:P1585"
+            },
+            "tmp:entityScore": {
+                "@value": "6747",
+                "@type": "xsd:integer"
+            },
+            "personGender": {
+                "@id": "bdr:GenderMale"
+            }
+        },
+        {
+            "@id": "bdr:NM6E5B539FC14B81F1",
+            "rdfs:label": {
+                "@language": "bo-x-ewts",
+                "@value": "rgyal sras thugs mchog rtsal/"
+            },
+            "@type": "PersonSecretInitiatoryName"
+        },
+        {
+            "@id": "bdr:NTABB307C08F280C09",
+            "noteText": {
+                "@language": "en",
+                "@value": "biodata\n\nSubsequent main lineage holders include lha btsun chen po/ gter chen 'gyur med rdo rje/ 'bri gung rin chen phun tshogs/ rig 'dzin 'jigs med gling pa/ mi 'gyur nam mkha'i rdo rje/ 'jam dbyangs mkhyen brtse'i dbang po\n\nAmong them, 'jigs med gling pa received the nye brgyud via direct vision of klong chen pa.  'jigs med gling pa passed his lineage to rdo grub phrin las 'od zer, who passed it to mi 'gyur nam mkha' rdo rje, who in turn had a vision of klong chen pa and received the yang tig from him."
+            },
+            "noteSource": {
+                "@id": "bdr:MW27401"
+            },
+            "contentLocationStatement": "251",
+            "@type": "Note"
+        },
+        {
+            "@id": "bdr:NTE1C8F77F6AFC308F",
+            "noteText": {
+                "@language": "en",
+                "@value": "Teachers (not recorded):\nSlob-dpon Dbang-ye, Ston-tshul, Khro-phu-ba, Rin-po-che Za-lung-pa (Zhang Tshal-pa'i Gdams ngag and Rgod-tshang-pa's teachings)\n1319. Takes rab-byung vows from the abbot of Bsam-yas Bsam-grub-rin-chen.\n1326. Enrolls in Gsang-phu Ne'u-thog for formal studies with Mkhan-rabs 15 Slob-dpon Btsan-rgod-pa and Mkhan-rabs 16 Bla-brang Chos-dpal-rgyal-mtshan.\n1338. Comes to Snye-phu Shug-gseb and teaches Snying thig."
+            },
+            "@type": "Note"
+        },
+        {
+            "@id": "bdr:EVDD9AB2BD104D0A7D",
+            "onYear": {
+                "@value": "1308",
+                "@type": "xsd:gYear"
+            },
+            "eventWhere": {
+                "@id": "bdr:G967"
+            },
+            "eventWhen": {
+                "@value": "1308",
+                "@type": "http://id.loc.gov/datatypes/edtf/EDTF"
+            },
+            "@type": "PersonBirth"
+        },
+        {
+            "@id": "bdr:NMP15830MDOTYM4",
+            "rdfs:label": {
+                "@language": "bo-x-ewts",
+                "@value": "kun mkhyen klong chen rab 'byams/"
+            },
+            "@type": "PersonPrimaryTitle"
+        },
+        {
+            "@id": "bdr:NM9C8DEB6FF7CEC129",
+            "rdfs:label": {
+                "@language": "bo-x-ewts",
+                "@value": "klong chen rab 'byams pa dri med 'od zer/"
+            },
+            "@type": "PersonPrimaryTitle"
+        },
+        {
+            "@id": "bdr:NTB25CDA7F05164BEA",
+            "noteSource": {
+                "@id": "bdr:MW19822"
+            },
+            "contentLocationStatement": "p. 6",
+            "@type": "Note"
+        },
+        {
+            "@id": "bdr:NME2F236C649A1C622",
+            "rdfs:label": {
+                "@language": "zh-hans",
+                "@value": "隆钦热降巴·赤墨俄色"
+            },
+            "@type": "PersonPrimaryName"
+        },
+        {
+            "@id": "bdr:NMF942A81B0A73E4AA",
+            "rdfs:label": {
+                "@language": "bo-x-ewts",
+                "@value": "tshul khrims blo gros/"
+            },
+            "@type": "PersonPersonalName"
+        },
+        {
+            "@id": "bdr:NMFB54273C9888828B",
+            "rdfs:label": {
+                "@language": "bo-x-ewts",
+                "@value": "klong chen pa/"
+            },
+            "@type": "PersonCommonName"
+        },
+        {
+            "@id": "bdr:NMED06EB68CC7F2B88",
+            "rdfs:label": {
+                "@language": "bo-x-ewts",
+                "@value": "dri med 'od zer/"
+            },
+            "@type": "PersonPrimaryName"
+        },
+        {
+            "@id": "bdr:EV81A442B676BCDB2A",
+            "eventWhere": {
+                "@id": "bdr:G521"
+            },
+            "@type": "PersonOccupiesSeat"
+        },
+        {
+            "@id": "bdr:NM27A9E6B52AE2AFD6",
+            "rdfs:label": {
+                "@language": "bo-x-ewts",
+                "@value": "klong chen rab 'byams/"
+            },
+            "@type": "PersonTitle"
+        },
+        {
+            "@id": "bdr:NMP1583GRDFHZ9W",
+            "rdfs:label": {
+                "@language": "bo-x-ewts",
+                "@value": "theg pa rgyal po'i rnal 'byor pa sna tshogs rang grol/"
+            },
+            "@type": "PersonTitle"
+        },
+        {
+            "@id": "bdr:NT93D338F6A346B51D",
+            "noteText": {
+                "@language": "en",
+                "@value": "biography\ndates: 1308-1363"
+            },
+            "noteSource": {
+                "@id": "bdr:MW25268"
+            },
+            "contentLocationStatement": "v. 2, pp.104-112",
+            "@type": "Note"
+        }
+    ],
+    "@context": {
+        "aut": "http://purl.bdrc.io/ontology/ext/auth/",
+        "bdan": "http://purl.bdrc.io/annotation/",
+        "bf": "http://id.loc.gov/ontologies/bibframe/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "tbr": "http://purl.bdrc.io/ontology/toberemoved/",
+        "bdou": "http://purl.bdrc.io/ontology/ext/user/",
+        "rsh": "http://purl.bdrc.io/shacl/core/shape/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "bdac": "http://purl.bdrc.io/anncollection/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "wd": "http://www.wikidata.org/entity/",
+        "srcpe": "https://sakyaresearch.org/persons/",
+        "oa": "http://www.w3.org/ns/oa#",
+        "bdgup": "http://purl.bdrc.io/graph-nc/user-private/",
+        "mbbt": "http://mbingenheimer.net/tools/bibls/",
+        "dila": "http://purl.dila.edu.tw/resource/",
+        "sh": "http://www.w3.org/ns/shacl#",
+        "tmp": "http://purl.bdrc.io/ontology/tmp/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "text": "http://jena.apache.org/text#",
+        "bda": "http://purl.bdrc.io/admindata/",
+        "bdgu": "http://purl.bdrc.io/graph-nc/user/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "bdg": "http://purl.bdrc.io/graph/",
+        "ola": "https://openlibrary.org/authors/",
+        "srct": "https://sakyaresearch.org/topics/",
+        "f": "java:io.bdrc.libraries.sparql.functions.",
+        "srcpl": "https://sakyaresearch.org/places/",
+        "adm": "http://purl.bdrc.io/ontology/admin/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "bdo": "http://purl.bdrc.io/ontology/core/",
+        "iiif2": "http://iiif.io/api/presentation/2#",
+        "adr": "http://purl.bdrc.io/resource-nc/auth/",
+        "iiif3": "http://iiif.io/api/presentation/3#",
+        "viaf": "http://viaf.org/viaf/",
+        "bds": "http://purl.bdrc.io/ontology/shapes/core/",
+        "eftr": "http://purl.84000.co/resource/core/",
+        "bdr": "http://purl.bdrc.io/resource/",
+        "as": "http://www.w3.org/ns/activitystreams#",
+        "bdu": "http://purl.bdrc.io/resource-nc/user/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "srcd": "https://sakyaresearch.org/deities/",
+        "ldp": "http://www.w3.org/ns/ldp#",
+        "srcs": "https://sakyaresearch.org/sources/",
+        "srcl": "https://sakyaresearch.org/literary_forms/",
+        "@vocab": "http://purl.bdrc.io/ontology/core/"
+    }
+}

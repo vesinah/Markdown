@@ -1,0 +1,865 @@
+﻿{
+    "indexed":  {
+                    "date-parts":  [
+                                       [
+                                           2025,
+                                           3,
+                                           27
+                                       ]
+                                   ],
+                    "date-time":  "2025-03-27T03:07:22Z",
+                    "timestamp":  1743044842180,
+                    "version":  "3.40.3"
+                },
+    "edition-number":  "1",
+    "reference-count":  159,
+    "publisher":  "Oxford University PressNew York",
+    "isbn-type":  [
+                      {
+                          "type":  "print",
+                          "value":  "0197642926"
+                      },
+                      {
+                          "type":  "print",
+                          "value":  "9780197642924"
+                      },
+                      {
+                          "type":  "electronic",
+                          "value":  "9780197642955"
+                      }
+                  ],
+    "license":  [
+                    {
+                        "start":  {
+                                      "date-parts":  [
+                                                         "2023 11 1"
+                                                     ],
+                                      "date-time":  "2023-11-01T00:00:00Z",
+                                      "timestamp":  1698796800000
+                                  },
+                        "content-version":  "unspecified",
+                        "delay-in-days":  0,
+                        "URL":  "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+                    }
+                ],
+    "content-domain":  {
+                           "domain":  [
+
+                                      ],
+                           "crossmark-restriction":  false
+                       },
+    "short-container-title":  [
+
+                              ],
+    "published-print":  {
+                            "date-parts":  [
+                                               [
+                                                   2023,
+                                                   11,
+                                                   1
+                                               ]
+                                           ]
+                        },
+    "abstract":  "\u003cjats:title\u003eAbstract\u003c/jats:title\u003e\n               \u003cjats:p\u003eThis chapter explores the story of Dandin in the Bay of Bengal and Burma through unchartered literary sources. It also problematizes the ambivalent categorization of Dandin’s Sanskrit classic in a cultural landscape dominated by Pali Buddhism. The elusive presence of Dandin’s Mirror in the region is traced in the records of monastic manuscript collections and elite monastic curricula, where it occupies a prominent position. Pali adaptations of the Mirror, mainly Sangharakkhita’s Lucid Poetics and its commentaries, are also examined in connection to local Buddhist scholarship in Pali and Burmese, showing the influence of Dandin’s system of ornaments beyond the realm of poetry. The final section explores the destiny of Dandin’s Mirror in tandem with Dharmadasa’s work on riddles, the Adornment of the Connoisseur’s Mouth (Vidagdhamukhamaṇḍana). This chapter shows that, by adapting certain features of the Mirror’s discourse on poetics to philosophy, pedagogy, and ritual, the Mirror achieved a paracanonical status among Buddhist literati in the Bay of Bengal.\u003c/jats:p\u003e",
+    "DOI":  "10.1093/oso/9780197642924.003.0008",
+    "type":  "book-chapter",
+    "created":  {
+                    "date-parts":  [
+                                       [
+                                           2023,
+                                           3,
+                                           23
+                                       ]
+                                   ],
+                    "date-time":  "2023-03-23T03:49:11Z",
+                    "timestamp":  1679543351000
+                },
+    "page":  "362-411",
+    "source":  "Crossref",
+    "is-referenced-by-count":  0,
+    "title":  [
+                  "A Faultless Science"
+              ],
+    "prefix":  "10.1093",
+    "author":  [
+                   {
+                       "given":  "Aleix",
+                       "family":  "Ruiz-Falqués",
+                       "sequence":  "first",
+                       "affiliation":  [
+
+                                       ],
+                       "role":  [
+                                    {
+                                        "role":  "author",
+                                        "vocabulary":  "crossref"
+                                    }
+                                ]
+                   }
+               ],
+    "member":  "286",
+    "reference":  [
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-515"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-516"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-517"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-518"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-519"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-520"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-521"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-522"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-523"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-524"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-525"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-526"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-527"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-528"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-529"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-530"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-531"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-532"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-533"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-534"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-535"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-536"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-537"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-538"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-539"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-540"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-541"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-542"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-543"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-544"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-545"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-546"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-547"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-548"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-549"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-550"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-551"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-552"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-553"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-554"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-555"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-556"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-557"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-558"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-559"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-560"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-561"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-562"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-563"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-564"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-565"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-566"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-567"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-568"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-569"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-570"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-571",
+                          "unstructured":  "CSCD = Chaṭṭhasaṅgāyana CD, online version (www.tipitaka.org)"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-572"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-573"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-574"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-575"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-576"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-577"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-578"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-579"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-580"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-581"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-582"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-583"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-584"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-585"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-586"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-587"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-588"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-589"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-590",
+                          "unstructured":  "Ali, Daud.  2012. “Indian Historical Writing, c. 600–c. 1400.” In The Oxford History of Historical Writing, edited by S. Foot and C. Robinson, Vol. 2. Oxford: Oxford University Press, 80–101."
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-591",
+                          "article-title":  "Temporality, Narration and the Problem of History: A View from Western India c. 1100–1400.",
+                          "author":  "",
+                          "year":  "2013",
+                          "journal-title":  "The Indian Economic and Social History Review"
+                      },
+                      {
+                          "year":  "1985",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-592"
+                      },
+                      {
+                          "volume-title":  "Muṃ Rveḥ mahārājavaṅ kyau [Celebrated chronicle of Monywe Sayadaw],",
+                          "year":  "2013",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-593"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-594",
+                          "article-title":  "Three Pali Works Revisited.",
+                          "author":  "",
+                          "year":  "2007",
+                          "journal-title":  "Journal of the Pali Text Society"
+                      },
+                      {
+                          "journal-title":  "Journal of the Royal Asiatic Society of Great Britain and Ireland",
+                          "article-title":  "The Namakkára, with Translation and Commentary.",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-595"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-596",
+                          "article-title":  "Über Sanskrit-Bildung und Schulsystem in Birma und Ceylon.",
+                          "author":  "",
+                          "year":  "1963",
+                          "journal-title":  "Wiener Zeitschrift für die Kunde Südasiens und Archiv für indische Philosophie"
+                      },
+                      {
+                          "volume-title":  "Pāli nīti texts of Burma: Dhammanīti, Lokanīti, Mahārahanīti",
+                          "year":  "1981",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-597"
+                      },
+                      {
+                          "volume-title":  "The Pali Literature of Burma",
+                          "year":  "1909",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-598"
+                      },
+                      {
+                          "volume-title":  "The Connected Discourses of the Buddha",
+                          "year":  "2000",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-599"
+                      },
+                      {
+                          "volume-title":  "A Comprehensive Manual of Abhidhamma",
+                          "year":  "2010",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-600"
+                      },
+                      {
+                          "volume-title":  "The Numerical Discourses of the Buddha: A Translation of the Aṅguttara Nikāya",
+                          "year":  "2012",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-601"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-602",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Bronner, Yigal.  2007. “This Is No Lotus, It Is a Face: Poetics as Grammar in Daṇḍin’s Investigation of the Simile.” In The Poetics of Grammar and the Metaphysics of Sound and Sign, edited by Sergio La Porta and David Shulman. Leiden: Brill, 91–108.",
+                          "DOI":  "10.1163/ej.9789004158108.i-377.38"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-603",
+                          "article-title":  "A Question of Priority: Revisiting the Debate on the Relative Chronology of Daṇḍin and Bhāmaha.",
+                          "author":  "",
+                          "year":  "2012",
+                          "journal-title":  "Journal of Indian Philosophy"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-604",
+                          "article-title":  "Literary Culture on the Burma–Manipur Frontier in the Eighteenth and Nineteenth Centuries.",
+                          "author":  "",
+                          "year":  "2011",
+                          "journal-title":  "The Medieval History Journal"
+                      },
+                      {
+                          "volume-title":  "Nirvana and Other Buddhist Felicities: Utopias of the Pali Imaginaire",
+                          "year":  "1998",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-605"
+                      },
+                      {
+                          "article-title":  "The Origin of Pāli as a Language Name in Medieval Theravāda Literature.",
+                          "year":  "2004",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-606"
+                      },
+                      {
+                          "year":  "2018",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-607"
+                      },
+                      {
+                          "journal-title":  "Nagoya Studies in Indian Culture and Buddhism: Saṃbhāṣā",
+                          "year":  "2022",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-608"
+                      },
+                      {
+                          "year":  "2014",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-609"
+                      },
+                      {
+                          "volume-title":  "A Glossary of Indian Figures of Speech",
+                          "year":  "1971",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-610"
+                      },
+                      {
+                          "volume-title":  "Rewriting Buddhism: Pali Literature and Monastic Reform in Sri Lanka, 1153–1270",
+                          "year":  "2020",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-611"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-612",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Gornall, Alastair M., and Justin Henry. 2017. “Beautifully Moral: Cosmopolitan Issues in Medieval Pāli Literary Theory.” In Sri Lanka at the Crossroads of History, edited by Zoltán Biedermann and Alan Strathern. London: UCL Press, 77–93.",
+                          "DOI":  "10.2307/j.ctt1qnw8bs.9"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-613",
+                          "unstructured":  "Gornall, Alastair M., and Aleix Ruiz-Falqués. 2019. “Scholars of Premodern Pali Buddhism.” In Brill´s Encyclopedia of Buddhism, Vol. II: Lives, edited by Jonathan Silk, Richard Bowring, Vincent Eltschinger, and Michael Radich. Leiden: Brill: 420–36."
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-614",
+                          "unstructured":  "Griffiths, Arlo, and D. Christian Lammerts. 2015. “Epigraphy: Southeast Asia.” In Brill’s Encyclopedia of Buddhism, Vol. I: Literature and Languages, edited by Jonathan A. Silk et al. Leiden: Brill, 988–1009."
+                      },
+                      {
+                          "volume-title":  "Kávya-Sangraha: A Sanscrit Anthology, Being a Collection of the Best Smaller Poems in the Sanskrit Language",
+                          "year":  "1847",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-615"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-616",
+                          "article-title":  "Ratnākaraśānti’s Vidagdhavismāpana: An Old and Unpublished Work on Sanskrit Riddles,",
+                          "author":  "",
+                          "year":  "2002",
+                          "journal-title":  "Bulletin d’Études Indiennes"
+                      },
+                      {
+                          "journal-title":  "Wiener Zeitschrift Für Die Kunde Südasiens / Vienna Journal of South Asian Studies",
+                          "year":  "2013",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-617"
+                      },
+                      {
+                          "volume-title":  "Poraṇadīpanī kyamḥ",
+                          "year":  "1930",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-618"
+                      },
+                      {
+                          "volume-title":  "Sanskrit Poetry from Vidyākara’s “Treasury.”",
+                          "year":  "1965",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-619"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-620",
+                          "unstructured":  "409Huxley, Andrew.  1990. “How Buddhist Is Theravāda Buddhist Law? A Survey of Legal Literature in Pali-Land.” In The Buddhist Forum, Vol. 1, edited by T. Skorupski London: School of Oriental and African Studies, 1990, 41–85."
+                      },
+                      {
+                          "year":  "2000",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-621"
+                      },
+                      {
+                          "year":  "1959",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-622"
+                      },
+                      {
+                          "volume-title":  "Vidagdhamukhamaṇḍanam Śrīmadkāvyatītrha-Viracitayā Subodhinī-Samākhyayā Ṭīkayā Samalaṅkṛtam",
+                          "year":  "1889",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-623"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-624",
+                          "doi-asserted-by":  "crossref",
+                          "unstructured":  "Kirichenko, Alexey.  2015. “Dynamics of Monastic Mobility and Networking in the Seventeenth- and Eighteenth-Century Upper Burma.” In Buddhist Dynamics in Premodern and Early Modern Southeast Asia, edited by D. Christian Lammerts, 333–372. Singapore: Institute of Southeast Asian Studies Press.",
+                          "DOI":  "10.1355/9789814519076-013"
+                      },
+                      {
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-625"
+                      },
+                      {
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-626"
+                      },
+                      {
+                          "year":  "1957",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-627"
+                      },
+                      {
+                          "volume-title":  "Das Vidagdhamukhamaṇḍana des Dharmadāsa, ein Lehrbuch der Rätselkunde, 1. u. 2. Kapitel.",
+                          "year":  "1968",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-628"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-629",
+                          "article-title":  "A Note on Pāli Nīti Literature.",
+                          "author":  "",
+                          "year":  "2016",
+                          "journal-title":  "International Journal of Sanskrit Research"
+                      },
+                      {
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-6301"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-630",
+                          "article-title":  "Narratives of Buddhist Legislation: Textual Authority and Legal Heterodoxy in Seventeenth through Nineteenth-Century Burma.",
+                          "author":  "",
+                          "year":  "2013",
+                          "journal-title":  "Journal of Southeast Asian Studies"
+                      },
+                      {
+                          "volume-title":  "Buddhist Law in Burma: A History of Dhammasattha Texts and Jurisprudence, 1250–1850",
+                          "year":  "2018",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-631"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-632",
+                          "article-title":  "Specialists for Ritual, Magic, and Devotion: The Court Brahmins (Punna) of the Konbaung Kings (1752–1885).",
+                          "author":  "",
+                          "year":  "2005",
+                          "journal-title":  "Journal of Burma Studies"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-633",
+                          "article-title":  "Das Cāndra-Vyākaraṇa.",
+                          "author":  "",
+                          "year":  "1895",
+                          "journal-title":  "Nachrichten von der Königlichen Gesellschaft der Wissenschaften zu Göttingen: Philologisch-historische Klasse aus dem Jahre 1895"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-634",
+                          "unstructured":  "Luce, G. H., and Tin Htway. 1976. “A 15th Century Inscription and Library at Pagan, Burma.” In Malalasekera Commemoration Volume, edited by O. H. de A. Wijesekera. Colombo: The Malalasekera Commemoration Volume Editorial Committee, 203–56."
+                      },
+                      {
+                          "volume-title":  "The Pāli Literature of Ceylon",
+                          "year":  "1958",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-635"
+                      },
+                      {
+                          "year":  "1955",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-636"
+                      },
+                      {
+                          "article-title":  "Gandha-vaṃsa",
+                          "year":  "1886",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-637"
+                      },
+                      {
+                          "volume-title":  "Brui.hap nisya sac [New nissaya of Bṛhaj].",
+                          "year":  "1908",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-638"
+                      },
+                      {
+                          "year":  "1956",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-639"
+                      },
+                      {
+                          "year":  "1962",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-640"
+                      },
+                      {
+                          "year":  "1910",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-641"
+                      },
+                      {
+                          "year":  "1972",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-642"
+                      },
+                      {
+                          "volume-title":  "Maṇisāramañjūsāṭīkā-nissaya-sac",
+                          "year":  "1997",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-643"
+                      },
+                      {
+                          "volume-title":  "Maṇisāramañjūsāṭīkā-nissaya-sac",
+                          "year":  "1985",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-644"
+                      },
+                      {
+                          "volume-title":  "Kaccāyana and Kaccāyana-vutti",
+                          "year":  "2013",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-645"
+                      },
+                      {
+                          "volume-title":  "Census of the Exact Sciences in Sanskrit, Series A",
+                          "year":  "1981",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-646"
+                      },
+                      {
+                          "volume-title":  "The Language of the Gods in the World of Men: Sanskrit, Culture, and Power in Premodern India",
+                          "year":  "2006",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-647"
+                      },
+                      {
+                          "year":  "1914",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-648"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-649",
+                          "unstructured":  "Raghavan, V.  1960. “The Vidagdhamukhamaṇḍana of Dharmadāsa.” In Professor P. K. Gode Commemoration Volume, edited by H. L. Hariyappa and M. M. Patkar. Poona: Oriental Book Agency, 224."
+                      },
+                      {
+                          "volume-title":  "New Catalogus Catalogorum: An Alphabetical Register of Sanskrit and Allied Works and Authors",
+                          "year":  "1949",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-650"
+                      },
+                      {
+                          "year":  "1971",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-651"
+                      },
+                      {
+                          "volume-title":  "Namakkāra-ṭīkā",
+                          "year":  "1956",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-652"
+                      },
+                      {
+                          "volume-title":  "The Catalogue of Siamese Pali Literature from Wat Thongnopphakhun’s Mural Paintings",
+                          "year":  "2019",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-653"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-654",
+                          "article-title":  "The Budhavaktramaṇḍana of Kika.",
+                          "author":  "",
+                          "year":  "1949",
+                          "journal-title":  "The Journal of the Ganganath Jha Research Institute"
+                      },
+                      {
+                          "volume-title":  "Śrīdharmadāsasūriviracitaṃ Vidagdhamukhamaṇḍanam",
+                          "year":  "1928",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-655"
+                      },
+                      {
+                          "volume-title":  "Kāvyālaṅkāra of Bhāmaha",
+                          "year":  "1970",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-656"
+                      },
+                      {
+                          "volume-title":  "Le Dhamma par le jeu d’esprit et de la langue: Le Vajirasāratthasaṅgaha, texte pāli du Nord de la Thaïlande (XVIe siècle)",
+                          "year":  "2018",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-657"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-658",
+                          "article-title":  "Ajitasena’s Indebtedness to Dharmadāsa.",
+                          "author":  "",
+                          "year":  "1980",
+                          "journal-title":  "Journal of the Oriental Institute, M. S. University of Baroda"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-659",
+                          "unstructured":  "Sen, Sukumar.  1950. “Prākṛta and Vernacular Verses in Dharmadāsa’s Vidagdhamukhamaṇḍana.” In Siddha-Bhāratī or the Rosary of Indology: Presenting 108 Original Papers on Indological Subjects in Honour of the 60th Birthday of Dr. Siddheshwar Varma, edited by Vishva Bandhu, Vol. 1. Hoshiarpur: V. V. R. Institute P. \u0026 P. Organisation, 257–64."
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-660",
+                          "unstructured":  "Skilling, Peter.  2009. “Pieces in the Puzzle: Sanskrit Literature in Pre-Modern Siam.” In Buddhism and Buddhist Literature of South-East Asia: Selected Papers, edited by Claudio Cicuzza. Materials for the Study of the Tripiṭaka Volume V. Bangkok and Lumbini: Fragile Palm Leaves Foundation; Lumbini International Research Institute, 27–45."
+                      },
+                      {
+                          "volume-title":  "Saddanīti: La grammaire palie d’Aggavaṃsa",
+                          "year":  "1928",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-661"
+                      },
+                      {
+                          "volume-title":  "Abhidhánappadípiká; or Dictionary of the Páli Language by Moggallána Théró, with English and Sinhalese Interpretations, Notes and Appendices. Fifth Edition. Revised and Edited by his Pupil Waskaduwe Wachissara Nayaka Thero",
+                          "year":  "1938",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-662"
+                      },
+                      {
+                          "volume-title":  "History of Buddhism in India",
+                          "year":  "1970",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-663"
+                      },
+                      {
+                          "volume-title":  "The Royal Orders of Burma, A.D. 1598–1885. Part Four, A.D. 1782–1787",
+                          "year":  "1986",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-664"
+                      },
+                      {
+                          "volume-title":  "The Royal Orders of Burma, A.D. 1598–1885, Part Seven, A.D. 1811–1819",
+                          "year":  "1988",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-665"
+                      },
+                      {
+                          "volume-title":  "Palm-leaf Manuscript Catalogue of Thar-lay (South) Monastery",
+                          "year":  "2006",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-666"
+                      },
+                      {
+                          "year":  "1969",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-667"
+                      },
+                      {
+                          "year":  "1994",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-668"
+                      },
+                      {
+                          "volume-title":  "Vidagdhamukhamaṇḍana, evaṃ antarnāvik o bahirnāvik ślokacaẏ, vaṅgabhāṣāẏ paẏārādicchande arther sahit",
+                          "year":  "1859",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-669"
+                      },
+                      {
+                          "volume-title":  "Pali Metre: A Contribution to the History of Indian Literature",
+                          "year":  "1967",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-670"
+                      },
+                      {
+                          "year":  "2002",
+                          "author":  "",
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-671"
+                      },
+                      {
+                          "key":  "2024050911385081500_oso-9780197642924-chapter-8-bibItem-672",
+                          "unstructured":  "Yamanaka, Yukio.  2008. “Die Bedeutung der Abhidhānappadīpikā in der Pāli-Literatur.” In Orientalistik im 21 Jahrhundert: welche Vergangenheit, welche Zukunft, edited by Rainer Brunner, Jens Peter Laut, and Maurus Reinkowski, 1–9. Freiburg: Deutsche Morgenländische Gesellschaft. Online publication: http://menadoc.bibliothek.uni-halle.de/menalib/content/titleinfo/4090553 [last accessed July 12, 2020]."
+                      }
+                  ],
+    "container-title":  [
+                            "A Lasting Vision"
+                        ],
+    "original-title":  [
+
+                       ],
+    "language":  "en",
+    "link":  [
+                 {
+                     "URL":  "https://academic.oup.com/book/chapter-pdf/57459298/oso-9780197642924-chapter-8.pdf",
+                     "content-type":  "unspecified",
+                     "content-version":  "vor",
+                     "intended-application":  "similarity-checking"
+                 }
+             ],
+    "deposited":  {
+                      "date-parts":  [
+                                         [
+                                             2024,
+                                             5,
+                                             9
+                                         ]
+                                     ],
+                      "date-time":  "2024-05-09T11:46:15Z",
+                      "timestamp":  1715255175000
+                  },
+    "score":  1,
+    "resource":  {
+                     "primary":  {
+                                     "URL":  "https://academic.oup.com/book/45656/chapter/398026950"
+                                 }
+                 },
+    "subtitle":  [
+                     "Dandin and Dharmadasa in Burma and Bengal"
+                 ],
+    "short-title":  [
+
+                    ],
+    "issued":  {
+                   "date-parts":  [
+                                      [
+                                          2023,
+                                          11,
+                                          1
+                                      ]
+                                  ]
+               },
+    "ISBN":  [
+                 "0197642926",
+                 "9780197642924",
+                 "9780197642955"
+             ],
+    "references-count":  159,
+    "URL":  "https://doi.org/10.1093/oso/9780197642924.003.0008",
+    "relation":  {
+
+                 },
+    "subject":  [
+
+                ],
+    "published":  {
+                      "date-parts":  [
+                                         [
+                                             2023,
+                                             11,
+                                             1
+                                         ]
+                                     ]
+                  }
+}
