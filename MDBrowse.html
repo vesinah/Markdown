@@ -1510,6 +1510,8 @@ body.sb-closed #sb-resizer {
 
 /* ================= Mobile Sidebar Ergonomics (<= 768px) ================= */
 @media (max-width: 768px) {
+  /* INVARIANT: Must use transform: translateX(-100%) rather than negative margin-left
+     to prevent -87px layout shift on #main and .menubar */
   #sidebar {
     position: fixed !important;
     top: 0 !important;
@@ -12749,6 +12751,15 @@ function isNodeVisible(n) {
   return true;
 }
 
+
+/**
+ * @fileoverview Tree UI Rendering Engine (File Navigation & Catalog Tree)
+ * @invariants
+ * 1. Root Node (.node-row.node-root) on mobile must remain two-tier to prevent
+ *    truncation of the 6,066-file research catalog title ("คลังงานวิจัย (Research Archive)").
+ * 2. Mobile drawer touch targets must maintain min-height >= 36px.
+ * 3. Indentation: padLeft = isRoot ? 8 : (8 + n.depth * 14).
+ */
 
 
 function renderTree(container) {

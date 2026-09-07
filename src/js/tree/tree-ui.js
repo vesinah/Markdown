@@ -1,3 +1,12 @@
+/**
+ * @fileoverview Tree UI Rendering Engine (File Navigation & Catalog Tree)
+ * @invariants
+ * 1. Root Node (.node-row.node-root) on mobile must remain two-tier to prevent
+ *    truncation of the 6,066-file research catalog title ("คลังงานวิจัย (Research Archive)").
+ * 2. Mobile drawer touch targets must maintain min-height >= 36px.
+ * 3. Indentation: padLeft = isRoot ? 8 : (8 + n.depth * 14).
+ */
+
 import { State } from '../core/state.js';
 import { isPdf, isImg, isCode, isMd, esc, cmpNodes } from './tree-node.js';
 import { isNodeVisible, getFilterVisiblePaths } from './tree-exp.js';

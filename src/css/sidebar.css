@@ -862,6 +862,8 @@ body.sb-closed #sb-resizer {
 
 /* ================= Mobile Sidebar Ergonomics (<= 768px) ================= */
 @media (max-width: 768px) {
+  /* INVARIANT: Must use transform: translateX(-100%) rather than negative margin-left
+     to prevent -87px layout shift on #main and .menubar */
   #sidebar {
     position: fixed !important;
     top: 0 !important;
