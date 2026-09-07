@@ -143,6 +143,8 @@ export function buildToc(contentEl, tocPanel, tocList) {
 
       if (typeof window !== 'undefined' && window.innerWidth <= 768) {
         document.body.classList.remove('toc-mobile-open');
+        const mbbToc = document.getElementById('mbb-toc');
+        if (mbbToc) mbbToc.classList.remove('active');
       }
     }
   };
