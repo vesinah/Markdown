@@ -243,3 +243,63 @@ graph LR
   - สร้างไฟล์ดัชนีต้นไม้ `docs/catalog.json`
   - ชอร์ตคัต 1-Click: `อัปเดตเอกสาร_และขึ้นคลาวด์.bat` สำหรับซิงค์และ `git push` ในคลิกเดียว
 
+---
+
+## 7. สถาปัตยกรรมโหมดสมาร์ทโฟน (Mobile Architecture & Smartphone UX/UI Ergonomics)
+
+ระบบรองรับการใช้งานบนสมาร์ทโฟนแนวตั้ง (Smartphone Portrait Mode ~360px–430px) ได้อย่างสมบูรณ์แบบ ภายใต้หลักการ **Zero Desktop Regression** (หน้าจอเดสก์ท็อปคงฟังก์ชันและการแสดงผลเดิม 100%):
+
+### 7.1 แถบนำทางด้านล่างถนัดมือนิ้วโป้ง (Mobile Bottom Navigation Bar — "Thumb-Zone Dock")
+- โครงสร้าง: `#mobile-bottom-bar` สไตล์ **Glassmorphism Frosted Dock** (`backdrop-filter: blur(20px)`) ลอยตัวเหนือขอบล่างหน้าจอ
+- การจัดวาง 5 เมนูหลักตามการเอื้อมนิ้วโป้งมือเดียว:
+  1. 📁 **ไฟล์ (Files)**: เปิด-ปิด Drawer รายการเอกสารและคลังงานวิจัย
+  2. 📑 **สารบัญ (TOC)**: เปิด-ปิด Drawer สารบัญหัวข้อของบทความที่กำลังอ่าน
+  3. 🎨 **ธีม/อักษร (Theme/Font)**: เปิด Bottom Sheet Card ปรับธีมสีและขนาดตัวอักษร
+  4. 🔖 **บุ๊คมาร์ค (Bookmarks)**: เปิด Drawer รายการที่คั่นหน้าและคอมเมนต์
+  5. 🐾 **บ้านแมว (Pet Sanctuary)**: สลับเปิด-ปิดโมดัลจัดการสัตว์เลี้ยง
+- **Smart Auto-Hide**: ตรวจจับ Scroll Position ใน `#md-scroll-pane`:
+  - เมื่อผู้ใช้เลื่อนหน้าจอลง (`scroll delta > 10px`) แถบจะสไลด์ซ่อนตัวลงด้านล่างอัตโนมัติ (`transform: translateY(100%)`) เพื่อคืนพื้นที่อ่านหนังสือเต็มจอ (Full Immersion)
+  - เมื่อผู้ใช้เลื่อนหน้าจอขึ้น (`scroll delta < -10px`) แถบจะสไลด์กลับขึ้นมาทันที
+
+### 7.2 ระบบ Mobile Drawers & Backdrop Overlay
+- **Universal Backdrop (`#mobile-backdrop`)**: 
+  - ฉากหลังทึบโปร่งแสงสีดำพร้อมเบลอ (`rgba(0, 0, 0, 0.45)` + `backdrop-filter: blur(4px)`)
+  - ค่า `z-index: 105` แสดงผลเมื่อมี Drawer ใดเปิดอยู่ แตะที่ใดก็ได้เพื่อปิด Drawer ทั้งหมดทันที
+- **Sidebar Drawer (`#sidebar`)**:
+  - กำหนดเป็น `position: fixed !important; top: 0; bottom: 0; left: 0; width: min(350px, 88vw) !important; z-index: 125 !important;`
+  - สไลด์เข้า-ออกจากซ้ายด้วย `transform: translateX(-100%)` และ `translateX(0)`
+  - **ข้อพึงระวังสำคัญทางเทคนิค**: ห้ามใช้ `margin-left` ติดลบแบบเดสก์ท็อปในโหมดมือถือเด็ดขาด เพราะจะดึงคอนเทนเนอร์ `#main` และ `.menubar` หลุดออกนอกขอบจอทางซ้าย (-87px Layout Shift)
+- **TOC Drawer (`#toc-panel`)**:
+  - กำหนดเป็น `position: fixed !important; top: 0; right: 0; bottom: 0; left: auto; width: min(340px, 86vw) !important; z-index: 125 !important;`
+  - สไลด์เข้า-ออกจากขวาด้วย `transform: translateX(100%)` และ `translateX(0)`
+  - บังคับ `#toc-header` และ `#toc-full-view` ให้เป็น `display: flex !important;` เพื่อ override คลาส `.toc-mini` จากเดสก์ท็อป ป้องกันปัญหาเนื้อหาสารบัญหดหาย
+- **Theme & Font Controls**:
+  - แปลงจากแถบแนวนอนยาวบนเดสก์ท็อป เป็น **Bottom Sheet Card Modal** ลอยตัวเหนือแถบล่าง แสดงพาเล็ตต์สี 13 ธีมแบบวงกลม 30px จัดเรียง 2 แถว และปุ่ม `A-`, `A`, `A+` ขนาดสัมผัสง่าย
+
+### 7.3 การ์ดส่วนหัวคลังงานวิจัย (Research Archive Two-Tier Root Card)
+- ในไซด์บาร์ไฟล์ ส่วนหัวของคลังงานวิจัย (`คลังงานวิจัย (Research Archive)` มี 6,066 ไฟล์ และ 1,223 โฟลเดอร์) ถูกออกแบบเป็น **Two-Tier Root Card** บนมือถือ:
+  - **Tier 1 (แถวบน)**: แสดงไอคอนสมุด 📖 และชื่อเต็ม `คลังงานวิจัย (Research Archive)` แบบ 100% ไม่ถูกตัดทอน (Zero Truncation)
+  - **Tier 2 (แถวล่าง)**: แสดงชิปสถิติ `[📁 1,223]` และ `[📄 6,066]` เป็นรูปแคปซูลสวยงาม พร้อมจัดวางปุ่มรีเฟรช `⟳` และปุ่มปิด `✕` ไว้ชิดขวา
+- เมื่อแตะที่เอกสารงานวิจัยใดๆ ในคลัง ระบบจะเปิดอ่านเนื้อหาและปิดไซด์บาร์อัตโนมัติ (`closeAllMobileDrawers()`)
+
+### 7.4 การป้องกันปัญหาเบราว์เซอร์สมาร์ทโฟน (Mobile Browser Hardening)
+- **iOS Safari Auto-Zoom Prevention**: กำหนดช่องค้นหา `.sb-search-input` ให้มี `font-size: 16px` เสมอ เพื่อป้องกัน Mobile Safari ซูมหน้าจอขณะแตะพิมพ์
+- **Dynamic Viewport Height (`100dvh`)**: ใช้ `100dvh` แทน `100vh` เพื่อปรับความสูงตาม Address Bar และ Toolbars ของ Safari/Chrome ที่ยืดหดได้
+- **Safe Area Insets**: รองรับขอบจอโค้ง, รอยบาก (Notch), Dynamic Island และแถบ Home Indicator ผ่าน `env(safe-area-inset-top)` และ `env(safe-area-inset-bottom)`
+- **FOUC Prevention**: ฝังคำสั่งในส่วน `<head>` สั่งเพิ่มคลาส `sb-closed` ทันทีตั้งแต่เฟรมแรกหากหน้าจอกว้าง `<= 768px` เพื่อป้องกันภาพกระตุก
+
+---
+
+## 8. ประวัติการพัฒนาและบันทึกการเปลี่ยนแปลง (Development History & Version Changelog)
+
+| เวอร์ชัน | วันที่ / ยุคสมัย | ขอบเขตการพัฒนา | รายละเอียดสำคัญ |
+|---|:---:|---|---|
+| **v1.0** | เริ่มต้น | Monolithic Local Reader | แอปพลิเคชันอ่าน Markdown ไฟล์เดี่ยว (`MDBrowse.html`) ทำงานแบบออฟไลน์ 100% บน Google Chrome รองรับการเลือกโฟลเดอร์ในเครื่องผ่าน File System Access API |
+| **v2.0** | ก.ย. 2026 | Modular Architecture Refactoring | - แตกซอร์สโค้ดจาก Monolith 6,000+ บรรทัด ออกเป็นโมดูลย่อยใน `src/` (core, tree, reader, ui, search, bookmark, vendor)<br>- สร้างไปป์ไลน์บิลด์อัตโนมัติ `build.js`<br>- ติดตั้ง Mozilla PDF.js Canvas Engine รองรับ PDF แบบ In-Memory Worker ปลอดภัยบน `file:///`<br>- รองรับ KaTeX Math, Code Viewer 16 ภาษา, เชิงอรรถสองทิศทาง, และ Bookmark & Highlights |
+| **v2.1** | ก.ย. 2026 | Desktop Pet Sanctuary System | - เพิ่มระบบสัตว์เลี้ยงบนหน้าจอ (Cat Sanctuary) ครบ 4 Milestones (M1–M4)<br>- 6 สายพันธุ์แมว, 15+ ท่าทาง, ระบบสุขอนามัย (Poop & Fly Swarm Physics)<br>- 6-Axis AI Personality Engine และบทสนทนาภาษาไทยบริบทอัจฉริยะ 210+ ข้อความ<br>- ผ่านชุดทดสอบ Opaque-Box E2E Suite ทั้ง 300/300 เคส (100%) |
+| **v2.2** | ก.ย. 2026 | Cloudflare Pages & Research Sync | - ติดตั้งระบบคลาวด์ Dual-Mode รองรับการเปิดอ่านทั้งออฟไลน์และออนไลน์ผ่าน [https://markmakk.pages.dev/](https://markmakk.pages.dev/)<br>- เชื่อมโยงดัชนี "คลังงานวิจัย (Research Archive)" 6,066 รายการ ผ่าน `docs/catalog.json`<br>- แปลงลิงก์อ้างอิงข้ามเอกสารอัตโนมัติ และสร้างสคริปต์ 1-Click Sync & Deploy |
+| **v2.3** | ก.ย. 2026 | Smartphone UI/UX Overhaul & Hotfixes | - **Mobile Bottom Navigation Dock**: แถบควบคุม 5 เมนูด้านล่างสไตล์ Frosted Glass พร้อม Smart Auto-Hide<br>- **Mobile Drawers**: แปลง Sidebar, TOC, Bookmarks, Theme ให้เป็น Slide-in Drawers และ Bottom Sheet<br>- **Hotfix Layout Shift**: แก้ไขบั๊กหน้าจอซ้ายตกขอบ และเมนูบาร์เลื่อนหาย โดยยกเลิกการใช้ `margin-left` ติดลบบนมือถือและบังคับใช้ `transform: translateX(-100%)`<br>- **Hotfix TOC Drawer**: แก้ไขปัญหาสารบัญตกขอบ/หดหาย โดย override คลาส `.toc-mini` บังคับแสดงผลเต็ม<br>- **Research Archive Root Card**: ปรับแต่งการ์ดคลังงานวิจัย 6,066 รายการ เป็นระบบ 2 แถว แสดงชื่อเต็ม 100% พร้อมขยายความกว้างไซด์บาร์เป็น 350px (88vw) |
+
+---
+
+

@@ -57,6 +57,7 @@ The Desktop Pet Subsystem is structured into clean, modular components under src
 | M3 | Interactive Environment, Draggable Props & Pet Control Bar | Features 19–27: Props, physics, Pet Control Bar dock, drag & drop, navigation | M1, M2 | COMPLETED |
 | M4 | Final Milestone: 100% E2E Test Pass & Adversarial Hardening | Features 28–29: Tiers 1-4 test pass, Tier 5 adversarial testing & hardening | E2E, M1, M2, M3 | COMPLETED |
 | M5 | Cloudflare Pages Cloud Deployment & Research Sync | Production live at https://markmakk.pages.dev/, dual-mode remote reader, 1-click sync script | M4 | COMPLETED |
+| M6 | Smartphone UI/UX Transformation & Mobile Ergonomics | Mobile bottom dock, responsive slide-in drawers, 2-tier root card, layout shift hotfix, zero desktop regression | M5 | COMPLETED |
 
 ## Live Deployment Status
 - **Production URL:** [https://markmakk.pages.dev/](https://markmakk.pages.dev/)
