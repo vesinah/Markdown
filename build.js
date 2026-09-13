@@ -629,43 +629,54 @@ $userProfile = [System.Environment]::GetFolderPath('UserProfile')
 $desktopPaths = @(
     [System.Environment]::GetFolderPath('Desktop'),
     (Join-Path $userProfile 'Desktop'),
-    (Join-Path $userProfile 'OneDrive\\\\เดสก์ท็อป'),
-    (Join-Path $userProfile 'OneDrive\\\\Desktop'),
-    '${ROOT.replace(/\\/g, '\\\\')}'
-)
+    (Join-Path $userProfile 'OneDrive\\เดสก์ท็อป'),
+    (Join-Path $userProfile 'OneDrive\\Desktop'),
+    '${ROOT}'
+) | Select-Object -Unique
 
 foreach ($dir in $desktopPaths) {
     if (Test-Path $dir) {
-        $batApp = Join-Path '${ROOT.replace(/\\/g, '\\\\')}' 'มาร์คมาก (แอป).bat'
-        $batBrowser = Join-Path '${ROOT.replace(/\\/g, '\\\\')}' 'มาร์คมาก (เบราว์เซอร์).bat'
+        $batApp = Join-Path '${ROOT}' 'มาร์คมาก (แอป).bat'
+        $batBrowser = Join-Path '${ROOT}' 'มาร์คมาก (เบราว์เซอร์).bat'
 
-        # 1) Standalone App Shortcut ('มาร์คมาก (แอป).lnk')
+        # 1) Primary App Shortcut ('มาร์คมาก.lnk')
+        $lnkMain = Join-Path $dir 'มาร์คมาก.lnk'
+        if (Test-Path $lnkMain) { Remove-Item $lnkMain -Force }
+        $scMain = $WshShell.CreateShortcut($lnkMain)
+        $scMain.TargetPath = $batApp
+        $scMain.WorkingDirectory = '${ROOT}'
+        $scMain.IconLocation = '${appIcoPath},0'
+        $scMain.Description = 'มาร์คมาก — เครื่องมืออ่านไฟล์มาร์คดาวแบบง่าย ๆ'
+        $scMain.WindowStyle = 7
+        $scMain.Save()
+
+        # 2) Standalone App Shortcut ('มาร์คมาก (แอป).lnk')
         $lnkApp = Join-Path $dir 'มาร์คมาก (แอป).lnk'
         if (Test-Path $lnkApp) { Remove-Item $lnkApp -Force }
         $scApp = $WshShell.CreateShortcut($lnkApp)
         $scApp.TargetPath = $batApp
-        $scApp.WorkingDirectory = '${ROOT.replace(/\\/g, '\\\\')}'
-        $scApp.IconLocation = '${appIcoPath.replace(/\\/g, '\\\\')},0'
+        $scApp.WorkingDirectory = '${ROOT}'
+        $scApp.IconLocation = '${appIcoPath},0'
         $scApp.Description = 'มาร์คมาก — แบบแอปสแตนอะโลน (ไม่มีคอมโพเนนต์เบราว์เซอร์)'
         $scApp.WindowStyle = 7
         $scApp.Save()
 
-        # 2) Browser Tab Shortcut ('มาร์คมาก (เบราว์เซอร์).lnk')
+        # 3) Browser Tab Shortcut ('มาร์คมาก (เบราว์เซอร์).lnk')
         $lnkBrowser = Join-Path $dir 'มาร์คมาก (เบราว์เซอร์).lnk'
         if (Test-Path $lnkBrowser) { Remove-Item $lnkBrowser -Force }
         $scBrowser = $WshShell.CreateShortcut($lnkBrowser)
         $scBrowser.TargetPath = $batBrowser
-        $scBrowser.WorkingDirectory = '${ROOT.replace(/\\/g, '\\\\')}'
-        $scBrowser.IconLocation = '${browserIcoPath.replace(/\\/g, '\\\\')},0'
+        $scBrowser.WorkingDirectory = '${ROOT}'
+        $scBrowser.IconLocation = '${browserIcoPath},0'
         $scBrowser.Description = 'มาร์คมาก — เปิดในแท็บเบราว์เซอร์ปกติ'
         $scBrowser.WindowStyle = 7
         $scBrowser.Save()
 
         Write-Host "Updated shortcuts in: $dir"
 
-        # Remove duplicate/legacy shortcuts on desktop
-        if ($dir -ne '${ROOT.replace(/\\/g, '\\\\')}') {
-            @('MDBrowse.lnk', 'มาร์คมาก.lnk') | ForEach-Object {
+        # Clean legacy shortcuts on desktop
+        if ($dir -ne '${ROOT}') {
+            @('MDBrowse.lnk') | ForEach-Object {
                 $legacy = Join-Path $dir $_
                 if (Test-Path $legacy) {
                     Remove-Item -Path $legacy -Force -ErrorAction SilentlyContinue
@@ -690,13 +701,13 @@ try {
 
   // Update .bat launchers
   // 1) Standalone App Launcher (App Mode - no browser toolbar/tabs/address bar)
-  const batAppContent = `@echo off\r\nnetstat -ano | findstr /R /C:":8080 .*LISTENING" >nul\r\nif errorlevel 1 (\r\n  start /B "" npx serve "${ROOT}" -p 8080 --no-clipboard >nul 2>&1\r\n  timeout /t 2 /nobreak >nul\r\n)\r\nstart "" "${chromePath}" --app=${localhostUrl}\r\n`;
+  const batAppContent = `@echo off\r\npowershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "%~dp0scripts\\launch.ps1" -Mode "app"\r\n`;
   fs.writeFileSync(path.join(ROOT, 'มาร์คมาก (แอป).bat'), batAppContent, 'utf8');
   fs.writeFileSync(path.join(ROOT, 'มาร์คมาก.bat'), batAppContent, 'utf8');
   fs.writeFileSync(path.join(ROOT, 'MDBrowse.bat'), batAppContent, 'utf8');
 
   // 2) Browser Tab Launcher (Opens in standard browser tab with full navigation)
-  const batBrowserContent = `@echo off\r\nnetstat -ano | findstr /R /C:":8080 .*LISTENING" >nul\r\nif errorlevel 1 (\r\n  start /B "" npx serve "${ROOT}" -p 8080 --no-clipboard >nul 2>&1\r\n  timeout /t 2 /nobreak >nul\r\n)\r\nstart "" "${chromePath}" "${localhostUrl}"\r\n`;
+  const batBrowserContent = `@echo off\r\npowershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "%~dp0scripts\\launch.ps1" -Mode "browser"\r\n`;
   fs.writeFileSync(path.join(ROOT, 'มาร์คมาก (เบราว์เซอร์).bat'), batBrowserContent, 'utf8');
   fs.writeFileSync(path.join(ROOT, 'MDBrowse_Browser.bat'), batBrowserContent, 'utf8');
 

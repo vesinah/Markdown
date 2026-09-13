@@ -1,0 +1,521 @@
+ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume IV-2/W2, 2017
+26th International CIPA Symposium 2017, 28 August–01 September 2017, Ottawa, Canada
+LINE-DRAWING ENHANCED INTERACTIVE MURAL RESTORATION FOR
+DUNHUANG MOGAO GROTTOES
+X.Y. Fu a, Y. Han a, Z. J. Sun b, X. J. Ma c, *, Y. Q. Xu a, *
+a Academy of Arts & Design, Tsinghua University, Beijing, China – (fuxy15, hanyi14) @mails.tsinghua.edu.cn,
+yqxu@tsinghua.edu.cn
+b Dunhuang Research Academy, Dunhuang, Gansu, China - sunzj@dha.ac.cn
+c Department of Computer Science and Engineering, the Hong Kong University of Science and Technology, Clear Water Bay,
+Kowloon, Hong Kong - mxj@cse.ust.hk
+Commission II
+KEY WORDS: Dunhuang Mogao Grottoes, Mural, Restoration, Line Drawing, Interaction
+ABSTRACT:
+Dunhuang Mogao Grottoes in western China is one of the most famous World Cultural Heritage Sites, known for its glorious Chinese
+Buddhist art spanning a period of 1,000 years. However, it has been suffering from damage and degradation caused by man-made and
+natural factors. In this article, we present a novel line-drawing enhanced interactive system for digital restoration of damaged murals
+in Mogao Grottoes. Our system consists of four components, namely data pre-processing, damaged area selection, line-drawing
+segmentation, and mural restoration. Each component is a hybrid of efficient algorithms and user interactions. We introduce the
+infrastructure and process of using our system, from data capture and collection, database establishment, to interactive restoration. We
+conduct a user study with 15 participants who have varied experiences with and skills on repairing murals and editing images. Results
+and feedback suggest that our system can achieve satisfactory restoration results without overburdening the users. It can benefit both
+experts trained in restoration and amateurs interested in cultural heritage conservation.
+1. INTRODUCTION
+Murals are one of the most valuable heritages for studying
+ancient history, as it preserves a faithful pictorial record of the
+lives and beliefs at the time. Existing murals have given
+archaeologists important insights into the economics, politics,
+religions, and cultures in the past. Dated back to 1,600 years ago,
+the Dunhuang Mogao Grottoes is a shrine of splendid Chinese
+Buddhist artwork spanning a period of 1,000 years with more
+than ten genres of murals and statues (Whitfield et al., 2015).
+Figure 1 shows the exquisite mural of Amitabha Sutra in Mogao
+Grottoes, south wall, Cave 220.
+Unfortunately, most of the existing murals are suffering from
+degradations due to historical or natural reasons, such as
+chemical reaction (Sayre, 1973), water, wind, salt erosion,
+vegetation, and fungal influence (Milanesi et al., 2006). In such Figure 1. Mogao Cave 220, south wall, Amitabha Sutra.
+cases of Dunhuang Mogao Grottoes, which is located in a
+desertification area (Wang et al., 2000), damages found on its instruments, animals, and natural sceneries. Complex content and
+murals include flaking (Ma and Wang, 2014), disruption (Fan et extensive size of damaged areas make it difficult for many
+al., 2009), blister (Chen and Yu, 2008), etc. Researchers have solutions (e.g., (Blazek et al., 2009), (Mastio et al., 2007),
+been using suitable material and techniques to physically repair (Pappas and Pitas, 2000)), using automatic image processing
+some of the flaking, disruption, and blister on Dunhuang murals algorithms like edge extraction, to detect damage and segment
+(Fan et al., 2008) (Fan et al., 2009). However, such physical regions. In such a cases, manual supervision and correction is
+restoration projects aim at controlling and relieving further then necessary, generating intensive and time consuming labour.
+deterioration rather than restoring color and content of murals.
+This is a task that requires exquisite skills and accurate operations Fortunately, there exist line drawings of some of the Dunhuang
+to avoid manual damage to murals. murals on paper (Fraser, 2000) (Cahill et al., 2001). These
+illustrations can serve as valuable references for digital
+Digital restoration represents a repeatable and efficient approach restoration. Built upon these facts, we introduce an infrastructure
+that requires minimal physical interactions with murals. for digitally repairing damaged murals in Dunhuang Mogao
+Dunhuang murals often illustrate a story with complex, non- Grottoes, providing data collection, database establishment, and
+linear composition of many characters, architectures, musical interactive restoration that leverages existing line drawings. Our
+* Corresponding author
+This contribution has been peer-reviewed. The double-blind peer-review was conducted on the basis of the full paper.
+doi:10.5194/isprs-annals-IV-2-W2-99-2017 | © Authors 2017. CC BY 4.0 License. 99
+
+ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume IV-2/W2, 2017
+26th International CIPA Symposium 2017, 28 August–01 September 2017, Ottawa, Canada
+restoration results can serve as references for physical restoration Amano proposed a correlation-based approach to extract the
+and art reproduction of murals. Experimental results show that image description rule from local regions. These methods can
+our system can achieve good interactive experience, both for identify defective areas that are salient and related, but often fail
+experts and amateurs. when distinctions between defects and the image are not obvious.
+In the rest of the paper, we first review related work on mural Large sized images need to be perceptually segmented before
+restoration in Section 2. In section 3, we provide an overview and being processed. There are plenty of advanced techniques to
+details of our line-drawing enhanced interactive system for solve this problem which can be divided into edge-based, region-
+Dunhuang mural restoration. Section 4 shows the validation and based and hybrid segmentation algorithms. Edge-based
+evaluation results of our system with both experts and amateur segmentation rely on the discontinuity and abrupt changes of
+users. In section 5, we discuss the limitation and practical boundaries in gray-scale level (Palmer et al., 1996), and need
+applications of this work, followed by conclusion and future additional algorithms like gap filling and smoothing to close the
+work in Section 6. extracted curves, which would be rather time consuming.
+Region-based segmentation utilize the similar properties of
+2. RELATED WORK pixels in gray or color value to produce meaningful regions.
+Representative technology is seeded region growing algorithm
+Restoration of murals aims at repairing the deteriorated parts (Adams and Bischof, 1994). It groups the pixels according to the
+while maintaining the original condition of murals to the best criteria and given seeds and gains better results than edge-based
+extent. The state-of-art techniques can be divided into physical methods, but the initial seed should be selected accurately.
+restoration and digital restoration. Hybrid segmentation technologies combine multiple methods to
+gain more accurate results. (Fan et al., 2001) proposes a hybrid
+2.1 Physical restoration method by integrating the results of color-edge extraction and
+seeded region growing. (Achanta et al., 2012) introduces the
+Physical restoration concerns controlling and relieving simple linear iterative clustering (SLIC) algorithm, which adapts
+deterioration of a mural. Common techniques include cleaning a k-means clustering approach to efficiently generate superpixels.
+(Carretti et al., 2005), grouting (Baglioni et al., 1997), As for Dunhuang murals, extensive damage areas have destroyed
+reinforcement (Li et al., 2013), desalination (Chen et al., 2009), the integrity of image both in edge and color, traditional methods
+etc. often fail to make satisfactory segmentation results.
+As for Dunhuang Mogao Grottoes, conservators follow the Image inpainting algorithms can be applied to the selected
+principle of keeping the original state of murals when applying regions of interest to reconstruct their structures and fill up the
+restoration. The physical restoration of Dunhuang Mogao pixels with colors closed to the original. Existing inpainting
+Grottoes started in 1951 (Li, 2004). Over the years, conservators algorithms for removing unwanted elements from an image, such
+have developed customized materials, tools, and techniques to as text, logos, and signature, etc., can be based on texture
+handle the different types of damages, such as detachment, synthesis (Efros and Leung, 1999) (Harrison, 2001), Partial
+disruption and flaking (Fan et al., 2008) (Fan et al., 2009). Differential Equation (PDE) (Bertalmio et al., 2003) (Chan and
+Physical restoration requires the conservators to be highly Shen, 2002), given exemplar (Criminisi et al., 2004) (Drori et al.,
+concentrated and skillful to prevent secondary damage, because 2003), or a combination of them (Starck et al., 2005). However,
+direct touch is extremely dangerous especially for murals in very these approaches may not be suitable for mural restoration.
+bad conditions. Texture synthesis, in fact, is more suitable for images with simple
+repeated patterns such as brick walls, feathers, and textiles.
+2.2 Digital Restoration Partial-Differential-Equation-based methods may introduce
+blurry artifacts and thus are less commonly used these days.
+Digital restoration can recover the color and content of murals
+Exemplar-based approaches can remove large objects from a
+with minimal physical interactions. Technical problems of digital
+target image and fill the hole with textures and structure from
+restoration consist of two steps: how to detect or select damaged
+specified exemplars. In this paper, we adapt the exemplar-based
+region, and how to fill the region up with proper pixels.
+method and tailor it to meet the characteristics of Dunhuang
+Underlying algorithms include defect detection, image
+murals.
+segmentation, image inpainting and texture synthesis.
+2.3 Digital Restoration
+Digital restoration can recover the color and content of murals
+with minimal physical interactions. Technical problems of digital
+restoration consist of two steps: how to detect or select damaged
+region, and how to fill the region up with proper pixels.
+Underlying algorithms include defect detection, image
+segmentation, image inpainting and texture synthesis.
+Defects detection aims to separate regions to be fixed from intact
+areas. Traditionally, it is done manually, which is subjective and Figure 2. Interactive system flowchart.
+enervating (Padalkar and Joshi, 2015) (Turakhia et al., 2012).
+Researchers have tried to automate this process, at least partially. 3. INTERACTIVE MURAL RESTORATION
+They exploited color information to locate defects on images
+automatically (Chang et al., 2005) (Amano, 2006) or semi- In this article, we propose a digital mural restoration
+automatically (Giakoumis et al., 2006). For example, Chang’s infrastructure that supports data capturing and processing,
+mechanism makes use of signal filters and structural information. database establishment, and interactive reconstruction for
+This contribution has been peer-reviewed. The double-blind peer-review was conducted on the basis of the full paper.
+doi:10.5194/isprs-annals-IV-2-W2-99-2017 | © Authors 2017. CC BY 4.0 License. 100
+
+ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume IV-2/W2, 2017
+26th International CIPA Symposium 2017, 28 August–01 September 2017, Ottawa, Canada
+the images. We use X-Rite Color Checker to calibrate the digital
+color and panoramic photography for image stitching.
+Resol
+Type Amount Size Camera Lens
+ution
+Multiple
+5760 Canon Canon
+photos 72
+542 * EOS 5D 24-70
+for dpi
+3840 Mark III
+stitching
+Detailed Canon
+Figure 3. System interface. The system consists of a menu bar, 5184 Canon
+photos of 72 24-70
+two vertical split windows and a status bar. 134 * EOS 5D
+selected dpi and
+3456 Mark III
+parts 70-200
+Dunhuang murals. We design the system in a way that it is easy
+to learn and master by both experts and amateurs. Full 8272 Hasselbl HC
+300
+frame 45 * ad H5D- 2.8/80
+dpi
+3.1 Overview of system workflow photos 6200 40 mm
+The interactive restoration system consists of data pre-processing, Table 1. Information of digital mural database.
+damaged area selection, line-drawing segmentation, and mural
+restoration. As stressed above, Dunhuang murals are complex in Line-drawing Database. We digitalize a totally 195 pieces of line
+content and have large amounts of damaged areas, which makes drawings from different sources, such as books and unpublished
+it very difficult for traditional image processing approaches to artwork by Dunhuang artists. These drawings are usually large in
+solve the restoration problem automatically. Thus, we try to size and thus cannot be scanned all at once. Instead, we applied
+involve aids of users by combining interactions with classical the photo stitching technique to combine images of different
+image processing algorithms in each steps and results show that segments into one piece. The line drawings are mostly produced
+our approach gains satisfactory restoration effects, which can’t on Chinese rice paper which is very sensitive to wrinkles, as
+be obtained through traditional ways. shown in Figure 4 (a). The digital copy line drawing may contain
+shades of various intensities as a result of the wrinkles and the
+As illustrated in Figure 2, our system works like this: once the lighting condition. Besides, the lines are drawn in graded ink and
+mural image and its associated line drawing are loaded from the thus are not uniform in color. Some of the lines are even lighter
+database, we align them together semi-automatically by moving, than the shades, making it difficult to extract the meaningful
+rescaling, and rotating the contour illustration overlaid on top of contours using simple algorithms. We observe that the shades
+the mural image. Then users iteratively pick out the deteriorated tend to occupy a large area with slow variation in gray-scale
+regions with the assistance of our system’s damaged area values, while lines are thinner structures and its change of gray
+selection algorithm. The next step is to separate the different value in certain direction is rather rapid. Therefore, we apply a
+visual elements in the mural. The initial segmentation result is median filter to obtain the parts of shadows and wrinkles. Then
+automatically generated using the structure information of the we subtract these areas from the original copy and convert the
+line drawing. It may have flaws, depending on the quality of the remaining to a binary black-and-white image. The result of line
+drawing. Users can interactively refine the segmentation results. drawing digitalization is shown in Figure 4(b).
+After that, users can specify a reference color and a treatment
+method to algorithmically repaint the target area. 3.3 Pre-processing
+Figure 3 shows an overview of our system interface. We keep a In this paper, we use the Bodhisattva of Cave 320 (Figure 4(c))
+simple and clean style to minimize visual distractions. The to demonstrate the process and performance of our proposed
+interface consists of a menu bar, two vertical split screens, and a system. Cave 320 was painted in Tang Dynasty, and is
+status bar. The menu bar lists the six steps listed in Figure 2 in a representative in terms of content and style. Besides, the
+sequential order to guide users through the process. The two Bodhisattva suffers from various degradations to different extent,
+vertical split screens with synchronous scrolling and scaling but the whole figure remains relatively complete and most of the
+enable users to compare the input (left screen) and the output elements are identifiable. We selected the high quality line
+(right screen) after each manipulation. All the user interactions drawing of Bodhisattva in Cave 320 painted by artists from
+with proper visual feedback are conducted on the left screen, such Dunhuang Research Academy in China (Figure 4(a)).
+as clicking and dragging. Users can check the intermediate and
+final states of the restored image on the right screen. The status Before being presented to users, each pair of line drawing and
+bar informs user the progress of the algorithms running in the mural image in our system needs to be aligned together (Figure
+backend of the system. 4(d)). Since the experimental binary image of line drawing
+almost align with the fresco, we apply the simple affine
+3.2 Data Collection and Database Establishment transformation method to optimize the alignment. That is, we
+choose three couples of key points on the fresco image and the
+Our system contains a database of mural images and a database line-drawing image, then we calculate the parameters of affine
+of line drawings. transformation matrix according to the chosen key points, finally
+we apply the affine transformation to the line-drawing image so
+Digital Mural Database. We have captured three types of digital that it can scale, rotate and translate to fit the fresco image. Note
+images of Mogao Cave 156/159/172/254/320, details are shown that if the line-drawing image is very different from the mural
+in Table 1. We build a soft, uniform lighting environment for the image, the alignment turns out to be difficult and not suitable to
+photo taking process to maintain the primitiveness of content on be done through simple algorithms. More advanced algorithms
+This contribution has been peer-reviewed. The double-blind peer-review was conducted on the basis of the full paper.
+doi:10.5194/isprs-annals-IV-2-W2-99-2017 | © Authors 2017. CC BY 4.0 License. 101
+
+ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume IV-2/W2, 2017
+26th International CIPA Symposium 2017, 28 August–01 September 2017, Ottawa, Canada
+Figure 4. (a) Original line drawing on Chinese rice paper; (b) digitalized line drawing after pre-processing; (c) photo of original mural;
+(d) alignment of line drawing and mural image; (e) restoration result.
+can be found in (Szeliski, 2006) (Russell et al., 2011) to deal with explore the potential to automatically adjust the threshold based
+complex cases. on the number of clicks, so that users who have little knowledge
+about setting the threshold in person can also benefit from
+3.4 Damaged Area Selection dynamic configuration.
+With the help of a RGB color-based algorithm running in the 3.5 Line-drawing Segmentation
+backend, users can interactively pick out the damaged areas.
+With a few clicks in a damaged area, all pixels within a certain Region segmentation aims to separate visual components with
+color range of the selected pixels will be automatically different colors and textures. There are plenty of advanced
+highlighted consequently. The color range is determined by a techniques to solve this problem as described in section 2. Our
+threshold, user can manually adjust its value or simply use the expected outputs are segmentations of entire perceptive
+default number. Users can save the result and perform these meaningful regions with clear and occlusive boundaries.
+actions iteratively until they are satisfied with the aggregated Traditional algorithms, like level sets (Tsai et al., 2003) (Paragios
+outcome. and Deriche, 2000) algorithm and k-means (Ray and Turi, 1999)
+approach can’t meet our requirements of segmenting visual
+RGB color-based defects selecting strategy. Setting a threshold components because of the noise information of defects.
+t and click at one pixel pc each time. The color of p is denoted as
+rcgcbc, and the color range C(t) is defined as equation (1). The
+size of the set is calculated as equation (2). The system then
+traverses all pixels in the image and selects ∀p, r g b ∈C(cid:4666)t(cid:4667).
+p p p
+C(cid:4666)t(cid:4667) = (cid:4668) rgb | r ∈ (cid:4670)r -t, r +t(cid:4671), (1)
+c c
+g ∈(cid:3427)g -t, g +t(cid:3431),
+c c
+b ∈ (cid:4670)b -t, b +t(cid:4671)}
+c c
+|C(cid:4666)t(cid:4667)|= (2t+1)3 (2)
+The choice of color range has a direct impact on the effectiveness
+of the selection algorithm. We experiment with different
+parameter configurations to infer a proper t as the default setting.
+We use the precision and recall of selection results to quantize
+the performance. Note that, we want to reduce the false positive
+rate, so that the well-preserved areas would not get treated by
+mistake. As shown in Figure 5 (b) and (c), we achieve the highest
+precision when t=5, and the highest recall when t=7. But we can
+see that when t=7, it introduces more false positive points in the
+face area compared to the hand-labeled ground truth (Figure 5 (a), Figure 5. Experimental results of precision and recall. Figure (a)
+in red and blue frames). Hence, we set the default threshold for shows partial damage selection result when t = 7 (left) and
+color range inference to t=5. We also allow users to manually ground truth (right), defects are shown in green color. For five
+adjust the value before each click according to their needs. Users clicks results, Figure (b) shows the curve of precision and
+can increase the threshold to shorten the processing time or lower Figure (c) shows the curve of recall.
+it to more fine-grained selection. In the future, we will further
+This contribution has been peer-reviewed. The double-blind peer-review was conducted on the basis of the full paper.
+doi:10.5194/isprs-annals-IV-2-W2-99-2017 | © Authors 2017. CC BY 4.0 License. 102
+
+ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume IV-2/W2, 2017
+26th International CIPA Symposium 2017, 28 August–01 September 2017, Ottawa, Canada
+Inspired by the work of (Blazek et al., 2009), who utilize Region Merging. This interaction assigns the same identity to
+ultraviolet spectrum technology to detect defects and laid the components with similar content and texture. Users simply left
+results on the mural image to segment it, we started to segment click on all the regions to merge and confirm at the end to assign
+the line drawing by applying connected-component analysis and a consistent label. They can right click to cancel a selection
+using the results to segment the mural image. There are two before hitting the apply button. Note that regions to merge do not
+classical algorithms for connected-component analysis, i.e., need to be adjacent.
+seed-filling (Vincent and Soille, 1991) and two-pass (Rosenfeld
+and Pfaltz, 1966). Seed-filling is a recursive labeling algorithm. We present the segmentation results before (Figure 6(a)) and
+It starts with a ‘seed’ pixel in the target region and recursively after (Figure 6(d)) performing interactive region splitting and
+expands the label to all the non-border neighbors. This process is merging on the Bodhisattva image. As exemplified the zoom-in
+rather slow, and thus we choose to use the two-pass method in views, we separate the baldachin from the background (Figure
+this work. 6(b)) and combine the hand and arm segments into one
+component (Figure 6(c)).
+Two-pass is a row-by-row labeling algorithm. It scans the input
+binary image twice, and keeps a record of different sets of 3.6 Interactive Restoration
+equivalence classes throughout the process. The first pass is to
+label all the non-border pixels. For each pixel, if none of its To perform interactive restoration, the most essential step of the
+neighbors are marked by a number, it gets a new numerical label. entire process, users need to select a target region, appoint a
+Otherwise, it takes the minimum label of its neighbors. reference region from which the color and texture for inpainting
+Additionally, the algorithm puts the pixel and its neighbors into are borrowed. User can choose to repaint the entire target region
+the same set of equivalence classes. The labels received after the or just the selected damaged region extracted in the previous step.
+first pass are only temporary, since there may be more than one
+labels in one connected region. The second pass is to find the If there is a large well-preserved area in the target region and the
+minimum label in each set of equivalence classes and use it to condition of the remaining parts is not too severe, the target
+replace all the temporary labels of the members in the set. The region can serve as its own reference for restoration. If the target
+original result of region segmentation is shown in Figure 6(a). region is seriously damaged with only some small, discrete areas
+staying intact, it is better to employ another better-preserved
+However, over segmentation may occur due to the complex region with similar content as the reference.
+structure of the mural, while gaps on the contours extracted from
+the line drawing may mistakenly connect separate regions. We extend the exemplar-based image inpainting algorithm
+Therefore, our system provides two operations, region splitting proposed in (Criminisi et al., 2004) in our system. The whole
+and region merging, for users to interactively modify the auto- inpainting process employs a best-filling-first strategy. That is,
+segmentation result. pixels with high-continuation and high-confidence neighbors
+will be painted first. We use a R×R patch window to fill the
+Region Splitting. This function is for users to correct target region (indicated b T) with pixels from the reference
+misconnected components or obtain more detailed sub-regions region (indicated by S)
+for finer operations. To perform this action, user need to first
+point out the problematic region by a left click. The selected As stressed in (Efros and Leung, 1999), the size of the R×R patch
+region and the line(s) with gap(s) inside it get highlighted. Then, window can greatly influence the quality and efficiency of the
+users can close an unwanted gap by drawing a line that starts and inpainting algorithm. A large R can shorten the processing time,
+ends on the existing contour. Later, users can left click on one of but come to drab inpainting results. On the contrary, a small R
+the newly divided sub-regions to assign it a new label. The other may increase the diversity and complexity of the textures but with
+sub-region automatically inherits the old label. low running speed. To find an appropriate patch size for our
+Figure 6. Segmentation result. (a) Original segmentation result; (b) Split baldachin region and background region; (c) Merge arms; (d)
+Optimized segmentation result.
+This contribution has been peer-reviewed. The double-blind peer-review was conducted on the basis of the full paper.
+doi:10.5194/isprs-annals-IV-2-W2-99-2017 | © Authors 2017. CC BY 4.0 License. 103
+
+ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume IV-2/W2, 2017
+26th International CIPA Symposium 2017, 28 August–01 September 2017, Ottawa, Canada
+system, we evaluate the performance and efficiency of the 4000 GPU, 8.00GB RAM for computing. We invited 15 users to
+inpainting algorithm with different R on mural data from 1 to 25. attend our user experiment, and divided them into three groups
+To balance the performance and efficiency and avoid obvious by their backgrounds. We observed and video recorded their
+repetition of small patches appearing in the restoration result, we manipulations, and spontaneous comments throughout the course
+choose the default R = 6. Our system also allows users to adjust of the study.
+the value of R interactively, and provides a small sample result
+for each R to facilitate this process. Group 1: Specialists (P1-P5, 4 males, 1 female, age range 27-45
+years old) who have been working at Dunhuang Research
+Comparing our restoration result (Figure 4(e)) to the original Academy for more than 2 years for physical restoration and
+condition of the mural (Figure 4(c)), nearly all the obvious conservation.
+damages on the Bodhisattva figure are fixed. It shows that our
+system successfully reconstructs the integrated structure and Group 2: Professional designers (P6-P10, 5 females, age range
+harmonious color style of the mural. 23-25 years old) who are experts on image editing with five or
+more years of experiences.
+4. VALIDATION AND EVALUATION
+Group 3: Engineers (P11-P15, 4 males, 1 female, age range 24-
+The approach we proposed leverages unique data, and the 31 years old) who have strong technical background but are less
+workflow is designed particularly for restoring Dunhuang murals. familiar with image processing and editing.
+Our system works in a way where its manipulations are similar
+to those in existing image editing software. 4.3 Study Procedure
+To understand how experts and amateurs may perceive and The study aims to investigate both the user experiences and
+interact with our system, we conduct a preliminary user study of performance of each component of our system. Each participant
+15 users. Five experts from Dunhuang Research Academy in is required to perform four tasks that correspond to the four
+China and 10 amateurs majored in design or engineering are functional operations of our system. The procedure can be
+involved in our experiment. We assess the system from three described as follows:
+aspects: 1) system performance, such as user satisfaction with the
+output; 2) interaction experience, such as learnability, ease of use, Training: Before each session, we show the participants the
+satisfaction, and task completion statues; and 3) interface design. system interface and detailed interactions related to the task on
+the computer. Then we ask them to repeat the operations and try
+4.1 Validation a similar assignment.
+Currently, there is no standard measurement or parameterized Main task: After trained, the participants proceed to the main
+method to validate the correctness of restored Dunhuang murals, task. (Session 1) damaged area selection, i.e., picking out all the
+especially for digital restoration. The validation of our system is damaged regions in the given image; (Session 2) region splitting,
+done by two authoritative experts from Dunhuang Research i.e., separating the given area into two regions; (Session 3) region
+Academy in China. One is a practical artist who has been merging, i.e., combining two or three pre-determined areas; and
+studying and facsimileing Dunhuang murals for years, the other (Session 4) interactive restoration, i.e., repairing a given region
+one is an associate research fellow from The Conservation by specifying the reference and patch size. We recorded all the
+Research Institute of Dunhuang Research Academy. They user interactions and took screenshots of the participants’ results
+conclude three principles to validate restoration results according in each session.
+to the standard ones for physical restoration.
+Rating: Upon the completion of each task, participants rate the
+1. Originality. That means representative features should corresponding system component for its learnability, ease of use,
+remain unchanged in the aspect of cultural heritage and level of satisfaction on a five-point Likert Scale. We also
+conservation; interview them to collect their comments and feedback,
+2. Integrity. Spectators should feel the paintings are especially in comparison with traditional restoration and other
+integrated when appreciating; image-processing or graphics editing tools that they have used
+3. Recognizability. The restoration traces should be before.
+identified by experienced observation or instrumental
+detection.
+Learn Interaction Satisfaction
+They validate the digital results produced by our system mean 4.87 3.73 3.73
+Session1
+according to the principles. They clarify that our overall effect is sd 0.34 0.93 0.93
+acceptable and reliable with the features of originality, integrity, mean 4.00 3.60 3.87
+and recognizability, partially beyond the limitation of physical Session2
+sd 1.10 1.02 1.09
+restoration by repainting the missing part. From aspects of art
+mean 4.60 4.20 4.00
+aesthetic, they comment that the repainted effects correspond to Session3
+sd 0.61 0.98 0.97
+practical painting knowledge and techniques, and the texture
+mean 4.33 3.73 3.93
+produced by flat-coating simulating and line-drawing Session4
+sd 0.70 0.68 0.93
+overlapping are reasonable and naturally presented.
+mean 4.45 3.82 3.88
+Overall
+4.2 Experiment Setup and Participants sd 0.89 0.88 0.94
+Our system is built with Python and Qt. It runs in the environment Table 2. User rating for the system. Session 1-4 refer to
+of Ubuntu 12.0.4 on a 14-inch Thinkpad-T430 laptop, within an damaged area selection, region splitting, region merging and
+Intel® Core™ i7-3520M @ 2.90GHz CPU, Intel® HD Graphics interactive restoration.
+This contribution has been peer-reviewed. The double-blind peer-review was conducted on the basis of the full paper.
+doi:10.5194/isprs-annals-IV-2-W2-99-2017 | © Authors 2017. CC BY 4.0 License. 104
+
+ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume IV-2/W2, 2017
+26th International CIPA Symposium 2017, 28 August–01 September 2017, Ottawa, Canada
+4.4 Evaluation Results trained in restoration and amateurs interested in cultural heritage
+conservation.
+Overall, participants’ reactions and feedback were positive,
+Table 2 shows the mean and standard deviation of rating scores In the future, we will improve this work in several directions.
+of learnability, ease of use, satisfaction and the overall rating. All First, we will apply our system to more mural images from
+the participants considered the system very easy to learn (Avg. = different dynasties and with different damage conditions. Second,
+4.45) and the interactions fairly intuitive (Avg. = 3.82). They we will extend our system to support collaborative mural
+were quite satisfied with the results (Avg. = 3.88). restoration. Third, we plan to improve the current interaction
+functions, especially for the region splitting task. In addition, we
+Participants found our digital mural restoration system quite will add more image-editing related operations, such as dragging
+unique within the use of line drawings. They suggested the and layering, revocation, etc., to improve the interaction
+feasibility of our system for two purposes: 1) assisting experts to experiences.
+perform professional physical restoration and protection, in a
+way that allows experts to preview the texture and color of crack ACKNOWLEDGEMENTS
+virtually in advance before heading to physical tasks; 2)
+providing an engaging, explorative experience for amateurs This work is supported by the National Basic Research Program
+without the restraint from rigorous academic restoration; of China under Grant No. 2012CB725300 and the National
+Natural Science Foundation of China under Grant No. 61232013,
+5. DISCUSSION 61373072. The authors thank La Tu, Wen Wei, Juan Du, Yanting
+Chen for their support.
+Limitation. Although the overall performance of our system is
+good according to the evaluation and validation results, it still has
+some limitations. REFERENCES
+First of all, the use of line drawing for mural restoration is one of Achanta, R., Shaji, A., Smith, K., Lucchi, A., Fua, P., Susstrunk,
+the novel parts of our approach, however, it may also become the S., 2012. SLIC superpixels compared to state-of-the-art
+bottleneck, as the quality and quantity of line drawing available superpixel methods. IEEE Transactions on Pattern Analysis and
+affect the performance and scalability of our system. The second Machine Intelligence, 34(11), pp. 2274–2282.
+limitation is the tradeoff between efficiency and quality. Since it
+is difficult to achieve restoration results with good quality Adams, F. and Bischof, L., 1994. Seeded region growing. IEEE
+completely automatically, we have introduced many user Transactions on Pattern Analysis and Machine Intelligence,
+interactions to guide the process. However, some of the 16(6), pp. 641-647.
+interactions rely on subjective judgment, such as damage
+selection and reference appointment. It may take time for users Amano, T., 2006. Correlation based image defect detection. 18th
+to gain enough experiences to provide confident opinions rather Int. Conf. Pattern Recognit, 1(1), pp. 18–21.
+quickly. Third, it may be challenging to invite multiple people to
+collaboratively restore a mural, as their choices of system Baglioni, P., Dei, L., Pique, F., Sarti, G., Ferroni, E., 1997. New
+configuration and manual intervention at each step may lead to qutogenous lime-based grouts used in the conservation of lime-
+very different results. How to combine individual results into a based wall paintings. Stud. Conserv, 42(1), pp. 43–54.
+mural of consistent style and effect will be a tough task.
+Bertalmio, M., Vese, L., Sapiro, G. and Osher, S., 2003.
+Potential Extension. Digital restoration of murals is a long-term Simultaneous structure and texture image inpainting. IEEE Trans.
+task. The whole infrastructure can be extended to incorporate Image Process, 12(8), pp. 882–889.
+new features and applications. For example, we can take
+advantage of crowdsourcing to collect line drawing. It can make Blazek, J., Zitová, B., Benes, M. and Hradilová, J., 2009. Fresco
+the whole process more cost-effective and attract more people to restoration digital image processing approach. 17th Eur. Signal
+appreciate the beauty of Dunhuang murals. One of the practical Process. Conf. (EUSIPCO 2009), Eusipco, pp. 1210–1214.
+applications of our work is to demonstrate the system in Art
+museums, inviting visitors to help restore murals. Furthermore, Cahill, J., Silbergeld, J. and Tang, K., 2001. Chinese Art and
+we can put the system online to involving the general public in Authenticity. Bull. Am. Acad. Arts Sci, 55(1), pp. 17–36.
+preserving the treasure. Our system can also serve as an
+interactive platform that supports creativity and learning. Artists Carretti, E., Salvadori, B., Baglioni, P. and Dei, L., 2005.
+can create their own style of mural. Children can play scrawl Microemulsions and micellar solutions for cleaning fresco
+games with mural fragments and learn about Dunhuang culture surfaces. Studies in Conservation, 1, pp. 50.
+at the same time.
+Chan, T. F. and Shen, J., 2002. Mathematical Models for local
+6. CONCLUSION AND FUTURE WORK non-texture inpainting. SIAM, J. Appl. Math, 62(3), pp. 1019-
+1043.
+In this article, we present a novel line-drawing and pattern-
+enhanced infrastructure that supports digital restoration of Chang, R. C., Sie, Y. L., Chou, S. M. and Shih, T. K., 2005. Photo
+damaged murals in Dunhuang Mogao Grottoes, western China. defect detection for image inpainting. Seventh IEEE Int. Symp.
+We describe each part of the proposed infrastructure with Multimed, pp. 403–407.
+illustrations and examples, from data capture and pre-processing,
+database establishment, to interactive restoration via a system Chen, G., Fan, Z., Yu, Q., Su, B., Li, Y., Qiao, H., Tang, W.,
+that integrates user interactions with algorithms. The results of a 2009. Primary test of desalination to treat the disrupted wall
+preliminary user study show that our system enable more painting in Cang Jie Temple of Baishui, Shaanxi Province.
+efficient mural restoration with good quality for both experts Dunhuang Research, 6, pp. 6.
+This contribution has been peer-reviewed. The double-blind peer-review was conducted on the basis of the full paper.
+doi:10.5194/isprs-annals-IV-2-W2-99-2017 | © Authors 2017. CC BY 4.0 License. 105
+
+ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume IV-2/W2, 2017
+26th International CIPA Symposium 2017, 28 August–01 September 2017, Ottawa, Canada
+Chen, G. and Yu, Z., 2008. Test for blister and soluble salt in Palmer, P., Dabis, H. and Kittler, J., 1996. A performance
+powdering and the layer of plaster for the wall -painting in Cave measure for boundary detection algorithms. Computer Vision
+351 at Mogao Grottoes. Dunhuang Research, 6, pp. 39-45+119- and Image Understanding, 63(3), pp. 476-494.
+120+116.
+Pappas, M. and Pitas, I., 2000. Digital color restoration of old
+Criminisi, A., Pérez, P. and Toyama, K., 2004. Region filling and paintings. IEEE Trans. Image Process, 9(2), pp. 291–294.
+object removal by exemplar-based image inpainting. IEEE Trans.
+Image Process. 13(9), pp. 1200–1212. Paragios, N. and Deriche, R., 2000. Geodesic active contours and
+level sets for the detection and tracking of moving objects. IEEE
+Drori, I., Cohen, D. and Yeshurun, H., 2003. Fragment-based Transactions on pattern analysis and machine intelligence, 22(3),
+image completion. ACM Trans. Graph, 22(3), pp. 303. pp. 266-280.
+Efros, A. A. and Leung, T. K., 1999. Texture synthesis by non- Ray, S. and Turi, R. H., 1999. Determination of number of
+parametric sampling. Comput. Vision. Proc. Seventh IEEE Int. clusters in k-means clustering and application in colour image
+Conf, 2(2), pp. 1033–1038. segmentation. Proceedings of the 4th international conference on
+advances in pattern recognition and digital techniques, pp. 137-
+Fan, J., Yau, D. K. Y., Elmagarmid, A. K., Aref, W. G., 2001. 143.
+Automatic image segmentation by integrating color-edge
+extraction and seeded region growing. IEEE Transactions on Rosenfeld, A. and Pfaltz, J. L., 1966. Sequential operations in
+Image Processing, 10(10), pp. 1454-1466. digital picture processing. Journal of the ACM,13(4), pp. 471–
+494.
+Fan, Z. X., Chen, G. Q., Su, B. M., Li, R. F., Qiao, H., Tang, W.,
+2009. The testing study for repairing the disruption wall paintings Russell, B., Sivic, J., Ponce, J., Dessales, H., 2011. Automatic
+in Cave 98 at Mogao Grottoes. Dunhuang Research, 6, pp. 4- alignment of paintings and photographs depicting a 3D scene.
+7+120+125. IEEE International Conference on Computer Vision Workshops,
+pp. 545-552.
+Fan, Z. X., Rickerby, S., Shekede, L., Qiao, H., Tang, W., Yang,
+J.J., 2008. The technique measurement for repairing the mural - Sayre, E. V., 1973. Investigation of Italian frescoes, their
+paintings in Cave 85 at Mogao Grottoes. Dunhuang Research, 6, materials, deterioration and treatment. Application of science in
+pp. 19-22. examination of works of art-proceedings of the seminar: June 15-
+19, 1970, conducted by the research laboratory, Museum of Fine
+Fraser, S. E., 2000. Formulas of creativity: artist’s sketches and Arts, Boston, Massachussetts, 1973, pp. 176-181.
+techniques of copying at Dunhuang. Artibus Asiae 59(3/4), pp.
+189–224. Starck, J. L., Elad, M., Donoho, D. L., 2005. Image
+decomposition via the combination of sparse representations and
+Giakoumis, I., Nikolaidis, N. and Pitas, I., 2006. Digital image a variational approach. IEEE Trans. Image Process, 14(10), pp.
+processing techniques for the detection and removal of cracks in 1570-1582.
+digitized paintings. Image Process. IEEE, 15(1), pp. 178–188.
+Szeliski, R., 2006. Image Alignment and Stitching: A Tutorial.
+Harrison, P., 2001. A non-hierarchical procedure for re-synthesis Found. Trends® Comput. Graph. Vis, 2(1), pp. 1–104.
+of complex textures. Proc. WSCG, 190–197.
+Tsai, A., Yezzi, A., Wells, W., Tempany, C., Tucker, D., Fan, A.,
+Li, J. M., Zhang, H., Fan, Z. X., He, X., He, S. M., et al., 2013. Grimson, W. E., Willsky, A., 2003. A shape-based approach to
+Investigation of the renewed diseases on murals at Mogao the segmentation of medical imagery using level sets. IEEE
+Grottoes. Heritage Science, 1(1), pp. 31. Transactions on Medical Imaging, 22(2), pp. 137–154.
+Li, Z. X., 2004. Sixty years on the conservation of the Dunhuang Turakhia, N., Shah, R. and Joshi, M., 2012. Automatic crack
+Grottoes. Dunhuang Research, 3, pp. 10-26+111. detection in heritage site images for image inpainting. Proc.
+Eighth Indian Conf. Comput. Vision, Graph. Image Process.
+Ma, Z. F. and Wang, W. F., 2014. On the materials and flaking ICVGIP ’12, pp. 1–8.
+of the wall paintings in Mogao Cave 44. Dunhuang Research, 5,
+pp. 108-118. Vincent, L. and Soille, P., 1991. Watershed in digital spaces:an
+efficient algorithm based on immersion simulation. IEEE Trans.
+Mastio, A. D., Cappellini, V., Caldelli, R., Rosa, A. D. and Piva, Pattern Anal. Mach. Intell, 13(6), pp. 583–598.
+A., 2007. Virtual restoration and protection of cultural heritage
+images. In Digital Signal Processing, 15th IEEE International Wang, W. F., Wang, T., Zhang, W. M., Zhang, G. B., Qiu, F.,
+Conference, pp. 471-474 Zhan, H. T, 2000. Study on the design of a comprehensive sand
+drift control system at Mogao Grottoes, Dunhuang. Arid Land
+Milanesi, C., Baldi, F., Vignani, R., Ciampolini, F., Faleri, C. and Geography, 20(4), pp. 409-414.
+Cresti, M., 2006. Fungal deterioration of medieval wall fresco
+determined by analysing small fragments containing copper. Int. Whitfield, R., Whitfield, S. and Agnew, N., 2015. Cave Temples
+Biodeterior. Biodegrad, 57(1), pp. 7–13. of Mogao at Dunhuang: Art History on the Silk Road (2nd. Ed.) .
+Getty Publications.
+Padalkar, M. G. and Joshi, M. V., 2015. Auto-inpainting heritage
+scenes: a complete framework for detecting and infilling cracks
+in images and videos with quantitative assessment. Mach. Vis.
+Appl, 26(2-3), pp. 317–337.
+This contribution has been peer-reviewed. The double-blind peer-review was conducted on the basis of the full paper.
+doi:10.5194/isprs-annals-IV-2-W2-99-2017 | © Authors 2017. CC BY 4.0 License. 106

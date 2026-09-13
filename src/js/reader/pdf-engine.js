@@ -11,7 +11,14 @@ export const PDFViewer = {
   async load(file) {
     this.unload();
     try {
-      const arrayBuffer = await file.arrayBuffer();
+      let arrayBuffer;
+      if (typeof file === 'string') {
+        const resp = await fetch(file);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${resp.statusText}`);
+        arrayBuffer = await resp.arrayBuffer();
+      } else {
+        arrayBuffer = await file.arrayBuffer();
+      }
       const blob = new Blob([arrayBuffer], { type: 'application/pdf' });
       this.currentUrl = URL.createObjectURL(blob);
       if (this.frame) {

@@ -1,0 +1,19 @@
+{
+  "project": "2026-09-13_การวิจัยชาดกเปรียบเทียบและสืบสวนจำนวน550_547",
+  "last_updated": "2026-09-13T03:10:00",
+  "status": "gap_filling_completed_clean_text_verified",
+  "total_sources_registered": 268,
+  "total_active_extracted_texts": 275,
+  "sources_verified_pdf": 254,
+  "extracted_text_bytes": 59079251,
+  "quality_audit": {
+    "clean_text_rate": "98.5%",
+    "corrupted_ocr_purged": 14,
+    "pristine_uoft_editions_integrated": [
+      "Tome 1",
+      "Tome 2",
+      "Tome 3",
+      "Tome 4"
+    ]
+  }
+}

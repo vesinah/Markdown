@@ -27,16 +27,16 @@ echo.
 
 echo [3/3] ตรวจสอบการเปลี่ยนแปลงและนำขึ้น GitHub...
 cd /d "%~dp0"
-git config core.longpaths true
-git status --porcelain > "%temp%\git_status_check.txt"
-set /p GIT_CHANGES=<"%temp%\git_status_check.txt"
+set "STATUS_SIZE=0"
+git status --porcelain > "%temp%\git_status_check.txt" 2>nul
+for %%F in ("%temp%\git_status_check.txt") do set "STATUS_SIZE=%%~zF"
 del "%temp%\git_status_check.txt" 2>nul
 
-if "%GIT_CHANGES%"=="" (
+if "%STATUS_SIZE%"=="0" (
   echo ⚡ ข้อมูลและเอกสารทั้งหมดเป็นเวอร์ชันล่าสุดแล้ว ไม่พบการเปลี่ยนแปลงใหม่
 ) else (
   echo 📦 กำลังบันทึกการเปลี่ยนแปลง (git commit)...
-  git add docs/ catalog.json index.html MDBrowse.html _headers scripts/
+  git add docs/ catalog.json index.html MDBrowse.html _headers scripts/ src/ build.js *.bat *.lnk
   git commit -m "Auto-sync research output [%date% %time%]"
   echo 🚀 กำลังส่งข้อมูลไปยัง GitHub (git push origin master)...
   git push origin master

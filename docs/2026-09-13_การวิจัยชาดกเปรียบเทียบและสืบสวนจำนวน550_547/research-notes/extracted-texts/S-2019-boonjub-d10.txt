@@ -1,0 +1,334 @@
+Practice-Based Research in Digital Arts: A Case
+Study of Wat Phumin, Nan Province, Thailand
+Tawipas Pichaichanarong
+Suan Sunandha International School of Arts, Suan Sunandha Rajabhat University,
+Nakhon Pathom Campus, Thailand
+E-mail: tawipas.pi@ssru.ac.th
+ABSTRACT
+Thai mural paintings have played a significant role in Thai society since The
+Sukhothai Kingdom period (1238-1438 AD) until the present. Wattana Boonjub
+(2009) points out that Mural painting was used for teaching the Thai people in the
+past. Throughout history, temples have become a crucial part of Thai' lives; for
+example, Wat Phumin in Nan Province. Wat Phumin has exceptional architecture,
+beautiful visual presentations of Buddhist storytelling on the walls which depict
+scenes from the Buddhist Jataka tales, and scenes of everyday life in Nan. These
+unique characteristics have attracted many visitors to this temple over the years.
+Also, when those interested visit Wat Phumin, they experience this temple as a
+Museum. Loïc Tallon et al. (2008) suggests that the museum experience provides
+an appropriate situation for learning history in an unconventional setting. As a
+result, previous research titled “Visual Research Practices on Thai Lanna Mural
+Painting: A Case Study of Wat Phumin, Nan Province” was presented at The 4th
+International Conference for Asia Pacific Arts Studies (ICAPAS 2016). The results
+indicated that the information concerning the Lanna mural paintings inside the
+temples was overwhelming. However, no directions are facilitating Thai and
+foreign visitors in viewing and understanding at the first episode of storytelling on
+Lanna mural paintings inside Wat Phumin. Therefore, this research is the result of
+finding a solution to facilitating visitors in viewing Buddhist Jataka tales through
+digital arts and digital technology (such as responsive web design, QR codes, etc.)
+with practice-based design research.
+Keywords: responsive web design, QR codes, wat phumin, practice-based design
+research
+ABSTRAK
+Lukisan mural Thailand telah memainkan peran penting dalam masyarakat
+Thailand sejak periode Kerajaan Sukhothai (1238-1438 M) hingga saat ini.
+Wattana Boonjub (2009) menunjukkan bahwa lukisan Mural digunakan untuk
+mengajar orang-orang Thailand di masa lalu. Sepanjang sejarah, kuil telah
+menjadi bagian penting dari kehidupan Thailand; misalnya, Wat Phumin di
+Provinsi Nan. Wat Phumin memiliki arsitektur yang luar biasa, presentasi visual
+yang indah dari cerita Buddha di dinding yang menggambarkan adegan dari kisah
+Buddha Jataka, dan adegan kehidupan sehari-hari di Nan. Karakteristik unik ini
+telah menarik banyak pengunjung ke kuil ini selama bertahun-tahun. Juga, ketika
+mereka yang tertarik mengunjungi Wat Phumin, mereka merasakan candi ini
+sebagai Museum. Loïc Tallon et al. (2008) menunjukkan bahwa pengalaman
+museum memberikan situasi yang tepat untuk belajar sejarah dalam lingkungan
+yang tidak konvensional. Sebagai hasilnya, penelitian sebelumnya yang berjudul
+157
+
+Tawipas Pichaichanarong, Practice-Based Research in Digital Arts: ...
+“Praktik Penelitian Visual pada Lukisan Mural Lanna Thailand: Studi Kasus Wat
+Phumin, Provinsi Nan” dipresentasikan pada Konferensi Internasional ke-4 untuk
+Studi Seni Asia Pasifik (ICAPAS 2016). Hasilnya menunjukkan bahwa informasi
+mengenai lukisan mural Lanna di dalam kuil sangat banyak. Namun, tidak ada
+arahan yang memfasilitasi pengunjung Thailand dan wisatawan asing dalam
+melihat dan memahami episode pertama pada cerita tentang lukisan mural Lanna
+di dalam Wat Phumin. Oleh karena itu, penelitian ini adalah hasil dari menemukan
+solusi untuk memfasilitasi pengunjung dalam melihat cerita Buddha Jataka
+melalui seni digital dan teknologi digital (seperti desain web responsif, kode QR,
+dll.) dengan penelitian desain berbasis praktik.
+Kata Kunci: desain web responsif, kode QR, wat phumin, riset desain berbasis praktik
+INTRODUCTION
+The results from the author’s previous research titled “Visual Methods in Social
+Research on Lanna Mural Painting: A Case Study of Wat Phumin, Nan Province”
+presented at The 4th International Conference for Asia Pacific Arts Studies
+(ICAPAS 2016) indicated that information regarding the Lanna mural painting
+inside the temple is overwhelming. This is because there are no directions
+facilitating Thai and foreign visitors in where to first begin in terms of the episodes
+of the storytelling inside the targeted site. Therefore, this paper results from attempts
+to find an apt solutions through practice-based research methodology.
+Literature Review
+Identifying a solution to facilitate the comprehension Thai and foreign
+visitors of Thai Lanna mural paintings is not an easy task. This research has adopted
+practice-based research methodology through practice in its attempt to do so.
+Practice-Based Research
+Practice-based research is an authentic investigation to garner new insights
+from a variety of practices and the outcomes of those practices. According to
+Laurene Vaughan (2017), the author describes practice–based research as the
+collection of knowledge through creativity resultings in the scheme of designs,
+music, digital media, performances and exhibitions (p.56). This research was
+designed to explore an example solution to facilitate the visitors’ viewing
+experience of Lanna mural paintings at Wat Phumin, Nan province using different
+approaches.
+158
+
+IJCAS Vol. 6 No. 2, December 2019 | p-ISSN 2339-191X | e-ISSN 2406-9760
+Wat Phumin as A Museum
+Figure 1. Drawing of Wat Phumin, Nan province by Assist. Prof. Fua Haripitak
+(Image accessed 27 May 2020 from https://www.silpa-mag.com/news/article_8542)
+Wat Phumin in Nan province as figure 1, presents a dazzling visual presentation of
+Buddhist storytelling on the walls (T. Pichaichanarong, 2016). In this research, the
+setting at Wat Phumin has been treated as a museum. Ana Maria Theresa
+Labradorpp (2018) points out that museums can be sites for investigation (p.78).
+Therefore, treating Lanna mural paintings as museums would suffice as mentioned.
+Objectives
+1. Analyzing difference approaches to develop a solution through practice-based
+research.
+2. Develop tools to facilitate Thai and foreign visitors who attend Wat Phumin in
+Nan province.
+3. Use digital technology, such as responsive web design, QR codes to be examples
+for solutions in this research.
+Definition of Terms
+Responsive Web Design
+This research chose a website to act as the channel to facilitate Thai and
+foreign visitors’ experience of Thai Lanna mural paintings at Wat Phumin, Nan
+province because since the invention of the internet by Tim Berners-Lee 1989,it has
+become a widely used means of communication. According to Jason A. Clarke,
+(2015) there was a change in web development from 2010 to present. Web
+development has expanded to mobile platforms with mobile computing which
+includes browsing the web, watching movies, typing on word processors, etc.
+Responsive web design is a set of know-how tools for creating web sites that work
+on various devices and screens (p.2).
+159
+
+Tawipas Pichaichanarong, Practice-Based Research in Digital Arts: ...
+QR Code
+QR code is a readable code comprising a batch of black and white strips,
+used for linking URLS reading by a camera on a smartphone, as derived from the
+Japanese industry in 1994 (Retrieved from the internet on February 27th,2016). The
+QR code was introduced to this research with responsive web design for connecting
+to videos on the YouTube channel. Indeed, video is itself another means of
+facilitating visitors.
+METHODOLOGY
+Practice-Based Research Design
+The first step in practice-based practice in this research starts with the inspiration
+from Assistant Professor Fua Haripitak (1910–1993) who studied in India during
+1940–1946, at Visva Bharati University, Santiniketan, India. He saw how the Indian
+government has copied drawing samples of mural paintings from various ancient
+sites in order to preserve India’s heritage. After Assistant Professor Fua Haripitak
+returned to Thailand, he decided to copy drawing samples from various Thai
+temples in Thailand.
+Figure 2. Assist. Prof. Fua Haripitak, Thai National Artist
+(Image accessed 27 May 2020 from https://www.the101.world/fua-haripitak/)
+Figure 3. Assist. Prof. Fua Haripitak studied mural paintings before he copied the samples (Image accessed 27
+May 2020 from https://www.greatstarsartshow.com/art/1268)
+160
+
+IJCAS Vol. 6 No. 2, December 2019 | p-ISSN 2339-191X | e-ISSN 2406-9760
+Figure 4. Assist. Prof. Fua Haripitak copied drawing samples from mural painting
+in order to preserve Thailand’s national heritage (Image accessed 27 May 2020 from
+https://www.bloggang.com/viewdiary.php?id=haiku&group=2&month=05-2010&date=11)
+As a result, this research adopted the copy drawing sample technique for the Thai
+Lanna mural paintings at Wat Phumin, Nan province. In order to copy the entire
+drawing sample technique, this project required the entire photograph of Thai
+Lanna mural painting at the temple. Also, those photographs are in digital files, and
+they can refer as “digital arts” in this research.
+Figure 5. Thai Lanna mural painting at Wat Phumin, Nan province (North)
+161
+
+Tawipas Pichaichanarong, Practice-Based Research in Digital Arts: ...
+Figure 6. Copy drawing of Thai Lanna mural painting at Wat Phumin, Nan province (North)
+The author’s previous research (2016) identified three major categories for
+storytelling on Lanna mural paintings at Wat Phumin as follows: (i) ‘The Story of
+the Buddha’; Second, (ii) ‘The Previous Life Stories of the Buddha’, and Third
+‘Ordinary Life of the Local People. This research selected ‘Previous Life Stories of
+the Buddha’ as the focus of practice-based research. To understand the storytelling
+in ‘Previous Life Stories of the Buddha’, the researcher studied the relevant books
+and interviewed those with the knowledge and expertise. First, to understand Thai
+mural paintings in general, it is tradition when people visit the Thai temple, they
+first come from the direction of the north of the temple, then follow clockwise to
+the east, south, and west as shown below (figure7).
+162
+
+IJCAS Vol. 6 No. 2, December 2019 | p-ISSN 2339-191X | e-ISSN 2406-9760
+Figure 7. Direction of Wat Phumin, Nan province
+(Image from: The 7th Reginonal Office of Fine Arts, Nan province)
+The second step of the practice-based practice research adopted the
+Archaeological Mapping and Universal Transverse Mercator (UTM) coordinate for
+the Thai Lanna mural paintings at Wat Phumin. as shown below (figure 8 and figure
+9).
+Figure 8. Archaeological Mapping
+(Image accessed 27 May 2020 from
+https://coastalarchaeology.wordpress.com/2012/07/19/archaeological-mapping-with-idraw/)
+163
+
+Tawipas Pichaichanarong, Practice-Based Research in Digital Arts: ...
+Figure 9. Universal Transverse Mercator (UTM) coordinate system
+(Image accessed 27 May 2020 from
+http://www.georeference.org/doc/universal_transverse_mercator_utm_.htm)
+Thai Lanna mural paintings at Wat Phumin used the same idea from both
+examples on the grid system. The researcher divided the image of Thai Lanna mural
+paintings at Wat Phumin, Nan province as shown in figure10.
+Figure 10. Divided image of Thai Lanna mural paintings at Wat Phumin
+Third, the researcher used copy drawing samples of the Thai Lanna mural
+painting at Wat Phumin to identify the direction of storytelling on ‘Previous Life
+Stories of the Buddha’. The content on the ‘Previous Life Stories of the Buddha’
+164
+
+IJCAS Vol. 6 No. 2, December 2019 | p-ISSN 2339-191X | e-ISSN 2406-9760
+derives from various sources. After confirming the narrative for ‘Previous Life
+Stories of the Buddha’ to be in the correct order, the direction of the storytelling
+starts with the north, followed by east, south, and west at Wat Phumin, as shown in
+figure 11.
+Figure 11. Order of narrative storytelling on ‘Previous Life Stories of the Buddha’
+As a result, there are numbers of coordination for the storytelling on ‘Previous Life
+Stories of the Buddha’ upon the four sides of the wall at Wat Phumin.
+Next, this research adopted a QR code by placing them into the given
+positions of storytelling on ‘Previous Life Stories of the Buddha’ starting with
+episode 1 at the coordinate of point B9, and with the QR code image as given in
+figure 12 placed with the other coordinates respectively.
+Figure 12. An example of a QR code links to the video content uploaded to YouTube (Episode 1)
+https://www.youtube.com/watch?v=k6Dn8bAuRSo)
+All of the QR codes on the images of Thai Lanna mural paintings linked to
+2D moving images for the storytelling of Panya-Jataka at Wat Phumin uploaded to
+YouTube.
+165
+
+Tawipas Pichaichanarong, Practice-Based Research in Digital Arts: ...
+In fact, the video contents on YouTube comprises 2D moving images for the
+storytelling of Panya-Jataka for Wat Phumin, which the researcher received funds
+from the Office of Contemporary Art and Culture (OCAC) Ministry of Culture,
+Thailand in 2017. The 2D moving images for storytelling of Panya-Jataka at Wat
+Phumin, Nan province totaled amounts of thirteen videos.
+After that, the researcher has completed the placement 13 QR codes into 13
+positions in the images of Thai Lanna mural paintings at Wat Phumin, as shown in
+figure 13.
+Figure 13. QR codes placed on the coordination of storytelling on ‘Previous Life Stories of the
+Buddha’
+Next, the researcher deleted the lines on the images as shown in figure 14.
+Figure 14. Final image of storytelling on ‘Previous Life Stories of the Buddha’
+in the north
+166
+
+IJCAS Vol. 6 No. 2, December 2019 | p-ISSN 2339-191X | e-ISSN 2406-9760
+Responsive Web Design
+What is RWD?
+According to Jason A. Clarke (2015), the author of the book “Responsive
+Web Design in Practice”, the idea of building web sites that work on multiple
+devices and screens in order to serve the new era of digital technology with limitless
+power.
+The responsive web design was used in this research because of its ability
+to work on multiple devices and screens. The researcher suggests RWD can
+facilitate Thai and foreign visitors to Wat Phumin, in their experience of Thai Lanna
+mural paintings at Wat Phumin in Nan Province.
+Google Sites
+For the first version of RWD, the researcher used Google Sites as a tool.
+Google Sites is one of the products from Google first released in 2008. Google Sites
+was created for anyone who wants to create a personal website. The new version of
+Google sites has the responsive web ability to open its website on various platforms.
+In addition, Tatpuje and Ganbote (2015) point out Google platform contains with
+number of tools and apps, use of videos, online tools, interaction through Google
+community.
+In Thailand, there is the collaboration between Google and Thai Universities
+called “Google for Education” in order to help the students improve their learning
+and innovation (retrieved from https://edu.google.com on Feburary 28th, 2019).
+The researcher used Google Site from Silpakorn University, Thailand for the first
+version of RWD as shown in figure 15.
+Figure 15. Google Sites version
+167
+
+Tawipas Pichaichanarong, Practice-Based Research in Digital Arts: ...
+RWD Frameworks
+For the second version of RWD, the researcher used the RWD frameworks
+to create a responsive web as a tool. A framework is a collection of files-scripts,
+HTML, CSS, and so forth. In addition, Priyanka Panchal (2017) explains that the
+quality of this web properties will calibrate from mobile screen to full desktop
+resolution continuously.This research selected the “Bootstrap” framework
+(http://getbootstrap.com/). Bootstrap is the most popular of the three frameworks
+widely used globally presented in figure 16.
+Figure 16. RWD Frameworks version
+DISCUSSION
+A result from both version of Google Sites and RWD Frameworks is an example of
+the solution in order to facilitate Thai and foreign visitors at Wat Phumin through
+digital technology. It is illustrated in figure 17.
+168
+
+IJCAS Vol. 6 No. 2, December 2019 | p-ISSN 2339-191X | e-ISSN 2406-9760
+Figure 17. A diagram of a solution to facilitate visitors at Wat Phumin
+through digital technology in this research
+Data Analysis
+This research used a practice-based research design in every steps of
+producing the final outcome to answer the objectives of this research. Indeed, the
+researcher followed all the practice-based approaches in the framework as given in
+figure 18.
+169
+
+Tawipas Pichaichanarong, Practice-Based Research in Digital Arts: ...
+Figure 18. Practice-Based Research Design
+This research focuses only on the storytelling on ‘Previous Life Stories of
+the Buddha’, with Khattana Kumara Jataka on the northern wall, the eastern wall,
+the south wall and the Nimi Jataka on the western wall as illustrated in figure 19.
+Figure 19. Khattana Kumara Jataka (left), Nimi Jataka (right)
+CONCLUSIONS
+In conclusion, this study has achieved all the objectives as set. However, the idea of
+this study derived from the creativity related to the literature review and in-depth
+interviews from field trips. In addition, the researcher added digital technologies in
+this study as well, and expects new knowledge to be derived from this experiment.
+From the results from my research, I can conclude that new digital
+technologies can influence the ways in which individuals and institutes act as a
+170
+
+IJCAS Vol. 6 No. 2, December 2019 | p-ISSN 2339-191X | e-ISSN 2406-9760
+museum. Susana Smith Bautista (2014), author of “Museums in the Digital Age:
+Changing Meanings of Place, Community, and Culture” asserts that museums (for
+example, Wat Phumin in Nan province) today can integrate both traditional
+elements and the context of the digital age to embrace the legacy of place, locality,
+culture, and community (p.xxi). This can then reach a modern younger generation.
+ACKNOWLEDGEMENTS
+I am very grateful to The 4th International Conference for Asia Pacific Arts Studies
+(ICAPAS 2016) committee, and The 1st International Conference on Intermedia
+Arts and Creative Technology (CREATIVEARTS 2019), both held in Yogyakarta,
+Indonesia for allowing me to begin my academic journey with ICAPAS in 2016,
+and other episodes with CREATIVEARTS in 2019. In addition, I would like to
+express my gratitude to Suan Sunandha International School of Arts, Suan
+Sunandha Rajabhat University, Nakhon Pathom Campus, Silpakorn University and
+The Office of Contemporary Art and Culture (OCAC) Ministry of Culture, Thailand
+for their supports. Lastly, I would like to express thanks and gratitude to my loving
+mother, who has supported me in every way.
+REFERENCES
+Bautista, S. S. (2014). Museums in the Digital Age: Changing Meanings of Place,
+Community, and Culture. MD: AltaMira Press.
+Clark, J. A. (2015). Responsive Web Design In Practice (Library Technology
+Essentials). MD: Rowman & Littlefield.
+Dalferro, A. (2018). Museum NOW! Articles From Talks Presented at Academic
+Conferences. Bangkok: National Discovery Museum Institute.
+History of QR Code How was the QR Code created? How has it come to be used
+so widely? And what is its future? (n.d.). Retrieved February 26, 2019, from
+https://www.qrcode.com/en/history/
+Panchal, P. (2017). Responsive Web Design and Web Development Using
+Bootstrap Frond-End Framework. International Journal of Advance
+Research in Science and Engineering, 6 (7), 1-8. Retrieved May 15, 2019,
+from https://ijarse.com/images/fullpdf/149873599_GOA_1005_ijarse.pdf.
+Pichaichanarong, T. (2017). Visual Methods In Social Research on Lanna Mural
+Painting: A Case Study of Wat Phumin, Nan Province. International
+Journal of Creative and Arts Studies, 3(2), 25. doi:10.24821/ijcas.v3i2.1842
+171
+
+Tawipas Pichaichanarong, Practice-Based Research in Digital Arts: ...
+Tatpuje, D. U., & Ganbote, A. (2015). Study of skills development among the
+youths with Google integrated entrepreneurial training. Researchgate.net.
+Retrieved May 15, 2019, from
+https://www.researchgate.net/publication/331890031_Study_of_Skills_De
+velopment_Among_the_Youths_With_Google_Integrated_Entrepreneurial
+_Training.
+Vaughan, L. (2017). Practice-based design research. London: Bloomsbury
+Academic an imprint of Bloomsbury Publishing Plc.
+172
