@@ -38,13 +38,13 @@ if "%STATUS_SIZE%"=="0" (
   echo 📦 กำลังบันทึกการเปลี่ยนแปลง (git commit)...
   git add docs/ catalog.json index.html MDBrowse.html _headers scripts/ src/ build.js *.bat *.lnk
   git commit -m "Auto-sync research output [%date% %time%]"
-  echo 🚀 กำลังส่งข้อมูลไปยัง GitHub (git push origin master)...
+  echo 🚀 กำลังส่งข้อมูลไปยัง GitHub [git push origin master]...
   git push origin master
   if %errorlevel% equ 0 (
     echo.
     echo ====================================================
     echo ✅ ซิงค์และส่งข้อมูลขึ้น GitHub สำเร็จเรียบร้อย!
-    echo 🌐 Cloudflare Pages กำลังอัปเดตหน้าเว็บให้อัตโนมัติ (ประมาณ 30-60 วินาที)
+    echo 🌐 Cloudflare Pages กำลังอัปเดตหน้าเว็บให้อัตโนมัติ [ประมาณ 30-60 วินาที]
     echo    เปิดอ่านได้ทันทีจากทุกอุปกรณ์
     echo ====================================================
   ) else (
