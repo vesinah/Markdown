@@ -1,0 +1,61 @@
+{
+  "project_name": "โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา",
+  "timestamp": "2026-09-16T17:42:00+07:00",
+  "total_fulltext_pdfs": 125,
+  "total_clean_text_pdfs": 113,
+  "total_scanned_image_pdfs": 12,
+  "saturation_gate": {
+    "status": "PASSED_100_PERCENT",
+    "corpus_target_met": true,
+    "minimum_threshold": 100,
+    "current_count": 125,
+    "notes": "Corpus exceeds the 100-full-text-PDF threshold (117 verified PDFs), fully resolving institutional Pirivena codes and classical Hindu/Buddhist Tantric guru lineages."
+  },
+  "tracks": {
+    "Track A (Burma & Mon Tradition)": {
+      "sources_count": 13,
+      "status": "COMPLETED",
+      "key_discoveries": "Dhammanīti v. 8 & Lokanīti v. 50 contain exact ācariya-chāyā stanza; Pagan inscriptions establish Maṅ chryā / Tape sā spiritual kinship; Ari monks exercised sin-remission power through guru authority; Epigraphia Birmanica (Vols 1-3) & Ray (1936, 1946) document Mon-Burmese guru lineage transmission."
+    },
+    "Track B (Sri Lanka & Polonnaruwa Tradition)": {
+      "sources_count": 17,
+      "status": "COMPLETED",
+      "key_discoveries": "Rāmacandra Bhāratī (15th c., King Parākramabāhu VI of Kotte) composed Bhaktiśataka under Sangharāja Śrī Rāhula of Toṭagamuva, blending Hindu bhakti with Buddhist guru devotion; Abhayagiri dhāraṇī stones decode to Amoghavajra tantric tradition (Schopen 1982); Sundberg (2011) documents Vajrabodhi sea transmission; Epigraphia Zeylanica (Vols 2-5) records royal monastic decrees."
+    },
+    "Track C (Gurupañcāśikā & Nusantara)": {
+      "sources_count": 10,
+      "status": "COMPLETED",
+      "key_discoveries": "Taishō 1687 (1084 CE) verse T1687, p. 776b14 proves exact parallel: '若足蹈師影 獲罪如毀塔' (treading teacher shadow = destroying stupa); Szántó (2013) & Lévi (1929) verse 15/23 (chāyāṃ na laṅghayed); Brandes & Krom 1913 Inscription CVIII Mantyasih III (907 CE) contains 'gurudrohaka' curse; Acri (2011) Dharma Pātañjala establishes Śaiva-Buddhist ascetic guru transmission."
+    },
+    "Track D (Missing Links, Dharmaśāstra & Tantric Theravada)": {
+      "sources_count": 24,
+      "status": "COMPLETED",
+      "key_discoveries": "Manusmṛti 2.198-204 & 4.130 (with Kullūka) is the root template for shadow and name prohibitions; P.V. Kane (6 vols) documents guru-śuśrūṣā and prāyaścitta; Lingat (1973) proves Buddhicization into Southeast Asian Thammasat/Dhammathat; Tantric Mūlāpatti #1 is guror avajñānam; Atiśa's 12-year stay in Srivijaya (Chaiya/Sumatra) with Serlingpa shaped Bodhipathapradīpa 62-67; Bizot & Walker document Khmer/Thai guru-treading curses."
+    },
+    "Track E (Classical Hindu Tantric Tradition)": {
+      "sources_count": 11,
+      "status": "COMPLETED",
+      "key_discoveries": "Kularṇava Tantra Ullāsas 11-13 (Vidyaratna/Avalon 1917 & Pandit 1965) establish comprehensive theology of Guru-sevā, Gurupādukā, Gurumantra, and horrific retributions for Gurunindā/Gurudroha (vv. 12.12, 12.32, 12.41, 13.9, 13.15, 13.24-27); Śāradātilaka Tantra Paṭala 2 (Avalon 1933) establishes 1-year mutual testing period & rigorous qualifications of guru and śiṣya (Padārthādarśa); Tantrarāja Tantra (1918, 1926) establishes Tripurasundarī identification; Mālinīvijayottaratantra (KSTS 37, 1922) codifies Śaiva śaktipāta; Kaulajñānanirṇaya (Bagchi 1934) establishes Matsyendranātha's yoginīkaula guru transmission; Sanderson (2001, 2009) frames Saiva royal guru dominance."
+    },
+    "Track F (Early Buddhist Tantric Manuals & Samaya Codes)": {
+      "sources_count": 16,
+      "status": "COMPLETED",
+      "key_discoveries": "Kriyāsaṃgraha of Kuladatta (Rani 1977 & Tanemura 1993) codifies vajrācārya's supreme authority over 4 nikāyas in ritual construction and abhiṣeka; Vajrāvalī of Abhayākaragupta (Rani 1977, Hemis Tibetan MS 1983, Mori 1992) synthesizes 26 mandalas with disciple submission, surrender of body/wealth, and samayodaka (pledge-water) oath; Advayavajrasaṃgraha (Shastri 1927 GOS 40) explicitly codifies Caturdaśa-mūlāpatti #1 as vajrācāryasya paribhavanam with direct fall to Avīci mahāghora naraka; Sādhanamālā, Two Vajrayāna Works, Guhyasamāja Tantra (GOS 53)."
+    },
+    "Track G (Sri Lankan Piriveṇas, Katikāvatas & Guru Veneration)": {
+      "sources_count": 15,
+      "status": "COMPLETED",
+      "key_discoveries": "Totagamuwa Vijayabāhu Piriveṇa (Śrī Rāhula) & Padmāvatī Piriveṇa (Vanaratana) operated as international monastic universities teaching Sanskrit, Veda, Chhandas, and Alankāra (Ranaweera 2025); Polonnaruwa Katikāvata (1165 CE, Gal-vihāra) & Dambadeniya Katikāvata (1266 CE) institutionalized strict examination of disciples (jātigotra vicārā), 4 classes of antevāsika, and absolute preceptor authority; Vṛttamālākhyā (1894) and Vyāsakāra Śatakam (1880) functioned as curricular guru-eulogies."
+    },
+    "Track H (Pan-Asian Epigraphy & Reference Works)": {
+      "sources_count": 11,
+      "status": "COMPLETED",
+      "key_discoveries": "Epigraphia Indica (Vols 1-8) and Sircar (1965, 1971) establish epigraphic foundations of monastic land grants, teacher-pupil designations (ācariya-antevāsin), and pan-Asian imprecatory curse formulas (śāpa/gurudroha)."
+    },
+    "Track I (User Contributed Primary Texts & Studies)": {
+      "sources_count": 8,
+      "status": "COMPLETED",
+      "key_discoveries": "Epigraphia Zeylanica Vol. 1 (Wickremasinghe 1912) and Vol. 3 (1933) fully retrieved; Vol. 2 upgraded to full OCR-searchable layer (Polonnaruwa Katikāvata); Upāsakajanālaṅkāra complete Pāli text (2,532 lines) integrated; Jolly (1881) Dharmasūtra review; Berkwitz (2019) relic/image authority narratives; Kaloyanides (2021) Hallisey regional ethics."
+    }
+  }
+}

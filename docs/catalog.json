@@ -1,9 +1,9 @@
 {
   "name": "คลังงานวิจัย (Research Archive)",
   "baseUrl": "docs/",
-  "updatedAt": "2026-09-13T12:49:49.357Z",
-  "totalFiles": 6769,
-  "totalBytes": 667284174,
+  "updatedAt": "2026-09-17T05:54:05.173Z",
+  "totalFiles": 7204,
+  "totalBytes": 811688860,
   "files": [
     {
       "path": "00 - รวมแปลบทความวิชาการ/05+Ooi+Corrected+FINAL+version+August+14+2022_Embedded.md",
@@ -30592,8 +30592,8 @@
     },
     {
       "path": "2026-09-13_การวิจัยชาดกเปรียบเทียบและสืบสวนจำนวน550_547/project-plan.md",
-      "size": 10916,
-      "mtime": 1789299435192
+      "size": 10911,
+      "mtime": 1789303956880
     },
     {
       "path": "2026-09-13_การวิจัยชาดกเปรียบเทียบและสืบสวนจำนวน550_547/research-notes/archive/corrupted_ocr_archive/S-1910-chavannes_edouard-gap301.txt",
@@ -33501,9 +33501,2199 @@
       "mtime": 1789250892540
     },
     {
-      "path": "2026-09-13_การวิจัยชาดกเปรียบเทียบและสืบสวนจำนวน550_547/research-notes/test_write.txt",
-      "size": 20,
-      "mtime": 1789292198189
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch01.md",
+      "size": 197663,
+      "mtime": 1789610632238
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch01_sec01.md",
+      "size": 38393,
+      "mtime": 1789609076159
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch01_sec02.md",
+      "size": 45802,
+      "mtime": 1789609167535
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch01_sec03.md",
+      "size": 39841,
+      "mtime": 1789609207571
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch01_sec04.md",
+      "size": 33009,
+      "mtime": 1789609239363
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch01_sec05.md",
+      "size": 31326,
+      "mtime": 1789609267201
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch02.md",
+      "size": 161072,
+      "mtime": 1789610632240
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch02_sec01.md",
+      "size": 25123,
+      "mtime": 1789609047233
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch02_sec02.md",
+      "size": 21030,
+      "mtime": 1789609069279
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch02_sec03.md",
+      "size": 21254,
+      "mtime": 1789609090948
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch02_sec04.md",
+      "size": 16113,
+      "mtime": 1789609107819
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch02_sec05.md",
+      "size": 20835,
+      "mtime": 1789609129133
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch02_sec06.md",
+      "size": 55750,
+      "mtime": 1789609182322
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch03.md",
+      "size": 217825,
+      "mtime": 1789610632243
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch03_sec01.md",
+      "size": 30475,
+      "mtime": 1789609145123
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch03_sec02.md",
+      "size": 29988,
+      "mtime": 1789609164791
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch03_sec03.md",
+      "size": 33821,
+      "mtime": 1789609188988
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch03_sec04.md",
+      "size": 27593,
+      "mtime": 1789609209284
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch03_sec05.md",
+      "size": 30629,
+      "mtime": 1789609231607
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch04.md",
+      "size": 187573,
+      "mtime": 1789610632245
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch04_sec01.md",
+      "size": 28266,
+      "mtime": 1789609054456
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch04_sec02.md",
+      "size": 31725,
+      "mtime": 1789609086582
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch04_sec03.md",
+      "size": 36492,
+      "mtime": 1789609125112
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch04_sec04.md",
+      "size": 28694,
+      "mtime": 1789609156365
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch04_sec05.md",
+      "size": 28267,
+      "mtime": 1789609185538
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch05.md",
+      "size": 191644,
+      "mtime": 1789610632248
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch05_sec01.md",
+      "size": 38041,
+      "mtime": 1789609488950
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch05_sec02.md",
+      "size": 28748,
+      "mtime": 1789609536351
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch05_sec03.md",
+      "size": 42511,
+      "mtime": 1789609605992
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch05_sec04.md",
+      "size": 43664,
+      "mtime": 1789609658759
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch05_sec05.md",
+      "size": 38630,
+      "mtime": 1789609705760
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch06.md",
+      "size": 220768,
+      "mtime": 1789610632256
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch06_sec01.md",
+      "size": 41183,
+      "mtime": 1789609508434
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch06_sec02.md",
+      "size": 40308,
+      "mtime": 1789609548751
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch06_sec03.md",
+      "size": 54972,
+      "mtime": 1789610629083
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch06_sec04.md",
+      "size": 42632,
+      "mtime": 1789609795706
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch06_sec05.md",
+      "size": 41520,
+      "mtime": 1789609842967
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch07.md",
+      "size": 134777,
+      "mtime": 1789610632258
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch07_sec01.md",
+      "size": 26926,
+      "mtime": 1789609562808
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch07_sec02.md",
+      "size": 27278,
+      "mtime": 1789609587031
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch07_sec03.md",
+      "size": 27183,
+      "mtime": 1789609627855
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch07_sec04.md",
+      "size": 27649,
+      "mtime": 1789609664531
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch07_sec05.md",
+      "size": 25625,
+      "mtime": 1789609717201
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch08.md",
+      "size": 143505,
+      "mtime": 1789610632260
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch08_sec01.md",
+      "size": 33350,
+      "mtime": 1789609864438
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch08_sec02.md",
+      "size": 29994,
+      "mtime": 1789609914222
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch08_sec03.md",
+      "size": 27919,
+      "mtime": 1789609959818
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch08_sec04.md",
+      "size": 25240,
+      "mtime": 1789609987867
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch08_sec05.md",
+      "size": 26476,
+      "mtime": 1789610016236
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch09.md",
+      "size": 166370,
+      "mtime": 1789610632262
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch09_sec01.md",
+      "size": 40799,
+      "mtime": 1789610233556
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch09_sec02.md",
+      "size": 49686,
+      "mtime": 1789610278041
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch09_sec03.md",
+      "size": 27069,
+      "mtime": 1789610304322
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch09_sec04.md",
+      "size": 25013,
+      "mtime": 1789610328036
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/ch09_sec05.md",
+      "size": 23576,
+      "mtime": 1789610349745
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/drafts/drafting-progress.md",
+      "size": 4422,
+      "mtime": 1789610379905
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final/00-สารบัญ.md",
+      "size": 71713,
+      "mtime": 1789616202717
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final/01-บทนำ.md",
+      "size": 214780,
+      "mtime": 1789615185248
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final/02-การตรวจชำระและแปลถอดความภาษาบาลีไฮบริด.md",
+      "size": 166699,
+      "mtime": 1789615584926
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final/03-ภูมิศาสตร์ทางปัญญาคุรุปัญจาศิกา.md",
+      "size": 228170,
+      "mtime": 1789615938645
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final/04-การสืบค้นคัมภีร์คู่ขนานในศรีลังกา.md",
+      "size": 202158,
+      "mtime": 1789615619371
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final/05-การสืบค้นคัมภีร์คู่ขนานในพม่าและมอญ.md",
+      "size": 210895,
+      "mtime": 1789615064021
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final/06-การสืบสวนโซ่ข้อกลางทางประวัติศาสตร์ความคิด.md",
+      "size": 244694,
+      "mtime": 1789615844626
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final/07-นครศรีธรรมราชและศรีวิชัยจุดบรรจบทางปัญญา.md",
+      "size": 157120,
+      "mtime": 1789614845706
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final/08-สายธารจารีตฮินดูตันตระ.md",
+      "size": 167504,
+      "mtime": 1789614967945
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final/09-บทสังเคราะห์และข้อสรุป.md",
+      "size": 188214,
+      "mtime": 1789616113020
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final_backup_pre_edit/00-สารบัญ.md",
+      "size": 50538,
+      "mtime": 1789610766206
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final_backup_pre_edit/01-บทนำ.md",
+      "size": 197663,
+      "mtime": 1789610736110
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final_backup_pre_edit/02-การตรวจชำระและแปลถอดความภาษาบาลีไฮบริด.md",
+      "size": 161072,
+      "mtime": 1789610736118
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final_backup_pre_edit/03-ภูมิศาสตร์ทางปัญญาคุรุปัญจาศิกา.md",
+      "size": 217825,
+      "mtime": 1789610736121
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final_backup_pre_edit/04-การสืบค้นคัมภีร์คู่ขนานในศรีลังกา.md",
+      "size": 187573,
+      "mtime": 1789610736121
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final_backup_pre_edit/05-การสืบค้นคัมภีร์คู่ขนานในพม่าและมอญ.md",
+      "size": 191644,
+      "mtime": 1789610736121
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final_backup_pre_edit/06-การสืบสวนโซ่ข้อกลางทางประวัติศาสตร์ความคิด.md",
+      "size": 220768,
+      "mtime": 1789610736121
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final_backup_pre_edit/07-นครศรีธรรมราชและศรีวิชัยจุดบรรจบทางปัญญา.md",
+      "size": 134777,
+      "mtime": 1789610736131
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final_backup_pre_edit/08-สายธารจารีตฮินดูตันตระ.md",
+      "size": 143505,
+      "mtime": 1789610736131
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final_backup_pre_edit/09-บทสังเคราะห์และข้อสรุป.md",
+      "size": 166370,
+      "mtime": 1789610736136
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final_backup_pre_edit/references.md",
+      "size": 42081,
+      "mtime": 1789611545046
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/final/references.md",
+      "size": 44934,
+      "mtime": 1789615575146
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/glossary.md",
+      "size": 56446,
+      "mtime": 1789612463282
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/outline-proposal.md",
+      "size": 32996,
+      "mtime": 1789610609238
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/project-plan.md",
+      "size": 9394,
+      "mtime": 1789610612936
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/active_corpus_mapping.json",
+      "size": 145031,
+      "mtime": 1789606823121
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/cross_chapter_utilization_matrix.json",
+      "size": 196656,
+      "mtime": 1789606823126
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/dossier_agent_packages.json",
+      "size": 19303,
+      "mtime": 1789608236294
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/dossier-template.md",
+      "size": 3280,
+      "mtime": 1789550895069
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1084-richeng-taisho-1687-shishifawushisong-gurupancasika.txt",
+      "size": 7196,
+      "mtime": 1789557326350
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1084-richeng-taisho-1687-shishifawushisong.txt",
+      "size": 7196,
+      "mtime": 1789557326350
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1870-alwis-descriptive-catalogue-sanskrit-pali-sinhalese.txt",
+      "size": 422336,
+      "mtime": 1789556937090
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1877-fausboll-jataka-vol1-khadirangara.txt",
+      "size": 1149910,
+      "mtime": 1789601220325
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1879-buhler-sacred-laws-aryas-apastamba-gautama-sbe2.txt",
+      "size": 671033,
+      "mtime": 1789601223718
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1879-muller-upanishads-sbe15-guru-bhakti.txt",
+      "size": 695232,
+      "mtime": 1789601225125
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1880-jolly-institutes-of-vishnu-sbe7.txt",
+      "size": 615271,
+      "mtime": 1789601227444
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1880-ras-vyasakara-satakam-sanskrit-sinhalese.txt",
+      "size": 68834,
+      "mtime": 1789601227554
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1881-jolly-review-buhler-sacred-laws-aryas-dharmasutra.txt",
+      "size": 17622,
+      "mtime": 1789555764535
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1883-muller-ancient-inscriptions-in-ceylon.txt",
+      "size": 535687,
+      "mtime": 1789599394329
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1884-kern-saddharma-pundarika-lotus-sutra-sbe21.txt",
+      "size": 878329,
+      "mtime": 1789601228491
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1886-gray-ancient-proverbs-burmese-niti-text.txt",
+      "size": 366743,
+      "mtime": 1789559139119
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1886-gray-dhammaniti-pali-burmese-maxims.txt",
+      "size": 25257,
+      "mtime": 1789601229090
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1889-jolly-minor-law-books-narada-brihaspati-sbe33.txt",
+      "size": 761210,
+      "mtime": 1789601229768
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1892-burgess-epigraphia-indica-vol1.txt",
+      "size": 1448781,
+      "mtime": 1789601141844
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1892-taw-sein-ko-kalyani-inscriptions-pegu-dhammaceti.txt",
+      "size": 254511,
+      "mtime": 1789555966893
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1894-bharati-seelakkhandha-vrittamalakhya-jbts.txt",
+      "size": 796687,
+      "mtime": 1789560924589
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1894-burgess-epigraphia-indica-vol2-real.txt",
+      "size": 1494496,
+      "mtime": 1789568083247
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1894-burgess-epigraphia-indica-vol2.txt",
+      "size": 1494496,
+      "mtime": 1789568125372
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1894-hultzsch-epigraphia-indica-vol3.txt",
+      "size": 1285797,
+      "mtime": 1789567092699
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1896-fausboll-jataka-vol6-temiya-mittadubbhi.txt",
+      "size": 28846,
+      "mtime": 1789604916430
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1896-hultzsch-epigraphia-indica-vol4.txt",
+      "size": 1618076,
+      "mtime": 1789567092693
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1898-hultzsch-epigraphia-indica-vol5.txt",
+      "size": 1490261,
+      "mtime": 1789568028621
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1900-hultzsch-epigraphia-indica-vol6.txt",
+      "size": 1446520,
+      "mtime": 1789566557120
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1901-wickremasinghe-catalogue-sinhalese-printed-books.txt",
+      "size": 518513,
+      "mtime": 1789556501690
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1902-hultzsch-epigraphia-indica-vol7.txt",
+      "size": 2569821,
+      "mtime": 1789601777435
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1904-wickremasinghe-epigraphia-zeylanica-vol1.txt",
+      "size": 40173,
+      "mtime": 1789601230159
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1905-hultzsch-epigraphia-indica-vol8.txt",
+      "size": 1285380,
+      "mtime": 1789601775924
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1909-gopal-bhatta-hari-bhakti-vilasa-first-vilasa.txt",
+      "size": 2972573,
+      "mtime": 1789601231873
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1910-desilva-perera-jcbras-vol22-keragala-pepiliyana-pirivena.txt",
+      "size": 1046500,
+      "mtime": 1789556970539
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1912-ganapati-shastri-yajnavalkya-smriti-mitakshara-part1.txt",
+      "size": 203670,
+      "mtime": 1789601234854
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1912-geiger-mahavamsa-great-chronicle-ceylon.txt",
+      "size": 757478,
+      "mtime": 1789568525531
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1912-wickremasinghe-epigraphia-zeylanica-vol2-ocr.txt",
+      "size": 1077955,
+      "mtime": 1789559141609
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1913-brandes-krom-oud-javaansche-oorkonden-mantyasih-gurudrohaka.txt",
+      "size": 22331,
+      "mtime": 1789559797762
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1914-vasu-siva-samhita-yoga-sastra-sbh15.txt",
+      "size": 516545,
+      "mtime": 1789601237187
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1916-shastri-hajar-bacharer-purano-bangala-caryapada.txt",
+      "size": 1318534,
+      "mtime": 1789566400823
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1917-avalon-vidyaratna-kularnava-tantra-tantrik-texts-vol5.txt",
+      "size": 808426,
+      "mtime": 1789559142110
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1918-avalon-mishra-tantraraja-tantra-vol1.txt",
+      "size": 1499185,
+      "mtime": 1789568523041
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1918-chakravarty-tantrasara-abhinavagupta.txt",
+      "size": 576223,
+      "mtime": 1789601238963
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1918-duroiselle-the-ari-of-burma-and-tantric-buddhism.txt",
+      "size": 60064,
+      "mtime": 1789555773685
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1918-kularnava-tantra-sanskrit-text-complete.txt",
+      "size": 274982,
+      "mtime": 1789601239430
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1919-taw-sein-ko-epigraphia-birmanica-vol1-pt1.txt",
+      "size": 243728,
+      "mtime": 1789556762580
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1920-blagden-epigraphia-birmanica-vol1-pt2.txt",
+      "size": 721421,
+      "mtime": 1789567986180
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1920-jha-manusmriti-medhatithi-bhasya-vol1.txt",
+      "size": 53850,
+      "mtime": 1789601239788
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1920-pe-maung-tin-the-expositor-atthasalini-vol1.txt",
+      "size": 657348,
+      "mtime": 1789567013243
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1921-duroiselle-epigraphia-birmanica-vol2-pt1.txt",
+      "size": 624660,
+      "mtime": 1789567010380
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1921-duroiselle-list-of-inscriptions-in-burma.txt",
+      "size": 598281,
+      "mtime": 1789601240524
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1921-pe-maung-tin-the-expositor-atthasalini-vol2.txt",
+      "size": 602278,
+      "mtime": 1789567996298
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1922-bendall-rouse-siksha-samuccaya-santideva.txt",
+      "size": 716309,
+      "mtime": 1789601241408
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1922-jayatilaka-katikavat-sangarava.txt",
+      "size": 440482,
+      "mtime": 1789559417008
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1922-kaul-malinivijayottara-tantra-ksts37.txt",
+      "size": 512133,
+      "mtime": 1789559762313
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1923-law-buddhist-conception-of-spirits-petavatthu.txt",
+      "size": 147293,
+      "mtime": 1789601241599
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1923-pe-maung-tin-path-of-purity-visuddhimagga-vol1.txt",
+      "size": 223800,
+      "mtime": 1789598847178
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1924-jha-manusmriti-comparative-notes-vol1.txt",
+      "size": 460858,
+      "mtime": 1789601244688
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1925-bhattacharyya-sadhanamala-vol1-gos26.txt",
+      "size": 1017547,
+      "mtime": 1789600244788
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1925-law-heaven-and-hell-in-buddhist-perspective.txt",
+      "size": 256006,
+      "mtime": 1789601245054
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1925-narayanananda-guru-gita-skanda-purana-sanskrit.txt",
+      "size": 55171,
+      "mtime": 1789601245123
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1926-avalon-mishra-tantraraja-tantra-vol2.txt",
+      "size": 87976,
+      "mtime": 1789559142851
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1926-woodroffe-the-garland-of-letters-varnamala.txt",
+      "size": 587845,
+      "mtime": 1789604731822
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1927-shastri-advayavajrasamgraha-gos40.txt",
+      "size": 284602,
+      "mtime": 1789557771003
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1928-bhattacharyya-sadhanamala-vol2-gos41.txt",
+      "size": 5010,
+      "mtime": 1789600064904
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1928-bhattacharyya-two-vajrayana-works-gos44.txt",
+      "size": 353163,
+      "mtime": 1789600273334
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1928-blagden-epigraphia-birmanica-vol3-pt2.txt",
+      "size": 619721,
+      "mtime": 1789568063240
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1928-malalasekera-pali-literature-of-ceylon-clean.txt",
+      "size": 694340,
+      "mtime": 1789564678411
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1928-malalasekera-pali-literature-of-ceylon-ocr.txt",
+      "size": 1206683,
+      "mtime": 1789559143602
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1928-vasu-gheranda-samhita-sanskrit-english.txt",
+      "size": 516548,
+      "mtime": 1789601248239
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1928-wickremasinghe-codrington-epigraphia-zeylanica-vol3-ocr.txt",
+      "size": 1021960,
+      "mtime": 1789559146887
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1929-levi-autour-dasvaghosa-gurupancasika.txt",
+      "size": 75020,
+      "mtime": 1789555899168
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1929-pe-maung-tin-path-of-purity-visuddhimagga-vol2.txt",
+      "size": 906957,
+      "mtime": 1789566381126
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1929-woodroffe-shakti-and-shakta.txt",
+      "size": 66158,
+      "mtime": 1789597312873
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1930-kane-history-of-dharmasastra-vol1.txt",
+      "size": 1619644,
+      "mtime": 1789568528728
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1931-bhattacharyya-guhyasamaja-tantra-gos53.txt",
+      "size": 614669,
+      "mtime": 1789600216154
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1931-pe-maung-tin-path-of-purity-visuddhimagga-vol3.txt",
+      "size": 914957,
+      "mtime": 1789598885371
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1932-bhattacharyya-introduction-buddhist-esoterism.txt",
+      "size": 364734,
+      "mtime": 1789601125592
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1933-lakshmanadesikendra-avalon-sharadatilaka-tantra-vol1.txt",
+      "size": 95256,
+      "mtime": 1789559147704
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1933-paranavitana-epigraphia-zeylanica-vol3.txt",
+      "size": 1566556,
+      "mtime": 1789559148686
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1934-bagchi-kaulajnananirnaya-matsyendranatha.txt",
+      "size": 5238,
+      "mtime": 1789596902807
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1934-paranavitana-epigraphia-zeylanica-vol4.txt",
+      "size": 3390,
+      "mtime": 1789598741139
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1936-ray-sanskrit-buddhism-in-burma.txt",
+      "size": 278758,
+      "mtime": 1789557170580
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1939-bagchi-studies-in-the-tantras.txt",
+      "size": 253817,
+      "mtime": 1789563208159
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1941-kane-history-of-dharmasastra-vol2-pt1.txt",
+      "size": 2824791,
+      "mtime": 1789568530956
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1942-de-early-history-vaisnava-faith-bengal.txt",
+      "size": 1524962,
+      "mtime": 1789601161182
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1943-bharati-kausalyayan-buddhasataka-bhaktisataka.txt",
+      "size": 102605,
+      "mtime": 1789559018775
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1946-kane-history-of-dharmasastra-vol3.txt",
+      "size": 2746968,
+      "mtime": 1789600155392
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1946-ray-introduction-theravada-buddhism-burma.txt",
+      "size": 687426,
+      "mtime": 1789568524085
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1946-ray-theravada-buddhism-in-burma.txt",
+      "size": 748642,
+      "mtime": 1789601248979
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1948-bharati-seelakkhandha-vrittaratnakarapancika.txt",
+      "size": 466718,
+      "mtime": 1789559515516
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1949-nicholas-palaeographical-development-brahmi-script-ceylon.txt",
+      "size": 12398,
+      "mtime": 1789559788816
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1952-gonda-sanskrit-in-indonesia.txt",
+      "size": 1605227,
+      "mtime": 1789568199210
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1953-kane-history-of-dharmasastra-vol4.txt",
+      "size": 2254576,
+      "mtime": 1789600162673
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1955-godakumbura-sinhalese-literature.txt",
+      "size": 7550,
+      "mtime": 1789598742028
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1955-paranavitana-godakumbura-epigraphia-zeylanica-vol5.txt",
+      "size": 2610,
+      "mtime": 1789598754862
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1956-de-casparis-prasasti-indonesia-ii.txt",
+      "size": 1437658,
+      "mtime": 1789559153737
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1956-rahula-history-of-buddhism-in-ceylon.txt",
+      "size": 934650,
+      "mtime": 1789559154859
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1958-bhattacharyya-indian-buddhist-iconography.txt",
+      "size": 989151,
+      "mtime": 1789601198526
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1958-kane-history-of-dharmasastra-vol5-pt1.txt",
+      "size": 1612051,
+      "mtime": 1789600160405
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1958-paranavitana-ancient-names-builder-padaviya-naccaduva-tanks.txt",
+      "size": 22563,
+      "mtime": 1789555773382
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1959-snellgrove-hevajra-tantra-part1-ocr-target.txt",
+      "size": 242324,
+      "mtime": 1789573196623
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1959-snellgrove-hevajra-tantra-part1.txt",
+      "size": 14324,
+      "mtime": 1789568522446
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1959-than-tun-religion-in-burma-ad-1000-1300.txt",
+      "size": 66985,
+      "mtime": 1789555894550
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1960-de-history-of-sanskrit-poetics.txt",
+      "size": 1665150,
+      "mtime": 1789601177384
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1962-kane-history-of-dharmasastra-vol5-pt2.txt",
+      "size": 3883949,
+      "mtime": 1789567391100
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1963-sternbach-canakya-niti-text-tradition.txt",
+      "size": 8050,
+      "mtime": 1789600063884
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1965-avalon-pandit-kularnava-tantra.txt",
+      "size": 441948,
+      "mtime": 1789557433093
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1965-sircar-indian-epigraphy.txt",
+      "size": 2108443,
+      "mtime": 1789601764974
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1965-sternbach-juridical-studies-ancient-indian-law-vol1.txt",
+      "size": 1964208,
+      "mtime": 1789566753879
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1967-chattopadhyaya-atisa-and-tibet.txt",
+      "size": 1264140,
+      "mtime": 1789556552208
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1967-sternbach-juridical-studies-ancient-indian-law-vol2.txt",
+      "size": 10290,
+      "mtime": 1789600064482
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1971-sarkar-corpus-inscriptions-java-vol1.txt",
+      "size": 678645,
+      "mtime": 1789601250396
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1971-sircar-studies-religious-life-ancient-india.txt",
+      "size": 660304,
+      "mtime": 1789564391511
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1973-lingat-classical-law-of-india.txt",
+      "size": 921087,
+      "mtime": 1789556073463
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1973-wayman-the-buddhist-tantras.txt",
+      "size": 622782,
+      "mtime": 1789556887157
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1976-bizot-le-figuier-a-cinq-branches.txt",
+      "size": 393020,
+      "mtime": 1789561995992
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1976-rajani-background-srivijaya-part4-tambralinga.txt",
+      "size": 109276,
+      "mtime": 1789601382728
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1977-rani-kriyasamgraha-kuladatta.txt",
+      "size": 7722,
+      "mtime": 1789559156214
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1977-rani-vajravali-abhayakaragupta.txt",
+      "size": 63130,
+      "mtime": 1789556069850
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1977-wayman-yoga-of-the-guhyasamajatantra.txt",
+      "size": 921212,
+      "mtime": 1789556856127
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1979-gunawardana-robe-and-plough-monasticism-sri-lanka.txt",
+      "size": 1045261,
+      "mtime": 1789556941814
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1979-gupta-hoens-goudriaan-hindu-tantrism.txt",
+      "size": 559445,
+      "mtime": 1789556738107
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1982-chutiwongs-visual-expressions-tantric-buddhism.txt",
+      "size": 29038,
+      "mtime": 1789555764757
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1982-schopen-dharani-stones-abhayagiriya.txt",
+      "size": 25628,
+      "mtime": 1789555764616
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1983-abhayakaragupta-vajravali-nispannayogavali-tibetan.txt",
+      "size": 1338607,
+      "mtime": 1789559156970
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1983-sherburne-atisa-lamp-for-the-path.txt",
+      "size": 417789,
+      "mtime": 1789556545947
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1991-bauer-notes-on-mon-epigraphy-ii.txt",
+      "size": 51055,
+      "mtime": 1789555764884
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1991-bauer-notes-on-mon-epigraphy.txt",
+      "size": 155976,
+      "mtime": 1789555765738
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1991-guillon-ultimate-origin-mon-beliefs.txt",
+      "size": 47073,
+      "mtime": 1789555764266
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1992-bizot-le-chemin-de-lanka.txt",
+      "size": 405939,
+      "mtime": 1789562410606
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1992-mori-vajravali-and-mandalavidhi-of-450-verses.txt",
+      "size": 12533,
+      "mtime": 1789555764414
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1993-bizot-la-guirlande-de-joyaux-ratanamala.txt",
+      "size": 18039,
+      "mtime": 1789601250735
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1993-tanemura-kriyasamgraha-gandilaksana-four-nikayas.txt",
+      "size": 7441,
+      "mtime": 1789555764266
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1994-ray-devadatta-the-rebel-saint.txt",
+      "size": 592,
+      "mtime": 1789601250745
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1997-bechert-bhaktisataka-oder-bauddhasataka.txt",
+      "size": 64414,
+      "mtime": 1789560342017
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1997-cousins-aspects-esoteric-southern-buddhism.txt",
+      "size": 63518,
+      "mtime": 1789604797005
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/1998-ohnuma-gift-of-the-body-and-the-gift-of-dharma.txt",
+      "size": 609,
+      "mtime": 1789601250756
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2001-sanderson-history-through-textual-criticism.txt",
+      "size": 180377,
+      "mtime": 1789555899303
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2002-davidson-indian-esoteric-buddhism.txt",
+      "size": 2273645,
+      "mtime": 1789559158099
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2002_Sri_Lankan_Temple_Manuscript_Collections_JPTS_XXVII.txt",
+      "size": 89267,
+      "mtime": 1789555767336
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2004-tsongkhapa-bla-ma-lnga-bcu-pa-rtsa-grel.txt",
+      "size": 806010,
+      "mtime": 1789559869788
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2005-olivelle-manus-code-of-law.txt",
+      "size": 2607822,
+      "mtime": 1789559160719
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2008-review-ohnuma-head-eyes-flesh-blood.txt",
+      "size": 13629,
+      "mtime": 1789601250823
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2009-sanderson-the-saiva-age.txt",
+      "size": 1134960,
+      "mtime": 1789555768898
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2010-castro-mantra-esoteric-theravada-mahanikaya.txt",
+      "size": 51448,
+      "mtime": 1789601250922
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2011-acri-dharma-patanjala-ancient-java-saiva-buddhist.txt",
+      "size": 1700816,
+      "mtime": 1789559163328
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2011-sundberg-giebel-vajrabodhi-srilankan-antecedents-vajrayana.txt",
+      "size": 269883,
+      "mtime": 1789555980415
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2012-gethin-skilling-how-theravada-is-theravada.txt",
+      "size": 199763,
+      "mtime": 1789601251710
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2013-foxeus-esoteric-theravada-burma.txt",
+      "size": 69206,
+      "mtime": 1789601251813
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2013-schober-esoteric-theravada-buddhism-burma.txt",
+      "size": 1710,
+      "mtime": 1789601251818
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2014-ciotti-gornall-visigalli-puspika-vol2.txt",
+      "size": 487617,
+      "mtime": 1789605424483
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2014-revire-murphy-before-siam-art-archaeology.txt",
+      "size": 1264416,
+      "mtime": 1789601253582
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2015-szanto-ritual-and-authority-buddhist-tantra.txt",
+      "size": 34436,
+      "mtime": 1789601253626
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2016-sjp-totagamuwa-vijayabahu-pirivena-study.txt",
+      "size": 11008,
+      "mtime": 1789555764884
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2016-szanto-minor-vajrayana-texts-ganacakravidhi.txt",
+      "size": 90769,
+      "mtime": 1789604529905
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2017-acri-spirits-and-ships-cultural-transfers.txt",
+      "size": 1314398,
+      "mtime": 1789601258676
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2018-hettiarachchi-lineage-buddhism-sri-lanka-katikavata.txt",
+      "size": 68833,
+      "mtime": 1789555764265
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2018-walker-unfolding-buddhism-cambodian-leporellos.txt",
+      "size": 4801195,
+      "mtime": 1789559167149
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2019-berkwitz-narratives-of-buddhist-relics-and-images.txt",
+      "size": 104378,
+      "mtime": 1789555764528
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2019-szanto-tantric-lineage-initiatory-identity.txt",
+      "size": 147023,
+      "mtime": 1789601259016
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2020-acri-hunter-translation-commentary-old-javanese.txt",
+      "size": 96727,
+      "mtime": 1789555764427
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2020-crosby-esoteric-theravada-forgotten-tradition.txt",
+      "size": 633035,
+      "mtime": 1789601259560
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2020-gornall-rewriting-buddhism.txt",
+      "size": 887611,
+      "mtime": 1789557210986
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2020-szanto-vagisvarakirti-initiation-samaya.txt",
+      "size": 68221,
+      "mtime": 1789601259682
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2021-kaloyanides-charles-hallisey-southeast-asian-buddhist-studies.txt",
+      "size": 32362,
+      "mtime": 1789555764568
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2024-kotyk-kingship-and-elite-values-mahasamghika-vinaya.txt",
+      "size": 70013,
+      "mtime": 1789601259832
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2025-ranaweera-education-kotte-sandesha-kavya-pirivena.txt",
+      "size": 42798,
+      "mtime": 1789555764529
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/Crosby_2000_Tantric_Theravada_Bibliographic_Essay.txt",
+      "size": 179122,
+      "mtime": 1789555768204
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/glossary_full.txt",
+      "size": 31358,
+      "mtime": 1789573876810
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/gornall_karakas_ocr.txt",
+      "size": 58775,
+      "mtime": 1789604731308
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/Gray_1886_Ancient_Proverbs_Burmese_Niti.txt",
+      "size": 320385,
+      "mtime": 1789551130266
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/Kourilsky_2007_Gavampatisutta_Intertextuality_Thai_Lao.txt",
+      "size": 69235,
+      "mtime": 1789555764818
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/Manusmriti_with_Kulluka_Commentary.txt",
+      "size": 512665,
+      "mtime": 1789555771008
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/McDaniel_2002_Curricular_Canon_Northern_Thailand_Laos.txt",
+      "size": 143025,
+      "mtime": 1789556738238
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/ocr_check_91_102.txt",
+      "size": 40975,
+      "mtime": 1789572809827
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/ocr_check_134_145.txt",
+      "size": 34343,
+      "mtime": 1789573552725
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/other_papers_ocr.txt",
+      "size": 153505,
+      "mtime": 1789604921170
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/pdf_direct_extracted.txt",
+      "size": 11811,
+      "mtime": 1789568971604
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/preface_ocr.txt",
+      "size": 15713,
+      "mtime": 1789604766550
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/real_epigraphia_birmanica_all.txt",
+      "size": 1947934,
+      "mtime": 1789567606665
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/Szanto_2013_Gurupancasika_New_Manuscript.txt",
+      "size": 11632,
+      "mtime": 1789555946083
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/Upasakajanalankara_Pali_Fulltext_Saddhatissa.txt",
+      "size": 349878,
+      "mtime": 1789555374443
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/Von_Hinuber_1983_Oldest_Pali_Manuscript.txt",
+      "size": 103460,
+      "mtime": 1789556118164
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/full_corpus_status_report.json",
+      "size": 150607,
+      "mtime": 1789606823129
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/harvested_summary.json",
+      "size": 5991,
+      "mtime": 1789555608112
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/harvested_summary_round2.json",
+      "size": 912,
+      "mtime": 1789601409563
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/manual-download-round2.md",
+      "size": 12480,
+      "mtime": 1789601008000
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/reading-progress.md",
+      "size": 19221,
+      "mtime": 1789605957117
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/source-index.md",
+      "size": 137700,
+      "mtime": 1789604926038
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/source-index-round2.md",
+      "size": 49162,
+      "mtime": 1789604701331
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1084-richeng-17.md",
+      "size": 172542,
+      "mtime": 1789569476279
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1870-alwis-77.md",
+      "size": 138794,
+      "mtime": 1789599155072
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1877-fausboll-vol1-164.md",
+      "size": 138934,
+      "mtime": 1789605118043
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1879-buhler-128.md",
+      "size": 141908,
+      "mtime": 1789605136279
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1879-muller-168.md",
+      "size": 166963,
+      "mtime": 1789605358109
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1880-jolly-129.md",
+      "size": 144135,
+      "mtime": 1789605283535
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1880-ras-60.md",
+      "size": 137869,
+      "mtime": 1789602888355
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1881-jolly-120.md",
+      "size": 139504,
+      "mtime": 1789601997231
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1883-muller-78.md",
+      "size": 118466,
+      "mtime": 1789599594435
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1884-kern-154.md",
+      "size": 127162,
+      "mtime": 1789605371704
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1886-gray-01.md",
+      "size": 133596,
+      "mtime": 1789569787458
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1886-gray-dhammaniti-137.md",
+      "size": 120525,
+      "mtime": 1789605081904
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1886-kulluka-97.md",
+      "size": 135163,
+      "mtime": 1789600531321
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1889-jolly-130.md",
+      "size": 150521,
+      "mtime": 1789605614149
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1892-burgess-108.md",
+      "size": 133080,
+      "mtime": 1789601495403
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1892-tawseinko-04.md",
+      "size": 127593,
+      "mtime": 1789570964924
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1894-bharati-59.md",
+      "size": 132434,
+      "mtime": 1789598407465
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1894-burgess-109.md",
+      "size": 119445,
+      "mtime": 1789601452748
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1894-hultzsch-110.md",
+      "size": 157391,
+      "mtime": 1789601511120
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1896-fausboll-vol6-165.md",
+      "size": 126340,
+      "mtime": 1789605156118
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1896-hultzsch-111.md",
+      "size": 125865,
+      "mtime": 1789601468133
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1898-hultzsch-112.md",
+      "size": 125554,
+      "mtime": 1789601570364
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1900-hultzsch-113.md",
+      "size": 139290,
+      "mtime": 1789601585662
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1901-wickremasinghe-14.md",
+      "size": 107845,
+      "mtime": 1789571020817
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1902-hultzsch-114.md",
+      "size": 127714,
+      "mtime": 1789602071984
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1904-wickremasinghe-118.md",
+      "size": 138111,
+      "mtime": 1789602392988
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1905-hultzsch-115.md",
+      "size": 148895,
+      "mtime": 1789602099884
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1909-gopalbhatta-136.md",
+      "size": 174019,
+      "mtime": 1789605155189
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1910-desilva-58.md",
+      "size": 124899,
+      "mtime": 1789598637718
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1912-ganapati-131.md",
+      "size": 156384,
+      "mtime": 1789605138093
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1912-geiger-79.md",
+      "size": 123876,
+      "mtime": 1789599623496
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1912-wickremasinghe-57.md",
+      "size": 150404,
+      "mtime": 1789605346621
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1913-brandes-19.md",
+      "size": 121243,
+      "mtime": 1789605194320
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1914-vasu-135.md",
+      "size": 132873,
+      "mtime": 1789605127023
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1916-shastri-105.md",
+      "size": 121020,
+      "mtime": 1789601540712
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1917-avalon-37.md",
+      "size": 103317,
+      "mtime": 1789575738707
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1918-avalon-40.md",
+      "size": 130322,
+      "mtime": 1789597222452
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1918-chakravarty-134.md",
+      "size": 136932,
+      "mtime": 1789605118194
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1918-duroiselle-02.md",
+      "size": 262029,
+      "mtime": 1789569778793
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1918-kularnava-133.md",
+      "size": 131802,
+      "mtime": 1789605313457
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1919-tawseinko-64.md",
+      "size": 112310,
+      "mtime": 1789598573025
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1920-blagden-65.md",
+      "size": 157792,
+      "mtime": 1789599105346
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1920-jha-126.md",
+      "size": 126139,
+      "mtime": 1789605095824
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1920-pemaungtin-71.md",
+      "size": 156608,
+      "mtime": 1789599183912
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1921-duroiselle-66.md",
+      "size": 132942,
+      "mtime": 1789599014739
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1921-duroiselle-68.md",
+      "size": 151156,
+      "mtime": 1789601872890
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1921-pemaungtin-72.md",
+      "size": 151715,
+      "mtime": 1789599071793
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1922-bendall-153.md",
+      "size": 156262,
+      "mtime": 1789605278626
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1922-jayatilaka-56.md",
+      "size": 134221,
+      "mtime": 1789598403636
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1922-kaul-42.md",
+      "size": 131456,
+      "mtime": 1789597275289
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1923-law-152.md",
+      "size": 134372,
+      "mtime": 1789605094547
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1923-pemaungtin-73.md",
+      "size": 148774,
+      "mtime": 1789599100493
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1924-jha-127.md",
+      "size": 163794,
+      "mtime": 1789605522476
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1925-bhattacharyya-98.md",
+      "size": 139048,
+      "mtime": 1789600729788
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1925-guru-gita-132.md",
+      "size": 148787,
+      "mtime": 1789605020294
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1925-law-151.md",
+      "size": 195112,
+      "mtime": 1789605553501
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1926-avalon-41.md",
+      "size": 108983,
+      "mtime": 1789597866374
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1926-woodroffe-garland-letters-174.md",
+      "size": 131460,
+      "mtime": 1789605221655
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1927-shastri-51.md",
+      "size": 116447,
+      "mtime": 1789598400333
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1928-bhattacharyya-99.md",
+      "size": 123829,
+      "mtime": 1789600483651
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1928-bhattacharyya-100.md",
+      "size": 134671,
+      "mtime": 1789600761216
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1928-blagden-67.md",
+      "size": 138542,
+      "mtime": 1789599246429
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1928-malalasekera-63.md",
+      "size": 122814,
+      "mtime": 1789565702781
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1928-vasu-gheranda-samhita-175.md",
+      "size": 148252,
+      "mtime": 1789605181115
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1928-wickremasinghe-119.md",
+      "size": 128952,
+      "mtime": 1789601960694
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1929-levi-16.md",
+      "size": 164333,
+      "mtime": 1789569395144
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1929-pemaungtin-74.md",
+      "size": 139927,
+      "mtime": 1789599065700
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1929-woodroffe-44.md",
+      "size": 126360,
+      "mtime": 1789597403178
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1930-kane-88.md",
+      "size": 137621,
+      "mtime": 1789599777734
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1931-bhattacharyya-101.md",
+      "size": 114597,
+      "mtime": 1789600511469
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1931-pemaungtin-75.md",
+      "size": 124676,
+      "mtime": 1789599201282
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1932-bhattacharyya-102.md",
+      "size": 136590,
+      "mtime": 1789601419041
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1933-lakshmana-39.md",
+      "size": 119520,
+      "mtime": 1789597869351
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1933-paranavitana-12.md",
+      "size": 105171,
+      "mtime": 1789571679294
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1934-bagchi-43.md",
+      "size": 127476,
+      "mtime": 1789597534982
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1934-paranavitana-80.md",
+      "size": 114118,
+      "mtime": 1789599840401
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1936-ray-69.md",
+      "size": 132397,
+      "mtime": 1789599114340
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1939-bagchi-104.md",
+      "size": 127998,
+      "mtime": 1789601468440
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1941-kane-89.md",
+      "size": 126815,
+      "mtime": 1789599667087
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1942-de-106.md",
+      "size": 127888,
+      "mtime": 1789601516280
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1943-bharati-08.md",
+      "size": 197556,
+      "mtime": 1789569754133
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1946-kane-90.md",
+      "size": 130133,
+      "mtime": 1789600467196
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1946-ray-70.md",
+      "size": 139349,
+      "mtime": 1789599233208
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1946-ray-burma-188.md",
+      "size": 106296,
+      "mtime": 1789604792307
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1948-bharati-09.md",
+      "size": 127506,
+      "mtime": 1789569917825
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1949-nicholas-123.md",
+      "size": 132078,
+      "mtime": 1789601987932
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1952-gonda-86.md",
+      "size": 127986,
+      "mtime": 1789599667181
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1953-kane-91.md",
+      "size": 122886,
+      "mtime": 1789600500208
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1955-godakumbura-81.md",
+      "size": 137473,
+      "mtime": 1789600008367
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1955-paranavitana-82.md",
+      "size": 118175,
+      "mtime": 1789599645820
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1956-decasparis-20.md",
+      "size": 103932,
+      "mtime": 1789571718319
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1956-rahula-61.md",
+      "size": 129345,
+      "mtime": 1789598589666
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1958-bhattacharyya-103.md",
+      "size": 127867,
+      "mtime": 1789601484111
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1958-kane-92.md",
+      "size": 119516,
+      "mtime": 1789600987196
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1958-paranavitana-124.md",
+      "size": 117099,
+      "mtime": 1789602415368
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1959-snellgrove-27.md",
+      "size": 137044,
+      "mtime": 1789574439588
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1959-thantun-03.md",
+      "size": 211241,
+      "mtime": 1789569448991
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1960-de-107.md",
+      "size": 138950,
+      "mtime": 1789601546641
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1962-kane-93.md",
+      "size": 109971,
+      "mtime": 1789600453958
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1963-sternbach-94.md",
+      "size": 117133,
+      "mtime": 1789600601096
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1965-avalon-38.md",
+      "size": 102637,
+      "mtime": 1789575777152
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1965-saddhatissa-125.md",
+      "size": 188656,
+      "mtime": 1789602306617
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1965-sircar-116.md",
+      "size": 127955,
+      "mtime": 1789603583029
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1965-sternbach-95.md",
+      "size": 151569,
+      "mtime": 1789600976029
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1967-chattopadhyaya-32.md",
+      "size": 151337,
+      "mtime": 1789605336448
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1967-sternbach-96.md",
+      "size": 135000,
+      "mtime": 1789601019192
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1971-sarkar-inscriptions-170.md",
+      "size": 150100,
+      "mtime": 1789605149236
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1971-sircar-117.md",
+      "size": 124898,
+      "mtime": 1789602026218
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1973-lingat-24.md",
+      "size": 106156,
+      "mtime": 1789573052523
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1973-wayman-26.md",
+      "size": 103094,
+      "mtime": 1789573286241
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1976-bizot-29.md",
+      "size": 157589,
+      "mtime": 1789573592157
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1976-rajani-147.md",
+      "size": 163675,
+      "mtime": 1789605282931
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1977-rani-48.md",
+      "size": 126907,
+      "mtime": 1789597312469
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1977-rani-49.md",
+      "size": 138565,
+      "mtime": 1789598016975
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1977-wayman-25.md",
+      "size": 124197,
+      "mtime": 1789605262120
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1979-gunawardana-62.md",
+      "size": 129833,
+      "mtime": 1789598625474
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1979-gupta-45.md",
+      "size": 133816,
+      "mtime": 1789597313962
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1982-chutiwongs-83.md",
+      "size": 164959,
+      "mtime": 1789599436573
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1982-schopen-10.md",
+      "size": 199634,
+      "mtime": 1789569840163
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1983-abhayakaragupta-50.md",
+      "size": 120026,
+      "mtime": 1789598472728
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1983-hinuber-22.md",
+      "size": 135190,
+      "mtime": 1789572801278
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1983-sherburne-33.md",
+      "size": 174470,
+      "mtime": 1789577051735
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1991-bauer-05.md",
+      "size": 173735,
+      "mtime": 1789570002584
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1991-bauer-76.md",
+      "size": 174403,
+      "mtime": 1789598985428
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1991-guillon-06.md",
+      "size": 142164,
+      "mtime": 1789569269368
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1992-bizot-30.md",
+      "size": 153980,
+      "mtime": 1789574671658
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1992-mori-52.md",
+      "size": 136402,
+      "mtime": 1789598624199
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1993-bizot-ratanamala-184.md",
+      "size": 103607,
+      "mtime": 1789605924028
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1993-tanemura-53.md",
+      "size": 134497,
+      "mtime": 1789598488462
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1997-bechert-07.md",
+      "size": 212192,
+      "mtime": 1789569391758
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-1997-cousins-141.md",
+      "size": 147962,
+      "mtime": 1789605098923
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2000-crosby-34.md",
+      "size": 164474,
+      "mtime": 1789577104931
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2001-sanderson-47.md",
+      "size": 119637,
+      "mtime": 1789597314534
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2002-davidson-28.md",
+      "size": 106346,
+      "mtime": 1789564148148
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2002-mcdaniel-35.md",
+      "size": 121347,
+      "mtime": 1789597092372
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2002-somadasa-84.md",
+      "size": 123920,
+      "mtime": 1789599688572
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2004-tsongkhapa-18.md",
+      "size": 131963,
+      "mtime": 1789569768350
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2005-olivelle-23.md",
+      "size": 106870,
+      "mtime": 1789573052523
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2007-kourilsky-36.md",
+      "size": 116269,
+      "mtime": 1789596312463
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2008-review-ohnuma-189.md",
+      "size": 165758,
+      "mtime": 1789605136332
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2009-sanderson-46.md",
+      "size": 173338,
+      "mtime": 1789597237137
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2010-castro-mantra-182.md",
+      "size": 161407,
+      "mtime": 1789605040534
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2011-acri-87.md",
+      "size": 136415,
+      "mtime": 1789599640032
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2011-sundberg-11.md",
+      "size": 248568,
+      "mtime": 1789569356106
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2012-gethin-skilling-187.md",
+      "size": 109127,
+      "mtime": 1789604769994
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2013-foxeus-burma-186.md",
+      "size": 172636,
+      "mtime": 1789605011128
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2013-szanto-15.md",
+      "size": 150953,
+      "mtime": 1789569486290
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2014-gornall-ciotti-183.md",
+      "size": 103163,
+      "mtime": 1789605658311
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2014-revire-murphy-179.md",
+      "size": 140704,
+      "mtime": 1789605186793
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2015-szanto-ritual-178.md",
+      "size": 142267,
+      "mtime": 1789605166262
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2016-sjp-85.md",
+      "size": 116150,
+      "mtime": 1789599594557
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2016-szanto-minor5-185.md",
+      "size": 161236,
+      "mtime": 1789605153449
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2017-acri-spirits-ships-180.md",
+      "size": 191929,
+      "mtime": 1789605303985
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2018-hettiarachchi-55.md",
+      "size": 118479,
+      "mtime": 1789598409777
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2018-walker-31.md",
+      "size": 105710,
+      "mtime": 1789573052524
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2019-berkwitz-122.md",
+      "size": 139401,
+      "mtime": 1789602025157
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2019-szanto-identity-176.md",
+      "size": 125481,
+      "mtime": 1789604996149
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2020-acri-21.md",
+      "size": 227225,
+      "mtime": 1789572756876
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2020-crosby-book-140.md",
+      "size": 190790,
+      "mtime": 1789605385457
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2020-gornall-13.md",
+      "size": 127369,
+      "mtime": 1789569501785
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2020-szanto-vagisvarakirti-177.md",
+      "size": 119124,
+      "mtime": 1789605012052
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2021-kaloyanides-121.md",
+      "size": 149696,
+      "mtime": 1789601878546
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2024-kotyk-vinaya-181.md",
+      "size": 150861,
+      "mtime": 1789604951582
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/sources/S-2025-ranaweera-54.md",
+      "size": 134586,
+      "mtime": 1789598667283
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/stanza_source_matrix.md",
+      "size": 12625,
+      "mtime": 1789601008001
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/scratch/test.txt",
+      "size": 27,
+      "mtime": 1789607235556
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/validation-report.txt",
+      "size": 3543,
+      "mtime": 1789610708055
     },
     {
       "path": "บทแปลคัมภีร์คุรุปัญจาศิกาฉบับคำแปลสมบูรณ์/final/01_คุรุปัญจาศิกา_ฉบับแปลภาษาสันสกฤต_ฉบับที่2.md",
@@ -33834,21 +36024,6 @@
       "path": "Dissertation/Dissertation_Translated.md",
       "size": 1428767,
       "mtime": 1788467591968
-    },
-    {
-      "path": "petleik_actual_article.txt",
-      "size": 23636,
-      "mtime": 1789292509997
-    },
-    {
-      "path": "petleik_extracted.txt",
-      "size": 19933,
-      "mtime": 1789292228372
-    },
-    {
-      "path": "petleik_full_article.txt",
-      "size": 422983,
-      "mtime": 1789292479696
     }
   ]
 }
