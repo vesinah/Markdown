@@ -55,4 +55,4 @@
 - [x] Phase 6: Source Analysis Dossiers 100% (`research-notes/sources/` รวม ๑๖๔ ฉบับสมบูรณ์ เกิน ๑๐๐ KB ทุกฉบับ ๑๐๐%)
 - [x] Phase 7: Strict Dossier-Driven Drafting (สปรินต์ยกร่างทีละบท บทที่ ๑–๙, บทละ ≥ ๑๐,๐๐๐ คำ รวมได้ ๑๒๙,๗๗๕ คำ ผ่านเกณฑ์สมบูรณ์)
 - [x] Phase 8: Stylistic Polish, Glossary Harmonization & Footnote Sorting (ขัดเกลาสำนวนและจัดระเบียบเชิงอรรถ Chicago ๗๖๐ รายการสมบูรณ์ ๑๐๐%)
-- [ ] Phase 9: Final Assembly, Word Count Verification (`count_words.py`) & Handover\n
+- [x] Phase 9: Final Assembly, Word Count Verification & Handover (เสร็จสมบูรณ์ ๑๐๐% รวม ๑๔๑,๘๖๔ คำ สันสกฤตเป็นแม่บท)
