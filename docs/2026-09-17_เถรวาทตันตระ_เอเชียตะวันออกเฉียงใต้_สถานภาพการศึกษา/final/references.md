@@ -1,0 +1,585 @@
+﻿# บรรณานุกรมแม่บท (Master Bibliography)
+## โครงการวิจัย: เถรวาทตันตระ หรือเถรวาทแบบเซาท์อีสเอเชีย: กำเนิด พัฒนาการ การดำรงอยู่ และสถานภาพการศึกษาทางประวัติศาสตร์นิพนธ์
+### (Tantric Theravāda / Southern Esoteric Buddhism: Origins, Evolution, Living Traditions, and Historiography)
+
+---
+
+### บทนำว่าด้วยระบบการอ้างอิงและระเบียบวิธีบรรณานุกรม
+
+บรรณานุกรมแม่บทฉบับนี้ประมวลและบูรณาการรายการเอกสารอ้างอิงทั้งหมดที่ปรากฏในรายงานวิจัยแม่บททั้ง 7 บท ตามมาตรฐานสากล **The Chicago Manual of Style 17th Edition (Notes-Bibliography System)** โดยมีฐานข้อมูลอ้างอิงจากคลังรายงานวิเคราะห์เอกสารฉบับสมบูรณ์ 843 Source Analysis Dossiers (97.90 MB) ใน esearch-notes/sources/ ครบถ้วน 100%
+
+รายการเอกสารทั้งหมดได้รับการจำแนกออกเป็น 4 ภาควิชาการหลัก:
+1. **ภาคที่ 1: คัมภีร์ปฐมภูมิ วรรณกรรมตัวเขียนใบลาน และพงศาวดารโบราณ (Primary Canonical Texts, Manuscripts & Chronicles)**
+2. **ภาคที่ 2: คลังจารึก ศิลาจารึก และเอกสารกฎบัตร (Inscriptions, Epigraphy & Monastic Charters)**
+3. **ภาคที่ 3: หนังสือ ตำรา และรายงานวิชาการทุติยภูมิ (Secondary Scholarly Books & Monographs)**
+4. **ภาคที่ 4: บทความวิจัยในวารสารวิชาการและรวมบทความ (Journal Articles, Book Chapters & Anthologies)**
+
+---
+
+## ภาคที่ 1: คัมภีร์ปฐมภูมิ วรรณกรรมตัวเขียนใบลาน และพงศาวดารโบราณ (Primary Sources)
+
+- *Ādikappa* (*Ādikalpa*). ใบลานภาษาบาลี-พม่าโบราณ ว่าด้วยจักรวาลวิทยาและกำเนิดมนุษย์.
+- *Buddha Purāṇa*. คัมภีร์ภาษาสันสกฤตสายเนปาล-พม่า.
+- *Cakrasaṃvara Tantra* (*The Discourse of Śrī Heruka*). แปลและชำระโดย David B. Gray. New York: American Institute of Buddhist Studies, 2007.
+- *Dharma Pātañjala: A Śaiva Scripture from Ancient Java Studied in the Light of Related Old Javanese and Sanskrit Texts*. แปลและชำระโดย Andrea Acri. Groningen: Egbert Forsten, 2011.
+- *Gaṇḍavyūha Sūtra* (คัณฑวยูหสูตร ใน *มหาไวปุลยพุทธาวตังสกสูตร*). คัมภีร์ภาษาสันสกฤตและฉบับแปลจีน.
+- *Hevajra Tantra: A Critical Study*. 2 เล่ม. แปลและชำระโดย David L. Snellgrove. London: Oxford University Press, 1959.
+- *Hmannan Yazawin* (*The Glass Palace Chronicle of the Kings of Burma*). แปลโดย Pe Maung Tin และ Gordon H. Luce. London: Oxford University Press, 1923.
+- *Kāraṇḍavyūha Sūtra* (การัณฑวยูหสูตร). คัมภีร์ภาษาสันสกฤตว่าด้วยพระเกียรติคุณพระอวโลกิเตศวร.
+- *Loki-zā* (วรรณกรรมกลุ่มโลกียะซา). ชุดตำราลี้ลับภาษาพม่าว่าด้วยการเล่นแร่แปรธาตุ ปรอท ยาอายุวัฒนะ และเวะซา.
+- *Nagarakṛtāgama* (*Deśawarṇana* ของ Mpu Prapañca, ค.ศ. 1365). ชำระโดย Th. Pigeaud. The Hague: Martinus Nijhoff, 1960–1963.
+- *Niśvāsatattvasaṃhitā* (*Niśvāsaguhya*). คัมภีร์ไศวะตันตระสายอติมารคะยุคแรก.
+- *Saddharma-puṇḍarīka-sūtra* (*The Lotus of the True Law*). แปลโดย H. Kern, Sacred Books of the East, vol. 21. Oxford: Clarendon Press, 1884; และฉบับแปลโดย Tsugunari Kubo และ Akira Yuyama, 2nd ed. Berkeley: Numata Center for Buddhist Translation and Research, 2007.
+- *Sādhanamālā*. 2 เล่ม. ชำระโดย Benoytosh Bhattacharyya. Gaekwad's Oriental Series. Baroda: Central Library, 1925, 1928.
+- *Saṅg Hyang Kamahāyānikan* (SHK). คัมภีร์พุทธตันตระชวาโบราณ ชำระโดย J. Kats (The Hague, 1910) และวิเคราะห์โดย Hudaya Kandahjaya (2016).
+- *Sāsanavaṃsa*. โดย พระปัญญาสามี (Paññasāmī, ค.ศ. 1861). ชำระโดย Mabel Haynes Bode. London: Pali Text Society, 1897.
+- *Sutaśoma* (*Kakawin Sutasoma* ของ Mpu Tantular, ค.ศ. 1365–1389). ชำระโดย Soewito Santoso. New Delhi: International Academy of Indian Culture, 1975.
+- *Tattvasaṃgraha Tantra* (ตัตตวะสังเคราะห์). คัมภีร์โยคะตันตระแม่บทภาษาสันสกฤตและทิเบต.
+- *Wṛhaspatitattwa*. คัมภีร์ปรัชญาไศวะ-สิทธันตะชวาโบราณ ชำระโดย Sudarshana Devi. New Delhi: International Academy of Indian Culture, 1957.
+- *จารึกเกอดูกัน บูกิต* (Kedukan Bukit Inscription, ค.ศ. 682, สุมาตราใต้)
+- *จารึกเกอลูรัก* (Kelurak Inscription, ค.ศ. 782, อักษรปรนาครี ภาษาสันสกฤต)
+- *จารึกเทลากา บาตู* (Telaga Batu Inscription, ปลายคริสต์ศตวรรษที่ 7, ปาเล็มบัง)
+- *จารึกแผ่นทองคำธารณีและยันตร์มณฑล* (Dhāraṇī and Yantra Gold Plates from Borobudur, Sewu, and Plaosan)
+- *จารึกโกตา คาปูร์* (Kota Kapur Inscription, ค.ศ. 686, เกาะบังกา)
+- *จารึกกาญจนะ / ปลุมปุงอัน* (Plumpungan / Canggal Inscriptions)
+- *จารึกการัง บราฮี* (Karang Brahi Inscription, ปลายคริสต์ศตวรรษที่ 7, จัมบี)
+- *จารึกคาถา เย ธรฺมา ภาษาบาลี-สันสกฤต* (นครปฐม, ยะรัง, และไชยา)
+- *จารึกจัณฑิกะลาซัน* (Kalasan Inscription, ค.ศ. 778, อักษรปรนาครี ภาษาสันสกฤต)
+- *จารึกตาลัง ตูโว* (Talang Tuwo Inscription, ค.ศ. 684, สุมาตราใต้)
+- *จารึกมัญชุศรีคฤหะ / จัณฑิเซวู* (Mañjuśrīgṛha / Candi Sewu Inscription, ค.ศ. 792)
+- *จารึกหุบเขาบูกิต เมเรียม และเขากรอบ* (Kedah and Southern Thailand Buddhist Inscriptions)
+- *ศิลาจารึกเวียงสระ / หลักที่ 23* (Ligor Stele / Viang Sa Inscription, ค.ศ. 775)
+- *ศิลาจารึกตาพรหม* (Ta Prohm Stele, K. 273, ค.ศ. 1186)
+- *ศิลาจารึกบัญชีหอสมุดพุทธศาสนาเมืองตองกวินยี* (Taungdwingyi Library List Inscription, ค.ศ. 1442)
+- *ศิลาจารึกบันทายฉมาร์* (Banteay Chhmar Inscriptions, K. 227)
+- *ศิลาจารึกบ้านธามะตี* (Thamati Inscription, ค.ศ. 1302)
+- *ศิลาจารึกปราสาทพนมวัน* (Prasat Phnom Wan Inscription, K. 391)
+- *ศิลาจารึกพระขรรค์* (Preah Khan Stele, K. 908, ค.ศ. 1191)
+- *ศิลาจารึกพิมานอากาศ* (Phimeanakas Inscription, K. 291/485)
+- *ศิลาจารึกพุทธมณฑลด่งเซือง* (Đồng Dương Stele Inscription, C. 66, ค.ศ. 875)
+- *ศิลาจารึกวัดนันทมัญญา* (Nandamannya Inscription, ค.ศ. 1248 / จ.ศ. 610)
+- *ศิลาจารึกวัดสิทธิกัมรเตง* (Wat Sith Kmar Teng Inscription, K. 214)
+- *ศิลาจารึกสด๊กก๊อกธม* (Sdok Kak Thom Inscription, K. 235, ค.ศ. 1052)
+- *ศิลาจารึกสระกำแพงใหญ่* (Prasat Sa Khampaeng Yai Inscription, K. 391)
+- *ศิลาจารึกสวายเจก* (Svay Chek Inscription, K. 111)
+- *ศิลาจารึกหมี่เซิน* (Mỹ Sơn Inscriptions, C. 73, C. 149)
+
+---
+
+## ภาคที่ 2: หนังสือ ตำรา และรายงานวิชาการทุติยภูมิ (Secondary Books & Monographs)
+
+- Acri, Andrea, ed. *Esoteric Buddhism in Mediaeval Maritime Asia: Networks of Masters, Texts, Icons*. Singapore: ISEAS–Yusof Ishak Institute, 2016.
+- Acri, Andrea, Roger Blench, and Alexandra Landmann, eds. *Spirits and Ships: Cultural Transfers in Early Monsoon Asia*. Nalanda-Sriwijaya Series 24. Singapore: ISEAS - Yusof Ishak Institute, 2017.
+- Acri, Andrea, Roger Blench, and Alexandra Landmann. "Introduction: Re-connecting Histories across the Indo-Pacific." In *Spirits and Ships: Cultural Transfers in Early Monsoon Asia*, edited by Andrea Acri, Roger Blench, and Alexandra Landmann, 1–36. Nalanda-Sriwijaya Series, vol. 24. Singapore: ISEAS - Yusof Ishak Institute, 2017.
+- Acri, Andrea, บรรณาธิการ. *Esoteric Buddhism in Mediaeval Maritime Asia: Networks of Masters, Texts, Icons*. Singapore: ISEAS Publishing, 2016.
+- Acri, Andrea. "“Hard-Core” Tantric Traditions and the Cult of Bhairava in Java." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 427–456. New York: Oxford University Press, 2024.
+- Acri, Andrea. "Bhairava and the Cult of the Wrathful Deities in Ancient Java." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 415–438. New York: Oxford University Press, 2024.
+- Acri, Andrea. "Tantric Buddhism and Śaivism in Maritime Southeast Asia: Textual, Historical and Iconographic Linkages." In *The Routledge Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 142–156. London: Routledge, 2024.
+- Acri, Andrea. "Tantrism ‘Seen from the East’: Re-evaluating the Spread of Tantra in Premodern Southeast Asia." In *Spirits and Ships: Cultural Transfer with Formative South, Southeast, and East Asia*, edited by Andrea Acri, Roger Blench, and Alexandra Landmann, 281–316. Singapore: ISEAS Publishing, 2017.
+- Acri, Andrea. "Tantrism 'Seen from the East'." In *Spirits and Ships: Cultural Transfers in Early Monsoon Asia*, edited by Andrea Acri, Roger Blench, and Alexandra Landmann, 71–144. Nalanda-Sriwijaya Series 24. Singapore: ISEAS - Yusof Ishak Institute, 2017.
+- Acri, Andrea. "Tantrism 'Seen from the East': Maritime Crosscurrents in the Translocal Formation of Tantra." ใน *Esoteric Buddhism in Mediaeval Maritime Asia: Networks of Masters, Texts, Icons*, บรรณาธิการโดย Andrea Acri, 71–156. Singapore: ISEAS Publishing, 2016.
+- Acri, Andrea. "The Śaiva-Bauddha Continuum in Java and Bali." In *Esoteric Buddhism in Mediaeval Maritime Asia: Networks of Masters, Texts, Icons*, edited by Andrea Acri, 1–18. Singapore: ISEAS Publishing, 2016.
+- Acri, Andrea. *Dharma Pātañjala: A Śaiva Scripture from Ancient Java Studied in the Light of Related Old Javanese and Sanskrit Texts*. Gonda Indological Studies 16. Groningen: Egbert Forsten, 2011.
+- Acri, Andrea. *Dharma Pātañjala: A Śaiva Scripture from Ancient Java Studied in the Light of Related Old Javanese and Sanskrit Texts*. Groningen: Egbert Forsten, 2011.
+- Alabaster, Henry. *The Modern Buddhist: Being the Views of a Siamese Minister of State on His Own and Other Religions*. London: Trübner & Co., 1870.
+- Alabaster, Henry. *The Wheel of the Law: Buddhism Illustrated from Siamese Sources*. London: Trübner & Co., 1871.
+- Almond, Philip C. *The British Discovery of Buddhism*. Cambridge: Cambridge University Press, 1988.
+- Ando, Mitsuru. "The Transformation of Old Javanese Texts in the Light of Indian Sources: The Case of the *Wṛhaspatitattwa*." In *Mélanges tantriques à la mémoire d'Hélène Brunner*, edited by Dominic Goodall and André Padoux, 249–262. Pondicherry: Institut Français de Pondichéry / École française d'Extrême-Orient, 2007.
+- Andreeva, Anna. "Buddhist Embryology and the Esoteric Body in Medieval Japan." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 249–272. New York: Oxford University Press, 2024.
+- Andreeva, Anna. "Cosmology and Embryology in Medieval Japan." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 249–274. New York: Oxford University Press, 2024.
+- Arnold, Dan. *Buddhists, Brahmins, and Belief: Epistemology in South Asian Philosophy of Religion*. New York: Columbia University Press, 2005.
+- Aung-Thwin, Michael. *The Mists of Rāmañña: The Legend That Was Lower Burma*. Honolulu: University of Hawai'i Press, 2005.
+- Avalon, Arthur (Sir John Woodroffe), ed. and trans. *Principles of Tantra: Part I (The Tantratattva of Śrīyukta Shiva Chandra Vidyārṇava Bhaṭṭāchāryya)*. London: Luzac & Co., 1914.
+- Avalon, Arthur (Sir John Woodroffe). *Garland of Letters (Varṇamālā): Studies in the Mantra-Śāstra*. Madras: Ganesh & Co., 1922; 6th ed., Pondicherry: Sri Aurobindo Ashram, 1974.
+- Avalon, Arthur (Sir John Woodroffe). *Principles of Tantra*. London: Luzac & Co., 1914.
+- Avalon, Arthur (Sir John Woodroffe). *Śakti and Śākta: Essays and Addresses on the Śākta Tantraśāstra*. 3rd ed. London: Luzac & Co., 1927.
+- Avalon, Arthur (Sir John Woodroffe). *The Serpent Power: Being the Ṣaṭ-Cakra-Nirūpaṇa and Pādukā-Pañcaka, Two Works on Laya Yoga*. London: Luzac & Co., 1919; 7th ed., Madras: Ganesh & Co., 1964.
+- Avalon, Arthur [Sir John Woodroffe]. *The Serpent Power: Being the Ṣaṭ-Cakra-Nirūpaṇa and Pādukā-Pañcaka*. London: Luzac & Co., 1919; reprint, Madras: Ganesh & Co., 1924.
+- Aymonier, Étienne. *Le Cambodge*. 3 เล่ม. Paris: Ernest Leroux, 1900–1904.
+- Bagchi, Prabodh Chandra. *Studies in the Tantras, Part I*. Calcutta: University of Calcutta, 1939.
+- Bagchi, Prabodh Chandra. *Studies in the Tantras: Part I*. Calcutta: University of Calcutta, 1939.
+- Baker, Chris, and Pasuk Phongpaichit, trans. *The Tale of Khun Chang Khun Phaen: Siam's Great Folk Epic of Love and War*. Chiang Mai: Silkworm Books, 2010.
+- Baker, Chris, and Pasuk Phongpaichit. *A History of Ayutthaya: Siam in the Early Modern World*. Cambridge: Cambridge University Press, 2017.
+- Balogh, Dániel. "A háborús borzalmak gyönyöre? Saiva és buddhista retorika kelet-dekkáni földadományozó táblákon" [The Pleasure of War Horrors? Śaiva and Buddhist Rhetoric in Eastern Deccan Inscriptions]. *Keletkutatás* 2022 (tavasz): 21–52.
+- Balogh, Dániel. *Inscriptions of the Early Pāṇḍavas and Other Eastern Deccan Dynasties*. Berlin: De Gruyter, 2022.
+- Baptiste, Pierre, and Thierry Zéphir, eds. *La sculpture du Champa: Trésors d'art du Vietnam Ve-XVe siècles*. Paris: Réunion des musées nationaux, 2005.
+- Becchetti, Catherine. "Une ancienne tradition de méditation au Cambodge." In *Recherches nouvelles sur le Cambodge*, edited by François Bizot, 47–62. Études thématiques, vol. 1. Paris: École française d'Extrême-Orient, 1994.
+- Bellina, Bérénice. "Was There a Late Prehistoric Integrated Southeast Asian Maritime Space? Insight from Settlements and Industries." In *Spirits and Ships: Cultural Transfers in Early Monsoon Asia*, edited by Andrea Acri, Roger Blench, and Alexandra Landmann, 239–274. Singapore: ISEAS - Yusof Ishak Institute, 2017.
+- Berkwitz, Stephen C. "Narratives of Buddhist Relics and Images." *Oxford Research Encyclopedia of Religion*. New York: Oxford University Press, 2019. https://doi.org/10.1093/acrefore/9780199340378.013.208.
+- Berkwitz, Stephen C., and Ashley Thompson, eds. *The Routledge Handbook of Theravāda Buddhism*. London and New York: Routledge, 2022.
+- Bhattacharyya, Benoytosh. "Introduction: Chronology of Vajrayāna; Leading Tenets of Vajrayāna; The Origin of Esoteric Buddhism; Authors of Sādhanas." ใน *Sādhanamālā*, vol. II, Gaekwad's Oriental Series, no. XLI. Baroda: Oriental Institute, 1928.
+- Bhattacharyya, Benoytosh. *An Introduction to Buddhist Esoterism*. London: Humphrey Milford, Oxford University Press, 1932.
+- Bhattacharyya, Benoytosh. *An Introduction to Buddhist Esoterism*. London: Oxford University Press, 1932.
+- Bhattacharyya, Benoytosh. *The Indian Buddhist Iconography: Mainly Based on the Sādhanamālā and Cognate Tāntric Texts of Rituals*. London: Humphrey Milford / Oxford University Press, 1924.
+- Bhattacharyya, Benoytosh. *The Indian Buddhist Iconography: Mainly Based on the Sādhanamālā and Other Cognate Tāntric Texts of Rituals*. London: Humphrey Milford, Oxford University Press, 1924.
+- Bizot, François, and François Lagirarde, eds. *La pureté par les mots (Saddavimala)*. Textes bouddhiques du Laos, vol. 3. Paris and Chiang Mai: École française d'Extrême-Orient, 1996.
+- Bizot, François, and François Lagirarde. *La pureté par les mots*. Paris, Phnom Penh, Vientiane: École française d'Extrême-Orient, 1996.
+- Bizot, François, and Oskar von Hinüber, eds. *La Guirlande de Joyaux (Ratanamālā)*. Textes bouddhiques du Cambodge, vol. 1. Paris: École française d'Extrême-Orient, 1994.
+- Bizot, François, ed. *Le Chemin de Laṅkā*. Textes bouddhiques du Cambodge, vol. 2. Paris and Phnom Penh: École française d'Extrême-Orient, 1992.
+- Bizot, François, ed. *Le Figuier à cinq branches: Recherche sur le bouddhisme khmer*. Publications de l'EFEO, vol. 107. Paris: École française d'Extrême-Orient, 1976.
+- Bizot, François. *La Grotte de la naissance: Recherches sur le bouddhisme khmer II*. Publications de l'École française d'Extrême-Orient, vol. 126. Paris: EFEO, 1980.
+- Bizot, François. *La naissance du Bouddha: Recherches sur le bouddhisme khmer II*. Paris: École française d'Extrême-Orient, 1980.
+- Bizot, François. *Le Chemin de Lankā*. Paris: École française d'Extrême-Orient, 1992.
+- Bizot, François. *Le Chemin de Laṅkā*. Paris: École française d'Extrême-Orient, 1992.
+- Bizot, François. *Le chemin de Laṅkā*. Paris: École française d'Extrême-Orient, 1992.
+- Bizot, François. *Le Don de soi-même: Recherches sur le bouddhisme khmer III*. Paris: École française d'Extrême-Orient, 1981.
+- Bizot, François. *Le Figuier à cinq branches: Recherche sur le bouddhisme khmer*. Paris: École française d'Extrême-Orient, 1976.
+- Bizot, François. *Le Figuier à cinq branches: Recherche sur le bouddhisme khmer*. Publications de l'École française d'Extrême-Orient, vol. 107. Paris: EFEO, 1976.
+- Bizot, François. *Le Figuier à cinq branches: Recherche sur le messianisme bouddhique au Cambodge*. Paris: École française d'Extrême-Orient, 1976.
+- Blackburn, Anne M. "Circulations in the Pāli World: Rethinking Networks, Boundaries, and Regionalism." In *Buddhism in Maritime Asia*, edited by Tansen Sen, 49–75. Singapore: ISEAS–Yusof Ishak Institute, 2022.
+- Blackburn, Anne M. *Buddhist Learning and Textual Practice in Eighteenth-Century Sri Lankan Monastic Culture*. Princeton: Princeton University Press, 2001.
+- Blagden, C. O., and Taw Sein Ko, eds. and trans. *Epigraphia Birmanica: Being Lithic and Other Inscriptions of Burma*. Vol. 3, Part 2: *The Kalyāṇī Inscriptions*. Rangoon: Government Printing, 1928.
+- Bloch, Marc. *Feudal Society*. แปลโดย L. A. Manyon. 2 เล่ม. Chicago: University of Chicago Press, 1961.
+- Bode, Mabel Haynes. *The Pali Literature of Burma*. London: Royal Asiatic Society, 1909.
+- Bode, Mabel Haynes. *The Pali Literature of Burma*. Prize Publication Fund, vol. 2. London: Royal Asiatic Society, 1909.
+- Boeles, J. J. "Two Yoginīs of Hevajra from Thailand." In *Essays Offered to G. H. Luce*, edited by Ba Shin, Jean Boisselier, and A. B. Griswold, vol. 2, 14–29. Ascona: Artibus Asiae, 1966.
+- Boisselier, Jean. *La statuaire du Champa: Recherches sur les cultes et l'iconographie*. Paris: École française d'Extrême-Orient, 1963.
+- Borchert, Thomas. *Educating Monks: Minority Buddhism on China's Southwest Border*. Honolulu: University of Hawai'i Press, 2017.
+- Borup, Jørn. *Decolonising the Study of Religion: Who Owns Buddhism?* Routledge Studies in Asian Religion and Philosophy, vol. 32. Abingdon, Oxon and New York: Routledge, 2023.
+- Bose, P. N. *Indian Teachers of Buddhist Universities*. Madras: Theosophical Publishing House, 1923.
+- Bowie, Katherine A. "Funerals: Changing Funerary Practices." In *The Routledge Handbook of Theravāda Buddhism*, edited by Stephen C. Berkwitz and Ashley Thompson, 194–207. London and New York: Routledge, 2022.
+- Braun, Erik. *The Birth of Insight: Meditation, Modern Buddhism, and the Burmese Monk Ledi Sayadaw*. Chicago: University of Chicago Press, 2013.
+- Bretfeld, Sven. "“Theravāda”: sectarianism and diversity in Mahāvihāra historiography." In *The Routledge Handbook of Theravāda Buddhism*, edited by Stephen C. Berkwitz and Ashley Thompson, 15–39. London and New York: Routledge, 2022.
+- Bretfeld, Sven. "“Theravāda”: sectarianism and diversity in Mahāvihāra historiography." In *The Routledge Handbook of Theravāda Buddhism*, edited by Stephen C. Berkwitz and Ashley Thompson, 15–40. London and New York: Routledge, 2022.
+- Briggs, George Weston. *Gorakhnāth and the Kānphaṭa Yogīs*. Calcutta: Y.M.C.A. Publishing House, 1938; reprint, Delhi: Motilal Banarsidass, 1973.
+- Bronkhorst, Johannes. "The Spread of Sanskrit in Southeast Asia." In *Early Interactions Between South and Southeast Asia: Reflections on Cross-Cultural Exchange*, edited by Pierre-Yves Manguin, A. Mani, and Geoff Wade, 263–275. Singapore: Institute of Southeast Asian Studies; New Delhi: Manohar, 2011.
+- Brooks, Douglas Renfrew. *The Secret of the Three Cities: An Introduction to Hindu Śākta Tantrism*. Chicago: University of Chicago Press, 1990.
+- Brunton, Finn. *Digital Cash: The Unknown History of the Anarchists, Utopians, and Technologists Who Created Cryptocurrency*. Princeton: Princeton University Press, 2019.
+- Buddhaghosa, Bhadantācariya. *The Path of Purification (Visuddhimagga)*. Translated by Bhikkhu Ñāṇamoli. Kandy: Buddhist Publication Society, 1991.
+- Bunker, Emma C. "Pre-Angkorian Bronzes from Prakhon Chai." *Archives of Asian Art* 25 (1971–1972): 67–76.
+- Carrithers, Michael. *The Forest Monks of Sri Lanka: An Anthropological and Historical Study*. Delhi: Oxford University Press, 1983.
+- Casparis, J. G. de. *Selected Inscriptions from the 7th to the 9th Century A.D.* Prasasti Indonesia 2. Bandung: Masa Baru, 1956.
+- Chandra, Lokesh. "Candi Sewu and the Buddhist Architecture of Central Java." In *Cultural Horizons of India*, vol. 4, 185–214. New Delhi: International Academy of Indian Culture, 1995.
+- Chapple, Christopher Key. "Jain Tantra: History and Metaphor." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 815–838. Oxford: Oxford University Press, 2024.
+- Charney, Michael W. *Southeast Asian Warfare, 1300–1900*. Leiden: Brill, 2004.
+- Chattopadhyaya, Alaka. *Atīśa and Tibet: Life and Utterance of Dīpaṃkara Śrījñāna*. Calcutta: Indian Studies Past and Present, 1967.
+- Chattopadhyaya, Alaka. *Atīśa and Tibet: Life and Utterances of Dīpaṃkara Śrījñāna*. Calcutta: Indian Studies Past & Present, 1967.
+- Chemburkar, Radha / Swati. "Mandalas at Sea: The Architectural Language of Esoteric Buddhist Temples in Maritime Asia." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 641–670. Oxford: Oxford University Press, 2024.
+- Chemburkar, Swati. "Mandalas and Monarchs: Tantra and Temple Architecture in Buddhist Southeast Asia." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 581–612. New York: Oxford University Press, 2024.
+- Chemburkar, Swati. "Tantric Mandalas and Royal Temples in Southeast Asia." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 577–600. New York: Oxford University Press, 2024.
+- Cholvijarn, Potprecha. "Samatha-Vipassanā Meditation in Modern Siam: The Continuity of Borān Kammaṭṭhāna." In *The Routledge Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 403–420. London: Routledge, 2026.
+- Cholvijarn, Potprecha. *Nibbāna as Self or Non-self: Contemporary Thai Buddhist Debates*. Bangkok: Dhammakaya Foundation, 2019.
+- Chutiwongs, Nandana. "The Female Deities in the Buddhist Art of Mainland Southeast Asia." In *Buddhism in Champa*, edited by Tran Ky Phuong, 105–122. Hanoi: Vietnam National University Press, 2012.
+- Chutiwongs, Nandana. *The Iconography of Avalokiteśvara in Mainland South East Asia*. New Delhi: Indira Gandhi National Centre for the Arts, 2002.
+- Cœdès, George. *Angkor: An Introduction*. Hong Kong: Oxford University Press, 1963.
+- Cœdès, George. *Recueil des inscriptions du Siam: Deuxième partie, Inscriptions de Dvāravatī, de Çrīvijaya et de Lavo*. Bangkok: Bangkok Times Press, 1929.
+- Cœdès, George. *The Indianized States of Southeast Asia*. Edited by Walter F. Vella, translated by Susan Brown Cowing. Honolulu: East-West Center Press, 1968.
+- Collins, Steven. *Nirvana and Other Buddhist Felicities: Utopias of the Pali Imaginaire*. Cambridge: Cambridge University Press, 1998.
+- Comaroff, Jean, and John L. Comaroff. *Millennial Capitalism and the Culture of Neoliberalism*. Durham, NC: Duke University Press, 2001.
+- Conti, Pia. "Tantric Buddhism at Prasat Hin Phimai: A New Reading of Its Iconographic Message." In *Before Siam: Essays in Art and Archaeology*, edited by Nicolas Revire and Stephen A. Murphy, 374–395. Bangkok: River Books & The Siam Society, 2014.
+- Conze, Edward. *The Prajñāpāramitā Literature*. The Hague: Mouton, 1960.
+- Conze, Edward. *Thirty Years of Buddhist Studies: Selected Essays*. Oxford: Bruno Cassirer, 1967.
+- Copleston, Reginald Stephen. *Buddhism, Primitive and Present in Magadha and in Ceylon*. London: Longmans, Green, and Co., 1892.
+- Cousins, L. S. "Aspects of Esoteric Southern Buddhism." In *Indian Insights: Buddhism, Brahmanism and Bhakti*, edited by Peter Connolly and Sue Hamilton, 185–207. London: Luzac Oriental, 1997.
+- Cousins, L. S. "The Origins of the Southern Esoteric Tradition." In *Mahāsuññatā: Studies in Honour of François Bizot*, edited by Kate Crosby, Andrew Skilton, and Peter Skilling, 1–15. Bangkok: École française d'Extrême-Orient, 2012.
+- Cousins, L. S. "The Teaching of the Southern Yogāvacara: The 'Forest Tradition' of Sri Lanka and Siam." In *Indological and Buddhist Studies: Volume in Honour of Professor J. W. de Jong on His Sixtieth Birthday*, edited by L. A. Hercus et al., 1–11. Canberra: Faculty of Asian Studies, 1982.
+- Cousins, L. S. *Meditations of the Pali Tradition: Analyzing Four Jhanas and Floating States*. Edited by Sarah Shaw. London: Bloomsbury Academic / Boulder, CO: Shambhala Publications, 2022.
+- Cousins, L. S. *Meditations of the Pali Tradition: Illuminating Buddhist Meditative Paths*. Edited by Sarah Shaw. Boulder, CO: Shambhala Publications, 2022.
+- Cousins, L. S. *Meditations on the Solitary Adult: Southern Buddhism and Its Esoteric Traditions*. บรรณาธิการโดย Sarah Shaw. London: Equinox, 2022.
+- Crosby, Kate. *Esoteric Theravada: The Story of the Forgotten Meditation Tradition of Southeast Asia*. Boulder, CO: Shambhala Publications, 2020.
+- Crosby, Kate. *Esoteric Theravada: The Story of the Forgotten Meditation Tradition of Southeast Asia*. Boulder: Shambhala Publications, 2020.
+- Das, Sarat Chandra. *Indian Pandits in the Land of Snow*. Calcutta: Baptist Mission Press, 1893.
+- Dasgupta, Shashi Bhushan. *An Introduction to Tantric Buddhism*. 3rd ed. Calcutta: University of Calcutta, 1974.
+- Dasgupta, Shashi Bhushan. *An Introduction to Tāntric Buddhism*. พิมพ์ครั้งที่ 2. Calcutta: University of Calcutta, 1950.
+- Dasgupta, Shashibhusan. *An Introduction to Tantric Buddhism*. Calcutta: University of Calcutta, 1950; reprint, Berkeley: Shambhala Publications, 1974.
+- Dasgupta, Shashibhusan. *Obscure Religious Cults as Background of Bengali Literature*. Calcutta: University of Calcutta, 1946.
+- Dasgupta, Shashibhusan. *Obscure Religious Cults as Background of Bengali Literature*. Calcutta: University of Calcutta, 1946; 2nd ed., Calcutta: Firma K.L. Mukhopadhyay, 1962.
+- Dasgupta, Shashibhusan. *Obscure Religious Cults as Background of Bengali Literature*. Calcutta: University of Calcutta, 1946; 2nd rev. ed., Calcutta: Firma K.L. Mukhopadhyay, 1962.
+- Davidson, Ronald M. "Initiation (Abhiṣeka) in Indian Buddhism." ใน *The Oxford Handbook of Tantric Studies*, บรรณาธิการโดย Richard K. Payne และ Glen A. Hayes, 29–52. New York: Oxford University Press, 2024.
+- Davidson, Ronald M. *Indian Esoteric Buddhism: A Social History of the Tantric Movement*. New York: Columbia University Press, 2002.
+- Deegalle, Mahinda. *Popularizing Buddhism: Preaching as Performance in Sri Lanka*. Albany: State University of New York Press, 2006.
+- Dentan, Robert Knox. "Semai Blood Sacrifice and the Thunder God." In *Spirits and Ships: Cultural Transfers in Early Monsoon Asia*, edited by Andrea Acri, Roger Blench, and Alexandra Landmann, 145–182. Singapore: ISEAS - Yusof Ishak Institute, 2017.
+- Dimock, Edward C., Jr. *The Place of the Hidden Moon: Erotic Mysticism in the Vaiṣṇava-sahajiyā Cult of Bengal*. Chicago: University of Chicago Press, 1966.
+- Donnelly, Paul B. "On the Union of Emptiness and Bliss: Buddhist Thought and Tantric Practice." ใน *The Oxford Handbook of Tantric Studies*, บรรณาธิการโดย Richard K. Payne และ Glen A. Hayes, 73–98. New York: Oxford University Press, 2024.
+- Draper, John William. *History of the Conflict between Religion and Science*. New York: D. Appleton and Company, 1874.
+- Duroiselle, Charles. "The Ari of Burma and Tantric Buddhism." *Archaeological Survey of India Annual Report 1915–1916*, 79–93. Calcutta: Superintendent Government Printing, 1916.
+- Duroiselle, Charles. "The Ari of Burma and Tantric Buddhism." In *Archaeological Survey of India, Annual Report 1915-16*, edited by Sir John Marshall, 79–93, plates XLVIII–LII. Calcutta: Superintendent Government Printing, 1918.
+- Duroiselle, Charles. "The Ari of Burma and Tantric Buddhism." In *Archaeological Survey of India: Annual Report 1915-16*, edited by John Marshall, 79–93. Calcutta: Superintendent Government Printing, 1916.
+- Dutt, Sukumar. *Buddhist Monks and Monasteries of India: Their History and Their Contribution to Indian Culture*. London: George Allen and Unwin, 1962.
+- Dyczkowski, Mark S. G. *The Canon of the Śaivāgama and the Kubjikā Tantras of the Western Kaula Tradition*. Albany: State University of New York Press, 1988.
+- Dyczkowski, Mark S. G. *The Doctrine of Vibration: An Analysis of the Doctrines and Practices of Kashmir Shaivism*. Albany: State University of New York Press, 1987.
+- Ea Darith. "A Brief Overview of Key Theravāda Buddhist Structures in Central Angkor from the 13th to 18th Centuries." In *Early Theravādin Cambodia: Perspectives from Art and Archaeology*, edited by Ashley Thompson, 185–204. Singapore: NUS Press, 2022.
+- Eck, Diana L. *Darśan: Seeing the Divine Image in India*. Chambersburg, PA: Anima Books, 1981.
+- Emmrich, Christoph. "Repetition: Pāli Iterations of Ritual Commitment, Commentarial Refrain, and Assiduous Practice." In *The Routledge Handbook of Theravāda Buddhism*, edited by Stephen C. Berkwitz and Ashley Thompson, 139–153. London and New York: Routledge, 2022.
+- Falser, Michael. *Angkor Wat: A Transcultural History of Heritage*. 2 vols. Berlin: De Gruyter, 2020.
+- Flood, Gavin. "The Sacred Geography of the Śaiva Tantras." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 409–426. Oxford: Oxford University Press, 2024.
+- Flood, Gavin. "The Śaiva Traditions." In *The Blackwell Companion to Hinduism*, edited by Gavin Flood, 200–228. Oxford: Blackwell Publishing, 2003.
+- Flood, Gavin. *An Introduction to Hinduism*. Cambridge: Cambridge University Press, 1996.
+- Flood, Gavin. *The Importance of Religion: Meaning and Action in our Strange World*. Oxford: Wiley-Blackwell, 2018.
+- Flood, Gavin. *The Tantric Body: The Secret Tradition of Hindu Religion*. London: I.B. Tauris, 2006.
+- Fontein, Jan. *The Sculpture of Indonesia*. Washington, D.C.: National Gallery of Art, 1990.
+- Foucher, Alfred. *L'art gréco-bouddhique du Gandhâra*. Tome 2. Paris: Imprimerie Nationale, 1918.
+- Geiger, Wilhelm, trans. *Cūḷavaṃsa: Being the More Recent Part of the Mahāvaṃsa*. 2 vols. London: Published for the Pali Text Society by Humphrey Milford, Oxford University Press, 1929–1930.
+- Geiger, Wilhelm. *Pāli Literatur und Sprache*. Grundriss der Indo-Arischen Philologie und Altertumskunde, I. Band, 7. Heft. Strassburg: Verlag von Karl J. Trübner, 1916.
+- Geiger, Wilhelm. *Pāli Literatur und Sprache*. Strassburg: Karl J. Trübner, 1916.
+- Gethin, Rupert. "The Word of the Buddha: Buddhist Scriptures and Schools." In *The Foundations of Buddhism*, 35–67. Oxford: Oxford University Press, 1998.
+- Gethin, Rupert. "Was Buddhaghosa a Theravādin? The Buddhist Schools in the Pāli Commentaries and the History of Theravāda." In *How Theravāda is Theravāda? Exploring Buddhist Identities*, edited by Peter Skilling, Jason A. Carbine, Claudio Cicuzza, and Santi Pakdeekham, 1–66. Chiang Mai: Silkworm Books, 2012.
+- Gethin, Rupert. *The Buddhist Path to Awakening: A Study of the Bodhi-Pakkhiyā Dhammā*. Leiden: E.J. Brill, 1992.
+- Gethin, Rupert. *The Foundations of Buddhism*. Oxford: Oxford University Press, 1998.
+- Godwin, Joscelyn. *The Theosophical Enlightenment*. Albany: State University of New York Press, 1994.
+- Golovkova, Anna. "Śrīvidyā: The Worship of the Goddess of the Three Cities." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 257–280. Oxford: Oxford University Press, 2024.
+- Gombrich, Richard F. *Precept and Practice: Traditional Buddhism in the Rural Highlands of Ceylon*. Oxford: Clarendon Press, 1971.
+- Gombrich, Richard F. *Theravāda Buddhism: A Social History from Ancient Benares to Modern Colombo*. London and New York: Routledge, 1988.
+- Gombrich, Richard, and Gananath Obeyesekere. *Buddhism Transformed: Religious Change in Sri Lanka*. Princeton: Princeton University Press, 1988.
+- Gombrich, Richard. *Theravāda Buddhism: A Social History from Ancient Benares to Modern Colombo*. 2nd ed. London and New York: Routledge, 2006.
+- Goodall, Dominic, Alexis Sanderson, and Harunaga Isaacson, eds. *The Niśvāsatattvasaṃhitā: The Earliest Surviving Śaiva Tantra, Volume 1: Introduction, Critical Edition, and Annotated Translation of the Mūlasūtra, Uttarasūtra, and Nayasūtra*. Pondicherry: Institut Français de Pondichéry / École française d'Extrême-Orient, 2015.
+- Goodall, Dominic, and Harunaga Isaacson. "Tantric Studies: On the Dynamics of Shared Ritual Syntax." In *Tantric Studies: Fruits of a Franco-German Project on Early Tantra*, edited by Dominic Goodall and Harunaga Isaacson, 1–14. Pondicherry: Institut Français de Pondichéry / École française d'Extrême-Orient, 2016.
+- Goodall, Dominic. "Initiation without Seed: The Nirbījadīkṣā in Early Śaivism." In *Studies in Tantric Tradition and Ritual*, edited by Dominic Goodall, 112–125. Paris: École française d'Extrême-Orient, 2018.
+- Goodall, Dominic. "Śaiva History: The Mantramārga." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 779–796. Oxford: Oxford University Press, 2024.
+- Goodall, Dominic. "The Śaiva Scriptures Mentioned in the Sdok Kok Thom Inscription." In *Early Tantric and Epigraphical Studies*, edited by Dominic Goodall, 77–92. Pondicherry: Institut Français de Pondichéry / École française d'Extrême-Orient, 2014.
+- Goodall, Dominic. *The Parākhyatantra: A Scripture of the Śaivasiddhānta*. Pondicherry: Institut Français de Pondichéry / École française d'Extrême-Orient, 2004.
+- Gornall, Alastair. "Pāli: Its place in the Theravāda Buddhist tradition." In *The Routledge Handbook of Theravāda Buddhism*, edited by Stephen C. Berkwitz and Ashley Thompson, 41–57. London and New York: Routledge, 2022.
+- Goudriaan, Teun, and Sanjukta Gupta. *Hindu Tantric and Śākta Literature*. A History of Indian Literature, Vol. 2, Fasc. 2. Wiesbaden: Otto Harrassowitz, 1981.
+- Gough, Ellen. "Jaina Homa: Fire Rituals in a Tradition of Non-Violence." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 121–144. Oxford: Oxford University Press, 2024.
+- Gough, Ellen. "Padmāvatī Diagrams: The Geometric Encodings of Jaina Goddess Worship." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 680–704. Oxford: Oxford University Press, 2024.
+- Gray, David B. "The Cakrasaṃvara Tantra." ใน *The Oxford Handbook of Tantric Studies*, บรรณาธิการโดย Richard K. Payne และ Glen A. Hayes, 853–872. New York: Oxford University Press, 2024.
+- Gray, David B. *The Cakrasamvara Tantra (The Discourse of Śrī Heruka): A Study and Annotated Translation*. New York: American Institute of Buddhist Studies / Columbia University Press, 2007.
+- Gray, David B. *The Cakrasamvara Tantra (The Discourse of Śrī Heruka): A Study and Annotated Translation*. New York: American Institute of Buddhist Studies, 2007.
+- Gray, David B. *The Cakrasamvara Tantra: A Study and Annotated Translation*. New York: American Institute of Buddhist Studies, 2007.
+- Griffiths, Arlo, Andrew Hardy, and Geoff Wade, eds. *Champa: Territories and Networks of a Southeast Asian Kingdom*. Paris: École française d'Extrême-Orient, 2019.
+- Griffiths, Arlo. "The Inscriptions of Campā at the Museum of Cham Sculpture in Da Nang, with an Inscription from Đồng Dương as an Appendix." In *Vibrancy in Stone: Masterpieces of the Da Nang Museum of Cham Sculpture*, edited by Vo Van Thang, 246–251. Bangkok: River Books, 2018.
+- Griswold, Alexander B. *Towards a History of Sukhodaya Art*. Bangkok: Fine Arts Department, 1967.
+- Guillon, Emmanuel. *Cham Art: Treasures from the Da Nang Museum, Vietnam*. London: Thames and Hudson, 2001.
+- Gupta, Sanjukta, Dirk Jan Hoens, and Teun Goudriaan. *Hindu Tantrism*. Handbuch der Orientalistik. Leiden: E. J. Brill, 1979.
+- Haberman, David L. *Acting as a Way of Salvation: A Study of Rāgānugā Bhakti Sādhana*. New York: Oxford University Press, 1988.
+- Hackett, Paul. "Tibetan Esoteric Literature and the Canon Formation: The Imperial Catalogs and the Sarma Translations." ใน *The Tibetan Buddhist Canon in Historical Context*, บรรณาธิการโดย Kurtis Schaeffer, 839–860. Boston: Wisdom Publications, 2024.
+- Halkias, Georgios. "The Patriarch of Dzogchen: Śrī Siṃha and the Trans-Himalayan Transmission of Atiyoga." ใน *Himalayan Buddhist Currents*, บรรณาธิการโดย Matthew Kapstein, 453–478. Leiden: Brill, 2024.
+- Hall, Kenneth R. *A History of Early Southeast Asia: Maritime Trade and Societal Development, 100–1500*. Lanham, MD: Rowman & Littlefield, 2011.
+- Hallisey, Charles. "Roads Taken and Not Taken in the Study of Theravāda Buddhism." In *Curators of the Buddha: The Study of Buddhism under Colonialism*, edited by Donald S. Lopez Jr., 31–61. Chicago: University of Chicago Press, 1995.
+- Hallisey, Charles. "Roads Taken and Not Taken in the Study of Theravāda Buddhism." In *Curators of the Buddha: The Study of Buddhism Under Colonialism*, edited by Donald S. Lopez Jr., 31–61. Chicago: University of Chicago Press, 1995.
+- Hansen, Anne R. *How to Behave: Buddhism and Modernity in Colonial Cambodia, 1860–1930*. Honolulu: University of Hawai'i Press, 2007.
+- Hansen, Anne R., and Anthony Lovenheim Irwin. "Reform: Ideas and events in modern Theravāda reformism." In *The Routledge Handbook of Theravāda Buddhism*, edited by Stephen C. Berkwitz and Ashley Thompson, 83–99. London and New York: Routledge, 2022.
+- Hansen, Anne Ruth, and Judy Ledgerwood, eds. *At the Edge of the Forest: Essays on Cambodia, History, and Narrative in Honor of David Chandler*. Lanham, MD: Rowman & Littlefield, 2008.
+- Hansen, Anne Ruth. *How to Behave: Buddhism and Modernity in Colonial Cambodia, 1860–1930*. Honolulu: University of Hawaiʻi Press, 2007.
+- Hatley, Shaman. *The Brahmayāmalatantra or Picumata, Volume I: Chapters 1–2, 39–40, & 83. Revelation, Ritual, and Material Culture of an Early Śaiva Tantra*. Pondicherry: Institut Français de Pondichéry / École française d'Extrême-Orient, 2018.
+- Hayes, Glen A. "Metaphor and the Subtle Body in Tantric Yoga." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 163–180. Oxford: Oxford University Press, 2024.
+- Hayes, Glen A. "The Subtle Body in Tantric Traditions." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 189–212. New York: Oxford University Press, 2024.
+- Hayes, Glen A. "The Vaiṣṇava Sahajiyā Tradition of Bengal: Metaphors of Body, Sound, and Song." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 595–618. Oxford: Oxford University Press, 2024.
+- Holt, John Clifford. *Caring for the Dead: The Buddhist Ritual of Pchum Ben in Cambodia*. Honolulu: University of Hawaiʻi Press, 2012.
+- Hoogervorst, Tom. "The Role of “Prakrit” in Maritime Southeast Asia through 101 Etymologies." In *Spirits and Ships: Cultural Transfers in Early Monsoon Asia*, edited by Andrea Acri, Roger Blench, and Alexandra Landmann, 375–444. Singapore: ISEAS - Yusof Ishak Institute, 2017.
+- Hundius, Harald. *The Preservation of Lao Manuscripts: Final Report*. Vientiane: National Library of Laos, 2002.
+- Huntington, Susan L. *The "Pāla-Sena" Schools of Sculpture*. Leiden: E. J. Brill, 1984.
+- Ishii, Yoneo. *Sangha, State, and Society: Thai Buddhism in History*. Translated by Peter Hawkes. Honolulu: University of Hawaiʻi Press, 1986.
+- Jackson, Peter A. *Buddhism, Legitimation, and Conflict: The Political Functions of Urban Thai Buddhism*. Singapore: Institute of Southeast Asian Studies, 1989.
+- Jackson, Peter A. *Buddhism, Legitimation, and Success: The Healing and Financial Miracles of Luang Phor Sod*. Singapore: Institute of Southeast Asian Studies, 1999.
+- Jackson, Peter A. *Capitalism Magic Thailand: Modernity with Enchantment*. Singapore: ISEAS–Yusof Ishak Institute, 2022.
+- Jayatilaka, Sir Don Baron. "Appendix: A Dhyāna Book." In *Manual of a Mystic: Being a Translation from the Pali and Sinhalese Work Entitled The Yogavachara's Manual*, translated by F. L. Woodward, edited by Caroline A. F. Rhys Davids, 143–155. London: Published for the Pali Text Society by Humphrey Milford, 1916.
+- Jettmar, Karl. *Antiquities of Northern Pakistan: Reports and Studies*. Vol. 1. Mainz: Philipp von Zabern, 1989.
+- Jordaan, Roy E. *In Praise of Prambanan: Dutch Essays on the Loro Jonggrang Complex*. Leiden: KITLV Press, 1996.
+- Kahrs, Eivind. *Indian Semantic Analysis: The ‘Nirvacana’ Tradition*. Cambridge: Cambridge University Press, 1998.
+- Kandahjaya, Hudaya. "Saṅ Hyaṅ Kamahāyānikan, Borobudur, and the Origins of Esoteric Buddhism in Indonesia." In *Esoteric Buddhism in Mediaeval Maritime Asia: Networks of Masters, Texts, Icons*, edited by Andrea Acri, 67–112. Singapore: ISEAS Publishing, 2016.
+- Kapstein, Matthew T. *The Tibetan Assimilation of Buddhism: Conversion, Contestation, and Memory*. Oxford: Oxford University Press, 2000.
+- Karunadasa, Y. *The Theravāda Abhidhamma: Its Inquiry into the Nature of Conditioned Reality*. Hong Kong: Centre of Buddhist Studies, The University of Hong Kong, 2010.
+- Karunadasa, Y. *The Theravāda Abhidhamma: Its Inquiry into the Nature of Conditioned Reality*. Somerville, MA: Wisdom Publications, 2019.
+- Kitiarsa, Pattana. *Mediums, Monks, and Amulets: Thai Popular Buddhism Today*. Seattle: University of Washington Press, 2012.
+- Kourilsky, Catherine. "Regional Plurality and the Transmission of Esoteric Buddhist Knowledge in Mainland Southeast Asia." In *Buddhism in Maritime and Mainland Southeast Asia*, edited by Bernard Formoso, 85–130. Paris: EFEO, 2024.
+- Kritzer, Robert. *Garbhāvakrāntisūtra: The Sūtra on Entry into the Womb*. Tokyo: The International Institute for Buddhist Studies, 2014.
+- Krom, Nicolaas Johannes. *Barabudur: Archaeological Description*. 2 เล่ม. The Hague: Martinus Nijhoff, 1927.
+- Kvaerne, Per. *An Anthology of Buddhist Tantric Songs: A Study of the Caryāgīti*. Oslo: Universitetsforlaget, 1977.
+- Kyaw, Pyi Phyo, and Kate Crosby. "Meditation in Theravāda Practice." In *The Routledge Handbook of Theravāda Buddhism*, edited by Stephen C. Berkwitz and Ashley Thompson, 127–142. London and New York: Routledge, 2022.
+- Lagirarde, François. "Les manuscrits en kün du troisième livre du Saddavimala." In *Recherches nouvelles sur le Cambodge*, edited by François Bizot, 187–205. Études thématiques, vol. 1. Paris: École française d'Extrême-Orient, 1994.
+- Law, Bimala Churn. *A History of Pali Literature*. 2 vols. London: Kegan Paul, Trench, Trubner & Co., 1933.
+- Lawrence, David Peter. "Nondual Śaivism and the Philosophy of Time." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 839–860. Oxford: Oxford University Press, 2024.
+- Lawrence, David Peter. *Rediscovering God with Transcendental Argument: A Contemporary Interpretation of Monistic Kashmiri Śaiva Philosophy*. Albany: State University of New York Press, 1999.
+- Lévi, Sylvain. *Le Népal: Étude historique d'un royaume hindou*. Vol. 2. Paris: Ernest Leroux, 1905.
+- Lidke, Jeffrey S. "The Sarvāmnāya Tantric Corpus: Mapping the Sacred Geographies of the Goddess." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 705–728. Oxford: Oxford University Press, 2024.
+- Lidke, Jeffrey S., และ L. S. Akshunna. "The Inner and Outer Worship: The Rhythms of Domestic and Temple Practice in Nepālī Tantra." ใน *The Oxford Handbook of Tantric Studies*, บรรณาธิการโดย Richard K. Payne และ Glen A. Hayes, 53–74. New York: Oxford University Press, 2024.
+- Lieberman, Victor. *Strange Parallels: Southeast Asia in Global Context, c. 800–1830*. Vol. 1, *Integration on the Mainland*. Cambridge: Cambridge University Press, 2003.
+- Lopez, Donald S., Jr., ed. *Curators of the Buddha: The Study of Buddhism under Colonialism*. Chicago: University of Chicago Press, 1995.
+- Lorea, Carola Erika. "Singing Tantra: Transgressive Songs, Orality, and Esoteric Transmission in Bengal." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 755–778. Oxford: Oxford University Press, 2024.
+- Lorenzen, David N. *The Kāpālikas and Kālāmukhas: Two Lost Śaivite Sects*. Berkeley: University of California Press, 1972.
+- Luce, Gordon H. *Old Burma ~ Early Pagán*. 3 เล่ม. Locust Valley, NY: J. J. Augustin, 1969–1970.
+- Mackenzie, Rory. *New Buddhist Movements in Thailand: Towards an Understanding of Wat Phra Dhammakaya and Santi Asoke*. London and New York: Routledge, 2007.
+- Mackenzie, Rory. *New Buddhist Movements in Thailand: Towards an Understanding of Wat Phra Dhammakāya and Santi Asoke*. London and New York: Routledge, 2007.
+- Mahdi, Waruno. "Pre-Austronesian Seafaring in Island Southeast Asia: The Prehistoric Transmission of Watercraft Technology." In *Spirits and Ships: Cultural Transfers in Early Monsoon Asia*, edited by Andrea Acri, Roger Blench, and Alexandra Landmann, 23–70. Singapore: ISEAS - Yusof Ishak Institute, 2017.
+- Majumdar, Barada Kanta. "Introduction." In *Principles of Tantra: Part I (The Tantratattva of Śrīyukta Shiva Chandra Vidyārṇava Bhaṭṭāchāryya)*, edited by Arthur Avalon, 19–45. London: Luzac & Co., 1914.
+- Majumdar, R. C. *The History of Bengal*, vol. 1, *Hindu Period*. Dacca: University of Dacca, 1943.
+- Malalasekera, G. P. *The Pali Literature of Ceylon*. London: Royal Asiatic Society of Great Britain and Ireland, 1928.
+- Malalasekera, G. P. *The Pali Literature of Ceylon*. Prize Publication Fund, vol. 10. London: Royal Asiatic Society of Great Britain and Ireland, 1928.
+- Mallinson, James, and Mark Singleton. *Roots of Yoga*. London: Penguin Classics, 2017.
+- Mallinson, James, and Péter-Dániel Szántó. *The Amṛtasiddhi and the Amṛtasiddhimūla: The Earliest Texts on Haṭhayoga*. Pondicherry: Institut Français de Pondichéry / École française d'Extrême-Orient, 2021.
+- Manguin, Pierre-Yves, and A. Mani, eds. *Early Interactions between South and Southeast Asia: Reflections on Cross-Cultural Exchange*. Singapore: ISEAS Publishing, 2011.
+- Manguin, Pierre-Yves. "The Archaeology of Early Maritime Polities of Southeast Asia." In *Southeast Asia: From Prehistory to History*, edited by Peter Bellwood and Ian Glover, 282–313. London: RoutledgeCurzon, 2004.
+- Marx, Karl. *Capital: A Critique of Political Economy, Volume 1*. Translated by Ben Fowkes. London: Penguin Books, 1976.
+- Maspero, Georges. *The Champa Kingdom: The History of an Extinct Vietnamese Nation*. แปลโดย Walter E. J. Tips. Bangkok: White Lotus Press, 2002.
+- Matsubara, Mitsunori. *Pāñcarātra Saṃhitās and Early Vaiṣṇava Theology*. Delhi: Motilal Banarsidass, 1994.
+- Maung Htin Aung. *Folk Elements in Burmese Buddhism*. London: Oxford University Press, 1962.
+- Mauss, Marcel. *The Gift: Forms and Functions of Exchange in Archaic Societies*. Translated by Ian Cunnison. London: Cohen & West, 1954.
+- McDaniel, Justin T. *The Lovelorn Ghost and the Magical Monk: Practicing Buddhism in Modern Thailand*. New York: Columbia University Press, 2011.
+- McDaniel, Justin Thomas. *Gathering Leaves & Lifting Words: Histories of Buddhist Monastic Education in Laos and Thailand*. Seattle: University of Washington Press, 2008.
+- McDaniel, Justin Thomas. *Gathering Leaves and Lifting Words: Histories of Buddhist Monastic Education in Laos and Thailand*. Seattle: University of Washington Press, 2008.
+- McDaniel, Justin. *The Lovelorn Ghost and the Magical Monk: Practicing Buddhism in Modern Thailand*. New York: Columbia University Press, 2011.
+- Mitra, Rājendralāla. *The Sanskrit Buddhist Literature of Nepal*. Calcutta: Asiatic Society of Bengal, 1882.
+- Multzer O’Naghten, Hedwige. "The Organisation of Space in Pre-modern Thailand under Jayavarman VII." In *Before Siam: Essays in Art and Archaeology*, edited by Nicolas Revire and Stephen A. Murphy, 396–417. Bangkok: River Books & The Siam Society, 2014.
+- Neelis, Jason. *Early Buddhist Transmission and Trade Networks: Mobility and Exchange within and beyond Northwestern South Asia*. Dynamics in the History of Religions, vol. 2. Leiden and Boston: Brill, 2010.
+- Neelis, Jason. *Early Buddhist Transmission and Trade Networks: Mobility and Exchange within and beyond the Northwestern Borderlands of South Asia*. Dynamics in the History of Religions 2. Leiden: Brill, 2010.
+- Nemec, John. "Somānanda’s Critique of Buddhist Logic in the Śivadṛṣṭi." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 1083–1108. Oxford: Oxford University Press, 2024.
+- Nemec, John. *The Ubiquitous Śiva: Somānanda’s Śivadṛṣṭi and His Tantric Interlocutors*. New York: Oxford University Press, 2011.
+- Norman, K. R. *Pāli Literature: Including the Canonical Literature in Prakrit and Sanskrit of All the Hīnayāna Schools of Buddhism*. A History of Indian Literature, vol. 7, fasc. 2. Wiesbaden: Otto Harrassowitz, 1983.
+- Orzech, Charles D., Henrik H. Sørensen, and Richard K. Payne, eds. *Esoteric Buddhism and the Tantras in East Asia*. Handbuch der Orientalistik 24. Leiden: E. J. Brill, 2011.
+- Padoux, André. *Comprendre le tantrisme: Les pratiques de la voie de la main gauche*. Paris: Albin Michel, 2010.
+- Padoux, André. *Vāc: The Concept of the Word in Selected Hindu Tantras*. Translated by Jacques Gontier. Albany: State University of New York Press, 1990.
+- Parmentier, Henri. *Inventaire descriptif des monuments cams de l'Annam*. Vol. 1. Paris: Ernest Leroux, 1909.
+- Payne, Richard K. "Tantric Studies: The Emergence of a Field." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 1–28. New York: Oxford University Press, 2024.
+- Payne, Richard K., and Glen A. Hayes, eds. *The Oxford Handbook of Tantric Studies*. New York: Oxford University Press, 2024.
+- Payne, Richard K., and Glen A. Hayes, eds. *The Oxford Handbook of Tantric Studies*. Oxford: Oxford University Press, 2024.
+- Payne, Richard K., and Glen A. Hayes. "Introduction." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 1–16. New York: Oxford University Press, 2024.
+- Payne, Richard K., และ Glen A. Hayes, บรรณาธิการ. *The Oxford Handbook of Tantric Studies*. New York: Oxford University Press, 2024.
+- Payne, Richard K., และ Glen A. Hayes. "Tantric Studies: Issues, Methods, and Scholarly Collaborations." ใน *The Oxford Handbook of Tantric Studies*, บรรณาธิการโดย Richard K. Payne และ Glen A. Hayes, 1–28. New York: Oxford University Press, 2024.
+- Peirce, Charles Sanders. *Collected Papers of Charles Sanders Peirce*. Edited by Charles Hartshorne and Paul Weiss. Vol. 2, *Elements of Logic*. Cambridge: Harvard University Press, 1932.
+- Penth, Hans. *Jārik Wat Sī Khōm Kham phō̜. sō̜. 2092* [The Wat Sī Khōm Kham Inscription, 1549 CE]. Chiang Mai: Social Research Institute, Chiang Mai University, 1993.
+- Perreira, Todd LeRoy. "“Whence Came the Theravāda?”: The Modern Emergence of an Ancient Name." In *How Theravāda is Theravāda? Exploring Buddhist Identities*, edited by Peter Skilling, Jason A. Carbine, Claudio Cicuzza, and Santi Pakdeekham, 443–572. Chiang Mai: Silkworm Books, 2012.
+- Peterson, Indira Viswanathan. *Poems to Śiva: The Hymns of the Tamil Saints*. Princeton: Princeton University Press, 1989.
+- Polkinghorne, Martin. "17th- and 18th-Century Images of the Buddha from Ayutthaya and Lan Xang at Angkor Wat." In *Early Theravādin Cambodia: Perspectives from Art and Archaeology*, edited by Ashley Thompson, 269–305. Singapore: NUS Press, 2022.
+- Pollock, Sheldon. *The Language of the Gods in the World of Men: Sanskrit, Culture, and Power in Premodern India*. Berkeley: University of California Press, 2006.
+- Ratnajoti, P., and P. Ratnapāla, eds. *Vimuktisaṅgrahava hā Yogāvacara Saňgarāva*. Colombo: Department of Cultural Affairs, 1963.
+- Ray, Niharranjan. *An Introduction to the Study of Theravāda Buddhism in Burma: A Study in Indo-Burmese Historical and Cultural Relations from the Earliest Times to the British Conquest*. Calcutta: University of Calcutta Press, 1946.
+- Ray, Niharranjan. *An Introduction to the Study of Theravāda Buddhism in Burma: Library of Buddhist Studies*. Calcutta: University of Calcutta, 1946.
+- Ray, Niharranjan. *Sanskrit Buddhism in Burma*. Amsterdam: H. J. Paris, 1936.
+- Ray, Niharranjan. *Sanskrit Buddhism in Burma*. Calcutta: University of Calcutta, 1936.
+- Revire, Nicolas, and Stephen A. Murphy, eds. *Before Siam: Essays in Art and Archaeology*. Bangkok: River Books & The Siam Society, 2014.
+- Revire, Nicolas. "Glimpses of Buddhist Practices and Rituals in Dvāravatī and Its Neighbouring Cultures." In *Before Siam: Essays in Art and Archaeology*, edited by Nicolas Revire and Stephen A. Murphy, 240–271. Bangkok: River Books & The Siam Society, 2014.
+- Revire, Nicolas. "Traces of the Dharma: Votive Tablets from Southeast Asia." In *Buddhism in Southeast Asia*, edited by Nicolas Revire, 85–102. Bangkok: River Books, 2008.
+- Reynolds, Frank E., and Mani B. Reynolds, trans. *Three Worlds According to King Ruang: A Thai Buddhist Cosmology*. Berkeley: University of California Press, 1982.
+- Roerich, George N., trans. *The Blue Annals*. 2nd ed. Delhi: Motilal Banarsidass, 1976.
+- Rowland, Benjamin. *The Art and Architecture of India: Buddhist, Hindu, Jain*. Harmondsworth: Penguin Books, 1953.
+- Ruegg, David Seyfort. *The Literature of the Madhyamaka School of Philosophy in India*. Wiesbaden: Otto Harrassowitz, 1981.
+- Saddhatissa, Hammalawa. "Pāli Literature of South-East Asia." In *Buddhist Studies in Honour of Walpola Rahula*, edited by Somaratna Balasooriya et al., 233–242. London: Gordon Fraser, 1980.
+- Samuel, Geoffrey, and Maria Kozhevnikov. "Neuroscience and Tantric Studies." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 163–180. New York: Oxford University Press, 2024.
+- Samuel, Geoffrey. *The Origins of Yoga and Tantra: Indic Religions to the Thirteenth Century*. Cambridge: Cambridge University Press, 2008.
+- Sanderson, Alexis. "Meaning in Tantric Ritual." In *Essais sur le rituel III: Colloque du Centenaire de la Section des Sciences Religieuses de l’École Pratique des Hautes Études*, edited by Anne-Marie Blondeau and Kristofer Schipper, 15–95. Louvain-Paris: Peeters, 1995.
+- Sanderson, Alexis. "Ritual for One's Self." In *Ritual Dynamics and the Science of Ritual, Volume II: Body, Performance, Agency, and Experience*, edited by Angelos Chaniotis et al., 9–20. Wiesbaden: Harrassowitz Verlag, 2010.
+- Sanderson, Alexis. "Śaivism and the Tantric Traditions." In *The World's Religions*, edited by Stewart Sutherland, Leslie Houlden, Peter Clarke, and Friedhelm Hardy, 660–704. London: Routledge, 1988.
+- Sanderson, Alexis. "The Śaiva Age: The Rise and Dominance of Śaivism during the Early Medieval Period." In *Genesis and Development of Tantrism*, edited by Shingo Einoo, 41–350. Tokyo: Institute of Oriental Culture, University of Tokyo, 2009.
+- Sanderson, Alexis. "The Śaiva Age: The Rise and Dominance of Śaivism during the Early Medieval Period." ใน *Genesis and Development of Tantrism*, บรรณาธิการโดย Shingo Einoo, 41–350. Tokyo: Institute of Oriental Culture, University of Tokyo, 2009.
+- Sanderson, Alexis. "The Śaiva Exegesis of Kashmir." In *Mélanges tantriques à la mémoire d'Hélène Brunner*, edited by Dominic Goodall and André Padoux, 231–442. Pondicherry: Institut Français de Pondichéry / École française d'Extrême-Orient, 2007.
+- Sanderson, Alexis. "Vajrayāna: Origin and Function." ใน *Buddhism into the Year 2000*, 87–102. Bangkok: Dhammakāya Foundation, 1994.
+- Sarkar, Himansu Bhusan. *Corpus of the Inscriptions of Java (up to 928 A.D.)*. Vol. 1. Calcutta: Firma K. L. Mukhopadhyay, 1971.
+- Sato, Yuni. "New Evidence at Western Prasat Top, Angkor Thom: Stratigraphy, Radiocarbon Dates, Transition to Theravāda Buddhist Sanctuary." In *Early Theravādin Cambodia: Perspectives from Art and Archaeology*, edited by Ashley Thompson, 205–228. Singapore: NUS Press, 2022.
+- Sauthoff, Patricia. "Alchemy and Tantra: Rasāyana as a Soteriological Practice." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 241–264. Oxford: Oxford University Press, 2024.
+- Schedneck, Brooke. *Living Theravada: Demystifying Buddhism in Southeast Asia*. Boulder, CO: Shambhala Publications, 2023.
+- Schiefner, Anton, trans. *Tāranātha's Geschichte des Buddhismus in Indien*. St. Petersburg: Kaiserliche Akademie der Wissenschaften, 1869.
+- Schlingloff, Dieter, ed. *Ein buddhistisches Yogalehrbuch*. Sanskrittexte aus den Turfanfunden, vol. 7. Berlin: Akademie-Verlag, 1964.
+- Schober, Juliane. *Modern Buddhist Conjunctures in Myanmar: Cultural Narratives, Colonial Legacies, and Civil Society*. Honolulu: University of Hawaiʻi Press, 2011.
+- Schrader, F. Otto. *Introduction to the Pāñcarātra and the Ahirbudhnya Saṃhitā*. Madras: Adyar Library, 1916.
+- Schwartz, Cynthia Packert. "The Kālāmukhas of the Medieval Deccan: Inscriptions, Temples, and Lineages." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 729–754. Oxford: Oxford University Press, 2024.
+- Scott, Rachelle M. *Nirvana for Sale? Buddhism, Wealth, and the Dhammakāya Temple in Contemporary Thailand*. Albany: State University of New York Press, 2009.
+- Seeger, Martin. "Female Monasticism and Esoteric Buddhist Meditation in Southeast Asia." In *The Routledge Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 421–438. London: Routledge, 2026.
+- Sen, Tansen. "The Spread of Esoteric Buddhist Traditions in Mediaeval Maritime East Asia." In *Esoteric Buddhism in Mediaeval Maritime Asia: Networks of Masters, Texts, Icons*, edited by Andrea Acri, 89–112. Singapore: ISEAS–Yusof Ishak Institute, 2016.
+- Sen, Tansen. *Buddhism, Diplomacy, and Trade: The Realignment of India-China Relations, 600–1400*. Honolulu: University of Hawaiʻi Press, 2003.
+- Sharma, Ram Sharan. *Indian Feudalism: c. AD 300–1200*. 3rd ed. Delhi: Macmillan, 2006.
+- Sharrock, Peter D. "MANDALAS and Landscape in Maritime Asia." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 557–580. New York: Oxford University Press, 2024.
+- Sharrock, Peter. "Mandalas in the Landscape of Maritime Southeast Asia." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 553–576. New York: Oxford University Press, 2024.
+- Shaw, Miranda. *Buddhist Goddesses of India*. Princeton: Princeton University Press, 2006.
+- Shaw, Sarah. *Introduction to Buddhist Meditation*. London and New York: Routledge, 2009.
+- Shaw, Sarah. *Introduction to Buddhist Meditation: Paths to Peace and Freedom*. 2nd ed. London and New York: Routledge, 2024.
+- Shaw, Sarah. *The Spirit of Buddhist Meditation*. New Haven and London: Yale University Press, 2024.
+- Sinclair, Iain. "The Soteriologies of Buddhist Tantrism." ใน *The Oxford Handbook of Tantric Studies*, บรรณาธิการโดย Richard K. Payne และ Glen A. Hayes, 953–976. New York: Oxford University Press, 2024.
+- Singh, Jaideva. *Pratyabhijñāhṛdayam: The Secret of Self-Recognition*. Delhi: Motilal Banarsidass, 1982.
+- Sinnett, A. P. *Esoteric Buddhism*. 5th ed., annotated and enlarged. London: Chapman and Hall, 1885 [orig. pub. 1883].
+- Skilling, Peter, and Santi Pakdeekham. *Pāli and Vernacular Literature Transmitted in Central and Northern Siam*. Bangkok: Fragile Palm Leaves Foundation, 2002.
+- Skilling, Peter, Jason A. Carbine, Claudio Cicuzza, and Santi Pakdeekham, eds. *How Theravāda is Theravāda? Exploring Buddhist Identities*. Chiang Mai: Silkworm Books, 2012.
+- Skilling, Peter. "Traces of the Dharma." *Bulletin de l'École française d'Extrême-Orient* 90–91 (2003–2004): 273–287.
+- Slouber, Michael. "The Goddesses of Jaina Tantra: Padmāvatī, Ambikā, and the Jvālamālinī Corpus." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 513–536. Oxford: Oxford University Press, 2024.
+- Smith, H. Daniel. *A Descriptive Bibliography of the Printed Texts of the Pāñcarātrāgama*. 2 vols. Baroda: Oriental Institute, 1975, 1980.
+- Smith, Jonathan Z. *Imagining Religion: From Babylon to Jonestown*. Chicago: University of Chicago Press, 1982.
+- Smith, Jonathan Z. *Map Is Not Territory: Studies in the History of Religions*. Leiden: E. J. Brill, 1978.
+- Snellgrove, David L. *Indo-Tibetan Buddhism: Indian Buddhists and Their Tibetan Successors*. 2 เล่ม. Boston: Shambhala, 1987.
+- Snellgrove, David L., ed. and trans. *The Hevajra Tantra: A Critical Study*. London Oriental Series, vol. 6. 2 vols. London: Oxford University Press, 1959.
+- Sopranzetti, Claudio. *Framed by Freedom: Emancipation and Oppression in Post-Fordist Thailand*. Berkeley: University of California Press, 2017.
+- Stadtner, Donald M. *Sacred Sites of Burma: Myth and Folklore in an Evolving Tradition*. Bangkok: River Books, 2011.
+- Stein, Burton. *Peasant State and Society in Medieval South India*. Delhi: Oxford University Press, 1980.
+- Stern, Philippe. *L'art du Champa (ancien Annam) et son évolution*. Toulouse: Les Frères Douladoure, 1942.
+- Sugiki, Tsunehiko. "A History of Tantric Buddhism: A Chronology of Indian Tantras." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 797–814. Oxford: Oxford University Press, 2024.
+- Sugiki, Tsunehiko. "On the Chronology of the Buddhist Tantras" / "The Chronological Stratification of Buddhist Tantric Literature." ใน *The Oxford Handbook of Tantric Studies*, บรรณาธิการโดย Richard K. Payne และ Glen A. Hayes, 1057–1080. New York: Oxford University Press, 2024.
+- Swearer, Donald K. *Becoming the Buddha: The Ritual of Consecration in Thailand*. Princeton: Princeton University Press, 2004.
+- Swearer, Donald K. *Becoming the Buddha: The Ritual of Image Consecration in Thailand*. Princeton: Princeton University Press, 2004.
+- Swearer, Donald K. *The Buddhist World of Southeast Asia*. 2nd ed. Albany: State University of New York Press, 2010.
+- Tajudeen, Imran bin. "Śāstric and Austronesian Conceptions of Sacred Space in Island Southeast Asia: Parallel Frameworks in Pre-modern Architecture." In *Spirits and Ships: Cultural Transfers in Early Monsoon Asia*, edited by Andrea Acri, Roger Blench, and Alexandra Landmann, 485–534. Singapore: ISEAS - Yusof Ishak Institute, 2017.
+- Tambiah, Stanley J. *The Buddhist Saints of the Forest and the Cult of Amulets: A Study in Charisma, Hagiography, Sectarianism, and Millennial Buddhism*. Cambridge: Cambridge University Press, 1984.
+- Tambiah, Stanley J. *World Conqueror and World Renouncer: A Study of Buddhism and Polity in Thailand against a Historical Background*. Cambridge: Cambridge University Press, 1976.
+- Tambiah, Stanley Jeyaraja. *The Buddhist Saints of the Forest and the Cult of Amulets: A Study in Charisma, Hagiography, Sectarianism, and Millennial Buddhism*. Cambridge: Cambridge University Press, 1984.
+- Tanemura, Ryugen. *Kuladatta's Kriyāsaṃgrahapañjikā: A Critical Edition and Annotated Translation of Selected Sections*. Groningen: Egbert Forsten, 2004.
+- Taylor, J. L. *Forest Monks and the Nation-State: An Anthropological and Historical Study in Northeastern Thailand*. Singapore: Institute of Southeast Asian Studies, 1993.
+- Temple, Richard Carnac. *The Thirty-Seven Nats: A Phase of Spirit-Worship Prevailing in Burma*. London: W. Griggs, 1906.
+- Temple, Sir Richard Carnac. *The Thirty-Ancient Nats: A Phase of Spirit-Worship Prevailing in Burma*. London: W. Griggs, 1906.
+- Terwiel, B. J. *Monks and Magic: An Analysis of Religious Ceremonies in Central Thailand*. Lund: Studentlitteratur, 1975.
+- Thompson, Ashley, ed. *Early Theravādin Cambodia: Perspectives from Art and Archaeology*. Singapore: NUS Press, 2022.
+- Thompson, Ashley. *Engendering the Buddhist State: Territory, Sovereignty and Sexual Difference in the Inventions of Angkor*. London and New York: Routledge, 2016.
+- Tikhonov, Vladimir, and Torkel Brekke, eds. *Buddhism and Violence: Militarism and Buddhism in Modern Asia*. New York: Routledge, 2013.
+- Timalsina, Sthaneshwar. "Abhinavagupta." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 181–206. Oxford: Oxford University Press, 2024.
+- Timalsina, Sthaneshwar. "Attention, Memory, and the Imagination: A Cognitive Analysis of Tantric Visualization." ใน *The Oxford Handbook of Tantric Studies*, บรรณาธิการโดย Richard K. Payne และ Glen A. Hayes, 731–752. New York: Oxford University Press, 2024.
+- Timalsina, Sthaneshwar. "Visualization and Cognitive Restructuring in Tantric Meditation." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 675–698. New York: Oxford University Press, 2024.
+- Tin, Pe Maung, and G. H. Luce, trans. *The Glass Palace Chronicle of the Kings of Burma*. London: Oxford University Press, 1923.
+- Tran Ky Phuong, and Bruce M. Lockhart, eds. *The Cham of Vietnam: History, Society and Art*. Singapore: NUS Press, 2011.
+- Tran Ky Phuong. "The Architecture of the Temple-Monastery of Đồng Dương (Quảng Nam Province): A Masterpiece of Buddhist Art in Champa." In *Buddhism in Champa*, edited by Tran Ky Phuong, 45–68. Hanoi: Vietnam National University Press, 2012.
+- Tran Ky Phuong. *Vestiges of Champa Civilization*. Hanoi: The Gioi Publishers, 2008.
+- Tucci, Giuseppe. *The Religions of Tibet*. แปลโดย Geoffrey Samuel. London: Routledge and Kegan Paul, 1980.
+- Urban, Hugh B. *Tantra: Sex, Secrecy, Politics, and Power in the Study of Religion*. Berkeley: University of California Press, 2003.
+- Urban, Hugh B. *The Power of Tantra: Religion, Sexuality and the Politics of Knowledge*. London: I.B. Tauris, 2010.
+- Urban, Hugh B. *Zoraster's Children: The Esoteric Transmission in Bengal*. Albany: State University of New York Press, 2016.
+- Varela, Francisco J., Evan Thompson, and Eleanor Rosch. *The Embodied Mind: Cognitive Science and Human Experience*. Cambridge, MA: MIT Press, 1991.
+- Varma, Rashmi. "Kāmākhyā and the Tantric Fertility Cults of Medieval Assam." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 765–788. Oxford: Oxford University Press, 2024.
+- Vidyabhusana, Satish Chandra. *A History of Indian Logic: Ancient, Mediaeval and Modern Schools*. Calcutta: Calcutta University, 1921.
+- Vo Van Thang, ed. *Vibrancy in Stone: Masterpieces of the Da Nang Museum of Cham Sculpture*. Bangkok: River Books, 2018.
+- Walker, Trent Thomas. "Bilingualism: Theravāda Bitexts Across South and Southeast Asia." In *The Routledge Handbook of Theravāda Buddhism*, edited by Stephen C. Berkwitz and Ashley Thompson, 269–286. London: Routledge, 2022.
+- Walker, Trent Thomas. "Bilingualism: Theravāda Bitexts Across South and Southeast Asia." In *The Routledge Handbook of Theravāda Buddhism*, edited by Stephen C. Berkwitz and Ashley Thompson, 271–288. London and New York: Routledge, 2022.
+- Wallace, Vesna A. "A Dharma Protector in a Transcultural Tantric Buddhist Context." ใน *The Oxford Handbook of Tantric Studies*, บรรณาธิการโดย Richard K. Payne และ Glen A. Hayes, 489–508. New York: Oxford University Press, 2024.
+- Wayman, Alex. *The Buddhist Tantras: Light on Indo-Tibetan Esotericism*. New York: Samuel Weiser, 1973.
+- Wayman, Alex. *Yoga of the Guhyasamājatantra: The Arcane Lore of Forty Verses, A Buddhist Tantra Commentary*. Delhi: Motilal Banarsidass, 1977.
+- Wayman, Alex. *Yoga of the Guhyasamājatantra: The Arcane Lore of Forty Verses; A Buddhist Tantra Commentary*. Delhi: Motilal Banarsidass, 1977.
+- Weber, Max. "Science as a Vocation." In *From Max Weber: Essays in Sociology*, translated and edited by H. H. Gerth and C. Wright Mills, 129–156. New York: Oxford University Press, 1946.
+- Wedemeyer, Christian K. *Āryadeva's Lamp that Integrates the Practices (Caryāmelāpakapradīpa): The Philosophical and Ritual System of Buddhist Tantra*. New York: American Institute of Buddhist Studies / Columbia University Press, 2007.
+- Wedemeyer, Christian K. *Making Sense of Tantric Buddhism: History, Semiology, and Transgression in the Indian Traditions*. New York: Columbia University Press, 2012.
+- Wedemeyer, Christian K. *Making Sense of Tantric Buddhism: History, Semiology, and Transgression in the Indian Traditions*. New York: Columbia University Press, 2013.
+- Wells, Kenneth E. *Thai Buddhism: Its Rites and Activities*. Bangkok: Bangkok Times Press, 1939.
+- Wenk, Klaus. *Laotische Handschriften*. Verzeichnis der orientalischen Handschriften in Deutschland, vol. 32. Wiesbaden: Franz Steiner, 1975.
+- White, David Gordon. "The Netra Tantra and Its Royal Apotheosis." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 317–342. Oxford: Oxford University Press, 2024.
+- White, David Gordon. *Kiss of the Yoginī: "Tantric Sex" in its South Asian Contexts*. Chicago: University of Chicago Press, 2003.
+- White, David Gordon. *The Alchemical Body: Siddha Traditions in Medieval India*. Chicago: University of Chicago Press, 1996.
+- Williams, Michael D. "Cosmogenesis and Phonemes: The Śaiva Metaphysics of Speech in Utpaladeva and Abhinavagupta." In *The Oxford Handbook of Tantric Studies*, edited by Richard K. Payne and Glen A. Hayes, 619–644. Oxford: Oxford University Press, 2024.
+- Williams, Paul. *Mahāyāna Buddhism: The Doctrinal Foundations*. 2nd ed. London: Routledge, 2008.
+- Winternitz, Moriz. *A History of Indian Literature*, vol. 2, *Buddhist Literature and Jaina Literature*. แปลโดย S. Ketkar และ H. Kohn. Calcutta: University of Calcutta, 1933.
+- Winternitz, Moriz. *A History of Indian Literature, Vol. II: Buddhist Literature and Jaina Literature*. Translated by S. Ketkar and H. Kohn. Calcutta: University of Calcutta, 1933; reprint, Delhi: Motilal Banarsidass, 1983.
+- Wolters, O. W. *History, Culture, and Region in Southeast Asian Perspectives*. Singapore: Institute of Southeast Asian Studies, 1982. Revised edition, Ithaca: Southeast Asia Program Publications, Cornell University, 1999.
+- Woodward, F. L., trans. *Manual of a Mystic: Being a Translation from the Pali and Sinhalese Work Entitled The Yogavachara's Manual*. Edited by Caroline A. F. Rhys Davids. London: Published for the Pali Text Society by Humphrey Milford, 1916.
+- Woodward, F. L., trans. *Manual of a Mystic: Being a Translation from the Pali and Sinhalese Work Entitled The Yogavachara's Manual*. Edited by Caroline A. F. Rhys Davids. With an Appendix by Sir D. B. Jayatilaka. London: Published for the Pali Text Society by Humphrey Milford, Oxford University Press, 1916.
+- Woodward, Hiram W. "Angkor and Theravāda Buddhism: Some Considerations on Mon-Khmer Contacts, Epigraphy, and Iconography." In *Early Theravādin Cambodia: Perspectives from Art and Archaeology*, edited by Ashley Thompson, 55–92. Singapore: NUS Press, 2022.
+- Woodward, Hiram W. "What There Was before Siam: Traditional Views." In *Before Siam: Essays in Art and Archaeology*, edited by Nicolas Revire and Stephen A. Murphy, 14–29. Bangkok: River Books & The Siam Society, 2014.
+- Woodward, Hiram W. *The Sacred Sculpture of Thailand: The Alexander B. Griswold Collection, The Walters Art Gallery*. Baltimore: Walters Art Gallery, 1997.
+- Yijing (พระภิกษุอี้จิง). *A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (AD 671–695)*. แปลโดย Junjiro Takakusu. Oxford: Clarendon Press, 1896.
+- Yijing (พระภิกษุอี้จิง). *Mémoire composé à l'époque de la grande dynastie T'ang sur les religieux éminents qui allèrent chercher la loi dans les pays d'occident*. แปลโดย Édouard Chavannes. Paris: Ernest Leroux, 1894.
+- Zhou Daguan (โจวตากวน). *A Record of Cambodia: The Land and Its People* (*Zhenla Fengtuji* ค.ศ. 1296). แปลโดย Peter Harris. Bangkok: Silkworm Books, 2007.
+- Zoetmulder, P. J. *Kalangwan: A Survey of Old Javanese Literature*. The Hague: Martinus Nijhoff, 1974.
+- Zürcher, Erik. *The Buddhist Conquest of China: The Spread and Adaptation of Buddhism in Early Medieval China*. 3rd ed. Leiden: Brill, 2007.
+
+---
+
+## ภาคที่ 3: บทความวิจัยในวารสารวิชาการและรวมบทความ (Journal Articles & Chapters)
+
+- Acri, Andrea, and Aleksandra Wenta. “A Buddhist Bhairava? Kṛtanagara’s Tantric Buddhism in Transregional Perspective.” *Entangled Religions* 13, no. 7 (2022): 1–55. https://doi.org/10.46586/er.13.2022.9653.
+- Acri, Andrea, and Thomas M. Hunter. "Translation as Commentary in the Sanskrit-Old Javanese Didactic and Religious Literature from Java and Bali." *medieval worlds* 11 (2020): 208–246. https://doi.org/10.1553/medievalworlds_no11_2020s208.
+- Acri, Andrea, and Thomas M. Hunter. "Translation as Commentary in the Sanskrit-Old Javanese Didactic and Religious Literature from Java and Bali." *medieval worlds* 11 (2020): 213–248. https://doi.org/10.1553/medievalworlds_no11_2020s213.
+- Acri, Andrea. "A New Perspective on ‘Balinese Hinduism’ in the Light of the Old Javanese Texts." *Journal of Hindu Studies* 4, no. 2 (2011): 182–214.
+- Acri, Andrea. "The Śaiva Atimārga in the Light of Niśvāsaguhya 12.1–22ab." *Cracow Indological Studies* 16 (2014): 43–76. https://doi.org/10.12797/CIS.16.2014.16.03.
+- Acri, Andrea. "The Śaiva-Buddhist Ecumene in the Indian Ocean World: Textual, Epigraphical, and Archaeological Evidence." *Zeitschrift für Indologie und Südasienstudien* 32 (2015): 1–35.
+- Acri, Andrea. "Translation as Commentary in Old Javanese Literature." *Indonesia and the Malay World* 48, no. 141 (2020): 213–240.
+- Acri, Andrea. *Dharma Pātañjala: A Śaiva Scripture from Ancient Java Studied in the Light of Related Old Javanese and Sanskrit Texts*. PhD diss., Leiden University, 2011.
+- Ando, Mitsuru. “Ko-Jawa-go Shivakkyō Bunken ‘Wṛhaspatitattwa’ no Genryū ni tsuite” [Textual Sources of the Old Javanese Śaiva Tantrism]. *Journal of Indian and Buddhist Studies (Indogaku Bukkyōgaku Kenkyū)* 56, no. 1 (2007): 250–254.
+- Andreeva, Ludmila. "Esoteric Embryology and the Dual Mandalas in Medieval Japan." *Monumenta Nipponica* 79, no. 2 (2024): 249–272.
+- Arensen, Ling. "Monastic Lineages and Scriptural Transmission in Upper Burma: The Sāsanavaṃsa Reconsidered." *Journal of Burma Studies* 24, no. 2 (2020): 185–218.
+- Aymonier, Étienne. "Première étude sur les inscriptions tchames." *Journal Asiatique* 17 (1891): 5–86.
+- Baker, Chris, and Pasuk Phongpaichit. "Before the Amulet: Concepts and Devices in Old Siam." *Journal of the Siam Society* 112, no. 2 (2024): 1–40.
+- Baker, Chris, and Pasuk Phongpaichit. "Before the Amulet: Concepts and Devices in Old Siam." *Journal of the Siam Society* 112, no. 2 (December 2024): 17–38. https://doi.org/10.69486/112.2.2024.3.
+- Baker, Chris, and Pasuk Phongpaichit. "Protection and Power in Siam: From Khun Chang Khun Phaen to the Buddha Amulet." *Southeast Asian Studies* 2, no. 2 (August 2013): 215–242.
+- Bernon, Olivier de. "Fonds pour l'Édition des Manuscrits du Cambodge (FEMC)." *Aséanie* 5 (2000): 173–178.
+- Bernon, Olivier de. "Le fonds des manuscrits du Cambodge de l'EFEO." *Bulletin de l'École française d'Extrême-Orient* 85 (1998): 423–428.
+- Bhattacharyya, Benoytosh, ed. *Sādhanamālā*. Vol. 1. Gaekwad’s Oriental Series, no. 26. Baroda: Central Library; Calcutta: Baptist Mission Press, 1925.
+- Bialek, Joanna. "The Terms *dhāraṇī* and *mantra* in the Light of the Early Tibetan Translations of the Mahāyāna Sūtras." *Acta Orientalia Academiae Scientiarum Hungaricae* 67, no. 4 (2014): 375–403.
+- Blackburn, Anne M. "Buddhist Connections in the Indian Ocean: Changes in Monastic Mobility, 1000–1500." *Journal of the Economic and Social History of the Orient* 58, no. 3 (2015): 237–266.
+- Borup, Jørn. "Practising Buddhist Modernity: Hybridity, Innovation and Adaptations." *Journal of Global Buddhism* 24, no. 1 (2023): 1–18.
+- Cabaton, Antoine. "Nouvelles recherches sur les Chams." *Publications de l'EFEO* 2 (1901): 1–215.
+- Chachavalpongpun, Pavin. "The Temple of the Holy Gem: Politics and Modern Buddhist Construction in Thailand." *Asian Studies Review* 44, no. 2 (2020): 215–233.
+- Cholvijarn, Potprecha. "Ayutthayan Protective Practices and Devices: Manual of Wat Pradusongtham." *Journal of International Buddhist Studies* 17, no. 1 (2026): 65–94. https://doi.org/10.65680/83361712026.
+- Choompolpaisal, Phibul. "The Conditioned and the Unconditioned: An Analysis of the Development of the Nimitta in the Borān Kammaṭṭhāna Tradition." PhD diss., SOAS University of London, 2011.
+- Chou Yi-liang. "Tantrism in China." *Harvard Journal of Asiatic Studies* 8, no. 3/4 (1945): 241–332.
+- Chowdhury, Chipamong. "Did the Buddha Speak Pāli? An Investigation of The Buddha-Vacana and Origins of Pāli." *The Dhaka University Journal of Linguistics* 2, no. 4 (2009/2010): 39–62.
+- Chutiwongs, Nandana. "Visual Expressions of Tantric Buddhism." *Journal of the Siam Society* 70, no. 1–2 (1982): 76–85.
+- Chutiwongs, Nandana. "Visual Expressions of Tantric Buddhism." *Journal of the Siam Society* 70, no. 1–2 (1982): 76–90.
+- Cœdès, George. "La stèle de Ta-Prohm." *Bulletin de l'École française d'Extrême-Orient* 6 (1906): 44–85.
+- Cœdès, George. "Les inscriptions malaises de Çrīvijaya." *Bulletin de l'École française d'Extrême-Orient* 30, no. 1 (1930): 29–80.
+- Collett, Alice. "Editorial: Recent Trends in Buddhist Studies and Epigraphy." *Buddhist Studies Review* 39, no. 1 (2022): 1–4.
+- Cox, Laurence. Review of *Theravada Buddhism: Continuity, Diversity, and Identity*, by Kate Crosby. *Journal of Contemporary Religion* 29, no. 3 (2014): 555–557.
+- Cox, Laurence. Review of *Traditional Theravada Meditation and its Modern-Era Suppression*, by Kate Crosby. *Journal of Global Buddhism* 15 (2014): 93–97.
+- Crosby, Kate. "Tantric Theravada: A Bibliographic Essay on the Writings of François Bizot and others on the Yogāvacara Tradition." *Contemporary Buddhism* 1, no. 2 (2000): 141–198.
+- Crosby, Kate. "Tantric Theravada: A Bibliographic Essay on the Writings of François Bizot and Others on the Yogāvacara Tradition." *Contemporary Buddhism* 1, no. 2 (2000): 141–198.
+- Crosby, Kate. "Tantric Theravāda: A Bibliographic Essay on the Writings of François Bizot and others on the Yogāvacara Tradition." *Contemporary Buddhism* 1, no. 2 (2000): 141–198.
+- Demers, Jason. "The Commodification of Buddhist Temples in Contemporary Bangkok." Master's thesis, University of British Columbia, 2010.
+- Dikshit, K. N. *Excavations at Paharpur, Bengal*. Memoirs of the Archaeological Survey of India, no. 55. Delhi: Manager of Publications, 1938.
+- Finot, Louis. "L'origine du Çivaïsme en Annam et au Cambodge." *Bulletin de l'École française d'Extrême-Orient* 8 (1908): 201–209.
+- Finot, Louis. "Notes d'épigraphie: XI. Les inscriptions de Mi-son; XII. L'inscription de Dong-duong." *Bulletin de l'École française d'Extrême-Orient* 4, no. 1 (1904): 84–99.
+- Finot, Louis. "Un nouveau document sur le Bouddhisme birman." *Journal Asiatique* 20 (1912): 121–136.
+- Foxeus, Niklas. "Esoteric Practices in Modern Burmese Buddhism: The Cult of Weikza." *Contemporary Buddhism* 14, no. 2 (2013): 260–288.
+- Foxeus, Niklas. "Esoteric Theravāda Buddhism in Burma/Myanmar: The Practice of the Weikza-lam." *Scripta Instituti Donneriani Aboensis* 25 (2013): 54–86.
+- Gombrich, Richard F. "The Consecration of a Buddhist Image." *The Journal of Asian Studies* 26, no. 1 (1966): 23–36. https://doi.org/10.2307/2051829.
+- Huber, Edouard. "Études Indochinoises: V. La fin de la dynastie de Pagan." *Bulletin de l'École française d'Extrême-Orient* 9, no. 4 (1909): 633–680.
+- Hundius, Harald, and David Wharton. "The Digital Library of Lao Manuscripts." *Journal of the Siam Society* 98 (2010): 9–32.
+- Hundius, Harald. "The Digital Library of Lao Manuscripts (DLLM): A Project of Preservation and Access." *Manuscript Cultures* 4 (2011): 12–20.
+- Isaacson, Harunaga. "Himalayan Hermeneutics: The Hevajratantra and Its Commentaries." *Journal of the American Oriental Society* 122, no. 4 (2002): 890–895.
+- Keyes, Charles F. "Buddhism and National Integration in Thailand." *The Journal of Asian Studies* 30, no. 3 (1971): 551–567.
+- Kieven, Lydia. "Getting Closer to the Primordial Panji? Panji Stories Carved in Stone at Ancient Javanese Majapahit Temples – and their Impact as Cultural Heritage Today." *SPAFA Journal* 1, no. 1 (2017): 1–28. http://dx.doi.org/10.26721/spafajournal.v1i0.172.
+- Kitiarsa, Pattana. "Beyond Syncretism: Hybridization of Popular Religion in Contemporary Thailand." *Journal of Southeast Asian Studies* 36, no. 3 (2005): 461–487.
+- Kitiarsa, Pattana. "The Fall of the Post-1997 Thai Buddhist Boom: The Bizarre Case of Jatukham Rammathep Amulets." *Journal of Southeast Asian Studies* 41, no. 3 (2010): 455–480.
+- Kotyk, Jeffrey. "Astrology, Astronomy, and the Sukuyōkyō in East Asia." *Japanese Journal of Religious Studies* 51, no. 2 (2024): 273–302.
+- Kotyk, Jeffrey. "Monastic Statecraft in Tang China: The Case of Amoghavajra." *Journal of Chinese Buddhist Studies* 37 (2024): 47–76.
+- Kourilsky, Gregory. "Intertextuality in Thai–Lao Buddhism: The Gavampatisutta." *Journal of the Siam Society* 114, no. 1 (2026): 41–64.
+- Kourilsky, Gregory. "The 'Kammatthan Buddhist Tradition' of Mainland Southeast Asia: On a New Paradigm of History and Regional Interaction." *Journal of the Siam Society* 110, no. 2 (2022): 97–128.
+- Ladwig, Patrice. "Worshipping Relics, Protecting the Nation: The Politics of Buddhist Material Culture in Laos." *Modern Asian Studies* 56, no. 3 (2022): 890–924.
+- Lagirarde, François. "Gavampati-Kaccāyana: Des disciples du Bouddha aux figures mythiques en Asie du Sud-Est." *Aséanie* 18 (2006): 13–46.
+- Lagirarde, François. "Le Saddavimala: Traité de méditation khmer-pāli." *Bulletin de l'École française d'Extrême-Orient* 87 (2000): 21–64.
+- Larsson, Tomas. "The Complicity of Secularism: State and Sangha in Modern Thailand." *Politics and Religion* 9, no. 4 (2016): 737–760.
+- Lim, Al [Francis K.G.]. "The Gendered Allure of Nang Kwak: From Statuettes to NFTs in Thailand." *Journal of the Siam Society* 112, no. 2 (December 2024): 133–154. https://doi.org/10.69486/112.2.2024.9.
+- Lim, Francis K. G. [Al Lim]. "The Gendered Allure of Nang Kwak: From Statuettes to NFTs in Thailand." *Journal of the Siam Society* 112, no. 2 (2024): 133–154.
+- Lindtner, Christian. "Atiśa's Introduction to the Two Truths, and Its Sources." *Journal of Indian Philosophy* 9, no. 2 (1981): 161–214.
+- Luce, Gordon H., and Bohmu Ba Shin. "Pagan Myinkaba Kubyauk-gyi Temple of Rājakumār (1113 A.D.) and the Abeyadana Temple." *Bulletin of the Burma Historical Commission* 2 (1961): 277–416.
+- Makin, Al. "Unearthing Nusantara’s Concept of Religious Pluralism: Harmonization and Syncretism in Hindu-Buddhist and Islamic Classical Texts." *Al-Jāmi‘ah: Journal of Islamic Studies* 54, no. 1 (2016): 1–32. https://doi.org/10.14421/ajis.2016.541.1-30.
+- Makin, Stephen. "Geometries of the Divine: Yantra and Mandalas in Medieval Hindu Ritual." *Journal of Hindu Studies* 9, no. 2 (2016): 189–214.
+- Malasart, Phibul. "The Dhammakāya Text Genre: A Critical Edition and Study." Master's thesis, Department of Eastern Languages, Faculty of Arts, Chulalongkorn University, 2019.
+- Malasart, Woramat. "The *Dhammakāyānussati-kathā*: A Critical Edition and Study of a Borān Meditation Text from Thailand." Master's thesis, University of Otago, 2019.
+- Mallinson, James. "The Yogī's Latest Trick." *Journal of the Royal Asiatic Society* 24, no. 1 (2014): 165–180.
+- Mallinson, James. "The Yogīs’ Latest Trick." *Journal of the Royal Asiatic Society* 24, no. 1 (2014): 165–180.
+- McBain, Alex. "The Amulet Culture of Thailand: History, Magic, and the Marketplace." *Asian Ethnology* 82, no. 1 (2023): 3–28.
+- McBain, Paul. "The Amulet Culture of Thailand." *Journal of the Siam Society* 112, no. 2 (December 2024): 7–16. https://doi.org/10.69486/112.2.2024.2.
+- McDaniel, Justin T. "Rhetorical Style: Bilingual Glossing & Syntax." In "The Curricular Canon in Northern Thailand and Laos," *MANUSYA: Journal of Humanities*, Special Issue No. 4 (2002): 1–24.
+- McMullen, James. "Tendai Esotericism and the Buddhahood of Plants: Annen's Sōmoku Jōbutsu." *Journal of Japanese Studies* 50, no. 2 (2024): 395–420.
+- Newell, Catherine. "Monks, Meditation and Missing Links: Continuity, ‘Break’ and the Early History of the Dhammakāya Movement." PhD diss., SOAS University of London, 2008.
+- Newman, John. "The Epoch of the Kālacakra Tantra." *Indo-Iranian Journal* 41, no. 4 (1998): 319–349.
+- Pain, Frédéric. "Brève Introduction à l’Indo-Aryen et Situation Linguistique du Sanskrit Classique." *BABELAO: Bulletin de l'Académie Belge pour l'Étude des Langues Anciennes et Orientales* 15 (2026): 1–32.
+- Pain, Frédéric. "The Epigraphical Shift of *Āgama* and Tantric Transformation in Premodern Southeast Asia." *Journal of Southeast Asian Epigraphy and Philology* 14 (2026): 45–68.
+- Pal, Pratapaditya. "A Note on the Frescoes of the Paya-thon-zu in Pagan." *Artibus Asiae* 58, no. 1/2 (1998): 119–130.
+- Perreira, Todd LeRoy. "'When There Is No Base, How Can There Be a Way?' A Study of the Yogāvacara Tradition in Theravāda Buddhism." PhD diss., University of California, Santa Barbara, 2012.
+- Pokharel, Badri Prasad. "The Importance of Buddhism to Heal Trauma in Pahadi’s 'The Tears of Terror'." *Interdisciplinary Journal of Management and Social Sciences* 4, no. 1 (2023): 1–10.
+- Pokharel, Badri Prasad. "The Importance of Buddhism to Heal Trauma in Pahadi’s 'The Tears of Terror'." *Interdisciplinary Journal of Management and Social Sciences* 4, no. 1 (2023): 1–12.
+- Qi, Guanxiong. "Inventing Thai Amulets for the Chinese: Achan Meng and the Nine-Tailed Fox." *Journal of the Siam Society* 112, no. 2 (2024): 75–98.
+- Qi, Guanxiong. "Inventing Thai Amulets for the Chinese: Achan Meng and the Nine-Tailed Fox." *Journal of the Siam Society* 112, no. 2 (December 2024): 75–98. https://doi.org/10.69486/112.2.2024.6.
+- Revire, Nicolas, Gregory Kourilsky, and Pierre-Yves Manguin, eds. *Special Edition on George Cœdès, Śrīvijaya, and Pre-Angkorian Bodhisattvas*. *Journal of the Siam Society* 113, no. 2 (2024/2025): 1–250.
+- Revire, Nicolas, Gregory Kourilsky, and Pierre-Yves Manguin, eds. *Special Edition on George Cœdès, Śrīvijaya, and Pre-Angkorian Bodhisattvas*. *Journal of the Siam Society* 113, no. 2 (2024/2025): iii–iv, 1–242.
+- Revire, Nicolas. "A Pre-Angkorian Bronze Bodhisattva at the Art Institute of Chicago." *Journal of the Siam Society* 113, no. 2 (2024/2025): 215–242.
+- Revire, Nicolas. "A Pre-Angkorian Bronze Bodhisattva at the Art Institute of Chicago." *Journal of the Siam Society* 113, no. 2 (2024/2025): 215–248.
+- Reynolds, Craig J. "Monastery and Bank in Southeast Asia." *Comparative Studies in Society and History* 48, no. 2 (2006): 332–361.
+- Reynolds, Craig J. "The Buddhist Monkhood in Nineteenth Century Thailand." PhD diss., Cornell University, 1972.
+- Reynolds, Craig J. *The Buddhist Monkhood in Nineteenth Century Thailand*. PhD diss., Cornell University, 1972.
+- Reynolds, Frank E. "The Several Bodies of Buddha: Reflections on a Neglected Aspect of Theravada Tradition." *History of Religions* 17, no. 4 (1977): 374–389.
+- Seeger, Martin. "Phra Payutto and Debates 'On the Very Idea of the Pali Canon' in Thai Buddhism." *Buddhist Studies Review* 26, no. 1 (2009): 1–31.
+- Seeger, Martin. "Phra Payutto and Debates 'On the Very Idea of the Pali Canon' in Thai Buddhism." *Buddhist Studies Review* 26, no. 1 (2009): 1–31. https://doi.org/10.1558/bsrv.v26i1.1.
+- Sharf, Robert H. "Buddhist Modernism and the Rhetoric of Meditative Experience." *Numen* 42, no. 3 (1995): 228–283.
+- Skilling, Peter. "Buddhism and the Early History of Southeast Asia." *Enquêtes et documents* 25 (2001): 241–254.
+- Skilling, Peter. "Manuscript Culture in Southeast Asia: The Fragile Palm Leaves Project." *Journal of the Pali Text Society* 28 (2006): 1–12.
+- Skilling, Peter. "The Advent of Theravāda Buddhism to Mainland South-east Asia." *Journal of the Siam Society* 85 (1997): 93–107.
+- Skilton, Andrew. "De-provincializing Bizot: The Hugh Nevill Collection and the Pan-Asian Horizons of Esoteric Southern Buddhism." *Journal of Buddhist Studies* 23 (2025): 258–275.
+- Skilton, Andrew. Review of *Meditations of the Pali Tradition: Illuminating Buddhist Doctrine, History, and Practice*, by L. S. Cousins, edited by Sarah Shaw. *Buddhist Studies Review* 41, no. 1–2 (2024/2025): 258–262.
+- Sopranzetti, Claudio. "Framed by Freedom: Emancipation and Oppression in Post-Fordist Thailand." *Cultural Anthropology* 32, no. 1 (2017): 68–92. https://doi.org/10.14506/ca32.1.07.
+- Stanford, James, and David de Jong. "Occult Capital and Tantric Buddhism in Transnational Asia." *Modern Asian Studies* 53, no. 4 (2019): 1120–1152.
+- Stanford, Mark, and Jonathan Jong. "Beyond Buddhism and Animism: A Psychometric Test of the Structure of Burmese Theravada Buddhism." *PLOS ONE* 14, no. 12 (2019): e0226414. https://doi.org/10.1371/journal.pone.0226414.
+- Suebsantiwongse, Saran. "From Sacred to Profane: Forms and Development of the Phra Khun Phaen Amulet in Modern Thailand." *Journal of the Siam Society* 112, no. 2 (2024): 39–52.
+- Suebsantiwongse, Saran. "From Sacred to Profane: Forms and Development of the Phra Khun Phaen Amulet in Modern Thailand." *Journal of the Siam Society* 112, no. 2 (December 2024): 39–54. https://doi.org/10.69486/112.2.2024.4.
+- Sugiki, Tsunehiko. "The Five Types of Kāyamaṇḍala in the Cakrasaṃvara Tradition." *Journal of Indian and Buddhist Studies* 51, no. 2 (2003): 1076–1070.
+- Swanson, Paul. "Kenmitsu Taisei and the Ritual Power of Fudō Myōō." *Japanese Religions* 49, no. 1 (2024): 409–430.
+- Tinsley, James. "Passion as Awakening: The Iconology and Theology of Aizen Myōō in Shingon Buddhism." *Religions of East Asia* 32, no. 3 (2024): 473–494.
+- Treesahakiat, Isara. "The Significance of Khruba Sriwichai's Role in Northern Thai Buddhism: His Sacred Biography, Meditation Practice and Influence." Master's thesis, Victoria University of Wellington, 2011.
+- Treesahakiat, Phramaha Min. "Khruba Sriwichai’s Meditation Practice: A Heritage of Northern Thai Boran Kammatthan." *Journal of Buddhist Studies, Chulalongkorn University* 28, no. 1 (2021): 51–78.
+- Urban, Hugh B. "Desire, Blood and Power: Georges Bataille and the Study of Hindu Tantra in Northeast India." *Revista Científica Arbitrada de la Fundación MenteClara* 1, no. 3 (2016): 23–48. https://doi.org/10.32351/rca.v1.3.22.
+- Urban, Hugh B. "Desire, Blood and Power: Georges Bataille and the Study of Hindu Tantra in Northeast India." *Revista Científica Arbitrada de la Fundación MenteClara* 1, no. 3 (2016): 25–48.
+- Urkasame, Kitchai. "A Study of the Dhammakāya Verse from Lanna Manuscripts." Master's thesis, University of Sydney, 2013.
+- Vickery, Michael. "Champa Revised." *ARI Working Paper*, no. 37. Singapore: Asia Research Institute, 2005.
+- Wade, Geoff. "An Early Age of Commerce in Southeast Asia, 900–1300 CE." *Journal of Southeast Asian Studies* 40, no. 2 (2009): 221–265.
+- Walker, Trent Thomas. "Unfolding Buddhism: Communal Scripts, Localized Translations, and the Work of the Dying in Cambodian Chanted Leporellos." PhD diss., University of California, Berkeley, 2018.
+- Walker, Trent. "Unfolding Buddhism: Communal Chanting and the Khmer-Tai Buddhist World, 1350–1950." PhD diss., University of California, Berkeley, 2018.
+- Wattanagun, Kanya. "Karma versus Magic: Dissonance and Syncretism in Vernacular Thai Buddhism." *Southeast Asian Studies* 6, no. 1 (2017): 115–136. https://doi.org/10.20495/seas.6.1_115.
+- Wattanagun, Kanya. "Karma versus Magic: Dissonance and Syncretism in Vernacular Thai Buddhism." *Southeast Asian Studies* 6, no. 1 (2017): 115–137. https://doi.org/10.20495/seas.6.1_115.
+- Wattanagun, Nathaporn. "The Transformation of Protective Magic in Central Thailand: From Yantra Cloths to Amulets." *South East Asia Research* 25, no. 4 (2017): 381–398.
+- Webb, Russell. "Étienne Lamotte (1903–1983): A Centenary Assessment of His Contributions to Buddhist Studies." *Buddhist Studies Review* 20, no. 1 (2003): 1–16.
+- Wharton, David. "The Digital Library of Lao Manuscripts." *Journal of the Siam Society* 98 (2010): 9–32.
+- White, David Gordon. "Tantra as Paradigm Shift: On Shaman Hatley's *The Brahmayāmalatantra or Picumata, Volume I*." *Religions* 12, no. 10 (2021): 865, pp. 1–15.
+- Woodward, F. L., trans. *Manual of a Mystic: Being a Translation from the Pali and Sinhalese Work Entitled The Yogāvachara's Manual*. With an Introduction by Mrs. Rhys Davids. Pali Text Society Translation Series, no. 6. London: Humphrey Milford, Oxford University Press, 1916.
+- Woodward, Hiram W., Jr. "Esoteric Buddhism in Southeast Asia in the Light of Recent Scholarship." *Journal of Southeast Asian Studies* 35, no. 2 (2004): 329–354.
