@@ -1,9 +1,9 @@
 {
   "name": "คลังงานวิจัย (Research Archive)",
   "baseUrl": "docs/",
-  "updatedAt": "2026-09-21T07:00:30.947Z",
-  "totalFiles": 8368,
-  "totalBytes": 998621585,
+  "updatedAt": "2026-09-21T08:34:43.306Z",
+  "totalFiles": 8570,
+  "totalBytes": 1044843205,
   "files": [
     {
       "path": "00 - รวมแปลบทความวิชาการ/05+Ooi+Corrected+FINAL+version+August+14+2022_Embedded.md",
@@ -41136,9 +41136,749 @@
       "mtime": 1789735440196
     },
     {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/assembled/ch01.md",
+      "size": 59782,
+      "mtime": 1789978286702
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/assembled/ch02.md",
+      "size": 59693,
+      "mtime": 1789978291175
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/assembled/ch03.md",
+      "size": 60758,
+      "mtime": 1789978294628
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/assembled/ch04.md",
+      "size": 99376,
+      "mtime": 1789978311211
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/assembled/ch05.md",
+      "size": 54955,
+      "mtime": 1789978318348
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/assembled/ch06.md",
+      "size": 57083,
+      "mtime": 1789978324534
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/drafting-progress.md",
+      "size": 8175,
+      "mtime": 1789978118082
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/sections/ch01_sec01.md",
+      "size": 30229,
+      "mtime": 1789977716642
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/sections/ch01_sec02.md",
+      "size": 29654,
+      "mtime": 1789977772778
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/sections/ch02_sec01.md",
+      "size": 29666,
+      "mtime": 1789977829405
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/sections/ch02_sec02.md",
+      "size": 30121,
+      "mtime": 1789977876830
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/sections/ch03_sec01.md",
+      "size": 30715,
+      "mtime": 1789978043083
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/sections/ch03_sec02.md",
+      "size": 30129,
+      "mtime": 1789978089414
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/sections/ch04_sec01.md",
+      "size": 34196,
+      "mtime": 1789977894936
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/sections/ch04_sec02.md",
+      "size": 32529,
+      "mtime": 1789977970151
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/sections/ch04_sec03.md",
+      "size": 33081,
+      "mtime": 1789978034957
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/sections/ch05_sec01.md",
+      "size": 28079,
+      "mtime": 1789977793784
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/sections/ch05_sec02.md",
+      "size": 26974,
+      "mtime": 1789977868802
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/sections/ch06_sec01.md",
+      "size": 28186,
+      "mtime": 1789977898576
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/drafts/sections/ch06_sec02.md",
+      "size": 29017,
+      "mtime": 1789977928361
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/final/00-สารบัญ.md",
+      "size": 35961,
+      "mtime": 1789978447041
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/final/01-กำเนิดและพัฒนาการ.md",
+      "size": 59782,
+      "mtime": 1789978286702
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/final/02-การปิดตายและถูกลืม.md",
+      "size": 59693,
+      "mtime": 1789978291175
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/final/03-การค้นพบ.md",
+      "size": 60758,
+      "mtime": 1789978294628
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/final/04-การฉกชิงและการกระจายตัว.md",
+      "size": 99376,
+      "mtime": 1789978311211
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/final/05-ประวัติศาสตร์ตุนหวงศึกษา.md",
+      "size": 54955,
+      "mtime": 1789978318348
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/final/06-สถานภาพปัจจุบันและการอนุรักษ์ดิจิทัล.md",
+      "size": 57083,
+      "mtime": 1789978324534
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/final/references.md",
+      "size": 26274,
+      "mtime": 1789978400977
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/glossary.md",
+      "size": 29454,
+      "mtime": 1789976053630
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/outline-proposal.md",
+      "size": 54650,
+      "mtime": 1789976024291
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/PROJECT.md",
+      "size": 11833,
+      "mtime": 1789975962980
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/project-plan.md",
+      "size": 25947,
+      "mtime": 1789975987997
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/dossier-template.md",
+      "size": 4688,
+      "mtime": 1789975931850
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1870_Alwis_descriptive_catalogue_sanskrit_pali_sinhalese.md",
+      "size": 419841,
+      "mtime": 1789977380425
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1871_Buhler_Catalogue_Sanskrit_Manuscripts_Gujarat.md",
+      "size": 53997,
+      "mtime": 1789977381096
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1880_Ras_vyasakara_satakam_sanskrit_sinhalese.md",
+      "size": 68817,
+      "mtime": 1789977381152
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1893_oldenburg_ex04.md",
+      "size": 117246,
+      "mtime": 1789977381349
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1893_Oldenburg_On_the_Buddhist_Jatakas.md",
+      "size": 126067,
+      "mtime": 1789977381251
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1897_Hoernle_BowerManuscript.md",
+      "size": 184359,
+      "mtime": 1789977381501
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1900_Rice_Catalogue_Sanskrit_Manuscripts_Mysore_Coorg.md",
+      "size": 106608,
+      "mtime": 1789977381573
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1904_stein_sand_buried_ruins_khotan.md",
+      "size": 1217716,
+      "mtime": 1789977382390
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1910_chavannes_edouard_gap305.md",
+      "size": 889437,
+      "mtime": 1789976753012
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1911_Chavannes_Cinq_cents_contes_Tome1.md",
+      "size": 822011,
+      "mtime": 1789977476822
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1911_Chavannes_Cinq_cents_contes_Tome2.md",
+      "size": 862365,
+      "mtime": 1789977477899
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1911_Chavannes_Cinq_cents_contes_Tome3.md",
+      "size": 854200,
+      "mtime": 1789977479305
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1912_stein_ruins_desert_cathay_vol1.md",
+      "size": 1476394,
+      "mtime": 1789977385744
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1912_stein_ruins_desert_cathay_vol2.md",
+      "size": 1423865,
+      "mtime": 1789977386806
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1913_chavannes_documents_chinois_stein.md",
+      "size": 639306,
+      "mtime": 1789977388811
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1918_Kularnava_tantra_sanskrit_text_complete.md",
+      "size": 275072,
+      "mtime": 1789977389202
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1920_pelliot_grottes_de_touen_houang_tome2.md",
+      "size": 23751,
+      "mtime": 1789977389476
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1920_pelliot_grottes_de_touen_houang_tome3.md",
+      "size": 21704,
+      "mtime": 1789977389718
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1921_Chavannes_Cinq_cents_contes_Tome4.md",
+      "size": 73119,
+      "mtime": 1789977479433
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1921_pelliot_grottes_de_touen_houang_tome4.md",
+      "size": 20582,
+      "mtime": 1789977390017
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1921_pelliot_grottes_de_touen_houang_tome5.md",
+      "size": 21851,
+      "mtime": 1789977390265
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1922_chavannes_introduction_documents_chinois_stein.md",
+      "size": 81401,
+      "mtime": 1789977390553
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1924_pelliot_grottes_de_touen_houang_tome6.md",
+      "size": 22455,
+      "mtime": 1789977390790
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1925_Narayanananda_guru_gita_skanda_purana_sanskrit.md",
+      "size": 55263,
+      "mtime": 1789977390858
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1926_warner_long_old_road_in_china.md",
+      "size": 291204,
+      "mtime": 1789977391107
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1928_stein_innermost_asia_vol2.md",
+      "size": 2806242,
+      "mtime": 1789977396327
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1929_Ja_t215_Juillet_Septembre_DLI_full_scan.md",
+      "size": 83873,
+      "mtime": 1789977199804
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1933_stein_on_ancient_central_asian_tracks.md",
+      "size": 676195,
+      "mtime": 1789977398042
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1934_Chavannes_Cinq_cents_contes_extraits_Tripitaka_chinois.md",
+      "size": 793558,
+      "mtime": 1789977479976
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1936_Ray_sanskrit_buddhism_in_burma.md",
+      "size": 10362,
+      "mtime": 1789977398696
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1939_lalou_manuscrits_tibetains_touen_houang.md",
+      "size": 624314,
+      "mtime": 1789977399033
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1952_Gonda_sanskrit_in_indonesia.md",
+      "size": 164630,
+      "mtime": 1789977399109
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1960_De_history_of_sanskrit_poetics.md",
+      "size": 1663364,
+      "mtime": 1789977400334
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1973_Wayman_buddhist_tantras_indo_tibetan.md",
+      "size": 17460,
+      "mtime": 1789977400645
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1977_kimura_pelliot_tibetain_116.md",
+      "size": 14427,
+      "mtime": 1789977400675
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1980_hopkirk_foreign_devils_on_the_silk_road.md",
+      "size": 559171,
+      "mtime": 1789977054005
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1983_Abhayakaragupta_vajravali_nispannayogavali_tibetan.md",
+      "size": 1338280,
+      "mtime": 1789977401147
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1989_zh_書評池田温著吐魯番敦煌契券概観漢学研究第四巻第二期台北.md",
+      "size": 9700,
+      "mtime": 1789977401157
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/1996_Pollock_The_Sanskrit_Cosmopolis_300_1300.md",
+      "size": 109770,
+      "mtime": 1789977401238
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2001_Rong_dunhuangxue_shibajiang.md",
+      "size": 770073,
+      "mtime": 1789977007245
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2001_Save_palm_leaf_manuscript_heritage_(2001).md",
+      "size": 20802,
+      "mtime": 1789977401266
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2003_The_Senior_Manuscripts_Another_Collection_of_Gandharan_Buddhist_Scrolls_(20.md",
+      "size": 71791,
+      "mtime": 1789977401337
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2003_zh_敦煌密牧圖像概述.md",
+      "size": 21035,
+      "mtime": 1789977401370
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2010_zh_敦煌出土攝論宗文獻攝大乘論疏北6904V__解題と翻印.md",
+      "size": 93265,
+      "mtime": 1789977401415
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2011_Bronkhorst_the_spread_of_sanskrit_in_southeast_asia.md",
+      "size": 41305,
+      "mtime": 1789977401452
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2012_Aspects_of_manuscript_culture_in_South_India_[this_volume_is_an_outcome_of_.md",
+      "size": 757444,
+      "mtime": 1789977401977
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2013_Codicology_Early_Tibetan_Documents_Dotson_Helman_Wazny.md",
+      "size": 360726,
+      "mtime": 1789977402425
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2013_Szanto_gurupancasika_new_manuscript.md",
+      "size": 12336,
+      "mtime": 1789977402459
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2014_Franco_the_spitzer_manuscript.md",
+      "size": 351257,
+      "mtime": 1789977403050
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2014_From_Birch_Bark_to_Digital_Data_Recent_Advances_in_Buddhist_Manuscript_Rese.md",
+      "size": 1485467,
+      "mtime": 1789977404384
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2014_Mahapratiharyasutra_Gilgit_Manuscripts.md",
+      "size": 1536669,
+      "mtime": 1789977405928
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2014_wang_gaochang_buddhism_silk_road.md",
+      "size": 50489,
+      "mtime": 1789977406058
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2014_zh_擬南斉竟陵文宣王所持の雜義記残簡__敦煌秘笈羽二七一録文研究.md",
+      "size": 212432,
+      "mtime": 1789977406129
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2015_Acri_Sanskrit_Colophon_Tanjung_Tanah_Manuscript.md",
+      "size": 57492,
+      "mtime": 1789977406191
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2015_Frau_K.Kronsteiner_DAS_INSTITUT_FÜR_SÜDASIEN_,_TIBET_UND_BUDDHISMUSKUNDE_DER_UNIVERS.md",
+      "size": 2864,
+      "mtime": 1789977406200
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2015_Griffiths_Three_More_Sanskrit_Inscriptions_Arakan.md",
+      "size": 112243,
+      "mtime": 1789977406308
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2015_Imre_cambridge_dunhuang_manuscript.md",
+      "size": 2111,
+      "mtime": 1789977480010
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2015_Manuscript_Cultures_Mapping_the_Field_Quenzer.md",
+      "size": 936293,
+      "mtime": 1789977406856
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2015_zh_中国传统蛋清灰浆的应用历史和科学性.md",
+      "size": 31046,
+      "mtime": 1789977406895
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2016_jibs643_bilingual_sanskrit_newari.md",
+      "size": 26079,
+      "mtime": 1789977407261
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2016_Liturgical_Texts_in_Khmer_Leporello_Manuscripts_สไลด์_Walker.md",
+      "size": 44617,
+      "mtime": 1789977407164
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2016_Southeast_Asian_palm_leaf_manuscript_images_a_review_of_handwritten_text_li.md",
+      "size": 61019,
+      "mtime": 1789977407239
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2016_Zhang_tidu_l0_dunhuang_bihua_pinghua.md",
+      "size": 14251,
+      "mtime": 1789977748532
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2017_Balbir_Indic_Manuscript_Cultures.md",
+      "size": 75549,
+      "mtime": 1789977407311
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2017_Bentor_Shahar_Chinese_and_Tibetan_Esoteric_Buddhism.md",
+      "size": 1188007,
+      "mtime": 1789976706588
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2017_Kim_Plofker,_Agathe_Kelle_The_Bakhshālī_Manuscript_A_Response_to_the_Bodleian_Library's_Rad.md",
+      "size": 44494,
+      "mtime": 1789977407363
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2018_Acri_Place_Nusantara_Sanskrit_Cosmopolis.md",
+      "size": 96341,
+      "mtime": 1789977407428
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2018_Echoes_of_a_Sanskrit_Past_Unhissavijaya_Walker.md",
+      "size": 163160,
+      "mtime": 1789977407665
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2018_Siamese_Manuscripts_in_Cambodian_Collections_Walker.md",
+      "size": 1582,
+      "mtime": 1789977407688
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2019_ma_Trent_Walker_Introduction_to_Cambodian_Manuscripts_11_Sept_2019_W.md",
+      "size": 34155,
+      "mtime": 1789977407873
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2020_bookhistory_uw_tocharian_pelliot_palaeographic_dating.md",
+      "size": 56708,
+      "mtime": 1789976697714
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2020_cyberleninka_mogao_caves_art.md",
+      "size": 61693,
+      "mtime": 1789977407915
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2020_Keyworth_Xuanzang_Dunhuang_manuscripts_source.md",
+      "size": 142599,
+      "mtime": 1789976696009
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2020_zh_敦煌医書明堂五蔵論釈読補訂.md",
+      "size": 83586,
+      "mtime": 1789977407967
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2021_Griffiths_Sanskrit_Inscription_Sankhara_Saiva_Java.md",
+      "size": 68444,
+      "mtime": 1789977408014
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2022_yiqiejingyinyi_ibk.md",
+      "size": 12186,
+      "mtime": 1789977408045
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2023_Fang_tangdai_dunhuang_mogao_sheji_qishi.md",
+      "size": 20435,
+      "mtime": 1789977744269
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2023_Jiang_dunhuang_lianhuawen_sheji_ronghe_yanbian.md",
+      "size": 33402,
+      "mtime": 1789977741477
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2023_Liu_zhongguo_caihui_shuhua_yanse_tezheng.md",
+      "size": 28517,
+      "mtime": 1789977746808
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2023_Mulyanto_ethnobotanical_identification_of_mango_m.md",
+      "size": 44531,
+      "mtime": 1789977408143
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2023_Zhao_dunhuang_tiyu_xincailiao_diaocha.md",
+      "size": 36331,
+      "mtime": 1789977750397
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2023_zhou_zhenru_remaning_dunhuang_library_cave.md",
+      "size": 104841,
+      "mtime": 1789977018646
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2023_zh_敦煌壁画飞天形象在首饰设计中的应用初探.md",
+      "size": 16673,
+      "mtime": 1789977408168
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2023_zh_浅谈全球化对中华传统文化的挑战与积极影响以敦煌文化为例.md",
+      "size": 15358,
+      "mtime": 1789977408193
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2024_Acri_Beyond_Cosmopolis_Vernacular_Sanskrit_Asia.md",
+      "size": 1066331,
+      "mtime": 1789977409405
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2024_dunhuang_bundles_srah.md",
+      "size": 115898,
+      "mtime": 1789976699432
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2024_Epiphytic_Literatures_Botanical_Metaphor_Bitexts_Walker.md",
+      "size": 73766,
+      "mtime": 1789977409522
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2024_Feng_dunhuang_bihua_feitian_wenhua_fuhao.md",
+      "size": 14933,
+      "mtime": 1789977738910
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2024_Shi_mogao_baohu_kechixu_fazhan.md",
+      "size": 31050,
+      "mtime": 1789977757630
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2024_Wang_tangdai_hunli_fushi_meixue.md",
+      "size": 24456,
+      "mtime": 1789977755620
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2024_xu_dataset_digital_restoration_dunhuang_murals.md",
+      "size": 59437,
+      "mtime": 1789977409704
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2024_Zhu_dunhuang_mogao_rendongwen_sheji_meixue.md",
+      "size": 34578,
+      "mtime": 1789977740233
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2024_zh_博物馆_IP_在跨界联名营销中的表达以敦煌博物馆文创品牌为例.md",
+      "size": 24287,
+      "mtime": 1789977409735
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2024_zh_图像学视域下的敦煌壁画飞天形象研究.md",
+      "size": 32782,
+      "mtime": 1789977409768
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2024_zh_敦煌壁画艺术现代化传承理念与数字化传播路径.md",
+      "size": 19269,
+      "mtime": 1789977409794
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2024_zh_敦煌曲子戏的概念与特征.md",
+      "size": 5752,
+      "mtime": 1789977409815
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2024_zh_敦煌艺术对张大千艺术风格与创作理念的影响.md",
+      "size": 30175,
+      "mtime": 1789977409849
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2024_zh_浅谈敦煌乐舞壁画中造型在舞蹈中的运用以飞天为例.md",
+      "size": 17174,
+      "mtime": 1789977409874
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2024_zh_融媒体背景下敦煌旅游形象的构建和提升研究以敦煌非遗艺术为依托.md",
+      "size": 14106,
+      "mtime": 1789977409905
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2025_Yang_shuzi_xuniren_tianyu_dunhuang_changjing.md",
+      "size": 30701,
+      "mtime": 1789977751479
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2025_zh_敦煌乐舞教学实践初探.md",
+      "size": 15758,
+      "mtime": 1789977409925
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2025_zh_敦煌莫高窟的供奉者雕塑的演变以及它揭示的社会文明.md",
+      "size": 15787,
+      "mtime": 1789977409943
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2025_zh_新媒体视域下敦煌莲花纹样在服装设计中的应用.md",
+      "size": 11960,
+      "mtime": 1789977409959
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/extracted-texts/2026_wu_yuantao_han_qinhu_dunhuang_bianwen.md",
+      "size": 26553,
+      "mtime": 1789977409987
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/reading-progress.md",
+      "size": 6491,
+      "mtime": 1789977479998
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/source-index.md",
+      "size": 28959,
+      "mtime": 1789978125032
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/sources/S-1910-chavannes-01.md",
+      "size": 30031,
+      "mtime": 1789977376054
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/sources/S-1929-ja-01.md",
+      "size": 30472,
+      "mtime": 1789977427238
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/sources/S-1980-hopkirk-01.md",
+      "size": 32109,
+      "mtime": 1789977427224
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/sources/S-2017-bentor-01.md",
+      "size": 29484,
+      "mtime": 1789977334539
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/sources/S-2018-rong-01.md",
+      "size": 33634,
+      "mtime": 1789977376074
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/sources/S-2020-bookhistory-01.md",
+      "size": 31198,
+      "mtime": 1789977334474
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/sources/S-2020-keyworth-01.md",
+      "size": 32813,
+      "mtime": 1789977293458
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/sources/S-2023-zhou-01.md",
+      "size": 30830,
+      "mtime": 1789977427183
+    },
+    {
+      "path": "2026-09-21_คลังคัมภีร์ตุนหวงโม่เกา_ถ้ำที่17/research-notes/sources/S-2024-dunhuang-01.md",
+      "size": 34440,
+      "mtime": 1789977293444
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/assembled/ch01.md",
-      "size": 163085,
-      "mtime": 1789940946610
+      "size": 248709,
+      "mtime": 1789978497676
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/assembled/ch02.md",
@@ -41157,23 +41897,38 @@
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch01_sec01.md",
-      "size": 34503,
-      "mtime": 1789940348110
+      "size": 50570,
+      "mtime": 1789978149143
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch01_sec02.md",
-      "size": 35820,
-      "mtime": 1789940408104
+      "size": 31462,
+      "mtime": 1789978327061
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch01_sec03.md",
-      "size": 36574,
-      "mtime": 1789940494228
+      "size": 33893,
+      "mtime": 1789978200225
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch01_sec04.md",
-      "size": 36588,
-      "mtime": 1789940644386
+      "size": 34056,
+      "mtime": 1789978222900
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch01_sec05.md",
+      "size": 29366,
+      "mtime": 1789978253158
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch01_sec06.md",
+      "size": 25739,
+      "mtime": 1789978277221
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch01_sec07.md",
+      "size": 32266,
+      "mtime": 1789978306312
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch02_sec01.md",
@@ -41216,29 +41971,54 @@
       "mtime": 1789940675442
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch04_sec01.md",
+      "size": 35376,
+      "mtime": 1789977325355
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch04_sec02.md",
+      "size": 33205,
+      "mtime": 1789977393129
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch05_sec01.md",
+      "size": 28698,
+      "mtime": 1789977240713
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch05_sec02.md",
+      "size": 30668,
+      "mtime": 1789977286089
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch05_sec03.md",
+      "size": 31036,
+      "mtime": 1789977358021
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/final/00-สารบัญ.md",
-      "size": 6194,
-      "mtime": 1789940653971
+      "size": 12416,
+      "mtime": 1789979374956
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/final/01-บทที่หนึ่ง.md",
-      "size": 163085,
-      "mtime": 1789940946610
+      "size": 248716,
+      "mtime": 1789978519943
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/final/02-บทที่สอง.md",
-      "size": 146968,
-      "mtime": 1789940949165
+      "size": 243643,
+      "mtime": 1789978982296
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/final/03-บทที่สาม.md",
-      "size": 133056,
-      "mtime": 1789940952089
+      "size": 221308,
+      "mtime": 1789978906840
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/final/references.md",
-      "size": 23855,
-      "mtime": 1789940990219
+      "size": 35657,
+      "mtime": 1789979307182
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/glossary.md",
@@ -41247,8 +42027,8 @@
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/outline-proposal.md",
-      "size": 72645,
-      "mtime": 1789934997170
+      "size": 128331,
+      "mtime": 1789974917175
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/project-plan.md",
@@ -41306,6 +42086,11 @@
       "mtime": 1789936546596
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1877-fausboll-01.md",
+      "size": 1123703,
+      "mtime": 1789975305174
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1880-rhysdavids-01.md",
       "size": 441175,
       "mtime": 1789936889957
@@ -41316,9 +42101,29 @@
       "mtime": 1789937739481
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1893-oldenburg-01.md",
+      "size": 126096,
+      "mtime": 1789975303645
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1896-fausboll-01.md",
+      "size": 9198,
+      "mtime": 1789975304541
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1909-bode-01.md",
       "size": 304678,
       "mtime": 1789936895743
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1910-chavannes-01.md",
+      "size": 871470,
+      "mtime": 1789975305187
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1911-levi-01.md",
+      "size": 18958,
+      "mtime": 1789975316242
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1928-malalasekera-01.md",
@@ -41326,14 +42131,44 @@
       "mtime": 1789937927379
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1929-levi-01.md",
+      "size": 74815,
+      "mtime": 1789975611350
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1931-levi_takakusu-01.md",
+      "size": 96846,
+      "mtime": 1789975910355
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1931-obermiller-01.md",
       "size": 976060,
       "mtime": 1789938032022
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1932-levi-01.md",
+      "size": 17901,
+      "mtime": 1789975316243
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1933-law-01.md",
       "size": 857889,
       "mtime": 1789937924340
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1933-levi-01.md",
+      "size": 385205,
+      "mtime": 1789975379834
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1933-winternitz-01.md",
+      "size": 1910577,
+      "mtime": 1789975305222
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1934-chavannes-01.md",
+      "size": 794298,
+      "mtime": 1789975305147
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1939-lalou-01.md",
@@ -41371,6 +42206,11 @@
       "mtime": 1789939785930
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1981-desilva-01.md",
+      "size": 152349,
+      "mtime": 1789975303526
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1981-hinuber-01.md",
       "size": 32236,
       "mtime": 1789938361192
@@ -41389,6 +42229,16 @@
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1987-hinuber-01.md",
       "size": 26521,
       "mtime": 1789938458003
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1988-hinuber-01.md",
+      "size": 5958,
+      "mtime": 1789975333817
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1988-hinuber-02.md",
+      "size": 22572,
+      "mtime": 1789975371628
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1988-lamotte-01.md",
@@ -41451,6 +42301,11 @@
       "mtime": 1789937930856
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1997-cousins-01.md",
+      "size": 64457,
+      "mtime": 1789975069174
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1997-schopen-01.md",
       "size": 1033279,
       "mtime": 1789937901749
@@ -41481,6 +42336,11 @@
       "mtime": 1789938011970
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2006-maneenil-01.md",
+      "size": 275239,
+      "mtime": 1789975618521
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2006-skilling-01.md",
       "size": 382627,
       "mtime": 1789936891780
@@ -41496,6 +42356,11 @@
       "mtime": 1789938058251
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2010-hinuber-01.md",
+      "size": 103243,
+      "mtime": 1789975380135
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2012-gethin_skilling-01.md",
       "size": 200306,
       "mtime": 1789939085342
@@ -41506,9 +42371,34 @@
       "mtime": 1789939706919
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2015-hallisey-01.md",
+      "size": 62780,
+      "mtime": 1789975800079
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2015-imre-01.md",
+      "size": 1820,
+      "mtime": 1789975663716
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2017-bentor_shahar-01.md",
+      "size": 1188334,
+      "mtime": 1789975304322
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2018-rong-01.md",
+      "size": 2144,
+      "mtime": 1789975965622
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2018-walker-01.md",
       "size": 1578772,
       "mtime": 1789938081711
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2018-walker-02.md",
+      "size": 49553,
+      "mtime": 1789975146831
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2020-crosby-01.md",
@@ -41516,9 +42406,24 @@
       "mtime": 1789939076562
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2020-gornall-01.md",
+      "size": 883591,
+      "mtime": 1789975303180
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2020-keyworth-01.md",
       "size": 142011,
       "mtime": 1789939097306
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2020-pakdeekham_walker-01.md",
+      "size": 51444,
+      "mtime": 1789975304363
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2020-walker-01.md",
+      "size": 99632,
+      "mtime": 1789975241097
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2021-kaloyanides-01.md",
@@ -41526,9 +42431,24 @@
       "mtime": 1789939072931
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2021-walker-01.md",
+      "size": 36188,
+      "mtime": 1789975304416
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2022-berkwitz_thompson-01.md",
       "size": 938051,
       "mtime": 1789939097116
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2022-cousins_shaw-01.md",
+      "size": 782991,
+      "mtime": 1789975305158
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2022-walker-01.md",
+      "size": 52894,
+      "mtime": 1789975241156
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2023-pranke_pruitt-01.md",
@@ -41541,19 +42461,44 @@
       "mtime": 1789939077528
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2024-payne_hayes-01.md",
+      "size": 3669842,
+      "mtime": 1789975289106
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2024-walker-01.md",
+      "size": 90257,
+      "mtime": 1789975241261
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2025-skilton-01.md",
+      "size": 17178,
+      "mtime": 1789975289228
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2026-bracdelaperriere-01.md",
+      "size": 60789,
+      "mtime": 1789975289283
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2026-cholvijarn-01.md",
+      "size": 79544,
+      "mtime": 1789975289186
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2026-walker_sripum-01.md",
       "size": 77803,
       "mtime": 1789939097464
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/reading-progress.md",
-      "size": 128508,
-      "mtime": 1789940961468
+      "size": 18045,
+      "mtime": 1789976995874
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/source-index.md",
-      "size": 17162,
-      "mtime": 1789940695529
+      "size": 29215,
+      "mtime": 1789976008229
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-0000-cbeta_t0245-ch02.md",
@@ -41616,9 +42561,39 @@
       "mtime": 1789940335451
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1928-malalasekera-01.md",
+      "size": 35818,
+      "mtime": 1789975449386
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1929-levi-01.md",
+      "size": 36566,
+      "mtime": 1789976671634
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1931-levi_takakusu-01.md",
+      "size": 36076,
+      "mtime": 1789976633713
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1931-obermiller-ch01.md",
       "size": 25107,
       "mtime": 1789940475718
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1932-levi-01.md",
+      "size": 36474,
+      "mtime": 1789976633701
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1933-law-01.md",
+      "size": 32490,
+      "mtime": 1789975622244
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1933-levi-01.md",
+      "size": 35009,
+      "mtime": 1789976671629
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1939-lalou-01.md",
@@ -41656,6 +42631,11 @@
       "mtime": 1789940342955
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1981-hinuber-01.md",
+      "size": 29850,
+      "mtime": 1789975718377
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1981-jaini-ch03.md",
       "size": 23109,
       "mtime": 1789940339344
@@ -41666,9 +42646,19 @@
       "mtime": 1789940318885
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1987-hinuber-01.md",
+      "size": 29647,
+      "mtime": 1789975796503
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1988-lamotte-ch01.md",
       "size": 27123,
       "mtime": 1789940323290
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1990-collins-01.md",
+      "size": 34752,
+      "mtime": 1789975883823
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1990-hallisey-ch03.md",
@@ -41687,13 +42677,13 @@
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1993-bizot-01.md",
-      "size": 12273,
-      "mtime": 1789940915068
+      "size": 32410,
+      "mtime": 1789976311167
     },
     {
-      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1993-bizot-ch03.md",
-      "size": 12273,
-      "mtime": 1789940915068
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1993-collins_denis-01.md",
+      "size": 32806,
+      "mtime": 1789975919939
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1993-hallisey-ch03.md",
@@ -41701,9 +42691,29 @@
       "mtime": 1789940193298
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1993-hallisey_hinuber-01.md",
+      "size": 32101,
+      "mtime": 1789975986863
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1993-hinuber-01.md",
+      "size": 30906,
+      "mtime": 1789976029789
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1995-hinuber-01.md",
+      "size": 32090,
+      "mtime": 1789976118730
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1996-hinuber-01.md",
       "size": 30565,
       "mtime": 1789940315448
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1997-cousins-01.md",
+      "size": 37127,
+      "mtime": 1789976908884
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1997-schopen-ch01.md",
@@ -41712,23 +42722,13 @@
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2000-crosby-01.md",
-      "size": 13070,
-      "mtime": 1789940768988
-    },
-    {
-      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2000-crosby-ch03.md",
-      "size": 13070,
-      "mtime": 1789940768988
+      "size": 30587,
+      "mtime": 1789976350835
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2002-mcdaniel-01.md",
       "size": 28470,
       "mtime": 1789940261553
-    },
-    {
-      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2002-mcdaniel-ch03.md",
-      "size": 28470,
-      "mtime": 1789940874952
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2003-harrison-ch02.md",
@@ -41746,24 +42746,24 @@
       "mtime": 1789940514267
     },
     {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2006-skilling-01.md",
+      "size": 31334,
+      "mtime": 1789976179190
+    },
+    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2008-mcdaniel-01.md",
       "size": 28554,
       "mtime": 1789940264812
     },
     {
-      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2008-mcdaniel-ch03.md",
-      "size": 28554,
-      "mtime": 1789940874985
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2009-skilling-01.md",
+      "size": 32586,
+      "mtime": 1789976228472
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2012-gethin_skilling-01.md",
-      "size": 11437,
-      "mtime": 1789940813586
-    },
-    {
-      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2012-gethin_skilling-ch03.md",
-      "size": 11437,
-      "mtime": 1789940813586
+      "size": 32902,
+      "mtime": 1789976386528
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2013-hayashi-ch03.md",
@@ -41772,28 +42772,28 @@
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2018-walker-01.md",
-      "size": 13491,
-      "mtime": 1789940858385
+      "size": 32029,
+      "mtime": 1789976447284
     },
     {
-      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2018-walker-ch03.md",
-      "size": 13491,
-      "mtime": 1789940858385
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2018-walker-02.md",
+      "size": 39466,
+      "mtime": 1789976336375
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2020-crosby-01.md",
-      "size": 29377,
-      "mtime": 1789940207698
-    },
-    {
-      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2020-crosby-ch03.md",
-      "size": 29377,
-      "mtime": 1789940874801
+      "size": 39291,
+      "mtime": 1789976908944
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2020-keyworth-01.md",
       "size": 29151,
       "mtime": 1789940283406
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2020-walker-01.md",
+      "size": 36530,
+      "mtime": 1789976398566
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2021-kaloyanides-ch03.md",
@@ -41806,9 +42806,14 @@
       "mtime": 1789940279913
     },
     {
-      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2022-berkwitz_thompson-ch03.md",
-      "size": 26931,
-      "mtime": 1789940875008
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2022-cousins_shaw-01.md",
+      "size": 34011,
+      "mtime": 1789976955061
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2022-walker-01.md",
+      "size": 36650,
+      "mtime": 1789976398573
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2023-pranke_pruitt-01.md",
@@ -41816,34 +42821,39 @@
       "mtime": 1789940267830
     },
     {
-      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2023-pranke_pruitt-ch03.md",
-      "size": 24962,
-      "mtime": 1789940875178
-    },
-    {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2024-kourilsky-01.md",
       "size": 27177,
       "mtime": 1789940211374
     },
     {
-      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2024-kourilsky-ch03.md",
-      "size": 27177,
-      "mtime": 1789940874907
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2024-payne_hayes-01.md",
+      "size": 32911,
+      "mtime": 1789976813769
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2024-walker-01.md",
+      "size": 37379,
+      "mtime": 1789976451281
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2026-bracdelaperriere-01.md",
+      "size": 36017,
+      "mtime": 1789976955069
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2026-cholvijarn-01.md",
+      "size": 37510,
+      "mtime": 1789976813781
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2026-walker_sripum-01.md",
-      "size": 28789,
-      "mtime": 1789940286704
-    },
-    {
-      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2026-walker_sripum-ch03.md",
-      "size": 28789,
-      "mtime": 1789940875201
+      "size": 35273,
+      "mtime": 1789976451291
     },
     {
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/validation-report.txt",
-      "size": 5520,
-      "mtime": 1789940678505
+      "size": 5571,
+      "mtime": 1789979382766
     }
   ]
 }
