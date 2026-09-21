@@ -1,9 +1,9 @@
 {
   "name": "คลังงานวิจัย (Research Archive)",
   "baseUrl": "docs/",
-  "updatedAt": "2026-09-18T17:26:53.303Z",
-  "totalFiles": 8225,
-  "totalBytes": 974371850,
+  "updatedAt": "2026-09-21T07:00:30.947Z",
+  "totalFiles": 8368,
+  "totalBytes": 998621585,
   "files": [
     {
       "path": "00 - รวมแปลบทความวิชาการ/05+Ooi+Corrected+FINAL+version+August+14+2022_Embedded.md",
@@ -34812,8 +34812,8 @@
     },
     {
       "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2002-davidson-indian-esoteric-buddhism.txt",
-      "size": 2273645,
-      "mtime": 1789559158099
+      "size": 1289260,
+      "mtime": 1789807763603
     },
     {
       "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2002_Sri_Lankan_Temple_Manuscript_Collections_JPTS_XXVII.txt",
@@ -34954,6 +34954,11 @@
       "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/2025-ranaweera-education-kotte-sandesha-kavya-pirivena.txt",
       "size": 42798,
       "mtime": 1789555764529
+    },
+    {
+      "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/คัมภีร์คุรุปัญจาสิกาต้นฉบับ.txt",
+      "size": 10432,
+      "mtime": 1789799369649
     },
     {
       "path": "2026-09-16_โสฬสคุรุโทหะ_เครือข่ายคัมภีร์_พม่า_ลังกา_คุรุปัญจาศิกา/research-notes/extracted-texts/Crosby_2000_Tantric_Theravada_Bibliographic_Essay.txt",
@@ -41129,6 +41134,716 @@
       "path": "2026-09-17_เถรวาทตันตระ_เอเชียตะวันออกเฉียงใต้_สถานภาพการศึกษา/research-notes/sources/S-2026-perriere-01.md",
       "size": 114348,
       "mtime": 1789735440196
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/assembled/ch01.md",
+      "size": 163085,
+      "mtime": 1789940946610
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/assembled/ch02.md",
+      "size": 146968,
+      "mtime": 1789940949165
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/assembled/ch03.md",
+      "size": 133056,
+      "mtime": 1789940952089
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/drafting-progress.md",
+      "size": 9299,
+      "mtime": 1789940661385
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch01_sec01.md",
+      "size": 34503,
+      "mtime": 1789940348110
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch01_sec02.md",
+      "size": 35820,
+      "mtime": 1789940408104
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch01_sec03.md",
+      "size": 36574,
+      "mtime": 1789940494228
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch01_sec04.md",
+      "size": 36588,
+      "mtime": 1789940644386
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch02_sec01.md",
+      "size": 32121,
+      "mtime": 1789940333553
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch02_sec02.md",
+      "size": 37972,
+      "mtime": 1789940365571
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch02_sec03.md",
+      "size": 33875,
+      "mtime": 1789940412893
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch02_sec04.md",
+      "size": 33824,
+      "mtime": 1789940442469
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch03_sec01.md",
+      "size": 26899,
+      "mtime": 1789940675441
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch03_sec02.md",
+      "size": 32894,
+      "mtime": 1789940675441
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch03_sec03.md",
+      "size": 29905,
+      "mtime": 1789940675442
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/drafts/sections/ch03_sec04.md",
+      "size": 32994,
+      "mtime": 1789940675442
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/final/00-สารบัญ.md",
+      "size": 6194,
+      "mtime": 1789940653971
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/final/01-บทที่หนึ่ง.md",
+      "size": 163085,
+      "mtime": 1789940946610
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/final/02-บทที่สอง.md",
+      "size": 146968,
+      "mtime": 1789940949165
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/final/03-บทที่สาม.md",
+      "size": 133056,
+      "mtime": 1789940952089
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/final/references.md",
+      "size": 23855,
+      "mtime": 1789940990219
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/glossary.md",
+      "size": 49286,
+      "mtime": 1789935043860
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/outline-proposal.md",
+      "size": 72645,
+      "mtime": 1789934997170
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/project-plan.md",
+      "size": 34320,
+      "mtime": 1789935051501
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/dossier-template.md",
+      "size": 3978,
+      "mtime": 1789932764484
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-0000-cbeta_t0245-01.md",
+      "size": 48711,
+      "mtime": 1789936922078
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-0000-cbeta_t0839-01.md",
+      "size": 51891,
+      "mtime": 1789936988265
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-0000-cbeta_t0842-01.md",
+      "size": 46759,
+      "mtime": 1789936976898
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-0000-cbeta_t0945-01.md",
+      "size": 267950,
+      "mtime": 1789936967629
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-0000-cbeta_t1484-01.md",
+      "size": 64386,
+      "mtime": 1789936932338
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-0000-cbeta_t2875-01.md",
+      "size": 11065,
+      "mtime": 1789936913084
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-0000-cbeta_t2887-01.md",
+      "size": 6458,
+      "mtime": 1789936909588
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-0515-sengyou-01.md",
+      "size": 498443,
+      "mtime": 1789936534353
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-0730-zhisheng-01.md",
+      "size": 1093912,
+      "mtime": 1789936546596
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1880-rhysdavids-01.md",
+      "size": 441175,
+      "mtime": 1789936889957
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1886-minayeff-01.md",
+      "size": 308327,
+      "mtime": 1789937739481
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1909-bode-01.md",
+      "size": 304678,
+      "mtime": 1789936895743
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1928-malalasekera-01.md",
+      "size": 710736,
+      "mtime": 1789937927379
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1931-obermiller-01.md",
+      "size": 976060,
+      "mtime": 1789938032022
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1933-law-01.md",
+      "size": 857889,
+      "mtime": 1789937924340
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1939-lalou-01.md",
+      "size": 624125,
+      "mtime": 1789936890435
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1942-dutt-01.md",
+      "size": 232308,
+      "mtime": 1789937953325
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1943-geiger-01.md",
+      "size": 696902,
+      "mtime": 1789936894600
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1964-mayeda-01.md",
+      "size": 43209,
+      "mtime": 1789936519150
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1971-yinshun-01.md",
+      "size": 1119768,
+      "mtime": 1789936554995
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1975-saddhatissa-01.md",
+      "size": 378219,
+      "mtime": 1789937735503
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1976-bizot-01.md",
+      "size": 397488,
+      "mtime": 1789939785930
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1981-hinuber-01.md",
+      "size": 32236,
+      "mtime": 1789938361192
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1981-jaini-01.md",
+      "size": 802956,
+      "mtime": 1789937729159
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1983-norman-01.md",
+      "size": 597902,
+      "mtime": 1789937838698
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1987-hinuber-01.md",
+      "size": 26521,
+      "mtime": 1789938458003
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1988-lamotte-01.md",
+      "size": 2302010,
+      "mtime": 1789938180311
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1990-collins-01.md",
+      "size": 89977,
+      "mtime": 1789937724443
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1990-hallisey-01.md",
+      "size": 72039,
+      "mtime": 1789937047458
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1992-bizot-01.md",
+      "size": 408697,
+      "mtime": 1789940055855
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1992-skilling-01.md",
+      "size": 139487,
+      "mtime": 1789937724699
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1993-bizot-01.md",
+      "size": 33806,
+      "mtime": 1789940887242
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1993-collins_denis-01.md",
+      "size": 114546,
+      "mtime": 1789938828746
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1993-hallisey-01.md",
+      "size": 72416,
+      "mtime": 1789938663277
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1993-hallisey_hinuber-01.md",
+      "size": 323671,
+      "mtime": 1789938657023
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1993-hinuber-01.md",
+      "size": 323671,
+      "mtime": 1789938410054
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1995-hinuber-01.md",
+      "size": 31095,
+      "mtime": 1789938884092
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1996-hinuber-01.md",
+      "size": 651262,
+      "mtime": 1789937930856
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-1997-schopen-01.md",
+      "size": 1033279,
+      "mtime": 1789937901749
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2000-crosby-01.md",
+      "size": 178851,
+      "mtime": 1789937725372
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2002-mcdaniel-01.md",
+      "size": 142825,
+      "mtime": 1789939085583
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2003-harrison-01.md",
+      "size": 109533,
+      "mtime": 1789936887645
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2005-analayo-01.md",
+      "size": 315209,
+      "mtime": 1789939080853
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2006-braarvig-01.md",
+      "size": 150328,
+      "mtime": 1789938011970
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2006-skilling-01.md",
+      "size": 382627,
+      "mtime": 1789936891780
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2008-mcdaniel-01.md",
+      "size": 66126,
+      "mtime": 1789939088510
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2009-skilling-01.md",
+      "size": 694979,
+      "mtime": 1789938058251
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2012-gethin_skilling-01.md",
+      "size": 200306,
+      "mtime": 1789939085342
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2013-hayashi-01.md",
+      "size": 80872,
+      "mtime": 1789939706919
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2018-walker-01.md",
+      "size": 1578772,
+      "mtime": 1789938081711
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2020-crosby-01.md",
+      "size": 595733,
+      "mtime": 1789939076562
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2020-keyworth-01.md",
+      "size": 142011,
+      "mtime": 1789939097306
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2021-kaloyanides-01.md",
+      "size": 32261,
+      "mtime": 1789939072931
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2022-berkwitz_thompson-01.md",
+      "size": 938051,
+      "mtime": 1789939097116
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2023-pranke_pruitt-01.md",
+      "size": 55652,
+      "mtime": 1789939088585
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2024-kourilsky-01.md",
+      "size": 176768,
+      "mtime": 1789939077528
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/extracted-texts/S-2026-walker_sripum-01.md",
+      "size": 77803,
+      "mtime": 1789939097464
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/reading-progress.md",
+      "size": 128508,
+      "mtime": 1789940961468
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/source-index.md",
+      "size": 17162,
+      "mtime": 1789940695529
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-0000-cbeta_t0245-ch02.md",
+      "size": 30712,
+      "mtime": 1789940353358
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-0000-cbeta_t0839-ch02.md",
+      "size": 30482,
+      "mtime": 1789940442004
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-0000-cbeta_t0842-ch02.md",
+      "size": 29427,
+      "mtime": 1789940444685
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-0000-cbeta_t0945-ch02.md",
+      "size": 30336,
+      "mtime": 1789940360648
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-0000-cbeta_t1484-ch02.md",
+      "size": 31740,
+      "mtime": 1789940357409
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-0000-cbeta_t2875-ch02.md",
+      "size": 28507,
+      "mtime": 1789940462139
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-0000-cbeta_t2887-ch02.md",
+      "size": 26986,
+      "mtime": 1789940467505
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-0515-sengyou-01.md",
+      "size": 37449,
+      "mtime": 1789940293711
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-0730-zhisheng-01.md",
+      "size": 36389,
+      "mtime": 1789940290432
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1880-rhysdavids-ch01.md",
+      "size": 23115,
+      "mtime": 1789940473038
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1886-minayeff-ch03.md",
+      "size": 21863,
+      "mtime": 1789940349460
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1909-bode-ch01.md",
+      "size": 23558,
+      "mtime": 1789940335451
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1931-obermiller-ch01.md",
+      "size": 25107,
+      "mtime": 1789940475718
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1939-lalou-01.md",
+      "size": 18486,
+      "mtime": 1789939732443
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1942-dutt-ch01.md",
+      "size": 23573,
+      "mtime": 1789940493784
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1943-geiger-ch01.md",
+      "size": 24100,
+      "mtime": 1789940331867
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1964-mayeda-01.md",
+      "size": 31089,
+      "mtime": 1789940297412
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1971-yinshun-01.md",
+      "size": 35431,
+      "mtime": 1789940301035
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1975-saddhatissa-ch03.md",
+      "size": 24632,
+      "mtime": 1789940498796
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1976-bizot-ch03.md",
+      "size": 23285,
+      "mtime": 1789940342955
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1981-jaini-ch03.md",
+      "size": 23109,
+      "mtime": 1789940339344
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1983-norman-01.md",
+      "size": 31001,
+      "mtime": 1789940318885
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1988-lamotte-ch01.md",
+      "size": 27123,
+      "mtime": 1789940323290
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1990-hallisey-ch03.md",
+      "size": 24157,
+      "mtime": 1789940183164
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1992-bizot-ch03.md",
+      "size": 22620,
+      "mtime": 1789940504391
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1992-skilling-ch03.md",
+      "size": 24297,
+      "mtime": 1789940346290
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1993-bizot-01.md",
+      "size": 12273,
+      "mtime": 1789940915068
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1993-bizot-ch03.md",
+      "size": 12273,
+      "mtime": 1789940915068
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1993-hallisey-ch03.md",
+      "size": 23719,
+      "mtime": 1789940193298
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1996-hinuber-01.md",
+      "size": 30565,
+      "mtime": 1789940315448
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-1997-schopen-ch01.md",
+      "size": 24932,
+      "mtime": 1789940327695
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2000-crosby-01.md",
+      "size": 13070,
+      "mtime": 1789940768988
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2000-crosby-ch03.md",
+      "size": 13070,
+      "mtime": 1789940768988
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2002-mcdaniel-01.md",
+      "size": 28470,
+      "mtime": 1789940261553
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2002-mcdaniel-ch03.md",
+      "size": 28470,
+      "mtime": 1789940874952
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2003-harrison-ch02.md",
+      "size": 30317,
+      "mtime": 1789940509673
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2005-analayo-01.md",
+      "size": 27288,
+      "mtime": 1789940258080
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2006-braarvig-ch01.md",
+      "size": 23265,
+      "mtime": 1789940514267
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2008-mcdaniel-01.md",
+      "size": 28554,
+      "mtime": 1789940264812
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2008-mcdaniel-ch03.md",
+      "size": 28554,
+      "mtime": 1789940874985
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2012-gethin_skilling-01.md",
+      "size": 11437,
+      "mtime": 1789940813586
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2012-gethin_skilling-ch03.md",
+      "size": 11437,
+      "mtime": 1789940813586
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2013-hayashi-ch03.md",
+      "size": 16593,
+      "mtime": 1789940523561
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2018-walker-01.md",
+      "size": 13491,
+      "mtime": 1789940858385
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2018-walker-ch03.md",
+      "size": 13491,
+      "mtime": 1789940858385
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2020-crosby-01.md",
+      "size": 29377,
+      "mtime": 1789940207698
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2020-crosby-ch03.md",
+      "size": 29377,
+      "mtime": 1789940874801
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2020-keyworth-01.md",
+      "size": 29151,
+      "mtime": 1789940283406
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2021-kaloyanides-ch03.md",
+      "size": 24531,
+      "mtime": 1789940197826
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2022-berkwitz_thompson-01.md",
+      "size": 26931,
+      "mtime": 1789940279913
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2022-berkwitz_thompson-ch03.md",
+      "size": 26931,
+      "mtime": 1789940875008
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2023-pranke_pruitt-01.md",
+      "size": 24962,
+      "mtime": 1789940267830
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2023-pranke_pruitt-ch03.md",
+      "size": 24962,
+      "mtime": 1789940875178
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2024-kourilsky-01.md",
+      "size": 27177,
+      "mtime": 1789940211374
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2024-kourilsky-ch03.md",
+      "size": 27177,
+      "mtime": 1789940874907
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2026-walker_sripum-01.md",
+      "size": 28789,
+      "mtime": 1789940286704
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/research-notes/sources/S-2026-walker_sripum-ch03.md",
+      "size": 28789,
+      "mtime": 1789940875201
+    },
+    {
+      "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/validation-report.txt",
+      "size": 5520,
+      "mtime": 1789940678505
     }
   ]
 }

@@ -1,0 +1,444 @@
+---
+source_id: S-2021-kaloyanides-01
+title: "Charles Hallisey and Southeast Asian Buddhist Studies"
+author: "Alexandra Kaloyanides"
+year: 2021
+language: English
+script: Latin
+---
+
+<!-- Page 1 -->
+
+ 
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International 
+License. http://creativecommons.org/licenses/by-nc/4.0  
+S y m p o s i u m : N e w R o a d s i n T h e r a v a d a S t u d i e s 
+Journal of Global Buddhism 2021, Vol.22 (1): 219–227 
+DOI: 10.5281/zenodo.4727542  
+www.globalbuddhism.org  
+ISSN: 1527-6457 (online) 
+© The author(s)  
+“Intercultural Mimesis,” Empire, and Spirits 
+  
+Alexandra Kaloyanides 
+University of North Carolina at Charlotte 
+This article surveys the impact of the concept of “intercultural mimesis” from Charles 
+Hallisey’s “Roads Taken and Not Taken in the Study of Theravāda Buddhism,” with 
+specific attention to the way this chapter guides scholars toward more localized 
+examinations of how representations of Buddhism are produced. The article provides 
+examples of intercultural mimesis from nineteenth-century Burma that suggest that 
+future work on Theravada Buddhism should develop “intercultural mimesis” in two 
+ways: 1) revitalized attention to how structures of empire shape and are shaped by 
+local interactions and 2) new experimentation with writing histories of Asian cultures 
+that include nonhuman beings such as spirits, gods, and ghosts. The author argues 
+that these directions will advance Hallisey’s call to investigate Buddhism’s multiple 
+mediators and to resist giving too much power over to imperial endeavors. 
+ 
+Keywords: Theravada Buddhism; intercultural mimesis; Burma; spirits; empire 
+  
+he most celebrated contribution of “Roads Taken and Not Taken” has been its call for 
+scholars to avoid absolute divisions between “the West” and “the Orient” by considering the 
+varied interests of both European and Asian communities. Charles Hallisey qualified Edward 
+Said’s work on Orientalism to advise scholars to consider relations between “the Orient” and “the 
+West” as representing “a kind of ‘intercultural mimesis,’” which he specified to mean “occasions 
+where it seems that aspects of a culture of a subjectified people influenced the investigator to 
+represent that culture in a certain manner” (1995: 33). In other words, Hallisey pressed us to see the 
+significant role that Asian Buddhists themselves played in portrayals of Buddhism coming out of 
+colonial contexts. This was a welcome correction to earlier scholarship that had focused on the way 
+that “Westerners” had invented Asian religions (Inden 1986, Almond 1988; Halbfass 1981 [2017]).1 
+Hallisey’s essay highlighted the agency of South and Southeast Asian texts and peoples in forming 
+representations of Theravada Buddhism. The field has continued to recognize the dominance of 
+                                                             
+1 For more on the academic debates over the invention of Hinduism, see Brian Pennington’s Was Hinduism Invented 
+(2005). 
+T 
+
+
+
+<!-- Page 2 -->
+
+KALOYANIDES 
+ 
+| 220 
+JOURNAL OF GLOBAL BUDDHISM | Vol.22, No.1 (2021) 
+colonial forces, but, with Hallisey’s help, has learned to write accounts of those forces in which they 
+are not entirely determinative.  
+This article offers a brief survey of the influence of Hallisey’s notion of intercultural mimesis. 
+It then provides examples of intercultural mimesis from my own scholarship on nineteenth-century 
+Burma. I suggest that future scholarship on Theravada Buddhism develop “intercultural mimesis” in 
+two ways: 1) revitalized attention to how structures of empire shape and are shaped by local 
+interactions and 2) new experimentation with writing histories of Asian cultures that include 
+nonhuman beings such as spirits, gods, and ghosts. I argue that these directions will advance 
+Hallisey’s call to investigate Buddhism’s multiple mediators and to resist giving too much power over 
+to imperialist endeavors. 
+Intercultural Mimesis and Buddhist and Theravada Studies  
+Hallisey’s notion of “intercultural mimesis” urged scholars to pursue more nuanced understandings 
+of the emergence of representations of Buddhism in the nineteenth century and beyond. It 
+contributed to larger reconsiderations of Orientalism, such as Richard King’s widely read Orientalism 
+and Religion (1999), as well as studies of Buddhism in non-Theravada, non-colonial contexts, such as 
+Judith Snodgrass’s Presenting Japanese Buddhism to the West (2003), which showed how Japanese 
+Buddhists in the Meiji period turned to the West to advance a domestic agenda, a strategy Snodgrass 
+terms “Occidentalism.”  
+The field that Hallisey’s essay influenced most, of course, was Theravada studies. As Erik Braun 
+demonstrated in his 2009 survey, “Local and Translocal in the Study of Theravada Buddhism and 
+Modernity,” Hallisey’s notion of intercultural mimesis has been “a particularly useful analytical 
+concept for understanding the way that Western presentations of Buddhism and local, subaltern 
+assumptions interacted, thus showing local agency” (939). Braun highlighted work from the aughts 
+by Theravada specialists such as Anne Blackburn, Thomas Borchert, Anne Hansen, and Justin 
+McDaniel to show a shared commitment to focusing on local conditions. Through close and careful 
+analyses of developments in Sri Lanka, southwest China, Cambodia, Thailand, and other locales, this 
+body of scholarship has shown Buddhist communities enacting transformative practices of 
+innovation, conservation, and contestation (Blackburn 2001, Blackburn 2003, Borchert 2006, Hansen 
+2007, McDaniel 2008). 
+In the decade since Braun’s survey, scholars have continued to emphasize the local productions 
+of Buddhist texts, practices, and values (as Trent Walker’s essay for this collection demonstrates in 
+expert detail). In Braun’s field of Burmese Buddhism, monographs by scholars such as Juliane Schober 
+(2011), Jason Carbine (2011), Braun (2013), Alicia Turner (2014), Christian Lammerts (2018), Alexandra 
+Green (2018), and Thomas Patton (2018) applied careful consideration to Buddhist developments in 
+Myanmar.2 Together, these works show how particular monks, royalty, colonial administrators, 
+                                                             
+2 We also find a concurrent turn to local productions of meaning in academic work on Burmese history, such as Chie 
+Ikeya’s historical study of the representation of women in colonial Burma, Refiguring Women, Colonialism, and Modernity 
+in Burma (2011), and Michael Charney's study of the interactions between the Buddhist literati and royalty in 
+Konbaung Burma, Powerful Learning (2006). 
+
+
+
+<!-- Page 3 -->
+
+“INTERCULTURAL MIMESIS,” EMPIRE, AND SPIRITS 
+ 
+| 221 
+JOURNAL OF GLOBAL BUDDHISM | Vol.22, No.1 (2021) 
+laywomen, laymen, artists, and even wizards have shaped Buddhist expressions in the Southeast 
+Asian country. Following this trend, emergent work on Burmese Buddhism continues to give fine-
+grained attention to developments among local communities and individuals. For example, Janaka 
+Ashin’s Ph.D. dissertation for King’s College London (2016) offers an illuminating study of the 
+nationalist monk Shin Ukkaṭṭha (1897–1978) that explores this monk’s particular reinterpretation of 
+the doctrine of rebirth and subsequent prosecution to demonstrate how during the colonial period 
+the Burmese sangha began using state bodies to regulate beliefs, not just to regulate monastic 
+practices as they had in the past.3 
+I have been thinking about these texts and Hallisey’s “Roads Taken and Not Taken in the Study 
+of Theravada Buddhism” as I finish up a book project on religion in nineteenth-century Burma. This 
+project explores the American Baptist mission to Burma that began in 1813 and was active 
+throughout the Anglo-Burmese War period, which ended in 1885–1886 with Britain’s total 
+colonization and incorporation of Burma into the British Raj. Despite a historiographic tendency—
+especially in American religious history—to see American missionaries as hostile to Asian religions,4 
+I would often find American Christian missionaries writing and circulating relatively positive 
+accounts of Buddhism that were clearly based on their interactions with monks and other Burmese 
+people as well as on their studies of Pali and Burmese manuscripts.  
+One telling claim I found repeated in Baptist accounts was that Burma’s Buddhism was the 
+world’s most pure form. For example, in an 1853 volume on missionary life, the American Baptist 
+author and missionary Emily Chubbuck Judson includes the story of her friendship with an unnamed 
+Burmese Buddhist monk. Relaying his history of Buddhism, Chubbuck Judson explains to her 
+American audience that: 
+this comparatively pure and elevated faith had been supplanted in its original dominions 
+by the disgusting doctrines and horrible practices of the Brahminists, while in China it 
+held a divided sovereignty, in Thibet had become so changed in character as to be 
+scarcely recognizable, and even in its old Cinghalese home had deteriorated almost to a 
+level with surrounding idolatries, in Burmah it had only swerved a little from its original 
+simplicity (Chubbuck Judson, 1853: 138–139). ⁠ 
+                                                             
+3 All of the monographs, as well as the dissertation, mentioned in this paragraph are in English. This is an example of 
+the increasing English-language dominance and related inequities in Theravada studies that Trent Walker and I write 
+about in the introduction to this collection.  
+4 For example, one of the first book-length studies of American engagement with Buddhism, Thomas Tweed’s 
+American Encounters with Buddhism, 1844–1912 (2000) states that “almost all of the missionaries’ interpretations [of 
+Buddhism] were hostile,” with a qualifying footnote acknowledging that that “no comprehensive study of Protestant 
+missionary interpretations of Buddhism has yet appeared” (1992: 30, 177). There is some more recent scholarship on 
+American religious history that is more sympathetic to missionary engagement with non-Christian cultures, such as 
+David Hollinger’s Protestants Abroad (2017), which argues that US missionaries should be understood as having a 
+cosmopolitan worldview that advanced religious liberalization. Hollinger’s book, though, focuses on the period of 
+1920–1970 and does not explore examples of missionary cosmopolitanism from the early period of US foreign 
+missions, the period in which the American Baptists were establishing missionary posts in Burma.  
+
+
+
+<!-- Page 4 -->
+
+KALOYANIDES 
+ 
+| 222 
+JOURNAL OF GLOBAL BUDDHISM | Vol.22, No.1 (2021) 
+A description of Burma housing the most pristine form of Buddhism was a common claim in 
+vaṃsa literature (linage narratives chronicling important figures and histories) and other forms of 
+rhetoric produced by Burma’s last empire, the Konbaung Dynasty (1752–1885). As their royal 
+predecessors had done, Konbaung kings established their power by promoting themselves as the true 
+protectors of the sāsana (the Buddha’s teachings and their prosperity in the world). They continued 
+the practice of commissioning vaṃsa, but they elaborated on this tradition by producing the first 
+texts that claimed to be histories of Buddhism for the Burmese domain envisioned as a united whole. 
+In these Konbaung Buddhist chronicles (B. thathanawin P. sāsanavaṃsa), this united Burmese domain 
+consistently acted as the righteous guardian of the sāsana.5 By considering these textual practices 
+and politics of the Konbaung era, we can see their influence on Chubbuck Judson’s praise of Burma’s 
+Buddhism. We also see in her harsh and targeted criticisms of Indian Brahmins, and Buddhist 
+practices in China, Tibet, and Sri Lanka, a combination of Burmese chauvinism and emerging North 
+American and European practices of listing and classifying world religions.6 Chubbuck Judson was 
+familiar with contemporary colonial representations of South Asian religions circulating in the 
+Protestant press—texts and images that were also formed, to some degree, through the influence of 
+South Asian people and traditions, however distorted they became in the end. Hallisey has shown me 
+how to see this confluence of Anglo imperialism and Burmese rhetoric as a form of intercultural 
+mimesis.  
+While completing that book project, I have been continuing to think with this notion of 
+intercultural mimesis and asking how it can help illuminate something more than the particular way 
+people and cultural practices in Burma contributed to specific representations of Burmese Buddhism 
+conveyed by Americans. The power dynamics between the Baptist mission and the Konbaung dynasty 
+were multifaceted, especially once the period of British colonialism began. Even the most open-
+minded American missionary reports that celebrated Buddhism as the best religion in the world next 
+to Christianity and that criticized the British still positioned Burma as religiously deficient. This work 
+of comparative religions helped promote Protestant empires as righteous conquerors because they 
+spread the true word of God.7 My work aims to carefully acknowledge missionary complicity in 
+imperial projects. It also reveals the mechanisms by which the mission’s work of filling out a picture 
+of world religions promoted a particular Anglo-American Protestantism, no matter how much they 
+depicted that work as a benevolent embrace of pluralism.8 To help me think through the power 
+dynamics of the American Baptist mission to Burma—and the various actors in these dynamics, 
+                                                             
+5 For more on these Konbaung Buddhist chronicles, see Pranke 2004. 
+6 As The Invention of World Religions taught us, the nineteenth-century European project of creating lists of world 
+religions was in the service of promoting Protestant European powers (Masuzawa 2005). 
+7 Another dimension of the American missionaries’ cooperation with British colonialism was the work the British 
+relied on the Americans to do to promote vaccination against smallpox. As Atsuko Naono (2009) shows, the American 
+Baptist mission’s rapport with minority communities, experience with local languages and printing operations, and 
+monastic connections, allowed them to be far more successful than the British in inoculation efforts. 
+8 For more on this issue of a pervasive Protestantism in antebellum America and how the American Baptist mission 
+to Burma figures into it, see my article, “America’s God and the World: Questioning the Protestant Consensus” 
+(Kaloyanides 2015). 
+
+
+
+<!-- Page 5 -->
+
+“INTERCULTURAL MIMESIS,” EMPIRE, AND SPIRITS 
+ 
+| 223 
+JOURNAL OF GLOBAL BUDDHISM | Vol.22, No.1 (2021) 
+including Christian converts, American evangelists, Burmese Buddhists, British colonists, local 
+spirits, the Christian god, and Gotama Buddha—I find guidance in recent religious studies scholarship 
+on material and immaterial power. 
+Taking Roads toward Empire and Supernatural Beings 
+It seems to me that the most logical place to take intercultural mimesis—indeed a place scholars are 
+already keen to take it—is to one in which there is greater concern with the complex ways that 
+representations of Theravada Buddhism are formed.9 Ideas about Buddhism were not generated by 
+dualistic pairs, by colonizer/colonized, Christian/Buddhist, Western/Asian, indigenous/imperial. 
+Instead, this effort was mediated by various political, economic, religious, and cultural conditions. As 
+David Chidester demonstrates in Empire of Religion, his counter-history of the study of religion, 
+knowledge about religion has been produced “within the power relations of imperial ambitions, 
+colonial situations, and indigenous innovations” (2014: xi). Chidester’s material history works to 
+“overcome lingering dualisms—imperial versus indigenous, colonizer versus colonized—by attending 
+to the complex, multiple, and multiplying mediations in which knowledge was produced in and 
+through the material conditions of empire” (2014: xii). For my own work, attention to these kinds of 
+knowledge and category productions means moving beyond a story of the British colonist and the 
+local Burmese Buddhist to think about how the Konbaung Dynasty enacted its own forms of 
+imperialism through religious expression and control, how the religious lives of other ethnic groups 
+in the country (especially those with histories of Baptist conversion) impacted emerging definitions 
+of Buddhism, and how particular efforts to control material resources and economic systems shaped 
+Buddhist expressions.10 Furthermore, I ask what we can learn about US operations as an informal 
+empire in the context of the American Baptist mission to Burma.11 To refine our more general 
+understandings of “Western” colonialism and Burmese history, we must investigate specific forms 
+and practices of imperialism. 
+In addition to reinvigorating our commitment to postcolonial approaches, the field should also 
+consider joining scholars across religious studies who are asking what is missed when we see 
+                                                             
+9 A recent book that exhibits this particular interest in exploring the complex ways ideas of Buddhism are produced 
+in colonial contexts is The Irish Buddhist, a study of the Irish hobo and sailor turned Burmese monk, U Dhammaloka 
+(Turner, Cox, and Bocking 2020). This study of a Western monk during Britain’s period of high imperialism sheds new 
+light on understudied poor whites and their multifaceted engagements with Asian communities and colonial powers. 
+Steven Kemper’s Rescued from the Nation (2015)—which reveals Anagarika Dharmapala to be more of a spiritual seeker 
+than a political reformer—raises similarly productive questions about the Buddhist agents of change in the 
+nineteenth and early twentieth centuries.  
+10 One particularly important material resource in this period was teak. For more on the Burmese religious history of 
+this tropical hardwood, see my article “Buddhist Teak and British Rifles; Religious Economics in Burma’s Last 
+Kingdom” (Kaloyanides 2019).  
+11 My article “Peering into Prisons, Gazing upon Graves: Early US Missionary Media from Burma” (Kaloyanides 2021) 
+investigates this issue of US imperialism by investigating how images produced by the American Baptist mission to 
+Burma created an imagined world of redemptive missionary sacrifice that primed generations of Baptist communities 
+to see foreign missionaries and their domestic supporters as righteous. For more on informal and formal empires and 
+the ongoing impact of imperial history on world politics, see Samir Puri’s The Shadows of Empire (2021). 
+
+
+
+<!-- Page 6 -->
+
+KALOYANIDES 
+ 
+| 224 
+JOURNAL OF GLOBAL BUDDHISM | Vol.22, No.1 (2021) 
+everything as social constructs and power struggles. A growing group of scholars is responding with 
+exploratory histories that include nonhuman actors. This effort is wagering that by expanding 
+notions of agency beyond the human, we will see things that scholarship fixated on human power 
+struggles has missed. Since Robert Orsi’s 2016 call for the study of religion “to approach history and 
+culture with the gods fully present to humans,” scholars of Asian religions have been considering 
+meaningful ways to respond to this turn toward divine presence. Can we tell better stories of 
+Theravada Buddhist communities and creations if there are real spirits, gods, and ghosts in those 
+stories?12 What are the risks of pivoting away from academic approaches that focus on the structures 
+humans use to oppress other humans?13 
+I have been experimenting with something akin to Orsi’s approach after finding an abundance 
+of accounts of the local spirits known as nats in research I have been doing on interactions between 
+the Kachin and American Baptist missionaries in the late nineteenth century. In these accounts, nats 
+are actively involved in expressions of conversion and resistance to Christianity. Like Hallisey’s 
+subjectified people influencing investigators, it seems that nats also participate in a kind of 
+intercultural mimesis. For example, in 1880, an ordained Karen Christian missionary from Bassein 
+named Mankeh approached a revered nat and his human medium in the village of Oo-zee-gong to 
+persuade them to become agents for the Christian god. When Mankeh introduced this nat and his 
+medium to the American missionary Jacob Freiday who visited during the dry season, he was moved 
+to write about the experience in his journal, praising the medium’s “good heart” and his hope “that 
+he is a chosen vessel to bear God’s name before the Ka-Khyens” (Freiday 304). In his classic work, 
+Political Systems of Highland Burma, the British anthropologist Edmund Leach argued that Kachin 
+offerings to nats were really just a way of influencing human social structures.14 Orsi’s approach 
+challenges us to resist turning to human politics in the face of other beings. If the Kachin, Americans, 
+and others in Burma described the nats as really acting in the world, how might I also try and open 
+my writing up to this possibility? Perhaps if the history of Kachin Christianity could more creatively 
+account for interactions with nats and the being often introduced as the lord of the nats, Jesus Christ, 
+we can move beyond the binaries that describe widespread Kachin Christian conversion as either a 
+                                                             
+12 Two recent monographs on Theravada communities that move in this exciting direction of bringing non-human 
+beings in as active participants in Buddhist worlds are Thomas Patton’s The Buddha’s Wizards (2018)—which explores 
+what it feels like to be in a relationship with wizard-saints in Myanmar—and Erik Davis’s Deathpower (2016)—which 
+studies how Buddhists in Cambodia engage the dead. An additional noteworthy book on Southeast Asian religions 
+(though not on Theravada) that tells stories of nonhumans acting in human worlds is Heonik Kwon’s Ghosts of War in 
+Vietnam (2008). Kwon approaches ghosts of war as “living evidence of historical injustice” and reveals how social 
+theories that do not include ghosts reveal their preoccupation with human function and structure (2008: 2, 23). 
+13 These questions come from a panel I helped organize at the 2019 meeting of the American Academy of Religion. I 
+am grateful to my fellow panelists, Susanne Kerekes, Murad Mumtaz, and Aleksandra Restifo, as well as our 
+respondent, Robert Orsi, for their contributions and our discussion.  
+14 Leach’s approach to seeing the nats as nothing more than a reflection of human relationships has raised questions 
+by scholars such as Robin Horton (Horton 1968) and Mandy Sadan (Sadan 2013). Horton, in arguing that 
+anthropologists start by taking belief statements seriously, pointed out that if “nats are nothing more than counters 
+in the language of political argument, why do Kachins waste so much time talking about them? Why do they not 
+couch their political arguments more directly?” (Horton 1968, 626). 
+
+
+
+<!-- Page 7 -->
+
+“INTERCULTURAL MIMESIS,” EMPIRE, AND SPIRITS 
+ 
+| 225 
+JOURNAL OF GLOBAL BUDDHISM | Vol.22, No.1 (2021) 
+result of Kachin being duped by missionaries or using Christianity to savvily gain economic and social 
+power. 
+Burma specialist Bénédicte Brac de la Perrière has long called for more academic attention to 
+nats. Her illuminating 2009 survey of the study of Burmese Buddhism lamented the lack of scholarship 
+on these popular Burmese beings. In this essay, Brac de la Perrière follows Hallisey’s interpretation 
+of intercultural mimesis to argue that scholarship on Burmese Buddhism coincided with dominant 
+Burmese constructions of their religious identity. She shows that academic omissions of spirit cults 
+have been influenced by efforts by Burmese communities in power to present themselves as in line 
+with the canonical Theravada tradition and therefore not entangled in nat worship. Here Brac de la 
+Perrière’s attention to the complex ways that knowledge of Buddhism has been produced given local 
+and international political conditions continues to advance the kind of analysis Hallisey has 
+advocated for. We must follow in Brac de la Perrière’s footsteps to watch for other ways that 
+dominant political and religious institutions in Burma mold and constrict our scholarship. We can 
+also look beyond these human power dynamics to consider how other forms of intercultural and 
+interbeing mimesis can shape the stories we tell about Buddhism.  
+It seems to me very much in the spirit of “Roads Taken and Not Taken in the Study of Theravāda 
+Buddhism” to say that we need to and can do all of the above. We need to be careful to recognize the 
+agency of a range of figures and traditions in South and Southeast Asian people (including those who 
+inhabit borderlands and waterways, as Jack Chia also urges in his essay for this collection). We must 
+be ever cautious about the subtle and gross ways imperialism continues to shape the work we do. We 
+can also think creatively together about what and who animates Buddhist worlds. 
+Acknowledgements 
+I am grateful to Adeana McNicholl and Trent Walker for their valuable suggestions on earlier 
+versions of this article. I would also like to thank William Noseworthy and the two anonymous 
+reviewers for their helpful comments. 
+Corresponding author 
+Alexandra Kaloyanides 
+Department of Religious Studies 
+University of North Carolina at Charlotte 
+akaloyan@uncc.edu  
+References 
+Almond, Phillip C. 1988. The British Discovery of Buddhism. Cambridge: Cambridge University Press. 
+Ashin, Janaka. 2016. Die-Human, Born Human. The Life and Posthumous Trial of Shin Ukkaṭṭha, a Pioneering 
+Burmese Monk during a Tumultuous Period in a Nation’s History. PhD Dissertation. London: King’s 
+College London. 
+Brac de la Perrière, Bénédicte. 2009. “An Overview of the Field of Religion in Burmese Studies.” 
+Asian Ethnology 68 (2): 85–210. 
+
+
+
+<!-- Page 8 -->
+
+KALOYANIDES 
+ 
+| 226 
+JOURNAL OF GLOBAL BUDDHISM | Vol.22, No.1 (2021) 
+Blackburn, Anne. 2001. Buddhist Learning and Textual Practice in Eighteenth-Century Lankan Monastic 
+Culture. Princeton: Princeton University Press. 
+Borchert, Thomas. 2006. “Educating Monks: Buddhism, Politics and Freedom of Religion on China’s 
+Southwest Border.” PhD Dissertation. Chicago: University of Chicago. 
+Braun, Erik. 2013. The Birth of Insight: Meditation, Modern Buddhism, and the Burmese Monk Ledi Sayadaw. 
+Chicago: University of Chicago Press.  
+Carbine, Jason. 2011. Sons of the Buddha: Continuities and Ruptures in a Burmese Monastic Tradition. 
+Boston: Walter de Gruyter. 
+Chidester, David. 2014. Empire of Religion: Imperialism and Comparative Religion. Chicago: University of 
+Chicago Press. 
+Chubbuck Judson, Emily. 1853. The Kathayan Slave and Other Papers Connected with Missionary Life. 
+Boston: Ticknor, Reed, and Fields. 
+Davis, Erik. 2016. Deathpower: Buddhism’s Ritual Imagination in Cambodia. New York: Columbia 
+University Press. 
+Freiday, Jacob. 1880. “Incidents of a Tour in the Ka-Khyen Hills.” Baptist Missionary Magazine, August: 
+302–304. 
+Halbfass, Wilhelm. 2017 [1981]. India and Europe: An Essay in Philosophical Understanding. Motilal 
+Banarsidass. 
+Hallisey, Charles. 1995. “Roads Taken and Note Taken in the Study of Theravāda Buddhism.” In 
+Curators of the Buddha: The Study of Buddhism under Colonialism, edited by Donald S. Lopez, Jr., 
+31–61. Chicago: University of Chicago Press. 
+Hansen, Anne Ruth. 2007. How to Behave: Buddhism and Modernity in Colonial Cambodia, 1860–1930. 
+Honolulu: University of Hawai‘i Press. 
+Hollinger, David. 2017. Protestants Abroad: How Missionaries Tried to Change the World but Changed 
+America. Princeton: Princeton University Press. 
+Horton, Robin. 1968. “Neo-Tylorianism: Sound Sense or Sinister Prejudice?” Man 3 (4): 625–634. 
+Inden, Ronald. 1986. “Orientalist Constructions of India.” Modern Asian Studies 20 (3): 401–46. 
+Kaloyanides, Alexandra. 2015. “America’s God and the World: Questioning the Protestant 
+Consensus.” Church History 84 (3): 625–629. 
+Kaloyanides, Alexandra. 2019. “Buddhist Teak and British Rifles: Religious Economics in Burma’s 
+Last Kingdom.” Journal of Burma Studies 24 (1): 1–36. 
+Kaloyanides, Alexandra. 2021. “Peering Into Prisons, Gazing Upon Graves: Early U.S. Missionary 
+Media from Burma.” Material Religions 17 (2): 1–26.  
+Kemper, Steven. 2015. Rescued from the Nation: Anagarika Dharmapala and the Buddhist World. Chicago: 
+University of Chicago Press. 
+King, Richard. 2013. Orientalism and Religion: Post-Colonial Theory, India and “The Mystic East.” New 
+York: Routledge. 
+Kwon, Heonik. 2008. Ghosts of War in Vietnam. Cambridge: Cambridge University Press. 
+Lammerts, D. Christian. 2018. Buddhist Law in Burma: A History of Dhammasattha Texts and 
+Jurisprudence, 1250–1850. Honolulu: University of Hawai‘i Press. 
+
+
+
+<!-- Page 9 -->
+
+“INTERCULTURAL MIMESIS,” EMPIRE, AND SPIRITS 
+ 
+| 227 
+JOURNAL OF GLOBAL BUDDHISM | Vol.22, No.1 (2021) 
+Leach, Edmund. 1964. Political Systems of Highland Burma: A Study of Kachin Social Structure. London: G. 
+Bell and Sons, Ltd.  
+Masuzawa, Tomoko. 2005. The Invention of World Religions, or, How European Universalism Was Preserved 
+in the Language of Pluralism. Chicago: University of Chicago Press. 
+McDaniel, Justin Thomas. 2008. Gathering Leaves and Lifting Words: Histories of Buddhist Monastic 
+Education in Laos and Thailand. Seattle: University of Washington Press. 
+Naono, Atsuko. 2009. State of Vaccination: The Fight Against Smallpox in Colonial Burma. Hyderabad: 
+Orient Blackswan Private Limited.  
+Orsi, Robert. 2016. History and Presence. Cambridge: Harvard University Press. 
+Patton, Thomas Nathan. 2018. The Buddha’s Wizards: Magic, Protection, and Healing in Burmese Buddhism. 
+New York: Columbia University Press. 
+Pennington, Brian. 2005. Was Hinduism Invented?: Britons, Indians, and the Colonial Construction of 
+Religion. Oxford: Oxford University Press. 
+Pranke, Patrick. 2004. “The ‘Treatise on the Lineage of the Elders’ (Vaṃsadīpanī): Monastic Reform 
+and the Writing of Buddhist History in Eighteenth-Century Burma.” PhD Dissertation. Ann 
+Arbor: University of Michigan. 
+Puri, Samir. 2021. The Shadows of Empire: How Imperial History Shapes Our World. New York: Pegasus 
+Books. 
+Sadan, Mandy. 2013. Being & Becoming Kachin: Histories Beyond the State in the Borderworlds of Burma. 
+Oxford: Oxford University Press. 
+Said, Edward. 1978. Orientalism. New York: Pantheon Books. 
+Schober, Juliane. 2011. Modern Buddhist Conjunctures in Myanmar: Colonial Narratives, Colonial Legacies, 
+and Civil Society. Honolulu: University of Hawai‘i Press. 
+Snodgrass, Judith. 2003. Presenting Japanese Buddhism to the West: Orientalism, Occidentalism, and the 
+Columbian Exposition. Chapel Hill: University of North Carolina Press. 
+Turner, Alicia. 2014. Saving Buddhism: The Impermanence of Religion in Colonial Burma. Honolulu: 
+University of Hawai‘i Press. 
+Turner, Alicia, Laurence Cox, and Brian Bocking. 2020. The Irish Buddhist: The Forgotten Monk Who 
+Faced Down the British Empire. Oxford: Oxford University Press. 
+Tweed, Thomas. 1992. The American Encounter with Buddhism, 1844–1912. Bloomington: Indiana 
+University Press. 
+
+

@@ -1,0 +1,5576 @@
+---
+source_id: S-2005-analayo-01
+title: "Some Pāli Discourses in the Light of Their Chinese Parallels"
+author: "Bhikkhu Anālayo"
+year: 2005
+language: English
+script: Latin
+---
+
+<!-- Page 1 -->
+
+ 
+ 
+ 
+ 
+ 
+ 
+BUDDHIST STUDIES REVIEW 
+volume 22 ! part 2 ! 2005 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+the journal of the 
+uk association for buddhist studies 
+ 
+ 
+
+
+
+<!-- Page 2 -->
+
+ 
+ 
+BUDDHIST STUDIES REVIEW 
+ 
+ 
+Buddhist Studies Review is the semi-annual journal of the UK Association 
+for Buddhist Studies. The Journal seeks to publish quality, peer-
+reviewed articles on any aspect of Buddhist studies. Contributions 
+should be submitted to the Editor, from 2006 (volume 23): 
+ 
+Professor Peter Harvey, School of Art, Design, Media and Culture, 
+University of Sunderland, Priestman Building, Green Terrace,  
+Sunderland SR1 3PZ, UK (email: peter.harvey@sunderland.ac.uk). 
+ 
+Books for review should be sent to the Book Reviews Editor:  
+ 
+Dr Mahinda Deegalle, School of Cultural and Historical Studies, Bath 
+Spa University, Newton Park Campus, Newton St Loe, Bath BA2 9BN 
+(email: m.deegalle@bathspa.ac.uk). 
+ 
+Editorial Board 
+Rupert Gethin (Editor 2005) 
+Mahinda Deegalle (Book Reviews Editor) 
+T. H. Barrett 
+ 
+Cathy Cantwell  
+Elizabeth Harris  
+Peter Harvey 
+ 
+Ulrich Pagel 
+ 
+Charles S. Prebish  
+ 
+Andrew Skilton 
+ 
+From 2006 Buddhist Studies Review will be published by 
+Equinox Publishing. 
+ 
+For new subscription details, please see inside the back cover. 
+ 
+ 
+
+
+
+<!-- Page 3 -->
+
+ 
+ 
+ 
+BUDDHIST STUDIES REVIEW 
+volume 22 ! part 2 ! 2005 
+ 
+ 
+CONTENTS 
+ 
+ 
+Editor’s Note ............................................................. iv 
+Some Pali Discourses in the Light of Their Chinese Parallels Part ii 
+by Anålayo............................................................. 93 
+How long is a Lifetime? Buddhadåsa’s and Phra Payutto’s Interpre-
+tations of pa†iccasamuppåda in Comparison 
+by Martin Seeger ..................................................... 107 
+Apsarases: The Buddhist Conversion of the Nymphs of Heaven  
+by Linda Covill ...................................................... 131 
+Fifty Years of Buddhist Studies in Britain 
+by Richard Gombrich ................................................ 141 
+‘Only if you let go of that tree’: Ordination without Parental Con-
+sent in Theravåda Vinaya  
+by Kate Crosby ....................................................... 155 
+On the Nature of dhammas: A review article 
+by Rupert Gethin .................................................... 175 
+Book Reviews.......................................................... 195 
+Obituary: Heinz Bechert 
+by Russell Webb ...................................................... 211 
+UKABS Conference .................................................. 217 
+ 
+ 
+issn 0265-2897 
+© 2005 Buddhist Studies Review 
+Printed in Great Britain by Antony Rowe Ltd, Chippenham, Wiltshire 
+ 
+
+
+
+<!-- Page 4 -->
+
+ 
+ 
+ 
+ 
+EDITOR’S NOTE 
+ 
+ 
+ 
+With this second issue of volume 22 of Buddhist Studies Review (2005) my 
+role as interim Editor comes to an end. Beginning with volume 23.1 
+(2006), Professor Peter Harvey will take on the role of Editor and Bud-
+dhist Studies Review will be published by Equinox Publishing Ltd. For the 
+new subscription rates please see inside the back cover. 
+ 
+ 
+Rupert Gethin 
+Editor for volume 22 (2005) 
+ 
+ 
+
+
+
+<!-- Page 5 -->
+
+ 
+Buddhist Studies Review 22 (2005), 93–105 
+ 
+SOME PALI DISCOURSES IN THE LIGHT 
+OF THEIR CHINESE PARALLELS 
+PART TWO * 
+ 
+ANÓLAYO 
+ 
+he present article is a follow up to my examination of the potential 
+of the Chinese Ógamas as a corrective and supplement to the Pali 
+discourses, published in the previous issue of Buddhist Studies Review.1 
+While in the earlier article I took up examples from the ﬁrst ﬁfty dis-
+courses in the Majjhima Nikåya, the present article treats examples from 
+the remainder of the same collection. 
+Placing the Pali discourses and their counterparts in the Chinese 
+Ógamas side by side often brings to light an impressive degree of 
+agreement, even down to rather minor details. This close agreement 
+testiﬁes to the emphasis on verbatim recall in the oral transmission of 
+the early discourses. In this respect the early Buddhist oral tradition 
+forms a class of its own in the ambit of oral literature in general, where 
+often relatively free improvisation is the rule. Oral performance of a 
+narrative type in a setting like Africa or medieval Europe demands in-
+novation and improvisation from the performer, whose task is to pre-
+sent the tale in such a way as to best entertain the audience. Such a type 
+of oral literature is thus recreated every time it is told. In contrast, the 
+purpose of the early Buddhist oral tradition was to preserve sacred ma-
+terial, for which free improvisation is not appropriate. Moreover, the 
+performance situation of the early discourses was not only public, but 
+                                                        
+* 
+I am indebted to Bhikkhu Bodhi, Bhikkhu Ñåˆatusita, Professor Enomoto and Dr. 
+Rupert Gethin for reading an earlier draft of this article and offering me the gift of 
+their comments. It goes without saying that I remain responsible for whatever errors 
+should still be found in my presentation. 
+1  Buddhist Studies Review 22 (2005), 1–14. 
+T
+
+
+
+<!-- Page 6 -->
+
+ANÓ LAYO 
+ 
+94 
+also private, and recitation was often undertaken communally, which 
+leaves little scope for free improvisation.2 
+In this emphasis on verbatim recall, the early Buddhist discourses 
+stand in the tradition of Vedic oral literature, where verbatim recall was 
+similarly of central importance. Unlike the Brahmin reciters, however, 
+not all Buddhist monk reciters were trained in memorizing texts from 
+their early youth onwards.3 Thus in spite of the formidable feat of 
+transmitting a vast corpus of material to posterity, some of the errors 
+bound to occur during oral transmission have also left their impact on 
+the Pali discourses. Such errors can involve a shift of material to a dif-
+ferent place, or even loss of material. At times, due to the need for ex-
+planation during oral performance, it might also happen that material 
+which originally was of a commentarial nature inﬂuenced a discourse, 
+or even became part of it. 
+An example of a shift of material to a different place can be found in 
+the CË¬asakuludåyi Sutta. The Pali and Chinese version of this discourse 
+record a discussion between the Buddha and the wanderer Sakuludåy¥ 
+on the way to an entirely pleasant world, which according to both ver-
+sions is to be found in the development of the jhånas. After describing 
+the attainment of the four jhånas, the Pali discourse turns to an account 
+of the gradual path, which depicts how someone goes forth and attains 
+the four jhånas and the three higher knowledges. 
+The CË¬asakuludåyi Sutta’s treatment of the gradual path follows each 
+jhåna and higher knowledge with the declaration that this attainment is 
+a state superior to the way to an entirely pleasant world discussed ear-
+lier. This procedure creates a somewhat perplexing proposition, as in 
+this way the CË¬asakuludåyi Sutta proclaims that each of the jhånas men-
+tioned in its description of the gradual path is superior to the jhånas 
+mentioned in its earlier discussion of the path to an entirely pleasant 
+world.4  
+                                                        
+2  M. Allon, Style and Function (Tokyo, 1997), p. 366. 
+3  O. von Hinüber, Der Beginn der Schrift und frühe Schriftlichkeit in Indien (Mainz, 1989), p. 
+67. 
+4  MN 79 at MN ii 38,8: ‘He dwells having attained the ﬁrst jhåna. This ... is a state supe-
+rior and more sublime’ [than the earlier mentioned four jhånas] (pathamajjhånaµ 
+upasampajja viharati. ayam pi kho ... dhammo uttaritaro ca paˆ¥tataro ca). 
+
+
+
+<!-- Page 7 -->
+
+PALI DI SCOU RSES A ND THEIR CHINESE PARA LLELS II 
+95
+The Madhyama Ógama parallel to the CË¬asakuludåyi Sutta treats the 
+gradual path already at an earlier point, when describing the path to an 
+entirely pleasant world.5 By doing so the Madhyama Ógama version 
+takes up the jhånas only once and thus does not have the perplexing 
+proposition found in the Pali discourse, according to which the jhånas 
+are superior to the jhånas. Judging from its location in the Chinese dis-
+course, perhaps the gradual path exposition up to the four jhånas origi-
+nally served as an introduction to the attainment of an entirely pleasant 
+world. This would leave only the three higher knowledges in the place 
+where they are found now, three attainments that are indeed superior 
+to the entirely pleasant world of the jhånas.  
+Another meeting between the Buddha and the same wanderer Saku-
+ludåyi is the theme of the Mahåsakuludåyi Sutta. This discourse lists ﬁve 
+qualities that cause the Buddha’s disciples to respect their teacher. The 
+treatment of the ﬁrst four qualities is fairly similar in the Pali and 
+Madhyama Ógama version of this discourse.  
+The ﬁfth quality in the Madhyama Ógama account takes up the Bud-
+dha’s instructions on the three higher knowledges.6 According to the 
+Madhyama Ógama discourse, these instructions inspire conﬁdence in 
+the Buddha’s disciples, as it enables them to go beyond doubt and reach 
+the other shore. 
+The Pali version instead works its way through a long exposition of 
+various aspects of the Buddhist path, covering the four satipa††hånas, the 
+four right efforts, the four roads to power, the ﬁve faculties, the ﬁve 
+powers, the seven awakening factors, the noble eightfold path, the eight 
+liberations, the eight bases for transcendence, the ten kasiˆas, the four 
+jhånas, insight into the nature of body and consciousness, production of 
+a mind-made body, supernormal powers, the divine ear and telepathic 
+knowledge of the mind of others, before coming to the same three 
+higher knowledges.7  
+                                                        
+5  MÓ 208 at T i 785c24. 
+6  MÓ 207 at T i 783b16, which explicitly mentions only the ﬁrst and the third knowl-
+edge, recollection of past lives and destruction of the inﬂuxes, though from the con-
+text it seems safe to assume that the second knowledge, the divine eye, should be 
+supplemented. 
+7  MN 77 at MN ii 11–22. 
+
+
+
+<!-- Page 8 -->
+
+ANÓ LAYO 
+ 
+96 
+When considering this exposition in the light of its Madhyama Ógama 
+parallel, it would seem that the Buddha’s ability to teach how to attain 
+the three higher knowledges sufﬁces to explain why his disciples respect 
+him. In fact the long exposition given in the Pali discourse appears to 
+be somewhat out of proportion, as a comparatively brief treatment of 
+the ﬁrst four qualities is followed by a disproportionately long exposi-
+tion of the ﬁfth quality. Due to this extensive exposition of the ﬁfth 
+quality, the Mahåsakuludåyi Sutta has become a rather long discourse 
+and would ﬁnd a more ﬁtting placement in the D¥gha Nikåya, instead of 
+being included among discourses of ‘middle length’. Hence one might 
+wonder if the long exposition in the Pali version could be a later expan-
+sion of what originally was only a relatively brief treatment, similar to 
+the treatment in its Madhyama Ógama parallel. 
+A somewhat similar situation can be found in the case of the 
+Piˆ!apåtapårisuddhi Sutta. The topic of this discourse, as indicated in the 
+titles of the Pali version and its Saµyukta Ógama parallel, is ‘puriﬁcation 
+of alms food’.8 In order to undertake such puriﬁcation, according to 
+both versions a monk should avoid the arising of desire and other 
+deﬁlements while collecting alms food. If on inspection the monk real-
+izes that deﬁlements have arisen in his mind, he should make a deter-
+mined effort to remove them, whereas if he has remained free from 
+deﬁlements he may joyfully continue to train himself in wholesome 
+states. 
+The Saµyukta Ógama version explains that through such training in 
+wholesomeness when walking, standing, sitting and lying down a monk 
+puriﬁes his alms food, after which this discourse concludes.9 The Pali 
+version continues instead by treating various other topics. These cover 
+overcoming the ﬁve types of sensual pleasures and the ﬁve hindrances; 
+understanding the ﬁve aggregates; developing the four satipa††hånas, the 
+four right efforts, the four roads to power, the ﬁve faculties, the ﬁve 
+powers, the seven factors of awakening, the eightfold noble path, tran-
+quillity and insight; and realizing knowledge and liberation.10  
+                                                        
+8  MN 151 at MN iii 297,36: piˆ!apåtapårisuddhi and SÓ 236 at T ii 57b25: !"#$% 
+9  SÓ 236 at T ii 57b24. 
+10  MN 151 at MN iii 295,13–297,20. 
+
+
+
+<!-- Page 9 -->
+
+PALI DI SCOU RSES A ND THEIR CHINESE PARA LLELS II 
+97
+Though by undertaking all these practices a monk would certainly 
+become a thoroughly puriﬁed recipient of alms, the comparatively brief 
+treatment given in the earlier part of the Pali version, found in similar 
+terms also in its Saµyukta Ógama parallel, would seem to be an ade-
+quate and sufﬁcient explanation of how a monk undertakes ‘puriﬁca-
+tion of alms food’. Thus in this case, too, the possibility that the long 
+exposition found only in the Pali version could be due to a later expan-
+sion of an originally more concise presentation needs to be taken into 
+consideration. 
+Another case where a treatment in a Pali discourse is considerably 
+longer than its Chinese counterpart can be found in the Mahåråhu-
+lovåda Sutta, which presents a range of meditation instructions given by 
+the Buddha to his son Råhula. The Pali version reports that, on being 
+asked by his son about the development of mindfulness of breathing, 
+the Buddha delivered detailed instructions on how to contemplate the 
+ﬁve elements of earth, water, ﬁre, air and space, followed by taking up 
+in brief the brahmavihåras, contemplation of the unattractiveness of the 
+body (asubha) and perception of impermanence, before giving a de-
+tailed exposition of mindfulness of breathing.11  
+According to the Ekottarika Ógama counterpart to the Mahåråhu-
+lovåda Sutta, before Råhula inquired about mindfulness of breathing the 
+Buddha had already brieﬂy instructed him on the brahmavihåras and on 
+contemplating the unattractiveness of the body, and it was after 
+Råhula’s inquiry that the Buddha took up the practice of mindfulness of 
+breathing.12 The detailed instructions on the ﬁve elements, given by the 
+Buddha to his son in the Pali version of the Mahåråhulovåda Sutta, are 
+not found at all in the Ekottarika Ógama discourse. 
+Here again one might wonder whether the Pali version’s exposition 
+on the elements is in its proper place, since in both versions Råhula had 
+asked the Buddha how to develop mindfulness of breathing so that it 
+will be of great fruit.13 In view of such an inquiry one would not expect 
+the Buddha to broach a range of different subjects and give such a de-
+                                                        
+11  MN 62 at MN i 421–25. 
+12  EÓ 17.1 at T ii 581c16 and T ii 582a13. 
+13  MN 62 at MN i 421,24: kathaµ bhåvitå nu kho, bhante, ånåpånasati ... mahapphalå hoti? 
+EÓ 17.1 at T ii 582a6: &'()*+,%%%,-./0? 
+
+
+
+<!-- Page 10 -->
+
+ANÓ LAYO 
+ 
+98 
+tailed exposition of the ﬁve elements before taking up the topic of 
+mindfulness of breathing.  
+A discourse in the A!guttara Nikåya and its parallel in the Saµyukta 
+Ógama also record an instruction on the elements given by the Buddha 
+to his son Råhula.14 Though this evidently remains hypothetical, per-
+haps during the course of oral transmission this instruction on the ele-
+ments came to be added to the Mahåråhulovåda Sutta. 
+Another instance where comparing the Pali and Chinese versions of a 
+discourse bring to light a noteworthy difference is the Mahåcattår¥saka 
+Sutta. The Pali version of this discourse examines wrong path factors, 
+right path factors and supramundane path factors. The deﬁnitions 
+given to the same wrong and right path factors in its Madhyama Ógama 
+counterpart are similar to the Pali presentation. The Madhyama Ógama 
+discourse differs in so far as it does not treat supramundane path factors 
+at all.15 A quotation of the same discourse in Íamathadeva's commen-
+tary on the Abhidharmakoßa, preserved in Tibetan, also does not record 
+such a treatment of the supramundane path factors.16 
+A closer scrutiny of the Mahåcattår¥saka Sutta brings to light that the 
+terminology employed to deﬁne the supramundane path factors is pre-
+cisely the same as the terminology used in the Vibha"ga’s exposition of 
+the path factors according to the methodology of the Abhidhamma, 
+distinct from the way the same work analyses these path factors when 
+applying the methodology of the discourses.17 Some of the Pali terms 
+used in the Mahåcattår¥saka Sutta, such as when deﬁning supramundane 
+right intention as ‘ﬁxing’ (appanå) of the mind and as ‘mental inclina-
+tion’ (cetaso abhiniropanå), are not found in other discourses and belong 
+                                                        
+14  AN 4:177 at AN ii 164–65 and SÓ 465 at T ii 118c–119a. SÓ 465 takes up six ele-
+ments, whereas AN 4:177 treats only four elements. The examination of the elements 
+in AN 4:177 is also shorter than its counterpart in MN 62, as it does not list the bodily 
+manifestations of each internal element. 
+15  MÓ 189 at T i 735c18; for a detailed study of this discourse cf. K. Meisig, ‘Sheng Tao 
+King, die Chinesische Fassung des Mahåcattar¥saka Sutta’, Hinduismus und Buddhismus 
+(Freiburg, 1987), pp. 220–48. 
+16  Derge edition mngon pa nyu 44a5 or Peking edition thu 83b5. 
+17  This is the Abhidhammabhåjaniya treatment of the fourth noble truth at Vibh 106,3, 
+preceded by treating the same subject from the viewpoint of the discourses in the Sut-
+tantabhåjaniya. 
+
+
+
+<!-- Page 11 -->
+
+PALI DI SCOU RSES A ND THEIR CHINESE PARA LLELS II 
+99
+to the type of language used only in the Abhidhamma and historically 
+later Pali texts.18 When applying the supramundane treatment to 
+speech, action and livelihood, the Mahåcattår¥saka Sutta uses a string of 
+terms that does not occur in this way in other discourses, while the same 
+string of terms is found in the deﬁnition of these three path factors in 
+the Abhidhamma.19  
+Another noteworthy aspect of the Mahåcattår¥saka Sutta’s treatment of 
+the path factors is that it reckons the mundane wholesome path factors 
+to be ‘with inﬂux’ and as ‘ripening in attachment’.20 The way the Mahå-
+cattår¥saka Sutta deﬁnes these mundane path factors corresponds to the 
+deﬁnitions used in other discourses, where these path factors are part of 
+the noble eightfold path that leads to the eradication of dukkha.21 Thus 
+what other discourses reckon as an integral part of the path to libera-
+tion, the Mahåcattår¥saka Sutta’s treatment considers as something that is 
+with inﬂux and ripens in attachment. 
+This mode of presentation shows the inﬂuence of Abhidhammic type 
+of thought, as works like the Dhammasa"gaˆ¥ use the qualiﬁcation ‘with-
+out inﬂuxes’ only for the four paths and fruits, and for the uncondi-
+tioned element.22 From this perspective, any other type of experience, 
+however wholesome or conducive to liberation it may be, will be reck-
+oned to be ‘with inﬂux’ and consequently to ‘ripen in attachment’. 
+At this point the question could be posed to what extent the Mahåcat-
+tår¥saka Sutta’s overall exposition requires the treatment of the supra-
+                                                        
+18  MN 117 at MN iii 73,15 lists takko vitakko sa"kappo appanå vyappanå cetaso abhiniropanå 
+to deﬁne sammåsa"kappo ariyo anåsavo lokuttaro magga"go. The terms appanå, vyappanå, 
+and cetaso abhiniropanå do not seem to recur in other discourses. The same listing can 
+be found at Dhs 10,17 or at Vibh 86,8: takko vitakko sa"kappo appanå vyappanå cetaso ab-
+hiniropanå. 
+19  MN 117 at MN iii 74,9+35 and MN iii 75,25: årati virati pa†ivirati veramaˆ¥, a string of 
+terms that recurs in the deﬁnition of these path factors at Dhs 63,35 and Dhs 64,2+7 
+and at Vibh 106,26+30 and Vibh 107,4. 
+20  e.g. for the path factor of right intention in MN 117 at MN iii 73,6: såsavo ... 
+upadhivepakko. 
+21  MN 117 at MN iii 73,9, MN iii 74,3+30 and MN iii 75,20 deﬁne mundane right inten-
+tion, right speech, right action and right livelihood in the same way as e.g. MN 141 at 
+MN iii 251,16+19+23+26. 
+22  Dhs 196,16: ariyåpannå maggå ca maggaphalåni ca asa"khata ca dhåtu, ime dhammå 
+anåsavå. 
+
+
+
+<!-- Page 12 -->
+
+ANÓ LAYO 
+ 
+100 
+mundane path factors. According to the preamble found in the Chinese 
+and the Pali versions of this discourse, the main intent of the Buddha’s 
+exposition was to show the supportive function of the other path factors 
+for the development of right concentration. That is, the central point at 
+stake was not to present the path factors individually, but rather to show 
+their interrelation as a basis for developing right concentration. To 
+bring out this point, the supramundane treatment of the path factors 
+would not be required. 
+Hence from the perspective of the central topic of the discourse the 
+treatment of the supramundane path factors does not seem to be indis-
+pensable. The same treatment shows distinct Abhidhammic characteris-
+tics and vocabulary, and it is absent from the Madhyama Ógama and 
+Tibetan parallels. This suggests the treatment of the supramundane 
+path factors in the Pali version of the Mahåcattår¥saka Sutta to be a later 
+addition. Perhaps an early commentary on this discourse considered the 
+path factors from the supramundane perspective of path attainment, 
+and what originally was only an alternative mode of explanation pre-
+served in an oral commentary was later absorbed into the discourse it-
+self during the process of oral transmission. 
+Another case where the understanding of the reciters may have 
+inﬂuenced the wording of a discourse could be the Uddesavibha"ga 
+Sutta. The Pali version of this discourse and its Madhyama Ógama paral-
+lel begin with a short statement by the Buddha, after which he retired to 
+his dwelling.23 From the perspective of the Pali discourse this comes as 
+quite a surprise, since the Buddha had announced that he would teach 
+the monks a summary and an exposition.24 In spite of this announce-
+ment, he left without giving an exposition, after teaching only the sum-
+mary. According to the Madhyama Ógama account, however, the Bud-
+dha did not announce a summary and an exposition. Thus in the 
+Madhyama Ógama version the Buddha’s departure does not stand in 
+contradiction to what he said earlier. 
+                                                        
+23  MN 138 at MN iii 223,14 and MÓ 164 at T i 694b24. 
+24  MN 138 at MN iii 223,5: ‘I will teach you a summary and an exposition, monks, listen 
+and attend well, I am about to speak’ (uddesavibha"gaµ vo, bhikkhave, desissåmi, taµ 
+suˆåtha sådhukaµ manasikarotha, bhåsissåmi). 
+
+
+
+<!-- Page 13 -->
+
+PALI DI SCOU RSES A ND THEIR CHINESE PARA LLELS II 
+101 
+A reference to a summary and an exposition recurs also in the Mahå-
+kaccånabhaddekaratta Sutta and in the Lomasaka"giyabhaddekaratta Sutta.25 
+According to the introductory narration in both discourses, a visiting 
+deva had asked a monk if he knew the ‘summary and the exposition on 
+an auspicious night’, followed by also asking him if he knew the ‘verses 
+on an auspicious night’.26 As the verses correspond to the summary, ei-
+ther the reference to the summary or the reference to the verses seems 
+to be redundant.27 
+Just as in the case of the Uddesavibha"ga Sutta, in the Mahåkaccåna-
+bhaddekaratta Sutta the reference to a summary and an exposition stands 
+in contrast to the remainder of the discourse, since here too the Bud-
+dha announced a summary and an exposition but then got up and left 
+after giving only the summary, without delivering the corresponding 
+exposition.  
+In all these three cases the Chinese and Tibetan parallels do not refer 
+to a summary and an exposition.28 This suggests that the reference to a 
+summary and an exposition originally might not have been part of these 
+discourses.  
+The reason for these references to a summary and an exposition in 
+the Pali versions could be that the basic pattern of following a summary 
+with an exposition is a characteristic mark of most of the discourses 
+found in the chapter where these three Pali discourses are located, the 
+                                                        
+25  In MN 133 at MN iii 192,10 and in MN 134 at MN iii 199,27 a deva asked a monk ‘do 
+you, monk, remember the summary and the exposition on an auspicious night?’ 
+(dhåresi tvaµ, bhikkhu, bhaddekaratassa uddesañ ca vibha"gañ ca?). 
+26  After the inquiry mentioned above in note 25, according to MN 133 at MN iii 192,16 
+and MN 134 at MN iii 200,5 the deva asked: ‘but do you, monk, remember the verses 
+on an auspicious night?’ (dhåresi pana tvaµ, bhikkhu, bhaddekaratiyo gåthå?). 
+27  MN 133 at MN iii 193,24 reports that after the Buddha had spoken the verses without 
+explaining their meaning, the monks wondered who would be able to explain the 
+meaning of this ‘summary’, uddesa, thereby identifying the verses as the summary. In 
+fact, apart from the verses it would be difﬁcult to ﬁnd anything else that could be 
+reckoned as a ‘summary’. 
+28  The parallels to MN 133 are MÓ 165 at T i 696c7, T 1362 at T xxi 881c11, and a Ti-
+betan parallel found thrice in the Derge edition at mdo sa 161b4, rgyud ba 56b2 and 
+gzungs waµ 90a5 (the Peking edition has only two versions of this discourse at mdo shu 
+171a and rgyud ya 96b). The parallels to MN 134 are MÓ 166 at T i 698c14 and T 77 at 
+T i 886b7. The parallel to MN 138 is MÓ 164 at T i 694b18.  
+
+
+
+<!-- Page 14 -->
+
+ANÓ LAYO 
+ 
+102 
+Vibha"ga Vagga of the Majjhima Nikåya. Perhaps this caused the reciters 
+to make explicit what in some instances was only implicit, by beginning 
+these three discourses with the announcement that a summary and its 
+exposition will be given.  
+Another case where a passage in a Pali discourse may have been 
+inﬂuenced by later developments can be found in the Dakkhiˆåvibha"ga 
+Sutta. In the context of a treatment of different types of offering, the 
+Pali version states that even if an individual monk should be of evil 
+character and of bad morality, as long as a gift to him is given on behalf 
+of the whole community, such a gift will be of immeasurable merit.29 Its 
+Madhyama Ógama counterpart does not speak of a monk who is of evil 
+character and of bad morality, but only of a monk who is not ener-
+getic.30 A quotation of this passage in Íamathadeva's commentary on the 
+Abhidharmakoßa also does not envisage that a monk worthy of offerings 
+could be of evil character and of bad morality.31 
+The Madhyama Ógama version continues by explaining that as even a 
+gift to a monk who is not energetic is of much merit, what to say of the 
+merit of giving to a monk who practises and has reached various ac-
+complishments. The Pali version instead continues by stating that a gift 
+to an individual will never be as meritorious as a gift given to the whole 
+community.32 The commentary adds that even a gift given to an arahant 
+individually will not measure up to a gift given to someone of bad mo-
+rality, as long as the gift is given in the name of the community.33  
+This presentation in the Dakkhiˆåvibha"ga Sutta and its commentary is 
+surprising. If mere membership of the Buddhist order would sufﬁce to 
+ensure the worthiness of receiving a gift, one would be at a loss to un-
+                                                        
+29  MN 142 at MN iii 256,6: ‘there will be clan members, with yellow robes around their 
+necks, immoral and of evil character, I say an offering made to those immoral ones in 
+the name of the community ... is incalculable and immeasurable’ (bhavissanti ... gotrab-
+huno kåsåvakaˆ†hå duss¥lå påpadhammå, tesu duss¥lesu sa"ghaµ uddissa dånaµ ... 
+asa"kheyyaµ appameyyaµ vadåmi). 
+30  MÓ 180 at T i 722b1:,123. 
+31  Derge edition mngon pa ju 255a4 or Peking edition tu 290b4. 
+32  MN 142 at MN iii 256,10: ‘I say that a gift given to an individual person is never of 
+greater fruit than a gift given to the community’, na ... kenaci pariyåyena sa"ghagatåya 
+dakkhiˆåya på†ipuggalikaµ dånaµ mahapphalataraµ vadåmi. 
+33  Ps v 75. 
+
+
+
+<!-- Page 15 -->
+
+PALI DI SCOU RSES A ND THEIR CHINESE PARA LLELS II 
+103 
+derstand why in the Pali and Chinese versions of the Mahå-Assapura 
+Sutta and the CË¬a-Assapura Sutta the Buddha gave recommendations on 
+proper conduct to the monks in order to ensure that gifts given to them 
+will be fruitful,34 or why the Pali and Chinese versions of the Óka"kheyya 
+Sutta stipulate morality as a factor required to make the services and 
+support a monk receives become fruitful.35 
+As the declaration about the meritoriousness of a gift given to an evil 
+monk of bad morality in the Dakkhiˆåvibha"ga Sutta seems difﬁcult to 
+harmonize with other discourses, one might wonder whether the need 
+to ensure a constant supply of gifts even for less well-behaved monks 
+may have led to a conscious change of the wording of this discourse. 
+Such conscious changing of the wording of a discourse, however, 
+does not seem to be behind most of the variations found between Pali 
+discourses and their Ógama counterparts, variations that often appear to 
+be just the outcome of the vicissitudes of oral transmission. 
+A passage where such a simple transmission error may have occurred 
+can be found in the DantabhËmi Sutta, which proceeds from satipa††håna 
+practice without giving room to thought directly to the attainment of 
+the second jhåna.36 This passage strikes an unfamiliar note, since it 
+seems to imply that the practice of thought-free satipa††håna corre-
+sponds to the attainment of the ﬁrst jhåna.  
+Though satipa††håna is an important foundation for the development 
+of the jhånas,37 in itself satipa††håna does not constitute a form of jhåna. 
+A central characteristic of satipa††håna meditation is to be aware of the 
+changing nature of phenomena,38 whereas attainment of a jhåna re-
+quires concentration on a single and stable object. Therefore one would 
+not expect that practice of satipa††håna meditation enables the direct 
+                                                        
+34  MN 39 at MN i 271,16 and MN 40 at MN i 281,10; and their parallels MÓ 182 at T i 
+724c25 and MÓ 183 at T i 725c24. 
+35  MN 6 at MN i 33,16 and its parallel MÓ 105 at T i 595c23. 
+36  MN 125 at MN iii 136,26: må ... vitakkaµ vitakkes¥ ti! so vitakkavicårånaµ vËpasamå ... 
+dutiyajjhånaµ ... upasampajja viharati. 
+37  The foundational role of satipa††håna for deeper levels of concentration can be seen 
+e.g. in DN 18 at DN ii 216,12 or in S 52:6–24 at SN v 299–305. 
+38  MN 10 at MN i 56,30: samudayadhammånupass¥ vå ... viharati, vayadhammånupass¥ vå ...  
+
+
+
+<!-- Page 16 -->
+
+ANÓ LAYO 
+ 
+104 
+attainment of the second jhåna, without any need to develop the ﬁrst 
+jhåna. 
+In view of this it comes as no surprise when one ﬁnds that the 
+Madhyama Ógama counterpart to the DantabhËmi Sutta proceeds from 
+thought-free satipa††håna practice to the attainment of the ﬁrst jhåna, 
+before turning to the remaining jhånas.39 
+Perhaps the occurrence of the word vitakka in the passage on sati-
+pa††håna without thought led to a lapse on the part of the reciter(s) of 
+the discourse, who continued straight away with the calming of vitakka 
+mentioned at the outset of the standard descriptions of the second 
+jhåna, thereby unintentionally dropping the ﬁrst jhåna in between. 
+Another case of accidental loss of text appears to occur in the Chabbi-
+sodhana Sutta, which describes how to check someone’s claim to be fully 
+awakened.40 In spite of announcing a six-fold purity in its title, the Chab-
+bisodhana Sutta presents only ﬁve aspects of the purity of an arahant. The 
+Pali commentary notes this inconsistency and quotes an opinion from 
+the ‘elders living on the other side of the sea’,41 who explain that the 
+purity of an arahant’s attitude towards the four nutriments should also 
+be taken into account. This explanation is puzzling, since though in this 
+way a sixth type of purity will indeed be obtained, the Chabbisodhana 
+Sutta does not refer at all to the four nutriments. 
+The Madhyama Ógama parallel to the Chabbisodhana Sutta resolves 
+this puzzle, as in addition to the ﬁve types of purity treated in the Pali 
+version, it also describes an arahant’s detached attitude towards the four 
+nutriments.42 Thus, unlike the Pali version, the Madhyama Ógama dis-
+course does indeed treat a six-fold purity. 
+Judging from the title of the Pali version, it seems safe to conclude 
+that a similar treatment of the four nutriments originally was part of the 
+Chabbisodhana Sutta’s exposition. The ‘elders living on the other side of 
+the sea’, mentioned in the Pali commentary, were apparently still famil-
+iar with the earlier version that included the four nutriments, a treat-
+                                                        
+39  MÓ 198 at T i 758b25. A translation of this discourse is under preparation for Buddhist 
+Studies Review 23.1. 
+40  MN 112 at MN iii 29–37. 
+41  Ps iv 94: parasamuddavåsittherå. 
+42  MÓ 187 at T i 732b14. 
+
+
+
+<!-- Page 17 -->
+
+PALI DI SCOU RSES A ND THEIR CHINESE PARA LLELS II 
+105 
+ment lost at some point before or during the transmission of the Pali 
+discourse from India to Sri Lanka. 
+The variations found between Majjhima Nikåya discourses and their 
+Chinese parallels, selected for the present article, conﬁrm the truth of a 
+statement made in the Sandaka Sutta, according to which oral tradition, 
+anussava, may be well remembered or else not well remembered.43 The 
+same applies all the more to the discourses found in the Chinese Óga-
+mas, which in addition to transmission errors also sometimes suffer 
+from translation errors. Since, however, the purpose of the present arti-
+cle is to highlight the potential of the Chinese Ógamas as a corrective 
+and supplement to the Pali discourses, I have selected only cases that 
+illustrate this potential. 
+Thanks to the efforts of the ancient reciters and translators we have a 
+vast corpus of material at our disposal that enables us to place different 
+versions of a discourse side by side. Such comparisons conﬁrm much of 
+what a study of only one tradition will yield, in addition to which they 
+bring out some details with increased clarity. The resultant vision of 
+early Buddhism could be illustrated with the example of a one-eyed 
+man whose second eye had its sight restored. What he now sees with 
+both eyes is the same as what he saw earlier with only one eye, yet his 
+vision has become broader and more precise. 
+ 
+ANÓLAYO 
+Bodhi Monastery 
+ 
+Abbreviations 
+AN 
+A!guttara Nikåya 
+Ps 
+PapañcasËdan¥ 
+Dhs 
+Dhammasa"gaˆ¥ 
+SÓ 
+Saµyukta Ógama 
+DN  
+D¥gha Nikåya 
+SN 
+Saµyutta Nikåya 
+EÓ 
+Ekottarika Ógama 
+T 
+TaishØ 
+MÓ 
+Madhyama Ógama 
+Vibh  
+Vibha"ga 
+MN 
+Majjhima Nikåya 
+ 
+ 
+                                                        
+43  MN 76 at MN i 520,6: sussutam pi hoti dussutam pi hoti. 
+
+
+
+<!-- Page 18 -->
+
+
+
+
+<!-- Page 19 -->
+
+ 
+Buddhist Studies Review 22 (2005), 107–30 
+ 
+HOW LONG IS A LIFETIME ? 
+BUDDHADÓSA’S AND PHRA PAYUTTO’S 
+INTERPRETATIONS OF PAÈICCASAMUPPÓDA 
+IN COMPARISON* 
+ 
+MARTIN SEEGER 
+ 
+Introduction 
+lthough it is questionable how far Buddhist beliefs in the literal 
+existence of rebirth, hells and heavens are still relevant for Thai 
+modern religious life,1 it is undeniable that, despite urbanization, ad-
+vanced education, globalization, and modernisation, these beliefs are 
+still widespread in contemporary Thailand. A survey of 1,482 students at 
+six major Bangkok universities conducted in 1996 revealed that 33.1% 
+of the surveyed students believe in a rebirth that is qualitatively in ac-
+cordance with the kamma (Pali) performed in the current life; 21.9% of 
+the students polled said that they believed in the literal existence of 
+hells and heavens in which one will be reborn in accordance with the 
+moral quality of one’s deeds (kamma) in this current life. And even 
+more interestingly, according to this survey it seems that belief in literal 
+rebirth, heavens and hells is more ubiquitously held by urban raised, 
+highly educated Thais than by highly educated Thais with a rural up-
+bringing.2 This shows that according to this study in the case of Thai-
+                                                        
+*  This paper is partly a more or less literal translation from parts of my PhD dissertation 
+(Seeger 2005). Many parts, though, are the outcome of more recent ideas and re-
+search. I would like to express my deepest thanks to the following persons for their 
+very valuable critique on this paper: Phra Charles Nirodho (Wat Umong, Chiang Mai), 
+Prof. Lambert Schmithausen (University of Hamburg), Prof. Mark Williams (Univer-
+sity of Leeds), Dr Mudagamuwe Maithrimurthi (University of Leipzig), Dr Mike Parn-
+well (University of Leeds), and Dr Rupert Gethin (University of Bristol). 
+1  Phra Phaisan Wisalo 2546, 96. 
+2  Kanittha Siphaibun and Kiti Yingyongcaisuk 2539, 22–61. 
+A
+
+
+
+<!-- Page 20 -->
+
+SEEGER 
+ 
+108 
+land it cannot be inferred that urbanization and globalization are nec-
+essarily leading to a demythologized worldview, at least amongst better-
+educated youths. A recently conducted survey which was targeted at 
+Thai students who currently study in the UK conﬁrms the outcome of 
+this study. Out of thirty-six respondents to a questionnaire which I sent 
+out via email, twenty-seven said that they believed in a next life. And 
+twenty-four students replied that they believed in the literal existence of 
+heavens and hells.3 
+Another important point which can be conjectured from the two sur-
+veys is the enormous diversity of beliefs and interpretations of Buddhist 
+doctrines in modern Thai Buddhism. This is also corroborated by the 
+apparent religious kaleidoscope of the many and multifarious move-
+ments and belief systems in contemporary Thai Buddhism. Although 
+Thai Buddhism was characterized by its enormous religious diversity 
+before the 1902 Sa!gha Act heralded the ‘the beginning of a govern-
+ment policy favouring religious as well as cultural homogenization’,4 it 
+seems that its current fragmentation into diverse movements and inter-
+pretations which was fostered by the rapid economic growth since the 
+1960s is unprecedented in Thai history.5 
+This paper seeks to explore how the two foremost Buddhist thinkers 
+of modern Thailand, Buddhadåsa Bhikkhu (1906–1993) and Phra Pa-
+yutto (1939–) interpret the Theravåda Buddhist canon with regard to 
+the beliefs of rebirth, heaven and hells. As has been shown elsewhere,6 
+the Theravåda Buddhist canon, the Tipi†aka, plays a crucial role as a 
+reference and legitimating source in current Thai Buddhist debates 
+about the ‘Truth’, national and religious identity, gender issues, and 
+ethical norms. And in connection with these debates, the interpretation 
+of canonical text is essential, since the ascertainment of the original 
+meaning and authenticity, and thereby the authority, of the texts of the 
+Tipi†aka is very closely connected to the interpretative approach. 
+                                                        
+3  Even in the West the belief in reincarnation is held by a ‘signiﬁcant minority’, e.g. 
+according to the 1990 European Value Survey (EVS) 24% of the British belief in rein-
+carnation (Walter 2001, 21). 
+4  Kamala Tiyavanich 1997, 254. 
+5  Aphinya Fuengfusakun 2541, 4; Phra Phaisan Wisalo 2546, 147–57. 
+6  Seeger 2005. 
+
+
+
+<!-- Page 21 -->
+
+HOW LONG IS A LIF ETI M E ? 
+109 
+There are two tasks required to guarantee the continuity and rele-
+vance of Theravåda Buddhist tradition. In order to become a normative, 
+formative and, thereby, relevant text, the text surface of the canon must 
+be preserved and transmitted in its most original form so that the his-
+torical connection to the Buddha and his teachings will not be inter-
+rupted. At the same time, however, in a process of interpretation the 
+‘timeless truths’ which are embedded in these texts have to be distilled 
+from its historically grown surface and subsequently accommodated to 
+current socio-cultural reality. In Thailand, the canonical requirements 
+of preservation of text surface with the concomitant accommodation of 
+text content have recently led to various debates about the ‘right’ tex-
+tual approach, as, for example, in the cases of women’s ordination in 
+the Theravåda tradition, the teachings of the Wat Phra Thammakai 
+temple in Pathum Thani, or the contentious text-criticism of Phra Mano 
+Mettanando. Since I have already investigated this elsewhere,7 this arti-
+cle will delve neither into the mechanism, debates and ideas of securing 
+and ascertaining the text authenticity, nor into the debates as to how to 
+approach the text hermeneutically. The aim, here, is to compare the 
+two different readings of canonical teachings which are connected to 
+the core teaching of rebirth. In this way, I shall investigate how the 
+‘timeless truths’ of the ancient canonical texts can respond to modern 
+beliefs and context. By comparing the interpretations of Buddhadåsa 
+with those of Phra Payutto, it will be argued that the latter’s way of 
+teaching canonical Buddhism can be characterized as inclusive and 
+comprehensive and as an attempt to demonstrate the coherence, doc-
+trinal richness and ﬂexibility of canonical and post-canonical texts. 
+Buddhadåsa’s and Phra Payutto’s Interpretations of 
+pa†iccasamuppåda 
+Arguably, there is no other Buddhist tenet where the concept of rebirth 
+appears in a more elaborate context than in the teaching of ‘Dependent 
+Origination’ (pa†iccasamuppåda). This teaching certainly belongs among 
+the most essential and peculiar doctrines of Buddhism. And at the same 
+time, it is undoubtedly one of those Buddhist principles which poses the 
+                                                        
+7 Seeger 2005. 
+
+
+
+<!-- Page 22 -->
+
+SEEGER 
+ 
+110 
+biggest difﬁculties and challenges for understanding and interpretation. 
+This may be explained by the fact that ‘apart from stating the formula 
+[of pa†iccasamuppåda] and using it in a variety of contexts, the earliest 
+[Buddhist] texts give very little explanation of how the formula is to be 
+understood’.8 It is only in later text layers of the Theravåda tradition 
+where we come across various more or less detailed explanations of this 
+important teaching, as in the texts of the Abhidhammapi†aka or in the 
+more recent texts of the commentarial and post-commentarial 
+Theravåda literature, especially the inﬂuential Visuddhimagga that was 
+composed by Buddhaghosa. The commentaries (a††hakathå) and the 
+Visuddhimagga, however, were compiled or composed, respectively, rela-
+tively late, namely in the ﬁfth century ce. The endeavour to grasp the 
+‘original’ meaning of pa†iccasamuppåda has thus led to many different 
+interpretations, speculations and theories in the ﬁeld of both modern 
+Western and Thai Buddhist studies. Indeed, the Pali canon has it that 
+the Buddha already warned his disciple Ónanda of the profundity of 
+pa†iccasamuppåda after the latter had characterised this tenet as ‘very 
+clear’ (uttånakuttånaka):  
+Don’t say this, Ónanda. Don’t say this, Ónanda. Pa†iccasamuppåda is profound 
+and profound in its appearance. Ónanda, it is because of the not-
+understanding and not-penetrating of this teaching that beings, like a tan-
+gled thread, like a knotted ball of thread, like a weave of grass and rushes, do 
+not escape from the low regions, painful existences and round of rebirths.9 
+In fact, the spiritual comprehension of pa†iccasamuppåda is tanta-
+mount to awakening or the attainment of nibbåna, i.e. the ﬁnal and ul-
+timate goal of Buddhist soteriology (M i 190–91). The objectives of this 
+teaching are to show how the arising (samudaya) and cessation (nirodha) 
+of suffering (dukkha) take place. 
+In the canonical texts pa†iccasamuppåda occurs in various forms. In its 
+complete form, though, it consists of twelve components:  
+ 
+                                                        
+8  Gethin 1998, 149. 
+9  D ii 55 (= S ii 92): må h’ evaµ, Ónanda, avaca, må, Ónanda, avaca. gambh¥ro cåyaµ, 
+Ónanda, pa†iccasamuppådo gambh¥råvabhåso ca. etassa, Ónanda, dhammassa ananubodhå 
+appa†ivedhå evam ayaµ pajå tantåkulakajåtå gulåguˆ†hikajåtå muñjababbajabhËtå apåyaµ 
+duggatiµ vinipåtaµ saµsåraµ nåtivattati. 
+
+
+
+<!-- Page 23 -->
+
+HOW LONG IS A LIF ETI M E ? 
+111 
+• 
+With (1) ignorance (avijjå) as condition (paccaya), (2) volitional and af-
+fective impulses (saµkhåra); 
+• 
+with volitional and affective impulses as condition, (3) consciousness (vi-
+ññåˆa); 
+• 
+with consciousness as condition, (4) name and form (nåma-rËpa); 
+• 
+with name and form as condition, (5) the six senses (sa¬åyatana); 
+• 
+with the six senses as condition, (6) contact (phasso) 
+• 
+with contact as condition, (7) feeling (vedanå); 
+• 
+with feeling as condition, (8) craving (taˆhå); 
+• 
+with craving as condition, (9) clinging (upådåna); 
+• 
+with clinging as condition, (10) becoming (bhava); 
+• 
+with becoming as condition, (11) birth (jåti); 
+• 
+with birth as condition, (12) aging and dying (jarå-maraˆa), sorrow, 
+lamentation, pain, mental suffering and infuriation. 
+ 
+While this form seeks to show the process of the origination of suffer-
+ing, there is another form which explains the cessation of it. In this lat-
+ter form the word paccayå (‘with … as condition’) is replaced by the 
+word nirodhå (‘with the cessation of …’). 
+According to the established Theravåda Buddhist explanation, these 
+twelve components of pa†iccasamuppåda comprise three lifetimes, i.e. 
+while ignorance and volitional and affective impulses are positioned in 
+one lifetime, consciousness, name and form, the six senses, contact, 
+feeling, craving, clinging and becoming are thought to take place in a 
+second lifetime. However, the remaining constituents – birth, aging and 
+dying together with sorrow, lamentation, pain, mental suffering and 
+infuriation – occur in another, third lifetime. In order to simplify mat-
+ters, this explanation of pa†iccasamuppåda will be called the ‘Three-
+Lifetimes Theory’ (TLT). 
+In a lecture which he gave in his monastery on the 12 of June 1971, 
+Buddhadåsa criticised this TLT with sharp words. He compared this 
+presentation of pa†iccasamuppåda with ‘cancer, an incurable tumour of 
+Buddhist scholarship [pariyatti]’.10 For Buddhadåsa, this interpretation 
+is ‘un-Buddhistic’, as it is not coherent with the other canonical teach-
+                                                        
+10  Buddhadåsa 2538, 123. 
+
+
+
+<!-- Page 24 -->
+
+SEEGER 
+ 
+112 
+ings. According to Buddhadåsa, however, coherence is an essential con-
+dition for ascertaining the authenticity of original meaning.11 
+Buddhadåsa gives several reasons for his assertion: the TLT is contra-
+dictory to fundamental characteristics of Buddhist teaching which – ac-
+cording to the Påli canon – are that the Buddhist teaching ‘can be seen 
+by oneself’ (sandi††hika), ‘is timeless’ (akålika) and ‘is to be directly ex-
+perienced by the wise’ (paccattaµ veditabbo viññËhi).12 Buddhadåsa 
+maintains that by dismantling it into three lifetimes pa†iccasamuppåda 
+cannot be practised and loses, therefore, all these three basic character-
+istics. For this reason, pa†iccasamuppåda is in this three-lifetimes explana-
+tion ‘completely useless’ and has been reduced to a ‘playful polemic’.13 
+In addition, Buddhadåsa holds that the TLT leads to an ‘extreme 
+view’ (antagåhika-di††hi) and to the ‘view of eternalism’ (sassata-di††hi), 
+which postulates a permanent self (attå). And, again, these two views 
+contradict a very basic Buddhist teaching, namely the teaching of Not-
+Self (anattå). Buddhadåsa says: ‘The Buddha, [however] taught 
+[pa†iccasamuppåda], precisely in order to destroy the antagåhikadi††hi and 
+the sassatadi††hi.’14 Buddhadåsa sees another argument for the inconsis-
+tency of the TLT with the main body of original Buddhist teaching in 
+the biography of the Buddha: if a literal interpretation of pa†iccasamup-
+påda was correct, the Buddha would have died immediately after his 
+awakening, as the elimination (nirodha) of avijjå brings about the ‘cessa-
+tion of name and body’ (nåmarËpa-nirodha). And the ‘cessation of name 
+and body’ in this interpretation would imply death. But since the Bud-
+dha was alive for another forty-ﬁve years after his destruction of igno-
+rance, the literal explanation of pa†iccasamuppåda can ‘deﬁnitively’ not 
+be correct.15 
+According to Buddhadåsa a semantic analysis of the term pa†icca-
+samuppåda would give further weight to his proposition of the faultiness 
+                                                        
+11  Buddhadåsa 2538, 17–18. Buddhadåsa refers here to the famous four mahåpadesa in 
+the Mahåparinibbåna Sutta (D ii 123–126; Lamotte 1947, 218–22; Bareau 1970, 222–
+39; v. Hinüber 2000, 6). 
+12  See M i 37; AN iii 285. 
+13  Buddhadåsa 2538, 38. 
+14  Buddhadåsa 2538, 91. 
+15  Buddhadåsa 2538, 97. 
+
+
+
+<!-- Page 25 -->
+
+HOW LONG IS A LIF ETI M E ? 
+113 
+of the TLT: ‘the word pa†icca means “depending on”, but it is a “de-
+pending on” in the sense of an uninterrupted relatedness’,16 which 
+would not be possible if the components of pa†iccasamuppåda were disas-
+sembled in three lifetimes. 
+Buddhadåsa consequently summarizes his multifarious criticism of 
+the TLT by using a canonical dichotomy and says that this reading of 
+pa†iccasamuppåda contradicts the original meaning in terms of both the 
+letter (byañjana) and meaning (attha).17 For Buddhadåsa 
+[The TLT causes] great harm, as we lose our freedom to control our mental 
+deﬁlements [kilesa] and [our] action [kamma], since both are continuously in 
+an existence [jåti] other than our [current one]. This life [jåti] is the vipåka 
+[i.e. the result of former lives], we ourselves are vipåka. We who we are sitting 
+here are vipåka. The origin of this vipåka is the kamma and the kilesas of that 
+existence, the previous existence. And, therefore, the kilesas and the kamma 
+of this life will appear, as a result, as vipåka in that next life.18 
+Buddhadåsa teaches how the canonical texts have to be read with the 
+‘right’ hermeneutical approach, so that the authentic meaning can be 
+grasped.19 The Buddha, explains Buddhadåsa, taught on two levels of 
+language: while he used the ‘everyday language’ when he was teaching 
+moral behaviour to ordinary people, he talked in the ‘dhamma lan-
+guage’ when he was expounding the ‘higher truths’ (paramattha) to 
+people with a high potential of spiritual apprehension.20 
+By using this hermeneutical concept Buddhadåsa sees himself able to 
+ascertain the ‘real’ meaning of pa†iccasamuppåda. In this way, birth or 
+jåti does not denote ‘the birth from the belly of the mother’ or that ‘af-
+ter having entered the cofﬁn, one is reborn anew’.21 The real meaning 
+of birth is rather the arising of the fabricated feeling ‘I’ (tuaku, T.): 
+‘Bhava or jåti in the dhamma language take place several times a day. 
+That means that when an ‘I’ (tuaku) or a ‘mine’ (khongku, T.) arise 
+                                                        
+16  Buddhadåsa 2538, 121. 
+17  Buddhadåsa 2538, 72. 
+18  Buddhadåsa 2538, 91. 
+19  See Gabaude 1988. 
+20  Literally: ‘people with little dust in their eyes’. 
+21  Buddhadåsa 2538, 109, 111. 
+
+
+
+<!-- Page 26 -->
+
+SEEGER 
+ 
+114 
+once, bhava and jåti become manifest once.’22 These ‘I’ and ‘mine’ are 
+therefore  
+a mental birth, which follows a contact (phassa). Wherever a phassa that is 
+constituted by ignorance takes place, there is a mental birth. If, for example, 
+the eye perceives a form and ignorance is involved, one is delighted in this 
+form and so forth. This delightedness causes the arising of craving (taˆhå), 
+i.e. a feeling (vedanå) causes taˆhå – a mind (citta) that feels craving. Here, 
+we have a craving person. And then the clinging (upådåna) onto an ‘I’ arises: 
+I want that, I want this, I’ve got that. If upådåna arises in this way, one calls 
+this ‘getting born’, that means [the concept of] an individual is born!23 
+According to Buddhadåsa’s reading, pa†iccasamuppåda is occurring ‘here 
+and now’ and is a ‘mental process that leads to suffering, and happens 
+quickly and strongly, like a ﬂash, and takes place in our daily life’.24 
+Buddhadåsa blames the historical loss of the hermeneutic dichotomy 
+of everyday language/dhamma language for the misunderstanding of 
+the ‘real’ meaning of pa†iccasamuppåda. He surmises that this perversion 
+of the original sense of pa†iccasamuppåda began after the Third Re-
+hearsal, i.e. about 300 years after Buddha’s passing away. The oldest 
+traceable testimony of this tendency of misapprehension, though, is the 
+famous and inﬂuential compendium of Theravåda Buddhist doctrine, 
+the Visuddhimagga, which was composed by Buddhaghosa in the ﬁfth 
+century. Buddhadåsa’s criticism of Buddhaghosa, who is the most im-
+portant commentator in Theravåda history is severe: he accuses him of 
+having misinterpreted the original meaning of pa†iccasamuppåda and, by 
+doing this, making this important Buddhist tenet Brahmanistic.25 
+For his denial of the traditional TLT and for his interpretation of 
+pa†iccasamuppåda as a hic and nunc occurring phenomenon, Buddhadåsa 
+was attacked from various sides. This happened amongst other things 
+because his disapproval of the TLT was considered as a negation of 
+physical rebirth or as nihilism (natthika-di††hi). For many Thai Buddhists, 
+Buddhadåsa’s metaphorical reading of jåti implied a blatant undermin-
+                                                        
+22  Buddhadåsa 2538, 69. 
+23  Buddhadåsa 2537, 286. See also Gabaude 1988, 194. 
+24  Buddhadåsa 2538, 33. 
+25  Buddhadåsa 2538, 93. 
+
+
+
+<!-- Page 27 -->
+
+HOW LONG IS A LIF ETI M E ? 
+115 
+ing of their traditional Buddhist beliefs.26 In addition, Buddhadåsa’s 
+interpretation was perceived as being arbitrary and heterodox.27 
+In his magnum opus Buddhadhamma28 Phra Payutto points out to the 
+critics of Buddhadåsa that the ‘one-moment’ or ‘daily-life’ interpreta-
+tion of pa†iccasamuppåda is absolutely justiﬁable from a canonical point 
+of view. At the same time, however, Phra Payutto does not agree with 
+Buddhadåsa’s assertion that the TLT is a perversion of authentic Bud-
+dhist meaning. For, according to Phra Payutto, the TLT can be legiti-
+mated by the suttas.29 What Phra Payutto criticizes in this connection is 
+not the interpretation itself but the one-sided emphasis on the TLT by 
+the Theravåda tradition. According to Phra Payutto this over-
+emphasizing of the TLT has completely eclipsed the daily-life explana-
+tion. He agrees with Buddhadåsa that this extensive accentuation of 
+TLT is a result of the enormous inﬂuence of the Visuddhimagga which 
+leaves the daily-life 
+interpretation of pa†iccasamuppåda entirely 
+unmentioned. Phra Payutto goes on to explain that the author of the 
+Visuddhimagga, Buddhaghosa, is also responsible for the composition of 
+the commentarial text, the Sammohavinodan¥, which Buddhaghosa – ac-
+cording to his own statement – has compiled from the ‘old commentary 
+texts’ (poråˆa††hakathå).30 In a nearly identical way to the Visuddhimagga, 
+the Sammohavinodan¥ explains the interpretation of pa†iccasamuppåda as 
+a three-lifetime phenomenon. But in contrast to the Visuddhimagga the 
+Sammohavinodan¥ also treats – although only very brieﬂy – pa†iccasamup-
+påda according to the one-moment interpretation. Phra Payutto’s pre-
+sumption that the complete omission of the daily-life explanation from 
+the Visuddhimagga and the only brief mention in the Sammohavinodan¥ 
+indicate that the daily-life interpretation had already disappeared in 
+scholarly 
+circles 
+during 
+the 
+time 
+of 
+Buddhaghosa 
+conﬁrms 
+Buddhadåsa’s considerations. However, Phra Payutto does not identify 
+the loss of the hermeneutic everyday-language/dhamma-language as a 
+                                                        
+26  Sathianphong Wannapok 2532, 41–44; Jackson 1988, 143–50; Olson 1989, 337; Su-
+wanna Satha-anand 1990, 398–99. 
+27  Phra Thammapidok 2538a, 140; interview with Phra Payutto on 20 November 2002. 
+28  Phra Thammapidok 2538a. 
+29  Interview with Phra Payutto on 20 November 2002; Phra Thammapidok 2538a, 107. 
+30  Vibh-a 1. 
+
+
+
+<!-- Page 28 -->
+
+SEEGER 
+ 
+116 
+reason for this, but rather sees the complexity of this teaching as re-
+sponsible.31 
+For Phra Payutto, the TLT and the one-moment explanation of 
+pa†iccasamuppåda are actually one and the same thing: 
+[I]n order to understand a matter really, it is necessary to see its components 
+… The consideration of the smallest constituents is an analytical method, 
+[that means that things are] deconstructed [vibhajja] so that we can see 
+[their] components … At the same time we have to connect the components 
+in order to describe them in accordance with the condition [sabhåva] of hu-
+man existence. That means that when we conceive the interrelated micro 
+components occurring in every moment in connection, a long interval will 
+come into existence.32 
+In reply to Buddhadåsa’s objection that the TLT is implicitly postulat-
+ing a permanent self, Phra Payutto states that this is not necessarily the 
+case: 
+The life process functions according to the law of the three characteristics of 
+being [tilakkhaˆa], which is a stable law of nature. [The three characteristics 
+of being] are impermanence [aniccatå], suffering [dukkhatå] and not-self 
+[anattatå]. These become manifest in jåti, jarå, and maraˆa, both in their 
+coarse, superﬁcial and profound meaning … The life continuum which pro-
+ceeds according to the natural law and changes according to causes and 
+conditions, while not having a permanent essence, is nevertheless iden-
+tiﬁable as a continuum or process that differs from other continua or proc-
+esses. This life continuum is called conventional self.33 
+In order to illustrate this compatibility of continuity and not-self 
+[anattå], Phra Payutto gives a metaphor in which he compares the life 
+continuum of an individual with a river. Compared with other rivers this 
+river has individual characteristics. This river can therefore be named 
+                                                        
+31  Phra Thammapidok 2538a, 140–42. Buddhaghosa admits (Vism 522) that the expla-
+nation of pa†iccasamuppåda poses a problem for him: ‘Today I would like to explain the 
+teaching of Dependency, [although] I can’t gain ground, as if submerged in a sea.’ 
+(vattukåmo ahaµ ajja paccayåkåravaˆˆaµ | pati††hitaµ nådhigacchåmi ajjhogå¬ho va såga-
+raµ.) 
+32  Interview with Phra Payutto on 20 November 2002. 
+33  Phra Thammapidok 2538a, 91–92. 
+
+
+
+<!-- Page 29 -->
+
+HOW LONG IS A LIF ETI M E ? 
+117 
+and is inﬂuenced by eternal factors with which it interacts and builds up 
+its individuality.34 
+In this way the canonical words jåti, jarå, and maraˆa can refer to a 
+physical or literal birth, but also to a mental birth which occurs in mind-
+moments. In the second book of the Abhidhammapi†aka, the Vibha"ga, 
+the explanation of pa†iccasamuppåda is divided into two sections: the 
+suttantabhåjan¥ya, which gives the TLT, and the abhidhammabhåjan¥ya, in 
+which the one-moment interpretation is expounded. In addition, Phra 
+Payutto sees the daily-life explanation as legitimized by various suttas.35 
+Moreover, according to him the buddhavacana (words of the Buddha) 
+which corroborate the TLT can also be interpreted in the sense of the 
+daily-life interpretation.36 
+To Buddhadåsa’s criticism that with the traditional division of 
+pa†iccasamuppåda into three life times the criteria of timelessness and 
+opportunity of direct experience cannot be safeguarded, Phra Payutto 
+replies that the TLT is solely an explanation with a didactic objective 
+that aims in its form to make reality comprehensible: ‘We are not able 
+to expound all natural realities [sabhåva] at the same time … We there-
+fore have to proceed step by step… and by doing this we explain things 
+in a way so that they are comprehensible.’37 
+According to Phra Payutto the various constituents of pa†iccasam-
+uppåda are not disconnected in the TLT, but remain connected in 
+causal interdependence. The formal sequence of the twelve compo-
+nents and the division into three lifetimes do not mean that 
+pa†iccasamuppåda must necessarily operate along a chronological se-
+quence. That is to say that the three existences (jåti) of the TLT overlap. 
+In this way, the current life is at the same time the future life of the past 
+life and also the past life of the future life. Thus, if ignorance (avijjå) 
+and volitional and affective impulses (saµkhåra) are located in a former 
+life, it does not imply that these are the only factors present. All the 
+                                                        
+34  Phra Thammapidok 2538a, 210. 
+35  Cetanåsutta (S ii 65 f.), Dukkhanirodhasutta (S ii 71–72) and the Lokanirodhasutta (S ii 
+73–74). 
+36  Phra Thammapidok 2538a, 107; interview with Phra Payutto on 20 November 2002. 
+37  Interview with Phra Payutto on 20 November 2002. 
+
+
+
+<!-- Page 30 -->
+
+SEEGER 
+ 
+118 
+other ten factors of pa†iccasamuppåda can also be present at the same 
+time. Graphically, this concept can be depicted as follows: 
+ 
+ 
+ 
+ 
+former life  
+current life  future life  
+ 
+former life 
+current life 
+future life  
+ 
+ 
+ 
+former life 
+current life 
+future life 
+ 
+This shows that, according to Phra Payutto, pa†iccasamuppåda in its di-
+vision into three lifetimes has a conceptual, analytical usefulness.38 Ap-
+prehended in this way, the TLT is an explanation of ‘natural realities 
+[sabhåva]… [that is,] of how things take place … As things have been 
+taking place, in this way things are still taking place’.39 And in this way 
+this law can potentially be experienced by the human mind at any time 
+and, therefore, fulﬁl the criterion of ‘timelessness’ (akålika). 
+But Buddhadåsa’s criticism of the traditional interpretation is not lim-
+ited to the TLT, which he believes to be a post-canonical development. 
+Buddhadåsa distinguishes between three kinds of interpreting 
+pa†iccasamuppåda: 
+• 
+the (‘authentic’) daily-life explanation, 
+• 
+the (‘faulty’) TLT, and 
+• 
+the explanation which is given in the Abhidhammapi†aka, the third 
+division of the Pali canon. 
+About the latter, Buddhadåsa says:  
+Nåma [name] and rËpa [form] arise and cease, arise and cease, arise and 
+cease, arise and cease in every mental moment [!"#$%&'()]. This is a level [of 
+explanation of pa†iccasamuppåda] about which no one knows and no one 
+wants to know and about which it is not necessary that you know … That is 
+                                                        
+38  See Phra Thammapidok 2538a, 102–07. 
+39  Interview with Phra Payutto on 20 November 2002. 
+
+
+
+<!-- Page 31 -->
+
+HOW LONG IS A LIF ETI M E ? 
+119 
+the language of the Abhidhamma, which exceeds the normal needs … The 
+frequency is so high that we are not aware that we are born, cease, are born, 
+cease, are born, cease. We have to rely on this kind of study of the mind so 
+that we know that nåma and rËpa, i.e. an individual, are born and cease, are 
+born and cease with such a high frequency in every mind moment, and even 
+quicker than the frequency of electricity, which we use day-to-day. This is a 
+kind of being born and ceasing, being born and ceasing, which has nothing 
+to do with pa†iccasamuppåda … Thus, it is excessive knowledge in the inﬂated 
+manner of the Abhidhamma.40 
+While Buddhadåsa considers the Abhidhamma explanation to be ‘ex-
+cessive’, ‘inﬂated’ and ‘not useful’, since it cannot be put into practice, 
+Phra Payutto admits that this explanation cannot obviously be found in 
+the suttas, but is a work of the authors of the Abhidhamma who ‘had se-
+lected the explanations [of pa†iccasamuppåda] in the suttas in order to 
+connect them to one complete systematic structure’.41 None the less, 
+Phra Payutto stresses the usefulness and importance of the Abhidhamma 
+explanation of pa†iccasamuppåda and perceives it as a testimony for the 
+expertise of the authors of the Abhidhamma: ‘The people who were able 
+to compose the Abhidhamma … must have had a really high familiarity 
+with the suttas.’42 Phra Payutto sees in the Abhidhamma explanation of 
+pa†iccasamuppåda an example of the ﬂexibility of Buddhist teaching, 
+which is able to respond to the individual situation of the interlocutor 
+without having to give up its essential structure.43 
+From the above, it has become clear that Phra Payutto – in contrast to 
+Buddhadåsa – emphasizes that pa†iccasamuppåda is primarily a descrip-
+tion of a natural process and, therefore, not a teaching instruction for 
+immediate application (pa†ipatti). For, ‘our duty is to know [pa†iccasam-
+uppåda].’44, since pa†iccasamuppåda is ‘a natural process [#*&+,-#.* 
+$/01**23.)(] and shows a natural phenomenon. It is not a path of 
+                                                        
+40  Buddhadåsa 2538, 81–82. 
+41  Inteview with Phra Payutto on 20 November 2002. 
+42  Interview with Phra Payutto on the 20 November 2002. In contrast to this, it seems 
+that for Buddhadåsa the Abhidhammapi†aka does not have a particularly important sote-
+riological value. He says that the Abhidhammapi†aka could be thrown into the sea and 
+the world would miss nothing (Gabaude 1988, 164). 
+43  Interview with Phra Payutto on 20 November 2002. 
+44  Phra Thammapidok 2538a, 570; see also: Phra Thammapidok 2538a, 121. 
+
+
+
+<!-- Page 32 -->
+
+SEEGER 
+ 
+120 
+practice [pa†ipadå]’.45 Or in other words, within the Buddhist teaching, 
+pa†iccasamuppåda is located in the area of dhammadesanå (teaching of the 
+truth), which aims to establish ‘right view’ (sammådi††hi). This right view, 
+however, is ‘only’ one component of the Noble Eightfold Path which in 
+its entirety is the Buddhist practice.46 
+It seems that for Phra Payutto pa†iccasamuppåda of the Abhidhamma al-
+lows a more profound way of looking at reality than Buddhadåsa’s ‘oc-
+casional one-mind-moment interpretation’. According to Phra Payutto, 
+pa†iccasamuppåda shows that, due to their ignorance, human beings per-
+ceive conditioned things as essential and categorize them as ‘being, per-
+son, Self, we or he’. But, actually, all these things are only 
+streams consisting of small material and mental components, which are re-
+lated to and condition each other … The individual is a result of feelings, 
+thoughts, wishes, habits, prejudices, views, knowledge, understandings, be-
+liefs […], opinions, various feelings of value and so on. At any speciﬁc point 
+in time, all this is a result of cultural tradition, education and upbringing and 
+all the various reactions, which are happening in the mind and which are di-
+rected towards the environment and are taking place permanently … It does 
+not matter which point in time we take, it is always the case that the human 
+being is seeking a condition which has more happiness than the current 
+moment. Ordinary people, therefore, brush every current moment away or 
+break away from it. Every single moment is a life condition which is unbear-
+able. One wants to disappear, one wants his self to escape [from this condi-
+tion] in order to attain a condition which satisﬁes the needs. The will to get, 
+the will to be, and the will not to be, rotate the whole time in the daily life of 
+ordinary people. This is a process that is so subtly taking place in every mind-
+moment that human beings are not aware that life per se is a struggle in 
+every single moment: one wants to escape from the elapsed moment and to 
+seek for a means of satisfaction in a new life situation.47 
+                                                        
+45  Phra Thammapidok 2538a, 573. 
+46  Phra Thammapidok 2538a, 121. This does, of course, not mean that sammadi††hi is 
+not important in Phra Payutto’s eyes. Quite the opposite is the case. For Phra Payutto 
+emphasizes the great importance of sammadi††hi, which according to him plays a very 
+crucial role in the Buddhist practise: it is the starting point, the leader and the end in 
+the practise of the Noble Eightfold Path (see Phra Thammapidok 2538a, 613–16). 
+47  Phra Thammapidok 2538a, 123–24. 
+
+
+
+<!-- Page 33 -->
+
+HOW LONG IS A LIF ETI M E ? 
+121 
+Whereas Buddhadåsa seems to perceive little value in the preoccupa-
+tion with the subtler mind-processes, for Phra Payutto the study of the 
+mind on this level allows for a profound understanding of the workings 
+of mind which he deems necessary for the right comprehension of an-
+other very central teaching of Buddhism, namely that of kamma. Be-
+sides, according to Phra Payutto, this approach can be connected to the 
+ﬁndings of Freudian psychoanalysis, and thereby facilitate the under-
+standing of the complex kamma-tic processes.48 Phra Payutto explains 
+these two points as follows: ‘All the things we do, think about … do not 
+disappear. They are all in our mind. We only are not aware of it and 
+can’t recall them via our consciousness.’49 The actual results of our bod-
+ily, verbal and, most importantly, mental actions50 become mainly mani-
+fest in the unconscious mind which forms the huge part of the ‘ex-
+tremely complex human mind’. In Buddhism the conscious mind-level, 
+which is only the minor part of ‘the iceberg that has its greatest part 
+under water’, is called v¥thicitta. The subconscious mind, though, is 
+called bhava"ga.51 And it is precisely on this level of the unconscious 
+mind where we normally start to fabricate our own characteristic traits 
+which will cause us to experience or perceive the world in a certain way. 
+The bhava"ga mind therefore is the starting point for the creation of 
+both one’s individual fate (3&).#**2) and also of the fate of the whole 
+of society. For it is in the mind where the societal values originate.52 His 
+teachings about ‘social kamma’ which are based on this idea are a nov-
+elty in Thai society, where kamma has been taught and understood 
+mostly as an exclusively individual process. Phra Payutto’s emphasis on 
+the social aspects of such basic doctrines as kamma and pa†iccasamuppåda 
+                                                        
+48  Phra Payutto criticises various misunderstandings and confusions about the Buddhist 
+concept of kamma that are very widespread in Thailand (Phra Thammapidok 2538b, 
+3–12). It is e.g. often believed that kamma is a mysterious, wondrous power that ‘ﬂoats 
+in an unknown place, ambuscades in order to punish us’ (Phra Thammapidok 2538b, 
+76). For Phra Thammapidok’s own understanding of kamma, see Payutto 1996. 
+49  Phra Thammapidok 2538b, 82. 
+50  Kåya-kamma, vac¥-kamma and mano-kamma. 
+51  Phra Thammapidok 2538b, 80. 
+52  Phra Thammapidok 2538b, 78–79. 
+
+
+
+<!-- Page 34 -->
+
+SEEGER 
+ 
+122 
+could therefore have enormous implications for further interpretations 
+of the social and structural dimensions of the canonical doctrines.53 
+With regard to canonical passages which deal with ‘heavens and 
+hells’, when compared with his interpretation of pa†iccasamuppåda, Phra 
+Payutto seems to have an equivalent way of reading the texts. For he 
+reads them on three semantic levels: while admitting that according to 
+the Pali canon the existence of ‘heavens and hells’ as actual post mortem 
+planes of being cannot be denied, he explains that it is possible to in-
+terpret canonical mention of ‘heavens and hells’ in a metaphorical way, 
+as well. At the same time, however, Phra Payutto observes that although 
+the canonical mention of post mortem heavens and hells is quite ubiqui-
+tous, detailed descriptions of how these modes of being look are not 
+found very often in the canon.54 Descriptions of heavens and hells can 
+be most frequently found in the Khuddaka Nikåya. Phra Payutto, 
+though, cautions against understanding these depictions literally, since 
+they are to be understood as literary means which use pictures for di-
+dactic purposes. That means that already existing belief systems were 
+used in order to explain the Buddhist teaching. Later, in the commen-
+tarial literature, this approach has been expanded, became associated 
+with brahmanastic ideas and was developed into a complex cosmology.55 
+Phra Payutto surmises that the canonical terms for heavens and hells 
+designate concrete levels of existence (bhava, bhËmi) which are located 
+in ‘another dimension’ (4-5&2()(). According to Phra Payutto, canoni-
+cal terms like sahass¥lokadhåtu and dasasahass¥lokadhåtu (‘thousand fold 
+universe’ and ‘ten-thousand fold universe’ respectively) suggest the exis-
+tence of countless universes which have such subtle qualities that mean 
+they cannot be perceived with the human senses under normal circum-
+stances.56 
+                                                        
+53  Payutto 1996, 60–72; Suwanna Satha-anand 2002, 80–82; Phra Phaisan Wisalo 2546, 
+447–455. 
+54  Especially the Bålapaˆ!itasutta (M iii 163–78) and the DevadËtasutta (M iii 178–87) 
+give detailed accounts of heavens and hells. Both suttas have had a great inﬂuence on 
+descriptions of heavens and hells in the later literature. 
+55  The Thai-Buddhist text Traiphum Phra Ruang is a very good testimony to this tendency 
+(Reynolds & Reynolds 1982). 
+56  Interview with Phra Payutto on 15 July 2002. 
+
+
+
+<!-- Page 35 -->
+
+HOW LONG IS A LIF ETI M E ? 
+123 
+With regard to the metaphorical level, Phra Payutto discriminates be-
+tween a coarse state of mind and very subtly proceeding mind processes 
+which  
+means the mental state, which is the permanent perception or reaction to 
+perceived things in every moment … it is the permanent fabrication and col-
+lection on a very subtle level. Its results become manifest on the second level 
+… When we talk about the long-term manifestation of these results, we arrive 
+at the hells and heavens of the ﬁrst level [which is the literal meaning]. All 
+[these three levels] are [in this way] connected …57 
+Conclusion 
+It has frequently been noted that Buddhadåsa’s way of teaching Bud-
+dhist doctrine is indeed able to respond to the religious needs of mod-
+ern intellectual Buddhists but is asking too much of Buddhists of other 
+population strata.58 It seems that – expressed in the words of Max Weber 
+– Buddhadåsa’s teachings are missing an accommodation to the ‘spe-
+ciﬁcally religious need for emotional experience of the superworldly 
+and for emergency aid in external and inner distress’.59 With the help of 
+his hermeneutical theory, Buddhadåsa reduces phenomena like heav-
+ens, hells, rebirth and so on (all mentioned in the Pali canon) to mental 
+processes which can be experienced in the here and now. Although, he 
+does not explicitly deny the existence of these things in their literal 
+meaning, his way of teaching Buddhist doctrine has been understood as 
+a narrow, positivistic Buddhism. And it was said about him that he has 
+the belief that ‘all Buddhist concepts are empirical and to make them 
+metaphysical is to make Buddhism not Buddhism’.60 Also, when viewed 
+from the outcomes of Western historical-philological research in 
+Buddhology which tries to identify the ‘original intention’ on the basis 
+of ‘relevant primary sources’ dealing with pa†iccasamuppåda, Buddha-
+dåsa’s reading seems to be highly problematic. For, according to 
+                                                        
+57  Phra Thammapidok 2545, 46. 
+58  Nithi Iausiwong 2537, 106; Sisak Wanliphodom in Phra Thammapidok et al. 2544, 
+129; Gabaude 1990, 211–29. In this context, Gabaude refers to Buddhadåsa’s teach-
+ings as ‘a “bitter portion” to swallow for the majority of the Thais’ (211). 
+59  Weber 1958, 236–37. 
+60  Somparn Promta 1999, 98. 
+
+
+
+<!-- Page 36 -->
+
+SEEGER 
+ 
+124 
+Schmithausen, the argument that the distribution of pa†iccasamuppåda 
+over three existences cannot be found in the canon is not tenable: al-
+though this concept cannot explicitly be found in the canon, it is clear 
+that ‘the original intention’ aims to analyze literal rebirth and its condi-
+tions.61 In contrast, Phra Payutto’s explanations of pa†iccasamuppåda 
+seem to be more compatible with the position proposed by Western 
+Buddhologists. For Phra Payutto carefully separates and highlights the 
+different stages of the development of the teaching of pa†iccasamuppåda. 
+His explanations try to integrate the various explanations of 
+pa†iccasamuppåda into one coherent ediﬁce and, by doing this, give le-
+gitimacy to all of them. 
+At this point, however, two things must be emphasized. Buddhadåsa, 
+and the same applies to Phra Payutto, are primarily not philologists but 
+– in its broader sense – ‘theologians’: their textual interpretations aim 
+to distil truths which can be put into a spiritual practice that leads to the 
+soteriological goal of nibbåna and which can be veriﬁed by this practice. 
+That means that it is primarily not their objective to understand the ca-
+nonical texts but reality with the help of these texts. Also, it has to be 
+kept in mind that Buddhadåsa’s messages – ‘a “bitter potion” to swallow 
+for the majority of the Thais’62 – and his sharp language have to be un-
+derstood in their speciﬁc socio-historical context of Thai Buddhism, 
+where popular beliefs in kamma and literal rebirth are very often associ-
+ated with rather materialistic or superstitious notions and practices, 
+which seem to have no canonical legitimacy: life-prolonging ceremo-
+nies, donating money in order to be reborn as a millionaire, the amulet-
+                                                        
+61   Schmithausen 2000, 41: ‘soll hier noch einmal versucht werden, anhand der relevan-
+ten Primärquellen so nahe wie möglich an die ursprüngliche Intention heranzukom-
+men’. Schmithausen 2000, 74: ‘Auch das Argument, dass die Verteilung der zwölf-
+gliedrigen Formel auf drei Existenzen das Werk der Abhidharma-Systematiker sei und 
+nirgendwo im Kanon vorkommen würde – und deshalb sekundär und der Sache nicht 
+gemäß sei – dürfte sich durch die obigen Überlegungen zur Genese dieser Formel er-
+ledigt haben …’ See also Bodhi 1998a and 1998b. In these two articles, Bhikkhu 
+Bodhi tries to vindicate the TLT against Ñåˆav¥ra’s suggestion that this traditional 
+reading of pa†iccasamuppåda is a product of later tradition which is not in conformity 
+with the earliest Buddhist teaching. For Ñåˆav¥ra, the original pa†iccasamuppåda is non-
+temporal and applies to the present life only. 
+62  Gabaude 1990, 211. 
+
+
+
+<!-- Page 37 -->
+
+HOW LONG IS A LIF ETI M E ? 
+125 
+market, nibbåna imagined as some kind of heavenly paradise, the con-
+cepts of an eternal self, and so forth. Buddhadåsa perceived these con-
+cepts as ‘wrong views’ which he wanted to ‘destroy’.63 
+In Thai buddhology, by some of the most inﬂuential Thai Buddhist 
+thinkers, canonical sections where demons and gods play a decisive role 
+have been perceived either as later accretions to the original texts or as 
+a metaphorical code which has to be deciphered with the ‘right’ her-
+meneutical approach.64 
+In this point Phra Payutto’s reading of the Påli canon differs enor-
+mously from Buddhadåsa and other inﬂuential Thai thinkers. Without 
+addressing the issue of the ontology of all the things beyond the normal 
+empirical scope, Phra Payutto accepts these things in their literal mean-
+ing.65 According to this topic, for didactic reasons the Buddha has in-
+corporated these things in his teachings. Following this example in his 
+lectures and books, Phra Payutto uses phenomena like wonders (iddhi-
+på†ihåriya), past and future lives, deities, heavens and hells both in their 
+literal and their metaphorical meaning. His teaching strategy tries har-
+moniously to integrate these motives into one system that leads its re-
+cipients to the principal doctrines of Buddhism. For him, even the be-
+lief in spirits (phi, T.) which is very widespread in Thailand can be toler-
+ated and legitimized from a canonical point of view and can be coher-
+ent with original Buddhism if the Thais take the right attitude towards 
+the spirits. Furthermore, Phra Payutto argues that even the acceptance 
+of amulets and other ‘magic’ or ‘holy things’ (64*78/0*.0$/0$590/ 
+:(80;9#<(=:(!1(=) can be legitimized from a canonical point of view given that 
+interaction with these things is coherent with Buddhist teaching.66 
+The comprehensiveness, ﬂexibility and inclusivity of Phra Payutto’s 
+approach can arguably be best demonstrated by his teachings on 
+pa†iccasamuppåda and the related teachings about heaven, hell and re-
+birth, which allow at the same time a macro- and microcosmic level of 
+reading. As a result, this explanation can tolerate the concept of physi-
+                                                        
+63  Gabaude 1994, 48. ‘As he grew older, [Buddhadåsa] acknowledged that being so out-
+spoken had never really paid off except in a negative way.’ (Gabaude 1994, 49) 
+64  Seeger 2005, 264. 
+65  Phra Thammapidok 2538a, 455–56. 
+66  Phra Thammapidok 2538a, 474–75. 
+
+
+
+<!-- Page 38 -->
+
+SEEGER 
+ 
+126 
+cal rebirths, which can occur in the different levels of existence, mental 
+conditions and permanently proceeding mental processes on such a 
+subtle level that most people are not even aware of it. However, the ob-
+jective – and here he is in complete agreement with Buddhadåsa – re-
+mains always the same: the motivation for Buddhist practice in the here 
+and now. 
+Furthermore, as has been shown, his comprehensive and ﬂexible in-
+terpretation of pa†iccasamuppåda is also a starting point for his teachings 
+about the social dimensions of canonical doctrines which go far beyond 
+the perception that Buddhism is concerned with the individual mind 
+only. 
+By convincingly explaining a wide range of canonical and post ca-
+nonical texts as coherent and, thereby, as authentic and authoritative, 
+Phra Payutto is able to incorporate the doctrinal variations of later 
+commentarial Theravåda tradition. He has thereby a wider scope of 
+meaning and, therefore, ﬂexibility in the accommodation at hand. For 
+him, the canon is primarily not a source for the reconstruction of his-
+torical events. Rather, he perceives the Tipi†aka as a corpus with a peda-
+gogical purpose. This means that he reads the Pali canon not histori-
+cally but pragmatically. 
+Although Phra Payutto’s way of teaching Buddhism is distinguished 
+by its comprehensiveness and inclusiveness, it seems that it does not 
+receive much reception from social strata outside the middle-class intel-
+lectuals or educated monks. For many Thais, the complexity of his lan-
+guage and argumentations pose too big an intellectual challenge. In this 
+regard, he has been criticised for using language that is too academic 
+and, therefore, hardly comprehensible to non-intellectuals.67 His way of 
+teaching Buddhism is perceived as ‘dry’ and unattractive.68 For these 
+reasons, it is hardly possible that Phra Payutto’s teachings will directly 
+expand into the rural or less educated social strata of Thai society. What 
+                                                        
+67  Phra Thammaraksa 2538, 113; Phra Chayasaro Phikkhu 2539, 40; Pricha 
+Changkhwanyuen 2540, 1–54, 161–70; Olson 1989, 376–84, 396. According to Pricha 
+Changkhwanyuen (2540, 51), Phra Payutto books lack a ‘motivating character’ and 
+are therefore not able to raise faith in the Buddhist religion. 
+68  Phra Thammaraksa 2538, 113; Rawi Phawilai 2539, 104; interview with Sathianphong 
+Wannapok on 21 August 2002. 
+
+
+
+<!-- Page 39 -->
+
+HOW LONG IS A LIF ETI M E ? 
+127 
+is needed for this purpose are followers who, having ‘digested’ his mes-
+sage, convert it into a simpler language. 
+Unlike Phra Payutto, Buddhadåsa often uses catchy and provocative 
+slogans or titles, like ‘Empty Mind’, ‘nibbåna here and now’, ‘die before 
+you die’ or ‘heaven in every movement’. This causes a stir, attracts atten-
+tion and gives his teachings a lasting effect. Also, in contrast to Phra Pa-
+yutto, Buddhadåsa is regarded, in addition to his image as a ‘monk of 
+wisdom’, as a ‘master’ (acan, T.) who teaches the meditative aspects of 
+Buddhism.69 Whereas Buddhadåsa has affected Thai Buddhism through 
+his books, his charisma and his monastery Suan Mokh, which is one of 
+the most famous in the whole of Thailand, Phra Payutto is mostly and 
+almost always revered for his intellectual accomplishments of which his 
+many books are testimony.70 Buddhadåsa perceives himself as a ‘de-
+stroyer’ – ‘not of people but of their wrong views and passion’71 and 
+tries to galvanize Thai society with his ‘shocking’ messages.72 Phra Pa-
+yutto’s approach, though, is to build up a ‘bridge’ to the people, in or-
+der to lead them from their current standpoints to the canonical ideals. 
+ 
+Martin Seeger 
+University of Leeds 
+ 
+Bibliography 
+ 
+Aphinya Fuengfusakun (2541 be), ‘Nganwicai satsanathat khong chumchon mueng samai 
+mai sueksa korani wat phra thammakai’ [Research Report: the Religious Views of the 
+New Urban Population: a Study of the Wat Phra Thammakai Case], in: Journal of Bud-
+dhist Studies of the Chulalongkorn University 5 (1), pp. 4–88. 
+Bareau, André (1970), Recherches sur la biographie du Buddha dans les SËtrapi†aka et les Vi-
+nayapi†aka anciens, Paris: École Française d’Extrême-Orient. 
+                                                        
+69  Olson 1990, 261. 
+70  Interview with Phra Phaisan Wisalo on 20 October 2002. 
+71  Gabaude 1994, 47–50. 
+72  Jackson 1988, 146; Olson 1989, 257. 
+
+
+
+<!-- Page 40 -->
+
+SEEGER 
+ 
+128 
+Bodhi, Bhikkhu (1998a), ‘A Critical Examination of Ñåˆav¥ra Thera’s “A Note on 
+Pa†iccasamuppåda” Part One’, in: Buddhist Studies Review 15 (1), pp. 43–64. 
+—— 
+(1998b), 
+‘A 
+Critical 
+Examination 
+of 
+Ñåˆav¥ra 
+Thera’s 
+“A 
+Note 
+on 
+Pa†iccasamuppåda” Part Two’, in: Buddhist Studies Review 15 (2), pp. 157–81. 
+Buddhadåsa Bhikkhu (2537 be), Idappaccayatå khong Phutthathat Phikkhu: chabapyonkhwam 
+cak chut thammakhot [Buddhadåsa’s idappaccayatå, abbreviated edition from the Tham-
+makhot series], Bangkok: Sukhaphapcai. 
+—— (2538 be), Pa†iccasamuppåda khue arai? [What is pa†iccasamuppåda?], Bangkok: Suk-
+haphapcai. 
+Chayasao, Phra (2539 be), ‘Interview’ in: Nanathatsana kiaukap Phra Thammapidok (Prayut 
+Payutto) [Various Views on Phra Thammapidok (Prayut Payutto)], interviewed and ed-
+ited by Dr. Sunthon Phlamin and Chutima Thanapura, pp. 32–47. 
+Gabaude, Louis (1988), Une herméneutique contemporaine de Thaïlande: Buddhadasa Bhikkhu, 
+Paris: École Française d’Extrême-Orient. 
+—— (1990), ‘Thai Society and Buddhadasa: Structural Difﬁculties’ in: Radical Conserva-
+tism. Buddhism in the Contemporary World. Articles in Honour of Buddhadasa’s 84th Birthday 
+Anniversary, Bangkok: Thai Inter-Religious Commission for Development and the In-
+ternational Network of Engaged Buddhist, pp. 211–29. 
+—— (1994), ‘Buddhadasa’s Contribution as Human Being, as a Thai, as a Buddhist’ in: 
+The Quest for a Just Society: The Legacy and Challenge of Buddhadasa Bhikkhu, Sulak 
+Sivaraksa (ed.), Bangkok: The Inter-Religious Commission for Development Santi 
+Pracha Dhamma Institute, pp. 155–75. 
+Gethin, Rupert (1998), The Foundations of Buddhism, Oxford, New York: Oxford University 
+Press. 
+v. Hinüber, Oskar (2000), A Handbook of Påli Literature, Berlin and New York: W. de 
+Gruyter. 
+Jackson, Peter A. (1988), Buddhadasa: a Buddhist Thinker for the Modern World. Bangkok: 
+Siam Society under Royal Patronage. 
+Kamala Tiyavanich (1997), Forest Recollections: Wandering Monks in Twentieth-century Thai-
+land, Chiang Mai: Silkworm Books. 
+Kanittha Siphaibun and Kiti Ingyongcaisuk (2539 be), ‘Raingan kanwicai: phruettikam lae 
+khwamchuea thang satsana khong naksueksa chauphut nai mahawitthayalai khong rat 
+nai Krungthepmahanakhon’ [Research Report: Religious Behaviour and Beliefs of 
+Students of State Universities in Bangkok], in: Journal of Buddhist Studies of the Chula-
+longkorn University 3(3), pp. 5–61. 
+
+
+
+<!-- Page 41 -->
+
+HOW LONG IS A LIF ETI M E ? 
+129 
+Lamotte, Étienne (1947), ‘La critique de l’authenticité dans le Bouddhisme’, in: India 
+Antiqua. A Volume of Oriental Studies Presented to J. Ph. Vogel, Leiden: Brill, pp. 213–22. 
+Nithi Iausiwong (2537 be), ‘Latthiphithicaumaekuanim [The Ritualism Mae Kuanim]’ in: 
+Sinlapawatthanatham 15 (10) Aug. pp. 78–106. 
+Olson, Grant Allan (1989), ‘A Person-Centered Ethnography of Thai Buddhism: The Life 
+of Phra Rajavaramuni (Prayudh Payutto)’, unpublished PhD dissertation, Cornell Uni-
+versity. 
+—— (1990), ‘From Buddhadasa Bhikkhu to Phra Debvedi: Two Monks of Wisdom’ in: 
+Radical Conservatism. Buddhism in the Contemporary World. Articles in Honour of Buddha-
+dasa’s 84th Birthday Anniversary, Bangkok: Thai Inter-Religious Commission for Devel-
+opment and the International Network of Engaged Buddhist, pp. 251–67. 
+Payutto, P.A. (1996), Good, Evil and Beyond: Kamma in the Buddha’s Teaching, Bangkok: 
+Buddhadhamma Foundation. 
+Phaisan Wisalo, Phra (2546 be), Phutthasatsana thai nai anakhot naeunom lae thangok cak 
+wikrit [Thai Buddhism in the Future: Tendencies and the Way out of the Crisis], Bang-
+kok: Sotsi-Saritwong Foundation. 
+Pricha Changkhwanyuen (2540 be), Thammawacanawohan, Bangkok: Chulalongkorn 
+University. 
+Rawi Phawilai (2539 be), ‘Interview’ in: Nanathatsana kiaukap Phra Thammapidok (Prayut 
+Payutto) [Various Views on Phra Thammapidok (Prayut Payutto)], interviewed and ed-
+ited by Dr. Sunthon Phlamin and Chutima Thanapura, pp. 91–113.  
+Reynolds, Frank E. and Reynolds, Mani B. (1982), Three Worlds According to King Ruang: A 
+Thai Buddhist Cosmology, Translation with Introduction and Notes by Frank E. Reynolds 
+& Mani B. Reynolds, Berkeley: University of California. 
+Sathianphong Wannapok (2532 be), Cak Sathianphong Wannapok thueng Phra Thepwethi lae 
+Phutthathat Phikkhu [From Sathianphong Wannapok to Phra Thepwethi and 
+Buddhadåsa Bhikkhu], Bangkok: Buddhadhamma Foundation. 
+Schmithausen, Lambert (2000), ‘Zur zwölfgliedrigen Formel des Entstehens in Abhän-
+gigkeit’, in: HØrin 7, pp. 41–76. 
+Seeger, Martin (2005), Phra Dhammapi†aka und die Påli-Kanon-Debatte in Thailand: Ein Bei-
+trag zur Untersuchung des modernen Buddhismus, Hamburg: Staats- und Universitätbiblio-
+thek Hamburg Carl von Ossietzky 
+ 
+(http://www.sub.uni-hamburg.de/opus/volltexte/2005/2342/). 
+Somparn Promta (1999), ‘Buddhism and Science in Thai Society’ in: Manusya: Journal of 
+Humanities 2 (2) Sept. pp. 88–105.  
+
+
+
+<!-- Page 42 -->
+
+SEEGER 
+ 
+130 
+Suwanna Satha-anand (1990), ‘Religious Movements in Contemporary Thailand: Bud-
+dhist Struggles for Modern Relevance’, in: Asian Survey 30 (4) Apr. p. 395–407. 
+—— (2002), ‘Karma as Moral Justice in Thai Buddhism’ in: Manusya: Journal of Humanities 
+Special Issue No. 4, p. 72-83. 
+Thammapidok, Phra (2538a be), Phutthatham [Buddhadhamma], Bangkok: Mahachu-
+lalongkorn University. 
+—— (2538b be), Narok-sawan samrap konrunmai [Hells and Heavens for the New Genera-
+tion], Bangkok: Buddhadhamma Foundation. 
+—— (2545 be), Narok-sawan nai Phra Traipidok [Hells and Heavens in the Tipi†aka], 
+Bangkok: Buddhadhamma Foundation. 
+Thammapidok, Phra, Prawet Wasi, Ekawit na Thalang (2544 be), Sawaengha thangok cak 
+phawa wikrit phaitai khwamsapson khong sangkhom thai [To Seek for a Way out of the Cri-
+sis under the Complexity of Thai Society], Bangkok: Phakhathat. 
+Thammaraksa, Phra (2538 be), Phra Thepwethi nakpatibat nai khrap khong nakwichakan 
+[Phra Thepwethi: The Practitioner in the Skin of a Scholar], Bangkok: Rungsaenkan-
+phim. 
+Walter, Tony (2001), ‘Reincarnation, Modernity and Identity’ in: Sociology 35(1), p. 21-38. 
+Weber, Max (1958), The Religion of India: The Sociology of Hinduism and Buddhism, trans. 
+and edited by Hans H. Gerth and Don Martindale, Glencoe, Illinois: The Free Press. 
+ 
+
+
+
+<!-- Page 43 -->
+
+ 
+Buddhist Studies Review 22 (2005), 131–39 
+ 
+APSARASES: THE BUDDHIST CONVERSION 
+OF THE NYMPHS OF HEAVEN * 
+ 
+LINDA COVILL 
+ 
+he Saundarananda, a mahåkåvya composed by the Buddhist monk 
+and poet Aßvagho"a in the early second century of the common era, 
+contains amongst its dramatis personae a pivotal character – or rather, 
+500 pivotal characters – of whom little notice has been taken by modern 
+scholars but who aroused a great deal of interest in earlier times. This is 
+the minor female divinity known in Sanskrit as an apsaras and in Pali as 
+accharå, commonly depicted in Indian mythology as an inhabitant of 
+heaven. An accomplished singer and dancer, and always ravishingly 
+beautiful, the Apsaras was a popular subject for artists and sculptors. 
+Sometimes she is shown in ﬂight, sometimes standing in the typical 
+tribha"ga or triple bend pose, which accentuates her curves.1 Both In-
+dian folklore, especially in its epic-puråˆic phase, and Pali Buddhism 
+include the Apsaras in the heavenly package with which the virtuous are 
+rewarded in the afterlife. However, Buddhism tended to shy away from 
+the open eroticism which the epic-puråˆic imagination invested in the 
+Apsaras, preferring to envisage her as a demure lady-in-waiting. This 
+article summarises these two opposing conceptions of the Apsaras, and 
+also investigates a few traces of her sexuality that remain in early Bud-
+dhist literature. 
+The origin of the Apsarases is attributed in the Råmåyaˆa to the 
+churning of the ocean. However, it is said that when they emerged, nei-
+ther the gods nor the asuras would have them for wives, so they became 
+common to all. Although Vedic literature associates them with trees and 
+                                                        
+*  This article was presented as a paper to the Fourteenth Conference of the Interna-
+tional Association of Buddhist Studies, London, on 2 September 2005. 
+1  At Angkor Wat in Cambodia there are over 1,600 representations of Apsarases. They 
+are also found in carvings at Borobudur in Indonesia and in frescoes at Sigiriya in Sri 
+Lanka. 
+T
+
+
+
+<!-- Page 44 -->
+
+COVI LL 
+ 
+132 
+water, in later literature they are conceptualised as residing in svarga – 
+heaven, speciﬁcally the Trayastriµßas heaven presided over by Indra, 
+and in particular, as amusing themselves in the heavenly garden of de-
+light known as Nandana. A man reborn here would ﬁnd that his experi-
+ence of heaven consists of the perfect satisfaction of his senses, which all 
+continue to operate. The Bhagavad G¥tå (ix 20d), for instance, men-
+tions that those who reach the domain of Indra ‘enjoy the divine pleas-
+ures of the gods’ (aßnanti divyån divi deva-bhogån). The underlying 
+metaphor of eating – aßnanti, literally, ‘they eat’ – reveals that this is a 
+heaven in which physical functionality endures. Heaven is beautiful to 
+look at, smells nice, and it is cooled by pleasant breezes. There is plenti-
+ful food and drink of a celestial standard, while entertainment is offered 
+by the Apsarases, the heavenly nymphs, who dance and sing divinely. 
+Music and song are not all that they offer, though, for they are also 
+strongly associated with sex, nor do they conﬁne their favours to the 
+Gandharvas, the heavenly musicians with whom they are often paired. 
+Already in the Ùg Veda (RV) passing reference is made to the sexuality 
+of the Apsarases; one passage2 refers to the Apsarases as taking lovers 
+(jåra), while another3 relates the myth of the Apsaras Urvaß¥, casting her 
+as a decidedly sexual being. Temporarily banished from heaven, she 
+comes to earth and becomes the adored lover of King PurËravas, who, it 
+is said, makes love to her three times a day (this story is most famously 
+rendered in Kålidåsa’s drama Vikramorvaß¥). The Atharva Veda (AV) spe-
+ciﬁes that in heaven the virtuous man is blessed with a perfect body, free 
+of disease and distortion. It also bluntly informs us that a man’s penis is 
+not incinerated in the funeral ﬁre, but is retained in heaven, adding 
+that for such a man, many womenfolk – bahu straiˆam – are his.4  
+The popular perception of the Apsarases as celestial paramours for 
+those who have been virtuous in their conduct, zealous in their ritual-
+ism, or courageous in battle is embodied chieﬂy within the epic-puråˆic 
+tradition. The Mahåbhårata (MBh) stresses the Apsarases’s physical at-
+tributes, seductiveness and immodest gestures, and often depicts them 
+                                                        
+2  RV x 123,5. 
+3  RV x 95. The story is also found at Íatapatha Bråhmaˆa xi 5,1. 
+4  AV vi 120,3 and iv 34,2. 
+
+
+
+<!-- Page 45 -->
+
+APSAR ASES 
+133 
+as underdressed, such as Tilottamå who wears just one piece of red 
+cloth,5 or even naked, such as Menakå after the wind whips off her 
+skirt.6 The epic provides a list of the quintessential features of the Ap-
+saras: she has lotus eyes with which she casts ﬂirtatious glances, a narrow 
+waist, heavy buttocks, and breasts that jiggle as she dances. She invaria-
+bly disturbs the mind of any man who beholds her.7 Typically, an Ap-
+saras is sent by Indra to distract a sage from his tapas, since Indra is no-
+toriously jealous of and alarmed by the ascetically derived power of 
+sages. Ironically, those same sages are rewarded for their ascetic re-
+straint by the sexual possession of those very Apsarases in heaven.8 In 
+contrast to St. Augustine’s wish to be chaste later9, it seems that Indian 
+sages are chaste ﬁrst and are later rewarded with the ﬂeshpots of 
+heaven. At other times the nymphs do act independently. So Urvaß¥, 
+bent on the seduction of Arjuna, says: 
+All [Apsarases] are unconﬁned in their choice … [Those] that have come 
+here as a result of ascetic merit enjoy us without incurring any sin. Please do 
+not to send me away tormented and burning with desire. Make love with me 
+who loves you, O hero.10 
+Turning to the Pali textual tradition, one discovers that the Accharås 
+appear frequently in similes, where they ﬁgure as the conventional 
+upamåna, or object of comparison, for the dancing girls who grace the 
+courts of kings. In these similes, the number of dancing girls, and hence 
+of the Accharås, often seems to be ﬁxed at either 8,000 or 16,000.11 The 
+use of an Apsaras as a sexual weapon deployed by Indra is also retained 
+                                                        
+5  MBh i 204, 9 
+6  MBh i 66, 5 
+7 
+etåß cånyåß ca nan®tus tatra tatra varå"ganå˙ | citta-pramathane yuktå˙ siddhånåµ padma-
+locanå || mahå-ka†i-ta†a-ßroˆya˙ kampamånai˙ payodharai˙ | ka†åk#a-håva-mådhuryaiß ceto 
+buddhi-manoharå˙ || (MBh iii 44, 31–32) 
+8  MBh xiii 109, 52; 110, 12, 15, for example. In the ﬁrst of these, ‘a hundred virgin 
+Apsarases will pleasure that man [who honours the gods]’ (ßataµ cåpsarasa˙ kanyå 
+ramayanti taµ naram). 
+9  Confessions viii, 7: ‘Give me chastity and continence, but not yet.’ 
+10  anåv®tåß ca sarvåh… || … ye … tv ihågatåh | tapaså ramayanty asmån na ca te#åµ vyatik-
+rama˙ || tvat pras¥da na måm årtåµ visarjjayitum arhasi | h®cchayena ca santaptåµ bhaktåµ 
+ca bhaja månada || (MBh iii 1858–60, Calcutta edition, 1834) 
+11  e.g. Jåtaka i 470, iii 408. 
+
+
+
+<!-- Page 46 -->
+
+COVI LL 
+ 
+134 
+in one Jåtaka story. Indra, here named Sakka, sends the nymph Alam-
+buså to seduce the ascetic Isisi!ga. However, in an interesting Buddhist 
+twist, when Alambuså is later offered a boon, she asks never to have to 
+seduce another ascetic again.12 Indeed, she had previously requested 
+that some other Accharå be given the job. Such moral misgivings are 
+entirely absent in the stereotypical Apsaras of the Mahåbhårata. This 
+Jåtaka story reﬂects the dilemma for Buddhism which, with its ascetic 
+bent and its emphasis on containment and dispassion, was uncomfort-
+able with holding out a promise of celestial prostitutes as a post-mortem 
+reward for its adherents. Where such a promise is made, as in the well-
+known story of Nanda to be discussed shortly, it is hedged about with 
+exculpatory justiﬁcations. The general unease felt by the tradition in 
+respect of the Accharås is evident in the Accharå Sutta of the Saµyutta 
+Nikåya, in which the Accharås are labelled ‘demons’ (pisåcas), while 
+Nandana, the Grove of Delight in which the Accharås traditionally be-
+sport themselves, is renamed Mohana, or delusion. In his commentary 
+on this sutta, Buddhaghosa explains that these words are spoken by a 
+monk who dies of exertion during meditation and is reborn in the 
+Tåvatiµsa heaven. Fearfully disappointed because he has missed libera-
+tion and attained heaven, the wrong goal, he perceives the beautiful 
+Accharås coming towards him and hails them as demons.13 How then 
+could Buddhism cope with the wayward reputation of the Apsarases? 
+The answer lay in ignoring their sexual aspect more or less entirely and 
+turning them into heavenly attendants and ladies-in-waiting – still very 
+beautiful, still musical and graceful, but deﬁnitely chaste.  
+In the Pali canon, the Accharås appear most prominently in the 
+Vimåna-vatthu stories of the Khuddaka Nikåya. The chief feature of the 
+Vimåna stories is that acts of generosity to the Buddha or Sangha are 
+rewarded by rebirth as devas in the Tåvatiµsa heaven. Though generos-
+ity is the most celebrated virtue, those who revere their parents, readily 
+pardon others and take no pleasure in quarrels are also reborn in the 
+Tåvatiµsa heaven. The characters thus rewarded are all lay people, 
+since monks are not depicted as striving for heaven, and most of them 
+                                                        
+12  The Alambuså Jåtaka, no. 523. 
+13  Saµyutta Nikåya i 33, commentary at Såratthappakåsin¥ i 85–88. 
+
+
+
+<!-- Page 47 -->
+
+APSAR ASES 
+135 
+are women, though some are men and two are animals. The underlying 
+stucture of the stories is provided by Mahåmoggallåna’s visit to heaven, 
+during which he asks those he encounters how they won their position, 
+and they recount the good deed responsible for their current pleasant 
+situation. Each deva lives in a sort of aerial palace or vimåna, studded 
+with jewels and gold, in which they can travel down to earth, though 
+they cannot go to any region higher than their own. The devas have a 
+human form and are endowed with the ﬁve senses, but they are far 
+more brilliant and dazzling than anyone on earth. They have unaging 
+bodies, colourful garments and exquisite ornaments. The Tåvatiµsa 
+heaven in which they live is reﬁned, delicate, and sensuous. There is an 
+abundance of ﬂowers, plants and creepers; breezes are soft and per-
+fumed. The fortunate heaven-dweller frequently has a retinue of Ac-
+charås, up to 100,000. Interestingly, the devout lay followers here de-
+scribed are never reborn as Accharås themselves, but only as devas or 
+devatås attended by Accharås. The Accharås of the Vimåna-vatthu appear 
+as attendants, sometimes as ministering with song and dance, but never 
+as potential sexual partners. Outside the Pali tradition there are the 
+texts such as the Mahåvastu or the Lalitavistara in which the role of the 
+Apsarases is conﬁned to non-sexual activities such as tending to the 
+bodhisattva’s mother during her pregnancy and labour, or providing a 
+kind of chorus that miraculously appears during the important mo-
+ments of the Buddha’s life to sing his praises. 
+It should be noted that in the Pali texts, heaven is softened into a 
+place that women might actually want to be reborn into – perhaps early 
+Buddhism had to ﬁnd something to offer the female laity, who after all 
+may have been the most regular alms-givers. Thus the promise of a 
+woman-friendly heaven is held out to them, a heaven where women 
+could move about freely, unshackled by husbands and domesticity, and 
+with many attendants. They zoom around in splendid jewel-encrusted 
+vimånas, and the Accharås become their servants – an attractive pros-
+pect, one should imagine, for the ordinary Indian woman whose life 
+probably consisted of excessive child-bearing and endless domestic la-
+bour. Heaven is revised for women residents; in this heaven they are not 
+just part of the engaging furniture, as in the epic-puråˆic conception, 
+
+
+
+<!-- Page 48 -->
+
+COVI LL 
+ 
+136 
+but VIPs in their own right. As one modern Indian woman writer has 
+said: 
+One day I realised that we [women] don’t even have a heaven of our own! 
+When I think of the pictures of Heaven in any religion, I see that it is a man’s 
+idea; whether it’s apsarases or nymphs or houris, it comes to the same thing 
+really. Only a man could dream of Heaven as a place where he can lie about 
+all day, surrounded by beautiful women, being served by them.14  
+The Pali texts, however, do offer a heaven for women too. As a result, in 
+the Pali texts there is only very sporadic mention of the sexual bliss dis-
+pensed by the Apsarases. One such is the story of the monk Sudinna.15 
+Sudinna’s family try to tempt him back to lay life by showing him some 
+enormous heaps of gold. When he tells them to dump it all in the 
+Ganges, they try another tack and bring in his former wife, all decked in 
+her ﬁnery. She comes in, touches his feet, and says, rather ﬂirtatiously: 
+‘What are they like, those Accharås for whose sake you practise brah-
+macariya (that is, the life of celibacy and self-control)?’ He replies, ‘O 
+Sister, I do not practise brahmacariya for the sake of the Accharås.’ And 
+at being called ‘sister’ (bhagin¥), the former wife falls down in a faint. It 
+would be difﬁcult to understand why the former wife would mention 
+the Accharås unless she sees them as sexual rivals. Indeed, she hopes 
+that Sudinna can still be motivated by sex. When Sudinna asserts that he 
+is not interested in any sexual relationship, either with the Accharås or 
+with his wife, whom he now regards as a sister, she faints. What is no-
+ticeable in this story is the allusion to the epic-puråˆic ‘pay now, buy 
+later’ conception that the sexual favours of the Accharås can be pur-
+chased in advance by a life of celibate restraint. 
+In the Udåna, one of the oldest Pali texts, the monk Mahåkassapa is at 
+one time described with the phrase ‘having rejected those 500 deities’,16 
+without any further information as to what situation or context this 
+phrase might refer to. Given their reputation, it is likely that he rejected 
+the sexual blandishments of the Accharås, just as the bodhisattva re-
+                                                        
+14  The novelist Shashi Deshpande, from a talk given on 30 October 1997 in Zurich. 
+15  Recounted at Vinaya iii 17. The same happens to the monk Ra††hapåla, as recounted 
+at Majjhima Nikåya ii 64.  
+16  Udåna 4: tåni pañcamattåni devatå-satåni pa†ikkhipitvå. 
+
+
+
+<!-- Page 49 -->
+
+APSAR ASES 
+137 
+jected the temptations of the daughters of Måra. However, hundreds of 
+years later the commentator Dhammapåla speciﬁcally identiﬁes the dei-
+ties as Accharås, and accounts for the phrase by having Mahåkassapa 
+refusing to take alms from the Accharås, saying to them ‘Be off with 
+you! You have made merit, you already have great enjoyment; I will act 
+sympathetically towards those who are badly off.’ At this they meekly 
+return to the deva-loka whence they came.17 Dhammapåla’s rather con-
+trived explanation suggests a shift in the portrayal of the Accharås from 
+heavenly temptresses to heavenly devotees interested only in alms-
+giving. 
+Apart from these half-hints and intimations, the sexuality of the Ac-
+charås is in the foreground in only one early Buddhist legend, and that 
+is in the story of the Buddha’s half-brother Nanda, of which there are 
+several accounts in addition to Aßvagho"a’s Saundarananda.18 The basic 
+story runs like this: the Buddha enters Nanda’s house on his wedding 
+day, places his bowl in Nanda’s hand and then leaves. Nanda is forced to 
+follow, with the bowl still in his hand. When Nanda’s new bride is inter-
+rupted with the news that the Buddha is taking her husband away, she 
+rushes to the top of the house with her hair half-combed and calls out 
+to him to return soon. In Aßvagho"a’s version, Nanda’s wife makes him 
+promise to return before her make-up has dried. However, Nanda does 
+not return; instead, the Buddha leads him to the vihåra and has him 
+unwillingly ordained. Though ordained as a monk, Nanda ﬁnds the 
+celibate life incredibly hard; as Aßvagho"a (Saund vii 1) melliﬂuously 
+puts it, na nananda nanda˙ (‘Nanda did not rejoice’). The Buddha 
+summons Nanda and enquires the reason for his depression, and 
+Nanda replies that it is because he cannot forget his beautiful wife. The 
+Buddha then takes Nanda by the arm, and the two immediately travel 
+up to heaven. There they behold 500 Accharås. Nanda almost dies of 
+lust on the spot. The Buddha asks Nanda who is fairer, his wife or the 
+nymphs. Nanda enthusiastically replies that the Accharås are much 
+                                                        
+17  Udåna-a††hakathå 61–2. 
+18  The Nanda story is a popular one and appears in full or in part in Pali sources (Udåna 
+21–24, Dhammapada 13–14, Theragåthå 157–58, Jåtaka no. 182, also commentaries on 
+the ﬁrst three of these and on Vinaya i 82), the Chinese Abhini#kramaˆa SËtra and the 
+much later Sundar¥-nandåvadåna by K"emendra. 
+
+
+
+<!-- Page 50 -->
+
+COVI LL 
+ 
+138 
+more beautiful. When the Buddha promises that he can earn the ﬁve 
+hundred nymphs through ascetic practices, Nanda agrees to persevere 
+with brahmacariya. With that they swiftly return to earth. When the other 
+monks come to hear that Nanda is practising brahmacariya in order to 
+obtain the Accharås, they mock him, which so humiliates Nanda that he 
+begins to practise diligently and soon attains liberation.  
+The Buddhist tradition feels considerable unease over this whole 
+business of purposefully exposing Nanda to the irresistible Apsarases. 
+Why would the Buddha seem to act contrary to everything he had ever 
+taught about desire? Why would he actually try to aggravate lust in 
+someone? In his commentary on the Udåna version of the Nanda story, 
+Dhammapåla uses a medical model in the Buddha’s defence. He ex-
+plains that a physician, when treating a patient suffering from excessive 
+humours, ﬁrst exacerbates the symptoms of his patient in order thereaf-
+ter to purge them completely. So too does the Buddha exacerbate 
+Nanda’s symptoms of lust in order to purge them with the medicine of 
+the noble path (ariya-magga-bhesajja). He makes the same point in his 
+commentary on the Theragåthå, comparing the Accharås to a drink of 
+oil by which a doctor prepares a patient for purging.19 The Questions of 
+Milinda explains that the Buddha has a variety of methods (aneka-
+pariyåya) for liberating people, just as a physician has a variety of treat-
+ments at his disposal. In Nanda’s case, the method chosen by the Bud-
+dha for the sake of liberating him (bodhana-hetu) was to show him the 
+500 dove-footed Accharås.20 Thus the Apsarases become part of the 
+Buddha’s skilful means; they are themselves made an instrument of 
+conversion.21 In his poem, the Saundarananda, Aßvagho"a too justiﬁes 
+the Buddha’s action on the grounds that he is like a doctor: just as a 
+doctor expunges the humours from the body by initially exacerbating 
+his patient’s pain, so does the Buddha destroy Nanda’s lust by ﬁrst in-
+                                                        
+19  Theragåthå-a††hakathå ii 33. 
+20  Milindapañha 169. 
+21  The tradition recognises this to some extent: the Theragåthå verses attributed to Nanda 
+(157–58) have him rejoice in his liberation ‘by the Buddha, skilled in means’ (upåya-
+kusalena … buddhena). Dhammapåla (Udåna-a††hakathå 171) reports that whilst ferrying 
+Nanda to heaven, the Buddha thinks ‘I must make his lust subside through [skilful] 
+means’ (upåyenassa rågaµ vËpasamessåmi). 
+
+
+
+<!-- Page 51 -->
+
+APSAR ASES 
+139 
+ducing a far greater lust.22 Thus the Buddha is exonerated by repeated 
+comparison to a well-intentioned doctor who is unquestionably wiser 
+than his patient, while the Apsarases are justiﬁed as a necessary medica-
+tion, with nasty side-effects perhaps but efﬁcacious in the long-term.23 
+In summary, it is likely that within early Buddhist culture the Ap-
+sarases were subject to a process of de-eroticization. While in the epic-
+puråˆic imagination the Apsarases were seen as dispensers of sexual 
+bliss, in early Buddhism they are allotted the role of graceful attendants 
+only. In the one obvious reminder of their sexual function, which oc-
+curs in the story of Nanda, Buddhist interpreters assuage their doubts by 
+redeﬁning the celestial sirens as themselves facilitators of spiritual pro-
+gress. To conclude: the Mahåvastu contains a long hymn of praise for 
+those who offer even the smallest service to the Buddha. Amongst them, 
+it is said that he who has cleaned a stËpa will win thousands of Apsarases, 
+lovely and sweet-scented, but never feel any lust for any of them24 – a 
+statement which nicely summarises the Buddhist conversion of the Ap-
+saras from celestial concubine to decorative but decorous divinity. 
+ 
+Linda Covill 
+University of Oxford 
+ 
+                                                        
+22  Saund x 43: do#åµß ca kåyåd bhi#ag ujjih¥r#ur bhËyo yathå kleßayituµ yateta | rågaµ tathå 
+tasya munir jighåµsur bhËyastaraµ rågam upåninåya || (‘And just as a doctor seeks to 
+draw out humoral faults from the body by further paining it, so the sage, intending to 
+destroy passion in him, ﬁrst brought about a far greater passion.’) 
+23  The Dhammapada commentary (i 122), rather than resorting to the popular medical 
+metaphor, describes the Accharås as ‘bait’ (åmisa). 
+24  Mahåvastu ii 386. 
+
+
+
+<!-- Page 52 -->
+
+
+
+
+<!-- Page 53 -->
+
+ 
+Buddhist Studies Review 22 (2005), 141–54 
+ 
+FIFTY YEARS OF BUDDHIST STUDIES IN BRITAIN* 
+ 
+RICHARD GOMBRICH 
+ 
+n 1997 a conference was held in Bangkok to survey the state of Bud-
+dhist studies internationally over the previous twenty-ﬁve years; it was 
+organised by the Center for Buddhist Studies of Chulalongkorn Univer-
+sity under Dr Wit Wisadavet, Director of the Center. A scholar was in-
+vited from each of some ﬁfteen countries in which Buddhist studies 
+could be presumed to ﬂourish – which is more or less the same as say-
+ing, where the subject could be studied at university level. I enjoyed the 
+conference. I found it entertaining to observe how people conformed to 
+the expected national stereotypes. The Germans (who, incidentally, 
+were represented by an Israeli) equated Buddhist studies with textual 
+and historical research on Buddhism and barely even mentioned the 
+social sciences, even though German scholarship has made notable con-
+tributions in that area. The Americans perfectly complemented the Ger-
+mans, in that they mentioned only work in the social sciences, if one 
+may include under that rubric empirical work on contemporary phe-
+nomena carried out under the rubric of ‘religious studies’ – work that 
+so often turns out to be simply rather mediocre anthropology. 
+While the Germans presented a vast bibliography, the American pres-
+entation did not attempt to include anything like a comprehensive bib-
+liography, but instead ran way over time and characterised each indi-
+vidual work discussed as ‘stunning’. The French were lightly ironic and 
+always to the point; the Koreans were humorous; the Japanese earnest. 
+The Burmese delegate was so frightened that he did not dare mention 
+                                                        
+* 
+This was originally delivered on 15 September 2004 as a paper to the Fiftieth Anniver-
+sary Conference of the British Association for the Study of Religion at Harris-
+Manchester College, Oxford. I was to speak for thirty minutes, so naturally made no at-
+tempt to be exhaustive. 
+I
+
+
+
+<!-- Page 54 -->
+
+GOMBR ICH 
+ 
+142 
+any research done within the prescribed period. At least I did not have 
+that problem. 
+What the Thai organisers really wanted to know was how the rest of 
+the world saw ‘engaged Buddhism’. Were Buddhist studies being pur-
+sued only in an entirely detached spirit, or was Buddhism being used to 
+offer values and insights in other academic areas, such as politics or 
+ecology? I suspect that they were rather disappointed at ﬁnding them-
+selves alone in this concern; and this may largely explain the somewhat 
+unsatisfactory aftermath of the conference. A volume containing ver-
+sions (some radically revised) of ten of the papers, plus an introduction, 
+ﬁnally appeared in 2000.1 Thus material which was in any case doomed 
+to obsolescence appeared in print only when approaching its sell-by 
+date. Each contribution was now equipped with a bibliography, but – 
+perhaps through some misguided notion of fairness – this included only 
+books, not articles, so that much of the material some of us had gone to 
+great pains to assemble was wasted.2 And misprints abounded. In short, 
+the proceedings as published serve best to illustrate the Buddhist doc-
+trines of impermanence and unsatisfactoriness. 
+This experience serves me as a kind of parable. Scripta manent, the 
+Latin tag rightly has it: It is writings that endure. So yes, there is much to 
+be said for the traditional scholarly view: that a survey of what has been 
+achieved in an academic ﬁeld should consist ﬁrst and foremost of a bib-
+liography. Although in general information services have vastly im-
+proved in the past ﬁfty years, Buddhist studies are unfortunate: the ad-
+mirable ongoing bibliography Bibliographie Bouddhique stopped publish-
+ing in 1967, its last volume covering only up to May 1958. I suppose 
+that as the general rate of publication increased, it became more and 
+more difﬁcult to produce a comprehensive bibliography of the ﬁeld, 
+                                                        
+1  Donald K. Swearer and Somparn Promta, eds, The State of Buddhist Studies in the World 
+1972–1997, Bangkok: Center for Buddhist Studies, Chulalongkorn University, 2000. 
+2  It may however be useful if I reproduce from Donald Swearer’s introduction his ﬁrst 
+footnote: ‘For earlier assessments of the state of Buddhist studies, see Edward Conze, 
+‘Recent Progress in Buddhist Studies’, Thirty Years of Buddhist Studies (Columbia: Uni-
+versity of South Carolina Press, 1968); J.W. de Jong, A Brief History of Buddhist Studies in 
+Europe and America (Tokyo, Kosei Publishing Company, 1997); Hajime Nakamura, In-
+dian Buddhism: A Survey with Bibliographical Notes (Delhi: Motilal Banarsidass Publishers, 
+1987).’ (Swearer and Promta, p. viii.)  
+
+
+
+<!-- Page 55 -->
+
+FIFTY YEA RS OF BU DDHI ST STU DI ES 
+143 
+while on the other hand search engines such as Google make it seem 
+easy to ﬁnd what one needs on the Internet, and publishing printed 
+volumes seems impossibly slow by contrast. As anyone can, I have rapidly 
+located on the Internet a ‘Bibliography of Buddhist Studies Bibliogra-
+phies in Western Languages’, fourteen pages long; but it was last up-
+dated in March 2001, and most of the items are either bibliographies of 
+narrowly deﬁned areas like the Lotus Sutra or of extremely broad areas, 
+such as whole countries or ﬁelds like ‘Indian philosophy’, within which 
+one would have to trawl for oneself. Besides, very few of the bibliogra-
+phies seem to be critical. Moreover, that they only deal with western 
+languages is obviously a major deﬁciency. Incidentally, the British con-
+tribution in this area has been pitifully modest. 
+Maybe the very idea of a comprehensive bibliography of Buddhist 
+studies is now obsolete. It could be argued that as it has grown, the ﬁeld 
+of Buddhist studies has, inevitably, become so divided that such a com-
+pilation would interest hardly anyone, since – to take examples at ran-
+dom – a new scholarly edition of the writings of a Korean Soen master 
+would be of no concern whatever to an anthropologist of Sinhalese 
+Buddhism, and vice versa. I would argue nevertheless that specialisation 
+brings losses as well as gains. The hazardous enterprise of trying to grasp 
+the big picture is unpopular, even sometimes despised, within acade-
+mia, but quite the opposite with the general public on whose patronage 
+the scholarly work so largely depends. So I for one feel that a constantly 
+updated and comprehensive bibliography would still be a valuable work 
+of reference. 
+However, the lesson I have learnt from the Chulalongkorn experi-
+ence is that a survey of an academic ﬁeld should not consist primarily of 
+a list of publications, for besides being indigestible to a live audience 
+this very soon becomes dated. When we assess progress in a ﬁeld like 
+Buddhist studies which, whether we like it or not, is highly specialised, 
+we need the perspective of a still wider context. The fate of a particular 
+academic ﬁeld cannot but be linked to that of higher education in gen-
+eral. I know that it constantly appears to us that our ﬁeld is in decline, if 
+not in crisis, if not under threat of extinction in Britain. And yet when 
+we compare where we are now with where we were ﬁfty years ago, we get 
+a jolt. When I came up to Oxford as a student in 1957, the University 
+
+
+
+<!-- Page 56 -->
+
+GOMBR ICH 
+ 
+144 
+employed no one to teach Buddhism, and I don’t think it ﬁgured on 
+any syllabus, undergraduate or postgraduate. I believe the same was true 
+of Cambridge. That reminds us, while we bemoan decline, how radically 
+things have improved. It is true that the greatest advances were probably 
+made some time back, in the sixties and seventies. But the main reason 
+for our apparently paradoxical perception must be that higher educa-
+tion overall has so greatly expanded that even if the exiguous percent-
+age of its resources and personnel devoted to studying Buddhism has, 
+say, halved, that still means a huge increase in teaching posts and library 
+facilities. 
+Another global trend from which we have beneﬁted – as must be ob-
+vious to this audience – is the virtual creation of Religious Studies as a 
+separate academic ﬁeld. (I hesitate to call it a ‘discipline’.) The ﬁrst 
+chair of Comparative Religion in Britain was created at Manchester 
+University in 1903 and its ﬁrst occupant was the great scholar of early 
+Buddhism, T. W. Rhys Davids. As we all know, however, the establish-
+ment of Religious Studies in the British university system must stand 
+largely to the credit of another Buddhologist, Ninian Smart; he ﬁrst oc-
+cupied the chair in this subject at Lancaster University, where he set up 
+a department in 1967. Luckily a few of his direct disciples are still 
+among us and provide my story with a pleasing thread of continuity. 
+The greatly expanded and somewhat systematised study of non-
+Christian religions must in turn be linked to the fortunes of faith com-
+munities, who provide both demand and supply. When this Association 
+was formed in 1954, it was natural to make it primarily an association 
+for the study of the history of religions, i.e., of their past, because their 
+living presence was not a salient feature of the local landscape. The im-
+migration which sharply increased at around that time, and the conse-
+quent rise in the population from non-Christian religious traditions, 
+began to make it reasonable to regard Britain as a multi-cultural society. 
+The impact was not immediate; but as the non-Christian immigrants 
+began to send their children to school, it became necessary to cater for 
+them in primary and secondary education. Here too, Ninian Smart was 
+a pioneer: in 1969 he played a leading part in creating the Shap Work-
+ing Party on World Religions in Education. This small body of volun-
+teers tried to offer the school system – and to some extent also other 
+
+
+
+<!-- Page 57 -->
+
+FIFTY YEA RS OF BU DDHI ST STU DI ES 
+145 
+public services such as hospitals and the police, plus any inquirers from 
+the general public – at least a minimum of accurate and not unsympa-
+thetic information about living non-Christian traditions as now found in 
+Britain. For most of the period under survey, the Shap Working Party 
+has annually published and distributed both a calendar of religious fes-
+tivals and a compilation (known as the ‘Shap Mailing’), aimed specially 
+at schoolteachers, which takes a new theme each year and contains arti-
+cles on that theme applied to various religions. 
+Once these religious traditions were taught in schools, it became nec-
+essary to train teachers, and even in due course school inspectors, who 
+knew something about them. This in turn meant jobs for some gradu-
+ates of university departments of Religious Studies. This then led to a 
+rise in standards and to formal examinations, so that it became possible 
+to take ‘A’ levels in Religious Studies with papers devoted to speciﬁc 
+non-Christian religions. 
+Because of the pattern of immigration, Buddhism beneﬁted less from 
+these developments than did Islam, Hinduism and even Sikhism. When 
+I ﬁrst joined the Shap Working Party, an extremely well-meaning senior 
+ﬁgure, who was I believe responsible for the teaching of non-Christian 
+religions throughout the Birmingham area, told me that Buddhism was 
+not suitable for children, by which he meant that it was too intellectual 
+and abstruse. It was Peggy Morgan who coined the response ‘Buddhists 
+have children too’, and who began producing materials suitable for 
+teaching Buddhism to children in British primary schools. 
+On the other hand, in higher education Buddhism has beneﬁted 
+from a tragedy and a success. The tragedy has been the Chinese inva-
+sion of Tibet. In particular, the conquest of Lhasa and the ﬂight to In-
+dia in 1959 of the Dalai Lama have had massive consequences for the 
+spread of Tibetan Buddhism across the world and the academic study of 
+Tibet. The Tibetan exodus was initially into India, where the majority of 
+the Tibetan Sangha have stayed, but signiﬁcant numbers have gone on 
+to North America and, secondarily, to Europe. 
+Fifty years ago I don’t think there was a department of Tibetan studies 
+at any university in the world, and there was certainly no international 
+organisation for the subject. Now many universities, including Oxford 
+and SOAS, teach the Tibetan language and Tibetan studies; and the 
+
+
+
+<!-- Page 58 -->
+
+GOMBR ICH 
+ 
+146 
+recent international conferences of the International Association for 
+Tibetan Studies have been better attended that the corresponding 
+meetings of the International Association for Sanskrit Studies. Tibetan 
+studies are of course not all about Buddhism, but surely well over half of 
+them are. 
+The success to which I have just alluded is the Japanese economic 
+miracle. Japanese efforts to export their culture have not been in pro-
+portion to their economic clout – and one could say the same, later, of 
+the Koreans. Nevertheless, some Japanese Buddhist organisations have 
+been generous in supporting the study of Buddhism abroad, not least in 
+Britain. The most notable donor has been the Bukkyo Dendo Kyokai, 
+The Society for the Advancement of Buddhist Understanding, also 
+known among us as the Numata Foundation, after its founder. In the 
+1980s Mr Yehan Numata, from his base in Tokyo, began to found chairs 
+in Buddhist studies in the western world. There was some variation, but 
+the general pattern was for a university to have a visiting scholar to teach 
+each year, paid for by the BDK; and extra money was also paid, with the 
+intention of endowing a permanent chair. 
+Though Mr Numata himself was an adherent of Jodo Shinshu, the 
+Pure Land Buddhist tradition founded by Shinran, the BDK has wisely 
+and nobly supported Buddhist studies in general. Oxford was the ﬁrst 
+British university to beneﬁt: an annual visiting fellowship, attached to 
+Balliol College, began in 1989. Later SOAS and Cambridge received 
+benefactions from the same source. With my retirement, it is greatly 
+hoped that the visiting position at Oxford can be converted into a per-
+manently endowed chair, as Mr Numata originally envisaged. This 
+would be the ﬁrst endowed chair in Buddhist studies not merely at Ox-
+ford but at any British university. 
+In my contribution to the Chulalongkorn survey I published a table 
+headed ‘British institutions offering teaching in Buddhism at under-
+graduate and/or postgraduate level’ (pp. 176–8). The only centre for 
+Buddhist studies which then (in 1997) existed in Britain had recently 
+been founded at Bristol University under the leadership of Paul Wil-
+liams. How did this come about? Bristol’s Department of Theology and 
+Religious Studies had already acquired a reputation in Buddhism, and 
+this in turn arose partly because Bristol, alone of all British universities, 
+
+
+
+<!-- Page 59 -->
+
+FIFTY YEA RS OF BU DDHI ST STU DI ES 
+147 
+had two posts in the ﬁeld. So how did that happen? Most of the credit 
+must go to Professor Denis Nineham; but a little also to me. When ap-
+proaching the end of a distinguished academic career, Prof. Nineham 
+made a surprise move: he resigned as Warden of Keble College, Oxford, 
+and went to head the department at Bristol. Whether he went on condi-
+tion that the department would be expanded or whether he persuaded 
+the university authorities to do it after he got there I do not know, but 
+the university then advertised a new post in Buddhist studies. Two of my 
+pupils, Paul Williams and Steve Collins, both applied. They were close 
+friends and I thought the world of both of them, so I accepted the awk-
+ward task of writing a reference for both. I wrote a very long letter, ex-
+plaining that both of them were so good – and yet so different – that it 
+was impossible for me to give my preference to either: both fully de-
+served the job. Professor Nineham then managed to offer jobs to both, 
+by appointing Paul to a vacant position in the philosophy of religion. 
+Even after Steve Collins left for America, the two posts were retained 
+and his post was advertised, which is how we come to have Rupert 
+Gethin here with us now.  
+Certain other institutional landmarks deserve to be at least brieﬂy re-
+corded. In 1976 the energy and vision of Professor A. K. Narain, who 
+had then moved from Benares to the University of Wisconsin, founded 
+the International Association of Buddhist Studies and its journal, the 
+International Journal of Buddhist Studies. Here in Britain Peter Harvey, Ian 
+Harris and colleagues founded the UK Association for Buddhist Studies, 
+which has held an annual conference since 1996. Though they pub-
+lished somewhat irregularly, there were already two British journals of 
+Buddhist studies, the Journal of the Pali Text Society and the Pali Buddhist 
+Review, the latter originally a one-man enterprise by Russell Webb. In 
+1983–84 Russell’s journal broadened its scope and editorship to be-
+come the Buddhist Studies Review, and in 1998 this became the ofﬁcial 
+organ of UKABS. Russell has recently announced his retirement from 
+the editorship and we must all be grateful to him for his great contribu-
+tion to our ﬁeld. Other important innovations have involved use of the 
+Internet. Damien Keown and Charles Prebish were founding editors of 
+the electronic Journal of Buddhist Ethics (website: http://jbe.gold.ac.uk). 
+Peter Harvey, of the University of Sunderland, has pioneered serious 
+
+
+
+<!-- Page 60 -->
+
+GOMBR ICH 
+ 
+148 
+distance learning with his web-based MA in Buddhist Studies, which be-
+gan in 2002 (http://www.sunderland.ac.uk/buddhist); in 2005, it will in-
+clude a module on Pali. 
+If I try to survey the intellectual trends in Buddhist studies in Britain 
+over the last ﬁfty years, I do not see how I can avoid repeating some of 
+what I said in my Chulalongkorn paper. 
+Perhaps the most notable intellectual development ‘has been the 
+growth, from an almost non-existent base, of the anthropological (and, 
+to a lesser extent, sociological) study of Buddhist communities and tra-
+ditions. In this area it is undoubtedly Theravada Buddhist studies that 
+have led the ﬁeld,’ especially in Britain. In 1971 I published my ﬁrst 
+book, Precept and Practice: Traditional Buddhism in the Rural Highlands of 
+Ceylon.3 This book appeared just after two comparable full-scale anthro-
+pological studies of Buddhism in Burma and Thailand respectively: Mel-
+ford Spiro’s Buddhism and Society: A Great Tradition and Its Burmese Vicissi-
+tudes4 and S. J. Tambiah’s Buddhism and the Spirit Cults in North-east Thai-
+land.5 Spiro’s book has no connection with Britain, but Tambiah’s was 
+written while he was teaching at Cambridge (he later moved to Har-
+vard), and was followed while he was still there by World Conqueror and 
+World Renouncer: A Study of Buddhism and Polity in Thailand against a His-
+torical Background.6 The literature on modern Thai Buddhism was fur-
+ther enriched in this period by Jane Bunnag’s Buddhist Monk, Buddhist 
+Layman: A Study of Urban Monastic Organization in Central Thailand.7 
+Within Britain this scholarly tradition was carried forward by Michael 
+Carrithers’ The Forest Monks of Sri Lanka8 and David Gellner’s Monk, 
+Householder and Tantric Priest: Newar Buddhism and Its Hierarchy of Ritual;9 
+both books are based on Oxford doctoral theses. It is regrettable that 
+(so far as I know) Gustaaf Houtman has not published his SOAS PhD 
+                                                        
+3  Oxford: Clarendon Press. A revised edition was published as Buddhist Precept and Prac-
+tice, Delhi: Motilal Banarsidass, 1991. 
+4  New York: Harper & Row, 1970; 2nd revised edn, Berkeley and London: University of 
+California Press, 1982. 
+5  Cambridge: Cambridge University Press, 1970. 
+6  Cambridge: Cambridge University Press, 1976. 
+7  Cambridge: Cambridge University Press, 1973. 
+8  Delhi: Oxford University Press, 1983. 
+9  Cambridge: Cambridge University Press, 1992. 
+
+
+
+<!-- Page 61 -->
+
+FIFTY YEA RS OF BU DDHI ST STU DI ES 
+149 
+thesis, ‘Traditions of Buddhist Practice in Burma’ (1990), which con-
+tains much fascinating material. Although it was written while he was 
+teaching in Australia, Geoffrey Samuel’s book Civilized Shamans: Bud-
+dhism in Tibetan Societies10 must be included in this series of major an-
+thropological monographs. Gananath Obeyesekere and I together pub-
+lished Buddhism Transformed: Religious Change in Sri Lanka.11 The works 
+of Carrithers, Gellner and Samuel, as well as (I hope) my own are in-
+formed by that sensitivity to a culture which cannot be acquired without 
+a thorough knowledge of its language; they also have in common an 
+interest in the diachronic as well as the synchronic dimension of their 
+subjects. The social study of Buddhism is being carried forward by Cathy 
+Cantwell and Geoffrey Samuel (Tibetan Buddhism), David Gellner 
+(Newar and Japanese Buddhism), Ian Reader (Japanese Buddhism), 
+Hiroko Kawanami (Burmese Buddhism) and several excellent scholars 
+who study Buddhist practice in Britain itself. In the last category I must 
+single out for mention the monograph A Time to Chant: The Soka Gakkai 
+Buddhists in Britain12 by the distinguished British sociologist Bryan Wil-
+son and his Belgian co-author Karel Dobbelaere. 
+Among the more traditional lines of Buddhological research, it is 
+perhaps philological and doctrinal studies of the Theravåda which have 
+ﬂourished most in Britain. K. R. Norman’s contribution to Pali studies 
+can hardly be over-emphasised, and was recognised by a special number 
+of Indo-Iranian Journal in his honour (vol. 35, 1992). Besides his magis-
+terial editions and translations of Pali canonical texts, there are his his-
+tory of Pali literature in the Harrassowitz A History of Indian Literature 
+series (1983),13 and his Collected Papers, so far amounting to seven vol-
+umes, published by the Pali Text Society.14 Many further contributions 
+to scholarship of this general character are gathered in the PTS Journal. 
+Dr. Margaret Cone is being employed by the PTS to write what will be 
+essentially a new version of its Pali-English Dictionary15 (originally by Rhys 
+                                                        
+10  Washington DC : Smithsonian Institution Press, 1993. 
+11  Princeton, N.J. : Princeton University Press, 1988. 
+12  Oxford: Clarendon Press; New York: Oxford University Press, 1994. 
+13  Påli Literature, Wiesbaden: Harrassowitz, 1983. 
+14  Oxford: Pali Text Society, 1996–2001. 
+15  London: Pali Text Society, 1921–25. 
+
+
+
+<!-- Page 62 -->
+
+GOMBR ICH 
+ 
+150 
+Davids and Stede); the ﬁrst of three projected volumes has appeared,16 
+and this will in due course make an enormous contribution to the study 
+of Pali and hence of Buddhism. 
+It is not always sensible to try to draw a line between a really good in-
+troduction to a subject and a contribution to scholarship. Though there 
+are probably too many introductions to Buddhism on the market, in 
+this area we seem to do rather well. For example, Michael Carrithers’ 
+The Buddha17 may contain nothing which a scholar would ﬁnd absolutely 
+new, but its mere appearance in the Oxford University Press Past Masters 
+series (and now in the Short Introduction To series) and its excellent liter-
+ary style make it a signiﬁcant contribution to Buddhist studies. I hope 
+the same can be said for the lavishly illustrated book which I edited with 
+Heinz Bechert: The World of Buddhism: Buddhist Monks and Nuns in Society 
+and History.18 Similarly, the books which Paul Williams (Mahåyåna Bud-
+dhism: The Doctrinal Foundations)19 and I (Theravåda Buddhism: A Social 
+History from Ancient Benares to Modern Colombo)20 contributed to the Rout-
+ledge series of books on world religions are primarily intended to serve 
+as college textbooks or introductions for the general reader, but do also 
+contain some original material. Williams’ book has been particularly 
+successful and has been translated into Italian; mine has appeared in 
+German. I understand that Andrew Skilton’s A Concise History of Bud-
+dhism21 has been used as an introductory course textbook by at least one 
+famous American scholar of Buddhism. Peter Harvey’s Introduction to 
+Buddhism22 has been even more widely acclaimed and is being translated 
+into several languages. Still more recently, we greeted excellent intro-
+ductory works by Paul Williams (with Anthony Tribe)23 and by Rupert 
+Gethin.24  
+                                                        
+16  A Dictionary of Påli. Part I: a–kh, Oxford: Pali Text Society, 2001. 
+17  Oxford: Oxford University Press, 1983. 
+18  London and New York: Thames & Hudson, 1984. 
+19  London: Routledge & Kegan Paul, 1989. 
+20  London: Routledge & Kegan Paul, 1988. 
+21  Birmingham: Windhorse, 1994. 
+22  Cambridge: Cambridge University Press, 1990. 
+23  Buddhist Thought: A Complete Introduction to the Indian Tradition, London: Routledge, 
+2000. 
+24  The Foundations of Buddhism, Oxford: Oxford University Press, 1998. 
+
+
+
+<!-- Page 63 -->
+
+FIFTY YEA RS OF BU DDHI ST STU DI ES 
+151 
+In the vast ﬁeld of Mahåyåna studies, it is notable that work on the 
+Indo-Tibetan tradition has been comparatively ﬂourishing, even though 
+until recently SOAS was the only university ofﬁcially to offer a regular 
+course in Tibetan. David Snellgrove, who for many years was the Ti-
+betan teacher at SOAS, is no longer active in the ﬁeld, and much of his 
+work is perhaps being superseded, but he deserves great credit (and was 
+accorded a Festschrift (1990)) for laying foundations and stimulating 
+interest. The current doyen in this ﬁeld is Professor David Seyfort 
+Ruegg, whose eminence as a Buddhologist was recognised by his elec-
+tion as President of the International Association of Buddhist Studies, 
+and by a volume of papers published in his honour.25 Important recent 
+translations and monographs in this ﬁeld include the books of Martin 
+Boord,26 Rob Mayer,27 Ulrich Pagel28 and Bulcsu Siklos.29 Paul Williams, 
+who writes primarily as a philosopher (though his philological skill is 
+impeccable), has been very productive, especially on the dGe lugs pa 
+school. 
+I have omitted many areas, but I did warn you that I was not out to 
+produce a catalogue. Let me now become a triﬂe self-indulgent and say 
+that the development in Buddhist studies which interests me most per-
+sonally is the revival, since about 1990, in investigating the earliest Bud-
+dhism, which I take to be that of the Buddha himself and that of his 
+immediate disciples. In this area I think a revolution has occurred, 
+though I am not sure that everyone has noticed. Until about ten years 
+ago, the book that I invariably recommended to beginners was What the 
+Buddha Taught30 by Walpola Rahula. That book is still constantly re-
+printed, and deservedly so. But nowadays when I recommend it I say 
+                                                        
+25  Tadeusz Skorupski and Ulrich Pagel (eds), The Buddhist Forum: vol. 3, 1991–1993: 
+Papers in Honour and Appreciation of Professor David Seyfort Ruegg’s Contribution to Indologi-
+cal, Buddhist and Tibetan Studies, London: School of Oriental and African Studies, 1994. 
+26  The Cult of the Deity Vajrakila According to the Texts of the Northern Treasures Tradition of 
+Tibet, Tring: Institute of Buddhist Studies, 1993. 
+27  A Scripture of the Ancient Tantra Collection: the Phurpa bcu-gnyis, Stirling: Kiscadale, 1996. 
+28  The Bodhisattvapi†aka: Its Doctrines, Practices and Their Position in Mahåyåna Literature, 
+Tring: Institute of Buddhist Studies, 1995. 
+29  The Vajrabhairava Tantras: Tibetan and Mongolian Versions, Tring: Institute of Buddhist 
+Studies, 1996. 
+30  Bedford: Gordon Fraser, 1959. 
+
+
+
+<!-- Page 64 -->
+
+GOMBR ICH 
+ 
+152 
+that I can no longer accept the title at face value. I regard the book as 
+an admirable introduction to the Buddha’s teachings as interpreted by 
+Buddhaghosa, in other words to the Theravåda tradition. But I feel that 
+when we study Buddhism as a historical phenomenon we should take 
+seriously the Buddha’s own dictum that all phenomena in this world are 
+liable to change and decay. By this I do not mean that I regard all 
+change as bad or undesirable. What I mean is that in the four centuries 
+between the Buddha’s lifetime and the writing down of the Pali canon 
+the religion must have changed, and gone on changing thereafter, for 
+there is no recorded example of an institution or ideology remaining 
+unchanged for such a long time. Therefore scholars are free to examine 
+the early texts critically and need not follow the interpretations of the 
+commentaries if they see good reason not to. 
+The most remarkable application of this principle has perhaps been 
+Sue Hamilton’s book Early Buddhism: A New Approach.31 I feel that this 
+book has not yet had the recognition it deserves. By a most scrupulous 
+examination of the canonical texts, Sue has argued, to my mind con-
+vincingly, that the Buddha did not preach that no such thing as a soul 
+(whatever that might be) exists, but that the question of its existence 
+was not relevant to what concerned him and should concern us: how to 
+attain salvation – nirvana. The Buddha, Sue maintains, was not preach-
+ing an ontology at all, but was only concerned with experience. Since we 
+could never experience a self, the Buddha argued, we should not 
+bother about it all. In a recent Oxford DPhil Noa Gal builds on Sue’s 
+discovery in a most fruitful and interesting way and shows how Bud-
+dhism came to develop an ontology and so subtly change its doctrines. 
+Her book is about to be published by RoutledgeCurzon as the ﬁrst vol-
+ume in the monograph series of the Oxford Centre for Buddhist Stud-
+ies.32 
+It is not really surprising that the Pali commentaries show little 
+awareness of the Buddha’s historical context, and in particular of the 
+teachings which he was opposing. They thus failed to notice that there 
+                                                        
+31  Richmond: Curzon Press, 2000. 
+32  Now published: Noa Ronkin, Early Buddhist Metaphysics: The Making of a Philosophical 
+Tradition, London and New York: RoutledgeCurzon, 2005; the subject of a review arti-
+cle in the present issue of Buddhist Studies Review, pp. 175–94 (Editor). 
+
+
+
+<!-- Page 65 -->
+
+FIFTY YEA RS OF BU DDHI ST STU DI ES 
+153 
+are indubitable allusions in the sutta-s to the Upani!ads, especially the 
+B®hadåraˆyaka. It is more surprising that this had until recently also es-
+caped the attention of modern commentators. Moreover, it is quite 
+clear that some passages in the sutta-s must have been transferred from 
+their original contexts to others in which they do not make good sense, 
+and that the commentaries ascribed to Buddhaghosa offer varying and 
+inconsistent interpretations of these passages. I gave striking instances 
+of both phenomena in my short article ‘Three souls, one or none’.33 No 
+one who reads that article can remain in doubt that there are inconsis-
+tencies both between sutta-s and between commentaries, so trusting in 
+the inerrancy of every word is no longer an option. 
+I suggested in ‘The Buddha’s Book of Genesis?’34 that the cosmogony 
+propounded in the Aggañña Sutta is best understood as a parody of Ve-
+dic cosmogony. In my book How Buddhism Began35 I combined these 
+concerns with an attention to some of the metaphors the Buddha em-
+ployed, and showed, for example, that it is the ﬁve khandha which are 
+normally on ﬁre with greed, hatred and delusion, the khandha being the 
+bundles of ﬁrewood which it was the daily duty of a brahmin student to 
+collect in order to feed the three sacred ﬁres. The normal translation of 
+khandha as ‘aggregates’ tells us nothing. In the same book I argue that 
+comparison with the B®hadåraˆyaka Upani!ad enables us to say with some 
+certainty that in the Tevijja Sutta the Buddha was preaching that kind-
+ness (mettå) by itself can enable one to attain nirvana; and I enlarge on 
+this in my Gonda Memorial Lecture of 1997, published as Kindness and 
+Compassion as Means to Nirvana.36  
+However, the most remarkable discovery of this kind has been made 
+by Professor Joanna Jurewicz of the University of Warsaw. The chain of 
+dependent origination has to be understood on two levels, the general 
+and the particular. At the general level, it embodies the Buddhist claim 
+that nothing exists without a cause and that indeed there are no ‘things’ 
+existing in total isolation from other ‘things’; there are only causal 
+                                                        
+33  ‘Three souls, one or none: the vagaries of a Pali pericope’, Journal of the Pali Text Society, 
+1987 (11), 73–78, 
+34  ‘The Buddha’s Book of Genesis?’, Indo-Iranian Journal, 35 (1992), 159–78. 
+35  London: Athlone Press, 1996 (2nd edn, London: Routledge, 2006). 
+36  Royal Netherlands Academy of Arts and Sciences, Amsterdam, 1998.  
+
+
+
+<!-- Page 66 -->
+
+GOMBR ICH 
+ 
+154 
+processes. Over the centuries Buddhists came to regard the Buddha’s 
+teaching as ‘the middle way’ in this sense: that he proclaimed neither 
+the existence of things in their own right, which we would now call es-
+sentialism, nor some kind of nihilism, but that the world of our experi-
+ence is a world of ﬂux and process. On the other hand, the particular 
+interpretation of the chain of dependent origination has been con-
+tested among Buddhists from the earliest days: there is simply no 
+agreement on the matter. In her article ‘Playing with Fire: The 
+prat¥tyasamutpåda from the Perspective of Vedic Thought’,37 Professor 
+Jurewicz has demonstrated that the Buddha chose to express himself in 
+these terms because he was responding to Vedic cosmogony as repre-
+sented particularly in the famous ‘Hymn of Creation’, Ùg Veda x, 129, 
+and in the ﬁrst chapter of the B®hadåraˆyaka Upani!ad, but also in the 
+Íatapatha Bråhmaˆa and other Upani!ads. Given the centrality to Bud-
+dhist doctrine of dependent origination, I think this may rank as one of 
+the most important discoveries ever made in Buddhology. 
+Since I am on the point of retiring I suppose this could be regarded 
+as a kind of swansong. I am proud to have played a part in helping to 
+disinter some of the Buddha’s meanings, a process which is already be-
+ing carried forward by my pupils such as Alex Wynne and will no doubt 
+continue. Perhaps perversely, I am also proud that I am still being at-
+tacked now and again for my lack of methodology. Just as in some cases 
+theology can act as a kind of surrogate for faith, methodology, in my 
+view, is a blind for having nothing to say. Methodology means ‘How do 
+you do it?’ Once one realises this simple fact, it becomes obvious that to 
+elevate this straightforward question, necessary at the outset of any en-
+terprise whatsoever, into an alleged academic ﬁeld is sheer hocus pocus. 
+At least Buddhist studies in Britain have achieved one thing: they have 
+been sincerely interested in Buddhism, and generally avoided fatuous 
+verbiage. 
+ 
+Richard Gombrich 
+Oxford Centre for Buddhist Studies 
+ 
+                                                        
+37  Journal of the Pali Text Society, 2000 (26), 77–103 
+
+
+
+<!-- Page 67 -->
+
+ 
+Buddhist Studies Review 22 (2005), 155–73 
+ 
+‘ONLY IF YOU LET GO OF THAT TREE’ 
+ORDINATION WITHOUT PARENTAL CONSENT 
+IN THERAVÓDA VINAYA 
+ 
+KATE CROSBY 
+ 
+his article explores how the Theravåda commentarial tradition, 
+represented by the Samantapåsådikå (Sp), the Vinaya commentary 
+attributed to Buddhaghosa, understood the rule that a monk cannot 
+receive ordination (pabbajjå) without the permission of his parents, and 
+reﬂects on the signiﬁcance of the commentarial interpretation for our 
+understanding of the nature of Theravåda Buddhism. 
+The rule that a monk cannot receive ordination without his parents’ 
+permission is often cited in general studies of Theravåda monastic life as 
+a simple statement without any indication that its interpretation evolved 
+as the Sangha developed in complexity. This is because even writings 
+which claim to look at the history of this lineage are often based solely 
+on what are regarded as the earliest strata of Theravåda literature, 
+namely the Sutta and Vinaya Pi†aka of the Canon, even though much of 
+the Canon is regarded as dating to before the emergence of Theravåda 
+as a distinct strand of Buddhism and overlaps substantially with the ear-
+liest literature of other South Asian Buddhist traditions. Thus Wi-
+jayaratna in his Buddhist Monastic Life according to the texts of the Theravåda 
+tradition twice makes the point that a monk cannot be ordained without 
+parental permission, citing ﬁrstly the Vinaya ruling (Vin i 83) laid down 
+by the Buddha to this effect, and secondly the canonical list of this and 
+the other debarments from ordination, such as certain illnesses.1 He 
+does not cite any ‘texts of the Theravåda’ from the subsequent two mil-
+lennia. Likewise, Gombrich, in his Theravåda Buddhism. A Social History 
+from Ancient Benares to Modern Colombo, in the chapter on ‘The Sangha’s 
+                                                        
+1  1990: 14, 120. 
+T
+
+
+
+<!-- Page 68 -->
+
+CROSBY 
+ 
+156 
+Discipline’ writes that the novitiate ‘must have his parents’ consent’, 
+also citing Vin i 83, without differentiating between ‘original’, historical 
+or modern practice.2 The same point is brieﬂy made by Va-
+jirañåˆavarorasa in the discussion of ordination in his modern guide to 
+monastic practice, the Vinayamukha, which, written in a period of re-
+form of the Thai Sangha, also relies heavily on the canonical Vinaya.3 
+Thus all three authors cited, appropriately drawing on the still authori-
+tative canonical statements, are correct in a narrow sense, but they ig-
+nore the evolution of Theravåda monastic law on this issue. The com-
+mentarial discussion on this rule examined below demonstrates in mi-
+crocosm the potential shortcomings of this methodology – not least be-
+cause it appears that under speciﬁc conditions, monks can be ordained 
+without parental consent. 
+The narrative context for the establishment of the rule on parental 
+consent as recorded at Vin i 83 is the ordination of the Buddha’s son 
+Råhula. Råhula follows his father around, repeatedly pestering him with 
+the demand, ‘Father, give me my inheritance.’ While the demand might 
+be construed as a criticism of the Buddha’s neglect of his son, whom he 
+left behind as a newborn baby when setting out on his quest for enlight-
+enment, the commentary (Sp) provides a kinder interpretation. Råhula 
+is asking his father for his inheritance only in obedience to his mother. 
+She in turn is curious regarding the whereabouts of a treasure known to 
+have been in the Buddha’s possession before his departure, but now 
+mislaid. With it she plans for Råhula to establish himself as a universal 
+emperor, the role that is his rightful inheritance, a role that had been 
+open to the Buddha himself, but which he rejected when he renounced.  
+In response to Råhula’s pestering, the Buddha ﬁnally turns to the sen-
+ior monk, Såriputta, and tells him to ordain Råhula, thus giving him his 
+true ‘inheritance.’ This narrative provides the background for the estab-
+lishment of two rules, the one regarding parental consent for ordina-
+tion, the other regarding the number of novices a monk may take on at 
+one time. 
+                                                        
+2  1988, 106 with note 101. 
+3  1983, iii 97 (English translation of Thai original, which was published in 1921). 
+
+
+
+<!-- Page 69 -->
+
+ORDINAT ION WITHOUT PAR ENT AL CONSENT 
+157 
+According to the narrative framework, it is king Suddhodana, the 
+Buddha’s father and Råhula’s grandfather, who instigates the rule on 
+parental consent. He is upset by Råhula’s ordination and reminded of 
+the poignancy of the grief that he felt at the Buddha’s own renuncia-
+tion. Suddhodana explains to the Buddha the grief he felt on both oc-
+casions, a grief he experiences in spite of being a supporter of the Bud-
+dha, Dhamma and Sangha.4 In the hope of sparing other parents the 
+same grief Suddhodana persuades the Buddha not to allow sons to be 
+ordained without parental permission.5 Thus the Buddha lays down the 
+rule that someone may not receive ordination without the consent of his 
+parents. To ordain someone without the consent of that individual’s 
+parents is ruled a wrongdoing (dukka†a) in Sangha law (Vinaya). This is 
+a lower category of offence than the rules contained in the Påti-
+mokkhasutta, but it indicates expected good practice. 
+The Buddha formulates the rule with respect to sons and not daugh-
+ters. This probably reﬂects the fact that this rule is laid down before the 
+foundation of the nuns’ order in the chronology of the biographical 
+framework in which the rules are set. That the rule applies to daughters 
+as well is clear from the commentary on this passage. Although the rule 
+reads putta ‘son’, Sp takes it to apply to offspring of either gender, as 
+becomes apparent in the clariﬁcation of the rule as it pertains spe-
+ciﬁcally to the duhitå, ‘daughter’, of a nun. This is further conﬁrmed by 
+the discussion of the ordination of nuns in the Bhikkhun¥vibha!ga sec-
+tion of the Vinaya Pi†aka.6 The rule is also included among the rules 
+governing nuns, the Bhikkun¥påtimokkha. Interestingly, its inclusion 
+among the Påtimokkha rules for nuns makes it a more serious offence 
+for a nun than for a monk to ordain someone without parental permis-
+sion. For nuns it is one of the offences requiring ‘simple expiation 
+[through confession]’, suddhapåcittiyå, no. 80.7  
+                                                        
+4  The latter point is made by the commentary, Sp. In the main text Suddhodana de-
+scribes the poignancy of a parent’s grief. The story as found in the main text is partially 
+translated by Wijayaratna 1990: 13–14. 
+5  The motive is made explicit in Sp.  
+6  Translation, Rhys Davids and Oldenberg 1885, iii 349. 
+7  Norman and Pruitt 2001, 189. 
+
+
+
+<!-- Page 70 -->
+
+CROSBY 
+ 
+158 
+The rule that parental consent is necessary for ordination is all very 
+well as far as it goes, but since the Vinaya is largely a system of binding 
+monastic law, it had to be applicable to the realia of monastic life. If one 
+tries to apply this law in practice, or even if one is of a legalistic frame of 
+mind, a series of objections occurs, such as: What if the parents are 
+dead, disagree or live in another country? What if the candidate for or-
+dination is grown up and long independent of his parents? While one 
+may wish to hazard one’s own commonsense answers, a consensus on 
+commonsense may not be achievable between relevant parties. Fur-
+thermore, unless laid down in Sangha law, ‘commonsense’ solutions 
+leave the monk performing the ordination open to the charge of 
+wrongdoing. They might also leave a prospective candidate entirely at 
+the mercy of the character of the individual monk he approaches, the 
+possibility of ordination depending on whether that monk veers towards 
+the literalistic or interpretative in his application of Vinaya law. Further 
+down the line, uncertainties in the validity of the ordination of one 
+member of a particular monastic lineage (nikåya) may invalidate the 
+entire lineage. Such weaknesses make a nikåya particularly vulnerable in 
+times of competition and reform.  
+Inevitably, Vinaya traditions responded to such practicalities of actual 
+monastic life in real communities, and for this reason it may be naïve to 
+rely only on the rules issued by the Buddha in the Vinaya Pi†aka for an 
+accurate presentation of early monastic life. The Vinaya Pi†aka itself in-
+cludes many further adaptations of rules, still attributed to the Buddha 
+himself, including exceptions where infringement is not an offence. 
+After the closure of the Canon, Vinaya experts continued to introduce 
+amendments to rulings which proved in practice to be unrealistic or 
+insufﬁciently speciﬁc, in response to either envisaged or actual excep-
+tions. This process of adaptation and interpretation is one that contin-
+ues to this day in response to the realia of modern, including global, 
+Buddhism.8 
+                                                        
+8  Relatively recent developments include the different approaches taken by different 
+nikåyas to such problems as the ubiquitous need to handle money in the modern 
+world, and to adaptations of such matters as monastic habit and rules on eating in re-
+sponse to the needs of Theravådin monks now living in colder climes, as missionaries, 
+serving Diaspora communities or for more individual reasons. 
+
+
+
+<!-- Page 71 -->
+
+ORDINAT ION WITHOUT PAR ENT AL CONSENT 
+159 
+Sp provides evidence of such developments as had taken place up to 
+the time of its composition in c. ﬁfth century ce.9 In commenting on 
+passages in the Vinaya Pi†aka, it provides additional legalistic interpreta-
+tions and rules. It also mentions alternative interpretations of monastic 
+law that had been developed in closely related Vinaya traditions, the 
+Andhaka and Kurundi traditions. In the commentary to the account of 
+Råhula’s ordination, it offers closer deﬁnition of the rule on parental 
+consent as well as amendments to it. It includes both a list of situations 
+which, while not straightforward, nonetheless do not present exceptions 
+to the rule and a list of those circumstances which do present excep-
+tions and consequently mean that the performance of an ordination 
+without parental consent is not an act of wrong doing.  
+No translation of Sp from Pali into a European language has yet been 
+published. Samantabhadra’s Chinese translation of Sp has been trans-
+lated into English, but the Chinese text lacks most of the detail of the 
+Pali passage on this subject, even stating the opposite on one point, an 
+issue to which I shall return below.10 I therefore offer a translation of 
+the list of amendments as found in the Pali text (Sp v 1011,6–1012,30) 
+in full below. The list includes some of the ‘commonsense’ answers we 
+might have hazarded, but it also includes some surprising reﬁnements 
+and concessions. For the sake of clarity I have broken up the text, which 
+is otherwise continuous, into separate bullet points. I have also provided 
+a heading of the issue being explained for all but the ﬁrst two points. 
+These are in square brackets, as are other words I have added for the 
+sake of clarity. 
+• 
+In this context ‘parents’ refers to birth parents.11 
+                                                        
+9  See von Hinüber 1996, 104 (§ 209) regarding the nature of the attribution of Sp to 
+Buddhaghosa. 
+10  Bapat and Hirakawa 1970. A new translation of the Chinese version is in preparation 
+by Toshiichi Endo.  
+11  Påli jananijanake, literally, ‘set of people producing’, i.e. the birth parents. I wondered 
+if this might be a broader reference to members of the direct blood lineage, since the 
+rule is made in response to Suddhodana’s situation and one might suppose that it 
+would include natural grandparents and so forth as well. However, this is precluded by 
+the subsequent dve, ‘both’. Nevertheless, it is interesting that the list of relatives ex-
+cluded from the required consultative process given below begins with ‘aunt’ and not 
+‘grandparent’.  
+
+
+
+<!-- Page 72 -->
+
+CROSBY 
+ 
+160 
+• 
+If he still has both parents, both must be consulted. 
+• 
+[One parent deceased] If the father or the mother is dead, the remaining 
+living parent must be consulted. 
+• 
+[Parents themselves already ordained] Even if they have themselves been 
+ordained they must still be consulted. 
+• 
+[Who seeks permission?] The parental consent must be sought in person 
+by the monk planning to carry out the ordination, or he may send some-
+one else in his place. Alternatively he may send the candidate himself with 
+the instruction, ‘Go and return once you have consulted your parents.’ If 
+the candidate says ‘I have received permission,’ he can be ordained if the 
+monk performing his ordination regards him as trustworthy.  
+• 
+[Child following parent into Sangha] A father who has himself been or-
+dained and wishes his son to receive ordination too must still consult the 
+mother before having him ordained. In the converse case, a mother want-
+ing her daughter to receive ordination must still consult the father before 
+having her ordained.  
+• 
+[Father abandoned family] Suppose the father has deserted his son and 
+wife making no provision for them, and the mother gives the son to the 
+monks saying, ‘Ordain him.’ If in response to the question ‘Where is his 
+father?’ she says, ‘He has deserted us pursuing his own selﬁsh whims,’ 
+then it is permitted to ordain him.  
+• 
+[Mother abandoned family] Suppose the mother has run off with some 
+man, while the father hands over [the son] saying, ‘Ordain him.’ The 
+same principle applies in this case as in the previous one. 
+• 
+[Father away from home] While the father is away from home, the 
+mother instructs, ‘Ordain him’. When the question is put ‘Where is his fa-
+ther? [she replies,] ‘Why do you need the father, I will vouch for [his an-
+swer].’ According to the Kurundi [Vinaya tradition] it is permissible to 
+proceed with the ordination.12 
+                                                        
+12  The implication is that this view is not acceptable in the Sri Lankan Mahåvihåra tradi-
+tion of which Buddhaghosa, to whom the commentary is attributed, is representative 
+here. Buddhaghosa mentions the contrary opinion of other commentaries. If they go 
+against a statement or implicit understanding in the Canon itself he points this out 
+and rejects them. The Kurundi tradition is currently known only through its mention 
+by Buddhaghosa and later commentators who use Buddhaghosa’s work. 
+
+
+
+<!-- Page 73 -->
+
+ORDINAT ION WITHOUT PAR ENT AL CONSENT 
+161 
+• 
+[Relative in loco parentis] Suppose the parents are both deceased and the 
+child has been raised by an aunt or other relatives. When he is being or-
+dained his relatives either quarrel or take offence. Therefore, in order to 
+avoid disputes, one should consult [the relatives] before ordaining him. 
+But there is no offence committed by someone who performs the ordina-
+tion without having consulted them. 
+• 
+[Adoptive parents] Suppose a child, having been adopted as an infant, 
+calls those who raised him ‘mother and father.’13 The same principle ap-
+plies to them as to the last. 
+• 
+[Ordination of an independent adult] Suppose the son lives independ-
+ently, while his parents do not. Even if he is the king himself, his parents 
+must still be consulted before he can be ordained. 
+• 
+[Repeat ordinations] A boy is granted permission by his parents, but after 
+his ordination he leaves the order again. Even if he is ordained and leaves 
+a hundred times, his parents must be consulted again each time before he 
+is ordained. Suppose the parents say, ‘He leaves the order and comes back 
+and does no work for us. He is ordained but does not keep your vow. 
+There is no need for him to consult us, ordain him any time.’ Once such 
+permission has been given it is permissible to proceed with any further 
+ordination even without consulting the parents. Likewise the boy who was 
+given in his infancy with an agreement such as ‘This boy is given to you. 
+Ordain him when you want.’ can be ordained time and time again with-
+out again consulting the parents. But a child whose parents gave permis-
+sion when he was still a child with the instruction ‘Lord, ordain him,’ if 
+they do not give their permission later on when the boy is grown, this per-
+son cannot be ordained without again consulting his parents.  
+• 
+[Threatening behaviour] Someone who has quarrelled with his parents 
+comes demanding to be ordained. On being told to come back after he 
+has consulted his parents, he replies, ‘I will not leave unless you ordain 
+me. I shall set ﬁre to the monastery, I shall attack you with a knife, I shall 
+harm your relatives or supporters by damaging the hermitage, etc.14, I 
+                                                        
+13  The term is posanaka, literally ‘nourisher’, here ‘foster/adoptive parents’. This mean-
+ing is not in PED. 
+14  I am not sure of ‘by damaging the hermitage’ as the meaning of åråmacchedanåd¥hi. It 
+literally means either by ‘by park/hermitage-cutting etc.’ or ‘by stopping, cutting etc.’ 
+If we take åråma in the former sense of ‘hermitage/park’, following its usual use in Pali 
+texts, which gives the meaning of the sentence as ‘I shall harm/cause loss to your rela-
+
+
+
+<!-- Page 74 -->
+
+CROSBY 
+ 
+162 
+shall jump off a tree and die, I shall join a gang of robbers, I shall emi-
+grate.’ If it is in order to protect life itself, it is permissible to proceed with 
+his ordination. Now when his parents come and ask, ‘Why have you or-
+dained our son?’ one should relate the circumstances to them and ex-
+plain to them, ‘We ordained him for his own protection – verify this with 
+your son.’ When someone has climbed up a tree and is threatening to 
+jump from it, it is only permissible to ordain him once he has released his 
+hands and feet from the tree.15 
+• 
+[From another region] Also one who requests ordination after going to a 
+different region should be ordained if he went there after consulting [his 
+parents]. If not, he should be ordained after a young monk has been sent 
+to consult his parents. If it is an extremely long way, it is permissible to es-
+tablish consent by sending him off with monks even after ordination. In 
+the Kurundi Vinaya tradition, by contrast, it is stated: ‘If it is far away and 
+the road is very difﬁcult, it is permissible to proceed with the ordination 
+after forming the resolution, ‘We shall go and consult them.’’  
+• 
+[Parental permission not speciﬁc to one son] Now if the parents have 
+many sons, and say the following, ‘Sir, ordain whichever of our children 
+you choose,’ [the ordaining monk] may ordain whichever child he wishes 
+after inspecting them.  
+• 
+[Collective permission not speciﬁc to one son] Also if an entire family or 
+village gives the permission with the statement, ‘Sir, ordain whichever 
+member of this family or village you choose,’ the one he chooses can be 
+ordained [without separate consent from that individual’s parents]. 
+                                                                                                                         
+tives and supporters by damaging the hermitage, etc.’, this threat does not appear to 
+be in line with the degree of severity of the other threats mentioned here. The verbs 
+bhedana and uddålana are found for vandalism of monastic property in the Vinaya, but 
+for smaller items, so perhaps chedana is possible in this context. I have not found the 
+phrase elsewhere in the Canon or commentaries, which is surprising, given that it ap-
+pears to be a speciﬁc list. Nor have I found a gloss for this phrase in the commentaries 
+either to Sp or to Såriputta’s Pålimuttakavinayavinicchaya, which includes this passage 
+verbatim (for the commentary to the pabbajjå section in the latter, see Pannasara and 
+Nanavimalatissa 1908: 69–84).  
+15  The wording ‘hands and feet’ here probably reﬂects the method of climbing tall palm 
+trees by binding the feet and hands together around the tree, then levering oneself up 
+by means of the thongs between the hands and feet, the thongs resting in the horizon-
+tal ridges of the trunk. 
+
+
+
+<!-- Page 75 -->
+
+ORDINAT ION WITHOUT PAR ENT AL CONSENT 
+163 
+Perhaps the most surprising adaptation of the rule is that monks are 
+ofﬁcially sanctioned in bowing to pressure, in that they should give in to 
+what appears to be blackmail if the situation threatens to escalate into 
+life-threatening violence. When the parents of the novitiate arrive, in-
+dignantly demanding to know why the Sangha has ordained their son 
+without consulting them, the monks are to reply that it was for his own 
+safety. In other words, they may invoke the higher consideration of pro-
+tecting life. A similar consideration is found in canonical stories about 
+reluctant parents giving their consent for ordination in order to prevent 
+their son dying after he has undertaken a hunger strike to persuade 
+them. The most famous such story is probably that of Sudinna, the ﬁrst 
+member of the Sangha to have sexual intercourse after ordination, nar-
+rated in the frame story for the ﬁrst påråjika rule (offence requiring ex-
+pulsion from the Sangha). This story, as an aside, gives a further, eco-
+nomic reason for ensuring parental consent prior to ordination, not 
+made explicit in Sp. Sudinna has sexual intercourse for economic rea-
+sons – because he had failed to provide his parents with a male heir be-
+fore ordaining, and the government therefore threatens to appropriate 
+their estate.16 
+Avoidance of confrontation more generally, a theme in the narrative 
+framework of rules laid down in the Vinaya Pi†aka itself, continues as 
+the motivation behind a number of the recommendations and rulings 
+here. This is the reason that adoptive parents and relatives who have 
+looked after the child should be consulted anyway, even though their 
+consent is not actually required from a Vinaya perspective. It is curious 
+that, although the rule was, according to both the Canon and the com-
+mentary, originally laid down in response to the grief of Råhula’s grand-
+father, adoptive parents and relatives other than the birth parents do 
+not have the same rights as the birth parents. Even if they are called 
+‘mother’ and ‘father’ by the prospective ordinand, and could presuma-
+bly experience the same grief as birth parents, they should be consulted 
+only out of politeness to ensure harmony, not because the adoptive par-
+ents have the right of veto granted to the birth parents. The compound 
+                                                        
+16  For Sudinna’s story, see Suttavibha"ga påråjika 1, Vin i 11 ff.; cf. Ra††hapåla Sutta (no. 
+82), M ii 55–65.  
+
+
+
+<!-- Page 76 -->
+
+CROSBY 
+ 
+164 
+referring to relatives is cË¬amåtåd¥naµ, ‘little mother, etc’, i.e. junior 
+aunt, etc. It is possible that this is meant to indicate relatives who are not 
+direct ancestors. This amendment to the rule suggests that a motive 
+other than grief, such as ancestral rites or inheritance law, may have 
+contributed to this rule.  
+The statement that deceased parents do not need to be consulted 
+may seem to be stating the obvious, but restricting the requirement for 
+permission to living parents becomes more relevant when one bears in 
+mind that Theravåda thrived in some societies that included in their 
+religious framework both ancestor worship and consultation of spirits 
+and ancestors for permission for personal undertakings. 
+Interestingly from the perspective of gender relations, mother and fa-
+ther have an equal say in their child’s ordination. A further point worth 
+noting is that even parents who have themselves received ordination still 
+appear to have the right to grant or withhold permission for the ordina-
+tion of their child. Furthermore, they must still negotiate with the other 
+parent of their child on the subject. Thus the ‘leaving of society’ to join 
+the Sangha does not automatically deprive one of all the rights or duties 
+held as a member of a family. One remains ‘legally’ connected both to 
+one’s offspring and to the other parent in this matter. The continued 
+rights of parents who are ordained contrast with the lack of rights of a 
+father who has abandoned his wife and child, or a woman who has run 
+off with another man. By doing this, the parent has lost his/her legal 
+rights regarding the child according to Sangha law. The reference to a 
+monk seeking to ordain his own son or a nun her own daughter further 
+suggests that it was sometimes practice for people to keep a child of the 
+same sex with them after ordination by also having the child ordained.17 
+Perhaps entire families sought ordination at the same time, and same-
+sex family units could remain intact. 
+Trust appears to have paid a part in the decision whether or not to 
+ordain a person: thus if the candidate for ordination convinces the or-
+daining monk that his parents approve, the ordination can go ahead. 
+                                                        
+17  This is the implication of the gender-speciﬁc instructions, the father in the case of a 
+son (both then become members of the male Sangha), the mother in the case of a 
+daughter (both then become members of the female Sangha). 
+
+
+
+<!-- Page 77 -->
+
+ORDINAT ION WITHOUT PAR ENT AL CONSENT 
+165 
+Similarly, consultation of parents who live very far away can take place 
+after the ordination. The Kurundi tradition appears more disposed to 
+rely on trust in the absence of one parent. For example, it allows a 
+mother to vouch for the response the father would give, were he able to 
+be present. It also allows an ordination to go ahead with a statement of 
+intent to seek the parents’ permission on a later, convenient occasion 
+should the journey to reach them be a difﬁcult one. It seems that Sp 
+regards the ordination as fully valid only once the consent has been ob-
+tained, even if this is after the ordination has taken place. Unfortunately 
+we know very little about the Kurundi tradition, other than what we 
+glean from Sp, which makes it difﬁcult to contextualise such differ-
+ences. 
+It is clear from statements such as, ‘Sir, ordain whichever member of 
+this family or village you choose,’ that by the time of Buddhaghosa or-
+dination was not always a matter of personal choice. Clearly a family or 
+village could decide it was in their interest to have one of their number 
+ordained, perhaps in the collective desire for the good merit resulting 
+from such an act or in personal response to the monk to whom they 
+offered the candidate. In such instances, a collective will for member-
+ship of the Sangha on the part of an individual of that group is ex-
+pressed. This is far removed from the personal motivations expressed in 
+the testimonies of early members of the Sangha.18 In a few of the scenar-
+ios described above it appears to be the parents who are actively seeking 
+ordination of their child for their own reasons, perhaps when the child 
+is still quite young, rather than in response to their offspring’s own de-
+sire for ordination. This suggests that the belief that having one’s chil-
+dren ordained beneﬁts one’s own karmic welfare – a belief current in 
+Theravåda countries to this day – was already present by the time of 
+Buddhaghosa. Conﬁrmation of this belief at that period is provided by 
+the c. ﬁfth-century Sri Lankan Theravåda chronicle, the Mahåvaµsa, 
+which relates how Asoka had his son Mahinda and daughter 
+Sa!ghamittå ordained after being informed that this was the highest 
+possible gift to the Sangha. The undated Upåsakamanussavinayavaˆˆanå, 
+‘Explanation of the Code of Conduct for Good Buddhists’, also advo-
+                                                        
+18  For example in the Thera- and Ther¥gåthå. 
+
+
+
+<!-- Page 78 -->
+
+CROSBY 
+ 
+166 
+cates ordination of one’s son or daughter as the surest route to a heav-
+enly rebirth: ‘Parents who have their son or daughter ordained in the 
+dispensation of the Buddha will be reborn in heaven.’19 All this reﬂects 
+a Sangha that had to some extent already become an institutionalised 
+niche within society, without expectations that ordination should neces-
+sarily be motivated by personal soteriological aspiration.  
+The importance of having children ordained as a means of merit-
+making for parents by this period suggests a further reason for such de-
+tailed consideration of the issue of parental consent. Given Buddhist 
+emphasis on intentional action, for merit to be accrued intent is impor-
+tant. Ascertaining parental consent could be viewed from the parental 
+side as a means of ensuring that, through such expressed intent on their 
+part, the resulting merit is guaranteed for them. This outcome could be 
+compromised if the ordination took place without their knowledge, par-
+ticularly given the mechanisms of merit-making and so-called ‘merit-
+transfer’ in Theravåda. Even in highly ritualised Theravåda merit trans-
+fer practices, such as those for deceased relatives, the intended recipient 
+of the merit must be named. While the model of such reference to the 
+person in whose name a meritorious act, such as feeding monks or hav-
+ing paritta texts recited, may be sacriﬁcial Indian religion, the success of 
+such practices are explained from a doctrinal perspective in Theravåda 
+with reference to the change in consciousness of the recipient of the 
+merit when they witness the good act performed in their name. 
+The amendments concerning the problem of an individual whose 
+parents live at a distance suggests that seeking ordination in the 
+Theravåda tradition was not necessarily a matter of joining the local 
+religious group, although it is unclear whether this reﬂects individuals 
+choosing one nikåya over another, or the relative inaccessibility of the 
+Sangha for some people, who were nevertheless in some way under its 
+inﬂuence.  
+                                                        
+19  ye puttadh¥taraµ buddhasåsane pabbåjenti te sagge uppajjanti. Final folio of manuscripts, 
+c. 5 lines from the end. For Sinhalese mss see Somadasa 1987–95. For Lånnå ms see 
+von Hinüber 1996, 196 (§ 424). This text has not yet been published, although an edi-
+tion and translation are currently under preparation by the present author. For a fuller 
+description see Crosby (in press). 
+
+
+
+<!-- Page 79 -->
+
+ORDINAT ION WITHOUT PAR ENT AL CONSENT 
+167 
+Finally, the ﬁfth-century Chinese translation of Sp by Samantabhadra 
+includes a version of this passage. In their translation of it, Bapat and 
+Hirakawa note, ‘Pali Text does not wholly support this, as it insists upon 
+permission even after an emergency conversion.’20 From this remark it 
+would appear that Samantabhadra’s text is more lenient than the Pali 
+text, in that it allows for ordination without parental consent in some 
+emergency circumstances where the Pali text does not. Bapat and Hira-
+kawa’s translation of the entire passage from Samantabhadra reads:  
+Therefore, in the original Vinaya, it has been said: ‘If the father and mother 
+do not permit, then he cannot be converted into a recluse’.21 If the father 
+and mother permit, then he may be converted. Having once been converted, 
+he may return to worldly life. If he again wants to become a recluse, he has to 
+seek permission from his father and mother. If the father and mother do not 
+permit, he cannot be converted into a recluse. 
+ 
+ 
+If a man seeks to become a recluse, the Bhikkhus would ask him: ‘Have 
+your father and mother permitted you to become a recluse?’ He replies, ‘Not 
+permitted.’ If he is thus not permitted, then he cannot be converted into a 
+recluse. If he says to the Bhikkhus: ‘If you do not convert me, then I would 
+burn your monastic establishment’ – under such a difﬁcult situation, if one 
+converts him into a recluse, then there is no offence. If there be [some other 
+province in] a different direction, or if there is another town where he can 
+get converted, then one need not ask about his parents’ [permission].22 
+It is immediately clear that Samantabhadra’s text is far shorter and 
+less detailed on the subject of parental consent. It lacks most of the ﬁner 
+points such as the procedure to follow if parents are dead, not one’s 
+birth parents, have abandoned their family, or are in the Sangha. Even 
+where it does cover the same point, such as the need for renewed per-
+mission for someone who disrobes and then joins the order again, it 
+does not distinguish between the different types of permission offered 
+by parents. While it states there is no offence committed if the prospec-
+tive candidate threatens the monastery, it does not discuss threats the 
+candidate makes against himself or other people. Nor does it explain 
+how to deal with aggrieved parents. Contrary to Bapat and Hirakawa, 
+                                                        
+20  Bapat and Hirakawa 1970, 510, footnote 5. 
+21  i.e. ordained. 
+22  Bapat and Hirakawa 1970, 509–10. 
+
+
+
+<!-- Page 80 -->
+
+CROSBY 
+ 
+168 
+the ordination does proceed ‘after an emergency conversion’ without 
+the parents’ permission. The last sentence of the passage, which deals 
+with a different direction or another town, appears to waive the need 
+for parental permission if the ordination is taking place in a different 
+region or town from that of the parents. Here the Pali text offers a list of 
+recourses to ensure parental consent in such circumstances. Neverthe-
+less, it is not clear that the Pali text is in fact stricter on this point. The 
+bottom line in both texts is that the ordination can take place without 
+parental consent in such circumstances. The Pali text, however, stresses 
+the need for retrospective permission in the latter cases, and consulta-
+tion in the former case of emergency ordination. In doing so the Pali 
+text presents fuller advice. As well as laying down the legal requirements 
+the Pali text offers advice on how to deal with the consequences of ex-
+ceptions. These include how to treat adoptive parents and how to deal 
+with aggrieved parents whose child has been ordained without their 
+consent.23 
+In summary, Sp reafﬁrms the rule that an individual may not receive 
+the pabbajjå ordination without their parents’ consent. A number of ex-
+ceptions nevertheless apply. Most of these exceptions are responses to 
+circumstances in which one or both parents are inaccessible through 
+death or desertion. Absence of a parent through travel or the distance 
+of their residence from the proposed place of ordination does not war-
+rant an exception to the rule, although consent may be sought retro-
+spectively in some conditions. The only genuine exception, which un-
+dermines the general rule in that it allows ordination without parental 
+consent even when those parents are available for consultation, is the 
+ruling that one should give in to the threats of someone seeking ordina-
+                                                        
+23  See Bapat and Hirakawa 1970, xlv ff. for a discussion of the differences between the 
+Chinese and Påli texts. The differences between the two texts may reﬂect later reﬁne-
+ments to Sp in the Pali tradition or deliberate abridgement by Samantabhadra of the 
+text on which he based his translation. Although we would not expect Samantabhadra 
+to choose to abridge this very passage because of the emphasis placed on ﬁlial piety in 
+Chinese Buddhism, the fact that the divergence between the Påli and Chinese texts 
+increases as the work progresses has led Toshiichi Endo to conclude that the di-
+vergence is indeed due to increasing abridgement by Samantabhadra (personal com-
+munication, 10 May 2003). This passage occurs towards the ﬁnal stages of the com-
+mentary, where divergence is greater. 
+
+
+
+<!-- Page 81 -->
+
+ORDINAT ION WITHOUT PAR ENT AL CONSENT 
+169 
+tion if life is at stake. If somebody threatens extreme harm to them-
+selves, the Sangha or those connected with the Sangha, one should or-
+dain that person. Aggrieved parents are then advised to sort out the 
+matter with their child after the ordination has taken place.  
+This list of endorsements and amendments to the rule regarding pa-
+rental consent provides practical advice on how to proceed if the per-
+mission of both parents is not readily available for any reason. The text 
+also reveals certain attitudes towards ordination, endorsed by Buddhag-
+hosa in the ﬁfth century, that may seem removed from the original 
+spirit of Buddhist renunciation yet can be recognised in modern 
+Theravåda. These include the move towards childhood ordination, the 
+decision to ordain being a family or collective decision rather than an 
+individual’s, and family responsibilities continuing after ordination.  
+The statements of Sp on such matters are important because they in-
+dicate the developments that took place within the monastic life of 
+Theravåda within the ﬁrst millennium of Buddhism. They are also im-
+portant within Theravåda itself, because Buddhaghosa came to be re-
+garded as the authority in matters of Vinaya. This is particularly true for 
+all those nikåyas, ordination lineages, which regarded themselves as 
+heirs to the reformed Mahåvihåra tradition of twelfth-century Sri Lanka, 
+because Såriputta, the leading light of the Mahåvihåra reform at that 
+time, based several of his own Vinaya writings on Sp.24 The prestige of 
+the twelfth-century Sri Lankan reform, in conjunction with the authority 
+of Buddhaghosa, led to the Vinaya as seen through Sp being taken as 
+ideal monastic law throughout much of medieval Theravåda. 
+This exploration of the rule on parental consent demonstrates that 
+the Vinaya is not monolithic and indicates how important it is not to 
+take the canonical component of Theravåda Vinaya to represent the 
+whole of this tradition and the life of the Sangha throughout its history. 
+In practice and for a very long time Theravåda Vinaya has not consisted 
+solely of precepts enunciated by the Buddha, but has been highly pro-
+ductive in terms of subsequent development and adaptation. The Vi-
+naya, whatever its origin, came to be a sophisticated legal system even 
+                                                        
+24  See Pecenko 1997 for an overview of Såriputta’s writings, and Crosby 2006 regarding 
+the three texts he compiled on the basis of Sp. 
+
+
+
+<!-- Page 82 -->
+
+CROSBY 
+ 
+170 
+within the ﬁrst millennium of its existence. This should warn us that the 
+tendency to view the Theravåda tradition as simple, unevolved, original 
+Buddhism, is achieved only by ignoring the two and half millennia of 
+development which can to some extent be followed through the com-
+mentarial and paracanonical literature. Thus writers on Theravåda 
+Buddhism, such as the authorities Wijayaratna and Gombrich cited at 
+the outset, representing ‘the texts of the Theravåda tradition’ and its 
+‘social history’ respectively, are misleading when they take modern 
+Theravåda as an expression of original Buddhism through an anachro-
+nistic reference to the earliest level of Theravåda literature. They do so 
+in part for simplicity’s sake, but in so doing they inhabit or at least 
+conﬁrm the worldview of intentional reformers and apologists of 
+Theravåda, such as Vajirañåˆavarorasa, also cited at the outset, who 
+sought to make the claim that Theravåda was original Buddhism and 
+must be adapted to appear as such. It is important to remember the ex-
+tent of reforms throughout Theravådin history and that modern con-
+formity with the most emphasised features of canonical Buddhism may 
+be an indication of intentional changes made in this lineage rather than 
+of a stagnation maintained since the canonical texts were established. 
+To some extent, those post-canonical texts that have survived in 
+Theravåda are from those traditions that were most conservative or anx-
+ious to reform Theravåda, to establish their nikåya as orthodox with ref-
+erence to the authority of the Canon, of which Sp is an example. Never-
+theless, developments within Theravåda can still be traced through such 
+post-canonical literature. Such development is more easily seen through 
+the pragmatic concerns of Vinaya and in the open intellectual discourse 
+of Abhidhamma than through the relatively overworked material of the 
+Sutta Pi†aka, yet post-canonical Vinaya and Abhidhamma materials are 
+still little represented in accounts of Theravåda Buddhism. Here one 
+small example has been used to show how looking into such post-
+canonical material may tell us a great deal about Theravåda’s develop-
+ment into an institutionalised religion, with a sophisticated and diver-
+gent legal system, designed not solely for those in pursuit of Nibbåna. 
+Finally, the interpretation of the rule on parental consent in Sp poses 
+questions regarding its application in modern globalised Theravåda. 
+The requirement for parental consent is embodied in all Theravåda 
+
+
+
+<!-- Page 83 -->
+
+ORDINAT ION WITHOUT PAR ENT AL CONSENT 
+171 
+litanies for ordination, so ordaining monks remain aware of this re-
+quirement and ask about parental consent as part of the ritual, even if 
+they are unfamiliar with the commentarial analysis of this require-
+ment.25 However, cultural differences in attitudes towards parents mean 
+that Western converts to Buddhism seeking ordination are less likely to 
+ask their parents for permission. How should the ordaining monks re-
+spond to this attitude in the light of Sp? The perception of greater in-
+dependence of Westerners from their parents should not waive the 
+regulation, given the statement that even a king needs his parents’ con-
+sent. The modiﬁcation of the rule in distant lands does not apply, given 
+that modern technology removes any difﬁculties of communication. 
+The grief experienced by the parent, which instigated the laying down 
+of the rule in the ﬁrst place, may still apply. From these perspectives, 
+monks ordaining Western converts should therefore still require the 
+parents’ consent. However, parents of Western converts are less likely to 
+believe in merit-making or in the necessity of a lineage of progeny for 
+welfare after death. They are less likely to need children for economic 
+reasons. If these appear to be strong considerations in the commentar-
+ial insistance on keeping to the letter of this rule, then the case for in-
+sisting on parental consent in the case of converts is weakened. Another 
+factor is that Western converts are more likely to have explicitly sote-
+riological rather than social motives for ordination, and are also more 
+likely to be eclectic in their acceptance of textual authority. Familiar 
+with the story of the Buddha’s own renunciation against his father’s 
+wishes, they may see his biography as holding greater authority in their  
+                                                        
+25  See Bizot 1988 for the ordination litanies used in Theravådin traditions. 
+
+
+
+<!-- Page 84 -->
+
+CROSBY 
+ 
+172 
+own case than the requirement for parental consent stipulated by the 
+Buddha at a later stage in his life.26  
+ 
+Kate Crosby 
+School of Oriental and African Studies 
+ 
+Abbreviations 
+ 
+M 
+Majjhima Nikåya 
+PED The Pali Text Society’s Pali-English Dictionary, T. W. Rhys Davids 
+and William Stede, Pali Text Society, 1921–1925, repr. Oxford, 
+1986 
+Sp 
+Samantapåsådikå 
+Vin  Vinaya Pi†aka  
+ 
+(Page references are to the Pali Text Society’s editions.) 
+ 
+Bibliography 
+ 
+Bapat, P. V. and Hirakawa, A. (1970), Shan-Chien-P’i-P’o-Sha, A Chinese version by 
+Sa"ghabhadra of Samantapåsådikå, Commentary on Pali Vinaya translated into English for the 
+ﬁrst time, Bhandarkar Oriental Research Institute, Poona. 
+Bizot, F. (1988). Les traditions de la pabbajjå en Asie du Sud-Est: Recherches sur le bouddhisme 
+khmer iv, Vandenhoeck & Ruprecht, Göttingen. 
+                                                        
+26  While I have not conducted a systematic study of this issue in the ordination of West-
+ern converts, I am aware of many cases of converts not seeking parental consent, and 
+of a few where the parents have been against the ordination. I have also several times 
+encountered Diaspora Buddhists who have been attracted to the Friends of the West-
+ern Buddhist Order, designed as a form of Buddhism suited to Western culture, ex-
+plicitly because it authorises its attitude to ﬁlial obedience with reference to the Bud-
+dha’s biography, rather than to the Vinaya rule that the tradition accepts as replacing 
+that authority. The approach taken to this regulation by some scholars and convert 
+practitioners is of relevance to discussions of so-called protestant and orientalist 
+inﬂuences in the cultures of both. 
+
+
+
+<!-- Page 85 -->
+
+ORDINAT ION WITHOUT PAR ENT AL CONSENT 
+173 
+Crosby, Kate (2006), ‘Såriputta’s Three Works on the Samantapåsådikå’, Journal of the Pali 
+Text Society, xxviii, 49–59. 
+—— (in press), ‘A Theravada Code of Conduct for Good Buddhists: the Upåsakamanussa-
+vinaya’, Journal of the American Oriental Society. 
+Gombrich, R. F. (1988), Theravåda Buddhism: A Social History from Ancient Benares to Modern 
+Colombo, Routledge & Kegan Paul, London. 
+von Hinüber, O. (1996), A Handbook of Påli Literature, Walter de Gruyter, Berlin & New 
+York. 
+Norman, K.R. and Pruitt, W. (2001), The Påtimokkha, The Pali Text Society, Oxford. 
+Pannasara, K. and P. Nanavimalatissa (1908), Palimuttaka Vinaya Vinicchaya Sangaha†¥kå, 
+Sudarsana Press, Matara. 
+Rhys Davids, T. W. and Oldenberg, H. (1885), Vinaya Texts translated from the Påli, Part iii, 
+The Kullavagga, iv–xii, Oxford University Press, Oxford. 
+Pecenko, Primoz (1997), ‘Såriputta and his works’, Journal of the Pali Text Society xxiii, 
+159–79. 
+Somadasa, K. D. (1987–95), Catalogue of the Hugh Nevill Collection of Sinhalese manuscripts in 
+the British Library, 7 vols, Pali Text Society, London. 
+Takakusu, J., Nagai, M. and Mizuno, K. (1936), Samantapåsådikå: Buddhaghosa’s Commen-
+tary on the Vinaya Pi†aka, vol. v, The Pali Text Society, repr. Oxford, 1998.  
+Vajirañåˆavarorasa (1983), The Entrance to the Vinaya: Vinaya Mukha, vol. iii, Mahåmakut 
+Råjavidyålaya Press, Bangkok. Thai original 1921. 
+Wijayaratna, M. (1990), Buddhist Monastic Life according to the texts of the Theravåda tradition, 
+Cambridge University Press, translated by C. Grangier and S. Collins from Le Moine 
+bouddhiste selon les textes du Theravåda, Editions du Cerf, Paris, 1983.  
+ 
+ 
+
+
+
+<!-- Page 86 -->
+
+
+
+
+<!-- Page 87 -->
+
+ 
+Buddhist Studies Review 22 (2005), 175–94 
+ 
+ON THE NATURE OF DHAMMAS 
+A REVIEW ARTICLE 
+ 
+RUPERT GETHIN 
+ 
+oa Ronkin’s book, Early Buddhist metaphysics: the making of a philoso-
+phical tradition,1 is a revised version of her Oxford DPhil disserta-
+tion.2 It is concerned with the development of systematic Buddhist 
+thought, speciﬁcally the Theravådin Abhidhamma, both canonical and 
+commentarial. In particular she focuses on the fundamental Abhi-
+dhamma notion of a dhamma. This is an important topic that hitherto 
+has had insufﬁcient attention paid to it. 
+Demonstrating how the notion of a dhamma shifted over the centuries 
+involves Ronkin in trying to trace the precise lines of development of 
+not only the speciﬁcally Theravådin conception of a dhamma but also, in 
+as much as it both coincides and contrasts with the Theravådin, the 
+Sarvåstivådin. To accomplish this she employs two main strategies in 
+addition to straightforward exegesis of Buddhist texts. First, she consid-
+ers the development of Buddhist thought within the wider context of 
+the history of Indian ideas, providing helpful accounts of particular 
+Buddhist ideas in relation to developments in Indian thought more 
+generally, but especially the Vaiße!ika school. Secondly, she elucidates 
+the general philosophical ideas under discussion – substance, process, 
+                                                        
+ 
+Abbreviations: Abhidh-s = Abhidhammatthasa!gaha; Abhidh-s-mh† = Abhidhammattha-
+vibhåvin¥†¥kå; As = Atthasålin¥; Dhs = Dhammasa!gaˆi; Dhs-m† = Dhammasa!gaˆi-mËla†¥kå; 
+M = Majjhima Nikåya; MW = Monier-Williams, A Sansk®it-English Dictionary (Oxford); 
+Nett = Nettippakaraˆa; Nidd-a i = Mahåniddesa-a††hakathå; Moh = Mohavicchedan¥; Pa†is = 
+Pa†isambhidåmagga; Pa†is-a = Pa†isambhidåmagga-a††hakathå; Pa††h = Pa††håna; Pe† = 
+Pe†akopadesa; S = Saµyutta Nikåya; Vibh-a = Vibha!ga-a††hakathå; Vism = Visuddhimagga. 
+Unless stated otherwise, editions are those of the Pali Text Society. 
+1  Early Buddhist metaphysics: the making of a philosophical tradition. Noa Ronkin. London & 
+New York: RoutledgeCurzon, 2005. xiii, 279 pp. £70/$105. isbn 0415345197. 
+2  Noa Gal, ‘A metaphysics of experience: from the Buddha’s teaching to the Abhid-
+hamma’ (2003). 
+N
+
+
+
+<!-- Page 88 -->
+
+GETHI N 
+ 
+176 
+events, categories, individuation, causality – by references to western 
+philosophical debate both historical and contemporary. 
+In both these respects her study is a model of academic method and 
+provides an essential resource for anyone interested in the development 
+of Indian Buddhist philosophy. Much of Ronkin’s thesis I ﬁnd broadly 
+persuasive. Certain details and aspects of her understanding of the de-
+velopment of the Abhidhamma notion of a dhamma, however, I ﬁnd 
+problematic. Nevertheless there is no doubt that Noa Ronkin’s book 
+makes an important contribution to the scholarly discussion of the is-
+sues, shifting it to a new level of sophistication. Since the notion of a 
+dharma/dhamma is basic to Buddhist thought, while the published schol-
+arly discussion of particularly the Theravådin understanding is limited, 
+it seems worth considering Ronkin’s study at some length. 
+1. From dhamma to dhammas 
+She begins by suggesting that the gap between the Nikåyas and at least 
+the canonical Abhidhamma in terms of epistemology and metaphysics 
+may not be as wide as it is sometimes portrayed. The Buddha’s refusal to 
+answer certain questions does not amount to a rejection of metaphysics 
+per se, since choosing to leave certain matters ‘unexplained’ has phi-
+losophical signiﬁcance; she argues that ‘despite the Buddha’s silence on 
+certain ontological matters, he clearly had a distinctive epistemology, 
+subject to the constraints of which there followed, if only implicitly, a 
+particular kind of metaphysics’ (p. 12). Brieﬂy, she sees the Buddha as 
+rejecting ‘the notion that the encountered world is made up of distin-
+guishable substances, and the linguistic theory that words refer to these 
+substances which they represent’ (p. 245); instead he offers a ‘radical 
+metaphysics’ that ‘undermines the very epistemology from which it 
+stems’, advancing ‘a deﬂationary theory of truth’ epitomized by the 
+pa†iccasamuppåda formula (p. 247). While the Abhidhamma enterprise 
+may end in an account of the world in terms of dhammas conceived of as 
+ultimate ‘realities’, nevertheless, argues Ronkin, the concerns which 
+motivate it, especially in the canonical period, remain consonant with 
+the Nikåyas’ epistemological, psychological and soteriological preoccu-
+pations; it is only in the period of the Abhidhamma commentaries that 
+
+
+
+<!-- Page 89 -->
+
+ON THE NATUR E OF DHAMM AS 
+177 
+the ontology of dhammas becomes an issue, and even here the earlier 
+concerns are not entirely lost sight of. 
+Following Richard Gombrich,3 she suggests that the usage of the word 
+dhamma (singular and plural) in the sense of teaching(s) is primary and 
+its usage in the sense of ‘psychological characteristic(s)’ develops from 
+the way in which texts such as the Satipa††håna Sutta is present medita-
+tion as contemplation of such things as the four truths, which are 
+dhammas in the sense of the Buddha’s teachings, but also, crucially, the 
+objects of experience in insight meditation (pp. 37–38). From this de-
+rives the Nikåya usage of the term dhamma to refer to the objects of ex-
+perience more generally: ‘all knowable sensory phenomena of whatever 
+nature’ (p. 39). The totality of these phenomena is analysed by way of 
+various schemes – the ﬁve khandhas, the twelve åyatanas, the eighteen 
+dhåtus – but, Ronkin emphasizes, the concern of these different ways of 
+analysis is with the processes that govern our experience, not with the 
+nature of the sensory phenomena themselves. The latter, however, does 
+become a concern of the Abhidhamma. 
+The Abhidhamma’s dhamma theory is, suggests Ronkin, the product 
+of an attempt to clarify the workings of the processes that govern our 
+experience in ever greater detail. This involves a shift of focus from 
+mental processes to the discrete events – dhammas – that make up these 
+processes: the processes are reduced to fundamental events which can-
+not be analysed further. This shift, at least initially, is not so much a shift 
+in ontology as in epistemology. The Nikåyas and the Abhidhamma are 
+in accord in rejecting a substance metaphysics (p. 71); they differ in the 
+details of their conception of that metaphysics. Moreover, the focus of 
+at least the canonical Abhidhamma remains essentially epistemological: 
+it is concerned ‘with psycho-physical occurrences that arise in con-
+sciousness – and in this sense form one’s “world” – not with what exists 
+per se in a mind-independent world’ (p. 76).  
+The kind of account Ronkin offers of the semantic evolution of 
+dhamma (in the sense of the teaching) to dhammas (in the sense of ‘ob-
+                                                        
+3  Richard F. Gombrich, How Buddhism Began: The Conditioned Genesis of the Early Teachings 
+(London: Athlone, 1996), pp. 34–37. 
+
+
+
+<!-- Page 90 -->
+
+GETHI N 
+ 
+178 
+ject of thought’) might be questioned.4 Certainly there are other possi-
+ble models. The Geigers, for example, saw matters rather differently,5 
+and more recently I have suggested that the Nikåya usage of dhamma at 
+the end of a bahuvr¥hi compound in the sense of a particular nature or 
+quality possessed by something is adequate to explain the basic usage of 
+dhamma in the sense of a psychological quality or characteristic in the 
+Nikåyas and canonical Abhidhamma: the shift of focus is simply from 
+the nature, quality or characteristic of some particular thing, to qualities 
+or characteristics conceived more generally; in fact, the usage of dharma 
+in the sense of ‘property’ or ‘characteristic attribute’ would seem to de-
+rive directly from the Vedas, Bråhmaˆas and early Upani"ads.6 
+2. Sabhåva as the individuator and cause of a dhamma 
+Precisely how dhamma comes to be used in the early Abhidhamma in the 
+sense of psycho-physical event is incidental to Ronkin’s main focus, 
+which is how the Abhidhamma understood the ‘true nature’ of the psy-
+cho-physical occurrences termed dhammas. The key concept here, she 
+suggests, is that of sabhåva, and she devotes some considerable space to 
+its development in Buddhist doctrinal thought. She cites Ñåˆamoli’s 
+observation that the term sabhåva seems to appear only once in the 
+canon (Pa†is ii 178), yet goes on to note that it is also found in the ca-
+nonical Buddhavaµsa (twice) and in the paracanonical Pe†akopadesa, Net-
+                                                        
+4  In their review of Gombrich’s How Buddhism Began, Maithrimurthi and von Rospatt 
+have pointed out that the evidence of other early accounts of sm®tyupasthåna in Bud-
+dhist Sanskrit and Chinese translation shows that ‘the scope of the term dharma in the 
+Sm®tyupasthånasËtra came to be extended because dharma was already used in other 
+contexts in its broad meaning as referring to any thing or phenomenon, and not vice 
+versa, as [Gombrich] suggests’ (Indo-Iranian Journal, 41 (1998), 164–79 (175, n. 11)). 
+5  The Geigers tend to see dhamma in the sense of the ‘law’ of the world – or, perhaps, 
+ultimate ‘truth’ about reality – as basic. Because the dhamma – the law of the world and 
+nature consisting in the arising and disappearance, the ﬂeetingness and emptiness of 
+reality – becomes manifest in the ‘things’ that constitute the world of experience as 
+perceived by the mind, they come to be designated ‘laws’, ‘norms’or ‘truths’, because 
+seeing them, one sees the Law, the Truth. See Magdelene and Wilhelm Geiger, Påli 
+Dhamma vornehmlich in der kanonischen Literatur (Munich: Bayerischen Akademie der 
+Wissenschaften, 1920), pp. 8–9. 
+6  Rupert Gethin, ‘He who sees dhamma sees dhammas: dhamma in early Buddhism’, Jour-
+nal of Indian Philosophy, 32 (2004), 513–42 (530–34). 
+
+
+
+<!-- Page 91 -->
+
+ON THE NATUR E OF DHAMM AS 
+179 
+tippakaraˆa and Milindapañha (p. 87).7 She suggests that in these texts 
+sabhåva is used in a variety of senses (nature, essence), but – with the 
+exception of the Pe†akopadesa and Nettippakaraˆa – without a speciﬁc 
+technical meaning related to the notion of a dhamma. She moves on to 
+consider the concept of sabhåva in the Pali commentarial texts. She 
+concludes that in these, in contrast to the earlier texts, sabhåva is unam-
+biguously used for the ﬁrst time in the sense of ‘an atemporal category 
+determining what each and every single dhamma is’; a sabhåva is ‘a de-
+terminant of a dhamma’s individuality’ (p. 114).8 Nevertheless, Ronkin 
+again stresses that this is not so much a question of ontology as psychol-
+ogy; the concern is ‘[to determine] the individuality of the dhammas as 
+psycho-physical events as they appear in consciousness, not their exis-
+tence per se’ (p. 111). In this connection she suggests that Paul Williams 
+may be overconﬁdent in his claim that the Sarvåstivådins and 
+Theravådins straightforwardly agree that ‘it is the presence or absence 
+of the svabhåva that renders the entity a primary existent’.9 As she notes 
+(pp. 111, 226), it is signiﬁcant that the Theravådin Óbhidhammikas 
+rejected the Sarvåstivådin equation of dharma with dravya, a term used 
+in the technical sense of ‘substance’ by the Vaiße"ikas. 
+None the less, Ronkin argues (p. 122; see also pp. 153, 161), the 
+Theravådin commentarial Abhidhamma does draw a speciﬁc ontology 
+from its account of the world in terms of dhammas determined and indi-
+viduated by their sabhåvas. For once every possible event presenting it-
+self to consciousness is knowable and nameable, ‘the words and con-
+                                                        
+7  In fact searchable digital texts allow us to add occurrences in the verses of the Apadåna 
+(p. 319), Cariyåpi†aka (79) and Jåtaka (iii 523). 
+8  Given her earlier discussion (pp. 98–103) of the use of sabhåva in the Pe†akopadesa, and 
+Nettippakaraˆa, it is not clear to me why she regards the sense of ‘a determinant of a 
+dhamma’s individuality’ as ﬁrst found in the commentaries. In both these texts (Pe† 
+104, Nett 78–81) the ‘cause’ (hetu) of a dhamma is explained as the sabhåva, its ‘own-
+nature’, in contrast to its condition (paccaya) which is the parabhåva or ‘nature of an-
+other’ (or perhaps better, ‘that which has a different nature’); she comments (p. 100) 
+that here ‘sabhåva is what determines the individuality of a dhamma as this particular 
+instant rather than that’. It seems that she takes the dhammas referred to in these pas-
+sages as the Buddha’s teachings or ‘dhamma series’ rather than speciﬁc psycho-physical 
+occurrences; I am not convinced this is warranted. 
+9  Paul Williams, ‘On the Abhidharma Ontology’, Journal of Indian Philosophy, 9 (1981), 
+227–57 (242). 
+
+
+
+<!-- Page 92 -->
+
+GETHI N 
+ 
+180 
+cepts employed in the systematic discourse that is thus developed 
+uniquely deﬁne their corresponding referents’; and this 
+paves the way for conceptual realism – a world view that is based on the no-
+tion of truth as constituted by a correspondence between our concepts and 
+statements, on the one hand, and the features of an independent, determi-
+nate reality, on the other hand. (p. 122) 
+Indeed, there can be little doubt that the ﬁnal outlook of the 
+Theravådin Abhidhamma should be characterised as involving some 
+form of ‘conceptual realism’. In fact this seems most clearly articulated 
+in connection with Abhidhamma theory of concepts, which involves a 
+distinction between concepts of things which are existent (vijjamåna-
+paññatti) and nonexistent (avijjamåna-paññatti),10 but Ronkin only 
+brieﬂy considers the notion of paññatti (pp. 28, 161, 179).  
+A difﬁculty with the details of Ronkin’s account of the evolution of 
+the concept of sabhåva in the Theravådin Abhidhamma, however, is that 
+at crucial points she is swayed by earlier scholars’ speciﬁc translations of 
+the word in particular contexts, which causes her sometimes to over in-
+terpret the term. I suggested above that the technical Abhidhamma use 
+of dhamma might be seen as deriving from a more general usage in the 
+sense of ‘quality’ or ‘characteristic’; this helps us to make sense of the 
+commentarial equation of dhamma and sabhåva (noted by Ronkin on p. 
+114), and speciﬁcally the statement that dhammas are so-called ‘because 
+they support (dhårenti) their own particular natures, or because they are 
+supported (dhår¥yanti) by causal conditions’.11 Both dhamma and sabhåva 
+thus start as different words for the ‘condition’, ‘quality’, ‘nature’ or 
+‘characteristic’ of something, and the etymological explanation might 
+then be understood, I think, as a direct counter to the Nyåya-Vaiße"ika 
+idea of dharmas as ‘properties’ that are ‘supported’ by or possessed by an 
+                                                        
+10  e.g. Abhidh-s 43, Abhidh-s-mh† 194. 
+11  As 39: attano pana sabhåvaµ dhårent¥ ti dhammå. dhår¥yanti vå paccayehi, dhår¥yanti vå 
+yathå sabhåvato ti dhammå. (cf. Nidd-a i 16; Pa†is-a i 18; Moh 6.) The same basic 
+deﬁnition is also found in the northern sources; see Collett Cox, ‘From category to on-
+tology: the changing role of dharma in Sarvåstivåda Abhidharma’, Journal of Indian Phi-
+losophy, 32 (2004), 543–97 (558–59, n. 70). 
+
+
+
+<!-- Page 93 -->
+
+ON THE NATUR E OF DHAMM AS 
+181 
+underlying substance (dharmin) distinct from themselves;12 Buddhist 
+dhammas, in contrast, are not the properties of anything. This reinforces 
+a point that Ronkin makes in several places, namely, that the develop-
+ment of Abhidharma thought should be understood against the back-
+ground of Nyåya-Vaiße"ika thought. 
+It seems clear that the Buddhist usage of sabhåva derives from the or-
+dinary Sanskrit sense of svabhåva, which would seem to be the ‘natural 
+condition’ or ‘inherent nature’ of something.13 Note that it is bhåva in 
+the sense of ‘condition’, ‘state’ or ‘disposition’, rather than ‘being’ or 
+‘existence’ that seems primarily relevant to svabhåva.14 Ronkin begins 
+her own discussion with the Pa†isambhidåmagga (ii 178) statement: jåtaµ 
+rËpaµ sabhåvena suññaµ. She initially translates (partially): ‘Born mate-
+riality is empty of sabhåva …’ This begs the question of the force of the 
+instrumental sabhåvena. The phrase might be translated ‘produced ma-
+teriality is by nature (i.e. naturally, intrinsically) empty’.15 In fact this 
+seems to ﬁt Ronkin’s understanding of the Pa†isambhidåmagga here bet-
+ter than her implied ‘born materiality is empty of nature’: 
+Taking into account the context, namely, expounding the predication of the 
+world by the term ‘empty’, and which dhammas are listed in the above måtikå, 
+this extract means that the totality of human experience is devoid of an en-
+during substance […] because this totality is dependent on many and various 
+conditions, and is of the nature of being subject to a continuous process of 
+origination and dissolution … In this context, then, the term sabhåva appears 
+to be interchangeable with dhamma in its sense of ‘nature’. (pp. 92–93) 
+                                                        
+12  W. Halbfass, India and Europe: An Essay in Understanding (Albany: State University of 
+New York Press, 1988), p. 334. That the commentarial deﬁnition of a dhamma as that 
+which carries its ‘own nature’ should not be interpreted as implying that a dhamma is a 
+substantial bearer of its qualities or ‘own-nature’ has been pointed out by Nyanaponika 
+Thera, Abhidhamma Studies, 4th edn (Boston: Wisdom, 1998), pp. 40–41, and Y. Ka-
+runadasa, The Dhamma Theory, The Wheel Publication 412/413 (Kandy: Buddhist Pub-
+lication Society, 1996), pp. 14–16. Ronkin notes this (p. 112), but does not attach par-
+ticular signiﬁcance to it. 
+13  cf. MW, s.v. svabhåva, cites its usage in the Ívetåßvatara-Upani#ad, Manusm®ti and Ma-
+håbhårata; the use of the term in Buddhist literature generally is clearly relatively late. 
+14  cf. MW s.v. bhåva; among the meanings included for bhåva here are nature, tempera-
+ment, character. 
+15  MW (s.v. svabhåva) gives svabhåvåt, svabhåvena, svabhåvatas all as meaning ‘by nature’, 
+‘naturally’, ‘by oneself’. 
+
+
+
+<!-- Page 94 -->
+
+GETHI N 
+ 
+182 
+An argument for translating ‘empty of sabhåva’ might, however, be 
+made on the basis of context. The Pa†isambhidåmagga’s ‘discourse on the 
+empty’ (suññakathå) (ii 177–83) begins by quoting a Nikåya discussion 
+of emptiness where it seems we must translate an instrumental with su-
+ñña- as ‘empty of …’.16 The Pa†isambhidåmagga then proceeds by ex-
+plaining a series of twenty-ﬁve types of emptiness. Mostly this involves 
+specifying how something is empty of something else. This suggests that 
+when we come to ‘the emptiness that is change’ (vipariˆåma-suñña) we 
+should translate accordingly: ‘produced materiality is empty of sabhåva; 
+materiality that has departed is both changed and empty’ (jåtaµ rËpaµ 
+sabhåvena suññaµ. vigataµ rËpaµ vipariˆatañ c’ eva suññañ ca). The 
+problem is then to decide what precisely sabhåva means. Given the clear 
+emphasis on materiality – and all the other 198 items speciﬁed here – as 
+‘produced’ (jåta) and ‘departed’ (vigata), it seems quite possible that it 
+is materiality’s own existence, rather than nature, that is intended. But 
+the argument for translating ‘empty of sabhåva’ here remains inconclu-
+sive, since in the case of some kinds of emptiness we have a different 
+construction.17 
+A little later Ronkin turns to the Mahånåma’s commentarial exegesis 
+of this passage (Pa†is-a iii 634–35). Ñåˆamoli provides a translation of 
+this in a note to his translation of the Pa†isambhidåmagga.18 I think there 
+are a number of problems with Ñåˆamoli’s interpretation; in particular 
+his translation of bhåva as ‘essence’ obscures the different explanations 
+of sabhåva offered in the commentary. Ronkin does not offer her own 
+translation, and it seems clear that her interpretation is largely based on 
+Ñåˆamoli’s: 
+Mahånåma initially analyses the compound sabhåva as sayaµ bhåvo, or sako 
+bhåvo, that is, ‘essence by itself’ or ‘essence of itself ’, explaining this to mean 
+‘arising by itself ’ (sayam eva uppådo) or ‘own-arising’ (attano yeva uppådo). 
+                                                        
+16  S iv 54: yasmå ca kho, Ónanda, suññaµ attena vå attaniyena vå tasmå suñño loko ti vuccati. 
+This kind of usage of the instrumental is, of course, quite regular; see also M iii 104: 
+ayaµ migåramåtupåsådo suñño hatthigavassava¬avena. 
+17  Pa†is ii 179: ‘by means of desirelessness, sense-desire is both suppressed and [made] 
+empty’ (nekkhammena kåmacchando vikkhambhito c’ eva suñño ca). 
+18  Bhikkhu Ñåˆamoli, The Path of Discrimination (London: Pali Text Society, 1982), p. 
+362, n. 1. 
+
+
+
+<!-- Page 95 -->
+
+ON THE NATUR E OF DHAMM AS 
+183 
+Given this interpretation, to translate bhåvo as ‘nature’ is inappropriate, for 
+the commentator points to the narrower and more technical sense of es-
+sence. Mahånåma then turns to an explication of the coupling sabhåvena su-
+ññaµ. First, he states that essence, bhåva, is but a ﬁgurative designation for 
+dhamma, and since each single dhamma does not have any other dhamma 
+called ‘essence’, it is empty of essence other than itself. This, in fact, reveals a 
+different analysis of sabhåva, as ‘the essence that it has of itself’ (sakassa 
+bhåvo). It thus follows that every single dhamma has a single ‘essence-hood’ 
+(ekassabhåvatå). (pp. 93–94) 
+Following Ñåˆamoli, Ronkin here takes bhåva in the context of what are 
+two quite distinct explanations of sabhåva as meaning ‘essence’. She also 
+suggests that the second of Mahånåma’s initial analyses of sabhåva is as 
+sako bhåvo. In fact there is a variant here in the different editions; the 
+Burmese and Thai editions both read not sako vå bhåvo but sato vå bhåvo, 
+and three times attato where the PTS edition has attano.19 The ablatival 
+sato (Sanskrit svatas) and attato seem to make better sense.20 I would 
+thus translate Mahånåma’s ﬁrst explanation as follows: 
+Sabhåva here is self (sayaµ) existence (bhåvo); ‘arising just by itself’ is what it 
+means. Alternatively, sabhåva is existence (bhåvo) from self (sato); ‘arising just 
+of itself’ is what it means. Because of [materiality’s] occurring depending on 
+conditions, there is no existence within it just by itself, there is no existence 
+just of itself without a causal condition, and so it is empty of self-existence; ‘it 
+is empty of existence just by itself, just of itself’ is what is being said.21 
+As my translation indicates, I agree that here, in the context of Mahå-
+nåma’s explanation, we must take the instrumental sabhåvena in the 
+sense of ‘of sabhåva’. Yet, while I think Ronkin is right in suggesting that 
+‘to translate bhåvo as “nature” is inappropriate’, I do not think ‘essence’ 
+works here either – notwithstanding her distinction (p. 94) between the 
+                                                        
+19  My comments are based on the texts of the ‘Cha††ha Sa!gåyana’ (Vipassana Research 
+Institute, Igatpuri) and BUDSIR (Mahidol University, Bangkok) CD-ROMs. 
+20  cf. the play on svabhåva at MËla-madhyamakakårikå i 3–5 na svato nåpi parato na dvåb-
+hyåµ nåpy ahetuta˙ | utpannå jåtu vidyante bhåvå˙ kva cana ke cana || … na hi svabhåvo 
+bhåvånåµ pratyayådi!u vidyate | avidyamåne svabhåve parabhåvo na vidyate || 
+21  sabhåvena suññan ti ettha sayaµ bhåvo sabhåvo, sayam eva uppådo ti attho. sato vå bhåvo 
+sabhåvo, attato yeva uppådo ti attho. paccayåyattavuttittå paccayaµ vinå sayam eva bhåvo, at-
+tato eva vå bhåvo etasmiµ natth¥ ti sabhåvena suññaµ, sayam eva bhåvena, attato eva vå 
+bhåvena suññan ti vuttaµ hoti. 
+
+
+
+<!-- Page 96 -->
+
+GETHI N 
+ 
+184 
+epistemological and ontological senses of ‘essence’. Mahånåma glosses 
+bhåva with uppåda and his explanation seems concerned with how some-
+thing comes into existence: he suggests that something such as material-
+ity cannot be said to come into existence by itself in the absence of 
+causal conditions. 
+Mahånåma goes on to offer an alternative explanation where I think 
+the sense of ‘nature’ is appropriate. I would translate as follows: 
+Alternatively, sabhåva is the nature (bhåvo) of an associate (sakassa). For a 
+particular dhamma among the various material and immaterial dhammas such 
+as earth, etc., is called ‘an associate’ with reference to another [dhamma]; 
+bhåva is also a synonym for dhamma, and one particular ‘quality’ (dhamma) 
+does not belong to another ‘quality’ (dhamma) – here termed ‘nature’ 
+(bhåva). Therefore [materiality] is empty of the different nature of an associ-
+ate; ‘an associate is empty of a different nature’ is what it means. By this it is 
+stated that one particular dhamma has one particular nature.22 
+It seems that, like Ñåˆamoli, Ronkin misunderstands saka in the above 
+passage, which must be being used in the general sense of ‘what belongs 
+to’ (i.e. friends, relatives, property) and I have rendered as ‘associate’. 
+Although certainly contrived as an explanation of sabhåvena suññaµ in 
+its Pa†isambhidåmagga context,23 it says nothing more than that a dhamma 
+is to be deﬁned as a single distinct ‘quality’ in relation to other qualities. 
+Yet Ronkin goes on to suggest that:  
+Mahånåma oscillates between an epistemological and ontological interpreta-
+tions of sabhåva as essence: his initial explanation of sabhåva as sayaµ/sako 
+bhåvo draws on the epistemological sense of essence as an individuator of a 
+dhamma. His analysis of sabhåva as sakassa bhåvo/ekassabhåvatå, though, relies 
+on the ontological aspect of essence as the cause of a dhamma’s being. The 
+meaning suggested here is that a dhamma is independent of other dhammas 
+for its existence; it bears its own reality all by itself. (p. 94) 
+                                                        
+22  atha vå sakassa bhåvo sabhåvo. pathav¥dhåtu-åd¥su hi anekesu rËpårËpadhammesu ekeko 
+dhammo paraµ upådåya sako nåma. bhåvo ti ca dhammapariyåyavacanam etaµ. ekassa ca 
+dhammassa añño bhåvasa"khåto dhammo natthi, tasmå sakassa aññena bhåvena suññaµ, 
+sako aññena bhåvena suñño ti attho. tena ekassa dhammassa ekasabhåvatå vuttå hoti. 
+23  It seems Mahånåma wants to avoid contradicting the commentarial dictum that a 
+dhamma upholds its own nature (sabhåva); he therefore contrives a way of interpreting 
+sabhåvena suññaµ as saying a dhamma is empty not of its own nature but of another 
+dhamma’s nature (sakassa bhåvo). 
+
+
+
+<!-- Page 97 -->
+
+ON THE NATUR E OF DHAMM AS 
+185 
+But all that Mahånåma is doing here, I think, is offering two different 
+explanations of sabhåva based on two quite distinct senses of bhåva – 
+‘existence’ and ‘nature’.24 Moreover, Mahånåma’s initial explanation of 
+sabhåva precisely denies that ‘a dhamma is independent of other dham-
+mas for its existence’; while ‘his analysis of sabhåva as sakassa 
+bhåvo/ekassabhåvatå’ does not explicitly go beyond the epistemological 
+sense of sabhåva as an individuator of a dhamma. I see no evidence in 
+this passage for the claim that Mahånåma understands that ‘sabhåva is 
+the cause of the dhamma’s actual existence’ or that he ‘begins by analys-
+ing sabhåva as sva+bhåva, “own-nature”, but eventually divides the com-
+pound into sat+bhåva, “real essence” ’. 
+I render Mahånåma’s third explanation of sabhåva as follows: 
+Alternatively, ‘empty sabhåvena’ means ‘empty because of being empty in na-
+ture’. What is being said? That it is empty simply because of the emptiness of 
+what is empty, not because of other alternative senses of emptiness.25 
+Ronkin suggests (p. 95) that this explanation is more in harmony with 
+the Pa†isambhidåmagga’s spirit, and I think she is right. What I think Ma-
+hånåma wants to suggest here is that the Pa†isambhidåmagga phrase 
+might be taken (as I initially suggested above) as meaning ‘produced 
+materiality is inherently empty’. But rather puzzlingly Ronkin seems to 
+conﬂate this third explanation with the second when she claims that in 
+this context Mahånåma ‘refers to “every single dhamma” (ekassa dham-
+massa), thus attesting to the view that the emptiness of essence is a dis-
+tinguishing mark unique to every single dhamma’, a view she considers 
+out of harmony with the Pa†isambhidåmagga. Yet it is a single nature (eka-
+sabhåvatå) that Mahånama says ‘every single’ dhamma has, not ‘empti-
+ness of essence’. 
+Appended to Mahånåma’s three explanations is a further discussion 
+of the implications of saying that something is empty sabhåvena. It seems 
+worth offering a full translation as an alternative to Ñåˆamoli’s:  
+                                                        
+24  Richard Hayes argues that Någårjuna exploits the same two senses of svabhåva at MËla-
+madhyamakakårikå i 3–5; see ‘Någårjuna’s Appeal’, Journal of Indian Philosophy, 22 
+(1994), 299–378 (308–15). Hayes also offers a clear account of the possible meanings 
+of svabhåva based on the principles of Påˆinian grammar (316–17). 
+25  atha vå sabhåvena suññan ti suññasabhåven’ eva suññaµ. kiµ vuttaµ hoti? suññasuññatåya 
+eva suññaµ, na aññåhi pariyåyasuññatåhi suññan ti vuttaµ hoti. 
+
+
+
+<!-- Page 98 -->
+
+GETHI N 
+ 
+186 
+However, suppose some should argue as follows: ‘Sabhåva is something’s own 
+(sako) nature (bhåvo), so what is meant by saying something is “empty of its 
+own nature”? A dhamma is a “nature” and when it is distinguished by its own 
+position in relation to another it is called “that which has its own nature” 
+(sabhåva); [and so] when it is said that produced materiality is empty of its 
+own nature, because of the non-existence of any dhamma, the non-existence 
+of materiality is stated.’ In that case it conﬂicts with the words ‘produced ma-
+teriality’, for something which lacks arising cannot be called ‘produced’. In-
+deed, nirvana lacks arising and it cannot be called ‘produced’; and birth, old 
+age and death lack arising and cannot be called ‘produced’. It is precisely for 
+this reason that in the present context [Pa†is ii 178] the words ‘produced 
+birth is empty of its own nature, produced old age and death are empty of 
+their own nature’ are not included, and the explanation ends with ‘becom-
+ing’. If it were valid to say of something even though it lacked arising, ‘it is 
+produced’, then ‘produced birth … produced old age and death …’ should 
+have been stated [here]. Since the word ‘produced’is not used of birth, old 
+age and death which lack arising, the statement that what is by its own nature 
+empty is non-existent conﬂicts with the statement that it is something ‘pro-
+duced’, since something that is non-existent lacks arising. Moreover, that the 
+statement ‘it is empty’ applies to something that is non-existent conﬂicts with 
+ordinary usage of language as stated above, and also with the words of the 
+Blessed One, and with statements in the books of grammar and logic; in-
+deed, it conﬂicts with several rational arguments. Therefore the statement 
+should be discarded as rubbish. Both on account of several authoritative 
+statements of the Buddha such as [… S iii 138–39] and of several arguments 
+the conclusion to be reached about this matter is that dhammas certainly exist 
+in their own moment.26 
+                                                        
+26  sace pana keci vadeyyuµ ‘sako bhåvo sabhåvo, tena “sabhåvena suññan” ti kiµ vuttaµ hoti? 
+bhåvo ti dhammo, so paraµ upådåya sapadena visesito sabhåvo nåma hoti. dhammassa kassa ci 
+avijjamånattå “jåtaµ rËpaµ sabhåvena suññan” ti rËpassa avijjamånatå vuttå hot¥’ ti. evaµ 
+sati ‘jåtaµ rËpan’ ti vacanena virujjhati. na hi uppådarahitaµ jåtaµ nåma hoti. nibbånañ hi 
+uppådarahitaµ, taµ jåtaµ nåma na hoti, jåtijaråmaraˆåni ca uppådarahitåni jåtåni nåma na 
+honti. ten’ ev’ ettha ‘jåtå jåti sabhåvena suññå, jåtaµ jaråmaraˆaµ sabhåvena suññan’ ti 
+evaµ anuddharitvå bhavam eva avasånaµ katvå niddi††haµ. yadi uppådarahitassåpi ‘jåtan’ ti 
+vacanaµ yujjeyya, ‘jåtå jåti, jåtaµ jaråmaraˆan’ ti vattabbaµ bhaveyya. yasmå uppådarahitesu 
+jåtijaråmaraˆesu ‘jåtan’ ti vacanaµ na vuttaµ, tasmå ‘sabhåvena suññaµ avijjamånan’ ti va-
+canaµ avijjamånassa uppådarahitattå ‘jåtan’ ti vacanena virujjhati. avijjamånassa ca ‘suñ-
+ñan’ ti vacanaµ he††hå vuttena lokavacanena ca bhagavato vacanena ca ñåyasaddaganthava-
+canena ca virujjhati, anekåhi ca yutt¥hi virujjhati, tasmå taµ vacanaµ kacavaram iva 
+
+
+
+<!-- Page 99 -->
+
+ON THE NATUR E OF DHAMM AS 
+187 
+With reference to this further discussion, Ronkin points out that Ma-
+hånåma thus rejects the inference that being empty sabhåvena entails 
+non-existence – ‘that dhammas are completely empty having no reality at 
+all’ (p. 95). I agree. Mahånåma is clearly concerned to avoid the sugges-
+tion that dhammas do not really exist, and may well have as his target 
+here the Mådhyamika notion of ßËnyatå. Nevertheless, I think Ronkin 
+over interprets Mahånåma’s account of sabhåva when she suggests that 
+he presents the sabhåva as ‘the cause of the dhamma’s actual existence 
+and its evidence’ (p. 94). 27 The sabhåva here is what a dhamma is, rather 
+than the cause of its existence. 
+In chapter four of her book, Ronkin explores in precisely what way 
+the terms of Abhidhamma discourse ‘uniquely deﬁne their correspond-
+ing referents’. As Ronkin points out, dhammas as they actually occur are 
+conceived of as unique ‘individuals’, differing in quality and intensity 
+from other instances of a dhamma of the same kind (pp. 147–50). With 
+reference to the philosophical concept of an ‘individual’ and the history 
+of ‘categories’, both western and Indian, Ronkin concludes: 
+[Sabhåva] denotes a structural constituent that is essential to a dhamma and 
+that enables us to fathom why that dhamma possesses the characteristics it 
+has. Sabhåva is what determines the dhamma’s internal organization or dispo-
+sition, which makes it behave in a certain way or fulﬁl a speciﬁc function. We 
+are now in position to say that sabhåva is the principle cause of the dhamma’s 
+individuality; what makes the dhamma the very particular it is rather than any 
+other individual of the same kind. (p. 170) 
+Certainly, as she points out (p. 171), ‘there is a close connection be-
+tween being an individual – being distinguishable, determined and de-
+ﬁnable – and existing’, but as I indicated above, it is not clear to me 
+precisely on what grounds Ronkin identiﬁes the sabhåva as the cause of 
+                                                                                                                         
+cha!!itabbaµ. [… S iii 138–39] åd¥hi anekehi buddhavacanappamåˆehi anekåhi ca yutt¥hi 
+dhammå sakakkhaˆe vijjamånå evå ti ni††ham ettha gantabbaµ. 
+27  In her note (p. 125, n. 49) Ronkin abbreviates the commentary so drastically as to 
+misrepresent it. I take keci vadeyyuµ as referring to everything from sako bhåvo sabhåvo 
+to rËpassa avijjamånatå vuttå hot¥ ti, and kiµ vuttaµ hoti as referring only to sabhåvena 
+suññan ti. What is to be rejected ‘as rubbish’ is not the statement ‘sabhåva is its own ex-
+istence and hence it is empty of its existence’ (as she translates) but the inference that 
+saying something is ‘empty’ applies to a non-existent thing. 
+
+
+
+<!-- Page 100 -->
+
+GETHI N 
+ 
+188 
+a dhamma’s existence; it seems in part based on her interpretation of the 
+Abhidhamma notion of hetupaccaya, which I shall return to below. 
+3. Sabhåva, individuation and categorial theory 
+Ronkin emphasizes (pp. 154–56) that the theory of dhammas must be 
+seen as a categorial theory rather than a system of classiﬁcation. Her 
+point, as I understand it, is that a particular instance of, say, lobha occur-
+ring in one’s mind individuates the lobha category by conforming to the 
+lobha ‘blueprint’; it is not that a dhamma has occurred possessing 
+(among perhaps other properties) the property of lobha (allowing it to 
+be classiﬁed as a member of the lobha class), for lobha is what the 
+dhamma is. 
+As I have already indicated, it seems to me that the technical under-
+standing of sabhåva that Ronkin advances is not always as clearly and 
+consistently articulated as she suggests. In a †¥kå passage that she herself 
+quotes (p. 115) in explanation of the statement that ‘either the speciﬁc 
+nature (sabhåva) or general nature (såmañña) is termed “the character-
+istic” of the various dhammas’,28 we ﬁnd the following: 
+The speciﬁc nature (sabhåva) is what is not common, such as being hard, 
+etc., and touching, etc., [of earth and contact respectively]. The general na-
+ture is the speciﬁc nature (sabhåva) of being impermanent, etc. But in the 
+present context [Dhs 1], the characteristic of being wholesome should be re-
+garded as the general nature since it is the speciﬁc nature (sabhåva) common 
+to all that is wholesome; or [it can be regarded] as the speciﬁc nature (sab-
+håva) because of its not being common to what is unwholesome.29 
+Such a passage shows sabhåva being used rather loosely in the sense of a 
+particular property speciﬁc to – and this is crucial – certain classes of 
+things. For clearly something may have the speciﬁc nature or property 
+(sabhåva) of being wholesome, but that does not deﬁne it as an individ-
+ual, since many things will also have that property, and what will distin-
+guish it from other wholesome things are other properties it possesses. 
+                                                        
+28  As 63: tesaµ tesaµ dhammånaµ sabhåvo vå såmaññaµ vå lakkhaˆaµ nåma. 
+29  Dhs-m† Be 64: sabhåvo kakkha¬ådi-phusanådiko asådhåraˆo. såmaññaµ sådhåraˆo aniccådi-
+sabhåvo. idha ca kusalalakkhaˆaµ sabbakusala-sådhåraˆasabhåvattå såmaññaµ da††habbaµ, 
+akusalåd¥hi asådhåraˆatåya sabhåvo vå. 
+
+
+
+<!-- Page 101 -->
+
+ON THE NATUR E OF DHAMM AS 
+189 
+This makes it difﬁcult to be certain that sabhåva is not being used in a 
+similar manner in relation to individual dhammas, that is, a given occur-
+rence of a dhamma is an instance of, say, dosa because it has the charac-
+teristic or speciﬁc nature of anger (caˆ!ikka-lakkhaˆa) (As 257), which 
+deﬁnes it as belonging to the dosa class of events. 
+Such a model, of course, poses certain difﬁculties for the coherence 
+of the Abhidhamma system, since it undermines the notion of dhammas 
+as instances of the fundamental and ﬁnal categories of experience. As 
+Ronkin makes clear, the Abhidhamma understands that instances of a 
+given dhamma category differ, but how exactly? Certainly it seems dosa is 
+meant to cover individual mental occurrences that range from mild irri-
+tation to raging anger, but then this suggests that instances of the same 
+dhamma have different qualities. Yet if dhammas are themselves the basic 
+qualities of experience, they cannot themselves have further qualities 
+since this would render them capable of further analysis, of being bro-
+ken down into more basic qualities. The Óbhidhammika might be able 
+to respond that relative strength or intensity are general qualities that 
+apply across the categories and do not undermine the notion of a dis-
+tinctive category being individuated. Moreover, while dhammas cannot 
+themselves have further qualities, they can nevertheless be associated with 
+further qualities. Thus the Óbhidhammika can distinguish the experi-
+ence of envy from mere hate by suggesting that it is the function of two 
+separate dhammas – dosa and isså – arising in association: envy is thus 
+hate that has, or is associated with, the further quality of being directed 
+towards someone else’s good fortune. And yet it is hard to see how the 
+Abhidhamma analysis of experience can avoid talking at some point in 
+terms of subcategories of what are meant to be basic dhamma categories. 
+The problem can be illustrated by reference to the absence of a 
+dhamma category that might be taken as specifying the emotion of fear 
+from the Theravådin list of ﬁfty-two cetasikas. It would seem that we 
+should not conclude from this that fear was not identiﬁed by the Ób-
+hidhammikas as a real emotion. Indeed on occasion it is considered an 
+emotion of some signiﬁcance. In the context of the ten deﬁlements of 
+insight (vipassanupakilesa) and the completion of ‘puriﬁcation by know-
+ing and seeing what is path and not path’, the Visuddhimagga tells the 
+story of a certain Mahånåga Thera who had considered himself an ara-
+
+
+
+<!-- Page 102 -->
+
+GETHI N 
+ 
+190 
+hat for sixty years, until he was persuaded by his wiser pupil to use his 
+own iddhi to conjure up an angry elephant. This causes Mahånåga to 
+jump up in fear, whereupon his pupil asks him: ‘Sir, does one whose 
+taints are destroyed have fear?’ At this point Mahånåga realises that he 
+is not an arahat. 30 
+Our storyteller does not tell us which of the eighty-nine types of citta is 
+supposed to have arisen in Mahånåga’s mind at the moment he felt 
+fear, but let us conduct an Abhidhamma thought experiment. It seems 
+that from the start we can rule out the types of wholesome citta. And it 
+does not seem that Mahånåga’s mind felt attracted to the elephant, so 
+we can also rule out the eight unwholesome cittas rooted in greed. Nor 
+would it seem that his mind was characterised by doubt (vicikicchå). This 
+leaves just three possibilities: the two types rooted in hate, and the one 
+rooted in delusion associated with ‘agitation’ (uddhacca).31 In terms of 
+speciﬁc dhammas it would seem that dosa and uddhacca are the most 
+likely places to locate the speciﬁc emotion of fear: Mahånåga did not 
+like the elephant and it caused him strong agitation. This leaves the two 
+rooted in hate as the only types of citta that combine both dosa and 
+uddhacca. Common experience, however, suggests that not all instances 
+of dosa and uddhacca are characterised by ‘fear’. But unless one is pre-
+pared to maintain that ‘fear’ can be regarded as simply different intensi-
+ties of hate and agitation, then its experience can only be accounted for 
+within the Theravådin Abhidhamma analysis as instances of dhammas 
+with the particular characteristic (lakkhaˆa) and intrinsic nature (sab-
+håva) of dosa and uddhacca, but with the further quality of ‘fear’, making 
+it dosa-uddhacca of the ‘fear’ type. 
+Thus, even though from a theoretical philosophical perspective it 
+should not (since dhammas are supposed to be the ultimate individuated 
+unites of experience), the Abhidhamma framework none the less seems 
+                                                        
+30  Vism 634–35 (xx 110–13); the same story is told in a different context at Vibh-a 489–
+90. The word for ‘fear’ here is sårajja, a synonym for bhaya (see M i 72, Vibh-a 506). 
+The term bhaya is used in a positive sense of fear of unpleasant consequences in the 
+deﬁnition of ottappa at As 124–27, but this kind of ‘fear’ cannot be what is meant in 
+the present context. 
+31  Vism 454 (xiv 93). 
+
+
+
+<!-- Page 103 -->
+
+ON THE NATUR E OF DHAMM AS 
+191 
+in practice to operate sometimes as a classiﬁcatory system rather than a 
+categorial theory 
+4. The notion of hetupaccaya 
+In her ﬁnal chapter Ronkin examines Buddhist theories of causality, 
+considering both the theory of the twelve nidånas of dependent arising 
+and the Pa††håna’s theory of twenty-four causal conditions (paccaya). She 
+draws attention (p. 206) to certain peculiarities of the Nikåya notion of 
+causation: it concerns ‘not the production of entities but the arising and 
+ceasing of psycho-physical processes’, not physical causality but connec-
+tions between mental conditions, not a binary connection between a 
+single cause and a single effect but ‘a manifoldness of supporting condi-
+tions’; and while the latter is not to be construed in terms of a ‘network 
+of interrelated conditions’, it none the less does involve some sense of 
+mutual conditioning (p. 208). She concludes (p. 230) ‘that the 
+Pa††håna theory of paccaya is not about causation at all’ in the sense of 
+causal production; rather it ‘is intended to account […] for the indi-
+viduality of each and every dhamma as a capacity of a certain mental 
+event that occurs within a network of interrelations of causal condition-
+ing’; but this, she suggests involves a circularity since ‘causal conditions 
+individuate dhammas only if the latter are already individuated’ (p. 252). 
+She emphasizes (pp. 206–08) that there appear to be no grounds for 
+distinguishing between hetu and paccaya as ‘cause’ and ‘condition’ re-
+spectively in the Nikåyas; such a distinction is characteristic of especially 
+the Sarvåstivådin theory of the six hetus and four pratyayas, although she 
+suggests that something of the distinction is found within Theravådin 
+sources as well, arguing (pp. 226–32) that the Pa††håna’s and subse-
+quent commentarial understanding of hetupaccaya has a certain afﬁnity 
+with the Sarvåstivådin discussions.  
+Unfortunately her discussion is premised on a basic misunderstand-
+ing of the Abhidhamma notion of hetupaccaya as referring to an ‘essen-
+tial causal condition’ that ‘individuates its related dhamma’ and can be 
+equated with sabhåva (pp. 214, 222–26). This is not so. For the Thera-
+vådin Abhidhamma, hetupaccaya refers to the way in which six speciﬁc 
+dhammas (alobha, adosa, amoha, lobha, dosa and moha) act as ‘cause’ (hetu) 
+
+
+
+<!-- Page 104 -->
+
+GETHI N 
+ 
+192 
+by being a ‘root’ (mËla) in relation to certain other dhammas that are 
+associated it and have arisen together with it in the same moment.32 
+5. Abhidhamma and the art of mapmaking 
+Throughout her study Ronkin seeks to demonstrate that especially the 
+canonical – but also in large part the commentarial – Abhidhamma’s 
+concerns are epistemological, ‘meta-psychological’, and soteriological 
+rather than ontological per se; to this extent ‘the Abhidhamma system-
+atic and allegedly divergent method’ (p. 236) is consonant with the 
+Nikåyas. Yet the Abhidhamma project of naming the world and creating 
+ultimate units of categorization in the end ignores what Ronkin sees as 
+the Buddha’s critique of language (p. 246) and results in the espousal 
+of a conceptual realism that takes the dhammas named as real existents. 
+Such a realism, she suggests, is at odds with the metaphysics of the 
+Nikåyas. It is also philosophically problematic, for ‘to draw ontological 
+conclusions on the grounds of linguistic practice is a non sequitur’ (p. 
+251). Indeed, Ronkin concludes, Någårjuna and the Mådhyamikas’ cri-
+tique can be seen as justiﬁed both philosophically and on the grounds 
+of reasserting the original message of the Buddha. 
+At the beginning of her study Ronkin comments (p. 10) that her ap-
+proach at times involves ‘philosophical reconstruction’ and that there-
+fore she does not want to claim that ancient Buddhists would have un-
+derstood their positions in precisely the philosophical terms in which 
+she articulates them. These are important caveats. In part her philoso-
+                                                        
+32  The crucial deﬁnition of hetu is found at Dhs 242–43; Pa††h (Be) i 1 gives a succinct 
+deﬁnition of hetupaccaya, and its application is set out e.g. at Pa††h (Be) iii 1 ff.; see also 
+Abhidh-s-mh† 184. Ronkin’s misunderstanding appears to be based in part on conﬂat-
+ing the identiﬁcation of sabhåva as the ‘cause’ (hetu) of a dhamma (at Pe† 104, Nett 78–
+81) with the Pa††håna’s understanding of hetupaccaya. Yet the position of Pe† and Nett 
+in the development of the speciﬁcally Theravådin Abhidhamma remains problematic. 
+These texts seem not to be based on exclusively Theravådin traditions. Indeed, the 
+passage she cites on p. 101 (Pe† 158) is an example. It suggests that of the ﬁve 
+hindrances four are intrinsic deﬁlements (sabhåvakilesa) while th¥na-middha is a 
+secondary contributory deﬁlement (n¥varaˆapakkhopakilesa). This seems to assume a 
+system in which th¥na-middha is not exclusively unwholesome, that is, a non-Theravådin 
+system; signiﬁcantly the bhå#ya to Abhidharmakoßa ii 26a–c cites a canonical Abhid-
+harma list of dharmas universal to all unwholesome (kleßamahåbhËmika) citta that does 
+not include styåna. 
+
+
+
+<!-- Page 105 -->
+
+ON THE NATUR E OF DHAMM AS 
+193 
+phical reconstruction involves ﬁlling in gaps and making explicit what is 
+implicit in order to reveal the logic underlying certain developments. 
+And she does this very well. Yet one might view the gaps as in some 
+sense intrinsic to the Abhidhamma project: the fact that the system is 
+not always completely worked out might be seen as one of its strengths. 
+Ronkin makes the general observation that, despite its concluding in 
+an ontology that conceives of dhammas as real existents, the Abhid-
+hamma in large measure remains faithful to speciﬁc themes of the 
+Nikåyas’ metaphysics: a ‘process’ philosophy and progress along the 
+Buddhist path. One might seek clariﬁcation over a certain underlying 
+assumption in her book that somehow epistemology is ‘a good thing’ 
+but ontology ‘a bad thing’, and question whether the Nikåyas really es-
+chew questions of ontology so completely. Yet her overall thesis that the 
+ﬁnal Abhidhamma conception of a dhamma presents certain philoso-
+phical difﬁculties is difﬁcult to deny. But despite what one might see as 
+a certain attempt on her part to reassess aspects of Abhidhamma 
+thought, she ends on a note that implies that the Abhidhamma ediﬁce 
+stands or falls on the philosophical coherence of the concept of a 
+dhamma. Yet at precisely this point one might seek to reinforce her more 
+general point that the philosophical coherence of the ontology of 
+dhammas was not always of central concern to the Óbhidhammikas. I do 
+not mean to suggest by this that the exponents of Abhidharma had no 
+interest in demonstrating the rationality and coherence of their systems. 
+Clearly the Sarvåstivådin Vaibhå"ikas who formulated the account of 
+pråpti and a dharma’s existence in past, present and future were very 
+much driven by principles of rationality and coherence, and demon-
+strated considerable philosophical sophistication and ingenuity. Yet 
+their fellow Óbhidhammikas to the south seem to have been less em-
+broiled in such matters. This does not mean that they regarded their 
+Abhidhamma system as any less a true and ﬁnal representation of real-
+ity, but it does perhaps mean that at certain points their system shied 
+away from certain more purely abstract and philosophical issues.  
+Perhaps the art of mapmaking offers a certain analogy for the devel-
+opment of the Abhidhamma. Maps serve a practical purpose: a map is 
+ultimately only useful if it helps us ﬁnd our way around. To do this a 
+map must represent the terrain accurately. But this can mean different 
+
+
+
+<!-- Page 106 -->
+
+GETHI N 
+ 
+194 
+things. Harry Beck’s 1930s map is an efﬁcient tool for negotiating the 
+London Underground system, but if one wanted to walk from, say, 
+Leicester Square to Russell Square over ground, it might not be so help-
+ful. For that one would require a different kind of map, in part more 
+detailed, in part more accurate – or at least more accurate in a different 
+way. The Abhidhamma’s shift of focus from the more general processes 
+that govern progress along the Buddhist path to the events that consti-
+tute those processes, might be viewed as an attempt to provide a more 
+detailed and accurate map of the path. Indeed, some of the Óbhi-
+dhammika ‘mapmakers’ seem to have regarded the ﬁnal Abhidhamma 
+map as the ultimate map – a map that showed everything. 
+Lewis Carroll tells of a people who produced a map of their country  
+‘on the scale of a mile to the mile’, but it was never spread out: ‘the 
+farmers objected: they said it would cover the whole country, and shut 
+out the sunlight! So we now use the country itself, as its own map, and I 
+assure you it does nearly as well.’33 In similar vein, Jorge Luis Borges 
+tells of cartographers who ‘struck a Map of the Empire whose size was 
+that of the Empire, and which coincided point for point with it’; subse-
+quent generations, however, ‘who were not so fond of the Study of Car-
+tography as their Forebears had been, saw that that vast Map was Use-
+less, and […] delivered it up to the Inclemencies of Sun and Winters’.34 
+Perhaps it is the case that the ancient Óbhidhammika mapmakers 
+eventually lost their way in an obsession with mapping the paths of the 
+mind in every detail, and mistook their map for reality itself. But as 
+Carroll’s and Borges’s tales suggest, a map that succeeded in showing 
+everything would be redundant. Paradoxically, then, it may be precisely 
+in so far as the Óbhidhammikas failed in the task of producing the ulti-
+mate map that their map is useful. 
+ 
+Rupert Gethin 
+University of Bristol 
+                                                        
+33  Lewis Carroll, Sylvie and Bruno Concluded (chapter xi, ‘The Man in the Moon’), 1893. 
+34  Jorge Luis Borges, ‘On Exactitude in Science’ in Collected ﬁctions, translated by Andrew 
+Hurley (Harmondsworth: Penguin Books, 1998), p. 325. 
+
+
+
+<!-- Page 107 -->
+
+ 
+Buddhist Studies Review 22 (2005), 195–210 
+ 
+BOOK REVIEWS 
+ 
+ 
+Der Ursprung der japanischen Vinaya-Schule, RisshË 4 5, und die Entwick-
+lung ihrer Lehre und Praxis. László Hankó. Göttingen: Cuvillier Verlag, 
+2003. xiii, 433 pp. !50. isbn 3898736202. 
+ 
+László Hankó’s work aims at providing an overview of the history of the 
+Japanese Vinaya School (the RisshË School) from its very beginning, i.e. 
+the vinaya of the Indian Dharmaguptaka School, to the time of the 
+monk GyØnen (1240–1321), author of the 4 5 6 7 RisshË kØyØ, a 
+history of the Vinaya School. The work is divided into ﬁve chapters.  
+The ﬁrst chapter provides an annotated translation into German of 
+the pråtimok#asËtra (list of rules) for monks of the Dharmaguptaka 
+School: the 8 9 : ; < Sifen seng jieben (T. 1429), the Chinese trans-
+lation of which is attributed to the ﬁfth-century Indian master Buddha-
+yaßas. Most probably, however, the text is a seventh-century compilation 
+by the monk = > Huaisu. Interesting is that László Hankó’s annotation 
+is not limited to an analysis of the translated text itself, but also gives 
+some information on later Mahåyåna reactions. The translation is intro-
+duced by a short history of the Dharmaguptaka texts and of the Vinaya 
+School in China. The focus lies on the most important branch, the Nan-
+shanlüzong, the school founded by the vinaya master ? @ Daoxuan 
+(596–667).  
+It is a pity that the introduction is not written in a more critical way, 
+but often just repeats some traditional viewpoints, even when these have 
+already been severely criticised by several other researchers. This is the 
+case for instance for the date of the death of the Buddha, and for the 
+dates of the ﬁrst councils: the date of death is placed in 486 bc (p. 328, 
+note 758), the council of Råjag®ha in 483 bc (p. 2), the second council 
+in 383 bc (p. 2). No critical note is given, despite the many works that 
+discuss these and other dates related to the historical Buddha. Neither 
+do we ﬁnd any more critical information on the events that were attrib-
+
+
+
+<!-- Page 108 -->
+
+BOOK REVI EW S 
+ 
+196 
+uted to these councils: the ﬁrst recitation of vinaya rules, the ﬁrst 
+schisms in the Buddhist community.  
+Similarly, we read on p. 3 and p. 10 that the Dharmaguptaka School 
+had no doctrine, but only focussed on rules and on correct ceremonies. 
+Although most texts attributed to the Dharmaguptakas are certainly 
+vinaya texts, to say that this school had no doctrinal viewpoints (‘Lehre’) 
+at all seems too farfetched to me, certainly when no comment whatso-
+ever is given. On p. 10, the founder of the school is said to be Dharma-
+gupta, an ascetic of Ceylon. A note refers to the work of E. J. Eitel origi-
+nally published in 1904. Again, this viewpoint is highly controversial 
+and most modern scholars consider Dharmagupta to be a legendary 
+person (see, for instance, E. Lamotte, Histoire du Bouddhisme indien des 
+origines à l’ére Íaka, Louvain, 1958, p. 575).  
+The translation is generally quite correct. Still, a comparison with the 
+Vinayas of other schools1 and with the Indian texts or fragments that are 
+still extant could have prevented several errors. For instance, the ﬁrst 
+påråjika rule2 says: ‘If a bhik#u undertakes the same training (;, ßik#å) as 
+the other bhik#us, if he does not disavow the training, and if he does not 
+confess to be weak with respect to the training, and if he has impure 
+conduct, and if he does impure things, also with an animal …’3 László 
+Hankó’s translation (pp. 19–20) is as follows: 
+Wenn der Mönch mit einem (anderen) Mönch, dem die selben Gebote gel-
+ten, unsaubere Handlungen eingeht und unkeuschen Begierden erliegt, so-
+gar wenn er (die sexuellen Handlungen) mit einem Tier tut, ohne (erst) die 
+Gebote zu verwerfen […] – in denen er schwach ist und (dafür) nicht (ein-
+mal) die Reue zeigt […] 
+László Hankó thus says that ‘when a monk does impure things with an-
+other monk who follows the same rules’, he commits a påråjika offence. 
+This is clearly an erroneous translation, which further leads to the 
+strange statement (p. 20) that this precept is commonly seen as a pre-
+                                                        
+1  As already done by W. Pachow (1955), A Comparative Study of the Pråtimok#a on the Basis 
+of Its Chinese, Tibetan, Sanskrit and Pali Versions, Santiniketan.  
+2  A monk or nun who commits a påråjika offence permanently looses his/her monastic 
+status. 
+3  For details, see A. Heirman (2002), The Discipline in Four Parts, Rules for Nuns according 
+to the Dharmaguptakavinaya, Delhi, Part ii, pp. 278–79, note 35. 
+
+
+
+<!-- Page 109 -->
+
+BOOK REVI EW S 
+197 
+cept on sexual contact with women although only sexual acts with other 
+men or animals are pointed at. 
+Also in other rules, a comparison with other texts could have been 
+very useful. So, for instance, in the ﬁrst nai˙sargika-pråyaßcittika rule,4 it is 
+said: ‘If a bhik#u, when the robes have already been ﬁnished and the 
+ka†hina cloth has already been removed, keeps an extra robe, he may 
+keep it for ten days without assigning it.’ Ka†hina is generally explained 
+as ‘raw cotton’. The ka†hina cloth refers to a ceremonial cloth that was 
+spread out near the monastery to inform the lay people that the period 
+for the donation of robe material had come. Contrary to what László 
+Hankó says on p. 35, this period can be as long as ﬁve months (and not 
+just one month). At the end of this period, the ka†hina cloth is removed 
+(A chu).5 This can be done for one individual monk (for instance when 
+he leaves the district without the intention to come back) or for the 
+whole community. During the ka†hina period it is allowed to have an 
+extra robe. Outside this period, this is forbidden.6 Due to a misinterpre-
+tation of the technical term A, László Hankó’s translation (p. 35) tells a 
+different story: ‘Wenn der Mönch seine (drei) Gewänder schon be-
+kommen und die Ka†hina-Gewänder bereits weggegeben hat, kann er sei-
+ne überzähligen Gewänder, die er besitzt, zehn Tage lang behalten, oh-
+ne dass er sie seiner Reinheit wegen verspenden muß.’ The monk has 
+not, as translated by László Hankó, given away his ka†hina robes, but, in 
+fact, the ka†hina period has come to an end.  
+The explanatory notes on the translation are generally interesting, 
+but unfortunately not always consistent. For instance, for three out of 
+the four påråjika rules for monks, a comparison is made with the rules 
+for nuns. For the third påråjika, the påråjika on murder, the comparison 
+is missing. The explanatory notes, further, do not always rely on the 
+same tradition as the translated text. Note 2 on p. 35, for instance, says 
+that nuns have ﬁve robes: three of these robes are the same as for 
+monks, two are additional. According to note 2, these two additional 
+robes are an undergarment (saµkak#ikå) and a loincloth (kusËla). In 
+                                                        
+4  A monk or a nun who commits a nai˙sargika-pråyaßcittika offence has to give up an 
+unlawfully obtained object and has to repent of his/her offence.  
+5  See Heirman, op. cit., Part ii, p. 487, note 9, on B she, variant of A chu.  
+6  See Heirman, op. cit., Part i, pp. 221–26. 
+
+
+
+<!-- Page 110 -->
+
+BOOK REVI EW S 
+ 
+198 
+fact, the Dharmaguptaka tradition has the following two additional 
+robes: a breast band (saµkak#ikå)7 and a robe that covers the shoulder 
+(gaˆ!apraticchådana ?(pa†a)). The two robes mentioned by László 
+Hankó appear in the MËlasarvåstivåda tradition.8  
+Very interesting, though, are the many cross-references between the 
+earlier H¥nayåna and later Mahåyåna rules. For this aim, the rules have 
+been analysed and divided in several categories according to their con-
+tent. This method makes it possible to compare the viewpoints of the 
+Mahåyåna and H¥nayåna vinaya masters on every detail treated in the 
+disciplinary texts (pp. 92–104, pp. 182–91, and pp. 218–32). 
+The second chapter of László Hankó’s work gives an introduction to 
+and a translation of the C D E Fanwang jing, the Brahmå’s Net SËtra (T. 
+1484), a Mahåyåna text that contains a set of ﬁfty-eight precepts valid 
+for both lay followers and monastic disciples. Although according to the 
+introduction to the Fanwang jing, the text has been translated from San-
+skrit into Chinese by Kumåraj¥va in 406, the text has in fact been com-
+piled in China in the ﬁfth century. It became the basic text of the Ma-
+håyåna, so-called bodhisattva, ordinations, ﬁrst in China and later in 
+Japan. The ﬁrst translation of the Fanwang jing into a Western language 
+was made by J. J. M. De Groot, Le code du Mahåyåna en Chine, Son 
+inﬂuence sur la vie monacale et sur le monde laïque, Amsterdam, 1893. It is a 
+pity that the latter work has not been used by László Hankó who has 
+made a new annotated translation into German. A short introduction 
+(pp. 106–24) comments on the coming into being of the Fanwang jing.  
+The structure of the translation takes into account the Mahåyåna 
+views on what a Buddhist rule should preferably be (based on T. 1581, a 
+ﬁfth-century translation into Chinese of the BodhisattvabhËmi, Stages of 
+the Bodhisattva): the actual rule, an exhortation to perform good deeds, 
+and an exhortation to perform charity for living beings. If possible, the 
+rules have been divided in these three aspects. This structure certainly 
+allows a fuller understanding of the message of the Fanwang jing. The 
+annotations to the translation are generally useful, and contain some 
+                                                        
+7  On this term, see O. von Hinüber (1975), ‘Kulturgeschichtliches aus dem Bhik#uˆ¥-
+Vinaya: die saµkak#ikå’, Zeitschrift der Deutschen Morgenländischen Gesellschaft 125, 133–
+39. 
+8  See A. Heirman, op. cit., Part II, pp. 802–05, note 199. 
+
+
+
+<!-- Page 111 -->
+
+BOOK REVI EW S 
+199 
+interesting references to earlier disciplinary texts. Just as in the transla-
+tion of the Dharmaguptaka pråtimok#a, however, the information is quite 
+often insufﬁcient or unclear. All precepts, for instance, have been given 
+a short title based on the opinion of Chinese masters, such as Zhiyi, 
+Fazang or Mingkuang. Who these masters were, what role they played in 
+the commentaries on the Fanwang jing, or why they have been chosen, is 
+not said. For several notes, the source of information is unclear. Note 3 
+on p. 126, for instance, tells us that a bodhisattva is allowed to kill a 
+human being, if by doing so he can save the life of many others. The 
+source of this information is not given. Many other notes explain a 
+technical term without referring to the disciplinary tradition on which 
+the explanation is based, as if all vinaya traditions were exactly the same. 
+On p. 137, for instance, it is said that in ‘old Buddhism’ one could, un-
+der certain circumstances, eat meat or ﬁsh. Five kinds of pure (and thus 
+allowed) meat, F G " H wu zhong jing rou, are opposed to ﬁve kinds of 
+impure (and thus forbidden) meat: human beings, elephants, horses, 
+dragons and dogs. László Hankó does not tell us on which vinaya tradi-
+tion the latter enumeration is based. It might be the Dharmaguptaka 
+tradition, since the Dharmaguptakavinaya (T. 1428, pp. 868b9–869a18) 
+gives us the same list of forbidden meat. On another page of the Dhar-
+maguptakavinaya (p. 1006a19–21), however, we ﬁnd a list of ten forbid-
+den kinds of meat. Also, the term F G " H wu zhong jing rou does not 
+appear in the Dharmaguptaka tradition. Instead we ﬁnd the I G " H 
+san zhong jing rou, ‘three kinds of pure meat’ (p. 872b11 et passim): the 
+consumption of meat is permitted as long as a monk or a nun has not 
+seen or heard, or does not suspect that the animal has been killed espe-
+cially for him or her.  
+The third chapter consists of a short introduction to and a translation 
+of the . J K ; " DaijØ jukaikyØ, SËtra on the Mahåyåna Ordination, a 
+text that claims to contain 250 rules for monks, but actually only gives 
+248. The text also gives a short explanation on the ordination ceremony 
+and a brief history of the DaijØ jukaikyØ itself. It is claimed that the text 
+has been translated into Chinese by the Indian master Amoghavajra 
+(705–774), and that it has been brought to Japan shortly after it was 
+translated. As shown by László Hankó, however, the DaijØ jukaikyØ has in 
+all probability been written in Japan between 819 and 822 (pp. 195–
+
+
+
+<!-- Page 112 -->
+
+BOOK REVI EW S 
+ 
+200 
+96). As a vinaya document, the text is quite interesting as it seems to be 
+an attempt to establish a kind of middle way between the H¥nayåna and 
+Mahåyåna traditions. The attempt failed, however, and the text only 
+played an insigniﬁcant role in the establishment of an ordination cere-
+mony in Japan (p. 236). In the present work, the text has been trans-
+lated, and the content of the rules has – as was also the case in the ﬁrst 
+two chapters – been compared with the other vinaya traditions. The an-
+notation is short, but useful. Sometimes, however, one would have liked 
+to receive a little bit more information. Why, for instance, is the Yinyang 
+School mentioned in rule 212, if this school did not exist in Japan, as 
+said on p. 214? 
+A very interesting chapter is the fourth one. It contains a study and a 
+translation of the biography of L M Jianzhen (Jap. Ganjin, 688–763) as 
+originally written by his disciple N O Situo.9 Jianzhen belonged to the 
+Nanshanlüzong, the Vinaya School founded by the monk Daoxuan. Ji-
+anzhen had received both the Dharmaguptaka and the bodhisattva 
+(Mahåyåna) ordination. On the invitation of Japanese monks, he sailed 
+to Japan in 753/754, bringing with him many Chinese Buddhist texts. 
+In Japan, he established an ordination ceremony that was based on the 
+Dharmaguptaka tradition (for monks and nuns) and on the bodhisattva 
+ordination (only for lay people). It was the beginning of the Japanese 
+RisshË School. Jianzhen’s journey to Japan was not without numerous 
+obstacles. Only after several failed attempts did he reach his goal. His 
+adventures have been recorded by Situo who was with him from the ﬁrst 
+attempt to go to Japan. Situo’s account has been summarised into a 
+lively report by the Japanese P Q M R I S Oumi no Mabito Mifune 
+in 779. This summary is in all probability very faithful to Situo’s account 
+(pp. 308–310). László Hankó offers us a carefully annotated translation 
+that makes the reading of Jianzhen’s journey into an interesting and 
+pleasant experience. ,
+In the ﬁfth and last chapter, László Hankó describes the establish-
+ment of the Japanese RisshË School on the basis of the account by the 
+monk GyØnen (1240–1321): 4 5 6 7 RisshË kØyØ, The Essentials of the 
+                                                        
+9  For an earlier translation, see J. Takakusu (1925), Kanshin’s (Chien-Chên’s) Voyage to the 
+East, A.D. 742–54, by Aomi no Mabito Genkai (A.D. 779), London. 
+
+
+
+<!-- Page 113 -->
+
+BOOK REVI EW S 
+201 
+Vinaya Tradition. Of the latter work, László Hankó has translated the 
+part on Japan.10 In his commentary on GyØnen’s work, the author refers 
+to other relevant sources, such as the T < U Nihongi, a history of early 
+Japan compiled at the beginning of the eighth century (pp. 334–36) 
+and the : V W SØniryØ, Rules for Monks and Nuns (pp. 336–38), a list of 
+twenty-seven law articles of the very beginning of the eighth century 
+(based on the seventh-century Chinese ? : X Daosengge). Very inter-
+esting are the genealogical tables on the different branches of the Vi-
+naya School in China, and on the RisshË School in Japan (pp. 356–58).  
+To summarise, the book mainly offers a compilation of translated 
+texts important for our understanding of the development of the Vinaya 
+School in the East. All these texts give us a huge amount of information 
+on the way one attempted to regulate monastic life. Secondary litera-
+ture, including the works of many Japanese researchers, has been inten-
+sively consulted. A detailed research of this mass of information is in 
+fact too much for one single book, and inadequacies are unavoidable. 
+Still, the translations are useful and offer the reader a general under-
+standing of the disciplinary tradition in China and Japan. It is a pity, 
+however, that the basic translation of the Dharmaguptaka pråtimok#a 
+contains several, mostly technical, mistakes. It is also to be regretted 
+that, due to the overwhelming task that the author has given himself, 
+the introductions and annotations to the translated disciplinary texts 
+had to remain brief, or even incomplete. One often feels the need for 
+some more critical research. The explanatory notes, albeit generally 
+interesting, have to be read with caution. The source of information is 
+often lacking, or is not consistent with the tradition of the translated 
+text. The last two chapters, on Jianzhen’s travels and on the establish-
+ment of the RisshË School, are actually the ﬁnal goal of László Hankó’s 
+work. These translations have been more extensively annotated and of-
+fer the reader a lively account. This is especially true for the chapter on 
+Jianzhen’s adventures. To conclude, László Hankó’s work has its ups 
+ 
+ 
+                                                        
+10  For an earlier translation, see L. Pruden (1995), The Essentials of the Vinaya Tradition, 
+Numata Center, Berkeley, pp. 122–42 (not annotated).  
+
+
+
+<!-- Page 114 -->
+
+BOOK REVI EW S 
+ 
+202 
+and downs. Sometimes inadequate, sometimes very interesting and 
+lively, it leaves the reader with mixed feelings. 
+ 
+Ann Heirman 
+University of Ghent 
+ 
+ 
+Buddhist Practice on Western Ground: Reconciling Eastern Ideals And Western 
+Psychology. Harvey B. Aronson. Boston, MA: Shambhala Publications, 
+2004. xiii, 253 pp. $14.95. isbn 1590300939. 
+ 
+Aronson is a psychotherapist in a private practice in Houston, Texas, 
+and is meditation teacher-in-residence and founder of the Dawn Moun-
+tain Tibetan Temple, Community Centre and Research Institute in 
+Houston.  
+The book is presented as addressing three fundamental questions, 
+from a Western American psychological perspective, as it examines the 
+differences between Asian and Western cultural and spiritual values. 
+Aronson’s assessment of his own anxiety and that of a number of clients 
+in ﬁctional composites provides an intriguing insight into the difﬁculties 
+experienced by Western meditators, who, for a variety of reasons ﬁnd 
+that meditation practice does not address all the psychological concerns 
+that they hold, and some of whom ﬁnd themselves confused or disap-
+pointed as a result. Issues addressed include:  
+• 
+The cultural belief that anger should not be suppressed versus 
+the Buddhist teaching to counter anger and hatred. 
+• 
+Psychotherapists’ advice that attachment is the basis for healthy 
+personal development and supportive relationships versus the 
+Buddhist condemnation of attachments as the source of suffer-
+ing. 
+• 
+Western culture’s emphasis on individuality versus the Asian em-
+phasis on interdependence and fulﬁlment of duties, and the 
+Buddhist teachings on no self, or egolessness. 
+
+
+
+<!-- Page 115 -->
+
+BOOK REVI EW S 
+203 
+In his introduction (p. xiii) he claims that Western meditators require 
+culturally appropriate interventions such as psychotherapy, to help deal 
+with ‘anxiety, depression, isolating narcissism, or numbed disengage-
+ment’. 
+Aronson suggests there is a cultural conﬂict ongoing between medita-
+tors and traditional teachers. The meditator who requires therapy is 
+taught to meditate by developing patience, abandoning anger and giv-
+ing up attachment in the context of community-sangha. A western psy-
+chotherapy on the other hand would encourage those with emotional 
+shutdown to express their feelings of anger, etc., to facilitate the quest 
+for relationship and intimacy in the context of self-assertion and indi-
+viduality (p. xiv). He further argues that teachers of meditation could 
+compound issues by their implicit encouragement of students towards 
+what may be seen as passivity and self-denial. The cultural gaps that ap-
+pear are consequently breeding grounds for misunderstanding between 
+teacher and student often resulting in ‘alienation, and emotional injury’ 
+(p. xiv). Failing to understand these cultural differences results in 
+beneﬁts from profound spiritual teachings being lost. The answer to 
+these difﬁculties is, in part, he claims, to come out from the protective 
+canopy of Buddhism and seek additional perspectives. 
+The abandoning of cultural values and habitual inclinations is seen as 
+a great obstacle to practice in a world where he claims a ubiquitous 
+inﬂuence of therapy. Such an inﬂuence it is suggested results in time 
+spent on the cushion immersed in the content of our minds as opposed 
+to following the processes of traditional instruction. To overcome the 
+problems he presents, he somewhat paradoxically claims that continued 
+practice over time would enhance understanding of the tradition and 
+the psychological processes that affects it from a Western cultural per-
+spective. In so doing it seems he is arguing that by discerning differ-
+ences it is possible to reﬂect on ‘who we are and what we may wish to 
+become’ (p. xvi). 
+A number of psychological propensities and vulnerabilities lend 
+themselves to certain interpretations of Buddhist teachings. The out-
+come of which can be for the psychologically needy to ﬁnd refuge in a 
+Buddhism that counsels renunciation and nonattachment. If this is the 
+case then there is only a psychological picture available to the student 
+
+
+
+<!-- Page 116 -->
+
+BOOK REVI EW S 
+ 
+204 
+limiting their ability to absorb from the tradition, and thereby simulat-
+ing change without any real shift of consciousness. It is to this process 
+Aronson reﬂects on four themes in Buddhist and psychological practice 
+that he claims are at once signiﬁcant and yet confusing. They are: self, 
+anger, love and attachment. He draws on his own experiences as a psy-
+chotherapist and Buddhist teacher to consider both forms of experi-
+ence, based on the four themes above. This implicitly supposes that by 
+taking a view of Buddhist practice encompassing the psychological, in 
+Western terms, Western practitioners can see anew the positive effects 
+of a combined approach in reducing harm to themselves and to others. 
+In chapter one Aronson reﬂects the differences in cultural under-
+standing of a classic Buddhist approach, that of the meditation retreat. 
+He compares the emotional stance of a group of white American par-
+ticipants compared to that of an ethnic Chinese group on the same re-
+treat, run by a Chinese Zen master. The White Americans reinforced 
+their individuality and sense of self-realization in the process, whilst the 
+Chinese group exclaimed deep emotional responses to the retreat, 
+based on repentance and shame and a sense of greater responsibility to 
+their elders. This example of cultural differentiation is highlighted by 
+Aronson’s own dilemma of the 1970s. Whilst practicing meditation he 
+found he was suffering severe anxiety attacks. He reluctantly entered 
+into psychotherapy and found it unlocked his deep psychological con-
+cerns resulting in his adopting a ‘both/and approach’ (p. 9) to his prac-
+tice. This is the approach he is advocating to Western practitioners of 
+Buddhism, as complimentary forms of practice. 
+In chapter two and three consideration is given to the needs of West-
+ern practitioners, inferring they should understand the background to 
+Buddhist/Asian culture in order to grasp the nature of the differences 
+that ultimately affect one’s relationship to traditional forms of Buddhist 
+experience in the West. He uses examples of extended familial relations 
+and monasticism that encouraged a culture of duty, which focused on 
+roles, as opposed to Western cultures, which, emphasizes rights and in-
+dividuals. 
+The culture of separateness is a theme taken up here, a prominent 
+aspect of Western societies, where individuality based on feelings and 
+choice (which includes romantic love), are seen as areas difﬁcult to rec-
+
+
+
+<!-- Page 117 -->
+
+BOOK REVI EW S 
+205 
+oncile with some forms of traditional Buddhist teaching, which empha-
+sise duty and passivity. The cautious note intended here is not to expect 
+too much from meditation, or Eastern cultures that support its origins, 
+a failing often of Western practitioners. He poses an important question 
+for Western minds in asking, if understanding our relatedness in Bud-
+dhist terms does not impair a sense of individual freedom. 
+In chapters four, ﬁve and six there is a gradual development from 
+understanding the basic background of Western rational, scientiﬁc 
+knowledge in comparison to Asian societal and personal obligations 
+developed out of a culture that subordinates the individual for the sake 
+of others. Using a model developed by Shweder (psychologist) called 
+‘thinking through culture’ (p. 35), Aronson investigates the ways in 
+which Westerners understand the ‘other’ in a cultural context, and how 
+that affects many who he claims suffer ‘Dharma loneliness’, in practic-
+ing with others whom they never come to know. He highlights the dif-
+ference in practice between content and process, and recommends try-
+ing alternative methods of meditation as an experiment in integration, 
+in order to understand one’s own needs using psychology as well as tra-
+ditional practice. The speciﬁc alternative he cites (p. 46) is Ira Progoff’s 
+system of ‘Mantra Crystals’, a seven-syllable phrase that reﬂects mood 
+and can be co-ordinated with the breath. Unusually it requires one to 
+make notes of experiences in meditation as they occur. This outlines 
+the difference in the approaches to attention in therapy and medita-
+tion. He goes on to discuss with some clarity the ways in which Western-
+ers assimilate Buddhist practice (using Piaget’s theory) putting new in-
+formation into old patterns, which affectively acts as a barrier to change. 
+This discussion is made more lucid using existing psychological modes 
+of understanding to explain the predisposition of Western practitioners 
+to the needs of a wider psychological understanding of self, and how 
+that creates and affects tensions with traditional Buddhist practice. 
+Chapters seven to ten deals with self and pride, anger, a middle path 
+for anger and embodied love. He examines pride and ego and the cul-
+tural and spiritual differences that are found where, for example, West-
+ern self-assertion can often be seen as part of self-expression. For many, 
+according to Aronson, it is a fundamental part of their psychological 
+makeup. He advocates the need to readdress certain attitudes (p. 90) 
+
+
+
+<!-- Page 118 -->
+
+BOOK REVI EW S 
+ 
+206 
+towards self-assertion and gender hierarchy in light of cultural expecta-
+tions in the West. He takes time here to present a nuanced understand-
+ing of what it means to give up ‘I am’, both spiritually and psychologi-
+cally. His treatment of anger deals with a fundamental question, to ex-
+press it (in psychological terms) or abandon it (in the Buddhist con-
+text). This again raises the issue of the tension between traditional Bud-
+dhism and Western psychology, when it comes to understanding emo-
+tions. The discussion suggests that emotion can be seen as psychologi-
+cally manifest in Western thought and manifests itself more in physical 
+terms in traditional Asian cultures. The question of intervention leads to 
+a debate about a middle path to anger in the ninth chapter. Here the 
+representative view put forward is to deal with the two extremes of emo-
+tion, the ‘under-expressive’ and the ‘over- expressive’. Aronson suggests 
+a middle way of integration using psychological techniques, but is well 
+aware of the danger of ‘over-psychologizing the dharma’. He suggests 
+internal and external sharing as a method to greater freedom and liber-
+ating insight, (p. 126). In chapter ten he builds on this method by offer-
+ing and investigation of mettå practice and the Mahåyåna development 
+of love and compassion. The use of interrelatedness and how that is 
+viewed relative to Western understandings of rebirth and karma also 
+highlights cultural differences in the nature of understanding interde-
+pendence and reciprocity. A model of the ‘true self/false self’ is investi-
+gated which delineates a Western propensity to be restrained, emotion-
+ally. This feeds into a discussion of how difﬁcult it is for Western practi-
+tioners to deal adequately with generosity, without psychological sup-
+port in developing the mind of enlightenment, common to the Bodhisat-
+tva. 
+Chapters eleven to thirteen deal with attachment in various forms, 
+and how to deal with the concept beyond the abstract. A number of 
+misunderstandings arising from a Western view (often verging on the 
+annihilation of activity altogether) are delineated in this section. Fun-
+damental to the discourse is the polemic that is set up by the negative 
+connotation of attachment from a Buddhist view, and the positive no-
+tion of psychological attachment theory from a Western standpoint. The 
+differences in approach develop the ﬁxated notion of mind and action 
+in comparison to a non-attached understanding, reducing clinging and 
+
+
+
+<!-- Page 119 -->
+
+BOOK REVI EW S 
+207 
+developing through practice, internal freedom. Aronson advocates 
+healthy attachment in adults, acknowledging ourselves and others fully, 
+whilst embracing our differences – ‘connection without ﬁxation’ 
+(p. 161). He draws a clear distinction between detachment – meaning 
+psychological disengagement and the Buddhist usage of nonattach-
+ment. In this context the subtleties of Aronson’s writing are in his ability 
+to explain (using examples of realized Tibetan teachers in his own ex-
+perience) to present the paths to nonattachment, in Theravåda, Mahå-
+yåna and Vajrayåna/Tantrayåna teachings. The tension of the paradox 
+that knows of something in the future (the ‘Enlightened’ state) that is 
+only achieved when one is fully present is discussed at length. 
+The concluding two chapters address the nonattachment issue using 
+a Western model, which highlights the difﬁculties Westerners have in 
+developing a secure family attachment, due to cultural and economic 
+pressures, compared to the extended family relations that Asian chil-
+dren grow up with. Thus making Asian children and adults more readily 
+comfortable with a community of practitioners. The paradox here for 
+Western children is in their ability to accept being alone whilst growing 
+up only in the presence of their mothers. This paradox creates, accord-
+ing to Aronson, ‘the creative true self’ (p. 187). The parent’s unintru-
+sive silence helps develop this skill in children. Western psychotherapy 
+opens up a position of mutual understanding with classical Buddhism 
+here. The source of the ‘true self’ of the child is the non-attached par-
+ent, who allows the child to feel securely attached (in the psychological 
+sense) by his/her actions. This course of development is in preference 
+to ‘ reactive defensive detachment’ caused by injury or abuse as a child, 
+which can later manifest as ‘distance-as-a-refuge’, and ﬁnd in Buddhism, 
+mistakenly, detachment they perceive to be congruent with their own 
+emotional state. This is not however what is being discussed in the Bud-
+dhist presentation. The suggestion is, the need once more for a synergy 
+of both meditation and psychotherapy where this type of problem 
+arises. 
+Aronson sets out, and largely achieves his aim in presenting a little 
+discussed dimension in the transmission of Buddhism to the West: that 
+of the differences between traditional Buddhist societies, which have for 
+generations developed a psycho-spiritual environment, and a Western 
+
+
+
+<!-- Page 120 -->
+
+BOOK REVI EW S 
+ 
+208 
+society in which it is not as easy to replicate such an environment. His 
+thorough investigation of this issue supports his contention that ‘it is 
+not possible to replicate all segments of that web [language, philosophy 
+and social customs] when we incorporate Buddhist practice into our 
+lives’. The only reservation with the content of this book is for the 
+reader to be aware of the tendency to psychologize the Dharma. It 
+nonetheless rings true empirically of experience in modern Western 
+societies and the encounter with Buddhism. 
+ 
+Phil Henry 
+University of Derby 
+ 
+ 
+Buddhism, War, and Nationalism. Chinese Monks in the Struggle against Japa-
+nese Aggressions, 1931–1945. Xue YU. London: Routledge, 2005. xiii, 
+278 pp. £46.00 (hardcover). isbn 0415-975115. 
+ 
+In the ﬁrst three decades of the twentieth century, the very existence of 
+monastic Buddhism in China was threatened by a state hungry for new 
+forms of revenue and public space. Reform-minded ofﬁcials cam-
+paigned successfully for the conﬁscation of fertile monastic lands, and 
+suggested that monastery buildings might be put to better use as public 
+schools. Just as leading monks began to mount a defence against these 
+new encroachments on their livelihood, Japanese military aggression, 
+culminating in full-scale invasion of China, made matters even worse. 
+Against the backdrop of these desperate times, Xue Yu chronicles the 
+response of monks, nuns and lay Buddhists to the challenge of foreign 
+invasion and the moral quandaries it brought with it. As detailed by Yu, 
+some monks did their best to ignore the unignorable, hiding away in 
+their monasteries and waiting for the dark days of war to pass in the 
+conviction that Buddhist monks should have nothing to do with armies, 
+guns and bloodshed. Indirect evidence suggests that some monks ac-
+tively opposed monastic participation of any kind in the war (p. 58). 
+Most, however, chose to participate in the war in one way or another.  
+Many of the monks who did participate in the war went to some 
+lengths to justify what on the surface seems to be a clear violation of the 
+
+
+
+<!-- Page 121 -->
+
+BOOK REVI EW S 
+209 
+Buddhist prohibition on killing. Some literally demonized the enemy, 
+saying that, as Buddhists were permitted to ﬁght against demons, they 
+could exterminate Japanese invaders without compunction (p. 48). 
+More commonly, monks claimed that by ‘killing one they could save 
+many,’ thus rendering shooting a Japanese soldier a ‘compassionate 
+act’. Indeed, far from causing bad karma, killing with a compassionate 
+mind was said to reap merit (p. 50). Arguments such as these, occasion-
+ally supported by scripture, allowed monks to at least consider a wide 
+range of responses to the Japanese invasion, including armed combat. 
+With such rhetoric as background, perhaps the most interesting chap-
+ters of Yu’s book are those that describe the various actions Chinese 
+monks took during the war years either to support resistance to the 
+Japanese military, or, in Japanese-occupied territories, to support the 
+Japanese cause. Following on a long-standing tradition, monks con-
+ducted large-scale public rituals to provide spiritual support to the Chi-
+nese resistance, though even monks questioned the efﬁcacy of ritual 
+against machine guns, ﬂamethrowers and bombs (p. 72). Others con-
+tented themselves with the grim work of burying the war dead. Leading 
+monks threw themselves into another traditional monastic role, solicit-
+ing donations for public works, with the funds collected going towards 
+the purchase of ﬁghter planes (p. 117). Probably more important for 
+the war effort than any of these measures were the ‘Sangha Rescue 
+Teams’ – a sort of Buddhist Red Cross – formed by monks to provide 
+elementary medical care to Chinese soldiers on the battleﬁeld. Yu’s dis-
+cussion of the efforts of leading monks to maintain these ‘Rescue 
+Teams’ – plagued by insufﬁcient funding, poor organization, and scep-
+ticism – are among the most compelling parts of the book. By order of 
+the state, all monks of ﬁghting age were in theory to have received mili-
+tary training, but relatively few monks seem to have joined in the actual 
+ﬁghting. And those who did join the army in general abandoned all 
+outward sign of their original vocation – there were no battalions of 
+keßåya-clad infantry. Just as Chinese monks in Nationalist or Communist 
+controlled areas justiﬁed support for the war as an expedient means to a 
+loftier end, Chinese monks in Japanese-occupied territories justiﬁed 
+their support of the Japanese military (through prayers for the success 
+of the Japanese army and in one case by raising funds to purchase a 
+
+
+
+<!-- Page 122 -->
+
+BOOK REVI EW S 
+ 
+210 
+Japanese war plane!) by claiming that the Japanese were the only hope 
+for protection of the Dharma from the atheist communists gathering 
+power in the northwest. 
+Yu relies almost exclusively on Buddhist sources – chieﬂy the writings 
+of prominent monks and publications in Buddhist journals. While this 
+provides a detailed picture of the Buddhist view of the role of monks in 
+the war, it gives little sense of how others viewed Buddhism at the time, 
+or of the impact of the activities of monks on the war. Though young 
+‘revolutionary monks’ wrote enthusiastically of their contributions to 
+the war effort, one wonders what weight generals gave to their activities. 
+Nor does Yu examine his sources critically. Hence, we are told that a 
+monk named Hongming who had organized a Sangha Rescue Team 
+‘became arrogant and began to associate with gangsters’, and later that 
+he had been ‘framed’ when arrested for treason (p. 126). But without 
+conﬁrmation from other sources, what are we to make of such claims? 
+Similarly, references to monks acting as double agents (p. 142) and to 
+Japanese atrocities (p. 147) are based on one biased source each, giving 
+such claims little more credibility than rumour. 
+Finally, the author was not well served by his publisher. I have never 
+read a book, academic or otherwise, as poorly edited as this one. Run-on 
+sentences, missing prepositions and articles, misspellings, incorrect 
+Romanization of Chinese terms, wrong tenses, lack of subject-verb 
+agreement and generally unidiomatic English run from the ﬁrst page to 
+the last. Scarcely a page can be found without jarring errors. Appar-
+ently, Routledge did no editing whatsoever of a manuscript written in 
+ungrammatical English by a non-native speaker. The poor English is 
+extremely distracting, even when the general meaning is clear. It is 
+nothing short of disgraceful that Routledge should publish a book in 
+this condition. This complete lack of editing is unfortunate as the book 
+contains much valuable information on a fascinating period of Chinese 
+Buddhist history. 
+ 
+John Kieschnick 
+University of Bristol 
+ 
+
+
+
+<!-- Page 123 -->
+
+ 
+Buddhist Studies Review 22 (2005), 211–16 
+ 
+OBITUARY 
+ 
+Heinz Bechert  
+26 June 1932 – 14 June 2005 
+ 
+ollowing two strokes, the world of academe has lost the European 
+doyen of Buddhist studies in the ﬁelds of South-East Asia (princi-
+pally Sri Lanka) and Central Asian lexicography. 
+Professor Dr Bechert inherited the mantle of Ernst Waldschmidt, 
+continuing his studies and initiating new ventures at Göttingen Univer-
+sity. Their most notable, enduring and ongoing serial publications are 
+the Sanskrithandschriften aus den Turfanfunden (9 fascicles, 1965–2004, 
+with Bechert co-editing Nos. 6–9) and the accompanying Sanskrit-
+Wörterbuch der buddhistischen Texte aus den Turfanfunden (17 fascicles, 
+1973–2004, with Bechert supervising the meticulous work of an edito-
+rial team). Sponsored by the Kommission für buddhistische Studien of 
+Göttingen’s Akademie der Wissenschaften, no less than four symposia 
+were convened by Bechert between 1974 and 1988. From the titles of 
+the published Proceedings (edited by him), these spanned the ﬁelds of 
+Buddhism in Ceylon and Studies on Religious Syncretism in Buddhist Countries 
+(1978), The Language of the Earliest Buddhist Tradition (1980), Zur Schul-
+zugehörigkeit von Werken der H¥nayåna-Literatur (2 vols, 1985–87) and The 
+Dating of the Historical Buddha (3 vols, 1991–97). To reach a wider read-
+ership, the English-language entries and most of the German entries in 
+translation also appeared in a single volume entitled When Did the Bud-
+dha Live? The Controversy on the Dating of the Historical Buddha (Delhi, 
+1995). Moreover, Bechert not only contributed to all these Proceedings 
+but also penned numerous articles, particularly on the last-named sym-
+posium to relevant journals around the world. Also under his editorship 
+and the auspices of the Akademie, the Bibliographische Erfassung der 
+buddhistischen Sanskrit-Literatur was launched in 1972, although to date 
+only two surveys have actually appeared: Akira Yuyama’s Systematische 
+F
+
+
+
+<!-- Page 124 -->
+
+OBITU ARY 
+ 
+212 
+Übersicht über die buddhistische Sanskrit-Literatur I. Vinaya-Texte (1979) and 
+Ernst Steinkeller and M. Torsten Much’s Texte der erkenntnistheoretischen 
+Schule der Buddhismus (1995). 
+Heinz Bechert was born in Munich but spent his youth in Rosenheim 
+(near Salzburg in Austria). In 1949 he returned to Munich where his 
+father hoped that he would also qualify as a lawyer. However, the son 
+enrolled at Munich University where he read Classical Philology and 
+History, Indology and Tibetology (1950–56) and at Hamburg (1954), 
+his tutors including Helmut Hoffmann and Helmut Humbach. He ob-
+tained his doctorate from Munich in 1956 for an edition of the 
+Anavataptagåthå and Sthaviragåthå published under the title Bruchstücke 
+buddhistischer Verssammlungen aus zentralasiatischen Sanskrithandschriften 
+(Berlin, 1961). He served as a research assistant at Saarbrücken (1956–
+61), Research Fellow at Colombo (1958–59) and a research assistant at 
+Mainz (1961–64) from where he was ‘habilitated’ by his thesis on the 
+‘Geschichte der Sanskritliteratur bei den Singhalesen’; this was revised 
+for publication as Eine regionale hochsprachliche Tradition in Südasien: 
+Sanskrit-Literatur bei den Buddhistischen Singhalesen (Vienna, 2005). Ap-
+pointed Reader at Mainz, after six months he was invited to join the 
+Oriental faculty at Göttingen and, in 1965, succeeded Waldschmidt as 
+Head of the Seminar für Indologie und Buddhismuskunde. Later, he 
+was twice invited to Yale as Visiting Professor (1969–70 and 1974–75). 
+Regarding South-East Asian textual studies, he has, for example, co-
+edited Singhalesische Handschriften (3 fascicles, Wiesbaden, 1969–97) and 
+Burmese Manuscripts 1 (Wiesbaden, 1979 – upto 2004 a further 4 fasci-
+cles have been compiled by different authors); these works were based 
+on the Seminar’s library of 30,000 volumes. He also edited Sanskrittexte 
+aus Ceylon, including some of the prescribed texts in the monastic cur-
+riculum (Munich, 1962), and, with Heinz Braun, Påli N¥ti Texts of Burma 
+(PTS, 1981). His magnum opus is undoubtedly the deﬁnitive survey of 
+Buddhismus, Staat und Gesellschaft in den Ländern des Theravåda-Buddhis-
+mus (3 vols: i Frankfurt-Hamburg, 1966; ii and iii Wiesbaden, 1967–73; 
+i Grundlagen. Ceylon (Sri Lanka), repr. Göttingen 1988; ii Birma, 
+Kambodscha, Laos, Thailand, rev. ed. Göttingen, 2000), the most com-
+prehensive study in this ﬁeld. 
+
+
+
+<!-- Page 125 -->
+
+OBITU ARY 
+213 
+He contributed numerous papers on the Theravåda Buddhist culture 
+and institutions, past and present, in South and South-East Asia (includ-
+ing Nepal, Bangladesh and Indonesia) together with the indigenous 
+and Sanskrit literature of Sri Lanka, supplemented with essays on what 
+he termed ‘Buddhist Modernism’ (the preferred term to the somewhat 
+misleading ‘Protestant Buddhism’ adopted by other scholars). To him, 
+it denoted ‘modern Buddhist revivalism’, applied to the context of post-
+colonial societies of which that of Sri Lanka was the pre-eminent exam-
+ple. He outlined twelve features which encapsulate this essentially twen-
+tieth-century phenomenon: (1) a tendency towards relying on an in-
+dependent and non-traditional understanding of the Buddha’s teaching 
+as found in the early sources; (2) a process of ‘demythologisation’ of 
+Buddhism; (3) the characterisation of Buddhism as a ‘scientiﬁc relig-
+ion’; (4) the emphasis on Buddhism as a ‘philosophy’ rather than a 
+creed or religion; (5) on its being a ‘philosophy of optimism’ in contrast 
+to Western criticism of ‘Buddhist pessimism’; (6) in terms of more prac-
+tical issues the emphasis on ‘activism’ as forming an important feature 
+of the Buddhist way of life; (7) in terms of social relations setting great 
+store by ‘social work’; (8) the claim by modernists that Buddhism ‘has 
+always included a social philosophy’ which is described as a ‘philosophy 
+of equality’; (9) the demand that a Buddhist society should be democ-
+ratic; (10) the emergence of Buddhist nationalism; (11) a tendency of 
+modern Buddhists towards ‘rewriting history in accordance with their 
+particular understanding of national history’; (12) the revival and popu-
+larisation of Buddhist meditation as an important development in Bud-
+dhist religious practice. He followed up this formula by highlighting 
+‘new trends in contemporary Buddhism’: (1) its contribution to envi-
+romentalism (the worldwide Green Movement); (2) emphasising ‘the 
+Buddhist concept of universal tolerance’; (3) reacting against modern-
+ism by ‘reasserting the teachings and values of traditional Buddhism’; 
+(4) attempting a ‘radical return to the roots of Buddhism’; (5) aiming 
+at the ‘renewal of the ideals of the forest-dwelling monks’; (6) reviving 
+samatha meditation (vipassanå having already become part and parcel of 
+standard Buddhist modernism); (7) the ‘revival of ritualism and spread 
+of Tantrayåna’ in countries such as Taiwan, Singapore or in Buddhist 
+communities in the West; (8) the emergence of a ‘new type of Buddhist 
+
+
+
+<!-- Page 126 -->
+
+OBITU ARY 
+ 
+214 
+syncretism, viz. the combination of various Buddhist traditions’; (9) a 
+‘tendency towards a “re-mythologisation”’; (10) a strong tendency to-
+wards the ‘reassertion of women’s rights in contemporary Buddhism’; 
+the attempts and subsequent actions taken to restore the Order of fully-
+ordained nuns in both the Theravåda and Vajrayåna. 
+Bechert also turned his attention to the broad ﬁeld of Indian 
+Buddhology (e.g. he co-edited, with Georg von Simson, Einführung in die 
+Indologie, Darmstadt, 1979, rev. ed., 1993) and the Sanskrit text-based 
+remains of the former Buddhist kingdoms of the Silk Road. 
+With regard to the Sanskrit-Wörterbuch, it was decided to limit the ma-
+terial used to the Buddhist texts from the Turfan collection (acquired 
+by the four German expeditions to the modern Chinese province of 
+Xinjiang before the First World War) and to include the evaluation of 
+canonical and semi-canonical texts only. Thus, kåvya texts, including 
+stotras, fragments of Buddhist dramas and similar material would be 
+held in reserve for a possible, future second part of the dictionary. As 
+for the textual material which is included in the dictionary, the follow-
+ing decisions were made: with two exceptions of the Sarvåstivådin Pråti-
+mok#asËtra and the Sanskrit-Tocharian bilingual text of the Kar-
+mavåcanå, only published texts are quoted. It is planned as a dictionary 
+of the Sarvåstivådin texts to which most of the Central Asian H¥nayånist 
+Sanskrit texts belong, but it also includes a few MËlasarvåstivåda and 
+Dharmaguptaka fragments. The citation of other Central Asian mate-
+rial, including Mahåyåna works, dhåraˆ¥ and mantra texts, etc., was dis-
+continued after fascicle two in order to arrive at a more homogeneous 
+selection of texts. Starting with fascicle four, the published Central 
+Asian mss from other collections in France, England, Russia and Japan 
+were also evaluated. In this way, the dictionary will constitute a thesau-
+rus of all known Sarvåstivåda texts. During a meeting of the supervisory 
+committee in 1982, it was also decided that the MËlasarvåstivådin Abhi-
+dharma texts should be similarly evaluated.  
+Bechert contributed a guide to this ambitious lexicographical project, 
+‘Das ‘Sanskrit-Wörterbuch der Turfan-Funde’ als Hilfsmittel für die 
+Zentralasienforschung’ (Klaus Röhrborn [Head of Dept of Turkology 
+and later successor to Bechert as Editor-in-Chief of the SWTF] and W. 
+Veenker, ed., Sprachen des Buddhismus in Zentralasien, Wiesbaden, 1983).  
+
+
+
+<!-- Page 127 -->
+
+OBITU ARY 
+215 
+His edition of the ‘Marburger Fragmente’ of the Saddharma-
+puˆ!ar¥kasËtra (NAWG, 1972) constituted a pioneer piece of detective 
+work. He established that (1) this text had been originally transmitted 
+orally in a Middle Indic (i.e. Prakrit) language before being committed 
+to writing; (2) it comprised only two recensions (Nepalese-Kashmiri and 
+Central Asian) by proving that the Gilgit mss represented an earlier 
+stage of the Nepalese version; and (3) ﬁve incomplete Central Asian 
+folios belonged to a single ms, different portions of which had been sold 
+to the Russian, Aurel Stein, German and Otani expeditions. 
+Insofar as textual studies are concerned, attention should be drawn to 
+his summaries, viz., ‘The Importance of Central Asian Manuscript Finds 
+for Sanskrit Philology’ (Proceedings of the First International Sanskrit Confer-
+ence [New Delhi, 1972], ed. V. Raghavan, Section Two, Part 1, 1975; 
+Journal of the Bihar (and Orissa) Research Society 63–64, 1977–78), ‘Cata-
+loguing of Buddhist Manuscripts from Sri Lanka, from Burma and from 
+Central Asia in Germany’ (International Association of the Vrindaban Re-
+search Institute Bulletin 4, SOAS, 1978), ‘Central Asian Manuscripts and 
+Buddhist Studies’ (All India Frontier Bauddha Sammelan. International 
+Buddhist Conference, ed. Lodi G. Gyari, Delhi, 1978), ‘The Catalogue of 
+Sinhala Manuscripts in Germany and the Present State of Cataloguing 
+Sinhala Manuscripts’ (Spolia Zeylanica 35, Colombo, 1980) and ‘Die 
+Handschriftensammlung des Seminars für Indologie und Buddhismus-
+kunde’ (250 Jahre George-August-Universität Göttingen, 1987). Related lit-
+erary ventures include extensive entries on Pali and Sinhala Buddhist 
+texts (Kindlers Literatur Lexikon 5–7, Zürich, 1969–72), the religious tra-
+ditions of India, Tibet and South-East Asia (Taschenlexikon. Religion und 
+Theologie, ed. Erwin Fahlbusch, 4 vols, Göttingen, 1971, 5 vols, 1983) 
+and the invaluable research tool distilled from A Critical Påli Dictionary 
+and those text editions and dictionaries he compiled, Abkürzungsver-
+zeichnis zur buddhistischen Literatur in Indien und Südostasien (Göttingen, 
+1990). 
+On the occasion of his sixtieth and sixty-ﬁfth birthdays, commemora-
+tive volumes were produced, respectively, Studien zur Indologie und Budd-
+hismuskunde (ed. Reinhold Grünendahl, Jens-Uwe Hartmann and Petra 
+Kieffer-Pülz, Bonn, 1993) and Bauddhavidyåsudhåkara˙ (ed. P. Kieffer-
+
+
+
+<!-- Page 128 -->
+
+OBITU ARY 
+ 
+216 
+Pülz and J-U. Hartmann, Swisttal-Odendorf, 1997). These tomes in-
+clude the subject’s vast bibliography. 
+From his youth, Bechert’s prime pastime was mountaineering: unless 
+he was undertaking ﬁeldwork in Sri Lanka or South-East Asia, he was to 
+be found climbing in the Alps. Like Anton Gueth (who became the ﬁrst 
+German bhikkhu, Nyånatiloka), he also played the violin and partici-
+pated in an orchestra conducted by one of his tutors, Hoffmann. 
+He leaves behind a widow, Marianne (née Würzburger), who acted as 
+his ‘manager’, secretary and chauffeur. His mourning card was adorned 
+with the Dharmacakra ﬂanked by the two deer as at Sarnath. However, 
+since the funeral was a strictly family affair, we may never know whether 
+he actually professed Buddhism – such declaration being almost incon-
+ceivable in his public position as perhaps was realised by T. W. Rhys Da-
+vids (the founder of the Pali Text Society) over a hundred years ago. 
+ 
+Russell Webb 
+ 
+
+
+
+<!-- Page 129 -->
+
+ 
+ 
+UKABS CONFERENCE 
+ 
+ 
+Buddhism & Popular Culture 
+Lancaster University 
+14–16 July 2006 
+speakers include 
+Anne Blackburn (Cornell) ‘Writing Histories from Landscape and 
+Architecture: Sukhothai and Chiang Mai’ ! Gregory Schopen 
+(UCLA) ’Religious Festivals in Early North Indian Buddhist Monaster-
+ies’ ! George Tanabe (Hawaii) ‘The Death and Rebirth of Buddhism 
+in Contemporary Japan’ ! Cathy Cantwell (Oxford) ‘Variations in 
+Tibetan Buddhist Meditations on Deities: the Process of Generating 
+Practices’ ! Kate Crosby (SOAS) ‘Penalties for Sacrilege: Mistreat-
+ment of the Sacred in Theravada Literature’ ! Ven. Mahinda Dee-
+galle (Bath Spa) ‘Role of Texts in Popular Buddhist Preaching in Sri 
+Lanka’ ! Silke Geffcken (Ghent) ‘Travelling in Search for Enlight-
+enment: Chan Encounters with Yuanwu Keqin (1063–1135)’ ! Peter 
+Harvey (Sunderland) ‘Buddhist Reﬂections on Crime  Prevention and 
+Punishment’ ! Hiroko Kawanami (Lancaster) ‘The Bhikkhuni Ordi-
+nation Debate: the Position of Burmese Sangha’ ! Rob Mayer (Ox-
+ford) ‘Buddhism and the Sensuous Underworlds of the Asuras’ ! Law-
+rence Normand (Middlesex) ‘Shangri-La and History in 1930s Eng-
+land’ ! Sam van Schaik (British Library) ‘Pilgrims and Palaeography at 
+Dunhuang’ ! Gay Watson (SOAS) ‘Buddhism, Psychotherapy and 
+Neuroscience’ 
+ 
+ 
+Conference Fee: £30 (waged)/£15 (unwaged) 
+Accommodation (single ensuite room + breakfast): £48.23 per night 
+ 
+For further details email Ian Harris (i.harris@ucsm.ac.uk) 
+ 
+
+
+
+<!-- Page 130 -->
+
+
+
+
+<!-- Page 131 -->
+
+ 
+ 
+ANNUAL SUBSCRIPTION RATES 
+ 
+1. Individual membership of UK Association for Buddhist Studies (in-
+cluding subscription to BSR): £15/$28/!30 (unwaged £10) by cheque 
+made payable to ‘UK Association for Buddhist Studies’ to be sent to Ms 
+Janet Joyce, Equinox Publishing, Unit Six, The Village, 101 Amies 
+Street, London SW11 2JW, UK (email: jjoyce@equinoxpub.com).  
+ 
+2. Subscriptions to Buddhist Studies Review (journal only) from volume 
+23 (2006): 
+• 
+Institutional price: £40/$75 
+• 
+Developing-world institutional price: £19.50/$37.50 
+• 
+Individual price: £19.50/$37.50/!33 
+• 
+Student price: £15.60/$30/!26.50 
+Send all orders, sample-copy requests, claims and queries to: 
+Journals Department 
+Subscription Customer Services Manager 
+Turpin Distribution Services 
+Stratton Business Park 
+Biggleswade 
+Bedfordshire SG18 8QB 
+United Kingdom 
+ 
+Email: subscriptions@turpin-distribution.com 
+Tel: +44 (0)1767 604 951 
+Fax: +44 (0)1767 601 640 
+www.turpin-distribution.com 
+ 
+! 
+uk association for buddhist studies 
+www.sunderland.ac.uk/~os0dwe/bs5.html 
+buddhist studies review 
+www.equinoxpub.com/journals/prices.asp?jref=59 
+
+
