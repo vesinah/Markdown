@@ -1,9 +1,9 @@
 {
   "name": "คลังงานวิจัย (Research Archive)",
   "baseUrl": "docs/",
-  "updatedAt": "2026-09-21T08:34:43.306Z",
-  "totalFiles": 8570,
-  "totalBytes": 1044843205,
+  "updatedAt": "2026-09-29T10:16:20.405Z",
+  "totalFiles": 8652,
+  "totalBytes": 1076344528,
   "files": [
     {
       "path": "00 - รวมแปลบทความวิชาการ/05+Ooi+Corrected+FINAL+version+August+14+2022_Embedded.md",
@@ -42854,6 +42854,416 @@
       "path": "2026-09-21_พระสูตรนอกสารบบ_มหายาน_เถรวาท/validation-report.txt",
       "size": 5571,
       "mtime": 1789979382766
+    },
+    {
+      "path": "2026-09-29_การสร้างศาลาสาธารณประโยชน์พุทธศาสนา/drafts/drafting-progress.md",
+      "size": 3080,
+      "mtime": 1789813394537
+    },
+    {
+      "path": "2026-09-29_การสร้างศาลาสาธารณประโยชน์พุทธศาสนา/glossary.md",
+      "size": 20604,
+      "mtime": 1790668469376
+    },
+    {
+      "path": "2026-09-29_การสร้างศาลาสาธารณประโยชน์พุทธศาสนา/outline-proposal.md",
+      "size": 49247,
+      "mtime": 1790668508736
+    },
+    {
+      "path": "2026-09-29_การสร้างศาลาสาธารณประโยชน์พุทธศาสนา/PAUSE_CHECKPOINT.md",
+      "size": 5929,
+      "mtime": 1790671646194
+    },
+    {
+      "path": "2026-09-29_การสร้างศาลาสาธารณประโยชน์พุทธศาสนา/project-plan.md",
+      "size": 20852,
+      "mtime": 1790668446577
+    },
+    {
+      "path": "2026-09-29_การสร้างศาลาสาธารณประโยชน์พุทธศาสนา/research-notes/dossier-template.md",
+      "size": 3978,
+      "mtime": 1789813375374
+    },
+    {
+      "path": "2026-09-29_การสร้างศาลาสาธารณประโยชน์พุทธศาสนา/research-notes/reading-progress.md",
+      "size": 2330,
+      "mtime": 1789813384492
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/drafts/assembled/ch01.md",
+      "size": 334472,
+      "mtime": 1790638931949
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/drafts/drafting-progress.md",
+      "size": 4009,
+      "mtime": 1790637108619
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/drafts/sections/ch01_sec01.md",
+      "size": 37087,
+      "mtime": 1790637041978
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/drafts/sections/ch01_sec02.md",
+      "size": 69715,
+      "mtime": 1790637053790
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/drafts/sections/ch01_sec03.md",
+      "size": 38642,
+      "mtime": 1790636985070
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/drafts/sections/ch01_sec04.md",
+      "size": 67714,
+      "mtime": 1790635836621
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/drafts/sections/ch01_sec05.md",
+      "size": 42266,
+      "mtime": 1790638938516
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/drafts/sections/ch01_sec06.md",
+      "size": 82623,
+      "mtime": 1790635824968
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/final/00-สารบัญ.md",
+      "size": 37776,
+      "mtime": 1790638739086
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/final/01-บทที่หนึ่ง.md",
+      "size": 334472,
+      "mtime": 1790638928842
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/final/references.md",
+      "size": 8502,
+      "mtime": 1790638915733
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/glossary.md",
+      "size": 10808,
+      "mtime": 1790628058774
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/outline-proposal.md",
+      "size": 31647,
+      "mtime": 1790628104133
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/project-plan.md",
+      "size": 17540,
+      "mtime": 1790628075803
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/dossier-template.md",
+      "size": 1726,
+      "mtime": 1790628034972
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1824-photios-01.md",
+      "size": 3254920,
+      "mtime": 1790631078996
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1841-pinder-zon01.md",
+      "size": 2537957,
+      "mtime": 1790632389183
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1853-justin-01.md",
+      "size": 1350236,
+      "mtime": 1790631967852
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1861-prosper-01.md",
+      "size": 3583437,
+      "mtime": 1790631137812
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1862-defensor-01.md",
+      "size": 4179053,
+      "mtime": 1790631151644
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1879-eutropius-01.md",
+      "size": 1828533,
+      "mtime": 1790631734707
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1889-defensor-01.md",
+      "size": 626374,
+      "mtime": 1790631168479
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1896-holl-01.md",
+      "size": 1066556,
+      "mtime": 1790631190218
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1903-deboor-01.md",
+      "size": 2696375,
+      "mtime": 1790631212912
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1903-deboor-02.md",
+      "size": 1598601,
+      "mtime": 1790631235338
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1909-johnsalisbury-01.md",
+      "size": 1057881,
+      "mtime": 1790631259339
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1909-johnsalisbury-02.md",
+      "size": 1437785,
+      "mtime": 1790631290850
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1910-livy-01.md",
+      "size": 487843,
+      "mtime": 1790630961329
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1920-photios-01.md",
+      "size": 621465,
+      "mtime": 1790631305417
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1925-cary-01.md",
+      "size": 1092407,
+      "mtime": 1790631325245
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1927-cary-02.md",
+      "size": 1389763,
+      "mtime": 1790631343380
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1947-bardy-01.md",
+      "size": 88041,
+      "mtime": 1790632738943
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1979-munkolsen-01.md",
+      "size": 232601,
+      "mtime": 1790632490503
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-1980-munkolsen-01.md",
+      "size": 129805,
+      "mtime": 1790632490592
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-2004-blair-01.md",
+      "size": 67806,
+      "mtime": 1790632490658
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-2005-nighman-01.md",
+      "size": 57608,
+      "mtime": 1790632490721
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-2007-blair-01.md",
+      "size": 73219,
+      "mtime": 1790632738893
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-2011-nighman-01.md",
+      "size": 44511,
+      "mtime": 1790632490755
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-2013-nighman-biblio.md",
+      "size": 51053,
+      "mtime": 1790632490815
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-2013-nighman-preface.md",
+      "size": 6905,
+      "mtime": 1790632490822
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-2014-bartlett-01.md",
+      "size": 104734,
+      "mtime": 1790632656376
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-2018-netz-01.md",
+      "size": 67764,
+      "mtime": 1790632656634
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-2019-horn-01.md",
+      "size": 43799,
+      "mtime": 1790632739009
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/extracted-texts/S-2024-mulder-01.md",
+      "size": 26028,
+      "mtime": 1790632656719
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/reading-progress.md",
+      "size": 13916,
+      "mtime": 1790634996093
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/source-index.md",
+      "size": 27235,
+      "mtime": 1790633292603
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1824-photios-01.md",
+      "size": 11809,
+      "mtime": 1790634966504
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1841-pinder-zon01.md",
+      "size": 15028,
+      "mtime": 1790634966507
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1853-justin-01.md",
+      "size": 18179,
+      "mtime": 1790634966496
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1861-prosper-01.md",
+      "size": 12429,
+      "mtime": 1790634966494
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1862-defensor-01.md",
+      "size": 11308,
+      "mtime": 1790634966493
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1879-eutropius-01.md",
+      "size": 18365,
+      "mtime": 1790634966497
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1889-defensor-01.md",
+      "size": 12571,
+      "mtime": 1790634966494
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1896-holl-01.md",
+      "size": 16707,
+      "mtime": 1790634966505
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1903-deboor-01.md",
+      "size": 13914,
+      "mtime": 1790634966506
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1903-deboor-02.md",
+      "size": 10975,
+      "mtime": 1790634966506
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1909-johnsalisbury-01.md",
+      "size": 16484,
+      "mtime": 1790634966495
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1909-johnsalisbury-02.md",
+      "size": 11826,
+      "mtime": 1790634966495
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1910-livy-01.md",
+      "size": 16298,
+      "mtime": 1790634966496
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1920-photios-01.md",
+      "size": 19709,
+      "mtime": 1790634966504
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1925-cary-01.md",
+      "size": 12112,
+      "mtime": 1790634966498
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1927-cary-02.md",
+      "size": 14585,
+      "mtime": 1790634966498
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1947-bardy-01.md",
+      "size": 22457,
+      "mtime": 1790634966503
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1979-munkolsen-01.md",
+      "size": 15815,
+      "mtime": 1790634966490
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-1980-munkolsen-01.md",
+      "size": 11767,
+      "mtime": 1790634966490
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-2004-blair-01.md",
+      "size": 15151,
+      "mtime": 1790634966489
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-2005-nighman-01.md",
+      "size": 16015,
+      "mtime": 1790634966491
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-2007-blair-01.md",
+      "size": 14969,
+      "mtime": 1790634966490
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-2011-nighman-01.md",
+      "size": 13452,
+      "mtime": 1790634966491
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-2013-nighman-biblio.md",
+      "size": 11494,
+      "mtime": 1790634966492
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-2013-nighman-preface.md",
+      "size": 13999,
+      "mtime": 1790634966493
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-2014-bartlett-01.md",
+      "size": 18893,
+      "mtime": 1790634966500
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-2018-netz-01.md",
+      "size": 18295,
+      "mtime": 1790634966503
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-2019-horn-01.md",
+      "size": 13763,
+      "mtime": 1790634966501
+    },
+    {
+      "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-2024-mulder-01.md",
+      "size": 13724,
+      "mtime": 1790634966503
     }
   ]
 }
