@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="gold4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fde68a" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#581c87" />
+      <stop offset="100%" stop-color="#7e22ce" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <filter id="shadow4" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="900" fill="url(#bg4)" />
+
+  <!-- Header -->
+  <rect x="50" y="30" width="1100" height="90" rx="14" fill="#1e293b" stroke="#f59e0b" stroke-width="2" filter="url(#shadow4)" />
+  <text x="600" y="68" text-anchor="middle" font-family="'Sarabun', Arial, sans-serif" font-size="26" font-weight="bold" fill="url(#gold4)">
+    แผนผังวิเคราะห์แบบจำลองการสืบราชสมบัติอามาร์นา: สายสเมนคาเร vs กษัตริย์สตรีเนเฟอร์เนเฟรูอาเตน
+  </text>
+  <text x="600" y="98" text-anchor="middle" font-family="'Sarabun', Arial, sans-serif" font-size="15" fill="#94a3b8">
+    การไขเขาวงกตประวัติศาสตร์ผ่านหลักฐานอักขรวิทยา หน่วยคำเพศสภาพ (.t) และจารึกปีที่ 16 แห่งเดอีร์ อบู ฮินนิส
+  </text>
+
+  <!-- Top Anchor: Akhenaten's Final Years -->
+  <g transform="translate(350, 140)">
+    <rect width="500" height="80" rx="12" fill="#1e293b" stroke="#f59e0b" stroke-width="2" filter="url(#shadow4)" />
+    <text x="250" y="35" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="18" font-weight="bold" fill="#fbbf24">
+      อัคเคนาเตน (Akhenaten | ปีที่ 1–17 แห่งรัชสมัย)
+    </text>
+    <text x="250" y="60" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">
+      มเหสีเอก: เนเฟอร์เนเฟรูอาเตน เนเฟอร์ตีติ | พระราชธิดา 6 พระองค์ | พระโอรส: ตุตันคาเตน
+    </text>
+  </g>
+
+  <!-- Splitting Branch Lines -->
+  <path d="M 600 220 L 600 250 L 320 250 L 320 280" stroke="#f59e0b" stroke-width="2.5" fill="none" />
+  <path d="M 600 250 L 880 250 L 880 280" stroke="#f59e0b" stroke-width="2.5" fill="none" />
+
+  <!-- Left Branch: Ankhkheperure Smenkhkare (The Male King) -->
+  <g transform="translate(80, 280)">
+    <rect width="480" height="240" rx="14" fill="#1e293b" stroke="#0284c7" stroke-width="2" filter="url(#shadow4)" />
+    
+    <!-- Title Badge -->
+    <rect x="20" y="15" width="440" height="40" rx="8" fill="url(#blueGrad)" />
+    <text x="240" y="41" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="16" font-weight="bold" fill="#fff">
+      กษัตริย์บุรุษ: อันค์เคเปรูเร สเมนคาเร เจเซอร์เคเปรู
+    </text>
+
+    <text x="30" y="80" font-family="Arial" font-size="13" font-weight="bold" fill="#38bdf8">
+      Ꜥnḫ-ḫpr.w-RꜤ Smnḫ-kꜢ-RꜤ Ḏsr-ḫpr.w
+    </text>
+    <text x="30" y="105" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">
+      • <tspan font-weight="bold" fill="#fff">เพศสภาพ:</tspan> บุรุษอย่างชัดเจน (ไวยากรณ์เพศชาย 100%)
+    </text>
+    <text x="30" y="128" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">
+      • <tspan font-weight="bold" fill="#fff">ฉายานามเฉพาะ:</tspan> Djeserkheperu ("ผู้มีความศักดิ์สิทธิ์แห่งรูปกาย")
+    </text>
+    <text x="30" y="151" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">
+      • <tspan font-weight="bold" fill="#fff">มเหสี:</tspan> อภิเษกสมรสกับ เจ้าหญิงเมริทอาเตน (Meritaten)
+    </text>
+    <text x="30" y="174" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">
+      • <tspan font-weight="bold" fill="#fff">ระยะเวลาครองราชย์:</tspan> ร่วมครองราชย์สั้นๆ ช่วงปลายรัชกาล
+    </text>
+    <text x="30" y="197" font-family="'Sarabun', sans-serif" font-size="13" fill="#94a3b8">
+      • สวรรคตก่อนหรือใกล้เคียงกับอัคเคนาเตน ปราศจากฉายานามของอาเตน
+    </text>
+
+    <rect x="25" y="208" width="430" height="24" rx="4" fill="#0f172a" />
+    <text x="240" y="224" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="11" font-weight="bold" fill="#38bdf8">
+      ไม่มีหลักฐานการครองราชย์เดี่ยวเป็นเวลานานหลังปีที่ 17
+    </text>
+  </g>
+
+  <!-- Right Branch: Ankhkheperure Neferneferuaten (The Female Pharaoh) -->
+  <g transform="translate(640, 280)">
+    <rect width="480" height="240" rx="14" fill="#1e293b" stroke="#a855f7" stroke-width="2" filter="url(#shadow4)" />
+    
+    <!-- Title Badge -->
+    <rect x="20" y="15" width="440" height="40" rx="8" fill="url(#purpleGrad)" />
+    <text x="240" y="41" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="16" font-weight="bold" fill="#fff">
+      กษัตริย์สตรี: อันค์เคเปรูเร เนเฟอร์เนเฟรูอาเตน
+    </text>
+
+    <text x="30" y="80" font-family="Arial" font-size="13" font-weight="bold" fill="#c084fc">
+      Ꜥnḫ(.t)-ḫpr.w-RꜤ Nfr-nfr.w-Jtn (.t)
+    </text>
+    <text x="30" y="105" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">
+      • <tspan font-weight="bold" fill="#fff">เพศสภาพ:</tspan> สตรี (ปรากฏหน่วยคำเพศหญิง <tspan fill="#f43f5e" font-weight="bold">.t</tspan> ในจารึกอย่างเป็นระบบ)
+    </text>
+    <text x="30" y="128" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">
+      • <tspan font-weight="bold" fill="#fff">ฉายานามเพศหญิง:</tspan> Akhet-en-hyes ("ผู้ทรงคุณประโยชน์ต่อพระสวามี")
+    </text>
+    <text x="30" y="151" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">
+      • <tspan font-weight="bold" fill="#fff">ฉายานามแห่งอาเตน:</tspan> Merit-Waenre ("ผู้เป็นที่รักของวาเอ็นเร [อัคเคนาเตน]")
+    </text>
+    <text x="30" y="174" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">
+      • <tspan font-weight="bold" fill="#fff">ระยะเวลาครองราชย์:</tspan> ครองราชย์อย่างน้อย 3 ปี (พบจารึกปีที่ 3 ใน TT139)
+    </text>
+    <text x="30" y="197" font-family="'Sarabun', sans-serif" font-size="13" fill="#94a3b8">
+      • หีบพระศพและเครื่องประกอบพิธีใน KV62 ถูกนำมาดัดแปลงให้ตุตันคาเมน
+    </text>
+
+    <rect x="25" y="208" width="430" height="24" rx="4" fill="#0f172a" />
+    <text x="240" y="224" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="11" font-weight="bold" fill="#c084fc">
+      ยืนยันสถานะกษัตริย์สตรีคั่นกลางก่อนตุตันคาเมน 100%
+    </text>
+  </g>
+
+  <!-- Lower Section: The Identity Debate of Neferneferuaten -->
+  <g transform="translate(80, 545)">
+    <rect width="1040" height="190" rx="14" fill="#0f172a" stroke="#d97706" stroke-width="1.5" filter="url(#shadow4)" />
+    
+    <text x="40" y="32" font-family="'Sarabun', sans-serif" font-size="17" font-weight="bold" fill="#fbbf24">
+      ข้อถกเถียงเรื่องตัวตนของฟาโรห์สตรี: เนเฟอร์ตีติ หรือ เมริทอาเตน?
+    </text>
+
+    <!-- Sub-Box 1: British Hypothesis -->
+    <rect x="30" y="48" width="470" height="125" rx="8" fill="#1e293b" stroke="#64748b" stroke-width="1" />
+    <text x="45" y="72" font-family="'Sarabun', sans-serif" font-size="14" font-weight="bold" fill="#e2e8f0">
+      สมมติฐานเดิม (Allen, Dodson): คือ เจ้าหญิงเมริทอาเตน
+    </text>
+    <text x="45" y="94" font-family="'Sarabun', sans-serif" font-size="12" fill="#94a3b8">
+      • เชื่อว่าเนเฟอร์ตีติถึงแก่กรรมหรือตกอับไปแล้วตั้งแต่ปีที่ 12
+    </text>
+    <text x="45" y="114" font-family="'Sarabun', sans-serif" font-size="12" fill="#94a3b8">
+      • ราชธิดาองค์โตเมริทอาเตนจึงก้าวขึ้นมาเป็นกษัตริย์สตรีแทน
+    </text>
+    <text x="45" y="142" font-family="'Sarabun', sans-serif" font-size="12" font-weight="bold" fill="#f87171">
+      ✗ ปัจจุบันตกไปเนื่องจากขัดแย้งกับจารึกปีที่ 16 แห่งเดอีร์ อบู ฮินนิส
+    </text>
+
+    <!-- Sub-Box 2: French / Consensus Hypothesis -->
+    <rect x="530" y="48" width="480" height="125" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+    <text x="545" y="72" font-family="'Sarabun', sans-serif" font-size="14" font-weight="bold" fill="#34d399">
+      ข้อสรุปร่วมสมัย (Gabolde, Van der Perre 2014): คือ เนเฟอร์ตีติ
+    </text>
+    <text x="545" y="94" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">
+      • <tspan font-weight="bold" fill="#fff">จารึกปีที่ 16 (Dayr al-Barsha):</tspan> ยืนยันเนเฟอร์ตีติยังมีชีวิตและเป็นมเหสีเอก
+    </text>
+    <text x="545" y="114" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">
+      • ทรงใช้พระนาม Neferneferuaten ที่ได้รับตั้งแต่ปีที่ 5 ขึ้นเป็นกษัตริย์
+    </text>
+    <text x="545" y="142" font-family="'Sarabun', sans-serif" font-size="12" font-weight="bold" fill="#34d399">
+      ✓ สอดคล้องกับฉายานาม "Akhet-en-hyes" (ผู้ทรงคุณประโยชน์ต่อพระสวามี)
+    </text>
+  </g>
+
+  <!-- Final Succession Line to Tutankhamun -->
+  <g transform="translate(350, 755)">
+    <path d="M 250 -15 L 250 15" stroke="#f59e0b" stroke-width="3" fill="none" />
+    <rect width="500" height="70" rx="12" fill="#1e293b" stroke="#eab308" stroke-width="2" filter="url(#shadow4)" />
+    <text x="250" y="32" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="16" font-weight="bold" fill="#facc15">
+      การสืบทอดบัลลังก์สู่: ตุตันคาเตน / ตุตันคาเมน (Tutankhamun)
+    </text>
+    <text x="250" y="54" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">
+      ขึ้นครองราชย์เมื่อพระชนมายุ ~8–9 พรรษา | นำอียิปต์กลับสู่ระเบียบดั้งเดิมของอามุน
+    </text>
+  </g>
+
+  <!-- Bottom Credit -->
+  <text x="600" y="865" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="13" fill="#64748b">
+    ภาพอินโฟกราฟิกวิชาการประกอบรายงานวิจัย: ประวัติศาสตร์นิพนธ์อามาร์นา © 2026 | แหล่งข้อมูล: Gabolde (1998), Allen (2009), Van der Perre (2014)
+  </text>
+</svg>

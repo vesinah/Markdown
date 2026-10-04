@@ -1,0 +1,3790 @@
+---
+file_id: borchardt_1923_portraets_der_koenigin_nofretete
+original_file: borchardt_1923_portraets_der_koenigin_nofretete.pdf
+title: "Porträts der Königin Nofret-ete aus den Grabungen 1912/13 in Tell el-Amarna"
+author_creator: "Borchardt, Ludwig, 1863-1938"
+publication_year: ND
+document_format: PDF
+page_count: 60
+extraction_tier: Tier 1 (Clean Digital Layout-Aware)
+extraction_tool: Document-to-Markdown Central Engine (PyMuPDF + Tesseract)
+---
+
+<!-- Page 1 -->
+PORTRAÄTS 
+KÖNIGIN NOFRET-ETE-
+
+<!-- Page 2 -->
+*Page 2*
+
+<!-- Page 3 -->
+ERENEREIDET AT 
+EEE 
+EL 
+EEE EHE 
+PORTRÄTS 
+DER 
+KÖNIGIN NOFRET-ETE 
+nn 
+= 
+isn 
+mann 
+es 
+=
+
+<!-- Page 4 -->
+AUSGRABUNGEN 
+DER 
+DEUTSCHEN ORIENT-GESELLSCHAFT 
+IN 
+TELL EL-AMARNA 
+II 
+PORTRÄTS DER KÖNIGIN NOFRET-ETE 
+BESCHRIEBEN UND ERLÄUTERT 
+LUDWIG BORCHARDT 
+LEIPZIG 
+J. ©. HINRICHS’schet BUCHHANDLUNG
+
+<!-- Page 5 -->
+PORTRÄTS 
+DER 
+KONIGIN NOFRET EIE 
+AUS DEN GRABUNGEN 
+1912/13 
+IN 
+SDEIRISEITZEUMIENSINDN 
+MIT 2 MEHRFARBIGEN UND 4 EINFARBIGEN LICHTI )RUCKBLÄTTERN 
+UND 
+35 ABBILDUNGEN 
+IM TEXT 
+PEIBZIE 
+J. €. HINRICHS’schE BUCHHANDLUNG 
+1923
+
+<!-- Page 6 -->
+Ad. 
+CHAFTLICHE 
+VERÖFFENTLICHUNG DER DEUTSCHEN ORIENT-GESELLSCHAFT 
+Printed 
+in Germany, 
+Druck von August Pries in Leipzig.
+
+<!-- Page 7 -->
+Die Weltereignisse hatten es bisher unmöglich gemacht, die Ergebnisse der Grabungen 
+der Deutschen Orient-Gesellschaft 
+in Tell el-Amarna, über die zwar die üblichen vor- 
+läufigen Berichte! umgehend jährlich nach Abschluß jeder Grabungszeit vorgelegt worden 
+sind, eben 
+so 
+schnell 
+auch wissenschaftlich bearbeitet 
+zu veröffentlichen, wie dies bei den 
+früheren Grabungen bei Abusir stets geschehen war. 
+Auch jetzt kann nur ein Anfang da- 
+mit gemacht werden, dem aber hoffentlich bald Weiteres folgen wird. 
+Ein besonderer Glücksfall ermöglicht es, für diesen Anfang gewissermaßen eine Fort- 
+setzung der 
+seiner Zeit 
+als Einleitung zu den deutschen Grabungen in Tell el-Amarna ge- 
+dachten Veröffentlichung zu geben. 
+„Der Porträtkopf der Königin Teje‘“’, der Mutter 
+des Herrschers von Tell el-Amarna, machte damals 
+die Kunstwelt 
+mit einem 
+der hervor- 
+ragendsten Werke 
+der Tell el-Amarna-Zeit 
+bekannt, die hier vorgelegten „Porträts 
+der 
+Königin Nofret-ete“, der Gemahlin Amenophis’ IV., werden 
+sie nicht minder bedeutende 
+Werke derselben Zeit kennen und schätzen lehren. 
+Daß wir die Kenntnis 
+dieser Kunstwerke 
+in erster Linie Herrn Dr. James Simon 
+verdanken, 
+braucht für die, die wissen, was 
+er für die Er forschung des alten Orients und 
+besonders für die von ihm ins Leben gerufene Deutsche Orient-Gesellschaft getan hat, 
+nicht erst gesagt zu werden. 
+Er hat auch die hier zu behandelnden Stücke 
+den Museen, 
+in denen 
+sie sich heute befinden, 
+gegeben: 
+dem 
+Berliner Museum 
+die bunte Büste 
+der 
+Nofret-ete, dem Kairener Museum — das allerdings einen auf der Gewährung der Grabungs- 
+erlaubnis beruhenden Anspruch daran hatte — das Klappaltarbild mit den Porträts der Familie 
+Amenophis’ IV. 
+Aus den Funden der vom Glücke ganz besonders begünstigten Grabung des Winters 
+1912/13 
+in Tell e-Amarna hoben 
+sich sogleich nach dem 
+ersten Eindruck, der bei ein- 
+gehenderem Studium sich nur vertiefte, zwei Kunstwerke so heraus, daß sie mit vollem Recht 
+in der Teilungsurkunde vom 20. Januar 1913 nicht anders als an erster Stelle stehen durften. 
+So ist denn auch das eine in das Museum von Kairo, das andere nach Berlin gekommen. 
+Diese beiden Hauptstücke der Grabung von ıg12/13 allgemein bekannt zu machen, 
+ist das Ziel der vorliegenden Veröffentlichung. 
+Sie zeigen uns zufälligerweise zwei, um nicht 
+zu 
+viel zu sagen, gute Porträts der Gemahlin Amenophis’ IV., ein inschriftlich beglaubigtes 
+und eines, das nach Gesichtsbildung und Tracht sowie durch die Fundumstände unbestreitbar 
+sicher 
+zu bestimmen 
+ist. 
+Da wir das mit Inschrift versehene Porträt heranziehen könnten, 
+um 
+die Persönlichkeit des anderen 
+zweifelsfrei 
+festzustellen, mag das Bild mit der inschrift- 
+lichen Beglaubigung hier vorangehen. 
+ı Mittlgn. d. D. O,-G. Nr. 34 (Sept. 1907), Nr. 46 (Nov. ıgı1), Nr. 50 (Okt. 1912), Nr. 52 (Okt. 1913), 
+Nr. 55 (Dez. 1914) und Nr. 57 (März 1917). 
+2 Wiss. Veröff, d. D. O.-G. Nr. 18 (ıg11). 
+DOG. 44. Borchardt: Nofret-ete. 
+ı
+
+<!-- Page 8 -->
+Das Klappaltarbild. 
+Das ist nämlich, wie später gezeigt werden wird, seine richtige Bezeichnung. 
+Bei der 
+Auffindung am 
+ı1. Januar 1913 sah das Stück nach seinen Umrissen 
+aus wie ein gewöhn- 
+licher Denkstein mit oberem Hohlkehlenabschluß. 
+Es kam nämlich beim Forträumen 
+des Schuttes, 
+der außen — südlich — vor der 
+Hinterwand 
+eines unbedeutenden, 
+nicht weit von der östlichen Bebauungsgrenze 
+der Stadt 
+liegenden Hauses Q 47,16" sich angehäuft hatte, mit der Rückseite nach oben gekehrt zum 
+Vorschein (S. Abb. 
+ı). 
+Über ihm 
+hatten nur ungefähr 0,20 m Schutt gelegen; wieviel die 
+A 
+[ 
+Abb. ı. 
+Lageplan der 1912/3 ausgegrabenen Grundstücke, 
+Maßstab 
+1: 4000. 
+Die beiden Pfeile weisen auf die Fundstelle des Klappaltarbildes. 
+Oberfläche der Amenophiszeit darunter gelegen hat, wurde nicht festgestellt. 
+Es kann aber 
+nur wenig gewesen sein, da in dieser Gegend die Häuserreste sehr niedrig, teilweise nur ein 
+oder zwei Schichten hoch waren, und der Schutt nicht hoch lag. 
+Ein bogenförmig geführtes, gegen die Hinterwand von Q 47,16 anstoßendes Mäuer- 
+chen — 
+der Rest eines halbrund 
+an die Hausmauer angebauten Silospeichers (?) — umfaßt 
+im Osten die Fundstelle, 
+von der man nicht sagen kann, ob sie noch 
+zu dem Grundstück 
+von Q 47,16 oder zu dem südlich daran anstoßenden gehört. 
+1 Die ausgegrabenen Häuser sind nach Quadraten (Q 47) von je 200 m Seitenlänge bezeichnet und in 
+jedem Quadrat nach der Zeitfolge ihrer Ausgrabung durchgezählt (16).
+
+<!-- Page 9 -->
+Das Klappaltarbild: Fundbericht 
+— 
+Beschreibung: Allgemeines 
+3 
+ı 
+In einer Straße ist das Stück jedenfalls nicht gefunden. 
+Es ist also wohl nicht wahr- 
+scheinlich, 
+daß 
+es nach dem völligen Verfall der Stadt 
+aus irgendeinem besseren Hause 
+herausgenommen und beim Transport hier verloren worden ist. 
+Es wird vielmehr zur Zeit, 
+als die besseren Häuser schon von ihren Bewohnern verlassen waren, 
+die andere Bevölke- 
+rung aber noch nicht fortgezogen war, 
+als herrenloses Gut an seine spätere Fundstelle, 
+an 
+der es als Unterlage für irgendeine Arbeit dienen sollte, gebracht worden sein. 
+Daß hierbei 
+die glatte Rückseite der 0,435 m hohen, 0,390 m breiten und 0,065 m dicken weißen Kalk- 
+steinplatte oben liegen mußte, 
+ist ein besonderer Glücksfall, der uns 
+die Vorderseite durch 
+die Jahrtausende hindurch in ihrer ganzen Farbenpracht bewahrt hat. 
+Beim Aufheben zeigte 
+sich nämlich, daß die Vorderseite skulpiert und bemalt war (Bl. ı). 
+Auf einer nach vorn und den beiden Seiten vorstehenden flachen Platte, die, wie sich 
+nun zeigte, einst die Standfläche hergegeben hatte, erhebt sich ein kapellenartiger Aufbau, 
+zwei glatte Pfosten mit gleichbreitem Deckbalken, 
+darüber Rundstab und Hohlkehlgesims. 
+Wenig zurücktretend gegen diesen äußeren Aufbau liegt eine nochmals mit schmalem, nur ge- 
+maltem Rahmen eingefaßte Bildfläche, auf der unter der strahlenden Sonnenscheibe die Familie 
+Amenophis’ IV’. — 
+Vater, Mutter und 
+die drei ältesten Töchter — 
+in schwachem, 
+buntem 
+Relief dargestellt ist. 
+Dieses Bild sollte aber nicht immer sichtbar sein, denn in dem um- 
+gebenden Rahmen zeigen sich deutlich 
+die Angellöcher 
+eines 
+zweifligeligen Türchens, 
+mit 
+dem es verschlossen werden konnte, 
+In den Ecken der Unterseite des Deckbalkens sitzt je 
+ein zylindrisch gebohrtes Angelloch, 
+das den oberen geraden Angelstift aufgenommen hat, 
+und unten in der Fußplatte, auch in unserer Abbildung deutlich erkennbar, sitzen die beiden 
+breiteren konischen Angellöcher, die einst die wie bei allen ägyptischen Türen dreieckig ge- 
+formten unteren 
+Angeln 
+hielten. 
+Nach 
+vorn geht von 
+den unteren 
+Angellöchern je ein 
+kleiner Kanal, der für das Einsetzen der Türflügel zweckmäßig ist und bis zu deren gewaltsamer 
+Entfernung mit 
+etwas Gipsmörtel geschlossen war. 
+Das Bild 
+selbst ist mit 
+fast baukünstlerischer 
+gleichseitiger Abstimmung aufgebaut. 
+Eine den Boden deckende Matte dient als unterer Abschluß. 
+Links sehen wir auf niedrigem 
+Sessel den König sitzen, rechts ihm zugekehrt auf ebensolchem Sitz in fast gleicher Haltung 
+die Königin. 
+Die Gegengleichheit 
+ist so weit getrieben, 
+daß sogar 
+die Beinhaltung 
+der 
+Beiden spiegelgleiche Linien gibt. 
+Den Raum zwischen beiden füllt die Gestalt der ältesten 
+Tochter. 
+Die Gruppe 
+krönt die oben in der Mitte dargestellte Sonnenscheibe, deren Strahlen 
+so geführt sind, daß 
+dadurch das Ganze in flacher, gleichmäßiger Dreiecksform oben endet, 
+Den oberen Abschluß der Tafel bildet die übliche Darstellung des Himmels, der, der Matte 
+am Boden entsprechend, das Bild zusammenfaßt. 
+Die zwischen der Matte und dem Himmel 
+noch freigebliebenen F 
+beherrschenden horror vacui mit erklärenden Beischriften gefüllt. 
+Die ganze gut überlegte Anordnung 
+der Zeichnung 
+ist so, daß 
+die Aufmerksamkeit 
+des Beschauers sogleich auf die wichtigsten Punkte der Darstellung gelenkt wird, auf die 
+Sonnenscheibe und die Porträts des Königs und der Königin. 
+Der Zeichnung hilft die Farbengebung mit gut gewählter Verteilung nach. 
+Der blaue 
+Schriftstreifen auf dem Rahmen und ein dunkelblaues 
+Band 
+auf der Bildfläche 
+selbst um- 
+schließen das eigentliche Bild, in 
+dem der Blick zuerst haften bleibt auf der roten Sonnen- 
+scheibe und den blauen Perücken 
+des Königspaares, die sich aus dem gelben, durch die Bei- 
+schriften wenig beeinflußten Grunde 
+abheben. 
+Im unteren Teile. stellt die blaue Bemalung 
+der beiden Sessel und der zwischen diesen Farbflecken etwas tiefer stehenden Fußbänke ein 
+Gegengewicht gegen die Farbengebung des oberen Teiles her. 
+Zwischen beiden Teilen ver- 
+mitteln die 
+in Blau und Weiß gehaltenen, 
+wieder fast spiegelgleich angeordneten breiten 
+a 
+ächen hat der Künstler unter dem Drucke des die ägyptische Malerei 
+ı* 
+1 
+1 
+'
+
+<!-- Page 10 -->
+Porträts der Königin Nofret-ete: Das Klappaltarbild 
+4 
+Striche der Kragen des Königspaares. 
+Der breite grüne Strich der Matte und der dunkel- 
+blaue des Himmels bilden die Abschlüsse unten und oben. 
+So macht das Bild heute auf 
+uns den Eindruck 
+völliger, 
+sehr überlegter Abgestimmtheit, 
+wobei 
+wir aber in Rücksicht 
+ziehen müssen, daß zu dem jetzigen, uns angenehm berührenden Zusammenklang der Farben 
+auch die Zeit beigetragen hat, 
+Durch Oxydation hat das Blau, wie da, wo die oberste Schicht 
+verletzt ist, klar zu sehen ist, einen dunkleren, grünlichen Ton bekommen, auch das Gelb des 
+Hintergrundes dürfte, 
+wie in ähnlichen Fällen, nachgedunkelt sein. 
+Man muß sich also die 
+ursprünglichen Farben des Bildes kräftiger und etwas greller vorstellen, aber das paßte auch 
+mehr in das helle ägyptische Licht, in dem grellere Farben besser wirken und eher zusam- 
+menklingen als bei uns. 
+Nachdem wir uns so die in Aufbau und Farbengebung liegenden Gründe des jeden 
+Beschauer packenden 
+allgemeinen Eindrucks 
+unseres Kunstwerks 
+klar zu machen 
+versucht 
+haben, dürfen wir wohl zu den Einzelheiten übergehen: 
+Die Hohlkehle zeigt die übliche Farbenfolge — Rot, Blau, Gelb, Grün —, der Rund- 
+stab darunter die mit roten Linien aufgemalte Bindung, die seine Entstehung aus einem kanten- 
+sichernden Wulst aus Rohrstengeln noch erkennen läßt. 
+Die blau ausgemalten Inschriften des Rahmens 
+sind wie die auf der Bildfläche zwar 
+fehlerlos aber ohne besondere Sorgfalt eingegraben. 
+Wenn man an ihnen nicht eine andere 
+Hand erkennen will, was mir wegen der Unsicherheit der Griffelführung in ihnen das wahr- 
+scheinlichere 
+ist, so muß man 
+zu dem Schluß kommen, 
+daß von dem Künstler, der 
+die Re- 
+liefs so meisterhaft 
+hinsetzte, die Ausführung des inschriftlichen Beiwerks als lästig empfunden 
+worden ist. 
+Der Deckbalken trägt, von der Mitte beginnend nach rechts und links zu lesen, zwei- 
+mal die gleiche Inschrift: „Zs Zedt mein 
+Water 
+(der lebende Re-Horus der beiden Sonnenberge, 
+der auf dem Sonnenberge Jubelt) 
+der da heisst Schu, der 
+die Sonnenscheibe ist), möge er 
+ewiges Leben geben“ 
+In derselben Spiegelgleichheit wiederholen sich auch die Inschriften auf 
+den beiden Pfosten: „Der König von Ober- und Unterägypten, 
+der von der Wahrheit lebt, 
+der Herr beider Länder (Nefer-chepru-re Ware), der Sohn des Re, der von 
+der Wahr- 
+heit lebt, der Herr der Kronen ( Ech-n-aton 
+möge er lange leben!“ und® „die hohe Gemahlin 
+des Königs (Nefer-nefru-aton Nofret:ete‘), möge sie immer und ewig leben!“ 
+Auf demRahmen 
+stehen also nur die von Segenswünschen begleiteten Namen des Königs Echnaton = 
+—Amenophis’IV. 
+und seiner Gemahlin Nofret-ete 
+sowie 
+eine Anrufung 
+seines Gottes, 
+die dem König selbst 
+in den Mund gelegt ist, wie der Anfang „mein Vater“ zeigt. 
+Amenophis IV. on näm- 
+lich überall, daß er der Sohn seines Gottes ist. 
+Das Bild selbst könnte man kurz bezeichnen: „Königliche Familie. 
+Beschenkung der 
+Prinzessinnen“. 
+Es ist also in gewissem Sinne der gleiche Vorgang, den wir so oft in den 
+Gräbern der Großen dieser Zeit dargestellt finden. 
+Dort haben die Herren der Gräber den 
+großen Tag verewigt, an dem sie in feierlichem Empfang vor dem Palastfenster vom Könige 
+mit Gold — in Form von Schmuckstücken und Geräten — beschenkt wurden’, eine in Ägypten 
+gebräuchliche Art der Belohnung, die sich schon bis in das Alte Reich zurückverfolgen läßt®, 
+ı Der Name bedeutet: „Schön sind die Gestalten 
+des (Sonnengottes) Re° — 
+Der Einzige des Re“, 
+Die Zeichen ( 
+und }. in die oben die Namen eingeschlossen sind, sollen Anfang und Ende der „Königsringe“ 
+bezeichnen, in denen die Königsnamen in ägyptischen Inschriften stehen. 
+2 „Zufrieden ist die Sonnenscheibe,“ 
+3 S. unten S. 8, Anm. 
+1. 
+4 „Wie schön sind die Schönheiten der Sonnenscheibe, — Die Schöne Kommende.“ 
+5 Z.B. de Garis-Davies, El Amarna 
+ı Bl. 6; 2 Bl. 10, „3335 u.ö, 
+6 S. Borchardt, Grabdenkmal des Königs $a’ hun re‘ Bd. 2 S. 6off.
+
+<!-- Page 11 -->
+Beschreibung: Allgemeines — Möbel 
+5 
+In unserem 
+Bilde ist natürlich von irgendwelcher Feierlichkeit nichts zu spüren. 
+Die 
+Beschenkung der Prinzessinnen, wenn sie überhaupt 
+als feierlicher Akt aufzufassen 
+ist, ging 
+im engsten Kreise der Familie vor sich. 
+Die eigentliche Absicht der Darstellung war, 
+wie wir noch sehen werden, 
+eine der 
+Verehrung dienende Abbildung der göttlichen Sonnenscheibe mit ihren Kindern, dem Könige 
+und seiner Familie. 
+Der Künstler, 
+der 
+sie entwarf, 
+hat aber 
+diesen Zweck 
+nicht 
+so 
+zu 
+erreichen versucht, 
+daß 
+er 
+die Darzustellenden 
+einfach 
+nebeneinanderreihte, 
+wie das etwa 
+zur Zeit 
+des Alten Reiches in den Gräbern mit den Statuen des Toten und seiner Familie 
+geschah, sondern er hat ein Bild aus dem Leben geschaffen, 
+zu dem 
+ihm 
+der auch 
+sonst 
+in vielen Kunstäußerungen dieser Zeit hervortretende 
+starke Familiensinn 
+seines 
+Herrschers 
+den gewiß willkommenen Anreiz gab. 
+Der Vorwurf dieser kleinen Familienszene 
+ist, wie schon gesagt, die Beschenkung der 
+kleinen Prinzessinnen mit Schmuck. 
+Der König, 
+lässig mit der 
+einen Hand 
+auf das Sitz- 
+kissen gestützt, hält der größten von seinen Töchtern, die vor ihm, von der Hand der Mutter 
+geschützt, steht, einen Ohrring hin, die Kleine greift mit beiden Händen nach dem Schmuck- 
+stück. 
+Ein weiterer Ohrring und zwei kleine Halskragen liegen noch auf dem Schoße des 
+Königs. 
+Die nächstälteste Prinzessin, die auf dem Knie der Mutter steht, hat bereits einen 
+kleinen Ohrring bekommen, sie will ihn der Mutter 
+zeigen und 
+versucht 
+deren Blick 
+hand- 
+greiflich darauf zu lenken. 
+Das kleinste Prinzeßchen, 
+das, von der Hand 
+der Mutter 
+noch 
+gehalten, auf ihrem Schoße 
+sitzt, spielt an 
+den Bommeln 
+des Ohrrings, 
+den 
+ihre 
+ältere 
+Schwester soeben erhalten hat. 
+Man wird nicht leugnen können, 
+daß diese Gruppe Leben 
+hat, mehr als manche fürstlichen Familienbilder etwa spanischer Herkunft. 
+Jetzt müssen wir aber wohl auch auf jede der Einzelheiten näher eingehen: Die Matte, 
+die den Boden bedeckt, ist die seit alten Zeiten auf ägyptischen Bildern übliche, 
+sie ist aus 
+Stengeln von Papyrus oder einer anderen Grasart hergestellt. 
+Die beiden 
+leicht gebauten 
+niedrigen Sessel mit ihren vielleicht schon gedrechselten Füßen zeigen an den Seiten durch- 
+brochene Verzierungen: das Schriftzeichen 
+für Vereinigung', um das je ein Stengel der daneben 
+dargestellten Wappenpflanzen 
+Ober- und Unterägyptens 
+geknüpft 
+ist. 
+Dieses Symbol der 
+Vereinigung beider Länder 
+findet 
+sich in den verschiedensten Ausführungen in allen Zeiten 
+häufig namentlich auf Thronen? und auch unter Stellen, die der König betreten 
+soll’, 
+es ist 
+gewissermaßen 
+das Wappen der vereinigten Länder, 
+ein Hoheitszeichen, 
+das 
+an allerhand 
+Geräten aus dem königlichen Besitz‘, auch oft als Siegel’? Verwendung findet. 
+Abgebildet sind Sessel wie die auf dem Altarbilde aus der Zeit Amenophis’ IV. öfter‘; 
+im Grabe 
+des Königs Tut-anch-amun ist jetzt auch ein Sessel gefunden worden, der denen 
+auf unserm Bilde bis auf die Löwenfüße” genau gleicht, wir haben also jetzt ein fast gleich. 
+zeitiges Original 
+zu 
+den hier besprochenen Sesseln. 
+Es wird 
+also wohl die im Ausgang 
+der ı8. Dynastie in den Palästen übliche Sesselform sein. 
+Die Fußbänkchen vor den Sesseln sind einfache rechteckige Kästen, blau mit gelbem 
+Rand, ‚auf denen wie auf den Sesseln weiche Kissen liegen. 
+Die Sessel 
+sind 
+für die Auf- 
+nahme der Kissen an den oberen Kanten geschweift. 
+Das Sitzkissen 
+des Königs zeigt ein 
+blaues Punktmuster, das der Königin ist wie die Fußkissen glatt rot. 
+ı Es stellt eine Lunge (sm’) mit Luftröhre dar und hat seine Bedeutung daher, 
+daß 
+das Wort für ver- 
+einigen (sm’) die gleichen Stammbuchstaben wie das für Lunge hat. 
+2 Z.B. an den Chefrenstatuen (Kairo), an denen des Sesostris (ebd.) usw. 
+3 Z.B. in Medinet Habu unter dem Audienzfenster; vgl. dazu: König Pepy auf dem Zeichen der Ver- 
+einigung (Lepsius, Denkmäler 2, 116b), 
+4 So jetzt auch gerade nicht sehr geschmackvoll bei Alabastergefäßen des Tut-‘anch-amun. 
+5 Z.B. Newberry, Scarab-shaped seals Bl. ı1. 
+6 Z.B. de Garis-Davies, El Amarna 2 Bl. 38 (der Sessel der Königin), 4 Bl. 8 und 6 Bl. 6, ı7. 
+7 Vgl. ebd. 2 Bl. 38 (der Sessel des Königs). 
+1 
+i 
+' 
+1
+
+<!-- Page 12 -->
+6 
+Porträts der Königin Nofret-ete: Das Klappaltarbild 
+Die Tracht des Königs ist die gewöhnliche, die er im Hause zu tragen pflegt: San- 
+dalen mit dicken Polstern an den Druckstellen auf dem Spann des Fußes', leichter, gefältelter 
+Schurz, der etwas über die Knie reicht und mit einem roten, hier nur durch Bemalung wieder- 
+gegebenen Bande mit kurzen Enden gehalten ist, dazu breiter Halskragen und die hohe, wie 
+stets blau? gemalte Königsperücke? über einem goldgelben, unter ihr hervorsehenden Haarbeutel, 
+von dessen hinterem Schluß zwei lange rote Bandenden herabfallen. Die Modellbüste des Königs, 
+die in leider so zerschlagenem Zustande in der Modellkammer des Oberbildhauers Thutmes ge- 
+Abb. 2. 
+Modellbüste Amenophis’ IV. aus 
+der Modellkammer des Thutmes, 
+Bemalter Kalkstein. 
+Etwa 1/; nat. Größe, 
+funden wurde (Abb. 2), ist genau so geschmückt und getönt wie das Königsporträt hier. 
+Sie 
+hat auch den breiten in der Hauptsache blauweißen Halskragen, dem nur noch einige kleine 
+ı Vgl. dazu jetzt die Sandalen des Tut-‘anch-amun 
+aus seinem Grabe, sonst z.B. auf dem Bildhauer- 
+modell aus Tell el-Amarna (Schäfer in Amtl. Ber. 34, Abb. 67, S. 135). 
+2 Die blaue Färbung hier und sonst bei der Haartracht der Könige geht auf die Vorstellung zurück, daß 
+die Götter Haare aus Lapis lazuli haben. 
+3 Meine Erklärung des früher „Kriegshelm“ genannten Kopfputzes (Zeitschr. f. ägypt. Spr. 42 [1905], 82) 
+zu ändern, 
+habe 
+ich bisher keinen Grund gefunden. 
+Auch die lange Abhandlung Steindorffs (ebd. 53 [1917], 
+59—74) bringt dafür weder Neues noch Überzeugendes. 
+Der dort vorgeschlagene Ausdruck „blaue Krone“ ist ein 
+unglücklicher Notbehelf, der die Unsicherheit nur zu deutlich zeigt.
+
+<!-- Page 13 -->
+Beschreibung: der König: Tracht — Gesichtsbildung 
+— 
+Beischriften 
+7 
+vergoldete Zierate aufgesetzt waren, die in unserem Bilde fortgelassen sind. 
+Auch die Brust 
+der Königsschlange an ihr erhob sich ebenso auf ihrem zusammengeringelten' Leibe. 
+Die 
+Königstracht ist auch in solchen Einzelheiten durch den zur Vorschrift gewordenen Gebrauch 
+genau festgelegt gewesen. 
+Die kennzeichnenden Züge des Königs, 
+die ihm eigne Kopfhaltung, seine weichlichen, 
+kränklichen? 
+Körperformen, 
+seine 
+langen Gliedmaßen 
+hat 
+der 
+Künstler 
+hier 
+ohne Über- 
+treibungen wiedergegeben, 
+die sonst 
+gelegentlich vorkommen 
+und dann 
+den neuzeitlichen 
+Bearbeitern Veranlassung gegeben haben, beabsichtigte 
+Zerrbilder 
+anzunehmen. 
+Aber auf 
+diese Eigenheiten der Darstellung des Körpers des Königs wollen wir hier nicht weiter ein- 
+gehen, dazu wird noch bei späteren Veröffentlichungen anderer Kunstwerke aus den Tell el- 
+Amarna-Grabungen der Deutschen Orient-Gesellschaft reichlich Gelegenheit sein. 
+Die goldenen, also gelb gemalten Schmucksachen, die der König verschenkt, zeigen 
+bekannte Formen. 
+Soweit man 
+es 
+in der verhältnismäßig kleinen Darstellung sehen kann, 
+dürften 
+die Halskragen 
+aus 
+zwei Reihen 
+dicker Goldperlen bestehen, 
+die hinten 
+an jeder 
+Seite durch ein halbkreisförmiges Schlußstück zusammengehalten werden. 
+Die roten Verschluß- 
+bändchen enden in kleine Troddeln. 
+Die Form der Ohrringe ist dieselbe, die z. B. das be- 
+kannte schöne Stück der Berliner Sammlung (Abb. 3) zeigt”. 
+Von einem Hohlring, der durch 
+eine durchbrochene 
+oder eingelegte 
+Scheibe 
+gefüllt 
+ist, hängen verzierte Kettchen herab. 
+Wie sich solche Schmuckformen in Ägypten gehalten haben, kann hier an einem Stück ge- 
+zeigt werden, das ich im Frühjahr 1914 bei einem Goldschmied, der solche auf Vorrat 
+an- 
+gefertigt hatte, in Mellaun — 
+ı3 km von Tell el-Amarna* — kaufte (Abb. 4). 
+Eine erklärende Beischrift, wie das sonst üblich ist, hat der Künstler, da der Raum 
+über der Königsperücke dazu nicht ausreichte, beim Könige 
+nicht anbringen können. 
+Ein 
+Mißverständnis 
+war ja aber auch ausgeschlossen, und außerdem stand der Name ja schon 
+zweimal 
+auf dem Bildrahmen. 
+Er steht außerdem 
+aber noch einmal auf der rechten Seite 
+des 
+Bildes 
+oben, über der Königin, deren 
+Beischrift 
+lautet: 
+„des Herrn 
+beider Länder 
+(Nefer-che ru-re‘ Wa'-n-re‘), dem |ewiges] Leben gegeben werden möge! des Herrn der Kronen 
+Zur Zeit denke ich mir den Aufbau dieser Perücke 
+so: Über das natürliche Haar wird ein nicht sehr 
+weiter Haarbeutel aus goldgelbem Stoff gezogen, dessen breiter Saum fest um Stirn und Nacken gelegt und durch 
+ein rotes im Saume liegendes Bindeband gebunden wird. 
+Das Bindeband wird innen unter dem Saum geknotet, 
+seine langen Enden 
+fallen vom Nacken 
+herab. 
+Einen 
+ähnlichen Haarbeutel, 
+die El3h-t, hat z. B. die Königin 
+Teje unter 
+ihrer Perücke 
+(s. Borchardt, Porträtkopf d. Königin Teje S. Öff); dieser und 
+der Nms$ genannte 
+Haarbeutel, 
+den 
+die Könige nicht nur allein, sondern 
+gelegentlich 
+auch unter 
+den beiden Kronen (z. B. Kairo 
+Nr. 42083 in Legrain, Statues et statuettes 
+ı, Bl. 51) tragen, 
+unterscheiden 
+sich 
+von dem eben beschriebenen 
+dadurch, daß 
+sie hinten zopfartig zusammengefaßt 
+sind. 
+Der Haarbeutel 
+mit den 
+roten Bändern 
+hinten 
+wird 
+übrigens auch unter den Kronen getragen. 
+Auf diesen Haarbeutel wird nun die hohe Perücke, an der die Kante 
+unter reichlicher Verwendung von Hammeltalg oder anderer Haarsalbe zurec) htgepreßt sein dürfte, aufgestülpt. 
+Die 
+untere Kante 
+der Perücke drückt 
+dabei den lockeren Stoff des Haarbeutels 
+ein wenig über seinen festliegenden 
+Saum herunter, auch an den Schläfen, wo seitliche Wülste der Perücke (vgl. hierzu den Schnitt des natürlichen (?) 
+Haares 
+bei dem Kopf Berl, Mus. Nr. 13255) dick überstehen. 
+In den bildlichen und geformten Darstellungen 
+wird der unter der Perücke hervorsehende schmale Streifen des heruntergedrückten weichen Teiles des Haarbeutels 
+als dünner, die Unterkante der Perücke umziehender Wulst stilisiert. 
+Perücken, die weniger eng aufliegen, wie die 
+gewöhnliche 
+Männerperücke (z. B. beim Könige 
+auf dem Bildhauermodell 
+Berl. Mus. Nr. 
+15000, Amtl. Ber, 34, 
+Abb. 66) oder die lange Frauenperücke (z. B. beim Porträtkopfe der Königin Teje) lassen die heruntergedrückten 
+weichen Teile des Haarbeutels nicht sehen, sondern zeigen nur an der Stirn den festen Saum desselben. 
+Bei der 
+der hohen Königsperücke entsprechenden kleinen Perücke, (z. B. bei Sethos I. auf dem Relief in Abydos, Zeitschr. 
+f. ägypt. Spr. 53 [1917], 63 Abb. 8) die auch unten scharf aufsitzt, zeigt sich der dünne Wulst wieder. 
+ı An den Königshauben und an der weißen Krone pflegen die Schlangen sich von geschlängeltem Leibe 
+zu erheben, ebenso an der Königinperücke (s. unten S. 37). 
+2 Vgl. hierzu Ameline und Quercy, 
+Le Pharaon Amenophis IV, sa mentalite. 
+Fut-il atteint de Lipo- 
+dystrophie progressive? in Revue neurologique 1920, 
+448—462 und Elliot Smith, Tut-ankh-amen (1923), wo er 
+Dystokia adiposo-genitalis diagnostiziert. 
+Prof. Maier, 
+ich, und Prof. Simons, Berlin, die ich befragte, nahmen 
+vorbehaltlich weiterer Untersuchungen an, daß Amenophis IV. an Dystrophia adiposo-genitalis gelitten habe. 
+3 Berl. Mus. Nr. 19300, veröffentl. bei Schäfer, Ägypt. Goldschmiedearbeiten, Bl. Ta und S. 6off. 
+4 S. Timme, Tell el-Amarna vor d. deutschen Grabungen, auf der Karte in D2. 
+sn 
+haar 
+A NHTERRER
+
+<!-- Page 14 -->
+8 
+Porträts der Königin Nofret-ete: Das Klappaltarbild 
+(Zeh-n-aton), möge er lange leben! des Königs grosse Gemahlin (Nefer-nefrure Nofret-ete), 
+möge sie immer und ewig leben!“.. 
+Die Tracht der Königin entspricht ganz 
+der des Königs. 
+Die Fußbekleidung* 
+ist 
+natürlich die gleiche, Das Gewand ist ein leichtes, bis fast auf den Boden reichendes Frauen- 
+hemd, 
+das 
+in langer, fließender Fältelung 
+herabfällt und unter der Brust mit einem roten 
+Bande gefaßt ist. 
+Die beiden Enden des Bandes fallen frei lang herab. Der linke Oberarm 
+ist von einem weiten Ärmel bedeckt. 
+Der breite, tiefer als die Achselhöhlen herabreichende 
+Halskragen ist durch Einfügung einer Reihe roter Perlen farbiger gehalten als der des Königs. 
+Den Kopf schmückt 
+eine hohe, der des Königs ähnliche eigenartige Perücke, 
+daran eine 
+Abb. 3. 
+Abb. 4. 
+Abb. 3. 
+Altägyptischer Öhrring, 
+Nat, Größe, 
+Berl, Mus. Nr. 19300. 
+Abb. 4. Neuzeitlich-ägyptischer Ohrring. 
+Nat. Größe, 
+x 
+1914 in Mellaui gekauft. 
+Königsschlange mit geschlängeltem Leib. 
+Unter der Perücke sieht auch hier der goldgelbe 
+Haarbeutel 
+hervor, 
+an dem die roten Bänder hinten noch etwas 
+freier behandelt sind, 
+als 
+dies beim Könige der Fall ist. 
+Diese im Verhältnis zu Früherem freie, 
+für unsere Begriffe 
+allerdings immer noch wenig lebendig wirkende Behandlung von Bändern 
+ist für die Zeit 
+Amenophis’ IV. bezeichnend, 
+ähnlich etwa wie sie, nur in weit stärkerem Maße, in der von 
+den gebundeneren Formen der früheren Gotik sich abwendenden Spätgotik auftritt, die auch 
+sonst manche Vergleichspunkte mit der Kunst Amenophis’ IV. bietet. 
+ı Daß hier der vorangestellte Name des Königs nur nähere Bezeichnung des Wortes 
+„des Königs“ 
+im Titel „große Gemahlin des Königs“, 
+den die Königin trägt, 
+ist, zeigt ein Vergleich mit den Inschriften 
+des Berliner Familienbildes 
+(s. unten S. 14 und Abb. 10), in dem die volle Beischrift des Königs und außerdem 
+die der Königin 
+mit den vorangesetzten 
+Titeln und Namen 
+des Königs 
+steht. 
+In der Inschrift des Rahmens 
+(s. 0. S. 4) zwingt nichts zu dieser Zusammenziehung beider Namen, weshalb dort in der Übersetzung ein „und“ 
+eingeschaltet wurde. 
+Würde man dort ebenso übersetzen wie hier bei der Beischrift der Königin, so müßte man 
+annehmen, daß das Ganze als von der Königin gestiftet angesehen werden will, wogegen die Inschrift des oberen 
+Rahmenstückes „es lebt mein Vater usw.“ spricht, die nur auf eine Stiftung durch den König anspielen kann. 
+2 Es sieht 
+so aus, 
+als habe der Künstler einen rechten Fuß an ihr linkes Bein gesetzt, jedoch könnte 
+hier nur die Zeichnung der Zehen fortgelassen worden sein, da sie zu klein geworden wäre.
+
+<!-- Page 15 -->
+Beschreibnng: die Königin: Tracht — Gesichtsbildung 
+9 
+Die Form 
+der Perücke selbst werden wir später noch bei der Büste der Königin! 
+genauer zu besprechen Gelegenheit haben; hier mag nur darauf hingewiesen werden, daß die 
+Königin auch gelegentlich mit einer anderen hohen Perücke dargestellt wird, und zwar merk- 
+würdigerweise mit der, die sonst nur der König trägt. 
+Es 
+ist dies einmal auf dem unfertigen Relief, 
+wohl einem Bildhauermodell, 
+aus der 
+Werkstatt P 49,6, die 191 1/12 ausgegraben wurde (Abb. 5°), auf dem die Königin mit Königs- 
+perücke ihrem Gemahl Wein eingießt. 
+Der König trägt dort den einfachen, hinten zopfartig 
+zusammengefaßten 
+Haarbeutel” mit vorn auf die Brust herabfallenden Lappen. 
+Nebenbei sei 
+e Ähnlichkeit 
+hier bemerkt, daß das Modell in den Linien seines oberen Aufbaus eine gewi 
+mit denen des oberen Teiles unseres Altarbildes hat. 
+Das 
+zweite Beispiel der hohen Königsperücke 
+auf dem Haupte der Königin findet 
+Abb. 5. 
+Reliefmodell, 
+Abb, 6. 
+Denkstein eines Offiziers. 
+Die Königin dem König Wein einschenkend, 
+Der König die Königin liebkosend. 
+Etwa 2’, nat. Größe. 
+Berl. Mus. Nr. 20716. 
+Etwa !/, nat. Größe, 
+Berl. Mus, Nr. 17813. 
+sich auf dem von einem Offizier gestifteten kleinen Denkstein (Abb. 6), auf dem das Königs- 
+paar nebeneinander hinter dem Speisetisch sitzt!. 
+Nun wollen wir versuchen, 
+uns die Gesichtsbildung der Königin etwas einzuprägen, 
+soweit dies nach der immerhin kleinen, aber doch die ihr eigentümlichen Hauptformen wohl 
+einigermaßen richtig wiedergebenden Ausführung möglich ist. 
+Der Kopf sitzt, da die Königin 
+die auf ihrem Schoße stehende Prinzessin anblickt, ein wenig nach unten geneigt auf einem 
+ungewöhnlich schlanken, dünnen Halse, der sich unter der Last der Perücke nach vorn streckt, 
+und an dem die Kopfnickermuskeln deutlich hervortreten. Wegen der hier zufälligen Neigung 
+des Kopfes müssen wir für die weitere Betrachtung die Unterkieferlinie als wagerechte Grund- 
+ı S. unten S. 36. 
+. Mittlgn. d. D. O.-G. Nr. 50 (Okt. 1912) 
+Mus. Nr. 20716. 
+3 S. oben S. 6,7, Anm. 3. 
+Nm 
+vom Zusammenbinden, 
+Zusammenfassen der Haare; 
+die ältere ägyp- 
+tische Altertumskunde gab instinktiv dem Haarbeutel den ä 
+ptisch nicht nachweisbaren Namen „Klaft“, was mit 
+krf „zusammenfassen“ 
+und 
+krf-t „Beutel“ zusammenhängt. 
+Über das „Königskopftuch“ 
+s. Bonnet 
+in Ze tschr. f. 
+ägypt. Spr. 54 (1918), 79fl. 
+ı Berl. Mus. Nr. 17813, s. Amtl. Ber. 34, Abb, 68 S. 135. 
+DOG. 44. Borchardt: Nofret-ete 
+;. 28 Abb. 
+19, noch ungereinigt, jetzt gereinigt im 
+Berl. 
+»
+
+<!-- Page 16 -->
+Io 
+Porträts der Königin Nofret-ete: Das Klappaltarbild 
+linie ansehen. Gegen sie steht dann die Vorderlinie der unteren Gesichtshälfte so gut wie senk- 
+recht; von dem hängenden Kinn, das die Porträts ihres Gemahls stets kenntlich macht, hat die 
+Königin also jedenfalls keine Spur. 
+Der Unterkiefer ist vielmehr bemerkenswert niedrig. Die 
+Lippen treten hier aber etwas vor, ganz wie bei ihrem Gegenüber. 
+Die obere Gesichtshälfte 
+scheint, wenn man Höhe und Breite des Kopfes vergleicht, etwas lang zu sein, ein Eindruck, 
+der noch dadurch verstärkt wird, daß Nasenrücken und Stirnlinie fast in einer geraden Linie 
+verlaufen. 
+Diese Gerade ist im Verhältnis 
+zur unteren Kieferlinie stark geneigt. 
+Sie wird 
+nur durch den oberen Knochenrand der Augenhöhle, 
+der in unserer Seitenansicht sichtbar 
+wird, ein wenig durchschnitten. 
+Das wie stets von vorn gezeichnete Auge zeigt nichts Be- 
+sonderes, die Brauen sind mit leichtem Schwung aufgemalt. 
+Merkwürdig groß erscheint das 
+Ohr, das mit seiner Längsrichtung der Stirn-Nasen-Linie gleich läuft. Mit dem unteren Rande 
+sitzt es in richtiger Höhe, gleich hoch mit der unteren Nasenlinie, nach oben reicht es bis in 
+die Höhe der Stirnmitte. 
+Mir scheint die obere Ohrmuschel 
+zu groß geraten. 
+Das weite 
+Ohrloch ist angedeutet. 
+Vielleicht bei der Kleinheit der Ausführung zu sehr betonte Linien 
+um den Mundwinkel und vom inneren Augenwinkel abwärts geben dem Gesicht etwas Schlaffes, 
+Kränkliches. 
+Dieser Eindruck kann auch darauf mit zurückzuführen sein, daß die Gesichts- 
+farbe, die ursprünglich gewiß kräftiger war, unter dem Einfluß von Feuchtigkeit etwas von 
+den blauen Tönen 
+in der Nachbarschaft angenommen 
+und einen etwas grünlichen Ton be- 
+kommen hat. 
+Wenn man 
+auch annehmen 
+darf, daß man 
+sich nach diesem Porträt der Königin 
+schon ein gutes Bild von den bezeichnenden Eigentümlichkeiten ihres Antlitzes wird machen 
+können, 
+so mögen doch 
+hier noch zwei weitere 
+ihrer 
+inschriftlich beglaubigten 
+Porträts, 
+von denen uns eine ganze Anzahl erhalten sind, abgebildet werden. 
+Es sind zwei gewählt, 
+die in der Größe der Ausführung ungefähr dem Porträt vom Altarbild gleichstehen. 
+Das 
+eine (Abb. 7) ist von dem 1892 in dem unfertigen Grabe einer der Prinzessinnen! gefundenen 
+Reliefmodell, 
+das die Bauleute, noch ehe sie angefangen hatten, 
+es auf die Wand zu über- 
+tragen, bei Einstellung ihrer Arbeit zurückgelassen haben. 
+Das andere 
+(Abb. 8) von dem 
+Berliner Relief, von dem wir noch” zu sprechen haben werden. 
+Eine genaue Beschreibung 
+der Einzelheiten ist in beiden Fällen wohl nicht erforderlich; die Übereinstimmungen und Ab- 
+weichungen sind augenfällig. 
+Bei den Prinzessinnen können wir uns sehr kurz fassen, namentlich bei der Beschreibung 
+ihrer Tracht, 
+da sie als 
+kleine Kinder noch nackt dargestellt sind. 
+Sie tragen nur an der 
+linken Seite die breite Kinderlocke, die bei der ältesten gewellt wiedergegeben ist, und einen 
+großen runden Ohrring, 
+die älteste noch 
+einen hohen engen Halsschmuck. 
+Die mittlere 
+scheint weder Kinderlocke noch Ohrring zu haben, aber 
+hier könnte der Künstler abweichend 
+von der Gewohnheit seiner Vorgänger, wichtige Abzeichen, selbst da, wo sie der Beschauer 
+nicht sehen würde, nicht 
+fehlen zu lassen und sie dann eben an falscher Stelle anzubringen, 
+sich vielleicht gesagt haben, die Kinderlocke und der Ohrring sitzen 
+in meinem Bilde links, 
+also darf ich sie bei der nach links 
+sehenden 
+Prinzessin 
+nicht zeigen, 
+sondern 
+nur 
+bei 
+denen, die nach rechts sehen. 
+Sollte er diese Überlegung angestellt 
+haben, so hätte er sich 
+damit allerdings schon von der ägyptischen „vorstelligen“ Zeichenkunst entfernt und wäre zu 
+unserer „wahrnehmigen“® hinübergeglitten, was zur Zeit des Oberbildhauers Thutmes, der so 
+trefflich beobachtet hat, nicht weiter wunderbar ist. 
+Die Körper der Kleinen 
+sind nichts weniger 
+als wohlgebaut. 
+Kurze 
+fette Ober- 
+schenkel, lange dürre Unterschenkel, sehr lange dünne Arme und endlich die Mißbildung der 
+I 
+Le 
+Legrain, Culte d’Atonou S. II. 
+: 
+2 S. unten S. ı13ff. 
+3 
+Ss. 
+6] 
+= 
+& g 
+Schäfer, Von ägyptischer Kunst.
+
+<!-- Page 17 -->
+Beschreibung: die Königin — die Prinzessinnen 
+11 
+weit nach hinten ausladenden, auf dünnen Hälsen sitzenden Schädel sind für alle drei die Merk- 
+male. 
+Es ist erstaunlich, 
+mit welchem Zartgefühl 
+der Künstler 
+es 
+verstanden 
+hat, 
+diese 
+nicht gerade schön 
+zu nennenden Körperchen 
+doch zierlich und liebenswürdig darzustellen, 
+ohne 
+der Wahrheit Gewalt 
+anzutun. 
+Daß 
+die genannten Merkmale 
+alle natürliches 
+Erbe 
+sind, braucht 
+nicht 
+besonders 
+betont 
+zu werden, ein vergleichender 
+Blick 
+auf unser Bild 
+zeigt es 
+klar. 
+Jedem, der sich nur einmal mit Kunstwerken der Tell el-Amarna-Zeit beschäftigt hat, 
+werden die Gestalten der kleinen Prinzessinnen mit ihren ungeheuren Hinterköpfen in der Er- 
+innerung geblieben sein. 
+Trotzdem 
+will ich, wenn dadurch 
+auch nur Bekanntes 
+bestätigt 
+wird, hier die Gelegenheit benutzen, einen weiteren Porträtkopf der ältesten Prinzessin aus 
+2 | 
+an 
+\ 
+F z| 
+Abb. 7. 
+Porträt der Königin 
+Abb. 8. Porträt der Königin 
+auf einem Modell aus dem Grabe der Prinzessinnen, 
+aus dem Relief Berl. Mus. Nr. 14145. 
+1), nat, Größe. 
+Nat. Größe. 
+hartem braunen Sandstein, ganz wie die beiden anderen bisher gefundenen Köpfe, bekannt zu 
+machen, 
+den der jetzige Besitzer bisher nicht zugänglich gemacht hat. 
+Der Kopf stammt 
+aus 
+einer 
+anderen 
+Bildhauerwerkstatt, 
+ich nehme 
+an, 
+aus 
+der 
+durch 
+eine Raubgrabung 
+Jahre vor dem Beginn 
+der deutschen Grabungen 
+ausgebeuteten, 
+des Meisters 
+der Pariser 
+Modellbüste Amenophis’ IV. 
+Die hier gegebenen Ansichten des Kopfes (Abb. 9) sind Wieder- 
+gaben zweier Wasserfarbenbilder in natürlicher Größe, die der langjährige Besitzer des Stücks 
+Capt. Timins in Kairo von dem im Winter ı9ro ıı! in Lugsor verstorbenen Maler Harald 
+Jones hatte fertigen lassen. 
+1914, nachdem 
+er das Original schon seit einem Jahre wieder 
+an seinen Vorbesitzer zurückverkauft? hatte, war Capt. Timins so freundlich, mir das Photo- 
+graphieren der hier wiedergegebenen Bilder zu gestatten. 
+Daß dieses Porträt die älteste Tochter des Königspaares darstellt, das an dieser Stelle 
+noch zu beweisen 
+ist nicht nötig; es ist dem Porträtkopfe dieser Prinzessin aus 
+der Gra- 
+ı Vgl. Griffith, Report ıgıolıı S. 2t. 
+3 Die Geschichte dieses Stücks ist ein Musterbeispiel für Kettenhandel und Preistreiberei (auf mindestens 
+4300 Proz. vom ersten Kairener Käufer bis zum Käufer von 1913!). Bildhauerwerkstatt Tell el-Amarna war eben 
+1913 sehr „gefragt“. 
+2*
+
+<!-- Page 18 -->
+12 
+Porträts der Königin Nofret-ete: Das Klappaltarbild 
+bung ıgır/ı2 — Haus O 49,13 — und dem aus der Werkstatt des Oberbildhauers Thutmes 
+— P 47,2 — völlig ähnlich'. 
+Die Porträts der verschiedenen Prinzessinnen unterscheiden sich 
+nämlich trotz der großen Familienähnlichkeit recht sehr, sowohl in kleinen Zügen, die meist 
+auf das verschiedene Alter zurückgehen mögen, als auch ganz besonders 
+in der Schädel- 
+form. 
+Das ist auch, soweit die Kinderlocken nicht verdeckend wirken, in unserem Bilde trotz 
+kleinen Ausführung deutlich. 
+Die älteste, „die leibliche Tochter des Königs, 
+der verhältnismäßig 
+die er 
+liebt, Merit-aton, geboren 
+von 
+der grossen 
+Gemahlin 
+des Königs (Nefer-nefru-aton 
+Nofret-ete), mögen 
+sie immer und ewig leben!“, wie sie in der vor ihr stehenden Inschrift 
+genannt wird, hat ausgeprägtere Züge als ihre nächstjüngere Schwester, deren Name Maket- 
+aton mit denselben Titeln und Beiworten 
+in der Inschrift über 
+ihr steht. 
+Diese wieder ist 
+von der dritten, der „Anch-sen-pa-aton“, unterschieden. 
+Deren Inschrift konnte der Künstler 
+Abb. 9. 
+Porträt der ältesten Prinzessin. 
+Brauner harter Sandstein. 
+1/, nat. Größe. 
+Nach Wasserfarbenbildern von Harald Jones j im Winter ıgro/rr). 
+nicht unmittelbar neben sie setzen, er hat sie daher in den links von ihr freien Raum zwischen 
+der Maket-aton und der Hand des Königs eingesetzt. 
+Die zur Sonnenscheibe 
+gehörigen Beischriften 
+hat er 
+in zweimaliger Wiederholung 
+rechts und links vom Mittelstück des Ganzen, eben dieser Sonnenscheibe selbst, angebracht. 
+Sie lauten: „(Der lebende Re-Horus der beiden Sonnenberge, der auf dem Sonnenberge Jubelt,) 
+(der da heisst Schu, der die Sonnenscheibe ist), möge er ewiges Leben geben! 
+Die lebende 
+Sonnenscheibe, gross am Krönungsjubiläum, Herr von Allem, was die Sonnenscheibe umkreist, 
+Herr 
+des Himmels, 
+Herr 
+der 
+Erde, 
+im 
+Tempel der Sonnenscheibe 
+im Sonnenberg 
+der 
+Sonnenscheibe’.“ 
+Die rote Sonnenscheibe selbst, an der unten, wie oft bei ihren Darstellungen 
+in dieser Zeit, eine Königsschlange 
+mit angehängtem Lebenszeichen angebracht ist, breitet 
+ı In der Hoffnung, 
+daß 
+weitere 
+eingehendere Untersuchungen 
+es widerlegen 
+werden, 
+will 
+ich doch 
+hierbei darauf hinweisen, 
+daß 
+es 
+mir bisher nicht möglich scheint, 
+bei der fast bis zur Gleichheit gesteigerten 
+Ähnlichkeit 
+an 
+gleichartigen 
+Stücken 
+aus 
+verschiedenen 
+Bildhauerwerkstätten 
+von 
+Tell 
+el-Amarna 
+— 
+Büsten 
+Amenophis’ IV. und 
+Porträts 
+der ältesten Prinzessin 
+— 
+etwa verschiedene Auff: sungen 
+oder wesentliche Ab- 
+weichungen in der Ausführung, die die Ateliers unterscheiden könnten, zu erkennen. 
+Bisher sieht es so aus, als 
+ob die Künstler nach einem Urmuster haben arbeiten lassen, dessen mit einer fast unbegreiflichen Schulung genau 
+ausgeführte Nachbildungen als Vorbilder in den einzelnen Werkstätten aufbewahrt wurden, 
+2 „Sonnenberg der Sonnenscheibe“ ist der alte Name von Tell el-Amarna,
+
+<!-- Page 19 -->
+Beschreibung: die Prinzessinnen. — Ähnliche Darstellungen 
+3 
+ihre in Hände ausgehenden Strahlen über die Gruppe unter ihr und hält dem Königspaare 
+die Schriftzeichen 
+für Leben und Wohlergehen 
+hin. 
+Ihr äußerster Strahl 
+links umfaßt die 
+Königsperücke ihres Sohnes Echnaton. 
+Es ist dies die gewöhnliche sinnbildliche Darstellung. 
+Der hiermit abgeschlossenen, wie ich glaube, eingehenden Beschreibung unseres Fundes 
+muß leider eine Angabe über die an ihm verwendeten Farbstoffe und ihr Bindemittel fehlen. 
+Da das Stück fremdes Eigentum ist, hielt ich mich auch in der Zeit, wo es durch das Ent- 
+gegenkommen M. Masperos im Winter 1913/14 im Berliner Museum ausgestellt und meiner 
+Obhut anvertraut war, nicht für berechtigt, wenn auch winzige Proben 
+der Farben 
+für die 
+Untersuchung entnehmen 
+zu 
+lassen. 
+Hoffentlich 
+holt die Museumsverwaltung in Kairo dies 
+einmal nach. 
+Abb. 
+ı0. 
+Familienbild in Kalkstein. 
+Etwa 1/3 nat. Größe. 
+Berl. Mus. Nr. 14145. 
+Prof. Dr. Ranke 
+schrieb in das Tagebuch, 
+das er am Tage des Fundes zu führen 
+hatte, sofort' 
+nach der ersten Besichtigung: 
+„Sie (die Kalksteinstele’) ist mit einem Relief 
+geschmückt, das bisher nur 
+in dem Berliner Familien-Relief 
+des Echnaton 
+sein Gegenstück 
+hat. 
+Nur sind 
+hier die Farben durchweg noch gut erkennbar, 
+und die künstlerische Aus- 
+führung des Stückes, 
+das übrigens sicher kein Modell ist, ist der des Berliner Reliefs ent 
+schieden 
+überlegen.“ 
+Damit hatte 
+er sogleich das Stück (Abb. 10) bezeichnet, 
+das bisher 
+einzig mit dem neuen Funde verglichen werden kann und das ihm die bis dahin innegehabte 
+erste Stelle räumen mußte. 
+Das zu vergleichende 
+weiße Kalksteinrelief ist seit 
+1898 in der Berliner Sammlung.” 
+Es stellt in ganz ähnlichem Aufbau auch die Sonnenscheibe mit ihrer Familie, dem Königs- 
+ı Tgb. ıgı2/13, S. 199 vom 
+II. 
+I. IQI3. 
+2 Als Altarbild wurde das Stück erst später erkannt, 
+s. Mittlg. der D. O.-G. Nr. 52 (Okt. 1913), S. 28 u. 
+Abb. g und Nr. 55 (Dez. 1914), S. 14 u. Abb. 4. 
+3 Berl. Mus. Nr. 14145, 
+s. Amtl. Ber. 34, Abb. 71 S. 139 
+ee
+Lines
+ungen
+see 
+\ 
+N 5 
+| 
+a 
+ELTE
+
+<!-- Page 20 -->
+14 
+Porträts der Königin Nofret-ete: Das Klappaltarbild 
+paar und seinen ältesten 
+drei Töchtern, 
+dar. 
+Der Vorgang 
+ist hier in ein Zimmer 
+des 
+Palastes 
+verlegt, wie durch die beiden Papyrussäulen mit Architravstücken rechts und links 
+angedeutet und durch das Beiwerk von acht auf Gestellen — in zwei Reihen neben-, 
+nicht 
+auf zwei Gestellen übereinander — 
+stehenden bekränzten Krügen, die den 
+freien Raum 
+links füllen, noch mehr betont ist. 
+Das zweitälteste Prinzeßchen 
+sitzt auf dem Schoß 
+der sie mit, beiden Händen fest- 
+haltenden 
+Mutter, und macht sie darauf aufmerksam, wie der Vater die älteste Schwester 
+herzt und küßt. 
+Das Kleinste hat sich auf dem Arm der Mutter aufgerichtet und spielt mit 
+einer von ihrer Perücke herabhängenden goldenen Königsschlange. 
+Besonders abwechslungs- 
+reich sind also die Motive nicht, in denen die beiden Künstler des Berliner und des Kairener 
+Bildes die Prinzessinnen verwenden: 
+die älteste empfängt vom Vater eine Liebkosung oder 
+ein Geschenk, die zweite macht die Mutter darauf aufmerksam und die jüngste spielt an einem 
+Schmuckstück. 
+Abgesehen vom allgemeinen Vorwurf sind die Unterschiede im einzelnen zwischen den 
+beiden Bildern 
+nicht gerade groß. 
+Der Sessel des Königs hat eine einfachere Form, 
+die 
+übrigens 
+ebenfalls, wie der oben (S. 5) beschriebene, 
+im Grabe 
+des Tut-'anch-amun 
+ver- 
+treten 
+ist, die Perücken 
+des Königs und der Königin sind reicher geziert, 
+die des Königs 
+mit einem Schlangenreifen!, die der Königin durch ein umgelegtes Band, an dem auch Königs- 
+schlangen angebracht 
+sind?. 
+Dafür 
+fehlen 
+die beiden breiten Halskragen. 
+Sonst geht die 
+Übereinstimmung so weit, daß man gezwungen ist, für beide Bilder 
+die gleichen Vorlagen 
+für die Einzelheiten anzunehmen. 
+Man vergleiche nur einmal die Zeichnung der Körper und 
+der Kleidung des Königspaares 
+von 
+den Füßen bis zur Achselhöhe, kaum eine Linie läuft 
+da verschieden. 
+Auch die Beischriften sind so gut wie gleich. Nur ist .die des Königs dieses 
+Mal, da hinter seiner Perücke noch Platz dafür war, nicht fortgelassen gewesen, wie ihr Rest 
+unter der abgebrochenen Ecke oben links zeigt, und die der Königin hat noch den hübschen 
+Zusatz „möge sie immer jung bleiben!“. 
+Die Künstler der beiden Bilder haben also vielleicht sogar unter Benutzung gleicher 
+Vorlagen in Vorwurf und Aufbau einander ähnliches schaffen wollen; aber wenn zwei dasselbe 
+tun, —. 
+Bei dem Künstler des Kairener Altarbildes sitzt jeder Strich, der Schöpfer des Berliner 
+Bildes hat sich doch öfter vertan. 
+Bei den Köpfen des Königspaares hat er sich gewaltig im 
+Maßstab vergriffen. 
+Sie sind etwa um ein Viertel zu groß. 
+Die wild flatternden Bänder legen 
+mir die Vermutung nahe, daß er diese Köpfe aus einer Vorlage entnommen haben könnte, 
+die das Königspaar bei einer Ausfahrt auf schnellem Rennwagen zeigte”. 
+Auch der Aufbau des Ganzen ist, trotz des gleichen Umrisses, bei ihm weniger glück- 
+ich als bei dem andern, der es verstanden hat, die Gruppe geschlossener erscheinen zu lassen, 
+und sie eng in ihren Rahmen hineinsetzte. 
+Die Stellung der Füße 
+ist auf dem Berliner Bilde entweder nicht überlegt oder an 
+dieser Stelle die Vorzeichnung nicht richtig nachgeschnitten, sonst dürfte wohl bei der Königin 
+nicht 
+das Stuhlbein 
+die Fußbank und der Fuß das Stuhlbein 
+überdecken, und auch beim 
+König ist dieselbe Stelle zum mindesten unaufmerksam behandelt. 
+Das — nicht die zuerst ge- 
+rügten Fehler im Aufbau und Maßstab — mögen Kleinigkeiten sein, über die der Ägypter viel- 
+leicht hinwegsah, aber mir ist der ägyptische Künstler, der auch solche immerhin störenden 
+Unüberlegtheiten vermeidet, doch der bessere Künstler. 
+Lassen wir aber selbst die zuletzt 
+Ebenso z, B. de Garis-Davies, El Amarna 6, Bl. 17. 
+Ebenso 
+z. B. de Garis-Davies, El Amarna 6, Bl. 29 u. ö. 
+Vgl. de Garis-Davies, EI Amama 
+ı, Bl. 10, 17; 4, Bl. 20, 22 u. ö. 
+wun
+
+<!-- Page 21 -->
+en 
+een 
+Ähnliche Darstellungen: Kalksteinrelief in Berlin 
+— Wandbild aus Illahun 
+15 
+erwähnten Kleinigkeiten 
+beiseite und sehen wir nur 
+auf das Große: dem Meister des Kai- 
+rener Altars gebührt unbestreitbar die Palme vor dem des Berliner Reliefs. 
+Beide Stücke scheinen mir übrigens noch enger zusammenzugehören als nur durch die 
+Ähnlichkeit der Darstellung, ich möchte behaupten, daß das Berliner Stück auch von einem 
+Klappaltare herrührt, und daß ihm heute nur die Umrahmung mit ihren Inschriften fehlt’, die 
+man sich 
+sehr gut 
+besonders gearbeitet, möglicherweise 
+aus 
+vier Stücken zusammengesetzt, 
+denken 
+kann. 
+Ein 
+für größere Ausführung 
+angefertigtes Modell 
+scheint 
+es nicht zu sein, 
+sonst würden sich wahrscheinlich auf ihm Spuren des diesen 
+meist” aufgezeichneten Linien- 
+netzes 
+finden, 
+das sowohl 
+für den Entwurf wie für die Vergrößerung bei den ägyptischen 
+Künstlern gebräuchlich war. 
+Darstellungen des Familienlebens des Königs wie die vorliegenden kommen nämlich 
+auch in großer Ausführung in der Tell 
+el-Amarna-Zeit? häufiger vor, man erinnere sich nur 
+der allgemein bekannten aus den Gräbern‘ und Häusern? von Tell el-Amarna. 
+Es sind dafür 
+| 
+eine ganze Anzahl 
+verschiedener Vorwürfe gebräuchlich gewesen, 
+die man, soweit sie nicht 
+in N. de Garis-Davies’ Veröffentlichung der Gräber von Tell el-Amarna gegeben sind, in 
+einem Anhange zu diesem Abschnitt abgebildet finden wird. 
+Der Vorwurf, den das Kairener Klappaltarbild so vorzüglich wiedergibt, scheint aber 
+unter 
+diesen zahlreichen „Familienbildern“ sich einer ganz besonderen Beliebtheit erfreut zu 
+haben, wohl weil 
+er 
+zuerst 
+auf einem 
+besonders 
+schönen Urbild, vielleicht von 
+der Hand 
+eines damals sehr berühmten Künstlers, ausgeführt worden war, oder weil er mehr wie andere 
+beim Könige Gefallen gefunden 
+hatte. 
+Daher mag es wohl auch kommen, 
+daß uns dieser 
+Vorwurf noch mehrmals entgegentritt. 
+Einmal ist er auf einem großen Wandbilde mit halb- 
+lebensgroßen Figuren erhalten. 
+Es ist zwar davon nur ein einen Ausschnitt des Bildes tragen- 
+der Block (Abb. ır) auf uns gekommen, aber dieser Ausschnitt genügt, danach dieses zweite 
+Bild der „Beschenkung der Prinzessinnen“ 
+zu ergänzen, 
+Der Block — 
+es ist weißer Kalkstein — wurde im Winter 1889/90 in einem Grabe 
+bei Illahun®, am Eingange des Faijum, verbaut gefunden. 
+Man darf wohl annehmen, daß er 
+ursprünglich 
+in irgendeinem Gebäude von Me inet Ruräb saß, wo ausgedehnte Bauten der 
+Zeit Amenophis’ 
+IV.” — wahrscheinlich der Palast, der der Königinmutter Teje als Witwen- 
+sitz® gedient hat — nachweisbar sind, in denen auch der berühmte Porträtkopf der Königin 
+Teje gefunden wurde. 
+Ein Vergleich des Ausschnitts mit dem entsprechenden aus dem Altarbild (Abb. ı2) 
+zeigt, daß zwar 
+der Vorwurf derselbe, 
+die Ausführung 
+aber 
+eine andere war. 
+Daß das 
+Wandbild denselben Vorgang seitenverkehrt 
+im Verhältnis zum Altarbild zeigt, ist ebenso- 
+wenig von Belang, wie etwa kleine hier in der größeren Ausführung angebrachte Einzelheiten, 
+die bei dem kleineren Altarbild fehlen mußten, z. B. die der Königin auf die Arme tätowierten 
+Namen der Sonnenscheibe. 
+Wohl aber ist der nicht unbedeutende Unterschied im Aufbau 
+ı Die Platte könnte 
+sogar 
+erst nach 
+ihrer Auffindung 
+des heimlichen Fortschaffens wegen von Raub- 
+gräbern aus dem Rahmen herausgeschlagen worden sein, wobei sie der Länge nach durchgebrochen ist (mit genau 
+anpassenden Bruchflächen!) und ihre linke obere Ecke verloren hat, 
+2 Vgl. das Modell aus dem Prinzessinnengrabe im Museum zu Kairo (Borchardt, Kunstwerke aus dem 
+Kair, Mus, Bl. 27). 
+3 Aus 
+späterer Zeit vgl. die Bilder Ramses’ III. beim Brettspiel mit Damen seines Harems in den oberen 
+zum Palast gehörigen Räumen des Hohen Tores von Medinet Habu (Hölscher, Hohes Tor 44, 45). 
+4 Z. B. de Garis-Davies, EI Amarna 2, Bl. 32; 3, Bl. 4, 6 u. 34; 4, Bl. 10, 
+5 Z. B. Petrie, 
+Tell el-Amarna Bl. ı, 12, jetzt besser de Garis-Davis 
+in Journ, egypt. archaeol. 7 
+(gar), Bl. ı u. 2. 
+6 S. Flinders Petrie, Illahun Bl. 24, 10 u. S. 20. 
+Für die mir in zuvorkommendster Weise zur Ver- 
+fügung gestellte Photographie, nach der Abb. ıı hergestellt wurde, habe ich dem University Museum in Phila- 
+delphia zu danken, 
+7 S. Borchardt, Porträtkopf der Königin Teje S. 3 u. Abb. 2. 
+8 S. ebd. S. 20,
+
+<!-- Page 22 -->
+16 
+Porträts der Königin Nofret-ete: Das Klappaltarbild 
+wichtig. 
+Die Königin war hier nämlich 
+nicht sitzend, sondern stehend dargestellt, 
+sie hält 
+auf der einen Hand 
+die jüngste der drei Prinzessinnen, 
+die durch die Inschrift neben dem 
+Oberarm der Königin mit ihrem Namen “Anch-s-en-pa-aton 
+bezeichnet ist. 
+Die freie Hand 
+legt die Königin auf die Schulter der vor ihr stehenden Ältesten. 
+Die Zweite wird vermut- 
+Abb; 
+ır. 
+Reliefbruchstück von Ilahun. 
+1/, nat. Größe, 
+Abb. 
+ı2. 
+Ausschnitt aus dem Klappaltarbilde. 
+Nat. Größe. 
+lich mehr links neben der Königin dargestellt gewesen sein. 
+Vom König ist nichts erhalten, 
+nur der Ohrring, den er 
+der Ältesten hinhält, und der die bekannte Form! besonders deut- 
+lich zeigt, ist in der rechten oberen Ecke des Blockes sichtbar. 
+Man wird den König sich 
+sitzend zu denken haben, ganz wie auf dem Altarbilde; 
+falls er stehend 
+dargestellt worden 
+wäre, würde, wie aus 
+der Höhenlage des Ohrringes zu schließen 
+ist, zwischen seinem Unter- 
+körper und der Prinzessin 
+zu viel Raum 
+zu 
+füllen gewesen 
+sein. 
+Die Prinzessin steht hier 
+ı S.Abb, 3 8.8.
+
+<!-- Page 23 -->
+Ähnliche Darstellungen: Wandbild aus Ilahun — Altarbild in London 
+17 
+schon etwas 
+weiter vom Könige ab als auf dem Altarbilde, deshalb 
+hat der Künstler 
+ihr 
+auch eine den Raum besser füllende Handhaltung gegeben. 
+Die Inschrift vor 
+ihr wird 
+er 
+auch wohl nicht so sehr zwischen sie und den König haben einzwängen müssen wie auf dem 
+Altarbilde. 
+Dieser Vorschlag für die Ergänzung des zweiten Entwurfs der „Beschenkung der Prin- 
+zessinnen“, des Entwurfs mit sitzendem König und stehender Königin, war längst gesc hrieben, 
+als ein weiteres Stück zeigte, daß die vorgeschlagene Ergänzung richtig ist. Als ich die im 
+Anhange 
+zu 
+diesem Abschnitt gegebenen Familienbilder zusammenstellte, 
+rief mir Direktor 
+Schäfer ein im Britischen Museum befindliches Bruchstück! eines solchen wieder ins Gedächtnis, 
+das sich dann bei näherer Besichtigung als zu einer dritten „Beschenkung der Prinzessinnen“ 
+gehörig auswies (Abb. 13?). 
+Es ist die rechte, oben leider auch nicht ganz vollständige Seite eines Altarbildes mit 
+angearbeitetem Rahmen, das vollständig einmal rd. ®/, so groß war wie das Kairener. 
+Es kann 
+kein Zweifel sein, daß wir hier, was 
+die Verwendung 
+betrifft, zum Kairener Klappaltarbilde 
+ein Gegenstück vor uns haben, das aber in der bildlichen Darstellung, wie wir gleich sehen 
+werden, an Stelle des Tell el-Amarna-Entwurfs den von 
+Medinet Ruräb zeigt. 
+Der König sitzt hier auf einem Stuhl mit Lehne und Löwenfüßen, ähnlich mit der einen 
+Hand aufgestützt® wie auf 
+dem Kairener Bilde, auf dem aber dem Künstler die Wiedergabe 
+dieser Haltung wesentlich besser gelungen ist. 
+Die Tracht weicht nur unbedeutend von der 
+auf dem anderen Bilde ab, 
+an Stelle 
+der hohen Perücke 
+dort 
+trägt der König hier über 
+dem unsichtbaren Haarbeutel, von dem nur die Enden des roten Bindebandes hinten heraus- 
+sehen, eine kurze, auch blau gemalte Löckchen-Perücke mit umgelegtem Bande. Das Gürtel- 
+band des weißen Schurzes hat hier lange anstatt dort kurze Enden. 
+Die vor ihm stehende 
+Prinzessin’, von der nur die in der Art wie auf dem Medinet Ruräb-Bilde gehaltenen Hände 
+sichtbar sind, hält eine jedenfalls goldene Schale mit Fuß. empor, 
+die sie wohl soeben von 
+ı Nr. 24431 
+s. Guide to the third and fourth Egyptian rooms, 
+Ausgabe 
+von 
+1904, Abb. 
+auf S. 100; 
+vgl. Mittlg. d. D. O.-G. Nr. 52 (Okt. 1913), S. 27. 
+2 Die Vorlage für diese Abbildung ist eine Photographie, 
+die ich ebenso wie die Angaben über Farben 
+usw. Col. H. G. Lyon’s Güte verdanke. 
+Das Stück 
+ist 1891 erworben, als ein Grab in Tell el-Amarna erbrochen 
+und geplündert worden war. 
+Ich möchte jedoch die Herkunft aus einem Grabe bezweifeln. 
+Ein anderes zur Zeit 
+nicht nachweisbares Bruchstück davon, und zwar das oben rechts, soll der Maler 
+Henry Wallis(f) gerettet haben. 
+3 Die Haltung ist 
+so 
+zu denken, 
+daß der Arm vor der Lehne liegt, nicht etwa über sie gelegt ist, und 
+daß die Hand sich auf das Kissen neben, nicht hinter dem König, stützt. 
+4 Dieselbe Haltung zeigt auch noch ein Denksteinbruchstück (Abb, 14) aus Tell el-Amarna Haus N 50, 22, 
+jetzt Berl. Mus. Nr. 22264, über das hier doch einige Worte gesagt werden müssen, sei es auch nur, um festzustellen, 
+daß es 
+trotz der Übereinstimmung in der Haltung des Königs nicht zu der Gruppe der Bilder der „Beschenkung 
+der Prinzessinnen“ gehört. 
+Die Kalksteinplatte ist 0,056 m dick und an der Seite flach gerundet. 
+Es war also kein Klappaltarbild, 
+sondern ein Denkstein, der aber möglicherweise auch als Altarbild dienen sollte. 
+Die Breite betrug nur etwa 0,18 m, 
+was man aus der leicht festzustellenden Mittellinie ungefähr schließen kann, 
+Es ist also vor dem sitzenden Könige 
+nicht viel Platz für die Darstellung etwa der ganzen übrigen Familie, vielmehr kann dort nur die Königin gestanden 
+haben, von der auch noch ein Rest eines kurzen Schu 
+— etwa wie der des 
+Königs bei de Garis-Davies, 
+EI Amarna 6, 3, 26 und 40 — 
+den Knieen des König 
+gegenüber erhalten ist. 
+Die beiden Reste von Königs- 
+schildern vor dem Ellenbogen des Königs rühren auch nicht etwa vom Namen einer Prinzessin her, die vielleicht 
+vor dem Könige gestanden haben könnte, es sind vielmehr die Namen des Königs selbst. 
+Da der König eine blaue Schale in der erhobenen Hand 
+hält, so ist das Bild wohl nur nach dem Muster 
+der bekannten Trinkszenen 
+zu ergänzen, 
+bei denen die Königin 
+dem König Wein eingießt — vgl. oben Abb. 5, 
+S.9 und de Garis-Davies, El Amarna 2, 32 und 46. 
+Eine hübsche Wiedergabe dieser Trinkszene ist jetzt auch im Grabe des Tut-'anch-amun auf einem ver- 
+goldeten Schrein — Illustrated London News vom 29. 9. 23 S. 562 — gefunden worden. 
+Hier gießt die Königin 
+dem König Wein in eine Schale mit sogenannten „aufgesetzten Randverzierungen“, was auch meines Wissens noch 
+einmal in einem thebanischen Wandgemälde vorkommt. 
+Da das Trinken aus Schalen 
+mit aufgesetzten Randver- 
+zierungen unmöglich ist, so ist damit der Streit, ob so dargestellte Schalen „Schalen mit Innenverzierung“ (Borchardt 
+in Ztschr. 
+f. äg. Spr. 31 [1893], ıf£) oder solche mit „aufgesetzten Randverzierungen“ sind (Schäfer in Sethe’s 
+Untersuchungen Bd. 4) zugunsten der ersteren Ansicht 
+entschieden. 
+5 Der Anfang ihres Titels „die leibliche Tochter des Königs ...“ ist vor ihr noch erkennbar. 
+DOG. 
+44. Borchardt: Nofret-ete, 
+3 
+| 
+3
+
+<!-- Page 24 -->
+18 
+Porträts der Königin Nofret-ete: Das Klappaltarbild 
+ihrem Vater erhalten 
+hat!, eine Schale, wie sie der König bei den bekannten 
+feierlichen 
+Empfängen 
+in und vor dem Palaste den hohen Würdenträgern seines Hofes zusammen mit 
+Schmuckstücken — Halskragen, Ringen u.ä. — 
+zu schenken pflegte. 
+Wir haben es also hier mit einer in einer Einzelheit geänderten Darstellung der „Be- 
+schenkung der Prinzessinnen“ zu tun. 
+Auf den beiden anderen Bildern erhalten sie Schmuck, 
+hier goldene Schalen, beides Geschenke, 
+ganz wie sie die höchsten Beamten als besondere 
+Auszeichnung auch bekamen’. Wir müßten die Szene also wohl genauer als „Verleihung des 
+Goldes an die Prinzessinnen“ bezeichnen. In der Neuzeit werden ja auch die höchsten Orden, 
+die nur ergraute Beamte zu erhalten pflegen, Prinzen von Geblüt schon in die Wiege gelegt. 
+Abb. 
+13. 
+Abb. 14. 
+Abb. 13. Stück eines Altarbildes. 
+Abb. I4. 
+1/, nat. Größe. 
+Brit, Mus, Nr. 24431. 
+Stück eines Denksteins, 
+!/y nat. Größe, 
+Berl. Mus. Nr. 22264. 
+Die auf dem Stücke des Britischen Museums wie auf dem Kairener blaugrün ausgemalten 
+Inschriften können wir hier ü bergehen, sie geben nichts Neues oder sonstwie Wichtiges. Die 
+strahlende Sonnenscheibe oben ist aber doch einiger Beachtung wert, 
+Mittelachse des Ganzen an und somit 
+die Möglichkeit, die gesamte Bildgröße zu erschließen: die 
+Bildfläche hatte dieselben Verhältnisse wie die des anderen Rlappalinbildes, 
+Auf diesem geht 
+die Mittellinie des Ganzen, die durch die Königsschlange und den lotrechten mittl 
+Sonnenscheibe festgelegt ist, in einiger 
+Sie gibt uns nämlich die 
+eren Strahl der 
+Entfernung vor den Knien des Königs dicht vor dem Ge- 
+dem Bruchstück des British Museums aber, auf dem der 
+angibt, geht sie nahe an den Knien des Königs vor der Schale 
+sicht der Prinzessin vor ihm durch, au 
+lotrechte Strahl die Mittellinie 
+ı Vielleicht goß der König hier in 
+die Schale auch Wein, worauf seine Armhaltung und ein nicht ganz 
+klarer Strichrest über der Schale gedeutet werden könnten, oder er reichte ein weiteres Geschenk hin (P?), 
+2 
+S. oben 
+S. 4. 
+Über 
+das 
+hohe 
+Alter 
+dieser 
+Art von usa ehrlung, 
+verleihungen 
+entsprach, s. Borchardt, Grabdenkm. d. Königs Sa ’hu- 
+-re‘ 2, 61fl- 
+fangen des Goldes, Belohnungen geben.“ 
+die 
+den 
+späteren 
+Ordens- 
+„Verleihung des Goldes, 
+Emp-
+
+<!-- Page 25 -->
+erster eng 
+Ähnliche Darstellungen: Altarbild in London. — Urbild 
+19 
+und noch weit vor den Fingern der am meisten vorgestreckten Hand der Prinzessin vorbei. 
+Es 
+ist also 
+hier hinter der Prinzessin kein Platz mehr für die etwa 
+sitzend 
+zu ergänzende 
+Königin, vielmehr ist es sicher, daß auf diesem Bilde die Königin stand, ganz wie auf dem 
+Bilde aus Medinet Ruräb. Es sind also unter den bis jetzt bekannten Bildern der „Beschenkung 
+der Prinzessinnen“ zwei verschiedene Auffassungen nachzuweisen, 
+eine mit sitzendem Könige 
+und stehender Königin, wovon zwei Ausführungen 
+in Bruchstücken 
+erhalten sind, und eine, 
+wie mir scheint, im Aufbau bessere, bei der beide Eltern sitzend dargestellt waren. 
+Dieser Unterschied im Aufbau kann bei der festgestellten Gleichheit der Verhältnisse 
+der Bildfläche nicht dadurch bedingt sein, daß die Künstler etwa ihren Aufbau in Rahmen 
+von verschiedenen Verhältnissen hineinzusetzen hatten. Wohl aber kann er darauf zurückgehen, 
+daß entweder 
+den Künstlern 
+zwei Urbilder vorlagen — 
+denn wir werden doch nicht 
+an- 
+nehmen können, 
+daß von den drei auf uns gekommenen Bildern gerade eines die allererste 
+Ausführung des Vorwurfs war —, oder daß der eine von ihnen das Urbild in freier Umarbei- 
+tung wiedergegeben hat. 
+Fragt man sich nun, wie dieses mögliche Urbild wohl ausgesehen haben könne, so ist 
+vorerst eine Vorfrage zu beantworten, nämlich die: was haben die Künstler denn eigentlich 
+darstellen wollen? 
+Diese Frage wird, nachdem wir die Bilder nun seitenlang beschrieben und 
+besprochen haben, merkwürdig erscheinen, aber nur für den, dem die Eigenart altägyptischer 
+Zeichenkunst 
+nicht geläufig 
+ist. 
+Bei der Beschreibung des Altarbildes — 
+für den anderen 
+Entwurf gilt mit den nötigen Änderungen das gleiche — haben wir nämlich bisher, 
+genau 
+genommen, nur gesehen, wie der Künstler seinen Vorwurf wiedergegeben 
+hat. 
+Bei einem 
+neuzeitlichen, 
+nach den Sehregeln 
+des menschlichen Auges gefertigten Schaubilde wird der 
+3eschauer ohne große Findigkeit den dargestellten Gegenstand, hier die Familiengruppe, in 
+seinem Geiste wiedererstehen lassen können, denn Maler und Beschauer sehen gleich und be- 
+kommen 
+also von dem Bilde den gleichen, 
+sich auch wieder in Gleiches umsetzenden Seh- 
+eindruck. 
+Bei einem altägyptischen Bilde, selbst aus der in vielen Dingen recht fortgeschrittenen 
+Zeit von Tell el-Amarna, ist das nicht so einfach. 
+Der ägyptische Maler setzt nämlich sein 
+Bild aus dem zusammen, was er seinem Verstande nach als dazugehörig kennt, Es ist also 
+nicht gesagt, wird sogar vielfach nicht zutreffen, daß der Beschauer sich nun mit seinem Ver- 
+stande nach dem Bilde die Wirklichkeit wieder so zusammensetzt, wie der Maler es gewollt 
+hat. 
+Der 
+Beschauer wird also zwar stets sehen, wie der Maler etwas dargestellt hat, aber 
+damit noch lange nicht wissen, was 
+er hat darstellen wollen. 
+Es fehlt eben in der ägyp- 
+tischen Malerei das einzige Mittel, das wir haben, um dem Beschauer den gleichen Eindruck 
+zu übermitteln, den der Maler beim Malen hatte, nämlich die Darstellungsweise nach den Seh- 
+regeln unserer Augen. 
+Bei unserer heutigen Darstellungsweise sind Sinnestäuschungen mög: 
+lich, bei der ägyptischen die weit häufigeren, oft unvermeidlichen Verstandestäuschungen, die 
+besonders 
+leicht auftreten werden, wenn, wie in unserem Falle, Maler und Beschauer durch 
+Jahrtausende getrennt sind. 
+Die Frage, was der Künstler hat darstellen wollen, ist leichter gestellt als beantwortet. 
+Ich kann daher auch nur die mir wahrscheinlichst erscheinende, wie ich glaube, befriedigende 
+Antwort geben. 
+Es scheint mir, als ob dem Künstler eine Gruppe vorgeschwebt hat, in der König 
+und Königin nebeneinander vor dem Beschauer, dem sie die Gesichter zuwenden, sitzen. 
+Die 
+älteste Prinzessin steht zum Vater gewandt am Knie der Mutter, von deren Rechten geschützt. 
+In der Ansicht, 
+die wir heute bei der Wiedergabe einer solchen Gruppe erwarten 
+würden, sind nur dargestellt: die Matte am Boden, die beiden dicht an dicht stehenden Fuß- 
+bänke und die älteste Prinzessin. 
+Alles übrige ist sozusagen auseinandergeklappt, und zwar 
+daß das Ganze den spiegelgleichen, nach der Mittellinie gerichteten Aufbau ergibt. 
+so,
+
+<!-- Page 26 -->
+Porträts der Königin Nofret-ete: Das Klappaltarbild 
+Es ist derselbe Aufbau, den wir im Alten Reiche oft bei der Darstellung hinter dem 
+Speisetisch sitzender Paare Verstorbener! 
+sehen, 
+die auch keineswegs 
+als sich gegenüber- 
+sitzend und von der Seite gesehen zu verstehen sind, sondern in der Vorstellung des Malers 
+und des Beschauers 
+selbstverständlich 
+den 
+in Verehrung 
+auf das Bild zutretenden Hinter- 
+bliebenen anblicken sollen. 
+Daß sich, vielleicht sogar häufiger, auch die andere Darstellung 
+findet, bei der das Paar in Seitenansicht nebeneinander auf der einen Seite des Speisetisches 
+abgebildet wird, und daß dies auch in den Bildern in den Gräbern von Tell el-Amarna? so 
+vorkommt, ist selbstverständlich. 
+Dann wird aber meistens im Aufbau des Bildes ein Gegen- 
+stück zu den an der einen Seite Sitzenden auf der anderen vorhanden sein?. 
+Bei unserem Altarbild 
+hätte 
+eine einseitige Anordnung dem Künstler 
+den schönen 
+Aufbau seines Bildes erschwert, wenn nicht unmöglich gemacht, er wählte also diese spiegel- 
+gleiche Anordnung und dachte sich doch dabei, daß die Dargestellten den Beschauer anblicken, 
+Ein Anbetungsbild ist eben nicht anders möglich, als daß die auf ihm dargestellte verehrte 
+Person aus dem Bilde heraus auf den Beter vor ihm blickt. 
+Wird 
+diese mit größter Wahrscheinlichkeit 
+richtige Antwort 
+auf die Vorfrage 
+„was 
+hat der Künstler darstellen wollen?“ angenommen, so 
+beantwortet sich die nach dem Urbilde 
+oder den Urbildern unserer Darstellungen von selbst. Dann ist das Urbild eine Rundskulptur? 
+gewesen. 
+Man darf es 
+sich etwa so denken: 
+aus 
+einer Kapelle blickt, sobald die Türen 
+geöffnet sind, die in farbigem Stein ausgeführte Gruppe des Königspaares, 
+er rechts, 
+sie 
+links sitzend — oder er sitzend, sie neben ihm stehend —, von den Kindern umspielt, den 
+Anbetenden 
+an; von 
+der Hinterwand 
+der Kapelle oben leuchtet die Sonnenscheibe herab. 
+Solche Kapellen mit vielleicht besonders berühmten Familiengruppen® mag es im Tempel der 
+Sonnenscheibe gegeben haben. 
+Sie dienten als Vorlagen für die Klappaltarbilder auf den Hausaltären. 
+Den Namen Klappaltarbild, mit dem unser Fund schon fast von Anfang an bezeichnet 
+worden ist, werden wir hier zum Schluß noch begründen müssen. Daß das die Sonnenscheibe 
+mit ihren königlichen Abkömmlingen darstellende Bild für irgendeine Art der Verehrung oder 
+Anbetung bestimmt war, und daß es durch ein Türchen je nach Bedürfnis gezeigt oder ver- 
+hüllt werden konnte, 
+ist ohne weiteres klar. 
+Damit ist der Vergleich mit späteren, 
+nicht 
+ägyptischen Klapp- und Flügelaltarbildern gegeben, und die Frage drängt sich auf, wie dieses 
+Klappaltarbild 
+aufgestellt war. 
+Die späteren stehen im Gebrauch über der oberen Hinter- 
+kante 
+eines Altars, vor 
+den der Betende 
+tritt. 
+Da die Ägypter wohl gelegentlich kniend, 
+ı Z. B. Wreszinski, Atlas zur altägypt. Kulturgesch., Bl. 383. 
+2 S. de Garis-Davies, El Amarna 3, Bl. 4, 6 u. 34. 
+3 So in de Garis-Davies, El Amarna 3, Bl. 4 u. 6 die vielleicht auch neben dem Königspaare sitzende 
+Königinmutter Teje. 
+Das Bild ebd. Bl. 34 ist unvollständig. 
+4 Bei einer anderen Art von Darstellungen kommt eine ähnliche Übersetzung von der Rundskulptur in 
+die Malerei vor. 
+Die beiden bisher bekannten Gruppen des einen Feind niederschlagenden Königs (Kairo 45152 
+s. Legrain, 
+Statues 
+et statuettes [Cat. gen. du Musee du Caire] 2, Bl. 15 u, Berl. Mus. Nr. 1883, kleine Elfen- 
+beingruppe) zeigen beide Personen gleichgerichtet, im Bilde sind sie oft einander entgegengerichtet (z. B. Berlin 21685 
+s. Mittlg. d. D. O.-G. Nr. 55 [Dez. 1914] Bl. 5 u. Täfelchen des Wdi-mu 
+s. Spiegelberg in Zeitschrift f. äg. Spr. 35 
+[1897] S. 8). 
+5 Vgl. die häufig vorkommenden Kapellen mit Götterbildern, die von Weihenden auf ihren Statuen vor 
+sich gehalten werden, oder 
+die Kapelle mit Königsstatuen 
+in Kairo Nr. 42022 (Legrain, Statues 
+et statuettes 
+[Cat. gen.] ı, Bl. 13). 
+6 Bilder nach anderen Gruppen in Rundskulptur lassen sich in Tell el-Amarna auch nachweisen. 
+Der 
+sog. „küssende König“ (Mittlg. d. D. O.-G. Nr. 52 [Okt. 1913], Bl. 2) kommt auf Siegelabdrücken 
+aus unseren 
+Grabungen vor (z.B. Berl. Mus. Nr.21331 aus Haus P 47,2) 
+und 
+die Familienszene 
+„Königin, dem König den 
+Halskragen umknüpfend“ 
+(Berl. Mus. Nr. 14511 
+s. Amtl. Ber. 34. Jahrg. S. 138 Abb. 69 u. unten Abb. 19 S. 26) 
+scheint es auch in Rundskulptur gegeben 
+zu haben, wie zwei von unseren 
+Funden, die aber 
+zu verschiedenen 
+Kunstwerken 
+gehören, 
+dartun: 
+eine 
+über 
+die Stuhllehne 
+hängende 
+linke Hand 
+(Berl. Mus. 
+Nr. 22267) 
+aus 
+Haus O 49, 
+20 
+und 
+ein 
+scharf 
+geknickter 
+rechter Arm 
+(Berl. Mus. Nr. 22062) 
+aus Haus O 49, 
+12, beide 
+von bemalten Kalksteinfiguren etwa derselben Größe wie der „küssende König“. 
+($. unten S. 25ff.)
+
+<!-- Page 27 -->
+Ähnliche Darstellungen: Urbild. — Einstige Aufstellung: Hausaltäre 
+21 
+aber nicht kriechend beten, so kann bei ihnen das Altarbild, namentlich wenn man an seine 
+verhältnismäßig 
+geringe Höhe denkt, auch nicht auf der Erde gestanden haben. 
+Es galt 
+also in den Häusern, da für den Tempel die Ausführung wohl zu klein war, Umschau nach 
+vielleicht vorhandenen geeigneten erhöhten Plätzen zu halten, auf denen solche Altarbilder 
+gestanden haben könnten. 
+Eine zweite Möglichkeit, 
+nämlich 
+die der Aufstellung in .Wand- 
+nischen, war von vornherein ausgeschlossen, da Spuren von solchen, trotzdem die Mauern in 
+den meisten Fällen noch hoch genug anstehen, 
+bisher 
+in keinem der vielen von uns aus- 
+gegrabenen Häuser nachweisbar sind. 
+Die gesuchten erhöhten Plätze waren schnell gefunden!, 
+In einer ganzen Reihe von 
+Häusern hatten sich bis dahin von uns 
+nicht gedeutete, etwa sitzhohe, an Wände gelehnte 
+klotzförmige Ziegeleinbauten, gelegentlich mit kleinen Treppchen davor, gefunden. Im Augen- 
+blick, wo das Klappaltarbild als solches erkannt war, sahen wir, daß diese Klötze bei ihrer 
+uns unverantwortlicherweise nun erst auffallenden Ähnlichkeit mit großen ägyptischen Altären® 
+eben als Hausaltärchen zu erklären waren. 
+Dazu kam noch, daß auch Tempelaltäre mit darauf 
+aufgestellten „Stelen“ aus Abbildungen? längst bekannt waren. 
+Eine Liste der Hausaltäre aus den deutschen Grabungen mit Angaben über ihre Lage 
+im Hause soll hier folgen: 
+In Haus Q 46,1 Raum 10 an der Ostwand des „quadratischen“ Zimmers‘ Altar mit 
+Spur der Treppe; 
+Haus © 46,3 Raum 
+ı3 
+an 
+der Ostwand 
+des „quadratischen“ Zimmers Altar ohne 
+Treppe mit Resten weißen Gipsputzes; 
+Haus R 46,2 Raum 6 an der Ostwand der „tiefen“ Halle Altar ohne Treppe mit 
+Wandung oben und mit weißen Putzresten; 
+Haus P 47,5; Raum 22 an der Südwand der „tiefen“ Halle, dem Eingange gegenüber, 
+Altar mit Treppe und weißen Putzresten; 
+Haus P 47,7 Raum 8 an der Ostwand der „tiefen“ Halle Altar ohne Treppe; 
+Haus P 47,22 Raum 
+ı7 an 
+der Ostwand 
+eines kleinen Raumes 
+östlich 
+neben 
+der 
+„tiefen“ Halle, der Tür gegenüber, 
+Altar mit Treppe und Wandung oben, 
+auch zu beiden Seiten der Treppe, sowie rechts und links vom Antritt (Abb. 15); 
+aus P 47,23 Raum 6 an der Ostwand der „tiefen“ Halle, dem Eingang gegenüber, 
+Altar mit Treppe, Rest ihrer Wandung und weißen Putzresten; 
+aus O 47,23 Raum 25 an der Ostwand 
+des Hauptraums 
+eines 
+kleinen 
+Haus 
+Altar(?) ohne Treppe, darauf halbrunde Standspur; 
+Haus O 48,11 Raum 6 an der Südwand der „tiefen“ Halle, dem Eingang gegenüber, 
+Altar ohne Treppe; 
+Haus P 48,2 Raum 5 an der Nordwand 
+der „tiefen“ Halle‘, deren Eingang 
+aus- 
+nahmsweise von Westen ist, Altar mit Treppe; 
+ı S. Mittlg. d. D. O.-G. Nr. 52 (Okt. 1913), S. 28. 
+2 Erhaltene 
+z. B. mit Treppen: 
+in Dr el-bahri, Karnak und Tell el-Amarna; 
+abgebildete 
+z. B. bei 
+de Garis-Davies, El Amarna, und zwar 
+mit Treppen: 
+I Bl. 12, 25, 27, 28, 2Bl. 18, 3 Bl. 8, to u, 14; ohne 
+Treppen: 2 Bl. 18 u. 3 Bl. 30, desgl. aus Holz: 4 Bl. 
+16 u. oft. 
+3 S. de Garis-Davies, 
+El Amarna 
+ı Bl. ıt, 25, 33 u. 2 Bl. 19, 6 Bl. 20; auch die auf Altären auf- 
+gestellten Feldzeichen (ebd. 6 Bl. 20, 30) wären 
+zu vergleichen. 
+4 „Quadratisches“ Zimmer bezeichnet vorläufig ein bestimmt gelegenes größeres Wohnzimmer im hinteren 
+Teile der besseren Wohnhäuser (s. Borchardt, das altäg, Wohnhaus, 
+in Ztschr. 
+f. Bauwesen 1916 Sp. 531/2). 
+Sein Eingang ist meist von Norden her. 
+5 „Tiefe“ 
+Halle 
+bezeichnet 
+das große Wohn- und Eßzimmer 
+(s. Borchardt 
+ebd. Sp. 531). 
+Auch 
+sein Eingang 
+liegt gemeinhin in seiner Nordseite. 
+In normalen 
+Fällen sind die Vorderseiten 
+der Häuser nach 
+Norden gewandt. 
+6 Alle übrigen hier genannten Häuser sind sog. „bessere 
+7 Im gleichen Raum wurde die unfertige Gruppe des „l 
+Statuette der Königin, eine Opfertafel haltend, gefunden. 
+«= Häuser. 
+küssenden Königs“ und eine ebenfalls unfertige 
+in 
+Abtnhn 
+AUAERNANEEE
+
+<!-- Page 28 -->
+57 
+Porträts der Königin Nofret-ete: Das Klappaltarbild 
+aus O 49,16 Raum 3 an 
+der Südwand der „tiefen“ Halle, dem Eingang gegen- 
+über, Altar mit Treppe; 
+Haus O 49,17 Raum 9 an der Nordwand eines kleineren Raumes östlich neben der 
+„tiefen“ Halle, Altar mit Treppe; 
+aus P 49,13 Raum 
+17 an der Nordwand 
+des Schlafzimmers, gegenüber 
+der Bett- 
+nische, Altar ohne Treppe‘; 
+Haus P 49,15 Raum 
+ıı 
+an 
+der Südwand 
+des „quadratischen“ Zimmers, gegenüber 
+dem Eingang, Altar mit Treppe und Wandungen neben deren Antritt; 
+Haus M 50,1 Raum 9 an 
+der Ostwand 
+eines 
+kleinen 
+Raumes 
+östlich 
+neben 
+der 
+„tiefen“ Halle, der Tür gegenüber, Altar in ganzer Breite des Raumes (1,50 m) 
+mit Treppe; 
+Abb. ı5. 
+Altar aus Ziegeln in Haus P 47,22. 
+Haus M 51,1 Raum ohne Nr., an der Nordwand des Hauptraumes® neben 
+der Tür 
+rechts vom Eintretenden. 
+Diese Liste zeigt, daß die Altäre stets 
+an hervorragender Stelle im Hause 
+stehen, 
+meist 
+in 
+der 
+„tiefen“ 
+Halle, 
+dem Wohn- 
+und 
+Speisezimmer, 
+an 
+der 
+Ostwand®, 
+oder 
+auch in einem diesem Hauptraum östlich anliegenden besonderen kleinen Zimmer, sodaß der 
+vor den Altar Tretende sich der aufgehenden Sonne zuwendet. 
+Gelegentlich steht der Altar 
+auch 
+in der „tiefen“ Halle dem Eingang gegenüber oder gegenüber dem Platze 
+des Haus- 
+herrn, 
+der meist vor der Hinterwand der „tiefen Halle“ 
+seinen etwas 
+erhöhten Sitz 
+hatte, 
+manchmal auch im „quadratischen“ Zimmer, dem zweiten Wohnraum. 
+An einer Stelle wurde auch zu dem Altar das auf ihn gehörige Kapellchen‘ gefunden, 
+nämlich in Haus Q 46,3 in Raum 
+ı1, der „tiefen Halle“. 
+Es ist nur 0,175 
+auf 0,24 m 
+groß, hat ungefähr die Form unseres Klappaltarbildes, 
+von dem wohl 
+einst aufgemalt ge- 
+wesenen Bilde selbst ist nichts mehr zu 
+sehen. 
+Der Altar dazu 
+steht 
+im anschließenden 
+ı Vielleicht nur Rest eines gemauerten Tisches zum Ablegen von Kleidern, 
+2 Dieses Haus 
+ist wohl das Dienerinnenhaus (s. Borchardt a. a. O, Sp. 522 u. 537) zu M 50, ı und 
+hat als solches nicht die bei den Haupthäusern übliche Grundrißanordnung. 
+3 In P 48,2 steht der Altar so, daß er, wenn 
+das ausnahmsweise 
+nach Westen gerichtete Haus die 
+übliche Nordrichtung hätte, richtig an der Ostwand stände. 
+Hier ist also die übliche Anordnung — Altar in der 
+„tiefen“ Halle links vom Eintretenden — trotz der Drehung des Grundrisses beibehalten. 
+4 Fundliste 12/13 843. 
+Tgb. 12J13 S. 157.
+
+<!-- Page 29 -->
+Einstige Aufstellung: Hausaltäre 
+23 
+„quadratischen“ Zimmer, Raum ı3', 
+er hat 0,32X0,32 m Grundfläche 
+und stand 
+bei der 
+Ausgrabung noch 0,25 m hoch. 
+Hier haben wir also Altärchen und Altarbild noch zusam- 
+men gefunden. 
+Aus der verhältnismäßig großen Anzahl der erhaltenen Hausaltäre 
+können 
+wir außerdem den Schluß ziehen, daß auf ihnen aufgestellte „Heiligenbilder‘“ wohl in keinem 
+besseren Hause fehlten. 
+Bewohner einfacherer Häuser werden sich wohl mit einem „Heiligen- 
+bilde“ ohne Altar davor begnügt haben. 
+Ein Zweifel an der Zugehörigkeit unseres Klappaltarbildes zu 
+einem 
+der Hausaltäre 
+der Stadt ist also ausgeschlossen. 
+Auf welchem es aber einmal stand, 
+das läßt sich nicht 
+mehr sagen. 
+Ein merkwürdiger Zufall aber will es, 
+daß es gerade auf den besterhaltenen 
+Abb. 16. 
+Das Klappaltarbild an seiner alten Stelle, 
+Zeichnerische Wiederherstellung. 
+Hausaltar, 
+den in Haus P 47,22, genau paßt. 
+Er hat sogar oben längs der Wand 
+eine 
+0,23 m breite, nur 0,04 m hohe Platte, die dem Bilde vorzüglich als Standfläche dienen konnte. 
+Deshalb habe ich diesen Altar gewählt, um an ihm in einer zeichnerischen Wiederherstellung 
+zu zeigen, wie unser Klappaltarbild einstmals aufgestellt gewesen ist (Abb. 16). 
+Öffnete man die von der „tiefen“ Halle 
+des Hauses 
+in den einen 
+östlichen Neben- 
+raum führende Tür, so hatte man, der aufgehenden Sonne entgegen, sich gegenüber den Altar, 
+der im Kleinen wie die großen Altäre in den Tempeln aussah. 
+Er hat wie diese eine oben 
+abgerundete niedrige Wandung oben und vor sich die flache Treppe gleichfalls mit Wandungen. 
+Zu beiden Seiten des Antritts betonen auch noch seitlich 
+gestellte” Wandungsenden dieses 
+ı S. oben in der Liste, 
+2 So sind vielleicht auch die erhöht gezeichneten Wandungsenden an den bildlich dargestellten Altären 
+zu 
+verstehen 
+(s. de Garis-Davies, 
+EI Amarmna 
+2 Bl. 18 u. ö.). 
+So endende Treppenwangen 
+sind bei den 
+flachen Freitreppen vor den Häusern häufig (M 47,1, 4, 6 u. oft).
+
+<!-- Page 30 -->
+24 
+Porträts der Königin Nofret-ete: Das Klappaltarbild 
+Treppchen. 
+Auf dem Altare steht an 
+der Wand 
+das Kapellchen, dessen Tür' der Eintre- 
+tende sich öffnete, um das Altarbild, dem seine Anbetung gelten sollte, vor sich zu haben. 
+Seine Opfer und Blumen legte er auf der Altarfläche vor dem Bilde 
+nieder, 
+für die beim 
+Opfer nötige Sprengung” fand 
+er das erforderliche Wasser in dem neben dem Altare 
+ein- 
+gegrabenen Topf’, ganz wie die Opfernden im Tempel 
+es 
+in besonders 
+dafür bestimmten 
+langen rechteckigen Becken* zur Seite hatten. 
+Da die Gebete zur Sonnenscheibe und ihrem 
+Sohne, dem Könige, 
+wohl stets kniend 
+und mit erhobenen Armen verrichtet wurden’, 
+so 
+stand unser Bild auf dem niedrigen Altar gerade in rechter Augenhöhe vor dem 
+frommen 
+Beter. 
+So war unser Altarbild bis zur Verödung der Stadt der Sonnenscheibe 
+nur wenige 
+Jahre an dem ihm bestimmten Platze 
+täglich der Gegenstand gläubiger 
+Verehrung. 
+Ein 
+glücklicher Zufall und vor allem das hohe, feine Können des Künstlers, der es schuf, haben 
+ihm aber die dauernde andächtige Bewunderung kunstverständiger 
+später Geschlechter 
+ge- 
+sichert. 
+I Die beiden Bilder Anbetender auf den Innenseiten der Türflügel sind die einzigen freien, aber wahr- 
+scheinlichen Zutaten zu der zeichnerischen Wiederherstellung. 
+2 Für das Sprengen beim Opfer vgl. de Garis-Davies, El Amarna 
+ı Bl, 22 u. 2 Bl. 18, 
+3 In P 47,22 Raum 8 war der Topf noch an der in der Wiederherstellung angegebenen Stelle einge- 
+graben. 
+In den „tiefen“ Hallen, die auch (s. 0.) für Aufstellung von Altären in Frage kommen, finden sich häufig 
+solche Töpfe eingegraben, die wir schon längst (Mittlg. d. D. O.-G. Nr. 34 [Sept. 1907], S. 21/3 u. Abb. 14) als 
+für Sprengwasser bestimmt erkannt hatten, 
+4 Becken beim Altar im Tempel s. de Garis-Davies, EI Amarna 
+ı Bi. 25, 33 u. 2 Bl. 19. 
+5 S.z. B. de Garis-Davies, El Amarna ı Bl. 34, wo der Oberpriester der Sonnenscheibe vor deren Namen 
+und 
+denen des Königs und seiner Gemahlin in der beschriebenen Stellung betend dargestellt ist.
+
+<!-- Page 31 -->
+Anhang zum Klappaltarbild. 
+Zusammenstellung anderer Darstellungen der königlichen Familie. 
+j 
+Es wird nützlich 
+sein, zum Vergleich 
+mit dem 
+Bilde 
+der „Beschenkung 
+der Prin- 
+zessinnen“ hier eine Zusammenstellung 
+der übrigen Familiendarstellungen Amenophis’ 
+des 
+Vierten zu geben und die davon, welche nicht in der leicht einzusehenden 
+Veröffentlichung 
+der Wandbilder 
+aus den Gräbern 
+von Tell el-Amarna 
+von 
+N. de Garis-Davies gegeben 
+sind, möglichst auch abzubilden. 
+Dabei sollen 
+nur 
+die eigentlichen Familiendarstellungen, 
+auch die, bei denen das Königspaar 
+ohne 
+die Kinder „familiär“ 
+dargestellt 
+ist, aufgezählt 
+werden; Bilder, 
+auf denen 
+die königliche Familie 
+bei feierlichen Empfängen'!, Gebeten 
+im 
+Tempel?, großen Ausfahrten’, 
+Begräbnissen‘ und ähnlichen Haupt- und Staatsaktionen? 
+zu- 
+sammen auftritt, wollen wir dabei aber ausschließen. 
+Die. Darstellung von Liebkosungen ist bereits durch das oben (Abb. 10, S. 13) wieder- 
+gegebene Relief vertreten, 
+hier mag dazu nur noch bemerkt werden, 
+daß wie dort sogar 
+in Audienzszenen® 
+die kleinsten Prinzessinnen 
+auf dem Schoße 
+der Mutter herumspielend 
+abgebildet werden. 
+Diese Anhänglichkeit an 
+die Mutter geht bei den Kleinen so weit, daß 
+sie, wie ein aus 
+den Petrieschen Grabungen stammendes Reliefbruchstück (Abb. 17°) zeigt, 
+auf dem der König 
+in einer Laube 
+seine Gemahlin 
+auf wippendem Knie wiegt, selbst in 
+solchen Lagen ihren schwankenden Sitz nicht aufgegeben haben. 
+Dort 
+kniet die eine 
+auf 
+dem Schoß der Mutter, die andere hat etwas höher irgend eine Beschäftigung. 
+Hierher gehört 
+auch 
+die unfertige Gruppe des „küssenden Königs“ (Abb. 18°) aus 
+Haus P 48,2, von 
+der übrigens 
+im „Hause 
+des Werkmeisters“ P 47, 3 eine 
+zweite Aus- 
+führung 
+in etwa 2/„Lebensgröße 
+in Arbeit gewesen 
+sein 
+kann. 
+Wenigstens 
+deuten 
+dort 
+gefundene Bruchstücke aus grau-weißem Granit 
+darauf hin. 
+Wie der König seiner Gemahlin das Kinn streichelt, eine Liebkosung, die auch sonst 
+öfter (z. B. Abb. 26 auf S. 29) dargestellt wird, ist auf dem schon oben erwähnten Denkstein 
+des Berliner Museums (Abb. 6, S. 9) zu sehen. 
+Die Bekränzung des Königs (Abb. 19) durch seine Gemahlin, 
+die ihm einen breiten 
+Halskragen 
+aus Blumen umknüpft’, zeigt ein anderes schönes Berliner Stück, 
+das etwa ein 
+Bildhauermodell für eine Schranke zwischen zwei Säulen sein könnte. 
+Auch dies dürfte 
+ein 
+beliebter Vorwurf gewesen sein, von dem 
+es 
+auch Ausführungen 
+in Rundskulptur gegeben 
+hat. 
+Unter den Funden unserer Grabungen 
+finden 
+sich 
+nämlich 
+zwei Bruchstücke je einer 
+solchen Gruppe. 
+Das eine ist eine kleine Hand aus bemaltem weißen Kalkstein‘, die sicher 
+von einer Statuette herrührt, 
+in der der König in derselben lässigen Haltung wie hier den 
+Arm über die Stuhllehne 
+gelegt hatte. 
+Das andere ist ein ebenso, auch in gleicher Größe 
+ı Z. B. de Garis-Davies, EI Amarna ı Bl. 6. 
+2 Z,B. ebd. v Bl. 22,725. 
+3,2, Brebd. zBl. To. 
+4 Z. B. Legrain, Culte d’Atonou Bl. 10. 
+5 Z.B.de Garis-Davies 2 Bl. 37. 
+6 S. ebd. 6 Bl. 17. 
+7 Flinders Petrie, Tell el Amarna Bl. 1,16. 
+Die Fruchtschale rechts neben dem aus Papyrusstengeln 
+gebildeten Laubenpfosten ist (Flinders Petrie, Dec. art, [1895] S. 69) eine durch kreuzförmige Zwischenwände 
+geteilte Tonschale, 
+eine „Fächerschüssel“, wie wir solche in den Häusern noch gefunden haben (z. B. Berl. Mus. 
+Nr. 22117; vgl. die Abb. in Schäfer, Von äg. Kunst? S. 94). 
+8 Die kleine Dame auf dem Schoße des Königs ist übrigens nicht, wie öfter (Schäfer, Religion u. Kunst 
+von El-Amarna S. 44 u. in Ztschr. f. äg. Spr. 58 [1923], 140) gesagt wird, seine Gemahlin, 
+die über 
+der Stirn 
+doch eine Königsschlange tragen müßte. 
+x 
+9 Jetzt vollständig nachweisbar auf dem einen Stuhle aus dem Grabe des Tut-'anch-amun (Illustr. London 
+News v. 29. 9. 23 
+S. 562) und außerdem auf einem Schrein ebendaher (Illustr. London News v. 22 9. 23 S. 529). 
+10 Jetzt Berl. Mus. Nr. 22267, aus Haus Q 49,20. 
+DOG. 44. Borchardt: Nofret-ete. 
+4 
+a 
+&
+
+<!-- Page 32 -->
+26 
+Porträts der Königin Nofret-ete: Anhang zum Klappaltarbild 
+Abb. 2o. 
+Abb, ı7. 
+Familienbild, 
+Bemaltes Reliefbruchstück, 
+Abb. ı8. 
+Der König küßt eine 
+Prinzessin, 
+Kalksteingruppe. 
+Etwa 3g nat. Größe, 
+Kairener Museum. 
+Abb. 19. 
+Familienbild. 
+Die Königin bekränzt den König. 
+5]; nat, Größe, 
+Berl. Mus. Nr. 14511. 
+Abb, 18, 
+Abb. 22. 
+König 
+Abb. 20. 
+Familiengruppe. 
+mit Frau 
+und Tochter 
+lustwandelnd. 
+Weißer Kalkstein. 
+Abb. 21. Familiengruppe. 
+Königspaar lustwandelnd. 
+Bemalter Kalkstein. 
+Abb. 22. 
+Kön 
+yaar im Garten, 
+Buntes Reliefmodell, 
+Etwa 3 nat. Größe, 
+Berl. Mus. Nr. 15000, 
+Abb.
+
+<!-- Page 33 -->
+Andere Darstellungen der königlichen Familie 
+ausgeführter, scharf geknickter Arm! — Oberarm, Ellenbogen und Unterarm —, 
+der über 
+der Stuhllehne lag. 
+Beide gehören aber nicht zum gleichen Stück, sind vielmehr von 
+zwei 
+verschiedenen, bei denen der König einmal den rechten, das andere Mal den linken Arm auf- 
+gelegt hatte (S. auch oben S. 20, Anm. 6). 
+Zahlreich 
+kommen 
+Familienbilder, 
+die gemeinsame 
+Mahlzeiten 
+darstellen, 
+vor, 
+und 
+zwar anscheinend zweimal, 
+im Grabe 
+des Vorstehers des Frauenhauses 
+der Königin-Mutter 
+Abb, 23. 
+Abb. 23. 
+Hände von einer Gruppe. 
+Brauner Sandstein. 
+Etwa 5/, nat. Größe. 
+Berl. Mus. Nr. 20494. 
+Berl. 
+Abb. 24. 
+Arm von einer Familiengruppe. 
+Brauner Sandstein. 
+Etwa 
+5j: 
+nat. Größe. 
+Mus. Nr. 20495. 
+Huje? und 
+des Leibarztes Pentu’: Essen im Freien bei Gelegenheit des Besuches der Königin- 
+Mutter 
+Teje, ein anderes Mal 
+im Grabe 
+des 
+Palastvorstehers Ahmes“: 
+eine Mahlzeit 
+im 
+Speisesaal des Palastes. 
+Bei der letztgenannten 
+sitzt sogar während 
+des Essens 
+ein Kind 
+auf dem Schoße der Königin. 
+Trinkszenen fehlen auch nicht. 
+Im Grabe des Huje? wird als Gegenstück zu der ge- 
+“ 
+-= 
+o° 
+meinsamen 
+Mahlzeit im Freien 
+ein Trinkgelage im Freien abgebildet, 
+an dem 
+die gesamte 
+königliche Familie und der hohe Besuch, die Königin-Mutter nebst einer Tochter, teilnehmen. 
+Ferner wird im Grabe des Vorstehers des Frauenhauses Mery-re® eine Trinkszene im Garten- 
+kiosk 
+dargestellt, 
+bei 
+der 
+die Königin 
+und 
+die 
+Prinzessinnen den König 
+bedienen. 
+Die 
+Schale. 
+Hier haben 
+wir 
+also 
+das 
+Königin gießt ihm dabei Wein 
+durch 
+ein Sieb 
+in eine 
+Gegenstück zu dem schon ‘oben (S. 9, Abb. 5) erwähnten Reliefmodell 
+und 
+zu dem Denk- 
+stein aus Haus N 50,22 (Abb. 14 S. 18). 
+Wie 
+solche Trinkszenen 
+als Vorwürfe 
+für Fami ienbilder 
+beim 
+sich mit seinem Mädchen hat darstellen lassen, wie er sein Bier saugt. 
+Das lustwandelnde Königspaar scheint ein ganz besonders beliebter Vorwurf für Maler 
+und Bildhauer gewesen zu sein. 
+Bald wird im Grabe ( 
+Jetzt Berl. Mus. Nr. 22062, aus Haus O 49,12. 
+de Garis-Davies, El Amama 3 Bl. 4. 
+Ebd. 4 Bl. 10, 
+4 Ebd. 3 Bl. 34. 
+5 
+Übd. 3 BI. 6. 
+es Pa-ren-nefer® 
+6 Ebd. 2, Bl. 32. 
+oasobH. 
+de Garis-Davies, El Amama 6 Bl. 3. 
+Berl. Mus. Nr. 14122, 
+s. Amtl. Ber. 34 (1912/3) 143 Abb. 74. 
+gewöhnlichen 
+Volke 
+aussahen, zeigt uns der bekannte Denkstein eines syrischen Söldners im Berliner Museum’, der 
+das Königspaar 
+in
+
+<!-- Page 34 -->
+28 
+Porträts der Königin Nofret-ete: Anhang zum Klappaltarbild 
+enger Umarmung, von den Kindern begleitet, beim Spaziergang 
+abgebildet, 
+bald 
+wird 
+ein 
+solcher Spaziergang in Begleitung nur einer Prinzessin (Abb. 20') oder ohne 
+sie (Abb. 21°) 
+in Rundskulptur dargestellt. 
+Von solcher Gruppe stammen auch die in der Bildhauerwerkstatt 
+von 1911/12 gefundenen beiden ineinandergelegten Hände (Abb. 23) und wohl auch der kleine 
+Arm aus hellbraunem Sandstein (Abb. 24°). 
+Hierher gehört auch die Harzunterlage für eine 
+Metallziselierung, die das lustwandelnde Königspaar in zärtlicher Umarmung zeigt (Abb. 25‘). 
+Auch 
+das berühmte 
+bunte 
+Berliner Reliefmodell (Abb. 22°) würde 
+ich „Königspaar 
+Abb. 25. 
+Amenophis IV. mit seiner Frau lustwandelnd. 
+Harzunterlage für Metallziselierung, in Haus P 47,25 gefunden, 
+Etwa 
+1/, 
+nat. Größe, 
+Berl. Mus. Nr. 21684. 
+auf dem Spaziergang im Garten“ nennen, da der König“ hier wie auf dem oben genannten 
+Bilde aus dem Grabe des Pa-ren-nefer seinen langen Spazierstock benutzt, den der Ägypter 
+im Hause nicht zu tragen pflegt, und da die Königin ihm frische Blumen reicht. 
+Ausfahrten des Königspaares auf einem Wagen, 
+in dem sie noch die älteste Prin- 
+zessin mitnehmen, 
+die in kindlicher Spielerei 
+auf die Pferde haut, während 
+sich die Eltern 
+ı Flinders Petrie, Tell el Amarna Bl. 1,1 u. S. 30. 
+2 Nach einer im Kairener Altertümerhandel gesehenen bemalten Kalksteingruppe. 
+3 Beide jetzt im Berl. Mus. Nr. 20494 u. 05. 
+4 Jetzt Berl. Mus. Nr. 21684, vgl. Mittlg. d. D.O.-G. Nr. 55 (Dez. 1914) S. 28. 
+5 Berl. Mus. Nr. 15000. 
+6 Hier muß ich bemerken, daß ich nach wie vor den König dieses Reliefmodells nicht für Amenophis IV. 
+halte (s. Mittlg. d. D. O.-G. Nr. 
+[März 1917] S.9 u. dagegen Schäfer in Zeitschr. f. äg. Sp. 55 [1918] S. ı8) 
+und auch den von dem ohne 
+Töchterchen ausgehenden Paare (S. 26 Abb. 21) nicht. 
+Aber 
+das hat hier keine 
+Bedeutung, da es sich ja nur darum handelt, 
+die Vorwürfe der Familiendarstellungen, 
+die in dieser Zeit üblich 
+waren, zusammenzustellen.
+
+<!-- Page 35 -->
+Andere Darstellungen der königlichen Familie 
+29 
+küssen, sind zweimal im Grabe des Polizeiobersten Mahu! und wohl noch einmal in dem des 
+Palastvorstehers Ahmes® in sehr lebendigen Bildern uns überliefert. 
+Zuletzt sind noch zwei Bilder zu nennen, denen ich keine Namen zu geben weiß. 
+Das 
+eine vom Grabe des Vorstehers des Frauenhauses 
+der Königin-Mutter Huje’ 
+stellt 
+dar, wie 
+vier Prinzessinnen ihren Eltern mit langen Federwedeln Kühlung fächeln. 
+Es ist durch 
+die 
+sehr gute Wiedergabe der Haltung der Königin ausgezeichnet, 
+die mit dem Unterarm leicht 
+auf das Knie des neben ihr Sitzenden gestützt sich zu ihm wendet. 
+Am meisten bedaure 
+ich, daß sich der Vorwurf des fraglos am feinsten von allen 
+diesen 
+Familienbildern 
+ausgeführten großen Gemäldes‘, 
+das Flinders 
+Petrie 1891/92 
+in 
+seinem Haus Nr. 13 in Tell el-Amarna aufdeckte und für das Ashmolean-Museum zu Oxford 
+Abb. 26. 
+Zwei Prinzessinnen aus einem großen Familienbilde. 
+Malerei auf Gipsputz. 
+Etwa !/; nat. Größe. 
+Ashmolean Museum in Oxford. 
+rettete, wegen seiner Unvollständigkeit nicht feststellen läßt. 
+Auch die Bemühungen von de 
+Garis-Davies? haben leider nicht klären können, was der Inhalt dieses. Bildes war, das an- 
+scheinend einen sonst bei diesen Bildern der königlichen Familie noch nicht nachgewiesenen 
+Aufbau® zeigte. 
+In einer Halle saß auf einem Sessel der König rechts, ihm gegenüber war 
+auf niedrigem Kissen die Königin hockend dargestellt, zwischen ihnen die drei ältesten Töchter 
+und neben dem Kissen 
+der Mutter zwei jüngere. 
+Diese beiden sind vollständig erhalten 
+(Abb. 26) und sind wohl das Zierlichste und Reizvollste, was wir von ägyptischer Malerei, 
+nicht nur der Amenophiszeit, kennen. 
+de Garis-Davies, El Amarna 4 Bl. 20 u. 22. 
+2 Ebenda 3 Bl. 32 u. 32a, 
+de Garis-Davies, El Amarna 3 Bl. 18. 
+4 Flinders Petrie, Tell el-Amarna Bl. 1,12 u. S. 23. 
+S. Journ egypt. archaeol, 7 (1921) Bl. 1-4 u. S. 1—7. 
+Das oben 
+($. 27) herangezogene Bild 
+einer Familie 
+aus dem Volke hat im Aufbau 
+etwas Ähnlich- 
+keit mit dem Bilde 
+aus 
+Petrie’s 
+Haus 
+13. 
+Wollte man 
+beide 
+Bilder, 
+wie 
+ich 
+es 
+bei dem 
+Klappaltarbilde 
+getan habe, in Rundskulptur übersetzen, 
+so 
+erhielten wir Nachkommen 
+der bekannten Gruppen 
+aus dem alten 
+Reiche, bei denen der Mann auf hohem Stuhl, die Frau neben ihm aber ganz niedrig sitzt. 
+Solche Gruppen 
+fehlen auch im Neuen Reiche nicht. 
+ou.
+
+<!-- Page 36 -->
+Die Bunte Büste. 
+Als ich am 6. Dezember ı9ı2 
+bald nach der Mittagspause durch einen Zettel des 
+gerade die Aufsicht führenden Prof. Ranke eiligst nach Haus P 47, 2 (s. Abb. ı auf S. 2 u. 
+cm 100 
+{) 
+{ 
+? 
+3m 
+Grundstück und Werkstatt 
+des Oberbildhauers Thutmes, 
+P 47,1—3. 
+Maßstab 
+ı : 1000, 
+(74 
+GA 
+Abb. 29. 
+Früh 
+der bunten Büs 
+Gipsformerei 
+Modellkammer 
+e Aufstellung und Fundlage 
+in Haus P 47,2 Raum ı9. 
+£| 
+x Modellkammer 
+Gipsformerei + 
+“ 
+Abb. 28. 
+Das Bildhauerhaus P 47,2 von SW. gesehen. 
+Abb. 27, 28) gerufen worden war, 
+fand 
+ich in dem Raume 19 östlich der „breiten“ Halle 
+— Raum 
+14 — dicht hinter 
+der Tür (s. Abb. 29) bereits 
+die soeben zum Vorschein 
+ge- 
+kommenen Bruchstücke einer lebensgroßen farbigen Büste Amenophis’ IV.! vor. Gleich darauf in 
+nächster Nähe, etwas weiter in Raum 
+19 hinein, gefundene, äußerst zierliche und leicht ver- 
+ı Jetzt Berl, Mus. Nr. 21360, 
+s. Mittle. d. D. O.-G. Nr. 52 (Okt. 1913), Bl. 4 u. oben S. 6, Abb. 
+2.
+
+<!-- Page 37 -->
+Die bunte Büste: Fundbericht 
+— 
+Einstige Aufstellung 
+31 
+letzbare 
+Stücke 
+ließen 
+es 
+angezeigt 
+erscheinen, 
+sogleich einen der umsichtigsten Arbeiter, 
+unsern ersten Vorarbeiter 
+Mohammed Ahmed es-Senussi, hier allein arbeiten zu lassen 
+und aus nächster Nähe anzuweisen, gleichzeitig aber einen der jüngeren Herren mit der schrift- 
+lichen Aufnahme des Fortgangs der Arbeit zu beauftragen. 
+Indem wir uns durch den nur 
+etwa 
+1,10 m hoch liegenden Schutt allmählich gegen die Ostwand von Raum 19 vorarbeiteten, 
+kamen weitere Stücke von hohem Kunstwert heraus, die hier nicht einzeln erwähnt zu werden 
+brauchen. 
+Dann wurde wenig vor der Ostwand — 0,20 m davon, 0,35 m von der Nord- 
+wand — etwa in Kniehöhe vor uns zuerst nur ein fleischfarbener Nacken mit aufgemalten roten 
+Bändern bloß. 
+„Lebensgroße bunte 
+Büste der Königin“ wurde angesagt und niedergeschrie- 
+ben, die Hacke beiseite gelegt und mit den Händen behutsam weitergearbeitet. 
+Die nächsten 
+Minuten bestätigten das Ar 
+agte, über dem Nacken kam der untere Teil der Büste, unter 
+ihm die Hinterseite 
+der Königinnenperücke zum Vorschein. 
+Bis das neue Stück ganz vom 
+Schutte befreit war, dauerte es allerdings noch einige Zeit, da zuerst 
+ein nördlich dicht an- 
+iegender 
+Porträtkopf des 
+Königs vorsichtig geborgen werden mußte. 
+Dann wurde die bunte 
+Büste erst herau: ehoben und wir hatten das lebensvollste ägyptische Kunstwerk in Händen. 
+Es war fast vollständig, nur die Ohren waren bestoßen und im linken Auge fehlte die Ein- 
+age. 
+Der Schutt, auch der schon hinausgeschaffte, wurde sogleich durchsucht, zum Teil ge- 
+siebt. 
+Es fanden sich noch einige Bruchstücke der Ohren, die Augeneinlage nicht. 
+Erst viel 
+später sah ich, daß sie nie vorhanden gewesen ist. 
+Wie war es möglich, daß diese Büste so fast unversehrt erhalten geblieben ist, wäh- 
+rend 
+zwei Schritt 
+davon 
+die Büste 
+des Königs 
+in Stücke geschlagen und arg zugerichtet 
+lag? 
+Um diese Frage zu beantworten, muß man etwas weit ausholen und sich den Vorgang 
+des Verfalls der Stadt Amenophis’ IV. und des Hauses des „Oberbildhauers Thutmes“' ver- 
+gegenwärtigen. 
+In dessen Modellkammer wurde nämlich 
+die Büste gefunden. 
+Sein Grund- 
+stück lag westlich an der „Oberpriesterstraße“ an der Südecke einer nach Osten abzweigen- 
+den Seitenstraße. 
+In dem auf ihm errichteten Haupthause — es befand sich noch ein zweites 
+kleineres Wohnhaus auf diesem Grundstück — 
+lag östlich neben der „breiten Halle“, dem 
+Wohn- und Empfangszimmer, eine schmale Kammer (Raum 19) von 2,0x5,5 m Grundfläche, 
+von der „breiten Halle“ (Raum 19, s. Abb. 29) aus durch eine einfligelige Tür zugänglich. 
+In dieser Kammer standen einst auf einem Wandbord an der Längswand der Tür gegenüber 
+neben 
+andern 
+dort 
+verwahrten Modellen 
+die 
+beiden 
+bunten 
+Büsten 
+des Königs und der 
+Königin. 
+Nach dem Tode 
+des Königs 
+oder bei einer gewaltsamen gegen ihn gerichteten 
+Umwälzung wurde 
+die Büste 
+des Königs herabgerissen und in der Tür der Modellkammer 
+zertrümmert. 
+Die Büste der Königin blieb unbeachtet stehen, — vielleicht schlug man ihr nur 
+die Königsschlange an der Perücke ab 
+— 
+und stand so noch, als bei dem alsbald eintreten- 
+den Verzug der begüterten Bewohner der Stadt auch das Haus des Oberbildhauers Thutmes 
+verlassen wurde. 
+Sie fiel erst zu Boden, als das Wandbord, auf dem sie bis dahin gestanden 
+hatte, vermorscht oder von weißen Ameisen angegriffen, zusammenbrach. 
+Dabei überschlug 
+sie sich einmal und fiel mit der oberen glatten Fläche der Perücke verhältnismäßig weich 
+auf Nilschlammschutt, der, von Decke und Wänden herabgefallen, bereits den Boden inmitten 
+der Kammer bedeckt haben muß. 
+Sehr heftig kann der Aufschlag nicht gewesen sein, sonst 
+wäre wohl der dünne Hals gebrochen. 
+Die kleinen Verletzungen, 
+die die Büste beim Fall 
+davon trug, sind unbedeutend. 
+ı „Hsy ntr nfr hri-kt Sah Dhwti-ms“, dieser Name und Titel steht als Bezeichnung des Eigentümers auf 
+dem Bruchstück eines Elfenbeindeckels (jetzt im Berl. Mus. Nr. 21193), das in einer der Abraumgruben im Hofe 
+von P 47,2 gefunden wurde. 
+Ob der Eigentümer dieses Deckels auch der des Hauses und der Verfertiger der in 
+ihm gefundenen Kunstwerke war, läßt sich natürlich nicht beweisen, ist aber doch sehr wahrscheinlich,
+
+<!-- Page 38 -->
+Porträts der Königin Nofret-ete; Die bunte Büste 
+[$} 
+os 
+Als ich nach Mitternacht nach dem ersten Arbeitstage in der Modellkammer im Tage- 
+buch, das doch 
+stets 
+eine Beschreibung 
+der Funde geben soll, an 
+die bunte Büste 
+der 
+Königin kam, schrieb ich, gewiß nicht, um ein paar Minuten früher schließen zu können, nur: 
+„Beschreiben 
+nützt 
+nichts, ansehen 
+Heute möchte ich dasselbe wieder schreiben, 
+da ich 
+überzeugt bin, daß meine Worte den Eindruck dieses Kunstwerks nicht wiedergeben können, 
+und 
+daß selbst die farbige Wiedergabe (Bl. 2), so gut sie an sich sein mag, nicht die Lebendig- 
+keit und Zartheit des Originals verdeutlicht, sondern sie nur ahnen 
+läßt. 
+Andererseits wird 
+6 
+eine begeisterte Beschreibung, wie man sie von diesem Prachtstück ägyptischer Kunst zu geben 
+sich gedrungen fühlt, dem Leser leicht zu sehr den ganz persönlichen Eindruck aufdrängen, 
+den der Schreiber vor der Büste hatte, und etwas in sie hineinlegen, was andere Beschauer 
+vielleicht nicht finden. 
+Daher wähle ich, um ganz sachlich zu bleiben, die nüchterne Art und 
+Anordnung, die solche Beschreibungen in Museumsverzeichnissen zu haben pflegen, und bitte, 
+dabei die verschiedenen Abbildungsblätter, die die Büste von allen Seiten wiedergeben (Bl. 3—6), 
+sich vorzulegen. 
+Berl. Mus. Nr. 213001. 
+Bunte Büste der Königin Nofret-ete, der Ge 
+mahlin Amenophis’ IV. = Echnaton. 
+Weißer, etwas 
+ins Graue gehender, 
+nicht sehr harter 
+Kalkstein mit stellenweisem Gipsüberzug, vollständig bemalt. 
+Die Farben? haben nach An- 
+gaben von Prof. Rathgen folgende Zusammensetzung: 
+Blau: durch Kupferoxyd gefärbte, gepulverte Glasfritte; 
+Fleischton (hellrot): durch fein verteilten Rötel (Eisenoxyd) rosa gefärbtes feines Kalk- 
+spatpulver; 
+Gelb: 
+Auripigment (Schwefelarsen); 
+Grün: durch Kupferoxyd und Eisenoxyd gefärbte, gepulverte Glasfritte; 
+Rot: Rötel (Eisenoxyd); 
+Schwarz”: Kohle, mit Wachs‘ als Bindemittel; 
+Weiß°: Kreide (kohlensaurer Kalk). 
+Die Einlage, die das Innere des rechten Auges wiedergibt, scheint® aus 
+Bergkristall 
+zu sein, die Pupille dahinter aus braunschwarzem Holz (?). 
+Größte Höhe: 0,48 m. 
+Untere Breite: 0,195 m. 
+Die Erhaltung ist eine wunderbar gute. 
+An der Perücke 
+ist der sich aufrichtende 
+Teil der Königsschlange 
+abgeschlagen’, 
+rechts und links hinten 
+sind am 
+oberen scharfen 
+Rande zwei Stückchen herausgeschlagen, 
+an der linken Seite eine größere Scheibe des Gips- 
+1 Bereits veröffentlicht: 
+Ausschnitt, 
+nur das Gesicht, 
+in Mittlg. d. D. O.-G. Nr. 52 (Okt. 13), Abb. 19; 
+ganz in Erman-Ranke, Ägypten u. 
+pt. Leben Bl. 8 u. 9. 
+2 Gleichzeitig wurden 
+in demselben Bildhauerhause P 47,2 gefundene größere Stücke von grün-blauem 
+(Berl. Mus. Nr. 21197) 
+und tiefrotem Farbvorrat 
+(Berl. Mus. Nr. 21195) und blaue Farbreste in einem Tonnapf 
+(Berl. Mus. Nr. 21199) der gleichen Herkunft, der dem Bildhauer als Farbnapf gedient hatte, von Prof. Rathgen 
+untersucht. 
+Das 
+grünblaue 
+Vorratsstück 
+besteht 
+aus 
+einer 
+mit Kupfer gefärbten 
+Glasfritte 
+(Kupfersilikat), 
+das 
+dunkelrote 
+aus 
+Eisenoxyd; 
+die blauen Farbreste 
+im Napf bestehen 
+ebenfalls aus Kupfersilikat. — Auripigment 
+(Schwefelarsen), das im Gelb vorkommt, wurde in diesem Hause zufällig nicht gefunden, ist aber sonst als Farb- 
+vorrat in anderen Häusern häufiger aufgetreten. 
+3 Nur in den Wimpern und Brauen, die auf den Fleischton dünn aufgesetzt sind. 
+4 Durch Bestimmung des Schmelzpunktes 
+von 64—66° und den Geruch beim Verbrennen festgestellt. 
+Das Bindemittel der übrigen Farben ist mit großer Wahrscheinlichkeit als Gummi arabicum zu bezeichnen. 
+Tierischer 
+Leim oder Eiweiß sind jedenfalls nicht verwendet. — 
+Bei dem 
+wie 
+das Schwarz 
+auf andere Farbe aufgesetzten 
+Weiß lag die Vermutung von Wachs als Bindemittel, wie beim Schwarz, nahe. 
+Hier ist jedoch Wachs wahrschein- 
+lich nicht das Bindemittel. 
+5 Nur die aufgesetzte Trennungslinie der beiden Bindebandenden im Nacken. 
+6 Nicht näher untersucht, um keine Verletzungen hervorzubringen. 
+7 Anscheinend die einzige Verletzung durch Menschenhand. 
+Die übrigen sind durch den Fall der Büste 
+(s. oben S. 31) hervorgerufen.
+
+<!-- Page 39 -->
+Beschreibung: Farben — Erhaltung — Gesichtsbildung 
+33 
+überzuges abgesplittert; beide Ohren sind bestoßen, am rechten einige Bruchstücke jetzt wieder 
+angefügt. 
+Die Einlage des linken Auges fehlt, da aber keine Spur eines Bindemittels in der 
+Augenhöhle nachweisbar, auch der Hintergrund glatt und nicht etwa zur Aufnahme der Ein- 
+lage noch irgendwie ausgetieft ist, so ist es sicher, daß das linke Auge nie mit einer Einlage 
+gefüllt war. 
+Auf der rechten Schulter auch noch eine kleine Absplitterung; 
+außerdem 
+hin 
+und wieder kaum merkliche Kratzer im Gesicht, an der Nase usw. 
+An verschiedenen Stellen 
+Spuren heruntergelaufener 
+unreiner Feuchtigkeit, 
+vermutlich 
+von Regenwasser, 
+das verun- 
+reinigt 
+durch 
+das 
+bereits 
+undichte Dach 
+ablief und 
+die noch 
+auf ihrem Bord stehende 
+Büste traf. 
+Der 
+Kopf 
+ist, wie 
+bekanntlich 
+alle ägyptischen 
+Bildwerke 
+fast 
+ohne 
+Ausnahme, 
+geradeaus gerichtet. 
+Er sitzt auf schlankem, wie von der Last der hohen Perücke nach vorn 
+gebeugtem Halse, 
+an dem vorn 
+die beiden Kopfnickermuskeln, 
+von den unter dem Hals- 
+kragen sich abzeichnenden inneren Schlüsselbeinenden ausgehend, 
+sich kräftig herausheben. 
+Diese Halshaltung bringt es auch mit sich, daß vorn der Kehlkopf etwas stärker, als es bei 
+Frauen der Fall 
+zu sein pflegt, hervortritt, und daß hinten 
+die ersten Halswirbel 
+über 
+den 
+Schulterblättern schwach sichtbar werden. 
+Die Muskeln des Nackens und die der Halsseiten 
+sind so fein wiedergegeben, 
+daß man sie unter der zarten, 
+in gesundem Fleischton 
+gehal- 
+tenen Haut spielen zu sehen glaubt. 
+‚in den Ge- 
+sichtern ihrer Kunstwerke irgendeine Gemütsbewegung oder überhaupt eine Bewegung zum 
+Ausdruck zu bringen, dieses Gesicht ist aber der Inbegriff von Ruhe und Ebenmaß. 
+Von 
+vorn gesehen zeigt es völlige Spiegelgleichheit, 
+und trotzdem wird der Beschauer 
+nie im 
+Zweifel sein, daß er hier nicht irgendeine konstruierte Idealbüste, sondern das stilisierte, aber 
+Die äoyptischen Bildhauer haben so gut wie nie? 
+den Versuch gemach 
+8) 
+> 
+© 
+trotzdem durchaus ähnliche Abbild einer ganz bestimmten Person von scharf ausgeprägtem 
+Äußeren vor sich hat. 
+Es ist keineswegs ein regelmäßiges, noch weniger ein gewöhnliches 
+ägyptisches Gesicht, dessen länglichrunder Umriß von dem breiten, mehr bäurischen, der beim 
+Gesicht der Göttin Hathor häufig dargestellt wird, sich sehr unterscheidet. 
+Es ist eine Ge- 
+sichtsform, 
+die sich auch heute noch unter den Ägypterinnen 
+der besseren Klassen 
+findet, 
+womit aber natürlich nichts über die Rasse, der die Dargestellte angehörte, gesagt ist. Wenn 
+ich diese öfter gestellte Frage nach der Rasse beantworten sollte, so kann ich, der ich nicht 
+anthropologisch geschult bin, nur sagen, 
+daß ich in dem Gesicht nichts finde, was 
+ich an 
+Frauengesichtern in Ägypten nicht schon gesehen hätte. 
+Auffallend 
+niedrig 
+ist der Unterkiefer, 
+dessen 
+Seiten 
+fast wagerecht 
+laufen. 
+Der 
+Mund ist gerade, die Mundwinkel sind straff und jugendlich, die Lippen etwas vorspringend, 
+o- 
+ohne 
+aufgeworfen genannt werden 
+zu 
+können. 
+Das Rot 
+der Lippen geht bis zu einem 
+äußeren, wie aufgesetzten fadendünnen Rande, den man gelegentlich auch in der Natur an 
+Lebenden beobachten kann. 
+Die Wangen sind — hohl, wäre zuviel gesagt, aber jedenfalls 
+kann man 
+sie auch nicht voll nennen. 
+Sie erscheinen aber in dem Oberlicht, 
+in dem die 
+Bilder aufgenommen sind, und für das die Büste gear eitet worden 
+ist, etwas 
+flach und be- 
+schattet, da die Backenknochen merkbar hervortreten. 
+Die fein geformten Ohren scheinen 
+etwas mehr abzustehen, 
+als sie es in Wirklichkeit tun, da ihnen, wenn man die Büste von 
+vorn 
+sieht, jeder Hintergrund, 
+den Haare oder Kopfputz sonst bilden, 
+fehlt. 
+Die großen 
+Ohrlöcher, 
+die in dieser Zeit üblich waren, sind angedeutet. 
+Die Nase ist fast gerade, sie 
+hat nur eine schwache Welle auf der Mitte des Rückens. 
+Die Nasenlöcher sind innen mit 
+ı Der Zweck der Büste, die nur als Modell dienen 
+sollte, erforderte 
+es nicht, daß sich der Künstler der 
+großen Mühe unterzog, zwei Augeneinlagen aus Bergkristall zu schleifen. 
+2 Vielleicht in den Darstellungen des Gottes Bes. 
+DOG. 44. Borchardt: Nofret-ete. 
+5 
+a
+
+<!-- Page 40 -->
+34 
+Porträts der Königin Nofret-ete: Die bunte Büste 
+einem schwärzlichen Rot bemalt. 
+Merkwürdig 
+weit stehen 
+die mandelförmigen, 
+durch die 
+sonst üblichen langen Schminkstriche außen nicht verunzierten Augen voneinander, 
+die noch 
+dadurch, daß die inneren Augenwinkel nach unten gebogen sind, eine Spur schräg zu stehen 
+scheinen. 
+Die oberen Lider sind breit und schwer und durch eine einfache Modellierung, nur 
+durch 
+einen Strich, gegliedert. 
+Diesem Striche 
+folgt der Schwung des oberen Randes der 
+Augenhöhle und die sehr sicher aufgemalten Brauen, die wie die Wimpern mit Schwarz auf den 
+Fleischton aufgesetzt sind. 
+Die Linien unter den Augen, an den Nasen- und Mundwinkeln, die 
+z. B. auf dem Berliner Familienbilde bei der Königin (s. oben Abb. 8, S, ır) sich so stark be- 
+merklich machen, sind hier auch vorhanden, aber nur zart angedeutet und dann noch durch 
+die aufgetragene Farbe vielleicht nicht absichtlich gemildert. Überhaupt dürfen wir uns nicht 
+daß die Farbe doch manche Feinheiten, 
+die der Bildhauer dem Stein gegeben 
+verhehlen, 
+hatte, zugedeckt hat. 
+Die hinteren und oberen Teile des Schädels kann man unter der großen Perücke 
+weder sehen noch ahnen. 
+Es wäre daher ein verhängnisvoller Mißgriff, wollte man der hier 
+Dargestellten, 
+wie 
+es geschehen ist!, einen ebensolchen „Blasenschädel“ andichten, 
+wie ihn 
+Amenophis’ IV. Leiche und die oft in Kunstwerken wiedergegebenen kahlen® Schädel seiner 
+Töchter aufweisen. 
+Am besten zeigt die Seitenansicht Haltung und Eigenart dieses Kopfes. 
+Es ist daher 
+hier 
+ein auf photographischem Wege 
+hergestellter 
+Schattenriß 
+in scharfer 
+Seitenansicht 
+(Abb. 30) gegeben und daneben gleich ein ebensolcher (Abb. 31) nach einem unvollendeten 
+Kopfe’, 
+zweifellos 
+derselben 
+Person, 
+auch 
+aus 
+der Bildhauerwerkstatt 
+des Thutmes, 
+und 
+drittens ein alter Schattenriß des Kopfes der Königin Nofret-ete aus einem der Wandbilder* 
+in den Gräbern von Tell el-Amarna (Abb. 32). 
+Dieser dritte ist hinzugefügt, damit, falls die 
+Fundumstände für irgendjemand noch Zweifel an der Benennung unserer Büste übrig ließen, 
+er sie durch Vergleich mit einem weiteren beglaubigten Porträt der Gemahlin Amenophis’ IV. 
+beschwichtigen kann. 
+Zu bemerken ist dabei, daß die beiden rein mechanisch hergestellten Schattenrisse in- 
+sofern von 
+dem 
+alten zeichnerischen etwas 
+abweichen 
+müssen, 
+als sie die Überschneidung 
+des oberen Randes der Augenhöhle über die Stirn-Nasen-Linie wiedergeben, was der alte 
+Zeichner kaum andeutet, ganz so wie der Künstler des Klappaltarbildes es auch nur ganz 
+wenig angegeben hat (S. oben S. 10). 
+Ein Zweifel 
+an 
+der Benennung unserer Büste 
+als Gemahlin Amenophis’ IV., Königin 
+Nofret-ete, 
+ist nach dieser Nebeneinanderstellung gänzlich ausgeschlossen. 
+Man kann höch- 
+stens finden, daß die bestimmenden Einzelheiten der Büste in dem klein ausgeführten Porträt 
+auf dem Klappaltarbild etwas übertrieben dargestellt erscheinen, 
+so 
+die Neigung der Stirn- 
+Nasen-Linie, die auf dem Bilde entschieden zu scharf ist, und die Lippen, die aus den fast 
+geöffneten der Büste zu etwas vorspringenden geworden sind. 
+Ich bin geneigt, diese Mängel 
+des Altarbildes 
+auf die geringere Kunstfertigkeit 
+seines Künstlers 
+zu schieben, dem wir ja 
+auch sonst kleine Kunstfehler, wie z. B. das so merkwürdig sitzende Ohr (s. oben S. 10) nach- 
+gewiesen haben. 
+Daß aber auch derselbe Künstler 
+oder doch dieselbe Werkstatt dieselben Porträts 
+in verschiedenen Auffassungen geben kann, zeigt der Vergleich zwischen der bunten Büste 
+(Abb. 30) und dem 
+unfertigen Porträt der Königin (Abb. 31). 
+Diese ist fraglos in allem 
+1 Schäfer in Zeitschr. f. ägypt. Spr. 55 (1918), 14. 
+2 Die von Schäfer a. a. O. angeführten Beispiele für den „Blasenschädel“ der Gemahlin Amenophis’ IV. 
+zeigen sie stets mit irgendeiner Perücke, die allerhand verbergen und vortäuschen kann. 
+3 S. Mittlg. d. D. O.-G. Nr. 52 (Okt. 13), Abb. 20 u. S. 42. 
+4 S. N. de Garis-Davies, EI Amarna 4 Bl. 10.
+
+<!-- Page 41 -->
+Beschreibung: Gesichtsbildung — Kopfform — Tracht 
+35 
+gröber, trotzdem die großen Linien dieselben sind. 
+Ob das bei völliger Fertigstellung noch 
+gemildert worden wäre, wage ich nicht zu behaupten, möchte es aber angesichts der völligen 
+Gleichheit von Prinzessinnenporträts aus verschiedenen Werkstätten fast annehmen. 
+Es tut ja aber auch 
+nichts 
+zur Sache, ob dies unfertige Porträt 
+noch 
+verfeinert 
+worden wäre oder nicht, jedenfalls 
+ist das fertige bunte Porträt 
+das feinste und durch- 
+gearbeitetste, 
+das ich kenne. 
+Alle Einzelheiten 
+an ihm gehen so zusammen, 
+daß man das 
+Leben unter 
+seiner 
+fein gespannten Haut 
+zu sehen glaubt, namentlich zu Zeiten, in denen 
+etwa noch 
+ein Lichtschein im Auge den 
+Blick lebendig 
+macht. 
+Dann 
+pflegt auch 
+die 
+selbst 
+auf den an solche Dinge Gewöhnten doch stets fremd wirkende hohe Perücke mit 
+ihrer 
+stilisierten Form 
+nicht 
+zu 
+stören, man 
+sieht dann eben nur das, was jeder Künstler 
+jeder Zeit, wenn 
+auch 
+in seiner Art, ebenso wiedergegeben 
+hätte wie unser 
+alter Meister. 
+Abb. 30. 
+Schattenriß 
+Abb. 31. 
+Schattenriß 
+Abb. 32. 
+Schattenriß 
+der bunten Büste der Königin. 
+des unfertigen, mit Verbesserungen 
+aus einem unfertigen Wandbilde 
+versehenen Kopfes der Königin, 
+im Grabe des Pentu in Tell el-Amarna.t 
+Auf der einen unserer Abbildungen (Bl.6 r.) ist übrigens der Versuch gemacht worden, 
+den Eindruck der hohen Perücke etwas zu mildern, indem der Kopf etwas von unten auf- 
+genommen 
+wurde, 
+etwa von 
+einem Standpunkte 
+aus, der dem 
+zu 
+einer Königinnenstatue 
+neben einer der Grenzstelen® Ansteigenden entsprechen würde. 
+Dadurch wirkt der Perücken- 
+aufbau nicht mehr so mächtig und das über den Beschauer hinwegblickende Gesicht erhält 
+etwas Hoheitsvolles, 
+um 
+nicht zu sagen Hochmütiges. 
+Die Büste wird auf diesen Anblick 
+wohl nicht gearbeitet worden sein, ist aber sicher oft so angesehen worden und hat dabei 
+gewiß ihren Eindruck nicht verfehlt. 
+Die Tracht 
+ist die übliche 
+der Königin. 
+Über dem weißen hemdartigen Gewande 
+trägt sie als oberen Abschluß einen breiten Halskragen, den man sich aus Gold — gelb — 
+mit Einlagen aus Halbedelsteinen — Malachit, grün; Lapis lazuli, blau; Karneol, rot — 
+zu 
+denken hat, und das einen nach ägyptischer Weise gebundenen Kranz aus Blütenblättern und 
+Früchten vorstellt. 
+Der obere sparrengeteilte Streifen entspricht dem Bindestreifen des Kranzes, 
+darunter 
+folgen eine Reihe von Blütenblättern 
+der Nymphaea 
+caerulea, dann Früchte von 
+Mimusops Schimperi und unten wieder Blütenblätter von Nymphaea caerulea. 
+Die Schluß- 
+stücke des Halsschmucks, 
+die man 
+auf dem Rücken erwarten sollte, sind nicht dargestellt. 
+ı de Garis-Davies, El-Amarna 4 Bl, 10. 
+2 Vgl. N. de Garis-Davies, El Amarna 5 Bl. 40, 41 u, 43. 
+| 
+3
+
+<!-- Page 42 -->
+26 
+Porträt der Königin Nofret-ete: Die bunte Büste 
+60} 
+Die hohe Perücke der Königin, bei der die blaue Farbe nur andeuten soll, daß die 
+Königin wie jedes göttliche Wesen Haare von Lapis lazuli hat (s. oben S. 6, Anm. 2), ist 
+ähnlich 
+der der Könige!. 
+Der untere 
+breite Saum 
+des goldgelben Haarbeutels, 
+aus dem 
+hinten die Enden 
+der roten Bindebänder, 
+leicht gewellt und in der Darstellung durch eine 
+weiße Linie getrennt, herabfallen, umschließt dicht die Stirn. 
+Die scharf aufgesetzte Perücke 
+drückt noch 
+den weichen Teil des Haarbeutels über den breiten Saum herab, sodaß 
+er in 
+der Stilisierung stabartig den unteren Perückenrand begleitet. 
+An den Schläfen ist der Haar- 
+beutel besonders 
+tief heruntergedrückt. 
+Bei der Königsperücke 
+steht 
+hier das Schläfenhaar 
+fast halbkugelig heraus, 
+bei der der Königin 
+tritt 
+es 
+nicht 
+seitlich 
+hervor’. 
+Hier ist das Haar nur glatt blau gemalt, die Farbe mit der- 
+ben 
+Strichen 
+rauh 
+aufgesetzt; 
+ich kenne 
+aber 
+zwei Beispiele von 
+Perücken 
+eben derselben Königin, 
+die das Haar nach ägyptischer 
+Darstellungsart besser wiedergeben. 
+Ich hatte sie mir im Frühjahr 
+1914 für die vorliegende Veröffentlichung in der Absicht angemerkt, 
+sie später in photographischer Wiedergabe abzubilden. 
+Da ich diese 
+Abb, 33. 
+Königinperücke 
+mit Angabe gedrehter 
+Löckchen, 
+einer Beschreibung und einem 
+rohen Handriß begnügen. 
+Die eine 
+Aus einem Wandbilde 
+im Prinzessinnengrabe, 
+bisher nicht in der Lage war zu machen, muß ich mich leider mit 
+Perücke sitzt auf einer Statue 
+der Königin im Museum 
+zu Kairo’ 
+und hat die geringelten Löckchen, wie sie die meisten Königsperücken 
+zeigen, die andere (Abb. 33) auf einem recht zerstörten Wandbilde 
+im Prinzessinnengrabe* hat die gedrehten, ziegelartig in senkrechten 
+Reihen 
+gestellten Löckchen, 
+die sonst 
+bei langen Frauenperücken 
+üblich sind°. 
+Wie die Form der Perücke, die man am ehesten einem um- 
+gestülpten Getreidemaß, wie sie in Ägypten heute üblich sind, ver- 
+gleichen könnte, aus Haar aufgebaut worden ist, kann ich nicht sagen; 
+es mag innen ein Drahtgestell® oder irgendeine Polsterung” gesteckt 
+haben, die die Form hielten. 
+Auch ist nicht notwendig anzunehmen, 
+daß die scharfe Kante, wenn sie auch zurechtgepreßt werden konnte, 
+in Wirklichkeit ebenso scharf gewesen sein wird, wie sie in der Stili- 
+sierung des Bildhauers 
+erscheint. 
+Die Höhe 
+ist übrigens nicht so 
+een 
+ungeheuer, wie sie auf den ersten Blick zu sein scheint. 
+Sie würd 
+18. nachchristl. Jahrhunderts. 
+vorm, nach 
+der Gesichtshöhe 
+ungefähr berechnet, 
+nicht 
+höher 
+als 
+15— 16cm sein, d.h. so hoch wie ein heute üblicher hoher Seidenhut; 
+das ist also nur etwa zwei Drittel der Höhe, die wir z. B. an Haartrachten aus der zweiten 
+Hälfte des 18. nachchristl. Jahrhunderts (Abb. 34) beobachten können. 
+Diese hohe Haartracht, die auf einem nicht unterschriebenen Schabkunstblatt aus der 
+Zeit um 1780 abgebildet ist, bietet auch noch in anderer Beziehung ein Vergleichsstück zu 
+o® 
+ı S. oben S. 6, Anm. 3. 
+2 Eine hölzerne Frauenstatuette 
+des Mittleren Reiches 
+aus Assiut, 
+die ich im Januar 1914 
+bei dem 
+Händler Tano in Kairo sah, 
+hatte auch kugelig heraustretende Haare an den Schläfen. 
+3 1914 in Saal ] im nördlichen Schrank an der Ostwand. 
+4 Im großen Saal (f bei Baedeker 1913 
+S. 221) 
+links, westlich 
+vom 
+Eingang. 
+Hier kann ich auch 
+gleich 
+ein Fragezeichen 
+ausmerzen, 
+das 
+bei Baedeker 1913 S. 222 
+bei Beschreibung dieses Saales steht. 
+Das 
+Bild an der linken Wand stellt nicht die Klage an der Bahre der Prinzessin (Merit-aton) 
+dar, sondern die weh- 
+klagende Königsfamilie vor der Statue der verstorbenen Prinzessin 
+unter 
+einem blumengeschmückten Baldachin, 
+ganz wie wir es auch aus dem Grabe der Maket-aton (Legrain, Culte d’Atonou Bl. 10) kennen. 
+S. oben Abb. 7 S. ıı. 
+6 Vgl. die „arcelets“ in den hohen „Birnen“-Frisuren 
+aus dem Ende 
+des 
+16. nachchristl. Jahrhunderts. 
+Etwa wie in den hohen Frisuren aus dem Ende des 18. nachchristl. Jahrhunde: 
+ö 
+Aus Max von Boehn, Bekleidungskunst und Mode, mit 135 Abbildungen. Delphin-Verlag, München. 
+u 
+os
+
+<!-- Page 43 -->
+Beschreibung: Tracht: Perücke. — Zweck der Büste 
+37 
+unserer Königinperücke. 
+Sie wird, wenn 
+sie auch gewiß durch ein inneres Gerüst in ihrem 
+Aufbau gut gesichert sein wird, um sie auch augenfällig wahrscheinlicher zu machen, durch 
+ein umgelegtes Band zusammengehalten. 
+Ganz dasselbe haben auch die alten ägyptischen 
+Künstler, der Haarkünstler wie der Bildhauer, für nötig befunden. 
+Etwa in halber Höhe wird die Perücke nämlich durch einen festen goldenen Reif mit 
+Halbedelsteineinlagen bandartig zusammengehalten. 
+Er zeigt zwischen den gelb gemalten Gold- 
+stegen abwechselnd 
+breite 
+rote (Karneol) 
+und grüne (Malachit) Felder zwischen schmalen 
+blauen (Lapis lazuli) Streifen. 
+Den Schluß 
+des Bandes 
+hinten 
+bildet ein Karneolknopf mit 
+zwei seitlich stehenden Papyrusdolden. 
+Unter dem Schluß kommen merkwürdigerweise drei 
+Bandenden hervor, deren mittleres tropfenförmige Anhänger als unteren Abschluß zeigt. Vorn 
+an diesem Reif erhebt sich die Königsschlange, deren Schwanz scharf geknickt! auf der Ober- 
+Abb. 35. 
+Königin Teje als Sphinx 
+mit der Königinperücke, 
+Sedeinga?, 
+seite der Perücke verläuft. 
+Dieser ganze Reif mit der Königsschlange und dem soeben beschrie- 
+benen hinteren Schluß 
+ist ein bekanntes, 
+oft abgebildetes königliches Abzeichen, 
+das uns in 
+dem berühmten Diadem des Königs Entef im Leydener Museum? auch in Wirklichkeit 
+er- 
+halten ist. 
+Die eben beschriebene Königinperücke, 
+mit der die Königin Nofret-ete 
+sehr häufig 
+erscheint, läßt sich übrigens schon unter ihrer Vorgängerin, der Königin Teje, der Gemahlin 
+Amenophis’ III. nachweisen. 
+Im Tempel von Sedeinga in Nordnubien ist sie auf dem Oberteil 
+einer Scheintür 
+als Sphinx mit dieser Perücke dargestellt (Abb. 35). 
+Vor und nach diesen 
+beiden Königinnen kenne ich kein Beispiel dieser Königinperücke, ich möchte aber annehmen, 
+daß sie so alt ist wie die ihr entsprechende hohe Königsperücke‘, 
+und 
+daß wir nur zufällig 
+bisher keine anderen Beispiele als die aus dem Ende der 18. Dynastie von ihr kennen. 
+Über den Zweck der Büste ist kaum etwas zu sagen nötig. 
+Sie ist in der Kammer 
+gefunden, 
+in der der Oberbildhauer Thutmes 
+viele seiner Modelle aufbewahrt hat. 
+Ihr Zu- 
+schnitt zeigt, daß sie nicht als einzeln gefertigter Teil einer ganzen Statue gedacht war, die 
+linke Augenhöhle, für die der Einsatz, da er nach dem rechten Auge gegengleich herzustellen 
+war, 
+der überflüssigen Arbeit wegen 
+nie hergestellt zu werden brauchte, 
+ist leer gelassen, 
+kurz alles zeigt deutlich, daß das Stück ein Modell ist, nach dem in der Werkstatt, die mit 
+I Auch dieser 
+in Wirklichkeit unmögliche Knick deutet darauf hin, daß die scharfe Kante der Perücke 
+nur auf die Stilisierung zurückzuführen ist. 
+> Links Ausschnitt aus einer Aufnahme der Expedition der University of Chicago, rechts dasselbe nach 
+DADGan82ur 
+3 S. Boeser, Denkmäler zw. AR u. MR u. des MRs im Museum zu Leiden, 2, Abt. Bl. 18. 
+4 Ältestes 
+bis jetzt bekanntes Beispiel 
+aus 
+der Zeit des Königs Kames 
+(s. v. Bissing, Grabfund 
+der 
+18. Dyn., Bl. 4).
+
+<!-- Page 44 -->
+Porträts der Königin Nofret-ete: Die bunte Büste 
+[6%e) 
+39 
+Arbeit an Figuren der Familie Amenophis’ IV. reichlich bedacht war, gearbeitet werden sollte, 
+das also entweder der Meister selbst gefertigt oder von einem anderen Künstler als Vorbild 
+bekommen hat. 
+Daß übrigens nach der Modellbüste 
+in der Werkstatt des Thutmes auch gearbeitet 
+worden ist, zeigt unter anderem der ebenfalls in der Modellkammer gefundene, früher (Abb. 31 
+S. 35) bereits zum Vergleich herangezogene 
+unfertige lebensgroße Kopf der Königin', 
+an 
+dem Verbesserungen nach der Modellbüste — 
+z. B. die Auszeichnung der zu stark geratenen 
+Wangen — vorgezeichnet sind. 
+Der Schnitt der Büste ist der sich aus ihrem Gebrauch ergebende. 
+Eine Anzahl von 
+Modellbüsten 
+derselben Zeit, wie z.B. 
+die beiden Amenophis’ IV. 
+in Paris und Berlin und 
+eine kleinere kopflose aus unserer Werkstatt?, sind unten, 
+etwas tiefer wie die Königinnen- 
+büste, grade abgeschnitten. 
+Bei ihnen kam 
+es dem Künstler auch darauf an, den ganzen 
+Verlauf des breiten Halskragens, und wie er auf Schultern und Brust aufliegen soll, zu zeigen. 
+Hier bei dem schmalen Halskragen war ein so breites und tiefes Ausgreifen nicht nötig, er 
+konnte die Büste also kürzer und schmäler abschneiden. 
+So entstand diese Büstenform, die 
+sich übrigens auch an späten Beispielen findet. 
+Zum Schluß müßte 
+auch 
+ein Wort 
+über 
+den „Kunstwert“ 
+der Modellbüste 
+gesagt 
+werden. 
+Ich habe 
+mit 
+vielen deutschen Kunstkennern und Bildhauern vor ihr gestanden und 
+mit vielen über 
+sie gesprochen. 
+Ein irgendwie herabsetzendes Urteil habe ich nie gehört, 
+wohl aber 
+oft Ausdrücke der Begeisterung. 
+Dem einen war sie der höchste Ausdruck alt- 
+ägyptischer 
+Kunst, dem 
+andern 
+ging sie sogar 
+über 
+diese zeitliche und örtliche Grenze 
+hinaus, ein Dritter hielt sie für eins der großartigsten Werke, dem aber doch das, was er 
+„Qualität“ nenne, fehle, wobei ich leider trotz eifrigen Bemühens nicht feststellen konnte, was 
+er unter Qualität verstanden wissen wollte. 
+Alle diese Äußerungen von Leuten, denen ein jeder 
+Kunstverständnis zugestehen muß, sind subjektiv, und wenn ich dem Leser hier etwas über 
+den Kunstwert der Büste sagen würde, so wäre es ebenso subjektiv, 
+nur daß ich nicht mit 
+dem Gewicht sprechen könnte wie jene. 
+Vor diesem Kunstwerk wird eben jeder, der Gefühl 
+für Kunst hat, seine eignen Empfindungen haben, und ich mag die meinen niemandem 
+auf- 
+drängen. 
+Ich beschränke 
+mich 
+daher auf den 
+Ausruf aus dem Tagebuch: 
+„Beschreiben 
+nützt nichts, ansehen!“ 
+Dazu sind die hier beigegebenen Blätter da, oder noch besser die 
+bunte Büste selbst. 
+ı Berl. Mus. Nr. 21352; vgl. Mittlg. d. D. O.-G. Nr. 52 (Okt. 1913), Abb. 20. 
+2 Berl. Mus, Nr. 21217, im Westteil des Hauses des Thutmes gefunden.
+
+<!-- Page 45 -->
+Anhang zur bunten Büste. 
+Geschichtliches über die Königin Nofret-ete. 
+_Es dürfte erwünscht sein, hier in kurzer Zusammenstellung auch 
+das zu 
+finden, was 
+man Geschichtliches über die Königin Nofret-ete heute weiß. 
+Sie war wie ihre Schwiegermutter und Vorgängerin auf dem Throne beider Länder, 
+die Königin Teje', „bürgerlicher“ Herkunft. 
+Ihr Vater war Eje, der „Wedelträger zur Rechten 
+des Königs, wirklicher Schreiber 
+des Königs, den 
+er 
+liebt, Vorsteher 
+aller Rosse seiner 
+Majestät, Erster der Großen und Freunde des Königs“, der durch die Heirat seiner Tochter 
+mit dem Könige den Titel „Vater des Gottes“, 
+d.h. Schwiegervater 
+des Königs’, erhielt, 
+einen Titel, der ihm später bei seiner Thronbesteigung als König Eje neben der Macht 
+als 
+einziges Recht auf den Thron galt. 
+Ihre Mutter war die „Amme der hohen Gemahlin 
+des 
+Königs Nofret-ete, 
+die die Königin aufzog, 
+die vom Könige Geschmückte Ty“. 
+Ihr Vater 
+war also der oberste Führer der Streitwagentruppe, oder mit einem richtig zu verstehenden 
+kürzeren Ausdruck ein Kavalleriegeneral. 
+Über seine Abstammung ist nichts bekannt, er mag 
+Ägypter gewesen sein, oder auch irgendein asiatischer Kriegsgefangener, der sich in ägypti- 
+schen Diensten emporgearbeitet hat. 
+Will 
+also jemand in der Gesichtsbildung 
+der bunten 
+Büste irgendwelchen asiatischen, unägyptischen Einschlag sehen, ein Beweis dagegen wird aus 
+dem geschichtlich Bekannten ihm nicht 
+vorgehalten werden können. 
+Eje und Ty haben außer der Nofret-ete jedenfalls noch eine Tochter namens Benret- 
+mut gehabt, die gelegentlich mit den anderen Mitgliedern der Familie im Palaste des Königs 
+dargestellt erscheint. 
+Nofret-ete wurde, als Amenophis’ IV. noch sehr jung war, 
+von 
+ihm 
+auf den Thron erhoben, man könnte sich auch denken, daß ihr Vater 
+als mächtiger Trup- 
+penführer sie seinem jungen Könige zur Gemahlin gab. 
+Als der Hof im 4. Jahre des Königs 
+— etwa 1371 v.Chr. — nach Tell el-Amarna übersiedelte, 
+hatte 
+sie dem Könige bereits 
+mehrere Töchter geboren, im Ganzen beschenkte sie ihn mit sechs Prinzessinnen. 
+Von diesen 
+starb die älteste, die jung mit einem 
+nur 
+kurze Zeit regierenden Mitkönig. Amenophis’ IV. 
+verheiratet wurde, vor ihren Eltern, 
+ebenso die zweite. 
+Die dritte wurde die Gemahlin des 
+Nachfolgers und Bruders (?) Amenophis’ IV., des Königs Tut-“anch-amun. 
+Über das Schick- 
+sal der drei jüngsten Töchter der Nofret-ete kann ich nichts sagen. 
+Wie lange die Königin selbst gelebt hat, ist unbekannt, wahrscheinlich hat 
+sie ihren 
+früh — um das Jahr 1357 v. Chr. — verstorbenen Gemahl überlebt, und 
+es 
+ist nicht 
+un- 
+möglich, daß sie die Königin von Ägypten war, die den Hethiterkönig nach dem Tode ihres 
+Gemahls um einen seiner vielen Söhne bat, der König 
+in Ägypten werden 
+und 
+ihr helfen 
+sollte, die Dynastie fortzusetzen®. 
+Das ist es, was wir vom 
+zeitlichen 
+Verlauf ihres Lebens 
+und von 
+ihren Familien- 
+beziehungen heute wissen; es ist wenig und doch mehr wie von 
+den meisten 
+ägyptischen 
+ı S. Borchardt, Porträtkopf der Königin Teje, S. 29. 
+j 
+2 S. Borchardt, Der ägypt. Titel „Vater des Gottes“ 
+als Bezeichnung 
+für „Vater oder Schwiegervater 
+des Königs“ 
+in d. Sitzgsber. d. Sächs. Ges. d. W. 57, S. 254fl. 
+Zu den damals gegebenen Beispielen kann ich 
+jetzt noch 
+eines 
+aus 
+der Ptolomäerzeit 
+hinzufügen. 
+Ptolemäus IX. Euergetes II. nennt 
+(L. D. 4, 33d) seinen 
+Schwiegervater Ptolemäus V. Epiphanes auch „Vater des Gottes“, 
+_ 
+Ir, 
+y 
+ß 
+E 
+ee: 
+3 S. jetzt Zimmern 
+u, Friedrich, Der Briefwechsel zw. Subbiluliuma$ und der Witwe des Bib/phururias 
+(d. i. Amenophis IV?), in der Zeitschr. f. Assyriologie 35 (1923) S. 37. 
+| 
+| 
+A
+
+<!-- Page 46 -->
+40 
+Porträts der Königin Nofret-ete: Anhang zur bunten Büste 
+Königinnen. 
+Auch haben wir von ihr wohl von allen Beherrscherinnen Ägyptens die meisten 
+Darstellungen. 
+Abgesehen von den sonst auf uns gekommenen Bildern und Skulpturen von 
+ihr ist sie in den Wandbildern der Gräber der Prinzessinnen und der Großen im Gebirge von 
+Tell el-Amarna wohl in jedem des öfteren abgebildet. 
+Wir wissen aus diesen Quellen', daß 
+sie an allem, was 
+der König tat, an Entgegennahme von Tributen, an feierlichen Empfängen, 
+an Andachten und Opfern im Tempel oder bei den Grenzstelen 
+des Stadtgebiets, an großen 
+feierlichen Ausfahrten usw. usw., kurz bei allen 
+öffentlichen Regierungshandlungen 
+teilnahm. 
+Ihr Name fehlt selten neben den Namen des Königs; 
+beider Namen 
+werden 
+mit dem 
+der 
+Sonnenscheibe, deren Kinder 
+sie ja sind, zusammen angebetet. 
+Die Stellung der Königin 
+war also der 
+des Königs 
+so 
+gut wie 
+gleich geachtet. 
+Das 
+scheint 
+auch 
+bei ihrer 
+Vor- 
+gängerin, der Königin Teje, der Fall gewesen zu sein, ist aber sonst vorher oder nachher, 
+wenn man von wirklich regierenden Königinnen absieht, nicht wieder zu belegen. 
+Aus diesem 
+äußerlichen Hervortreten der Königin aber auf ihre tätige Mitwirkung 
+bei den Regierungs- 
+geschäften 
+oder bei den religiösen 
+Bestrebungen 
+ihres königlichen Gemahls 
+zu 
+schließen, 
+scheint mir doch etwas gewagt, namentlich wenn man die andere — oder vielleicht einzige — 
+Seite ihres Wesens betrachtet, 
+die sich in den vielen Familiendarstellungen, die ja im ersten 
+Anhange zusammengestellt sind, zeigt. 
+Dort sieht man sie stets nur als liebende Gattin und 
+zärtliche Mutter. 
+Danach kann man sich wohl nun 
+ein Bild von der Königin Nofret-ete machen. 
+1 S. hauptsächlich N. de Garis-Davies, El Amarna ı—6 u. Legrain, Culte d’Atonou.
+
+<!-- Page 47 -->
+Porträts der Königin Nofret-ete 
+Blatt ı 
+EIBTER 
+ine 
+Be 
+REEL 
+ana 
+en 
+anna 
+nennen 
+te 
+Verlag: J. C. Hinrichs, Leipzig 
+u ea
+DAS KLAPPALTARBILD 
+Nach einer von A. Bollacher übermalten Photographie
+
+<!-- Page 48 -->
+*Page 48*
+
+<!-- Page 49 -->
+ie Zinsen — 
+> 
+Porträts der Königin Nofret-ete 
+ann An 
+AAN 
+NET 
+TEEN 
+estellt in der Graphis 
+stalt Ganymed, 
+Berlin 
+Rechte Seite
+
+<!-- Page 50 -->
+*Page 50*
+
+<!-- Page 51 -->
+>= 
+— —— 
+b 
+on 
+= 
+e 
+B 
+® 
+a 
+Porträts der Königin Nofret-ete 
+Blatt 3 
+Vorderansicht
+
+<!-- Page 52 -->
+*Page 52*
+
+<!-- Page 53 -->
+Porträts der Königin Nofret-ete 
+Blatt 4 
+BÜSTE DER KÖNIGIN NOFRET-ETE 
+Linke Seite 
+hs, 
+Leipzig 
+N 
+{ 
+a 
+2 
+i 
+1 
+bi
+
+<!-- Page 54 -->
+*Page 54*
+
+<!-- Page 55 -->
+Porträts der Königin Nofret-ete 
+Blatt 5 
+1 
+1 
+BÜSTE DER KÖNIGIN NOFRET-ETE 
+Hinteransicht
+
+<!-- Page 56 -->
+*Page 56*
+
+<!-- Page 57 -->
+EN 
+NND, 
+= 
+are. 
+uayasa3 
+yIoA 
+uoA 
+ge 
+a 
+I1lA-139ION 
+NIDINON 
+IA 
+I1SNI 
+Blatt 6 
+EEE 
+Porträts der Königin Nofret-ete
+
+<!-- Page 58 -->
+*Page 58*
+
+<!-- Page 59 -->
+*Page 59*
+
+<!-- Page 60 -->
+*Page 60*

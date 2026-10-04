@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="gold3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fde68a" />
+    </linearGradient>
+    <linearGradient id="talatatGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <filter id="shadow3" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="900" fill="url(#bg3)" />
+
+  <!-- Header -->
+  <rect x="50" y="30" width="1100" height="90" rx="14" fill="#1e293b" stroke="#f59e0b" stroke-width="2" filter="url(#shadow3)" />
+  <text x="600" y="68" text-anchor="middle" font-family="'Sarabun', Arial, sans-serif" font-size="26" font-weight="bold" fill="url(#gold3)">
+    วิศวกรรมหินทาลาทัต: จากการรื้อถอนทำลาย สู่การต่อภาพจิ๊กซอว์ดิจิทัลแห่งวิหารคาร์นัก
+  </text>
+  <text x="600" y="98" text-anchor="middle" font-family="'Sarabun', Arial, sans-serif" font-size="15" fill="#94a3b8">
+    มหากาพย์ทางสถาปัตยกรรมและเทคโนโลยีคอมพิวเตอร์ยุคบุกเบิก (Chevrier 1938 &amp; Redford ATP 1979)
+  </text>
+
+  <!-- Upper Section: The Anatomy of a Talatat Block -->
+  <g transform="translate(60, 150)">
+    <rect width="1080" height="280" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow3)" />
+    
+    <text x="40" y="40" font-family="'Sarabun', sans-serif" font-size="20" font-weight="bold" fill="#38bdf8">
+      1. มิติทางกายภาพและนวัตกรรมมาตรฐานของ "หินทาลาทัต" (Talatat Architecture)
+    </text>
+
+    <!-- 3D Block Illustration -->
+    <!-- Front Face -->
+    <polygon points="120,130 360,130 360,230 120,230" fill="#d97706" stroke="#fbbf24" stroke-width="2" />
+    <!-- Top Face -->
+    <polygon points="120,130 190,80 430,80 360,130" fill="#f59e0b" stroke="#fde68a" stroke-width="2" />
+    <!-- Side Face -->
+    <polygon points="360,130 430,80 430,180 360,230" fill="#b45309" stroke="#fbbf24" stroke-width="2" />
+
+    <!-- Relief on Front Face (Sun disc with rays) -->
+    <circle cx="240" cy="165" r="16" fill="#fef08a" />
+    <line x1="240" y1="185" x2="225" y2="215" stroke="#fef08a" stroke-width="2" />
+    <line x1="240" y1="185" x2="240" y2="220" stroke="#fef08a" stroke-width="2" />
+    <line x1="240" y1="185" x2="255" y2="215" stroke="#fef08a" stroke-width="2" />
+
+    <!-- Dimensions Labels -->
+    <text x="240" y="255" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="14" font-weight="bold" fill="#fde68a">ความยาว: ~52 ซม. (3 ฝ่ามือ)</text>
+    <text x="415" y="215" font-family="'Sarabun', sans-serif" font-size="14" font-weight="bold" fill="#fde68a">กว้าง: ~26 ซม.</text>
+    <text x="75" y="185" font-family="'Sarabun', sans-serif" font-size="14" font-weight="bold" fill="#fde68a">หนา: 20 ซม.</text>
+
+    <!-- Engineering Advantages Box -->
+    <rect x="490" y="60" width="550" height="195" rx="10" fill="#0f172a" stroke="#475569" stroke-width="1" />
+    <text x="515" y="90" font-family="'Sarabun', sans-serif" font-size="16" font-weight="bold" fill="#fbbf24">
+      จุดเด่นทางวิศวกรรมที่เปลี่ยนประวัติศาสตร์สถาปัตยกรรม:
+    </text>
+    <text x="515" y="118" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">
+      • <tspan font-weight="bold" fill="#fff">น้ำหนักมาตรฐาน 50–55 กิโลกรัม:</tspan> คนงานเพียง 1–2 คนสามารถแบกขึ้นบ่าได้โดยไม่ต้องใช้เลื่อนชักลาก
+    </text>
+    <text x="515" y="142" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">
+      • <tspan font-weight="bold" fill="#fff">ความเร็วในการก่อสร้างก้าวกระโดด:</tspan> สร้างวิหารมหึมา Gem-pa-Aten และ Hwt-benben เสร็จใน 3–4 ปี
+    </text>
+    <text x="515" y="166" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">
+      • <tspan font-weight="bold" fill="#fff">ที่มาของชื่อ Talatat:</tspan> อ็องรี เชฟรีเยร์ (1938) บัญญัติจากภาษาอาหรับ télétah (สาม) ตามความยาว 3 ฝ่ามือ
+    </text>
+    <text x="515" y="190" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">
+      • <tspan font-weight="bold" fill="#fff">จุดอ่อนทางกายภาพ:</tspan> หินขนาดเล็กที่สร้างได้เร็ว ก็ถูกรื้อถอนและทำลายลงได้อย่างรวดเร็วเช่นกัน
+    </text>
+    <text x="515" y="215" font-family="'Sarabun', sans-serif" font-size="13" font-weight="bold" fill="#38bdf8">
+      ✓ สัดส่วนเรขาคณิต 1 : 2 : 2.5 เอื้อต่อการเรียงซ้อนแบบสับหว่างอย่างมั่นคง
+    </text>
+  </g>
+
+  <!-- Lower Section: 4-Step Lifecycle & Reconstruction Pipeline -->
+  <g transform="translate(60, 460)">
+    <rect width="1080" height="370" rx="14" fill="#1e293b" stroke="#10b981" stroke-width="1.5" filter="url(#shadow3)" />
+
+    <text x="40" y="40" font-family="'Sarabun', sans-serif" font-size="20" font-weight="bold" fill="#10b981">
+      2. วัฏจักรประวัติศาสตร์และกระบวนการต่อภาพจิ๊กซอว์เสมือนจริง (The Reconstruction Pipeline)
+    </text>
+
+    <!-- Step 1 -->
+    <g transform="translate(30, 65)">
+      <rect width="240" height="270" rx="10" fill="#0f172a" stroke="#d97706" stroke-width="1.5" />
+      <rect x="15" y="15" width="210" height="35" rx="6" fill="#78350f" />
+      <text x="120" y="38" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="14" font-weight="bold" fill="#fef3c7">ระยะที่ 1: การก่อสร้าง</text>
+      <text x="25" y="75" font-family="'Sarabun', sans-serif" font-size="12" font-weight="bold" fill="#fbbf24">~1350 ก่อนคริสตกาล</text>
+      <text x="25" y="100" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">• อัคเคนาเตนสร้างวิหารสุริยะ</text>
+      <text x="25" y="120" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">  4 แห่งทางทิศตะวันออกคาร์นัก</text>
+      <text x="25" y="145" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">• ฉลองพระราชพิธีเซด (Sed)</text>
+      <text x="25" y="165" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">  ในปีที่ 4 ก่อนกำหนดปกติ</text>
+      <text x="25" y="195" font-family="'Sarabun', sans-serif" font-size="12" fill="#94a3b8">• ภาพสลักขนาดใหญ่พาดผ่าน</text>
+      <text x="25" y="215" font-family="'Sarabun', sans-serif" font-size="12" fill="#94a3b8">  หินหลายสิบหลายร้อยก้อน</text>
+      <rect x="20" y="235" width="200" height="20" rx="4" fill="#1e293b" />
+      <text x="120" y="250" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="11" fill="#f59e0b">กำแพงวิหารกลางแจ้งนับพันเมตร</text>
+    </g>
+
+    <!-- Arrow 1 -->
+    <path d="M 285 200 L 305 200" stroke="#f59e0b" stroke-width="3" fill="none" marker-end="url(#arrow)" />
+
+    <!-- Step 2 -->
+    <g transform="translate(295, 65)">
+      <rect width="240" height="270" rx="10" fill="#0f172a" stroke="#ef4444" stroke-width="1.5" />
+      <rect x="15" y="15" width="210" height="35" rx="6" fill="#7f1d1d" />
+      <text x="120" y="38" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="14" font-weight="bold" fill="#fee2e2">ระยะที่ 2: รื้อถอนฝังกลบ</text>
+      <text x="25" y="75" font-family="'Sarabun', sans-serif" font-size="12" font-weight="bold" fill="#f87171">รัชสมัยโฮเรมเฮบ &amp; รามเสสสิด</text>
+      <text x="25" y="100" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">• รื้อถอนวิหารอาเตนจนราบคาบ</text>
+      <text x="25" y="125" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">• ขนย้ายหินทาลาทัตนับหมื่นก้อน</text>
+      <text x="25" y="145" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">  ไปใช้เป็น "วัสดุยัดไส้" (Fourrage)</text>
+      <text x="25" y="170" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">• ฝังในแกนในไพลอนที่ 2, 9, 10</text>
+      <text x="25" y="195" font-family="'Sarabun', sans-serif" font-size="12" fill="#94a3b8">• ก่อหันหน้าภาพสลักเข้าด้านใน</text>
+      <rect x="20" y="235" width="200" height="20" rx="4" fill="#1e293b" />
+      <text x="120" y="250" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="11" fill="#f87171">ปิดผนึกแคปซูลกาลเวลา 3,300 ปี</text>
+    </g>
+
+    <!-- Arrow 2 -->
+    <path d="M 550 200 L 570 200" stroke="#f59e0b" stroke-width="3" fill="none" />
+
+    <!-- Step 3 -->
+    <g transform="translate(560, 65)">
+      <rect width="240" height="270" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+      <rect x="15" y="15" width="210" height="35" rx="6" fill="#0369a1" />
+      <text x="120" y="38" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="14" font-weight="bold" fill="#e0f2fe">ระยะที่ 3: การกู้คืนหิน</text>
+      <text x="25" y="75" font-family="'Sarabun', sans-serif" font-size="12" font-weight="bold" fill="#38bdf8">ค.ศ. 1926–1938 (Henri Chevrier)</text>
+      <text x="25" y="100" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">• เจาะบูรณะไพลอนที่ 2 และ 9</text>
+      <text x="25" y="125" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">• พบหินทาลาทัตนับหมื่นก้อน</text>
+      <text x="25" y="150" font-family="'Sarabun', sans-serif" font-size="12" fill="#38bdf8">  "ปฏิทรรศน์ทางประวัติศาสตร์":</text>
+      <text x="25" y="170" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">  การฝังกลับช่วยพิทักษ์สีสดใส</text>
+      <text x="25" y="195" font-family="'Sarabun', sans-serif" font-size="12" fill="#94a3b8">• ไพลอนที่ 9 กู้คืนได้ &gt;40,000 ก้อน</text>
+      <rect x="20" y="235" width="200" height="20" rx="4" fill="#1e293b" />
+      <text x="120" y="250" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="11" fill="#38bdf8">CFETK บันทึกและจัดคลังหิน</text>
+    </g>
+
+    <!-- Arrow 3 -->
+    <path d="M 815 200 L 835 200" stroke="#f59e0b" stroke-width="3" fill="none" />
+
+    <!-- Step 4 -->
+    <g transform="translate(825, 65)">
+      <rect width="225" height="270" rx="10" fill="#0f172a" stroke="#10b981" stroke-width="2" />
+      <rect x="15" y="15" width="195" height="35" rx="6" fill="#065f46" />
+      <text x="112" y="38" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="14" font-weight="bold" fill="#d1fae5">ระยะที่ 4: ATP ดิจิทัล</text>
+      <text x="20" y="75" font-family="'Sarabun', sans-serif" font-size="12" font-weight="bold" fill="#34d399">ค.ศ. 1966–1979 (Redford)</text>
+      <text x="20" y="100" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">• ถ่ายภาพสเกล 1 : 10 ทุกก้อน</text>
+      <text x="20" y="125" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">• บัตรเจาะรูคอมพิวเตอร์ IBM</text>
+      <text x="20" y="145" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">  ประมวลผลจับคู่ลายเส้น</text>
+      <text x="20" y="170" font-family="'Sarabun', sans-serif" font-size="12" fill="#34d399">• ต่อภาพสำเร็จ &gt;1,000 แผง</text>
+      <text x="20" y="195" font-family="'Sarabun', sans-serif" font-size="12" fill="#cbd5e1">• พบวิหาร Hwt-benben ของ</text>
+      <text x="20" y="215" font-family="'Sarabun', sans-serif" font-size="12" font-weight="bold" fill="#fde68a">  เนเฟอร์ตีติประกอบพิธีลำพัง</text>
+      <rect x="15" y="235" width="195" height="20" rx="4" fill="#1e293b" />
+      <text x="112" y="250" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="11" fill="#34d399">ฟื้นคืนสถาปัตยกรรมเสมือนจริง</text>
+    </g>
+  </g>
+
+  <!-- Bottom Credit -->
+  <text x="600" y="865" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="13" fill="#64748b">
+    ภาพอินโฟกราฟิกวิชาการประกอบรายงานวิจัย: ประวัติศาสตร์นิพนธ์อามาร์นา © 2026 | แหล่งข้อมูล: Chevrier (ASAE 1938), Redford (Expedition 1979)
+  </text>
+</svg>

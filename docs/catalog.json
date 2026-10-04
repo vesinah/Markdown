@@ -1,9 +1,9 @@
 {
   "name": "คลังงานวิจัย (Research Archive)",
   "baseUrl": "docs/",
-  "updatedAt": "2026-09-29T10:16:20.405Z",
-  "totalFiles": 8652,
-  "totalBytes": 1076344528,
+  "updatedAt": "2026-10-04T22:09:27.809Z",
+  "totalFiles": 8781,
+  "totalBytes": 1084457333,
   "files": [
     {
       "path": "00 - รวมแปลบทความวิชาการ/05+Ooi+Corrected+FINAL+version+August+14+2022_Embedded.md",
@@ -43264,6 +43264,651 @@
       "path": "2026-09-29_florilegium-epitome-monograph/research-notes/sources/S-2024-mulder-01.md",
       "size": 13724,
       "mtime": 1790634966503
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/assembled/ch01.md",
+      "size": 43522,
+      "mtime": 1791090729093
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/assembled/ch02.md",
+      "size": 47334,
+      "mtime": 1791090855948
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/assembled/ch03.md",
+      "size": 48723,
+      "mtime": 1791090944618
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/assembled/ch04.md",
+      "size": 40110,
+      "mtime": 1791091017610
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/assembled/ch05.md",
+      "size": 43754,
+      "mtime": 1791091096190
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/assembled/ch06.md",
+      "size": 42209,
+      "mtime": 1791091166661
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/drafting-progress.md",
+      "size": 5400,
+      "mtime": 1791091352312
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/sections/ch01_sec01.md",
+      "size": 21125,
+      "mtime": 1791090627464
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/sections/ch01_sec02.md",
+      "size": 21131,
+      "mtime": 1791090648660
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/sections/ch02_sec01.md",
+      "size": 23304,
+      "mtime": 1791090822505
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/sections/ch02_sec02.md",
+      "size": 22641,
+      "mtime": 1791090842940
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/sections/ch03_sec01.md",
+      "size": 23192,
+      "mtime": 1791090895477
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/sections/ch03_sec02.md",
+      "size": 24108,
+      "mtime": 1791090917043
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/sections/ch04_sec01.md",
+      "size": 19330,
+      "mtime": 1791090976261
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/sections/ch04_sec02.md",
+      "size": 19215,
+      "mtime": 1791090998010
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/sections/ch05_sec01.md",
+      "size": 20535,
+      "mtime": 1791091054863
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/sections/ch05_sec02.md",
+      "size": 21350,
+      "mtime": 1791091075543
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/sections/ch06_sec01.md",
+      "size": 20126,
+      "mtime": 1791091126065
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/drafts/sections/ch06_sec02.md",
+      "size": 20682,
+      "mtime": 1791091148019
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/final/00-สารบัญ.md",
+      "size": 16383,
+      "mtime": 1791091312803
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/final/01-บทที่หนึ่ง.md",
+      "size": 44341,
+      "mtime": 1791091263599
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/final/02-บทที่สอง.md",
+      "size": 47980,
+      "mtime": 1791091282881
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/final/03-บทที่สาม.md",
+      "size": 48723,
+      "mtime": 1791090944618
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/final/04-บทที่สี่.md",
+      "size": 40659,
+      "mtime": 1791091291155
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/final/05-บทที่ห้า.md",
+      "size": 44397,
+      "mtime": 1791091300891
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/final/06-บทที่หก.md",
+      "size": 42209,
+      "mtime": 1791091166661
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/final/assets/infographic_01_timeline_rediscovery.svg",
+      "size": 16145,
+      "mtime": 1791091194584
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/final/assets/infographic_02_king_lists_comparison.svg",
+      "size": 14192,
+      "mtime": 1791091210187
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/final/assets/infographic_03_talatat_reconstruction.svg",
+      "size": 14759,
+      "mtime": 1791091229440
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/final/assets/infographic_04_succession_models.svg",
+      "size": 13209,
+      "mtime": 1791091245585
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/final/references.md",
+      "size": 16978,
+      "mtime": 1791091328941
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/glossary.md",
+      "size": 10654,
+      "mtime": 1791089335551
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/outline-proposal.md",
+      "size": 23132,
+      "mtime": 1791089324882
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/project-plan.md",
+      "size": 9509,
+      "mtime": 1791089303347
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/dossier-template.md",
+      "size": 3978,
+      "mtime": 1789813375374
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/allen_2009_amarna_succession.md",
+      "size": 5318,
+      "mtime": 1791090371977
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/borchardt_1912_mdog50_amarna.md",
+      "size": 95,
+      "mtime": 1791090058291
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/borchardt_1916_excavations_tell_el_amarna.md",
+      "size": 43281,
+      "mtime": 1791090294646
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/borchardt_1923_portraets_der_koenigin_nofretete.md",
+      "size": 134236,
+      "mtime": 1791090213853
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/chevrier_1938_talatat_karnak.md",
+      "size": 3426,
+      "mtime": 1791090400677
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/davies_1905_rock_tombs_part2_durbar.md",
+      "size": 200259,
+      "mtime": 1791090406817
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/davies_1908_rock_tombs_part6_ay_hymn.md",
+      "size": 184941,
+      "mtime": 1791090166332
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/gabolde_1998_akhenaton_toutankhamon.md",
+      "size": 4365,
+      "mtime": 1791090400677
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/hawass_2010_tutankhamun_ancestry_pathology.md",
+      "size": 8268,
+      "mtime": 1791090371977
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/helck_1958_urkunden_iv_heft21.md",
+      "size": 82464,
+      "mtime": 1791090333098
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/helck_1958_urkunden_iv_heft22.md",
+      "size": 102424,
+      "mtime": 1791090333116
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/knudtzon_1915_die_el_amarna_tafeln_vol1.md",
+      "size": 1729286,
+      "mtime": 1791090333178
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/petrie_1894_tell_el_amarna.md",
+      "size": 240400,
+      "mtime": 1791089877960
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/redford_1979_karnak_talatat_project.md",
+      "size": 5794,
+      "mtime": 1791090371977
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/tutankhamun_restoration_stela_cg34183.md",
+      "size": 2957,
+      "mtime": 1791090541325
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/extracted-texts/vanderperre_2014_dayr_al_barsha_graffito.md",
+      "size": 5429,
+      "mtime": 1791090371977
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/pdf/borchardt_1923_portraets_der_koenigin_nofretete_text.txt",
+      "size": 127961,
+      "mtime": 1791090120172
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/pdf/helck_1958_urkunden_iv_heft21_text.txt",
+      "size": 73939,
+      "mtime": 1791090175141
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/pdf/helck_1958_urkunden_iv_heft22_text.txt",
+      "size": 91214,
+      "mtime": 1791090182283
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/pdf/knudtzon_1915_el_amarna_tafeln_vol1_text.txt",
+      "size": 1645692,
+      "mtime": 1791089935539
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/pdf/knudtzon_1915_el_amarna_tafeln_vol2_text.txt",
+      "size": 1545117,
+      "mtime": 1791089940399
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/reading-progress.md",
+      "size": 4820,
+      "mtime": 1791090804701
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/source-index.md",
+      "size": 6527,
+      "mtime": 1791090430873
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/sources/S-1330-tutankhamun-ch01.md",
+      "size": 9126,
+      "mtime": 1791090585091
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/sources/S-1894-petrie-ch02.md",
+      "size": 7852,
+      "mtime": 1791090585091
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/sources/S-1908-davies-ch02.md",
+      "size": 8695,
+      "mtime": 1791090789590
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/sources/S-1923-borchardt-ch03.md",
+      "size": 8470,
+      "mtime": 1791090585091
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/sources/S-1938-chevrier-ch04.md",
+      "size": 8759,
+      "mtime": 1791090585091
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/sources/S-1979-redford-ch04.md",
+      "size": 9328,
+      "mtime": 1791090585097
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/sources/S-1998-gabolde-ch05.md",
+      "size": 8088,
+      "mtime": 1791090585097
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/sources/S-2009-allen-ch05.md",
+      "size": 8631,
+      "mtime": 1791090585097
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/sources/S-2010-hawass-ch06.md",
+      "size": 9070,
+      "mtime": 1791090585098
+    },
+    {
+      "path": "2026-10-04_ประวัติศาสตร์นิพนธ์อามาร์นา_การฟื้นคืนตัวตนและการสืบสวนข้อเท็จจริง/research-notes/sources/S-2014-vanderperre-ch05.md",
+      "size": 9629,
+      "mtime": 1791090585098
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/assembled/ch01.md",
+      "size": 40123,
+      "mtime": 1791095463918
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/assembled/ch02.md",
+      "size": 35391,
+      "mtime": 1791095463924
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/assembled/ch03.md",
+      "size": 30500,
+      "mtime": 1791095463932
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/assembled/ch04.md",
+      "size": 29934,
+      "mtime": 1791095463940
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/assembled/ch05.md",
+      "size": 33056,
+      "mtime": 1791095463947
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/assembled/ch06.md",
+      "size": 18807,
+      "mtime": 1791095463953
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/drafting-progress.md",
+      "size": 3080,
+      "mtime": 1789813394537
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch01_sec01.md",
+      "size": 14331,
+      "mtime": 1791095162969
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch01_sec02.md",
+      "size": 11513,
+      "mtime": 1791095139193
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch01_sec03.md",
+      "size": 14131,
+      "mtime": 1791095149957
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch02_sec01.md",
+      "size": 12610,
+      "mtime": 1791095217741
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch02_sec02.md",
+      "size": 11617,
+      "mtime": 1791095235835
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch02_sec03.md",
+      "size": 11018,
+      "mtime": 1791095194994
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch03_sec01.md",
+      "size": 10198,
+      "mtime": 1791095245613
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch03_sec02.md",
+      "size": 9690,
+      "mtime": 1791095264960
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch03_sec03.md",
+      "size": 10459,
+      "mtime": 1791095277520
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch04_sec01.md",
+      "size": 9682,
+      "mtime": 1791095295401
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch04_sec02.md",
+      "size": 10138,
+      "mtime": 1791095307181
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch04_sec03.md",
+      "size": 9976,
+      "mtime": 1791095316232
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch05_sec01.md",
+      "size": 9287,
+      "mtime": 1791095328594
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch05_sec02.md",
+      "size": 11466,
+      "mtime": 1791095340934
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch05_sec03.md",
+      "size": 12151,
+      "mtime": 1791095350413
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch06_sec01.md",
+      "size": 8847,
+      "mtime": 1791095365567
+    },
+    {
+      "path": "tutankhamun-usurpation/drafts/sections/ch06_sec02.md",
+      "size": 9875,
+      "mtime": 1791095376834
+    },
+    {
+      "path": "tutankhamun-usurpation/final/00-สารบัญ.md",
+      "size": 10853,
+      "mtime": 1791095494441
+    },
+    {
+      "path": "tutankhamun-usurpation/final/01-บทที่หนึ่ง.md",
+      "size": 46570,
+      "mtime": 1791095590819
+    },
+    {
+      "path": "tutankhamun-usurpation/final/02-บทที่สอง.md",
+      "size": 40331,
+      "mtime": 1791095590827
+    },
+    {
+      "path": "tutankhamun-usurpation/final/03-บทที่สาม.md",
+      "size": 35705,
+      "mtime": 1791095590836
+    },
+    {
+      "path": "tutankhamun-usurpation/final/04-บทที่สี่.md",
+      "size": 34027,
+      "mtime": 1791095590844
+    },
+    {
+      "path": "tutankhamun-usurpation/final/05-บทที่ห้า.md",
+      "size": 33063,
+      "mtime": 1791095590847
+    },
+    {
+      "path": "tutankhamun-usurpation/final/06-บทส่งท้าย.md",
+      "size": 26826,
+      "mtime": 1791095590853
+    },
+    {
+      "path": "tutankhamun-usurpation/final/07-ภาคผนวกทัศนสารสนเทศและอินโฟกราฟิก.md",
+      "size": 24385,
+      "mtime": 1791095521100
+    },
+    {
+      "path": "tutankhamun-usurpation/final/references.md",
+      "size": 6125,
+      "mtime": 1791095535553
+    },
+    {
+      "path": "tutankhamun-usurpation/glossary.md",
+      "size": 12496,
+      "mtime": 1791094924203
+    },
+    {
+      "path": "tutankhamun-usurpation/outline-proposal.md",
+      "size": 24004,
+      "mtime": 1791094910780
+    },
+    {
+      "path": "tutankhamun-usurpation/project-plan.md",
+      "size": 9453,
+      "mtime": 1791094886142
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/dossier-template.md",
+      "size": 3978,
+      "mtime": 1789813375374
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/extracted-texts/carter_excavation_notes.md",
+      "size": 1351,
+      "mtime": 1791094997104
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/extracted-texts/eaton_krauss_1993_sarcophagus.md",
+      "size": 1323,
+      "mtime": 1791094966779
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/extracted-texts/eaton_krauss_2015_unknown_tut.md",
+      "size": 1852,
+      "mtime": 1791094962495
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/extracted-texts/gabolde_1998_akhenaton.md",
+      "size": 1339,
+      "mtime": 1791094973231
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/extracted-texts/gabolde_2015_toutankhamon.md",
+      "size": 1126,
+      "mtime": 1791094978425
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/extracted-texts/harris_1973_nefernefruaten.md",
+      "size": 1241,
+      "mtime": 1791094993364
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/extracted-texts/krauss_1978_amarnazeit.md",
+      "size": 1305,
+      "mtime": 1791094984397
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/extracted-texts/loeben_1986_mdaik.md",
+      "size": 1342,
+      "mtime": 1791094987647
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/extracted-texts/reeves_1990_complete_tut.md",
+      "size": 2738,
+      "mtime": 1791094956162
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/extracted-texts/reeves_2015_mask.md",
+      "size": 4951,
+      "mtime": 1791094948639
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/reading-progress.md",
+      "size": 2739,
+      "mtime": 1791095112981
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/source-index.md",
+      "size": 3038,
+      "mtime": 1791095008030
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/sources/S-1927-carter-tomb.md",
+      "size": 9628,
+      "mtime": 1791095097955
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/sources/S-1973-harris-nefernefruaten.md",
+      "size": 9141,
+      "mtime": 1791095090988
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/sources/S-1978-krauss-amarna.md",
+      "size": 10244,
+      "mtime": 1791095076947
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/sources/S-1986-loeben-mdaik.md",
+      "size": 9786,
+      "mtime": 1791095084387
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/sources/S-1990-reeves-complete.md",
+      "size": 12575,
+      "mtime": 1791095036002
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/sources/S-1993-eatonkrauss-sarcophagus.md",
+      "size": 9058,
+      "mtime": 1791095052654
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/sources/S-1998-gabolde-akhenaton.md",
+      "size": 9718,
+      "mtime": 1791095061214
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/sources/S-2015-eatonkrauss-unknown.md",
+      "size": 12192,
+      "mtime": 1791095044219
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/sources/S-2015-gabolde-toutankhamon.md",
+      "size": 8834,
+      "mtime": 1791095069671
+    },
+    {
+      "path": "tutankhamun-usurpation/research-notes/sources/S-2015-reeves-mask.md",
+      "size": 15610,
+      "mtime": 1791095019961
+    },
+    {
+      "path": "tutankhamun-usurpation/visual-assets/infographics/infographics_suite.md",
+      "size": 17017,
+      "mtime": 1791095397870
+    },
+    {
+      "path": "tutankhamun-usurpation/visual-assets/photos/archaeological_photos_catalogue.md",
+      "size": 8061,
+      "mtime": 1791095406636
     }
   ]
 }

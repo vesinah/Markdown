@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="50%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="dropGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="900" fill="url(#bgGrad)" />
+
+  <!-- Title Banner -->
+  <rect x="50" y="30" width="1100" height="90" rx="16" fill="#1e293b" stroke="#d97706" stroke-width="2" filter="url(#dropGlow)" />
+  <text x="600" y="70" text-anchor="middle" font-family="'Sarabun', 'Noto Sans Thai', Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#goldGrad)">
+    เส้นเวลาพัฒนาการการฟื้นคืนตัวตนแห่งราชวงศ์อามาร์นา (ค.ศ. 1798 – 2014)
+  </text>
+  <text x="600" y="100" text-anchor="middle" font-family="'Sarabun', 'Noto Sans Thai', Arial, sans-serif" font-size="15" fill="#94a3b8">
+    จากม่านหมอกแห่งการลบล้างความทรงจำ (Damnatio Memoriae) สู่การสืบสวนด้วยอักขรวิทยาและนิติพันธุศาสตร์
+  </text>
+
+  <!-- Central Spine Line -->
+  <line x1="600" y1="150" x2="600" y2="840" stroke="#f59e0b" stroke-width="4" stroke-dasharray="8 4" />
+
+  <!-- Timeline Nodes & Cards -->
+
+  <!-- Item 1: 1798 (Left) -->
+  <g transform="translate(80, 140)">
+    <rect width="470" height="95" rx="12" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5" filter="url(#dropGlow)" />
+    <circle cx="520" cy="47" r="16" fill="#38bdf8" stroke="#0f172a" stroke-width="4" />
+    <text x="520" y="52" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#0f172a">1</text>
+    <rect x="20" y="15" width="80" height="24" rx="6" fill="#0284c7" />
+    <text x="60" y="32" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#fff">ค.ศ. 1798</text>
+    <text x="110" y="32" font-family="'Sarabun', sans-serif" font-size="16" font-weight="bold" fill="#f8fafc">คณะสำรวจนโปเลียนแห่งฝรั่งเศส</text>
+    <text x="20" y="58" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">บันทึกพิกัดซากเมือง Tell el-Amarna ครั้งแรกใน Description de l'Égypte</text>
+    <text x="20" y="78" font-family="'Sarabun', sans-serif" font-size="12" fill="#94a3b8">ขณะนั้นเข้าใจผิดว่าเป็นซากค่ายทหารหรือเมืองยุคโรมัน</text>
+  </g>
+
+  <!-- Item 2: 1824-1845 (Right) -->
+  <g transform="translate(650, 200)">
+    <rect width="470" height="95" rx="12" fill="url(#cardGrad)" stroke="#fbbf24" stroke-width="1.5" filter="url(#dropGlow)" />
+    <circle cx="-50" cy="47" r="16" fill="#fbbf24" stroke="#0f172a" stroke-width="4" />
+    <text x="-50" y="52" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#0f172a">2</text>
+    <rect x="20" y="15" width="115" height="24" rx="6" fill="#d97706" />
+    <text x="77" y="32" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#fff">ค.ศ. 1824–1845</text>
+    <text x="145" y="32" font-family="'Sarabun', sans-serif" font-size="16" font-weight="bold" fill="#f8fafc">Wilkinson &amp; คณะสำรวจปรัสเซีย (Lepsius)</text>
+    <text x="20" y="58" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">ค้นพบศิลาบอกเขตแดน (Boundary Stelae) และถอดรหัสพระนามเดิม</text>
+    <text x="20" y="78" font-family="'Sarabun', sans-serif" font-size="12" fill="#94a3b8">เลปซิอุสยืนยันว่ากษัตริย์แท้จริงคือ Amenhotep IV ผู้เปลี่ยนศาสนา</text>
+  </g>
+
+  <!-- Item 3: 1887 (Left) -->
+  <g transform="translate(80, 270)">
+    <rect width="470" height="95" rx="12" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5" filter="url(#dropGlow)" />
+    <circle cx="520" cy="47" r="16" fill="#38bdf8" stroke="#0f172a" stroke-width="4" />
+    <text x="520" y="52" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#0f172a">3</text>
+    <rect x="20" y="15" width="80" height="24" rx="6" fill="#0284c7" />
+    <text x="60" y="32" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#fff">ค.ศ. 1887</text>
+    <text x="110" y="32" font-family="'Sarabun', sans-serif" font-size="16" font-weight="bold" fill="#f8fafc">การค้นพบ "จดหมายเหตุอามาร์นา" (EA)</text>
+    <text x="20" y="58" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">สตรีชาวนาพบแผ่นดินเผาอักษรลิ่มเกือบ 400 แผ่น (Knudtzon 1915 ชำระ)</text>
+    <text x="20" y="78" font-family="'Sarabun', sans-serif" font-size="12" fill="#94a3b8">เปิดเผยเครือข่ายการทูตและภูมิรัฐศาสตร์ยุคสัมฤทธิ์ตอนปลายของตะวันออกใกล้</text>
+  </g>
+
+  <!-- Item 4: 1891-1892 (Right) -->
+  <g transform="translate(650, 340)">
+    <rect width="470" height="95" rx="12" fill="url(#cardGrad)" stroke="#fbbf24" stroke-width="1.5" filter="url(#dropGlow)" />
+    <circle cx="-50" cy="47" r="16" fill="#fbbf24" stroke="#0f172a" stroke-width="4" />
+    <text x="-50" y="52" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#0f172a">4</text>
+    <rect x="20" y="15" width="115" height="24" rx="6" fill="#d97706" />
+    <text x="77" y="32" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#fff">ค.ศ. 1891–1892</text>
+    <text x="145" y="32" font-family="'Sarabun', sans-serif" font-size="16" font-weight="bold" fill="#f8fafc">Flinders Petrie ขุดค้นเมืองหลวง</text>
+    <text x="20" y="58" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">ชำระการอ่านพระนามจาก Khuenaten สู่ Akhenaten อย่างเป็นทางการ</text>
+    <text x="20" y="78" font-family="'Sarabun', sans-serif" font-size="12" fill="#94a3b8">ค้นพบพื้นปูนเปียกทาสีพระราชวังหลวง และเศษภาชนะไมซีเนียนกำหนดอายุ</text>
+  </g>
+
+  <!-- Item 5: 1912 (Left) -->
+  <g transform="translate(80, 410)">
+    <rect width="470" height="95" rx="12" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5" filter="url(#dropGlow)" />
+    <circle cx="520" cy="47" r="16" fill="#38bdf8" stroke="#0f172a" stroke-width="4" />
+    <text x="520" y="52" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#0f172a">5</text>
+    <rect x="20" y="15" width="80" height="24" rx="6" fill="#0284c7" />
+    <text x="60" y="32" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#fff">ค.ศ. 1912</text>
+    <text x="110" y="32" font-family="'Sarabun', sans-serif" font-size="16" font-weight="bold" fill="#f8fafc">Borchardt ค้นพบ "เศียรเนเฟอร์ตีติ"</text>
+    <text x="20" y="58" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">ขุดพบ ณ เวิร์กช็อปช่างธุตโมส (P 47) นำไปสู่การแบ่งปันโบราณวัตถุ (1913)</text>
+    <text x="20" y="78" font-family="'Sarabun', sans-serif" font-size="12" fill="#94a3b8">จุดชนวนข้อพิพาทระดับสากลระหว่างเบอร์ลินกับไคโรยาวนานนับศตวรรษ</text>
+  </g>
+
+  <!-- Item 6: 1938 (Right) -->
+  <g transform="translate(650, 480)">
+    <rect width="470" height="95" rx="12" fill="url(#cardGrad)" stroke="#fbbf24" stroke-width="1.5" filter="url(#dropGlow)" />
+    <circle cx="-50" cy="47" r="16" fill="#fbbf24" stroke="#0f172a" stroke-width="4" />
+    <text x="-50" y="52" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#0f172a">6</text>
+    <rect x="20" y="15" width="80" height="24" rx="6" fill="#d97706" />
+    <text x="60" y="32" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#fff">ค.ศ. 1938</text>
+    <text x="110" y="32" font-family="'Sarabun', sans-serif" font-size="16" font-weight="bold" fill="#f8fafc">Henri Chevrier บัญญัติศัพท์ "หินทาลาทัต"</text>
+    <text x="20" y="58" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">กู้คืนหินขนาดมาตรฐาน 3 ฝ่ามือ (~52 ซม.) นับหมื่นก้อนจากไพลอนคาร์นัก</text>
+    <text x="20" y="78" font-family="'Sarabun', sans-serif" font-size="12" fill="#94a3b8">เผยปฏิทรรศน์ว่าการทำลายของโฮเรมเฮบกลับช่วยอนุรักษ์สีสันของศิลปะอามาร์นา</text>
+  </g>
+
+  <!-- Item 7: 1966-1979 (Left) -->
+  <g transform="translate(80, 550)">
+    <rect width="470" height="95" rx="12" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5" filter="url(#dropGlow)" />
+    <circle cx="520" cy="47" r="16" fill="#38bdf8" stroke="#0f172a" stroke-width="4" />
+    <text x="520" y="52" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#0f172a">7</text>
+    <rect x="20" y="15" width="115" height="24" rx="6" fill="#0284c7" />
+    <text x="77" y="32" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#fff">ค.ศ. 1966–1979</text>
+    <text x="145" y="32" font-family="'Sarabun', sans-serif" font-size="16" font-weight="bold" fill="#f8fafc">Redford &amp; โครงการ ATP (คอมพิวเตอร์ต่อภาพ)</text>
+    <text x="20" y="58" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">ใช้ฐานข้อมูลคอมพิวเตอร์ต่อภาพเสมือนจริงของวิหาร Gem-pa-Aten</text>
+    <text x="20" y="78" font-family="'Sarabun', sans-serif" font-size="12" fill="#94a3b8">พบว่าวิหาร Hwt-benben อุทิศแด่เนเฟอร์ตีติประกอบพิธีบวงสรวงตามลำพัง</text>
+  </g>
+
+  <!-- Item 8: 1998-2009 (Right) -->
+  <g transform="translate(650, 620)">
+    <rect width="470" height="95" rx="12" fill="url(#cardGrad)" stroke="#fbbf24" stroke-width="1.5" filter="url(#dropGlow)" />
+    <circle cx="-50" cy="47" r="16" fill="#fbbf24" stroke="#0f172a" stroke-width="4" />
+    <text x="-50" y="52" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#0f172a">8</text>
+    <rect x="20" y="15" width="115" height="24" rx="6" fill="#d97706" />
+    <text x="77" y="32" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#fff">ค.ศ. 1998–2009</text>
+    <text x="145" y="32" font-family="'Sarabun', sans-serif" font-size="16" font-weight="bold" fill="#f8fafc">Gabolde &amp; Allen: แยกแยะกษัตริย์สตรี</text>
+    <text x="20" y="58" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">แยก Smenkhkare (บุรุษ) ออกจาก Neferneferuaten (สตรี) ด้วยหน่วยคำ .t</text>
+    <text x="20" y="78" font-family="'Sarabun', sans-serif" font-size="12" fill="#94a3b8">พิสูจน์ฉายานาม Akhet-en-hyes และ Merit-Waenre ยืนยันสถานะกษัตริย์สตรี</text>
+  </g>
+
+  <!-- Item 9: 2010 (Left) -->
+  <g transform="translate(80, 690)">
+    <rect width="470" height="95" rx="12" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5" filter="url(#dropGlow)" />
+    <circle cx="520" cy="47" r="16" fill="#38bdf8" stroke="#0f172a" stroke-width="4" />
+    <text x="520" y="52" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#0f172a">9</text>
+    <rect x="20" y="15" width="80" height="24" rx="6" fill="#0284c7" />
+    <text x="60" y="32" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#fff">ค.ศ. 2010</text>
+    <text x="110" y="32" font-family="'Sarabun', sans-serif" font-size="16" font-weight="bold" fill="#f8fafc">Zahi Hawass et al. (JAMA 2010)</text>
+    <text x="20" y="58" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">ตรวจ Ancient DNA &amp; CT scan ยืนยันมัมมี่ KV55 คือพระบิดาของตุตันคาเมน</text>
+    <text x="20" y="78" font-family="'Sarabun', sans-serif" font-size="12" fill="#94a3b8">หักล้างทฤษฎีกลุ่มอาการ Marfan ยืนยันสรีระในศิลปะเป็นประติมานวิทยาเชิงสัญลักษณ์</text>
+  </g>
+
+  <!-- Item 10: 2014 (Right) -->
+  <g transform="translate(650, 760)">
+    <rect width="470" height="95" rx="12" fill="url(#cardGrad)" stroke="#10b981" stroke-width="2" filter="url(#dropGlow)" />
+    <circle cx="-50" cy="47" r="16" fill="#10b981" stroke="#0f172a" stroke-width="4" />
+    <text x="-50" y="52" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#0f172a">10</text>
+    <rect x="20" y="15" width="80" height="24" rx="6" fill="#059669" />
+    <text x="60" y="32" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#fff">ค.ศ. 2014</text>
+    <text x="110" y="32" font-family="'Sarabun', sans-serif" font-size="16" font-weight="bold" fill="#f8fafc">Van der Perre: จารึกปีที่ 16 (Dayr al-Barsha)</text>
+    <text x="20" y="58" font-family="'Sarabun', sans-serif" font-size="13" fill="#cbd5e1">ค้นพบจารึกยืนยันเนเฟอร์ตีติยังมีชีวิตและดำรงตำแหน่งมเหสีเอกในปีที่ 16</text>
+    <text x="20" y="78" font-family="'Sarabun', sans-serif" font-size="12" fill="#6ee7b7">หักล้างสมมติฐานการตายก่อน ปูทางสู่การยอมรับว่าพระนางคือกษัตริย์สตรี Neferneferuaten</text>
+  </g>
+
+  <!-- Footer Credit -->
+  <text x="600" y="880" text-anchor="middle" font-family="'Sarabun', sans-serif" font-size="13" fill="#64748b">
+    ภาพอินโฟกราฟิกวิชาการประกอบรายงานวิจัย: ประวัติศาสตร์นิพนธ์อามาร์นา © 2026 | แหล่งข้อมูล: งานวิจัยปฐมภูมิและทุติยภูมิมาตรฐานสากล
+  </text>
+</svg>
