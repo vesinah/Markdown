@@ -440,7 +440,7 @@ ${combinedCss}
         <div class="mb-divider auth-lock-divider" id="auth-lock-divider" hidden></div>
 
         <!-- Lock Screen Button -->
-        <button type="button" id="btn-auth-lock" class="doc-info-btn btn-auth-lock" title="ล็อกหน้าจอ (Lock Screen)" aria-label="ล็อกหน้าจอ" hidden>🔒</button>
+        <button type="button" id="btn-auth-lock" class="doc-info-btn btn-auth-lock" title="ล็อกหน้าจอ" aria-label="ล็อกหน้าจอ" hidden>🔒</button>
 
         <!-- Vertical Divider separating Lock from Bookmark toggle -->
         <div class="mb-divider"></div>
@@ -573,8 +573,8 @@ ${combinedCss}
     </div>
 
     <div class="auth-header">
-      <h2 id="auth-title" class="auth-title">มาร์คมาก (MDBrowse)</h2>
-      <p class="auth-subtitle">ระบบป้องกันการเข้าถึงเว็บชั้นหนึ่ง (Cloudflare Access Gate)</p>
+      <h2 id="auth-title" class="auth-title">มาร์คมาก</h2>
+      <p class="auth-subtitle">ระบบป้องกันการเข้าถึงเว็บชั้นหนึ่ง</p>
       <p class="auth-desc">กรุณาป้อนรหัสผ่านเพื่อเข้าใช้งาน</p>
     </div>
 
@@ -585,7 +585,7 @@ ${combinedCss}
           type="password"
           id="auth-password-input"
           class="auth-input"
-          placeholder="ป้อนรหัสผ่าน (6 หลัก)..."
+          placeholder="ป้อนรหัสผ่าน 6 หลัก..."
           autocomplete="current-password"
           inputmode="numeric"
           maxlength="20"
@@ -607,7 +607,7 @@ ${combinedCss}
       <div class="auth-options">
         <label class="auth-remember-label">
           <input type="checkbox" id="auth-remember-me" checked>
-          <span>จดจำบนอุปกรณ์นี้ (Remember me)</span>
+          <span>จดจำบนอุปกรณ์นี้</span>
         </label>
       </div>
 
