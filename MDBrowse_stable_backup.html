@@ -6710,12 +6710,347 @@ mark.bm-hl.flash {
   }
 }
 
+
+/* ==========================================================================
+   auth.css — Cloudflare Security Gate Modal & Authentication Styles
+   ========================================================================== */
+
+/* Locked state applied to root and body */
+html.auth-locked,
+body.auth-locked {
+  overflow: hidden !important;
+  height: 100vh !important;
+  touch-action: none;
+}
+
+html.auth-locked #app,
+body.auth-locked #app {
+  filter: blur(24px) grayscale(40%);
+  -webkit-filter: blur(24px) grayscale(40%);
+  opacity: 0.15;
+  pointer-events: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  transition: filter 0.35s ease, opacity 0.35s ease;
+}
+
+/* Modal backdrop and container */
+.auth-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.auth-modal[hidden] {
+  display: none !important;
+}
+
+html.auth-locked #auth-modal,
+body.auth-locked #auth-modal {
+  display: flex !important;
+}
+
+.auth-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(13, 17, 23, 0.78);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+/* Modal Card */
+.auth-card {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 380px;
+  background: var(--bg, #ffffff);
+  border: 1px solid var(--border, #d0d7de);
+  border-radius: 20px;
+  padding: 32px 28px 24px;
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.08);
+  text-align: center;
+  box-sizing: border-box;
+  animation: authCardEnter 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+@keyframes authCardEnter {
+  from {
+    opacity: 0;
+    transform: scale(0.92) translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.auth-card.auth-shake {
+  animation: authShake 0.45s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+@keyframes authShake {
+  10%, 90% { transform: translate3d(-2px, 0, 0); }
+  20%, 80% { transform: translate3d(4px, 0, 0); }
+  30%, 50%, 70% { transform: translate3d(-6px, 0, 0); }
+  40%, 60% { transform: translate3d(6px, 0, 0); }
+}
+
+.auth-badge-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(9, 105, 218, 0.12), rgba(9, 105, 218, 0.25));
+  color: var(--accent, #0969da);
+  margin-bottom: 18px;
+  box-shadow: 0 4px 14px rgba(9, 105, 218, 0.15);
+}
+
+.auth-header {
+  margin-bottom: 22px;
+}
+
+.auth-title {
+  margin: 0 0 6px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text, #1f2328);
+  font-family: var(--font-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif);
+  letter-spacing: -0.3px;
+}
+
+.auth-subtitle {
+  margin: 0 0 8px 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent, #0969da);
+}
+
+.auth-desc {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--text2, #656d76);
+  line-height: 1.45;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.auth-input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: var(--bg2, #f6f8fa);
+  border: 1.5px solid var(--border, #d0d7de);
+  border-radius: 12px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  overflow: hidden;
+}
+
+.auth-input-group:focus-within {
+  border-color: var(--accent, #0969da);
+  box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.18);
+  background: var(--bg, #ffffff);
+}
+
+.auth-input-group.has-error {
+  border-color: #cf222e !important;
+  box-shadow: 0 0 0 3px rgba(207, 34, 46, 0.18) !important;
+}
+
+.auth-input-icon {
+  padding-left: 14px;
+  font-size: 16px;
+  user-select: none;
+  opacity: 0.8;
+}
+
+.auth-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 13px 12px;
+  font-size: 17px;
+  font-family: inherit;
+  color: var(--text, #1f2328);
+  outline: none;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+}
+
+.auth-input::placeholder {
+  letter-spacing: normal;
+  color: var(--text3, #8c959f);
+  font-size: 14px;
+}
+
+.auth-toggle-pwd-btn {
+  border: none;
+  background: transparent;
+  padding: 10px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--text2, #656d76);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  user-select: none;
+}
+
+.auth-toggle-pwd-btn:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.auth-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: rgba(207, 34, 46, 0.08);
+  border: 1px solid rgba(207, 34, 46, 0.25);
+  border-radius: 8px;
+  color: #cf222e;
+  font-size: 12.5px;
+  font-weight: 500;
+  text-align: center;
+  animation: fadeIn 0.2s ease;
+}
+
+.auth-error[hidden] {
+  display: none !important;
+}
+
+.auth-options {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2px 4px;
+}
+
+.auth-remember-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text2, #656d76);
+  cursor: pointer;
+  user-select: none;
+}
+
+.auth-remember-label input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: var(--accent, #0969da);
+}
+
+.auth-submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 18px;
+  background: var(--accent, #0969da);
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(9, 105, 218, 0.25);
+  transition: background-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.auth-submit-btn:hover {
+  background: #0858b8;
+  box-shadow: 0 6px 16px rgba(9, 105, 218, 0.35);
+  transform: translateY(-1px);
+}
+
+.auth-submit-btn:active {
+  transform: translateY(1px);
+}
+
+.auth-submit-btn.success {
+  background: #1a7f37 !important;
+  box-shadow: 0 4px 14px rgba(26, 127, 55, 0.3) !important;
+}
+
+.auth-footer {
+  margin-top: 18px;
+  font-size: 11.5px;
+  color: var(--text3, #8c959f);
+}
+
+/* Lock Button in Menubar */
+.btn-auth-lock {
+  font-size: 13px !important;
+  color: var(--text2) !important;
+}
+
+.btn-auth-lock:hover {
+  color: #cf222e !important;
+  background: rgba(207, 34, 46, 0.08) !important;
+  border-color: rgba(207, 34, 46, 0.3) !important;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .auth-card {
+    padding: 24px 20px 20px;
+    max-width: 100%;
+    border-radius: 16px;
+  }
+  .auth-title {
+    font-size: 18px;
+  }
+  .auth-input {
+    font-size: 16px; /* Prevents iOS Safari auto-zoom */
+    padding: 12px 10px;
+  }
+  .auth-submit-btn {
+    min-height: 44px;
+  }
+}
+
 </style>
 <body>
 <script>
-if (typeof window !== 'undefined' && window.innerWidth <= 768) {
-  document.body.classList.add('sb-closed');
-}
+(function() {
+  if (typeof window === 'undefined') return;
+  if (window.innerWidth <= 768) {
+    document.body.classList.add('sb-closed');
+  }
+  try {
+    var isTarget = (
+      location.hostname.endsWith('pages.dev') ||
+      location.hostname.includes('cloudflare') ||
+      (location.protocol === 'https:' && !['localhost', '127.0.0.1'].includes(location.hostname)) ||
+      (new URLSearchParams(location.search)).has('auth')
+    );
+    if (isTarget) {
+      var authed = (sessionStorage.getItem('markmak_auth') === '112213' || localStorage.getItem('markmak_auth') === '112213');
+      if (!authed) {
+        document.documentElement.classList.add('auth-locked');
+        document.body.classList.add('auth-locked');
+      }
+    }
+  } catch (e) {}
+})();
 </script>
 <div id="app">
   <!-- Sidebar -->
@@ -6958,7 +7293,13 @@ if (typeof window !== 'undefined' && window.innerWidth <= 768) {
         </div>
       </div>
 
-        <!-- Vertical Divider separating ? from Bookmark toggle -->
+        <!-- Vertical Divider separating ? from Lock -->
+        <div class="mb-divider auth-lock-divider" id="auth-lock-divider" hidden></div>
+
+        <!-- Lock Screen Button -->
+        <button type="button" id="btn-auth-lock" class="doc-info-btn btn-auth-lock" title="ล็อกหน้าจอ (Lock Screen)" aria-label="ล็อกหน้าจอ" hidden>🔒</button>
+
+        <!-- Vertical Divider separating Lock from Bookmark toggle -->
         <div class="mb-divider"></div>
 
         <!-- Bookmark Panel Toggle Button -->
@@ -7076,6 +7417,69 @@ if (typeof window !== 'undefined' && window.innerWidth <= 768) {
       <span class="mbb-label">บนสุด</span>
     </button>
   </nav>
+</div>
+
+<!-- Cloudflare Security Gate Modal (ชั้นป้องกันรหัสผ่าน) -->
+<div id="auth-modal" class="auth-modal" hidden>
+  <div class="auth-backdrop"></div>
+  <div class="auth-card" id="auth-card" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+    <div class="auth-badge-icon" title="ระบบความปลอดภัย มาร์คมาก">
+      <svg viewBox="0 0 24 24" width="34" height="34" fill="currentColor">
+        <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 2.18l7 3.12v4.7c0 4.54-3.14 8.79-7 9.88-3.86-1.09-7-5.34-7-9.88V6.3l7-3.12zM12 7a3 3 0 0 0-3 3v2h-.5A1.5 1.5 0 0 0 7 13.5v5A1.5 1.5 0 0 0 8.5 20h7a1.5 1.5 0 0 0 1.5-1.5v-5A1.5 1.5 0 0 0 15.5 12H15v-2a3 3 0 0 0-3-3zm0 1.5c.83 0 1.5.67 1.5 1.5v2h-3v-2c0-.83.67-1.5 1.5-1.5z"/>
+      </svg>
+    </div>
+
+    <div class="auth-header">
+      <h2 id="auth-title" class="auth-title">มาร์คมาก (MDBrowse)</h2>
+      <p class="auth-subtitle">ระบบป้องกันการเข้าถึงเว็บชั้นหนึ่ง (Cloudflare Access Gate)</p>
+      <p class="auth-desc">กรุณาป้อนรหัสผ่านเพื่อเข้าใช้งาน</p>
+    </div>
+
+    <form class="auth-form" id="auth-form" onsubmit="return false;">
+      <div class="auth-input-group">
+        <span class="auth-input-icon">🔑</span>
+        <input
+          type="password"
+          id="auth-password-input"
+          class="auth-input"
+          placeholder="ป้อนรหัสผ่าน (6 หลัก)..."
+          autocomplete="current-password"
+          inputmode="numeric"
+          maxlength="20"
+        />
+        <button
+          type="button"
+          id="btn-auth-toggle-pwd"
+          class="auth-toggle-pwd-btn"
+          title="แสดง/ซ่อนรหัสผ่าน"
+          aria-label="แสดงรหัสผ่าน"
+        >👁️</button>
+      </div>
+
+      <div id="auth-error-msg" class="auth-error" hidden>
+        <span class="auth-error-icon">⚠️</span>
+        <span id="auth-error-text">รหัสผ่านไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง</span>
+      </div>
+
+      <div class="auth-options">
+        <label class="auth-remember-label">
+          <input type="checkbox" id="auth-remember-me" checked>
+          <span>จดจำบนอุปกรณ์นี้ (Remember me)</span>
+        </label>
+      </div>
+
+      <button type="submit" id="auth-submit-btn" class="auth-submit-btn">
+        <span>ปลดล็อกเข้าสู่ระบบ</span>
+        <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+          <path fill-rule="evenodd" d="M1 8a.75.75 0 0 1 .75-.75h11.59L9.72 3.63a.75.75 0 0 1 1.06-1.06l4.82 4.82a.75.75 0 0 1 0 1.06l-4.82 4.82a.75.75 0 0 1-1.06-1.06l3.63-3.63H1.75A.75.75 0 0 1 1 8Z"/>
+        </svg>
+      </button>
+    </form>
+
+    <div class="auth-footer">
+      <span>🛡️ การป้องกันความปลอดภัยสำหรับเวอร์ชันคลาวด์</span>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -22213,6 +22617,269 @@ const ReadingProgress = {
 };
 
 
+/**
+ * src/js/ui/auth-gate.js
+ * Cloudflare Security Gate — First-layer password authentication modal (PIN: 112213)
+ */
+
+const AUTH_PASSWORD = '112213';
+const AUTH_STORAGE_KEY = 'markmak_auth';
+
+const AuthGate = {
+  _eventsBound: false,
+
+  isTargetEnvironment() {
+    if (typeof window === 'undefined' || typeof location === 'undefined') return false;
+    const hostname = (location.hostname || '').toLowerCase();
+    const protocol = (location.protocol || '').toLowerCase();
+    const search = location.search || '';
+
+    // Explicit query override for testing (?auth=1, ?auth=true, ?test_auth=1)
+    if (/[?&](auth|test_auth)(?:=1|=true)?(?:&|$)/i.test(search)) {
+      return true;
+    }
+
+    // Cloudflare Pages deployment or Cloudflare domains
+    if (hostname.endsWith('.pages.dev') || hostname === 'pages.dev' || hostname.includes('cloudflare')) {
+      return true;
+    }
+
+    // Remote HTTPS deployment excluding local development
+    if (protocol === 'https:' && hostname !== 'localhost' && hostname !== '127.0.0.1') {
+      return true;
+    }
+
+    return false;
+  },
+
+  isUnlocked() {
+    try {
+      if (typeof window === 'undefined') return true;
+      const sVal = sessionStorage.getItem(AUTH_STORAGE_KEY);
+      if (sVal === AUTH_PASSWORD) return true;
+      const lVal = localStorage.getItem(AUTH_STORAGE_KEY);
+      if (lVal === AUTH_PASSWORD) return true;
+    } catch (e) {}
+    return false;
+  },
+
+  init() {
+    const isTarget = this.isTargetEnvironment();
+    const lockBtn = document.getElementById('btn-auth-lock');
+    const lockDivider = document.getElementById('auth-lock-divider');
+
+    if (!isTarget) {
+      // Offline desktop app or local dev without ?auth — keep gate hidden
+      this.setLockedState(false);
+      if (lockBtn) lockBtn.hidden = true;
+      if (lockDivider) lockDivider.hidden = true;
+      return;
+    }
+
+    // It's Cloudflare / Web deployment
+    if (lockBtn) lockBtn.hidden = false;
+    if (lockDivider) lockDivider.hidden = false;
+
+    if (this.isUnlocked()) {
+      this.setLockedState(false);
+    } else {
+      this.showModal();
+    }
+
+    this.bindEvents();
+  },
+
+  setLockedState(locked) {
+    if (typeof document === 'undefined') return;
+    if (locked) {
+      document.documentElement.classList.add('auth-locked');
+      document.body.classList.add('auth-locked');
+    } else {
+      document.documentElement.classList.remove('auth-locked');
+      document.body.classList.remove('auth-locked');
+      const modal = document.getElementById('auth-modal');
+      if (modal) modal.hidden = true;
+    }
+  },
+
+  showModal() {
+    this.setLockedState(true);
+    const modal = document.getElementById('auth-modal');
+    const input = document.getElementById('auth-password-input');
+    const errMsg = document.getElementById('auth-error-msg');
+    const inputGroup = input ? input.closest('.auth-input-group') : null;
+
+    if (modal) modal.hidden = false;
+    if (errMsg) errMsg.hidden = true;
+    if (inputGroup) inputGroup.classList.remove('has-error');
+    if (input) {
+      input.value = '';
+      setTimeout(() => {
+        try { input.focus(); } catch (e) {}
+      }, 80);
+    }
+  },
+
+  unlock(password, remember) {
+    if (password === AUTH_PASSWORD) {
+      try {
+        sessionStorage.setItem(AUTH_STORAGE_KEY, AUTH_PASSWORD);
+        if (remember) {
+          localStorage.setItem(AUTH_STORAGE_KEY, AUTH_PASSWORD);
+        } else {
+          localStorage.removeItem(AUTH_STORAGE_KEY);
+        }
+      } catch (e) {}
+
+      const submitBtn = document.getElementById('auth-submit-btn');
+      const card = document.getElementById('auth-card');
+
+      if (submitBtn) {
+        submitBtn.classList.add('success');
+        submitBtn.innerHTML = '<span>✓ เข้าสู่ระบบสำเร็จ...</span>';
+      }
+
+      if (card) {
+        card.style.opacity = '0';
+        card.style.transform = 'scale(0.96)';
+      }
+
+      setTimeout(() => {
+        this.setLockedState(false);
+        const lockBtn = document.getElementById('btn-auth-lock');
+        const lockDivider = document.getElementById('auth-lock-divider');
+        if (lockBtn) lockBtn.hidden = false;
+        if (lockDivider) lockDivider.hidden = false;
+
+        // Reset submit button state for future locks
+        if (submitBtn) {
+          submitBtn.classList.remove('success');
+          submitBtn.innerHTML = `
+            <span>ปลดล็อกเข้าสู่ระบบ</span>
+            <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+              <path fill-rule="evenodd" d="M1 8a.75.75 0 0 1 .75-.75h11.59L9.72 3.63a.75.75 0 0 1 1.06-1.06l4.82 4.82a.75.75 0 0 1 0 1.06l-4.82 4.82a.75.75 0 0 1-1.06-1.06l3.63-3.63H1.75A.75.75 0 0 1 1 8Z"/>
+            </svg>
+          `;
+        }
+        if (card) {
+          card.style.opacity = '';
+          card.style.transform = '';
+        }
+      }, 260);
+
+      return true;
+    } else {
+      // Wrong password
+      const errMsg = document.getElementById('auth-error-msg');
+      const card = document.getElementById('auth-card');
+      const input = document.getElementById('auth-password-input');
+      const inputGroup = input ? input.closest('.auth-input-group') : null;
+
+      if (errMsg) errMsg.hidden = false;
+      if (inputGroup) inputGroup.classList.add('has-error');
+
+      if (card) {
+        card.classList.remove('auth-shake');
+        void card.offsetWidth;
+        card.classList.add('auth-shake');
+        setTimeout(() => card.classList.remove('auth-shake'), 480);
+      }
+
+      if (input) {
+        input.value = '';
+        input.focus();
+      }
+
+      return false;
+    }
+  },
+
+  lock() {
+    try {
+      sessionStorage.removeItem(AUTH_STORAGE_KEY);
+      localStorage.removeItem(AUTH_STORAGE_KEY);
+    } catch (e) {}
+    this.showModal();
+  },
+
+  bindEvents() {
+    if (this._eventsBound) return;
+    this._eventsBound = true;
+
+    const form = document.getElementById('auth-form');
+    const input = document.getElementById('auth-password-input');
+    const toggleBtn = document.getElementById('btn-auth-toggle-pwd');
+    const rememberMe = document.getElementById('auth-remember-me');
+    const lockBtn = document.getElementById('btn-auth-lock');
+
+    const handleUnlock = () => {
+      const pwd = input ? input.value.trim() : '';
+      const rem = rememberMe ? rememberMe.checked : false;
+      this.unlock(pwd, rem);
+    };
+
+    if (form) {
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        handleUnlock();
+      });
+    }
+
+    if (input) {
+      input.addEventListener('input', () => {
+        const errMsg = document.getElementById('auth-error-msg');
+        const inputGroup = input.closest('.auth-input-group');
+        if (errMsg) errMsg.hidden = true;
+        if (inputGroup) inputGroup.classList.remove('has-error');
+      });
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          handleUnlock();
+        }
+      });
+    }
+
+    if (toggleBtn && input) {
+      toggleBtn.addEventListener('click', () => {
+        if (input.type === 'password') {
+          input.type = 'text';
+          toggleBtn.textContent = '🙈';
+          toggleBtn.title = 'ซ่อนรหัสผ่าน';
+        } else {
+          input.type = 'password';
+          toggleBtn.textContent = '👁️';
+          toggleBtn.title = 'แสดงรหัสผ่าน';
+        }
+        input.focus();
+      });
+    }
+
+    if (lockBtn) {
+      lockBtn.addEventListener('click', () => {
+        this.lock();
+      });
+    }
+
+    // Intercept keyboard shortcuts in capture phase while locked
+    window.addEventListener('keydown', (e) => {
+      if (document.documentElement.classList.contains('auth-locked') || document.body.classList.contains('auth-locked')) {
+        // Allow typing within auth modal inputs
+        if (e.target && e.target.closest && e.target.closest('#auth-modal')) {
+          return;
+        }
+        // Block other keys/shortcuts from reaching app behind modal
+        e.stopPropagation();
+      }
+    }, true);
+  }
+};
+
+if (typeof window !== 'undefined') {
+  window.AuthGate = AuthGate;
+}
+
+
 
 
 const D = {};
@@ -22232,7 +22899,8 @@ const D = {};
  'doc-info-path', 'doc-stat-words', 'doc-stat-chars', 'doc-stat-size', 'doc-stat-lines',
  'btn-copy-path', 'doc-info-wrap', 'sb-loading', 'sb-loading-text', 'bm-panel', 'btn-bm-toggle', 'reading-progress-bar',
  'btn-sb-close', 'btn-mobile-toc', 'btn-toc-mobile-close', 'mb-doc-title', 'mobile-backdrop', 'mobile-bottom-bar',
- 'mbb-files', 'mbb-toc', 'mbb-theme', 'mbb-bm', 'mbb-pet', 'mbb-top']
+ 'mbb-files', 'mbb-toc', 'mbb-theme', 'mbb-bm', 'mbb-pet', 'mbb-top',
+ 'auth-modal', 'auth-password-input', 'auth-submit-btn', 'auth-error-msg', 'btn-auth-lock']
 .forEach(id => D[id.replace(/-(\w)/g, (_, c) => c.toUpperCase())] = document.getElementById(id));
 
 function showLoading(msg) {
@@ -22666,6 +23334,7 @@ document.addEventListener('click', e => {
 });
 
 document.addEventListener('keydown', e => {
+  if (document.documentElement.classList.contains('auth-locked') || document.body.classList.contains('auth-locked')) return;
   if (e.key === 'Escape') {
     if (D.typeFilterDropdown && !D.typeFilterDropdown.hidden) {
       toggleFilterDropdown(false);
@@ -22965,6 +23634,7 @@ function factoryResetUI() {
 }
 
 document.addEventListener('keydown', e => {
+  if (document.documentElement.classList.contains('auth-locked') || document.body.classList.contains('auth-locked')) return;
   // Alt + T or Ctrl + Shift + T: Toggle TOC Mini-Rail
   if ((e.altKey && e.key.toLowerCase() === 't') || ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 't')) {
     e.preventDefault();
@@ -23008,6 +23678,9 @@ if (D.mdContent) {
 }
 
 async function initApp() {
+  // Cloudflare Security Gate Integration
+  AuthGate.init();
+
   await Store.open();
   await BookmarkStore.open();
 

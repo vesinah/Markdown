@@ -19,8 +19,9 @@ import { ViewRouter, switchView, openFile } from './core/router.js';
 import { MenubarController } from './ui/menubar.js';
 import { DocInfoController } from './ui/doc-info.js';
 import { ReadingProgress } from './ui/reading-progress.js';
+import { AuthGate } from './ui/auth-gate.js';
 
-export { switchView, openFile };
+export { switchView, openFile, AuthGate };
 
 const D = {};
 ['btn-add', 'btn-add2', 'btn-sort-name', 'btn-sort-date', 'btn-refresh', 'search-input', 'search-content', 'search-info', 'tree', 'stat-title', 'stat-filesize', 'sb-progress-bar',
@@ -39,7 +40,8 @@ const D = {};
  'doc-info-path', 'doc-stat-words', 'doc-stat-chars', 'doc-stat-size', 'doc-stat-lines',
  'btn-copy-path', 'doc-info-wrap', 'sb-loading', 'sb-loading-text', 'bm-panel', 'btn-bm-toggle', 'reading-progress-bar',
  'btn-sb-close', 'btn-mobile-toc', 'btn-toc-mobile-close', 'mb-doc-title', 'mobile-backdrop', 'mobile-bottom-bar',
- 'mbb-files', 'mbb-toc', 'mbb-theme', 'mbb-bm', 'mbb-pet', 'mbb-top']
+ 'mbb-files', 'mbb-toc', 'mbb-theme', 'mbb-bm', 'mbb-pet', 'mbb-top',
+ 'auth-modal', 'auth-password-input', 'auth-submit-btn', 'auth-error-msg', 'btn-auth-lock']
 .forEach(id => D[id.replace(/-(\w)/g, (_, c) => c.toUpperCase())] = document.getElementById(id));
 
 function showLoading(msg) {
@@ -473,6 +475,7 @@ document.addEventListener('click', e => {
 });
 
 document.addEventListener('keydown', e => {
+  if (document.documentElement.classList.contains('auth-locked') || document.body.classList.contains('auth-locked')) return;
   if (e.key === 'Escape') {
     if (D.typeFilterDropdown && !D.typeFilterDropdown.hidden) {
       toggleFilterDropdown(false);
@@ -772,6 +775,7 @@ export function factoryResetUI() {
 }
 
 document.addEventListener('keydown', e => {
+  if (document.documentElement.classList.contains('auth-locked') || document.body.classList.contains('auth-locked')) return;
   // Alt + T or Ctrl + Shift + T: Toggle TOC Mini-Rail
   if ((e.altKey && e.key.toLowerCase() === 't') || ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 't')) {
     e.preventDefault();
@@ -815,6 +819,9 @@ if (D.mdContent) {
 }
 
 export async function initApp() {
+  // Cloudflare Security Gate Integration
+  AuthGate.init();
+
   await Store.open();
   await BookmarkStore.open();
 

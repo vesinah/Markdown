@@ -177,6 +177,10 @@ test('MDBrowse.html: Generated file contains all new modular components and elem
   assert(html.includes('sb-opts-divider'), 'Contains sb-opts-divider CSS class');
   assert(html.includes('setSort'), 'Contains setSort function');
   assert(html.includes('applySortToAllNodes'), 'Contains applySortToAllNodes function');
+  assert(html.includes('id="auth-modal"'), 'Contains auth-modal DOM element');
+  assert(html.includes('id="auth-password-input"'), 'Contains auth-password-input DOM element');
+  assert(html.includes('id="btn-auth-lock"'), 'Contains btn-auth-lock DOM element');
+  assert(html.includes('AuthGate'), 'Contains AuthGate module');
 });
 
 // 10. Callout & Markdown Parser regex verification
@@ -267,6 +271,89 @@ test('cmpNodes: Accurately sorts files by OS lastModified (mtime) date/time', ()
   assert.strictEqual(files[0].name, 'doc_alpha.md');
   assert.strictEqual(files[1].name, 'doc_gamma.md');
   assert.strictEqual(files[2].name, 'doc_beta.md');
+});
+
+// 14. Test Cloudflare Auth Gate Module
+const authFile = fs.readFileSync(path.join(SRC, 'js/ui/auth-gate.js'), 'utf8')
+  .replace(/^export\s+const\s+/gm, 'const ');
+
+function createAuthSandbox(customEnv = {}) {
+  const store = { session: new Map(), local: new Map() };
+  const mockStorage = (map) => ({
+    getItem: (k) => map.has(k) ? map.get(k) : null,
+    setItem: (k, v) => map.set(k, String(v)),
+    removeItem: (k) => map.delete(k),
+    clear: () => map.clear()
+  });
+
+  const sandbox = {
+    console,
+    RegExp,
+    setTimeout: (fn) => fn(),
+    sessionStorage: mockStorage(store.session),
+    localStorage: mockStorage(store.local),
+    location: Object.assign({
+      hostname: 'markmakk.pages.dev',
+      protocol: 'https:',
+      search: ''
+    }, customEnv.location || {}),
+    document: {
+      documentElement: { classList: { add: () => {}, remove: () => {}, contains: () => false } },
+      body: { classList: { add: () => {}, remove: () => {}, contains: () => false } },
+      getElementById: () => null
+    },
+    window: {
+      addEventListener: () => {}
+    }
+  };
+  vm.createContext(sandbox);
+  vm.runInContext(authFile + '\nthis.AuthGate = AuthGate;\nthis.AUTH_PASSWORD = AUTH_PASSWORD;', sandbox);
+  return sandbox;
+}
+
+test('AuthGate.isTargetEnvironment: Identifies Cloudflare Pages and HTTPS deployments correctly', () => {
+  const cf = createAuthSandbox({ location: { hostname: 'markmakk.pages.dev', protocol: 'https:' } });
+  assert.strictEqual(cf.AuthGate.isTargetEnvironment(), true);
+
+  const customCf = createAuthSandbox({ location: { hostname: 'my-research.cloudflare.com', protocol: 'https:' } });
+  assert.strictEqual(customCf.AuthGate.isTargetEnvironment(), true);
+
+  const queryAuth = createAuthSandbox({ location: { hostname: 'localhost', protocol: 'http:', search: '?auth=1' } });
+  assert.strictEqual(queryAuth.AuthGate.isTargetEnvironment(), true);
+
+  const localFile = createAuthSandbox({ location: { hostname: '', protocol: 'file:', search: '' } });
+  assert.strictEqual(localFile.AuthGate.isTargetEnvironment(), false);
+
+  const localHost = createAuthSandbox({ location: { hostname: 'localhost', protocol: 'http:', search: '' } });
+  assert.strictEqual(localHost.AuthGate.isTargetEnvironment(), false);
+});
+
+test('AuthGate.unlock: Correctly accepts 112213 and rejects invalid passwords', () => {
+  const env = createAuthSandbox();
+  assert.strictEqual(env.AUTH_PASSWORD, '112213');
+
+  // Wrong password rejected
+  const failResult = env.AuthGate.unlock('999999', false);
+  assert.strictEqual(failResult, false);
+  assert.strictEqual(env.AuthGate.isUnlocked(), false);
+
+  // Correct password 112213 accepted
+  const passResult = env.AuthGate.unlock('112213', true);
+  assert.strictEqual(passResult, true);
+  assert.strictEqual(env.AuthGate.isUnlocked(), true);
+  assert.strictEqual(env.sessionStorage.getItem('markmak_auth'), '112213');
+  assert.strictEqual(env.localStorage.getItem('markmak_auth'), '112213');
+});
+
+test('AuthGate.lock: Clears stored credentials and restores locked state', () => {
+  const env = createAuthSandbox();
+  env.AuthGate.unlock('112213', true);
+  assert.strictEqual(env.AuthGate.isUnlocked(), true);
+
+  env.AuthGate.lock();
+  assert.strictEqual(env.AuthGate.isUnlocked(), false);
+  assert.strictEqual(env.sessionStorage.getItem('markmak_auth'), null);
+  assert.strictEqual(env.localStorage.getItem('markmak_auth'), null);
 });
 
 console.log('==============================================================================');

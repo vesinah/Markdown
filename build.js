@@ -71,7 +71,8 @@ const cssFiles = [
   'css/pdfview.css',
   'css/imgview.css',
   'css/pet.css',
-  'css/bookmark.css'
+  'css/bookmark.css',
+  'css/auth.css'
 ];
 const combinedCss = cssFiles.map(f => fs.existsSync(path.join(SRC, f)) ? fs.readFileSync(path.join(SRC, f), 'utf8') : '').join('\n\n');
 
@@ -132,6 +133,7 @@ const jsModules = [
   'js/ui/menubar.js',
   'js/ui/doc-info.js',
   'js/ui/reading-progress.js',
+  'js/ui/auth-gate.js',
   'js/app.js'
 ];
 
@@ -171,9 +173,27 @@ ${combinedCss}
 </style>
 <body>
 <script>
-if (typeof window !== 'undefined' && window.innerWidth <= 768) {
-  document.body.classList.add('sb-closed');
-}
+(function() {
+  if (typeof window === 'undefined') return;
+  if (window.innerWidth <= 768) {
+    document.body.classList.add('sb-closed');
+  }
+  try {
+    var isTarget = (
+      location.hostname.endsWith('pages.dev') ||
+      location.hostname.includes('cloudflare') ||
+      (location.protocol === 'https:' && !['localhost', '127.0.0.1'].includes(location.hostname)) ||
+      (new URLSearchParams(location.search)).has('auth')
+    );
+    if (isTarget) {
+      var authed = (sessionStorage.getItem('markmak_auth') === '112213' || localStorage.getItem('markmak_auth') === '112213');
+      if (!authed) {
+        document.documentElement.classList.add('auth-locked');
+        document.body.classList.add('auth-locked');
+      }
+    }
+  } catch (e) {}
+})();
 </script>
 <div id="app">
   <!-- Sidebar -->
@@ -416,7 +436,13 @@ if (typeof window !== 'undefined' && window.innerWidth <= 768) {
         </div>
       </div>
 
-        <!-- Vertical Divider separating ? from Bookmark toggle -->
+        <!-- Vertical Divider separating ? from Lock -->
+        <div class="mb-divider auth-lock-divider" id="auth-lock-divider" hidden></div>
+
+        <!-- Lock Screen Button -->
+        <button type="button" id="btn-auth-lock" class="doc-info-btn btn-auth-lock" title="ล็อกหน้าจอ (Lock Screen)" aria-label="ล็อกหน้าจอ" hidden>🔒</button>
+
+        <!-- Vertical Divider separating Lock from Bookmark toggle -->
         <div class="mb-divider"></div>
 
         <!-- Bookmark Panel Toggle Button -->
@@ -534,6 +560,69 @@ if (typeof window !== 'undefined' && window.innerWidth <= 768) {
       <span class="mbb-label">บนสุด</span>
     </button>
   </nav>
+</div>
+
+<!-- Cloudflare Security Gate Modal (ชั้นป้องกันรหัสผ่าน) -->
+<div id="auth-modal" class="auth-modal" hidden>
+  <div class="auth-backdrop"></div>
+  <div class="auth-card" id="auth-card" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+    <div class="auth-badge-icon" title="ระบบความปลอดภัย มาร์คมาก">
+      <svg viewBox="0 0 24 24" width="34" height="34" fill="currentColor">
+        <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 2.18l7 3.12v4.7c0 4.54-3.14 8.79-7 9.88-3.86-1.09-7-5.34-7-9.88V6.3l7-3.12zM12 7a3 3 0 0 0-3 3v2h-.5A1.5 1.5 0 0 0 7 13.5v5A1.5 1.5 0 0 0 8.5 20h7a1.5 1.5 0 0 0 1.5-1.5v-5A1.5 1.5 0 0 0 15.5 12H15v-2a3 3 0 0 0-3-3zm0 1.5c.83 0 1.5.67 1.5 1.5v2h-3v-2c0-.83.67-1.5 1.5-1.5z"/>
+      </svg>
+    </div>
+
+    <div class="auth-header">
+      <h2 id="auth-title" class="auth-title">มาร์คมาก (MDBrowse)</h2>
+      <p class="auth-subtitle">ระบบป้องกันการเข้าถึงเว็บชั้นหนึ่ง (Cloudflare Access Gate)</p>
+      <p class="auth-desc">กรุณาป้อนรหัสผ่านเพื่อเข้าใช้งาน</p>
+    </div>
+
+    <form class="auth-form" id="auth-form" onsubmit="return false;">
+      <div class="auth-input-group">
+        <span class="auth-input-icon">🔑</span>
+        <input
+          type="password"
+          id="auth-password-input"
+          class="auth-input"
+          placeholder="ป้อนรหัสผ่าน (6 หลัก)..."
+          autocomplete="current-password"
+          inputmode="numeric"
+          maxlength="20"
+        />
+        <button
+          type="button"
+          id="btn-auth-toggle-pwd"
+          class="auth-toggle-pwd-btn"
+          title="แสดง/ซ่อนรหัสผ่าน"
+          aria-label="แสดงรหัสผ่าน"
+        >👁️</button>
+      </div>
+
+      <div id="auth-error-msg" class="auth-error" hidden>
+        <span class="auth-error-icon">⚠️</span>
+        <span id="auth-error-text">รหัสผ่านไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง</span>
+      </div>
+
+      <div class="auth-options">
+        <label class="auth-remember-label">
+          <input type="checkbox" id="auth-remember-me" checked>
+          <span>จดจำบนอุปกรณ์นี้ (Remember me)</span>
+        </label>
+      </div>
+
+      <button type="submit" id="auth-submit-btn" class="auth-submit-btn">
+        <span>ปลดล็อกเข้าสู่ระบบ</span>
+        <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+          <path fill-rule="evenodd" d="M1 8a.75.75 0 0 1 .75-.75h11.59L9.72 3.63a.75.75 0 0 1 1.06-1.06l4.82 4.82a.75.75 0 0 1 0 1.06l-4.82 4.82a.75.75 0 0 1-1.06-1.06l3.63-3.63H1.75A.75.75 0 0 1 1 8Z"/>
+        </svg>
+      </button>
+    </form>
+
+    <div class="auth-footer">
+      <span>🛡️ การป้องกันความปลอดภัยสำหรับเวอร์ชันคลาวด์</span>
+    </div>
+  </div>
 </div>
 
 <script>
