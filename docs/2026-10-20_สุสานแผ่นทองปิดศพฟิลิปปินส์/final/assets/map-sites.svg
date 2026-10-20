@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#f8fafc"/>
+  <text x="400" y="40" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#0f172a">แผนที่เชิงสัญลักษณ์: แหล่งสุสานแผ่นทองปิดศพ 3 แหล่งหลักในฟิลิปปินส์</text>
+  <path d="M 250,120 Q 320,80 380,140 T 420,260 T 360,320 T 280,240 Z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+  <text x="340" y="200" font-family="sans-serif" font-size="14" fill="#64748b">เกาะลูซอน (Luzon)</text>
+  <path d="M 280,330 Q 340,320 370,360 T 320,400 T 260,370 Z" fill="#fed7aa" stroke="#f97316" stroke-width="2"/>
+  <circle cx="295" cy="365" r="8" fill="#ea580c"/>
+  <text x="210" y="370" font-family="sans-serif" font-size="13" font-weight="bold" fill="#9a3412">1. โอตอน (Oton, Iloilo)</text>
+  <path d="M 400,340 Q 430,350 420,410 T 390,430 T 385,360 Z" fill="#fef08a" stroke="#ca8a04" stroke-width="2"/>
+  <circle cx="410" cy="380" r="8" fill="#eab308"/>
+  <text x="430" y="385" font-family="sans-serif" font-size="13" font-weight="bold" fill="#854d0e">3. ปลาซา อินเดเปนเดนเซีย (Cebu)</text>
+  <path d="M 380,440 Q 520,420 540,500 T 460,560 T 350,510 Z" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+  <circle cx="480" cy="465" r="8" fill="#15803d"/>
+  <text x="500" y="470" font-family="sans-serif" font-size="13" font-weight="bold" fill="#14532d">2. บูตูอัน (Butuan, Agusan)</text>
+  <rect x="50" y="480" width="260" height="90" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="65" y="505" font-family="sans-serif" font-size="12" font-weight="bold" fill="#334155">คำอธิบายสัญลักษณ์:</text>
+  <circle cx="75" cy="525" r="5" fill="#ea580c"/>
+  <text x="90" y="529" font-family="sans-serif" font-size="11" fill="#475569">โอตอน: สันทรายชายฝั่งปานาย</text>
+  <circle cx="75" cy="545" r="5" fill="#eab308"/>
+  <text x="90" y="549" font-family="sans-serif" font-size="11" fill="#475569">เซบู: ลานตะพักชายฝั่งเมืองท่า</text>
+  <circle cx="75" cy="565" r="5" fill="#15803d"/>
+  <text x="90" y="569" font-family="sans-serif" font-size="11" fill="#475569">บูตูอัน: ดินดอนปากแม่น้ำอากูซัน</text>
+</svg>

@@ -1,9 +1,9 @@
 {
   "name": "คลังงานวิจัย (Research Archive)",
   "baseUrl": "docs/",
-  "updatedAt": "2026-10-06T23:16:39.890Z",
-  "totalFiles": 8841,
-  "totalBytes": 1093003589,
+  "updatedAt": "2026-10-20T20:02:33.612Z",
+  "totalFiles": 9028,
+  "totalBytes": 1110694385,
   "files": [
     {
       "path": "00 - รวมแปลบทความวิชาการ/05+Ooi+Corrected+FINAL+version+August+14+2022_Embedded.md",
@@ -43904,6 +43904,941 @@
       "path": "2026-10-06_แผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-2003-barretto-ch05.md",
       "size": 11213,
       "mtime": 1791290221290
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/assembled/ch01.md",
+      "size": 53865,
+      "mtime": 1791913545653
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/assembled/ch02.md",
+      "size": 34712,
+      "mtime": 1791913545862
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/assembled/ch03.md",
+      "size": 31188,
+      "mtime": 1791913546070
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/assembled/ch04.md",
+      "size": 32788,
+      "mtime": 1791913546288
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/assembled/ch05.md",
+      "size": 35457,
+      "mtime": 1791913546499
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/assembled/ch06.md",
+      "size": 51509,
+      "mtime": 1791913546707
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/drafting-progress.md",
+      "size": 5981,
+      "mtime": 1791909820391
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/sections/ch01_sec01.md",
+      "size": 29833,
+      "mtime": 1791912777239
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/sections/ch01_sec02.md",
+      "size": 23710,
+      "mtime": 1791912817955
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/sections/ch02_sec01.md",
+      "size": 18139,
+      "mtime": 1791912874165
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/sections/ch02_sec02.md",
+      "size": 16295,
+      "mtime": 1791912913091
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/sections/ch03_sec01.md",
+      "size": 14919,
+      "mtime": 1791912951415
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/sections/ch03_sec02.md",
+      "size": 15977,
+      "mtime": 1791912989235
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/sections/ch04_sec01.md",
+      "size": 14576,
+      "mtime": 1791913029583
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/sections/ch04_sec02.md",
+      "size": 17892,
+      "mtime": 1791913072702
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/sections/ch05_sec01.md",
+      "size": 17995,
+      "mtime": 1791913150196
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/sections/ch05_sec02.md",
+      "size": 17135,
+      "mtime": 1791913193286
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/sections/ch06_sec01.md",
+      "size": 17952,
+      "mtime": 1791913237689
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/drafts/sections/ch06_sec02.md",
+      "size": 33084,
+      "mtime": 1791913434183
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/final/00-สารบัญ.md",
+      "size": 17740,
+      "mtime": 1791913595228
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/final/01-บทที่หนึ่ง.md",
+      "size": 53865,
+      "mtime": 1791913545653
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/final/02-บทที่สอง.md",
+      "size": 34712,
+      "mtime": 1791913545862
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/final/03-บทที่สาม.md",
+      "size": 31188,
+      "mtime": 1791913546070
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/final/04-บทที่สี่.md",
+      "size": 32788,
+      "mtime": 1791913546288
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/final/05-บทที่ห้า.md",
+      "size": 35457,
+      "mtime": 1791913546499
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/final/06-บทที่หก.md",
+      "size": 51509,
+      "mtime": 1791913546707
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/final/references.md",
+      "size": 6273,
+      "mtime": 1791909853232
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/glossary.md",
+      "size": 5005,
+      "mtime": 1791909782370
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/outline-proposal.md",
+      "size": 17231,
+      "mtime": 1791909760682
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/project-plan.md",
+      "size": 13236,
+      "mtime": 1791909734564
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/dossier-template.md",
+      "size": 3978,
+      "mtime": 1789813375374
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/extracted-texts/analayo-2012-teaching-abhidharma.md",
+      "size": 75389,
+      "mtime": 1791911553742
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/extracted-texts/atthasalini-nidanakatha.md",
+      "size": 9003,
+      "mtime": 1791911556683
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/extracted-texts/bareau-1978-descente-trente-trois.md",
+      "size": 2982,
+      "mtime": 1791911557210
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/extracted-texts/cbeta-pilgrims-faxian-xuanzang-sankasya.md",
+      "size": 11212,
+      "mtime": 1791912247450
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/extracted-texts/cbeta-t0125-zengyi-ahan-ch28.md",
+      "size": 32573,
+      "mtime": 1791911554852
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/extracted-texts/cbeta-t0152-shengmu-jing.md",
+      "size": 19573,
+      "mtime": 1791911555462
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/extracted-texts/cbeta-t1451-mulasarvastivada-ksudrakavastu.md",
+      "size": 8715,
+      "mtime": 1791912160025
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/extracted-texts/dhammapada-atthakatha-yamakapatihāriya.md",
+      "size": 9270,
+      "mtime": 1791911556419
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/extracted-texts/divyavadana-pratiharyasutra.md",
+      "size": 25418,
+      "mtime": 1791911910992
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/extracted-texts/luders-1963-bharhut-inscriptions-b18.md",
+      "size": 3157,
+      "mtime": 1791911557158
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/manual-handoff.md",
+      "size": 1692,
+      "mtime": 1791909806886
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/reading-progress.md",
+      "size": 3999,
+      "mtime": 1791912479884
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/source-index.md",
+      "size": 5297,
+      "mtime": 1791911368753
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/sources/S-0285-cbeta-t0152-ch05.md",
+      "size": 7873,
+      "mtime": 1791912739694
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/sources/S-0300-divyavadana-pratiharya-ch02.md",
+      "size": 8299,
+      "mtime": 1791912739697
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/sources/S-0400-cbeta-t0125-ch05.md",
+      "size": 10124,
+      "mtime": 1791912739693
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/sources/S-0500-atthasalini-nidanakatha-ch03.md",
+      "size": 8775,
+      "mtime": 1791912739696
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/sources/S-0500-dhpa-yamakapatihariya-ch03.md",
+      "size": 8851,
+      "mtime": 1791912739695
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/sources/S-0646-cbeta-pilgrims-sankasya-ch05.md",
+      "size": 9200,
+      "mtime": 1791912739698
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/sources/S-0700-cbeta-t1451-ch04.md",
+      "size": 9822,
+      "mtime": 1791912739695
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/sources/S-1963-luders-bharhut-b18-ch02.md",
+      "size": 8836,
+      "mtime": 1791912739697
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/sources/S-1978-bareau-descente-ciel-ch06.md",
+      "size": 9487,
+      "mtime": 1791912739698
+    },
+    {
+      "path": "2026-10-14_เทศนาดาวดึงษ์และเทโวโรหณะ_คัมภีร์เปรียบเทียบ/research-notes/sources/S-2012-analayo-ch01.md",
+      "size": 9881,
+      "mtime": 1791912739692
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/assembled/ch01.md",
+      "size": 210522,
+      "mtime": 1792520348415
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/assembled/ch02.md",
+      "size": 185118,
+      "mtime": 1792520792561
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/assembled/ch03.md",
+      "size": 196756,
+      "mtime": 1792521204164
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/assembled/ch04.md",
+      "size": 205268,
+      "mtime": 1792521642707
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/assembled/ch05.md",
+      "size": 244796,
+      "mtime": 1792522178491
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/assembled/ch06.md",
+      "size": 196485,
+      "mtime": 1792522575803
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/assembled/ch07.md",
+      "size": 172105,
+      "mtime": 1792523675272
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/drafting-progress.md",
+      "size": 21974,
+      "mtime": 1792522564983
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch01_sec01.md",
+      "size": 44291,
+      "mtime": 1792519704137
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch01_sec02.md",
+      "size": 41542,
+      "mtime": 1792519855841
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch01_sec03.md",
+      "size": 34376,
+      "mtime": 1792519961301
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch01_sec04.md",
+      "size": 33905,
+      "mtime": 1792520057369
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch01_sec05.md",
+      "size": 56198,
+      "mtime": 1792520270055
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch02_sec01.md",
+      "size": 44765,
+      "mtime": 1792520459997
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch02_sec02.md",
+      "size": 37388,
+      "mtime": 1792520532598
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch02_sec03.md",
+      "size": 35435,
+      "mtime": 1792520615518
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch02_sec04.md",
+      "size": 35151,
+      "mtime": 1792520693793
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch02_sec05.md",
+      "size": 32371,
+      "mtime": 1792520758509
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch03_sec01.md",
+      "size": 37111,
+      "mtime": 1792520912263
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch03_sec02.md",
+      "size": 36781,
+      "mtime": 1792520978177
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch03_sec03.md",
+      "size": 39075,
+      "mtime": 1792521047501
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch03_sec04.md",
+      "size": 41621,
+      "mtime": 1792521117314
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch03_sec05.md",
+      "size": 42102,
+      "mtime": 1792521180404
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch04_sec01.md",
+      "size": 37574,
+      "mtime": 1792521270815
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch04_sec02.md",
+      "size": 37442,
+      "mtime": 1792521343560
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch04_sec03.md",
+      "size": 35479,
+      "mtime": 1792521396880
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch04_sec04.md",
+      "size": 34497,
+      "mtime": 1792521448884
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch04_sec05.md",
+      "size": 59906,
+      "mtime": 1792521606116
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch05_sec01.md",
+      "size": 57189,
+      "mtime": 1792521760246
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch05_sec02.md",
+      "size": 42752,
+      "mtime": 1792521852369
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch05_sec03.md",
+      "size": 47374,
+      "mtime": 1792521951689
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch05_sec04.md",
+      "size": 52750,
+      "mtime": 1792522045396
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch05_sec05.md",
+      "size": 44231,
+      "mtime": 1792522153943
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch06_sec01.md",
+      "size": 42709,
+      "mtime": 1792522258584
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch06_sec02.md",
+      "size": 39268,
+      "mtime": 1792522353815
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch06_sec03.md",
+      "size": 37268,
+      "mtime": 1792522416575
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch06_sec04.md",
+      "size": 36685,
+      "mtime": 1792522483036
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch06_sec05.md",
+      "size": 40196,
+      "mtime": 1792522549543
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch07_sec01.md",
+      "size": 48369,
+      "mtime": 1792523552337
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch07_sec02.md",
+      "size": 33324,
+      "mtime": 1792523474014
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch07_sec03.md",
+      "size": 32296,
+      "mtime": 1792523409964
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch07_sec04.md",
+      "size": 28787,
+      "mtime": 1792523305185
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/drafts/sections/ch07_sec05.md",
+      "size": 29521,
+      "mtime": 1792523638660
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/00-สารบัญ.md",
+      "size": 17849,
+      "mtime": 1792523770824
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/01-บทนำและบริบทประวัติศาสตร์โบราณคดี.md",
+      "size": 210522,
+      "mtime": 1792520348415
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/02-การฝังศพครั้งที่หนึ่งหรือครั้งที่สอง.md",
+      "size": 185118,
+      "mtime": 1792520792561
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/03-ปริศนาแห่งการฝังมิใช่เผา.md",
+      "size": 196756,
+      "mtime": 1792521204164
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/04-ชัยภูมิภูมิทัศน์และนิเวศวิทยาการตั้งถิ่นฐาน.md",
+      "size": 205268,
+      "mtime": 1792521642707
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/05-เรขาคณิตหลุมศพสัณฐานวิทยาโลงไม้และการดัดแปลงสรีระ.md",
+      "size": 244796,
+      "mtime": 1792522178491
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/06-เครื่องอุทิศในหลุมศพและพลวัตชนชั้น.md",
+      "size": 196485,
+      "mtime": 1792522575803
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/07-บทสรุปสมานภาพพิธีกรรมศพและวิทยาศาสตร์โบราณคดี.md",
+      "size": 172105,
+      "mtime": 1792523675272
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/assets/butuan-setting.svg",
+      "size": 1877,
+      "mtime": 1792518364868
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/assets/cremation-inhumation.svg",
+      "size": 3225,
+      "mtime": 1792518364869
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/assets/grave-goods-distribution.svg",
+      "size": 2640,
+      "mtime": 1792518364869
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/assets/map-sites.svg",
+      "size": 2602,
+      "mtime": 1792518364865
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/assets/oton-grave6-section.svg",
+      "size": 2612,
+      "mtime": 1792518364866
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/assets/plaza-burial-plan.svg",
+      "size": 2295,
+      "mtime": 1792518364868
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/assets/typology-burial.svg",
+      "size": 4800,
+      "mtime": 1792518364866
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/final/references.md",
+      "size": 10847,
+      "mtime": 1792523794466
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/outline-proposal.md",
+      "size": 51415,
+      "mtime": 1792519258163
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/project-plan.md",
+      "size": 13063,
+      "mtime": 1792519062818
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/acta_medica_tooth_modification.md",
+      "size": 27198,
+      "mtime": 1792512808339
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/asj_2019_jocano_santa_ana.md",
+      "size": 14450,
+      "mtime": 1792512812085
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/bacus_1995_unto_site_negros.md",
+      "size": 98405,
+      "mtime": 1792512873837
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/barretto_2003_burial_goods.md",
+      "size": 52675,
+      "mtime": 1791289072127
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/barretto_tesoro_2008_ucl_thesis.md",
+      "size": 713679,
+      "mtime": 1792511428679
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/bsp_ginto_history_wrought_in_gold.md",
+      "size": 230373,
+      "mtime": 1792511538397
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/burton_1977_suatan_butuan.md",
+      "size": 41450,
+      "mtime": 1792512890210
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/canilao_coffin_traditions_ilocos.md",
+      "size": 5159,
+      "mtime": 1792511541898
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/ccp_encyclopedia_oton_face_covers.md",
+      "size": 5516,
+      "mtime": 1792512892816
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/chirino_1604_blair_vol12.md",
+      "size": 558219,
+      "mtime": 1791289116926
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/chirino_1604_relacion.md",
+      "size": 534582,
+      "mtime": 1791289588887
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/colin_1663_labor_evangelica.md",
+      "size": 3949867,
+      "mtime": 1792515993326
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/elizaga_bautista_exploration_report.md",
+      "size": 7666,
+      "mtime": 1792515997561
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/estrella_2016_tagalog_goldworking_hukay.md",
+      "size": 69775,
+      "mtime": 1792511550118
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/estrella_death_of_gold_visayan.md",
+      "size": 62054,
+      "mtime": 1792511556709
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/fox_1959_calatagan_excavations.md",
+      "size": 139528,
+      "mtime": 1792511685598
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/fox_1970_tabon_caves.md",
+      "size": 383901,
+      "mtime": 1792517477261
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/francisco_1963_agusan_golden_image.md",
+      "size": 23463,
+      "mtime": 1792511691347
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/gallardo_2017_kiyyangan_jar_burials_ucla.md",
+      "size": 132128,
+      "mtime": 1792511693995
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/guy_2011_gold_in_philippines_ayala.md",
+      "size": 81738,
+      "mtime": 1792517247913
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/hutterer_1967_salvage_cebu.md",
+      "size": 9151,
+      "mtime": 1792517280270
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/jagor_1873_reisen.md",
+      "size": 1021407,
+      "mtime": 1791289588927
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/lacsina_2022_butuan_boats_minpaku.md",
+      "size": 54764,
+      "mtime": 1792511702171
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/loarca_1582_blair_vol05.md",
+      "size": 515719,
+      "mtime": 1791289450967
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/manguin_mani_wade_2011_early_interactions_prelims.md",
+      "size": 72187,
+      "mtime": 1792517290501
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/marche_1887_lucon.md",
+      "size": 692945,
+      "mtime": 1791289588899
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/nmp_2021_ancient_burial_spaces.md",
+      "size": 4208,
+      "mtime": 1792517293422
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/nmp_2021_precolonial_burial_traditions.md",
+      "size": 4639,
+      "mtime": 1792517299420
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/nmp_2023_cebu_exhibition_list.md",
+      "size": 13139,
+      "mtime": 1792511707065
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/nmp_annual_report_2016.md",
+      "size": 344226,
+      "mtime": 1792511829947
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/nmp_burial_jars_collection.md",
+      "size": 3580,
+      "mtime": 1792517304063
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/nmp_butuan_ambangan.md",
+      "size": 2342,
+      "mtime": 1792517307763
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/nmp_butuan_boat_site_museum.md",
+      "size": 1917,
+      "mtime": 1792517307730
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/nmp_butuan_regional_museum.md",
+      "size": 5779,
+      "mtime": 1792517311970
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/nmp_oton_death_mask_gallery.md",
+      "size": 3222,
+      "mtime": 1792517315472
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/nmp_wooden_coffins_collection.md",
+      "size": 3141,
+      "mtime": 1792517321278
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/peterson_tiauzon_2021_parian_cebu.md",
+      "size": 76564,
+      "mtime": 1792517337231
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/pigafetta_1524_blair_vol33.md",
+      "size": 642064,
+      "mtime": 1791289524273
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/postma_1992_laguna_copperplate.md",
+      "size": 48518,
+      "mtime": 1792517351529
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/reinecke_nguyen_2009_gold_masks_vietnam.md",
+      "size": 42875,
+      "mtime": 1792517427025
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/scott_1994_barangay.md",
+      "size": 777526,
+      "mtime": 1791289588958
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/smith_2023_gold_and_wood_uh_thesis.md",
+      "size": 267887,
+      "mtime": 1792517429384
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/solheim_1959_kalanay_notes.md",
+      "size": 22078,
+      "mtime": 1792511835178
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/sullivan_1956_archaeology_ph.md",
+      "size": 37412,
+      "mtime": 1792517438220
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/suzuki_1993_cranial_deformation.md",
+      "size": 20728,
+      "mtime": 1791289525634
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/tabarev_2019_anthropomorphic_jars.md",
+      "size": 28170,
+      "mtime": 1792511838117
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/unesco_tentativelist_2071_butuan.md",
+      "size": 12479,
+      "mtime": 1792512075895
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/extracted-texts/up_ac_philippine_prehistory_intro.md",
+      "size": 46850,
+      "mtime": 1792511880714
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/harvest-manifest.json",
+      "size": 3438,
+      "mtime": 1792511003042
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/images/onsite_cebu_death_mask.jpg",
+      "size": 151621,
+      "mtime": 1792512823393
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/manual-handoff.md",
+      "size": 6767,
+      "mtime": 1792513984275
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/reading-progress.md",
+      "size": 4771,
+      "mtime": 1792517648919
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/source-index.md",
+      "size": 18988,
+      "mtime": 1792517459293
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-1524-pigafetta-ch02.md",
+      "size": 10085,
+      "mtime": 1791290285267
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-1582-loarca-ch04.md",
+      "size": 12764,
+      "mtime": 1791290102843
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-1604-chirino-ch04.md",
+      "size": 11193,
+      "mtime": 1791289727338
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-1873-jagor-ch06.md",
+      "size": 9889,
+      "mtime": 1791290342378
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-1887-marche-ch06.md",
+      "size": 9554,
+      "mtime": 1791290378665
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-1963-francisco-tara.md",
+      "size": 7928,
+      "mtime": 1792517628988
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-1977-burton-suatan.md",
+      "size": 4990,
+      "mtime": 1792517670487
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-1992-postma-lci.md",
+      "size": 7598,
+      "mtime": 1792517629022
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-1993-suzuki-ch03.md",
+      "size": 12094,
+      "mtime": 1791290256737
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-1994-scott-ch01-05.md",
+      "size": 11723,
+      "mtime": 1791290162697
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-2003-barretto-ch05.md",
+      "size": 11213,
+      "mtime": 1791290221290
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-2015-estrella-death-gold.md",
+      "size": 7947,
+      "mtime": 1792517628937
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-2019-tabarev.md",
+      "size": 7816,
+      "mtime": 1792517629009
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-2022-lacsina-butuan.md",
+      "size": 1840,
+      "mtime": 1792517670490
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-2023-NMP-cebu-list.md",
+      "size": 2753,
+      "mtime": 1792517670488
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-NMP-oton-gallery.md",
+      "size": 2268,
+      "mtime": 1792517670488
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-NMP-precolonial-burial.md",
+      "size": 3198,
+      "mtime": 1792517670487
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-NMP-traditions.md",
+      "size": 8142,
+      "mtime": 1792517628999
+    },
+    {
+      "path": "2026-10-20_สุสานแผ่นทองปิดศพฟิลิปปินส์/research-notes/sources/S-UNESCO-2071.md",
+      "size": 2428,
+      "mtime": 1792517670490
     },
     {
       "path": "tutankhamun-usurpation/drafts/assembled/ch01.md",

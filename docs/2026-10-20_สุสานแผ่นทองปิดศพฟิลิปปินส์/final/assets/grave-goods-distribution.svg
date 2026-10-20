@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect width="800" height="450" fill="#f8fafc"/>
+  <text x="400" y="35" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#0f172a">แผนภูมิจำแนกประเภทเครื่องอุทิศร่วมฝังในสุสานแผ่นทองคำ</text>
+  <rect x="120" y="100" width="450" height="40" rx="4" fill="#3b82f6"/>
+  <text x="110" y="125" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="end" fill="#1e3a8a">เครื่องเคลือบจีน</text>
+  <text x="580" y="125" font-family="sans-serif" font-size="12" fill="#1e40af">ซ่งใต้-หยวน-หมิงตอนต้น (จาน ชาม ไห กระปุก)</text>
+  <rect x="120" y="160" width="320" height="40" rx="4" fill="#10b981"/>
+  <text x="110" y="185" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="end" fill="#065f46">ลูกปัดเครื่องประดับ</text>
+  <text x="450" y="185" font-family="sans-serif" font-size="12" fill="#047857">หินคาร์เนเลียน อะเกต และแก้วอินโด-แปซิฟิก</text>
+  <rect x="120" y="220" width="220" height="40" rx="4" fill="#64748b"/>
+  <text x="110" y="245" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="end" fill="#334155">อาวุธเหล็ก</text>
+  <text x="350" y="245" font-family="sans-serif" font-size="12" fill="#475569">กริชโบราณ (Kris) หัวหอก มีดสั้นข้างลำตัว</text>
+  <rect x="120" y="280" width="140" height="40" rx="4" fill="#f59e0b"/>
+  <text x="110" y="305" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="end" fill="#b45309">แผ่นทองคำปิดทวาร</text>
+  <text x="270" y="305" font-family="sans-serif" font-size="12" font-weight="bold" fill="#d97706">เฉพาะบุคคลชั้นนำระดับดาตู (สูงสุดและจำกัดยิ่ง)</text>
+  <line x1="120" y1="80" x2="120" y2="340" stroke="#94a3b8" stroke-width="2"/>
+  <text x="400" y="390" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#64748b">แสดงความสัมพันธ์ระหว่างลำดับชั้นทางสังคมกับความหายากของชุดเครื่องอุทิศ</text>
+</svg>

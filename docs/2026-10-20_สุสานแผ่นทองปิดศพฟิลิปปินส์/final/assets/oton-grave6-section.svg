@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect width="800" height="450" fill="#f8fafc"/>
+  <text x="400" y="35" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#0f172a">แผนภาพจำลองหน้าตัดหลุมฝังศพหมายเลข 6 แหล่งโอตอน (Oton Grave No. 6)</text>
+  <rect x="50" y="60" width="700" height="60" fill="#fed7aa"/>
+  <text x="70" y="95" font-family="sans-serif" font-size="13" fill="#9a3412">ชั้นดินสันทรายชายฝั่งธรรมชาติ (Coastal Dune Sand Layer)</text>
+  <path d="M 120,120 L 160,380 L 640,380 L 680,120 Z" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+  <text x="400" y="150" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#b45309">หลุมดินฝังศพปฐมภูมิ (Primary Pit Burial, Depth ~1.4m)</text>
+  <rect x="200" y="190" width="400" height="150" rx="15" fill="#78350f" stroke="#451a03" stroke-width="3"/>
+  <text x="400" y="215" font-family="sans-serif" font-size="12" fill="#fef3c7" text-anchor="middle">ร่องรอยโลงไม้ขุดเนื้อแข็งท่อนเดียว (Longon Wooden Coffin)</text>
+  <circle cx="260" cy="270" r="28" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/>
+  <rect x="288" y="260" width="160" height="20" rx="5" fill="#cbd5e1"/>
+  <rect x="448" y="255" width="130" height="15" rx="4" fill="#cbd5e1"/>
+  <rect x="448" y="275" width="130" height="15" rx="4" fill="#cbd5e1"/>
+  <ellipse cx="253" cy="265" rx="8" ry="5" fill="#f59e0b" stroke="#78350f"/>
+  <polygon points="263,266 268,276 258,276" fill="#f59e0b" stroke="#78350f"/>
+  <text x="260" y="325" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#fbbf24">แผ่นทองปิดตาและจมูก (In situ)</text>
+  <circle cx="230" cy="225" r="14" fill="#a7f3d0" stroke="#059669" stroke-width="1.5"/>
+  <circle cx="240" cy="315" r="14" fill="#a7f3d0" stroke="#059669" stroke-width="1.5"/>
+  <circle cx="580" cy="270" r="16" fill="#a7f3d0" stroke="#059669" stroke-width="1.5"/>
+  <text x="400" y="420" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#475569">โครงกระดูกนอนหงายเหยียดยาว (Extended Supine) ล้อมรอบด้วยเครื่องเคลือบซ่ง-หยวนและลูกปัด</text>
+</svg>

@@ -1,0 +1,68 @@
+{
+  "downloaded": {
+    "estrella_death_of_gold_visayan.pdf": {
+      "url": "https://saliksik.upd.edu.ph/storage/submission/pdf/manuscripts/NOErnMeKxcFT554cwzEdZcm3HofoQBHBZhj5jAcE.pdf",
+      "status": "already",
+      "bytes": 1297672
+    },
+    "francisco_1963_agusan_golden_image.pdf": {
+      "url": "https://www.asj.upd.edu.ph/mediabox/archive/ASJ-01-01-1963/Francisco.pdf",
+      "status": "already",
+      "bytes": 417673
+    },
+    "lacsina_2022_butuan_boats_minpaku.pdf": {
+      "url": "https://minpaku.repo.nii.ac.jp/record/8907/files/KH_047_1_04.pdf",
+      "status": "already",
+      "bytes": 1428995
+    },
+    "nmp_2023_cebu_exhibition_list.pdf": {
+      "url": "https://weblinks.nationalmuseum.gov.ph/wp-content/uploads/2023/07/31111950/Exhibition-Image-list-_NMP-CEBU.pdf",
+      "status": "already",
+      "bytes": 11474343
+    },
+    "barretto_tesoro_2008_ucl_thesis.pdf": {
+      "url": "https://discovery.ucl.ac.uk/id/eprint/14280/1/505506.pdf",
+      "status": "already",
+      "bytes": 26525699
+    },
+    "bsp_ginto_history_wrought_in_gold.pdf": {
+      "url": "https://www.bsp.gov.ph/Media_And_Research/Publications/Ginto.pdf",
+      "status": "already",
+      "bytes": 13954416
+    },
+    "up_ac_philippine_prehistory_intro.pdf": {
+      "url": "https://ac.upd.edu.ph/acmedia/images/books-monographs/Philippine_Prehistory_Introduction.pdf",
+      "status": "already",
+      "bytes": 3955624
+    },
+    "solheim_1959_kalanay_notes.pdf": {
+      "url": "https://os.pennds.org/archaeobib_filestore/pdf_articles/AP/1959_3_2_Solheim2.pdf",
+      "status": "already",
+      "bytes": 3845803
+    },
+    "estrella_2016_tagalog_goldworking_hukay.pdf": {
+      "url": "https://saliksik.upd.edu.ph/storage/submission/pdf/manuscripts/yYhmOLTobYrfjbSd205FGLWJE45TNKWc6BdErT6V.pdf",
+      "status": "ok",
+      "bytes": 1235373,
+      "content-type": "application/pdf"
+    },
+    "nmp_annual_report_2016.pdf": {
+      "url": "https://weblinks.nationalmuseum.gov.ph/wp-content/uploads/2021/07/2.-NM-AR-2016-pdf-final.pdf",
+      "status": "ok",
+      "bytes": 4585695,
+      "content-type": "application/pdf"
+    }
+  },
+  "failed": {
+    "tabarev_2019_anthropomorphic_jars.pdf": {
+      "url": "https://journal.archaeology.nsc.ru/jour/article/viewFile/680/634",
+      "status": "error: HTTPSConnectionPool(host='journal.archaeology.nsc.ru', port=443): Max retries exceeded with url: /jour/article/viewFile/680/634 (Caused by ConnectTimeoutError(<HTTPSConnection(host='journal.archaeology.nsc.ru', port=443) at 0x2b9d2469eb0>, 'Connection to journal.archaeology.nsc.ru timed out. (connect timeout=90)'))"
+    },
+    "fox_1959_calatagan_phil_studies.pdf": {},
+    "gallardo_2017_kiyyangan_jar_burials_ucla.pdf": {},
+    "canilao_coffin_traditions_ilocos.pdf": {
+      "url": "https://thecordillerareview.upb.edu.ph/wp-content/uploads/2021/05/TCR-IV-1_Canilao_Three-Burial-Coffin-Traditions-in-Upland-Ilocos-Sur-doi.pdf",
+      "status": "error: HTTPSConnectionPool(host='thecordillerareview.upb.edu.ph', port=443): Max retries exceeded with url: /wp-content/uploads/2021/05/TCR-IV-1_Canilao_Three-Burial-Coffin-Traditions-in-Upland-Ilocos-Sur-doi.pdf (Caused by ConnectTimeoutError(<HTTPSConnection(host='thecordillerareview.upb.edu.ph', port=443) at 0x2b9d246b2c0>, 'Connection to thecordillerareview.upb.edu.ph timed out. (connect timeout=90)'))"
+    }
+  }
+}
