@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 1270" font-family="sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#A85B12"/>
+    </marker>
+    <path id="starPH" d="M0,-14 L3.48,-4.79 L13.31,-4.33 L5.63,1.83 L8.21,11.33 L0,5.92 L-8.21,11.33 L-5.63,1.83 L-13.31,-4.33 L-3.48,-4.79 Z"/>
+  </defs>
+
+  <!-- พื้นทะเล -->
+  <rect x="0" y="0" width="1600" height="1270" fill="#D8E6EF"/>
+
+  <!-- หัวเรื่อง -->
+  <text x="800" y="46" text-anchor="middle" font-size="34" font-weight="bold" fill="#3B2F1E">แผนที่ที่ 1.1: แหล่งหน้ากากทองปิดศพและแผ่นทองปิดหน้าศพในเอเชีย</text>
+  <text x="800" y="80" text-anchor="middle" font-size="21" fill="#5A4A30">แหล่งแกนกลางสามแห่งในฟิลิปปินส์ เทียบเคียงกับแหล่งในเวียดนาม กัมพูชา อินโดนีเซีย และจีน (แผนที่เชิงสัญลักษณ์ ตำแหน่งโดยประมาณตามภูมิศาสตร์จริง)</text>
+
+  <!-- เส้นโครงองศา (graticule) -->
+  <g stroke="#B9C9D6" stroke-width="1" stroke-dasharray="4 6">
+    <line x1="335" y1="140" x2="335" y2="1235"/>
+    <line x1="607" y1="140" x2="607" y2="1235"/>
+    <line x1="878" y1="140" x2="878" y2="1235"/>
+    <line x1="1150" y1="140" x2="1150" y2="1235"/>
+    <line x1="110" y1="401" x2="1460" y2="401"/>
+    <line x1="110" y1="674" x2="1460" y2="674"/>
+    <line x1="110" y1="946" x2="1460" y2="946"/>
+  </g>
+  <g font-size="13" fill="#7B8B99">
+    <text x="335" y="134" text-anchor="middle">75°อ.</text>
+    <text x="607" y="134" text-anchor="middle">90°อ.</text>
+    <text x="878" y="134" text-anchor="middle">105°อ.</text>
+    <text x="1150" y="134" text-anchor="middle">120°อ.</text>
+    <text x="116" y="405">30°เหนือ</text>
+    <text x="116" y="678">15°เหนือ</text>
+    <text x="116" y="950">เส้นศูนย์สูตร</text>
+  </g>
+
+  <!-- แผ่นดินใหญ่เอเชีย -->
+  <path d="M110,587 L599,587 L653,605 L698,696 L724,690 L748,696 L767,751 L762,829 L784,857 L802,884 L821,921 L862,952 L857,914 L839,875 L802,829 L807,750 L828,771 L846,784 L874,797 L871,823 L894,812 L919,804 L926,798 L952,780 L965,765 L965,736 L942,685 L919,638 L901,600 L939,587 L973,592 L1040,571 L1151,505 L1188,421 L1206,326 L1164,271 L1189,262 L1234,260 L1257,294 L1265,352 L1311,334 L1329,209 L1363,150 L110,150 Z"
+        fill="#EFE7D4" stroke="#93815F" stroke-width="2.5"/>
+
+  <!-- เกาะต่าง ๆ -->
+  <ellipse cx="976" cy="628" rx="14" ry="17" fill="#EFE7D4" stroke="#93815F" stroke-width="2"/>
+  <path d="M1145,535 L1150,510 L1160,507 L1163,530 L1155,541 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="2"/>
+  <!-- ลูซอน -->
+  <path d="M1137,647 L1140,696 L1133,718 L1151,723 L1164,734 L1199,751 L1196,723 L1191,687 L1182,656 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="2"/>
+  <ellipse cx="1148" cy="748" rx="9" ry="7" fill="#EFE7D4" stroke="#93815F" stroke-width="1.5"/>
+  <!-- ปาไนย -->
+  <path d="M1187,782 L1192,798 L1210,798 L1203,777 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="2"/>
+  <!-- เนโกรส -->
+  <path d="M1213,812 L1216,788 L1221,790 L1218,814 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="1.5"/>
+  <!-- เซบู -->
+  <path d="M1228,812 L1230,790 L1233,773 L1236,775 L1233,795 L1232,812 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="1.5"/>
+  <!-- โบโฮล -->
+  <path d="M1229,818 L1233,815 L1237,820 L1233,825 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="1.5"/>
+  <!-- เลเต -->
+  <path d="M1240,808 L1242,782 L1246,784 L1244,810 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="1.5"/>
+  <!-- ซามาร์ -->
+  <path d="M1243,775 L1250,762 L1257,765 L1252,778 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="1.5"/>
+  <!-- มินดาเนา -->
+  <path d="M1189,847 L1206,838 L1230,830 L1257,808 L1266,825 L1275,838 L1267,866 L1240,862 L1210,855 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="2"/>
+  <!-- หมู่เกาะซูลู -->
+  <g fill="#EFE7D4" stroke="#93815F" stroke-width="1">
+    <circle cx="1180" cy="856" r="3.5"/>
+    <circle cx="1165" cy="863" r="3.5"/>
+    <circle cx="1150" cy="870" r="3.5"/>
+    <circle cx="1135" cy="877" r="3.5"/>
+  </g>
+  <!-- บอร์เนียว -->
+  <path d="M967,930 L1030,880 L1095,847 L1110,870 L1131,903 L1117,967 L1075,1022 L1010,1000 L976,984 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="2"/>
+  <!-- สุมาตรา -->
+  <path d="M724,866 L780,920 L850,990 L903,1074 L878,1080 L806,1000 L748,930 L708,882 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="2"/>
+  <!-- ชวา -->
+  <path d="M894,1086 L1057,1113 L1055,1121 L892,1095 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="2"/>
+  <!-- สุลาเวซี (แขนสี่แขน) -->
+  <g stroke="#93815F" stroke-width="15" stroke-linecap="round" fill="none">
+    <path d="M1170,975 L1200,962 L1244,958"/>
+    <path d="M1170,975 L1195,993 L1218,1000"/>
+    <path d="M1170,975 L1185,1012 L1201,1048"/>
+    <path d="M1170,975 L1159,1012 L1161,1068"/>
+  </g>
+
+  <!-- ชื่อทะเล -->
+  <g font-size="19" fill="#6E879B" font-style="italic">
+    <text x="1075" y="690" text-anchor="middle">ทะเลจีนใต้</text>
+    <text x="620" y="660" text-anchor="middle">อ่าวเบงกอล</text>
+    <text x="640" y="830" text-anchor="middle">มหาสมุทรอินเดีย</text>
+    <text x="1005" y="1058" text-anchor="middle">ทะเลชวา</text>
+  </g>
+
+  <!-- เส้นทาง/ทิศทางที่นักวิชาการเสนอ -->
+  <g stroke="#A85B12" stroke-width="3" fill="none" stroke-dasharray="8 6" marker-end="url(#arrow)" opacity="0.85">
+    <path d="M1085,570 Q1125,605 1148,672"/>
+    <path d="M958,710 Q1065,722 1183,776"/>
+    <path d="M1218,806 Q1235,935 1168,1040"/>
+  </g>
+
+  <!-- จุดแหล่ง: ฟิลิปปินส์ (ดาวทอง) -->
+  <use xlink:href="#starPH" transform="translate(1200,789)" fill="#C9A227" stroke="#6B4E12" stroke-width="2"/>
+  <use xlink:href="#starPH" transform="translate(1232,795)" fill="#C9A227" stroke="#6B4E12" stroke-width="2"/>
+  <use xlink:href="#starPH" transform="translate(1259,822)" fill="#C9A227" stroke="#6B4E12" stroke-width="2"/>
+
+  <!-- จุดแหล่ง: เวียดนาม -->
+  <circle cx="918" cy="800" r="9" fill="#D2691E" stroke="#7A3A0D" stroke-width="2"/>
+  <circle cx="932" cy="805" r="9" fill="#D2691E" stroke="#7A3A0D" stroke-width="2"/>
+  <circle cx="891" cy="797" r="9" fill="#D2691E" stroke="#7A3A0D" stroke-width="2"/>
+  <circle cx="949" cy="700" r="9" fill="#D2691E" stroke="#7A3A0D" stroke-width="2"/>
+
+  <!-- จุดแหล่ง: กัมพูชา -->
+  <circle cx="896" cy="780" r="9" fill="#2E8B57" stroke="#145A32" stroke-width="2"/>
+
+  <!-- จุดแหล่ง: อินโดนีเซีย/ซูลาเวซี -->
+  <circle cx="1153" cy="1053" r="9" fill="#C0392B" stroke="#7B241C" stroke-width="2"/>
+  <circle cx="1163" cy="1070" r="9" fill="#C0392B" stroke="#7B241C" stroke-width="2"/>
+
+  <!-- จุดแหล่ง: จีน -->
+  <circle cx="874" cy="427" r="9" fill="#2C5F8A" stroke="#17364E" stroke-width="2"/>
+  <circle cx="1169" cy="208" r="9" fill="#2C5F8A" stroke="#17364E" stroke-width="2"/>
+
+  <!-- ป้ายชื่อแหล่ง -->
+  <g font-size="16" fill="#241A0E">
+    <text x="1186" y="772" text-anchor="end" font-weight="bold">โอตอน (อิโลอิโล)</text>
+    <text x="1186" y="790" text-anchor="end">แผ่นปิดตา-จมูกทอง ค.ศ. 14–15</text>
+    <text x="1248" y="782" font-weight="bold">เซบู (ปลาซา อินเดเปนเดนเซีย)</text>
+    <text x="1248" y="800">หน้ากากทองปิดศพ ค.ศ. 14–15</text>
+    <text x="1276" y="822" font-weight="bold">บูตูอัน (มินดาเนา)</text>
+    <text x="1276" y="840">หน้ากากทอง ราว ค.ศ. 9–13 (ประเมิน)</text>
+
+    <text x="878" y="822" text-anchor="end" font-weight="bold">โอเอโอ</text>
+    <text x="878" y="839" text-anchor="end">ทองลายเหรียญโคโมดุส ค.ศ. 192</text>
+    <text x="938" y="760" font-weight="bold">โพรแฮร์ (กัมพูชา)</text>
+    <text x="938" y="777">วัตถุทองเงิน 96 ชิ้น ก่อนฟูนาน</text>
+    <text x="944" y="792" font-weight="bold">จองลน (เวียดนามใต้)</text>
+    <text x="944" y="809">หน้ากากทอง 3 ชิ้น 410–90 ปีก่อน ค.ศ.</text>
+    <text x="904" y="856" text-anchor="end" font-weight="bold">จองกาวอ (เวียดนามใต้)</text>
+    <text x="904" y="873" text-anchor="end">สุสานโอ่งซาหึ่ง เครื่องทอง 26 ชิ้น</text>
+    <text x="963" y="688" font-weight="bold">เขตจัมปา–ซาหึ่ง (ไลงี เวียดนามกลาง)</text>
+    <text x="963" y="705">สุสานร่ำรวยเครื่องทอง ลูกปัดกว่า 10,000 ลูก</text>
+
+    <text x="1139" y="1044" text-anchor="end" font-weight="bold">เซียง (ซูลาเวซีใต้)</text>
+    <text x="1139" y="1061" text-anchor="end">หน้ากากทอง (ตำแหน่ง-อายุยืนยันไม่ได้)</text>
+    <text x="1177" y="1072" font-weight="bold">บันตาเอง (ซูลาเวซีใต้)</text>
+    <text x="1177" y="1089">หน้ากากทอง</text>
+    <text x="1160" y="1112" text-anchor="middle" font-size="15">หลุมศพมักกาซาร์ก่อนอิสลาม ค.ศ. 1300–1600</text>
+
+    <text x="890" y="420" font-weight="bold">ซานซิงตุย (เสฉวน)</text>
+    <text x="890" y="437">หน้ากากทอง 280 กรัม เนื้อทองราว 85%</text>
+    <text x="1183" y="200" font-weight="bold">เขตเหลียว/ชิตัน (มองโกเลียใน)</text>
+    <text x="1183" y="217">หน้ากากทองเจ้าหญิงเฉินกว่า ค.ศ. 1018</text>
+  </g>
+
+  <!-- คำอธิบายสัญลักษณ์ -->
+  <g>
+    <rect x="118" y="920" width="330" height="268" rx="10" fill="#FBF7EC" stroke="#93815F" stroke-width="1.5" opacity="0.95"/>
+    <text x="138" y="950" font-size="19" font-weight="bold" fill="#3B2F1E">คำอธิบายสัญลักษณ์</text>
+    <use xlink:href="#starPH" transform="translate(150,980)" fill="#C9A227" stroke="#6B4E12" stroke-width="2"/>
+    <text x="172" y="986" font-size="16">แหล่งแกนกลางในฟิลิปปินส์</text>
+    <circle cx="150" cy="1013" r="9" fill="#D2691E" stroke="#7A3A0D" stroke-width="2"/>
+    <text x="172" y="1019" font-size="16">แหล่งในเวียดนาม</text>
+    <circle cx="150" cy="1046" r="9" fill="#2E8B57" stroke="#145A32" stroke-width="2"/>
+    <text x="172" y="1052" font-size="16">แหล่งในกัมพูชา</text>
+    <circle cx="150" cy="1079" r="9" fill="#C0392B" stroke="#7B241C" stroke-width="2"/>
+    <text x="172" y="1085" font-size="16">แหล่งในอินโดนีเซีย (ซูลาเวซีใต้)</text>
+    <circle cx="150" cy="1112" r="9" fill="#2C5F8A" stroke="#17364E" stroke-width="2"/>
+    <text x="172" y="1118" font-size="16">แหล่งในจีน (เสฉวน และเขตเหลียว)</text>
+    <line x1="132" y1="1146" x2="168" y2="1146" stroke="#A85B12" stroke-width="3" stroke-dasharray="8 6"/>
+    <text x="172" y="1152" font-size="16">ทิศทางติดต่อ/การแพร่ที่นักวิชาการเสนอ</text>
+    <text x="138" y="1176" font-size="13" fill="#5A4A30">(เส้นทางเป็นสมมติฐานเชิงเปรียบเทียบ มิใช่ข้อพิสูจน์)</text>
+  </g>
+
+  <!-- แถบที่มาข้อมูล -->
+  <rect x="0" y="1228" width="1600" height="42" fill="#3B2F1E"/>
+  <text x="800" y="1255" text-anchor="middle" font-size="16" fill="#F2E8D5">ที่มา: จัดทำจาก Villegas 2004; Benitez-Johannot 2020; Bolunia 2015; National Museum of the Philippines 2022; Reinecke and Nguyen Thi Thanh Luyen 2009; Nguyen Kim Dung 2017; Reinecke, Vin Laychour, Heng Sophady และ Seng Sonetra 2010; Bougas 2007; Pelras 1996; Steinhardt 1998; Li et al. 2023</text>
+</svg>

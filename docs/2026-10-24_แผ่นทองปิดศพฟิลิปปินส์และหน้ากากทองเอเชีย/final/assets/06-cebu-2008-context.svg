@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1060" font-family="sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#555"/></marker>
+  </defs>
+  <rect width="1600" height="1060" fill="#faf7f0"/>
+  <text x="800" y="58" text-anchor="middle" font-size="40" font-weight="bold" fill="#3a2e1f">แผนภาพบริบทหลุมศพแผ่นทองปิดศพ ปลาซา อินเดเปนเดนเซีย เมืองเซบู</text>
+  <text x="800" y="100" text-anchor="middle" font-size="22" fill="#5a4a35">สังเคราะห์จากบันทึกสถาบันเท่านั้น — องค์ประกอบที่เอกสารไม่ระบุตำแหน่ง กำกับว่า "ไม่ปรากฏในเอกสาร"</text>
+
+  <!-- กล่องหลัก: หลุมศพ 14th-15th -->
+  <rect x="430" y="150" width="740" height="360" rx="18" fill="#fffbe8" stroke="#8a6d2f" stroke-width="3"/>
+  <text x="800" y="192" text-anchor="middle" font-size="26" font-weight="bold" fill="#6b4f1d">หลุมศพสมัยคริสต์ศตวรรษที่ 14–15 (บันทึกสถาบัน NMP ค.ศ. 2022)</text>
+
+  <!-- วัตถุในบริบทหลุม -->
+  <rect x="470" y="215" width="320" height="130" rx="12" fill="#f7e7b8" stroke="#a67c1e" stroke-width="2"/>
+  <text x="630" y="248" text-anchor="middle" font-size="22" font-weight="bold" fill="#6b4f1d">ชุดแผ่นทองคำบางปิดศพ</text>
+  <text x="630" y="276" text-anchor="middle" font-size="18" fill="#4a3a20">"ชุดฉบับสมบูรณ์" (complete set)</text>
+  <text x="630" y="300" text-anchor="middle" font-size="18" fill="#4a3a20">บันทึกจัดแสดง NMP สาขาเซบู ค.ศ. 2023</text>
+  <text x="630" y="324" text-anchor="middle" font-size="18" fill="#4a3a20">ปิดตา / จมูก / ปาก (ตามรายงานสถาบัน)</text>
+
+  <rect x="820" y="215" width="320" height="130" rx="12" fill="#f7e7b8" stroke="#a67c1e" stroke-width="2"/>
+  <text x="980" y="248" text-anchor="middle" font-size="22" font-weight="bold" fill="#6b4f1d">คู่ต่างหูทองคำ</text>
+  <text x="980" y="276" text-anchor="middle" font-size="18" fill="#4a3a20">ประกอบชุดเดียวกันตามบันทึกจัดแสดง</text>
+  <text x="980" y="300" text-anchor="middle" font-size="18" fill="#4a3a20">ระบุร่วมกับแผ่นทองปิดศพ</text>
+  <text x="980" y="324" text-anchor="middle" font-size="18" fill="#4a3a20">"(pair of earrings)"</text>
+
+  <!-- แถวข้อมูลที่ไม่ปรากฏ -->
+  <rect x="470" y="360" width="670" height="120" rx="12" fill="#f2ece0" stroke="#8b8171" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="805" y="395" text-anchor="middle" font-size="20" font-weight="bold" fill="#5f574a">ตำแหน่งการวางวัตถุในหลุมรายจุด / ท่าศพ / ประเภทการฝัง (ปฐมภูมิ–ทุติยภูมิ)</text>
+  <text x="805" y="423" text-anchor="middle" font-size="19" fill="#5f574a">ไม่ปรากฏในเอกสารที่ใช้ — รายการจัดแสดงและรายงานสรุปสถาบันมิใช่รายงานภาคสนามฉบับเต็ม</text>
+  <text x="805" y="449" text-anchor="middle" font-size="19" fill="#5f574a">รายงานขุดกู้ฉบับเต็ม (ACECI) ยังไม่มีเผยแพร่ดิจิทัล — คำถามวิจัยที่เปิดอยู่</text>
+
+  <!-- บริบทโครงการ -->
+  <rect x="180" y="560" width="440" height="200" rx="14" fill="#e8f0f7" stroke="#4a6d8c" stroke-width="2"/>
+  <text x="400" y="596" text-anchor="middle" font-size="22" font-weight="bold" fill="#2e4a63">บริบทการขุดกู้</text>
+  <text x="400" y="626" text-anchor="middle" font-size="18" fill="#2e4a63">โครงการอุโมงค์ CSRP ใต้ปลาซา อินเดเปนเดนเซีย</text>
+  <text x="400" y="652" text-anchor="middle" font-size="18" fill="#2e4a63">การขุดกู้เชิงโบราณคดีตามกฎหมายคุ้มครองมรดก</text>
+  <text x="400" y="678" text-anchor="middle" font-size="18" fill="#2e4a63">ปีที่เอกสารระบุ: ค.ศ. 2007 (รายงาน NMP 2022)</text>
+  <text x="400" y="704" text-anchor="middle" font-size="18" fill="#2e4a63">เอกสารเดิมบางชุดใช้ ค.ศ. 2008 — รายงานความต่างไว้แล้ว</text>
+  <text x="400" y="730" text-anchor="middle" font-size="18" fill="#2e4a63">ในตอนที่ 4.2 ของรายงานฉบับนี้</text>
+
+  <!-- บริบทเมือง -->
+  <rect x="700" y="560" width="440" height="200" rx="14" fill="#eef3e6" stroke="#5f7d4a" stroke-width="2"/>
+  <text x="920" y="596" text-anchor="middle" font-size="22" font-weight="bold" fill="#3c5530">บริบทชุมชนเมืองเซบู</text>
+  <text x="920" y="626" text-anchor="middle" font-size="18" fill="#3c5530">"ชุมชนชาวเซบูโน่คริสต์ศตวรรษที่ 15" (บันทึกจัดแสดง)</text>
+  <text x="920" y="652" text-anchor="middle" font-size="18" fill="#3c5530">ข้อมูลขุด ค.ศ. 1985–86 ทำเลเดียวกัน: เขตที่อยู่อาศัยศตวรรษที่ 14</text>
+  <text x="920" y="678" text-anchor="middle" font-size="18" fill="#3c5530">และเขตช่างตีเหล็กศตวรรษที่ 15–16 (Mudar 1997)</text>
+  <text x="920" y="704" text-anchor="middle" font-size="18" fill="#3c5530">ลำดับชั้นสาม Horizon ของสุสานเมืองเซบู (Hutterer)</text>
+  <text x="920" y="730" text-anchor="middle" font-size="18" fill="#3c5530">ชั้นที่ 3: สวังคโลก–หมิงปลาย ศตวรรษที่ 14–15</text>
+
+  <!-- ความหมายเทียบเคียง -->
+  <rect x="1220" y="560" width="240" height="200" rx="14" fill="#f6e6e6" stroke="#8c4a4a" stroke-width="2"/>
+  <text x="1340" y="596" text-anchor="middle" font-size="22" font-weight="bold" fill="#63302e">ความหมายเทียบเคียง</text>
+  <text x="1340" y="626" text-anchor="middle" font-size="18" fill="#63302e">ก่อนค้นนี้: หลักฐานวิทยาศาสตร์</text>
+  <text x="1340" y="652" text-anchor="middle" font-size="18" fill="#63302e">มีเพียงโอตอน จังหวัดอิโลอิโล</text>
+  <text x="1340" y="678" text-anchor="middle" font-size="18" fill="#63302e">หลังค้นนี้: สองแหล่งในทะเลวิซายา</text>
+  <text x="1340" y="704" text-anchor="middle" font-size="18" fill="#63302e">(โอตอน + เซบู)</text>
+  <text x="1340" y="730" text-anchor="middle" font-size="18" fill="#63302e">กรอบเวลาเดียวกัน ศตวรรษที่ 14–15</text>
+
+  <!-- ลูกศรเชื่อม -->
+  <line x1="800" y1="510" x2="420" y2="560" stroke="#555" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="800" y1="510" x2="920" y2="560" stroke="#555" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="1100" y1="345" x2="1300" y2="560" stroke="#555" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- แถบที่มา -->
+  <rect x="0" y="960" width="1600" height="100" fill="#efe8d8"/>
+  <text x="800" y="1000" text-anchor="middle" font-size="19" fill="#4a3a20">ที่มาข้อมูล: National Museum of the Philippines, "Urban Development and the Protection of Philippine Archaeological Heritage" (2022), p. 4;</text>
+  <text x="800" y="1030" text-anchor="middle" font-size="19" fill="#4a3a20">NMP, "Exhibition Image List: NMP Cebu" (2023); Mudar, Asian Perspectives 36/1 (1997); Peterson et al., SPAFA Journal 4 (2020) — จัดทำเพื่อรายงานวิจัย ค.ศ. 2026</text>
+</svg>

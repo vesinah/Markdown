@@ -1,0 +1,42 @@
+# Harvest G — เอกสารเต็ม: เครื่องถ้วยการค้าจีนในฟิลิปปินส์ (Ch.9) และโบราณมาติวิทยา (Ch.10)
+
+วันที่เก็บ: 2026-10-24
+โฟลเดอร์ปลายทาง: `research-notes/pdf/` (โฟลเดอร์มีไฟล์เดิมจากผู้เก็บรอบก่อน ๆ อยู่แล้ว 49 ไฟล์; รอบนี้เพิ่ม 11 ไฟล์ใหม่)
+การตรวจสอบ: ทุกไฟล์เปิดด้วย PyMuPDF ได้ มี `page_count > 0` และข้อความ 8 หน้าแรก >= 300 ตัวอักษร (พิสูจน์ว่าเป็น PDF เต็มฉบับ ไม่ใช่หน้า abstract/HTML) และยืนยันชื่อเรื่องจากหน้า 1 ของไฟล์จริงทุกไฟล์
+
+## ตารางเอกสารที่ได้
+
+| filename | Chicago-style citation (ตรวจสอบจากตัว PDF แล้ว) | ภาษา | source URL | validation | บทที่รองรับ |
+|---|---|---|---|---|---|
+| `agaoglu_1961_ming_porcelain_philippines.pdf` | Aga-Oglu, Kamer. "Ming Porcelain from Sites in the Philippines." *Asian Perspectives* 5, no. 2 (1961): 243–252. | English | https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/a5af0036-110b-461b-90ba-814893d47e86/content | 15 pp., 27,209 chars/8pp, OK | Ch.9 |
+| `orogo_1994_tradeware_ceramics_philippines.pdf` | Orogo, Alfredo B., and Mary Jane Louise A. Bolunia. "Tradeware Ceramics Found in the Philippines." *SPAFA Journal* 4, no. 2 (1994): 18–21. | English | https://spafajournal.org/index.php/spafa1991journal/article/view/239/234 | 4 pp., 10,511 chars/8pp, OK | Ch.9 |
+| `miksic_2006_chinese_ceramics_exchange_bippa.pdf` | Miksic, John N. "Chinese Ceramics and the Economics of Early Southeast Asian Urbanisation, 14th to 16th Centuries." *Bulletin of the Indo-Pacific Prehistory Association* 26 (2006): 147–153. | English | https://journals.lib.washington.edu/index.php/BIPPA/article/view/12004/10629 | 7 pp., 32,005 chars/8pp, OK | Ch.9 |
+| `gunn_graves_1995_guthe_seriations_ap.pdf` | Gunn, Mary M., and Michael W. Graves. "Constructing Seriations from the Guthe Collection, the Central Philippines: Implications for Southeast Asian Ceramic Chronologies." *Asian Perspectives* 34, no. 2 (1995): 257–282. | English | https://scholarspace.manoa.hawaii.edu/items/3fb4f6b5-34cd-464b-b53a-17ddea19cb0e | 26 pp., 19,328 chars/8pp, OK | Ch.9 |
+| `sinopoli_2013_guthe_dragon_jars_inaa.pdf` | Sinopoli, Carla M., Stephen Dueppen, Robert Brubaker, Christophe Descantes, Michael D. Glascock, Will Griffin, Hector Neff, Rasmi Shoocongdej, and Robert J. Speakman. "Characterizing the Stoneware 'Dragon Jars' in the Guthe Collection: Chemical, Decorative, and Formal Patterning." *Asian Perspectives* 45, no. 2 (2006): 240–282. | English | https://scholarspace.manoa.hawaii.edu/items/952c2c59-0674-48ea-ac93-2a62e5af887b | 43 pp., 22,749 chars/8pp, OK | Ch.9 + Ch.10 (INAA) |
+| `yao_2013_guthe_earthenware_inaa.pdf` | Yao, Alice. "Investigations into the Elemental Composition of Earthenware Vessels from the Guthe Collection Using Instrumental Neutron Activation Analysis." *Asian Perspectives* 52, no. 1 (2013): 12–27. | English | https://scholarspace.manoa.hawaii.edu/items/dd4af400-15a5-4a2e-8613-18fa9a2ea90e | 16 pp., 16,473 chars/8pp, OK | Ch.9 + Ch.10 (INAA) |
+| `li_min_2013_porcelain_globalization_ap.pdf` | Li, Min. "Fragments of Globalization: Archaeological Porcelain and the Early Colonial Dynamics in the Philippines." *Asian Perspectives* 52, no. 1 (2013): 43–74. | English | https://scholarspace.manoa.hawaii.edu/items/d74695a9-37b3-4c6a-887f-64e17ae55225 | 32 pp., 27,555 chars/8pp, OK | Ch.9 (Zhangzhou/Swatow, Ming porcelain, galleon trade) |
+| `dueppen_2013_dragon_jars_temporal_ap.pdf` | Dueppen, Stephen. "Temporal Variability in Southeast Asian Dragon Jars: A Case from the Philippines." *Asian Perspectives* 52, no. 1 (2013): 75–118. | English | https://scholarspace.manoa.hawaii.edu/items/15c4b857-cb8a-4f8f-a3ae-53f49bf87b6d | 44 pp., 26,640 chars/8pp, OK | Ch.9 (jar burial vessels, Late Song–Ming dragon jars) |
+| `stead_dizon_balangay_reassessment.pdf` | Stead, Roderick, and Eusebio Dizon. "A National Cultural Treasure Revisited — Re-assessing the 'Balangay' Boat Discoveries." In *Proceedings of the Asia-Pacific Regional Conference on Underwater Cultural Heritage*, Session 4. Manila, 2011. | English | http://www.themua.org/collections/files/original/b5e6dd5b719abb0e76df4d99f6ae6c2a.pdf (รายการ: https://apconf-much.org/proceedings/items/show/236) | 11 pp., 18,227 chars/8pp, OK | Ch.10 (radiocarbon dating บ่อยาน Butuan: AD 320±110 ฯลฯ) |
+| `yakal_2017_beads_jar_burials_ucla.pdf` | Yakal, Madeleine Amee. "Exotic Beads and Jar Burials: Social Status in the Old Kiyyangan Village, Ifugao, Philippines." MA thesis, University of California, Los Angeles, 2017. | English | https://escholarship.org/uc/item/3b94t06t | 81 pp., 8,472 chars/8pp, OK | Ch.9 + Ch.10 (pXRF ลูกปัดโลหะ/หิน/แก้วใน jar burials) |
+| `san_andres_2023_agusan_beads_analysis.pdf` | San Andres, Igal Jada. "Preliminary Analysis of the Stone, Glass, and Metal Beads, Agusan River Valley, Mindanao, Philippines." *BEADS: Journal of the Society of Bead Researchers* 35 (2023): 26–44. | English | https://journals.uoregon.edu/beads/article/download/6404/8160 | 19 pp., 27,033 chars/8pp, OK | Ch.10 (โลหะ/แก้ว/หินจากหุบเขาอากูซาน–บูตวน; มี gold leaf) |
+
+## หมายเหตุการครอบคลุม
+
+- **Ch.9 (เครื่องถ้วยการค้า)**: ชุดนี้เติมช่องว่างสำคัญ — เอกสารเดิมในโฟลเดอร์มีเฉพาะโบราณคดีทั่วไป (fox_1959, solheim_1959, bacus_1995) แต่ไม่มีงานเจาะจงด้านเครื่องถ้วยจีน ตอนนี้มี (1) รายงาน Ming porcelain จากแหล่งฟิลิปปินส์ (Aga-Oglu 1961), (2) ภาพรวม tradeware ทุกช่วง 10th–17th c. (Orogo & Bolunia 1994), (3) เศรษฐศาสตร์เครื่องถ้วยจีน (Miksic 2006), (4) พอร์ซเลน/จางโจว-สวาโทว์ กับการโลกาภิวัตน์ยุคก่อนอาณานิคม (Li Min 2013), (5) ไหมังกรกมังหวย/dragon jars จากโพธิ์ Guthe (Dueppen 2013; Sinopoli et al. 2006), (6) ลำดับชั้นเครื่องถ้วยกลางฟิลิปปินส์ (Gunn & Graves 1995)
+- **Ch.10 (dating/metal)**: การหา C14 เรือบ่อยาน = Stead & Dizon 2011 (+ lacsina_2022 เดิมมีอยู่); โบราณมาติวิทยาสารตั้งต้น = INAA (Sinopoli; Yao) และ pXRF (Yakal 2017; San Andres 2023)
+- **ช่องว่างที่ยังเปิด**: ไม่พบงานวิเคราะห์องค์ประกอบทองคำฟิลิปปินส์ (XRF/assay) ที่ตีพิมพ์แบบ open access โดยเฉพาะ — ดูรายการล้มเหลวด้านล่าง; ต้องใช้ `bsp_ginto_history_wrought_in_gold.pdf` (เดิม) + Estrella/Smith (เดิม) แทนชั่วคราว
+
+## ความพยายามที่ไม่สำเร็จ
+
+| URL | เหตุผลที่ล้มเหลว |
+|---|---|
+| https://www.scribd.com/document/909102861/ (Locsin & Locsin, *Oriental Ceramics Discovered in the Philippines*, Tuttle, 1967/1970) | มีเฉพาะสแกนบน Scribd (ต้องสมัคร/ผ่าน paywall); archive.org ไม่มีไอเทมเต็ม (ค้น advancedsearch + scrape API แล้ว numFound=0) |
+| https://openlibrary.org/authors/OL4173164A/Rita_C._Tan (Tan, *Zhangzhou Ware Found in the Philippines*, Yuchengco Museum, 2007) | หนังสือไม่มี PDF เผยแพร่; เป็นเพียงบรรณานุกรม (เล่มหายาก ~US$300) — ไม่ตั้งใจดาวน์โหลดเถื่อน |
+| https://journals.openedition.org/archeosciences/2072 (Bennett, "Gold in early Southeast Asia," *ArchéoSciences* 33, 2009: 99–107) | OpenEdition ปิดกั้นด้วย Anubis anti-bot (proof-of-work JS); ผ่าน Wayback Machine (สแนปช็อต 2017–2026 มีจริง) แต่ web.archive.org ตอบ HTTP 429 ทุกครั้งที่ GET ไฟล์จาก IP นี้ (ลอง 5 ครั้ง ระยะเวลาห่างกัน สแนปช็อต id_ ก็แล้ว) — เอกสารตัวจริงสำหรับ Ch.10 ที่ควรกลับมาลองอีกจากเครือข่าย/เบราว์เซอร์ปกติ |
+| https://www.academia.edu/55234385/ และ https://www.academia.edu/40109979/ (Bennett; ทั้งเล่ม *Aurum* ArchéoSciences 33, Guerra & Rehren eds.) | Academia.edu ต้องล็อกอินเพื่อดาวน์โหลด |
+| https://journals.upd.edu.ph/index.php/hukay/issue/archive (Hukay journal — Melendres, "How Old Is the Babo Balukbuk Site?," tradeware + C14) | HTTP 404 — เว็บ OJS เดิมปิดไป; เวอร์ชันเต็มอยู่บน Academia.edu (https://www.academia.edu/8590041/) และ ResearchGate เท่านั้น (ต้องล็อกอิน) |
+| https://www.academia.edu/41143453/ (Estrella, "The Goldworking Sub-assemblage from Butuan," *Proceedings of the Society of Philippine Archaeologists*, 2016) | มีเฉพาะบน Academia.edu (ต้องล็อกอิน); แต่มี estrella_2016/estrella_death_of_gold เดิมอยู่แล้วในโฟลเดอร์ |
+| https://cnrs.hal.science/hal-03918353/document ("Metal Exchange Networks in Prehistoric Southeast Asia," Oxford Research Encyclopedia 2024) | HAL ปิดกั้นด้วย Anubis anti-bot เช่นกัน |
+| https://scispace.com/pdf/illicit-trade-in-gold-cultural-materials-in-butuan-3n8m5gjym7.pdf (Estrella 2019, thesis) | ตอบ HTTP 202 + ไฟล์ว่างเปล่า |
+| https://researchcomputing.si.edu/.../MCI6043%20Technical%20Report...pdf (Smithsonian MCI Technical Study Report) | ดาวน์โหลดได้แต่ตรวจสอบพบเป็นวัตถุทองเหลือง **ปานามา** (Cerro Juan Díaz) ไม่เกี่ยวกับฟิลิปปินส์ — ลบทิ้งแล้ว |
+| archive.org ค้นหา "oriental ceramics" + Philippines / Locsin | ไม่มีผลลัพธ์ (numFound = 0) — หนังสือ Locsin ยังไม่ถูกสแกนแบบ public domain |

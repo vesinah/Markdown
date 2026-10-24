@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1080" font-family="sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#A85B12"/>
+    </marker>
+  </defs>
+
+  <!-- พื้นทะเล -->
+  <rect x="0" y="0" width="1600" height="1080" fill="#D8E6EF"/>
+
+  <!-- หัวเรื่อง -->
+  <text x="800" y="46" text-anchor="middle" font-size="34" font-weight="bold" fill="#24455C">แผนที่ที่ 2.2: ภูมิทัศน์เกาะปานายและตำแหน่งเมืองโอตอน</text>
+  <text x="800" y="80" text-anchor="middle" font-size="20" fill="#41586C">แผนภาพเชิงสัญลักษณ์ตามคำบรรยายจดหมายเหตุสเปนและเชิงอรรถโบราณคดี (มิใช่แผนที่เชิงเดินเครื่อง)</text>
+
+  <!-- ===== เกาะปานาย: สามเหลี่ยมด้านเท่า ฐานเหนือ-ใต้ ยอดหันตะวันออก (อัลซีนา) ===== -->
+  <path d="M760,180 L420,920 L1210,760 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="3"/>
+
+  <!-- ยอดสามแหลมตามซานอากุสติน -->
+  <circle cx="760" cy="180" r="9" fill="#7A5A2E"/>
+  <text x="786" y="176" font-size="19" font-weight="bold" fill="#5A4626">แหลมบูลากาเบ</text>
+  <circle cx="420" cy="920" r="9" fill="#7A5A2E"/>
+  <text x="300" y="952" font-size="19" font-weight="bold" fill="#5A4626">แหลมโปโตล</text>
+  <circle cx="1210" cy="760" r="9" fill="#7A5A2E"/>
+  <text x="1250" y="744" font-size="19" font-weight="bold" fill="#5A4626">แหลมนาโซ</text>
+
+  <!-- แนวเทือกเขาแอนติไคลน์ชายฝั่งตะวันตก (อัลซีนา) -->
+  <g fill="none" stroke="#7C6A4C" stroke-width="3.5">
+    <path d="M575,260 Q545,330 560,410 Q575,490 545,570 Q530,650 560,740"/>
+    <path d="M615,250 Q585,330 600,410 Q615,490 585,570 Q570,650 600,745"/>
+    <path d="M655,245 Q625,330 640,410 Q655,490 625,570 Q610,650 640,750"/>
+  </g>
+  <text x="425" y="330" font-size="18" fill="#5F5138">แนวเทือกเขาแอนติไคลน์</text>
+  <text x="425" y="355" font-size="18" fill="#5F5138">วิ่งขนานชายฝั่งตะวันตก</text>
+
+  <!-- ที่ราบกลางอุดม (อัลซีนา) -->
+  <ellipse cx="850" cy="440" rx="180" ry="110" fill="#E3D9BC" stroke="none"/>
+  <text x="850" y="430" text-anchor="middle" font-size="18" fill="#6B5C38">ที่ราบกลางอันอุดมและมีผู้คน</text>
+  <text x="850" y="455" text-anchor="middle" font-size="18" fill="#6B5C38">มากที่สุดของเกาะ</text>
+  <text x="850" y="495" text-anchor="middle" font-size="17" fill="#6B5C38">(ปานาย "ซิซิลีแห่งฟิลิปปินส์" อุดมด้วยข้าว)</text>
+
+  <!-- แม่น้ำมายอง/มาอายอน (แคปิซ ตอนเหนือ) พบทองปนทราย -->
+  <path d="M680,300 Q740,340 780,320 Q830,295 880,330" fill="none" stroke="#4E7EA8" stroke-width="6" stroke-linecap="round"/>
+  <text x="900" y="300" font-size="18" font-weight="bold" fill="#2E5A80">แม่น้ำมายอง (มาอายอน)</text>
+  <g fill="#D9A93C">
+    <path d="M793,317 l7,3 -5,6 z"/><path d="M812,306 l8,2 -4,7 z"/><path d="M838,312 l7,4 -6,5 z"/>
+  </g>
+  <text x="960" y="330" font-size="17" fill="#2E5A80">ทองคำปนอยู่ในทราย</text>
+
+  <!-- จุดสุสานรอบขอบชายฝั่ง (เคาตส์) -->
+  <g fill="#B03A2E">
+    <circle cx="700" cy="205" r="7"/><circle cx="860" cy="230" r="7"/><circle cx="560" cy="430" r="7"/>
+    <circle cx="545" cy="640" r="7"/><circle cx="690" cy="850" r="7"/><circle cx="1010" cy="655" r="7"/>
+    <circle cx="1105" cy="620" r="7"/><circle cx="480" cy="790" r="7"/>
+  </g>
+  <text x="1310" y="205" font-size="18" font-weight="bold" fill="#B03A2E">จุดสุสานโบราณรอบขอบชายฝั่งของปานาย</text>
+  <text x="1310" y="230" font-size="16" fill="#6B5B3E">(การฝังศพในไหไม่พบในถ้ำตอนใน</text>
+  <text x="1310" y="252" font-size="16" fill="#6B5B3E">บ่งชี้ชุมชนการค้าจำกัดเฉพาะแนวชายฝั่ง)</text>
+  <line x1="1300" y1="200" x2="1120" y2="225" stroke="#B03A2E" stroke-width="1.5"/>
+
+  <!-- โอตอนบนชายฝั่งตอนใต้ (อัลซีนา: ตอนใต้ของเกาะปานาย) -->
+  <g>
+    <circle cx="880" cy="660" r="17" fill="#8A6510"/>
+    <text x="912" y="650" font-size="26" font-weight="bold" fill="#5A4A10">โอตอน</text>
+    <text x="912" y="678" font-size="18" fill="#5A4A10">แหล่งฝังศพแผ่นทองปิดตา-ปิดจมูก</text>
+    <text x="912" y="702" font-size="17" fill="#5A4A10">คาตากมาน (ปัจจุบันซานอันโตนิโอ)</text>
+    <text x="912" y="726" font-size="17" fill="#5A4A10">อายุปลายศตวรรษที่ 14 – ต้นศตวรรษที่ 15</text>
+  </g>
+
+  <!-- ===== เกาะรอบนอกและเส้นทางเรือ ค.ศ. 1617 (มินโดโร - โอตอน - ดาปีตัน) ===== -->
+  <!-- เกาะเนกรอส -->
+  <path d="M240,540 Q330,500 420,545 Q470,590 430,650 Q330,690 250,650 Q215,590 240,540 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="2.5"/>
+  <text x="335" y="600" text-anchor="middle" font-size="20" fill="#5A4A2A">เกาะเนกรอส</text>
+  <text x="335" y="626" text-anchor="middle" font-size="16" fill="#6B5B3E">(ปานายอยู่ตะวันตก</text>
+  <text x="335" y="647" text-anchor="middle" font-size="16" fill="#6B5B3E">ห่างแปดลีก)</text>
+
+  <!-- เกาะเลเตทางตะวันออก (ตำนานกำเนิดหัวหน้าโอตอน) -->
+  <path d="M1310,420 Q1400,395 1450,445 Q1480,500 1440,560 Q1350,595 1300,545 Q1275,475 1310,420 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="2.5"/>
+  <text x="1380" y="480" text-anchor="middle" font-size="20" fill="#5A4A2A">เกาะเลเต</text>
+  <text x="1380" y="506" text-anchor="middle" font-size="16" fill="#6B5B3E">ชุมชนใหญ่โบราณตามตำนาน</text>
+  <text x="1380" y="527" text-anchor="middle" font-size="16" fill="#6B5B3E">กำเนิดของหัวหน้าโอตอน</text>
+  <path d="M1300,540 Q1140,620 940,655" fill="none" stroke="#8A7A5A" stroke-width="2.5" stroke-dasharray="10 8" marker-end="url(#arrow)"/>
+  <text x="1120" y="590" font-size="16" fill="#6B5B3E">เส้นทางอพยพตามความทรงจำ</text>
+  <text x="1120" y="611" font-size="16" fill="#6B5B3E">ของหัวหน้าเมือง (ค.ศ. 1668)</text>
+
+  <!-- มินโดโรและดาปีตัน -->
+  <path d="M300,840 Q380,815 440,860 Q470,905 430,950 Q340,975 285,935 Q260,885 300,840 Z" fill="#EFE7D4" stroke="#93815F" stroke-width="2.5"/>
+  <text x="370" y="905" text-anchor="middle" font-size="20" fill="#5A4A2A">มินโดโร</text>
+  <circle cx="1235" cy="920" r="13" fill="#EFE7D4" stroke="#93815F" stroke-width="2.5"/>
+  <text x="1262" y="926" font-size="20" fill="#5A4A2A">ดาปีตัน</text>
+
+  <!-- เส้นทางเรือ 1617 -->
+  <path d="M352,878 Q560,790 845,672" fill="none" stroke="#A85B12" stroke-width="4" stroke-dasharray="14 9" marker-end="url(#arrow)"/>
+  <path d="M905,672 Q1080,760 1218,908" fill="none" stroke="#A85B12" stroke-width="4" stroke-dasharray="14 9" marker-end="url(#arrow)"/>
+  <text x="520" y="780" font-size="19" font-weight="bold" fill="#A85B12">เส้นทางเรือจีน ค.ศ. 1617</text>
+  <text x="520" y="806" font-size="17" fill="#A85B12">มินโดโร - โอตอน - ดาปีตัน</text>
+  <text x="520" y="829" font-size="16" fill="#6B5B3E">(โอตอนเป็นจุดผ่านของแนวน้ำระหว่างเกาะ)</text>
+
+  <!-- คำอธิบายแผนสัญลักษณ์ -->
+  <g>
+    <rect x="60" y="120" width="300" height="196" rx="12" fill="#FFFDF6" stroke="#C4B08A" stroke-width="2"/>
+    <text x="85" y="152" font-size="19" font-weight="bold" fill="#3B2F1E">สัญลักษณ์</text>
+    <circle cx="95" cy="182" r="8" fill="#8A6510"/>
+    <text x="112" y="188" font-size="17" fill="#3B2F1E">เมืองโอตอน (แหล่งขุดพบ)</text>
+    <circle cx="95" cy="214" r="7" fill="#B03A2E"/>
+    <text x="112" y="220" font-size="17" fill="#3B2F1E">สุสานรอบขอบชายฝั่ง</text>
+    <line x1="76" y1="246" x2="114" y2="246" stroke="#A85B12" stroke-width="3" stroke-dasharray="10 7"/>
+    <text x="122" y="251" font-size="17" fill="#3B2F1E">เส้นทางเรือ ค.ศ. 1617</text>
+    <circle cx="95" cy="278" r="6" fill="#D9A93C"/>
+    <text x="112" y="284" font-size="17" fill="#3B2F1E">ทองคำปนทรายในแม่น้ำ</text>
+  </g>
+
+  <!-- ข้อจำกัดแผนที่ -->
+  <text x="60" y="345" font-size="15" fill="#6B5B3E">หมายเหตุ: ตำแหน่งรูปร่างเกาะและจุดต่าง ๆ วาดเชิงสัญลักษณ์ตามคำบรรยายในเอกสารที่ใช้ ชื่อแหล่งน้ำเฉพาะที่</text>
+  <text x="60" y="366" font-size="15" fill="#6B5B3E">ปรากฏในเอกสารชุดที่ใช้มีเพียงแม่น้ำมายอง ส่วนชื่อแม่น้ำบาติอาโน ช่องแคบอิโลอิโล และ "อิโรน" ไม่ปรากฏในเอกสารชุดที่ใช้</text>
+
+  <!-- แถบที่มาข้อมูล -->
+  <line x1="40" y1="1010" x2="1560" y2="1010" stroke="#C4B08A" stroke-width="2"/>
+  <text x="800" y="1040" text-anchor="middle" font-size="16" fill="#41586C">ที่มาข้อมูล: Fernandez and Kobak, Philippiniana Sacra 19/55 (1984), pp. 55, 77 (ตำแหน่งโอตอนตอนใต้ปานาย สัณฐานสามเหลี่ยม แนวเขาตะวันตก ที่ราบกลาง; ตำนานเลเต); Abalajon, Philippiniana Sacra 46/136 (2011), pp. 3, 6-7 (สามแหลม ข้าว แม่น้ำมายอง สุสานริมชายฝั่ง เส้นทางเรือ ค.ศ. 1617); Benitez-Johannot, CCP Encyclopedia (2020), p. 1 (คาตากมาน-ซานอันโตนิโอ อายุวัตถุ)</text>
+</svg>

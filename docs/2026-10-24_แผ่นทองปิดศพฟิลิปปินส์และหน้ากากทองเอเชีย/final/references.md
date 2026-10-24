@@ -1,0 +1,191 @@
+# บรรณานุกรมรวมฉบับสมบูรณ์ (Master Bibliography)
+
+รวบรวมจากเชิงอรรถทั้งหมดของบทที่ 1–13 จัดเรียงตามชื่อผู้เขียนในระบบ Chicago/Turabian Notes and Bibliography ทุกรายการมาจากเอกสารเต็มในคลังของโครงการ (111 ไฟล์ PDF ต้นฉบับ) เท่านั้น
+
+## เอกสารชั้นต้นและจดหมายเหตุ (Primary Sources & Chronicles)
+
+- Antonio de Morga, *Sucesos de las Islas Filipinas* (México: Geronymo Balli, 1609), p. 309 (ฉบับพิมพ์ครั้งแรกสแกนดั้งเดิม; คำอ่าน OCR "Entcfrauan fus muertos en fus propias cafas" = "Enterraban sus muertos en sus propias casas").
+- Antonio de Morga, *Sucesos de las Islas Filipinas* (1609); English translation with annotations by José Rizal, in Emma Helen Blair and James Alexander Robertson, eds., *The Philippine Islands, 1493–1898*, vol. 16 (Cleveland: The Arthur H. Clark Company, 1903), p. 137 (เชิงอรรถของริซัล อ้างต่อเอกสารยุคแรก รวมทั้งโคลิน).
+- Antonio de Morga, *Sucesos de las Islas Filipinas* (1609); English translation with annotations by José Rizal, in Blair and Robertson, *The Philippine Islands*, vol. 16, p. 137–138.
+- Antonio Pigafetta, *The First Voyage around the World* (1524), in Blair and Robertson, *The Philippine Islands*, vol. 33, p. 121 (เลขหน้าพิมพ์ของฉบับแปล).
+- Antonio Pigafetta, *The First Voyage around the World* (1524), in Emma Helen Blair and James Alexander Robertson, eds., *The Philippine Islands, 1493–1898*, vol. 33, p. 121, 123 (เลขหน้าพิมพ์ของฉบับแปล).
+- Blair and Robertson, *The Philippine Islands*, vol. 16, p. 137.
+- Chirino, *Relación de las Islas Filipinas*, in Blair and Robertson, *The Philippine Islands*, vol. 12, p. 303.
+- Chirino, *Relación de las Islas Filipinas*, in Blair and Robertson, vol. 12, p. 303.
+- Chirino, *Relación de las Islas Filipinas*, p. 108.
+- Francisco Colin, *Labor evangélica, ministerios apostólicos de los obreros de la Compañía de Jesús* (Madrid, 1663), p. 130.
+- Loarca, *Relación de las Yslas Filipinas*, in Blair and Robertson, *The Philippine Islands*, vol. 5, p. 135.
+- Loarca, *Relación de las Yslas Filipinas*, in Blair and Robertson, vol. 5, p. 135.
+- Miguel de Loarca, *Relación de las Yslas Filipinas*, Arévalo, 1582; translated and edited by Emma Helen Blair and James Alexander Robertson, in *The Philippine Islands, 1493–1898*, vol. 5 (Cleveland: The Arthur H. Clark Company, 1903), 134–141, p. 135.
+- Miguel de Loarca, *Relación de las Yslas Filipinas*, Arévalo, 1582; in Blair and Robertson, *The Philippine Islands*, vol. 5, p. 135.
+- Miguel de Loarca, *Relación de las Yslas Filipinas*, Arévalo, 1582; in Emma Helen Blair and James Alexander Robertson, eds., *The Philippine Islands, 1493–1898*, vol. 5 (Cleveland: The Arthur H. Clark Company, 1903), p. 135.
+- Morga, *Sucesos de las Islas Filipinas*, p. 309.
+- Pedro Chirino, *Relación de las Islas Filipinas y de lo que en ellas han trabajado los padres de la Compañía de Jesús*, Roma, 1604; translated and edited by Emma Helen Blair and James Alexander Robertson, in *The Philippine Islands, 1493–1898*, vol. 12 (Cleveland: The Arthur H. Clark Company, 1904), 302–305, p. 303.
+- Pigafetta, *The First Voyage around the World*, p. 123.
+
+## รายงานการขุดค้นและสถาบัน (Excavation Reports & Institutional Records)
+
+- Benitez-Johannot, "[Oton Face Covers/Oton Death Mask]," p. 1.
+- Benitez-Johannot, "[Oton Face Covers]," in *CCP Encyclopedia of Philippine Art Digital Edition*, p. 1.
+- Benitez-Johannot, "[Oton Face Covers]," p. 1.
+- Biran et al., "The Kök-Tash Underground Mausoleum," p. 1.
+- Burton, "Settlement and Burial Sites at Suatan, Butuan City," p. 100.
+- John A. Peterson, Archie Tiauzon, Mark Horrocks, and Maria Kottermair, "Environmental History of an Early Spanish Settlement in the Visayas, Philippines: Excavations in the Parian District of Cebu City," *SPAFA Journal* 4 (2020), p. 4 (หน้า PDF).
+- Linda M. Burton, "Settlement and Burial Sites at Suatan, Butuan City: A Preliminary Report," *Philippine Studies* 25 (1977): 95–112, p. 97.
+- Linda M. Burton, "Settlement and Burial Sites at Suatan, Butuan City," p. 97; John A. Peterson et al., "Environmental History of an Early Spanish Settlement in the Visayas, Philippines," *SPAFA Journal* 4 (2020), p. 4, 7 (หน้า PDF); Masao Nishimura, "Heritage in Cebu City, the Philippines," *Bulletin of the Graduate Division of Letters, Arts and Sciences, Waseda University* 64, no. 4 (2019): 759–779, p. 7, 10 (หน้า PDF).
+- Michal Biran, Michael Shenkar, Kubatbek Tabaldiev, Kunbolot Akmatov, and Valery Kolchenko, "The Kök-Tash Underground Mausoleum in North-Eastern Kyrgyzstan: The First-Ever Identified Qara Khitai Elite Tomb?," *Journal of the Royal Asiatic Society*, Series 3, 33 (2023): 713–745, p. 1.
+- National Museum of the Philippines, "Oton Gold Death Mask Gallery," หน้านิทรรศการออนไลน์, https://www.nationalmuseum.gov.ph/exhibitions/nm-western-visayas-regional-museum/oton-gold-death-mask-gallery/ (สืบค้นผ่านคลังเอกสารของโครงการ ค.ศ. 2026), ไม่ระบุเลขหน้า.
+- National Museum of the Philippines, "Urban Development and the Protection of Philippine Archaeological Heritage," Nationalmuseum.gov.ph, 31 May 2022 (ข้อความโดย Alexandra De Leon และ Nida Cuevas), p. 4.
+- National Museum of the Philippines, "National Museum Annual Report 2016," Manila, 2016, หน้าเว็บสถาบัน (web capture, โหลดจากโครงการเดิม 2026-10-20), p. 68.
+- National Museum of the Philippines, "National Museum Annual Report 2016," p. 11.
+- National Museum of the Philippines, "Ambangan," Exhibitions: NMP-Butuan, หน้าเว็บสถาบัน (สำเนาเก็บรักษาโหลดจากโครงการ ค.ศ. 2026), p. 1.
+- National Museum of the Philippines, "Butuan," Our Museums: Eastern-Northern Mindanao Regional Museum, หน้าเว็บสถาบัน (สำเนาเก็บรักษาโหลดจากโครงการ ค.ศ. 2026), p. 4.
+- National Museum of the Philippines, "NMP Butuan: Boat Site Museum," Exhibitions: NMP-Butuan, หน้าเว็บสถาบัน (สำเนาเก็บรักษาโหลดจากโครงการ ค.ศ. 2026), p. 1.
+- National Museum of the Philippines, "Exhibition Image List: NMP Cebu," หน้าเว็บสถาบัน, 2023, ไม่ระบุเลขหน้าในเอกสารที่ใช้.
+- National Museum of the Philippines, *2020 Annual Report (Narrative Report)* (Manila: National Museum of the Philippines, 2021), p. 10 (หน้า PDF).
+- National Museum of the Philippines, *2020 Annual Report (Narrative Report)*, p. 11 (หน้า PDF).
+- National Museum of the Philippines, "Urban Development and the Protection of Philippine Archaeological Heritage," p. 4.
+- National Museum of the Philippines, "Exhibition Image List: NMP Cebu," 2023; ว่าด้วยไหฝังศพสองครั้งซานเรมิจิโอยุคโลหะ.
+- National Museum of the Philippines, "Ancient Burial Spaces and Places," Archaeology Division, 2021, หน้าเว็บสถาบัน (web capture), p. 1.
+- National Museum of the Philippines, "Ancient Burial Spaces and Places," p. 2.
+- National Museum of the Philippines, "Pre-colonial Burial Traditions," Archaeology Division, 2021, หน้าเว็บสถาบัน (web capture), p. 2.
+- National Museum of the Philippines, "Burial Jars," Our Collections: Archaeology, หน้าเว็บสถาบัน (web capture), p. 1.
+- National Museum of the Philippines, "Burial Jars," p. 1.
+- National Museum of the Philippines, "Wooden Coffins," Our Collections: Archaeology, หน้าเว็บสถาบัน (web capture), p. 1.
+- National Museum of the Philippines, "Wooden Coffins," p. 1.
+- National Museum of the Philippines, "Pre-colonial Burial Traditions," p. 2.
+- National Museum of the Philippines, "NMP Cebu Exhibition Image List," รายการวัตถุนิทรรศการเซบู, 2023 (เอกสารสถาบัน), ไม่ระบุเลขหน้า.
+- National Museum of the Philippines, "NMP Cebu Exhibition Image List," ไม่ระบุเลขหน้า; ตามข้อจำกัดเชิงหลักฐานที่บันทึกวิเคราะห์แหล่งของโครงการนี้ชี้ไว้.
+- Peterson, Tiauzon, Horrocks, and Kottermair, "Environmental History of an Early Spanish Settlement in the Visayas," p. 24 (หน้า PDF).
+- Peterson, Tiauzon, Horrocks, and Kottermair, "Environmental History of an Early Spanish Settlement in the Visayas, Philippines," p. 4 (หน้า PDF).
+- Peterson, Tiauzon, Horrocks, and Kottermair, "Environmental History," p. 13 (หน้า PDF).
+- Purissima Benitez-Johannot, "[Oton Face Covers/Oton Death Mask]," in *CCP Encyclopedia of Philippine Art Digital Edition* (Manila: Cultural Center of the Philippines, November 18, 2020), p. 1.
+- Timothy Vitales, "Beyond Subsistence: Cultural Usages and Significance of Baler Shells in Philippine Prehistory," in *Prehistoric Marine Resource Use in the Indo-Pacific Regions*, Terra Australis 39 (Canberra: ANU Press, 2013), doi:10.22459/TA39.12.2013.06, p. 132 (หน้า PDF 10).
+- UNESCO World Heritage Centre, "Butuan Archeological Sites," Tentative List เลขทะเบียน 2071 (สำเนาเก็บรักษาผ่าน Internet Archive เนื่องจากหน้าปัจจุบันถูกบล็อกในสภาพแวดล้อมการสืบค้น), ไม่ระบุเลขหน้า.
+- UNESCO World Heritage Centre, "Butuan Archaeological Sites," World Heritage Tentative List No. 2071, https://whc.unesco.org/en/tentativelists/2071/, หน้าเว็บองค์การ (web capture ผ่าน Internet Archive), ไม่ระบุเลขหน้าในเอกสารที่ใช้.
+- UNESCO World Heritage Centre, "Butuan Archeological Sites," Tentative List No. 2071, หน้าเว็บสถาบัน (web capture), ไม่ระบุเลขหน้า.
+- UNESCO World Heritage Centre, "Butuan Archeological Sites," ไม่ระบุเลขหน้า; ดูหมายเหตุชุดหน้ากากบริจาคในบันทึกวิเคราะห์แหล่งของโครงการนี้.
+- Vitales, "Beyond Subsistence: Cultural Usages and Significance of Baler Shells in Philippine Prehistory," p. 136 (หน้า PDF 14).
+- Vitales, "Beyond Subsistence," p. 10 (หน้า PDF 8).
+
+## บทความวารสารและหนังสือวิชาการ (Journal Articles & Monographs)
+
+- A. Garong, S. Mihara, F. Datar, W. Ronquillo, and H. Koike, "Carbon and Nitrogen Stable Isotope Analysis Using Human Bones and Hair from Philippine Burial Sites," *Hikaku shakai bunka* 比較社会文化 [Bulletin of the Graduate School of Social and Cultural Studies, Kyushu University] 16 (2010): 25–43, p. 5 (หน้าไฟล์ PDF; หน้าพิมพ์ 28).
+- Abalajon, "The Considerad in the Religious Tradition of Panay," p. 6 (หน้า PDF; เทียบหน้าพิมพ์ 115) รวมเชิงอรรถว่าด้วยเหมืองทองดูมาราโอและรายงานโลนีย์.
+- Alfredo B. Orogo and Mary Jane Louise A. Bolunia, "Tradeware Ceramics Found in the Philippines," *SPAFA Journal* 4, no. 2 (1994): 18–21.
+- Andreas Reinecke, Vin Laychour, Heng Sophady, and Seng Sonetra, *The First Golden Civilization of Cambodia: Unexpected Archaeological Discoveries*, exhibition brochure (Phnom Penh/Bonn: Memot Centre for Archaeology and German Archaeological Institute, 2010), และ Andreas Reinecke and Nguyen Thi Thanh Luyen, "Gold Masks and Other Precious Items," *Arts of Asia* 39, no. 5 (2009), p. 11 (หน้า PDF; เทียบหน้าพิมพ์ 66).
+- Andreas Reinecke, Vin Laychour, Heng Sophady, and Seng Sonetra, *The First Golden Civilization of Cambodia*, p. 25 (หน้า PDF).
+- Andreas Reinecke, Vin Laychour, Heng Sophady, and Seng Sonetra, *The First Golden Civilization of Cambodia* (Phnom Penh: Memot Centre for Archaeology, 2010), p. 3–7.
+- Andreas Reinecke and Nguyen Thi Thanh Luyen, "Gold Masks and Other Precious Items," *Arts of Asia* 39, no. 5 (September–October 2009): 58–67, p. 4 และ p. 8 (หน้า PDF; เทียบหน้าพิมพ์ 59 และ 63).
+- Andreas Reinecke and Nguyen Thi Thanh Luyen, "Gold Masks and Ear Ornaments in Vietnam and Southeast Asia," *Arts of Asia* 39, no. 5 (2009), p. 4.
+- Andrei V. Tabarev, "Anthropomorphic Burial Jars of the Philippines: Typology and Chronology," *Archaeology, Ethnology & Anthropology of Eurasia* 47, no. 1 (2019): 56–65, p. 2.
+- Angelina A. Atienza, "Early Aesthetic Dentistry in the Philippines: An Anthropological Perspective," *Acta Medica Philippina* 48, no. 1 (2014): 67–71, p. 2 (หน้า PDF; เทียบหน้าพิมพ์ 68).
+- Antonio de Morga, *Sucesos de las Islas Filipinas* (México: Geronymo Balli, 1609), p. 309 (ฉบับพิมพ์ครั้งแรกสแกนดั้งเดิม; คำอ่าน OCR "Entcfrauan fus muertos en fus propias cafas" = "Enterraban sus muertos en sus propias casas").
+- Atienza, "Early Aesthetic Dentistry in the Philippines," p. 1 (หน้า PDF; เทียบหน้าพิมพ์ 67).
+- Atienza, "Early Aesthetic Dentistry," p. 68 (หน้า PDF 1).
+- Bougas, "Gold Looted and Excavated from Late Pre-Islamic Makasar Graves," p. 45 (หน้า PDF; เทียบหน้าพิมพ์ 154).
+- Bougas, "Gold Looted and Excavated from Late Pre-Islamic Makasar Graves," 111–166.
+- Canilao, "Three Burial Coffin Traditions in Upland Ilocos Sur," p. 5.
+- Canilao, "Ancient Trails of the Surigao Gold District," p. 2.
+- Carla M. Sinopoli et al., "Characterizing the Stoneware 'Dragon Jars' in the Guthe Collection: Chemical, Decorative, and Formal Patterning," *Asian Perspectives* 45, no. 2 (2006): 240–282.
+- Chang, *Social Use and Value of Trade Ceramics*, p. 121.
+- Christa Wirth, "Jocano's Digging for a Pre-Colonial Past at Santa Ana in Manila: Nation-Building at the Nexus of the Cold War and Decolonization," *Asian Studies: Journal of Critical Perspectives on Asia* 55, no. 1–2 (2019), p. 1 (หน้า PDF).
+- Christian Pelras, *The Bugis* (Oxford, UK, and Cambridge, MA: Blackwell Publishers, 1996), p. 44 (หน้า PDF; เทียบหน้าพิมพ์ 26).
+- Daniel C. Waugh, "Light on the Liao: A Photo Essay," *The Silk Road* 15 (2017): 83–106, p. 88.
+- Elias, "The Southwest Silk Road," p. 2–3.
+- Elisabeth A. Bacus, "The Unto Site: Excavations at a Late First Millennium B.C. and Mid-Second Millennium A.D. Habitation Site in Southeastern Negros Island, the Philippines," *Asian Perspectives* 36, no. 1 (1997), p. 23.
+- Elisabeth A. Bacus, "The Unto Site," *Asian Perspectives* 36, no. 1 (1997), p. 26.
+- Estrella, "Ancient Tagalog Goldworking Technology," p. 19.
+- Estrella, "Illicit Trade in Gold Cultural Materials in Butuan," p. 23.
+- Estrella, "Illicit Trade in Gold Cultural Materials in Butuan, Philippines," pp. 9–42.
+- F. Landa Jocano, *Philippine Prehistory: An Anthropological Overview* (Quezon City: University of the Philippines Press, 1975), p. 7 (หน้า PDF).
+- F. Landa Jocano, *Philippine Prehistory: An Anthropological Overview of the Archaeological Record* (Quezon City: Philippine Center for Advanced Studies, 1975), p. 3.
+- F. Landa Jocano, "The Sulod: A Mountain People in Central Panay," *Philippine Studies* 6, no. 4 (1958): 401–436, p. 21.
+- F. Landa Jocano, "Notes on the Sulod Concept of Death, the Soul, and the Region of the Dead," *Philippine Studies* 12, no. 1 (1964): 3–20, p. 8.
+- Fengshu Yao, "Investigations into the Elemental Composition of Earthenware Vessels from the Guthe Collection Using INAA," *Asian Perspectives* 52, no. 1 (2013): 12–27.
+- Fox, "The Calatagan Excavations," p. 18 (หน้า PDF).
+- Fox, "The Archeological Record of Chinese Influences in the Philippines," p. 14 (หน้า PDF; เทียบหน้าพิมพ์ 52) ว่าด้วยเส้นทางทะเลเครื่องเคลือบสมัยทัง และ p. 18 (หน้า PDF; เทียบหน้าพิมพ์ 56) ว่าด้วยไหใหญ่สมัยซ่งตอนปลาย.
+- Fox, "The Archeological Record of Chinese Influences," p. 18.
+- Garong et al., "Carbon and Nitrogen Stable Isotope Analysis," p. 2.
+- Go Bon Juan, "Ma'l in Chinese Records — Mindoro or Bai? An Examination of a Historical Puzzle," *Philippine Studies: Historical and Ethnographic Viewpoints* 53, no. 1 (2005): 119–138, p. 4 (หน้า PDF; เทียบหน้าพิมพ์ 120).
+- Go Bon Juan, "Ma'l in Chinese Records — Mindoro or Bai? An Examination of a Historical Puzzle," p. 5 (หน้า PDF; เทียบหน้าพิมพ์ 121).
+- Go Bon Juan, "Ma'l in Chinese Records - Mindoro or Bai? An Examination of a Historical Puzzle," *Philippine Studies: Historical and Ethnographic Viewpoints* 53, no. 1 (2005): 3–22, p. 6.
+- Go Bon Juan, "Ma'l in Chinese Records," p. 13.
+- Gong et al., "Analysis of the Manufacturing Craft," p. 15.
+- Gunn and Graves, "Constructing Seriations from the Guthe Collection."
+- Guy, "Gold in the Philippines," p. 3 (หน้า PDF; เทียบหน้าพิมพ์ 167).
+- Hajni Elias, "The Southwest Silk Road: Artistic Exchange and Transmission in Early China," *Bulletin of the School of Oriental and African Studies* 87 (2024): 319–344, p. 1.
+- Hisashi Suzuki, Yuji Mizoguchi, and Eduardo Conese, "Craniofacial Measurement of Artificially Deformed Skulls from the Philippines," *Anthropological Science* 101, no. 1 (1993): 111–127, p. 111.
+- Igal Jada San Andres, "Preliminary Analysis of the Stone, Glass, and Metal Beads, Agusan River Valley, Mindanao, Philippines," *BEADS: Journal of the Society of Bead Researchers* 35 (2023): 26–44, p. 1.
+- Jocano, *Philippine Prehistory*, p. 3.
+- Jocano, "The Sulod: A Mountain People in Central Panay," p. 21.
+- Jocano, "Notes on the Sulod Concept of Death," p. 6.
+- John Guy, "Gold in the Philippines: Form, Meaning, and Metamorphosis," chapter 3 in *Philippine Gold: Treasures of Forgotten Kingdoms* (New York: Asia Society / Ayala Museum, 2011), 165–190, p. 7 (หน้า PDF; เทียบหน้าพิมพ์ 171) และ p. 3 (หน้า PDF; เทียบหน้าพิมพ์ 167).
+- John Guy, "Gold in the Philippines: Form, Meaning, and Metamorphosis," in *Philippine Gold: Treasures of Forgotten Kingdoms* (New York: Asia Society / Ayala Museum, 2011), 165–190, p. 4, 7 (หน้า PDF).
+- John N. Miksic, "Chinese Ceramics and the Economics of Early Southeast Asian Urbanisation, 14th to 16th Centuries," *Bulletin of the Indo-Pacific Prehistory Association* 26 (2006): 147–153.
+- Kamer Aga-Oglu, "Ming Porcelain from Sites in the Philippines," *Asian Perspectives* 5, no. 2 (1961): 243–252.
+- Kuang-jen Chang, *Social Use and Value of Trade Ceramics: Burial Goods of Late Prehistoric Calatagan, Philippines* (PhD diss., University College London, 2008), p. 106.
+- Kuei-chen Lin, "On Craft Production and the Settlement Pattern of the Jinsha Site Cluster on the Chengdu Plain," *Asian Perspectives* 58, no. 2 (2019): 366–400, p. 15.
+- Le Thi Lien, "Gold Plaques and Their Cultural Contexts in the Oc Eo Culture," *Bulletin of the Indo-Pacific Prehistory Association* 25 (2005): 145–154, p. 1.
+- Le Thi Lien, "Gold Plaques and Their Cultural Contexts," p. 1.
+- Li Min, "Fragments of Globalization: Archaeological Porcelain and the Early Colonial Dynamics in the Philippines," *Asian Perspectives* 52, no. 1 (2013): 43–74.
+- Ligaya Lacsina, "From the Site to the Museum: Archaeologically Excavated Butuan Boat Remains Displayed in the National Museum of the Philippines," *National Museum of Ethnology Research Report* 47, no. 1 (2022), ไม่ระบุเลขหน้าในเอกสารที่ใช้.
+- Ligaya S. P. Lacsina, "Traditional Island Southeast Asian Watercraft in Philippine Archaeological Sites," paper presented at the First Asia-Pacific Regional Conference on Underwater Cultural Heritage (APCONF), Manila, November 2011, p. 8 (หน้า PDF).
+- Ligaya S. P. Lacsina, "Traditional Island Southeast Asian Watercraft in Philippine Archaeological Sites," in *Proceedings of the Asia-Pacific Regional Conference on Underwater Cultural Heritage*, vol. 1 (Manila, 2011), p. 3.
+- Louis Malleret, "IV. Les fouilles d'Oc-èo (1944). Rapport préliminaire," *Bulletin de l'École française d'Extrême-Orient* 45, no. 1 (1951): 75–88, p. 76.
+- Madeleine Amee Yakal, "Exotic Beads and Jar Burials: Social Status in the Old Kiyyangan Village" (MA thesis, University of California, Los Angeles, 2017), p. 68.
+- Malleret, "Les fouilles d'Oc-èo (1944)," p. 80.
+- Mariko Yamagata and Hirofumi Matsumura, "Austronesian Migration to Central Vietnam: Crossing over the Iron Age Southeast Asian Sea," in *New Perspectives in Southeast Asian and Pacific Prehistory*, ed. Piper, Matsumura, and Bulbeck (Canberra: ANU Press, 2017), 333–355, p. 1.
+- Martin Roderick Stead, "Defining the Construction Characteristics of Indigenous Boats of the Philippines: The Impact of Technical Change Pre and Post Colonisation" (MPhil thesis, University of Southampton, 2018), p. 135.
+- Mary M. Gunn and Michael W. Graves, "Constructing Seriations from the Guthe Collection, the Central Philippines: Implications for Southeast Asian Ceramic Chronologies," *Asian Perspectives* 34, no. 2 (1995): 257–282.
+- Masao Nishimura, "Heritage in Cebu City, the Philippines: A Study of 'Competitive' Heritage — A Preliminary Field Report," *早稲田大学大学院文学研究科紀要 (Bulletin of the Graduate Division of Letters, Arts and Sciences, Waseda University)* 64, no. 4 (2019): 759–779, p. 765 (หน้า PDF 7).
+- Masao Nishimura, "Heritage in Cebu City, the Philippines," p. 7 (หน้า PDF; หน้าพิมพ์ 765).
+- Michael Armand P. Canilao, "Ancient Trails of the Surigao Gold District: A Preliminary Baseline Predictive Model," Qeios, August 31, 2023, doi:10.32388/TPD85Q, p. 6.
+- Michael Armand P. Canilao, "Three Burial Coffin Traditions in Upland Ilocos Sur," *The Cordillera Review: Journal of Philippine Culture and Society* 4, no. 1 (n.d.): 47–68, doi:10.64743/VPLT6046, p. 3, 5, 8.
+- Michael Armand P. Canilao, "Ancient Trails of the Surigao Gold District," preprint, Qeios, doi:10.32388/TPD85Q, 2023, p. 2.
+- Michael Sullivan, "Archaeology in the Philippines," *Antiquity* 30 (1956): 69–76, p. 1 (หน้า PDF; เทียบหน้าพิมพ์ 69).
+- Michael Sullivan, "Archaeology in the Philippines," *Antiquity* 30, no. 118 (1956): 68–80.
+- Nancy Shatzman Steinhardt, "Liao Archaeology: Tombs and Ideology along the Northern Frontier of China," *Asian Perspectives* 37, no. 2 (1998): 224–44, p. 6 (หน้า PDF; เทียบหน้าพิมพ์ 229); Yingfu Li, Tian Qiu, Jianbo Guo, and Yuniu Li, "New Discoveries at the Sanxingdui Bronze Age Site in South-West China," *Antiquity* 97, no. 391 (2023): e4, 1–8, p. 5.
+- Nguyen Kim Dung, "The Sa Huynh Culture in Ancient Regional Trade Networks: A Comparative Study of Ornaments," in *New Perspectives in Southeast Asian and Pacific Prehistory*, ed. Philip J. Piper, Hirofumi Matsumura, and David Bulbeck, Terra Australis 45 (Canberra: ANU Press, 2017), 311–332, p. 5, p. 7, p. 8, และ p. 18 (หน้า PDF; เทียบหน้าพิมพ์ 315, 317, 318 และ 328).
+- Nguyen Kim Dung, "The Sa Huynh Culture in Ancient Regional Trade Networks," p. 4; Andreas Reinecke and Nguyen Thi Thanh Luyen, "Gold Masks and Ear Ornaments in Vietnam and Southeast Asia," *Arts of Asia* 39, no. 5 (2009), p. 5.
+- Nishimura, "Heritage in Cebu City, the Philippines," p. 10–11 (หน้า PDF; หน้าพิมพ์ 768–769).
+- Noel Vincent B. Abalajon, "The Considerad in the Religious Tradition of Panay," *Philippiniana Sacra* 46, no. 136 (2011): 110–156, p. 3 (หน้า PDF; เทียบหน้าพิมพ์ 112).
+- Pryce, Bellina-Pryce, and Bennett, "The Development of Metal Technologies," p. 3.
+- Ramon N. Villegas, *Ginto: History Wrought in Gold* (Manila: Bangko Sentral ng Pilipinas, 2004), p. 59 (หน้า PDF; เทียบหน้าพิมพ์ 55).
+- Reinecke and Nguyen, "Gold Masks and Ear Ornaments," p. 4.
+- Reinecke et al., *The First Golden Civilization of Cambodia*, p. 3.
+- Rhineheart D. Abalajon, "The Considerad in the Religious Tradition of Panay," *Philippiniana Sacra* 46, no. 136 (2011): 110–156, p. 6.
+- Robert B. Fox, "The Archeological Record of Chinese Influences in the Philippines," *Philippine Studies: Historical and Ethnographic Viewpoints* 15, no. 1 (1967): 41–62, p. 14 (หน้า PDF; เทียบหน้าพิมพ์ 52), doi:10.13185/2244-1638.2334.
+- Robert B. Fox, "The Calatagan Excavations: Two 15th Century Burial Sites in Batangas, Philippines," *Philippine Studies: Historical and Ethnographic Viewpoints* 7, no. 3 (1959): 321–389, p. 18 (หน้า PDF) และ p. 31 (หน้า PDF).
+- Robert B. Fox, *The Tabon Caves: Archaeological Explorations and Excavations on Palawan Island, Philippines* (Manila: National Museum of the Philippines, 1970), p. 13.
+- Robert B. Fox, "The Calatagan Excavations: Two 15th Century Burial Sites in Batangas, Philippines," *Philippine Studies* 7, no. 3 (1959): 321–389, p. 36.
+- Roderick Stead and Eusebio Dizon, "A National Cultural Treasure Revisited – Re-assessing the 'Balangay' Boat Discoveries," in *Proceedings of the Asia-Pacific Regional Conference on Underwater Cultural Heritage*, Session 4 (Manila, 2011), p. 4 (หน้า PDF).
+- San Andres, "Preliminary Analysis of the Stone, Glass, and Metal Beads," p. 2, 15.
+- Sandra Schlosser, Andreas Reinecke, Roland Schwab, Ernst Pernicka, Seng Sonetra, and Vin Laychour, "Early Cambodian Gold and Silver from Prohear: Composition, Trace Elements, Gilding and Fabrication," *Journal of Archaeological Science* 39 (2012): 2877–2887, p. 6.
+- Sandra Schlosser et al., "Early Cambodian Gold and Silver from Prohear: Composition, Trace Elements, Gilding and Fabrication," *Journal of Archaeological Science* 39 (2012): 2877–2887, p. 7.
+- Sandra Schlosser et al., "Early Cambodian Gold and Silver from Prohear," *Journal of Archaeological Science* 39 (2012): 2877–2887, p. 7.
+- Schlosser et al., "Early Cambodian Gold and Silver from Prohear," p. 7.
+- Shao et al., "Gilded Silver Products of the Liao Dynasty," p. 2.
+- Stead, "Defining the Construction Characteristics of Indigenous Boats of the Philippines," p. 25; ดูด้วย p. 138 ซึ่งอ้างข้อมูลเรือบูตูอันหมายเลข 5 ตามงานของลาซีนา ค.ศ. 2016.
+- Stead and Dizon, "A National Cultural Treasure Revisited," p. 6.
+- Steinhardt, "Liao Archaeology," p. 230.
+- Suzuki, Mizoguchi, and Conese, "Craniofacial Measurement," p. 111.
+- Tabarev, "Anthropomorphic Burial Jars," p. 4.
+- Thomas Oliver Pryce, Bérénice Bellina-Pryce, and Anna T. N. Bennett, "The Development of Metal Technologies in the Upper Thai-Malay Peninsula: Initial Results of Excavations at Tha Kae and Its Regional Context," *Bulletin de l'École française d'Extrême-Orient* 93 (2008): 295–316, p. 3.
+- Victor Estrella, "Ancient Tagalog Goldworking Technology from Fray San Buenaventura's *Vocabulario de Lengua Tagala*: Integrating Archaeological, Linguistic, and Ethnohistoric Data," *Hukay: Journal for Archaeological Research in Asia and the Pacific* 20 (2016): 47–78, p. 1.
+- Victor Estrella, "Ancient Tagalog Goldworking Technology from Fray San Buenaventura's *Vocabulario de Lengua Tagala*," *Hukay: Journal for Archaeological Research in Asia and the Pacific* 20 (2016): 47–78, p. 21; Ramon N. Villegas, *Ginto: History Wrought in Gold* (Manila: Bangko Sentral ng Pilipinas, 2004), p. 57.
+- Victor P. Estrella, "Illicit Trade in Gold Cultural Materials in Butuan, Philippines," *Kasarinlan: Philippine Journal of Third World Studies* 33, no. 2 (2018): 9–42, p. 9.
+- Villegas, *Ginto: History Wrought in Gold*, p. 25 (หน้า PDF; เทียบหน้าพิมพ์ 21).
+- Villegas, *Ginto: History Wrought in Gold* (ข้อจำกัดเชิงวิธีวิทยาตามการประเมินเอกสารของโครงการ).
+- W. Nicholas D. Dueppen, "Temporal Variability in Southeast Asian Dragon Jars: A Case from the Philippines," *Asian Perspectives* 52, no. 1 (2013): 75–118.
+- Waugh, "Light on the Liao," p. 93.
+- Wayne A. Bougas, "Gold Looted and Excavated from Late (1300 AD–1600 AD) Pre-Islamic Makasar Graves," *Archipel* 73 (2007): 111–166, p. 12 และ p. 13 (หน้า PDF; เทียบหน้าพิมพ์ 121 และ 122).
+- William Henry Scott, *Barangay: Sixteenth-Century Philippine Culture and Society* (Quezon City: Ateneo de Manila University Press, 1994), p. 89.
+- Wirth, "Jocano's Digging for a Pre-Colonial Past at Santa Ana in Manila," p. 2 (หน้า PDF).
+- Yakal, "Exotic Beads and Jar Burials," p. 59.
+- Yamagata and Matsumura, "Austronesian Migration to Central Vietnam," p. 1.
+- Yanbing Shao et al., "Technical Characteristics and Coating Formation Mechanism of Gilded Silver Products Unearthed from the Consort Tomb of Emperor Shengzong of the Liao Dynasty," *Archaeological and Anthropological Sciences* 15 (2023): 28, p. 1.
+- Yingfu Li, Tian Qiu, Jianbo Guo, and Yuniu Li, "New Discoveries at the Sanxingdui Bronze Age Site in South-West China," *Antiquity* 97, no. 391 (2023): e4, 1–8, p. 7.
+- Yingfu Li et al., "New Discoveries at the Sanxingdui Bronze Age Site in South-West China," *Antiquity* 97, no. 391 (2023): e4, 1–8; Nancy Shatzman Steinhardt, "Liao Archaeology: Tombs and Ideology along the Northern Frontier of China," *Asian Perspectives* 37, no. 2 (1998): 224–244.
+- Yuming Guo, Fang Xiang, Honglin Ran, Zhenbin Xie, Qi Yang, Hengxu Huang, and Li Ding, "The Sacrificial Record in Burial Pits of the Late Shang Dynasty: Evidences from the Chroma and Magnetic Properties of the Sanxingdui Site, Sichuan, China," *Heritage Science* 11 (2023): 258, p. 1.
+- Zisang Gong et al., "Analysis of the Manufacturing Craft of the Painted Gold Foils Applied on the Lacquerware Unearthed from a Han Dynasty Tomb," *Heritage Science* 12 (2024): 207, p. 1, 15.

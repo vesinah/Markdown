@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1650 1050" font-family="sans-serif">
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#6b4f1d"/></marker>
+  </defs>
+  <rect width="1650" height="1050" fill="#faf8f2"/>
+  <text x="825" y="52" text-anchor="middle" font-size="36" font-weight="bold" fill="#3a2e1f">แบบจำลององค์รวม: แถบทองคำปิดหน้าศพเอเชีย ห้าชั้น</text>
+  <text x="825" y="90" text-anchor="middle" font-size="19" fill="#5a4a35">สังเคราะห์จากสิบสามบทของรายงาน — ทุกองค์ประกอบมีที่มาจากเอกสารตรวจสอบแล้วของโครงการ</text>
+
+  <!-- ชั้น 1 วัสดุดิบ (ฐาน) -->
+  <rect x="120" y="820" width="1410" height="130" rx="12" fill="#e9dfc4" stroke="#8a6d2f" stroke-width="2"/>
+  <text x="825" y="858" text-anchor="middle" font-size="22" font-weight="bold" fill="#6b4f1d">ชั้นที่ 1 — วัสดุดิบ: พลาเซอร์ทองของเอเชียตะวันออกเฉียงใต้</text>
+  <text x="825" y="890" text-anchor="middle" font-size="16" fill="#5a4a35">ร่อนพลาเซอร์ตั้งแต่ยุคเหล็ก (Pryce et al. 2008) | ผลผลิตหมู่เกาะ 1350–1899 = 80,000–90,000 กก. (Tegengren ผ่าน BSP) | ปานัย-ซูริเกา = สองเขตหลัก</text>
+  <text x="825" y="920" text-anchor="middle" font-size="16" fill="#5a4a35">คู่ขนานแผ่นดินใหญ่: โอกเอว "เมืองโรงงานช่างทอง" (Malleret 1951) | ลายเซ็นธาตุดีบุกชี้พลาเซอร์ (Schlosser et al. 2012)</text>
+
+  <!-- ชั้น 2 เทคโนโลยี -->
+  <rect x="120" y="680" width="1410" height="120" rx="12" fill="#f2e5c0" stroke="#8a6d2f" stroke-width="2"/>
+  <text x="825" y="716" text-anchor="middle" font-size="22" font-weight="bold" fill="#6b4f1d">ชั้นที่ 2 — เทคโนโลยี: สำนักปันไดและมาตรากะรัตเจ็ดขั้น</text>
+  <text x="825" y="748" text-anchor="middle" font-size="16" fill="#5a4a35">ตี-ตีแผ่น-ดุน-ฉลุ-เย็บยึดจากคลังศัพท์ 1613 (Estrella 2016) | หินทดสอบโอเรียนของชาวบ้านทั่วไป (Guy 2011) | ผลิต "ในบริบทหลุม" — เศษตัดรอบหลุม (CCP 2020)</text>
+  <text x="825" y="778" text-anchor="middle" font-size="16" fill="#5a4a35">ปันได = ฐานะปรมาจารย์วิทยาศาสตร์ประยุกต์ (Villegas 2004) | ทองบริสุทธิ์ = ชั้นสูงสุดของมาตรา 24 กะรัต (ดาลีซาย)</text>
+
+  <!-- ชั้น 3 เครือข่าย -->
+  <rect x="120" y="540" width="1410" height="120" rx="12" fill="#f7edcf" stroke="#a67c1e" stroke-width="2"/>
+  <text x="825" y="576" text-anchor="middle" font-size="22" font-weight="bold" fill="#6b4f1d">ชั้นที่ 3 — เครือข่าย: เรือและเส้นทางการค้านานไห่</text>
+  <text x="825" y="608" text-anchor="middle" font-size="16" fill="#5a4a35">บาลังไกย์ = พาหะทองดิบ+เครื่องมือ+ช่างทอง (Guy 2011) | ทูตบูตูอัน-ซ่ง ค.ศ. 1001 | มาอี้: "ทองคำแลกเปลี่ยน" ในบันทึกจีน (Go Bon Juan 2005)</text>
+  <text x="825" y="638" text-anchor="middle" font-size="16" fill="#5a4a35">หน้ากากจองลน "มาถึงวุงเตาด้วยการค้าระยะไกล" (Reinecke-Nguyen 2009) | ระบบธรรมเนียมร่วมบอร์เนียวตะวันตก (BSP) | ช่างเดินทางข้ามทะเลซูลุ (Bougas 2007)</text>
+
+  <!-- ชั้น 4 พิธี -->
+  <rect x="120" y="400" width="1410" height="120" rx="12" fill="#fdf3d3" stroke="#c9a227" stroke-width="2"/>
+  <text x="825" y="436" text-anchor="middle" font-size="22" font-weight="bold" fill="#6b4f1d">ชั้นที่ 4 — พิธี: สุสานเมืองท่าของชนชั้นนำ</text>
+  <text x="825" y="468" text-anchor="middle" font-size="16" fill="#5a4a35">โอตอน 1967 (หลุมในตำแหน่งจริง) | เซบู 2008 (หลุม 14–15 ส.ค. สามทวาร+ต่างหู) | บูตูอัน (โลงไม้+ทอง+เครื่องเคลือบ)</text>
+  <text x="825" y="498" text-anchor="middle" font-size="16" fill="#5a4a35">ระบบคู่ทอง-เครื่องถ้วยจีน: แผ่นทองปิดทวารร่าง ↔ ถ้วยจานจีนปิดปากไห (Fox 1959) | ทองเฉพาะหลุมชั้นสูงสุด 1/260 ของคาลาตากัน</text>
+
+  <!-- ชั้น 5 ความหมาย -->
+  <rect x="120" y="260" width="1410" height="120" rx="12" fill="#fffbe0" stroke="#d4a017" stroke-width="3"/>
+  <text x="825" y="296" text-anchor="middle" font-size="22" font-weight="bold" fill="#6b4f1d">ชั้นที่ 5 — ความหมาย: ผนึกทวาร ป้องกันวิญญาณ และภาษาสถานะ</text>
+  <text x="825" y="328" text-anchor="middle" font-size="16" fill="#5a4a35">"ทองปิดตา จมูก ปาก ปกป้องผู้ตายจากวิญญาณชั่วร้ายเข้าสิงร่าง" (NMP) | "อาจปกป้องคนเป็นด้วย" (CCP 2020) | วิญญาณต้องแต่งกายดีในแดนผู้ตาย มิฉะนั้น "กลับมาหลอกหลอนคนเป็น" (Jocano 1964)</text>
+  <text x="825" y="358" text-anchor="middle" font-size="16" fill="#5a4a35">"ทองเกี่ยวกับสถานะ ผู้สูงศักดิ์ถูกฝังพร้อมทองมากที่สุดเท่าที่ทำได้" (NMP) | เชิงอรรธริซัล 1890: "แผ่นทองเล็กในปากและบนดวงตา" (B&amp;R vol.16)</text>
+
+  <!-- ยอด: ปรากฏการณ์ -->
+  <rect x="300" y="130" width="1050" height="110" rx="16" fill="#8a6d2f"/>
+  <text x="825" y="172" text-anchor="middle" font-size="24" font-weight="bold" fill="#fff">ปรากฏการณ์: หน้ากากทองปิดศพเอเชียตะวันออกเฉียงใต้ภาคพื้นสมุทร</text>
+  <text x="825" y="204" text-anchor="middle" font-size="17" fill="#f2e8d0">รากยุคเหล็กจองลน (410–90 ปีก่อน ค.ศ.) → สายลุ่มโขง (โอกเอว-โปรเฮียร์) → ยุครุ่งเรือง ค.ศ. 14–16 (ฟิลิปปินส์ = มากัสซาร์ = ร่วมสมัย)</text>
+
+  <!-- ลูกศรเชื่อมชั้น -->
+  <g stroke="#6b4f1d" stroke-width="3" fill="#6b4f1d">
+    <line x1="825" y1="240" x2="825" y2="256"/><path d="M819,254 L825,266 L831,254 Z"/>
+    <line x1="825" y1="380" x2="825" y2="396"/><path d="M819,394 L825,406 L831,394 Z"/>
+    <line x1="825" y1="520" x2="825" y2="536"/><path d="M819,534 L825,546 L831,534 Z"/>
+    <line x1="825" y1="660" x2="825" y2="676"/><path d="M819,674 L825,686 L831,674 Z"/>
+    <line x1="825" y1="800" x2="825" y2="816"/><path d="M819,814 L825,826 L831,814 Z"/>
+  </g>
+
+  <!-- ช่องว่างวิจัย -->
+  <rect x="70" y="965" width="1510" height="60" rx="8" fill="#efe8d8"/>
+  <text x="825" y="992" text-anchor="middle" font-size="15" fill="#4a3a20">ทะเบียนช่องว่างของแบบจำลอง (รายงานส่งมอบพร้อมความรู้): 1) องค์ประกอบธาตุ+ความหนาแผ่นทองจริง 2) คาร์บอนกระดูกหลุมแผ่นทอง 3) รายงานภาคสนามเต็มเซบู/โอตอน 4) หลักฐานชายฝั่งจีนใต้ 5) ดีเอ็นเอโบราณประชากรหลุม</text>
+  <text x="825" y="1014" text-anchor="middle" font-size="13" fill="#7a6a4a" font-style="italic">ที่มา: สังเคราะห์จากเอกสารทั้ง 111 ชุดของโครงการ — รายละเอียดรายข้อความตามเชิงอรรถของบทที่ 1–13</text>
+</svg>

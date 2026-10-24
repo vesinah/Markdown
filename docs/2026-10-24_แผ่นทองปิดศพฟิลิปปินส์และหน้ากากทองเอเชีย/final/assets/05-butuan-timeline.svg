@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1080" font-family="sans-serif">
+  <rect x="0" y="0" width="1600" height="1080" fill="#FBF9F2"/>
+
+  <!-- หัวเรื่อง -->
+  <text x="800" y="44" text-anchor="middle" font-size="32" font-weight="bold" fill="#24455C">ภาพที่ 3.2: แนวเวลาการค้นพบ การขุดค้น และการกำหนดอายุแหล่งบูตูอัน</text>
+  <text x="800" y="76" text-anchor="middle" font-size="19" fill="#41586C">จัดเรียงตามปีที่เอกสารระบุ แบ่งสองแกนเวลา คือยุคโบราณ (อายุเรือและการค้า) และยุคการวิจัยสมัยใหม่ พร้อมช่วงความคลาดเคลื่อนเรดิโอคาร์บอน</text>
+
+  <!-- ===== แกนเวลาซ้าย: ยุคโบราณ ค.ศ. 250–1350 ===== -->
+  <text x="420" y="128" text-anchor="middle" font-size="21" font-weight="bold" fill="#24455C">ยุคโบราณ: อายุเรือและการค้า (แกนเวลา ค.ศ. 250–1350)</text>
+
+  <!-- แถบกรอบอายุ -->
+  <rect x="170" y="386" width="250" height="98" fill="#7FB3C8" opacity="0.30"/>
+  <rect x="420" y="350" width="270" height="134" fill="#8FBF7F" opacity="0.28"/>
+  <rect x="420" y="442" width="260" height="24" fill="#C9A227" opacity="0.85"/>
+
+  <!-- แกนเวลา -->
+  <line x1="420" y1="150" x2="420" y2="640" stroke="#24455C" stroke-width="4"/>
+  <text x="420" y="142" text-anchor="middle" font-size="13" fill="#8A8158">ค.ศ. 250</text>
+  <text x="420" y="658" text-anchor="middle" font-size="13" fill="#8A8158">ค.ศ. 1350</text>
+
+  <!-- เรือที่ 1: 320±110 -->
+  <line x1="420" y1="152" x2="420" y2="230" stroke="#A85B12" stroke-width="2"/>
+  <line x1="412" y1="152" x2="428" y2="152" stroke="#A85B12" stroke-width="2"/>
+  <line x1="412" y1="230" x2="428" y2="230" stroke="#A85B12" stroke-width="2"/>
+  <circle cx="420" cy="181" r="7" fill="#A85B12"/>
+  <text x="446" y="176" font-size="15" font-weight="bold" fill="#7A3E0C">ค.ศ. 320±110 — เรือบูตูอันลำที่ 1</text>
+  <text x="446" y="196" font-size="13.5" fill="#7A3E0C">เรือก่อนยุโรปเก่าสุดที่พบในฟิลิปปินส์</text>
+
+  <!-- ป้ายกรอบอายุทางการ (ศ.8–10) -->
+  <text x="440" y="400" font-size="14" font-weight="bold" fill="#3D5A33">ศตวรรษที่ 8–10: กรอบอายุอย่างเป็นทางการ</text>
+  <text x="440" y="418" font-size="13.5" fill="#3D5A33">ของพิพิธภัณฑสถานแห่งชาติฟิลิปปินส์</text>
+
+  <!-- เครื่องเคลือบเยฺว่ -->
+  <text x="440" y="458" font-size="13.5" font-weight="bold" fill="#6B5410">ค.ศ. 907–960: เครื่องเคลือบเยฺว่ สมัยห้าราชวงศ์</text>
+  <text x="440" y="476" font-size="12.5" fill="#6B5410">หลักฐานการค้าเก่าสุดที่บูตูอัน</text>
+
+  <!-- แถบเรดิโอคาร์บอนใหม่ (ปลาย ศ.8–ต้น ศ.10) -->
+  <text x="400" y="408" text-anchor="end" font-size="14" font-weight="bold" fill="#23566B">ปลายศตวรรษที่ 8 – ต้นศตวรรษที่ 10:</text>
+  <text x="400" y="426" text-anchor="end" font-size="13.5" fill="#23566B">เรดิโอคาร์บอนใหม่ 5 ลำ (รายงาน ค.ศ. 2014)</text>
+
+  <!-- เรือที่ 5: 990±70 -->
+  <line x1="405" y1="448" x2="405" y2="510" stroke="#A85B12" stroke-width="2"/>
+  <line x1="397" y1="448" x2="413" y2="448" stroke="#A85B12" stroke-width="2"/>
+  <line x1="397" y1="510" x2="413" y2="510" stroke="#A85B12" stroke-width="2"/>
+  <circle cx="405" cy="479" r="6.5" fill="#A85B12"/>
+  <line x1="405" y1="479" x2="420" y2="479" stroke="#A85B12" stroke-width="1.5"/>
+  <text x="398" y="536" text-anchor="end" font-size="15" font-weight="bold" fill="#7A3E0C">ค.ศ. 990±70 — เรือบูตูอันลำที่ 5</text>
+  <text x="398" y="554" text-anchor="end" font-size="13" fill="#7A3E0C">(เอกสารลาซีนา ค.ศ. 2011 รายงานลำที่สามเป็น ค.ศ. 1215)</text>
+
+  <!-- 1001 -->
+  <circle cx="420" cy="484" r="6.5" fill="#1E415C"/>
+  <text x="446" y="510" font-size="15" font-weight="bold" fill="#1E415C">ค.ศ. 1001 — คณะทูตการค้าปูดวนไปจีน</text>
+  <text x="446" y="528" font-size="13" fill="#1E415C">(บันทึกซ่งชื่อ; แคว้นเล็กที่ติดต่อสม่ำเสมอกับจามปา)</text>
+
+  <!-- 1215 -->
+  <circle cx="420" cy="579" r="6.5" fill="#A85B12"/>
+  <line x1="420" y1="579" x2="400" y2="600" stroke="#A85B12" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="398" y="612" text-anchor="end" font-size="14" font-weight="bold" fill="#7A3E0C">ค.ศ. 1215 — เรือลำที่ขุดแล้วลำที่สาม</text>
+  <text x="398" y="630" text-anchor="end" font-size="13" fill="#7A3E0C">(ตามรายงานของลาซีนา ค.ศ. 2011)</text>
+
+  <!-- เรือที่ 2: 1250±90 -->
+  <line x1="420" y1="555" x2="420" y2="635" stroke="#A85B12" stroke-width="2"/>
+  <line x1="412" y1="555" x2="428" y2="555" stroke="#A85B12" stroke-width="2"/>
+  <line x1="412" y1="635" x2="428" y2="635" stroke="#A85B12" stroke-width="2"/>
+  <circle cx="420" cy="595" r="7" fill="#A85B12"/>
+  <text x="446" y="588" font-size="15" font-weight="bold" fill="#7A3E0C">ค.ศ. 1250±90 — เรือบูตูอันลำที่ 2</text>
+  <text x="446" y="608" font-size="13" fill="#7A3E0C">รายงานโดยรอนกิโย (ค.ศ. 1987)</text>
+
+  <!-- ===== แกนเวลาขวา: ยุคการวิจัยและสถาบัน ค.ศ. 1915–2020 ===== -->
+  <text x="1180" y="128" text-anchor="middle" font-size="21" font-weight="bold" fill="#24455C">ยุคการวิจัยและสถาบัน (แกนเวลา ค.ศ. 1915–2020)</text>
+
+  <line x1="1180" y1="150" x2="1180" y2="640" stroke="#24455C" stroke-width="4"/>
+  <text x="1180" y="142" text-anchor="middle" font-size="13" fill="#8A8158">ค.ศ. 1915</text>
+  <text x="1180" y="658" text-anchor="middle" font-size="13" fill="#8A8158">ค.ศ. 2020</text>
+
+  <!-- 1917 องค์ทองอากูซัน -->
+  <circle cx="1180" cy="159" r="6.5" fill="#C9A227"/>
+  <text x="1158" y="156" text-anchor="end" font-size="15" font-weight="bold" fill="#8A6E14">ค.ศ. 1917 — พบองค์ทองอากูซัน</text>
+  <text x="1158" y="174" text-anchor="end" font-size="13" fill="#8A6E14">ที่ฝั่งซ้ายแม่น้ำวาวาหลังพายุและน้ำท่วม</text>
+
+  <!-- ทศวรรษ 1970 -->
+  <circle cx="1180" cy="407" r="6.5" fill="#3E7A3E"/>
+  <text x="1158" y="382" text-anchor="end" font-size="15" font-weight="bold" fill="#2E5A2E">ทศวรรษ 1970 — ค้นพบโดยบังเอิญขณะระบายน้ำ</text>
+  <text x="1158" y="400" text-anchor="end" font-size="13" fill="#2E5A2E">ระบบแม่น้ำเทียม; กลางทศวรรษพบขบวนเรือบาลันไกย์</text>
+
+  <!-- 1978 -->
+  <circle cx="1180" cy="444" r="5.5" fill="#1E415C"/>
+  <text x="1204" y="440" font-size="14.5" font-weight="bold" fill="#1E415C">ค.ศ. 1978 — ก่อตั้งพิพิธภัณฑสถานแห่งชาติ</text>
+  <text x="1204" y="458" font-size="13" fill="#1E415C">ณ นครบูตูอัน (30 สิงหาคม)</text>
+
+  <!-- 1980 -->
+  <circle cx="1180" cy="453" r="5.5" fill="#3E7A3E"/>
+  <text x="1158" y="432" text-anchor="end" font-size="14.5" font-weight="bold" fill="#2E5A2E">ค.ศ. 1980 — สร้างพิพิธภัณฑ์แหล่งเรือบูตูอัน</text>
+  <text x="1158" y="450" text-anchor="end" font-size="13" fill="#2E5A2E">ครอบแหล่งขุดพบเรือบูตูอันลำที่ 1</text>
+  <line x1="1162" y1="446" x2="1176" y2="452" stroke="#3E7A3E" stroke-width="1.5"/>
+
+  <!-- 1986 -->
+  <circle cx="1180" cy="481" r="6.5" fill="#3E7A3E"/>
+  <text x="1204" y="478" font-size="14.5" font-weight="bold" fill="#2E5A2E">ค.ศ. 1986 — ล้วนทองพบเบ้าหลอมสมบูรณ์กว่า 100 ชิ้น</text>
+  <text x="1204" y="496" font-size="13" fill="#2E5A2E">ขุดเรือบูตูอันลำที่ 5 ที่บันคาซี ลิเบอร์ตัด</text>
+  <text x="1204" y="514" font-size="13" fill="#2E5A2E">ประกาศสมบัติทางวัฒนธรรมแห่งชาติ (ประกาศเลขที่ 86)</text>
+
+  <!-- 1988 -->
+  <circle cx="1180" cy="491" r="5.5" fill="#3E7A3E"/>
+  <text x="1158" y="524" text-anchor="end" font-size="14.5" font-weight="bold" fill="#2E5A2E">ค.ศ. 1988 — การสำรวจร่วมออสเตรเลีย–ฟิลิปปินส์</text>
+  <text x="1158" y="542" text-anchor="end" font-size="13" fill="#2E5A2E">(โครงการบันทึกเรือ ค.ศ. 1992 ดำเนินต่อจากนี้)</text>
+  <line x1="1162" y1="522" x2="1176" y2="493" stroke="#3E7A3E" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- 1992 -->
+  <circle cx="1180" cy="509" r="6.5" fill="#3E7A3E"/>
+  <text x="1204" y="540" font-size="14.5" font-weight="bold" fill="#2E5A2E">ค.ศ. 1992 — โครงการบันทึกเรือร่วม</text>
+  <text x="1204" y="558" font-size="13" fill="#2E5A2E">(กรีน วอสเมอร์ คลาร์ก ซานติอาโก และอัลวาเรซ)</text>
+
+  <!-- 2011–2012 -->
+  <circle cx="1180" cy="598" r="6.5" fill="#3E7A3E"/>
+  <circle cx="1180" cy="603" r="5.5" fill="#3E7A3E"/>
+  <text x="1158" y="578" text-anchor="end" font-size="14.5" font-weight="bold" fill="#2E5A2E">ค.ศ. 2011–2012 — การทบทวนการค้นพบเรือบาลันไกย์</text>
+  <text x="1158" y="596" text-anchor="end" font-size="13" fill="#2E5A2E">(สเตียดและดิซอน) และการเปิดขุดค้นใหม่โดยพิพิธภัณฑ์ฯ</text>
+
+  <!-- 2014/2016/2018 -->
+  <circle cx="1180" cy="612" r="5.5" fill="#3E7A3E"/>
+  <circle cx="1180" cy="621" r="5.5" fill="#3E7A3E"/>
+  <circle cx="1180" cy="631" r="6.5" fill="#3E7A3E"/>
+  <text x="1204" y="622" font-size="14.5" font-weight="bold" fill="#2E5A2E">ค.ศ. 2014, 2016 และ 2018 — เรดิโอคาร์บอนใหม่ 5 ลำ</text>
+  <text x="1204" y="640" font-size="13" fill="#2E5A2E">(ปลาย ศ.8–ต้น ศ.10); วิทยานิพนธ์ลาซีนาทบทวนข้อมูลเรือ</text>
+  <text x="1204" y="658" font-size="13" fill="#2E5A2E">โมโนกราฟเรือเชาตัน; รายงานการค้าทองเถื่อนบูตูอัน (เอสเตรยา)</text>
+
+  <!-- ===== คำอธิบายสัญลักษณ์และหมายเหตุ ===== -->
+  <rect x="60" y="700" width="1480" height="240" rx="8" fill="#F2EEE2" stroke="#93815F" stroke-width="1.5"/>
+  <text x="84" y="736" font-size="17" font-weight="bold" fill="#24455C">คำอธิบายสัญลักษณ์และข้อสังเกตเชิงหลักฐาน</text>
+
+  <circle cx="98" cy="768" r="7" fill="#A85B12"/>
+  <text x="118" y="773" font-size="14.5" fill="#3A3418">จุดวงกลม: เหตุการณ์หรืออายุที่เอกสารระบุปี</text>
+  <line x1="450" y1="756" x2="450" y2="780" stroke="#A85B12" stroke-width="2"/>
+  <line x1="443" y1="756" x2="457" y2="756" stroke="#A85B12" stroke-width="2"/>
+  <line x1="443" y1="780" x2="457" y2="780" stroke="#A85B12" stroke-width="2"/>
+  <text x="470" y="773" font-size="14.5" fill="#3A3418">หนวดแนวดิ่ง: ช่วงความคลาดเคลื่อนของอายุเรดิโอคาร์บอน (± ปี)</text>
+  <rect x="880" y="758" width="30" height="14" fill="#8FBF7F" opacity="0.5"/>
+  <text x="924" y="773" font-size="14.5" fill="#3A3418">แถบทึบ: กรอบช่วงเวลาหรือกรอบอายุตามเอกสาร</text>
+
+  <text x="84" y="812" font-size="14.5" fill="#3A3418">ข้อสังเกตที่ 1: เอกสารลาซีนา (ค.ศ. 2011) รายงานอายุเรือที่ขุดแล้วสามลำเป็น ค.ศ. 320, 1250 และ 1215 ขณะที่เอกสารสเตียดและดิซอน (ค.ศ. 2011) ระบุเรือลำที่ 5 ไว้ที่ ค.ศ. 990±70 — ตัวเลขของลำที่สามจึงต่างกันระหว่างเอกสาร</text>
+  <text x="84" y="842" font-size="14.5" fill="#3A3418">ข้อสังเกตที่ 2: ทั้งสองเอกสารอ้างรายงานเดิมของรอนกิโย (ค.ศ. 1987) ซึ่งไม่ปรากฏฉบับดิจิทัลในชุดเอกสารที่ใช้ จึงไม่อาจตัดสินค่าที่ถูกต้องกว่าได้ และการทดสอบจำกัดจำนวนทำให้ช่วงอายุกินเวลาเกือบหนึ่งสหัสวรรษซึ่งถูกวิพากษ์ว่ากว้างเกิน</text>
+  <text x="84" y="872" font-size="14.5" fill="#3A3418">ข้อสังเกตที่ 3: สถานะที่เอกสารไม่ระบุปีจึงไม่วางบนแนวเวลา ได้แก่ การบรรจุแหล่งบูตูอันไว้ในบัญชีรายชื่อเบื้องต้นมรดกโลกของยูเนสโก เลขทะเบียน 2071 ชื่อ "Butuan Archeological Sites"</text>
+  <text x="84" y="902" font-size="14.5" fill="#3A3418">ข้อสังเกตที่ 4: ช่วงก่อน ค.ศ. 250 ไม่ปรากฏเหตุการณ์บูตูอันที่มีปีกำกับในเอกสารชุดที่ใช้ การค้นพบองค์ทองอากูซัน ค.ศ. 1917 จึงเป็นจุดเริ่มของแกนเวลายุคสมัยใหม่</text>
+
+  <!-- แถบที่มาข้อมูล -->
+  <rect x="40" y="958" width="1520" height="100" fill="#24455C"/>
+  <text x="60" y="990" font-size="15" fill="#E8EEF3">ที่มาข้อมูล: Ronquillo, SPAFA Digest 8/1 (1987); Stead และ Dizon, Proceedings of the Asia-Pacific Regional Conference on Underwater Cultural Heritage (2011); Lacsina, APCONF (2011)</text>
+  <text x="60" y="1012" font-size="15" fill="#E8EEF3">และ National Museum of Ethnology Research Report 47/1 (2022); Stead, MPhil thesis, University of Southampton (2018); Nishino, Nogami, Kimura, Tanaka และ Aoyama, Archaeological Study of</text>
+  <text x="60" y="1034" font-size="15" fill="#E8EEF3">the Chau Tan Shipwreck (2018); Estrella, Kasarinlan 33/2 (2018); Francisco, Asian Studies 1/1 (1963); พิพิธภัณฑสถานแห่งชาติฟิลิปปินส์ (Butuan Regional Museum); UNESCO Tentative List 2071</text>
+</svg>

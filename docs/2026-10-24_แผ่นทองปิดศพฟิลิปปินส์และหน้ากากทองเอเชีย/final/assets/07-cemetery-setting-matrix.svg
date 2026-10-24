@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1150" font-family="sans-serif">
+  <rect width="1700" height="1150" fill="#faf8f2"/>
+  <text x="850" y="56" text-anchor="middle" font-size="38" font-weight="bold" fill="#3a2e1f">เมทริกซ์เปรียบเทียบชัยภูมิสุสานสามแหล่งแผ่นทองปิดศพฟิลิปปินส์</text>
+  <text x="850" y="94" text-anchor="middle" font-size="20" fill="#5a4a35">โอตอน (ปานัย) — บูตูอัน (มินดาเนา) — ปลาซา อินเดเปนเดนเซีย เซบู | ช่องใดที่เอกสารไม่ระบุ กำกับว่า "ไม่ปรากฏในเอกสาร"</text>
+
+  <!-- หัวตาราง -->
+  <rect x="60" y="130" width="230" height="90" fill="#5a4a35"/>
+  <text x="175" y="165" text-anchor="middle" font-size="20" fill="#fff">มิติเปรียบเทียบ</text>
+  <text x="175" y="192" text-anchor="middle" font-size="16" fill="#e8ddc8">(ตาม Dossier)</text>
+  <rect x="290" y="130" width="440" height="90" fill="#8a6d2f"/>
+  <text x="510" y="168" text-anchor="middle" font-size="22" fill="#fff">โอตอน อิโลอิโล</text>
+  <text x="510" y="196" text-anchor="middle" font-size="16" fill="#f2e8d0">ชายฝั่งอ่าวปานัย</text>
+  <rect x="730" y="130" width="440" height="90" fill="#4a6d4f"/>
+  <text x="950" y="168" text-anchor="middle" font-size="22" fill="#fff">บูตูอัน อากูซันเดลนอร์เต</text>
+  <text x="950" y="196" text-anchor="middle" font-size="16" fill="#e2ede2">ลุ่มแม่น้ำอากูซัน</text>
+  <rect x="1170" y="130" width="440" height="90" fill="#4a5d7d"/>
+  <text x="1390" y="168" text-anchor="middle" font-size="22" fill="#fff">ปลาซา อินเดเปนเดนเซีย เซบู</text>
+  <text x="1390" y="196" text-anchor="middle" font-size="16" fill="#dfe7f0">ลานตะพักเมืองช่องแคบ</text>
+
+  <!-- แถว 1 ตำแหน่งในภูมิทัศน์ -->
+  <rect x="60" y="220" width="230" height="120" fill="#efe6d2"/>
+  <text x="175" y="270" text-anchor="middle" font-size="19" font-weight="bold" fill="#4a3a20">ตำแหน่งใน</text>
+  <text x="175" y="296" text-anchor="middle" font-size="19" font-weight="bold" fill="#4a3a20">ภูมิทัศน์</text>
+  <rect x="290" y="220" width="440" height="120" fill="#fdf9ec" stroke="#c9b787"/>
+  <text x="510" y="258" text-anchor="middle" font-size="17" fill="#4a3a20">ชายฝั่งทะเลจีนใต้ เกาะปานัย</text>
+  <text x="510" y="286" text-anchor="middle" font-size="17" fill="#4a3a20">สัมพันธ์เมืองท่าอ่าวและช่องแคบ</text>
+  <text x="510" y="314" text-anchor="middle" font-size="15" fill="#7a6a4a">(ฐานะเมืองขุนนางสเปนร่วมกับเซบู)</text>
+  <rect x="730" y="220" width="440" height="120" fill="#f2f8f0" stroke="#a7c2a7"/>
+  <text x="950" y="258" text-anchor="middle" font-size="17" fill="#2e4430">ที่ราบน้ำท่วมถึงริมแม่น้ำอากูซัน</text>
+  <text x="950" y="286" text-anchor="middle" font-size="17" fill="#2e4430">ภาคเหนือเป็นดินดอนปากแม่น้ำ</text>
+  <text x="950" y="314" text-anchor="middle" font-size="15" fill="#4a6a4a">(คลองซูอาตัน–แม่น้ำมาเซา)</text>
+  <rect x="1170" y="220" width="440" height="120" fill="#f0f4fa" stroke="#a7b7cc"/>
+  <text x="1390" y="258" text-anchor="middle" font-size="17" fill="#2e3c52">ลานตะพักชายฝั่งของเมืองเซบู</text>
+  <text x="1390" y="286" text-anchor="middle" font-size="17" fill="#2e3c52">เหนือหนองน้ำเค็มเดิม (ตินาโก)</text>
+  <text x="1390" y="314" text-anchor="middle" font-size="15" fill="#4a5d75">(ร่องระบายน้ำซากหนองเดิม)</text>
+
+  <!-- แถว 2 ธรณีสัณฐาน/ชั้นดิน -->
+  <rect x="60" y="340" width="230" height="130" fill="#efe6d2"/>
+  <text x="175" y="392" text-anchor="middle" font-size="19" font-weight="bold" fill="#4a3a20">ธรณีสัณฐาน</text>
+  <text x="175" y="418" text-anchor="middle" font-size="19" font-weight="bold" fill="#4a3a20">และชั้นดิน</text>
+  <text x="175" y="444" text-anchor="middle" font-size="19" font-weight="bold" fill="#4a3a20">พื้นที่ศพ</text>
+  <rect x="290" y="340" width="440" height="130" fill="#fdf9ec" stroke="#c9b787"/>
+  <text x="510" y="380" text-anchor="middle" font-size="17" fill="#4a3a20">สุสานโบราณกระจายรอบขอบชายฝั่งปานัย</text>
+  <text x="510" y="410" text-anchor="middle" font-size="16" fill="#8a7350">รายงานชั้นดินหลุมโอตอน:</text>
+  <text x="510" y="436" text-anchor="middle" font-size="16" fill="#8a7350">ไม่ปรากฏในเอกสาร</text>
+  <rect x="730" y="340" width="440" height="130" fill="#f2f8f0" stroke="#a7c2a7"/>
+  <text x="950" y="380" text-anchor="middle" font-size="17" fill="#2e4430">หลุมโลงไม้ในชั้นวัฒนธรรมลานลุ่ม</text>
+  <text x="950" y="410" text-anchor="middle" font-size="17" fill="#2e4430">ลึกไม่เกิน 120 ซม. ใต้ระดับนั้น</text>
+  <text x="950" y="436" text-anchor="middle" font-size="16" fill="#4a6a4a">ดินปราศจากวัตถุทางวัฒนธรรม</text>
+  <rect x="1170" y="340" width="440" height="130" fill="#f0f4fa" stroke="#a7b7cc"/>
+  <text x="1390" y="380" text-anchor="middle" font-size="17" fill="#2e3c52">หลุมศพ 14–15 ฝังแทรกในตะกอน</text>
+  <text x="1390" y="410" text-anchor="middle" font-size="17" fill="#2e3c52">ลานตะพักลำน้ำ (ย่านเมืองเก่า)</text>
+  <text x="1390" y="436" text-anchor="middle" font-size="16" fill="#4a5d75">ความลึกหลุมหน้ากากทอง: ไม่ปรากฏในเอกสาร</text>
+
+  <!-- แถว 3 ระบบนิเวศทางน้ำ -->
+  <rect x="60" y="470" width="230" height="130" fill="#efe6d2"/>
+  <text x="175" y="522" text-anchor="middle" font-size="19" font-weight="bold" fill="#4a3a20">ระบบนิเวศ</text>
+  <text x="175" y="548" text-anchor="middle" font-size="19" font-weight="bold" fill="#4a3a20">ทางน้ำ</text>
+  <rect x="290" y="470" width="440" height="130" fill="#fdf9ec" stroke="#c9b787"/>
+  <text x="510" y="510" text-anchor="middle" font-size="17" fill="#4a3a20">อ่าวปานัย–ช่องแคบสู่ทะเลจีนใต้</text>
+  <text x="510" y="538" text-anchor="middle" font-size="17" fill="#4a3a20">แม่น้ำมายงมีทองผสมในทราย</text>
+  <text x="510" y="566" text-anchor="middle" font-size="15" fill="#7a6a4a">(เส้นทาง "ทองคำแลกเปลี่ยน" บันทึกจีน)</text>
+  <rect x="730" y="470" width="440" height="130" fill="#f2f8f0" stroke="#a7c2a7"/>
+  <text x="950" y="510" text-anchor="middle" font-size="17" fill="#2e4430">อากูซัน–มาเซา–คลองซูอาตัน–บ่อปลา</text>
+  <text x="950" y="538" text-anchor="middle" font-size="17" fill="#2e4430">ท่าเรือยอดสามเหลี่ยมชุ่มน้ำ</text>
+  <text x="950" y="566" text-anchor="middle" font-size="15" fill="#4a6a4a">(ทะเลสาบไมนิต = จุดบรรจบเส้นทางทอง)</text>
+  <rect x="1170" y="470" width="440" height="130" fill="#f0f4fa" stroke="#a7b7cc"/>
+  <text x="1390" y="510" text-anchor="middle" font-size="17" fill="#2e3c52">หนองน้ำเค็มก่อนถมเป็นเมือง</text>
+  <text x="1390" y="538" text-anchor="middle" font-size="17" fill="#2e3c52">ช่องแคบเซบู–เส้นทางการค้า</text>
+  <text x="1390" y="566" text-anchor="middle" font-size="15" fill="#4a5d75">(การรุกของทะเลสู่หนองน้ำสู่การถมเมือง)</text>
+
+  <!-- แถว 4 บริบทการตั้งถิ่นฐาน -->
+  <rect x="60" y="600" width="230" height="120" fill="#efe6d2"/>
+  <text x="175" y="650" text-anchor="middle" font-size="19" font-weight="bold" fill="#4a3a20">บริบทการตั้ง</text>
+  <text x="175" y="676" text-anchor="middle" font-size="19" font-weight="bold" fill="#4a3a20">ถิ่นฐานร่วม</text>
+  <rect x="290" y="600" width="440" height="120" fill="#fdf9ec" stroke="#c9b787"/>
+  <text x="510" y="640" text-anchor="middle" font-size="17" fill="#4a3a20">เมืองท่าเก่าของอ่าว</text>
+  <text x="510" y="668" text-anchor="middle" font-size="16" fill="#7a6a4a">"ลาโนเบลบีย" ค.ศ. 1610 (ร่วมกับเซบู)</text>
+  <rect x="730" y="600" width="440" height="120" fill="#f2f8f0" stroke="#a7c2a7"/>
+  <text x="950" y="640" text-anchor="middle" font-size="17" fill="#2e4430">ท่าเรือก่อนประวัติศาสตร์ในเขตทองซูริเกา</text>
+  <text x="950" y="668" text-anchor="middle" font-size="16" fill="#4a6a4a">ทูตจีนจากบูตูอัน ค.ศ. 1001</text>
+  <rect x="1170" y="600" width="440" height="120" fill="#f0f4fa" stroke="#a7b7cc"/>
+  <text x="1390" y="640" text-anchor="middle" font-size="17" fill="#2e3c52">ชุมชนศูนย์กลางขยายต่อเนื่องถึงยุคสเปน</text>
+  <text x="1390" y="668" text-anchor="middle" font-size="16" fill="#4a5d75">เขตช่างตีเหล็ก ศตวรรษที่ 15–16</text>
+
+  <!-- แถว 5 รูปแบบการฝัง -->
+  <rect x="60" y="720" width="230" height="140" fill="#efe6d2"/>
+  <text x="175" y="772" text-anchor="middle" font-size="19" font-weight="bold" fill="#4a3a20">รูปแบบการฝัง</text>
+  <text x="175" y="798" text-anchor="middle" font-size="19" font-weight="bold" fill="#4a3a20">ที่เอกสาร</text>
+  <text x="175" y="824" text-anchor="middle" font-size="19" font-weight="bold" fill="#4a3a20">ยืนยัน</text>
+  <rect x="290" y="720" width="440" height="140" fill="#fdf9ec" stroke="#c9b787"/>
+  <text x="510" y="758" text-anchor="middle" font-size="17" fill="#4a3a20">หลุมหมายเลข 6 (1967) โครงกระดูก</text>
+  <text x="510" y="786" text-anchor="middle" font-size="17" fill="#4a3a20">พร้อมแผ่นทองปิดตา–ปิดจมูก</text>
+  <text x="510" y="814" text-anchor="middle" font-size="16" fill="#8a7350">ประเภทการฝังรายหลุม: ตามบทที่ 2</text>
+  <rect x="730" y="720" width="440" height="140" fill="#f2f8f0" stroke="#a7c2a7"/>
+  <text x="950" y="758" text-anchor="middle" font-size="17" fill="#2e4430">โลงไม้หลายใบพร้อมเครื่องอุทิศทอง–เครื่องเคลือบ</text>
+  <text x="950" y="786" text-anchor="middle" font-size="17" fill="#2e4430">กะโหลกดัดหน้าผากแบน ศตวรรษที่ 14–15</text>
+  <text x="950" y="814" text-anchor="middle" font-size="16" fill="#4a6a4a">เอกสารยูเนสโกเสนอลักษณะทุติยภูมิ</text>
+  <rect x="1170" y="720" width="440" height="140" fill="#f0f4fa" stroke="#a7b7cc"/>
+  <text x="1390" y="758" text-anchor="middle" font-size="17" fill="#2e3c52">หลุมศพ ศตวรรษที่ 14–15 พร้อมแผ่นทอง</text>
+  <text x="1390" y="786" text-anchor="middle" font-size="17" fill="#2e3c52">ปิดตา จมูก ปาก + ต่างหูทอง</text>
+  <text x="1390" y="814" text-anchor="middle" font-size="16" fill="#4a5d75">ประเภทการฝัง: ยังไม่ปรากฏในเอกสาร</text>
+
+  <!-- แถบสรุป -->
+  <rect x="60" y="880" width="1550" height="110" rx="14" fill="#f5efe0" stroke="#8a6d2f" stroke-width="2"/>
+  <text x="835" y="918" text-anchor="middle" font-size="20" font-weight="bold" fill="#4a3a20">ข้อสรุปของบท: ตัวแปรกำหนดการฝังแผ่นทองมิใช่ประเภทระบบนิเวศ (อ่าว/แม่น้ำ/ช่องแคบ)</text>
+  <text x="835" y="948" text-anchor="middle" font-size="19" fill="#5a4a35">หากคือตำแหน่งของแหล่งในเครือข่ายการค้าทอง–เครื่องเคลือบข้ามทะเล ซึ่งทั้งสามแหล่งล้วนเป็นจุดยุทธศาสตร์</text>
+  <text x="835" y="976" text-anchor="middle" font-size="17" fill="#7a6a4a">พิธีปิดทวารศพด้วยทองจึง "ทับข้ามประเภทภูมิทัศน์" และผูกกับระบบสัญลักษณ์ของอำนาจเหนือเส้นทางทรัพยากร</text>
+
+  <!-- แถบที่มา -->
+  <rect x="0" y="1010" width="1700" height="140" fill="#efe8d8"/>
+  <text x="850" y="1048" text-anchor="middle" font-size="17" fill="#4a3a20">ที่มาข้อมูล: NMP "Ancient Burial Spaces and Places" (2021); Burton, Philippine Studies 25 (1977): 95–112; Peterson et al., SPAFA Journal 4 (2020);</text>
+  <text x="850" y="1076" text-anchor="middle" font-size="17" fill="#4a3a20">Nishimura, Waseda Bulletin 64/4 (2019); Canilao, Qeios preprint (2023) doi:10.32388/TPD85Q; Go Bon Juan, Philippine Studies 53/1 (2005);</text>
+  <text x="850" y="1104" text-anchor="middle" font-size="17" fill="#4a3a20">Abalajon, Philippiniana Sacra 46/136 (2011); Mudar, Asian Perspectives 36/1 (1997); Lacsina, APCONF Proceedings (2011); NMP Cebu (2023); UNESCO WHC Tentative List 2071</text>
+</svg>
