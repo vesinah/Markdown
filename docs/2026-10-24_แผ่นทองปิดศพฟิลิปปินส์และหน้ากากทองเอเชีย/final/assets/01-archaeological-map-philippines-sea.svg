@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="100%" stop-color="#020c1b"/>
+    </linearGradient>
+    <linearGradient id="seaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#112240"/>
+      <stop offset="100%" stop-color="#0a192f"/>
+    </linearGradient>
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+    <linearGradient id="redGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b6b"/>
+      <stop offset="100%" stop-color="#ee5253"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#172a45" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0d1b2a" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feOffset dx="0" dy="4" result="offset"/>
+      <feComposite in="SourceGraphic" in2="offset" operator="over"/>
+    </filter>
+    <filter id="goldBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.8"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Sea -->
+  <rect width="1200" height="900" fill="url(#bgGrad)"/>
+
+  <!-- Lat/Long Grid -->
+  <g stroke="#1f4068" stroke-width="0.5" stroke-dasharray="4,4" opacity="0.4">
+    <line x1="100" y1="150" x2="1100" y2="150"/>
+    <line x1="100" y1="300" x2="1100" y2="300"/>
+    <line x1="100" y1="450" x2="1100" y2="450"/>
+    <line x1="100" y1="600" x2="1100" y2="600"/>
+    <line x1="100" y1="750" x2="1100" y2="750"/>
+    <line x1="250" y1="100" x2="250" y2="820"/>
+    <line x1="450" y1="100" x2="450" y2="820"/>
+    <line x1="650" y1="100" x2="650" y2="820"/>
+    <line x1="850" y1="100" x2="850" y2="820"/>
+    <line x1="1050" y1="100" x2="1050" y2="820"/>
+  </g>
+
+  <!-- Landmass Outlines (Simplified Archeological Geography) -->
+  <!-- Asian Mainland / Indochina / China -->
+  <path d="M 50,100 L 280,100 Q 320,180 340,240 Q 330,320 310,380 Q 280,440 290,520 Q 310,580 300,640 Q 270,720 250,780 L 50,780 Z" fill="#1b2a4a" stroke="#2d4263" stroke-width="1.5" opacity="0.8"/>
+  <text x="140" y="240" fill="#64ffda" font-size="14" font-family="'Sarabun', 'Segoe UI', sans-serif" opacity="0.7">จีนตอนใต้ (Southern China)</text>
+  <text x="180" y="420" fill="#64ffda" font-size="14" font-family="'Sarabun', 'Segoe UI', sans-serif" opacity="0.7">อินโดจีน (Indochina)</text>
+  <text x="150" y="600" fill="#64ffda" font-size="14" font-family="'Sarabun', 'Segoe UI', sans-serif" opacity="0.7">แหลมมลายู (Malay Pen.)</text>
+
+  <!-- Borneo -->
+  <path d="M 400,680 Q 480,640 560,660 Q 600,720 570,790 Q 480,820 420,780 Z" fill="#1b2a4a" stroke="#2d4263" stroke-width="1.5" opacity="0.8"/>
+  <text x="470" y="730" fill="#8892b0" font-size="13" font-family="'Sarabun', 'Segoe UI', sans-serif">บอร์เนียว (Borneo)</text>
+
+  <!-- Philippine Archipelago -->
+  <!-- Luzon -->
+  <path d="M 680,200 Q 730,170 770,200 Q 820,240 800,320 Q 760,380 720,400 Q 700,340 680,260 Z" fill="#203657" stroke="#486581" stroke-width="1.8"/>
+  <!-- Mindoro & Palawan -->
+  <path d="M 640,380 Q 670,390 660,430 Q 640,430 630,400 Z" fill="#203657" stroke="#486581" stroke-width="1.5"/>
+  <path d="M 500,480 Q 580,440 600,470 Q 560,520 480,560 Z" fill="#203657" stroke="#486581" stroke-width="1.5"/>
+  <text x="510" y="540" fill="#8892b0" font-size="12" font-family="'Sarabun', 'Segoe UI', sans-serif">ปาลาวัน (Palawan)</text>
+
+  <!-- Visayas (Panay, Negros, Cebu, Leyte, Samar) -->
+  <g id="visayas-islands">
+    <!-- Panay -->
+    <path d="M 680,470 Q 720,460 730,500 Q 700,530 670,510 Z" fill="#27446b" stroke="#ffd700" stroke-width="1.5"/>
+    <!-- Negros -->
+    <path d="M 720,530 Q 740,510 750,550 Q 740,610 720,590 Z" fill="#203657" stroke="#486581" stroke-width="1.5"/>
+    <!-- Cebu -->
+    <path d="M 760,510 Q 770,500 780,550 Q 770,580 755,540 Z" fill="#27446b" stroke="#ffd700" stroke-width="1.5"/>
+    <!-- Bohol -->
+    <path d="M 780,560 Q 810,550 810,580 Q 780,590 775,570 Z" fill="#203657" stroke="#486581" stroke-width="1.5"/>
+    <!-- Samar & Leyte -->
+    <path d="M 800,430 Q 840,410 850,470 Q 810,530 790,480 Z" fill="#203657" stroke="#486581" stroke-width="1.5"/>
+  </g>
+
+  <!-- Mindanao -->
+  <path d="M 760,610 Q 850,590 890,620 Q 920,680 900,750 Q 820,780 770,740 Q 720,700 750,650 Z" fill="#27446b" stroke="#ffd700" stroke-width="1.8"/>
+
+  <!-- Maritime Sea Names -->
+  <text x="450" y="320" fill="#486581" font-size="18" font-family="'Sarabun', 'Segoe UI', sans-serif" font-weight="bold" letter-spacing="3" opacity="0.6">ทะเลจีนใต้ (SOUTH CHINA SEA)</text>
+  <text x="640" y="600" fill="#486581" font-size="16" font-family="'Sarabun', 'Segoe UI', sans-serif" font-weight="bold" letter-spacing="2" opacity="0.6">ทะเลซูลู (SULU SEA)</text>
+  <text x="940" y="450" fill="#486581" font-size="18" font-family="'Sarabun', 'Segoe UI', sans-serif" font-weight="bold" letter-spacing="3" opacity="0.6">ทะเลฟิลิปปิน (PHILIPPINE SEA)</text>
+  <text x="740" y="820" fill="#486581" font-size="16" font-family="'Sarabun', 'Segoe UI', sans-serif" font-weight="bold" letter-spacing="2" opacity="0.6">ทะเลเซเลบีส (CELEBES SEA)</text>
+
+  <!-- Maritime Trade Routes -->
+  <g stroke="#64ffda" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.65">
+    <!-- China to Luzon/Manila -->
+    <path d="M 280,180 Q 500,200 700,270"/>
+    <!-- China to Butuan/Visayas -->
+    <path d="M 330,220 Q 550,340 700,490"/>
+    <path d="M 700,490 Q 780,560 830,640"/>
+    <!-- Vietnam (Sa Huynh/Champa) to Palawan & Panay -->
+    <path d="M 320,440 Q 480,480 690,495"/>
+    <!-- Butuan to Java/Nusantara -->
+    <path d="M 830,640 Q 700,760 550,830"/>
+  </g>
+
+  <!-- PRIMARY SITES (Heartland Philippine Gold Mask Sites) - GOLD GLOW -->
+  <!-- 1. OTON, ILOILO -->
+  <g transform="translate(695, 495)" filter="url(#goldBlur)">
+    <circle r="12" fill="url(#goldGlow)" stroke="#ffffff" stroke-width="2"/>
+    <polygon points="0,-18 5,-8 16,-8 7,0 11,10 0,3 -11,10 -7,0 -16,-8 -5,-8" fill="#ffffff" opacity="0.9"/>
+  </g>
+  <g transform="translate(695, 495)">
+    <circle r="7" fill="#d4af37" stroke="#ffffff" stroke-width="1.5"/>
+    <!-- Label Card -->
+    <rect x="-190" y="-45" width="175" height="40" rx="6" fill="url(#cardGrad)" stroke="#ffd700" stroke-width="1.5" filter="url(#dropShadow)"/>
+    <text x="-180" y="-28" fill="#ffd700" font-size="13" font-family="'Sarabun', 'Segoe UI', sans-serif" font-weight="bold">แหล่งโอตอน (OTON)</text>
+    <text x="-180" y="-12" fill="#e6f1ff" font-size="11" font-family="'Sarabun', 'Segoe UI', sans-serif">จ.อิโลอิโล เกาะปานาย (ขุดค้น 1967)</text>
+    <line x1="-15" y1="-25" x2="-2" y2="-5" stroke="#ffd700" stroke-width="1.5"/>
+  </g>
+
+  <!-- 2. BUTUAN (Ambangan/Suatan) -->
+  <g transform="translate(835, 638)" filter="url(#goldBlur)">
+    <circle r="12" fill="url(#goldGlow)" stroke="#ffffff" stroke-width="2"/>
+    <polygon points="0,-18 5,-8 16,-8 7,0 11,10 0,3 -11,10 -7,0 -16,-8 -5,-8" fill="#ffffff" opacity="0.9"/>
+  </g>
+  <g transform="translate(835, 638)">
+    <circle r="7" fill="#d4af37" stroke="#ffffff" stroke-width="1.5"/>
+    <!-- Label Card -->
+    <rect x="25" y="-20" width="200" height="40" rx="6" fill="url(#cardGrad)" stroke="#ffd700" stroke-width="1.5" filter="url(#dropShadow)"/>
+    <text x="35" y="-3" fill="#ffd700" font-size="13" font-family="'Sarabun', 'Segoe UI', sans-serif" font-weight="bold">แหล่งบูตูอัน (BUTUAN)</text>
+    <text x="35" y="13" fill="#e6f1ff" font-size="11" font-family="'Sarabun', 'Segoe UI', sans-serif">ลุ่มน้ำอากูซัน มินดาเนา (โลงไม้/เรือโบราณ)</text>
+    <line x1="25" y1="0" x2="8" y2="0" stroke="#ffd700" stroke-width="1.5"/>
+  </g>
+
+  <!-- 3. PLAZA INDEPENDENCIA, CEBU -->
+  <g transform="translate(768, 532)" filter="url(#goldBlur)">
+    <circle r="11" fill="url(#goldGlow)" stroke="#ffffff" stroke-width="2"/>
+    <polygon points="0,-16 4,-7 14,-7 6,0 9,9 0,3 -9,9 -6,0 -14,-7 -4,-7" fill="#ffffff" opacity="0.9"/>
+  </g>
+  <g transform="translate(768, 532)">
+    <circle r="6" fill="#d4af37" stroke="#ffffff" stroke-width="1.5"/>
+    <!-- Label Card -->
+    <rect x="25" y="-45" width="210" height="40" rx="6" fill="url(#cardGrad)" stroke="#ffd700" stroke-width="1.5" filter="url(#dropShadow)"/>
+    <text x="35" y="-28" fill="#ffd700" font-size="13" font-family="'Sarabun', 'Segoe UI', sans-serif" font-weight="bold">ปลาซาอินเดเปนเดนเซีย (CEBU)</text>
+    <text x="35" y="-12" fill="#e6f1ff" font-size="11" font-family="'Sarabun', 'Segoe UI', sans-serif">เมืองเซบู (ขุดกู้ 2008 / ไหฝังศพ-กริช)</text>
+    <line x1="25" y1="-25" x2="5" y2="-5" stroke="#ffd700" stroke-width="1.5"/>
+  </g>
+
+  <!-- SATELLITE & COMPARATIVE SITES IN PHILIPPINES -->
+  <!-- Santa Ana, Manila -->
+  <circle cx="705" cy="275" r="5" fill="#64ffda" stroke="#ffffff" stroke-width="1"/>
+  <text x="715" y="278" fill="#ccd6f6" font-size="11" font-family="'Sarabun', sans-serif">ซานตาอานา มะนิลา (Santa Ana)</text>
+
+  <!-- Calatagan, Batangas -->
+  <circle cx="685" cy="320" r="5" fill="#64ffda" stroke="#ffffff" stroke-width="1"/>
+  <text x="560" y="325" fill="#ccd6f6" font-size="11" font-family="'Sarabun', sans-serif">คาลาตากัน (Calatagan)</text>
+
+  <!-- Tabon Caves, Palawan -->
+  <circle cx="510" cy="510" r="5" fill="#64ffda" stroke="#ffffff" stroke-width="1"/>
+  <text x="420" y="515" fill="#ccd6f6" font-size="11" font-family="'Sarabun', sans-serif">ถ้ำตาโบน (Tabon)</text>
+
+  <!-- San Remigio, North Cebu -->
+  <circle cx="758" cy="495" r="4.5" fill="#64ffda" stroke="#ffffff" stroke-width="1"/>
+  <text x="770" y="490" fill="#ccd6f6" font-size="10" font-family="'Sarabun', sans-serif">ซานเรมิฮิโอ</text>
+
+  <!-- Boljoon, South Cebu -->
+  <circle cx="762" cy="565" r="4.5" fill="#64ffda" stroke="#ffffff" stroke-width="1"/>
+  <text x="775" y="570" fill="#ccd6f6" font-size="10" font-family="'Sarabun', sans-serif">โบลโจน</text>
+
+  <!-- Maitum, Sarangani -->
+  <circle cx="810" cy="760" r="5" fill="#64ffda" stroke="#ffffff" stroke-width="1"/>
+  <text x="822" y="765" fill="#ccd6f6" font-size="11" font-family="'Sarabun', sans-serif">ไมทุม ไหรูปคน (Maitum)</text>
+
+  <!-- TRANS-REGIONAL COMPARATIVE SITES (Asia) - RED DOTS -->
+  <!-- Sa Huynh / Giong Ca Vo (Vietnam) -->
+  <circle cx="280" cy="430" r="6" fill="url(#redGlow)" stroke="#ffffff" stroke-width="1.5"/>
+  <rect x="155" y="445" width="165" height="34" rx="4" fill="url(#cardGrad)" stroke="#ee5253" stroke-width="1" filter="url(#dropShadow)"/>
+  <text x="165" y="460" fill="#ff6b6b" font-size="11" font-family="'Sarabun', sans-serif" font-weight="bold">ซาฮืญห์ / โย่งคาเว่</text>
+  <text x="165" y="473" fill="#ccd6f6" font-size="10" font-family="'Sarabun', sans-serif">เวียดนาม (ทองปิดปากในไห)</text>
+
+  <!-- Oc Eo (Mekong Delta) -->
+  <circle cx="265" cy="505" r="5.5" fill="url(#redGlow)" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="175" y="510" fill="#ff6b6b" font-size="11" font-family="'Sarabun', sans-serif" font-weight="bold">โอกเอว (Oc Eo)</text>
+
+  <!-- Prohear (Cambodia) -->
+  <circle cx="235" cy="465" r="5.5" fill="url(#redGlow)" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="135" y="470" fill="#ff6b6b" font-size="11" font-family="'Sarabun', sans-serif" font-weight="bold">โปรเฮียร์ (Prohear)</text>
+
+  <!-- Majapahit / East Java (Indonesia) -->
+  <circle cx="530" cy="840" r="6" fill="url(#redGlow)" stroke="#ffffff" stroke-width="1.5"/>
+  <rect x="420" y="845" width="160" height="34" rx="4" fill="url(#cardGrad)" stroke="#ee5253" stroke-width="1" filter="url(#dropShadow)"/>
+  <text x="430" y="860" fill="#ff6b6b" font-size="11" font-family="'Sarabun', sans-serif" font-weight="bold">ชวาตะวันออก (มัชปาหิต)</text>
+  <text x="430" y="873" fill="#ccd6f6" font-size="10" font-family="'Sarabun', sans-serif">อินโดนีเซีย (หน้ากากทองคำ)</text>
+
+  <!-- MAP HEADER & TITLE BLOCK -->
+  <g transform="translate(50, 40)">
+    <rect width="680" height="95" rx="8" fill="url(#cardGrad)" stroke="#303C55" stroke-width="1.5" filter="url(#dropShadow)"/>
+    <text x="25" y="32" fill="#ffd700" font-size="20" font-family="'Sarabun', 'Segoe UI', sans-serif" font-weight="bold" letter-spacing="1">
+      แผนผัง 1: ภูมิทัศน์โบราณคดีสามแหล่งแกนกลางและเครือข่ายหน้ากากทองคำแห่งเอเชีย
+    </text>
+    <text x="25" y="56" fill="#64ffda" font-size="13" font-family="'Segoe UI', sans-serif" letter-spacing="0.5">
+      ARCHAEOLOGICAL GEOGRAPHY OF PHILIPPINE GOLD DEATH MASK SITES &amp; MARITIME ASIAN HORIZONS
+    </text>
+    <text x="25" y="78" fill="#8892b0" font-size="12" font-family="'Sarabun', sans-serif">
+      สังเคราะห์พิกัดจากรายงานขุดค้น: โอตอน (1967), บูตูอัน (1977/NMP), ปลาซาอินเดเปนเดนเซีย (2008) และเครือข่ายยุคการค้าทางทะเล
+    </text>
+  </g>
+
+  <!-- MAP LEGEND BOX -->
+  <g transform="translate(870, 40)">
+    <rect width="280" height="200" rx="8" fill="url(#cardGrad)" stroke="#303C55" stroke-width="1.5" filter="url(#dropShadow)"/>
+    <text x="20" y="28" fill="#e6f1ff" font-size="14" font-family="'Sarabun', sans-serif" font-weight="bold">สัญลักษณ์แผนที่ (MAP LEGEND)</text>
+    <line x1="20" y1="38" x2="260" y2="38" stroke="#303C55" stroke-width="1"/>
+
+    <!-- Legend Items -->
+    <circle cx="35" cy="58" r="8" fill="url(#goldGlow)" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="55" y="63" fill="#ffd700" font-size="12" font-family="'Sarabun', sans-serif" font-weight="bold">แหล่งแกนกลางแผ่นทองปิดศพ (3 แหล่ง)</text>
+
+    <circle cx="35" cy="90" r="5.5" fill="#64ffda" stroke="#ffffff" stroke-width="1"/>
+    <text x="55" y="95" fill="#ccd6f6" font-size="12" font-family="'Sarabun', sans-serif">แหล่งสุสานและโบราณคดีร่วมสมัยฟิลิปปินส์</text>
+
+    <circle cx="35" cy="122" r="6" fill="url(#redGlow)" stroke="#ffffff" stroke-width="1"/>
+    <text x="55" y="127" fill="#ff6b6b" font-size="12" font-family="'Sarabun', sans-serif">แหล่งหน้ากากทอง/ทองปิดศพเปรียบเทียบในเอเชีย</text>
+
+    <line x1="25" y1="154" x2="45" y2="154" stroke="#64ffda" stroke-width="2" stroke-dasharray="5,3"/>
+    <text x="55" y="158" fill="#ccd6f6" font-size="12" font-family="'Sarabun', sans-serif">เส้นทางแลกเปลี่ยนและเครือข่ายการค้าทางทะเล</text>
+
+    <text x="20" y="186" fill="#8892b0" font-size="10.5" font-family="'Sarabun', sans-serif">พิกัดอิงภูมิศาสตร์และรายงานการสำรวจ NMP / UNESCO</text>
+  </g>
+
+  <!-- NORTH ARROW & SCALE -->
+  <g transform="translate(1110, 780)">
+    <circle r="28" fill="#172a45" stroke="#64ffda" stroke-width="1.5" filter="url(#dropShadow)"/>
+    <polygon points="0,-22 7,12 0,5 -7,12" fill="#64ffda"/>
+    <polygon points="0,5 7,12 0,22 -7,12" fill="#203657"/>
+    <text x="-5" y="-25" fill="#64ffda" font-size="12" font-family="'Segoe UI', sans-serif" font-weight="bold">N</text>
+    <text x="-15" y="45" fill="#8892b0" font-size="10" font-family="'Segoe UI', sans-serif">SCALE</text>
+    <line x1="-30" y1="52" x2="30" y2="52" stroke="#ccd6f6" stroke-width="2"/>
+    <text x="-25" y="65" fill="#8892b0" font-size="9" font-family="'Segoe UI', sans-serif">0    250   500 km</text>
+  </g>
+</svg>

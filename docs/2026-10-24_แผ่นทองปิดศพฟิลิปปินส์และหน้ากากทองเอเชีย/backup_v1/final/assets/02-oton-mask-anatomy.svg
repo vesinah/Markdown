@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1080" font-family="sans-serif">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F2D27A"/>
+      <stop offset="0.5" stop-color="#D9A93C"/>
+      <stop offset="1" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="goldDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8C066"/>
+      <stop offset="1" stop-color="#C08A18"/>
+    </linearGradient>
+  </defs>
+
+  <!-- พื้นหลัง -->
+  <rect x="0" y="0" width="1600" height="1080" fill="#F7F2E7"/>
+
+  <!-- หัวเรื่อง -->
+  <text x="800" y="48" text-anchor="middle" font-size="34" font-weight="bold" fill="#3B2F1E">ภาพที่ 2.1: องค์ประกอบและตำแหน่งบนใบหน้าของชุดแผ่นทองปิดตาและปิดจมูกแห่งโอตอน</text>
+  <text x="800" y="82" text-anchor="middle" font-size="20" fill="#5A4A30">ชุดแผ่นทองปิดหน้าศพโอตอน จังหวัดอิโลอิโล อายุปลายคริสต์ศตวรรษที่ 14 ถึงต้นคริสต์ศตวรรษที่ 15 (ยุคแห่งการค้า)</text>
+
+  <!-- ===== ฝั่งซ้าย: ใบหน้าผู้ตายและการวางแผ่นทอง ===== -->
+  <g>
+    <ellipse cx="420" cy="560" rx="250" ry="330" fill="#F3E4D3" stroke="#A98968" stroke-width="3"/>
+
+    <!-- กะโหลกเชิงสัญลักษณ์ (วัตถุพบบนกะโหลก) -->
+    <ellipse cx="420" cy="540" rx="215" ry="290" fill="none" stroke="#C8A183" stroke-width="2" stroke-dasharray="7 9"/>
+    <text x="420" y="930" text-anchor="middle" font-size="19" fill="#8A6A4B">แนวกะโหลกศีรษะเชิงสัญลักษณ์ (วัตถุถูกพบอยู่บนกะโหลก)</text>
+
+    <!-- ดวงตา -->
+    <ellipse cx="345" cy="490" rx="42" ry="24" fill="#FFFFFF" stroke="#6B5138" stroke-width="2.5"/>
+    <circle cx="345" cy="490" r="13" fill="#4A3826"/>
+    <ellipse cx="495" cy="490" rx="42" ry="24" fill="#FFFFFF" stroke="#6B5138" stroke-width="2.5"/>
+    <circle cx="495" cy="490" r="13" fill="#4A3826"/>
+
+    <!-- จมูกและปาก -->
+    <path d="M420,510 L420,600 M395,600 Q420,625 445,600" fill="none" stroke="#6B5138" stroke-width="3"/>
+    <path d="M350,690 Q420,720 490,690" fill="none" stroke="#8A5A4B" stroke-width="4"/>
+    <text x="248" y="695" text-anchor="end" font-size="18" fill="#7A5A44">ช่องปาก</text>
+    <line x1="256" y1="689" x2="346" y2="692" stroke="#B9A284" stroke-width="1.5"/>
+
+    <!-- แผ่นปิดตา (13.3 x 2.5 ซม. เทียบสัดส่วน 10 พิกเซลต่อเซนติเมตร) -->
+    <g>
+      <rect x="290" y="470" width="133" height="25" rx="12" fill="url(#gold)" stroke="#8A6510" stroke-width="2"/>
+      <ellipse cx="345" cy="482.5" rx="26" ry="9" fill="#F7F2E7" opacity="0.55"/>
+      <ellipse cx="495" cy="482.5" rx="26" ry="9" fill="#F7F2E7" opacity="0.55" transform="translate(-25 0)"/>
+      <g fill="#8A6510">
+        <circle cx="298" cy="482.5" r="2.2"/><circle cx="312" cy="475" r="2.2"/><circle cx="312" cy="490" r="2.2"/>
+        <circle cx="330" cy="475" r="2.2"/><circle cx="330" cy="490" r="2.2"/><circle cx="352" cy="475" r="2.2"/>
+        <circle cx="352" cy="490" r="2.2"/><circle cx="374" cy="475" r="2.2"/><circle cx="374" cy="490" r="2.2"/>
+        <circle cx="396" cy="475" r="2.2"/><circle cx="396" cy="490" r="2.2"/><circle cx="412" cy="482.5" r="2.2"/>
+      </g>
+      <line x1="290" y1="440" x2="423" y2="440" stroke="#8A6510" stroke-width="1.5"/>
+      <text x="356" y="428" text-anchor="middle" font-size="19" font-weight="bold" fill="#5A4A10">ยาว 13.3 ซม. กว้าง 2.5 ซม.</text>
+      <text x="150" y="462" text-anchor="middle" font-size="20" font-weight="bold" fill="#5A4A10">แผ่นปิดตา</text>
+      <text x="150" y="487" text-anchor="middle" font-size="18" fill="#5A4A10">OT-MD-39 (3.16 กรัม)</text>
+      <line x1="205" y1="470" x2="288" y2="478" stroke="#B9A284" stroke-width="1.5"/>
+    </g>
+
+    <!-- แผ่นปิดจมูก (16.3 x 5.5 ซม.) -->
+    <g>
+      <path d="M372,528 L468,528 L476,600 Q476,648 420,660 Q364,648 364,600 Z" fill="url(#goldDark)" stroke="#8A6510" stroke-width="2"/>
+      <path d="M400,545 L440,545 L444,596 Q444,620 420,628 Q396,620 396,596 Z" fill="#F7F2E7" opacity="0.35"/>
+      <g fill="#8A6510">
+        <circle cx="372" cy="540" r="2.2"/><circle cx="372" cy="570" r="2.2"/><circle cx="372" cy="600" r="2.2"/>
+        <circle cx="372" cy="628" r="2.2"/><circle cx="468" cy="540" r="2.2"/><circle cx="468" cy="570" r="2.2"/>
+        <circle cx="468" cy="600" r="2.2"/><circle cx="468" cy="628" r="2.2"/><circle cx="420" cy="652" r="2.2"/>
+      </g>
+      <line x1="476" y1="528" x2="560" y2="528" stroke="#8A6510" stroke-width="1.5"/>
+      <text x="700" y="524" text-anchor="middle" font-size="19" font-weight="bold" fill="#5A4A10">ยาว 16.3 ซม. กว้าง 5.5 ซม.</text>
+      <text x="700" y="556" text-anchor="middle" font-size="20" font-weight="bold" fill="#5A4A10">แผ่นปิดจมูก</text>
+      <text x="700" y="584" text-anchor="middle" font-size="18" fill="#5A4A10">OT-MF-40 (3.09 กรัม)</text>
+      <line x1="560" y1="528" x2="596" y2="530" stroke="#B9A284" stroke-width="1.5"/>
+    </g>
+
+    <!-- จุดรูเจาะริบบิ้ว -->
+    <text x="150" y="775" font-size="17" fill="#6B5138">จุดเล็กตามริมขอบแผ่น = รูเจาะตามริมขอบ</text>
+    <text x="150" y="800" font-size="17" fill="#6B5138">สำหรับเย็บแผ่นทองเข้ากับวัสดุรองรับ</text>
+  </g>
+
+  <!-- ===== ฝั่งขวา: แผงข้อมูลวัตถุและบริบทการพบ ===== -->
+  <g>
+    <rect x="880" y="130" width="650" height="700" rx="14" fill="#FFFDF6" stroke="#C4B08A" stroke-width="2.5"/>
+    <text x="1205" y="176" text-anchor="middle" font-size="25" font-weight="bold" fill="#3B2F1E">ข้อมูลวัตถุอย่างเป็นทางการ (บันทึกภัณฑารักษ์)</text>
+
+    <g font-size="20" fill="#3B2F1E">
+      <text x="915" y="230">อายุ:</text>
+      <text x="1030" y="230">ปลายคริสต์ศตวรรษที่ 14 – ต้นคริสต์ศตวรรษที่ 15</text>
+      <text x="915" y="266">วัสดุ:</text>
+      <text x="1030" y="266">ทองคำ (แผ่นตัดและตีขึ้นรูป)</text>
+
+      <rect x="915" y="290" width="580" height="2" fill="#C4B08A"/>
+
+      <text x="915" y="326" font-weight="bold">แผ่นปิดตา (eye cover)</text>
+      <text x="915" y="356">เลขทะเบียน OT-MD-39 | ยาว 13.3 ซม. กว้าง 2.5 ซม.</text>
+      <text x="915" y="386">น้ำหนัก 3.16 กรัม</text>
+
+      <text x="915" y="426" font-weight="bold">แผ่นปิดจมูก (nose shield)</text>
+      <text x="915" y="456">เลขทะเบียน OT-MF-40 | ยาว 16.3 ซม. กว้าง 5.5 ซม.</text>
+      <text x="915" y="486">น้ำหนัก 3.09 กรัม</text>
+
+      <rect x="915" y="510" width="580" height="2" fill="#C4B08A"/>
+
+      <text x="915" y="546" font-weight="bold" fill="#7A1E1E">สถานะ: สมบัติวัฒนธรรมแห่งชาติ</text>
+
+      <text x="915" y="586" font-weight="bold">หลักฐานเทคนิคจากตัววัตถุ:</text>
+      <text x="915" y="616">• รูเจาะตามริมขอบแผ่น = หลักฐานการเย็บเข้าวัสดุรองรับ</text>
+      <text x="915" y="646">• เศษทองที่ถูกตัดพบใกล้เคียง = ช่างอาจเตรียมแผ่นในสถานที่</text>
+      <text x="915" y="676" font-weight="bold">ความเชื่อที่บันทึกไว้:</text>
+      <text x="915" y="706">• แผ่นทองคลุมตา จมูก ปาก ปกป้องผู้ตายจากวิญญาณร้าย</text>
+      <text x="915" y="736">• ทองคำผูกพันกับสถานะสูง ผู้มีอันดับฝังพร้อมทองให้มากที่สุด</text>
+      <text x="915" y="766" font-weight="bold">บริบทการพบ:</text>
+      <text x="915" y="796">• คาตากมาน (ปัจจุบันคือซานอันโตนิโอ) เทศบาลโอตอน จังหวัดอิโลอิโล</text>
+    </g>
+  </g>
+
+  <!-- ประกาศใต้ภาพ -->
+  <text x="420" y="1000" text-anchor="middle" font-size="17" fill="#8A7A5A">รูปวาดใบหน้าและแผ่นทองเป็นแผนภาพเชิงสัญลักษณ์เพื่อแสดงองค์ประกอบและตำแหน่งตามประเภทวัตถุ มิใช่ภาพถ่ายหรือแบบจำลองตามวัตถุจริง ขนาดแผ่นทองเทียบสัดส่วน 10 พิกเซลต่อ 1 เซนติเมตร</text>
+  <line x1="60" y1="1030" x2="1540" y2="1030" stroke="#C4B08A" stroke-width="2"/>
+  <text x="800" y="1058" text-anchor="middle" font-size="16" fill="#6B5B3E">ที่มาข้อมูล: Benitez-Johannot, CCP Encyclopedia of Philippine Art Digital Edition (2020), p. 1 (ขนาด น้ำหนัก เลขทะเบียน สถานะ เทคนิค); National Museum of the Philippines, Oton Gold Death Mask Gallery (การพบ in situ 5 มิ.ย. 1967 โดย Evangelista–Jocano; ความเชื่อการปกป้องผู้ตาย); Reinecke and Nguyen, Arts of Asia 39/5 (2009), p. 4 (วัตถุพบบนกะโหลก)</text>
+</svg>

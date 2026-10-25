@@ -1,0 +1,335 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 960" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a121c"/>
+      <stop offset="50%" stop-color="#101d2d"/>
+      <stop offset="100%" stop-color="#0a111a"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe899"/>
+      <stop offset="35%" stop-color="#e5b338"/>
+      <stop offset="70%" stop-color="#c99716"/>
+      <stop offset="100%" stop-color="#8a6105"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c99716" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#ffe899" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#c99716" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38ef7d"/>
+      <stop offset="100%" stop-color="#11998e"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b176ff"/>
+      <stop offset="100%" stop-color="#7038d8"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9a44"/>
+      <stop offset="100%" stop-color="#e65c00"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b6b"/>
+      <stop offset="100%" stop-color="#cc2b5e"/>
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#152438" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0d1826" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="glow"/>
+      <feComposite in="SourceGraphic" in2="glow" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: 'Sarabun', 'Segoe UI', Tahoma, sans-serif; font-weight: 700; fill: #ffe899; }
+    .subtitle { font-family: 'Sarabun', 'Segoe UI', Tahoma, sans-serif; font-weight: 400; fill: #a5b4fc; }
+    .header-text { font-family: 'Sarabun', 'Segoe UI', Tahoma, sans-serif; font-weight: 600; fill: #ffffff; }
+    .body-text { font-family: 'Sarabun', 'Segoe UI', Tahoma, sans-serif; font-weight: 400; fill: #cbd5e1; }
+    .tag { font-family: 'Sarabun', 'Segoe UI', Tahoma, sans-serif; font-weight: 600; font-size: 11px; }
+    .code-text { font-family: 'Consolas', 'Courier New', monospace; font-size: 11px; fill: #94a3b8; }
+    .grid-line { stroke: #1e3a5f; stroke-dasharray: 4,4; stroke-width: 1; }
+    .conn-line { stroke-width: 2; stroke-dasharray: 6,4; fill: none; }
+  </style>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="960" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid Lines -->
+  <g opacity="0.15">
+    <line x1="50" y1="120" x2="1150" y2="120" stroke="#4facfe"/>
+    <line x1="50" y1="380" x2="1150" y2="380" stroke="#4facfe"/>
+    <line x1="50" y1="670" x2="1150" y2="670" stroke="#4facfe"/>
+    <line x1="390" y1="120" x2="390" y2="920" stroke="#4facfe"/>
+    <line x1="790" y1="120" x2="790" y2="920" stroke="#4facfe"/>
+  </g>
+
+  <!-- ==================== HEADER SECTION ==================== -->
+  <g transform="translate(60, 40)">
+    <text class="title" font-size="25" letter-spacing="0.5">ขอบฟ้าวัฒนธรรมหน้ากากทองคำและแผ่นทองปิดศพเปรียบเทียบในเอเชีย</text>
+    <text class="subtitle" font-size="14" y="26">PAN-ASIAN COMPARATIVE HORIZONS OF MORTUARY GOLD MASKS &amp; ORIFICE COVERS</text>
+    <rect x="0" y="38" width="1080" height="2" fill="url(#goldAccent)"/>
+  </g>
+
+  <!-- ==================== 6 MAJOR CULTURAL REGIONS (TOP & MID) ==================== -->
+
+  <!-- 1. LIAO DYNASTY (KITAN) - INNER MONGOLIA / NORTH CHINA -->
+  <g transform="translate(50, 95)" filter="url(#shadow)">
+    <rect width="350" height="150" rx="10" fill="url(#cardBg)" stroke="#cc2b5e" stroke-width="2"/>
+    <rect x="0" y="0" width="350" height="30" rx="10" fill="#cc2b5e" opacity="0.25"/>
+    <circle cx="20" cy="15" r="6" fill="#ff6b6b"/>
+    <text class="header-text" font-size="14" x="35" y="20">1. ราชวงศ์เหลียว (ชิตัน) มองโกเลียใน-จีนเหนือ</text>
+    <rect x="250" y="6" width="90" height="18" rx="4" fill="#cc2b5e"/>
+    <text class="tag" x="258" y="19" fill="#ffffff">916–1125 CE</text>
+
+    <text class="body-text" font-size="11.5" x="15" y="48"><tspan font-weight="600" fill="#ff9999">• สัณฐาน:</tspan> หน้ากากทองคำตีขึ้นรูปเต็มใบหน้า (Full Sheet Mask)</text>
+    <text class="body-text" font-size="11.5" x="15" y="68"><tspan font-weight="600" fill="#ff9999">• แหล่งสำคัญ:</tspan> สุสานองค์หญิงแห่งเฉิน (Chen), สุสานเขาถูจี๋ (Turki)</text>
+    <text class="body-text" font-size="11.5" x="15" y="88"><tspan font-weight="600" fill="#ff9999">• บริบท:</tspan> สวมทับใบหน้า ร่วมกับชุดตาข่ายลวดเงิน/บรอนซ์คลุมร่าง</text>
+    <text class="body-text" font-size="11.5" x="15" y="108"><tspan font-weight="600" fill="#ff9999">• จักรวาลวิทยา:</tspan> ลัทธิชาแมนทุ่งหญ้า รักษาดวงหน้านิรันดร์และเกียรติยศ</text>
+    <text class="code-text" x="15" y="132">Steinhardt 1998, Waugh 2017, Shao 2023, Zhang 2026</text>
+  </g>
+
+  <!-- 2. SICHUAN & CENTRAL CHINA (SANXINGDUI & HAN) -->
+  <g transform="translate(425, 95)" filter="url(#shadow)">
+    <rect width="350" height="150" rx="10" fill="url(#cardBg)" stroke="#e65c00" stroke-width="2"/>
+    <rect x="0" y="0" width="350" height="30" rx="10" fill="#e65c00" opacity="0.25"/>
+    <circle cx="20" cy="15" r="6" fill="#ff9a44"/>
+    <text class="header-text" font-size="14" x="35" y="20">2. จีนโบราณ: ซานซิงตุย / จินซา / ราชวงศ์ฮั่น</text>
+    <rect x="235" y="6" width="105" height="18" rx="4" fill="#e65c00"/>
+    <text class="tag" x="241" y="19" fill="#ffffff">1200 BCE–220 CE</text>
+
+    <text class="body-text" font-size="11.5" x="15" y="48"><tspan font-weight="600" fill="#ffcc99">• ซานซิงตุย (1200 BCE):</tspan> หน้ากากทองสวมบนรูปเคารพสัมฤทธิ์</text>
+    <text class="body-text" font-size="11.5" x="15" y="68"><tspan font-weight="600" fill="#ffcc99">• ราชวงศ์ฮั่น (202 BCE):</tspan> แผ่นทองปิดตา จมูก ปาก ในสุสานชั้นสูง</text>
+    <text class="body-text" font-size="11.5" x="15" y="88"><tspan font-weight="600" fill="#ffcc99">• บริบท:</tspan> ใช้ควบคู่ชุดหยกเย็บด้ายทอง (Jade Shroud) และจั๊กจั่นหยก</text>
+    <text class="body-text" font-size="11.5" x="15" y="108"><tspan font-weight="600" fill="#ffcc99">• จักรวาลวิทยา:</tspan> เล่นแร่แปรธาตุเต๋า สกัดชี่รั่วไหล รักษาร่างไม่เน่าเปื่อย</text>
+    <text class="code-text" x="15" y="132">Guo 2023, Li 2023, Lin 2019, Gong 2024</text>
+  </g>
+
+  <!-- 3. CHAMPA & PROHEAR (VIETNAM & CAMBODIA) -->
+  <g transform="translate(800, 95)" filter="url(#shadow)">
+    <rect width="350" height="150" rx="10" fill="url(#cardBg)" stroke="#b176ff" stroke-width="2"/>
+    <rect x="0" y="0" width="350" height="30" rx="10" fill="#b176ff" opacity="0.25"/>
+    <circle cx="20" cy="15" r="6" fill="#b176ff"/>
+    <text class="header-text" font-size="14" x="35" y="20">3. จัมปา (เวียดนามกลาง) และโพร์เฮียร์ (กัมพูชา)</text>
+    <rect x="235" y="6" width="105" height="18" rx="4" fill="#7038d8"/>
+    <text class="tag" x="241" y="19" fill="#ffffff">200 BCE–1000 CE</text>
+
+    <text class="body-text" font-size="11.5" x="15" y="48"><tspan font-weight="600" fill="#e0ccff">• จัมปา:</tspan> มงกุฎ-หน้ากากทองคำ (Kosa) และหน้ากากครอบศิวลึงค์</text>
+    <text class="body-text" font-size="11.5" x="15" y="68"><tspan font-weight="600" fill="#e0ccff">• โพร์เฮียร์ (กัมพูชา):</tspan> แผ่นทองปิดตาและปิดปาก (Iron Age)</text>
+    <text class="body-text" font-size="11.5" x="15" y="88"><tspan font-weight="600" fill="#e0ccff">• บริบท:</tspan> การถวายเครื่องทองแด่เทวะ และการฝังศพชนชั้นนำยุคโลหะ</text>
+    <text class="body-text" font-size="11.5" x="15" y="108"><tspan font-weight="600" fill="#e0ccff">• จักรวาลวิทยา:</tspan> เทวราชาฮินดูผสานความเชื่อบรรพชนพื้นเมืองดั้งเดิม</text>
+    <text class="code-text" x="15" y="132">Reinecke 2009, 2010, Schlosser 2012, Yamagata 2017</text>
+  </g>
+
+  <!-- 4. OC EO / FUNAN (MEKONG DELTA, S. VIETNAM) -->
+  <g transform="translate(50, 265)" filter="url(#shadow)">
+    <rect width="350" height="150" rx="10" fill="url(#cardBg)" stroke="#00f2fe" stroke-width="2"/>
+    <rect x="0" y="0" width="350" height="30" rx="10" fill="#00f2fe" opacity="0.2"/>
+    <circle cx="20" cy="15" r="6" fill="#00f2fe"/>
+    <text class="header-text" font-size="14" x="35" y="20">4. อ๊อกแอว (ฟูนัน) ดินดอนปากแม่น้ำโขง</text>
+    <rect x="250" y="6" width="90" height="18" rx="4" fill="#0284c7"/>
+    <text class="tag" x="258" y="19" fill="#ffffff">2nd–7th c. CE</text>
+
+    <text class="body-text" font-size="11.5" x="15" y="48"><tspan font-weight="600" fill="#b9f3fc">• สัณฐาน:</tspan> แผ่นทองคำดุนลายดวงตา, เทพฮินดู (ศิวะ/อินทร์), ตรีศูล</text>
+    <text class="body-text" font-size="11.5" x="15" y="68"><tspan font-weight="600" fill="#b9f3fc">• แหล่งสำคัญ:</tspan> โกเกย์ (Go Cay Thi), เน็นจั่ว (Nen Chua), อ๊อกแอว</text>
+    <text class="body-text" font-size="11.5" x="15" y="88"><tspan font-weight="600" fill="#b9f3fc">• บริบท:</tspan> บรรจุในกรุฐานเทวสถาน และแผ่นทองปิดทวารในหลุมศพ</text>
+    <text class="body-text" font-size="11.5" x="15" y="108"><tspan font-weight="600" fill="#b9f3fc">• จักรวาลวิทยา:</tspan> การบูชาดวงตาพระศิวะ ทรงฤทธานุภาพปกป้องทิศ</text>
+    <text class="code-text" x="15" y="132">Malleret 1951, Le Thi Lien 2005, Miksic 2006</text>
+  </g>
+
+  <!-- 5. INDONESIA (SULAWESI / BALI / JAVA) -->
+  <g transform="translate(425, 265)" filter="url(#shadow)">
+    <rect width="350" height="150" rx="10" fill="url(#cardBg)" stroke="#38ef7d" stroke-width="2"/>
+    <rect x="0" y="0" width="350" height="30" rx="10" fill="#38ef7d" opacity="0.2"/>
+    <circle cx="20" cy="15" r="6" fill="#38ef7d"/>
+    <text class="header-text" font-size="14" x="35" y="20">5. อินโดนีเซีย: สุลาเวสีใต้ / บาหลี / ชวา</text>
+    <rect x="235" y="6" width="105" height="18" rx="4" fill="#059669"/>
+    <text class="tag" x="241" y="19" fill="#ffffff">1st c. BCE–16th c.</text>
+
+    <text class="body-text" font-size="11.5" x="15" y="48"><tspan font-weight="600" fill="#a7f3d0">• สุลาเวสีใต้ (มากัสซาร์/บูกิส):</tspan> แผ่นทองปิดตาและปากฉลุลายใบไม้</text>
+    <text class="body-text" font-size="11.5" x="15" y="68"><tspan font-weight="600" fill="#a7f3d0">• กิลิมานุก (บาหลี):</tspan> แผ่นทองคำปิดตา ปิดปาก และปิดจมูกยุคโลหะ</text>
+    <text class="body-text" font-size="11.5" x="15" y="88"><tspan font-weight="600" fill="#a7f3d0">• บริบท:</tspan> การฝังศพปฐมภูมิในโลงหิน/ไม้ ร่วมกับเครื่องถ้วยการค้า</text>
+    <text class="body-text" font-size="11.5" x="15" y="108"><tspan font-weight="600" fill="#a7f3d0">• จักรวาลวิทยา:</tspan> คติออสโตรนีเชียนดั้งเดิม คุ้มครองพลังชีวิต (Sumange)</text>
+    <text class="code-text" x="15" y="132">Bougas 2007, Pelras 1996, Bellwood 2007</text>
+  </g>
+
+  <!-- 6. PHILIPPINES (OTON, BUTUAN, CEBU) -->
+  <g transform="translate(800, 265)" filter="url(#shadow)">
+    <rect width="350" height="150" rx="10" fill="url(#cardBg)" stroke="url(#goldGrad)" stroke-width="2.5"/>
+    <rect x="0" y="0" width="350" height="30" rx="10" fill="url(#goldGrad)" opacity="0.3"/>
+    <circle cx="20" cy="15" r="6" fill="#ffe899"/>
+    <text class="header-text" font-size="14" x="35" y="20" fill="#ffe899">6. ฟิลิปปินส์: โอตอน / บูตูอัน / เซบู</text>
+    <rect x="235" y="6" width="105" height="18" rx="4" fill="#c99716"/>
+    <text class="tag" x="241" y="19" fill="#000000">10th–15th c. CE</text>
+
+    <text class="body-text" font-size="11.5" x="15" y="48"><tspan font-weight="600" fill="#ffe899">• สัณฐาน:</tspan> แผ่นทองปิดตาดุนลายลูกตา, แผ่นปิดจมูก, แผ่นปิดปาก</text>
+    <text class="body-text" font-size="11.5" x="15" y="68"><tspan font-weight="600" fill="#ffe899">• แหล่งสำคัญ:</tspan> โอตอน (อิโลอิโล), สุอาตัน (บูตูอัน), ปลาซาอินเดเปนเดนเซีย</text>
+    <text class="body-text" font-size="11.5" x="15" y="88"><tspan font-weight="600" fill="#ffe899">• บริบท:</tspan> โลงไม้ขุดรูปเรือ/ฝังดิน ร่วมกับเครื่องถ้วยจีนซ่ง-หยวน-หมิง</text>
+    <text class="body-text" font-size="11.5" x="15" y="108"><tspan font-weight="600" fill="#ffe899">• จักรวาลวิทยา:</tspan> ปิดกั้นอสูร (Asuang) ถนอมวิญญาณ ค่าข้ามแม่น้ำสุลัด</text>
+    <text class="code-text" x="15" y="132" fill="#ffe899">Scott 1994, Estrella 2015, Canilao 2023, Lacsina 2022</text>
+  </g>
+
+  <!-- ==================== COMPARATIVE MATRIX TABLE (LOWER) ==================== -->
+  <g transform="translate(50, 435)" filter="url(#shadow)">
+    <rect width="1100" height="480" rx="12" fill="#0d1826" stroke="#223954" stroke-width="1.5"/>
+    
+    <!-- Table Header Background -->
+    <path d="M 0 12 Q 0 0 12 0 L 1088 0 Q 1100 0 1100 12 L 1100 45 L 0 45 Z" fill="#152438"/>
+    <line x1="0" y1="45" x2="1100" y2="45" stroke="url(#goldAccent)" stroke-width="2"/>
+
+    <!-- Table Header Titles -->
+    <text class="header-text" font-size="13" x="20" y="28">เขตวัฒนธรรม / ภูมิภาค</text>
+    <text class="header-text" font-size="13" x="190" y="28">กำหนดอายุ (Chronology)</text>
+    <text class="header-text" font-size="13" x="350" y="28">สัณฐานวิทยา &amp; รูปแบบเทคนิค</text>
+    <text class="header-text" font-size="13" x="590" y="28">ตำแหน่งการจัดวางทางกายวิภาค</text>
+    <text class="header-text" font-size="13" x="840" y="28">หน้าที่ &amp; จักรวาลวิทยาเปรียบเทียบ</text>
+
+    <!-- Table Rows -->
+    
+    <!-- Row 1: Philippines -->
+    <g transform="translate(0, 45)">
+      <rect width="1100" height="68" fill="#14263b" opacity="0.6"/>
+      <circle cx="12" cy="34" r="4" fill="#ffe899"/>
+      <text class="body-text" font-weight="700" fill="#ffe899" font-size="12.5" x="25" y="32">หมู่เกาะฟิลิปปินส์</text>
+      <text class="code-text" x="25" y="48">(โอตอน, บูตูอัน, เซบู)</text>
+
+      <text class="body-text" font-size="11.5" x="190" y="34">ศตวรรษที่ 10–15 CE</text>
+      <text class="code-text" x="190" y="48">(ปลายซ่ง ถึง ต้นหมิง)</text>
+
+      <text class="body-text" font-size="11.5" x="350" y="28">แผ่นทองตีบางดุนลาย (Repoussé Foil)</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="350" y="46">แยกชิ้นอิสระ เจาะรูร้อยด้ายผูกรัดกะโหลก</text>
+
+      <text class="body-text" font-size="11.5" x="590" y="28">ปิดทวารเฉพาะจุด: ตา (Ocular),</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="590" y="46">จมูก (Nasal), ริมฝีปาก (Labial) + ไทอาเด็ม</text>
+
+      <text class="body-text" font-size="11.5" x="840" y="28">คติวิญญาณนิยมออสโตรนีเชียน: สกัดอสูร</text>
+      <text class="body-text" font-size="11" fill="#ffe899" x="840" y="46">กักเก็บพลังชีวิต ค่าผ่านทางแม่น้ำสุลัด</text>
+      <line x1="10" y1="68" x2="1090" y2="68" stroke="#1e3a5f" stroke-width="1"/>
+    </g>
+
+    <!-- Row 2: Liao Dynasty -->
+    <g transform="translate(0, 113)">
+      <rect width="1100" height="68" fill="#0d1826"/>
+      <circle cx="12" cy="34" r="4" fill="#ff6b6b"/>
+      <text class="body-text" font-weight="700" fill="#ff9999" font-size="12.5" x="25" y="32">ราชวงศ์เหลียว (ชิตัน)</text>
+      <text class="code-text" x="25" y="48">(มองโกเลียใน จีนเหนือ)</text>
+
+      <text class="body-text" font-size="11.5" x="190" y="34">ค.ศ. 916–1125</text>
+      <text class="code-text" x="190" y="48">(Liao Dynasty)</text>
+
+      <text class="body-text" font-size="11.5" x="350" y="28">หน้ากากทองคำตีขึ้นรูปเต็มใบหน้า</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="350" y="46">หล่อ/ตีแผ่นหนา เจาะรูร้อยลวดเงินด้านข้าง</text>
+
+      <text class="body-text" font-size="11.5" x="590" y="28">ครอบเต็มใบหน้าตั้งแต่หน้าผากถึงคาง</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="590" y="46">ควบคู่ชุดตาข่ายคลุมร่าง (Wire Suit)</text>
+
+      <text class="body-text" font-size="11.5" x="840" y="28">ชาแมนทุ่งหญ้า + พุทธมหายาน: รักษารูปโฉม</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="840" y="46">เกียรติยศชนชั้นข่าน สกัดการเน่าเปื่อยสมบูรณ์</text>
+      <line x1="10" y1="68" x2="1090" y2="68" stroke="#1e3a5f" stroke-width="1"/>
+    </g>
+
+    <!-- Row 3: Han Dynasty -->
+    <g transform="translate(0, 181)">
+      <rect width="1100" height="68" fill="#14263b" opacity="0.6"/>
+      <circle cx="12" cy="34" r="4" fill="#ff9a44"/>
+      <text class="body-text" font-weight="700" fill="#ffcc99" font-size="12.5" x="25" y="32">ราชวงศ์ฮั่น (จีน)</text>
+      <text class="code-text" x="25" y="48">(ลุ่มน้ำเหลือง-แยงซี)</text>
+
+      <text class="body-text" font-size="11.5" x="190" y="34">202 BCE – 220 CE</text>
+      <text class="code-text" x="190" y="48">(Western/Eastern Han)</text>
+
+      <text class="body-text" font-size="11.5" x="350" y="28">แผ่นทองคำตัดบาง + จั๊กจั่นหยก</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="350" y="46">แผ่นทองกลม/รีปิดตา และแผ่นปิดจมูก</text>
+
+      <text class="body-text" font-size="11.5" x="590" y="28">ปิด 9 ทวารสรีระ (Nine Orifices)</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="590" y="46">ตา จมูก หู ปาก ทวารหนัก ควบคู่ชุดหยก</text>
+
+      <text class="body-text" font-size="11.5" x="840" y="28">เต๋าและเล่นแร่แปรธาตุ: ป้องกันชี่ (Qi) รั่วไหล</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="840" y="46">นำพาดวงวิญญาณสู่ความเป็นอมตะ (Xian)</text>
+      <line x1="10" y1="68" x2="1090" y2="68" stroke="#1e3a5f" stroke-width="1"/>
+    </g>
+
+    <!-- Row 4: Champa & Prohear -->
+    <g transform="translate(0, 249)">
+      <rect width="1100" height="68" fill="#0d1826"/>
+      <circle cx="12" cy="34" r="4" fill="#b176ff"/>
+      <text class="body-text" font-weight="700" fill="#e0ccff" font-size="12.5" x="25" y="32">จัมปา &amp; โพร์เฮียร์</text>
+      <text class="code-text" x="25" y="48">(เวียดนามกลาง-กัมพูชา)</text>
+
+      <text class="body-text" font-size="11.5" x="190" y="34">200 BCE – 10th c. CE</text>
+      <text class="code-text" x="190" y="48">(Iron Age ถึง จัมปายุคทอง)</text>
+
+      <text class="body-text" font-size="11.5" x="350" y="28">หน้ากากทองคำดุนลาย (Kosa Mask)</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="350" y="46">และแผ่นทองปิดตา/ปากรูปวงรี (โพร์เฮียร์)</text>
+
+      <text class="body-text" font-size="11.5" x="590" y="28">ครอบพระพักตร์เทวรูป (ศิวลึงค์/เทวราชา)</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="590" y="46">และวางปิดบนใบหน้าศพในหลุมฝัง</text>
+
+      <text class="body-text" font-size="11.5" x="840" y="28">เทวราชาฮินดู: การรวมวิญญาณกษัตริย์เข้ากับ</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="840" y="46">พระศิวะ และการคุ้มครองวิญญาณชนชั้นสูง</text>
+      <line x1="10" y1="68" x2="1090" y2="68" stroke="#1e3a5f" stroke-width="1"/>
+    </g>
+
+    <!-- Row 5: Oc Eo (Funan) -->
+    <g transform="translate(0, 317)">
+      <rect width="1100" height="68" fill="#14263b" opacity="0.6"/>
+      <circle cx="12" cy="34" r="4" fill="#00f2fe"/>
+      <text class="body-text" font-weight="700" fill="#b9f3fc" font-size="12.5" x="25" y="32">อ๊อกแอว (ฟูนัน)</text>
+      <text class="code-text" x="25" y="48">(เวียดนามใต้ ปากแม่น้ำโขง)</text>
+
+      <text class="body-text" font-size="11.5" x="190" y="34">ศตวรรษที่ 2–7 CE</text>
+      <text class="code-text" x="190" y="48">(Funan Empire)</text>
+
+      <text class="body-text" font-size="11.5" x="350" y="28">แผ่นทองคำดุนลายรูปดวงตาและเทพ</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="350" y="46">แผ่นสี่เหลี่ยม/วงรี ดุนลายเส้นนูนต่ำ</text>
+
+      <text class="body-text" font-size="11.5" x="590" y="28">ปิดตาและช่องทวารในหลุมศพเผา/ฝัง</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="590" y="46">และฝังในกรุใต้ฐานสถาปัตยกรรมศักดิ์สิทธิ์</text>
+
+      <text class="body-text" font-size="11.5" x="840" y="28">คอสโมโลยีพราหมณ์-ฮินดู: ดวงตาแห่งพระศิวะ</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="840" y="46">การสถาปนามณฑลจักรวาลและคุ้มกันมลทิน</text>
+      <line x1="10" y1="68" x2="1090" y2="68" stroke="#1e3a5f" stroke-width="1"/>
+    </g>
+
+    <!-- Row 6: South Sulawesi -->
+    <g transform="translate(0, 385)">
+      <rect width="1100" height="80" fill="#0d1826"/>
+      <circle cx="12" cy="34" r="4" fill="#38ef7d"/>
+      <text class="body-text" font-weight="700" fill="#a7f3d0" font-size="12.5" x="25" y="32">สุลาเวสีใต้ / บาหลี</text>
+      <text class="code-text" x="25" y="48">(มากัสซาร์ บูกิส ชวา)</text>
+
+      <text class="body-text" font-size="11.5" x="190" y="34">1st c. BCE – 16th c. CE</text>
+      <text class="code-text" x="190" y="48">(โลหะ ถึง ยุคก่อนอิสลาม)</text>
+
+      <text class="body-text" font-size="11.5" x="350" y="28">แผ่นทองปิดตาและปากฉลุลายใบไม้</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="350" y="46">แผ่นทองรูปใบไม้ฉลุลายเส้น และดุนลายตา</text>
+
+      <text class="body-text" font-size="11.5" x="590" y="28">ปิดตาและปากศพในโลงไม้/สุสานหิน</text>
+      <text class="body-text" font-size="11" fill="#94a3b8" x="590" y="46">ร่วมกับเครื่องถ้วยจีนและลูกปัดหินสี</text>
+
+      <text class="body-text" font-size="11.5" x="840" y="28">คติออสโตรนีเชียนร่วม: กักเก็บจิตวิญญาณ</text>
+      <text class="body-text" font-size="11" fill="#38ef7d" x="840" y="46">(Sumange) ป้องกันวิญญาณแตกสลาย</text>
+    </g>
+
+  </g>
+
+  <!-- ==================== FOOTER / ANNOTATION ==================== -->
+  <g transform="translate(60, 935)">
+    <text class="code-text" font-size="11">แผนภาพ 9.1: ขอบฟ้าวัฒนธรรมหน้ากากทองคำและแผ่นทองปิดศพเปรียบเทียบในเอเชีย (จัดทำโดยคณะผู้วิจัย, 2026)</text>
+    <text class="code-text" font-size="11" x="720">ระบบข้อมูลโบราณคดีเปรียบเทียบเอเชียตะวันออกเฉียงใต้และเอเชียตะวันออก</text>
+  </g>
+
+</svg>

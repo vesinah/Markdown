@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="100%" stop-color="#020c1b"/>
+    </linearGradient>
+    <linearGradient id="mtnGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f4068"/>
+      <stop offset="100%" stop-color="#162447"/>
+    </linearGradient>
+    <linearGradient id="riverGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1b4965"/>
+      <stop offset="50%" stop-color="#62b6cb"/>
+      <stop offset="100%" stop-color="#1b4965"/>
+    </linearGradient>
+    <linearGradient id="cemeteryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d2c1d"/>
+      <stop offset="100%" stop-color="#1f1610"/>
+    </linearGradient>
+    <linearGradient id="goldGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#172a45" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0d1b2a" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="shadow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feOffset dx="0" dy="4" result="offset"/>
+      <feComposite in="SourceGraphic" in2="offset" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="900" fill="url(#bg2)"/>
+
+  <!-- GRID OVERLAY -->
+  <g stroke="#1e3a5f" stroke-width="0.5" stroke-dasharray="5,5" opacity="0.3">
+    <line x1="80" y1="180" x2="1120" y2="180"/>
+    <line x1="80" y1="360" x2="1120" y2="360"/>
+    <line x1="80" y1="540" x2="1120" y2="540"/>
+    <line x1="80" y1="720" x2="1120" y2="720"/>
+  </g>
+
+  <!-- SECTION 1: SACRED MOUNTAIN REALM (TOP LAYER) -->
+  <path d="M 80,320 L 220,160 L 380,260 L 520,130 L 680,240 L 850,150 L 1020,270 L 1120,220 L 1120,380 L 80,380 Z" fill="url(#mtnGrad)" stroke="#203657" stroke-width="1.5" opacity="0.85"/>
+  <text x="520" y="170" fill="#64ffda" font-size="16" font-family="'Sarabun', sans-serif" font-weight="bold" text-anchor="middle">
+    แดนภูเขาศักดิ์สิทธิ์ / แหล่งต้นน้ำ (Sacred Mountain / Headwaters Realm)
+  </text>
+  <text x="520" y="195" fill="#8892b0" font-size="12" font-family="'Sarabun', sans-serif" text-anchor="middle">
+    เช่น เทือกเขามัดยาอัส (Madja-as, เกาะปานาย) / ทิวเขาดิวาตาและทะเลสาบไมหนิต (Mindanao) — แดนสถิตวิญญาณบรรพชน
+  </text>
+
+  <!-- RIVER (CONNECTING MOUNTAIN TO ESTUARY) -->
+  <path d="M 520,240 Q 480,350 560,450 T 640,650 Q 700,750 780,880" fill="none" stroke="url(#riverGrad)" stroke-width="48" opacity="0.75" stroke-linecap="round"/>
+  <text x="630" y="550" fill="#e6f1ff" font-size="13" font-family="'Sarabun', sans-serif" font-weight="bold" transform="rotate(45, 630, 550)">
+    แม่น้ำสายหลัก (Navigable River) → ทะเล (Sea)
+  </text>
+
+  <!-- SECTION 2: LIVING SETTLEMENT (BARANGAY) - LEFT ZONE -->
+  <g transform="translate(120, 420)">
+    <rect width="360" height="260" rx="10" fill="url(#cardGrad2)" stroke="#64ffda" stroke-width="1.5" filter="url(#dropShadow)"/>
+    <rect width="360" height="38" rx="10" fill="#1b4965" stroke="#64ffda" stroke-width="1"/>
+    <text x="180" y="25" fill="#64ffda" font-size="15" font-family="'Sarabun', sans-serif" font-weight="bold" text-anchor="middle">
+      1. ชุมชนคนเป็น (LIVING SETTLEMENT / BARANGAY)
+    </text>
+
+    <!-- Stilt House Icons & Descriptions -->
+    <g transform="translate(30, 60)">
+      <polygon points="40,0 0,30 80,30" fill="#d4af37" opacity="0.8"/>
+      <rect x="15" y="30" width="50" height="35" fill="#8d6e63"/>
+      <line x1="22" y1="65" x2="22" y2="90" stroke="#d7ccc8" stroke-width="3"/>
+      <line x1="58" y1="65" x2="58" y2="90" stroke="#d7ccc8" stroke-width="3"/>
+      <text x="95" y="35" fill="#e6f1ff" font-size="12" font-family="'Sarabun', sans-serif" font-weight="bold">เรือนยกพื้นสูง (Balay / Stilt Dwellings)</text>
+      <text x="95" y="55" fill="#8892b0" font-size="11" font-family="'Sarabun', sans-serif">โครงสร้างไม้ไผ่ มุงจาก อยู่ริมน้ำ/ชายหาด</text>
+      <text x="95" y="75" fill="#ffd700" font-size="11" font-family="'Sarabun', sans-serif">บางส่วนพบหลุมศพใต้ถุนเรือน (sub-floor burial)</text>
+    </g>
+
+    <!-- Market & Dock -->
+    <g transform="translate(30, 160)">
+      <rect x="0" y="0" width="300" height="75" rx="6" fill="#0d1b2a" stroke="#203657" stroke-width="1"/>
+      <text x="15" y="24" fill="#64ffda" font-size="12" font-family="'Sarabun', sans-serif" font-weight="bold">ย่านตลาดริมน้ำและท่าจอดเรือ (Market &amp; Estuary Dock):</text>
+      <text x="15" y="44" fill="#ccd6f6" font-size="11" font-family="'Sarabun', sans-serif">• พื้นที่แลกเปลี่ยนสินค้าต่างแดน (เครื่องถ้วยจีน, ผ้าไหม, โลหะ)</text>
+      <text x="15" y="62" fill="#ccd6f6" font-size="11" font-family="'Sarabun', sans-serif">• ท่าจอดเรือบาลังไกย์และเรือสำเภาค้าขายทางทะเล</text>
+    </g>
+  </g>
+
+  <!-- BUFFER ZONE ARROW -->
+  <g transform="translate(490, 520)">
+    <line x1="0" y1="30" x2="60" y2="30" stroke="#ffd700" stroke-width="2" stroke-dasharray="4,4"/>
+    <polygon points="65,30 55,24 55,36" fill="#ffd700"/>
+    <text x="30" y="18" fill="#ffd700" font-size="11" font-family="'Sarabun', sans-serif" text-anchor="middle">เขตคั่นกลาง</text>
+    <text x="30" y="52" fill="#8892b0" font-size="10" font-family="'Sarabun', sans-serif" text-anchor="middle">ดงสวน/ป่าละเมาะ</text>
+  </g>
+
+  <!-- SECTION 3: SACRED CEMETERY REALM (SURFACE & SUBSURFACE) - RIGHT ZONE -->
+  <g transform="translate(560, 420)">
+    <rect width="520" height="380" rx="10" fill="url(#cardGrad2)" stroke="#ffd700" stroke-width="2" filter="url(#dropShadow)"/>
+    <rect width="520" height="38" rx="10" fill="#3d2c1d" stroke="#ffd700" stroke-width="1"/>
+    <text x="260" y="25" fill="#ffd700" font-size="15" font-family="'Sarabun', sans-serif" font-weight="bold" text-anchor="middle">
+      2. ภูมิทัศน์สุสานและองค์ประกอบภายใน (SACRED CEMETERY LANDSCAPE)
+    </text>
+
+    <!-- Surface Markers -->
+    <g transform="translate(25, 55)">
+      <rect x="0" y="0" width="470" height="135" rx="6" fill="#1b120c" stroke="#8d6e63" stroke-width="1"/>
+      <text x="15" y="24" fill="#ffd700" font-size="13" font-family="'Sarabun', sans-serif" font-weight="bold">
+        องค์ประกอบเหนือผิวดิน (Surface Markers &amp; Vegetation):
+      </text>
+
+      <!-- Sacred Tree Icon -->
+      <g transform="translate(25, 40)">
+        <circle cx="20" cy="25" r="22" fill="#2e7d32" opacity="0.8"/>
+        <rect x="15" y="45" width="10" height="30" fill="#5d4037"/>
+        <text x="55" y="35" fill="#81c784" font-size="11.5" font-family="'Sarabun', sans-serif" font-weight="bold">ต้นไม้ศักดิ์สิทธิ์ (ต้นไทร/Balete Tree / Ficus)</text>
+        <text x="55" y="52" fill="#d7ccc8" font-size="11" font-family="'Sarabun', sans-serif">• เครื่องหมายศูนย์กลางสุสาน แหล่งสิงสถิตของวิญญาณบรรพชน</text>
+        <text x="55" y="69" fill="#d7ccc8" font-size="11" font-family="'Sarabun', sans-serif">• ธรรมเนียมปลูกต้นลันเตา/ไม้ยืนต้นบนหลุมศพตามจดหมายเหตุสเปน</text>
+      </g>
+
+      <!-- Likha / Larawan Posts -->
+      <g transform="translate(25, 95)">
+        <rect x="5" y="5" width="12" height="30" fill="#d4af37"/>
+        <polygon points="11,0 4,8 18,8" fill="#ffd700"/>
+        <text x="55" y="22" fill="#ffd700" font-size="11.5" font-family="'Sarabun', sans-serif" font-weight="bold">เสาไม้แกะสลักบรรพชน (Likha / Larawan) และศาลจำลอง</text>
+        <text x="55" y="37" fill="#d7ccc8" font-size="11" font-family="'Sarabun', sans-serif">• หลักไม้หมายหลุม กองหินเครื่องหมาย และภาชนะเซ่นอาหาร</text>
+      </g>
+    </g>
+
+    <!-- Subsurface Burial Features -->
+    <g transform="translate(25, 205)">
+      <rect x="0" y="0" width="470" height="155" rx="6" fill="#161b26" stroke="#303C55" stroke-width="1"/>
+      <text x="15" y="24" fill="#64ffda" font-size="13" font-family="'Sarabun', sans-serif" font-weight="bold">
+        สัณฐานใต้ผิวดินและรูปแบบการบรรจุศพ (Subsurface Burial Contexts):
+      </text>
+
+      <!-- Coffin Types -->
+      <g transform="translate(20, 35)">
+        <!-- Boat Coffin -->
+        <rect x="0" y="5" width="125" height="42" rx="15" fill="#3e2723" stroke="#ffd700" stroke-width="1.2"/>
+        <circle cx="20" cy="26" r="6" fill="#ffd700"/>
+        <line x1="30" y1="26" x2="110" y2="26" stroke="#e6f1ff" stroke-width="2"/>
+        <text x="135" y="22" fill="#ffd700" font-size="11.5" font-family="'Sarabun', sans-serif" font-weight="bold">1. โลงไม้รูปเรือ (Boat-shaped Coffin / บูตูอัน)</text>
+        <text x="135" y="38" fill="#ccd6f6" font-size="10.5" font-family="'Sarabun', sans-serif">โลงไม้ขุดท่อนเดียว วางแผ่นทองเรียบ กริชทองคำ และเครื่องเคลือบ</text>
+
+        <!-- Jar Burial -->
+        <g transform="translate(0, 55)">
+          <ellipse cx="25" cy="25" rx="18" ry="22" fill="#4e342e" stroke="#64ffda" stroke-width="1.2"/>
+          <ellipse cx="25" cy="8" rx="12" ry="4" fill="#8d6e63"/>
+          <text x="60" y="20" fill="#64ffda" font-size="11.5" font-family="'Sarabun', sans-serif" font-weight="bold">2. ไหดินเผาบรรจุศพ (Jar Burial / เซบู 2008)</text>
+          <text x="60" y="36" fill="#ccd6f6" font-size="10.5" font-family="'Sarabun', sans-serif">ไหหินดินเผาขนาดใหญ่ บรรจุกะโหลกปิดแผ่นทองคำและกริช</text>
+        </g>
+
+        <!-- Primary Pit -->
+        <g transform="translate(250, 55)">
+          <rect x="0" y="10" width="60" height="25" rx="4" fill="#2d1e18" stroke="#ffb74d" stroke-width="1"/>
+          <circle cx="15" cy="22" r="5" fill="#ffd700"/>
+          <line x1="22" y1="22" x2="52" y2="22" stroke="#ffffff" stroke-width="2"/>
+          <text x="70" y="20" fill="#ffb74d" font-size="11.5" font-family="'Sarabun', sans-serif" font-weight="bold">3. หลุมฝังดินปฐมภูมิ (โอตอน หลุม 6)</text>
+          <text x="70" y="36" fill="#ccd6f6" font-size="10.5" font-family="'Sarabun', sans-serif">นอนหงายเหยียดยาว ปิดตา-จมูกฉลุลายจุดไข่ปลา</text>
+        </g>
+      </g>
+
+      <!-- Alignment & Orientation -->
+      <g transform="translate(15, 125)">
+        <line x1="0" y1="0" x2="440" y2="0" stroke="#303C55" stroke-width="0.8"/>
+        <text x="5" y="18" fill="#e6f1ff" font-size="11" font-family="'Sarabun', sans-serif">
+          ทิศทางการจัดวางร่าง: ศีรษะหันสู่ภูเขาศักดิ์สิทธิ์ (ต้นน้ำ) หรือท้องทะเล • แนวแกนตะวันออก-ตะวันตก
+        </text>
+      </g>
+    </g>
+  </g>
+
+  <!-- TITLE BLOCK -->
+  <g transform="translate(50, 40)">
+    <rect width="680" height="85" rx="8" fill="url(#cardGrad2)" stroke="#303C55" stroke-width="1.5" filter="url(#dropShadow)"/>
+    <text x="25" y="32" fill="#ffd700" font-size="20" font-family="'Sarabun', sans-serif" font-weight="bold">
+      แผนผัง 2: บูรณาการภูมิทัศน์สุสาน ชัยภูมิศักดิ์สิทธิ์ และนิเวศวิทยาการตั้งถิ่นฐาน
+    </text>
+    <text x="25" y="54" fill="#64ffda" font-size="13" font-family="'Segoe UI', sans-serif">
+      SPATIAL INTEGRATION MODEL: SACRED CEMETERY TOPOGRAPHY &amp; SETTLEMENT ECOLOGY
+    </text>
+    <text x="25" y="74" fill="#8892b0" font-size="11.5" font-family="'Sarabun', sans-serif">
+      สังเคราะห์ความสัมพันธ์เชิงพื้นที่: ชุมชนคนเป็น ชายฝั่ง ปากแม่น้ำ สุสาน ภูเขาศักดิ์สิทธิ์ และองค์ประกอบเหนือ-ใต้ผิวดิน
+    </text>
+  </g>
+
+  <!-- BOTTOM COMPARATIVE SITE MATRIX SUMMARY -->
+  <g transform="translate(120, 710)">
+    <rect width="400" height="90" rx="8" fill="url(#cardGrad2)" stroke="#303C55" stroke-width="1" filter="url(#dropShadow)"/>
+    <text x="20" y="24" fill="#ffd700" font-size="12" font-family="'Sarabun', sans-serif" font-weight="bold">
+      เมทริกซ์ชัยภูมิสามแหล่งแกนกลาง (Site Topography Matrix):
+    </text>
+    <text x="20" y="44" fill="#ccd6f6" font-size="11" font-family="'Sarabun', sans-serif">
+      • โอตอน (Oton): ที่ราบสันดอนทรายชายฝั่งช่องแคบอิโลอิโล ริมแม่น้ำบาติอาโน
+    </text>
+    <text x="20" y="60" fill="#ccd6f6" font-size="11" font-family="'Sarabun', sans-serif">
+      • บูตูอัน (Butuan): ไหล่ลุ่ม-คันดินปากแม่น้ำอากูซันในที่ลุ่มน้ำท่วมถึงใกล้ทะเล
+    </text>
+    <text x="20" y="76" fill="#ccd6f6" font-size="11" font-family="'Sarabun', sans-serif">
+      • เซบู (Cebu): ลานตะพักชายฝั่งรอยต่อเมืองท่าโบราณและช่องแคบเซบู
+    </text>
+  </g>
+</svg>

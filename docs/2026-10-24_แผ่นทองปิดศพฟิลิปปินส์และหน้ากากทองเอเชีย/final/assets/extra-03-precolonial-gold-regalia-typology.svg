@@ -1,0 +1,330 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" width="100%" height="100%" style="background-color: #0b0f19; font-family: 'Segoe UI', 'Sarabun', 'Helvetica Neue', sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgDarkPlate" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060911" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#02050e" />
+    </linearGradient>
+
+    <!-- Metallic Gold Gradient -->
+    <linearGradient id="goldRegaliaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="30%" stop-color="#f59e0b" />
+      <stop offset="70%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#92400e" />
+    </linearGradient>
+
+    <!-- Card Background -->
+    <linearGradient id="cardGradDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="goldShine" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feFlood flood-color="#fbbf24" flood-opacity="0.35" result="color" />
+      <feComposite in2="blur" operator="in" />
+      <feComposite in="SourceGraphic" operator="over" />
+    </filter>
+
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="5" stdDeviation="6" flood-color="#000000" flood-opacity="0.75" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="1100" fill="url(#bgDarkPlate)" />
+
+  <!-- Technical Grid -->
+  <g opacity="0.04" stroke="#38bdf8" stroke-width="1">
+    <path d="M 0,100 L 1600,100 M 0,200 L 1600,200 M 0,300 L 1600,300 M 0,400 L 1600,400 M 0,500 L 1600,500 M 0,600 L 1600,600 M 0,700 L 1600,700 M 0,800 L 1600,800 M 0,900 L 1600,900 M 0,1000 L 1600,1000" />
+    <path d="M 100,0 L 100,1100 M 200,0 L 200,1100 M 300,0 L 300,1100 M 400,0 L 400,1100 M 500,0 L 500,1100 M 600,0 L 600,1100 M 700,0 L 700,1100 M 800,0 L 800,1100 M 900,0 L 900,1100 M 1000,0 L 1000,1100 M 1100,0 L 1100,1100 M 1200,0 L 1200,1100 M 1300,0 L 1300,1100 M 1400,0 L 1400,1100 M 1500,0 L 1500,1100" />
+  </g>
+
+  <!-- TITLE BLOCK -->
+  <g id="headerBlock" transform="translate(80, 45)">
+    <rect x="0" y="0" width="8" height="65" fill="#f59e0b" rx="4" />
+    <text x="25" y="28" fill="#f8fafc" font-size="26" font-weight="bold" letter-spacing="0.5">สารบบประณีตศิลป์ทองคำและเครื่องต้นชนชั้นนำดาตู (Precolonial Gold Regalia Typology)</text>
+    <text x="25" y="55" fill="#94a3b8" font-size="16">VISAYAN &amp; MINDANAO ELITE GOLDWORK: JEWELRY, BODY ADORNMENT, DENTAL INLAYS, AND REGALIA</text>
+  </g>
+
+  <!-- 6 MAIN CATALOG CARDS (2 ROWS OF 3 CARDS) -->
+
+  <!-- CARD 1: KAMAGI NECKLACE CHAINS (Top-Left) -->
+  <g transform="translate(80, 140)" filter="url(#cardShadow)">
+    <rect width="455" height="430" rx="14" fill="url(#cardGradDark)" stroke="#f59e0b" stroke-width="1.8" />
+    <rect x="0" y="0" width="455" height="38" rx="14" fill="#78350f" />
+    <text x="18" y="25" fill="#fef08a" font-size="15" font-weight="bold">1. สร้อยคอสายโซ่ถัก "กามางี" (Kamagi Gear-Bead Chain)</text>
+
+    <!-- Visual Artwork: Interlocking Loop-in-Loop Gear Beads -->
+    <g transform="translate(227, 130)" filter="url(#goldShine)">
+      <!-- Curved Strand of Gear Beads -->
+      <path d="M -160,-20 Q 0,80 160,-20" fill="none" stroke="#78350f" stroke-width="26" stroke-linecap="round" />
+      <path d="M -160,-20 Q 0,80 160,-20" fill="none" stroke="url(#goldRegaliaGrad)" stroke-width="22" stroke-linecap="round" />
+      
+      <!-- Individual Gear Teeth Lines -->
+      <g stroke="#78350f" stroke-width="2">
+        <line x1="-150" y1="-25" x2="-150" y2="-5" /><line x1="-130" y1="-15" x2="-130" y2="5" />
+        <line x1="-110" y1="-5" x2="-110" y2="15" /><line x1="-90" y1="5" x2="-90" y2="25" />
+        <line x1="-70" y1="15" x2="-70" y2="35" /><line x1="-50" y1="22" x2="-50" y2="42" />
+        <line x1="-30" y1="27" x2="-30" y2="47" /><line x1="-10" y1="30" x2="-10" y2="50" />
+        <line x1="10" y1="30" x2="10" y2="50" /><line x1="30" y1="27" x2="30" y2="47" />
+        <line x1="50" y1="22" x2="50" y2="42" /><line x1="70" y1="15" x2="70" y2="35" />
+        <line x1="90" y1="5" x2="90" y2="25" /><line x1="110" y1="-5" x2="110" y2="15" />
+        <line x1="130" y1="-15" x2="130" y2="5" /><line x1="150" y1="-25" x2="150" y2="-5" />
+      </g>
+
+      <!-- Macro Inset of a Single Gear Bead -->
+      <g transform="translate(0, 10)">
+        <circle cx="0" cy="0" r="28" fill="url(#goldRegaliaGrad)" stroke="#fef08a" stroke-width="2.5" />
+        <circle cx="0" cy="0" r="10" fill="#0f172a" stroke="#78350f" stroke-width="2" />
+        <!-- Gear cogs -->
+        <g stroke="#78350f" stroke-width="2">
+          <line x1="0" y1="-28" x2="0" y2="-20" /><line x1="0" y1="28" x2="0" y2="20" />
+          <line x1="-28" y1="0" x2="-20" y2="0" /><line x1="28" y1="0" x2="20" y2="0" />
+          <line x1="-20" y1="-20" x2="-14" y2="-14" /><line x1="20" y1="20" x2="14" y2="14" />
+          <line x1="-20" y1="20" x2="-14" y2="14" /><line x1="20" y1="-20" x2="14" y2="-14" />
+        </g>
+        <text x="0" y="4" text-anchor="middle" fill="#fef08a" font-size="9" font-weight="bold">GEAR</text>
+      </g>
+    </g>
+
+    <!-- Text Specifications -->
+    <g transform="translate(18, 240)" font-size="12" fill="#e2e8f0">
+      <text x="0" y="16" font-weight="600" fill="#fbbf24">• เทคนิคช่างทอง:</text>
+      <text x="95" y="16">ร้อยถักห่วงต่อห่วง (Loop-in-loop) หน้าตัดสี่เหลี่ยม</text>
+      <text x="0" y="38" font-weight="600" fill="#fbbf24">• โครงสร้างเม็ด:</text>
+      <text x="90" y="38">ลูกปัดฟันเฟืองทองคำ (Gear Beads) หลายร้อยชิ้น</text>
+      <text x="0" y="60" font-weight="600" fill="#fbbf24">• ความยืดหยุ่น:</text>
+      <text x="85" y="60">ทอดตัวแนบสนิทกับผิวหนัง พริ้วไหวราวกับผืนผ้าไหม</text>
+      <text x="0" y="82" font-weight="600" fill="#fbbf24">• ฟังก์ชันสังคม:</text>
+      <text x="85" y="82">สินสอดทองหมั้น (*ซับ-ออง*) และทุนสะสมของดาตู</text>
+      <text x="0" y="104" font-weight="600" fill="#fbbf24">• โบราณคดี:</text>
+      <text x="75" y="104">สมบัติทองคำสุริเกา (Surigao) และสุสานซูอาตัน</text>
+    </g>
+  </g>
+
+  <!-- CARD 2: GOLD DIADEM & TIADEM (Top-Middle) -->
+  <g transform="translate(572, 140)" filter="url(#cardShadow)">
+    <rect width="455" height="430" rx="14" fill="url(#cardGradDark)" stroke="#38bdf8" stroke-width="1.8" />
+    <rect x="0" y="0" width="455" height="38" rx="14" fill="#0369a1" />
+    <text x="18" y="25" fill="#e0f2fe" font-size="15" font-weight="bold">2. มงกุฎไทอาเด็มและแถบรัดเกล้าทองคำ (Diadem &amp; Crown)</text>
+
+    <!-- Visual Artwork: Embossed Gold Diadem -->
+    <g transform="translate(227, 130)" filter="url(#goldShine)">
+      <!-- Diadem Crown Profile -->
+      <path d="M -170,30 C -120,-40 -60,-60 0,-60 C 60,-60 120,-40 170,30 L 160,45 C 110,-20 60,-35 0,-35 C -60,-35 -110,-20 -160,45 Z" 
+            fill="url(#goldRegaliaGrad)" stroke="#fef08a" stroke-width="2" />
+      
+      <!-- Central Crown Peak (Stylized Lotus/Flame Crest) -->
+      <polygon points="0,-95 -18,-55 18,-55" fill="url(#goldRegaliaGrad)" stroke="#fef08a" stroke-width="1.5" />
+      <polygon points="-40,-80 -52,-50 -28,-50" fill="url(#goldRegaliaGrad)" stroke="#fef08a" stroke-width="1.5" />
+      <polygon points="40,-80 28,-50 52,-50" fill="url(#goldRegaliaGrad)" stroke="#fef08a" stroke-width="1.5" />
+
+      <!-- Repoussé Wave Motifs on Band -->
+      <path d="M -140,0 Q -105,-20 -70,0 Q -35,-20 0,0 Q 35,-20 70,0 Q 105,-20 140,0" fill="none" stroke="#78350f" stroke-width="2" />
+      <circle cx="0" cy="-70" r="5" fill="#fef08a" stroke="#78350f" stroke-width="1.5" />
+    </g>
+
+    <!-- Text Specifications -->
+    <g transform="translate(18, 240)" font-size="12" fill="#e2e8f0">
+      <text x="0" y="16" font-weight="600" fill="#38bdf8">• เทคนิคการผลิต:</text>
+      <text x="95" y="16">ตีแผ่แผ่นทองคำบาง ดุนลายนูนต่ำ (Repoussé)</text>
+      <text x="0" y="38" font-weight="600" fill="#38bdf8">• ลวดลายประดับ:</text>
+      <text x="95" y="38">ลายคลื่นน้ำออสโตรนีเชียน ลายเปลวเพลิง ลายกลีบบัว</text>
+      <text x="0" y="60" font-weight="600" fill="#38bdf8">• ตำแหน่งสวมใส่:</text>
+      <text x="95" y="60">รัดหน้าผากเหนือคิ้ว สวมทับกะโหลกดัดลาดแบน</text>
+      <text x="0" y="82" font-weight="600" fill="#38bdf8">• ความหมายพิธี:</text>
+      <text x="90" y="82">สัญลักษณ์เทวราชและความสว่างไสวแห่งดวงตะวัน</text>
+      <text x="0" y="104" font-weight="600" fill="#38bdf8">• หลักฐานสนาม:</text>
+      <text x="85" y="104">สุสานปลาซาอินเดเปนเดนเซีย (เซบู) และสุริเกา</text>
+    </g>
+  </g>
+
+  <!-- CARD 3: EAR ORNAMENTS (Top-Right) -->
+  <g transform="translate(1065, 140)" filter="url(#cardShadow)">
+    <rect width="455" height="430" rx="14" fill="url(#cardGradDark)" stroke="#a855f7" stroke-width="1.8" />
+    <rect x="0" y="0" width="455" height="38" rx="14" fill="#6b21a8" />
+    <text x="18" y="25" fill="#f3e8ff" font-size="15" font-weight="bold">3. ต่างหูทองคำกุณฑล (*อูปัต* และ *ปาดัด*)</text>
+
+    <!-- Visual Artwork: Twin Ear Ornaments -->
+    <g transform="translate(227, 130)" filter="url(#goldShine)">
+      <!-- Left Earring: Upat (Rhombic / Double-Spiral Form) -->
+      <g transform="translate(-80, 0)">
+        <polygon points="0,-45 40,0 0,45 -40,0" fill="url(#goldRegaliaGrad)" stroke="#fef08a" stroke-width="2.5" />
+        <polygon points="0,-25 22,0 0,25 -22,0" fill="#0f172a" stroke="#78350f" stroke-width="2" />
+        <!-- Granulation beads on corners -->
+        <circle cx="0" cy="-45" r="4" fill="#fef08a" stroke="#78350f" stroke-width="1" />
+        <circle cx="40" cy="0" r="4" fill="#fef08a" stroke="#78350f" stroke-width="1" />
+        <circle cx="0" cy="45" r="4" fill="#fef08a" stroke="#78350f" stroke-width="1" />
+        <circle cx="-40" cy="0" r="4" fill="#fef08a" stroke="#78350f" stroke-width="1" />
+        <text x="0" y="62" text-anchor="middle" fill="#c084fc" font-size="11" font-weight="bold">แบบ "อูปัต" (Upat)</text>
+      </g>
+
+      <!-- Right Earring: Padat (Disc Earplug with Repoussé) -->
+      <g transform="translate(80, 0)">
+        <circle cx="0" cy="0" r="38" fill="url(#goldRegaliaGrad)" stroke="#fef08a" stroke-width="2.5" />
+        <circle cx="0" cy="0" r="24" fill="none" stroke="#78350f" stroke-width="2" />
+        <circle cx="0" cy="0" r="10" fill="#fef08a" stroke="#78350f" stroke-width="1.8" />
+        <!-- Granule dots -->
+        <circle cx="0" cy="-17" r="2" fill="#78350f" /><circle cx="17" cy="0" r="2" fill="#78350f" />
+        <circle cx="0" cy="17" r="2" fill="#78350f" /><circle cx="-17" cy="0" r="2" fill="#78350f" />
+        <text x="0" y="62" text-anchor="middle" fill="#c084fc" font-size="11" font-weight="bold">แบบ "ปาดัด" (Padat)</text>
+      </g>
+    </g>
+
+    <!-- Text Specifications -->
+    <g transform="translate(18, 240)" font-size="12" fill="#e2e8f0">
+      <text x="0" y="16" font-weight="600" fill="#c084fc">• ประเพณีเจาะหู:</text>
+      <text x="95" y="16">เจาะและถ่างรูหูตั้งแต่เยาว์วัยเพื่อสวมใส่ต่างหูหนัก</text>
+      <text x="0" y="38" font-weight="600" fill="#c084fc">• แบบอูปัต (Upat):</text>
+      <text x="95" y="38">ทรงสี่เหลี่ยมขนมเปียกปูนหล่อตัน ประดับไข่ปลา</text>
+      <text x="0" y="60" font-weight="600" fill="#c084fc">• แบบปาดัด (Padat):</text>
+      <text x="98" y="60">ทรงแผ่นกลมดุนลาย ใช้เป็นตุ้มหูอุดขยายรูหู</text>
+      <text x="0" y="82" font-weight="600" fill="#c084fc">• ความหมายสังคม:</text>
+      <text x="95" y="82">สวมใส่ทั้งชายและหญิงชนชั้นนำ สะท้อนความมั่งคั่ง</text>
+      <text x="0" y="104" font-weight="600" fill="#c084fc">• บันทึกประวัติศาสตร์:</text>
+      <text x="110" y="104">Alcina (1668) บันทึกคำศัพท์ต่างหูกว่า 8 ชนิด</text>
+    </g>
+  </g>
+
+  <!-- ROW 2 -->
+
+  <!-- CARD 4: DENTAL GOLD INLAYS / PUSAD & BANSIL (Bottom-Left) -->
+  <g transform="translate(80, 590)" filter="url(#cardShadow)">
+    <rect width="455" height="460" rx="14" fill="url(#cardGradDark)" stroke="#10b981" stroke-width="1.8" />
+    <rect x="0" y="0" width="455" height="38" rx="14" fill="#065f46" />
+    <text x="18" y="25" fill="#d1fae5" font-size="15" font-weight="bold">4. ศิลปะหมุดทองคำฝังฟัน (*ปูซัด* และ *บันซีล*)</text>
+
+    <!-- Visual Artwork: Incisor Teeth with Inlaid Gold Geometries -->
+    <g transform="translate(227, 135)" filter="url(#goldShine)">
+      <!-- 4 Upper Incisors Block -->
+      <g stroke="#334155" stroke-width="2" fill="#f8fafc">
+        <!-- Central Left -->
+        <path d="M -35,-40 L -5,-40 L -5,25 C -5,35 -35,35 -35,25 Z" />
+        <!-- Central Right -->
+        <path d="M 5,-40 L 35,-40 L 35,25 C 35,35 5,35 5,25 Z" />
+        <!-- Lateral Left -->
+        <path d="M -72,-35 L -42,-35 L -42,20 C -42,30 -72,30 -72,20 Z" />
+        <!-- Lateral Right -->
+        <path d="M 42,-35 L 72,-35 L 72,20 C 72,30 42,30 42,20 Z" />
+      </g>
+
+      <!-- Black Lacquer/Dye Staining (An-hilib background) -->
+      <path d="M -30,-20 L -10,-20 L -10,15 L -30,15 Z" fill="#1e293b" opacity="0.4" />
+      <path d="M 10,-20 L 30,-20 L 30,15 L 10,15 Z" fill="#1e293b" opacity="0.4" />
+
+      <!-- Inlaid Gold Pegs (Bansil Geometries) -->
+      <!-- Central Incisors: Gold Star / Cross Pegs -->
+      <g transform="translate(-20, 0)">
+        <circle cx="0" cy="0" r="8" fill="url(#goldRegaliaGrad)" stroke="#b45309" stroke-width="1" />
+        <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#fef08a" />
+      </g>
+      <g transform="translate(20, 0)">
+        <circle cx="0" cy="0" r="8" fill="url(#goldRegaliaGrad)" stroke="#b45309" stroke-width="1" />
+        <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#fef08a" />
+      </g>
+      <!-- Lateral Incisors: Inlaid Dot Rosettes -->
+      <circle cx="-57" cy="-2" r="5" fill="url(#goldRegaliaGrad)" stroke="#b45309" stroke-width="1" />
+      <circle cx="57" cy="-2" r="5" fill="url(#goldRegaliaGrad)" stroke="#b45309" stroke-width="1" />
+    </g>
+
+    <!-- Text Specifications -->
+    <g transform="translate(18, 235)" font-size="12" fill="#e2e8f0">
+      <text x="0" y="16" font-weight="600" fill="#34d399">• ระเบียบวิธีทันตกรรม:</text>
+      <text x="110" y="16">เจาะหลุมตื้นบนผิวเคลือบฟันหน้า (Enamel Pegging)</text>
+      <text x="0" y="38" font-weight="600" fill="#34d399">• ลวดลายหมุดทอง:</text>
+      <text x="95" y="38">ลายดาวแปดแฉก ลายกากบาท ลายไข่ปลาทองคำ</text>
+      <text x="0" y="60" font-weight="600" fill="#34d399">• การย้อมฟันดำ:</text>
+      <text x="85" y="60">ทาฟันด้วยยางไม้สีดำ (*อันฮิลิบ*) เพื่อขับทองให้เด่น</text>
+      <text x="0" y="82" font-weight="600" fill="#34d399">• ศักดิ์ศรีสรีระ:</text>
+      <text x="80" y="82">"ฟันขาวคือฟันสุนัข ฟันทองดำคือฟันของมนุษย์ผู้มีเกียรติ"</text>
+      <text x="0" y="104" font-weight="600" fill="#34d399">• การพบในสุสาน:</text>
+      <text x="95" y="104">พบร่วมกับแผ่นทองคำปิดตาที่โอตอน เซบู และโบลโจน</text>
+      <text x="0" y="126" font-weight="600" fill="#34d399">• ทันตวิทยาโบราณ:</text>
+      <text x="100" y="126">วิเคราะห์ใน Suzuki (1993) และ Acta Odontologica (2024)</text>
+    </g>
+  </g>
+
+  <!-- CARD 5: GOLD CUFFS & ARMLETS / CALOMBIGAS (Bottom-Middle) -->
+  <g transform="translate(572, 590)" filter="url(#cardShadow)">
+    <rect width="455" height="460" rx="14" fill="url(#cardGradDark)" stroke="#f97316" stroke-width="1.8" />
+    <rect x="0" y="0" width="455" height="38" rx="14" fill="#9a3412" />
+    <text x="18" y="25" fill="#ffedd5" font-size="15" font-weight="bold">5. กำไลแขนและทองต้นแขน (*กาลอมบิกัส* / Calombigas)</text>
+
+    <!-- Visual Artwork: Heavy Cast Gold Armlet -->
+    <g transform="translate(227, 135)" filter="url(#goldShine)">
+      <!-- Heavy Cast Gold Cuff with Ribbed Fluting -->
+      <ellipse cx="0" cy="0" rx="90" ry="45" fill="none" stroke="url(#goldRegaliaGrad)" stroke-width="32" />
+      <ellipse cx="0" cy="0" rx="90" ry="45" fill="none" stroke="#fef08a" stroke-width="2" />
+      
+      <!-- Surface Ribs / Chased Chevron Bands -->
+      <g stroke="#78350f" stroke-width="2.5">
+        <line x1="-85" y1="-15" x2="-85" y2="15" /><line x1="-70" y1="-28" x2="-70" y2="28" />
+        <line x1="-50" y1="-38" x2="-50" y2="38" /><line x1="-30" y1="-43" x2="-30" y2="43" />
+        <line x1="0" y1="-45" x2="0" y2="45" /><line x1="30" y1="-43" x2="30" y2="43" />
+        <line x1="50" y1="-38" x2="50" y2="38" /><line x1="70" y1="-28" x2="70" y2="28" />
+        <line x1="85" y1="-15" x2="85" y2="15" />
+      </g>
+      <!-- Central Gem / Rosette Mount Placeholder -->
+      <circle cx="0" cy="45" r="8" fill="#fef08a" stroke="#78350f" stroke-width="1.5" />
+    </g>
+
+    <!-- Text Specifications -->
+    <g transform="translate(18, 235)" font-size="12" fill="#e2e8f0">
+      <text x="0" y="16" font-weight="600" fill="#f97316">• เทคนิคโลหวิทยา:</text>
+      <text x="100" y="16">การหล่อขี้ผึ้งหาย (Lost-Wax Casting) หรือตีขึ้นรูปหนา</text>
+      <text x="0" y="38" font-weight="600" fill="#f97316">• น้ำหนักวัตถุ:</text>
+      <text x="80" y="38">หนักตั้งแต่ 150 ถึง 450 กรัมต่อข้าง (ทองคำตัน)</text>
+      <text x="0" y="60" font-weight="600" fill="#f97316">• สวมใส่สรีระ:</text>
+      <text x="80" y="60">สวมบริเวณข้อมือ ข้อเท้า และต้นแขนของนักรบดาตู</text>
+      <text x="0" y="82" font-weight="600" fill="#f97316">• เกราะคุ้มครอง:</text>
+      <text x="85" y="82">ทำหน้าที่เป็นเกราะป้องกันข้อมือขณะฟันดาบกัมปิลัน</text>
+      <text x="0" y="104" font-weight="600" fill="#f97316">• บันทึกสเปน:</text>
+      <text x="80" y="104">Pigafetta (1521) กล่าวถึงกษัตริย์ซีอากูสวมกำไลทองหนา</text>
+      <text x="0" y="126" font-weight="600" fill="#f97316">• สุสานร่วม:</text>
+      <text x="75" y="126">พบสวมอยู่บนกระดูกแขนของผู้ตายในโลงไม้สุริเกา</text>
+    </g>
+  </g>
+
+  <!-- CARD 6: HARDWOOD BOAT-COFFIN MOTIFS / LONGON (Bottom-Right) -->
+  <g transform="translate(1065, 590)" filter="url(#cardShadow)">
+    <rect width="455" height="460" rx="14" fill="url(#cardGradDark)" stroke="#eab308" stroke-width="1.8" />
+    <rect x="0" y="0" width="455" height="38" rx="14" fill="#854d0e" />
+    <text x="18" y="25" fill="#fef9c3" font-size="15" font-weight="bold">6. ศิลปะโลงไม้ขุดรูปเรือ (*ลองกอน* / Longon Coffin)</text>
+
+    <!-- Visual Artwork: Carved Boat-Coffin End with Crocodile / Serpent Prow -->
+    <g transform="translate(227, 135)" filter="url(#plateShadow)">
+      <!-- Carved Wood Coffin Prow (Hardwood Molave/Ironwood) -->
+      <path d="M -160,30 C -80,35 60,30 160,-20 C 130,-45 70,-40 20,-25 C -40,-10 -110,-5 -160,-5 Z" 
+            fill="#3f2717" stroke="#78350f" stroke-width="2.5" />
+      
+      <!-- Crocodile / Naga Stylized Carving on Coffin Lid -->
+      <path d="M 120,-30 C 150,-50 170,-40 180,-25 C 160,-10 140,-15 120,-10" fill="#29180d" stroke="#d97706" stroke-width="2" />
+      <circle cx="160" cy="-32" r="3" fill="#facc15" />
+      
+      <!-- Spiral Austronesian Woodcarving Grooves -->
+      <path d="M -120,10 Q -80,20 -40,10 Q 0,20 40,10 Q 80,15 110,-5" fill="none" stroke="#d97706" stroke-width="1.8" />
+      <text x="0" y="55" text-anchor="middle" fill="#facc15" font-size="11" font-weight="bold">โลงไม้ขุดเนื้อแข็ง (*ลองกอน*) ทรงหัวเรือจระเข้</text>
+    </g>
+
+    <!-- Text Specifications -->
+    <g transform="translate(18, 235)" font-size="12" fill="#e2e8f0">
+      <text x="0" y="16" font-weight="600" fill="#facc15">• ชนิดไม้บรรจุ:</text>
+      <text x="85" y="16">ไม้โมลาเว (Molave) หรือไม้ตะเคียนทองเนื้อแข็งแกร่ง</text>
+      <text x="0" y="38" font-weight="600" fill="#facc15">• ประติมากรรมหัวโลง:</text>
+      <text x="110" y="38">แกะสลักเป็นรูปหัวจระเข้ (*บูฮายา*) หรือนาคศักดิ์สิทธิ์</text>
+      <text x="0" y="60" font-weight="600" fill="#facc15">• จระเข้ในคติ:</text>
+      <text x="85" y="60">สัตว์พาหนะพิทักษ์วิญญาณข้ามแม่น้ำมูรูบูรูสู่ซูลัด</text>
+      <text x="0" y="82" font-weight="600" fill="#facc15">• การผนึกโลง:</text>
+      <text x="75" y="82">ยาชันรอยต่อด้วยยางไม้สนและยางชันป่ากันกลิ่น</text>
+      <text x="0" y="104" font-weight="600" fill="#facc15">• ตำแหน่งศพ:</text>
+      <text x="75" y="104">บรรจุศพดาตูสวมหน้ากากทองคำและห่มผ้าทออะบากา</text>
+      <text x="0" y="126" font-weight="600" fill="#facc15">• ตัวอย่างจัดแสดง:</text>
+      <text x="95" y="126">พิพิธภัณฑ์แห่งชาติฟิลิปปินส์ และแหล่งสุสานบูตูอัน</text>
+    </g>
+  </g>
+
+</svg>

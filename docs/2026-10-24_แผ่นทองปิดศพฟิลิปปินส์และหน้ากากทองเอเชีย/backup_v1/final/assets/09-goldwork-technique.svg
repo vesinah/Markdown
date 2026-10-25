@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1650 1080" font-family="sans-serif">
+  <rect width="1650" height="1080" fill="#faf8f2"/>
+  <text x="825" y="54" text-anchor="middle" font-size="38" font-weight="bold" fill="#3a2e1f">เทคโนโลยีช่างทองของหมู่เกาะฟิลิปปินส์ก่อนอาณานิคม</text>
+  <text x="825" y="92" text-anchor="middle" font-size="20" fill="#5a4a35">จากแท่งทองถึงแผ่นปิดทวารผู้ตาย — ทุกขั้นตอนและตัวเลขจากเอกสารอ้างอิงเท่านั้น</text>
+
+  <!-- แถบขั้นตอนการผลิต 5 ขั้น -->
+  <text x="110" y="150" font-size="24" font-weight="bold" fill="#6b4f1d">ลำดับการผลิต (ศัพท์ตากาล็อก ค.ศ. 1613 — Estrella 2016)</text>
+  <g>
+    <rect x="80" y="170" width="280" height="170" rx="12" fill="#f7e7b8" stroke="#a67c1e" stroke-width="2"/>
+    <text x="220" y="205" text-anchor="middle" font-size="20" font-weight="bold" fill="#6b4f1d">1. ตี (บัตบัต)</text>
+    <text x="220" y="235" text-anchor="middle" font-size="17" fill="#4a3a20">การตีทองด้วยค้อน</text>
+    <text x="220" y="261" text-anchor="middle" font-size="17" fill="#4a3a20">เครื่องมือ: ปามัตบัต</text>
+    <text x="220" y="295" text-anchor="middle" font-size="16" fill="#7a6a4a">ทองบริสุทธิ์จากพลาเซอร์</text>
+    <rect x="400" y="170" width="280" height="170" rx="12" fill="#f7e7b8" stroke="#a67c1e" stroke-width="2"/>
+    <text x="540" y="205" text-anchor="middle" font-size="20" font-weight="bold" fill="#6b4f1d">2. ตีแผ่น (ตาลัก)</text>
+    <text x="540" y="235" text-anchor="middle" font-size="17" fill="#4a3a20">ตีให้เป็นแผ่นแบนบาง</text>
+    <text x="540" y="261" text-anchor="middle" font-size="17" fill="#4a3a20">เครื่องมือ: ปานาลัก</text>
+    <text x="540" y="295" text-anchor="middle" font-size="16" fill="#7a6a4a">เป้าหมาย: แผ่นบางระดับฟอยล์</text>
+    <rect x="720" y="170" width="280" height="170" rx="12" fill="#f7e7b8" stroke="#a67c1e" stroke-width="2"/>
+    <text x="860" y="205" text-anchor="middle" font-size="20" font-weight="bold" fill="#6b4f1d">3. ดุน-ฉลุลาย</text>
+    <text x="860" y="235" text-anchor="middle" font-size="17" fill="#4a3a20">ลวดลายเชิงเส้น = ผังตาย่อส่วน</text>
+    <text x="860" y="261" text-anchor="middle" font-size="17" fill="#4a3a20">ตัดรูปใบไม้ + แถบสันจมูก</text>
+    <text x="860" y="295" text-anchor="middle" font-size="16" fill="#7a6a4a">เศษตัดหล่นรอบหลุม = ผลิต ณ หลุม</text>
+    <rect x="1040" y="170" width="280" height="170" rx="12" fill="#f7e7b8" stroke="#a67c1e" stroke-width="2"/>
+    <text x="1180" y="205" text-anchor="middle" font-size="20" font-weight="bold" fill="#6b4f1d">4. เย็บยึด</text>
+    <text x="1180" y="235" text-anchor="middle" font-size="17" fill="#4a3a20">รูเจาะเรียงตามขอบแผ่น</text>
+    <text x="1180" y="261" text-anchor="middle" font-size="17" fill="#4a3a20">เย็บกับวัสดุรองรับ</text>
+    <text x="1180" y="295" text-anchor="middle" font-size="16" fill="#7a6a4a">(วัสดุรองรับ: ยังไม่ปรากฏในเอกสาร)</text>
+    <rect x="1360" y="170" width="220" height="170" rx="12" fill="#f7e7b8" stroke="#a67c1e" stroke-width="2"/>
+    <text x="1470" y="205" text-anchor="middle" font-size="20" font-weight="bold" fill="#6b4f1d">5. วางบนร่าง</text>
+    <text x="1470" y="235" text-anchor="middle" font-size="17" fill="#4a3a20">ปิดตา / จมูก / ปาก</text>
+    <text x="1470" y="261" text-anchor="middle" font-size="17" fill="#4a3a20">ในตำแหน่งจริง (โอตอน)</text>
+    <text x="1470" y="295" text-anchor="middle" font-size="16" fill="#7a6a4a">พร้อมต่างหู (เซบู)</text>
+  </g>
+  <!-- ลูกศร -->
+  <g stroke="#8a6d2f" stroke-width="3" fill="#8a6d2f">
+    <line x1="360" y1="255" x2="395" y2="255"/><path d="M395,249 L408,255 L395,261 Z"/>
+    <line x1="680" y1="255" x2="715" y2="255"/><path d="M715,249 L728,255 L715,261 Z"/>
+    <line x1="1000" y1="255" x2="1035" y2="255"/><path d="M1035,249 L1048,255 L1035,261 Z"/>
+    <line x1="1320" y1="255" x2="1355" y2="255"/><path d="M1355,249 L1368,255 L1355,261 Z"/>
+  </g>
+
+  <!-- มาตรากะรัต -->
+  <rect x="80" y="380" width="700" height="260" rx="14" fill="#fdf6e0" stroke="#8a6d2f" stroke-width="2"/>
+  <text x="430" y="420" text-anchor="middle" font-size="22" font-weight="bold" fill="#6b4f1d">มาตราความบริสุทธิ์ทอง 7 ขั้นของตากาล็อก</text>
+  <text x="430" y="452" text-anchor="middle" font-size="17" fill="#4a3a20">ทดสอบด้วยโอเรียน (หินทดสอบ) — รู้คุณภาพได้ทันที</text>
+  <g font-size="17" fill="#4a3a20">
+    <rect x="120" y="470" width="220" height="34" fill="#d4a017"/><text x="230" y="493" text-anchor="middle" fill="#fff">ดาลีซาย — 24 กะรัต</text>
+    <rect x="120" y="510" width="202" height="34" fill="#dcb040"/><text x="221" y="533" text-anchor="middle">กีโนกูลาน — 22 ก.</text>
+    <rect x="120" y="550" width="184" height="34" fill="#e5c268"/><text x="212" y="573">ฮีลาโป — 20 ก.</text>
+    <rect x="120" y="590" width="170" height="34" fill="#e9cf8e"/><text x="205" y="613">ปานังโบ — &lt;20 ก.</text>
+    <text x="470" y="493">ปานีกา — 18 กะรัต (ต่างหูแม่พิมพ์ขี้ผึ้งยางไม้)</text>
+    <text x="470" y="533">ลีนีง-อิน — 14 กะรัต</text>
+    <text x="470" y="573">บิสลีก — 12 กะรัต</text>
+    <text x="470" y="613">บัดกรี "ปากีนังซาตูบิก" = เชื่อมด้วยน้ำ (Villegas 2004)</text>
+  </g>
+
+  <!-- สถาบันช่าง + เครือข่าย -->
+  <rect x="820" y="380" width="760" height="260" rx="14" fill="#eef2e4" stroke="#5f7d4a" stroke-width="2"/>
+  <text x="1200" y="420" text-anchor="middle" font-size="22" font-weight="bold" fill="#3c5530">สถาบันช่างและเครือข่ายวัตถุดิบ</text>
+  <g font-size="17" fill="#2e4430">
+    <text x="860" y="460">ปันได = ฐานะปรมาจารย์ศิลปะ/วิทยาศาสตร์ประยุกต์ (Villegas)</text>
+    <text x="860" y="495">หินทดสอบ: ชาวบ้านพกติดตัวทั่วไป (Guy)</text>
+    <text x="860" y="530">ผลผลิตทอง 1350–1899: 80,000–90,000 กก. (Tegengren ผ่าน BSP)</text>
+    <text x="860" y="565">แหล่งทอง: แม่น้ำมายง ปานัย / เขตทองซูริเกา–ทะเลสาบไมนิต (Canilao)</text>
+    <text x="860" y="600">เรือบาลังไกย์ = พาหะทองดิบ+เครื่องมือ+ช่างทอง (Guy)</text>
+    <text x="860" y="635">ระบบธรรมเนียมร่วมกับบอร์เนียวตะวันตกเฉียงใต้ (Villegas)</text>
+  </g>
+
+  <!-- สองแบบประเภทวิทยา -->
+  <rect x="80" y="670" width="740" height="250" rx="14" fill="#f6ece0" stroke="#8a6d2f" stroke-width="2"/>
+  <text x="450" y="708" text-anchor="middle" font-size="22" font-weight="bold" fill="#6b4f1d">ประเภทวิทยาสองแบบ (CCP Encyclopedia)</text>
+  <rect x="110" y="730" width="330" height="165" rx="10" fill="#fff" stroke="#c9a227"/>
+  <text x="275" y="762" text-anchor="middle" font-size="19" font-weight="bold" fill="#6b4f1d">แบบหน้ากากฉลุเปิด</text>
+  <text x="275" y="790" text-anchor="middle" font-size="16" fill="#4a3a20">ฉลุช่องตา จมูก ปาก ออก</text>
+  <text x="275" y="816" text-anchor="middle" font-size="16" fill="#4a3a20">เปิดทวาร — ใบหน้าแท้ปรากฏ</text>
+  <text x="275" y="842" text-anchor="middle" font-size="16" fill="#4a3a20">(ยังไม่ปรากฏหลักฐานรายแหล่งในเอกสารชุดนี้)</text>
+  <rect x="470" y="730" width="330" height="165" rx="10" fill="#fff" stroke="#c9a227"/>
+  <text x="635" y="762" text-anchor="middle" font-size="19" font-weight="bold" fill="#6b4f1d">แบบแผ่นปิดทวาร</text>
+  <text x="635" y="790" text-anchor="middle" font-size="16" fill="#4a3a20">โอตอน: ปิดตา+จมูก (13.3×2.5 ซม. 3.16 ก. /</text>
+  <text x="635" y="816" text-anchor="middle" font-size="16" fill="#4a3a20">16.3×5.5 ซม. 3.09 ก.) — เซบู: ตา+จมูก+ปาก</text>
+  <text x="635" y="842" text-anchor="middle" font-size="16" fill="#4a3a20">บางครั้งมีแถบศีรษะ (มงกุฎรัดผม) ร่วมชุด</text>
+
+  <!-- ระดับภูมิภาค -->
+  <rect x="860" y="670" width="720" height="250" rx="14" fill="#e8f0f7" stroke="#4a6d8c" stroke-width="2"/>
+  <text x="1220" y="708" text-anchor="middle" font-size="22" font-weight="bold" fill="#2e4a63">ระดับความประณีตในมาตรวัดภูมิภาค (Guy 2011)</text>
+  <g font-size="17" fill="#2e4a63">
+    <text x="900" y="748">ความประณีตของช่างทองฟิลิปปินส์ "เทียบได้เพียงอาณาจักรชวา"</text>
+    <text x="900" y="782">สูงกว่าจัมปา อังkor ทวารวตี ของแผ่นดินใหญ่</text>
+    <text x="900" y="816">คู่เทียบเทคนิค: จองลน เวียดนาม 10.9×4.5 / 9.7×6.0 / 9.1×7.5 ซม.</text>
+    <text x="900" y="850">รูเจาะขอบเย็บยึดเหมือนโอตอน — มาถึงวุงเตา "ด้วยการค้าระยะไกล"</text>
+    <text x="900" y="884">(Reinecke &amp; Nguyen 2009)</text>
+  </g>
+
+  <rect x="0" y="950" width="1650" height="130" fill="#efe8d8"/>
+  <text x="825" y="990" text-anchor="middle" font-size="18" fill="#4a3a20">ที่มาข้อมูล: Benitez-Johannot, CCP Encyclopedia of Philippine Art Digital Edition (2020); Estrella, Hukay 20 (2016): 47–78; Villegas, Ginto (BSP, 2004);</text>
+  <text x="825" y="1020" text-anchor="middle" font-size="18" fill="#4a3a20">Guy, Philippine Gold: Treasures of Forgotten Kingdoms (2011) 165–190; Atienza, Acta Medica Philippina 48/1 (2014); Estrella, Kasarinlan 33/2 (2018);</text>
+  <text x="825" y="1050" text-anchor="middle" font-size="18" fill="#4a3a20">Canilao, Qeios preprint (2023) doi:10.32388/TPD85Q; Abalajon, Philippiniana Sacra 46/136 (2011); Reinecke &amp; Nguyen, Arts of Asia 39/5 (2009); NMP (Oton Gallery; Cebu 2023; Plaza Independencia 2022)</text>
+</svg>

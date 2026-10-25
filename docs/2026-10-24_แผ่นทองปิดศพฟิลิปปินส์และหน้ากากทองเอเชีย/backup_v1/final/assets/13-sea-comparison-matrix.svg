@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1650 1050" font-family="sans-serif">
+  <rect width="1650" height="1050" fill="#faf8f2"/>
+  <text x="825" y="52" text-anchor="middle" font-size="36" font-weight="bold" fill="#3a2e1f">เมทริกซ์เปรียบเทียบหน้ากาก/แผ่นทองปิดหน้าศพ เอเชียตะวันออกเฉียงใต้</text>
+  <text x="825" y="90" text-anchor="middle" font-size="19" fill="#5a4a35">ฟิลิปปินส์ — เวียดนาม — กัมพูชา — อินโดนีเซีย | สัณฐาน เทคนิค บริบทหลุมศพ อายุ (ตามเอกสารโครงการเท่านั้น)</text>
+
+  <!-- ตารางเมทริกซ์ -->
+  <g font-size="15" fill="#4a3a20">
+    <rect x="70" y="120" width="210" height="52" fill="#8a6d2f"/><text x="175" y="152" text-anchor="middle" fill="#fff" font-weight="bold">มิติเปรียบเทียบ</text>
+    <rect x="280" y="120" width="320" height="52" fill="#4a5d7d"/><text x="440" y="141" text-anchor="middle" fill="#fff" font-weight="bold">ฟิลิปปินส์</text><text x="440" y="161" text-anchor="middle" fill="#dfe7f0" font-size="13">โอตอน / เซบู / บูตูอัน</text>
+    <rect x="600" y="120" width="320" height="52" fill="#5f7d4a"/><text x="760" y="141" text-anchor="middle" fill="#fff" font-weight="bold">เวียดนาม</text><text x="760" y="161" text-anchor="middle" fill="#e2ede2" font-size="13">จองลน / โอกเอว</text>
+    <rect x="920" y="120" width="320" height="52" fill="#8c4a4a"/><text x="1080" y="141" text-anchor="middle" fill="#fff" font-weight="bold">กัมพูชา</text><text x="1080" y="161" text-anchor="middle" fill="#f6e6e6" font-size="13">โปรเฮียร์</text>
+    <rect x="1240" y="120" width="340" height="52" fill="#6b4f1d"/><text x="1410" y="141" text-anchor="middle" fill="#fff" font-weight="bold">อินโดนีเซีย</text><text x="1410" y="161" text-anchor="middle" fill="#f2e8d0" font-size="13">มากัสซาร์ / บูกิซ</text>
+
+    <rect x="70" y="172" width="210" height="130" fill="#efe6d2"/><text x="175" y="220" text-anchor="middle" font-weight="bold">สัณฐานวัตถุ</text>
+    <rect x="280" y="172" width="320" height="130" fill="#f0f4fa" stroke="#a7b7cc"/><text x="440" y="204" text-anchor="middle">แผ่นทองเฉพาะทวาร</text><text x="440" y="230" text-anchor="middle">โอตอน: ตา+จมูก (13.3×2.5 / 16.3×5.5 ซม.)</text><text x="440" y="256" text-anchor="middle">เซบู: ตา+จมูก+ปาก "ชุดสมบูรณ์"</text><text x="440" y="282" text-anchor="middle">บูตูอัน: แผ่นปิดร่วมโลง</text>
+    <rect x="600" y="172" width="320" height="130" fill="#f2f8f0" stroke="#a7c2a7"/><text x="760" y="204" text-anchor="middle">จองลน: แผ่นปิดตา-จมูก</text><text x="760" y="230" text-anchor="middle">10.9×4.5 / 9.7×6.0 / 9.1×7.5 ซม.</text><text x="760" y="256" text-anchor="middle">โอกเอว: แผ่นทองหลายร้อยชิ้น</text><text x="760" y="282" text-anchor="middle">ในโครงสร้างอิฐ</text>
+    <rect x="920" y="172" width="320" height="130" fill="#f8f0f0" stroke="#ccaaaa"/><text x="1080" y="204" text-anchor="middle">ทองเงิน 96 ชิ้น+ (ระยะ II)</text><text x="1080" y="230" text-anchor="middle">จาน/วงล้อสำริดปิดหน้าเด็ก</text><text x="1080" y="256" text-anchor="middle">อิเล็กตรัม Au~60% พบบ่อยสุด</text><text x="1080" y="282" text-anchor="middle">Ag 99% – Au 95%</text>
+    <rect x="1240" y="172" width="340" height="130" fill="#fdf6e8" stroke="#d4c9a8"/><text x="1410" y="204" text-anchor="middle">มากัสซาร์: หน้ากากทอง + แผ่นปิดตา-ปาก</text><text x="1410" y="230" text-anchor="middle">+ แผ่นปิดอวัยวะ</text><text x="1410" y="256" text-anchor="middle">หน้ากากบูกิซ 2 ชิ้น (เซียง/บันตาเอ็ง)</text><text x="1410" y="282" text-anchor="middle">เซียงคล้ายชิ้นชวาตะวันออก "ก่อนคลาสสิก"</text>
+
+    <rect x="70" y="302" width="210" height="110" fill="#efe6d2"/><text x="175" y="345" text-anchor="middle" font-weight="bold">เทคนิคยึด/ผลิต</text>
+    <rect x="280" y="302" width="320" height="110" fill="#f0f4fa" stroke="#a7b7cc"/><text x="440" y="334" text-anchor="middle">ทองบริสุทธิ์ตีแผ่น — ผลิตในหลุม</text><text x="440" y="360" text-anchor="middle">(เศษตัดรอบหลุม) เย็บยึดผ่านรูขอบ</text><text x="440" y="386" text-anchor="middle">น้ำหนักชุดโอตอน ~6.25 ก.</text>
+    <rect x="600" y="302" width="320" height="110" fill="#f2f8f0" stroke="#a7c2a7"/><text x="760" y="334" text-anchor="middle">แผ่นทองบาง + รูเจาะมุม-ขอบ</text><text x="760" y="360" text-anchor="middle">(ยึดวัสดุรองรับ)</text><text x="760" y="386" text-anchor="middle">"มาถึงวุงเตาด้วยการค้าระยะไกล"</text>
+    <rect x="920" y="302" width="320" height="110" fill="#f8f0f0" stroke="#ccaaaa"/><text x="1080" y="334" text-anchor="middle">พันแผ่นรอบแกน (ภาพกล้อง)</text><text x="1080" y="360" text-anchor="middle">ชุบแบบ foil-fusion (พบครั้งแรกใน SEA)</text><text x="1080" y="386" text-anchor="middle">+ depletion gilding</text>
+    <rect x="1240" y="302" width="340" height="110" fill="#fdf6e8" stroke="#d4c9a8"/><text x="1410" y="334" text-anchor="middle">ตีแผ่นบาง — เทียบตรงโอตอน</text><text x="1410" y="360" text-anchor="middle">ในวรรณกรรมเดียวกัน (Bougas)</text><text x="1410" y="386" text-anchor="middle">ธรรมเนียมร่วมกับบอร์เนียวตะวันตก</text>
+
+    <rect x="70" y="412" width="210" height="110" fill="#efe6d2"/><text x="175" y="455" text-anchor="middle" font-weight="bold">บริบทหลุมศพ</text>
+    <rect x="280" y="412" width="320" height="110" fill="#f0f4fa" stroke="#a7b7cc"/><text x="440" y="444" text-anchor="middle">โอตอน: หลุมปฐมภูมิพบในตำแหน่งจริง 1967</text><text x="440" y="470" text-anchor="middle">บูตูอัน: โลงไม้+เครื่องเคลือบ (1977)</text><text x="440" y="496" text-anchor="middle">เซบู: หลุม 14–15 ส.ค. (ขุดกู้)</text>
+    <rect x="600" y="412" width="320" height="110" fill="#f2f8f0" stroke="#a7c2a7"/><text x="760" y="444" text-anchor="middle">จองลน: นอนราบ 72 + ไห 7 หลุม</text><text x="760" y="470" text-anchor="middle">(ขุด 2003–05, 536 ตร.ม.)</text><text x="760" y="496" text-anchor="middle">โอกเอว: โครงสร้างอิฐ "หลุม/สถานบูชา"</text>
+    <rect x="920" y="412" width="320" height="110" fill="#f8f0f0" stroke="#ccaaaa"/><text x="1080" y="444" text-anchor="middle">ไห + หลุมดิน 1,000+ หลุมถูกปล้น</text><text x="1080" y="470" text-anchor="middle">สองระยะ: ระยะ I ไร้ทอง</text><text x="1080" y="496" text-anchor="middle">ระยะ II ทองเงินเต็มรูปแบบ</text>
+    <rect x="1240" y="412" width="340" height="110" fill="#fdf6e8" stroke="#d4c9a8"/><text x="1410" y="444" text-anchor="middle">สุสานก่อนอิสลาม (ถูกขุดลักลอบ)</text><text x="1410" y="470" text-anchor="middle">ค.ศ. 1300–1600</text><text x="1410" y="496" text-anchor="middle">หน้ากาก 25 ชิ้น / แผ่นปิดตา 19 ชิ้น (โจมพ์)</text>
+
+    <rect x="70" y="522" width="210" height="90" fill="#efe6d2"/><text x="175" y="560" text-anchor="middle" font-weight="bold">กรอบอายุ</text>
+    <rect x="280" y="522" width="320" height="90" fill="#f0f4fa" stroke="#a7b7cc"/><text x="440" y="555" text-anchor="middle">ปลาย 14 ต้น 15 ส.ค. (สถาบัน)</text><text x="440" y="583" text-anchor="middle">บูตูอัน: ทูต 1001 + คาร์บอนกว้าง</text>
+    <rect x="600" y="522" width="320" height="90" fill="#f2f8f0" stroke="#a7c2a7"/><text x="760" y="555" text-anchor="middle">410–90 ปีก่อน ค.ศ. (คาร์บอนจองลน)</text><text x="760" y="583" text-anchor="middle">โอกเอว: ต้นประวัติศาสตร์ (ฟูนาน)</text>
+    <rect x="920" y="522" width="320" height="90" fill="#f8f0f0" stroke="#ccaaaa"/><text x="1080" y="555" text-anchor="middle">ยุคเหล็กปลาย (ก่อนโอกเอว)</text><text x="1080" y="583" text-anchor="middle">"มีแต่โอกเอวร่ำรวยกว่า"</text>
+    <rect x="1240" y="522" width="340" height="90" fill="#fdf6e8" stroke="#d4c9a8"/><text x="1410" y="555" text-anchor="middle">ค.ศ. 1300–1600</text><text x="1410" y="583" text-anchor="middle">ร่วมสมัยโอตอน-เซบูโดยตรง</text>
+  </g>
+
+  <!-- แถบสรุป -->
+  <rect x="70" y="640" width="1510" height="180" rx="14" fill="#f5efe0" stroke="#8a6d2f" stroke-width="2"/>
+  <text x="825" y="678" text-anchor="middle" font-size="20" font-weight="bold" fill="#4a3a20">แบบแผนร่วมและความหมาย: แผ่นทองปิดทวาร = ระบบเอเชียตะวันออกเฉียงใต้ภาคพื้นสมุทรโดยเฉพาะ</text>
+  <g font-size="16" fill="#5a4a35">
+    <text x="825" y="712" text-anchor="middle">• รากยุคเหล็ก: จองลน (410–90 ปีก่อน ค.ศ.) → สายลุ่มโขง (โอกเอว-โปรเฮียร์) → ยุครุ่งเรืองร่วมสมัย (มากัสซาร์ = โอตอน = บูตูอัน)</text>
+    <text x="825" y="744" text-anchor="middle">• แผ่นปิดทวารจำเพาะของ "จีนชายฝั่ง-ไต้หวัน-ISEA (ผู้พูดออสโตรนีเชียน)" — ต่างจากหน้ากากสวมทั้งหน้าของโลกอื่น (CCP อ้าง Miksic)</text>
+    <text x="825" y="776" text-anchor="middle">• คู่เทียบร่วมสมัยสมบูรณ์สุด: มากัสซาร์ ↔ วิซายัน ถูกบรรยายเชื่อมกันโดยตรงในงานเดียว (Bougas 2007) + ระบบธรรมเนียมร่วมบอร์เนียวตะวันตก (BSP)</text>
+  </g>
+
+  <rect x="0" y="850" width="1650" height="200" fill="#efe8d8"/>
+  <text x="825" y="890" text-anchor="middle" font-size="16" fill="#4a3a20">ที่มาข้อมูล: Reinecke &amp; Nguyen, Arts of Asia 39/5 (2009); Le Thi Lien, BIPPA 25 (2005); Malleret, BEFEO 45/1 (1951); Reinecke et al., First Golden Civilization of Cambodia (2010);</text>
+  <text x="825" y="918" text-anchor="middle" font-size="16" fill="#4a3a20">Schlosser et al., JAS 39 (2012); Bougas, Archipel 73 (2007); Pelras, The Bugis (1996); Villegas, Ginto (BSP 2004); Benitez-Johannot, CCP Encyclopedia Digital (2020);</text>
+  <text x="825" y="946" text-anchor="middle" font-size="16" fill="#4a3a20">NMP (Oton Gallery; Plaza Independencia 2022; Cebu 2023); Burton, Philippine Studies 25 (1977); Yamagata &amp; Matsumura, ANU Press (2017); Nguyen Kim Dung, ANU Press (2017); Pryce et al., BEFEO 93 (2008)</text>
+  <text x="825" y="988" text-anchor="middle" font-size="14" fill="#7a6a4a" font-style="italic">หมายเหตุ: เลขหน้าและขนาดทั้งหมดมาจากเอกสารต้นฉบับของโครงการตามที่ระบุ — ช่องใดที่เอกสารไม่ระบุจะไม่ถูกกรอก</text>
+</svg>

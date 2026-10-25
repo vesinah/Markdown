@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1650 1020" font-family="sans-serif">
+  <rect width="1650" height="1020" fill="#faf8f2"/>
+  <text x="825" y="52" text-anchor="middle" font-size="36" font-weight="bold" fill="#3a2e1f">เครื่องถ้วยจีนในสุสานฟิลิปปินส์: ไทม์ไลน์ สำนักเตา และหน้าที่พิธี</text>
+  <text x="825" y="90" text-anchor="middle" font-size="19" fill="#5a4a35">ซ่ง – หยวน – หมิง (ค.ศ. 10–17) ตามเอกสารอ้างอิงของโครงการเท่านั้น</text>
+
+  <!-- ไทม์ไลน์ -->
+  <rect x="80" y="130" width="1500" height="280" rx="14" fill="#fdf6e0" stroke="#8a6d2f" stroke-width="2"/>
+  <line x1="140" y1="290" x2="1520" y2="290" stroke="#8a6d2f" stroke-width="4"/>
+  <g font-size="16" fill="#4a3a20">
+    <!-- ซ่ง -->
+    <rect x="140" y="200" width="230" height="34" rx="6" fill="#c9a227"/><text x="255" y="223" text-anchor="middle" fill="#fff">ราชวงศ์ซ่ง (ตั้งแต่ ~ค.ศ. 10)</text>
+    <text x="255" y="185" text-anchor="middle">ไหใหญ่ปลายซ่ง = ไวน์พิธี + ฝังทารก/ซ้ำ (Fox 1967)</text>
+    <text x="255" y="345" text-anchor="middle">เครื่องถ้วยถัง: บาบูยัน–อีโลโกส–มะนิลา–</text>
+    <text x="255" y="370" text-anchor="middle">มินโดโร–โบฮอล–เซบู (Fox 1967)</text>
+    <!-- หยวน -->
+    <rect x="420" y="200" width="230" height="34" rx="6" fill="#a67c1e"/><text x="535" y="223" text-anchor="middle" fill="#fff">ราชวงศ์หยวน (13–14)</text>
+    <text x="535" y="185" text-anchor="middle">เซลาดอนหลงเฉวียน ตะกอน >1.5 ม. ปาเรียน (Peterson)</text>
+    <text x="535" y="345" text-anchor="middle">บูตูอัน: เครื่องถ้วยหยวน-หมิงร่วมหลุมโลง (Stead)</text>
+    <text x="535" y="370" text-anchor="middle">เซบูหลุมแผ่นทอง 14–15 ส.ค. (NMP 2022)</text>
+    <!-- หมิง -->
+    <rect x="700" y="200" width="260" height="34" rx="6" fill="#8a6d2f"/><text x="830" y="223" text-anchor="middle" fill="#fff">ราชวงศ์หมิง (14–17)</text>
+    <text x="830" y="185" text-anchor="middle">พอร์ซเลนหมิง 4 กลุ่มรูปแบบ (Aga-Oglu 1961)</text>
+    <text x="830" y="345" text-anchor="middle">คาลาตากัน 505 หลุม / 80% จีน (Orogo-Bolunia)</text>
+    <text x="830" y="370" text-anchor="middle">ข้อถกเถียง: จริง ๆ แหล่งคริสต์ศตวรรษ 16 (Chang)</text>
+    <!-- หมิงตอนปลาย/วัญหลัง -->
+    <rect x="1010" y="200" width="240" height="34" rx="6" fill="#6b4f1d"/><text x="1130" y="223" text-anchor="middle" fill="#fff">วัญหลัง 1572–1620</text>
+    <text x="1130" y="185" text-anchor="middle">หนาแน่น 1.2–1.5 ม. ชั้นสเปนตอนต้น ปาเรียน</text>
+    <text x="1130" y="345" text-anchor="middle">จางโจว/จิ่งเต๋อเจิ้น กลายเป็นเนื้อเดียว (Li Min)</text>
+    <!-- กาเลอร์ -->
+    <rect x="1300" y="200" width="220" height="34" rx="6" fill="#4a3a20"/><text x="1410" y="223" text-anchor="middle" fill="#fff">กาเลอร์มะนิลา 1571+</text>
+    <text x="1410" y="185" text-anchor="middle">โลกาภิวัตน์ยุคต้น (Li Min 2013)</text>
+    <text x="1410" y="345" text-anchor="middle">เครื่องถ้วยเวียดนามในเรือจม (NMP 2020)</text>
+  </g>
+
+  <!-- สำนักเตา/ประเภท -->
+  <rect x="80" y="430" width="740" height="260" rx="14" fill="#eef2e4" stroke="#5f7d4a" stroke-width="2"/>
+  <text x="450" y="468" text-anchor="middle" font-size="22" font-weight="bold" fill="#3c5530">ประเภทหลักและการวิเคราะห์ต้นกำเนิด</text>
+  <g font-size="16" fill="#2e4430">
+    <text x="110" y="508">• พอร์ซเลนน้ำเงินขาวหมิง — 4 กลุ่มรูปแบบตามเนื้อ/เคลือบ/ลาย (Aga-Oglu)</text>
+    <text x="110" y="542">• เซลาดอนหลงเฉวียน — ตัวชี้ชั้นก่อนสเปนของเซบู (Peterson et al.)</text>
+    <text x="110" y="576">• ไหมังกรสโตนแวร์ — INAA แยกกลุ่มองค์ประกอบธาตุได้จริง (Sinopoli et al.)</text>
+    <text x="110" y="610">• เครื่องดินเผาท้องถิ่นคู่ขนาน — INAA ยังแยกกลุ่มไม่ชัด (Yao)</text>
+    <text x="110" y="644">• เซอริเอชันคลังกูเท — หน่วยเวลา ≥250 ปี อาจสะท้อนสถานะ (Gunn-Graves)</text>
+    <text x="110" y="678">• ไหมังกร 4 ขนบ 12 ส.ค.–สเปนพิชิต + ช่องว่างหมิง (Dueppen)</text>
+  </g>
+
+  <!-- หน้าที่พิธี -->
+  <rect x="860" y="430" width="720" height="260" rx="14" fill="#f6ece0" stroke="#8a6d2f" stroke-width="2"/>
+  <text x="1220" y="468" text-anchor="middle" font-size="22" font-weight="bold" fill="#6b4f1d">สามหน้าที่ในพิธีศพ (คู่ขนานแผ่นทอง)</text>
+  <g font-size="16" fill="#4a3a20">
+    <text x="890" y="508">1. ภาชนะบรรจุศพ — ไหสโตนแวร์ 8/9 ใบ vs ดินเผา 1 (Chang; บรรจุทารก)</text>
+    <text x="890" y="542">2. ปิดทวารภาชนะ — ถ้วย/จานจีนเป็นฝาปิดปากไห (Fox 1959)</text>
+    <text x="890" y="576">   = คู่ขนานตรงของแผ่นทองปิดทวารร่าง ระดับชุมชน vs ชนชั้นนำ</text>
+    <text x="890" y="610">3. เครื่องอุทิศร่วมโลงไม้ — เครื่องเคลือบ+เครื่องประดับ (NMP Wooden Coffins)</text>
+    <text x="890" y="644">• การเข้าถึงกระจุกมือชนชั้นนำ (Bacus; Miksic: ซานตาอานา ~25% มีพอร์ซเลน)</text>
+    <text x="890" y="678">• ทวารของทั้งร่างและภาชนะถูกปิดด้วยสินค้าชั้นสูงสุดของเครือข่ายเดียวกัน</text>
+  </g>
+
+  <!-- แถบสรุป -->
+  <rect x="80" y="710" width="1500" height="120" rx="14" fill="#e8f0f7" stroke="#4a6d8c" stroke-width="2"/>
+  <text x="830" y="750" text-anchor="middle" font-size="20" font-weight="bold" fill="#2e4a63">ข้อสรุปบท: เครื่องถ้วยจีนกับทองคำ = สองระบบวัตถุ หนึ่งเครือข่าย</text>
+  <text x="830" y="782" text-anchor="middle" font-size="17" fill="#2e4a63">ทั้งคู่เป็นสินค้าชั้นสูงของการค้าเดียวกัน แต่ต่างที่มา (เตาจีน vs พลาเซอร์หมู่เกาะ) ความจำเพาะ (ทั่วไป vs เฉพาะหลุมชั้นสูงสุด)</text>
+  <text x="830" y="810" text-anchor="middle" font-size="17" fill="#2e4a63">และหน้าที่พิธี (ภาชนะ/ฝาไห vs เครื่องผนึกทวารร่าง) — หลุมแผ่นทองคือจุดบรรจบของสองสายการผลิตบนเครือข่ายเดียว</text>
+
+  <rect x="0" y="870" width="1650" height="150" fill="#efe8d8"/>
+  <text x="825" y="908" text-anchor="middle" font-size="16" fill="#4a3a20">ที่มาข้อมูล: Aga-Oglu, Asian Perspectives 5/2 (1961); Orogo &amp; Bolunia, SPAFA Journal 4/2 (1994); Sullivan, Antiquity 30 (1956); Fox, Philippine Studies 7/3 (1959) และ 15/1 (1967);</text>
+  <text x="825" y="936" text-anchor="middle" font-size="16" fill="#4a3a20">Gunn &amp; Graves, Asian Perspectives 34/2 (1995); Sinopoli et al., Asian Perspectives 45/2 (2006); Yao, Asian Perspectives 52/1 (2013); Dueppen, Asian Perspectives 52/1 (2013); Li Min, Asian Perspectives 52/1 (2013);</text>
+  <text x="825" y="964" text-anchor="middle" font-size="16" fill="#4a3a20">Miksic, BIPPA 26 (2006); Chang, UCL PhD (2008); Bacus, Asian Perspectives 36/1 (1997); Wirth, Asian Studies 55 (2019); Peterson et al., SPAFA Journal 4 (2020); NMP (Wooden Coffins; Plaza Independencia 2022; 2020 Annual Report); Go Bon Juan, Philippine Studies 53/1 (2005)</text>
+</svg>

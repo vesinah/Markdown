@@ -1,0 +1,297 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 950" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad-cosmo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="40%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#080711"/>
+    </linearGradient>
+
+    <linearGradient id="panel-cosmo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="gold-bright" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="35%" stop-color="#f59e0b"/>
+      <stop offset="75%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+
+    <linearGradient id="purple-mystic" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#7e22ce"/>
+    </linearGradient>
+
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="shadow-deep" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <filter id="gold-aura" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Markers -->
+    <marker id="arrow-gold" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#f59e0b"/>
+    </marker>
+    <marker id="arrow-purp" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#c084fc"/>
+    </marker>
+  </defs>
+
+  <style>
+    .title-main { font-family: 'Sarabun', 'Noto Sans Thai', sans-serif; font-size: 25px; font-weight: bold; fill: #fef08a; }
+    .title-sub { font-family: 'Sarabun', 'Segoe UI', sans-serif; font-size: 13.5px; fill: #94a3b8; }
+    .panel-hdr { font-family: 'Sarabun', 'Noto Sans Thai', sans-serif; font-size: 16px; font-weight: bold; fill: #c084fc; }
+    .badge-txt { font-family: 'Segoe UI', sans-serif; font-size: 11px; font-weight: bold; fill: #0f172a; }
+    .sec-title { font-family: 'Sarabun', 'Noto Sans Thai', sans-serif; font-size: 14.5px; font-weight: bold; fill: #f59e0b; }
+    .body-txt { font-family: 'Sarabun', 'Noto Sans Thai', sans-serif; font-size: 12px; fill: #cbd5e1; line-height: 1.4; }
+    .highlight-txt { font-family: 'Sarabun', 'Noto Sans Thai', sans-serif; font-size: 11.5px; fill: #38bdf8; }
+    .term-badge { font-family: 'Segoe UI', sans-serif; font-size: 10px; font-weight: bold; fill: #fef08a; }
+    .caption-meta { font-family: 'Sarabun', 'Noto Sans Thai', sans-serif; font-size: 11px; fill: #94a3b8; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1400" height="950" fill="url(#bg-grad-cosmo)"/>
+  
+  <!-- Top Gold Header Line -->
+  <rect x="0" y="0" width="1400" height="8" fill="url(#gold-bright)"/>
+
+  <!-- Title Section -->
+  <g transform="translate(50, 45)">
+    <text x="0" y="0" class="title-main">จักรวาลวิทยาความตาย โลกทัศน์วิญญาณนิยม และคติการคุ้มครองทวารสรีระด้วยแผ่นทองคำ</text>
+    <text x="0" y="24" class="title-sub">Austronesian Mortuary Cosmology: The Dual-Soul Complex (Dungan &amp; Kalag), Apotropaic Orifice Sealing, and Ancestral Soul Journey</text>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- LEFT COLUMN: THE DUAL SOUL COMPLEX (มโนทัศน์วิญญาณสองขั้ว) -->
+  <!-- ========================================================================= -->
+  <g transform="translate(50, 95)">
+    <rect width="410" height="815" rx="14" fill="url(#panel-cosmo)" stroke="#334155" stroke-width="1.5" filter="url(#shadow-deep)"/>
+    
+    <!-- Title -->
+    <rect x="18" y="16" width="374" height="36" rx="8" fill="#1e1b4b" stroke="#8b5cf6" stroke-width="1"/>
+    <circle cx="36" cy="34" r="8" fill="#8b5cf6"/>
+    <text x="52" y="39" class="panel-hdr">1. มโนทัศน์วิญญาณสองขั้ว (Dual-Soul Complex)</text>
+
+    <!-- Introductory Theory -->
+    <g transform="translate(20, 66)">
+      <rect width="370" height="70" rx="8" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+      <text x="12" y="20" class="sec-title" fill="#a855f7" font-size="13px">โลกทัศน์วิญญาณนิยมออสโตรนีเชียน:</text>
+      <text x="12" y="40" class="body-txt">• ความตายมิใช่การดับสูญ หากคือ "การเปลี่ยนผ่านสภาวะ"</text>
+      <text x="12" y="58" class="body-txt">• มนุษย์มีวิญญาณคู่: วิญญาณพลังชีวิต (Dungan) และวิญญาณแก่นแท้ (Kalag)</text>
+    </g>
+
+    <!-- DUNGAN BOX (Vital Soul) -->
+    <g transform="translate(20, 150)">
+      <rect width="370" height="230" rx="10" fill="#1f182c" stroke="#f59e0b" stroke-width="1.2"/>
+      <rect x="14" y="12" width="80" height="22" rx="4" fill="#d97706"/>
+      <text x="22" y="27" class="badge-txt" fill="#fef08a">ดุงงัน (DUNGAN)</text>
+      <text x="105" y="28" class="sec-title">วิญญาณพลังชีวิตและเจตจำนง</text>
+      <line x1="14" y1="42" x2="356" y2="42" stroke="#451a03" stroke-width="1"/>
+
+      <text x="14" y="65" class="body-txt">• สถิตในร่าง: แสดงออกทางกำลังกาย ความกล้าหาญ ปัญญา</text>
+      <text x="14" y="85" class="body-txt">• ภาวะเปราะบาง: สามารถหลุดลอยชั่วคราวขณะนอนหลับ (ความฝัน)</text>
+      <text x="14" y="105" class="body-txt">   หรือถูกภูตผีดูดกลืนขณะล้มป่วย (*Loss of Dungan*)</text>
+      <text x="14" y="125" class="body-txt">• เมื่อเสียชีวิต: ดุงงันจะแยกตัวออกจากร่าง หากช่องทวารเปิดอยู่</text>
+      <text x="14" y="145" class="body-txt">   วิญญาณชั่วร้าย (Yawa / Mahikawon) อาจฉวยโอกาสแทรกสิง</text>
+      <text x="14" y="165" class="highlight-txt">หน้าที่แผ่นทองคำ: "ตรึงและปิดกั้นทวาร" ป้องกันดุงงันสับสน</text>
+      <text x="14" y="185" class="highlight-txt">และป้องกันการรุกรานของภูตผีภายนอกสู่ร่างผู้ตาย</text>
+      <rect x="14" y="196" width="342" height="22" rx="4" fill="#0f172a"/>
+      <text x="22" y="211" class="caption-meta">อ้างอิง: Scott (1994), Jocano (1968, 1975), Bolunia (2015)</text>
+    </g>
+
+    <!-- Inter-soul interaction icon -->
+    <g transform="translate(180, 388)">
+      <line x1="25" y1="0" x2="25" y2="20" stroke="#c084fc" stroke-width="2" marker-end="url(#arrow-purp)"/>
+    </g>
+
+    <!-- KALAG BOX (Ancestral Spirit) -->
+    <g transform="translate(20, 416)">
+      <rect width="370" height="230" rx="10" fill="#141d2e" stroke="#38bdf8" stroke-width="1.2"/>
+      <rect x="14" y="12" width="80" height="22" rx="4" fill="#0284c7"/>
+      <text x="25" y="27" class="badge-txt" fill="#e0f2fe">กาลัก (KALAG)</text>
+      <text x="105" y="28" class="sec-title" fill="#38bdf8">วิญญาณอมตะและผีบรรพชน</text>
+      <line x1="14" y1="42" x2="356" y2="42" stroke="#082f49" stroke-width="1"/>
+
+      <text x="14" y="65" class="body-txt">• แก่นแท้บุคคล: ดำรงอยู่เป็นอมตะไม่แตกสลายตามสรีระ</text>
+      <text x="14" y="85" class="body-txt">• การแปลงสภาพ: เมื่อผ่านพิธีกรรมอย่างถูกต้อง กาลักจะเปลี่ยนผ่าน</text>
+      <text x="14" y="105" class="body-txt">   เข้าสู่สถานะ **อานิโต (Anito)** หรือ **อูมาลากัด (Umalagad)**</text>
+      <text x="14" y="125" class="body-txt">   อันเป็นปวงผีบรรพชนผู้คุ้มครองวงศ์ตระกูลและชุมชน</text>
+      <text x="14" y="145" class="body-txt">• ปลายทาง: เดินทางสู่ดินแดนบรรพบุรุษ (*Sulad / Saad*)</text>
+      <text x="14" y="165" class="highlight-txt" fill="#38bdf8">หน้าที่แผ่นทองคำ: เป็น "ตราประทับเกียรติยศ" (Somatic Seal)</text>
+      <text x="14" y="185" class="highlight-txt" fill="#38bdf8">แสดงสถานะดาตูต่อบรรพชน ณ ประตูทางเข้าปรโลก</text>
+      <rect x="14" y="196" width="342" height="22" rx="4" fill="#0f172a"/>
+      <text x="22" y="211" class="caption-meta">อ้างอิง: Chirino (1604), Colin (1663), Scott (1994)</text>
+    </g>
+
+    <!-- Soul Synthesis Footer Box -->
+    <g transform="translate(20, 660)">
+      <rect width="370" height="135" rx="8" fill="#181329" stroke="#8b5cf6" stroke-width="1"/>
+      <text x="14" y="24" class="sec-title" fill="#c084fc">บทสรุปทางปรัชญา:</text>
+      <text x="14" y="46" class="body-txt">• ความตายคือภาวะสลายพันธะระหว่าง Dungan กับ Kalag</text>
+      <text x="14" y="66" class="body-txt">• หากปราศจากแผ่นทองปิดทวาร ร่างกายจะกลายเป็น "ช่องว่าง"</text>
+      <text x="14" y="86" class="body-txt">   ที่ดึงดูดพลังงานด้านลบและทำให้ Kalag ติดค้างในโลกคนเป็น</text>
+      <text x="14" y="108" class="highlight-txt" fill="#fef08a">• ทองคำจึงเป็นสลักอภิปรัชญาตัดขาดโลกคนเป็น-คนตายอย่างสมบูรณ์</text>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- CENTER COLUMN: APOTROPAIC ORIFICE SEALING MECHANISM (การปิดกั้นทวาร) -->
+  <!-- ========================================================================= -->
+  <g transform="translate(480, 95)">
+    <rect width="440" height="815" rx="14" fill="url(#panel-cosmo)" stroke="#334155" stroke-width="1.5" filter="url(#shadow-deep)"/>
+    
+    <!-- Title -->
+    <rect x="20" y="16" width="400" height="36" rx="8" fill="#1e1b4b" stroke="#f59e0b" stroke-width="1"/>
+    <circle cx="38" cy="34" r="8" fill="#f59e0b"/>
+    <text x="56" y="39" class="panel-hdr" fill="#fef08a">2. กลไกการปิดกั้นทวารสรีระ (Apotropaic Orifice Sealing)</text>
+
+    <!-- Orifice 1: EYES (MATA) -->
+    <g transform="translate(20, 66)">
+      <rect width="400" height="160" rx="10" fill="#181f30" stroke="#f59e0b" stroke-width="1.2"/>
+      <rect x="14" y="12" width="70" height="22" rx="4" fill="#f59e0b"/>
+      <text x="24" y="27" class="badge-txt">1. ดวงตา</text>
+      <text x="94" y="28" class="sec-title">ทวารแห่งการมองเห็น (Mata / Eyes)</text>
+      <line x1="14" y1="40" x2="386" y2="40" stroke="#334155" stroke-width="1"/>
+
+      <text x="14" y="62" class="body-txt">• ความเปราะบาง: ดวงตาเป็นหน้าต่างรับรู้โลกวัตถุ เมื่อเสียชีวิต</text>
+      <text x="14" y="80" class="body-txt">   ดวงตาที่เปิดค้างสะท้อนความห่วงหาและอาจชักนำวิญญาณเร่ร่อน</text>
+      <text x="14" y="98" class="body-txt">• ภัยคุกคาม: ภูตผี **มาฮิกาวอน (Mahikawon)** จ้องมองขโมยดวงตา</text>
+      <text x="14" y="118" class="highlight-txt">• แผ่นปิดตา (OT-MD-39): แผ่นทองรูปใบไม้ 2 แฉกดุนลายจุดไข่ปลา</text>
+      <text x="14" y="138" class="highlight-txt">   "ปิดกั้นสายตาจากโลกียะ" สู่การหลับใหลอย่างสงบของวิญญาณ</text>
+    </g>
+
+    <!-- Orifice 2: NOSE (ILONG) -->
+    <g transform="translate(20, 238)">
+      <rect width="400" height="160" rx="10" fill="#181f30" stroke="#f59e0b" stroke-width="1.2"/>
+      <rect x="14" y="12" width="70" height="22" rx="4" fill="#f59e0b"/>
+      <text x="22" y="27" class="badge-txt">2. จมูก</text>
+      <text x="94" y="28" class="sec-title">ทวารแห่งลมปราณและกลิ่น (Ilong / Nose)</text>
+      <line x1="14" y1="40" x2="386" y2="40" stroke="#334155" stroke-width="1"/>
+
+      <text x="14" y="62" class="body-txt">• ความเปราะบาง: ช่องจมูกเป็นทางผ่านของลมหายใจและกลิ่นสลายตัว</text>
+      <text x="14" y="80" class="body-txt">• ภัยคุกคาม: ปีศาจกินซากศพ **บัลบัล (Balbal)** และ **อัสวัง (Asuang)**</text>
+      <text x="14" y="98" class="body-txt">   มีประสาทรับกลิ่นศพไกลหลายไมล์ จะมาขโมยร่างหรือกินตับไต</text>
+      <text x="14" y="118" class="highlight-txt">• แผ่นปิดจมูก (OT-MF-40): แถบทองรูปสามเหลี่ยมพาดสันจมูกคลุมปีก</text>
+      <text x="14" y="138" class="highlight-txt">   ร่วมกับการอุดน้ำยางพลู (Buyo) สกัดกั้นกลิ่นเน่าเปื่อยมิให้แพร่กระจาย</text>
+    </g>
+
+    <!-- Orifice 3: MOUTH (BABA) -->
+    <g transform="translate(20, 410)">
+      <rect width="400" height="165" rx="10" fill="#181f30" stroke="#f59e0b" stroke-width="1.2"/>
+      <rect x="14" y="12" width="70" height="22" rx="4" fill="#f59e0b"/>
+      <text x="24" y="27" class="badge-txt">3. ช่องปาก</text>
+      <text x="94" y="28" class="sec-title">ทวารแห่งวจีและการบริโภค (Baba / Mouth)</text>
+      <line x1="14" y1="40" x2="386" y2="40" stroke="#334155" stroke-width="1"/>
+
+      <text x="14" y="62" class="body-txt">• ความเปราะบาง: ช่องเปิดขนาดใหญ่ที่สุดทางเดินอาหารและวจี</text>
+      <text x="14" y="80" class="body-txt">• หน้าที่ทวิลักษณ์: 1) แผ่นปิดปากรูปวงรีสกัดกั้นการแทรกซึมของผีร้าย</text>
+      <text x="14" y="98" class="body-txt">   2) การบรรจุทองคำ/เหรียญทองปิโลนซีโต (Piloncito) ไว้ภายในช่องปาก</text>
+      <text x="14" y="118" class="highlight-txt">• มโนทัศน์ค่าธรรมเนียม: เพื่อเป็น "เสบียงเดินทาง" (Baon) และชำระ</text>
+      <text x="14" y="138" class="highlight-txt">   ค่าธรรมเนียมคนพายเรือข้ามแม่น้ำแห่งความตายสู่ดินแดนบรรพชน</text>
+    </g>
+
+    <!-- Gold Metaphysical Properties Box -->
+    <g transform="translate(20, 588)">
+      <rect width="400" height="205" rx="10" fill="#201509" stroke="#b45309" stroke-width="1.2"/>
+      <text x="16" y="24" class="sec-title" fill="#fef08a">คุณสมบัติอภิปรัชญาของทองคำ (Apotropaic Power of Gold):</text>
+      <line x1="16" y1="34" x2="384" y2="34" stroke="#78350f" stroke-width="1"/>
+      
+      <text x="16" y="56" class="body-txt">• **ความเป็นอมตะ (Incorruptibility):** ทองคำไม่เป็นสนิม ไม่ผุกร่อน</text>
+      <text x="16" y="74" class="body-txt">   ทำหน้าที่เป็นเกราะพิทักษ์เหนือกาลเวลาท่ามกลางเนื้อเยื่อที่สลายตัว</text>
+      
+      <text x="16" y="98" class="body-txt">• **แสงสว่างขับไล่ความมืด (Solar Radiance):** แสงสีทองสะท้อนอำนาจ</text>
+      <text x="16" y="116" class="body-txt">   แห่งดวงอาทิตย์และไฟศักดิ์สิทธิ์ ขับไล่ภูตผีแห่งความมืดมิด</text>
+
+      <text x="16" y="140" class="body-txt">• **ทอง 22k กินูกูลัน (Guinogulan):** "เจ้าแห่งทองคำ" สื่อถึงความบริสุทธิ์</text>
+      <text x="16" y="158" class="body-txt">   สูงสุดที่คู่ควรแก่การพิทักษ์ชนชั้นนำดาตูในวาระสุดท้าย</text>
+      
+      <rect x="16" y="172" width="368" height="22" rx="4" fill="#0f172a"/>
+      <text x="24" y="187" class="caption-meta">อ้างอิง: Villegas (2004), Guy (2011), Chirino (1604)</text>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- RIGHT COLUMN: MORTUARY RITUALS & SOUL JOURNEY (พิธีศพและการเดินทาง) -->
+  <!-- ========================================================================= -->
+  <g transform="translate(940, 95)">
+    <rect width="410" height="815" rx="14" fill="url(#panel-cosmo)" stroke="#334155" stroke-width="1.5" filter="url(#shadow-deep)"/>
+    
+    <!-- Title -->
+    <rect x="18" y="16" width="374" height="36" rx="8" fill="#1e1b4b" stroke="#10b981" stroke-width="1"/>
+    <circle cx="36" cy="34" r="8" fill="#10b981"/>
+    <text x="52" y="39" class="panel-hdr" fill="#34d399">3. พิธีศพดาตูและการเดินทางข้ามภพ (Mortuary Rites)</text>
+
+    <!-- STEP 1: Preparation & Embalming -->
+    <g transform="translate(20, 66)">
+      <rect width="370" height="110" rx="8" fill="#111c2a" stroke="#10b981" stroke-width="1"/>
+      <text x="12" y="20" class="sec-title" fill="#34d399" font-size="13px">1. การจัดเตรียมสรีระและถนอมร่าง (Embalming)</text>
+      <text x="12" y="40" class="body-txt">• อาบชำระร่างด้วยน้ำชะล้างสมุนไพรและน้ำหอมการบูร</text>
+      <text x="12" y="58" class="body-txt">• อุดช่องทวารทั้งหมดด้วยน้ำยางพลู (**Buyo Sap**) ชะลอการเน่าเปื่อย</text>
+      <text x="12" y="76" class="body-txt">• เย็บร้อยแผ่นทองคำปิดตา จมูก ปาก ติดกับผ้าห่อศพหรือโครงหน้ากาก</text>
+      <text x="12" y="94" class="caption-meta">Scott (1994), Chirino (1604)</text>
+    </g>
+
+    <!-- STEP 2: The Larao Mourning Taboo -->
+    <g transform="translate(20, 186)">
+      <rect width="370" height="135" rx="8" fill="#1f1424" stroke="#f43f5e" stroke-width="1"/>
+      <text x="12" y="20" class="sec-title" fill="#fb7185" font-size="13px">2. พิธีไว้ทุกข์ลาราโอ (The Larao Sacred Taboo)</text>
+      <text x="12" y="40" class="body-txt">• เมื่อดาตูสิ้นชีพ ชุมชนต้องเข้าสู่ข้อห้ามไว้ทุกข์เด็ดขาด (**Larao**)</text>
+      <text x="12" y="58" class="body-txt">• ห้ามส่งเสียงดัง ห้ามเป่าขลุ่ยตีกลอง ห้ามพกพาอาวุธปลายแหลม</text>
+      <text x="12" y="76" class="body-txt">• ห้ามพายเรือผ่านหน้าบ้านงานศพ ผู้ละเมิดมีโทษปรับทองคำหรือตกเป็นทาส</text>
+      <text x="12" y="96" class="highlight-txt" fill="#fb7185">• เจตนารมณ์: สร้าง "ความสงบศักดิ์สิทธิ์" ให้ดวงวิญญาณตั้งสติ</text>
+      <text x="12" y="118" class="caption-meta">Colin (1663), Scott (1994), Loarca (1582)</text>
+    </g>
+
+    <!-- STEP 3: Babaylan Shaman Chanting -->
+    <g transform="translate(20, 331)">
+      <rect width="370" height="130" rx="8" fill="#1b1633" stroke="#a855f7" stroke-width="1"/>
+      <text x="12" y="20" class="sec-title" fill="#c084fc" font-size="13px">3. บทบาทนักบวชหญิงคนทรงบาบายลัน (Babaylan)</text>
+      <text x="12" y="40" class="body-txt">• คนทรงหญิง (**Babaylan / Katalonan**) เป็นสื่อกลางระหว่างสองภพ</text>
+      <text x="12" y="58" class="body-txt">• ขับลำนำขับกล่อมชีวประวัติ เกียรติยศ และเส้นทางสู่อนาคต</text>
+      <text x="12" y="76" class="body-txt">• ติดต่อดวงวิญญาณบรรพชนให้ออกมารับวิญญาณผู้ล่วงลับ</text>
+      <text x="12" y="96" class="highlight-txt" fill="#c084fc">• รินสุราพื้นเมือง (Pangasi / Bas-i) เซ่นสรวงปวงผี</text>
+      <text x="12" y="116" class="caption-meta">Alcina (1668), Jocano (1968)</text>
+    </g>
+
+    <!-- STEP 4: Journey by Water to Ancestral Realm -->
+    <g transform="translate(20, 471)">
+      <rect width="370" height="195" rx="8" fill="#0f1f33" stroke="#0ea5e9" stroke-width="1"/>
+      <text x="12" y="20" class="sec-title" fill="#38bdf8" font-size="13px">4. การเดินทางข้ามห้วงน้ำสู่สุลัด (The Soul Journey)</text>
+      <text x="12" y="40" class="body-txt">• คติออสโตรนีเชียน: ดินแดนคนตายตั้งอยู่ข้ามห้วงน้ำหรือเกาะห่างไกล</text>
+      <text x="12" y="58" class="body-txt">• **โลงไม้รูปเรือ (Longon):** สัญลักษณ์พาหนะนำวิญญาณข้ามภพ</text>
+      <text x="12" y="76" class="body-txt">• ปลายทางตามความเชื่อ: **สุลัด (Sulad)** หรือ **ซาอัด (Saad)**</text>
+      <text x="12" y="94" class="body-txt">• ด่านตรวจคนพายเรือ: ดวงวิญญาณต้องชำระค่าธรรมเนียมด้วยทองคำ</text>
+      <text x="12" y="112" class="body-txt">   ที่บรรจุในปาก มิฉะนั้นจะต้องติดค้างอยู่ริมฝั่งตลอดกาล</text>
+      <text x="12" y="132" class="highlight-txt" fill="#fef08a">• การรวมกลุ่ม: ณ สุลัด วิญญาณดาตูจะพบกับบรรพบุรุษและใช้ชีวิต</text>
+      <text x="12" y="150" class="highlight-txt" fill="#fef08a">   ตามสถานะเกียรติยศเดิมที่ติดตัวไปจากโลกมนุษย์</text>
+      <rect x="12" y="165" width="346" height="20" rx="4" fill="#0b1120"/>
+      <text x="18" y="179" class="caption-meta">Scott (1994), Chirino (1604), Lacsina (2022)</text>
+    </g>
+
+    <!-- Final Takeaway Box -->
+    <g transform="translate(20, 676)">
+      <rect width="370" height="120" rx="8" fill="#131c26" stroke="#10b981" stroke-width="1"/>
+      <text x="12" y="22" class="sec-title" fill="#34d399">เอกภาพเชิงมโนทัศน์:</text>
+      <text x="12" y="44" class="body-txt">• แผ่นทองคำปิดทวารมิได้เป็นเพียงศิลปะประดับร่าง</text>
+      <text x="12" y="64" class="body-txt">• หากเป็น "เทคโนโลยีแห่งการเปลี่ยนผ่าน" (Technology of Transition)</text>
+      <text x="12" y="84" class="body-txt">   ที่เชื่อมโยงสรีระ วิญญาณ เกียรติภูมิ และจักรวาลวิทยาเข้าเป็นหนึ่งเดียว</text>
+      <text x="12" y="104" class="highlight-txt" fill="#38bdf8">• หลักประกันแห่งความเป็นอมตะของชนชั้นนำดาตู</text>
+    </g>
+  </g>
+
+  <!-- Bottom Citation Bar -->
+  <g transform="translate(50, 930)">
+    <text x="0" y="0" class="caption-meta">แผนผังที่ 8.1: แผนผังจักรวาลวิทยาความตาย โลกทัศน์วิญญาณนิยม และคติการคุ้มครองทวารสรีระ (จัดทำโดยคณะผู้วิจัย, 2026; อ้างอิง Scott 1994; Villegas 2004; Guy 2011; Jocano 1968, 1975; Chirino 1604; Colin 1663)</text>
+  </g>
+</svg>

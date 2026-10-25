@@ -1,0 +1,279 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" width="100%" height="100%" style="background-color: #0b0f19; font-family: 'Segoe UI', 'Sarabun', 'Helvetica Neue', sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgPlate" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <!-- Metallic Gold Foil Gradient -->
+    <linearGradient id="goldFoilGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef9c3" />
+      <stop offset="25%" stop-color="#facc15" />
+      <stop offset="50%" stop-color="#eab308" />
+      <stop offset="75%" stop-color="#ca8a04" />
+      <stop offset="100%" stop-color="#854d0e" />
+    </linearGradient>
+
+    <linearGradient id="goldDarkEdge" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ca8a04" />
+      <stop offset="100%" stop-color="#713f12" />
+    </linearGradient>
+
+    <!-- Card Background -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Gold Glow -->
+    <filter id="goldGlow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feFlood flood-color="#facc15" flood-opacity="0.35" result="color" />
+      <feComposite in2="blur" operator="in" />
+      <feComposite in="SourceGraphic" operator="over" />
+    </filter>
+
+    <filter id="plateShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.8" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="1100" fill="url(#bgPlate)" />
+
+  <!-- Grid Blueprint Lines -->
+  <g opacity="0.04" stroke="#38bdf8" stroke-width="1">
+    <path d="M 0,100 L 1600,100 M 0,200 L 1600,200 M 0,300 L 1600,300 M 0,400 L 1600,400 M 0,500 L 1600,500 M 0,600 L 1600,600 M 0,700 L 1600,700 M 0,800 L 1600,800 M 0,900 L 1600,900 M 0,1000 L 1600,1000" />
+    <path d="M 100,0 L 100,1100 M 200,0 L 200,1100 M 300,0 L 300,1100 M 400,0 L 400,1100 M 500,0 L 500,1100 M 600,0 L 600,1100 M 700,0 L 700,1100 M 800,0 L 800,1100 M 900,0 L 900,1100 M 1000,0 L 1000,1100 M 1100,0 L 1100,1100 M 1200,0 L 1200,1100 M 1300,0 L 1300,1100 M 1400,0 L 1400,1100 M 1500,0 L 1500,1100" />
+  </g>
+
+  <!-- TITLE BLOCK -->
+  <g id="headerBlock" transform="translate(80, 45)">
+    <rect x="0" y="0" width="8" height="65" fill="#f59e0b" rx="4" />
+    <text x="25" y="28" fill="#f8fafc" font-size="26" font-weight="bold" letter-spacing="0.5">แบบจำลองสัณฐานวิทยาและเทคนิคช่างทอง: หน้ากากทองคำโอตอน (ค.ศ. 1967)</text>
+    <text x="25" y="55" fill="#94a3b8" font-size="16">ARCHAEOLOGICAL TYPOLOGY &amp; METRIC SPECIFICATION: THE OTON GOLD DEATH MASK (NATIONAL CULTURAL TREASURE)</text>
+  </g>
+
+  <!-- MAIN TECHNICAL DRAWING OF THE OTON MASK (CENTRE-LEFT) -->
+  <g id="mainOtonMaskVector" transform="translate(560, 430)" filter="url(#goldGlow2)">
+    <!-- Scale Backdrop Frame -->
+    <rect x="-380" y="-240" width="760" height="480" rx="16" fill="#0f172a" stroke="#334155" stroke-width="2" filter="url(#plateShadow)" />
+    
+    <!-- Coordinate / Dimension Crosshairs -->
+    <line x1="-350" y1="0" x2="350" y2="0" stroke="#334155" stroke-width="1" stroke-dasharray="6,4" />
+    <line x1="0" y1="-210" x2="0" y2="210" stroke="#334155" stroke-width="1" stroke-dasharray="6,4" />
+
+    <!-- OTON GOLD DEATH MASK GEOMETRY -->
+    <!-- The Mask Sheet (Continuous Eye Plaque + Connected Triangular Nose Plaque) -->
+    <path d="M -240,-50 C -240,-50 -180,-120 -80,-115 C -25,-112 -15,-60 0,-60 C 15,-60 25,-112 80,-115 C 180,-120 240,-50 240,-50 C 240,-50 180,20 80,15 C 40,12 25,-10 18,15 L 0,165 L -18,15 C -25,-10 -40,12 -80,15 C -180,20 -240,-50 -240,-50 Z" 
+          fill="url(#goldFoilGrad)" stroke="#fef08a" stroke-width="3" filter="url(#plateShadow)" />
+
+    <!-- REPOUSSÉ EMBOSSED CONCENTRIC PUPIL MOTIFS -->
+    <!-- Left Eye -->
+    <g transform="translate(-120, -50)">
+      <ellipse cx="0" cy="0" rx="36" ry="28" fill="none" stroke="#78350f" stroke-width="2.5" />
+      <ellipse cx="0" cy="0" rx="22" ry="18" fill="none" stroke="#78350f" stroke-width="2" />
+      <circle cx="0" cy="0" r="10" fill="#fef08a" stroke="#78350f" stroke-width="2" />
+      <!-- Radial chasing rays -->
+      <line x1="-36" y1="0" x2="-22" y2="0" stroke="#78350f" stroke-width="1.5" />
+      <line x1="36" y1="0" x2="22" y2="0" stroke="#78350f" stroke-width="1.5" />
+      <line x1="0" y1="-28" x2="0" y2="-18" stroke="#78350f" stroke-width="1.5" />
+      <line x1="0" y1="28" x2="0" y2="18" stroke="#78350f" stroke-width="1.5" />
+    </g>
+
+    <!-- Right Eye -->
+    <g transform="translate(120, -50)">
+      <ellipse cx="0" cy="0" rx="36" ry="28" fill="none" stroke="#78350f" stroke-width="2.5" />
+      <ellipse cx="0" cy="0" rx="22" ry="18" fill="none" stroke="#78350f" stroke-width="2" />
+      <circle cx="0" cy="0" r="10" fill="#fef08a" stroke="#78350f" stroke-width="2" />
+      <!-- Radial chasing rays -->
+      <line x1="-36" y1="0" x2="-22" y2="0" stroke="#78350f" stroke-width="1.5" />
+      <line x1="36" y1="0" x2="22" y2="0" stroke="#78350f" stroke-width="1.5" />
+      <line x1="0" y1="-28" x2="0" y2="-18" stroke="#78350f" stroke-width="1.5" />
+      <line x1="0" y1="28" x2="0" y2="18" stroke="#78350f" stroke-width="1.5" />
+    </g>
+
+    <!-- NASAL RIDGE & NOSE REPOUSSÉ -->
+    <line x1="0" y1="-60" x2="0" y2="155" stroke="#78350f" stroke-width="3" />
+    <!-- Winged Nostril Fluting -->
+    <path d="M -15,135 Q 0,150 15,135" fill="none" stroke="#78350f" stroke-width="2.5" />
+    <path d="M -12,110 Q 0,122 12,110" fill="none" stroke="#78350f" stroke-width="2" />
+
+    <!-- PERIMETER REPOUSSÉ STIPPLING / GRANULATION (AUTHENTIC DOT MATRIX) -->
+    <g fill="#713f12" opacity="0.85">
+      <!-- Upper border dots -->
+      <circle cx="-210" cy="-60" r="2.2" /><circle cx="-180" cy="-85" r="2.2" /><circle cx="-150" cy="-100" r="2.2" /><circle cx="-120" cy="-108" r="2.2" /><circle cx="-90" cy="-108" r="2.2" /><circle cx="-60" cy="-98" r="2.2" /><circle cx="-35" cy="-80" r="2.2" /><circle cx="-15" cy="-65" r="2.2" />
+      <circle cx="15" cy="-65" r="2.2" /><circle cx="35" cy="-80" r="2.2" /><circle cx="60" cy="-98" r="2.2" /><circle cx="90" cy="-108" r="2.2" /><circle cx="120" cy="-108" r="2.2" /><circle cx="150" cy="-100" r="2.2" /><circle cx="180" cy="-85" r="2.2" /><circle cx="210" cy="-60" r="2.2" />
+      <!-- Lower border dots -->
+      <circle cx="-210" cy="-40" r="2.2" /><circle cx="-180" cy="-15" r="2.2" /><circle cx="-150" cy="2" r="2.2" /><circle cx="-120" cy="8" r="2.2" /><circle cx="-90" cy="6" r="2.2" /><circle cx="-60" cy="-5" r="2.2" /><circle cx="-35" cy="-15" r="2.2" />
+      <circle cx="35" cy="-15" r="2.2" /><circle cx="60" cy="-5" r="2.2" /><circle cx="90" cy="6" r="2.2" /><circle cx="120" cy="8" r="2.2" /><circle cx="150" cy="2" r="2.2" /><circle cx="180" cy="-15" r="2.2" /><circle cx="210" cy="-40" r="2.2" />
+      <!-- Nose edge dots -->
+      <circle cx="-12" cy="30" r="2" /><circle cx="-10" cy="60" r="2" /><circle cx="-7" cy="90" r="2" /><circle cx="-4" cy="120" r="2" />
+      <circle cx="12" cy="30" r="2" /><circle cx="10" cy="60" r="2" /><circle cx="7" cy="90" r="2" /><circle cx="4" cy="120" r="2" />
+    </g>
+
+    <!-- CORNER BINDING HOLES (LACE PERFORATIONS) -->
+    <!-- Far Lateral Eye Holes -->
+    <circle cx="-230" cy="-50" r="4.5" fill="#0f172a" stroke="#fef08a" stroke-width="1.8" />
+    <circle cx="230" cy="-50" r="4.5" fill="#0f172a" stroke="#fef08a" stroke-width="1.8" />
+    <!-- Nose Tip Hole -->
+    <circle cx="0" cy="155" r="3.5" fill="#0f172a" stroke="#fef08a" stroke-width="1.5" />
+
+    <!-- DIMENSION LEADER ARROWS -->
+    <!-- Width Dimension: 15.3 cm (480 px) -->
+    <line x1="-240" y1="-155" x2="240" y2="-155" stroke="#f59e0b" stroke-width="1.8" />
+    <polygon points="-240,-155 -230,-160 -230,-150" fill="#f59e0b" />
+    <polygon points="240,-155 230,-160 230,-150" fill="#f59e0b" />
+    <text x="0" y="-165" text-anchor="middle" fill="#fef08a" font-size="14" font-weight="bold">ความกว้างรวม (Total Width): 15.3 ซม. [153 มม.]</text>
+
+    <!-- Height Dimension: 9.5 cm -->
+    <line x1="280" y1="-115" x2="280" y2="165" stroke="#f59e0b" stroke-width="1.8" />
+    <polygon points="280,-115 275,-105 285,-105" fill="#f59e0b" />
+    <polygon points="280,165 275,155 285,155" fill="#f59e0b" />
+    <text x="295" y="30" fill="#fef08a" font-size="14" font-weight="bold" transform="rotate(90, 295, 30)">ความสูงรวม: 9.5 ซม. [95 มม.]</text>
+
+    <!-- Thickness Callout: 0.22 mm -->
+    <rect x="-350" y="140" width="160" height="50" rx="8" fill="#1e293b" stroke="#64748b" stroke-width="1" />
+    <text x="-335" y="160" fill="#94a3b8" font-size="11">ความหนาแผ่นทอง:</text>
+    <text x="-335" y="178" fill="#facc15" font-size="13" font-weight="bold">0.18 – 0.25 มม.</text>
+
+    <!-- Weight Callout: 12.8 g -->
+    <rect x="-170" y="140" width="150" height="50" rx="8" fill="#1e293b" stroke="#64748b" stroke-width="1" />
+    <text x="-155" y="160" fill="#94a3b8" font-size="11">น้ำหนักสุทธิ:</text>
+    <text x="-155" y="178" fill="#facc15" font-size="13" font-weight="bold">12.8 กรัม</text>
+  </g>
+
+  <!-- RIGHT PANEL: TECHNICAL SPECIFICATIONS & METALLURGY -->
+  <g id="rightSpecPanel" transform="translate(1000, 150)">
+    <!-- Spec Card 1: Provenance & Discovery -->
+    <rect width="520" height="230" rx="14" fill="url(#cardGrad)" stroke="#f59e0b" stroke-width="2" filter="url(#plateShadow)" />
+    <rect x="0" y="0" width="520" height="38" rx="14" fill="#78350f" />
+    <text x="20" y="25" fill="#fef08a" font-size="15" font-weight="bold">1. ประวัติการค้นพบและบริบททางโบราณคดี (Provenance)</text>
+    
+    <g transform="translate(20, 56)" font-size="12" fill="#e2e8f0">
+      <text x="0" y="16" font-weight="600" fill="#fbbf24">• แหล่งค้นพบ:</text>
+      <text x="95" y="16">บารังไกย์ซานอันโตนิโอ เทศบาลโอตอน จังหวัดอีโลอีโล เกาะปานาย</text>
+      <text x="0" y="38" font-weight="600" fill="#fbbf24">• ปีที่ขุดค้น:</text>
+      <text x="75" y="38">ค.ศ. 1967 (Alfredo Evangelista และ F. Landa Jocano, NMP)</text>
+      <text x="0" y="60" font-weight="600" fill="#fbbf24">• หลุมที่พบ:</text>
+      <text x="70" y="60">หลุมฝังศพหมายเลข 6 (Burial No. 6) ความลึก 1.20–1.40 เมตร</text>
+      <text x="0" y="82" font-weight="600" fill="#fbbf24">• อายุทางวัฒนธรรม:</text>
+      <text x="110" y="82">ปลายศตวรรษที่ 14 ถึงต้นศตวรรษที่ 15 (ยุคราชวงศ์หมิงตอนต้น)</text>
+      <text x="0" y="104" font-weight="600" fill="#fbbf24">• โบราณวัตถุร่วม:</text>
+      <text x="100" y="104">จานเคลือบเขียวหลงเฉวียน, มีดเหล็กด้ามทอง, ลูกปัดแก้วสีฟ้า</text>
+      <text x="0" y="126" font-weight="600" fill="#fbbf24">• สถานะปัจจุบัน:</text>
+      <text x="95" y="126">สมบัติทางวัฒนธรรมแห่งชาติ (National Cultural Treasure - NCT)</text>
+      <text x="0" y="148" font-weight="600" fill="#fbbf24">• การจัดแสดง:</text>
+      <text x="85" y="148">พิพิธภัณฑสถานแห่งชาติฟิลิปปินส์ สาขาอีโลอีโล (Iloilo Regional)</text>
+    </g>
+
+    <!-- Spec Card 2: Metallurgical Composition (XRF Analysis) -->
+    <g transform="translate(0, 250)">
+      <rect width="520" height="290" rx="14" fill="url(#cardGrad)" stroke="#10b981" stroke-width="2" filter="url(#plateShadow)" />
+      <rect x="0" y="0" width="520" height="38" rx="14" fill="#065f46" />
+      <text x="20" y="25" fill="#a7f3d0" font-size="15" font-weight="bold">2. ผลวิเคราะห์ธาตุโลหวิทยาและการผลิต (Metallurgy &amp; Craft)</text>
+
+      <!-- Pie Bar Visualization of Alloy -->
+      <g transform="translate(20, 55)">
+        <text x="0" y="16" fill="#34d399" font-size="12" font-weight="bold">สัดส่วนโลหะผสมธรรมชาติ (Native Gold Alloy Composition):</text>
+        <!-- Bar Container -->
+        <g transform="translate(0, 28)">
+          <!-- Gold segment (78%) -->
+          <rect x="0" y="0" width="374" height="22" rx="4" fill="#facc15" />
+          <text x="187" y="15" text-anchor="middle" fill="#713f12" font-size="11" font-weight="bold">ทองคำ (Au) 78.4% (ราว 18.8 กะรัต)</text>
+          <!-- Silver segment (16%) -->
+          <rect x="376" y="0" width="76" height="22" fill="#cbd5e1" />
+          <text x="414" y="15" text-anchor="middle" fill="#1e293b" font-size="10" font-weight="bold">Ag 16.2%</text>
+          <!-- Copper segment (5.4%) -->
+          <rect x="454" y="0" width="26" height="22" rx="4" fill="#f97316" />
+        </g>
+      </g>
+
+      <g transform="translate(20, 130)" font-size="12" fill="#e2e8f0">
+        <text x="0" y="16" font-weight="600" fill="#34d399">• เทคนิคการขึ้นรูป:</text>
+        <text x="105" y="16">ตีแผ่ทองคำก้อนเย็นสลับอบเหนียว (Hammering &amp; Annealing)</text>
+        <text x="0" y="38" font-weight="600" fill="#34d399">• เทคนิคสลักลาย:</text>
+        <text x="100" y="38">ดุนนูนจากด้านหลัง (Repoussé) และสกัดเส้นหน้า (Chasing)</text>
+        <text x="0" y="60" font-weight="600" fill="#34d399">• รอยเครื่องมือ:</text>
+        <text x="85" y="60">สิ่วปลายมนขนาด 1.2 มม. และเหล็กแหลมเจาะรูขอบ</text>
+        <text x="0" y="82" font-weight="600" fill="#34d399">• ความเค้นในเนื้อ:</text>
+        <text x="95" y="82">ปราศจากรอยแตกร้าว บ่งชี้การควบคุมไฟอบเหนียวระดับเซียน</text>
+        <text x="0" y="104" font-weight="600" fill="#34d399">• แหล่งแร่ต้นทาง:</text>
+        <text x="95" y="104">ลานแร่ทองคำแม่น้ำปานาย หรือสายแร่ทองคำมัสบาเต-สุริเกา</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- BOTTOM COMPARATIVE TYPOLOGY STRIP (3 SITES MATRIX) -->
+  <g id="bottomComparisonStrip" transform="translate(80, 750)">
+    <rect width="1440" height="300" rx="14" fill="#0f172a" stroke="#334155" stroke-width="2" filter="url(#plateShadow)" />
+    <rect x="0" y="0" width="1440" height="38" rx="14" fill="#1e293b" />
+    <text x="25" y="25" fill="#f8fafc" font-size="15" font-weight="bold">3. การวิเคราะห์เปรียบเทียบสัณฐานวิทยาหน้ากากทองคำระหว่าง 3 แหล่งแกนกลางแห่งหมู่เกาะฟิลิปปินส์ (Cross-Site Typology)</text>
+
+    <!-- Column 1: Oton -->
+    <g transform="translate(25, 55)">
+      <rect width="450" height="225" rx="10" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" />
+      <rect x="0" y="0" width="450" height="30" rx="10" fill="#78350f" />
+      <text x="15" y="20" fill="#fef08a" font-size="13" font-weight="bold">แหล่งซานอันโตนิโอ โอตอน (เกาะปานาย)</text>
+      <g transform="translate(15, 45)" font-size="12" fill="#cbd5e1">
+        <text x="0" y="16" font-weight="bold" fill="#fbbf24">• โครงสร้าง:</text>
+        <text x="65" y="16">แผ่นปิดตาคู่และแผ่นปิดจมูก "เชื่อมติดกันเป็นชิ้นเดียว"</text>
+        <text x="0" y="36" font-weight="bold" fill="#fbbf24">• สัณฐานตา:</text>
+        <text x="70" y="36">ทรงกระสวยดวงตาปลายแหลม ลายดุนม่านตา 3 ชั้น</text>
+        <text x="0" y="56" font-weight="bold" fill="#fbbf24">• สัณฐานจมูก:</text>
+        <text x="78" y="56">ทรงสามเหลี่ยมดั้งตรง มีสันนูนตลอดแนว</text>
+        <text x="0" y="76" font-weight="bold" fill="#fbbf24">• แผ่นปิดปาก:</text>
+        <text x="78" y="76">แผ่นทรงรีฉลุร่องเปิดตรงกลาง วางแยกชิ้น</text>
+        <text x="0" y="96" font-weight="bold" fill="#fbbf24">• เอกลักษณ์:</text>
+        <text x="70" y="96">วิจิตรประณีตสูงสุด แสดงถึงช่างทองหลวงชั้นครู</text>
+        <text x="0" y="116" font-weight="bold" fill="#fbbf24">• บริบทบรรจุ:</text>
+        <text x="80" y="116">โลงไม้ขุดรูปเรือ ในหลุมศพชนชั้นนำดาตู</text>
+      </g>
+    </g>
+
+    <!-- Column 2: Cebu Plaza Independencia -->
+    <g transform="translate(495, 55)">
+      <rect width="450" height="225" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+      <rect x="0" y="0" width="450" height="30" rx="10" fill="#0369a1" />
+      <text x="15" y="20" fill="#e0f2fe" font-size="13" font-weight="bold">แหล่งปลาซาอินเดเปนเดนเซีย (เมืองเซบู)</text>
+      <g transform="translate(15, 45)" font-size="12" fill="#cbd5e1">
+        <text x="0" y="16" font-weight="bold" fill="#38bdf8">• โครงสร้าง:</text>
+        <text x="65" y="16">ชุดแผ่นปิดทวาร "แยกชิ้นอิสระ" (ตา 2 ชิ้น, จมูก 1 ชิ้น)</text>
+        <text x="0" y="36" font-weight="bold" fill="#38bdf8">• สัณฐานตา:</text>
+        <text x="70" y="36">ทรงใบไม้รี เจาะรูร้อยเชือกที่มุมซ้าย-ขวา</text>
+        <text x="0" y="56" font-weight="bold" fill="#38bdf8">• สัณฐานจมูก:</text>
+        <text x="78" y="56">ทรงสามเหลี่ยมยอดแหลม เจาะรูร้อยเชือก 3 มุม</text>
+        <text x="0" y="76" font-weight="bold" fill="#38bdf8">• แผ่นปิดปาก:</text>
+        <text x="78" y="76">แผ่นสี่เหลี่ยมผืนผ้าแบนราบวางปิดเหนือริมฝีปาก</text>
+        <text x="0" y="96" font-weight="bold" fill="#38bdf8">• เอกลักษณ์:</text>
+        <text x="70" y="96">พบ In Situ สมบูรณ์ 100% แนบชิดกับกระดูกเบ้าตา</text>
+        <text x="0" y="116" font-weight="bold" fill="#38bdf8">• บริบทบรรจุ:</text>
+        <text x="80" y="116">การฝังศพในดินทรายชายฝั่งเมืองท่าการค้าเซบู</text>
+      </g>
+    </g>
+
+    <!-- Column 3: Butuan Ambangan & Suatan -->
+    <g transform="translate(965, 55)">
+      <rect width="450" height="225" rx="10" fill="#1e293b" stroke="#a855f7" stroke-width="1.5" />
+      <rect x="0" y="0" width="450" height="30" rx="10" fill="#6b21a8" />
+      <text x="15" y="20" fill="#f3e8ff" font-size="13" font-weight="bold">แหล่งอัมบังกันและซูอาตัน (เมืองบูตูอัน)</text>
+      <g transform="translate(15, 45)" font-size="12" fill="#cbd5e1">
+        <text x="0" y="16" font-weight="bold" fill="#c084fc">• โครงสร้าง:</text>
+        <text x="65" y="16">แผ่นทองปิดทวารแยกชิ้น ร่วมกับ "ทองคำใส่ในปาก"</text>
+        <text x="0" y="36" font-weight="bold" fill="#c084fc">• สัณฐานตา:</text>
+        <text x="70" y="36">ทรงกระสวยดวงตา ลายนูนต่ำรูปม่านตาวงกลมเดี่ยว</text>
+        <text x="0" y="56" font-weight="bold" fill="#c084fc">• สัณฐานจมูก:</text>
+        <text x="78" y="56">ทรงสามเหลี่ยมฐานกว้าง ดุนลายกลีบดอกไม้</text>
+        <text x="0" y="76" font-weight="bold" fill="#c084fc">• ทองในปาก:</text>
+        <text x="75" y="76">แผ่นทองคำทรงกลม/รีวางใต้ลิ้นเป็น "เสบียงวิญญาณ"</text>
+        <text x="0" y="96" font-weight="bold" fill="#c084fc">• เอกลักษณ์:</text>
+        <text x="70" y="96">พบร่วมกับเบ้าหลอมทองคำและเรือโบราณบาลังไกย์</text>
+        <text x="0" y="116" font-weight="bold" fill="#c084fc">• บริบทบรรจุ:</text>
+        <text x="80" y="116">โลงไม้แคร่เรือริมฝั่งแม่น้ำอากูซาน นครหลวงทองคำ</text>
+      </g>
+    </g>
+  </g>
+
+</svg>

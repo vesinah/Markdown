@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="100%" height="100%">
+  <defs>
+    <style>
+      .title { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #1e293b; }
+      .subtitle { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 14px; fill: #64748b; }
+      .panel-header { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #0f172a; text-anchor: middle; }
+      .panel-sub { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 11px; fill: #64748b; text-anchor: middle; }
+      .sub-header { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #0369a1; }
+      .desc-text { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 11px; fill: #334155; }
+      .desc-bold { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 11px; font-weight: bold; fill: #0f172a; }
+      .gold-tag { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 11px; font-weight: bold; fill: #b45309; }
+      .diag-label { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 11px; fill: #475569; text-anchor: middle; }
+      .measure-text { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 10px; fill: #dc2626; font-weight: bold; }
+      .watermark { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 11px; fill: #94a3b8; text-anchor: end; }
+    </style>
+    
+    <!-- Gradients -->
+    <linearGradient id="gold-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="50%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+
+    <linearGradient id="bone-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fefce8"/>
+      <stop offset="100%" stop-color="#fef08a"/>
+    </linearGradient>
+
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <rect x="20" y="20" width="1160" height="810" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#card-shadow)"/>
+
+  <!-- Header Section -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="6" height="50" rx="3" fill="#0284c7"/>
+    <text x="18" y="26" class="title">ผังชีวโบราณคดี: การดัดแปลงสรีระกะโหลก ศิลปะทันตกรรมฝังทอง และรูปแบบการบรรจุศพ</text>
+    <text x="18" y="48" class="subtitle">Bioarchaeological Profile: Cranial Modification (Tangad), Dental Gold Ornamentation (Pusad/Bansil), and Mortuary Containment</text>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- PANEL A: CRANIAL MODIFICATION (TANGAD)     -->
+  <!-- ========================================== -->
+  <g transform="translate(50, 135)">
+    <rect x="0" y="0" width="350" height="635" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="175" y="28" class="panel-header">A. การดัดกะโหลกศีรษะ (Tangad)</text>
+    <text x="175" y="44" class="panel-sub">Anteroposterior Cranial Deformation (Suzuki 1993)</text>
+    <line x1="20" y1="55" x2="330" y2="55" stroke="#e2e8f0" stroke-width="1"/>
+
+    <!-- Comparison Diagram: Normal vs Tangad Skull Profile -->
+    <g transform="translate(20, 70)">
+      <rect x="0" y="0" width="310" height="190" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+      
+      <!-- Normal Skull Outline (Dashed Blue) -->
+      <path d="M 60,140 C 40,110 40,70 70,45 C 95,25 130,25 150,45 C 165,60 170,90 170,120 C 170,140 150,160 130,165 L 85,165 Z" 
+            fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <text x="105" y="20" class="diag-label" style="fill:#64748b;">กะโหลกปกติ (Undeformed)</text>
+
+      <!-- Tangad Skull Outline (Solid Amber) -->
+      <!-- Flat sloping frontal, expanded parietal/occipital -->
+      <path d="M 210,140 C 190,120 180,95 215,55 C 235,30 270,30 290,50 C 310,70 315,105 315,135 C 315,155 295,165 270,165 L 225,165 Z" 
+            fill="#fef3c7" fill-opacity="0.5" stroke="#d97706" stroke-width="2.5"/>
+      <text x="255" y="20" class="diag-label" style="fill:#d97706; font-weight:bold;">กะโหลกดัดลาด (Tangad)</text>
+
+      <!-- Pressure Vectors & Compression Boards (Tangkop) -->
+      <!-- Frontal Compression Board -->
+      <line x1="180" y1="50" x2="225" y2="120" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 175,70 L 195,80 L 175,90" fill="#dc2626"/>
+      <text x="155" y="85" class="measure-text" text-anchor="end">แรงกดแผ่นไม้</text>
+      <text x="155" y="97" style="font-size:8px; fill:#dc2626;" text-anchor="end">(Tangkop)</text>
+
+      <!-- Occipital Counter-pressure -->
+      <line x1="325" y1="80" x2="325" y2="145" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+      <text x="290" y="180" class="measure-text">ท้ายทอยขยายกว้าง</text>
+
+      <!-- Morphometric note inside box -->
+      <text x="10" y="180" style="font-size:9.5px; fill:#475569;">• ความยาวกะโหลกลดลง (Smaller cranial length)</text>
+    </g>
+
+    <!-- Bioanthropological Data -->
+    <g transform="translate(20, 275)">
+      <text x="0" y="15" class="sub-header">ข้อมูลตรวจวัดทางกายภาพ (Suzuki 1993):</text>
+      <text x="0" y="32" class="desc-text">• การตรวจวัดกะโหลกฟิลิปปินส์ 26 กะโหลก (ดัด 12, ปกติ 14)</text>
+      <text x="0" y="47" class="desc-text">• กะโหลกดัดแสดงดัชนีหน้าผาก-ท้ายทอย (Sagittal indices)</text>
+      <text x="0" y="62" class="desc-text">  เข้าใกล้ค่า 1.0 สะท้อนระนาบแบนราบหน้าผากอย่างชัดเจน</text>
+      <text x="0" y="77" class="desc-text">• พบในหลุมศพโอตอน (หลุมที่ 6), สุสานบูตูอัน และเซบู</text>
+
+      <text x="0" y="105" class="sub-header">เครื่องมือและกลไกการดัดในทารก (Scott 1994):</text>
+      <text x="0" y="122" class="desc-text">• ใช้แผ่นไม้กระดานประกบหน้าผากทารกแรกเกิด (*Tangkop*)</text>
+      <text x="0" y="137" class="desc-text">• รัดตรึงด้วยแถบผ้าพันรอบศีรษะ (*Talop*) นานหลายเดือน</text>
+      <text x="0" y="152" class="desc-text">• กะโหลกทารกยังไม่ปิดประสาน (Fontanelles) ดัดรูปทรงได้ถาวร</text>
+
+      <rect x="0" y="170" width="310" height="90" rx="6" fill="#fef9c3" stroke="#fcd34d" stroke-width="1"/>
+      <text x="10" y="190" class="gold-tag">ความหมายทางสังคมวิทยาและชนชั้น (Datu Status):</text>
+      <text x="10" y="206" class="desc-text">• สัญลักษณ์แห่งสายเลือดเจ้านายวิซายัส (*Tumao / Datu*)</text>
+      <text x="10" y="221" class="desc-text">• กะโหลกกลมธรรมชาติถูกมองว่าไร้การขัดเกลาหรือต่ำต้อย</text>
+      <text x="10" y="236" class="desc-text">• เสริมความสง่างามเมื่อสวมมงกุฎทองและรัดเกล้าทองคำ</text>
+      <text x="10" y="251" class="desc-text">• สรีระที่ถูกประดิษฐ์ขึ้นเพื่อเป็นผืนผ้าใบแห่งเกียรติยศ</text>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- PANEL B: DENTAL MODIFICATION (PUSAD/BANSIL)-->
+  <!-- ========================================== -->
+  <g transform="translate(425, 135)">
+    <rect x="0" y="0" width="350" height="635" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="175" y="28" class="panel-header">B. ศิลปะทันตกรรมฝังทอง (Bansil / Pusad)</text>
+    <text x="175" y="44" class="panel-sub">Precolonial Dental Inlay & 6 Techniques (Acta Medica 2024)</text>
+    <line x1="20" y1="55" x2="330" y2="55" stroke="#e2e8f0" stroke-width="1"/>
+
+    <!-- Dental Diagram: Maxillary Anterior Teeth with Gold Inlays -->
+    <g transform="translate(20, 70)">
+      <rect x="0" y="0" width="310" height="190" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="155" y="22" style="font-family:'Sarabun', sans-serif; font-size:11px; fill:#94a3b8; text-anchor:middle;">ฟันหน้าบนย้อมดำขลับและฝังหมุดทองคำ (Gold Inlaid Dentition)</text>
+      
+      <!-- Gum Line -->
+      <path d="M 25,45 Q 60,60 95,45 Q 130,60 165,45 Q 200,60 235,45 Q 270,60 295,45" 
+            fill="none" stroke="#f43f5e" stroke-width="3"/>
+      <text x="30" y="40" style="font-size:9px; fill:#fda4af;">แนวเหงือก</text>
+
+      <!-- 4 Upper Incisors (Central & Lateral) - Dyed Black (#0f172a / #334155) -->
+      <!-- Tooth 1: Right Lateral -->
+      <path d="M 55,55 L 50,115 Q 70,122 88,115 L 85,55 Z" fill="#090d16" stroke="#475569" stroke-width="1.2"/>
+      <!-- Tooth 2: Right Central -->
+      <path d="M 95,54 L 92,125 Q 120,132 145,125 L 142,54 Z" fill="#090d16" stroke="#475569" stroke-width="1.2"/>
+      <!-- Tooth 3: Left Central -->
+      <path d="M 152,54 L 149,125 Q 177,132 202,125 L 199,54 Z" fill="#090d16" stroke="#475569" stroke-width="1.2"/>
+      <!-- Tooth 4: Left Lateral -->
+      <path d="M 209,55 L 206,115 Q 226,122 244,115 L 241,55 Z" fill="#090d16" stroke="#475569" stroke-width="1.2"/>
+
+      <!-- Gold Inlaid Pegs (Bansil) on Teeth -->
+      <!-- Tooth 1: Single star peg -->
+      <polygon points="69,80 71,86 77,86 72,90 74,96 69,92 64,96 66,90 61,86 67,86" fill="url(#gold-fill)" stroke="#b45309" stroke-width="0.5"/>
+
+      <!-- Tooth 2: Triple gold dots (Pigafetta 1521 Mindanao Chief) -->
+      <circle cx="118" cy="72" r="3.5" fill="url(#gold-fill)" stroke="#b45309" stroke-width="0.6"/>
+      <circle cx="118" cy="88" r="4.2" fill="url(#gold-fill)" stroke="#b45309" stroke-width="0.6"/>
+      <circle cx="118" cy="104" r="3.5" fill="url(#gold-fill)" stroke="#b45309" stroke-width="0.6"/>
+
+      <!-- Tooth 3: Flower-shaped gold peg (Pusad) -->
+      <circle cx="175" cy="88" r="6" fill="url(#gold-fill)" stroke="#b45309" stroke-width="0.6"/>
+      <circle cx="175" cy="88" r="2.5" fill="#78350f"/>
+      <circle cx="175" cy="79" r="2" fill="url(#gold-fill)"/>
+      <circle cx="175" cy="97" r="2" fill="url(#gold-fill)"/>
+      <circle cx="166" cy="88" r="2" fill="url(#gold-fill)"/>
+      <circle cx="184" cy="88" r="2" fill="url(#gold-fill)"/>
+
+      <!-- Tooth 4: Single gold star peg -->
+      <polygon points="225,80 227,86 233,86 228,90 230,96 225,92 220,96 222,90 217,86 223,86" fill="url(#gold-fill)" stroke="#b45309" stroke-width="0.5"/>
+
+      <!-- Callout: Antonio Pigafetta Quote -->
+      <rect x="10" y="148" width="290" height="34" rx="4" fill="#0f172a" stroke="#475569" stroke-width="0.8"/>
+      <text x="20" y="162" style="font-size:9.5px; fill:#fde047; font-style:italic;">"มีแต้มทองสามแต้มในฟันทุกซี่ ปรากฏราวกับถูกรั้วด้วยทอง"</text>
+      <text x="20" y="174" style="font-size:8.5px; fill:#94a3b8;">— Antonio Pigafetta บันทึกพบดาตูมินดาเนาเหนือ ค.ศ. 1521</text>
+    </g>
+
+    <!-- Dental Techniques Details -->
+    <g transform="translate(20, 275)">
+      <text x="0" y="15" class="sub-header">6 วิธีการดัดแปรฟันฟิลิปปินส์ (Acta Medica 2024):</text>
+      <text x="0" y="32" class="desc-text">1. ขัดเรียบระนาบหน้าฟัน (Filing front teeth evenly)</text>
+      <text x="0" y="47" class="desc-text">2. เลื่อยฟันกุดระดับเหงือก (Sawing down even with gums)</text>
+      <text x="0" y="62" class="desc-text">3. ตะไบเจียรฟันปลายแหลม (Filing upper teeth to points)</text>
+      <text x="0" y="77" class="desc-text">4. เซาะร่องเว้าผิวนอกฟัน (Filing concave grooves)</text>
+      <text x="0" y="92" class="desc-text"><tspan class="desc-bold">5. ฝังหมุดทอง/ครอบฟันทอง (Gold fillings/caps/bansil)</tspan></text>
+      <text x="0" y="107" class="desc-text">6. ย้อมฟันดำขลับถาวรด้วยยางไม้และแทนนิน (Dyeing black)</text>
+
+      <rect x="0" y="125" width="310" height="135" rx="6" fill="#fef9c3" stroke="#fcd34d" stroke-width="1"/>
+      <text x="10" y="145" class="gold-tag">ทฤษฎีชนชั้นนำของ Barretto-Tesoro (2003):</text>
+      <text x="10" y="162" class="desc-text">• <tspan class="desc-bold">Type 1 Elites (สูงสุด):</tspan> หลุมศพมีฟันฝังหมุดทอง (*Bansil*)</text>
+      <text x="10" y="177" class="desc-text">  ร่วมกับแผ่นทองปิดทวารสรีระและเครื่องเคลือบนำเข้า</text>
+      <text x="10" y="192" class="desc-text">• เป็นเครื่องหมายสถานะที่โอนย้ายไม่ได้ (*Inalienable status*)</text>
+      <text x="10" y="207" class="desc-text">  ติดตรึงอยู่กับสรีระจริงของผู้ตาย ยอมทนเจ็บเพื่อเกียรติยศ</text>
+      <text x="10" y="222" class="desc-text">• พบเด่นชัดที่ Plaza Independencia, Boljoon, และ Calatagan</text>
+      <text x="10" y="237" class="desc-text">• <tspan class="desc-bold">Type 2 Elites:</tspan> มีเฉพาะเครื่องทองอุทิศ แต่ไม่มีการฝังหมุดฟัน</text>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- PANEL C: MORTUARY CONTAINMENT TYPOLOGY     -->
+  <!-- ========================================== -->
+  <g transform="translate(800, 135)">
+    <rect x="0" y="0" width="350" height="635" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="175" y="28" class="panel-header">C. รูปแบบการบรรจุศพ (Containment)</text>
+    <text x="175" y="44" class="panel-sub">Hollowed Coffins, Boat Burials & Jars (NMP 2021)</text>
+    <line x1="20" y1="55" x2="330" y2="55" stroke="#e2e8f0" stroke-width="1"/>
+
+    <!-- 1. Hollowed-Log Coffin (Longon) -->
+    <g transform="translate(20, 65)">
+      <rect x="0" y="0" width="310" height="95" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+      <rect x="10" y="10" width="290" height="20" rx="3" fill="#e2e8f0"/>
+      <text x="18" y="24" class="desc-bold" style="fill:#0f172a;">1. โลงไม้ขุดเนื้อแข็งท่อนเดียว (Longon)</text>
+      <!-- Coffin Graphic -->
+      <rect x="25" y="38" width="180" height="26" rx="4" fill="#78350f" stroke="#451a03" stroke-width="1.2"/>
+      <line x1="25" y1="46" x2="205" y2="46" stroke="#b45309" stroke-width="1"/>
+      <circle cx="40" cy="51" r="3" fill="#fef08a"/>
+      <!-- Text details -->
+      <text x="215" y="48" style="font-size:9.5px; fill:#0f172a; font-weight:bold;">ฝังปฐมภูมิ (Primary)</text>
+      <text x="215" y="60" style="font-size:8.5px; fill:#475569;">ไม้โมลาเว/เคียนท่อนเดียว</text>
+      <text x="15" y="80" class="desc-text">• ขุดกลวงท่อนเดียว ฝาประกบสนิทกันอากาศ (Colin ใน Blair 1903)</text>
+      <text x="15" y="91" class="desc-text">• พบที่โอตอน (หลุม 6) และสุสานใต้ถุนเรือนวิซายัส</text>
+    </g>
+
+    <!-- 2. Boat-Shaped Coffin (Barangay Coffin) -->
+    <g transform="translate(20, 175)">
+      <rect x="0" y="0" width="310" height="105" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+      <rect x="10" y="10" width="290" height="20" rx="3" fill="#e0f2fe"/>
+      <text x="18" y="24" class="desc-bold" style="fill:#0369a1;">2. โลงไม้ขุดรูปเรือ (Boat-Coffin / Barangay)</text>
+      <!-- Boat Coffin Graphic -->
+      <path d="M 20,58 Q 50,45 110,45 Q 170,45 200,58 L 195,68 Q 170,60 110,60 Q 50,60 25,68 Z" 
+            fill="#0284c7" stroke="#0369a1" stroke-width="1.2"/>
+      <!-- Text details -->
+      <text x="210" y="52" style="font-size:9.5px; fill:#0369a1; font-weight:bold;">เรือแห่งความตาย</text>
+      <text x="210" y="64" style="font-size:8.5px; fill:#475569;">Ship of the Dead</text>
+      <text x="15" y="85" class="desc-text">• หัวเรือและท้ายเรือเชิดโค้งสูง บรรจุร่างเจ้านายพร้อมฝีพายเซ่น</text>
+      <text x="15" y="98" class="desc-text">• บันทึกโดย Plasencia (1589); พบสมบูรณ์ในพรุพีทบูตูอัน (Ambangan)</text>
+    </g>
+
+    <!-- 3. Secondary Jar Burial (Martaban/Banga) -->
+    <g transform="translate(20, 295)">
+      <rect x="0" y="0" width="310" height="105" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+      <rect x="10" y="10" width="290" height="20" rx="3" fill="#fef3c7"/>
+      <text x="18" y="24" class="desc-bold" style="fill:#b45309;">3. ประเพณีฝังศพในไห (Jar Burial Traditions)</text>
+      <!-- Jar Graphic -->
+      <path d="M 50,42 L 70,42 L 75,50 Q 85,65 80,82 Q 75,95 60,95 Q 45,95 40,82 Q 35,65 45,50 Z" 
+            fill="#d97706" stroke="#92400e" stroke-width="1.2"/>
+      <!-- Text details -->
+      <text x="95" y="52" style="font-size:9.5px; fill:#b45309; font-weight:bold;">ฝังทุติยภูมิ (Secondary)</text>
+      <text x="95" y="64" style="font-size:8.5px; fill:#475569;">ไหเครื่องเคลือบจีน/สยาม/ไหดินเผา</text>
+      <text x="15" y="85" class="desc-text">• ชำระเนื้อหนังออกแล้วบรรจุกระดูกลงในไหหินดินเผาและไหมังกร</text>
+      <text x="15" y="98" class="desc-text">• พบในถ้ำผาหินปูนคารากา, สุริเกา, กามิกิน และตาบนปาลาวัน</text>
+    </g>
+
+    <!-- Synthesis Summary Box -->
+    <g transform="translate(20, 415)">
+      <rect x="0" y="0" width="310" height="205" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="15" y="22" class="sub-header" style="fill:#0f172a;">สรุปมิติชีวโบราณคดีสู่จารีตทองคำ:</text>
+      <text x="15" y="42" class="desc-text">• <tspan class="desc-bold">ร่างกายในฐานะภูมิทัศน์ศักดิ์สิทธิ์:</tspan> การดัดกะโหลก Tangad</text>
+      <text x="15" y="57" class="desc-text">  และการฝังหมุดทอง Bansil แปลงสรีระมนุษย์ให้กลายเป็น</text>
+      <text x="15" y="72" class="desc-text">  "เทวรูปมีชีวิต" (Living Icons) ของชนชั้นนำดาตู</text>
+      
+      <text x="15" y="97" class="desc-text">• <tspan class="desc-bold">การปิดทวารสรีระด้วยทองคำ (Orifice Covers):</tspan></text>
+      <text x="15" y="112" class="desc-text">  เป็นขั้นตอนสุดท้ายในการปิดผนึก "ประตูวิญญาณ" (Dungan)</text>
+      <text x="15" y="127" class="desc-text">  เพื่อรักษาสภาพอัตลักษณ์บนใบหน้ามิให้ปีศาจรบกวน</text>
+      
+      <text x="15" y="152" class="desc-text">• <tspan class="desc-bold">การบรรจุในโลงเรือ Longon:</tspan> ยานพาหนะเดินทางสู่ปรโลก</text>
+      <text x="15" y="167" class="desc-text">  ที่ยืนยันว่าการเปลี่ยนผ่านสู่ความตายเป็นกระบวนการศักดิ์สิทธิ์</text>
+      <text x="15" y="182" class="desc-text">  ที่หล่อหลอมด้วยทองคำ ธาตุบริสุทธิ์อันเป็นนิรันดร์</text>
+    </g>
+  </g>
+
+  <!-- Watermark / Footer -->
+  <text x="1140" y="818" class="watermark">โครงการวิจัยแผ่นทองปิดศพฟิลิปปินส์และหน้ากากทองเอเชีย | คณะผู้วิจัยอาวุโส (2026)</text>
+</svg>

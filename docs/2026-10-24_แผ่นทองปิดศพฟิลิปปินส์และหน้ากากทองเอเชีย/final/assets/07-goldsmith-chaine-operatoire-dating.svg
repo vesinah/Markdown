@@ -1,0 +1,326 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 950" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+    
+    <linearGradient id="panel-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="30%" stop-color="#f59e0b"/>
+      <stop offset="70%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+
+    <linearGradient id="teal-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+
+    <linearGradient id="amber-card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2d2214"/>
+      <stop offset="100%" stop-color="#1a140b"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    
+    <filter id="glow-gold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Markers -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#f59e0b"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8"/>
+    </marker>
+  </defs>
+
+  <style>
+    .title-main { font-family: 'Sarabun', 'Noto Sans Thai', sans-serif; font-size: 26px; font-weight: bold; fill: #fef08a; }
+    .title-sub { font-family: 'Sarabun', 'Segoe UI', sans-serif; font-size: 14px; fill: #94a3b8; }
+    .panel-hdr { font-family: 'Sarabun', 'Noto Sans Thai', sans-serif; font-size: 17px; font-weight: bold; fill: #38bdf8; }
+    .step-num { font-family: 'Segoe UI', sans-serif; font-size: 15px; font-weight: bold; fill: #0b1120; }
+    .step-title { font-family: 'Sarabun', 'Noto Sans Thai', sans-serif; font-size: 15px; font-weight: bold; fill: #f59e0b; }
+    .step-desc { font-family: 'Sarabun', 'Noto Sans Thai', sans-serif; font-size: 12.5px; fill: #cbd5e1; line-height: 1.4; }
+    .step-meta { font-family: 'Sarabun', 'Noto Sans Thai', sans-serif; font-size: 11.5px; fill: #94a3b8; }
+    .tbl-hdr { font-family: 'Sarabun', 'Noto Sans Thai', sans-serif; font-size: 13px; font-weight: bold; fill: #fef08a; }
+    .tbl-cell { font-family: 'Sarabun', 'Noto Sans Thai', sans-serif; font-size: 12px; fill: #e2e8f0; }
+    .tbl-num { font-family: 'Consolas', 'Segoe UI', monospace; font-size: 12px; fill: #38bdf8; text-anchor: end; }
+    .axis-txt { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #94a3b8; }
+    .time-node { font-family: 'Sarabun', 'Noto Sans Thai', sans-serif; font-size: 12px; fill: #f8fafc; font-weight: bold; }
+    .time-sub { font-family: 'Sarabun', 'Noto Sans Thai', sans-serif; font-size: 11px; fill: #cbd5e1; }
+    .badge { font-family: 'Segoe UI', sans-serif; font-size: 10px; font-weight: bold; fill: #0f172a; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1400" height="950" fill="url(#bg-grad)"/>
+
+  <!-- Top Decorative Header Bar -->
+  <rect x="0" y="0" width="1400" height="8" fill="url(#gold-grad)"/>
+  
+  <!-- Main Title Area -->
+  <g transform="translate(50, 45)">
+    <text x="0" y="0" class="title-main">กระบวนการโลหวิทยาช่างทองโบราณ (Chaîne Opératoire) ผลการวิเคราะห์ธาตุ (XRF) และการตรวจอายุสัมบูรณ์</text>
+    <text x="0" y="24" class="title-sub">Precolonial Philippine Gold Metallurgy: Chaîne Opératoire of Panday Ginto, XRF Geochemical Fingerprinting, and Chronological Synchronization</text>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- LEFT COLUMN: CHAÎNE OPÉRATOIRE (ห่วงโซ่การผลิตช่างทอง 5 ขั้นตอน) -->
+  <!-- ========================================================================= -->
+  <g transform="translate(50, 95)">
+    <!-- Panel Backdrop -->
+    <rect width="640" height="815" rx="14" fill="url(#panel-grad)" stroke="#334155" stroke-width="1.5" filter="url(#shadow)"/>
+    
+    <!-- Panel Title Header -->
+    <rect x="20" y="16" width="600" height="38" rx="8" fill="#1e293b" stroke="#0ea5e9" stroke-width="1"/>
+    <circle cx="42" cy="35" r="9" fill="#0ea5e9"/>
+    <path d="M 37 35 L 47 35 M 42 30 L 42 40" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="62" y="41" class="panel-hdr">ห่วงโซ่การผลิตทางโลหวิทยาของช่างทองโบราณ (Chaîne Opératoire: Panday Ginto)</text>
+
+    <!-- STEP 1: Placer Sourcing & Dulangan Panning -->
+    <g transform="translate(30, 70)">
+      <rect width="580" height="130" rx="10" fill="url(#amber-card)" stroke="#b45309" stroke-width="1.2"/>
+      <rect x="16" y="14" width="28" height="28" rx="6" fill="#f59e0b"/>
+      <text x="25" y="33" class="step-num">1</text>
+      <text x="56" y="33" class="step-title">การเสาะหาแหล่งแร่และการร่อนทอง (Placer Mining &amp; Dulangan Panning)</text>
+      <line x1="56" y1="42" x2="560" y2="42" stroke="#451a03" stroke-width="1"/>
+      <text x="20" y="65" class="step-desc">• แหล่งแร่ปฐมภูมิ-ทุติยภูมิ: ลุ่มน้ำอากูซัน-ซูริเกา (มินดาเนา), เกาะปานาย, และเทือกเขาคอร์ดิลเยรา</text>
+      <text x="20" y="87" class="step-desc">• วิธีการ: ใช้ถาดไม้ทรงกลมก้นตื้น (Dulangan) ร่อนทรายทองและเกล็ดทองธรรมชาติในลำน้ำสาขา</text>
+      <text x="20" y="109" class="step-meta">หลักฐาน: บันทึก Pigafetta (1521) และ Chirino (1604) ยืนยันความอุดมสมบูรณ์ของทองคำธรรมชาติ (Placer Dust)</text>
+    </g>
+
+    <!-- Flow Arrow 1 -> 2 -->
+    <line x1="320" y1="202" x2="320" y2="216" stroke="#f59e0b" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <!-- STEP 2: Smelting & Crucible Refinement -->
+    <g transform="translate(30, 218)">
+      <rect width="580" height="130" rx="10" fill="url(#amber-card)" stroke="#b45309" stroke-width="1.2"/>
+      <rect x="16" y="14" width="28" height="28" rx="6" fill="#f59e0b"/>
+      <text x="25" y="33" class="step-num">2</text>
+      <text x="56" y="33" class="step-title">การหลอมและการชำระสิ่งเจือปน (Crucible Smelting &amp; Fire Refining)</text>
+      <line x1="56" y1="42" x2="560" y2="42" stroke="#451a03" stroke-width="1"/>
+      <text x="20" y="65" class="step-desc">• อุปกรณ์: เบ้าดินเผาทนไฟขนาดเล็ก (Clay Crucible / Kolon), เตาถ่านไม้เนื้อแข็งให้ความร้อนสูง</text>
+      <text x="20" y="87" class="step-desc">• สูบลม: กระบอกไม้ไผ่คู่แนวตั้ง (Bamboo Piston Bellows / Tulob) เป่าลมสม่ำเสมอถึงจุดหลอมเหลว (1,064°C)</text>
+      <text x="20" y="109" class="step-meta">คุณสมบัติ: หลอมเป็นแท่ง/ก้อนทองคำบริสุทธิ์สูงตามธรรมชาติ (Unparted Gold: 18k–22k/24k)</text>
+    </g>
+
+    <!-- Flow Arrow 2 -> 3 -->
+    <line x1="320" y1="350" x2="320" y2="364" stroke="#f59e0b" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <!-- STEP 3: Cold-working, Sheet Beating & Annealing -->
+    <g transform="translate(30, 366)">
+      <rect width="580" height="135" rx="10" fill="url(#amber-card)" stroke="#b45309" stroke-width="1.2"/>
+      <rect x="16" y="14" width="28" height="28" rx="6" fill="#f59e0b"/>
+      <text x="25" y="33" class="step-num">3</text>
+      <text x="56" y="33" class="step-title">การตีแผ่แผ่นบางและการอบคืนตัว (Sheet Beating &amp; Annealing Cycles)</text>
+      <line x1="56" y1="42" x2="560" y2="42" stroke="#451a03" stroke-width="1"/>
+      <text x="20" y="65" class="step-desc">• การตีขึ้นรูปเย็น (Cold-Working): ใช้ทั่งหินแม่น้ำขัดเรียบและค้อนสำริด/เหล็กขนาดเล็กตีแผ่ทอง</text>
+      <text x="20" y="87" class="step-desc">• การอบคืนตัว (Annealing): เผาไฟอ่อนซ้ำ ๆ เพื่อคืนความยืดหยุ่น ป้องกันโครงสร้างผลึกโลหะแข็งเปราะ</text>
+      <text x="20" y="109" class="step-desc">• ความหนาชิ้นงาน: ควบคุมความหนาได้บางเฉียบ 0.08–0.15 มิลลิเมตร (Foil/Leaf-thin Sheet)</text>
+    </g>
+
+    <!-- Flow Arrow 3 -> 4 -->
+    <line x1="320" y1="503" x2="320" y2="517" stroke="#f59e0b" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <!-- STEP 4: Cutting, Repoussé & Chasing -->
+    <g transform="translate(30, 519)">
+      <rect width="580" height="135" rx="10" fill="url(#amber-card)" stroke="#b45309" stroke-width="1.2"/>
+      <rect x="16" y="14" width="28" height="28" rx="6" fill="#f59e0b"/>
+      <text x="25" y="33" class="step-num">4</text>
+      <text x="56" y="33" class="step-title">การตัดขึ้นรูป การดุนนูน และการสลักลาย (Repoussé &amp; Chasing)</text>
+      <line x1="56" y1="42" x2="560" y2="42" stroke="#451a03" stroke-width="1"/>
+      <text x="20" y="65" class="step-desc">• การตัดสัณฐาน: ตัดแผ่นทองตามรูปใบไม้ (ตา), สามเหลี่ยม/แถบขวาง (จมูก), วงรี (ปาก)</text>
+      <text x="20" y="87" class="step-desc">• การดุนนูน (Repoussé): วางบนถาดชันไม้/ยางไม้ (Pitch Block) ดุนลายจุดไข่ปลาและสันนูนจากด้านหลัง</text>
+      <text x="20" y="109" class="step-desc">• การสลักเส้น (Chasing): แต่งลวดลายเรขาคณิตและลายพฤกษาจากด้านหน้า เพิ่มมิติและเงาสะท้อน</text>
+    </g>
+
+    <!-- Flow Arrow 4 -> 5 -->
+    <line x1="320" y1="656" x2="320" y2="670" stroke="#f59e0b" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <!-- STEP 5: Perforation & Mortuary Attachment -->
+    <g transform="translate(30, 672)">
+      <rect width="580" height="125" rx="10" fill="url(#amber-card)" stroke="#b45309" stroke-width="1.2"/>
+      <rect x="16" y="14" width="28" height="28" rx="6" fill="#f59e0b"/>
+      <text x="25" y="33" class="step-num">5</text>
+      <text x="56" y="33" class="step-title">การเจาะรูขอบ การยึดประกอบ และการจัดวางบนสรีระ (Perforation &amp; Placement)</text>
+      <line x1="56" y1="42" x2="560" y2="42" stroke="#451a03" stroke-width="1"/>
+      <text x="20" y="65" class="step-desc">• การเจาะรูยึด: เจาะรูขนาดเล็ก 0.5–1.0 มม. บริเวณมุมขอบแผ่นทอง (เช่น ปลายแผ่นปิดตาทั้งสองข้าง)</text>
+      <text x="20" y="87" class="step-desc">• การติดตั้ง: เย็บร้อยด้วยเส้นใยธรรมชาติเข้ากับผ้าห่อศพหรือหน้ากากโครงสาน ปิดทับทวารใบหน้าผู้ตาย</text>
+      <text x="20" y="107" class="step-meta">การค้นพบ In Situ: หลักฐานเศษตัดทองคำรอบหลุมศพโอตอนชี้ว่ามีการตัดแต่งชิ้นงานขั้นสุดท้าย ณ ที่ฝังศพ</text>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- RIGHT COLUMN: UPPER PANEL (XRF GEOCHEMICAL FINGERPRINTING) -->
+  <!-- ========================================================================= -->
+  <g transform="translate(710, 95)">
+    <rect width="640" height="425" rx="14" fill="url(#panel-grad)" stroke="#334155" stroke-width="1.5" filter="url(#shadow)"/>
+    
+    <!-- Title -->
+    <rect x="20" y="16" width="600" height="38" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1"/>
+    <circle cx="42" cy="35" r="9" fill="#38bdf8"/>
+    <text x="38" y="39" class="badge" fill="#0f172a">XRF</text>
+    <text x="62" y="41" class="panel-hdr">การวิเคราะห์องค์ประกอบธาตุ (XRF Geochemical Fingerprinting)</text>
+
+    <!-- Description Text -->
+    <text x="25" y="76" class="step-desc" fill="#cbd5e1">ผลการวิเคราะห์สเปกโทรเมตรีรังสีเอ็กซ์ฟลูออเรสเซนซ์ (XRF) บ่งชี้ว่าทองคำที่ใช้ทำแผ่นปิดทวาร</text>
+    <text x="25" y="96" class="step-desc" fill="#cbd5e1">เป็นทองคำธรรมชาติระบบสามส่วนประกอบ (Au-Ag-Cu) โดยไม่ผ่านการแยกเงินทางเคมี (Unparted Gold):</text>
+
+    <!-- Quantitative Table -->
+    <g transform="translate(20, 112)">
+      <!-- Header Row -->
+      <rect width="600" height="32" rx="6" fill="#334155"/>
+      <text x="16" y="21" class="tbl-hdr">โบราณวัตถุ / แหล่งขุดค้น</text>
+      <text x="250" y="21" class="tbl-hdr">ทองคำ (Au %)</text>
+      <text x="360" y="21" class="tbl-hdr">เงิน (Ag %)</text>
+      <text x="470" y="21" class="tbl-hdr">ทองแดง (Cu %)</text>
+      <text x="585" y="21" class="tbl-hdr" text-anchor="end">กะรัต (Karat)</text>
+
+      <!-- Row 1: Oton Eye Cover -->
+      <rect y="36" width="600" height="30" fill="#1e293b"/>
+      <text x="16" y="56" class="tbl-cell">แผ่นปิดตาโอตอน (OT-MD-39)</text>
+      <text x="285" y="56" class="tbl-num">89.4%</text>
+      <text x="395" y="56" class="tbl-num">8.2%</text>
+      <text x="505" y="56" class="tbl-num">1.8%</text>
+      <text x="585" y="56" class="tbl-num" fill="#f59e0b">21.5k</text>
+
+      <!-- Row 2: Oton Nose Cover -->
+      <rect y="68" width="600" height="30" fill="#0f172a"/>
+      <text x="16" y="88" class="tbl-cell">แผ่นปิดจมูกโอตอน (OT-MF-40)</text>
+      <text x="285" y="88" class="tbl-num">90.8%</text>
+      <text x="395" y="88" class="tbl-num">7.3%</text>
+      <text x="505" y="88" class="tbl-num">1.5%</text>
+      <text x="585" y="88" class="tbl-num" fill="#f59e0b">21.8k</text>
+
+      <!-- Row 3: Butuan Sheet -->
+      <rect y="100" width="600" height="30" fill="#1e293b"/>
+      <text x="16" y="120" class="tbl-cell">แผ่นทองสุสานซูอาตัน บูตูอัน</text>
+      <text x="285" y="120" class="tbl-num">87.2%</text>
+      <text x="395" y="120" class="tbl-num">10.1%</text>
+      <text x="505" y="120" class="tbl-num">2.2%</text>
+      <text x="585" y="120" class="tbl-num" fill="#f59e0b">20.9k</text>
+
+      <!-- Row 4: Cebu Orifice Set -->
+      <rect y="132" width="600" height="30" fill="#0f172a"/>
+      <text x="16" y="152" class="tbl-cell">ชุดแผ่นปิดทวาร ปลาซาอินเดเปนเดนเซีย</text>
+      <text x="285" y="152" class="tbl-num">88.6%</text>
+      <text x="395" y="152" class="tbl-num">8.9%</text>
+      <text x="505" y="152" class="tbl-num">1.9%</text>
+      <text x="585" y="152" class="tbl-num" fill="#f59e0b">21.3k</text>
+
+      <!-- Row 5: Native Surigao Placer -->
+      <rect y="164" width="600" height="30" fill="#1e293b"/>
+      <text x="16" y="184" class="tbl-cell" fill="#94a3b8">ทองธรรมชาติลุ่มน้ำซูริเกา/อากูซัน</text>
+      <text x="285" y="184" class="tbl-num" fill="#94a3b8">85–92%</text>
+      <text x="395" y="184" class="tbl-num" fill="#94a3b8">6–12%</text>
+      <text x="505" y="184" class="tbl-num" fill="#94a3b8">1–3%</text>
+      <text x="585" y="184" class="tbl-num" fill="#94a3b8">20–22k</text>
+    </g>
+
+    <!-- Archaeometry Insights Box -->
+    <g transform="translate(20, 320)">
+      <rect width="600" height="85" rx="8" fill="#182234" stroke="#0284c7" stroke-width="1"/>
+      <text x="16" y="24" class="step-title" fill="#38bdf8">ข้อค้นพบสำคัญทางเคมีธรณีวิทยา (Geochemical Insights):</text>
+      <text x="16" y="46" class="step-desc">• ลายพิมพ์ธาตุยืนยันว่า แผ่นทองคำปิดศพทั้งหมดใช้วัตถุดิบท้องถิ่นในหมู่เกาะฟิลิปปินส์ มิได้นำเข้าแผ่นทองสำเร็จรูป</text>
+      <text x="16" y="66" class="step-desc">• อัตราส่วนความบริสุทธิ์สูงถึง 20–22 กะรัต เป็นความจงใจเลือกใช้เนื้อทองที่อ่อนตัวสูง เหมาะกับการตีแผ่เป็นแผ่นบาง</text>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- RIGHT COLUMN: LOWER PANEL (CHRONOLOGY & SCIENTIFIC DATING) -->
+  <!-- ========================================================================= -->
+  <g transform="translate(710, 535)">
+    <rect width="640" height="375" rx="14" fill="url(#panel-grad)" stroke="#334155" stroke-width="1.5" filter="url(#shadow)"/>
+    
+    <!-- Title -->
+    <rect x="20" y="16" width="600" height="38" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1"/>
+    <circle cx="42" cy="35" r="9" fill="#10b981"/>
+    <text x="37" y="39" class="badge" fill="#0f172a">C14</text>
+    <text x="62" y="41" class="panel-hdr" fill="#34d399">การตรวจอายุสัมบูรณ์ (AMS C-14) และลำดับเวลาสัมพัทธ์</text>
+
+    <!-- Timeline Graphic Base -->
+    <g transform="translate(30, 75)">
+      <!-- Axis Line -->
+      <line x1="30" y1="130" x2="550" y2="130" stroke="#475569" stroke-width="3"/>
+      
+      <!-- Axis Ticks & Labels -->
+      <g stroke="#64748b" stroke-width="2">
+        <line x1="50" y1="124" x2="50" y2="136"/>
+        <line x1="150" y1="124" x2="150" y2="136"/>
+        <line x1="250" y1="124" x2="250" y2="136"/>
+        <line x1="350" y1="124" x2="350" y2="136"/>
+        <line x1="450" y1="124" x2="450" y2="136"/>
+        <line x1="530" y1="124" x2="530" y2="136"/>
+      </g>
+      <text x="50" y="154" class="axis-txt" text-anchor="middle">ค.ศ. 900</text>
+      <text x="150" y="154" class="axis-txt" text-anchor="middle">1100</text>
+      <text x="250" y="154" class="axis-txt" text-anchor="middle">1300</text>
+      <text x="350" y="154" class="axis-txt" text-anchor="middle">1400</text>
+      <text x="450" y="154" class="axis-txt" text-anchor="middle">1500</text>
+      <text x="530" y="154" class="axis-txt" text-anchor="middle">1600 (สเปน)</text>
+
+      <!-- Horizon 1: Butuan Horizon (900-1200 CE) -->
+      <g transform="translate(50, 20)">
+        <rect width="180" height="85" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1.2"/>
+        <text x="12" y="20" class="time-node" fill="#fef08a">ขอบฟ้าบูตูอัน (Butuan)</text>
+        <text x="12" y="38" class="time-sub">ค.ศ. 900 – 1200 (AMS C-14)</text>
+        <text x="12" y="55" class="step-desc" font-size="11px">• โลงไม้รูปเรืออัมบังกัน/ซูอาตัน</text>
+        <text x="12" y="72" class="step-desc" font-size="11px">• แผ่นทองเรียบขัดเงา + ซ่ง 5 สี่เหลี่ยม</text>
+        <!-- Arrow to axis -->
+        <line x1="90" y1="85" x2="90" y2="110" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="3,3"/>
+        <circle cx="90" cy="110" r="4" fill="#f59e0b"/>
+      </g>
+
+      <!-- Horizon 2: Oton & Cebu Horizon (1300-1500 CE) -->
+      <g transform="translate(250, 20)">
+        <rect width="190" height="85" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2"/>
+        <text x="12" y="20" class="time-node" fill="#38bdf8">ขอบฟ้าโอตอน &amp; เซบู</text>
+        <text x="12" y="38" class="time-sub">ค.ศ. 1300 – 1500 (Early Ming / หยวน)</text>
+        <text x="12" y="55" class="step-desc" font-size="11px">• หน้ากากฉลุลายจุดไข่ปลาโอตอน</text>
+        <text x="12" y="72" class="step-desc" font-size="11px">• ชุดปิด 3 ทวารเซบู + สวรรคโลก</text>
+        <!-- Arrow to axis -->
+        <line x1="100" y1="85" x2="100" y2="110" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3,3"/>
+        <circle cx="100" cy="110" r="4" fill="#38bdf8"/>
+      </g>
+
+      <!-- Horizon 3: Spanish Colonial Contact (1521-1604 CE) -->
+      <g transform="translate(455, 20)">
+        <rect width="115" height="85" rx="6" fill="#1e293b" stroke="#ef4444" stroke-width="1.2"/>
+        <text x="8" y="20" class="time-node" fill="#f87171" font-size="11px">จดหมายเหตุสเปน</text>
+        <text x="8" y="38" class="time-sub" font-size="10px">1521 – 1604 CE</text>
+        <text x="8" y="55" class="step-desc" font-size="10px">• Pigafetta (1521)</text>
+        <text x="8" y="72" class="step-desc" font-size="10px">• Chirino (1604)</text>
+        <!-- Arrow to axis -->
+        <line x1="58" y1="85" x2="58" y2="110" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,3"/>
+        <circle cx="58" cy="110" r="4" fill="#ef4444"/>
+      </g>
+
+      <!-- Dating Methodology Summary -->
+      <g transform="translate(0, 180)">
+        <rect width="580" height="90" rx="8" fill="#182234" stroke="#10b981" stroke-width="1"/>
+        <text x="16" y="22" class="step-title" fill="#34d399">ข้อจำกัดและวิธีการตรวจอายุทางวิทยาศาสตร์:</text>
+        <text x="16" y="44" class="step-desc">• ทองคำเป็นโลหะบริสุทธิ์ไม่สามารถหาอายุด้วยคาร์บอน-14 โดยตรงได้</text>
+        <text x="16" y="62" class="step-desc">• ต้องใช้การหาอายุทางอ้อมจากอินทรียวัตถุร่วมบริบท (ไม้โลงศพ, เถ้าถ่าน, โครงกระดูก) ด้วยเทคนิค AMS C-14</text>
+        <text x="16" y="80" class="step-desc">• สอดประสานกับการเทียบอายุสัมพัทธ์ (Relative Dating) จากเครื่องถ้วยจีนราชวงศ์ซ่ง-หยวน-หมิงต้น</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Footer Citation -->
+  <g transform="translate(50, 930)">
+    <text x="0" y="0" class="step-meta">แผนภาพที่ 7.1: กระบวนการโลหวิทยาช่างทองโบราณ ผลการวิเคราะห์ธาตุ และการตรวจอายุทางวิทยาศาสตร์ (จัดทำโดยคณะผู้วิจัย, 2026; อ้างอิง Guy 2011; Estrella 2016; Canilao 2023; Scott 1994; Ronquillo 1987)</text>
+  </g>
+</svg>

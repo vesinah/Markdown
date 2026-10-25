@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1650 1100" font-family="sans-serif">
+  <rect width="1650" height="1100" fill="#faf8f2"/>
+  <text x="825" y="54" text-anchor="middle" font-size="38" font-weight="bold" fill="#3a2e1f">คติความเชื่อ ทวารของร่าง และการเดินทางของวิญญาณ</text>
+  <text x="825" y="92" text-anchor="middle" font-size="20" fill="#5a4a35">สังเคราะห์จากจดหมายเหตุสเปน-โปรตุเกส หลักฐานชาติพันธุ์วิทยาซูโลด และบันทึกสถาบัน — ตามเอกสารเท่านั้น</text>
+
+  <!-- ซ้าย: ร่าง-ทวาร-แผ่นทอง -->
+  <rect x="70" y="130" width="480" height="560" rx="14" fill="#fdf6e0" stroke="#8a6d2f" stroke-width="2"/>
+  <text x="310" y="170" text-anchor="middle" font-size="23" font-weight="bold" fill="#6b4f1d">ร่างผู้ตายและทวารที่ต้องผนึก</text>
+  <circle cx="310" cy="320" r="95" fill="#f7e7b8" stroke="#a67c1e" stroke-width="3"/>
+  <ellipse cx="275" cy="298" rx="28" ry="13" fill="#d4a017"/><ellipse cx="345" cy="298" rx="28" ry="13" fill="#d4a017"/>
+  <path d="M 295 330 Q 310 348 325 330" stroke="#d4a017" stroke-width="7" fill="none"/>
+  <rect x="272" y="368" width="76" height="18" rx="7" fill="#d4a017"/>
+  <text x="310" y="452" text-anchor="middle" font-size="18" font-weight="bold" fill="#6b4f1d">ตา / จมูก / ปาก = ประตูร่าง</text>
+  <g font-size="17" fill="#4a3a20">
+    <text x="310" y="492" text-anchor="middle">วิญญาณร้ายต้องการ "เข้าสิงร่างผู้ตาย" (NMP)</text>
+    <text x="310" y="524" text-anchor="middle">สารเคลือบศพฉีด "ทางปาก" ซึมทั่วร่าง (ชิรีโน 1604)</text>
+    <text x="310" y="556" text-anchor="middle">พ่อมดแตะโลง = โลงแตก ต้องเฝ้าด้วยไฟ-อาวุธ (โลอาร์กา 1582)</text>
+    <text x="310" y="588" text-anchor="middle">แผ่นทองบริสุทธิ์ = ตัวผนึกประตูร่างชั้นสูงสุด</text>
+    <text x="310" y="620" text-anchor="middle">"ปกป้องผู้ตาย และอาจปกป้องคนเป็นด้วย" (CCP)</text>
+    <text x="310" y="652" text-anchor="middle">ทอง = สถานะ: ผู้สูงศักดิ์ฝังทอง "มากที่สุดเท่าที่ทำได้" (NMP)</text>
+  </g>
+
+  <!-- ขวา: การเดินทางวิญญาณซูโลด -->
+  <rect x="580" y="130" width="1000" height="560" rx="14" fill="#eef2e4" stroke="#5f7d4a" stroke-width="2"/>
+  <text x="1080" y="170" text-anchor="middle" font-size="23" font-weight="bold" fill="#3c5530">การเดินทางของวิญญาณซูโลด (โจคาโน 1964)</text>
+  <!-- สถานี 1 บ้าน -->
+  <rect x="620" y="220" width="200" height="150" rx="12" fill="#f8faf2" stroke="#7d9a68" stroke-width="2"/>
+  <text x="720" y="258" text-anchor="middle" font-size="19" font-weight="bold" fill="#3c5530">1. บ้าน</text>
+  <text x="720" y="288" text-anchor="middle" font-size="16" fill="#2e4430">ล้าง-รมกำยาน-แต่งกายดีสุด</text>
+  <text x="720" y="314" text-anchor="middle" font-size="16" fill="#2e4430">ไว้ทุกข์ 3 วัน + หีบเสื้อผ้า</text>
+  <text x="720" y="340" text-anchor="middle" font-size="16" fill="#2e4430">(ชิรีโน; เชิงอรรธริซัล)</text>
+  <!-- สถานี 2 โลง -->
+  <rect x="880" y="220" width="200" height="150" rx="12" fill="#f8faf2" stroke="#7d9a68" stroke-width="2"/>
+  <text x="980" y="258" text-anchor="middle" font-size="19" font-weight="bold" fill="#3c5530">2. โลง/เรือ</text>
+  <text x="980" y="288" text-anchor="middle" font-size="16" fill="#2e4430">วิญญาณ "ขี่โลงของตัวเอง"</text>
+  <text x="980" y="314" text-anchor="middle" font-size="16" fill="#2e4430">บรรพบุรุษล่องลอยเป็นข้าราชสำนัก</text>
+  <text x="980" y="340" text-anchor="middle" font-size="16" fill="#2e4430">(โจคาโน 1964)</text>
+  <!-- สถานี 3 แม่น้ำ -->
+  <rect x="1140" y="220" width="200" height="150" rx="12" fill="#fdecec" stroke="#b06060" stroke-width="2"/>
+  <text x="1240" y="258" text-anchor="middle" font-size="19" font-weight="bold" fill="#7a2e2e">3. แม่น้ำมาฮีกาวอน</text>
+  <text x="1240" y="288" text-anchor="middle" font-size="16" fill="#7a2e2e">วิญญาณร้ายกินผู้มาใหม่</text>
+  <text x="1240" y="314" text-anchor="middle" font-size="16" fill="#7a2e2e">ต้องบวงสรวงก่อนเดินทาง</text>
+  <text x="1240" y="340" text-anchor="middle" font-size="16" fill="#7a2e2e">(โจคาโน 1964)</text>
+  <!-- สถานี 4 มูรูบูรู -->
+  <rect x="1400" y="220" width="160" height="150" rx="12" fill="#e8f0f7" stroke="#4a6d8c" stroke-width="2"/>
+  <text x="1480" y="258" text-anchor="middle" font-size="19" font-weight="bold" fill="#2e4a63">4. มูรูบูรู</text>
+  <text x="1480" y="288" text-anchor="middle" font-size="16" fill="#2e4a63">ถอดเครื่องแต่งพิธีศพ</text>
+  <text x="1480" y="314" text-anchor="middle" font-size="16" fill="#2e4a63">อาบน้ำล้างกลิ่นชีวิตเดิม</text>
+  <text x="1480" y="340" text-anchor="middle" font-size="16" fill="#2e4a63">(โจคาโน 1964)</text>
+  <!-- ลูกศรเส้นทางบน -->
+  <g stroke="#5f7d4a" stroke-width="3" fill="#5f7d4a">
+    <line x1="822" y1="295" x2="874" y2="295"/><path d="M874,289 L888,295 L874,301 Z"/>
+    <line x1="1082" y1="295" x2="1134" y2="295"/><path d="M1134,289 L1148,295 L1134,301 Z"/>
+    <line x1="1342" y1="295" x2="1394" y2="295"/><path d="M1394,289 L1408,295 L1394,301 Z"/>
+  </g>
+  <!-- สถานี 5 มัดยาอัส -->
+  <path d="M 900 640 L 1010 480 L 1120 520 L 1250 450 L 1360 640 Z" fill="#dfe9d4" stroke="#5f7d4a" stroke-width="3"/>
+  <text x="1130" y="500" text-anchor="middle" font-size="20" font-weight="bold" fill="#3c5530">5. ยอดมัดยาอัส</text>
+  <text x="1130" y="530" text-anchor="middle" font-size="16" fill="#2e4430">แดนผู้ตาย แบ่งสองแห่ง: ชาวเขา / ชาวที่ราบ</text>
+  <text x="1130" y="556" text-anchor="middle" font-size="16" fill="#2e4430">มีการชุมนุมทางสังคม — วิญญาณต้องแต่งกายดี</text>
+  <text x="1130" y="582" text-anchor="middle" font-size="16" fill="#2e4430">มิฉะนั้น "กลับมาหลอกหลอนคนเป็น" (โจคาโน)</text>
+  <line x1="1480" y1="372" x2="1300" y2="470" stroke="#5f7d4a" stroke-width="3" stroke-dasharray="8 6"/>
+  <path d="M1306,458 L1290,478 L1314,480 Z" fill="#5f7d4a"/>
+
+  <!-- แถบวงจรพิธี 8 สถานี -->
+  <rect x="70" y="710" width="1510" height="200" rx="14" fill="#f6ece0" stroke="#8a6d2f" stroke-width="2"/>
+  <text x="110" y="748" font-size="22" font-weight="bold" fill="#6b4f1d">วงจรพิธีมรณกรรม 8 สถานี (สังเคราะห์จากจดหมายเหตุ 5 ชุด)</text>
+  <g font-size="16" fill="#4a3a20">
+    <rect x="100" y="770" width="165" height="56" rx="8" fill="#fffbe8" stroke="#c9a227"/><text x="182" y="794" text-anchor="middle">1. ล้าง+รมกำยาน</text><text x="182" y="816" text-anchor="middle" font-size="14" fill="#8a7350">(ชิรีโน 1604)</text>
+    <rect x="280" y="770" width="165" height="56" rx="8" fill="#fffbe8" stroke="#c9a227"/><text x="362" y="794" text-anchor="middle">2. แต่งกาย+ทองในปาก</text><text x="362" y="816" text-anchor="middle" font-size="14" fill="#8a7350">(ชิรีโน; ริซัล)</text>
+    <rect x="460" y="770" width="165" height="56" rx="8" fill="#fffbe8" stroke="#c9a227"/><text x="542" y="794" text-anchor="middle">3. ไว้ทุกข์ 3 วัน</text><text x="542" y="816" text-anchor="middle" font-size="14" fill="#8a7350">(ชิรีโน; ริซัล)</text>
+    <rect x="640" y="770" width="165" height="56" rx="8" fill="#fffbe8" stroke="#c9a227"/><text x="722" y="794" text-anchor="middle">4. เฝ้าไฟ+อาวุธ</text><text x="722" y="816" text-anchor="middle" font-size="14" fill="#8a7350">(โลอาร์กา 1582)</text>
+    <rect x="820" y="770" width="165" height="56" rx="8" fill="#fffbe8" stroke="#c9a227"/><text x="902" y="794" text-anchor="middle">5. ฝังใน/ใต้บ้าน</text><text x="902" y="816" text-anchor="middle" font-size="14" fill="#8a7350">(มอร์กา 1609)</text>
+    <rect x="1000" y="770" width="165" height="56" rx="8" fill="#fffbe8" stroke="#c9a227"/><text x="1082" y="794" text-anchor="middle">6. หีบเสื้อผ้า+อาหาร</text><text x="1082" y="816" text-anchor="middle" font-size="14" fill="#8a7350">(ชิรีโน; ริซัล)</text>
+    <rect x="1180" y="770" width="165" height="56" rx="8" fill="#fffbe8" stroke="#c9a227"/><text x="1262" y="794" text-anchor="middle">7. งานเลี้ยงตามชั้นผู้ตาย</text><text x="1262" y="816" text-anchor="middle" font-size="14" fill="#8a7350">(มอร์กา; ชิรีโน; โคลิน)</text>
+    <rect x="1360" y="770" width="190" height="56" rx="8" fill="#fffbe8" stroke="#c9a227"/><text x="1455" y="794" text-anchor="middle">8. อุทิศทาส/เรือพาย (ชั้นสูงสุด)</text><text x="1455" y="816" text-anchor="middle" font-size="14" fill="#8a7350">(โลอาร์กา; ชิรีโน)</text>
+    <text x="825" y="880" text-anchor="middle" fill="#7a5a2e" font-style="italic">ตำแหน่งแผ่นทองปิดทวารอยู่กึ่งกลางวงจร: ระหว่างสถานี 2 (แต่งร่าง) กับสถานี 5 (การฝัง) — และทำหน้าที่ต่อเนื่องจนถึงสถานีปลายทางของวิญญาณ</text>
+  </g>
+
+  <rect x="0" y="940" width="1650" height="160" fill="#efe8d8"/>
+  <text x="825" y="978" text-anchor="middle" font-size="17" fill="#4a3a20">ที่มาข้อมูล: Morga, Sucesos de las Islas Filipinas (1609) ฉบับพิมพ์แรกสแกนดั้งเดิม + คำแปล B&amp;R vol.16 (1903) พร้อมเชิงอรรธริซัล; Pigafetta (1524) ใน B&amp;R vol.33;</text>
+  <text x="825" y="1006" text-anchor="middle" font-size="17" fill="#4a3a20">Loarca (1582) ใน B&amp;R vol.5; Chirino, Relación (1604) ฉบับสเปนดั้งเดิม; Colin, Labor evangélica (1663); Scott, Barangay (1994); Jocano, Philippine Studies 12/1 (1964) และ 6/4 (1958);</text>
+  <text x="825" y="1034" text-anchor="middle" font-size="17" fill="#4a3a20">Fox, The Tabon Caves (1970); Vitales, Terra Australis 39 (2013); NMP Oton Gold Death Mask Gallery; Benitez-Johannot, CCP Encyclopedia Digital Edition (2020); Jocano, Philippine Prehistory (1975). หมายเหตุ: สัดส่วนภาพเป็นแผนภาพเชิงสัญลักษณ์ มิใช่แผนที่ตามมาตราส่วน</text>
+</svg>

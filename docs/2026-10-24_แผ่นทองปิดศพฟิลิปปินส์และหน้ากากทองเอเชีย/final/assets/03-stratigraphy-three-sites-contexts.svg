@@ -1,0 +1,337 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="100%" height="100%">
+  <defs>
+    <style>
+      .title { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #1e293b; }
+      .subtitle { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 14px; fill: #64748b; }
+      .col-header { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #0f172a; text-anchor: middle; }
+      .col-sub { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; fill: #475569; text-anchor: middle; }
+      .layer-title { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #0f172a; }
+      .layer-desc { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 11px; fill: #334155; }
+      .gold-tag { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 11px; font-weight: bold; fill: #b45309; }
+      .axis-label { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: bold; fill: #475569; }
+      .axis-num { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 11px; fill: #64748b; text-anchor: end; }
+      .legend-text { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; fill: #1e293b; }
+      .watermark { font-family: 'Sarabun', 'Helvetica Neue', Arial, sans-serif; font-size: 11px; fill: #94a3b8; text-anchor: end; }
+    </style>
+    
+    <!-- Patterns -->
+    <pattern id="pat-topsoil" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#f1f5f9"/>
+      <path d="M 0,10 L 20,10 M 10,0 L 10,20" stroke="#cbd5e1" stroke-width="0.5"/>
+      <circle cx="5" cy="5" r="1" fill="#94a3b8"/>
+      <circle cx="15" cy="15" r="1" fill="#94a3b8"/>
+    </pattern>
+
+    <pattern id="pat-sand" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#fef3c7" opacity="0.6"/>
+      <circle cx="3" cy="3" r="0.8" fill="#d97706" opacity="0.5"/>
+      <circle cx="11" cy="6" r="0.8" fill="#d97706" opacity="0.5"/>
+      <circle cx="7" cy="12" r="0.8" fill="#d97706" opacity="0.5"/>
+      <circle cx="14" cy="14" r="0.8" fill="#d97706" opacity="0.5"/>
+    </pattern>
+
+    <pattern id="pat-peat" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect width="24" height="24" fill="#e2e8f0"/>
+      <path d="M 0,6 Q 6,3 12,6 T 24,6 M 0,18 Q 6,15 12,18 T 24,18" stroke="#64748b" stroke-width="0.8" fill="none"/>
+    </pattern>
+
+    <pattern id="pat-burial-gold" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#fef9c3"/>
+      <circle cx="10" cy="10" r="2" fill="#eab308" opacity="0.8"/>
+      <path d="M 2,2 L 18,18 M 2,18 L 18,2" stroke="#fef08a" stroke-width="0.5"/>
+    </pattern>
+
+    <pattern id="pat-coral" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#e0f2fe"/>
+      <circle cx="6" cy="6" r="3" stroke="#38bdf8" stroke-width="0.8" fill="none"/>
+      <circle cx="15" cy="15" r="4" stroke="#38bdf8" stroke-width="0.8" fill="none"/>
+      <circle cx="16" cy="4" r="1.5" stroke="#38bdf8" stroke-width="0.8" fill="none"/>
+    </pattern>
+    
+    <!-- Linear Gradients -->
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <rect x="20" y="20" width="1160" height="810" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#shadow)"/>
+
+  <!-- Header Section -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="6" height="50" rx="3" fill="#d97706"/>
+    <text x="18" y="26" class="title">ผังเปรียบเทียบลำดับชั้นดินทางโบราณคดีสามแหล่งแกนกลาง (Comparative Stratigraphic Profiles)</text>
+    <text x="18" y="48" class="subtitle">บริบททางธรณีสัณฐาน ชั้นวัฒนธรรม และตำแหน่งการฝังศพพร้อมแผ่นทองปิดทวารสรีระ: โอตอน (ปานาย), บูตูอัน (มินดาเนา), และเซบู (วิซายัสกลาง)</text>
+  </g>
+
+  <!-- Depth & Chronology Axis (Left) -->
+  <g transform="translate(60, 140)">
+    <!-- Axis background line -->
+    <line x1="60" y1="50" x2="60" y2="600" stroke="#94a3b8" stroke-width="2"/>
+    <text x="35" y="30" class="axis-label" text-anchor="middle">ความลึก (m)</text>
+    <text x="35" y="44" class="axis-label" style="font-size:10px; font-weight:normal; fill:#64748b;" text-anchor="middle">Depth (m)</text>
+
+    <!-- Ticks and Numbers -->
+    <!-- 0.0 m -->
+    <line x1="50" y1="50" x2="70" y2="50" stroke="#475569" stroke-width="2"/>
+    <text x="45" y="54" class="axis-num">0.0 m</text>
+    <text x="45" y="68" class="axis-num" style="font-size:9px; fill:#94a3b8;">ปัจจุบัน</text>
+
+    <!-- 1.0 m -->
+    <line x1="53" y1="187" x2="67" y2="187" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="45" y="191" class="axis-num">1.0 m</text>
+
+    <!-- 1.5 m (Burial Level) -->
+    <line x1="50" y1="256" x2="70" y2="256" stroke="#d97706" stroke-width="2"/>
+    <text x="45" y="260" class="axis-num" style="fill:#d97706; font-weight:bold;">1.5 m</text>
+    <text x="45" y="274" class="axis-num" style="font-size:9px; fill:#d97706;">ศตวรรษ 14-15</text>
+
+    <!-- 2.0 m -->
+    <line x1="53" y1="325" x2="67" y2="325" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="45" y="329" class="axis-num">2.0 m</text>
+
+    <!-- 3.0 m -->
+    <line x1="53" y1="462" x2="67" y2="462" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="45" y="466" class="axis-num">3.0 m</text>
+    <text x="45" y="480" class="axis-num" style="font-size:9px; fill:#94a3b8;">ศตวรรษ 10-12</text>
+
+    <!-- 4.0 m -->
+    <line x1="50" y1="600" x2="70" y2="600" stroke="#475569" stroke-width="2"/>
+    <text x="45" y="604" class="axis-num">4.0 m</text>
+    <text x="45" y="618" class="axis-num" style="font-size:9px; fill:#94a3b8;">ชั้นดินดั้งเดิม</text>
+
+    <!-- Grid lines extending right -->
+    <line x1="70" y1="50" x2="1080" y2="50" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4 4"/>
+    <line x1="70" y1="187" x2="1080" y2="187" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4 4"/>
+    <line x1="70" y1="256" x2="1080" y2="256" stroke="#fde68a" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <line x1="70" y1="325" x2="1080" y2="325" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4 4"/>
+    <line x1="70" y1="462" x2="1080" y2="462" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4 4"/>
+    <line x1="70" y1="600" x2="1080" y2="600" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4 4"/>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- COLUMN 1: OTON (ILOILO)                    -->
+  <!-- ========================================== -->
+  <g transform="translate(160, 140)">
+    <!-- Column Header -->
+    <rect x="0" y="0" width="280" height="42" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="140" y="24" class="col-header">1. โอตอน (Oton, Iloilo)</text>
+    <text x="140" y="38" class="col-sub">แหล่งซานอันโตนิโอ (San Antonio Site)</text>
+
+    <!-- Column Stratigraphy Container -->
+    <!-- Total Height = 550px for 4.0m -> Scale: 137.5 px per meter -->
+    <!-- 0.0 - 0.4 m (Height: 55px): Layer I Topsoil -->
+    <g transform="translate(0, 50)">
+      <rect x="0" y="0" width="280" height="55" fill="url(#pat-topsoil)" stroke="#94a3b8" stroke-width="1.2"/>
+      <rect x="8" y="8" width="160" height="18" rx="4" fill="#ffffff" opacity="0.9"/>
+      <text x="14" y="21" class="layer-title">ชั้นที่ 1: ผิวดินทรายปนฮิวมัส (0.0-0.4m)</text>
+      <text x="14" y="36" class="layer-desc">ตะกอนทรายสมัยใหม่ เศษกระเบื้องและภาชนะดินเผา</text>
+    </g>
+
+    <!-- 0.4 - 1.0 m (Height: 82px): Layer II Early Spanish Colonial -->
+    <g transform="translate(0, 105)">
+      <rect x="0" y="0" width="280" height="82" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.2"/>
+      <rect x="8" y="8" width="190" height="18" rx="4" fill="#ffffff" opacity="0.9"/>
+      <text x="14" y="21" class="layer-title">ชั้นที่ 2: ชั้นวัฒนธรรมสเปนตอนต้น (0.4-1.0m)</text>
+      <text x="14" y="38" class="layer-desc">ศตวรรษที่ 16–17: เครื่องดินเผาท้องถิ่น เครื่องเคลือบจีนหมิง</text>
+      <text x="14" y="54" class="layer-desc">และร่องรอยการตั้งถิ่นฐานยุคต้นอาณานิคมสเปน</text>
+    </g>
+
+    <!-- 1.0 - 1.8 m (Height: 110px): Layer III Precolonial Burial Horizon (THE GOLD HORIZON) -->
+    <g transform="translate(0, 187)">
+      <rect x="0" y="0" width="280" height="110" fill="url(#pat-burial-gold)" stroke="#d97706" stroke-width="2.5"/>
+      <!-- Highlight Tag -->
+      <rect x="8" y="8" width="264" height="22" rx="4" fill="#d97706"/>
+      <text x="14" y="23" style="font-family:'Sarabun', sans-serif; font-size:12px; font-weight:bold; fill:#ffffff;">ชั้นที่ 3: ชั้นฝังศพยุคก่อนอาณานิคม (1.0-1.8m)</text>
+      
+      <!-- Burial feature icon / box -->
+      <rect x="10" y="36" width="260" height="66" rx="4" fill="#ffffff" opacity="0.92" stroke="#fcd34d" stroke-width="1"/>
+      <text x="18" y="52" class="gold-tag">✦ หลุมฝังศพหมายเลข 6 (Burial No. 6, 1967)</text>
+      <text x="18" y="68" class="layer-desc">• โลงไม้ขุดเนื้อแข็ง (Longon) กะโหลกดัดลาด (Tangad)</text>
+      <text x="18" y="82" class="layer-desc">• หน้ากากทองโอตอน: แผ่นปิดตาดุนลาย + แผ่นปิดจมูกซาลาก็อต</text>
+      <text x="18" y="96" class="layer-desc">• โบราณวัตถุร่วม: จานเซลัดอนเตาหลงเฉวียน (ซ่งใต้-หยวน)</text>
+    </g>
+
+    <!-- 1.8 - 4.0 m (Height: 303px): Layer IV Sterile Marine Beach Sand -->
+    <g transform="translate(0, 297)">
+      <rect x="0" y="0" width="280" height="303" fill="url(#pat-sand)" stroke="#94a3b8" stroke-width="1.2"/>
+      <rect x="8" y="12" width="200" height="18" rx="4" fill="#ffffff" opacity="0.9"/>
+      <text x="14" y="25" class="layer-title">ชั้นที่ 4: สันทรายชายหาดโบราณ (1.8-4.0m)</text>
+      <text x="14" y="44" class="layer-desc">ชั้นทรายทะเลเม็ดหยาบปนเศษเปลือกหอย (Sterile Sand)</text>
+      <text x="14" y="60" class="layer-desc">เกิดจากการสะสมตัวของสันทรายชายฝั่งช่องแคบกิมาราส</text>
+      <text x="14" y="76" class="layer-desc">ไม่มีหลักฐานกิจกรรมทางวัฒนธรรมของมนุษย์</text>
+
+      <!-- Geomorphology note box -->
+      <rect x="10" y="210" width="260" height="80" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+      <text x="20" y="230" style="font-family:'Sarabun', sans-serif; font-size:11px; font-weight:bold; fill:#92400e;">สรุประบบนิเวศน์ธรณีสัณฐานโอตอน:</text>
+      <text x="20" y="246" style="font-family:'Sarabun', sans-serif; font-size:10.5px; fill:#78350f;">• ชัยภูมิสันทรายชายฝั่งช่องแคบกิมาราสระบายน้ำดี</text>
+      <text x="20" y="260" style="font-family:'Sarabun', sans-serif; font-size:10.5px; fill:#78350f;">• ดินดอนสามเหลี่ยมแม่น้ำฮาเลาอร์และตีกุม</text>
+      <text x="20" y="274" style="font-family:'Sarabun', sans-serif; font-size:10.5px; fill:#78350f;">• เชื่อมโยงเทือกเขามัดยาอัสสู่เครือข่ายพาณิชย์นาวี</text>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- COLUMN 2: BUTUAN (AGUSAN DEL NORTE)        -->
+  <!-- ========================================== -->
+  <g transform="translate(470, 140)">
+    <!-- Column Header -->
+    <rect x="0" y="0" width="280" height="42" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="140" y="24" class="col-header">2. บูตูอัน (Butuan, Agusan)</text>
+    <text x="140" y="38" class="col-sub">แหล่งอัมบางันและลิเบอร์ตาด (Ambangan Site)</text>
+
+    <!-- Column Stratigraphy Container -->
+    <!-- 0.0 - 0.5 m (Height: 69px): Layer I Modern Floodplain Alluvium -->
+    <g transform="translate(0, 50)">
+      <rect x="0" y="0" width="280" height="69" fill="url(#pat-topsoil)" stroke="#94a3b8" stroke-width="1.2"/>
+      <rect x="8" y="8" width="180" height="18" rx="4" fill="#ffffff" opacity="0.9"/>
+      <text x="14" y="21" class="layer-title">ชั้นที่ 1: ตะกอนน้ำพาน้ำท่วมถึง (0.0-0.5m)</text>
+      <text x="14" y="38" class="layer-desc">ตะกอนดินแป้งและโคลนแม่น้ำอากูซันยุคปัจจุบัน</text>
+      <text x="14" y="52" class="layer-desc">พื้นที่เกษตรกรรมและการตั้งถิ่นฐานริมแม่น้ำ</text>
+    </g>
+
+    <!-- 0.5 - 1.2 m (Height: 96px): Layer II Estuarine Silt & Clay -->
+    <g transform="translate(0, 119)">
+      <rect x="0" y="0" width="280" height="96" fill="#cbd5e1" stroke="#94a3b8" stroke-width="1.2"/>
+      <rect x="8" y="8" width="190" height="18" rx="4" fill="#ffffff" opacity="0.9"/>
+      <text x="14" y="21" class="layer-title">ชั้นที่ 2: ชั้นตะกอนน้ำกร่อยปากน้ำ (0.5-1.2m)</text>
+      <text x="14" y="38" class="layer-desc">ศตวรรษที่ 13–15: ตะกอนโคลนเลนน้ำท่วมขัง</text>
+      <text x="14" y="54" class="layer-desc">เศษเครื่องถ้วยจีนสมัยราชวงศ์หยวนและหมิงตอนต้น</text>
+      <text x="14" y="70" class="layer-desc">ร่องรอยกิจกรรมโรงงานถลุงโลหะและเตาเผาช่างทอง</text>
+    </g>
+
+    <!-- 1.2 - 2.8 m (Height: 220px): Layer III Waterlogged Anaerobic Peat (THE BOAT & GOLD HORIZON) -->
+    <g transform="translate(0, 215)">
+      <rect x="0" y="0" width="280" height="220" fill="url(#pat-peat)" stroke="#0284c7" stroke-width="2.5"/>
+      <!-- Highlight Tag -->
+      <rect x="8" y="8" width="264" height="22" rx="4" fill="#0284c7"/>
+      <text x="14" y="23" style="font-family:'Sarabun', sans-serif; font-size:12px; font-weight:bold; fill:#ffffff;">ชั้นที่ 3: ชั้นพรุพีทน้ำขังไร้ออกซิเจน (1.2-2.8m)</text>
+      
+      <!-- Burial & Boat feature icon / box -->
+      <rect x="10" y="36" width="260" height="174" rx="4" fill="#ffffff" opacity="0.95" stroke="#38bdf8" stroke-width="1.2"/>
+      <text x="18" y="52" style="font-family:'Sarabun', sans-serif; font-size:11px; font-weight:bold; fill:#0369a1;">✦ สุสานโลงเรือบาลังไกย์และแหล่งโบราณคดีพาณิชย์นาวี</text>
+      <text x="18" y="68" class="layer-desc">• กำหนดอายุ C-14: ค.ศ. 700–1250 (ศตวรรษที่ 8–13)</text>
+      <text x="18" y="84" class="layer-desc">• ซากเรือบาลังไกย์ 9 ลำ (เทคนิคเข้าเดือยไม้ Lashed-Lug)</text>
+      <text x="18" y="100" class="layer-desc">• โลงไม้ขุดรูปเรือ (Boat-Coffins) สภาพสมบูรณ์ 100%</text>
+      <text x="18" y="116" class="gold-tag">✦ คลังเครื่องทองคำบูตูอัน (สุวรรณภูมิแห่งมินดาเนา):</text>
+      <text x="18" y="132" class="layer-desc">• แผ่นทองคำปิดตาและปาก, มงกุฎรัดเกล้าทองคำ, สายสร้อย</text>
+      <text x="18" y="148" class="layer-desc">• เบ้าหลอมทองคำ ตะกรันทอง และเครื่องมือช่างทอง</text>
+      <text x="18" y="164" class="layer-desc">• ภาชนะเครื่องเคลือบจีนราชวงศ์ถังตอนปลายและซ่งเหนือ</text>
+      <text x="18" y="180" class="layer-desc">• ถ้ำผาสุสานหินปูนรอบลุ่มน้ำ (โลงไม้ + แผ่นทองปิดทวาร)</text>
+    </g>
+
+    <!-- 2.8 - 4.0 m (Height: 165px): Layer IV Basal Riverine Clay -->
+    <g transform="translate(0, 435)">
+      <rect x="0" y="0" width="280" height="165" fill="#94a3b8" stroke="#64748b" stroke-width="1.2"/>
+      <rect x="8" y="12" width="180" height="18" rx="4" fill="#ffffff" opacity="0.9"/>
+      <text x="14" y="25" class="layer-title">ชั้นที่ 4: ชั้นดินเหนียวแม่น้ำดั้งเดิม (2.8-4.0m)</text>
+      <text x="14" y="44" class="layer-desc">ดินเหนียวสีเทาเข้มเนื้อแน่น (Sterile Basal Clay)</text>
+      <text x="14" y="60" class="layer-desc">ชั้นการสะสมตัวของแม่น้ำอากูซันยุคก่อนมีมนุษย์</text>
+
+      <!-- Geomorphology note box -->
+      <rect x="10" y="74" width="260" height="80" rx="6" fill="#e0f2fe" stroke="#0284c7" stroke-width="1"/>
+      <text x="20" y="94" style="font-family:'Sarabun', sans-serif; font-size:11px; font-weight:bold; fill:#0369a1;">สรุประบบนิเวศน์ธรณีสัณฐานบูตูอัน:</text>
+      <text x="20" y="110" style="font-family:'Sarabun', sans-serif; font-size:10.5px; fill:#0c4a6e;">• ที่ราบน้ำท่วมขังและป่าพรุพีทไร้ออกซิเจนรักษาสภาพไม้ดีเลิศ</text>
+      <text x="20" y="124" style="font-family:'Sarabun', sans-serif; font-size:10.5px; fill:#0c4a6e;">• ศูนย์กลางสายแร่ทองคำและธารทองร่อนซูริเกา-อากูซัน</text>
+      <text x="20" y="138" style="font-family:'Sarabun', sans-serif; font-size:10.5px; fill:#0c4a6e;">• รัฐพาณิชย์นาวีส่งราชทูตสู่ราชสำนักซ่ง ค.ศ. 1001</text>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- COLUMN 3: CEBU (CEBU CITY / CENTRAL VISAYAS)-->
+  <!-- ========================================== -->
+  <g transform="translate(780, 140)">
+    <!-- Column Header -->
+    <rect x="0" y="0" width="280" height="42" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="140" y="24" class="col-header">3. เซบู (Cebu City)</text>
+    <text x="140" y="38" class="col-sub">ปลาซา อินเดเปนเดนเซีย (Plaza Independencia)</text>
+
+    <!-- Column Stratigraphy Container -->
+    <!-- 0.0 - 0.8 m (Height: 110px): Layer I Modern Fill & Spanish Colonial -->
+    <g transform="translate(0, 50)">
+      <rect x="0" y="0" width="280" height="110" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.2"/>
+      <rect x="8" y="8" width="210" height="18" rx="4" fill="#ffffff" opacity="0.9"/>
+      <text x="14" y="21" class="layer-title">ชั้นที่ 1: ดินถมเมืองและยุคสเปน (0.0-0.8m)</text>
+      <text x="14" y="38" class="layer-desc">ศตวรรษที่ 16–20: ฐานสิ่งก่อสร้างยุคอาณานิคมสเปน</text>
+      <text x="14" y="54" class="layer-desc">(ป้อม San Pedro, ซากแนวกำแพงอิฐ, หลุมทิ้งขยะ)</text>
+      <text x="14" y="70" class="layer-desc">กระเบื้องหลังคา เหรียญกษาปณ์สเปน และเครื่องถ้วยชิง</text>
+      <text x="14" y="86" class="layer-desc">ดินถมจากการก่อสร้างอุโมงค์ CSRP ปี ค.ศ. 2007</text>
+    </g>
+
+    <!-- 0.8 - 1.5 m (Height: 96px): Layer II Late Precolonial Trade Layer -->
+    <g transform="translate(0, 160)">
+      <rect x="0" y="0" width="280" height="96" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.2"/>
+      <rect x="8" y="8" width="200" height="18" rx="4" fill="#ffffff" opacity="0.9"/>
+      <text x="14" y="21" class="layer-title">ชั้นที่ 2: ชั้นการค้ายุคก่อนสเปน (0.8-1.5m)</text>
+      <text x="14" y="38" class="layer-desc">ศตวรรษที่ 15–16: ชุมชนเมืองท่าพาณิชย์นาวีปาริอัน</text>
+      <text x="14" y="54" class="layer-desc">เครื่องถ้วยจีนหมิง เครื่องเคลือบสยาม (สุโขทัย-สวรรคโลก)</text>
+      <text x="14" y="70" class="layer-desc">เครื่องถ้วยอันนัม กระดูกสัตว์บก-ปลา และลูกปัดนำเข้า</text>
+      <text x="14" y="86" class="layer-desc">แนวเสาไม้ริมหนองน้ำ (Palisade / Fish corral)</text>
+    </g>
+
+    <!-- 1.5 - 2.4 m (Height: 124px): Layer III Precolonial Burial Horizon (THE CEBU GOLD MASK LAYER) -->
+    <g transform="translate(0, 256)">
+      <rect x="0" y="0" width="280" height="124" fill="url(#pat-burial-gold)" stroke="#b45309" stroke-width="2.5"/>
+      <!-- Highlight Tag -->
+      <rect x="8" y="8" width="264" height="22" rx="4" fill="#b45309"/>
+      <text x="14" y="23" style="font-family:'Sarabun', sans-serif; font-size:12px; font-weight:bold; fill:#ffffff;">ชั้นที่ 3: ชั้นสุสานหน้ากากทองคำเซบู (1.5-2.4m)</text>
+      
+      <!-- Burial feature icon / box -->
+      <rect x="10" y="36" width="260" height="80" rx="4" fill="#ffffff" opacity="0.95" stroke="#fcd34d" stroke-width="1.2"/>
+      <text x="18" y="52" class="gold-tag">✦ การขุดค้นกู้ภัยทางโบราณคดี ค.ศ. 2007 (NMP/CSRP)</text>
+      <text x="18" y="68" class="layer-desc">• หลุมศพคริสต์ศตวรรษที่ 14–15 (ราชวงศ์หยวน-หมิงต้น)</text>
+      <text x="18" y="84" class="layer-desc">• หน้ากากทองเซบู: แผ่นทองปิดตาเจาะรูมุม + แผ่นปิดจมูกปาก</text>
+      <text x="18" y="98" class="layer-desc">• ฟันฝังหมุดทอง (Bansil/Pusad) และเครื่องเคลือบหยวน</text>
+      <text x="18" y="110" class="layer-desc">• หลุมศพใต้ถุนเรือนและหลุมดินแทรกในชั้นตะกอนทรายชายฝั่ง</text>
+    </g>
+
+    <!-- 2.4 - 4.0 m (Height: 220px): Layer IV Uplifted Coral Terrace & Marine Substrate -->
+    <g transform="translate(0, 380)">
+      <rect x="0" y="0" width="280" height="220" fill="url(#pat-coral)" stroke="#0284c7" stroke-width="1.2"/>
+      <rect x="8" y="12" width="220" height="18" rx="4" fill="#ffffff" opacity="0.9"/>
+      <text x="14" y="25" class="layer-title">ชั้นที่ 4: ลานหินปะการังยกตัวโบราณ (2.4-4.0m)</text>
+      <text x="14" y="44" class="layer-desc">ลานหินปะการังฟอสซิลและทรายทะเลดั้งเดิม (Coral Substrate)</text>
+      <text x="14" y="60" class="layer-desc">เกิดจากการยกตัวทางธรณีแปรสัณฐานของเกาะเซบู</text>
+      <text x="14" y="76" class="layer-desc">ชั้นดินธรรมชาติต่ำกว่าระดับการอยู่อาศัยของมนุษย์</text>
+
+      <!-- Geomorphology note box -->
+      <rect x="10" y="128" width="260" height="80" rx="6" fill="#e0f2fe" stroke="#0284c7" stroke-width="1"/>
+      <text x="20" y="148" style="font-family:'Sarabun', sans-serif; font-size:11px; font-weight:bold; fill:#0369a1;">สรุประบบนิเวศน์ธรณีสัณฐานเซบู:</text>
+      <text x="20" y="164" style="font-family:'Sarabun', sans-serif; font-size:10.5px; fill:#0c4a6e;">• ที่ราบชายฝั่งแคบกำบังคลื่นลมด้วยเกาะมักตัน</text>
+      <text x="20" y="178" style="font-family:'Sarabun', sans-serif; font-size:10.5px; fill:#0c4a6e;">• ท่าเรือน้ำลึกธรรมชาติศูนย์กลางการเดินเรือข้ามช่องแคบวิซายัส</text>
+      <text x="20" y="192" style="font-family:'Sarabun', sans-serif; font-size:10.5px; fill:#0c4a6e;">• เมืองท่าพ่อค้าคนกลางและเหมืองทองโบราณทาริบอน</text>
+    </g>
+  </g>
+
+  <!-- Legend & Bottom Footer -->
+  <g transform="translate(60, 750)">
+    <!-- Legend Box -->
+    <rect x="0" y="0" width="1080" height="48" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.2"/>
+    
+    <!-- Legend items -->
+    <g transform="translate(20, 16)">
+      <rect x="0" y="0" width="24" height="16" fill="url(#pat-burial-gold)" stroke="#d97706" stroke-width="1.5"/>
+      <text x="32" y="13" class="legend-text" style="font-weight:bold; fill:#b45309;">ชั้นบรรจุหน้ากากทองคำปิดศพ (Gold Death Mask Horizon: 14th–15th c. CE)</text>
+    </g>
+
+    <g transform="translate(480, 16)">
+      <rect x="0" y="0" width="24" height="16" fill="url(#pat-peat)" stroke="#0284c7" stroke-width="1.2"/>
+      <text x="32" y="13" class="legend-text">ชั้นพรุพีทน้ำขังไร้ออกซิเจน (Anaerobic Peat: Butuan Boats)</text>
+    </g>
+
+    <g transform="translate(860, 16)">
+      <rect x="0" y="0" width="24" height="16" fill="url(#pat-coral)" stroke="#0284c7" stroke-width="1.2"/>
+      <text x="32" y="13" class="legend-text">ลานหินปะการัง/ทรายดั้งเดิม (Sterile Base)</text>
+    </g>
+  </g>
+
+  <!-- Watermark / Authoring -->
+  <text x="1140" y="818" class="watermark">โครงการวิจัยแผ่นทองปิดศพฟิลิปปินส์และหน้ากากทองเอเชีย | คณะผู้วิจัยอาวุโส (2026)</text>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1650 1120" font-family="sans-serif">
+  <rect width="1650" height="1120" fill="#faf8f2"/>
+  <text x="825" y="56" text-anchor="middle" font-size="38" font-weight="bold" fill="#3a2e1f">ระเบียบวิธีการฝังและการจัดวางวัตถุบนร่างผู้ตาย</text>
+  <text x="825" y="94" text-anchor="middle" font-size="20" fill="#5a4a35">สังเคราะห์จากบันทึกสถาบัน รายงานขุดค้น และจดหมายเหตุยุคแรกสัมผัส — ทุกตำแหน่งมาจากเอกสารเท่านั้น</text>
+
+  <!-- แถวที่ 1: ท่าและการจัดร่าง -->
+  <rect x="60" y="130" width="1510" height="230" rx="14" fill="#f2ead6" stroke="#8a6d2f" stroke-width="2"/>
+  <text x="110" y="170" font-size="24" font-weight="bold" fill="#6b4f1d">ท่าฝังและการจัดร่าง (คาลาตากัน-สถาบัน NMP)</text>
+  <rect x="100" y="190" width="330" height="140" rx="10" fill="#fffbe8" stroke="#a67c1e"/>
+  <text x="265" y="228" text-anchor="middle" font-size="20" font-weight="bold" fill="#6b4f1d">นอนหงายเหยียดตรง</text>
+  <text x="265" y="256" text-anchor="middle" font-size="17" fill="#4a3a20">แขนเหยียดข้างลำตัว</text>
+  <text x="265" y="282" text-anchor="middle" font-size="17" fill="#4a3a20">หัวเข่า/ข้อเท้ามัด (ยกเว้นบางส่วน)</text>
+  <text x="265" y="308" text-anchor="middle" font-size="17" fill="#4a3a20">ไม่ใช้โลง — Fox 1959</text>
+  <rect x="460" y="190" width="330" height="140" rx="10" fill="#fffbe8" stroke="#a67c1e"/>
+  <text x="625" y="228" text-anchor="middle" font-size="20" font-weight="bold" fill="#6b4f1d">ทิศหัวกะโหลก</text>
+  <text x="625" y="256" text-anchor="middle" font-size="17" fill="#4a3a20">ฐาน: เหนือถึงตะวันออก</text>
+  <text x="625" y="282" text-anchor="middle" font-size="17" fill="#4a3a20">น้อย: ใต้ / ต้องห้าม: ตะวันตก</text>
+  <text x="625" y="308" text-anchor="middle" font-size="17" fill="#4a3a20">ปูลุงบากัว — Fox 1959</text>
+  <rect x="820" y="190" width="330" height="140" rx="10" fill="#fffbe8" stroke="#a67c1e"/>
+  <text x="985" y="228" text-anchor="middle" font-size="20" font-weight="bold" fill="#6b4f1d">ท่างอในไหปฐมภูมิ</text>
+  <text x="985" y="256" text-anchor="middle" font-size="17" fill="#4a3a20">ไหใหญ่รองรับทั้งร่างท่างอ</text>
+  <text x="985" y="282" text-anchor="middle" font-size="17" fill="#4a3a20">ฝังโดยตรงในภาชนะ</text>
+  <text x="985" y="308" text-anchor="middle" font-size="17" fill="#4a3a20">นิยาม NMP — Burial Jars</text>
+  <rect x="1180" y="190" width="350" height="140" rx="10" fill="#fffbe8" stroke="#a67c1e"/>
+  <text x="1355" y="228" text-anchor="middle" font-size="20" font-weight="bold" fill="#6b4f1d">ทุติยภูมิ</text>
+  <text x="1355" y="256" text-anchor="middle" font-size="17" fill="#4a3a20">ย้ายกระดูก-ฟันเข้าภาชนะหลังฝังแรก</text>
+  <text x="1355" y="282" text-anchor="middle" font-size="17" fill="#4a3a20">โลงไม้บูตูอัน: กะโหลกดัดแบนหน้าผาก</text>
+  <text x="1355" y="308" text-anchor="middle" font-size="17" fill="#4a3a20">(Burton 1977; UNESCO 2071)</text>
+
+  <!-- แถวที่ 2: แผ่นทองบนใบหน้า -->
+  <rect x="60" y="380" width="1510" height="270" rx="14" fill="#fdf6e0" stroke="#8a6d2f" stroke-width="3"/>
+  <text x="110" y="420" font-size="24" font-weight="bold" fill="#6b4f1d">การจัดวางทองบนใบหน้า (สามระดับของระบบเดียว)</text>
+  <!-- หน้าคนแผนภาพ -->
+  <circle cx="250" cy="530" r="85" fill="#f7e7b8" stroke="#a67c1e" stroke-width="3"/>
+  <ellipse cx="220" cy="510" rx="26" ry="12" fill="#d4a017"/><ellipse cx="280" cy="510" rx="26" ry="12" fill="#d4a017"/>
+  <path d="M 238 540 Q 250 556 262 540" stroke="#d4a017" stroke-width="6" fill="none"/>
+  <rect x="216" y="576" width="68" height="16" rx="6" fill="#d4a017"/>
+  <text x="250" y="648" text-anchor="middle" font-size="17" fill="#6b4f1d">แผ่นปิดตา(คู่) / จมูก / ปาก</text>
+  <rect x="380" y="450" width="360" height="180" rx="10" fill="#fff" stroke="#c9a227"/>
+  <text x="560" y="486" text-anchor="middle" font-size="20" font-weight="bold" fill="#6b4f1d">โอตอน (พบในตำแหน่งจริง 1967)</text>
+  <text x="560" y="516" text-anchor="middle" font-size="17" fill="#4a3a20">ปิดตา 13.3×2.5 ซม. 3.16 ก. / ปิดจมูก 16.3×5.5 ซม. 3.09 ก.</text>
+  <text x="560" y="544" text-anchor="middle" font-size="17" fill="#4a3a20">ทะเบียน OT-MD-39 / OT-MF-40 — ปลาย 14 ต้น 15 ส.ค.</text>
+  <text x="560" y="572" text-anchor="middle" font-size="17" fill="#4a3a20">ตีจากทองบริสุทธิ์ เตรียมในที่ฝัง (เศษตัดรอบหลุม)</text>
+  <text x="560" y="600" text-anchor="middle" font-size="17" fill="#4a3a20">รูเจาะขอบ = เย็บยึดวัสดุรองรับ (CCP Encyclopedia)</text>
+  <rect x="770" y="450" width="360" height="180" rx="10" fill="#fff" stroke="#c9a227"/>
+  <text x="950" y="486" text-anchor="middle" font-size="20" font-weight="bold" fill="#6b4f1d">เซบู (บันทึกสถาบัน NMP 2022)</text>
+  <text x="950" y="516" text-anchor="middle" font-size="17" fill="#4a3a20">แผ่นทองปิด "ตา จมูก ปาก" ครบสามทวาร</text>
+  <text x="950" y="544" text-anchor="middle" font-size="17" fill="#4a3a20">หลุมศพ 14–15 ส.ค. + คู่ต่างหูทองร่วมชุด</text>
+  <text x="950" y="572" text-anchor="middle" font-size="17" fill="#4a3a20">"ชุดแผ่นทองคำบางปิดศพฉบับสมบูรณ์" (2023)</text>
+  <text x="950" y="600" text-anchor="middle" font-size="17" fill="#4a3a20">ปิดทวาร = ป้องกันวิญญาณร้ายเข้าสิงร่าง (NMP)</text>
+  <rect x="1160" y="450" width="370" height="180" rx="10" fill="#fff" stroke="#c9a227"/>
+  <text x="1345" y="486" text-anchor="middle" font-size="20" font-weight="bold" fill="#6b4f1d">จดหมายเหตุสเปน (Chirino 1604 / Scott 1994)</text>
+  <text x="1345" y="516" text-anchor="middle" font-size="17" fill="#4a3a20">"oro en la boca" — ทองในปากศพ + หีบเสื้อผ้าใต้บ้าน</text>
+  <text x="1345" y="544" text-anchor="middle" font-size="17" fill="#4a3a20">หน้ากากและชิ้นปิดปากจากทองตีแผ่น (Scott)</text>
+  <text x="1345" y="572" text-anchor="middle" font-size="17" fill="#4a3a20">โลงในถ้ำ + แผ่นทองบางปิดปากและตา</text>
+  <text x="1345" y="600" text-anchor="middle" font-size="17" fill="#4a3a20">สองแบบ: หน้ากากฉลุเปิด / แผ่นปิดทวาร (CCP)</text>
+
+  <!-- แถวที่ 3: วัตถุร่วมหลุมสามวง -->
+  <rect x="60" y="670" width="1510" height="240" rx="14" fill="#eef2e4" stroke="#5f7d4a" stroke-width="2"/>
+  <text x="110" y="710" font-size="24" font-weight="bold" fill="#3c5530">วัตถุร่วมหลุมสามวงรอบร่าง</text>
+  <rect x="100" y="730" width="460" height="150" rx="10" fill="#f8faf2" stroke="#7d9a68"/>
+  <text x="330" y="766" text-anchor="middle" font-size="20" font-weight="bold" fill="#3c5530">วงบนร่าง</text>
+  <text x="330" y="796" text-anchor="middle" font-size="17" fill="#2e4430">แผ่นทองปิดทวาร / ต่างหู (เซบู) / หีบเสื้อผ้า (ชิรีโน)</text>
+  <text x="330" y="824" text-anchor="middle" font-size="17" fill="#2e4430">เปลือกบาเลอร์ทับหน้าอก-เชิงกราน (อีลเล, Vitales)</text>
+  <text x="330" y="852" text-anchor="middle" font-size="17" fill="#2e4430">หมุดทองฟัน 1 ใน 260 ร่าง (คายโตมัส)</text>
+  <rect x="590" y="730" width="460" height="150" rx="10" fill="#f8faf2" stroke="#7d9a68"/>
+  <text x="820" y="766" text-anchor="middle" font-size="20" font-weight="bold" fill="#3c5530">วงภาชนะ</text>
+  <text x="820" y="796" text-anchor="middle" font-size="17" fill="#2e4430">เครื่องเคลือบจีน: ภาชนะบรรจุ / ฝาปิดปากไห / เครื่องอุทิศ</text>
+  <text x="820" y="824" text-anchor="middle" font-size="17" fill="#2e4430">ไหคาลาตากัน 8 ใน 9 เป็นสโตนแวร์จีน (Chang)</text>
+  <text x="820" y="852" text-anchor="middle" font-size="17" fill="#2e4430">ไหบรรจุทารกเป็นหลัก; ลูกปัดไหน้อยกว่าหลุมนอนหงาย (Yakal)</text>
+  <rect x="1080" y="730" width="450" height="150" rx="10" fill="#f8faf2" stroke="#7d9a68"/>
+  <text x="1305" y="766" text-anchor="middle" font-size="20" font-weight="bold" fill="#3c5530">วงพื้นหลุม</text>
+  <text x="1305" y="796" text-anchor="middle" font-size="17" fill="#2e4430">โลงไม้คว้านท่อน / โลงเรือบูตูอัน (ตารางขุด 2×2 ม. ลึก 120 ซม.)</text>
+  <text x="1305" y="824" text-anchor="middle" font-size="17" fill="#2e4430">เครื่องอุทิศสูงสุด: ทาสและเรือพาย (ชิรีโนภาษาเดิม)</text>
+  <text x="1305" y="852" text-anchor="middle" font-size="17" fill="#2e4430">ทอง+เครื่องเคลือบ+ทองแดงร่วมสุสาน (Burton)</text>
+
+  <rect x="0" y="940" width="1650" height="180" fill="#efe8d8"/>
+  <text x="825" y="982" text-anchor="middle" font-size="20" font-weight="bold" fill="#4a3a20">สรีระดัดแปลงร่วมสมัยแผ่นทอง: กะโหลกดัดแบนหน้า-หลัง (ซูซูกิวัดกะโหลกบูตูอัน 1979; อัตราราวครึ่งต่อครึ่ง) —</text>
+  <text x="825" y="1012" text-anchor="middle" font-size="19" fill="#4a3a20">หมุดทองบันซีลเจาะด้วยอุโลก ตีทุบยึดเชิงกล โลหะผสมทอง-เงิน-ทองแดง ลวดลายเกล็ดปลาโบลีเนา — ทุกชิ้นหลัง ค.ศ. 1200 (ยุคการค้าตะวันออก)</text>
+  <text x="825" y="1044" text-anchor="middle" font-size="17" fill="#4a3a20">ที่มา: NMP (Burial Traditions 2021; Burial Jars; Oton Gallery; Plaza Independencia 2022; Cebu List 2023); CCP Encyclopedia Digital 2020; Fox 1959/1967; Burton 1977; Suzuki et al. 1993;</text>
+  <text x="825" y="1072" text-anchor="middle" font-size="17" fill="#4a3a20">Chang 2008; Yakal 2017; Vitales 2013; Chirino 1604 (สเปนดั้งเดิม); Scott 1994; Atienza 2014; Tabarev 2019; UNESCO WHC 2071</text>
+</svg>

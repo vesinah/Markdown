@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="100%" height="100%" style="background:#0f172a; font-family:'Segoe UI', Tahoma, sans-serif;">
+  <defs>
+    <!-- Metallic Gradients -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="35%" stop-color="#f59e0b"/>
+      <stop offset="70%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+    <linearGradient id="goldFoil" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef9c3"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="boneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Title Header -->
+  <rect x="30" y="25" width="1140" height="70" rx="10" fill="url(#boxGrad)" stroke="#334155" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="60" y="55" fill="#f8fafc" font-size="22" font-weight="bold" letter-spacing="0.5">แผนผัง 5.1: กายวิภาคศาสตร์ สัณฐานวิทยา และการจัดวางแผ่นทองคำปิดทวารบนใบหน้าผู้ตาย</text>
+  <text x="60" y="80" fill="#94a3b8" font-size="13">Anatomy, Morphology, and In Situ Craniofacial Placement of Precolonial Philippine Gold Mortuary Orifice Covers</text>
+
+  <!-- Left Main Panel: Craniofacial Placement (Frontal & Lateral Perspective) -->
+  <g transform="translate(40, 115)">
+    <rect width="450" height="695" rx="12" fill="url(#boxGrad)" stroke="#334155" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="25" y="35" fill="#38bdf8" font-size="16" font-weight="bold">A. ผังจำลองตำแหน่งกายวิภาคบนกะโหลกศีรษะ (In Situ Placement)</text>
+    <text x="25" y="55" fill="#94a3b8" font-size="12">ความสัมพันธ์เชิงพิกัดระหว่างฐานกระดูกใบหน้ากับชุดแผ่นทองคำปิดทวารทั้งสาม</text>
+
+    <!-- Cranium Outline Drawing -->
+    <g transform="translate(45, 80)">
+      <!-- Skull Base (Frontal Stylized Outline) -->
+      <path d="M 180,20 C 100,20 40,80 40,170 C 40,240 70,280 80,330 C 90,380 100,430 130,460 C 150,480 210,480 230,460 C 260,430 270,380 280,330 C 290,280 320,240 320,170 C 320,80 260,20 180,20 Z" 
+            fill="none" stroke="url(#boneGrad)" stroke-width="3" stroke-dasharray="6,4" opacity="0.65"/>
+      <!-- Eye Orbits -->
+      <ellipse cx="120" cy="180" rx="36" ry="32" fill="#0b1120" stroke="#475569" stroke-width="2" opacity="0.8"/>
+      <ellipse cx="240" cy="180" rx="36" ry="32" fill="#0b1120" stroke="#475569" stroke-width="2" opacity="0.8"/>
+      <!-- Nasal Aperture (Piriform Aperture) -->
+      <path d="M 180,200 L 165,260 C 165,275 195,275 195,260 Z" fill="#0b1120" stroke="#475569" stroke-width="2" opacity="0.8"/>
+      <!-- Maxilla & Mandible / Teeth Line -->
+      <path d="M 130,320 Q 180,335 230,320 L 230,350 Q 180,365 130,350 Z" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+      <line x1="145" y1="322" x2="145" y2="348" stroke="#94a3b8" stroke-width="1"/>
+      <line x1="162" y1="325" x2="162" y2="352" stroke="#94a3b8" stroke-width="1"/>
+      <line x1="180" y1="327" x2="180" y2="355" stroke="#94a3b8" stroke-width="1"/>
+      <line x1="198" y1="325" x2="198" y2="352" stroke="#94a3b8" stroke-width="1"/>
+      <line x1="215" y1="322" x2="215" y2="348" stroke="#94a3b8" stroke-width="1"/>
+
+      <!-- Gold Orifice Plaque 1: Ocular Plaque (Left Eye) -->
+      <path d="M 80,180 Q 120,150 160,180 Q 120,210 80,180 Z" fill="url(#goldGrad)" stroke="#fef08a" stroke-width="1.5" filter="url(#goldGlow)"/>
+      <circle cx="120" cy="180" r="4" fill="#78350f"/>
+      <circle cx="120" cy="180" r="8" fill="none" stroke="#fef08a" stroke-width="0.8" stroke-dasharray="1,2"/>
+
+      <!-- Gold Orifice Plaque 2: Ocular Plaque (Right Eye) -->
+      <path d="M 200,180 Q 240,150 280,180 Q 240,210 200,180 Z" fill="url(#goldGrad)" stroke="#fef08a" stroke-width="1.5" filter="url(#goldGlow)"/>
+      <circle cx="240" cy="180" r="4" fill="#78350f"/>
+      <circle cx="240" cy="180" r="8" fill="none" stroke="#fef08a" stroke-width="0.8" stroke-dasharray="1,2"/>
+
+      <!-- Gold Orifice Plaque 3: Nasal Plaque (พาดทับสันจมูก) -->
+      <path d="M 172,175 L 188,175 L 196,265 C 196,275 164,275 164,265 Z" fill="url(#goldFoil)" stroke="#fef08a" stroke-width="1.5" filter="url(#goldGlow)"/>
+      <line x1="180" y1="180" x2="180" y2="265" stroke="#92400e" stroke-width="1" stroke-dasharray="2,2"/>
+
+      <!-- Gold Orifice Plaque 4: Oral Plaque (ปิดริมฝีปากและช่องปาก) -->
+      <path d="M 115,335 C 115,315 245,315 245,335 C 245,355 115,355 115,335 Z" fill="url(#goldGrad)" stroke="#fef08a" stroke-width="1.5" filter="url(#goldGlow)"/>
+      <line x1="125" y1="335" x2="235" y2="335" stroke="#78350f" stroke-width="1"/>
+
+      <!-- Gold Pegged Teeth (Bansil / Pusad Dots within Oral Plaque/Jaw) -->
+      <circle cx="162" cy="335" r="2.5" fill="#fef08a" stroke="#451a03" stroke-width="0.5"/>
+      <circle cx="180" cy="335" r="2.5" fill="#fef08a" stroke="#451a03" stroke-width="0.5"/>
+      <circle cx="198" cy="335" r="2.5" fill="#fef08a" stroke="#451a03" stroke-width="0.5"/>
+
+      <!-- Anatomic Labels & Leader Lines -->
+      <!-- Ocular Leader -->
+      <line x1="60" y1="140" x2="100" y2="170" stroke="#38bdf8" stroke-width="1.2"/>
+      <circle cx="60" cy="140" r="3" fill="#38bdf8"/>
+      <text x="10" y="135" fill="#e2e8f0" font-size="12" font-weight="bold">แผ่นปิดตาคู่ (Ocular Covers)</text>
+      <text x="10" y="150" fill="#94a3b8" font-size="10">พาดขวางระนาบเบ้าตา (Orbits)</text>
+
+      <!-- Nasal Leader -->
+      <line x1="300" y1="220" x2="190" y2="220" stroke="#38bdf8" stroke-width="1.2"/>
+      <circle cx="300" cy="220" r="3" fill="#38bdf8"/>
+      <text x="305" y="215" fill="#e2e8f0" font-size="12" font-weight="bold">แผ่นปิดจมูก (Nasal Plaque)</text>
+      <text x="305" y="230" fill="#94a3b8" font-size="10">ทรงสี่เหลี่ยมคางหมูคลุมรูจมูก</text>
+
+      <!-- Oral Leader -->
+      <line x1="60" y1="360" x2="120" y2="340" stroke="#38bdf8" stroke-width="1.2"/>
+      <circle cx="60" cy="360" r="3" fill="#38bdf8"/>
+      <text x="10" y="375" fill="#e2e8f0" font-size="12" font-weight="bold">แผ่นปิดปาก (Oral Plaque)</text>
+      <text x="10" y="390" fill="#94a3b8" font-size="10">ทรงแถบโค้งรับขอบริมฝีปาก</text>
+
+      <!-- Bansil Leader -->
+      <line x1="300" y1="340" x2="205" y2="336" stroke="#fbbf24" stroke-width="1.2"/>
+      <circle cx="300" cy="340" r="3" fill="#fbbf24"/>
+      <text x="305" y="340" fill="#fde047" font-size="12" font-weight="bold">หมุดทองฝังฟัน (Bansil)</text>
+      <text x="305" y="355" fill="#fef08a" font-size="10">เจาะตรึงลวดทองคำบนผิวฟันหน้า</text>
+    </g>
+
+    <!-- Lower Anatomy Summary Card -->
+    <rect x="20" y="585" width="410" height="90" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+    <text x="35" y="608" fill="#f1f5f9" font-size="12" font-weight="bold">หลักการทางชีวโบราณคดีในการจัดวาง (Anatomical Rules):</text>
+    <text x="35" y="628" fill="#cbd5e1" font-size="11">1. ลำดับการซ้อนทับ: สันแผ่นปิดจมูกจะวางสอดใต้หรือประกบทับขอบแผ่นปิดตา</text>
+    <text x="35" y="646" fill="#cbd5e1" font-size="11">2. ทิศทางการหัน: ด้านขัดเงาหรือดุนนูนหงายขึ้นสู่เบื้องบนเพื่อสะท้อนแสง</text>
+    <text x="35" y="664" fill="#cbd5e1" font-size="11">3. กลไกยึดตรึง: ไร้รูผูกร้อย (โอตอน/บูตูอัน) ใช้การแนบทับตามแรงโน้มถ่วงธรรมชาติ</text>
+  </g>
+
+  <!-- Right Top Panel: Comparative Typological Styles (โอตอน, บูตูอัน, เซบู) -->
+  <g transform="translate(510, 115)">
+    <rect width="650" height="390" rx="12" fill="url(#boxGrad)" stroke="#334155" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="25" y="35" fill="#38bdf8" font-size="16" font-weight="bold">B. การเปรียบเทียบสัณฐานวิทยาเชิงช่างทอง 3 แหล่งแกนกลาง</text>
+    <text x="25" y="55" fill="#94a3b8" font-size="12">Morphological and Artisanal Comparison: Oton, Butuan, and Plaza Independencia Cebu</text>
+
+    <!-- Style 1: Oton Mask Style (Repoussé & Openwork) -->
+    <g transform="translate(25, 75)">
+      <rect width="185" height="285" rx="8" fill="#0b1120" stroke="#3b82f6" stroke-width="1"/>
+      <text x="15" y="25" fill="#60a5fa" font-size="13" font-weight="bold">1. แบบโอตอน (Oton)</text>
+      <text x="15" y="42" fill="#94a3b8" font-size="11">เทคนิค: ดุนนูนและฉลุลาย</text>
+      <text x="15" y="57" fill="#fbbf24" font-size="10">ความหนา: ~0.15–0.25 mm</text>
+
+      <!-- Graphic representation of Oton eye/nose piece -->
+      <g transform="translate(18, 75)">
+        <!-- Connected Repoussé Eye-Nose Ornament -->
+        <path d="M 5,20 Q 40,0 75,20 Q 40,40 5,20 Z" fill="url(#goldGrad)" stroke="#fde047" stroke-width="1.2"/>
+        <path d="M 75,20 Q 110,0 145,20 Q 110,40 75,20 Z" fill="url(#goldGrad)" stroke="#fde047" stroke-width="1.2"/>
+        <path d="M 70,20 L 80,20 L 85,85 L 65,85 Z" fill="url(#goldFoil)" stroke="#fde047" stroke-width="1.2"/>
+        <!-- Repoussé Dots Pattern -->
+        <circle cx="25" cy="20" r="1.5" fill="#451a03"/>
+        <circle cx="40" cy="20" r="1.5" fill="#451a03"/>
+        <circle cx="55" cy="20" r="1.5" fill="#451a03"/>
+        <circle cx="95" cy="20" r="1.5" fill="#451a03"/>
+        <circle cx="110" cy="20" r="1.5" fill="#451a03"/>
+        <circle cx="125" cy="20" r="1.5" fill="#451a03"/>
+        <circle cx="75" cy="40" r="1.5" fill="#451a03"/>
+        <circle cx="75" cy="60" r="1.5" fill="#451a03"/>
+      </g>
+      <text x="15" y="195" fill="#e2e8f0" font-size="11" font-weight="bold">จุดเด่นทางช่าง:</text>
+      <text x="15" y="215" fill="#94a3b8" font-size="10">• ลายดุนนูนจุดไข่ปลา (Beaded)</text>
+      <text x="15" y="232" fill="#94a3b8" font-size="10">• ฉลุรูตรงกึ่งกลางตาดำ</text>
+      <text x="15" y="249" fill="#94a3b8" font-size="10">• ปิดตาและจมูกเป็นแผ่นรวม</text>
+      <text x="15" y="266" fill="#94a3b8" font-size="10">• แผ่นปิดปากสลักแนวขอบ</text>
+    </g>
+
+    <!-- Style 2: Butuan Style (Plain Beaten Gold Foils) -->
+    <g transform="translate(230, 75)">
+      <rect width="185" height="285" rx="8" fill="#0b1120" stroke="#f59e0b" stroke-width="1"/>
+      <text x="15" y="25" fill="#fbbf24" font-size="13" font-weight="bold">2. แบบบูตูอัน (Butuan)</text>
+      <text x="15" y="42" fill="#94a3b8" font-size="11">เทคนิค: ตีแผ่นบางเรียบขัดเงา</text>
+      <text x="15" y="57" fill="#fbbf24" font-size="10">ความหนา: ~0.08–0.15 mm</text>
+
+      <!-- Graphic representation of Butuan detached plaques -->
+      <g transform="translate(20, 80)">
+        <!-- Detached Eye Plaque 1 -->
+        <ellipse cx="40" cy="20" rx="32" ry="16" fill="url(#goldFoil)" stroke="#fde047" stroke-width="1.2"/>
+        <!-- Detached Eye Plaque 2 -->
+        <ellipse cx="105" cy="20" rx="32" ry="16" fill="url(#goldFoil)" stroke="#fde047" stroke-width="1.2"/>
+        <!-- Detached Nose Plaque -->
+        <polygon points="68,45 78,45 83,85 63,85" fill="url(#goldGrad)" stroke="#fde047" stroke-width="1.2"/>
+        <!-- Detached Mouth Plaque -->
+        <path d="M 35,95 Q 73,108 110,95 Q 73,120 35,95 Z" fill="url(#goldFoil)" stroke="#fde047" stroke-width="1.2"/>
+      </g>
+      <text x="15" y="195" fill="#e2e8f0" font-size="11" font-weight="bold">จุดเด่นทางช่าง:</text>
+      <text x="15" y="215" fill="#94a3b8" font-size="10">• แผ่นทองบางแยกชิ้นอิสระ</text>
+      <text x="15" y="232" fill="#94a3b8" font-size="10">• ผิวเรียบเกลี้ยง ไร้ลายฉลุ</text>
+      <text x="15" y="249" fill="#94a3b8" font-size="10">• ความบริสุทธิ์ทองคำสูงมาก</text>
+      <text x="15" y="266" fill="#94a3b8" font-size="10">• พบบรรจุในโลงไม้ขุดรูปเรือ</text>
+    </g>
+
+    <!-- Style 3: Cebu Plaza Independencia Style -->
+    <g transform="translate(435, 75)">
+      <rect width="190" height="285" rx="8" fill="#0b1120" stroke="#10b981" stroke-width="1"/>
+      <text x="15" y="25" fill="#34d399" font-size="13" font-weight="bold">3. แบบเซบู (Cebu)</text>
+      <text x="15" y="42" fill="#94a3b8" font-size="11">เทคนิค: แผ่นทองสามทวารครบชุด</text>
+      <text x="15" y="57" fill="#fbbf24" font-size="10">ความหนา: ~0.10–0.20 mm</text>
+
+      <!-- Graphic representation of Cebu set with earrings -->
+      <g transform="translate(25, 80)">
+        <ellipse cx="40" cy="20" rx="28" ry="15" fill="url(#goldGrad)" stroke="#6ee7b7" stroke-width="1"/>
+        <ellipse cx="100" cy="20" rx="28" ry="15" fill="url(#goldGrad)" stroke="#6ee7b7" stroke-width="1"/>
+        <polygon points="65,45 75,45 80,80 60,80" fill="url(#goldFoil)" stroke="#6ee7b7" stroke-width="1"/>
+        <path d="M 38,95 Q 70,105 102,95 Q 70,115 38,95 Z" fill="url(#goldGrad)" stroke="#6ee7b7" stroke-width="1"/>
+        <!-- Accompanying Gold Earrings -->
+        <circle cx="10" cy="50" r="7" fill="none" stroke="#fde047" stroke-width="2.5"/>
+        <circle cx="130" cy="50" r="7" fill="none" stroke="#fde047" stroke-width="2.5"/>
+      </g>
+      <text x="15" y="195" fill="#e2e8f0" font-size="11" font-weight="bold">จุดเด่นทางช่าง:</text>
+      <text x="15" y="215" fill="#94a3b8" font-size="10">• ชุดสามทวารสมบูรณ์ 100%</text>
+      <text x="15" y="232" fill="#94a3b8" font-size="10">• ร่วมกับต่างหูทองคำคู่</text>
+      <text x="15" y="249" fill="#94a3b8" font-size="10">• บริบทชุมชนพาณิชย์เมืองท่า</text>
+      <text x="15" y="266" fill="#94a3b8" font-size="10">• ศตวรรษที่ 14–15 (ซ่ง-หมิง)</text>
+    </g>
+  </g>
+
+  <!-- Right Bottom Panel: Functional Contrast (Orifice Covers vs Full Masks) -->
+  <g transform="translate(510, 520)">
+    <rect width="650" height="290" rx="12" fill="url(#boxGrad)" stroke="#334155" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="25" y="35" fill="#38bdf8" font-size="16" font-weight="bold">C. การเปรียบเทียบเชิงหน้าที่: แผ่นปิดเฉพาะทวาร (Orifice Covers) vs หน้ากากเต็มใบหน้า (Full Masks)</text>
+    <text x="25" y="55" fill="#94a3b8" font-size="12">Functional and Cosmological Divergence: Selective Aperture Sealing vs Anthropomorphic Portraiture</text>
+
+    <!-- Table Structure -->
+    <g transform="translate(20, 75)">
+      <!-- Table Header -->
+      <rect x="0" y="0" width="610" height="32" rx="4" fill="#334155"/>
+      <text x="20" y="21" fill="#f8fafc" font-size="12" font-weight="bold">เกณฑ์การเปรียบเทียบ</text>
+      <text x="170" y="21" fill="#fde047" font-size="12" font-weight="bold">แผ่นปิดทวารฟิลิปปินส์ (Orifice Covers)</text>
+      <text x="400" y="21" fill="#93c5fd" font-size="12" font-weight="bold">หน้ากากเต็มหน้าเอเชีย (Full Masks)</text>
+
+      <!-- Row 1 -->
+      <rect x="0" y="36" width="610" height="34" fill="#1e293b"/>
+      <text x="15" y="58" fill="#e2e8f0" font-size="11" font-weight="bold">เป้าหมายเชิงพื้นที่</text>
+      <text x="170" y="58" fill="#cbd5e1" font-size="11">จำเพาะเจาะจงเฉพาะ "ช่องเปิดประสาทสัมผัส"</text>
+      <text x="400" y="58" fill="#94a3b8" font-size="11">คลุมปิดโครงหน้ามนุษย์ทั้งหมด 100%</text>
+
+      <!-- Row 2 -->
+      <rect x="0" y="74" width="610" height="34" fill="#0f172a"/>
+      <text x="15" y="96" fill="#e2e8f0" font-size="11" font-weight="bold">จักรวาลวิทยา</text>
+      <text x="170" y="96" fill="#cbd5e1" font-size="11">กักกันพลังชีวิต (Dungan) / สกัดวิญญาณร้าย</text>
+      <text x="400" y="96" fill="#94a3b8" font-size="11">สร้างรูปเสมือนนิรันดร์ / คืนชีพในปรโลก</text>
+
+      <!-- Row 3 -->
+      <rect x="0" y="112" width="610" height="34" fill="#1e293b"/>
+      <text x="15" y="134" fill="#e2e8f0" font-size="11" font-weight="bold">การแสดงออกสรีระ</text>
+      <text x="170" y="134" fill="#cbd5e1" font-size="11">เปิดเผยโครงกะโหลก Tangad และฟัน Bansil</text>
+      <text x="400" y="134" fill="#94a3b8" font-size="11">บดบังรูปพรรณสรีระเดิมของโครงกระดูก</text>
+
+      <!-- Row 4 -->
+      <rect x="0" y="150" width="610" height="40" fill="#0f172a"/>
+      <text x="15" y="174" fill="#e2e8f0" font-size="11" font-weight="bold">ตัวอย่างเทียบเคียง</text>
+      <text x="170" y="167" fill="#cbd5e1" font-size="10.5">โอตอน, บูตูอัน, เซบู (ฟิลิปปินส์)</text>
+      <text x="170" y="182" fill="#cbd5e1" font-size="10.5">และอ๊อกแอว (ฟูนัน, เวียดนามใต้)</text>
+      <text x="400" y="167" fill="#94a3b8" font-size="10.5">หน้ากากทองคำเหลียว (Liao, จีน)</text>
+      <text x="400" y="182" fill="#94a3b8" font-size="10.5">และหน้ากากทองคำซานซิงตุย (Sanxingdui)</text>
+    </g>
+  </g>
+</svg>

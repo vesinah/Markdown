@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1080" font-family="sans-serif">
+  <!-- พื้นหลังแผนที่ (ที่ราบลุ่มน้ำท่วมถึง) -->
+  <rect x="0" y="0" width="1600" height="1080" fill="#F4EFE3"/>
+  <rect x="40" y="100" width="1520" height="850" fill="#EFE7D4" stroke="#93815F" stroke-width="2"/>
+
+  <!-- หัวเรื่อง -->
+  <text x="800" y="44" text-anchor="middle" font-size="32" font-weight="bold" fill="#24455C">ภาพที่ 3.1: ภูมิทัศน์ลุ่มน้ำอากูซันและตำแหน่งแหล่งโบราณคดีบูตูอัน</text>
+  <text x="800" y="76" text-anchor="middle" font-size="19" fill="#41586C">แผนผังเชิงสัญลักษณ์จัดวางตามคำบรรยายในเอกสารที่ใช้ มิใช่พิกัดเชิงเดินเครื่อง</text>
+
+  <!-- ทางทะเลด้านเหนือ -->
+  <rect x="40" y="100" width="1520" height="130" fill="#A9C9DD"/>
+  <text x="800" y="145" text-anchor="middle" font-size="22" font-weight="bold" fill="#1E415C">ทางทะเลภาคเหนือของสามเหลี่ยมปากน้ำ</text>
+  <text x="800" y="173" text-anchor="middle" font-size="17" fill="#2C5A78">ทิศทางออกสู่เครือข่ายการค้าทะเลจีนใต้ — คณะทูตการค้าจากปูดวน (บูตูอัน) ไปจีน ค.ศ. 1001</text>
+  <text x="800" y="199" text-anchor="middle" font-size="15" fill="#2C5A78">บันทึกประวัติศาสตร์จีน (ซ่งชื่อ) กล่าวถึงแคว้นเล็กที่ติดต่อสม่ำเสมอกับจามปา</text>
+
+  <!-- โซนสามเหลี่ยมปากน้ำภาคเหนือ -->
+  <polygon points="40,230 1560,230 1560,320 40,320" fill="#C7DEEA" opacity="0.55"/>
+  <text x="1460" y="262" text-anchor="end" font-size="17" font-weight="bold" fill="#2C5A78">สามเหลี่ยมปากน้ำ</text>
+  <text x="1460" y="284" text-anchor="end" font-size="15" fill="#2C5A78">(estuarine delta ทางภาคเหนือ)</text>
+
+  <!-- ชัยภูมิสามเหลี่ยมพื้นที่ชุ่มน้ำ (แบบจำลอง GIS) -->
+  <polygon points="880,320 700,900 1080,900" fill="#9DBB8F" opacity="0.28" stroke="#6E8F60" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="880" y="352" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A6B3A">ยอดสามเหลี่ยมพื้นที่ชุ่มน้ำ</text>
+  <text x="880" y="372" text-anchor="middle" font-size="14" fill="#4A6B3A">ทำเลท่าเรือที่ดีที่สุดตามแบบจำลองเชิงภูมิสารสนเทศ</text>
+
+  <!-- แม่น้ำอากูซัน -->
+  <path d="M1010,950 C1000,840 950,780 940,700 C930,620 960,540 930,470 C900,400 850,340 800,270 C780,250 770,240 760,230" fill="none" stroke="#4A7FA5" stroke-width="13" stroke-linecap="round"/>
+  <text x="1052" y="795" font-size="19" font-weight="bold" fill="#2C5A78" transform="rotate(-58 1052 795)">แม่น้ำอากูซัน</text>
+
+  <!-- แม่น้ำมาเซา (สาขาเก่าแก่) และปากออกทะเล -->
+  <path d="M810,300 C770,285 730,268 700,230" fill="none" stroke="#4A7FA5" stroke-width="8" stroke-linecap="round"/>
+  <text x="512" y="322" text-anchor="middle" font-size="16" font-weight="bold" fill="#2C5A78">แม่น้ำมาเซา</text>
+  <text x="512" y="342" text-anchor="middle" font-size="14" fill="#2C5A78">"สาขาใหญ่และเก่าแก่" ของแม่น้ำอากูซัน</text>
+  <circle cx="700" cy="222" r="7" fill="#1E415C"/>
+  <text x="714" y="215" font-size="15" font-weight="bold" fill="#1E415C">ท่าเรือมาเซา</text>
+
+  <!-- ลำธารซูอาตัน หนองบึง และบ่อเลี้ยงปลา -->
+  <ellipse cx="560" cy="430" rx="52" ry="26" fill="#9DBB8F" opacity="0.7"/>
+  <ellipse cx="612" cy="470" rx="40" ry="20" fill="#9DBB8F" opacity="0.7"/>
+  <path d="M570,445 C600,420 630,380 655,330 C660,318 668,306 678,296" fill="none" stroke="#6FA0BF" stroke-width="4" stroke-dasharray="7 5"/>
+  <text x="380" y="404" text-anchor="middle" font-size="15" font-weight="bold" fill="#3D5A33">หนองบึงและลำธารซูอาตัน</text>
+  <text x="380" y="424" text-anchor="middle" font-size="14" fill="#3D5A33">ระบายน้ำจากหนองบึงลงสู่แม่น้ำมาเซา</text>
+  <rect x="300" y="470" width="46" height="30" fill="#B8D4E8" stroke="#6FA0BF"/>
+  <rect x="352" y="470" width="46" height="30" fill="#B8D4E8" stroke="#6FA0BF"/>
+  <rect x="300" y="506" width="46" height="30" fill="#B8D4E8" stroke="#6FA0BF"/>
+  <rect x="352" y="506" width="46" height="30" fill="#B8D4E8" stroke="#6FA0BF"/>
+  <text x="372" y="562" text-anchor="middle" font-size="14" fill="#2C5A78">บ่อเลี้ยงปลาสมัยใหม่</text>
+  <text x="372" y="582" text-anchor="middle" font-size="13" fill="#2C5A78">(แหล่งซูอาตันบางส่วนจมน้ำในน้ำขึ้นสูง)</text>
+
+  <!-- แหล่งซูอาตัน -->
+  <rect x="600" y="446" width="18" height="18" fill="#A85B12" transform="rotate(45 609 455)"/>
+  <text x="640" y="640" font-size="16" font-weight="bold" fill="#7A3E0C">แหล่งซูอาตัน บาริโออัมบาโก</text>
+  <text x="640" y="660" font-size="14" fill="#7A3E0C">ขุดค้น ค.ศ. 1977 (กริด 2×2 ม. ลึกถึง 120 ซม.)</text>
+  <text x="640" y="680" font-size="14" fill="#7A3E0C">โลงไม้ + เครื่องประดับทองคำ–ทองแดง + เครื่องเคลือบ</text>
+  <line x1="612" y1="466" x2="636" y2="622" stroke="#A85B12" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- ร่องน้ำโบราณและโซนรัศมี 2 กิโลเมตร -->
+  <circle cx="900" cy="580" r="150" fill="none" stroke="#8A6A3A" stroke-width="2.5" stroke-dasharray="10 7"/>
+  <path d="M945,880 C935,790 900,720 895,650 C890,580 905,510 880,450 C860,400 840,360 830,318" fill="none" stroke="#8A6A3A" stroke-width="5" stroke-dasharray="12 8"/>
+  <text x="902" y="742" text-anchor="middle" font-size="14" font-weight="bold" fill="#6B4E22">ร่องน้ำโบราณ (คลองมาเซาปัจจุบัน)</text>
+
+  <!-- แหล่งเรือและพิพิธภัณฑ์แหล่ง -->
+  <circle cx="938" cy="560" r="11" fill="#3E7A3E"/>
+  <text x="962" y="548" font-size="15" font-weight="bold" fill="#2E5A2E">แหล่งขุดพบเรือบูตูอัน</text>
+  <text x="962" y="567" font-size="13.5" fill="#2E5A2E">ขุดเรือลำที่ 5 ที่บันคาซี ลิเบอร์ตัด ค.ศ. 1986</text>
+  <circle cx="872" cy="640" r="11" fill="#3E7A3E"/>
+  <text x="700" y="832" font-size="15" font-weight="bold" fill="#2E5A2E">พิพิธภัณฑ์แหล่งเรือบูตูอัน (ก่อสร้าง ค.ศ. 1980)</text>
+  <text x="700" y="851" font-size="13.5" fill="#2E5A2E">ครอบแหล่งขุดพบเรือบูตูอันลำที่ 1 พร้อมโลงไม้และแหล่งฝังศพศตวรรษที่ 14–15</text>
+  <line x1="872" y1="651" x2="840" y2="812" stroke="#3E7A3E" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- แหล่งหลายหน้าที่อัมบางัน -->
+  <polygon points="905,470 917,482 905,494 893,482" fill="#C9A227" stroke="#8A6E14" stroke-width="2"/>
+  <line x1="905" y1="482" x2="1064" y2="420" stroke="#8A6E14" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- ใจกลางนครบูตูอัน -->
+  <rect x="1064" y="756" width="26" height="20" fill="#5A4626"/>
+  <polygon points="1064,756 1077,742 1090,756" fill="#5A4626"/>
+  <text x="1104" y="771" font-size="16" font-weight="bold" fill="#41321B">ใจกลางนครบูตูอัน</text>
+  <path d="M1058,760 C1000,720 950,600 908,498" fill="none" stroke="#5A4626" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="1006" y="660" font-size="14" font-weight="bold" fill="#41321B" transform="rotate(63 1006 660)">ระยะราว 5 กิโลเมตร</text>
+
+  <!-- กรอบคำอธิบายแหล่งหลายหน้าที่อัมบางัน -->
+  <rect x="1066" y="300" width="470" height="290" rx="8" fill="#FDF8EC" stroke="#8A6E14" stroke-width="2"/>
+  <text x="1090" y="336" font-size="18" font-weight="bold" fill="#7A5A10">สีตีโออัมบางัน บารังไกย์ลิเบอร์ตัด</text>
+  <text x="1090" y="360" font-size="15" font-weight="bold" fill="#7A5A10">"แหล่งหลายหน้าที่" ก่อนยุคอาณานิคม ศตวรรษที่ 9–16</text>
+  <text x="1090" y="392" font-size="14.5" fill="#4A3A10">• ศูนย์การค้า และแหล่งที่อยู่อาศัย</text>
+  <text x="1090" y="418" font-size="14.5" fill="#4A3A10">• อ่างจอดเรือหรือท่าเรือ</text>
+  <text x="1090" y="444" font-size="14.5" fill="#4A3A10">• สถานที่ผลิตทองคำ โลหะ และแก้ว</text>
+  <text x="1090" y="470" font-size="14.5" fill="#4A3A10">• แหล่งฝังศพ: หลุมฝังศพโลงไม้ศตวรรษที่ 14–15</text>
+  <text x="1090" y="502" font-size="14.5" fill="#4A3A10">   บรรจุร่างที่ดัดแปลงกะโหลก (หน้าผากแบน)</text>
+  <text x="1090" y="528" font-size="14.5" fill="#4A3A10">   ร่วมกับเครื่องประดับทองคำและเครื่องเคลือบจีน</text>
+  <text x="1090" y="566" font-size="13.5" fill="#8A6E14">ซากเรือทั้งหมดฝังในตะกอนทราย–โคลึก ลึก 1–2 ม.</text>
+  <text x="1090" y="586" font-size="13.5" fill="#8A6E14">ภายในรัศมี 2 กม. รอบร่องน้ำโบราณ</text>
+
+  <!-- กรอบหมายเหตุแหล่งนอกผัง -->
+  <rect x="1066" y="620" width="470" height="200" rx="8" fill="#F2EEE2" stroke="#8A8158" stroke-width="1.5"/>
+  <text x="1090" y="654" font-size="17" font-weight="bold" fill="#5A5232">หมายเหตุแหล่งและสถานะที่ไม่ปรากฏตำแหน่งบนผัง</text>
+  <text x="1090" y="686" font-size="14.5" fill="#4A4428">• องค์ทองอากูซัน: พบที่ฝั่งซ้ายแม่น้ำวาวา ค.ศ. 1917</text>
+  <text x="1090" y="708" font-size="14.5" fill="#4A4428">   หลังพายุและน้ำท่วม (เอกสารไม่ระบุพิกัดบนผัง)</text>
+  <text x="1090" y="740" font-size="14.5" fill="#4A4428">• พิพิธภัณฑสถานแห่งชาติ ณ นครบูตูอัน ก่อตั้ง ค.ศ. 1978</text>
+  <text x="1090" y="772" font-size="14.5" fill="#4A4428">• สมบัติทางวัฒนธรรมแห่งชาติ ค.ศ. 1986 (ประกาศเลขที่ 86)</text>
+  <text x="1090" y="804" font-size="14.5" fill="#4A4428">• บัญชีรายชื่อเบื้องต้นมรดกโลก ยูเนสโก เลขทะเบียน 2071</text>
+
+  <!-- คำอธิบายสัญลักษณ์ -->
+  <rect x="60" y="856" width="540" height="86" rx="6" fill="#FBF7EA" stroke="#93815F" stroke-width="1.5"/>
+  <circle cx="86" cy="880" r="9" fill="#3E7A3E"/>
+  <text x="106" y="885" font-size="14" fill="#3A3418">แหล่งขุดพบเรือโบราณ</text>
+  <polygon points="240,872 250,882 240,892 230,882" fill="#C9A227" stroke="#8A6E14" stroke-width="1.5"/>
+  <text x="262" y="885" font-size="14" fill="#3A3418">แหล่งหลายหน้าที่และแหล่งฝังศพ</text>
+  <rect x="440" y="872" width="14" height="14" fill="#A85B12" transform="rotate(45 447 879)"/>
+  <text x="470" y="885" font-size="14" fill="#3A3418">แหล่งขุดค้นสุสาน</text>
+  <line x1="76" y1="918" x2="104" y2="918" stroke="#8A6A3A" stroke-width="3" stroke-dasharray="9 6"/>
+  <text x="112" y="923" font-size="14" fill="#3A3418">ร่องน้ำโบราณ</text>
+  <circle cx="240" cy="918" r="11" fill="none" stroke="#8A6A3A" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="262" y="923" font-size="14" fill="#3A3418">โซนรัศมี 2 กิโลเมตรรอบร่องน้ำโบราณ</text>
+  <rect x="440" y="910" width="16" height="16" fill="#B8D4E8" stroke="#6FA0BF"/>
+  <text x="470" y="923" font-size="14" fill="#3A3418">บ่อเลี้ยงปลา</text>
+
+  <!-- ข้อจำกัดภูมิทัศน์ -->
+  <text x="60" y="806" font-size="14.5" fill="#6B5B33">พื้นที่สีเบจทั้งแผ่น: ที่ราบลุ่มน้ำท่วมถึง (flood plain) ซึ่งเป็นธรณีสัณฐานของบูตูอันทั้งเมือง</text>
+
+  <!-- แถบที่มาข้อมูล -->
+  <rect x="40" y="958" width="1520" height="100" fill="#24455C"/>
+  <text x="60" y="990" font-size="15" fill="#E8EEF3">ที่มาข้อมูล: Burton, "Settlement and Burial Sites at Suatan, Butuan City," Philippine Studies 25 (1977); Stead และ Dizon, Proceedings of the Asia-Pacific Regional Conference on</text>
+  <text x="60" y="1012" font-size="15" fill="#E8EEF3">Underwater Cultural Heritage (2011); Lacsina (APCONF 2011; National Museum of Ethnology Research Report 47, 2022); Green, Vosmer, Clark, Santiago และ Alvares, Western Australian</text>
+  <text x="60" y="1034" font-size="15" fill="#E8EEF3">Maritime Museum Report No. 64 (1992); Canilao, Qeios (2023); Francisco, Asian Studies 1 (1963); พิพิธภัณฑสถานแห่งชาติฟิลิปปินส์: Butuan, Ambangan, Boat Site Museum</text>
+</svg>

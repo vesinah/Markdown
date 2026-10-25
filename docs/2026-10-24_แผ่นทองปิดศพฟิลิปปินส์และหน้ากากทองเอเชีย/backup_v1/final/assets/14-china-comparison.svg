@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1650 1000" font-family="sans-serif">
+  <rect width="1650" height="1000" fill="#faf8f2"/>
+  <text x="825" y="50" text-anchor="middle" font-size="34" font-weight="bold" fill="#3a2e1f">เทียบเคียงจีน: สามระบบการปิดหน้าผู้ตาย/เครื่องบูชาด้วยทอง</text>
+  <text x="825" y="86" text-anchor="middle" font-size="18" fill="#5a4a35">กู่ชู่ (บูชายัญ) — คีตันเหลียว (สวมเต็มร่าง) — อุษาคเนย์-ฟิลิปปินส์ (ปิดทวารหน้า) ตามเอกสารโครงการ</text>
+
+  <!-- สามคอลัมน์ -->
+  <!-- กู่ชู่ -->
+  <rect x="70" y="120" width="490" height="640" rx="14" fill="#fdf6e0" stroke="#8a6d2f" stroke-width="2"/>
+  <text x="315" y="160" text-anchor="middle" font-size="24" font-weight="bold" fill="#6b4f1d">ระบบกู่ชู่ (ซานซิงตุ้ย-จินชา)</text>
+  <text x="315" y="190" text-anchor="middle" font-size="16" fill="#8a7350">ยุคสำริดตะวันตก ~1200 ปีก่อน ค.ศ. +</text>
+  <!-- หัวสำริด + ทอง -->
+  <ellipse cx="315" cy="290" rx="80" ry="95" fill="#c9a06a" stroke="#8a6d2f" stroke-width="3"/>
+  <ellipse cx="315" cy="275" rx="62" ry="68" fill="#d4a017" opacity="0.85"/>
+  <text x="315" y="420" text-anchor="middle" font-size="16" fill="#4a3a20">หน้ากากทองปิด "หัวสำริด" รูปเคารพ</text>
+  <g font-size="15" fill="#4a3a20">
+    <text x="315" y="460" text-anchor="middle">• หน้ากากทองหลุม 5: 280 ก. (Au~85%)</text>
+    <text x="315" y="490" text-anchor="middle">• บริบท: หลุมบูชายัญ "เผาแล้วฝัง"</text>
+    <text x="315" y="520" text-anchor="middle">  (หลักฐาน chroma-magnetic)</text>
+    <text x="315" y="550" text-anchor="middle">• วัตถุถูก "ทำลายโดยเจตนา" อย่างเป็นระเบียบ</text>
+    <text x="315" y="580" text-anchor="middle">• จินชา: เขตพิธีริมแม่น้ำ ฝังซ้ำของมีค่า</text>
+    <text x="315" y="610" text-anchor="middle">• ผ่านเส้นทางสายไหมตะวันตกเฉียงใต้</text>
+    <text x="315" y="640" text-anchor="middle">• องค์ประกอบเทียบ: จินชา 83–94% Au</text>
+    <text x="315" y="670" text-anchor="middle">• ตรรกะ: ถวายเทพเจ้า — มิใช่หลุมศพ</text>
+  </g>
+
+  <!-- คีตันเหลียว -->
+  <rect x="580" y="120" width="490" height="640" rx="14" fill="#e8f0f7" stroke="#4a6d8c" stroke-width="2"/>
+  <text x="825" y="160" text-anchor="middle" font-size="24" font-weight="bold" fill="#2e4a63">ระบบคีตัน (ราชวงศ์เหลียว)</text>
+  <text x="825" y="190" text-anchor="middle" font-size="16" fill="#4a5d75">ค.ศ. 907–1125 + สืบทอดถึงคีร์กีซสถาน (โคคทาช)</text>
+  <!-- หน้าคน + mask + mesh -->
+  <circle cx="825" cy="290" r="80" fill="#f2d8c0" stroke="#4a6d8c" stroke-width="3"/>
+  <path d="M 760 260 Q 825 210 890 260 L 890 300 Q 825 345 760 300 Z" fill="#d4a017" opacity="0.9"/>
+  <line x1="760" y1="360" x2="890" y2="360" stroke="#999" stroke-width="2"/>
+  <line x1="760" y1="385" x2="890" y2="385" stroke="#999" stroke-width="2"/>
+  <line x1="760" y1="410" x2="890" y2="410" stroke="#999" stroke-width="2"/>
+  <text x="825" y="440" text-anchor="middle" font-size="15" fill="#2e3c52">หน้ากาก + ตาข่ายลวดร่าง + มงกุฎ + รองเท้า</text>
+  <g font-size="15" fill="#2e3c52">
+    <text x="825" y="480" text-anchor="middle">• เจ้าหญิงเฉิน (1018): หน้ากากทองเชื่อม</text>
+    <text x="825" y="510" text-anchor="middle">  ลวดเงินเข้าตาข่ายทั้งร่างบนแท่นอิฐ</text>
+    <text x="825" y="540" text-anchor="middle">• ลำดับชั้นวัสดุ: ทอง > เงิน > ทองแดงชุบ</text>
+    <text x="825" y="570" text-anchor="middle">• โคคทาช: ตาข่ายลวดสำริดพันกระดูก</text>
+    <text x="825" y="600" text-anchor="middle">  แต่ใช้วัสมุภาพเอเชียกลางท้องถิ่น</text>
+    <text x="825" y="630" text-anchor="middle">• บางหลุมมีหุ่นไม้รองรับเศษกระดูก</text>
+    <text x="825" y="660" text-anchor="middle">• ชุบปรอทพีค 6–10 ส.ค. (รองเท้าบูต 0.4 มม.)</text>
+    <text x="825" y="690" text-anchor="middle">• ตรรกะ: รักษาร่างชนชั้นสูงสุดเต็มชุด</text>
+  </g>
+
+  <!-- อุษาคเนย์ -->
+  <rect x="1090" y="120" width="490" height="640" rx="14" fill="#eef2e4" stroke="#5f7d4a" stroke-width="2"/>
+  <text x="1335" y="160" text-anchor="middle" font-size="24" font-weight="bold" fill="#3c5530">ระบบปิดทวารหน้า (อุษาคเนย์-ฟิลิปปินส์)</text>
+  <text x="1335" y="190" text-anchor="middle" font-size="16" fill="#4a6a4a">410 ปีก่อน ค.ศ. (จองลน) – ค.ศ. 1600 (มากัสซาร์)</text>
+  <!-- หน้าคนแผ่นทองทวาร -->
+  <circle cx="1335" cy="290" r="80" fill="#f7e7b8" stroke="#a67c1e" stroke-width="3"/>
+  <ellipse cx="1305" cy="270" rx="26" ry="12" fill="#d4a017"/><ellipse cx="1365" cy="270" rx="26" ry="12" fill="#d4a017"/>
+  <path d="M 1322 298 Q 1335 314 1348 298" stroke="#d4a017" stroke-width="6" fill="none"/>
+  <rect x="1300" y="326" width="70" height="16" rx="6" fill="#d4a017"/>
+  <text x="1335" y="420" text-anchor="middle" font-size="16" fill="#2e4430">แผ่นทองเฉพาะทวาร ตา/จมูก/ปาก</text>
+  <g font-size="15" fill="#2e4430">
+    <text x="1335" y="460" text-anchor="middle">• โอตอน: ตา+จมูก พบในตำแหน่งจริง 1967</text>
+    <text x="1335" y="490" text-anchor="middle">• เซบู: ครบสามทวาร + ต่างหูร่วมชุด</text>
+    <text x="1335" y="520" text-anchor="middle">• จองลน: ตา-จมูก 410–90 ปีก่อน ค.ศ.</text>
+    <text x="1335" y="550" text-anchor="middle">• มากัสซาร์: หน้ากาก+ตา-ปาก+อวัยวะ</text>
+    <text x="1335" y="580" text-anchor="middle">• ทองบริสุทธิ์ตีแผ่น ผลิตในบริบทหลุม</text>
+    <text x="1335" y="610" text-anchor="middle">• รูเจาะขอบเย็บยึดร่วมทั้งสองฟากทะเล</text>
+    <text x="1335" y="640" text-anchor="middle">• เอกลักษณ์ "จีนชายฝั่ง-ไต้หวัน-ISEA"</text>
+    <text x="1335" y="670" text-anchor="middle">  ของผู้พูดออสโตรนีเชียน (CCP อ้าง Miksic)</text>
+    <text x="1335" y="700" text-anchor="middle">• ตรรกะ: ผนึกประตูร่างคนตาย</text>
+  </g>
+
+  <!-- แถบสรุป -->
+  <rect x="70" y="780" width="1510" height="120" rx="14" fill="#f5efe0" stroke="#8a6d2f" stroke-width="2"/>
+  <text x="825" y="818" text-anchor="middle" font-size="19" font-weight="bold" fill="#4a3a20">ข้อสรุป: สามตรรกะต่างกัน — ถวายเทพ / รักษาร่าง / ผนึกทวาร — แต่ทองทำหน้าที่ "ภาษาสถานะกลาง" ร่วมทั้งเอเชีย</text>
+  <text x="825" y="852" text-anchor="middle" font-size="16" fill="#5a4a35">การเชื่อมโยงข้ามระบบยังเป็นคำถามเปิด: แนวจีนชายฝั่งใต้เป็นสะพานที่เป็นไปได้ตามข้อเสนอภูมิวัฒนธรรม แต่ยังไม่มีหลักฐานตรงในเอกสารชุดนี้</text>
+  <text x="825" y="882" text-anchor="middle" font-size="15" fill="#7a6a4a" font-style="italic">เอเชียจึงมีอย่างน้อยสามตรรกะของการปิดหน้าด้วยทองที่ดำรงอยู่พร้อมกันต่อเนื่องกว่าสามสหัสวรรษ</text>
+
+  <rect x="0" y="920" width="1650" height="80" fill="#efe8d8"/>
+  <text x="825" y="952" text-anchor="middle" font-size="15" fill="#4a3a20">ที่มาข้อมูล: Li et al., Antiquity 97/391 (2023); Guo et al., Heritage Science 11 (2023); Lin, Asian Perspectives 58/2 (2019); Elias, BSOAS 87 (2024); Gong et al., Heritage Science 12 (2024);</text>
+  <text x="825" y="978" text-anchor="middle" font-size="15" fill="#4a3a20">Steinhardt, Asian Perspectives 37/2 (1998); Biran et al., JRAS Ser.3 33 (2023); Waugh, The Silk Road 15 (2017); Shao et al., AAS 15 (2023); Reinecke &amp; Nguyen, Arts of Asia 39/5 (2009); Bougas, Archipel 73 (2007); NMP; CCP Encyclopedia (2020); Villegas, Ginto (2004)</text>
+</svg>

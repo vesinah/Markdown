@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1650 1060" font-family="sans-serif">
+  <rect width="1650" height="1060" fill="#faf8f2"/>
+  <text x="825" y="52" text-anchor="middle" font-size="36" font-weight="bold" fill="#3a2e1f">การกำหนดอายุทางวิทยาศาสตร์และองค์ประกอบโลหะของสุสานแผ่นทอง</text>
+  <text x="825" y="90" text-anchor="middle" font-size="19" fill="#5a4a35">สิ่งที่วัดแล้ว สิ่งที่กำกับโดยสถาบัน และสิ่งที่ยังไม่ได้วัด — ตามเอกสารโครงการเท่านั้น</text>
+
+  <!-- ตารางสรุปวิธีวิทยาศาสตร์ -->
+  <rect x="70" y="120" width="1510" height="500" rx="14" fill="#fdf6e0" stroke="#8a6d2f" stroke-width="2"/>
+  <text x="825" y="158" text-anchor="middle" font-size="22" font-weight="bold" fill="#6b4f1d">ตารางสรุปความรู้วิทยาศาสตร์ของโครงการ</text>
+  <g font-size="15" fill="#4a3a20">
+    <rect x="100" y="180" width="230" height="56" fill="#8a6d2f"/><text x="215" y="203" text-anchor="middle" fill="#fff" font-weight="bold">วิธีการ</text><text x="215" y="224" text-anchor="middle" fill="#f2e8d0" font-size="13">Method</text>
+    <rect x="330" y="180" width="330" height="56" fill="#8a6d2f"/><text x="495" y="203" text-anchor="middle" fill="#fff" font-weight="bold">แหล่ง/วัตถุที่วัดแล้ว</text><text x="495" y="224" text-anchor="middle" fill="#f2e8d0" font-size="13">Measured on</text>
+    <rect x="660" y="180" width="430" height="56" fill="#8a6d2f"/><text x="875" y="203" text-anchor="middle" fill="#fff" font-weight="bold">ผลหลัก</text><text x="875" y="224" text-anchor="middle" fill="#f2e8d0" font-size="13">Key result</text>
+    <rect x="1090" y="180" width="460" height="56" fill="#8a6d2f"/><text x="1320" y="203" text-anchor="middle" fill="#fff" font-weight="bold">สถานะต่อแผ่นทองปิดศพ</text><text x="1320" y="224" text-anchor="middle" fill="#f2e8d0" font-size="13">Status for the gold masks</text>
+
+    <rect x="100" y="236" width="230" height="66" fill="#fffbe8" stroke="#c9b787"/><text x="215" y="262" text-anchor="middle" font-weight="bold">คาร์บอน-14</text><text x="215" y="284" text-anchor="middle" font-size="14">(Stead-Dizon 2011)</text>
+    <rect x="330" y="236" width="330" height="66" fill="#fffbe8" stroke="#c9b787"/><text x="495" y="262" text-anchor="middle">เรือบาลังไกย์บูตูอัน 3 ลำ</text><text x="495" y="284" text-anchor="middle" font-size="14">(รายงานโดย Ronquillo 1987)</text>
+    <rect x="660" y="236" width="430" height="66" fill="#fffbe8" stroke="#c9b787"/><text x="875" y="262" text-anchor="middle">320±110 / 990±70 / 1250±90 ค.ศ.</text><text x="875" y="284" text-anchor="middle" font-size="14" fill="#8a5a2a">"กว้างเกินจนน่าสงสัย" เทียบเครื่องถ้วยหยวน-หมิง</text>
+    <rect x="1090" y="236" width="460" height="66" fill="#fffbe8" stroke="#c9b787"/><text x="1320" y="262" text-anchor="middle">บริบทเวลากว้างของแหล่งบูตูอัน</text><text x="1320" y="284" text-anchor="middle" font-size="14">ต้องใช้ 3 เสาร่วมกัน (C14 + เครื่องถ้วย + เอกสาร)</text>
+
+    <rect x="100" y="302" width="230" height="60" fill="#f6f0e0" stroke="#c9b787"/><text x="215" y="328" text-anchor="middle" font-weight="bold">เอกสารทูตจีน</text><text x="215" y="348" text-anchor="middle" font-size="14">(Stead-Dizon; San Andres)</text>
+    <rect x="330" y="302" width="330" height="60" fill="#f6f0e0" stroke="#c9b787"/><text x="495" y="328" text-anchor="middle">บูตูอัน (ผูตวน) ค.ศ. 1001</text>
+    <rect x="660" y="302" width="430" height="60" fill="#f6f0e0" stroke="#c9b787"/><text x="875" y="328" text-anchor="middle">ทูตการค้าครั้งแรกจากฟิลิปปินส์สู่ราชสำนักซ่ง</text>
+    <rect x="1090" y="302" width="460" height="60" fill="#f6f0e0" stroke="#c9b787"/><text x="1320" y="328" text-anchor="middle">เสาเวลาเชิงเอกสารของท่าเรือศตวรรษที่ 11</text>
+
+    <rect x="100" y="362" width="230" height="66" fill="#fffbe8" stroke="#c9b787"/><text x="215" y="388" text-anchor="middle" font-weight="bold">กำกับอายุสถาบัน</text><text x="215" y="410" text-anchor="middle" font-size="14">(NMP Gallery; CCP; NMP 2022)</text>
+    <rect x="330" y="362" width="330" height="66" fill="#fffbe8" stroke="#c9b787"/><text x="495" y="388" text-anchor="middle">ชุดโอตอน / หลุมเซบู</text>
+    <rect x="660" y="362" width="430" height="66" fill="#fffbe8" stroke="#c9b787"/><text x="875" y="388" text-anchor="middle">โอตอน: ปลาย 14 ต้น 15 (ยุคการค้า)</text><text x="875" y="410" text-anchor="middle" font-size="14">เซบู: หลุมศพ 14–15 + ชุมชนเซบูโน่ ศตวรรษ 15</text>
+    <rect x="1090" y="362" width="460" height="66" fill="#fffbe8" stroke="#c9b787"/><text x="1320" y="388" text-anchor="middle">อายุหลักของสองแหล่งวิซายา (ระดับวัตถุ/หลุม)</text><text x="1320" y="410" text-anchor="middle" font-size="14">มั่นคงที่สุดในบรรดาคำถามเวลา</text>
+
+    <rect x="100" y="428" width="230" height="66" fill="#f6f0e0" stroke="#c9b787"/><text x="215" y="454" text-anchor="middle" font-weight="bold">ไอโซโทป C-N</text><text x="215" y="476" text-anchor="middle" font-size="14">(Garong et al. 2010)</text>
+    <rect x="330" y="428" width="330" height="66" fill="#f6f0e0" stroke="#c9b787"/><text x="495" y="454" text-anchor="middle">กระดูก/ผม 61 ราย 5 แหล่ง</text>
+    <rect x="660" y="428" width="430" height="66" fill="#f6f0e0" stroke="#c9b787"/><text x="875" y="454" text-anchor="middle">โปรตีนพึ่งทะเล &gt; ทางบก</text><text x="875" y="476" text-anchor="middle" font-size="14">ค่าแปรตามประเภทการฝัง: หลุมเรือ/ไห &gt; หลุมปฐมภูมิ</text>
+    <rect x="1090" y="428" width="460" height="66" fill="#f6f0e0" stroke="#c9b787"/><text x="1320" y="454" text-anchor="middle">มิติอาหาร+ระบบสุสาน — แบบจำลองตรง</text><text x="1320" y="476" text-anchor="middle" font-size="14">สำหรับการตรวจกระดูกหลุมแผ่นทองในอนาคต</text>
+
+    <rect x="100" y="494" width="230" height="66" fill="#fffbe8" stroke="#c9b787"/><text x="215" y="520" text-anchor="middle" font-weight="bold">องค์ประกอบโลหะ</text><text x="215" y="542" text-anchor="middle" font-size="14">(Atienza; Schlosser; Gong)</text>
+    <rect x="330" y="494" width="330" height="66" fill="#fffbe8" stroke="#c9b787"/><text x="495" y="520" text-anchor="middle">หมุดฟัน / ทองโปรเฮียร์ / แผ่นฮั่น</text>
+    <rect x="660" y="494" width="430" height="66" fill="#fffbe8" stroke="#c9b787"/><text x="875" y="520" text-anchor="middle">ฟัน: Au-Ag-Cu ทองหลัก | โปรเฮียร์: Ag99–Au95 + ดีบุกชี้พลาเซอร์</text><text x="875" y="542" text-anchor="middle" font-size="14">ฮั่น: ความหนา 26 μm ทอง 96–98% (เทียบจินชา 83–94%)</text>
+    <rect x="1090" y="494" width="460" height="66" fill="#fffbe8" stroke="#c9b787"/><text x="1320" y="520" text-anchor="middle">กรอบเทียบเชิงวัสดุรอบตัวแผ่นฟิลิปปินส์</text><text x="1320" y="542" text-anchor="middle" font-size="14">แผ่นทองโอตอน/เซบู ยังไม่มีการวัดตรง — ช่องว่างอันดับ 1</text>
+
+    <rect x="100" y="560" width="230" height="50" fill="#f6f0e0" stroke="#c9b787"/><text x="215" y="582" text-anchor="middle" font-weight="bold">pXRF ของสถาบัน</text><text x="215" y="600" text-anchor="middle" font-size="14">(NMP 2020 Annual)</text>
+    <rect x="330" y="560" width="330" height="50" fill="#f6f0e0" stroke="#c9b787"/><text x="495" y="590" text-anchor="middle">ปิโลนซิโตส; ลูกปัดหุบเขาอากูซัน</text>
+    <rect x="660" y="560" width="430" height="50" fill="#f6f0e0" stroke="#c9b787"/><text x="875" y="590" text-anchor="middle">โครงการวิเคราะห์ทอง-โลหะของ NMP ดำเนินอยู่จริง</text>
+    <rect x="1090" y="560" width="460" height="50" fill="#f6f0e0" stroke="#c9b787"/><text x="1320" y="590" text-anchor="middle">เครื่องมือพร้อมใช้กับแผ่นทองทั้งสองชุดโดยไม่ทำลาย</text>
+  </g>
+
+  <!-- ข้อเสนอวิจัย 5 ขั้น -->
+  <rect x="70" y="640" width="1510" height="230" rx="14" fill="#eef2e4" stroke="#5f7d4a" stroke-width="2"/>
+  <text x="825" y="678" text-anchor="middle" font-size="22" font-weight="bold" fill="#3c5530">ข้อเสนอลำดับงานห้องปฏิบัติการอนาคต (จากสถานะเครื่องมือที่มีจริง)</text>
+  <g font-size="16" fill="#2e4430">
+    <rect x="100" y="700" width="280" height="70" rx="8" fill="#f8faf2" stroke="#7d9a68"/><text x="240" y="726" text-anchor="middle" font-weight="bold">1. pXRF แผ่นทองทั้งสองชุด</text><text x="240" y="748" text-anchor="middle" font-size="14">ไม่ทำลายวัตถุ ใช้เครื่องมือ NMP</text>
+    <rect x="400" y="700" width="280" height="70" rx="8" fill="#f8faf2" stroke="#7d9a68"/><text x="540" y="726" text-anchor="middle" font-weight="bold">2. วัดความหนา μm</text><text x="540" y="748" text-anchor="middle" font-size="14">ตามแบบแผนงานแผ่นทองฮั่น (Gong)</text>
+    <rect x="700" y="700" width="280" height="70" rx="8" fill="#f8faf2" stroke="#7d9a68"/><text x="840" y="726" text-anchor="middle" font-weight="bold">3. AMS กระดูกหลุมแผ่นทอง</text><text x="840" y="748" text-anchor="middle" font-size="14">ปิดช่องว่างคาร์บอนของ 3 แหล่ง</text>
+    <rect x="1000" y="700" width="280" height="70" rx="8" fill="#f8faf2" stroke="#7d9a68"/><text x="1140" y="726" text-anchor="middle" font-weight="bold">4. ไอโซโทป C-N กระดูก</text><text x="1140" y="748" text-anchor="middle" font-size="14">เทียบฐานข้อมูล 61 รายเดิม</text>
+    <rect x="1300" y="700" width="250" height="70" rx="8" fill="#f8faf2" stroke="#7d9a68"/><text x="1425" y="726" text-anchor="middle" font-weight="bold">5. วิเคราะห์เศษทองรอบหลุม</text><text x="1425" y="748" text-anchor="middle" font-size="14">หลักฐานผลิตในบริบทหลุม</text>
+    <text x="825" y="828" text-anchor="middle" fill="#4a6a4a" font-style="italic" font-size="16">ทุกขั้นใช้เครื่องมือที่มีอยู่ในสถาบันของฟิลิปปินส์เป็นหลัก — ทะเบียนช่องว่างและแผนงานส่งมอบพร้อมกัน</text>
+  </g>
+
+  <rect x="0" y="900" width="1650" height="160" fill="#efe8d8"/>
+  <text x="825" y="938" text-anchor="middle" font-size="16" fill="#4a3a20">ที่มาข้อมูล: Stead &amp; Dizon, APConf UWH (2011); San Andres, BEADS 35 (2023); Garong et al., 比較社会文化 16 (2010); Atienza, Acta Medica Philippina 48/1 (2014);</text>
+  <text x="825" y="966" text-anchor="middle" font-size="16" fill="#4a3a20">Schlosser et al., Journal of Archaeological Science 39 (2012); Gong et al., Heritage Science 12 (2024); Shao et al., Archaeological and Anthropological Sciences 15 (2023);</text>
+  <text x="825" y="994" text-anchor="middle" font-size="16" fill="#4a3a20">NMP (Oton Gallery; Plaza Independencia 2022; Cebu List 2023; 2020 Annual Report); Benitez-Johannot, CCP Encyclopedia Digital (2020); Peterson et al., SPAFA Journal 4 (2020)</text>
+</svg>

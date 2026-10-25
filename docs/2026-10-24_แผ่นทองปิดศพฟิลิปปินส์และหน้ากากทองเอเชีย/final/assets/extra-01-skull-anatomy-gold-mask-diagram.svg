@@ -1,0 +1,343 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" width="100%" height="100%" style="background-color: #0b0f19; font-family: 'Segoe UI', 'Sarabun', 'Helvetica Neue', sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a12" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <!-- Gold Foil Gradient -->
+    <linearGradient id="goldSheetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="35%" stop-color="#f59e0b" />
+      <stop offset="70%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+
+    <!-- Bone Gradient -->
+    <linearGradient id="boneGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f1f5f9" />
+      <stop offset="50%" stop-color="#cbd5e1" />
+      <stop offset="100%" stop-color="#94a3b8" />
+    </linearGradient>
+
+    <!-- Malachite Patina Gradient -->
+    <linearGradient id="malachiteGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#047857" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- Panel Card Gradients -->
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feFlood flood-color="#fbbf24" flood-opacity="0.4" result="color" />
+      <feComposite in2="blur" operator="in" />
+      <feComposite in="SourceGraphic" operator="over" />
+    </filter>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="3" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.7" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="1100" fill="url(#bgDark)" />
+
+  <!-- Blueprint Grid Overlay -->
+  <g opacity="0.04" stroke="#38bdf8" stroke-width="1">
+    <path d="M 0,100 L 1600,100 M 0,200 L 1600,200 M 0,300 L 1600,300 M 0,400 L 1600,400 M 0,500 L 1600,500 M 0,600 L 1600,600 M 0,700 L 1600,700 M 0,800 L 1600,800 M 0,900 L 1600,900 M 0,1000 L 1600,1000" />
+    <path d="M 100,0 L 100,1100 M 200,0 L 200,1100 M 300,0 L 300,1100 M 400,0 L 400,1100 M 500,0 L 500,1100 M 600,0 L 600,1100 M 700,0 L 700,1100 M 800,0 L 800,1100 M 900,0 L 900,1100 M 1000,0 L 1000,1100 M 1100,0 L 1100,1100 M 1200,0 L 1200,1100 M 1300,0 L 1300,1100 M 1400,0 L 1400,1100 M 1500,0 L 1500,1100" />
+  </g>
+
+  <!-- TITLE BLOCK -->
+  <g id="titleBlock" transform="translate(80, 45)">
+    <rect x="0" y="0" width="8" height="65" fill="#f59e0b" rx="4" />
+    <text x="25" y="28" fill="#f8fafc" font-size="26" font-weight="bold" letter-spacing="0.5">แผนผังชันสูตรกายวิภาคและทาโฟโนมี: การจัดวางแผ่นทองคำปิดทวารสรีระบนกะโหลกศีรษะ</text>
+    <text x="25" y="55" fill="#94a3b8" font-size="16">FORENSIC ANATOMICAL &amp; TAPHONOMIC MODEL: PRECOLONIAL MORTUARY GOLD ORIFICE COVERS IN SITU</text>
+  </g>
+
+  <!-- CENTRAL ANATOMICAL DISPLAY (SKULL + GOLD PLATES IN SITU) -->
+  <g id="centralCranium" transform="translate(680, 520)" filter="url(#shadow)">
+    <!-- Base Layer: Cranium Outline (Anterior View) -->
+    <!-- Neurocranium / Vault -->
+    <path d="M -160,-220 C -160,-320 -100,-390 0,-390 C 100,-390 160,-320 160,-220 C 160,-120 180,-30 150,60 C 130,120 90,160 70,220 C 60,250 50,260 0,260 C -50,260 -60,250 -70,220 C -90,160 -130,120 -150,60 C -180,-30 -160,-120 -160,-220 Z" fill="url(#boneGrad)" stroke="#475569" stroke-width="3" />
+
+    <!-- Cranial Sutures (Coronal & Metopic Traces) -->
+    <path d="M -130,-270 Q -60,-260 0,-280 Q 60,-260 130,-270" fill="none" stroke="#64748b" stroke-width="1.8" stroke-dasharray="3,2" opacity="0.7" />
+    <path d="M 0,-280 L 0,-180" fill="none" stroke="#64748b" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.6" />
+
+    <!-- Supraorbital Ridges / Glabella -->
+    <path d="M -110,-140 Q -60,-165 -15,-150 Q 0,-145 15,-150 Q 60,-165 110,-140" fill="none" stroke="#475569" stroke-width="3.5" />
+
+    <!-- Left & Right Orbital Cavities (Bony Sockets) -->
+    <ellipse cx="-65" cy="-90" rx="46" ry="40" fill="#1e293b" stroke="#334155" stroke-width="3" />
+    <ellipse cx="65" cy="-90" rx="46" ry="40" fill="#1e293b" stroke="#334155" stroke-width="3" />
+
+    <!-- Piriform Aperture (Nasal Cavity Opening) -->
+    <path d="M 0,-60 C -18,-50 -26,-10 -18,30 C -10,50 0,55 0,55 C 0,55 10,50 18,30 C 26,-10 18,-50 0,-60 Z" fill="#0f172a" stroke="#334155" stroke-width="3" />
+    <line x1="0" y1="-50" x2="0" y2="40" stroke="#334155" stroke-width="2" />
+
+    <!-- Zygomatic Arches (Cheekbones) -->
+    <path d="M -110,-70 C -150,-40 -155,20 -125,70" fill="none" stroke="#475569" stroke-width="3.5" />
+    <path d="M 110,-70 C 150,-40 155,20 125,70" fill="none" stroke="#475569" stroke-width="3.5" />
+
+    <!-- Maxilla & Dentition (Upper Jaw with Gold Inlays) -->
+    <path d="M -70,110 C -50,115 -20,118 0,118 C 20,118 50,115 70,110 L 65,160 C 40,165 20,168 0,168 C -20,168 -40,165 -65,160 Z" fill="#e2e8f0" stroke="#475569" stroke-width="2.5" />
+    
+    <!-- Teeth Slots -->
+    <g stroke="#64748b" stroke-width="1.5" fill="#f8fafc">
+      <!-- Upper Incisors & Canines -->
+      <rect x="-10" y="122" width="9" height="18" rx="2" />
+      <rect x="1" y="122" width="9" height="18" rx="2" />
+      <rect x="-21" y="122" width="9" height="17" rx="2" />
+      <rect x="12" y="122" width="9" height="17" rx="2" />
+      <rect x="-31" y="122" width="8" height="16" rx="2" />
+      <rect x="23" y="122" width="8" height="16" rx="2" />
+      <!-- Gold Tooth Peg Inlays (Pusad / Bansil) -->
+      <circle cx="-5.5" cy="130" r="2.2" fill="#fbbf24" stroke="#b45309" stroke-width="0.8" />
+      <circle cx="5.5" cy="130" r="2.2" fill="#fbbf24" stroke="#b45309" stroke-width="0.8" />
+      <polygon points="-16.5,128 -14.5,132 -18.5,132" fill="#fbbf24" stroke="#b45309" stroke-width="0.6" />
+      <polygon points="16.5,128 14.5,132 18.5,132" fill="#fbbf24" stroke="#b45309" stroke-width="0.6" />
+    </g>
+
+    <!-- Malachite Staining Patches (Chemical Contact Zone) -->
+    <ellipse cx="-65" cy="-60" rx="35" ry="12" fill="url(#malachiteGrad)" opacity="0.6" />
+    <ellipse cx="65" cy="-60" rx="35" ry="12" fill="url(#malachiteGrad)" opacity="0.6" />
+    <ellipse cx="0" cy="50" rx="22" ry="8" fill="url(#malachiteGrad)" opacity="0.6" />
+
+    <!-- OVERLAID BEATEN GOLD MORTUARY ORIFICE COVERS -->
+
+    <!-- 1. OCULAR GOLD PLAQUE (EYE COVERS) -->
+    <g id="goldOcularCover" filter="url(#goldGlow)">
+      <!-- Left Eye Sheet (Shuttle/Leaf Shape) -->
+      <path d="M -125,-90 Q -65,-128 -5,-90 Q -65,-52 -125,-90 Z" fill="url(#goldSheetGrad)" stroke="#fef08a" stroke-width="2" />
+      <!-- Right Eye Sheet -->
+      <path d="M 5,-90 Q 65,-128 125,-90 Q 65,-52 5,-90 Z" fill="url(#goldSheetGrad)" stroke="#fef08a" stroke-width="2" />
+      
+      <!-- Central Inter-Ocular Connecting Bridge (Oton style) -->
+      <rect x="-10" y="-96" width="20" height="12" rx="3" fill="url(#goldSheetGrad)" stroke="#fef08a" stroke-width="1.5" />
+
+      <!-- Repoussé Embossed Pupils and Concentric Rings -->
+      <ellipse cx="-65" cy="-90" rx="14" ry="12" fill="none" stroke="#78350f" stroke-width="2" />
+      <ellipse cx="-65" cy="-90" rx="8" ry="7" fill="none" stroke="#78350f" stroke-width="1.8" />
+      <circle cx="-65" cy="-90" r="4" fill="#fef08a" stroke="#78350f" stroke-width="1.5" />
+
+      <ellipse cx="65" cy="-90" rx="14" ry="12" fill="none" stroke="#78350f" stroke-width="2" />
+      <ellipse cx="65" cy="-90" rx="8" ry="7" fill="none" stroke="#78350f" stroke-width="1.8" />
+      <circle cx="65" cy="-90" r="4" fill="#fef08a" stroke="#78350f" stroke-width="1.5" />
+
+      <!-- Repoussé Dotted Perimeter (Stippling / Granule Effect) -->
+      <g fill="#78350f" opacity="0.8">
+        <circle cx="-115" cy="-90" r="1.5" /><circle cx="-100" cy="-105" r="1.5" /><circle cx="-80" cy="-114" r="1.5" /><circle cx="-50" cy="-114" r="1.5" /><circle cx="-30" cy="-105" r="1.5" /><circle cx="-15" cy="-90" r="1.5" />
+        <circle cx="-100" cy="-75" r="1.5" /><circle cx="-80" cy="-66" r="1.5" /><circle cx="-50" cy="-66" r="1.5" /><circle cx="-30" cy="-75" r="1.5" />
+        <circle cx="15" cy="-90" r="1.5" /><circle cx="30" cy="-105" r="1.5" /><circle cx="50" cy="-114" r="1.5" /><circle cx="80" cy="-114" r="1.5" /><circle cx="100" cy="-105" r="1.5" /><circle cx="115" cy="-90" r="1.5" />
+        <circle cx="30" cy="-75" r="1.5" /><circle cx="50" cy="-66" r="1.5" /><circle cx="80" cy="-66" r="1.5" /><circle cx="100" cy="-75" r="1.5" />
+      </g>
+
+      <!-- Corner Perforations & Binding Cord (Abaca vegetable fiber) -->
+      <circle cx="-120" cy="-90" r="3" fill="#0f172a" stroke="#fef08a" stroke-width="1" />
+      <circle cx="120" cy="-90" r="3" fill="#0f172a" stroke="#fef08a" stroke-width="1" />
+      
+      <!-- Cords Wrapping to Temple/Occipital Bone -->
+      <path d="M -120,-90 C -150,-95 -165,-120 -185,-140" fill="none" stroke="#d97706" stroke-width="2" stroke-dasharray="4,2" />
+      <path d="M 120,-90 C 150,-95 165,-120 185,-140" fill="none" stroke="#d97706" stroke-width="2" stroke-dasharray="4,2" />
+    </g>
+
+    <!-- 2. NASAL GOLD PLAQUE (TRIANGULAR NOSE COVER) -->
+    <g id="goldNasalCover" filter="url(#goldGlow)">
+      <!-- Triangular Sheet Over Piriform Aperture -->
+      <polygon points="0,-82 -32,45 32,45" fill="url(#goldSheetGrad)" stroke="#fef08a" stroke-width="2" />
+      <!-- Central Ridge Line (Nasal Dorsum Embossing) -->
+      <line x1="0" y1="-80" x2="0" y2="40" stroke="#78350f" stroke-width="2.5" />
+      <!-- Stylized Wing/Alae Fluting -->
+      <path d="M -22,25 Q -10,38 0,40 Q 10,38 22,25" fill="none" stroke="#78350f" stroke-width="2" />
+      <!-- Apex & Base Perforations -->
+      <circle cx="0" cy="-75" r="2.5" fill="#0f172a" stroke="#fef08a" stroke-width="1" />
+      <circle cx="-25" cy="38" r="2.5" fill="#0f172a" stroke="#fef08a" stroke-width="1" />
+      <circle cx="25" cy="38" r="2.5" fill="#0f172a" stroke="#fef08a" stroke-width="1" />
+    </g>
+
+    <!-- 3. LABIAL / ORAL GOLD PLAQUE (MOUTH COVER) -->
+    <g id="goldLabialCover" filter="url(#goldGlow)">
+      <!-- Oblong / Crescent Mouth Plate -->
+      <path d="M -55,148 Q 0,135 55,148 Q 0,165 -55,148 Z" fill="url(#goldSheetGrad)" stroke="#fef08a" stroke-width="1.8" />
+      <!-- Slit / Central Cutout (Oton variant) -->
+      <line x1="-30" y1="149" x2="30" y2="149" stroke="#78350f" stroke-width="2" />
+      <!-- End Piercings -->
+      <circle cx="-48" cy="148" r="2" fill="#0f172a" stroke="#fef08a" stroke-width="0.8" />
+      <circle cx="48" cy="148" r="2" fill="#0f172a" stroke="#fef08a" stroke-width="0.8" />
+    </g>
+  </g>
+
+  <!-- CALLOUT LABELS & ANATOMICAL LEADER LINES -->
+
+  <!-- Callout 1: Ocular Cover (Top-Left) -->
+  <g transform="translate(80, 150)">
+    <rect width="360" height="175" rx="12" fill="url(#panelGrad)" stroke="#f59e0b" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="360" height="34" rx="12" fill="#78350f" />
+    <text x="18" y="23" fill="#fef08a" font-size="15" font-weight="bold">1. แผ่นทองคำปิดตา (Ocular Plaque / Cover)</text>
+    <g transform="translate(18, 48)" font-size="12" fill="#e2e8f0">
+      <text x="0" y="16" font-weight="600" fill="#fbbf24">• สัณฐานวิทยา:</text>
+      <text x="80" y="16">ทรงกระสวยดวงตา (Shuttle/Leaf) ดุนม่านตานูน</text>
+      <text x="0" y="36" font-weight="600" fill="#fbbf24">• ขนาดและมิติ:</text>
+      <text x="80" y="36">กว้าง 62–70 มม. สูง 25–30 มม. หนา 0.15–0.25 มม.</text>
+      <text x="0" y="56" font-weight="600" fill="#fbbf24">• บริบทกายวิภาค:</text>
+      <text x="95" y="56">วางทับเบ้าตา (Orbit) ปิดกั้นมลทินและวิญญาณ</text>
+      <text x="0" y="76" font-weight="600" fill="#fbbf24">• การยึดตรึง:</text>
+      <text x="75" y="76">เจาะรูมุมแผ่น ร้อยเส้นใยอะบากาผูกรัดรอบศีรษะ</text>
+      <text x="0" y="96" font-weight="600" fill="#fbbf24">• แหล่งที่พบ:</text>
+      <text x="75" y="96">โอตอน (หลุม 6), เซบู (ปลาซา), ซูอาตัน บูตูอัน</text>
+    </g>
+    <!-- Pointer Line to Left Eye -->
+    <path d="M 360,90 L 530,90 L 615,430" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4,4" />
+    <circle cx="615" cy="430" r="4" fill="#f59e0b" />
+  </g>
+
+  <!-- Callout 2: Nasal Cover (Bottom-Left) -->
+  <g transform="translate(80, 400)">
+    <rect width="360" height="175" rx="12" fill="url(#panelGrad)" stroke="#38bdf8" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="360" height="34" rx="12" fill="#0369a1" />
+    <text x="18" y="23" fill="#e0f2fe" font-size="15" font-weight="bold">2. แผ่นทองคำปิดจมูก (Nasal Plaque / Cover)</text>
+    <g transform="translate(18, 48)" font-size="12" fill="#e2e8f0">
+      <text x="0" y="16" font-weight="600" fill="#38bdf8">• สัณฐานวิทยา:</text>
+      <text x="80" y="16">ทรงสามเหลี่ยมยอดแหลม ดุนสันดั้งจมูกนูน</text>
+      <text x="0" y="36" font-weight="600" fill="#38bdf8">• ขนาดและมิติ:</text>
+      <text x="80" y="36">ฐานกว้าง 32–38 มม. สูง 45–52 มม. หนา 0.18 มม.</text>
+      <text x="0" y="56" font-weight="600" fill="#38bdf8">• บริบทกายวิภาค:</text>
+      <text x="95" y="56">ครอบทับโพรงจมูก (Piriform Aperture)</text>
+      <text x="0" y="76" font-weight="600" fill="#38bdf8">• การเชื่อมต่อ:</text>
+      <text x="75" y="76">เชื่อมต่อกับแผ่นปิดตา (โอตอน) หรือแยกชิ้น (เซบู)</text>
+      <text x="0" y="96" font-weight="600" fill="#38bdf8">• สัญลักษณ์:</text>
+      <text x="70" y="96">สะกดลมหายใจสุดท้ายและปกป้องทางเข้าปราณ</text>
+    </g>
+    <!-- Pointer Line to Nose -->
+    <path d="M 360,85 L 560,85 L 680,520" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4,4" />
+    <circle cx="680" cy="520" r="4" fill="#38bdf8" />
+  </g>
+
+  <!-- Callout 3: Artificial Cranial Deformation / Tangad (Top-Right) -->
+  <g transform="translate(1160, 150)">
+    <rect width="360" height="175" rx="12" fill="url(#panelGrad)" stroke="#a855f7" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="360" height="34" rx="12" fill="#6b21a8" />
+    <text x="18" y="23" fill="#f3e8ff" font-size="15" font-weight="bold">3. กะโหลกดัดลาดแบน (Tangad Deformation)</text>
+    <g transform="translate(18, 48)" font-size="12" fill="#e2e8f0">
+      <text x="0" y="16" font-weight="600" fill="#c084fc">• ประเพณีสรีระ:</text>
+      <text x="80" y="16">การดัดกระดูกหน้าผากและท้ายทอยแต่ทารก</text>
+      <text x="0" y="36" font-weight="600" fill="#c084fc">• เครื่องมือ:</text>
+      <text x="65" y="36">แผ่นไม้ประกบหน้าผากทารก (*ตังกาลาฟ* / Tangalaf)</text>
+      <text x="0" y="56" font-weight="600" fill="#c084fc">• ดัชนีสังคม:</text>
+      <text x="75" y="56">สัญลักษณ์สายเลือดชนชั้นนำดาตู (Datu Lineage)</text>
+      <text x="0" y="76" font-weight="600" fill="#c084fc">• โบราณคดี:</text>
+      <text x="70" y="76">พบร่วมกับแผ่นทองคำที่โอตอนและเซบู</text>
+      <text x="0" y="96" font-weight="600" fill="#c084fc">• บันทึกสเปน:</text>
+      <text x="75" y="96">Chirino (1604) และ Colin (1663) บันทึกยืนยัน</text>
+    </g>
+    <!-- Pointer Line to Forehead Vault -->
+    <path d="M 0,90 L -180,90 L -380,260" fill="none" stroke="#a855f7" stroke-width="2" stroke-dasharray="4,4" />
+    <circle cx="780" cy="260" r="4" fill="#a855f7" />
+  </g>
+
+  <!-- Callout 4: Dental Gold Inlays / Pusad (Middle-Right) -->
+  <g transform="translate(1160, 400)">
+    <rect width="360" height="175" rx="12" fill="url(#panelGrad)" stroke="#10b981" stroke-width="2" filter="url(#shadow)" />
+    <rect x="0" y="0" width="360" height="34" rx="12" fill="#047857" />
+    <text x="18" y="23" fill="#d1fae5" font-size="15" font-weight="bold">4. หมุดทองคำฝังฟัน (Pusad / Bansil Inlays)</text>
+    <g transform="translate(18, 48)" font-size="12" fill="#e2e8f0">
+      <text x="0" y="16" font-weight="600" fill="#34d399">• เทคนิคประดิษฐ์:</text>
+      <text x="95" y="16">เจาะผิวเคลือบฟันหน้า ตอกฝังหมุดทองบริสุทธิ์</text>
+      <text x="0" y="36" font-weight="600" fill="#34d399">• ลวดลายประดับ:</text>
+      <text x="90" y="36">ลายจุดไข่ปลา ลายดวงดาว ลายกากบาททอง</text>
+      <text x="0" y="56" font-weight="600" fill="#34d399">• สรีระร่วม:</text>
+      <text x="75" y="56">การย้อมฟันดำด้วยยางไม้ (*อันฮิลิบ*) ให้ทองเด่น</text>
+      <text x="0" y="76" font-weight="600" fill="#34d399">• เชื่อมต่อพิธีศพ:</text>
+      <text x="95" y="76">ใส่แผ่นทองคำในปาก (*ปาบาโอน*) เป็นเสบียงข้ามภพ</text>
+      <text x="0" y="96" font-weight="600" fill="#34d399">• ทันตวิทยา:</text>
+      <text x="75" y="96">Suzuki (1993) และ Acta Odontologica (2024)</text>
+    </g>
+    <!-- Pointer Line to Teeth -->
+    <path d="M 0,85 L -200,85 L -410,650" fill="none" stroke="#10b981" stroke-width="2" stroke-dasharray="4,4" />
+    <circle cx="750" cy="650" r="4" fill="#10b981" />
+  </g>
+
+  <!-- LOWER PANEL: TAPHONOMIC TIMELINE & METALLURGICAL CORROSION AUDIT -->
+  <g id="lowerTaphonomyPanel" transform="translate(80, 680)">
+    <rect width="1440" height="370" rx="14" fill="#0f172a" stroke="#334155" stroke-width="2" filter="url(#shadow)" />
+    <!-- Header Badge -->
+    <rect x="0" y="0" width="1440" height="42" rx="14" fill="#1e293b" />
+    <text x="25" y="27" fill="#f8fafc" font-size="16" font-weight="bold">5. ลำดับกระบวนการทาโฟโนมีวัฒนธรรม: การยุบตัวและการทำปฏิกิริยาเคมีของแผ่นทองคำตลอด 500 ปี (Taphonomic Transformation)</text>
+
+    <!-- 3 Stage Cards -->
+    <g transform="translate(25, 60)">
+      <!-- Stage 1: Day 1 Mortuary Placement -->
+      <g transform="translate(0, 0)">
+        <rect width="440" height="280" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1.5" />
+        <rect x="0" y="0" width="440" height="32" rx="10" fill="#334155" />
+        <text x="15" y="21" fill="#fef08a" font-size="14" font-weight="bold">ระยะที่ 1: ขณะประกอบพิธีฝังศพ (Day 1 - Interred State)</text>
+        <g transform="translate(15, 48)" font-size="12" fill="#cbd5e1">
+          <text x="0" y="16" font-weight="600" fill="#f59e0b">• สภาพสรีระ:</text>
+          <text x="80" y="16">เนื้อเยื่ออ่อน ผิวหนัง และกล้ามเนื้อใบหน้ายังสมบูรณ์</text>
+          <text x="0" y="38" font-weight="600" fill="#f59e0b">• การติดตั้ง:</text>
+          <text x="75" y="38">คนทรงหญิงบาบายลันชโลมน้ำมันยางพลู (Buyo sap)</text>
+          <text x="0" y="60" font-weight="600" fill="#f59e0b">• แผ่นทองคำ:</text>
+          <text x="75" y="60">ผูกรัดตรึงแนบสนิทบนเปลือกตาและจมูกด้วยเชือกอะบากา</text>
+          <text x="0" y="82" font-weight="600" fill="#f59e0b">• ทองคำในปาก:</text>
+          <text x="85" y="82">สอดแผ่นทองคำบริสุทธิ์ใต้ลิ้นเป็นเสบียงวิญญาณ (*ปาบาโอน*)</text>
+          <text x="0" y="104" font-weight="600" fill="#f59e0b">• โครงสร้างรองรับ:</text>
+          <text x="95" y="104">บรรจุในโลงไม้ขุดรูปเรือ (*ลองกอน*) มีฝาปิดผนึกแน่นหนา</text>
+          <text x="0" y="126" font-weight="600" fill="#f59e0b">• วัตถุอุทิศร่วม:</text>
+          <text x="85" y="126">ถ้วยชามเซลาดอน หม้อน้ำ และลูกปัดหินมีค่ารอบศีรษะ</text>
+        </g>
+      </g>
+
+      <!-- Stage 2: Years 1 - 50 Decay & Collapse -->
+      <g transform="translate(475, 0)">
+        <rect width="440" height="280" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1.5" />
+        <rect x="0" y="0" width="440" height="32" rx="10" fill="#334155" />
+        <text x="15" y="21" fill="#38bdf8" font-size="14" font-weight="bold">ระยะที่ 2: การสลายตัวและการยุบตัว (Decay &amp; Settling)</text>
+        <g transform="translate(15, 48)" font-size="12" fill="#cbd5e1">
+          <text x="0" y="16" font-weight="600" fill="#38bdf8">• การสลายตัวเนื้อหนัง:</text>
+          <text x="120" y="16">กล้ามเนื้อและดวงตาเน่าเปื่อยสลายตัวตามธรรมชาติ</text>
+          <text x="0" y="38" font-weight="600" fill="#38bdf8">• การยุบตัวแผ่นทอง:</text>
+          <text x="115" y="38">แผ่นทองคำบาง 0.2 มม. ยุบตัวลงตามแรงโน้มถ่วง</text>
+          <text x="0" y="60" font-weight="600" fill="#38bdf8">• การสัมผัสกระดูก:</text>
+          <text x="105" y="60">แผ่นทองดวงตายุบตัวลงแนบสนิทกับเบ้าตา (Orbit)</text>
+          <text x="0" y="82" font-weight="600" fill="#38bdf8">• แผ่นปิดจมูก:</text>
+          <text x="85" y="82">ยุบตัวครอบลงเหนือขอบกระดูกโพรงจมูก (Piriform rim)</text>
+          <text x="0" y="104" font-weight="600" fill="#38bdf8">• เส้นเชือกอินทรีย์:</text>
+          <text x="105" y="104">เส้นใยอะบากาสลายตัว เหลือเพียงรูเจาะที่มุมแผ่นทอง</text>
+          <text x="0" y="126" font-weight="600" fill="#38bdf8">• โลงไม้ผุพัง:</text>
+          <text x="80" y="126">เนื้อไม้โลงศพเริ่มเปื่อยยุ่ย ดินตะกอนแม่น้ำแทรกซึมเข้า</text>
+        </g>
+      </g>
+
+      <!-- Stage 3: Century 5 Excavation State -->
+      <g transform="translate(950, 0)">
+        <rect width="440" height="280" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1.5" />
+        <rect x="0" y="0" width="440" height="32" rx="10" fill="#334155" />
+        <text x="15" y="21" fill="#34d399" font-size="14" font-weight="bold">ระยะที่ 3: สภาพขุดค้นพบในปัจจุบัน (Archaeological State)</text>
+        <g transform="translate(15, 48)" font-size="12" fill="#cbd5e1">
+          <text x="0" y="16" font-weight="600" fill="#10b981">• การคงอยู่ของทองคำ:</text>
+          <text x="120" y="16">ทองคำไม่เน่าเปื่อย คงสภาพสุกปลั่งแวววาว 100%</text>
+          <text x="0" y="38" font-weight="600" fill="#10b981">• ปฏิกิริยาเคมีคราบสนิม:</text>
+          <text x="135" y="38">ทองแดงในเนื้อทองเกิดคราบมาลาไคต์สีเขียว (Malachite)</text>
+          <text x="0" y="60" font-weight="600" fill="#10b981">• ยืนยันความสัมพันธ์:</text>
+          <text x="120" y="60">คราบเขียวซึมติดแน่นบนผิวกระดูก พิสูจน์การวางแนบแต่แรก</text>
+          <text x="0" y="82" font-weight="600" fill="#10b981">• ชั้นดินทางวัฒนธรรม:</text>
+          <text x="120" y="82">ดินทรายชื้นปนตะกอนน้ำหลากพยุงตำแหน่งวัตถุไว้คงที่</text>
+          <text x="0" y="104" font-weight="600" fill="#10b981">• การเก็บกู้ประณีต:</text>
+          <text x="105" y="104">ขุดกู้ด้วยพู่กันและเกรียงใบโพธิ์เพื่อรักษาสภาพ In Situ</text>
+          <text x="0" y="126" font-weight="600" fill="#10b981">• ผลพิสูจน์วิชาการ:</text>
+          <text x="115" y="126">ลบล้างข้อสงสัยเรื่องการเป็นของอุทิศที่วางประดับภายหลัง</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+</svg>
