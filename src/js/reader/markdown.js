@@ -3,6 +3,7 @@ import { resolvePath, findFileByPath } from '../core/fs.js';
 import { mimeByExt, fmtBytes, esc } from '../tree/tree-node.js';
 import { preprocessFootnotes, enhanceFootnotes } from './footnotes.js';
 import { buildToc } from './toc.js';
+import { prepareSvg } from './img-engine.js';
 
 export async function renderMarkdownContent(text, node, contentEl, tocPanel, tocList) {
   const fm = text.match(/^\uFEFF?---\r?\n[\s\S]*?\r?\n---\s*(\r?\n|$)/);
@@ -93,12 +94,24 @@ export async function renderMarkdownContent(text, node, contentEl, tocPanel, toc
         } else {
           const file = await f.handle.getFile();
           const ext = f.name.split('.').pop().toLowerCase();
-          url = URL.createObjectURL(new Blob([file], { type: mimeByExt[ext] || 'application/octet-stream' }));
+          if (ext === 'svg') {
+            const rawSvg = await file.text();
+            const { cleanSvg } = prepareSvg(rawSvg);
+            url = URL.createObjectURL(new Blob([cleanSvg], { type: 'image/svg+xml;charset=utf-8' }));
+          } else {
+            url = URL.createObjectURL(file);
+          }
           State.blobUrls.set(f.path, url);
         }
       }
       img.src = url;
       img.classList.remove('img-internal');
+      img.style.cursor = 'zoom-in';
+      img.title = `${f.name} (คลิกเพื่อดูภาพและเครื่องมือซูม)`;
+      img.addEventListener('click', (e) => {
+        e.stopPropagation();
+        State.emit('file:open:request', f);
+      });
     } catch (e) {
       img.replaceWith(document.createTextNode('⚠️ อ่านรูปไม่สำเร็จ'));
     }

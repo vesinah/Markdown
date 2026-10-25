@@ -201,7 +201,7 @@ const treeNodeFile = fs.readFileSync(path.join(SRC, 'js/tree/tree-node.js'), 'ut
   .replace(/^export\s+const\s+/gm, 'const ');
 const treeNodeSandbox = { console, Intl, Date, Math, String, RegExp };
 vm.createContext(treeNodeSandbox);
-vm.runInContext(treeNodeFile + '\nthis.extractDateFromName = extractDateFromName;\nthis.cmpNodes = cmpNodes;\nthis.getNodeDate = getNodeDate;', treeNodeSandbox);
+vm.runInContext(treeNodeFile + '\nthis.extractDateFromName = extractDateFromName;\nthis.cmpNodes = cmpNodes;\nthis.getNodeDate = getNodeDate;\nthis.isImg = isImg;\nthis.mimeByExt = mimeByExt;', treeNodeSandbox);
 const { extractDateFromName, cmpNodes, getNodeDate } = treeNodeSandbox;
 
 test('extractDateFromName: Accurately parses ISO, compact, and Thai dates', () => {
@@ -354,6 +354,60 @@ test('AuthGate.lock: Clears stored credentials and restores locked state', () =>
   assert.strictEqual(env.AuthGate.isUnlocked(), false);
   assert.strictEqual(env.sessionStorage.getItem('markmak_auth'), null);
   assert.strictEqual(env.localStorage.getItem('markmak_auth'), null);
+});
+
+// 14. Test Image & SVG Vector Engine
+const imgEngineFile = fs.readFileSync(path.join(SRC, 'js/reader/img-engine.js'), 'utf8')
+  .replace(/^import\s+.*?from\s+['"].*?['"];?\r?\n/gm, '')
+  .replace(/^export\s+function\s+/gm, 'function ')
+  .replace(/^export\s+const\s+/gm, 'const ');
+
+const imgSandbox = {
+  console,
+  Math,
+  String,
+  RegExp,
+  State: { blobUrls: new Map() },
+  fmtBytes: (n) => `${n} B`,
+  mimeByExt: { png: 'image/png', jpg: 'image/jpeg', svg: 'image/svg+xml' }
+};
+vm.createContext(imgSandbox);
+vm.runInContext(imgEngineFile + '\nthis.prepareSvg = prepareSvg;\nthis.ImageViewer = ImageViewer;', imgSandbox);
+const { prepareSvg, ImageViewer } = imgSandbox;
+
+test('prepareSvg: Automatically injects missing xmlns namespace and sanitizes markup', () => {
+  const rawWithoutNs = '<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40"/></svg>';
+  const res = prepareSvg(rawWithoutNs);
+  assert.ok(res.cleanSvg.includes('xmlns="http://www.w3.org/2000/svg"'), 'Should inject standard SVG xmlns');
+  assert.ok(res.cleanSvg.includes('viewBox="0 0 100 100"'));
+});
+
+test('treeNode: Accurately identifies SVG and raster image extensions', () => {
+  assert.strictEqual(treeNodeSandbox.isImg('diagram.svg'), true);
+  assert.strictEqual(treeNodeSandbox.isImg('photo.jpg'), true);
+  assert.strictEqual(treeNodeSandbox.isImg('image.png'), true);
+  assert.strictEqual(treeNodeSandbox.isImg('banner.webp'), true);
+  assert.strictEqual(treeNodeSandbox.isImg('anim.gif'), true);
+  assert.strictEqual(treeNodeSandbox.isImg('doc.pdf'), false);
+  assert.strictEqual(treeNodeSandbox.isImg('readme.md'), false);
+  assert.strictEqual(treeNodeSandbox.mimeByExt['svg'], 'image/svg+xml');
+  assert.strictEqual(treeNodeSandbox.mimeByExt['png'], 'image/png');
+  assert.strictEqual(treeNodeSandbox.mimeByExt['jpg'], 'image/jpeg');
+});
+
+test('ImageViewer: Correctly updates scale, rotation and reset states', () => {
+  ImageViewer.scale = 1.0;
+  ImageViewer.rotation = 0;
+  ImageViewer.zoomIn(0.25);
+  assert.strictEqual(ImageViewer.scale, 1.25);
+  ImageViewer.zoomOut(0.5);
+  assert.strictEqual(ImageViewer.scale, 0.75);
+  ImageViewer.zoom100();
+  assert.strictEqual(ImageViewer.scale, 1.0);
+  ImageViewer.rotate();
+  assert.strictEqual(ImageViewer.rotation, 90);
+  ImageViewer.rotate();
+  assert.strictEqual(ImageViewer.rotation, 180);
 });
 
 console.log('==============================================================================');

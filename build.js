@@ -508,8 +508,45 @@ ${combinedCss}
 
       <!-- 3. Image Viewer -->
       <div id="img-view" hidden>
-        <div class="img-canvas-wrap">
+        <div id="img-toolbar" class="img-toolbar">
+          <div class="img-tb-group">
+            <button type="button" id="btn-img-zoom-out" class="img-tb-btn" title="ซูมออก (-)" aria-label="ซูมออก">
+              <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Z"/></svg>
+            </button>
+            <span id="img-zoom-label" class="img-zoom-label" title="คลิกเพื่อสลับ พอดีจอ / 100%">100%</span>
+            <button type="button" id="btn-img-zoom-in" class="img-tb-btn" title="ซูมเข้า (+)" aria-label="ซูมเข้า">
+              <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M8 2a.75.75 0 0 1 .75.75v5.5h5.5a.75.75 0 0 1 0 1.5h-5.5v5.5a.75.75 0 0 1-1.5 0v-5.5h-5.5a.75.75 0 0 1 0-1.5h5.5v-5.5A.75.75 0 0 1 8 2Z"/></svg>
+            </button>
+          </div>
+          <div class="img-tb-divider"></div>
+          <div class="img-tb-group">
+            <button type="button" id="btn-img-zoom-fit" class="img-tb-btn" title="พอดีหน้าจอ (0)" aria-label="พอดีหน้าจอ">
+              <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M1.5 2.75C1.5 2.06 2.06 1.5 2.75 1.5h2.5a.75.75 0 0 1 0 1.5h-2.5a.25.25 0 0 0-.25.25v2.5a.75.75 0 0 1-1.5 0v-2.5Zm13 0a.75.75 0 0 0-1.5 0v2.5a.75.75 0 0 1-1.5 0v-2.5c0-.69.56-1.25 1.25-1.25h2.5c.69 0 1.25.56 1.25 1.25v2.5a.75.75 0 0 1-1.5 0v-2.5ZM2.75 14.5a.25.25 0 0 1-.25-.25v-2.5a.75.75 0 0 0-1.5 0v2.5c0 .69.56 1.25 1.25 1.25h2.5a.75.75 0 0 0 0-1.5h-2.5Zm10.5 0h-2.5a.75.75 0 0 0 0 1.5h2.5c.69 0 1.25-.56 1.25-1.25v-2.5a.75.75 0 0 0-1.5 0v2.5a.25.25 0 0 1-.25.25Z"/></svg>
+            </button>
+            <button type="button" id="btn-img-zoom-100" class="img-tb-btn" title="ขนาดจริง 1:1 (1)" aria-label="ขนาดจริง 1:1">
+              <span style="font-size:11px;font-weight:700">1:1</span>
+            </button>
+            <button type="button" id="btn-img-rotate" class="img-tb-btn" title="หมุนภาพ 90° (R)" aria-label="หมุนภาพ">
+              <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path fill-rule="evenodd" d="M8 2.5a5.487 5.487 0 0 0-4.131 1.869l-1.2-1.2A.75.75 0 0 0 1.4 3.7v3.55a.75.75 0 0 0 .75.75H5.7a.75.75 0 0 0 .53-1.28l-1.272-1.272A3.987 3.987 0 0 1 8 4a4 4 0 1 1-3.464 6 .75.75 0 0 0-1.3.75A5.5 5.5 0 1 0 8 2.5Z"/></svg>
+            </button>
+          </div>
+          <div class="img-tb-divider"></div>
+          <div class="img-tb-group">
+            <button type="button" id="btn-img-mode-toggle" class="img-tb-btn" title="สลับมุมมอง รูปภาพ / โค้ด SVG (S)" aria-label="สลับโหมด" hidden>
+              <span id="img-mode-toggle-label" style="font-size:11px;font-weight:600">&lt;/&gt; SVG โค้ด</span>
+            </button>
+            <button type="button" id="btn-img-copy" class="img-tb-btn" title="คัดลอกรูปภาพ หรือ โค้ด SVG" aria-label="คัดลอก">
+              <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"/><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="img-canvas-wrap" id="img-canvas-wrap">
           <img id="img-preview-frame" alt="" />
+          <div id="img-svg-container" class="img-svg-container" hidden></div>
+          <div id="img-code-container" class="img-code-container" hidden>
+            <pre><code id="img-code-block" class="language-xml"></code></pre>
+          </div>
         </div>
         <div id="img-meta-badge" class="img-meta-badge"></div>
       </div>

@@ -3804,17 +3804,18 @@ body.dragging-ruler .margin-guide {
 }
 
 
-/* ================= Image Preview Engine ================= */
+/* ================= Image & Vector SVG Preview Engine ================= */
 #img-view {
   flex: 1;
   min-height: 0;
   height: 100%;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow: auto;
-  padding: 24px;
+  overflow: hidden;
+  padding: 16px;
   background: var(--bg3);
   user-select: none;
 }
@@ -3822,14 +3823,96 @@ body.dragging-ruler .margin-guide {
   display: none !important;
 }
 
+/* Floating Image Control Toolbar */
+.img-toolbar {
+  position: absolute;
+  top: 18px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 8px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: opacity .15s ease, transform .15s ease;
+}
+
+.img-tb-group {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.img-tb-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
+  padding: 0 7px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text2);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all .15s ease;
+}
+.img-tb-btn:hover {
+  color: var(--text);
+  background: var(--bg2);
+  border-color: var(--border);
+}
+.img-tb-btn:active {
+  transform: scale(0.96);
+}
+
+.img-tb-divider {
+  width: 1px;
+  height: 18px;
+  background: var(--border);
+  margin: 0 2px;
+}
+
+.img-zoom-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  height: 24px;
+  font-size: 11.5px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 0 4px;
+}
+.img-zoom-label:hover {
+  background: var(--bg2);
+}
+
+/* Canvas Wrapper & Preview Surfaces */
 .img-canvas-wrap {
   flex: 1;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 0;
   max-width: 100%;
-  overflow: auto;
+  overflow: hidden;
+  cursor: grab;
+  position: relative;
+}
+.img-canvas-wrap:active {
+  cursor: grabbing;
 }
 
 #img-preview-frame {
@@ -3840,23 +3923,108 @@ body.dragging-ruler .margin-guide {
   box-shadow: var(--shadow);
   background: var(--bg);
   cursor: zoom-in;
-  transition: transform .2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-#img-preview-frame.zoom-full {
-  max-width: none;
-  max-height: none;
-  cursor: zoom-out;
+  transition: transform .08s cubic-bezier(0.1, 0.9, 0.2, 1);
+  transform-origin: center center;
+  will-change: transform;
 }
 
-.img-meta-badge {
-  margin-top: 14px;
+/* SVG Vector Container */
+.img-svg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 96%;
+  max-height: 80vh;
+  background: var(--bg);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: var(--shadow);
+  cursor: zoom-in;
+  transition: transform .08s cubic-bezier(0.1, 0.9, 0.2, 1);
+  transform-origin: center center;
+  will-change: transform;
+}
+.img-svg-container svg {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 72vh;
+  display: block;
+}
+
+/* SVG Source Code Mode Container */
+.img-code-container {
+  width: 92%;
+  max-width: 960px;
+  height: 80vh;
+  overflow: auto;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  padding: 16px;
+  user-select: text;
+  cursor: text;
+}
+.img-code-container pre {
+  margin: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-size: 12.5px;
+  line-height: 1.6;
+}
+.img-code-container code {
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+/* Metadata Badge at Bottom */
+.img-meta-badge {
+  position: absolute;
+  bottom: 16px;
+  z-index: 20;
+  font-size: 12px;
+  font-weight: 500;
   color: var(--text2);
   background: var(--bg);
   padding: 5px 16px;
   border-radius: 999px;
   border: 1px solid var(--border);
   box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  pointer-events: auto;
+}
+
+/* Mobile Adjustments (Zero Desktop Regression) */
+@media (max-width: 768px) {
+  .img-toolbar {
+    top: 10px;
+    padding: 3px 6px;
+    gap: 3px;
+  }
+  .img-tb-btn {
+    min-width: 32px;
+    height: 32px;
+    padding: 0 5px;
+  }
+  .img-zoom-label {
+    min-width: 36px;
+    font-size: 11px;
+  }
+  .img-meta-badge {
+    bottom: 64px; /* avoid colliding with mobile bottom dock */
+    max-width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 11px;
+    padding: 4px 12px;
+  }
+  .img-code-container {
+    width: 96%;
+    height: 70vh;
+    padding: 12px;
+  }
 }
 
 
@@ -7365,8 +7533,45 @@ body.auth-locked #auth-modal {
 
       <!-- 3. Image Viewer -->
       <div id="img-view" hidden>
-        <div class="img-canvas-wrap">
+        <div id="img-toolbar" class="img-toolbar">
+          <div class="img-tb-group">
+            <button type="button" id="btn-img-zoom-out" class="img-tb-btn" title="ซูมออก (-)" aria-label="ซูมออก">
+              <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Z"/></svg>
+            </button>
+            <span id="img-zoom-label" class="img-zoom-label" title="คลิกเพื่อสลับ พอดีจอ / 100%">100%</span>
+            <button type="button" id="btn-img-zoom-in" class="img-tb-btn" title="ซูมเข้า (+)" aria-label="ซูมเข้า">
+              <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M8 2a.75.75 0 0 1 .75.75v5.5h5.5a.75.75 0 0 1 0 1.5h-5.5v5.5a.75.75 0 0 1-1.5 0v-5.5h-5.5a.75.75 0 0 1 0-1.5h5.5v-5.5A.75.75 0 0 1 8 2Z"/></svg>
+            </button>
+          </div>
+          <div class="img-tb-divider"></div>
+          <div class="img-tb-group">
+            <button type="button" id="btn-img-zoom-fit" class="img-tb-btn" title="พอดีหน้าจอ (0)" aria-label="พอดีหน้าจอ">
+              <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M1.5 2.75C1.5 2.06 2.06 1.5 2.75 1.5h2.5a.75.75 0 0 1 0 1.5h-2.5a.25.25 0 0 0-.25.25v2.5a.75.75 0 0 1-1.5 0v-2.5Zm13 0a.75.75 0 0 0-1.5 0v2.5a.75.75 0 0 1-1.5 0v-2.5c0-.69.56-1.25 1.25-1.25h2.5c.69 0 1.25.56 1.25 1.25v2.5a.75.75 0 0 1-1.5 0v-2.5ZM2.75 14.5a.25.25 0 0 1-.25-.25v-2.5a.75.75 0 0 0-1.5 0v2.5c0 .69.56 1.25 1.25 1.25h2.5a.75.75 0 0 0 0-1.5h-2.5Zm10.5 0h-2.5a.75.75 0 0 0 0 1.5h2.5c.69 0 1.25-.56 1.25-1.25v-2.5a.75.75 0 0 0-1.5 0v2.5a.25.25 0 0 1-.25.25Z"/></svg>
+            </button>
+            <button type="button" id="btn-img-zoom-100" class="img-tb-btn" title="ขนาดจริง 1:1 (1)" aria-label="ขนาดจริง 1:1">
+              <span style="font-size:11px;font-weight:700">1:1</span>
+            </button>
+            <button type="button" id="btn-img-rotate" class="img-tb-btn" title="หมุนภาพ 90° (R)" aria-label="หมุนภาพ">
+              <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path fill-rule="evenodd" d="M8 2.5a5.487 5.487 0 0 0-4.131 1.869l-1.2-1.2A.75.75 0 0 0 1.4 3.7v3.55a.75.75 0 0 0 .75.75H5.7a.75.75 0 0 0 .53-1.28l-1.272-1.272A3.987 3.987 0 0 1 8 4a4 4 0 1 1-3.464 6 .75.75 0 0 0-1.3.75A5.5 5.5 0 1 0 8 2.5Z"/></svg>
+            </button>
+          </div>
+          <div class="img-tb-divider"></div>
+          <div class="img-tb-group">
+            <button type="button" id="btn-img-mode-toggle" class="img-tb-btn" title="สลับมุมมอง รูปภาพ / โค้ด SVG (S)" aria-label="สลับโหมด" hidden>
+              <span id="img-mode-toggle-label" style="font-size:11px;font-weight:600">&lt;/&gt; SVG โค้ด</span>
+            </button>
+            <button type="button" id="btn-img-copy" class="img-tb-btn" title="คัดลอกรูปภาพ หรือ โค้ด SVG" aria-label="คัดลอก">
+              <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"/><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="img-canvas-wrap" id="img-canvas-wrap">
           <img id="img-preview-frame" alt="" />
+          <div id="img-svg-container" class="img-svg-container" hidden></div>
+          <div id="img-code-container" class="img-code-container" hidden>
+            <pre><code id="img-code-block" class="language-xml"></code></pre>
+          </div>
         </div>
         <div id="img-meta-badge" class="img-meta-badge"></div>
       </div>
@@ -13238,6 +13443,8 @@ function renderTree(container) {
       iconSvg = '<svg class="ico" viewBox="0 0 16 16" width="15" height="15"><path fill="var(--folder-stroke)" fill-opacity=".25" stroke="var(--folder-stroke)" stroke-opacity=".7" d="M1.75 2.5h3.2c.2 0 .4.08.54.22l1.03 1.03H14.25c.41 0 .75.34.75.75v7.75a1.25 1.25 0 0 1-1.25 1.25H1.75A1.25 1.25 0 0 1 .5 12.25v-8.5a1.25 1.25 0 0 1 1.25-1.25Z"/></svg>';
     } else if (isPdf(n.name)) {
       iconSvg = '<svg class="ico" viewBox="0 0 16 16" width="15" height="15"><path fill="#f85149" fill-opacity=".25" stroke="#f85149" stroke-opacity=".9" d="M4 1.75c0-.69.56-1.25 1.25-1.25h4.09c.33 0 .65.13.88.36l2.42 2.42c.23.23.36.55.36.88v9.09c0 .69-.56 1.25-1.25 1.25H5.25c-.69 0-1.25-.56-1.25-1.25V1.75Z"/><text x="4.5" y="11.5" font-size="4.5" font-weight="bold" fill="#f85149">P</text></svg>';
+    } else if (/\.svg$/i.test(n.name)) {
+      iconSvg = '<svg class="ico" viewBox="0 0 16 16" width="15" height="15"><path fill="#f0883e" fill-opacity=".2" stroke="#f0883e" stroke-opacity=".9" d="M4 1.75c0-.69.56-1.25 1.25-1.25h4.09c.33 0 .65.13.88.36l2.42 2.42c.23.23.36.55.36.88v9.09c0 .69-.56 1.25-1.25 1.25H5.25c-.69 0-1.25-.56-1.25-1.25V1.75Z"/><text x="4" y="11.5" font-size="4" font-weight="bold" fill="#f0883e">SVG</text></svg>';
     } else if (isImg(n.name)) {
       iconSvg = '<svg class="ico" viewBox="0 0 16 16" width="15" height="15"><rect x="1.5" y="2.5" width="13" height="11" rx="1.5" fill="#3fb950" fill-opacity=".22" stroke="#3fb950" stroke-opacity=".9"/><circle cx="5" cy="6" r="1.2" fill="#3fb950"/><path fill="#3fb950" d="M2.5 12l3-3.5 2.5 3 2.5-2 3 2.5v.5h-11z"/></svg>';
     } else if (/\.(html?|xml|rdf)$/i.test(n.name)) {
@@ -13800,12 +14007,24 @@ async function renderMarkdownContent(text, node, contentEl, tocPanel, tocList) {
         } else {
           const file = await f.handle.getFile();
           const ext = f.name.split('.').pop().toLowerCase();
-          url = URL.createObjectURL(new Blob([file], { type: mimeByExt[ext] || 'application/octet-stream' }));
+          if (ext === 'svg') {
+            const rawSvg = await file.text();
+            const { cleanSvg } = prepareSvg(rawSvg);
+            url = URL.createObjectURL(new Blob([cleanSvg], { type: 'image/svg+xml;charset=utf-8' }));
+          } else {
+            url = URL.createObjectURL(file);
+          }
           State.blobUrls.set(f.path, url);
         }
       }
       img.src = url;
       img.classList.remove('img-internal');
+      img.style.cursor = 'zoom-in';
+      img.title = `${f.name} (คลิกเพื่อดูภาพและเครื่องมือซูม)`;
+      img.addEventListener('click', (e) => {
+        e.stopPropagation();
+        State.emit('file:open:request', f);
+      });
     } catch (e) {
       img.replaceWith(document.createTextNode('⚠️ อ่านรูปไม่สำเร็จ'));
     }
@@ -14104,50 +14323,504 @@ const PDFViewer = {
 };
 
 
+/**
+ * @fileoverview Advanced Image & SVG Vector Engine for MDBrowse
+ * Supports Vector SVG (inline rendering, sanitization, auto-namespace, code viewer)
+ * and High-Resolution Raster Formats (JPG, JPEG, PNG, WebP, GIF, BMP, ICO, AVIF).
+ * Features: Smooth Zoom (In/Out/Fit/100%), Rotate 90°, Pan & Drag, Copy, and SVG Source toggle.
+ */
+
+
+/**
+ * Prepares and sanitizes SVG markup for safe and responsive rendering.
+ * Injects missing xmlns namespace and calculates dimensions from viewBox if available.
+ */
+function prepareSvg(rawText) {
+  let text = (rawText || '').trim();
+
+  // 1. Ensure root <svg> has standard XML namespace
+  if (!/xmlns\s*=\s*["']http:\/\/www\.w3\.org\/2000\/svg["']/i.test(text)) {
+    text = text.replace(/<svg\b([^>]*)>/i, '<svg xmlns="http://www.w3.org/2000/svg" $1>');
+  }
+
+  // 2. Sanitize using DOMPurify if available in global scope
+  if (typeof window !== 'undefined' && window.DOMPurify && typeof window.DOMPurify.sanitize === 'function') {
+    text = window.DOMPurify.sanitize(text, {
+      USE_PROFILES: { svg: true, svgFilters: true },
+      ADD_TAGS: ['use'],
+      ADD_ATTR: ['target']
+    });
+  }
+
+  // 3. Extract dimensions and viewBox
+  let width = null;
+  let height = null;
+  let viewBox = null;
+
+  if (typeof DOMParser !== 'undefined') {
+    try {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(text, 'image/svg+xml');
+      const svgEl = doc.querySelector('svg');
+      if (svgEl) {
+        viewBox = svgEl.getAttribute('viewBox');
+        const wAttr = svgEl.getAttribute('width');
+        const hAttr = svgEl.getAttribute('height');
+
+        if (viewBox) {
+          const parts = viewBox.trim().split(/[\s,]+/).map(Number);
+          if (parts.length === 4 && parts[2] > 0 && parts[3] > 0) {
+            width = Math.round(parts[2]);
+            height = Math.round(parts[3]);
+          }
+        } else if (wAttr && hAttr && !wAttr.includes('%') && !hAttr.includes('%')) {
+          const pw = parseFloat(wAttr);
+          const ph = parseFloat(hAttr);
+          if (pw > 0 && ph > 0) {
+            width = Math.round(pw);
+            height = Math.round(ph);
+            svgEl.setAttribute('viewBox', `0 0 ${width} ${height}`);
+            text = svgEl.outerHTML;
+          }
+        }
+      }
+    } catch (e) {
+      console.warn('[img-engine] SVG parse warning:', e);
+    }
+  }
+
+  return { cleanSvg: text, width, height, viewBox };
+}
 
 const ImageViewer = {
   frame: null,
   metaBadge: null,
+  container: null,
+  canvasWrap: null,
+  svgContainer: null,
+  codeContainer: null,
+  codeBlock: null,
+  toolbar: null,
+  zoomLabel: null,
+  modeToggleBtn: null,
+  modeToggleLabel: null,
+  copyBtn: null,
+  zoomInBtn: null,
+  zoomOutBtn: null,
+  zoomFitBtn: null,
+  zoom100Btn: null,
+  rotateBtn: null,
 
-  init(frame, metaBadge) {
+  // Transform state
+  scale: 1,
+  fitScale: 1,
+  rotation: 0,
+  translateX: 0,
+  translateY: 0,
+  isDragging: false,
+  dragStartX: 0,
+  dragStartY: 0,
+
+  // Content state
+  isSvg: false,
+  viewMode: 'vector', // 'vector' | 'code'
+  rawSvgText: '',
+  cleanSvgText: '',
+  svgDimensions: null,
+  naturalWidth: 0,
+  naturalHeight: 0,
+  currentFile: null,
+  currentNode: null,
+
+  init(frame, metaBadge, container) {
     this.frame = frame;
     this.metaBadge = metaBadge;
+    this.container = container || (frame ? frame.closest('#img-view') : document.getElementById('img-view'));
 
+    if (this.container) {
+      this.canvasWrap = this.container.querySelector('#img-canvas-wrap') || this.container.querySelector('.img-canvas-wrap');
+      this.svgContainer = this.container.querySelector('#img-svg-container');
+      this.codeContainer = this.container.querySelector('#img-code-container');
+      this.codeBlock = this.container.querySelector('#img-code-block');
+      this.toolbar = this.container.querySelector('#img-toolbar');
+      this.zoomLabel = this.container.querySelector('#img-zoom-label');
+      this.modeToggleBtn = this.container.querySelector('#btn-img-mode-toggle');
+      this.modeToggleLabel = this.container.querySelector('#img-mode-toggle-label');
+      this.copyBtn = this.container.querySelector('#btn-img-copy');
+      this.zoomInBtn = this.container.querySelector('#btn-img-zoom-in');
+      this.zoomOutBtn = this.container.querySelector('#btn-img-zoom-out');
+      this.zoomFitBtn = this.container.querySelector('#btn-img-zoom-fit');
+      this.zoom100Btn = this.container.querySelector('#btn-img-zoom-100');
+      this.rotateBtn = this.container.querySelector('#btn-img-rotate');
+    }
+
+    this.bindEvents();
+  },
+
+  bindEvents() {
+    // Toolbar buttons
+    if (this.zoomInBtn) this.zoomInBtn.onclick = () => this.zoomIn();
+    if (this.zoomOutBtn) this.zoomOutBtn.onclick = () => this.zoomOut();
+    if (this.zoomFitBtn) this.zoomFitBtn.onclick = () => this.zoomFit();
+    if (this.zoom100Btn) this.zoom100Btn.onclick = () => this.zoom100();
+    if (this.rotateBtn) this.rotateBtn.onclick = () => this.rotate();
+    if (this.zoomLabel) this.zoomLabel.onclick = () => (this.scale === 1 ? this.zoomFit() : this.zoom100());
+    if (this.modeToggleBtn) this.modeToggleBtn.onclick = () => this.toggleViewMode();
+    if (this.copyBtn) this.copyBtn.onclick = () => this.copyContent();
+
+    // Click on frame to toggle Zoom Fit / 100%
     if (this.frame) {
-      this.frame.onclick = () => {
-        this.frame.classList.toggle('zoom-full');
+      this.frame.onclick = (e) => {
+        if (this._hasDragged) return;
+        if (Math.abs(this.scale - 1) < 0.05) this.zoomFit();
+        else this.zoom100();
       };
+    }
+
+    if (this.svgContainer) {
+      this.svgContainer.onclick = (e) => {
+        if (this._hasDragged) return;
+        if (Math.abs(this.scale - 1) < 0.05) this.zoomFit();
+        else this.zoom100();
+      };
+    }
+
+    // Pan / Drag Mechanics
+    if (this.canvasWrap) {
+      this.canvasWrap.addEventListener('mousedown', (e) => {
+        if (this.viewMode === 'code') return;
+        if (e.target.closest('#img-toolbar') || e.target.closest('#img-meta-badge')) return;
+        this.isDragging = true;
+        this._hasDragged = false;
+        this.dragStartX = e.clientX - this.translateX;
+        this.dragStartY = e.clientY - this.translateY;
+        this.canvasWrap.style.cursor = 'grabbing';
+      });
+
+      window.addEventListener('mousemove', (e) => {
+        if (!this.isDragging) return;
+        const dx = e.clientX - this.dragStartX;
+        const dy = e.clientY - this.dragStartY;
+        if (Math.abs(dx - this.translateX) > 3 || Math.abs(dy - this.translateY) > 3) {
+          this._hasDragged = true;
+        }
+        this.translateX = dx;
+        this.translateY = dy;
+        this.applyTransform();
+      });
+
+      window.addEventListener('mouseup', () => {
+        if (this.isDragging) {
+          this.isDragging = false;
+          if (this.canvasWrap) this.canvasWrap.style.cursor = '';
+        }
+      });
+
+      // Mouse Wheel Zoom
+      this.canvasWrap.addEventListener('wheel', (e) => {
+        if (this.viewMode === 'code') return;
+        e.preventDefault();
+        if (e.deltaY < 0) {
+          this.zoomIn(0.15);
+        } else {
+          this.zoomOut(0.15);
+        }
+      }, { passive: false });
+    }
+
+    // Keyboard Shortcuts (active when img-view is visible)
+    window.addEventListener('keydown', (e) => {
+      if (!this.container || this.container.hidden) return;
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.isContentEditable) return;
+
+      if (e.key === '+' || e.key === '=') {
+        e.preventDefault();
+        this.zoomIn();
+      } else if (e.key === '-' || e.key === '_') {
+        e.preventDefault();
+        this.zoomOut();
+      } else if (e.key === '0') {
+        e.preventDefault();
+        this.zoomFit();
+      } else if (e.key === '1') {
+        e.preventDefault();
+        this.zoom100();
+      } else if (e.key === 'r' || e.key === 'R') {
+        e.preventDefault();
+        this.rotate();
+      } else if ((e.key === 's' || e.key === 'S') && this.isSvg && !e.ctrlKey && !e.metaKey) {
+        e.preventDefault();
+        this.toggleViewMode();
+      } else if ((e.key === 'c' || e.key === 'C') && (e.ctrlKey || e.metaKey)) {
+        if (this.viewMode !== 'code') {
+          e.preventDefault();
+          this.copyContent();
+        }
+      }
+    });
+  },
+
+  async render(file, node) {
+    this.currentFile = file;
+    this.currentNode = node;
+    const name = (node && node.name) || (file && file.name) || '';
+    const ext = name.split('.').pop().toLowerCase();
+    this.isSvg = (ext === 'svg');
+
+    // Reset transformations
+    this.rotation = 0;
+    this.translateX = 0;
+    this.translateY = 0;
+    this.viewMode = 'vector';
+
+    if (this.modeToggleBtn) {
+      this.modeToggleBtn.hidden = !this.isSvg;
+      if (this.modeToggleLabel) this.modeToggleLabel.textContent = '</> SVG โค้ด';
+    }
+
+    if (this.codeContainer) this.codeContainer.hidden = true;
+
+    if (this.isSvg) {
+      await this.renderSvg(file, node);
+    } else {
+      await this.renderRaster(file, node, ext);
+    }
+
+    this.zoomFit();
+    this.applyTransform();
+  },
+
+  async renderSvg(file, node) {
+    let rawText = '';
+    try {
+      if (node.isRemote || file.isRemote) {
+        const fetchUrl = encodeURI(file.url || node.url || ('docs/' + (node.relPath || node.path)));
+        const resp = await fetch(fetchUrl);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        rawText = await resp.text();
+      } else if (file && typeof file.text === 'function') {
+        rawText = await file.text();
+      } else if (node.handle && typeof node.handle.getFile === 'function') {
+        const f = await node.handle.getFile();
+        rawText = await f.text();
+      }
+    } catch (err) {
+      console.warn('[img-engine] Failed to read SVG text:', err);
+    }
+
+    this.rawSvgText = rawText;
+    const { cleanSvg, width, height } = prepareSvg(rawText);
+    this.cleanSvgText = cleanSvg;
+    this.svgDimensions = { width, height };
+
+    // 1. Render Vector container
+    if (this.svgContainer) {
+      this.svgContainer.innerHTML = cleanSvg;
+      this.svgContainer.hidden = false;
+      const svgElement = this.svgContainer.querySelector('svg');
+      if (svgElement) {
+        svgElement.style.maxWidth = '100%';
+        svgElement.style.maxHeight = '100%';
+        svgElement.style.height = 'auto';
+        svgElement.style.display = 'block';
+      }
+    }
+
+    // 2. Hide raster frame
+    if (this.frame) {
+      this.frame.hidden = true;
+    }
+
+    // 3. Populate code block
+    if (this.codeBlock) {
+      this.codeBlock.textContent = rawText;
+      if (typeof window !== 'undefined' && window.hljs && typeof window.hljs.highlightElement === 'function') {
+        window.hljs.highlightElement(this.codeBlock);
+      }
+    }
+
+    // 4. Update Meta Badge
+    const sizeStr = fmtBytes(file.size || (node && node.size) || rawText.length || 0);
+    const dimStr = (width && height) ? `${width} × ${height} px · ` : '';
+    if (this.metaBadge) {
+      this.metaBadge.textContent = `${node.name} · ${dimStr}Vector SVG · ${sizeStr}`;
+      this.metaBadge.title = 'เวกเตอร์กราฟิก SVG คมชัด 100% ทุกระดับการซูม';
+    }
+
+    // Cache blob URL for markdown embedding consistency
+    if (!State.blobUrls.has(node.path) && cleanSvg) {
+      try {
+        const blobUrl = URL.createObjectURL(new Blob([cleanSvg], { type: 'image/svg+xml;charset=utf-8' }));
+        State.blobUrls.set(node.path, blobUrl);
+      } catch (e) {}
     }
   },
 
-  render(file, node) {
+  async renderRaster(file, node, ext) {
+    if (this.svgContainer) this.svgContainer.hidden = true;
+    if (this.frame) this.frame.hidden = false;
+
     let url = State.blobUrls.get(node.path);
     if (!url) {
       if (node.isRemote || file.isRemote) {
         url = encodeURI(file.url || node.url || ('docs/' + (node.relPath || node.path)));
       } else {
-        const ext = node.name.split('.').pop().toLowerCase();
-        url = URL.createObjectURL(new Blob([file], { type: mimeByExt[ext] || file.type || 'image/jpeg' }));
+        const mime = mimeByExt[ext] || file.type || 'image/jpeg';
+        url = URL.createObjectURL(new Blob([file], { type: mime }));
         State.blobUrls.set(node.path, url);
       }
     }
 
     this.frame.src = url;
     this.frame.alt = node.name;
-    this.frame.classList.remove('zoom-full');
 
     const img = new Image();
     img.onload = () => {
+      this.naturalWidth = img.naturalWidth;
+      this.naturalHeight = img.naturalHeight;
+      const sizeStr = fmtBytes(file.size || (node && node.size) || 0);
       if (this.metaBadge) {
-        this.metaBadge.textContent = `${node.name} · ${img.naturalWidth} × ${img.naturalHeight} px · ${fmtBytes(file.size)}`;
+        this.metaBadge.textContent = `${node.name} · ${img.naturalWidth} × ${img.naturalHeight} px · ${sizeStr}`;
+        this.metaBadge.title = '';
       }
+      this.zoomFit();
     };
     img.onerror = () => {
+      const sizeStr = fmtBytes(file.size || (node && node.size) || 0);
       if (this.metaBadge) {
-        this.metaBadge.textContent = `${node.name} · ${fmtBytes(file.size)}`;
+        this.metaBadge.textContent = `${node.name} · ${sizeStr} (โหลดภาพไม่สำเร็จ)`;
+        this.metaBadge.title = 'ไม่สามารถถอดรหัสรูปภาพนี้ได้ อาจเป็นไฟล์ที่ไม่สมบูรณ์';
       }
     };
     img.src = url;
+  },
+
+  applyTransform() {
+    const transformStr = `translate(${this.translateX}px, ${this.translateY}px) rotate(${this.rotation}deg) scale(${this.scale})`;
+
+    if (this.frame && !this.frame.hidden) {
+      this.frame.style.transform = transformStr;
+    }
+    if (this.svgContainer && !this.svgContainer.hidden) {
+      this.svgContainer.style.transform = transformStr;
+    }
+
+    if (this.zoomLabel) {
+      this.zoomLabel.textContent = `${Math.round(this.scale * 100)}%`;
+    }
+  },
+
+  zoomIn(step = 0.25) {
+    if (this.viewMode === 'code') return;
+    this.scale = Math.min(8.0, +(this.scale + step).toFixed(2));
+    this.applyTransform();
+  },
+
+  zoomOut(step = 0.25) {
+    if (this.viewMode === 'code') return;
+    this.scale = Math.max(0.1, +(this.scale - step).toFixed(2));
+    this.applyTransform();
+  },
+
+  zoom100() {
+    if (this.viewMode === 'code') return;
+    this.scale = 1.0;
+    this.translateX = 0;
+    this.translateY = 0;
+    this.applyTransform();
+  },
+
+  zoomFit() {
+    if (this.viewMode === 'code') return;
+    this.translateX = 0;
+    this.translateY = 0;
+
+    if (!this.canvasWrap) {
+      this.scale = 1.0;
+      this.applyTransform();
+      return;
+    }
+
+    const wrapW = this.canvasWrap.clientWidth - 48;
+    const wrapH = this.canvasWrap.clientHeight - 48;
+
+    let targetW = this.naturalWidth;
+    let targetH = this.naturalHeight;
+
+    if (this.isSvg && this.svgDimensions && this.svgDimensions.width && this.svgDimensions.height) {
+      targetW = this.svgDimensions.width;
+      targetH = this.svgDimensions.height;
+    }
+
+    if (wrapW > 0 && wrapH > 0 && targetW > 0 && targetH > 0) {
+      const scaleW = wrapW / targetW;
+      const scaleH = wrapH / targetH;
+      const fit = Math.min(scaleW, scaleH, 1.0); // Never upscale by default, fit within view
+      this.scale = Math.max(0.1, +(fit).toFixed(2));
+      this.fitScale = this.scale;
+    } else {
+      this.scale = 1.0;
+      this.fitScale = 1.0;
+    }
+
+    this.applyTransform();
+  },
+
+  rotate() {
+    if (this.viewMode === 'code') return;
+    this.rotation = (this.rotation + 90) % 360;
+    this.applyTransform();
+  },
+
+  toggleViewMode() {
+    if (!this.isSvg) return;
+    if (this.viewMode === 'vector') {
+      this.viewMode = 'code';
+      if (this.svgContainer) this.svgContainer.hidden = true;
+      if (this.frame) this.frame.hidden = true;
+      if (this.codeContainer) this.codeContainer.hidden = false;
+      if (this.modeToggleLabel) this.modeToggleLabel.textContent = '🖼️ ดูรูปภาพเวกเตอร์';
+      if (this.metaBadge && this.currentNode) {
+        this.metaBadge.textContent = `${this.currentNode.name} · ซอร์สโค้ด SVG · ${fmtBytes(this.rawSvgText.length)}`;
+      }
+    } else {
+      this.viewMode = 'vector';
+      if (this.codeContainer) this.codeContainer.hidden = true;
+      if (this.svgContainer) this.svgContainer.hidden = false;
+      if (this.modeToggleLabel) this.modeToggleLabel.textContent = '</> SVG โค้ด';
+      this.zoomFit();
+    }
+  },
+
+  async copyContent() {
+    if (this.isSvg && this.rawSvgText) {
+      try {
+        await navigator.clipboard.writeText(this.rawSvgText);
+        this.flashNotice('✓ คัดลอกโค้ด SVG สำเร็จ');
+        return;
+      } catch (e) {}
+    }
+
+    // Fallback: Copy file path or image blob
+    try {
+      if (this.currentNode && this.currentNode.path) {
+        await navigator.clipboard.writeText(this.currentNode.path);
+        this.flashNotice('✓ คัดลอกที่อยู่ไฟล์แล้ว');
+      }
+    } catch (e) {
+      this.flashNotice('ไม่สามารถคัดลอกได้');
+    }
+  },
+
+  flashNotice(msg) {
+    if (!this.metaBadge) return;
+    const orig = this.metaBadge.textContent;
+    this.metaBadge.textContent = msg;
+    setTimeout(() => {
+      if (this.metaBadge && this.metaBadge.textContent === msg) {
+        this.metaBadge.textContent = orig;
+      }
+    }, 1800);
   }
 };
 
@@ -22066,6 +22739,9 @@ const ViewRouter = {
     _routerD = domMap;
     renderTreeCallback = options.renderTree || (() => {});
     updateStatCallback = options.updateStat || (() => {});
+    State.on('file:open:request', n => {
+      if (n) this.openFile(n);
+    });
   },
 
   switchView(type) {
@@ -22125,7 +22801,7 @@ const ViewRouter = {
           clearHighlights();
         } else if (isImg(node.name)) {
           this.switchView('img');
-          ImageViewer.render({ name: node.name, size: node.size, isRemote: true, url: fetchUrl }, node);
+          await ImageViewer.render({ name: node.name, size: node.size, isRemote: true, url: fetchUrl }, node);
           setActiveDoc(null);
           clearHighlights();
         } else if (isMd(node.name)) {
@@ -22158,7 +22834,7 @@ const ViewRouter = {
           clearHighlights();
         } else if (isImg(node.name)) {
           this.switchView('img');
-          ImageViewer.render(file, node);
+          await ImageViewer.render(file, node);
           setActiveDoc(null);
           clearHighlights();
         } else if (isMd(node.name)) {
@@ -22892,7 +23568,7 @@ const D = {};
  'md-scroll-pane', 'margin-guide-left', 'margin-guide-right', 'md-content',
  'toc-panel', 'toc-header', 'toc-list', 'btn-toc-collapse', 'btn-toc-expand', 'toc-rail-list', 'toc-rail-logo',
  'pdf-view', 'pdf-frame',
- 'img-view', 'img-preview-frame', 'img-meta-badge', 'empty-state',
+ 'img-view', 'img-toolbar', 'btn-img-zoom-out', 'img-zoom-label', 'btn-img-zoom-in', 'btn-img-zoom-fit', 'btn-img-zoom-100', 'btn-img-rotate', 'btn-img-mode-toggle', 'img-mode-toggle-label', 'btn-img-copy', 'img-canvas-wrap', 'img-preview-frame', 'img-svg-container', 'img-code-container', 'img-code-block', 'img-meta-badge', 'empty-state',
  'fs-dec', 'fs-inc', 'fs-reset', 'tx-color', 'tx-reset',
  'btn-theme-toggle', 'theme-tools-wrap', 'theme-tools-content', 'btn-menubar-pet',
  'btn-doc-info', 'doc-info-popover', 'doc-info-ext', 'doc-info-name', 'doc-info-type',
@@ -23704,7 +24380,7 @@ async function initApp() {
   ReadingProgress.init(D.readingProgressBar, D.mdScrollPane);
 
   PDFViewer.init(D.pdfFrame);
-  ImageViewer.init(D.imgPreviewFrame, D.imgMetaBadge);
+  ImageViewer.init(D.imgPreviewFrame, D.imgMetaBadge, D.imgView);
   SearchEngine.init(D.searchInput, D.searchContent, D.searchInfo, D.mdContent, () => renderTree(D.tree));
 
   setupSidebarResizer(D.sbResizer, D.sidebar, () => {

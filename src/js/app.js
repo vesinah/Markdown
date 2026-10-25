@@ -33,7 +33,7 @@ const D = {};
  'md-scroll-pane', 'margin-guide-left', 'margin-guide-right', 'md-content',
  'toc-panel', 'toc-header', 'toc-list', 'btn-toc-collapse', 'btn-toc-expand', 'toc-rail-list', 'toc-rail-logo',
  'pdf-view', 'pdf-frame',
- 'img-view', 'img-preview-frame', 'img-meta-badge', 'empty-state',
+ 'img-view', 'img-toolbar', 'btn-img-zoom-out', 'img-zoom-label', 'btn-img-zoom-in', 'btn-img-zoom-fit', 'btn-img-zoom-100', 'btn-img-rotate', 'btn-img-mode-toggle', 'img-mode-toggle-label', 'btn-img-copy', 'img-canvas-wrap', 'img-preview-frame', 'img-svg-container', 'img-code-container', 'img-code-block', 'img-meta-badge', 'empty-state',
  'fs-dec', 'fs-inc', 'fs-reset', 'tx-color', 'tx-reset',
  'btn-theme-toggle', 'theme-tools-wrap', 'theme-tools-content', 'btn-menubar-pet',
  'btn-doc-info', 'doc-info-popover', 'doc-info-ext', 'doc-info-name', 'doc-info-type',
@@ -845,7 +845,7 @@ export async function initApp() {
   ReadingProgress.init(D.readingProgressBar, D.mdScrollPane);
 
   PDFViewer.init(D.pdfFrame);
-  ImageViewer.init(D.imgPreviewFrame, D.imgMetaBadge);
+  ImageViewer.init(D.imgPreviewFrame, D.imgMetaBadge, D.imgView);
   SearchEngine.init(D.searchInput, D.searchContent, D.searchInfo, D.mdContent, () => renderTree(D.tree));
 
   setupSidebarResizer(D.sbResizer, D.sidebar, () => {

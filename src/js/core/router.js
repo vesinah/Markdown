@@ -20,6 +20,9 @@ export const ViewRouter = {
     _routerD = domMap;
     renderTreeCallback = options.renderTree || (() => {});
     updateStatCallback = options.updateStat || (() => {});
+    State.on('file:open:request', n => {
+      if (n) this.openFile(n);
+    });
   },
 
   switchView(type) {
@@ -79,7 +82,7 @@ export const ViewRouter = {
           clearHighlights();
         } else if (isImg(node.name)) {
           this.switchView('img');
-          ImageViewer.render({ name: node.name, size: node.size, isRemote: true, url: fetchUrl }, node);
+          await ImageViewer.render({ name: node.name, size: node.size, isRemote: true, url: fetchUrl }, node);
           setActiveDoc(null);
           clearHighlights();
         } else if (isMd(node.name)) {
@@ -112,7 +115,7 @@ export const ViewRouter = {
           clearHighlights();
         } else if (isImg(node.name)) {
           this.switchView('img');
-          ImageViewer.render(file, node);
+          await ImageViewer.render(file, node);
           setActiveDoc(null);
           clearHighlights();
         } else if (isMd(node.name)) {
