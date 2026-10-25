@@ -408,6 +408,11 @@ test('ImageViewer: Correctly updates scale, rotation and reset states', () => {
   assert.strictEqual(ImageViewer.rotation, 90);
   ImageViewer.rotate();
   assert.strictEqual(ImageViewer.rotation, 180);
+  ImageViewer.reset();
+  assert.strictEqual(ImageViewer.scale, 1);
+  assert.strictEqual(ImageViewer.rotation, 0);
+  assert.strictEqual(ImageViewer.isSvg, false);
+  assert.strictEqual(ImageViewer.viewMode, 'vector');
 });
 
 console.log('==============================================================================');

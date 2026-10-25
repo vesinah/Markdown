@@ -32,6 +32,9 @@ export const ViewRouter = {
     if (_routerD.imgView) _routerD.imgView.hidden = (type !== 'img');
     if (_routerD.emptyState) _routerD.emptyState.style.display = (type === 'empty') ? 'flex' : 'none';
 
+    if (type !== 'img') {
+      ImageViewer.reset();
+    }
     if (type === 'empty') {
       if (_routerD.docInfoPopover) _routerD.docInfoPopover.hidden = true;
     }

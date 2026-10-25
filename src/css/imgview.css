@@ -17,6 +17,15 @@
   display: none !important;
 }
 
+#img-view [hidden],
+#img-preview-frame[hidden],
+.img-svg-container[hidden],
+.img-code-container[hidden],
+.img-toolbar[hidden],
+.img-tb-btn[hidden] {
+  display: none !important;
+}
+
 /* Floating Image Control Toolbar */
 .img-toolbar {
   position: absolute;

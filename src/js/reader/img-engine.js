@@ -237,25 +237,55 @@ export const ImageViewer = {
     });
   },
 
+  reset() {
+    if (this.frame) {
+      this.frame.src = '';
+      this.frame.hidden = true;
+      this.frame.style.transform = '';
+    }
+    if (this.svgContainer) {
+      this.svgContainer.innerHTML = '';
+      this.svgContainer.hidden = true;
+      this.svgContainer.style.transform = '';
+    }
+    if (this.codeContainer) {
+      this.codeContainer.hidden = true;
+    }
+    if (this.codeBlock) {
+      this.codeBlock.textContent = '';
+    }
+    if (this.modeToggleBtn) {
+      this.modeToggleBtn.hidden = true;
+    }
+    this.isSvg = false;
+    this.viewMode = 'vector';
+    this.rawSvgText = '';
+    this.cleanSvgText = '';
+    this.svgDimensions = null;
+    this.naturalWidth = 0;
+    this.naturalHeight = 0;
+    this.scale = 1;
+    this.rotation = 0;
+    this.translateX = 0;
+    this.translateY = 0;
+    if (this.zoomLabel) {
+      this.zoomLabel.textContent = '100%';
+    }
+  },
+
   async render(file, node) {
+    this.reset();
+
     this.currentFile = file;
     this.currentNode = node;
     const name = (node && node.name) || (file && file.name) || '';
     const ext = name.split('.').pop().toLowerCase();
     this.isSvg = (ext === 'svg');
 
-    // Reset transformations
-    this.rotation = 0;
-    this.translateX = 0;
-    this.translateY = 0;
-    this.viewMode = 'vector';
-
     if (this.modeToggleBtn) {
       this.modeToggleBtn.hidden = !this.isSvg;
       if (this.modeToggleLabel) this.modeToggleLabel.textContent = '</> SVG โค้ด';
     }
-
-    if (this.codeContainer) this.codeContainer.hidden = true;
 
     if (this.isSvg) {
       await this.renderSvg(file, node);
@@ -306,6 +336,7 @@ export const ImageViewer = {
     // 2. Hide raster frame
     if (this.frame) {
       this.frame.hidden = true;
+      this.frame.src = '';
     }
 
     // 3. Populate code block
@@ -334,8 +365,16 @@ export const ImageViewer = {
   },
 
   async renderRaster(file, node, ext) {
-    if (this.svgContainer) this.svgContainer.hidden = true;
-    if (this.frame) this.frame.hidden = false;
+    if (this.svgContainer) {
+      this.svgContainer.hidden = true;
+      this.svgContainer.innerHTML = '';
+    }
+    if (this.codeContainer) {
+      this.codeContainer.hidden = true;
+    }
+    if (this.frame) {
+      this.frame.hidden = false;
+    }
 
     let url = State.blobUrls.get(node.path);
     if (!url) {
